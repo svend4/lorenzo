@@ -1,10 +1,28 @@
 # 19. ADR-001: Federation over Merging
 
+<!-- toc-auto -->
+## Contents
+
+- [19. ADR-001: Federation over Merging](#19-adr-001-federation-over-merging)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 <!-- tags: architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -50,11 +68,28 @@ formal mapping
 
 ---
 
-**Смотрите также:**
-- [14-adr-001-federation-over-merging](docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md)
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "19 ADR 001 Federation over Merging"
+```
+
+## Смотрите также
+- [14-adr-001-federation-over-merging](../npp-v1-0/14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](../../02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [26-14-adr-001-federation-over-merging](../../02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
+- [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [README](../README.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 
 
 <!-- similar-docs -->
@@ -62,7 +97,7 @@ formal mapping
 ---
 
 **Похожие документы:**
-- [14-adr-001-federation-over-merging](docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md) (сходство 0.85)
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.79)
-- [94-19-adr-001-federation-over-merging](docs/obsidian/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.79)
+- [19-adr-001-federation-over-merging](../../obsidian/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md) (сходство 0.98)
+- [94-19-adr-001-federation-over-merging](../../02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.82)
+- [94-19-adr-001-federation-over-merging](../../obsidian/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.82)
 

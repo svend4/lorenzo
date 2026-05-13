@@ -1,5 +1,23 @@
 # Lorenzo
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ссылки](#ссылки)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Компонент экосистемы Svyazi 2.0_
 **Проекты:** Svyazi
@@ -18,7 +36,7 @@
 _Компонент экосистемы Svyazi 2.0_
 
 ## Ссылки
-- [Исходники](#)
+- Исходники
 - [Документация](../README.md)
 
 <!-- related-auto -->
@@ -47,7 +65,7 @@ _Компонент экосистемы Svyazi 2.0_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [.md](.md)
 - [cowork](cowork.md)
 - [ingit](ingit.md)
@@ -70,12 +88,33 @@ _Компонент экосистемы Svyazi 2.0_
 - [Все таблицы репозитория](../../TABLES.md)
 - [Карта репозитория Lorenzo](../../SITEMAP.md)
 
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [AUTOFILLED](../../AUTOFILLED.md)
+- [TABLES](../../TABLES.md)
+- [.md](.md)
+- [README](README.md)
+- [cowork](cowork.md)
+- [ingit](ingit.md)
+- [kksudo](kksudo.md)
+- [nautilus](nautilus.md)
+- _...ещё 4_
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Lorenzo"
+```
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [svyazi](docs/autofilled/components/svyazi.md) (сходство 1.00)
-- [svend4](docs/autofilled/components/svend4.md) (сходство 1.00)
-- [sgb](docs/autofilled/components/sgb.md) (сходство 1.00)
+- [svyazi](svyazi.md) (сходство 1.00)
+- [svend4](svend4.md) (сходство 1.00)
+- [sgb](sgb.md) (сходство 1.00)
 

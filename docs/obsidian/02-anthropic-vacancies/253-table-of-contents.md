@@ -3,16 +3,45 @@ title: "Table of Contents"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Table of Contents
+
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Table of Contents](#table-of-contents)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
+
+
+## Содержание
+
+- Основной раздел
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > 1. **Why the Binary View Is Incomplete**
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -38,7 +67,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[211-table-of-contents]] (сходство 0.26)
 - [[169-table-of-contents]] (сходство 0.21)
 - [[137-table-of-contents]] (сходство 0.15)
@@ -48,7 +77,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [[211-table-of-contents]]
 - [[169-table-of-contents]]
 - [[308-table-of-contents]]
@@ -97,3 +132,19 @@ date: 2026-04-29
 - [[137-table-of-contents|Table of Contents]] _25%_
 - [[169-table-of-contents|Table of Contents]] _25%_
 - [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [[137-table-of-contents]]
+- [[149-appendix-b-summary-of-contributions]]
+- [[154-table-of-contents]]
+- [[169-table-of-contents]]
+- [[211-table-of-contents]]
+- [[252-abstract]]
+- [[254-1-why-the-binary-view-is-incomplete]]
+- [[255-2-the-twenty-one-teachers-pattern]]
+- _...ещё 5_
+

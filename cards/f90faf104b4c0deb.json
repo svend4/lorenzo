@@ -1,0 +1,62 @@
+{
+  "card_id": "sha256:f90faf104b4c0deb",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/agent-memory-mcp.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/ngt-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:4df540be2763577b",
+  "payload": {
+    "title": "agent-memory-mcp + Memory OS",
+    "summary": "Typed memory MCP плюс более тяжёлая концепция Memory OS с онтологией, gardener‑loop и bi‑temporal facts.",
+    "body": "agent memory mcp memory автор vitaliysemenov moshael проекты svyazi agent memory mcp смотрите также memnet memnet yodoca yodoca rufler rufler ngt memory ngt memory кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Rufler",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp"
+    ],
+    "wc": 166,
+    "path": "docs/svyazi-2-0/components/agent-memory-mcp.md"
+  }
+}

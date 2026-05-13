@@ -1,10 +1,27 @@
 # Abstract + Status of This Document
 
+<!-- toc-auto -->
+## Contents
+
+- [Abstract](#abstract)
+- [0. Status of This Document](#0-status-of-this-document)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
 <!-- tags: anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -47,12 +64,33 @@ native-формат репозитория в унифицированное п�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract Status of This Document"
+```
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [04-abstract](docs/obsidian/02-anthropic-vacancies/04-abstract.md) (сходство 0.53)
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md) (сходство 0.48)
-- [00-abstract-status](docs/nautilus/npp-v1-1/00-abstract-status.md) (сходство 0.46)
+- [00-abstract-status](../../obsidian/nautilus/npp-v1-0/00-abstract-status.md) (сходство 0.99)
+- [04-abstract](../../obsidian/02-anthropic-vacancies/04-abstract.md) (сходство 0.49)
+- [04-abstract](../../02-anthropic-vacancies/04-abstract.md) (сходство 0.49)
 

@@ -1,197 +1,204 @@
 ---
 title: "Тематическое моделирование (TF-IDF)"
 tags:
-  - rag
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - anthropic
-  - collaboration
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Тематическое моделирование (TF-IDF)
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> Документов: **501** | Тем: **6**
-**Проекты:** Svyazi, AgentFS
-
----
-
 <!-- toc -->
 ## Содержание
 
-- [Тема 1: turn, view, cite (325 документов)](#тема-1-turn-view-cite-325-документов)
-- [Тема 4: cowork, ingit, composite (79 документов)](#тема-4-cowork-ingit-composite-79-документов)
-- [Тема 2: middle, ensembl, layer (27 документов)](#тема-2-middle-ensembl-layer-27-документов)
-- [Тема 3: агент, совместной, коллеги (26 документов)](#тема-3-агент-совместной-коллеги-26-документов)
-- [Тема 5: compatibility, level, bridges (22 документов)](#тема-5-compatibility-level-bridges-22-документов)
-- [Тема 6: слов, файлов, файлы (22 документов)](#тема-6-слов-файлов-файлы-22-документов)
+- [Тема 1: cowork, ingit, turn (2042 документов)](#тема-1-cowork-ingit-turn-2042-документов)
+- [Тема 4: triangle, double, domain (123 документов)](#тема-4-triangle-double-domain-123-документов)
+- [Тема 2: memory, wikontic, yodoca (102 документов)](#тема-2-memory-wikontic-yodoca-102-документов)
+- [Тема 3: level, compatibility, bridges (83 документов)](#тема-3-level-compatibility-bridges-83-документов)
+- [Тема 6: federation, normative, merging (69 документов)](#тема-6-federation-normative-merging-69-документов)
+- [Тема 5: section, beneficial, metrics (53 документов)](#тема-5-section-beneficial-metrics-53-документов)
 - [Топ уникальных слов по темам](#топ-уникальных-слов-по-темам)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
 
 ---
 
-<!-- tags: rag, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `TOPIC_MODEL` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: topic-model, docs -->
 
 
+<!-- summary -->
+> `TOPIC_MODEL` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-11_
 
-Документов: **501** | Тем: **6**
+Документов: **2472** | Тем: **6**
 
 > Кластеризация на основе TF-IDF без ML-зависимостей.
 
 
-## Тема 1: turn, view, cite (325 документов)
+## Тема 1: cowork, ingit, turn (2042 документов)
 
-**Ключевые слова:** `turn`, `appendix`, `svyazi`, `view`, `portal`, `memory`, `passports`, `vacancies`, `anthropic`, `table`, `habr`, `сообщение`
+**Ключевые слова:** `cowork`, `ingit`, `appendix`, `turn`, `svyazi`, `lorenzo`, `view`, `agent`, `поиска`, `концептов`, `what`, `через`
 
 **Документы:**
-- `docs/01-svyazi/01-executive-summary.md` — svyazi, подобный, agentfs, проект
-- `docs/01-svyazi/02-methodology.md` — отбора, методика, рамка, первичный
-- `docs/01-svyazi/03-component-catalog.md` — turn, cite, view, search
-- `docs/01-svyazi/04-ensembles-overview.md` — turn, view, cite, search
-- `docs/01-svyazi/06-security-privacy.md` — turn, view, cite, приватность
-- `docs/01-svyazi/07-mvp-planning.md` — turn, view, cite, search
-- `docs/01-svyazi/08-conclusions.md` — turn, view, выводы, дефицитный
-- `docs/01-svyazi/09-architectural-gaps.md` — turn, view, cite, memory
+- `docs/01-svyazi/00-intro-part2.md` — results, концептов, раздела, граф
+- `docs/01-svyazi/01-executive-summary.md` — синергии, линия, продолжение, вывод
+- `docs/01-svyazi/02-methodology.md` — отбора, шкала, зрелости, интеграционной
+- `docs/01-svyazi/03-component-catalog.md` — turn, cite, view, хабр
+- `docs/01-svyazi/04-ensembles-overview.md` — turn, view, cite, ансамбли
+- `docs/01-svyazi/06-security-privacy.md` — turn, приватность, бюджетный, роутинг
+- `docs/01-svyazi/07-mvp-planning.md` — turn, view, cite, прототипа
+- `docs/01-svyazi/08-conclusions.md` — turn, view, выводы, executive
+- `docs/01-svyazi/09-architectural-gaps.md` — turn, view, зазоры, cite
 - `docs/01-svyazi/10-second-order-ensembles.md` — turn, view, ансамбли, шага
 - `docs/01-svyazi/11-integration-contracts.md` — turn, view, контракт, cite
-- `docs/01-svyazi/12-roadmap.md` — turn, view, итерации, дорожная
-- `docs/01-svyazi/13-contacts.md` — turn, view, cite, вопрос
-- `docs/01-svyazi/14-limitations.md` — turn, view, склеивать, ограничение
-- `docs/01-svyazi/QA.md` — упоминаются, envelope, evidence, какие
-- `docs/01-svyazi/README.md` — ensembles, svyazi, conclusions, первичный
-- ... и ещё 310 документов
+- `docs/01-svyazi/12-roadmap.md` — итерации, turn, дорожная, view
+- `docs/01-svyazi/13-contacts.md` — turn, контактная, узкие, collaborations
+- `docs/01-svyazi/14-limitations.md` — turn, склеивать, view, лицензии
+- `docs/01-svyazi/QA.md` — упоминаются, evidence, envelope, sentinel
+- ... и ещё 2027 документов
 
-## Тема 4: cowork, ingit, composite (79 документов)
+## Тема 4: triangle, double, domain (123 документов)
 
-**Ключевые слова:** `cowork`, `ingit`, `agent`, `composite`, `agents`, `what`, `principal`, `professional`, `colleague`, `skills`, `table`, `contents`
-
-**Документы:**
-- `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` — triangle, double, представительских, architecture
-- `docs/02-anthropic-vacancies/146-acknowledgments.md` — acknowledgments, ensembl, configurable, typology
-- `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` — collaborative, foundation, intellectual, composite
-- `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` — inte, layer, symbiotic, representative
-- `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` — agents, commission, client, sports
-- `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` — principal, what, assistants, function
-- `docs/02-anthropic-vacancies/174-5-architectural-specification.md` — principal, principle, agent, component
-- `docs/02-anthropic-vacancies/175-6-ethical-framework.md` — principal, adverse, disabilities, agent
-- `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` — audit, governance, level, platform
-- `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` — scenario, mitigation, risk, principal
-- `docs/02-anthropic-vacancies/179-10-open-questions.md` — questions, what, agents, closing
-- `docs/02-anthropic-vacancies/182-acknowledgments.md` — acknowledgments, underrepresented, emerged, dialogue
-- `docs/02-anthropic-vacancies/183-references.md` — references, typology, principal, science
-- `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` — representative, mariya, agent, case
-- `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` — colleague, collaborative, professional, intellectual
-- ... и ещё 64 документов
-
-## Тема 2: middle, ensembl, layer (27 документов)
-
-**Ключевые слова:** `layer`, `chat`, `middle`, `missing`, `between`, `document`, `through`, `configurable`, `code`, `ensembl`, `acknowledgments`, `specialist`
+**Ключевые слова:** `triangle`, `double`, `layer`, `domains`, `representative`, `architecture`, `abstract`, `agent`, `domain`, `pattern`, `library`, `deployment`
 
 **Документы:**
-- `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` — часть, infrastructure, mmorpg, contributors
-- `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` — guild, contributors, layer, triangle
-- `docs/02-anthropic-vacancies/159-5-economic-model.md` — contributor, year, total, month
-- `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` — contributor, commitment, data, contributors
-- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` — phase, funding, months, phased
-- `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` — receive, what, appendices, commitment
-- `docs/02-anthropic-vacancies/164-10-appendices.md` — partial, appendix, partnership, days
-- `docs/02-anthropic-vacancies/165-closing.md` — свйази, okwf, contributor, matching
-- `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` — between, ensembl, middle, configurable
-- `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` — inte, представительских, symbiotic, layer
-- `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` — underrepresented, ensembl, mediated, middle
-- `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` — professional, practitioner, colleague, update
-- `docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` — underrepresented, mediated, middle, typology
-- `docs/02-anthropic-vacancies/266-13-closing.md` — skilled, distinctive, closing, composite
-- `docs/02-anthropic-vacancies/267-acknowledgments.md` — acknowledgments, middle, between, chat
-- ... и ещё 12 документов
+- `docs/02-anthropic-vacancies/12-content-overview.md` — content, overview, angle, perspective
+- `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` — triangle, double, представительских, representative
+- `docs/02-anthropic-vacancies/136-abstract.md` — triangle, triangles, inter, incomplete
+- `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` — triangle, paradigms, both, triangles
+- `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` — triangle, assistants, invariant, star
+- `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` — triangle, node, assistant, protocol
+- `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` — triangle, double, extensions, inter
+- `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` — triangle, instance, pattern, library
+- `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` — triangle, library, double, domain
+- `docs/02-anthropic-vacancies/144-7-open-questions.md` — inter, triangle, protocols, double
+- `docs/02-anthropic-vacancies/145-8-call-to-action.md` — four, domains, triangle, abstract
+- `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` — triangle, triangles, bridge, double
+- `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` — guild, contributors, layer, level
+- `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` — представительских, representative, агентов, triangle
+- `docs/02-anthropic-vacancies/168-abstract.md` — closing, abstract, architectural, представительских
+- ... и ещё 108 документов
 
-## Тема 3: агент, совместной, коллеги (26 документов)
+## Тема 2: memory, wikontic, yodoca (102 документов)
 
-**Ключевые слова:** `агенты`, `коллеги`, `профессиональные`, `благодарности`, `совместной`, `интеллектуальной`, `интегрированная`, `агент`, `инфраструктура`, `опосредованное`, `представительство`, `агентов`
-
-**Документы:**
-- `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` — ограничения, разрабатывается, паре, агент
-- `docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` — интегрированная, совместной, интеллектуальной, подложка
-- `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` — агенты, механика, ограничения, происхождение
-- `docs/02-anthropic-vacancies/200-10-открытые-вопросы.md` — вопросы, сотрудничеству, агентами, когда
-- `docs/02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md` — недопредст, опосредованное, представительство, совместной
-- `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` — агент, использования, случай, сотрудник
-- `docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md` — недопредст, опосредованное, интегрированная, представительство
-- `docs/02-anthropic-vacancies/230-аннотация.md` — агенты, коллеги, заключение, типами
-- `docs/02-anthropic-vacancies/231-содержание.md` — содержание, профессиональные, коллеги, агенты
-- `docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md` — принципала, типов, тиражирование, специализация
-- `docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md` — коллега, агент, профессиональный, делает
-- `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md` — профессиональных, стандарты, знаний, архитектура
-- `docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md` — профессиональный, отношение, агент, практикующего
-- `docs/02-anthropic-vacancies/241-10-открытые-вопросы.md` — практикующих, базы, практикующие, социального
-- `docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md` — практикующих, виды, профессиональных, развёртывания
-- ... и ещё 11 документов
-
-## Тема 5: compatibility, level, bridges (22 документов)
-
-**Ключевые слова:** `compatibility`, `level`, `bridges`, `history`, `format`, `contact`, `уровень`, `уточнить`, `mapping`, `native`, `author`, `levels`
+**Ключевые слова:** `memory`, `yodoca`, `memnet`, `svyazi`, `wikontic`, `памяти`, `synthesis`, `граф`, `turn`, `candidates`, `guide`, `упоминаются`
 
 **Документы:**
-- `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` — compatibility, debugging, http, planned
+- `docs/05-habr-projects/01-synthesis.md` — wikontic, yodoca, memory, уникальные
+- `docs/05-habr-projects/02-collaboration-partners.md` — подобных, статус, wikontic, статьи
+- `docs/05-habr-projects/QA.md` — упоминаются, cardindex, памяти, episod
+- `docs/05-habr-projects/knowledge/wikontic.md` — memory, yodoca, synthesis, собираются
+- `docs/05-habr-projects/memory/README.md` — yodoca, памяти, memory, граф
+- `docs/05-habr-projects/memory/agent-memory-mcp.md` — memory, agentfs, gardener, temporal
+- `docs/05-habr-projects/memory/ngt-memory.md` — wikontic, персистентной, аналоги, ассоциативные
+- `docs/05-habr-projects/memory/yodoca.md` — wikontic, yodoca, partners, synthesis
+- `docs/COLLAB_SUGGESTIONS.md` — memory, wikontic, references, components
+- `docs/PROTOTYPE_SPEC.md` — итерация, выполнено, envelope, card
+- `docs/SCRIPT_EVAL_REPORT.md` — сценка, скриптов, мгновенно, абзацев
+- `docs/ai-collaborations/candidates/01-three-key-candidates.md` — analogues, чуяна, three, direct
+- `docs/ai-collaborations/candidates/02-related-projects-context.md` — related, candidates, projects, hebbian
+- `docs/ai-collaborations/candidates/README.md` — candidates, hebbian, related, synthesis
+- `docs/ai-collaborations/continuation/01-shared-memory-between-agents.md` — coally, protocols, workshop, mclaude
+- ... и ещё 87 документов
+
+## Тема 3: level, compatibility, bridges (83 документов)
+
+**Ключевые слова:** `level`, `compatibility`, `bridges`, `format`, `native`, `уровень`, `angle`, `perspective`, `levels`, `network`, `improve`, `repo`
+
+**Документы:**
+- `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` — passport, compatibility, minimal, curious
 - `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` — compatibility, level, repo, levels
-- `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` — аудит, уровень, управление, прозрачности
-- `docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` — lorenzo, макс, outreach, опция
-- `docs/02-anthropic-vacancies/37-native-format.md` — format, native, вариант, уточнить
-- `docs/02-anthropic-vacancies/40-bridges.md` — bridges, level, compatibility, коррелирует
-- `docs/02-anthropic-vacancies/41-compatibility-level.md` — compatibility, level, levels, bridged
-- `docs/02-anthropic-vacancies/43-history.md` — history, волной, декабрь, совпадает
-- `docs/02-anthropic-vacancies/48-content-overview.md` — contact, author, history, концептуальная
-- `docs/02-anthropic-vacancies/50-bridges.md` — bridges, графе, вершина, гексаграмма
-- `docs/02-anthropic-vacancies/51-compatibility-level.md` — level, compatibility, bridges, bridged
-- `docs/02-anthropic-vacancies/52-author-contact.md` — contact, author, уточнить, ранние
-- `docs/02-anthropic-vacancies/53-history.md` — history, overview, content, коммита
-- `docs/02-anthropic-vacancies/57-native-format.md` — format, native, bridges, compatibility
-- `docs/02-anthropic-vacancies/60-bridges.md` — bridges, compatibility, level, биективное
-- ... и ещё 7 документов
+- `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` — governance, audit, dispute, oversight
+- `docs/02-anthropic-vacancies/18-6-adapter-interface.md` — required, level, flow, query
+- `docs/02-anthropic-vacancies/40-bridges.md` — bridges, compatibility, level, мост
+- `docs/02-anthropic-vacancies/41-compatibility-level.md` — compatibility, level, passport, minimal
+- `docs/02-anthropic-vacancies/47-native-format.md` — format, native, angle, perspective
+- `docs/02-anthropic-vacancies/49-angle-perspective.md` — angle, perspective, format, native
+- `docs/02-anthropic-vacancies/50-bridges.md` — bridges, compatibility, format, level
+- `docs/02-anthropic-vacancies/51-compatibility-level.md` — compatibility, bridges, level, format
+- `docs/02-anthropic-vacancies/57-native-format.md` — bridges, format, native, compatibility
+- `docs/02-anthropic-vacancies/60-bridges.md` — bridges, compatibility, level, class
+- `docs/02-anthropic-vacancies/61-compatibility-level.md` — compatibility, bridges, level, format
+- `docs/02-anthropic-vacancies/80-5-compatibility-levels.md` — level, compatibility, levels, linked
+- `docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` — passports, examples, интегральный, glossary
+- ... и ещё 68 документов
 
-## Тема 6: слов, файлов, файлы (22 документов)
+## Тема 6: federation, normative, merging (69 документов)
 
-**Ключевые слова:** `слов`, `файлов`, `тегов`, `callout`, `summary`, `tags`, `autofilled`, `dates`, `короткий`, `сложный`, `файлы`, `файл`
+**Ключевые слова:** `merging`, `normative`, `federation`, `contract`, `five`, `over`, `paths`, `onboarding`, `class`, `informative`, `type`, `portals`
 
 **Документы:**
-- `docs/AUTOFILLED.md` — autofilled, components, данными, scoring
-- `docs/BACKLINKS.md` — входящих, ссылок, ссылками, самых
-- `docs/CHANGELOG.md` — files, improve, items, coverage
-- `docs/COMPARE.md` — слов, стало, файлы, clusters
-- `docs/COMPLEXITY.md` — сложный, простой, средний, балла
-- `docs/COVERAGE.md` — crossrefs, backlinks, файлов, теги
-- `docs/DIGEST_WEEKLY.md` — файлов, еженедельный, изменённых, дайджест
-- `docs/HEALTH.md` — сломанных, балл, ссылок, полнота
-- `docs/INDEX.md` — слов, скриптов, файлов, readme
-- `docs/KEYWORD_INDEX.md` — файлов, слов, слово, всего
-- `docs/KPI.md` — интегральный, intro, анализ, clusters
-- `docs/LLM_SUMMARIES.md` — слов, файлы, раздел, файлов
-- `docs/METRICS.md` — callout, tags, summary, балл
-- `docs/NAMED_ENTITIES.md` — dates, tech, projects, файлов
-- `docs/ORPHANS.md` — слов, изолированных, файлы, входящих
-- ... и ещё 7 документов
+- `docs/02-anthropic-vacancies/06-1-introduction.md` — goals, introduction, merging, federation
+- `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` — informative, queryresult, доступные, extension
+- `docs/02-anthropic-vacancies/128-доступные-инструменты.md` — informative, portals, запросов, contract
+- `docs/02-anthropic-vacancies/211-table-of-contents.md` — table, typology, makes, side
+- `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` — type, types, makes, five
+- `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` — type, professional, five, colleague
+- `docs/02-anthropic-vacancies/23-11-security-considerations.md` — considerations, security, portals, normative
+- `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` — merging, federation, over, class
+- `docs/02-anthropic-vacancies/68-about.md` — portal, reference, repo, protocol
+- `docs/02-anthropic-vacancies/81-6-adapter-interface.md` — required, baseadapter, safety, describe
+- `docs/02-anthropic-vacancies/83-8-q6-space-normative.md` — class, mapping, neighbors, вершины
+- `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` — path, terminology, repo, autoadapter
+- `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md` — methods, implementation, reference, return
+- `docs/02-anthropic-vacancies/90-15-security-considerations.md` — considerations, portals, normative, security
+- `docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md` — merging, federation, equal, rank
+- ... и ещё 54 документов
+
+## Тема 5: section, beneficial, metrics (53 документов)
+
+**Ключевые слова:** `section`, `beneficial`, `metrics`, `deployments`, `success`, `role`, `timeliness`, `dimension`, `lorenzo`, `proposer`, `написание`, `concept`
+
+**Документы:**
+- `docs/COVERAGE.md` — условные, обозначения, heatmap, отсутствует
+- `docs/DIGEST_WEEKLY.md` — digest, metrics, auto, preview
+- `docs/HEALTH.md` — балл, broken, links, validation
+- `docs/SKILL_DASHBOARD.md` — метрик, dashboard, skill, сбор
+- `docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md` — section, request, deployments, beneficial
+- `docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md` — section, dimension, beneficial, problem
+- `docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md` — section, success, beneficial, metrics
+- `docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md` — section, timeliness, proposer, role
+- `docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md` — section, success, metrics, pilot
+- `docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md` — section, timeliness, deployments, beneficial
+- `docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md` — section, solution, timeliness, proposer
+- `docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md` — section, dimension, beneficial, target
+- `docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md` — section, mitigated, timeliness, solution
+- `docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md` — section, success, beneficial, metrics
+- `docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md` — section, format, request, deployments
+- ... и ещё 38 документов
 
 ## Топ уникальных слов по темам
 
 | Тема | Слово 1 | Слово 2 | Слово 3 | Слово 4 | Слово 5 |
 |------|---------|---------|---------|---------|---------|
-| turn, view, cite | turn | appendix | svyazi | view | portal |
-| cowork, ingit, compo | cowork | ingit | agent | composite | agents |
-| middle, ensembl, lay | layer | chat | middle | missing | between |
-| агент, совместной, к | агенты | коллеги | профессиональные | благодарности | совместной |
-| compatibility, level | compatibility | level | bridges | history | format |
-| слов, файлов, файлы | слов | файлов | тегов | callout | summary |
+| cowork, ingit, turn | cowork | ingit | appendix | turn | svyazi |
+| triangle, double, do | triangle | double | layer | domains | representative |
+| memory, wikontic, yo | memory | yodoca | memnet | svyazi | wikontic |
+| level, compatibility | level | compatibility | bridges | format | native |
+| federation, normativ | merging | normative | federation | contract | five |
+| section, beneficial, | section | beneficial | metrics | deployments | success |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_topic_model.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
 
 <!-- see-also -->
 
@@ -199,17 +206,19 @@ _Обновлено: 2026-04-29_
 
 **Смотрите также:**
 - [[CLUSTERS]]
-- [[READING_TIME]]
-- [[SEARCH]]
-- [[READABILITY]]
+- [[READING_ORDER]]
+- [[PRIORITIES]]
+- [[DIGEST_WEEKLY]]
 
 
-<!-- similar-docs -->
+<!-- backlinks -->
 
 ---
 
-**Похожие документы:**
-- [[TOPIC_MODEL]] (сходство 0.99)
-- [[READING_TIME]] (сходство 0.27)
-- [[SOURCE_MAP]] (сходство 0.26)
+**Кто ссылается на этот документ (5):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
 

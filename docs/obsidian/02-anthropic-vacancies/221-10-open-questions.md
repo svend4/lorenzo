@@ -4,22 +4,18 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 10. Open Questions
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Open Questions(10-open-questions) - 10.1.
-> ✅ **Результат:** Transition Costs When practitioners move between Professional Colleague Agents (switching providers), what's the friction?
-> 🏷️ **Ключевые слова:** `questions`, `profession`, `practitioners`, `anthropic`, `professional`, `vacancies`, `agents`, `quality`
->
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
+<!-- alert-added -->
 
-<!-- toc-auto -->
-## Contents
+<!-- toc -->
+## Содержание
 
 - [10. Open Questions](#10-open-questions)
   - [10.1. Scope of "Profession"](#101-scope-of-profession)
@@ -30,6 +26,8 @@ date: 2026-04-29
   - [10.6. Transition Costs](#106-transition-costs)
   - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
   - [10.8. Appropriate Resistance](#108-appropriate-resistance)
+
+---
 
 
 <!-- summary -->
@@ -115,7 +113,7 @@ they shape technical decisions.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[264-11-open-questions]] (сходство 0.18)
 - [[179-10-open-questions]] (сходство 0.12)
 - [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.12)
@@ -125,9 +123,31 @@ they shape technical decisions.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
+## Смотрите также
 - [[264-11-open-questions]]
 - [[179-10-open-questions]]
 - [[254-1-why-the-binary-view-is-incomplete]]
 - [[223-12-closing]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[151-open-knowledge-work-foundation-md]]
+- [[211-table-of-contents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[217-6-risks-specific-to-this-category]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[223-12-closing]]
+- _...ещё 4_
 

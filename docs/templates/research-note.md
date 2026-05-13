@@ -1,14 +1,9 @@
----
-template: research-note
-version: "1.0"
-title: "[Тема исследования]"
-created: 2026-04-29
-status: draft
-tags: [исследование]
-related: []
----
-
 # [Тема исследования]
+
+> [!NOTE]
+> Раздел `research-note` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Краткий итог исследования -->
 <!-- tags: исследование -->
@@ -39,14 +34,29 @@ related: []
 - [ ] [Действие 2]
 
 ---
-_Создано: 2026-04-29_
+_Создано: 2026-05-13_
 
-<!-- see-also -->
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «[Тема исследования]». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_research_note.py
+```
+
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
-- [research-summary](docs/obsidian/autofilled/research-summary.md)
-- [contact-outreach](docs/templates/contact-outreach.md)
-- [project-component](docs/templates/project-component.md)
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [README](README.md)
+- [experiment-log](experiment-log.md)
+- [template-of-templates](template-of-templates.md)
 

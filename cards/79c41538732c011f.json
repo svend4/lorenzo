@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:79c41538732c011f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/okwf-concept/04-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:4e3f4fdfb856b60f",
+  "payload": {
+    "title": "4. Nautilus Portal as Reference Substrate",
+    "summary": "The Double-Triangle Architecture requires a substrate capable of:",
+    "body": "nautilus portal reference substrate источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration nautilus portal reference substrate the double triangle architecture requires substrate capable representing diverse knowledge sources uniformly for assistants query across nodes providing distributed persistent memory for context continuity supporting multi level consensus for conflict resolution enabling federated queries for protocol routing nautilus portal protocol npp was designed for knowledge federation but provides exactly these properties propose npp the reference substrate for double triangle implementations npp components mapped double triangle requirements adapters npp interface between participants and shared space double triangle each assistant can read and write through the same adapter mechanism used any participant providing uniform cross triangle access portalentry structure npp unified unit knowledge double triangle this represents tasks deliverables context updates and notifications uniformly enabling single mechanism for all inter layer communication consensus model npp conflict resolution between sources double triangle consensus operates three levels intra node between assistants inter node meta level all using the same mechanism with different scope coordinate space npp unified addressing for concepts double triangle addresses tasks and deliverables uniformly across domains enabling cross node task similarity queries bridges npp formal links between participants domains double triangle bridges formalize responsibility boundaries between nodes authentication domain authorization interface token format compatibility levels npp graduated participation double triangle this allows nodes join teams with minimal setup level and mature over time full integration level federation over merging npp principle preserve source autonomy double triangle this ensures nodes remain functional without the meta agent augments coordination but does not replace node autonomy required extensions npp for double triangle while npp provides the substrate three extensions are needed for full double triangle support extension agent registry npp registers repositories double triangle requires registering agents assistants and meta agents first class participants agents have identities capabilities scope authority and audit trails extension task protocol npp supports queries but not tasks double triangle requires formal task objects task assignment acceptance completion rejection reassignment extension role protocol npp has concept roles double triangle requires roles first class this node responsible for this assistant handles role assignments constrain protocol routing these extensions are additive they not break npp compatibility double triangle implementation npp implementation plus these extensions empirical evidence from nautilus reference implementation the nautilus reference implementation github com svend nautilus provides empirical evidence that the substrate works practice lines python adapters tests passing mypy errors knowledge repositories federated info pro meta data data infosystems agents extended adapters enabling federation external sources obsidian vaults arxiv papers github topic repos jsonl files self declaring repos via autoadapter zero external dependencies python stdlib only full rest api mcp wrapper openapi specification docker deployment this demonstrates that npp can implemented single developer months providing practical foundation for double triangle deployments смотрите также nautilus portal reference substrate anthropic vacancies nautilus portal reference substrate proposed infrastructure okwf concept proposed infrastructure proposed infrastructure anthropic vacancies proposed infrastructure double triangle architecture double triangle architecture",
+    "tags": [
+      "rag",
+      "knowledge",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 631,
+    "path": "docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md"
+  }
+}

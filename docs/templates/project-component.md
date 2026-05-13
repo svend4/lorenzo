@@ -1,18 +1,9 @@
----
-template: project-component
-version: "1.0"
-component: "[Название компонента]"
-project_version: "[x.y.z]"
-license: "[MIT|Apache-2.0|BSL]"
-language: "[Python|TypeScript|Rust|Go]"
-repo: "[ссылка]"
-layer: "[memory|knowledge|ingestion|orchestration]"
-maturity: "[experimental|alpha|beta|stable]"
-created: 2026-04-29
-tags: [архитектура, проект]
----
-
 # [Название компонента]
+
+> [!NOTE]
+> Раздел `project-component` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
@@ -46,15 +37,34 @@ tags: [архитектура, проект]
 - Статус связи: [не писали / написали / ответили]
 
 ---
-_Создано: 2026-04-29_
+_Создано: 2026-05-13_
 
-<!-- see-also -->
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_project_component.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
-- [contact-outreach](docs/templates/contact-outreach.md)
-- [ensemble](docs/templates/ensemble.md)
-- [vladspace](docs/obsidian/contacts/vladspace.md)
-- [cutcode](docs/obsidian/contacts/cutcode.md)
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [README](README.md)
+- [agent-spec](agent-spec.md)
+- [mega-stack](mega-stack.md)
+- _...ещё 1_
 

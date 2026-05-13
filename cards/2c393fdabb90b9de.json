@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:2c393fdabb90b9de",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-en/05-four-integration-paths.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-en/07-practical-first-steps.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-en/03-ingit-provides.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-en/02-cowork-provides.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:1393618e852ffdff",
+  "payload": {
+    "title": "5. Four Integration Paths in Order of Accessibility",
+    "summary": "We identify four paths from most-immediate to most-mature.",
+    "body": "four integration paths order accessibility источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper ingit cowork источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper ingit cowork four integration paths order accessibility identify four paths from most immediate most mature path ingit project cowork immediate development required available now steps open claude desktop cowork tab create new project start from scratch point project existing ingit folder empty folder with ingit structure add custom instructions describing ingit conventions add reference documents explaining ingit philosophy begin work what works cowork reads ingit structure custom instructions inform cowork conventions cowork can create edit files following conventions persistent memory builds project knowledge git operations work through shell commands what missing automatic validation cowork might create invalid yaml ingit specific operations manual git workflow effort one day set zero ongoing development recommendation this now use for current nautilus okwf document series generates immediate learning about what works and what missing path ingit mcp server short term development required weeks for basic version build ingit mcp server exposing ingit operations knowledge base operations ingit search wiki query ingit read document path ingit create document template metadata content ingit list recent documents days ingit get document metadata path task operations ingit list tasks filters ingit create task metadata description ingit update task updates ingit decompose task subtasks validation operations ingit validate yaml content schema ingit validate project structure path git operations ingit commit message files ingit get recent changes days ingit branch name from project operations ingit get project structure ingit create subproject name type cowork users add this mcp server their project cowork calls these tools instead generic file operations what works that path doesn validation enforced automatically ingit specific operations available domain knowledge encapsulated server cleaner cowork instructions less convention explanation effort weeks development open source release recommendation begin after one month path usage real usage informs mcp tool design avoid premature design path ingit cowork project template medium term requires anthropic expose project template api publicly once anthropic enables third party project templates ingit publishes template pre configured folder structure pre written custom instructions optional pre installed mcp server sample content explaining conventions quick start documentation users get working ingit cowork setup one click what works that path doesn massive reduction setup friction discoverable cowork users standard configuration across users easier share between team members when team sharing available effort when api available weeks for template creation recommendation watch for api availability anthropic will likely enable this timing uncertain ready when opens path deep cowork integration long term speculative depends cowork api maturation when cowork exposes deeper apis custom elements within cowork cowork aware validation flow native ingit task integration shared memory across cowork and ingit operations cooperative scheduling this most ambitious requires anthropic enable substantial third party extension timing entirely outside ingit author control effort when possible months for full integration recommendation don plan around this take opportunities they arise don depend sequencing logic the four paths are not parallel options they are sequential each building the previous path generates usage learning path builds automation based learning path enables distribution when api available path deepens integration when api matures skipping ahead risky path without path risks designing wrong tools path without path has value package path without ecosystem risks depending capabilities not yet available sequential progression maximizes value each stage and defers complex decisions until evidence available смотрите также four integration paths order accessibility anthropic vacancies four integration paths order accessibility practical first steps practical first steps ingit provides ingit provides cowork provides cowork provides",
+    "tags": [
+      "rag",
+      "orchestration",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 737,
+    "path": "docs/nautilus/ingit-cowork-en/05-four-integration-paths.md"
+  }
+}

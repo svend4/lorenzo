@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:24c12f2c58d7b1b7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/126-установка.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/154-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/326-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/63-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:0752edd57001c3fb",
+  "payload": {
+    "title": "Установка",
+    "summary": "Это единственная внешняя зависимость. Сам portal работает без",
+    "body": "установка contents установка установка установить mcp sdk установить mcp sdk проверить что portal работает проверить что portalpy работает протестировать mcp обёртку локально протестировать mcp обёртку локально это единственная внешняя зависимость сам portal работает без смотрите также appendix minimal working example appendix minimal working example похожие документы appendix minimal working example appendix minimal working example сходство appendix minimal working example appendix minimal working example сходство portal mcp portal mcp сходство кто ссылается этот документ table contents table contents содержание содержание history history readme readme",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 163,
+    "path": "docs/02-anthropic-vacancies/126-установка.md"
+  }
+}

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -13,10 +13,19 @@ tags:
   * roadmap
   * collaboration
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Методика и рамка отбора
+
+
+h2. Содержание
+
+* [Статус|#статус]
+* [Методика и рамка отбора|#методика-и-рамка-отбора]
+
+----
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -67,8 +76,8 @@ h2. Методика и рамка отбора
 
 ----
 
-_Похожие документы:_
-* [[00-intro-part2|02-methodology]]/02-methodology.md) (сходство 0.74)
+h2. Похожие документы
+* [[02-methodology]] (сходство 0.74)
 * [[01-executive-summary]] (сходство 0.11)
 
 
@@ -76,11 +85,17 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
-* [[00-intro-part2|02-methodology]]/02-methodology.md)
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Методика и рамка отбора"
+{code}
+
+h2. Смотрите также
+* [[02-methodology]]
 * [[01-executive-summary]]
 * [[DUPLICATES]]
-* [[00-intro-part2|08-conclusions]]/08-conclusions.md)
+* [[08-conclusions]]
 
 
 
@@ -91,3 +106,19 @@ _Смотрите также:_
 [^rag]: Retrieval-Augmented Generation — генерация с поиском
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [[02-methodology]]
+* [[README]]
+* [[CONCEPTS]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[RISK_REGISTER]]
+* [[SEARCH]]
+* _...ещё 2_
+

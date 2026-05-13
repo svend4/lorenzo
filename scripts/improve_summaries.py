@@ -42,7 +42,7 @@ def extract_annotation(text: str) -> tuple[str, list[str]]:
     return snippet, found
 
 
-def add_summary(path: Path) -> bool:
+def add_summary(path: Path, dry_run: bool = False) -> bool:
     text = path.read_text(encoding="utf-8")
 
     if any(marker in text for marker in SKIP_MARKERS):
@@ -73,11 +73,18 @@ def add_summary(path: Path) -> bool:
             break
 
     lines.insert(insert_at, "\n" + summary_block)
-    path.write_text("\n".join(lines), encoding="utf-8")
+    if not dry_run:
+        path.write_text("\n".join(lines), encoding="utf-8")
     return True
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Добавляет краткую аннотацию в начало каждого файла")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Показать сколько файлов будет изменено, не изменять")
+    args = parser.parse_args()
+
     import sys
     sys.path.insert(0, str(Path(__file__).parent))
     try:
@@ -93,11 +100,18 @@ def main():
         if is_ignored(f):
             skipped += 1
             continue
-        if add_summary(f):
+        if add_summary(f, dry_run=args.dry_run):
+            if args.dry_run:
+                print(f"  [dry-run] {f.relative_to(ROOT)} → +summary")
             updated += 1
         else:
             skipped += 1
-    print(f"Обновлено: {updated} файлов, пропущено: {skipped}")
+
+    if args.dry_run:
+        print(f"\n[dry-run] файлов к обновлению: {updated}, пропущено: {skipped}")
+        print("[dry-run] Файлы не изменены. Уберите --dry-run чтобы применить.")
+    else:
+        print(f"Обновлено: {updated} файлов, пропущено: {skipped}")
 
 
 if __name__ == "__main__":

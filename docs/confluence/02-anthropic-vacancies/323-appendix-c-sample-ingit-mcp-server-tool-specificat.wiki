@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Appendix C: Sample InGit MCP Server Tool Specifications
@@ -289,7 +289,7 @@ This recursive nature — каждый ваш observation refines understanding,
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [318-10-strategic-positioning](318-10-strategic-positioning.md) (сходство 0.21)
 - [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md) (сходство 0.17)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.15)
@@ -299,7 +299,7 @@ This recursive nature — каждый ваш observation refines understanding,
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [318-10-strategic-positioning](318-10-strategic-positioning.md)
 - [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
@@ -340,3 +340,18 @@ This recursive nature — каждый ваш observation refines understanding,
 - [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _21%_
 - [The Missing Middle Layer Between Chat and Code](274-the-missing-middle-layer-between-chat-and-code.md) _21%_
 - [5. Four Integration Paths in Order of Accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
+- [307-abstract](307-abstract.md)
+- [README](README.md)
+

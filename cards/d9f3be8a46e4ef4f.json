@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:d9f3be8a46e4ef4f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/04-komu-ty-sluzhish.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/16-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:35d313f3c0a6b71f",
+  "payload": {
+    "title": "Кому ты служишь (слоистая модель)",
+    "summary": "Главный благополучатель:    Уязвимые группы (заявители SGB, инвалиды,",
+    "body": "кому служишь слоистая модель warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений главный благополучатель уязвимые группы заявители sgb инвалиды смотрите также komu sluzhish lorenzo agent komu sluzhish кто ссылается этот документ доступ данным доступ данным appendix история изменений методологии appendix история изменений методологии history history appendix domain comparison matrix appendix domain comparison matrix приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit readme readme",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 144,
+    "path": "docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md"
+  }
+}

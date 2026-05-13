@@ -1,0 +1,62 @@
+{
+  "card_id": "sha256:5e53ac664244ecab",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/analogues/02-related-projects.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/ai-collaborations/candidates/02-related-projects-context.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/candidates/01-three-key-candidates.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/analogues/01-three-direct-analogues.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/analogues/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:b02962fa8338caa5",
+  "payload": {
+    "title": "Смежные проекты",
+    "summary": "«Программа поиска единомышленников ВКонтакте» (https://habr.com/ru/articles/495554/) — олдскульный аналог через анализ подписок, без LLM, но с той же концепцией matching по интересам. Полезна как контр-пример: показывает, чего не хватает без семантического слоя.",
+    "body": "смежные проекты источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi cardindex ngt memory wikontic смотрите также related projects context collaborations candidates related projects context synthesis hebbian collaboration graph collaborations candidates synthesis hebbian collaboration graph three key candidates collaborations candidates three key candidates three direct analogues three direct analogues кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 370,
+    "path": "docs/habr-unique-projects/analogues/02-related-projects.md"
+  }
+}

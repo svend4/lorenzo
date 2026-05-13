@@ -1,35 +1,64 @@
-# Svyazi 2.0 — тематический индекс
+# svyazi-2-0
 
-Содержимое исходных файлов `deep-research-report (1)/(2)/(3)/(4).md` (находятся в корне репозитория, не изменены) разбито здесь на маленькие тематические документы по папкам и подпапкам.
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
 
-## Подпапки
+<!-- alert-added -->
+<!-- tags: readme, docs -->
 
-| Подпапка | Тема |
-|---|---|
-| [`overview/`](overview/) | Executive summary, методика, общая карта |
-| [`components/`](components/) | Описание каждого найденного проекта-кирпичика |
-| [`ensembles/`](ensembles/) | Ансамбли A–E и три ансамбля «второго порядка» |
-| [`architecture/`](architecture/) | Архитектурные зазоры и пять интеграционных контрактов |
-| [`prototype/`](prototype/) | MVP, риски, дорожная карта итераций |
-| [`security/`](security/) | Default policy, приватность, бюджетный роутинг |
-| [`outreach/`](outreach/) | Кому писать, шаблоны сообщений, узкие вопросы |
-| [`limitations/`](limitations/) | Лицензии, что не стоит склеивать, выводы |
 
-## Источник
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
 
-- [`deep-research-report (1).md`](../../deep-research-report%20%281%29.md) — часть 1: компоненты, ансамбли A–E, MVP, безопасность.
-- [`deep-research-report (2).md`](../../deep-research-report%20%282%29.md) — байт-в-байт дубликат (1).
-- [`deep-research-report (3).md`](../../deep-research-report%20%283%29.md) — часть 2: продолжение, архитектурные зазоры, ансамбли F–H, контракты, дорожная карта, лицензии.
-- [`deep-research-report (4).md`](../../deep-research-report%20%284%29.md) — байт-в-байт дубликат (3).
 
-Дубликаты сохранены, как просил пользователь.
+**Файлов:** 1
+
+## Содержание
+
+- [QA.md](QA.md) — <!-- toc-auto -->
+
+## Подразделы
+
+- [architecture/](architecture/) — architecture
+- [components/](components/) — components
+- [ensembles/](ensembles/) — Ансамбли проектов
+- [limitations/](limitations/) — limitations
+- [outreach/](outreach/) — outreach
+- [overview/](overview/) — overview
+- [prototype/](prototype/) — prototype
+- [security/](security/) — security
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [VERSION_DIFF](../VERSION_DIFF.md)
+- [reading-paths](../reading-paths.md)
+- [QA](QA.md)
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/obsidian/04-ai-collaborations/README.md) (сходство 0.18)
-- [SEE_ALSO](docs/SEE_ALSO.md) (сходство 0.12)
-- [SEE_ALSO](docs/obsidian/SEE_ALSO.md) (сходство 0.12)
+- [README](../obsidian/svyazi-2-0/README.md) (сходство 0.77)
+- [README](prototype/README.md) (сходство 0.45)
+- [README](../ai-collaborations/README.md) (сходство 0.45)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «svyazi-2-0». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

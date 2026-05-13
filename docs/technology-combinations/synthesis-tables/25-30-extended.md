@@ -1,10 +1,26 @@
 # Сводная таблица 25–30 (Complete 1–30)
 
+<!-- toc-auto -->
+## Contents
+
+- [Рекомендация](#рекомендация)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑30)».
 
 ---
 <!-- tags: rag, orchestration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -42,11 +58,28 @@ class Bescheid(BaseModel):
 
 ---
 
-**Смотрите также:**
-- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+## Смотрите также
+- [30-mega-stack-3-0-with-dsl-ast](../combinations/30-mega-stack-3-0-with-dsl-ast.md)
+- [20-24-final](20-24-final.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [31-35-final](31-35-final.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [25-legal-dsl-code-transpiler](../combinations/25-legal-dsl-code-transpiler.md)
+- [27-hybrid-rag-with-ast-chunked-code](../combinations/27-hybrid-rag-with-ast-chunked-code.md)
+- [28-pydantic-enforced-legal-workflows](../combinations/28-pydantic-enforced-legal-workflows.md)
+- _...ещё 6_
 
 
 <!-- similar-docs -->
@@ -54,7 +87,7 @@ class Bescheid(BaseModel):
 ---
 
 **Похожие документы:**
-- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md) (сходство 0.36)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.34)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.33)
+- [25-30-extended](../../obsidian/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.96)
+- [20-24-final](20-24-final.md) (сходство 0.42)
+- [20-24-final](../../obsidian/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.41)
 

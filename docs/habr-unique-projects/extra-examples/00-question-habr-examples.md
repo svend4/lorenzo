@@ -1,11 +1,38 @@
 # Вопрос: ещё примеры с Хабра по варианту D
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 **Проекты:** Svyazi
 
 ---
 <!-- tags: ingestion, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -64,11 +91,31 @@ Web durchsucht
 
 ---
 
-**Смотрите также:**
-- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
-- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
-- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
-- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос ещё примеры с Хабра по варианту D"
+```
+
+## Смотрите также
+- 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- [02-collaboration-partners](../../05-habr-projects/02-collaboration-partners.md)
+- [05-hw-nl2workflow](05-hw-nl2workflow.md)
+- [00-overview-grandchild-combination](../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -76,7 +123,7 @@ Web durchsucht
 ---
 
 **Похожие документы:**
-- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) (сходство 0.17)
-- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md) (сходство 0.16)
-- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md) (сходство 0.15)
+- [00-question-habr-examples](../../obsidian/habr-unique-projects/extra-examples/00-question-habr-examples.md) (сходство 0.98)
+- [01-svyazi-andrey-chuyan](../../obsidian/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) (сходство 0.22)
+- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md) (сходство 0.21)
 

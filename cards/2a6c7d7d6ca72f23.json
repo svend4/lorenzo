@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:2a6c7d7d6ca72f23",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/130-отладка.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:f1647bf4bf3b98b3",
+  "payload": {
+    "title": "Отладка",
+    "summary": "2. Запустить `portal-mcp.py --warmup` напрямую в терминале —",
+    "body": "отладка contents отладка отладка сервер подключается сервер подключается tool call падает adapterfailed tool call падает adapterfailed tool появляется claude desktop tool появляется claude desktop проверить логи claude desktop отладка сервер подключается проверить логи claude desktop macos library logs claude mcp log windows appdata claude logs mcp log linux config claude logs mcp log запустить portal mcp warmup напрямую терминале если падает читайте stderr вывод проверить что python path portal импортируется path nautilus python from portal import nautilusportal print nautilusportal tool call падает adapter failed адаптер поднял исключение проверить python portal query если portal тоже падает проблема mcp самом адаптере tool появляется claude desktop проверить синтаксис claude desktop config json валидный json полностью перезапустить claude desktop reload убедиться что absolute paths relative похожие документы подключение claude desktop сходство конфигурация для claude desktop сходство смотрите также подключение claude desktop конфигурация для claude desktop appendix minimal working example readme mcp инструкция установке упоминается readme вакансии anthropic анализ кластерам конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop упоминается readme вакансии anthropic анализ кластерам связанные документы конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop portal mcp portal mcp связанные документы конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 254,
+    "path": "docs/obsidian/02-anthropic-vacancies/130-отладка.md"
+  }
+}

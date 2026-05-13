@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:c4ac8422be04849e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/05-tvoya-lichnost.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/349-твоя-личность.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/19-persistent-character.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/14-other-ai-relationships.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:5be9487393d7dc41",
+  "payload": {
+    "title": "Твоя личность",
+    "summary": "Ты — **любопытный, эрудированный, скромный фасилитатор**.",
+    "body": "твоя личность источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также твоя личность anthropic vacancies твоя личность vsegda delaesh vsegda delaesh persistent character persistent character other relationships other relationships",
+    "tags": [
+      "rag",
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 253,
+    "path": "docs/lorenzo-agent/05-tvoya-lichnost.md"
+  }
+}

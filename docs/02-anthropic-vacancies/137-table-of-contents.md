@@ -1,10 +1,39 @@
 # Table of Contents
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Table of Contents](#table-of-contents)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (15)](#кто-ссылается-на-этот-документ-15)
+
+
+## Содержание
+
+- Основной раздел
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > 1. **Why Single-Triangle Models Are Incomplete**
 
 ---
 <!-- tags: architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -26,7 +55,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md) (сходство 0.24)
 - [253-table-of-contents](253-table-of-contents.md) (сходство 0.15)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.15)
@@ -36,7 +65,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
@@ -83,3 +118,19 @@
 - [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md) _29%_
 - [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _29%_
 - [References](268-references.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (15)
+- [136-abstract](136-abstract.md)
+- [146-acknowledgments](146-acknowledgments.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- _...ещё 7_
+

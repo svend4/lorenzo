@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:ab7dd0116eb0ec54",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/okwf-concept/01-problem-statement.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/155-1-problem-statement.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/okwf-concept/02-target-populations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/okwf-concept/09-call-for-partnership.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/153-executive-summary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:12fca715df3948fb",
+  "payload": {
+    "title": "1. Problem Statement",
+    "summary": "The AI industry in 2026 exhibits an apparent paradox. Frontier",
+    "body": "problem statement источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper open knowledge work foundation concept document источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper open knowledge work foundation concept document problem statement the paradox abundant demand and underutilized supply the industry exhibits apparent paradox frontier labs simultaneously report unprecedented demand for senior technical talent and unprecedented labor shortages april anthropic open positions primarily senior roles compensation openai estimated open positions google deepmind estimated open positions mistral cohere inflection xai collectively open positions total unmet senior level demand companies alone exceeds positions globally existing recruiting pipelines close perhaps these positions monthly across the industry simultaneously substantial populations qualified knowledge workers remain outside this hiring pipeline through deficiency skill motivation estimate this pool contains approximately retired professionals globally with relevant technical expertise and available time oecd countries alone disabled specialists with intact intellectual capacity but modified work requirements unknown but substantial population domain experts lawyers doctors educators with demonstrable interest but credentials millions geographically dispersed skilled workers regions without direct hire access frontier companies these populations are not mutually exclusive and together represent talent resource orders magnitude larger than current unmet demand the failure not supply and demand the failure matching infrastructure why this matters beyond economics unemployment underemployment qualified elders and disabled experts not merely economic inefficiency produces measurable harms individual harms loss professional identity social isolation declining cognitive engagement depression family harms reduced contribution household economics increased caregiving burden societal harms loss accumulated tacit knowledge weakening intergenerational transmission reduced civic participation safety harms narrower perspective pool development reduced diversity alignment research concentration power demographically homogeneous groups the last point particularly relevant for foundation missions beneficial requires diverse human input current pipelines systematically exclude several high value perspective sources why now three trends converge make this infrastructure newly feasible first capabilities particularly llm based assistants like claude gpt gemini crossed threshold enabling genuine coordination distributed knowledge work previously requiring collocation the model context protocol mcp released anthropic late provides standardized substrate for assisted workflows second employment models are shifting classic full time permanent employment covers declining fraction knowledge work workers engage freelance contract work from foundation funded dignified alternatives become newly viable third regulatory frameworks are catching platform work directive act various national initiatives recognize digital labor policy concern infrastructure built now can shape future regulation rather than adapting this not future problem requiring speculative solutions present problem with actionable solutions that require coordinated action now смотрите также problem statement anthropic vacancies problem statement target populations target populations call for partnership call for partnership executive summary anthropic vacancies executive summary",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 582,
+    "path": "docs/nautilus/okwf-concept/01-problem-statement.md"
+  }
+}

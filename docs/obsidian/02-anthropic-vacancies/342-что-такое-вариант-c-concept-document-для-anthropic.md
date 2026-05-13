@@ -2,7 +2,7 @@
 title: "Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
@@ -66,13 +66,13 @@ date: 2026-04-29
   - [Результаты последнего поиска — что нашлось и что не нашлось](#результаты-последнего-поиска-что-нашлось-и-что-не-нашлось)
   - [Naming: «Лоренцо ИИ Агент» под «DHLab / Dream Hub»](#naming-лоренцо-ии-агент-под-dhlab-dream-hub)
   - [Implications для документации](#implications-для-документации)
-  - [Lorenzo specifically: что нужно specifиcate](#[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-specifically-что-нужно-specifиcate)
+  - [Lorenzo specifically: что нужно specifиcate](#lorenzo-specifically-что-нужно-specifиcate)
   - [Что я думаю practical wise](#что-я-думаю-practical-wise)
   - [Что Anthropic specifically может найти interesting](#что-anthropic-specifically-может-найти-interesting)
   - [Вопрос к вам](#вопрос-к-вам)
   - [Какие следующие шаги предлагаю](#какие-следующие-шаги-предлагаю)
   - [Какиевариантыдля следующего шага](#какиевариантыдля-следующего-шага)
-  - [Fundamental questions для Lorenzo](#fundamental-questions-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md))
+  - [Fundamental questions для Lorenzo](#fundamental-questions-для-lorenzo)
   - [Где сейчас сложности](#где-сейчас-сложности)
   - [Reframe based on these difficulties](#reframe-based-on-these-difficulties)
   - [Предлагаемая структура Document 10](#предлагаемая-структура-document-10)
@@ -1390,7 +1390,7 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[CONCEPTS]] (сходство 0.19)
 - [[365-развёрнутый-анализ-внуковой-комбинации]] (сходство 0.19)
 - [[341-приложение-c-образец-спецификаций-инструментов-ing]] (сходство 0.18)
@@ -1400,7 +1400,7 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[365-развёрнутый-анализ-внуковой-комбинации]]
 - [[CONCEPTS]]
 - [[341-приложение-c-образец-спецификаций-инструментов-ing]]
@@ -1431,3 +1431,18 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 - [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи|Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)]] _25%_
 - [[150-appendix-c-version-history|Appendix C: Version History]] _17%_
 - [[ACTION_ITEMS|Action Items, риски и решения]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[150-appendix-c-version-history]]
+- [[165-closing]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- 343-[[343-lorenzo-catalyst-agent-глубокая-проработка-специфи|lorenzo-catalyst-agent-глубокая-проработка-специфи]]
+- [[364-final-note-ты-experiment]]
+- [[365-развёрнутый-анализ-внуковой-комбинации]]
+- [[README]]
+

@@ -1,54 +1,92 @@
 # Дайджест изменений
 
+<!-- toc-auto -->
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
-> > chore: синхронизировать docs после обновления корпуса
+> > fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: rag -->
 
 
 
 
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-13_
 
 ## Последний коммит
 
-**2026-04-29** — `7c83cefc`
-> chore: синхронизировать docs после обновления корпуса
+**2026-05-13** — `d655c2aa`
+> fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass
 
-Изменено файлов: **963** (+18263 / -6519 строк)
+Изменено файлов: **1** (+2 / -0 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **963**
-- Добавлено строк: **+18278**
-- Удалено строк: **-6533**
+- Изменено файлов: **1619**
+- Добавлено строк: **+18476**
+- Удалено строк: **-19799**
 - Новых md-файлов: **0**
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
-| 2026-04-29 | `7c83cefc` | chore: синхронизировать docs после обновления корпуса |
-| 2026-04-29 | `e335cb8f` | chore: обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов) |
-| 2026-04-29 | `78e6481d` | chore: sync PROGRESS.md |
-| 2026-04-29 | `643d52de` | fix: восстановить 24 файла повреждённых GitHub Actions ботом |
-| 2026-04-29 | `ee0b767e` | fix: остановить деструктивные авто-обновления от GitHub Actions бота |
-| 2026-04-29 | `d4d34b4a` | chore: sync PROGRESS.md |
-| 2026-04-29 | `e7133855` | merge: разрешить конфликты с remote (авто-обновление main) |
-| 2026-04-29 | `94be1ad1` | docs: auto-update metrics [skip ci] |
-| 2026-04-29 | `351e5804` | Merge pull request #8 from svend4/claude/organize-monorepo-docs-VmctA |
-| 2026-04-29 | `717e08b0` | Merge origin/main into VmctA — resolve 287 conflicts in favour of main |
-| 2026-04-29 | `ba78ff20` | docs: auto-update via improve_run_all [skip ci] |
-| 2026-04-29 | `f63f1a9f` | docs: auto-update via improve_run_all [skip ci] |
-| 2026-04-29 | `9e9cf7f9` | Merge pull request #6 from svend4/claude/current-dev-stage-iVIov |
-| 2026-04-29 | `2a9e9403` | chore: sync PROGRESS.md |
-| 2026-04-29 | `5067c58c` | merge: разрешить конфликты слияния с main (волна 2) |
+| 2026-05-13 | `d655c2aa` | fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dat |
+| 2026-05-13 | `7c934060` | fix: exclude catalog files from backlink injection to keep catalog-fre |
+| 2026-05-13 | `158b1749` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `7b3ddce3` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `7876fab3` | fix(tests): stub published in milestones test to avoid missing git tag |
+| 2026-05-12 | `50c2622c` | ci: retrigger after test fixes (textrank runpy + progress-sync tags) |
+| 2026-05-12 | `ec7795dc` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `095d7105` | fix(tests): fix 3 CI failures from run 25754404920 |
+| 2026-05-12 | `6164dc5f` | ci: retrigger tests after runpy slow-test fixes |
+| 2026-05-12 | `f090a413` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `08689e53` | fix(tests): prevent runpy tests from scanning all 2497 real docs files |
+| 2026-05-12 | `8af64f0e` | ci: add pytest-timeout and capture test output for diagnostics |
+| 2026-05-12 | `ec6018f8` | test(backlinks): cover __main__ block (line 136) via runpy |
+| 2026-05-12 | `afc39fc3` | fix: mock subprocess in tests that call long-running scripts |
+| 2026-05-12 | `dfe8f85b` | test: add coverage improvements + CI debug output |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Документов `.md` | **1695** |
-| Скриптов обработки | **140** |
-| Последнее обновление | **2026-04-29** |
+| Документов `.md` | **2484** |
+| Скриптов обработки | **166** |
+| Последнее обновление | **2026-05-13** |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [CHANGELOG](CHANGELOG.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [ALERTS](ALERTS.md)
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_digest.py
+```

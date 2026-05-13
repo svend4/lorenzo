@@ -1,4 +1,22 @@
 # 11. Security Considerations
+
+<!-- toc-auto -->
+## Contents
+
+- [11. Security Considerations](#11-security-considerations)
+  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
+  - [11.2. Private Repositories](#112-private-repositories)
+  - [11.3. MCP Exposure](#113-mcp-exposure)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
 
@@ -10,24 +28,6 @@
 > ✅ **Результат:** Implementation MUST различать public и private registries и не смешивать результаты без явного запроса.
 > 🏷️ **Ключевые слова:** `security`, `considerations`, `portal`, `adapters`, `private`, `untrusted`, `anthropic`, `vacancies`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [11. Security Considerations](#11-security-considerations)
-  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
-  - [11.2. Private Repositories](#112-private-repositories)
-  - [11.3. MCP Exposure](#113-mcp-exposure)
-
-
-<!-- toc-auto -->
-## Contents
-
-- [11. Security Considerations](#11-security-considerations)
-  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
-  - [11.2. Private Repositories](#112-private-repositories)
-  - [11.3. MCP Exposure](#113-mcp-exposure)
 
 
 > [!IMPORTANT]
@@ -59,7 +59,7 @@ Portal SHOULD НЕ выполнять adapters из untrusted sources без rev
 
 Repos, содержащие чувствительные данные, SHOULD НЕ включаться в 
 публичную registry. Для приватных Repos RECOMMENDED отдельный 
-`private-[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с явным opt-in.
+`private-[nautilus](../05-habr-projects/memory/memnet.md).json` с явным opt-in.
 
 Implementation MUST различать public и private registries и не 
 смешивать результаты без явного запроса.
@@ -78,7 +78,7 @@ Implementation MUST различать public и private registries и не
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [90-15-security-considerations](90-15-security-considerations.md) (сходство 0.55)
 
 
@@ -86,10 +86,16 @@ Implementation MUST различать public и private registries и не
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Security Considerations"
+```
+
+## Смотрите также
 - [90-15-security-considerations](90-15-security-considerations.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [88-13-rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- 88-13-[rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
 - [19-7-portalentry-structure](19-7-portalentry-structure.md)
 
 <!-- backlinks-auto -->
@@ -115,3 +121,14 @@ Implementation MUST различать public и private registries и не
 - [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _21%_
 - [🇬🇧 About](68-about.md) _17%_
 - [6. Adapter Interface](81-6-adapter-interface.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [README](README.md)
+

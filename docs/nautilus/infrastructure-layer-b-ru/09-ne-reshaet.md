@@ -1,5 +1,13 @@
 # Что этот документ не решает
 
+<!-- toc-auto -->
+## Contents
+
+- [Что этот документ не решает](#что-этот-документ-не-решает)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -49,11 +57,34 @@
 
 ---
 
-**Смотрите также:**
-- [298-что-этот-документ-не-решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [01-zachem-dokument](docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что этот документ не решает"
+```
+
+## Смотрите также
+- [298-что-этот-документ-не-решает](../../02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
+- [12-appendix-a-header-warning](../review-methodology/12-appendix-a-header-warning.md)
+- [01-zachem-dokument](01-zachem-dokument.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-zachem-dokument](01-zachem-dokument.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -61,7 +92,7 @@
 ---
 
 **Похожие документы:**
-- [298-что-этот-документ-не-решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md) (сходство 0.71)
-- [298-что-этот-документ-не-решает](docs/obsidian/02-anthropic-vacancies/298-что-этот-документ-не-решает.md) (сходство 0.67)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.29)
+- [09-ne-reshaet](../../obsidian/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md) (сходство 0.97)
+- [298-что-этот-документ-не-решает](../../obsidian/02-anthropic-vacancies/298-что-этот-документ-не-решает.md) (сходство 0.73)
+- [298-что-этот-документ-не-решает](../../02-anthropic-vacancies/298-что-этот-документ-не-решает.md) (сходство 0.73)
 

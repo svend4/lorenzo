@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:99da8fafc9bc21dc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/privacy-federation/03-what-this-gives-technically.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/133-обратная-связь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/multi-tier-architecture/01-strategic-significance.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/privacy-federation/02-two-tier-publication.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:e228547cfcb3bdee",
+  "payload": {
+    "title": "Что это даёт технически",
+    "summary": "Уровень 1 — Ваша личная эффективность. Работая над новым кейсом, вы спрашиваете (через Claude Desktop + MCP): «Какие были предыдущие паттерны для Eingliederungshilfe-отказа?». Nautilus ищет и в публичном репо (где анонимизированные patterns от вас и от судов), и в приватном (где ваши реальные кейсы)",
+    "body": "что это даёт технически warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога приватность анонимизация федерации npp смотрите также обратная связь anthropic vacancies обратная связь strategic significance multi tier architecture strategic significance two tier publication two tier publication grant opportunities npp humanitarian extension grant opportunities",
+    "tags": [
+      "rag",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1492,
+    "path": "docs/nautilus/privacy-federation/03-what-this-gives-technically.md"
+  }
+}

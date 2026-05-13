@@ -1,10 +1,37 @@
 # Структурное сравнение: код vs гуманитарные документы
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
 
 ---
 <!-- tags: rag, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -264,11 +291,31 @@ legal-nautilus/ ← отдельный приватный репо
 
 ---
 
-**Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
-- [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Структурное сравнение код vs"
+```
+
+## Смотрите также
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
+- [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
+- [02-two-tier-publication](../privacy-federation/02-two-tier-publication.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [02-two-tier-publication](../privacy-federation/02-two-tier-publication.md)
 
 
 <!-- similar-docs -->
@@ -276,7 +323,7 @@ legal-nautilus/ ← отдельный приватный репо
 ---
 
 **Похожие документы:**
-- [133-обратная-связь](docs/obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.20)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.20)
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md) (сходство 0.14)
+- [01-structural-comparison-code-vs-docs](../../obsidian/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md) (сходство 0.99)
+- [133-обратная-связь](../../obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.20)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.20)
 

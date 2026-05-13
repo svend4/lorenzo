@@ -1,5 +1,40 @@
 # Обработка больших массивов — Часть 6: Поиск
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Как найти нужное в 1000+ документах: от простого grep до BM25 и фасетов.
+**Проекты:** AgentFS, Yodoca, MemNet, SENTINEL
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Уровни поиска (от простого к сложному)](#уровни-поиска-от-простого-к-сложному)
+- [Уровень 2: Поисковый индекс — improve_search_index.py](#уровень-2-поисковый-индекс-improve_search_indexpy)
+- [Уровень 3: BM25 — improve_keyword_index.py](#уровень-3-bm25-improve_keyword_indexpy)
+- [Уровень 4: Поиск по абзацам — improve_passage_retrieval.py](#уровень-4-поиск-по-абзацам-improve_passage_retrievalpy)
+- [Уровень 5: Фасетный поиск — improve_faceted_search.py](#уровень-5-фасетный-поиск-improve_faceted_searchpy)
+- [Уровень 6: Персонализированный список чтения — improve_reading_list.py](#уровень-6-персонализированный-список-чтения-improve_reading_listpy)
+- [Список чтения: "агент с памятью" (15 документов, ~45 мин)](#список-чтения-агент-с-памятью-15-документов-45-мин)
+  - [docs/05-habr-projects/memory/ (3 документа, ~12 мин)](#docs05-habr-projectsmemory-3-документа-12-мин)
+  - [docs/04-ai-collaborations/ (4 документа, ~18 мин)](#docs04-ai-collaborations-4-документа-18-мин)
+- [Уровень 7: Похожие пассажи — improve_similar_passages.py](#уровень-7-похожие-пассажи-improve_similar_passagespy)
+- [Уровень 8: Семантический поиск (не реализован, план)](#уровень-8-семантический-поиск-не-реализован-план)
+- [Сравнение методов поиска](#сравнение-методов-поиска)
+- [Следующий шаг](#следующий-шаг)
+
+---
+
+<!-- tags: memory, rag, security, knowledge, ingestion, self-improvement, collaboration -->
+
+
+
+
 > Как найти нужное в 1000+ документах: от простого grep до BM25 и фасетов.
 
 ---
@@ -200,3 +235,34 @@ scores = cosine_similarity(query_vec, embeddings)
 ## Следующий шаг
 
 После поиска → **Часть 7: LLM-обогащение**
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+## Смотрите также
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [07-llm](07-llm.md)
+- [05-analysis](05-analysis.md)
+- [10-future](10-future.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-search](../obsidian/processing-guide/06-search.md) (сходство 0.99)
+- [07-llm](07-llm.md) (сходство 0.15)
+- [07-llm](../obsidian/processing-guide/07-llm.md) (сходство 0.15)
+

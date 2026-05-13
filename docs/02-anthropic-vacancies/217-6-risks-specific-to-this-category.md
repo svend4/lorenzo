@@ -251,7 +251,7 @@ emerge.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md) (сходство 0.15)
 - [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.14)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.14)
@@ -261,7 +261,13 @@ emerge.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Risks Specific to this Category"
+```
+
+## Смотрите также
 - [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
 - [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
@@ -300,3 +306,19 @@ emerge.
 - [8. Risks and Mitigations](177-8-risks-and-mitigations.md) _21%_
 - [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _21%_
 - [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
+- _...ещё 1_
+

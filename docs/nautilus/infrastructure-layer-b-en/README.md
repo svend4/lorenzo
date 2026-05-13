@@ -1,30 +1,59 @@
 # infrastructure-layer-b-en
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 14
 
 ## Содержание
 
-- [00-intro.md](00-intro.md) — <!-- summary -->
-- [01-missing-middle-layer.md](01-missing-middle-layer.md) — <!-- summary -->
-- [02-why-document-exists.md](02-why-document-exists.md) — <!-- summary -->
-- [03-two-layer-stack.md](03-two-layer-stack.md) — > [!TIP]
-- [04-whats-missing-layer-b.md](04-whats-missing-layer-b.md) — <!-- summary -->
-- [05-why-not-built.md](05-why-not-built.md) — <!-- summary -->
-- [06-existing-approximations.md](06-existing-approximations.md) — <!-- summary -->
-- [07-specific-case.md](07-specific-case.md) — <!-- summary -->
-- [08-recursive-insight.md](08-recursive-insight.md) — <!-- summary -->
-- [09-what-industry-will-build.md](09-what-industry-will-build.md) — <!-- summary -->
-- [10-what-not-solved.md](10-what-not-solved.md) — <!-- summary -->
-- [11-practical-recommendations.md](11-practical-recommendations.md) — <!-- summary -->
-- [12-closing.md](12-closing.md) — <!-- summary -->
-- [13-acknowledgments-refs.md](13-acknowledgments-refs.md) — <!-- summary -->
+- [00-intro.md](00-intro.md) — <!-- toc-auto -->
+- [01-missing-middle-layer.md](01-missing-middle-layer.md) — <!-- toc-auto -->
+- [02-why-document-exists.md](02-why-document-exists.md) — <!-- toc-auto -->
+- [03-two-layer-stack.md](03-two-layer-stack.md) — <!-- toc-auto -->
+- [04-whats-missing-layer-b.md](04-whats-missing-layer-b.md) — <!-- toc-auto -->
+- [05-why-not-built.md](05-why-not-built.md) — <!-- toc-auto -->
+- [06-existing-approximations.md](06-existing-approximations.md) — <!-- toc-auto -->
+- [07-specific-case.md](07-specific-case.md) — > [!NOTE]
+- [08-recursive-insight.md](08-recursive-insight.md) — <!-- toc-auto -->
+- [09-what-industry-will-build.md](09-what-industry-will-build.md) — <!-- toc-auto -->
+- [10-what-not-solved.md](10-what-not-solved.md) — <!-- toc-auto -->
+- [11-practical-recommendations.md](11-practical-recommendations.md) — <!-- toc-auto -->
+- [12-closing.md](12-closing.md) — <!-- toc-auto -->
+- [13-acknowledgments-refs.md](13-acknowledgments-refs.md) — > [!NOTE]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-intro](00-intro.md)
+- [05-why-not-built](05-why-not-built.md)
+- [09-what-industry-will-build](09-what-industry-will-build.md)
+- _...ещё 4_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.16)
-- [283-what-this-document-doesn-t-solve](docs/obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.14)
-- [282-what-industry-will-likely-build](docs/obsidian/02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.13)
+- [README](../../obsidian/nautilus/infrastructure-layer-b-en/README.md) (сходство 0.89)
+- [README](../community-discussions/practical-observations/README.md) (сходство 0.33)
+- [README](../../glossary/README.md) (сходство 0.31)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

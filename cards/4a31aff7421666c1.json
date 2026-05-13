@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:4a31aff7421666c1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6dcf8c17d14c817e",
+  "payload": {
+    "title": "6. Уточнённый объём InGit с учётом Cowork",
+    "summary": "месяцев до v1.0) отражала амбицию полного",
+    "body": "уточнённый объём ingit учётом cowork источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper ingit cowork смотрите также уточнённый объём ingit учётом cowork anthropic vacancies уточнённый объём ingit учётом cowork chto cowork obespechivaet chto cowork obespechivaet что cowork обеспечивает что ingit нужно строи anthropic vacancies что cowork обеспечивает что ingit нужно строи chetyre puti integratsii chetyre puti integratsii",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 374,
+    "path": "docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md"
+  }
+}

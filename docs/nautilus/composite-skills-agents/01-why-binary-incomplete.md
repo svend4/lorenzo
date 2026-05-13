@@ -1,11 +1,20 @@
 # 1. Why the Binary View Is Incomplete
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. Why the Binary View Is Incomplete](#1-why-the-binary-view-is-incomplete)
@@ -120,11 +129,33 @@ support to skilled professions.
 
 ---
 
-**Смотрите также:**
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [13-closing](docs/nautilus/composite-skills-agents/13-closing.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Why the Binary View Is Incomplete"
+```
+
+## Смотрите также
+- [254-1-why-the-binary-view-is-incomplete](../../02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
+- [252-abstract](../../02-anthropic-vacancies/252-abstract.md)
+- [13-closing](13-closing.md)
+- [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-twenty-one-teachers-pattern](02-twenty-one-teachers-pattern.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -132,7 +163,7 @@ support to skilled professions.
 ---
 
 **Похожие документы:**
-- [254-1-why-the-binary-view-is-incomplete](docs/obsidian/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.87)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.79)
-- [252-abstract](docs/obsidian/02-anthropic-vacancies/252-abstract.md) (сходство 0.26)
+- [01-why-binary-incomplete](../../obsidian/nautilus/composite-skills-agents/01-why-binary-incomplete.md) (сходство 0.98)
+- [254-1-why-the-binary-view-is-incomplete](../../02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.79)
+- [254-1-why-the-binary-view-is-incomplete](../../obsidian/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.78)
 

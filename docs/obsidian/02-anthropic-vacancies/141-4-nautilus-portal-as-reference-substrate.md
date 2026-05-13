@@ -6,10 +6,15 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 4. Nautilus Portal as Reference Substrate
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -22,6 +27,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Double-Triangle Architecture requires a substrate capable of:
 
 ---
@@ -29,10 +38,10 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [4. Nautilus Portal as Reference Substrate](#4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate)
+- [4. Nautilus Portal as Reference Substrate](#4-nautilus-portal-as-reference-substrate)
   - [4.1. NPP Components Mapped to Double-Triangle Requirements](#41-npp-components-mapped-to-double-triangle-requirements)
   - [4.2. Required Extensions to NPP for Double-Triangle](#42-required-extensions-to-npp-for-double-triangle)
-  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-[nautilus](../docs/05-habr-projects/memory/memnet.md)-reference-implementation)
+  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-nautilus-reference-implementation)
 
 ---
 
@@ -140,7 +149,7 @@ Double-Triangle deployments.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[158-4-proposed-infrastructure]] (сходство 0.20)
 - [[139-2-the-double-triangle-architecture]] (сходство 0.17)
 - [[136-abstract]] (сходство 0.17)
@@ -150,7 +159,13 @@ Double-Triangle deployments.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Nautilus Portal as Reference Substrate"
+```
+
+## Смотрите также
 - [[158-4-proposed-infrastructure]]
 - [[139-2-the-double-triangle-architecture]]
 - [[136-abstract]]
@@ -200,3 +215,19 @@ Double-Triangle deployments.
 - [[104-appendix-c-references|Appendix C: References]] _25%_
 - [[158-4-proposed-infrastructure|4. Proposed Infrastructure]] _25%_
 - [[25-13-reference-implementation|13. Reference Implementation]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[104-appendix-c-references]]
+- [[136-abstract]]
+- [[140-3-three-inter-layer-protocols]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[144-7-open-questions]]
+- [[148-appendix-a-glossary]]
+- [[150-appendix-c-version-history]]
+- [[25-13-reference-implementation]]
+- _...ещё 3_
+

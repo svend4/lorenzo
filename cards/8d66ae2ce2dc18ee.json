@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:8d66ae2ce2dc18ee",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/23-11-security-considerations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:7e4c06cae38fe60a",
+  "payload": {
+    "title": "11. Security Considerations",
+    "summary": "Adapters выполняются внутри Portal-процесса. Portal MUST обрабатывать",
+    "body": "security considerations абстракт авто проблема security considerations security considerations подход mcp exposure mcp exposure important ключевой документ для понимания архитектуры результат implementation must различать public private registries смешивать результаты без явного запроса ключевые слова security considerations portal adapters private untrusted anthropic vacancies contents security considerations security considerations untrusted adapters untrusted adapters private repositories private repositories mcp exposure mcp exposure contents security considerations security considerations untrusted adapters untrusted adapters private repositories private repositories mcp exposure mcp exposure important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь adapters выполняются внутри portal процесса portal must обрабатывать security considerations untrusted adapters adapters выполняются внутри portal процесса portal must обрабатывать adapters как untrusted code timeout каждый adapter call exception handling вокруг каждого call resource limits memory cpu если implementation позволяет portal should выполнять adapters untrusted sources без review private repositories repos содержащие чувствительные данные should включаться публичную registry для приватных repos recommended отдельный private memnet nautilus json явным opt implementation must различать public private registries смешивать результаты без явного запроса mcp exposure при экспонировании portal через mcp implementation should требовать явный whitelist repos доступных через mcp логировать queries отдельно возможностью очистки включать private repos mcp responses умолчанию похожие документы security considerations сходство смотрите также security considerations portal mcp rest api contract normative for portals portalentry structure упоминается rest api contract normative for portals rest api contract normative for portals security considerations security considerations adapter interface adapter interface readme вакансии anthropic анализ кластерам упоминается readme вакансии anthropic анализ кластерам связанные документы security considerations security considerations rest api contract normative for portals rest api contract normative for portals adapter interface adapter interface связанные документы security considerations security considerations rest api contract normative for portals rest api contract normative for portals about about adapter interface adapter interface",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 395,
+    "path": "docs/obsidian/02-anthropic-vacancies/23-11-security-considerations.md"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:d00e6ca427c2ff5e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/A-collaboration-os.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/limitations/license-tree.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:ae6e0df04299d0eb",
+  "payload": {
+    "title": "Ансамбль A — Collaboration OS",
+    "summary": "A[Свободный текст профилей] --> B[Svyazi-style import + LLM extraction]",
+    "body": "ансамбль collaboration источник deep research report проекты svyazi cardindex agentfs knowledge space yodoca ngt memory смотрите также ensembles overview svyazi ensembles overview приоритетные ансамбли collaborations приоритетные ансамбли knowledge space components knowledge space license tree limitations license tree",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 248,
+    "path": "docs/svyazi-2-0/ensembles/A-collaboration-os.md"
+  }
+}

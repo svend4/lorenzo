@@ -1,11 +1,28 @@
 # Виктория Дочкина — Sequential‑протокол распределённых агентов
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex
 
 ---
 <!-- tags: memory, orchestration, knowledge, ingestion, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +45,28 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 
 ---
 
-**Смотрите также:**
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Виктория Дочкина Sequential протокол"
+```
+
+## Смотрите также
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
+- 5-tinyml-[mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
+- [02-memnet](02-memnet.md)
+- [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -40,7 +74,7 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 ---
 
 **Похожие документы:**
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.23)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.17)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.16)
+- [04-dochkina-sequential](../../obsidian/habr-unique-projects/key-findings/04-dochkina-sequential.md) (сходство 0.96)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md) (сходство 0.27)
+- [05-supplementary-infrastructure](../../obsidian/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.26)
 

@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:49b33d8a9db984ba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CROSS_SECTION.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/contacts/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONCEPT_GRAPH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/andrey-chuyan.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:b97b924996591ffd",
+  "payload": {
+    "title": "Кросс-секционный анализ",
+    "summary": "_(толщина / процент = косинусное сходство × 100)_",
+    "body": "кросс секционный анализ косинусное сходство idf векторов проекты svyazi cardindex agentfs yodoca memnet обновлено матрица сходства секций косинусное сходство idf векторов секция svyazi anthropic технологии ансамбли хабр проекты контакты svyazi anthropic технологии ансамбли хабр проекты контакты граф связей толщина процент косинусное сходство graph svyazi svyazi anthropic vacancies anthropic technology combinations технологии collaborations ансамбли habr projects хабр проекты contacts контакты svyazi anthropic vacancies svyazi technology combinations svyazi collaborations svyazi habr projects svyazi contacts anthropic vacancies technology combinations anthropic vacancies collaborations anthropic vacancies habr projects anthropic vacancies contacts technology combinations collaborations technology combinations habr projects technology combinations contacts collaborations habr projects collaborations contacts habr projects contacts топ кросс секционных концептов присутствуют секциях концепт секций авг idf присутствует svyazi svyazi anthropic технологии ансамбли хабр проекты контакты связи svyazi anthropic технологии ансамбли хабр проекты контакты сходство svyazi anthropic технологии ансамбли хабр проекты контакты профиль svyazi anthropic технологии ансамбли хабр проекты контакты вопросы svyazi anthropic технологии ансамбли хабр проекты контакты проекты svyazi anthropic технологии ансамбли хабр проекты контакты knowledge svyazi anthropic технологии ансамбли хабр проекты контакты habr svyazi anthropic технологии ансамбли хабр проекты контакты memory svyazi anthropic технологии ансамбли хабр проекты контакты legal svyazi anthropic технологии ансамбли хабр проекты контакты документы svyazi anthropic технологии ансамбли хабр проекты контакты похожие svyazi anthropic технологии ансамбли хабр проекты контакты cardindex svyazi anthropic технологии ансамбли хабр проекты контакты yodoca svyazi anthropic технологии ансамбли хабр проекты контакты agentfs svyazi anthropic технологии ансамбли хабр проекты контакты автоматически svyazi anthropic технологии ансамбли хабр проекты контакты contents svyazi anthropic технологии ансамбли хабр проекты контакты space svyazi anthropic технологии ансамбли хабр проекты контакты executive svyazi anthropic технологии ансамбли хабр проекты контакты router svyazi anthropic технологии ансамбли хабр проекты контакты graph svyazi anthropic технологии ансамбли хабр проекты контакты между svyazi anthropic технологии ансамбли хабр проекты контакты auto svyazi anthropic технологии ансамбли хабр проекты контакты research svyazi anthropic технологии ансамбли хабр проекты контакты state svyazi anthropic технологии ансамбли хабр проекты контакты лучше svyazi anthropic технологии ансамбли хабр проекты контакты memnet svyazi anthropic технологии ансамбли хабр проекты контакты vault svyazi anthropic технологии ансамбли хабр проекты контакты discovery svyazi anthropic технологии ансамбли хабр проекты контакты project svyazi anthropic технологии ансамбли хабр проекты контакты одной svyazi anthropic технологии ансамбли хабр проекты контакты agentos svyazi anthropic технологии ансамбли хабр проекты контакты содержание svyazi anthropic технологии ансамбли хабр проекты контакты community svyazi anthropic технологии ансамбли хабр проекты контакты качество svyazi anthropic технологии ансамбли хабр проекты контакты отдельный svyazi anthropic технологии ансамбли хабр проекты контакты only svyazi anthropic технологии ансамбли хабр проекты контакты файлов svyazi anthropic технологии ансамбли хабр проекты контакты статус svyazi anthropic ансамбли хабр проекты контакты view svyazi anthropic технологии ансамбли хабр проекты детальная карта концептов для каждого концепта idf вес каждой секции концепт svyazi anthropic технологии ансамбл хабр проек контакты svyazi связи сходство профиль вопросы проекты knowledge habr memory legal документы похожие cardindex yodoca agentfs автоматически contents space executive router смотрите также kksudo contacts kksudo concept graph concept graph contacts contacts andrey chuyan contacts andrey chuyan",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 1256,
+    "path": "docs/CROSS_SECTION.md"
+  }
+}

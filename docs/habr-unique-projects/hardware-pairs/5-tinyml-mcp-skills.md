@@ -1,11 +1,28 @@
 # Пара 5 — TinyML/Edge AI × MCP + skills
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Yodoca, NGT Memory
 
 ---
 <!-- tags: memory, orchestration, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +45,27 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 
 ---
 
-**Смотрите также:**
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
-- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 5 TinyML Edge AI MCP skills"
+```
+
+## Смотрите также
+- [4-riscv-privacy](4-riscv-privacy.md)
+- [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)
+- [05-supplementary-infrastructure](../key-findings/05-supplementary-infrastructure.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -40,7 +73,7 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 ---
 
 **Похожие документы:**
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.18)
-- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.18)
-- [2-tsu-mome](docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md) (сходство 0.17)
+- [5-tinyml-mcp-skills](../../obsidian/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.95)
+- [4-riscv-privacy](4-riscv-privacy.md) (сходство 0.23)
+- [4-riscv-privacy](../../obsidian/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.22)
 

@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:a15538f51a82f0fb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/02-knowledge-graphs.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/01-08-summary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:ace7b85705f9a639",
+  "payload": {
+    "title": "Комбинация 6: OpenClaude (утёкший Claude Code) × ZINC inference engine × MoME-роутер",
+    "summary": "OpenClaude (habr.com/ru/articles/1018234/) — форк Claude Code с OpenAI-совместимым провайдером, можно подключить любую модель",
+    "body": "комбинация openclaude утёкший claude code zinc inference engine mome роутер источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты autoresearch смотрите также knowledge graphs technology combinations knowledge graphs multiagentnyy khaos reshenie auto router multiagentnyy khaos reshenie auto router zinc hybrid arch habr unique projects hardware pairs zinc hybrid arch pravilnaya agentskaya arkhitektura svyazi pattern pravilnaya agentskaya arkhitektura svyazi pattern кто ссылается этот документ components name glossary components name readme readme summary synthesis tables summary",
+    "tags": [
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AutoResearch"
+    ],
+    "wc": 218,
+    "path": "docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md"
+  }
+}

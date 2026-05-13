@@ -1,6 +1,47 @@
 # 9. Phased Rollout Strategy
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [9. Phased Rollout Strategy](#9-phased-rollout-strategy)
+  - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1-12)
+  - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-domain-maturation-year-2)
+  - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansion-years-3-4)
+  - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
+  - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
+  - [9.6. Pace Considerations](#96-pace-considerations)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [9. Phased Rollout Strategy](#9-phased-rollout-strategy)
+  - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1-12)
+  - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-domain-maturation-year-2)
+  - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansion-years-3-4)
+  - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
+  - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
+  - [9.6. Pace Considerations](#96-pace-considerations)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ---
@@ -113,11 +154,33 @@ durable, beneficial infrastructure than rapid scaling.
 
 ---
 
-**Смотрите также:**
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
-- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
-- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Phased Rollout Strategy"
+```
+
+## Смотрите также
+- [178-9-phased-rollout-strategy](../../02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
+- [07-phased-rollout](../okwf-concept/07-phased-rollout.md)
+- [11-call-for-collaboration](11-call-for-collaboration.md)
+- [08-pilot-sgb-advocate](../professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [07-phased-rollout](../okwf-concept/07-phased-rollout.md)
+- [00-abstract](00-abstract.md)
+- [07-governance-oversight](07-governance-oversight.md)
+- [11-call-for-collaboration](11-call-for-collaboration.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -125,7 +188,7 @@ durable, beneficial infrastructure than rapid scaling.
 ---
 
 **Похожие документы:**
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.86)
-- [178-9-phased-rollout-strategy](docs/obsidian/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.85)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md) (сходство 0.22)
+- [09-phased-rollout](../../obsidian/nautilus/representative-agent-layer-en/09-phased-rollout.md) (сходство 0.97)
+- [178-9-phased-rollout-strategy](../../02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.85)
+- [178-9-phased-rollout-strategy](../../obsidian/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.84)
 

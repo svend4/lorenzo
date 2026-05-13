@@ -1,6 +1,28 @@
 # 15. Security Considerations
 
+<!-- toc-auto -->
+## Contents
+
+- [15. Security Considerations](#15-security-considerations)
+  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
+  - [15.2. Private Repositories](#152-private-repositories)
+  - [15.3. MCP Exposure](#153-mcp-exposure)
+  - [15.4. Rate Limiting](#154-rate-limiting)
+  - [15.5. Supply Chain](#155-supply-chain)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!WARNING]
+> Документ описывает ограничения, риски или требования безопасности. Читайте внимательно.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -69,11 +91,30 @@ supply-chain риск.
 
 ---
 
-**Смотрите также:**
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [11-security-considerations](docs/nautilus/npp-v1-0/11-security-considerations.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "15 Security Considerations"
+```
+
+## Смотрите также
+- [90-15-security-considerations](../../02-anthropic-vacancies/90-15-security-considerations.md)
+- [11-security-considerations](../npp-v1-0/11-security-considerations.md)
+- [23-11-security-considerations](../../02-anthropic-vacancies/23-11-security-considerations.md)
+- [06-adapter-interface](06-adapter-interface.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [11-security-considerations](../npp-v1-0/11-security-considerations.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -81,7 +122,7 @@ supply-chain риск.
 ---
 
 **Похожие документы:**
-- [90-15-security-considerations](docs/obsidian/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.74)
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.69)
-- [11-security-considerations](docs/nautilus/npp-v1-0/11-security-considerations.md) (сходство 0.59)
+- [15-security](../../obsidian/nautilus/npp-v1-1/15-security.md) (сходство 0.98)
+- [90-15-security-considerations](../../obsidian/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.64)
+- [90-15-security-considerations](../../02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.64)
 

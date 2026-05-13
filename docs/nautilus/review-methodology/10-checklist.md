@@ -1,5 +1,17 @@
 # 9. Checklist применения методологии
 
+<!-- toc-auto -->
+## Contents
+
+- [9. Checklist применения методологии](#9-checklist-применения-методологии)
+  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
+  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
+  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
+  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -57,11 +69,33 @@ prompts (не «продолжи вариант A»)?
 
 ---
 
-**Смотрите также:**
-- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [GITHUB_ISSUES](docs/GITHUB_ISSUES.md)
-- [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Checklist применения методологии"
+```
+
+## Смотрите также
+- [116-9-checklist-применения-методологии](../../02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [GITHUB_ISSUES](../../GITHUB_ISSUES.md)
+- [13-appendix-b-examples](13-appendix-b-examples.md)
+- [02-formal-workflow](02-formal-workflow.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [GITHUB_ISSUES](../../GITHUB_ISSUES.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-context-motivation](01-context-motivation.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [03-consolidation-principles](03-consolidation-principles.md)
+- _...ещё 5_
 
 
 <!-- similar-docs -->
@@ -69,7 +103,7 @@ prompts (не «продолжи вариант A»)?
 ---
 
 **Похожие документы:**
-- [116-9-checklist-применения-методологии](docs/obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.74)
-- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.72)
-- [GITHUB_ISSUES](docs/obsidian/GITHUB_ISSUES.md) (сходство 0.36)
+- [10-checklist](../../obsidian/nautilus/review-methodology/10-checklist.md) (сходство 0.98)
+- [116-9-checklist-применения-методологии](../../obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.67)
+- [116-9-checklist-применения-методологии](../../02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.67)
 

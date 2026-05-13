@@ -1,10 +1,28 @@
 # 6. Почему это валидный паттерн для AI-assisted workflows
 
+<!-- toc-auto -->
+## Contents
+
+- [6. Почему это валидный паттерн для AI-assisted workflows](#6-почему-это-валидный-паттерн-для-ai-assisted-workflows)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Традиционная software engineering оптимизировалась против
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -40,15 +58,35 @@ AI-assisted development**. Старые правила («избегай дуб�
 
 ---
 
-**Смотрите также:**
-- [07-why-valid-for-ai](docs/nautilus/review-methodology/07-why-valid-for-ai.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Почему это валидный паттерн для AI"
+```
+
+## Смотрите также
+- [07-why-valid-for-ai](../nautilus/review-methodology/07-why-valid-for-ai.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](121-appendix-c-история-изменений-методологии.md)
+- [31-content-overview](31-content-overview.md)
+- [README](README.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [07-why-valid-for-ai](docs/nautilus/review-methodology/07-why-valid-for-ai.md) (сходство 0.80)
-- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](docs/obsidian/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) (сходство 0.75)
+- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../obsidian/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) (сходство 0.95)
+- [07-why-valid-for-ai](../nautilus/review-methodology/07-why-valid-for-ai.md) (сходство 0.78)
+- [07-why-valid-for-ai](../obsidian/nautilus/review-methodology/07-why-valid-for-ai.md) (сходство 0.77)
 

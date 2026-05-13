@@ -1,5 +1,17 @@
 # 8. Q6 Space (Normative)
 
+<!-- toc-auto -->
+## Contents
+
+- [8. Q6 Space (Normative)](#8-q6-space-normative)
+  - [8.1. Definition](#81-definition)
+  - [8.2. Mandatory for Level 2+](#82-mandatory-for-level-2)
+  - [8.3. Q6 Mapping Rules](#83-q6-mapping-rules)
+  - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
+  - [8.5. CA-Class Mapping (Informative)](#85-ca-class-mapping-informative)
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -99,11 +111,23 @@ return list(visited.keys())
 
 ---
 
-**Смотрите также:**
-- [83-8-q6-space-normative](docs/02-anthropic-vacancies/83-8-q6-space-normative.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
-- [13-rest-api](docs/nautilus/npp-v1-1/13-rest-api.md)
+## Смотрите также
+- [83-8-q6-space-normative](../../02-anthropic-vacancies/83-8-q6-space-normative.md)
+- [07-portal-entry](07-portal-entry.md)
+- [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
+- 13-[rest-api](13-rest-api.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -111,7 +135,7 @@ return list(visited.keys())
 ---
 
 **Похожие документы:**
-- [83-8-q6-space-normative](docs/02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.77)
-- [83-8-q6-space-normative](docs/obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.76)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md) (сходство 0.21)
+- [08-q6-space](../../obsidian/nautilus/npp-v1-1/08-q6-space.md) (сходство 0.98)
+- [83-8-q6-space-normative](../../obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.75)
+- [83-8-q6-space-normative](../../02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.75)
 

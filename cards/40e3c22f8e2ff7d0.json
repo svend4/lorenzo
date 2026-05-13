@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:40e3c22f8e2ff7d0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/supply-demand/01-three-related-themes.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/150-appendix-c-version-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/transmission-box/01-completing-loop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/innovation-transitions/01-response.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/165-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:12ee4dcbca7ddb96",
+  "payload": {
+    "title": "Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.",
+    "summary": "Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.",
+    "body": "claude hat geantwortet очень богатый вопрос три разных связанных темы warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога спрос рождает предложение три связанные темы смотрите также appendix version history anthropic vacancies appendix version history completing loop transmission box completing loop response innovation transitions response closing anthropic vacancies closing",
+    "tags": [
+      "rag",
+      "architecture",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 2915,
+    "path": "docs/nautilus/supply-demand/01-three-related-themes.md"
+  }
+}

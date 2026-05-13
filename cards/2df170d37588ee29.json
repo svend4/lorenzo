@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:2df170d37588ee29",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/338-ссылки.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:56988de74aa081d2",
+  "payload": {
+    "title": "Ссылки",
+    "summary": "https://support.claude.com/en/collections/13345190-cowork",
+    "body": "ссылки contents ссылки ссылки первичные внешние ссылки первичные внешние ссылки стандарт mcp стандарт mcp сопроводительные документы этой серии сопроводительные документы этой серии связанная работа связанная работа anthropic января claude ссылки первичные внешние ссылки anthropic января claude cowork запуск продукта https claude com product cowork anthropic продолжающееся cowork help center https support claude com collections cowork svend продолжающееся ingit https github com svend ingit стандарт mcp anthropic документация спецификации model context protocol сопроводительные документы этой серии все предыдущие документы серии как перечислено благодарностях выше связанная работа richard hipp продолжающееся fossil https www fossil scm org различные туториалы обзоры cowork project года похожие документы references сходство portal protocol сходство with anthropic cowork platform сходство смотрите также references portal protocol author contact readme mcp инструкция установке упоминается references references references references readme вакансии anthropic анализ кластерам заключение заключение ссылки ссылки ссылки ссылки ссылки ссылки упоминается readme вакансии anthropic анализ кластерам связанные документы ссылки ссылки references references portal mcp portal mcp reference implementation reference implementation appendix minimal working example appendix minimal working example заключение заключение reference implementation reference implementation связанные документы ссылки ссылки references references ссылки ссылки ссылки ссылки заключение заключение appendix change log appendix change log portal protocol portal protocol status this document status this document",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 268,
+    "path": "docs/obsidian/02-anthropic-vacancies/338-ссылки.md"
+  }
+}

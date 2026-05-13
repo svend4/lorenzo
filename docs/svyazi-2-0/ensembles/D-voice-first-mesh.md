@@ -1,5 +1,13 @@
 # Ансамбль D — Voice‑first local knowledge mesh
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -43,11 +51,28 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [voice-stack](docs/svyazi-2-0/components/voice-stack.md)
-- [F-evidence-backed-intake](docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md)
+## Смотрите также
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [voice-stack](../components/voice-stack.md)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md)
+- [G-federated-local-graph](G-federated-local-graph.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -55,7 +80,7 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.23)
-- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.23)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.21)
+- [D-voice-first-mesh](../../obsidian/svyazi-2-0/ensembles/D-voice-first-mesh.md) (сходство 0.98)
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md) (сходство 0.23)
+- [04-ensembles-overview](../../obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.23)
 

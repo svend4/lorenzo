@@ -4,12 +4,35 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Compatibility Level
 
+<!-- toc-auto -->
+## Contents
+
+- [Compatibility Level](#compatibility-level)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Текущий уровень: 3 (Interactive / Bridged)**
 
 ---
@@ -34,7 +57,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[51-compatibility-level]] (сходство 0.67)
 - [[41-compatibility-level]] (сходство 0.44)
 - [[60-bridges]] (сходство 0.22)
@@ -44,7 +67,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Compatibility Level"
+```
+
+## Смотрите также
 - [[51-compatibility-level]]
 - [[41-compatibility-level]]
 - [[60-bridges]]
@@ -88,3 +117,17 @@ date: 2026-04-29
 - [[17-5-compatibility-levels|5. Compatibility Levels]] _21%_
 - [[50-bridges|Bridges]] _21%_
 - [[07-2-terminology|2. Terminology]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[132-planned-v0-2-0]]
+- [[37-native-format]]
+- [[41-compatibility-level]]
+- [[47-native-format]]
+- [[51-compatibility-level]]
+- [[57-native-format]]
+- [[README]]
+

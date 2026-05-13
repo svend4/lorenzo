@@ -1,11 +1,20 @@
 # 1. The Cowork Discovery and Why It Changes Everything
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. The Cowork Discovery and Why It Changes Everything](#1-the-cowork-discovery-and-why-it-changes-everything)
@@ -120,11 +129,31 @@ The remainder of this document develops Option C.
 
 ---
 
-**Смотрите также:**
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 The Cowork Discovery and Why It"
+```
+
+## Смотрите также
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](../../02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [06-existing-approximations](../infrastructure-layer-b-en/06-existing-approximations.md)
+- [04-whats-missing-layer-b](../infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [10-strategic-positioning](10-strategic-positioning.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -132,7 +161,7 @@ The remainder of this document develops Option C.
 ---
 
 **Похожие документы:**
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.90)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/obsidian/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.88)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md) (сходство 0.22)
+- [01-cowork-discovery](../../obsidian/nautilus/ingit-cowork-en/01-cowork-discovery.md) (сходство 0.99)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](../../02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.87)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](../../obsidian/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.87)
 

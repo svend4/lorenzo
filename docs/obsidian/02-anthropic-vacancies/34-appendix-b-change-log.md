@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix B: Change Log
@@ -92,7 +92,7 @@ Appendix A с minimal working example — это критично. Внешни�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[104-appendix-c-references]] (сходство 0.13)
 - [[02-общий-план-развития-nautilus-portal-protocol]] (сходство 0.12)
 - [[64-for-the-curious-philosophy]] (сходство 0.11)
@@ -102,7 +102,13 @@ Appendix A с minimal working example — это критично. Внешни�
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Change Log"
+```
+
+## Смотрите также
 - [[104-appendix-c-references]]
 - [[02-общий-план-развития-nautilus-portal-protocol]]
 - [[78-3-registry-nautilus-json]]
@@ -147,3 +153,19 @@ Appendix A с minimal working example — это критично. Внешни�
 - [[104-appendix-c-references|Appendix C: References]] _25%_
 - [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _25%_
 - [[122-глоссарий|Глоссарий]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [[02-общий-план-развития-nautilus-portal-protocol]]
+- [[04-abstract]]
+- [[103-appendix-b-change-log]]
+- [[104-appendix-c-references]]
+- [[105-review-methodology-md]]
+- [[122-глоссарий]]
+- [[125-readme-mcp-md-инструкция-по-установке]]
+- [[338-ссылки]]
+- _...ещё 5_
+

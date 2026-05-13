@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:ca00e7d7ebbaa05a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/65-readme-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/74-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/34-appendix-b-change-log.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:e2e38de5c876bb5f",
+  "payload": {
+    "title": "README-MCP.md— инструкция по установке",
+    "summary": "Отдельный документ для репо, объясняющий, как настроить MCP-обёртку:",
+    "body": "readme mcp инструкция установке отдельный документ для репо объясняющий как настроить mcp обёртку похожие документы portal mcp portal mcp сходство portal protocol portal protocol сходство portal protocol portal protocol сходство смотрите также portal mcp portal mcp review methodology review methodology author contact author contact readme readme упоминается abstract abstract appendix minimal working example appendix minimal working example appendix change log appendix change log portal protocol portal protocol readme readme review methodology review methodology references references portal mcp portal mcp благодарности благодарности вакансии anthropic анализ кластерам readme глоссарий глоссарий зачем две версии параллельно зачем две версии параллельно конфигурация для claude desktop конфигурация для claude desktop общий план развития nautilus portal protocol общий план развития nautilus portal protocol отладка отладка подключение claude desktop подключение claude desktop расписание фазы расписание фазы ссылки ссылки section упоминается вакансии anthropic анализ кластерам readme связанные документы review methodology review methodology readme readme appendix minimal working example appendix minimal working example глоссарий глоссарий portal mcp portal mcp appendix minimal working example appendix minimal working example abstract abstract status this document status this document связанные документы review methodology review methodology глоссарий глоссарий portal mcp portal mcp readme readme appendix minimal working example appendix minimal working example appendix change log appendix change log status this document status this document section кто ссылается этот документ общий план развития nautilus portal protocol общий план развития nautilus portal protocol portal protocol portal protocol status this document status this document review methodology review methodology глоссарий глоссарий portal mcp portal mcp конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop ещё",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 290,
+    "path": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md"
+  }
+}

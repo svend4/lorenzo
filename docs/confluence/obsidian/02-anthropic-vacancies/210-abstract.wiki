@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/210-abstract.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -10,10 +10,15 @@ tags:
   * architecture
   * roadmap
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Abstract
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 h2. Содержание
@@ -27,6 +32,10 @@ h2. Содержание
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -87,7 +96,7 @@ their daily work.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[223-12-closing]] (сходство 0.30)
 * [[252-abstract]] (сходство 0.18)
 * [[220-9-relationship-to-other-agent-types]] (сходство 0.17)
@@ -97,7 +106,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+{code}
+
+h2. Смотрите также
 * [[223-12-closing]]
 * [[252-abstract]]
 * [[220-9-relationship-to-other-agent-types]]
@@ -145,3 +160,19 @@ h2. Связанные документы
 * [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _29%_
 * [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _25%_
 * [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (18)
+* [[151-open-knowledge-work-foundation-md]]
+* [[168-abstract]]
+* [[172-3-what-makes-a-representative-agent]]
+* [[181-12-closing]]
+* [[208-professional-colleague-agents-md]]
+* [[211-table-of-contents]]
+* [[212-1-the-five-type-typology-of-principal-side-agents]]
+* [[213-2-what-makes-a-professional-colleague-agent]]
+* _...ещё 10_
+

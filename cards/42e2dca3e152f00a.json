@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:42e2dca3e152f00a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/174-5-architectural-specification.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/179-10-open-questions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:de9cf2baf7968eb9",
+  "payload": {
+    "title": "3. What Makes a Representative Agent",
+    "summary": "A Representative Agent is distinct from existing AI categories.",
+    "body": "what makes representative agent абстракт авто проблема adapting them principals key research and design challenge addressed sections and подход adapting them principals key research and design challenge addressed sections and ключевые слова agent principal representative assistants makes relationship current function representative agent distinct from existing categories what makes representative agent representative agent distinct from existing categories define precisely three layer distinction layer personal assistants current state art examples cursor claude code copilot chatgpt function help user execute tasks they decided direction user this for locus agency user goal productivity multiplication chosen tasks layer multi agent systems current research prototype examples metagpt autogen интегральный анализ профиля svend chatdev crewai function agents collaborate among themselves complete complex tasks direction locus agency system designer goal automation multi step processes layer representative agents proposed examples none production yet function proactively represents user markets and relationships direction world behalf user locus agency user delegates strategically goal access opportunities user cannot reach alone five core functions representative agent performs five interlocking functions function discovery continuously monitors relevant domains for opportunities matching the principal profile this includes job postings project announcements collaboration requests grant calls regulatory deadlines relationship opportunities acts proactive scout function curation filters discovered opportunities against principal actual fit capacity and preferences prevents principal from being overwhelmed surfaces only high relevance opportunities acts filter and ranker function presentation crafts presentations the principal relevant counterparties this includes applications profiles introductions proposals translates the principal value into language counterparties understand acts translator and advocate function negotiation engages initial conversations with counterparties behalf the principal handles clarification basic terms scheduling surfaces complex decisions the principal for human judgment acts buffer and intermediary function protection identifies risks scams exploitation mismatched commitments prevents the principal from harm overextension acts gatekeeper and guardian what distinguishes from generic personal assistants representative agent has properties that current personal assistants not persistent operation runs continuously not session based monitoring opportunities work external interaction communicates with parties beyond the principal most current assistants only communicate with the user strategic autonomy makes decisions about what surface user handle independently current assistants execute explicit user requests long term relationship modeling maintains models principal career arc evolving preferences life context current assistants have limited memory adversarial awareness operates environments where other parties may have conflicting interests current assistants generally assume cooperative environments mission alignment operates within explicit ethical and strategic framework set principal current assistants optimize for engagement task completion the principal agent relationship representative agents introduce classic principal agent relationship familiar from economics law and political science the principal the human delegates the agent the key questions what delegated what remains with principal what constrains agent behavior how does principal monitor agent what recourse agent misbehaves these questions have well developed answers human principal agent contexts adapting them principals key research and design challenge addressed sections and похожие документы architectural specification architectural specification сходство the five type typology principal side agents the five type typology principal side agents сходство what makes professional colleague agent what makes professional colleague agent сходство смотрите также architectural specification architectural specification the five type typology principal side agents the five type typology principal side agents what makes professional colleague agent what makes professional colleague agent relationship other agent types relationship other agent types упоминается the five type typology principal side agents the five type typology principal side agents open questions open questions historical precedents agents civilizational innovation historical precedents agents civilizational what makes professional colleague agent what makes professional colleague agent architectural specification architectural specification configuration how principals build their ensembles configuration how principals build their ensembl coordination and disagreement resolution coordination and disagreement resolution ethical framework ethical framework governance and oversight governance and oversight relationship other agent types relationship other agent types table contents table contents вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы table contents table contents the five type typology principal side agents the five type typology principal side agents what makes professional colleague agent what makes professional colleague agent relationship other agent types relationship other agent types architectural specification architectural specification open questions open questions abstract abstract appendix decision framework when build type first appendix decision framework when build type связанные документы what makes professional colleague agent what makes professional colleague agent relationship other agent types relationship other agent types architectural specification architectural specification table contents table contents the five type typology principal side agents the five type typology principal side agents open questions open questions coordination and disagreement resolution coordination and disagreement resolution open questions open questions кто ссылается этот документ historical precedents agents civilizational historical precedents agents civilizational architectural specification architectural specification table contents table contents the five type typology principal side agents the five type typology principal side agents what makes professional colleague agent what makes professional colleague agent relationship",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 908,
+    "path": "docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md"
+  }
+}

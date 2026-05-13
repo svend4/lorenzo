@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:21425bc659e4ef32",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:007e1937dc65a4ff",
+  "payload": {
+    "title": "A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers",
+    "summary": "",
+    "body": "typology agents the principal side and the case for profession specific workers representative agent layer похожие документы support through configurable specialist ensembl support through configurable specialist ensembl сходство mediated representation for underrepresented mediated representation for underrepresented сходство the missing middle layer between chat and code the missing middle layer between chat and code сходство смотрите также support through configurable specialist ensembl support through configurable specialist ensembl mediated representation for underrepresented mediated representation for underrepresented the missing middle layer between chat and code the missing middle layer between chat and code with anthropic cowork platform with anthropic cowork platform упоминается formal model for human collaboration distributed knowledge work formal model for human collaboration distr support through configurable specialist ensembles support through configurable specialist ensembl coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments appendix connection companion papers appendix connection companion papers references references references references references references table contents table contents table contents table contents the missing middle layer between chat and code the missing middle layer between chat and code with anthropic cowork platform with anthropic cowork platform вакансии anthropic анализ кластерам readme существующие документы dhlab твой context существующие документы dhlab твой context упоминается вакансии anthropic анализ кластерам readme связанные документы appendix connection companion papers appendix connection companion papers support through configurable specialist ensembles support through configurable specialist ensembl существующие документы dhlab твой context существующие документы dhlab твой context the missing middle layer between chat and code the missing middle layer between chat and code with anthropic cowork platform with anthropic cowork platform acknowledgments acknowledgments references references acknowledgments acknowledgments связанные документы support through configurable specialist ensembles support through configurable specialist ensembl appendix connection companion papers appendix connection companion papers with anthropic cowork platform with anthropic cowork platform существующие документы dhlab твой context существующие документы dhlab твой context mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented acknowledgments acknowledgments references references the missing middle layer between chat and code the missing middle layer between chat and code кто ссылается этот документ formal model for human collaboration distr formal model for human collaboration distr table contents table contents acknowledgments acknowledgments coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe mediated representation for underrepresented mediated representation for underrepresented acknowledgments acknowledgments appendix connection companion papers appendix connection companion papers table contents table contents ещё",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 374,
+    "path": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md"
+  }
+}

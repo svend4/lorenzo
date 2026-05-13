@@ -352,11 +352,33 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
-**Смотрите также:**
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
-- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Ten Domains of Application"
+```
+
+## Смотрите также
+- [173-4-ten-domains-of-application](../../02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [12-closing](12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](../../02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [07-application-domains](../professional-colleague-agents-en/07-application-domains.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [02-historical-precedents](02-historical-precedents.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -364,7 +386,7 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 ---
 
 **Похожие документы:**
-- [173-4-ten-domains-of-application](docs/obsidian/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.95)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.93)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.27)
+- [04-ten-domains](../../obsidian/nautilus/representative-agent-layer-en/04-ten-domains.md) (сходство 0.99)
+- [173-4-ten-domains-of-application](../../02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.93)
+- [173-4-ten-domains-of-application](../../obsidian/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.93)
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,10 +8,24 @@ title: "Appendix A: Minimal Working Example"
 tags:
   * ingestion
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Appendix A: Minimal Working Example
+
+
+h2. Contents
+
+* [Appendix A: Minimal Working Example|#appendix-a-minimal-working-example]
+  * [A.1. Minimal nautilus.json|#a1-minimal-nautilusjson]
+  * [A.2. Minimal Adapter (Level 1)|#a2-minimal-adapter-level-1]
+  * [A.3. Minimal Passport|#a3-minimal-passport]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -22,21 +36,22 @@ h1. Appendix A: Minimal Working Example
 >
 
 
-
-h2. Contents
-
-* [Appendix A: Minimal Working Example|#appendix-a-minimal-working-example]
-  * [[memnet|A.1. Minimal [nautilus]].json](#a1-minimal-nautilusjson)
+  * [A.1. Minimal nautilus.json|#a1-minimal-nautilusjson]
   * [A.2. Minimal Adapter (Level 1)|#a2-minimal-adapter-level-1]
   * [A.3. Minimal Passport|#a3-minimal-passport]
-
-
+  * A.1. Minimal [nautilus.json|#a1-minimal-nautilusjson]
+  * [A.2. Minimal Adapter (Level 1)|#a2-minimal-adapter-level-1]
+  * [A.3. Minimal Passport|#a3-minimal-passport]
+  * A.1. Minimal [nautilus.json|#a1-minimal-nautilusjson]
+  * [A.2. Minimal Adapter (Level 1)|#a2-minimal-adapter-level-1]
+  * [A.3. Minimal Passport|#a3-minimal-passport]
+  * A.1. Minimal [nautilus.json|#a1-minimal-nautilusjson]
+  * [A.2. Minimal Adapter (Level 1)|#a2-minimal-adapter-level-1]
+  * [A.3. Minimal Passport|#a3-minimal-passport]
 
 {quote}"passport": "passports/my_notes.md",{quote}
 
 ----
-
-
 
 
 
@@ -129,7 +144,7 @@ h3. A.3. Minimal Passport
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[28-appendix-a-minimal-working-example]] (сходство 0.44)
 - [[03-portal-protocol-md]] (сходство 0.11)
 - [[35-passports-info1-md]] (сходство 0.10)
@@ -139,9 +154,30 @@ h3. A.3. Minimal Passport
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[28-appendix-a-minimal-working-example]]
 - [[123-portal-mcp-py]]
 - [[03-portal-protocol-md]]
 - [[105-review-methodology-md]]
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (17)
+- [[03-portal-protocol-md]]
+- [[04-abstract]]
+- [[09-4-passport-passport-md]]
+- [[105-review-methodology-md]]
+- [[123-portal-mcp-py]]
+- [[125-readme-mcp-md-инструкция-по-установке]]
+- [[132-planned-v0-2-0]]
+- [[22-10-queryresult-structure]]
+- _...ещё 9_
+
+# Описание
+
+## Описание
+
+Персональная коллекция Markdown-заметок.

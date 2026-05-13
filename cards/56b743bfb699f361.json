@@ -1,0 +1,76 @@
+{
+  "card_id": "sha256:56b743bfb699f361",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/NARRATIVE.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/09-architectural-gaps.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/12-roadmap.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/13-contacts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/00-intro.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/yodoca.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:6b3c31c40d99905a",
+  "payload": {
+    "title": "Нарратив проекта Lorenzo",
+    "summary": "_Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._",
+    "body": "нарратив проекта lorenzo связный рассказ том как складывается проект первых идей конкретных планов глава экосистема проектов summary проблема memnet memory all you need antipozitive хабр github cite turn view turn search turn search исследовательская активная память для трансформеров проекты svyazi cardindex agentfs knowledge space mclaude factory rufler liteparse abstract auto абстракт авто проблема memnet memory all you need antipozitive хабр github cite turn view turn search turn search исследовательская активная память для трансформеров подход слоёв yaml читать полностью svyazi component catalog глава ансамбли синергия компонентов abstract auto абстракт авто проблема cite turn search контекст реального мира доступен агенту как tool как догадка self aware mcp закрывает проблемы часового пояса даты локации подход cite turn view контроль над retrieval слоем без фреймворкового тумана hybrid rag подход pdfplumber faiss idf проще дебажить дешевле держать локальном контуре результат читать полностью svyazi ensembles overview глава mvp что строим первым abstract auto абстракт авто проблема cite turn view turn view turn search комментарии статьям issues discussions репозиториях knowledge space mclaude подход если нет всё равно спасибо публикацию она уже повлияла архитектуру прототипа результат cite turn view turn search turn search многоагентный хаос раньше пользы рой даёт выгоду только после появления handoff lock чётких спецификаций начинать mclaude mvp инженерных дней для одного сильного разработчика или пары backend agent operator mvp проверить один сценарий обнаружение объяснение полезных коллабораций читать полностью svyazi mvp planning глава архитектурные пробелы abstract auto абстракт авто проблема архитектурный зазор уже сильные кандидаты что них уже хорошо закрыто что пока остаётся незакрытым что брать mvp карточка как единица правды svyazi agentfs card подход третьих нужен memory governance layer который даёт ассоциативной памяти записывать предлагаемое как истинное результат наоборот даже средний mvp карточка как единица правды svyazi agentfs card читать полностью svyazi architectural gaps глава контракты интеграции abstract auto абстракт авто проблема каждый skill или mcp mcp инструмент должен иметь класс доступа класс среды условия вызова postcondition подход любой retrieval ответ match suggestion profile enrichment или auto summary должен возвращать только текст sourceid page span box retrievalmethod confidence support результат это идеальная онтология минимальный договор который mvp без чрезмерной формализации mvp какие идеи опирается читать полностью svyazi integration contracts глава дорожная карта abstract auto абстракт авто проблема тут нужно решить прежде всего какая память умнее какая licence policy лучше подходит подход это хорошая новость такую архитектуру можно собрать без огромной команды если самого начала дисциплинировать стыки результат эта фаза даёт уже очень ценный эффект объяснимые suggestions вместо магического мэтчинга старт должна закрепить контракт доказуемость цель минимум который должен заработать оценка усилий главный риск читать полностью svyazi roadmap глава команда контакты abstract auto абстракт авто проблема такой стиль особенно естественен для хабр комментариев открытых issue трекеров подход каждого сильного кандидата стоит просить участие всём проекте реакцию один архитектурный вопрос результат это позволяет использовать yodoca как policy reference как ещё один ассистент ключевые слова вопрос mvp planning mvp planning mvp planning mvp planning mvp planning mvp planning читать полностью svyazi contacts глава коллаборации abstract auto абстракт авто проблема они становятся процессами распределённой системе блокировками задачами памятью статусами передачей контекста подход бот для самопознания pda архитектуры прошлых ответов url event sourcing llm как периферия stability engine результат operations concierge чате принимает команды создаёт задачи запускает агентов сообщает статусы контакт ему комменты тегами чепурову романова ссылкой ngt memory описав идею объединения может оказаться буквально тем самым карточкой цель как мерить качество извлечённой структуры над которой чуян ещё думает цель проходит через планирование реализацию ревью security review уведомление telegram factory сканирует проект определяет стек ставит skills настраивает mcp серверы создаёт читать полностью collaborations intro глава yodoca память abstract auto абстракт авто проблема yodoca yodoca консолидация забывание important ключевой документ для понимания архитектуры подход yodoca yodoca консолидация забывание important ключевой документ для понимания архитектуры ключевые слова memory projects yodoca svyazi collaboration wikontic sqlite readme important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь читать полностью habr projects memory yodoca глава ngt граф памяти abstract auto абстракт авто проблема романова уже решена задача как мерить качество извлечённой структуры над которой чуян ещё думает результат автор лингвист вмк мгу аспирантура фокус лингвистика даёт типизацию отношений масштабируется сотни страниц llm понимает семантику без формальной структуры ключевые слова projects memory цель как мерить качество извлечённой структуры над которой чуян ещё думает цель как мерить качество извлечённой структуры над которой чуян ещё думает читать полностью habr projects memory ngt memory общая картина lorenzo это один проект экосистема взаимосвязанных компонентов svyazi ядро объединяющее oss проектов ансамбли синергетические сборки для конкретных задач mvp минимально жизнеспособный прототип месяцев команда распределённые авторы хабре github следующий шаг контакт авторами ключевых компонентов полная дорожная карта docs svyazi roadmap svyazi roadmap смотрите также mvp planning svyazi mvp planning план прототипа возможные контакты collaborations план прототипа возможные контакты similar passages similar passages roadmap svyazi roadmap",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "Wikontic"
+    ],
+    "wc": 1055,
+    "path": "docs/NARRATIVE.md"
+  }
+}

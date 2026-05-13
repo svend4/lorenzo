@@ -1,10 +1,29 @@
 # Essence
 
+<!-- toc-auto -->
+## Contents
+
+- [Essence](#essence)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > `meta` — **символьное измерение** экосистемы svend4. Здесь концепты
 
 ---
 <!-- tags: collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -12,8 +31,8 @@
 ## Essence
 
 `meta` — **символьное измерение** экосистемы svend4. Здесь концепты 
-представлены не как определения (`[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`) и не как методы применения 
-(`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`), а как **динамические правила поведения**: что происходит 
+представлены не как определения (`[pro2](01-интегральный-анализ-профиля-svend4.md)`) и не как методы применения 
+(`[info1](01-интегральный-анализ-профиля-svend4.md)`), а как **динамические правила поведения**: что происходит 
 с концептом во времени, какие у него attractors, как он эволюционирует.
 
 Репозиторий строится на формальном соответствии между двумя 
@@ -33,19 +52,40 @@ CA-правил, через классы Вольфрама, через аттр
 
 ---
 
-**Похожие документы:**
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.16)
-- [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.14)
-- [36-essence](docs/02-anthropic-vacancies/36-essence.md) (сходство 0.12)
+## Похожие документы
+- [55-passports-meta-md](55-passports-meta-md.md) (сходство 0.16)
+- [46-essence](46-essence.md) (сходство 0.14)
+- [36-essence](36-essence.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
-- [46-essence](docs/02-anthropic-vacancies/46-essence.md)
-- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
-- [35-passports-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Essence"
+```
+
+## Смотрите также
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [46-essence](46-essence.md)
+- [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
+- [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- 35-passports-[info1-md](35-passports-info1-md.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [README](README.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.

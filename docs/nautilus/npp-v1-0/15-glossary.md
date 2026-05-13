@@ -1,12 +1,44 @@
 # 15. Glossary of Examples
 
+<!-- toc-auto -->
+## Contents
+
+- [15. Glossary of Examples](#15-glossary-of-examples)
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
 <!-- tags: ingestion, anthropic, collaboration -->
-
-
 
 
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
@@ -111,11 +143,27 @@ example_user, example@email.com
 
 ---
 
-**Смотрите также:**
-- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
+## Смотрите также
+- [27-15-glossary-of-examples](../../02-anthropic-vacancies/27-15-glossary-of-examples.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
+- [13-reference-implementation](13-reference-implementation.md)
+- [10-query-result](10-query-result.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [CONCEPT_GRAPH](../../CONCEPT_GRAPH.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-shell-metaphor-two-projections](../../anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
+- [10-query-result](10-query-result.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -123,7 +171,7 @@ example_user, example@email.com
 ---
 
 **Похожие документы:**
-- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md) (сходство 0.49)
-- [27-15-glossary-of-examples](docs/obsidian/02-anthropic-vacancies/27-15-glossary-of-examples.md) (сходство 0.48)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.44)
+- [15-glossary](../../obsidian/nautilus/npp-v1-0/15-glossary.md) (сходство 0.96)
+- [13-reference-implementation](../../obsidian/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.40)
+- [13-reference-implementation](13-reference-implementation.md) (сходство 0.39)
 

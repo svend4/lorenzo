@@ -203,7 +203,7 @@ within 5-10 years.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md) (сходство 0.17)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.14)
 - [218-7-application-domains](218-7-application-domains.md) (сходство 0.14)
@@ -213,7 +213,13 @@ within 5-10 years.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Seven Domains of Application"
+```
+
+## Смотрите также
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
 - [218-7-application-domains](218-7-application-domains.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
@@ -245,3 +251,19 @@ within 5-10 years.
 - [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _21%_
 - [11. Open Questions](264-11-open-questions.md) _21%_
 - [6. Four Deployment Domains](143-6-four-deployment-domains.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [218-7-application-domains](218-7-application-domains.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
+- _...ещё 1_
+

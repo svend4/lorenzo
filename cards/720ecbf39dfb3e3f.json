@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:720ecbf39dfb3e3f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/03-portal-protocol-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/05-0-status-of-this-document.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/75-0-status-of-this-document.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/164-10-appendices.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:86a525092d43d2f2",
+  "payload": {
+    "title": "PORTAL-PROTOCOL.md",
+    "summary": "",
+    "body": "portal protocol status draft working document похожие документы portal protocol portal protocol сходство mediated representation for underrepresented mediated representation for underrepresented сходство coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe сходство смотрите также coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe portal protocol portal protocol formal model for human collaboration distr formal model for human collaboration distr mediated representation for underrepresented mediated representation for underrepresented упоминается status this document status this document status this document status this document appendices appendices versioning policy versioning policy reference implementation reference implementation versioning policy versioning policy reference implementation reference implementation formal model for human collaboration distributed knowledge work formal model for human collaboration distr coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe appendix minimal working example appendix minimal working example appendix minimal working example appendix minimal working example author contact author contact author contact author contact for the curious philosophy for the curious philosophy portal protocol portal protocol readme mcp инструкция установке readme mcp инструкция установке readme readme review methodology review methodology portal mcp portal mcp вакансии anthropic анализ кластерам readme зачем две версии параллельно зачем две версии параллельно примеры запросов claude примеры запросов claude ссылки ссылки упоминается вакансии anthropic анализ кластерам readme связанные документы portal protocol portal protocol coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe author contact author contact formal model for human collaboration distributed knowledge work formal model for human collaboration distr mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented status this document status this document appendices appendices versioning policy versioning policy связанные документы coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe portal protocol portal protocol formal model for human collaboration distributed knowledge work formal model for human collaboration distr status this document status this document mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented versioning policy versioning policy author contact author contact author contact author contact кто ссылается этот документ status this document status this document review methodology review methodology portal mcp portal mcp readme mcp инструкция установке readme mcp инструкция установке примеры запросов claude примеры запросов claude formal model for human collaboration distr formal model for human collaboration distr coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe appendices appendices ещё",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 347,
+    "path": "docs/02-anthropic-vacancies/03-portal-protocol-md.md"
+  }
+}

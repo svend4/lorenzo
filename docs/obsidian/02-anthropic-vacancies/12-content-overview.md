@@ -3,12 +3,35 @@ title: "Content Overview"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Content Overview
 
+<!-- toc-auto -->
+## Contents
+
+- [Content Overview](#content-overview)
+- [Похожие документы](#похожие-документы)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 > Что внутри: типы данных, приблизительный объём, основные темы.
 
 ---
@@ -24,7 +47,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[31-content-overview]] (сходство 0.21)
 
 <!-- backlinks-auto -->
@@ -65,9 +88,33 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Content Overview"
+```
+
+## Смотрите также
 - [[31-content-overview]]
 - [[13-angle-perspective]]
 - [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
 - [[151-open-knowledge-work-foundation-md]]
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[13-angle-perspective]]
+- [[134-the-double-triangle-architecture-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[187-слой-представительских-агентов-md]]
+- [[208-professional-colleague-agents-md]]
+- [[249-composite-skills-agent-md]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
+- [[31-content-overview]]
+- _...ещё 2_
+
+_Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

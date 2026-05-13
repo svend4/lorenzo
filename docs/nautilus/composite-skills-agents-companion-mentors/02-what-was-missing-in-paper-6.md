@@ -1,5 +1,23 @@
 # Это не Тип 1 — потому что профиль не общий для всей профессии. И это не Тип 4 — …
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -130,11 +148,33 @@
 
 ---
 
-**Смотрите также:**
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-- [03-the-spectrum](docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md)
-- [01-yogi-metaphor](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
-- [00-question-multiple-mentors](docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Это не Тип 1 потому что профиль не"
+```
+
+## Смотрите также
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [03-the-spectrum](03-the-spectrum.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- [00-question-multiple-mentors](00-question-multiple-mentors.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-response](../community-discussions/habr-article-2-reaction/01-response.md)
+- [00-question-multiple-mentors](00-question-multiple-mentors.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -142,7 +182,7 @@
 ---
 
 **Похожие документы:**
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.36)
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.35)
-- [03-the-spectrum](docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md) (сходство 0.19)
+- [02-what-was-missing-in-paper-6](../../obsidian/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md) (сходство 0.98)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.35)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.35)
 

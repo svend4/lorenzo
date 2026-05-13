@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:ffc54d91e4c36fd9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:15545910af1b3d7a",
+  "payload": {
+    "title": "The Two-Layer Stack As It Exists",
+    "summary": "Currently, AI-collaborative work tends to occur in one of two",
+    "body": "the two layer stack exists tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также the two layer stack exists anthropic vacancies the two layer stack exists existing approximations existing approximations missing middle layer missing middle layer why document exists why document exists",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 352,
+    "path": "docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md"
+  }
+}

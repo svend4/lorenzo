@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:ee1719591b4e1f4d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/14-local-first-agent-development-environment.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/09-14-extended.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/24-mega-integration-full-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:2438814cff377758",
+  "payload": {
+    "title": "Комбинация 14: local-first Agent Development Environment",
+    "summary": "OpenClaude (leaked Claude Code fork, OpenAI-compatible providers)",
+    "body": "комбинация local first agent development environment источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex yjs automerge смотрите также multi agent observability platform multi agent observability platform extended synthesis tables extended mega integration full stack mega integration full stack legal stack mega stacks legal stack кто ссылается этот документ components name glossary components name readme readme legal stack mega stacks legal stack extended synthesis tables extended",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 577,
+    "path": "docs/technology-combinations/combinations/14-local-first-agent-development-environment.md"
+  }
+}

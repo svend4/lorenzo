@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:c83ccd4c101a8690",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/phased-deployment/00-overview.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/07-progression-logic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/01-level-0-manual.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:57ab2df16bf3ec27",
+  "payload": {
+    "title": "Поэтапная структура активностей Lorenzo — обзор",
+    "summary": "Claude hat geantwortet: Отлично — это очень важный ответ.",
+    "body": "поэтапная структура активностей lorenzo обзор источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network смотрите также progression logic progression logic level full network level full network level manual level manual level extended mature level extended mature",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 169,
+    "path": "docs/lorenzo-agent/phased-deployment/00-overview.md"
+  }
+}

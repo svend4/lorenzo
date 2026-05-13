@@ -1,10 +1,27 @@
 # Why This Hasn't Been Built
 
+<!-- toc-auto -->
+## Contents
+
+- [Why This Hasn't Been Built](#why-this-hasnt-been-built)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -60,11 +77,31 @@ integration does not.
 
 ---
 
-**Смотрите также:**
-- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
-- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Hasn t Been Built"
+```
+
+## Смотрите также
+- [278-why-this-hasn-t-been-built](../../02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [12-closing](12-closing.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -72,7 +109,7 @@ integration does not.
 ---
 
 **Похожие документы:**
-- [278-why-this-hasn-t-been-built](docs/obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.83)
-- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.76)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md) (сходство 0.21)
+- [05-why-not-built](../../obsidian/nautilus/infrastructure-layer-b-en/05-why-not-built.md) (сходство 0.98)
+- [278-why-this-hasn-t-been-built](../../02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.78)
+- [278-why-this-hasn-t-been-built](../../obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.77)
 

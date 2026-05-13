@@ -24,3 +24,6 @@ docs-toolkit/*.egg-info/
 
 # pre-commit cache
 .pre-commit-cache/
+docs/ann_index.bin
+docs/ann_proj.npy
+docs/ann_meta.json

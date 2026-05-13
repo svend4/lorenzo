@@ -1,10 +1,26 @@
 # Комбинация 12: Multi-Agent Observability Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: orchestration, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -47,11 +63,35 @@ ROI: Detect agent bottlenecks 60 sec vs manual review
 
 ---
 
-**Смотрите также:**
-- [09-agent-orchestration-stack](docs/technology-combinations/combinations/09-agent-orchestration-stack.md)
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
-- [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 12 Multi Agent Observability"
+```
+
+## Смотрите также
+- [09-agent-orchestration-stack](09-agent-orchestration-stack.md)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
+- [16-adversarial-multi-agent-code-review](16-adversarial-multi-agent-code-review.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [09-agent-orchestration-stack](09-agent-orchestration-stack.md)
+- [16-adversarial-multi-agent-code-review](16-adversarial-multi-agent-code-review.md)
+- [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -59,7 +99,7 @@ ROI: Detect agent bottlenecks 60 sec vs manual review
 ---
 
 **Похожие документы:**
-- [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md) (сходство 0.25)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.24)
-- [09-agent-orchestration-stack](docs/technology-combinations/combinations/09-agent-orchestration-stack.md) (сходство 0.23)
+- [12-multi-agent-observability-stack](../../obsidian/technology-combinations/combinations/12-multi-agent-observability-stack.md) (сходство 0.97)
+- [15-19-extended](../synthesis-tables/15-19-extended.md) (сходство 0.49)
+- [15-19-extended](../../obsidian/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.48)
 

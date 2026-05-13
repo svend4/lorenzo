@@ -1,10 +1,28 @@
 # 18. Reference Implementation
 
+<!-- toc-auto -->
+## Contents
+
+- [18. Reference Implementation](#18-reference-implementation)
+  - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 <!-- tags: rag, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -46,11 +64,33 @@ NPP-compatible, если они:
 
 ---
 
-**Смотрите также:**
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "18 Reference Implementation"
+```
+
+## Смотрите также
+- [93-18-reference-implementation](../../02-anthropic-vacancies/93-18-reference-implementation.md)
+- [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
+- [25-13-reference-implementation](../../02-anthropic-vacancies/25-13-reference-implementation.md)
+- [14-sdk](14-sdk.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
+- [14-sdk](14-sdk.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -58,7 +98,7 @@ NPP-compatible, если они:
 ---
 
 **Похожие документы:**
-- [93-18-reference-implementation](docs/obsidian/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.67)
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.59)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.45)
+- [18-reference-implementation](../../obsidian/nautilus/npp-v1-1/18-reference-implementation.md) (сходство 0.97)
+- [93-18-reference-implementation](../../obsidian/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.58)
+- [93-18-reference-implementation](../../02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.57)
 

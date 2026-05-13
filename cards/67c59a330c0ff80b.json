@@ -1,0 +1,82 @@
+{
+  "card_id": "sha256:67c59a330c0ff80b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/SITEMAP.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/ABBREVIATIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/obsidian/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ALERTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/AUTHORS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/obsidian/AUTHORS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/AUTOFILLED.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BACKLINKS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BADGES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BROKEN_LINKS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c5d7c631354582ff",
+  "payload": {
+    "title": "Карта репозитория Lorenzo",
+    "summary": "_`docs/02-anthropic-vacancies/` — 355 файлов_",
+    "body": "карта репозитория lorenzo обновлено всего файлов навигация мета документы мета документы svyazi архитектура системы svyazi вакансии anthropic позиций anthropic vacancies комбинации технологий technology combinations коллаборации ансамбли проектов collaborations хабр проекты память граф habr projects collaborations collaborations anthropic vacancies anthropic vacancies autofilled autofilled contacts contacts glossary glossary habr unique projects habr unique projects lorenzo agent lorenzo agent meta scripting meta scripting nautilus nautilus obsidian obsidian processing guide processing guide svyazi svyazi technology combinations technology combinations templates templates",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Auto AI Router",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 8315,
+    "path": "docs/SITEMAP.md"
+  }
+}

@@ -1,35 +1,69 @@
 # npp-v1-0
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 19
 
 ## Содержание
 
-- [00-abstract-status.md](00-abstract-status.md) — <!-- summary -->
-- [01-introduction.md](01-introduction.md) — <!-- summary -->
-- [02-terminology.md](02-terminology.md) — <!-- summary -->
-- [03-registry.md](03-registry.md) — > [!IMPORTANT]
-- [04-passport.md](04-passport.md) — <!-- summary -->
-- [05-compatibility-levels.md](05-compatibility-levels.md) — <!-- summary -->
-- [06-adapter-interface.md](06-adapter-interface.md) — > [!IMPORTANT]
-- [07-portal-entry.md](07-portal-entry.md) — > [!IMPORTANT]
-- [08-consensus-algorithm.md](08-consensus-algorithm.md) — <!-- summary -->
-- [09-query-flow.md](09-query-flow.md) — <!-- summary -->
-- [10-query-result.md](10-query-result.md) — <!-- summary -->
-- [11-security-considerations.md](11-security-considerations.md) — <!-- summary -->
-- [12-versioning-policy.md](12-versioning-policy.md) — <!-- summary -->
-- [13-reference-implementation.md](13-reference-implementation.md) — <!-- summary -->
-- [14-adr-001-federation-over-merging.md](14-adr-001-federation-over-merging.md) — <!-- summary -->
-- [15-glossary.md](15-glossary.md) — <!-- summary -->
-- [16-appendix-a-minimal-working-example.md](16-appendix-a-minimal-working-example.md) — <!-- summary -->
-- [17-appendix-b-change-log.md](17-appendix-b-change-log.md) — <!-- summary -->
-- [18-comment-on-document.md](18-comment-on-document.md) — > [!IMPORTANT]
+- [00-abstract-status.md](00-abstract-status.md) — <!-- toc-auto -->
+- [01-introduction.md](01-introduction.md) — <!-- toc-auto -->
+- [02-terminology.md](02-terminology.md) — <!-- toc-auto -->
+- [03-registry.md](03-registry.md) — <!-- toc-auto -->
+- [04-passport.md](04-passport.md) — <!-- toc-auto -->
+- [05-compatibility-levels.md](05-compatibility-levels.md) — <!-- toc-auto -->
+- [06-adapter-interface.md](06-adapter-interface.md) — <!-- toc-auto -->
+- [07-portal-entry.md](07-portal-entry.md) — <!-- toc-auto -->
+- [08-consensus-algorithm.md](08-consensus-algorithm.md) — <!-- toc-auto -->
+- [09-query-flow.md](09-query-flow.md) — <!-- toc-auto -->
+- [10-query-result.md](10-query-result.md) — <!-- toc-auto -->
+- [11-security-considerations.md](11-security-considerations.md) — <!-- toc-auto -->
+- [12-versioning-policy.md](12-versioning-policy.md) — <!-- toc-auto -->
+- [13-reference-implementation.md](13-reference-implementation.md) — <!-- toc-auto -->
+- [14-adr-001-federation-over-merging.md](14-adr-001-federation-over-merging.md) — <!-- toc-auto -->
+- [15-glossary.md](15-glossary.md) — <!-- toc-auto -->
+- [16-appendix-a-minimal-working-example.md](16-appendix-a-minimal-working-example.md) — <!-- toc-auto -->
+- [17-appendix-b-change-log.md](17-appendix-b-change-log.md) — <!-- toc-auto -->
+- [18-comment-on-document.md](18-comment-on-document.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-abstract-status](00-abstract-status.md)
+- [01-introduction](01-introduction.md)
+- [02-terminology](02-terminology.md)
+- _...ещё 12_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/nautilus/npp-v1-1/README.md) (сходство 0.60)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md) (сходство 0.17)
-- [22-10-queryresult-structure](docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md) (сходство 0.16)
+- [README](../../obsidian/nautilus/npp-v1-0/README.md) (сходство 0.90)
+- [README](../npp-v1-1/README.md) (сходство 0.66)
+- [README](../../obsidian/nautilus/npp-v1-1/README.md) (сходство 0.60)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

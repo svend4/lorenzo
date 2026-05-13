@@ -106,7 +106,7 @@ def main():
                     prereqs = deps
 
             learning_path.append({
-                "path": str(f.relative_to(ROOT)),
+                "path": str(f.relative_to(DOCS)),
                 "section": section,
                 "title": title,
                 "words": words,
@@ -136,15 +136,15 @@ def main():
         "\n## Маршруты по целям\n",
 
         "### 🚀 Быстрый старт (30 минут)\n",
-        "1. [Executive Summary](docs/01-svyazi/01-executive-summary.md)",
-        "2. [Ансамбли проектов](docs/01-svyazi/04-ensembles-overview.md)",
-        "3. [MVP Planning](docs/01-svyazi/07-mvp-planning.md)\n",
+        "1. [Executive Summary](01-svyazi/01-executive-summary.md)",
+        "2. [Ансамбли проектов](01-svyazi/04-ensembles-overview.md)",
+        "3. [MVP Planning](01-svyazi/07-mvp-planning.md)\n",
 
         "### 🏗️ Архитектура (2 часа)\n",
-        "1. [Component Catalog](docs/01-svyazi/03-component-catalog.md)",
-        "2. [Architectural Gaps](docs/01-svyazi/09-architectural-gaps.md)",
-        "3. [Integration Contracts](docs/01-svyazi/11-integration-contracts.md)",
-        "4. [Security & Privacy](docs/01-svyazi/06-security-privacy.md)\n",
+        "1. [Component Catalog](01-svyazi/03-component-catalog.md)",
+        "2. [Architectural Gaps](01-svyazi/09-architectural-gaps.md)",
+        "3. [Integration Contracts](01-svyazi/11-integration-contracts.md)",
+        "4. [Security & Privacy](01-svyazi/06-security-privacy.md)\n",
 
         "### 🔬 Полное исследование (1 день)\n",
         "1. Весь раздел `01-svyazi/` по порядку",

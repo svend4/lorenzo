@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:6df1649ca2399b80",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:923a1f547dd91cbb",
+  "payload": {
+    "title": "Appendix A: Minimal Working Example",
+    "summary": "from base import BaseAdapter, PortalEntry",
+    "body": "appendix minimal working example contents appendix minimal working example appendix minimal working example minimal nautilus habr projects memory memnet json minimal nautilusjson minimal adapter minimal adapter minimal passport minimal passport adapter adapters notes похожие документы appendix minimal working example appendix minimal working example сходство portal protocol portal protocol сходство portal mcp portal mcp сходство смотрите также appendix minimal working example appendix minimal working example portal mcp portal mcp portal protocol portal protocol review methodology review methodology кто ссылается этот документ portal protocol portal protocol abstract abstract passport passport passport passport appendix change log appendix change log appendix references appendix references review methodology review methodology глоссарий глоссарий portal mcp portal mcp ещё",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 212,
+    "path": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md"
+  }
+}

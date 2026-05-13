@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:4f7b6c3f7cc20a1e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6b0ee89f43d1e508",
+  "payload": {
+    "title": "Сходство 1: Composite Skills паттерн уже встроен",
+    "summary": "Чем Hermes похож на нашу архитектуру (InGit + Cowork + Nautilus)",
+    "body": "сходство composite skills паттерн уже встроен источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога сравнение собственной архитектуры ingit cowork nautilus hermes agent nous resear смотрите также difference domain specialization difference domain specialization similarity persistent memory similarity persistent memory similarity self hosting privacy similarity self hosting privacy similarity multi platform similarity multi platform",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 212,
+    "path": "docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md"
+  }
+}

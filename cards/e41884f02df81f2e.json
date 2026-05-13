@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:e41884f02df81f2e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/deep-pairs/1-llm-gateway.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:fecfcee79fea05a7",
+  "payload": {
+    "title": "Пара 1 — LLM-gateway × Self-hosted фронт + локальный inference",
+    "summary": "Пара 1. LLM-gateway × Self-hosted фронт + локальный inference",
+    "body": "пара llm gateway self hosted фронт локальный inference источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты litellm auto router смотрите также multiagentnyy khaos reshenie auto router technology combinations combinations multiagentnyy khaos reshenie auto router tmux village openclaw tmux village openclaw skill catalogs subagents skill catalogs subagents one person one company final ensembles one person one company",
+    "tags": [
+      "security",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "LiteLLM",
+      "Auto AI Router"
+    ],
+    "wc": 280,
+    "path": "docs/habr-unique-projects/deep-pairs/1-llm-gateway.md"
+  }
+}

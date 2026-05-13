@@ -2,7 +2,7 @@
 title: "components"
 tags:
   - autofilled
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # components
@@ -11,23 +11,39 @@ date: 2026-04-29
 
 ## Содержание
 
-- [.md](.md) — <!-- summary -->
-- [[cowork|cowork.md]] — <!-- summary -->
-- [[ingit|ingit.md]] — <!-- summary -->
-- [[kksudo|kksudo.md]] — <!-- summary -->
-- [[lorenzo|lorenzo.md]] — <!-- summary -->
-- [[nautilus|nautilus.md]] — <!-- summary -->
-- [[sgb|sgb.md]] — <!-- summary -->
-- [[spbmolot|spbmolot.md]] — <!-- summary -->
-- [[svend4|svend4.md]] — <!-- summary -->
-- [[svyazi|svyazi.md]] — <!-- summary -->
+- [.md](.md) — <!-- toc-auto -->
+- [[cowork|cowork.md]] — <!-- toc-auto -->
+- [[ingit|ingit.md]] — <!-- toc-auto -->
+- [[kksudo|kksudo.md]] — <!-- toc-auto -->
+- [[lorenzo|lorenzo.md]] — <!-- toc-auto -->
+- [[nautilus|nautilus.md]] — <!-- toc-auto -->
+- [[sgb|sgb.md]] — <!-- toc-auto -->
+- [[spbmolot|spbmolot.md]] — <!-- toc-auto -->
+- [[svend4|svend4.md]] — <!-- toc-auto -->
+- [[svyazi|svyazi.md]] — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [[AUTOFILLED]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [.md](.md)
+- [[cowork]]
+- _...ещё 8_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [[README]] (сходство 0.92)
-- [[README]] (сходство 0.27)
-- [[README]] (сходство 0.27)
+- [[README]] (сходство 0.85)
+- [[README]] (сходство 0.62)
+- [[README]] (сходство 0.50)
 

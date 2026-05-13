@@ -1,11 +1,20 @@
 # 3. What InGit Provides That Cowork Lacks
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [3. What InGit Provides That Cowork Lacks](#3-what-ingit-provides-that-cowork-lacks)
@@ -176,11 +185,33 @@ ground on which Cowork operates effectively.
 
 ---
 
-**Смотрите также:**
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
-- [04-symbiotic-architecture](docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What InGit Provides That Cowork Lacks"
+```
+
+## Смотрите также
+- [311-3-what-ingit-provides-that-cowork-lacks](../../02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [04-symbiotic-architecture](04-symbiotic-architecture.md)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [04-symbiotic-architecture](04-symbiotic-architecture.md)
+- [05-four-integration-paths](05-four-integration-paths.md)
+- [06-refined-ingit-scope](06-refined-ingit-scope.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -188,7 +219,7 @@ ground on which Cowork operates effectively.
 ---
 
 **Похожие документы:**
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.89)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.87)
-- [04-symbiotic-architecture](docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md) (сходство 0.23)
+- [03-ingit-provides](../../obsidian/nautilus/ingit-cowork-en/03-ingit-provides.md) (сходство 0.99)
+- [311-3-what-ingit-provides-that-cowork-lacks](../../02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.89)
+- [311-3-what-ingit-provides-that-cowork-lacks](../../obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.88)
 

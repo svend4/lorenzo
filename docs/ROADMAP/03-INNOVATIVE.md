@@ -1,5 +1,18 @@
 # 03 — Инновационные направления (frontier research)
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+**Проекты:** Yodoca
+
+---
+
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 Современный research frontier (2024-2026): уже опубликованы paper'ы, есть прототипы, но мало production-grade реализаций. Каждое — 4-8 спринтов, требует исследовательского подхода.
 
 **Документ:** часть серии ROADMAP. См. также: [00-CURRENT-STATE](./00-CURRENT-STATE.md), [01-SIMPLE](./01-SIMPLE.md), [02-MEDIUM](./02-MEDIUM.md), [04-NOVEL](./04-NOVEL.md), [05-PRIORITIES](./05-PRIORITIES.md).
@@ -820,3 +833,27 @@ def summarize_corpus(*, section: str = "", query: str = "",
 8. **I4** (Counterfactual probing) — для debugging
 9. **I5** (Memory-augmented) — большая работа, окупится только в long-term assistant use case
 10. **I9** (GA prompts) — research-y, отложить до stable foundation
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [01-SIMPLE](01-SIMPLE.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [04-NOVEL](04-NOVEL.md)
+- [05-PRIORITIES](05-PRIORITIES.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-NOVEL](04-NOVEL.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [01-SIMPLE](01-SIMPLE.md)
+

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/67-о-проекте.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -10,21 +10,30 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 🇷🇺 О проекте
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 
 {quote}_Абстракт_ (авто){quote}
 >
-{quote}🎯 _Проблема:_ Документация - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal specification v1.0 (15 страниц) - passports/(./passports/) — описания репо экосистемы для людей - info1(./passports{quote}
+{quote}🎯 _Проблема:_ Документация - PORTAL-PROTOCOL.md(03-portal-protocol-md.md) — formal specification v1.0 (15 страниц) - passports/(./passports/) — описания репо экосистемы для людей - info1(./passports{quote}
 {quote}🔧 _Подход:_ - 0: Discoverable — только объявлен в registry - 1: Readable — имеет passport + describe() метод - 2: Queryable — реализует fetch(query) — поиск работает - 3: Interactive — transla{quote}
 {quote}✅ _Результат:_ Это создаёт lock-in, теряет авторские модели, гомогенизирует разные типы знания.{quote}
 {quote}🏷️ _Ключевые слова:_ {{nautilus}}, {{svend}}, {{passports}}, {{portal}}, {{terminology}}, {{protocol}}, {{anthropic}}, {{vacancies}}{quote}
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Nautilus — протокол и reference implementation для _федерации_{quote}
 
@@ -128,12 +137,12 @@ _Минимально (Level 0–1, 5 минут):_
 {code}
 
 2. Напишите {{passport.md}} — одну страницу описания (см. шаблон в 
-   [{{passports/}}|./passports/])
+   {{passports/}})
 
 _Полностью (Level 2–3, несколько часов):_
 
 3. Добавьте адаптер в {{adapters/my_repo.py}}, реализующий 
-   {{[[01-интегральный-анализ-профиля-svend4|BaseAdapter]]}} интерфейс (см. [[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md §6]])
+   {{[[01-интегральный-анализ-профиля-svend4|BaseAdapter]]}} интерфейс (см. [[03-portal-protocol-md|PORTAL-PROTOCOL.md §6]])
 
 4. Зарегистрируйте репо в {{[[memnet|nautilus]].json}} корневого портала
 
@@ -171,17 +180,17 @@ h3. Уровни совместимости
 * _3: Interactive_ — {{translate_to()}} — cross-repo переводы через 
   bridges
 
-Детали — в [[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md §5]].
+Детали — в [[03-portal-protocol-md|PORTAL-PROTOCOL.md §5]].
 
 h3. Документация
 
-* _[[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md]]_ — formal 
+* _[[03-portal-protocol-md|PORTAL-PROTOCOL.md]]_ — formal 
   specification v1.0 (15 страниц)
-* _[passports/|./passports/]_ — описания репо экосистемы для 
+* _{{passports/}}_ — описания репо экосистемы для 
   людей
-  * [[info1]]
-  * [[pro2]]
-  * [[meta]]
+  * {{info1}}
+  * {{pro2}}
+  * {{meta}}
 * _Issues_ — вопросы, предложения, сообщения об ошибках
 
 h3. Файловая структура
@@ -226,7 +235,7 @@ h3. Лицензии
 * _Документация_ (README, PORTAL-PROTOCOL, passports): 
   [CC BY 4.0|https://creativecommons.org/licenses/by/4.0/]
 * _Код_ (portal, adapters, glyph_adapter): 
-  [MIT|./LICENSE]
+  [[README|MIT]]
 
 h3. Контакт
 
@@ -239,7 +248,7 @@ h3. Контакт
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[68-about]] (сходство 0.17)
 * [[07-2-terminology]] (сходство 0.16)
 * [[77-2-terminology]] (сходство 0.14)
@@ -249,7 +258,7 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[68-about]]
 * [[07-2-terminology]]
 * [[77-2-terminology]]
@@ -292,3 +301,19 @@ h2. Связанные документы
 * [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _25%_
 * [[122-глоссарий|Глоссарий]] _25%_
 * [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* 02-общий-план-развития-[[02-общий-план-развития-nautilus-portal-protocol|nautilus-portal-protocol]]
+* [[104-appendix-c-references]]
+* [[105-review-methodology-md]]
+* [[122-глоссарий]]
+* 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+* [[25-13-reference-implementation]]
+* [[42-author-contact]]
+* [[64-for-the-curious-philosophy]]
+* _...ещё 2_
+

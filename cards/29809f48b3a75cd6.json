@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:29809f48b3a75cd6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/WORD_CLOUD.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:5605cc6b62b898da",
+  "payload": {
+    "title": "Word Cloud",
+    "summary": "Визуализация 80 самых частых слов репозитория.",
+    "body": "word cloud визуализация самых частых слов репозитория проекты svyazi визуализация самых частых слов репозитория word cloud word cloud svg топ слов слово частота anthropic vacancies agent turn svyazi сходство view cowork nautilus appendix ingit agents knowledge portal protocol search document memory lorenzo claude похожие документы concept graph сходство appendix minimal working example сходство ingit cowork native workspace substrate сходство смотрите также concept graph appendix minimal working example readme practical path layer through symbiotic inte",
+    "tags": [
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 226,
+    "path": "docs/obsidian/WORD_CLOUD.md"
+  }
+}

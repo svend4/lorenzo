@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/25-13-reference-implementation.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,11 +8,34 @@ title: "13. Reference Implementation"
 tags:
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 13. Reference Implementation
 
+
+h2. Contents
+
+* [13. Reference Implementation|#13-reference-implementation]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (20)|#кто-ссылается-на-этот-документ-20]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Reference implementation: {{github.com/svend4/nautilus}}.{quote}
 
@@ -40,7 +63,7 @@ Reference НЕ является нормативной. Альтернативн
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[93-18-reference-implementation]] (сходство 0.36)
 * [[42-author-contact]] (сходство 0.21)
 * [[03-portal-protocol-md]] (сходство 0.19)
@@ -50,7 +73,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "13 Reference Implementation"
+{code}
+
+h2. Смотрите также
 * [[93-18-reference-implementation]]
 * [[42-author-contact]]
 * [[62-author-contact]]
@@ -61,7 +90,7 @@ h2. Упоминается в
 
 * [[05-0-status-of-this-document|0. Status of This Document]]
 * [[75-0-status-of-this-document|0. Status of This Document]]
-* [[22-10-queryresult-structure|10. QueryResult Structure]]
+* 10. [[22-10-queryresult-structure|QueryResult Structure]]
 * [[86-11-relevance-ranking|11. Relevance Ranking]]
 * [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]]
 * [[27-15-glossary-of-examples|15. Glossary of Examples]]
@@ -106,3 +135,19 @@ h2. Связанные документы
 * [[35-passports-info1-md|passports/info1.md]] _33%_
 * [[52-author-contact|Author & Contact]] _33%_
 * [[104-appendix-c-references|Appendix C: References]] _29%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (20)
+* [[03-portal-protocol-md]]
+* [[05-0-status-of-this-document]]
+* [[104-appendix-c-references]]
+* [[122-глоссарий]]
+* [[129-примеры-запросов-в-claude]]
+* 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+* [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+* [[164-10-appendices]]
+* _...ещё 12_
+

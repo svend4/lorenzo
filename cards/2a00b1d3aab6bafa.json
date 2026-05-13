@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:2a00b1d3aab6bafa",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/57-native-format.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:5d4a88b7cc344096",
+  "payload": {
+    "title": "Native Format",
+    "summary": "\"wolfram_class\": \"IV\",  // I, II, III, IV",
+    "body": "native format структура записи уточнить native format расширение meta структура записи уточнить варианты интерпретации выберите дополните вариант rule first rule number wolfram class iii associated hexagrams связанные гексаграммы dynamics description attractors stable patterns вариант hexagram first hexagram number king wen order или binary classical name creative lines rule family правила эквивалентной динамикой wolfram class iii symbolic meaning вариант symmetric mapping обе структуры хранятся параллельно cross references похожие документы native format сходство bridges сходство native format сходство смотрите также bridges compatibility level compatibility level native format упоминается angle perspective angle perspective bridges bridges bridges bridges bridges bridges compatibility level compatibility level compatibility level compatibility level native format native format native format native format readme вакансии anthropic анализ кластерам упоминается readme вакансии anthropic анализ кластерам связанные документы compatibility level compatibility level angle perspective angle perspective bridges bridges native format native format bridges bridges compatibility level compatibility level angle perspective angle perspective bridges bridges связанные документы native format native format bridges bridges compatibility level compatibility level native format native format bridges bridges bridges bridges angle perspective angle perspective compatibility level compatibility level",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 271,
+    "path": "docs/obsidian/02-anthropic-vacancies/57-native-format.md"
+  }
+}

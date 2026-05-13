@@ -2,34 +2,38 @@
 title: "Карта зависимостей скриптов"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Карта зависимостей скриптов
-
-<!-- summary -->
-> _Что каждый `improve_*.py` производит и от чего зависит._
-
----
 
 <!-- toc -->
 ## Содержание
 
 - [Зависимости](#зависимости)
+- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
 - [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
+- [Смотрите также](#смотрите-также)
 
 ---
 
-<!-- tags: rag, orchestration, ingestion, roadmap, anthropic, self-improvement -->
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `DEPENDENCY_MAP` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: dependency-map, docs -->
 
 
+<!-- summary -->
+> `DEPENDENCY_MAP` — раздел документации проекта Lorenzo.
 
 
 _Что каждый `improve_*.py` производит и от чего зависит._
 
-**Скриптов в карте:** 126 · **Всего в репо:** 125
+**Скриптов в карте:** 126 · **Всего в репо:** 166
 
 ## Зависимости
 
@@ -162,6 +166,52 @@ _Что каждый `improve_*.py` производит и от чего зав
 | `improve_word_cloud.py` | `docs/WORD_CLOUD.svg`, `docs/WORD_CLOUD.md` | `docs/WORD_FREQ.md` |
 | `improve_word_freq.py` | `docs/WORD_FREQ.md` | `docs/**/*.md` |
 
+## Скрипты без карты зависимостей
+
+_Существуют в репо, но не добавлены в карту:_
+
+- `improve_ann_index.py`
+- `improve_audit_db.py`
+- `improve_auto_linker.py`
+- `improve_card_index.py`
+- `improve_collab_finder.py`
+- `improve_cross_section.py`
+- `improve_digest_auto.py`
+- `improve_embedding_index.py`
+- `improve_empty_sections.py`
+- `improve_export_report.py`
+- `improve_faceted_search.py`
+- `improve_gap_filler.py`
+- `improve_heading_audit.py`
+- `improve_knowledge_map.py`
+- `improve_language_split.py`
+- `improve_mcp_dashboard.py`
+- `improve_mcp_test.py`
+- `improve_migrate_contacts.py`
+- `improve_passive_voice.py`
+- `improve_precision_eval.py`
+- `improve_quality_patch.py`
+- `improve_question_extractor.py`
+- `improve_reading_list.py`
+- `improve_recipe.py`
+- `improve_registry.py`
+- `improve_scripts_catalog.py`
+- `improve_search_repl.py`
+- `improve_self.py`
+- `improve_semantic_search.py`
+- `improve_sentinel_check.py`
+- `improve_similar_passages.py`
+- `improve_skill_dashboard.py`
+- `improve_status_badges.py`
+- `improve_task_codegen.py`
+- `improve_template_init.py`
+- `improve_template_integrity.py`
+- `improve_template_migrate.py`
+- `improve_textrank.py`
+- `improve_validate_templates.py`
+- `improve_workflow_run.py`
+- `improve_workflow_v2.py`
+
 ## Порядок запуска (рекомендуемый)
 
 ```
@@ -178,37 +228,38 @@ _Что каждый `improve_*.py` производит и от чего зав
 
 _Используй `python scripts/improve_run_all.py` для автоматического порядка._
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [[CHANGELOG_AUTO|Changelog (авто)]]
-- [[README|docs]]
-- [[TABLES|Все таблицы репозитория]]
-- [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]]
-- [[SITEMAP|Карта репозитория Lorenzo]]
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+- [[DECISIONS|Решения]]
 
-<!-- related-auto -->
-## Связанные документы
-
-- [[CHANGELOG]] _25%_
-- [[README|docs]] _25%_
-- [[TAGS|Индекс тегов]] _21%_
-- [[CHANGELOG_AUTO|Changelog (авто)]] _17%_
-- [[PROGRESS|Прогресс MVP]] _17%_
-- [[README|Бейджи репозитория]] _15%_
-
-<!-- similar-docs -->
+<!-- see-also -->
 
 ---
 
-**Похожие документы:**
-- [[DEPENDENCY_MAP]] (сходство 0.79)
-- [[README]] (сходство 0.40)
-- [[CHANGELOG_AUTO]] (сходство 0.34)
+**Смотрите также:**
+- [[VERSION_DIFF]]
+- [[TAGS]]
+- [[CHANGELOG_AUTO]]
+- [[INDEX]]
 
-- [[CHANGELOG]] _25%_
-- [[README|docs]] _25%_
-- [[TAGS|Индекс тегов]] _21%_
-- [[CHANGELOG_AUTO|Changelog (авто)]] _17%_
-- [[PROGRESS|Прогресс MVP]] _17%_
-- [[README|Бейджи репозитория]] _15%_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [[CHANGELOG_AUTO]]
+- [[HEALTH]]
+- [[INDEX]]
+- [[METRICS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 3_
+

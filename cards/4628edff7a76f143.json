@@ -1,0 +1,63 @@
+{
+  "card_id": "sha256:4628edff7a76f143",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/13-legal-document-transpiler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/14-local-first-agent-development-environment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/09-14-extended.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/15-19-extended.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:6e847b078891af8c",
+  "payload": {
+    "title": "Mega‑Stack 1.0 — Полный Legal‑AI Stack",
+    "summary": "Объединяет комбинации [3](../combinations/03-crdt-local-first-svyazi-cardindex.md), [4](../combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md), [10](../combinations/10-legal-document-intelligence-pipeline.md), [13](../combinations/13-legal-document-transpiler.md), [14](../",
+    "body": "mega stack полный legal stack источник mhtml снимок комбинирование технологий для новых свойств claude секция mega combination полный legal stack для max проекты svyazi cardindex yjs смотрите также ultimate legal ultimate legal extended synthesis tables extended local first agent development environment combinations local first agent development environment extended synthesis tables extended кто ссылается этот документ components name glossary components name reading paths reading paths readme readme",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 227,
+    "path": "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md"
+  }
+}

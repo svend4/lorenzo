@@ -1,12 +1,58 @@
 # 10. QueryResult Structure
 
+<!-- toc-auto -->
+## Contents
+
+- [10. QueryResult Structure](#10-queryresult-structure)
+  - [10.1. Serialization](#101-serialization)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+  - [10.1. Serialization](#101-serialization)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- 10. [QueryResult Structure](#10-queryresult-structure)
+  - [10.1. Serialization](#101-serialization)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- 10. [QueryResult Structure](#10-queryresult-structure)
+  - [10.1. Serialization](#101-serialization)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- 10. [QueryResult Structure](#10-queryresult-structure)
+  - [10.1. Serialization](#101-serialization)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > results_by_repo: dict[str, list[PortalEntry]]
 
 ---
 <!-- tags: anthropic -->
-
-
 
 
 ## 10. QueryResult Structure
@@ -24,7 +70,7 @@ class QueryResult:
 
 ### 10.1. Serialization
 
-[QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) MUST поддерживать сериализацию в JSON, Markdown, HTML.
+[QueryResult](02-общий-план-развития-nautilus-portal-protocol.md) MUST поддерживать сериализацию в JSON, Markdown, HTML.
 
 - `to_json()` — для MCP / API
 - `to_markdown()` — для CLI и LLM consumption
@@ -39,7 +85,7 @@ category (сначала full, затем partial, затем singular).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [21-9-query-flow](21-9-query-flow.md) (сходство 0.11)
 - [25-13-reference-implementation](25-13-reference-implementation.md) (сходство 0.11)
 - [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.11)
@@ -49,7 +95,7 @@ category (сначала full, затем partial, затем singular).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [21-9-query-flow](21-9-query-flow.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
@@ -65,7 +111,7 @@ category (сначала full, затем partial, затем singular).
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
 - [6. Adapter Interface](18-6-adapter-interface.md)
 - [6. Adapter Interface](81-6-adapter-interface.md)
-- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- 7. [PortalEntry Structure](82-7-portalentry-structure.md)
 - [8. Consensus Algorithm](20-8-consensus-algorithm.md)
 - [9. Query Flow](21-9-query-flow.md)
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
@@ -101,3 +147,19 @@ category (сначала full, затем partial, затем singular).
 - [6. Adapter Interface](81-6-adapter-interface.md) _29%_
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
 - [Appendix B: Change Log](103-appendix-b-change-log.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [37-native-format](37-native-format.md)
+- [63-history](63-history.md)
+- _...ещё 3_
+

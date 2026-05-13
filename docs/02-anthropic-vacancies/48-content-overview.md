@@ -1,10 +1,29 @@
 # Content Overview
 
+<!-- toc-auto -->
+## Contents
+
+- [Content Overview](#content-overview)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > 1. **Концептуальная база** — [? уточнить объём: сколько концептов,
 
 ---
 <!-- tags: self-improvement, collaboration -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -25,7 +44,7 @@
    - v60–v61: NautilusYiJin — return to separate experts with Q6-routing
    - Планы: NautilusMoME v2 с production-ready pipeline
 
-3. **Подпапка `[nautilus](../docs/05-habr-projects/memory/memnet.md)/`** — historical embedded-версия Portal 
+3. **Подпапка `[nautilus](../05-habr-projects/memory/memnet.md)/`** — historical embedded-версия Portal 
    (до миграции в отдельный репо `github.com/svend4/nautilus`)
 
 **Научные артефакты:** [? перечислить, если есть Jupyter notebooks, 
@@ -37,19 +56,43 @@ training logs, benchmarks]
 
 ---
 
-**Похожие документы:**
-- [53-history](docs/02-anthropic-vacancies/53-history.md) (сходство 0.18)
-- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md) (сходство 0.14)
-- [45-passports-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
+## Похожие документы
+- [53-history](53-history.md) (сходство 0.18)
+- [52-author-contact](52-author-contact.md) (сходство 0.14)
+- [45-passports-[pro2](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [53-history](docs/02-anthropic-vacancies/53-history.md)
-- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Content Overview"
+```
+
+## Смотрите также
+- [53-history](53-history.md)
+- [52-author-contact](52-author-contact.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [12-content-overview](12-content-overview.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
+- [42-author-contact](42-author-contact.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
+- [47-native-format](47-native-format.md)
+- _...ещё 6_
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._

@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:72a1169830034193",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/128-доступные-инструменты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/103-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:76d4b22d75d7b94c",
+  "payload": {
+    "title": "16. MCP Extension (Informative)",
+    "summary": "NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED",
+    "body": "mcp extension informative warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений npp формализует mcp интеграцию как mandatory recommended похожие документы доступные инструменты доступные инструменты сходство примеры запросов claude примеры запросов claude сходство appendix change log appendix change log сходство смотрите также доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude appendix change log appendix change log queryresult structure queryresult structure упоминается appendix change log appendix change log вакансии anthropic анализ кластерам readme доступные инструменты доступные инструменты ограничения текущей версии draft ограничения текущей версии draft примеры запросов claude примеры запросов claude упоминается вакансии anthropic анализ кластерам readme связанные документы доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude ограничения текущей версии draft ограничения текущей версии draft terminology terminology terminology terminology связанные документы доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude ограничения текущей версии draft ограничения текущей версии draft appendix change log appendix change log terminology terminology appendix change log appendix change log terminology terminology appendix references appendix references кто ссылается этот документ appendix change log appendix change log appendix references appendix references доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude ограничения текущей версии draft ограничения текущей версии draft queryresult structure queryresult structure appendix change log appendix change log readme readme",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 291,
+    "path": "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md"
+  }
+}

@@ -1,10 +1,26 @@
 # Du hast gesagt: Да это интересная ссылка спасибо всем участникам за творчество и…
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — практические наблюдения когда работает на практике.
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -21,11 +37,34 @@ Du hast gesagt: Да это интересная ссылка спасибо в�
 
 ---
 
-**Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Да это интересная ссылка"
+```
+
+## Смотрите также
+- [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [00-question-agent-changes-reality](../agent-changes-reality/00-question-agent-changes-reality.md)
+- [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md)
+
+_Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [01-response](01-response.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -33,7 +72,7 @@ Du hast gesagt: Да это интересная ссылка спасибо в�
 ---
 
 **Похожие документы:**
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.24)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.24)
-- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md) (сходство 0.24)
+- [00-question-practical](../../../obsidian/nautilus/community-discussions/practical-observations/00-question-practical.md) (сходство 0.95)
+- [00-question-agent-changes-reality](../agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.34)
+- [00-question-agent-changes-reality](../../../obsidian/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.32)
 

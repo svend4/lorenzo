@@ -1,11 +1,20 @@
 # 5. Архитектурная спецификация
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [5. Архитектурная спецификация](#5-архитектурная-спецификация)
@@ -90,11 +99,31 @@
 
 ---
 
-**Смотрите также:**
-- [195-5-архитектурная-спецификация](docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md)
-- [03-chto-delaet-predstavitelskim](docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md)
-- [193-3-что-делает-агента-представительским](docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)
-- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Архитектурная спецификация"
+```
+
+## Смотрите также
+- [195-5-архитектурная-спецификация](../../02-anthropic-vacancies/195-5-архитектурная-спецификация.md)
+- [03-chto-delaet-predstavitelskim](03-chto-delaet-predstavitelskim.md)
+- [193-3-что-делает-агента-представительским](../../02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-chto-delaet-predstavitelskim](03-chto-delaet-predstavitelskim.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -102,7 +131,7 @@
 ---
 
 **Похожие документы:**
-- [195-5-архитектурная-спецификация](docs/obsidian/02-anthropic-vacancies/195-5-архитектурная-спецификация.md) (сходство 0.88)
-- [195-5-архитектурная-спецификация](docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md) (сходство 0.86)
-- [03-chto-delaet-predstavitelskim](docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md) (сходство 0.16)
+- [05-arkhitekturnaya-spetsifikatsiya](../../obsidian/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md) (сходство 0.99)
+- [195-5-архитектурная-спецификация](../../02-anthropic-vacancies/195-5-архитектурная-спецификация.md) (сходство 0.84)
+- [195-5-архитектурная-спецификация](../../obsidian/02-anthropic-vacancies/195-5-архитектурная-спецификация.md) (сходство 0.84)
 

@@ -144,11 +144,33 @@ API для AI-сотрудничества через кастомный
 
 ---
 
-**Смотрите также:**
-- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
-- [10-rekomendatsii](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md)
-- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
-- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Конкретный случай перед нами"
+```
+
+## Смотрите также
+- [295-конкретный-случай-перед-нами](../../02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
+- [10-rekomendatsii](10-rekomendatsii.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -156,7 +178,7 @@ API для AI-сотрудничества через кастомный
 ---
 
 **Похожие документы:**
-- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.86)
-- [295-конкретный-случай-перед-нами](docs/obsidian/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.86)
-- [10-rekomendatsii](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md) (сходство 0.19)
+- [06-konkretnyy-sluchay](../../obsidian/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md) (сходство 0.99)
+- [295-конкретный-случай-перед-нами](../../02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.84)
+- [295-конкретный-случай-перед-нами](../../obsidian/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.83)
 

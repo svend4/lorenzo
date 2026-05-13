@@ -3,22 +3,10 @@ title: "10. Query Flow"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 10. Query Flow
-<!-- tags: anthropic -->
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Error Handling(103-error-handling) - 10.4.
-> 🔧 **Подход:** Portal вычисляет consensus по алгоритму раздела 9 7.
-> ✅ **Результат:** Portal собирает resultsbyrepo: dictstr, listPortalEntry 6.
-> 🏷️ **Ключевые слова:** `portal`, `query`, `adapter`, `timeout`, `anthropic`, `vacancies`, `interface`, `error`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -28,6 +16,31 @@ date: 2026-04-29
   - [10.2. Parallelism](#102-parallelism)
   - [10.3. Error Handling](#103-error-handling)
   - [10.4. Timeout Behavior](#104-timeout-behavior)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+<!-- tags: anthropic -->
+
+
+<!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Error Handling(103-error-handling) - 10.4.
+> 🔧 **Подход:** Portal вычисляет consensus по алгоритму раздела 9 7.
+> ✅ **Результат:** Portal собирает resultsbyrepo: dictstr, listPortalEntry 6.
+> 🏷️ **Ключевые слова:** `portal`, `query`, `adapter`, `timeout`, `anthropic`, `vacancies`, `interface`, `error`
+>
 
 
 <!-- summary -->
@@ -83,7 +96,7 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[21-9-query-flow]] (сходство 0.72)
 - [[81-6-adapter-interface]] (сходство 0.12)
 - [[18-6-adapter-interface]] (сходство 0.10)
@@ -93,9 +106,27 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Query Flow"
+```
+
+## Смотрите также
 - [[21-9-query-flow]]
 - [[22-10-queryresult-structure]]
 - [[81-6-adapter-interface]]
 - [[86-11-relevance-ranking]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [[18-6-adapter-interface]]
+- [[21-9-query-flow]]
+- [[22-10-queryresult-structure]]
+- [[90-15-security-considerations]]
+- [[README]]
 

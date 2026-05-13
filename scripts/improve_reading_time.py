@@ -132,19 +132,27 @@ def main() -> None:
 
     lines = [
         "# Время чтения документов\n",
+        f"<!-- summary -->\n> Документов: **{len(results)}** | Слов: **{total_words:,}** | Время базы: **{total_str}**\n",
+        "<!-- tags: quality, reading-time, metrics, documentation -->\n",
+        f"> [!TIP]\n> Скорость: {WPM_RU} слов/мин (ru), {WPM_EN} слов/мин (en)\n\n<!-- alert-added -->\n",
         f"_Обновлено: {TODAY}_\n",
         f"Документов: **{len(results)}** | "
         f"Слов всего: **{total_words:,}** | "
         f"Время чтения всей базы: **{total_str}**\n",
-        f"> Скорость: {WPM_RU} слов/мин (ru), {WPM_EN} слов/мин (en)\n",
         "## Все документы\n",
         "| Файл | Время | Слов | Категория |",
         "|------|-------|------|-----------|",
     ]
 
     for r in results:
+        p = Path(str(r['path']))
+        try:
+            rel = p.relative_to("docs")
+        except ValueError:
+            rel = p
+        stem = p.stem[:45]
         lines.append(
-            f"| `{r['path']}` | {r['time_str']} | {r['words']} | {r['category']} |"
+            f"| [{stem}]({rel}) | {r['time_str']} | {r['words']} | {r['category']} |"
         )
 
     # Топ самых длинных
@@ -154,8 +162,14 @@ def main() -> None:
             f"\n## Самые длинные документы ({len(long_docs)})\n",
         ]
         for r in long_docs[:10]:
+            p = Path(str(r['path']))
+            try:
+                rel = p.relative_to("docs")
+            except ValueError:
+                rel = p
+            stem = p.stem[:45]
             lines.append(
-                f"- `{r['path']}` — {r['time_str']}, {r['words']} слов"
+                f"- [{stem}]({rel}) — {r['time_str']}, {r['words']} слов"
             )
 
     # Статистика по категориям

@@ -145,11 +145,31 @@ practitioner can configure into their own combination.
 
 ---
 
-**Смотрите также:**
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
-- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md)
-- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
-- [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 The Twenty One Teachers Pattern"
+```
+
+## Смотрите также
+- [255-2-the-twenty-one-teachers-pattern](../../02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
+- [08-seven-domains](08-seven-domains.md)
+- [01-why-binary-incomplete](01-why-binary-incomplete.md)
+- [261-8-seven-domains-of-application](../../02-anthropic-vacancies/261-8-seven-domains-of-application.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-seven-domains](08-seven-domains.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -157,7 +177,7 @@ practitioner can configure into their own combination.
 ---
 
 **Похожие документы:**
-- [255-2-the-twenty-one-teachers-pattern](docs/obsidian/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.87)
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.86)
-- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md) (сходство 0.22)
+- [02-twenty-one-teachers-pattern](../../obsidian/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md) (сходство 0.99)
+- [255-2-the-twenty-one-teachers-pattern](../../02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.85)
+- [255-2-the-twenty-one-teachers-pattern](../../obsidian/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.84)
 

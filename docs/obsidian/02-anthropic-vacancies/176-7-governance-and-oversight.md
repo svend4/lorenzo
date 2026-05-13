@@ -3,23 +3,18 @@ title: "7. Governance and Oversight"
 tags:
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 7. Governance and Oversight
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Governance and Oversight(7-governance-and-oversight) - 7.1.
-> 🔧 **Подход:** Includes ethical commitments, technical standards, dispute resolution, transparency requirements.
-> ✅ **Результат:** Foundation-Based Governance A foundation model (such as OKWF) is well-positioned to provide governance because: - Mission alignment: Foundation accountable to beneficiaries, not sh
-> 🏷️ **Ключевые слова:** `governance`, `audit`, `agent`, `level`, `foundation`, `anthropic`, `vacancies`, `platform`
->
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
+<!-- alert-added -->
 
-<!-- toc-auto -->
-## Contents
+<!-- toc -->
+## Содержание
 
 - [7. Governance and Oversight](#7-governance-and-oversight)
   - [7.1. Three Levels of Governance](#71-three-levels-of-governance)
@@ -27,6 +22,8 @@ date: 2026-04-29
   - [7.3. Dispute Resolution](#73-dispute-resolution)
   - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
   - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
+
+---
 
 
 <!-- summary -->
@@ -126,7 +123,7 @@ by mission-driven foundations.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[175-6-ethical-framework]] (сходство 0.15)
 - [[174-5-architectural-specification]] (сходство 0.13)
 - [[178-9-phased-rollout-strategy]] (сходство 0.11)
@@ -136,9 +133,28 @@ by mission-driven foundations.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Governance and Oversight"
+```
+
+## Смотрите также
 - [[175-6-ethical-framework]]
 - [[174-5-architectural-specification]]
 - [[178-9-phased-rollout-strategy]]
 - [[177-8-risks-and-mitigations]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[144-7-open-questions]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[174-5-architectural-specification]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[README]]
 

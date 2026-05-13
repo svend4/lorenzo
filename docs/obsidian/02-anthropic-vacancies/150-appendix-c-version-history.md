@@ -2,7 +2,7 @@
 title: "Appendix C: Version History"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix C: Version History
@@ -561,7 +561,7 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[165-closing]] (сходство 0.18)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.17)
 - [[CONCEPTS]] (сходство 0.16)
@@ -571,7 +571,28 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Appendix C Version History"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode full --top 15
+```
+
+## Смотрите также
 - [[165-closing]]
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]]
 - [[CONCEPTS]]
@@ -612,3 +633,19 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 - [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _17%_
 - [[281-the-recursive-insight|The Recursive Insight]] _17%_
 - [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[133-обратная-связь]]
+- [[141-4-nautilus-portal-as-reference-substrate]]
+- [[145-8-call-to-action]]
+- [[165-closing]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[272-appendix-d-connection-diagram]]
+- [[281-the-recursive-insight]]
+- [[288-appendix-position-in-series-visualization]]
+- _...ещё 4_
+

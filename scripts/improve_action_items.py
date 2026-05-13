@@ -70,6 +70,10 @@ def extract_items(text: str, filepath: Path) -> list[dict]:
             for m in re.finditer(pattern, text, re.IGNORECASE | re.MULTILINE):
                 val = m.group(1).strip()
                 val = re.sub(r'\s+', ' ', val)
+                # Strip markdown links to prevent spurious broken link detection
+                val = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', val)
+                val = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', r'\2', val)
+                val = re.sub(r'\[\[([^\]]+)\]\]', r'\1', val)
                 if len(val) < 10:
                     continue
                 items.append({"kind": kind, "text": val[:200], "file": rel})

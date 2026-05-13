@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:908df17a526a2ab6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/professional-colleague-agents-en/06-risks.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/04-sub-agent-registry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/10-risks.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/professional-colleague-agents-en/04-architecture.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:2af82e17276883f3",
+  "payload": {
+    "title": "6. Risks Specific to this Category",
+    "summary": "Professional Colleague Agents have risks distinct from",
+    "body": "risks specific this category tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper professional colleague agents написанный совместно claude источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper professional colleague agents написанный совместно claude risks specific this category professional colleague agents have risks distinct from representative agents and other types identify seven specific this category risk mediation collapse scenario when both parties professional interaction use agents the human content the interaction approaches zero concrete example teacher generates assignments with student completes assignments with teacher grades with student receives grade where this chain has actual learning occurred this the most cited public concern about type agents its resolution requires conscious design decisions mitigation asymmetric design teacher agent generates problems requiring active human reasoning not pattern matching problems for which assistance produces poor results design assignments resistance into them mitigation live elements some assessments require live human interaction oral exams project presentations collaborative work where assistance structurally limited mitigation process visibility both parties see what was used for norms develop about acceptable usage mitigation reframing education changes what students can education adapts the era homework assessment may end new forms assessment emerge this not solved within agent design alone requires profession wide adaptation risk skill atrophy new practitioners scenario junior practitioners using the agent from day one never develop foundational skills the agent automates when agent fails inevitably unavailable practitioner cannot perform basic professional functions concrete example junior lawyer uses parajural for all routine drafting never develops drafting skills personally cannot draft when unavailable cannot critically review output because they don know what good drafting looks like mitigation educational pathway professional training includes period doing work without assistance like learning compute hand before using calculators mitigation transparent operation agent shows its work not just outputs practitioner can learn from observing agent process mitigation mandatory review burden practitioner must genuinely review agent outputs not approve mechanically spot checks built into workflow mitigation acceptable trade offs some skill atrophy acceptable not lament the loss mental arithmetic skills due calculators the question which skills are essential retain risk standardization lock scenario wide deployment one agent profession homogenizes professional practice innovations from outside the agent training data become harder introduce professional creativity declines concrete example all teachers use обучай style assignments all assignments converge similar style pedagogical innovation slows because non conventional approaches are harder access mitigation open architecture multiple professional colleague agents compete each profession single provider dominates mitigation customization affordances agents support practitioner customization that goes beyond preferences into methodology choices mitigation innovation channels profession maintains non channels for sharing innovative approaches journals conferences peer mentorship persist alongside assisted work mitigation active diversity foundation funded agents could deliberately offer multiple methodological approaches their knowledge base exposing practitioners variety risk liability ambiguity scenario practitioner uses agent generated output that turns out contain professional errors who liable practitioner who used agent provider knowledge base curator llm provider underlying generation concrete example lawyer files brief with citation generated parajural citation turns out hallucination court sanctions lawyer was the lawyer negligent was the provider current state legal frameworks are immature courts are beginning address this case case mitigation explicit practitioner responsibility service terms make clear practitioner responsible for outputs they use agent tool not professional mitigation cited outputs only agent outputs are verifiable through citations practitioner who fails verify negligent mitigation professional liability evolution insurance products evolve cover assisted work new regulatory clarifications mitigation transparent error rates agent providers publish error rates and known failure modes practitioners factor these into use risk privacy cascade scenario practitioner uses agent case involving sensitive client data sensitive data flows through agent infrastructure breach exposes client data concrete example therapist uses professional colleague agent for note synthesis patient privacy compromised when agent provider has security incident mitigation local first deployment for high sensitivity domains agent runs entirely practitioner device institutional infrastructure cloud dependencies mitigation anonymization input practitioner uses anonymized representations when working with agent real identity stays practitioner separate records mitigation compliance certification agent providers obtain hipaa gdpr equivalent compliance mitigation encrypted processing modern cryptographic techniques homomorphic encryption secure enclaves enable processing without exposure risk subtle bias knowledge base scenario layer knowledge base reflects biases its curators practitioners using agent inherit these biases bias spreads systematically concrete example legal professional colleague agent knowledge base over represents perspectives one school legal thought practitioners using agent draft submissions subtly aligned with that school legal pluralism declines mitigation diverse curation panels layer built panels representing diverse views within the profession mitigation methodological transparency agent makes explicit which methodological tradition informs its outputs practitioner can choose alternatives mitigation external audit independent reviewers periodically audit knowledge base for bias mitigation user customization practitioners can configure which methodological frameworks the agent applies risk profession capture",
+    "tags": [
+      "local-first",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 1153,
+    "path": "docs/nautilus/professional-colleague-agents-en/06-risks.md"
+  }
+}

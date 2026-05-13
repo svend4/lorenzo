@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/05-habr-projects/memory/memnet.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "MemNet: исследовательская память"
 tags:
   * habr-projects
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. MemNet: исследовательская память
@@ -346,7 +346,7 @@ h3. Ансамбль 3: «Discovery-engine для научной работы Ma
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[00-intro]] (сходство 0.67)
 * [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]] (сходство 0.13)
 * [[TABLES]] (сходство 0.13)
@@ -356,11 +356,37 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
-* [[00-intro]]
-* [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]]
-* [[TABLES]]
-* [[CONCEPTS]]
+h2. Использование
+
+{code:language=bash}
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память"
+{code}
+
+{code:language=bash}
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode bm25 --top 5
+{code}
+
+{code:language=bash}
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode semantic --top 10
+{code}
+
+{code:language=bash}
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode full --top 15
+{code}
+
+{code:language=bash}
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode bm25 --top 5
+{code}
+
+h2. Смотрите также
+* [[yodoca|Yodoca: консолидация и забывание]]
+* [[ngt-memory|NGT Memory: ассоциативный граф]]
+* agent-memory-[[agent-memory-mcp|mcp + Memory OS]]
+* [[knowledge-space]]
 
 
 
@@ -385,3 +411,14 @@ _Смотрите также:_
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [[README]]
+* [[ACTION_ITEMS]]
+* [[DECISIONS]]
+* [[FAQ]]
+

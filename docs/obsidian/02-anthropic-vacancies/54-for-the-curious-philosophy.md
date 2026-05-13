@@ -3,16 +3,31 @@ title: "For the Curious: Philosophy"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # For the Curious: Philosophy
+
+<!-- toc-auto -->
+## Contents
+
+- [For the Curious: Philosophy](#for-the-curious-philosophy)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > Q6-гиперкуб выбран не случайно. Он одновременно:
 
 ---
 <!-- tags: architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -34,7 +49,7 @@ Q6-гиперкуб выбран не случайно. Он одновреме�
 
 ---
 
-*Passport version: 1.0 · Protocol: [[PORTAL-PROTOCOL|NPP v1.0]] · 
+*Passport version: 1.0 · Protocol: [[03-portal-protocol-md|NPP v1.0]] · 
 Last updated: 2026-04*
 ```
 ---
@@ -44,7 +59,7 @@ Last updated: 2026-04*
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[44-for-the-curious-philosophy]] (сходство 0.12)
 
 
@@ -52,7 +67,13 @@ Last updated: 2026-04*
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "For the Curious Philosophy"
+```
+
+## Смотрите также
 - [[44-for-the-curious-philosophy]]
 - [[28-appendix-a-minimal-working-example]]
 - [[47-native-format]]
@@ -92,3 +113,19 @@ Last updated: 2026-04*
 - [[34-appendix-b-change-log|Appendix B: Change Log]] _25%_
 - [[37-native-format|Native Format]] _25%_
 - [[64-for-the-curious-philosophy|For the Curious: Philosophy]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[03-portal-protocol-md]]
+- [[04-abstract]]
+- [[123-portal-mcp-py]]
+- [[154-table-of-contents]]
+- [[190-содержание]]
+- [[34-appendix-b-change-log]]
+- [[37-native-format]]
+- [[44-for-the-curious-philosophy]]
+- _...ещё 3_
+

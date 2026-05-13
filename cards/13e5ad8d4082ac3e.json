@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:13e5ad8d4082ac3e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/E-execution-plane.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/security-routing-plane.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/security/budget-routing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:437b3bfc6e7d003d",
+  "payload": {
+    "title": "Ансамбль E — Safe and cheap execution plane",
+    "summary": "A[Claude Code / Cursor / сервисы Svyazi 2.0] --> B[Tool Search]",
+    "body": "ансамбль safe and cheap execution plane источник deep research report проекты svyazi sentinel litellm auto router tool search смотрите также security routing plane components security routing plane ensembles overview svyazi ensembles overview приоритетные ансамбли collaborations приоритетные ансамбли budget routing security budget routing",
+    "tags": [
+      "orchestration",
+      "security",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [
+      "Svyazi",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 253,
+    "path": "docs/svyazi-2-0/ensembles/E-execution-plane.md"
+  }
+}

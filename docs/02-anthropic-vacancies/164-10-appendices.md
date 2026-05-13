@@ -1,5 +1,10 @@
 # 10. Appendices
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Nautilus Portal Protocol v1.1**:
 
 ---
@@ -56,7 +65,7 @@
 - 6,782 LOC Python, 60 tests passing, 0 mypy errors
 - 13 adapters, 7 repositories federated
 - REST API, SDK, MCP integration, OpenAPI specification
-- Docker deployment, CI/CD via [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions
+- Docker deployment, CI/CD via [GitHub](../01-svyazi/03-component-catalog.md) Actions
 - Documentation: README, STATUS, INTEGRATION, PORTAL-PROTOCOL 
   (15+ pages formal spec), REVIEW_METHODOLOGY, 
   DOUBLE-TRIANGLE-ARCHITECTURE (20 pages)
@@ -160,7 +169,7 @@ Specific answers inform design refinements.
 **Review version**: v1.0.0-draft
 **Next planned revision**: v1.1-draft incorporating partner feedback
 **Primary maintenance**: author (svend4)
-**Contact for discussion**: [author's [GitHub](../docs/01-svyazi/03-component-catalog.md) issues, email 
+**Contact for discussion**: [author's [GitHub](../01-svyazi/03-component-catalog.md) issues, email 
 TBD for foundation launch]
 **Public availability**: This document is CC BY 4.0; can be 
 shared, cited, refined by anyone with attribution.
@@ -171,7 +180,7 @@ shared, cited, refined by anyone with attribution.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.17)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
 - [162-8-risk-analysis](162-8-risk-analysis.md) (сходство 0.16)
@@ -181,7 +190,13 @@ shared, cited, refined by anyone with attribution.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Appendices"
+```
+
+## Смотрите также
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [162-8-risk-analysis](162-8-risk-analysis.md)
@@ -226,3 +241,19 @@ shared, cited, refined by anyone with attribution.
 - [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _21%_
 - [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _21%_
 - [Author & Contact](42-author-contact.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [153-executive-summary](153-executive-summary.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- _...ещё 5_
+

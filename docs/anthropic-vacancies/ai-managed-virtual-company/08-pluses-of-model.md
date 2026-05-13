@@ -1,10 +1,26 @@
 # Плюсы модели, если её построить
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +43,35 @@ Natural fit для inclusive work. Люди с health limitations, neurodiversit
 
 ---
 
-**Смотрите также:**
-- [02-four-structural-blockers](docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
-- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md)
-- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Плюсы модели если её построить"
+```
+
+## Смотрите также
+- [02-four-structural-blockers](02-four-structural-blockers.md)
+- [07-current-implementations](07-current-implementations.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+
+_Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [02-four-structural-blockers](02-four-structural-blockers.md)
+- [04-what-to-do](04-what-to-do.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -39,7 +79,7 @@ Natural fit для inclusive work. Люди с health limitations, neurodiversit
 ---
 
 **Похожие документы:**
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.16)
-- [02-four-structural-blockers](docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md) (сходство 0.16)
-- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) (сходство 0.14)
+- [08-pluses-of-model](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md) (сходство 0.98)
+- [07-current-implementations](07-current-implementations.md) (сходство 0.23)
+- [07-current-implementations](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.23)
 

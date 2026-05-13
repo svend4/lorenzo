@@ -144,11 +144,27 @@ large organizations (Star(n)) without protocol changes.
 
 ---
 
-**Смотрите также:**
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
-- [03-three-inter-layer-protocols](docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md)
-- [04-nautilus-portal-substrate](docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
+## Смотрите также
+- [139-2-the-double-triangle-architecture](../../02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+- [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
+- 04-[nautilus-portal-substrate](04-nautilus-portal-substrate.md)
+- [140-3-three-inter-layer-protocols](../../02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
+- [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
+- [04-nautilus-portal-substrate](04-nautilus-portal-substrate.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -156,7 +172,7 @@ large organizations (Star(n)) without protocol changes.
 ---
 
 **Похожие документы:**
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.83)
-- [139-2-the-double-triangle-architecture](docs/obsidian/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.82)
-- [03-three-inter-layer-protocols](docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md) (сходство 0.22)
+- [02-double-triangle-architecture](../../obsidian/nautilus/double-triangle-architecture/02-double-triangle-architecture.md) (сходство 0.99)
+- [139-2-the-double-triangle-architecture](../../obsidian/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.79)
+- [139-2-the-double-triangle-architecture](../../02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.78)
 

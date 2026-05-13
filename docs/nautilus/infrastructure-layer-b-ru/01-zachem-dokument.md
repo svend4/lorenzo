@@ -1,10 +1,27 @@
 # Почему этот документ существует
 
+<!-- toc-auto -->
+## Contents
+
+- [Почему этот документ существует](#почему-этот-документ-существует)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 <!-- tags: architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -60,11 +77,30 @@
 
 ---
 
-**Смотрите также:**
-- [290-почему-этот-документ-существует](docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md)
-- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [03-otsutstvuet-sloy-b](docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Почему этот документ существует"
+```
+
+## Смотрите также
+- [290-почему-этот-документ-существует](../../02-anthropic-vacancies/290-почему-этот-документ-существует.md)
+- [09-ne-reshaet](09-ne-reshaet.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-ne-reshaet](09-ne-reshaet.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -72,7 +108,7 @@
 ---
 
 **Похожие документы:**
-- [290-почему-этот-документ-существует](docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md) (сходство 0.73)
-- [290-почему-этот-документ-существует](docs/obsidian/02-anthropic-vacancies/290-почему-этот-документ-существует.md) (сходство 0.72)
-- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md) (сходство 0.18)
+- [01-zachem-dokument](../../obsidian/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md) (сходство 0.98)
+- [290-почему-этот-документ-существует](../../02-anthropic-vacancies/290-почему-этот-документ-существует.md) (сходство 0.74)
+- [290-почему-этот-документ-существует](../../obsidian/02-anthropic-vacancies/290-почему-этот-документ-существует.md) (сходство 0.73)
 

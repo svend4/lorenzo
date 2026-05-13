@@ -1,11 +1,26 @@
 ---
 title: "Q&A: 02-anthropic-vacancies"
 tags:
+  - qa
+  - docs
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Q&A: 02-anthropic-vacancies
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: qa, docs -->
+
+
+<!-- summary -->
+> `QA` — раздел документации проекта Lorenzo.
+
 
 _Автоматически сгенерировано по 355 файлам раздела._
 
@@ -15,7 +30,15 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+
+## Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
+
+## Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: **forward deployed**, **research engineer**, **developer community**
 
 ## Кто ключевые авторы проектов для контакта?
 
@@ -39,19 +62,11 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
-Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **[[01-executive-summary|LiteParse]]**
-
-## Какие кластеры найма выделены у Anthropic?
-
-Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
-
-## Какие роли наиболее релевантны для профиля svend4?
-
-Упоминаются: **forward deployed**, **research engineer**, **developer community**
+Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **LiteParse**
 
 ## Какие системы памяти описаны в этом разделе?
 
@@ -101,12 +116,29 @@ _Автоматически сгенерировано по 355 файлам р�
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
-<!-- similar-docs -->
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
 
 ---
 
-**Похожие документы:**
-- [[QA]] (сходство 0.86)
-- [[QA]] (сходство 0.63)
-- [[00-intro-part2|QA]]/QA.md) (сходство 0.52)
+**Кто ссылается на этот документ (6):**
+- [[README]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
 

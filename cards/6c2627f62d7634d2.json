@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:6c2627f62d7634d2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DUPLICATES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:f832ef67d39bc19d",
+  "payload": {
+    "title": "7. Практические первые шаги в этом месяце",
+    "summary": "Конкретные действия для немедленного периода.",
+    "body": "практические первые шаги этом месяце источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper ingit cowork смотрите также практические первые шаги этом месяце anthropic vacancies практические первые шаги этом месяце duplicates duplicates chetyre puti integratsii chetyre puti integratsii difference domain specialization anthropic vacancies hermes comparison difference domain specialization",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 373,
+    "path": "docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md"
+  }
+}

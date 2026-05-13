@@ -1,11 +1,20 @@
 # 10. Стратегическое Позиционирование
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [10. Стратегическое Позиционирование](#10-стратегическое-позиционирование)
@@ -184,11 +193,30 @@ InGit папкой) немедленно
 
 ---
 
-**Смотрите также:**
-- [336-10-стратегическое-позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
-- [08-implikatsii-nautilus-okwf](docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md)
-- [05-chetyre-puti-integratsii](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
-- [09-riski-voprosy](docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Стратегическое Позиционирование"
+```
+
+## Смотрите также
+- [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
+- 08-implikatsii-[nautilus-okwf](08-implikatsii-nautilus-okwf.md)
+- [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
+- [09-riski-voprosy](09-riski-voprosy.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-implikatsii-nautilus-okwf](08-implikatsii-nautilus-okwf.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -196,7 +224,7 @@ InGit папкой) немедленно
 ---
 
 **Похожие документы:**
-- [336-10-стратегическое-позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) (сходство 0.84)
-- [336-10-стратегическое-позиционирование](docs/obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) (сходство 0.83)
-- [08-implikatsii-nautilus-okwf](docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md) (сходство 0.14)
+- [10-strategicheskoe-pozitsionirovanie](../../obsidian/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md) (сходство 0.99)
+- [336-10-стратегическое-позиционирование](../../obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) (сходство 0.81)
+- [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) (сходство 0.81)
 

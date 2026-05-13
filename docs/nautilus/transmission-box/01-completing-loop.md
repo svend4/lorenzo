@@ -1,5 +1,23 @@
 # Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на н…
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -496,11 +514,38 @@ Personal manifesto — dignified contribution infrastructure for qualified indiv
 
 ---
 
-**Смотрите также:**
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [01-three-related-themes](docs/nautilus/supply-demand/01-three-related-themes.md)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это исключительно"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это исключительно" --mode bm25
+```
+
+## Смотрите также
+- [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [01-three-related-themes](../supply-demand/01-three-related-themes.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response](../../lorenzo-agent/scenarios/01-response.md)
+- [01-response](../innovation-transitions/01-response.md)
+- [01-three-related-themes](../supply-demand/01-three-related-themes.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -508,7 +553,7 @@ Personal manifesto — dignified contribution infrastructure for qualified indiv
 ---
 
 **Похожие документы:**
-- [150-appendix-c-version-history](docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.70)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.70)
-- [01-three-related-themes](docs/nautilus/supply-demand/01-three-related-themes.md) (сходство 0.19)
+- [01-completing-loop](../../obsidian/nautilus/transmission-box/01-completing-loop.md) (сходство 0.99)
+- [01-three-related-themes](../supply-demand/01-three-related-themes.md) (сходство 0.19)
+- [01-three-related-themes](../../obsidian/nautilus/supply-demand/01-three-related-themes.md) (сходство 0.19)
 

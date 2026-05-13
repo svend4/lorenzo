@@ -1,16 +1,9 @@
 # 12. Closing
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [12. Closing](#12-closing)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -23,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Representative Agent Layer paper, when first written,
 
 ---
@@ -98,7 +95,7 @@ walking it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [210-abstract](210-abstract.md) (сходство 0.30)
 - [266-13-closing](266-13-closing.md) (сходство 0.21)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.17)
@@ -108,7 +105,13 @@ walking it.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```
+
+## Смотрите также
 - [210-abstract](210-abstract.md)
 - [266-13-closing](266-13-closing.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
@@ -162,3 +165,19 @@ walking it.
 - [Appendix A: The Six-Type Taxonomy (Updated)](269-appendix-a-the-six-type-taxonomy-updated.md) _29%_
 - [OPEN KNOWLEDGE WORK FOUNDATION.md](151-open-knowledge-work-foundation-md.md) _25%_
 - [10. Open Questions](179-10-open-questions.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [168-abstract](168-abstract.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [181-12-closing](181-12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [210-abstract](210-abstract.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- _...ещё 10_
+

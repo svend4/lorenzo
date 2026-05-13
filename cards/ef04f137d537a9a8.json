@@ -1,0 +1,61 @@
+{
+  "card_id": "sha256:ef04f137d537a9a8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/voice-stack.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:30404dc6e9b2a375",
+  "payload": {
+    "title": "Voice / local-first stack",
+    "summary": "Локальный speech→text→LLM transform и более широкий local‑first knowledge workspace с recording / transcription.",
+    "body": "voice local first stack авторы atatchin askid обзоры handy openwhispr проекты svyazi whisper yttri смотрите также memnet memnet knowledge space knowledge space yodoca yodoca rufler rufler кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
+    "tags": [
+      "memory",
+      "ingestion",
+      "local-first",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "Rufler",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 152,
+    "path": "docs/svyazi-2-0/components/voice-stack.md"
+  }
+}

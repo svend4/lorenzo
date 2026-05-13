@@ -1,10 +1,27 @@
 # Твоя личность
 
+<!-- toc-auto -->
+## Contents
+
+- [Твоя личность](#твоя-личность)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ---
 <!-- tags: rag, ingestion, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -42,11 +59,33 @@
 
 ---
 
-**Смотрите также:**
-- [349-твоя-личность](docs/02-anthropic-vacancies/349-твоя-личность.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [19-persistent-character](docs/lorenzo-agent/19-persistent-character.md)
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твоя личность"
+```
+
+## Смотрите также
+- [349-твоя-личность](../02-anthropic-vacancies/349-твоя-личность.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [19-persistent-character](19-persistent-character.md)
+- [14-other-ai-relationships](14-other-ai-relationships.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [349-твоя-личность](../02-anthropic-vacancies/349-твоя-личность.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [04-q4-character](specification/04-q4-character.md)
 
 
 <!-- similar-docs -->
@@ -54,7 +93,7 @@
 ---
 
 **Похожие документы:**
-- [349-твоя-личность](docs/02-anthropic-vacancies/349-твоя-личность.md) (сходство 0.81)
-- [349-твоя-личность](docs/obsidian/02-anthropic-vacancies/349-твоя-личность.md) (сходство 0.77)
-- [19-persistent-character](docs/lorenzo-agent/19-persistent-character.md) (сходство 0.20)
+- [05-tvoya-lichnost](../obsidian/lorenzo-agent/05-tvoya-lichnost.md) (сходство 0.97)
+- [349-твоя-личность](../02-anthropic-vacancies/349-твоя-личность.md) (сходство 0.80)
+- [349-твоя-личность](../obsidian/02-anthropic-vacancies/349-твоя-личность.md) (сходство 0.79)
 

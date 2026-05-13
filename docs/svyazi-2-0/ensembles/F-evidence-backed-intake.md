@@ -1,11 +1,28 @@
 # Ансамбль F — Evidence‑Backed Community Intake
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Новые свойства](#новые-свойства)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md` (ансамбли «второго порядка»).
 **Проекты:** Svyazi, CardIndex, LiteParse, Hybrid RAG, Yodoca
 
 ---
 <!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -36,11 +53,27 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [D-voice-first-mesh](docs/svyazi-2-0/ensembles/D-voice-first-mesh.md)
-- [B-forensic-rag](docs/svyazi-2-0/ensembles/B-forensic-rag.md)
+## Смотрите также
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md)
+- [10-новые-ансамбли-следующего-шага](../../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [D-voice-first-mesh](D-voice-first-mesh.md)
+- [B-forensic-rag](B-forensic-rag.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [B-forensic-rag](B-forensic-rag.md)
+- [D-voice-first-mesh](D-voice-first-mesh.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -48,7 +81,7 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md) (сходство 0.31)
-- [10-second-order-ensembles](docs/obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.31)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) (сходство 0.28)
+- [F-evidence-backed-intake](../../obsidian/svyazi-2-0/ensembles/F-evidence-backed-intake.md) (сходство 0.98)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md) (сходство 0.32)
+- [10-second-order-ensembles](../../obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.32)
 

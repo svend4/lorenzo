@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:82956d7d7eab658c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/retrospective.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/templates/weekly-digest.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/kpi-snapshot.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:2cd7d3489091c3f1",
+  "payload": {
+    "title": "Ретроспектива: [период]",
+    "summary": "",
+    "body": "ретроспектива период период спринт что прошло хорошо пункт пункт пункт что прошло плохо пункт пункт что узнали инсайт инсайт action items для следующего периода действие отв имя срок дата действие отв имя срок дата метрики периода метрика план факт задач закрыто health score контактов написано улучшения процесса что меняем процессе дата смотрите также weekly digest weekly digest kpi snapshot kpi snapshot",
+    "tags": [
+      "ретро",
+      "процесс"
+    ],
+    "projects": [],
+    "wc": 160,
+    "path": "docs/templates/retrospective.md"
+  }
+}

@@ -1,30 +1,17 @@
 ---
 title: "8. Q6 Space (Normative)"
 tags:
-  - memory
   - ingestion
   - architecture
   - anthropic
-  - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 8. Q6 Space (Normative)
-<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Это не обязательно, но RECOMMENDED для экосистем, интегрирующих symbolic и dynamical angles: - Class I (стационарные) — стабильные концепты (базовые алгоритмы, определения) - Class
-> 🔧 **Подход:** CA-Class Mapping (Informative)(85-ca-class-mapping-informative) !IMPORTANT Ключевой документ для понимания архитектуры.
-> 🏷️ **Ключевые слова:** `class`, `mapping`, `level`, `portalentry`, `anthropic`, `vacancies`, `space`, `normative`
->
-
-
-<!-- toc-auto -->
-## Contents
+<!-- toc -->
+## Содержание
 
 - [8. Q6 Space (Normative)](#8-q6-space-normative)
   - [8.1. Definition](#81-definition)
@@ -32,6 +19,10 @@ date: 2026-04-29
   - [8.3. Q6 Mapping Rules](#83-q6-mapping-rules)
   - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
   - [8.5. CA-Class Mapping (Informative)](#85-ca-class-mapping-informative)
+
+---
+
+<!-- tags: ingestion, architecture, anthropic -->
 
 
 > [!IMPORTANT]
@@ -129,7 +120,7 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[95-20-adr-002-q6-as-first-class-protocol-concept]] (сходство 0.11)
 
 
@@ -137,9 +128,21 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[95-20-adr-002-q6-as-first-class-protocol-concept]]
 - [[82-7-portalentry-structure]]
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [[19-7-portalentry-structure]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [[103-appendix-b-change-log]]
+- [[18-6-adapter-interface]]
+- [[26-14-adr-001-federation-over-merging]]
+- [[95-20-adr-002-q6-as-first-class-protocol-concept]]
+- [[README]]
 

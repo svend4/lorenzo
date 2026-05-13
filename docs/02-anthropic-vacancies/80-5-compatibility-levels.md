@@ -1,14 +1,4 @@
 # 5. Compatibility Levels
-<!-- tags: memory, ingestion, anthropic, collaboration -->
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Compatibility Levels(5-compatibility-levels) - Level 0 — Discoverable(level-0-discoverable) - Level 1 — Readable(level-1-readable) - Level 2 — Linked(level-2-linked) - Level 3 — In
-> 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `portalentry`, `anthropic`, `vacancies`, `fallback`, `требования`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -18,6 +8,29 @@
   - [Level 1 — Readable](#level-1-readable)
   - [Level 2 — Linked](#level-2-linked)
   - [Level 3 — Interactive](#level-3-interactive)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+<!-- tags: memory, ingestion, anthropic, collaboration -->
+
+
+<!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Compatibility Levels(5-compatibility-levels) - Level 0 — Discoverable(level-0-discoverable) - Level 1 — Readable(level-1-readable) - Level 2 — Linked(level-2-linked) - Level 3 — In
+> 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `portalentry`, `anthropic`, `vacancies`, `fallback`, `требования`
+>
 
 
 <!-- summary -->
@@ -36,13 +49,13 @@ NPP определяет 4 уровня совместимости Repo с эк�
 
 ### Level 0 — Discoverable
 
-Repo объявлен в `[nautilus](../docs/05-habr-projects/memory/memnet.md).json`. Адаптера нет. Portal знает о 
+Repo объявлен в `[nautilus](../05-habr-projects/memory/memnet.md).json`. Адаптера нет. Portal знает о 
 существовании Repo, но не может запрашивать.
 
 **Use case**: анонс намерения подключить Repo до написания кода.
 
 **Требования**:
-- Только запись в `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` (минимально `name` + `format` + `repo`)
+- Только запись в `[nautilus](../05-habr-projects/memory/memnet.md).json` (минимально `name` + `format` + `repo`)
 
 ### Level 1 — Readable
 
@@ -67,13 +80,13 @@ Portal возвращает static entries.
 
 **Требования**:
 - Всё из Level 1
-- Каждый [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) MUST иметь `metadata.q6` (если Q6-маппинг 
+- Каждый [PortalEntry](01-интегральный-анализ-профиля-svend4.md) MUST иметь `metadata.q6` (если Q6-маппинг 
   определён для этого Repo)
-- Каждый [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) SHOULD иметь ≥1 link на другой Repo
+- Каждый [PortalEntry](01-интегральный-анализ-профиля-svend4.md) SHOULD иметь ≥1 link на другой Repo
 
 ### Level 3 — Interactive
 
-Адаптер выполняет live-fetch через [GitHub](../docs/01-svyazi/03-component-catalog.md) API или эквивалент, 
+Адаптер выполняет live-fetch через [GitHub](../01-svyazi/03-component-catalog.md) API или эквивалент, 
 возвращая реальные данные из Repo (не только fallback).
 
 **Use case**: Repos, глубоко интегрированные с экосистемой.
@@ -83,7 +96,7 @@ Portal возвращает static entries.
 - `fetch()` делает real network call (с timeout ≤ 5 сек)
 - Graceful fallback: при ошибке сети/API возвращает static entries 
   с `is_fallback=True`
-- `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md).is_fallback` явно помечается
+- `[PortalEntry](01-интегральный-анализ-профиля-svend4.md).is_fallback` явно помечается
 
 ---
 
@@ -91,19 +104,37 @@ Portal возвращает static entries.
 
 ---
 
-**Похожие документы:**
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.32)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.12)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.12)
+## Похожие документы
+- [17-5-compatibility-levels](17-5-compatibility-levels.md) (сходство 0.32)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.12)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
+## Смотрите также
+- [17-5-compatibility-levels](17-5-compatibility-levels.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [77-2-terminology](77-2-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [README](README.md)
 

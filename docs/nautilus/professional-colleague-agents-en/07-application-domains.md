@@ -199,11 +199,30 @@ application drafting.
 
 ---
 
-**Смотрите также:**
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
-- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md)
-- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
-- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Application Domains"
+```
+
+## Смотрите также
+- [218-7-application-domains](../../02-anthropic-vacancies/218-7-application-domains.md)
+- [08-seven-domains](../composite-skills-agents/08-seven-domains.md)
+- [04-ten-domains](../representative-agent-layer-en/04-ten-domains.md)
+- [06-four-deployment-domains](../double-triangle-architecture/06-four-deployment-domains.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-seven-domains](../composite-skills-agents/08-seven-domains.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -211,7 +230,7 @@ application drafting.
 ---
 
 **Похожие документы:**
-- [218-7-application-domains](docs/obsidian/02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.88)
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.86)
-- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md) (сходство 0.17)
+- [07-application-domains](../../obsidian/nautilus/professional-colleague-agents-en/07-application-domains.md) (сходство 0.97)
+- [218-7-application-domains](../../02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.86)
+- [218-7-application-domains](../../obsidian/02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.86)
 

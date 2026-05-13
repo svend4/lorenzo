@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:09d054ef27f6ad76",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/04-passport.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/79-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/03-registry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/16-mcp-extension.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:0a5858cc8ee7299c",
+  "payload": {
+    "title": "4. Passport (`passport.md`)",
+    "summary": "Passport — human-readable описание Repo, расположенное в",
+    "body": "passport passport источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также passport passport anthropic vacancies passport passport passport passport anthropic vacancies passport passport registry registry mcp extension mcp extension",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 294,
+    "path": "docs/nautilus/npp-v1-1/04-passport.md"
+  }
+}

@@ -1,33 +1,67 @@
 # review-methodology
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 17
 
 ## Содержание
 
-- [00-tldr.md](00-tldr.md) — > [!WARNING]
-- [01-context-motivation.md](01-context-motivation.md) — <!-- summary -->
-- [02-formal-workflow.md](02-formal-workflow.md) — > [!WARNING]
-- [03-consolidation-principles.md](03-consolidation-principles.md) — <!-- summary -->
-- [04-fallback-ratio-question.md](04-fallback-ratio-question.md) — > [!IMPORTANT]
-- [05-conditions-of-applicability.md](05-conditions-of-applicability.md) — > [!WARNING]
-- [06-relation-existing-methodologies.md](06-relation-existing-methodologies.md) — > [!WARNING]
-- [07-why-valid-for-ai.md](07-why-valid-for-ai.md) — <!-- summary -->
-- [08-implementation-nautilus.md](08-implementation-nautilus.md) — <!-- summary -->
-- [09-limitations-open-questions.md](09-limitations-open-questions.md) — > [!WARNING]
-- [10-checklist.md](10-checklist.md) — > [!WARNING]
-- [11-application-plan-current-docs.md](11-application-plan-current-docs.md) — <!-- summary -->
-- [12-appendix-a-header-warning.md](12-appendix-a-header-warning.md) — > [!WARNING]
-- [13-appendix-b-examples.md](13-appendix-b-examples.md) — > [!WARNING]
-- [14-main-technical-risks.md](14-main-technical-risks.md) — > [!WARNING]
-- [15-appendix-c-history.md](15-appendix-c-history.md) — <!-- summary -->
-- [16-glossary.md](16-glossary.md) — > [!WARNING]
+- [00-tldr.md](00-tldr.md) — <!-- toc-auto -->
+- [01-context-motivation.md](01-context-motivation.md) — <!-- toc-auto -->
+- [02-formal-workflow.md](02-formal-workflow.md) — <!-- toc-auto -->
+- [03-consolidation-principles.md](03-consolidation-principles.md) — <!-- toc-auto -->
+- [04-fallback-ratio-question.md](04-fallback-ratio-question.md) — <!-- toc-auto -->
+- [05-conditions-of-applicability.md](05-conditions-of-applicability.md) — <!-- toc-auto -->
+- [06-relation-existing-methodologies.md](06-relation-existing-methodologies.md) — <!-- toc-auto -->
+- [07-why-valid-for-ai.md](07-why-valid-for-ai.md) — <!-- toc-auto -->
+- [08-implementation-nautilus.md](08-implementation-nautilus.md) — <!-- toc-auto -->
+- [09-limitations-open-questions.md](09-limitations-open-questions.md) — <!-- toc-auto -->
+- [10-checklist.md](10-checklist.md) — <!-- toc-auto -->
+- [11-application-plan-current-docs.md](11-application-plan-current-docs.md) — <!-- toc-auto -->
+- [12-appendix-a-header-warning.md](12-appendix-a-header-warning.md) — <!-- toc-auto -->
+- [13-appendix-b-examples.md](13-appendix-b-examples.md) — <!-- toc-auto -->
+- [14-main-technical-risks.md](14-main-technical-risks.md) — <!-- toc-auto -->
+- [15-appendix-c-history.md](15-appendix-c-history.md) — <!-- toc-auto -->
+- [16-glossary.md](16-glossary.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (19):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-tldr](00-tldr.md)
+- [01-context-motivation](01-context-motivation.md)
+- [03-consolidation-principles](03-consolidation-principles.md)
+- _...ещё 11_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.16)
-- [README](docs/nautilus/double-triangle-architecture/README.md) (сходство 0.13)
-- [README](docs/anthropic-vacancies/ai-managed-virtual-company/README.md) (сходство 0.12)
+- [README](../../obsidian/nautilus/review-methodology/README.md) (сходство 0.92)
+- [README](../../svyazi-2-0/prototype/README.md) (сходство 0.29)
+- [README](../innovation-transitions/README.md) (сходство 0.28)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

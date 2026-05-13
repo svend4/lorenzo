@@ -3,12 +3,35 @@ title: "AI-Coordinated Infrastructure for Distributed Expert Contribution"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
 
+<!-- toc-auto -->
+## Contents
+
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](#ai-coordinated-infrastructure-for-distributed-expert-contribution)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Editorial collaboration:** Claude (intellectual development, 2026-04)
 
 ---
@@ -33,7 +56,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr]] (сходство 0.44)
 - [[03-portal-protocol-md]] (сходство 0.36)
 - [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.35)
@@ -43,7 +66,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Coordinated Infrastructure for"
+```
+
+## Смотрите также
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
 - [[03-portal-protocol-md]]
 - [[167-ai-mediated-representation-for-underrepresented-ex]]
@@ -81,3 +110,18 @@ date: 2026-04-29
 - [[147-references|References]] _21%_
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _21%_
 - [[25-13-reference-implementation|13. Reference Implementation]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[03-portal-protocol-md]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[25-13-reference-implementation]]
+- [[52-author-contact]]
+- [[73-portal-protocol-md-v1-1]]
+- [[README]]
+

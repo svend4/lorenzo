@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:6035beffbc2b85b5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/clusters/09-product-management-support-ops.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/13-communications.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/14-public-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/15-public-benefit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/12-technical-program-management.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:021c144dab43906e",
+  "payload": {
+    "title": "Product Management, Support, & Operations — 17 ролей",
+    "summary": "Product Manager по Claude Code, API Growth, Consumer, Monetization, Multi-Cloud Growth - Google, Research Product; Product Operations Manager (Feedback Loops, Research Product); Product Support Specialist/Manager (US + Dublin + Tokyo).",
+    "body": "product management support operations ролей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также communications communications public policy public policy public benefit public benefit technical program management technical program management",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 96,
+    "path": "docs/anthropic-vacancies/clusters/09-product-management-support-ops.md"
+  }
+}

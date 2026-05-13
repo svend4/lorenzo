@@ -1,11 +1,38 @@
 # Пара 5 — Browser agents × headless web extraction
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Firecrawl, Yjs, Automerge, Whisper
 
 ---
 <!-- tags: knowledge, ingestion, local-first, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -46,11 +73,32 @@ Self-aware agent с пониманием контекста — self-aware MCP-�
 
 ---
 
-**Смотрите также:**
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
-- [2-pkm-mcp-skills](docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 5 Browser agents headless web"
+```
+
+## Смотрите также
+- 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
+- [1-workflow-llm-mcp](1-workflow-llm-mcp.md)
+- [3-crdt-self-hosted](3-crdt-self-hosted.md)
+- 2-pkm-[mcp-skills](2-pkm-mcp-skills.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [8-self-aware-mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
+- [1-workflow-llm-mcp](1-workflow-llm-mcp.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -58,7 +106,7 @@ Self-aware agent с пониманием контекста — self-aware MCP-�
 ---
 
 **Похожие документы:**
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.17)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.17)
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md) (сходство 0.15)
+- [5-browser-agents-headless](../../obsidian/habr-unique-projects/software-pairs/5-browser-agents-headless.md) (сходство 0.98)
+- [1-workflow-llm-mcp](1-workflow-llm-mcp.md) (сходство 0.21)
+- [1-workflow-llm-mcp](../../obsidian/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.20)
 

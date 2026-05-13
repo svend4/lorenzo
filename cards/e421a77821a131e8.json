@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:e421a77821a131e8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:9ce90247e38ca761",
+  "payload": {
+    "title": "Какой под-агент (или какие) должны её обработать",
+    "summary": "Какой под-агент (или какие) должны её обработать",
+    "body": "какой под агент или какие должны обработать warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога учитель индийского йога спектр между professional colleague representative agent смотрите также приложение архитектура быстрого старта для sgb anthropic vacancies приложение архитектура быстрого старта для sgb what was missing paper what was missing paper yogi metaphor yogi metaphor svyaz drugimi professional colleague agents svyaz drugimi",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 902,
+    "path": "docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md"
+  }
+}

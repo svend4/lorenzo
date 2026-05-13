@@ -1,14 +1,5 @@
 # References
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa
-> 🔧 **Подход:** "Architectural Styles and the Design of Network-based Software Architectures".
-> 🏷️ **Ключевые слова:** `anthropic`, `references`, `protocol`, `portal`, `vacancies`, `svend`, `human`, `nautilus`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -20,6 +11,24 @@
   - [Related Architectures](#related-architectures)
   - [Pattern Libraries](#pattern-libraries)
   - [Primary Reference](#primary-reference)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa
+> 🔧 **Подход:** "Architectural Styles and the Design of Network-based Software Architectures".
+> 🏷️ **Ключевые слова:** `anthropic`, `references`, `protocol`, `portal`, `vacancies`, `svend`, `human`, `nautilus`
+>
 
 
 <!-- summary -->
@@ -80,19 +89,41 @@
 
 ---
 
-**Похожие документы:**
-- [268-references](docs/02-anthropic-vacancies/268-references.md) (сходство 0.12)
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.12)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
+## Похожие документы
+- [268-references](268-references.md) (сходство 0.12)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.12)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)
-- [320-references](docs/02-anthropic-vacancies/320-references.md)
-- [268-references](docs/02-anthropic-vacancies/268-references.md)
-- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
+- [320-references](320-references.md)
+- [268-references](268-references.md)
+- [338-ссылки](338-ссылки.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [320-references](320-references.md)
+- [338-ссылки](338-ссылки.md)
+- _...ещё 3_
 

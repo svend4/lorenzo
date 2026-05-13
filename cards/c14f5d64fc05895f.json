@@ -1,0 +1,57 @@
+{
+  "card_id": "sha256:c14f5d64fc05895f",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/contacts/anastasiyaw.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/sonia-black.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/zodigancode.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/cutcode.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/dmitriila.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACT_PRIORITY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/kksudo.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:b008aeb660c50b1b",
+  "payload": {
+    "title": "Контакт: AnastasiyaW / knowledge-space, mclaude",
+    "summary": "projects: [\"Svyazi\", \"knowledge-space\", \"mclaude\"]",
+    "body": "контакт anastasiyaw knowledge space mclaude tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi knowledge space mclaude contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник anastasiyaw github anastasiyaw https github com anastasiyaw проекты knowledge space mclaude слой svyazi knowledge orchestration упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте anastasiyaw изучаю knowledge space mclaude отлично вписывается svyazi которую собираю как локальную community intelligence platform knowledge space mclaude закрывает слой knowledge orchestration архитектуре один конкретный вопрос держать operational benchmark gotcha cards одной базе reference cards или отдельным слоем было интересно пообщаться как лучше связаться открытые вопросы держать operational benchmark gotcha cards одной базе reference cards или отдельным слоем вопрос создано автоматически похожие документы sonia black sonia black сходство zodigancode zodigancode сходство cutcode cutcode сходство смотрите также cutcode cutcode zodigancode zodigancode sonia black sonia black dmitriila dmitriila кто ссылается этот документ contact priority contact priority kksudo autofilled components kksudo spbmolot autofilled components spbmolot readme readme",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude"
+    ],
+    "wc": 291,
+    "path": "docs/contacts/anastasiyaw.md"
+  }
+}

@@ -1,6 +1,29 @@
 # Angle / Perspective
 
+<!-- toc-auto -->
+## Contents
+
+- [Angle / Perspective](#angle-perspective)
+- [Похожие документы](#похожие-документы)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > С какого угла Repo смотрит на общие концепты
 
 ---
@@ -17,7 +40,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [39-angle-perspective](39-angle-perspective.md) (сходство 0.11)
 - [49-angle-perspective](49-angle-perspective.md) (сходство 0.10)
 
@@ -62,9 +85,31 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Angle Perspective"
+```
+
+## Смотрите также
 - [12-content-overview](12-content-overview.md)
 - [31-content-overview](31-content-overview.md)
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [12-content-overview](12-content-overview.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [206-приложение-b-матрица-сравнения-областей](206-приложение-b-матрица-сравнения-областей.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- _...ещё 6_
 

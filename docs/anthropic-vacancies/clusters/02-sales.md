@@ -1,10 +1,27 @@
 # Sales — 150 ролей (≈34% всего найма)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -17,19 +34,38 @@
 
 ---
 
-**Смотрите также:**
-- [signals](docs/anthropic-vacancies/signals.md)
-- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md)
-- [05-marketing-brand](docs/anthropic-vacancies/clusters/05-marketing-brand.md)
-- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Sales 150 ролей 34 всего найма"
+```
+
+## Смотрите также
+- [signals](../signals.md)
+- [14-public-policy](14-public-policy.md)
+- [05-marketing-brand](05-marketing-brand.md)
+- [09-product-management-support-ops](09-product-management-support-ops.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [README](README.md)
+- [overview](../overview.md)
+- [signals](../signals.md)
+- [concepts](../../glossary/concepts.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [signals](docs/anthropic-vacancies/signals.md) (сходство 0.33)
-- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md) (сходство 0.31)
-- [05-marketing-brand](docs/anthropic-vacancies/clusters/05-marketing-brand.md) (сходство 0.28)
+- [02-sales](../../obsidian/anthropic-vacancies/clusters/02-sales.md) (сходство 0.97)
+- [14-public-policy](14-public-policy.md) (сходство 0.49)
+- [05-marketing-brand](05-marketing-brand.md) (сходство 0.48)
 

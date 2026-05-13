@@ -1,11 +1,27 @@
 # Svyazi (Андрей Чуян) — детальный обзор
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 **Проекты:** Svyazi, CardIndex
 
 ---
 <!-- tags: knowledge, ingestion, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -36,11 +52,35 @@ Privacy by design
 
 ---
 
-**Смотрите также:**
-- [02-vshe-scientific-networking](docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md)
-- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
-- [svyazi](docs/svyazi-2-0/components/svyazi.md)
-- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Svyazi Андрей Чуян детальный обзор"
+```
+
+## Смотрите также
+- [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
+- 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
+- [svyazi](../../svyazi-2-0/components/svyazi.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-habr-examples](00-question-habr-examples.md)
+- [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -48,7 +88,7 @@ Privacy by design
 ---
 
 **Похожие документы:**
-- [02-vshe-scientific-networking](docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md) (сходство 0.25)
-- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.25)
-- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md) (сходство 0.21)
+- [01-svyazi-andrey-chuyan](../../obsidian/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) (сходство 0.97)
+- [04-claude-subagents-patterns](../../obsidian/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.31)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md) (сходство 0.31)
 

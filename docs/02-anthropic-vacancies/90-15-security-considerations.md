@@ -1,4 +1,21 @@
 # 15. Security Considerations
+
+<!-- toc -->
+## Содержание
+
+- [15. Security Considerations](#15-security-considerations)
+  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
+  - [15.2. Private Repositories](#152-private-repositories)
+  - [15.3. MCP Exposure](#153-mcp-exposure)
+  - [15.4. Rate Limiting](#154-rate-limiting)
+  - [15.5. Supply Chain](#155-supply-chain)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
 
@@ -10,28 +27,6 @@
 > ✅ **Результат:** Для приватных Repos RECOMMENDED: - Отдельный private-nautilus.json с explicit opt-in - Отдельный portal instance, не доступный публично - Authentication на REST API (JWT / API keys
 > 🏷️ **Ключевые слова:** `security`, `considerations`, `adapters`, `portal`, `anthropic`, `vacancies`, `private`, `untrusted`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [15. Security Considerations](#15-security-considerations)
-  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
-  - [15.2. Private Repositories](#152-private-repositories)
-  - [15.3. MCP Exposure](#153-mcp-exposure)
-  - [15.4. Rate Limiting](#154-rate-limiting)
-  - [15.5. Supply Chain](#155-supply-chain)
-
-
-<!-- toc-auto -->
-## Contents
-
-- [15. Security Considerations](#15-security-considerations)
-  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
-  - [15.2. Private Repositories](#152-private-repositories)
-  - [15.3. MCP Exposure](#153-mcp-exposure)
-  - [15.4. Rate Limiting](#154-rate-limiting)
-  - [15.5. Supply Chain](#155-supply-chain)
 
 
 > [!IMPORTANT]
@@ -66,7 +61,7 @@ SHOULD НЕ включаться в публичную registry.
 
 Для приватных Repos RECOMMENDED:
 
-- Отдельный `private-[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с explicit opt-in
+- Отдельный `private-[nautilus](../05-habr-projects/memory/memnet.md).json` с explicit opt-in
 - Отдельный portal instance, не доступный публично
 - Authentication на REST API (JWT / API keys)
 - Нет MCP exposure без whitelist
@@ -104,9 +99,9 @@ supply-chain риск.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [23-11-security-considerations](23-11-security-considerations.md) (сходство 0.55)
-- [88-13-rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md) (сходство 0.11)
+- 88-13-[rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md) (сходство 0.11)
 - [85-10-query-flow](85-10-query-flow.md) (сходство 0.10)
 
 
@@ -114,9 +109,15 @@ supply-chain риск.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "15 Security Considerations"
+```
+
+## Смотрите также
 - [23-11-security-considerations](23-11-security-considerations.md)
-- [88-13-rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
+- 88-13-[rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
 - [81-6-adapter-interface](81-6-adapter-interface.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 
@@ -141,3 +142,14 @@ supply-chain риск.
 - [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md) _29%_
 - [9. Query Flow](21-9-query-flow.md) _17%_
 - [10. Query Flow](85-10-query-flow.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [README](README.md)
+

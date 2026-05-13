@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:19bb473876157205",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/356-твой-workflow.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:ec2d3cb362e5684b",
+  "payload": {
+    "title": "Твой workflow",
+    "summary": "Когда Max или authorized user ставит задачу, твой default approach:",
+    "body": "твой workflow когда max или authorized user ставит задачу твой default approach проекты cardindex svyazi executive summary похожие документы что можешь делать что можешь делать сходство смотрите также что можешь делать что можешь делать что всегда делаешь что всегда делаешь что можешь делать без max approval что можешь делать без max approval table contents table contents упоминается вакансии anthropic анализ кластерам readme твоя identity как persistent character твоя identity как persistent character твоя коммуникация outreach твоя коммуникация outreach что можешь делать что можешь делать что можешь делать вообще что можешь делать вообще упоминается вакансии anthropic анализ кластерам readme связанные документы что можешь делать что можешь делать связанные документы что можешь делать что можешь делать что можешь делать без max approval что можешь делать без max approval что можешь делать вообще что можешь делать вообще кто ссылается этот документ table contents table contents что можешь делать что можешь делать что можешь делать вообще что можешь делать вообще readme readme",
+    "tags": [
+      "knowledge"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 292,
+    "path": "docs/02-anthropic-vacancies/356-твой-workflow.md"
+  }
+}

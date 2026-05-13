@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:bae645ccb58da576",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/145-8-call-to-action.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/136-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/143-6-four-deployment-domains.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/144-7-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/222-11-call-for-collaboration.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:060757085c6a7ebf",
+  "payload": {
+    "title": "8. Call to Action",
+    "summary": "The Double-Triangle Architecture is a framework awaiting",
+    "body": "call action абстракт авто проблема contact via github issues github com svend nautilus url похожие документы abstract docs anthropic vacancies abstract сходство four dep подход early experimentation informs future workplace design ключевые слова triangle double domains pattern anthropic vacancies single research tip документ содержит практические рекомендации лучшие практики the double triangle architecture framework awaiting call action the double triangle architecture framework awaiting implementation and validation invite collaboration across multiple fronts for researchers empirical studies document existing deployments including the nautilus reference implementation with formal measurements coordination overhead task completion rates conflict frequency participant satisfaction publish results protocol formalization develop formal specifications protocols with message schemas failure modes security properties contribute via rfc process similar comparative analysis compare double triangle deployments against single triangle baselines centralized assistants centralized multi agent systems quantify productivity coordination cost error rates pattern library research investigate compound knowledge effects pattern libraries how does pattern library size relate productivity what contribution incentives work suggested venues aaai multi agent systems chi human collaboration aamas autonomous agents communications the acm broad audience ieee software practitioner audience for practitioners reference implementation adoption fork nautilus portal reference implementation github com svend nautilus and adapt for your domain contribute extensions back open source domain deployments deploy double triangle architecture specific domains legal practice medical coordination engineering teams research groups document experience publicly pattern library construction begin contributing domain pattern libraries anonymize your successful workflows and publish them early contributors gain first mover advantage shaping conventions protocol implementations build protocol implementations for specific platforms github svyazi component catalog actions slack jira linear each candidate for protocol bridge for founders and organizations product opportunities existing tools implement single triangles double triangle implementations represent differentiated product opportunities across many domains first movers will define category conventions organizational experiments organizations can pilot double triangle coordination internally measuring productivity effects early experimentation informs future workplace design grant applications funding programs eic pathfinder horizon europe increasingly support for good research double triangle deployments humanities domains access justice disability rights healthcare coordination align with these programs community building single organization will define double triangle conventions consortia foundations open source communities will shape the field early community engagement influential for policymakers regulatory frameworks existing labor and regulations assume either single human knowledge work fully automated systems double triangle hybrid work requires regulatory attention liability data protection consent compensation public infrastructure pattern libraries domains like legal knowledge medical protocols educational curricula have public good properties government funding for public pattern libraries similar open data initiatives could accelerate beneficial deployments research funding direct research funding toward open questions governance economics burnout scale capability adversarial dynamics for the first author intentionally personal note close the document the double triangle architecture emerged from recognizing that own work exhibits both triangles simultaneously single person coordinating multiple assistants lower triangle and also participant broader social and legal systems that coordinate upper triangle with human meta agents the form institutions this personal recognition expressed initially through the metaphor the star david made explicit what had been implicit that modern knowledge work inherently dual layered and that existing system acknowledges this directly the next phase work formalize this recognition deploy the specific humanities domain that motivates daily effort german social law disability rights access justice and invite others test refine and extend single author with personal constraints gdb pflegegrad ongoing sozialgericht proceedings not full research team collaboration critique and contribution from others are not only welcome but essential contact via github svyazi component catalog issues github com svend nautilus https github com svend nautilus похожие документы abstract abstract сходство four deployment domains four deployment domains сходство proposed infrastructure proposed infrastructure сходство смотрите также abstract abstract four deployment domains four deployment domains open questions open questions proposed infrastructure proposed infrastructure упоминается call for collaboration call for collaboration proposed infrastructure proposed infrastructure four deployment domains four deployment domains open questions open questions call for partnership call for partnership risks and open questions risks and open questions abstract abstract appendix sample ingit mcp server tool specifications appendix sample ingit mcp server tool specificat appendix version history appendix version history executive summary executive summary вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы four deployment domains four deployment domains pattern library bridge between triangles pattern library bridge between triangles open questions open questions appendix glossary appendix glossary proposed infrastructure proposed infrastructure abstract abstract professional colleague agents professional colleague agents integration with okwf infrastructure integration with okwf infrastructure связанные документы abstract abstract four deployment domains four deployment domains pattern library bridge between triangles pattern library bridge between triangles open questions open questions appendix glossary appendix glossary proposed infrastructure proposed infrastructure architectural specification architectural specification professional colleague agents professional colleague agents кто ссылается этот документ abstract abstract pattern library bridge between triangles pattern library bridge between triangles four deployment domains",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 929,
+    "path": "docs/02-anthropic-vacancies/145-8-call-to-action.md"
+  }
+}

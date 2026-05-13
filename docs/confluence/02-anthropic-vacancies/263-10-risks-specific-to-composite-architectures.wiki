@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 10. Risks Specific to Composite Architectures
@@ -180,7 +180,7 @@ _Mitigations_:
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [262-9-integration-with-okwf-infrastructure|262-9-integration-with-okwf-infrastructure.md] (сходство 0.15)
 * [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md] (сходство 0.15)
 * [264-11-open-questions|264-11-open-questions.md] (сходство 0.15)
@@ -190,7 +190,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Risks Specific to Composite"
+{code}
+
+h2. Смотрите также
 * [262-9-integration-with-okwf-infrastructure|262-9-integration-with-okwf-infrastructure.md]
 * [264-11-open-questions|264-11-open-questions.md]
 * [257-4-the-sub-agent-registry|257-4-the-sub-agent-registry.md]
@@ -237,3 +243,19 @@ h2. Связанные документы
 * [Abstract|252-abstract.md] _29%_
 * [5. Configuration: How Principals Build Their Ensembles|258-5-configuration-how-principals-build-their-ensembl.md] _29%_
 * [6. Coordination and Disagreement Resolution|259-6-coordination-and-disagreement-resolution.md] _29%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [151-open-knowledge-work-foundation-md|151-open-knowledge-work-foundation-md.md]
+* [162-8-risk-analysis|162-8-risk-analysis.md]
+* [217-6-risks-specific-to-this-category|217-6-risks-specific-to-this-category.md]
+* [252-abstract|252-abstract.md]
+* [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md]
+* [257-4-the-sub-agent-registry|257-4-the-sub-agent-registry.md]
+* [258-5-configuration-how-principals-build-their-ensembl|258-5-configuration-how-principals-build-their-ensembl.md]
+* [259-6-coordination-and-disagreement-resolution|259-6-coordination-and-disagreement-resolution.md]
+* _...ещё 3_
+

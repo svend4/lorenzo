@@ -1,11 +1,20 @@
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. The Cinderella Syndrome: Why Quality Stays Invisible](#1-the-cinderella-syndrome-why-quality-stays-invisible)
@@ -142,11 +151,31 @@ Layer.
 
 ---
 
-**Смотрите также:**
-- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
-- [02-historical-precedents](docs/nautilus/representative-agent-layer-en/02-historical-precedents.md)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
-- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 The Cinderella Syndrome Why Quality"
+```
+
+## Смотрите также
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](../../02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [02-historical-precedents](02-historical-precedents.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [04-ten-domains](04-ten-domains.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [02-historical-precedents](02-historical-precedents.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -154,7 +183,7 @@ Layer.
 ---
 
 **Похожие документы:**
-- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/obsidian/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.89)
-- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.88)
-- [02-historical-precedents](docs/nautilus/representative-agent-layer-en/02-historical-precedents.md) (сходство 0.18)
+- [01-cinderella-syndrome](../../obsidian/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md) (сходство 0.98)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](../../02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.88)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](../../obsidian/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.88)
 

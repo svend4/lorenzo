@@ -2,10 +2,34 @@
 title: "Введение"
 tags:
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Введение
+
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Статус](#статус)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Статус](#статус)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+---
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -808,7 +832,7 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[memnet]] (сходство 0.67)
 - [[01-интегральный-анализ-профиля-svend4]] (сходство 0.16)
 - [[TABLES]] (сходство 0.15)
@@ -818,7 +842,33 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение"
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение" --mode bm25
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение" --mode semantic --top 10
+```
+
+```bash
+python scripts/improve_collab_finder.py --file docs/04-ai-collaborations/00-intro.md
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение" --mode full
+```
+
+```bash
+python scripts/improve_reading_list.py --query "Введение" --top 10
+```
+
+## Смотрите также
 - [[memnet]]
 - [[01-интегральный-анализ-профиля-svend4]]
 - [[TABLES]]
@@ -859,3 +909,14 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
 
 [^tf_idf]: Term Frequency–Inverse Document Frequency — метрика важности термина
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[272-appendix-d-connection-diagram]]
+- [[README]]
+- [[TABLES]]
+

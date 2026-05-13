@@ -1,10 +1,26 @@
 # Tertiary match — Research Engineer, Agents / Virtual Collaborator (Cowork)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: anthropic, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -19,11 +35,35 @@ Quarternary match: Developer Education Lead / Prompt Engineer, Claude Code
 
 ---
 
-**Смотрите также:**
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [01-ai-research-engineering](docs/anthropic-vacancies/clusters/01-ai-research-engineering.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Tertiary match Research Engineer Agents"
+```
+
+## Смотрите также
+- [08-practical-ranking](08-practical-ranking.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [01-ai-research-engineering](../../clusters/01-ai-research-engineering.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -31,7 +71,7 @@ Quarternary match: Developer Education Lead / Prompt Engineer, Claude Code
 ---
 
 **Похожие документы:**
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.25)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.25)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.24)
+- [04-tertiary-research-engineer-agents](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md) (сходство 0.98)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md) (сходство 0.32)
+- [05-quaternary-developer-education](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.32)
 

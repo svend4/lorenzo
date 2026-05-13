@@ -4,15 +4,19 @@ tags:
   - rag
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 9. Call for Partnership
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [9. Call for Partnership](#9-call-for-partnership)
   - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
   - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
@@ -24,23 +28,16 @@ date: 2026-04-29
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** For Policy Organizations (EU Commission, National Governments, OECD) What we ask: - Regulatory guidance and dialogue - Recognition of experimental status - Potential grant funding 
 > 🔧 **Подход:** For Academic and Research Partners (Universities, Think Tanks) What we ask: - Research collaboration on methodology and outcomes - Student and researcher contributor recruitment - 
 > 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `partnership`, `research`, `policy`, `contributors`, `academic`, `infrastructure`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [9. Call for Partnership](#9-call-for-partnership)
-  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-[mistral](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-openai-google-microsoft)
-  - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
-  - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
-  - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
-  - [9.5. For Potential Contributors](#95-for-potential-contributors)
 
 
 <!-- summary -->
@@ -144,7 +141,7 @@ section explicitly invites partnership.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[164-10-appendices]] (сходство 0.17)
 - [[161-7-phased-rollout-plan]] (сходство 0.16)
 - [[159-5-economic-model]] (сходство 0.15)
@@ -154,9 +151,30 @@ section explicitly invites partnership.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Call for Partnership"
+```
+
+## Смотрите также
 - [[161-7-phased-rollout-plan]]
 - [[164-10-appendices]]
 - [[159-5-economic-model]]
 - [[153-executive-summary]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[145-8-call-to-action]]
+- [[153-executive-summary]]
+- [[155-1-problem-statement]]
+- [[161-7-phased-rollout-plan]]
+- [[162-8-risk-analysis]]
+- [[164-10-appendices]]
+- [[257-4-the-sub-agent-registry]]
+- [[README]]
 

@@ -1,5 +1,14 @@
 # Mega‑Stack 4.0 — with Event Sourcing & Consensus
 
+<!-- toc-auto -->
+## Contents
+
+- [New capabilities](#new-capabilities)
+- [Performance](#performance)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -71,11 +80,21 @@
 
 ---
 
-**Смотрите также:**
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+## Смотрите также
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+- [32-consensus-based-multi-agent-coordination](../combinations/32-consensus-based-multi-agent-coordination.md)
+- [03-dsl-ast](03-dsl-ast.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -83,7 +102,7 @@
 ---
 
 **Похожие документы:**
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.41)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.40)
-- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md) (сходство 0.33)
+- [04-event-sourcing-consensus](../../obsidian/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.93)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.41)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../../obsidian/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.41)
 

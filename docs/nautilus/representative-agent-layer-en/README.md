@@ -1,29 +1,58 @@
 # representative-agent-layer-en
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 13
 
 ## Содержание
 
-- [00-abstract.md](00-abstract.md) — <!-- summary -->
-- [01-cinderella-syndrome.md](01-cinderella-syndrome.md) — <!-- summary -->
-- [02-historical-precedents.md](02-historical-precedents.md) — <!-- summary -->
-- [03-what-makes-representative-agent.md](03-what-makes-representative-agent.md) — <!-- summary -->
+- [00-abstract.md](00-abstract.md) — <!-- toc -->
+- [01-cinderella-syndrome.md](01-cinderella-syndrome.md) — > [!NOTE]
+- [02-historical-precedents.md](02-historical-precedents.md) — > [!NOTE]
+- [03-what-makes-representative-agent.md](03-what-makes-representative-agent.md) — > [!NOTE]
 - [04-ten-domains.md](04-ten-domains.md) — > [!TIP]
-- [05-architectural-specification.md](05-architectural-specification.md) — <!-- summary -->
-- [06-ethical-framework.md](06-ethical-framework.md) — > [!IMPORTANT]
-- [07-governance-oversight.md](07-governance-oversight.md) — <!-- summary -->
-- [08-risks-mitigations.md](08-risks-mitigations.md) — <!-- summary -->
-- [09-phased-rollout.md](09-phased-rollout.md) — <!-- summary -->
-- [10-open-questions.md](10-open-questions.md) — <!-- summary -->
-- [11-call-for-collaboration.md](11-call-for-collaboration.md) — <!-- summary -->
+- [05-architectural-specification.md](05-architectural-specification.md) — > [!NOTE]
+- [06-ethical-framework.md](06-ethical-framework.md) — <!-- toc-auto -->
+- [07-governance-oversight.md](07-governance-oversight.md) — <!-- toc-auto -->
+- [08-risks-mitigations.md](08-risks-mitigations.md) — <!-- toc-auto -->
+- [09-phased-rollout.md](09-phased-rollout.md) — <!-- toc-auto -->
+- [10-open-questions.md](10-open-questions.md) — <!-- toc-auto -->
+- [11-call-for-collaboration.md](11-call-for-collaboration.md) — <!-- toc-auto -->
 - [12-closing.md](12-closing.md) — > [!TIP]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-abstract](00-abstract.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [02-historical-precedents](02-historical-precedents.md)
+- _...ещё 7_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [169-table-of-contents](docs/obsidian/02-anthropic-vacancies/169-table-of-contents.md) (сходство 0.41)
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md) (сходство 0.39)
-- [README](docs/nautilus/professional-colleague-agents-en/README.md) (сходство 0.28)
+- [README](../../obsidian/nautilus/representative-agent-layer-en/README.md) (сходство 0.89)
+- [README](../professional-colleague-agents-en/README.md) (сходство 0.42)
+- [README](../composite-skills-agents/README.md) (сходство 0.41)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

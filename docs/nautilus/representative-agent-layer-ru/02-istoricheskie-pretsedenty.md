@@ -135,11 +135,30 @@ AI-Представительские Агенты сохраняют сильн
 
 ---
 
-**Смотрите также:**
-- [192-2-исторические-прецеденты-агенты-как-цивилизационн](docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
-- [DUPLICATES](docs/DUPLICATES.md)
-- [04-desyat-oblastey](docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Исторические прецеденты Агенты как"
+```
+
+## Смотрите также
+- [192-2-исторические-прецеденты-агенты-как-цивилизационн](../../02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
+- [DUPLICATES](../../DUPLICATES.md)
+- [04-desyat-oblastey](04-desyat-oblastey.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-sindrom-zolushki](01-sindrom-zolushki.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -147,6 +166,7 @@ AI-Представительские Агенты сохраняют сильн
 ---
 
 **Похожие документы:**
-- [192-2-исторические-прецеденты-агенты-как-цивилизационн](docs/obsidian/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) (сходство 0.94)
-- [192-2-исторические-прецеденты-агенты-как-цивилизационн](docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) (сходство 0.91)
+- [02-istoricheskie-pretsedenty](../../obsidian/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md) (сходство 0.99)
+- [192-2-исторические-прецеденты-агенты-как-цивилизационн](../../02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) (сходство 0.92)
+- [192-2-исторические-прецеденты-агенты-как-цивилизационн](../../obsidian/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) (сходство 0.92)
 

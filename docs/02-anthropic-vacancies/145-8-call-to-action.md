@@ -83,7 +83,7 @@ publish them. Early contributors gain first-mover advantage in
 shaping conventions.
 
 **Protocol implementations.** Build Protocol 3 implementations 
-for specific platforms. [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions, Slack, Jira, Linear — 
+for specific platforms. [GitHub](../01-svyazi/03-component-catalog.md) Actions, Slack, Jira, Linear — 
 each is a candidate for a Protocol 3 bridge.
 
 ### 8.3. For Founders and Organizations
@@ -151,7 +151,7 @@ I am a single author with personal constraints (GdB 70, Pflegegrad
 team. Collaboration, critique, and contribution from others are 
 not only welcome but essential.
 
-Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at 
+Contact: via [GitHub](../01-svyazi/03-component-catalog.md) issues at 
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus).
 
 ---
@@ -160,7 +160,7 @@ Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [136-abstract](136-abstract.md) (сходство 0.18)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.17)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.15)
@@ -170,7 +170,13 @@ Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Call to Action"
+```
+
+## Смотрите также
 - [136-abstract](136-abstract.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [144-7-open-questions](144-7-open-questions.md)
@@ -215,3 +221,19 @@ Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at
 - [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _21%_
 - [5. Architectural Specification](174-5-architectural-specification.md) _21%_
 - [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [136-abstract](136-abstract.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [153-executive-summary](153-executive-summary.md)
+- [168-abstract](168-abstract.md)
+- _...ещё 4_
+

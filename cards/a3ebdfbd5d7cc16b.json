@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:a3ebdfbd5d7cc16b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:8cb6b92f7e85ecba",
+  "payload": {
+    "title": "Section 2: Why this matters — beneficial dimension",
+    "summary": "Section 2: Why this matters — beneficial dimension",
+    "body": "section why this matters beneficial dimension источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section problem section problem section success metrics section success metrics section risks mitigations section risks mitigations section timeliness section timeliness",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 158,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md"
+  }
+}

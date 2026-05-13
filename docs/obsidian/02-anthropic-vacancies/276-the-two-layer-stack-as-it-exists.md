@@ -4,22 +4,10 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # The Two-Layer Stack As It Exists
-
-<!-- toc -->
-## Содержание
-
-- [The Two-Layer Stack As It Exists](#the-two-layer-stack-as-it-exists)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -39,6 +27,18 @@ date: 2026-04-29
 > Currently, AI-collaborative work tends to occur in one of two
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [The Two-Layer Stack As It Exists](#the-two-layer-stack-as-it-exists)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture, anthropic -->
 
 
@@ -92,7 +92,7 @@ infrastructure that does not exist as a unified product.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[279-existing-approximations]] (сходство 0.19)
 - [[275-why-this-document-exists]] (сходство 0.18)
 - [[280-the-specific-case-in-front-of-us]] (сходство 0.18)
@@ -102,7 +102,13 @@ infrastructure that does not exist as a unified product.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Two Layer Stack As It Exists"
+```
+
+## Смотрите также
 - [[279-existing-approximations]]
 - [[280-the-specific-case-in-front-of-us]]
 - [[275-why-this-document-exists]]
@@ -147,3 +153,19 @@ infrastructure that does not exist as a unified product.
 - [[279-existing-approximations|Existing Approximations]] _29%_
 - [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]] _29%_
 - [[286-acknowledgments|Acknowledgments]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[218-7-application-domains]]
+- [[275-why-this-document-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[278-why-this-hasn-t-been-built]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[282-what-industry-will-likely-build]]
+- [[283-what-this-document-doesn-t-solve]]
+- [[284-practical-recommendations-for-the-current-project]]
+- _...ещё 2_
+

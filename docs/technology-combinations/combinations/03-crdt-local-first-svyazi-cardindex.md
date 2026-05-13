@@ -1,11 +1,28 @@
 # Комбинация 3: CRDT local-first × Svyazi CardIndex
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, Yjs
 
 ---
 <!-- tags: knowledge, ingestion, local-first, collaboration -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -50,19 +67,38 @@ Discovery-файл Svyazi (накопление неизвестного) син
 
 ---
 
-**Смотрите также:**
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
-- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
-- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 3 CRDT local-first Svyazi"
+```
+
+## Смотрите также
+- [03-local-first](../../03-technology-combinations/03-local-first.md)
+- 01-pravilnaya-agentskaya-arkhitektura-[svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+- 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [03-local-first](docs/obsidian/03-technology-combinations/03-local-first.md) (сходство 0.44)
-- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.41)
-- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md) (сходство 0.21)
+- [03-crdt-local-first-svyazi-cardindex](../../obsidian/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md) (сходство 0.95)
+- [03-local-first](../../obsidian/03-technology-combinations/03-local-first.md) (сходство 0.40)
+- [03-local-first](../../03-technology-combinations/03-local-first.md) (сходство 0.40)
 

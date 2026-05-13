@@ -1,5 +1,18 @@
 # 02 — Средние улучшения (мейнстрим современного RAG)
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, AgentFS, Yodoca
+
+---
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 Современный mainstream — реализуется коммерческими RAG-фреймворками (LangChain, LlamaIndex, Haystack), но в Lorenzo пока отсутствует. Каждое — 2-5 спринтов, средний риск, существенный прирост качества.
 
 **Документ:** часть серии ROADMAP. См. также: [00-CURRENT-STATE](./00-CURRENT-STATE.md), [01-SIMPLE](./01-SIMPLE.md), [03-INNOVATIVE](./03-INNOVATIVE.md), [04-NOVEL](./04-NOVEL.md), [05-PRIORITIES](./05-PRIORITIES.md).
@@ -539,3 +552,27 @@ class ImageStore:
 6. **M3** (hierarchical) — окупается на >1K docs
 7. **M6** (active learning) — closes the loop, requires M5
 8. **M8** (cross-modal) — niche, отложить если нет UI приоритета
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [01-SIMPLE](01-SIMPLE.md)
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [04-NOVEL](04-NOVEL.md)
+- [05-PRIORITIES](05-PRIORITIES.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [04-NOVEL](04-NOVEL.md)
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [01-SIMPLE](01-SIMPLE.md)
+

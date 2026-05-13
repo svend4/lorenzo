@@ -2,10 +2,24 @@
 title: "Appendix B: Sub-Agent Registry Schema (Sketch)"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix B: Sub-Agent Registry Schema (Sketch)
+
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Sub-Agent Registry Schema (Sketch)](#appendix-b-sub-agent-registry-schema-sketch)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -16,6 +30,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > For implementation, sub-agent registry entries might follow
 
 ---
@@ -101,7 +119,7 @@ substantial refinement based on actual implementation experience.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
 - [[271-appendix-c-configuration-template-example]] (сходство 0.11)
 
@@ -110,9 +128,20 @@ substantial refinement based on actual implementation experience.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [[271-appendix-c-configuration-template-example]]
 - [[28-appendix-a-minimal-working-example]]
 - [[308-table-of-contents]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[253-table-of-contents]]
+- [[308-table-of-contents]]
+- 321-appendix-a-decision-tree-for-[[321-appendix-a-decision-tree-for-ingit-adopters|ingit-adopters]]
+- [[README]]
 

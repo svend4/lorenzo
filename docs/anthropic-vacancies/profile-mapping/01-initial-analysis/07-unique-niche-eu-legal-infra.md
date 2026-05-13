@@ -1,10 +1,26 @@
 # Уникальная ниша, которой у Anthropic формально нет
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: rag, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -19,11 +35,35 @@
 
 ---
 
-**Смотрите также:**
-- [11-legal](docs/anthropic-vacancies/clusters/11-legal.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [06-not-applicable-roles](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Уникальная ниша которой у Anthropic"
+```
+
+## Смотрите также
+- [11-legal](../../clusters/11-legal.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [06-not-applicable-roles](06-not-applicable-roles.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [06-not-applicable-roles](06-not-applicable-roles.md)
+- [README](README.md)
+- [01-three-archetypes](../03-integral-final/01-three-archetypes.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -31,7 +71,7 @@
 ---
 
 **Похожие документы:**
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.23)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.23)
-- [06-not-applicable-roles](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md) (сходство 0.21)
+- [07-unique-niche-eu-legal-infra](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md) (сходство 0.96)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md) (сходство 0.42)
+- [03-secondary-beneficial-deployments](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.41)
 

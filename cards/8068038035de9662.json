@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:8068038035de9662",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/285-closing.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/281-the-recursive-insight.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/286-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/266-13-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:563b701123c9ec7e",
+  "payload": {
+    "title": "Closing",
+    "summary": "The seven documents in this series describe substantial",
+    "body": "closing абстракт авто проблема that vision rests infrastructure that partially exists and partially needs building результат the author unusually positioned contribute filling this gap because the existing nautilus work provides relevant components ключевые слова anthropic vacancies practical infrastructure built recursive insight recommendations the seven documents this series describe substantial похожие документы why this hasn been built why this hasn been built сходство the recursive insight the recursive insight сходство practical recommendations for the current project practical recommendations for the current project сходство смотрите также the recursive insight the recursive insight why this hasn been built why this hasn been built acknowledgments acknowledgments practical recommendations for the current project practical recommendations for the current project упоминается closing closing appendix position series visualization appendix position series visualization practical recommendations for the current project practical recommendations for the current project references references the recursive insight the recursive insight what this document doesn solve what this document doesn solve why this document exists why this document exists why this hasn been built why this hasn been built вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы why this hasn been built why this hasn been built acknowledgments acknowledgments appendix position series visualization appendix position series visualization abstract abstract closing closing why this document exists why this document exists the recursive insight the recursive insight practical recommendations for the current project practical recommendations for the current project связанные документы why this hasn been built why this hasn been built closing closing appendix position series visualization appendix position series visualization the recursive insight the recursive insight practical recommendations for the current project practical recommendations for the current project acknowledgments acknowledgments abstract abstract why this document exists why this document exists кто ссылается этот документ abstract abstract closing closing why this document exists why this document exists why this hasn been built why this hasn been built the recursive insight the recursive insight what this document doesn solve what this document doesn solve practical recommendations for the current project practical recommendations for the current project acknowledgments acknowledgments ещё",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 451,
+    "path": "docs/02-anthropic-vacancies/285-closing.md"
+  }
+}

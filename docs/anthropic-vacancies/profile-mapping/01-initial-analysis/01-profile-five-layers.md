@@ -1,10 +1,26 @@
 # Сводка профиля: пять слоёв
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -29,11 +45,32 @@ Daten70, судя по названию-паттерну (Daten = нем. «да
 
 ---
 
-**Смотрите также:**
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [01-three-archetypes](docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводка профиля пять слоёв"
+```
+
+## Смотрите также
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [01-three-archetypes](../03-integral-final/01-three-archetypes.md)
+- [02-primary-fde](02-primary-fde.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+- [01-three-archetypes](../03-integral-final/01-three-archetypes.md)
+- [concepts](../../../glossary/concepts.md)
 
 
 <!-- similar-docs -->
@@ -41,7 +78,7 @@ Daten70, судя по названию-паттерну (Daten = нем. «да
 ---
 
 **Похожие документы:**
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.18)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.15)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.15)
+- [01-profile-five-layers](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md) (сходство 0.97)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md) (сходство 0.21)
+- [05-quaternary-developer-education](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.21)
 

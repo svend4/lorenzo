@@ -1,10 +1,38 @@
 # Что отсутствует — Слой B
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Что отсутствует — Слой B](#что-отсутствует-слой-b)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Что отсутствует — Слой B](#что-отсутствует-слой-b)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -89,11 +117,31 @@
 
 ---
 
-**Смотрите также:**
-- [292-что-отсутствует-слой-b](docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md)
-- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [10-rekomendatsii](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что отсутствует Слой B"
+```
+
+## Смотрите также
+- [292-что-отсутствует-слой-b](../../02-anthropic-vacancies/292-что-отсутствует-слой-b.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [10-rekomendatsii](10-rekomendatsii.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-zachem-dokument](01-zachem-dokument.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -101,7 +149,7 @@
 ---
 
 **Похожие документы:**
-- [292-что-отсутствует-слой-b](docs/obsidian/02-anthropic-vacancies/292-что-отсутствует-слой-b.md) (сходство 0.82)
-- [292-что-отсутствует-слой-b](docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md) (сходство 0.79)
-- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md) (сходство 0.18)
+- [03-otsutstvuet-sloy-b](../../obsidian/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md) (сходство 0.98)
+- [292-что-отсутствует-слой-b](../../02-anthropic-vacancies/292-что-отсутствует-слой-b.md) (сходство 0.79)
+- [292-что-отсутствует-слой-b](../../obsidian/02-anthropic-vacancies/292-что-отсутствует-слой-b.md) (сходство 0.78)
 

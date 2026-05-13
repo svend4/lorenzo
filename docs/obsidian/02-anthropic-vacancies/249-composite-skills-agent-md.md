@@ -4,16 +4,31 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # COMPOSITE SKILLS AGENT.md
+
+<!-- toc-auto -->
+## Contents
+
+- [COMPOSITE SKILLS AGENT.md](#composite-skills-agentmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > - [[166-representative-agent-layer-md]] (сходство 0.25)
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,7 +42,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[166-representative-agent-layer-md]] (сходство 0.25)
 - [[344-системный-промпт-для-lorenzo-project]] (сходство 0.20)
 - [[208-professional-colleague-agents-md]] (сходство 0.14)
@@ -81,9 +96,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "COMPOSITE SKILLS AGENT md"
+```
+
+## Смотрите также
 - [[304-ingit-as-cowork-native-workspace-substrate-md]]
 - [[208-professional-colleague-agents-md]]
 - [[151-open-knowledge-work-foundation-md]]
 - [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (21)
+- [[12-content-overview]]
+- [[134-the-double-triangle-architecture-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[166-representative-agent-layer-md]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[187-слой-представительских-агентов-md]]
+- [[208-professional-colleague-agents-md]]
+- [[210-abstract]]
+- _...ещё 13_
 

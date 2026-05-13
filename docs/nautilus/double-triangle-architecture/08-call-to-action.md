@@ -153,11 +153,33 @@ Contact: via GitHub issues at
 
 ---
 
-**Смотрите также:**
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
-- [07-open-questions](docs/nautilus/double-triangle-architecture/07-open-questions.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Call to Action"
+```
+
+## Смотрите также
+- [145-8-call-to-action](../../02-anthropic-vacancies/145-8-call-to-action.md)
+- [06-four-deployment-domains](06-four-deployment-domains.md)
+- [07-open-questions](07-open-questions.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-abstract](00-abstract.md)
+- [06-four-deployment-domains](06-four-deployment-domains.md)
+- [07-open-questions](07-open-questions.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -165,7 +187,7 @@ Contact: via GitHub issues at
 ---
 
 **Похожие документы:**
-- [145-8-call-to-action](docs/obsidian/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.91)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.87)
-- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md) (сходство 0.21)
+- [08-call-to-action](../../obsidian/nautilus/double-triangle-architecture/08-call-to-action.md) (сходство 0.99)
+- [145-8-call-to-action](../../02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.86)
+- [145-8-call-to-action](../../obsidian/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.86)
 

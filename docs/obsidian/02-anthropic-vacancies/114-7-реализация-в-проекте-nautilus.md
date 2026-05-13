@@ -5,28 +5,28 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 7. Реализация в проекте Nautilus
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Реализация в проекте Nautilus Contents - 7.
-> 🔧 **Подход:** В будущем методология может быть формализована в NPP v2.0 как рекомендованный workflow для community-contributed documentation.
-> 🏷️ **Ключевые слова:** `nautilus`, `применения`, `anthropic`, `vacancies`, `status`, `workflow`, `реализация`, `проекте`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
-- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md))
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
   - [7.1. Хронология применения](#71-хронология-применения)
   - [7.2. Артефакты](#72-артефакты)
-  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md**
@@ -88,7 +88,7 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[108-2-формальный-workflow]] (сходство 0.18)
 - [[117-10-конкретный-план-применения-к-текущим-документам]] (сходство 0.14)
 - [[05-0-status-of-this-document]] (сходство 0.10)
@@ -98,9 +98,31 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Реализация в проекте Nautilus"
+```
+
+## Смотрите также
 - [[108-2-формальный-workflow]]
 - [[117-10-конкретный-план-применения-к-текущим-документам]]
 - [[05-0-status-of-this-document]]
 - [[24-12-versioning-policy]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[05-0-status-of-this-document]]
+- [[122-глоссарий]]
+- [[129-примеры-запросов-в-claude]]
+- [[24-12-versioning-policy]]
+- [[42-author-contact]]
+- [[53-history]]
+- [[62-author-contact]]
+- [[75-0-status-of-this-document]]
+- _...ещё 1_
 

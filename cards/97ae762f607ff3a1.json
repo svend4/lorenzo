@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:97ae762f607ff3a1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/05-compatibility-levels.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:6f718362ffba6552",
+  "payload": {
+    "title": "5. Compatibility Levels",
+    "summary": "NPP определяет 4 уровня совместимости Repo с экосистемой. Это",
+    "body": "compatibility levels источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol draft rfc более ранняя версия",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 221,
+    "path": "docs/nautilus/npp-v1-0/05-compatibility-levels.md"
+  }
+}

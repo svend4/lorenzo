@@ -1,10 +1,37 @@
 # Почему именно для программистов это работает естественно
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo
 
 ---
 <!-- tags: orchestration, architecture, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -69,11 +96,32 @@ daten1 ⭐1 («блокнот, игры») — ранняя попытка gamif
 
 ---
 
-**Смотрите также:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [01-response](docs/nautilus/innovation-transitions/01-response.md)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Почему именно для программистов это"
+```
+
+## Смотрите также
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [01-response](../../nautilus/innovation-transitions/01-response.md)
+- [05-polymath-project-tao-comparison](../ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [02-existing-niche](02-existing-niche.md)
+- [05-minuses-as-business](05-minuses-as-business.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -81,7 +129,7 @@ daten1 ⭐1 («блокнот, игры») — ранняя попытка gamif
 ---
 
 **Похожие документы:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.12)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.11)
-- [01-response](docs/nautilus/innovation-transitions/01-response.md) (сходство 0.11)
+- [03-why-natural-for-programmers](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md) (сходство 0.99)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md) (сходство 0.14)
+- [00-question-mmorpg-for-programmers](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) (сходство 0.13)
 

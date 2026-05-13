@@ -1,10 +1,27 @@
 # 14. ADR-001: Federation over Merging
 
+<!-- toc-auto -->
+## Contents
+
+- [14. ADR-001: Federation over Merging](#14-adr-001-federation-over-merging)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
 <!-- tags: architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -48,11 +65,32 @@ formal mapping
 
 ---
 
-**Смотрите также:**
-- [19-adr-001-federation-over-merging](docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
-- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "14 ADR 001 Federation over Merging"
+```
+
+## Смотрите также
+- [19-adr-001-federation-over-merging](../npp-v1-1/19-adr-001-federation-over-merging.md)
+- [26-14-adr-001-federation-over-merging](../../02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](../../02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [20-adr-002-q6-first-class](../npp-v1-1/20-adr-002-q6-first-class.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [19-adr-001-federation-over-merging](../npp-v1-1/19-adr-001-federation-over-merging.md)
 
 
 <!-- similar-docs -->
@@ -60,7 +98,7 @@ formal mapping
 ---
 
 **Похожие документы:**
-- [19-adr-001-federation-over-merging](docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md) (сходство 0.85)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) (сходство 0.75)
-- [26-14-adr-001-federation-over-merging](docs/obsidian/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md) (сходство 0.74)
+- [14-adr-001-federation-over-merging](../../obsidian/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md) (сходство 0.98)
+- [19-adr-001-federation-over-merging](../npp-v1-1/19-adr-001-federation-over-merging.md) (сходство 0.80)
+- [19-adr-001-federation-over-merging](../../obsidian/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md) (сходство 0.78)
 

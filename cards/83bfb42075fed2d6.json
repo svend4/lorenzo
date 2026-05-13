@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:83bfb42075fed2d6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:3ff3405b80c2557d",
+  "payload": {
+    "title": "Appendix C: Quick-Start Architecture for SGB Advocate Colleague",
+    "summary": "For readers interested in concrete architecture for the",
+    "body": "appendix quick start architecture for sgb advocate colleague абстракт авто проблема contact via github com svend nautilus issues url комментарий шестому документу это завершающий документ концептуальной работы сессии подход appendix quick start architecture for sgb advocate colleague important ключевой документ для понимания архитектуры результат эта строгость полезна потому что помогает differentiation других типов делает category боеспособной для продакшена прорезывает hype вокруг for если кто продаё ключевые слова appendix colleague документ pilot representative architecture anthropic knowledge important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь for readers interested concrete architecture for the appendix quick start architecture for sgb advocate colleague for readers interested concrete architecture for the proposed pilot stack suggested backend python fastapi llm claude anthropic primary qwen local for privacy sensitive operations storage postgresql structured chromadb vector knowledge base format markdown files git repository frontend typescript habr projects memory memnet react mobile react native pwa knowledge base structure initial sgb knowledge statutes sgb psychiatric assistance sgb xii precedents bsg retroactive personal budget lsg sachsen procedural frist rules sozialgericht dresden templates widerspruch ablehnung eingliederungshilfe klage patterns ksv sachsen patterns generation pattern for widerspruch input bescheid text decoded agent case context practitioner supplied affected statute references extracted agent process extract bescheid claims and reasoning identify legal grounds for opposition locate relevant precedent check for procedural errors apply local court conventions generate draft using template customization provide citations for all substantive claims flag uncertainty where confidence low output draft widerspruch docx format citations document risk uncertainty notes suggested additional research deadline calendar entry privacy architecture practitioner notes stored encrypted accessible only practitioner llm api calls with anonymized representations where possible optional local only mode for highest sensitivity all processing logs auditable practitioner this starting sketch not complete specification real implementation requires substantial detailed design professional colleague agents draft companion paper representative agent layer open knowledge work foundation double triangle architecture and nautilus portal protocol empirical case study обучай https www fontanka seeking collaborators critics and pilot partners contact via github com svend nautilus issues https github com svend nautilus issues комментарий шестому документу это завершающий документ концептуальной работы сессии несколько важных решений его дизайне главный вклад типология формализовал что заметили кейсе обучай что агент стороне принципала одна категория семья пяти типов это существенное расширение representative agent layer paper который трактовал это как одну категорию типология пятью типами personal assistant professional colleague institutional employee representative оригинальная нашёл существующей литературе обычно пишут либо про assistants целом либо про специфические применения структурирование пяти типов чёткими определяющими свойствами это полезный концептуальный вклад обучай как central empirical reference кейс константина чукавина выступает центральной эмпирической точкой документа это критично реальные числа тысячи пользователей месяцев гипотезы реальные дизайн решения которые можно анализировать реальная философия free time human work not less work доступная публичная документация статья фонтанки foundation funders academic reviewers practitioners ценят empirical grounding гораздо больше чем чистую концептуализацию этот документ имеет это grounding six defining properties намеренная строгость дал шесть defining properties embedded professional context single profession specialization augmentation not replacement external communications mass replication recognition burden это категориальная строгость все шесть должны быть иначе система falls into different category эта строгость полезна потому что помогает differentiation других типов делает category боеспособной для продакшена прорезывает hype вокруг for если кто продаёт professional colleague agent коммуницирует третьими лицами имени практика это type это что другое distinction matters section concrete pilot proposal отличие representative agent layer который оставался абстрактном уровне этот документ имеет section pilot proposal sgb advocate colleague это конкретный target practitioner cohort sgb lawyers advocates конкретный burden addressed widerspruch klage stellungnahme drafting конкретные knowledge base requirements sgb xii bsg decisions конкретные resource requirements year annually конкретный rollout advocates это executable plan vision foundation funder reading this can evaluate concrete commitment sequencing recommendation important strategic point section delicate сделал важное strategic correction this sequencing differs from what representative agent layer paper proposed reflection the обучай case suggests type better starting point both because more deployable and because builds the trust base necessary for type это переосмысление previous strategy representative agent layer paper предлагал phase knowledge workers domain первым domain это representative agent applications этот документ говорит сначала professional colleague agents потом representative agents это better sequence потому что type имеет proven adoption pattern обучай type проще для funders понять одобрить type строит trust для последующего deployment type type экономически viable независимо type okwf strategy with this update sgb advocate colleague pilot first demonstrate value then expand toward representative agents risk section honest section identified семь специфических рисков type только повторённых других papers особенно важные mediation collapse учитель ученик оба используют где обучение самый цитированный public concern skill atrophy junior practitioners standardization lock профессии profession capture одним provider эти честные acknowledgments strengthen документ потому что показывают thoughtful design uncritical advocacy appendix actual technical sketch включил appendix конкретной архитектурной зарисовкой для sgb advocate colleague stack knowledge base structure generation pattern",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 2007,
+    "path": "docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md"
+  }
+}

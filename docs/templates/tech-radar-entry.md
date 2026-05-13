@@ -13,6 +13,21 @@ tags: [tech-radar, оценка-технологий]
 
 # Tech Radar: [Название]
 
+<!-- summary -->
+> `tech-radar-entry` — раздел документации проекта Lorenzo.
+
+
+<!-- toc-auto -->
+## Содержание
+
+- [Основной раздел](#основной-раздел)
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 
 <!-- summary: Что это и почему здесь — кратко -->
 <!-- tags: tech-radar, оценка-технологий -->
@@ -79,6 +94,39 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template tech-radar-entry --output docs/new-doc.md
+```
+
+## Смотрите также
 - [TECH_RADAR.md](../TECH_RADAR.md)
-- [decision-record](docs/templates/decision-record.md)
+- [decision-record](decision-record.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [mega-stack](mega-stack.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [tech-radar-entry](../obsidian/templates/tech-radar-entry.md) (сходство 0.91)
+- [glossary-entry](glossary-entry.md) (сходство 0.39)
+- [faq-entry](faq-entry.md) (сходство 0.38)
+

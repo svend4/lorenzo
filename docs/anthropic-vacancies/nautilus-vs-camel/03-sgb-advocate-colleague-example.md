@@ -1,10 +1,26 @@
 # Конкретный пример: SGB Advocate Colleague на этой архитектуре
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -69,11 +85,34 @@ MCP interoperability
 
 ---
 
-**Смотрите также:**
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
-- [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Конкретный пример SGB Advocate"
+```
+
+## Смотрите также
+- [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [09-federated-platform](../../habr-unique-projects/extra-examples/09-federated-platform.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+- [02-what-info-repos-contain](02-what-info-repos-contain.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [05-what-to-do-right-now](05-what-to-do-right-now.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -81,7 +120,7 @@ MCP interoperability
 ---
 
 **Похожие документы:**
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.24)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.23)
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.20)
+- [03-sgb-advocate-colleague-example](../../obsidian/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md) (сходство 0.95)
+- [08-personal-multi-agent-hub](../../obsidian/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.30)
+- [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.29)
 

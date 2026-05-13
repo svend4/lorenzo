@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:356578e9d580a181",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:56ffd972236af95e",
+  "payload": {
+    "title": "Безопасность, приватность и бюджетный роутинг",
+    "summary": "title: \"Безопасность, приватность и бюджетный роутинг\"",
+    "body": "безопасность приватность бюджетный роутинг абстракт авто проблема третьих auto router litellm позволяют скрыть провайдерную сложность единым api rlm toolkit прямо формализует budget first privacy first конфигурации подход при таком подходе дорогая модель перестаёт быть двигателем всего становится дорогим редким specialist step результат первых memory показывает что extraction высокий reasoning всегда полезен может ломать schema discipline ключевые слова svyazi search memory только privacy security нужен модель статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено tip этот документ описывает mvp подход начните него для быстрого прототипа для svyazi svyazi безопасная архитектура добавить сканер конце самого начала считать skills mcp mcp servers импорты документов memory writes потенциально недоверенными это паранойя проекты svyazi agentfs agentfs factory agent memory mcp sentinel sentinel litellm auto router tool search безопасность приватность бюджетный роутинг для svyazi безопасная архитектура добавить сканер конце самого начала считать skills mcp servers импорты документов memory writes потенциально недоверенными это паранойя прямой вывод материалов про prompt worms катастрофы автономных агентов практик защиты factory sentinel дополнительный важный сигнал сами reference mcp servers указываются как образовательные примеры production готовые решения значит прод политики доступа аудит нужно строить отдельно cite turn view turn view turn search turn view turn search что стоит зафиксировать как default policy контроль практический дефолт основание разделение tool классов умолчанию разрешать read only tools любые send write delete execute только через явный approval автономный агент отличается чатбота именно доступом реальным действиям это создаёт катастрофы cite turn view quarantine для external skills mcp любой внешний skill mcp сначала sandbox потом статический репутационный скан потом allowlist factory прямо предупреждает prompt injection skill запускает двухуровневый security scan cite turn search path allowlist жёстко ограничить что агент вообще может читать писать диске agent memory mcp демонстрирует хороший паттерн path guard allowlist против traversal выхода пределы проекта cite turn view pii pii separation любые контакты email telegram ссылки отдельном raw слое карточки уходит только очищенный профиль так делает svyazi это правильный privacy baseline для людей сообществ cite turn search truth proposal inferred weak signals писать сразу истину ставить pending review svyazi более тяжёлые memory системы сходятся нужде review контуре cite turn search turn search runtime firewall между агентом mutating tools держать специализированный защитный слой именно для этого нужен sentinel подобный слой только умный промпт cite turn view точки зрения приватности лучший режим для первых версий local first default cloud exception голос стенограммы первичные профили внутренние документы memory база должны оставаться локально облако есть смысл отправлять только самые сложные этапы где действительно нужен дорогой reasoning такой подход уже поддерживают локальные voice пайплайны agentfs knowledge workspace подходы budget privacy режимы rlm toolkit cite turn view turn search turn view turn view практичный бюджетный роутинг моделей этап дефолт когда эскалировать extraction свободного текста локальная или дешёвая модель строгая schema guidance только если extraction quality стабильно проваливает ваши acceptance tests нормализация детерминированный код практически никогда переводить это дорогую модель retrieval rerank non llm llm hybrid retrieval или локальный reranker при multi hop вопросах слабой explainability объяснение матча summary средний облачный tier если нужен высокий stylistic quality только фактология финальный внешний отчёт сильная модель только для user facing public legal style текста ночной ресёрч оптимизация autoresearch подход жёстким бюджетом rollback когда уже есть benchmark понятная функция качества эта схема опирается сразу несколько наблюдений найденных источников первых memory показывает что extraction высокий reasoning всегда полезен может ломать schema discipline вторых tool search снижает context tax ещё начала работы третьих auto router litellm позволяют скрыть провайдерную сложность единым api rlm toolkit прямо формализует budget first privacy first конфигурации cite turn view turn view turn view turn search turn view практически это означает следующее если нужен самый дешёвый режим запускать extraction indexing basic memory локальной модели облако отправлять только ambiguous ranking финальное объяснение если нужен самый приватный режим использовать локальные модели gateway только как внутренний abstraction layer если нужен самый качественный режим оставить локально retrieval memory премиум модель включать только объяснение конфликт resolution сложные relation queries при таком подходе дорогая модель перестаёт быть двигателем всего становится дорогим редким specialist step cite turn view turn view turn search похожие документы intro part security privacy security privacy сходство план прототипа возможные контакты сходство intro part mvp planning mvp planning сходство смотрите также intro part security privacy security privacy план прототипа возможные контакты приоритетные ансамбли intro part mvp planning mvp planning mcp model context protocol протокол для инструментов llm large language model большая языковая модель pii personally identifiable information персональные данные agentfs oss проект файловая система для агентов mit sentinel oss проект безопасность allowlist для mcp svyazi главный проект экосистема компонентов",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "AI Factory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch"
+    ],
+    "wc": 900,
+    "path": "docs/obsidian/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md"
+  }
+}

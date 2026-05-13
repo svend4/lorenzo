@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:6584b71ed63d068b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/NETWORK.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/GRAPH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ENTITIES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/GLOSSARY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/MINDMAP.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:92e252f2a2b8ce0e",
+  "payload": {
+    "title": "Сеть проектов и авторов",
+    "summary": "",
+    "body": "сеть проектов авторов узлов связей топ упоминаемых пар пара общих файлов cowork ingit svyazi yodoca svyazi ngt yodoca ngt svyazi cardindex svyazi agentfs agentfs ngt cardindex ngt agentfs yodoca svyazi knowledge space svyazi lorenzo cardindex agentfs cardindex yodoca svyazi memnet svyazi mclaude cowork lorenzo svend svyazi rufler agentfs knowledge space ngt knowledge space ingit lorenzo svend центральность узлов влиятельность узел балл центральности тип svyazi проект ngt проект yodoca проект cardindex проект agentfs проект knowledge space проект rufler проект mclaude проект liteparse проект memnet проект lorenzo проект sentinel проект андрей kksudo автор factory проект lorenzo svend автор ingit проект cowork проект виталий spbmolot автор wikontic проект firecrawl проект авторы проекты андрей kksudo svyazi agentfs yodoca ngt knowledge space lorenzo cardindex ingit виталий spbmolot svyazi ngt yodoca knowledge space agentfs lorenzo cardindex ingit lorenzo svend cowork ingit memnet svyazi lorenzo ngt cardindex yodoca",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "SENTINEL",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 414,
+    "path": "docs/NETWORK.md"
+  }
+}

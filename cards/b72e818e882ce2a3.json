@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:b72e818e882ce2a3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/55-passports-meta-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:a1fac19cbc928b7e",
+  "payload": {
+    "title": "15. Glossary of Examples",
+    "summary": "В качестве иллюстраций используется экосистема `svend4` с тремя",
+    "body": "glossary examples качестве иллюстраций используется экосистема svend тремя похожие документы glossary reference examples glossary reference examples сходство passports meta passports meta сходство passports info интегральный анализ профиля svend docs anthropic vacancies passports info сходство смотрите также glossary reference examples glossary reference examples passports meta passports meta passports info интегральный анализ профиля svend docs anthropic vacancies passports info passports pro интегральный анализ профиля svend docs anthropic vacancies passports pro кто ссылается этот документ reference implementation reference implementation passports info passports info passports pro passports pro angle perspective angle perspective passports meta passports meta angle perspective angle perspective проекте проекте readme readme",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 126,
+    "path": "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md"
+  }
+}

@@ -1,10 +1,26 @@
 # Du hast gesagt: Ещё есть такие вопросы то есть если общие юридические Наутилус м…
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — многоуровневая архитектура: общая база ↔ приватные подключения.
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -21,11 +37,35 @@ Du hast gesagt: Ещё есть такие вопросы то есть если
 
 ---
 
-**Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
-- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Ещё есть такие вопросы"
+```
+
+## Смотрите также
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-agent-changes-reality](../community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-two-nautiluses](../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-agent-changes-reality](../community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -33,7 +73,7 @@ Du hast gesagt: Ещё есть такие вопросы то есть если
 ---
 
 **Похожие документы:**
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.26)
-- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.24)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.22)
+- [00-question-multi-tier](../../obsidian/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.93)
+- [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.38)
+- [00-question-camel-vs-nautilus](../../obsidian/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.34)
 

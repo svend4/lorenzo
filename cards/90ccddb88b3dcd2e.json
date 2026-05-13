@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:90ccddb88b3dcd2e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/09-consensus-algorithm.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/84-9-consensus-algorithm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/08-consensus-algorithm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/20-8-consensus-algorithm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/11-relevance-ranking.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:ed86712f7c086a64",
+  "payload": {
+    "title": "9. Consensus Algorithm",
+    "summary": "При query через portal, когда результаты возвращаются из нескольких",
+    "body": "consensus algorithm источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также consensus algorithm anthropic vacancies consensus algorithm consensus algorithm npp consensus algorithm consensus algorithm anthropic vacancies consensus algorithm relevance ranking relevance ranking",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 343,
+    "path": "docs/nautilus/npp-v1-1/09-consensus-algorithm.md"
+  }
+}

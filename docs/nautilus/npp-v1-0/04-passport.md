@@ -1,6 +1,24 @@
 # 4. Passport (`passport.md`)
 
+<!-- toc-auto -->
+## Contents
+
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Recommended Structure](#42-recommended-structure)
+  - [4.3. Multilingual Support](#43-multilingual-support)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
@@ -64,12 +82,26 @@ English. Рекомендуется формат с параллельными �
 
 ---
 
+_Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [16-history](docs/obsidian/02-anthropic-vacancies/16-history.md) (сходство 0.37)
-- [16-history](docs/02-anthropic-vacancies/16-history.md) (сходство 0.33)
-- [09-4-passport-passport-md](docs/obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.28)
+- [04-passport](../../obsidian/nautilus/npp-v1-0/04-passport.md) (сходство 0.98)
+- [09-4-passport-passport-md](../../02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.37)
+- [09-4-passport-passport-md](../../obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.36)
 

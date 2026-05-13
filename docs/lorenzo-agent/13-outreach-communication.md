@@ -1,10 +1,27 @@
 # Твоя коммуникация в outreach
 
+<!-- toc-auto -->
+## Contents
+
+- [Твоя коммуникация в outreach](#твоя-коммуникация-в-outreach)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -37,11 +54,34 @@
 
 ---
 
-**Смотрите также:**
-- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
-- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [03-tvoya-missiya](docs/lorenzo-agent/03-tvoya-missiya.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твоя коммуникация в outreach"
+```
+
+## Смотрите также
+- [357-твоя-коммуникация-в-outreach](../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [04-q4-character](specification/04-q4-character.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [03-tvoya-missiya](03-tvoya-missiya.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [357-твоя-коммуникация-в-outreach](../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [04-q4-character](specification/04-q4-character.md)
 
 
 <!-- similar-docs -->
@@ -49,7 +89,7 @@
 ---
 
 **Похожие документы:**
-- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.82)
-- [357-твоя-коммуникация-в-outreach](docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.76)
-- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md) (сходство 0.24)
+- [13-outreach-communication](../obsidian/lorenzo-agent/13-outreach-communication.md) (сходство 0.97)
+- [357-твоя-коммуникация-в-outreach](../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.83)
+- [357-твоя-коммуникация-в-outreach](../obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.82)
 

@@ -1,5 +1,23 @@
 # Claude hat geantwortet: Прочитаю статью, чтобы понимать конкретный кейс, на кото…
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -337,12 +355,49 @@ Roadmap для гильдийных коллег в OKWF
 
 Хотите, чтобы я написал этот sixth paper в следующем сообщении, или предпочтёте другое направление? Возможные альтернативы: проработать конкретный design Профессионального Коллеги для SGB-domain (более applied), переосмыслить OKWF concept document с новой типологией, или просто остановиться и дать материалу отлежаться.
 
+<!-- see-also -->
+
+---
+
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Прочитаю статью ч"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Прочитаю статью ч" --mode bm25
+```
+
+## Смотрите также
+- [00-question-habr-2](00-question-habr-2.md)
+- [12-zaklyuchenie](../../representative-agent-layer-ru/12-zaklyuchenie.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](../../../02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [02-what-was-missing-in-paper-6](../../composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [12-zaklyuchenie](docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 0.62)
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/obsidian/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) (сходство 0.49)
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) (сходство 0.49)
+- [01-response](../../../obsidian/nautilus/community-discussions/habr-article-2-reaction/01-response.md) (сходство 0.99)
+- [12-zaklyuchenie](../../representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 0.62)
+- [12-zaklyuchenie](../../../obsidian/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 0.62)
 

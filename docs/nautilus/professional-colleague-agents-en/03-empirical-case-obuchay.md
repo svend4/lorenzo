@@ -1,11 +1,20 @@
 # 3. Empirical Case Study: «Обучай»
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [3. Empirical Case Study: «Обучай»](#3-empirical-case-study-обучай)
@@ -171,11 +180,30 @@ unchanged remains to be measured.
 
 ---
 
-**Смотрите также:**
-- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
-- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [09-relationship-other-agents](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Empirical Case Study Обучай"
+```
+
+## Смотрите также
+- [214-3-empirical-case-study-обучай](../../02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+- [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -183,7 +211,7 @@ unchanged remains to be measured.
 ---
 
 **Похожие документы:**
-- [214-3-empirical-case-study-обучай](docs/obsidian/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) (сходство 0.90)
-- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) (сходство 0.87)
-- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md) (сходство 0.20)
+- [03-empirical-case-obuchay](../../obsidian/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md) (сходство 0.99)
+- [214-3-empirical-case-study-обучай](../../obsidian/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) (сходство 0.87)
+- [214-3-empirical-case-study-обучай](../../02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) (сходство 0.87)
 

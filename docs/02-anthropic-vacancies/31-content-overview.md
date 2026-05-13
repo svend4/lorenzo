@@ -1,6 +1,29 @@
 # Content Overview
 
+<!-- toc-auto -->
+## Contents
+
+- [Content Overview](#content-overview)
+- [Похожие документы](#похожие-документы)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 > ~200 заметок, темы: software engineering, philosophy, music.
 
 ---
@@ -16,7 +39,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [12-content-overview](12-content-overview.md) (сходство 0.21)
 
 <!-- backlinks-auto -->
@@ -58,9 +81,33 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Content Overview"
+```
+
+## Смотрите также
 - [12-content-overview](12-content-overview.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
-- [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
+- 304-[ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
+- [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
+- _...ещё 3_
+
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

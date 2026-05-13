@@ -1,11 +1,27 @@
 # Пара 4 — Speech-to-text локально × LLM с памятью
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Yodoca, NGT Memory, MemNet, Whisper
 
 ---
 <!-- tags: memory, local-first, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +44,33 @@ Discovery-loop через voice journal — каждый вечер пять м�
 
 ---
 
-**Смотрите также:**
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
-- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 4 Speech to text локально LLM с"
+```
+
+## Смотрите также
+- [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md)
+- 5-tinyml-[mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
+- [3-discovery-research](../final-ensembles/3-discovery-research.md)
+- [6-metaphor](6-metaphor.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md)
+- [3-discovery-research](../final-ensembles/3-discovery-research.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -40,7 +78,7 @@ Discovery-loop через voice journal — каждый вечер пять м�
 ---
 
 **Похожие документы:**
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.42)
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.20)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.18)
+- [4-speech-to-text-llm](../../obsidian/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.95)
+- [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md) (сходство 0.45)
+- [5-voice-local-memory](../../obsidian/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.44)
 

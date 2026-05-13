@@ -2,7 +2,7 @@
 title: "Closing"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Closing
@@ -36,7 +36,7 @@ date: 2026-04-29
   - [Три стратегии использования этого документа](#три-стратегии-использования-этого-документа)
   - [Что я бы сделал следующим](#что-я-бы-сделал-следующим)
   - [Final observation](#final-observation)
-  - [Что описывает статья — суть проекта Svyazi](#что-описывает-статья-суть-проекта-[svyazi](../docs/01-svyazi/00-intro-part2.md))
+  - [Что описывает статья — суть проекта Svyazi](#что-описывает-статья-суть-проекта-svyazi)
   - [Прямые параллели с вашей работой](#прямые-параллели-с-вашей-работой)
   - [Что у Андрея отличается от вашей архитектуры](#что-у-андрея-отличается-от-вашей-архитектуры)
   - [Что конкретно можно взять из проекта Свйази в вашу работу](#что-конкретно-можно-взять-из-проекта-свйази-в-вашу-работу)
@@ -47,7 +47,7 @@ date: 2026-04-29
   - [Цитата из статьи Андрея](#цитата-из-статьи-андрея)
   - [Ландшафт того, чтоуже существует— и где именно ниша Свйази](#ландшафт-того-чтоуже-существует-и-где-именно-ниша-свйази)
   - [Что яне нашёлв существующих решениях — гдеуникальная ниша Свйази](#что-яне-нашёлв-существующих-решениях-гдеуникальная-ниша-свйази)
-  - [Что это значит для проекта OKWF и Nautilus](#что-это-значит-для-проекта-okwf-и-[nautilus](../docs/05-habr-projects/memory/memnet.md))
+  - [Что это значит для проекта OKWF и Nautilus](#что-это-значит-для-проекта-okwf-и-nautilus)
   - [Самый интересный вопрос — могут ли быть voiceless контрибьюторы](#самый-интересный-вопрос-могут-ли-быть-voiceless-контрибьюторы)
   - [Honest assessment ниши](#honest-assessment-ниши)
   - [Конкретные рекомендации к действию](#конкретные-рекомендации-к-действию)
@@ -554,7 +554,7 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[CONCEPTS]] (сходство 0.18)
 - [[150-appendix-c-version-history]] (сходство 0.18)
 - [[ACTION_ITEMS]] (сходство 0.18)
@@ -564,7 +564,33 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Closing"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Closing" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Closing" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "Closing" --mode full --top 15
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Closing" --mode bm25 --top 5
+```
+
+## Смотрите также
 - [[CONCEPTS]]
 - [[150-appendix-c-version-history]]
 - [[ACTION_ITEMS]]
@@ -594,3 +620,19 @@ Story тверже становится. «Infrastructure для distributed wor
 
 - [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] _25%_
 - [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[133-обратная-связь]]
+- [[150-appendix-c-version-history]]
+- [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а]]
+- [[272-appendix-d-connection-diagram]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- [[342-что-такое-вариант-c-concept-document-для-anthropic]]
+- [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи]]
+- _...ещё 1_
+

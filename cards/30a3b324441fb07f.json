@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:30a3b324441fb07f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/naming/03-dhlab-umbrella.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-en/10-strategic-positioning.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:51df916f5d9a528d",
+  "payload": {
+    "title": "Сложности и рекомендации перед detailed specification",
+    "summary": "Прежде чем переходим к detailed specification, вижу несколько difficulties которые нужно address:",
+    "body": "сложности рекомендации перед detailed specification important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин проекты cardindex смотрите также dhlab umbrella naming dhlab umbrella что такое вариант concept document для anthropic anthropic vacancies что такое вариант concept document для anthropic appendix sample ingit mcp server tool specificat anthropic vacancies appendix sample ingit mcp server tool specificat strategic positioning nautilus ingit cowork strategic positioning",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 1408,
+    "path": "docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md"
+  }
+}

@@ -1,5 +1,12 @@
 # Profession-specific workflows
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -64,11 +71,34 @@ Time to MVP: 3-6 месяцев focused work.
 
 ---
 
-**Смотрите также:**
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
-- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Profession specific workflows"
+```
+
+## Смотрите также
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [09-federated-platform](09-federated-platform.md)
+- [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
+- [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-hw-nl2workflow](05-hw-nl2workflow.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [09-federated-platform](09-federated-platform.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -76,7 +106,7 @@ Time to MVP: 3-6 месяцев focused work.
 ---
 
 **Похожие документы:**
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.27)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.27)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.25)
+- [10-profession-specific-workflows](../../obsidian/habr-unique-projects/extra-examples/10-profession-specific-workflows.md) (сходство 0.97)
+- [09-federated-platform](09-federated-platform.md) (сходство 0.29)
+- [09-federated-platform](../../obsidian/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.29)
 

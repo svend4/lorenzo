@@ -4,12 +4,53 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # The Missing Middle Layer Between Chat and Code
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [The Missing Middle Layer Between Chat and Code](#the-missing-middle-layer-between-chat-and-code)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (15)](#кто-ссылается-на-этот-документ-15)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [The Missing Middle Layer Between Chat and Code](#the-missing-middle-layer-between-chat-and-code)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+- [Кто ссылается на этот документ (15)](#кто-ссылается-на-этот-документ-15)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Document type:** Inquiry paper, not architectural specification
 
 ---
@@ -48,9 +89,9 @@ applied work demonstrated its absence
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.42)
-- [[306-with-anthropic-s-cowork-platform]] (сходство 0.39)
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]] (сходство 0.39)
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.38)
 
 
@@ -58,9 +99,15 @@ applied work demonstrated its absence
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Missing Middle Layer Between Chat"
+```
+
+## Смотрите также
 - [[251-ai-support-through-configurable-specialist-ensembl]]
-- [[306-with-anthropic-s-cowork-platform]]
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[167-ai-mediated-representation-for-underrepresented-ex]]
 
@@ -107,3 +154,19 @@ applied work demonstrated its absence
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _37%_
 - [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _37%_
 - [[268-references|References]] _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (15)
+- [[137-table-of-contents]]
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[182-acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[224-acknowledgments]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- _...ещё 7_
+

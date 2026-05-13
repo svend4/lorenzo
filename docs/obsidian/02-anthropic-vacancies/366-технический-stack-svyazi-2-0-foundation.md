@@ -2,7 +2,7 @@
 title: "Технический stack (Svyazi 2.0 foundation)"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Технический stack (Svyazi 2.0 foundation)
@@ -30,10 +30,10 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-20-foundation)
+- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-svyazi-20-foundation)
   - [Анализ конкретных компонентов из документа (новых для нас)](#анализ-конкретных-компонентов-из-документа-новых-для-нас)
   - [Synthesizing с нашим existing landscape](#synthesizing-с-нашим-existing-landscape)
-  - [Strategic implications для Lorenzo](#strategic-implications-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md))
+  - [Strategic implications для Lorenzo](#strategic-implications-для-lorenzo)
   - [Конкретные next steps](#конкретные-next-steps)
   - [Ключевые вопросы к вам](#ключевые-вопросы-к-вам)
   - [Что это за документ — диагностика](#что-это-за-документ-диагностика)
@@ -569,7 +569,7 @@ Wiederholen
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[11-интеграционный-контракт-который-стоит-зафиксироват]] (сходство 0.19)
 - [[11-integration-contracts]] (сходство 0.19)
 - [[09-архитектурные-зазоры-которые-важнее-новых-инструме]] (сходство 0.12)
@@ -579,7 +579,7 @@ Wiederholen
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[11-интеграционный-контракт-который-стоит-зафиксироват]]
 - [[11-integration-contracts]]
 - [[09-architectural-gaps]]
@@ -604,3 +604,13 @@ Wiederholen
 ## Связанные документы
 
 - [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[364-final-note-ты-experiment]]
+- [[365-развёрнутый-анализ-внуковой-комбинации]]
+- [[README]]
+

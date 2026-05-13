@@ -1,5 +1,10 @@
 # 4. Nautilus Portal as Reference Substrate
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Double-Triangle Architecture requires a substrate capable of:
 
 ---
@@ -18,10 +27,10 @@
 <!-- toc -->
 ## Содержание
 
-- [4. Nautilus Portal as Reference Substrate](#4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate)
+- [4. Nautilus Portal as Reference Substrate](#4-nautilus-portal-as-reference-substrate)
   - [4.1. NPP Components Mapped to Double-Triangle Requirements](#41-npp-components-mapped-to-double-triangle-requirements)
   - [4.2. Required Extensions to NPP for Double-Triangle](#42-required-extensions-to-npp-for-double-triangle)
-  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-[nautilus](../docs/05-habr-projects/memory/memnet.md)-reference-implementation)
+  - [4.3. Empirical Evidence from Nautilus Reference Implementation](#43-empirical-evidence-from-nautilus-reference-implementation)
 
 ---
 
@@ -50,7 +59,7 @@ space. In Double-Triangle, each assistant can read and write
 through the same adapter mechanism used by any participant, 
 providing uniform cross-triangle access.
 
-**[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) structure** (NPP) = unified unit of knowledge. In 
+**[PortalEntry](01-интегральный-анализ-профиля-svend4.md) structure** (NPP) = unified unit of knowledge. In 
 Double-Triangle, this represents tasks, deliverables, context 
 updates, and notifications uniformly, enabling a single mechanism 
 for all inter-layer communication.
@@ -110,10 +119,10 @@ As of 2026-04:
 
 - 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy 
   errors
-- 7 knowledge repositories federated (info1, [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), meta, data2, 
+- 7 knowledge repositories federated (info1, [pro2](01-интегральный-анализ-профиля-svend4.md), meta, data2, 
   data7, infosystems, ai_agents)
 - 5 extended adapters enabling federation of external sources 
-  (Obsidian vaults, arXiv papers, [GitHub](../docs/01-svyazi/03-component-catalog.md)-topic repos, JSONL files, 
+  (Obsidian vaults, arXiv papers, [GitHub](../01-svyazi/03-component-catalog.md)-topic repos, JSONL files, 
   self-declaring repos via AutoAdapter)
 - Zero external dependencies (Python stdlib only)
 - Full REST API, MCP wrapper, OpenAPI specification, Docker 
@@ -129,7 +138,7 @@ Double-Triangle deployments.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.20)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.17)
 - [136-abstract](136-abstract.md) (сходство 0.17)
@@ -139,7 +148,13 @@ Double-Triangle deployments.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Nautilus Portal as Reference Substrate"
+```
+
+## Смотрите также
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
 - [136-abstract](136-abstract.md)
@@ -189,3 +204,19 @@ Double-Triangle deployments.
 - [Appendix C: References](104-appendix-c-references.md) _25%_
 - [4. Proposed Infrastructure](158-4-proposed-infrastructure.md) _25%_
 - [13. Reference Implementation](25-13-reference-implementation.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [136-abstract](136-abstract.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- _...ещё 3_
+

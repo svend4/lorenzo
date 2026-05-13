@@ -3,7 +3,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [5. Economic Model](#5-economic-model)
   - [5.1. Budget Philosophy](#51-budget-philosophy)
   - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
@@ -20,16 +19,6 @@
 > 🔧 **Подход:** --- --- Похожие документы: - 161-7-phased-rollout-plan(docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.18) - 158-4-proposed-infrastructure(docs/02-anthropic-v
 > 🏷️ **Ключевые слова:** `contributor`, `anthropic`, `month`, `vacancies`, `budget`, `total`, `funding`, `infrastructure`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [5. Economic Model](#5-economic-model)
-  - [5.1. Budget Philosophy](#51-budget-philosophy)
-  - [5.2. Three-Year Pilot Budget (Estimated)](#52-three-year-pilot-budget-estimated)
-  - [5.3. Funding Strategy](#53-funding-strategy)
-  - [5.4. Contributor Economics](#54-contributor-economics)
 
 
 > [!TIP]
@@ -152,19 +141,36 @@ to minimum dignity threshold; upward is merit-based.
 
 ---
 
-**Похожие документы:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.18)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.16)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.15)
+## Похожие документы
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.18)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Economic Model"
+```
+
+## Смотрите также
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [README](README.md)
 

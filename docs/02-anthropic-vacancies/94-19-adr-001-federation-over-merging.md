@@ -1,6 +1,29 @@
 # 19. ADR-001: Federation over Merging
 
+<!-- toc-auto -->
+## Contents
+
+- [19. ADR-001: Federation over Merging](#19-adr-001-federation-over-merging)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Status**: Accepted (since v1.0, reaffirmed in v1.1)
 
 ---
@@ -48,7 +71,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md) (сходство 0.89)
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.11)
 
@@ -57,7 +80,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "19 ADR 001 Federation over Merging"
+```
+
+## Смотрите также
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
@@ -87,3 +116,13 @@
 - [14. ADR-001: Federation over Merging](26-14-adr-001-federation-over-merging.md) _37%_
 - [20. ADR-002: Q6 as First-Class Protocol Concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) _33%_
 - [1. Introduction](06-1-introduction.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](README.md)
+

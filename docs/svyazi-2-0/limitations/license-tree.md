@@ -1,5 +1,13 @@
 # Лицензионные развилки
 
+<!-- toc-auto -->
+## Contents
+
+- [Развилки в коротком виде](#развилки-в-коротком-виде)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -35,11 +43,33 @@
 
 ---
 
-**Смотрите также:**
-- [14-limitations](docs/01-svyazi/14-limitations.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
-- [risks](docs/svyazi-2-0/prototype/risks.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Лицензионные развилки"
+```
+
+## Смотрите также
+- [14-limitations](../../01-svyazi/14-limitations.md)
+- [executive-summary](../overview/executive-summary.md)
+- [first-contacts](../outreach/first-contacts.md)
+- [risks](../prototype/risks.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [DECISIONS](../../DECISIONS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [TECH_RADAR](../../TECH_RADAR.md)
+- [README](../../habr-unique-projects/evaluation/README.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -47,7 +77,7 @@
 ---
 
 **Похожие документы:**
-- [14-limitations](docs/01-svyazi/14-limitations.md) (сходство 0.20)
-- [14-limitations](docs/obsidian/01-svyazi/14-limitations.md) (сходство 0.20)
-- [MINDMAP](docs/MINDMAP.md) (сходство 0.19)
+- [license-tree](../../obsidian/svyazi-2-0/limitations/license-tree.md) (сходство 0.95)
+- [14-limitations](../../01-svyazi/14-limitations.md) (сходство 0.21)
+- [14-limitations](../../obsidian/01-svyazi/14-limitations.md) (сходство 0.21)
 

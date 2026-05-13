@@ -1,5 +1,18 @@
 # Оценка стоимости MVP
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `COST` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: cost, docs -->
+
+
+<!-- summary -->
+> `COST` — раздел документации проекта Lorenzo.
+
+
 _Ориентировочные цифры на основе документации проекта._
 
 ## Итого
@@ -55,6 +68,7 @@ _Минимальный сценарий: open source + личное время 
 | Источник | Контекст | Недель |
 |----------|----------|--------|
 | `365-развёрнутый-анал` | Макс) и part-time, реальный timeline 12-24 месяца для full a… | 96 |
+| `12-roadmap` | ] > Дорожная карта проекта — план на 12-18 месяцев.  <!-- al… | 72 |
 | `343-lorenzo-catalyst` | рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс… | 72 |
 | `365-развёрнутый-анал` | eam. С solo developer (Макс) и part-time, реальный timeline … | 72 |
 | `ACTION_ITEMS` | обратная-связь_ - 5: Burnout. Проект 12-18 месяцев для singl… | 72 |
@@ -70,3 +84,42 @@ _Минимальный сценарий: open source + личное время 
 - Open Source компоненты: бесплатны
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_cost.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SCHEDULE](SCHEDULE.md)
+- [SCORING](SCORING.md)
+- [SUMMARIES](SUMMARIES.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+

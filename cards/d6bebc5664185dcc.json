@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:d6bebc5664185dcc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/05-0-status-of-this-document.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/75-0-status-of-this-document.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/62-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/164-10-appendices.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/24-12-versioning-policy.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:d56cc81f800e28dc",
+  "payload": {
+    "title": "0. Status of This Document",
+    "summary": "Этот документ — рабочий черновик Nautilus Portal Protocol v1.0. Он может",
+    "body": "status this document этот документ рабочий черновик nautilus portal protocol может похожие документы status this document status this document сходство portal protocol portal protocol сходство author contact author contact сходство смотрите также status this document status this document author contact author contact author contact author contact portal protocol portal protocol упоминается status this document status this document appendices appendices versioning policy versioning policy reference implementation reference implementation versioning policy versioning policy reference implementation reference implementation реализация проекте nautilus реализация проекте nautilus abstract abstract abstract abstract appendix sample use cases detail appendix sample use cases detail author contact author contact author contact author contact content overview content overview for the curious philosophy for the curious philosophy history history portal protocol portal protocol portal protocol portal protocol readme mcp инструкция установке readme mcp инструкция установке благодарности благодарности вакансии anthropic анализ кластерам readme примеры запросов claude примеры запросов claude ссылки ссылки section упоминается вакансии anthropic анализ кластерам readme связанные документы status this document status this document reference implementation reference implementation author contact author contact reference implementation reference implementation author contact author contact content overview content overview versioning policy versioning policy history history связанные документы status this document status this document author contact author contact author contact author contact reference implementation reference implementation reference implementation reference implementation примеры запросов claude примеры запросов claude versioning policy versioning policy content overview content overview кто ссылается этот документ portal protocol portal protocol abstract abstract readme mcp инструкция установке readme mcp инструкция установке примеры запросов claude примеры запросов claude nautilus portal reference substrate nautilus portal reference substrate appendices appendices appendix sample use cases detail appendix sample use cases detail благодарности благодарности ещё",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 325,
+    "path": "docs/02-anthropic-vacancies/05-0-status-of-this-document.md"
+  }
+}

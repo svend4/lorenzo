@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:6bcc905a1ca6d62a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/12-roadmap.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/14-limitations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/07-выводы.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/NARRATIVE.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:45480d155be3fd3b",
+  "payload": {
+    "title": "Дорожная карта прототипа следующей итерации",
+    "summary": "Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить контракт и доказуемость. Вторая — добавить controlled memory и human review. Третья — подключить or",
+    "body": "дорожная карта прототипа следующей итерации абстракт авто проблема тут нужно решить прежде всего какая память умнее какая licence policy лучше подходит подход это хорошая новость такую архитектуру можно собрать без огромной команды если самого начала дисциплинировать стыки результат эта фаза даёт уже очень ценный эффект объяснимые suggestions вместо магического мэтчинга ключевые слова svyazi итерации memory first evidence local roadmap дорожная статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено tip этот документ описывает mvp подход начните него для быстрого прототипа если идти дальше после базового mvp лучшая стратегия добавить всё пройти три короткие итерации каждая которых поднимает один новый класс свойств первая итерация должна закрепить проекты svyazi svyazi mclaude factory yodoca yodoca ngt ngt memory похожие документы roadmap svyazi roadmap сходство limitations svyazi limitations сходство выводы выводы сходство смотрите также roadmap svyazi roadmap limitations svyazi limitations narrative narrative выводы выводы crdt conflict free replicated data type бесконфликтные данные yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl svyazi главный проект экосистема компонентов bsl business source license коммерческая лицензия открытым кодом",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 787,
+    "path": "docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md"
+  }
+}

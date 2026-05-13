@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:ac1b3a9ca191615f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/16-mcp-extension.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:4119c5e70eabf59c",
+  "payload": {
+    "title": "Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы …",
+    "summary": "Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы типа:",
+    "body": "что даёт вам практике через mcp claude desktop может ответить запросы источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога применение npp гуманитарным документам юридические социальные смотрите также what doesnt exist market what doesnt exist market which combination more valuable which combination more valuable section sgb pilot anthropic vacancies beneficial deployments concept section sgb pilot mcp extension npp mcp extension",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 219,
+    "path": "docs/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md"
+  }
+}

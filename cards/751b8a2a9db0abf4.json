@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:751b8a2a9db0abf4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/48-content-overview.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/53-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/52-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/62-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/05-0-status-of-this-document.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/12-content-overview.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:e5bd1f55e21fa953",
+  "payload": {
+    "title": "Content Overview",
+    "summary": "1. **Концептуальная база** — [? уточнить объём: сколько концептов,",
+    "body": "content overview концептуальная база уточнить объём сколько концептов похожие документы history history сходство author contact author contact сходство passports pro интегральный анализ профиля svend docs anthropic vacancies passports pro сходство смотрите также history history author contact author contact author contact author contact author contact author contact кто ссылается этот документ status this document status this document content overview content overview примеры запросов claude примеры запросов claude reference implementation reference implementation passports info passports info author contact author contact passports pro passports pro native format native format ещё",
+    "tags": [
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 178,
+    "path": "docs/02-anthropic-vacancies/48-content-overview.md"
+  }
+}

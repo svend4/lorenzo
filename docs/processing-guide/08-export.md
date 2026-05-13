@@ -1,5 +1,43 @@
 # Обработка больших массивов — Часть 8: Экспорт и интеграции
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Куда отправить обработанную базу знаний: форматы, платформы, пайплайны.
+**Проекты:** Svyazi, Yodoca
+
+---
+
+<!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Содержание
+
+- [Зачем экспортировать?](#зачем-экспортировать)
+- [Obsidian Vault — improve_obsidian.py](#obsidian-vault-improve_obsidianpy)
+- [Confluence — improve_confluence.py](#confluence-improve_confluencepy)
+- [EPUB — improve_epub.py](#epub-improve_epubpy)
+- [RSS/Atom — improve_rss.py](#rssatom-improve_rsspy)
+- [JSON/CSV — improve_export_json.py, improve_export_csv.py](#jsoncsv-improve_export_jsonpy-improve_export_csvpy)
+- [JSONL для RAG — improve_chunk_semantic.py](#jsonl-для-rag-improve_chunk_semanticpy)
+- [HTML — improve_export_html.py](#html-improve_export_htmlpy)
+- [Карта сайта — improve_sitemap.py](#карта-сайта-improve_sitemappy)
+- [MCP-сервер — mcp_server.py](#mcp-сервер-mcp_serverpy)
+- [Сводная таблица экспортных форматов](#сводная-таблица-экспортных-форматов)
+- [Следующий шаг](#следующий-шаг)
+
+---
+
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, collaboration -->
+
+
+
+
 > Куда отправить обработанную базу знаний: форматы, платформы, пайплайны.
 
 ---
@@ -194,3 +232,34 @@ python scripts/mcp_server.py  # stdio режим
 ## Следующий шаг
 
 После экспорта → **Часть 9: Автоматизация (оркестратор, watcher, CI/CD)**
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+## Смотрите также
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [09-automation](09-automation.md)
+- [01-overview](01-overview.md)
+- [10-future](10-future.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-export](../obsidian/processing-guide/08-export.md) (сходство 0.99)
+- [01-overview](01-overview.md) (сходство 0.17)
+- [01-overview](../obsidian/processing-guide/01-overview.md) (сходство 0.17)
+

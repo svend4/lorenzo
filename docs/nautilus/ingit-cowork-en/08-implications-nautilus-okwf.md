@@ -134,11 +134,33 @@ implementable starting next week.
 
 ---
 
-**Смотрите также:**
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Implications for Nautilus and OKWF"
+```
+
+## Смотрите также
+- [316-8-implications-for-nautilus-and-okwf](../../02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [09-okwf-integration](../composite-skills-agents/09-okwf-integration.md)
+- [10-strategic-positioning](10-strategic-positioning.md)
+- [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reprioritization](../../anthropic-vacancies/hermes-comparison/13-reprioritization.md)
+- [02-what-info-repos-contain](../../anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
+- [04-what-to-take-from-info-repos](../../anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
+- [05-what-to-do-right-now](../../anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -146,7 +168,7 @@ implementable starting next week.
 ---
 
 **Похожие документы:**
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.85)
-- [316-8-implications-for-nautilus-and-okwf](docs/obsidian/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.81)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md) (сходство 0.21)
+- [08-implications-nautilus-okwf](../../obsidian/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.97)
+- [316-8-implications-for-nautilus-and-okwf](../../02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.76)
+- [316-8-implications-for-nautilus-and-okwf](../../obsidian/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.76)
 

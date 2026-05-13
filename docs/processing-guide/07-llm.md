@@ -1,5 +1,44 @@
 # Обработка больших массивов — Часть 7: LLM-обогащение
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Что может сделать языковая модель с документами, чего не может классический алгоритм.
+**Проекты:** Svyazi, AgentFS, Yodoca, NGT Memory
+
+---
+
+<!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Содержание
+
+- [Граница классики и LLM](#граница-классики-и-llm)
+- [Архитектура: 5 LLM-скриптов](#архитектура-5-llm-скриптов)
+- [improve_llm_enrich.py — обогащение файлов](#improve_llm_enrichpy-обогащение-файлов)
+- [improve_llm_qa.py — Q&A по базе знаний](#improve_llm_qapy-qa-по-базе-знаний)
+- [improve_llm_summary.py — каскадная суммаризация](#improve_llm_summarypy-каскадная-суммаризация)
+- [improve_llm_gaps.py — пробелы в документации](#improve_llm_gapspy-пробелы-в-документации)
+- [improve_llm_contact.py — персонализированные письма](#improve_llm_contactpy-персонализированные-письма)
+- [Стратегии работы с большими документами](#стратегии-работы-с-большими-документами)
+  - [Стратегия 1: Sliding Window](#стратегия-1-sliding-window)
+  - [Стратегия 2: Иерархическая суммаризация](#стратегия-2-иерархическая-суммаризация)
+  - [Стратегия 3: RAG (Retrieval-Augmented Generation)](#стратегия-3-rag-retrieval-augmented-generation)
+- [Оценка стоимости](#оценка-стоимости)
+- [Следующий шаг](#следующий-шаг)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, architecture, anthropic, self-improvement, collaboration -->
+
+
+
+
 > Что может сделать языковая модель с документами, чего не может классический алгоритм.
 
 ---
@@ -189,3 +228,34 @@ answer = llm.complete(f"На основе контекста:\n{context}\n\nВо
 ## Следующий шаг
 
 После LLM-обогащения → **Часть 8: Экспорт и интеграции**
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+## Смотрите также
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [06-search](06-search.md)
+- [10-future](10-future.md)
+- [03-chunking](03-chunking.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-llm](../obsidian/processing-guide/07-llm.md) (сходство 0.99)
+- [10-future](10-future.md) (сходство 0.17)
+- [10-future](../obsidian/processing-guide/10-future.md) (сходство 0.17)
+

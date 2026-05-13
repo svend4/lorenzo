@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:650a79d4cb6d6c7e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/55-passports-meta-md.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:aa25bdd4278ff6cc",
+  "payload": {
+    "title": "22. Glossary of Reference Examples",
+    "summary": "В качестве иллюстраций используется экосистема `svend4` с 7 Repos:",
+    "body": "glossary reference examples качестве иллюстраций используется экосистема svend repos похожие документы glossary examples glossary examples сходство passports meta passports meta сходство смотрите также glossary examples glossary examples passports meta passports meta passports info интегральный анализ профиля svend docs anthropic vacancies passports info passports pro интегральный анализ профиля svend docs anthropic vacancies passports pro кто ссылается этот документ passports info passports info passports pro passports pro passports meta passports meta проекте проекте readme readme",
+    "tags": [
+      "knowledge",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 211,
+    "path": "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md"
+  }
+}

@@ -1,5 +1,10 @@
 # Abstract
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -13,6 +18,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Each category exhibits the same structural problem: gap between value created or held and capacity to make that value visible to relevant counterparties.
@@ -72,7 +81,7 @@ service organizations, civil society, and policymakers.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [210-abstract](210-abstract.md) (сходство 0.16)
 - [223-12-closing](223-12-closing.md) (сходство 0.15)
 - [252-abstract](252-abstract.md) (сходство 0.14)
@@ -82,7 +91,13 @@ service organizations, civil society, and policymakers.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [210-abstract](210-abstract.md)
 - [223-12-closing](223-12-closing.md)
 - [252-abstract](252-abstract.md)
@@ -133,3 +148,19 @@ service organizations, civil society, and policymakers.
 - [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](187-слой-представительских-агентов-md.md) _25%_
 - [13. Closing](266-13-closing.md) _25%_
 - [Why This Hasn't Been Built](278-why-this-hasn-t-been-built.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (19)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [181-12-closing](181-12-closing.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- _...ещё 11_
+

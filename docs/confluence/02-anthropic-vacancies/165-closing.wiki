@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/165-closing.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Closing
@@ -22,7 +22,7 @@ h1. Closing
 
 
 {quote}The Open Knowledge Work Foundation is proposed as response{quote}
-_Проекты:_ Svyazi, [CardIndex|../docs/01-svyazi/01-executive-summary.md]
+_Проекты:_ Svyazi, [CardIndex|../01-svyazi/01-executive-summary.md]
 
 ----
 
@@ -34,7 +34,7 @@ h2. Содержание
   * [Три стратегии использования этого документа|#три-стратегии-использования-этого-документа]
   * [Что я бы сделал следующим|#что-я-бы-сделал-следующим]
   * [Final observation|#final-observation]
-  * [Что описывает статья — суть проекта Svyazi|#что-описывает-статья-суть-проекта-[svyazi](../docs/01-svyazi/00-intro-part2.md])
+  * [Что описывает статья — суть проекта Svyazi|#что-описывает-статья-суть-проекта-svyazi]
   * [Прямые параллели с вашей работой|#прямые-параллели-с-вашей-работой]
   * [Что у Андрея отличается от вашей архитектуры|#что-у-андрея-отличается-от-вашей-архитектуры]
   * [Что конкретно можно взять из проекта Свйази в вашу работу|#что-конкретно-можно-взять-из-проекта-свйази-в-вашу-работу]
@@ -45,7 +45,7 @@ h2. Содержание
   * [Цитата из статьи Андрея|#цитата-из-статьи-андрея]
   * [Ландшафт того, чтоуже существует— и где именно ниша Свйази|#ландшафт-того-чтоуже-существует-и-где-именно-ниша-свйази]
   * [Что яне нашёлв существующих решениях — гдеуникальная ниша Свйази|#что-яне-нашёлв-существующих-решениях-гдеуникальная-ниша-свйази]
-  * [Что это значит для проекта OKWF и Nautilus|#что-это-значит-для-проекта-okwf-и-[nautilus](../docs/05-habr-projects/memory/memnet.md])
+  * [Что это значит для проекта OKWF и Nautilus|#что-это-значит-для-проекта-okwf-и-nautilus]
   * [Самый интересный вопрос — могут ли быть voiceless контрибьюторы|#самый-интересный-вопрос-могут-ли-быть-voiceless-контрибьюторы]
   * [Honest assessment ниши|#honest-assessment-ниши]
   * [Конкретные рекомендации к действию|#конкретные-рекомендации-к-действию]
@@ -94,7 +94,7 @@ academic institutions, policy organizations, and individuals.
 Your feedback is welcome. Your participation is valued. Your 
 critique is essential.
 
-Contact: via [GitHub|../docs/01-svyazi/03-component-catalog.md] issues at 
+Contact: via [GitHub|../01-svyazi/03-component-catalog.md] issues at 
 [github.com/svend4/nautilus|https://github.com/svend4/nautilus] 
 until formal foundation launch.
 
@@ -552,7 +552,7 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [CONCEPTS](../CONCEPTS.md) (сходство 0.18)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md) (сходство 0.18)
 - [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.18)
@@ -562,7 +562,33 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Смотрите также:**
+## Использование
+
+{code}
+python scripts/improve_semantic_search.py --query "Closing"
+{code}
+
+{code}
+h1. Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Closing" --mode bm25 --top 5
+{code}
+
+{code}
+h1. Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Closing" --mode semantic --top 10
+{code}
+
+{code}
+h1. Поиск (full)
+python scripts/improve_semantic_search.py --query "Closing" --mode full --top 15
+{code}
+
+{code}
+h1. Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Closing" --mode bm25 --top 5
+{code}
+
+## Смотрите также
 - [CONCEPTS](../CONCEPTS.md)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)
 - [ACTION_ITEMS](../ACTION_ITEMS.md)
@@ -592,3 +618,19 @@ Story тверже становится. «Infrastructure для distributed wor
 
 - [Интегральный анализ профиля svend4](01-интегральный-анализ-профиля-svend4.md) _25%_
 - [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [01-интегральный-анализ-профиля-svend4](01-интегральный-анализ-профиля-svend4.md)
+- [133-обратная-связь](133-обратная-связь.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- _...ещё 1_
+

@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:2aa5012f4e711575",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CONCEPT_GRAPH.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:f3942e6d29968a51",
+  "payload": {
+    "title": "Граф концептов базы знаний",
+    "summary": "Концептов: **40** | Связей: **773** (мин. вес: 2)",
+    "body": "граф концептов базы знаний обновлено концептов связей мин вес диаграмма graph docs docs anthropic anthropic claude claude summary summary vacancies vacancies источник источник mhtml mhtml снимок снимок репозитория репозитория корень корень agent agent tags tags nautilus nautilus раздел раздел вакансии вакансии кластерам кластерам диалога диалога svyazi svyazi knowledge knowledge architecture architecture сходство сходство memory memory collaboration collaboration habr habr layer layer work work projects projects agents agents portal portal protocol protocol legal legal infrastructure infrastructure auto auto first first appendix appendix research research what what проекты проекты если если review review anthropic толстый docs anthropic толстый vacancies docs толстый vacancies claude толстый docs docs толстый источник anthropic толстый claude mhtml толстый источник mhtml толстый снимок источник толстый снимок docs толстый summary claude толстый источник claude толстый mhtml docs толстый mhtml claude толстый снимок mhtml толстый корень источник толстый корень источник толстый репозитория корень толстый снимок mhtml толстый репозитория репозитория толстый снимок docs толстый снимок корень толстый репозитория claude толстый репозитория docs толстый репозитория claude толстый корень docs толстый корень summary толстый tags docs толстый tags anthropic толстый источник anthropic толстый mhtml agent толстый docs anthropic толстый снимок anthropic толстый вакансии anthropic толстый репозитория claude толстый вакансии anthropic толстый nautilus mhtml толстый вакансии вакансии толстый источник вакансии толстый снимок anthropic толстый корень anthropic толстый кластерам mhtml толстый кластерам вакансии толстый кластерам источник толстый кластерам кластерам толстый снимок claude толстый кластерам вакансии толстый корень кластерам толстый корень вакансии толстый репозитория кластерам толстый репозитория docs толстый nautilus anthropic толстый раздел источник толстый раздел docs толстый раздел docs толстый вакансии claude толстый раздел раздел толстый репозитория anthropic толстый summary agent толстый anthropic вакансии толстый раздел топ концептов связям концепт файлов связей категория docs other anthropic other claude other источник other mhtml other снимок other репозитория project корень other вакансии other раздел other кластерам other vacancies other summary other диалога other nautilus other agent agent tags other architecture other knowledge other collaboration other svyazi project сходство other habr other layer architecture memory memory protocol architecture work other portal other projects other infrastructure other",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 665,
+    "path": "docs/obsidian/CONCEPT_GRAPH.md"
+  }
+}

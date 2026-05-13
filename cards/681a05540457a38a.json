@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:681a05540457a38a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/77-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/07-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:43b8452b74649360",
+  "payload": {
+    "title": "3. Registry (`nautilus.json`)",
+    "summary": "Registry — central source of truth о том, какие Repos входят в",
+    "body": "registry nautilus json содержание contents contents registry nautilus json registry nautilusjson purpose purpose schema schema required fields required fields optional fields optional fields validation rules validation rules autoadapter special case autoadapter special case registry nautilus json purpose registry central source truth том какие repos входят экосистему как интерпретировать располагается корне portal репо schema registry must быть валидным json следующей структурой protocol version ecosystem name string registry name string repo string owner repo name url string git url optional format string info pro native unit string human description adapter string module name info auto passport string path passports info angle string methodological semantic symbolic compatibility key string rule for mapping bridges other repo name string bridge description required fields protocol version строка формате semver портал must отклонять registry protocol version поддерживаемым этим порталом ecosystem name короткое уникальное имя latin без пробелов registry массив must содержать минимум один элемент каждый элемент registry must содержать name уникальное пределах экосистемы format идентификатор native формата используется для именования адаптера passport adapter имя адаптера либо имя python модуля adapters либо auto для использования autoadapter nautilus portal reference substrate раздел compatibility целое optional fields repo url если опущены repo существует только локально native unit human readable описание единицы данных passport путь файлу формате passports format если опущен адаптер must всё равно быть functional angle semantic methodological symbolic other указывает угол зрения repo общие концепты key правило проекции native сущностей например hex bin для meta bridges объект ключи имена других repos значения текстовые описания семантических мостов validation rules portal must отклонять registry если json невалиден missing required fields любом элементе registry compatibility вне диапазона дубликаты name пределах одной экосистемы protocol version поддерживается порталом portal should выдавать warning отклонять если repo или url указаны недоступны adapter указан модуль найден bridges ссылаются name которых нет registry passport указан файл найден autoadapter special case если adapter auto portal must использовать autoadapter nautilus portal reference substrate раздел который загружает nautilus habr projects memory memnet json корня target репо вместо локального модуля адаптера это enables onboarding path self declaring repo похожие документы registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json сходство terminology terminology сходство terminology terminology сходство смотрите также registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json portalentry structure portalentry structure terminology terminology terminology terminology кто ссылается этот документ appendix references appendix references appendix change log appendix change log readme readme",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 592,
+    "path": "docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md"
+  }
+}

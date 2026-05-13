@@ -1,16 +1,9 @@
----
-template: ensemble
-version: "1.0"
-ensemble_name: "[Название]"
-components: []
-task: "[Какую задачу решает]"
-maturity: experimental
-mvp_phase: 0
-created: 2026-04-29
-tags: [ансамбль, архитектура]
----
-
 # Ансамбль: [Название]
+
+> [!NOTE]
+> Раздел `ensemble` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Ансамбль из X компонентов для Y задачи -->
 <!-- tags: ансамбль, архитектура -->
@@ -57,13 +50,27 @@ output:
 3. [Шаг 3]
 
 ---
-_Создано: 2026-04-29_
+_Создано: 2026-05-13_
 
-<!-- see-also -->
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
-- [project-component](docs/templates/project-component.md)
-- [decision-record](docs/templates/decision-record.md)
+**Кто ссылается на этот документ (10):**
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [298-что-этот-документ-не-решает](../02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [mega-stack](mega-stack.md)
+- _...ещё 2_
 

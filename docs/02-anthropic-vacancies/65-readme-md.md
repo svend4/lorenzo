@@ -1,10 +1,25 @@
 # README.md
 
+<!-- toc-auto -->
+## Contents
+
+- [README.md](#readmemd)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Единая точка входа для федеративных git-экосистем знаний.**
 
 ---
 <!-- tags: anthropic -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -30,7 +45,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.14)
 - [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.12)
 - [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md) (сходство 0.12)
@@ -40,7 +55,14 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "README md"
+```
+
+## Смотрите также
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
@@ -79,3 +101,24 @@ markdown
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _25%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [70-зачем-две-версии-параллельно](70-зачем-две-версии-параллельно.md)
+- _...ещё 1_
+
+_Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+# English below ↓
+
+## English below ↓

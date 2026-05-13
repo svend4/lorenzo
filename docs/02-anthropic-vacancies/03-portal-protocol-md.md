@@ -1,10 +1,25 @@
 # PORTAL-PROTOCOL.md
 
+<!-- toc-auto -->
+## Contents
+
+- [PORTAL-PROTOCOL.md](#portal-protocolmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Status:** Draft (Working Document)
 
 ---
 <!-- tags: collaboration -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 
 
 
@@ -26,7 +41,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.47)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.38)
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md) (сходство 0.36)
@@ -36,7 +51,13 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
+```
+
+## Смотрите также
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
@@ -93,3 +114,19 @@ markdown
 - [12. Versioning Policy](24-12-versioning-policy.md) _25%_
 - [Author & Contact](42-author-contact.md) _25%_
 - [Author & Contact](52-author-contact.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (22)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [164-10-appendices](164-10-appendices.md)
+- _...ещё 14_
+

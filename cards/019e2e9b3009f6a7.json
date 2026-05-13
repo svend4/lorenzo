@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:019e2e9b3009f6a7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/130-отладка.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:f1f26dbe74ead830",
+  "payload": {
+    "title": "Отладка",
+    "summary": "2. Запустить `portal-mcp.py --warmup` напрямую в терминале —",
+    "body": "отладка contents отладка отладка сервер подключается сервер подключается tool call падает adapterfailed tool call падает adapterfailed tool появляется claude desktop tool появляется claude desktop проверить логи claude desktop похожие документы подключение claude desktop подключение claude desktop сходство конфигурация для claude desktop конфигурация для claude desktop сходство смотрите также подключение claude desktop подключение claude desktop конфигурация для claude desktop конфигурация для claude desktop appendix minimal working example appendix minimal working example readme mcp инструкция установке readme mcp инструкция установке упоминается вакансии anthropic анализ кластерам readme конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop упоминается вакансии anthropic анализ кластерам readme связанные документы конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop portal mcp portal mcp связанные документы конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop кто ссылается этот документ конфигурация для claude desktop конфигурация для claude desktop readme mcp инструкция установке readme mcp инструкция установке подключение claude desktop подключение claude desktop readme readme",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 261,
+    "path": "docs/02-anthropic-vacancies/130-отладка.md"
+  }
+}

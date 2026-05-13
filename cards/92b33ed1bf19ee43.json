@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:92b33ed1bf19ee43",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/meta-scripting/03-catalog.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/meta-scripting/04-enrichment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/meta-scripting/01-concept.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/meta-scripting/05-synthesis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/meta-scripting/02-architecture.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:1051dc9f479a5737",
+  "payload": {
+    "title": "Метаскриптинг — Часть 3: Автокаталог скриптов",
+    "summary": "Каталог — это JSON-файл (`docs/scripts_catalog.json`), который описывает каждый",
+    "body": "метаскриптинг часть автокаталог скриптов скрипт читает все скриптов строит живой каталог что такое автокаталог каталог это json файл docs scripts catalog json который описывает каждый скрипт что делает что читает что пишет насколько опасен строится автоматически вручную при добавлении нового скрипта достаточно запустить improve self catalog каталог обновится что извлекается каждого скрипта improve health первый docstring дашборд здоровья репозитория создаёт docs health импорты pathlib datetime стандартные нет зависимостей глобальные пути root path file parent parent docs root docs файлы которые читает docs rglob файлы которые пишет docs health cli аргументы нет нет argparse функции count files calc score write health риск green пишет только один отдельный файл алгоритм определения риска def detect risk info scriptinfo str writes info writes красный перезаписывает входные файлы docs docs any for writes and any for info reads set writes set info reads выход пересекается входом return red жёлтый пишет docs конкретный файл writes and all health metrics for writes return green writes return yellow зелёный ничего пишет или пишет только один отчётный файл return green пример выходного каталога фрагмент improve health doc дашборд здоровья репозитория inputs docs outputs docs health args risk green group quality has dry run false imports external lines improve crosslink all doc добавляет обратные ссылки все docs inputs docs outputs docs args apply dry run keywords risk red group content has dry run true imports external lines что каталог даёт практике автоматическое обновление claude если добавили скрипт каталог обновляется claude можно перегенерировать проверка консистентности claude говорит improve xyz делает ast говорит выходной файл docs несоответствие claude устарел поиск каталогу какие скрипты пишут docs health python scripts improve self catalog query output health какие скрипты без dry run python scripts improve self catalog query has dry run false risk red какие скрипты нет группах run all python scripts improve self catalog query group none обнаружение дублей два скрипта читают одни файлы пишут похожие выходы вероятно дубли смотрите также enrichment enrichment concept concept synthesis synthesis architecture architecture",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 412,
+    "path": "docs/meta-scripting/03-catalog.md"
+  }
+}

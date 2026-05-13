@@ -2,7 +2,7 @@
 title: "9. Risks and Open Questions"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 9. Risks and Open Questions
@@ -10,7 +10,6 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [9. Risks and Open Questions](#9-risks-and-open-questions)
   - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
   - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
@@ -30,18 +29,6 @@ date: 2026-04-29
 > ✅ **Результат:** --- --- Похожие документы: - 318-10-strategic-positioning(docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15) - 311-3-what-ingit-provides-that-cowork-lacks
 > 🏷️ **Ключевые слова:** `cowork`, `ingit`, `anthropic`, `questions`, `vacancies`, `sensitive`, `integration`, `positioning`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [9. Risks and Open Questions](#9-risks-and-open-questions)
-  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
-  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
-  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
-  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
-  - [9.5. Author Capacity](#95-author-capacity)
-  - [9.6. Open Questions](#96-open-questions)
 
 
 > [!TIP]
@@ -156,7 +143,7 @@ works regardless of any of them.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[318-10-strategic-positioning]] (сходство 0.15)
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
 - [[306-with-anthropic-s-cowork-platform|323-appendix-c-sample-[ingit]]-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
@@ -166,9 +153,26 @@ works regardless of any of them.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Risks and Open Questions"
+```
+
+## Смотрите также
 - [[318-10-strategic-positioning]]
 - [[memnet|316-8-implications-for-[nautilus]]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 - [[313-5-four-integration-paths-in-order-of-accessibility]]
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[145-8-call-to-action]]
+- [[319-acknowledgments]]
+- 323-appendix-c-sample-[[323-appendix-c-sample-ingit-mcp-server-tool-specificat|ingit-mcp-server-tool-specificat]]
+- [[README]]
 

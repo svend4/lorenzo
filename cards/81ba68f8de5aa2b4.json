@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:81ba68f8de5aa2b4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/41-compatibility-level.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/51-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/61-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/17-5-compatibility-levels.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:7ae15f133c370849",
+  "payload": {
+    "title": "Compatibility Level",
+    "summary": "мостов с `[pro2](01-интегральный-анализ-профиля-svend4.md)` и `meta`",
+    "body": "compatibility level текущий уровень interactive bridged похожие документы compatibility level compatibility level сходство compatibility level compatibility level сходство compatibility levels compatibility levels сходство смотрите также compatibility level compatibility level compatibility level compatibility level compatibility levels compatibility levels appendix minimal working example appendix minimal working example упоминается passport passport passport passport compatibility levels compatibility levels compatibility levels compatibility levels appendix minimal working example appendix minimal working example bridges bridges bridges bridges compatibility level compatibility level compatibility level compatibility level history history native format native format planned planned вакансии anthropic анализ кластерам readme содержание содержание содержание содержание упоминается вакансии anthropic анализ кластерам readme связанные документы compatibility level compatibility level содержание содержание compatibility level compatibility level passport passport passport passport planned planned подключение claude desktop подключение claude desktop table contents table contents appendix minimal working example appendix minimal working example связанные документы compatibility level compatibility level compatibility level compatibility level appendix minimal working example appendix minimal working example passport passport passport passport planned planned содержание содержание appendix minimal working example appendix minimal working example содержание содержание кто ссылается этот документ passport passport passport passport подключение claude desktop подключение claude desktop planned planned table contents table contents table contents table contents содержание содержание queryresult structure queryresult structure содержание содержание ещё",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 273,
+    "path": "docs/02-anthropic-vacancies/41-compatibility-level.md"
+  }
+}

@@ -1,6 +1,28 @@
 # 10. Open Questions
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Open Questions](#10-open-questions)
+  - [10.1. Technical Questions](#101-technical-questions)
+  - [10.2. Economic Questions](#102-economic-questions)
+  - [10.3. Legal Questions](#103-legal-questions)
+  - [10.4. Social Questions](#104-social-questions)
+  - [10.5. Philosophical Questions](#105-philosophical-questions)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ---
@@ -98,11 +120,32 @@ of whether ethical frameworks keep pace.
 
 ---
 
-**Смотрите также:**
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
-- [08-risks-mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
-- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
+## Смотрите также
+- [179-10-open-questions](../../02-anthropic-vacancies/179-10-open-questions.md)
+- [08-risks-mitigations](08-risks-mitigations.md)
+- [11-open-questions](../composite-skills-agents/11-open-questions.md)
+- [11-call-for-collaboration](11-call-for-collaboration.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [FAQ](../../FAQ.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-risks-mitigations](08-risks-mitigations.md)
+- [11-call-for-collaboration](11-call-for-collaboration.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -110,7 +153,7 @@ of whether ethical frameworks keep pace.
 ---
 
 **Похожие документы:**
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.85)
-- [179-10-open-questions](docs/obsidian/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.83)
-- [08-risks-mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md) (сходство 0.20)
+- [10-open-questions](../../obsidian/nautilus/representative-agent-layer-en/10-open-questions.md) (сходство 0.97)
+- [179-10-open-questions](../../obsidian/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.81)
+- [179-10-open-questions](../../02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.81)
 

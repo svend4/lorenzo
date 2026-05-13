@@ -1,6 +1,27 @@
 # Acknowledgments
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- toc -->
+## Содержание
+
+- [Acknowledgments](#acknowledgments)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Acknowledgments The Composite Skills Agent concept emerged from dialogue with --- Acknowledgments The Composite Skills Agent concept emerged from dialogue with Claude (Anthropic) o
@@ -57,7 +78,7 @@ when AI augments human practice.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [319-acknowledgments](319-acknowledgments.md) (сходство 0.26)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.25)
 - [252-abstract](252-abstract.md) (сходство 0.24)
@@ -67,7 +88,13 @@ when AI augments human practice.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
+## Смотрите также
 - [319-acknowledgments](319-acknowledgments.md)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - [252-abstract](252-abstract.md)
@@ -114,3 +141,19 @@ when AI augments human practice.
 - [References](287-references.md) _33%_
 - [Abstract](168-abstract.md) _29%_
 - [Acknowledgments](182-acknowledgments.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [146-acknowledgments](146-acknowledgments.md)
+- [168-abstract](168-abstract.md)
+- [182-acknowledgments](182-acknowledgments.md)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [224-acknowledgments](224-acknowledgments.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [252-abstract](252-abstract.md)
+- _...ещё 10_
+

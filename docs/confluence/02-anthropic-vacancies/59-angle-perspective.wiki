@@ -1,10 +1,33 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/59-angle-perspective.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Angle / Perspective
 
+
+h2. Contents
+
+* [Angle / Perspective|#angle-perspective]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (7)|#кто-ссылается-на-этот-документ-7]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}_Symbolic_ — {{meta}} смотрит на мир как на **систему дискретных{quote}
 
@@ -24,8 +47,8 @@ evolution».
 
 Это самый _формальный_ угол в экосистеме. Здесь всё — числа, 
 правила, инварианты. Практически это означает, что {{meta}} может 
-давать _формальные ответы на формальные вопросы_, где {{[pro2|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} и 
-{{[info1|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} дают прозу.
+давать _формальные ответы на формальные вопросы_, где {{[pro2|01-интегральный-анализ-профиля-svend4.md]}} и 
+{{[info1|01-интегральный-анализ-профиля-svend4.md]}} дают прозу.
 
 ----
 
@@ -33,7 +56,7 @@ evolution».
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [39-angle-perspective|39-angle-perspective.md] (сходство 0.14)
 * [49-angle-perspective|49-angle-perspective.md] (сходство 0.12)
 
@@ -42,7 +65,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Angle Perspective"
+{code}
+
+h2. Смотрите также
 * [39-angle-perspective|39-angle-perspective.md]
 * [49-angle-perspective|49-angle-perspective.md]
 * [36-essence|36-essence.md]
@@ -83,3 +112,17 @@ h2. Связанные документы
 * [Angle / Perspective|13-angle-perspective.md] _25%_
 * [15. Glossary of Examples|27-15-glossary-of-examples.md] _25%_
 * [passports/info1.md|35-passports-info1-md.md] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (7)
+* [13-angle-perspective|13-angle-perspective.md]
+* 35-passports-[info1-md|35-passports-info1-md.md]
+* [39-angle-perspective|39-angle-perspective.md]
+* 45-passports-[pro2-md|45-passports-pro2-md.md]
+* [49-angle-perspective|49-angle-perspective.md]
+* [55-passports-meta-md|55-passports-meta-md.md]
+* [README|README.md]
+

@@ -1,7 +1,15 @@
 # Ансамбль A — Collaboration OS
 
-> [!IMPORTANT]
-> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
@@ -11,6 +19,10 @@
 
 ---
 <!-- tags: memory, rag, knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -45,11 +57,26 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
-- [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
+## Смотрите также
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [knowledge-space](../components/knowledge-space.md)
+- [license-tree](../limitations/license-tree.md)
+
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -57,7 +84,7 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
-- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.20)
+- [A-collaboration-os](../../obsidian/svyazi-2-0/ensembles/A-collaboration-os.md) (сходство 0.97)
+- [E-execution-plane](E-execution-plane.md) (сходство 0.24)
+- [H-research-to-product-flywheel](H-research-to-product-flywheel.md) (сходство 0.24)
 

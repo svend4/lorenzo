@@ -4,10 +4,15 @@ tags:
   - rag
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 3. Empirical Case Study: «Обучай»
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,6 +25,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > We document a successfully deployed Professional Colleague
 
 ---
@@ -188,7 +197,7 @@ unchanged remains to be measured.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[213-2-what-makes-a-professional-colleague-agent]] (сходство 0.16)
 - [[217-6-risks-specific-to-this-category]] (сходство 0.12)
 - [[219-8-pilot-proposal-sgb-advocate-colleague]] (сходство 0.12)
@@ -198,7 +207,13 @@ unchanged remains to be measured.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Empirical Case Study Обучай"
+```
+
+## Смотрите также
 - [[213-2-what-makes-a-professional-colleague-agent]]
 - [[219-8-pilot-proposal-sgb-advocate-colleague]]
 - [[217-6-risks-specific-to-this-category]]
@@ -238,3 +253,19 @@ unchanged remains to be measured.
 - [[212-1-the-five-type-typology-of-principal-side-agents|1. The Five-Type Typology of Principal-Side Agents]] _21%_
 - [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _21%_
 - [[219-8-pilot-proposal-sgb-advocate-colleague|8. Pilot Proposal: SGB Advocate Colleague]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[210-abstract]]
+- [[211-table-of-contents]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[217-6-risks-specific-to-this-category]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[220-9-relationship-to-other-agent-types]]
+- _...ещё 4_
+

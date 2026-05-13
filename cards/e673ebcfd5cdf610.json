@@ -1,0 +1,72 @@
+{
+  "card_id": "sha256:e673ebcfd5cdf610",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/00-intro.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:9212b6244ac99c56",
+  "payload": {
+    "title": "Введение",
+    "summary": "https://habr.com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программного обеспечения нужно поискать на хабре подобные проекты уникальные как у автора статьи выше подобных авторов подо",
+    "body": "введение абстракт авто проблема они становятся процессами распределённой системе блокировками задачами памятью статусами передачей контекста подход бот для самопознания pda архитектуры прошлых ответов url event sourcing llm как периферия stability engine результат operations concierge чате принимает команды создаёт задачи запускает агентов сообщает статусы эскалирует человеку ключевые слова articles https legal claude через memory svyazi каждый статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено tip этот документ описывает mvp подход начните него для быстрого прототипа https habr com articles конце статьи было написано как помощью этой программы нашлись два человека которые вместе организовали потом проект разработке программного обеспечени проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space svyazi component catalog knowledge space factory rufler rufler liteparse legal rag rag похожие документы memnet habr projects memory memnet сходство интегральный анализ профиля svend anthropic vacancies интегральный анализ профиля svend сходство tables tables сходство смотрите также memnet habr projects memory memnet интегральный анализ профиля svend anthropic vacancies интегральный анализ профиля svend tables tables concepts concepts mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель crdt conflict free replicated data type бесконфликтные данные pii personally identifiable information персональные данные cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit firecrawl инструмент веб краулер для mit idf term frequency inverse document frequency метрика важности термина кто ссылается этот документ интегральный анализ профиля svend anthropic vacancies интегральный анализ профиля svend appendix connection diagram anthropic vacancies appendix connection diagram readme readme tables tables",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 11407,
+    "path": "docs/04-ai-collaborations/00-intro.md"
+  }
+}

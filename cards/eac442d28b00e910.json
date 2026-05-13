@@ -1,0 +1,36 @@
+{
+  "card_id": "sha256:eac442d28b00e910",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/346-твоё-происхождение.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:89f0c72bedd953f0",
+  "payload": {
+    "title": "Твои языки и культурные nuances",
+    "summary": "",
+    "body": "твои языки культурные nuances русском primary phase для interactions русскоязычным community хабр telegram смотрите также твоё происхождение твоё происхождение похожие документы твоё происхождение твоё происхождение сходство",
+    "tags": [
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 173,
+    "path": "docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md"
+  }
+}

@@ -4,15 +4,19 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 12. Onboarding Paths (Normative)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
   - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
   - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
@@ -22,27 +26,6 @@ date: 2026-04-29
   - [12.6. Path Selection Guidance](#126-path-selection-guidance)
 
 ---
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Portal автоматически использует AutoAdapter Ключевое свойство: repo регистрирует себя сам, portal не требует изменений кода.
-> ✅ **Результат:** Результат: - passports/<format.md — авто-заполнен по структуре - adapters/<format.py — статика из найденных файлов - autoreport.json — детальный отчёт Сканер — отправная точка, рез
-> 🏷️ **Ключевые слова:** `github`, `portal`, `nautilus`, `repos`, `adapter`, `время`, `автоматизация`, `качество`
->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
-  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
-  - [12.2. Path B — generatepassport.py Wizard](#122-path-b-generatepassportpy-wizard)
-  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
-  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
-  - [[03-component-catalog|12.5. Path E — [GitHub]] Actions Webhook](#125-path-e-github-actions-webhook)
-  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
 
 
 <!-- summary -->
@@ -147,7 +130,7 @@ python scan_repo.py owner/repo-name
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[07-2-terminology]]
 - [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [[77-2-terminology]]
@@ -157,8 +140,23 @@ python scan_repo.py owner/repo-name
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[07-2-terminology]] (сходство 0.16)
 - [[80-5-compatibility-levels]] (сходство 0.16)
 - [[77-2-terminology]] (сходство 0.15)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [[README]]
+- [[CONCEPTS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[12-onboarding-paths]]
 

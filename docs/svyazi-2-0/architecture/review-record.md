@@ -1,11 +1,29 @@
 # Review Record
 
+<!-- toc-auto -->
+## Contents
+
+- [Минимальные поля](#минимальные-поля)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
 **Проекты:** mclaude, AI Factory
 
 ---
 <!-- tags: rag, orchestration, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -26,19 +44,37 @@
 
 ---
 
-**Смотрите также:**
-- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
-- [card-envelope](docs/svyazi-2-0/architecture/card-envelope.md)
-- [evidence-envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)
-- [memory-write-policy](docs/svyazi-2-0/architecture/memory-write-policy.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Review Record"
+```
+
+## Смотрите также
+- [integration-spec](integration-spec.md)
+- [card-envelope](card-envelope.md)
+- [evidence-envelope](evidence-envelope.md)
+- [memory-write-policy](memory-write-policy.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [integration-spec](integration-spec.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу.
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md) (сходство 0.25)
-- [card-envelope](docs/svyazi-2-0/architecture/card-envelope.md) (сходство 0.22)
-- [memory-write-policy](docs/svyazi-2-0/architecture/memory-write-policy.md) (сходство 0.22)
+- [review-record](../../obsidian/svyazi-2-0/architecture/review-record.md) (сходство 0.97)
+- [SEARCH_RESULTS](../../SEARCH_RESULTS.md) (сходство 0.46)
+- [SEARCH_RESULTS](../../obsidian/SEARCH_RESULTS.md) (сходство 0.45)
 

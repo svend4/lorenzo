@@ -1,11 +1,20 @@
 # 2. Target Populations
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [2. Target Populations](#2-target-populations)
@@ -142,11 +151,31 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Смотрите также:**
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [01-problem-statement](docs/nautilus/okwf-concept/01-problem-statement.md)
-- [03-why-existing-fail](docs/nautilus/okwf-concept/03-why-existing-fail.md)
-- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Target Populations"
+```
+
+## Смотрите также
+- [156-2-target-populations](../../02-anthropic-vacancies/156-2-target-populations.md)
+- [01-problem-statement](01-problem-statement.md)
+- [03-why-existing-fail](03-why-existing-fail.md)
+- [10-appendices](10-appendices.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-problem-statement](01-problem-statement.md)
+- [03-why-existing-fail](03-why-existing-fail.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -154,7 +183,7 @@ Active participant target in first three years: 5,000-10,000.
 ---
 
 **Похожие документы:**
-- [156-2-target-populations](docs/obsidian/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.88)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.87)
-- [01-problem-statement](docs/nautilus/okwf-concept/01-problem-statement.md) (сходство 0.21)
+- [02-target-populations](../../obsidian/nautilus/okwf-concept/02-target-populations.md) (сходство 0.99)
+- [156-2-target-populations](../../02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.87)
+- [156-2-target-populations](../../obsidian/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.87)
 

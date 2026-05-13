@@ -3,12 +3,36 @@ title: "Appendix B: Summary of Contributions"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix B: Summary of Contributions
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
+- [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > 1. **Topological formalization** of Double-Triangle Architecture
 
 ---
@@ -52,7 +76,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[137-table-of-contents]] (сходство 0.24)
 - [[136-abstract]] (сходство 0.15)
 - [[355-существующие-документы-dhlab-твой-context]] (сходство 0.12)
@@ -62,7 +86,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Summary of Contributions"
+```
+
+## Смотрите также
 - [[137-table-of-contents]]
 - [[136-abstract]]
 - [[355-существующие-документы-dhlab-твой-context]]
@@ -103,3 +133,23 @@ date: 2026-04-29
 - [[190-содержание|Содержание]] _21%_
 - [[211-table-of-contents|Table of Contents]] _21%_
 - [[253-table-of-contents|Table of Contents]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[136-abstract]]
+- [[137-table-of-contents]]
+- [[154-table-of-contents]]
+- [[169-table-of-contents]]
+- [[190-содержание]]
+- [[211-table-of-contents]]
+- [[253-table-of-contents]]
+- [[308-table-of-contents]]
+- _...ещё 4_
+
+# Author & Contact
+
+## Author & Contact
+Кто поддерживает, как связаться.

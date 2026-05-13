@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Интегральный анализ профиля svend4"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Интегральный анализ профиля svend4
@@ -848,7 +848,7 @@ _[Запрос]_ Разработать общие план общую доку�
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[CONCEPTS]] (сходство 0.21)
 * [[00-intro]] (сходство 0.19)
 * [[00-intro]] (сходство 0.16)
@@ -858,7 +858,7 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[CONCEPTS]]
 * [[00-intro]]
 * [[ACTION_ITEMS]]
@@ -888,3 +888,15 @@ h2. Связанные документы
 * [[00-intro|Введение]] _21%_
 * [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _21%_
 * [[64-for-the-curious-philosophy|For the Curious: Philosophy]] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (5)
+* [[00-intro]]
+* [[165-closing]]
+* [[272-appendix-d-connection-diagram]]
+* [[64-for-the-curious-philosophy]]
+* [[README]]
+

@@ -1,6 +1,29 @@
 # Angle / Perspective
 
+<!-- toc-auto -->
+## Contents
+
+- [Angle / Perspective](#angle-perspective)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > **Symbolic** — `meta` смотрит на мир как на **систему дискретных
 
 ---
@@ -19,8 +42,8 @@ evolution».
 
 Это самый **формальный** угол в экосистеме. Здесь всё — числа, 
 правила, инварианты. Практически это означает, что `meta` может 
-давать **формальные ответы на формальные вопросы**, где `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` и 
-`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` дают прозу.
+давать **формальные ответы на формальные вопросы**, где `[pro2](01-интегральный-анализ-профиля-svend4.md)` и 
+`[info1](01-интегральный-анализ-профиля-svend4.md)` дают прозу.
 
 ---
 
@@ -28,7 +51,7 @@ evolution».
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [39-angle-perspective](39-angle-perspective.md) (сходство 0.14)
 - [49-angle-perspective](49-angle-perspective.md) (сходство 0.12)
 
@@ -37,7 +60,13 @@ evolution».
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Angle Perspective"
+```
+
+## Смотрите также
 - [39-angle-perspective](39-angle-perspective.md)
 - [49-angle-perspective](49-angle-perspective.md)
 - [36-essence](36-essence.md)
@@ -78,3 +107,17 @@ evolution».
 - [Angle / Perspective](13-angle-perspective.md) _25%_
 - [15. Glossary of Examples](27-15-glossary-of-examples.md) _25%_
 - [passports/info1.md](35-passports-info1-md.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [13-angle-perspective](13-angle-perspective.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [README](README.md)
+

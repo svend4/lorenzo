@@ -3,21 +3,15 @@ title: "Abstract"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Abstract
-<!-- tags: anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Abstract The five-type taxonomy introduced in Professional Colleague --- Abstract The five-type taxonomy introduced in Professional Colleague Agents (Type 0 through Type 4) treats 
-> 🔧 **Подход:** Most skilled professionals occupy a middle zone: not generic practitioners of a profession, not unique individuals beyond categorization, but composite specialists — practitioners 
-> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `binary`, `incomplete`, `abstract`, `unique`, `composite`, `narrow`
->
-
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
@@ -31,6 +25,10 @@ date: 2026-04-29
 ---
 
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 <!-- abstract-auto -->
@@ -94,7 +92,7 @@ in skilled work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.25)
 - [[267-acknowledgments]] (сходство 0.24)
 - [[266-13-closing]] (сходство 0.20)
@@ -104,7 +102,13 @@ in skilled work.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [[254-1-why-the-binary-view-is-incomplete]]
 - [[267-acknowledgments]]
 - [[266-13-closing]]
@@ -151,3 +155,19 @@ in skilled work.
 - [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _29%_
 - [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _29%_
 - [[253-table-of-contents|Table of Contents]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [[151-open-knowledge-work-foundation-md]]
+- [[168-abstract]]
+- [[208-professional-colleague-agents-md]]
+- [[210-abstract]]
+- [[214-3-empirical-case-study-обучай]]
+- [[223-12-closing]]
+- [[249-composite-skills-agent-md]]
+- [[253-table-of-contents]]
+- _...ещё 10_
+

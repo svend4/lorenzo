@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:8e7e3f7acf26bdb9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/211-table-of-contents.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/253-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/169-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/221-10-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:0c81fae6f95e6527",
+  "payload": {
+    "title": "Table of Contents",
+    "summary": "1. **The Five-Type Typology of Principal-Side Agents**",
+    "body": "table contents the five type typology principal side agents похожие документы table contents table contents сходство table contents table contents сходство typology agents the principal side and typology agents the principal side and сходство смотрите также table contents table contents table contents table contents typology agents the principal side and typology agents the principal side and table contents table contents упоминается the five type typology principal side agents the five type typology principal side agents open questions open questions what makes professional colleague agent what makes professional colleague agent empirical case study обучай empirical case study обучай what makes composite skills agent what makes composite skills agent what makes representative agent what makes representative agent coordination and disagreement resolution coordination and disagreement resolution relationship other agent types relationship other agent types abstract abstract acknowledgments acknowledgments acknowledgments acknowledgments appendix comparative table five agent types appendix comparative table five agent types appendix the six type taxonomy updated appendix the six type taxonomy updated appendix decision framework when build type first appendix decision framework when build type appendix summary contributions appendix summary contributions appendix configuration template example appendix configuration template example references references table contents table contents table contents table contents table contents table contents вакансии anthropic анализ кластерам readme кластеры тематически близких файлов clusters кто кто твоя relationship другими твоя relationship другими что можешь делать без max approval что можешь делать без max approval упоминается вакансии anthropic анализ кластерам readme связанные документы what makes professional colleague agent what makes professional colleague agent appendix decision framework when build type first appendix decision framework when build type the five type typology principal side agents the five type typology principal side agents relationship other agent types relationship other agent types abstract abstract closing closing what makes representative agent what makes representative agent appendix comparative table five agent types appendix comparative table five agent types связанные документы what makes professional colleague agent what makes professional colleague agent the five type typology principal side agents the five type typology principal side agents relationship other agent types relationship other agent types appendix comparative table five agent types appendix comparative table five agent types table contents table contents table contents table contents what makes representative agent what makes representative agent empirical case study обучай empirical case study обучай кто ссылается этот документ appendix summary contributions appendix summary contributions table contents table contents what makes representative agent what makes representative agent acknowledgments acknowledgments typology agents the principal side and typology agents the principal side and abstract abstract the five type typology principal side agents the five type typology principal side agents what makes professional colleague agent what makes professional colleague agent ещё",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 439,
+    "path": "docs/02-anthropic-vacancies/211-table-of-contents.md"
+  }
+}

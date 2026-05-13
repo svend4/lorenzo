@@ -1,5 +1,10 @@
 # 4. Architecture of Professional Colleague Agents
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > A Professional Colleague Agent has three distinct internal
 
 ---
@@ -181,7 +190,7 @@ workflow.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.15)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md) (сходство 0.15)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.14)
@@ -191,7 +200,13 @@ workflow.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Architecture of Professional"
+```
+
+## Смотрите также
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
@@ -235,3 +250,19 @@ workflow.
 - [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _25%_
 - [2. What Makes a Professional Colleague Agent](213-2-what-makes-a-professional-colleague-agent.md) _25%_
 - [3. Empirical Case Study: «Обучай»](214-3-empirical-case-study-обучай.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- _...ещё 3_
+

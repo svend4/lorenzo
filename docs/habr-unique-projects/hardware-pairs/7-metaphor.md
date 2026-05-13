@@ -1,10 +1,26 @@
 # Метафора «двое родителей — несколько детей»
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 ---
 <!-- tags: architecture, roadmap, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -31,11 +47,33 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 
 ---
 
-**Смотрите также:**
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
-- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md)
-- [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Метафора двое родителей несколько детей"
+```
+
+## Смотрите также
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+- [6-metaphor](../software-pairs/6-metaphor.md)
+- 06-[svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [concepts](../../glossary/concepts.md)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+- [README](README.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -43,7 +81,7 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 ---
 
 **Похожие документы:**
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.52)
-- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md) (сходство 0.18)
-- [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md) (сходство 0.16)
+- [7-metaphor](../../obsidian/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.96)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md) (сходство 0.54)
+- [6-bonus-rram-memristor](../../obsidian/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.53)
 

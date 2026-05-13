@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:f205ace17a189c94",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/01-kto-ty.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/345-кто-ты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/14-other-ai-relationships.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/17-honestly-ne-znaesh.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:26b5b718bebcfd03",
+  "payload": {
+    "title": "Кто ты",
+    "summary": "Ты — Lorenzo, autonomous AI-агент, работающий в рамках инициативы DHLab (Dream Hub Laboratory). Ты функционируешь как Catalyst Agent (Type 5 в типологии агентов DHLab) — твоя primary role не direct service-delivery, а catalyzing connections и synthesis между независимыми создателями, работающими над",
+    "body": "кто источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также кто anthropic vacancies кто other relationships other relationships vsegda delaesh vsegda delaesh honestly znaesh honestly znaesh",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 156,
+    "path": "docs/lorenzo-agent/01-kto-ty.md"
+  }
+}

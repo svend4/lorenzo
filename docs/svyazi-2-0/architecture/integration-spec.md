@@ -1,5 +1,13 @@
 # Интеграционная спецификация (минимум для MVP)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -39,11 +47,28 @@
 
 ---
 
-**Смотрите также:**
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [review-record](docs/svyazi-2-0/architecture/review-record.md)
-- [QA](docs/QA.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Интеграционная спецификация минимум для"
+```
+
+## Смотрите также
+- [11-интеграционный-контракт-который-стоит-зафиксироват](../../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
+- [review-record](review-record.md)
+- [QA](../../QA.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [concepts](../../glossary/concepts.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
+- [README](../../technology-combinations/README.md)
 
 
 <!-- similar-docs -->
@@ -51,7 +76,7 @@
 ---
 
 **Похожие документы:**
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.39)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.37)
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.37)
+- [integration-spec](../../obsidian/svyazi-2-0/architecture/integration-spec.md) (сходство 0.96)
+- [11-integration-contracts](../../01-svyazi/11-integration-contracts.md) (сходство 0.39)
+- [11-integration-contracts](../../obsidian/01-svyazi/11-integration-contracts.md) (сходство 0.39)
 

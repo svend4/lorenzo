@@ -1,0 +1,70 @@
+{
+  "card_id": "sha256:f1a2370d9e2183ba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/10-second-order-ensembles.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:71e3ab7f50bda89e",
+  "payload": {
+    "title": "Новые ансамбли следующего шага",
+    "summary": "Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **трёх новых ансамблей второго порядка**, где компоненты перестают быть “рядами функций” и начинают образовывать новые свойства на уровне процесса сообщества, исследовательской группы ",
+    "body": "новые ансамбли следующего шага абстракт авто проблема это намного лучше соответствует задачам экспертных сообществ чем either выбор между всё облако всё только локально подход новые ансамбли следующего шага статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено important ключ результат здесь главный эффект даёт одна новая функция изменение формы владения системой ключевые слова svyazi ensembles knowledge memory search проект ансамбли просто статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь самые интересные продолжения просто добавление ещё одного инструмента уже найденные пять ансамблей сборка трёх новых ансамблей второго порядка где компоненты перестают быть рядами функ проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы second order ensembles svyazi second order ensembles сходство приоритетные ансамбли приоритетные ансамбли сходство ensembles overview svyazi ensembles overview сходство смотрите также second order ensembles svyazi second order ensembles приоритетные ансамбли приоритетные ансамбли дорожная карта прототипа следующей итерации дорожная карта прототипа следующей итерации ensembles overview svyazi ensembles overview mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit кто ссылается этот документ contacts svyazi contacts readme readme component matrix component matrix tables tables",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "AutoResearch"
+    ],
+    "wc": 1002,
+    "path": "docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md"
+  }
+}

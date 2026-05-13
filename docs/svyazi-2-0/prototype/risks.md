@@ -1,5 +1,12 @@
 # Ключевые риски и как их закрывать
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -29,11 +36,34 @@
 
 ---
 
-**Смотрите также:**
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
-- [mvp-plan](docs/svyazi-2-0/prototype/mvp-plan.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ключевые риски и как их закрывать"
+```
+
+## Смотрите также
+- [05-план-прототипа-и-возможные-контакты](../../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [07-mvp-planning](../../01-svyazi/07-mvp-planning.md)
+- [first-contacts](../outreach/first-contacts.md)
+- [mvp-plan](mvp-plan.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [reading-paths](../../reading-paths.md)
+- [license-tree](../limitations/license-tree.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -41,7 +71,7 @@
 ---
 
 **Похожие документы:**
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.33)
-- [05-план-прототипа-и-возможные-контакты](docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.32)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md) (сходство 0.32)
+- [risks](../../obsidian/svyazi-2-0/prototype/risks.md) (сходство 0.97)
+- [05-план-прототипа-и-возможные-контакты](../../obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.33)
+- [05-план-прототипа-и-возможные-контакты](../../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.33)
 

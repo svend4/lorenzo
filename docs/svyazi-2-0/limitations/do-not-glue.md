@@ -1,5 +1,15 @@
 # Что пока лучше не склеивать
 
+<!-- toc-auto -->
+## Contents
+
+- [Оркестрация — выбрать один spine](#оркестрация-выбрать-один-spine)
+- [Voice/local‑first mesh — не идеализировать](#voicelocal-first-mesh-не-идеализировать)
+- [Self‑improvement — только после метрики](#self-improvement-только-после-метрики)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -33,11 +43,30 @@ AutoResearch и Sequential выглядят очень мощно, но толь
 
 ---
 
-**Смотрите также:**
-- [14-limitations](docs/01-svyazi/14-limitations.md)
-- [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что пока лучше не склеивать"
+```
+
+## Смотрите также
+- [14-limitations](../../01-svyazi/14-limitations.md)
+- [license-tree](license-tree.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [conclusions](conclusions.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -45,7 +74,7 @@ AutoResearch и Sequential выглядят очень мощно, но толь
 ---
 
 **Похожие документы:**
-- [14-limitations](docs/01-svyazi/14-limitations.md) (сходство 0.49)
-- [14-limitations](docs/obsidian/01-svyazi/14-limitations.md) (сходство 0.47)
-- [privacy](docs/svyazi-2-0/security/privacy.md) (сходство 0.15)
+- [do-not-glue](../../obsidian/svyazi-2-0/limitations/do-not-glue.md) (сходство 0.99)
+- [14-limitations](../../01-svyazi/14-limitations.md) (сходство 0.49)
+- [14-limitations](../../obsidian/01-svyazi/14-limitations.md) (сходство 0.49)
 

@@ -1,10 +1,25 @@
 # passports/meta.md
 
+<!-- toc-auto -->
+## Contents
+
+- [passports/meta.md](#passportsmetamd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > **Символьный угол экосистемы svend4**
 
 ---
 <!-- tags: collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -25,7 +40,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [45-passports-pro2-md](45-passports-pro2-md.md) (сходство 0.24)
 - [35-passports-info1-md](35-passports-info1-md.md) (сходство 0.22)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md) (сходство 0.18)
@@ -35,7 +50,14 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports meta md"
+```
+
+## Смотрите также
 - [35-passports-info1-md](35-passports-info1-md.md)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
 - [45-passports-pro2-md](45-passports-pro2-md.md)
@@ -81,3 +103,17 @@ markdown
 - [Essence](36-essence.md) _33%_
 - [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md) _33%_
 - [Angle / Perspective](59-angle-perspective.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [README](README.md)
+
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

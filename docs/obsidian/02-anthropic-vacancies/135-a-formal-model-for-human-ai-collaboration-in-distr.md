@@ -3,12 +3,35 @@ title: "A Formal Model for Human-AI Collaboration in Distributed Knowledge Work"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
 
+<!-- toc-auto -->
+## Contents
+
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Editorial review:** Claude (intellectual collaboration, 2026-04)
 
 ---
@@ -32,7 +55,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[152-ai-coordinated-infrastructure-for-distributed-expe]] (сходство 0.44)
 - [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.40)
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.37)
@@ -42,7 +65,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "A Formal Model for Human AI"
+```
+
+## Смотрите также
 - [[152-ai-coordinated-infrastructure-for-distributed-expe]]
 - [[167-ai-mediated-representation-for-underrepresented-ex]]
 - [[03-portal-protocol-md]]
@@ -85,3 +114,19 @@ date: 2026-04-29
 - [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _21%_
 - [[153-executive-summary|Executive Summary]] _21%_
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [[03-portal-protocol-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+- [[153-executive-summary]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[181-12-closing]]
+- [[182-acknowledgments]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- _...ещё 5_
+

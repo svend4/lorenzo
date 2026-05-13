@@ -1,5 +1,12 @@
 # Методика и рамка отбора
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -27,11 +34,34 @@
 
 ---
 
-**Смотрите также:**
-- [02-методика-и-рамка-отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md)
-- [02-methodology](docs/01-svyazi/02-methodology.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
-- [message-template](docs/svyazi-2-0/outreach/message-template.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Методика и рамка отбора"
+```
+
+## Смотрите также
+- [02-методика-и-рамка-отбора](../../04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [02-methodology](../../01-svyazi/02-methodology.md)
+- [executive-summary](executive-summary.md)
+- [message-template](../outreach/message-template.md)
+
+_Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](../../habr-unique-projects/evaluation/README.md)
+- [README](README.md)
+- [projects-map](projects-map.md)
 
 
 <!-- similar-docs -->
@@ -39,7 +69,7 @@
 ---
 
 **Похожие документы:**
-- [02-методика-и-рамка-отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.76)
-- [02-методика-и-рамка-отбора](docs/obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.71)
-- [02-methodology](docs/01-svyazi/02-methodology.md) (сходство 0.63)
+- [methodology](../../obsidian/svyazi-2-0/overview/methodology.md) (сходство 0.96)
+- [02-методика-и-рамка-отбора](../../04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.74)
+- [02-методика-и-рамка-отбора](../../obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.73)
 

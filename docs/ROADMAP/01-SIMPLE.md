@@ -1,5 +1,18 @@
 # 01 — Простые улучшения (1-3 спринта каждое)
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+**Проекты:** Svyazi, AgentFS
+
+---
+
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 Проверенные паттерны, низкий риск, измеримый прирост value. Каждое можно сделать за 1-3 спринта на основе уже существующих primitives.
 
 **Документ:** часть серии ROADMAP. См. также: [00-CURRENT-STATE](./00-CURRENT-STATE.md), [02-MEDIUM](./02-MEDIUM.md), [03-INNOVATIVE](./03-INNOVATIVE.md), [04-NOVEL](./04-NOVEL.md), [05-PRIORITIES](./05-PRIORITIES.md).
@@ -403,3 +416,27 @@ def recommendations_for(user: str, top_k: int = 10) -> list[tuple[str, float, st
 5. **S1** (saved searches) — нужны webhooks (есть) + reads (S7)
 6. **S3** (classification) — utility, не блокирует
 7. **S5** (bulk diff) — nice-to-have, можно отложить
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [04-NOVEL](04-NOVEL.md)
+- [05-PRIORITIES](05-PRIORITIES.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-MEDIUM](02-MEDIUM.md)
+- [05-PRIORITIES](05-PRIORITIES.md)
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [04-NOVEL](04-NOVEL.md)
+

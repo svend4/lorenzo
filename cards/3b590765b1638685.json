@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:3b590765b1638685",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/15-glossary.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/10-query-result.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:60411432b22a971d",
+  "payload": {
+    "title": "15. Glossary of Examples",
+    "summary": "В качестве иллюстраций используется экосистема `svend4` с тремя",
+    "body": "glossary examples источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol draft rfc более ранняя версия appendix minimal working example minimal nautilus json protocol version ecosystem name example repositories name notes format adapter adapters notes compatibility level minimal adapter from pathlib import path from base import baseadapter portalentry class mynotesadapter baseadapter name notes def init self repo path self repo path path repo path def describe self files list self repo path glob return name self name format total entries len files topics def fetch self query results for path self repo path glob text path read text query lower text lower results append portalentry repo name self name native str path relative self repo path title path stem summary text content text tags confidence native metadata path str path url none return results minimal passport notes essence персональная коллекция markdown заметок native format файлы произвольной иерархии content overview заметок темы software engineering philosophy music angle perspective methodological how reflection author example user example email com смотрите также glossary examples anthropic vacancies glossary examples appendix change log appendix change log reference implementation reference implementation query result query result",
+    "tags": [
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 272,
+    "path": "docs/nautilus/npp-v1-0/15-glossary.md"
+  }
+}

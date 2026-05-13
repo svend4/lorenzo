@@ -1,6 +1,28 @@
 # Appendix A: Decision Tree for InGit Adopters
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Decision Tree for InGit Adopters](#appendix-a-decision-tree-for-ingit-adopters)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > Quick reference for users evaluating InGit + Cowork:
 
 ---
@@ -41,7 +63,7 @@ needs.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [270-appendix-b-sub-agent-registry-schema-sketch](270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.13)
 - [322-appendix-b-comparison-matrix](322-appendix-b-comparison-matrix.md) (сходство 0.10)
 
@@ -50,7 +72,7 @@ needs.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [270-appendix-b-sub-agent-registry-schema-sketch](270-appendix-b-sub-agent-registry-schema-sketch.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [271-appendix-c-configuration-template-example](271-appendix-c-configuration-template-example.md)
@@ -90,3 +112,13 @@ needs.
 - [Содержание](326-содержание.md) _21%_
 - [Кластеры тематически близких файлов](../CLUSTERS.md) _21%_
 - [Качество абзацев](../PARAGRAPH_QUALITY.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [308-table-of-contents](308-table-of-contents.md)
+- [326-содержание](326-содержание.md)
+- [README](README.md)
+

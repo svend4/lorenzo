@@ -1,33 +1,65 @@
 # Список чтения
 
-_Обновлено: 2026-04-29_
+<!-- toc -->
+## Содержание
 
-**топ по насыщенности** | Документов: **15** | Время: **~1703 мин** (28ч 23м)
+- [По секциям](#по-секциям)
+  - [`02-anthropic-vacancies` (6 докум., ~387 мин)](#02-anthropic-vacancies-6-докум-387-мин)
+  - [`04-ai-collaborations` (1 докум., ~53 мин)](#04-ai-collaborations-1-докум-53-мин)
+  - [`CONCEPTS.md` (1 докум., ~65 мин)](#conceptsmd-1-докум-65-мин)
+  - [`OUTLINE.md` (1 докум., ~183 мин)](#outlinemd-1-докум-183-мин)
+  - [`READABILITY.md` (1 докум., ~159 мин)](#readabilitymd-1-докум-159-мин)
+  - [`READING_TIME.md` (1 докум., ~117 мин)](#reading_timemd-1-докум-117-мин)
+  - [`SITEMAP.md` (1 докум., ~41 мин)](#sitemapmd-1-докум-41-мин)
+  - [`SOURCE_MAP.md` (1 докум., ~50 мин)](#source_mapmd-1-докум-50-мин)
+  - [`TABLES.md` (1 докум., ~1426 мин)](#tablesmd-1-докум-1426-мин)
+  - [`nautilus` (1 докум., ~39 мин)](#nautilus-1-докум-39-мин)
+- [Использование](#использование)
+
+---
+
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `READING_LIST` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: reading-list, docs -->
+
+
+<!-- summary -->
+> `READING_LIST` — раздел документации проекта Lorenzo.
+
+
+_Обновлено: 2026-05-11_
+
+**топ по насыщенности** | Документов: **15** | Время: **~2520 мин** (42ч 0м)
 
 | # | Документ | Секция | Время | Слов | Score |
 |---|----------|--------|-------|------|-------|
-| 1 | [Все таблицы репозитория](docs/TABLES.md) | `TABLES.md` | 726 мин | 169164 | — |
-| 2 | [Outline базы знаний](docs/OUTLINE.md) | `OUTLINE.md` | 133 мин | 30208 | — |
-| 3 | [Читаемость документов (Flesch-Kincaid)](docs/READABILITY.md) | `READABILITY.md` | 109 мин | 25522 | — |
-| 4 | [Время чтения документов](docs/READING_TIME.md) | `READING_TIME.md` | 106 мин | 25007 | — |
-| 5 | [Приложение C: Образец Спецификаций Инструментов In](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) | `02-anthropic-vacancies` | 89 мин | 20553 | — |
-| 6 | [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | `02-anthropic-vacancies` | 90 мин | 19217 | — |
-| 7 | [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) | `02-anthropic-vacancies` | 75 мин | 17075 | — |
-| 8 | [Глоссарий понятий](docs/CONCEPTS.md) | `CONCEPTS.md` | 57 мин | 13247 | — |
-| 9 | [Карта происхождения текстов](docs/SOURCE_MAP.md) | `SOURCE_MAP.md` | 49 мин | 12013 | — |
-| 10 | [Что такое Вариант C — Concept Document для Anthrop](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) | `02-anthropic-vacancies` | 47 мин | 11399 | — |
-| 11 | [Введение](docs/04-ai-collaborations/00-intro.md) | `04-ai-collaborations` | 53 мин | 11389 | — |
-| 12 | [Diff базы знаний между версиями](docs/VERSION_DIFF.md) | `VERSION_DIFF.md` | 46 мин | 11170 | — |
-| 13 | [⬡](docs/02-anthropic-vacancies/69-section.md) | `02-anthropic-vacancies` | 43 мин | 9531 | — |
-| 14 | [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) | `nautilus` | 38 мин | 9486 | — |
-| 15 | [Closing](docs/02-anthropic-vacancies/165-closing.md) | `02-anthropic-vacancies` | 42 мин | 9400 | — |
+| 1 | [Все таблицы репозитория](docs/TABLES.md) | `TABLES.md` | 1426 мин | 334302 | — |
+| 2 | [Outline базы знаний](docs/OUTLINE.md) | `OUTLINE.md` | 183 мин | 40378 | — |
+| 3 | [Читаемость документов (Flesch-Kincaid)](docs/READABILITY.md) | `READABILITY.md` | 159 мин | 37544 | — |
+| 4 | [Время чтения документов](docs/READING_TIME.md) | `READING_TIME.md` | 117 мин | 27575 | — |
+| 5 | [Приложение C: Образец Спецификаций Инструментов In](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) | `02-anthropic-vacancies` | 89 мин | 20580 | — |
+| 6 | [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | `02-anthropic-vacancies` | 91 мин | 19240 | — |
+| 7 | [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) | `02-anthropic-vacancies` | 75 мин | 17102 | — |
+| 8 | [Глоссарий понятий](docs/CONCEPTS.md) | `CONCEPTS.md` | 65 мин | 15040 | — |
+| 9 | [Карта происхождения текстов](docs/SOURCE_MAP.md) | `SOURCE_MAP.md` | 50 мин | 12223 | — |
+| 10 | [Введение](docs/04-ai-collaborations/00-intro.md) | `04-ai-collaborations` | 53 мин | 11507 | — |
+| 11 | [Что такое Вариант C — Concept Document для Anthrop](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) | `02-anthropic-vacancies` | 47 мин | 11428 | — |
+| 12 | [Карта репозитория Lorenzo](docs/SITEMAP.md) | `SITEMAP.md` | 41 мин | 9605 | — |
+| 13 | [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) | `nautilus` | 39 мин | 9568 | — |
+| 14 | [⬡](docs/02-anthropic-vacancies/69-section.md) | `02-anthropic-vacancies` | 43 мин | 9563 | — |
+| 15 | [Closing](docs/02-anthropic-vacancies/165-closing.md) | `02-anthropic-vacancies` | 42 мин | 9492 | — |
 
 ## По секциям
 
-### `02-anthropic-vacancies` (6 докум., ~386 мин)
+### `02-anthropic-vacancies` (6 докум., ~387 мин)
 
 - [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) — 89 мин
-- [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) — 90 мин
+- [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) — 91 мин
 - [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) — 75 мин
 - [Что такое Вариант C — Concept Document для Anthropic Benefic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) — 47 мин
 - [⬡](docs/02-anthropic-vacancies/69-section.md) — 43 мин
@@ -37,35 +69,69 @@ _Обновлено: 2026-04-29_
 
 - [Введение](docs/04-ai-collaborations/00-intro.md) — 53 мин
 
-### `CONCEPTS.md` (1 докум., ~57 мин)
+### `CONCEPTS.md` (1 докум., ~65 мин)
 
-- [Глоссарий понятий](docs/CONCEPTS.md) — 57 мин
+- [Глоссарий понятий](docs/CONCEPTS.md) — 65 мин
 
-### `OUTLINE.md` (1 докум., ~133 мин)
+### `OUTLINE.md` (1 докум., ~183 мин)
 
-- [Outline базы знаний](docs/OUTLINE.md) — 133 мин
+- [Outline базы знаний](docs/OUTLINE.md) — 183 мин
 
-### `READABILITY.md` (1 докум., ~109 мин)
+### `READABILITY.md` (1 докум., ~159 мин)
 
-- [Читаемость документов (Flesch-Kincaid)](docs/READABILITY.md) — 109 мин
+- [Читаемость документов (Flesch-Kincaid)](docs/READABILITY.md) — 159 мин
 
-### `READING_TIME.md` (1 докум., ~106 мин)
+### `READING_TIME.md` (1 докум., ~117 мин)
 
-- [Время чтения документов](docs/READING_TIME.md) — 106 мин
+- [Время чтения документов](docs/READING_TIME.md) — 117 мин
 
-### `SOURCE_MAP.md` (1 докум., ~49 мин)
+### `SITEMAP.md` (1 докум., ~41 мин)
 
-- [Карта происхождения текстов](docs/SOURCE_MAP.md) — 49 мин
+- [Карта репозитория Lorenzo](docs/SITEMAP.md) — 41 мин
 
-### `TABLES.md` (1 докум., ~726 мин)
+### `SOURCE_MAP.md` (1 докум., ~50 мин)
 
-- [Все таблицы репозитория](docs/TABLES.md) — 726 мин
+- [Карта происхождения текстов](docs/SOURCE_MAP.md) — 50 мин
 
-### `VERSION_DIFF.md` (1 докум., ~46 мин)
+### `TABLES.md` (1 докум., ~1426 мин)
 
-- [Diff базы знаний между версиями](docs/VERSION_DIFF.md) — 46 мин
+- [Все таблицы репозитория](docs/TABLES.md) — 1426 мин
 
-### `nautilus` (1 докум., ~38 мин)
+### `nautilus` (1 докум., ~39 мин)
 
-- [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) — 38 мин
+- [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) — 39 мин
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_reading_list.py
+```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [COMPLEXITY](COMPLEXITY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [COMPLEXITY](COMPLEXITY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [04-enrichment](meta-scripting/04-enrichment.md)
+- _...ещё 1_
 

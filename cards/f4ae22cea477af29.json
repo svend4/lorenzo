@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:f4ae22cea477af29",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:a513f24a168d6f5b",
+  "payload": {
+    "title": "Графовая когнитивная память на SQLite (Виталий, март 2026)",
+    "summary": "2. Графовая когнитивная память на SQLite (Виталий, март 2026)",
+    "body": "графовая когнитивная память sqlite виталий март important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога вариант продолжение поиска уникальных проектов финальное ранжирование проекты ngt memory смотрите также mem letta graphiti mem letta graphiti coally coally key observation key observation приложение образец спецификаций инструментов ing anthropic vacancies приложение образец спецификаций инструментов ing",
+    "tags": [
+      "memory",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "NGT Memory"
+    ],
+    "wc": 301,
+    "path": "docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md"
+  }
+}

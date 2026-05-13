@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:0f9b57e1e03ea136",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:8604fba284795589",
+  "payload": {
+    "title": "Двухслойный стек, как он существует",
+    "summary": "аналогичные продукты от других провайдеров).",
+    "body": "двухслойный стек как существует источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также двухслойный стек как существует anthropic vacancies двухслойный стек как существует otsutstvuet sloy otsutstvuet sloy konkretnyy sluchay konkretnyy sluchay priblizheniya priblizheniya",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 316,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md"
+  }
+}

@@ -1,5 +1,17 @@
 # nautilus/ — Nautilus Portal Protocol и связанные working papers
 
+<!-- toc-auto -->
+
+
+<!-- summary -->
+> Nautilus Portal Protocol: спецификации NPP v1.0 и v1.1, адаптеры, паспорта и протоколы взаимодействия.
+
+<!-- tags: nautilus, protocol, overview -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
+
 Часть исходного MHTML‑снимка `Вакансии в Anthropic по кластерам - Claude` посвящена не вакансиям, а собственным архитектурным работам пользователя — формальной спецификации **Nautilus Portal Protocol** и нескольким companion papers. Содержимое разбито здесь на тематические подпапки.
 
 ## Подпапки
@@ -52,12 +64,34 @@
 - **Architecture Spec** и **Card Envelope** в Svyazi 2.0 связаны с PortalEntry/Card паттернами здесь: [`../svyazi-2-0/architecture/`](../svyazi-2-0/architecture/).
 - **Профиль svend4** (автор) — см. [`../anthropic-vacancies/profile-mapping/`](../anthropic-vacancies/profile-mapping/).
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "nautilus Nautilus Portal Protocol и связ"
+```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [concepts](../glossary/concepts.md)
+- [2-tsu-mome](../habr-unique-projects/hardware-pairs/2-tsu-mome.md)
+- _...ещё 3_
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [355-существующие-документы-dhlab-твой-context](docs/obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.14)
-- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.14)
-- [306-with-anthropic-s-cowork-platform](docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.14)
+- [README](../obsidian/nautilus/README.md) (сходство 0.99)
+- [00-intro](infrastructure-layer-b-en/00-intro.md) (сходство 0.17)
+- [00-intro](../obsidian/nautilus/infrastructure-layer-b-en/00-intro.md) (сходство 0.17)
 

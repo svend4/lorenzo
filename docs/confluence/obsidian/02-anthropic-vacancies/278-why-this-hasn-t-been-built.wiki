@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,10 +9,15 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Why This Hasn't Been Built
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 h2. Содержание
@@ -26,6 +31,10 @@ h2. Содержание
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -93,7 +102,7 @@ integration does not.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[285-closing]] (сходство 0.15)
 * [[279-existing-approximations]] (сходство 0.14)
 * [[276-the-two-layer-stack-as-it-exists]] (сходство 0.12)
@@ -103,7 +112,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Hasn t Been Built"
+{code}
+
+h2. Смотрите также
 * [[285-closing]]
 * [[279-existing-approximations]]
 * [[275-why-this-document-exists]]
@@ -147,3 +162,19 @@ h2. Связанные документы
 * [[279-existing-approximations|Existing Approximations]] _25%_
 * [[286-acknowledgments|Acknowledgments]] _25%_
 * [[275-why-this-document-exists|Why This Document Exists]] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [[168-abstract]]
+* [[266-13-closing]]
+* [[275-why-this-document-exists]]
+* [[276-the-two-layer-stack-as-it-exists]]
+* [[277-what-s-missing-layer-b]]
+* [[281-the-recursive-insight]]
+* [[282-what-industry-will-likely-build]]
+* [[283-what-this-document-doesn-t-solve]]
+* _...ещё 3_
+

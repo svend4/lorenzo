@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:9b3259ec81223249",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/50-bridges.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/60-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/40-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/61-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/57-native-format.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/35-passports-info1-md.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:aa673f0cdea6ceb7",
+  "payload": {
+    "title": "Bridges",
+    "summary": "hamming-переходов от «root» вершин) коррелирует с α-уровнем в",
+    "body": "bridges contents bridges bridges pro info pro info интегральный анализ профиля svend pro meta pro интегральный анализ профиля svend meta concept depth level глубина концепта графе число похожие документы bridges bridges сходство bridges bridges сходство смотрите также bridges bridges bridges bridges compatibility level compatibility level native format native format кто ссылается этот документ passports info passports info native format native format compatibility level compatibility level native format native format compatibility level compatibility level readme readme",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 188,
+    "path": "docs/02-anthropic-vacancies/50-bridges.md"
+  }
+}

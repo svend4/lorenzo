@@ -1,11 +1,28 @@
 # Ансамбль E — Safe and cheap execution plane
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, SENTINEL, LiteLLM, Auto AI Router, Tool Search
 
 ---
 <!-- tags: orchestration, security, ingestion, architecture -->
+
+> [!WARNING]
+> Документ содержит важные предупреждения и ограничения.
+
 
 
 
@@ -40,11 +57,28 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
-- [security-routing-plane](docs/svyazi-2-0/components/security-routing-plane.md)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [budget-routing](docs/svyazi-2-0/security/budget-routing.md)
+## Смотрите также
+- [security-routing-plane](../components/security-routing-plane.md)
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [budget-routing](../security/budget-routing.md)
+
+_Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [security-routing-plane](../components/security-routing-plane.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -52,7 +86,7 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [security-routing-plane](docs/svyazi-2-0/components/security-routing-plane.md) (сходство 0.29)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.22)
-- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.21)
+- [E-execution-plane](../../obsidian/svyazi-2-0/ensembles/E-execution-plane.md) (сходство 0.97)
+- [security-routing-plane](../components/security-routing-plane.md) (сходство 0.30)
+- [security-routing-plane](../../obsidian/svyazi-2-0/components/security-routing-plane.md) (сходство 0.29)
 

@@ -1,16 +1,21 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/03-technology-combinations/03-local-first.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Local-first и P2P стек"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Local-first и P2P стек
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 h2. Содержание
@@ -23,6 +28,10 @@ h2. Содержание
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -81,7 +90,7 @@ h4. Комбинация 4: Парсинг с LLM × Graph-RAG × Правиль
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[01-agent-routing]] (сходство 0.12)
 * [[05-benchmarks]] (сходство 0.11)
 * [[02-knowledge-graphs]] (сходство 0.11)
@@ -91,7 +100,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Local first и P2P стек"
+{code}
+
+h2. Смотрите также
 * [[01-agent-routing]]
 * [[05-benchmarks]]
 * [[02-knowledge-graphs]]
@@ -124,3 +139,13 @@ h2. Связанные документы
 * [[GLOSSARY|Глоссарий проектов]] _17%_
 * [[HEATMAP|Тепловая карта тем]] _17%_
 * [[SITEMAP|Карта репозитория Lorenzo]] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (3)
+* [[01-agent-routing]]
+* [[05-benchmarks]]
+* [[README]]
+

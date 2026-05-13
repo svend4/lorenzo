@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 3. Принципы консолидации (Фаза C)
@@ -108,7 +108,7 @@ h4. Правило 3: Разные формулировки одного фак�
 
 Пример:
 * A: «Nautilus реализует adapter pattern»  
-* B: «Nautilus использует GoF Adapter Pattern с [PortalEntry|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md] как 
+* B: «Nautilus использует GoF Adapter Pattern с [PortalEntry|01-интегральный-анализ-профиля-svend4.md] как 
       target interface и native-форматами как adaptees»
 
 → В main взять A (читается легче), в Appendix — развёрнутое 
@@ -148,7 +148,7 @@ h4. Правило 5: Конфликтующие выводы
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [71-критерии-выбора-для-фазы-3](71-критерии-выбора-для-фазы-3.md) (сходство 0.21)
 
 
@@ -156,7 +156,7 @@ h4. Правило 5: Конфликтующие выводы
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [71-критерии-выбора-для-фазы-3](71-критерии-выбора-для-фазы-3.md)
 - [107-1-контекст-и-мотивация](107-1-контекст-и-мотивация.md)
 - [108-2-формальный-workflow](108-2-формальный-workflow.md)
@@ -186,3 +186,19 @@ h4. Правило 5: Конфликтующие выводы
 - [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _17%_
 - [Abstract](74-abstract.md) _17%_
 - [2. Terminology](77-2-terminology.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [64-for-the-curious-philosophy](64-for-the-curious-philosophy.md)
+- [71-критерии-выбора-для-фазы-3](71-критерии-выбора-для-фазы-3.md)
+- [74-abstract](74-abstract.md)
+- [README](README.md)
+
+# Native Format
+
+## Native Format
+Формат хранения: `.ext`, структура, примеры.

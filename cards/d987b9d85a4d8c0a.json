@@ -1,0 +1,58 @@
+{
+  "card_id": "sha256:d987b9d85a4d8c0a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/source-projects.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/final-ensembles/4-summary-authors.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:95134142f6161205",
+  "payload": {
+    "title": "Source projects — все Хабр-источники в диалоге",
+    "summary": "Полный список Хабр-статей и репозиториев, упомянутых в диалоге `Поиск коллабораций AI проектов`. Сгруппировано тематически. Ссылки даны как есть; перейти можно вручную (заметка: Claude в этом диалоге также давал ссылки в репликах, у некоторых может быть устаревший формат).",
+    "body": "source projects все хабр источники диалоге полный список хабр статей репозиториев упомянутых диалоге поиск коллабораций проектов сгруппировано тематически ссылки даны как есть перейти можно вручную заметка claude этом диалоге проекты svyazi hybrid rag yodoca ngt memory memnet litellm auto router autoresearch полный список хабр статей репозиториев упомянутых диалоге поиск коллабораций проектов сгруппировано тематически ссылки даны как есть перейти можно вручную заметка claude этом диалоге также давал ссылки репликах некоторых может быть устаревший формат прямые аналоги svyazi проект автор url аскольд романов яндекс образование https habr com companies yandex articles wikontic алла чепурова airi https habr com companies airi articles https habr com companies airi articles ngt memory spbmolot https habr com articles программа поиска единомышленников вконтакте https habr com articles анатомия агента для подбора персонала teamly https habr com companies teamly articles память для агентов проект url yodoca https habr com articles memnet memory all you need https habr com articles openclaw систем памяти https habr com articles слепое пятно llm разработки https habr com articles голосовой ввод whisper ollama https habr com articles hardware near нейроморфы термодинамика memory тема url нейроморфные процессоры loihi truenorth brainscales алтай https habr com companies yadro articles mamba ssm https habr com articles https habr com companies sberdevices articles extropic thrml https habr com companies ruvds articles https habr com articles normal computing https habr com news zinc inference engine для qwen https habr com articles risc xuantie alibaba vector matrix acceleration https habr com companies selectel articles memory computing мемристорах rram cbram https habr com companies yadro articles https habr com companies neuronet articles workflow агентные оркестраторы проект url subagents cursor claude code https habr com articles https habr com articles mcp skills https habr com articles https habr com articles claude code headless mode https habr com companies surfstudio articles self aware mcp сервер https habr com articles github com vuguzum self aware mcp server auto router https habr com articles иерархия моделей librechat litellm ollama https habr com articles comments document parsing rag проект url победитель rag challenge https habr com articles гуманитарий месяца rag локально https habr com articles hybrid rag минут pdfplumber https habr com articles local rag вечер https habr com articles graph rag подходов rag https habr com articles adversarial multi ide code review проект url adversarial review дмитрий дементьев https habr com articles github com dementev dev adversarial review сравнение агентских ide https habr com articles continue ollama офлайн https habr com articles серена mcp xcode mcp figma mcp vision сравнение ios https habr com articles voice транскрипция проект url голосовой ввод handy openwhispr gigaam https habr com articles локальный транскрибатор диаризацией юmoney https habr com companies yoomoney articles browser agents scraping проект url claude chrome cowork https habr com articles firecrawl https habr com articles tmux village multi agent teams проект url деревня агентов через tmux https habr com articles автономная новостная система https habr com articles агентов моделей сервер https habr com articles self improvement nightly research проект url autoresearch карпаты https habr com articles виктория дочкина sequential https habr com articles прочее data sources tools philosophy проект url chat analyser https habr com articles github com artur gavronchuk chat analyser бот для самопознания pda https habr com articles skills каталог скиллов https docling ibm research https olegtalks base tpost kev docling gotovim dannie dlya rag llm исходная статья чуяна про svyazi https habr com articles смотрите также authors name glossary authors name components name glossary components name voice local memory habr unique projects deep pairs voice local memory summary authors habr unique projects final ensembles summary authors",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "ingestion",
+      "local-first",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "LiteLLM",
+      "Auto AI Router",
+      "AutoResearch",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 705,
+    "path": "docs/ai-collaborations/source-projects.md"
+  }
+}

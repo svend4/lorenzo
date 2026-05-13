@@ -1,10 +1,26 @@
 # Что я могу сделать сейчас
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
 
 ---
 <!-- tags: security, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -29,11 +45,30 @@
 
 ---
 
-**Смотрите также:**
-- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
-- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что я могу сделать сейчас"
+```
+
+## Смотрите также
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+- [05-which-combination-more-valuable](../npp-humanitarian-extension/05-which-combination-more-valuable.md)
+- [03-what-doesnt-exist-on-market](../npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
+- [03-what-this-gives-technically](03-what-this-gives-technically.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -41,7 +76,7 @@
 ---
 
 **Похожие документы:**
-- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.22)
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.16)
-- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md) (сходство 0.13)
+- [04-what-i-can-do-now](../../obsidian/nautilus/privacy-federation/04-what-i-can-do-now.md) (сходство 0.99)
+- [04-grant-opportunities](../../obsidian/nautilus/npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.23)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.23)
 

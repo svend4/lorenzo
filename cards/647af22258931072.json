@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:647af22258931072",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/transmission-box/00-question-mountain-to-person.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/150-appendix-c-version-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/supply-demand/00-question-supply-demand.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:0eab229bd42a68ca",
+  "payload": {
+    "title": "Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к…",
+    "summary": "Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к горе и тут как всегда не хватает середины золотой середины посредником то есть коробки передач…",
+    "body": "hast gesagt того если гора идёт человеку может быть этот человек пойдёт tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога если гора идёт человеку посредник как коробка передач смотрите также appendix version history anthropic vacancies appendix version history question supply demand supply demand question supply demand platform not position anthropic vacancies profile mapping integral final platform not position question multiple mentors composite skills agents companion mentors question multiple mentors",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 549,
+    "path": "docs/nautilus/transmission-box/00-question-mountain-to-person.md"
+  }
+}

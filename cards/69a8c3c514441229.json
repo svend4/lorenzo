@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:69a8c3c514441229",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/06-search.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/processing-guide/01-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/PROCESSING_GUIDE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/07-llm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/05-analysis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/10-future.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:26+00:00",
+  "updated_at": "2026-05-10T17:29:26+00:00",
+  "payload_hash": "sha256:54c51f3ce552dede",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 6: Поиск",
+    "summary": "Уровень 1: grep / find                  — быстро, грубо",
+    "body": "обработка больших массивов часть поиск important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь как найти нужное документах простого grep фасетов проекты agentfs yodoca memnet sentinel как найти нужное документах простого grep фасетов уровни поиска простого сложному уровень grep find быстро грубо уровень поисковый индекс полнотекстовый preview уровень okapi релевантность просто вхождение уровень поиск абзацам passage точность уровне абзаца уровень фасетный поиск поиск фильтрами уровень список чтения теме персонализированный маршрут уровень семантический векторный нужен embedding модель уровень llm вопрос ответ цитатами уровень поисковый индекс improve search index строит docs search index json документа каждая запись file docs habr projects memory yodoca title yodoca консолидация забывание content yodoca научил агента помнить важное preview sqlite fts hot path tags memory sqlite collaboration words python scripts improve search index python scripts improve index update инкрементальное обновление уровень improve keyword index best match стандарт информационного поиска лучше idf учитывает насыщенность документа term saturation учитывает длину документа document length normalization параметры python scripts improve keyword index построить индекс python scripts improve keyword index query агент память поиск инвертированный индекс биграммы агент file yodoca score file agentfs score агент память file ngt memory score уровень поиск абзацам improve passage retrieval зачем файл yodoca слов найдёт файл нужен конкретный абзац про hot path python scripts improve passage retrieval index построить python scripts improve passage retrieval query горячий путь sqlite top результат docs habr projects memory yodoca hot path разделение hot path запись эпизодов sqlite fts без llm slow path асинхронные эмбеддинги docs collaborations приоритетные ансамбли память yodoca обеспечивает горячий путь без llm применение rag этот passages json можно подавать llm как контекст уровень фасетный поиск improve faceted search фасеты фильтры поверх полнотекстового поиска поиск тексту конкретной секции python scripts improve faceted search query граф памяти section habr projects поиск файлов конкретной сущностью python scripts improve faceted search entity agentfs top только файлы проектами изменённые после даты python scripts improve faceted search type projects after комбинация фасетов python scripts improve faceted search query безопасность entity sentinel section collaborations min words аналог google advanced search elasticsearch фильтрами уровень персонализированный список чтения improve reading list просто поиск маршрут изучения темы python scripts improve reading list query агент памятью python scripts improve reading list query rag retrieval top python scripts improve reading list query yodoca section habr projects python scripts improve reading list format json machine readable алгоритм запросу базовый score умножает важность файла priorities умножает связность количество входящих ссылок оценивает время чтения мин группирует секциям для логического порядка результат список чтения агент памятью документов мин docs habr projects memory документа мин yodoca слов мин ngt memory слова мин memnet слов мин docs collaborations документа мин уровень похожие пассажи improve similar passages находит дублирующийся контент между файлами точные копии смыслово похожие абзацы idf cosine python scripts improve similar passages python scripts improve similar passages min sim только очень похожие применение обнаружить что одна идея описана разных местах кандидаты для слияния один канонический документ уровень семантический поиск реализован план векторный поиск embeddings cosine similarity нужно sentence transformers или api from sentence transformers import sentencetransformer model sentencetransformer paraphrase multilingual minilm индексация embeddings model encode chunk text for chunk chunks сохранить faiss chromadb sqlite vec поиск query vec model encode как устроена долгосрочная память агента scores cosine similarity query vec embeddings преимущество над находит семантически близкие тексты даже без общих слов почему реализовано требует модель или платный api даёт качества при стоимости сравнение методов поиска метод точность скорость стоимость реализован grep низкая мгновенно полнотекстовый индекс средняя быстро высокая быстро поиск абзацам очень высокая быстро фасетный высокая фильтры быстро семантический векторный очень высокая средне модель план llm максимальная медленно api ждёт ключа следующий шаг после поиска часть llm обогащение кто ссылается этот документ overview overview processing guide processing guide readme readme смотрите также processing guide processing guide llm llm analysis analysis future future",
+    "tags": [
+      "memory",
+      "rag",
+      "security",
+      "knowledge",
+      "ingestion",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "AgentFS",
+      "Yodoca",
+      "MemNet",
+      "SENTINEL"
+    ],
+    "wc": 965,
+    "path": "docs/processing-guide/06-search.md"
+  }
+}

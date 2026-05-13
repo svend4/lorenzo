@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:929108eae235dda1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/architecture/review-record.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/architecture/integration-spec.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/card-envelope.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/evidence-envelope.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/memory-write-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:7b36fd4a46dae478",
+  "payload": {
+    "title": "Review Record",
+    "summary": "",
+    "body": "review record источник deep research report раздел интеграционный контракт проекты mclaude factory смотрите также integration spec integration spec card envelope card envelope evidence envelope evidence envelope memory write policy memory write policy кто ссылается этот документ concepts glossary concepts readme readme integration spec integration spec",
+    "tags": [
+      "rag",
+      "orchestration",
+      "architecture"
+    ],
+    "projects": [
+      "mclaude",
+      "AI Factory"
+    ],
+    "wc": 121,
+    "path": "docs/svyazi-2-0/architecture/review-record.md"
+  }
+}

@@ -1,32 +1,66 @@
 # Кластеры вакансий
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 16
 
 ## Содержание
 
-- [01-ai-research-engineering.md](01-ai-research-engineering.md) — <!-- summary -->
-- [02-sales.md](02-sales.md) — <!-- summary -->
-- [03-finance.md](03-finance.md) — <!-- summary -->
-- [04-security.md](04-security.md) — <!-- summary -->
-- [05-marketing-brand.md](05-marketing-brand.md) — <!-- summary -->
-- [06-engineering-design-product.md](06-engineering-design-product.md) — <!-- summary -->
-- [07-software-engineering-infrastructure.md](07-software-engineering-infrastructure.md) — <!-- summary -->
-- [08-safeguards-trust-safety.md](08-safeguards-trust-safety.md) — <!-- summary -->
-- [09-product-management-support-ops.md](09-product-management-support-ops.md) — <!-- summary -->
-- [10-compute.md](10-compute.md) — <!-- summary -->
-- [11-legal.md](11-legal.md) — <!-- summary -->
-- [12-technical-program-management.md](12-technical-program-management.md) — <!-- summary -->
-- [13-communications.md](13-communications.md) — <!-- summary -->
-- [14-public-policy.md](14-public-policy.md) — <!-- summary -->
-- [15-public-benefit.md](15-public-benefit.md) — <!-- summary -->
-- [16-people.md](16-people.md) — <!-- summary -->
+- [01-ai-research-engineering.md](01-ai-research-engineering.md) — <!-- toc-auto -->
+- [02-sales.md](02-sales.md) — <!-- toc-auto -->
+- [03-finance.md](03-finance.md) — <!-- toc-auto -->
+- [04-security.md](04-security.md) — <!-- toc-auto -->
+- [05-marketing-brand.md](05-marketing-brand.md) — <!-- toc-auto -->
+- [06-engineering-design-product.md](06-engineering-design-product.md) — <!-- toc-auto -->
+- [07-software-engineering-infrastructure.md](07-software-engineering-infrastructure.md) — <!-- toc-auto -->
+- [08-safeguards-trust-safety.md](08-safeguards-trust-safety.md) — <!-- toc-auto -->
+- [09-product-management-support-ops.md](09-product-management-support-ops.md) — <!-- toc-auto -->
+- [10-compute.md](10-compute.md) — <!-- toc-auto -->
+- [11-legal.md](11-legal.md) — <!-- toc-auto -->
+- [12-technical-program-management.md](12-technical-program-management.md) — <!-- toc-auto -->
+- [13-communications.md](13-communications.md) — <!-- toc-auto -->
+- [14-public-policy.md](14-public-policy.md) — <!-- toc-auto -->
+- [15-public-benefit.md](15-public-benefit.md) — <!-- toc-auto -->
+- [16-people.md](16-people.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-ai-research-engineering](01-ai-research-engineering.md)
+- [02-sales](02-sales.md)
+- [03-finance](03-finance.md)
+- _...ещё 7_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [overview](docs/anthropic-vacancies/overview.md) (сходство 0.33)
-- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.23)
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.20)
+- [README](../../obsidian/anthropic-vacancies/clusters/README.md) (сходство 0.87)
+- [README](../../svyazi-2-0/security/README.md) (сходство 0.34)
+- [overview](../overview.md) (сходство 0.34)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

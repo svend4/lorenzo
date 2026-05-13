@@ -1,10 +1,26 @@
 # Метафора в твоей терминологии
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 ---
 <!-- tags: memory, orchestration, knowledge, ingestion, local-first, architecture, roadmap, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +49,33 @@
 
 ---
 
-**Смотрите также:**
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md)
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Метафора в твоей терминологии"
+```
+
+## Смотрите также
+- [7-metaphor](../hardware-pairs/7-metaphor.md)
+- [6-bonus-rram-memristor](../hardware-pairs/6-bonus-rram-memristor.md)
+- [3-crdt-self-hosted](3-crdt-self-hosted.md)
+- [3-discovery-research](../final-ensembles/3-discovery-research.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [concepts](../../glossary/concepts.md)
+- [6-bonus-rram-memristor](../hardware-pairs/6-bonus-rram-memristor.md)
+- [7-metaphor](../hardware-pairs/7-metaphor.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -45,7 +83,7 @@
 ---
 
 **Похожие документы:**
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.18)
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.18)
-- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.17)
+- [6-metaphor](../../obsidian/habr-unique-projects/software-pairs/6-metaphor.md) (сходство 0.94)
+- [7-metaphor](../hardware-pairs/7-metaphor.md) (сходство 0.23)
+- [4-speech-to-text-llm](4-speech-to-text-llm.md) (сходство 0.22)
 

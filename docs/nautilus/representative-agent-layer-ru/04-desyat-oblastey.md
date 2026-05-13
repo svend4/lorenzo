@@ -212,11 +212,30 @@
 
 ---
 
-**Смотрите также:**
-- [194-4-десять-областей-применения](docs/02-anthropic-vacancies/194-4-десять-областей-применения.md)
-- [12-zaklyuchenie](docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md)
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
-- [07-oblasti-primeneniya](docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Десять областей применения"
+```
+
+## Смотрите также
+- [194-4-десять-областей-применения](../../02-anthropic-vacancies/194-4-десять-областей-применения.md)
+- [12-zaklyuchenie](12-zaklyuchenie.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](../../02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [07-oblasti-primeneniya](../professional-colleague-agents-ru/07-oblasti-primeneniya.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -224,7 +243,7 @@
 ---
 
 **Похожие документы:**
-- [194-4-десять-областей-применения](docs/obsidian/02-anthropic-vacancies/194-4-десять-областей-применения.md) (сходство 0.95)
-- [194-4-десять-областей-применения](docs/02-anthropic-vacancies/194-4-десять-областей-применения.md) (сходство 0.95)
-- [12-zaklyuchenie](docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 0.11)
+- [04-desyat-oblastey](../../obsidian/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md) (сходство 0.99)
+- [194-4-десять-областей-применения](../../obsidian/02-anthropic-vacancies/194-4-десять-областей-применения.md) (сходство 0.94)
+- [194-4-десять-областей-применения](../../02-anthropic-vacancies/194-4-десять-областей-применения.md) (сходство 0.94)
 

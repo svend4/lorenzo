@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/162-8-risk-analysis.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 8. Risk Analysis
@@ -181,7 +181,7 @@ within acceptable range for mission-driven foundation launch.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [164-10-appendices|164-10-appendices.md] (сходство 0.16)
 * [161-7-phased-rollout-plan|161-7-phased-rollout-plan.md] (сходство 0.16)
 * [163-9-call-for-partnership|163-9-call-for-partnership.md] (сходство 0.15)
@@ -191,7 +191,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risk Analysis"
+{code}
+
+h2. Смотрите также
 * [161-7-phased-rollout-plan|161-7-phased-rollout-plan.md]
 * [164-10-appendices|164-10-appendices.md]
 * [163-9-call-for-partnership|163-9-call-for-partnership.md]
@@ -213,3 +219,14 @@ h2. Связанные документы
 
 * [5. Economic Model|159-5-economic-model.md] _17%_
 * [10. Risks Specific to Composite Architectures|263-10-risks-specific-to-composite-architectures.md] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [161-7-phased-rollout-plan|161-7-phased-rollout-plan.md]
+* [164-10-appendices|164-10-appendices.md]
+* [263-10-risks-specific-to-composite-architectures|263-10-risks-specific-to-composite-architectures.md]
+* [README|README.md]
+

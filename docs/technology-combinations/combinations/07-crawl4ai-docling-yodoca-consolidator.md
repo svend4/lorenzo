@@ -1,11 +1,28 @@
 # Комбинация 7: Crawl4AI × Docling × Yodoca consolidator
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Yodoca
 
 ---
 <!-- tags: memory, rag, knowledge, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -50,19 +67,37 @@ Graph view показывает связи между прецедентами
 
 ---
 
-**Смотрите также:**
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
-- [15-self-consolidating-legal-corpus](docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md)
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 7 Crawl4AI Docling Yodoca"
+```
+
+## Смотрите также
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
+- 04-parsing-s-llm-graph-[rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.27)
-- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) (сходство 0.27)
-- [02-knowledge-graphs](docs/obsidian/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.27)
+- [07-crawl4ai-docling-yodoca-consolidator](../../obsidian/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md) (сходство 0.97)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) (сходство 0.36)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](../../obsidian/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) (сходство 0.35)
 

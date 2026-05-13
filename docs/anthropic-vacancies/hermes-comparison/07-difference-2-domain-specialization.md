@@ -1,10 +1,26 @@
 # Различие 2: Domain-specific specialization
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 
 
 
@@ -25,11 +41,35 @@ Hermes не имеет этого domain layer. Чтобы превратить 
 
 ---
 
-**Смотрите также:**
-- [01-similarity-1-composite-skills](docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
-- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Различие 2 Domain specific"
+```
+
+## Смотрите также
+- [01-similarity-1-composite-skills](01-similarity-1-composite-skills.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-similarity-1-composite-skills](01-similarity-1-composite-skills.md)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- _...ещё 5_
 
 
 <!-- similar-docs -->
@@ -37,7 +77,7 @@ Hermes не имеет этого domain layer. Чтобы превратить 
 ---
 
 **Похожие документы:**
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.41)
-- [01-similarity-1-composite-skills](docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md) (сходство 0.37)
-- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.36)
+- [07-difference-2-domain-specialization](../../obsidian/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.98)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md) (сходство 0.56)
+- [09-difference-4-institutional-vision](../../obsidian/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.55)
 

@@ -1,5 +1,23 @@
 # Сложности и рекомендации перед detailed specification
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -352,11 +370,33 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 
 ---
 
-**Смотрите также:**
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сложности и рекомендации перед detailed"
+```
+
+## Смотрите также
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](../../02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [10-strategic-positioning](../../nautilus/ingit-cowork-en/10-strategic-positioning.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [FAQ](../../FAQ.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-naming-rationale-lorenzo-medici](../naming/02-naming-rationale-lorenzo-medici.md)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -364,7 +404,7 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 ---
 
 **Похожие документы:**
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.23)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.21)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.21)
+- [11-difficulties-and-recommendations](../../obsidian/lorenzo-agent/specification/11-difficulties-and-recommendations.md) (сходство 0.99)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md) (сходство 0.24)
+- [03-dhlab-umbrella](../../obsidian/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.24)
 

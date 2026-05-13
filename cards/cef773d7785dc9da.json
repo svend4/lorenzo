@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:cef773d7785dc9da",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:42893b58cde5b6f6",
+  "payload": {
+    "title": "Du hast gesagt: Важный момент про способности про скилы как один человек професс…",
+    "summary": "Du hast gesagt: Важный момент про способности про скилы как один человек профессионал или работник любой профессии может быть иметь несколько наставников и даже десятков наста…",
+    "body": "hast gesagt важный момент про способности про скилы как один человек професс источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога учитель индийского йога спектр между professional colleague representative agent смотрите также приложение архитектура быстрого старта для sgb anthropic vacancies приложение архитектура быстрого старта для sgb yogi metaphor yogi metaphor what was missing paper what was missing paper platform not position anthropic vacancies profile mapping integral final platform not position",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 540,
+    "path": "docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md"
+  }
+}

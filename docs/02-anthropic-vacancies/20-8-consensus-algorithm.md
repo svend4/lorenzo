@@ -1,14 +1,5 @@
 # 8. Consensus Algorithm
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Consensus Algorithm(8-consensus-algorithm) - 8.1.
-> ✅ **Результат:** Future Extensions (v2.0+)(85-future-extensions-v20) Когда один query возвращает результаты из нескольких Repos, Portal --- 8.
-> 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `query`, `repos`, `anthropic`, `vacancies`, `normalization`, `string`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -18,6 +9,23 @@
   - [8.3. Consensus Categories](#83-consensus-categories)
   - [8.4. Coverage Ratio](#84-coverage-ratio)
   - [8.5. Future Extensions (v2.0+)](#85-future-extensions-v20)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Consensus Algorithm(8-consensus-algorithm) - 8.1.
+> ✅ **Результат:** Future Extensions (v2.0+)(85-future-extensions-v20) Когда один query возвращает результаты из нескольких Repos, Portal --- 8.
+> 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `query`, `repos`, `anthropic`, `vacancies`, `normalization`, `string`
+>
 
 
 <!-- summary -->
@@ -84,18 +92,28 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 
 ---
 
-**Похожие документы:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.34)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.10)
+## Похожие документы
+- [84-9-consensus-algorithm](84-9-consensus-algorithm.md) (сходство 0.34)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md) (сходство 0.10)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
+## Смотрите также
+- [84-9-consensus-algorithm](84-9-consensus-algorithm.md)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [21-9-query-flow](21-9-query-flow.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [21-9-query-flow](21-9-query-flow.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [README](README.md)
 

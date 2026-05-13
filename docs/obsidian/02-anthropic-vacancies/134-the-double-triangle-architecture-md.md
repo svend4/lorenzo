@@ -4,16 +4,31 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # THE DOUBLE-TRIANGLE ARCHITECTURE.md
+
+<!-- toc-auto -->
+## Contents
+
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](#the-double-triangle-architecturemd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > - [[187-слой-представительских-агентов-md]] (сходство 0.25)
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 
 
 
@@ -27,7 +42,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[187-слой-представительских-агентов-md]] (сходство 0.25)
 - [[166-representative-agent-layer-md]] (сходство 0.25)
 - [[249-composite-skills-agent-md]] (сходство 0.14)
@@ -86,9 +101,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "THE DOUBLE TRIANGLE ARCHITECTURE md"
+```
+
+## Смотрите также
 - [[166-representative-agent-layer-md]]
 - [[344-системный-промпт-для-lorenzo-project]]
 - [[187-слой-представительских-агентов-md]]
 - [[208-professional-colleague-agents-md]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (20)
+- [[12-content-overview]]
+- [[13-angle-perspective]]
+- [[143-6-four-deployment-domains]]
+- [[144-7-open-questions]]
+- [[148-appendix-a-glossary]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[166-representative-agent-layer-md]]
+- [[168-abstract]]
+- _...ещё 12_
 

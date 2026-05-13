@@ -1,10 +1,37 @@
 # Более сильные пути вне Anthropic
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: rag, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -31,11 +58,33 @@ Patent filing на 6 патентабельных изобретений. DPMA (
 
 ---
 
-**Смотрите также:**
-- [04-non-anthropic-paths](docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
-- [03-partial-fit-honesty](docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Более сильные пути вне Anthropic"
+```
+
+## Смотрите также
+- 04-non-[anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md)
+- 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
+- [05-reality-check-distribution-gap](../02-reanalysis/05-reality-check-distribution-gap.md)
+- [03-partial-fit-honesty](03-partial-fit-honesty.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [04-what-to-do](../../ai-managed-virtual-company/04-what-to-do.md)
+- [03-revised-anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
+- [04-non-anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md)
+- [02-final-ranking](02-final-ranking.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -43,7 +92,7 @@ Patent filing на 6 патентабельных изобретений. DPMA (
 ---
 
 **Похожие документы:**
-- [04-non-anthropic-paths](docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md) (сходство 0.21)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.19)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.16)
+- [04-stronger-paths-outside-anthropic](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md) (сходство 0.98)
+- [04-non-anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md) (сходство 0.22)
+- [03-revised-anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.22)
 

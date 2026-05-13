@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:f610249820196197",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/01-level-0-manual.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:b1daef260cb24379",
+  "payload": {
+    "title": "Уровень 3 — Средний (Lorenzo Active)",
+    "summary": "Что это: Lorenzo получает реальные autonomous capabilities в защищённых рамках.",
+    "body": "уровень средний lorenzo active источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network проекты cardindex смотрите также level basic lite level basic lite level extended mature level extended mature level manual level manual level minimal zero level minimal zero",
+    "tags": [
+      "knowledge",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 222,
+    "path": "docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md"
+  }
+}

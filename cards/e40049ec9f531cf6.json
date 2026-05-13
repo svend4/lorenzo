@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:e40049ec9f531cf6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/65-readme-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:f7f178db5527263e",
+  "payload": {
+    "title": "README.md",
+    "summary": "",
+    "body": "readme единая точка входа для федеративных git экосистем знаний english below english below похожие документы portal protocol portal protocol сходство portal mcp portal mcp сходство readme mcp инструкция установке readme mcp инструкция установке сходство смотрите также appendix minimal working example appendix minimal working example readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology portal mcp portal mcp упоминается abstract abstract readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology portal mcp portal mcp вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы review methodology review methodology portal mcp portal mcp readme mcp инструкция установке readme mcp инструкция установке appendix minimal working example appendix minimal working example appendix minimal working example appendix minimal working example abstract abstract содержание содержание queryresult structure queryresult structure связанные документы portal mcp portal mcp readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology appendix minimal working example appendix minimal working example abstract abstract подключение claude desktop подключение claude desktop appendix minimal working example appendix minimal working example appendix change log appendix change log кто ссылается этот документ portal protocol portal protocol abstract abstract review methodology review methodology portal mcp portal mcp readme mcp инструкция установке readme mcp инструкция установке подключение claude desktop подключение claude desktop appendix change log appendix change log зачем две версии параллельно зачем две версии параллельно ещё",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 243,
+    "path": "docs/02-anthropic-vacancies/65-readme-md.md"
+  }
+}

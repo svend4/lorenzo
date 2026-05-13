@@ -1,11 +1,27 @@
 # Синтез: блок-карта Svyazi 2.0 на хеббовском графе
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, Yodoca
 
 ---
 <!-- tags: memory, ingestion, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -34,11 +50,33 @@ Claude hat geantwortet: Понял задачу: ты хочешь не один
 
 ---
 
-**Смотрите также:**
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md)
-- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Синтез блок карта Svyazi 2 0 на"
+```
+
+## Смотрите также
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
+- [7-metaphor](../hardware-pairs/7-metaphor.md)
+- [4-summary-authors](../final-ensembles/4-summary-authors.md)
+- [02-memnet](02-memnet.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [concepts](../../glossary/concepts.md)
+- [4-summary-authors](../final-ensembles/4-summary-authors.md)
+- [7-metaphor](../hardware-pairs/7-metaphor.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -46,7 +84,7 @@ Claude hat geantwortet: Понял задачу: ты хочешь не один
 ---
 
 **Похожие документы:**
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.28)
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.16)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.16)
+- [06-svyazi-2-0-block-map](../../obsidian/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md) (сходство 0.96)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md) (сходство 0.31)
+- [05-supplementary-infrastructure](../../obsidian/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.30)
 

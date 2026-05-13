@@ -122,11 +122,32 @@ to minimum dignity threshold; upward is merit-based.
 
 ---
 
-**Смотрите также:**
-- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Economic Model"
+```
+
+## Смотрите также
+- [159-5-economic-model](../../02-anthropic-vacancies/159-5-economic-model.md)
+- [07-phased-rollout](07-phased-rollout.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [07-phased-rollout](07-phased-rollout.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -134,7 +155,7 @@ to minimum dignity threshold; upward is merit-based.
 ---
 
 **Похожие документы:**
-- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.87)
-- [159-5-economic-model](docs/obsidian/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.86)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md) (сходство 0.23)
+- [05-economic-model](../../obsidian/nautilus/okwf-concept/05-economic-model.md) (сходство 0.98)
+- [159-5-economic-model](../../02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.84)
+- [159-5-economic-model](../../obsidian/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.84)
 

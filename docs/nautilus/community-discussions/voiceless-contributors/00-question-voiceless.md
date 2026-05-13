@@ -1,10 +1,37 @@
 # Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless контрибьюторы — могут ли быть.
 
 ---
 <!-- tags: local-first, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -26,11 +53,33 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
-- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Самый интересный вопрос"
+```
+
+## Смотрите также
+- [05-platform-not-position](../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-rephrasing](../../../anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
+- [00-question-supply-demand](../../supply-demand/00-question-supply-demand.md)
+- [165-closing](../../../02-anthropic-vacancies/165-closing.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-platform-not-position](../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [01-response](../practical-observations/01-response.md)
+- [01-response](01-response.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -38,7 +87,7 @@ Mehr anzeigen
 ---
 
 **Похожие документы:**
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.14)
-- [01-response](docs/nautilus/community-discussions/practical-observations/01-response.md) (сходство 0.14)
-- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.13)
+- [00-question-voiceless](../../../obsidian/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md) (сходство 0.96)
+- [05-platform-not-position](../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.17)
+- [05-platform-not-position](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.17)
 

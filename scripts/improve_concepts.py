@@ -36,6 +36,15 @@ def clean(text: str) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
+def clean_definition(defn: str) -> str:
+    # Strip [[wikilinks]] → display text
+    defn = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', r'\2', defn)
+    defn = re.sub(r'\[\[([^\]]+)\]\]', r'\1', defn)
+    # Strip [text](url) → text
+    defn = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', defn)
+    return defn.strip()
+
+
 def extract_definitions(text: str, filepath: Path) -> list[dict]:
     # Убираем code-блоки и таблицы
     text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
@@ -48,7 +57,7 @@ def extract_definitions(text: str, filepath: Path) -> list[dict]:
     for pattern in DEF_PATTERNS:
         for m in re.finditer(pattern, text, re.IGNORECASE):
             term = clean(m.group(1))
-            defn = clean(m.group(2))
+            defn = clean(clean_definition(m.group(2)))
 
             # Фильтрация
             if len(term) < 3 or len(term) > 60:
@@ -68,7 +77,7 @@ def extract_definitions(text: str, filepath: Path) -> list[dict]:
             results.append({
                 "term": term,
                 "definition": defn[:300],
-                "file": str(filepath.relative_to(ROOT)),
+                "file": str(filepath.relative_to(DOCS)),
             })
 
     return results

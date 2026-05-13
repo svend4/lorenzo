@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:84f19fac1321cf92",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:92556da1d46f4104",
+  "payload": {
+    "title": "BrainBox — self-hosted multi-AI hub",
+    "summary": "Что делает: Self-hosted сервис для управления 15+ open-source AI-системами через единый веб-интерфейс. Генерация изображений, распознавание объектов, озвучка, и т.д.",
+    "body": "brainbox self hosted multi hub источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов смотрите также workflow workflow claude subagents patterns claude subagents patterns svyazi andrey chuyan svyazi andrey chuyan specialized knowledge workspace specialized knowledge workspace",
+    "tags": [
+      "rag",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 241,
+    "path": "docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md"
+  }
+}

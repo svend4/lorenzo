@@ -3,12 +3,35 @@ title: "Author & Contact"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Author & Contact
 
+<!-- toc-auto -->
+## Contents
+
+- [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > **Contributors:** svend4 + claude (Claude Code агент, ранние
 
 ---
@@ -38,7 +61,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[62-author-contact]] (сходство 0.37)
 - [[42-author-contact]] (сходство 0.31)
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr]] (сходство 0.16)
@@ -48,7 +71,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Author Contact"
+```
+
+## Смотрите также
 - [[62-author-contact]]
 - [[42-author-contact]]
 - [[73-portal-protocol-md-v1-1]]
@@ -94,3 +123,19 @@ date: 2026-04-29
 - [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _29%_
 - [[42-author-contact|Author & Contact]] _29%_
 - [[62-author-contact|Author & Contact]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[03-portal-protocol-md]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[25-13-reference-implementation]]
+- [[42-author-contact]]
+- [[62-author-contact]]
+- [[73-portal-protocol-md-v1-1]]
+- _...ещё 2_
+

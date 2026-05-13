@@ -1,5 +1,23 @@
 # Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к…
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -28,11 +46,31 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md)
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
-- [00-question-multiple-mentors](docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Того если гора не идёт"
+```
+
+## Смотрите также
+- [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [00-question-supply-demand](../supply-demand/00-question-supply-demand.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-multiple-mentors](../composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-supply-demand](../supply-demand/00-question-supply-demand.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -40,7 +78,7 @@ Mehr anzeigen
 ---
 
 **Похожие документы:**
-- [150-appendix-c-version-history](docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.15)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.15)
-- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.15)
+- [00-question-mountain-to-person](../../obsidian/nautilus/transmission-box/00-question-mountain-to-person.md) (сходство 0.96)
+- [00-question-supply-demand](../supply-demand/00-question-supply-demand.md) (сходство 0.17)
+- [00-question-supply-demand](../../obsidian/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.16)
 

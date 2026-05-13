@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:82dd8bb46e67f0d2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/07-chto-mozhesh.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/12-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/03-tvoya-missiya.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/09-voobshche-nelzya.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:077617bd585c61de",
+  "payload": {
+    "title": "Что ты МОЖЕШЬ делать",
+    "summary": "В рамках одной сессии или Project context, ты можешь:",
+    "body": "что можешь делать источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория проекты cardindex смотрите также что можешь делать anthropic vacancies что можешь делать workflow workflow tvoya missiya tvoya missiya voobshche nelzya voobshche nelzya",
+    "tags": [
+      "knowledge",
+      "anthropic"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 163,
+    "path": "docs/lorenzo-agent/07-chto-mozhesh.md"
+  }
+}

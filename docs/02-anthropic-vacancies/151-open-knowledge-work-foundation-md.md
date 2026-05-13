@@ -1,10 +1,25 @@
 # OPEN KNOWLEDGE WORK FOUNDATION.md
 
+<!-- toc-auto -->
+## Contents
+
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](#open-knowledge-work-foundationmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.25)
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -18,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.25)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.12)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md) (сходство 0.12)
@@ -88,9 +103,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "OPEN KNOWLEDGE WORK FOUNDATION md"
+```
+
+## Смотрите также
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (27)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [153-executive-summary](153-executive-summary.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [181-12-closing](181-12-closing.md)
+- _...ещё 19_
 

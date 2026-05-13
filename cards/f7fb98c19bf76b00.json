@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:f7fb98c19bf76b00",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/scenarios/00-question-scenario.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/practical-observations/00-question-practical.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:49cc9f0c06f8b35d",
+  "payload": {
+    "title": "Du hast gesagt: А под какой сценарий больше всего подходит такой сценарий что тв…",
+    "summary": "Du hast gesagt: А под какой сценарий больше всего подходит такой сценарий что творчество этих людей объединяется делать какие-то новые программы с их участием допустим пишется…",
+    "body": "hast gesagt под какой сценарий больше всего подходит такой сценарий что источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога под какой сценарий больше всего подходит творчество людей объединяется смотрите также question habr link nautilus community discussions habr article reaction question habr link appendix change log nautilus npp appendix change log question camel nautilus anthropic vacancies nautilus camel question camel nautilus question practical nautilus community discussions practical observations question practical",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 177,
+    "path": "docs/lorenzo-agent/scenarios/00-question-scenario.md"
+  }
+}

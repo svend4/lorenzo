@@ -1,16 +1,25 @@
 # 22. Glossary of Reference Examples
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [22. Glossary of Reference Examples](#22-glossary-of-reference-examples)
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
+  - A.1. Minimal `[nautilus.json`](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 - [Описание](#описание)
@@ -268,7 +277,7 @@ openapi.yaml — OpenAPI 3.1.0 spec (упомянут в STATUS)
 
 Создать docs/PORTAL-PROTOCOL.md в репо с этим содержимым (или PORTAL-PROTOCOL.md в корне, если хотите более заметно)
 
-Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на [Nautilus Portal Protocol v1.1](./docs/PORTAL-PROTOCOL.md) с рабочим линком
+Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на [Nautilus Portal Protocol v1.1](../../02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) с рабочим линком
 
 Коммит с сообщением docs: add formal PORTAL-PROTOCOL.md v1.1 specification
 
@@ -325,11 +334,26 @@ markdown
 
 ---
 
-**Смотрите также:**
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [16-glossary](docs/nautilus/review-methodology/16-glossary.md)
-- [18-comment-on-document](docs/nautilus/npp-v1-0/18-comment-on-document.md)
+## Смотрите также
+- [104-appendix-c-references](../../02-anthropic-vacancies/104-appendix-c-references.md)
+- [122-глоссарий](../../02-anthropic-vacancies/122-глоссарий.md)
+- [16-glossary](../review-methodology/16-glossary.md)
+- [18-comment-on-document](../npp-v1-0/18-comment-on-document.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [18-comment-on-document](../npp-v1-0/18-comment-on-document.md)
+- [README](README.md)
+- [16-glossary](../review-methodology/16-glossary.md)
 
 
 <!-- similar-docs -->
@@ -337,7 +361,7 @@ markdown
 ---
 
 **Похожие документы:**
-- [104-appendix-c-references](docs/obsidian/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.72)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.71)
-- [122-глоссарий](docs/obsidian/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.17)
+- [22-glossary](../../obsidian/nautilus/npp-v1-1/22-glossary.md) (сходство 0.99)
+- [104-appendix-c-references](../../02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.22)
+- [104-appendix-c-references](../../obsidian/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.22)
 

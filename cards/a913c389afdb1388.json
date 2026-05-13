@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:a913c389afdb1388",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/continuation/01-shared-memory-between-agents.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:7c5e1fde9fd5b5f0",
+  "payload": {
+    "title": "Общая память между агентами (CoAlly + ансамбль F)",
+    "summary": "1. Новый важный слой: общая память между агентами, а не только память одного агента",
+    "body": "общая память между агентами coally ансамбль warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi agentfs knowledge space mclaude yodoca ngt memory смотрите также ограничения лицензии что пока лучше склеивать collaborations ограничения лицензии что пока лучше склеивать distributed agent workshop ensembles distributed agent workshop agentic knowledge ensembles agentic knowledge mcp protocols mcp protocols",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 431,
+    "path": "docs/ai-collaborations/continuation/01-shared-memory-between-agents.md"
+  }
+}

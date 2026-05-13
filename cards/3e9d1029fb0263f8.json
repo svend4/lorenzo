@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:3e9d1029fb0263f8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/outreach/message-template.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/outreach/first-contacts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/prototype/mvp-plan.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:a63c607d690c2a31",
+  "payload": {
+    "title": "Шаблон первого сообщения",
+    "summary": "Если писать в комментарии на Хабре, лучше сократить до 5–6 строк и добавить один конкретный вопрос, а не «давайте сотрудничать». Лучший формат — **одна архитектурная гипотеза + один вопрос на стык систем**.",
+    "body": "шаблон первого сообщения tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел план прототипа возможные контакты проекты svyazi cardindex смотрите также план прототипа возможные контакты collaborations план прототипа возможные контакты mvp planning svyazi mvp planning first contacts first contacts mvp plan prototype mvp plan",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 248,
+    "path": "docs/svyazi-2-0/outreach/message-template.md"
+  }
+}

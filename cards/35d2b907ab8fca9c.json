@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:35d2b907ab8fca9c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/HEATMAP.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:4ba6ace683661ded",
+  "payload": {
+    "title": "Тепловая карта тем",
+    "summary": "Плотность упоминаний каждой темы по разделам (‰ — на тысячу слов).",
+    "body": "тепловая карта тем содержание числовые значения числовые значения доминирующие темы разделам доминирующие темы разделам концентрация тем концентрация тем tip этот документ описывает mvp подход начните него для быстрого прототипа плотность упоминаний каждой темы разделам тысячу слов тема svyazi vacancies tech collab habr память knowledge агент оркестр безопасность архитектура mvp roadmap граф rag лицензия oss вакансии комбинации habr проекты контакты команда интеграция api максимум высокое среднее низкое числовые значения тема svyazi anthropic technology collabo habr proje память knowledge агент оркестр безопасность архитектура mvp roadmap граф rag лицензия oss вакансии комбинации habr проекты контакты команда интеграция api доминирующие темы разделам svyazi память knowledge anthropic vacancies агент оркестр technology combinations агент оркестр collaborations агент оркестр habr projects habr проекты концентрация тем тема лучший раздел плотность память knowledge svyazi агент оркестр technology combinations безопасность svyazi архитектура svyazi mvp roadmap svyazi граф rag technology combinations лицензия oss svyazi вакансии anthropic vacancies комбинации technology combinations habr проекты habr projects контакты команда svyazi интеграция api svyazi смотрите также density onboarding schedule scoring",
+    "tags": [
+      "rag",
+      "orchestration",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 577,
+    "path": "docs/obsidian/HEATMAP.md"
+  }
+}

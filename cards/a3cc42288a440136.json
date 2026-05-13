@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:a3cc42288a440136",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:616c822322aba21f",
+  "payload": {
+    "title": "3. Three Inter-Layer Protocols",
+    "summary": "The architecture requires three formalized protocols between layers.",
+    "body": "three inter layer protocols important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration three inter layer protocols the architecture requires three formalized protocols between layers each has specific semantics message formats and failure modes protocol human conducts assistants direction node assistants downward lower triangle semantics the node issues tasks assistants reviews outputs integrates results this the current state personal assistant workflows and well developed existing implementations claude code cursor copilot workspace continue dev chatgpt ide plugins message format natural language prompts with structured context file references code selections project files responses text code structured data failure modes ambiguous prompts context overflow hallucinations these are well studied and mitigation strategies exist extensions needed for double triangle assistants must aware team context markers annotations indicating which parts their output affect team visible deliverables versus purely personal work this allows invariant assistant autonomy node authority enforced protocol meta agent coordinates nodes direction meta agent nodes downward upper triangle semantics assigns tasks nodes receives deliverables integrates team level outputs does not see internal node processes only public deliverables existing implementations partial fragmented jira with triage linear with suggestions github projects with automation none implement the full protocol all require significant human management intervention message format structured tasks with description deliverable specification what constitutes done dependencies other nodes deliverables deadline priority assignee failure modes task assignment mismatches wrong node wrong skill deadline conflicts scope creep dependency deadlocks these are classical project management challenges adapted orchestration extensions needed for double triangle must respect invariant meta agent transparency not omniscience decisions must cite only team context reasoning never reference nodes personal data requires careful design prevent information leakage protocol assistant meta negotiation direction assistant node meta agent upward across triangles semantics this the novel protocol when assistant lower triangle requires information coordination that involves other nodes does not ping those nodes directly instead issues structured query that travels response back through the chain existing implementations none production systems closest analog github copilot workspace can see other team members public code but cannot negotiate with their assistants anthropic managed agents api moves toward this but does not implement full cross triangle negotiation message format three message types query messages assistant requires information outside current node scope routing request via meta agent notification messages assistant detected conflict with team context escalating meta agent for resolution proposal messages assistant proposes decision affecting multiple nodes requesting meta agent consensus routing routing semantics messages are routed the meta agent based ownership which node owns the relevant artifact expertise which node has the required domain knowledge availability which node currently responsive failure modes routing loops context fragmentation details lost translation escalation spirals where every conflict reaches human review these are genuinely unsolved and require empirical development why this protocol matters without protocol humans become routing bottlenecks every cross node coordination requires humans manually translate from their assistants findings team context wait for replies translate back this adds hours days each interaction protocol reduces this minutes seconds protocol interactions the three protocols not operate isolation common interaction patterns include escalation chain assistant detects issue protocol evaluates internal modifies task assignment protocol node receives updated task protocol node redirects assistant protocol context propagation updates team context protocol all nodes each node propagates relevant updates their assistants protocol assistants adjust behavior accordingly cross node handoff assistant completes artifact protocol node reviews and approves protocol submits protocol routes protocol assistant picks protocol these patterns are analogous message passing concurrency models distributed systems adapted for human hybrid execution смотрите также three inter layer protocols anthropic vacancies three inter layer protocols double triangle architecture double triangle architecture why single triangle incomplete why single triangle incomplete the double triangle architecture anthropic vacancies the double triangle architecture",
+    "tags": [
+      "rag",
+      "orchestration",
+      "architecture",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 820,
+    "path": "docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md"
+  }
+}

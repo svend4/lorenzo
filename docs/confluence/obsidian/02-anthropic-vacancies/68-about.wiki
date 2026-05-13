@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/68-about.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -11,21 +11,30 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 🇬🇧 About
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 
 {quote}_Абстракт_ (авто){quote}
 >
-{quote}🎯 _Проблема:_ Documentation - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in{quote}
+{quote}🎯 _Проблема:_ Documentation - PORTAL-PROTOCOL.md(03-portal-protocol-md.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in{quote}
 {quote}🔧 _Подход:_ - 0: Discoverable — declared in registry only - 1: Readable — has passport + describe() method - 2: Queryable — implements fetch(query) — search works - 3: Interactive — translatet{quote}
 {quote}✅ _Результат:_ Reports always show attribution — which repo each result came from.{quote}
 {quote}🏷️ _Ключевые слова:_ {{nautilus}}, {{portal}}, {{protocol}}, {{reference}}, {{https}}, {{anthropic}}, {{svend}}, {{passports}}{quote}
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Nautilus is a _federation protocol_ and reference implementation{quote}
 
@@ -43,7 +52,7 @@ h2. Содержание
   * [Compatibility Levels|#compatibility-levels]
   * [Documentation|#documentation]
   * [Project Status|#project-status]
-  * [Why "Nautilus"?|#why-[nautilus](../docs/05-habr-projects/memory/memnet.md])
+  * [Why "Nautilus"?|#why-nautilus]
   * [Related Work|#related-work]
   * [Licenses|#licenses]
   * [Contact|#contact]
@@ -132,13 +141,13 @@ _Minimal (Level 0–1, 5 minutes):_
 {code}
 
 2. Write {{passport.md}} — a one-page description (see templates in 
-   [{{passports/}}|./passports/])
+   {{passports/}})
 
 _Full (Level 2–3, a few hours):_
 
 3. Add an adapter in {{adapters/my_repo.py}} implementing the 
    {{[[01-интегральный-анализ-профиля-svend4|BaseAdapter]]}} interface (see 
-   [[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md §6]])
+   [[03-portal-protocol-md|PORTAL-PROTOCOL.md §6]])
 
 4. Register the repo in the portal's root {{[[memnet|nautilus]].json}}
 
@@ -177,16 +186,16 @@ day one.
 * _3: Interactive_ — {{translate_to()}} — cross-repo translations 
   via bridges
 
-Details in [[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md §5]].
+Details in [[03-portal-protocol-md|PORTAL-PROTOCOL.md §5]].
 
 h3. Documentation
 
-* _[[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md]]_ — formal v1.0 
+* _[[03-portal-protocol-md|PORTAL-PROTOCOL.md]]_ — formal v1.0 
   specification (15 pages)
-* _[passports/|./passports/]_ — human-readable repo descriptions
-  * [[info1]]
-  * [[pro2]]
-  * [[meta]]
+* _{{passports/}}_ — human-readable repo descriptions
+  * {{info1}}
+  * {{pro2}}
+  * {{meta}}
 * _Issues_ — questions, proposals, bug reports
 
 h3. Project Status
@@ -235,7 +244,7 @@ h3. Licenses
 * _Documentation_ (README, PORTAL-PROTOCOL, passports): 
   [CC BY 4.0|https://creativecommons.org/licenses/by/4.0/]
 * _Code_ (portal, adapters, glyph_adapter): 
-  [MIT|./LICENSE]
+  [[README|MIT]]
 
 h3. Contact
 
@@ -248,7 +257,7 @@ h3. Contact
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[67-о-проекте]] (сходство 0.17)
 * [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
 * [[158-4-proposed-infrastructure]] (сходство 0.12)
@@ -258,9 +267,25 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[67-о-проекте]]
 * [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 * [[158-4-proposed-infrastructure]]
 * [[164-10-appendices]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* [[104-appendix-c-references]]
+* 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+* [[164-10-appendices]]
+* [[23-11-security-considerations]]
+* [[25-13-reference-implementation]]
+* [[26-14-adr-001-federation-over-merging]]
+* [[42-author-contact]]
+* [[67-о-проекте]]
+* _...ещё 2_
 

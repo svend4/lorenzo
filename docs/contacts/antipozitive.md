@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "Antipozitive"
 author_handle: "@Antipozitive"
-projects: ["Svyazi", "MemNet"]
+projects: [Svyazi, MemNet]
 platform: GitHub
 status: not_started
 priority: 3
@@ -12,6 +12,17 @@ last_contact: null
 tags: [контакты, команда]
 ---
 # Контакт: Antipozitive / MemNet
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -26,16 +37,7 @@ tags: [контакты, команда]
 
 
 
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
-
-
-<!-- summary: Шаблон для связи с автором [MemNet](../docs/01-svyazi/01-executive-summary.md) -->
+<!-- summary: Шаблон для связи с автором [MemNet](../01-svyazi/01-executive-summary.md) -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -51,7 +53,7 @@ tags: [контакты, команда]
 
 ## Статус связи
 
-- [ ] Изучили профиль
+- [x] Изучили профиль
 - [ ] Написали первое сообщение
 - [ ] Получили ответ
 - [ ] Договорились о сотрудничестве
@@ -81,19 +83,36 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [nlaik](docs/contacts/nlaik.md) (сходство 0.87)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.84)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.82)
+## Похожие документы
+- [nlaik](nlaik.md) (сходство 0.87)
+- [vladspace](vladspace.md) (сходство 0.84)
+- [zodigancode](zodigancode.md) (сходство 0.82)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [spbmolot](docs/contacts/spbmolot.md)
-- [vitalyoborin](docs/contacts/vitalyoborin.md)
+## Смотрите также
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [spbmolot](spbmolot.md)
+- [vitalyoborin](vitalyoborin.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [memnet](../05-habr-projects/memory/memnet.md)
+- [DUPLICATES](../DUPLICATES.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- _...ещё 6_
 

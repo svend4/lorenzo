@@ -1,3 +1,19 @@
+# Выводы
+
+<!-- toc-auto -->
+## Contents
+
+- [Выводы](#выводы)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -9,8 +25,12 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG[^rag] и не оркестр
-**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, Rufler[^rufler], [LiteParse](../docs/01-svyazi/01-executive-summary.md), Yodoca[^yodoca]
+**Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, Rufler[^rufler], [LiteParse](01-executive-summary.md), Yodoca[^yodoca]
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
@@ -19,29 +39,35 @@
 
 ## Выводы
 
-По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правильная сборка**: где [CardIndex](../docs/01-svyazi/01-executive-summary.md) остаётся source of truth, где память умеет и усиливать, и забывать, где retrieval остаётся доказуемым, где агентность не ломает безопасность, и где стоимость не взрывается ещё до первой полезной операции. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn20view6turn20view11turn20view10turn39view1turn39view0
+По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правильная сборка**: где [CardIndex](01-executive-summary.md) остаётся source of truth, где память умеет и усиливать, и забывать, где retrieval остаётся доказуемым, где агентность не ломает безопасность, и где стоимость не взрывается ещё до первой полезной операции. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn20view6turn20view11turn20view10turn39view1turn39view0
 
-Если ранжировать найденные направления по практической силе именно для старта, то порядок такой. **Первое** — Svyazi + AgentFS + NGT[^ngt]/Yodoca + LiteParse: это даёт уже полезный MVP. **Второе** — добавить AI Factory/mclaude/Rufler/Sequential как build‑ и moderation‑контур. **Третье** — подключить voice/local-first sync и только потом [AutoResearch](../docs/01-svyazi/01-executive-summary.md). Другими словами, наиболее реалистичная стратегия — сначала собрать **машину обнаружения и объяснения коллабораций**, а уже затем превращать её в полностью самоулучшающуюся агентную фабрику. Именно такой порядок лучше всего соответствует зрелости найденных проектов и снижает интеграционный риск. citeturn41search0turn27view0turn21view0turn22view4turn20view5turn20view3turn20view2turn20view4turn20view11turn21view10turn11search11turn20view19
+Если ранжировать найденные направления по практической силе именно для старта, то порядок такой. **Первое** — Svyazi + AgentFS + NGT[^ngt]/Yodoca + LiteParse: это даёт уже полезный MVP. **Второе** — добавить AI Factory/mclaude/Rufler/Sequential как build‑ и moderation‑контур. **Третье** — подключить voice/local-first sync и только потом [AutoResearch](01-executive-summary.md). Другими словами, наиболее реалистичная стратегия — сначала собрать **машину обнаружения и объяснения коллабораций**, а уже затем превращать её в полностью самоулучшающуюся агентную фабрику. Именно такой порядок лучше всего соответствует зрелости найденных проектов и снижает интеграционный риск. citeturn41search0turn27view0turn21view0turn22view4turn20view5turn20view3turn20view2turn20view4turn20view11turn21view10turn11search11turn20view19
 
 <!-- similar-docs -->
 
 ---
 
-**Похожие документы:**
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.95)
-- [01-executive-summary](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/01-executive-summary.md) (сходство 0.21)
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.14)
+## Похожие документы
+- [07-выводы](../04-ai-collaborations/07-выводы.md) (сходство 0.95)
+- [01-executive-summary](01-executive-summary.md) (сходство 0.21)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md) (сходство 0.14)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md)
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [MISSING](docs/MISSING.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Выводы"
+```
+
+## Смотрите также
+- [07-выводы](../04-ai-collaborations/07-выводы.md)
+- [08-что-это-продолжение-добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)
+- [MISSING](../MISSING.md)
 
 
 
@@ -62,3 +88,19 @@
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [12-roadmap](12-roadmap.md)
+- [README](README.md)
+- [02-методика-и-рамка-отбора](../04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [07-выводы](../04-ai-collaborations/07-выводы.md)
+- [08-что-это-продолжение-добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [CONTRADICTIONS](../CONTRADICTIONS.md)
+- [FOOTNOTES](../FOOTNOTES.md)
+- [OUTLINE](../OUTLINE.md)
+- _...ещё 7_
+

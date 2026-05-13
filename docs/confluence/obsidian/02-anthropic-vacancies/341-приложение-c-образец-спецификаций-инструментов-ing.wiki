@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
@@ -36,10 +36,10 @@ _Проекты:_ Svyazi, CardIndex, [[03-component-catalog|knowledge-space]], G
 
 h2. Содержание
 
-* [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера|#приложение-c-образец-спецификаций-инструментов-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-mcp-сервера)
+* [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера|#приложение-c-образец-спецификаций-инструментов-ingit-mcp-сервера]
   * [Краткие заметки к переводу|#краткие-заметки-к-переводу]
   * [Что такое Hermes Agent|#что-такое-hermes-agent]
-  * [Чем Hermes похож на нашу архитектуру (InGit + Cowork + Nautilus)|#чем-hermes-похож-на-нашу-архитектуру-ingit-cowork-[nautilus](../docs/05-habr-projects/memory/memnet.md])
+  * [Чем Hermes похож на нашу архитектуру (InGit + Cowork + Nautilus)|#чем-hermes-похож-на-нашу-архитектуру-ingit-cowork-nautilus]
   * [Чем Hermes отличается — где наши документы добавляют value|#чем-hermes-отличается-где-наши-документы-добавляют-value]
   * [Плюсы Hermes (vs наша гипотетическая архитектура)|#плюсы-hermes-vs-наша-гипотетическая-архитектура]
   * [Минусы Hermes (где наша архитектура добавляет ценность)|#минусы-hermes-где-наша-архитектура-добавляет-ценность]
@@ -68,7 +68,7 @@ h2. Содержание
   * [Общая характеристика трёх репозиториев|#общая-характеристика-трёх-репозиториев]
   * [Что интересного и полезного в info40|#что-интересного-и-полезного-в-info40]
   * [Что интересного и полезного в info7|#что-интересного-и-полезного-в-info7]
-  * [Что интересного и полезного в info1|#что-интересного-и-полезного-в-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md])
+  * [Что интересного и полезного в info1|#что-интересного-и-полезного-в-info1]
   * [Integrated Analysis — что эти три together предлагают|#integrated-analysis-что-эти-три-together-предлагают]
   * [Где эти repositories valuable beyond their actual code|#где-эти-repositories-valuable-beyond-their-actual-code]
   * [Application к Cowork+InGit и других связок|#application-к-coworkingit-и-других-связок]
@@ -2003,7 +2003,7 @@ Web durchsucht
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[365-развёрнутый-анализ-внуковой-комбинации]] (сходство 0.19)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.18)
 - [[ACTION_ITEMS]] (сходство 0.16)
@@ -2013,7 +2013,7 @@ Web durchsucht
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[365-развёрнутый-анализ-внуковой-комбинации]]
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]]
 - [[ACTION_ITEMS]]
@@ -2045,3 +2045,17 @@ Web durchsucht
 - [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _17%_
 - [[README|Вакансии Anthropic — Анализ по кластерам]] _17%_
 - [[CLUSTERS|Кластеры тематически близких файлов]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[165-closing]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[303-приложение-визуализация-позиции-в-серии]]
+- [[342-что-такое-вариант-c-concept-document-для-anthropic]]
+- [[364-final-note-ты-experiment]]
+- [[365-развёрнутый-анализ-внуковой-комбинации]]
+- [[README]]
+

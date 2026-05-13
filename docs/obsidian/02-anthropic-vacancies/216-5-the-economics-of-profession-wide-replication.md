@@ -4,10 +4,15 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 5. The Economics of Profession-Wide Replication
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,6 +25,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > A defining feature of Professional Colleague Agents is that
 
 ---
@@ -167,7 +176,7 @@ economically viable for moderately sized professions.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[260-7-economics-of-combinatorial-replication]] (сходство 0.20)
 - [[219-8-pilot-proposal-sgb-advocate-colleague]] (сходство 0.14)
 - [[215-4-architecture-of-professional-colleague-agents]] (сходство 0.12)
@@ -177,7 +186,13 @@ economically viable for moderately sized professions.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 The Economics of Profession Wide"
+```
+
+## Смотрите также
 - [[260-7-economics-of-combinatorial-replication]]
 - [[219-8-pilot-proposal-sgb-advocate-colleague]]
 - [[262-9-integration-with-okwf-infrastructure]]
@@ -220,3 +235,19 @@ economically viable for moderately sized professions.
 - [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _25%_
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
 - [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[151-open-knowledge-work-foundation-md]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[217-6-risks-specific-to-this-category]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[223-12-closing]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[260-7-economics-of-combinatorial-replication]]
+- _...ещё 1_
+

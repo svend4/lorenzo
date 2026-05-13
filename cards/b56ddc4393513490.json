@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:b56ddc4393513490",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:9339189f10bf6c79",
+  "payload": {
+    "title": "7. PortalEntry Structure",
+    "summary": "Унифицированная структура данных, возвращаемая адаптерами.",
+    "body": "portalentry structure абстракт авто проблема portalentry structure important ключевой документ для понимания архитектуры подход portalentry structure important ключевой документ для понимания архитектуры ключевые слова portalentry structure anthropic vacancies данных registry summary унифицированная important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь унифицированная структура данных возвращаемая адаптерами portalentry structure унифицированная структура данных возвращаемая адаптерами class portalentry repo name str required откуда пришло native str required native формате title str required человекочитаемое имя summary str required символов content str required полный текст tags list str optional ключевые слова confidence float optional default native metadata dict optional любые native специфичные поля url str none optional прямая ссылка источник field semantics repo name must совпадать name registry native must быть уникален пределах repo title should быть символов summary must быть символов для предпросмотров content may быть большим implementation may trimming при transport confidence субъективная оценка адаптера релевантности entry query native metadata escape hatch для данных ложащихся стандартные поля похожие документы portalentry structure сходство смотрите также portalentry structure portal mcp memnet registry nautilus json docs anthropic vacancies registry nautilus json adapter interface",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 272,
+    "path": "docs/obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md"
+  }
+}

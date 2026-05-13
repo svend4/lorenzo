@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:72d58e8e3339b592",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/research-reports/sozialrecht-35-combinations.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/research-reports/continuation-10-domains.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/03-dsl-ast.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:f779d34f7f40988e",
+  "payload": {
+    "title": "Research Report: Sozialrecht (35 комбинаций)",
+    "summary": "Этот отчёт расширяет базовый каталог 35 комбинаций фокусом на немецкое социальное право (SGB), с применением к Bürgergeld, Eingliederungshilfe, Persönliches Budget.",
+    "body": "research report sozialrecht комбинаций источник mhtml снимок комбинирование технологий для новых свойств claude секция research report building previously identified combinations focus the german sozialrecht domain смотрите также continuation domains continuation domains legal stack mega stacks legal stack ultimate legal mega stacks ultimate legal dsl ast mega stacks dsl ast",
+    "tags": [
+      "rag",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 222,
+    "path": "docs/technology-combinations/research-reports/sozialrecht-35-combinations.md"
+  }
+}

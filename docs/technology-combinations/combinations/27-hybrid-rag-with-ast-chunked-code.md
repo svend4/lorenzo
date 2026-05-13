@@ -1,11 +1,28 @@
 # Комбинация 27: Hybrid RAG with AST-Chunked Code
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Hybrid RAG
 
 ---
 <!-- tags: rag, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -59,19 +76,37 @@ ROI: Developer understands legal context, lawyer sees implementation
 
 ---
 
-**Смотрите также:**
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
-- [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 27 Hybrid RAG with AST"
+```
+
+## Смотрите также
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+
+_Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.27)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.27)
-- [22-russian-international-oss-stack](docs/technology-combinations/combinations/22-russian-international-oss-stack.md) (сходство 0.24)
+- [27-hybrid-rag-with-ast-chunked-code](../../obsidian/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md) (сходство 0.93)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md) (сходство 0.35)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md) (сходство 0.34)
 

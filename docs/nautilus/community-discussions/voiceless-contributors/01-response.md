@@ -1,5 +1,23 @@
 # Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -258,12 +276,48 @@ Risk Analysis: добавить risks identified выше
 
 И еще один thoughtful вопрос для consideration: в вашем личном случае, как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из вашего опыта — самое сильное evidence. Если второе, OKWF может быть тестируемая первый use case, prototype, который validates whole approach.
 
+<!-- see-also -->
+
+---
+
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это сильное продо"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это сильное продо" --mode bm25
+```
+
+## Смотрите также
+- [00-question-voiceless](00-question-voiceless.md)
+- [165-closing](../../../02-anthropic-vacancies/165-closing.md)
+- [01-response-en](../agent-changes-reality/01-response-en.md)
+- [01-three-related-themes](../../supply-demand/01-three-related-themes.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [165-closing](docs/obsidian/02-anthropic-vacancies/165-closing.md) (сходство 0.47)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.47)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.15)
+- [01-response](../../../obsidian/nautilus/community-discussions/voiceless-contributors/01-response.md) (сходство 0.99)
+- [01-response-en](../agent-changes-reality/01-response-en.md) (сходство 0.16)
+- [01-response-en](../../../obsidian/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.16)
 

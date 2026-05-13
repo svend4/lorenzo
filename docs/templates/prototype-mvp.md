@@ -13,6 +13,17 @@ tags: [mvp, прототип]
 
 # MVP: [Название]
 
+<!-- summary -->
+> `prototype-mvp` — раздел документации проекта Lorenzo.
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
+<!-- toc-auto -->
+
 
 <!-- summary: Что прототипируем и какая метрика успеха -->
 <!-- tags: mvp, прототип -->
@@ -119,7 +130,34 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [experiment-log](docs/templates/experiment-log.md)
-- [mega-stack](docs/templates/mega-stack.md)
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template prototype-mvp --output docs/new-doc.md
+```
+
+## Смотрите также
+- [ensemble](ensemble.md)
+- [experiment-log](experiment-log.md)
+- [mega-stack](mega-stack.md)
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [REGISTRY](../REGISTRY.md)
+- [TASKS_INDEX](../TASKS_INDEX.md)
+- [README](README.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [prototype-mvp](../obsidian/templates/prototype-mvp.md) (сходство 0.92)
+- [mega-stack](mega-stack.md) (сходство 0.23)
+- [mega-stack](../obsidian/templates/mega-stack.md) (сходство 0.23)
+

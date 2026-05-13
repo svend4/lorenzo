@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:ce6d5209dfc82654",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/287-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/286-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:93f9cdae4295eaaa",
+  "payload": {
+    "title": "Acknowledgments",
+    "summary": "This document emerged from the author's observation, near",
+    "body": "acknowledgments источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work acknowledgments this document emerged from the author observation near the end extended seven document session that the chat medium was insufficient for the kind sustained intellectual project the documents represented the observation crystallized problem that had been implicit throughout the session but not articulated the position this document the series designated rather than reflects the author judgment that this inquiry document structurally closer early architectural work documents than applied work documents addresses infrastructure rather than application the fractional numbering preserves the linear sequence applied papers while inserting the infrastructure question where logically belongs the author retained editorial authority the framing the recursive nautilus possibility and the practical recommendations all originated with the author claude contributed structure and reference work references the references for this document are sparser than for the applied papers because the document exploratory rather than specifying key relevant work includes threading and annotation hypothesis project https web hypothes open source web annotation discourse forum software https www discourse org modern threaded forum federated wiki experiments ward cunningham alternative models for collaborative writing knowledge management nke ahrens how take smart notes cambridge university press zettelkasten method foundational for modern personal knowledge management andy matuschak ongoing working notes tools for thought collaboration infrastructure anthropic projects documentation current microsoft copilot studio different approach similar problem various multi agent frameworks langchain crewai autogen earlier companion documents this series documents the nautilus okwf series listed the header this document appendix position series visualization document nautilus portal protocol technical infrastructure for federation document review methodology how agents collaborate review document this document infrastructure for collaborative intellectual work addresses the meta question how documents should developed and maintained document double triangle architecture coordination pattern for human work document open knowledge work foundation institutional manifestation document representative agent layer document professional colleague agents outward facing functional category inward facing functional category with five type taxonomy document composite skills agent bridge between type and type with refined six type taxonomy the position document structurally meaningful addresses infrastructure questions that became visible only after the applied work documents demonstrated the inadequacy the chat medium but conceptually belongs early the series alongside other infrastructure documents the numbering makes this dual position explicit sequenced after applied work was completed but conceptually placed where infrastructure considerations naturally fit infrastructure for collaborative intellectual work draft document the nautilus open knowledge work series inquiry document not architectural specification смотрите также references anthropic vacancies references acknowledgments anthropic vacancies acknowledgments the missing middle layer between chat and code anthropic vacancies the missing middle layer between chat and code missing middle layer missing middle layer",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 586,
+    "path": "docs/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md"
+  }
+}

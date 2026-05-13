@@ -1,6 +1,29 @@
 # 0. Status of This Document
 
+<!-- toc-auto -->
+## Contents
+
+- [0. Status of This Document](#0-status-of-this-document)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (20)](#кто-ссылается-на-этот-документ-20)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Этот документ — рабочий черновик Nautilus Portal Protocol v1.0. Он может
 
 ---
@@ -23,7 +46,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [75-0-status-of-this-document](75-0-status-of-this-document.md) (сходство 0.55)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.22)
 - [42-author-contact](42-author-contact.md) (сходство 0.20)
@@ -33,7 +56,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "0 Status of This Document"
+```
+
+## Смотрите также
 - [75-0-status-of-this-document](75-0-status-of-this-document.md)
 - [42-author-contact](42-author-contact.md)
 - [62-author-contact](62-author-contact.md)
@@ -90,3 +119,19 @@
 - [Примеры запросов (в Claude)](129-примеры-запросов-в-claude.md) _29%_
 - [12. Versioning Policy](24-12-versioning-policy.md) _29%_
 - [Content Overview](48-content-overview.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (20)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [164-10-appendices](164-10-appendices.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [203-благодарности](203-благодарности.md)
+- _...ещё 12_
+

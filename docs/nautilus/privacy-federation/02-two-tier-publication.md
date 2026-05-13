@@ -1,10 +1,37 @@
 # Архитектурное решение: две-уровневая публикация
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
 
 ---
 <!-- tags: rag, security, architecture, anthropic, collaboration -->
+
+> [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения.
+
 
 
 
@@ -126,11 +153,33 @@ procedural_stage: "klage"
 
 ---
 
-**Смотрите также:**
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
-- [01-structural-comparison-code-vs-docs](docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
-- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
-- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Архитектурное решение две уровневая"
+```
+
+## Смотрите также
+- [03-what-this-gives-technically](03-what-this-gives-technically.md)
+- [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+- [00-question-anonymization](00-question-anonymization.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+- [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)
+- [03-what-this-gives-technically](03-what-this-gives-technically.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -138,7 +187,7 @@ procedural_stage: "klage"
 ---
 
 **Похожие документы:**
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md) (сходство 0.15)
-- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.12)
-- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.12)
+- [02-two-tier-publication](../../obsidian/nautilus/privacy-federation/02-two-tier-publication.md) (сходство 0.99)
+- [00-question-anonymization](00-question-anonymization.md) (сходство 0.17)
+- [00-question-anonymization](../../obsidian/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.17)
 

@@ -271,11 +271,31 @@ OKWF:
 
 ---
 
-**Смотрите также:**
-- [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
-- [07-oblasti-primeneniya](docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md)
-- [05-ekonomika](docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md)
-- [238-7-области-применения](docs/02-anthropic-vacancies/238-7-области-применения.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Пилотное предложение SGB Колega"
+```
+
+## Смотрите также
+- [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
+- [07-oblasti-primeneniya](07-oblasti-primeneniya.md)
+- [05-ekonomika](05-ekonomika.md)
+- [238-7-области-применения](../../02-anthropic-vacancies/238-7-области-применения.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-ekonomika](05-ekonomika.md)
+- [07-oblasti-primeneniya](07-oblasti-primeneniya.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -283,7 +303,7 @@ OKWF:
 ---
 
 **Похожие документы:**
-- [239-8-пилотное-предложение-sgb-колega-адвокат](docs/obsidian/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md) (сходство 0.92)
-- [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md) (сходство 0.90)
-- [07-oblasti-primeneniya](docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md) (сходство 0.14)
+- [08-pilot-sgb-kolega](../../obsidian/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md) (сходство 0.99)
+- [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md) (сходство 0.90)
+- [239-8-пилотное-предложение-sgb-колega-адвокат](../../obsidian/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md) (сходство 0.89)
 

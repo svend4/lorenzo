@@ -1,11 +1,28 @@
 # Существующий landscape collaborators (working knowledge)
 
+<!-- toc-auto -->
+## Contents
+
+- [Существующий landscape collaborators (твоя working knowledge)](#существующий-landscape-collaborators-твоя-working-knowledge)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 **Проекты:** CardIndex, knowledge-space, NGT Memory, Wikontic
 
 ---
 <!-- tags: memory, knowledge, ingestion, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -42,11 +59,32 @@
 
 ---
 
-**Смотрите также:**
-- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
-- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
-- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующий landscape collaborators"
+```
+
+## Смотрите также
+- [354-существующий-landscape-collaborators-твоя-working-](../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [06-final-tier-ranking](../anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+- [04-mem0-letta-graphiti](../anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [03-section-3-solution-architecture](../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [04-mem0-letta-graphiti](../anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [06-final-tier-ranking](../anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -54,7 +92,7 @@
 ---
 
 **Похожие документы:**
-- [354-существующий-landscape-collaborators-твоя-working-](docs/obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.73)
-- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.72)
-- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) (сходство 0.44)
+- [10-collaborators-landscape](../obsidian/lorenzo-agent/10-collaborators-landscape.md) (сходство 0.95)
+- [354-существующий-landscape-collaborators-твоя-working-](../obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.73)
+- [354-существующий-landscape-collaborators-твоя-working-](../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.73)
 

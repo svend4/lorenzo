@@ -1,5 +1,23 @@
 # Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -331,11 +349,38 @@ Advocate/evangelist (spreading the idea)
 
 ---
 
-**Смотрите также:**
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [01-completing-loop](docs/nautilus/transmission-box/01-completing-loop.md)
-- [01-response](docs/nautilus/innovation-transitions/01-response.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Очень богатый воп"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Очень богатый воп" --mode bm25
+```
+
+## Смотрите также
+- [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [01-completing-loop](../transmission-box/01-completing-loop.md)
+- [01-response](../innovation-transitions/01-response.md)
+- [165-closing](../../02-anthropic-vacancies/165-closing.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response](../community-discussions/voiceless-contributors/01-response.md)
+- [README](README.md)
+- [01-completing-loop](../transmission-box/01-completing-loop.md)
 
 
 <!-- similar-docs -->
@@ -343,7 +388,7 @@ Advocate/evangelist (spreading the idea)
 ---
 
 **Похожие документы:**
-- [150-appendix-c-version-history](docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.30)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md) (сходство 0.30)
-- [01-completing-loop](docs/nautilus/transmission-box/01-completing-loop.md) (сходство 0.19)
+- [01-three-related-themes](../../obsidian/nautilus/supply-demand/01-three-related-themes.md) (сходство 0.99)
+- [01-completing-loop](../transmission-box/01-completing-loop.md) (сходство 0.19)
+- [01-completing-loop](../../obsidian/nautilus/transmission-box/01-completing-loop.md) (сходство 0.19)
 

@@ -1,5 +1,12 @@
 # Альтернативные пути вне Anthropic
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -32,11 +39,30 @@ Patent filing. 6 патентабельных изобретений — это 
 
 ---
 
-**Смотрите также:**
-- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Альтернативные пути вне Anthropic"
+```
+
+## Смотрите также
+- [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
+- [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
+- 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [README](README.md)
+- [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
 
 
 <!-- similar-docs -->
@@ -44,7 +70,7 @@ Patent filing. 6 патентабельных изобретений — это 
 ---
 
 **Похожие документы:**
-- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md) (сходство 0.21)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.16)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md) (сходство 0.14)
+- [04-non-anthropic-paths](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md) (сходство 0.97)
+- [04-stronger-paths-outside-anthropic](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md) (сходство 0.22)
+- [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md) (сходство 0.22)
 

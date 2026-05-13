@@ -1,5 +1,20 @@
 # 11. Призыв к сотрудничеству
 
+<!-- toc-auto -->
+## Contents
+
+- [11. Призыв к сотрудничеству](#11-призыв-к-сотрудничеству)
+  - [11.1. Для AI-Исследователей](#111-для-ai-исследователей)
+  - [11.2. Для Организаций Социальных Служб](#112-для-организаций-социальных-служб)
+  - [11.3. Для Организаций Прав Инвалидов](#113-для-организаций-прав-инвалидов)
+  - [11.4. Для Финансирующих Фондов](#114-для-финансирующих-фондов)
+  - [11.5. Для Политиков](#115-для-политиков)
+  - [11.6. Для Потенциальных Принципалов](#116-для-потенциальных-принципалов)
+  - [11.7. Для Критиков](#117-для-критиков)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -54,11 +69,33 @@
 
 ---
 
-**Смотрите также:**
-- [201-11-призыв-к-сотрудничеству](docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
-- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
-- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
-- [199-9-стратегия-поэтапного-развёртывания](docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Призыв к сотрудничеству"
+```
+
+## Смотрите также
+- [201-11-призыв-к-сотрудничеству](../../02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
+- [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- [199-9-стратегия-поэтапного-развёртывания](../../02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
+- [08-riski-mery](08-riski-mery.md)
+- [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -66,7 +103,7 @@
 ---
 
 **Похожие документы:**
-- [201-11-призыв-к-сотрудничеству](docs/obsidian/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) (сходство 0.86)
-- [201-11-призыв-к-сотрудничеству](docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) (сходство 0.83)
-- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md) (сходство 0.18)
+- [11-prizyv-k-sotrudnichestvu](../../obsidian/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) (сходство 0.98)
+- [201-11-призыв-к-сотрудничеству](../../02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) (сходство 0.80)
+- [201-11-призыв-к-сотрудничеству](../../obsidian/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) (сходство 0.80)
 

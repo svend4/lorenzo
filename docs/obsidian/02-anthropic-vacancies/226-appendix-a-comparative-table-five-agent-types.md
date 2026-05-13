@@ -3,15 +3,32 @@ title: "Appendix A: Comparative Table — Five Agent Types"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix A: Comparative Table — Five Agent Types
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > > 🎯 **Проблема:** Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst
 
 ---
+
+<!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Содержание
+
+- [Appendix A: Comparative Table — Five Agent Types](#appendix-a-comparative-table-five-agent-types)
+
+---
+
 <!-- tags: anthropic -->
 
 
@@ -49,7 +66,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[269-appendix-a-the-six-type-taxonomy-updated]] (сходство 0.31)
 - [[212-1-the-five-type-typology-of-principal-side-agents]] (сходство 0.24)
 - [[227-appendix-b-decision-framework-when-to-build-type-1]] (сходство 0.18)
@@ -59,9 +76,31 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A Comparative Table Five Agent"
+```
+
+## Смотрите также
 - [[269-appendix-a-the-six-type-taxonomy-updated]]
 - [[212-1-the-five-type-typology-of-principal-side-agents]]
 - [[227-appendix-b-decision-framework-when-to-build-type-1]]
 - [[211-table-of-contents]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[182-acknowledgments]]
+- [[211-table-of-contents]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[220-9-relationship-to-other-agent-types]]
+- [[223-12-closing]]
+- [[227-appendix-b-decision-framework-when-to-build-type-1]]
+- _...ещё 2_
 

@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:bad009532da80b67",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/356-твой-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/320-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/154-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:895b5ed6663bae63",
+  "payload": {
+    "title": "Что ты МОЖЕШЬ делать",
+    "summary": "В рамках одной сессии или Project context, ты можешь:",
+    "body": "что можешь делать рамках одной сессии или project context можешь проекты cardindex svyazi executive summary похожие документы твой workflow твой workflow сходство смотрите также твой workflow твой workflow references references table contents table contents что всегда делаешь что всегда делаешь упоминается вакансии anthropic анализ кластерам readme твой workflow твой workflow что можешь делать без max approval что можешь делать без max approval что можешь делать вообще что можешь делать вообще упоминается вакансии anthropic анализ кластерам readme связанные документы что можешь делать без max approval что можешь делать без max approval appendix summary contributions appendix summary contributions твой workflow твой workflow связанные документы твой workflow твой workflow что можешь делать без max approval что можешь делать без max approval appendix summary contributions appendix summary contributions что можешь делать вообще что можешь делать вообще что всегда делаешь что всегда делаешь кто ссылается этот документ appendix summary contributions appendix summary contributions table contents table contents references references что можешь делать вообще что можешь делать вообще твой workflow твой workflow readme readme",
+    "tags": [
+      "knowledge"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 262,
+    "path": "docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md"
+  }
+}

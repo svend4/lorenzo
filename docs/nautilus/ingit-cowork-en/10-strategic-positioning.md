@@ -1,11 +1,20 @@
 # 10. Strategic Positioning
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [10. Strategic Positioning](#10-strategic-positioning)
@@ -160,11 +169,33 @@ integrate InGit specifically with the Cowork tab in Claude
 
 ---
 
-**Смотрите также:**
-- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
-- [01-cowork-discovery](docs/nautilus/ingit-cowork-en/01-cowork-discovery.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Strategic Positioning"
+```
+
+## Смотрите также
+- [318-10-strategic-positioning](../../02-anthropic-vacancies/318-10-strategic-positioning.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](../../02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- 08-implications-[nautilus-okwf](08-implications-nautilus-okwf.md)
+- [01-cowork-discovery](01-cowork-discovery.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reprioritization](../../anthropic-vacancies/hermes-comparison/13-reprioritization.md)
+- [11-difficulties-and-recommendations](../../lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+- [08-implications-nautilus-okwf](08-implications-nautilus-okwf.md)
+- [09-risks-open-questions](09-risks-open-questions.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -172,7 +203,7 @@ integrate InGit specifically with the Cowork tab in Claude
 ---
 
 **Похожие документы:**
-- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.88)
-- [318-10-strategic-positioning](docs/obsidian/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.86)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/obsidian/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.22)
+- [10-strategic-positioning](../../obsidian/nautilus/ingit-cowork-en/10-strategic-positioning.md) (сходство 0.98)
+- [318-10-strategic-positioning](../../obsidian/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.82)
+- [318-10-strategic-positioning](../../02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.82)
 

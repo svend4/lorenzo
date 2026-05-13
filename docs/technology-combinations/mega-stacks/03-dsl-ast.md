@@ -1,11 +1,28 @@
 # Mega‑Stack 3.0 — with DSL & AST
 
+<!-- toc-auto -->
+## Contents
+
+- [New capabilities](#new-capabilities)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 30: MEGA‑STACK 3.0 with DSL & AST».
 **Проекты:** Hybrid RAG
 
 ---
 <!-- tags: rag, local-first, architecture, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -49,19 +66,30 @@
 
 ---
 
-**Смотрите также:**
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+## Смотрите также
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+- [04-event-sourcing-consensus](04-event-sourcing-consensus.md)
+- [02-ultimate-legal-ai](02-ultimate-legal-ai.md)
+- [30-mega-stack-3-0-with-dsl-ast](../combinations/30-mega-stack-3-0-with-dsl-ast.md)
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
+
+_Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.34)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.31)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.30)
+- [03-dsl-ast](../../obsidian/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.93)
+- [25-30-extended](../synthesis-tables/25-30-extended.md) (сходство 0.40)
+- [25-30-extended](../../obsidian/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.39)
 

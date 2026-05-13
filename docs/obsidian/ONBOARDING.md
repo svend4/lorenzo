@@ -1,49 +1,25 @@
 ---
 title: "Онбординг — Svyazi 2.0 / Lorenzo"
 tags:
-  - memory
-  - orchestration
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - anthropic
-  - collaboration
+  - onboarding
+  - docs
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Онбординг — Svyazi 2.0 / Lorenzo
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `ONBOARDING` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: onboarding, docs -->
+
 
 <!-- summary -->
-> _Руководство для новых участников проекта._
-**Проекты:** Svyazi, CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Firecrawl
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Что это такое?](#что-это-такое)
-- [Первые 30 минут](#первые-30-минут)
-- [Структура документации](#структура-документации)
-- [Ключевые документы](#ключевые-документы)
-- [Скрипты автоматизации](#скрипты-автоматизации)
-- [Архитектура компонентов](#архитектура-компонентов)
-- [Как внести вклад](#как-внести-вклад)
-- [Контакты](#контакты)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
+> `ONBOARDING` — раздел документации проекта Lorenzo.
 
 
 _Руководство для новых участников проекта._
@@ -76,15 +52,15 @@ python scripts/improve_run_all.py --fast
 
 ## Структура документации
 
-_Всего: 407 файлов, 306,267 слов_
+_Всего: 413 файлов, 401,686 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
-| [[README|`docs/01-svyazi/`]] | Архитектура Svyazi 2.0 | 16 | 10,166 |
-| [[README|`docs/02-anthropic-vacancies/`]] | Вакансии Anthropic | 357 | 260,851 |
-| [[README|`docs/03-technology-combinations/`]] | Комбинации технологий | 7 | 2,433 |
-| [[README|`docs/04-ai-collaborations/`]] | AI-коллаборации | 17 | 24,521 |
-| [[README|`docs/05-habr-projects/`]] | Хабр-проекты | 10 | 8,296 |
+| [[README|`01-svyazi/`]] | Архитектура Svyazi 2.0 | 16 | 13,329 |
+| [[README|`02-anthropic-vacancies/`]] | Вакансии Anthropic | 357 | 341,899 |
+| [[README|`03-technology-combinations/`]] | Комбинации технологий | 7 | 3,781 |
+| [[README|`04-ai-collaborations/`]] | AI-коллаборации | 17 | 27,853 |
+| [[README|`05-habr-projects/`]] | Хабр-проекты | 16 | 14,824 |
 
 ## Ключевые документы
 
@@ -101,7 +77,7 @@ _Всего: 407 файлов, 306,267 слов_
 
 ## Скрипты автоматизации
 
-В репо 75 скриптов `improve_*.py` для автоматического обновления документации.
+В репо 166 скриптов `improve_*.py` для автоматического обновления документации.
 
 ```bash
 # Все скрипты быстро
@@ -150,23 +126,18 @@ _Этот документ генерируется скриптом `improve_on
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
 
 
-<!-- see-also -->
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
+**Кто ссылается на этот документ (11):**
+- [[CODE_BLOCKS]]
+- [[FAQ]]
 - [[INDEX]]
-- [[PRIORITIES]]
-- [[PROGRESS]]
-- [[TECH_RADAR]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[ONBOARDING]] (сходство 0.93)
-- [[COMPONENT_MATRIX]] (сходство 0.26)
-- [[COMPONENT_MATRIX]] (сходство 0.23)
+- [[LLM_SUMMARIES]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 3_
 

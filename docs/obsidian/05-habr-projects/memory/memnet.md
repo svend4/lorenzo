@@ -2,7 +2,7 @@
 title: "MemNet: исследовательская память"
 tags:
   - habr-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # MemNet: исследовательская память
@@ -342,7 +342,7 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[00-intro]] (сходство 0.67)
 - [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]] (сходство 0.13)
 - [[TABLES]] (сходство 0.13)
@@ -352,11 +352,37 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 
 ---
 
-**Смотрите также:**
-- [[00-intro]]
-- [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]]
-- [[TABLES]]
-- [[CONCEPTS]]
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode full --top 15
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet исследовательская память" --mode bm25 --top 5
+```
+
+## Смотрите также
+- [[yodoca|Yodoca: консолидация и забывание]]
+- [[ngt-memory|NGT Memory: ассоциативный граф]]
+- agent-memory-[[agent-memory-mcp|mcp + Memory OS]]
+- [[knowledge-space]]
 
 
 
@@ -381,3 +407,14 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[README]]
+- [[ACTION_ITEMS]]
+- [[DECISIONS]]
+- [[FAQ]]
+

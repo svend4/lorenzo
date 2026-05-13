@@ -2,7 +2,7 @@
 title: "6. Risks Specific to this Category"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 6. Risks Specific to this Category
@@ -258,7 +258,7 @@ emerge.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[215-4-architecture-of-professional-colleague-agents]] (сходство 0.15)
 - [[177-8-risks-and-mitigations]] (сходство 0.14)
 - [[257-4-the-sub-agent-registry]] (сходство 0.14)
@@ -268,7 +268,13 @@ emerge.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Risks Specific to this Category"
+```
+
+## Смотрите также
 - [[263-10-risks-specific-to-composite-architectures]]
 - [[257-4-the-sub-agent-registry]]
 - [[215-4-architecture-of-professional-colleague-agents]]
@@ -307,3 +313,19 @@ emerge.
 - [[177-8-risks-and-mitigations|8. Risks and Mitigations]] _21%_
 - [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _21%_
 - [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[214-3-empirical-case-study-обучай]]
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[257-4-the-sub-agent-registry]]
+- [[263-10-risks-specific-to-composite-architectures]]
+- _...ещё 1_
+

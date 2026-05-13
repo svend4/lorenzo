@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:d0f534422ca09d60",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/318-10-strategic-positioning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:95ce7abf67f267db",
+  "payload": {
+    "title": "Appendix C: Sample InGit MCP Server Tool Specifications",
+    "summary": "For reference, here are detailed specifications for first",
+    "body": "appendix sample ingit mcp server tool specifications warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений абстракт авто проблема contact via github com svend nautilus issues url github com svend ingit issues url заметки девятому документу несколько важных решений его дизайне подход this starting point not final design результат four paths order actionable section даёт четыре конкретные integration paths order accessibility ключевые слова document ingit cowork appendix anthropic infrastructure positioning section for reference here are detailed specifications for first appendix sample ingit mcp server tool specifications for reference here are detailed specifications for first five mcp tools proposed ingit mcp server tool ingit search wiki description search the ingit project wiki for relevant content searches both content and metadata parameters query type string description search query path filter type string optional true description limit search subfolder wiki returns type list items path string title string excerpt string metadata object last modified datetime tool ingit create document description create new document ingit project following conventions for the document type parameters document type type enum values note report specification draft title type string content type string metadata type object description additional yaml metadata location type string optional true description override default location for type returns type object fields path string validation status enum valid warnings errors validation messages list created datetime tool ingit validate yaml description validate yaml content against ingit schema for specified content type parameters content type string description yaml content validate schema type type enum values task document wiki page project config returns type object fields valid boolean errors list warnings list suggestions list tool ingit list tasks description list tasks ingit project optionally filtered parameters status filter type list optional true values draft ready progress blocked done cancelled assignee filter type string optional true date range type object optional true returns type list items string title string status string assignee string metadata object created datetime updated datetime tool ingit commit description commit changes ingit project git repository following commit message conventions parameters message type type enum values feat fix docs refactor chore task scope type string description project area affected description type string description brief description change files type list optional true description specific files commit default all returns type object fields commit hash string files committed list validation results list these specifications would refined through actual usage this starting point not final design ingit cowork native workspace substrate draft document the nautilus open knowledge work series practical implementation paper building the theoretical framework document reference projects ingit github com svend ingit https github com svend ingit and anthropic cowork claude com product cowork https claude com product cowork seeking collaborators interested either ingit development cowork integration nautilus federation contact via github com svend nautilus issues https github com svend nautilus issues github com svend ingit issues https github com svend ingit issues заметки девятому документу несколько важных решений его дизайне position намеренная нумерация как document был infrastructure inquiry этот infrastructure implementation они образуют пару ставит вопрос даёт specific answer numbering показывает conceptually связан infrastructure layer sequentially написан после applied work pairs naturally как theory practice главная переоценка честная acknowledgments явно написал что document framing был неполным что discovery cowork через web search этой сессии существенно изменил landscape это honest intellectual practice пытаюсь pretend что всегда знал про cowork acknowledged что упустили это документе теперь correct это это важно для integrity intellectual project если pretend всезнание последующие documents теряли credibility acknowledging gaps укрепляет ослабляет symbiotic positioning central insight document strongly argues для complementary positioning ingit relative cowork competitive это strategically significant reduces ingit scope dramatically saves months work leverages anthropic substantial product investment aligns ingit existing offline first philosophy creates symbiotic value rather than zero sum competition makes ingit immediately useful это pragmatic reframing который could literally save проект from over ambition four paths order actionable section даёт четыре конкретные integration paths order accessibility path ingit project cowork доступно сейчас development path ingit mcp server weeks development path project template когда api будет открыт path deep cowork integration long term speculative sequential progression каждый builds previous skipping ahead risky это immediately actionable plan aspiration path можно начать сегодня вечером refined okwf budget section substantially refined sgb advocate colleague pilot budget document year document year composite architecture document year with cowork agent layer это ближе document original architectural sophistication document sохранена difference leveraging existing infrastructure cowork instead building everything custom это dramatically more achievable для foundation funder consideration section связь всеми predыдущими documents особенно важная section объяснил как ingit cowork integration affects document nautilus nautilus operates one level above ingit federates across ingit projects document okwf pilot architecture refined more achievable document professional colleague agents sub agents map onto specialized mcp servers document composite skills agent cowork coordinator sub agent set configuration document infrastructure recursive insight realized",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1782,
+    "path": "docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md"
+  }
+}

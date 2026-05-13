@@ -1,18 +1,9 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/183-references.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. References
-
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac{quote}
-{quote}🔧 _Подход:_ "Designing Organizations for an Information-Rich World".{quote}
-{quote}🏷️ _Ключевые слова:_ {{references}}, {{principal}}, {{anthropic}}, {{vacancies}}, {{theory}}, {{disability}}, {{ethics}}, {{ссылки}}{quote}
->
-
 
 
 h2. Contents
@@ -23,6 +14,24 @@ h2. Contents
   * [Disability and Access|#disability-and-access]
   * [Modern AI Ethics|#modern-ai-ethics]
   * [Companion Documents|#companion-documents]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (10)|#кто-ссылается-на-этот-документ-10]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac{quote}
+{quote}🔧 _Подход:_ "Designing Organizations for an Information-Rich World".{quote}
+{quote}🏷️ _Ключевые слова:_ {{references}}, {{principal}}, {{anthropic}}, {{vacancies}}, {{theory}}, {{disability}}, {{ethics}}, {{ссылки}}{quote}
+>
 
 
 
@@ -83,19 +92,41 @@ h3. Companion Documents
 
 ----
 
-_Похожие документы:_
-* [204-ссылки|docs/02-anthropic-vacancies/204-ссылки.md] (сходство 0.24)
-* [225-references|docs/02-anthropic-vacancies/225-references.md] (сходство 0.22)
-* [209-a-typology-of-ai-agents-on-the-principal-side-and-|docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md] (сходство 0.17)
+h2. Похожие документы
+* [204-ссылки|204-ссылки.md] (сходство 0.24)
+* [225-references|225-references.md] (сходство 0.22)
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md] (сходство 0.17)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [204-ссылки|docs/02-anthropic-vacancies/204-ссылки.md]
-* [225-references|docs/02-anthropic-vacancies/225-references.md]
-* [251-ai-support-through-configurable-specialist-ensembl|docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md]
-* [209-a-typology-of-ai-agents-on-the-principal-side-and-|docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+{code}
+
+h2. Смотрите также
+* [204-ссылки|204-ссылки.md]
+* [225-references|225-references.md]
+* [251-ai-support-through-configurable-specialist-ensembl|251-ai-support-through-configurable-specialist-ensembl.md]
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* [146-acknowledgments|146-acknowledgments.md]
+* [167-ai-mediated-representation-for-underrepresented-ex|167-ai-mediated-representation-for-underrepresented-ex.md]
+* [182-acknowledgments|182-acknowledgments.md]
+* [184-appendix-a-connection-to-companion-papers|184-appendix-a-connection-to-companion-papers.md]
+* [209-a-typology-of-ai-agents-on-the-principal-side-and-|209-a-typology-of-ai-agents-on-the-principal-side-and-.md]
+* [211-table-of-contents|211-table-of-contents.md]
+* [224-acknowledgments|224-acknowledgments.md]
+* [251-ai-support-through-configurable-specialist-ensembl|251-ai-support-through-configurable-specialist-ensembl.md]
+* _...ещё 2_
 

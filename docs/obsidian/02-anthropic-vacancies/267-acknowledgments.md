@@ -4,12 +4,33 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Acknowledgments
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- toc -->
+## Содержание
+
+- [Acknowledgments](#acknowledgments)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Acknowledgments The Composite Skills Agent concept emerged from dialogue with --- Acknowledgments The Composite Skills Agent concept emerged from dialogue with Claude (Anthropic) o
@@ -66,7 +87,7 @@ when AI augments human practice.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[319-acknowledgments]] (сходство 0.26)
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.25)
 - [[252-abstract]] (сходство 0.24)
@@ -76,7 +97,13 @@ when AI augments human practice.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
+## Смотрите также
 - [[319-acknowledgments]]
 - [[274-the-missing-middle-layer-between-chat-and-code]]
 - [[252-abstract]]
@@ -123,3 +150,19 @@ when AI augments human practice.
 - [[287-references|References]] _33%_
 - [[168-abstract|Abstract]] _29%_
 - [[182-acknowledgments|Acknowledgments]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [[146-acknowledgments]]
+- [[168-abstract]]
+- [[182-acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[224-acknowledgments]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- [[252-abstract]]
+- _...ещё 10_
+

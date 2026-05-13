@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:1dc207af6db0775c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:5f5d1efae46749ff",
+  "payload": {
+    "title": "Section 5: Role of Anthropic Beneficial Deployments",
+    "summary": "Section 5: Role of Anthropic Beneficial Deployments",
+    "body": "section role anthropic beneficial deployments tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также context context section timeliness section timeliness section risks mitigations section risks mitigations section problem section problem",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 221,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md"
+  }
+}

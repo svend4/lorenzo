@@ -1,5 +1,16 @@
 # Q&A: lorenzo-agent
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: qa, docs -->
+
+
+<!-- summary -->
+> `QA` — раздел документации проекта Lorenzo.
+
+
 _Автоматически сгенерировано по 55 файлам раздела._
 
 ## Какие кластеры найма выделены у Anthropic?
@@ -68,4 +79,31 @@ _Не найдено в этом файле._
 
 ## Какова разница между эпизодической и семантической памятью?
 
-Упоминаются: **episod**, **fact**, **proposal**
+Упоминаются: **episod**, **семантич**, **fact**, **proposal**
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+

@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:48c66988f53b321a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/multi-tier-architecture/01-strategic-significance.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/133-обратная-связь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/innovation-transitions/01-response.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/privacy-federation/03-what-this-gives-technically.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:bd5e298599c74a58",
+  "payload": {
+    "title": "Claude hat geantwortet: Это стратегически значимый вопрос, и ответ на него — да,…",
+    "summary": "Claude hat geantwortet: Это стратегически значимый вопрос, и ответ на него — да, очень интересна, и даже шире, чем вы описываете.",
+    "body": "claude hat geantwortet это стратегически значимый вопрос ответ него warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога многоуровневая архитектура общая база приватные подключения смотрите также обратная связь anthropic vacancies обратная связь response innovation transitions response what this gives technically privacy federation what this gives technically claude response community discussions habr article reaction claude response",
+    "tags": [
+      "security",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 2586,
+    "path": "docs/nautilus/multi-tier-architecture/01-strategic-significance.md"
+  }
+}

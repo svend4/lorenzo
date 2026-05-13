@@ -4,12 +4,35 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Angle / Perspective
 
+<!-- toc-auto -->
+## Contents
+
+- [Angle / Perspective](#angle-perspective)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > **Methodological** — `info1` смотрит на концепты **с позиции применения**.
 
 ---
@@ -36,7 +59,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[49-angle-perspective]] (сходство 0.14)
 - [[59-angle-perspective]] (сходство 0.14)
 - [[46-essence]] (сходство 0.12)
@@ -46,7 +69,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Angle Perspective"
+```
+
+## Смотрите также
 - [[36-essence]]
 - [[49-angle-perspective]]
 - [[59-angle-perspective]]
@@ -87,3 +116,17 @@ date: 2026-04-29
 - [[46-essence|Essence]] _25%_
 - [[55-passports-meta-md|passports/meta.md]] _25%_
 - [[56-essence|Essence]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[13-angle-perspective]]
+- 45-passports-[[45-passports-pro2-md|pro2-md]]
+- [[49-angle-perspective]]
+- [[55-passports-meta-md]]
+- [[57-native-format]]
+- [[59-angle-perspective]]
+- [[README]]
+

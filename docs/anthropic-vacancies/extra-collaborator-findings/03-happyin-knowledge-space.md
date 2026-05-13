@@ -1,11 +1,27 @@
 # Happyin Knowledge Space (Анастасия) — детали
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
 **Проекты:** knowledge-space
 
 ---
 <!-- tags: knowledge, ingestion, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -50,11 +66,30 @@ MIT license — open для использования и адаптации
 
 ---
 
-**Смотрите также:**
-- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
-- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
-- [01-coally](docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md)
-- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Happyin Knowledge Space Анастасия детали"
+```
+
+## Смотрите также
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
+- [06-final-tier-ranking](06-final-tier-ranking.md)
+- [01-coally](01-coally.md)
+- [07-key-observation](07-key-observation.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -62,7 +97,7 @@ MIT license — open для использования и адаптации
 ---
 
 **Похожие документы:**
-- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md) (сходство 0.20)
-- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) (сходство 0.17)
-- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md) (сходство 0.17)
+- [03-happyin-knowledge-space](../../obsidian/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md) (сходство 0.98)
+- [04-mem0-letta-graphiti](../../obsidian/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md) (сходство 0.25)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md) (сходство 0.25)
 

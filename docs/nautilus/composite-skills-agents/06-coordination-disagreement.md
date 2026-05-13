@@ -1,11 +1,20 @@
 # 6. Coordination and Disagreement Resolution
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [6. Coordination and Disagreement Resolution](#6-coordination-and-disagreement-resolution)
@@ -151,11 +160,31 @@ practice.
 
 ---
 
-**Смотрите также:**
-- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
-- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [05-configuration-ensembles](docs/nautilus/composite-skills-agents/05-configuration-ensembles.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Coordination and Disagreement"
+```
+
+## Смотрите также
+- [259-6-coordination-and-disagreement-resolution](../../02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- [256-3-what-makes-a-composite-skills-agent](../../02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [05-configuration-ensembles](05-configuration-ensembles.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -163,7 +192,7 @@ practice.
 ---
 
 **Похожие документы:**
-- [259-6-coordination-and-disagreement-resolution](docs/obsidian/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.88)
-- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.84)
-- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md) (сходство 0.21)
+- [06-coordination-disagreement](../../obsidian/nautilus/composite-skills-agents/06-coordination-disagreement.md) (сходство 0.99)
+- [259-6-coordination-and-disagreement-resolution](../../02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.84)
+- [259-6-coordination-and-disagreement-resolution](../../obsidian/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.84)
 

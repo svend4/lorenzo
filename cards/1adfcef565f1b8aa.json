@@ -1,0 +1,64 @@
+{
+  "card_id": "sha256:1adfcef565f1b8aa",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/120-главные-технические-риски.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/359-твои-anti-patterns.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:cffe70b181ab15e4",
+  "payload": {
+    "title": "Приложение A: Дерево Решений для Принимающих InGit",
+    "summary": "Быстрая ссылка для пользователей, оценивающих",
+    "body": "приложение дерево решений для принимающих ingit warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений быстрая ссылка для пользователей оценивающих упоминается appendix шаблон для header warning appendix шаблон для header warning appendix история изменений методологии appendix история изменений методологии вакансии anthropic анализ кластерам readme главные технические риски главные технические риски доступ данным доступ данным когда сомневаешься escalate max когда сомневаешься escalate max когда honestly знаешь когда honestly знаешь кому служишь слоистая модель кому служишь слоистая модель приложение матрица сравнения областей приложение матрица сравнения областей твои anti patterns твои anti patterns твоя миссия твоя миссия упоминается вакансии anthropic анализ кластерам readme смотрите также доступ данным доступ данным appendix шаблон для header warning appendix шаблон для header warning appendix история изменений методологии appendix история изменений методологии кому служишь слоистая модель кому служишь слоистая модель связанные документы доступ данным доступ данным appendix история изменений методологии appendix история изменений методологии кому служишь слоистая модель кому служишь слоистая модель appendix шаблон для header warning appendix шаблон для header warning когда honestly знаешь когда honestly знаешь appendix domain comparison matrix appendix domain comparison matrix твоя миссия твоя миссия главные технические риски главные технические риски кто ссылается этот документ доступ данным доступ данным appendix история изменений методологии appendix история изменений методологии history history appendix domain comparison matrix appendix domain comparison matrix приложение матрица сравнения областей приложение матрица сравнения областей readme readme",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 337,
+    "path": "docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md"
+  }
+}

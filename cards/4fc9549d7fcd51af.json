@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:4fc9549d7fcd51af",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/222-11-call-for-collaboration.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/145-8-call-to-action.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/180-11-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/210-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:158414e274e1471c",
+  "payload": {
+    "title": "11. Call for Collaboration",
+    "summary": "We invite specific kinds of collaboration:",
+    "body": "call for collaboration абстракт авто проблема liability professional licensure interaction quality standards all need development ключевые слова collaboration professional anthropic vacancies practitioners colleague experts curators contents call for collaboration call for collaboration for professional practitioners for professional practitioners for domain experts curators for domain experts curators for software engineers for software engineers for foundation funders for foundation funders for existing professional tool vendors for existing professional tool vendors for researchers for researchers for policy stakeholders for policy stakeholders invite specific kinds collaboration похожие документы call for collaboration call for collaboration сходство call action call action сходство closing closing сходство смотрите также call for collaboration call for collaboration call action call action closing closing call for collaboration call for collaboration кто ссылается этот документ call action call action open knowledge work foundation open knowledge work foundation abstract abstract the economics profession wide replication the economics profession wide replication pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague closing closing readme readme",
+    "tags": [
+      "rag",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 403,
+    "path": "docs/02-anthropic-vacancies/222-11-call-for-collaboration.md"
+  }
+}

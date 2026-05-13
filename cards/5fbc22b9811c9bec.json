@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:5fbc22b9811c9bec",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:db736bd7a97f1b0f",
+  "payload": {
+    "title": "Q&A: 02-anthropic-vacancies",
+    "summary": "_Автоматически сгенерировано по 355 файлам раздела._",
+    "body": "anthropic vacancies автоматически сгенерировано файлам раздела какие архитектурных зазоров выделены исследовании упоминаются зазор карточка evidence memory governance review protocol что входит интеграционный контракт между слоями упоминаются card envelope evidence envelope memory write skill policy review record какие кластеры найма выделены anthropic упоминаются research gtm trust safety inference product какие роли наиболее релевантны для профиля svend упоминаются forward deployed research engineer developer community кто ключевые авторы проектов для контакта упоминаются андрей чуян kksudo spbmolot какие вопросы лучше задавать авторам при первом контакте упоминаются первый вопрос архитектурный шаблон контакт каковы этапы mvp оценка времени упоминаются mvp итерац фаза неделя что входит первую итерацию прототипа упоминаются evidence first manual review как реализован forensic rag доказуемостью упоминаются liteparse evidence что такое evidence envelope зачем нужен упоминаются evidence envelope source page span какие rag подходы сравниваются документах упоминаются legal rag hybrid rag graph rag liteparse какие системы памяти описаны этом разделе упоминаются yodoca ngt memory memnet как происходит консолидация забывание памяти агентов упоминаются консолидац forgetting decay episod какова разница между эпизодической семантической памятью упоминаются episod семантич fact proposal как организована многоагентная оркестрация упоминаются mclaude factory rufler sequential что такое handoff locks агентных системах упоминаются handoff locks multi session как работает spec driven подход factory упоминаются spec patch skill self learning какие инструменты обеспечивают безопасность агентов упоминаются sentinel litellm tool search auto router какова политика доступа умолчанию tool classes упоминаются read only path guard как организован бюджетный роутинг между моделями упоминаются routing budget litellm local model как работает agentfs что такое agentos упоминаются agentos vault compile persistent state что такое knowledge space для кого предназначен упоминаются reference card gotcha как cardindex хранит версионирует карточки упоминаются cardindex card state hash dedup",
+    "tags": [],
+    "projects": [
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 323,
+    "path": "docs/02-anthropic-vacancies/QA.md"
+  }
+}

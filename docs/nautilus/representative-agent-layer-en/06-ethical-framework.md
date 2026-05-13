@@ -1,5 +1,39 @@
 # 6. Ethical Framework
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [6. Ethical Framework](#6-ethical-framework)
+  - [6.1. Principal Sovereignty](#61-principal-sovereignty)
+  - [6.2. Transparent Capability](#62-transparent-capability)
+  - [6.3. No Adverse Action Without Notice](#63-no-adverse-action-without-notice)
+  - [6.4. Fairness Across Principals](#64-fairness-across-principals)
+  - [6.5. Vulnerability Protection](#65-vulnerability-protection)
+  - [6.6. Consent and Capacity](#66-consent-and-capacity)
+  - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Ethical Framework](#6-ethical-framework)
+  - [6.1. Principal Sovereignty](#61-principal-sovereignty)
+  - [6.2. Transparent Capability](#62-transparent-capability)
+  - [6.3. No Adverse Action Without Notice](#63-no-adverse-action-without-notice)
+  - [6.4. Fairness Across Principals](#64-fairness-across-principals)
+  - [6.5. Vulnerability Protection](#65-vulnerability-protection)
+  - [6.6. Consent and Capacity](#66-consent-and-capacity)
+  - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -110,11 +144,32 @@ tech-sophisticated principals fails its core mission.
 
 ---
 
-**Смотрите также:**
-- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
-- [07-governance-oversight](docs/nautilus/representative-agent-layer-en/07-governance-oversight.md)
-- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
-- [08-risks-mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Ethical Framework"
+```
+
+## Смотрите также
+- [175-6-ethical-framework](../../02-anthropic-vacancies/175-6-ethical-framework.md)
+- [07-governance-oversight](07-governance-oversight.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [08-risks-mitigations](08-risks-mitigations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [07-governance-oversight](07-governance-oversight.md)
+- [08-risks-mitigations](08-risks-mitigations.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -122,7 +177,7 @@ tech-sophisticated principals fails its core mission.
 ---
 
 **Похожие документы:**
-- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.88)
-- [175-6-ethical-framework](docs/obsidian/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.85)
-- [07-governance-oversight](docs/nautilus/representative-agent-layer-en/07-governance-oversight.md) (сходство 0.20)
+- [06-ethical-framework](../../obsidian/nautilus/representative-agent-layer-en/06-ethical-framework.md) (сходство 0.98)
+- [175-6-ethical-framework](../../02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.85)
+- [175-6-ethical-framework](../../obsidian/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.84)
 

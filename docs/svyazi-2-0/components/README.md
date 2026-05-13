@@ -1,35 +1,69 @@
 # components
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 19
 
 ## Содержание
 
-- [agent-memory-mcp.md](agent-memory-mcp.md) — <!-- summary -->
-- [agentfs.md](agentfs.md) — <!-- summary -->
-- [ai-factory.md](ai-factory.md) — <!-- summary -->
-- [autoresearch-sequential.md](autoresearch-sequential.md) — <!-- summary -->
-- [graph-rag.md](graph-rag.md) — <!-- summary -->
-- [hybrid-rag.md](hybrid-rag.md) — <!-- summary -->
-- [knowledge-space.md](knowledge-space.md) — <!-- summary -->
-- [legal-rag.md](legal-rag.md) — <!-- summary -->
-- [mclaude.md](mclaude.md) — <!-- summary -->
-- [memnet.md](memnet.md) — <!-- summary -->
-- [ngt-memory.md](ngt-memory.md) — <!-- summary -->
-- [research-docs-liteparse.md](research-docs-liteparse.md) — <!-- summary -->
-- [rufler.md](rufler.md) — <!-- summary -->
-- [security-routing-plane.md](security-routing-plane.md) — <!-- summary -->
-- [self-aware-mcp.md](self-aware-mcp.md) — <!-- summary -->
-- [svyazi.md](svyazi.md) — <!-- summary -->
-- [voice-stack.md](voice-stack.md) — <!-- summary -->
-- [yjs-automerge.md](yjs-automerge.md) — <!-- summary -->
-- [yodoca.md](yodoca.md) — <!-- summary -->
+- [agent-memory-mcp.md](agent-memory-mcp.md) — <!-- toc-auto -->
+- [agentfs.md](agentfs.md) — <!-- toc-auto -->
+- [ai-factory.md](ai-factory.md) — <!-- toc-auto -->
+- [autoresearch-sequential.md](autoresearch-sequential.md) — <!-- toc-auto -->
+- [graph-rag.md](graph-rag.md) — <!-- toc-auto -->
+- [hybrid-rag.md](hybrid-rag.md) — <!-- toc-auto -->
+- [knowledge-space.md](knowledge-space.md) — <!-- toc-auto -->
+- [legal-rag.md](legal-rag.md) — <!-- toc-auto -->
+- [mclaude.md](mclaude.md) — <!-- toc-auto -->
+- [memnet.md](memnet.md) — <!-- toc-auto -->
+- [ngt-memory.md](ngt-memory.md) — <!-- toc-auto -->
+- [research-docs-liteparse.md](research-docs-liteparse.md) — <!-- toc-auto -->
+- [rufler.md](rufler.md) — <!-- toc-auto -->
+- [security-routing-plane.md](security-routing-plane.md) — <!-- toc-auto -->
+- [self-aware-mcp.md](self-aware-mcp.md) — <!-- toc-auto -->
+- [svyazi.md](svyazi.md) — <!-- toc-auto -->
+- [voice-stack.md](voice-stack.md) — <!-- toc-auto -->
+- [yjs-automerge.md](yjs-automerge.md) — <!-- toc-auto -->
+- [yodoca.md](yodoca.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (25):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [reading-paths](../../reading-paths.md)
+- [agent-memory-mcp](agent-memory-mcp.md)
+- [agentfs](agentfs.md)
+- _...ещё 17_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [GLOSSARY](docs/GLOSSARY.md) (сходство 0.39)
-- [GLOSSARY](docs/obsidian/GLOSSARY.md) (сходство 0.34)
-- [MINDMAP](docs/MINDMAP.md) (сходство 0.29)
+- [README](../../obsidian/svyazi-2-0/components/README.md) (сходство 0.89)
+- [README](../../habr-unique-projects/key-findings/README.md) (сходство 0.35)
+- [GLOSSARY](../../GLOSSARY.md) (сходство 0.35)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

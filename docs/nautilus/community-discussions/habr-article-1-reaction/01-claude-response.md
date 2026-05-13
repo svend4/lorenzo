@@ -1,5 +1,23 @@
 # Claude hat geantwortet: Прочитал внимательно.
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -274,11 +292,39 @@ Provides empirical validation что архитектура работает в 
 
 ---
 
-**Смотрите также:**
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [01-response](docs/nautilus/innovation-transitions/01-response.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Прочитал внимател"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Прочитал внимател" --mode bm25
+```
+
+## Смотрите также
+- [165-closing](../../../02-anthropic-vacancies/165-closing.md)
+- [01-strategic-significance](../../multi-tier-architecture/01-strategic-significance.md)
+- [133-обратная-связь](../../../02-anthropic-vacancies/133-обратная-связь.md)
+- [01-response](../../innovation-transitions/01-response.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+- [01-response](../practical-observations/01-response.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -286,7 +332,7 @@ Provides empirical validation что архитектура работает в 
 ---
 
 **Похожие документы:**
-- [165-closing](docs/obsidian/02-anthropic-vacancies/165-closing.md) (сходство 0.25)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.25)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.15)
+- [01-claude-response](../../../obsidian/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md) (сходство 0.99)
+- [01-strategic-significance](../../multi-tier-architecture/01-strategic-significance.md) (сходство 0.16)
+- [01-strategic-significance](../../../obsidian/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.15)
 

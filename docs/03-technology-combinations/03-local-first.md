@@ -1,5 +1,10 @@
 # Local-first и P2P стек
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -12,6 +17,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B - Средние → облачная DeepSeek - Сложные архитектурные → Claude O
@@ -23,7 +32,7 @@
 
 <!-- summary -->
 > - Сложные архитектурные → Claude Opus
-**Проекты:** Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md), Yjs
+**Проекты:** Svyazi, [CardIndex](../01-svyazi/01-executive-summary.md), Yjs
 
 ---
 <!-- tags: rag, knowledge, ingestion, local-first, architecture, collaboration -->
@@ -32,7 +41,7 @@
 
 
 локальная Qwen3:8B
-- Средние → облачная [DeepSeek](../docs/05-habr-projects/memory/memnet.md)
+- Средние → облачная [DeepSeek](../05-habr-projects/memory/memnet.md)
 - Сложные архитектурные → Claude Opus
 - Роутер перед каждым агентом, не после
 Экономия: 80% запросов идут на дешёвые модели, Opus только для Planner-агента.
@@ -41,10 +50,10 @@
 #### Комбинация 3: CRDT local-first × Svyazi CardIndex
 Родители:
 - CRDT / RON / Yjs (habr.com/ru/articles/534510/, habr.com/ru/articles/946722/) — conflict-free replicated data types, p2p синхронизация
-- Svyazi [CardIndex](../docs/01-svyazi/01-executive-summary.md) — YAML-структура профилей с хешами для дедупликации
+- Svyazi [CardIndex](../01-svyazi/01-executive-summary.md) — YAML-структура профилей с хешами для дедупликации
 Дети:
 3.1 P2P-граф сообщества без центрального сервера Сейчас Svyazi — single-user система. С CRDT:
-- Каждый участник ведёт локальный [CardIndex](../docs/01-svyazi/01-executive-summary.md)
+- Каждый участник ведёт локальный [CardIndex](../01-svyazi/01-executive-summary.md)
 - Изменения синхронизируются p2p через Yjs
 - Конфликты (два человека обновили профиль одного участника) мержатся автоматически
 - Никакого центрального сервера — privacy by design
@@ -69,7 +78,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [01-agent-routing](01-agent-routing.md) (сходство 0.12)
 - [05-benchmarks](05-benchmarks.md) (сходство 0.11)
 - [02-knowledge-graphs](02-knowledge-graphs.md) (сходство 0.11)
@@ -79,7 +88,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Local first и P2P стек"
+```
+
+## Смотрите также
 - [01-agent-routing](01-agent-routing.md)
 - [05-benchmarks](05-benchmarks.md)
 - [02-knowledge-graphs](02-knowledge-graphs.md)
@@ -112,3 +127,13 @@
 - [Глоссарий проектов](../GLOSSARY.md) _17%_
 - [Тепловая карта тем](../HEATMAP.md) _17%_
 - [Карта репозитория Lorenzo](../SITEMAP.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [01-agent-routing](01-agent-routing.md)
+- [05-benchmarks](05-benchmarks.md)
+- [README](README.md)
+

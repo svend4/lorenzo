@@ -1,11 +1,38 @@
 # Что такое «внуковая» комбинация — operationalized Lorenzo
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 **Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Hybrid RAG, Graph RAG
 
 ---
 <!-- tags: rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 
 
 
@@ -74,11 +101,33 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 
 ---
 
-**Смотрите также:**
-- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
-- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что такое внуковая комбинация"
+```
+
+## Смотрите также
+- [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [06-conclusion-deserves-attention](06-conclusion-deserves-attention.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](../../ai-collaborations/fast-tracks/README.md)
+- [00-question-habr-examples](../../habr-unique-projects/extra-examples/00-question-habr-examples.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -86,7 +135,7 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 ---
 
 **Похожие документы:**
-- [364-final-note-ты-experiment](docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md) (сходство 0.24)
-- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md) (сходство 0.24)
-- [README](docs/ai-collaborations/fast-tracks/README.md) (сходство 0.19)
+- [00-overview-grandchild-combination](../../obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.97)
+- [01-pluses-1-7](01-pluses-1-7.md) (сходство 0.22)
+- [README](../../ai-collaborations/fast-tracks/README.md) (сходство 0.22)
 

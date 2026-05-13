@@ -1,10 +1,26 @@
 # Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы …
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
 
 ---
 <!-- tags: roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +49,31 @@
 
 ---
 
-**Смотрите также:**
-- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
-- [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что он даёт вам на практике Через MCP"
+```
+
+## Смотрите также
+- [03-what-doesnt-exist-on-market](03-what-doesnt-exist-on-market.md)
+- [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
+- [04-section-4-sgb-pilot](../../anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+- 16-[mcp-extension](../npp-v1-1/16-mcp-extension.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -45,7 +81,7 @@
 ---
 
 **Похожие документы:**
-- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md) (сходство 0.18)
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.17)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md) (сходство 0.16)
+- [02-mcp-claude-desktop-use-cases](../../obsidian/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md) (сходство 0.96)
+- [11-relevance-ranking](../npp-v1-1/11-relevance-ranking.md) (сходство 0.27)
+- [11-relevance-ranking](../../obsidian/nautilus/npp-v1-1/11-relevance-ranking.md) (сходство 0.27)
 

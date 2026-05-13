@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:fcdf8146ea04ebb7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/KEYWORD_INDEX.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:824acbcb4359620e",
+  "payload": {
+    "title": "Инвертированный индекс ключевых слов",
+    "summary": "title: \"Инвертированный индекс ключевых слов\"",
+    "body": "инвертированный индекс ключевых слов проблема инвертированный индекс ключевых слов обновлено уникальных слов биграмм файлов python scripts improvekeywordindex query ваш запрос поиск проекты svyazi ngt memory абстракт авто проблема инвертированный индекс ключевых слов обновлено уникальных слов биграмм файлов python scripts improvekeywordindex query ваш запрос поиск подход инвертированный индекс ключевых слов обновлено уникальных слов биграмм файлов python scripts improvekeywordindex query ваш запрос поиск ключевые слова файлов vacancies биграмм anthropic agent portal appendix working обновлено уникальных слов биграмм файлов python scripts improve keyword index query ваш запрос поиск индексу топ слов охвату файлов слово файлов всего упоминаний docs также смотрите документы anthropic похожие сходство vacancies knowledge agent nautilus документ protocol portal work mcp open agents содержание review github claude через слой если first infrastructure project document layer svyazi reference appendix между svend агентов foundation specific model только без architecture быть проекты каждый legal research level implementation один может pattern context human structure source integration projects которые code author memory проект working professional what through когда existing search все вопросы collaboration где skills агент cowork sgb ingit знаний который документов вопрос уже api содержит okwf статус architectural tool mvp collaborations архитектура репо all case space tip работает habr топ биграмм устойчивые словосочетания биграмм файлов всего anthropic vacancies docs anthropic portal protocol vacancies appendix docs collaborations docs svyazi professional colleague ngt memory nautilus portal executive summary appendix minimal minimal working working example knowledge space table contents turn view double triangle triangle architecture representative agent composite skills ingit cowork oss проект vacancies abstract pattern library principal side view turn abstract docs cite turn skills agent colleague agents похожие документы concept graph сходство with anthropic cowork platform сходство coverage сходство смотрите также concept graph with anthropic cowork platform coverage acknowledgments",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "NGT Memory"
+    ],
+    "wc": 1162,
+    "path": "docs/obsidian/KEYWORD_INDEX.md"
+  }
+}

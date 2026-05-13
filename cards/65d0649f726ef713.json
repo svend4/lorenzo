@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:65d0649f726ef713",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SITEMAP.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:e7a306906b4fd76d",
+  "payload": {
+    "title": "Карта репозитория Lorenzo",
+    "summary": "_`docs/02-anthropic-vacancies/` — 355 файлов_",
+    "body": "карта репозитория lorenzo содержание навигация навигация мета документы мета документы svyazi архитектура системы svyazi архитектура системы вакансии anthropic позиций вакансии anthropic позиций комбинации технологий комбинации технологий коллаборации ансамбли проектов коллаборации ансамбли проектов хабр проекты память граф хабр проекты память граф collaborations collaborations anthropic vacancies anthropic vacancies autofilled autofilled contacts contacts glossary glossary habr unique projects habr unique projects lorenzo agent lorenzo agent nautilus nautilus svyazi svyazi technology combinations technology combinations templates templates обновлено всего файлов навигация мета документы мета документы svyazi архитектура системы svyazi вакансии anthropic позиций anthropic vacancies комбинации технологий technology combinations коллаборации ансамбли проектов collaborations хабр проекты память граф habr projects collaborations collaborations anthropic vacancies anthropic vacancies autofilled autofilled contacts contacts glossary glossary habr unique projects habr unique projects lorenzo agent lorenzo agent nautilus nautilus svyazi svyazi technology combinations technology combinations templates templates мета документы документ описание слов abbreviations abbreviations action items action items задачи риски alerts alerts authors authors авторы контакты autofilled autofilled backlinks backlinks badges badges broken links broken links сломанные ссылки changelog changelog история изменений changelog auto changelog auto citation index citation index clusters clusters кластеры групп code blocks code blocks compare compare сравнение предыдущим коммитом complexity complexity оценка читаемости component matrix component matrix concepts concepts глоссарий понятий concept graph concept graph consistency consistency contacts contacts контакты авторов contact priority contact priority content gaps content gaps contradictions contradictions cost cost coverage coverage crossrefs crossrefs перекрёстные ссылки проектов cross section cross section decisions decisions ключевые решения density density карта плотности тем dependabot dependabot dependency map dependency map digest digest digest auto digest auto digest weekly digest weekly duplicates duplicates empty sections empty sections entities entities именованные сущности faq faq footnotes footnotes github issues github issues glossary glossary глоссарий проектов записи graph graph граф связей проектов heading audit heading audit health health дашборд здоровья heatmap heatmap index index keyword index keyword index knowledge map knowledge map kpi kpi числовые kpi показателей kpi history kpi history language stats language stats links links внешние ссылки llm summaries llm summaries mcp dashboard mcp dashboard metrics metrics mindmap mindmap майндмап mermaid missing missing пробелы знаний named entities named entities narrative narrative network network onboarding onboarding orphans orphans outline outline paragraph quality paragraph quality passive voice passive voice priorities priorities приоритеты idf progress progress вопросы ответы вопросы ответы вопросы ответы вопросы ответы вопросы ответы вопросы ответы вопросы ответы вопросы ответы questions questions открытые вопросы readability readability reading list reading list reading order reading order рекомендуемый порядок чтения reading time reading time readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme readme главная страница навигация readme",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Auto AI Router",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 7163,
+    "path": "docs/obsidian/SITEMAP.md"
+  }
+}

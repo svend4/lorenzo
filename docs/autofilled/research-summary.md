@@ -1,12 +1,5 @@
 # [Тема исследования]
 
-<!-- summary -->
-> - [Ключевые находки](#ключевые-находки)
-
----
-
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -15,6 +8,23 @@
 - [Источники](#источники)
 - [Открытые вопросы](#открытые-вопросы)
 - [Следующие шаги](#следующие-шаги)
+- [Смотрите также](#смотрите-также)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Упоминается в](#упоминается-в)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> - [Ключевые находки](#ключевые-находки)
+
+---
+
 
 
 <!-- summary: Краткий итог исследования -->
@@ -52,7 +62,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [contact-outreach](../templates/contact-outreach.md)
 - [project-component](../templates/project-component.md)
 
@@ -75,12 +85,31 @@ _Создано: 2026-04-29_
 - [Ансамбль: [Название]](../templates/ensemble.md)
 - [Шаблоны документов](../templates/README.md)
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "research summary svyazi"
+```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [AUTOFILLED](../AUTOFILLED.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [README](README.md)
+- [04-structuring](../processing-guide/04-structuring.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [research-summary](docs/obsidian/autofilled/research-summary.md) (сходство 0.82)
-- [research-note](docs/templates/research-note.md) (сходство 0.64)
-- [research-note](docs/obsidian/templates/research-note.md) (сходство 0.55)
+- [research-summary](../obsidian/autofilled/research-summary.md) (сходство 0.95)
+- [research-note](../obsidian/templates/research-note.md) (сходство 0.45)
+- [research-note](../templates/research-note.md) (сходство 0.44)
 

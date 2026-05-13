@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,11 +8,34 @@ title: "AI-Coordinated Infrastructure for Distributed Expert Contribution"
 tags:
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. AI-Coordinated Infrastructure for Distributed Expert Contribution
 
+
+h2. Contents
+
+* [AI-Coordinated Infrastructure for Distributed Expert Contribution|#ai-coordinated-infrastructure-for-distributed-expert-contribution]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (8)|#кто-ссылается-на-этот-документ-8]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Editorial collaboration:_ Claude (intellectual development, 2026-04){quote}
 
@@ -38,7 +61,7 @@ _License:_ CC BY 4.0
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[135-a-formal-model-for-human-ai-collaboration-in-distr]] (сходство 0.44)
 * [[03-portal-protocol-md]] (сходство 0.36)
 * [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.35)
@@ -48,7 +71,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Coordinated Infrastructure for"
+{code}
+
+h2. Смотрите также
 * [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
 * [[03-portal-protocol-md]]
 * [[167-ai-mediated-representation-for-underrepresented-ex]]
@@ -86,3 +115,18 @@ h2. Связанные документы
 * [[147-references|References]] _21%_
 * [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _21%_
 * [[25-13-reference-implementation|13. Reference Implementation]] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (8)
+* [[03-portal-protocol-md]]
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+* [[167-ai-mediated-representation-for-underrepresented-ex]]
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+* [[25-13-reference-implementation]]
+* [[52-author-contact]]
+* [[73-portal-protocol-md-v1-1]]
+* [[README]]
+

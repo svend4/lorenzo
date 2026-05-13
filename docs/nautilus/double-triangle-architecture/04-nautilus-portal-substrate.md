@@ -1,11 +1,20 @@
 # 4. Nautilus Portal as Reference Substrate
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [4. Nautilus Portal as Reference Substrate](#4-nautilus-portal-as-reference-substrate)
@@ -121,11 +130,33 @@ Double-Triangle deployments.
 
 ---
 
-**Смотрите также:**
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Nautilus Portal as Reference Substrate"
+```
+
+## Смотрите также
+- [141-4-nautilus-portal-as-reference-substrate](../../02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+- [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-abstract](00-abstract.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -133,7 +164,7 @@ Double-Triangle deployments.
 ---
 
 **Похожие документы:**
-- [141-4-nautilus-portal-as-reference-substrate](docs/obsidian/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.87)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.77)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md) (сходство 0.23)
+- [04-nautilus-portal-substrate](../../obsidian/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md) (сходство 0.98)
+- [141-4-nautilus-portal-as-reference-substrate](../../02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.79)
+- [141-4-nautilus-portal-as-reference-substrate](../../obsidian/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.78)
 

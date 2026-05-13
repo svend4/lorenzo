@@ -1,5 +1,13 @@
 # Комбинация 32: Consensus-Based Multi-Agent Coordination
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -65,19 +73,37 @@ ROI: Resilient multi-agent workflows, no single point of failure
 
 ---
 
-**Смотрите также:**
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
-- [34-distributed-event-store-with-paxos](docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 32 Consensus Based Multi"
+```
+
+## Смотрите также
+- [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [34-distributed-event-store-with-paxos](34-distributed-event-store-with-paxos.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+
+_Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.33)
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.28)
-- [34-distributed-event-store-with-paxos](docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md) (сходство 0.27)
+- [32-consensus-based-multi-agent-coordination](../../obsidian/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md) (сходство 0.95)
+- [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md) (сходство 0.33)
+- [04-event-sourcing-consensus](../../obsidian/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.31)
 

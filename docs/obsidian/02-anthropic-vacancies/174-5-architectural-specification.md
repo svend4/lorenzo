@@ -2,10 +2,15 @@
 title: "5. Architectural Specification"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 5. Architectural Specification
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -18,6 +23,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > A Representative Agent system consists of seven components:
 
 ---
@@ -158,7 +167,7 @@ that touches the world beyond the personal context.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[172-3-what-makes-a-representative-agent]] (сходство 0.20)
 - [[175-6-ethical-framework]] (сходство 0.14)
 - [[158-4-proposed-infrastructure]] (сходство 0.14)
@@ -168,7 +177,13 @@ that touches the world beyond the personal context.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Architectural Specification"
+```
+
+## Смотрите также
 - [[172-3-what-makes-a-representative-agent]]
 - [[175-6-ethical-framework]]
 - [[177-8-risks-and-mitigations]]
@@ -215,3 +230,19 @@ that touches the world beyond the personal context.
 - [[168-abstract|Abstract]] _25%_
 - [[179-10-open-questions|10. Open Questions]] _25%_
 - [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[134-the-double-triangle-architecture-md]]
+- [[144-7-open-questions]]
+- [[145-8-call-to-action]]
+- [[168-abstract]]
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[187-слой-представительских-агентов-md]]
+- [[208-professional-colleague-agents-md]]
+- _...ещё 2_
+

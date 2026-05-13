@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:d4150067e21d158b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:814fe0313e86730d",
+  "payload": {
+    "title": "Appendix A: Decision Tree for InGit Adopters",
+    "summary": "title: \"Appendix A: Decision Tree for InGit Adopters\"",
+    "body": "appendix decision tree for ingit adopters quick reference for users evaluating ingit cowork appendix decision tree for ingit adopters quick reference for users evaluating ingit cowork you need structured workspace beyond plain folders standard cowork project sufficient don add complexity yes you have claude pro max subscription ingit alone valuable cowork later when possible yes are you comfortable with git yaml command line ingit may too technical consider notion with custom database yes you need offline operation privacy yes ingit cowork combination ideal ingit cowork still useful but notion might serve this rough heuristic actual decisions depend specific needs похожие документы appendix sub agent registry schema sketch сходство appendix comparison matrix сходство смотрите также appendix sub agent registry schema sketch appendix minimal working example appendix configuration template example appendix comparison matrix упоминается adr five onboarding paths equal rank adr five onboarding paths equal rank appendix comparison matrix appendix comparison matrix appendix sub agent registry schema sketch appendix sub agent registry schema sketch appendix configuration template example appendix configuration template example word cloud word cloud readme вакансии anthropic анализ кластерам sozialrecht domain домен немецкое социальное право кто кто что всегда делаешь что всегда делаешь что можешь делать без max approval что можешь делать без max approval упоминается readme вакансии anthropic анализ кластерам связанные документы appendix sub agent registry schema sketch appendix sub agent registry schema sketch appendix configuration template example appendix configuration template example appendix comparison matrix appendix comparison matrix что всегда делаешь что всегда делаешь связанные документы appendix sub agent registry schema sketch appendix sub agent registry schema sketch appendix configuration template example appendix configuration template example table contents table contents appendix comparison matrix appendix comparison matrix что всегда делаешь что всегда делаешь содержание содержание clusters кластеры тематически близких файлов paragraph quality качество абзацев",
+    "tags": [
+      "local-first",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 347,
+    "path": "docs/obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md"
+  }
+}

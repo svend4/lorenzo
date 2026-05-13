@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:88f83ac2338a0668",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/01-level-0-manual.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/07-progression-logic.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:7dcd2471bcf16d49",
+  "payload": {
+    "title": "Уровень 5 — Полный (Lorenzo Network)",
+    "summary": "Что это: Lorenzo становится template для replicable Catalyst Agents в разных доменах.",
+    "body": "уровень полный lorenzo network источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network смотрите также level manual level manual level extended mature level extended mature level basic lite level basic lite progression logic progression logic",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 146,
+    "path": "docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md"
+  }
+}

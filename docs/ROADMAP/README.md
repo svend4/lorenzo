@@ -157,3 +157,16 @@ Mainstream современного RAG, 2-5 спринтов:
 
 **Контакт:** все документы living — improvements / corrections welcome.
 **Связанные доки:** `docs/INDEX.md`, `docs/HEALTH.md`, `docs/SCORING.md`, `docs/TECH_RADAR.md`.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [01-SIMPLE](01-SIMPLE.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [04-NOVEL](04-NOVEL.md)
+- [05-PRIORITIES](05-PRIORITIES.md)
+

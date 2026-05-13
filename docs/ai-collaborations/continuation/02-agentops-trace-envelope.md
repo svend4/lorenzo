@@ -1,7 +1,15 @@
 # AgentOps и Trace Envelope (ансамбль G)
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
@@ -11,6 +19,10 @@
 
 ---
 <!-- tags: rag, security, knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -60,11 +72,27 @@ anomaly_flags:
 
 ---
 
-**Смотрите также:**
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AgentOps и Trace Envelope ансамбль G"
+```
+
+## Смотрите также
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [8-budget-aware-intelligence-stack](../ensembles/8-budget-aware-intelligence-stack.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
+- [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [README](README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
 
 
 <!-- similar-docs -->
@@ -72,7 +100,7 @@ anomaly_flags:
 ---
 
 **Похожие документы:**
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.17)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.16)
-- [09-do-not-glue](docs/ai-collaborations/continuation/09-do-not-glue.md) (сходство 0.16)
+- [02-agentops-trace-envelope](../../obsidian/ai-collaborations/continuation/02-agentops-trace-envelope.md) (сходство 0.98)
+- [8-budget-aware-intelligence-stack](../../obsidian/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.20)
+- [8-budget-aware-intelligence-stack](../ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.19)
 

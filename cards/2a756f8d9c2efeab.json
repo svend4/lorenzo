@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:2a756f8d9c2efeab",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/faq-entry.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/FAQ.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/glossary-entry.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:bfae8515d983a20d",
+  "payload": {
+    "title": "FAQ: [Вопрос]",
+    "summary": "",
+    "body": "faq вопрос вопрос точная формулировка вопроса краткий ответ предложения если читателю достаточно закроет страницу здесь подробный ответ предложений деталями кейсами нюансами когда это применимо случай случай связанные вопросы связанный вопрос faq nnnn связанный вопрос faq nnnn источники документы docs path file docs path file почему важен внешний источник ссылка история обновлений дата что обновили кто создан создано последняя проверка смотрите также faq faq glossary entry glossary entry",
+    "tags": [
+      "faq"
+    ],
+    "projects": [],
+    "wc": 132,
+    "path": "docs/templates/faq-entry.md"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:12b0d68d6ce05407",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/40-bridges.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/60-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/50-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/61-compatibility-level.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:4d0fab199085a599",
+  "payload": {
+    "title": "Bridges",
+    "summary": "глубиной концепта в Q6-графе знаний `[pro2](01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact mapping:",
+    "body": "bridges contents bridges bridges info pro info интегральный анализ профиля svend pro info meta info интегральный анализ профиля svend meta способ обращения через мост способ обращения через мост level concept depth уровень info коррелирует похожие документы bridges bridges сходство bridges bridges сходство compatibility level compatibility level сходство смотрите также bridges bridges bridges bridges compatibility level compatibility level compatibility level compatibility level кто ссылается этот документ compatibility level compatibility level compatibility level compatibility level native format native format compatibility level compatibility level history history adr first class protocol concept adr first class protocol concept readme readme",
+    "tags": [
+      "memory",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 191,
+    "path": "docs/02-anthropic-vacancies/40-bridges.md"
+  }
+}

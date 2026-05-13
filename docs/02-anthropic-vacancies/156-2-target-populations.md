@@ -1,5 +1,10 @@
 # 2. Target Populations
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Size estimate**: 500K+ in OECD countries with relevant skills
 
 ---
@@ -149,7 +158,7 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [153-executive-summary](153-executive-summary.md) (сходство 0.17)
 - [155-1-problem-statement](155-1-problem-statement.md) (сходство 0.16)
 - [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md) (сходство 0.16)
@@ -159,7 +168,13 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Target Populations"
+```
+
+## Смотрите также
 - [153-executive-summary](153-executive-summary.md)
 - [155-1-problem-statement](155-1-problem-statement.md)
 - [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
@@ -191,3 +206,17 @@ Active participant target in first three years: 5,000-10,000.
 - [Table of Contents](154-table-of-contents.md) _17%_
 - [3. Why Existing Solutions Fail](157-3-why-existing-solutions-fail.md) _17%_
 - [1. The Cinderella Syndrome: Why Quality Stays Invisible](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [153-executive-summary](153-executive-summary.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
+- [164-10-appendices](164-10-appendices.md)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [README](README.md)
+

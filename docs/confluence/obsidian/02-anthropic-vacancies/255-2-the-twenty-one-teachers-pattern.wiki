@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "2. The Twenty-One Teachers Pattern"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 2. The Twenty-One Teachers Pattern
@@ -164,7 +164,7 @@ practitioner can configure into their own combination.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.18)
 * [[261-8-seven-domains-of-application]] (сходство 0.17)
 * [[252-abstract]] (сходство 0.15)
@@ -174,7 +174,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 The Twenty One Teachers Pattern"
+{code}
+
+h2. Смотрите также
 * [[261-8-seven-domains-of-application]]
 * [[254-1-why-the-binary-view-is-incomplete]]
 * [[252-abstract]]
@@ -212,3 +218,19 @@ h2. Связанные документы
 * [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _21%_
 * [[267-acknowledgments|Acknowledgments]] _21%_
 * [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Need to Build]] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* [[214-3-empirical-case-study-обучай]]
+* [[252-abstract]]
+* [[253-table-of-contents]]
+* [[254-1-why-the-binary-view-is-incomplete]]
+* [[256-3-what-makes-a-composite-skills-agent]]
+* [[259-6-coordination-and-disagreement-resolution]]
+* [[261-8-seven-domains-of-application]]
+* [[266-13-closing]]
+* _...ещё 2_
+

@@ -1,0 +1,58 @@
+{
+  "card_id": "sha256:ed3f6e42d542712a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/DEPENDENCY_MAP.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/CHANGELOG_AUTO.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CHANGELOG.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TAGS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/VERSION_DIFF.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:1a2414c6f317fb6e",
+  "payload": {
+    "title": "Карта зависимостей скриптов",
+    "summary": "_Что каждый `improve_*.py` производит и от чего зависит._",
+    "body": "карта зависимостей скриптов что каждый improve производит чего зависит что каждый improve производит чего зависит скриптов карте всего репо зависимости скрипт производит зависит improve abbreviations docs abbreviations docs improve abstract docs абстракты docs improve action items docs action items docs improve alerts docs alerts docs docs improve auto toc docs toc docs improve autocorrect docs автоисправление docs improve autofill docs autofilled docs templates docs entities improve backlinks docs backlinks docs improve badges docs badges svg docs health docs scoring improve benchmark docs benchmark json scripts improve improve broken links docs broken links docs improve changelog changelog improve changelog auto docs changelog auto improve chunk semantic docs all chunks jsonl docs improve config github workflows docs yml improve citation index docs citation index docs improve clusters docs clusters docs improve compare docs compare docs improve compare docs docs compare docs improve complexity docs complexity docs improve component matrix docs component matrix docs contacts improve concept graph docs concept graph docs concept graph json docs improve concepts docs concepts docs improve confluence docs confluence docs improve consistency docs consistency docs improve contact priority docs contact priority docs contacts improve contact status docs contacts статус docs contacts improve contacts docs contacts docs improve content gaps docs content gaps docs improve contradiction check docs contradictions docs improve cost docs cost docs improve coverage docs coverage docs improve crosslink all docs crossrefs docs docs improve crossrefs docs crossrefs docs improve decisions docs decisions docs improve dedup docs duplicates docs improve density docs density docs improve dependabot docs dependabot improve dependency map docs dependency map scripts improve improve digest docs digest improve digest weekly docs digest weekly improve duplicate across docs duplicates docs improve entities docs entities docs improve epub docs epub docs improve export csv docs export full csv docs improve export html docs export full html docs improve export json docs export full json docs improve external compare docs внешн сравнение docs improve extract code docs code blocks docs improve extract tables docs tables docs improve faq docs faq docs improve footnotes docs footnotes docs сноски docs improve github issues docs github issues docs improve glossary docs glossary docs improve graph docs graph docs entities improve health docs health docs metrics docs validation improve heatmap docs heatmap docs tags improve index master docs index docs improve index update docs search index json docs search index json improve keyword index docs keyword index docs improve kpi docs kpi docs improve kpi snapshot docs kpi history docs kpi history json docs scoring docs stats improve link preview docs links docs improve llm contact docs contacts docs contacts anthropic api key improve llm enrich docs enriched docs entities anthropic api key improve llm gaps docs llm gaps docs anthropic api key improve llm docs llm docs questions anthropic api key improve llm summary docs llm summaries docs readme improve merge topic docs слияние docs improve merge short docs слияние коротких docs improve metrics docs metrics docs improve mindmap docs mindmap docs improve missing docs missing docs improve named entity index docs named entities docs named entities json docs improve narrative docs narrative docs improve network docs network docs network dot docs entities improve obsidian docs obsidian docs improve onboarding docs onboarding docs scoring docs contacts improve orphans docs orphans docs backlinks improve outline docs outline docs improve paragraph quality docs paragraph quality docs improve passage retrieval docs passages json docs search index json improve pre commit pre commit config yaml improve priorities docs priorities docs improve progress docs progress docs scoring improve progress sync progress docs progress improve docs docs improve questions docs questions docs improve readability docs readability docs improve reading order docs reading order docs improve reading time docs reading time docs improve readmes docs readme improve reclassify docs перемещение docs improve report docs report docs stats docs health improve risk register docs risk register docs improve rss docs feed rss docs feed atom improve run all оркестратор scripts improve improve schedule docs schedule improve scoring docs scoring docs health docs metrics improve search index docs search index json docs improve see also docs see also docs docs improve sentiment docs sentiment docs improve similar docs similar docs improve sitemap docs sitemap docs sitemap xml docs improve source map docs source map docs improve spellcheck docs spellcheck docs improve staleness docs staleness docs improve stats docs stats docs improve subtopic fill docs дополнение docs improve summaries docs readme docs improve tables docs tables docs improve tags docs tags docs improve tech radar docs tech radar improve templates docs templates improve text segmenter docs сегменты docs improve timeline docs timeline docs improve timeline events docs timeline docs improve toc docs toc блоки docs improve topic model docs topic model docs improve validate docs validation docs improve version diff docs version diff improve vocabulary richness docs vocabulary",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "roadmap",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 1157,
+    "path": "docs/DEPENDENCY_MAP.md"
+  }
+}

@@ -1,6 +1,29 @@
 # Abstract
 
+<!-- toc-auto -->
+## Contents
+
+- [Abstract](#abstract)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (19)](#кто-ссылается-на-этот-документ-19)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Nautilus Portal Protocol (далее — NPP) определяет способ федерации
 
 ---
@@ -29,7 +52,7 @@ native-формат репозитория в унифицированное п�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [74-abstract](74-abstract.md) (сходство 0.43)
 
 
@@ -37,7 +60,13 @@ native-формат репозитория в унифицированное п�
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [74-abstract](74-abstract.md)
 - [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
 - [42-author-contact](42-author-contact.md)
@@ -59,7 +88,7 @@ native-формат репозитория в унифицированное п�
 - [Planned (v0.2.0)](132-planned-v0-2-0.md)
 - [README.md](65-readme-md.md)
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
-- [portal-mcp.py](123-portal-mcp-py.md)
+- portal-[mcp.py](123-portal-mcp-py.md)
 - [Вакансии Anthropic — Анализ по кластерам](README.md)
 - [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md)
@@ -72,7 +101,7 @@ native-формат репозитория в унифицированное п�
 <!-- related-auto -->
 ## Связанные документы
 
-- [portal-mcp.py](123-portal-mcp-py.md) _37%_
+- portal-[mcp.py](123-portal-mcp-py.md) _37%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _37%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _33%_
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _33%_
@@ -83,10 +112,26 @@ native-формат репозитория в унифицированное п�
 ## Связанные документы
 
 - [Abstract](74-abstract.md) _42%_
-- [portal-mcp.py](123-portal-mcp-py.md) _33%_
+- portal-[mcp.py](123-portal-mcp-py.md) _33%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _33%_
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _33%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _33%_
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _33%_
 - [Planned (v0.2.0)](132-planned-v0-2-0.md) _29%_
 - [0. Status of This Document](05-0-status-of-this-document.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (19)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [164-10-appendices](164-10-appendices.md)
+- _...ещё 11_
+

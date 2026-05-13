@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:2c5b65fcffd60dac",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CONTACT_PRIORITY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:b3489b226d52d1ae",
+  "payload": {
+    "title": "Приоритет контактов",
+    "summary": "1. **spbmolot** (NGT Memory, 58 упоминаний) → [[spbmolot|открыть контакт]]",
+    "body": "приоритет контактов обновлено топ авторов приоритету автор проект слой упоминаний статус балл spbmolot ngt memory memory изучили kksudo agentfs knowledge filesystem изучили anastasiyaw knowledge space mclaude knowledge orchestration начато vladspace graph rag rag начато vitalyoborin yodoca memory начато cutcode aif handoff orchestration начато zodigancode rufler orchestration начато antipozitive memnet memory начато dmitriila sentinel security начато nlaik liteparse research docs rag начато mixaill auto router security начато sonia black knowledge space knowledge начато andrey chuyan svyazi ingestion cardindex начато tagir analyzes legal rag rag начато lee factory orchestration начато рекомендуемые следующие шаги написать первым ещё контактировали spbmolot ngt memory упоминаний spbmolot открыть контакт kksudo agentfs упоминаний kksudo открыть контакт anastasiyaw knowledge space mclaude упоминаний anastasiyaw открыть контакт формула расчёта балла score упоминания шаг статуса буст слоя шаг статуса none studied messaged replied agreed буст слоя memory knowledge rag search filesystem остальные чем выше балл тем важнее написать первым",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "Auto AI Router"
+    ],
+    "wc": 385,
+    "path": "docs/obsidian/CONTACT_PRIORITY.md"
+  }
+}

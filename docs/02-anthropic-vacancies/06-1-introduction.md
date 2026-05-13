@@ -1,14 +1,5 @@
 # 1. Introduction
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла 
-> 🔧 **Подход:** Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре, что уменьшает выразительность.
-> 🏷️ **Ключевые слова:** `introduction`, `goals`, `anthropic`, `vacancies`, `проекте`, `federation`, `merging`, `motivation`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -17,6 +8,24 @@
   - [1.2. Design Goals](#12-design-goals)
   - [1.3. Non-Goals](#13-non-goals)
   - [1.4. Terminology](#14-terminology)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла 
+> 🔧 **Подход:** Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре, что уменьшает выразительность.
+> 🏷️ **Ключевые слова:** `introduction`, `goals`, `anthropic`, `vacancies`, `проекте`, `federation`, `merging`, `motivation`
+>
 
 
 <!-- summary -->
@@ -86,18 +95,36 @@ NPP **не** пытается:
 
 ---
 
-**Похожие документы:**
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.53)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.12)
+## Похожие документы
+- [76-1-introduction](76-1-introduction.md) (сходство 0.53)
+- [67-о-проекте](67-о-проекте.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Introduction"
+```
+
+## Смотрите также
+- [76-1-introduction](76-1-introduction.md)
+- [67-о-проекте](67-о-проекте.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [67-о-проекте](67-о-проекте.md)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](README.md)
 

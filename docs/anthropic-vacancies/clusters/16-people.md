@@ -1,5 +1,17 @@
 # People — 3 роли
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.
 
@@ -17,11 +29,35 @@ Immigration Coordinator, People Operations Lead, Technical Recruiter. Мален
 
 ---
 
-**Смотрите также:**
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
-- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
-- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "People 3 роли"
+```
+
+## Смотрите также
+- [13-communications](13-communications.md)
+- [15-public-benefit](15-public-benefit.md)
+- [09-product-management-support-ops](09-product-management-support-ops.md)
+- [14-public-policy](14-public-policy.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (19):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-finance](03-finance.md)
+- [04-security](04-security.md)
+- [05-marketing-brand](05-marketing-brand.md)
+- _...ещё 11_
 
 
 <!-- similar-docs -->
@@ -29,7 +65,7 @@ Immigration Coordinator, People Operations Lead, Technical Recruiter. Мален
 ---
 
 **Похожие документы:**
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.58)
-- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md) (сходство 0.54)
-- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md) (сходство 0.50)
+- [16-people](../../obsidian/anthropic-vacancies/clusters/16-people.md) (сходство 0.97)
+- [13-communications](13-communications.md) (сходство 0.80)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.78)
 

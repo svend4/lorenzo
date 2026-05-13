@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:5ad542dba5e4b953",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/136-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/137-table-of-contents.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:08e33042005f5757",
+  "payload": {
+    "title": "1. Why Single-Triangle Models Are Incomplete",
+    "summary": "The AI-assisted knowledge work field currently divides into two",
+    "body": "why single triangle models are incomplete содержание contents contents why single triangle models are incomplete why single triangle models are incomplete the current landscape the current landscape what both paradigms miss what both paradigms miss the rising urgency the rising urgency why single triangle models are incomplete the current landscape the assisted knowledge work field currently divides into two non overlapping camps each implementing only one triangle the full architecture lower triangle only systems personal assistants github copilot cursor claude code chatgpt anthropic claude desktop operate extensions individual knowledge workers the human conducts assistants execute this paradigm has rapidly matured over and now mainstream answers how does one person amplify their capacity with upper triangle only systems multi agent frameworks crewai autogen интегральный анализ профиля svend langgraph metagpt chatdev orchestrate multiple agents complete complex tasks humans either serve external observers are absent from the execution loop this paradigm answers how automate entire workflows with enterprise platforms microsoft copilot enterprise google workspace attempt bridge these but through layer isolation personal assistants and team level orchestration exist separate products without formal protocols between them what both paradigms miss both single triangle approaches share structural blind spot they assume humans exist one role time reality every knowledge worker simultaneously occupies both positions software engineer uses copilot write code lower triangle human conducts assistant the same time their team lead coordinates the engineer alongside five others toward sprint goal upper triangle meta agent coordinates human the engineer decisions about what copilot generates depend the sprint context coming from upper triangle the team lead decisions about how coordinate the engineer depend what copilot producing coming from lower triangle these two flows information must connected yet existing systems they are not this creates what call the coordination gap personal assistants don know about team context and team level coordination tools don know about assistant generated artifacts information has manually translated humans across this gap constantly the rising urgency assistants become more capable the coordination gap widens when copilot produced autocomplete misalignment with team context was minor when claude code produces entire modules misalignment can destabilize architectural decisions across team the gap needs closed not through yet another centralized platform but through protocol way for the two triangles negotiate through well defined interfaces this paper proposes such protocol похожие документы abstract abstract сходство three inter layer protocols three inter layer protocols сходство the double triangle architecture the double triangle architecture сходство смотрите также abstract abstract three inter layer protocols three inter layer protocols the double triangle architecture the double triangle architecture pattern library bridge between triangles pattern library bridge between triangles кто ссылается этот документ abstract abstract table contents table contents three inter layer protocols three inter layer protocols nautilus portal reference substrate nautilus portal reference substrate pattern library bridge between triangles pattern library bridge between triangles open questions open questions appendix summary contributions appendix summary contributions слой представительских агентов слой представительских агентов ещё",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 613,
+    "path": "docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:bb56e6e009ccc9a2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/130-отладка.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/63-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/132-planned-v0-2-0.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/65-readme-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:47867658b6a805f6",
+  "payload": {
+    "title": "Подключение к Claude Desktop",
+    "summary": "~/Library/Application Support/Claude/claude_desktop_config.json",
+    "body": "подключение claude desktop contents подключение claude desktop подключение claude desktop macos macos windows windows linux linux содержимое содержимое library application support claude claude desktop config json похожие документы конфигурация для claude desktop конфигурация для claude desktop сходство отладка отладка сходство смотрите также конфигурация для claude desktop конфигурация для claude desktop отладка отладка appendix minimal working example appendix minimal working example readme mcp инструкция установке readme mcp инструкция установке упоминается history history planned planned readme readme portal mcp portal mcp вакансии anthropic анализ кластерам readme конфигурация для claude desktop конфигурация для claude desktop отладка отладка что всегда делаешь что всегда делаешь упоминается вакансии anthropic анализ кластерам readme связанные документы portal mcp portal mcp compatibility level compatibility level table contents table contents appendix minimal working example appendix minimal working example abstract abstract passport passport passport passport конфигурация для claude desktop конфигурация для claude desktop отладка отладка связанные документы portal mcp portal mcp abstract abstract конфигурация для claude desktop конфигурация для claude desktop отладка отладка содержание содержание queryresult structure queryresult structure appendix minimal working example appendix minimal working example содержание содержание кто ссылается этот документ abstract abstract passport passport passport passport portal mcp portal mcp конфигурация для claude desktop конфигурация для claude desktop readme mcp инструкция установке readme mcp инструкция установке отладка отладка planned planned table contents table contents ещё",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 276,
+    "path": "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md"
+  }
+}

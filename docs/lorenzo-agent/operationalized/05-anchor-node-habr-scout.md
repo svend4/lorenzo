@@ -1,5 +1,23 @@
 # Anchor-узел: Habr Scout как первый шаг
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -145,11 +163,33 @@ LiteParse research-docs (1021098) — узел 5
 
 ---
 
-**Смотрите также:**
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-- [02-minuses-1-10](docs/lorenzo-agent/operationalized/02-minuses-1-10.md)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Anchor узел Habr Scout как первый шаг"
+```
+
+## Смотрите также
+- [04-recommendations](04-recommendations.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [02-minuses-1-10](02-minuses-1-10.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [02-minuses-1-10](02-minuses-1-10.md)
+- [04-recommendations](04-recommendations.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -157,7 +197,7 @@ LiteParse research-docs (1021098) — узел 5
 ---
 
 **Похожие документы:**
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.57)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.22)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.21)
+- [05-anchor-node-habr-scout](../../obsidian/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) (сходство 0.99)
+- [04-recommendations](04-recommendations.md) (сходство 0.59)
+- [04-recommendations](../../obsidian/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.58)
 

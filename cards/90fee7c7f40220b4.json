@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:90fee7c7f40220b4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:5e8fab4077691843",
+  "payload": {
+    "title": "Существующий landscape collaborators (твоя working knowledge)",
+    "summary": "title: \"Существующий landscape collaborators (твоя working knowledge)\"",
+    "body": "существующий landscape collaborators твоя working knowledge абстракт авто проблема существующий landscape collaborators твоя working knowledge phase особенно осведомлён этих создателях проектах open discovering more проекты cardindex knowl ключевые слова knowledge memory space anthropic graph agent collaborators protocol phase особенно осведомлён этих создателях проектах open discovering more проекты cardindex component catalog knowledge space ngt memory wikontic существующий landscape collaborators твоя working knowledge phase особенно осведомлён этих создателях проектах open discovering more tier highest priority collaborators kagvi hmp hypercortex mesh protocol decentralized cognitive mesh для agents github com kagvi hmp версии hmp hmp активная разработка это direct architectural twin nautilus portal protocol more developed анастасия happyin knowledge space articles domains knowledge written for consumption not humans happyin space github com anastasiyaw knowledge space mit андрей чуян свяжи hybrid llm deterministic extraction для community profiles executive summary cardindex single source truth closed code explicit invitation comments виталий graph cognitive memory sqlite single file sqlite implementation episodic semantic nodes hybrid search fts vector graph ebbinghaus forgetting curve habr com articles tier strong supporting expertise алла чепурова wikontic airi ontology aligned knowledge graphs аскольд романов yandex quality metrics для extracted structures coally team distributed shared memory для multi agent teams tier domain adjacent артём legal knowledge graph louvain community detection legal ngt memory автор hebbian associative graph konstantin chukavin обучай profession wide deployment example existing infrastructure components hermes agent nous research mit personal autonomous agent camel camel camel apache multi agent framework cowork anthropic managed agentic workspace mcp model context protocol tool interoperability standard смотрите также word freq приложение образец спецификаций инструментов ing abstract entities похожие документы keyword index сходство consistency сходство network сходство",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex",
+      "knowledge-space",
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 362,
+    "path": "docs/obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md"
+  }
+}

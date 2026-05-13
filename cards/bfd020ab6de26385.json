@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:bfd020ab6de26385",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/FOOTNOTES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:294da29ed8a2c357",
+  "payload": {
+    "title": "Сноски и определения терминов",
+    "summary": "При первом упоминании термина в файле добавляется `[^term]` — ссылка на сноску в конце документа.",
+    "body": "сноски определения терминов обновлено файлов вставлено сносок словарь сносок термин определение файлов agentfs oss проект файловая система для агентов mit bsl business source license коммерческая лицензия открытым кодом crdt conflict free replicated data type бесконфликтные данные cardindex oss проект индекс знаний карточках mit firecrawl инструмент веб краулер для mit jaccard коэффициент схожести множеств llm large language model большая языковая модель mcp model context protocol протокол для инструментов ngt oss проект ассоциативный граф памяти bsl pii personally identifiable information персональные данные rag retrieval augmented generation генерация поиском rufler oss проект оркестратор агентов sentinel oss проект безопасность allowlist для mcp svyazi главный проект экосистема компонентов idf term frequency inverse document frequency метрика важности термина yodoca oss проект система памяти консолидацией apache knowledge space oss проект база знаний карточек mit как это работает при первом упоминании термина файле добавляется term ссылка сноску конце документа используем mcp mcp для подключения инструментов mcp model context protocol протокол для инструментов смотрите также executive summary conclusions выводы onboarding",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "Rufler",
+      "Yodoca",
+      "SENTINEL",
+      "Firecrawl"
+    ],
+    "wc": 298,
+    "path": "docs/obsidian/FOOTNOTES.md"
+  }
+}

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Развёрнутый анализ «внуковой» комбинации"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Развёрнутый анализ «внуковой» комбинации
@@ -44,7 +44,7 @@ h2. Содержание
   * [Минусы и риски этой архитектуры|#минусы-и-риски-этой-архитектуры]
   * [Моё honest mnение|#моё-honest-mnение]
   * [Мои рекомендации|#мои-рекомендации]
-  * [Strategic implication для Lorenzo specification|#strategic-implication-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md]-specification)
+  * [Strategic implication для Lorenzo specification|#strategic-implication-для-lorenzo-specification]
   * [Final мнение|#final-мнение]
   * [Конкретные next steps|#конкретные-next-steps]
   * [Вопросы к вам|#вопросы-к-вам]
@@ -561,7 +561,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[341-приложение-c-образец-спецификаций-инструментов-ing]] (сходство 0.19)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.19)
 - [[ACTION_ITEMS]] (сходство 0.16)
@@ -571,7 +571,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[341-приложение-c-образец-спецификаций-инструментов-ing]]
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]]
 - [[364-final-note-ты-experiment]]
@@ -599,3 +599,17 @@ markdown
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _17%_
 - [[364-final-note-ты-experiment|Final note: Ты — experiment]] _17%_
 - [[366-технический-stack-svyazi-2-0-foundation|Технический stack (Svyazi 2.0 foundation)]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- [[342-что-такое-вариант-c-concept-document-для-anthropic]]
+- [[364-final-note-ты-experiment]]
+- [[366-технический-stack-svyazi-2-0-foundation]]
+- [[README]]
+

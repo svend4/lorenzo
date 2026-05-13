@@ -4,19 +4,10 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # References
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** References Contents - References(references) - Primary Empirical Source(primary-empirical-source) - Companion Papers(companion-papers) - Foundation Sources (continued from Represen
-> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
-> 🏷️ **Ключевые слова:** `references`, `anthropic`, `vacancies`, `professional`, `practice`, `architecture`, `foundation`, `representative`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -28,6 +19,24 @@ date: 2026-04-29
   - [Professional Practice Theory](#professional-practice-theory)
   - [AI in Professional Practice](#ai-in-professional-practice)
   - [Related Architecture](#related-architecture)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Primary Empirical Source(primary-empirical-source) - Companion Papers(companion-papers) - Foundation Sources (continued from Represen
+> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
+> 🏷️ **Ключевые слова:** `references`, `anthropic`, `vacancies`, `professional`, `practice`, `architecture`, `foundation`, `representative`
+>
 
 
 <!-- summary -->
@@ -90,7 +99,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[245-ссылки]] (сходство 0.22)
 - [[183-references]] (сходство 0.22)
 - [[268-references]] (сходство 0.18)
@@ -100,9 +109,30 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
 - [[245-ссылки]]
 - [[183-references]]
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[268-references]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[134-the-double-triangle-architecture-md]]
+- [[166-representative-agent-layer-md]]
+- [[168-abstract]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- [[320-references]]
+- [[README]]
 

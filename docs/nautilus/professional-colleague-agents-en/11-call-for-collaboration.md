@@ -1,6 +1,29 @@
 # 11. Call for Collaboration
 
+<!-- toc-auto -->
+## Contents
+
+- [11. Call for Collaboration](#11-call-for-collaboration)
+  - [11.1. For Professional Practitioners](#111-for-professional-practitioners)
+  - [11.2. For Domain Experts (Curators)](#112-for-domain-experts-curators)
+  - [11.3. For Software Engineers](#113-for-software-engineers)
+  - [11.4. For Foundation Funders](#114-for-foundation-funders)
+  - [11.5. For Existing Professional Tool Vendors](#115-for-existing-professional-tool-vendors)
+  - [11.6. For Researchers](#116-for-researchers)
+  - [11.7. For Policy Stakeholders](#117-for-policy-stakeholders)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
@@ -71,12 +94,30 @@ practitioners during framework development valuable.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
+```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.81)
-- [222-11-call-for-collaboration](docs/obsidian/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.78)
-- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md) (сходство 0.30)
+- [11-call-for-collaboration](../../obsidian/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md) (сходство 0.98)
+- [222-11-call-for-collaboration](../../02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.80)
+- [222-11-call-for-collaboration](../../obsidian/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.79)
 

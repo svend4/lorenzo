@@ -1,10 +1,25 @@
 # README-MCP.md— инструкция по установке
 
+<!-- toc-auto -->
+## Contents
+
+- [README-MCP.md— инструкция по установке](#readme-mcpmd-инструкция-по-установке)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Отдельный документ для репо, объясняющий, как настроить MCP-обёртку:
 
 ---
 <!-- tags: collaboration -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -24,7 +39,7 @@ svend4 как обычный tool.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.21)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.18)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.16)
@@ -34,7 +49,13 @@ svend4 как обычный tool.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "README MCP md инструкция по установке"
+```
+
+## Смотрите также
 - [123-portal-mcp-py](123-portal-mcp-py.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
 - [42-author-contact](42-author-contact.md)
@@ -87,3 +108,19 @@ svend4 как обычный tool.
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _29%_
 - [0. Status of This Document](05-0-status-of-this-document.md) _25%_
 - [⬡](69-section.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (20)
+- [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [122-глоссарий](122-глоссарий.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [124-конфигурация-для-claude-desktop](124-конфигурация-для-claude-desktop.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- _...ещё 12_
+

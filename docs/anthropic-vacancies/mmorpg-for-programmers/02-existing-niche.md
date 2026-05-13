@@ -1,10 +1,26 @@
 # Что уже существует в этой нише (Habitica, Codingame, Hackerrank, Pieces)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo
 
 ---
 <!-- tags: orchestration, architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -31,11 +47,31 @@ Metaverse попытки: Horizon Workrooms от Meta, VR Chat, Mozilla Hubs. Э
 
 ---
 
-**Смотрите также:**
-- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
-- [04-pluses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
-- [00-question-mmorpg-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md)
-- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что уже существует в этой нише Habitica"
+```
+
+## Смотрите также
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [04-pluses-as-business](04-pluses-as-business.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [03-why-natural-for-programmers](03-why-natural-for-programmers.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -43,7 +79,7 @@ Metaverse попытки: Horizon Workrooms от Meta, VR Chat, Mozilla Hubs. Э
 ---
 
 **Похожие документы:**
-- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) (сходство 0.14)
-- [00-question-mmorpg-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) (сходство 0.12)
-- [04-pluses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md) (сходство 0.11)
+- [02-existing-niche](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md) (сходство 0.99)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md) (сходство 0.18)
+- [01-why-stronger-than-it-looks](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) (сходство 0.18)
 

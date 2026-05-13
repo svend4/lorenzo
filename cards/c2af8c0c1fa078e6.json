@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:c2af8c0c1fa078e6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/06-1-introduction.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/76-1-introduction.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/67-о-проекте.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:8e9321643301f668",
+  "payload": {
+    "title": "1. Introduction",
+    "summary": "Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,",
+    "body": "introduction абстракт авто проблема design goals протокол спроектирован так чтобы одновременно достичь low barrier entry подключение существующего репо федерации требует больше минут работы два файла подход homogenization разные типы знаний методология семантика символизм принудительно приводятся одной структуре что уменьшает выразительность ключевые слова introduction goals anthropic vacancies проекте federation merging motivation contents introduction introduction motivation motivation design goals design goals non goals non goals terminology terminology современные системы управления знаниями notion obsidian roam logseq похожие документы introduction introduction сходство проекте проекте сходство смотрите также introduction introduction проекте проекте adr federation over merging adr federation over merging adr federation over merging adr federation over merging кто ссылается этот документ adr federation over merging adr federation over merging проекте проекте adr federation over merging adr federation over merging adr first class protocol concept adr first class protocol concept readme readme",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 403,
+    "path": "docs/02-anthropic-vacancies/06-1-introduction.md"
+  }
+}

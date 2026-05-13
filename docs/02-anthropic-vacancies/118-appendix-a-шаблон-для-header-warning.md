@@ -1,4 +1,13 @@
 # Appendix A: Шаблон для header warning
+
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
 <!-- tags: architecture -->
 
 
@@ -33,7 +42,7 @@ transitional state:
 > параграфов — **намеренные**, для сохранения информации из обоих 
 > независимых анализов.
 >
-> **Методология**: см. [REVIEW_METHODOLOGY.md](./REVIEW_METHODOLOGY.md)
+> **Методология**: см. [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
 >
 > Финальная консолидированная версия будет создана в рамках Фазы C
 > (deadline: ``). До тех пор этот документ — **internal 
@@ -52,16 +61,30 @@ transitional state:
 
 ---
 
-**Смотрите также:**
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+## Смотрите также
+- [12-appendix-a-header-warning](../nautilus/review-methodology/12-appendix-a-header-warning.md)
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](121-appendix-c-история-изменений-методологии.md)
+- [16-history](16-history.md)
+- [185-appendix-b-domain-comparison-matrix](185-appendix-b-domain-comparison-matrix.md)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md)
+- [README](README.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.60)
-- [118-appendix-a-шаблон-для-header-warning](docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.55)
-- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.24)
+- [118-appendix-a-шаблон-для-header-warning](../obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.93)
+- [12-appendix-a-header-warning](../obsidian/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.64)
+- [12-appendix-a-header-warning](../nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.61)
 

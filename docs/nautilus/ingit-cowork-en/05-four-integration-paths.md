@@ -1,11 +1,20 @@
 # 5. Four Integration Paths in Order of Accessibility
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [5. Four Integration Paths in Order of Accessibility](#5-four-integration-paths-in-order-of-accessibility)
@@ -179,11 +188,24 @@ defers complex decisions until evidence is available.
 
 ---
 
-**Смотрите также:**
-- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
-- [07-practical-first-steps](docs/nautilus/ingit-cowork-en/07-practical-first-steps.md)
-- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
+## Смотрите также
+- [313-5-four-integration-paths-in-order-of-accessibility](../../02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
+- [07-practical-first-steps](07-practical-first-steps.md)
+- 03-[ingit-provides](03-ingit-provides.md)
+- [02-cowork-provides](02-cowork-provides.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [07-practical-first-steps](07-practical-first-steps.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -191,7 +213,7 @@ defers complex decisions until evidence is available.
 ---
 
 **Похожие документы:**
-- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.88)
-- [313-5-four-integration-paths-in-order-of-accessibility](docs/obsidian/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.87)
-- [07-practical-first-steps](docs/nautilus/ingit-cowork-en/07-practical-first-steps.md) (сходство 0.20)
+- [05-four-integration-paths](../../obsidian/nautilus/ingit-cowork-en/05-four-integration-paths.md) (сходство 0.99)
+- [313-5-four-integration-paths-in-order-of-accessibility](../../02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.85)
+- [313-5-four-integration-paths-in-order-of-accessibility](../../obsidian/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.84)
 

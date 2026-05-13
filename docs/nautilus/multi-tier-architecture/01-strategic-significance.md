@@ -1,5 +1,23 @@
 # Claude hat geantwortet: Это стратегически значимый вопрос, и ответ на него — да,…
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -409,11 +427,39 @@ ADR обосновывающие ключевые архитектурные р�
 
 ---
 
-**Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [01-response](docs/nautilus/innovation-transitions/01-response.md)
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
-- [01-claude-response](docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это стратегически"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это стратегически" --mode bm25
+```
+
+## Смотрите также
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [01-response](../innovation-transitions/01-response.md)
+- [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
+- 01-[claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
+- [01-response](../innovation-transitions/01-response.md)
+- [README](README.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -421,7 +467,7 @@ ADR обосновывающие ключевые архитектурные р�
 ---
 
 **Похожие документы:**
-- [133-обратная-связь](docs/obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.18)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.18)
-- [01-response](docs/nautilus/innovation-transitions/01-response.md) (сходство 0.16)
+- [01-strategic-significance](../../obsidian/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.99)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.18)
+- [133-обратная-связь](../../obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.18)
 

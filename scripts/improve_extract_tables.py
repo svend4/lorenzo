@@ -6,6 +6,7 @@ improve_extract_tables.py — извлекает все Markdown-таблицы 
 import re
 from pathlib import Path
 from collections import defaultdict
+from urllib.parse import unquote
 
 ROOT = Path(__file__).parent.parent
 DOCS = ROOT / "docs"
@@ -44,6 +45,27 @@ def get_table_context(text: str, table: str) -> str:
     return headers[-1] if headers else ""
 
 
+def rewrite_links(table: str, source_file: Path) -> str:
+    """Rewrites relative links in table to be relative to DOCS root."""
+    LINK_RE = re.compile(r'\[([^\]]*)\]\(([^)]+)\)')
+
+    def replace(m):
+        text, href = m.group(1), m.group(2)
+        if href.startswith(('http://', 'https://', 'mailto:', '#')):
+            return m.group(0)
+        path_part = href.split('#')[0] if '#' in href else href
+        anchor = href[len(path_part):] if '#' in href else ''
+        decoded = unquote(path_part)
+        resolved = (source_file.parent / decoded).resolve()
+        try:
+            new_rel = resolved.relative_to(DOCS.resolve())
+            return f"[{text}]({str(new_rel).replace(chr(92), '/')}{anchor})"
+        except ValueError:
+            return m.group(0)
+
+    return LINK_RE.sub(replace, table)
+
+
 def count_cols(table: str) -> int:
     first_row = table.split('\n')[0]
     return first_row.count('|') - 1
@@ -73,7 +95,7 @@ def main():
                 "context": context,
                 "cols": cols,
                 "rows": rows,
-                "table": table,
+                "table": rewrite_links(table, f),
             })
             total += 1
 

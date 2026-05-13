@@ -99,7 +99,8 @@ def _build_tree_section(section_dir: Path, files: list[Path]) -> list[str]:
     lines = []
     section_name = _section_label(section_dir)
     rel = section_dir.relative_to(ROOT)
-    lines.append(f"\n## 📁 {section_name} (`{rel}/`)\n")
+    lines.append(f"\n## {section_name}\n")
+    lines.append(f"_Путь: `{rel}/`_\n")
 
     total_words = 0
     for f in sorted(files):
@@ -109,7 +110,7 @@ def _build_tree_section(section_dir: Path, files: list[Path]) -> list[str]:
             continue
         words = _word_count(text)
         total_words += words
-        rel_f = f.relative_to(ROOT)
+        rel_f = f.relative_to(DOCS)
 
         headings = _extract_headings(text, MAX_DEPTH)
         summary = _extract_summary(text)
@@ -172,7 +173,7 @@ def _build_thematic_map(all_files: list[Path]) -> list[str]:
         top_files = sorted(file_scores, key=lambda x: -x[1])[:5]
         lines.append(f"### {topic.title()} ({len(file_scores)} документов)")
         for f, score in top_files:
-            rel = f.relative_to(ROOT)
+            rel = f.relative_to(DOCS)
             lines.append(f"- [`{f.stem}`]({rel})")
         if len(file_scores) > 5:
             lines.append(f"- _... ещё {len(file_scores)-5}_")
@@ -219,7 +220,9 @@ def main() -> None:
     for section in sorted(by_section.keys()):
         label = _section_label(section)
         count = len(by_section[section])
-        anchor = label.lower().replace(' ', '-')
+        # Anchor matches "## {label}" heading: lowercase, spaces→hyphens
+        anchor = re.sub(r'[^\w\s-]', '', label.lower())
+        anchor = re.sub(r'\s+', '-', anchor.strip()).strip('-')
         lines.append(f"- [{label}](#{anchor}) — {count} файлов")
     lines.append("")
 

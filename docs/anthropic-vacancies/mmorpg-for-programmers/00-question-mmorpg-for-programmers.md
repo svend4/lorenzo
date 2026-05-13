@@ -1,10 +1,37 @@
 # Вопрос: MMORPG-RPG переделанная для программистов / технарей
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo
 
 ---
 <!-- tags: local-first, architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -43,11 +70,31 @@ Claude hat geantwortet: Переписанная версия вашего во�
 
 ---
 
-**Смотрите также:**
-- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
-- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
-- [02-existing-niche](docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос MMORPG RPG переделанная для"
+```
+
+## Смотрите также
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [00-question-rephrasing](../ai-managed-virtual-company/00-question-rephrasing.md)
+- [03-why-natural-for-programmers](03-why-natural-for-programmers.md)
+- [02-existing-niche](02-existing-niche.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [02-existing-niche](02-existing-niche.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -55,7 +102,7 @@ Claude hat geantwortet: Переписанная версия вашего во�
 ---
 
 **Похожие документы:**
-- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) (сходство 0.13)
-- [02-existing-niche](docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md) (сходство 0.12)
-- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md) (сходство 0.11)
+- [00-question-mmorpg-for-programmers](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) (сходство 0.98)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md) (сходство 0.17)
+- [01-why-stronger-than-it-looks](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) (сходство 0.17)
 

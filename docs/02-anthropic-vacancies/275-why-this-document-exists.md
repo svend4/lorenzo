@@ -1,5 +1,10 @@
 # Why This Document Exists
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -13,6 +18,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** If the project continues — and it should — the next phase needs different infrastructure than chat alone.
@@ -70,7 +79,7 @@ This document explores that observation.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.18)
 - [286-acknowledgments](286-acknowledgments.md) (сходство 0.16)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
@@ -80,7 +89,13 @@ This document explores that observation.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Document Exists"
+```
+
+## Смотрите также
 - [286-acknowledgments](286-acknowledgments.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
@@ -123,3 +138,19 @@ This document explores that observation.
 - [References](287-references.md) _29%_
 - [Acknowledgments](319-acknowledgments.md) _29%_
 - [Acknowledgments](267-acknowledgments.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [267-acknowledgments](267-acknowledgments.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- [285-closing](285-closing.md)
+- _...ещё 4_
+

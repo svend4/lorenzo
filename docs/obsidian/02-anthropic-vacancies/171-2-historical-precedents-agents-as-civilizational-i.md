@@ -4,10 +4,15 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 2. Historical Precedents: Agents as Civilizational Innovation
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -19,6 +24,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения.
+
 > The pattern of representative agents is ancient and recurring.
 
 ---
@@ -213,7 +222,7 @@ never had it**.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]] (сходство 0.14)
 - [[173-4-ten-domains-of-application]] (сходство 0.14)
 - [[168-abstract]] (сходство 0.12)
@@ -223,7 +232,13 @@ never had it**.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Historical Precedents Agents as"
+```
+
+## Смотрите также
 - [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
 - [[173-4-ten-domains-of-application]]
 - [[168-abstract]]
@@ -254,3 +269,19 @@ never had it**.
 - [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]] _17%_
 - [[174-5-architectural-specification|5. Architectural Specification]] _17%_
 - [[175-6-ethical-framework|6. Ethical Framework]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[168-abstract]]
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[173-4-ten-domains-of-application]]
+- [[174-5-architectural-specification]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[223-12-closing]]
+- _...ещё 2_
+

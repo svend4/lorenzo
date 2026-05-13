@@ -1,11 +1,27 @@
 # Ансамбль 9 — Ambient Team Agent
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** AgentFS, knowledge-space
 
 ---
 <!-- tags: rag, orchestration, knowledge, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -46,11 +62,34 @@ Operations Concierge — в чате принимает команды, созд
 
 ---
 
-**Смотрите также:**
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [4-web-to-knowledge-pipeline](docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 9 Ambient Team Agent"
+```
+
+## Смотрите также
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+- [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -58,7 +97,7 @@ Operations Concierge — в чате принимает команды, созд
 ---
 
 **Похожие документы:**
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.18)
-- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md) (сходство 0.18)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.18)
+- [9-ambient-team-agent](../../obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.98)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md) (сходство 0.24)
+- [7-domain-agent-app-factory](../../obsidian/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.24)
 

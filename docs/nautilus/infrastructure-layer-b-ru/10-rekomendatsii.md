@@ -1,10 +1,27 @@
 # Практические рекомендации для текущего проекта
 
+<!-- toc-auto -->
+## Contents
+
+- [Практические рекомендации для текущего проекта](#практические-рекомендации-для-текущего-проекта)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -75,11 +92,31 @@ AI-вспомогательной разработки новых аспекто
 
 ---
 
-**Смотрите также:**
-- [299-практические-рекомендации-для-текущего-проекта](docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Практические рекомендации для текущего"
+```
+
+## Смотрите также
+- [299-практические-рекомендации-для-текущего-проекта](../../02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [295-конкретный-случай-перед-нами](../../02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -87,7 +124,7 @@ AI-вспомогательной разработки новых аспекто
 ---
 
 **Похожие документы:**
-- [299-практические-рекомендации-для-текущего-проекта](docs/obsidian/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) (сходство 0.80)
-- [299-практические-рекомендации-для-текущего-проекта](docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) (сходство 0.74)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md) (сходство 0.19)
+- [10-rekomendatsii](../../obsidian/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md) (сходство 0.98)
+- [299-практические-рекомендации-для-текущего-проекта](../../obsidian/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) (сходство 0.75)
+- [299-практические-рекомендации-для-текущего-проекта](../../02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) (сходство 0.74)
 

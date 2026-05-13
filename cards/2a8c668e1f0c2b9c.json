@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:2a8c668e1f0c2b9c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/autofilled/components/cowork.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/autofilled/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/lorenzo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/sgb.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/svyazi.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:b8494a1d3f6b1007",
+  "payload": {
+    "title": "Cowork",
+    "summary": "",
+    "body": "cowork компонент экосистемы svyazi проекты svyazi смотрите также ingit ingit lorenzo lorenzo nautilus nautilus упоминается lorenzo lorenzo nautilus nautilus sgb sgb svyazi svyazi components readme ingit ingit kksudo kksudo spbmolot spbmolot svend svend автозаполненные шаблоны autofilled антропик все таблицы репозитория tables карта репозитория lorenzo sitemap кто ссылается этот документ autofilled autofilled tables tables readme readme ingit ingit kksudo kksudo lorenzo lorenzo nautilus nautilus ещё",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 174,
+    "path": "docs/autofilled/components/cowork.md"
+  }
+}

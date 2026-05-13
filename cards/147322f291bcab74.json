@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:147322f291bcab74",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:2258c0e22c4ad60b",
+  "payload": {
+    "title": "Secondary match — Applied AI Engineer (EMEA) + Beneficial Deployments",
+    "summary": "Это родственная роль, но с другим акцентом: меньше «one-on-one с клиентом», больше «строить референсные внедрения, которые масштабируются». Подвертикаль Beneficial Deployments (London, Dublin — есть вакансии AE с французским, испанским, португальским, плюс инженерные Applied AI Engineer Life Science",
+    "body": "secondary match applied engineer emea beneficial deployments источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также practical ranking practical ranking quaternary developer education quaternary developer education primary fde primary fde tertiary research engineer agents tertiary research engineer agents",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 173,
+    "path": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md"
+  }
+}

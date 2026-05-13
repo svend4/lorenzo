@@ -1,10 +1,25 @@
 # passports/info1.md
 
+<!-- toc-auto -->
+## Contents
+
+- [passports/info1.md](#passportsinfo1md)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > **Методологический угол экосистемы svend4**
 
 ---
 <!-- tags: rag, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -24,7 +39,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [55-passports-meta-md](55-passports-meta-md.md) (сходство 0.22)
 - [45-passports-pro2-md](45-passports-pro2-md.md) (сходство 0.21)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md) (сходство 0.16)
@@ -34,7 +49,14 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports info1 md"
+```
+
+## Смотрите также
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
 - [45-passports-pro2-md](45-passports-pro2-md.md)
@@ -85,3 +107,19 @@ markdown
 - [13. Reference Implementation](25-13-reference-implementation.md) _33%_
 - [18. Reference Implementation](93-18-reference-implementation.md) _33%_
 - [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md) _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- [42-author-contact](42-author-contact.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [62-author-contact](62-author-contact.md)
+- [67-о-проекте](67-о-проекте.md)
+- _...ещё 2_
+

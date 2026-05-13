@@ -12,6 +12,17 @@ tags: [протокол, спецификация]
 
 # [Название протокола]
 
+<!-- summary -->
+> `protocol-spec` — раздел документации проекта Lorenzo.
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
+<!-- toc-auto -->
+
 
 <!-- summary: Что делает протокол и какую проблему решает -->
 <!-- tags: протокол, спецификация -->
@@ -154,6 +165,31 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
-- [rfc](docs/templates/rfc.md)
+## Смотрите также
+- [rfc](rfc.md)
 - [`docs/nautilus/npp-v1-1/`](../nautilus/npp-v1-1/)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [agent-spec](agent-spec.md)
+- [rfc](rfc.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [protocol-spec](../obsidian/templates/protocol-spec.md) (сходство 0.94)
+- [rfc](rfc.md) (сходство 0.31)
+- [rfc](../obsidian/templates/rfc.md) (сходство 0.29)
+

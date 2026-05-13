@@ -1,6 +1,26 @@
 # 9. Query Flow
 
+<!-- toc-auto -->
+## Contents
+
+- [9. Query Flow](#9-query-flow)
+  - [9.1. Lifecycle](#91-lifecycle)
+  - [9.2. Parallelism](#92-parallelism)
+  - [9.3. Error Handling](#93-error-handling)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
@@ -45,11 +65,32 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
-**Смотрите также:**
-- [10-query-flow](docs/nautilus/npp-v1-1/10-query-flow.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Query Flow"
+```
+
+## Смотрите также
+- [10-query-flow](../npp-v1-1/10-query-flow.md)
+- [21-9-query-flow](../../02-anthropic-vacancies/21-9-query-flow.md)
+- [85-10-query-flow](../../02-anthropic-vacancies/85-10-query-flow.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [10-query-flow](../npp-v1-1/10-query-flow.md)
 
 
 <!-- similar-docs -->
@@ -57,7 +98,7 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 ---
 
 **Похожие документы:**
-- [10-query-flow](docs/nautilus/npp-v1-1/10-query-flow.md) (сходство 0.72)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md) (сходство 0.65)
-- [21-9-query-flow](docs/obsidian/02-anthropic-vacancies/21-9-query-flow.md) (сходство 0.65)
+- [09-query-flow](../../obsidian/nautilus/npp-v1-0/09-query-flow.md) (сходство 0.97)
+- [10-query-flow](../npp-v1-1/10-query-flow.md) (сходство 0.74)
+- [10-query-flow](../../obsidian/nautilus/npp-v1-1/10-query-flow.md) (сходство 0.72)
 

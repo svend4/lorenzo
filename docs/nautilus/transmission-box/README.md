@@ -1,18 +1,53 @@
 # transmission-box
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 2
 
 ## Содержание
 
-- [00-question-mountain-to-person.md](00-question-mountain-to-person.md) — > [!TIP]
-- [01-completing-loop.md](01-completing-loop.md) — > [!TIP]
+- [00-question-mountain-to-person.md](00-question-mountain-to-person.md) — <!-- toc-auto -->
+- [01-completing-loop.md](01-completing-loop.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-mountain-to-person](00-question-mountain-to-person.md)
+- [01-completing-loop](01-completing-loop.md)
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/nautilus/community-discussions/practical-observations/README.md) (сходство 0.25)
-- [README](docs/lorenzo-agent/scenarios/README.md) (сходство 0.25)
-- [README](docs/nautilus/innovation-transitions/README.md) (сходство 0.23)
+- [README](../../obsidian/nautilus/transmission-box/README.md) (сходство 0.70)
+- [README](../community-discussions/voiceless-contributors/README.md) (сходство 0.64)
+- [README](../community-discussions/practical-observations/README.md) (сходство 0.64)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «transmission-box». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

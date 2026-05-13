@@ -1,5 +1,23 @@
 # Финальное ранжирование Anthropic-ролей по частичному покрытию
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -46,11 +64,31 @@
 
 ---
 
-**Смотрите также:**
-- [02-three-overlapping-identities](docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
-- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Финальное ранжирование Anthropic ролей"
+```
+
+## Смотрите также
+- [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md)
+- [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
+- 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
+- [04-stronger-paths-outside-anthropic](04-stronger-paths-outside-anthropic.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md)
+- [README](README.md)
+- [reading-paths](../../../reading-paths.md)
 
 
 <!-- similar-docs -->
@@ -58,7 +96,7 @@
 ---
 
 **Похожие документы:**
-- [02-three-overlapping-identities](docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) (сходство 0.15)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.14)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md) (сходство 0.13)
+- [02-final-ranking](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md) (сходство 0.99)
+- [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md) (сходство 0.16)
+- [02-three-overlapping-identities](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) (сходство 0.16)
 

@@ -3,10 +3,24 @@ title: "16. MCP Extension (Informative)"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 16. MCP Extension (Informative)
+
+<!-- toc-auto -->
+## Contents
+
+- [16. MCP Extension (Informative)](#16-mcp-extension-informative)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -44,7 +58,7 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[128-доступные-инструменты]] (сходство 0.18)
 - [[129-примеры-запросов-в-claude]] (сходство 0.14)
 - [[103-appendix-b-change-log]] (сходство 0.13)
@@ -54,7 +68,13 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "16 MCP Extension Informative"
+```
+
+## Смотрите также
 - [[128-доступные-инструменты]]
 - [[129-примеры-запросов-в-claude]]
 - [[103-appendix-b-change-log]]
@@ -90,3 +110,18 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 - [[34-appendix-b-change-log|Appendix B: Change Log]] _21%_
 - [[77-2-terminology|2. Terminology]] _21%_
 - [[104-appendix-c-references|Appendix C: References]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[103-appendix-b-change-log]]
+- [[104-appendix-c-references]]
+- [[128-доступные-инструменты]]
+- [[129-примеры-запросов-в-claude]]
+- [[131-ограничения-текущей-версии-0-1-0-draft]]
+- [[22-10-queryresult-structure]]
+- [[34-appendix-b-change-log]]
+- [[README]]
+

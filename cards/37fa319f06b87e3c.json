@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:37fa319f06b87e3c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/05-0-status-of-this-document.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:6c0a60f0d804c187",
+  "payload": {
+    "title": "0. Status of This Document",
+    "summary": "Этот документ — рабочий черновик Nautilus Portal Protocol v1.0. Он может",
+    "body": "status this document этот документ рабочий черновик nautilus portal protocol может status this document этот документ рабочий черновик nautilus portal protocol может изменяться объявления stable breaking changes после stable потребуют bump migration guide комментарии предложения через issues репозитории github com svend nautilus похожие документы status this document сходство portal protocol сходство author contact сходство смотрите также status this document author contact author contact portal protocol упоминается status this document status this document appendices appendices versioning policy versioning policy reference implementation reference implementation versioning policy versioning policy reference implementation reference implementation реализация проекте nautilus реализация проекте nautilus abstract abstract abstract abstract appendix sample use cases detail appendix sample use cases detail author contact author contact author contact author contact content overview content overview for the curious philosophy for the curious philosophy history history portal protocol portal protocol portal protocol portal protocol readme mcp инструкция установке readme mcp инструкция установке благодарности благодарности readme вакансии anthropic анализ кластерам примеры запросов claude примеры запросов claude ссылки ссылки section упоминается readme вакансии anthropic анализ кластерам связанные документы status this document status this document reference implementation reference implementation author contact author contact reference implementation reference implementation author contact author contact content overview content overview versioning policy versioning policy history history связанные документы status this document status this document author contact author contact author contact author contact reference implementation reference implementation reference implementation reference implementation примеры запросов claude примеры запросов claude versioning policy versioning policy content overview content overview",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 311,
+    "path": "docs/obsidian/02-anthropic-vacancies/05-0-status-of-this-document.md"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "card_id": "sha256:e51f5fbcb9de3cf7",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/05-habr-projects/knowledge/agentfs.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/contacts/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/mclaude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/agent-memory-mcp.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/wikontic.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:30:24+00:00",
+  "updated_at": "2026-05-10T17:30:24+00:00",
+  "payload_hash": "sha256:30ca68cb1012ede0",
+  "payload": {
+    "title": "AgentFS",
+    "summary": "AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым `.agentos/`-ядром. Агент получает постоянный персистентный state, скомпилированные конфиги, политики безопасности и CLI-инструменты (`doctor`, `triage`, `compile`) для самодиагностики.",
+    "body": "статус параметр значение теги упоминаний репо слой knowledge filesystem контакт kksudo contacts kksudo статус связи писали обновлено agentfs профиль проекта параметр значение автор kksudo github kksudo источник хабр github лицензия mit версия maturity рабочий прототип рабочая финальная слой svyazi knowledge filesystem описание agentfs превращает obsidian vault операционную систему для агентов единым agentos ядром агент получает постоянный персистентный state скомпилированные конфиги политики безопасности cli инструменты doctor triage compile для самодиагностики это лучший кандидат файловое ядро svyazi уже знает как организовать знания структуру понятную агентам при этом оставаясь совместимым obsidian человекочитаемый vault ключевые компоненты agentos ядро единая точка входа для всех агентских операций над vault compile native configs преобразование yaml конфигов нативные форматы окружения persistent state агент сохраняет состояние между сессиями структурированном виде security policies политики доступа файлам директориям memory consolidation консолидация памяти между сессиями агента doctor triage compile cli самодиагностика управление агентской файловой системой obsidian совместимость vault остаётся читаемым для людей синергия svyazi прямая интеграция agentfs как файловое ядро cardstore поверх него агент работает vault как базой знаний security policies переиспользуются как skillpolicy prototype spec tool class approval mode rate limit memory consolidation дополняет memorywrite episodic записи agentfs факты cardenvelope persistent state решает проблему потери контекста между сессиями агента compile cli аналог improve card index build пересборка индекса требованию mit лицензия прямая интеграция без юридических рисков уровень релевантности очень высокая agentfs закрывает слой filesystem knowledge архитектуре svyazi без него агенты теряют state между сессиями имеют единой точки доступа vault сравнение аналогами проект подход нишa agentfs obsidian vault как agent файловое ядро knowledge space reference cards записей база знаний доменам wikontic семантический граф концептуальные связи mclaude координация агентов multi session orchestration контакт контактный файл docs contacts kksudo contacts kksudo упомянут документах раз наибольшее число упоминаний среди всех авторов смотрите также knowledge space knowledge space agent first карточек как knowledge layer поверх agentfs mclaude mclaude координация нескольких agentfs сессий через locks handoffs agent memory mcp memory agent memory mcp typed mcp память совместимая agentfs persistent state wikontic семантический граф wikontic семантический граф как knowledge layer создано",
+    "tags": [
+      "agentfs",
+      "agent",
+      "filesystem",
+      "obsidian",
+      "knowledge",
+      "persistent-state",
+      "security",
+      "compile"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "agent-memory-mcp",
+      "Wikontic"
+    ],
+    "wc": 509,
+    "path": "docs/05-habr-projects/knowledge/agentfs.md"
+  }
+}

@@ -3,12 +3,35 @@ title: "AI-Mediated Representation for Underrepresented Experts and Vulnerable P
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
+<!-- toc-auto -->
+## Contents
+
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populations)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (16)](#кто-ссылается-на-этот-документ-16)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - Open Knowledge Work Foundation Concept Document v1.0
 
 ---
@@ -37,7 +60,7 @@ date: 2026-04-29
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.62)
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.62)
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr]] (сходство 0.40)
@@ -47,7 +70,13 @@ date: 2026-04-29
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Mediated Representation for"
+```
+
+## Смотрите также
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
@@ -99,3 +128,19 @@ date: 2026-04-29
 - [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]] _37%_
 - [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]] _37%_
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [[03-portal-protocol-md]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[137-table-of-contents]]
+- [[146-acknowledgments]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+- [[153-executive-summary]]
+- [[182-acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- _...ещё 8_
+

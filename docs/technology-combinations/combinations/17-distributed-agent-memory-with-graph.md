@@ -1,11 +1,27 @@
 # Комбинация 17: Distributed Agent Memory with Graph
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** NGT Memory, Yjs, Automerge
 
 ---
 <!-- tags: memory, rag, local-first, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -56,11 +72,35 @@ ROI: Distributed research without central server, knowledge compounds
 
 ---
 
-**Смотрите также:**
-- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
-- [15-self-consolidating-legal-corpus](docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md)
-- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 17 Distributed Agent Memory"
+```
+
+## Смотрите также
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
+- [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
+- 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md)
+- [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -68,7 +108,7 @@ ROI: Distributed research without central server, knowledge compounds
 ---
 
 **Похожие документы:**
-- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md) (сходство 0.29)
-- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md) (сходство 0.28)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.25)
+- [17-distributed-agent-memory-with-graph](../../obsidian/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md) (сходство 0.96)
+- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md) (сходство 0.33)
+- [11-hybrid-crdt-sql-database](../../obsidian/technology-combinations/combinations/11-hybrid-crdt-sql-database.md) (сходство 0.32)
 

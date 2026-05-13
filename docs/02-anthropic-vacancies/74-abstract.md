@@ -1,6 +1,29 @@
 # Abstract
 
+<!-- toc-auto -->
+## Contents
+
+- [Abstract](#abstract)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации --- Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации независимых Git-репозито
@@ -25,10 +48,10 @@ Nautilus Portal Protocol (далее — **NPP**) определяет спос�
 без их принудительного слияния в единую схему. Протокол специфицирует:
 
 1. Минимальный манифест, объявляющий репозиторий участником федерации 
-   (`[nautilus](../docs/05-habr-projects/memory/memnet.md).json`)
+   (`[nautilus](../05-habr-projects/memory/memnet.md).json`)
 2. Формат человекочитаемого описания репозитория (`passport.md`)
-3. Обязательный интерфейс адаптера (`[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`)
-4. Унифицированную структуру данных (`[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`)
+3. Обязательный интерфейс адаптера (`[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)`)
+4. Унифицированную структуру данных (`[PortalEntry](01-интегральный-анализ-профиля-svend4.md)`)
 5. Алгоритм вычисления консенсуса между репозиториями
 6. Пространство координат Q6 для семантической близости
 7. Четыре уровня совместимости для поэтапного подключения
@@ -43,7 +66,7 @@ Nautilus Portal Protocol (далее — **NPP**) определяет спос�
 ходе разработки reference implementation**: Q6-пространство как первоклассный 
 концепт протокола, пять путей онбординга как equivalent-рангованные 
 стратегии, REST API как mandatory для совместимых порталов, поле 
-`is_fallback` в [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), расширенная модель консенсуса с учётом 
+`is_fallback` в [PortalEntry](01-интегральный-анализ-профиля-svend4.md), расширенная модель консенсуса с учётом 
 fallback-статуса.
 
 ---
@@ -52,7 +75,7 @@ fallback-статуса.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [04-abstract](04-abstract.md) (сходство 0.43)
 - [76-1-introduction](76-1-introduction.md) (сходство 0.13)
 - [77-2-terminology](77-2-terminology.md) (сходство 0.11)
@@ -62,7 +85,13 @@ fallback-статуса.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [04-abstract](04-abstract.md)
 - [76-1-introduction](76-1-introduction.md)
 - [07-2-terminology](07-2-terminology.md)
@@ -75,7 +104,7 @@ fallback-статуса.
 - [2. Terminology](07-2-terminology.md)
 - [2. Terminology](77-2-terminology.md)
 - [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
-- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- 7. [PortalEntry Structure](19-7-portalentry-structure.md)
 - [Abstract](04-abstract.md)
 - [Вакансии Anthropic — Анализ по кластерам](README.md)
 ## Упоминается в
@@ -95,7 +124,20 @@ fallback-статуса.
 - [2. Terminology](77-2-terminology.md) _29%_
 - [2. Terminology](07-2-terminology.md) _25%_
 - [0. Status of This Document](05-0-status-of-this-document.md) _21%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
+- 3. Registry (`[nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _21%_
 - [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _21%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+- 7. [PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [04-abstract](04-abstract.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [README](README.md)
+

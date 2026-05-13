@@ -2,10 +2,15 @@
 title: "10. Strategic Positioning"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 10. Strategic Positioning
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -18,6 +23,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Closing thoughts on broader strategic implications.
 
 ---
@@ -26,7 +35,7 @@ date: 2026-04-29
 ## Содержание
 
 - [10. Strategic Positioning](#10-strategic-positioning)
-  - [10.1. InGit as Niche Player](#101-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-as-niche-player)
+  - [10.1. InGit as Niche Player](#101-ingit-as-niche-player)
   - [10.2. Cowork as Distribution Channel](#102-cowork-as-distribution-channel)
   - [10.3. Open Source as Sustainability](#103-open-source-as-sustainability)
   - [10.4. The Bigger Pattern](#104-the-bigger-pattern)
@@ -169,7 +178,7 @@ Either way, the material exists.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[306-with-anthropic-s-cowork-platform|323-appendix-c-sample-[ingit]]-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
 - [[memnet|316-8-implications-for-[nautilus]]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
 - [[307-abstract]] (сходство 0.16)
@@ -179,9 +188,30 @@ Either way, the material exists.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Strategic Positioning"
+```
+
+## Смотрите также
 - [[306-with-anthropic-s-cowork-platform|323-appendix-c-sample-[ingit]]-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [[memnet|316-8-implications-for-[nautilus]]-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 - [[307-abstract]]
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[281-the-recursive-insight]]
+- [[288-appendix-position-in-series-visualization]]
+- [[307-abstract]]
+- [[319-acknowledgments]]
+- 323-appendix-c-sample-[[323-appendix-c-sample-ingit-mcp-server-tool-specificat|ingit-mcp-server-tool-specificat]]
+- [[README]]
 

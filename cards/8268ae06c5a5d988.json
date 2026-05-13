@@ -1,0 +1,78 @@
+{
+  "card_id": "sha256:8268ae06c5a5d988",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/09-architectural-gaps.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/NARRATIVE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/13-contacts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:3132aa0a27454444",
+  "payload": {
+    "title": "План прототипа и возможные контакты",
+    "summary": "Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым эпизодам, не теряя доказуемость и локальность*. Для этого достаточно минимального набора из пяти сло",
+    "body": "план прототипа возможные контакты абстракт авто проблема cite turn view turn view turn search комментарии статьям issues discussions репозиториях knowledge space mclaude подход если нет всё равно спасибо публикацию она уже повлияла архитектуру прототипа результат cite turn view turn search turn search многоагентный хаос раньше пользы рой даёт выгоду только после появления handoff lock чётких спецификаций начинать mclaude ключевые слова search svyazi memory проект knowledge контакт cardindex agentfs статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено tip этот документ описывает mvp подход начните него для быстрого прототипа наиболее рациональный прототип собирать всё сразу доказать одну центральную способность система находит объясняет кандидатные коллаборации свободным описаниям документам речевым проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы mvp planning svyazi mvp planning сходство архитектурные зазоры которые важнее новых инструме архитектурные зазоры которые важнее новых инструме сходство architectural gaps svyazi architectural gaps сходство смотрите также mvp planning svyazi mvp planning narrative narrative executive summary executive summary архитектурные зазоры которые важнее новых инструме архитектурные зазоры которые важнее новых инструме mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель pii personally identifiable information персональные данные cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit bsl business source license коммерческая лицензия открытым кодом кто ссылается этот документ contacts svyazi contacts readme readme component matrix component matrix risk register risk register tables tables",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch"
+    ],
+    "wc": 1150,
+    "path": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md"
+  }
+}

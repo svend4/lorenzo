@@ -13,6 +13,18 @@ tags: [контакты, команда]
 ---
 # Контакт: spbmolot / NGT Memory
 
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -24,15 +36,6 @@ tags: [контакты, команда]
 
 ---
 
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
 
 
 <!-- summary: Шаблон для связи с автором NGT Memory -->
@@ -83,19 +86,29 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.73)
-- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.72)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.71)
+## Похожие документы
+- [vladspace](vladspace.md) (сходство 0.73)
+- [antipozitive](antipozitive.md) (сходство 0.72)
+- [zodigancode](zodigancode.md) (сходство 0.71)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [antipozitive](docs/contacts/antipozitive.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [vitalyoborin](docs/contacts/vitalyoborin.md)
+## Смотрите также
+- [antipozitive](antipozitive.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [vitalyoborin](vitalyoborin.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [README](README.md)
 

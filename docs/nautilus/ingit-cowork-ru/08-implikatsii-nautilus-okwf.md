@@ -1,11 +1,20 @@
 # 8. Импликации для Nautilus и OKWF
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [8. Импликации для Nautilus и OKWF](#8-импликации-для-nautilus-и-okwf)
@@ -151,11 +160,30 @@ InGit/Cowork:
 
 ---
 
-**Смотрите также:**
-- [334-8-импликации-для-nautilus-и-okwf](docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)
-- [10-strategicheskoe-pozitsionirovanie](docs/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md)
-- [336-10-стратегическое-позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
-- [09-riski-voprosy](docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Импликации для Nautilus и OKWF"
+```
+
+## Смотрите также
+- [334-8-импликации-для-nautilus-и-okwf](../../02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)
+- [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
+- [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
+- [09-riski-voprosy](09-riski-voprosy.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -163,7 +191,7 @@ InGit/Cowork:
 ---
 
 **Похожие документы:**
-- [334-8-импликации-для-nautilus-и-okwf](docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) (сходство 0.86)
-- [334-8-импликации-для-nautilus-и-okwf](docs/obsidian/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) (сходство 0.84)
-- [10-strategicheskoe-pozitsionirovanie](docs/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md) (сходство 0.14)
+- [08-implikatsii-nautilus-okwf](../../obsidian/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md) (сходство 0.99)
+- [334-8-импликации-для-nautilus-и-okwf](../../02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) (сходство 0.85)
+- [334-8-импликации-для-nautilus-и-okwf](../../obsidian/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) (сходство 0.84)
 

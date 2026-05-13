@@ -1,10 +1,26 @@
 # Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система…
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -39,11 +55,32 @@ Q6 и консенсус-модель работают как есть, но с�
 
 ---
 
-**Смотрите также:**
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
-- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
-- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Вопрос такой вопрос и"
+```
+
+## Смотрите также
+- [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
+- [00-question-anonymization](../privacy-federation/00-question-anonymization.md)
+- [00-question-habr-2](../community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-two-nautiluses](../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [README](README.md)
+- [00-question-anonymization](../privacy-federation/00-question-anonymization.md)
 
 
 <!-- similar-docs -->
@@ -51,7 +88,7 @@ Q6 и консенсус-модель работают как есть, но с�
 ---
 
 **Похожие документы:**
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.20)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.17)
-- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md) (сходство 0.17)
+- [00-question-can-it-apply-to-docs](../../obsidian/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md) (сходство 0.94)
+- [00-question-multi-tier](../multi-tier-architecture/00-question-multi-tier.md) (сходство 0.23)
+- [05-which-combination-more-valuable](05-which-combination-more-valuable.md) (сходство 0.23)
 

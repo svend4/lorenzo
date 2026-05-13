@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:68c08aa3d14ee26f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/90-15-security-considerations.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/23-11-security-considerations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/85-10-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/18-6-adapter-interface.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:03dd909870c6b4d3",
+  "payload": {
+    "title": "15. Security Considerations",
+    "summary": "Adapters выполняются внутри Portal-процесса. Portal MUST",
+    "body": "security considerations содержание contents contents contents contents security considerations security considerations untrusted adapters untrusted adapters private repositories private repositories mcp exposure mcp exposure rate limiting rate limiting supply chain supply chain упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы security considerations untrusted adapters adapters выполняются внутри portal процесса portal must обрабатывать adapters как untrusted code timeout каждый adapter call recommended секунд exception handling вокруг каждого call xss protection html escape всех user facing rendered полях portal should выполнять adapters untrusted sources без review private repositories repos содержащие чувствительные данные legal medical personal should включаться публичную registry для приватных repos recommended отдельный private nautilus habr projects memory memnet json explicit opt отдельный portal instance доступный публично authentication rest api jwt api keys нет mcp exposure без whitelist implementation must различать public private registries смешивать результаты без явного запроса mcp exposure при экспонировании portal через mcp раздел implementation should требовать явный whitelist repos доступных через mcp логировать queries отдельно возможностью очистки включать private repos mcp responses умолчанию rate limiting public facing portals should реализовать rate limiting recommended requests per minute per для api query recommended requests per minute per для api describe api health supply chain reference implementation использует только python stdlib zero external dependencies это recommended для альтернативных implementations каждая external dependency потенциальный supply chain риск похожие документы security considerations security considerations сходство rest api contract normative for portals rest api contract normative for portals сходство query flow query flow сходство смотрите также security considerations security considerations rest api contract normative for portals rest api contract normative for portals adapter interface adapter interface adapter interface adapter interface упоминается security considerations security considerations rest api contract normative for portals rest api contract normative for portals вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы security considerations security considerations rest api contract normative for portals rest api contract normative for portals связанные документы security considerations security considerations rest api contract normative for portals rest api contract normative for portals query flow query flow query flow query flow кто ссылается этот документ adapter interface adapter interface query flow query flow security considerations security considerations readme readme",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 555,
+    "path": "docs/02-anthropic-vacancies/90-15-security-considerations.md"
+  }
+}

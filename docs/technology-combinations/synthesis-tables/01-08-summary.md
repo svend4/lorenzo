@@ -1,11 +1,30 @@
 # Сводная таблица 1–8
 
+<!-- toc-auto -->
+## Contents
+
+- [🎯 Главная находка: паттерн «скромные родители → мощные дети»](#главная-находка-паттерн-скромные-родители-мощные-дети)
+- [Рекомендация](#рекомендация)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция 📊 «Сводная таблица синергии».
 **Проекты:** Svyazi, CardIndex, Yodoca
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, collaboration -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -48,11 +67,28 @@
 
 ---
 
-**Смотрите также:**
-- [08-conductor-adversarial-review-auto-ai-router](docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводная таблица 1 8"
+```
+
+## Смотрите также
+- 08-conductor-[adversarial-review-auto-ai-router](../combinations/08-conductor-adversarial-review-auto-ai-router.md)
+- [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [15-19-extended](15-19-extended.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [concepts](../../glossary/concepts.md)
+- [reading-paths](../../reading-paths.md)
+- [README](../README.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -60,7 +96,7 @@
 ---
 
 **Похожие документы:**
-- [08-conductor-adversarial-review-auto-ai-router](docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md) (сходство 0.49)
-- [05-benchmarks](docs/obsidian/03-technology-combinations/05-benchmarks.md) (сходство 0.39)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.38)
+- [01-08-summary](../../obsidian/technology-combinations/synthesis-tables/01-08-summary.md) (сходство 0.98)
+- [08-conductor-adversarial-review-auto-ai-router](../combinations/08-conductor-adversarial-review-auto-ai-router.md) (сходство 0.47)
+- [08-conductor-adversarial-review-auto-ai-router](../../obsidian/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md) (сходство 0.47)
 

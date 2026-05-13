@@ -9,10 +9,15 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix C: References
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -25,6 +30,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels
 
 ---
@@ -100,7 +109,7 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 #### Что делать с этим файлом
 Рекомендую следующий workflow:
 1. Создать docs/PORTAL-PROTOCOL.md в репо с этим содержимым (или PORTAL-PROTOCOL.md в корне, если хотите более заметно)
-2. Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на [[PORTAL-PROTOCOL|Nautilus Portal Protocol v1.1]] с рабочим линком
+2. Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на [[73-portal-protocol-md-v1-1|Nautilus Portal Protocol v1.1]] с рабочим линком
 3. Коммит с сообщением docs: add formal PORTAL-PROTOCOL.md v1.1 specification
 4. Пройтись по документу и проверить цифры в 18.1 против актуальных (6782 LOC, 13 адаптеров, 60 тестов, 82/100 health)
 5. Если есть расхождения — обновить в разделе 18.1
@@ -115,7 +124,7 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[122-глоссарий]] (сходство 0.16)
 - [[34-appendix-b-change-log]] (сходство 0.13)
 - [[69-section]] (сходство 0.11)
@@ -125,7 +134,13 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix C References"
+```
+
+## Смотрите также
 - [[122-глоссарий]]
 - [[34-appendix-b-change-log]]
 - [[69-section]]
@@ -180,3 +195,19 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 - [[122-глоссарий|Глоссарий]] _25%_
 - [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _25%_
 - [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (15)
+- [[02-общий-план-развития-nautilus-portal-protocol]]
+- [[103-appendix-b-change-log]]
+- [[109-3-принципы-консолидации-фаза-c]]
+- [[122-глоссарий]]
+- [[128-доступные-инструменты]]
+- [[141-4-nautilus-portal-as-reference-substrate]]
+- [[25-13-reference-implementation]]
+- [[34-appendix-b-change-log]]
+- _...ещё 7_
+

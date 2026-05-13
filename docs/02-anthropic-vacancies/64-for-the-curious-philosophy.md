@@ -1,5 +1,10 @@
 # For the Curious: Philosophy
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > `meta` реализует редкую идею: **две символические системы, разделённые
 
 ---
@@ -48,7 +57,7 @@
 
 ---
 
-*Passport version: 1.0 · Protocol: [NPP v1.0](../PORTAL-PROTOCOL.md) · 
+*Passport version: 1.0 · Protocol: [NPP v1.0](03-portal-protocol-md.md) · 
 Last updated: 2026-04*
 ```
 ---
@@ -82,7 +91,7 @@ Bridges описаны максимально конкретно. Особенн
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [34-appendix-b-change-log](34-appendix-b-change-log.md) (сходство 0.11)
 
 
@@ -90,7 +99,13 @@ Bridges описаны максимально конкретно. Особенн
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "For the Curious Philosophy"
+```
+
+## Смотрите также
 - [34-appendix-b-change-log](34-appendix-b-change-log.md)
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [67-о-проекте](67-о-проекте.md)
@@ -132,3 +147,19 @@ Bridges описаны максимально конкретно. Особенн
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
 - [🇷🇺 О проекте](67-о-проекте.md) _25%_
 - [Хронологическая лента событий](../TIMELINE.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [01-интегральный-анализ-профиля-svend4](01-интегральный-анализ-профиля-svend4.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
+- [04-abstract](04-abstract.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- [122-глоссарий](122-глоссарий.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- _...ещё 3_
+

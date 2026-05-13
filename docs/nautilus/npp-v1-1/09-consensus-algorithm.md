@@ -1,6 +1,27 @@
 # 9. Consensus Algorithm
 
+<!-- toc-auto -->
+## Contents
+
+- [9. Consensus Algorithm](#9-consensus-algorithm)
+  - [9.1. Definition](#91-definition)
+  - [9.2. Consensus Structure](#92-consensus-structure)
+  - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
+  - [9.4. Algorithm](#94-algorithm)
+  - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -112,11 +133,25 @@ v2.0 MAY использовать:
 
 ---
 
-**Смотрите также:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
-- [08-consensus-algorithm](docs/nautilus/npp-v1-0/08-consensus-algorithm.md)
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+## Смотрите также
+- [84-9-consensus-algorithm](../../02-anthropic-vacancies/84-9-consensus-algorithm.md)
+- [08-consensus-algorithm](../npp-v1-0/08-consensus-algorithm.md)
+- [20-8-consensus-algorithm](../../02-anthropic-vacancies/20-8-consensus-algorithm.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-consensus-algorithm](../npp-v1-0/08-consensus-algorithm.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -124,7 +159,7 @@ v2.0 MAY использовать:
 ---
 
 **Похожие документы:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.72)
-- [84-9-consensus-algorithm](docs/obsidian/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.70)
-- [08-consensus-algorithm](docs/nautilus/npp-v1-0/08-consensus-algorithm.md) (сходство 0.37)
+- [09-consensus-algorithm](../../obsidian/nautilus/npp-v1-1/09-consensus-algorithm.md) (сходство 0.97)
+- [84-9-consensus-algorithm](../../02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.73)
+- [84-9-consensus-algorithm](../../obsidian/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.72)
 

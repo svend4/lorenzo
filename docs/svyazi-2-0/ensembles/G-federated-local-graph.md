@@ -1,11 +1,29 @@
 # Ансамбль G — Federated Local‑First Community Graph
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Новое свойство](#новое-свойство)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`.
 **Проекты:** Svyazi, AgentFS, NGT Memory, Yjs, Automerge
 
 ---
 <!-- tags: memory, rag, knowledge, ingestion, local-first, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -36,11 +54,21 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [D-voice-first-mesh](docs/svyazi-2-0/ensembles/D-voice-first-mesh.md)
-- [privacy](docs/svyazi-2-0/security/privacy.md)
+## Смотрите также
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md)
+- [10-новые-ансамбли-следующего-шага](../../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [D-voice-first-mesh](D-voice-first-mesh.md)
+- [privacy](../security/privacy.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -48,7 +76,7 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md) (сходство 0.35)
-- [10-second-order-ensembles](docs/obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.34)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) (сходство 0.31)
+- [G-federated-local-graph](../../obsidian/svyazi-2-0/ensembles/G-federated-local-graph.md) (сходство 0.98)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md) (сходство 0.36)
+- [10-second-order-ensembles](../../obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.36)
 

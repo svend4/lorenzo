@@ -108,17 +108,26 @@ def main() -> None:
 
     lines = [
         "# Читаемость документов (Flesch-Kincaid)\n",
+        f"<!-- summary -->\n> Средний индекс FRE: **{avg_fre:.1f}/100** по {len(results)} документам\n",
+        "<!-- tags: quality, readability, metrics, documentation -->\n",
+        "> [!TIP]\n> FRE: 70-100 лёгкий, 50-70 средний, 30-50 сложный, <30 очень сложный\n\n<!-- alert-added -->\n",
         f"_Обновлено: {TODAY}_\n",
         f"Средний индекс FRE: **{avg_fre:.1f}/100**\n",
-        "> FRE: 70-100 лёгкий, 50-70 средний, 30-50 сложный, <30 очень сложный\n",
         "## Все документы\n",
         "| Файл | FRE | Уровень | Слов | Пред. | Слов/пред. |",
         "|------|-----|---------|------|-------|-----------|",
     ]
 
     for r in results:
+        p = Path(str(r['path']))
+        # Link relative to docs/ (where READABILITY.md lives)
+        try:
+            rel = p.relative_to("docs")
+        except ValueError:
+            rel = p
+        stem = p.stem[:45]
         lines.append(
-            f"| `{r['path']}` | {r['fre']} | {r['level']} "
+            f"| [{stem}]({rel}) | {r['fre']} | {r['level']} "
             f"| {r['words']} | {r['sentences']} | {r['avg_sent_len']} |"
         )
 
@@ -129,8 +138,14 @@ def main() -> None:
             f"\n## Самые сложные тексты ({len(hardest)}) — рекомендуется упростить\n",
         ]
         for r in hardest[:10]:
+            p = Path(str(r['path']))
+            try:
+                rel = p.relative_to("docs")
+            except ValueError:
+                rel = p
+            stem = p.stem[:45]
             lines.append(
-                f"- `{r['path']}` — FRE {r['fre']}, "
+                f"- [{stem}]({rel}) — FRE {r['fre']}, "
                 f"среднее {r['avg_sent_len']} слов/предложение"
             )
 

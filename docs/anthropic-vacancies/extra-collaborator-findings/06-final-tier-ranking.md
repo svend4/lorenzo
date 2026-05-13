@@ -1,11 +1,27 @@
 # Финальный список потенциальных collaborators (Tier 1–4)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.
 **Проекты:** NGT Memory, Wikontic
 
 ---
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -52,11 +68,35 @@ Tier 4 — institutional reference
 
 ---
 
-**Смотрите также:**
-- [10-collaborators-landscape](docs/lorenzo-agent/10-collaborators-landscape.md)
-- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
-- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
-- [05-existing-infrastructure-stack](docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Финальный список потенциальных"
+```
+
+## Смотрите также
+- [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md)
+- [354-существующий-landscape-collaborators-твоя-working-](../../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
+- [05-existing-infrastructure-stack](05-existing-infrastructure-stack.md)
+
+_Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
+- [05-existing-infrastructure-stack](05-existing-infrastructure-stack.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -64,7 +104,7 @@ Tier 4 — institutional reference
 ---
 
 **Похожие документы:**
-- [10-collaborators-landscape](docs/lorenzo-agent/10-collaborators-landscape.md) (сходство 0.44)
-- [354-существующий-landscape-collaborators-твоя-working-](docs/obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.34)
-- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.34)
+- [06-final-tier-ranking](../../obsidian/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) (сходство 0.99)
+- [10-collaborators-landscape](../../obsidian/lorenzo-agent/10-collaborators-landscape.md) (сходство 0.48)
+- [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md) (сходство 0.47)
 

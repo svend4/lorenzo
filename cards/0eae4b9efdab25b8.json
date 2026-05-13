@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:0eae4b9efdab25b8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CONSISTENCY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:9573eef922b3db01",
+  "payload": {
+    "title": "Согласованность терминов",
+    "summary": "Анализ различных написаний одних и тех же терминов.",
+    "body": "согласованность терминов анализ различных написаний одних тех терминов термин канонично вариант файлов knowledge space knowledge space knowledgespace knowledge space knowledge space knowledge space knowledge space knowledge space knowledge space factory factory factory ngt memory ngt memory ngt memory auto router auto router auto router local first local first localfirst self improvement self improvement self improve svyazi svyazi svyazi evidence envelope evidence envelope evidence envelope card envelope card envelope card envelope всего несогласованных написаний детали файлам knowledgespace должно быть knowledge space docs empty sections docs tables docs consistency knowledge space должно быть knowledge space docs tables docs sitemap docs concepts docs consistency docs outline ещё knowledge space должно быть knowledge space docs tables docs consistency factory должно быть factory docs paragraph quality docs docs empty sections docs language stats docs tables ещё ngt memory должно быть ngt memory docs contacts docs faq docs paragraph quality docs dependabot docs empty sections ещё auto router должно быть auto router docs paragraph quality docs spellcheck docs language stats docs tables docs sitemap ещё localfirst должно быть local first docs tables docs consistency docs outline self improve должно быть self improvement docs reading list docs contacts docs paragraph quality docs llm summaries docs spellcheck ещё svyazi должно быть svyazi docs tables docs consistency docs anthropic vacancies технический stack svyazi foundation docs anthropic vacancies развёрнутый анализ внуковой комбинации evidence envelope должно быть evidence envelope docs reading list docs paragraph quality docs docs language stats docs tables ещё card envelope должно быть card envelope docs paragraph quality docs language stats docs tables docs sitemap docs reading time ещё как исправить пример заменить все вхождения docs find docs name exec sed old term new term смотрите также missing tags stats version diff",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "self-improve"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "AI Factory",
+      "NGT Memory",
+      "Auto AI Router"
+    ],
+    "wc": 397,
+    "path": "docs/obsidian/CONSISTENCY.md"
+  }
+}

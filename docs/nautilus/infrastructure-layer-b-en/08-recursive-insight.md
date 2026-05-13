@@ -1,10 +1,27 @@
 # The Recursive Insight
 
+<!-- toc-auto -->
+## Contents
+
+- [The Recursive Insight](#the-recursive-insight)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -68,11 +85,33 @@ work.
 
 ---
 
-**Смотрите также:**
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
-- [09-what-industry-will-build](docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Recursive Insight"
+```
+
+## Смотрите также
+- [281-the-recursive-insight](../../02-anthropic-vacancies/281-the-recursive-insight.md)
+- [09-what-industry-will-build](09-what-industry-will-build.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [09-what-industry-will-build](09-what-industry-will-build.md)
+- [10-what-not-solved](10-what-not-solved.md)
+- [12-closing](12-closing.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -80,7 +119,7 @@ work.
 ---
 
 **Похожие документы:**
-- [281-the-recursive-insight](docs/obsidian/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.76)
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.71)
-- [09-what-industry-will-build](docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md) (сходство 0.25)
+- [08-recursive-insight](../../obsidian/nautilus/infrastructure-layer-b-en/08-recursive-insight.md) (сходство 0.98)
+- [281-the-recursive-insight](../../02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.71)
+- [281-the-recursive-insight](../../obsidian/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.71)
 

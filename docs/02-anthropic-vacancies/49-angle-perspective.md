@@ -1,6 +1,29 @@
 # Angle / Perspective
 
+<!-- toc-auto -->
+## Contents
+
+- [Angle / Perspective](#angle-perspective)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > **Semantic** — `pro2` смотрит на мир через **структуру значений**.
 
 ---
@@ -11,7 +34,7 @@
 
 ## Angle / Perspective
 
-**Semantic** — `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` смотрит на мир через **структуру значений**. 
+**Semantic** — `[pro2](01-интегральный-анализ-профиля-svend4.md)` смотрит на мир через **структуру значений**. 
 На вопрос «что такое кристалл» он отвечает Q6-координатами 
 (положение в гиперкубе), семантическими связями (соседи по Hamming), 
 и гексаграммой (классическая И-Цзин интерпретация).
@@ -27,7 +50,7 @@ reasoning.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [39-angle-perspective](39-angle-perspective.md) (сходство 0.14)
 - [59-angle-perspective](59-angle-perspective.md) (сходство 0.12)
 - [13-angle-perspective](13-angle-perspective.md) (сходство 0.10)
@@ -37,7 +60,13 @@ reasoning.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Angle Perspective"
+```
+
+## Смотрите также
 - [39-angle-perspective](39-angle-perspective.md)
 - [59-angle-perspective](59-angle-perspective.md)
 - [47-native-format](47-native-format.md)
@@ -79,3 +108,19 @@ reasoning.
 - [Compatibility Level](51-compatibility-level.md) _25%_
 - [Native Format](57-native-format.md) _25%_
 - [15. Glossary of Examples](27-15-glossary-of-examples.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [13-angle-perspective](13-angle-perspective.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- [47-native-format](47-native-format.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [57-native-format](57-native-format.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- _...ещё 1_
+

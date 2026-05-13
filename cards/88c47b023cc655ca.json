@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:88c47b023cc655ca",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/46-essence.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/36-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/56-essence.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:17fdf7285054c84c",
+  "payload": {
+    "title": "Essence",
+    "summary": "`[pro2](01-интегральный-анализ-профиля-svend4.md)` — **семантическое ядро** экосистемы svend4. Здесь живут",
+    "body": "essence pro семантическое ядро экосистемы svend здесь живут похожие документы essence essence сходство passports pro интегральный анализ профиля svend docs anthropic vacancies passports pro сходство essence essence сходство смотрите также passports pro интегральный анализ профиля svend docs anthropic vacancies passports pro essence essence passports info интегральный анализ профиля svend docs anthropic vacancies passports info essence essence кто ссылается этот документ reference implementation reference implementation passports info passports info angle perspective angle perspective passports pro passports pro angle perspective angle perspective passports meta passports meta angle perspective angle perspective проекте проекте ещё",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 149,
+    "path": "docs/02-anthropic-vacancies/46-essence.md"
+  }
+}

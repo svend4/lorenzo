@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:7af1df4c7b3a093d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:9edf987259a6dad2",
+  "payload": {
+    "title": "Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера",
+    "summary": "title: \"Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера\"",
+    "body": "приложение образец спецификаций инструментов ingit mcp сервера абстракт авто проблема нет хорошего много good options нужно выбирать правильную combination подход приложение образец спецификаций инструментов ingit mcp сервера tip этот документ описывает mvp подход результат уникальные свойства knowledge written for agents not humans fundamentally different design domain specific freshness thresholds алгоритмы стабильны обновлять нужно ключевые слова layer memory knowledge agent domain hermes federation ingit tip этот документ описывает mvp подход начните него для быстрого прототипа для справки вот детальные спецификации для проекты svyazi cardindex component catalog knowledge space graph rag ngt memory wikontic содержание приложение образец спецификаций инструментов ingit mcp сервера приложение образец спецификаций инструментов ingit docs anthropic vacancies with anthropic cowork platform mcp сервера краткие заметки переводу краткие заметки переводу что такое hermes agent что такое hermes agent чем hermes похож нашу архитектуру ingit cowork nautilus чем hermes похож нашу архитектуру ingit cowork nautilus docs habr projects memory memnet чем hermes отличается где наши документы добавляют value чем hermes отличается где наши документы добавляют value плюсы hermes наша гипотетическая архитектура плюсы hermes наша гипотетическая архитектура минусы hermes где наша архитектура добавляет ценность минусы hermes где наша архитектура добавляет ценность стратегический вывод стратегический вывод конкретные impact проект конкретные impact проект практически что делать сейчас практически что делать сейчас honest assessment наших документов учётом hermes honest assessment наших документов учётом hermes один особенно важный insight один особенно важный insight заключение заключение что такое camel что такое camel фундаментальное различие разный design philosophy фундаментальное различие разный design philosophy подробное сравнение подробное сравнение где каждый подходит для разных задач где каждый подходит для разных задач концептуальное сходство нашими документами концептуальное сходство нашими документами слабости каждого слабости каждого стратегические импликации для наших девяти документов стратегические импликации для наших девяти документов один важный insight для вашего проекта один важный insight для вашего проекта конкретные рекомендации для проекта конкретные рекомендации для проекта final assessment final assessment важное наблюдение прежде всего важное наблюдение прежде всего что думаю происходит что думаю происходит связь предыдущим разговором связь предыдущим разговором что предлагаю сделать что предлагаю сделать конкретный вопрос вам конкретный вопрос вам параллельно этим параллельно этим общая характеристика трёх репозиториев общая характеристика трёх репозиториев что интересного полезного info что интересного полезного info что интересного полезного info что интересного полезного info что интересного полезного info что интересного полезного info docs anthropic vacancies интегральный анализ профиля svend integrated analysis что эти три together предлагают integrated analysis что эти три together предлагают где эти repositories valuable beyond their actual code где эти repositories valuable beyond their actual code application cowork ingit других связок application coworkingit других связок honest assessment and recommendations honest assessment and recommendations возможный синтез мини document который объединяет возможный синтез мини document который объединяет итоговое предложение итоговое предложение сначала разделение ролей пассивный активный сначала разделение ролей пассивный активный что нас есть трёх info repositories что нас есть трёх info repositories возможно построить эти camel прямой ответ возможно построить эти camel прямой ответ конкретно как может выглядеть синтез camel info insights конкретно как может выглядеть синтез camel info insights связка посредник между ними связка посредник между ними конкретный example sgb advocate colleague этой архитектуре конкретный example sgb advocate colleague этой архитектуре что брать info repositories concrete recommendations что брать info repositories concrete recommendations honest practical assessment honest practical assessment альтернатива minimum viable approach альтернатива minimum viable approach один critical insight один critical insight прямой ответ ваш вопрос прямой ответ ваш вопрос что посоветовал делать прямо сейчас что посоветовал делать прямо сейчас возможный hybrid path forward возможный hybrid path forward обзор найденных уникальных авторских проектов обзор найденных уникальных авторских проектов несколько других интересных направлений несколько других интересных направлений возможные синтезы какие проекты вместе создают что уникальное возможные синтезы какие проекты вместе создают что уникальное оценка для практической реализации оценка для практической реализации конкретный потенциальный coллаborator конкретный потенциальный coллаborator что рекомендовал как concrete next step что рекомендовал как concrete next step honest reflection honest reflection сначала что нового приносит каждый этих проектов сначала что нового приносит каждый этих проектов ключевое смещение что эти проекты делают возможным ключевое смещение что эти проекты делают возможным совмещение variant совмещение variant конкретный план для sgb advocate community pilot конкретный план для sgb advocate community pilot practical reality check practical reality check альтернативный подход collaboration first альтернативный подход collaboration first что ставить outreach чуяну что ставить outreach чуяну один important nuance один important nuance реалистичная sequence реалистичная sequence что recommend сейчас что recommend сейчас final thought final thought главная находка этого раунда hypercortex mesh protocol kagvi главная находка этого раунда hypercortex mesh protocol kagvi другие находки этого раунда другие находки этого раунда синтез расширенный variant синтез расширенный variant где variant становится реалистичным где variant становится реалистичным конкретные потенциальные collaborators final list конкретные потенциальные collaborators final list стратегическая рекомендация стратегическая рекомендация один critical question один critical question конкретный план для outreach конкретный план для outreach итоговая мысль итоговая мысль итоги",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "knowledge-space",
+      "Graph RAG",
+      "NGT Memory",
+      "MemNet",
+      "Wikontic"
+    ],
+    "wc": 20569,
+    "path": "docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:77040947b98b5834",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/80-5-compatibility-levels.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/17-5-compatibility-levels.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/77-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:668cb29eb867b8d7",
+  "payload": {
+    "title": "5. Compatibility Levels",
+    "summary": "NPP определяет 4 уровня совместимости Repo с экосистемой. Это",
+    "body": "compatibility levels абстракт авто проблема compatibility levels compatibility levels level discoverable level discoverable level readable level readable level linked level linked level ключевые слова level compatibility levels portalentry anthropic vacancies fallback требования contents compatibility levels compatibility levels level discoverable level discoverable level readable level readable level linked level linked level interactive level interactive npp определяет уровня совместимости repo экосистемой это похожие документы compatibility levels compatibility levels сходство terminology terminology сходство portalentry structure portalentry structure сходство смотрите также compatibility levels compatibility levels portalentry structure portalentry structure compatibility level compatibility level terminology terminology кто ссылается этот документ passport passport passport passport adapter interface adapter interface compatibility level compatibility level compatibility level compatibility level readme readme",
+    "tags": [
+      "memory",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "MemNet"
+    ],
+    "wc": 382,
+    "path": "docs/02-anthropic-vacancies/80-5-compatibility-levels.md"
+  }
+}

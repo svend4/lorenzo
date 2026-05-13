@@ -1,19 +1,55 @@
 # security
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 3
 
 ## Содержание
 
-- [budget-routing.md](budget-routing.md) — > [!WARNING]
-- [default-policy.md](default-policy.md) — > [!WARNING]
-- [privacy.md](privacy.md) — > [!WARNING]
+- [budget-routing.md](budget-routing.md) — <!-- toc-auto -->
+- [default-policy.md](default-policy.md) — <!-- toc-auto -->
+- [privacy.md](privacy.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [budget-routing](budget-routing.md)
+- [default-policy](default-policy.md)
+- [privacy](privacy.md)
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/nautilus/innovation-transitions/README.md) (сходство 0.21)
-- [README](docs/nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.21)
-- [README](docs/svyazi-2-0/limitations/README.md) (сходство 0.20)
+- [README](../../obsidian/svyazi-2-0/security/README.md) (сходство 0.70)
+- [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.57)
+- [README](../prototype/README.md) (сходство 0.57)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «security». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

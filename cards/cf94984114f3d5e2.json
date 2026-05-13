@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:cf94984114f3d5e2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/12-appendix-a-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:d04a08a614fbedab",
+  "payload": {
+    "title": "Что этот документ не решает",
+    "summary": "Он не предоставляет дорожную карту реализации.",
+    "body": "что этот документ решает warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также что этот документ решает anthropic vacancies что этот документ решает appendix header warning review methodology appendix header warning zachem dokument zachem dokument zaklyuchenie zaklyuchenie",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 205,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md"
+  }
+}

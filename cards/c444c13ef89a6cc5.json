@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:c444c13ef89a6cc5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:11ed10e759afa89b",
+  "payload": {
+    "title": "Приложение B: Сравнительная Матрица",
+    "summary": "title: \"Приложение B: Сравнительная Матрица\"",
+    "body": "приложение сравнительная матрица отличительный профиль ingit cowork приложение сравнительная матрица способность обычная папка cowork ingit cowork notion obsidian плагины структурированная организация ручная конвенциональная база данных markdown файлы версионирование ручной git git нативное внутреннее git через плагин метаданные нет yaml свойства frontmatter валидация нет хуки правила зависит плагина шифрование нет встроенное ограниченное зависит плагина оффлайн ограниченно интеграция cowork cowork ingit mcp notion зависит плагина кросс платформенность зависит стоимость подписка cowork бесплатно cowork подписка бесплатно плагины отличительный профиль ingit cowork максимум структуры полным локальным контролем бесплатная подложка плюс подписка cowork смотрите также with anthropic cowork platform уточнённый объём ingit учётом cowork docs anthropic vacancies уточнённый объём ingit учётом cowork похожие документы содержание сходство уточнённый объём ingit учётом cowork сходство appendix comparison matrix сходство",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 225,
+    "path": "docs/obsidian/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md"
+  }
+}

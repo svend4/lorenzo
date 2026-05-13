@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "nlaik"
 author_handle: "@nlaik"
-projects: ["Svyazi", "LiteParse"]
+projects: [Svyazi, LiteParse]
 platform: GitHub
 status: not_started
 priority: 3
@@ -12,6 +12,17 @@ last_contact: null
 tags: [контакты, команда]
 ---
 # Контакт: nlaik / LiteParse / research-docs
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -26,16 +37,7 @@ tags: [контакты, команда]
 
 
 
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
-
-
-<!-- summary: Шаблон для связи с автором [LiteParse](../docs/01-svyazi/01-executive-summary.md) / research-docs -->
+<!-- summary: Шаблон для связи с автором [LiteParse](../01-svyazi/01-executive-summary.md) / research-docs -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -51,7 +53,7 @@ tags: [контакты, команда]
 
 ## Статус связи
 
-- [ ] Изучили профиль
+- [x] Изучили профиль
 - [ ] Написали первое сообщение
 - [ ] Получили ответ
 - [ ] Договорились о сотрудничестве
@@ -81,19 +83,36 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.87)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.84)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.82)
+## Похожие документы
+- [antipozitive](antipozitive.md) (сходство 0.87)
+- [vladspace](vladspace.md) (сходство 0.84)
+- [zodigancode](zodigancode.md) (сходство 0.82)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [antipozitive](docs/contacts/antipozitive.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [spbmolot](docs/contacts/spbmolot.md)
-- [andrey-chuyan](docs/contacts/andrey-chuyan.md)
+## Смотрите также
+- [antipozitive](antipozitive.md)
+- [sonia-black](sonia-black.md)
+- [spbmolot](spbmolot.md)
+- [andrey-chuyan](andrey-chuyan.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [research-docs-liteparse](../05-habr-projects/knowledge/research-docs-liteparse.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [andrey-chuyan](andrey-chuyan.md)
+- _...ещё 4_
 

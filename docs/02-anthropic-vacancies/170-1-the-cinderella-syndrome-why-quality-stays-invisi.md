@@ -1,5 +1,10 @@
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > There is a recurring asymmetry in modern markets — markets for
 
 ---
@@ -110,7 +119,7 @@ real-world consequences:
 
 - A retired electrical engineer with 40 years of microwave 
   experience never contributes to open hardware projects 
-  because they cannot navigate [GitHub](../docs/01-svyazi/03-component-catalog.md) culture
+  because they cannot navigate [GitHub](../01-svyazi/03-component-catalog.md) culture
 - A disabled mathematician with novel insights never publishes 
   because the conference travel system excludes them
 - A domain expert in an underrepresented region with deep 
@@ -149,7 +158,7 @@ Layer.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.13)
 - [168-abstract](168-abstract.md) (сходство 0.13)
@@ -159,7 +168,13 @@ Layer.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 The Cinderella Syndrome Why Quality"
+```
+
+## Смотрите также
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
 - [168-abstract](168-abstract.md)
@@ -188,3 +203,17 @@ Layer.
 - [2. Target Populations](156-2-target-populations.md) _17%_
 - [2. Historical Precedents: Agents as Civilizational Innovation](171-2-historical-precedents-agents-as-civilizational-i.md) _17%_
 - [10. Strategic Positioning](318-10-strategic-positioning.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [156-2-target-populations](156-2-target-populations.md)
+- [168-abstract](168-abstract.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [181-12-closing](181-12-closing.md)
+- [README](README.md)
+

@@ -1,5 +1,16 @@
 # 8. Ограничения и открытые вопросы
 
+<!-- toc-auto -->
+## Contents
+
+- [8. Ограничения и открытые вопросы](#8-ограничения-и-открытые-вопросы)
+  - [8.1. Trade-offs](#81-trade-offs)
+  - [8.2. Открытые вопросы](#82-открытые-вопросы)
+  - [8.3. Что делать, если ресурсов на Фазу C нет](#83-что-делать-если-ресурсов-на-фазу-c-нет)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -71,11 +82,31 @@ Revert** для публичных-facing docs.
 
 ---
 
-**Смотрите также:**
-- [115-8-ограничения-и-открытые-вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
-- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Ограничения и открытые вопросы"
+```
+
+## Смотрите также
+- [115-8-ограничения-и-открытые-вопросы](../../02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- [10-checklist](10-checklist.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [107-1-контекст-и-мотивация](../../02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-context-motivation](01-context-motivation.md)
+- [06-relation-existing-methodologies](06-relation-existing-methodologies.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -83,7 +114,7 @@ Revert** для публичных-facing docs.
 ---
 
 **Похожие документы:**
-- [115-8-ограничения-и-открытые-вопросы](docs/obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) (сходство 0.85)
-- [115-8-ограничения-и-открытые-вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) (сходство 0.83)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md) (сходство 0.21)
+- [09-limitations-open-questions](../../obsidian/nautilus/review-methodology/09-limitations-open-questions.md) (сходство 0.98)
+- [115-8-ограничения-и-открытые-вопросы](../../02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) (сходство 0.80)
+- [115-8-ограничения-и-открытые-вопросы](../../obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) (сходство 0.80)
 

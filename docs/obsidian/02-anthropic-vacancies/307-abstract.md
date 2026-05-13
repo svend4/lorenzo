@@ -2,10 +2,15 @@
 title: "Abstract"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Abstract
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
@@ -20,6 +25,10 @@ date: 2026-04-29
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** InGit should position as the structure layer that Cowork needs — substrate for sustained, organized, recoverable, shareable AI-collaborative work.
@@ -75,9 +84,9 @@ shareable AI-collaborative work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.19)
-- [[306-with-anthropic-s-cowork-platform]] (сходство 0.17)
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]] (сходство 0.17)
 - [[312-4-the-symbiotic-architecture]] (сходство 0.16)
 
 
@@ -85,9 +94,15 @@ shareable AI-collaborative work.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
-- [[306-with-anthropic-s-cowork-platform]]
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 - [[312-4-the-symbiotic-architecture]]
 - [[308-table-of-contents]]
 
@@ -131,3 +146,19 @@ shareable AI-collaborative work.
 - [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _25%_
 - [[308-table-of-contents|Table of Contents]] _25%_
 - [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[168-abstract]]
+- [[282-what-industry-will-likely-build]]
+- [[283-what-this-document-doesn-t-solve]]
+- [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
+- [[308-table-of-contents]]
+- [[319-acknowledgments]]
+- 323-appendix-c-sample-[[323-appendix-c-sample-ingit-mcp-server-tool-specificat|ingit-mcp-server-tool-specificat]]
+- _...ещё 1_
+

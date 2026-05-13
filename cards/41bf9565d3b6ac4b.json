@@ -1,0 +1,62 @@
+{
+  "card_id": "sha256:41bf9565d3b6ac4b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/03-technology-combinations/04-sozialrecht-domain.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/GLOSSARY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/MINDMAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/01-agent-routing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:f1168238ddda7b25",
+  "payload": {
+    "title": "Домен: немецкое социальное право",
+    "summary": "Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PDFs (headings, paragraphs, citations) LLM+Pydantic parses legal entities: class Bescheid(BaseModel): aktenzeichen: str; paragraphs: List[SGB_Reference]; deadline: date Svyazi [CardIndex](../01-svyazi/01-executive-summary.",
+    "body": "домен немецкое социальное право sozialrecht corpus auto builder docling extracts structure from sozialgericht pdfs headings paragraphs citations llm pydantic parses legal entities class bescheid basemodel aktenzeichen str проекты svyazi cardindex svyazi executive summary похожие документы readme readme сходство смотрите также glossary glossary mindmap mindmap что всегда делаешь anthropic vacancies что всегда делаешь appendix decision tree for ingit anthropic vacancies with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters кто ссылается этот документ appendix decision tree for ingit adopters anthropic vacancies appendix decision tree for ingit adopters agent routing agent routing readme readme",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 176,
+    "path": "docs/03-technology-combinations/04-sozialrecht-domain.md"
+  }
+}

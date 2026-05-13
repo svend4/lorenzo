@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:c8f006a8b3c1f797",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:788feffd885d0602",
+  "payload": {
+    "title": "12. Versioning Policy",
+    "summary": "Каждый registry MUST объявлять `protocol_version`. Portal",
+    "body": "versioning policy contents versioning policy versioning policy semver semver version registry version registry breaking changes process breaking changes process major breaking changes interfaces или schemas versioning policy semver npp следует semver major breaking changes interfaces или schemas minor новая функциональность backward compatible patch clarifications typo fixes version registry каждый registry must объявлять protocol version portal implementation must поддерживать минимум текущую major version breaking changes process для major version bump требуется rfc issues репо portal обоснованием минимум дней обсуждения migration guide для существующих адаптеров опубликованная compatibility shim portal для переходного периода минимум месяцев похожие документы versioning policy сходство status this document сходство status this document сходство смотрите также versioning policy status this document status this document portal protocol упоминается status this document status this document status this document status this document versioning policy versioning policy реализация проекте nautilus реализация проекте nautilus author contact author contact author contact author contact portal protocol portal protocol readme вакансии anthropic анализ кластерам примеры запросов claude примеры запросов claude упоминается readme вакансии anthropic анализ кластерам связанные документы versioning policy versioning policy author contact author contact author contact author contact status this document status this document status this document status this document reference implementation reference implementation reference implementation reference implementation portal protocol portal protocol связанные документы versioning policy versioning policy status this document status this document author contact author contact author contact author contact status this document status this document portal protocol portal protocol timeline хронологическая лента событий примеры запросов claude примеры запросов claude",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 342,
+    "path": "docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md"
+  }
+}

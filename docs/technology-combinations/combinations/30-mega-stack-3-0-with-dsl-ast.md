@@ -1,11 +1,38 @@
 # Комбинация 30: MEGA-STACK 3.0 with DSL & AST
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Hybrid RAG
 
 ---
 <!-- tags: rag, orchestration, local-first, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -99,11 +126,33 @@ Claude hat geantwortet: Продолжаю углубленный поиск п�
 
 ---
 
-**Смотрите также:**
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 30 MEGA STACK 3 0 with DSL"
+```
+
+## Смотрите также
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [continuation-10-domains](../research-reports/continuation-10-domains.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -111,7 +160,7 @@ Claude hat geantwortet: Продолжаю углубленный поиск п�
 ---
 
 **Похожие документы:**
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.36)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.26)
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.24)
+- [30-mega-stack-3-0-with-dsl-ast](../../obsidian/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md) (сходство 0.98)
+- [25-30-extended](../synthesis-tables/25-30-extended.md) (сходство 0.41)
+- [25-30-extended](../../obsidian/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.40)
 

@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:b1ea6ca7d146c845",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/review-methodology/13-appendix-b-examples.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/15-appendix-c-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/12-appendix-a-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/10-checklist.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:171faee84eba9102",
+  "payload": {
+    "title": "Appendix B: Примеры расхождений и их разрешения",
+    "summary": "$ find . -name \"*.py\" ! -path \"./.git/*\" | xargs wc -l | tail -1",
+    "body": "appendix примеры расхождений разрешения warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также appendix примеры расхождений разрешения anthropic vacancies appendix примеры расхождений разрешения appendix history appendix history appendix header warning appendix header warning checklist checklist",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 281,
+    "path": "docs/nautilus/review-methodology/13-appendix-b-examples.md"
+  }
+}

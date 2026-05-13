@@ -1,6 +1,29 @@
 # History
 
+<!-- toc-auto -->
+## Contents
+
+- [History](#history)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Создан:** [? дата первого коммита]
 
 ---
@@ -15,7 +38,7 @@
 
 **Ключевые этапы:**
 - Формирование Q6-концептуальной базы
-- Embedded-версия Nautilus Portal в подпапке `[nautilus](../docs/05-habr-projects/memory/memnet.md)/` (март 2026)
+- Embedded-версия Nautilus Portal в подпапке `[nautilus](../05-habr-projects/memory/memnet.md)/` (март 2026)
 - Миграция Portal в отдельный репо `github.com/svend4/nautilus` 
   (март 2026)
 - YiJing-Transformer v53–v61 (январь–апрель 2026)
@@ -36,7 +59,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [63-history](63-history.md) (сходство 0.18)
 - [48-content-overview](48-content-overview.md) (сходство 0.18)
 
@@ -45,7 +68,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "History"
+```
+
+## Смотрите также
 - [48-content-overview](48-content-overview.md)
 - [63-history](63-history.md)
 - [62-author-contact](62-author-contact.md)
@@ -84,3 +113,18 @@
 - [0. Status of This Document](75-0-status-of-this-document.md) _29%_
 - [18. Reference Implementation](93-18-reference-implementation.md) _29%_
 - [Author & Contact](62-author-contact.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
+- [63-history](63-history.md)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
+- [README](README.md)
+

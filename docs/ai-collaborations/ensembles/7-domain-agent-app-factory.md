@@ -1,10 +1,26 @@
 # Ансамбль 7 — Domain Agent App Factory
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 
 ---
 <!-- tags: rag, local-first, architecture, anthropic, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -45,11 +61,33 @@ BIM/Engineering Coach — тот же паттерн для инженерных
 
 ---
 
-**Смотрите также:**
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
-- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md)
-- [3-forensic-rag](docs/ai-collaborations/ensembles/3-forensic-rag.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 7 Domain Agent App Factory"
+```
+
+## Смотрите также
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [6-continuous-eval-loop](6-continuous-eval-loop.md)
+- [3-forensic-rag](3-forensic-rag.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+- [3-forensic-rag](3-forensic-rag.md)
+- _...ещё 6_
 
 
 <!-- similar-docs -->
@@ -57,7 +95,7 @@ BIM/Engineering Coach — тот же паттерн для инженерных
 ---
 
 **Похожие документы:**
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.18)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.17)
-- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md) (сходство 0.16)
+- [7-domain-agent-app-factory](../../obsidian/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.99)
+- [9-ambient-team-agent](9-ambient-team-agent.md) (сходство 0.24)
+- [9-ambient-team-agent](../../obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.24)
 

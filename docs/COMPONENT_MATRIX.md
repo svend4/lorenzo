@@ -1,40 +1,29 @@
 # Матрица компонентов Svyazi 2.0
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> - [Матрица возможностей](#матрица-возможностей)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, AI Factory, Rufler, LiteParse, Yodoca
-
----
-
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [Матрица возможностей](#матрица-возможностей)
 - [Покрытие возможностей](#покрытие-возможностей)
 - [Каталог компонентов](#каталог-компонентов)
 - [Рекомендуемые ансамбли](#рекомендуемые-ансамбли)
-- [Связанные документы](#связанные-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
 
 ---
 
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, collaboration -->
-
-
-
 
 <!-- toc-auto -->
-## Contents
 
-- [Матрица возможностей](#матрица-возможностей)
-- [Покрытие возможностей](#покрытие-возможностей)
-- [Каталог компонентов](#каталог-компонентов)
-- [Рекомендуемые ансамбли](#рекомендуемые-ансамбли)
+> [!NOTE]
+> Раздел `COMPONENT_MATRIX` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: component-matrix, docs -->
+
+
+<!-- summary -->
+> `COMPONENT_MATRIX` — раздел документации проекта Lorenzo.
 
 
 _Совместимость и возможности 14 компонентов экосистемы._
@@ -104,50 +93,44 @@ _Совместимость и возможности 14 компонентов 
 | Web Intelligence | Firecrawl + CardIndex + Yodoca | Краулинг → память |
 | Agent Orchestra | Rufler + agent-pool + AI Factory | Оркестрация агентов |
 
-<!-- related-auto -->
-## Связанные документы
 
-- [Нарратив проекта Lorenzo](NARRATIVE.md) _25%_
-- [Приоритеты файлов](PRIORITIES.md) _25%_
-- [План прототипа и возможные контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _21%_
-- [Карта плотности тем](DENSITY.md) _21%_
-- [Граф связей проектов](GRAPH.md) _21%_
-- [07 Mvp Planning](01-svyazi/07-mvp-planning.md) _17%_
-- [Приоритетные ансамбли](04-ai-collaborations/04-приоритетные-ансамбли.md) _17%_
-- [Контактная стратегия и узкие вопросы для авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) _17%_
-## Связанные документы
 
-- [07 Mvp Planning](01-svyazi/07-mvp-planning.md) _17%_
-- [10 Second Order Ensembles](01-svyazi/10-second-order-ensembles.md) _17%_
-- [План прототипа и возможные контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) _17%_
-- [Новые ансамбли следующего шага](04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) _17%_
-- [Сеть проектов и авторов](NETWORK.md) _17%_
+## Использование
+```bash
+# Запуск
+python scripts/improve_component_matrix.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [ONBOARDING](ONBOARDING.md)
-- [07-выводы](04-ai-collaborations/07-выводы.md)
-- [PRIORITIES](PRIORITIES.md)
-- [CONTACTS](CONTACTS.md)
+- [DENSITY](DENSITY.md)
+- [GLOSSARY](GLOSSARY.md)
+- [NETWORK](NETWORK.md)
+- [TECH_RADAR](TECH_RADAR.md)
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [Tech Radar — Svyazi 2.0](TECH_RADAR.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-- [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)
-
-<!-- similar-docs -->
+<!-- backlinks -->
 
 ---
 
-**Похожие документы:**
-- [COMPONENT_MATRIX](docs/obsidian/COMPONENT_MATRIX.md) (сходство 0.80)
-- [ONBOARDING](docs/obsidian/ONBOARDING.md) (сходство 0.27)
-- [ONBOARDING](docs/ONBOARDING.md) (сходство 0.26)
+**Кто ссылается на этот документ (17):**
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [10-second-order-ensembles](01-svyazi/10-second-order-ensembles.md)
+- [04-приоритетные-ансамбли](04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [10-новые-ансамбли-следующего-шага](04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [DENSITY](DENSITY.md)
+- _...ещё 9_
 

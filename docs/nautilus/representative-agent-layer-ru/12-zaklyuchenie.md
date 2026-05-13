@@ -544,11 +544,41 @@ Roadmap для гильдийных коллег в OKWF
 
 ---
 
-**Смотрите также:**
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-- [CONCEPTS](docs/CONCEPTS.md)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "12 Заключение"
+```
+
+```bash
+# BM25 поиск
+python scripts/improve_semantic_search.py --query "12 Заключение" --mode bm25
+```
+
+```bash
+# Семантический поиск с расширенным результатом
+python scripts/improve_semantic_search.py --query "12 Заключение" --mode semantic --top 10
+```
+
+## Смотрите также
+- [207-приложение-c-образцы-случаев-использования-в-детал](../../02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [CONCEPTS](../../CONCEPTS.md)
+- [ACTION_ITEMS](../../ACTION_ITEMS.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response](../community-discussions/habr-article-2-reaction/01-response.md)
+- [04-desyat-oblastey](04-desyat-oblastey.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -556,7 +586,7 @@ Roadmap для гильдийных коллег в OKWF
 ---
 
 **Похожие документы:**
-- [01-response](docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md) (сходство 0.62)
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/obsidian/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) (сходство 0.58)
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) (сходство 0.58)
+- [12-zaklyuchenie](../../obsidian/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 1.00)
+- [01-response](../community-discussions/habr-article-2-reaction/01-response.md) (сходство 0.62)
+- [01-response](../../obsidian/nautilus/community-discussions/habr-article-2-reaction/01-response.md) (сходство 0.62)
 

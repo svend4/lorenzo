@@ -1,11 +1,28 @@
 # Ансамбль H — Research‑to‑Product Flywheel
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Новое свойство](#новое-свойство)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`.
 **Проекты:** Svyazi, knowledge-space, mclaude, AI Factory, Rufler, AutoResearch
 
 ---
 <!-- tags: rag, orchestration, knowledge, ingestion, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -35,11 +52,27 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [C-multi-agent-factory](docs/svyazi-2-0/ensembles/C-multi-agent-factory.md)
-- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
+## Смотрите также
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md)
+- [10-новые-ансамбли-следующего-шага](../../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [C-multi-agent-factory](C-multi-agent-factory.md)
+- [conclusions](../limitations/conclusions.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [C-multi-agent-factory](C-multi-agent-factory.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -47,7 +80,7 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md) (сходство 0.28)
-- [10-second-order-ensembles](docs/obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.27)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md) (сходство 0.25)
+- [H-research-to-product-flywheel](../../obsidian/svyazi-2-0/ensembles/H-research-to-product-flywheel.md) (сходство 0.97)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md) (сходство 0.29)
+- [10-second-order-ensembles](../../obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.28)
 

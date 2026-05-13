@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:2cd2bb2b4c73a611",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/11-relevance-ranking.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:869c85d554bcae30",
+  "payload": {
+    "title": "21. ADR-003: Five Onboarding Paths as Equal-Rank",
+    "summary": "(manual adapter). В процессе развития reference implementation",
+    "body": "adr five onboarding paths equal rank источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также adr five onboarding paths equal rank anthropic vacancies adr five onboarding paths equal rank adr federation over merging adr federation over merging adr first class adr first class relevance ranking relevance ranking",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 174,
+    "path": "docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md"
+  }
+}

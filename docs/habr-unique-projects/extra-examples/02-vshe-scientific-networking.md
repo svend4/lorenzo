@@ -1,10 +1,26 @@
 # ВШЭ научный нетворкинг — micro-collaborations
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 ---
 <!-- tags: knowledge, local-first, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -31,11 +47,34 @@ Distinguishes между разными формами научного сотр
 
 ---
 
-**Смотрите также:**
-- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
-- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
-- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "ВШЭ научный нетворкинг micro"
+```
+
+## Смотрите также
+- 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
+- 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -43,7 +82,7 @@ Distinguishes между разными формами научного сотр
 ---
 
 **Похожие документы:**
-- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.27)
-- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) (сходство 0.25)
-- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md) (сходство 0.23)
+- [02-vshe-scientific-networking](../../obsidian/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md) (сходство 0.97)
+- [04-claude-subagents-patterns](../../obsidian/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.50)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md) (сходство 0.50)
 

@@ -128,11 +128,29 @@ works regardless of any of them.
 
 ---
 
-**Смотрите также:**
-- [317-9-risks-and-open-questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
-- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
-- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Risks and Open Questions"
+```
+
+## Смотрите также
+- [317-9-risks-and-open-questions](../../02-anthropic-vacancies/317-9-risks-and-open-questions.md)
+- 08-implications-[nautilus-okwf](08-implications-nautilus-okwf.md)
+- [10-strategic-positioning](10-strategic-positioning.md)
+- 03-[ingit-provides](03-ingit-provides.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -140,7 +158,7 @@ works regardless of any of them.
 ---
 
 **Похожие документы:**
-- [317-9-risks-and-open-questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md) (сходство 0.87)
-- [317-9-risks-and-open-questions](docs/obsidian/02-anthropic-vacancies/317-9-risks-and-open-questions.md) (сходство 0.86)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.19)
+- [09-risks-open-questions](../../obsidian/nautilus/ingit-cowork-en/09-risks-open-questions.md) (сходство 0.99)
+- [317-9-risks-and-open-questions](../../obsidian/02-anthropic-vacancies/317-9-risks-and-open-questions.md) (сходство 0.85)
+- [317-9-risks-and-open-questions](../../02-anthropic-vacancies/317-9-risks-and-open-questions.md) (сходство 0.85)
 

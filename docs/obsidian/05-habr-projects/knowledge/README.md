@@ -2,23 +2,68 @@
 title: "Системы знаний"
 tags:
   - habr-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Системы знаний
 
-**Файлов:** 1
+<!-- toc-auto -->
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+<!-- summary: Проекты слоя knowledge: AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, Rufler[^rufler], Wikontic, LiteParse -->
+<!-- tags: knowledge, agentfs, knowledge-space, mclaude, rufler, wikontic -->
+
+**Файлов:** 6
 
 ## Содержание
 
+- [[agentfs|agentfs.md]] — AgentFS — kksudo — Obsidian-vault как операционная система для AI-агентов (.agentos/ ядро, MIT, v0.1.5)
+- [[knowledge-space|knowledge-space.md]] — knowledge-space — AnastasiyaW / Sonia_Black — 785+ agent-first карточек по 26 доменам (MIT)
+- [[mclaude|mclaude.md]] — mclaude — AnastasiyaW — координация параллельных сессий Claude Code (locks, handoffs, mailbox, MIT)
+- [[research-docs-liteparse|research-docs-liteparse.md]] — research-docs + LiteParse — nlaik — Forensic PDF QA с bounding boxes и visual citations (Apache 2.0)
+- [[rufler|rufler.md]] — Rufler — zodigancode/lib4u — декларативный YAML-слой для роя Claude Code агентов (depends_on, token accounting, MIT)
 - [[wikontic|wikontic.md]] — Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И…
 
 <!-- similar-docs -->
 
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
+
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[wikontic]] (сходство 0.19)
 - [[README]] (сходство 0.17)
 - [[README]] (сходство 0.10)
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[README]]
+- [[wikontic]]
+- [[README]]
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Системы знаний" --section knowledge
+```
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу.
+
+
+<!-- footnotes-added -->
+
+---
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^rufler]: OSS-проект: оркестратор AI-агентов
+
+[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)

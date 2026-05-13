@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:11513150011672ab",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/03-technology-combinations/01-agent-routing.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:0450bcbe581d0776",
+  "payload": {
+    "title": "Агентные системы и роутинг",
+    "summary": "самоулучшения промпта\". Добавляем durable state из агентской архитектуры:",
+    "body": "агентные системы роутинг абстракт авто проблема агентные системы роутинг самоулучшения промпта подход добавляем durable state агентской архитектуры проекты cardindex auto router самоулучшения промпта результат durable state позволяет разделить граф домены legal tech business каждый домен отдельный агентский поток собственным состоянием cross domain запросы через event ключевые слова state domain local first technology combinations durable router самоулучшения промпта добавляем durable state агентской архитектуры проекты executive summary cardindex auto router самоулучшения промпта добавляем durable state агентской архитектуры каждый извлечённый профиль событие event состояние накопленный корпус метрики качества агент периодически запускает тестирование промптов лучший промпт сохраняется как новое состояние результат система сама улучшает свои промпты через накопленные данные без ручного вмешательства multi domain профилирование раздельным state свyazi один executive summary cardindex для всех участников при масштабе человек это становится узким местом durable state позволяет разделить граф домены legal tech business каждый домен отдельный агентский поток собственным состоянием cross domain запросы через event bus для max один домен юридические дела второй research третий nautilus коллаборации всё одной системе изолированно комбинация мультиагентный хаос решение auto router родители мультиагентный хаос habr com articles статья дней назад как построили систему которая действительно работает planner executor паттерн auto router habr com articles лёгкий прокси openai формат мегабайты ram старт дети иерархический похожие документы local first сходство смотрите также local first knowledge graphs word freq sozialrecht domain упоминается local first local first стек benchmarks бенчмарки производительность knowledge graphs графы знаний legal readme комбинирование технологий для новых свойств упоминается readme комбинирование технологий для новых свойств связанные документы readme комбинирование технологий для новых свойств local first local first стек benchmarks бенчмарки производительность",
+    "tags": [
+      "knowledge",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex",
+      "Auto AI Router"
+    ],
+    "wc": 370,
+    "path": "docs/obsidian/03-technology-combinations/01-agent-routing.md"
+  }
+}

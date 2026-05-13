@@ -1,6 +1,30 @@
 # 18. Reference Implementation
 
+<!-- toc-auto -->
+## Contents
+
+- [18. Reference Implementation](#18-reference-implementation)
+  - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (19)](#кто-ссылается-на-этот-документ-19)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > [`github.com/svend4/nautilus`](https://github.com/svend4/nautilus).
 
 ---
@@ -17,9 +41,9 @@ Reference implementation:
 Reference НЕ является нормативной. Альтернативные implementations 
 NPP-compatible, если они:
 
-- Корректно парсят `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` per раздел 3
-- Реализуют [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
-- Производят [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) структуры per раздел 7
+- Корректно парсят `[nautilus](../05-habr-projects/memory/memnet.md).json` per раздел 3
+- Реализуют [BaseAdapter](01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
+- Производят [PortalEntry](01-интегральный-анализ-профиля-svend4.md) структуры per раздел 7
 - Обеспечивают Q6 для Level 2+ per раздел 8
 - Вычисляют consensus per раздел 9
 - Предоставляют required REST endpoints per раздел 13
@@ -44,7 +68,7 @@ NPP-compatible, если они:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [25-13-reference-implementation](25-13-reference-implementation.md) (сходство 0.36)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.13)
 - [89-14-sdk-contract-informative](89-14-sdk-contract-informative.md) (сходство 0.12)
@@ -54,7 +78,13 @@ NPP-compatible, если они:
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "18 Reference Implementation"
+```
+
+## Смотрите также
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [42-author-contact](42-author-contact.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
@@ -104,3 +134,19 @@ NPP-compatible, если они:
 - [Appendix C: References](104-appendix-c-references.md) _33%_
 - [passports/info1.md](35-passports-info1-md.md) _33%_
 - [Author & Contact](52-author-contact.md) _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (19)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [164-10-appendices](164-10-appendices.md)
+- [24-12-versioning-policy](24-12-versioning-policy.md)
+- _...ещё 11_
+

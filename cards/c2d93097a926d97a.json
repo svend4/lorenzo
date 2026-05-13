@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:c2d93097a926d97a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/16-mcp-extension.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/11-relevance-ranking.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:cbe21511866c51ab",
+  "payload": {
+    "title": "16. MCP Extension (Informative)",
+    "summary": "NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED",
+    "body": "mcp extension informative источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также mcp extension informative anthropic vacancies mcp extension informative appendix change log npp appendix change log reference implementation npp reference implementation relevance ranking relevance ranking",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 154,
+    "path": "docs/nautilus/npp-v1-1/16-mcp-extension.md"
+  }
+}

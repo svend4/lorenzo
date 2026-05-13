@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:8e3407572a1b6101",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:d967515ace433166",
+  "payload": {
+    "title": "4. Passport (`passport.md`)",
+    "summary": "Passport — human-readable описание Repo, расположенное в",
+    "body": "passport passport абстракт авто проблема passport passport passport passportmd результат recommended sections passport should содержать разделы описание предложения содержании repo объём количество единиц связей отображение правило проекции ключевые слова passport registry nautilus anthropic vacancies structure schema passports contents passport passport passport passportmd purpose purpose required structure required structure recommended sections recommended sections schema validation schema validation naming convention naming convention passport human readable описание repo расположенное passport passport purpose passport human readable описание repo расположенное passports format portal репо отличие где passport жил самом repo passport предназначен для людей читающих repo впервые для адаптеров которые могут его парсить для discovery для автоматических систем валидации через json schema required structure passport must содержать начале metadata таблицу обязательными полями паспорт поле значение репозиторий формат краткое описание единица что является одной записью адаптер adapters уровень совместимости recommended sections passport should содержать разделы описание предложения содержании repo объём количество единиц связей отображение правило проекции битный гиперкуб мосты таблица bridges другим repos примеры запросов query string дающих хорошие результаты доступ данным static github api http api local files требования токенам schema validation passports must проходить валидацию passport schema json portal should предоставлять команду валидации python generate passport validate passports format naming convention passport файлы именуются passports format passports repo name причина один format может обслуживаться несколькими репо например domain sub adapters рамках интегральный анализ профиля svend pro passport один format похожие документы passport passport сходство memnet registry nautilus json docs anthropic vacancies registry nautilus json сходство memnet registry nautilus json docs anthropic vacancies registry nautilus json сходство смотрите также passport passport memnet registry nautilus json docs anthropic vacancies registry nautilus json memnet registry nautilus json docs anthropic vacancies registry nautilus json portalentry structure",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 368,
+    "path": "docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md"
+  }
+}

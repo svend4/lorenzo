@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:d9445878034f9356",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/08-bez-max-approval.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/05-q5-authority-limits.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/09-voobshche-nelzya.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:dc8789daed2805f7",
+  "payload": {
+    "title": "Что ты НЕ МОЖЕШЬ делать без Max approval",
+    "summary": "",
+    "body": "что можешь делать без max approval источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также что можешь делать без max approval anthropic vacancies что можешь делать без max approval authority limits specification authority limits voobshche nelzya voobshche nelzya vsegda delaesh vsegda delaesh",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 156,
+    "path": "docs/lorenzo-agent/08-bez-max-approval.md"
+  }
+}

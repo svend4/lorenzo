@@ -1,0 +1,58 @@
+{
+  "card_id": "sha256:f4663ed65dfb2b42",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/LINKS.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/12-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/31-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BROKEN_LINKS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CITATION_INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/anastasiyaw.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:3f42324e643b3e6d",
+  "payload": {
+    "title": "Индекс ссылок",
+    "summary": "",
+    "body": "индекс ссылок tip документ содержит практические рекомендации лучшие практики всего уникальных url url найден файлах http localhost http localhost https install https dnews glava anthropic predryok ischeznovenie inzhenernykh professiy otkryl vakansiy zarplatoy https dnews glava anthropic predryok ischeznovenie inzhenernykh professiy otkryl vakans https activitypub rocks https api github com users svend repos per page sort updated https api github com users svend repos per page sort updated type owner https claude code session jszdgmkgh elh hrluv https claude code session rhqwcqu afrsj lqhpz https claude code session bfhh pxjw rvvliw https claude com product cowork https creativecommons org licenses https datatracker https datatracker ietf org doc html rfc https forum component catalog obsidian https forum broken links obsidian https forum obsidian https forum obsidian new plugin llm wiki turn your vault into queryable knowledge base privately https github https github https github com anastasiyaw https github com anastasiyaw knowledge space https github com anastasiyaw knowledge space https github com anastasiyaw knowledge space https github com anastasiyaw https github com antipozitive https github com antipozitive https github com cutcode https github com cutcode https github com dmitriila https github com dmitriila https github com mixaill https github com mixaill https github com sonia black https github com sonia black https github com vitalyoborin https github com vitalyoborin yodoca https github com vitalyoborin yodoca https github com vitalyoborin https github com vladspace https github com vladspace https github com andrey chuyan https github com andrey chuyan https github com anthropics mcp https github com anthropics mcp https github com camel camel https github com camel camel https github com kksudo https github com kksudo agentfs https github com kksudo agentfs https github com kksudo https github com mcp https github com mcp https github com mcp https github com nlaik https github com nlaik https github com settings tokens https github com settings tokens https github com spbmolot https github com spbmolot ngt memory https github com spbmolot ngt memory https github com spbmolot https github com spbmolot https github com svend https github com svend https github com svend data https github com svend data https github com svend info https github com svend info https github com svend info https github com svend info https github com svend info https github com svend info https github com svend info https github com svend ingit https github com svend ingit issues https github com svend ingit issues https github com svend ingit https github com svend meta https github com svend meta https github com svend nautilus https github com svend nautilus git https github com svend nautilus git https github com svend nautilus blob claude review nautilus changes tdywx readme https github com svend nautilus blob main integration https github com svend nautilus blob main portal protocol https github com svend nautilus blob main portal protocol https github com svend nautilus blob main portal protocol https github com svend nautilus blob main portal protocol https github com svend nautilus blob main readme https github com svend nautilus blob main review methodology https github com svend nautilus blob main review methodology https github com svend nautilus blob main status https github com svend nautilus blob main docs implementation stage part https github com svend nautilus blob main docs implementation stage part https github com svend nautilus blob main docs implementation stage part https github com svend nautilus blob main docs implementation stage part https github com svend nautilus blob main docs portal protocol https github com svend nautilus blob main docs portal protocol https github com svend nautilus branches https github com svend nautilus branches https github com svend nautilus commits main https github com svend nautilus commits main https github com svend nautilus issues https github com svend nautilus issues https github com svend nautilus tree abfa bae docs https github com svend nautilus tree main adapters https github com svend nautilus tree main passports https github com svend nautilus https github com svend pro https github com svend pro blob main nautilus readme https github com svend pro blob main nautilus readme https github com svend pro tree https github com svend pro tree badc nautilus https github com svend pro tree main nautilus https github com svend pro tree main nautilus https github com svend pro https github com svend tab repositories https github com svend tab repositories https github com tagir analyzes https github com tagir analyzes https github com zodigancode https github com zodigancode https habr https habr com articles https habr com articles https habr com articles https habr com articles https habr com articles https habr com articles https habr com articles https habr com articles https habr com articles https habr com articles https habr com articles https habr com articles https habr",
+    "tags": [],
+    "projects": [
+      "AgentFS",
+      "knowledge-space",
+      "Yodoca"
+    ],
+    "wc": 1060,
+    "path": "docs/LINKS.md"
+  }
+}

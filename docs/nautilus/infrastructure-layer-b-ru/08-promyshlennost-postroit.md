@@ -1,5 +1,13 @@
 # Что промышленность вероятно построит
 
+<!-- toc-auto -->
+## Contents
+
+- [Что промышленность вероятно построит](#что-промышленность-вероятно-построит)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -72,11 +80,33 @@ Hypothes.is для аннотаций существует; мог бы
 
 ---
 
-**Смотрите также:**
-- [297-что-промышленность-вероятно-построит](docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)
-- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что промышленность вероятно построит"
+```
+
+## Смотрите также
+- [297-что-промышленность-вероятно-построит](../../02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
+- [README](README.md)
+- [09-riski-voprosy](../ingit-cowork-ru/09-riski-voprosy.md)
 
 
 <!-- similar-docs -->
@@ -84,7 +114,7 @@ Hypothes.is для аннотаций существует; мог бы
 ---
 
 **Похожие документы:**
-- [297-что-промышленность-вероятно-построит](docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) (сходство 0.76)
-- [297-что-промышленность-вероятно-построит](docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) (сходство 0.76)
-- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md) (сходство 0.21)
+- [08-promyshlennost-postroit](../../obsidian/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md) (сходство 0.97)
+- [297-что-промышленность-вероятно-построит](../../obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) (сходство 0.70)
+- [297-что-промышленность-вероятно-построит](../../02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) (сходство 0.69)
 

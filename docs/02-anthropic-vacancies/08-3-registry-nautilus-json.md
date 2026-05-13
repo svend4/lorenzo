@@ -3,25 +3,40 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
-- [3. Registry (`nautilus.json`)](#3-registry-nautilusjson)
+- 3. Registry (`[nautilus.json`)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
   - [3.4. Optional Fields](#34-optional-fields)
   - [3.5. Validation Rules](#35-validation-rules)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 
 
-<!-- toc-auto -->
-## Contents
-
-- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
@@ -39,8 +54,6 @@
 
 ---
 <!-- tags: architecture -->
-
-
 
 
 ## 3. Registry (`nautilus.json`)
@@ -121,19 +134,31 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 
 ---
 
-**Похожие документы:**
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.52)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.16)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.15)
+## Похожие документы
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.52)
+- [07-2-terminology](07-2-terminology.md) (сходство 0.16)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.15)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+## Смотрите также
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
+- [07-2-terminology](07-2-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [74-abstract](74-abstract.md)
+- [README](README.md)
 

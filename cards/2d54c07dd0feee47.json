@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:2d54c07dd0feee47",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-en/09-phased-rollout.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/okwf-concept/07-phased-rollout.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:139dd58cbb398e11",
+  "payload": {
+    "title": "9. Phased Rollout Strategy",
+    "summary": "A responsible deployment of Representative Agent technology",
+    "body": "phased rollout strategy источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer смотрите также phased rollout strategy anthropic vacancies phased rollout strategy phased rollout okwf concept phased rollout call for collaboration call for collaboration pilot sgb advocate professional colleague agents pilot sgb advocate",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 469,
+    "path": "docs/nautilus/representative-agent-layer-en/09-phased-rollout.md"
+  }
+}

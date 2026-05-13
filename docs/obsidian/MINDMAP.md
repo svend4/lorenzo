@@ -1,11 +1,24 @@
 ---
 title: "Майндмап репозитория Lorenzo"
 tags:
+  - mindmap
+  - docs
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Майндмап репозитория Lorenzo
+
+> [!NOTE]
+> Раздел `MINDMAP` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: mindmap, docs -->
+
+
+<!-- summary -->
+> `MINDMAP` — раздел документации проекта Lorenzo.
+
 
 ## Структура разделов
 
@@ -58,7 +71,7 @@ flowchart LR
   end
   subgraph KNOWLEDGE
     AgentFS[AgentFS]
-    knowledge_space[knowledge space]
+    knowledge-space[knowledge-space]
   end
   subgraph MEMORY
     Yodoca[Yodoca]
@@ -82,14 +95,14 @@ flowchart LR
   end
   Svyazi -->|ingest→index| CardIndex
   CardIndex -->|storage| AgentFS
-  AgentFS -->|reference| knowledge_space
+  AgentFS -->|reference| knowledge-space
   Yodoca -->|consolidation| NGT_Memory
   NGT_Memory -->|recall→discovery| Svyazi
   LiteParse -->|evidence| Legal_RAG
   Legal_RAG -->|proof→card| CardIndex
   mclaude -->|coordination| AI_Factory
   AI_Factory -->|orchestration| Rufler
-  Rufler -->|self-improve| AutoResearch
+  Rufler -->|self-improvement| AutoResearch
   LiteLLM -->|gateway→guard| SENTINEL
   Tool_Search -->|lazy-load| LiteLLM
 ```
@@ -105,3 +118,30 @@ flowchart LR
 | Orchestration | mclaude, AI Factory, Rufler, AutoResearch |
 | Security | LiteLLM, SENTINEL, Tool Search, Auto AI Router |
 | Sync | Yjs, Automerge |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[GLOSSARY]]
+- [[NETWORK]]
+- [[GRAPH]]
+- [[CONTACT_PRIORITY]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [[04-sozialrecht-domain]]
+- [[GLOSSARY]]
+- [[GRAPH]]
+- [[NETWORK]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 2_
+

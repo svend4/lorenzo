@@ -1,9 +1,24 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/07-2-terminology.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 2. Terminology
+
+
+h2. Contents
+
+* [2. Terminology|#2-terminology]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (6)|#кто-ссылается-на-этот-документ-6]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -14,6 +29,10 @@ h1. 2. Terminology
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Ecosystem_ — набор репозиториев, участвующих в одной федерации.{quote}
 
@@ -29,7 +48,7 @@ _Ecosystem_ — набор репозиториев, участвующих в �
 Имеет уникальное имя (например, {{svend4}}).
 
 _Repository-participant_ (далее — _Repo_) — Git-репозиторий, 
-содержащий минимум {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} и {{passport.md}} в корне.
+содержащий минимум {{[nautilus|../05-habr-projects/memory/memnet.md].json}} и {{passport.md}} в корне.
 
 _Native format_ — исходный формат данных в Repo, определяемый автором. 
 Может быть любым: Markdown, JSON, YAML, plain text, бинарный формат, 
@@ -39,22 +58,22 @@ _Portal_ — implementation NPP, которая загружает registry, и�
 адаптеры и выполняет query-операции. Reference implementation: 
 {{github.com/svend4/nautilus}}, но возможны альтернативные.
 
-_Registry_ — файл {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} в корне Portal-репо, перечисляющий 
+_Registry_ — файл {{[nautilus|../05-habr-projects/memory/memnet.md].json}} в корне Portal-репо, перечисляющий 
 все Repos экосистемы с их метаданными.
 
 _Adapter_ — Python-модуль (или эквивалент на другом языке), 
-реализующий {{[BaseAdapter|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} interface и переводящий native format Repo 
-в унифицированный {{[PortalEntry|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}}.
+реализующий {{[BaseAdapter|01-интегральный-анализ-профиля-svend4.md]}} interface и переводящий native format Repo 
+в унифицированный {{[PortalEntry|01-интегральный-анализ-профиля-svend4.md]}}.
 
 _Passport_ — {{passport.md}} файл в корне каждого Repo, 
 human-readable описание: что хранит, какая философия, кто автор, 
 как работать.
 
-_[PortalEntry|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_ — унифицированная структура данных, в которую 
+_[PortalEntry|01-интегральный-анализ-профиля-svend4.md]_ — унифицированная структура данных, в которую 
 адаптеры конвертируют native-записи при fetch.
 
 _Bridge_ — декларативное описание моста между концепциями 
-разных Repos. Описан в {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} в поле {{bridges}}.
+разных Repos. Описан в {{[nautilus|../05-habr-projects/memory/memnet.md].json}} в поле {{bridges}}.
 
 _Consensus_ — результат сопоставления найденных концептов между 
 несколькими Repos. Может быть full (во всех Repos), partial (в 
@@ -64,7 +83,7 @@ _Compatibility Level_ — целое число от 0 до 3, характер�
 степень интеграции Repo с экосистемой. Определение в разделе 5.
 
 _Protocol Version_ — semver-версия NPP, объявляемая в 
-{{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} поле {{protocol_version}}.
+{{[nautilus|../05-habr-projects/memory/memnet.md].json}} поле {{protocol_version}}.
 
 ----
 
@@ -72,19 +91,38 @@ _Protocol Version_ — semver-версия NPP, объявляемая в
 
 ----
 
-_Похожие документы:_
-* [77-2-terminology|docs/02-anthropic-vacancies/77-2-terminology.md] (сходство 0.63)
-* [08-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.16)
-* [67-о-проекте|docs/02-anthropic-vacancies/67-о-проекте.md] (сходство 0.16)
+h2. Похожие документы
+* [77-2-terminology|77-2-terminology.md] (сходство 0.63)
+* [08-3-registry-[nautilus|../05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.16)
+* [67-о-проекте|67-о-проекте.md] (сходство 0.16)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [77-2-terminology|docs/02-anthropic-vacancies/77-2-terminology.md]
-* [08-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-* [67-о-проекте|docs/02-anthropic-vacancies/67-о-проекте.md]
-* [78-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+{code}
+
+h2. Смотрите также
+* [77-2-terminology|77-2-terminology.md]
+* [08-3-registry-[nautilus|../05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+* [67-о-проекте|67-о-проекте.md]
+* [78-3-registry-[nautilus|../05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (6)
+* [51-compatibility-level|51-compatibility-level.md]
+* [61-compatibility-level|61-compatibility-level.md]
+* [67-о-проекте|67-о-проекте.md]
+* [74-abstract|74-abstract.md]
+* 91-16-[mcp-extension-informative|91-16-mcp-extension-informative.md]
+* [README|README.md]
 

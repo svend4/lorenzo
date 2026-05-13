@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/249-composite-skills-agent-md.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,15 +9,30 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. COMPOSITE SKILLS AGENT.md
 
 
+h2. Contents
+
+* [COMPOSITE SKILLS AGENT.md|#composite-skills-agentmd]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}- [[166-representative-agent-layer-md]] (сходство 0.25){quote}
 
 ----
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -32,7 +47,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[166-representative-agent-layer-md]] (сходство 0.25)
 - [[344-системный-промпт-для-lorenzo-project]] (сходство 0.20)
 - [[208-professional-colleague-agents-md]] (сходство 0.14)
@@ -86,9 +101,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+{code}
+h1. Поиск по теме документа
+python scripts/improve_semantic_search.py --query "COMPOSITE SKILLS AGENT md"
+{code}
+
+## Смотрите также
 - [[304-ingit-as-cowork-native-workspace-substrate-md]]
 - [[208-professional-colleague-agents-md]]
 - [[151-open-knowledge-work-foundation-md]]
 - [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (21)
+- [[12-content-overview]]
+- [[134-the-double-triangle-architecture-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[166-representative-agent-layer-md]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[187-слой-представительских-агентов-md]]
+- [[208-professional-colleague-agents-md]]
+- [[210-abstract]]
+- _...ещё 13_
 

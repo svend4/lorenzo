@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:9f92a8006b250ea6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/319-acknowledgments.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:6a4469cb5d9d58cb",
+  "payload": {
+    "title": "Существующие документы DHLab (твой context)",
+    "summary": "Ты осведомлён о девяти documents, созданных в DHLab process:",
+    "body": "существующие документы dhlab твой context осведомлён девяти documents созданных dhlab process похожие документы with anthropic cowork platform with anthropic cowork platform сходство the missing middle layer between chat and code the missing middle layer between chat and code сходство support through configurable specialist ensembl support through configurable specialist ensembl сходство смотрите также the missing middle layer between chat and code the missing middle layer between chat and code with anthropic cowork platform with anthropic cowork platform support through configurable specialist ensembl support through configurable specialist ensembl typology agents the principal side and typology agents the principal side and упоминается typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl acknowledgments acknowledgments appendix connection companion papers appendix connection companion papers appendix summary contributions appendix summary contributions references references references references the missing middle layer between chat and code the missing middle layer between chat and code with anthropic cowork platform with anthropic cowork platform вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы appendix connection companion papers appendix connection companion papers with anthropic cowork platform with anthropic cowork platform typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl the missing middle layer between chat and code the missing middle layer between chat and code acknowledgments acknowledgments references references acknowledgments acknowledgments связанные документы appendix connection companion papers appendix connection companion papers with anthropic cowork platform with anthropic cowork platform typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl the missing middle layer between chat and code the missing middle layer between chat and code references references acknowledgments acknowledgments acknowledgments acknowledgments кто ссылается этот документ table contents table contents appendix summary contributions appendix summary contributions mediated representation for underrepresented mediated representation for underrepresented appendix connection companion papers appendix connection companion papers typology agents the principal side and typology agents the principal side and acknowledgments acknowledgments support through configurable specialist ensembl support through configurable specialist ensembl acknowledgments acknowledgments ещё",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 403,
+    "path": "docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md"
+  }
+}

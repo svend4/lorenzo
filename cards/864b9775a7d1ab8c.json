@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:864b9775a7d1ab8c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:c31a36e71a621cdf",
+  "payload": {
+    "title": "AI-Coordinated Infrastructure for Distributed Expert Contribution",
+    "summary": "title: \"AI-Coordinated Infrastructure for Distributed Expert Contribution\"",
+    "body": "coordinated infrastructure for distributed expert contribution editorial collaboration claude intellectual development coordinated infrastructure for distributed expert contribution concept document version draft date author svend editorial collaboration claude intellectual development status working proposal seeking foundational partners license похожие документы formal model for human collaboration distr сходство portal protocol сходство mediated representation for underrepresented сходство смотрите также formal model for human collaboration distr portal protocol mediated representation for underrepresented portal protocol упоминается formal model for human collaboration distr formal model for human collaboration distributed knowledge work mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations author contact author contact portal protocol portal protocol portal protocol portal protocol references references readme вакансии anthropic анализ кластерам упоминается readme вакансии anthropic анализ кластерам связанные документы portal protocol portal protocol portal protocol portal protocol author contact author contact formal model for human collaboration distr formal model for human collaboration distributed knowledge work mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations связанные документы formal model for human collaboration distr formal model for human collaboration distributed knowledge work portal protocol portal protocol portal protocol portal protocol mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations author contact author contact references references typology agents the principal side and typology agents the principal side and the case for profession specific workers reference implementation reference implementation",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 258,
+    "path": "docs/obsidian/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md"
+  }
+}

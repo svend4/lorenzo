@@ -1,0 +1,21 @@
+{
+  "card_id": "sha256:2e7f8cefac6d78ed",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/SKILL_DASHBOARD.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:13ce6a25b2d6fc78",
+  "payload": {
+    "title": "Skill Dashboard",
+    "summary": "_Лог метрик не найден (.claude/skill_metrics.jsonl)._",
+    "body": "skill dashboard обновлено лог метрик найден claude skill metrics jsonl скилов системе чтобы начать сбор метрик используйте evaluate skill mcp инструмент",
+    "tags": [],
+    "projects": [],
+    "wc": 21,
+    "path": "docs/SKILL_DASHBOARD.md"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:4a95deda814fb488",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/287-references.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/302-ссылки.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/320-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:3d9f1882cccf114d",
+  "payload": {
+    "title": "References",
+    "summary": "The references for this document are sparser than for the",
+    "body": "references абстракт авто проблема collaboration infrastructure anthropic projects documentation current microsoft copilot studio different approach similar problem various multi agent frameworks подход zettelkasten method foundational for modern personal knowledge management andy matuschak ongoing ключевые слова anthropic references vacancies annotation knowledge management documents series contents references references threading and annotation threading and annotation knowledge management knowledge management collaboration infrastructure collaboration infrastructure earlier companion documents this series earlier companion documents this series the references for this document are sparser than for the похожие документы ссылки ссылки сходство references references сходство the missing middle layer between chat and code the missing middle layer between chat and code сходство смотрите также ссылки ссылки the missing middle layer between chat and code the missing middle layer between chat and code with anthropic cowork platform with anthropic cowork platform support through configurable specialist ensembl support through configurable specialist ensembl кто ссылается этот документ appendix connection companion papers appendix connection companion papers typology agents the principal side and typology agents the principal side and support through configurable specialist ensembl support through configurable specialist ensembl acknowledgments acknowledgments the missing middle layer between chat and code the missing middle layer between chat and code why this document exists why this document exists what missing layer what missing layer acknowledgments acknowledgments ещё",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 310,
+    "path": "docs/02-anthropic-vacancies/287-references.md"
+  }
+}

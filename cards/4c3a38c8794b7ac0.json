@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:4c3a38c8794b7ac0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/01-ai-research-engineering.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:ea380c1d16eb5922",
+  "payload": {
+    "title": "Что НЕ подходит (честно)",
+    "summary": "Pre-training / Post-training Research Scientist — требует опыта обучения многомиллиардных моделей с реальными production-constraints, которого у вас нет.",
+    "body": "что подходит честно источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также research engineering clusters research engineering question habr link nautilus community discussions habr article reaction question habr link quaternary developer education quaternary developer education unique niche legal infra unique niche legal infra",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 149,
+    "path": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md"
+  }
+}

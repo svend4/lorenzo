@@ -1,0 +1,64 @@
+{
+  "card_id": "sha256:12543ac6244bf8d7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/07-выводы.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/08-conclusions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/MISSING.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:e917181140352188",
+  "payload": {
+    "title": "Выводы",
+    "summary": "По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правиль",
+    "body": "выводы tip этот документ описывает mvp подход начните него для быстрого прототипа абстракт авто проблема выводы статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено итогам поиска видно что svyazi подход выводы статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено итогам поиска видно что svyazi результат первое svyazi agentfs ngt ngt yodoca liteparse это даёт уже полезный mvp ключевые слова svyazi summary executive проект first cardindex agentfs rufler статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено итогам поиска видно что svyazi уже можно собирать существующих software first кирпичей придумывая половину архитектуры заново самый дефицитный слой память rag rag оркестр проекты svyazi svyazi cardindex cardindex agentfs agentfs mclaude factory rufler rufler liteparse svyazi executive summary yodoca yodoca похожие документы conclusions svyazi conclusions сходство executive summary svyazi executive summary сходство executive summary executive summary сходство смотрите также conclusions svyazi conclusions что это продолжение добавляет что это продолжение добавляет executive summary executive summary missing missing rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов кто ссылается этот документ readme readme component matrix component matrix risk register risk register tables tables",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "AutoResearch"
+    ],
+    "wc": 488,
+    "path": "docs/04-ai-collaborations/07-выводы.md"
+  }
+}

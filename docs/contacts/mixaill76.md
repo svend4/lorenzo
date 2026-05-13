@@ -13,6 +13,18 @@ tags: [контакты, команда]
 ---
 # Контакт: MiXaiLL76 / Auto AI Router
 
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -24,15 +36,6 @@ tags: [контакты, команда]
 
 ---
 
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
 
 
 <!-- summary: Шаблон для связи с автором Auto AI Router -->
@@ -81,19 +84,30 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [dmitriila](docs/contacts/dmitriila.md) (сходство 0.90)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.88)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.86)
+## Похожие документы
+- [dmitriila](dmitriila.md) (сходство 0.90)
+- [vladspace](vladspace.md) (сходство 0.88)
+- [zodigancode](zodigancode.md) (сходство 0.86)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [dmitriila](docs/contacts/dmitriila.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
+## Смотрите также
+- [dmitriila](dmitriila.md)
+- [tagir-analyzes](tagir-analyzes.md)
+- [vladspace](vladspace.md)
+- [cutcode](cutcode.md)
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._

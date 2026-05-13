@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:7aace63c29cbff58",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/01-level-0-manual.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:1ddc56d4e80f6f3e",
+  "payload": {
+    "title": "Уровень 1 — Минимальный (Lorenzo Zero)",
+    "summary": "Что это: Базовая персистентность через Claude Projects + ручной workflow. Lorenzo существует как конфигурация Project, но всё ещё через ручные триггеры.",
+    "body": "уровень минимальный lorenzo zero источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network проекты cardindex смотрите также level manual level manual level basic lite level basic lite level medium active level medium active level full network level full network",
+    "tags": [
+      "knowledge",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 241,
+    "path": "docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md"
+  }
+}

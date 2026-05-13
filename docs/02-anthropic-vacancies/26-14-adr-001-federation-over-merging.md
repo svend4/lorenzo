@@ -1,6 +1,29 @@
 # 14. ADR-001: Federation over Merging
 
+<!-- toc-auto -->
+## Contents
+
+- [14. ADR-001: Federation over Merging](#14-adr-001-federation-over-merging)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Context:** При построении системы knowledge management встаёт
 
 ---
@@ -46,7 +69,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md) (сходство 0.89)
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.10)
 
@@ -55,7 +78,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "14 ADR 001 Federation over Merging"
+```
+
+## Смотрите также
 - [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
@@ -88,3 +117,13 @@
 - [1. Introduction](06-1-introduction.md) _21%_
 - [🇬🇧 About](68-about.md) _21%_
 - [8. Q6 Space (Normative)](83-8-q6-space-normative.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](README.md)
+

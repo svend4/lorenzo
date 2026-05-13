@@ -3,10 +3,15 @@ title: "Abstract"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Abstract
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- toc -->
 ## Содержание
@@ -21,6 +26,10 @@ date: 2026-04-29
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Each category exhibits the same structural problem: gap between value created or held and capacity to make that value visible to relevant counterparties.
@@ -80,7 +89,7 @@ service organizations, civil society, and policymakers.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[210-abstract]] (сходство 0.16)
 - [[223-12-closing]] (сходство 0.15)
 - [[252-abstract]] (сходство 0.14)
@@ -90,7 +99,13 @@ service organizations, civil society, and policymakers.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [[210-abstract]]
 - [[223-12-closing]]
 - [[252-abstract]]
@@ -141,3 +156,19 @@ service organizations, civil society, and policymakers.
 - [[187-слой-представительских-агентов-md|СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md]] _25%_
 - [[266-13-closing|13. Closing]] _25%_
 - [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (19)
+- [[134-the-double-triangle-architecture-md]]
+- [[145-8-call-to-action]]
+- [[166-representative-agent-layer-md]]
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[174-5-architectural-specification]]
+- [[181-12-closing]]
+- [[187-слой-представительских-агентов-md]]
+- _...ещё 11_
+

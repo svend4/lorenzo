@@ -10,6 +10,21 @@ tags: [дайджест, отчёт]
 
 # Еженедельный дайджест: [период]
 
+<!-- summary -->
+> `weekly-digest` — раздел документации проекта Lorenzo.
+
+
+<!-- toc-auto -->
+## Содержание
+
+- [Основной раздел](#основной-раздел)
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 
 <!-- summary: Главные события и изменения за неделю в 1-2 предложениях -->
 <!-- tags: дайджест, отчёт -->
@@ -67,7 +82,40 @@ _Сгенерировано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template weekly-digest --output docs/new-doc.md
+```
+
+## Смотрите также
 - [DIGEST_AUTO.md](../DIGEST_AUTO.md) — автоматический дайджест из git
-- [retrospective](docs/templates/retrospective.md)
-- [meeting-notes](docs/templates/meeting-notes.md)
+- [retrospective](retrospective.md)
+- [meeting-notes](meeting-notes.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [retrospective](retrospective.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [weekly-digest](../obsidian/templates/weekly-digest.md) (сходство 0.92)
+- [retrospective](retrospective.md) (сходство 0.52)
+- [retrospective](../obsidian/templates/retrospective.md) (сходство 0.50)
+

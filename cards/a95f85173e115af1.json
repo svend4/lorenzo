@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:a95f85173e115af1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/MISSING.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:c0db843117bb41e9",
+  "payload": {
+    "title": "Карта пробелов знаний",
+    "summary": "Анализ покрытия ключевых тем и проектов в docs/.",
+    "body": "карта пробелов знаний анализ покрытия ключевых тем проектов docs статус тема проект файлов слов минимум примеры файлов svyazi crossrefs readme local first contacts paragraph quality self improvement reading list contacts yodoca crossrefs contacts cardindex crossrefs contacts knowledge space crossrefs contacts agentfs crossrefs contacts ngt memory crossrefs contacts mclaude crossrefs contacts rufler crossrefs contacts liteparse crossrefs contacts factory crossrefs contacts sentinel crossrefs contacts autoresearch crossrefs paragraph quality crdt paragraph quality language stats evidence envelope empty sections sozialrecht paragraph quality llm summaries card envelope tables memory write policy tables sitemap privacy design tables missing review record tables бюджетный роутинг tables skill policy tables лицензия bsl tables missing voice ingestion tables missing итог хорошо раскрыто слабо раскрыто отсутствует рекомендации темы статусом или нужно дополнить отдельными документами смотрите также consistency graph glossary mindmap",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "SENTINEL",
+      "AutoResearch"
+    ],
+    "wc": 457,
+    "path": "docs/obsidian/MISSING.md"
+  }
+}

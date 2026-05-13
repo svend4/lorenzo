@@ -1,10 +1,26 @@
 # Три наложенные идентичности
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -25,11 +41,30 @@
 
 ---
 
-**Смотрите также:**
-- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
-- [02-final-ranking](docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три наложенные идентичности"
+```
+
+## Смотрите также
+- [15-public-benefit](../../clusters/15-public-benefit.md)
+- [02-final-ranking](../03-integral-final/02-final-ranking.md)
+- [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [README](README.md)
+- [02-final-ranking](../03-integral-final/02-final-ranking.md)
 
 
 <!-- similar-docs -->
@@ -37,7 +72,7 @@
 ---
 
 **Похожие документы:**
-- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md) (сходство 0.18)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.16)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.16)
+- [02-three-overlapping-identities](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) (сходство 0.97)
+- [15-public-benefit](../../clusters/15-public-benefit.md) (сходство 0.21)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md) (сходство 0.21)
 

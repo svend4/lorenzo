@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:8af231e0ee85f8d2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/04-ai-collaborations/01-executive-summary.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:dfa4b6b6feb8c4fc",
+  "payload": {
+    "title": "Executive summary",
+    "summary": "Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: ingestion и нормализация профилей из свободного текста, agent‑first knowledge base, файлосистемная память для агентов, ассоциативн",
+    "body": "executive summary абстракт авто проблема executive summary статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено important главный документ результат cite turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn ключевые слова svyazi проект summary cardindex agentfs executive rufler memory статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено important главный документ проекта начните чтение отсюда если смотреть отдельные статьи как можно состыковать хабре первые месяцы года уже сложился почти полный конструктор для svyazi ingestion нормализация профи проекты svyazi svyazi cardindex cardindex agentfs agentfs mclaude factory rufler rufler executive summary liteparse legal rag rag executive summary если смотреть отдельные статьи как можно состыковать хабре первые месяцы года уже сложился почти полный конструктор для svyazi ingestion нормализация профилей свободного текста agent first knowledge base файлосистемная память для агентов ассоциативная консолидируемая долговременная память визуально проверяемый rag многоагентная оркестрация безопасный mcp mcp слой локальный voice vault вход бюджетно осознанный роутинг моделей самостоятельно каждый блок выглядит либо как аккуратный pet project либо как узкая инженерная находка вместе они уже дают ещё один ассистент операционную систему для обнаружения коллабораций накопления доказуемого знания полуавтономной работы агентов локальном контуре cite turn search turn view turn view turn view turn view turn view turn view turn view самая сильная линия синергии выглядит так основа svyazi подобный гибридный пайплайн llm llm извлекает смысл детерминированный код нормализует executive summary cardindex фиксирует состояние карточки версионирование поверх этого нужен agent readable слой знаний единый source truth для разных рантаймов здесь хорошо ложатся knowledge space agentfs дальше память должна просто хранить факты уметь усиливать слабые сигналы консолидировать эпизоды забывать шум это зона yodoca yodoca ngt ngt memory memnet более инженерных систем вроде agent memory mcp memory для многоагентной работы уже есть mclaude factory aif handoff rufler протокол sequential для forensic режима research docs liteparse legal rag hybrid rag graph rag для безопасного дешёвого исполнения tool search litellm auto router rlm toolkit sentinel sentinel cite turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view главный аналитический вывод хабре пока видно одного готового проекта который уже собрал все слои единое целое видно много авторов каждый которых почти идеально закрывает один слой будущей системы поэтому реальная ценность исследования списке ссылок правильной сборке ансамблей наиболее прагматичный путь строить большой новый монолит начать минимального прототипа пяти компонентов svyazi подобный import normalize cardindex agentfs подобное файловое ядро ngt yodoca подобная память research docs liteparse подобный evidence слой litellm auto router sentinel как исполнительный периметр cite turn search turn view turn view turn view turn view turn search turn view turn view похожие документы intro part executive summary executive summary сходство план прототипа возможные контакты сходство intro part mvp planning mvp planning сходство смотрите также intro part component catalog component catalog intro part ensembles overview ensembles overview intro part mvp planning mvp planning mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 585,
+    "path": "docs/obsidian/04-ai-collaborations/01-executive-summary.md"
+  }
+}

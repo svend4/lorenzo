@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/190-содержание.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,15 +8,38 @@ title: "Содержание"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Содержание
 
 
+h2. Contents
+
+* [Содержание|#содержание]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (16)|#кто-ссылается-на-этот-документ-16]
+
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
 {quote}1. _Синдром Золушки: Почему качество остаётся невидимым_{quote}
 
 ----
+
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит важные предупреждения и ограничения.{quote}
 
 
 
@@ -42,7 +65,7 @@ h2. Содержание
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[231-содержание]] (сходство 0.18)
 * [[326-содержание]] (сходство 0.12)
 
@@ -51,7 +74,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Содержание"
+{code}
+
+h2. Смотрите также
 * [[231-содержание]]
 * [[326-содержание]]
 * [[105-review-methodology-md]]
@@ -84,7 +113,7 @@ h2. Связанные документы
 * [[326-содержание|Содержание]] _37%_
 * [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _33%_
 * [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _33%_
-* [[123-portal-mcp-py|portal-mcp.py]] _29%_
+* portal-[[123-portal-mcp-py|mcp.py]] _29%_
 * [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _25%_
 * [[41-compatibility-level|Compatibility Level]] _25%_
 * [[54-for-the-curious-philosophy|For the Curious: Philosophy]] _25%_
@@ -97,4 +126,20 @@ h2. Связанные документы
 * [[41-compatibility-level|Compatibility Level]] _29%_
 * [[63-history|History]] _29%_
 * [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _25%_
-* [[123-portal-mcp-py|portal-mcp.py]] _25%_
+* portal-[[123-portal-mcp-py|mcp.py]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (16)
+* [[105-review-methodology-md]]
+* 123-portal-[[123-portal-mcp-py|mcp-py]]
+* 127-подключение-к-[[127-подключение-к-claude-desktop|claude-desktop]]
+* [[149-appendix-b-summary-of-contributions]]
+* [[154-table-of-contents]]
+* [[169-table-of-contents]]
+* [[202-12-заключение]]
+* [[231-содержание]]
+* _...ещё 8_
+

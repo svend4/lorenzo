@@ -1,10 +1,27 @@
 # Practical Recommendations for the Current Project
 
+<!-- toc-auto -->
+## Contents
+
+- [Practical Recommendations for the Current Project](#practical-recommendations-for-the-current-project)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -62,11 +79,30 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Смотрите также:**
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Practical Recommendations for the"
+```
+
+## Смотрите также
+- [284-practical-recommendations-for-the-current-project](../../02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [07-specific-case](07-specific-case.md)
+- [06-existing-approximations](06-existing-approximations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [07-practical-first-steps](../ingit-cowork-en/07-practical-first-steps.md)
 
 
 <!-- similar-docs -->
@@ -74,7 +110,7 @@ The friction will be lower than no infrastructure at all.
 ---
 
 **Похожие документы:**
-- [284-practical-recommendations-for-the-current-project](docs/obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.77)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.68)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md) (сходство 0.24)
+- [11-practical-recommendations](../../obsidian/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md) (сходство 0.97)
+- [284-practical-recommendations-for-the-current-project](../../obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.71)
+- [284-practical-recommendations-for-the-current-project](../../02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.70)
 

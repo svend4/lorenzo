@@ -1,13 +1,28 @@
 ---
 title: "Часто задаваемые вопросы (FAQ)"
 tags:
+  - faq
+  - docs
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Часто задаваемые вопросы (FAQ)
 
-_Извлечено: 173 вопросов и ответов_
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `FAQ` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: faq, docs -->
+
+
+<!-- summary -->
+> `FAQ` — раздел документации проекта Lorenzo.
+
+
+_Извлечено: 251 вопросов и ответов_
 
 
 ## Архитектура
@@ -32,6 +47,24 @@ _→ [[248-приложение-c-архитектура-быстрого-ста
 
 _→ [[ONBOARDING]]_
 
+### Q&A: 02-anthropic-vacancies > > !NOTE - Какие 5 архитектурных зазоров выделены в исследовании?
+
+- Что входит в интеграционный контракт между слоями? - Какие кластеры найма выделены у Anthropic? - Какие роли наиболее релевантны для профиля svend4? - Кто ключевые авторы проектов для контакта? - Какие вопросы лучше задавать авторам при первом контакте? - Каковы этапы MVP и их оценка по времени? - Что входит в первую итерацию прототипа? _... ещё 17 разделов_ _Слов: 422_
+
+_→ [[OUTLINE]]_
+
+### Q&A: 04-ai-collaborations > > !NOTE - Как реализован forensic RAG с доказуемостью?
+
+- Что такое Evidence Envelope и зачем он нужен? - Какие RAG-подходы сравниваются в документах? - Какие 5 архитектурных зазоров выделены в исследовании? - Что входит в интеграционный контракт между слоями? - Каковы этапы MVP и их оценка по времени? - Что входит в первую итерацию прототипа? - Кто ключевые авторы проектов для контакта? _... ещё 9 разделов_ _Слов: 362_
+
+_→ [[OUTLINE]]_
+
+### Q&A: meta-scripting > > !NOTE - Какие инструменты обеспечивают безопасность агентов?
+
+- Какова политика доступа по умолчанию (tool classes)? - Как организован бюджетный роутинг между моделями? - Какие 5 архитектурных зазоров выделены в исследовании? - Что входит в интеграционный контракт между слоями? - Использование - Запуск _Слов: 148_
+
+_→ [[OUTLINE]]_
+
 ### Принимаем эту architecture как Lorenzo vision (с моими caveats)?
 
 Если да — должен ли я update Lorenzo системный промпт с этой архитектурой?
@@ -45,11 +78,29 @@ _→ [[06-conclusion-deserves-attention]]_
 
 Начните с Executive Summary (docs/01-svyazi/01-executive-summary.md), затем MVP Planning (07-mvp-planning.md) и Roadmap (12-roadmap.md).
 
-### Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать?
+### Q&A: anthropic-vacancies > > !NOTE - Какие кластеры найма выделены у Anthropic?
 
-Вариант 1. Закрыть сессию, commitнуть все семь документов в Nautilus repository, начать использовать GitHub Discussions для дальнейших observations и refinements. Pragmatic compromise.
+- Какие роли наиболее релевантны для профиля svend4? - Использование - Запуск _Слов: 131_
 
-_→ [[272-appendix-d-connection-diagram]]_
+_→ [[OUTLINE]]_
+
+### Q&A: contacts > > !NOTE - Какие системы памяти описаны в этом разделе?
+
+- Как происходит консолидация и забывание в памяти агентов? - Какова разница между эпизодической и семантической памятью? - Использование - Запуск _Слов: 146_
+
+_→ [[OUTLINE]]_
+
+### [[QA|Q&A: anthropic-vacancies]] > > !NOTE - Какие кластеры найма выделены у Anthropic?
+
+- Какие роли наиболее релевантны для профиля svend4? - Использование - Запуск _Слов: 131_
+
+_→ [[OUTLINE]]_
+
+### [[QA|Q&A: contacts]] > > !NOTE - Какие системы памяти описаны в этом разделе?
+
+- Как происходит консолидация и забывание в памяти агентов? - Какова разница между эпизодической и семантической памятью? - Использование - Запуск _Слов: 146_
+
+_→ [[OUTLINE]]_
 
 
 ## Компоненты
@@ -62,14 +113,26 @@ _→ [[272-appendix-d-connection-diagram]]_
 
 Контакты в docs/CONTACTS.md. Авторы: kksudo (Андрей) — AgentFS, spbmolot (Виталий) — ряд Habr-проектов. Используйте шаблон docs/templates/contact-outreach.md.
 
+### Открытые вопросы 1. Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)?
+
+2. Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)? 3. Как memory write API взаимодействует с внешними источниками? 4. Планируется ли поддержка batch-ingestion из документов?
+
+_→ [[agent-memory-mcp]]_
+
+### Q&A: lorenzo-agent > > !NOTE - Какие кластеры найма выделены у Anthropic?
+
+- Какие роли наиболее релевантны для профиля svend4? - Каковы этапы MVP и их оценка по времени? - Что входит в первую итерацию прототипа? - Кто ключевые авторы проектов для контакта? - Какие вопросы лучше задавать авторам при первом контакте? - Как работает AgentFS и что такое .agentos? - Что такое knowledge-space и для кого он предназначен? _... ещё 11 разделов_ _Слов: 305_
+
+_→ [[OUTLINE]]_
+
+### [[QA|Q&A: lorenzo-agent]] > > !NOTE - Какие кластеры найма выделены у Anthropic?
+
+- Какие роли наиболее релевантны для профиля svend4? - Каковы этапы MVP и их оценка по времени? - Что входит в первую итерацию прототипа? - Кто ключевые авторы проектов для контакта? - Какие вопросы лучше задавать авторам при первом контакте? - Как работает AgentFS и что такое .agentos? - Что такое knowledge-space и для кого он предназначен? _... ещё 11 разделов_ _Слов: 305_
+
+_→ [[OUTLINE]]_
+
 
 ## Интеграция
-
-### Какой направление приоритетно?
-
-Хорошо. Пишу portal-mcp.py — MCP wrapper над Nautilus Portal. Это обёртка, которая экспонирует движок портала как tools для LLM через Model Context Protocol.
-
-_→ [[122-глоссарий]]_
 
 ### Это реализуется существующими tools?
 
@@ -97,7 +160,7 @@ _→ [[343-lorenzo-catalyst-agent-глубокая-проработка-спец
 
 ### Why "Nautilus"?
 
-A [[memnet|nautilus]] shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
+A nautilus shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
 
 _→ [[68-about]]_
 
@@ -110,17 +173,17 @@ _→ [[11-difficulties-and-recommendations]]_
 
 ## Лицензия
 
-### Какой подход resonates? Integration в OKWF document, или separate short paper?
-
-И еще один thoughtful вопрос для consideration: в вашем личном случае , как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ва
-
-_→ [[165-closing]]_
-
 ### Question 5: Каковы limits Lorenzo's authority?
 
 Critical question для ethical design.
 
 _→ [[05-q5-authority-limits]]_
+
+### Какой подход resonates? Integration в OKWF document, или separate short paper?
+
+И еще один thoughtful вопрос для consideration: в вашем личном случае, как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ваш
+
+_→ [[01-response]]_
 
 
 ## Общее
@@ -134,12 +197,6 @@ Svyazi 2.0 — это экосистема из 20+ взаимосвязанны
 - [ ] Есть время на Фазу C в течение 2 недель? - [ ] Две ветки будут работать на **полностью независимых** prompts (не «продолжи вариант A»)?
 
 _→ [[116-9-checklist-применения-методологии]]_
-
-### Что из этого feels aligned с вашими current capabilities и interest?
-
-И один дополнительный вопрос, который поможет calibrate: когда вы говорите о «гнезде для больших птиц», вы видите себя в роли:
-
-_→ [[150-appendix-c-version-history]]_
 
 ### 10.3. Legal Questions What's the legal status of agent communications?
 
@@ -170,4 +227,33 @@ _→ [[179-10-open-questions]]_
 Как работает ответственность, когда агент совершает существенные ошибки? Какие юрисдикционные правила применяются, когда агент представляет человека в стране A, общающегося со стороной в стране B? Как существующие регуляции (GDPR, HIPAA, AI Act) применяются конкретно к представительским агентам?
 
 _→ [[200-10-открытые-вопросы]]_
+
+### 10.4. Социальные Вопросы Снизят ли представительские агенты или увеличат неравенство?
+
+Что происходит с профессиями, в настоящее время предоставляющими представительские услуги (юристы, агенты, посредники), когда AI-агенты становятся распространёнными? Какие новые социальные динамики возникают, когда большинство взаимодействий включают опосредование агентами? Как мы сохраняем прямую человеческую связь в мире опосредованной коммуникации?
+
+_→ [[200-10-открытые-вопросы]]_
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_faq.py
+```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [[116-9-checklist-применения-методологии]]
+- [[200-10-открытые-вопросы]]
+- [[memnet]]
+- [[CLUSTERS]]
+- [[CONCEPTS]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- _...ещё 9_
 

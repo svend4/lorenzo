@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:80d62630bd0e963e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/READABILITY.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/LANGUAGE_STATS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SEARCH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READING_TIME.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SOURCE_MAP.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:ca9902671e571c1a",
+  "payload": {
+    "title": "Читаемость документов (Flesch-Kincaid)",
+    "summary": "",
+    "body": "читаемость документов flesch kincaid обновлено средний индекс fre fre лёгкий средний сложный очень сложный все документы файл fre уровень слов пред слов пред docs svyazi executive summary очень сложный docs svyazi methodology очень сложный docs svyazi component catalog очень сложный docs svyazi ensembles overview очень сложный docs svyazi security privacy очень сложный docs svyazi mvp planning очень сложный docs svyazi conclusions очень сложный docs svyazi architectural gaps очень сложный docs svyazi second order ensembles очень сложный docs svyazi integration contracts очень сложный docs svyazi roadmap очень сложный docs svyazi contacts очень сложный docs svyazi limitations очень сложный docs svyazi очень сложный docs svyazi readme очень сложный docs anthropic vacancies intro очень сложный docs anthropic vacancies интегральный анализ профиля svend очень сложный docs anthropic vacancies общий план развития nautilus portal protocol очень сложный docs anthropic vacancies portal protocol очень сложный docs anthropic vacancies abstract очень сложный docs anthropic vacancies status this document очень сложный docs anthropic vacancies introduction очень сложный docs anthropic vacancies terminology очень сложный docs anthropic vacancies registry nautilus json очень сложный docs anthropic vacancies passport passport очень сложный docs anthropic vacancies доступ данным очень сложный docs anthropic vacancies appendix change log очень сложный docs anthropic vacancies appendix references очень сложный docs anthropic vacancies review methodology очень сложный docs anthropic vacancies очень сложный docs anthropic vacancies контекст мотивация очень сложный docs anthropic vacancies формальный workflow очень сложный docs anthropic vacancies принципы консолидации фаза очень сложный docs anthropic vacancies вопрос fallback ratio как критический или осмыслен очень сложный docs anthropic vacancies условия применимости очень сложный docs anthropic vacancies связь существующими методологиями очень сложный docs anthropic vacancies почему это валидный паттерн для assisted work очень сложный docs anthropic vacancies реализация проекте nautilus очень сложный docs anthropic vacancies ограничения открытые вопросы очень сложный docs anthropic vacancies checklist применения методологии очень сложный docs anthropic vacancies конкретный план применения текущим документам очень сложный docs anthropic vacancies appendix шаблон для header warning очень сложный docs anthropic vacancies appendix примеры расхождений разрешения очень сложный docs anthropic vacancies content overview очень сложный docs anthropic vacancies главные технические риски очень сложный docs anthropic vacancies appendix история изменений методологии очень сложный docs anthropic vacancies глоссарий очень сложный docs anthropic vacancies portal mcp очень сложный docs anthropic vacancies конфигурация для claude desktop очень сложный docs anthropic vacancies установка очень сложный docs anthropic vacancies подключение claude desktop очень сложный docs anthropic vacancies доступные инструменты очень сложный docs anthropic vacancies примеры запросов claude очень сложный docs anthropic vacancies angle perspective очень сложный docs anthropic vacancies отладка очень сложный docs anthropic vacancies ограничения текущей версии draft очень сложный docs anthropic vacancies planned очень сложный docs anthropic vacancies обратная связь очень сложный docs anthropic vacancies the double triangle architecture очень сложный docs anthropic vacancies formal model for human collaboration distr очень сложный docs anthropic vacancies abstract очень сложный docs anthropic vacancies table contents очень сложный docs anthropic vacancies three inter layer protocols очень сложный docs anthropic vacancies nautilus portal reference substrate очень сложный docs anthropic vacancies pattern library bridge between triangles очень сложный docs anthropic vacancies four deployment domains очень сложный docs anthropic vacancies open questions очень сложный docs anthropic vacancies call action очень сложный docs anthropic vacancies acknowledgments очень сложный docs anthropic vacancies references очень сложный docs anthropic vacancies appendix glossary очень сложный docs anthropic vacancies appendix version history очень сложный docs anthropic vacancies open knowledge work foundation очень сложный docs anthropic vacancies coordinated infrastructure for distributed expe очень сложный docs anthropic vacancies executive summary очень сложный docs anthropic vacancies problem statement очень сложный docs anthropic vacancies target populations очень сложный docs anthropic vacancies why existing solutions fail очень сложный docs anthropic vacancies proposed infrastructure очень сложный docs anthropic vacancies economic model очень сложный docs anthropic vacancies history очень сложный docs anthropic vacancies governance and ethics очень сложный docs anthropic vacancies phased rollout plan очень сложный docs anthropic vacancies risk analysis очень сложный docs anthropic vacancies call for partnership очень сложный docs anthropic vacancies appendices очень сложный docs anthropic vacancies closing очень сложный docs anthropic vacancies mediated representation for underrepresented очень сложный docs anthropic vacancies abstract очень сложный docs anthropic vacancies compatibility levels очень сложный docs anthropic vacancies the cinderella syndrome why quality stays invisi очень сложный docs anthropic vacancies historical precedents agents civilizational очень сложный docs anthropic vacancies what makes representative agent очень сложный docs anthropic vacancies ten domains application очень сложный docs anthropic vacancies architectural specification очень сложный docs anthropic vacancies ethical framework очень сложный docs anthropic vacancies governance and oversight очень сложный docs anthropic vacancies risks and mitigations очень сложный docs anthropic vacancies phased rollout strategy очень сложный docs anthropic vacancies open questions очень сложный docs anthropic vacancies adapter interface очень сложный docs anthropic vacancies call for collaboration очень сложный docs anthropic vacancies acknowledgments очень сложный docs anthropic vacancies references очень сложный docs anthropic vacancies appendix connection companion papers очень",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 26181,
+    "path": "docs/READABILITY.md"
+  }
+}

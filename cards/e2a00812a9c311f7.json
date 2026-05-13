@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:e2a00812a9c311f7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/181-12-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:9e3208d4915a04b4",
+  "payload": {
+    "title": "A Formal Model for Human-AI Collaboration in Distributed Knowledge Work",
+    "summary": "",
+    "body": "formal model for human collaboration distributed knowledge work editorial review claude intellectual collaboration похожие документы coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe сходство mediated representation for underrepresented mediated representation for underrepresented сходство support through configurable specialist ensembl support through configurable specialist ensembl сходство смотрите также coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe mediated representation for underrepresented mediated representation for underrepresented portal protocol portal protocol typology agents the principal side and typology agents the principal side and упоминается closing closing coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented author contact author contact executive summary executive summary portal protocol portal protocol portal protocol portal protocol вакансии anthropic анализ кластерам readme что можешь делать вообще что можешь делать вообще упоминается вакансии anthropic анализ кластерам readme связанные документы portal protocol portal protocol portal protocol portal protocol coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented author contact author contact acknowledgments acknowledgments acknowledgments acknowledgments support through configurable specialist ensembles support through configurable specialist ensembl связанные документы coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe portal protocol portal protocol portal protocol portal protocol mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented author contact author contact open knowledge work foundation open knowledge work foundation executive summary executive summary typology agents the principal side and the case for profession specific workers typology agents the principal side and кто ссылается этот документ portal protocol portal protocol open knowledge work foundation open knowledge work foundation coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe executive summary executive summary mediated representation for underrepresented mediated representation for underrepresented closing closing acknowledgments acknowledgments typology agents the principal side and typology agents the principal side and ещё",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 291,
+    "path": "docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md"
+  }
+}

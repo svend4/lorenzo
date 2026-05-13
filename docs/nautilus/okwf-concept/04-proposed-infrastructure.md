@@ -233,11 +233,33 @@ Community governance operates:
 
 ---
 
-**Смотрите также:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [04-nautilus-portal-substrate](docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md)
-- [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md)
-- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Proposed Infrastructure"
+```
+
+## Смотрите также
+- [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- 04-[nautilus-portal-substrate](../double-triangle-architecture/04-nautilus-portal-substrate.md)
+- [05-economic-model](05-economic-model.md)
+- [06-four-deployment-domains](../double-triangle-architecture/06-four-deployment-domains.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-naming-rationale-lorenzo-medici](../../lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md)
+- [04-nautilus-portal-substrate](../double-triangle-architecture/04-nautilus-portal-substrate.md)
+- [06-four-deployment-domains](../double-triangle-architecture/06-four-deployment-domains.md)
+- [07-open-questions](../double-triangle-architecture/07-open-questions.md)
+- _...ещё 9_
 
 
 <!-- similar-docs -->
@@ -245,7 +267,7 @@ Community governance operates:
 ---
 
 **Похожие документы:**
-- [158-4-proposed-infrastructure](docs/obsidian/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.93)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.93)
-- [04-nautilus-portal-substrate](docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md) (сходство 0.23)
+- [04-proposed-infrastructure](../../obsidian/nautilus/okwf-concept/04-proposed-infrastructure.md) (сходство 0.99)
+- [158-4-proposed-infrastructure](../../obsidian/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.90)
+- [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.90)
 

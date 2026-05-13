@@ -1,11 +1,27 @@
 # Ансамбль 1 — «Один человек = одна компания»
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** LiteLLM, AutoResearch
 
 ---
 <!-- tags: rag, security, knowledge, local-first, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -30,11 +46,35 @@ vault в Obsidian + RAG над corpus-ом юридических докумен
 
 ---
 
-**Смотрите также:**
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
-- [2-autoresearch-legal](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md)
-- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 1 Один человек одна компания"
+```
+
+## Смотрите также
+- [3-discovery-research](3-discovery-research.md)
+- [2-autoresearch-legal](2-autoresearch-legal.md)
+- [4-summary-authors](4-summary-authors.md)
+- [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [concepts](../../glossary/concepts.md)
+- [1-llm-gateway](../deep-pairs/1-llm-gateway.md)
+- [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -42,7 +82,7 @@ vault в Obsidian + RAG над corpus-ом юридических докумен
 ---
 
 **Похожие документы:**
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.27)
-- [2-autoresearch-legal](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md) (сходство 0.20)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.19)
+- [1-one-person-one-company](../../obsidian/habr-unique-projects/final-ensembles/1-one-person-one-company.md) (сходство 0.95)
+- [3-discovery-research](3-discovery-research.md) (сходство 0.43)
+- [3-discovery-research](../../obsidian/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.41)
 

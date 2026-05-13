@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:423c8cbb906964c3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/59-angle-perspective.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/39-angle-perspective.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/49-angle-perspective.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/36-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/13-angle-perspective.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:17eb96bcf4eb132a",
+  "payload": {
+    "title": "Angle / Perspective",
+    "summary": "состояний и правил переходов**. На вопрос «что такое кристалл» он",
+    "body": "angle perspective symbolic meta смотрит мир как систему дискретных похожие документы angle perspective angle perspective сходство angle perspective angle perspective сходство смотрите также angle perspective angle perspective angle perspective angle perspective essence essence glossary examples glossary examples упоминается angle perspective angle perspective angle perspective angle perspective angle perspective angle perspective essence essence passports meta passports meta passports pro passports pro вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы angle perspective angle perspective passports pro passports pro passports meta passports meta essence essence passports info passports info essence essence angle perspective angle perspective essence essence связанные документы angle perspective angle perspective angle perspective angle perspective passports pro passports pro passports meta passports meta essence essence angle perspective angle perspective glossary examples glossary examples passports info passports info кто ссылается этот документ angle perspective angle perspective passports info passports info angle perspective angle perspective passports pro passports pro angle perspective angle perspective passports meta passports meta readme readme",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 259,
+    "path": "docs/02-anthropic-vacancies/59-angle-perspective.md"
+  }
+}

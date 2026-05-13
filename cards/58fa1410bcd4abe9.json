@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:58fa1410bcd4abe9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/07-specific-case.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:679fa11b1c160ed6",
+  "payload": {
+    "title": "What's Missing — Layer B",
+    "summary": "Between chat and repository, there should exist Layer B: an",
+    "body": "what missing layer источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также what missing layer anthropic vacancies what missing layer existing approximations existing approximations specific case specific case two layer stack two layer stack",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 424,
+    "path": "docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md"
+  }
+}

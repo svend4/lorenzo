@@ -1,5 +1,29 @@
 # 6. Adapter Interface
 
+<!-- toc-auto -->
+## Contents
+
+- [6. Adapter Interface](#6-adapter-interface)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
+  - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
+  - [6.4. translate_to(entry, target_repo) — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
+
+
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
+  - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
+  - [6.4. translate_to(entry, target_repo) — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
+  - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
+  - [6.4. translate_to(entry, target_repo) — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
+  - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
+  - [6.4. translate_to(entry, target_repo) — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -10,8 +34,6 @@
 
 ---
 <!-- tags: anthropic -->
-
-
 
 
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
@@ -85,12 +107,24 @@ string description концепта entry в терминах target_repo, ил�
 
 ---
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [18-6-adapter-interface](docs/obsidian/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.67)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.61)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md) (сходство 0.57)
+- [06-adapter-interface](../../obsidian/nautilus/npp-v1-0/06-adapter-interface.md) (сходство 0.98)
+- [18-6-adapter-interface](../../02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.67)
+- [18-6-adapter-interface](../../obsidian/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.66)
 

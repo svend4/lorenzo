@@ -1,0 +1,61 @@
+{
+  "card_id": "sha256:bd0e6daa2828b8c7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/03-local-first.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/02-knowledge-graphs.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/01-08-summary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:9b577fbe272b6a1f",
+  "payload": {
+    "title": "Комбинация 4: Парсинг с LLM × Graph-RAG × Правильная агентская архитектура",
+    "summary": "Парсинг с LLM (habr.com/ru/articles/892954/) — Structured Outputs, Pydantic, автоматическое извлечение структуры",
+    "body": "комбинация парсинг llm graph rag правильная агентская архитектура источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также local first technology combinations local first crawl docling yodoca consolidator crawl docling yodoca consolidator knowledge graphs technology combinations knowledge graphs pravilnaya agentskaya arkhitektura svyazi pattern pravilnaya agentskaya arkhitektura svyazi pattern кто ссылается этот документ components name glossary components name readme readme legal stack mega stacks legal stack summary synthesis tables summary",
+    "tags": [
+      "rag",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca"
+    ],
+    "wc": 218,
+    "path": "docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md"
+  }
+}

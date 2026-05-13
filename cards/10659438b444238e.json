@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:10659438b444238e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/PARAGRAPH_QUALITY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:dff86b3ccc6300e6",
+  "payload": {
+    "title": "Качество абзацев",
+    "summary": "_абзац: 795, Оборванный: 628, начала: 261, Дубль: 4_",
+    "body": "качество абзацев содержание типы проблем типы проблем файлам файлам docs concepts проблем docsconceptsmd проблем docs heading audit проблем docsheading auditmd проблем docs tables проблем docstablesmd проблем docs empty sections проблем docsempty sectionsmd проблем docs scripts catalog проблем docsscripts catalogmd проблем docs code blocks проблем docscode blocksmd проблем docs nautilus community discussions agent changes reality response проблем docsnautiluscommunity discussionsagent changes reality response enmd проблем docs nautilus transmission box completing loop проблем docsnautilustransmission box completing loopmd проблем docs lorenzo agent naming dhlab umbrella проблем docslorenzo agentnaming dhlab umbrellamd проблем docs проблем docsqamd проблем docs lorenzo agent scenarios response проблем docslorenzo agentscenarios responsemd проблем docs questions проблем docsquestionsmd проблем docs lorenzo agent specification difficulties and recommendations проблем docslorenzo agentspecification difficulties and recommendationsmd проблем docs nautilus multi tier architecture strategic significance проблем docsnautilusmulti tier architecture strategic significancemd проблем docs similar passages проблем docssimilar passagesmd проблем docs duplicates проблем docsduplicatesmd проблем docs lorenzo agent naming naming rationale lorenzo medici проблем docslorenzo agentnaming naming rationale lorenzo medicimd проблем docs contradictions проблем docscontradictionsmd проблем docs nautilus representative agent layer zaklyuchenie проблем docsnautilusrepresentative agent layer zaklyucheniemd проблем docs nautilus supply demand three related themes проблем docsnautilussupply demand three related themesmd проблем docs nautilus innovation transitions response проблем docsnautilusinnovation transitions responsemd проблем docs anthropic vacancies что такое вариант concept document для anthropic проблем docs anthropic vacancies что такое вариант concept document для anthropicmd проблем docs anthropic vacancies nautilus camel what info repos contain проблем docsanthropic vacanciesnautilus camel what info repos containmd проблем docs nautilus community discussions habr article reaction response проблем docsnautiluscommunity discussionshabr article reaction responsemd проблем docs decisions проблем docsdecisionsmd проблем docs lorenzo agent operationalized minuses проблем docslorenzo agentoperationalized minuses проблем docs github issues проблем docsgithub issuesmd проблем docs lorenzo agent phased deployment current session poc проблем docslorenzo agentphased deployment current session pocmd проблем docs clusters проблем docsclustersmd проблем docs tasks index проблем docstasks indexmd проблем docs anthropic vacancies приложение образец спецификаций инструментов ing проблем docs anthropic vacancies приложение образец спецификаций инструментов ingmd проблем docs nautilus community discussions voiceless contributors response проблем docsnautiluscommunity discussionsvoiceless contributors responsemd проблем docs nautilus representative agent layer closing проблем docsnautilusrepresentative agent layer closingmd проблем docs nautilus npp humanitarian extension structural comparison code docs проблем docsnautilusnpp humanitarian extension structural comparison code docsmd проблем docs anthropic vacancies lorenzo catalyst agent глубокая проработка специфи проблем docs anthropic vacancies lorenzo catalyst agent глубокая проработка специфиmd проблем docs anthropic vacancies nautilus camel what take from info repos проблем docsanthropic vacanciesnautilus camel what take from info reposmd проблем docs nautilus community discussions habr article reaction claude response проблем docsnautiluscommunity discussionshabr article reaction claude responsemd проблем docs spellcheck проблем docsspellcheckmd проблем docs lorenzo agent operationalized anchor node habr scout проблем docslorenzo agentoperationalized anchor node habr scoutmd проблем docs anthropic vacancies интегральный анализ профиля svend проблем docs anthropic vacancies интегральный анализ профиля svend проблем docs nautilus double triangle architecture glossary проблем docsnautilusdouble triangle architecture glossarymd проблем docs technology combinations combinations multi agent observability platform проблем docstechnology combinationscombinations multi agent observability platformmd проблем docs technology combinations combinations conductor adversarial review auto router проблем docstechnology combinationscombinations conductor adversarial review auto routermd проблем docs anthropic vacancies проблем docs anthropic vacanciesqamd проблем docs content gaps проблем docscontent gapsmd проблем docs anthropic vacancies hermes comparison reprioritization проблем docsanthropic vacancieshermes comparison reprioritizationmd проблем docs nautilus npp glossary проблем docsnautilusnpp glossarymd проблем docs anthropic vacancies application domains проблем docs anthropic vacancies application domainsmd проблем docs anthropic vacancies pilot proposal sgb advocate colleague проблем docs anthropic vacancies pilot proposal sgb advocate colleaguemd проблем docs anthropic vacancies риски специфичные для этой категории проблем docs anthropic vacancies риски специфичные для этой категорииmd проблем docs collaborations intro проблем docs collaborations intromd проблем docs nautilus composite skills agents companion mentors what was missing paper проблем docsnautiluscomposite skills agents companion mentors what was missing paper проблем docs anthropic vacancies risks specific this category проблем docs anthropic vacancies risks specific this categorymd проблем docs nautilus professional colleague agents application domains проблем docsnautilusprofessional colleague agents application domainsmd проблем docs nautilus professional colleague agents riski проблем docsnautilusprofessional colleague agents riskimd проблем docs anthropic vacancies the five type typology principal side agents проблем docs anthropic vacancies the five type typology principal side agentsmd проблем docs anthropic vacancies пилотное предложение sgb колega адвокат проблем docs anthropic vacancies пилотное предложение sgb колega адвокатmd проблем docs nautilus community discussions practical observations response проблем docsnautiluscommunity discussionspractical observations responsemd проблем docs nautilus professional colleague agents risks проблем docsnautilusprofessional colleague agents risksmd проблем docs nautilus professional colleague agents pilot sgb advocate проблем docsnautilusprofessional colleague agents pilot sgb advocatemd проблем docs technology combinations combinations mega integration full stack проблем docstechnology combinationscombinations mega integration full stackmd проблем docs anthropic vacancies области применения проблем docs anthropic vacancies области примененияmd проблем docs anthropic vacancies beneficial deployments concept not and format проблем docsanthropic vacanciesbeneficial deployments concept not and formatmd проблем docs anthropic vacancies why existing solutions fail проблем docs",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 15333,
+    "path": "docs/obsidian/PARAGRAPH_QUALITY.md"
+  }
+}

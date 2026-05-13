@@ -1,11 +1,27 @@
 # Конкретный потенциальный collaborator
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 **Проекты:** Svyazi
 
 ---
 <!-- tags: rag, ingestion, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -46,11 +62,32 @@ Open discussion of how community-matching patterns scale до vulnerable populat
 
 ---
 
-**Смотрите также:**
-- [12-concrete-next-step](docs/habr-unique-projects/extra-examples/12-concrete-next-step.md)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
-- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Конкретный потенциальный collaborator"
+```
+
+## Смотрите также
+- [12-concrete-next-step](12-concrete-next-step.md)
+- [09-federated-platform](09-federated-platform.md)
+- 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- [08-section-8-risks-mitigations](../../anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [12-concrete-next-step](12-concrete-next-step.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -58,7 +95,7 @@ Open discussion of how community-matching patterns scale до vulnerable populat
 ---
 
 **Похожие документы:**
-- [12-concrete-next-step](docs/habr-unique-projects/extra-examples/12-concrete-next-step.md) (сходство 0.23)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.22)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.20)
+- [11-concrete-potential-collaborator](../../obsidian/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md) (сходство 0.95)
+- [09-federated-platform](09-federated-platform.md) (сходство 0.27)
+- [09-federated-platform](../../obsidian/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.27)
 

@@ -1,5 +1,10 @@
 # 1. Problem Statement
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The AI industry in 2026 exhibits an apparent paradox. Frontier
 
 ---
@@ -42,7 +51,7 @@ April 2026:
 - **Anthropic**: 440 open positions, primarily senior roles at 
   $320K–$405K compensation
 - **OpenAI**: estimated 600+ open positions
-- **Google [DeepMind](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)**: estimated 400+ open positions
+- **Google [DeepMind](01-интегральный-анализ-профиля-svend4.md)**: estimated 400+ open positions
 - **Mistral, Cohere, Inflection, xAI**: collectively 1000+ open 
   positions
 
@@ -126,7 +135,7 @@ coordinated action now.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [153-executive-summary](153-executive-summary.md) (сходство 0.17)
 - [156-2-target-populations](156-2-target-populations.md) (сходство 0.16)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
@@ -136,7 +145,13 @@ coordinated action now.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Problem Statement"
+```
+
+## Смотрите также
 - [153-executive-summary](153-executive-summary.md)
 - [156-2-target-populations](156-2-target-populations.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -172,3 +187,19 @@ coordinated action now.
 - [8. Pilot Proposal: SGB Advocate Colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) _17%_
 - [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _17%_
 - [The Recursive Insight](281-the-recursive-insight.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [153-executive-summary](153-executive-summary.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- _...ещё 1_
+

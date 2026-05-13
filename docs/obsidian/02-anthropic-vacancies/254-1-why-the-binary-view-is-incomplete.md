@@ -5,10 +5,15 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 1. Why the Binary View Is Incomplete
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -21,6 +26,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Professional Colleague Agents (PCA) v1.0 introduced five types
 
 ---
@@ -138,7 +147,7 @@ support to skilled professions.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[252-abstract]] (сходство 0.25)
 - [[266-13-closing]] (сходство 0.20)
 - [[255-2-the-twenty-one-teachers-pattern]] (сходство 0.18)
@@ -148,7 +157,13 @@ support to skilled professions.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Why the Binary View Is Incomplete"
+```
+
+## Смотрите также
 - [[252-abstract]]
 - [[266-13-closing]]
 - [[255-2-the-twenty-one-teachers-pattern]]
@@ -193,3 +208,19 @@ support to skilled professions.
 - [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _25%_
 - [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _25%_
 - [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[208-professional-colleague-agents-md]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[214-3-empirical-case-study-обучай]]
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[217-6-risks-specific-to-this-category]]
+- [[252-abstract]]
+- _...ещё 8_
+

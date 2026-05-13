@@ -1,0 +1,2827 @@
+{
+  "http://localhost:8000": {
+    "checked": "2026-05-10T20:29:15.838122",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080": {
+    "checked": "2026-05-10T20:29:15.841838",
+    "status": 0,
+    "title": ""
+  },
+  "https://...install.sh": {
+    "checked": "2026-05-10T20:29:15.842746",
+    "status": 0,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[anthropic": {
+    "checked": "2026-05-10T20:29:15.868827",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000": {
+    "checked": "2026-05-10T20:29:17.303496",
+    "status": 200,
+    "title": "Глава Anthropic предрёк исчезновение инженерных профессий — и открыл 429 вакансий с зарплатой до $405 000 в год"
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakans…": {
+    "checked": "2026-05-10T20:29:18.131782",
+    "status": 0,
+    "title": ""
+  },
+  "https://activitypub.rocks/": {
+    "checked": "2026-05-10T20:29:18.155160",
+    "status": 200,
+    "title": "ActivityPub Rocks!"
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated": {
+    "checked": "2026-05-10T20:29:20.064026",
+    "status": 200,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner": {
+    "checked": "2026-05-10T20:29:21.070902",
+    "status": 403,
+    "title": ""
+  },
+  "https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv": {
+    "checked": "2026-05-10T20:29:21.145538",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz": {
+    "checked": "2026-05-10T20:29:21.450257",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW": {
+    "checked": "2026-05-10T20:29:21.602850",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.com/product/cowork": {
+    "checked": "2026-05-10T20:29:21.770394",
+    "status": 200,
+    "title": "Cowork: Claude Code power for knowledge work | Claude by Anthropic"
+  },
+  "https://creativecommons.org/licenses/by/4.0/": {
+    "checked": "2026-05-10T20:29:22.120430",
+    "status": 200,
+    "title": "Deed - Attribution 4.0 International - Creative Commons"
+  },
+  "https://datatracker": {
+    "checked": "2026-05-10T20:29:22.912964",
+    "status": 0,
+    "title": ""
+  },
+  "https://datatracker.ietf.org/doc/html/rfc2119": {
+    "checked": "2026-05-10T20:29:22.936716",
+    "status": 200,
+    "title": "RFC 2119 - Key words for use in RFCs to Indicate Requirement Levels"
+  },
+  "https://forum.[[03-component-catalog|[obsidian": {
+    "checked": "2026-05-10T20:29:24.033138",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|obsidian": {
+    "checked": "2026-05-10T20:29:24.033474",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[12-content-overview|[03-component-catalog|obsidian": {
+    "checked": "2026-05-10T20:29:24.033497",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|[obsidian": {
+    "checked": "2026-05-10T20:29:24.033521",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|obsidian": {
+    "checked": "2026-05-10T20:29:24.033549",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[obsidian": {
+    "checked": "2026-05-10T20:29:24.033582",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223": {
+    "checked": "2026-05-10T20:29:24.033619",
+    "status": 200,
+    "title": ""
+  },
+  "https://github": {
+    "checked": "2026-05-10T20:29:25.034503",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.": {
+    "checked": "2026-05-10T20:29:25.058880",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW": {
+    "checked": "2026-05-10T20:29:25.082752",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space": {
+    "checked": "2026-05-10T20:29:25.512880",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space`": {
+    "checked": "2026-05-10T20:29:26.399869",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space`,": {
+    "checked": "2026-05-10T20:29:26.702184",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW`": {
+    "checked": "2026-05-10T20:29:26.973726",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Antipozitive": {
+    "checked": "2026-05-10T20:29:27.116418",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Antipozitive`": {
+    "checked": "2026-05-10T20:29:27.315258",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Cutcode": {
+    "checked": "2026-05-10T20:29:27.495511",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/Cutcode`": {
+    "checked": "2026-05-10T20:29:27.856039",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Dmitriila": {
+    "checked": "2026-05-10T20:29:28.048805",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Dmitriila`": {
+    "checked": "2026-05-10T20:29:28.235635",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/MiXaiLL76": {
+    "checked": "2026-05-10T20:29:28.439436",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/MiXaiLL76`": {
+    "checked": "2026-05-10T20:29:28.907148",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Sonia_Black": {
+    "checked": "2026-05-10T20:29:29.088165",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Sonia_Black`": {
+    "checked": "2026-05-10T20:29:29.330014",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin": {
+    "checked": "2026-05-10T20:29:29.508078",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin/yodoca": {
+    "checked": "2026-05-10T20:29:30.000466",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin/yodoca`": {
+    "checked": "2026-05-10T20:29:30.818983",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin`": {
+    "checked": "2026-05-10T20:29:31.000672",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VladSpace": {
+    "checked": "2026-05-10T20:29:31.199371",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VladSpace`": {
+    "checked": "2026-05-10T20:29:31.371630",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/andrey_chuyan": {
+    "checked": "2026-05-10T20:29:31.579592",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/andrey_chuyan`": {
+    "checked": "2026-05-10T20:29:31.805079",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/anthropics/mcp": {
+    "checked": "2026-05-10T20:29:32.112374",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/anthropics/mcp`": {
+    "checked": "2026-05-10T20:29:32.289907",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/camel-ai/camel": {
+    "checked": "2026-05-10T20:29:32.507783",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/camel-ai/camel`": {
+    "checked": "2026-05-10T20:29:33.182600",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/kksudo": {
+    "checked": "2026-05-10T20:29:33.354833",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/kksudo/agentfs": {
+    "checked": "2026-05-10T20:29:33.903224",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/kksudo/agentfs`": {
+    "checked": "2026-05-10T20:29:34.573015",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/kksudo`": {
+    "checked": "2026-05-10T20:29:34.908662",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/mcp": {
+    "checked": "2026-05-10T20:29:35.203897",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/mcp`": {
+    "checked": "2026-05-10T20:29:36.034387",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/mcp`,": {
+    "checked": "2026-05-10T20:29:36.231077",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/nlaik": {
+    "checked": "2026-05-10T20:29:36.408664",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/nlaik`": {
+    "checked": "2026-05-10T20:29:37.009439",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/settings/tokens": {
+    "checked": "2026-05-10T20:29:37.184655",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/settings/tokens`": {
+    "checked": "2026-05-10T20:29:37.815307",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot": {
+    "checked": "2026-05-10T20:29:38.000610",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/spbmolot/ngt-memory": {
+    "checked": "2026-05-10T20:29:38.481070",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot/ngt-memory`": {
+    "checked": "2026-05-10T20:29:38.669551",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot/…": {
+    "checked": "2026-05-10T20:29:38.846829",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/spbmolot`": {
+    "checked": "2026-05-10T20:29:38.870313",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/": {
+    "checked": "2026-05-10T20:29:39.033596",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/`": {
+    "checked": "2026-05-10T20:29:39.513461",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/data70": {
+    "checked": "2026-05-10T20:29:39.689558",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/data70`": {
+    "checked": "2026-05-10T20:29:40.395901",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info1": {
+    "checked": "2026-05-10T20:29:40.698178",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/info1`": {
+    "checked": "2026-05-10T20:29:41.690957",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info1`,": {
+    "checked": "2026-05-10T20:29:41.869697",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info40": {
+    "checked": "2026-05-10T20:29:42.062941",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/info40`": {
+    "checked": "2026-05-10T20:29:43.031750",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info7": {
+    "checked": "2026-05-10T20:29:43.210111",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/info7`": {
+    "checked": "2026-05-10T20:29:44.209984",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit": {
+    "checked": "2026-05-10T20:29:44.381421",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit/issues": {
+    "checked": "2026-05-10T20:29:45.590440",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit/issues`": {
+    "checked": "2026-05-10T20:29:46.057146",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit`": {
+    "checked": "2026-05-10T20:29:46.311316",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/meta": {
+    "checked": "2026-05-10T20:29:46.497837",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/meta`": {
+    "checked": "2026-05-10T20:29:48.158059",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus": {
+    "checked": "2026-05-10T20:29:48.316852",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus.git": {
+    "checked": "2026-05-10T20:29:49.824333",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus.git`": {
+    "checked": "2026-05-10T20:29:50.132930",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes-tdywx/README.md": {
+    "checked": "2026-05-10T20:29:50.211437",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/INTEGRATION.md": {
+    "checked": "2026-05-10T20:29:51.167673",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL": {
+    "checked": "2026-05-10T20:29:52.282552",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md": {
+    "checked": "2026-05-10T20:29:52.688810",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md`": {
+    "checked": "2026-05-10T20:29:53.965277",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL`": {
+    "checked": "2026-05-10T20:29:54.272133",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/README.md": {
+    "checked": "2026-05-10T20:29:54.631295",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md": {
+    "checked": "2026-05-10T20:29:55.565900",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md`": {
+    "checked": "2026-05-10T20:29:55.933667",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/STATUS.md": {
+    "checked": "2026-05-10T20:29:56.172001",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_1.md": {
+    "checked": "2026-05-10T20:29:56.792668",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_2.md": {
+    "checked": "2026-05-10T20:29:57.301142",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_3.md": {
+    "checked": "2026-05-10T20:29:57.945990",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_4.md": {
+    "checked": "2026-05-10T20:29:59.087849",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...`": {
+    "checked": "2026-05-10T20:30:00.080075",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md": {
+    "checked": "2026-05-10T20:30:00.397410",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/branches": {
+    "checked": "2026-05-10T20:30:00.697053",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/branches`": {
+    "checked": "2026-05-10T20:30:01.433924",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/commits/main": {
+    "checked": "2026-05-10T20:30:01.701069",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/commits/main`": {
+    "checked": "2026-05-10T20:30:02.287378",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/issues": {
+    "checked": "2026-05-10T20:30:02.663646",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/issues`": {
+    "checked": "2026-05-10T20:30:03.446179",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f12eb443ca50/docs": {
+    "checked": "2026-05-10T20:30:03.675387",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/main/adapters": {
+    "checked": "2026-05-10T20:30:04.085557",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/main/passports": {
+    "checked": "2026-05-10T20:30:04.601349",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus`": {
+    "checked": "2026-05-10T20:30:05.110344",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2": {
+    "checked": "2026-05-10T20:30:05.367823",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/blob/main/nautilus/README.md": {
+    "checked": "2026-05-10T20:30:06.908565",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/blob/main/nautilus/README.md`": {
+    "checked": "2026-05-10T20:30:07.567607",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...`": {
+    "checked": "2026-05-10T20:30:07.922838",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41badc6dc/nautilus": {
+    "checked": "2026-05-10T20:30:08.158987",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/main/nautilus": {
+    "checked": "2026-05-10T20:30:08.736596",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/main/nautilus`": {
+    "checked": "2026-05-10T20:30:09.292882",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2`": {
+    "checked": "2026-05-10T20:30:09.615535",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4?tab=repositories": {
+    "checked": "2026-05-10T20:30:09.788920",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4?tab=repositories`": {
+    "checked": "2026-05-10T20:30:11.121178",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/tagir_analyzes": {
+    "checked": "2026-05-10T20:30:11.505527",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/tagir_analyzes`": {
+    "checked": "2026-05-10T20:30:11.714945",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/zodigancode": {
+    "checked": "2026-05-10T20:30:11.921526",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/zodigancode`": {
+    "checked": "2026-05-10T20:30:12.129743",
+    "status": 404,
+    "title": ""
+  },
+  "https://habr.": {
+    "checked": "2026-05-10T20:30:12.337632",
+    "status": 0,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/1002138/": {
+    "checked": "2026-05-10T20:30:12.361835",
+    "status": 200,
+    "title": "9 подходов, как сделать свой RAG с блекджеком и… &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1002138/`": {
+    "checked": "2026-05-10T20:30:13.677901",
+    "status": 200,
+    "title": "9 подходов, как сделать свой RAG с блекджеком и… &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1005776/": {
+    "checked": "2026-05-10T20:30:16.328977",
+    "status": 200,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/1005776/`": {
+    "checked": "2026-05-10T20:30:17.603255",
+    "status": 200,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/1006602/": {
+    "checked": "2026-05-10T20:30:19.540089",
+    "status": 200,
+    "title": "Субагенты в agent coding: что это, зачем нужны и чем отличаются в Cursor и Claude Code &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1006602/,": {
+    "checked": "2026-05-10T20:30:20.221916",
+    "status": 200,
+    "title": "Субагенты в agent coding: что это, зачем нужны и чем отличаются в Cursor и Claude Code &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1006602/`": {
+    "checked": "2026-05-10T20:30:21.947683",
+    "status": 200,
+    "title": "Субагенты в agent coding: что это, зачем нужны и чем отличаются в Cursor и Claude Code &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1006622/": {
+    "checked": "2026-05-10T20:30:23.314972",
+    "status": 200,
+    "title": "Научил ИИ-агента помнить важное и забывать лишнее в SQLite &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1006622/`": {
+    "checked": "2026-05-10T20:30:24.359315",
+    "status": 200,
+    "title": "Научил ИИ-агента помнить важное и забывать лишнее в SQLite &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1007122/": {
+    "checked": "2026-05-10T20:30:26.605079",
+    "status": 200,
+    "title": "Self-Aware MCP Server: инструменты контекста реального мира для AI-агента &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1007122/,": {
+    "checked": "2026-05-10T20:30:27.345507",
+    "status": 200,
+    "title": "Self-Aware MCP Server: инструменты контекста реального мира для AI-агента &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1007122/`": {
+    "checked": "2026-05-10T20:30:28.772511",
+    "status": 200,
+    "title": "Self-Aware MCP Server: инструменты контекста реального мира для AI-агента &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1007122/`,": {
+    "checked": "2026-05-10T20:30:30.586130",
+    "status": 200,
+    "title": "Self-Aware MCP Server: инструменты контекста реального мира для AI-агента &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1009538/": {
+    "checked": "2026-05-10T20:30:31.909675",
+    "status": 200,
+    "title": "Локальный голосовой ввод: Whisper + Ollama на Python &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1009538/`": {
+    "checked": "2026-05-10T20:30:33.395113",
+    "status": 200,
+    "title": "Локальный голосовой ввод: Whisper + Ollama на Python &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1009608/": {
+    "checked": "2026-05-10T20:30:35.253664",
+    "status": 200,
+    "title": "9 агентов, 6 моделей, 1 сервер: как собрать ИИ-компанию на open-source в марте 2026 &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1009608/`": {
+    "checked": "2026-05-10T20:30:37.151070",
+    "status": 200,
+    "title": "9 агентов, 6 моделей, 1 сервер: как собрать ИИ-компанию на open-source в марте 2026 &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1009958/": {
+    "checked": "2026-05-10T20:30:38.950923",
+    "status": 200,
+    "title": "Claude Cowork в браузере: 10 сценариев для автоматизации рутины &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1009958/`": {
+    "checked": "2026-05-10T20:30:39.566820",
+    "status": 200,
+    "title": "Claude Cowork в браузере: 10 сценариев для автоматизации рутины &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1010198/": {
+    "checked": "2026-05-10T20:30:41.477401",
+    "status": 200,
+    "title": "Подробный технический разбор реализации Autoresearch, ИИ-исследователя Андрея Карпаты &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1010198/`": {
+    "checked": "2026-05-10T20:30:42.215094",
+    "status": 200,
+    "title": "Подробный технический разбор реализации Autoresearch, ИИ-исследователя Андрея Карпаты &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1010478/": {
+    "checked": "2026-05-10T20:30:44.458738",
+    "status": 200,
+    "title": "Слепое пятно LLM-разработки: контекст за пределами кода &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1010478/`": {
+    "checked": "2026-05-10T20:30:45.172768",
+    "status": 200,
+    "title": "Слепое пятно LLM-разработки: контекст за пределами кода &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1012894/": {
+    "checked": "2026-05-10T20:30:46.155359",
+    "status": 200,
+    "title": "Память ИИ‑агентов: как агенты запоминают, забывают и учатся &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1012894/`": {
+    "checked": "2026-05-10T20:30:46.800937",
+    "status": 200,
+    "title": "Память ИИ‑агентов: как агенты запоминают, забывают и учатся &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1014366/": {
+    "checked": "2026-05-10T20:30:48.649938",
+    "status": 200,
+    "title": "Open-source персистентная память для LLM &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1014366/`": {
+    "checked": "2026-05-10T20:30:49.719900",
+    "status": 200,
+    "title": "Open-source персистентная память для LLM &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1016096/": {
+    "checked": "2026-05-10T20:30:51.140368",
+    "status": 200,
+    "title": "Как я хотел одного AI-агента, а получил целую деревню &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1016096/`": {
+    "checked": "2026-05-10T20:30:52.440521",
+    "status": 200,
+    "title": "Как я хотел одного AI-агента, а получил целую деревню &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1017200/": {
+    "checked": "2026-05-10T20:30:54.248693",
+    "status": 200,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/1017200/`": {
+    "checked": "2026-05-10T20:30:55.342892",
+    "status": 200,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/1019588/": {
+    "checked": "2026-05-10T20:30:57.140026",
+    "status": 200,
+    "title": "Как я сделал скилл для AI-ревью плана и кода — и зачем мне две модели &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1019588/,": {
+    "checked": "2026-05-10T20:30:57.738856",
+    "status": 200,
+    "title": "Как я сделал скилл для AI-ревью плана и кода — и зачем мне две модели &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1019588/`": {
+    "checked": "2026-05-10T20:30:59.147864",
+    "status": 200,
+    "title": "Как я сделал скилл для AI-ревью плана и кода — и зачем мне две модели &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1020598/": {
+    "checked": "2026-05-10T20:31:01.317707",
+    "status": 200,
+    "title": "Как научить Claude Code работать с вебом и не сжигать на этом лимиты &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1020598/,": {
+    "checked": "2026-05-10T20:31:02.041028",
+    "status": 200,
+    "title": "Как научить Claude Code работать с вебом и не сжигать на этом лимиты &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1020598/`": {
+    "checked": "2026-05-10T20:31:03.413450",
+    "status": 200,
+    "title": "Как научить Claude Code работать с вебом и не сжигать на этом лимиты &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1020702/": {
+    "checked": "2026-05-10T20:31:04.752296",
+    "status": 200,
+    "title": "Как мы запустили 35B LLM на видеокарте за $500: внутри ZINC inference engine &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1020860/": {
+    "checked": "2026-05-10T20:31:06.329694",
+    "status": 200,
+    "title": "OpenClaw и память без амнезии: что выбрать между Lossless Claw, OpenViking, ByteRover, MemPalace и LLM Wiki &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1020860/`": {
+    "checked": "2026-05-10T20:31:07.408515",
+    "status": 200,
+    "title": "OpenClaw и память без амнезии: что выбрать между Lossless Claw, OpenViking, ByteRover, MemPalace и LLM Wiki &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1021622/": {
+    "checked": "2026-05-10T20:31:08.499334",
+    "status": 200,
+    "title": "Контекстная амнезия: три агента, три IDE, ноль общей памяти &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1021622/`": {
+    "checked": "2026-05-10T20:31:10.053067",
+    "status": 200,
+    "title": "Контекстная амнезия: три агента, три IDE, ноль общей памяти &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1023446/": {
+    "checked": "2026-05-10T20:31:11.921799",
+    "status": 200,
+    "title": "Как я собрал автономную AI-новостную систему за полтора месяца &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1023446/`": {
+    "checked": "2026-05-10T20:31:13.003693",
+    "status": 200,
+    "title": "Как я собрал автономную AI-новостную систему за полтора месяца &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1024634/": {
+    "checked": "2026-05-10T20:31:14.955191",
+    "status": 200,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/1024634/`": {
+    "checked": "2026-05-10T20:31:16.083438",
+    "status": 200,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/1024884/comments/": {
+    "checked": "2026-05-10T20:31:17.818364",
+    "status": 200,
+    "title": "Пробуем использовать локальные LLM для написания кода &#x2F; Комментарии &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1024884/comments/`": {
+    "checked": "2026-05-10T20:31:19.281687",
+    "status": 200,
+    "title": "Пробуем использовать локальные LLM для написания кода &#x2F; Комментарии &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1026666/": {
+    "checked": "2026-05-10T20:31:20.793424",
+    "status": 200,
+    "title": "785 статей. 26 доменов. Для агентов, не людей &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027210/": {
+    "checked": "2026-05-10T20:31:21.356334",
+    "status": 200,
+    "title": "Я строю AI-бот для самопознания. Вот спек, архитектура и почему LLM — это периферия, а не ядро &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027210/`": {
+    "checked": "2026-05-10T20:31:22.496159",
+    "status": 200,
+    "title": "Я строю AI-бот для самопознания. Вот спек, архитектура и почему LLM — это периферия, а не ядро &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027382/": {
+    "checked": "2026-05-10T20:31:24.376240",
+    "status": 200,
+    "title": "AI в iOS-разработке: что у меня реально закрепилось в 2026, а что я выкинул &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027382/`": {
+    "checked": "2026-05-10T20:31:24.967894",
+    "status": 200,
+    "title": "AI в iOS-разработке: что у меня реально закрепилось в 2026, а что я выкинул &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027658/": {
+    "checked": "2026-05-10T20:31:26.724778",
+    "status": 200,
+    "title": "Оффлайн агент IDE Continue за 15 минут &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027658/`": {
+    "checked": "2026-05-10T20:31:27.835474",
+    "status": 200,
+    "title": "Оффлайн агент IDE Continue за 15 минут &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027724/": {
+    "checked": "2026-05-10T20:31:28.708300",
+    "status": 200,
+    "title": "От каши к структуре: гибридная AI‑система для обработки свободного текста &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027724/`": {
+    "checked": "2026-05-10T20:31:30.482935",
+    "status": 200,
+    "title": "От каши к структуре: гибридная AI‑система для обработки свободного текста &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027878/": {
+    "checked": "2026-05-10T20:31:32.735798",
+    "status": 200,
+    "title": "Auto AI Router: высокопроизводительный прокси-роутер для LLM API на Go &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027878/,": {
+    "checked": "2026-05-10T20:31:33.975704",
+    "status": 200,
+    "title": "Auto AI Router: высокопроизводительный прокси-роутер для LLM API на Go &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/1027878/`": {
+    "checked": "2026-05-10T20:31:34.980651",
+    "status": 200,
+    "title": "Auto AI Router: высокопроизводительный прокси-роутер для LLM API на Go &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/495554/": {
+    "checked": "2026-05-10T20:31:37.394277",
+    "status": 200,
+    "title": "Программа для поиска единомышленников ВКонтакте [Open source] &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/495554/`": {
+    "checked": "2026-05-10T20:31:38.496587",
+    "status": 200,
+    "title": "Программа для поиска единомышленников ВКонтакте [Open source] &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/495554/`,": {
+    "checked": "2026-05-10T20:31:40.307615",
+    "status": 200,
+    "title": "Программа для поиска единомышленников ВКонтакте [Open source] &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/786278/": {
+    "checked": "2026-05-10T20:31:42.139486",
+    "status": 200,
+    "title": "Mamba. От начала до конца &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/800033/": {
+    "checked": "2026-05-10T20:31:43.752758",
+    "status": 200,
+    "title": "Extropic: Добро пожаловать в Термодинамическое Будущее (перевод) &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/893356/": {
+    "checked": "2026-05-10T20:31:44.476520",
+    "status": 200,
+    "title": "Как я победил в RAG Challenge: от нуля до SoTA за один конкурс &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/893356/`": {
+    "checked": "2026-05-10T20:31:45.706532",
+    "status": 200,
+    "title": "Как я победил в RAG Challenge: от нуля до SoTA за один конкурс &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/938626/": {
+    "checked": "2026-05-10T20:31:46.597124",
+    "status": 200,
+    "title": "Полное руководство по добавлению серверов MCP в Claude Code: от основ к мастерству &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/938626/,": {
+    "checked": "2026-05-10T20:31:47.658871",
+    "status": 200,
+    "title": "Полное руководство по добавлению серверов MCP в Claude Code: от основ к мастерству &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/938626/`": {
+    "checked": "2026-05-10T20:31:49.107510",
+    "status": 200,
+    "title": "Полное руководство по добавлению серверов MCP в Claude Code: от основ к мастерству &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/943498/": {
+    "checked": "2026-05-10T20:31:50.547573",
+    "status": 200,
+    "title": "Что скрывают чаты: анализ Telegram-сообществ &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/943498/,": {
+    "checked": "2026-05-10T20:31:52.102034",
+    "status": 200,
+    "title": "Что скрывают чаты: анализ Telegram-сообществ &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/943498/`": {
+    "checked": "2026-05-10T20:31:53.449667",
+    "status": 200,
+    "title": "Что скрывают чаты: анализ Telegram-сообществ &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/955798/": {
+    "checked": "2026-05-10T20:31:55.156555",
+    "status": 403,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/955798/`": {
+    "checked": "2026-05-10T20:31:56.048340",
+    "status": 404,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/971620/": {
+    "checked": "2026-05-10T20:31:56.670695",
+    "status": 200,
+    "title": "Мультиагентная разработка в Cursor: как заставить субагентов работать на большие проекты &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/975414/": {
+    "checked": "2026-05-10T20:31:57.705393",
+    "status": 200,
+    "title": "Сравнение агентских IDE для разработки с ИИ &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/975414/`": {
+    "checked": "2026-05-10T20:31:58.916957",
+    "status": 200,
+    "title": "Сравнение агентских IDE для разработки с ИИ &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/983684/": {
+    "checked": "2026-05-10T20:32:00.217768",
+    "status": 200,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/983684/`": {
+    "checked": "2026-05-10T20:32:01.294088",
+    "status": 200,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/987094/": {
+    "checked": "2026-05-10T20:32:02.996088",
+    "status": 200,
+    "title": "Claude Code: практический гайд по настройке, автоматизации и работе с контекстом &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/996144/": {
+    "checked": "2026-05-10T20:32:04.056953",
+    "status": 200,
+    "title": "Как гуманитарий за 2 месяца с нуля RAG систему построил, или Парсинг PDF по-хардкору &#x2F; Хабр"
+  },
+  "https://habr.com/ru/articles/996144/`": {
+    "checked": "2026-05-10T20:32:05.017149",
+    "status": 200,
+    "title": "Как гуманитарий за 2 месяца с нуля RAG систему построил, или Парсинг PDF по-хардкору &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/airi/articles/1000720/": {
+    "checked": "2026-05-10T20:32:06.404470",
+    "status": 200,
+    "title": "Wikontic: строим графы из текстов, используя онтологию и LLM &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/airi/articles/1000720/`": {
+    "checked": "2026-05-10T20:32:07.462844",
+    "status": 200,
+    "title": "Wikontic: строим графы из текстов, используя онтологию и LLM &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/airi/articles/1000720/`,": {
+    "checked": "2026-05-10T20:32:09.296855",
+    "status": 200,
+    "title": "Wikontic: строим графы из текстов, используя онтологию и LLM &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/airi/articles/855128/": {
+    "checked": "2026-05-10T20:32:11.601050",
+    "status": 200,
+    "title": "Prompt Me One More Time. Учим LLM строить графы знаний из текстов &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/airi/articles/855128/`": {
+    "checked": "2026-05-10T20:32:12.344415",
+    "status": 200,
+    "title": "Prompt Me One More Time. Учим LLM строить графы знаний из текстов &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/neuronet/articles/592625/": {
+    "checked": "2026-05-10T20:32:14.246573",
+    "status": 200,
+    "title": "Нейроморфные чипы: немного истории, существующие системы и возможности технологии &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/ruvds/articles/980152/": {
+    "checked": "2026-05-10T20:32:15.413943",
+    "status": 200,
+    "title": "Новое железо для ИИ. Вероятностные чипы Extropic &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/sberdevices/articles/855080/": {
+    "checked": "2026-05-10T20:32:16.151982",
+    "status": 200,
+    "title": "State Space Models. Mamba &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/selectel/articles/1023796/": {
+    "checked": "2026-05-10T20:32:16.889307",
+    "status": 200,
+    "title": "Что выбрать для AI: x86, ARM или RISC-V? Дайджест железа за март &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/surfstudio/articles/943108/": {
+    "checked": "2026-05-10T20:32:18.269178",
+    "status": 200,
+    "title": "Claude Code: лучшие практики агентного программирования &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/surfstudio/articles/943108/`": {
+    "checked": "2026-05-10T20:32:19.492809",
+    "status": 200,
+    "title": "Claude Code: лучшие практики агентного программирования &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/teamly/articles/1024062/": {
+    "checked": "2026-05-10T20:32:20.894452",
+    "status": 200,
+    "title": "Анатомия ИИ‑агента для подбора персонала. От тысячи резюме к топ‑10 за минуты &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/teamly/articles/1024062/`": {
+    "checked": "2026-05-10T20:32:22.041628",
+    "status": 200,
+    "title": "Анатомия ИИ‑агента для подбора персонала. От тысячи резюме к топ‑10 за минуты &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/yadro/articles/645843/": {
+    "checked": "2026-05-10T20:32:24.276336",
+    "status": 200,
+    "title": "Нейроморфные процессоры как подвид акселераторов для нейросетей [part 2] &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/yadro/articles/648119/": {
+    "checked": "2026-05-10T20:32:25.033439",
+    "status": 200,
+    "title": "Самые яркие проекты по созданию нейроморфных процессоров [part 3] &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/yandex/articles/1019928/": {
+    "checked": "2026-05-10T20:32:25.694454",
+    "status": 200,
+    "title": "От линейного текста к семантическому графу: строим knowledge‑extraction‑пайплайн для учёбы &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/yandex/articles/1019928/`": {
+    "checked": "2026-05-10T20:32:26.874423",
+    "status": 200,
+    "title": "От линейного текста к семантическому графу: строим knowledge‑extraction‑пайплайн для учёбы &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/yoomoney/articles/1012870/": {
+    "checked": "2026-05-10T20:32:28.736622",
+    "status": 200,
+    "title": "Почему одного Whisper оказалось недостаточно и как мы создали полноценный сервис распознавания речи &#x2F; Хабр"
+  },
+  "https://habr.com/ru/companies/yoomoney/articles/1012870/`": {
+    "checked": "2026-05-10T20:32:30.256061",
+    "status": 200,
+    "title": "Почему одного Whisper оказалось недостаточно и как мы создали полноценный сервис распознавания речи &#x2F; Хабр"
+  },
+  "https://habr.com/ru/news/789164/": {
+    "checked": "2026-05-10T20:32:31.800967",
+    "status": 200,
+    "title": "Стартап Normal Computing представил термодинамический компьютер &#x2F; Хабр"
+  },
+  "https://happyin.space/": {
+    "checked": "2026-05-10T20:32:32.968117",
+    "status": 200,
+    "title": "Home - Happyin Knowledge Space"
+  },
+  "https://img.shields.io/badge/health-100/100-brightgreen": {
+    "checked": "2026-05-10T20:32:34.341588",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/health-77/100-green": {
+    "checked": "2026-05-10T20:32:35.336649",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/health-80/100-green": {
+    "checked": "2026-05-10T20:32:35.520429",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/manifests-13-blue": {
+    "checked": "2026-05-10T20:32:35.690212",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/mcp--servers-10-blue": {
+    "checked": "2026-05-10T20:32:35.875387",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/mcp--servers-12-blue": {
+    "checked": "2026-05-10T20:32:36.028135",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/scripts-159-blue": {
+    "checked": "2026-05-10T20:32:36.193163",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/scripts-162-blue": {
+    "checked": "2026-05-10T20:32:36.352788",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/skills-28-blue": {
+    "checked": "2026-05-10T20:32:36.503748",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/templates-23-blue": {
+    "checked": "2026-05-10T20:32:36.659631",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/tests-0--passing-brightgreen": {
+    "checked": "2026-05-10T20:32:36.802119",
+    "status": 200,
+    "title": ""
+  },
+  "https://json-schema.org/draft/2020-12/schema": {
+    "checked": "2026-05-10T20:32:36.960728",
+    "status": 200,
+    "title": ""
+  },
+  "https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7": {
+    "checked": "2026-05-10T20:32:41.328501",
+    "status": 0,
+    "title": ""
+  },
+  "https://olegtalks.ru/base/tpost/xn7kev4fa1-docling-gotovim-dannie-dlya-rag-i-llm": {
+    "checked": "2026-05-10T20:32:41.398664",
+    "status": 200,
+    "title": "Docling: готовим данные для RAG и LLM"
+  },
+  "https://raw.githubusercontent.com/svend4/nautilus/main/adapters/base.py": {
+    "checked": "2026-05-10T20:32:46.982743",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/nautilus/main/glyph_adapter.py": {
+    "checked": "2026-05-10T20:32:47.287568",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/nautilus/main/nautilus.json": {
+    "checked": "2026-05-10T20:32:47.463502",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md": {
+    "checked": "2026-05-10T20:32:47.642195",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/nautilus/main/portal.py": {
+    "checked": "2026-05-10T20:32:47.813160",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/nautilus/main/requirements.txt": {
+    "checked": "2026-05-10T20:32:47.992402",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/pro2/main/README.md": {
+    "checked": "2026-05-10T20:32:48.255344",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/pro2/main/nautilus/README.md": {
+    "checked": "2026-05-10T20:32:48.442349",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/pro2/main/nautilus/adapters/base.py": {
+    "checked": "2026-05-10T20:32:48.648609",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/pro2/main/nautilus/adapters/info1.py": {
+    "checked": "2026-05-10T20:32:48.822785",
+    "status": 200,
+    "title": ""
+  },
+  "https://raw.githubusercontent.com/svend4/pro2/main/nautilus/nautilus.json": {
+    "checked": "2026-05-10T20:32:48.995853",
+    "status": 200,
+    "title": ""
+  },
+  "https://solidproject.org/": {
+    "checked": "2026-05-10T20:32:49.156293",
+    "status": 200,
+    "title": "Solid: Your data, your choice - Solid Project"
+  },
+  "https://support.claude.com/en/collections/13345190-cowork": {
+    "checked": "2026-05-10T20:32:50.594703",
+    "status": 404,
+    "title": ""
+  },
+  "https://vc.ru/id744101/2789872": {
+    "checked": "2026-05-10T20:32:51.017084",
+    "status": 200,
+    "title": "Скиллы для агентов в Claude Code, Cursor, Codex... Навыки без которых уже никуда — Sergei Poliakov на vc.ru"
+  },
+  "https://web.hypothes.is/": {
+    "checked": "2026-05-10T20:32:54.509625",
+    "status": 200,
+    "title": ""
+  },
+  "https://www.": {
+    "checked": "2026-05-10T20:32:55.292623",
+    "status": 0,
+    "title": ""
+  },
+  "https://www.camel-ai.org": {
+    "checked": "2026-05-10T20:32:55.318975",
+    "status": 200,
+    "title": "CAMEL-AI | Finding the Scaling Laws of Agents | CAMEL-AI"
+  },
+  "https://www.discourse.org/": {
+    "checked": "2026-05-10T20:32:56.635293",
+    "status": 200,
+    "title": "Discourse | Where Tech Companies Build Communities"
+  },
+  "https://www.fontanka.ru/2026/04/25/76378978/": {
+    "checked": "2026-05-10T20:32:57.511995",
+    "status": 200,
+    "title": ""
+  },
+  "https://www.fossil-scm.org/": {
+    "checked": "2026-05-10T20:32:59.860912",
+    "status": 200,
+    "title": "Fossil: A Coherent Software Configuration Management System"
+  },
+  "https://www.w3.org/standards/semanticweb/data": {
+    "checked": "2026-05-10T20:33:02.784919",
+    "status": 200,
+    "title": "Web Standards | W3C"
+  },
+  "http://localhost:8000`": {
+    "checked": "2026-05-11T08:53:59.807955",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000``": {
+    "checked": "2026-05-11T08:53:59.808766",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000```": {
+    "checked": "2026-05-11T08:53:59.808831",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000````": {
+    "checked": "2026-05-11T08:53:59.808884",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000`````": {
+    "checked": "2026-05-11T08:53:59.808937",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080`": {
+    "checked": "2026-05-11T08:53:59.809019",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080``": {
+    "checked": "2026-05-11T08:53:59.809066",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080```": {
+    "checked": "2026-05-11T08:53:59.809112",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080````": {
+    "checked": "2026-05-11T08:53:59.809179",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080`````": {
+    "checked": "2026-05-11T08:53:59.809221",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/ask": {
+    "checked": "2026-05-11T08:53:59.809261",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/benchmark": {
+    "checked": "2026-05-11T08:53:59.811162",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/cards": {
+    "checked": "2026-05-11T08:53:59.811471",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/collabs": {
+    "checked": "2026-05-11T08:53:59.811629",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/health": {
+    "checked": "2026-05-11T08:53:59.811999",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/search": {
+    "checked": "2026-05-11T08:53:59.812187",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/docs": {
+    "checked": "2026-05-11T08:53:59.812305",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1": {
+    "checked": "2026-05-11T08:53:59.812415",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1/chat/completions": {
+    "checked": "2026-05-11T08:53:59.812515",
+    "status": 0,
+    "title": ""
+  },
+  "https://...install.sh`": {
+    "checked": "2026-05-11T08:53:59.812651",
+    "status": 0,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-content-overview|anthropic": {
+    "checked": "2026-05-11T08:53:59.836181",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|anthropic": {
+    "checked": "2026-05-11T08:54:06.672950",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic": {
+    "checked": "2026-05-11T08:54:07.841522",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[README|anthropic": {
+    "checked": "2026-05-11T08:54:08.094758",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[anthropic`": {
+    "checked": "2026-05-11T08:54:08.337167",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe`": {
+    "checked": "2026-05-11T08:54:08.592417",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-pr`": {
+    "checked": "2026-05-11T08:54:08.819540",
+    "status": 404,
+    "title": ""
+  },
+  "https://activitypub.rocks/`": {
+    "checked": "2026-05-11T08:54:09.072275",
+    "status": 404,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner`": {
+    "checked": "2026-05-11T08:54:13.294002",
+    "status": 403,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated`": {
+    "checked": "2026-05-11T08:54:13.473815",
+    "status": 403,
+    "title": ""
+  },
+  "https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv`": {
+    "checked": "2026-05-11T08:54:13.552684",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz`": {
+    "checked": "2026-05-11T08:54:13.840824",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW`": {
+    "checked": "2026-05-11T08:54:14.391409",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.com/product/cowork`": {
+    "checked": "2026-05-11T08:54:14.535024",
+    "status": 404,
+    "title": ""
+  },
+  "https://creativecommons.org/licenses/by/4.0/`": {
+    "checked": "2026-05-11T08:54:14.806491",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker.ietf.org/doc/html/rfc2119`": {
+    "checked": "2026-05-11T08:54:15.778276",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker`": {
+    "checked": "2026-05-11T08:54:16.514502",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|[obsidian`": {
+    "checked": "2026-05-11T08:54:16.535801",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|obsidian`": {
+    "checked": "2026-05-11T08:54:16.536104",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[12-content-overview|[03-component-catalog|obsidian`": {
+    "checked": "2026-05-11T08:54:16.536131",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|[obsidian`": {
+    "checked": "2026-05-11T08:54:16.536159",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|obsidian`": {
+    "checked": "2026-05-11T08:54:16.536193",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[obsidian`": {
+    "checked": "2026-05-11T08:54:16.536228",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a`": {
+    "checked": "2026-05-11T08:54:16.536262",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.`": {
+    "checked": "2026-05-11T08:54:22.198820",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space`,`": {
+    "checked": "2026-05-11T08:54:22.220259",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space``": {
+    "checked": "2026-05-11T08:54:22.410079",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW``": {
+    "checked": "2026-05-11T08:54:22.709732",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Antipozitive``": {
+    "checked": "2026-05-11T08:54:22.909027",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Cutcode``": {
+    "checked": "2026-05-11T08:54:23.101200",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Dmitriila``": {
+    "checked": "2026-05-11T08:54:23.278159",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/MiXaiLL76``": {
+    "checked": "2026-05-11T08:54:23.474181",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Sonia_Black``": {
+    "checked": "2026-05-11T08:54:23.660199",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin/yodoca``": {
+    "checked": "2026-05-11T08:54:23.876244",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin``": {
+    "checked": "2026-05-11T08:54:24.082921",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VladSpace``": {
+    "checked": "2026-05-11T08:54:24.275766",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/andrey_chuyan``": {
+    "checked": "2026-05-11T08:54:24.462048",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/anthropics/mcp``": {
+    "checked": "2026-05-11T08:54:24.656753",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/camel-ai/camel``": {
+    "checked": "2026-05-11T08:54:24.836800",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/kksudo/agentfs``": {
+    "checked": "2026-05-11T08:54:25.028014",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/kksudo``": {
+    "checked": "2026-05-11T08:54:25.259777",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/mcp`,`": {
+    "checked": "2026-05-11T08:54:25.441600",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/mcp``": {
+    "checked": "2026-05-11T08:54:25.642528",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/nlaik``": {
+    "checked": "2026-05-11T08:54:25.846162",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/settings/tokens``": {
+    "checked": "2026-05-11T08:54:26.040056",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot/ngt-memory``": {
+    "checked": "2026-05-11T08:54:26.235757",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot/…`": {
+    "checked": "2026-05-11T08:54:26.446301",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/spbmolot``": {
+    "checked": "2026-05-11T08:54:26.466993",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/``": {
+    "checked": "2026-05-11T08:54:26.723929",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/data70``": {
+    "checked": "2026-05-11T08:54:26.956591",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info1`,`": {
+    "checked": "2026-05-11T08:54:27.157991",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info1``": {
+    "checked": "2026-05-11T08:54:27.348117",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info40``": {
+    "checked": "2026-05-11T08:54:27.548231",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info7``": {
+    "checked": "2026-05-11T08:54:27.754556",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit/issues``": {
+    "checked": "2026-05-11T08:54:27.925475",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit``": {
+    "checked": "2026-05-11T08:54:28.164675",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/meta`,": {
+    "checked": "2026-05-11T08:54:28.369319",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/meta``": {
+    "checked": "2026-05-11T08:54:28.551696",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus.git``": {
+    "checked": "2026-05-11T08:54:28.719234",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes`": {
+    "checked": "2026-05-11T08:54:28.821600",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/INTEGRATION.md`": {
+    "checked": "2026-05-11T08:54:29.280340",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md``": {
+    "checked": "2026-05-11T08:54:29.663468",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL``": {
+    "checked": "2026-05-11T08:54:30.052877",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/README.md`": {
+    "checked": "2026-05-11T08:54:30.420169",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md``": {
+    "checked": "2026-05-11T08:54:30.787745",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/STATUS.md`": {
+    "checked": "2026-05-11T08:54:31.263104",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE`": {
+    "checked": "2026-05-11T08:54:31.611091",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...``": {
+    "checked": "2026-05-11T08:54:32.000607",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md`": {
+    "checked": "2026-05-11T08:54:32.412381",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/branches``": {
+    "checked": "2026-05-11T08:54:33.081768",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/commits/main``": {
+    "checked": "2026-05-11T08:54:33.310934",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/issues``": {
+    "checked": "2026-05-11T08:54:34.028502",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f1`": {
+    "checked": "2026-05-11T08:54:34.236618",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/main/adapters`": {
+    "checked": "2026-05-11T08:54:34.508975",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/main/passports`": {
+    "checked": "2026-05-11T08:54:34.899804",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus``": {
+    "checked": "2026-05-11T08:54:35.456687",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/blob/main/nautilus/README.md``": {
+    "checked": "2026-05-11T08:54:35.655149",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...``": {
+    "checked": "2026-05-11T08:54:36.299956",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/main/nautilus``": {
+    "checked": "2026-05-11T08:54:36.538980",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2``": {
+    "checked": "2026-05-11T08:54:36.910134",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/tagir_analyzes``": {
+    "checked": "2026-05-11T08:54:37.107266",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/zodigancode``": {
+    "checked": "2026-05-11T08:54:37.286904",
+    "status": 404,
+    "title": ""
+  },
+  "https://github`": {
+    "checked": "2026-05-11T08:54:37.478473",
+    "status": 0,
+    "title": ""
+  },
+  "https://habr.`": {
+    "checked": "2026-05-11T08:54:37.501400",
+    "status": 0,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/955798/``": {
+    "checked": "2026-05-11T08:54:37.523075",
+    "status": 503,
+    "title": ""
+  },
+  "https://img.shields.io/badge/scripts-163-blue": {
+    "checked": "2026-05-11T08:54:40.369176",
+    "status": 200,
+    "title": ""
+  },
+  "https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7`": {
+    "checked": "2026-05-11T08:54:41.481799",
+    "status": 0,
+    "title": ""
+  },
+  "https://support.claude.com/en/collections/13345190-cowork`": {
+    "checked": "2026-05-11T08:54:41.932571",
+    "status": 404,
+    "title": ""
+  },
+  "https://www.`": {
+    "checked": "2026-05-11T08:54:42.332237",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000``````": {
+    "checked": "2026-05-11T09:53:17.558025",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080``````": {
+    "checked": "2026-05-11T09:53:17.558928",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/ask`": {
+    "checked": "2026-05-11T09:53:17.559050",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/benchmark`": {
+    "checked": "2026-05-11T09:53:17.560878",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/cards`": {
+    "checked": "2026-05-11T09:53:17.561167",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/collabs`": {
+    "checked": "2026-05-11T09:53:17.561430",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/health`": {
+    "checked": "2026-05-11T09:53:17.561718",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/search`": {
+    "checked": "2026-05-11T09:53:17.561969",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/docs`": {
+    "checked": "2026-05-11T09:53:17.562185",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1/chat/completions`": {
+    "checked": "2026-05-11T09:53:17.562384",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1`": {
+    "checked": "2026-05-11T09:53:17.562730",
+    "status": 0,
+    "title": ""
+  },
+  "https://...install.sh``": {
+    "checked": "2026-05-11T09:53:17.562933",
+    "status": 0,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-c`": {
+    "checked": "2026-05-11T09:53:17.584859",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-content-overview|[12-c`": {
+    "checked": "2026-05-11T09:53:19.428820",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|anthr`": {
+    "checked": "2026-05-11T09:53:20.743518",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic`": {
+    "checked": "2026-05-11T09:53:21.010325",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[README|[12-content-overview|[12-content-overview|anthropic": {
+    "checked": "2026-05-11T09:53:21.264382",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[README|anthropic`": {
+    "checked": "2026-05-11T09:53:21.678361",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[anthropic``": {
+    "checked": "2026-05-11T09:53:22.057709",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe``": {
+    "checked": "2026-05-11T09:53:22.315473",
+    "status": 404,
+    "title": ""
+  },
+  "https://activitypub.rocks/``": {
+    "checked": "2026-05-11T09:53:22.549228",
+    "status": 404,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner``": {
+    "checked": "2026-05-11T09:53:23.736330",
+    "status": 403,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated``": {
+    "checked": "2026-05-11T09:53:23.902250",
+    "status": 403,
+    "title": ""
+  },
+  "https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv``": {
+    "checked": "2026-05-11T09:53:24.059394",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz``": {
+    "checked": "2026-05-11T09:53:24.351075",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW``": {
+    "checked": "2026-05-11T09:53:24.735113",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.com/product/cowork``": {
+    "checked": "2026-05-11T09:53:24.877303",
+    "status": 404,
+    "title": ""
+  },
+  "https://creativecommons.org/licenses/by/4.0/``": {
+    "checked": "2026-05-11T09:53:25.132299",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker.ietf.org/doc/html/rfc2119``": {
+    "checked": "2026-05-11T09:53:26.081558",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker``": {
+    "checked": "2026-05-11T09:53:27.328261",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|[obsidian``": {
+    "checked": "2026-05-11T09:53:27.349874",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|obsidian``": {
+    "checked": "2026-05-11T09:53:27.350238",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[12-content-overview|[03-component-catalog|obsidian``": {
+    "checked": "2026-05-11T09:53:27.350280",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|[obsidian``": {
+    "checked": "2026-05-11T09:53:27.350323",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|obsidian``": {
+    "checked": "2026-05-11T09:53:27.350368",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[obsidian``": {
+    "checked": "2026-05-11T09:53:27.350414",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a``": {
+    "checked": "2026-05-11T09:53:27.350461",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.``": {
+    "checked": "2026-05-11T09:53:28.542038",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space`,``": {
+    "checked": "2026-05-11T09:53:28.563508",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space```": {
+    "checked": "2026-05-11T09:53:28.798611",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW```": {
+    "checked": "2026-05-11T09:53:29.003728",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Antipozitive```": {
+    "checked": "2026-05-11T09:53:29.205819",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Cutcode```": {
+    "checked": "2026-05-11T09:53:29.473801",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Dmitriila```": {
+    "checked": "2026-05-11T09:53:29.665124",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/MiXaiLL76```": {
+    "checked": "2026-05-11T09:53:29.847606",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Sonia_Black```": {
+    "checked": "2026-05-11T09:53:30.092822",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin/yodoca```": {
+    "checked": "2026-05-11T09:53:30.295262",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin```": {
+    "checked": "2026-05-11T09:53:30.586030",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VladSpace```": {
+    "checked": "2026-05-11T09:53:30.756679",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/andrey_chuyan```": {
+    "checked": "2026-05-11T09:53:30.967430",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/anthropics/mcp```": {
+    "checked": "2026-05-11T09:53:31.195986",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/camel-ai/camel```": {
+    "checked": "2026-05-11T09:53:31.380586",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/kksudo/agentfs```": {
+    "checked": "2026-05-11T09:53:31.594129",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/kksudo```": {
+    "checked": "2026-05-11T09:53:31.828280",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/mcp`,``": {
+    "checked": "2026-05-11T09:53:32.011158",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/mcp```": {
+    "checked": "2026-05-11T09:53:32.191061",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/nlaik```": {
+    "checked": "2026-05-11T09:53:32.393607",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/settings/tokens```": {
+    "checked": "2026-05-11T09:53:32.629393",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot/ngt-memory```": {
+    "checked": "2026-05-11T09:53:32.958204",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot/…``": {
+    "checked": "2026-05-11T09:53:33.154697",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/spbmolot```": {
+    "checked": "2026-05-11T09:53:33.175787",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/```": {
+    "checked": "2026-05-11T09:53:33.355351",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/data70```": {
+    "checked": "2026-05-11T09:53:33.580422",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info1`,``": {
+    "checked": "2026-05-11T09:53:33.759226",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info1```": {
+    "checked": "2026-05-11T09:53:33.952847",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info40```": {
+    "checked": "2026-05-11T09:53:34.132806",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info7```": {
+    "checked": "2026-05-11T09:53:34.397116",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit/issues```": {
+    "checked": "2026-05-11T09:53:34.560393",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit```": {
+    "checked": "2026-05-11T09:53:34.849118",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/meta`,`": {
+    "checked": "2026-05-11T09:53:35.057810",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/meta```": {
+    "checked": "2026-05-11T09:53:35.276334",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus.git```": {
+    "checked": "2026-05-11T09:53:35.440998",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes``": {
+    "checked": "2026-05-11T09:53:35.526690",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/INTEGRATION.md``": {
+    "checked": "2026-05-11T09:53:36.011656",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md```": {
+    "checked": "2026-05-11T09:53:36.397542",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL```": {
+    "checked": "2026-05-11T09:53:36.842240",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/README.md``": {
+    "checked": "2026-05-11T09:53:37.416335",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md```": {
+    "checked": "2026-05-11T09:53:37.764334",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/STATUS.md``": {
+    "checked": "2026-05-11T09:53:38.149591",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE``": {
+    "checked": "2026-05-11T09:53:38.558976",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...```": {
+    "checked": "2026-05-11T09:53:38.974115",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md``": {
+    "checked": "2026-05-11T09:53:39.384879",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/branches```": {
+    "checked": "2026-05-11T09:53:39.743420",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/commits/main```": {
+    "checked": "2026-05-11T09:53:39.955231",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/issues```": {
+    "checked": "2026-05-11T09:53:40.664065",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f1``": {
+    "checked": "2026-05-11T09:53:40.909377",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/main/adapters``": {
+    "checked": "2026-05-11T09:53:41.169974",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/main/passports``": {
+    "checked": "2026-05-11T09:53:41.539098",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus```": {
+    "checked": "2026-05-11T09:53:41.914537",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/blob/main/nautilus/README.md```": {
+    "checked": "2026-05-11T09:53:42.135655",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...```": {
+    "checked": "2026-05-11T09:53:42.798715",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/main/nautilus```": {
+    "checked": "2026-05-11T09:53:43.118093",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2```": {
+    "checked": "2026-05-11T09:53:43.608609",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/tagir_analyzes```": {
+    "checked": "2026-05-11T09:53:43.792552",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/zodigancode```": {
+    "checked": "2026-05-11T09:53:43.990132",
+    "status": 404,
+    "title": ""
+  },
+  "https://github``": {
+    "checked": "2026-05-11T09:53:44.194156",
+    "status": 0,
+    "title": ""
+  },
+  "https://habr.``": {
+    "checked": "2026-05-11T09:53:44.215368",
+    "status": 0,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/955798/```": {
+    "checked": "2026-05-11T09:53:44.236456",
+    "status": 404,
+    "title": ""
+  },
+  "https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7``": {
+    "checked": "2026-05-11T09:53:45.658291",
+    "status": 0,
+    "title": ""
+  },
+  "https://support.claude.com/en/collections/13345190-cowork``": {
+    "checked": "2026-05-11T09:53:46.733998",
+    "status": 404,
+    "title": ""
+  },
+  "https://www.``": {
+    "checked": "2026-05-11T09:53:47.049123",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000```````": {
+    "checked": "2026-05-12T17:10:26.697168",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080```````": {
+    "checked": "2026-05-12T17:10:26.698007",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/ask``": {
+    "checked": "2026-05-12T17:10:26.698083",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/benchmark``": {
+    "checked": "2026-05-12T17:10:26.699904",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/cards``": {
+    "checked": "2026-05-12T17:10:26.700235",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/collabs``": {
+    "checked": "2026-05-12T17:10:26.700418",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/health``": {
+    "checked": "2026-05-12T17:10:26.700549",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/search``": {
+    "checked": "2026-05-12T17:10:26.700683",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/docs``": {
+    "checked": "2026-05-12T17:10:26.700837",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1/chat/completions``": {
+    "checked": "2026-05-12T17:10:26.700966",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1``": {
+    "checked": "2026-05-12T17:10:26.701103",
+    "status": 0,
+    "title": ""
+  },
+  "https://...install.sh```": {
+    "checked": "2026-05-12T17:10:26.701253",
+    "status": 0,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic``": {
+    "checked": "2026-05-12T17:10:26.725690",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[README|[12-content-overview|[12-content-overvi`": {
+    "checked": "2026-05-12T17:10:28.516367",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[README|[12-content-overview|[12-content-overview|[12-c`": {
+    "checked": "2026-05-12T17:10:28.909598",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[README|anthropic``": {
+    "checked": "2026-05-12T17:10:29.323077",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[anthropic```": {
+    "checked": "2026-05-12T17:10:30.340752",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe```": {
+    "checked": "2026-05-12T17:10:30.696310",
+    "status": 404,
+    "title": ""
+  },
+  "https://activitypub.rocks/```": {
+    "checked": "2026-05-12T17:10:31.056685",
+    "status": 404,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner```": {
+    "checked": "2026-05-12T17:10:32.220047",
+    "status": 403,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated```": {
+    "checked": "2026-05-12T17:10:32.415405",
+    "status": 403,
+    "title": ""
+  },
+  "https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv```": {
+    "checked": "2026-05-12T17:10:32.481909",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz```": {
+    "checked": "2026-05-12T17:10:32.726495",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW```": {
+    "checked": "2026-05-12T17:10:32.896800",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.com/product/cowork```": {
+    "checked": "2026-05-12T17:10:33.124276",
+    "status": 404,
+    "title": ""
+  },
+  "https://creativecommons.org/licenses/by/4.0/```": {
+    "checked": "2026-05-12T17:10:33.496028",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker.ietf.org/doc/html/rfc2119```": {
+    "checked": "2026-05-12T17:10:34.523910",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker```": {
+    "checked": "2026-05-12T17:10:35.209182",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|[obsidian```": {
+    "checked": "2026-05-12T17:10:35.232906",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|obsidian```": {
+    "checked": "2026-05-12T17:10:35.233167",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[12-content-overview|[03-component-catalog|obsidian```": {
+    "checked": "2026-05-12T17:10:35.233222",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|[obsidian```": {
+    "checked": "2026-05-12T17:10:35.233265",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|obsidian```": {
+    "checked": "2026-05-12T17:10:35.233308",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[obsidian```": {
+    "checked": "2026-05-12T17:10:35.233350",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a```": {
+    "checked": "2026-05-12T17:10:35.233398",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.```": {
+    "checked": "2026-05-12T17:10:36.209160",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space`,```": {
+    "checked": "2026-05-12T17:10:36.233240",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space````": {
+    "checked": "2026-05-12T17:10:36.508478",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW````": {
+    "checked": "2026-05-12T17:10:36.831301",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Antipozitive````": {
+    "checked": "2026-05-12T17:10:37.028991",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Cutcode````": {
+    "checked": "2026-05-12T17:10:37.228662",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Dmitriila````": {
+    "checked": "2026-05-12T17:10:37.419733",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/MiXaiLL76````": {
+    "checked": "2026-05-12T17:10:37.616423",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Sonia_Black````": {
+    "checked": "2026-05-12T17:10:37.792457",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin/yodoca````": {
+    "checked": "2026-05-12T17:10:37.994517",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin````": {
+    "checked": "2026-05-12T17:10:38.178975",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VladSpace````": {
+    "checked": "2026-05-12T17:10:38.381084",
+    "status": 404,
+    "title": ""
+  },
+  "https://gi…": {
+    "checked": "2026-05-12T17:10:38.729640",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8": {
+    "checked": "2026-05-12T17:14:14.829708",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000````````": {
+    "checked": "2026-05-12T17:14:14.832221",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080````````": {
+    "checked": "2026-05-12T17:14:14.832384",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/ask```": {
+    "checked": "2026-05-12T17:14:14.832462",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/benchmark```": {
+    "checked": "2026-05-12T17:14:14.832955",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/cards```": {
+    "checked": "2026-05-12T17:14:14.833150",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/collabs```": {
+    "checked": "2026-05-12T17:14:14.833322",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/health```": {
+    "checked": "2026-05-12T17:14:14.833452",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/search```": {
+    "checked": "2026-05-12T17:14:14.833615",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/docs```": {
+    "checked": "2026-05-12T17:14:14.834076",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1/chat/completions```": {
+    "checked": "2026-05-12T17:14:14.834246",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1```": {
+    "checked": "2026-05-12T17:14:14.834395",
+    "status": 0,
+    "title": ""
+  },
+  "https://...install.sh````": {
+    "checked": "2026-05-12T17:14:14.834496",
+    "status": 0,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic```": {
+    "checked": "2026-05-12T17:14:14.859152",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[README|anthropic```": {
+    "checked": "2026-05-12T17:14:16.151446",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[anthropic````": {
+    "checked": "2026-05-12T17:14:17.311181",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe````": {
+    "checked": "2026-05-12T17:14:17.543374",
+    "status": 404,
+    "title": ""
+  },
+  "https://activitypub.rocks/````": {
+    "checked": "2026-05-12T17:14:17.907056",
+    "status": 404,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated````": {
+    "checked": "2026-05-12T17:14:18.847719",
+    "status": 403,
+    "title": ""
+  },
+  "https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv````": {
+    "checked": "2026-05-12T17:14:18.949042",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz````": {
+    "checked": "2026-05-12T17:14:19.214633",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW````": {
+    "checked": "2026-05-12T17:14:19.379824",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.com/product/cowork````": {
+    "checked": "2026-05-12T17:14:19.543965",
+    "status": 404,
+    "title": ""
+  },
+  "https://creativecommons.org/licenses/by/4.0/````": {
+    "checked": "2026-05-12T17:14:19.898356",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker.ietf.org/doc/html/rfc2119````": {
+    "checked": "2026-05-12T17:14:21.147695",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker````": {
+    "checked": "2026-05-12T17:14:27.199569",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|[obsidian````": {
+    "checked": "2026-05-12T17:14:27.223980",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|obsidian````": {
+    "checked": "2026-05-12T17:14:27.224283",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[12-content-overview|[03-component-catalog|obsidian````": {
+    "checked": "2026-05-12T17:14:27.224337",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|[obsidian````": {
+    "checked": "2026-05-12T17:14:27.224383",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|obsidian````": {
+    "checked": "2026-05-12T17:14:27.224432",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[obsidian````": {
+    "checked": "2026-05-12T17:14:27.224487",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a````": {
+    "checked": "2026-05-12T17:14:27.224532",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.````": {
+    "checked": "2026-05-12T17:14:28.154866",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space`,````": {
+    "checked": "2026-05-12T17:14:28.179422",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space`````": {
+    "checked": "2026-05-12T17:14:28.375019",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW`````": {
+    "checked": "2026-05-12T17:14:28.629666",
+    "status": 404,
+    "title": ""
+  },
+  "https://img.shields.io/badge/scripts-166-blue": {
+    "checked": "2026-05-12T17:14:28.822068",
+    "status": 200,
+    "title": ""
+  },
+  "https://img.shields.io/badge/validation-21--valid-brightgreen": {
+    "checked": "2026-05-12T17:14:29.740509",
+    "status": 200,
+    "title": ""
+  }
+}

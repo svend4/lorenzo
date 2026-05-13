@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:65e5253741084df1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/synthesis-tables/31-35-final.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:78278dcb62f3c801",
+  "payload": {
+    "title": "Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus",
+    "summary": "Complete architecture combining ALL 35 combinations:",
+    "body": "комбинация mega stack with event sourcing consensus tip документ содержит практические рекомендации лучшие практики источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также final synthesis tables final event sourcing consensus mega stacks event sourcing consensus event sourcing cqrs clickhouse analytics event sourcing cqrs clickhouse analytics event sourced legal document history event sourced legal document history",
+    "tags": [
+      "rag",
+      "orchestration",
+      "local-first",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 483,
+    "path": "docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md"
+  }
+}

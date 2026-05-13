@@ -1,144 +1,72 @@
-# Svyazi 2.0 — Knowledge Base Report
+# Executive Report: Репозиторий Lorenzo
 
-_Сгенерировано автоматически: 2026-04-29_
-
----
-
-## Содержание
-
-1. [Executive Summary](#executive-summary)
-2. [Корпус документов](#корпус-документов)
-3. [Ключевые проекты](#ключевые-проекты)
-4. [Ключевые сущности](#ключевые-сущности)
-5. [Архитектурные решения](#архитектурные-решения)
-6. [Открытые вопросы](#открытые-вопросы)
-7. [Рекомендуемое чтение](#рекомендуемое-чтение)
-
-## Executive Summary
-
-**Svyazi 2.0 — Knowledge Base Report** — аналитический обзор базы знаний, сгенерированный автоматически 2026-04-29.
-
-База содержит **1171 документов** объёмом **1,073,843 слов** в **20 секциях**. Здоровье репозитория: **77/100/100**, средний балл документов: **73.0/100/100**, словарное богатство (STTR): **0.637**.
-
-Цель базы знаний — поддержка разработки **Svyazi 2.0**, community intelligence platform, объединяющей лучшие OSS-проекты с Хабра в единую архитектуру Knowledge OS.
-
-## Корпус документов
-
-### Общая статистика
-
-| Метрика | Значение |
-|---------|----------|
-| Документов | **1171** |
-| Слов | **1,073,843** |
-| Секций | **20** |
-| Здоровье репо | **77/100/100** |
-| Средний балл | **73.0/100/100** |
-| Словарное богатство (STTR) | **0.637** |
-
-### По секциям
-
-| Секция | Файлов | Слов |
-|--------|--------|------|
-| **obsidian** | 1166 | 1,049,176 |
-| **Anthropic Vacancies** | 357 | 312,388 |
-| **nautilus** | 255 | 153,298 |
-| **anthropic-vacancies** | 111 | 32,927 |
-| **AI Collaborations** | 17 | 26,299 |
-| **lorenzo-agent** | 62 | 21,077 |
-| **habr-unique-projects** | 56 | 14,157 |
-| **technology-combinations** | 53 | 13,849 |
-| **svyazi-2-0** | 59 | 13,565 |
-| **Svyazi 2.0** | 16 | 11,501 |
-| **Habr Projects** | 10 | 9,164 |
-| **ai-collaborations** | 30 | 8,743 |
-| **Contacts** | 15 | 3,163 |
-| **Tech Combinations** | 7 | 3,093 |
-| **glossary** | 4 | 2,354 |
-| **autofilled** | 13 | 1,944 |
-| **Templates** | 6 | 633 |
-| **badges** | 1 | 44 |
-
-## Ключевые проекты
-
-_Авторы и проекты из CONTACTS.md:_
-
-| Автор | Проект | Слой | Приоритет |
-|-------|--------|------|-----------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 85 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 53 | — |
-| **Cutcode** | AIF Handoff | orchestration | 74 | — |
-| **Dmitriila** | SENTINEL | security | 68 | — |
-| **MiXaiLL76** | Auto AI Router | security | 64 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 33 | — |
-| **VitalyOborin** | Yodoca | memory | 70 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 77 | — |
-
-## Ключевые сущности
-
-- 👤 **anthropic** (people) — упомянут в 802 файлах
-- 📦 **nautilus** (projects) — упомянут в 532 файлах
-- 📦 **obsidian** (projects) — упомянут в 432 файлах
-- 👤 **claude** (people) — упомянут в 417 файлах
-- 📦 **svyazi** (projects) — упомянут в 318 файлах
-- ⚙️ **mcp** (tech) — упомянут в 314 файлах
-- 🏢 **вк** (orgs) — упомянут в 273 файлах
-- 📦 **github** (projects) — упомянут в 239 файлах
-- 👤 **svend4** (people) — упомянут в 206 файлах
-- 🏢 **meta** (orgs) — упомянут в 200 файлах
-
-## Архитектурные решения
-
-_Из DECISIONS.md:_
-
-- **На Хабре пока не видно одного готового проекта, который уже собрал все слои в единое целое, но видно много авторов, ка
-- путь — начать с минимального прототипа из пяти компонентов: 1. Svyazi‑подобный import/normalize/CardIndex 2. AgentFS‑под
-- Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP 2. > 🏷️ **Ключевые слова:** `svyazi`, `проект`, `cardin
-- кандидат для слоя `.agentos/` и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и Git
-- слой — не память, не RAG[^rag] и не оркестр **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mcla
-- слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный
-- Svyazi + AgentFS + NGT^ngt/Yodoca + LiteParse: это даёт уже полезный MVP. > 🏷️ **Ключевые слова:** `summary`, `svyazi`, 
-- **Svyazi‑2.0 нужно начинать не с “самой умной модели”, а с самой строгой структуры переходов между слоями**. Сильная мод
-
-## Открытые вопросы
-
-_Из QUESTIONS.md — вопросы, требующие решения:_
-
-- - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.
-- - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](docs/QA.md)]
-- - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](docs/QA.md)]
-- - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](docs/QA.md)]
-- - Какие инструменты обеспечивают безопасность агентов? [[Глобальный Q&A](docs/QA.md)]
-- ## Как реализован forensic RAG с доказуемостью? [Раздел: 01-svyazi]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
-
-## Рекомендуемое чтение
-
-_Топ документов по насыщенности (из READING_LIST.md):_
-
-| # | Документ | Секция | Время | Слов |
-|---|----------|--------|-------|------|
-| 1 | [11 integration contracts](docs/01-svyazi/11-integration-contracts.md) | `01-svyazi` | 3 мин | 737 | 9.6 |
-| 2 | [Интеграционный контракт, который стоит зафиксирова](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) | `04-ai-collaborations` | 4 мин | 846 | 9.4 |
-| 3 | [09 architectural gaps](docs/01-svyazi/09-architectural-gaps.md) | `01-svyazi` | 3 мин | 758 | 9.3 |
-| 4 | [Архитектурные зазоры, которые важнее новых инструм](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) | `04-ai-collaborations` | 4 мин | 805 | 9.2 |
-| 5 | [03 component catalog](docs/01-svyazi/03-component-catalog.md) | `01-svyazi` | 6 мин | 1352 | 9.1 |
+_Дата генерации: 2026-05-13_
 
 ---
 
-## Быстрый старт
+## Общая картина
+
+Монорепозиторий **Lorenzo** содержит исследовательскую базу знаний по экосистеме AI-проектов вокруг **Svyazi 2.0**.
+
+| Показатель | Значение |
+|------------|---------|
+| Всего документов | **2500** |
+| Всего слов | **2,897,709** |
+| Скриптов обработки | **166** |
+| Индекс здоровья | **99/100** |
+| Проектов в сети | **22** |
+| Связей проектов | **190** |
+| Кластеров документов | **120** |
+| Ошибок валидации | **0** |
+| Предупреждений | **0** |
+
+## Структура репозитория
+
+| Раздел | Файлов | Описание |
+|--------|--------|---------|
+| `01-svyazi` | 16 | Архитектура Svyazi 2.0 |
+| `02-anthropic-vacancies` | 357 | 436 вакансий Anthropic |
+| `03-technology-combinations` | 7 | 40+ комбинаций технологий |
+| `04-ai-collaborations` | 17 | AI-ансамбли OSS-проектов |
+| `05-habr-projects` | 16 | Хабр-проекты: память, граф |
+
+## Извлечённые знания
+
+- **1131** ключевых решений → [DECISIONS.md](DECISIONS.md)
+- **3560** числовых KPI → [KPI.md](KPI.md)
+- **1988** открытых вопросов → [QUESTIONS.md](QUESTIONS.md)
+- **937** похожих пар документов → [SIMILAR.md](SIMILAR.md)
+
+## Топ навигационных документов
+
+| Документ | Назначение |
+|----------|------------|
+| [READING_ORDER.md](READING_ORDER.md) | С чего начать читать |
+| [SITEMAP.md](SITEMAP.md) | Карта всех разделов |
+| [NARRATIVE.md](NARRATIVE.md) | История проекта |
+| [DECISIONS.md](DECISIONS.md) | Ключевые решения |
+| [CONTACTS.md](CONTACTS.md) | С кем связаться |
+| [HEALTH.md](HEALTH.md) | Состояние репо |
+| [VALIDATION.md](VALIDATION.md) | Проверка структуры |
+
+## Рекомендуемые следующие шаги
+
+3. 🤝 Связаться с авторами компонентов → [CONTACTS.md](CONTACTS.md)
+4. 📋 Проработать открытые вопросы → [QUESTIONS.md](QUESTIONS.md)
+5. 🚀 Запустить MVP-прототип → [01-svyazi/07-mvp-planning.md](01-svyazi/07-mvp-planning.md)
+6. 🔗 Устранить сломанные ссылки → [BROKEN_LINKS.md](BROKEN_LINKS.md)
+
+## Аналитические инструменты
+
+В репозитории **166 скриптов** для работы с документами:
 
 ```bash
-# Поиск по базе знаний
-python scripts/improve_passage_retrieval.py --query "ваш запрос"
-python scripts/improve_faceted_search.py --query "RAG" --section 05-habr-projects
-
-# Список чтения по теме
-python scripts/improve_reading_list.py --query "архитектура агента"
-
-# LLM Q&A (требует ANTHROPIC_API_KEY)
-python scripts/improve_llm_qa.py --question "Что такое NGT Memory?"
+python scripts/improve_health.py      # обновить дашборд здоровья
+python scripts/improve_validate.py    # проверить структуру
+python scripts/improve_compare.py     # сравнить с предыдущим коммитом
+python scripts/improve_report.py      # этот отчёт
 ```
 
-_Отчёт сгенерирован автоматически скриптом `improve_export_report.py` (2026-04-29)_
+---
 
+_Отчёт сгенерирован автоматически · 2026-05-13_

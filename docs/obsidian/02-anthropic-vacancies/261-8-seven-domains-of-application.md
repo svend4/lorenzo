@@ -2,7 +2,7 @@
 title: "8. Seven Domains of Application"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 8. Seven Domains of Application
@@ -210,7 +210,7 @@ within 5-10 years.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[255-2-the-twenty-one-teachers-pattern]] (сходство 0.17)
 - [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.14)
 - [[218-7-application-domains]] (сходство 0.14)
@@ -220,7 +220,13 @@ within 5-10 years.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Seven Domains of Application"
+```
+
+## Смотрите также
 - [[255-2-the-twenty-one-teachers-pattern]]
 - [[218-7-application-domains]]
 - [[254-1-why-the-binary-view-is-incomplete]]
@@ -252,3 +258,19 @@ within 5-10 years.
 - [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _21%_
 - [[264-11-open-questions|11. Open Questions]] _21%_
 - [[143-6-four-deployment-domains|6. Four Deployment Domains]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[143-6-four-deployment-domains]]
+- [[218-7-application-domains]]
+- [[254-1-why-the-binary-view-is-incomplete]]
+- [[255-2-the-twenty-one-teachers-pattern]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- [[259-6-coordination-and-disagreement-resolution]]
+- [[263-10-risks-specific-to-composite-architectures]]
+- _...ещё 1_
+

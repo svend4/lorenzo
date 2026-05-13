@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:daf577663a455b36",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/TASKS_INDEX.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/templates/rfc.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/prototype-mvp.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/research-note.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/contact-outreach.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:a5763aa89a1dac8c",
+  "payload": {
+    "title": "Каталог задач (TASKS_INDEX)",
+    "summary": "Этот файл автогенерируется из `tasks/*.task.yaml`. Не редактируйте вручную.",
+    "body": "каталог задач tasks index содержание mcp серверу mcp серверу lorenzo contacts lorenzo contacts lorenzo graph lorenzo graph lorenzo runner lorenzo runner lorenzo search lorenzo search подробно подробно audit corpus audit corpus compare compare daily routine daily routine find contradictions find contradictions find gaps find gaps generate rfc generate rfc plan mvp plan mvp search search summarize summarize synthesize synthesize track decisions track decisions weekly review weekly review write contact write contact",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1012,
+    "path": "docs/TASKS_INDEX.md"
+  }
+}

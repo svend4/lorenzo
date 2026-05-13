@@ -3,11 +3,35 @@ title: "12. Closing"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 12. Closing
+
+<!-- toc-auto -->
+## Contents
+
+- [12. Closing](#12-closing)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 <!-- abstract-auto -->
@@ -63,7 +87,7 @@ in walking it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[223-12-closing]] (сходство 0.15)
 - [[266-13-closing]] (сходство 0.12)
 - [[179-10-open-questions]] (сходство 0.12)
@@ -73,7 +97,13 @@ in walking it.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```
+
+## Смотрите также
 - [[223-12-closing]]
 - [[179-10-open-questions]]
 - [[266-13-closing]]
@@ -107,3 +137,19 @@ in walking it.
 - [[153-executive-summary|Executive Summary]] _17%_
 - [[168-abstract|Abstract]] _17%_
 - [[210-abstract|Abstract]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[153-executive-summary]]
+- [[168-abstract]]
+- [[169-table-of-contents]]
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+- [[210-abstract]]
+- [[223-12-closing]]
+- _...ещё 3_
+

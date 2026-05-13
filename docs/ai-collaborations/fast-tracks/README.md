@@ -1,6 +1,16 @@
 # Пять быстрых связок (fast-tracks)
 
+<!-- toc-auto -->
+
+<!-- summary -->
+> Пять приоритетных комбинаций OSS-проектов: Collaboration Knowledge OS, Forensic Legal RAG, Agent Team Kernel, Secure Agent Runtime, Habr Scout — и их «внуковая» суперкомбинация.
+
+<!-- tags: collaboration, architecture, ai-teams, rag, security -->
+
 > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+
+> [!TIP]
+> Лучшая точка входа для понимания, как совмещать проекты с Хабра в единую систему.
 
 1. Svyazi + AgentFS + knowledge-space + Memory OS = Collaboration Knowledge OS.
 
@@ -38,12 +48,41 @@ ChatGPT сказал:
 
 Вы сказали:
 
+<!-- see-also -->
+
+---
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Пять быстрых связок fast tracks"
+```
+
+## Смотрите также
+- [00-overview-grandchild-combination](../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+- [3-forensic-rag](../ensembles/3-forensic-rag.md)
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
+- [executive-summary](../../svyazi-2-0/overview/executive-summary.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.19)
-- [3-forensic-rag](docs/ai-collaborations/ensembles/3-forensic-rag.md) (сходство 0.12)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.12)
+- [README](../../obsidian/ai-collaborations/fast-tracks/README.md) (сходство 0.97)
+- [00-overview-grandchild-combination](../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.22)
+- [00-overview-grandchild-combination](../../obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.21)
 

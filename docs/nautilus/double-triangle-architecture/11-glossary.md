@@ -242,11 +242,31 @@ Hope this helps. Рад был участвовать в формировани�
 
 ---
 
-**Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
-- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
-- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A Glossary"
+```
+
+## Смотрите также
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](../../02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [12-closing](../representative-agent-layer-en/12-closing.md)
+- [08-call-to-action](08-call-to-action.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -254,7 +274,7 @@ Hope this helps. Рад был участвовать в формировани�
 ---
 
 **Похожие документы:**
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
-- [148-appendix-a-glossary](docs/obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.16)
-- [133-обратная-связь](docs/obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.16)
+- [11-glossary](../../obsidian/nautilus/double-triangle-architecture/11-glossary.md) (сходство 0.99)
+- [148-appendix-a-glossary](../../02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
+- [148-appendix-a-glossary](../../obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
 

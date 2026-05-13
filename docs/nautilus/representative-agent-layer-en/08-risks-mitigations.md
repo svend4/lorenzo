@@ -1,13 +1,9 @@
 # 8. Risks and Mitigations
 
-<!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+<!-- toc-auto -->
+## Contents
 
----
-
-<!-- toc -->
-## Содержание
-
+- [Содержание](#содержание)
 - [8. Risks and Mitigations](#8-risks-and-mitigations)
   - [8.1. Risk: Agency Capture](#81-risk-agency-capture)
   - [8.2. Risk: Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)
@@ -17,9 +13,42 @@
   - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
   - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
   - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [8. Risks and Mitigations](#8-risks-and-mitigations)
+  - [8.1. Risk: Agency Capture](#81-risk-agency-capture)
+  - [8.2. Risk: Adversarial Manipulation by Counterparties](#82-risk-adversarial-manipulation-by-counterparties)
+  - [8.3. Risk: Principal Misunderstanding Agent Capability](#83-risk-principal-misunderstanding-agent-capability)
+  - [8.4. Risk: Privacy Violations](#84-risk-privacy-violations)
+  - [8.5. Risk: Inequitable Access](#85-risk-inequitable-access)
+  - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
+  - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
+  - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
 
 ---
 
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+
+> [!WARNING]
+> Документ описывает ограничения, риски или требования безопасности. Читайте внимательно.
+
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+
+---
 <!-- tags: rag, orchestration, ingestion, local-first, architecture, anthropic, self-improvement -->
 
 
@@ -135,11 +164,31 @@ for inclusion of those who never had the skills
 
 ---
 
-**Смотрите также:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
-- [10-open-questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md)
-- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
-- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risks and Mitigations"
+```
+
+## Смотрите также
+- [177-8-risks-and-mitigations](../../02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [10-open-questions](10-open-questions.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [06-ethical-framework](06-ethical-framework.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-ethical-framework](06-ethical-framework.md)
+- [10-open-questions](10-open-questions.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -147,7 +196,7 @@ for inclusion of those who never had the skills
 ---
 
 **Похожие документы:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.88)
-- [177-8-risks-and-mitigations](docs/obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.87)
-- [10-open-questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md) (сходство 0.20)
+- [08-risks-mitigations](../../obsidian/nautilus/representative-agent-layer-en/08-risks-mitigations.md) (сходство 0.99)
+- [177-8-risks-and-mitigations](../../02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.88)
+- [177-8-risks-and-mitigations](../../obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.87)
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,19 +8,10 @@ title: "4. Passport ({{passport.md}})"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 4. Passport ({{passport.md}})
-
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Passport (passport.md)(4-passport-passportmd) - 4.1.{quote}
-{quote}✅ _Результат:_ Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-{quote}
-{quote}🏷️ _Ключевые слова:_ {{passport}}, {{registry}}, {{nautilus}}, {{anthropic}}, {{vacancies}}, {{structure}}, {{schema}}, {{passports}}{quote}
->
-
 
 
 h2. Contents
@@ -31,6 +22,22 @@ h2. Contents
   * [4.3. Recommended Sections|#43-recommended-sections]
   * [4.4. Schema Validation|#44-schema-validation]
   * [4.5. Naming Convention|#45-naming-convention]
+* [Похожие документы|#похожие-документы]
+* [Смотрите также|#смотрите-также]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Passport (passport.md)(4-passport-passportmd) - 4.1.{quote}
+{quote}✅ _Результат:_ Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-{quote}
+{quote}🏷️ _Ключевые слова:_ {{passport}}, {{registry}}, {{nautilus}}, {{anthropic}}, {{vacancies}}, {{structure}}, {{schema}}, {{passports}}{quote}
+>
 
 
 
@@ -102,7 +109,7 @@ h3. 4.5. Naming Convention
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[09-4-passport-passport-md]] (сходство 0.24)
 * [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
 * [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
@@ -112,9 +119,25 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[09-4-passport-passport-md]]
 * [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 * [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 * [[82-7-portalentry-structure]]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [[09-4-passport-passport-md]]
+* [[README]]
+* [[CONCEPTS]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+* _...ещё 1_
 

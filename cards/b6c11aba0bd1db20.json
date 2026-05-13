@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:b6c11aba0bd1db20",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/307-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/275-why-this-document-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/286-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/285-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:14a1af5c075a93e0",
+  "payload": {
+    "title": "What This Document Doesn't Solve",
+    "summary": "This document identifies a problem. It does not propose a",
+    "body": "what this document doesn solve this document identifies problem does not propose похожие документы abstract abstract сходство why this document exists why this document exists сходство acknowledgments acknowledgments сходство смотрите также why this document exists why this document exists acknowledgments acknowledgments abstract abstract closing closing упоминается the cowork discovery and why changes everything the cowork discovery and why changes everythi the specific case front the specific case front the two layer stack exists the two layer stack exists what missing layer what missing layer why this document exists why this document exists вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы why this document exists why this document exists the specific case front the specific case front acknowledgments acknowledgments the two layer stack exists the two layer stack exists what missing layer what missing layer practical recommendations for the current project practical recommendations for the current project the cowork discovery and why changes everything the cowork discovery and why changes everythi why this hasn been built why this hasn been built связанные документы why this document exists why this document exists the two layer stack exists the two layer stack exists acknowledgments acknowledgments the cowork discovery and why changes everything the cowork discovery and why changes everythi acknowledgments acknowledgments practical recommendations for the current project practical recommendations for the current project what missing layer what missing layer why this hasn been built why this hasn been built кто ссылается этот документ acknowledgments acknowledgments why this document exists why this document exists the two layer stack exists the two layer stack exists what missing layer what missing layer why this hasn been built why this hasn been built the specific case front the specific case front what industry will likely build what industry will likely build practical recommendations for the current project practical recommendations for the current project ещё",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 396,
+    "path": "docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md"
+  }
+}

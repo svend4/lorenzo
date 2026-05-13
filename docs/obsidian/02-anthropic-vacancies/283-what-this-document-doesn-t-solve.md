@@ -4,12 +4,35 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # What This Document Doesn't Solve
 
+<!-- toc-auto -->
+## Contents
+
+- [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > This document identifies a problem. It does not propose a
 
 ---
@@ -47,7 +70,7 @@ document provides framing. It does not provide answers.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[307-abstract]] (сходство 0.14)
 - [[275-why-this-document-exists]] (сходство 0.12)
 - [[286-acknowledgments]] (сходство 0.11)
@@ -57,7 +80,13 @@ document provides framing. It does not provide answers.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What This Document Doesn t Solve"
+```
+
+## Смотрите также
 - [[275-why-this-document-exists]]
 - [[286-acknowledgments]]
 - [[307-abstract]]
@@ -97,3 +126,19 @@ document provides framing. It does not provide answers.
 - [[284-practical-recommendations-for-the-current-project|Practical Recommendations for the Current Project]] _25%_
 - [[277-what-s-missing-layer-b|What's Missing — Layer B]] _21%_
 - [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[267-acknowledgments]]
+- [[275-why-this-document-exists]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[278-why-this-hasn-t-been-built]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[282-what-industry-will-likely-build]]
+- [[284-practical-recommendations-for-the-current-project]]
+- _...ещё 4_
+

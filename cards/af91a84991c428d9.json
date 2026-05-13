@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:af91a84991c428d9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/ONBOARDING.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:55d9dd5b3ae53417",
+  "payload": {
+    "title": "Онбординг — Svyazi 2.0 / Lorenzo",
+    "summary": "title: \"Онбординг — Svyazi 2.0 / Lorenzo\"",
+    "body": "онбординг svyazi lorenzo tip этот документ описывает mvp подход начните него для быстрого прототипа руководство для новых участников проекта проекты svyazi cardindex agentfs rufler yodoca sentinel firecrawl содержание что это такое что это такое первые минут первые минут структура документации структура документации ключевые документы ключевые документы скрипты автоматизации скрипты автоматизации архитектура компонентов архитектура компонентов как внести вклад как внести вклад контакты контакты руководство для новых участников проекта что это такое svyazi экосистема взаимосвязанных oss проектов для построения систем долгосрочной памятью оркестрацией агентов безопасной обработкой данных статус готовности документация архитектура первые минут клонировать репозиторий git clone repo url lorenzo прочитать executive summary cat docs svyazi executive summary посмотреть статус проекта cat docs scoring прочитать faq cat docs faq запустить скрипты генерация обновление docs pip install beautifulsoup lxml python scripts improve run all fast структура документации всего файлов слов раздел тема файлов слов readme docs svyazi архитектура svyazi readme docs anthropic vacancies вакансии anthropic readme docs technology combinations комбинации технологий readme docs collaborations коллаборации readme docs habr projects хабр проекты ключевые документы документ зачем читать docs svyazi executive summary общий обзор проекта начни здесь docs svyazi mvp planning mvp план риски оценки времени docs svyazi roadmap дорожная карта кварталам docs svyazi integration contracts api контракты между компонентами docs contacts авторы компонентов шаблоны писем docs faq вопроса ответа docs tech radar что использовать что избегать claude гид репо для claude code скрипты автоматизации репо скриптов improve для автоматического обновления документации все скрипты быстро python scripts improve run all fast конкретная группа python scripts improve run all group analysis группы structure index analysis extract quality graph reports export llm обогащение нужен api ключ export anthropic api key ant python scripts improve run all group enrich автономный вотчер следит изменениями python scripts improve watcher архитектура компонентов компонент роль лицензия автор cardindex индекс знаний карточек mit kksudo agentfs файловая система для mit kksudo yodoca память консолидацией apache spbmolot ngt memory ассоциативный граф памяти bsl sentinel безопасность allowlist mcp mit rufler оркестратор агентов firecrawl веб краулер для mit как внести вклад документация редактируй файлы docs запусти improve run all скрипты добавь scripts improve добавь группу improve run all контакты авторы компонентов docs contacts шаблон docs templates contact outreach архитектура новые adr docs svyazi шаблону docs templates adr template контакты контакты авторов компонентов docs contacts шаблон письма для коллаборации docs templates contact outreach автор репозитория svend github этот документ генерируется скриптом improve onboarding для ассистента читай claude для понимания структуры репо смотрите также index priorities progress tech radar",
+    "tags": [
+      "memory",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Rufler",
+      "Yodoca",
+      "SENTINEL",
+      "Firecrawl"
+    ],
+    "wc": 584,
+    "path": "docs/obsidian/ONBOARDING.md"
+  }
+}

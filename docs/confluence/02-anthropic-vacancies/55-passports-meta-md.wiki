@@ -1,14 +1,29 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/55-passports-meta-md.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. passports/meta.md
 
 
+h2. Contents
+
+* [passports/meta.md|#passportsmetamd]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}> _Символьный угол экосистемы svend4_{quote}
 
 ----
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -30,7 +45,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [45-passports-pro2-md](45-passports-pro2-md.md) (сходство 0.24)
 - [35-passports-info1-md](35-passports-info1-md.md) (сходство 0.22)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md) (сходство 0.18)
@@ -40,7 +55,14 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+{code}
+h1. Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports meta md"
+{code}
+
+## Смотрите также
 - [35-passports-info1-md](35-passports-info1-md.md)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
 - [45-passports-pro2-md](45-passports-pro2-md.md)
@@ -86,3 +108,17 @@ markdown
 - [Essence](36-essence.md) _33%_
 - [22. Glossary of Reference Examples](97-22-glossary-of-reference-examples.md) _33%_
 - [Angle / Perspective](59-angle-perspective.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [README](README.md)
+
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._

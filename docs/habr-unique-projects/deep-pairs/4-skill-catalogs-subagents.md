@@ -1,10 +1,27 @@
 # Пара 4 — Скилл-каталоги × Subagent-оркестрация
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag, orchestration, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +44,27 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 
 ---
 
-**Смотрите также:**
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
-- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 4 Скилл каталоги Subagent"
+```
+
+## Смотрите также
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
+- 8-self-aware-[mcp-specs](8-self-aware-mcp-specs.md)
+- [3-adversarial-multi-ide](3-adversarial-multi-ide.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -39,7 +72,7 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 ---
 
 **Похожие документы:**
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.20)
-- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md) (сходство 0.19)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.19)
+- [4-skill-catalogs-subagents](../../obsidian/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md) (сходство 0.96)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md) (сходство 0.24)
+- [3-adversarial-multi-ide](3-adversarial-multi-ide.md) (сходство 0.24)
 

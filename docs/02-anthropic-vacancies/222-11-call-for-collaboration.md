@@ -1,13 +1,5 @@
 # 11. Call for Collaboration
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Liability, professional licensure interaction, quality standards — all need development.
-> 🏷️ **Ключевые слова:** `collaboration`, `professional`, `anthropic`, `vacancies`, `practitioners`, `colleague`, `experts`, `curators`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -19,6 +11,23 @@
   - [11.5. For Existing Professional Tool Vendors](#115-for-existing-professional-tool-vendors)
   - [11.6. For Researchers](#116-for-researchers)
   - [11.7. For Policy Stakeholders](#117-for-policy-stakeholders)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Liability, professional licensure interaction, quality standards — all need development.
+> 🏷️ **Ключевые слова:** `collaboration`, `professional`, `anthropic`, `vacancies`, `practitioners`, `colleague`, `experts`, `curators`
+>
 
 
 <!-- summary -->
@@ -94,19 +103,39 @@ practitioners during framework development valuable.
 
 ---
 
-**Похожие документы:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.26)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.15)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.13)
+## Похожие документы
+- [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.26)
+- [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.15)
+- [223-12-closing](223-12-closing.md) (сходство 0.13)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
+```
+
+## Смотрите также
+- [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [223-12-closing](223-12-closing.md)
+- [180-11-call-for-collaboration](180-11-call-for-collaboration.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [210-abstract](210-abstract.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [223-12-closing](223-12-closing.md)
+- [README](README.md)
 

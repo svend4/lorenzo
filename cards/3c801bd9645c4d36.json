@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:3c801bd9645c4d36",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/ensembles/6-continuous-eval-loop.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:67c8fc5f73bad83a",
+  "payload": {
+    "title": "Ансамбль 6 — Continuous Eval Loop",
+    "summary": "6. Continuous Eval Loop: «самоулучшение не на вере, а на метриках»",
+    "body": "ансамбль continuous eval loop источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi factory смотрите также budget aware intelligence stack budget aware intelligence stack domain agent app factory domain agent app factory agentic knowledge agentic knowledge distributed agent workshop distributed agent workshop",
+    "tags": [
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AI Factory"
+    ],
+    "wc": 330,
+    "path": "docs/ai-collaborations/ensembles/6-continuous-eval-loop.md"
+  }
+}

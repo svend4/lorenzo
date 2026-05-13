@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:681811e94d344768",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/components/.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:703bfd07f22ce01c",
+  "payload": {
+    "title": "Антропик",
+    "summary": "",
+    "body": "антропик компонент экосистемы svyazi проекты svyazi тип статус упоминаний описание компонент экосистемы svyazi ссылки исходники readme документация связанные документы cowork ingit kksudo lorenzo nautilus sgb spbmolot svyazi связанные документы sgb svyazi cowork ingit kksudo lorenzo nautilus spbmolot смотрите также cowork ingit lorenzo nautilus кто ссылается этот документ readme docs obsidian autofilled components readme cowork docs obsidian autofilled components cowork ingit docs obsidian autofilled components ingit kksudo docs obsidian autofilled components kksudo lorenzo docs obsidian autofilled components lorenzo nautilus docs obsidian autofilled components nautilus sgb docs obsidian autofilled components sgb spbmolot docs obsidian autofilled components spbmolot ещё",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 150,
+    "path": "docs/obsidian/autofilled/components/.md"
+  }
+}

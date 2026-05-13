@@ -2,20 +2,15 @@
 title: "Числовые KPI и метрики"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Числовые KPI и метрики
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-_Извлечено: **2630** числовых показателей из документов_
+_Извлечено: **3560** числовых показателей из документов_
 
 
-## Количество (379)
+## Количество (517)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -25,27 +20,27 @@ _Извлечено: **2630** числовых показателей из до�
 | **400** | задача спрос рождает предложение есть спрос например около 400 вакансий в антроп | `01-интегральный-анализ-пр` |
 | **5** | т candidates формирование нескольких параллельных команд (3-5 команд по 5 челове | `01-интегральный-анализ-пр` |
 | **70** | унт svend4 — это сейчас центральная точка организации ваших 70 проектов и вашей  | `01-интегральный-анализ-пр` |
-| **440** | е отдельные темы , а проекции одной архитектуры . Anthropic 440 вакансий — это д | `150-appendix-c-version-hi` |
 | **7** | v1.1 , формальная спецификация под текущую реальность репо (7 участников, 5 спос | `72-расписание-фазы-3` |
-| **4** | → 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_ - (4 файлов)](#кластер- | `ACTION_ITEMS` |
-| **74** | теров: 168 ## Кластер 1 — cowork, ingit, svyazi, lorenzo (74 файлов) - `docs/02- | `CLUSTERS` |
-| **64** | -что-ingit-обеспечивает-чего-cowork-не-хватает_ - _...и ещё 64 файлов_ ## Класте | `CLUSTERS` |
-| **60** | етные-ансамбли.md` — _04-приоритетные-ансамбли_ - _...и ещё 60 файлов_ ## Класте | `CLUSTERS` |
-| **65** | щё 60 файлов_ ## Кластер 4 — turn, view, search, citeturn (65 файлов) - `docs/01 | `CLUSTERS` |
-| **55** | TABLES_ - `docs/TOPIC_MODEL.md` — _TOPIC_MODEL_ - _...и ещё 55 файлов_ ## Класте | `CLUSTERS` |
-| **61** | — author-contact, status-of-this-document, author, contact (61 файлов) - `docs/0 | `CLUSTERS` |
-| **51** | ies/164-10-appendices.md` — _164-10-appendices_ - _...и ещё 51 файлов_ ## Класте | `CLUSTERS` |
-| **45** | ncies/77-2-terminology.md` — _77-2-terminology_ - _...и ещё 45 файлов_ ## Класте | `CLUSTERS` |
-| **41** | -architecture-of-professional-colleague-agents_ - _...и ещё 41 файлов_ ## Класте | `CLUSTERS` |
-| **50** | ер 8 — table-of-contents, table, double-triangle, contents (50 файлов) - `docs/0 | `CLUSTERS` |
-| **40** | 5-8-call-to-action.md` — _145-8-call-to-action_ - _...и ещё 40 файлов_ ## Класте | `CLUSTERS` |
-| _...ещё 359_ | | |
+| **436** | # Вакансии Anthropic — Анализ по кластерам Анализ 436 вакансий Anthropic по 12 к | `README` |
+| **440** | я-связь_ - blog post на тему «Почему в компании №1 на рынке 440 вакансий не закр | `ACTION_ITEMS` |
+| **12** | ting/ `1a1f0520` **🐛 Исправления** - валидация шаблонов — 12 файлов с frontmatte | `CHANGELOG_AUTO` |
+| **252** | 5 ## Кластер 1 — поиска, lorenzo, концептов, репозитория (252 файлов) - `docs/01 | `CLUSTERS` |
+| **242** | -of-examples.md` — _27-15-glossary-of-examples_ - _...и ещё 242 файлов_ ## Класт | `CLUSTERS` |
+| **104** | щё 242 файлов_ ## Кластер 2 — turn, view, svyazi, agentfs (104 файлов) - `docs/0 | `CLUSTERS` |
+| **94** | -executive-summary.md` — _01-executive-summary_ - _...и ещё 94 файлов_ ## Класте | `CLUSTERS` |
+| **90** | ещё 94 файлов_ ## Кластер 3 — cowork, ingit, project, mcp (90 файлов) - `docs/02 | `CLUSTERS` |
+| **80** | 21-appendix-a-decision-tree-for-ingit-adopters_ - _...и ещё 80 файлов_ ## Класте | `CLUSTERS` |
+| **77** | щё 80 файлов_ ## Кластер 4 — turn, view, citeturn, search (77 файлов) - `docs/01 | `CLUSTERS` |
+| **67** | OPIC_MODEL_ - `docs/WORD_FREQ.md` — _WORD_FREQ_ - _...и ещё 67 файлов_ ## Класте | `CLUSTERS` |
+| **60** | 13-2-what-makes-a-professional-colleague-agent_ - _...и ещё 60 файлов_ ## Класте | `CLUSTERS` |
+| **64** | ер 6 — table-of-contents, double-triangle, table, abstract (64 файлов) - `docs/0 | `CLUSTERS` |
+| _...ещё 497_ | | |
 
-## Проценты (291)
+## Проценты (412)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
-| **34** | g-68-ролей) - [Sales — 150 ролей (самый большой кластер, ≈34% всего найма)](#sal | `00-intro` |
+| **34** | g — 68 ролей - Sales — 150 ролей (самый большой кластер, ≈34% всего найма) - Fin | `00-intro` |
 | **90** | Посадить такого человека в FDE-роль — значит амортизировать 90% реальной силы. Б | `00-intro` |
 | **80** | ь README на английский как primary, русский как secondary — 80% вашей потенциаль | `00-intro` |
 | **25** | цправу. Единственная proxy-проблема: роль SF-based, require 25% office presence  | `01-интегральный-анализ-пр` |
@@ -53,30 +48,31 @@ _Извлечено: **2630** числовых показателей из до�
 | **100** | дата на каждую из них найти трудно — мало людей попадает на 100% под требования, | `01-интегральный-анализ-пр` |
 | **40** | temporal coordination cost между незнакомцами в среднем 25-40% времени проекта.  | `01-интегральный-анализ-пр` |
 | **30** | не прорывно — рынок тут уже есть, маржа тонкая, AI даёт 20-30% ускорение, не пор | `01-интегральный-анализ-пр` |
-| **88** | как normative field. Это критично: STATUS.md явно признаёт 88% fallback. Нормали | `104-appendix-c-references` |
+| **88** | > **Абстракт** (авто) > > 🎯 **Проблема:** Пример: - A: «88% fallback — критическ | `109-3-принципы-консолидац` |
 | **15** | > 🔧 **Подход:** Если избегаете трёхфазного подхода, эти 10-15% теряются безвозвр | `109-3-принципы-консолидац` |
 | **36** | nt employment covers declining fraction of knowledge work. 36% of US workers eng | `155-1-problem-statement` |
 | **27** | workers engage in freelance/contract work in 2026, up from 27% in 2020. Foundati | `155-1-problem-statement` |
 | **0** | harged fees or subjected to rent-seeking. Foundation takes 0% from contributor e | `160-6-governance-and-ethi` |
 | **75** | th 100+ public patterns - Contributor satisfaction survey: >75% positive - Publi | `161-7-phased-rollout-plan` |
-| **700** | нтов с advisors с 1300+ data points. SmartMatchApp заявляет 700% увеличение enga | `165-closing` |
 | **20** | nd later studios. **Mechanics**: Agents typically take 10-20% commission of clie | `171-2-historical-preceden` |
 | **10** | r planning. **Mechanics**: Similar commission structure (3-10% in sports, typica | `171-2-historical-preceden` |
 | **7** | negotiation, paperwork. **Mechanics**: Commission-based (5-7% typical), split be | `171-2-historical-preceden` |
 | **50** | s. ### 8.7. Expected Outcomes **For practitioners**: - 30-50% time reduction on  | `219-8-pilot-proposal-sgb-` |
 | **95** | - Cost vs. external lawyer: 80-90% saving - Quality target: 95% citation accurac | `341-приложение-c-образец-` |
-| _...ещё 271_ | | |
+| **60** | arget 50/year by end Phase 1 - Time saved per case : target 60% reduction in doc | `342-что-такое-вариант-c-c` |
+| _...ещё 392_ | | |
 
-## Время (418)
+## Время (554)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
 | **4–6** | з свободного текста получаются устойчивые профили и связи \| 4–6 дней \| \| Evid | `07-mvp-planning` |
+| **12-18** | же --- > [!IMPORTANT] > Дорожная карта проекта — план на 12-18 месяцев. > **Абст | `12-roadmap` |
 | **1–2** | \| Unified cards + page/span evidence + manual reviewer UI \| 1–2 недели \| Пере | `12-roadmap` |
 | **1** | и patch \| benchmark set + nightly eval + rollback policy \| 1 неделя на каркас, | `12-roadmap` |
 | **15** | й журнал» в инженерном смысле. Это архив 1105 разговоров за 15 месяцев (dec 2024 | `00-intro` |
 | **6** | r-track . Entrepreneur First (Paris, Berlin) — программа на 6 месяцев с €80K сти | `00-intro` |
-| **3** | talog.md) как отдельная секция). Потенциал от 1⭐ до 500⭐ за 3 месяца — абсолютно | `00-intro` |
+| **3** | в GitHub как отдельная секция). Потенциал от 1⭐ до 500⭐ за 3 месяца — абсолютно  | `00-intro` |
 | **2–3** | ери ко всему остальному. daten — стратегический, но требует 2–3 недели работы на | `00-intro` |
 | **19** | зиторий — daten2 , 25 декабря 2025. Самый свежий — data50 , 19 часов назад. Это  | `00-intro` |
 | **4** | , 19 часов назад. Это означает, что все 70 репо созданы за 4 месяца , темп — 1 р | `00-intro` |
@@ -90,10 +86,9 @@ _Извлечено: **2630** числовых показателей из до�
 | **4-6** | ner (может быть Anthropic или Mistral). Proposal пишется за 4-6 недель, шанс 15- | `01-интегральный-анализ-пр` |
 | **2** | икуются в общий «доска квестов»: могут быть микро (fix bug, 2 часа, XP уровня 50 | `01-интегральный-анализ-пр` |
 | **1-2** | fix bug, 2 часа, XP уровня 50), средние (implement feature, 1-2 недели, XP и cur | `01-интегральный-анализ-пр` |
-| **3–5** | я бы делал в следующие две недели в порядке ROI. День 1–2 (3–5 часов): fix broke | `01-интегральный-анализ-пр` |
-| _...ещё 398_ | | |
+| _...ещё 534_ | | |
 
-## Стоимость (728)
+## Стоимость (940)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -114,12 +109,12 @@ _Извлечено: **2630** числовых показателей из до�
 | **€20** | а получить работающий документированный кейс . 3-6 месяцев, €20-50K. Это станови | `01-интегральный-анализ-пр` |
 | **€1** | ect . EIC Pathfinder Open или Horizon Europe HumanE AI Net. €1-4M грант на 2-3 г | `01-интегральный-анализ-пр` |
 | **$3** | artup . Entrepreneur First Berlin, Y Combinator, Seed Round $3-5M. Требует cofou | `01-интегральный-анализ-пр` |
-| **$5** | Google DeepMind, Microsoft AI, Mistral, Anthropic), budget $5-20M/year, which: - | `150-appendix-c-version-hi` |
-| **$1** | - Provides minimum stipend (не full salary, но dignified — $1-3K/month part-time | `150-appendix-c-version-hi` |
-| **€500** | es. Economic layer: - Base stipend для active contributors (€500-1500/month part | `150-appendix-c-version-hi` |
-| _...ещё 708_ | | |
+| **$320K** | thropic**: 440 open positions, primarily senior roles at $320K–$405K compensatio | `155-1-problem-statement` |
+| **€500** | ife activities **Proposed structure**: - **Base stipend**: €500-1500/month for a | `158-4-proposed-infrastruc` |
+| **€50** | rtners and foundation grants (€3-8M initial, growing to €50M+ target) 2. **Grant | `159-5-economic-model` |
+| _...ещё 920_ | | |
 
-## Размер (57)
+## Размер (69)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -131,8 +126,15 @@ _Извлечено: **2630** числовых показателей из до�
 | **2.0** | ndeswehr/TechHUB SVI), ИИ/агенты (4.1 МБ), и робототехника (2.0 МБ, 15 роботов с | `00-intro` |
 | **2** | право 7.4 МБ, дроны 4.6 МБ, ИИ-агенты 4.1 МБ, робототехника 2 МБ. Центральные те | `01-интегральный-анализ-пр` |
 | **16** | push-to-talk с Pause-key, Whisper large-v3-turbo на NVIDIA 16GB или Apple Silico | `00-intro` |
+| **100** | endation relevance: human review «good» на ≥60% - Storage: <100KB per user для 5 | `01-SIMPLE` |
+| **250** | e: работает с любым retriever ### Риски - Model download (~250MB BGE-base). Мити | `02-MEDIUM` |
+| **1** | on ### API sketch ### Метрики успеха - Sample storage: <1MB/day на 1K queries/da | `02-MEDIUM` |
+| **500** | (embedding + metadata) ### Риски - Heavy dependency (CLIP ~500MB). Митигация: op | `02-MEDIUM` |
+| **7.6** | - ## Качество извлечения После парсинга MHTML «Вакансии» (7.6 МБ): **Потери:** ~ | `02-extraction` |
+| **4.5** | .py **Строит:** `docs/search_index.json` — 1053 документа, 4.5 МБ Каждая запись: | `06-search` |
+| **200** | `paraphrase-multilingual-MiniLM-L12-v2` — бесплатно, CPU, ~200 МБ - Индексация 1 | `10-future` |
 
-## Версия (615)
+## Версия (772)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -144,35 +146,37 @@ _Извлечено: **2630** числовых показателей из до�
 | **1.0.0** | desyncronize). Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1. | `02-общий-план-развития-na` |
 | **1.0.1** | onize). Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHAN | `02-общий-план-развития-na` |
 | **1.1.0** | Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHANGELOG.md | `02-общий-план-развития-na` |
-| **0.2.0** | rmat.md) - [[47-native-format|Native Format]] - [Planned (v0.2.0)](132-planned | `04-abstract` |
+| **0.2.0** | ious: Philosophy - Native Format - Native Format - Planned (v0.2.0) - README.md  | `04-abstract` |
 | **3.1.0** | RFCs to Indicate Requirement Levels - OpenAPI Specification v3.1.0 (for REST API | `104-appendix-c-references` |
-| **1.2** | прямое следствие этого. #### Что я сознательно оставил для v1.2 или v2.0 Formal  | `104-appendix-c-references` |
 | **3.0** | Удалить transitional header 7. Добавить changelog-запись: «v3.0 consolidated fro | `110-вопрос-fallback-ratio` |
-| **0.2.0** | # Planned (v0.2.0) > - HTTP-mode для debugging и remote access --- ## | `132-planned-v0-2-0` |
 | **0.6.0** | laude (Анастасия Бутова, AnastasiyaW) — реально существует, версия 0.6.0, MIT, 1 | `365-развёрнутый-анализ-вн` |
+| **1.2** | and metadata Формальная MCP-спецификация будет частью NPP v1.2 или v2.0. --- --- | `91-16-mcp-extension-infor` |
 | **3.2** | viewer 1 (GPT-5.4): проверяет логику - Reviewer 2 (DeepSeek-V3.2): проверяет --- | `02-knowledge-graphs` |
 | **0.1** | st per card, trace completeness. MVP boundary: что входит в v0.1, что запрещено  | `14-ограничения-лицензии-и` |
 | **0.2** | leteness. MVP boundary: что входит в v0.1, что запрещено до v0.2. Pilot scenario | `14-ограничения-лицензии-и` |
 | **0.11.0** | лицензия. К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё | `TABLES` |
-| **5.0.6** | 2026` \\| азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Док | `TABLES` |
-| **0.10.0** | нтегрируется с любым MCP сервером 118 встроенных навыков в v0.10.0 Open standard | `TABLES` |
-| **0.9** | Нет vendor lock-in. 6. Скорость разработки. 1556 commits с v0.9 до v0.11. Это fu | `TABLES` |
-| _...ещё 595_ | | |
+| **5.0.6** | 2026` \| азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Доку | `TABLES` |
+| **0.10.0** | нтегрируется с любым MCP сервером 118 встроенных навыков в v0.10.0 Open standard | `00-question-what-is-herme` |
+| **0.9** | Нет vendor lock-in. 6. Скорость разработки. 1556 commits с v0.9 до v0.11. Это fu | `11-pluses-of-hermes` |
+| _...ещё 752_ | | |
 
-## Рейтинг (68)
+## Рейтинг (105)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
-| **10** | nts (≈8 репо)](#кластер-4-archives-experiments-8-репо) - [Топ-10 репо, в которые | `00-intro` |
+| **10** | 3 репо) - Кластер 4: Archives & Experiments (≈8 репо) - Топ-10 репо, в которые с | `00-intro` |
 | **5** | sh/git), либо помочь с English README-драфтом для одного из топ-5, либо проработ | `00-intro` |
-| **30** | , MemNet --- **Файлов с входящими ссылками:** 504 ## Топ-30 самых цитируемых док | `BACKLINKS` |
-| **20** | ь документы](#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](#де | `CONTENT_GAPS` |
-| **40** | (#матрица-сходства-секций) - [Граф связей](#граф-связей) - [[PRIORITIES|Топ-40 кросс-секцион | `CROSS_SECTION` |
-| **15** | бзор (0 сл., строка 35) ### `WORD_FREQ.md` (1 из 21) - ## Топ-15 слов по раздела | `EMPTY_SECTIONS` |
-| **50** | ### [Приоритеты файлов]] > > !TIP - Топ-50 самых важных файло | `OUTLINE` |
-| **3** | **Файлов проанализировано:** 1681 Для каждого документа — топ-3 похожих по слова | `SIMILAR` |
+| **20** | ь-документы) _→ TABLES_ - создать документы - Детали по топ-20 пробелам - `MH \| | `ACTION_ITEMS` |
+| **30** | обратных ссылок **Файлов с входящими ссылками:** 2722 ## Топ-30 самых цитируемых | `BACKLINKS` |
+| **3** | найден в docs/contacts/ --- ## Следующие шаги 1. Изучить топ-3 кандидата и выбра | `COLLAB_SUGGESTIONS` |
+| **40** | ей _(толщина / процент = косинусное сходство × 100)_ ## Топ-40 кросс-секционных  | `CROSS_SECTION` |
+| **15** | кже (10 сл., строка 74) ### `WORD_FREQ.md` (2 из 26) - ## Топ-15 слов по раздела | `EMPTY_SECTIONS` |
+| **2000** | лов `improve_keyword_index.py` → `keyword_index.json` - Топ-2000 слов + топ-500  | `INFO_PROCESSING_METHODS` |
+| **500** | yword_index.py` → `keyword_index.json` - Топ-2000 слов + топ-500 биграмм - Испол | `INFO_PROCESSING_METHODS` |
+| **50** | - Запуск _Слов: 526_ ### Приоритеты файлов > > !TIP - Топ-50 самых важных файлов | `OUTLINE` |
+| **8** | », «достигн», «получен», «вывод») - Ключевые слова (TF-IDF топ-8) **Флаги:** `-- | `SCRIPTS_CATALOG` |
 
-## Этап (74)
+## Этап (191)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -181,4 +185,19 @@ _Извлечено: **2630** числовых показателей из до�
 | **3** | озвращает non-empty результат с consensus-информацией? #### Фаза 3 — MCP интерфе | `02-общий-план-развития-na` |
 | **4** | кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa | `02-общий-план-развития-na` |
 | **5** | y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация  | `02-общий-план-развития-na` |
-| **0** | ёртывания](#9-стратегия-поэтапного-развёртывания) - [9.1. Фаза 0 — Основание (Ме | `199-9-стратегия-поэтапног` |
+| **0** | одержание - 9. Стратегия поэтапного развёртывания - 9.1. Фаза 0 — Основание (Мес | `199-9-стратегия-поэтапног` |
+| **51** | tnotes `daf0d7f2` ### 2026-04 **✨ Новые возможности** - Sprint 51-53 — prompt li | `CHANGELOG_AUTO` |
+| **48** | — prompt library, webhooks, adaptive retrieval `4d415860` - Sprint 48-50 — eval  | `CHANGELOG_AUTO` |
+| **45** | amework, conversation memory, plan-and-execute `707d1d26` - Sprint 45-47 — budge | `CHANGELOG_AUTO` |
+| **42** | 47 — budget guards, model router, workflow DAG `5b15d5f6` - Sprint 42-44 — strea | `CHANGELOG_AUTO` |
+| **39** | streaming RAG, feedback loop, A/B experiments `2a7a98b3` - Sprint 39-41 — auth/R | `CHANGELOG_AUTO` |
+| **36** | — auth/RBAC, vector DB plugins, OpenTelemetry `dccdd498` - Sprint 36-38 — federa | `CHANGELOG_AUTO` |
+| **33** | 38 — federation, event bus, multi-modal ingest `6313b6a7` - Sprint 33-35 — agent | `CHANGELOG_AUTO` |
+| **30** | agent loop, cloud ingest, time-travel queries `be1b6b9b` - Sprint 30-32 — intera | `CHANGELOG_AUTO` |
+| **27** | ractive web UI, SSE streaming, benchmark suite `965bc0d7` - Sprint 27-29 — Multi | `CHANGELOG_AUTO` |
+| **24** | 9 — Multi-LLM, concept clustering, docs portal `00ff4e11` - Sprint 24-26 — RAG p | `CHANGELOG_AUTO` |
+| **21** | 26 — RAG pipeline, jobs queue, knowledge graph `d3dd0884` - Sprint 21-23 — embed | `CHANGELOG_AUTO` |
+| **18** | ings cache, skill testing, release engineering `11d7bad1` - Sprint 18-20 — MCP-и | `CHANGELOG_AUTO` |
+| **15** | -изация новых слоёв, plugin system, web ingest `89f9dc93` - Sprint 15-17 — workf | `CHANGELOG_AUTO` |
+| **12** | — workflow v2, observability, embeddings, i18n `2265a4db` - Sprint 12-14 — bot-a | `CHANGELOG_AUTO` |
+| _...ещё 171_ | | |

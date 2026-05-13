@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:5e1043b8f4f70e2c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:14b2945b785a6088",
+  "payload": {
+    "title": "Appendix A: Decision Tree for InGit Adopters",
+    "summary": "Quick reference for users evaluating InGit + Cowork:",
+    "body": "appendix decision tree for ingit adopters quick reference for users evaluating ingit cowork похожие документы appendix sub agent registry schema sketch appendix sub agent registry schema sketch сходство appendix comparison matrix appendix comparison matrix сходство смотрите также appendix sub agent registry schema sketch appendix sub agent registry schema sketch appendix minimal working example appendix minimal working example appendix configuration template example appendix configuration template example appendix comparison matrix appendix comparison matrix упоминается adr five onboarding paths equal rank adr five onboarding paths equal rank appendix comparison matrix appendix comparison matrix appendix sub agent registry schema sketch appendix sub agent registry schema sketch appendix configuration template example appendix configuration template example word cloud word cloud вакансии anthropic анализ кластерам readme домен немецкое социальное право technology combinations sozialrecht domain кто кто что всегда делаешь что всегда делаешь что можешь делать без max approval что можешь делать без max approval упоминается вакансии anthropic анализ кластерам readme связанные документы appendix sub agent registry schema sketch appendix sub agent registry schema sketch appendix configuration template example appendix configuration template example appendix comparison matrix appendix comparison matrix что всегда делаешь что всегда делаешь связанные документы appendix sub agent registry schema sketch appendix sub agent registry schema sketch appendix configuration template example appendix configuration template example table contents table contents appendix comparison matrix appendix comparison matrix что всегда делаешь что всегда делаешь содержание содержание кластеры тематически близких файлов clusters качество абзацев paragraph quality кто ссылается этот документ table contents table contents содержание содержание readme readme",
+    "tags": [
+      "local-first",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 348,
+    "path": "docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md"
+  }
+}

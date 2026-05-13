@@ -6,9 +6,26 @@
 - [Appendix B: Change Log](#appendix-b-change-log)
   - [v1.1.0-draft (2026-04-19)](#v110-draft-2026-04-19)
   - [v1.0.0-draft (2026-04 earlier)](#v100-draft-2026-04-earlier)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **New**: Q6 as normative concept (section 8, ADR-002)
 
 ---
@@ -26,7 +43,7 @@
 - **New**: REST API contract mandatory (section 13)
 - **New**: SDK contract informative (section 14)
 - **New**: MCP extension informative (section 16)
-- **Changed**: `is_fallback` field added to [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (normative)
+- **Changed**: `is_fallback` field added to [PortalEntry](01-интегральный-анализ-профиля-svend4.md) (normative)
 - **Changed**: Consensus structure extended with `coverage_with_fallback`
 - **Changed**: Passport schema formalized via `passport_schema.json`
 - **Clarified**: Naming conventions (passport by format, not by repo)
@@ -42,8 +59,8 @@
 
 ---
 
-**Похожие документы:**
-- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md) (сходство 0.13)
+## Похожие документы
+- 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md) (сходство 0.13)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.11)
 - [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.10)
 
@@ -52,8 +69,14 @@
 
 ---
 
-**Смотрите также:**
-- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Change Log"
+```
+
+## Смотрите также
+- 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [93-18-reference-implementation](93-18-reference-implementation.md)
@@ -61,7 +84,7 @@
 <!-- backlinks-auto -->
 ## Упоминается в
 
-- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- 10. [QueryResult Structure](22-10-queryresult-structure.md)
 - [11. Relevance Ranking](86-11-relevance-ranking.md)
 - [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
 - [16. MCP Extension (Informative)](91-16-mcp-extension-informative.md)
@@ -79,17 +102,31 @@
 
 - [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md) _29%_
 - [Доступные инструменты](128-доступные-инструменты.md) _21%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _21%_
 - [6. Adapter Interface](81-6-adapter-interface.md) _21%_
 - [18. Reference Implementation](93-18-reference-implementation.md) _21%_
 - [Appendix C: References](104-appendix-c-references.md) _17%_
 ## Связанные документы
 
 - [Appendix C: References](104-appendix-c-references.md) _25%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _25%_
 - [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md) _25%_
 - [16. MCP Extension (Informative)](91-16-mcp-extension-informative.md) _25%_
 - [Доступные инструменты](128-доступные-инструменты.md) _21%_
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _21%_
 - [6. Adapter Interface](81-6-adapter-interface.md) _21%_
 - [8. Q6 Space (Normative)](83-8-q6-space-normative.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
+- [README](README.md)
+

@@ -1,43 +1,16 @@
 # Tech Radar — Svyazi 2.0
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `TECH_RADAR` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: tech-radar, docs -->
+
 
 <!-- summary -->
-> _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, anthropic, collaboration -->
-
-
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
+> `TECH_RADAR` — раздел документации проекта Lorenzo.
 
 
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
@@ -127,31 +100,36 @@ _Не рекомендуем для новых проектов. Использ�
 _Radar обновляется вручную при существенных изменениях экосистемы._
 
 
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [CONCEPTS](CONCEPTS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 3_
+
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [ONBOARDING](ONBOARDING.md)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [WORD_FREQ](WORD_FREQ.md)
-- [RISK_REGISTER](RISK_REGISTER.md)
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Глоссарий понятий](CONCEPTS.md)
-- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [TECH_RADAR](docs/obsidian/TECH_RADAR.md) (сходство 0.92)
-- [ONBOARDING](docs/obsidian/ONBOARDING.md) (сходство 0.21)
-- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md) (сходство 0.21)
+- [ONBOARDING](ONBOARDING.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [SCHEDULE](SCHEDULE.md)
 

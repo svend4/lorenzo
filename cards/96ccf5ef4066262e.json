@@ -1,0 +1,67 @@
+{
+  "card_id": "sha256:96ccf5ef4066262e",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/svyazi.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:d647397e6acafab1",
+  "payload": {
+    "title": "Svyazi",
+    "summary": "Гибридная система извлечения структурированных профилей участников сообщества из свободного текста; уже показала кейс «карточек коллабораций».",
+    "body": "svyazi источник хабр citeturn search проекты svyazi cardindex смотрите также rufler rufler memnet memnet knowledge space knowledge space yodoca yodoca кто ссылается этот документ authors name glossary authors name components name glossary components name concepts glossary concepts readme readme",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "knowledge-space",
+      "Rufler",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 134,
+    "path": "docs/svyazi-2-0/components/svyazi.md"
+  }
+}

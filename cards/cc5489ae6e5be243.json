@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:cc5489ae6e5be243",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/templates/ensemble.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SENTIMENT.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:2609c0c114dff479",
+  "payload": {
+    "title": "Что этот документ не решает",
+    "summary": "Он не предоставляет дорожную карту реализации.",
+    "body": "что этот документ решает warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений этот документ определяет проблему смотрите также ensemble templates ensemble что промышленность вероятно построит что промышленность вероятно построит sentiment sentiment appendix примеры расхождений разрешения appendix примеры расхождений разрешения похожие документы ensemble templates ensemble сходство appendix примеры расхождений разрешения appendix примеры расхождений разрешения сходство что промышленность вероятно построит что промышленность вероятно построит сходство",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 184,
+    "path": "docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md"
+  }
+}

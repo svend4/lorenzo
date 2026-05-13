@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:b3f6234bfe507b6d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/03-registry.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:7c58e4e28b3e9e0c",
+  "payload": {
+    "title": "3. Registry (`nautilus.json`)",
+    "summary": "Registry — central source of truth о том, какие Repos входят в",
+    "body": "registry nautilus json important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol draft rfc более ранняя версия",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 343,
+    "path": "docs/nautilus/npp-v1-0/03-registry.md"
+  }
+}

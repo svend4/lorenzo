@@ -1,6 +1,29 @@
 # A Practical Path to Layer B Through Symbiotic Integration
 
+<!-- toc-auto -->
+## Contents
+
+- [A Practical Path to Layer B Through Symbiotic Integration](#a-practical-path-to-layer-b-through-symbiotic-integration)
+- [Похожие документы](#похожие-документы)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.27)
 
 ---
@@ -15,10 +38,10 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.27)
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.17)
-- [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.10)
+- 123-portal-[mcp-py](123-portal-mcp-py.md) (сходство 0.10)
 
 <!-- backlinks-auto -->
 ## Упоминается в
@@ -62,9 +85,31 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "A Practical Path to Layer B Through"
+```
+
+## Смотрите также
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
-- [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
+- 344-системный-промпт-для-[lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [12-content-overview](12-content-overview.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [168-abstract](168-abstract.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [202-12-заключение](202-12-заключение.md)
+- _...ещё 5_
 

@@ -12,6 +12,17 @@ tags: [агент, спецификация]
 
 # Спецификация агента: [Название]
 
+<!-- summary -->
+> `agent-spec` — раздел документации проекта Lorenzo.
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
+<!-- toc-auto -->
+
 
 <!-- summary: Что делает агент и в каком контексте -->
 <!-- tags: агент, спецификация -->
@@ -106,6 +117,36 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
-- [project-component](docs/templates/project-component.md)
-- [protocol-spec](docs/templates/protocol-spec.md)
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template agent-spec --output docs/new-doc.md
+```
+
+## Смотрите также
+- [project-component](project-component.md)
+- [protocol-spec](protocol-spec.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [agent-spec](../obsidian/templates/agent-spec.md) (сходство 0.93)
+- [mega-stack](mega-stack.md) (сходство 0.20)
+- [mega-stack](../obsidian/templates/mega-stack.md) (сходство 0.19)
+

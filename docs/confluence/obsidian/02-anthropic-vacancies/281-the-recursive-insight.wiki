@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/281-the-recursive-insight.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,10 +8,15 @@ title: "The Recursive Insight"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. The Recursive Insight
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 h2. Содержание
@@ -25,6 +30,10 @@ h2. Содержание
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -100,7 +109,7 @@ work.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[285-closing]] (сходство 0.15)
 * [[277-what-s-missing-layer-b]] (сходство 0.14)
 * [[282-what-industry-will-likely-build]] (сходство 0.13)
@@ -110,7 +119,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Recursive Insight"
+{code}
+
+h2. Смотрите также
 * [[285-closing]]
 * [[282-what-industry-will-likely-build]]
 * [[277-what-s-missing-layer-b]]
@@ -149,3 +164,19 @@ h2. Связанные документы
 * [[286-acknowledgments|Acknowledgments]] _25%_
 * [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] _21%_
 * [[168-abstract|Abstract]] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [[150-appendix-c-version-history]]
+* [[155-1-problem-statement]]
+* [[168-abstract]]
+* [[266-13-closing]]
+* [[277-what-s-missing-layer-b]]
+* [[278-why-this-hasn-t-been-built]]
+* [[282-what-industry-will-likely-build]]
+* [[284-practical-recommendations-for-the-current-project]]
+* _...ещё 3_
+

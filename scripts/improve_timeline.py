@@ -33,9 +33,15 @@ DATE_PATTERNS = [
 ]
 
 
+def strip_links(text: str) -> str:
+    """Remove markdown links, leaving only link text."""
+    text = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', text)
+    return text
+
+
 def extract_dates(text: str, filepath: Path) -> list[dict]:
     entries = []
-    rel = str(filepath.relative_to(ROOT))
+    rel = str(filepath.relative_to(DOCS))
 
     for pattern, kind in DATE_PATTERNS:
         for m in re.finditer(pattern, text, re.IGNORECASE):
@@ -44,6 +50,7 @@ def extract_dates(text: str, filepath: Path) -> list[dict]:
             end = min(len(text), m.end() + 60)
             context = text[start:end].replace('\n', ' ').strip()
             context = re.sub(r'\s+', ' ', context)
+            context = strip_links(context)
             entries.append({
                 'match': m.group(0),
                 'kind': kind,

@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:0056b9e7ab8f1795",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:d293f30e360c5679",
+  "payload": {
+    "title": "Что concept document NOT (это не grant / не paper / не business plan), длина и формат",
+    "summary": "Not grant application: less formal, no specific dollar amount asked",
+    "body": "что concept document not это grant paper business plan длина формат источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section engagement request section engagement request section role anthropic section role anthropic context context section proposer role section proposer role",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 383,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md"
+  }
+}

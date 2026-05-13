@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:520ecbf7de5203ff",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/overview/methodology.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/overview/projects-map.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/02-методика-и-рамка-отбора.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/02-methodology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/overview/executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/outreach/message-template.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:a838abe123d64beb",
+  "payload": {
+    "title": "Методика и рамка отбора",
+    "summary": "Поиск вёлся с приоритетом на **Хабр как первичный слой описания идеи** и на **репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса**. В выборку включались только те вещи, которые одновременно отвечали хотя бы двум условиям: дают новый слой в Svyazi‑2.0, могут бы",
+    "body": "методика рамка отбора tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел методика рамка отбора проекты svyazi liteparse legal rag graph rag смотрите также методика рамка отбора collaborations методика рамка отбора methodology svyazi methodology executive summary executive summary message template outreach message template",
+    "tags": [
+      "rag",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG"
+    ],
+    "wc": 268,
+    "path": "docs/svyazi-2-0/overview/methodology.md"
+  }
+}

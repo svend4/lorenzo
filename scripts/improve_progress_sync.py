@@ -139,12 +139,65 @@ def check_skills() -> dict:
     return {"total": len(names), "names": names}
 
 
+def check_prototype() -> dict:
+    """Проверяет готовность прототипа Knowledge OS."""
+    demo    = SCRIPTS / "prototype_demo.py"
+    gateway = SCRIPTS / "gateway.py"
+    prec    = DOCS / "PRECISION_EVAL.md"
+    hit_rate = None
+    if prec.exists():
+        m = re.search(r'Hit Rate@\d+\s*\|\s*\*\*([\d.]+)\*\*', prec.read_text(encoding="utf-8"))
+        if m:
+            hit_rate = float(m.group(1))
+    return {
+        "demo_exists":    demo.exists(),
+        "gateway_exists": gateway.exists(),
+        "hit_rate":       hit_rate,
+        "ready": demo.exists() and gateway.exists() and hit_rate is not None and hit_rate >= 0.70,
+    }
+
+
+def check_testing() -> dict:
+    """Проверяет наличие тестового покрытия."""
+    tests_dir = ROOT / "tests"
+    prec      = DOCS / "PRECISION_EVAL.md"
+    n_tests   = len(list(tests_dir.glob("test_*.py"))) if tests_dir.exists() else 0
+    hit_pass  = False
+    if prec.exists():
+        hit_pass = "✅ PASS" in prec.read_text(encoding="utf-8")
+    return {
+        "n_test_files": n_tests,
+        "hit_rate_pass": hit_pass,
+        "ready": n_tests >= 5 and hit_pass,
+    }
+
+
+def check_published() -> dict:
+    """Проверяет наличие git-тега v* (признак публикации MVP)."""
+    import subprocess
+    try:
+        result = subprocess.run(
+            ["git", "tag", "--list", "v*"],
+            capture_output=True, text=True, cwd=str(ROOT), timeout=10,
+        )
+        tags = [t.strip() for t in result.stdout.splitlines() if t.strip()]
+    except Exception:
+        tags = []
+    return {
+        "tags": tags,
+        "ready": len(tags) > 0,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Вычисление статуса milestone
 # ---------------------------------------------------------------------------
 
 def compute_milestones(contacts: dict, enriched: dict, arch: dict,
-                       scripts: dict, digest: dict) -> list[dict]:
+                       scripts: dict, digest: dict,
+                       prototype: dict | None = None,
+                       testing: dict | None = None,
+                       published: dict | None = None) -> list[dict]:
     """Возвращает список milestone с реальным статусом."""
     return [
         {
@@ -189,18 +242,30 @@ def compute_milestones(contacts: dict, enriched: dict, arch: dict,
         },
         {
             "title": "Создан рабочий прототип Knowledge OS",
-            "done":  False,
-            "detail": "Следующий этап после контактов",
+            "done":  (prototype or {}).get("ready", False),
+            "detail": (
+                f"gateway.py + prototype_demo.py, Hit Rate@10={prototype['hit_rate']:.3f} ✅"
+                if prototype and prototype.get("ready")
+                else "scripts/gateway.py + prototype_demo.py + Hit Rate@10 ≥ 0.70"
+            ),
         },
         {
             "title": "Пройдено тестирование ансамбля",
-            "done":  False,
-            "detail": "После прототипа",
+            "done":  (testing or {}).get("ready", False),
+            "detail": (
+                f"{testing['n_test_files']} тестовых файлов, Hit Rate@10 PASS ✅"
+                if testing and testing.get("ready")
+                else "tests/ ≥ 5 файлов + Hit Rate@10 PASS"
+            ),
         },
         {
             "title": "Опубликован MVP на GitHub",
-            "done":  False,
-            "detail": "Финальный этап",
+            "done":  (published or {}).get("ready", False),
+            "detail": (
+                f"git tag {', '.join((published or {}).get('tags', []))} ✅"
+                if published and published.get("ready")
+                else "Создать git tag v* для публикации MVP"
+            ),
         },
     ]
 
@@ -356,6 +421,8 @@ def build_progress_md(
         "- [Health Dashboard](HEALTH.md)",
         "- [MVP Planning](01-svyazi/07-mvp-planning.md)",
         "",
+        "<!-- auto-end -->",
+        "",
     ]
 
     return "\n".join(lines)
@@ -378,6 +445,9 @@ def main():
     scores    = check_quality_scores()
     digest    = check_digest()
     skills    = check_skills()
+    prototype  = check_prototype()
+    testing    = check_testing()
+    published  = check_published()
 
     print(f"  Контакты:   {contacts['total']} файлов "
           f"(написали: {contacts['messaged']}, ответили: {contacts['replied']})")
@@ -385,9 +455,12 @@ def main():
     print(f"  Скрипты:    {scripts['total']} (LLM: {scripts['llm']})")
     print(f"  Баллы:      health={scores.get('health')}, "
           f"metrics={scores.get('metrics')}, scoring={scores.get('scoring')}")
+    print(f"  Опубликован: тегов={len(published['tags'])}")
     print()
 
-    milestones = compute_milestones(contacts, enriched, arch, scripts, digest)
+    milestones = compute_milestones(contacts, enriched, arch, scripts, digest,
+                                    prototype=prototype, testing=testing,
+                                    published=published)
     done = sum(1 for m in milestones if m["done"])
     print(f"Milestones: {done}/{len(milestones)}")
     for m in milestones:
@@ -404,7 +477,19 @@ def main():
         print("...")
         return
 
-    PROGRESS_PATH.write_text(new_content, encoding="utf-8")
+    # Сохраняем ручные секции после маркера <!-- auto-end -->
+    manual_suffix = ""
+    if PROGRESS_PATH.exists():
+        existing = PROGRESS_PATH.read_text(encoding="utf-8")
+        marker = "<!-- auto-end -->"
+        if marker in existing:
+            manual_suffix = existing.split(marker, 1)[1]
+
+    final_content = new_content
+    if manual_suffix.strip():
+        final_content = new_content.rstrip() + "\n" + manual_suffix
+
+    PROGRESS_PATH.write_text(final_content, encoding="utf-8")
     print(f"✅ {PROGRESS_PATH.relative_to(ROOT)} обновлён")
     print(f"   Следующий шаг: {next((m['title'] for m in milestones if not m['done']), 'Всё готово!')}")
 

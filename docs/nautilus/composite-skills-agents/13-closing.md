@@ -1,11 +1,20 @@
 # 13. Closing
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [13. Closing](#13-closing)
@@ -136,11 +145,33 @@ synthesis.)
 
 ---
 
-**Смотрите также:**
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
-- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "13 Closing"
+```
+
+## Смотрите также
+- [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md)
+- [267-acknowledgments](../../02-anthropic-vacancies/267-acknowledgments.md)
+- [01-why-binary-incomplete](01-why-binary-incomplete.md)
+- [09-okwf-integration](09-okwf-integration.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-why-binary-incomplete](01-why-binary-incomplete.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -148,7 +179,7 @@ synthesis.)
 ---
 
 **Похожие документы:**
-- [266-13-closing](docs/obsidian/02-anthropic-vacancies/266-13-closing.md) (сходство 0.61)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.60)
-- [267-acknowledgments](docs/obsidian/02-anthropic-vacancies/267-acknowledgments.md) (сходство 0.39)
+- [13-closing](../../obsidian/nautilus/composite-skills-agents/13-closing.md) (сходство 0.99)
+- [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md) (сходство 0.60)
+- [266-13-closing](../../obsidian/02-anthropic-vacancies/266-13-closing.md) (сходство 0.60)
 

@@ -1,4 +1,18 @@
 # 7. PortalEntry Structure
+
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
 
@@ -59,17 +73,30 @@ class PortalEntry:
 
 ---
 
-**Похожие документы:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.25)
+## Похожие документы
+- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.25)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+## Смотрите также
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [74-abstract](74-abstract.md)
+- [README](README.md)
 

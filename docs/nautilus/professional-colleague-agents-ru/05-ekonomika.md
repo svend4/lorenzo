@@ -1,11 +1,20 @@
 # 5. Экономика тиражирования по профессии
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Профессиональные Коллеги-Агенты (RU)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [5. Экономика тиражирования по профессии](#5-экономика-тиражирования-по-профессии)
@@ -181,11 +190,31 @@ $5/месяц. Стоимость для фонда: $1,5
 
 ---
 
-**Смотрите также:**
-- [236-5-экономика-тиражирования-по-профессии](docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md)
-- [08-pilot-sgb-kolega](docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md)
-- [04-arkhitektura](docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md)
-- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Экономика тиражирования по профессии"
+```
+
+## Смотрите также
+- [236-5-экономика-тиражирования-по-профессии](../../02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md)
+- [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)
+- [04-arkhitektura](04-arkhitektura.md)
+- [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-arkhitektura](04-arkhitektura.md)
+- [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -193,7 +222,7 @@ $5/месяц. Стоимость для фонда: $1,5
 ---
 
 **Похожие документы:**
-- [236-5-экономика-тиражирования-по-профессии](docs/obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) (сходство 0.88)
-- [236-5-экономика-тиражирования-по-профессии](docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) (сходство 0.86)
-- [08-pilot-sgb-kolega](docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md) (сходство 0.13)
+- [05-ekonomika](../../obsidian/nautilus/professional-colleague-agents-ru/05-ekonomika.md) (сходство 0.99)
+- [236-5-экономика-тиражирования-по-профессии](../../02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) (сходство 0.87)
+- [236-5-экономика-тиражирования-по-профессии](../../obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) (сходство 0.86)
 

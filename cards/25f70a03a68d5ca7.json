@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:25f70a03a68d5ca7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:c12625354802943e",
+  "payload": {
+    "title": "21. ADR-003: Five Onboarding Paths as Equal-Rank",
+    "summary": "title: \"21. ADR-003: Five Onboarding Paths as Equal-Rank\"",
+    "body": "adr five onboarding paths equal rank status accepted new adr five onboarding paths equal rank status accepted new context была одна основная стратегия подключения manual adapter процессе развития reference implementation появились дополнительных пути возникал вопрос какой канонический decision все путей равнорангованные выбор делается контексту раздел иерархии consequences positive flexibility для разных use cases self declaring repos path enables federation без центральной координации automated paths scale для fleet federation negative больше документации users могут путаться какой путь выбрать mitigated via раздел guidance похожие документы adr federation over merging сходство смотрите также adr federation over merging adr first class protocol concept adr federation over merging with anthropic cowork platform appendix decision tree for ingit adopters docs anthropic vacancies appendix decision tree for ingit adopters",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 158,
+    "path": "docs/obsidian/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md"
+  }
+}

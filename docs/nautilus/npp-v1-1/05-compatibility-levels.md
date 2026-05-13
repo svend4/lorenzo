@@ -1,6 +1,27 @@
 # 5. Compatibility Levels
 
+<!-- toc-auto -->
+## Contents
+
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Linked](#level-2-linked)
+  - [Level 3 — Interactive](#level-3-interactive)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -73,11 +94,30 @@ Portal возвращает static entries.
 
 ---
 
-**Смотрите также:**
-- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md)
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
+## Смотрите также
+- [80-5-compatibility-levels](../../02-anthropic-vacancies/80-5-compatibility-levels.md)
+- [17-5-compatibility-levels](../../02-anthropic-vacancies/17-5-compatibility-levels.md)
+- [07-portal-entry](07-portal-entry.md)
+- [06-adapter-interface](06-adapter-interface.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-terminology](02-terminology.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -85,7 +125,7 @@ Portal возвращает static entries.
 ---
 
 **Похожие документы:**
-- [80-5-compatibility-levels](docs/obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.80)
-- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.72)
-- [05-compatibility-levels](docs/nautilus/npp-v1-0/05-compatibility-levels.md) (сходство 0.36)
+- [05-compatibility-levels](../../obsidian/nautilus/npp-v1-1/05-compatibility-levels.md) (сходство 0.98)
+- [80-5-compatibility-levels](../../obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.76)
+- [80-5-compatibility-levels](../../02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.75)
 

@@ -1,11 +1,28 @@
 # Пара 3 — ZINC inference engine × гибрид Attention+SSM+MoE
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Yodoca, AutoResearch
 
 ---
 <!-- tags: memory, orchestration, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +45,28 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 
 ---
 
-**Смотрите также:**
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
-- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 3 ZINC inference engine гибрид"
+```
+
+## Смотрите также
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+- 06-openclaude-utyokshiy-[claude-code-zinc-inference-engine-mome-](../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
+- [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
+- [4-riscv-privacy](4-riscv-privacy.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [README](../../nautilus/README.md)
 
 
 <!-- similar-docs -->
@@ -40,7 +74,7 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 ---
 
 **Похожие документы:**
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md) (сходство 0.19)
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.18)
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.17)
+- [3-zinc-hybrid-arch](../../obsidian/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) (сходство 0.95)
+- [4-riscv-privacy](4-riscv-privacy.md) (сходство 0.23)
+- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md) (сходство 0.22)
 

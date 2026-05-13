@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:dacf50ea1c580529",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:11c7ed0c01c5ba2b",
+  "payload": {
+    "title": "Claude subagents patterns",
+    "summary": "Что есть: Practical patterns для использования AI sub-agents в разработке:",
+    "body": "claude subagents patterns источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов смотрите также personal multi agent hub personal multi agent hub vshe scientific networking vshe scientific networking question habr link nautilus community discussions habr article reaction question habr link specialized knowledge workspace specialized knowledge workspace",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 142,
+    "path": "docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md"
+  }
+}

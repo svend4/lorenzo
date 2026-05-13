@@ -1,11 +1,38 @@
 # Claude hat geantwortet: Очень интересный вопрос.
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — под какой сценарий больше всего подходит — творчество людей объединяется.
 **Проекты:** CardIndex, Wikontic
 
 ---
 <!-- tags: rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -492,12 +519,49 @@ Option F: Pause exploration — это substantial concept, нужно time to d
 
 Что вам useful right now?
 
+<!-- see-also -->
+
+---
+
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Очень интересный "
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Очень интересный " --mode bm25
+```
+
+## Смотрите также
+- [00-question-scenario](00-question-scenario.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
+- [01-completing-loop](../../nautilus/transmission-box/01-completing-loop.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.36)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.36)
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.18)
+- [01-response](../../obsidian/lorenzo-agent/scenarios/01-response.md) (сходство 0.99)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.37)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.37)
 

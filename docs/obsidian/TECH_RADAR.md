@@ -2,49 +2,22 @@
 title: "Tech Radar — Svyazi 2.0"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Tech Radar — Svyazi 2.0
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `TECH_RADAR` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: tech-radar, docs -->
+
 
 <!-- summary -->
-> _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, anthropic, collaboration -->
-
-
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
+> `TECH_RADAR` — раздел документации проекта Lorenzo.
 
 
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
@@ -134,31 +107,25 @@ _Не рекомендуем для новых проектов. Использ�
 _Radar обновляется вручную при существенных изменениях экосистемы._
 
 
-<!-- see-also -->
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
-- [[ONBOARDING]]
+**Кто ссылается на этот документ (11):**
 - [[COMPONENT_MATRIX]]
-- [[WORD_FREQ]]
-- [[RISK_REGISTER]]
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [[README|docs]]
-- [[TABLES|Все таблицы репозитория]]
-- [[CONCEPTS|Глоссарий понятий]]
-- [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]]
-- [[SITEMAP|Карта репозитория Lorenzo]]
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[TECH_RADAR]] (сходство 0.92)
-- [[ONBOARDING]] (сходство 0.21)
-- [[COMPONENT_MATRIX]] (сходство 0.21)
+- [[CONCEPTS]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 3_
 

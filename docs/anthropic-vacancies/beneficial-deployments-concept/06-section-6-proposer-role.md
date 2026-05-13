@@ -1,10 +1,26 @@
 # Section 6: Proposer's role и qualifications
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 
 ---
 <!-- tags: anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -39,11 +55,35 @@ Identified working potential collaborators (HMP, Свяжи, etc.)
 
 ---
 
-**Смотрите также:**
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 6 Proposer s role и"
+```
+
+## Смотрите также
+- [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
+- [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -51,7 +91,7 @@ Identified working potential collaborators (HMP, Свяжи, etc.)
 ---
 
 **Похожие документы:**
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.34)
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) (сходство 0.32)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) (сходство 0.29)
+- [06-section-6-proposer-role](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md) (сходство 0.98)
+- [03-section-3-solution-architecture](03-section-3-solution-architecture.md) (сходство 0.53)
+- [03-section-3-solution-architecture](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.52)
 

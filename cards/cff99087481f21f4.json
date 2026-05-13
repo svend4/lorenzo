@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:cff99087481f21f4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/18-6-adapter-interface.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/21-9-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/85-10-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/19-7-portalentry-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/23-11-security-considerations.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:940cac0d24356253",
+  "payload": {
+    "title": "6. Adapter Interface",
+    "summary": "Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс)",
+    "body": "adapter interface содержание contents contents adapter interface adapter interface baseadapter contract baseadapter contract describe required for level describe required for level fetch query required for level fetchquery required for level translate entry target repo required for level translate toentry target repo required for level упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы adapter interface baseadapter contract каждый адаптер must наследоваться или иметь эквивалентный интерфейс baseadapter интегральный анализ профиля svend class baseadapter name str repo path str local path или git url def describe self dict level return metadata about the repo def fetch self query str list portalentry level search the repo return unified entries def translate self entry portalentry target repo str str none level translate entry another repo native concept return none describe required for level returns dict следующей обязательной структурой name str совпадает self name format str native format identifier total entries int none сколько записей всего last updated str none iso timestamp topics list str ключевые темы bridges dict str str копия nautilus json bridges fetch query required for level accepts string query returns list portalentry интегральный анализ профиля svend implementation must возвращать пустой список если ничего найдено none exception ограничить результат разумным числом should выполнять сетевые запросы другим repos только локальный repo implementation should поддерживать case insensitive matching для текстовых запросов возвращать результаты порядке убывания релевантности кешировать результаты для одинаковых query translate entry target repo required for level accepts portalentry интегральный анализ профиля svend имя target repo bridges returns string description концепта entry терминах target repo или none если перевод невозможен это свободная текстовая интерпретация formal mapping цель дать пользователю возможность увидеть концепт глазами другого repo похожие документы adapter interface adapter interface сходство query flow query flow сходство query flow query flow сходство смотрите также adapter interface adapter interface portalentry structure portalentry structure portalentry structure portalentry structure security considerations security considerations упоминается query flow query flow queryresult structure queryresult structure rest api contract normative for portals rest api contract normative for portals security considerations security considerations registry nautilus json registry nautilus json compatibility levels compatibility levels compatibility levels compatibility levels adapter interface adapter interface portalentry structure portalentry structure portalentry structure portalentry structure space normative space normative query flow query flow вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы adapter interface adapter interface query flow query flow query flow query flow registry nautilus json registry nautilus json portalentry structure portalentry structure queryresult structure queryresult structure portalentry structure portalentry structure compatibility levels compatibility levels связанные документы adapter interface adapter interface query flow query flow queryresult structure queryresult structure portalentry structure portalentry structure query flow query flow registry nautilus json registry nautilus json compatibility levels compatibility levels portalentry structure portalentry structure кто ссылается этот документ query flow query flow queryresult structure queryresult structure security considerations security considerations security considerations security considerations readme readme",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 604,
+    "path": "docs/02-anthropic-vacancies/18-6-adapter-interface.md"
+  }
+}

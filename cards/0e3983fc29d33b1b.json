@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:0e3983fc29d33b1b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/17-5-compatibility-levels.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/80-5-compatibility-levels.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/41-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/51-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/61-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/18-6-adapter-interface.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:819d0fd9b14678f0",
+  "payload": {
+    "title": "5. Compatibility Levels",
+    "summary": "NPP определяет 4 уровня совместимости Repo с экосистемой. Это",
+    "body": "compatibility levels абстракт авто проблема use case статические repos архивы reference docs которые нужно искать подход адаптер реализует только describe метод результат это позволяет постепенное подключение существующий repo может начать уровне расти уровню без переделки ключевые слова level compatibility levels anthropic vacancies может portal repos contents compatibility levels compatibility levels level discoverable level discoverable level readable level readable level queryable level queryable level interactive bridged level interactive bridged npp определяет уровня совместимости repo экосистемой это похожие документы compatibility levels compatibility levels сходство compatibility level compatibility level сходство compatibility level compatibility level сходство смотрите также compatibility levels compatibility levels compatibility level compatibility level compatibility level compatibility level compatibility level compatibility level кто ссылается этот документ passport passport passport passport adapter interface adapter interface query flow query flow compatibility level compatibility level compatibility level compatibility level compatibility level compatibility level readme readme",
+    "tags": [
+      "memory",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 338,
+    "path": "docs/02-anthropic-vacancies/17-5-compatibility-levels.md"
+  }
+}

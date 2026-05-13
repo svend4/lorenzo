@@ -5,10 +5,15 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 8. Pilot Proposal: SGB Advocate Colleague
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -21,6 +26,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > We now apply the Professional Colleague Agent framework to a
 
 ---
@@ -242,7 +251,7 @@ incremental rather than novel.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[260-7-economics-of-combinatorial-replication]] (сходство 0.17)
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.16)
 - [[164-10-appendices]] (сходство 0.15)
@@ -252,7 +261,13 @@ incremental rather than novel.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Pilot Proposal SGB Advocate Colleague"
+```
+
+## Смотрите также
 - [[260-7-economics-of-combinatorial-replication]]
 - [[262-9-integration-with-okwf-infrastructure]]
 - [[164-10-appendices]]
@@ -299,3 +314,19 @@ incremental rather than novel.
 - [[223-12-closing|12. Closing]] _25%_
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
 - [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [[143-6-four-deployment-domains]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[155-1-problem-statement]]
+- [[161-7-phased-rollout-plan]]
+- [[164-10-appendices]]
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[173-4-ten-domains-of-application]]
+- [[214-3-empirical-case-study-обучай]]
+- _...ещё 10_
+

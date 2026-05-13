@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:518ad1161afa2b31",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/LLM_SUMMARIES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:11f425277db31a10",
+  "payload": {
+    "title": "AI-саммари разделов документации",
+    "summary": "title: \"AI-саммари разделов документации\"",
+    "body": "саммари разделов документации архитектура svyazi архитектура svyazi проекты svyazi contents архитектура svyazi архитектура svyazi вакансии anthropic вакансии anthropic комбинации технологий комбинации технологий коллаборации коллаборации хабр проекты хабр проекты модель claude haiku разделов архитектура svyazi docs svyazi файлов слов раздел архитектура svyazi содержит документов слов файлы intro part executive summary methodology component catalog ensembles overview вакансии anthropic docs anthropic vacancies файлов слов раздел вакансии anthropic содержит документов слов файлы intro интегральный анализ профиля svend общий план развития nautilus portal protocol portal protocol abstract комбинации технологий docs technology combinations файлов слов раздел комбинации технологий содержит документов слов файлы agent routing knowledge graphs local first sozialrecht domain benchmarks коллаборации docs collaborations файлов слов раздел коллаборации содержит документов слов файлы intro executive summary методика рамка отбора карта найденных проектов паттернов приоритетные ансамбли хабр проекты docs habr projects файлов слов раздел хабр проекты содержит документов слов файлы synthesis collaboration partners readme readme запустите anthropic api key для генерации резюме без ключа автоматическое резюме основе метаданных связанные документы index индекс документации lorenzo svyazi duplicates отчёт дублировании sitemap карта репозитория lorenzo validation валидация структуры репозитория связанные документы index индекс документации lorenzo svyazi tags индекс тегов svyazi svyazi архитектура исследование docs svyazi readme crossrefs перекрёстные ссылки смотрите также concept graph validation onboarding word cloud упоминается readme docs tables все таблицы репозитория index индекс документации lorenzo svyazi sitemap карта репозитория lorenzo onboarding онбординг svyazi lorenzo",
+    "tags": [
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 295,
+    "path": "docs/obsidian/LLM_SUMMARIES.md"
+  }
+}

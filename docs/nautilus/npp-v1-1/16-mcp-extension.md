@@ -1,10 +1,27 @@
 # 16. MCP Extension (Informative)
 
+<!-- toc-auto -->
+## Contents
+
+- [16. MCP Extension (Informative)](#16-mcp-extension-informative)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +50,34 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 
 ---
 
-**Смотрите также:**
-- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "16 MCP Extension Informative"
+```
+
+## Смотрите также
+- [91-16-mcp-extension-informative](../../02-anthropic-vacancies/91-16-mcp-extension-informative.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-mcp-claude-desktop-use-cases](../npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md)
+- [04-passport](04-passport.md)
+- [06-adapter-interface](06-adapter-interface.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -45,7 +85,7 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 ---
 
 **Похожие документы:**
-- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md) (сходство 0.60)
-- [91-16-mcp-extension-informative](docs/obsidian/02-anthropic-vacancies/91-16-mcp-extension-informative.md) (сходство 0.60)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md) (сходство 0.33)
+- [16-mcp-extension](../../obsidian/nautilus/npp-v1-1/16-mcp-extension.md) (сходство 0.97)
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.56)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.56)
 

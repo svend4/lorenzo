@@ -1,6 +1,30 @@
 # 10. Open Questions
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Open Questions](#10-open-questions)
+  - [10.1. Scope of "Profession"](#101-scope-of-profession)
+  - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
+  - [10.3. International Variation](#103-international-variation)
+  - [10.4. Update Cadence](#104-update-cadence)
+  - [10.5. Quality Assessment](#105-quality-assessment)
+  - [10.6. Transition Costs](#106-transition-costs)
+  - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
+  - [10.8. Appropriate Resistance](#108-appropriate-resistance)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
@@ -81,12 +105,30 @@ they shape technical decisions.
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.83)
-- [221-10-open-questions](docs/obsidian/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.80)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md) (сходство 0.20)
+- [10-open-questions](../../obsidian/nautilus/professional-colleague-agents-en/10-open-questions.md) (сходство 0.98)
+- [221-10-open-questions](../../02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.81)
+- [221-10-open-questions](../../obsidian/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.80)
 

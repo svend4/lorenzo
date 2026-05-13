@@ -1,5 +1,19 @@
 # 16. MCP Extension (Informative)
 
+<!-- toc-auto -->
+## Contents
+
+- [16. MCP Extension (Informative)](#16-mcp-extension-informative)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -36,7 +50,7 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [128-доступные-инструменты](128-доступные-инструменты.md) (сходство 0.18)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md) (сходство 0.14)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md) (сходство 0.13)
@@ -46,7 +60,13 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "16 MCP Extension Informative"
+```
+
+## Смотрите также
 - [128-доступные-инструменты](128-доступные-инструменты.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
@@ -82,3 +102,18 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _21%_
 - [2. Terminology](77-2-terminology.md) _21%_
 - [Appendix C: References](104-appendix-c-references.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [131-ограничения-текущей-версии-0-1-0-draft](131-ограничения-текущей-версии-0-1-0-draft.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [README](README.md)
+

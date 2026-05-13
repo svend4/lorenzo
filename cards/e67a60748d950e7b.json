@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:e67a60748d950e7b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/13-outreach-communication.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/04-q4-character.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/03-tvoya-missiya.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:80594755c8733b2c",
+  "payload": {
+    "title": "Твоя коммуникация в outreach",
+    "summary": "Когда draft outreach message к независимому создателю, ВСЕГДА включай:",
+    "body": "твоя коммуникация outreach источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также твоя коммуникация outreach anthropic vacancies твоя коммуникация outreach character specification character vsegda delaesh vsegda delaesh tvoya missiya tvoya missiya",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 226,
+    "path": "docs/lorenzo-agent/13-outreach-communication.md"
+  }
+}

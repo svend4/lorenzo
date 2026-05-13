@@ -1,0 +1,61 @@
+{
+  "card_id": "sha256:5196efe2e3b6892f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:9a6d73d3d6aedcb2",
+  "payload": {
+    "title": "Пара 4 — RISC-V × privacy-by-design община",
+    "summary": "Пара 4. RISC-V с аппаратной поддержкой LLM (Alibaba XuanTie C950) × privacy-by-design община",
+    "body": "пара risc privacy design община источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi cardindex yodoca смотрите также crdt self hosted software pairs crdt self hosted tinyml mcp skills tinyml mcp skills zinc hybrid arch zinc hybrid arch crdt local first svyazi cardindex technology combinations combinations crdt local first svyazi cardindex кто ссылается этот документ components name glossary components name concepts glossary concepts readme readme",
+    "tags": [
+      "memory",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "Yodoca"
+    ],
+    "wc": 294,
+    "path": "docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md"
+  }
+}

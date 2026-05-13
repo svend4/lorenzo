@@ -7,10 +7,27 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 15. Security Considerations
+
+<!-- toc -->
+## Содержание
+
+- [15. Security Considerations](#15-security-considerations)
+  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
+  - [15.2. Private Repositories](#152-private-repositories)
+  - [15.3. MCP Exposure](#153-mcp-exposure)
+  - [15.4. Rate Limiting](#154-rate-limiting)
+  - [15.5. Supply Chain](#155-supply-chain)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
 
@@ -22,28 +39,6 @@ date: 2026-04-29
 > ✅ **Результат:** Для приватных Repos RECOMMENDED: - Отдельный private-nautilus.json с explicit opt-in - Отдельный portal instance, не доступный публично - Authentication на REST API (JWT / API keys
 > 🏷️ **Ключевые слова:** `security`, `considerations`, `adapters`, `portal`, `anthropic`, `vacancies`, `private`, `untrusted`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [15. Security Considerations](#15-security-considerations)
-  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
-  - [15.2. Private Repositories](#152-private-repositories)
-  - [15.3. MCP Exposure](#153-mcp-exposure)
-  - [15.4. Rate Limiting](#154-rate-limiting)
-  - [15.5. Supply Chain](#155-supply-chain)
-
-
-<!-- toc-auto -->
-## Contents
-
-- [15. Security Considerations](#15-security-considerations)
-  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
-  - [15.2. Private Repositories](#152-private-repositories)
-  - [15.3. MCP Exposure](#153-mcp-exposure)
-  - [15.4. Rate Limiting](#154-rate-limiting)
-  - [15.5. Supply Chain](#155-supply-chain)
 
 
 > [!IMPORTANT]
@@ -116,9 +111,9 @@ supply-chain риск.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[23-11-security-considerations]] (сходство 0.55)
-- [[88-13-rest-api-contract-normative-for-portals]] (сходство 0.11)
+- 88-13-[[88-13-rest-api-contract-normative-for-portals|rest-api-contract-normative-for-portals]] (сходство 0.11)
 - [[85-10-query-flow]] (сходство 0.10)
 
 
@@ -126,9 +121,15 @@ supply-chain риск.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "15 Security Considerations"
+```
+
+## Смотрите также
 - [[23-11-security-considerations]]
-- [[88-13-rest-api-contract-normative-for-portals]]
+- 88-13-[[88-13-rest-api-contract-normative-for-portals|rest-api-contract-normative-for-portals]]
 - [[81-6-adapter-interface]]
 - [[18-6-adapter-interface]]
 
@@ -153,3 +154,14 @@ supply-chain риск.
 - [[88-13-rest-api-contract-normative-for-portals|13. REST API Contract (Normative for Portals)]] _29%_
 - [[21-9-query-flow|9. Query Flow]] _17%_
 - [[85-10-query-flow|10. Query Flow]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[18-6-adapter-interface]]
+- [[21-9-query-flow]]
+- [[23-11-security-considerations]]
+- [[README]]
+

@@ -5,7 +5,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 8. Risk Analysis
@@ -186,7 +186,7 @@ within acceptable range for mission-driven foundation launch.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[164-10-appendices]] (сходство 0.16)
 - [[161-7-phased-rollout-plan]] (сходство 0.16)
 - [[163-9-call-for-partnership]] (сходство 0.15)
@@ -196,7 +196,13 @@ within acceptable range for mission-driven foundation launch.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risk Analysis"
+```
+
+## Смотрите также
 - [[161-7-phased-rollout-plan]]
 - [[164-10-appendices]]
 - [[163-9-call-for-partnership]]
@@ -218,3 +224,14 @@ within acceptable range for mission-driven foundation launch.
 
 - [[159-5-economic-model|5. Economic Model]] _17%_
 - [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[161-7-phased-rollout-plan]]
+- [[164-10-appendices]]
+- [[263-10-risks-specific-to-composite-architectures]]
+- [[README]]
+

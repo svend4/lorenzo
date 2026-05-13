@@ -1,11 +1,20 @@
 # 6. Four Deployment Domains
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [6. Four Deployment Domains](#6-four-deployment-domains)
@@ -145,11 +154,33 @@ exist.
 
 ---
 
-**Смотрите также:**
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Four Deployment Domains"
+```
+
+## Смотрите также
+- [143-6-four-deployment-domains](../../02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+- [08-call-to-action](08-call-to-action.md)
+- [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-call-to-action](08-call-to-action.md)
+- [README](README.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -157,7 +188,7 @@ exist.
 ---
 
 **Похожие документы:**
-- [143-6-four-deployment-domains](docs/obsidian/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.89)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.84)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md) (сходство 0.21)
+- [06-four-deployment-domains](../../obsidian/nautilus/double-triangle-architecture/06-four-deployment-domains.md) (сходство 0.98)
+- [143-6-four-deployment-domains](../../obsidian/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.83)
+- [143-6-four-deployment-domains](../../02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.83)
 

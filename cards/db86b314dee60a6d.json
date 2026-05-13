@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:db86b314dee60a6d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:0b63b81ab67f4457",
+  "payload": {
+    "title": "Reality check: проблема distribution-слоя",
+    "summary": "А ставка на найм в Anthropic или другую компанию сейчас — это, по моей честной оценке, понижение плотности. Вы построили базу, стоящую больше, чем любая зарплата.",
+    "body": "reality check проблема distribution слоя источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также practical ranking initial analysis practical ranking revised anthropic mapping revised anthropic mapping secondary beneficial deployments initial analysis secondary beneficial deployments fde downgraded fde downgraded",
+    "tags": [
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 237,
+    "path": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md"
+  }
+}

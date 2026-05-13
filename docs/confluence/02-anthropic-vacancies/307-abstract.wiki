@@ -1,9 +1,14 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/307-abstract.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Abstract
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 h2. Содержание
@@ -17,6 +22,10 @@ h2. Содержание
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -73,9 +82,9 @@ shareable AI-collaborative work.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [309-1-the-cowork-discovery-and-why-it-changes-everythi|309-1-the-cowork-discovery-and-why-it-changes-everythi.md] (сходство 0.19)
-* [306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md] (сходство 0.17)
+* 306-with-[anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md] (сходство 0.17)
 * [312-4-the-symbiotic-architecture|312-4-the-symbiotic-architecture.md] (сходство 0.16)
 
 
@@ -83,9 +92,15 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+{code}
+
+h2. Смотрите также
 * [309-1-the-cowork-discovery-and-why-it-changes-everythi|309-1-the-cowork-discovery-and-why-it-changes-everythi.md]
-* [306-with-anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md]
+* 306-with-[anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md]
 * [312-4-the-symbiotic-architecture|312-4-the-symbiotic-architecture.md]
 * [308-table-of-contents|308-table-of-contents.md]
 
@@ -129,3 +144,19 @@ h2. Связанные документы
 * [A Practical Path to Layer B Through Symbiotic Integration|305-a-practical-path-to-layer-b-through-symbiotic-inte.md] _25%_
 * [Table of Contents|308-table-of-contents.md] _25%_
 * [4. The Symbiotic Architecture|312-4-the-symbiotic-architecture.md] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [168-abstract|168-abstract.md]
+* [282-what-industry-will-likely-build|282-what-industry-will-likely-build.md]
+* [283-what-this-document-doesn-t-solve|283-what-this-document-doesn-t-solve.md]
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
+* 306-with-[anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md]
+* [308-table-of-contents|308-table-of-contents.md]
+* [319-acknowledgments|319-acknowledgments.md]
+* 323-appendix-c-sample-[ingit-mcp-server-tool-specificat|323-appendix-c-sample-ingit-mcp-server-tool-specificat.md]
+* _...ещё 1_
+

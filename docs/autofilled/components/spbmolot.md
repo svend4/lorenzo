@@ -1,5 +1,22 @@
 # spbmolot
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ссылки](#ссылки)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Упоминается в](#упоминается-в)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Компонент экосистемы Svyazi 2.0_
 **Проекты:** Svyazi
@@ -18,7 +35,7 @@
 _Компонент экосистемы Svyazi 2.0_
 
 ## Ссылки
-- [Исходники](#)
+- Исходники
 - [Документация](../README.md)
 
 <!-- related-auto -->
@@ -59,22 +76,43 @@ _Компонент экосистемы Svyazi 2.0_
 - [Антропик](.md)
 - [Все таблицы репозитория](../../TABLES.md)
 - [Карта репозитория Lorenzo](../../SITEMAP.md)
-- [Контакт: AnastasiyaW / knowledge-space, mclaude](../../contacts/anastasiyaw.md)
+- Контакт: AnastasiyaW / [knowledge-space, mclaude](../../contacts/anastasiyaw.md)
 - [Контакт: Cutcode / AIF Handoff](../../contacts/cutcode.md)
 - [Контакт: Dmitriila / SENTINEL](../../contacts/dmitriila.md)
 - [Контакт: MiXaiLL76 / Auto AI Router](../../contacts/mixaill76.md)
 - [Контакт: VitalyOborin / Yodoca](../../contacts/vitalyoborin.md)
-- [Контакт: VladSpace / Graph RAG](../../contacts/vladspace.md)
-- [Контакт: andrey_chuyan / Svyazi](../../contacts/andrey-chuyan.md)
-- [Контакт: kksudo / AgentFS](../../contacts/kksudo.md)
+- Контакт: [VladSpace / Graph RAG](../../contacts/vladspace.md)
+- Контакт: [andrey_chuyan / Svyazi](../../contacts/andrey-chuyan.md)
+- Контакт: [kksudo / AgentFS](../../contacts/kksudo.md)
 - [Контакт: zodigancode / Rufler](../../contacts/zodigancode.md)
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [AUTOFILLED](../../AUTOFILLED.md)
+- [TABLES](../../TABLES.md)
+- [.md](.md)
+- [README](README.md)
+- [cowork](cowork.md)
+- [ingit](ingit.md)
+- [kksudo](kksudo.md)
+- [lorenzo](lorenzo.md)
+- _...ещё 4_
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "spbmolot"
+```
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [kksudo](docs/autofilled/components/kksudo.md) (сходство 0.87)
-- [svyazi](docs/autofilled/components/svyazi.md) (сходство 0.56)
-- [svend4](docs/autofilled/components/svend4.md) (сходство 0.56)
+- [spbmolot](../../obsidian/autofilled/components/spbmolot.md) (сходство 0.96)
+- [kksudo](kksudo.md) (сходство 0.89)
+- [kksudo](../../obsidian/autofilled/components/kksudo.md) (сходство 0.85)
 

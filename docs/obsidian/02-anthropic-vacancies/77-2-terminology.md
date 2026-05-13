@@ -5,10 +5,15 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 2. Terminology
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,9 +25,21 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Ecosystem** — набор репозиториев, участвующих в одной федерации.
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [2. Terminology](#2-terminology)
+
+---
+
 <!-- tags: rag, architecture, collaboration -->
 
 
@@ -95,7 +112,7 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[07-2-terminology]] (сходство 0.63)
 - [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.16)
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.15)
@@ -105,9 +122,28 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+```
+
+## Смотрите также
 - [[07-2-terminology]]
 - [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [[67-о-проекте]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[109-3-принципы-консолидации-фаза-c]]
+- 124-конфигурация-для-[[124-конфигурация-для-claude-desktop|claude-desktop]]
+- [[67-о-проекте]]
+- [[74-abstract]]
+- 91-16-[[91-16-mcp-extension-informative|mcp-extension-informative]]
+- [[README]]
 

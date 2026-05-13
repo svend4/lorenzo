@@ -1,0 +1,64 @@
+{
+  "card_id": "sha256:8b3664d1c8c2c2d0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/102-доступ-к-данным.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/202-12-заключение.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/16-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/120-главные-технические-риски.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:b5c5498159e4a923",
+  "payload": {
+    "title": "Доступ к данным",
+    "summary": "",
+    "body": "доступ данным warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений fallback всегда возвращает static entries упоминается заключение заключение почему это валидный паттерн для assisted workflows почему это валидный паттерн для assisted work appendix шаблон для header warning appendix шаблон для header warning appendix domain comparison matrix appendix domain comparison matrix appendix история изменений методологии appendix история изменений методологии history history вакансии anthropic анализ кластерам readme главные технические риски главные технические риски когда сомневаешься escalate max когда сомневаешься escalate max когда honestly знаешь когда honestly знаешь кому служишь слоистая модель кому служишь слоистая модель приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit приложение матрица сравнения областей приложение матрица сравнения областей твои anti patterns твои anti patterns твоя личность твоя личность твоя миссия твоя миссия упоминается вакансии anthropic анализ кластерам readme смотрите также приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit appendix шаблон для header warning appendix шаблон для header warning appendix история изменений методологии appendix история изменений методологии кому служишь слоистая модель кому служишь слоистая модель связанные документы appendix история изменений методологии appendix история изменений методологии приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit кому служишь слоистая модель кому служишь слоистая модель appendix шаблон для header warning appendix шаблон для header warning когда honestly знаешь когда honestly знаешь appendix domain comparison matrix appendix domain comparison matrix твоя миссия твоя миссия главные технические риски главные технические риски кто ссылается этот документ appendix история изменений методологии appendix история изменений методологии history history appendix domain comparison matrix appendix domain comparison matrix заключение заключение приложение матрица сравнения областей приложение матрица сравнения областей приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit readme readme",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 256,
+    "path": "docs/02-anthropic-vacancies/102-доступ-к-данным.md"
+  }
+}

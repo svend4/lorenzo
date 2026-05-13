@@ -1,5 +1,17 @@
 # 17. Versioning Policy
 
+<!-- toc-auto -->
+## Contents
+
+- [17. Versioning Policy](#17-versioning-policy)
+  - [17.1. Semver](#171-semver)
+  - [17.2. Version in Registry](#172-version-in-registry)
+  - [17.3. Breaking Changes Process](#173-breaking-changes-process)
+  - [17.4. Deprecation Policy](#174-deprecation-policy)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -57,11 +69,34 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
-**Смотрите также:**
-- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
-- [12-versioning-policy](docs/nautilus/npp-v1-0/12-versioning-policy.md)
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "17 Versioning Policy"
+```
+
+## Смотрите также
+- [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md)
+- [12-versioning-policy](../npp-v1-0/12-versioning-policy.md)
+- [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md)
+- [07-portal-entry](07-portal-entry.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [12-versioning-policy](../npp-v1-0/12-versioning-policy.md)
+- [07-portal-entry](07-portal-entry.md)
+- [13-rest-api](13-rest-api.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -69,7 +104,7 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 ---
 
 **Похожие документы:**
-- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.74)
-- [92-17-versioning-policy](docs/obsidian/02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.73)
-- [12-versioning-policy](docs/nautilus/npp-v1-0/12-versioning-policy.md) (сходство 0.57)
+- [17-versioning-policy](../../obsidian/nautilus/npp-v1-1/17-versioning-policy.md) (сходство 0.98)
+- [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.64)
+- [92-17-versioning-policy](../../obsidian/02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.63)
 

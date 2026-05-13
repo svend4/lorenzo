@@ -1,6 +1,29 @@
 # 12. Call for Collaboration
 
+<!-- toc-auto -->
+## Contents
+
+- [12. Call for Collaboration](#12-call-for-collaboration)
+  - [12.1. For Practitioners](#121-for-practitioners)
+  - [12.2. For Curators and Domain Experts](#122-for-curators-and-domain-experts)
+  - [12.3. For Software Engineers and Architects](#123-for-software-engineers-and-architects)
+  - [12.4. For Researchers](#124-for-researchers)
+  - [12.5. For Foundation Funders](#125-for-foundation-funders)
+  - [12.6. For Policymakers](#126-for-policymakers)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ---
@@ -82,11 +105,32 @@ match actual technology architecture.
 
 ---
 
-**Смотрите также:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
-- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
-- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Call for Collaboration"
+```
+
+## Смотрите также
+- [265-12-call-for-collaboration](../../02-anthropic-vacancies/265-12-call-for-collaboration.md)
+- [222-11-call-for-collaboration](../../02-anthropic-vacancies/222-11-call-for-collaboration.md)
+- [11-open-questions](11-open-questions.md)
+- [11-call-for-collaboration](../representative-agent-layer-en/11-call-for-collaboration.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [11-open-questions](11-open-questions.md)
+- [README](README.md)
+- [11-call-for-collaboration](../representative-agent-layer-en/11-call-for-collaboration.md)
 
 
 <!-- similar-docs -->
@@ -94,7 +138,7 @@ match actual technology architecture.
 ---
 
 **Похожие документы:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.85)
-- [265-12-call-for-collaboration](docs/obsidian/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.82)
-- [11-call-for-collaboration](docs/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md) (сходство 0.30)
+- [12-call-for-collaboration](../../obsidian/nautilus/composite-skills-agents/12-call-for-collaboration.md) (сходство 0.97)
+- [265-12-call-for-collaboration](../../02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.82)
+- [265-12-call-for-collaboration](../../obsidian/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.82)
 

@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:5fe84e2de682d30b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:da312d9ad4f2bb81",
+  "payload": {
+    "title": "Это не Тип 1 — потому что профиль не общий для всей профессии. И это не Тип 4 — …",
+    "summary": "Это не Тип 1 — потому что профиль не общий для всей профессии. И это не Тип 4 — потому что под-агенты не уникальные для принципала, они общие.",
+    "body": "это тип потому что профиль общий для всей профессии это тип warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога учитель индийского йога спектр между professional colleague representative agent смотрите также приложение архитектура быстрого старта для sgb anthropic vacancies приложение архитектура быстрого старта для sgb the spectrum the spectrum yogi metaphor yogi metaphor question multiple mentors question multiple mentors",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 1019,
+    "path": "docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:44f9a48adb9ccc8c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/326-содержание.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/190-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/231-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:dceb20bb147a8446",
+  "payload": {
+    "title": "Содержание",
+    "summary": "1. **Открытие Cowork и почему это меняет всё**",
+    "body": "содержание открытие cowork почему это меняет всё похожие документы содержание содержание сходство содержание содержание сходство смотрите также содержание содержание содержание содержание appendix minimal working example appendix minimal working example table contents table contents упоминается открытие cowork почему это меняет всё открытие cowork почему это меняет всё что cowork обеспечивает что ingit нужно строить что cowork обеспечивает что ingit нужно строи что ingit обеспечивает чего cowork хватает что ingit обеспечивает чего cowork хватает уточнённый объём ingit учётом cowork уточнённый объём ingit учётом cowork appendix decision tree for ingit adopters appendix decision tree for ingit adopters appendix comparison matrix appendix comparison matrix appendix summary contributions appendix summary contributions appendix configuration template example appendix configuration template example compatibility level compatibility level for the curious philosophy for the curious philosophy history history table contents table contents table contents table contents table contents table contents аннотация аннотация вакансии anthropic анализ кластерам readme подключение claude desktop подключение claude desktop содержание содержание содержание содержание установка установка упоминается вакансии anthropic анализ кластерам readme связанные документы содержание содержание compatibility level compatibility level table contents table contents table contents table contents planned planned appendix summary contributions appendix summary contributions appendix minimal working example appendix minimal working example history history связанные документы содержание содержание table contents table contents table contents table contents table contents table contents appendix summary contributions appendix summary contributions appendix minimal working example appendix minimal working example открытие cowork почему это меняет всё открытие cowork почему это меняет всё compatibility level compatibility level кто ссылается этот документ подключение claude desktop подключение claude desktop planned planned table contents table contents appendix summary contributions appendix summary contributions table contents table contents table contents table contents содержание содержание содержание содержание ещё",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 354,
+    "path": "docs/02-anthropic-vacancies/326-содержание.md"
+  }
+}

@@ -1,10 +1,27 @@
 # What Industry Will Likely Build
 
+<!-- toc-auto -->
+## Contents
+
+- [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -53,11 +70,31 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Смотрите также:**
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
-- [08-recursive-insight](docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What Industry Will Likely Build"
+```
+
+## Смотрите также
+- [282-what-industry-will-likely-build](../../02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- [08-recursive-insight](08-recursive-insight.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [06-existing-approximations](06-existing-approximations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-recursive-insight](08-recursive-insight.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -65,7 +102,7 @@ what exists and adapt as better infrastructure emerges.
 ---
 
 **Похожие документы:**
-- [282-what-industry-will-likely-build](docs/obsidian/02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.76)
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.70)
-- [08-recursive-insight](docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md) (сходство 0.25)
+- [09-what-industry-will-build](../../obsidian/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md) (сходство 0.97)
+- [282-what-industry-will-likely-build](../../02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.72)
+- [282-what-industry-will-likely-build](../../obsidian/02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.71)
 

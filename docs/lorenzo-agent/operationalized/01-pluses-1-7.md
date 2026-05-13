@@ -1,11 +1,38 @@
 # Плюсы 1–7: feasibility, flywheel, independent value, mission alignment, collaborators, pattern validation, Анастасия Бутова
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 **Проекты:** knowledge-space, mclaude
 
 ---
 <!-- tags: rag, orchestration, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -96,11 +123,33 @@ Lorenzo's role: facilitate connection между Анастасией и дру�
 
 ---
 
-**Смотрите также:**
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
-- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Плюсы 1 7 feasibility flywheel"
+```
+
+## Смотрите также
+- [04-recommendations](04-recommendations.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
+- [02-minuses-1-10](02-minuses-1-10.md)
+- [04-recommendations](04-recommendations.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -108,7 +157,7 @@ Lorenzo's role: facilitate connection между Анастасией и дру�
 ---
 
 **Похожие документы:**
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.21)
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) (сходство 0.19)
-- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md) (сходство 0.18)
+- [01-pluses-1-7](../../obsidian/lorenzo-agent/operationalized/01-pluses-1-7.md) (сходство 0.99)
+- [04-recommendations](04-recommendations.md) (сходство 0.24)
+- [04-recommendations](../../obsidian/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.23)
 

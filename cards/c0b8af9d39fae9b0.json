@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:c0b8af9d39fae9b0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/hardware-pairs/7-metaphor.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/software-pairs/6-metaphor.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:cc6bc602466c2b74",
+  "payload": {
+    "title": "Метафора «двое родителей — несколько детей»",
+    "summary": "«Двое родителей — несколько детей, превосходящих в обучении» — это здесь работает буквально потому, что технологии в парах не из одной семьи: Mamba — это математика, нейроморфы — физика; TSU — физика, MoME — математика; ZINC — software, гибридная архитектура — алгоритм; RISC-V — кремний, privacy — п",
+    "body": "метафора двое родителей несколько детей источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория смотрите также bonus rram memristor bonus rram memristor metaphor software pairs metaphor svyazi block map key findings svyazi block map zinc hybrid arch zinc hybrid arch",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 329,
+    "path": "docs/habr-unique-projects/hardware-pairs/7-metaphor.md"
+  }
+}

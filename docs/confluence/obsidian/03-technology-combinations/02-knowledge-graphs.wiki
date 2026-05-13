@@ -1,16 +1,21 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/03-technology-combinations/02-knowledge-graphs.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Графы знаний и Legal AI"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Графы знаний и Legal AI
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -23,10 +28,21 @@ h1. Графы знаний и Legal AI
 
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
 {quote}граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller){quote}
 _Проекты:_ Yodoca, Auto AI Router, [[01-executive-summary|AutoResearch]]
 
 ----
+
+
+h2. Содержание
+
+
+----
+
 
 
 
@@ -106,7 +122,7 @@ h4. Комбинация 8: Conductor × adversarial-review × Auto AI Router
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[05-benchmarks]] (сходство 0.14)
 * [[03-local-first]] (сходство 0.11)
 
@@ -115,9 +131,26 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Графы знаний и Legal AI"
+{code}
+
+h2. Смотрите также
 * [[05-benchmarks]]
 * [[03-local-first]]
 * [[01-agent-routing]]
 * [[04-приоритетные-ансамбли]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [[01-agent-routing]]
+* [[03-local-first]]
+* [[05-benchmarks]]
+* [[README]]
 

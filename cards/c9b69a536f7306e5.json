@@ -1,0 +1,57 @@
+{
+  "card_id": "sha256:c9b69a536f7306e5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/mega-stacks/03-dsl-ast.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/synthesis-tables/25-30-extended.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/reading-paths.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:abd8e337acb276e2",
+  "payload": {
+    "title": "Mega‑Stack 3.0 — with DSL & AST",
+    "summary": "Финальная архитектура, объединяющая все 30 комбинаций, включая DSL, AST и Pydantic.",
+    "body": "mega stack with dsl ast источник mhtml снимок комбинирование технологий для новых свойств claude секция комбинация mega stack with dsl ast проекты hybrid rag смотрите также extended synthesis tables extended event sourcing consensus event sourcing consensus ultimate legal ultimate legal mega stack with dsl ast combinations mega stack with dsl ast кто ссылается этот документ components name glossary components name reading paths reading paths readme readme",
+    "tags": [
+      "rag",
+      "local-first",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [
+      "Hybrid RAG"
+    ],
+    "wc": 242,
+    "path": "docs/technology-combinations/mega-stacks/03-dsl-ast.md"
+  }
+}

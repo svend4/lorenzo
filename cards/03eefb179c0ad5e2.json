@@ -1,0 +1,62 @@
+{
+  "card_id": "sha256:03eefb179c0ad5e2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/synthesis-tables/15-19-extended.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/09-14-extended.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/20-24-final.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:75e6774632cda7e6",
+  "payload": {
+    "title": "Сводная таблица 15–19 (Extended)",
+    "summary": "",
+    "body": "сводная таблица extended источник mhtml снимок комбинирование технологий для новых свойств claude секция extended synthesis table проекты svyazi смотрите также extended extended ultimate legal mega stacks ultimate legal final final multi agent observability platform combinations multi agent observability platform",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 162,
+    "path": "docs/technology-combinations/synthesis-tables/15-19-extended.md"
+  }
+}

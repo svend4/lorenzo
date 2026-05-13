@@ -1,10 +1,26 @@
 # Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -25,11 +41,35 @@ Claude hat geantwortet: Очень хороший вопрос — и он по�
 
 ---
 
-**Смотрите также:**
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос Nautilus пассивный CAMEL"
+```
+
+## Смотрите также
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+- [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-two-nautiluses](../nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+- [README](README.md)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -37,7 +77,7 @@ Claude hat geantwortet: Очень хороший вопрос — и он по�
 ---
 
 **Похожие документы:**
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.26)
-- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.26)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.24)
+- [00-question-camel-vs-nautilus](../../obsidian/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.92)
+- [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.38)
+- [00-question-multi-tier](../../obsidian/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.34)
 

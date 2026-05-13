@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/39-angle-perspective.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,11 +9,34 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Angle / Perspective
 
+
+h2. Contents
+
+* [Angle / Perspective|#angle-perspective]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (7)|#кто-ссылается-на-этот-документ-7]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}_Methodological_ — {{info1}} смотрит на концепты _с позиции применения_.{quote}
 
@@ -41,7 +64,7 @@ _как применять × что значит × как символичес
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[49-angle-perspective]] (сходство 0.14)
 * [[59-angle-perspective]] (сходство 0.14)
 * [[46-essence]] (сходство 0.12)
@@ -51,7 +74,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Angle Perspective"
+{code}
+
+h2. Смотрите также
 * [[36-essence]]
 * [[49-angle-perspective]]
 * [[59-angle-perspective]]
@@ -92,3 +121,17 @@ h2. Связанные документы
 * [[46-essence|Essence]] _25%_
 * [[55-passports-meta-md|passports/meta.md]] _25%_
 * [[56-essence|Essence]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (7)
+* [[13-angle-perspective]]
+* 45-passports-[[45-passports-pro2-md|pro2-md]]
+* [[49-angle-perspective]]
+* [[55-passports-meta-md]]
+* [[57-native-format]]
+* [[59-angle-perspective]]
+* [[README]]
+

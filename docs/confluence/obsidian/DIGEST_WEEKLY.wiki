@@ -1,69 +1,150 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/DIGEST_WEEKLY.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
-title: "Еженедельный дайджест — 2026-04-29"
+title: "Еженедельный дайджест — 2026-05-11"
 tags:
-  * ingestion
-  * collaboration
   * general
-date: 2026-04-29
+date: 2026-05-13
 ----
 
-h1. Еженедельный дайджест — 2026-04-29
-
-
-{quote}_Период: последние 7 дней (с 2026-04-22)_{quote}
-
-----
+h1. Еженедельный дайджест — 2026-05-11
 
 
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{DIGEST_WEEKLY}} формируется автоматически из данных репозитория.{quote}
 
 
-_Период: последние 7 дней (с 2026-04-22)_
+
+
+
+
+{quote}{{DIGEST_WEEKLY}} — раздел документации проекта Lorenzo.{quote}
+
+
+_Период: последние 7 дней (с 2026-05-04)_
 
 h2. Итого
 
 || Метрика || Значение ||
-|| Коммитов за неделю || **75** ||
-|| Новых файлов || **0** ||
-|| Изменённых файлов || **0** ||
-|| Всего MD файлов || **1170** ||
-|| Всего слов || **905,038** ||
+|| Коммитов за неделю || **118** ||
+|| Новых файлов || **1731** ||
+|| Изменённых файлов || **2874** ||
+|| Всего MD файлов || **2482** ||
+|| Всего слов || **2,950,150** ||
 
 h2. Коммиты
 
 {code}
-2a9e940 chore: sync PROGRESS.md
-fc65bef chore: sync PROGRESS.md
-039a4a2 docs: auto-update via improve_run_all [skip ci]
-dfc530a docs: auto-update via improve_run_all [skip ci]
-fedc045 Audit-driven extraction of major missing substantive content
-64358a8 chore: синхронизировать сгенерированные отчёты и docs
-c659252 Extract Nautilus Portal Protocol v1.0.0-draft (earlier version)
-cd90a75 feat: 3 новых скрипта — cross_section, digest_auto, export_report
-ee71737 Extract Nautilus-vs-CAMEL analysis and Habr extra-examples
-ef99f46 feat: применить auto-linker + gap-filler ко всей базе знаний
-1939848 feat: improve_reading_list.py — BM25-список чтения по теме
-7822b13 Extract Hermes Agent comparison and re-prioritization
-afe64e1 chore: sync PROGRESS.md after content scripts commit
-e965e1c Extract AI-managed virtual company and MMORPG-for-programmers analyses
-a845592 feat: ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний
+02c362f chore: regenerate auto-generated docs artifacts
+351a135 test: add 74 tests for improve_contact_status, improve_kpi_snapshot, improve_complexity
+7e4ee06 chore: regenerate auto-generated docs artifacts
+2b05200 test: add 95 tests for improve_export_csv, improve_scoring, improve_workflow_run
+0623cb1 chore: regenerate auto-generated docs artifacts
+e734762 test: add 52 tests for improve_watcher, improve_self, improve_card_index
+7ff328e chore: regenerate all auto-generated docs artifacts after smart pipeline run
+4a6e7a8 chore: update auto-generated docs artifacts
+a345c19 test: add 95 tests for improve_llm_qa, improve_abstract, improve_benchmark
+cda0f08 test: +54 теста — test_status_badges.py + test_autofill.py; итого 394
+c34d758 test: +54 теста — test_metrics.py + test_migrate_contacts.py; итого 340
+3c00c35 test: +51 тест — test_embedding_index.py + test_badges.py; итого 286
+a833ea0 test: +27 тестов — test_passage_retrieval.py; итого 235 тестов
+779808d chore: обновление COMPLEXITY.md и SENTIMENT.md
+0515207 test: +25 тестов — test_index_update.py; обновление docs/ и README.md
 {code}
 
+h2. Новые документы
+
+* {{docs/05-habr-projects/knowledge/agentfs.md}}
+* {{docs/05-habr-projects/knowledge/knowledge-space.md}}
+* {{docs/05-habr-projects/knowledge/mclaude.md}}
+* {{docs/05-habr-projects/knowledge/research-docs-liteparse.md}}
+* {{docs/05-habr-projects/knowledge/rufler.md}}
+* {{docs/05-habr-projects/memory/agent-memory-mcp.md}}
+* {{docs/COLLAB_SUGGESTIONS.md}}
+* {{docs/DEMO.md}}
+* {{docs/GATEWAY.md}}
+* {{docs/LINK_PREVIEW.md}}
+* {{docs/METHODOLOGY.md}}
+* {{docs/PRECISION_EVAL.md}}
+* {{docs/PROTOTYPE_SPEC.md}}
+* {{docs/SCRIPT_EVAL_REPORT.md}}
+* {{docs/SENTINEL.md}}
+* {{docs/ai-collaborations/QA.md}}
+* {{docs/contacts/QA.md}}
+* {{docs/contacts/vitalysemenov.md}}
+* {{docs/letters/QA.md}}
+* {{docs/letters/README.md}}
+
+h2. Активность по разделам
+
+|| Раздел || Изменений ||
+|| `cards/` || 1635 ||
+|| `confluence/` || 1048 ||
+|| `obsidian/` || 524 ||
+|| `02-anthropic-vacancies/` || 357 ||
+|| `nautilus/` || 255 ||
+|| `docs/` || 132 ||
+|| `anthropic-vacancies/` || 111 ||
+|| `scripts/` || 72 ||
+|| `lorenzo-agent/` || 62 ||
+|| `svyazi-2-0/` || 60 ||
+
+h2. Изменённые документы
+
+* {{CHANGELOG.md}}
+* {{CLAUDE.md}}
+* {{README.md}}
+* {{docs/01-svyazi/00-intro-part2.md}}
+* {{docs/01-svyazi/01-executive-summary.md}}
+* {{docs/01-svyazi/02-methodology.md}}
+* {{docs/01-svyazi/03-component-catalog.md}}
+* {{docs/01-svyazi/04-ensembles-overview.md}}
+* {{docs/01-svyazi/06-security-privacy.md}}
+* {{docs/01-svyazi/07-mvp-planning.md}}
+* {{docs/01-svyazi/08-conclusions.md}}
+* {{docs/01-svyazi/09-architectural-gaps.md}}
+* {{docs/01-svyazi/10-second-order-ensembles.md}}
+* {{docs/01-svyazi/11-integration-contracts.md}}
+* {{docs/01-svyazi/12-roadmap.md}}
+
 ----
 
-_Сгенерировано: 2026-04-29 10:26_
+_Сгенерировано: 2026-05-11 10:02_
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
 
 
 
 ----
 
-_Похожие документы:_
-* [[DIGEST_WEEKLY]] (сходство 0.63)
-* [[DIGEST_AUTO]] (сходство 0.16)
-* [[00-intro-part2]] (сходство 0.11)
+_Смотрите также:_
+* [[METRICS]]
+* [[DENSITY]]
+* [[HEATMAP]]
+* [[SENTIMENT]]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [[DENSITY]]
+* [[HEALTH]]
+* [[HEATMAP]]
+* [[INDEX]]
+* [[METRICS]]
+* [[NAMED_ENTITIES]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* _...ещё 5_
 

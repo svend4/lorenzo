@@ -1,5 +1,23 @@
 # Что у нас есть в трёх info repositories (info1/info7/info40)
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -233,11 +251,32 @@ Marketplace layer (inspired by info40) для discovery and economy
 
 ---
 
-**Смотрите также:**
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
-- [13-reprioritization](docs/anthropic-vacancies/hermes-comparison/13-reprioritization.md)
-- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что у нас есть в трёх info repositories"
+```
+
+## Смотрите также
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [13-reprioritization](../hermes-comparison/13-reprioritization.md)
+- [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
+- 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reprioritization](../hermes-comparison/13-reprioritization.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -245,7 +284,7 @@ Marketplace layer (inspired by info40) для discovery and economy
 ---
 
 **Похожие документы:**
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.28)
-- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md) (сходство 0.18)
-- [13-reprioritization](docs/anthropic-vacancies/hermes-comparison/13-reprioritization.md) (сходство 0.17)
+- [02-what-info-repos-contain](../../obsidian/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) (сходство 0.99)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md) (сходство 0.29)
+- [04-what-to-take-from-info-repos](../../obsidian/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.29)
 

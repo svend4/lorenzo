@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "andrey_chuyan"
 author_handle: "@andrey_chuyan"
-projects: ["Svyazi", "CardIndex"]
+projects: [Svyazi, CardIndex]
 platform: GitHub
 status: not_started
 priority: 3
@@ -12,6 +12,18 @@ last_contact: null
 tags: [контакты, команда]
 ---
 # Контакт: andrey_chuyan / Svyazi
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -24,15 +36,6 @@ tags: [контакты, команда]
 
 ---
 
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
 
 
 <!-- summary: Шаблон для связи с автором Svyazi -->
@@ -73,7 +76,7 @@ Svyazi закрывает слой «ingestion/CardIndex» в архитекту
 
 ## Открытые вопросы
 
-1. Стоит ли расширять [CardIndex](../docs/01-svyazi/01-executive-summary.md) до person/project/episode/evidence или лучше держать разные индексы?
+1. Стоит ли расширять [CardIndex](../01-svyazi/01-executive-summary.md) до person/project/episode/evidence или лучше держать разные индексы?
 2. [Вопрос 2]
 
 ---
@@ -83,19 +86,30 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [nlaik](docs/contacts/nlaik.md) (сходство 0.70)
-- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.70)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.67)
+## Похожие документы
+- [nlaik](nlaik.md) (сходство 0.70)
+- [antipozitive](antipozitive.md) (сходство 0.70)
+- [vladspace](vladspace.md) (сходство 0.67)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [antipozitive](docs/contacts/antipozitive.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [spbmolot](docs/contacts/spbmolot.md)
+## Смотрите также
+- [antipozitive](antipozitive.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [spbmolot](spbmolot.md)
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
+
+_Документ индексирован в поисковой базе репозитория._ _Доступен поиск._

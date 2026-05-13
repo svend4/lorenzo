@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:3a1ce2b3b9539edb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/31-35-final.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:ddc9a8ce3f88a619",
+  "payload": {
+    "title": "Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics",
+    "summary": "Lawyer action → Kafka topic → Event Store",
+    "body": "комбинация event sourcing cqrs clickhouse analytics источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также event sourced legal document history event sourced legal document history mega stack with event sourcing consensus mega stack with event sourcing consensus final synthesis tables final hybrid olap oltp with real time sync hybrid olap oltp with real time sync кто ссылается этот документ components name glossary components name readme readme final synthesis tables final",
+    "tags": [],
+    "projects": [],
+    "wc": 221,
+    "path": "docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md"
+  }
+}

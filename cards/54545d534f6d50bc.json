@@ -1,0 +1,64 @@
+{
+  "card_id": "sha256:54545d534f6d50bc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/93-18-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/103-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/104-appendix-c-references.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c990dd97160eaa79",
+  "payload": {
+    "title": "14. SDK Contract (Informative)",
+    "summary": "Reference implementation предоставляет Python SDK (`nautilus_sdk.py`).",
+    "body": "sdk contract informative contents sdk contract informative sdk contract informative required sdk methods required sdk methods optional sdk methods optional sdk methods return types return types reference implementation предоставляет python sdk nautilus sdk похожие документы reference implementation reference implementation сходство смотрите также reference implementation reference implementation queryresult structure queryresult structure reference implementation reference implementation appendix minimal working example appendix minimal working example кто ссылается этот документ abstract abstract passport passport passport passport appendix change log appendix change log appendix references appendix references доступные инструменты доступные инструменты queryresult structure queryresult structure reference implementation reference implementation reference implementation reference implementation ещё",
+    "tags": [
+      "memory",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 219,
+    "path": "docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md"
+  }
+}

@@ -1,11 +1,28 @@
 # Три ключевых кандидата: K2-18, Wikontic, NGT Memory
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** NGT Memory, Wikontic
 
 ---
 <!-- tags: memory, ingestion, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -25,11 +42,28 @@
 
 ---
 
-**Смотрите также:**
-- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три ключевых кандидата K2 18 Wikontic"
+```
+
+## Смотрите также
+- [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
+- [wikontic](../../05-habr-projects/knowledge/wikontic.md)
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
+- [02-related-projects-context](02-related-projects-context.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [README](README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [reading-paths](../../reading-paths.md)
 
 
 <!-- similar-docs -->
@@ -37,7 +71,7 @@
 ---
 
 **Похожие документы:**
-- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.70)
-- [wikontic](docs/obsidian/05-habr-projects/knowledge/wikontic.md) (сходство 0.27)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md) (сходство 0.27)
+- [01-three-key-candidates](../../obsidian/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.97)
+- [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.70)
+- [01-three-direct-analogues](../../obsidian/habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.69)
 

@@ -1,5 +1,11 @@
 # Вопрос: fallback‑ratio как критический или осмысленный?
 
+<!-- toc-auto -->
+## Contents
+
+- [Вопрос: fallback-ratio как критический или осмысленный?](#вопрос-fallback-ratio-как-критический-или-осмысленный)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -64,11 +70,25 @@ and B (branch Y) on YYYY-MM-DD»
 
 ---
 
-**Смотрите также:**
-- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+## Смотрите также
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](../../02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [10-checklist](10-checklist.md)
+- [07-portal-entry](../npp-v1-1/07-portal-entry.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+
+_Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-consolidation-principles](03-consolidation-principles.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -76,7 +96,7 @@ and B (branch Y) on YYYY-MM-DD»
 ---
 
 **Похожие документы:**
-- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](docs/obsidian/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.80)
-- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.74)
-- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.19)
+- [04-fallback-ratio-question](../../obsidian/nautilus/review-methodology/04-fallback-ratio-question.md) (сходство 0.98)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](../../02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.72)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](../../obsidian/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.71)
 

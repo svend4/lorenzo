@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:0549816a8b45e460",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/candidates/02-related-projects-context.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/analogues/02-related-projects.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/candidates/01-three-key-candidates.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/01-yodoca.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:0819e27315cad7a5",
+  "payload": {
+    "title": "Смежные проекты в контексте",
+    "summary": "«Программа поиска единомышленников ВКонтакте» (https://habr.com/ru/articles/495554/) — олдскульный аналог через анализ подписок, без LLM, но с той же концепцией matching по интересам. Полезна как контр-пример: показывает, чего не хватает без семантического слоя.",
+    "body": "смежные проекты контексте источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi смотрите также related projects habr unique projects analogues related projects three key candidates three key candidates synthesis hebbian collaboration graph synthesis hebbian collaboration graph yodoca habr unique projects key findings yodoca",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca"
+    ],
+    "wc": 194,
+    "path": "docs/ai-collaborations/candidates/02-related-projects-context.md"
+  }
+}

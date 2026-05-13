@@ -1,10 +1,26 @@
 # Что именно анонимизировать: немецкий стандарт
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -59,11 +75,30 @@
 
 ---
 
-**Смотрите также:**
-- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
-- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
-- [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
-- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что именно анонимизировать немецкий"
+```
+
+## Смотрите также
+- [00-question-anonymization](00-question-anonymization.md)
+- [07-difference-2-domain-specialization](../../anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+- [02-two-tier-publication](02-two-tier-publication.md)
+- 03-similarity-3-[mcp-support](../../anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-anonymization](00-question-anonymization.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -71,7 +106,7 @@
 ---
 
 **Похожие документы:**
-- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.14)
-- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.14)
-- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.14)
+- [01-what-to-anonymize-german-standard](../../obsidian/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md) (сходство 0.96)
+- [00-question-anonymization](00-question-anonymization.md) (сходство 0.20)
+- [00-question-anonymization](../../obsidian/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.20)
 

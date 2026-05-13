@@ -1,10 +1,25 @@
 # СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT
 
+<!-- toc-auto -->
+## Contents
+
+- [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](#системный-промпт-для-lorenzo-project)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.20)
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -18,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.20)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.17)
 
@@ -70,9 +85,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT"
+```
+
+## Смотрите также
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [168-abstract](168-abstract.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- _...ещё 8_
 

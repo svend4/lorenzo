@@ -1,5 +1,16 @@
 # 2. Формальный workflow
 
+<!-- toc-auto -->
+## Contents
+
+- [2. Формальный workflow](#2-формальный-workflow)
+  - [2.1. Три фазы](#21-три-фазы)
+  - [2.2. Условия для применения методологии](#22-условия-для-применения-методологии)
+  - [2.3. Артефакты каждой фазы](#23-артефакты-каждой-фазы)
+  - [2.4. Заголовок транзитного состояния](#24-заголовок-транзитного-состояния)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -92,11 +103,27 @@ merge-conflict error. С заголовком — понимает осмысл�
 
 ---
 
-**Смотрите также:**
-- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
-- [08-implementation-nautilus](docs/nautilus/review-methodology/08-implementation-nautilus.md)
-- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+## Смотрите также
+- [108-2-формальный-workflow](../../02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [08-implementation-nautilus](08-implementation-nautilus.md)
+- [11-application-plan-current-docs](11-application-plan-current-docs.md)
+- [10-checklist](10-checklist.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-coally](../../anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [05-conditions-of-applicability](05-conditions-of-applicability.md)
+- [08-implementation-nautilus](08-implementation-nautilus.md)
+- [09-limitations-open-questions](09-limitations-open-questions.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -104,7 +131,7 @@ merge-conflict error. С заголовком — понимает осмысл�
 ---
 
 **Похожие документы:**
-- [108-2-формальный-workflow](docs/obsidian/02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.80)
-- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.78)
-- [00-tldr](docs/nautilus/review-methodology/00-tldr.md) (сходство 0.29)
+- [02-formal-workflow](../../obsidian/nautilus/review-methodology/02-formal-workflow.md) (сходство 0.96)
+- [108-2-формальный-workflow](../../obsidian/02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.73)
+- [108-2-формальный-workflow](../../02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.73)
 

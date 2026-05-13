@@ -1,16 +1,40 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/04-ai-collaborations/00-intro.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Введение"
 tags:
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Введение
+
+
+h2. Contents
+
+* [Содержание|#содержание]
+* [Статус|#статус]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (4)|#кто-ссылается-на-этот-документ-4]
+
+
+
+h2. Содержание
+
+* [Contents|#contents]
+* [Статус|#статус]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (4)|#кто-ссылается-на-этот-документ-4]
+
+----
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -812,7 +836,7 @@ _[Запрос]_ # Софтверные комбинации на Хабре д�
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[memnet]] (сходство 0.67)
 * [[01-интегральный-анализ-профиля-svend4]] (сходство 0.16)
 * [[TABLES]] (сходство 0.15)
@@ -822,7 +846,33 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+
+{code:language=bash}
+python scripts/improve_semantic_search.py --query "Введение"
+{code}
+
+{code:language=bash}
+python scripts/improve_semantic_search.py --query "Введение" --mode bm25
+{code}
+
+{code:language=bash}
+python scripts/improve_semantic_search.py --query "Введение" --mode semantic --top 10
+{code}
+
+{code:language=bash}
+python scripts/improve_collab_finder.py --file docs/04-ai-collaborations/00-intro.md
+{code}
+
+{code:language=bash}
+python scripts/improve_semantic_search.py --query "Введение" --mode full
+{code}
+
+{code:language=bash}
+python scripts/improve_reading_list.py --query "Введение" --top 10
+{code}
+
+h2. Смотрите также
 * [[memnet]]
 * [[01-интегральный-анализ-профиля-svend4]]
 * [[TABLES]]
@@ -863,3 +913,14 @@ _Смотрите также:_
 [^firecrawl]: Инструмент: веб-краулер для AI (MIT)
 
 [^tf_idf]: Term Frequency–Inverse Document Frequency — метрика важности термина
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [[01-интегральный-анализ-профиля-svend4]]
+* [[272-appendix-d-connection-diagram]]
+* [[README]]
+* [[TABLES]]
+

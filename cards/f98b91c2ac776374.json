@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:f98b91c2ac776374",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/83-8-q6-space-normative.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/19-7-portalentry-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/103-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/18-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:60fac762e167d791",
+  "payload": {
+    "title": "8. Q6 Space (Normative)",
+    "summary": "Q6 — 6-мерное бинарное пространство {0,1}⁶. Содержит 64 вершины.",
+    "body": "space normative содержание contents contents space normative space normative definition definition mandatory for level mandatory for level mapping rules mapping rules neighbors hamming distance neighbors hamming distance class mapping informative class mapping informative упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы space normative definition мерное бинарное пространство содержит вершины каждая вершина представлена битной строкой например mandatory for level адаптеры level выше must обеспечивать координату каждом portalentry интегральный анализ профиля svend через metadata mapping rules каждый format определяет правило проекции своих native сущностей правило must быть задокументировано passport разделе отображение примеры правил reference implementation format правило info alpha старших бита остальные биты категории pro нативные координаты первичный концепт pro meta hex bin гексаграмма data порядковый номер bin формат допускает явное указание определено если маппинг применим level репо may иметь neighbors hamming distance два концепта считаются соседями расстоянии если координаты различаются ровно битах portal must предоставлять функцию neighbors bits max distance возвращающую все вершины пределах хэмминг расстояния pseudo code def neighbors bits str max distance int list str bfs битному гиперкубу returns all vertices within max distance assert len bits assert all for bits visited bits queue bits while queue current queue pop current dist visited current current dist max distance continue for range neighbor current current else current neighbor not visited visited neighbor current dist queue append neighbor return list visited keys class mapping informative вершины may маппиться классы клеточных автоматов вольфрама class это обязательно recommended для экосистем интегрирующих symbolic dynamical angles class стационарные стабильные концепты базовые алгоритмы определения class периодические методология архетипы class iii хаотические конфликт разрушение class сложные edge chaos синтез emergent properties похожие документы adr first class protocol concept adr first class protocol concept сходство смотрите также adr first class protocol concept adr first class protocol concept portalentry structure portalentry structure registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json portalentry structure portalentry structure кто ссылается этот документ appendix change log appendix change log adapter interface adapter interface adr federation over merging adr federation over merging adr first class protocol concept adr first class protocol concept readme readme",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 491,
+    "path": "docs/02-anthropic-vacancies/83-8-q6-space-normative.md"
+  }
+}

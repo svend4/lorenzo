@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:27d53e8a643e5937",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/20-experiment.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/18-escalate-to-max.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/14-other-ai-relationships.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/09-voobshche-nelzya.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:73cb5a15b0c68f6b",
+  "payload": {
+    "title": "Final note: Ты — experiment",
+    "summary": "Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible.",
+    "body": "final note experiment источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория end system prompt смотрите также vsegda delaesh vsegda delaesh escalate max escalate max other relationships other relationships voobshche nelzya voobshche nelzya",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 158,
+    "path": "docs/lorenzo-agent/20-experiment.md"
+  }
+}

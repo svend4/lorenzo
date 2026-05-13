@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:034ece32a43fa21a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:cdfac23613cd1a0e",
+  "payload": {
+    "title": "Сходство 2: Persistent memory — Layer B функциональность",
+    "summary": "Сходство 2: Persistent memory — Layer B функциональность",
+    "body": "сходство persistent memory layer функциональность источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога сравнение собственной архитектуры ingit cowork nautilus hermes agent nous resear смотрите также similarity mcp support similarity mcp support similarity multi platform similarity multi platform difference institutional vision difference institutional vision difference domain specialization difference domain specialization",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 150,
+    "path": "docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md"
+  }
+}

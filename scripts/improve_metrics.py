@@ -12,7 +12,8 @@ from collections import defaultdict
 ROOT = Path(__file__).parent.parent
 DOCS = ROOT / "docs"
 
-SKIP = {"METRICS.md", "HEALTH.md", "STATS.md", "VALIDATION.md"}
+SKIP = {"METRICS.md", "HEALTH.md", "STATS.md", "VALIDATION.md", "SITEMAP.md"}
+SKIP_DIRS = {"obsidian", "confluence", "autofilled"}
 
 SECTIONS = [
     "01-svyazi", "02-anthropic-vacancies",
@@ -51,7 +52,9 @@ def has_tags(text: str) -> bool:
 
 
 def has_toc(text: str) -> bool:
-    return "## Содержание" in text or "## Table of Contents" in text
+    return any(m in text for m in (
+        "## Содержание", "## Table of Contents", "## Contents", "<!-- toc-auto -->",
+    ))
 
 
 def has_callout(text: str) -> bool:
@@ -71,7 +74,7 @@ def quality_score(f_data: dict) -> float:
         score += 10
     if f_data["link_density"] >= 1:
         score += 15
-    if w >= 300 and f_data["has_toc"]:
+    if w < 300 or f_data["has_toc"]:
         score += 10
     if f_data["example_density"] >= 0.5:
         score += 10
@@ -89,6 +92,8 @@ def main():
 
     for f in sorted(DOCS.rglob("*.md")):
         if f.name in SKIP:
+            continue
+        if any(part in SKIP_DIRS for part in f.relative_to(DOCS).parts):
             continue
         text = f.read_text(encoding="utf-8")
         words = len(text.split())
@@ -135,6 +140,9 @@ def main():
 
     lines = [
         "# Метрики качества документации\n",
+        f"<!-- summary -->\n> Средний балл: **{avg_score:.1f}/100** по {len(file_rows)} документам\n",
+        "<!-- tags: quality, metrics, documentation, coverage -->\n",
+        f"> [!TIP]\n> Балл выше 85 означает хорошее качество документации.\n\n<!-- alert-added -->\n",
         f"**Файлов:** {len(file_rows)}  "
         f"**Средний балл:** {avg_score:.1f}/100\n",
 
@@ -194,6 +202,19 @@ def main():
         f"- Файлов с оглавлением: **{pct_toc:.1f}%**",
         f"- Файлов с callout: **{pct_callout:.1f}%**",
         f"- Средний балл качества: **{avg_score:.1f}/100**",
+        "\n## Использование\n",
+        "```bash",
+        "python scripts/improve_metrics.py",
+        "```\n",
+        "```bash",
+        "# Обновить метрики и проверить здоровье репозитория",
+        "python scripts/improve_metrics.py && python scripts/improve_health.py",
+        "```\n",
+        "\n## Смотрите также\n",
+        "- [HEALTH](HEALTH.md) — общее здоровье репозитория",
+        "- [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок",
+        "- [VALIDATION](VALIDATION.md) — валидация структуры",
+        "- [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)",
     ]
 
     out = DOCS / "METRICS.md"

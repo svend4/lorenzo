@@ -1,10 +1,26 @@
 # Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да…
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -31,11 +47,32 @@ Claude hat geantwortet: Отличный, осмысленный подход.
 
 ---
 
-**Смотрите также:**
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
-- [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
-- [01-what-to-anonymize-german-standard](docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md)
-- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Насчёт приватности Я"
+```
+
+## Смотрите также
+- [00-question-multi-tier](../multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-can-it-apply-to-docs](../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+- [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)
+- [00-question-two-nautiluses](../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-can-it-apply-to-docs](../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+- [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)
+- [02-two-tier-publication](02-two-tier-publication.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -43,7 +80,7 @@ Claude hat geantwortet: Отличный, осмысленный подход.
 ---
 
 **Похожие документы:**
-- [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md) (сходство 0.16)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.15)
-- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) (сходство 0.14)
+- [00-question-anonymization](../../obsidian/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.97)
+- [00-question-multi-tier](../multi-tier-architecture/00-question-multi-tier.md) (сходство 0.23)
+- [00-question-can-it-apply-to-docs](../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md) (сходство 0.22)
 

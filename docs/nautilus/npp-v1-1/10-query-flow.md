@@ -1,6 +1,27 @@
 # 10. Query Flow
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Query Flow](#10-query-flow)
+  - [10.1. Lifecycle](#101-lifecycle)
+  - [10.2. Parallelism](#102-parallelism)
+  - [10.3. Error Handling](#103-error-handling)
+  - [10.4. Timeout Behavior](#104-timeout-behavior)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -55,11 +76,32 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 
 ---
 
-**Смотрите также:**
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
-- [09-query-flow](docs/nautilus/npp-v1-0/09-query-flow.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Query Flow"
+```
+
+## Смотрите также
+- [85-10-query-flow](../../02-anthropic-vacancies/85-10-query-flow.md)
+- [09-query-flow](../npp-v1-0/09-query-flow.md)
+- [21-9-query-flow](../../02-anthropic-vacancies/21-9-query-flow.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+
+_Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-query-flow](../npp-v1-0/09-query-flow.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -67,7 +109,7 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 ---
 
 **Похожие документы:**
-- [85-10-query-flow](docs/obsidian/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.74)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.72)
-- [09-query-flow](docs/nautilus/npp-v1-0/09-query-flow.md) (сходство 0.72)
+- [10-query-flow](../../obsidian/nautilus/npp-v1-1/10-query-flow.md) (сходство 0.98)
+- [09-query-flow](../npp-v1-0/09-query-flow.md) (сходство 0.74)
+- [09-query-flow](../../obsidian/nautilus/npp-v1-0/09-query-flow.md) (сходство 0.72)
 

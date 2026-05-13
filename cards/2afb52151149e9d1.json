@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:2afb52151149e9d1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:2dab1050844c2068",
+  "payload": {
+    "title": "Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments",
+    "summary": "Anthropic Beneficial Deployments — это команда внутри Anthropic, которая фокусируется на helping AI deployments в high-impact areas. Включает (насколько я знаю):",
+    "body": "что такое вариант concept document для anthropic beneficial deployments абстракт авто проблема question set your priorities что важнее lorenzo как long term project или sgb advocate tool как immediate need подход заметил что другой автор работает над related thing думаю что combination ваших подходов могла создать что interesting результат результаты последнего поиска что нашлось что нашлось что нашлось точного аналога catalyst agent lorenzo нет ключевые слова lorenzo agent document anthropic catalyst concept dhlab synthesis tip документ содержит практические рекомендации лучшие практики anthropic beneficial deployments это команда внутри anthropic которая фокусируется helping deployments high impact areas включает насколько знаю проекты cardindex svyazi executive summary ngt memory wikontic что такое вариант concept document для anthropic beneficial deployments контекст anthropic beneficial deployments это команда внутри anthropic которая фокусируется helping deployments high impact areas включает насколько знаю research real world applications partnerships organizations using claude для beneficial purposes funding support для projects societal value documentation best practices они часто принимают inbound proposals individuals или organizations specific projects they want deploy что аналогичное имеет openai open society foundations инициативами google for social good программами beneficial deployments anthropic specific channel что было concept document это short document страниц articulating concrete proposal для beneficial deployments team theoretical paper grant application formal это professional concept brief который answers what the problem specifically who affected concretely with numbers what the proposed solution architecture level why now what changed that makes this possible what the role anthropic specifically what the role you the proposer specifically how would success measured concrete metrics what the timeline realistic phases what are the risks honestly why should they engage strategic value применение synthesis professional community matching synthesis был professional community matching глубокими профилями combining свяжи вшэ okwf document concrete application sgb advocate community concept document могло articulate section problem statement the cinderella syndrome scale people navigating germany social welfare system sgb sgb xii face complex bureaucracy disability claimants elderly persons families with disabled children all need professional advocacy but qualified advocates are scarce expensive часто invisible those who need them most specific numbers если applicable disability claimants germany annually advocates with relevant sgb expertise average wait time for advocacy appointment weeks average cost per case success rate widerspruch acceptance все numbers нужно research для accuracy section why this matters beneficial dimension эти cases involve vulnerable populations disabled persons fighting for legally mandated support elderly facing care service denials families seeking education для disabled children currently many give due procedural complexity many under utilize legal protections many depend overworked advocates long wait times this exactly the demographic where augmentation could provide most value augmenting scarce professional capacity reach more vulnerable individuals section proposed solution architecture building existing components from russian speaking habr community elsewhere hypercortex mesh protocol kagvi для federation свяжи style hybrid extraction для structured profiles wikontic style ontology для legal domain alignment hebbian matching ngt memory pattern для cross practitioner discovery mcp wrappers для agent platform interoperability camel или hermes для local agent execution cowork или local hubs для practitioner this architecturally feasible synthesis build from scratch existing components integration layer domain specialization section specific deployment sgb advocate community pilot pilot scope advocates saxony region sozialgericht dresden focus initial domain pers nliches budget cases under sgb target case productions annually privacy gdpr compliant local first где possible accessibility works termux android для practitioners mobile workflow phases using concrete timeline phase months personal tool building single advocate proposer own work phase months limited collaboration advocates phase months scaled pilot advocates phase year foundation economy formalization section role anthropic beneficial deployments what ask claude api access sustainable cost perhaps subsidized для beneficial domain cowork access for advocates layer technical guidance best practices for vulnerable populations applications research partnership это actually case study for anthropic understanding how claude serves high stakes legal administrative contexts possible foundation funding through their grant programs если applicable what anthropic gains real world deployment data how claude performs serving vulnerable populations case study для beneficial deployments program validation claude capability german legal domain demonstration что serves social welfare effectively research insights best practices for similar future deployments this mutual benefit framing дайте денег давайте collaborate something both parties value section proposer role qualifications you active sgb cases direct domain expertise multilingual russian german english technical background develops react typescript apps make com automations architect nautilus federation protocol concepts community connections russian speaking development community why credible real legal cases process not theoretical existing github svyazi component catalog portfolio svend demonstrating technical capacity series architectural documents the nine documents produced showing systematic thinking identified working potential collaborators hmp свяжи etc section success metrics concrete cases processed target year end phase time saved per case target reduction document preparation time quality target accuracy legal citations vulnerable individuals reached target newly accessible cases those who couldn afford traditional advocate advocate capacity multiplier target increase",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 11425,
+    "path": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md"
+  }
+}

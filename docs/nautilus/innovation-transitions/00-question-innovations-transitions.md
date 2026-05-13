@@ -183,11 +183,39 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
-- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [06-angel-vs-demon-duality](docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Интересно как новая как и"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Du hast gesagt Интересно как новая как и" --mode bm25
+```
+
+## Смотрите также
+- [05-polymath-project-tao-comparison](../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [09-minuses-and-risks](../../anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+- [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [06-angel-vs-demon-duality](../../anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-polymath-project-tao-comparison](../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [06-angel-vs-demon-duality](../../anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
+- [09-minuses-and-risks](../../anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -195,7 +223,7 @@ Mehr anzeigen
 ---
 
 **Похожие документы:**
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.40)
-- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md) (сходство 0.30)
-- [01-интегральный-анализ-профиля-svend4](docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (сходство 0.23)
+- [00-question-innovations-transitions](../../obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 1.00)
+- [05-polymath-project-tao-comparison](../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.41)
+- [05-polymath-project-tao-comparison](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.41)
 

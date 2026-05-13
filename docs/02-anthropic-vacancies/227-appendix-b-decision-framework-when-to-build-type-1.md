@@ -1,5 +1,26 @@
 # Appendix B: Decision Framework — When to Build Type 1 First
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- toc -->
+## Содержание
+
+- [Appendix B: Decision Framework — When to Build Type 1 First](#appendix-b-decision-framework-when-to-build-type-1-first)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: anthropic -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 
 
 <!-- abstract-auto -->
@@ -61,7 +82,7 @@ populations, Type 1 is the right starting point.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.18)
 - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.13)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.13)
@@ -71,7 +92,13 @@ populations, Type 1 is the right starting point.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Decision Framework When to"
+```
+
+## Смотрите также
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md)
 - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
@@ -113,3 +140,19 @@ populations, Type 1 is the right starting point.
 - [12. Closing](223-12-closing.md) _29%_
 - [Abstract](210-abstract.md) _25%_
 - [Table of Contents](211-table-of-contents.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [210-abstract](210-abstract.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
+- [223-12-closing](223-12-closing.md)
+- [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md)
+- _...ещё 1_
+

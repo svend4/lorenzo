@@ -52,6 +52,10 @@ def extract_decisions(text: str, filepath: Path) -> list[dict]:
         for m in re.finditer(pattern, text, re.IGNORECASE | re.DOTALL):
             val = m.group(1).strip()
             val = re.sub(r'\s+', ' ', val)[:250]
+            # Strip markdown links to avoid spurious broken link detection
+            val = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', val)
+            val = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', r'\2', val)
+            val = re.sub(r'\[\[([^\]]+)\]\]', r'\1', val)
             if len(val) < 20:
                 continue
             # Убираем служебные строки

@@ -1,11 +1,27 @@
 # Пара 3 — CRDT-синхронизация × Self-hosted persistence
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, Yodoca, Yjs, Automerge
 
 ---
 <!-- tags: memory, knowledge, ingestion, local-first, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +44,34 @@ Hierarchical CRDT memory layers — рабочий контекст (быстр�
 
 ---
 
-**Смотрите также:**
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
-- [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 3 CRDT синхронизация Self hosted"
+```
+
+## Смотрите также
+- [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
+- 03-crdt-local-first-[svyazi-cardindex](../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
+- [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
+- [6-metaphor](6-metaphor.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
+- [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -40,7 +79,7 @@ Hierarchical CRDT memory layers — рабочий контекст (быстр�
 ---
 
 **Похожие документы:**
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.21)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) (сходство 0.19)
-- [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md) (сходство 0.18)
+- [3-crdt-self-hosted](../../obsidian/habr-unique-projects/software-pairs/3-crdt-self-hosted.md) (сходство 0.95)
+- [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md) (сходство 0.24)
+- [6-metaphor](6-metaphor.md) (сходство 0.22)
 

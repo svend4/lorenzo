@@ -1,11 +1,20 @@
 # 9. Relationship to Other Agent Types
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [9. Relationship to Other Agent Types](#9-relationship-to-other-agent-types)
@@ -133,11 +142,33 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Смотрите также:**
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
-- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
-- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Relationship to Other Agent Types"
+```
+
+## Смотрите также
+- [220-9-relationship-to-other-agent-types](../../02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](../../02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+- [03-empirical-case-obuchay](03-empirical-case-obuchay.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -145,7 +176,7 @@ confusion. Distinguishing them enables clear architecture.
 ---
 
 **Похожие документы:**
-- [220-9-relationship-to-other-agent-types](docs/obsidian/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.87)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.82)
-- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md) (сходство 0.23)
+- [09-relationship-other-agents](../../obsidian/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md) (сходство 0.98)
+- [220-9-relationship-to-other-agent-types](../../02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.83)
+- [220-9-relationship-to-other-agent-types](../../obsidian/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.82)
 

@@ -1,6 +1,28 @@
 # 10. Открытые вопросы
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Открытые вопросы](#10-открытые-вопросы)
+  - [10.1. Технические Вопросы](#101-технические-вопросы)
+  - [10.2. Экономические Вопросы](#102-экономические-вопросы)
+  - [10.3. Правовые Вопросы](#103-правовые-вопросы)
+  - [10.4. Социальные Вопросы](#104-социальные-вопросы)
+  - [10.5. Философские Вопросы](#105-философские-вопросы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ---
@@ -71,11 +93,33 @@
 
 ---
 
-**Смотрите также:**
-- [200-10-открытые-вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
-- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
-- [08-riski-mery](docs/nautilus/representative-agent-layer-ru/08-riski-mery.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Открытые вопросы"
+```
+
+## Смотрите также
+- [200-10-открытые-вопросы](../../02-anthropic-vacancies/200-10-открытые-вопросы.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [08-riski-mery](08-riski-mery.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [07-upravlenie-nadzor](07-upravlenie-nadzor.md)
+- [08-riski-mery](08-riski-mery.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -83,7 +127,7 @@
 ---
 
 **Похожие документы:**
-- [200-10-открытые-вопросы](docs/obsidian/02-anthropic-vacancies/200-10-открытые-вопросы.md) (сходство 0.85)
-- [200-10-открытые-вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md) (сходство 0.83)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) (сходство 0.13)
+- [10-otkrytye-voprosy](../../obsidian/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md) (сходство 0.98)
+- [200-10-открытые-вопросы](../../02-anthropic-vacancies/200-10-открытые-вопросы.md) (сходство 0.81)
+- [200-10-открытые-вопросы](../../obsidian/02-anthropic-vacancies/200-10-открытые-вопросы.md) (сходство 0.81)
 

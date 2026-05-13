@@ -3,19 +3,10 @@ title: "17. Versioning Policy"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 17. Versioning Policy
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Breaking Changes Process Для major version bump требуется: 1.
-> 🔧 **Подход:** Deprecation Policy(174-deprecation-policy) !IMPORTANT Ключевой документ для понимания архитектуры.
-> 🏷️ **Ключевые слова:** `policy`, `versioning`, `status`, `document`, `version`, `anthropic`, `vacancies`, `major`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -25,6 +16,19 @@ date: 2026-04-29
   - [17.2. Version in Registry](#172-version-in-registry)
   - [17.3. Breaking Changes Process](#173-breaking-changes-process)
   - [17.4. Deprecation Policy](#174-deprecation-policy)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Breaking Changes Process Для major version bump требуется: 1.
+> 🔧 **Подход:** Deprecation Policy(174-deprecation-policy) !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `policy`, `versioning`, `status`, `document`, `version`, `anthropic`, `vacancies`, `major`
+>
 
 
 > [!IMPORTANT]
@@ -82,7 +86,7 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[24-12-versioning-policy]] (сходство 0.63)
 - [[75-0-status-of-this-document]] (сходство 0.15)
 - [[05-0-status-of-this-document]] (сходство 0.12)
@@ -92,9 +96,31 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "17 Versioning Policy"
+```
+
+## Смотрите также
 - [[24-12-versioning-policy]]
-- [[123-portal-mcp-py]]
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
 - [[75-0-status-of-this-document]]
 - [[05-0-status-of-this-document]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[03-portal-protocol-md]]
+- [[05-0-status-of-this-document]]
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
+- [[129-примеры-запросов-в-claude]]
+- [[24-12-versioning-policy]]
+- [[42-author-contact]]
+- [[62-author-contact]]
+- [[75-0-status-of-this-document]]
+- _...ещё 1_
 

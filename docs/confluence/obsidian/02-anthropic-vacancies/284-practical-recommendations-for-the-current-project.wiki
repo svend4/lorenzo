@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,21 +9,14 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Practical Recommendations for the Current Project
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
-h2. Содержание
-
-* [Practical Recommendations for the Current Project|#practical-recommendations-for-the-current-project]
-* [Упоминается в|#упоминается-в]
-* [Упоминается в|#упоминается-в]
-* [Связанные документы|#связанные-документы]
-* [Связанные документы|#связанные-документы]
-
-----
 
 
 
@@ -36,9 +29,25 @@ h2. Содержание
 
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
 {quote}For the seven-document Nautilus / OKWF project specifically,{quote}
 
 ----
+
+
+h2. Содержание
+
+* [Practical Recommendations for the Current Project|#practical-recommendations-for-the-current-project]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
 
 
 
@@ -95,7 +104,7 @@ The friction will be lower than no infrastructure at all.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[280-the-specific-case-in-front-of-us]] (сходство 0.16)
 * [[277-what-s-missing-layer-b]] (сходство 0.15)
 * [[279-existing-approximations]] (сходство 0.14)
@@ -105,7 +114,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Practical Recommendations for the"
+{code}
+
+h2. Смотрите также
 * [[280-the-specific-case-in-front-of-us]]
 * [[277-what-s-missing-layer-b]]
 * [[285-closing]]
@@ -153,3 +168,19 @@ h2. Связанные документы
 * [[279-existing-approximations|Existing Approximations]] _25%_
 * [[281-the-recursive-insight|The Recursive Insight]] _25%_
 * [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (12)
+* [[164-10-appendices]]
+* [[218-7-application-domains]]
+* [[275-why-this-document-exists]]
+* [[276-the-two-layer-stack-as-it-exists]]
+* [[277-what-s-missing-layer-b]]
+* [[280-the-specific-case-in-front-of-us]]
+* [[281-the-recursive-insight]]
+* [[282-what-industry-will-likely-build]]
+* _...ещё 4_
+

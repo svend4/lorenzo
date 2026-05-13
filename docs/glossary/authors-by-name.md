@@ -1,11 +1,38 @@
 # Авторы — алфавитный список
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Авторы (Хабр / GitHub / Medium), упомянутые в монорепозитории, и их ключевые проекты с обратными ссылками на доки.
 **Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -51,11 +78,33 @@
 
 ---
 
-**Смотрите также:**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
-- [CONTACTS](docs/CONTACTS.md)
-- [source-projects](docs/ai-collaborations/source-projects.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Авторы алфавитный список"
+```
+
+## Смотрите также
+- [components-by-name](components-by-name.md)
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
+- [CONTACTS](../CONTACTS.md)
+- [source-projects](../ai-collaborations/source-projects.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (40):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [01-three-key-candidates](../ai-collaborations/candidates/01-three-key-candidates.md)
+- [source-projects](../ai-collaborations/source-projects.md)
+- [README](README.md)
+- _...ещё 32_
 
 
 <!-- similar-docs -->
@@ -63,7 +112,7 @@
 ---
 
 **Похожие документы:**
-- [components-by-name](docs/glossary/components-by-name.md) (сходство 0.24)
-- [CONTACTS](docs/CONTACTS.md) (сходство 0.23)
-- [CONTACTS](docs/obsidian/CONTACTS.md) (сходство 0.22)
+- [authors-by-name](../obsidian/glossary/authors-by-name.md) (сходство 0.96)
+- [components-by-name](components-by-name.md) (сходство 0.28)
+- [components-by-name](../obsidian/glossary/components-by-name.md) (сходство 0.27)
 

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:c479b8be2cefd023",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/132-planned-v0-2-0.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:439638a89247d167",
+  "payload": {
+    "title": "Planned (v0.2.0)",
+    "summary": "",
+    "body": "planned http mode для debugging remote access planned http mode для debugging remote access authentication через api keys rate limiting whitelist blacklist repos для mcp exposure caching слой для частых query похожие документы слой представительских агентов сходство смотрите также compatibility level compatibility level appendix minimal working example author contact упоминается passport passport passport passport abstract abstract compatibility level compatibility level for the curious philosophy for the curious philosophy native format native format readme вакансии anthropic анализ кластерам ограничения текущей версии draft ограничения текущей версии draft упоминается readme вакансии anthropic анализ кластерам связанные документы compatibility level compatibility level for the curious philosophy for the curious philosophy passport passport passport passport содержание содержание appendix minimal working example appendix minimal working example native format native format history history appendix minimal working example appendix minimal working example связанные документы abstract abstract compatibility level compatibility level for the curious philosophy for the curious philosophy passport passport passport passport appendix minimal working example appendix minimal working example portal mcp portal mcp подключение claude desktop подключение claude desktop table contents table contents",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 217,
+    "path": "docs/obsidian/02-anthropic-vacancies/132-planned-v0-2-0.md"
+  }
+}

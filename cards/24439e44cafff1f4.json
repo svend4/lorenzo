@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:24439e44cafff1f4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SOURCE_MAP.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:ae26da17562cfe7b",
+  "payload": {
+    "title": "Карта происхождения текстов",
+    "summary": "",
+    "body": "карта происхождения текстов содержание категории категории авторы авторы авто импортированные файлы авто импортированные файлы файлы внешними ссылками файлы внешними ссылками обновлено проанализировано файлов категории категория файлов авто импорт ручной bot коммит авторы автор файлов claude github actions bot авто импортированные файлы эти файлы были созданы автоматически могут требовать проверки файл слов первый коммит docs svyazi intro part docs anthropic vacancies bridging the gap between profession wide and indiv docs anthropic vacancies доступ данным docs anthropic vacancies content overview docs anthropic vacancies content overview docs anthropic vacancies слой представительских агентов docs anthropic vacancies professional colleague agents docs anthropic vacancies the double triangle architecture docs anthropic vacancies representative agent layer docs anthropic vacancies appendix история изменений методологии docs anthropic vacancies composite skills agent docs anthropic vacancies open knowledge work foundation docs anthropic vacancies системный промпт для lorenzo project docs anthropic vacancies infrastructure for collaborative intellectual docs anthropic vacancies ingit cowork native workspace substrate docs anthropic vacancies practical path layer through symbiotic inte docs anthropic vacancies angle perspective docs nautilus community discussions habr article reaction question habr link docs anthropic vacancies planned docs anthropic vacancies review methodology docs anthropic vacancies portal protocol docs lorenzo agent intro docs anthropic vacancies passports info docs anthropic vacancies author contact docs anthropic vacancies clusters people docs anthropic vacancies table contents docs anthropic vacancies author contact docs anthropic vacancies clusters communications docs anthropic vacancies главные технические риски docs anthropic vacancies passports meta docs anthropic vacancies когда сомневаешься escalate max docs anthropic vacancies history docs anthropic vacancies когда honestly знаешь docs anthropic vacancies passports pro docs anthropic vacancies coordinated infrastructure for distributed expe docs anthropic vacancies clusters public policy docs anthropic vacancies clusters public benefit docs anthropic vacancies clusters technical program management docs anthropic vacancies formal model for human collaboration distr docs anthropic vacancies reference implementation docs anthropic vacancies readme docs anthropic vacancies table contents docs anthropic vacancies portal protocol docs nautilus npp appendix change log docs anthropic vacancies clusters security docs anthropic vacancies clusters product management support ops docs anthropic vacancies compatibility level docs anthropic vacancies зачем две версии параллельно docs anthropic vacancies readme mcp инструкция установке docs anthropic vacancies содержание docs anthropic vacancies что всегда делаешь docs anthropic vacancies ограничения текущей версии draft docs anthropic vacancies glossary examples docs anthropic vacancies author contact docs anthropic vacancies compatibility level docs anthropic vacancies clusters legal docs nautilus review methodology appendix history docs anthropic vacancies status this document docs anthropic vacancies compatibility level docs anthropic vacancies clusters compute docs anthropic vacancies кому служишь слоистая модель docs anthropic vacancies опосредованное представительство для недопредст docs anthropic vacancies clusters marketing brand docs anthropic vacancies mediated representation for underrepresented docs anthropic vacancies clusters software engineering infrastructure docs anthropic vacancies table contents docs anthropic vacancies профессиональные коллеги агенты docs anthropic vacancies содержание docs anthropic vacancies clusters engineering design product docs anthropic vacancies примеры запросов claude docs anthropic vacancies support through configurable specialist ensembl docs anthropic vacancies clusters safeguards trust safety docs anthropic vacancies содержание docs anthropic vacancies clusters finance docs anthropic vacancies angle perspective docs anthropic vacancies твоя миссия docs anthropic vacancies table contents docs anthropic vacancies history docs nautilus representative agent layer abstract docs anthropic vacancies table contents docs anthropic vacancies essence docs nautilus npp reference implementation docs anthropic vacancies status this document docs anthropic vacancies typology agents the principal side and docs anthropic vacancies angle perspective docs anthropic vacancies подключение claude desktop docs anthropic vacancies table contents docs anthropic vacancies angle perspective docs anthropic vacancies abstract docs anthropic vacancies что можешь делать без max approval docs anthropic vacancies что можешь делать вообще docs anthropic vacancies clusters research engineering docs anthropic vacancies docs anthropic vacancies essence docs anthropic vacancies твои anti patterns docs anthropic vacancies queryresult structure docs anthropic vacancies content overview docs anthropic vacancies bridges docs lorenzo agent vsegda delaesh docs anthropic vacancies mcp extension informative docs anthropic vacancies что можешь делать docs lorenzo agent honestly znaesh docs anthropic vacancies благодарности docs anthropic vacancies hermes comparison similarity multi platform docs lorenzo agent escalate max docs anthropic vacancies доступные инструменты docs anthropic vacancies history docs habr projects synthesis docs anthropic vacancies for the curious philosophy docs anthropic vacancies native format docs anthropic vacancies критерии выбора для фазы docs anthropic vacancies hermes comparison similarity mcp support docs nautilus npp humanitarian extension which combination more valuable docs anthropic vacancies essence docs anthropic vacancies твоя identity как persistent character docs anthropic vacancies history docs anthropic vacancies adr five onboarding paths equal rank docs anthropic vacancies content overview docs habr unique projects extra examples claude subagents patterns docs anthropic vacancies for the curious philosophy docs nautilus review methodology main technical risks docs anthropic vacancies passport passport docs anthropic vacancies native format docs anthropic vacancies установка docs anthropic vacancies mmorpg for programmers pluses business docs anthropic vacancies clusters sales docs lorenzo agent phased deployment level full network docs anthropic",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "knowledge-space",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 6134,
+    "path": "docs/obsidian/SOURCE_MAP.md"
+  }
+}

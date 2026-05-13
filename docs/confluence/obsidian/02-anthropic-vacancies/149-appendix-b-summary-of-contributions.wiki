@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,11 +8,35 @@ title: "Appendix B: Summary of Contributions"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Appendix B: Summary of Contributions
 
+
+h2. Contents
+
+* [Appendix B: Summary of Contributions|#appendix-b-summary-of-contributions]
+* [Author & Contact|#author-contact]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (12)|#кто-ссылается-на-этот-документ-12]
+
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+
+{quote}[!TIP]{quote}
+{quote}Обзорный документ. Рекомендуется читать перед погружением в детали.{quote}
 
 {quote}1. _Topological formalization_ of Double-Triangle Architecture{quote}
 
@@ -57,7 +81,7 @@ h2. Author & Contact
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[137-table-of-contents]] (сходство 0.24)
 * [[136-abstract]] (сходство 0.15)
 * [[355-существующие-документы-dhlab-твой-context]] (сходство 0.12)
@@ -67,7 +91,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Summary of Contributions"
+{code}
+
+h2. Смотрите также
 * [[137-table-of-contents]]
 * [[136-abstract]]
 * [[355-существующие-документы-dhlab-твой-context]]
@@ -108,3 +138,23 @@ h2. Связанные документы
 * [[190-содержание|Содержание]] _21%_
 * [[211-table-of-contents|Table of Contents]] _21%_
 * [[253-table-of-contents|Table of Contents]] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (12)
+* [[136-abstract]]
+* [[137-table-of-contents]]
+* [[154-table-of-contents]]
+* [[169-table-of-contents]]
+* [[190-содержание]]
+* [[211-table-of-contents]]
+* [[253-table-of-contents]]
+* [[308-table-of-contents]]
+* _...ещё 4_
+
+h1. Author & Contact
+
+h2. Author & Contact
+Кто поддерживает, как связаться.

@@ -1,5 +1,25 @@
 # Карта найденных проектов и паттернов
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+---
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -45,11 +65,27 @@
 
 ---
 
-**Смотрите также:**
-- [03-component-catalog](docs/01-svyazi/03-component-catalog.md)
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Карта найденных проектов и паттернов"
+```
+
+## Смотрите также
+- [03-component-catalog](../../01-svyazi/03-component-catalog.md)
+- [03-карта-найденных-проектов-и-паттернов](../../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
+- [methodology](methodology.md)
 
 
 <!-- similar-docs -->
@@ -57,7 +93,7 @@
 ---
 
 **Похожие документы:**
-- [03-component-catalog](docs/01-svyazi/03-component-catalog.md) (сходство 0.91)
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.90)
-- [03-component-catalog](docs/obsidian/01-svyazi/03-component-catalog.md) (сходство 0.89)
+- [projects-map](../../obsidian/svyazi-2-0/overview/projects-map.md) (сходство 0.99)
+- [03-component-catalog](../../01-svyazi/03-component-catalog.md) (сходство 0.90)
+- [03-карта-найденных-проектов-и-паттернов](../../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.90)
 

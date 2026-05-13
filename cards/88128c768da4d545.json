@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:88128c768da4d545",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/307-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:6c0915d1298bcc8d",
+  "payload": {
+    "title": "Appendix B: Comparison Matrix",
+    "summary": "InGit + Cowork's distinct profile: maximum structure with full",
+    "body": "appendix comparison matrix абстракт авто проблема appendix comparison matrix ingit cowork distinct profile maximum structure with full appendix comparison matrix capability plain folder cowork ingit cowork notio результат похожие документы abstract docs anthropic vacancies abstract сходство refined ingit scope with cowork mind docs anthropic vacancies ключевые слова cowork ingit anthropic vacancies appendix plugin dependent abstract ingit cowork distinct profile maximum structure with full похожие документы abstract abstract сходство refined ingit with anthropic cowork platform scope with cowork mind docs anthropic vacancies refined ingit scope with cowork mind сходство what ingit with anthropic cowork platform provides that cowork lacks docs anthropic vacancies what ingit provides that cowork lacks сходство смотрите также table contents table contents appendix decision tree for ingit with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters refined ingit with anthropic cowork platform scope with cowork mind docs anthropic vacancies refined ingit scope with cowork mind abstract abstract кто ссылается этот документ appendix summary contributions appendix summary contributions abstract abstract table contents table contents appendix decision tree for ingit adopters appendix decision tree for ingit adopters содержание содержание readme readme",
+    "tags": [
+      "local-first"
+    ],
+    "projects": [],
+    "wc": 298,
+    "path": "docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md"
+  }
+}

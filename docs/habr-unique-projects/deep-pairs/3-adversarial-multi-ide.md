@@ -1,10 +1,27 @@
 # Пара 3 — Adversarial agents × Multi-IDE стек
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 ---
 <!-- tags: collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +44,28 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 
 ---
 
-**Смотрите также:**
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 3 Adversarial agents Multi IDE стек"
+```
+
+## Смотрите также
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
+- 8-self-aware-[mcp-specs](8-self-aware-mcp-specs.md)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -39,7 +73,7 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 ---
 
 **Похожие документы:**
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md) (сходство 0.19)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.19)
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.18)
+- [3-adversarial-multi-ide](../../obsidian/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md) (сходство 0.96)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md) (сходство 0.24)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md) (сходство 0.23)
 

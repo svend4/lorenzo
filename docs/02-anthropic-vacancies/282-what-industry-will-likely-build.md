@@ -1,6 +1,47 @@
 # What Industry Will Likely Build
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Likely Build Independent of what the author does, the industry wi
@@ -31,8 +72,8 @@ Anthropic is positioned to do this well because they
 control the AI integration tightly. Expect incremental 
 additions to Projects functionality through 2026-2027.
 
-**[GitHub](../docs/01-svyazi/03-component-catalog.md) for ideas.** GitHub may build something parallel 
-to [GitHub](../docs/01-svyazi/03-component-catalog.md) for code — an intellectual workspace product. 
+**[GitHub](../01-svyazi/03-component-catalog.md) for ideas.** GitHub may build something parallel 
+to [GitHub](../01-svyazi/03-component-catalog.md) for code — an intellectual workspace product. 
 They have the infrastructure, the user base, and the 
 brand. Risk: code culture would persist.
 
@@ -59,7 +100,7 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [281-the-recursive-insight](281-the-recursive-insight.md) (сходство 0.13)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md) (сходство 0.13)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.13)
@@ -69,7 +110,13 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What Industry Will Likely Build"
+```
+
+## Смотрите также
 - [281-the-recursive-insight](281-the-recursive-insight.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
 - [307-abstract](307-abstract.md)
@@ -109,3 +156,19 @@ what exists and adapt as better infrastructure emerges.
 - [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _21%_
 - [Executive Summary](153-executive-summary.md) _17%_
 - [10. Appendices](164-10-appendices.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [153-executive-summary](153-executive-summary.md)
+- [164-10-appendices](164-10-appendices.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- _...ещё 2_
+

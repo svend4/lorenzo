@@ -1,14 +1,18 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 8. Risks and Mitigations
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
 
 h2. Содержание
 
-* [Contents|#contents]
 * [8. Risks and Mitigations|#8-risks-and-mitigations]
   * [8.1. Risk: Agency Capture|#81-risk-agency-capture]
   * [8.2. Risk: Adversarial Manipulation by Counterparties|#82-risk-adversarial-manipulation-by-counterparties]
@@ -23,25 +27,15 @@ h2. Содержание
 
 
 
+
+{quote}[!WARNING]{quote}
+{quote}Документ описывает ограничения, риски или требования безопасности. Читайте внимательно.{quote}
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Risks and Mitigations(8-risks-and-mitigations) - 8.1.{quote}
 {quote}🏷️ _Ключевые слова:_ {{agent}}, {{principal}}, {{risks}}, {{scenario}}, {{mitigation}}, {{anthropic}}, {{vacancies}}, {{mitigations}}{quote}
 >
-
-
-
-h2. Contents
-
-* [8. Risks and Mitigations|#8-risks-and-mitigations]
-  * [8.1. Risk: Agency Capture|#81-risk-agency-capture]
-  * [8.2. Risk: Adversarial Manipulation by Counterparties|#82-risk-adversarial-manipulation-by-counterparties]
-  * [8.3. Risk: Principal Misunderstanding Agent Capability|#83-risk-principal-misunderstanding-agent-capability]
-  * [8.4. Risk: Privacy Violations|#84-risk-privacy-violations]
-  * [8.5. Risk: Inequitable Access|#85-risk-inequitable-access]
-  * [8.6. Risk: Cultural and Linguistic Bias|#86-risk-cultural-and-linguistic-bias]
-  * [8.7. Risk: Regulatory Backlash|#87-risk-regulatory-backlash]
-  * [8.8. Risk: Atrophy of Direct Human Skills|#88-risk-atrophy-of-direct-human-skills]
 
 
 
@@ -161,19 +155,39 @@ _Mitigation_:
 
 ----
 
-_Похожие документы:_
-* [217-6-risks-specific-to-this-category|docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md] (сходство 0.14)
-* [179-10-open-questions|docs/02-anthropic-vacancies/179-10-open-questions.md] (сходство 0.14)
-* [174-5-architectural-specification|docs/02-anthropic-vacancies/174-5-architectural-specification.md] (сходство 0.14)
+h2. Похожие документы
+* [217-6-risks-specific-to-this-category|217-6-risks-specific-to-this-category.md] (сходство 0.14)
+* [179-10-open-questions|179-10-open-questions.md] (сходство 0.14)
+* [174-5-architectural-specification|174-5-architectural-specification.md] (сходство 0.14)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [179-10-open-questions|docs/02-anthropic-vacancies/179-10-open-questions.md]
-* [175-6-ethical-framework|docs/02-anthropic-vacancies/175-6-ethical-framework.md]
-* [217-6-risks-specific-to-this-category|docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md]
-* [174-5-architectural-specification|docs/02-anthropic-vacancies/174-5-architectural-specification.md]
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risks and Mitigations"
+{code}
+
+h2. Смотрите также
+* [179-10-open-questions|179-10-open-questions.md]
+* [175-6-ethical-framework|175-6-ethical-framework.md]
+* [217-6-risks-specific-to-this-category|217-6-risks-specific-to-this-category.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (7)
+* [144-7-open-questions|144-7-open-questions.md]
+* [151-open-knowledge-work-foundation-md|151-open-knowledge-work-foundation-md.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+* [217-6-risks-specific-to-this-category|217-6-risks-specific-to-this-category.md]
+* [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md]
+* [263-10-risks-specific-to-composite-architectures|263-10-risks-specific-to-composite-architectures.md]
+* [README|README.md]
 

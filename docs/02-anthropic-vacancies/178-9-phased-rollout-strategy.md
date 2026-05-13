@@ -1,9 +1,13 @@
 # 9. Phased Rollout Strategy
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [9. Phased Rollout Strategy](#9-phased-rollout-strategy)
   - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1-12)
   - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-domain-maturation-year-2)
@@ -16,24 +20,16 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Phased Rollout Strategy(9-phased-rollout-strategy) - 9.1.
 > ✅ **Результат:** Faster deployment is technically possible but risks: - Premature promises that erode trust when broken - Ethical missteps that trigger restrictive regulation - Platform dynamics th
 > 🏷️ **Ключевые слова:** `phase`, `domain`, `deployment`, `rollout`, `phased`, `pilot`, `anthropic`, `vacancies`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [9. Phased Rollout Strategy](#9-phased-rollout-strategy)
-  - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1-12)
-  - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-domain-maturation-year-2)
-  - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansion-years-3-4)
-  - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
-  - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
-  - [9.6. Pace Considerations](#96-pace-considerations)
 
 
 <!-- summary -->
@@ -147,19 +143,36 @@ durable, beneficial infrastructure than rapid scaling.
 
 ---
 
-**Похожие документы:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.17)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md) (сходство 0.14)
+## Похожие документы
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.17)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
+- [180-11-call-for-collaboration](180-11-call-for-collaboration.md) (сходство 0.14)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Phased Rollout Strategy"
+```
+
+## Смотрите также
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [180-11-call-for-collaboration](180-11-call-for-collaboration.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [223-12-closing](223-12-closing.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [223-12-closing](223-12-closing.md)
+- [README](README.md)
 

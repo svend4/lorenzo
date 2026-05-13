@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:bfd98ed391081621",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/07-выводы.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/08-conclusions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/14-limitations.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:0b48415cde3127ce",
+  "payload": {
+    "title": "Что это продолжение добавляет",
+    "summary": "Предыдущая карта уже показала, что вокруг entity[\"organization\",\"Хабр\",\"tech media\"] и entity[\"company\",\"[GitHub](../01-svyazi/03-component-catalog.md)\",\"software hosting\"] сложился почти полный software-first конструктор для Svyazi‑2.0: ingest, memory, forensic RAG[^rag], orchestration, secur",
+    "body": "что это продолжение добавляет содержание статус статус что это продолжение добавляет что это продолжение добавляет упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы что это продолжение добавляет предыдущая карта уже показала что вокруг entity organization хабр tech media entity company github svyazi component catalog software hosting сложился почти полный software first конструктор для svyazi ingest memory forensic rag rag orchestration security budget routing следующий полезный шаг расширять список проектов бесконечно уточнить где именно находится архитектурная ценность какие сочетания уже можно прототипировать без переписывания половины стека какие интерфейсы надо стандартизировать сразу какие связки пока лучше собирать один релиз это продолжение поэтому сосредоточено трёх вещах архитектурных зазорах новых ансамблях следующего шага практическом интеграционном контракте между слоями cite turn search turn view turn view turn view turn view turn view turn view turn view главный дополнительный вывод такой уже найденных компонентов лучше всего складывается просто система матчей между людьми доказуемая community intelligence platform ней svyazi подобный cardindex svyazi executive summary становится только профилем участника унифицированной карточкой для проекта эпизода документа обсуждения гипотезы action item forensic rag превращает любой вывод проверяемое evidence pack memory слой усиливает слабые сигналы гасит шум многоагентный контур перестаёт быть кодогенерацией начинает работать как модератор аналитик исследователь поверх общего графа это уже другой класс системы чем исходный парсер анкет хотя наследует базовую логику llm llm нормализация индекс карточка discovery cite turn search turn view turn view turn view turn view turn view turn view turn view похожие документы executive summary svyazi executive summary сходство executive summary executive summary сходство выводы выводы сходство смотрите также выводы выводы conclusions svyazi conclusions executive summary executive summary limitations svyazi limitations rag retrieval augmented generation генерация поиском llm large language model большая языковая модель cardindex oss проект индекс знаний карточках mit svyazi главный проект экосистема компонентов",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 464,
+    "path": "docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md"
+  }
+}

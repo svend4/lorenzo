@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:7a8781c5b28e6e5c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:1efba6ecb37bab2c",
+  "payload": {
+    "title": "A Formal Model for Human-AI Collaboration in Distributed Knowledge Work",
+    "summary": "title: \"A Formal Model for Human-AI Collaboration in Distributed Knowledge Work\"",
+    "body": "formal model for human collaboration distributed knowledge work editorial review claude intellectual collaboration formal model for human collaboration distributed knowledge work draft draft date author svend editorial review claude intellectual collaboration license status working paper seeking reviewers похожие документы coordinated infrastructure for distributed expe сходство mediated representation for underrepresented сходство support through configurable specialist ensembl сходство смотрите также coordinated infrastructure for distributed expe mediated representation for underrepresented portal protocol typology agents the principal side and упоминается closing closing coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations author contact author contact executive summary executive summary portal protocol portal protocol portal protocol portal protocol readme вакансии anthropic анализ кластерам что можешь делать вообще что можешь делать вообще упоминается readme вакансии anthropic анализ кластерам связанные документы portal protocol portal protocol portal protocol portal protocol coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations author contact author contact acknowledgments acknowledgments acknowledgments acknowledgments support through configurable specialist ensembl support through configurable specialist ensembles связанные документы coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution portal protocol portal protocol portal protocol portal protocol mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations author contact author contact open knowledge work foundation open knowledge work foundation executive summary executive summary typology agents the principal side and typology agents the principal side and the case for profession specific workers",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 282,
+    "path": "docs/obsidian/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md"
+  }
+}

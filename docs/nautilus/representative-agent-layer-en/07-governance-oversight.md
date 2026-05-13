@@ -1,6 +1,44 @@
 # 7. Governance and Oversight
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [7. Governance and Oversight](#7-governance-and-oversight)
+  - [7.1. Three Levels of Governance](#71-three-levels-of-governance)
+  - [7.2. Audit and Accountability](#72-audit-and-accountability)
+  - [7.3. Dispute Resolution](#73-dispute-resolution)
+  - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
+  - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [7. Governance and Oversight](#7-governance-and-oversight)
+  - [7.1. Three Levels of Governance](#71-three-levels-of-governance)
+  - [7.2. Audit and Accountability](#72-audit-and-accountability)
+  - [7.3. Dispute Resolution](#73-dispute-resolution)
+  - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
+  - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ---
@@ -99,11 +137,30 @@ by mission-driven foundations.
 
 ---
 
-**Смотрите также:**
-- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)
-- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
-- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
-- [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Governance and Oversight"
+```
+
+## Смотрите также
+- [176-7-governance-and-oversight](../../02-anthropic-vacancies/176-7-governance-and-oversight.md)
+- [06-ethical-framework](06-ethical-framework.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [09-phased-rollout](09-phased-rollout.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-ethical-framework](06-ethical-framework.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -111,7 +168,7 @@ by mission-driven foundations.
 ---
 
 **Похожие документы:**
-- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.86)
-- [176-7-governance-and-oversight](docs/obsidian/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.82)
-- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md) (сходство 0.20)
+- [07-governance-oversight](../../obsidian/nautilus/representative-agent-layer-en/07-governance-oversight.md) (сходство 0.98)
+- [176-7-governance-and-oversight](../../obsidian/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.83)
+- [176-7-governance-and-oversight](../../02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.83)
 

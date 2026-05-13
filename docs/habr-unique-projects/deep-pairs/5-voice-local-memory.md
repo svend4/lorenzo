@@ -1,11 +1,27 @@
 # Пара 5 — Голосовой ввод × Локальная память
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Yodoca, Whisper
 
 ---
 <!-- tags: memory, knowledge, local-first, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +44,33 @@ Daily voice journal — каждый вечер 5 минут устного ра
 
 ---
 
-**Смотрите также:**
-- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
-- [2-document-rag](docs/habr-unique-projects/deep-pairs/2-document-rag.md)
-- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 5 Голосовой ввод Локальная память"
+```
+
+## Смотрите также
+- [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)
+- [3-discovery-research](../final-ensembles/3-discovery-research.md)
+- [2-document-rag](2-document-rag.md)
+- 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [source-projects](../../ai-collaborations/source-projects.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [2-document-rag](2-document-rag.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -40,7 +78,7 @@ Daily voice journal — каждый вечер 5 минут устного ра
 ---
 
 **Похожие документы:**
-- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.42)
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.20)
-- [2-document-rag](docs/habr-unique-projects/deep-pairs/2-document-rag.md) (сходство 0.18)
+- [5-voice-local-memory](../../obsidian/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.95)
+- [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md) (сходство 0.45)
+- [4-speech-to-text-llm](../../obsidian/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.44)
 

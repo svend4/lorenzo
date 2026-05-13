@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:6aa67a8b7632b473",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/PRIORITIES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:59d93163b31e22cb",
+  "payload": {
+    "title": "Приоритеты файлов",
+    "summary": "Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).",
+    "body": "приоритеты файлов содержание топ самых важных файлов топ самых важных файлов топ каждому разделу топ каждому разделу initial analysis initial analysis svyazi svyazi anthropic vacancies anthropic vacancies reanalysis reanalysis integral final integral final technology combinations technology combinations collaborations collaborations habr projects habr projects agent changes reality agent changes reality collaborations collaborations managed virtual company managed virtual company analogues analogues anthropic vacancies anthropic vacancies architecture architecture autofilled autofilled beneficial deployments concept beneficial deployments concept candidates candidates clusters clusters combinations combinations components components composite skills agents composite skills agents composite skills agents companion mentors composite skills agents companion mentors contacts contacts continuation continuation deep pairs deep pairs docs docs double triangle architecture double triangle architecture ensembles ensembles extra collaborator findings extra collaborator findings extra examples extra examples final ensembles final ensembles glossary glossary habr article reaction habr article reaction habr article reaction habr article reaction hardware pairs hardware pairs hermes comparison hermes comparison infrastructure layer infrastructure layer infrastructure layer infrastructure layer ingit cowork ingit cowork ingit cowork ingit cowork innovation transitions innovation transitions key findings key findings knowledge knowledge limitations limitations lorenzo agent lorenzo agent mega stacks mega stacks memory memory mmorpg for programmers mmorpg for programmers multi tier architecture multi tier architecture naming naming nautilus pro analysis nautilus pro analysis nautilus camel nautilus camel npp humanitarian extension npp humanitarian extension npp npp npp npp okwf concept okwf concept operationalized operationalized outreach outreach overview overview phased deployment phased deployment practical observations practical observations privacy federation privacy federation professional colleague agents professional colleague agents professional colleague agents professional colleague agents prototype prototype representative agent layer representative agent layer representative agent layer representative agent layer research reports research reports review methodology review methodology scenarios scenarios security security software pairs software pairs specification specification supply demand supply demand synthesis tables synthesis tables templates templates transmission box transmission box voiceless contributors voiceless contributors tip этот документ описывает mvp подход начните него для быстрого прототипа ранжирование важности idf ключевым терминам архитектуры всего файлов топ самых важных файлов файл score слов ключевые термины docs tables agent svyazi memory rag mit docs outline agent svyazi memory security rag docs paragraph quality agent svyazi memory security mit docs questions agent rag svyazi memory mit docs heading audit agent svyazi security mit rag docs summaries svyazi agent rag memory agentfs docs sitemap agent svyazi memory rag security docs collaborations intro svyazi rag memory agent локальн docs glossary components name svyazi agent memory rag yodoca docs concepts agent svyazi mit memory rag docs anthropic vacancies приложение образец спецификаций инструментов ing agent memory mit rag ngt memory docs collaborations ограничения лицензии что пока лучше склеивать svyazi memory evidence agent rag docs readability agent svyazi memory security rag docs reading time agent svyazi memory security rag docs anthropic vacancies технический stack svyazi foundation agent svyazi memory mit evidence docs broken links svyazi mvp security roadmap knowledge space docs anthropic vacancies развёрнутый анализ внуковой комбинации agent mit rag svyazi mclaude docs action items agent mit svyazi memory agentfs docs similar passages svyazi mvp архитектурный зазор agent agentfs docs decisions svyazi agent mit agentfs memory docs named entities svyazi mvp cardindex yodoca rag docs glossary authors name svyazi memory agent rag security docs empty sections agent rag security mit knowledge space docs mindmap rag memory cardindex knowledge space agent docs svyazi architectural gaps svyazi agent memory agentfs evidence docs habr projects memory memnet локальн svyazi rag memory yodoca docs collaborations архитектурные зазоры которые важнее новых инструме svyazi memory agent agentfs evidence docs collaborations приоритетные ансамбли svyazi agent rag agentfs rufler docs collaborations план прототипа возможные контакты svyazi agent memory cardindex agentfs docs collaborations интеграционный контракт который стоит зафиксироват svyazi memory rag agent agentfs docs svyazi mvp planning svyazi agent memory cardindex agentfs docs nautilus community discussions agent changes reality response agent mit rag memory evidence docs svyazi ensembles overview svyazi rag agent agentfs rufler docs network svyazi cardindex agentfs yodoca agent docs source map agent svyazi security memory mit docs collaborations карта найденных проектов паттернов memory svyazi mit agent rag docs svyazi integration contracts svyazi memory rag agent agentfs docs svyazi executive summary svyazi agent rag agentfs cardindex docs code blocks svyazi agent rag memory локальн docs glossary concepts svyazi memory yodoca rag security docs collaborations новые ансамбли следующего шага svyazi memory локальн knowledge space evidence docs collaborations executive summary svyazi agent rag cardindex agentfs docs svyazi second order ensembles svyazi memory локальн knowledge space evidence docs anthropic vacancies что такое вариант concept document для anthropic agent mit svyazi rag cardindex docs svyazi component catalog memory svyazi mit agent rag docs cross section svyazi agent cardindex agentfs yodoca docs collaborations выводы svyazi agentfs agent cardindex yodoca docs svyazi overview projects map memory mit svyazi agent rag docs collaborations контактная стратегия узкие вопросы для авторов svyazi agent cardindex agentfs knowledge space docs svyazi conclusions svyazi cardindex agentfs",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 3224,
+    "path": "docs/obsidian/PRIORITIES.md"
+  }
+}

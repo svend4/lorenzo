@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:f4e34ad86f6bde37",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/specification/05-q5-authority-limits.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/07-q7-success-metrics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/06-q6-accountability.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:f9f99864ac6c3be7",
+  "payload": {
+    "title": "Question 3: Что Lorenzo фактически делает?",
+    "summary": "Question 3: Что Lorenzo фактически делает?",
+    "body": "question что lorenzo фактически делает источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин проекты cardindex смотрите также authority limits authority limits success metrics success metrics accountability accountability whom lorenzo serves whom lorenzo serves",
+    "tags": [
+      "knowledge",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 228,
+    "path": "docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md"
+  }
+}

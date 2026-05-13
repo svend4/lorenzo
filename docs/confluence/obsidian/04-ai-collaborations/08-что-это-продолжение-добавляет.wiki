@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/04-ai-collaborations/08-что-это-продолжение-добавляет.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -13,10 +13,19 @@ tags:
   * roadmap
   * collaboration
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Что это продолжение добавляет
+
+
+h2. Содержание
+
+* [Статус|#статус]
+* [Что это продолжение добавляет|#что-это-продолжение-добавляет]
+
+----
+
 
 {quote}[!IMPORTANT]{quote}
 {quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.{quote}
@@ -66,8 +75,8 @@ h2. Что это продолжение добавляет
 
 ----
 
-_Похожие документы:_
-* [[00-intro-part2|01-executive-summary]]/01-executive-summary.md) (сходство 0.24)
+h2. Похожие документы
+* [[01-executive-summary]] (сходство 0.24)
 * [[01-executive-summary]] (сходство 0.13)
 * [[07-выводы]] (сходство 0.13)
 
@@ -76,11 +85,17 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что это продолжение добавляет"
+{code}
+
+h2. Смотрите также
 * [[07-выводы]]
-* [[00-intro-part2|08-conclusions]]/08-conclusions.md)
+* [[08-conclusions]]
 * [[01-executive-summary]]
-* [[00-intro-part2|14-limitations]]/14-limitations.md)
+* [[14-limitations]]
 
 
 
@@ -95,3 +110,19 @@ _Смотрите также:_
 [^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [[01-executive-summary]]
+* [[08-conclusions]]
+* [[07-выводы]]
+* [[README]]
+* [[CONTRADICTIONS]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* _...ещё 3_
+

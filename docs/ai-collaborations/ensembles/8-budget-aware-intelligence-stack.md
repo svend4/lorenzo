@@ -1,11 +1,27 @@
 # Ансамбль 8 — Budget-Aware Intelligence Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** Svyazi, Tool Search
 
 ---
 <!-- tags: rag, security, knowledge, ingestion, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -44,11 +60,33 @@ Research Compression Engine — 10M токенов литературы сжим
 
 ---
 
-**Смотрите также:**
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
-- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md)
-- [5-agent-firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 8 Budget Aware Intelligence"
+```
+
+## Смотрите также
+- [02-agentops-trace-envelope](../continuation/02-agentops-trace-envelope.md)
+- [6-continuous-eval-loop](6-continuous-eval-loop.md)
+- [5-agent-firewall](5-agent-firewall.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-agentops-trace-envelope](../continuation/02-agentops-trace-envelope.md)
+- [3-forensic-rag](3-forensic-rag.md)
+- [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -56,7 +94,7 @@ Research Compression Engine — 10M токенов литературы сжим
 ---
 
 **Похожие документы:**
-- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md) (сходство 0.17)
-- [5-agent-firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md) (сходство 0.17)
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md) (сходство 0.17)
+- [8-budget-aware-intelligence-stack](../../obsidian/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.98)
+- [6-continuous-eval-loop](6-continuous-eval-loop.md) (сходство 0.22)
+- [6-continuous-eval-loop](../../obsidian/ai-collaborations/ensembles/6-continuous-eval-loop.md) (сходство 0.22)
 

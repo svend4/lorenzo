@@ -1,11 +1,20 @@
 # Благодарности
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [Благодарности](#благодарности)
@@ -180,11 +189,24 @@ Knowledge Work*
 
 ---
 
-**Смотрите также:**
-- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md)
-- [301-благодарности](docs/02-anthropic-vacancies/301-благодарности.md)
-- [00-intro](docs/nautilus/infrastructure-layer-b-ru/00-intro.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+## Смотрите также
+- [302-ссылки](../../02-anthropic-vacancies/302-ссылки.md)
+- [301-благодарности](../../02-anthropic-vacancies/301-благодарности.md)
+- [00-intro](00-intro.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-intro](00-intro.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -192,7 +214,7 @@ Knowledge Work*
 ---
 
 **Похожие документы:**
-- [302-ссылки](docs/obsidian/02-anthropic-vacancies/302-ссылки.md) (сходство 0.35)
-- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md) (сходство 0.33)
-- [301-благодарности](docs/obsidian/02-anthropic-vacancies/301-благодарности.md) (сходство 0.29)
+- [12-blagodarnosti-ssylki](../../obsidian/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md) (сходство 0.99)
+- [302-ссылки](../../02-anthropic-vacancies/302-ссылки.md) (сходство 0.32)
+- [302-ссылки](../../obsidian/02-anthropic-vacancies/302-ссылки.md) (сходство 0.32)
 

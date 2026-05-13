@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:814fa9ee8ec0da69",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/review-methodology/13-appendix-b-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/02-formal-workflow.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:79448b3366e31386",
+  "payload": {
+    "title": "CoAlly — distributed shared memory для AI-агентов",
+    "summary": "Итоги расширенного поиска — три новых критически важных проекта",
+    "body": "coally distributed shared memory для агентов warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога вариант продолжение поиска уникальных проектов финальное ранжирование смотрите также appendix examples nautilus review methodology appendix examples mem letta graphiti mem letta graphiti vitaly graph cognitive memory vitaly graph cognitive memory formal workflow nautilus review methodology formal workflow",
+    "tags": [
+      "rag",
+      "security",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 275,
+    "path": "docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md"
+  }
+}

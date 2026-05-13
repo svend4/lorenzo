@@ -1,10 +1,27 @@
 # 2. Terminology
 
+<!-- toc-auto -->
+## Contents
+
+- [2. Terminology](#2-terminology)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 <!-- tags: rag, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -78,11 +95,33 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
-**Смотрите также:**
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
-- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
-- [05-compatibility-levels](docs/nautilus/npp-v1-1/05-compatibility-levels.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+```
+
+## Смотрите также
+- [77-2-terminology](../../02-anthropic-vacancies/77-2-terminology.md)
+- [07-2-terminology](../../02-anthropic-vacancies/07-2-terminology.md)
+- [03-registry](03-registry.md)
+- [05-compatibility-levels](05-compatibility-levels.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-introduction](01-introduction.md)
+- [03-registry](03-registry.md)
+- [12-onboarding-paths](12-onboarding-paths.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -90,7 +129,7 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Похожие документы:**
-- [77-2-terminology](docs/obsidian/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.87)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.85)
-- [02-terminology](docs/nautilus/npp-v1-0/02-terminology.md) (сходство 0.62)
+- [02-terminology](../../obsidian/nautilus/npp-v1-1/02-terminology.md) (сходство 0.99)
+- [77-2-terminology](../../obsidian/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.81)
+- [77-2-terminology](../../02-anthropic-vacancies/77-2-terminology.md) (сходство 0.81)
 

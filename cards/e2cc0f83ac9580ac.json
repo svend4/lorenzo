@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:e2cc0f83ac9580ac",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:2f4211a90f211470",
+  "payload": {
+    "title": "Почему этот документ существует",
+    "summary": "Семь предыдущих документов в этой серии были",
+    "body": "почему этот документ существует источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также почему этот документ существует anthropic vacancies почему этот документ существует reshaet reshaet zaklyuchenie zaklyuchenie otsutstvuet sloy otsutstvuet sloy",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 265,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md"
+  }
+}

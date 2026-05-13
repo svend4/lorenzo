@@ -1,10 +1,28 @@
 # Research Report: Sozialrecht (35 комбинаций)
 
+<!-- toc-auto -->
+## Contents
+
+- [Что в отчёте](#что-в-отчёте)
+- [Артефакт документа](#артефакт-документа)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «A Research Report Building on 35 Previously Identified Combinations — Focus on the German *Sozialrecht* Domain»
 
 ---
 <!-- tags: rag, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +51,35 @@
 
 ---
 
-**Смотрите также:**
-- [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Research Report Sozialrecht 35"
+```
+
+## Смотрите также
+- [continuation-10-domains](continuation-10-domains.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+
+_Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -45,7 +87,7 @@
 ---
 
 **Похожие документы:**
-- [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md) (сходство 0.25)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.16)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md) (сходство 0.16)
+- [sozialrecht-35-combinations](../../obsidian/technology-combinations/research-reports/sozialrecht-35-combinations.md) (сходство 0.96)
+- [continuation-10-domains](continuation-10-domains.md) (сходство 0.32)
+- [continuation-10-domains](../../obsidian/technology-combinations/research-reports/continuation-10-domains.md) (сходство 0.31)
 

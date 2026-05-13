@@ -1,48 +1,21 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/TECH_RADAR.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Tech Radar — Svyazi 2.0
 
-{quote}[!WARNING]{quote}
-{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
 
 
-
-
-{quote}_Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Tool Search
-
-----
-
-
-h2. Содержание
-
-* [Contents|#contents]
-* [Обзор|#обзор]
-* [🟢 ADOPT|#adopt]
-* [🔵 TRIAL|#trial]
-* [🟡 ASSESS|#assess]
-* [🔴 HOLD|#hold]
-* [Методология|#методология]
-
-----
+{quote}[!NOTE]{quote}
+{quote}Раздел {{TECH_RADAR}} формируется автоматически из данных репозитория.{quote}
 
 
 
 
 
 
-
-h2. Contents
-
-* [Обзор|#обзор]
-* [🟢 ADOPT|#adopt]
-* [🔵 TRIAL|#trial]
-* [🟡 ASSESS|#assess]
-* [🔴 HOLD|#hold]
-* [Методология|#методология]
+{quote}{{TECH_RADAR}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
@@ -128,31 +101,25 @@ h2. Методология
 _Radar обновляется вручную при существенных изменениях экосистемы._
 
 
+h2. Смотрите также
+* [Главная|README.md]
+* [Метрики|METRICS.md]
+* [Здоровье|HEALTH.md]
+* [Глоссарий|GLOSSARY.md]
+* [Сущности|ENTITIES.md]
+
 
 
 ----
 
-_Смотрите также:_
-* [ONBOARDING|ONBOARDING.md]
+_Кто ссылается на этот документ (11):_
 * [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
-* [WORD_FREQ|WORD_FREQ.md]
-* [RISK_REGISTER|RISK_REGISTER.md]
-
-
-h2. Упоминается в
-
-* [docs|README.md]
-* [Все таблицы репозитория|TABLES.md]
-* [Глоссарий понятий|CONCEPTS.md]
-* [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
-* [Карта репозитория Lorenzo|SITEMAP.md]
-
-
-
-----
-
-_Похожие документы:_
-* [TECH_RADAR|docs/obsidian/TECH_RADAR.md] (сходство 0.92)
-* [ONBOARDING|docs/obsidian/ONBOARDING.md] (сходство 0.21)
-* [COMPONENT_MATRIX|docs/COMPONENT_MATRIX.md] (сходство 0.21)
+* [CONCEPTS|CONCEPTS.md]
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 3_
 

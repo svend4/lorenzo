@@ -154,11 +154,32 @@ requires research.
 
 ---
 
-**Смотрите также:**
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Open Questions"
+```
+
+## Смотрите также
+- [144-7-open-questions](../../02-anthropic-vacancies/144-7-open-questions.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+- [08-call-to-action](08-call-to-action.md)
+- [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-pattern-library-bridge](05-pattern-library-bridge.md)
+- [08-call-to-action](08-call-to-action.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -166,7 +187,7 @@ requires research.
 ---
 
 **Похожие документы:**
-- [144-7-open-questions](docs/obsidian/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.91)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.89)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md) (сходство 0.21)
+- [07-open-questions](../../obsidian/nautilus/double-triangle-architecture/07-open-questions.md) (сходство 0.98)
+- [144-7-open-questions](../../02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.88)
+- [144-7-open-questions](../../obsidian/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.87)
 

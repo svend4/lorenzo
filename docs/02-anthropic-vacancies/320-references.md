@@ -8,9 +8,26 @@
   - [MCP Standard](#mcp-standard)
   - [Companion Documents in This Series](#companion-documents-in-this-series)
   - [Related Work](#related-work)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - Anthropic. (2026, January 12). *Claude Cowork* [Product
 
 ---
@@ -52,9 +69,9 @@ acknowledgments above.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [338-ссылки](338-ссылки.md) (сходство 0.32)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
 - [287-references](287-references.md) (сходство 0.14)
 
 
@@ -62,11 +79,17 @@ acknowledgments above.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
 - [338-ссылки](338-ссылки.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
@@ -101,3 +124,19 @@ acknowledgments above.
 - [Why This Document Exists](275-why-this-document-exists.md) _21%_
 - [Closing](285-closing.md) _21%_
 - [Acknowledgments](286-acknowledgments.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [146-acknowledgments](146-acknowledgments.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [285-closing](285-closing.md)
+- [286-acknowledgments](286-acknowledgments.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [338-ссылки](338-ссылки.md)
+- [351-что-ты-можешь-делать](351-что-ты-можешь-делать.md)
+- _...ещё 2_
+

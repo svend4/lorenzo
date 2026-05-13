@@ -1,6 +1,28 @@
 # Native Format
 
+<!-- toc-auto -->
+## Contents
+
+- [Native Format](#native-format)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Структура записи:** [? уточнить]
 
 ---
@@ -49,7 +71,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [37-native-format](37-native-format.md) (сходство 0.12)
 - [60-bridges](60-bridges.md) (сходство 0.12)
 - [47-native-format](47-native-format.md) (сходство 0.12)
@@ -59,7 +81,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [60-bridges](60-bridges.md)
 - [51-compatibility-level](51-compatibility-level.md)
 - [61-compatibility-level](61-compatibility-level.md)
@@ -102,3 +124,16 @@
 - [Bridges](40-bridges.md) _25%_
 - [Angle / Perspective](49-angle-perspective.md) _25%_
 - [Compatibility Level](61-compatibility-level.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [37-native-format](37-native-format.md)
+- [47-native-format](47-native-format.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [README](README.md)
+

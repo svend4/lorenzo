@@ -14,11 +14,14 @@ improve_run_all.py — мастер-скрипт для запуска всех 
 
 Группы (в порядке выполнения):
   structure → index → analysis → extract → quality →
-  graph → generate → reports → export
+  graph → generate → reports → export → cicd →
+  analytics → textwork → deeptext → nlpplus → content →
+  meta → mcp → contacts-ext
 
 Запуск: python scripts/improve_run_all.py
         python scripts/improve_run_all.py --fast --smart
         python scripts/improve_run_all.py --group generate
+        python scripts/improve_run_all.py --group meta
         python scripts/improve_run_all.py --changed
         python scripts/improve_run_all.py --only improve_metrics.py,improve_health.py
         python scripts/improve_run_all.py --parallel 4 --report
@@ -42,6 +45,7 @@ GROUPS = {
         "improve_tags.py",
         "improve_toc.py",
         "improve_autocorrect.py",
+        "improve_status_badges.py",     # SVG status badges (state, priority, license)
     ],
     "index": [
         # Индексы и поиск
@@ -51,6 +55,7 @@ GROUPS = {
         "improve_index_update.py",
         "improve_timeline.py",
         "improve_backlinks.py",
+        "improve_scripts_catalog.py",   # каталог всех scripts/improve_*.py
     ],
     "analysis": [
         # Аналитика
@@ -83,11 +88,16 @@ GROUPS = {
         "improve_missing.py",
         "improve_orphans.py",
         "improve_validate.py",
+        "improve_validate_templates.py",  # валидация документов по схемам шаблонов
+        "improve_template_integrity.py",  # целостность шаблонов (--fix для исправления)
         "improve_metrics.py",
         "improve_alerts.py",
         "improve_spellcheck.py",
         "improve_readability_v2.py",
         "improve_content_gaps.py",
+        "improve_link_preview.py",        # статус внешних ссылок (slow — HTTP)
+        "improve_sentinel_check.py",      # SENTINEL security audit
+        "improve_precision_eval.py",      # Hit Rate@K retrieval evaluation
     ],
     "graph": [
         # Граф и визуализация
@@ -95,18 +105,6 @@ GROUPS = {
         "improve_mindmap.py",
         "improve_network.py",
         "improve_narrative.py",
-    ],
-    "reports": [
-        # Отчёты (запускать последними)
-        "improve_qa.py",
-        "improve_contacts.py",
-        "improve_changelog.py",
-        "improve_reading_order.py",
-        "improve_stats.py",
-        "improve_health.py",
-        "improve_compare.py",
-        "improve_sitemap.py",
-        "improve_report.py",
     ],
     "generate": [
         # Генерация файлов из шаблонов и данных (после extract/analysis)
@@ -119,7 +117,7 @@ GROUPS = {
         "improve_word_cloud.py",
     ],
     "reports": [
-        # Отчёты (запускать последними)
+        # Отчёты (запускать последними в основном цикле)
         "improve_qa.py",
         "improve_contacts.py",
         "improve_changelog.py",
@@ -139,6 +137,9 @@ GROUPS = {
         "improve_coverage.py",
         "improve_benchmark.py",
         "improve_report.py",
+        "improve_registry.py",          # единый реестр всех артефактов
+        "improve_skill_dashboard.py",   # статистика использования скилов
+        "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "export": [
         # Экспорт
@@ -148,7 +149,8 @@ GROUPS = {
         "improve_obsidian.py",
         "improve_rss.py",
         "improve_confluence.py",
-        "improve_export_report.py",  # единый сводный отчёт → REPORT.md
+        "improve_epub.py",              # EPUB через pandoc (apt install pandoc)
+        "improve_export_report.py",     # единый сводный отчёт → REPORT.md
     ],
     "cicd": [
         # CI/CD и автоматизация разработки
@@ -163,8 +165,12 @@ GROUPS = {
         "improve_reading_time.py",
         "improve_version_diff.py",
         "improve_topic_model.py",
-        "improve_cross_section.py",  # концептуальные мосты между секциями
-        "improve_digest_auto.py",    # автодайджест изменений за N дней
+        "improve_cross_section.py",     # концептуальные мосты между секциями
+        "improve_digest_auto.py",       # автодайджест изменений за N дней
+        "improve_changelog_auto.py",    # автоматический changelog из git-истории
+        "improve_digest_weekly.py",     # еженедельный дайджест изменений
+        "improve_dependency_map.py",    # карта зависимостей скриптов → DEPENDENCY_MAP.md
+        "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "textwork": [
         # Работа с текстом: рубрикация, слияние, сравнение
@@ -176,74 +182,113 @@ GROUPS = {
         "improve_crosslink_all.py",
         "improve_source_map.py",
         "improve_duplicate_across.py",
+        "improve_external_compare.py",  # сравнение с внешними URL/источниками
     ],
     "deeptext": [
         # Глубокая обработка текста: структура, поиск, NLP-анализ
-        "improve_auto_toc.py",           # оглавление (TOC) в каждый файл
-        "improve_abstract.py",           # структурированный абстракт
-        "improve_paragraph_quality.py",  # метрики качества абзацев
-        "improve_vocabulary_richness.py",# TTR / STTR / lexical density
-        "improve_named_entity_index.py", # именованные сущности → JSON
-        "improve_timeline_events.py",    # события на шкале времени
-        "improve_contradiction_check.py",# поиск противоречивых утверждений
-        "improve_concept_graph.py",      # граф концептов → Mermaid + JSON
-        "improve_keyword_index.py",      # инвертированный индекс слов
-        "improve_passage_retrieval.py",  # BM25-поиск по абзацам
-        "improve_chunk_semantic.py",     # семантические чанки для RAG
-        "improve_text_segmenter.py",     # разбивка больших файлов на части
+        "improve_auto_toc.py",
+        "improve_abstract.py",
+        "improve_paragraph_quality.py",
+        "improve_vocabulary_richness.py",
+        "improve_named_entity_index.py",
+        "improve_timeline_events.py",
+        "improve_contradiction_check.py",
+        "improve_concept_graph.py",
+        "improve_keyword_index.py",
+        "improve_passage_retrieval.py",
+        "improve_chunk_semantic.py",
+        "improve_text_segmenter.py",
     ],
     "nlpplus": [
         # Расширенный NLP-анализ и поиск
-        "improve_textrank.py",           # TextRank резюме без LLM → SUMMARIES.md
-        "improve_heading_audit.py",      # аудит иерархии заголовков
-        "improve_language_split.py",     # RU/EN состав файлов → LANGUAGE_STATS.md
-        "improve_question_extractor.py", # вопросы/гипотезы/TODO → QUESTIONS.md
-        "improve_passive_voice.py",      # пассивный залог и канцеляризмы
-        "improve_empty_sections.py",     # пустые секции-заглушки
-        "improve_faceted_search.py",     # фасетный поиск (запускать с --query)
-        "improve_similar_passages.py",   # похожие абзацы TF-IDF cosine
-        "improve_knowledge_map.py",      # единый дашборд → KNOWLEDGE_MAP.md
-        "improve_reading_list.py",       # список чтения по теме → READING_LIST.md
+        "improve_textrank.py",
+        "improve_heading_audit.py",
+        "improve_language_split.py",
+        "improve_question_extractor.py",
+        "improve_passive_voice.py",
+        "improve_empty_sections.py",
+        "improve_faceted_search.py",
+        "improve_similar_passages.py",
+        "improve_knowledge_map.py",
+        "improve_reading_list.py",
     ],
     "content": [
-        # Применение изменений к контенту (запускать осторожно — меняют файлы)
-        "improve_auto_toc.py",           # TOC во все файлы (--apply)
-        "improve_abstract.py",           # абстракты во все файлы (--apply)
-        "improve_auto_linker.py",        # внутренние ссылки (--apply)
-        "improve_gap_filler.py",         # заполнить пустые секции (--apply)
+        # Применение изменений к контенту (меняют входные файлы — запускать осторожно)
+        "improve_auto_toc.py",
+        "improve_abstract.py",
+        "improve_auto_linker.py",
+        "improve_gap_filler.py",
+    ],
+    # ── Новые группы ──────────────────────────────────────────────────────────
+    "meta": [
+        # Мета-документы: Tech Radar, Onboarding, реестры, карта зависимостей
+        "improve_tech_radar.py",        # ADOPT/TRIAL/ASSESS/HOLD (22 позиции)
+        "improve_onboarding.py",        # руководство для новых участников
+        "improve_risk_register.py",     # реестр рисков (10 рисков + матрица 5×5)
+        "improve_component_matrix.py",  # матрица 14 компонентов × 10 возможностей
+        "improve_kpi_snapshot.py",      # снапшот KPI → docs/KPI_HISTORY.md
+        "improve_index_master.py",      # главный навигационный хаб → INDEX.md
+        "improve_audit_db.py",          # SQLite audit log всех событий → audit.db
+        "improve_quality_patch.py",     # патч качества после регенерации
+    ],
+    "mcp": [
+        # MCP-инструменты и тесты
+        "improve_mcp_dashboard.py",     # статистика вызовов MCP-серверов
+        "improve_mcp_test.py",          # smoke-тесты для всех MCP-серверов
+    ],
+    "contacts-ext": [
+        # Расширенная работа с контактами авторов
+        "improve_migrate_contacts.py",  # миграция docs/contacts/*.md на frontmatter
     ],
 }
 
+# Скрипты намеренно НЕ включённые в run_all:
+# • improve_run_all.py     — сам оркестратор
+# • improve_watch.py       — polling watcher (не нужен в batch)
+# • improve_watcher.py     — автономный агент ступени 6 (небезопасно)
+# • improve_contact_status.py — интерактивный CLI (нужен --author)
+# • improve_workflow_run.py  — нужен --pipeline arg
+# • improve_workflow_v2.py   — нужен --pipeline arg
+# • improve_task_codegen.py  — нужен .task.yaml файл
+# • improve_template_init.py — нужен --template arg
+# • improve_template_migrate.py — нужна схема миграции
+# • improve_self.py          — метаскрипт (запускать отдельно: --audit, --catalog)
+# • improve_llm_*.py         — требуют ANTHROPIC_API_KEY
+
 # Скрипты, которые можно пропустить при --fast (медленные)
 SLOW_SCRIPTS = {
-    "improve_clusters.py",       # TF-IDF на 400 файлах
-    "improve_similar.py",        # Jaccard попарно
-    "improve_export_html.py",    # 3 MB HTML
-    "improve_export_json.py",    # 600 KB JSON
-    "improve_search_index.py",   # полный индекс
-    "improve_word_cloud.py",     # SVG рендеринг
-    "improve_digest.py",         # полный обход git
-    "improve_link_preview.py",   # HTTP-запросы к внешним URL
-    "improve_topic_model.py",    # TF-IDF на всех файлах
-    "improve_epub.py",           # pandoc сборка
-    "improve_obsidian.py",       # запись множества файлов
-    "improve_confluence.py",     # запись множества файлов
-    "improve_benchmark.py",      # запуск всех скриптов
-    "improve_reclassify.py",     # перемещение файлов
-    "improve_merge_by_topic.py", # слияние файлов
-    "improve_duplicate_across.py", # попарное сравнение всех файлов
-    "improve_compare_docs.py",   # может делать batch
-    "improve_external_compare.py", # HTTP-запросы
-    "improve_chunk_semantic.py",   # записывает JSONL для всех файлов
-    "improve_keyword_index.py",    # строит большой JSON-индекс
-    "improve_text_segmenter.py",   # создаёт подпапки с частями
-    "improve_passage_retrieval.py",# строит passages.json
-    "improve_similar_passages.py", # попарное TF-IDF сравнение абзацев
-    "improve_textrank.py",         # TextRank на всех файлах
-    "improve_gap_filler.py",       # BM25-поиск + вставка в файлы
-    "improve_auto_linker.py",      # вставка ссылок в тексты
-    "improve_reading_list.py",     # BM25-поиск по корпусу
-    "improve_cross_section.py",    # TF-IDF по всем секциям
+    "improve_clusters.py",
+    "improve_similar.py",
+    "improve_export_html.py",
+    "improve_export_json.py",
+    "improve_search_index.py",
+    "improve_word_cloud.py",
+    "improve_digest.py",
+    "improve_link_preview.py",         # HTTP-запросы к внешним URL
+    "improve_topic_model.py",
+    "improve_epub.py",                 # pandoc сборка
+    "improve_obsidian.py",
+    "improve_confluence.py",
+    "improve_benchmark.py",
+    "improve_reclassify.py",
+    "improve_merge_by_topic.py",
+    "improve_duplicate_across.py",
+    "improve_compare_docs.py",
+    "improve_external_compare.py",     # HTTP-запросы
+    "improve_chunk_semantic.py",
+    "improve_keyword_index.py",
+    "improve_text_segmenter.py",
+    "improve_passage_retrieval.py",
+    "improve_similar_passages.py",
+    "improve_textrank.py",
+    "improve_gap_filler.py",
+    "improve_auto_linker.py",
+    "improve_reading_list.py",
+    "improve_cross_section.py",
+    "improve_digest_weekly.py",        # полный обход git-истории
+    "improve_changelog_auto.py",       # полный обход git-истории
+    "improve_dependency_map.py",       # анализ всех скриптов
+    "improve_component_matrix.py",     # тяжёлая матрица совместимости
 }
 
 # Скрипты требующие ANTHROPIC_API_KEY — никогда не запускаются в run_all
@@ -254,9 +299,12 @@ LLM_SCRIPTS = {
     "improve_llm_contact.py",
 }
 
-GROUP_ORDER = ["structure", "index", "analysis", "extract",
-               "quality", "graph", "generate", "reports", "export",
-               "cicd", "analytics", "textwork", "deeptext", "nlpplus", "content"]
+GROUP_ORDER = [
+    "structure", "index", "analysis", "extract",
+    "quality", "graph", "generate", "reports", "export",
+    "cicd", "analytics", "textwork", "deeptext", "nlpplus", "content",
+    "meta", "mcp", "contacts-ext",
+]
 
 # ---------------------------------------------------------------------------
 # Stage 2: условное выполнение по результату предыдущих скриптов

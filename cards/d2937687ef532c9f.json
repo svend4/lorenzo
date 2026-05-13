@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:d2937687ef532c9f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/research-reports/continuation-10-domains.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/research-reports/sozialrecht-35-combinations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/03-dsl-ast.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:5e04aed93855705e",
+  "payload": {
+    "title": "Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations",
+    "summary": "Продолжение исследования, которое расширяет каталог 45 комбинаций десятью новыми областями.",
+    "body": "research report continuation new domains beyond the original combinations источник mhtml снимок комбинирование технологий для новых свойств claude секция continuation research new domains beyond the original combinations смотрите также sozialrecht combinations sozialrecht combinations dsl ast mega stacks dsl ast ultimate legal mega stacks ultimate legal mega stack with dsl ast combinations mega stack with dsl ast",
+    "tags": [
+      "rag",
+      "knowledge",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 316,
+    "path": "docs/technology-combinations/research-reports/continuation-10-domains.md"
+  }
+}

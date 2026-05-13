@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:93fd74b90ebe4435",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:30ee0961ad1e999d",
+  "payload": {
+    "title": "1. The Five-Type Typology of Principal-Side Agents",
+    "summary": "The Representative Agent Layer paper introduced one type of AI",
+    "body": "the five type typology principal side agents источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper professional colleague agents написанный совместно claude источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper professional colleague agents написанный совместно claude the five type typology principal side agents the representative agent layer paper introduced one type agent the principal side doing implicitly suggested that agent serving human single category this formulation reflection obscures important distinctions now identify five distinct types type personal assistants examples chatgpt claude cursor github copilot claude code function general purpose helper with whatever task the user explicitly brings direction reactive user initiates responds specialization none universal across domains persistence session based memory limited replication one product serves all users state art mature mass deployed hundreds millions users type professional colleague agents examples обучай teachers specialized medical assistants parajural tools teacher specific tutoring function helper specialized for specific profession embeds professional knowledge norms methodologies regulations templates that practitioners not have explain their context direction reactive within professional context practitioner sets task agent applies professional knowledge specialization deep single profession persistence professional context persists across sessions user specific work progress may persist replication one product serves all practitioners the profession millions teachers hundreds thousands medical professionals etc state art emerging first successful examples like обучай exist mass deployment beginning type institutional agents examples integrated with school grading systems court filing systems hospital electronic records government benefit processing function embedded institutional infrastructure serves both the institution and the human practitioner bridges between individual work and institutional records direction bidirectional institutional rules constrain human work flows into institutional records specialization both professional and institutional persistence institutional records and decisions persist institutional memory replication one per institution type often customized per institution state art early some healthcare systems experimenting major regulatory questions unresolved type employee agents examples handling routine email correspondence autonomously conducting initial student examinations processing standard insurance claims making first pass hiring screening decisions function operates within delegated scope authority making decisions and taking actions independently reports results human supervisor direction autonomous within delegation human sets scope executes within specialization specific task within profession persistence operational continuous activity within scope replication per task replication state art beginning significant ethical and regulatory challenges examples exist but controversial type representative agents examples none production proposed representative agent layer paper function represents principal externally discovers opportunities manages presentation conducts negotiations protects from harm direction outward facing engages with world behalf principal specialization deep individual specialization each principal has unique agent persistence long term models principal life arc replication one per principal state art conceptual architecture proposed production deployment layered architecture the principal side these five types form coherent stack the principal side single human professional could simultaneously have external world representative agent type principal professional colleagues type institutional agents type employee agents type professional work personal assistants type not occupy fixed layer they function across all layers utility used needed this typology not hierarchy capability each type serves different function type not less advanced than type different from mature deployment infrastructure for professionals likely involves multiple types operating together why this distinction matters each type has fundamentally different characteristics property type type type type type specialization none profession institution profession task individual external communication none none some some extensive replicability universal per profession per institution per task per individual economics subscription profession wide institutional variable individual ethical concerns low medium medium high highest regulatory complexity low medium high highest highest deployment readiness mature emerging early beginning conceptual conflating these types single discussion produces confused analysis each requires its own architectural ethical and economic framework смотрите также the five type typology principal side agents anthropic vacancies the five type typology principal side agents appendix comparative table five agent types anthropic vacancies appendix comparative table five agent types relationship other agents relationship other agents what makes pca what makes pca",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 871,
+    "path": "docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md"
+  }
+}

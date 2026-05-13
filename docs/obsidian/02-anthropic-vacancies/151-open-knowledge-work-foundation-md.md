@@ -3,16 +3,31 @@ title: "OPEN KNOWLEDGE WORK FOUNDATION.md"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # OPEN KNOWLEDGE WORK FOUNDATION.md
+
+<!-- toc-auto -->
+## Contents
+
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](#open-knowledge-work-foundationmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > - [[273-infrastructure-for-ai-collaborative-intellectual-w]] (сходство 0.25)
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -26,7 +41,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[273-infrastructure-for-ai-collaborative-intellectual-w]] (сходство 0.25)
 - [[249-composite-skills-agent-md]] (сходство 0.12)
 - [[208-professional-colleague-agents-md]] (сходство 0.12)
@@ -96,9 +111,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "OPEN KNOWLEDGE WORK FOUNDATION md"
+```
+
+## Смотрите также
 - [[273-infrastructure-for-ai-collaborative-intellectual-w]]
 - [[304-ingit-as-cowork-native-workspace-substrate-md]]
 - [[249-composite-skills-agent-md]]
 - [[208-professional-colleague-agents-md]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (27)
+- [[12-content-overview]]
+- [[13-angle-perspective]]
+- [[134-the-double-triangle-architecture-md]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[153-executive-summary]]
+- [[155-1-problem-statement]]
+- [[166-representative-agent-layer-md]]
+- [[181-12-closing]]
+- _...ещё 19_
 

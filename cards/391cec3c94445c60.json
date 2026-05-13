@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:391cec3c94445c60",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/307-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:589b8393c648074e",
+  "payload": {
+    "title": "with Anthropic's Cowork Platform",
+    "summary": "Document 2.3's identification of the Layer B gap, providing",
+    "body": "with anthropic cowork platform содержание with anthropic cowork platform with anthropics cowork platform упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы with anthropic cowork platform document type practical implementation paper building document theoretical framework position series document sequenced after document identification the layer gap providing concrete implementation path through cowork integration companion paper nautilus portal protocol document review methodology document infrastructure for collaborative intellectual work document double triangle architecture document open knowledge work foundation document representative agent layer document professional colleague agents document composite skills agent document reference projects ingit https github com svend ingit author offline first integrated platform for version control project management and documentation anthropic cowork https claude com product cowork agentic interface claude desktop launched january version draft date author svend editorial collaboration claude license status practical implementation paper seeking collaboration похожие документы support through configurable specialist ensembl support through configurable specialist ensembl сходство the missing middle layer between chat and code the missing middle layer between chat and code сходство typology agents the principal side and typology agents the principal side and сходство смотрите также the missing middle layer between chat and code the missing middle layer between chat and code support through configurable specialist ensembl support through configurable specialist ensembl typology agents the principal side and typology agents the principal side and mediated representation for underrepresented mediated representation for underrepresented упоминается typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl abstract abstract acknowledgments acknowledgments acknowledgments acknowledgments appendix connection companion papers appendix connection companion papers references references references references references references references references the missing middle layer between chat and code the missing middle layer between chat and code вакансии anthropic анализ кластерам readme инвертированный индекс ключевых слов keyword index ссылки ссылки существующие документы dhlab твой context существующие документы dhlab твой context упоминается вакансии anthropic анализ кластерам readme связанные документы существующие документы dhlab твой context существующие документы dhlab твой context appendix connection companion papers appendix connection companion papers the missing middle layer between chat and code the missing middle layer between chat and code typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments связанные документы appendix connection companion papers appendix connection companion papers typology agents the principal side and the case for profession specific workers typology agents the principal side and существующие документы dhlab твой context существующие документы dhlab твой context support through configurable specialist ensembles support through configurable specialist ensembl the missing middle layer between chat and code the missing middle layer between chat and code references references acknowledgments acknowledgments acknowledgments acknowledgments кто ссылается этот документ table contents table contents acknowledgments acknowledgments mediated representation for underrepresented mediated representation for underrepresented appendix connection companion papers appendix connection companion papers typology agents the principal side and typology agents the principal side and acknowledgments acknowledgments support through configurable specialist ensembl support through configurable specialist ensembl acknowledgments acknowledgments ещё",
+    "tags": [
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 540,
+    "path": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md"
+  }
+}

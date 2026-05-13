@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,10 +9,15 @@ tags:
   * rag
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. The Specific Case in Front of Us
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -24,6 +29,10 @@ h1. The Specific Case in Front of Us
 >
 
 
+
+
+{quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}The seven documents produced in this session have specific{quote}
 
@@ -133,7 +142,7 @@ infrastructure.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[276-the-two-layer-stack-as-it-exists]] (сходство 0.18)
 * [[277-what-s-missing-layer-b]] (сходство 0.16)
 * [[279-existing-approximations]] (сходство 0.16)
@@ -143,7 +152,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Specific Case in Front of Us"
+{code}
+
+h2. Смотрите также
 * [[277-what-s-missing-layer-b]]
 * [[276-the-two-layer-stack-as-it-exists]]
 * [[284-practical-recommendations-for-the-current-project]]
@@ -186,3 +201,19 @@ h2. Связанные документы
 * [[309-1-the-cowork-discovery-and-why-it-changes-everythi|1. The Cowork Discovery and Why It Changes Everything]] _25%_
 * [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _21%_
 * [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [[218-7-application-domains]]
+* [[275-why-this-document-exists]]
+* [[276-the-two-layer-stack-as-it-exists]]
+* [[277-what-s-missing-layer-b]]
+* [[278-why-this-hasn-t-been-built]]
+* [[282-what-industry-will-likely-build]]
+* [[283-what-this-document-doesn-t-solve]]
+* [[284-practical-recommendations-for-the-current-project]]
+* _...ещё 1_
+

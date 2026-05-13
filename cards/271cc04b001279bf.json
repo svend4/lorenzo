@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:271cc04b001279bf",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/318-10-strategic-positioning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/145-8-call-to-action.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/319-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:d4415b5c7a364c00",
+  "payload": {
+    "title": "9. Risks and Open Questions",
+    "summary": "Several uncertainties merit explicit attention.",
+    "body": "risks and open questions содержание contents contents risks and open questions risks and open questions cowork future direction coworks future direction mcp standard evolution mcp standard evolution cowork resource consumption coworks resource consumption privacy and sensitive work privacy and sensitive work author capacity author capacity open questions open questions risks and open questions several uncertainties merit explicit attention cowork future direction cowork research preview anthropic product roadmap not publicly committed possible scenarios scenario cowork matures expected adds team sharing mature mcp integration project templates ingit positioning solid scenario cowork pivots anthropic redirects toward different model some current capabilities deprecated ingit substrate still useful offline first but cowork integration weaker scenario cowork captured competition openai google launch competing products cowork remains capable but loses market share ingit needs broader compatibility mitigation ingit value beyond cowork offline first portable structured ensures viability even adverse scenarios don over commit cowork specific features that lose value cowork changes mcp standard evolution mcp recent late standards still evolving risk that significant changes break existing servers mitigation mcp open standard with multiple implementers even anthropic specifically changes direction mcp continues build for mcp not for cowork specific protocol cowork resource consumption per published reports cowork sessions consume significantly more usage allocation than chat one cowork project session regular chats for pro users limits may hit quickly mitigation ingit projects with cowork should designed for efficient agent use not chatty interaction structured outputs batch operations scheduled tasks rather than real time chat privacy and sensitive work cowork data flows through anthropic infrastructure for highly sensitive work legal medical financial this may unacceptable mitigation ingit offline mode remains valuable for sensitive work use ingit alone with manual workflows local models cowork integration for non sensitive components author capacity the author this paper has multiple active commitments sgb legal cases physical health considerations gdb pflegegrad nautilus development the eight existing documents this series adding active ingit cowork integration work may exceed realistic capacity mitigation sequential progress start with path development expand only bandwidth permits don commit ambitious timelines open questions will anthropic open project templates third parties soon unknown will mcp server distribution improve registry package management currently fragmented how does pricing evolve cowork currently expensive usage costs drop adoption accelerates will cowork add threading branching annotation features yes fills more layer gap leaves space for others will competitors emerge openai google likely build similar capabilities standardization unclear these uncertainties shape but not block progress path works regardless any them похожие документы strategic positioning strategic positioning сходство what ingit with anthropic cowork platform provides that cowork lacks docs anthropic vacancies what ingit provides that cowork lacks сходство appendix sample ingit with anthropic cowork platform mcp server tool specificat docs anthropic vacancies appendix sample ingit mcp server tool specificat сходство смотрите также strategic positioning strategic positioning implications for nautilus habr projects memory memnet and okwf docs anthropic vacancies implications for nautilus and okwf four integration paths order accessibility four integration paths order accessibility what ingit with anthropic cowork platform provides that cowork lacks docs anthropic vacancies what ingit provides that cowork lacks кто ссылается этот документ call action call action acknowledgments acknowledgments appendix sample ingit mcp server tool specificat appendix sample ingit mcp server tool specificat readme readme",
+    "tags": [
+      "rag",
+      "orchestration",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 645,
+    "path": "docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:d161e4ae01adf50c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/07-portal-entry.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/19-7-portalentry-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/06-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/17-versioning-policy.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:5ef4744d7b1e55e9",
+  "payload": {
+    "title": "7. PortalEntry Structure",
+    "summary": "Унифицированная структура данных, возвращаемая адаптерами.",
+    "body": "portalentry structure important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также portalentry structure anthropic vacancies portalentry structure portalentry structure anthropic vacancies portalentry structure adapter interface adapter interface versioning policy versioning policy",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 290,
+    "path": "docs/nautilus/npp-v1-1/07-portal-entry.md"
+  }
+}

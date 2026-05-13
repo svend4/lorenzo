@@ -1,5 +1,17 @@
 # Что добавляет продолжение исследования
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`, раздел «Что это продолжение добавляет».
 **Проекты:** Svyazi, CardIndex
@@ -7,12 +19,16 @@
 ---
 <!-- tags: rag, knowledge, ingestion, architecture, roadmap, collaboration -->
 
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
+
 
 
 
 > Источник: `deep-research-report (3).md`, раздел «Что это продолжение добавляет».
 
-Предыдущая карта уже показала, что вокруг entity["organization","Хабр","tech media"] и entity["company","GitHub","software hosting"] сложился почти полный software‑first конструктор для Svyazi‑2.0: ingest, memory, forensic RAG, orchestration, security и budget routing. Следующий полезный шаг — не расширять список проектов бесконечно, а уточнить **где именно находится архитектурная ценность**, какие сочетания уже можно прототипировать без переписывания половины стека, какие интерфейсы надо стандартизировать сразу, и какие связки пока лучше не собирать в один релиз. Это продолжение поэтому сосредоточено на трёх вещах: архитектурных зазорах, новых ансамблях следующего шага и практическом интеграционном контракте между слоями. citeturn41search0turn33view2turn33view4turn22view4turn21view0turn20view5turn20view10turn39view1
+Предыдущая карта уже показала, что вокруг entity["organization","Хабр","tech media"] и entity"company","[GitHub","software hosting"] сложился почти полный software‑first конструктор для Svyazi‑2.0: ingest, memory, forensic RAG, orchestration, security и budget routing. Следующий полезный шаг — не расширять список проектов бесконечно, а уточнить **где именно находится архитектурная ценность**, какие сочетания уже можно прототипировать без переписывания половины стека, какие интерфейсы надо стандартизировать сразу, и какие связки пока лучше не собирать в один релиз. Это продолжение поэтому сосредоточено на трёх вещах: архитектурных зазорах, новых ансамблях следующего шага и практическом интеграционном контракте между слоями. citeturn41search0turn33view2turn33view4turn22view4turn21view0turn20view5turn20view10turn39view1
 
 Главный дополнительный вывод такой: из уже найденных компонентов лучше всего складывается не просто «система матчей между людьми», а **доказуемая community intelligence platform**. В ней Svyazi‑подобный CardIndex становится не только профилем участника, но и унифицированной карточкой для проекта, эпизода, документа, обсуждения, гипотезы и action item; forensic RAG превращает любой вывод в проверяемое evidence pack; memory‑слой усиливает слабые сигналы и гасит шум; а многоагентный контур перестаёт быть «кодогенерацией» и начинает работать как модератор, аналитик и исследователь поверх общего графа. Это уже другой класс системы, чем исходный «парсер анкет», хотя он наследует ту же базовую логику LLM → нормализация → индекс/карточка → discovery. citeturn41search0turn20view5turn20view6turn34view3turn22view4turn21view0turn20view2turn20view3
 
@@ -20,11 +36,32 @@
 
 ---
 
-**Смотрите также:**
-- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md)
-- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что добавляет продолжение исследования"
+```
+
+## Смотрите также
+- [08-что-это-продолжение-добавляет](../../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [conclusions](../limitations/conclusions.md)
+- [executive-summary](executive-summary.md)
+- [08-conclusions](../../01-svyazi/08-conclusions.md)
+
+_Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -32,7 +69,7 @@
 ---
 
 **Похожие документы:**
-- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.70)
-- [08-что-это-продолжение-добавляет](docs/obsidian/04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.65)
-- [01-executive-summary](docs/obsidian/01-svyazi/01-executive-summary.md) (сходство 0.22)
+- [continuation-intro](../../obsidian/svyazi-2-0/overview/continuation-intro.md) (сходство 0.98)
+- [08-что-это-продолжение-добавляет](../../04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.67)
+- [08-что-это-продолжение-добавляет](../../obsidian/04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.67)
 

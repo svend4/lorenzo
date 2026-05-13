@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:e266940033cac28d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SENTIMENT.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:a39d96447d855a56",
+  "payload": {
+    "title": "Тональный анализ документов",
+    "summary": "",
+    "body": "тональный анализ документов содержание тональность разделам тональность разделам самые оптимистичные документы самые оптимистичные документы самые скептичные риск ориентированные самые скептичные риск ориентированные распределение тональности распределение тональности файлов проанализировано тональность разделам раздел оптимизм скептицизм срочность неопределённость тон svyazi скептичный anthropic vacancies скептичный technology combinations нейтральный collaborations скептичный habr projects оптимистичный collaborations скептичный anthropic vacancies скептичный contacts нейтральный glossary нейтральный habr unique projects оптимистичный lorenzo agent скептичный nautilus скептичный root скептичный svyazi скептичный technology combinations оптимистичный templates скептичный самые оптимистичные документы документ оптимизм тон portal mcp оптимистичный question habr examples оптимистичный yogi metaphor оптимистичный workflow оптимистичный portalentry structure срочный claude subagents patterns оптимистичный what was missing paper оптимистичный vshe scientific networking оптимистичный mega integration full stack оптимистичный brainbox multi hub оптимистичный самые скептичные риск ориентированные документ скептицизм тон heading audit скептичный paragraph quality скептичный risk entry скептичный risks and mitigations скептичный риски меры противодействия скептичный riski mery скептичный risk analysis скептичный risk analysis скептичный privacy скептичный risks скептичный распределение тональности тон файлов скептичный нейтральный оптимистичный срочный неопределённый смотрите также stats health metrics knowledge map",
+    "tags": [
+      "rag",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 527,
+    "path": "docs/obsidian/SENTIMENT.md"
+  }
+}

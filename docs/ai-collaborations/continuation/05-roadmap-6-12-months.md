@@ -1,5 +1,12 @@
 # Roadmap на 6–12 месяцев
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -36,11 +43,33 @@
 
 ---
 
-**Смотрите также:**
-- [roadmap](docs/svyazi-2-0/prototype/roadmap.md)
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
-- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Roadmap на 6 12 месяцев"
+```
+
+## Смотрите также
+- [roadmap](../../svyazi-2-0/prototype/roadmap.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
+- [12-дорожная-карта-прототипа-следующей-итерации](../../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [12-roadmap](../../01-svyazi/12-roadmap.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [PROTOTYPE_SPEC](../../PROTOTYPE_SPEC.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-metrics-tree](06-metrics-tree.md)
+- [07-vs-notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -48,7 +77,7 @@
 ---
 
 **Похожие документы:**
-- [roadmap](docs/svyazi-2-0/prototype/roadmap.md) (сходство 0.20)
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.19)
-- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.18)
+- [05-roadmap-6-12-months](../../obsidian/ai-collaborations/continuation/05-roadmap-6-12-months.md) (сходство 0.99)
+- [10-architecture-rfc](../../obsidian/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.22)
+- [10-architecture-rfc](10-architecture-rfc.md) (сходство 0.21)
 

@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:5f444f296d42a0ba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/180-11-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:2806c67098689f76",
+  "payload": {
+    "title": "9. Phased Rollout Strategy",
+    "summary": "A responsible deployment of Representative Agent technology",
+    "body": "phased rollout strategy содержание contents contents phased rollout strategy phased rollout strategy phase foundation months phase foundation months phase single domain maturation year phase single domain maturation year phase domain expansion years phase domain expansion years phase high stakes domain deployment years phase high stakes domain deployment years phase mature infrastructure year phase mature infrastructure year pace considerations pace considerations phased rollout strategy responsible deployment representative agent technology proceeds five phases phase foundation months activities establish governance framework recruit founding principal cohort individuals build core technical infrastructure develop initial agent for one domain recommend domain knowledge workers pilot deployment with small group success criteria working reference implementation pilot principals report meaningful benefit major ethical safety incidents funding secured for phase phase single domain maturation year activities scale phase domain principals refine agent capabilities through user feedback establish operational procedures document learnings for replication begin initial work second domain success criteria stable platform serving principals measurable positive outcomes sustainable operational model regulatory dialogue established phase domain expansion years activities add domains retired professionals and students both relatively low risk extensions begin pilot work domain social workers with partner organization international expansion initially one additional country language success criteria principals across domains first international deployment functional partnership with established social services organization phase high stakes domain deployment years activities domain vulnerable citizens navigating bureaucracy with intensive partnership with legal aid organizations domain caregivers with health system partners increased regulatory engagement independent academic study outcomes success criteria demonstrable improvement access for vulnerable populations regulatory frameworks adapted appropriately academic literature documents pattern phase mature infrastructure year activities all ten domains some level deployment multiple platforms competing within standards framework established field research and practice influence policy and regulation success criteria representative agents are accepted infrastructure beneficial outcomes for millions previously underrepresented people healthy ecosystem providers within ethical framework pace considerations this rollout deliberately conservative faster deployment technically possible but risks premature promises that erode trust when broken ethical missteps that trigger restrictive regulation platform dynamics that exclude vulnerable populations loss mission focus commercial pressures slow careful deployment more likely result durable beneficial infrastructure than rapid scaling похожие документы phased rollout plan phased rollout plan сходство pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague сходство call for collaboration call for collaboration сходство смотрите также phased rollout plan phased rollout plan call for collaboration call for collaboration pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague closing closing кто ссылается этот документ phased rollout plan phased rollout plan pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague closing closing readme readme",
+    "tags": [
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 650,
+    "path": "docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md"
+  }
+}

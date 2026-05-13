@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:a3a28dc7c35a05e0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/02-extraction.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/processing-guide/01-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/PROCESSING_GUIDE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/03-chunking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/WORD_FREQ.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/08-export.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:26+00:00",
+  "updated_at": "2026-05-10T17:29:26+00:00",
+  "payload_hash": "sha256:470b130ed9970cb6",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 2: Извлечение",
+    "summary": "Исходные файлы проекта Lorenzo — это **MHTML-архивы** (сохранённые страницы браузера из Claude.ai и ChatGPT). Внутри MHTML:",
+    "body": "обработка больших массивов часть извлечение warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений как превратить сырые файлы mhtml pdf html txt чистый markdown проекты svyazi whisper как превратить сырые файлы mhtml pdf html txt чистый markdown проблема формата исходные файлы проекта lorenzo это mhtml архивы сохранённые страницы браузера claude chatgpt внутри mhtml base закодированный html css скрипты изображения одном файле текст чата перемешан элементами кодировка quoted printable или base прямо читать нельзя нужен парсер уровень extract mhtml что делает mhtml чистый markdown python scripts extract mhtml вакансии anthropic claude output алгоритм разбирает mime структуру файла email message from bytes извлекает html части text html декодирует base quoted printable beautifulsoup убирает script style навигацию html text или кастомный конвертер markdown постобработка убирает дублированные переносы артефакты результат mhtml слов чистого текста уровень organize docs part после извлечения текст дробится секциям часть скрипты part utils part collaborations специализированные парсеры для каждого типа источника скрипт источник что делает part split markdown делит заголовкам part mhtml mhtml общий базовое извлечение part svyazi deep research report парсит архитектурные секции part mhtml engine mhtml движок расширенная очистка html part vacancies вакансии кластеры вакансий anthropic part tech combinations комбинирование синергии технологий part collaborations коллаборации проекты ансамбли поддерживаемые форматы уже реализовано формат инструмент примечание mhtml extract mhtml claude chatgpt любые браузеры markdown part split нативный формат html improve export html обратный экспорт можно добавить реализовано формат библиотека сложность pdf pdfplumber pymupdf средняя таблицы сложно docx pptx python docx python pptx низкая telegram экспорт json нативный формат низкая notion notion api средняя obsidian markdown готово готово epub ebooklib средняя youtube субтитры youtube transcript api низкая аудио видео whisper openai высокая качество извлечения после парсинга mhtml вакансии исходный файл байт mhtml чистый html байт после html text байт итоговый markdown слов файлах потери элементы повторяющиеся кнопки copy временны метки сохранено текстового содержимого чата типичные проблемы решения проблема причина решение артефакты citeturnxxview claude внутренние ссылки источники постобработка regex дублированный текст thinking блоки ответ фильтр css классам обрезанные заголовки символов slug обрезается slugify полным текстом пустые файлы секции только фильтр минимуму слов кириллические имена файлов windows linux несовместимость pathlib utf следующий шаг после извлечения после получения markdown часть разбивка смысловые единицы кто ссылается этот документ overview overview processing guide processing guide readme readme смотрите также processing guide processing guide chunking chunking word freq word freq export export",
+    "tags": [
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 622,
+    "path": "docs/processing-guide/02-extraction.md"
+  }
+}

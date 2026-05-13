@@ -1,6 +1,30 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Multi-Agent Systems](#multi-agent-systems)
+  - [Protocols and Federation](#protocols-and-federation)
+  - [Human-AI Collaboration](#human-ai-collaboration)
+  - [Related Architectures](#related-architectures)
+  - [Pattern Libraries](#pattern-libraries)
+  - [Primary Reference](#primary-reference)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ---
@@ -60,11 +84,30 @@
 
 ---
 
-**Смотрите также:**
-- [147-references](docs/02-anthropic-vacancies/147-references.md)
-- [11-dhlab-documents](docs/lorenzo-agent/11-dhlab-documents.md)
-- [09-acknowledgments](docs/nautilus/double-triangle-architecture/09-acknowledgments.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
+- [147-references](../../02-anthropic-vacancies/147-references.md)
+- [11-dhlab-documents](../../lorenzo-agent/11-dhlab-documents.md)
+- [09-acknowledgments](09-acknowledgments.md)
+- [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -72,7 +115,7 @@
 ---
 
 **Похожие документы:**
-- [147-references](docs/02-anthropic-vacancies/147-references.md) (сходство 0.74)
-- [147-references](docs/obsidian/02-anthropic-vacancies/147-references.md) (сходство 0.70)
-- [11-dhlab-documents](docs/lorenzo-agent/11-dhlab-documents.md) (сходство 0.19)
+- [10-references](../../obsidian/nautilus/double-triangle-architecture/10-references.md) (сходство 0.97)
+- [147-references](../../02-anthropic-vacancies/147-references.md) (сходство 0.71)
+- [147-references](../../obsidian/02-anthropic-vacancies/147-references.md) (сходство 0.70)
 

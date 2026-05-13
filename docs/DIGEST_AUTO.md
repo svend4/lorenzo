@@ -1,6 +1,14 @@
 # Автодайджест изменений
 
-_Период: 2026-04-22 — 2026-04-29 (7 дней)_
+<!-- summary -->
+> _Период: 2026-05-06 — 2026-05-13 (7 дней)_
+**Проекты:** Svyazi
+
+---
+
+
+
+_Период: 2026-05-06 — 2026-05-13 (7 дней)_
 
 ---
 
@@ -8,83 +16,93 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **103** |
+| Коммитов | **62** |
 | Новых файлов | **20** |
 | Изменённых файлов | **0** |
-| Слов добавлено | **+3,467,528** |
-| Слов удалено | **−0** |
+| Слов добавлено | **+6,439,520** |
+| Слов удалено | **−5,784,265** |
 
 ## Активность по секциям
 
 | Секция | Изменений |
 |--------|-----------|
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 2046 |
 | `obsidian` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 379 |
 | `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
-| `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 234 |
-| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 186 |
-| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 142 |
+| `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 225 |
+| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 198 |
 | `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
 | `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
-| `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 59 |
-| `habr-unique-projects` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 56 |
+| `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 60 |
 
 ## Последние коммиты
 
-- `2026-04-29` [7c83cefc] chore: синхронизировать docs после обновления корпуса
-- `2026-04-29` [e335cb8f] chore: обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов)
-- `2026-04-29` [78e6481d] chore: sync PROGRESS.md
-- `2026-04-29` [643d52de] fix: восстановить 24 файла повреждённых GitHub Actions ботом
-- `2026-04-29` [ee0b767e] fix: остановить деструктивные авто-обновления от GitHub Actions бота
-- `2026-04-29` [d4d34b4a] chore: sync PROGRESS.md
-- `2026-04-29` [e7133855] merge: разрешить конфликты с remote (авто-обновление main)
-- `2026-04-29` [94be1ad1] docs: auto-update metrics [skip ci]
-- `2026-04-29` [351e5804] Merge pull request #8 from svend4/claude/organize-monorepo-docs-VmctA
-- `2026-04-29` [717e08b0] Merge origin/main into VmctA — resolve 287 conflicts in favour of main
+- `2026-05-13` [1d7372dc] chore: update generated docs artifacts from local script runs
+- `2026-05-13` [8b52bdd7] fix(gateway): match Hit Rate@K for any K in benchmark endpoint regex
+- `2026-05-13` [c7bfea23] chore: sync catalog files after merge (remove injected auto-sections)
+- `2026-05-13` [bce3f586] fix: resolve merge conflicts with main (take ours for code, theirs for
+- `2026-05-13` [4102b14d] chore: update generated docs artifacts from local script runs
+- `2026-05-13` [1ed4b81b] chore: update generated docs artifacts from local script runs
+- `2026-05-13` [5a593f4a] chore: update catalog — precision_eval now in quality group
+- `2026-05-13` [72b9d4b9] feat: add improve_precision_eval.py to quality group in run_all
+- `2026-05-13` [83859499] chore(docs-toolkit): bump version to 0.2.0
+- `2026-05-13` [d655c2aa] fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dat
 
 ## Новые файлы
 
-- [`__init__.py`](docs-toolkit/docstoolkit/graph/__init__.py) — `root`
-- [`builder.py`](docs-toolkit/docstoolkit/graph/builder.py) — `root`
-- [`export.py`](docs-toolkit/docstoolkit/graph/export.py) — `root`
-- [`ner.py`](docs-toolkit/docstoolkit/graph/ner.py) — `root`
-- [`__init__.py`](docs-toolkit/docstoolkit/jobs/__init__.py) — `root`
-- [`handlers.py`](docs-toolkit/docstoolkit/jobs/handlers.py) — `root`
-- [`queue.py`](docs-toolkit/docstoolkit/jobs/queue.py) — `root`
-- [`worker.py`](docs-toolkit/docstoolkit/jobs/worker.py) — `root`
-- [`__init__.py`](docs-toolkit/docstoolkit/rag/__init__.py) — `root`
-- [`answerer.py`](docs-toolkit/docstoolkit/rag/answerer.py) — `root`
-- [`assembler.py`](docs-toolkit/docstoolkit/rag/assembler.py) — `root`
-- [`pipeline.py`](docs-toolkit/docstoolkit/rag/pipeline.py) — `root`
-- [`retriever.py`](docs-toolkit/docstoolkit/rag/retriever.py) — `root`
-- [`types.py`](docs-toolkit/docstoolkit/rag/types.py) — `root`
-- [`test_graph.py`](docs-toolkit/tests/test_graph.py) — `root`
+- `API.md` — `root`
+- [`INFO_PROCESSING_METHODS.md`](INFO_PROCESSING_METHODS.md) — `INFO_PROCESSING_METHODS.md`
+- [`00-CURRENT-STATE.md`](ROADMAP/00-CURRENT-STATE.md) — `ROADMAP`
+- [`01-SIMPLE.md`](ROADMAP/01-SIMPLE.md) — `ROADMAP`
+- [`02-MEDIUM.md`](ROADMAP/02-MEDIUM.md) — `ROADMAP`
+- [`03-INNOVATIVE.md`](ROADMAP/03-INNOVATIVE.md) — `ROADMAP`
+- [`04-NOVEL.md`](ROADMAP/04-NOVEL.md) — `ROADMAP`
+- [`05-PRIORITIES.md`](ROADMAP/05-PRIORITIES.md) — `ROADMAP`
+- [`README.md`](ROADMAP/README.md) — `ROADMAP`
+- [`LLM_GAPS.md`](LLM_GAPS.md) — `LLM_GAPS.md`
+- [`qa_cache.json`](qa_cache.json) — `qa_cache.json`
+- `mcp.json` — `root`
+- `settings.json` — `root`
+- `analyze-project.md` — `root`
+- `audit-corpus.md` — `root`
 
 ## Ключевые слова изменений
 
 | Слово | Добавлено | Удалено |
 |-------|-----------|---------|
-| `anthropic` | +80549 | −0 |
-| `vacancies` | +64688 | −0 |
-| `agent` | +23655 | −0 |
-| `nautilus` | +23387 | −0 |
-| `svyazi` | +20822 | −0 |
-| `appendix` | +14008 | −0 |
-| `cowork` | +13975 | −0 |
-| `ingit` | +13456 | −0 |
-| `claude` | +12580 | −0 |
-| `turn` | +12065 | −0 |
-| `knowledge` | +11929 | −0 |
-| `agents` | +11541 | −0 |
-| `heading` | +11424 | −0 |
-| `документы` | +11090 | −0 |
-| `сходство` | +11055 | −0 |
+| `anthropic` | +117972 | −131701 |
+| `vacancies` | +91147 | −99431 |
+| `nautilus` | +69200 | −65749 |
+| `obsidian` | +53753 | −25641 |
+| `agent` | +51081 | −50694 |
+| `документ` | +47387 | −8426 |
+| `strong` | +41945 | −47850 |
+| `readme` | +41513 | −18483 |
+| `code` | +40241 | −22006 |
+| `использование` | +38201 | −292 |
+| `svyazi` | +38185 | −36587 |
+| `heading` | +37466 | −28442 |
+| `также` | +35781 | −11050 |
+| `смотрите` | +35723 | −10451 |
+| `быстро` | +35518 | −20842 |
 
 ## Новые концепты
 
 _Слова появившиеся в этом периоде (≥3 раза):_
 
-`продолжение`, `исследования`, `svyazi`, `similar`, `похожие`, `документы`, `intro`, `part`, `obsidian`, `сходство`, `исполнительное`, `резюме`, `содержание`, `contents`, `главная`
+`данный`, `вошли`, `разделения`, `заменяем`, `тестируем`, `индексирован`, `статистики`, `деталям`, `индексированы`, `соблюдению`, `обзорный`, `погружением`, `коллективного`, `предупреждения`, `индексировано`
 
 ---
-_Дайджест сгенерирован автоматически: 2026-04-29_
+_Дайджест сгенерирован автоматически: 2026-05-13_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [DIGEST](DIGEST.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [TAGS](TAGS.md)
 

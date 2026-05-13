@@ -1,5 +1,23 @@
 # Минусы и риски как бизнеса
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -58,11 +76,32 @@ High failure rate — Metaverse-hype 2021-2022 научил инвесторов
 
 ---
 
-**Смотрите также:**
-- [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
-- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
-- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
-- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Минусы и риски как бизнеса"
+```
+
+## Смотрите также
+- [10-three-entry-points](../ai-managed-virtual-company/10-three-entry-points.md)
+- [04-what-to-do](../ai-managed-virtual-company/04-what-to-do.md)
+- [03-why-natural-for-programmers](03-why-natural-for-programmers.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-what-to-do](../ai-managed-virtual-company/04-what-to-do.md)
+- [10-three-entry-points](../ai-managed-virtual-company/10-three-entry-points.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -70,7 +109,7 @@ High failure rate — Metaverse-hype 2021-2022 научил инвесторов
 ---
 
 **Похожие документы:**
-- [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md) (сходство 0.14)
-- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md) (сходство 0.13)
-- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md) (сходство 0.11)
+- [05-minuses-as-business](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md) (сходство 0.98)
+- [10-three-entry-points](../ai-managed-virtual-company/10-three-entry-points.md) (сходство 0.15)
+- [10-three-entry-points](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md) (сходство 0.15)
 

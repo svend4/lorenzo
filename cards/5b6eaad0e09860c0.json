@@ -1,0 +1,61 @@
+{
+  "card_id": "sha256:5b6eaad0e09860c0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/key-findings/02-memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:1cfc6d6fc906fc2c",
+  "payload": {
+    "title": "Пара 2 — Термодинамические TSU × MoE/MoME-роутинг",
+    "summary": "Пара 2. Термодинамические TSU (Extropic, Normal Computing) × MoE/MoME-роутинг",
+    "body": "пара термодинамические tsu moe mome роутинг источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты memnet смотрите также memnet key findings memnet zinc hybrid arch zinc hybrid arch tinyml mcp skills tinyml mcp skills bonus rram memristor bonus rram memristor кто ссылается этот документ components name glossary components name concepts glossary concepts readme readme readme nautilus readme",
+    "tags": [
+      "memory",
+      "knowledge",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 297,
+    "path": "docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md"
+  }
+}

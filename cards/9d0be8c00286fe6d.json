@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:9d0be8c00286fe6d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/190-содержание.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/231-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/326-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/202-12-заключение.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:a9313cc4f4159b08",
+  "payload": {
+    "title": "Содержание",
+    "summary": "1. **Синдром Золушки: Почему качество остаётся невидимым**",
+    "body": "содержание синдром золушки почему качество остаётся невидимым похожие документы содержание содержание сходство содержание содержание сходство смотрите также содержание содержание содержание содержание review methodology review methodology appendix minimal working example appendix minimal working example упоминается синдром золушки почему качество остаётся невидимым синдром золушки почему качество остаётся невидим заключение заключение appendix minimal working example appendix minimal working example appendix summary contributions appendix summary contributions compatibility level compatibility level for the curious philosophy for the curious philosophy history history review methodology review methodology table contents table contents вакансии anthropic анализ кластерам readme подключение claude desktop подключение claude desktop содержание содержание содержание содержание упоминается вакансии anthropic анализ кластерам readme связанные документы table contents table contents содержание содержание appendix minimal working example appendix minimal working example for the curious philosophy for the curious philosophy portal mcp portal mcp review methodology review methodology compatibility level compatibility level for the curious philosophy for the curious philosophy связанные документы содержание содержание appendix minimal working example appendix minimal working example for the curious philosophy for the curious philosophy table contents table contents compatibility level compatibility level history history review methodology review methodology portal mcp portal mcp кто ссылается этот документ review methodology review methodology portal mcp portal mcp подключение claude desktop подключение claude desktop appendix summary contributions appendix summary contributions table contents table contents table contents table contents заключение заключение содержание содержание ещё",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 278,
+    "path": "docs/02-anthropic-vacancies/190-содержание.md"
+  }
+}

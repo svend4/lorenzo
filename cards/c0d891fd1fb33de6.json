@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:c0d891fd1fb33de6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/35-passports-info1-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:41a2822d027d5df7",
+  "payload": {
+    "title": "Appendix A: Minimal Working Example",
+    "summary": "from .base import BaseAdapter, PortalEntry",
+    "body": "appendix minimal working example абстракт авто проблема appendix minimal working example contents appendix minimal working example appendix minimal working example подход похожие документы appendix minimal working example docs anthropic vacancies appendix minimal working example сходство portal protocol docs ключевые слова minimal appendix working example anthropic vacancies portal notes contents appendix minimal working example appendix minimal working example minimal nautilus habr projects memory memnet json minimal nautilusjson minimal adapter level minimal adapter level minimal passport minimal passport passport passports notes похожие документы appendix minimal working example appendix minimal working example сходство portal protocol portal protocol сходство passports info passports info сходство смотрите также appendix minimal working example appendix minimal working example portal mcp portal mcp portal protocol portal protocol review methodology review methodology кто ссылается этот документ portal protocol portal protocol abstract abstract passport passport passport passport review methodology review methodology portal mcp portal mcp readme mcp инструкция установке readme mcp инструкция установке planned planned queryresult structure queryresult structure ещё",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 338,
+    "path": "docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md"
+  }
+}

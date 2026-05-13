@@ -1,11 +1,20 @@
 # 1. Открытие Cowork и почему это меняет всё
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. Открытие Cowork и почему это меняет всё](#1-открытие-cowork-и-почему-это-меняет-всё)
@@ -147,11 +156,30 @@ Cowork не имеет.
 
 ---
 
-**Смотрите также:**
-- [327-1-открытие-cowork-и-почему-это-меняет-всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md)
-- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md)
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Открытие Cowork и почему это меняет"
+```
+
+## Смотрите также
+- [327-1-открытие-cowork-и-почему-это-меняет-всё](../../02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md)
+- [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+- [06-konkretnyy-sluchay](../infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -159,7 +187,7 @@ Cowork не имеет.
 ---
 
 **Похожие документы:**
-- [327-1-открытие-cowork-и-почему-это-меняет-всё](docs/obsidian/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.88)
-- [327-1-открытие-cowork-и-почему-это-меняет-всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.85)
-- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md) (сходство 0.15)
+- [01-otkrytie-cowork](../../obsidian/nautilus/ingit-cowork-ru/01-otkrytie-cowork.md) (сходство 0.98)
+- [327-1-открытие-cowork-и-почему-это-меняет-всё](../../02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.82)
+- [327-1-открытие-cowork-и-почему-это-меняет-всё](../../obsidian/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.81)
 

@@ -1,6 +1,17 @@
 # Шаблоны документов
 
-_Создано: 2026-04-29_
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
+_Создано: 2026-05-13_
 
 Готовые заготовки для создания новых документов в репозитории.
 
@@ -22,10 +33,21 @@ cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.
 # Затем откройте и заполните поля в [квадратных скобках]
 ```
 
-<!-- see-also -->
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Шаблоны документов». Формируется автоматически.
+
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
-- [research-summary](docs/obsidian/autofilled/research-summary.md)
+**Кто ссылается на этот документ (24):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [agent-spec](agent-spec.md)
+- [contradiction-record](contradiction-record.md)
+- _...ещё 16_
 

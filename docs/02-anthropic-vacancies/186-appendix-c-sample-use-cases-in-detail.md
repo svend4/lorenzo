@@ -258,7 +258,7 @@ Thank you for the collaboration.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.16)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.14)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.14)
@@ -268,7 +268,19 @@ Thank you for the collaboration.
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix C Sample Use Cases in Detail"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Appendix C Sample Use Cases in Detail" --mode bm25
+```
+
+## Смотрите также
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
@@ -311,3 +323,19 @@ Thank you for the collaboration.
 - [10. Open Questions](179-10-open-questions.md) _21%_
 - [12. Closing](223-12-closing.md) _21%_
 - [References](225-references.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [223-12-closing](223-12-closing.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- _...ещё 2_
+

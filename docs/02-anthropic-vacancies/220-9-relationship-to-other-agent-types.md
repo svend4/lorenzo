@@ -1,5 +1,10 @@
 # 9. Relationship to Other Agent Types
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Professional Colleague Agents do not stand alone. They
 
 ---
@@ -141,7 +150,7 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.18)
 - [210-abstract](210-abstract.md) (сходство 0.17)
 - [223-12-closing](223-12-closing.md) (сходство 0.17)
@@ -151,7 +160,13 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Relationship to Other Agent Types"
+```
+
+## Смотрите также
 - [210-abstract](210-abstract.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
 - [223-12-closing](223-12-closing.md)
@@ -198,3 +213,19 @@ confusion. Distinguishing them enables clear architecture.
 - [12. Closing](223-12-closing.md) _33%_
 - [Appendix A: Comparative Table — Five Agent Types](226-appendix-a-comparative-table-five-agent-types.md) _29%_
 - [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [210-abstract](210-abstract.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [223-12-closing](223-12-closing.md)
+- [227-appendix-b-decision-framework-when-to-build-type-1](227-appendix-b-decision-framework-when-to-build-type-1.md)
+- _...ещё 4_
+

@@ -4,18 +4,34 @@
 
 ## Содержание
 
-- [research-summary.md](research-summary.md) — <!-- summary -->
+- [research-summary.md](research-summary.md) — <!-- toc-auto -->
 
 ## Подразделы
 
 - [components/](components/) — components
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [.md](components/.md)
+- [cowork](components/cowork.md)
+- [ingit](components/ingit.md)
+- [kksudo](components/kksudo.md)
+- _...ещё 7_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/obsidian/autofilled/README.md) (сходство 1.00)
-- [README](docs/glossary/README.md) (сходство 0.36)
-- [README](docs/technology-combinations/research-reports/README.md) (сходство 0.33)
+- [README](../obsidian/autofilled/README.md) (сходство 0.68)
+- [README](components/README.md) (сходство 0.62)
+- [README](../obsidian/autofilled/components/README.md) (сходство 0.52)
 

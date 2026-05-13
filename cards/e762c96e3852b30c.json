@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:e762c96e3852b30c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/MISSING.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/CONSISTENCY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/GLOSSARY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/GRAPH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TAGS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c6e966a975537dde",
+  "payload": {
+    "title": "Карта пробелов знаний",
+    "summary": "Анализ покрытия ключевых тем и проектов в docs/.",
+    "body": "карта пробелов знаний анализ покрытия ключевых тем проектов docs статус тема проект файлов слов минимум примеры файлов svyazi word freq schedule local first language stats footnotes self improvement passive voice reading list yodoca word freq schedule cardindex word freq schedule agentfs word freq schedule knowledge space language stats footnotes ngt memory glossary consistency mclaude language stats empty sections rufler language stats footnotes liteparse language stats broken links sentinel schedule footnotes factory empty sections glossary autoresearch passive voice language stats crdt language stats footnotes evidence envelope empty sections consistency sozialrecht language stats empty sections card envelope consistency prototype spec memory write policy questions prototype spec review record empty sections prototype spec privacy design tables missing бюджетный роутинг risk register tables skill policy tables summaries лицензия bsl risk register tables voice ingestion tables missing итог хорошо раскрыто слабо раскрыто отсутствует рекомендации темы статусом или нужно дополнить отдельными документами",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "SENTINEL",
+      "AutoResearch"
+    ],
+    "wc": 434,
+    "path": "docs/MISSING.md"
+  }
+}

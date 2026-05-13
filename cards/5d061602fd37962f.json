@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:5d061602fd37962f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/16-history.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:288efe851cec5301",
+  "payload": {
+    "title": "History",
+    "summary": "Когда создан, ключевые версии, направление развития.",
+    "body": "history когда создан ключевые версии направление развития history когда создан ключевые версии направление развития passport may содержать дополнительные разделы passport should быть длиннее страниц multilingual support passports may быть любом языке для международной видимости recommended иметь минимум две секции primary language автора english рекомендуется формат параллельными разделами отдельные файлы passport passport чтобы избежать рассинхрона упоминается readme вакансии anthropic анализ кластерам упоминается readme вакансии anthropic анализ кластерам смотрите также доступ данным appendix история изменений методологии кому служишь слоистая модель author contact связанные документы кому служишь слоистая модель кому служишь слоистая модель приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit доступ данным доступ данным appendix шаблон для header warning appendix шаблон для header warning appendix история изменений методологии appendix история изменений методологии твоя миссия твоя миссия",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 171,
+    "path": "docs/obsidian/02-anthropic-vacancies/16-history.md"
+  }
+}

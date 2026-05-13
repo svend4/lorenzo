@@ -3,16 +3,31 @@ title: "PORTAL-PROTOCOL.md v1.1"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # PORTAL-PROTOCOL.md v1.1
+
+<!-- toc-auto -->
+## Contents
+
+- [PORTAL-PROTOCOL.md v1.1](#portal-protocolmd-v11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > **Status:** Draft — пересмотрен под текущую реализацию v1.1
 
 ---
 <!-- tags: collaboration -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 
 
 
@@ -36,7 +51,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[03-portal-protocol-md]] (сходство 0.47)
 - [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.29)
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr]] (сходство 0.29)
@@ -46,7 +61,13 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md v1 1"
+```
+
+## Смотрите также
 - [[03-portal-protocol-md]]
 - [[152-ai-coordinated-infrastructure-for-distributed-expe]]
 - [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
@@ -91,3 +112,19 @@ markdown
 - [[05-0-status-of-this-document|0. Status of This Document]] _21%_
 - [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _21%_
 - [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [[03-portal-protocol-md]]
+- [[05-0-status-of-this-document]]
+- [[105-review-methodology-md]]
+- [[125-readme-mcp-md-инструкция-по-установке]]
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+- [[164-10-appendices]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- _...ещё 5_
+

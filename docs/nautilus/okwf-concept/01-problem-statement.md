@@ -1,11 +1,20 @@
 # 1. Problem Statement
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. Problem Statement](#1-problem-statement)
@@ -118,11 +127,32 @@ coordinated action now.
 
 ---
 
-**Смотрите также:**
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [02-target-populations](docs/nautilus/okwf-concept/02-target-populations.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Problem Statement"
+```
+
+## Смотрите также
+- [155-1-problem-statement](../../02-anthropic-vacancies/155-1-problem-statement.md)
+- [02-target-populations](02-target-populations.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [153-executive-summary](../../02-anthropic-vacancies/153-executive-summary.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [02-target-populations](02-target-populations.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -130,7 +160,7 @@ coordinated action now.
 ---
 
 **Похожие документы:**
-- [155-1-problem-statement](docs/obsidian/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.89)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.85)
-- [00-abstract](docs/nautilus/okwf-concept/00-abstract.md) (сходство 0.21)
+- [01-problem-statement](../../obsidian/nautilus/okwf-concept/01-problem-statement.md) (сходство 0.99)
+- [155-1-problem-statement](../../02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.86)
+- [155-1-problem-statement](../../obsidian/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.86)
 

@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:ef5707eaf38fc781",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/PRIORITIES.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/LANGUAGE_STATS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READABILITY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SITEMAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/VERSION_DIFF.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c6dbdb8c5d00e05f",
+  "payload": {
+    "title": "Приоритеты файлов",
+    "summary": "Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).",
+    "body": "приоритеты файлов tip этот документ описывает mvp подход начните него для быстрого прототипа ранжирование важности idf ключевым терминам архитектуры всего файлов топ самых важных файлов файл score слов ключевые термины docs tables svyazi agent memory rag mit docs obsidian tables agent svyazi memory rag mit docs obsidian paragraph quality agent svyazi memory security mit docs obsidian outline agent svyazi memory rag security docs obsidian questions agent rag svyazi memory mit docs heading audit agent svyazi security mit rag docs outline agent svyazi mvp memory security docs sitemap agent svyazi memory rag security docs summaries svyazi agent rag memory agentfs docs paragraph quality agent svyazi memory security mit docs collaborations intro svyazi rag memory agent локальн docs glossary components name svyazi agent memory rag yodoca docs concepts agent svyazi mit memory rag docs anthropic vacancies приложение образец спецификаций инструментов ing agent memory mit rag ngt memory docs obsidian anthropic vacancies приложение образец спецификаций инструментов ing agent memory mit rag ngt memory docs collaborations ограничения лицензии что пока лучше склеивать svyazi memory evidence agent rag docs obsidian collaborations intro rag agent локальн memory svyazi docs obsidian collaborations ограничения лицензии что пока лучше склеивать memory evidence svyazi agent rag docs anthropic vacancies технический stack svyazi foundation agent svyazi memory mit evidence docs obsidian reading time agent svyazi memory security rag docs obsidian anthropic vacancies технический stack svyazi foundation agent memory svyazi mit evidence docs anthropic vacancies развёрнутый анализ внуковой комбинации agent mit svyazi rag mclaude docs empty sections agent rag security mit knowledge space docs obsidian anthropic vacancies развёрнутый анализ внуковой комбинации agent mit rag svyazi mclaude docs similar passages svyazi mvp архитектурный зазор agent agentfs docs obsidian concepts agent mit svyazi memory rag docs obsidian sitemap agent svyazi memory rag local first docs decisions svyazi agent agentfs memory rag docs action items agent mit svyazi memory agentfs docs obsidian action items agent mit svyazi rag agentfs docs glossary authors name svyazi memory agent rag security docs obsidian decisions svyazi agent agentfs rag mit docs broken links svyazi mvp security knowledge space yodoca docs svyazi architectural gaps svyazi agent memory agentfs evidence docs mindmap rag memory cardindex knowledge space agent docs prototype spec agent memory yodoca agentfs svyazi docs obsidian named entities svyazi mvp rag security cardindex docs named entities svyazi mvp rag security agent docs collaborations архитектурные зазоры которые важнее новых инструме svyazi memory agent agentfs evidence docs habr projects memory memnet локальн svyazi rag memory yodoca docs version diff agent svyazi memory rag cardindex docs narrative mvp svyazi memory agent roadmap docs collaborations интеграционный контракт который стоит зафиксироват svyazi memory rag agent agentfs docs collaborations приоритетные ансамбли svyazi agent rag agentfs rufler docs collaborations план прототипа возможные контакты svyazi agent memory cardindex agentfs docs svyazi mvp planning svyazi agent memory cardindex agentfs docs obsidian mindmap rag memory cardindex agent agentfs docs obsidian svyazi architectural gaps agent memory svyazi agentfs evidence docs svyazi integration contracts svyazi memory rag agent agentfs docs processing guide processing guide agent memory rag agentfs yodoca топ каждому разделу initial analysis файл score docs anthropic vacancies profile mapping initial analysis primary fde docs anthropic vacancies profile mapping initial analysis practical ranking docs anthropic vacancies profile mapping initial analysis tertiary research engineer agents docs anthropic vacancies profile mapping initial analysis secondary beneficial deployments docs anthropic vacancies profile mapping initial analysis quaternary developer education svyazi файл score docs svyazi architectural gaps docs svyazi mvp planning docs obsidian svyazi architectural gaps docs svyazi integration contracts docs svyazi ensembles overview anthropic vacancies файл score docs anthropic vacancies приложение образец спецификаций инструментов ing docs obsidian anthropic vacancies приложение образец спецификаций инструментов ing docs anthropic vacancies технический stack svyazi foundation docs obsidian anthropic vacancies технический stack svyazi foundation docs anthropic vacancies развёрнутый анализ внуковой комбинации reanalysis файл score docs anthropic vacancies profile mapping reanalysis non anthropic paths docs anthropic vacancies profile mapping reanalysis reality check distribution gap docs anthropic vacancies profile mapping reanalysis revised anthropic mapping docs anthropic vacancies profile mapping reanalysis three overlapping identities docs anthropic vacancies profile mapping reanalysis fde downgraded integral final файл score docs anthropic vacancies profile mapping integral final final ranking docs anthropic vacancies profile mapping integral final three archetypes docs anthropic vacancies profile mapping integral final stronger paths outside anthropic docs anthropic vacancies profile mapping integral final platform not position docs anthropic vacancies profile mapping integral final partial fit honesty technology combinations файл score docs technology combinations local first docs technology combinations benchmarks docs obsidian technology combinations benchmarks docs obsidian technology combinations local first docs technology combinations knowledge graphs collaborations файл score docs collaborations intro docs collaborations ограничения лицензии что пока лучше склеивать docs obsidian collaborations intro docs obsidian collaborations ограничения лицензии что пока лучше склеивать docs collaborations архитектурные зазоры которые важнее новых инструме habr projects файл score docs habr projects synthesis docs obsidian habr projects synthesis docs",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 3158,
+    "path": "docs/PRIORITIES.md"
+  }
+}

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/autofilled/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. autofilled
@@ -19,8 +19,24 @@ h2. Подразделы
 
 ----
 
+_Кто ссылается на этот документ (15):_
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [.md|components/.md]
+* [cowork|components/cowork.md]
+* [ingit|components/ingit.md]
+* [kksudo|components/kksudo.md]
+* _...ещё 7_
+
+
+
+
+----
+
 _Похожие документы:_
-* [README|docs/obsidian/autofilled/README.md] (сходство 1.00)
-* [README|docs/glossary/README.md] (сходство 0.36)
-* [README|docs/technology-combinations/research-reports/README.md] (сходство 0.33)
+* [README|../obsidian/autofilled/README.md] (сходство 0.68)
+* [README|components/README.md] (сходство 0.62)
+* [README|../obsidian/autofilled/components/README.md] (сходство 0.52)
 

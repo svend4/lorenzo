@@ -1,11 +1,28 @@
 # Узкие вопросы для каждого автора
 
+<!-- toc-auto -->
+## Contents
+
+- [Адресные вопросы](#адресные-вопросы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`, раздел «Контактная стратегия и узкие вопросы для авторов».
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Yodoca
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +45,30 @@
 
 ---
 
-**Смотрите также:**
-- [13-contacts](docs/01-svyazi/13-contacts.md)
-- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
-- [CONTACTS](docs/CONTACTS.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Узкие вопросы для каждого автора"
+```
+
+## Смотрите также
+- [13-contacts](../../01-svyazi/13-contacts.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](../../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [CONTACTS](../../CONTACTS.md)
+- [first-contacts](first-contacts.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -40,7 +76,7 @@
 ---
 
 **Похожие документы:**
-- [13-contacts](docs/obsidian/01-svyazi/13-contacts.md) (сходство 0.43)
-- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) (сходство 0.43)
-- [13-contacts](docs/01-svyazi/13-contacts.md) (сходство 0.41)
+- [narrow-questions](../../obsidian/svyazi-2-0/outreach/narrow-questions.md) (сходство 0.99)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](../../obsidian/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) (сходство 0.43)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](../../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) (сходство 0.43)
 

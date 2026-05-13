@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:32853f657de0ea39",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/9-ambient-team-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/6-continuous-eval-loop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/3-forensic-rag.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:8458c7ba5c2ba733",
+  "payload": {
+    "title": "Ансамбль 7 — Domain Agent App Factory",
+    "summary": "7. Domain Agent App Factory: «из одного фитнес-тренера — фабрика вертикальных ассистентов»",
+    "body": "ансамбль domain agent app factory источник mhtml снимок поиск коллабораций проектов корень репозитория смотрите также agentic knowledge agentic knowledge ambient team agent ambient team agent continuous eval loop continuous eval loop forensic rag forensic rag",
+    "tags": [
+      "rag",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 294,
+    "path": "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md"
+  }
+}

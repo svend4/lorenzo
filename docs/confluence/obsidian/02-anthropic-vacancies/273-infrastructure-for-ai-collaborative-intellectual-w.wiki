@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,15 +8,30 @@ title: "INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
 
 
+h2. Contents
+
+* [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md|#infrastructure-for-ai-collaborative-intellectual-workmd]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}- [[151-open-knowledge-work-foundation-md]] (сходство 0.25){quote}
 
 ----
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -31,7 +46,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[151-open-knowledge-work-foundation-md]] (сходство 0.25)
 - [[249-composite-skills-agent-md]] (сходство 0.12)
 - [[208-professional-colleague-agents-md]] (сходство 0.12)
@@ -82,9 +97,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+{code}
+h1. Поиск по теме документа
+python scripts/improve_semantic_search.py --query "INFRASTRUCTURE FOR AI COLLABORATIVE"
+{code}
+
+## Смотрите также
 - [[151-open-knowledge-work-foundation-md]]
 - [[304-ingit-as-cowork-native-workspace-substrate-md]]
 - [[249-composite-skills-agent-md]]
 - [[208-professional-colleague-agents-md]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [[134-the-double-triangle-architecture-md]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[153-executive-summary]]
+- [[155-1-problem-statement]]
+- [[208-professional-colleague-agents-md]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[249-composite-skills-agent-md]]
+- [[257-4-the-sub-agent-registry]]
+- _...ещё 6_
 

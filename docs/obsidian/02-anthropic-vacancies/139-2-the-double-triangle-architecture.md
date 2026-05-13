@@ -3,7 +3,7 @@ title: "2. The Double-Triangle Architecture"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 2. The Double-Triangle Architecture
@@ -166,7 +166,7 @@ large organizations (Star(n)) without protocol changes.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[148-appendix-a-glossary]] (сходство 0.19)
 - [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.17)
 - [[140-3-three-inter-layer-protocols]] (сходство 0.17)
@@ -176,9 +176,28 @@ large organizations (Star(n)) without protocol changes.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[148-appendix-a-glossary]]
 - [[140-3-three-inter-layer-protocols]]
 - [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [[142-5-pattern-library-as-bridge-between-triangles]]
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[136-abstract]]
+- [[140-3-three-inter-layer-protocols]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[143-6-four-deployment-domains]]
+- [[144-7-open-questions]]
+- [[148-appendix-a-glossary]]
+- [[README]]
+
+# Bridges
+
+## Bridges
+Как концепты Repo соотносятся с концепциями других Repos в экосистеме.

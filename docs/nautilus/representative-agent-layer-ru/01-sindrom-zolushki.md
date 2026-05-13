@@ -1,11 +1,20 @@
 # 1. Синдром Золушки: Почему качество остаётся невидимым
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. Синдром Золушки: Почему качество остаётся невидимым](#1-синдром-золушки-почему-качество-остаётся-невидимым)
@@ -76,11 +85,30 @@
 
 ---
 
-**Смотрите также:**
-- [191-1-синдром-золушки-почему-качество-остаётся-невидим](docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
-- [02-istoricheskie-pretsedenty](docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md)
-- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
-- [00-question-voiceless](docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Синдром Золушки Почему качество"
+```
+
+## Смотрите также
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
+- [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [00-question-voiceless](../community-discussions/voiceless-contributors/00-question-voiceless.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -88,6 +116,7 @@
 ---
 
 **Похожие документы:**
-- [191-1-синдром-золушки-почему-качество-остаётся-невидим](docs/obsidian/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) (сходство 0.91)
-- [191-1-синдром-золушки-почему-качество-остаётся-невидим](docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) (сходство 0.88)
+- [01-sindrom-zolushki](../../obsidian/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md) (сходство 0.98)
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) (сходство 0.86)
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../obsidian/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) (сходство 0.86)
 

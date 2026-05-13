@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:5b72ceb76dfb311f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/continuation/05-roadmap-6-12-months.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/prototype/roadmap.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/10-architecture-rfc.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/12-roadmap.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:70b411ecc54a6f8d",
+  "payload": {
+    "title": "Roadmap на 6–12 месяцев",
+    "summary": "Ниже дорожная карта уже не “по инструментам”, а по системным способностям. Она предполагает, что базовый MVP из CardIndex + evidence + memory уже начат.",
+    "body": "roadmap месяцев tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок поиск коллабораций проектов корень репозитория проекты cardindex mclaude factory смотрите также roadmap svyazi prototype roadmap architecture rfc architecture rfc дорожная карта прототипа следующей итерации collaborations дорожная карта прототипа следующей итерации roadmap svyazi roadmap",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "mclaude",
+      "AI Factory"
+    ],
+    "wc": 360,
+    "path": "docs/ai-collaborations/continuation/05-roadmap-6-12-months.md"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:5c27715b9d1bd2ca",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/13-communications.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/12-technical-program-management.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/09-product-management-support-ops.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/16-people.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:cd4d2eeb5311339f",
+  "payload": {
+    "title": "Software Engineering - Infrastructure — 22 роли",
+    "summary": "Inference (самая частая роль — 8+ позиций разного уровня в SF/London/Dublin/Seattle), Cloud Inference AWS, Sandboxing, AI Reliability, Data Infrastructure, Databases, Observability, Voice Platform, Datacenter Server Lifecycle, Developer Productivity. Фактически — команда, которая обслуживает то, на ",
+    "body": "software engineering infrastructure роли источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также communications communications technical program management technical program management product management support ops product management support ops people people",
+    "tags": [
+      "local-first",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 108,
+    "path": "docs/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md"
+  }
+}

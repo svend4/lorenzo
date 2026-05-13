@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:04ec3c8013719ce1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/05-habr-projects/01-synthesis.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:279004a8f473f067",
+  "payload": {
+    "title": "Синтез: как проекты собираются вместе",
+    "summary": "title: \"Синтез: как проекты собираются вместе\"",
+    "body": "синтез как проекты собираются вместе статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено синтезировал архитектурные находки для расширенной системы памяти синтезировал архитектурные находки для расширенной системы памяти синтезировал архитектурные находки для расширенной системы памяти откопал ещё несколько крупных находок теперь складывается уже три почти десять параллельных проектов среди них есть один поразительно точный нейроархитектурный аналог хеббовского механизма чуяна главная находка этой итерации похожие документы readme сходство смотрите также yodoca collaboration partners portal mcp wikontic упоминается ngt ngt memory ассоциативный граф memory ngt memory wikontic wikontic семантический граф yodoca yodoca консолидация забывание memory yodoca collaboration partners авторы контакты readme уникальные проекты хабра упоминается readme уникальные проекты хабра связанные документы ngt ngt memory ассоциативный граф memory ngt memory wikontic wikontic семантический граф readme уникальные проекты хабра yodoca yodoca консолидация забывание memory yodoca collaboration partners авторы контакты readme системы памяти связанные документы readme уникальные проекты хабра ngt ngt memory ассоциативный граф docs habr projects memory ngt memory wikontic wikontic семантический граф readme системы памяти readme системы знаний yodoca yodoca консолидация забывание docs habr projects memory yodoca",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 262,
+    "path": "docs/obsidian/05-habr-projects/01-synthesis.md"
+  }
+}

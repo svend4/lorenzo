@@ -1,5 +1,10 @@
 # Source projects — все Хабр-источники в диалоге
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Полный список Хабр-статей и репозиториев, упомянутых в диалоге `Поиск коллабораций AI проектов`. Сгруппировано тематически. Ссылки даны как есть; перейти можно вручную (заметка: Claude в этом диалоге 
 **Проекты:** Svyazi, Hybrid RAG, Yodoca, NGT Memory, MemNet, LiteLLM, Auto AI Router, AutoResearch
@@ -7,6 +12,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [Прямые аналоги Svyazi](#прямые-аналоги-svyazi)
@@ -135,11 +144,33 @@
 
 ---
 
-**Смотрите также:**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
-- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Source projects все Хабр источники в"
+```
+
+## Смотрите также
+- [authors-by-name](../glossary/authors-by-name.md)
+- [components-by-name](../glossary/components-by-name.md)
+- [5-voice-local-memory](../habr-unique-projects/deep-pairs/5-voice-local-memory.md)
+- [4-summary-authors](../habr-unique-projects/final-ensembles/4-summary-authors.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [authors-by-name](../glossary/authors-by-name.md)
+- [components-by-name](../glossary/components-by-name.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -147,7 +178,7 @@
 ---
 
 **Похожие документы:**
-- [authors-by-name](docs/glossary/authors-by-name.md) (сходство 0.22)
-- [components-by-name](docs/glossary/components-by-name.md) (сходство 0.19)
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.14)
+- [source-projects](../obsidian/ai-collaborations/source-projects.md) (сходство 0.97)
+- [authors-by-name](../glossary/authors-by-name.md) (сходство 0.27)
+- [authors-by-name](../obsidian/glossary/authors-by-name.md) (сходство 0.26)
 

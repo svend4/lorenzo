@@ -1,10 +1,26 @@
 # Сводная таблица 31–35 (Complete 1–35)
 
+<!-- toc-auto -->
+## Contents
+
+- [Рекомендация](#рекомендация)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑35)».
 
 ---
 <!-- tags: rag, local-first, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -58,11 +74,28 @@ def get_state_at(case_id, target_date):
 
 ---
 
-**Смотрите также:**
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+## Смотрите также
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
+- [20-24-final](20-24-final.md)
+- [25-30-extended](25-30-extended.md)
+
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [31-event-sourced-legal-document-history](../combinations/31-event-sourced-legal-document-history.md)
+- [32-consensus-based-multi-agent-coordination](../combinations/32-consensus-based-multi-agent-coordination.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](../combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+- _...ещё 6_
 
 
 <!-- similar-docs -->
@@ -70,7 +103,7 @@ def get_state_at(case_id, target_date):
 ---
 
 **Похожие документы:**
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.49)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.40)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.34)
+- [31-35-final](../../obsidian/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.97)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.49)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../../obsidian/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.48)
 

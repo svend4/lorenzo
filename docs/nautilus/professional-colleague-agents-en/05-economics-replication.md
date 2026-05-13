@@ -1,11 +1,20 @@
 # 5. The Economics of Profession-Wide Replication
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [5. The Economics of Profession-Wide Replication](#5-the-economics-of-profession-wide-replication)
@@ -150,11 +159,30 @@ economically viable for moderately sized professions.
 
 ---
 
-**Смотрите также:**
-- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 The Economics of Profession Wide"
+```
+
+## Смотрите также
+- [216-5-the-economics-of-profession-wide-replication](../../02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
+- [260-7-economics-of-combinatorial-replication](../../02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
+- [08-pilot-sgb-advocate](08-pilot-sgb-advocate.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -162,7 +190,7 @@ economically viable for moderately sized professions.
 ---
 
 **Похожие документы:**
-- [216-5-the-economics-of-profession-wide-replication](docs/obsidian/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) (сходство 0.86)
-- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) (сходство 0.83)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md) (сходство 0.24)
+- [05-economics-replication](../../obsidian/nautilus/professional-colleague-agents-en/05-economics-replication.md) (сходство 0.98)
+- [216-5-the-economics-of-profession-wide-replication](../../02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) (сходство 0.84)
+- [216-5-the-economics-of-profession-wide-replication](../../obsidian/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) (сходство 0.83)
 

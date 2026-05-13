@@ -1,11 +1,28 @@
 # Комбинация 1: Правильная агентская архитектура × Svyazi-паттерн
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex
 
 ---
 <!-- tags: knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -50,11 +67,28 @@ Cross-domain запросы через event bus
 
 ---
 
-**Смотрите также:**
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
-- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
-- [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
-- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 1 Правильная агентская"
+```
+
+## Смотрите также
+- [01-agent-routing](../../03-technology-combinations/01-agent-routing.md)
+- 04-parsing-s-llm-graph-[rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- 03-crdt-local-first-[svyazi-cardindex](03-crdt-local-first-svyazi-cardindex.md)
+- 07-crawl4ai-docling-[yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
 
 
 <!-- similar-docs -->
@@ -62,7 +96,7 @@ Cross-domain запросы через event bus
 ---
 
 **Похожие документы:**
-- [01-agent-routing](docs/obsidian/03-technology-combinations/01-agent-routing.md) (сходство 0.52)
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md) (сходство 0.51)
-- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) (сходство 0.24)
+- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](../../obsidian/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md) (сходство 0.97)
+- [01-agent-routing](../../03-technology-combinations/01-agent-routing.md) (сходство 0.54)
+- [01-agent-routing](../../obsidian/03-technology-combinations/01-agent-routing.md) (сходство 0.53)
 

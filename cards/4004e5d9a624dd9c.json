@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:4004e5d9a624dd9c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/264-11-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:66515beed24786a6",
+  "payload": {
+    "title": "5. Configuration: How Principals Build Their Ensembles",
+    "summary": "A central question for Composite Skills Agents: how does a",
+    "body": "configuration how principals build their ensembles абстракт авто проблема the configuration problem principal entering ecosystem with hundreds available sub agents faces configuration problem подход three configuration approaches identify three approaches with different strengths and trade offs результат new social law lawyer might benefit from starting template general sgb sub agent general sgb xii sub agent procedural law sub agent bsg case law sub agent general ключевые слова configuration principal their agent composite agents starting specializations central question for composite skills agents how does configuration how principals build their ensembles central question for composite skills agents how does principal arrive their specific configuration the configuration problem principal entering ecosystem with hundreds available sub agents faces configuration problem they not yet know which specializations are most relevant their work which combinations work well together which sub agents are highest quality how their configuration should evolve over time this similar how new yoga student facing hundreds possible teachers doesn know which twenty pursue the configuration emerges from process not single decision three configuration approaches identify three approaches with different strengths and trade offs approach self directed the principal browses the registry selects sub agents based their self assessment and configures their composite agent strengths full agency principal develops deep knowledge the registry external influence selection weaknesses requires substantial self knowledge new practitioners often don know what they need may miss valuable specializations they hadn considered approach assisted recommendation the composite agent separate recommendation system analyzes the principal stated goals work history and preferences then suggests initial configuration principal modifies needed strengths lower barrier entry surfaces specializations the principal might not have considered faster initial setup weaknesses risk recommendation bias algorithmic suggestions may converge toward popular configurations reducing diversity principal may accept recommendations passively without learning the registry approach mentor guided experienced practitioner ideally one who has developed their own composite practice helps the principal think through their configuration strengths deep human judgment about what configurations work mentor knows what the principal stated goals actually require builds relationship beyond the technology weaknesses requires access mentor mentor perspective may bias selection doesn scale automatically hybrid configuration practice the best configuration process combines all three approaches initial recommendation based principal stated profile generates starting configuration self directed exploration lets principal browse adjust add specializations they recognize relevant mentor review optional provides experienced human perspective especially for principals new their field this three step process echoes how human professional development actually works training programs provide initial frameworks self directed learning fills gaps and mentors provide deep guidance configuration evolution principal configuration not static specializations change over time new specializations enter their work careers evolve old specializations become less relevant priorities shift new sub agents become available the registry old sub agents may deprecated the composite agent should help the principal monitor configuration health which sub agents are most used which are rarely consulted are there new sub agents that match the principal recent work patterns periodic configuration review perhaps annually keeps the composite agent aligned with the principal evolving practice templates and starting points for many professions common configurations exist new social law lawyer might benefit from starting template general sgb sub agent general sgb xii sub agent procedural law sub agent bsg case law sub agent general drafting sub agent this template provides reasonable starting configuration the practitioner then specializes adding sub agents specific their developing practice disability rights specifically social welfare for elderly clients working with mental health conditions templates are starting points not endpoints every practitioner modifies their configuration over time похожие документы economics combinatorial replication economics combinatorial replication сходство what makes composite skills agent what makes composite skills agent сходство open questions open questions сходство смотрите также economics combinatorial replication economics combinatorial replication what makes composite skills agent what makes composite skills agent coordination and disagreement resolution coordination and disagreement resolution open questions open questions упоминается risks specific composite architectures risks specific composite architectures open questions open questions what makes composite skills agent what makes composite skills agent coordination and disagreement resolution coordination and disagreement resolution ethical framework ethical framework economics combinatorial replication economics combinatorial replication seven domains application seven domains application appendix configuration template example appendix configuration template example вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы what makes composite skills agent what makes composite skills agent coordination and disagreement resolution coordination and disagreement resolution risks specific composite architectures risks specific composite architectures open questions open questions open questions open questions open knowledge work foundation open knowledge work foundation what makes representative agent what makes representative agent ethical framework ethical framework связанные документы what makes composite skills agent what makes composite skills agent coordination and disagreement resolution coordination and disagreement resolution risks specific composite architectures risks specific composite architectures open questions open questions open knowledge work foundation",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 981,
+    "path": "docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md"
+  }
+}

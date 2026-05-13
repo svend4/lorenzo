@@ -1,5 +1,18 @@
 # Расписание проекта
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: schedule, docs -->
+
+
+<!-- summary -->
+> `SCHEDULE` — раздел документации проекта Lorenzo.
+
+
 _Дорожная карта с вехами и задачами по кварталам._
 
 ## Ключевые вехи
@@ -52,3 +65,37 @@ _█ = активная работа, ░ = ожидание_
 - Вех выполнено: **3/10** (30%)
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [DENSITY](DENSITY.md)
+- [HEATMAP](HEATMAP.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SUMMARIES](SUMMARIES.md)
+- [GRAPH](GRAPH.md)
+- [MINDMAP](MINDMAP.md)
+- [COVERAGE](COVERAGE.md)
+

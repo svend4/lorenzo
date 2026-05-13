@@ -1,11 +1,20 @@
 # 5. Configuration: How Principals Build Their Ensembles
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [5. Configuration: How Principals Build Their Ensembles](#5-configuration-how-principals-build-their-ensembles)
@@ -144,11 +153,31 @@ modifies their configuration over time.
 
 ---
 
-**Смотрите также:**
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
-- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Configuration How Principals Build"
+```
+
+## Смотрите также
+- [258-5-configuration-how-principals-build-their-ensembl](../../02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+- [07-economics-combinatorial](07-economics-combinatorial.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- [11-open-questions](11-open-questions.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-coordination-disagreement](06-coordination-disagreement.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -156,7 +185,7 @@ modifies their configuration over time.
 ---
 
 **Похожие документы:**
-- [258-5-configuration-how-principals-build-their-ensembl](docs/obsidian/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.87)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.83)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md) (сходство 0.21)
+- [05-configuration-ensembles](../../obsidian/nautilus/composite-skills-agents/05-configuration-ensembles.md) (сходство 0.99)
+- [258-5-configuration-how-principals-build-their-ensembl](../../02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.84)
+- [258-5-configuration-how-principals-build-their-ensembl](../../obsidian/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.84)
 

@@ -1,10 +1,27 @@
 # Двухслойный стек, как он существует
 
+<!-- toc-auto -->
+## Contents
+
+- [Двухслойный стек, как он существует](#двухслойный-стек-как-он-существует)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -76,11 +93,32 @@ Codeberg. Превосходно подходит для хранения
 
 ---
 
-**Смотрите также:**
-- [291-двухслойный-стек-как-он-существует](docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md)
-- [03-otsutstvuet-sloy-b](docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Двухслойный стек как он существует"
+```
+
+## Смотрите также
+- [291-двухслойный-стек-как-он-существует](../../02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [05-priblizheniya](05-priblizheniya.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -88,7 +126,7 @@ Codeberg. Превосходно подходит для хранения
 ---
 
 **Похожие документы:**
-- [291-двухслойный-стек-как-он-существует](docs/obsidian/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) (сходство 0.80)
-- [291-двухслойный-стек-как-он-существует](docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) (сходство 0.72)
-- [03-otsutstvuet-sloy-b](docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md) (сходство 0.18)
+- [02-dvukhsloynyy-stek](../../obsidian/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md) (сходство 0.98)
+- [291-двухслойный-стек-как-он-существует](../../02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) (сходство 0.72)
+- [291-двухслойный-стек-как-он-существует](../../obsidian/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) (сходство 0.71)
 

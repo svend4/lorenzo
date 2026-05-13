@@ -1,5 +1,10 @@
 # 1. The Five-Type Typology of Principal-Side Agents
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Representative Agent Layer paper introduced one type of AI
 
 ---
@@ -43,7 +52,7 @@ We now identify five distinct types.
 
 ### 1.1. Type 0 — Personal AI Assistants
 
-**Examples**: ChatGPT, Claude, Cursor, [GitHub](../docs/01-svyazi/03-component-catalog.md) Copilot, Claude
+**Examples**: ChatGPT, Claude, Cursor, [GitHub](../01-svyazi/03-component-catalog.md) Copilot, Claude
 Code.
 
 **Function**: General-purpose helper with whatever task the
@@ -209,7 +218,7 @@ ethical, and economic framework.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.24)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.18)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.17)
@@ -219,7 +228,7 @@ ethical, and economic framework.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
@@ -268,3 +277,19 @@ ethical, and economic framework.
 - [Abstract](210-abstract.md) _29%_
 - [12. Closing](223-12-closing.md) _29%_
 - [Appendix B: Decision Framework — When to Build Type 1 First](227-appendix-b-decision-framework-when-to-build-type-1.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [210-abstract](210-abstract.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
+- _...ещё 6_
+

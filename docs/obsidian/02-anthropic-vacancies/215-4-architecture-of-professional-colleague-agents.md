@@ -4,10 +4,15 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 4. Architecture of Professional Colleague Agents
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -20,6 +25,10 @@ date: 2026-04-29
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > A Professional Colleague Agent has three distinct internal
 
 ---
@@ -190,7 +199,7 @@ workflow.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[257-4-the-sub-agent-registry]] (сходство 0.15)
 - [[217-6-risks-specific-to-this-category]] (сходство 0.15)
 - [[213-2-what-makes-a-professional-colleague-agent]] (сходство 0.14)
@@ -200,7 +209,13 @@ workflow.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Architecture of Professional"
+```
+
+## Смотрите также
 - [[257-4-the-sub-agent-registry]]
 - [[217-6-risks-specific-to-this-category]]
 - [[213-2-what-makes-a-professional-colleague-agent]]
@@ -244,3 +259,19 @@ workflow.
 - [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _25%_
 - [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _25%_
 - [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[151-open-knowledge-work-foundation-md]]
+- [[208-professional-colleague-agents-md]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[214-3-empirical-case-study-обучай]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[217-6-risks-specific-to-this-category]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- _...ещё 3_
+

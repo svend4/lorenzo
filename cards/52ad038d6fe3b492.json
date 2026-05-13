@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:52ad038d6fe3b492",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/yjs-automerge.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/self-aware-mcp.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:d9300cbdd49b7348",
+  "payload": {
+    "title": "Yjs + Automerge",
+    "summary": "Базовый local‑first / CRDT sync‑слой для оффлайн‑совместимости и мультидевайсной синхронизации.",
+    "body": "yjs automerge авторы kevin jahns automerge team проекты svyazi yjs automerge смотрите также rufler rufler memnet memnet self aware mcp self aware mcp knowledge space knowledge space кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
+    "tags": [
+      "ingestion",
+      "local-first",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "Rufler",
+      "MemNet"
+    ],
+    "wc": 125,
+    "path": "docs/svyazi-2-0/components/yjs-automerge.md"
+  }
+}

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/84-9-consensus-algorithm.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,19 +8,10 @@ title: "9. Consensus Algorithm"
 tags:
   * rag
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 9. Consensus Algorithm
-
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Consensus Algorithm(9-consensus-algorithm) - 9.1.{quote}
-{quote}✅ _Результат:_ Future Extensions (v2.0+)(95-future-extensions-v20) При query через portal, когда результаты возвращаются из нескольких --- 9.{quote}
-{quote}🏷️ _Ключевые слова:_ {{consensus}}, {{algorithm}}, {{fallback}}, {{query}}, {{anthropic}}, {{vacancies}}, {{через}}, {{portal}}{quote}
->
-
 
 
 h2. Contents
@@ -31,6 +22,23 @@ h2. Contents
   * [9.3. v1.1 Consensus Strategy: Real vs Fallback|#93-v11-consensus-strategy-real-vs-fallback]
   * [9.4. Algorithm|#94-algorithm]
   * [9.5. Future Extensions (v2.0+)|#95-future-extensions-v20]
+* [Похожие документы|#похожие-документы]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (3)|#кто-ссылается-на-этот-документ-3]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Consensus Algorithm(9-consensus-algorithm) - 9.1.{quote}
+{quote}✅ _Результат:_ Future Extensions (v2.0+)(95-future-extensions-v20) При query через portal, когда результаты возвращаются из нескольких --- 9.{quote}
+{quote}🏷️ _Ключевые слова:_ {{consensus}}, {{algorithm}}, {{fallback}}, {{query}}, {{anthropic}}, {{vacancies}}, {{через}}, {{portal}}{quote}
+>
 
 
 
@@ -143,7 +151,7 @@ v2.0 MAY использовать:
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[20-8-consensus-algorithm]] (сходство 0.34)
 * [[86-11-relevance-ranking]] (сходство 0.12)
 
@@ -152,9 +160,19 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[20-8-consensus-algorithm]]
 * [[86-11-relevance-ranking]]
 * [[85-10-query-flow]]
 * [[129-примеры-запросов-в-claude]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (3)
+* [[129-примеры-запросов-в-claude]]
+* [[21-9-query-flow]]
+* [[README]]
 

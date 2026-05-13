@@ -17,7 +17,7 @@
 
 <!-- summary -->
 > Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible.
-**Проекты:** Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md), mclaude, Rufler
+**Проекты:** Svyazi, [CardIndex](../01-svyazi/01-executive-summary.md), mclaude, Rufler
 
 ---
 
@@ -181,7 +181,7 @@ Fetched: Rufler: Делаем из Claude Code автономный рой че�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.16)
 - [366-технический-stack-svyazi-2-0-foundation](366-технический-stack-svyazi-2-0-foundation.md) (сходство 0.11)
 - [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md) (сходство 0.11)
@@ -191,7 +191,13 @@ Fetched: Rufler: Делаем из Claude Code автономный рой че�
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Final note Ты experiment"
+```
+
+## Смотрите также
 - [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
 - [366-технический-stack-svyazi-2-0-foundation](366-технический-stack-svyazi-2-0-foundation.md)
 - [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
@@ -222,3 +228,19 @@ Fetched: Rufler: Делаем из Claude Code автономный рой че�
 - [Существующий landscape collaborators (твоя working knowledge)](354-существующий-landscape-collaborators-твоя-working-.md) _17%_
 - [Твоя relationship с другими AI](358-твоя-relationship-с-другими-ai.md) _17%_
 - [Развёрнутый анализ «внуковой» комбинации](365-развёрнутый-анализ-внуковой-комбинации.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
+- [358-твоя-relationship-с-другими-ai](358-твоя-relationship-с-другими-ai.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
+- _...ещё 2_
+

@@ -1,5 +1,10 @@
 # Abstract
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -12,6 +17,10 @@
 ---
 
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 <!-- abstract-auto -->
@@ -75,7 +84,7 @@ in skilled work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.25)
 - [267-acknowledgments](267-acknowledgments.md) (сходство 0.24)
 - [266-13-closing](266-13-closing.md) (сходство 0.20)
@@ -85,7 +94,13 @@ in skilled work.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
 - [267-acknowledgments](267-acknowledgments.md)
 - [266-13-closing](266-13-closing.md)
@@ -132,3 +147,19 @@ in skilled work.
 - [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _29%_
 - [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md) _29%_
 - [Table of Contents](253-table-of-contents.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [168-abstract](168-abstract.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [210-abstract](210-abstract.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [223-12-closing](223-12-closing.md)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- _...ещё 10_
+

@@ -1,23 +1,14 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/templates/contact-outreach.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
-----
-template: contact-outreach
-version: "1.0"
-author: "[Имя]"
-author_handle: "[@handle]"
-projects: []
-platform: "[Habr|GitHub|Telegram]"
-status: not_started
-priority: 3
-created: 2026-04-29
-last_contact: null
-tags: [контакты, команда]
-----
-
 h1. Контакт: [Имя / Проект]
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{contact-outreach}} формируется автоматически из данных репозитория.{quote}
+
+
 
 
 
@@ -57,15 +48,17 @@ h2. Открытые вопросы для обсуждения
 2. [Вопрос 2]
 
 ----
-_Создано: 2026-04-29_
+_Создано: 2026-05-13_
 
 
 
 ----
 
-_Смотрите также:_
-* [vladspace|docs/obsidian/contacts/vladspace.md]
-* [cutcode|docs/obsidian/contacts/cutcode.md]
-* [dmitriila|docs/obsidian/contacts/dmitriila.md]
-* [mixaill76|docs/obsidian/contacts/mixaill76.md]
+_Кто ссылается на этот документ (6):_
+* [READABILITY|../READABILITY.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [research-summary|../autofilled/research-summary.md]
+* [README|README.md]
+* [meeting-notes|meeting-notes.md]
 

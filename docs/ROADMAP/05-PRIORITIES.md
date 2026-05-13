@@ -1,5 +1,17 @@
 # 05 — Приоритеты: что делать прямо сейчас
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+---
+
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 Финальный документ серии. Конкретный sprint-план для 3 разных стратегий.
 
 **Документ:** часть серии ROADMAP. См. также: [00-CURRENT-STATE](./00-CURRENT-STATE.md), [01-SIMPLE](./01-SIMPLE.md), [02-MEDIUM](./02-MEDIUM.md), [03-INNOVATIVE](./03-INNOVATIVE.md), [04-NOVEL](./04-NOVEL.md).
@@ -292,3 +304,27 @@ Self-RAG и Knowledge Graph дают reasoning differentiation без enormous r
 **Default рекомендация:** Hybrid (A → B → C) если ресурсы позволяют. Если только 3 месяца — Путь A. Если хочется research focus — Путь C с минимальной A в начале для baseline.
 
 Готов начать любой из них в следующем спринте.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [01-SIMPLE](01-SIMPLE.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [04-NOVEL](04-NOVEL.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-SIMPLE](01-SIMPLE.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [04-NOVEL](04-NOVEL.md)
+

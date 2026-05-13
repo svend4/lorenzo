@@ -4,6 +4,7 @@ improve_see_also.py — добавляет блок "See Also / Смотрите
 Создаёт docs/SEE_ALSO.md (индекс) и вставляет блоки в файлы.
 Запуск: python scripts/improve_see_also.py
 """
+import os
 import re
 from pathlib import Path
 from collections import defaultdict
@@ -69,20 +70,30 @@ def find_related(fname: str, tokens: dict[str, set],
     return scores[:n]
 
 
-def build_see_also_block(related: list[tuple[str, Path]]) -> str:
+def build_see_also_block(related: list[tuple[str, Path]], target: Path | None = None) -> str:
     lines = [f"\n{MARKER}\n", "---\n", "**Смотрите также:**"]
     for name, fpath in related:
         stem = Path(name).stem
-        try:
-            rel = fpath.relative_to(ROOT)
-        except ValueError:
-            rel = fpath
+        if target is not None:
+            rel = os.path.relpath(fpath, target.parent)
+        else:
+            try:
+                rel = fpath.relative_to(ROOT)
+            except ValueError:
+                rel = fpath
         lines.append(f"- [{stem}]({rel})")
     lines.append("")
     return "\n".join(lines) + "\n"
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Добавляет блоки 'See Also' в документы")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Показать что изменится, не записывать файлы")
+    args = parser.parse_args()
+    dry_run = args.dry_run
+
     print("Добавление 'See Also' блоков...")
 
     import sys
@@ -139,25 +150,46 @@ def main():
         text = fpath.read_text(encoding="utf-8")
         if MARKER in text:
             continue
-        block = build_see_also_block(related)
-        fpath.write_text(text + block, encoding="utf-8")
+        block = build_see_also_block(related, target=fpath)
+        if dry_run:
+            refs_short = ", ".join(Path(r).stem for r, _ in related[:3])
+            print(f"  [dry-run] {fpath.relative_to(ROOT)} → see-also: {refs_short}")
+        else:
+            fpath.write_text(text + block, encoding="utf-8")
         inserted += 1
 
     # SEE_ALSO.md — индекс
+    already = sum(1 for f in all_files.values() if MARKER in f.read_text(encoding="utf-8"))
     lines = [
         "# Индекс «Смотрите также»\n",
-        f"**Файлов с блоком See Also:** {inserted + sum(1 for f in all_files.values() if MARKER in f.read_text(encoding='utf-8'))}\n",
+        f"**Файлов с блоком See Also:** {inserted + already}\n",
         "## Ключевые связи\n",
     ]
+    see_also_path = DOCS / "SEE_ALSO.md"
     for fname, related in list(see_also_map.items())[:30]:
         stem = Path(fname).stem
-        refs = ", ".join(f"`{Path(r).stem}`" for r, _ in related)
-        lines.append(f"- **{stem}** → {refs}")
+        fpath_src = all_files.get(fname)
+        if fpath_src:
+            src_rel = os.path.relpath(fpath_src, DOCS)
+            stem_link = f"[{stem}]({src_rel})"
+        else:
+            stem_link = f"**{stem}**"
+        refs_parts = []
+        for r, rpath in related:
+            rstem = Path(r).stem
+            rrel = os.path.relpath(rpath, DOCS)
+            refs_parts.append(f"[{rstem}]({rrel})")
+        refs = ", ".join(refs_parts)
+        lines.append(f"- {stem_link} → {refs}")
 
-    out = DOCS / "SEE_ALSO.md"
-    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"  wrote: {out.relative_to(ROOT)}")
-    print(f"  вставлено блоков: {inserted}, файлов в карте: {len(see_also_map)}")
+    if dry_run:
+        print(f"\n[dry-run] файлов к обновлению: {inserted}, уже есть: {already}")
+        print("[dry-run] SEE_ALSO.md не записан. Уберите --dry-run чтобы применить.")
+    else:
+        out = DOCS / "SEE_ALSO.md"
+        out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        print(f"  wrote: {out.relative_to(ROOT)}")
+        print(f"  вставлено блоков: {inserted}, файлов в карте: {len(see_also_map)}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:ea7007b25ddc7c24",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/meta-scripting/04-enrichment.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/meta-scripting/03-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/meta-scripting/02-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/meta-scripting/05-synthesis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/07-llm.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:347205133c688497",
+  "payload": {
+    "title": "Метаскриптинг — Часть 4: Обогащение скриптов",
+    "summary": "Существующий скрипт (`improve_xyz.py`) уже работает. Обогащение — это:",
+    "body": "метаскриптинг часть обогащение скриптов как скрипт улучшает другой скрипт зная заранее что нём написано как скрипт улучшает другой скрипт зная заранее что нём написано что значит обогатить скрипт существующий скрипт improve xyz уже работает обогащение это после нет docstring docstring входами выходами нет типизации def func path path dict нет dry run args dry run print plan return нет примера запуска python scripts improve xyz dry run нет name main стандартный блок запуска разные стили кода унифицирован под проектный стиль пять уровней обогащения уровень docstring без llm если скрипта нет docstring сгенерировать его имени файла improve health дашборд здоровья глобальных констант output docs health создаёт docs health имён функций calc score write health сгенерированный docstring без llm improve health дашборд здоровья репозитория читает docs пишет docs health запуск python scripts improve health уровень типизация без llm ast находит функции без аннотаций типов паттернам добавляет было def count files docs path стало def count files docs path path dict уровень dry run флаг без llm если скрипт пишет файлы имеет dry run добавить шаблонный блок parser add argument dry run action store true help показать что изменится применять уровень умный docstring llm передаём исходный код claude haiku пишет осмысленный docstring пониманием что скрипт делает смыслу имени файла prompt вот python скрипт source code напиши docstring первые строк файла формат имя файла одна строка что делает читает что читает пишет что пишет запуск python scripts имя флаги уровень кросс обогащение llm передаём скрипту контекст других скриптов docs вот improve health вот improve metrics они оба читают docs найди что health мог переиспользовать metrics предложи конкретные изменения алгоритм обогащения пошагово прочитать скрипт через ast проверить есть docstring нет сгенерировать уровень проверить есть типизация функций нет добавить уровень проверить скрипт пишет файлы есть dry run нет добавить шаблон уровень если llm отправить claude haiku уровень показать diff если dry run или применить если apply пример было стало from pathlib import path root path file parent parent docs root docs def count words return len read text split def main for docs rglob print count words main после уровень без llm improve word count подсчёт слов каждом документе читает docs пишет stdout отчёт запуск python scripts improve word count dry run import argparse from pathlib import path root path file parent parent docs root docs def count words path int return len read text encoding utf split def main none parser argparse argumentparser parser add argument dry run action store true args parser parse args files list docs rglob args dry run print dry run обработаю len files файлов return for files print relative root count words слов name main main смотрите также catalog catalog architecture architecture synthesis synthesis llm processing guide llm",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 582,
+    "path": "docs/meta-scripting/04-enrichment.md"
+  }
+}

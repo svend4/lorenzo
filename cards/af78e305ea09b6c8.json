@@ -1,0 +1,80 @@
+{
+  "card_id": "sha256:af78e305ea09b6c8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/architecture/integration-spec.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/architecture/card-envelope.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/evidence-envelope.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/memory-write-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/skill-tool-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/review-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/QA.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:686b12357088e48c",
+  "payload": {
+    "title": "Интеграционная спецификация (минимум для MVP)",
+    "summary": "Чтобы все ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели появятся три несовместимые сущности с названием «карточка», два разных формата evidence и четыре несовме",
+    "body": "интеграционная спецификация минимум для mvp tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report проекты svyazi agentfs mclaude factory liteparse legal rag graph rag yodoca смотрите также интеграционный контракт который стоит зафиксироват collaborations интеграционный контракт который стоит зафиксироват integration contracts svyazi integration contracts review record review record кто ссылается этот документ concepts glossary concepts reading paths reading paths readme readme readme technology combinations readme",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Tool Search"
+    ],
+    "wc": 285,
+    "path": "docs/svyazi-2-0/architecture/integration-spec.md"
+  }
+}

@@ -16,6 +16,7 @@ improve_autofill.py — заполняет шаблоны данными из у
     python scripts/improve_autofill.py
     python scripts/improve_autofill.py --dry-run
 """
+import os
 import re
 import sys
 from pathlib import Path
@@ -296,7 +297,9 @@ def enrich_project_file(
     layer = contact["layer"] if contact else "—"
     if contact:
         slug = re.sub(r'[^a-z0-9]', '-', contact["author"].lower())
-        contact_link = f"[@{contact['author']}](docs/contacts/{slug}.md)"
+        contact_abs = DOCS / "contacts" / f"{slug}.md"
+        contact_rel = os.path.relpath(contact_abs, md_path.parent)
+        contact_link = f"[@{contact['author']}]({contact_rel})"
     else:
         contact_link = "—"
 

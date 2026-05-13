@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:ba76f864dd7b9568",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:20874c79c0500551",
+  "payload": {
+    "title": "ВШЭ научный нетворкинг — micro-collaborations",
+    "summary": "Что делает: Приложение для научного нетворкинга в университете. Не «ResearchGate-альтернатива», а специально для микро-коллабораций — короткие консультации, помощь с конкретным методом, не обязательно соавторство.",
+    "body": "вшэ научный нетворкинг micro collaborations источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов смотрите также claude subagents patterns claude subagents patterns svyazi andrey chuyan svyazi andrey chuyan specialized knowledge workspace specialized knowledge workspace brainbox multi hub brainbox multi hub",
+    "tags": [
+      "knowledge",
+      "local-first",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 165,
+    "path": "docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md"
+  }
+}

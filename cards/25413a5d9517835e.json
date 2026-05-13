@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:25413a5d9517835e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/PROGRESS.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/CONTACTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SCORING.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/HEALTH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:f093813dabf3a0f7",
+  "payload": {
+    "title": "Прогресс MVP",
+    "summary": "_Обновлено: 2026-05-10 (improve_progress_sync.py)_",
+    "body": "прогресс mvp обновлено improve progress sync ключевые этапы milestones определена архитектура svyazi составлен каталог компонентов выявлены ансамблей описаны интеграционные контракты составлены контакты авторов написаны авторам ключевых компонентов получены ответы авторов llm обогащение проектных файлов создан рабочий прототип knowledge пройдено тестирование ансамбля опубликован mvp github состояние компонентов компонент статус детали контакты авторов файлов отправлено файлов docs contacts llm обогащение запущено pip install anthropic python scripts improve llm enrich скрипты обработки скриптов llm скриптов mcp digest секций python scripts improve llm summary claude skills скиллов track decisions new research review docs search dispatch status evaluate tech compare synthesize find gaps summarize outreach day propose mega stack evaluate skill find cinderella skill router weekly review plan mvp write contact improve propose collaboration find contradictions audit corpus review architecture generate rfc design ensemble analyze project daily routine метрики качества метрика балл статус здоровье репо health качество доков metrics scoring следующий шаг написаны авторам ключевых компонентов написали контактные файлы готовы откройте отправьте приоритет kksudo agentfs упоминаний cat docs contacts kksudo приоритет spbmolot ngt memory упоминаний cat docs contacts spbmolot приоритет anastasiyaw knowledge space упоминаний cat docs contacts anastasiyaw связанные документы контакты авторов contacts scoring scoring health dashboard health mvp planning svyazi mvp planning",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "NGT Memory"
+    ],
+    "wc": 261,
+    "path": "docs/PROGRESS.md"
+  }
+}

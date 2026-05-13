@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:d5d6dcea6264f56c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/308-table-of-contents.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/253-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/137-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/211-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:8da1325e0f148636",
+  "payload": {
+    "title": "Table of Contents",
+    "summary": "1. **The Cowork Discovery and Why It Changes Everything**",
+    "body": "table contents the cowork discovery and why changes everything похожие документы table contents table contents сходство table contents table contents сходство table contents table contents сходство смотрите также table contents table contents table contents table contents table contents table contents appendix comparison matrix appendix comparison matrix упоминается the cowork discovery and why changes everything the cowork discovery and why changes everythi what cowork provides that ingit doesn need build what cowork provides that ingit doesn need what ingit provides that cowork lacks what ingit provides that cowork lacks the symbiotic architecture the symbiotic architecture four integration paths order accessibility four integration paths order accessibility refined ingit scope with cowork mind refined ingit scope with cowork mind practical first steps this month practical first steps this month abstract abstract appendix decision tree for ingit adopters appendix decision tree for ingit adopters appendix comparison matrix appendix comparison matrix appendix sub agent registry schema sketch appendix sub agent registry schema sketch appendix summary contributions appendix summary contributions table contents table contents table contents table contents table contents table contents вакансии anthropic анализ кластерам readme кластеры тематически близких файлов clusters содержание содержание твой workflow твой workflow что можешь делать без max approval что можешь делать без max approval упоминается вакансии anthropic анализ кластерам readme связанные документы refined ingit scope with cowork mind refined ingit scope with cowork mind the cowork discovery and why changes everything the cowork discovery and why changes everythi what cowork provides that ingit doesn need build what cowork provides that ingit doesn need appendix comparison matrix appendix comparison matrix what ingit provides that cowork lacks what ingit provides that cowork lacks the symbiotic architecture the symbiotic architecture abstract abstract appendix sub agent registry schema sketch appendix sub agent registry schema sketch связанные документы the cowork discovery and why changes everything the cowork discovery and why changes everythi содержание содержание what cowork provides that ingit doesn need build what cowork provides that ingit doesn need what ingit provides that cowork lacks what ingit provides that cowork lacks refined ingit scope with cowork mind refined ingit scope with cowork mind appendix comparison matrix appendix comparison matrix кластеры тематически близких файлов clusters table contents table contents кто ссылается этот документ table contents table contents appendix summary contributions appendix summary contributions table contents table contents table contents table contents table contents table contents abstract abstract appendix decision tree for ingit adopters appendix decision tree for ingit adopters содержание содержание ещё",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 431,
+    "path": "docs/02-anthropic-vacancies/308-table-of-contents.md"
+  }
+}
