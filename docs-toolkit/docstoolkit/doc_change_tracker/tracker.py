@@ -146,8 +146,14 @@ class DocChangeTracker:
         now: float = 0.0,
         batch_id: Optional[str] = None,
     ) -> ChangeEvent:
-        """Record a change event and return it."""
-        ts = now if now else time.time()
+        """Record a change event and return it.
+
+        ``now`` is the timestamp of the event. ``0.0`` is treated as a literal
+        timestamp value; pass :func:`time.time` (or any positive value) for a
+        real-time event. As a convenience, when ``now`` is negative the
+        current :func:`time.time` is substituted.
+        """
+        ts = float(now) if now >= 0 else time.time()
         if not isinstance(change_type, ChangeType):
             change_type = ChangeType(change_type)
         with self._lock:
@@ -189,7 +195,7 @@ class DocChangeTracker:
 
     def start_batch(self, actor: str, now: float = 0.0) -> str:
         """Open a new batch and return its id."""
-        ts = now if now else time.time()
+        ts = float(now) if now >= 0 else time.time()
         batch_id = uuid4().hex[:16]
         with self._lock:
             self._conn.execute(
@@ -202,7 +208,7 @@ class DocChangeTracker:
 
     def end_batch(self, batch_id: str, now: float = 0.0) -> Optional[ChangeBatch]:
         """Close a batch and return the populated :class:`ChangeBatch`."""
-        ts = now if now else time.time()
+        ts = float(now) if now >= 0 else time.time()
         with self._lock:
             row = self._conn.execute(
                 "SELECT batch_id FROM batches WHERE batch_id = ?", (batch_id,)
