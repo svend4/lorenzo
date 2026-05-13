@@ -58,6 +58,7 @@ NAV = """
   <a href="/docs">📚 Docs</a>
   <a href="/templates">📝 Templates</a>
   <a href="/search">🔍 Search</a>
+  <a href="/faceted">🗂 Faceted</a>
   <a href="/rag">🤖 RAG</a>
   <a href="/graph">🌐 Graph</a>
   <a href="/api/health">💚 Health (JSON)</a>
@@ -154,6 +155,22 @@ class DocsHandler(http.server.BaseHTTPRequestHandler):
                     params.get("answerer", ["echo"])[0],
                     int(params.get("top_k", ["5"])[0]),
                 )
+            elif path == "/faceted":
+                q = params.get("q", [""])[0]
+                section = params.get("section", [""])[0]
+                lang = params.get("lang", [""])[0]
+                tags = params.get("tags", [""])[0]
+                self._send(200, self._render_faceted_ui(q, section, lang, tags))
+            elif path == "/api/faceted":
+                q = params.get("q", [""])[0]
+                section = params.get("section", [""])[0]
+                lang = params.get("lang", [""])[0]
+                tags = params.get("tags", [""])[0]
+                docs = self._load_search_index()
+                results = _faceted_search(docs, q, section=section, lang=lang, tags=tags)
+                self._send_json({"query": q, "section": section, "lang": lang,
+                                 "tags": tags, "results": results,
+                                 "total": len(results)})
             elif path == "/metrics":
                 # Prometheus exposition format
                 try:
@@ -708,6 +725,186 @@ loadGraph();
         ]
         return {"nodes": nodes, "edges": edges,
                 "stats": g.stats()}
+
+
+    def _render_faceted_ui(self, q: str, section: str = "",
+                           lang: str = "", tags: str = "") -> str:
+        """Рендер HTML-страницы фасетного поиска."""
+        docs = self._load_search_index()
+
+        # Собрать уникальные секции из paths
+        sections: list[str] = sorted({
+            d.get("path", "").split("/")[0]
+            for d in docs
+            if d.get("path", "") and "/" in d.get("path", "")
+        })
+
+        # Собрать топ-20 тегов из frontmatter
+        tag_counter: dict[str, int] = {}
+        for d in docs:
+            for t in d.get("tags", []):
+                if isinstance(t, str) and t:
+                    tag_counter[t] = tag_counter.get(t, 0) + 1
+        top_tags = sorted(tag_counter, key=lambda x: -tag_counter[x])[:20]
+
+        # Результаты
+        results = _faceted_search(docs, q, section=section, lang=lang, tags=tags) if (q or section or lang or tags) else []
+
+        # Build section options
+        section_opts = '<option value="">All sections</option>'
+        for s in sections:
+            sel = ' selected' if s == section else ''
+            section_opts += f'<option value="{_escape(s)}"{sel}>{_escape(s)}</option>'
+
+        # Build lang options
+        lang_opts = ""
+        for lv in ["", "RU", "EN", "MIX"]:
+            lbl = lv if lv else "All languages"
+            sel = ' selected' if lv == lang else ''
+            lang_opts += f'<option value="{_escape(lv)}"{sel}>{_escape(lbl)}</option>'
+
+        # Build tags checkboxes
+        selected_tags = {t.strip() for t in tags.split(",") if t.strip()}
+        tags_html = ""
+        for t in top_tags:
+            checked = ' checked' if t in selected_tags else ''
+            tags_html += (f'<label style="margin-right:0.75em">'
+                         f'<input type="checkbox" name="tags_cb" value="{_escape(t)}"{checked}> '
+                         f'<span class="tag">{_escape(t)}</span></label>')
+
+        # Results table
+        results_html = ""
+        if results:
+            rows = "".join(
+                f'<tr>'
+                f'<td><a href="/docs/{_escape(r["path"][5:] if r["path"].startswith("docs/") else r["path"])}">'
+                f'{_escape(r["title"] or r["path"])}</a></td>'
+                f'<td><code>{_escape(r.get("section", ""))}</code></td>'
+                f'<td>{r.get("score", 0):.3f}</td>'
+                f'<td>{r.get("word_count", 0)}</td>'
+                f'<td>{"".join(f"<span class=tag>{_escape(t)}</span>" for t in r.get("tags", []))}</td>'
+                f'</tr>'
+                for r in results
+            )
+            results_html = (
+                f'<p>Найдено: {len(results)}</p>'
+                f'<table><tr><th>Title</th><th>Section</th><th>Score</th>'
+                f'<th>Words</th><th>Tags</th></tr>{rows}</table>'
+            )
+        elif q or section or lang or tags:
+            results_html = "<p>Ничего не найдено.</p>"
+
+        body = f"""
+<h1>🗂 Faceted Search</h1>
+<form action="/faceted" method="get" id="faceted-form">
+  <div style="margin-bottom:0.75em">
+    <input name="q" placeholder="Text query..." value="{_escape(q)}"
+           style="width:50%" autofocus>
+    <select name="section" style="margin-left:0.5em">{section_opts}</select>
+    <select name="lang" style="margin-left:0.5em">{lang_opts}</select>
+    <button style="margin-left:0.5em">Search</button>
+    <a href="/api/faceted?q={urllib.parse.quote(q)}&amp;section={urllib.parse.quote(section)}&amp;lang={urllib.parse.quote(lang)}&amp;tags={urllib.parse.quote(tags)}"
+       style="margin-left:1em">JSON</a>
+  </div>
+  <div style="margin-bottom:1em">
+    <strong>Tags:</strong>&nbsp;{tags_html if tags_html else "<em>no tags in index</em>"}
+  </div>
+  <input type="hidden" name="tags" id="tags-hidden" value="{_escape(tags)}">
+</form>
+<script>
+// Sync checkboxes to hidden tags input
+document.getElementById('faceted-form').addEventListener('submit', function() {{
+  var checked = Array.from(document.querySelectorAll('[name=tags_cb]:checked')).map(e => e.value);
+  document.getElementById('tags-hidden').value = checked.join(',');
+}});
+</script>
+<hr>
+{results_html}
+"""
+        return _wrap_html("Faceted Search", body)
+
+
+def _faceted_search(
+    docs: list[dict],
+    q: str,
+    section: str = "",
+    lang: str = "",
+    tags: str = "",
+) -> list[dict]:
+    """Фасетный поиск: фильтрация + TF-IDF ранжирование по запросу.
+
+    Args:
+        docs: список записей из search_index.json
+        q: текстовый запрос
+        section: фильтр по первой части пути (e.g. "docs")
+        lang: фильтр по языку (RU / EN / MIX / "")
+        tags: строка тегов через запятую
+
+    Returns:
+        Список dict с полями: title, path, section, score, word_count, tags
+    """
+    # Normalize tag filter
+    tag_set = {t.strip().lower() for t in tags.split(",") if t.strip()}
+
+    # Step 1: filter
+    filtered: list[dict] = []
+    for d in docs:
+        path = d.get("path", "")
+        # section filter: match first path component
+        if section:
+            parts = path.split("/")
+            doc_section = parts[0] if parts else ""
+            if doc_section != section:
+                continue
+        # language filter
+        if lang:
+            doc_lang = (d.get("lang") or d.get("language") or "").upper()
+            if doc_lang != lang.upper():
+                continue
+        # tags filter
+        if tag_set:
+            doc_tags = {t.lower() for t in d.get("tags", []) if isinstance(t, str)}
+            if not tag_set.intersection(doc_tags):
+                continue
+        filtered.append(d)
+
+    # Step 2: score by query (simple TF-IDF approximation: term frequency in content)
+    q_lower = q.lower().strip()
+    q_terms = q_lower.split() if q_lower else []
+
+    def _score(d: dict) -> float:
+        if not q_terms:
+            return 0.0
+        text = " ".join([
+            d.get("title", "") * 3,  # title weight ×3 (repeat)
+            d.get("content", ""),
+            d.get("preview", ""),
+        ]).lower()
+        total = len(text.split()) or 1
+        tf = sum(text.count(t) for t in q_terms)
+        return tf / total
+
+    # Step 3: build result records
+    scored: list[dict] = []
+    for d in filtered:
+        score = _score(d)
+        if q_terms and score == 0.0:
+            continue
+        path = d.get("path", "")
+        parts = path.split("/")
+        doc_section = parts[0] if len(parts) > 1 else ""
+        scored.append({
+            "title": d.get("title", ""),
+            "path": path,
+            "section": doc_section,
+            "score": score,
+            "word_count": d.get("word_count") or len((d.get("content") or "").split()),
+            "tags": [t for t in d.get("tags", []) if isinstance(t, str)],
+        })
+
+    # Sort: by score desc, then title
+    scored.sort(key=lambda x: (-x["score"], x["title"]))
+    return scored[:50]
 
 
 def _md_to_html(md: str) -> str:
