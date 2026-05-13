@@ -140,7 +140,8 @@ class SearchIndexManager:
                 continue
             postings = self._inverted[term]
             df = len(postings)
-            idf = math.log(n_docs / (df + 1))
+            # Smoothed IDF: always positive, rewards rare terms
+            idf = math.log((n_docs + 1) / (df + 1)) + 1.0
             for doc_id, tf in postings.items():
                 scores[doc_id] = scores.get(doc_id, 0.0) + tf * idf
 
