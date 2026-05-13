@@ -183,6 +183,11 @@ class HotReloadManager:
                 except (json.JSONDecodeError, ValueError):
                     data = self._parse_ini(path)
             self._file_data[path] = data
+        except (json.JSONDecodeError, configparser.Error, ValueError) as exc:
+            # Transient parse error (e.g. file mid-write): keep last-known-good state
+            if self._config.on_error is not None:
+                self._config.on_error(path, exc)
+            return
         except Exception as exc:
             if self._config.on_error is not None:
                 self._config.on_error(path, exc)
