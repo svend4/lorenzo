@@ -82,3 +82,14 @@ python scripts/improve_autofill.py
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SUMMARIES]]
+- [[STALENESS]]
+- [[SCORING]]
+- [[SCHEDULE]]
+

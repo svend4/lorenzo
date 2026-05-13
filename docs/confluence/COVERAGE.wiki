@@ -77,3 +77,14 @@ _Кто ссылается на этот документ (6):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Смотрите также:_
+* [SUMMARIES|SUMMARIES.md]
+* [STALENESS|STALENESS.md]
+* [SCORING|SCORING.md]
+* [SCHEDULE|SCHEDULE.md]
+

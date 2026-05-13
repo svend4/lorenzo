@@ -6299,3 +6299,14 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [[TABLES]]
 - _...ещё 1_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[HEADING_AUDIT]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+

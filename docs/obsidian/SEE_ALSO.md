@@ -7,18 +7,20 @@ date: 2026-05-13
 
 # Индекс «Смотрите также»
 
-> [!NOTE]
-> Раздел `SEE_ALSO` формируется автоматически из данных репозитория.
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: see-also, docs -->
-
 
 <!-- summary -->
-> `SEE_ALSO` — раздел документации проекта Lorenzo.
+> **Файлов с блоком See Also:** 1114
+**Проекты:** Svyazi
+
+---
 
 
-**Файлов с блоком See Also:** 1076
+
+**Файлов с блоком See Also:** 1114
 
 ## Ключевые связи
 
@@ -34,12 +36,12 @@ date: 2026-05-13
 - [[10-second-order-ensembles]] → [[10-новые-ансамбли-следующего-шага]], [[G-federated-local-graph]], [[F-evidence-backed-intake]], [[H-research-to-product-flywheel]]
 - [[11-integration-contracts]] → [[11-интеграционный-контракт-который-стоит-зафиксироват]], [[integration-spec]], [[09-архитектурные-зазоры-которые-важнее-новых-инструме]], [[09-architectural-gaps]]
 - [[12-roadmap]] → [[12-дорожная-карта-прототипа-следующей-итерации]], [[roadmap]], [[14-limitations]], [[08-conclusions]]
-- [[13-contacts]] → [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]], [[narrow-questions]], [[CONTACTS]], [[07-mvp-planning]]
+- [[13-contacts]] → [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]], [[narrow-questions]], [[07-mvp-planning]], [[NARRATIVE]]
 - [[14-limitations]] → [[do-not-glue]], [[conclusions]], [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]], [[license-tree]]
 - [[QA]] → [[KNOWLEDGE_MAP]], [[review-record]], [[SEARCH_RESULTS]], [[card-envelope]]
 - [[00-intro]] → [[288-appendix-position-in-series-visualization]], [[12-blagodarnosti-ssylki]], [[188-ai-опосредованное-представительство-для-недопредст]], [[11-dhlab-documents]]
 - [[01-интегральный-анализ-профиля-svend4]] → [[00-question-innovations-transitions]], [[CONCEPTS]], [[TABLES]], [[ACTION_ITEMS]]
-- [[02-общий-план-развития-nautilus-portal-protocol]] → [[67-о-проекте]], [[TIMELINE]], [[22-glossary]], [[133-обратная-связь]]
+- [[02-общий-план-развития-nautilus-portal-protocol]] → [[67-о-проекте]], [[22-glossary]], [[133-обратная-связь]], [[18-comment-on-document]]
 - [[03-portal-protocol-md]] → [[73-portal-protocol-md-v1-1]], [[152-ai-coordinated-infrastructure-for-distributed-expe]], [[35-passports-info1-md]], [[105-review-methodology-md]]
 - [[04-abstract]] → [[74-abstract]], [[00-abstract-status]], [[05-0-status-of-this-document]], [[70-зачем-две-версии-параллельно]]
 - [[05-0-status-of-this-document]] → [[75-0-status-of-this-document]], [[42-author-contact]], [[25-13-reference-implementation]], [[24-12-versioning-policy]]
@@ -53,25 +55,18 @@ date: 2026-05-13
 - [[105-review-methodology-md]] → [[229-профессиональные-коллеги-агенты]], [[289-инфраструктура-для-ai-совместной-интеллектуальной-]], [[125-readme-mcp-md-инструкция-по-установке]], [[03-portal-protocol-md]]
 - [[106-tl-dr]] → [[00-tldr]], [[70-зачем-две-версии-параллельно]], [[190-содержание]], [[132-planned-v0-2-0]]
 
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_see_also.py
-```
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (10):**
 - [[04-abstract]]
 - [[70-зачем-две-версии-параллельно]]
+- [[KNOWLEDGE_MAP]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
 - [[SEARCH]]
-- [[TABLES]]
-- _...ещё 1_
+- _...ещё 2_
 

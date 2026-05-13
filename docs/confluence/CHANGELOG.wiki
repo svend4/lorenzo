@@ -183,3 +183,14 @@ _Кто ссылается на этот документ (9):_
 * [SEARCH|SEARCH.md]
 * _...ещё 1_
 
+
+
+
+----
+
+_Смотрите также:_
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [DIGEST|DIGEST.md]
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+

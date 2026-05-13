@@ -7,17 +7,17 @@ date: 2026-05-13
 
 # Рекомендуемый порядок чтения
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `READING_ORDER` формируется автоматически из данных репозитория.
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: reading-order, docs -->
-
 
 <!-- summary -->
-> `READING_ORDER` — раздел документации проекта Lorenzo.
+> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
+
+---
+
 
 
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
@@ -449,37 +449,29 @@ date: 2026-05-13
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_reading_order.py
-```
-```bash
-# Вариант 2
-python scripts/improve_reading_order.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_reading_order.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_reading_order.py --dry-run
-```
+---
+
+**Смотрите также:**
+- [[SOURCE_MAP]]
+- [[HEADING_AUDIT]]
+- [[PARAGRAPH_QUALITY]]
+- [[READABILITY]]
+
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (12):**
+**Кто ссылается на этот документ (14):**
 - [[README]]
 - [[CLUSTERS]]
+- [[COMPARE]]
 - [[CONTENT_GAPS]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
-- [[REPORT]]
-- _...ещё 4_
+- _...ещё 6_
 

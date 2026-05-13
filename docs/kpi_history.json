@@ -45,13 +45,13 @@
   },
   {
     "date": "2026-05-13",
-    "docs": 2492,
-    "words": 2828318,
+    "docs": 2500,
+    "words": 2897518,
     "scripts": 166,
     "scoring": 96,
     "health": 99,
     "kpis": 737,
-    "questions": 484,
+    "questions": 41,
     "actions": 0
   }
 ]

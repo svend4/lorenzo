@@ -99,3 +99,14 @@ cat docs/contacts/anastasiyaw.md
 - [[READING_TIME]]
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SCHEDULE]]
+- [[ONBOARDING]]
+- [[KNOWLEDGE_MAP]]
+- [[INDEX]]
+

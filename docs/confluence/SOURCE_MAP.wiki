@@ -1852,3 +1852,14 @@ _Кто ссылается на этот документ (9):_
 * [SEARCH|SEARCH.md]
 * _...ещё 1_
 
+
+
+
+----
+
+_Смотрите также:_
+* [HEADING_AUDIT|HEADING_AUDIT.md]
+* [PARAGRAPH_QUALITY|PARAGRAPH_QUALITY.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+

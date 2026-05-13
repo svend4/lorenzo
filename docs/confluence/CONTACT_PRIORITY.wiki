@@ -72,3 +72,14 @@ _Кто ссылается на этот документ (15):_
 * [READING_TIME|READING_TIME.md]
 * _...ещё 7_
 
+
+
+
+----
+
+_Смотрите также:_
+* [MINDMAP|MINDMAP.md]
+* [GRAPH|GRAPH.md]
+* [CONTACTS|CONTACTS.md]
+* [NETWORK|NETWORK.md]
+

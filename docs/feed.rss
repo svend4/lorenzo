@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 13 May 2026 08:05:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 08:37:26 GMT</lastBuildDate>
+    <item>
+      <title>chore: update generated docs artifacts from local script runs</title>
+      <link>https://github.com/svend4/lorenzo/commit/be0834cabc32f5d0d267160b2331b194caea8ec5</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/be0834cabc32f5d0d267160b2331b194caea8ec5</guid>
+      <pubDate>Wed, 13 May 2026 08:08:43 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: update generated docs artifacts from local script runs</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CLUSTERS.md">docs/CLUSTERS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONSISTENCY.md">docs/CONSISTENCY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACTS.md">docs/CONTACTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACT_PRIORITY.md">docs/CONTACT_PRIORITY.md</a></li></ul><p>Коммит: <code>be0834ca</code></p>]]></description>
+    </item>
     <item>
       <title>chore: update generated docs artifacts from local script runs</title>
       <link>https://github.com/svend4/lorenzo/commit/1d7372dc13a4238165140f9620d9d1b1037bf703</link>

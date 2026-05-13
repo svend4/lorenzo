@@ -129,3 +129,14 @@ _Radar обновляется вручную при существенных и�
 - [[SEARCH]]
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[COMPONENT_MATRIX]]
+- [[ONBOARDING]]
+- [[FOOTNOTES]]
+- [[SCHEDULE]]
+

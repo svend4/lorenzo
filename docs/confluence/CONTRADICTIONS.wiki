@@ -7,7 +7,7 @@ h1. Противоречия в базе знаний
 
 _Обновлено: 2026-05-13_
 
-Утверждений: _82903_ | Противоречий: _10042_
+Утверждений: _81388_ | Противоречий: _9580_
 
 {quote}Автоматический поиск без LLM — возможны ложные срабатывания.{quote}
 
@@ -169,7 +169,19 @@ _B:_ {{docs/svyazi-2-0/overview/methodology.md}}
 
 ----
 
-h3. 14. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
+h3. 14. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{match}}, {{pendingreview}}, {{proposalid}}, {{reviewstate}}
+
+_A:_ {{docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md}}
+{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
+
+_B:_ {{docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md}}
+{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
+
+----
+
+h3. 15. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{различение}}, {{слоёв}}, {{трёх}}
 
@@ -181,7 +193,7 @@ _B:_ {{docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelsk
 
 ----
 
-h3. 15. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
+h3. 16. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{attention}}, {{full}}, {{moe}}, {{ssm}}
 
@@ -190,18 +202,6 @@ _A:_ {{docs/04-ai-collaborations/00-intro.md}}
 
 _B:_ {{docs/05-habr-projects/memory/memnet.md}}
 {quote}5: 4 слоя full attention + 36 слоёв SSM + MoE-роутер с 8+1 экспертами на слой{quote}
-
-----
-
-h3. 16. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{match}}, {{pendingreview}}, {{proposalid}}, {{reviewstate}}
-
-_A:_ {{docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md}}
-{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
-
-_B:_ {{docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md}}
-{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
 
 ----
 
@@ -361,15 +361,15 @@ _B:_ {{docs/01-svyazi/README.md}}
 
 ----
 
-h3. 30. 🔢 Числовое — 4.0 vs 131.0 (уверенность: 0.8)
+h3. 30. 🔢 Числовое — 70.0 vs 10.0 (уверенность: 0.8)
 
-_Общие ключевые слова:_ {{зафиксировать}}, {{интеграционный}}, {{контракт}}, {{который}}
+_Общие ключевые слова:_ {{вас}}, {{всё}}, {{вывод}}, {{лично}}
 
-_A:_ {{docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md}}
-{quote}Интеграционный контракт, который стоит зафиксировать сразу Contents - Содержание(содержание) - Статус(статус) - Интеграционный контракт, который стоит{quote}
+_A:_ {{docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}}
+{quote}Стратегический вывод для вас лично Учитывая всё, что я теперь знаю о вашем профиле — 70 репо с concepts-на-полке, analysis02topprojects с 10 готовыми {quote}
 
-_B:_ {{docs/QUESTIONS.md}}
-{quote}Интеграционный контракт, который стоит зафиксировать сразу 131-ограничения-текущей-версии-0-1-0-draft{quote}
+_B:_ {{docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md}}
+{quote}Стратегический вывод для вас лично Учитывая всё, что я теперь знаю о вашем профиле — 70 репо с concepts-на-полке, analysis02topprojects с 10 готовыми {quote}
 
 ----
 

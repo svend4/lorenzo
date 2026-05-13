@@ -121,3 +121,14 @@ python scripts/improve_cost.py
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SCHEDULE]]
+- [[SCORING]]
+- [[SUMMARIES]]
+- [[COMPONENT_MATRIX]]
+

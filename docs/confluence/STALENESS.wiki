@@ -99,3 +99,14 @@ _Кто ссылается на этот документ (5):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Смотрите также:_
+* [COVERAGE|COVERAGE.md]
+* [SUMMARIES|SUMMARIES.md]
+* [PASSIVE_VOICE|PASSIVE_VOICE.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+

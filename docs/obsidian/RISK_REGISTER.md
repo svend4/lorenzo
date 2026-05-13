@@ -145,3 +145,14 @@ _Курированных рисков: 10 · Из документов: 15_
 - [[READABILITY]]
 - _...ещё 6_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SIMILAR_PASSAGES]]
+- [[02-methodology]]
+- [[privacy]]
+- [[security-routing-plane]]
+

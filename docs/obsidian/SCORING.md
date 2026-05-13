@@ -111,3 +111,14 @@ python scripts/improve_scoring.py
 - [[METRICS]]
 - _...ещё 12_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[COVERAGE]]
+- [[SCHEDULE]]
+- [[SUMMARIES]]
+- [[COMPONENT_MATRIX]]
+

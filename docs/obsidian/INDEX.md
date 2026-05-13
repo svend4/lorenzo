@@ -160,3 +160,14 @@ _Индекс сгенерирован автоматически · 2484 док
 - [[READABILITY]]
 - _...ещё 6_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[ONBOARDING]]
+- [[DEPENDENCY_MAP]]
+- [[LLM_SUMMARIES]]
+- [[DIGEST_WEEKLY]]
+

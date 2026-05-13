@@ -93,3 +93,14 @@ _Кто ссылается на этот документ (11):_
 * [READING_TIME|READING_TIME.md]
 * _...ещё 3_
 
+
+
+
+----
+
+_Смотрите также:_
+* [SCHEDULE|SCHEDULE.md]
+* [ONBOARDING|ONBOARDING.md]
+* [KNOWLEDGE_MAP|KNOWLEDGE_MAP.md]
+* [INDEX|INDEX.md]
+

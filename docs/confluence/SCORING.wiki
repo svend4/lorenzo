@@ -102,3 +102,14 @@ _Кто ссылается на этот документ (20):_
 * [METRICS|METRICS.md]
 * _...ещё 12_
 
+
+
+
+----
+
+_Смотрите также:_
+* [COVERAGE|COVERAGE.md]
+* [SCHEDULE|SCHEDULE.md]
+* [SUMMARIES|SUMMARIES.md]
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
+

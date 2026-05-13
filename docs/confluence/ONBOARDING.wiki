@@ -134,3 +134,14 @@ _Кто ссылается на этот документ (11):_
 * [README|README.md]
 * _...ещё 3_
 
+
+
+
+----
+
+_Смотрите также:_
+* [INDEX|INDEX.md]
+* [FOOTNOTES|FOOTNOTES.md]
+* [TECH_RADAR|TECH_RADAR.md]
+* [PROGRESS|PROGRESS.md]
+

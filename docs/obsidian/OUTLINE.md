@@ -15271,3 +15271,14 @@ python scripts/improve_outline.py --dry-run
 - [[112-5-связь-с-существующими-методологиями]]
 - _...ещё 637_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[EMPTY_SECTIONS]]
+- [[PARAGRAPH_QUALITY]]
+- [[HEADING_AUDIT]]
+- [[SEARCH]]
+

@@ -460,3 +460,14 @@ python scripts/improve_named_entities.py
 - [[READING_TIME]]
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DIGEST_WEEKLY]]
+- [[CITATION_INDEX]]
+- [[CODE_BLOCKS]]
+- [[ENTITIES]]
+

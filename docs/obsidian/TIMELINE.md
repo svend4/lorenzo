@@ -490,3 +490,14 @@ python scripts/improve_timeline.py --dry-run
 - [[KPI]]
 - _...ещё 11_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[VERSION_DIFF]]
+- [[SOURCE_MAP]]
+- [[CLUSTERS]]
+- [[HEADING_AUDIT]]
+

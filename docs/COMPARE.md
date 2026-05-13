@@ -1,17 +1,17 @@
 # Сравнение с предыдущим коммитом
 
 <!-- summary -->
-> **Файлов было:** 1487  **стало:** 2492
+> **Файлов было:** 2091  **стало:** 2500
 
 ---
 
 
 
-**Файлов было:** 1487  **стало:** 2492  
-**Слов было:** 2,089,614  **стало:** 2,828,816  **Δ:** +739,202
+**Файлов было:** 2091  **стало:** 2500  
+**Слов было:** 1,860,433  **стало:** 2,898,248  **Δ:** +1,037,815
 
 
-## Новые файлы (1005)
+## Новые файлы (409)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19240 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3329 слов)
@@ -53,45 +53,45 @@
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (653 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (573 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (645 слов)
-_...и ещё 965_
+_...и ещё 369_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (35) — топ по Δ слов
+## Изменившиеся файлы (2091) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `DUPLICATES.md` | 2047 | 1702 | -345 |
-| `CROSS_SECTION.md` | 4185 | 4395 | +210 |
-| `DECISIONS.md` | 2585 | 2705 | +120 |
-| `CLUSTERS.md` | 1776 | 1674 | -102 |
-| `README.md` | 122 | 44 | -78 |
-| `CONSISTENCY.md` | 707 | 659 | -48 |
-| `ALERTS.md` | 150 | 108 | -42 |
-| `COMPARE.md` | 553 | 519 | -34 |
-| `CONTRADICTIONS.md` | 1506 | 1474 | -32 |
-| `CONTENT_GAPS.md` | 960 | 930 | -30 |
-| `CONCEPT_GRAPH.md` | 719 | 691 | -28 |
-| `DIGEST_AUTO.md` | 502 | 479 | -23 |
-| `README.md` | 870 | 892 | +22 |
-| `INFO_PROCESSING_METHODS.md` | 3465 | 3483 | +18 |
-| `00-CURRENT-STATE.md` | 1878 | 1896 | +18 |
-| `01-SIMPLE.md` | 1884 | 1902 | +18 |
-| `03-INNOVATIVE.md` | 4247 | 4265 | +18 |
-| `04-NOVEL.md` | 4521 | 4539 | +18 |
-| `05-PRIORITIES.md` | 1535 | 1553 | +18 |
-| `NARRATIVE.md` | 1110 | 1126 | +16 |
-| `02-MEDIUM.md` | 2694 | 2710 | +16 |
-| `SITEMAP.md` | 9513 | 9529 | +16 |
-| `STATS.md` | 727 | 743 | +16 |
-| `DEPENDABOT.md` | 193 | 181 | -12 |
-| `TABLES.md` | 316179 | 316185 | +6 |
-| `EMPTY_SECTIONS.md` | 32004 | 32002 | -2 |
-| `MINDMAP.md` | 299 | 298 | -1 |
-| `QA.md` | 296 | 296 | +0 |
-| `QA.md` | 397 | 397 | +0 |
-| `QA.md` | 297 | 297 | +0 |
+| `TABLES.md` | 170871 | 316185 | +145314 |
+| `TABLES.md` | 176893 | 316198 | +139305 |
+| `QUESTIONS.md` | 22959 | 1887 | -21072 |
+| `EMPTY_SECTIONS.md` | 11022 | 32012 | +20990 |
+| `EMPTY_SECTIONS.md` | 11398 | 32016 | +20618 |
+| `READABILITY.md` | 25522 | 37557 | +12035 |
+| `OUTLINE.md` | 30515 | 40630 | +10115 |
+| `READING_TIME.md` | 18423 | 27554 | +9131 |
+| `SEARCH.md` | 15588 | 23303 | +7715 |
+| `OUTLINE.md` | 33109 | 40629 | +7520 |
+| `VERSION_DIFF.md` | 11183 | 5172 | -6011 |
+| `VERSION_DIFF.md` | 11170 | 5173 | -5997 |
+| `SUMMARIES.md` | 5184 | 42 | -5142 |
+| `SUMMARIES.md` | 3921 | 145 | -3776 |
+| `SOURCE_MAP.md` | 8834 | 12379 | +3545 |
+| `CONCEPTS.md` | 11701 | 15074 | +3373 |
+| `HEADING_AUDIT.md` | 5627 | 8794 | +3167 |
+| `HEADING_AUDIT.md` | 5681 | 8798 | +3117 |
+| `CROSS_SECTION.md` | 1294 | 4378 | +3084 |
+| `READING_TIME.md` | 25007 | 27605 | +2598 |
+| `CONCEPTS.md` | 13186 | 15014 | +1828 |
+| `SITEMAP.md` | 7825 | 9569 | +1744 |
+| `SITEMAP.md` | 7838 | 9540 | +1702 |
+| `CHANGELOG_AUTO.md` | 683 | 2035 | +1352 |
+| `CHANGELOG_AUTO.md` | 701 | 2045 | +1344 |
+| `CROSS_SECTION.md` | 3185 | 4420 | +1235 |
+| `QUESTIONS.md` | 23012 | 21866 | -1146 |
+| `LANGUAGE_STATS.md` | 6831 | 7963 | +1132 |
+| `LANGUAGE_STATS.md` | 6831 | 7917 | +1086 |
+| `PARAGRAPH_QUALITY.md` | 11544 | 12508 | +964 |
 
 <!-- see-also -->
 
@@ -99,7 +99,7 @@ _...и ещё 965_
 
 **Смотрите также:**
 - [190-содержание](02-anthropic-vacancies/190-содержание.md)
-- [READING_ORDER](READING_ORDER.md)
-- [CLUSTERS](CLUSTERS.md)
+- [00-abstract](nautilus/representative-agent-layer-ru/00-abstract.md)
 - [COMPLEXITY](COMPLEXITY.md)
+- [READING_ORDER](READING_ORDER.md)
 

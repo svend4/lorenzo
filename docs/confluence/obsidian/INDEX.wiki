@@ -161,3 +161,14 @@ _Кто ссылается на этот документ (14):_
 * [[READABILITY]]
 * _...ещё 6_
 
+
+
+
+----
+
+_Смотрите также:_
+* [[ONBOARDING]]
+* [[DEPENDENCY_MAP]]
+* [[LLM_SUMMARIES]]
+* [[DIGEST_WEEKLY]]
+

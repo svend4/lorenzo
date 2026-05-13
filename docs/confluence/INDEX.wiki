@@ -152,3 +152,14 @@ _Кто ссылается на этот документ (14):_
 * [READABILITY|READABILITY.md]
 * _...ещё 6_
 
+
+
+
+----
+
+_Смотрите также:_
+* [ONBOARDING|ONBOARDING.md]
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [LLM_SUMMARIES|LLM_SUMMARIES.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+

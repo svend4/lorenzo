@@ -257,3 +257,14 @@ python scripts/improve_faq.py
 - [[READABILITY]]
 - _...ещё 9_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[QUESTIONS]]
+- [[10-otkrytye-voprosy]]
+- [[10-open-questions]]
+- [[VERSION_DIFF]]
+

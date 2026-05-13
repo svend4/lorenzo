@@ -133,3 +133,13 @@ date: 2026-05-13
 - [[LANGUAGE_STATS]]
 - _...ещё 23_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[AUTHORS]]
+- [[NETWORK]]
+- [[PROGRESS]]
+

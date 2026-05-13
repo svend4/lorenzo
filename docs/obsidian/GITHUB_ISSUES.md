@@ -594,3 +594,14 @@ python scripts/improve_github_issues.py
 - [[TABLES]]
 - [[10-checklist]]
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[10-checklist]]
+- [[116-9-checklist-применения-методологии]]
+- [[CONTACTS]]
+- [[CONTACT_PRIORITY]]
+

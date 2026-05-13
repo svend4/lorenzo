@@ -1,7 +1,7 @@
 # Противоречия в базе знаний
 
 <!-- summary -->
-> Утверждений: **82903** | Противоречий: **10042**
+> Утверждений: **81388** | Противоречий: **9580**
 **Проекты:** Svyazi, knowledge-space, Rufler, LiteParse, NGT Memory, MemNet, SENTINEL, Auto AI Router
 
 ---
@@ -10,7 +10,7 @@
 
 _Обновлено: 2026-05-13_
 
-Утверждений: **82903** | Противоречий: **10042**
+Утверждений: **81388** | Противоречий: **9580**
 
 > Автоматический поиск без LLM — возможны ложные срабатывания.
 
@@ -172,7 +172,19 @@ _Обновлено: 2026-05-13_
 
 ---
 
-### 14. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
+### 14. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `match`, `pendingreview`, `proposalid`, `reviewstate`
+
+**A:** `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
+> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
+
+**B:** `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md`
+> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
+
+---
+
+### 15. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `различение`, `слоёв`, `трёх`
 
@@ -184,7 +196,7 @@ _Обновлено: 2026-05-13_
 
 ---
 
-### 15. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
+### 16. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `attention`, `full`, `moe`, `ssm`
 
@@ -193,18 +205,6 @@ _Обновлено: 2026-05-13_
 
 **B:** `docs/05-habr-projects/memory/memnet.md`
 > 5: 4 слоя full attention + 36 слоёв SSM + MoE-роутер с 8+1 экспертами на слой
-
----
-
-### 16. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `match`, `pendingreview`, `proposalid`, `reviewstate`
-
-**A:** `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
-> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
-
-**B:** `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md`
-> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
 
 ---
 
@@ -364,15 +364,15 @@ _Обновлено: 2026-05-13_
 
 ---
 
-### 30. 🔢 Числовое — 4.0 vs 131.0 (уверенность: 0.8)
+### 30. 🔢 Числовое — 70.0 vs 10.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `зафиксировать`, `интеграционный`, `контракт`, `который`
+**Общие ключевые слова:** `вас`, `всё`, `вывод`, `лично`
 
-**A:** `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md`
-> Интеграционный контракт, который стоит зафиксировать сразу Contents - Содержание(содержание) - Статус(статус) - Интеграционный контракт, который стоит
+**A:** `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+> Стратегический вывод для вас лично Учитывая всё, что я теперь знаю о вашем профиле — 70 репо с concepts-на-полке, analysis02topprojects с 10 готовыми 
 
-**B:** `docs/QUESTIONS.md`
-> Интеграционный контракт, который стоит зафиксировать сразу 131-ограничения-текущей-версии-0-1-0-draft
+**B:** `docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md`
+> Стратегический вывод для вас лично Учитывая всё, что я теперь знаю о вашем профиле — 70 репо с concepts-на-полке, analysis02topprojects с 10 готовыми 
 
 ---
 
@@ -383,7 +383,7 @@ _Обновлено: 2026-05-13_
 
 **Смотрите также:**
 - [PRIORITIES](PRIORITIES.md)
+- [SPELLCHECK](SPELLCHECK.md)
 - [TOPIC_MODEL](TOPIC_MODEL.md)
 - [WORD_FREQ](WORD_FREQ.md)
-- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
 

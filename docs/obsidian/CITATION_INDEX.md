@@ -246,3 +246,14 @@ python scripts/improve_citation_index.py
 - [[READING_TIME]]
 - _...ещё 4_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SPELLCHECK]]
+- [[READING_LIST]]
+- [[LINK_PREVIEW]]
+- [[NAMED_ENTITIES]]
+
