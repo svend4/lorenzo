@@ -34,6 +34,9 @@ from docstoolkit.rag.clarifier import (
     detect_ambiguity, build_clarification, apply_clarification,
     ClarifyingRAG, AmbiguityScore, ClarificationRequest,
 )
+from docstoolkit.rag.hierarchical import (
+    hierarchical_search, HierarchicalResult, SectionIndex, DocIndex,
+)
 
 __all__ = [
     "Passage", "AnswerResult", "RAGQuery",
@@ -52,4 +55,6 @@ __all__ = [
     # Gap 4: Active clarification
     "detect_ambiguity", "build_clarification", "apply_clarification",
     "ClarifyingRAG", "AmbiguityScore", "ClarificationRequest",
+    # M3: Hierarchical retrieval
+    "hierarchical_search", "HierarchicalResult", "SectionIndex", "DocIndex",
 ]
