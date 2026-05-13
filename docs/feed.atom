@@ -3,8 +3,22 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-13T19:54:06+00:00</updated>
+  <updated>2026-05-13T20:05:42+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/bc195304ef872842a06c821c1bb801233ec2f088</id>
+    <title>chore(docs): обновление REPORT/VALIDATION в obsidian/confluence</title>
+    <link href="https://github.com/svend4/lorenzo/commit/bc195304ef872842a06c821c1bb801233ec2f088"/>
+    <updated>2026-05-13T20:00:51+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore(docs): обновление REPORT/VALIDATION в obsidian/confluence</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/VALIDATION.md">docs/obsidian/VALIDATION.md</a></li></ul><p>Коммит: <code>bc195304</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/5bf038ff730ae9fe55dd129915029ca1da369331</id>
+    <title>feat(docs-toolkit): спринт 90 завершён — E82+E83+E84, 366 новых тестов</title>
+    <link href="https://github.com/svend4/lorenzo/commit/5bf038ff730ae9fe55dd129915029ca1da369331"/>
+    <updated>2026-05-13T19:55:01+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>feat(docs-toolkit): спринт 90 завершён — E82+E83+E84, 366 новых тестов</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li></ul><p>Коммит: <code>5bf038ff</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/2f6f74564c7c9e2ca25f80dd1392155fd1422d95</id>
     <title>chore(docs): regenerate catalogs to fix CI check</title>
@@ -130,19 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/dedfe11df266b9cfea355ff3402fd0212bb94be3"/>
     <updated>2026-04-29T16:33:38+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 48-50</strong></p><p>Коммит: <code>dedfe11d</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/74b242b573b33a65d0d64f7f040ae8dd8b1855ae</id>
-    <title>chore: regenerate auto-feeds after Sprint 45-47</title>
-    <link href="https://github.com/svend4/lorenzo/commit/74b242b573b33a65d0d64f7f040ae8dd8b1855ae"/>
-    <updated>2026-04-29T16:17:37+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 45-47</strong></p><p>Коммит: <code>74b242b5</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/7c83cefc23f0fd01b869a7a530b97e321ed3d608</id>
-    <title>chore: синхронизировать docs после обновления корпуса</title>
-    <link href="https://github.com/svend4/lorenzo/commit/7c83cefc23f0fd01b869a7a530b97e321ed3d608"/>
-    <updated>2026-04-29T16:17:14+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>chore: синхронизировать docs после обновления корпуса</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/00-intro-part2.md">docs/01-svyazi/00-intro-part2.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/136-abstract.md">docs/02-anthropic-vacancies/136-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/153-executive-summary.md">docs/02-anthropic-vacancies/153-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/16-history.md">docs/02-anthropic-vacancies/16-history.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/168-abstract.md">docs/02-anthropic-vacancies/168-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/18-6-adapter-interface.md">docs/02-anthropic-vacancies/18-6-adapter-interface.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md">docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/210-abstract.md">docs/02-anthropic-vacancies/210-abstract.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/223-12-closing.md">docs/02-anthropic-vacancies/223-12-closing.md</a></li></ul><p>Коммит: <code>7c83cefc</code></p>]]></content>
   </entry>
 </feed>
