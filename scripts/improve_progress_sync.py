@@ -146,7 +146,7 @@ def check_prototype() -> dict:
     prec    = DOCS / "PRECISION_EVAL.md"
     hit_rate = None
     if prec.exists():
-        m = re.search(r'Hit Rate@10\s*\|\s*\*\*([\d.]+)\*\*', prec.read_text(encoding="utf-8"))
+        m = re.search(r'Hit Rate@\d+\s*\|\s*\*\*([\d.]+)\*\*', prec.read_text(encoding="utf-8"))
         if m:
             hit_rate = float(m.group(1))
     return {
