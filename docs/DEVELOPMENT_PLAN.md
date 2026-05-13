@@ -15,8 +15,9 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | 4 — Живой корпус | `improve_github_tracker.py`, `improve_proposal_gen.py` (23 proposals), incremental IDF | ✅ |
 | 5 — Semantic + RFC | `improve_semantic_embeddings.py`, `improve_rfc_tracker.py`, 3 RFC Accepted | ✅ |
 | 6 — Autonomous Intelligence | `decay_card`/`restore_card`, `write_type`, watcher lifecycle, knowledge evolution | ✅ |
+| 7 — Production Hardening | rate limiting, audit trail, gateway write_type, decay_checker | ✅ |
 
-**Текущее распределение карточек:** 272 approved · 441 normalized · 451 raw · promote rate 61.3%
+**Текущее распределение карточек:** 274 approved · 441 normalized · 451 raw · promote rate 62.3%
 
 ## Итерация 6 — Autonomous Intelligence Layer
 
@@ -40,16 +41,27 @@ write  (6): add_card, update_card_state, propose_integration, list_cards,
              decay_card, restore_card
 ```
 
-### Следующий уровень (Итерация 7 — Production)
+## Итерация 7 — Production Hardening
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| Rate limiting MCP | `_write_rate_limit()` — 100ms между write-вызовами (RFC-0003) |
+| Audit trail | `_audit_write()` → `.claude/mcp_write_log.jsonl` для всех 6 write-инструментов |
+| Gateway write_type | `gateway.py`: `write_type: episode`, `written_by: gateway`, `written_at` |
+| `improve_decay_checker.py` | Поиск кандидатов на decay: stubs (377), near-dups (79) → `docs/DECAY_CANDIDATES.md` |
+| RFC-0002/0003 promoted | Оба RFC переведены в `normalized` → `approved` (274 approved итого) |
+
+### Следующий уровень (Итерация 8)
 
 | Задача | Сложность | Ценность |
 |--------|-----------|---------|
-| `improve_audit_db.py` integration | средняя | высокая — полный audit trail |
-| Rate limiting в MCP (100ms) | низкая | средняя |
 | Neural embeddings (sentence-transformers) | низкая (pip install) | высокая |
+| Auto-tagging 377 stub-карточек | средняя | высокая — поднимет promote rate |
 | Streaming Gateway (OpenAI SSE) | высокая | средняя |
-| GitHub Actions: lifecycle снапшот в KNOWLEDGE_EVOLUTION | низкая | высокая |
-| `improve_decay_checker.py` — авто-decay по возрасту + сигналам | средняя | средняя |
+| `improve_audit_db.py --rebuild` + stats | низкая | средняя |
+| Bulk decay stubs через `improve_decay_checker.py` | низкая | средняя |
 
 ---
 

@@ -434,7 +434,9 @@ def _exec_add_card(args: dict) -> str:
     target_dir = DOCS / section
     target_dir.mkdir(parents=True, exist_ok=True)
 
-    date     = datetime.now().strftime("%Y-%m-%d")
+    now      = datetime.now()
+    date     = now.strftime("%Y-%m-%d")
+    written_at = now.strftime("%Y-%m-%dT%H:%M:%S")
     tags_str = ", ".join(tags)
     preview  = content[:200].replace("\n", " ")
 
@@ -444,6 +446,9 @@ date: {date}
 tags: [{tags_str}]
 source: gateway
 state: raw
+write_type: episode
+written_by: gateway
+written_at: {written_at}
 ---
 
 # {title}

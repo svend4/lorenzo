@@ -998,3 +998,10 @@
 - `docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md`
 - `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md`
 - `docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md`
+
+## 2026-05-13 14:07
+
+
+### normalized → approved (2)
+- `docs/rfcs/RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md`
+- `docs/rfcs/RFC-0002-memory-write-policy-для-svyazi-2-0.md`

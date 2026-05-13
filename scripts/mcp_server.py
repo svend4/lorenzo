@@ -973,7 +973,36 @@ def _tool_update_contact(author: str, status: str, note: str) -> str:
 
 import math as _math
 import hashlib as _hashlib
+import time as _time
 from datetime import datetime as _dt
+
+# Rate limiting: max 1 write call per 100ms (RFC-0003)
+_last_write_ts: float = 0.0
+
+def _write_rate_limit() -> None:
+    global _last_write_ts
+    elapsed = _time.time() - _last_write_ts
+    if elapsed < 0.1:
+        _time.sleep(0.1 - elapsed)
+    _last_write_ts = _time.time()
+
+
+# Audit trail: append-only JSONL log for all write operations
+_AUDIT_LOG = ROOT / ".claude" / "mcp_write_log.jsonl"
+
+def _audit_write(tool: str, args_summary: dict, result_summary: str) -> None:
+    try:
+        _AUDIT_LOG.parent.mkdir(parents=True, exist_ok=True)
+        entry = json.dumps({
+            "ts":     _dt.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            "tool":   tool,
+            "args":   args_summary,
+            "result": result_summary[:120],
+        }, ensure_ascii=False)
+        with open(_AUDIT_LOG, "a", encoding="utf-8") as f:
+            f.write(entry + "\n")
+    except Exception:
+        pass
 
 
 def _mcp_tokenize(text: str) -> list[str]:
@@ -1053,6 +1082,7 @@ def _set_frontmatter_state(text: str, state: str) -> str:
 
 def _tool_add_card(title: str, content: str, section: str,
                    tags: list, source_url: str) -> str:
+    _write_rate_limit()
     if not title or not content:
         return "❌ title и content обязательны."
 
@@ -1112,6 +1142,7 @@ _Добавлено через Lorenzo MCP: {date}_
         pass
 
     _sync_passages_mcp(filepath)
+    _audit_write("add_card", {"title": title, "section": section}, f"created {filepath.name}")
 
     return (
         f"✅ Карточка создана:\n"
@@ -1124,6 +1155,7 @@ _Добавлено через Lorenzo MCP: {date}_
 
 
 def _tool_update_card_state(path_str: str, new_state: str, reason: str) -> str:
+    _write_rate_limit()
     if not path_str or not new_state:
         return "❌ Укажите path и new_state."
 
@@ -1154,6 +1186,8 @@ def _tool_update_card_state(path_str: str, new_state: str, reason: str) -> str:
         new_text = new_text + reason_block
 
     filepath.write_text(new_text, encoding="utf-8")
+    _audit_write("update_card_state", {"path": path_str, "new_state": new_state},
+                 f"{old_state} → {new_state}")
 
     return (
         f"✅ Статус обновлён:\n"
@@ -1165,6 +1199,7 @@ def _tool_update_card_state(path_str: str, new_state: str, reason: str) -> str:
 
 def _tool_propose_integration(project_a: str, project_b: str,
                                hypothesis: str, rationale: str) -> str:
+    _write_rate_limit()
     if not project_a or not project_b or not hypothesis:
         return "❌ Укажите project_a, project_b и hypothesis."
 
@@ -1238,6 +1273,9 @@ _Proposal создан через Lorenzo MCP: {date}_
         pass
 
     _sync_passages_mcp(filepath)
+    _audit_write("propose_integration",
+                 {"project_a": project_a, "project_b": project_b},
+                 f"proposal {filepath.name}")
 
     return (
         f"✅ Proposal создан:\n"
@@ -1300,6 +1338,7 @@ def _tool_list_cards(state: str, section: str, limit: int) -> str:
 # decay_card и restore_card (RFC-0002 decay_event / restore_event)
 
 def _tool_decay_card(path_str: str, reason: str) -> str:
+    _write_rate_limit()
     if not path_str:
         return "❌ Укажите path карточки."
     if not reason:
@@ -1332,6 +1371,8 @@ def _tool_decay_card(path_str: str, reason: str) -> str:
     # Добавить decay_event в конец файла
     text += f"\n<!-- decay_event: {current} → decayed | {now} | {reason} -->\n"
     filepath.write_text(text, encoding="utf-8")
+    _audit_write("decay_card", {"path": path_str, "reason": reason[:60]},
+                 f"{current} → decayed")
 
     return (
         f"✅ Карточка помечена как decayed:\n"
@@ -1344,6 +1385,7 @@ def _tool_decay_card(path_str: str, reason: str) -> str:
 
 
 def _tool_restore_card(path_str: str, reason: str) -> str:
+    _write_rate_limit()
     if not path_str:
         return "❌ Укажите path карточки."
 
@@ -1370,6 +1412,7 @@ def _tool_restore_card(path_str: str, reason: str) -> str:
     reason_note = f" | {reason}" if reason else ""
     text += f"\n<!-- restore_event: decayed → raw | {now}{reason_note} -->\n"
     filepath.write_text(text, encoding="utf-8")
+    _audit_write("restore_card", {"path": path_str}, "decayed → raw")
 
     return (
         f"✅ Карточка восстановлена:\n"

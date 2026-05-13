@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 rfc: "0003"
 title: "MCP Write-back Protocol для Svyazi 2.0"
 status: Accepted

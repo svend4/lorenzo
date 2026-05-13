@@ -49,6 +49,7 @@ scripts/
   improve_rfc_tracker.py     — RFC-система: Draft→Proposed→Accepted|Rejected|Superseded (docs/rfcs/)
   improve_semantic_embeddings.py — семантический индекс (ST + TF-IDF fallback, 1166 docs → docs/semantic_index.json)
   improve_knowledge_evolution.py — снапшоты KPI базы знаний во времени → docs/KNOWLEDGE_EVOLUTION.md
+  improve_decay_checker.py    — поиск кандидатов на decay: stubs, orphans, near-dups → DECAY_CANDIDATES.md
   review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
   prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
   improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
@@ -345,7 +346,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 
 1. **Написать авторам** — файлы готовы в `docs/contacts/`, нужно только отправить
 2. **LLM-обогащение** — `improve_llm_enrich.py` обогатит файлы за ~$0.011
-3. **Прототип** — Все 6 итераций ✅ ВЫПОЛНЕНО + расширения: RFC-система, 23 proposals, lifecycle CI, decay/restore
+3. **Прототип** — Все 7 итераций ✅ ВЫПОЛНЕНО + расширения: RFC-система, 23 proposals, lifecycle CI, decay/restore, audit trail
 
 ## Статус прототипа (PROTOTYPE_SPEC.md)
 
@@ -358,6 +359,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 | 4 — Gateway & Enrichment | ✅ Готово | OpenAI-compatible API, write-back + dedup, function calling, Review Queue |
 | 5 — RFC & Semantic Layer | ✅ Готово | RFC-система (3 RFC Accepted), ST+TF-IDF 1166 docs, MCP 15 инструментов |
 | 6 — Autonomous Intelligence | ✅ Готово | decay_card/restore_card, write_type audit trail, watcher lifecycle rules, knowledge evolution |
+| 7 — Production Hardening | ✅ Готово | rate limiting, JSONL audit trail, gateway write_type, decay_checker (410 кандидатов) |
 
 ### Collaboration Finder (Итерация 3)
 ```bash
