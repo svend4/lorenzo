@@ -45,8 +45,24 @@ def _split_sentences(text: str) -> list[str]:
 
 
 def _join_sentences(sentences: list[str]) -> str:
-    """Re-join sentences with '. ' separator, strip trailing whitespace."""
-    return ". ".join(sentences).strip()
+    """Re-join sentences with ' ' separator, strip trailing whitespace.
+
+    Sentences that already end with punctuation (.!?) are joined with a space;
+    sentences that do not are given a period before the space.
+    """
+    if not sentences:
+        return ""
+    parts = []
+    for i, s in enumerate(sentences):
+        s = s.strip()
+        if not s:
+            continue
+        if i < len(sentences) - 1:
+            # Ensure sentence ends with punctuation before the next one
+            if s and s[-1] not in ".!?":
+                s = s + "."
+        parts.append(s)
+    return " ".join(parts).strip()
 
 
 def mutate(
