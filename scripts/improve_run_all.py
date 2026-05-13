@@ -106,6 +106,7 @@ GROUPS = {
         "improve_network.py",
         "improve_narrative.py",
         "improve_graph_search.py",   # graph-neighbourhood поиск (stats only в авто-режиме)
+        "improve_multi_query.py",    # многозапросный поиск с RRF-слиянием (eval в авто-режиме)
     ],
     "generate": [
         # Генерация файлов из шаблонов и данных (после extract/analysis)
@@ -176,6 +177,7 @@ GROUPS = {
         "improve_changelog_auto.py",    # автоматический changelog из git-истории
         "improve_digest_weekly.py",     # еженедельный дайджест изменений
         "improve_dependency_map.py",    # карта зависимостей скриптов → DEPENDENCY_MAP.md
+        "improve_feedback_loop.py",     # анализ пробелов в запросах → FEEDBACK_LOOP.md
         "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "textwork": [

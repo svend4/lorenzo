@@ -63,6 +63,24 @@ jobs:
       - name: Update search index
         run: python scripts/improve_search_index.py
 
+      - name: Build ANN index (pure-Python, no deps)
+        run: python scripts/improve_ann_index.py --build
+
+      - name: Build card knowledge graph + PageRank
+        run: python scripts/improve_card_graph.py
+
+      - name: Compute hot cards
+        run: python scripts/improve_hot_cards.py
+
+      - name: Retrieval quality gate (Hit Rate@10 ≥ 0.70)
+        run: python scripts/improve_precision_eval.py --k 10
+
+      - name: Take knowledge snapshot
+        run: python scripts/improve_knowledge_snapshot.py
+
+      - name: Generate weekly digest
+        run: python scripts/improve_digest_weekly.py
+
       - name: Generate RSS feed
         run: python scripts/improve_rss.py
 
@@ -70,6 +88,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
+          git add docs/ .claude/hot_cards.json .claude/skill_quality.json
           git diff --staged --quiet || git commit -m "docs: auto-update metrics [skip ci]"
           git push

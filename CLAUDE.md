@@ -61,6 +61,8 @@ scripts/
   improve_hot_cards.py        — горячие карточки: 0.4×PageRank + 0.3×query_freq + 0.2×state + 0.1×summary → HOT_CARDS.md
   improve_knowledge_snapshot.py — KPI snapshot (corpus/search/graph/skills) → KNOWLEDGE_SNAPSHOT.md + snapshots/YYYYMMDD.json
   improve_contact_personalize.py — template-based contact message drafts (memory/knowledge/orchestration) → contacts/{author}_draft.md
+  improve_multi_query.py — многозапросный поиск: декомпозиция + RRF-слияние + PageRank boost → CLI: --query/--decompose/--eval
+  improve_feedback_loop.py — анализ query_log: zero-result/low-result gaps + BM25 → stub cards + FEEDBACK_LOOP.md + gap_queue.jsonl
   review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
   prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
   improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
@@ -378,6 +380,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 | 12 — PageRank-Boosted Search | ✅ Готово | PageRank boost (alpha=0.3, cap=0.4) в gateway + semantic_search; improve_graph_search.py: neighbourhood BFS |
 | 13 — ANN Index + Query Analytics + Hot Cards | ✅ Готово | pure-Python ANN (0ms warm); query_log.jsonl; QUERY_ANALYTICS.md; HOT_CARDS.md composite score |
 | 14 — Search Boost + Digest + Snapshot + Contacts | ✅ Готово | title-match boost (Hit Rate@10=1.000); weekly digest+hot cards; KNOWLEDGE_SNAPSHOT; 15 contact drafts |
+| 15 — CI Quality Gate + Multi-Query + Feedback Loop | ✅ Готово | CI 6-step pipeline; improve_multi_query.py (RRF+decompose); improve_feedback_loop.py (gap detection+stubs) |
 
 ### Collaboration Finder (Итерация 3)
 ```bash
@@ -408,6 +411,25 @@ python scripts/improve_graph_search.py --query "Yodoca" --json
 python scripts/improve_graph_search.py --stats   # статистика графа (узлы, рёбра, хабы)
 # PageRank boost встроен в гибридный поиск:
 python scripts/improve_semantic_search.py --query "агент память" --mode hybrid
+```
+
+### Multi-Query Search (Итерация 15)
+```bash
+python scripts/improve_multi_query.py --query "агент память MCP SQLite"
+python scripts/improve_multi_query.py --query "RAG + BM25 + граф знаний" --top 10
+python scripts/improve_multi_query.py --query "Svyazi CardIndex" --no-graph
+python scripts/improve_multi_query.py --decompose "агент память MCP SQLite"  # декомпозиция
+python scripts/improve_multi_query.py --eval   # сравнение multi vs single-query
+```
+
+### Feedback Loop (Итерация 15)
+```bash
+python scripts/improve_feedback_loop.py           # анализ gap за 7 дней
+python scripts/improve_feedback_loop.py --apply   # создать stub-карточки для zero-result
+python scripts/improve_feedback_loop.py --days 30 # lookback 30 дней
+python scripts/improve_feedback_loop.py --json    # JSON вывод gap-статистики
+# Результаты: docs/FEEDBACK_LOOP.md + .claude/gap_queue.jsonl
+# Stub-карточки: docs/cards/generated/{slug}.md (state: raw, tags: [gap, generated])
 ```
 
 ### RFC-система (Итерация 5)

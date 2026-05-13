@@ -23,6 +23,7 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | 12 — PageRank-Boosted Search | PageRank boost в hybrid_search + `improve_graph_search.py` (neighbourhood search) | ✅ |
 | 13 — ANN Index + Query Analytics + Hot Cards | pure-Python ANN (0ms warm), query logging, hot cards composite score | ✅ |
 | 14 — Search Boost + Digest + Snapshot + Contacts | title-match boost (Hit Rate 100%), weekly digest, knowledge snapshot, contact drafts | ✅ |
+| 15 — CI Quality Gate + Multi-Query + Feedback Loop | CI 6-step pipeline, multi-query RRF fusion, corpus gap feedback loop | ✅ |
 
 **Текущее распределение карточек:** 1005 approved · 109 normalized · 51 raw · promote rate 98.7%
 
@@ -213,13 +214,101 @@ python scripts/improve_contact_personalize.py --author kksudo
 python scripts/improve_contact_personalize.py --stats     # таблица статусов
 ```
 
-### Следующий уровень (Итерация 15)
+---
+
+## Итерация 15 — CI Quality Gate + Multi-Query + Feedback Loop
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| `.github/workflows/docs.yml` расширен | +6 шагов: ANN build → card graph → hot cards → precision eval gate (Hit Rate@10 ≥ 0.70) → knowledge snapshot → weekly digest |
+| `improve_multi_query.py` (новый) | Многозапросный поиск с RRF-слиянием. 4 стратегии декомпозиции: delimiter split, clause split, overlapping halves (≥7 токенов), passthrough. Взвешенный RRF + PageRank boost. CLI: `--query`, `--decompose`, `--eval`, `--no-graph`, `--top` |
+| `improve_feedback_loop.py` (новый) | Читает `.claude/query_log.jsonl`, выявляет zero-result/low-result/high-demand запросы. BM25 поиск связанного контента. Создаёт заглушки `docs/cards/generated/{slug}.md` при `--apply`. Выводит `docs/FEEDBACK_LOOP.md` + `.claude/gap_queue.jsonl` |
+| `improve_run_all.py` обновлён | `improve_multi_query.py` в группе graph; `improve_feedback_loop.py` в группе analytics |
+
+### Архитектура CI Quality Gate
+
+```
+push to main
+  ↓
+Run fast scripts (--group reports)
+  ↓
+Auto-summarize pass 1/2/3 + promote
+  ↓
+Update search index
+  ↓ ← NEW STEPS
+Build ANN index (pure-Python, 0ms warm)
+  ↓
+Build card graph + PageRank
+  ↓
+Compute hot cards (composite score)
+  ↓
+Retrieval quality gate: Hit Rate@10 ≥ 0.70  ← CI FAILS if quality regresses
+  ↓
+Knowledge snapshot (YYYYMMDD.json)
+  ↓
+Weekly digest
+  ↓
+Commit & push auto-updated docs
+```
+
+### Архитектура multi-query search
+
+```
+query: "агент память MCP SQLite консолидация"
+  ↓ decompose_query()
+sub_queries = ["агент память MCP SQLite", "SQLite консолидация"]  (overlapping halves)
+
+  ↓ для каждого sub_query: hybrid_search() → result_list
+  ↓ опционально: graph_search(original_query) → graph_results
+
+  ↓ _rrf_merge(result_lists, weights=[1.2, 1.0, 0.8], k=60)
+     score = Σ_j  w_j / (60 + rank_j + 1)
+     score *= (1 + 0.3 × pagerank)
+
+  ↓ top-K результатов с полем _mq_score
+```
+
+### Архитектура feedback loop
+
+```
+.claude/query_log.jsonl
+  ↓ load_log(days=7)
+  ↓ detect_gaps()
+
+zero_result: ["RAG квант", "memory palace"]   → BM25 → related cards → create stub
+low_result:  ["MCP write back", "ANN HNSW"]   → рекомендация обогатить
+high_demand: [("агент память", 5), ...]        → приоритет в следующем цикле
+
+  ↓ build_report() → docs/FEEDBACK_LOOP.md
+  ↓ append .claude/gap_queue.jsonl
+  ↓ --apply: создать docs/cards/generated/{slug}.md (state: raw, tags: [gap, generated])
+```
+
+### CLI
+
+```bash
+# Multi-query search
+python scripts/improve_multi_query.py --query "агент память MCP SQLite"
+python scripts/improve_multi_query.py --query "RAG + BM25 + граф знаний" --top 10
+python scripts/improve_multi_query.py --decompose "агент память MCP SQLite"  # показать декомпозицию
+python scripts/improve_multi_query.py --eval   # сравнение multi vs single на eval set
+
+# Feedback loop
+python scripts/improve_feedback_loop.py           # анализ gap за 7 дней
+python scripts/improve_feedback_loop.py --apply   # создать stub-карточки для gap
+python scripts/improve_feedback_loop.py --days 30 # lookback 30 дней
+python scripts/improve_feedback_loop.py --json    # JSON output
+```
+
+### Следующий уровень (Итерация 16)
 
 | Задача | Сложность | Ценность |
 |--------|-----------|---------|
 | LLM-enhanced contact messages (ANTHROPIC_API_KEY) | средняя | высокая |
-| Multi-hop reasoning: multi-query graph expansion | высокая | высокая |
-| Автоматическое обновление hot_cards при каждом цикле | низкая | средняя |
+| Auto-fill gap stubs from related content (feedback_loop + gap_filler) | средняя | высокая |
+| A/B test multi-query vs single-query hit rate via precision_eval | низкая | средняя |
 
 ---
 
