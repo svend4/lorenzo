@@ -5,7 +5,21 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 13 May 2026 08:37:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 10:51:17 GMT</lastBuildDate>
+    <item>
+      <title>chore: refresh generated docs artifacts</title>
+      <link>https://github.com/svend4/lorenzo/commit/d9149526e0de0403ecc60da76e680ca07ef185f9</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d9149526e0de0403ecc60da76e680ca07ef185f9</guid>
+      <pubDate>Wed, 13 May 2026 10:46:01 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: refresh generated docs artifacts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CLUSTERS.md">docs/CLUSTERS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONSISTENCY.md">docs/CONSISTENCY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTENT_GAPS.md">docs/CONTENT_GAPS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CROSS_SECTION.md">docs/CROSS_SECTION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DECISIONS.md">docs/DECISIONS.md</a></li></ul><p>Коммит: <code>d9149526</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: update generated docs artifacts from local script runs</title>
+      <link>https://github.com/svend4/lorenzo/commit/d06103a5c280c91d2e32a0a68b60cfc09b46ca87</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d06103a5c280c91d2e32a0a68b60cfc09b46ca87</guid>
+      <pubDate>Wed, 13 May 2026 08:39:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: update generated docs artifacts from local script runs</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CLUSTERS.md">docs/CLUSTERS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONSISTENCY.md">docs/CONSISTENCY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTENT_GAPS.md">docs/CONTENT_GAPS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CROSS_SECTION.md">docs/CROSS_SECTION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DECISIONS.md">docs/DECISIONS.md</a></li></ul><p>Коммит: <code>d06103a5</code></p>]]></description>
+    </item>
     <item>
       <title>chore: update generated docs artifacts from local script runs</title>
       <link>https://github.com/svend4/lorenzo/commit/be0834cabc32f5d0d267160b2331b194caea8ec5</link>

@@ -205,9 +205,9 @@ _Обновлено: 2026-05-13_
 | `07-prakticheskie-shagi.md` | 77% | 23% |
 | `115-8-ограничения-и-открытые-вопросы.md` | 77% | 23% |
 | `119-appendix-b-примеры-расхождений-и-их-разрешения.md` | 77% | 23% |
-| `DIGEST_AUTO.md` | 23% | 77% |
 | `323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | 23% | 77% |
 | `334-8-импликации-для-nautilus-и-okwf.md` | 77% | 23% |
+| `DIGEST_AUTO.md` | 23% | 77% |
 | `18-llm-powered-legal-corpus-builder.md` | 23% | 77% |
 | `348-кому-ты-служишь-слоистая-модель.md` | 77% | 23% |
 | `10-q10-funding-model.md` | 23% | 77% |
@@ -391,7 +391,6 @@ _Обновлено: 2026-05-13_
 | `08-implikatsii-nautilus-okwf.md` | 69% | 31% |
 | `README.md` | 69% | 31% |
 | `memnet.md` | 69% | 31% |
-| `SUMMARIES.md` | 31% | 69% |
 | `08-promyshlennost-postroit.md` | 69% | 31% |
 | `03-nautilus-B-meta-orchestrator.md` | 69% | 31% |
 | `kksudo.md` | 31% | 69% |
@@ -437,6 +436,7 @@ _Обновлено: 2026-05-13_
 | `321-appendix-a-decision-tree-for-ingit-adopters.md` | 32% | 68% |
 | `340-приложение-b-сравнительная-матрица.md` | 68% | 32% |
 | `92-17-versioning-policy.md` | 32% | 68% |
+| `SUMMARIES.md` | 32% | 68% |
 | `04-structuring.md` | 68% | 32% |
 | `faq-entry.md` | 68% | 32% |
 | `overview.md` | 33% | 67% |
@@ -640,7 +640,6 @@ _Обновлено: 2026-05-13_
 | `02-existing-niche.md` | 61% | 39% |
 | `message-template.md` | 61% | 39% |
 | `353-что-ты-не-можешь-делать-вообще.md` | 61% | 39% |
-| `COMPARE.md` | 39% | 61% |
 | `COMPLEXITY.md` | 61% | 39% |
 | `09-federated-platform.md` | 39% | 61% |
 | `1-one-person-one-company.md` | 61% | 39% |
@@ -653,6 +652,7 @@ _Обновлено: 2026-05-13_
 | `363-твоя-identity-как-persistent-character.md` | 61% | 39% |
 | `QA.md` | 61% | 39% |
 | `02-final-ranking.md` | 61% | 39% |
+| `COMPARE.md` | 39% | 61% |
 | `00-question-scenario.md` | 61% | 39% |
 | `01-what-to-anonymize-german-standard.md` | 61% | 39% |
 | `59-angle-perspective.md` | 40% | 60% |
@@ -798,6 +798,7 @@ _Обновлено: 2026-05-13_
 | `352-что-ты-не-можешь-делать-без-max-approval.md` | 57% | 43% |
 | `COMPONENT_MATRIX.md` | 43% | 57% |
 | `7-autoresearch-distributed.md` | 57% | 43% |
+| `CONTRADICTIONS.md` | 43% | 57% |
 | `07-current-implementations.md` | 57% | 43% |
 | `114-7-реализация-в-проекте-nautilus.md` | 57% | 43% |
 | `gaps.md` | 43% | 57% |
@@ -836,7 +837,6 @@ _Обновлено: 2026-05-13_
 | `07-section-7-success-metrics.md` | 44% | 56% |
 | `11-dhlab-documents.md` | 44% | 56% |
 | `spbmolot.md` | 56% | 44% |
-| `CONTRADICTIONS.md` | 44% | 56% |
 | `13-outreach-communication.md` | 56% | 44% |
 | `skill-tool-policy.md` | 56% | 44% |
 | `02-vitaly-graph-cognitive-memory.md` | 56% | 44% |
@@ -873,6 +873,7 @@ _Обновлено: 2026-05-13_
 | `02-terminology.md` | 55% | 45% |
 | `project-component.md` | 55% | 45% |
 | `74-abstract.md` | 55% | 46% |
+| `DUPLICATES.md` | 46% | 54% |
 | `01-introduction.md` | 54% | 46% |
 | `05-compatibility-levels.md` | 46% | 54% |
 | `20-8-consensus-algorithm.md` | 46% | 54% |
@@ -902,6 +903,7 @@ _Обновлено: 2026-05-13_
 | `F-evidence-backed-intake.md` | 54% | 46% |
 | `11-integration-contracts.md` | 54% | 46% |
 | `knowledge-space.md` | 54% | 46% |
+| `CONCEPT_GRAPH.md` | 54% | 46% |
 | `README.md` | 46% | 54% |
 | `06-level-5-full-network.md` | 54% | 46% |
 | `mvp-plan.md` | 54% | 46% |
@@ -913,6 +915,7 @@ _Обновлено: 2026-05-13_
 | `HEATMAP.md` | 46% | 54% |
 | `08-q6-space.md` | 46% | 54% |
 | `tech-pair.md` | 54% | 46% |
+| `STATS.md` | 46% | 54% |
 | `5-agent-firewall.md` | 46% | 54% |
 | `10-three-entry-points.md` | 54% | 46% |
 | `8-self-aware-mcp-specs.md` | 54% | 46% |
@@ -948,13 +951,11 @@ _Обновлено: 2026-05-13_
 | `70-зачем-две-версии-параллельно.md` | 47% | 53% |
 | `agentfs.md` | 53% | 47% |
 | `ONBOARDING.md` | 47% | 53% |
-| `STATS.md` | 47% | 53% |
 | `04-claude-subagents-patterns.md` | 53% | 47% |
 | `card-envelope.md` | 53% | 47% |
 | `B-forensic-rag.md` | 47% | 53% |
 | `conclusions.md` | 53% | 47% |
 | `345-кто-ты.md` | 53% | 47% |
-| `CONCEPT_GRAPH.md` | 53% | 47% |
 | `PROTOTYPE_SPEC.md` | 47% | 53% |
 | `17-appendix-b-change-log.md` | 53% | 47% |
 | `02-three-overlapping-identities.md` | 52% | 48% |
@@ -983,7 +984,6 @@ _Обновлено: 2026-05-13_
 | `08-practical-ranking.md` | 52% | 48% |
 | `nlaik.md` | 52% | 48% |
 | `133-обратная-связь.md` | 48% | 52% |
-| `DUPLICATES.md` | 48% | 52% |
 | `01-response.md` | 48% | 52% |
 | `01-strategic-significance.md` | 52% | 48% |
 | `02-formal-workflow.md` | 52% | 47% |

@@ -21,11 +21,11 @@ _Период: 2026-05-06 — 2026-05-13 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **66** |
+| Коммитов | **68** |
 | Новых файлов | **20** |
 | Изменённых файлов | **0** |
-| Слов добавлено | **+5,677,408** |
-| Слов удалено | **−6,389,797** |
+| Слов добавлено | **+5,488,423** |
+| Слов удалено | **−6,465,925** |
 
 ## Активность по секциям
 
@@ -42,6 +42,8 @@ _Период: 2026-05-06 — 2026-05-13 (7 дней)_
 
 ## Последние коммиты
 
+- `2026-05-13` [d9149526] chore: refresh generated docs artifacts
+- `2026-05-13` [d06103a5] chore: update generated docs artifacts from local script runs
 - `2026-05-13` [061b7825] Merge pull request #18 from svend4/claude/continue-development-BrDvi
 - `2026-05-13` [10ba7443] Merge branch 'main' of http://127.0.0.1:44699/git/svend4/lorenzo into 
 - `2026-05-13` [be0834ca] chore: update generated docs artifacts from local script runs
@@ -50,8 +52,6 @@ _Период: 2026-05-06 — 2026-05-13 (7 дней)_
 - `2026-05-13` [8b52bdd7] fix(gateway): match Hit Rate@K for any K in benchmark endpoint regex
 - `2026-05-13` [c7bfea23] chore: sync catalog files after merge (remove injected auto-sections)
 - `2026-05-13` [bce3f586] fix: resolve merge conflicts with main (take ours for code, theirs for
-- `2026-05-13` [4102b14d] chore: update generated docs artifacts from local script runs
-- `2026-05-13` [1ed4b81b] chore: update generated docs artifacts from local script runs
 
 ## Новые файлы
 
@@ -75,21 +75,21 @@ _Период: 2026-05-06 — 2026-05-13 (7 дней)_
 
 | Слово | Добавлено | Удалено |
 |-------|-----------|---------|
-| `anthropic` | +100318 | −137645 |
-| `vacancies` | +77154 | −102432 |
-| `nautilus` | +60456 | −69220 |
-| `obsidian` | +51702 | −26566 |
-| `документ` | +46396 | −9526 |
-| `agent` | +44050 | −54721 |
-| `readme` | +38881 | −20188 |
-| `использование` | +37594 | −345 |
-| `heading` | +37202 | −28446 |
-| `также` | +34868 | −11993 |
-| `смотрите` | +34850 | −11314 |
-| `быстро` | +33859 | −21794 |
-| `svyazi` | +32061 | −38171 |
-| `документы` | +30732 | −20958 |
-| `strong` | +29586 | −64276 |
+| `anthropic` | +100012 | −139292 |
+| `vacancies` | +77325 | −103100 |
+| `nautilus` | +60415 | −70104 |
+| `obsidian` | +51875 | −27428 |
+| `agent` | +43248 | −55618 |
+| `документ` | +43156 | −9676 |
+| `heading` | +37240 | −28446 |
+| `readme` | +37007 | −20219 |
+| `быстро` | +33843 | −21795 |
+| `использование` | +32869 | −346 |
+| `svyazi` | +31581 | −38621 |
+| `смотрите` | +29869 | −11303 |
+| `также` | +29865 | −11998 |
+| `strong` | +29685 | −64261 |
+| `lorenzo` | +28861 | −24035 |
 
 ## Новые концепты
 
@@ -109,7 +109,7 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
 - [DIGEST](DIGEST.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [TAGS](TAGS.md)
 
 
 <!-- backlinks -->

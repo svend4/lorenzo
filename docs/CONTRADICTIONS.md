@@ -1,8 +1,21 @@
 # Противоречия в базе знаний
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> Утверждений: **81452** | Противоречий: **9615**
+**Проекты:** Svyazi, knowledge-space, Rufler, LiteParse, NGT Memory, MemNet, SENTINEL, Auto AI Router
+
+---
+
+
+
 _Обновлено: 2026-05-13_
 
-Утверждений: **81462** | Противоречий: **9623**
+Утверждений: **81452** | Противоречий: **9615**
 
 > Автоматический поиск без LLM — возможны ложные срабатывания.
 
@@ -176,19 +189,7 @@ _Обновлено: 2026-05-13_
 
 ---
 
-### 15. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `match`, `pendingreview`, `proposalid`, `reviewstate`
-
-**A:** `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
-> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
-
-**B:** `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md`
-> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
-
----
-
-### 16. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
+### 15. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `различение`, `слоёв`, `трёх`
 
@@ -200,7 +201,7 @@ _Обновлено: 2026-05-13_
 
 ---
 
-### 17. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
+### 16. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `attention`, `full`, `moe`, `ssm`
 
@@ -209,6 +210,18 @@ _Обновлено: 2026-05-13_
 
 **B:** `docs/05-habr-projects/memory/memnet.md`
 > 5: 4 слоя full attention + 36 слоёв SSM + MoE-роутер с 8+1 экспертами на слой
+
+---
+
+### 17. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `match`, `pendingreview`, `proposalid`, `reviewstate`
+
+**A:** `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
+> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
+
+**B:** `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md`
+> YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a
 
 ---
 
@@ -367,4 +380,31 @@ _Обновлено: 2026-05-13_
 > md) — Наиболее рациональный прототип — не собирать всё сразу, а доказать одну центральную способность: система находит и … - 08-conclusions
 
 ---
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DUPLICATES](DUPLICATES.md)
+- [PRIORITIES](PRIORITIES.md)
+- [TOPIC_MODEL](TOPIC_MODEL.md)
+- [WORD_FREQ](WORD_FREQ.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [08-что-это-продолжение-добавляет](04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+- _...ещё 2_
 

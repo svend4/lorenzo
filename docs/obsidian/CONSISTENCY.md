@@ -20,20 +20,20 @@ date: 2026-05-13
 | **AI Factory** | `AI Factory` | `AI-Factory` | 42 |
 | **NGT Memory** | `NGT Memory` | `NGT-Memory` | 105 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 4 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 44 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 43 |
 | **local-first** | `local-first` | `local first` | 8 |
 | **local-first** | `local-first` | `localfirst` | 4 |
 | **local-first** | `local-first` | `Local First` | 8 |
 | **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 8 |
-| **self-improvement** | `self-improvement` | `self-improve` | 270 |
+| **self-improvement** | `self-improvement` | `self-improve` | 269 |
 | **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 6 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 42 |
 | **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 39 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 30 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 38 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 32 |
 
-**Всего несогласованных написаний: 662**
+**Всего несогласованных написаний: 661**
 
 
 ## Детали по файлам
@@ -111,7 +111,7 @@ date: 2026-05-13
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/TABLES.md`
-- _...и ещё 39_
+- _...и ещё 38_
 
 ### `local first` → должно быть `local-first`
 
@@ -154,7 +154,7 @@ date: 2026-05-13
 - `docs/TABLES.md`
 - `docs/METHODOLOGY.md`
 - `docs/TAGS.md`
-- _...и ещё 265_
+- _...и ещё 264_
 
 ### `selfimprovement` → должно быть `self-improvement`
 
@@ -191,7 +191,7 @@ date: 2026-05-13
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/PROTOTYPE_SPEC.md`
-- _...и ещё 34_
+- _...и ещё 33_
 
 ## Как исправить
 

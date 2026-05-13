@@ -4,7 +4,7 @@
 Документов: 2266, кластеров: 172
 
 
-## Кластер 1 — концептов, поиска, репозитория, через (356 файлов)
+## Кластер 1 — концептов, поиска, репозитория, через (354 файлов)
 
 - `docs/01-svyazi/00-intro-part2.md` — _00-intro-part2_
 - `docs/02-anthropic-vacancies/120-главные-технические-риски.md` — _120-главные-технические-риски_
@@ -16,7 +16,7 @@
 - `docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md` — _298-что-этот-документ-не-решает_
 - `docs/02-anthropic-vacancies/345-кто-ты.md` — _345-кто-ты_
 - `docs/02-anthropic-vacancies/346-твоё-происхождение.md` — _346-твоё-происхождение_
-- _...и ещё 346 файлов_
+- _...и ещё 344 файлов_
 
 ## Кластер 2 — turn, view, svyazi, agentfs (98 файлов)
 
@@ -186,7 +186,21 @@
 - `docs/ROADMAP/04-NOVEL.md` — _04-NOVEL_
 - _...и ещё 27 файлов_
 
-## Кластер 14 — info, camel, engineer, svend (36 файлов)
+## Кластер 14 — docs, anthropic-vacancies, localhost, http (37 файлов)
+
+- `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
+- `docs/COMPARE.md` — _COMPARE_
+- `docs/CONSISTENCY.md` — _CONSISTENCY_
+- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
+- `docs/COVERAGE.md` — _COVERAGE_
+- `docs/DIGEST_WEEKLY.md` — _DIGEST_WEEKLY_
+- `docs/DUPLICATES.md` — _DUPLICATES_
+- `docs/GATEWAY.md` — _GATEWAY_
+- `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
+- `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
+- _...и ещё 27 файлов_
+
+## Кластер 15 — info, camel, engineer, svend (36 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md` — _00-intro_
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` — _01-интегральный-анализ-профиля-svend4_
@@ -199,20 +213,6 @@
 - `docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md` — _03-nautilus-B-meta-orchestrator_
 - `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` — _02-what-info-repos-contain_
 - _...и ещё 26 файлов_
-
-## Кластер 15 — docs, anthropic-vacancies, localhost, http (35 файлов)
-
-- `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
-- `docs/COMPARE.md` — _COMPARE_
-- `docs/CONSISTENCY.md` — _CONSISTENCY_
-- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
-- `docs/COVERAGE.md` — _COVERAGE_
-- `docs/DIGEST_WEEKLY.md` — _DIGEST_WEEKLY_
-- `docs/GATEWAY.md` — _GATEWAY_
-- `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
-- `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
-- `docs/LINKS.md` — _LINKS_
-- _...и ещё 25 файлов_
 
 ## Кластер 16 — com, https, habr, articles (34 файлов)
 

@@ -461,7 +461,7 @@ _Смотрите также:_
 * [[SOURCE_MAP]]
 * [[HEADING_AUDIT]]
 * [[PARAGRAPH_QUALITY]]
-* [[READABILITY]]
+* [[CLUSTERS]]
 
 
 

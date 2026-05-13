@@ -457,7 +457,7 @@ date: 2026-05-13
 - [[SOURCE_MAP]]
 - [[HEADING_AUDIT]]
 - [[PARAGRAPH_QUALITY]]
-- [[READABILITY]]
+- [[CLUSTERS]]
 
 
 <!-- backlinks -->

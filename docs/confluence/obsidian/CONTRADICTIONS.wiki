@@ -14,7 +14,7 @@ h1. Противоречия в базе знаний
 
 _Обновлено: 2026-05-13_
 
-Утверждений: _81388_ | Противоречий: _9580_
+Утверждений: _81452_ | Противоречий: _9615_
 
 {quote}Автоматический поиск без LLM — возможны ложные срабатывания.{quote}
 
@@ -152,7 +152,19 @@ _B:_ {{docs/04-ai-collaborations/11-интеграционный-контрак�
 
 ----
 
-h3. 12. 🔢 Числовое — 30.0 vs 96.0 (уверенность: 0.8)
+h3. 12. 🔢 Числовое — 4.0 vs 100.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{collaborations}}, {{docs}}, {{методика}}, {{отбора}}
+
+_A:_ {{docs/DUPLICATES.md}}
+{quote}md - ✅ docs/04-ai-collaborations/02-методика-и-рамка-отбора{quote}
+
+_B:_ {{docs/SIMILAR_PASSAGES.md}}
+{quote}0 (100%) A: docs/04-ai-collaborations/02-методика-и-рамка-отбора{quote}
+
+----
+
+h3. 13. 🔢 Числовое — 30.0 vs 96.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{методика}}, {{отбора}}, {{рамка}}
 
@@ -164,7 +176,7 @@ _B:_ {{docs/svyazi-2-0/overview/methodology.md}}
 
 ----
 
-h3. 13. 🔢 Числовое — 30.0 vs 74.0 (уверенность: 0.8)
+h3. 14. 🔢 Числовое — 30.0 vs 74.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{методика}}, {{отбора}}, {{рамка}}
 
@@ -173,18 +185,6 @@ _A:_ {{docs/LANGUAGE_STATS.md}}
 
 _B:_ {{docs/svyazi-2-0/overview/methodology.md}}
 {quote}74) - 02-методика-и-рамка-отбора({quote}
-
-----
-
-h3. 14. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{match}}, {{pendingreview}}, {{proposalid}}, {{reviewstate}}
-
-_A:_ {{docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md}}
-{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
-
-_B:_ {{docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md}}
-{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
 
 ----
 
@@ -212,7 +212,19 @@ _B:_ {{docs/05-habr-projects/memory/memnet.md}}
 
 ----
 
-h3. 17. 🔢 Числовое — 80.0 vs 8.0 (уверенность: 0.8)
+h3. 17. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{match}}, {{pendingreview}}, {{proposalid}}, {{reviewstate}}
+
+_A:_ {{docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md}}
+{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
+
+_B:_ {{docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md}}
+{quote}YAML reviewstate: proposalid: "match20260429001" state: "pendingreview" requiredroles: - "evidencereviewer" - "privacyreviewer" alloweddecisions: - "a{quote}
+
+----
+
+h3. 18. 🔢 Числовое — 80.0 vs 8.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{coder}}, {{context}}, {{embed}}, {{nomic}}
 
@@ -224,7 +236,7 @@ _B:_ {{docs/05-habr-projects/memory/memnet.md}}
 
 ----
 
-h3. 18. 🔢 Числовое — 785.0 vs 26.0 (уверенность: 0.8)
+h3. 19. 🔢 Числовое — 785.0 vs 26.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{anastasiyaw}}, {{github}}, {{knowledge}}, {{soniablack}}
 
@@ -236,7 +248,7 @@ _B:_ {{docs/04-ai-collaborations/03-карта-найденных-проекто
 
 ----
 
-h3. 19. 🔢 Числовое — 785.0 vs 26.0 (уверенность: 0.8)
+h3. 20. 🔢 Числовое — 785.0 vs 26.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{anastasiyaw}}, {{github}}, {{knowledge}}, {{soniablack}}
 
@@ -248,7 +260,7 @@ _B:_ {{docs/svyazi-2-0/overview/projects-map.md}}
 
 ----
 
-h3. 20. 🔢 Числовое — 2026.0 vs 4.0 (уверенность: 0.8)
+h3. 21. 🔢 Числовое — 2026.0 vs 4.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{vladspace}}, {{автоматически}}, {{вопрос}}, {{документы}}
 
@@ -260,7 +272,7 @@ _B:_ {{docs/contacts/sonia-black.md}}
 
 ----
 
-h3. 21. 🔢 Числовое — 4.0 vs 11.0 (уверенность: 0.8)
+h3. 22. 🔢 Числовое — 4.0 vs 11.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{engine}}, {{hebbian}}, {{memory}}, {{ngt}}
 
@@ -272,7 +284,7 @@ _B:_ {{docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-rankin
 
 ----
 
-h3. 22. 🔢 Числовое — 59.0 vs 3.0 (уверенность: 0.8)
+h3. 23. 🔢 Числовое — 59.0 vs 3.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{collaboration}}, {{graph}}, {{hebbian}}, {{synthesis}}
 
@@ -284,7 +296,7 @@ _B:_ {{docs/ai-collaborations/candidates/02-related-projects-context.md}}
 
 ----
 
-h3. 23. 🔢 Числовое — 59.0 vs 3.0 (уверенность: 0.8)
+h3. 24. 🔢 Числовое — 59.0 vs 3.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{collaboration}}, {{graph}}, {{hebbian}}, {{synthesis}}
 
@@ -296,7 +308,7 @@ _B:_ {{docs/ai-collaborations/candidates/README.md}}
 
 ----
 
-h3. 24. 🔢 Числовое — 59.0 vs 3.0 (уверенность: 0.8)
+h3. 25. 🔢 Числовое — 59.0 vs 3.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{collaboration}}, {{graph}}, {{hebbian}}, {{synthesis}}
 
@@ -308,7 +320,7 @@ _B:_ {{docs/ai-collaborations/candidates/README.md}}
 
 ----
 
-h3. 25. 🔢 Числовое — 59.0 vs 3.0 (уверенность: 0.8)
+h3. 26. 🔢 Числовое — 59.0 vs 3.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{collaboration}}, {{graph}}, {{hebbian}}, {{synthesis}}
 
@@ -320,7 +332,7 @@ _B:_ {{docs/habr-unique-projects/analogues/01-three-direct-analogues.md}}
 
 ----
 
-h3. 26. 🔢 Числовое — 7.0 vs 76.0 (уверенность: 0.8)
+h3. 27. 🔢 Числовое — 7.0 vs 76.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{выросло}}, {{окно}}, {{свободное}}, {{токенов}}
 
@@ -332,7 +344,7 @@ _B:_ {{docs/04-ai-collaborations/04-приоритетные-ансамбли.md
 
 ----
 
-h3. 27. 🔢 Числовое — 7.0 vs 76.0 (уверенность: 0.8)
+h3. 28. 🔢 Числовое — 7.0 vs 76.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{claude}}, {{code}}, {{контекста}}, {{свободного}}
 
@@ -344,7 +356,7 @@ _B:_ {{docs/ai-collaborations/continuation/02-agentops-trace-envelope.md}}
 
 ----
 
-h3. 28. 🔢 Числовое — 30.0 vs 80.0 (уверенность: 0.8)
+h3. 29. 🔢 Числовое — 30.0 vs 80.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{blast}}, {{cite}}, {{radius}}, {{turn}}
 
@@ -356,7 +368,7 @@ _B:_ {{docs/04-ai-collaborations/04-приоритетные-ансамбли.md
 
 ----
 
-h3. 29. 🔢 Числовое — 3.0 vs 8.0 (уверенность: 0.8)
+h3. 30. 🔢 Числовое — 3.0 vs 8.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{всё}}, {{наиболее}}, {{прототип}}, {{рациональный}}
 
@@ -365,18 +377,6 @@ _A:_ {{docs/01-svyazi/07-mvp-planning.md}}
 
 _B:_ {{docs/01-svyazi/README.md}}
 {quote}md) — Наиболее рациональный прототип — не собирать всё сразу, а доказать одну центральную способность: система находит и … - 08-conclusions{quote}
-
-----
-
-h3. 30. 🔢 Числовое — 70.0 vs 10.0 (уверенность: 0.8)
-
-_Общие ключевые слова:_ {{вас}}, {{всё}}, {{вывод}}, {{лично}}
-
-_A:_ {{docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}}
-{quote}Стратегический вывод для вас лично Учитывая всё, что я теперь знаю о вашем профиле — 70 репо с concepts-на-полке, analysis02topprojects с 10 готовыми {quote}
-
-_B:_ {{docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md}}
-{quote}Стратегический вывод для вас лично Учитывая всё, что я теперь знаю о вашем профиле — 70 репо с concepts-на-полке, analysis02topprojects с 10 готовыми {quote}
 
 ----
 
