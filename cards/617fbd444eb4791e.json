@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:617fbd444eb4791e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:138aa42c6f158d72",
+  "payload": {
+    "title": "Четыре структурные причины, почему это не работает в текущих попытках",
+    "summary": "Почему это не работает в текущих попытках",
+    "body": "четыре структурные причины почему это работает текущих попытках источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также pluses model pluses model current implementations current implementations existing landscape existing landscape minuses and risks minuses and risks",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 339,
+    "path": "docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md"
+  }
+}

@@ -1,11 +1,27 @@
 # Сводная таблица 9–14 (Extended)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «SYNTHESIS TABLE (Extended)».
 **Проекты:** Svyazi
 
 ---
 <!-- tags: orchestration, ingestion, local-first -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -25,11 +41,35 @@
 
 ---
 
-**Смотрите также:**
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводная таблица 9 14 Extended"
+```
+
+## Смотрите также
+- [15-19-extended](15-19-extended.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [14-local-first-agent-development-environment](../combinations/14-local-first-agent-development-environment.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [09-agent-orchestration-stack](../combinations/09-agent-orchestration-stack.md)
+- [10-legal-document-intelligence-pipeline](../combinations/10-legal-document-intelligence-pipeline.md)
+- [11-hybrid-crdt-sql-database](../combinations/11-hybrid-crdt-sql-database.md)
+- _...ещё 6_
 
 
 <!-- similar-docs -->
@@ -37,7 +77,7 @@
 ---
 
 **Похожие документы:**
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.45)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.40)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md) (сходство 0.34)
+- [09-14-extended](../../obsidian/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.96)
+- [15-19-extended](15-19-extended.md) (сходство 0.48)
+- [15-19-extended](../../obsidian/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.46)
 

@@ -1,32 +1,21 @@
 # 10. Open Questions
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [10. Open Questions](#10-open-questions)
   - [10.1. Technical Questions](#101-technical-questions)
   - [10.2. Economic Questions](#102-economic-questions)
   - [10.3. Legal Questions](#103-legal-questions)
   - [10.4. Social Questions](#104-social-questions)
   - [10.5. Philosophical Questions](#105-philosophical-questions)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Technical Questions](#101-technical-questions)
-  - [10.2. Economic Questions](#102-economic-questions)
-  - [10.3. Legal Questions](#103-legal-questions)
-  - [10.4. Social Questions](#104-social-questions)
-  - [10.5. Philosophical Questions](#105-philosophical-questions)
 
 
 <!-- summary -->
@@ -125,19 +114,41 @@ of whether ethical frameworks keep pace.
 
 ---
 
-**Похожие документы:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.14)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.13)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md) (сходство 0.12)
+## Похожие документы
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.14)
+- [264-11-open-questions](264-11-open-questions.md) (сходство 0.13)
+- [181-12-closing](181-12-closing.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
+## Смотрите также
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
+- [181-12-closing](181-12-closing.md)
+- [264-11-open-questions](264-11-open-questions.md)
+- [223-12-closing](223-12-closing.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [181-12-closing](181-12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [223-12-closing](223-12-closing.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- _...ещё 3_
 

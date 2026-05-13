@@ -1,5 +1,23 @@
 # Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -52,11 +70,33 @@ Claude hat geantwortet: Я понял вашу мысль.
 
 ---
 
-**Смотрите также:**
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
-- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос разделить 500K зарплату на"
+```
+
+## Смотрите также
+- [05-platform-not-position](../profile-mapping/03-integral-final/05-platform-not-position.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [09-minuses-and-risks](09-minuses-and-risks.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [09-minuses-and-risks](09-minuses-and-risks.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -64,7 +104,7 @@ Claude hat geantwortet: Я понял вашу мысль.
 ---
 
 **Похожие документы:**
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.47)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.16)
-- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md) (сходство 0.13)
+- [00-question-rephrasing](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md) (сходство 0.98)
+- [05-platform-not-position](../profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.47)
+- [05-platform-not-position](../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.47)
 

@@ -1,5 +1,12 @@
 # CoAlly — distributed shared memory для AI-агентов
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -50,11 +57,33 @@ Personalized PageRank по графу знаний (HippoRAG, Stanford/OSU)
 
 ---
 
-**Смотрите также:**
-- [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md)
-- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
-- [02-vitaly-graph-cognitive-memory](docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "CoAlly distributed shared memory для AI"
+```
+
+## Смотрите также
+- [13-appendix-b-examples](../../nautilus/review-methodology/13-appendix-b-examples.md)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
+- [02-vitaly-graph-cognitive-memory](02-vitaly-graph-cognitive-memory.md)
+- [02-formal-workflow](../../nautilus/review-methodology/02-formal-workflow.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-vitaly-graph-cognitive-memory](02-vitaly-graph-cognitive-memory.md)
+- [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -62,7 +91,7 @@ Personalized PageRank по графу знаний (HippoRAG, Stanford/OSU)
 ---
 
 **Похожие документы:**
-- [00-tldr](docs/nautilus/review-methodology/00-tldr.md) (сходство 0.20)
-- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.19)
-- [07-key-observation](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md) (сходство 0.19)
+- [01-coally](../../obsidian/anthropic-vacancies/extra-collaborator-findings/01-coally.md) (сходство 0.97)
+- [04-mem0-letta-graphiti](../../obsidian/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md) (сходство 0.22)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md) (сходство 0.21)
 

@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:5d6f7cacc41066f3",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/CONTACT_PRIORITY.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/contacts/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/anastasiyaw.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:2a640880ecfbbac9",
+  "payload": {
+    "title": "Приоритет контактов",
+    "summary": "1. **kksudo** (AgentFS, 138 упоминаний) → [открыть контакт](contacts/kksudo.md)",
+    "body": "приоритет контактов обновлено топ авторов приоритету автор проект слой упоминаний статус балл kksudo agentfs knowledge filesystem изучили spbmolot ngt memory memory изучили anastasiyaw knowledge space mclaude knowledge orchestration начато vladspace graph rag rag начато vitalyoborin yodoca memory начато zodigancode rufler orchestration начато cutcode aif handoff orchestration начато dmitriila sentinel security начато antipozitive memnet memory начато mixaill auto router security начато nlaik liteparse research docs rag начато sonia black knowledge space knowledge начато andrey chuyan svyazi ingestion cardindex начато tagir analyzes legal rag rag начато lee factory orchestration начато рекомендуемые следующие шаги написать первым ещё контактировали kksudo agentfs упоминаний открыть контакт contacts kksudo spbmolot ngt memory упоминаний открыть контакт contacts spbmolot anastasiyaw knowledge space mclaude упоминаний открыть контакт contacts anastasiyaw формула расчёта балла score упоминания шаг статуса буст слоя шаг статуса none studied messaged replied agreed буст слоя memory knowledge rag search filesystem остальные чем выше балл тем важнее написать первым",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "Auto AI Router"
+    ],
+    "wc": 364,
+    "path": "docs/CONTACT_PRIORITY.md"
+  }
+}

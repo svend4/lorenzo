@@ -1,5 +1,10 @@
 # Компоненты — алфавитный список с обратными ссылками
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Для каждого проекта / технологии / паттерна — все доки в монорепозитории, где он упоминается. Если компонент имеет собственную карточку, она указана первой.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -7,6 +12,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [A](#a)
@@ -181,11 +190,33 @@
 
 ---
 
-**Смотрите также:**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [source-projects](docs/ai-collaborations/source-projects.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Компоненты алфавитный список с"
+```
+
+## Смотрите также
+- [authors-by-name](authors-by-name.md)
+- [concepts](concepts.md)
+- [PRIORITIES](../PRIORITIES.md)
+- [source-projects](../ai-collaborations/source-projects.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (83):**
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [01-three-key-candidates](../ai-collaborations/candidates/01-three-key-candidates.md)
+- [02-agentops-trace-envelope](../ai-collaborations/continuation/02-agentops-trace-envelope.md)
+- _...ещё 75_
 
 
 <!-- similar-docs -->
@@ -193,7 +224,7 @@
 ---
 
 **Похожие документы:**
-- [README](docs/technology-combinations/combinations/README.md) (сходство 0.27)
-- [authors-by-name](docs/glossary/authors-by-name.md) (сходство 0.24)
-- [PRIORITIES](docs/PRIORITIES.md) (сходство 0.19)
+- [components-by-name](../obsidian/glossary/components-by-name.md) (сходство 0.95)
+- [authors-by-name](authors-by-name.md) (сходство 0.28)
+- [README](../obsidian/technology-combinations/combinations/README.md) (сходство 0.28)
 

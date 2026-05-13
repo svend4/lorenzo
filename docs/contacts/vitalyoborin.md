@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "VitalyOborin"
 author_handle: "@VitalyOborin"
-projects: ["Svyazi", "Yodoca"]
+projects: ["Svyazi", "Yodoca", "Wikontic"]
 platform: GitHub
 status: not_started
 priority: 3
@@ -12,6 +12,18 @@ last_contact: null
 tags: [контакты, команда]
 ---
 # Контакт: VitalyOborin / Yodoca
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -24,15 +36,6 @@ tags: [контакты, команда]
 
 ---
 
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
 
 
 <!-- summary: Шаблон для связи с автором Yodoca -->
@@ -51,7 +54,7 @@ tags: [контакты, команда]
 
 ## Статус связи
 
-- [ ] Изучили профиль
+- [x] Изучили профиль
 - [ ] Написали первое сообщение
 - [ ] Получили ответ
 - [ ] Договорились о сотрудничестве
@@ -83,19 +86,30 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.71)
-- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.70)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.70)
+## Похожие документы
+- [vladspace](vladspace.md) (сходство 0.71)
+- [antipozitive](antipozitive.md) (сходство 0.70)
+- [zodigancode](zodigancode.md) (сходство 0.70)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [antipozitive](docs/contacts/antipozitive.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [spbmolot](docs/contacts/spbmolot.md)
+## Смотрите также
+- [antipozitive](antipozitive.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [spbmolot](spbmolot.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [yodoca](../05-habr-projects/memory/yodoca.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
 

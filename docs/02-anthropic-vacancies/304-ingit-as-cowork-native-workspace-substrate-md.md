@@ -1,10 +1,25 @@
 # INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md
 
+<!-- toc-auto -->
+## Contents
+
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](#ingit-as-cowork-native-workspace-substratemd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.11)
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -18,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.11)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md) (сходство 0.11)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md) (сходство 0.11)
@@ -69,9 +84,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "INGIT AS COWORK NATIVE WORKSPACE"
+```
+
+## Смотрите также
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- _...ещё 6_
 

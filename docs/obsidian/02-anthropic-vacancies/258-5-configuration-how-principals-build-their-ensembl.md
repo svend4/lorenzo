@@ -7,10 +7,19 @@ date: 2026-05-13
 ---
 
 # 5. Configuration: How Principals Build Their Ensembles
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 <!-- tags: anthropic -->
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** The Configuration Problem A principal entering an ecosystem with hundreds of available sub-agents faces a configuration problem.
@@ -162,7 +171,7 @@ modifies their configuration over time.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[260-7-economics-of-combinatorial-replication]] (сходство 0.17)
 - [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.15)
 - [[264-11-open-questions]] (сходство 0.15)
@@ -172,7 +181,13 @@ modifies their configuration over time.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Configuration How Principals Build"
+```
+
+## Смотрите также
 - [[260-7-economics-of-combinatorial-replication]]
 - [[256-3-what-makes-a-composite-skills-agent]]
 - [[259-6-coordination-and-disagreement-resolution]]
@@ -215,3 +230,19 @@ modifies their configuration over time.
 - [[253-table-of-contents|Table of Contents]] _25%_
 - [[273-infrastructure-for-ai-collaborative-intellectual-w|INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md]] _25%_
 - [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Agent]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[151-open-knowledge-work-foundation-md]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[253-table-of-contents]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[259-6-coordination-and-disagreement-resolution]]
+- [[260-7-economics-of-combinatorial-replication]]
+- [[261-8-seven-domains-of-application]]
+- [[263-10-risks-specific-to-composite-architectures]]
+- _...ещё 2_
+

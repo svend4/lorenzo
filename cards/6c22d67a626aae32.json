@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:6c22d67a626aae32",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/180-11-call-for-collaboration.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/168-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:a6648e6e6e47b00d",
+  "payload": {
+    "title": "11. Call for Collaboration",
+    "summary": "This paper is offered as starting point, not finished",
+    "body": "call for collaboration абстракт авто проблема pilot partnerships allow the technology develop service actual need rather than imagined need подход your needs should drive design decisions ключевые слова collaboration organizations invite anthropic vacancies social critics researchers contents call for collaboration call for collaboration for researchers for researchers for social service organizations for social service organizations for disability rights organizations for disability rights organizations for foundation funders for foundation funders for policymakers for policymakers for potential principals for potential principals for critics for critics this paper offered starting point not finished похожие документы call for collaboration call for collaboration сходство phased rollout strategy phased rollout strategy сходство closing closing сходство смотрите также call for collaboration call for collaboration phased rollout strategy phased rollout strategy closing closing abstract abstract кто ссылается этот документ phased rollout plan phased rollout plan abstract abstract closing closing readme readme",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 470,
+    "path": "docs/02-anthropic-vacancies/180-11-call-for-collaboration.md"
+  }
+}

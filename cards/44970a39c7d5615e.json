@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:44970a39c7d5615e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/innovation-transitions/00-question-innovations-transitions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/innovation-transitions/01-response.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:2ba1911c23ff4b3d",
+  "payload": {
+    "title": "Почему именно для программистов это работает естественно",
+    "summary": "Почему именно для программистов это работает естественно",
+    "body": "почему именно для программистов это работает естественно источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также question innovations transitions nautilus innovation transitions question innovations transitions response nautilus innovation transitions response polymath project tao comparison managed virtual company polymath project tao comparison интегральный анализ профиля svend anthropic vacancies интегральный анализ профиля svend",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 1044,
+    "path": "docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md"
+  }
+}

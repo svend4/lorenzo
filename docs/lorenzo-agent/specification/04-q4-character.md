@@ -1,10 +1,26 @@
 # Question 4: Каков Lorenzo's character?
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
 
 ---
 <!-- tags: rag, local-first, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -50,11 +66,33 @@ Offer easy decline path
 
 ---
 
-**Смотрите также:**
-- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md)
-- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
-- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
-- [05-tvoya-lichnost](docs/lorenzo-agent/05-tvoya-lichnost.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 4 Каков Lorenzo s character"
+```
+
+## Смотрите также
+- [13-outreach-communication](../13-outreach-communication.md)
+- [357-твоя-коммуникация-в-outreach](../../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
+- [05-tvoya-lichnost](../05-tvoya-lichnost.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [349-твоя-личность](../../02-anthropic-vacancies/349-твоя-личность.md)
+- [357-твоя-коммуникация-в-outreach](../../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [13-outreach-communication](../13-outreach-communication.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -62,7 +100,7 @@ Offer easy decline path
 ---
 
 **Похожие документы:**
-- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md) (сходство 0.24)
-- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.19)
-- [357-твоя-коммуникация-в-outreach](docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.18)
+- [04-q4-character](../../obsidian/lorenzo-agent/specification/04-q4-character.md) (сходство 0.98)
+- [13-outreach-communication](../13-outreach-communication.md) (сходство 0.28)
+- [13-outreach-communication](../../obsidian/lorenzo-agent/13-outreach-communication.md) (сходство 0.28)
 

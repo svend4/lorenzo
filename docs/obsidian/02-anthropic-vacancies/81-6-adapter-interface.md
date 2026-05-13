@@ -11,30 +11,31 @@ date: 2026-05-13
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. `fetch(query)` — Required](#62-fetchquery-required)
   - [6.3. `describe()` — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 
 
-<!-- toc-auto -->
-## Contents
-
-- [6. Adapter Interface](#6-adapter-interface)
-  - [[01-интегральный-анализ-профиля-svend4|6.1. [BaseAdapter]] Contract](#61-baseadapter-contract)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
-
-
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -45,8 +46,6 @@ date: 2026-05-13
 
 ---
 <!-- tags: ingestion -->
-
-
 
 
 ## 6. Adapter Interface
@@ -122,7 +121,7 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[18-6-adapter-interface]] (сходство 0.51)
 - [[85-10-query-flow]] (сходство 0.12)
 - [[82-7-portalentry-structure]] (сходство 0.12)
@@ -132,9 +131,23 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[18-6-adapter-interface]]
 - [[82-7-portalentry-structure]]
 - [[19-7-portalentry-structure]]
 - [[22-10-queryresult-structure]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[103-appendix-b-change-log]]
+- [[18-6-adapter-interface]]
+- [[21-9-query-flow]]
+- [[22-10-queryresult-structure]]
+- [[23-11-security-considerations]]
+- [[90-15-security-considerations]]
+- [[README]]
 

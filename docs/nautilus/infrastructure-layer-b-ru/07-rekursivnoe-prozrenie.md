@@ -1,10 +1,27 @@
 # Рекурсивное прозрение
 
+<!-- toc-auto -->
+## Contents
+
+- [Рекурсивное прозрение](#рекурсивное-прозрение)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 <!-- tags: orchestration, architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -81,11 +98,31 @@ Nautilus-как-платформе. Интеллектуальная работ�
 
 ---
 
-**Смотрите также:**
-- [296-рекурсивное-прозрение](docs/02-anthropic-vacancies/296-рекурсивное-прозрение.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
-- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Рекурсивное прозрение"
+```
+
+## Смотрите также
+- [296-рекурсивное-прозрение](../../02-anthropic-vacancies/296-рекурсивное-прозрение.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- [09-ne-reshaet](09-ne-reshaet.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-pochemu-ne-postroeno](04-pochemu-ne-postroeno.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -93,7 +130,7 @@ Nautilus-как-платформе. Интеллектуальная работ�
 ---
 
 **Похожие документы:**
-- [296-рекурсивное-прозрение](docs/obsidian/02-anthropic-vacancies/296-рекурсивное-прозрение.md) (сходство 0.77)
-- [296-рекурсивное-прозрение](docs/02-anthropic-vacancies/296-рекурсивное-прозрение.md) (сходство 0.75)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md) (сходство 0.20)
+- [07-rekursivnoe-prozrenie](../../obsidian/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md) (сходство 0.98)
+- [296-рекурсивное-прозрение](../../02-anthropic-vacancies/296-рекурсивное-прозрение.md) (сходство 0.76)
+- [296-рекурсивное-прозрение](../../obsidian/02-anthropic-vacancies/296-рекурсивное-прозрение.md) (сходство 0.75)
 

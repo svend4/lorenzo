@@ -1,11 +1,20 @@
 # 3. Эмпирический кейс: «Обучай»
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Профессиональные Коллеги-Агенты (RU)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [3. Эмпирический кейс: «Обучай»](#3-эмпирический-кейс-обучай)
@@ -198,11 +207,30 @@
 
 ---
 
-**Смотрите также:**
-- [234-3-эмпирический-кейс-обучай](docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)
-- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
-- [233-2-что-делает-агента-профессиональным-коллегой](docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
-- [06-riski](docs/nautilus/professional-colleague-agents-ru/06-riski.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Эмпирический кейс Обучай"
+```
+
+## Смотрите также
+- [234-3-эмпирический-кейс-обучай](../../02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [233-2-что-делает-агента-профессиональным-коллегой](../../02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
+- [06-riski](06-riski.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -210,7 +238,7 @@
 ---
 
 **Похожие документы:**
-- [234-3-эмпирический-кейс-обучай](docs/obsidian/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) (сходство 0.87)
-- [234-3-эмпирический-кейс-обучай](docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) (сходство 0.86)
-- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md) (сходство 0.15)
+- [03-keys-obuchay](../../obsidian/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md) (сходство 0.99)
+- [234-3-эмпирический-кейс-обучай](../../02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) (сходство 0.86)
+- [234-3-эмпирический-кейс-обучай](../../obsidian/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) (сходство 0.86)
 

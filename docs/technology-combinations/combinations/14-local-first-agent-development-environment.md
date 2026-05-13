@@ -1,11 +1,40 @@
 # Комбинация 14: local-first Agent Development Environment
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, Yjs, Automerge
 
 ---
 <!-- tags: rag, orchestration, knowledge, ingestion, local-first, roadmap -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -116,11 +145,28 @@ Charted eight research directions for discovering additional project synergies
 
 ---
 
-**Смотрите также:**
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 14 local-first Agent"
+```
+
+## Смотрите также
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
 
 
 <!-- similar-docs -->
@@ -128,7 +174,7 @@ Charted eight research directions for discovering additional project synergies
 ---
 
 **Похожие документы:**
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md) (сходство 0.34)
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.30)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.30)
+- [14-local-first-agent-development-environment](../../obsidian/technology-combinations/combinations/14-local-first-agent-development-environment.md) (сходство 0.97)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md) (сходство 0.35)
+- [19-multi-agent-observability-platform](../../obsidian/technology-combinations/combinations/19-multi-agent-observability-platform.md) (сходство 0.35)
 

@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:a3464538305b5f01",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/graph-rag.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/hybrid-rag.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/mclaude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/ngt-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:bce662d2474761da",
+  "payload": {
+    "title": "Graph RAG",
+    "summary": "Графовый RAG с provenance‑trace и typed API, собранный из 5 исследовательских техник.",
+    "body": "graph rag автор vladspace vpakspace проекты svyazi graph rag смотрите также hybrid rag hybrid rag mclaude mclaude ngt memory ngt memory yodoca yodoca кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
+    "tags": [
+      "rag",
+      "ingestion",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "Graph RAG",
+      "Yodoca"
+    ],
+    "wc": 125,
+    "path": "docs/svyazi-2-0/components/graph-rag.md"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:1e5b8dc3246d5e02",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:d973469fe6848e91",
+  "payload": {
+    "title": "Различие 1: Структурированная подложка отсутствует",
+    "summary": "Различие 1: Структурированная подложка отсутствует",
+    "body": "различие структурированная подложка отсутствует источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога сравнение собственной архитектуры ingit cowork nautilus hermes agent nous resear смотрите также difference federation missing difference federation missing similarity mcp support similarity mcp support similarity self hosting privacy similarity self hosting privacy similarity multi platform similarity multi platform",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 179,
+    "path": "docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:f9b5e5c4996df229",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/03-technology-combinations/03-local-first.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:0e7d3ee3c3d90b89",
+  "payload": {
+    "title": "Local-first и P2P стек",
+    "summary": "Экономия: 80% запросов идут на дешёвые модели, Opus только для Planner-агента.",
+    "body": "local first стек содержание упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы абстракт авто проблема local first стек сложные архитектурные claude opus проекты svyazi cardindex yjs локальная qwen средние облачная deepseek сложные архитектурные claude подход local first стек сложные архитектурные claude opus проекты svyazi cardindex yjs локальная qwen средние облачная deepseek сложные архитектурные claude результат fault tolerant агентский граф router даёт fallback коробки ключевые слова knowledge technology combinations svyazi articles first cardindex graph сложные архитектурные claude opus проекты svyazi executive summary cardindex yjs локальная qwen средние облачная memnet deepseek сложные архитектурные claude opus роутер перед каждым агентом после экономия запросов идут дешёвые модели opus только для planner агента fault tolerant агентский граф router даёт fallback коробки если opus недоступен sonnet gpt локальная модель мультиагентная система перестаёт ломаться при отказе одного провайдера комбинация crdt local first svyazi cardindex родители crdt ron yjs habr com articles habr com articles conflict free replicated data types синхронизация svyazi executive summary cardindex yaml структура профилей хешами для дедупликации дети граф сообщества без центрального сервера сейчас svyazi single user система crdt каждый участник ведёт локальный executive summary cardindex изменения синхронизируются через yjs конфликты два человека обновили профиль одного участника мержатся автоматически никакого центрального сервера privacy design для legal community max каждый юрист сообществе ведёт свой локальный граф дел участников всё синхронизируется peer peer данные покидают машины участников offline first discovery discovery файл svyazi накопление неизвестного синхронизируется через crdt между устройствами ноутбук нашёл новую сущность добавил discovery телефон оффлайн дня при подключении автоматически получает обновления модерация тоже распределённая комбинация парсинг llm graph rag правильная агентская архитектура родители парсинг llm habr com articles structured outputs pydantic автоматическое извлечение структуры graph rag habr com articles microsoft research графы знаний вместо плоского rag durable state агенты habr com articles дети self building legal knowledge graph агент читает новые решения sozialgericht парсер llm извлекает сущности судья закона истец ответчик решение graph builder строит похожие документы agent routing сходство benchmarks сходство knowledge graphs сходство смотрите также agent routing benchmarks knowledge graphs word freq упоминается agent routing агентные системы роутинг benchmarks бенчмарки производительность knowledge graphs графы знаний legal readme комбинирование технологий для новых свойств упоминается readme комбинирование технологий для новых свойств связанные документы knowledge graphs графы знаний legal benchmarks бенчмарки производительность readme комбинирование технологий для новых свойств связанные документы benchmarks бенчмарки производительность knowledge graphs графы знаний legal readme комбинирование технологий для новых свойств priorities приоритеты файлов agent routing агентные системы роутинг glossary глоссарий проектов heatmap тепловая карта тем sitemap карта репозитория lorenzo",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "MemNet"
+    ],
+    "wc": 556,
+    "path": "docs/obsidian/03-technology-combinations/03-local-first.md"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:9fb756dd0497ea61",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-ru/08-riski-mery.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:3596be174ae711fd",
+  "payload": {
+    "title": "9. Стратегия поэтапного развёртывания",
+    "summary": "Ответственное развёртывание технологии Представительского Агента происходит в пять фаз.",
+    "body": "стратегия поэтапного развёртывания warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer смотрите также стратегия поэтапного развёртывания anthropic vacancies стратегия поэтапного развёртывания prizyv sotrudnichestvu prizyv sotrudnichestvu призыв сотрудничеству anthropic vacancies призыв сотрудничеству riski mery riski mery",
+    "tags": [
+      "security",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 484,
+    "path": "docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md"
+  }
+}

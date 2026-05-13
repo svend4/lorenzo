@@ -7,7 +7,28 @@ date: 2026-05-13
 
 # with Anthropic's Cowork Platform
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- toc -->
+## Содержание
+
+- [with Anthropic's Cowork Platform](#with-anthropics-cowork-platform)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork Platform Document type: Practical implementation paper, buildin
@@ -66,7 +87,7 @@ collaboration
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.39)
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.39)
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.34)
@@ -76,7 +97,13 @@ collaboration
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "with Anthropic s Cowork Platform"
+```
+
+## Смотрите также
 - [[274-the-missing-middle-layer-between-chat-and-code]]
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
@@ -125,3 +152,19 @@ collaboration
 - [[268-references|References]] _37%_
 - [[319-acknowledgments|Acknowledgments]] _37%_
 - [[146-acknowledgments|Acknowledgments]] _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [[137-table-of-contents]]
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[224-acknowledgments]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- [[267-acknowledgments]]
+- _...ещё 8_
+

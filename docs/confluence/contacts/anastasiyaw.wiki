@@ -8,7 +8,7 @@ template: contact-outreach
 version: "1.0"
 author: "AnastasiyaW"
 author_handle: "@AnastasiyaW"
-projects: ["Svyazi", "knowledge-space", "mclaude"]
+projects: [Svyazi, knowledge-space, mclaude]
 platform: GitHub
 status: not_started
 priority: 3
@@ -24,20 +24,28 @@ h1. Контакт: AnastasiyaW / knowledge-space, mclaude
 
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, knowledge-space, mclaude
-
-----
-
-
-
-
 h2. Contents
 
 * [Профиль|#профиль]
 * [Статус связи|#статус-связи]
 * [Первое сообщение|#первое-сообщение]
 * [Открытые вопросы|#открытые-вопросы]
+* [Похожие документы|#похожие-документы]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (4)|#кто-ссылается-на-этот-документ-4]
+
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}- [Статус связи|#статус-связи]{quote}
+_Проекты:_ Svyazi, knowledge-space, mclaude
+
+----
+
 
 
 
@@ -55,7 +63,7 @@ h2. Профиль
 
 h2. Статус связи
 
-* [ ] Изучили профиль
+* [x] Изучили профиль
 * [ ] Написали первое сообщение
 * [ ] Получили ответ
 * [ ] Договорились о сотрудничестве
@@ -87,19 +95,30 @@ _Создано автоматически: 2026-04-29_
 
 ----
 
-_Похожие документы:_
-* [sonia-black|docs/contacts/sonia-black.md] (сходство 0.74)
-* [zodigancode|docs/contacts/zodigancode.md] (сходство 0.67)
-* [cutcode|docs/contacts/cutcode.md] (сходство 0.67)
+h2. Похожие документы
+* [sonia-black|sonia-black.md] (сходство 0.74)
+* [zodigancode|zodigancode.md] (сходство 0.67)
+* [cutcode|cutcode.md] (сходство 0.67)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [cutcode|docs/contacts/cutcode.md]
-* [zodigancode|docs/contacts/zodigancode.md]
-* [sonia-black|docs/contacts/sonia-black.md]
-* [dmitriila|docs/contacts/dmitriila.md]
+h2. Смотрите также
+* [cutcode|cutcode.md]
+* [zodigancode|zodigancode.md]
+* [sonia-black|sonia-black.md]
+* [dmitriila|dmitriila.md]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [CONTACT_PRIORITY|../CONTACT_PRIORITY.md]
+* [kksudo|../autofilled/components/kksudo.md]
+* [spbmolot|../autofilled/components/spbmolot.md]
+* [README|README.md]
 

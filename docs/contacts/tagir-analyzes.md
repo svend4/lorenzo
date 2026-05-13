@@ -13,6 +13,17 @@ tags: [контакты, команда]
 ---
 # Контакт: tagir_analyzes / Legal RAG
 
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -24,15 +35,6 @@ tags: [контакты, команда]
 
 ---
 
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
 
 
 <!-- summary: Шаблон для связи с автором Legal RAG -->
@@ -81,19 +83,36 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.88)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.86)
-- [mixaill76](docs/contacts/mixaill76.md) (сходство 0.86)
+## Похожие документы
+- [vladspace](vladspace.md) (сходство 0.88)
+- [zodigancode](zodigancode.md) (сходство 0.86)
+- [mixaill76](mixaill76.md) (сходство 0.86)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
+## Смотрите также
+- [vladspace](vladspace.md)
+- [cutcode](cutcode.md)
+- [zodigancode](zodigancode.md)
+- [dmitriila](dmitriila.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [README](README.md)
+- [cutcode](cutcode.md)
+- _...ещё 6_
 

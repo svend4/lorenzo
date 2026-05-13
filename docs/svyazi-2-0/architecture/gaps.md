@@ -57,11 +57,31 @@
 
 ---
 
-**Смотрите также:**
-- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md)
-- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
-- [QA](docs/QA.md)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Архитектурные зазоры"
+```
+
+## Смотрите также
+- [09-architectural-gaps](../../01-svyazi/09-architectural-gaps.md)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](../../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- [QA](../../QA.md)
+- [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -69,7 +89,7 @@
 ---
 
 **Похожие документы:**
-- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md) (сходство 0.79)
-- [09-architectural-gaps](docs/obsidian/01-svyazi/09-architectural-gaps.md) (сходство 0.78)
-- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) (сходство 0.76)
+- [gaps](../../obsidian/svyazi-2-0/architecture/gaps.md) (сходство 0.99)
+- [09-architectural-gaps](../../01-svyazi/09-architectural-gaps.md) (сходство 0.76)
+- [09-architectural-gaps](../../obsidian/01-svyazi/09-architectural-gaps.md) (сходство 0.75)
 

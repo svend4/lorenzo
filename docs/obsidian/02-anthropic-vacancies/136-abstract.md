@@ -9,17 +9,10 @@ date: 2026-05-13
 
 # Abstract
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [Abstract](#abstract)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -31,6 +24,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > We introduce the **Double-Triangle Architecture** for human-AI
 
 ---
@@ -101,7 +98,7 @@ unsolved issues.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[138-1-why-single-triangle-models-are-incomplete]] (сходство 0.19)
 - [[145-8-call-to-action]] (сходство 0.18)
 - [[148-appendix-a-glossary]] (сходство 0.17)
@@ -111,7 +108,13 @@ unsolved issues.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [[138-1-why-single-triangle-models-are-incomplete]]
 - [[145-8-call-to-action]]
 - [[137-table-of-contents]]
@@ -157,3 +160,19 @@ unsolved issues.
 - [[141-4-nautilus-portal-as-reference-substrate|4. Nautilus Portal as Reference Substrate]] _21%_
 - [[142-5-pattern-library-as-bridge-between-triangles|5. Pattern Library as Bridge Between Triangles]] _21%_
 - [[148-appendix-a-glossary|Appendix A: Glossary]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[137-table-of-contents]]
+- [[140-3-three-inter-layer-protocols]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[143-6-four-deployment-domains]]
+- [[145-8-call-to-action]]
+- [[148-appendix-a-glossary]]
+- [[149-appendix-b-summary-of-contributions]]
+- _...ещё 1_
+

@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:9b88326ad6599555",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:e406325958a3a694",
+  "payload": {
+    "title": "Пара 8 — Self-aware MCP × Specs-first архитектура",
+    "summary": "Пара 8. Self-aware MCP × Specs-first архитектура",
+    "body": "пара self aware mcp specs first архитектура источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория смотрите также pda llm periphery key findings pda llm periphery browser agents headless software pairs browser agents headless skill catalogs subagents skill catalogs subagents adversarial multi ide adversarial multi ide кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
+    "tags": [
+      "knowledge",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 345,
+    "path": "docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md"
+  }
+}

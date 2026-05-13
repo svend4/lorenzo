@@ -1,6 +1,25 @@
 # MemNet / memory-is-all-you-need
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **Источник:** Хабр + GitHub citeturn21view4turn17search0turn18search2
 **Проекты:** Svyazi, MemNet
 
@@ -32,19 +51,58 @@
 
 ---
 
-**Смотрите также:**
-- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
-- [rufler](docs/svyazi-2-0/components/rufler.md)
-- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need" --mode full --top 15
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "MemNet memory is all you need" --mode bm25 --top 5
+```
+
+## Смотрите также
+- [ngt-memory](ngt-memory.md)
+- [yodoca](yodoca.md)
+- [rufler](rufler.md)
+- [knowledge-space](knowledge-space.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md) (сходство 0.39)
-- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.39)
-- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md) (сходство 0.38)
+- [memnet](../../obsidian/svyazi-2-0/components/memnet.md) (сходство 0.97)
+- [ngt-memory](ngt-memory.md) (сходство 0.45)
+- [rufler](rufler.md) (сходство 0.44)
 

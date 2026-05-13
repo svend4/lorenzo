@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:1cda1eed15420305",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/research-summary.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:4e79a68db83a89be",
+  "payload": {
+    "title": "[Тема исследования]",
+    "summary": "",
+    "body": "тема исследования ключевые находки ключевые находки contents контекст контекст ключевые находки ключевые находки источники источники открытые вопросы открытые вопросы следующие шаги следующие шаги контекст зачем изучали какой вопрос стоял ключевые находки находка описание находка описание находка описание источники источник ссылка источник ссылка открытые вопросы следующие шаги действие действие создано смотрите также contact outreach project component связанные документы тема исследования templates research note связанные документы тема исследования docs templates research note контакт имя проект docs templates contact outreach название компонента docs templates project component упоминается тема исследования templates research note readme autofilled autofilled автозаполненные шаблоны ансамбль название templates ensemble readme шаблоны документов",
+    "tags": [
+      "исследование"
+    ],
+    "projects": [],
+    "wc": 161,
+    "path": "docs/obsidian/autofilled/research-summary.md"
+  }
+}

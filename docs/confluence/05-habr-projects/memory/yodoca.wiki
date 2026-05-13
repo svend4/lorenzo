@@ -6,6 +6,20 @@
 h1. Yodoca[^yodoca]: консолидация и забывание
 
 
+h2. Contents
+
+* [Статус|#статус]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (5)|#кто-ссылается-на-этот-документ-5]
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Yodoca^yodoca: консолидация и забывание !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
@@ -50,7 +64,7 @@ Yodoca — «Научил ИИ-агента помнить важное и за�
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [README|../../README.md] (сходство 0.21)
 
 
@@ -58,7 +72,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Yodoca yodoca консолидация и забывание"
+{code}
+
+h2. Смотрите также
 * [01-synthesis|../01-synthesis.md]
 * [wikontic|../knowledge/wikontic.md]
 * [123-portal-mcp-py|../../02-anthropic-vacancies/123-portal-mcp-py.md]
@@ -103,3 +123,15 @@ h2. Связанные документы
 * [Авторы и контакты|../02-collaboration-partners.md] _17%_
 * [Wikontic: семантический граф|../knowledge/wikontic.md] _17%_
 * [Diff базы знаний между версиями|../../VERSION_DIFF.md] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (5)
+* [01-synthesis|../01-synthesis.md]
+* [wikontic|../knowledge/wikontic.md]
+* [README|README.md]
+* [04-structuring|../../processing-guide/04-structuring.md]
+* [PROCESSING_GUIDE|../../processing-guide/PROCESSING_GUIDE.md]
+

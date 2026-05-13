@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:b2858c6e8851f056",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/128-доступные-инструменты.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/103-appendix-b-change-log.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:827bcd3b4dbcd88c",
+  "payload": {
+    "title": "Доступные инструменты",
+    "summary": "После успешной интеграции Claude Desktop получает доступ к 7 tools:",
+    "body": "доступные инструменты warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений после успешной интеграции claude desktop получает доступ tools похожие документы примеры запросов claude примеры запросов claude сходство mcp extension informative mcp extension informative сходство rest api contract normative for portals rest api contract normative for portals сходство смотрите также примеры запросов claude примеры запросов claude mcp extension informative mcp extension informative appendix change log appendix change log rest api contract normative for portals rest api contract normative for portals упоминается rest api contract normative for portals rest api contract normative for portals mcp extension informative mcp extension informative appendix change log appendix change log вакансии anthropic анализ кластерам readme ограничения текущей версии draft ограничения текущей версии draft примеры запросов claude примеры запросов claude упоминается вакансии anthropic анализ кластерам readme связанные документы mcp extension informative mcp extension informative примеры запросов claude примеры запросов claude appendix change log appendix change log ограничения текущей версии draft ограничения текущей версии draft rest api contract normative for portals rest api contract normative for portals связанные документы примеры запросов claude примеры запросов claude mcp extension informative mcp extension informative ограничения текущей версии draft ограничения текущей версии draft rest api contract normative for portals rest api contract normative for portals appendix change log appendix change log reference implementation reference implementation appendix references appendix references sdk contract informative sdk contract informative кто ссылается этот документ appendix change log appendix change log appendix references appendix references примеры запросов claude примеры запросов claude ограничения текущей версии draft ограничения текущей версии draft mcp extension informative mcp extension informative reference implementation reference implementation readme readme",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 320,
+    "path": "docs/02-anthropic-vacancies/128-доступные-инструменты.md"
+  }
+}

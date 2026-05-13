@@ -8,7 +8,7 @@ template: contact-outreach
 version: "1.0"
 author: "nlaik"
 author_handle: "@nlaik"
-projects: ["Svyazi", "LiteParse"]
+projects: [Svyazi, LiteParse]
 platform: GitHub
 status: not_started
 priority: 3
@@ -17,6 +17,17 @@ last_contact: null
 tags: [контакты, команда]
 ----
 h1. Контакт: nlaik / LiteParse / research-docs
+
+
+h2. Contents
+
+* [Профиль|#профиль]
+* [Статус связи|#статус-связи]
+* [Первое сообщение|#первое-сообщение]
+* [Открытые вопросы|#открытые-вопросы]
+* [Похожие документы|#похожие-документы]
+* [Смотрите также|#смотрите-также]
+
 
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
@@ -29,15 +40,6 @@ _Проекты:_ Svyazi, LiteParse
 
 ----
 
-
-
-
-h2. Contents
-
-* [Профиль|#профиль]
-* [Статус связи|#статус-связи]
-* [Первое сообщение|#первое-сообщение]
-* [Открытые вопросы|#открытые-вопросы]
 
 
 
@@ -55,7 +57,7 @@ h2. Профиль
 
 h2. Статус связи
 
-* [ ] Изучили профиль
+* [x] Изучили профиль
 * [ ] Написали первое сообщение
 * [ ] Получили ответ
 * [ ] Договорились о сотрудничестве
@@ -85,19 +87,36 @@ _Создано автоматически: 2026-04-29_
 
 ----
 
-_Похожие документы:_
-* [antipozitive|docs/contacts/antipozitive.md] (сходство 0.87)
-* [vladspace|docs/contacts/vladspace.md] (сходство 0.84)
-* [zodigancode|docs/contacts/zodigancode.md] (сходство 0.82)
+h2. Похожие документы
+* [antipozitive|antipozitive.md] (сходство 0.87)
+* [vladspace|vladspace.md] (сходство 0.84)
+* [zodigancode|zodigancode.md] (сходство 0.82)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [antipozitive|docs/contacts/antipozitive.md]
-* [sonia-black|docs/contacts/sonia-black.md]
-* [spbmolot|docs/contacts/spbmolot.md]
-* [andrey-chuyan|docs/contacts/andrey-chuyan.md]
+h2. Смотрите также
+* [antipozitive|antipozitive.md]
+* [sonia-black|sonia-black.md]
+* [spbmolot|spbmolot.md]
+* [andrey-chuyan|andrey-chuyan.md]
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+
+
+----
+
+_Кто ссылается на этот документ (12):_
+* [research-docs-liteparse|../05-habr-projects/knowledge/research-docs-liteparse.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [README|README.md]
+* [andrey-chuyan|andrey-chuyan.md]
+* _...ещё 4_
 

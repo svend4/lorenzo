@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:40a2243dc83650cb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/03-registry.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/07-portal-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/02-terminology.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:4d613e1a82eb1059",
+  "payload": {
+    "title": "3. Registry (`nautilus.json`)",
+    "summary": "Registry — central source of truth о том, какие Repos входят в",
+    "body": "registry nautilus json important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также registry nautilus json anthropic vacancies registry nautilus json registry nautilus json anthropic vacancies registry nautilus json portal entry portal entry terminology terminology",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 479,
+    "path": "docs/nautilus/npp-v1-1/03-registry.md"
+  }
+}

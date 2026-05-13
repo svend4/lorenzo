@@ -1,0 +1,21 @@
+{
+  "card_id": "sha256:2f668b0620510685",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/COMPARE.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:b07acc197196a8c7",
+  "payload": {
+    "title": "Сравнение с предыдущим коммитом",
+    "summary": "",
+    "body": "сравнение предыдущим коммитом файлов было стало слов было стало новые файлы docs anthropic vacancies интегральный анализ профиля svend слов docs anthropic vacancies общий план развития nautilus portal protocol слов docs anthropic vacancies доступ данным слов docs anthropic vacancies контекст мотивация слов docs anthropic vacancies формальный workflow слов docs anthropic vacancies принципы консолидации фаза слов docs anthropic vacancies вопрос fallback ratio как критический или осмыслен слов docs anthropic vacancies условия применимости слов docs anthropic vacancies связь существующими методологиями слов docs anthropic vacancies почему это валидный паттерн для assisted work слов docs anthropic vacancies реализация проекте nautilus слов docs anthropic vacancies ограничения открытые вопросы слов docs anthropic vacancies checklist применения методологии слов docs anthropic vacancies конкретный план применения текущим документам слов docs anthropic vacancies appendix шаблон для header warning слов docs anthropic vacancies appendix примеры расхождений разрешения слов docs anthropic vacancies главные технические риски слов docs anthropic vacancies appendix история изменений методологии слов docs anthropic vacancies глоссарий слов docs anthropic vacancies конфигурация для claude desktop слов docs anthropic vacancies readme mcp инструкция установке слов docs anthropic vacancies установка слов docs anthropic vacancies подключение claude desktop слов docs anthropic vacancies доступные инструменты слов docs anthropic vacancies примеры запросов claude слов docs anthropic vacancies отладка слов docs anthropic vacancies ограничения текущей версии draft слов docs anthropic vacancies обратная связь слов docs anthropic vacancies слой представительских агентов слов docs anthropic vacancies опосредованное представительство для недопредст слов docs anthropic vacancies аннотация слов docs anthropic vacancies содержание слов docs anthropic vacancies синдром золушки почему качество остаётся невидим слов docs anthropic vacancies исторические прецеденты агенты как цивилизационн слов docs anthropic vacancies что делает агента представительским слов docs anthropic vacancies десять областей применения слов docs anthropic vacancies архитектурная спецификация слов docs anthropic vacancies этическая рамка слов docs anthropic vacancies управление надзор слов docs anthropic vacancies риски меры противодействия слов ещё удалённые файлы изменившиеся файлы топ слов файл было стало tables readability outline empty sections questions sitemap paragraph quality heading audit paragraph quality outline tables concepts timeline priorities questions word freq action items changelog processing guide coverage code blocks code blocks contradictions readme kpi contradictions decisions abbreviations",
+    "tags": [],
+    "projects": [],
+    "wc": 477,
+    "path": "docs/COMPARE.md"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:c669ae9f6b52fc10",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/10-second-order-ensembles.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/ensembles/D-voice-first-mesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/ensembles/B-forensic-rag.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:e48080cd94d35667",
+  "payload": {
+    "title": "Ансамбль F — Evidence‑Backed Community Intake",
+    "summary": "A[Анкета / чат / PDF / голос] --> B[Svyazi-style extraction]",
+    "body": "ансамбль evidence backed community intake источник deep research report ансамбли второго порядка проекты svyazi cardindex liteparse hybrid rag yodoca смотрите также second order ensembles svyazi second order ensembles новые ансамбли следующего шага collaborations новые ансамбли следующего шага voice first mesh voice first mesh forensic rag forensic rag",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "LiteParse",
+      "Hybrid RAG",
+      "Yodoca"
+    ],
+    "wc": 262,
+    "path": "docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md"
+  }
+}

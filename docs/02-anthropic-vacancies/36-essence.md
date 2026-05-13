@@ -1,24 +1,43 @@
 # Essence
 
+<!-- toc-auto -->
+## Contents
+
+- [Essence](#essence)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > `info1` — персональная база методов и инструментов для структурированного
 
 ---
 <!-- tags: collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
 ## Essence
 
-`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` — персональная база методов и инструментов для структурированного 
+`[info1](01-интегральный-анализ-профиля-svend4.md)` — персональная база методов и инструментов для структурированного 
 мышления и принятия решений. В отличие от обычных knowledge bases, 
 записи здесь организованы не по темам, а по **α-уровням** — градациям 
 уверенности и абстракции, которые позволяют отличать проверенные 
 методы от экспериментальных, базовые принципы от их применений.
 
 Репозиторий входит в экосистему `svend4` как её **методологическое 
-измерение**: отвечает на вопрос «как это делать», в отличие от `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` 
+измерение**: отвечает на вопрос «как это делать», в отличие от `[pro2](01-интегральный-анализ-профиля-svend4.md)` 
 (что это значит) и `meta` (как это символически устроено).
 
 ---
@@ -27,19 +46,43 @@
 
 ---
 
-**Похожие документы:**
-- [46-essence](docs/02-anthropic-vacancies/46-essence.md) (сходство 0.18)
-- [56-essence](docs/02-anthropic-vacancies/56-essence.md) (сходство 0.12)
-- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md) (сходство 0.12)
+## Похожие документы
+- [46-essence](46-essence.md) (сходство 0.18)
+- [56-essence](56-essence.md) (сходство 0.12)
+- [39-angle-perspective](39-angle-perspective.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [46-essence](docs/02-anthropic-vacancies/46-essence.md)
-- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
-- [35-passports-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
-- [45-passports-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Essence"
+```
+
+## Смотрите также
+- [46-essence](46-essence.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [45-passports-[pro2](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [31-content-overview](31-content-overview.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- _...ещё 2_
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.

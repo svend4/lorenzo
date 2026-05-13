@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:c40b2011d7a7a4b4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/01-svyazi/09-architectural-gaps.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:f2a0e01b36a1bfef",
+  "payload": {
+    "title": "09 architectural gaps",
+    "summary": "После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт `.agentos` и compile‑to‑runtime политику; [[03-component-catalog|knowledge-space]] формирует agent‑readable reference cards; NGT[^ngt] Memor",
+    "body": "абстракт авто проблема архитектурный зазор уже сильные кандидаты что них уже хорошо закрыто что пока остаётся незакрытым что брать mvp карточка как единица правды svyazi agentfs card подход третьих нужен memory governance layer который даёт ассоциативной памяти записывать предлагаемое как истинное результат наоборот даже средний model tier даёт много пользы если extract normalize review evidence memory status already pinned ключевые слова svyazi memory проект search review agentfs knowledge evidence после первичного обзора видно что дефицит уже наличии компонентов стыках между ними svyazi svyazi хорошо закрывает ingest нормализацию agentfs agentfs даёт agentos compile runtime политику проекты svyazi cardindex cardindex agentfs component catalog knowledge space knowledge space mclaude factory rufler rufler liteparse архитектурные зазоры которые важнее новых инструментов после первичного обзора видно что дефицит уже наличии компонентов стыках между ними svyazi хорошо закрывает ingest нормализацию agentfs даёт agentos compile runtime политику component catalog knowledge space формирует agent readable reference cards ngt ngt memory yodoca yodoca решают разные режимы памяти research docs liteparse legal rag rag решают доказуемость litellm auto router tool search execution plane sentinel sentinel path guard практики безопасность именно переходах card memory memory evidence evidence review review agent execution сегодня остаётся больше всего архитектурного риска cite turn search turn view turn view turn view turn view turn view turn view turn view turn view turn view практическом смысле есть пять зазоров которые стоит считать приоритетнее поиска ещё десяти новых инструментов первых нужен единый тип карточки который умеет хранить человека проект эпизод документ слабую гипотезу вторых нужен evidence envelope стандарт которому любой вывод системы можно обратно привязать странице координате фрагменту текста или истории изменения третьих нужен memory governance layer который даёт ассоциативной памяти записывать предлагаемое как истинное четвёртых нужен agent contract layer где навыки маршрутизация права оформлены как исполнимые правила как размазанные инструкции разным файлам пятых нужен review protocol который отделяет обнаружено системой принято индекс сообщества или использовано внешнем отчёте каждый этих зазоров уже частично покрыт найденными решениями целиком одной системой cite turn search turn view turn view turn view turn view turn view turn view turn view turn view ниже концентрированная таблица именно архитектурным зазорам самим проектам архитектурный зазор уже сильные кандидаты что них уже хорошо закрыто что пока остаётся незакрытым что брать mvp карточка как единица правды svyazi agentfs cardindex hash dedup versionable vault persistent state универсальная типизация для person project doc episode hypothesis card schema raw inferred split immutable ids cite turn search turn view turn view доказуемое основание вывода research docs liteparse legal rag hybrid rag bounding boxes page level grounding coordinates transparent retrieval единый формат evidence pack между retrieval интерфейсом page level viewer source page span box schema cite turn view turn view turn view память контролируемым статусом ngt memory yodoca agent memory mcp memory associative retrieval consolidation forgetting typed memory guard rails чёткая граница truth proposal conflict decayed pending queue confidence state machine наполнение графа cite turn view turn view turn view turn view оркестрация review mclaude factory rufler sequential locks mailbox patch learning yaml swarm sequential review стандарт handoff для non code workflow knowledge moderation роли extractor reviewer publisher cite turn view turn view turn view turn view безопасный execution plane litellm auto router tool search sentinel unified api lightweight routing lazy tool loading runtime guard общая policy matrix tool classes external skills read only default write approval path allowlist cite turn search turn view turn view turn view turn view этого следует важный практический принцип svyazi нужно начинать самой умной модели самой строгой структуры переходов между слоями сильная модель без карточного статуса evidence envelope review protocol быстро превращает систему красивый плохо аудитируемый генератор гипотез наоборот даже средний model tier даёт много пользы если extract normalize review evidence memory status already pinned это согласуется svyazi подходом executive summary cardindex privacy design memory критикой thoughtful but schema breaking reasoning legal rag подходом page level доказуемости cite turn search turn view turn view turn view похожие документы архитектурные зазоры которые важнее новых инструме сходство сходство интеграционный контракт который стоит зафиксироват сходство смотрите также intro part integration contracts integration contracts intro part security privacy security privacy intro part mvp planning mvp planning rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 769,
+    "path": "docs/obsidian/01-svyazi/09-architectural-gaps.md"
+  }
+}

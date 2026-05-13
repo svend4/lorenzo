@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:3cd3049e229b21bc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/03-portal-protocol-md.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:7e139fafcced5b3a",
+  "payload": {
+    "title": "PORTAL-PROTOCOL.md",
+    "summary": "",
+    "body": "portal protocol status draft working document portal protocol markdown nautilus portal protocol version draft status draft working document author svend license documentation mit reference implementation date похожие документы portal protocol сходство mediated representation for underrepresented сходство coordinated infrastructure for distributed expe сходство смотрите также coordinated infrastructure for distributed expe portal protocol formal model for human collaboration distr mediated representation for underrepresented упоминается status this document status this document status this document status this document appendices appendices versioning policy versioning policy reference implementation reference implementation versioning policy versioning policy reference implementation reference implementation formal model for human collaboration distr formal model for human collaboration distributed knowledge work coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution appendix minimal working example appendix minimal working example appendix minimal working example appendix minimal working example author contact author contact author contact author contact for the curious philosophy for the curious philosophy portal protocol portal protocol readme mcp инструкция установке readme mcp инструкция установке readme readme review methodology review methodology portal mcp portal mcp readme вакансии anthropic анализ кластерам зачем две версии параллельно зачем две версии параллельно примеры запросов claude примеры запросов claude ссылки ссылки упоминается readme вакансии anthropic анализ кластерам связанные документы portal protocol portal protocol coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution author contact author contact formal model for human collaboration distr formal model for human collaboration distributed knowledge work mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations status this document status this document appendices appendices versioning policy versioning policy связанные документы coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution portal protocol portal protocol formal model for human collaboration distr formal model for human collaboration distributed knowledge work status this document status this document mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations versioning policy versioning policy author contact author contact author contact author contact",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 329,
+    "path": "docs/obsidian/02-anthropic-vacancies/03-portal-protocol-md.md"
+  }
+}

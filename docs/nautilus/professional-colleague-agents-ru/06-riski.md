@@ -305,11 +305,31 @@ HIPAA, GDPR, эквивалентное соответствие.
 
 ---
 
-**Смотрите также:**
-- [237-6-риски-специфичные-для-этой-категории](docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md)
-- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
-- [235-4-архитектура-профессиональных-коллег-агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
-- [04-arkhitektura](docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Риски специфичные для этой категории"
+```
+
+## Смотрите также
+- [237-6-риски-специфичные-для-этой-категории](../../02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md)
+- [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
+- [235-4-архитектура-профессиональных-коллег-агентов](../../02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
+- [04-arkhitektura](04-arkhitektura.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-keys-obuchay](03-keys-obuchay.md)
+- [04-arkhitektura](04-arkhitektura.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -317,7 +337,7 @@ HIPAA, GDPR, эквивалентное соответствие.
 ---
 
 **Похожие документы:**
-- [237-6-риски-специфичные-для-этой-категории](docs/obsidian/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) (сходство 0.94)
-- [237-6-риски-специфичные-для-этой-категории](docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) (сходство 0.93)
-- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md) (сходство 0.12)
+- [06-riski](../../obsidian/nautilus/professional-colleague-agents-ru/06-riski.md) (сходство 0.99)
+- [237-6-риски-специфичные-для-этой-категории](../../obsidian/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) (сходство 0.92)
+- [237-6-риски-специфичные-для-этой-категории](../../02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) (сходство 0.92)
 

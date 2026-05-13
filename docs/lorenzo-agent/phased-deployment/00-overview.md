@@ -1,10 +1,26 @@
 # Поэтапная структура активностей Lorenzo — обзор
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
 
 ---
 <!-- tags: roadmap, anthropic -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -33,11 +49,33 @@ Claude hat geantwortet: Отлично — это очень важный отв
 
 ---
 
-**Смотрите также:**
-- [07-progression-logic](docs/lorenzo-agent/phased-deployment/07-progression-logic.md)
-- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
-- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Поэтапная структура активностей Lorenzo"
+```
+
+## Смотрите также
+- [07-progression-logic](07-progression-logic.md)
+- [06-level-5-full-network](06-level-5-full-network.md)
+- [01-level-0-manual](01-level-0-manual.md)
+- [05-level-4-extended-mature](05-level-4-extended-mature.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [07-progression-logic](07-progression-logic.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -45,7 +83,7 @@ Claude hat geantwortet: Отлично — это очень важный отв
 ---
 
 **Похожие документы:**
-- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md) (сходство 0.26)
-- [07-progression-logic](docs/lorenzo-agent/phased-deployment/07-progression-logic.md) (сходство 0.26)
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md) (сходство 0.23)
+- [00-overview](../../obsidian/lorenzo-agent/phased-deployment/00-overview.md) (сходство 0.98)
+- [06-level-5-full-network](06-level-5-full-network.md) (сходство 0.43)
+- [06-level-5-full-network](../../obsidian/lorenzo-agent/phased-deployment/06-level-5-full-network.md) (сходство 0.43)
 

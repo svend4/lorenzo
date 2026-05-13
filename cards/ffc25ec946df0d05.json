@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:ffc25ec946df0d05",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/108-2-формальный-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/05-0-status-of-this-document.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/24-12-versioning-policy.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:395462c7b4266416",
+  "payload": {
+    "title": "7. Реализация в проекте Nautilus",
+    "summary": "Пример, что **методология применяется селективно**, только там,",
+    "body": "реализация проекте nautilus warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений contents реализация проекте nautilus реализация проекте nautilus habr projects memory memnet хронология применения хронология применения артефакты артефакты интеграция nautilus portal protocol интеграция nautilus habr projects memory memnet portal protocol первое применение implementation stage part похожие документы формальный workflow формальный workflow сходство конкретный план применения текущим документам конкретный план применения текущим документам сходство status this document status this document сходство смотрите также формальный workflow формальный workflow конкретный план применения текущим документам конкретный план применения текущим документам status this document status this document versioning policy versioning policy кто ссылается этот документ status this document status this document глоссарий глоссарий примеры запросов claude примеры запросов claude versioning policy versioning policy author contact author contact history history author contact author contact status this document status this document ещё",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 308,
+    "path": "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md"
+  }
+}

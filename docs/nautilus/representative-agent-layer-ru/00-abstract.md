@@ -1,10 +1,27 @@
 # Содержание
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +50,31 @@
 
 ---
 
-**Смотрите также:**
-- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Содержание"
+```
+
+## Смотрите также
+- [190-содержание](../../02-anthropic-vacancies/190-содержание.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [15-appendix-c-history](../review-methodology/15-appendix-c-history.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -45,7 +82,7 @@
 ---
 
 **Похожие документы:**
-- [190-содержание](docs/obsidian/02-anthropic-vacancies/190-содержание.md) (сходство 0.52)
-- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md) (сходство 0.51)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.33)
+- [00-abstract](../../obsidian/nautilus/representative-agent-layer-ru/00-abstract.md) (сходство 0.93)
+- [15-appendix-c-history](../review-methodology/15-appendix-c-history.md) (сходство 0.58)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.55)
 

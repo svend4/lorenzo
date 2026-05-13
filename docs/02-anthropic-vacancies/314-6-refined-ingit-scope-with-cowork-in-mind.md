@@ -1,5 +1,37 @@
 # 6. Refined InGit Scope with Cowork in Mind
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [6. Refined InGit Scope with Cowork in Mind](#6-refined-ingit-scope-with-cowork-in-mind)
+  - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
+  - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
+  - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
+  - [6.4. Total Reduced Scope](#64-total-reduced-scope)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Refined InGit Scope with Cowork in Mind](#6-refined-ingit-scope-with-cowork-in-mind)
+  - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
+  - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
+  - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
+  - [6.4. Total Reduced Scope](#64-total-reduced-scope)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+---
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -12,16 +44,6 @@
 > ✅ **Результат:** Net timeline: From 10-16 months to roughly 12 months, with much higher quality result.
 > 🏷️ **Ключевые слова:** `months`, `cowork`, `ingit`, `phase`, `scope`, `effort`, `provides`, `anthropic`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [6. Refined InGit Scope with Cowork in Mind](#6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind)
-  - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
-  - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
-  - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
-  - [6.4. Total Reduced Scope](#64-total-reduced-scope)
 
 
 <!-- summary -->
@@ -64,7 +86,7 @@ working part-time.
 **Goal**: InGit operations available to Cowork via MCP.
 
 **Deliverables**:
-- `[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server` Python package
+- `[ingit](306-with-anthropic-s-cowork-platform.md)-mcp-server` Python package
 - 15-20 tools covering core operations
 - Open source release
 - Integration documentation
@@ -77,7 +99,7 @@ working part-time.
 **Goal**: Real-world usage drives improvements.
 
 **Deliverables**:
-- Migration tools (Notion, Obsidian, [GitHub](../docs/01-svyazi/03-component-catalog.md))
+- Migration tools (Notion, Obsidian, [GitHub](../01-svyazi/03-component-catalog.md))
 - Refinements based on user feedback
 - Documentation expansion
 - Community building
@@ -109,19 +131,35 @@ better outcomes.
 
 ---
 
-**Похожие документы:**
-- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.17)
-- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.14)
-- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.13)
+## Похожие документы
+- [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.17)
+- [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.14)
+- [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.13)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Refined InGit Scope with Cowork in"
+```
+
+## Смотрите также
+- [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [README](README.md)
 

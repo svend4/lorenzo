@@ -1,0 +1,67 @@
+{
+  "card_id": "sha256:f478dd896d8f312d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/01-overview.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/processing-guide/02-extraction.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/03-chunking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/04-structuring.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/05-analysis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/06-search.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/07-llm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/08-export.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/09-automation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/10-future.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:26+00:00",
+  "updated_at": "2026-05-10T17:29:26+00:00",
+  "payload_hash": "sha256:9e9d70a645537334",
+  "payload": {
+    "title": "Обработка больших массивов информации — Часть 1: Обзор и таксономия",
+    "summary": "Когда у вас есть **большой разрозненный массив информации** — сохранённые сессии ChatGPT/Claude (MHTML), исследовательские отчёты, статьи с Хабра, технические документы — перед вами стоит задача:",
+    "body": "обработка больших массивов информации часть обзор таксономия руководство всем доступным методам обработки разрозненных документов проекте lorenzo svyazi проекты svyazi проблема когда вас есть большой разрозненный массив информации сохранённые сессии chatgpt claude mhtml исследовательские отчёты статьи хабра технические документы перед вами стоит задача извлечь текст разных форматов разбить смысловые единицы организовать темам связям обогатить найти что видно напрямую сделать доступным поиск экспорт навигация автоматизировать чтобы работало без ручного труда таксономия методов все доступные методы разбиты уровней базовых экспериментальных уровень источники форматы mhtml pdf html txt уровень извлечение парсинг конвертация нормализация уровень разбивка чанкинг сегментация дробление уровень структурирование теги заголовки шаблоны связи уровень анализ nlp граф противоречия тональность уровень поиск фасеты семантика пассажи уровень llm обогащение резюме вопросы gaps контакты уровень экспорт obsidian confluence epub rss rag уровень автоматизация оркестратор watcher mcp что реализовано lorenzo уровень скриптов статус источники extract mhtml organize docs извлечение part split part collaborations разбивка improve chunk semantic improve text segmenter структурирование improve autofill improve auto toc improve crosslink all анализ improve concept graph improve contradiction check improve textrank поиск improve passage retrieval improve faceted search improve reading list llm обогащение improve llm написаны ждут api экспорт improve obsidian improve epub improve confluence автоматизация improve run all improve watcher mcp server итого скриптов llm mcp сервер claude skills шаблонов навигация разделам часть тема extraction extraction извлечение mhtml pdf html markdown chunking chunking разбивка чанкинг сегментация слияние structuring structuring структурирование теги toc шаблоны автозаполнение analysis analysis анализ nlp граф ner противоречия тональность search search поиск фасеты пассажи список чтения llm llm llm обогащение резюме gaps контакты export export экспорт форматы rag пайплайн интеграции automation automation автоматизация оркестратор watcher mcp future future инновационные ещё придуманные подходы смотрите также export export processing guide processing guide extraction extraction llm llm",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 462,
+    "path": "docs/processing-guide/01-overview.md"
+  }
+}

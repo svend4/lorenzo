@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:4a9a7f2dc165ecc8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/148-appendix-a-glossary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/double-triangle-architecture/07-open-questions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6e7303524dc73e88",
+  "payload": {
+    "title": "5. Pattern Library as Bridge Between Triangles",
+    "summary": "Double-Triangle systems face a fundamental question: how do",
+    "body": "pattern library bridge between triangles tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration pattern library bridge between triangles the problem shared knowledge double triangle systems face fundamental question how assistants different nodes lower triangles share knowledge about best practices conventions and reusable patterns without each node privately replicating this knowledge centralized shared knowledge company wiki organization playbook has known problems stales duplicates with external sources and creates single points failure fully distributed knowledge every assistant learns independently has opposite problems doesn compound and diverges pattern library architecture propose pattern library architecture operating two tiers tier public patterns repositories abstract patterns methodologies scrum kanban ddd legal norms sgb statutes directives templates pull request templates meeting formats best practices antipatterns these are shared across many teams and organizations tier private instances concrete applications patterns within specific contexts team actual sprint lawyer actual case developer actual deployment these are node specific and often confidential inheritance relationship each private instance inherits from one more public patterns instance can override specific parts pattern while retaining the overall structure name case format case instance inherits from public nautilus legal pattern eingliederungshilfe denial reversal public nautilus legal norm sgb xii public nautilus legal template widerspruch generic overrides eingliederungshilfe denial reversal specific sachsen jurisdiction timeline adjusted true three types bridges the pattern library introduces three distinct bridge types beyond npp single bridges concept inheritance bridge private instance points public pattern uses template direction instance pattern citation bridge private instance references specific norms decisions authorities direction instance authority contribution bridge private instance generates anonymized pattern contribute back public library direction instance pattern through anonymization pipeline these three bridge types correspond three workflow phases start work instance inherits from patterns use existing knowledge during work instance cites authorities ground work source material after work instance contributes back compound shared knowledge anonymization contribution mechanism for pattern libraries grow organically without privacy violations require formal anonymization pipeline pii detection names dates addresses identifiers replacement with type consistent placeholders manual verification automated anonymization insufficient structural metadata addition pattern type outcome applicability publication public tier this pipeline enables tier instances generate tier patterns while preserving privacy anonymization becomes the compounding mechanism for shared knowledge why this architecture critical for double triangle without pattern library architecture assistants lower triangle and lower triangle cannot share knowledge cross node learning requires explicit human coordination team knowledge does not compound with use with pattern library architecture assistants can query public patterns before executing tasks protocol meta agent can route tasks based pattern fit protocol nodes can contribute back after successful execution closing the loop the pattern library the glue that binds the upper and lower triangles into coherent system where knowledge flows efficiently between levels смотрите также pattern library bridge between triangles anthropic vacancies pattern library bridge between triangles double triangle architecture double triangle architecture appendix glossary anthropic vacancies appendix glossary open questions open questions",
+    "tags": [
+      "security",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 642,
+    "path": "docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md"
+  }
+}

@@ -1,10 +1,37 @@
 # Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
 
 ---
 <!-- tags: architecture, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -35,11 +62,31 @@
 
 ---
 
-**Смотрите также:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Почему двойственность ангел хранитель"
+```
+
+## Смотрите также
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [07-current-implementations](07-current-implementations.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [08-pluses-of-model](08-pluses-of-model.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 
 
 <!-- similar-docs -->
@@ -47,7 +94,7 @@
 ---
 
 **Похожие документы:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.23)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.13)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.13)
+- [06-angel-vs-demon-duality](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md) (сходство 0.98)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.23)
+- [00-question-innovations-transitions](../../obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.23)
 

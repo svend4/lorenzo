@@ -182,7 +182,7 @@ practice.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.15)
 - [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.15)
 - [[264-11-open-questions]] (сходство 0.15)
@@ -192,7 +192,13 @@ practice.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Risks Specific to Composite"
+```
+
+## Смотрите также
 - [[262-9-integration-with-okwf-infrastructure]]
 - [[264-11-open-questions]]
 - [[257-4-the-sub-agent-registry]]
@@ -239,3 +245,19 @@ practice.
 - [[252-abstract|Abstract]] _29%_
 - [[258-5-configuration-how-principals-build-their-ensembl|5. Configuration: How Principals Build Their Ensembles]] _29%_
 - [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[151-open-knowledge-work-foundation-md]]
+- [[162-8-risk-analysis]]
+- [[217-6-risks-specific-to-this-category]]
+- [[252-abstract]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[257-4-the-sub-agent-registry]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- [[259-6-coordination-and-disagreement-resolution]]
+- _...ещё 3_
+

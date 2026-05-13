@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:4d44028cae309f8e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/mega-stacks/03-dsl-ast.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/25-30-extended.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:00fb038ad8639e40",
+  "payload": {
+    "title": "Комбинация 27: Hybrid RAG with AST-Chunked Code",
+    "summary": "Code + legal precedents unified knowledge base",
+    "body": "комбинация hybrid rag with ast chunked code источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты hybrid rag смотрите также dsl ast mega stacks dsl ast ast based code analysis for legal automation ast based code analysis for legal automation legal document intelligence pipeline legal document intelligence pipeline extended synthesis tables extended кто ссылается этот документ components name glossary components name readme readme extended synthesis tables extended",
+    "tags": [
+      "rag",
+      "self-improvement"
+    ],
+    "projects": [
+      "Hybrid RAG"
+    ],
+    "wc": 220,
+    "path": "docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md"
+  }
+}

@@ -1,6 +1,28 @@
 # Автозаполненные шаблоны
 
+<!-- toc-auto -->
+## Contents
+
+- [Файлы](#файлы)
+- [Как работает](#как-работает)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 **Проекты:** Svyazi
 
@@ -56,7 +78,14 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Автозаполненные шаблоны"
+```
+
+## Смотрите также
 - [.md](autofilled/components/.md)
 - [cowork](autofilled/components/cowork.md)
 - [ingit](autofilled/components/ingit.md)
@@ -69,12 +98,29 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 - [Все таблицы репозитория](TABLES.md)
 - [Карта репозитория Lorenzo](SITEMAP.md)
 
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [README](README.md)
+- [TABLES](TABLES.md)
+- [cowork](autofilled/components/cowork.md)
+- [ingit](autofilled/components/ingit.md)
+- [kksudo](autofilled/components/kksudo.md)
+- [lorenzo](autofilled/components/lorenzo.md)
+- [nautilus](autofilled/components/nautilus.md)
+- [sgb](autofilled/components/sgb.md)
+- _...ещё 4_
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [AUTOFILLED](docs/obsidian/AUTOFILLED.md) (сходство 0.83)
-- [svyazi](docs/autofilled/components/svyazi.md) (сходство 0.45)
-- [svend4](docs/autofilled/components/svend4.md) (сходство 0.45)
+- [AUTOFILLED](obsidian/AUTOFILLED.md) (сходство 0.97)
+- [svyazi](autofilled/components/svyazi.md) (сходство 0.49)
+- [svend4](autofilled/components/svend4.md) (сходство 0.49)
 

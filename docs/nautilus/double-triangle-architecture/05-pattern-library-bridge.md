@@ -147,11 +147,24 @@ efficiently between levels.
 
 ---
 
-**Смотрите также:**
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
-- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-- [07-open-questions](docs/nautilus/double-triangle-architecture/07-open-questions.md)
+## Смотрите также
+- [142-5-pattern-library-as-bridge-between-triangles](../../02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+- [148-appendix-a-glossary](../../02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [07-open-questions](07-open-questions.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -159,7 +172,7 @@ efficiently between levels.
 ---
 
 **Похожие документы:**
-- [142-5-pattern-library-as-bridge-between-triangles](docs/obsidian/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.87)
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.85)
-- [148-appendix-a-glossary](docs/obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.21)
+- [05-pattern-library-bridge](../../obsidian/nautilus/double-triangle-architecture/05-pattern-library-bridge.md) (сходство 0.98)
+- [142-5-pattern-library-as-bridge-between-triangles](../../02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.83)
+- [142-5-pattern-library-as-bridge-between-triangles](../../obsidian/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.83)
 

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:983c8e2c8d7f8d2a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CITATION_INDEX.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:e71dd8753797eeea",
+  "payload": {
+    "title": "Индекс цитирования URL",
+    "summary": "Уникальных URL: **151** | Отфильтровано (≥1): **151**",
+    "body": "индекс цитирования url обновлено уникальных url отфильтровано топ доменов домен url авторитетность github com habr com img shields claude dnews api github com fontanka discourse org hypothes claude com support claude com fossil scm org happyin space install creativecommons org activitypub rocks org solidproject org raw githubusercontent com наиболее цитируемые url url файлов авторитетность домен https github com svend nautilus issues github com https github com svend ingit github com https github com svend nautilus github com https github com svend pro github com https github com mcp github com https habr com articles habr com https github com svend info github com https github com anastasiyaw knowledge space github com https github com svend meta github com https habr com companies airi articles habr com https habr com articles habr com https github com kksudo agentfs github com https github com svend ingit issues github com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com companies yandex articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles comments habr com https habr com articles habr com https github com vitalyoborin yodoca github com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com companies airi articles habr com https habr com articles habr com https habr com companies yoomoney articles habr com https habr com companies surfstudio articles habr com https habr com articles habr com https github com svend data github com https github com settings tokens github com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https habr com articles habr com https github com svend pro blob main nautilus readme github com детали топ https github com svend nautilus issues цитируется файлах авторитетность docs anthropic vacancies appendix references docs anthropic vacancies глоссарий docs anthropic vacancies обратная связь docs anthropic vacancies appendix version history docs anthropic vacancies appendix sample use cases detail ещё https github com svend ingit цитируется файлах авторитетность docs anthropic vacancies with anthropic cowork platform docs anthropic vacancies acknowledgments docs anthropic vacancies references docs anthropic vacancies appendix sample ingit mcp server tool specificat docs anthropic vacancies ingit как cowork интегрированная подложка рабочего ещё https github com svend nautilus цитируется файлах авторитетность docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies call action docs anthropic vacancies closing docs anthropic vacancies status this document docs anthropic vacancies reference implementation ещё https github com svend pro цитируется файлах авторитетность docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies проекте docs anthropic vacancies about docs entities docs links ещё https github com mcp цитируется файлах авторитетность docs anthropic vacancies intro docs anthropic vacancies общий план развития nautilus portal protocol docs anthropic vacancies проекте docs anthropic vacancies about docs links ещё https habr com articles цитируется файлах авторитетность docs anthropic vacancies приложение образец спецификаций инструментов ing docs collaborations intro docs habr projects memory readme docs habr projects memory yodoca docs links ещё https github com svend info цитируется файлах авторитетность docs anthropic vacancies проекте docs anthropic vacancies about docs entities docs links docs source map ещё https github com anastasiyaw knowledge space цитируется файлах авторитетность docs anthropic vacancies приложение образец спецификаций инструментов ing docs dependabot docs entities docs links docs tables ещё https github com svend meta цитируется файлах авторитетность docs anthropic vacancies проекте docs anthropic vacancies about docs entities docs links docs tables ещё https habr com companies airi articles цитируется файлах авторитетность docs collaborations intro docs habr projects knowledge readme docs habr projects knowledge wikontic docs tables docs collaborations candidates three key candidates ещё",
+    "tags": [],
+    "projects": [
+      "AgentFS",
+      "knowledge-space",
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 861,
+    "path": "docs/CITATION_INDEX.md"
+  }
+}

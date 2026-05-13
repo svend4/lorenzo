@@ -161,11 +161,33 @@ across both journals and individual researchers.
 
 ---
 
-**Смотрите также:**
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 The Sub Agent Registry"
+```
+
+## Смотрите также
+- [257-4-the-sub-agent-registry](../../02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- [07-economics-combinatorial](07-economics-combinatorial.md)
+- [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- [10-risks](10-risks.md)
+- [README](README.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -173,7 +195,7 @@ across both journals and individual researchers.
 ---
 
 **Похожие документы:**
-- [257-4-the-sub-agent-registry](docs/obsidian/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.91)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.86)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md) (сходство 0.23)
+- [04-sub-agent-registry](../../obsidian/nautilus/composite-skills-agents/04-sub-agent-registry.md) (сходство 0.99)
+- [257-4-the-sub-agent-registry](../../02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.84)
+- [257-4-the-sub-agent-registry](../../obsidian/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.83)
 

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:c63b0f12d3e6b441",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:2fb9fe5dc6b4ff34",
+  "payload": {
+    "title": "README-MCP.md— инструкция по установке",
+    "summary": "title: \"README-MCP.md— инструкция по установке\"",
+    "body": "readme mcp инструкция установке отдельный документ для репо объясняющий как настроить mcp обёртку readme mcp инструкция установке отдельный документ для репо объясняющий как настроить mcp обёртку markdown nautilus portal mcp integration подключение nautilus portal llm клиентам через model context protocol mcp позволяет claude desktop cursor другим mcp совместимым клиентам запрашивать экосистему svend как обычный tool похожие документы portal mcp сходство portal protocol сходство portal protocol сходство смотрите также portal mcp review methodology author contact readme упоминается abstract abstract appendix minimal working example appendix minimal working example appendix change log appendix change log portal protocol portal protocol readme readme review methodology review methodology references references portal mcp portal mcp благодарности благодарности readme вакансии anthropic анализ кластерам глоссарий глоссарий зачем две версии параллельно зачем две версии параллельно конфигурация для claude desktop конфигурация для claude desktop общий план развития nautilus portal protocol общий план развития nautilus portal protocol отладка отладка подключение claude desktop подключение claude desktop расписание фазы расписание фазы ссылки ссылки section упоминается readme вакансии anthropic анализ кластерам связанные документы review methodology review methodology readme readme appendix minimal working example appendix minimal working example глоссарий глоссарий portal mcp portal mcp appendix minimal working example appendix minimal working example abstract abstract status this document status this document связанные документы review methodology review methodology глоссарий глоссарий portal mcp portal mcp readme readme appendix minimal working example appendix minimal working example appendix change log appendix change log status this document status this document section",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 275,
+    "path": "docs/obsidian/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md"
+  }
+}

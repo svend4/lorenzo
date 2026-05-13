@@ -1,5 +1,22 @@
 # Общая память между агентами (CoAlly + ансамбль F)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -39,11 +56,33 @@ Mermaid
 
 ---
 
-**Смотрите также:**
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Общая память между агентами CoAlly"
+```
+
+## Смотрите также
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [2-distributed-agent-workshop](../ensembles/2-distributed-agent-workshop.md)
+- [1-agentic-knowledge-os](../ensembles/1-agentic-knowledge-os.md)
+- 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-commercialization-three-paths](08-commercialization-three-paths.md)
+- [README](README.md)
+- [2-distributed-agent-workshop](../ensembles/2-distributed-agent-workshop.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -51,7 +90,7 @@ Mermaid
 ---
 
 **Похожие документы:**
-- [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md) (сходство 0.18)
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.17)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.17)
+- [01-shared-memory-between-agents](../../obsidian/ai-collaborations/continuation/01-shared-memory-between-agents.md) (сходство 0.99)
+- [03-a2a-vs-mcp-protocols](03-a2a-vs-mcp-protocols.md) (сходство 0.20)
+- [03-a2a-vs-mcp-protocols](../../obsidian/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md) (сходство 0.19)
 

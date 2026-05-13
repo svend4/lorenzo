@@ -1,11 +1,40 @@
 # Комбинация 8: Conductor × adversarial-review × Auto AI Router
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, Yodoca, Auto AI Router
 
 ---
 <!-- tags: memory, rag, orchestration, ingestion, local-first, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -126,11 +155,28 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
-**Смотрите также:**
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 8 Conductor adversarial"
+```
+
+## Смотрите также
+- [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
 
 
 <!-- similar-docs -->
@@ -138,7 +184,7 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 ---
 
 **Похожие документы:**
-- [05-benchmarks](docs/obsidian/03-technology-combinations/05-benchmarks.md) (сходство 0.66)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.64)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md) (сходство 0.49)
+- [08-conductor-adversarial-review-auto-ai-router](../../obsidian/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md) (сходство 0.98)
+- [05-benchmarks](../../obsidian/03-technology-combinations/05-benchmarks.md) (сходство 0.65)
+- [05-benchmarks](../../03-technology-combinations/05-benchmarks.md) (сходство 0.65)
 

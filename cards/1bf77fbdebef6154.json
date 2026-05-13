@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:1bf77fbdebef6154",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:749215dd9ccbc719",
+  "payload": {
+    "title": "The Missing Middle Layer Between Chat and Code",
+    "summary": "work (Documents 1-2) than to applied papers (Documents 3-7), but",
+    "body": "the missing middle layer between chat and code document type inquiry paper not architectural specification похожие документы support through configurable specialist ensembl support through configurable specialist ensembl сходство with anthropic cowork platform with anthropic cowork platform сходство typology agents the principal side and typology agents the principal side and сходство смотрите также support through configurable specialist ensembl support through configurable specialist ensembl with anthropic cowork platform with anthropic cowork platform typology agents the principal side and typology agents the principal side and mediated representation for underrepresented mediated representation for underrepresented упоминается typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments acknowledgments appendix connection companion papers appendix connection companion papers appendix sample ingit mcp server tool specifications appendix sample ingit mcp server tool specificat references references references references with anthropic cowork platform with anthropic cowork platform вакансии anthropic анализ кластерам readme существующие документы dhlab твой context существующие документы dhlab твой context упоминается вакансии anthropic анализ кластерам readme связанные документы appendix connection companion papers appendix connection companion papers with anthropic cowork platform with anthropic cowork platform существующие документы dhlab твой context существующие документы dhlab твой context acknowledgments acknowledgments typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl acknowledgments acknowledgments table contents table contents связанные документы with anthropic cowork platform with anthropic cowork platform acknowledgments acknowledgments appendix connection companion papers appendix connection companion papers mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented существующие документы dhlab твой context существующие документы dhlab твой context typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl references references кто ссылается этот документ table contents table contents acknowledgments acknowledgments mediated representation for underrepresented mediated representation for underrepresented acknowledgments acknowledgments appendix connection companion papers appendix connection companion papers typology agents the principal side and typology agents the principal side and acknowledgments acknowledgments support through configurable specialist ensembl support through configurable specialist ensembl ещё",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 432,
+    "path": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md"
+  }
+}

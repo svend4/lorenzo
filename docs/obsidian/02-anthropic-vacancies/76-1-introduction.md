@@ -10,33 +10,22 @@ date: 2026-05-13
 
 # 1. Introduction
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [1. Introduction](#1-introduction)
   - [1.1. Motivation](#11-motivation)
   - [1.2. Design Goals](#12-design-goals)
   - [1.3. Non-Goals](#13-non-goals)
   - [1.4. Terminology](#14-terminology)
   - [1.5. Changes from v1.0](#15-changes-from-v10)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [1. Introduction](#1-introduction)
-  - [1.1. Motivation](#11-motivation)
-  - [1.2. Design Goals](#12-design-goals)
-  - [1.3. Non-Goals](#13-non-goals)
-  - [1.4. Terminology](#14-terminology)
-  - [1.5. Changes from v1.0](#15-changes-from-v10)
 
 
 <!-- summary -->
@@ -124,7 +113,7 @@ NPP **не** пытается:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[06-1-introduction]] (сходство 0.53)
 - [[67-о-проекте]] (сходство 0.14)
 - [[74-abstract]] (сходство 0.13)
@@ -134,9 +123,26 @@ NPP **не** пытается:
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Introduction"
+```
+
+## Смотрите также
 - [[06-1-introduction]]
 - [[74-abstract]]
 - [[67-о-проекте]]
 - [[77-2-terminology]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[67-о-проекте]]
+- [[74-abstract]]
+- [[94-19-adr-001-federation-over-merging]]
+- [[README]]
 

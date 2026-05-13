@@ -1,14 +1,5 @@
 # References
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** References Contents - References(references) - Primary Empirical Source(primary-empirical-source) - Companion Papers(companion-papers) - Foundation Sources (continued from Represen
-> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
-> 🏷️ **Ключевые слова:** `references`, `anthropic`, `vacancies`, `professional`, `practice`, `architecture`, `foundation`, `representative`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -19,6 +10,24 @@
   - [Professional Practice Theory](#professional-practice-theory)
   - [AI in Professional Practice](#ai-in-professional-practice)
   - [Related Architecture](#related-architecture)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Primary Empirical Source(primary-empirical-source) - Companion Papers(companion-papers) - Foundation Sources (continued from Represen
+> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
+> 🏷️ **Ключевые слова:** `references`, `anthropic`, `vacancies`, `professional`, `practice`, `architecture`, `foundation`, `representative`
+>
 
 
 <!-- summary -->
@@ -81,19 +90,40 @@
 
 ---
 
-**Похожие документы:**
-- [245-ссылки](docs/02-anthropic-vacancies/245-ссылки.md) (сходство 0.22)
-- [183-references](docs/02-anthropic-vacancies/183-references.md) (сходство 0.22)
-- [268-references](docs/02-anthropic-vacancies/268-references.md) (сходство 0.18)
+## Похожие документы
+- [245-ссылки](245-ссылки.md) (сходство 0.22)
+- [183-references](183-references.md) (сходство 0.22)
+- [268-references](268-references.md) (сходство 0.18)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [245-ссылки](docs/02-anthropic-vacancies/245-ссылки.md)
-- [183-references](docs/02-anthropic-vacancies/183-references.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
-- [268-references](docs/02-anthropic-vacancies/268-references.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
+- [245-ссылки](245-ссылки.md)
+- [183-references](183-references.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [268-references](268-references.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [168-abstract](168-abstract.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [320-references](320-references.md)
+- [README](README.md)
 

@@ -11,6 +11,11 @@ date: 2026-05-13
 
 # 10. Appendices
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -21,6 +26,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Nautilus Portal Protocol v1.1**:
 
 ---
@@ -182,7 +191,7 @@ shared, cited, refined by anyone with attribution.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[163-9-call-for-partnership]] (сходство 0.17)
 - [[158-4-proposed-infrastructure]] (сходство 0.16)
 - [[162-8-risk-analysis]] (сходство 0.16)
@@ -192,7 +201,13 @@ shared, cited, refined by anyone with attribution.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Appendices"
+```
+
+## Смотрите также
 - [[163-9-call-for-partnership]]
 - [[143-6-four-deployment-domains]]
 - [[162-8-risk-analysis]]
@@ -237,3 +252,19 @@ shared, cited, refined by anyone with attribution.
 - [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]] _21%_
 - [[316-8-implications-for-nautilus-and-okwf|8. Implications for Nautilus and OKWF]] _21%_
 - [[42-author-contact|Author & Contact]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [[03-portal-protocol-md]]
+- [[05-0-status-of-this-document]]
+- [[143-6-four-deployment-domains]]
+- [[153-executive-summary]]
+- [[156-2-target-populations]]
+- [[162-8-risk-analysis]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[282-what-industry-will-likely-build]]
+- _...ещё 5_
+

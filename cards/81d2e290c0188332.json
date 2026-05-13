@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:81d2e290c0188332",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/sonia-black.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:2633c1d5ba2ff50c",
+  "payload": {
+    "title": "Контакт: Sonia_Black / knowledge-space",
+    "summary": "title: \"Контакт: Sonia_Black / knowledge-space\"",
+    "body": "контакт sonia black knowledge space tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi knowledge space contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник sonia black github sonia black https github com sonia black проекты knowledge space слой svyazi knowledge упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте sonia black изучаю knowledge space отлично вписывается svyazi которую собираю как локальную community intelligence platform knowledge space закрывает слой knowledge архитектуре было интересно пообщаться как лучше связаться открытые вопросы вопрос вопрос создано автоматически похожие документы vladspace сходство nlaik сходство antipozitive сходство смотрите также antipozitive nlaik spbmolot andrey chuyan",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space"
+    ],
+    "wc": 229,
+    "path": "docs/obsidian/contacts/sonia-black.md"
+  }
+}

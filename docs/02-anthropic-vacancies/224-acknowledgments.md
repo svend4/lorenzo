@@ -1,6 +1,29 @@
 # Acknowledgments
 
+<!-- toc-auto -->
+## Contents
+
+- [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > This paper emerged through dialogue with Claude (Anthropic)
 
 ---
@@ -34,7 +57,7 @@ errors are author's responsibility.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [267-acknowledgments](267-acknowledgments.md) (сходство 0.20)
 - [182-acknowledgments](182-acknowledgments.md) (сходство 0.17)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.15)
@@ -44,7 +67,13 @@ errors are author's responsibility.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
+## Смотрите также
 - [267-acknowledgments](267-acknowledgments.md)
 - [211-table-of-contents](211-table-of-contents.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
@@ -81,3 +110,19 @@ errors are author's responsibility.
 - [Appendix A: Connection to Companion Papers](184-appendix-a-connection-to-companion-papers.md) _25%_
 - [Table of Contents](211-table-of-contents.md) _25%_
 - [References](183-references.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [137-table-of-contents](137-table-of-contents.md)
+- [146-acknowledgments](146-acknowledgments.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [182-acknowledgments](182-acknowledgments.md)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- _...ещё 4_
+

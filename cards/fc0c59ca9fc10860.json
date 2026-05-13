@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:fc0c59ca9fc10860",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/COMPLEXITY.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/ORPHANS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/COMPARE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:b10b9ad936b3f339",
+  "payload": {
+    "title": "Оценка читаемости документов",
+    "summary": "",
+    "body": "оценка читаемости документов warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений файлов проанализировано распределение сложности уровень файлов простой средний сложный самые сложные документы документ слов длина пред термин плотность заголовков балл приложение образец спецификац сложный что такое вариант concept doc сложный lorenzo catalyst agent глубокая сложный components name сложный приложение образец спецификац сложный что такое вариант concept doc сложный lorenzo catalyst agent глубокая сложный intro сложный интегральный анализ профиля sven сложный обратная связь сложный appendix version history сложный appendix connection diagram сложный приложение визуализация позиции сложный развёрнутый анализ внуковой ком сложный local first сложный benchmarks сложный intro сложный ограничения лицензии что пока сложный memnet сложный abbreviations сложный badges сложный component matrix сложный concepts сложный contact priority сложный entities сложный самые простые документы документ слов балл portal protocol простой status this document простой terminology простой registry nautilus json простой passport passport простой review methodology простой простой формальный workflow простой вопрос fallback ratio как критически простой связь существующими методологиям простой реализация проекте nautilus простой ограничения открытые вопросы простой конкретный план применения теку простой appendix шаблон для header warning простой appendix примеры расхождений простой методология средняя длина предложения слов балла терминологическая плотность балла глубина заголовков балл объём слов балла",
+    "tags": [],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 605,
+    "path": "docs/COMPLEXITY.md"
+  }
+}

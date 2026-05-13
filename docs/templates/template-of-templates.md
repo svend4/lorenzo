@@ -8,6 +8,17 @@ tags: [шаблоны, мета]
 
 # [имя нового шаблона]
 
+<!-- summary -->
+> `template-of-templates` — раздел документации проекта Lorenzo.
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
+<!-- toc-auto -->
+
 
 Это мета-шаблон для создания новых шаблонов в `docs/templates/`.
 
@@ -61,7 +72,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [связанный-шаблон](docs/templates/связанный.md)
 ```
 
@@ -132,8 +143,29 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
-- [research-note](docs/templates/research-note.md)
-- [decision-record](docs/templates/decision-record.md)
+## Смотрите также
+- [research-note](research-note.md)
+- [decision-record](decision-record.md)
 - [`scripts/improve_validate_templates.py`](../../scripts/improve_validate_templates.py)
 - [`scripts/improve_template_init.py`](../../scripts/improve_template_init.py)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [README](README.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [template-of-templates](../obsidian/templates/template-of-templates.md) (сходство 0.95)
+- [legal-case](legal-case.md) (сходство 0.20)
+- [glossary-entry](glossary-entry.md) (сходство 0.19)
+

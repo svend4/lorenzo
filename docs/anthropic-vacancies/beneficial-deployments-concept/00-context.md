@@ -1,10 +1,26 @@
 # Контекст: что такое Anthropic Beneficial Deployments
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -49,11 +65,34 @@ What's the role of you (the proposer)? Specifically.
 
 ---
 
-**Смотрите также:**
-- [05-section-5-role-of-anthropic](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md)
-- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
-- [01-section-1-problem](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
-- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Контекст что такое Anthropic Beneficial"
+```
+
+## Смотрите также
+- [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md)
+- [01-section-1-problem](01-section-1-problem.md)
+- [11-not-and-format](11-not-and-format.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md)
+- [11-not-and-format](11-not-and-format.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -61,7 +100,7 @@ What's the role of you (the proposer)? Specifically.
 ---
 
 **Похожие документы:**
-- [05-section-5-role-of-anthropic](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md) (сходство 0.24)
-- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.24)
-- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) (сходство 0.21)
+- [00-context](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/00-context.md) (сходство 0.98)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md) (сходство 0.30)
+- [10-section-10-engagement-request](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.30)
 

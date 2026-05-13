@@ -1,0 +1,62 @@
+{
+  "card_id": "sha256:1a4ffe8b489345d6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/03-local-first.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/01-08-summary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:1e6d85150619f6bb",
+  "payload": {
+    "title": "Комбинация 3: CRDT local-first × Svyazi CardIndex",
+    "summary": "CRDT / RON / Yjs (habr.com/ru/articles/534510/, habr.com/ru/articles/946722/) — conflict-free replicated data types, p2p синхронизация",
+    "body": "комбинация crdt local first svyazi cardindex источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex yjs смотрите также local first technology combinations local first pravilnaya agentskaya arkhitektura svyazi pattern pravilnaya agentskaya arkhitektura svyazi pattern hybrid crdt sql database hybrid crdt sql database hybrid olap oltp with real time sync hybrid olap oltp with real time sync кто ссылается этот документ components name glossary components name readme readme legal stack mega stacks legal stack summary synthesis tables summary",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 199,
+    "path": "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md"
+  }
+}

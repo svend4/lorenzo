@@ -1,0 +1,68 @@
+{
+  "card_id": "sha256:cda10d3d1d712e98",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/overview/executive-summary.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/prototype/mvp-plan.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/limitations/license-tree.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/outreach/first-contacts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:8c63431e10393c17",
+  "payload": {
+    "title": "Executive summary",
+    "summary": "",
+    "body": "executive summary tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел executive summary проекты svyazi cardindex agentfs mclaude factory rufler liteparse legal rag смотрите также executive summary collaborations executive summary mvp plan prototype mvp plan license tree limitations license tree first contacts outreach first contacts",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 376,
+    "path": "docs/svyazi-2-0/overview/executive-summary.md"
+  }
+}

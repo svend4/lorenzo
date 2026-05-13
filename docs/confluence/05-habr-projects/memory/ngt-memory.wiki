@@ -6,6 +6,22 @@
 h1. NGT[^ngt] Memory: ассоциативный граф
 
 
+h2. Contents
+
+* [Статус|#статус]
+  * [Прямые аналоги Svyazi (паттерн «LLM + детерминированный код → структура»)|#прямые-аналоги-svyazi-паттерн-llm-детерминированный-код-структура]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (4)|#кто-ссылается-на-этот-документ-4]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ У Романова уже решена задача «как мерить качество извлечённой структуры», над которой Чуян ещё думает.{quote}
@@ -15,13 +31,17 @@ h1. NGT[^ngt] Memory: ассоциативный граф
 
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
 h2. Статус
 
 || Параметр || Значение ||
 || Теги || — ||
 || Упоминаний в репо || 260 ||
 || Слой || memory ||
-|| Контакт || [@spbmolot](docs/contacts/spbmolot.md) ||
+|| Контакт || [@spbmolot](../../contacts/spbmolot.md) ||
 || Статус связи || не писали ||
 
 _Обновлено: 2026-04-29_
@@ -52,19 +72,25 @@ h3. Прямые аналоги Svyazi (паттерн «LLM + детермин�
 
 ----
 
-_Похожие документы:_
-* [wikontic|docs/05-habr-projects/knowledge/wikontic.md] (сходство 0.10)
+h2. Похожие документы
+* [wikontic|../knowledge/wikontic.md] (сходство 0.10)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [wikontic|docs/05-habr-projects/knowledge/wikontic.md]
-* [02-collaboration-partners|docs/05-habr-projects/02-collaboration-partners.md]
-* [NARRATIVE|docs/NARRATIVE.md]
-* [yodoca|docs/05-habr-projects/memory/yodoca.md]
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "NGT ngt Memory ассоциативный граф"
+{code}
+
+h2. Смотрите также
+* [Yodoca: консолидация и забывание|yodoca.md]
+* agent-memory-[mcp + Memory OS|agent-memory-mcp.md]
+* [MemNet: исследовательская память|memnet.md]
+* [Wikontic: семантический граф|../knowledge/wikontic.md]
 
 
 
@@ -77,3 +103,14 @@ _Смотрите также:_
 [^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [wikontic|../knowledge/wikontic.md]
+* [README|README.md]
+* [04-structuring|../../processing-guide/04-structuring.md]
+* [PROCESSING_GUIDE|../../processing-guide/PROCESSING_GUIDE.md]
+

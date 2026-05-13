@@ -1,10 +1,37 @@
 # Вопрос: два Наутилуса в репозиториях svend4 (pro2 vs nautilus)
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer
 
 ---
 <!-- tags: orchestration, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -37,11 +64,33 @@ Claude hat geantwortet: Правильно разграничиваете — э
 
 ---
 
-**Смотрите также:**
-- [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
-- [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вопрос два Наутилуса в репозиториях"
+```
+
+## Смотрите также
+- [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
+- [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-camel-vs-nautilus](../nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-can-it-apply-to-docs](../../nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
+- [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
+- [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -49,7 +98,7 @@ Claude hat geantwortet: Правильно разграничиваете — э
 ---
 
 **Похожие документы:**
-- [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) (сходство 0.20)
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.16)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.15)
+- [00-question-two-nautiluses](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) (сходство 0.98)
+- [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md) (сходство 0.25)
+- [01-shell-metaphor-two-projections](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) (сходство 0.25)
 

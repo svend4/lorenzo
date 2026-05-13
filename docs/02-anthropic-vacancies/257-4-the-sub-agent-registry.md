@@ -169,7 +169,7 @@ across both journals and individual researchers.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.19)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.18)
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.16)
@@ -179,7 +179,13 @@ across both journals and individual researchers.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 The Sub Agent Registry"
+```
+
+## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
@@ -224,3 +230,19 @@ across both journals and individual researchers.
 - [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md) _25%_
 - [10. Open Questions](221-10-open-questions.md) _25%_
 - [Abstract](252-abstract.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [153-executive-summary](153-executive-summary.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- _...ещё 8_
+

@@ -1,11 +1,28 @@
 # Пара 2 — Термодинамические TSU × MoE/MoME-роутинг
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** MemNet
 
 ---
 <!-- tags: memory, knowledge, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +45,28 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 
 ---
 
-**Смотрите также:**
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 2 Термодинамические TSU MoE MoME"
+```
+
+## Смотрите также
+- [02-memnet](../key-findings/02-memnet.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
+- 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [README](../../nautilus/README.md)
 
 
 <!-- similar-docs -->
@@ -40,7 +74,7 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 ---
 
 **Похожие документы:**
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.19)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.17)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) (сходство 0.16)
+- [2-tsu-mome](../../obsidian/habr-unique-projects/hardware-pairs/2-tsu-mome.md) (сходство 0.96)
+- [02-memnet](../key-findings/02-memnet.md) (сходство 0.23)
+- [02-memnet](../../obsidian/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.22)
 

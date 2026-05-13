@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:31e0c27f87ab4dfa",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/13-communications.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/16-people.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/13-reference-implementation.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:246a8674c07c9763",
+  "payload": {
+    "title": "Du hast gesagt: https://habr.",
+    "summary": "",
+    "body": "hast gesagt https habr источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога реакция habr статью смотрите также appendix change log npp appendix change log communications anthropic vacancies clusters communications people anthropic vacancies clusters people reference implementation npp reference implementation",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 72,
+    "path": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md"
+  }
+}

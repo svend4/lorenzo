@@ -1,0 +1,65 @@
+{
+  "card_id": "sha256:bd21e35076a57b86",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/key-findings/04-dochkina-sequential.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/02-memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:a91e6a3db3cceb9e",
+  "payload": {
+    "title": "Виктория Дочкина — Sequential‑протокол распределённых агентов",
+    "summary": "Источник данных и инфраструктурные кусочки",
+    "body": "виктория дочкина sequential протокол распределённых агентов источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi cardindex смотрите также supplementary infrastructure supplementary infrastructure tinyml mcp skills hardware pairs tinyml mcp skills memnet memnet crdt self hosted software pairs crdt self hosted кто ссылается этот документ authors name glossary authors name components name glossary components name concepts glossary concepts readme readme",
+    "tags": [
+      "memory",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "MemNet"
+    ],
+    "wc": 284,
+    "path": "docs/habr-unique-projects/key-findings/04-dochkina-sequential.md"
+  }
+}

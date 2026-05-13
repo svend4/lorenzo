@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:42feb5ba7e3632bc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/SPELLCHECK.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/ORPHANS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/STALENESS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/LLM_SUMMARIES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/STATS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:e3007bc372a9ac31",
+  "payload": {
+    "title": "Отчёт орфографии",
+    "summary": "python scripts/improve_spellcheck.py --fix",
+    "body": "отчёт орфографии обновлено файлов проблемами найденные проблемы docs anthropic vacancies интегральный анализ профиля svend проверяет проверяет docs anthropic vacancies приложение образцы случаев использования детал проверяет проверяет docs anthropic vacancies приложение визуализация позиции серии проверяет проверяет docs anthropic vacancies приложение образец спецификаций инструментов ing проверяет проверяет docs anthropic vacancies lorenzo catalyst agent глубокая проработка специфи проверяет проверяет docs anthropic vacancies final note experiment проверяет проверяет docs anthropic vacancies развёрнутый анализ внуковой комбинации проверяет проверяет docs technology combinations knowledge graphs проверяет проверяет docs technology combinations benchmarks проверяет проверяет docs collaborations intro проверяет проверяет docs habr projects memory memnet проверяет проверяет docs action items проверяет проверяет docs github issues проверяет проверяет docs kpi проверяет проверяет docs methodology проверяет проверяет docs scripts catalog проверяет проверяет docs tables проверяет проверяет docs collaborations ensembles distributed agent workshop проверяет проверяет docs collaborations ensembles agent firewall проверяет проверяет docs collaborations fast tracks readme проверяет проверяет docs anthropic vacancies managed virtual company polymath project tao comparison проверяет проверяет docs anthropic vacancies extra collaborator findings happyin knowledge space проверяет проверяет docs habr unique projects deep pairs tmux village openclaw проверяет проверяет docs lorenzo agent operationalized overview grandchild combination проверяет проверяет docs nautilus community discussions habr article reaction response проверяет проверяет docs nautilus innovation transitions question innovations transitions проверяет проверяет docs nautilus representative agent layer zaklyuchenie проверяет проверяет docs obsidian anthropic vacancies интегральный анализ профиля svend проверяет проверяет docs obsidian anthropic vacancies приложение образцы случаев использования детал проверяет проверяет docs obsidian anthropic vacancies приложение визуализация позиции серии проверяет проверяет docs obsidian anthropic vacancies приложение образец спецификаций инструментов ing проверяет проверяет docs obsidian anthropic vacancies lorenzo catalyst agent глубокая проработка специфи проверяет проверяет docs obsidian anthropic vacancies final note experiment проверяет проверяет docs obsidian anthropic vacancies развёрнутый анализ внуковой комбинации проверяет проверяет docs obsidian technology combinations knowledge graphs проверяет проверяет docs obsidian technology combinations benchmarks проверяет проверяет docs obsidian collaborations intro проверяет проверяет docs obsidian habr projects memory memnet проверяет проверяет docs obsidian action items проверяет проверяет docs obsidian github issues проверяет проверяет docs obsidian kpi проверяет проверяет docs technology combinations combinations sourcecraft cli claude code sequential protokol dochkinoy проверяет проверяет docs technology combinations combinations conductor adversarial review auto router проверяет проверяет авто исправление python scripts improve spellcheck fix python scripts improve spellcheck fix dry run посмотреть перед записью известных пар опечатка исправление",
+    "tags": [],
+    "projects": [
+      "knowledge-space",
+      "MemNet"
+    ],
+    "wc": 346,
+    "path": "docs/SPELLCHECK.md"
+  }
+}

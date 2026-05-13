@@ -1,6 +1,41 @@
 # 1. Why Single-Triangle Models Are Incomplete
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ---
@@ -81,11 +116,32 @@ such a protocol.
 
 ---
 
-**Смотрите также:**
-- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
-- [03-three-inter-layer-protocols](docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Why Single Triangle Models Are"
+```
+
+## Смотрите также
+- [138-1-why-single-triangle-models-are-incomplete](../../02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
+- [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
+- [136-abstract](../../02-anthropic-vacancies/136-abstract.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-abstract](00-abstract.md)
+- [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -93,7 +149,7 @@ such a protocol.
 ---
 
 **Похожие документы:**
-- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.87)
-- [138-1-why-single-triangle-models-are-incomplete](docs/obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.85)
-- [00-abstract](docs/nautilus/double-triangle-architecture/00-abstract.md) (сходство 0.25)
+- [01-why-single-triangle-incomplete](../../obsidian/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md) (сходство 0.98)
+- [138-1-why-single-triangle-models-are-incomplete](../../02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.83)
+- [138-1-why-single-triangle-models-are-incomplete](../../obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.82)
 

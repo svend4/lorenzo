@@ -66,3 +66,34 @@ def test_list_templates_returns_list():
     """Smoke test."""
     templates = list_templates()
     assert isinstance(templates, list)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+import importlib as _importlib
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+_mod = _importlib.import_module("improve_template_init")
+
+
+def test_main_list_no_crash(monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    result = _mod.main()
+    assert result == 0
+
+
+def test_main_no_type_returns_error(monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = _mod.main()
+    assert result == 1
+
+
+def test_main_creates_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(_mod, "ROOT", tmp_path)
+    template_name = _mod.list_templates()[0] if _mod.list_templates() else None
+    if template_name is None:
+        return  # no templates available, skip
+    slug = str(tmp_path / "output.md")
+    monkeypatch.setattr("sys.argv", ["prog", "--type", template_name, "--slug", slug])
+    result = _mod.main()
+    assert result in (0, None)

@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:79572de8ca3b7556",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/review-methodology/01-context-motivation.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/00-tldr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/09-limitations-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/10-checklist.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:f31d98ff5a88d865",
+  "payload": {
+    "title": "1. Контекст и мотивация",
+    "summary": "Проект Nautilus разрабатывается в паре «автор + Claude Code агент».",
+    "body": "контекст мотивация источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также контекст мотивация anthropic vacancies контекст мотивация tldr tldr limitations open questions limitations open questions checklist checklist",
+    "tags": [
+      "memory",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 361,
+    "path": "docs/nautilus/review-methodology/01-context-motivation.md"
+  }
+}

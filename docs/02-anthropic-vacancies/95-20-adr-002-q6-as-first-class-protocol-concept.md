@@ -1,6 +1,29 @@
 # 20. ADR-002: Q6 as First-Class Protocol Concept
 
+<!-- toc-auto -->
+## Contents
+
+- [20. ADR-002: Q6 as First-Class Protocol Concept](#20-adr-002-q6-as-first-class-protocol-concept)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > **Status**: Accepted (new in v1.1)
 
 ---
@@ -16,7 +39,7 @@
 **Context**: В v1.0 Q6-пространство существовало как implementation 
 detail reference portal (pro2 → hexagrams). При росте экосистемы 
 стало ясно, что Q6 работает как универсальная система координат 
-для всех Repos, не только [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md).
+для всех Repos, не только [pro2](01-интегральный-анализ-профиля-svend4.md).
 
 **Decision**: В v1.1 Q6 повышается до нормативного концепта 
 протокола. Level 2+ адаптеры MUST обеспечивать Q6-координаты. 
@@ -42,7 +65,7 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [83-8-q6-space-normative](83-8-q6-space-normative.md) (сходство 0.11)
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md) (сходство 0.10)
 
@@ -51,7 +74,13 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "20 ADR 002 Q6 as First Class Protocol"
+```
+
+## Смотрите также
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
 - [83-8-q6-space-normative](83-8-q6-space-normative.md)
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
@@ -88,3 +117,14 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 - [Appendix C: References](104-appendix-c-references.md) _17%_
 - [Bridges](40-bridges.md) _17%_
 - [Bridges](60-bridges.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
+- [README](README.md)
+

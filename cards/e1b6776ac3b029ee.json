@@ -1,0 +1,71 @@
+{
+  "card_id": "sha256:e1b6776ac3b029ee",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/synthesis-tables/01-08-summary.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/05-benchmarks.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:9d17e2f6d3f25de5",
+  "payload": {
+    "title": "Сводная таблица 1–8",
+    "summary": "Ни один из этих проектов по отдельности не революционен:",
+    "body": "сводная таблица источник mhtml снимок комбинирование технологий для новых свойств claude секция сводная таблица синергии проекты svyazi cardindex yodoca смотрите также conductor adversarial review auto router combinations conductor adversarial review auto router benchmarks technology combinations benchmarks legal stack mega stacks legal stack extended extended кто ссылается этот документ concepts glossary concepts reading paths reading paths readme readme readme readme",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "Yodoca"
+    ],
+    "wc": 401,
+    "path": "docs/technology-combinations/synthesis-tables/01-08-summary.md"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:9ec746c5c83af195",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/rfc.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/templates/decision-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/protocol-spec.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/REGISTRY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TASKS_INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:caeb2c713fc7cf49",
+  "payload": {
+    "title": "RFC NNNN: [Название]",
+    "summary": "`[draft | proposed | accepted | rejected | implemented | superseded]`",
+    "body": "rfc nnnn название status this document draft proposed accepted rejected implemented superseded abstract параграфа что предлагается зачем introduction motivation какую проблему решает rfc почему сейчас scope что зоне действия документа что вне terminology термин определение термин определение specification подсекция конкретные определения схемы форматы подсекция architecture graph component component compatibility backward compatibility что ломается ломается migration path как мигрировать security considerations угрозы митигации privacy considerations что делается pii reference implementation ссылки код прототипы open questions references rfc abcd ссылка описание связанная работа ссылка appendix change log версия дата что изменилось initial draft создано смотрите также decision record decision record protocol spec protocol spec кто ссылается этот документ registry registry tasks index tasks index readme readme",
+    "tags": [
+      "rfc",
+      "спецификация"
+    ],
+    "projects": [],
+    "wc": 241,
+    "path": "docs/templates/rfc.md"
+  }
+}

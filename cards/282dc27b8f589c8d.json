@@ -1,0 +1,64 @@
+{
+  "card_id": "sha256:282dc27b8f589c8d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/REGISTRY.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/templates/agent-spec.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/contact-outreach.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/contradiction-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/decision-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/ensemble.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/experiment-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/faq-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/glossary-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/kpi-snapshot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/legal-case.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:222ca567cb7a89d9",
+  "payload": {
+    "title": "REGISTRY — реестр артефактов Lorenzo",
+    "summary": "python scripts/improve_template_init.py --type rfc --slug docs/rfcs/RFC-NNNN.md",
+    "body": "registry реестр артефактов lorenzo обновлено сводка слой кол скрипты improve шаблоны docs templates скилы claude skills mcp серверы манифесты задач контакты скрипты группам группа скриптов analysis analytics cicd contacts ext content deeptext export extract generate graph index mcp meta nlpplus quality reports structure textwork без группы шаблоны шаблон описание обязательных секций agent spec templates agent spec спецификация агента тип принципал скилы tools память decision boundary contact outreach templates contact outreach контактный файл автора oss проекта профиль статус связи первое сообщение contradiction record templates contradiction record запись противоречии между двумя источниками decision record templates decision record architecture decision record adr контекст варианты решение последствия ensemble templates ensemble описание ансамбля компонентов задача состав контракт риски mvp experiment log templates experiment log журнал эксперимента гипотеза метод журнал результат выводы faq entry templates faq entry faq запись вопрос краткий подробный ответ glossary entry templates glossary entry глоссарная статья определение происхождение синонимы примеры kpi snapshot templates kpi snapshot снапшот kpi деталями метрик трендом legal case templates legal case юридический кейс aktenzeichen стороны хронология нормы прецеденты meeting notes templates meeting notes протокол встречи повестка обсуждение решения action items mega stack templates mega stack полный технологический стек для класса задач всеми слоями project component templates project component карточка компонента что это особенности статус интеграция экосистемой protocol spec templates protocol spec спецификация протокола стиле ietf nautilus npp prototype mvp templates prototype mvp план mvp фазами метриками успеха рисками research note templates research note свободная заметка исследование контекст находки источники открытые вопросы retrospective templates retrospective ретроспектива что хорошо что плохо action items rfc templates rfc request for comments формальная спецификация стиле ietf nautilus npp risk entry templates risk entry запись риска вероятность влияние митигация tech pair templates tech pair пара технологий описанием синергии tech radar entry templates tech radar entry запись tech radar квадрант кольцо обоснование weekly digest templates weekly digest еженедельный дайджест что сделано метрики решения план скилы скилл назначение analyze project claude skills analyze project анализирует конкретный проект базы знаний lorenzo audit corpus claude skills audit corpus сводный аудит состояния всего монорепо метрики противоречия пробелы compare claude skills compare сравнение двух или нескольких документов разделов подходов daily routine claude skills daily routine ежедневная процедура аудит противоречия пробелы отчёт design ensemble claude skills design ensemble дизайн ансамбля компонентов под конкретную задачу svyazi dispatch claude skills dispatch запуск нескольких скилов параллельно или последовательно агрегацией результата evaluate skill claude skills evaluate skill мета скилл оценить насколько применённый скилл решил задачу пользователя evaluate tech claude skills evaluate tech оценка одной технологии для использования svyazi lorenzo find cinderella claude skills find cinderella поиск cinderella syndrome ценные проекты идеи без видимости find contradictions claude skills find contradictions поиск противоречий между документами теме или целом find gaps claude skills find gaps поиск пробелов базе знаний упомянутых описанных тем generate rfc claude skills generate rfc создание rfc документа теме подтягиванием контекста корпуса improve claude skills improve универсальный навык улучшения любого элемента lorenzo документа контакта new research claude skills new research старт нового исследования теме outreach day claude skills outreach day день аутрича связаться приоритетными контактами plan mvp claude skills plan mvp планирование mvp прототипа имеющихся компонентов решений propose collaboration claude skills propose collaboration предложение кому обратиться теме для конкретной задачи propose mega stack claude skills propose mega stack предложение мега стека полного технологического стека для класса задач review architecture claude skills review architecture архитектурное ревью документа раздела системы review docs claude skills review docs рецензирует документ или раздел базы знаний lorenzo search claude skills search полнотекстовый поиск базе знаний lorenzo skill router claude skills skill router мета скилл выбирает подходящий специализированный скилл запросу пользователя status claude skills status быстрая сводка текущего состояния проекта lorenzo без чтения множества файлов summarize claude skills summarize резюмирование документа раздела или подборки документов теме synthesize claude skills synthesize синтез единой картины теме многих документов track decisions claude skills track decisions отслеживание архитектурных решений adr теме хронологии weekly review claude skills weekly review еженедельное ревью дайджест аудит ретро план write contact claude skills write contact помогает написать первое сообщение автору проекта mcp серверы сервер описание lorenzo contacts контакты get contact list contacts update contact status propose outreach lorenzo docs legacy монолитный сервер для обратной совместимости lorenzo embed семантический поиск keyword semantic hybrid search encode list providers lorenzo export экспорт obsidian confluence epub rss csv html report lorenzo graph аналитика get health get decisions get concept graph kpi history get project status lorenzo llm llm кэшем llm summary llm llm enrich llm contact lorenzo ops операции doctor audit query audit top tools workflow history workflow stats lorenzo runner запуск improve list scripts describe script run improve run group lorenzo search read only поиск search docs passages find similar faceted search lorenzo skills скилы list skills get skill match skill router compose skills evaluate skill lorenzo templates шаблоны манифесты list templates init doc validate doc list tasks show task lorenzo watch мониторинг recent",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 1327,
+    "path": "docs/REGISTRY.md"
+  }
+}

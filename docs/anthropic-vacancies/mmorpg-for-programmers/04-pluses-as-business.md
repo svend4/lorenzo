@@ -1,7 +1,14 @@
 # Плюсы как бизнеса
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
@@ -10,6 +17,10 @@
 
 ---
 <!-- tags: roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -36,11 +47,33 @@ Venture-attractive — «Roblox for professional work» — понятная и�
 
 ---
 
-**Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Плюсы как бизнеса"
+```
+
+## Смотрите также
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [17-appendix-b-change-log](../../nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [12-appendix-a-header-warning](../../nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [15-appendix-c-history](../../nautilus/review-methodology/15-appendix-c-history.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [02-existing-niche](02-existing-niche.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -48,7 +81,7 @@ Venture-attractive — «Roblox for professional work» — понятная и�
 ---
 
 **Похожие документы:**
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.27)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.26)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.25)
+- [04-pluses-as-business](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md) (сходство 0.94)
+- [15-appendix-c-history](../../nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.49)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.48)
 

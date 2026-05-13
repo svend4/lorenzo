@@ -1,16 +1,4 @@
 # 5. Compatibility Levels
-<!-- tags: memory, anthropic, collaboration -->
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Use case: статические Repos (архивы, reference docs), которые не нужно искать.
-> 🔧 **Подход:** Адаптер реализует только describe() метод.
-> ✅ **Результат:** Это позволяет постепенное подключение: существующий Repo может начать на уровне 0 и расти к уровню 3 без переделки.
-> 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `anthropic`, `vacancies`, `может`, `portal`, `repos`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -20,6 +8,31 @@
   - [Level 1 — Readable](#level-1-readable)
   - [Level 2 — Queryable](#level-2-queryable)
   - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+<!-- tags: memory, anthropic, collaboration -->
+
+
+<!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Use case: статические Repos (архивы, reference docs), которые не нужно искать.
+> 🔧 **Подход:** Адаптер реализует только describe() метод.
+> ✅ **Результат:** Это позволяет постепенное подключение: существующий Repo может начать на уровне 0 и расти к уровню 3 без переделки.
+> 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `anthropic`, `vacancies`, `может`, `portal`, `repos`
+>
 
 
 <!-- summary -->
@@ -39,7 +52,7 @@ NPP определяет 4 уровня совместимости Repo с эк�
 
 ### Level 0 — Discoverable
 
-Repo объявлен в `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с полями `name`, `url`, `format`. 
+Repo объявлен в `[nautilus](../05-habr-projects/memory/memnet.md).json` с полями `name`, `url`, `format`. 
 Адаптера ещё нет. Portal знает о существовании Repo, но не может 
 его запрашивать.
 
@@ -75,19 +88,39 @@ Portal может переводить концепты между Repos чер�
 
 ---
 
-**Похожие документы:**
-- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.32)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md) (сходство 0.17)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md) (сходство 0.14)
+## Похожие документы
+- [80-5-compatibility-levels](80-5-compatibility-levels.md) (сходство 0.32)
+- [41-compatibility-level](41-compatibility-level.md) (сходство 0.17)
+- [51-compatibility-level](51-compatibility-level.md) (сходство 0.14)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
+## Смотрите также
+- [80-5-compatibility-levels](80-5-compatibility-levels.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [61-compatibility-level](61-compatibility-level.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [README](README.md)
 

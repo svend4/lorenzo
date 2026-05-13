@@ -1,5 +1,12 @@
 # Executive summary
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -27,11 +34,33 @@
 
 ---
 
-**Смотрите также:**
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [mvp-plan](docs/svyazi-2-0/prototype/mvp-plan.md)
-- [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Executive summary"
+```
+
+## Смотрите также
+- [01-executive-summary](../../04-ai-collaborations/01-executive-summary.md)
+- [mvp-plan](../prototype/mvp-plan.md)
+- [license-tree](../limitations/license-tree.md)
+- [first-contacts](../outreach/first-contacts.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](../../ai-collaborations/fast-tracks/README.md)
+- [reading-paths](../../reading-paths.md)
+- [conclusions](../limitations/conclusions.md)
+- _...ещё 5_
 
 
 <!-- similar-docs -->
@@ -39,7 +68,7 @@
 ---
 
 **Похожие документы:**
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.72)
-- [01-executive-summary](docs/obsidian/04-ai-collaborations/01-executive-summary.md) (сходство 0.67)
-- [01-executive-summary](docs/01-svyazi/01-executive-summary.md) (сходство 0.57)
+- [executive-summary](../../obsidian/svyazi-2-0/overview/executive-summary.md) (сходство 0.97)
+- [01-executive-summary](../../04-ai-collaborations/01-executive-summary.md) (сходство 0.70)
+- [01-executive-summary](../../obsidian/04-ai-collaborations/01-executive-summary.md) (сходство 0.70)
 

@@ -1,5 +1,23 @@
 # Horizon Europe Cluster 3 — Civil Security for Society — пересекается с «access t…
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -54,11 +72,33 @@ Aktion Mensch — поддерживает disability-related tech specifically.
 
 ---
 
-**Смотрите также:**
-- [04-what-i-can-do-now](docs/nautilus/privacy-federation/04-what-i-can-do-now.md)
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
-- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Horizon Europe Cluster 3 Civil Security"
+```
+
+## Смотрите также
+- [04-what-i-can-do-now](../privacy-federation/04-what-i-can-do-now.md)
+- [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
+- [03-what-doesnt-exist-on-market](03-what-doesnt-exist-on-market.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [02-two-tier-publication](../privacy-federation/02-two-tier-publication.md)
+- [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -66,7 +106,7 @@ Aktion Mensch — поддерживает disability-related tech specifically.
 ---
 
 **Похожие документы:**
-- [04-what-i-can-do-now](docs/nautilus/privacy-federation/04-what-i-can-do-now.md) (сходство 0.22)
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md) (сходство 0.14)
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.13)
+- [04-grant-opportunities](../../obsidian/nautilus/npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.99)
+- [04-what-i-can-do-now](../privacy-federation/04-what-i-can-do-now.md) (сходство 0.23)
+- [04-what-i-can-do-now](../../obsidian/nautilus/privacy-federation/04-what-i-can-do-now.md) (сходство 0.23)
 

@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:509b769ace33ce97",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ORPHANS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:6296b805b99e046f",
+  "payload": {
+    "title": "Изолированные документы (Orphans)",
+    "summary": "_Эти документы не связаны с остальными — их легко потерять._",
+    "body": "изолированные документы orphans найдено файлов без входящих ссылок проверено эти документы связаны остальными легко потерять топ объёму важные изолированные файл слов раздел приложение образец спецификаций obsidian интегральный анализ профиля svend obsidian обратная связь obsidian что такое вариант concept document obsidian intro obsidian section obsidian closing obsidian intro obsidian appendix version history obsidian приложение визуализация позиции obsidian memnet obsidian lorenzo catalyst agent глубокая прор obsidian развёрнутый анализ внуковой комбинац obsidian приложение образцы случаев использ obsidian appendix connection diagram obsidian технический stack svyazi foundat obsidian приложение архитектура быстрого obsidian общий план развития nautilus portal obsidian ограничения лицензии что пока лучше obsidian script eval report root разделам obsidian изолированных приложение образец спецификаций инструментов ing слов интегральный анализ профиля svend слов обратная связь слов что такое вариант concept document для anthropic слов intro слов section слов closing слов intro слов appendix version history слов приложение визуализация позиции серии слов memnet слов lorenzo catalyst agent глубокая проработка специфи слов развёрнутый анализ внуковой комбинации слов приложение образцы случаев использования детал слов appendix connection diagram слов ещё root изолированных script eval report слов collab suggestions слов templates изолированных template templates слов рекомендации добавить ссылки изолированные файлы readme соответствующего раздела проверить являются они дублями других файлов крупные изолированные файлы слов добавить reading order мелкие слов рассмотреть для удаления или слияния",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "MemNet"
+    ],
+    "wc": 308,
+    "path": "docs/ORPHANS.md"
+  }
+}

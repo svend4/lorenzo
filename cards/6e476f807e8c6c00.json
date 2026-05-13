@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:6e476f807e8c6c00",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:e36ab297d072acb9",
+  "payload": {
+    "title": "Final note: Ты — experiment",
+    "summary": "Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible.",
+    "body": "final note experiment абстракт авто проблема проекты svyazi cardindex mclaude rufler содержание final note experiment final note experiment что только что сделал что только что сделал что нужно подход запрос самая интересная внуковая комбинация всего найденного habr scout svyazi like карточки авторов проектов collaboration knowledge agent team kernel forensic результат option даёт immediate test voice option даёт portable artifact что предпочитаете ключевые слова lorenzo agent option anthropic системный промпт альтернативы knowledge tip документ содержит практические рекомендации лучшие практики experiment новой category agents type catalyst agent этот pattern established yet твой success или failure inform что possible проекты svyazi cardindex svyazi executive summary mclaude rufler final note experiment experiment новой category agents type catalyst agent этот pattern established yet твой success или failure inform что possible это means honest experimental nature document learnings open course correction overclaim что settled или proven welcome critique если кто criticizes lorenzo concept или your behavior engage thoughtfully critics могут right update accordingly через max approval end system prompt что только что сделал этот системный промпт это substantial document слов articulates lorenzo identity coherently defines authority structure max ultimate specifies mission beneficiaries layered provides personality guidelines lists capabilities boundaries documents existing knowledge collaborators documents specifies workflow provides outreach template articulates relationships lists anti patterns explicitly provides escalation criteria acknowledges experimental nature что нужно decide перед использованием несколько вопросов перед deploying claude project вопрос имя outreach draft использовал lorenzo английское написание альтернативы lorenzo international читабельно любом языке лоренцо кириллица signals русскоязычное community focus lorenzo english contexts лоренцо russian adaptive рекомендация adaptive lorenzo лоренцо зависимости языка interlocutor вопрос уровень disclosure max написал созданный максом fully discloses max identity каждому contact альтернативы full name максом цинклером если comfortable initials максом pseudonym created dhlab founder без имени just project created within dhlab initiative founder name рекомендация зависит вашего comfort public identification default max или другие initials полное имя revealed более formal contexts вопрос цитирование existing collaborators explicitly listed kagvi анастасия чуян системном промпте это public knowledge всё равно references specific individuals risk если они see что lorenzo сам lists them collaborators того как они agreed может быть perception presumption mitigation можно reformulate как aware these creators work вместо collaborators рекомендация изменить aware these creators work potential collaborators not yet formally engaged вопрос mission specificity написал mission широко catalyzing community synthesis области beneficial для уязвимых групп альтернативы узко catalyzing synthesis infrastructure for sgb advocacy specifically широко catalyzing beneficial work generally текущее beneficial для уязвимых групп medium рекомендация текущее flexibility для phase expansion при сохранении mission focus вопрос autonomy claim использовал autonomous агент работающий pre defined patterns это truthful framing ambitious альтернативы stronger autonomous agent dedicated mission weaker tool used max under dhlab brand текущее autonomous pre defined patterns max ultimate authority medium рекомендация текущее captures формулировку при честности constraints как использовать этот системный промпт шаг создать claude project открыть claude sidebar projects new project имя lorenzo catalyst agent или dhlab lorenzo description catalyst agent для dhlab connecting independent creators beneficial work для уязвимых групп шаг настроить системный промпт project settings custom instructions similar скопировать весь системный промпт выше save шаг загрузить foundational knowledge project knowledge upload все existing documents если вас есть репозитории эту conversation export как text markdown список authors references articles cardindex template если создан шаг test первый test prompt lorenzo представься так как представился андрею чуяну автору свяжи outreach message это test идентичность voice consistency outreach template adherence specific reference real person если output good deploy если not iterate promote шаг continuous improvement над temporal use edit системный промпт based что works хорошо что misalignned new collaborators discovered new patterns learned открытые improvements этот draft first version things that могут улучшиться over time specific outreach examples для разных contexts researcher developer organization decision trees для recurring situation types glossary specific terms cinderella syndrome hypercube interaction history snapshots what worked what didn style adaptation guidelines для different audiences это iterative start этим refine over months альтернативы customizations возможные если хотите customize common options variant more personal voice add more think perspective slightly more conversational variant more formal voice more one the agent slightly more academic variant more restricted scope limit lorenzo only catalog curation synthesis more conservative variant more expansive scope add explicit support для policy advocacy public commentary more activist variant different ratio languages adjust russian primary you want german или english first текущий draft default middle каждой axis что предлагаю как next steps option create polished version после ваших edits preferences которые questions выше option create artifact этим промптом для лёгкого копирования claude project option test системный промпт right now act lorenzo you ask lorenzo task посмотрим как lorenzo voice звучит option refine promote first deploy потом option move next item например draft outreach kagvi используя lorenzo voice моя рекомендация option option option даёт immediate test voice option даёт portable artifact что предпочитаете запрос самая интересная внуковая",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "mclaude",
+      "Rufler"
+    ],
+    "wc": 1617,
+    "path": "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md"
+  }
+}

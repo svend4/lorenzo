@@ -1,20 +1,56 @@
 # nautilus-pro2-analysis
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 4
 
 ## Содержание
 
-- [00-question-two-nautiluses.md](00-question-two-nautiluses.md) — <!-- summary -->
-- [01-shell-metaphor-two-projections.md](01-shell-metaphor-two-projections.md) — <!-- summary -->
-- [02-nautilus-A-pro2-meta.md](02-nautilus-A-pro2-meta.md) — <!-- summary -->
-- [03-nautilus-B-meta-orchestrator.md](03-nautilus-B-meta-orchestrator.md) — <!-- summary -->
+- [00-question-two-nautiluses.md](00-question-two-nautiluses.md) — <!-- toc-auto -->
+- [01-shell-metaphor-two-projections.md](01-shell-metaphor-two-projections.md) — <!-- toc-auto -->
+- [02-nautilus-A-pro2-meta.md](02-nautilus-A-pro2-meta.md) — <!-- toc-auto -->
+- [03-nautilus-B-meta-orchestrator.md](03-nautilus-B-meta-orchestrator.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
+- [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
+- [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/nautilus/community-discussions/practical-observations/README.md) (сходство 0.27)
-- [README](docs/lorenzo-agent/scenarios/README.md) (сходство 0.27)
-- [README](docs/nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.25)
+- [README](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) (сходство 0.78)
+- [README](../../nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.56)
+- [README](../../nautilus/community-discussions/practical-observations/README.md) (сходство 0.56)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «nautilus-pro2-analysis». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

@@ -8,6 +8,11 @@ date: 2026-05-13
 
 # 3. What Makes a Representative Agent
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -18,6 +23,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > A Representative Agent is distinct from existing AI categories.
 
 ---
@@ -151,7 +160,7 @@ and 7.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[174-5-architectural-specification]] (сходство 0.20)
 - [[212-1-the-five-type-typology-of-principal-side-agents]] (сходство 0.15)
 - [[213-2-what-makes-a-professional-colleague-agent]] (сходство 0.13)
@@ -161,7 +170,13 @@ and 7.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Representative Agent"
+```
+
+## Смотрите также
 - [[174-5-architectural-specification]]
 - [[212-1-the-five-type-typology-of-principal-side-agents]]
 - [[213-2-what-makes-a-professional-colleague-agent]]
@@ -207,3 +222,19 @@ and 7.
 - [[179-10-open-questions|10. Open Questions]] _25%_
 - [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _25%_
 - [[264-11-open-questions|11. Open Questions]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[174-5-architectural-specification]]
+- [[211-table-of-contents]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[220-9-relationship-to-other-agent-types]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- _...ещё 2_
+

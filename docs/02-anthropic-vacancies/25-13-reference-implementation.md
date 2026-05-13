@@ -1,6 +1,29 @@
 # 13. Reference Implementation
 
+<!-- toc-auto -->
+## Contents
+
+- [13. Reference Implementation](#13-reference-implementation)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (20)](#кто-ссылается-на-этот-документ-20)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Reference implementation: `github.com/svend4/nautilus`.
 
 ---
@@ -16,10 +39,10 @@ Reference implementation: `github.com/svend4/nautilus`.
 Reference НЕ является нормативной. Альтернативные implementations 
 соответствуют NPP если они:
 
-- Корректно парсят `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` per раздел 3
-- Реализуют [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
+- Корректно парсят `[nautilus](../05-habr-projects/memory/memnet.md).json` per раздел 3
+- Реализуют [BaseAdapter](01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
 - Вычисляют consensus per раздел 8
-- Возвращают [QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) per раздел 10
+- Возвращают [QueryResult](02-общий-план-развития-nautilus-portal-protocol.md) per раздел 10
 
 ---
 
@@ -27,7 +50,7 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.36)
 - [42-author-contact](42-author-contact.md) (сходство 0.21)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.19)
@@ -37,7 +60,13 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "13 Reference Implementation"
+```
+
+## Смотрите также
 - [93-18-reference-implementation](93-18-reference-implementation.md)
 - [42-author-contact](42-author-contact.md)
 - [62-author-contact](62-author-contact.md)
@@ -48,7 +77,7 @@ Reference НЕ является нормативной. Альтернативн
 
 - [0. Status of This Document](05-0-status-of-this-document.md)
 - [0. Status of This Document](75-0-status-of-this-document.md)
-- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- 10. [QueryResult Structure](22-10-queryresult-structure.md)
 - [11. Relevance Ranking](86-11-relevance-ranking.md)
 - [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
 - [15. Glossary of Examples](27-15-glossary-of-examples.md)
@@ -93,3 +122,19 @@ Reference НЕ является нормативной. Альтернативн
 - [passports/info1.md](35-passports-info1-md.md) _33%_
 - [Author & Contact](52-author-contact.md) _33%_
 - [Appendix C: References](104-appendix-c-references.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (20)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [122-глоссарий](122-глоссарий.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [164-10-appendices](164-10-appendices.md)
+- _...ещё 12_
+

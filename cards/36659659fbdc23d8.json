@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:36659659fbdc23d8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:7cbcb144031053aa",
+  "payload": {
+    "title": "7. Practical First Steps This Month",
+    "summary": "folder with InGit structure. Use it for one of the eight",
+    "body": "practical first steps this month содержание contents contents practical first steps this month practical first steps this month this week this week this month this month next quarter next quarter specific test case this document series specific test case this document series упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы practical first steps this month concrete actions for the immediate term this week action create test cowork project pointing simple folder with ingit structure use for one the eight existing series documents move professional colleague agents into cowork accessible ingit style folder action document what works and what doesn specifically did cowork follow ingit conventions where did deviate struggle what custom instructions helped what was confusing action refine custom instructions based observations iterate this month action use the cowork ingit setup for all eight documents current series migrate them into proper ingit project use cowork generate cross references identify inconsistencies suggest refinements action write specific mcp tool requirements based month usage what ingit operations would cowork most benefit from accessing action sketch initial mcp server design don implement yet design first next quarter action implement minimal mcp server tools maximum test with own usage action document everything for potential collaborators action open source release with clear scope and expectations specific test case this document series the eight existing documents provide ideal first test case they are substantial words combined cross referenced document refers etc versioned naturally each has version number diverse technical conceptual applied migrating them into cowork managed ingit project would exercise folder structure conventions metadata management cross reference handling wiki integration git versioning this works smoothly the substrate validated problems emerge they reveal what ingit needs address this dogfooding using your own product your own work most successful infrastructure projects start this way похожие документы four integration paths order accessibility four integration paths order accessibility сходство refined ingit with anthropic cowork platform scope with cowork mind docs anthropic vacancies refined ingit scope with cowork mind сходство the specific case front the specific case front сходство смотрите также refined ingit with anthropic cowork platform scope with cowork mind docs anthropic vacancies refined ingit scope with cowork mind four integration paths order accessibility four integration paths order accessibility table contents table contents practical recommendations for the current project practical recommendations for the current project кто ссылается этот документ the two layer stack exists the two layer stack exists what missing layer what missing layer the specific case front the specific case front practical recommendations for the current project practical recommendations for the current project приложение визуализация позиции серии приложение визуализация позиции серии abstract abstract table contents table contents appendix sample ingit mcp server tool specificat appendix sample ingit mcp server tool specificat ещё",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 471,
+    "path": "docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md"
+  }
+}

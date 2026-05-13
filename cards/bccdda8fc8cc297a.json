@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:bccdda8fc8cc297a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:1e82b082f8496cfc",
+  "payload": {
+    "title": "Section 10: Engagement request",
+    "summary": "Initial conversation (30 min) с someone в Beneficial Deployments",
+    "body": "section engagement request источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также not and format not and format section sgb pilot section sgb pilot section proposer role section proposer role context context",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 213,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md"
+  }
+}

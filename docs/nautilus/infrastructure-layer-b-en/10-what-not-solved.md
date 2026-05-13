@@ -1,10 +1,27 @@
 # What This Document Doesn't Solve
 
+<!-- toc-auto -->
+## Contents
+
+- [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: architecture, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -40,11 +57,35 @@ document provides framing. It does not provide answers.
 
 ---
 
-**Смотрите также:**
-- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
-- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
-- [08-recursive-insight](docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What This Document Doesn t Solve"
+```
+
+## Смотрите также
+- [283-what-this-document-doesn-t-solve](../../02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
+- [08-recursive-insight](08-recursive-insight.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-intro](00-intro.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -52,7 +93,7 @@ document provides framing. It does not provide answers.
 ---
 
 **Похожие документы:**
-- [283-what-this-document-doesn-t-solve](docs/obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.62)
-- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.61)
-- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md) (сходство 0.24)
+- [10-what-not-solved](../../obsidian/nautilus/infrastructure-layer-b-en/10-what-not-solved.md) (сходство 0.98)
+- [283-what-this-document-doesn-t-solve](../../02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.59)
+- [283-what-this-document-doesn-t-solve](../../obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.59)
 

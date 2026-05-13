@@ -1,10 +1,27 @@
 # Почему это не было построено
 
+<!-- toc-auto -->
+## Contents
+
+- [Почему это не было построено](#почему-это-не-было-построено)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -72,11 +89,30 @@ AI-сотрудничество. Каждый инструмент решал
 
 ---
 
-**Смотрите также:**
-- [293-почему-это-не-было-построено](docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
-- [07-rekursivnoe-prozrenie](docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Почему это не было построено"
+```
+
+## Смотрите также
+- [293-почему-это-не-было-построено](../../02-anthropic-vacancies/293-почему-это-не-было-построено.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -84,7 +120,7 @@ AI-сотрудничество. Каждый инструмент решал
 ---
 
 **Похожие документы:**
-- [293-почему-это-не-было-построено](docs/obsidian/02-anthropic-vacancies/293-почему-это-не-было-построено.md) (сходство 0.81)
-- [293-почему-это-не-было-построено](docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md) (сходство 0.80)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md) (сходство 0.19)
+- [04-pochemu-ne-postroeno](../../obsidian/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md) (сходство 0.98)
+- [293-почему-это-не-было-построено](../../02-anthropic-vacancies/293-почему-это-не-было-построено.md) (сходство 0.81)
+- [293-почему-это-не-было-построено](../../obsidian/02-anthropic-vacancies/293-почему-это-не-было-построено.md) (сходство 0.80)
 

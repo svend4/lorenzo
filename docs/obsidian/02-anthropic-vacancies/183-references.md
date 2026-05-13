@@ -8,15 +8,6 @@ date: 2026-05-13
 
 # References
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac
-> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
-> 🏷️ **Ключевые слова:** `references`, `principal`, `anthropic`, `vacancies`, `theory`, `disability`, `ethics`, `ссылки`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -26,6 +17,24 @@ date: 2026-05-13
   - [Disability and Access](#disability-and-access)
   - [Modern AI Ethics](#modern-ai-ethics)
   - [Companion Documents](#companion-documents)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac
+> 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
+> 🏷️ **Ключевые слова:** `references`, `principal`, `anthropic`, `vacancies`, `theory`, `disability`, `ethics`, `ссылки`
+>
 
 
 <!-- summary -->
@@ -86,7 +95,7 @@ date: 2026-05-13
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[204-ссылки]] (сходство 0.24)
 - [[225-references]] (сходство 0.22)
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.17)
@@ -96,9 +105,31 @@ date: 2026-05-13
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
 - [[204-ссылки]]
 - [[225-references]]
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[182-acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[211-table-of-contents]]
+- [[224-acknowledgments]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- _...ещё 2_
 

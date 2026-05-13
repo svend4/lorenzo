@@ -1,5 +1,23 @@
 # Что мы можем делать прямо сейчас (Уровень 0 + параллельная подготовка к Уровню 1)
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -169,11 +187,30 @@ Both produce artifacts which are immediately useful
 
 ---
 
-**Смотрите также:**
-- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
-- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что мы можем делать прямо сейчас"
+```
+
+## Смотрите также
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](../../02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
+- [04-recommendations](../operationalized/04-recommendations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -181,7 +218,7 @@ Both produce artifacts which are immediately useful
 ---
 
 **Похожие документы:**
-- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/obsidian/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) (сходство 0.18)
-- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) (сходство 0.18)
-- [364-final-note-ты-experiment](docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md) (сходство 0.14)
+- [08-current-session-poc](../../obsidian/lorenzo-agent/phased-deployment/08-current-session-poc.md) (сходство 0.99)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](../../obsidian/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) (сходство 0.18)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](../../02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) (сходство 0.18)
 

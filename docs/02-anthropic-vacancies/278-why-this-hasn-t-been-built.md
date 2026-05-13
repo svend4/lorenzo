@@ -1,5 +1,10 @@
 # Why This Hasn't Been Built
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -13,6 +18,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Infrastructure built in the last three years is mostly focused on the chat layer, where the immediate need was visible.
@@ -79,7 +88,7 @@ integration does not.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [285-closing](285-closing.md) (сходство 0.15)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.12)
@@ -89,7 +98,13 @@ integration does not.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Hasn t Been Built"
+```
+
+## Смотрите также
 - [285-closing](285-closing.md)
 - [279-existing-approximations](279-existing-approximations.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
@@ -133,3 +148,19 @@ integration does not.
 - [Existing Approximations](279-existing-approximations.md) _25%_
 - [Acknowledgments](286-acknowledgments.md) _25%_
 - [Why This Document Exists](275-why-this-document-exists.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [168-abstract](168-abstract.md)
+- [266-13-closing](266-13-closing.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
+- _...ещё 3_
+

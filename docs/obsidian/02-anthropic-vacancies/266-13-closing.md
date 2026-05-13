@@ -8,17 +8,10 @@ date: 2026-05-13
 
 # 13. Closing
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [13. Closing](#13-closing)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -30,6 +23,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Mastery in skilled work has always been composite. The yoga
 
 ---
@@ -113,7 +110,7 @@ walking it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[223-12-closing]] (сходство 0.21)
 - [[252-abstract]] (сходство 0.20)
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.20)
@@ -123,7 +120,13 @@ walking it.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "13 Closing"
+```
+
+## Смотрите также
 - [[252-abstract]]
 - [[223-12-closing]]
 - [[254-1-why-the-binary-view-is-incomplete]]
@@ -170,3 +173,19 @@ walking it.
 - [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]] _25%_
 - [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _25%_
 - [[267-acknowledgments|Acknowledgments]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[168-abstract]]
+- [[181-12-closing]]
+- [[223-12-closing]]
+- [[252-abstract]]
+- [[254-1-why-the-binary-view-is-incomplete]]
+- [[255-2-the-twenty-one-teachers-pattern]]
+- [[257-4-the-sub-agent-registry]]
+- [[267-acknowledgments]]
+- _...ещё 4_
+

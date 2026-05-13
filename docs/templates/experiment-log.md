@@ -13,6 +13,21 @@ tags: [эксперимент]
 
 # Эксперимент: [Название]
 
+<!-- summary -->
+> `experiment-log` — раздел документации проекта Lorenzo.
+
+
+<!-- toc-auto -->
+## Содержание
+
+- [Основной раздел](#основной-раздел)
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 
 <!-- summary: Что проверяем и какой результат получили -->
 <!-- tags: эксперимент -->
@@ -81,6 +96,39 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
-- [decision-record](docs/templates/decision-record.md)
-- [research-note](docs/templates/research-note.md)
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template experiment-log --output docs/new-doc.md
+```
+
+## Смотрите также
+- [decision-record](decision-record.md)
+- [research-note](research-note.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [prototype-mvp](prototype-mvp.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [experiment-log](../obsidian/templates/experiment-log.md) (сходство 0.90)
+- [meeting-notes](../obsidian/templates/meeting-notes.md) (сходство 0.46)
+- [meeting-notes](meeting-notes.md) (сходство 0.46)
+

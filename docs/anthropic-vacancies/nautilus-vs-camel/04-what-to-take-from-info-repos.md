@@ -1,10 +1,37 @@
 # Что брать из info repositories — concrete recommendations
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
 
 ---
 <!-- tags: architecture, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -133,11 +160,32 @@ Marketplace layer (longer term) для economy dimension
 
 ---
 
-**Смотрите также:**
-- [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
-- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
-- [05-what-to-do-right-now](docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что брать из info repositories concrete"
+```
+
+## Смотрите также
+- [02-what-info-repos-contain](02-what-info-repos-contain.md)
+- [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
+- [05-what-to-do-right-now](05-what-to-do-right-now.md)
+- 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-what-info-repos-contain](02-what-info-repos-contain.md)
+- [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
+- [05-what-to-do-right-now](05-what-to-do-right-now.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -145,7 +193,7 @@ Marketplace layer (longer term) для economy dimension
 ---
 
 **Похожие документы:**
-- [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) (сходство 0.28)
-- [05-what-to-do-right-now](docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md) (сходство 0.21)
-- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md) (сходство 0.20)
+- [04-what-to-take-from-info-repos](../../obsidian/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.99)
+- [02-what-info-repos-contain](02-what-info-repos-contain.md) (сходство 0.29)
+- [02-what-info-repos-contain](../../obsidian/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) (сходство 0.29)
 

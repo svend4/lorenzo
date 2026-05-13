@@ -1,5 +1,25 @@
 # Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+
+<!-- tags: technology, event-sourcing, analytics -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
@@ -59,19 +79,37 @@ ROI: Write once (event), read many ways (projections)
 
 ---
 
-**Смотрите также:**
-- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 33 Event Sourcing CQRS"
+```
+
+## Смотрите также
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+
+_Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md) (сходство 0.41)
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.36)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.33)
+- [33-event-sourcing-cqrs-clickhouse-analytics](../../obsidian/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.95)
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md) (сходство 0.46)
+- [31-event-sourced-legal-document-history](../../obsidian/technology-combinations/combinations/31-event-sourced-legal-document-history.md) (сходство 0.44)
 

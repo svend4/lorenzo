@@ -9,7 +9,31 @@ date: 2026-05-13
 
 # 18. Reference Implementation
 
+<!-- toc-auto -->
+## Contents
+
+- [18. Reference Implementation](#18-reference-implementation)
+  - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (19)](#кто-ссылается-на-этот-документ-19)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > [`github.com/svend4/nautilus`](https://github.com/svend4/nautilus).
 
 ---
@@ -53,7 +77,7 @@ NPP-compatible, если они:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[25-13-reference-implementation]] (сходство 0.36)
 - [[73-portal-protocol-md-v1-1]] (сходство 0.13)
 - [[89-14-sdk-contract-informative]] (сходство 0.12)
@@ -63,7 +87,13 @@ NPP-compatible, если они:
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "18 Reference Implementation"
+```
+
+## Смотрите также
 - [[25-13-reference-implementation]]
 - [[42-author-contact]]
 - [[73-portal-protocol-md-v1-1]]
@@ -113,3 +143,19 @@ NPP-compatible, если они:
 - [[104-appendix-c-references|Appendix C: References]] _33%_
 - [[35-passports-info1-md|passports/info1.md]] _33%_
 - [[52-author-contact|Author & Contact]] _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (19)
+- [[03-portal-protocol-md]]
+- [[05-0-status-of-this-document]]
+- [[103-appendix-b-change-log]]
+- [[104-appendix-c-references]]
+- [[128-доступные-инструменты]]
+- [[129-примеры-запросов-в-claude]]
+- [[164-10-appendices]]
+- [[24-12-versioning-policy]]
+- _...ещё 11_
+

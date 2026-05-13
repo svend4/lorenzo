@@ -10,10 +10,6 @@ h2. Содержание
 
 * [Статус|#статус]
 * [Методика и рамка отбора|#методика-и-рамка-отбора]
-* [Упоминается в|#упоминается-в]
-* [Упоминается в|#упоминается-в]
-* [Связанные документы|#связанные-документы]
-* [Связанные документы|#связанные-документы]
 
 ----
 
@@ -47,7 +43,7 @@ _Обновлено: 2026-04-29_
 
 
 {quote}Поиск вёлся с приоритетом на _Хабр как первичный слой описания идеи_ и на _репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса_. В выборку включались только {quote}
-_Проекты:_ Svyazi[^svyazi], [LiteParse|../docs/01-svyazi/01-executive-summary.md], Legal RAG[^rag], Graph RAG
+_Проекты:_ Svyazi[^svyazi], [LiteParse|../01-svyazi/01-executive-summary.md], Legal RAG[^rag], Graph RAG
 
 ----
 
@@ -67,20 +63,26 @@ h2. Методика и рамка отбора
 
 ----
 
-_Похожие документы:_
-* [02-methodology|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/02-methodology.md) (сходство 0.74)
-* [01-executive-summary|docs/04-ai-collaborations/01-executive-summary.md] (сходство 0.11)
+h2. Похожие документы
+* [02-methodology|../01-svyazi/02-methodology.md] (сходство 0.74)
+* [01-executive-summary|01-executive-summary.md] (сходство 0.11)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [02-methodology|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/02-methodology.md)
-* [01-executive-summary|docs/04-ai-collaborations/01-executive-summary.md]
-* [DUPLICATES|docs/DUPLICATES.md]
-* [08-conclusions|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/08-conclusions.md)
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Методика и рамка отбора"
+{code}
+
+h2. Смотрите также
+* [02-methodology|../01-svyazi/02-methodology.md]
+* [01-executive-summary|01-executive-summary.md]
+* [DUPLICATES|../DUPLICATES.md]
+* [08-conclusions|../01-svyazi/08-conclusions.md]
 
 
 
@@ -91,3 +93,19 @@ _Смотрите также:_
 [^rag]: Retrieval-Augmented Generation — генерация с поиском
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [02-methodology|../01-svyazi/02-methodology.md]
+* [README|README.md]
+* [CONCEPTS|../CONCEPTS.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [RISK_REGISTER|../RISK_REGISTER.md]
+* [SEARCH|../SEARCH.md]
+* _...ещё 2_
+

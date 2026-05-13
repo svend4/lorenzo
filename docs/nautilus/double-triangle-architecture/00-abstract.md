@@ -1,10 +1,49 @@
 # Abstract — The Double-Triangle Architecture
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Содержание](#содержание)
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+## Содержание
+
+- Основной раздел
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
 ---
 <!-- tags: rag, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -82,12 +121,42 @@ unsolved issues.
 
 ---
 
+<!-- see-also -->
+
+---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract The Double Triangle"
+```
+
+## Смотрите также
+- [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
+- [04-nautilus-portal-substrate](04-nautilus-portal-substrate.md)
+- [08-call-to-action](08-call-to-action.md)
+- [136-abstract](../../02-anthropic-vacancies/136-abstract.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [136-abstract](docs/obsidian/02-anthropic-vacancies/136-abstract.md) (сходство 0.82)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.77)
-- [01-why-single-triangle-incomplete](docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md) (сходство 0.25)
+- [00-abstract](../../obsidian/nautilus/double-triangle-architecture/00-abstract.md) (сходство 0.99)
+- [136-abstract](../../obsidian/02-anthropic-vacancies/136-abstract.md) (сходство 0.79)
+- [136-abstract](../../02-anthropic-vacancies/136-abstract.md) (сходство 0.79)
 

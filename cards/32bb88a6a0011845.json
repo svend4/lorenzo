@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:32bb88a6a0011845",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/179-10-open-questions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:de6ea23c32beb3fb",
+  "payload": {
+    "title": "10. Open Questions",
+    "summary": "Many questions remain unresolved. We list them explicitly",
+    "body": "open questions абстракт авто проблема open questions open questions результат what are appropriate trust hierarchies between principal owned and platform provided agents ключевые слова questions agents anthropic vacancies agent closing economic legal contents open questions open questions technical questions technical questions economic questions economic questions legal questions legal questions social questions social questions philosophical questions philosophical questions many questions remain unresolved list them explicitly open questions many questions remain unresolved list them explicitly invite collaboration technical questions how can adversarial robustness ensured against sophisticated counterparty manipulation what are appropriate trust hierarchies between principal owned and platform provided agents how should agent agent negotiation work when both parties have agents how handle situations where principal preferences conflict with general ethical norms economic questions what the right pricing model for representative agents subscription commission foundation funded how ensure access for those who cannot pay what economic effects widespread representative agents have labor markets professional services attention economy legal questions what the legal status agent communications are they binding the principal how does liability work when agent makes consequential errors what jurisdictional rules apply when agent represents person country communicating with party country how existing regulations gdpr hipaa act apply specifically representative agents social questions will representative agents reduce increase inequality what happens professions currently providing representational services lawyers agents intermediaries when agents become widespread what new social dynamics emerge when most interactions involve mediation agents how preserve direct human connection world mediated communication philosophical questions what the nature agency when significant delegation occurs can agents authentically represent populations they cannot fully understand children severely disabled non human how does identity persist across changes agent configuration over time what duties principals have their agents and vice versa these questions deserve dedicated research programs not pretend answer them here argue only that the questions are worth pursuing because the underlying technology will developed regardless whether ethical frameworks keep pace похожие документы risks and mitigations сходство open questions сходство closing сходство смотрите также risks and mitigations closing open questions closing",
+    "tags": [
+      "orchestration"
+    ],
+    "projects": [],
+    "wc": 433,
+    "path": "docs/obsidian/02-anthropic-vacancies/179-10-open-questions.md"
+  }
+}

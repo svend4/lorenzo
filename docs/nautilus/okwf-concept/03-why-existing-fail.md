@@ -1,11 +1,20 @@
 # 3. Why Existing Solutions Fail
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [3. Why Existing Solutions Fail](#3-why-existing-solutions-fail)
@@ -168,11 +177,30 @@ is this integration.
 
 ---
 
-**Смотрите также:**
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
-- [02-target-populations](docs/nautilus/okwf-concept/02-target-populations.md)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Why Existing Solutions Fail"
+```
+
+## Смотрите также
+- [157-3-why-existing-solutions-fail](../../02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [02-target-populations](02-target-populations.md)
+- [156-2-target-populations](../../02-anthropic-vacancies/156-2-target-populations.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-target-populations](02-target-populations.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -180,7 +208,7 @@ is this integration.
 ---
 
 **Похожие документы:**
-- [157-3-why-existing-solutions-fail](docs/obsidian/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.91)
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.89)
-- [02-target-populations](docs/nautilus/okwf-concept/02-target-populations.md) (сходство 0.20)
+- [03-why-existing-fail](../../obsidian/nautilus/okwf-concept/03-why-existing-fail.md) (сходство 0.99)
+- [157-3-why-existing-solutions-fail](../../02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.88)
+- [157-3-why-existing-solutions-fail](../../obsidian/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.88)
 

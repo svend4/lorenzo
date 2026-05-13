@@ -61,11 +61,32 @@
 
 ---
 
-**Смотрите также:**
-- [12-roadmap](docs/01-svyazi/12-roadmap.md)
-- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
-- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Дорожная карта прототипа"
+```
+
+## Смотрите также
+- [12-roadmap](../../01-svyazi/12-roadmap.md)
+- [12-дорожная-карта-прототипа-следующей-итерации](../../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [05-roadmap-6-12-months](../../ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [conclusions](../limitations/conclusions.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-roadmap-6-12-months](../../ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -73,7 +94,7 @@
 ---
 
 **Похожие документы:**
-- [12-roadmap](docs/01-svyazi/12-roadmap.md) (сходство 0.80)
-- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.79)
-- [12-roadmap](docs/obsidian/01-svyazi/12-roadmap.md) (сходство 0.77)
+- [roadmap](../../obsidian/svyazi-2-0/prototype/roadmap.md) (сходство 0.99)
+- [12-дорожная-карта-прототипа-следующей-итерации](../../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.78)
+- [12-дорожная-карта-прототипа-следующей-итерации](../../obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.78)
 

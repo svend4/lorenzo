@@ -7,9 +7,26 @@
   - [12.1. Semver](#121-semver)
   - [12.2. Version in Registry](#122-version-in-registry)
   - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **Major** (v1 → v2): breaking changes в interfaces или schemas
 
 ---
@@ -49,7 +66,7 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [92-17-versioning-policy](92-17-versioning-policy.md) (сходство 0.63)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.14)
 - [75-0-status-of-this-document](75-0-status-of-this-document.md) (сходство 0.13)
@@ -59,7 +76,13 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Versioning Policy"
+```
+
+## Смотрите также
 - [92-17-versioning-policy](92-17-versioning-policy.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [75-0-status-of-this-document](75-0-status-of-this-document.md)
@@ -102,3 +125,19 @@ implementation MUST поддерживать **минимум текущую maj
 - [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _25%_
 - [Хронологическая лента событий](../TIMELINE.md) _25%_
 - [Примеры запросов (в Claude)](129-примеры-запросов-в-claude.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
+- _...ещё 1_
+

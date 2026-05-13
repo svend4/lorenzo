@@ -1,10 +1,27 @@
 # Closing
 
+<!-- toc-auto -->
+## Contents
+
+- [Closing](#closing)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: rag, ingestion, architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -43,12 +60,44 @@ need to be solved before other work proceeds.
 
 ---
 
+<!-- see-also -->
+
+---
+
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Closing"
+```
+
+## Смотрите также
+- [10-what-not-solved](10-what-not-solved.md)
+- [05-why-not-built](05-why-not-built.md)
+- [08-recursive-insight](08-recursive-insight.md)
+- [285-closing](../../02-anthropic-vacancies/285-closing.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-intro](00-intro.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [285-closing](docs/obsidian/02-anthropic-vacancies/285-closing.md) (сходство 0.70)
-- [285-closing](docs/02-anthropic-vacancies/285-closing.md) (сходство 0.66)
-- [05-why-not-built](docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md) (сходство 0.21)
+- [12-closing](../../obsidian/nautilus/infrastructure-layer-b-en/12-closing.md) (сходство 0.98)
+- [285-closing](../../02-anthropic-vacancies/285-closing.md) (сходство 0.70)
+- [285-closing](../../obsidian/02-anthropic-vacancies/285-closing.md) (сходство 0.69)
 

@@ -1,5 +1,19 @@
 # Примеры запросов (в Claude)
 
+<!-- toc-auto -->
+## Contents
+
+- [Примеры запросов (в Claude)](#примеры-запросов-в-claude)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -30,9 +44,9 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [128-доступные-инструменты](128-доступные-инструменты.md) (сходство 0.21)
-- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md) (сходство 0.14)
+- 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md) (сходство 0.14)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.11)
 
 
@@ -40,9 +54,15 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Примеры запросов в Claude"
+```
+
+## Смотрите также
 - [128-доступные-инструменты](128-доступные-инструменты.md)
-- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md)
+- 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 
@@ -84,3 +104,19 @@
 - [0. Status of This Document](75-0-status-of-this-document.md) _25%_
 - [7. Реализация в проекте Nautilus](114-7-реализация-в-проекте-nautilus.md) _21%_
 - [12. Versioning Policy](24-12-versioning-policy.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- 124-конфигурация-для-[claude-desktop](124-конфигурация-для-claude-desktop.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [131-ограничения-текущей-версии-0-1-0-draft](131-ограничения-текущей-версии-0-1-0-draft.md)
+- [24-12-versioning-policy](24-12-versioning-policy.md)
+- [42-author-contact](42-author-contact.md)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md)
+- _...ещё 2_
+

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:5934b95c41b12667",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/190-содержание.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:0c2757c628badab1",
+  "payload": {
+    "title": "Содержание",
+    "summary": "1. **Синдром Золушки: Почему качество остаётся невидимым**",
+    "body": "содержание синдром золушки почему качество остаётся невидимым содержание синдром золушки почему качество остаётся невидимым исторические прецеденты агенты как цивилизационная инновация что делает агента представительским десять областей применения архитектурная спецификация этическая рамка управление надзор риски меры противодействия стратегия поэтапного развёртывания открытые вопросы призыв сотрудничеству похожие документы содержание сходство содержание сходство смотрите также содержание содержание review methodology appendix minimal working example упоминается синдром золушки почему качество остаётся невидим синдром золушки почему качество остаётся невидимым заключение заключение appendix minimal working example appendix minimal working example appendix summary contributions appendix summary contributions compatibility level compatibility level for the curious philosophy for the curious philosophy history history review methodology review methodology table contents table contents readme вакансии anthropic анализ кластерам подключение claude desktop подключение claude desktop содержание содержание содержание содержание упоминается readme вакансии anthropic анализ кластерам связанные документы table contents table contents содержание содержание appendix minimal working example appendix minimal working example for the curious philosophy for the curious philosophy portal mcp portal mcp review methodology review methodology compatibility level compatibility level for the curious philosophy for the curious philosophy связанные документы содержание содержание appendix minimal working example appendix minimal working example for the curious philosophy for the curious philosophy table contents table contents compatibility level compatibility level history history review methodology review methodology portal mcp portal mcp",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 260,
+    "path": "docs/obsidian/02-anthropic-vacancies/190-содержание.md"
+  }
+}

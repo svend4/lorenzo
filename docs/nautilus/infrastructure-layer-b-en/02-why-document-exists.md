@@ -1,10 +1,27 @@
 # Why This Document Exists
 
+<!-- toc-auto -->
+## Contents
+
+- [Why This Document Exists](#why-this-document-exists)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: orchestration, architecture, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -51,11 +68,33 @@ This document explores that observation.
 
 ---
 
-**Смотрите также:**
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
-- [10-what-not-solved](docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Document Exists"
+```
+
+## Смотрите также
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [275-why-this-document-exists](../../02-anthropic-vacancies/275-why-this-document-exists.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [10-what-not-solved](10-what-not-solved.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [05-why-not-built](05-why-not-built.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -63,7 +102,7 @@ This document explores that observation.
 ---
 
 **Похожие документы:**
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md) (сходство 0.99)
-- [275-why-this-document-exists](docs/obsidian/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.79)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md) (сходство 0.74)
+- [01-missing-middle-layer](01-missing-middle-layer.md) (сходство 0.99)
+- [02-why-document-exists](../../obsidian/nautilus/infrastructure-layer-b-en/02-why-document-exists.md) (сходство 0.98)
+- [01-missing-middle-layer](../../obsidian/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md) (сходство 0.97)
 

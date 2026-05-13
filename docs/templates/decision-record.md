@@ -1,17 +1,9 @@
----
-template: decision-record
-version: "1.0"
-adr_id: "ADR-NNNN"
-title: "[Название решения]"
-status: proposed
-date: 2026-04-29
-deciders: []
-tags: [архитектура, решение]
-supersedes: null
-superseded_by: null
----
-
 # ADR: [Название решения]
+
+> [!NOTE]
+> Раздел `decision-record` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Решение о X -->
 <!-- tags: архитектура, решение -->
@@ -45,13 +37,37 @@ superseded_by: null
 - ❌ [Компромисс]
 
 ---
-_Дата: 2026-04-29_
+_Дата: 2026-05-13_
 
-<!-- see-also -->
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ADR: [Название решения]». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_decision_record.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [project-component](docs/templates/project-component.md)
+**Кто ссылается на этот документ (13):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [contradiction-record](contradiction-record.md)
+- [experiment-log](experiment-log.md)
+- [legal-case](legal-case.md)
+- _...ещё 5_
 

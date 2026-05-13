@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:fdbbc3d6b01d2f83",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/NAMED_ENTITIES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:4d1dba46c6e6c7f0",
+  "payload": {
+    "title": "Индекс именованных сущностей",
+    "summary": "Всего сущностей: **232** (мин. 2 упоминаний)",
+    "body": "индекс именованных сущностей содержание people people anthropic файлов anthropic файлов claude файлов claude файлов svend файлов svend файлов spbmolot файлов spbmolot файлов kksudo файлов kksudo файлов projects projects nautilus файлов nautilus файлов svyazi файлов svyazi файлов github файлов github файлов yodoca файлов yodoca файлов cardindex файлов cardindex файлов tech tech mcp файлов mcp файлов llm файлов llm файлов api файлов api файлов rag файлов rag файлов markdown файлов markdown файлов orgs orgs файлов файлов meta файлов meta файлов mail файлов mail файлов openai файлов openai файлов google файлов google файлов dates dates файлов файлов файлов файлов файлов файлов апрель файлов апрель файлов файлов файлов обновлено всего сущностей мин упоминаний people сущность файлов тип anthropic people claude people svend people spbmolot people kksudo people anastasiyaw people vitalyoborin people andrey chuyan people vuguzum people artur gavronchuk people dementev dev people settings people camel people nicholasspisak people yjs people users people kagvi people ruvnet people lib people anthropics people топ упоминаниям anthropic файлов docs svyazi integration contracts docs anthropic vacancies intro docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies общий план развития nautilus portal protocol docs anthropic vacancies portal protocol ещё claude файлов docs svyazi executive summary docs svyazi component catalog docs svyazi ensembles overview docs svyazi mvp planning docs svyazi conclusions ещё svend файлов docs anthropic vacancies intro docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies общий план развития nautilus portal protocol docs anthropic vacancies portal protocol docs anthropic vacancies status this document ещё spbmolot файлов docs svyazi component catalog docs svyazi mvp planning docs svyazi contacts docs svyazi docs anthropic vacancies ещё kksudo файлов docs svyazi component catalog docs svyazi mvp planning docs svyazi contacts docs svyazi docs anthropic vacancies развёрнутый анализ внуковой комбинации ещё projects сущность файлов тип nautilus projects svyazi projects github projects yodoca projects cardindex projects lorenzo projects ngt projects memnet projects agentfs projects knowledge space projects obsidian projects liteparse projects notion projects autoresearch projects portalentry projects gpt projects wikontic projects autogen projects openclaw projects gemini projects openwhispr projects codewiki projects clickhouse projects baseadapter projects deepseek projects chatdev projects langchain projects vladspace projects langgraph projects openclaude projects typescript projects mistral projects queryresult projects llamaindex projects faiss projects brainbox projects agentops projects deepmind projects chromadb projects ingit projects топ упоминаниям nautilus файлов docs anthropic vacancies intro docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies общий план развития nautilus portal protocol docs anthropic vacancies portal protocol docs anthropic vacancies abstract ещё svyazi файлов docs svyazi intro part docs svyazi executive summary docs svyazi methodology docs svyazi component catalog docs svyazi ensembles overview ещё github файлов docs svyazi component catalog docs svyazi mvp planning docs anthropic vacancies intro docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies общий план развития nautilus portal protocol ещё yodoca файлов docs svyazi executive summary docs svyazi component catalog docs svyazi ensembles overview docs svyazi mvp planning docs svyazi conclusions ещё cardindex файлов docs svyazi executive summary docs svyazi component catalog docs svyazi ensembles overview docs svyazi mvp planning docs svyazi conclusions ещё tech сущность файлов тип mcp tech llm tech api tech rag tech markdown tech python tech yaml tech json tech git tech tech rest tech sqlite tech html tech transformer tech tech postgresql tech vector tech tech docker tech sql tech tech react tech rust tech cosine tech jaccard tech webhook tech kubernetes tech css tech terraform tech graphql tech fastapi tech топ упоминаниям mcp файлов docs svyazi executive summary docs svyazi component catalog docs svyazi ensembles overview docs svyazi security privacy docs svyazi mvp planning ещё llm файлов docs svyazi executive summary docs svyazi component catalog docs svyazi security privacy docs svyazi mvp planning docs anthropic vacancies intro ещё api файлов docs svyazi methodology docs svyazi component catalog docs svyazi ensembles overview docs svyazi security privacy docs svyazi architectural gaps ещё rag файлов docs svyazi executive summary docs svyazi methodology docs svyazi component catalog docs svyazi ensembles overview docs svyazi mvp planning ещё markdown файлов docs anthropic vacancies intro docs anthropic vacancies общий план развития nautilus portal protocol docs anthropic vacancies portal protocol docs anthropic vacancies terminology docs anthropic vacancies passport passport ещё orgs сущность файлов тип orgs meta orgs mail orgs openai orgs google orgs microsoft orgs yandex orgs сбер orgs топ упоминаниям файлов docs svyazi methodology docs svyazi security privacy docs svyazi mvp planning docs svyazi roadmap docs svyazi contacts ещё meta файлов docs svyazi component catalog docs anthropic vacancies intro docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies общий план развития nautilus portal protocol docs anthropic vacancies registry nautilus json ещё mail файлов docs svyazi component catalog docs svyazi ensembles overview docs svyazi security privacy docs svyazi mvp planning docs svyazi architectural gaps ещё openai файлов docs svyazi ensembles overview docs anthropic vacancies intro docs anthropic vacancies интегральный анализ профиля",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 1622,
+    "path": "docs/obsidian/NAMED_ENTITIES.md"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:fe518b288f2cd282",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:7f73bc7025f489b0",
+  "payload": {
+    "title": "6. Refined InGit Scope with Cowork in Mind",
+    "summary": "The original InGit roadmap (10-16 months to v1.0) reflected",
+    "body": "refined ingit scope with cowork mind tip этот документ описывает mvp подход начните него для быстрого прототипа абстракт авто проблема похожие документы what cowork provides that ingit doesn need docs anthropic vacancies what cowork provides that ingit doesn need сходство результат net timeline from months roughly months with much higher quality result ключевые слова months cowork ingit phase scope effort provides anthropic contents refined ingit scope with cowork mind refined ingit with anthropic cowork platform scope with cowork mind new phase months substrate mvp new phase months substrate mvp new phase months mcp server new phase months mcp server new phase months adoption and refinement new phase months adoption and refinement total reduced scope total reduced scope the original ingit roadmap months reflected похожие документы what cowork provides that ingit with anthropic cowork platform doesn need docs anthropic vacancies what cowork provides that ingit doesn need сходство what ingit with anthropic cowork platform provides that cowork lacks docs anthropic vacancies what ingit provides that cowork lacks сходство four integration paths order accessibility four integration paths order accessibility сходство смотрите также what cowork provides that ingit with anthropic cowork platform doesn need docs anthropic vacancies what cowork provides that ingit doesn need four integration paths order accessibility four integration paths order accessibility table contents table contents what ingit with anthropic cowork platform provides that cowork lacks docs anthropic vacancies what ingit provides that cowork lacks кто ссылается этот документ приложение визуализация позиции серии приложение визуализация позиции серии table contents table contents readme readme",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 490,
+    "path": "docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md"
+  }
+}

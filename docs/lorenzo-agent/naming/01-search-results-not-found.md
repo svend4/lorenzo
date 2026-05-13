@@ -1,10 +1,26 @@
 # Результаты последнего поиска — что нашлось и что не нашлось
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).
 
 ---
 <!-- tags: anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -79,11 +95,30 @@ Limitation: developer task automation, не community synthesis
 
 ---
 
-**Смотрите также:**
-- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
-- [00-question-lorenzo-codename](docs/lorenzo-agent/naming/00-question-lorenzo-codename.md)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Результаты последнего поиска что"
+```
+
+## Смотрите также
+- [06-level-5-full-network](../phased-deployment/06-level-5-full-network.md)
+- 00-question-[lorenzo-codename](00-question-lorenzo-codename.md)
+- [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [03-section-3-solution-architecture](../../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -91,7 +126,7 @@ Limitation: developer task automation, не community synthesis
 ---
 
 **Похожие документы:**
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.17)
-- [05-existing-infrastructure-stack](docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md) (сходство 0.17)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.16)
+- [01-search-results-not-found](../../obsidian/lorenzo-agent/naming/01-search-results-not-found.md) (сходство 0.92)
+- [00-question-lorenzo-codename](00-question-lorenzo-codename.md) (сходство 0.23)
+- [00-question-lorenzo-codename](../../obsidian/lorenzo-agent/naming/00-question-lorenzo-codename.md) (сходство 0.23)
 

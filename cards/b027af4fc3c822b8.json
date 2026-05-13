@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:b027af4fc3c822b8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/GLOSSARY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:a7df6958460cb769",
+  "payload": {
+    "title": "Глоссарий проектов",
+    "summary": "Все проекты, упоминаемые в документах, с количеством файлов.",
+    "body": "глоссарий проектов все проекты упоминаемые документах количеством файлов проект упоминается файлах factory aif handoff agentfs auto router autoresearch automerge cardindex firecrawl graph rag hybrid rag legal rag litellm liteparse memnet memory ngt memory openwhispr rlm toolkit rufler sentinel self aware mcp sequential svyazi tool search whisper wikontic yjs yodoca yttri agent memory mcp knowledge space mclaude смотрите также mindmap graph network contact priority",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 214,
+    "path": "docs/obsidian/GLOSSARY.md"
+  }
+}

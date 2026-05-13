@@ -13,6 +13,11 @@ date: 2026-05-13
 
 h1. 2. Target Populations
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -22,6 +27,10 @@ h1. 2. Target Populations
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Size estimate_: 500K+ in OECD countries with relevant skills{quote}
 
@@ -162,7 +171,7 @@ Active participant target in first three years: 5,000-10,000.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[153-executive-summary]] (сходство 0.17)
 * [[155-1-problem-statement]] (сходство 0.16)
 * [[157-3-why-existing-solutions-fail]] (сходство 0.16)
@@ -172,7 +181,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Target Populations"
+{code}
+
+h2. Смотрите также
 * [[153-executive-summary]]
 * [[155-1-problem-statement]]
 * [[157-3-why-existing-solutions-fail]]
@@ -204,3 +219,17 @@ h2. Связанные документы
 * [[154-table-of-contents|Table of Contents]] _17%_
 * [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]] _17%_
 * [[170-1-the-cinderella-syndrome-why-quality-stays-invisi|1. The Cinderella Syndrome: Why Quality Stays Invisible]] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (7)
+* [[153-executive-summary]]
+* [[154-table-of-contents]]
+* [[155-1-problem-statement]]
+* [[157-3-why-existing-solutions-fail]]
+* [[164-10-appendices]]
+* [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+* [[README]]
+

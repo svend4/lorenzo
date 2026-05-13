@@ -1,10 +1,26 @@
 # Что существует сейчас в этом пространстве
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
 
 ---
 <!-- tags: orchestration, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -29,11 +45,33 @@
 
 ---
 
-**Смотрите также:**
-- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md)
-- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
-- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
-- [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что существует сейчас в этом"
+```
+
+## Смотрите также
+- [01-existing-landscape](01-existing-landscape.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+- [08-pluses-of-model](08-pluses-of-model.md)
+- [10-three-entry-points](10-three-entry-points.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [02-four-structural-blockers](02-four-structural-blockers.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -41,7 +79,7 @@
 ---
 
 **Похожие документы:**
-- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) (сходство 0.20)
-- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md) (сходство 0.16)
-- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md) (сходство 0.15)
+- [07-current-implementations](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.98)
+- [01-existing-landscape](01-existing-landscape.md) (сходство 0.26)
+- [01-existing-landscape](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) (сходство 0.26)
 

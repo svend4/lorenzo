@@ -1,13 +1,19 @@
 # anthropic-vacancies
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 4
 
 ## Содержание
 
-- [QA.md](QA.md) — _Автоматически сгенерировано по 97 файлам раздела._
-- [methodology.md](methodology.md) — <!-- summary -->
-- [overview.md](overview.md) — <!-- summary -->
-- [signals.md](signals.md) — <!-- summary -->
+- [QA.md](QA.md) — > [!NOTE]
+- [methodology.md](methodology.md) — <!-- toc-auto -->
+- [overview.md](overview.md) — <!-- toc-auto -->
+- [signals.md](signals.md) — <!-- toc-auto -->
 
 ## Подразделы
 
@@ -21,12 +27,35 @@
 - [nautilus-vs-camel/](nautilus-vs-camel/) — nautilus-vs-camel
 - [profile-mapping/](profile-mapping/) — profile-mapping
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [QA](QA.md)
+- [methodology](methodology.md)
+- [overview](overview.md)
+- _...ещё 1_
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [QA](docs/anthropic-vacancies/QA.md) (сходство 0.15)
-- [README](docs/anthropic-vacancies/beneficial-deployments-concept/README.md) (сходство 0.14)
-- [README](docs/svyazi-2-0/overview/README.md) (сходство 0.13)
+- [README](../obsidian/anthropic-vacancies/README.md) (сходство 0.91)
+- [README](../svyazi-2-0/overview/README.md) (сходство 0.33)
+- [README](../obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) (сходство 0.31)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

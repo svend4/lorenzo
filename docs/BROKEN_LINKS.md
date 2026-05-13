@@ -1,122 +1,173 @@
 # Сломанные внутренние ссылки
 
+<!-- summary -->
+> Сломанных ссылок: **80**, пропущено: 0
+
+<!-- tags: quality, links, validation, broken-links -->
+
+<!-- toc-auto -->
+## Содержание
+
+- [Сломанные ссылки](#сломанные-внутренние-ссылки)
+- [Общие показатели](#общие-показатели)
+- [Внешние URL](#внешние-url)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
 > [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Найдено 80 сломанных ссылок — требуют исправления.
 
 <!-- alert-added -->
 
-<!-- summary -->
-> > | Метрика | З` | якорь не найден |
-**Проекты:** knowledge-space, LiteParse, Yodoca
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Безопа` | файл не существует |](#безопа-файл-не-существует)
-  - [100% — `docs/VAL | `#корпусная-статистика` | якорь не найден |](#100-docsval-корпусная-статистика-якорь-не-найден)
-  - [100% — `docs/COMPL | `#топ-доменов` | якорь не найден |](#100-docscompl-топ-доменов-якорь-не-найден)
-- [Внешние URL (204 уникальных)](#внешние-url-204-уникальных)
-
----
-
-<!-- tags: memory, rag, orchestration, knowledge, anthropic, collaboration -->
+**Найдено:** 80 проблем, 0 пропущено (длинный путь)
 
 
+Скрипт `improve_broken_links.py` проверяет все внутренние ссылки в папке `docs/`, исключая автоматически генерируемые разделы: `obsidian/`, `confluence/`, `templates/` и `autofilled/`. Проверяются ссылки на файлы (существование пути) и якоря (существование заголовка). Ссылки с путём длиннее 240 символов пропускаются из-за ограничений операционной системы и сохраняются в `bad_links.json`.
+
+Якоря проверяются по алгоритму GitHub-style: заголовки переводятся в нижний регистр, удаляются специальные символы, пробелы заменяются дефисами. Дублирующиеся заголовки получают суффиксы `-1`, `-2` аналогично GitHub.
 
 
-**Найдено:** 317 проблем
+Автоматическое исправление (`--fix`) ищет файл с таким же именем в `docs/` и заменяет ссылку правильным относительным путём. Режим `--dry-run` показывает запланированные исправления без записи в файлы. Флаг `--section РАЗДЕЛ` ограничивает проверку конкретной подпапкой. Результаты записываются в `docs/BROKEN_LINKS.md` и опционально в `docs/bad_links.json`.
+
+
+## Общие показатели
+
+- Проверено файлов: большинство `.md` в `docs/`
+- Сломанных ссылок: **80**
+- Пропущено (длинный путь): **0**
+- Внешние URL не проверяются (список формируется без запросов)
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
-| `docs/01-svyazi/01-executive-summary.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/01-executive-summary.md` | 08-что-это-продолжение-добавля | `docs/04-ai-collaborations/08-что-это-про` | файл не существует |
-| `docs/01-svyazi/01-executive-summary.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 02-методика-и-рамка-отбора | `docs/04-ai-collaborations/02-методика-и-` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | README | `docs/04-ai-collaborations/README.md` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 02-методика-и-рамка-отбора | `docs/04-ai-collaborations/02-методика-и-` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | DUPLICATES | `docs/DUPLICATES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-ensembles-overview | `docs/01-svyazi/04-ensembles-overview.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-component-catalog | `docs/01-svyazi/03-component-catalog.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-component-catalog | `docs/01-svyazi/03-component-catalog.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 06-безопасность-приватность-и- | `docs/04-ai-collaborations/06-безопасност` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 06-безопасность-приватность-и- | `docs/04-ai-collaborations/06-безопасност` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-архитектурные-зазоры-которы | `docs/04-ai-collaborations/09-архитектурн` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-architectural-gaps | `docs/01-svyazi/09-architectural-gaps.md` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-architectural-gaps | `docs/01-svyazi/09-architectural-gaps.md` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 11-integration-contracts | `docs/01-svyazi/11-integration-contracts.` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 12-roadmap | `docs/01-svyazi/12-roadmap.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/01-svyazi/01-executive-summary.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 08-что-это-продолжение-добавля | `docs/04-ai-collaborations/08-что-это-про` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | MISSING | `docs/MISSING.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 09-архитектурные-зазоры-которы | `docs/04-ai-collaborations/09-архитектурн` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | QA | `docs/QA.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 11-интеграционный-контракт-кот | `docs/04-ai-collaborations/11-интеграцион` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 11-integration-contracts | `docs/01-svyazi/11-integration-contracts.` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 06-security-privacy | `docs/01-svyazi/06-security-privacy.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/10-second-order-ensembles.md` | 10-новые-ансамбли-следующего-ш | `docs/04-ai-collaborations/10-новые-ансам` | файл не существует |
+| `docs/01-svyazi/README.md` | ensembles/ | `ensembles/` | файл не существует |
+| `docs/02-anthropic-vacancies/README.md` | clusters/ | `clusters/` | файл не существует |
+| `docs/04-ai-collaborations/README.md` | ensembles/ | `ensembles/` | файл не существует |
+| `docs/05-habr-projects/knowledge/agentfs.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/knowledge/agentfs.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/05-habr-projects/knowledge/knowledge-space.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/knowledge/knowledge-space.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/05-habr-projects/knowledge/knowledge-space.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/knowledge/knowledge-space.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/05-habr-projects/knowledge/mclaude.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/knowledge/mclaude.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/05-habr-projects/knowledge/mclaude.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/knowledge/mclaude.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/05-habr-projects/knowledge/research-docs-liteparse.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/knowledge/research-docs-liteparse.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/05-habr-projects/knowledge/rufler.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/knowledge/rufler.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/05-habr-projects/knowledge/rufler.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/knowledge/rufler.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/05-habr-projects/memory/agent-memory-mcp.md` | Описание | `#описание` | якорь не найден |
+| `docs/05-habr-projects/memory/agent-memory-mcp.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
+| `docs/READABILITY.md` | 10-essence | `obsidian/02-anthropic-vacancies/10-essen` | файл не существует |
+| `docs/READABILITY.md` | 101-q6-отображение | `obsidian/02-anthropic-vacancies/101-q6-о` | файл не существует |
+| `docs/READABILITY.md` | 11-native-format | `obsidian/02-anthropic-vacancies/11-nativ` | файл не существует |
+| `docs/READABILITY.md` | 14-bridges | `obsidian/02-anthropic-vacancies/14-bridg` | файл не существует |
+| `docs/READABILITY.md` | 15-author-contact | `obsidian/02-anthropic-vacancies/15-autho` | файл не существует |
+| `docs/READABILITY.md` | 29-essence | `obsidian/02-anthropic-vacancies/29-essen` | файл не существует |
+| `docs/READABILITY.md` | 30-native-format | `obsidian/02-anthropic-vacancies/30-nativ` | файл не существует |
+| `docs/READABILITY.md` | 32-angle-perspective | `obsidian/02-anthropic-vacancies/32-angle` | файл не существует |
+| `docs/READABILITY.md` | 33-author | `obsidian/02-anthropic-vacancies/33-autho` | файл не существует |
+| `docs/READABILITY.md` | 99-описание | `obsidian/02-anthropic-vacancies/99-описа` | файл не существует |
+| `docs/READABILITY.md` | minimal-test-card | `obsidian/04-ai-collaborations/minimal-te` | файл не существует |
+| `docs/READABILITY.md` | 66-english-below | `obsidian/02-anthropic-vacancies/66-engli` | файл не существует |
+| `docs/READING_LIST.md` | Все таблицы репозитория | `docs/TABLES.md` | файл не существует |
+| `docs/READING_LIST.md` | Outline базы знаний | `docs/OUTLINE.md` | файл не существует |
+| `docs/READING_LIST.md` | Читаемость документов (Flesch- | `docs/READABILITY.md` | файл не существует |
+| `docs/READING_LIST.md` | Время чтения документов | `docs/READING_TIME.md` | файл не существует |
+| `docs/READING_LIST.md` | Приложение C: Образец Специфик | `docs/02-anthropic-vacancies/341-приложен` | файл не существует |
+| `docs/READING_LIST.md` | Интегральный анализ профиля sv | `docs/02-anthropic-vacancies/01-интеграль` | файл не существует |
+| `docs/READING_LIST.md` | Обратная связь | `docs/02-anthropic-vacancies/133-обратная` | файл не существует |
+| `docs/READING_LIST.md` | Глоссарий понятий | `docs/CONCEPTS.md` | файл не существует |
+| `docs/READING_LIST.md` | Карта происхождения текстов | `docs/SOURCE_MAP.md` | файл не существует |
+| `docs/READING_LIST.md` | Введение | `docs/04-ai-collaborations/00-intro.md` | файл не существует |
+| `docs/READING_LIST.md` | Что такое Вариант C — Concept  | `docs/02-anthropic-vacancies/342-что-тако` | файл не существует |
+| `docs/READING_LIST.md` | Карта репозитория Lorenzo | `docs/SITEMAP.md` | файл не существует |
+| `docs/READING_LIST.md` | Claude hat geantwortet: Хорошо | `docs/nautilus/community-discussions/agen` | файл не существует |
+| `docs/READING_LIST.md` | ⬡ | `docs/02-anthropic-vacancies/69-section.m` | файл не существует |
+| `docs/READING_LIST.md` | Closing | `docs/02-anthropic-vacancies/165-closing.` | файл не существует |
+| `docs/READING_LIST.md` | Приложение C: Образец Специфик | `docs/02-anthropic-vacancies/341-приложен` | файл не существует |
+| `docs/READING_LIST.md` | Интегральный анализ профиля sv | `docs/02-anthropic-vacancies/01-интеграль` | файл не существует |
 
-_...и ещё 3987 проблем_
+_...и ещё 30 проблем_
 
-## Внешние URL (129 уникальных)
+## Внешние URL (632 уникальных)
 
 _Внешние ссылки не проверяются автоматически — требуют ручной проверки._
 
+- http://localhos
+- http://localhost:8
 - http://localhost:8000
+- http://localhost:8000`
+- http://localhost:8000``
+- http://localhost:8000```
+- http://localhost:8000````
+- http://localhost:8000`````
+- http://localhost:8000``````
+- http://localhost:8000```````
+- http://localhost:8000````````
+- http://localhost:8000`````````
 - http://localhost:8080
-- https://...install.sh
-- https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000
-- https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakans…
-- https://activitypub.rocks/
-- https://api.github.com/users/svend4/repos?per_page=100&sort=updated
-- https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner
-- https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
-- https://claude.com/product/cowork
-- https://creativecommons.org/licenses/by/4.0/
-- https://forum.[obsidian](../docs/01-svyazi/03-component-catalog.md).md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223
-- https://github
-- https://github.com/AnastasiyaW
-- https://github.com/AnastasiyaW/knowledge-space
-- https://github.com/Antipozitive
-- https://github.com/Cutcode
-- https://github.com/Dmitriila
-- https://github.com/MiXaiLL76
-- https://github.com/Sonia_Black
-- https://github.com/VitalyOborin
-- https://github.com/VitalyOborin/yodoca
+- http://localhost:8080`
+- http://localhost:8080``
+- http://localhost:8080```
+- http://localhost:8080````
+- http://localhost:8080`````
+- http://localhost:8080``````
+- http://localhost:8080```````
+- http://localhost:8080````````
+- http://localhost:8080`````````
+- http://localhost:8083/api/ask
+- http://localhost:8083/api/ask`
+- http://localhost:8083/api/ask``
+- http://localhost:8083/api/ask```
+- http://localhost:8083/api/ask````
+- http://localhost:8083/api/benchmark
+- http://localhost:8083/api/benchmark`
+- http://localhost:8083/api/benchmark``
+
+## Использование
+
+```bash
+python scripts/improve_broken_links.py
+```
+
+```bash
+# Автоматическое исправление битых ссылок
+python scripts/improve_broken_links.py --fix
+```
+
+
+## Смотрите также
+
+- [HEALTH](HEALTH.md) — общее здоровье репозитория
+- [METRICS](METRICS.md) — метрики качества документов
+- [VALIDATION](VALIDATION.md) — валидация структуры
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [LINKS](docs/obsidian/LINKS.md)
-- [CITATION_INDEX](docs/obsidian/CITATION_INDEX.md)
-- [WORD_FREQ](docs/obsidian/WORD_FREQ.md)
-- [STALENESS](docs/obsidian/STALENESS.md)
+- [READING_LIST](READING_LIST.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [HEALTH](HEALTH.md)
+- [METRICS](METRICS.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [REPORT](REPORT.md)
+- _...ещё 2_
 

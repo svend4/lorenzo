@@ -1,10 +1,26 @@
 # Secondary match — Applied AI Engineer (EMEA) + Beneficial Deployments
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -19,11 +35,35 @@ Tertiary match: Research Engineer, Agents / Virtual Collaborator (Cowork)
 
 ---
 
-**Смотрите также:**
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Secondary match Applied AI Engineer"
+```
+
+## Смотрите также
+- [08-practical-ranking](08-practical-ranking.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [02-primary-fde](02-primary-fde.md)
+- [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-primary-fde](02-primary-fde.md)
+- [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- _...ещё 7_
 
 
 <!-- similar-docs -->
@@ -31,7 +71,7 @@ Tertiary match: Research Engineer, Agents / Virtual Collaborator (Cowork)
 ---
 
 **Похожие документы:**
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.28)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.25)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md) (сходство 0.25)
+- [03-secondary-beneficial-deployments](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.98)
+- [00-question-habr-link](../../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.43)
+- [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.43)
 

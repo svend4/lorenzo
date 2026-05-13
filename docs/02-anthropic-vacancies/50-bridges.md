@@ -1,13 +1,22 @@
 # Bridges
-<!-- tags: anthropic, collaboration -->
-
 
 <!-- toc-auto -->
 ## Contents
 
 - [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
-  - [pro2 ↔ meta](#[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-meta)
+  - [pro2 ↔ info1](#pro2-info1)
+  - [pro2 ↔ meta](#pro2-meta)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+<!-- tags: anthropic, collaboration -->
 
 
 <!-- summary -->
@@ -24,7 +33,7 @@
 ### `pro2 ↔ info1`
 **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число 
 hamming-переходов от «root» вершин) коррелирует с α-уровнем в 
-`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact correspondence]
+`[info1](01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact correspondence]
 
 ### `pro2 ↔ meta`
 **Q6-vertex ↔ hexagram**. Это **прямой, формальный мост** (один из 
@@ -45,18 +54,39 @@ hamming-переходов от «root» вершин) коррелирует с
 
 ---
 
-**Похожие документы:**
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.21)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.20)
+## Похожие документы
+- [60-bridges](60-bridges.md) (сходство 0.21)
+- [40-bridges](40-bridges.md) (сходство 0.20)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Bridges"
+```
+
+## Смотрите также
+- [60-bridges](60-bridges.md)
+- [40-bridges](40-bridges.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [57-native-format](57-native-format.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- 35-passports-[info1-md](35-passports-info1-md.md)
+- [47-native-format](47-native-format.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [57-native-format](57-native-format.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [README](README.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.

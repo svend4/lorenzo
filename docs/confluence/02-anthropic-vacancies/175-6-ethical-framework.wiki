@@ -8,7 +8,6 @@ h1. 6. Ethical Framework
 
 h2. Содержание
 
-* [Contents|#contents]
 * [6. Ethical Framework|#6-ethical-framework]
   * [6.1. Principal Sovereignty|#61-principal-sovereignty]
   * [6.2. Transparent Capability|#62-transparent-capability]
@@ -29,19 +28,6 @@ h2. Содержание
 {quote}✅ _Результат:_ This means: - Principal owns all data about themselves used by agent - Principal can modify or terminate agent at any time - Principal can override any agent decision - Principal c{quote}
 {quote}🏷️ _Ключевые слова:_ {{agent}}, {{principal}}, {{anthropic}}, {{vacancies}}, {{ethical}}, {{principals}}, {{framework}}, {{capability}}{quote}
 >
-
-
-
-h2. Contents
-
-* [6. Ethical Framework|#6-ethical-framework]
-  * [6.1. Principal Sovereignty|#61-principal-sovereignty]
-  * [6.2. Transparent Capability|#62-transparent-capability]
-  * [6.3. No Adverse Action Without Notice|#63-no-adverse-action-without-notice]
-  * [6.4. Fairness Across Principals|#64-fairness-across-principals]
-  * [6.5. Vulnerability Protection|#65-vulnerability-protection]
-  * [6.6. Consent and Capacity|#66-consent-and-capacity]
-  * [6.7. Accessibility as First-Class Concern|#67-accessibility-as-first-class-concern]
 
 
 {quote}[!IMPORTANT]{quote}
@@ -152,19 +138,40 @@ tech-sophisticated principals fails its core mission.
 
 ----
 
-_Похожие документы:_
-* [176-7-governance-and-oversight|docs/02-anthropic-vacancies/176-7-governance-and-oversight.md] (сходство 0.15)
-* [174-5-architectural-specification|docs/02-anthropic-vacancies/174-5-architectural-specification.md] (сходство 0.14)
-* [177-8-risks-and-mitigations|docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md] (сходство 0.13)
+h2. Похожие документы
+* [176-7-governance-and-oversight|176-7-governance-and-oversight.md] (сходство 0.15)
+* [174-5-architectural-specification|174-5-architectural-specification.md] (сходство 0.14)
+* [177-8-risks-and-mitigations|177-8-risks-and-mitigations.md] (сходство 0.13)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [176-7-governance-and-oversight|docs/02-anthropic-vacancies/176-7-governance-and-oversight.md]
-* [174-5-architectural-specification|docs/02-anthropic-vacancies/174-5-architectural-specification.md]
-* [177-8-risks-and-mitigations|docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md]
-* [179-10-open-questions|docs/02-anthropic-vacancies/179-10-open-questions.md]
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Ethical Framework"
+{code}
+
+h2. Смотрите также
+* [176-7-governance-and-oversight|176-7-governance-and-oversight.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+* [177-8-risks-and-mitigations|177-8-risks-and-mitigations.md]
+* [179-10-open-questions|179-10-open-questions.md]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (8)
+* [144-7-open-questions|144-7-open-questions.md]
+* [146-acknowledgments|146-acknowledgments.md]
+* [171-2-historical-precedents-agents-as-civilizational-i|171-2-historical-precedents-agents-as-civilizational-i.md]
+* [172-3-what-makes-a-representative-agent|172-3-what-makes-a-representative-agent.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+* [223-12-closing|223-12-closing.md]
+* [258-5-configuration-how-principals-build-their-ensembl|258-5-configuration-how-principals-build-their-ensembl.md]
+* [README|README.md]
 

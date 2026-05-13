@@ -12,6 +12,11 @@ date: 2026-05-13
 
 h1. Abstract
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 
 h2. Содержание
 
@@ -24,6 +29,10 @@ h2. Содержание
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -80,9 +89,9 @@ shareable AI-collaborative work.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.19)
-* [[306-with-anthropic-s-cowork-platform]] (сходство 0.17)
+* 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]] (сходство 0.17)
 * [[312-4-the-symbiotic-architecture]] (сходство 0.16)
 
 
@@ -90,9 +99,15 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+{code}
+
+h2. Смотрите также
 * [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
-* [[306-with-anthropic-s-cowork-platform]]
+* 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 * [[312-4-the-symbiotic-architecture]]
 * [[308-table-of-contents]]
 
@@ -136,3 +151,19 @@ h2. Связанные документы
 * [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]] _25%_
 * [[308-table-of-contents|Table of Contents]] _25%_
 * [[312-4-the-symbiotic-architecture|4. The Symbiotic Architecture]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [[168-abstract]]
+* [[282-what-industry-will-likely-build]]
+* [[283-what-this-document-doesn-t-solve]]
+* [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
+* 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
+* [[308-table-of-contents]]
+* [[319-acknowledgments]]
+* 323-appendix-c-sample-[[323-appendix-c-sample-ingit-mcp-server-tool-specificat|ingit-mcp-server-tool-specificat]]
+* _...ещё 1_
+

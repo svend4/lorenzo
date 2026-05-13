@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:5d8448dc27e6283c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/DIGEST_WEEKLY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:d4b373cc2b67296a",
+  "payload": {
+    "title": "Еженедельный дайджест — 2026-04-29",
+    "summary": "title: \"Еженедельный дайджест — 2026-04-29\"",
+    "body": "еженедельный дайджест период последние дней итого метрика значение коммитов неделю новых файлов изменённых файлов всего файлов всего слов коммиты fix catalog check improve auto toc respects docignore docs auto update via improve run all skip chore regenerate auto exports after sprint feat sprint rag pipeline jobs queue knowledge graph docs auto update via improve run all skip chore regenerate auto exports after sprint bad feat sprint embeddings cache skill testing release engineering docs auto update via improve run all skip chore regenerate auto exports after sprint feat sprint mcp изация новых слоёв plugin system web ingest docs auto update via improve run all skip chore extend gitignore regenerate badges exports after sprint feat sprint workflow observability embeddings docs auto update via improve run all skip chore regenerate badges auto exports after sprint сгенерировано",
+    "tags": [
+      "rag"
+    ],
+    "projects": [],
+    "wc": 203,
+    "path": "docs/obsidian/DIGEST_WEEKLY.md"
+  }
+}

@@ -10,33 +10,22 @@ date: 2026-05-13
 
 # References
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [References](#references)
   - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
   - [Pattern of Composite Mastery](#pattern-of-composite-mastery)
   - [Multi-Agent Coordination](#multi-agent-coordination)
   - [Practical Examples](#practical-examples)
   - [Companion Documents in This Series](#companion-documents-in-this-series)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [References](#references)
-  - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
-  - [Pattern of Composite Mastery](#pattern-of-composite-mastery)
-  - [Multi-Agent Coordination](#multi-agent-coordination)
-  - [Practical Examples](#practical-examples)
-  - [Companion Documents in This Series](#companion-documents-in-this-series)
 
 
 <!-- summary -->
@@ -102,7 +91,7 @@ date: 2026-05-13
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.20)
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.18)
 - [[225-references]] (сходство 0.18)
@@ -112,9 +101,31 @@ date: 2026-05-13
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+```
+
+## Смотрите также
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[274-the-missing-middle-layer-between-chat-and-code]]
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[184-appendix-a-connection-to-companion-papers]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[137-table-of-contents]]
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- [[267-acknowledgments]]
+- [[274-the-missing-middle-layer-between-chat-and-code]]
+- _...ещё 3_
 

@@ -15,14 +15,17 @@ docs/
   02-anthropic-vacancies/ — анализ 436 вакансий Anthropic
   03-technology-combinations/ — 40+ синергий технологий
   04-ai-collaborations/ — 5 ансамблей OSS-проектов
-  05-habr-projects/    — проекты с Хабра: memory/, knowledge/
-  contacts/            — контактные файлы 14 авторов (generate автоматически)
+  05-habr-projects/    — проекты с Хабра (9 богатых файлов):
+    memory/            — agent-memory-mcp, memnet, ngt-memory, yodoca
+    knowledge/         — agentfs, knowledge-space, mclaude, research-docs-liteparse, rufler, wikontic
+  contacts/            — контактные файлы 15 авторов (generate автоматически)
   templates/           — шаблоны документов
   CONTACTS.md          — сводная таблица авторов и проектов
   ENTITIES.md          — упоминания проектов (22 проекта)
+  PROTOTYPE_SPEC.md    — спецификация прототипа Svyazi 2.0 (4 контракта + 4 итерации)
   DECISIONS.md         — ключевые архитектурные решения
-  HEALTH.md            — балл здоровья репо (75/100)
-  METRICS.md           — метрики качества документов (65.7/100)
+  HEALTH.md            — балл здоровья репо (87/100)
+  METRICS.md           — метрики качества документов (71.1/100)
   SCORING.md           — Go/No-Go (96% → GO)
   search_index.json    — поисковый индекс (483 документа, content+preview)
   CONTENT_GAPS.md      — темы без документа
@@ -36,10 +39,17 @@ docs/
   benchmark.json       — история замеров скриптов
 
 scripts/
-  improve_*.py           — 96 скриптов обработки документов (12 групп)
+  improve_*.py           — 159 скриптов обработки документов (21 группа)
   utils_chunker.py       — утилиты чанкинга для больших текстов
-  mcp_server.py          — MCP-сервер с 7 инструментами
+  mcp_server.py          — MCP-сервер с 11 инструментами (+ bm25_search, run_recipe, list_recipes)
+  gateway.py             — OpenAI-compatible HTTP gateway (FastAPI, порт 8083, 5 инструментов)
+  review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
+  prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
+  improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
   improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed, --parallel)
+  improve_embedding_index.py — TF-IDF семантический индекс над CardStore (pure Python, min_df=2)
+  improve_collab_finder.py   — Collaboration Finder: гибридный BM25+TF-IDF+граф поиск партнёрских проектов
+  improve_semantic_search.py — Unified search: TF-IDF + BM25 + full-text в одном CLI (--mode hybrid/semantic/bm25/full)
   improve_autofill.py    — заполняет шаблоны из данных других скриптов
   improve_contact_status.py — CLI для обновления статуса контактов
   improve_llm_enrich.py  — Stage 3: LLM-обогащение проектных файлов
@@ -117,6 +127,115 @@ scripts/
   improve_auto_linker.py       — авто-ссылки на проекты/технологии в текстах (--apply)
   improve_gap_filler.py        — заполняет пустые секции BM25-контентом из базы (--apply)
 
+  # Отчёты и дашборды (группа reports)
+  improve_health.py            — дашборд здоровья репозитория → HEALTH.md
+  improve_metrics.py           — метрики качества документации → METRICS.md
+  improve_entities.py          — именованные сущности из docs/ → ENTITIES.md
+  improve_report.py            — итоговый executive report о состоянии репозитория
+  improve_stats.py             — детальная статистика по каждому разделу docs/
+  improve_scoring.py           — система оценки готовности к запуску (Go/No-Go) → SCORING.md
+  improve_orphans.py           — документы без входящих ссылок → ORPHANS.md
+  improve_missing.py           — темы упомянутые, но без документа
+  improve_staleness.py         — документы давно не обновлявшиеся или неполные
+  improve_coverage.py          — матрица покрытия: summary, теги, TOC, crossrefs, статус
+  improve_priorities.py        — ранжирует файлы по важности через TF-IDF
+  improve_registry.py          — единый реестр всех артефактов → REGISTRY.md
+  improve_skill_dashboard.py   — статистика использования и оценок скилов
+
+  # Генерация контента (группа content-gen)
+  improve_summaries.py         — краткая аннотация в начало каждого файла (⚠ без dry-run)
+  improve_readmes.py           — README.md для каждой подпапки docs/ (⚠ без dry-run)
+  improve_toc.py               — TOC в начало файлов длиннее 500 слов
+  improve_qa.py                — Q&A листы для каждого раздела docs/ → QA.md
+  improve_glossary.py          — проекты, авторов и URL → GLOSSARY.md
+  improve_tags.py              — теги для каждого файла → TAGS.md
+  improve_alerts.py            — GitHub callout-блоки [!NOTE/TIP/WARNING] (--dry-run)
+  improve_footnotes.py         — сноски [^term] к техническим терминам (--dry-run)
+  improve_see_also.py          — блок "See Also / Смотрите также" в файлы
+  improve_faq.py               — FAQ из QA-паттернов в документах → FAQ.md
+  improve_abbreviations.py     — словарь аббревиатур из docs/ → ABBREVIATIONS.md
+  improve_badges.py            — SVG-бейджи для README
+  improve_status_badges.py     — SVG status badges (state, priority, license)
+  improve_sitemap.py           — навигационная карта репозитория → SITEMAP.md
+  improve_mindmap.py           — майндмап в формате Mermaid mindmap → MINDMAP.md
+  improve_word_cloud.py        — SVG word cloud из топ-слов → word_cloud.svg
+
+  # Анализ и исследование (группа analysis)
+  improve_decisions.py         — ключевые выводы и решения → DECISIONS.md
+  improve_concepts.py          — определения понятий прямо из текстов → CONCEPTS.md
+  improve_kpi.py               — числовые KPI и метрики → KPI.md
+  improve_questions.py         — открытые вопросы из docs/ → QUESTIONS.md
+  improve_action_items.py      — задачи, риски, решения и TODO → ACTION_ITEMS.md
+  improve_timeline.py          — даты и временные маркеры → TIMELINE.md
+  improve_narrative.py         — нарративная линия проекта → NARRATIVE.md
+  improve_clusters.py          — кластеризует файлы по тематической близости
+  improve_density.py           — карта плотности тем по документам
+  improve_heatmap.py           — тепловая карта тем по разделам → HEATMAP.md
+  improve_sentiment.py         — тональный анализ документов → SENTIMENT.md
+  improve_complexity.py        — оценка читаемости документов
+  improve_word_freq.py         — частотный анализ слов по разделам → WORD_FREQ.md
+  improve_cost.py              — оценка стоимости разработки MVP → COST.md
+  improve_schedule.py          — расписание из ACTION_ITEMS и временных маркеров
+
+  # Ссылки и связи (группа links)
+  improve_backlinks.py         — индекс обратных ссылок → BACKLINKS.md
+  improve_crossrefs.py         — карта перекрёстных ссылок → CROSSREFS.md
+  improve_similar.py           — топ-3 похожих документа для каждого файла
+  improve_graph.py             — граф связей между проектами → graph.dot
+  improve_network.py           — анализ сети авторов и проектов → NETWORK.md
+  improve_reading_order.py     — рекомендуемый порядок чтения → READING_ORDER.md
+
+  # Проверка качества (группа quality-extra)
+  improve_broken_links.py      — внутренние ссылки в docs/ (проверка)
+  improve_consistency.py       — разные написания одного термина → CONSISTENCY.md
+  improve_dedup.py             — дублирующиеся файлы и похожие абзацы → DEDUP.md
+  improve_validate.py          — валидация структуры репозитория
+  improve_validate_templates.py — валидация документов по схемам шаблонов
+  improve_compare.py           — docs/ vs предыдущий коммит (diff)
+  improve_template_integrity.py — целостность шаблонов (--fix для исправления)
+  improve_autocorrect.py       — применяет исправления из CONSISTENCY.md (--apply)
+
+  # Дополнительный экспорт (группа export-extra)
+  improve_export_csv.py        — метаданные docs/ → export.csv
+  improve_export_html.py       — docs/ → единый HTML-сайт
+  improve_export_json.py       — структура docs/ → structured JSON
+  improve_extract_code.py      — все code-блоки из docs/ → CODE_BLOCKS.md
+  improve_extract_tables.py    — все Markdown-таблицы из docs/ → TABLES.md
+
+  # Работа с контактами (группа contacts-extra)
+  improve_contacts.py          — email, Telegram, GitHub, Habr-ники → CONTACTS.md
+  improve_contact_priority.py  — ранжирует авторов по приоритету контакта
+  improve_migrate_contacts.py  — миграция docs/contacts/*.md на frontmatter
+
+  # Шаблоны и схемы (группа templates)
+  improve_templates.py         — генерирует шаблоны для каждого раздела docs/
+  improve_template_init.py     — инициализация нового документа из шаблона
+  improve_template_migrate.py  — миграции frontmatter при изменении схемы
+
+  # Индексация и мета (группа index-meta)
+  improve_index_update.py      — инкрементальное обновление search_index.json
+  improve_scripts_catalog.py   — каталог всех scripts/improve_*.py → scripts_catalog.json
+  improve_self.py              — метаскрипт: аудит, каталог, обогащение, генерация скриптов
+  improve_audit_db.py          — SQLite audit log всех событий → audit.db
+
+  # LLM дополнительно (группа llm-extra)
+  improve_llm_gaps.py          — семантический поиск пробелов через Claude API
+
+  # MCP-инструменты (группа mcp-tools)
+  improve_mcp_dashboard.py     — статистика вызовов MCP-серверов → MCP_DASHBOARD.md
+  improve_mcp_test.py          — smoke-тесты для всех MCP-серверов
+
+  # Воркфлоу и автоматизация (группа workflow)
+  improve_workflow_run.py      — исполнитель пайплайнов из tasks/*.task.yaml
+  improve_workflow_v2.py       — workflow engine v2 (расширенный)
+  improve_task_codegen.py      — генератор слоёв (скилл/MCP/index) из *.task.yaml
+  improve_watcher.py           — автономный агент-наблюдатель (Ступень 6)
+  improve_progress.py          — трекер прогресса MVP-проекта → PROGRESS.md
+  improve_progress_sync.py     — синхронизирует PROGRESS.md с реальным состоянием
+  improve_changelog.py         — CHANGELOG из git-истории → CHANGELOG.md
+  improve_digest.py            — дайджест недавних изменений → DIGEST.md
+  improve_merge_short.py       — сливает слишком короткие файлы с соседом
+
 .claude/skills/
   analyze-project.md   — анализ проекта из docs/
   write-contact.md     — помощь в написании первого сообщения
@@ -126,13 +245,16 @@ scripts/
 
 ## Ключевые проекты (из CONTACTS.md)
 
-| Автор | Проект | Слой | Приоритет |
-|-------|--------|------|-----------|
-| kksudo | AgentFS | knowledge/filesystem | 13 упоминаний |
-| spbmolot | NGT Memory | memory | 12 упоминаний |
-| VitalyOborin | Yodoca | memory | 7 упоминаний |
-| AnastasiyaW | knowledge-space | knowledge | 11 упоминаний |
-| andrey_chuyan | Svyazi | ingestion/CardIndex | 4 упоминания |
+| Автор | Проект | Слой | Файл |
+|-------|--------|------|------|
+| kksudo | AgentFS | knowledge/filesystem | docs/05-habr-projects/knowledge/agentfs.md |
+| spbmolot | NGT Memory | memory | docs/05-habr-projects/memory/ngt-memory.md |
+| VitalyOborin | Yodoca + Wikontic | memory + graph | docs/05-habr-projects/memory/yodoca.md |
+| AnastasiyaW | knowledge-space + mclaude | knowledge + orchestration | docs/05-habr-projects/knowledge/ |
+| VitaliySemenov | agent-memory-mcp | memory/MCP | docs/05-habr-projects/memory/agent-memory-mcp.md |
+| Antipozitive | MemNet | memory/research | docs/05-habr-projects/memory/memnet.md |
+| zodigancode | Rufler | orchestration/YAML | docs/05-habr-projects/knowledge/rufler.md |
+| nlaik | research-docs + LiteParse | ingestion/evidence | docs/05-habr-projects/knowledge/research-docs-liteparse.md |
 
 ## Как работать
 
@@ -150,6 +272,34 @@ python scripts/improve_run_all.py --group deeptext  # NLP: TOC, NER, BM25, гр�
 python scripts/improve_run_all.py --group nlpplus   # TextRank, аудит, язык, пассив, поиск
 python scripts/improve_run_all.py --changed         # только группы для изменённых файлов
 python scripts/improve_run_all.py --parallel 4      # параллельное выполнение групп
+```
+
+### HTTP Gateway (Stage 7)
+```bash
+pip install fastapi uvicorn streamlit        # установить зависимости
+python scripts/gateway.py                    # запустить на порту 8083
+python scripts/gateway.py --port 9000        # другой порт
+
+# Тест:
+curl http://localhost:8083/api/health
+curl -X POST http://localhost:8083/api/ask \
+     -H "Content-Type: application/json" \
+     -d '{"query": "агент с памятью", "top_k": 5}'
+
+# Добавить карточку (обогащение корпуса):
+curl -X POST http://localhost:8083/api/cards \
+     -H "Content-Type: application/json" \
+     -d '{"title": "Новый проект", "content": "...", "section": "04-ai-collaborations"}'
+
+# Swagger UI: http://localhost:8083/docs
+# OpenAI-клиент: base_url="http://localhost:8083/v1", model="lorenzo-gateway"
+```
+
+### Review Queue UI (Streamlit)
+```bash
+streamlit run scripts/review_queue.py       # → http://localhost:8501
+# Одобрять / отклонять / откладывать карточки из очереди
+# Реализует Review Record из PROTOTYPE_SPEC §3.5
 ```
 
 ### Работа с контактами
@@ -184,8 +334,52 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 ## Текущие приоритеты
 
 1. **Написать авторам** — файлы готовы в `docs/contacts/`, нужно только отправить
-2. **LLM-обогащение** — `improve_llm_enrich.py` обогатит 21 файл за ~$0.011
-3. **Прототип** — начать с Yodoca + AgentFS + CardIndex (три слоя)
+2. **LLM-обогащение** — `improve_llm_enrich.py` обогатит файлы за ~$0.011
+3. **Прототип** — Итерации 0-1-3 ✅ ВЫПОЛНЕНО; Итерация 2 (Consolidation) 🔄 в процессе
+
+## Статус прототипа (PROTOTYPE_SPEC.md)
+
+| Итерация | Статус | Ключевые артефакты |
+|----------|--------|--------------------|
+| 0 — Вертикальный срез | ✅ Готово | 1632 карточки, 2500+ рёбер, MCP 11 инструментов |
+| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16472 токенов) + гибрид 0.6/0.4 + Review Queue UI |
+| 2 — Consolidation | 🔄 В процессе | CI daily, incremental build, orphan rate < 15% |
+| 3 — Collaboration Finder | ✅ Готово | 9 богатых проектных файлов, 10/11 карточек с рёбрами, 9 контактов |
+| 4 — Gateway & Enrichment | ✅ Готово | OpenAI-compatible API, write-back, function calling, Review Queue |
+
+### Collaboration Finder (Итерация 3)
+```bash
+python scripts/improve_collab_finder.py --query "агент с памятью консолидация"
+python scripts/improve_collab_finder.py --file docs/PROTOTYPE_SPEC.md --top 9
+python scripts/improve_collab_finder.py --query "yaml declarative agent swarm" --dry-run
+python scripts/improve_collab_finder.py --query "typed memory mcp sqlite" --top 5
+```
+
+**Покрытие проектов (9 карточек, все с контактами):**
+- memory/: agent-memory-mcp (VitaliySemenov), memnet (Antipozitive), ngt-memory (spbmolot), yodoca (VitalyOborin)
+- knowledge/: agentfs (kksudo), knowledge-space (AnastasiyaW), mclaude (AnastasiyaW), research-docs (nlaik), rufler (zodigancode), wikontic (VitalyOborin)
+
+### Unified Semantic Search (новый)
+```bash
+python scripts/improve_semantic_search.py --query "агент память консолидация"           # гибрид
+python scripts/improve_semantic_search.py --query "RAG retrieval" --mode semantic --type project
+python scripts/improve_semantic_search.py --query "Yodoca" --mode bm25 --top 5
+python scripts/improve_semantic_search.py --query "CardIndex" --mode full --section 01-svyazi
+python scripts/improve_semantic_search.py --query "граф знаний" --json               # JSON
+```
+
+### CardStore и TF-IDF индекс
+```bash
+python scripts/improve_card_index.py --build --incremental   # инкрементальная сборка (< 3с)
+python scripts/improve_embedding_index.py --index            # TF-IDF индекс (16472 токенов, body-поле)
+python scripts/improve_embedding_index.py --query "агент"   # семантический поиск
+python scripts/improve_embedding_index.py --similar <card_id>  # похожие карточки
+python scripts/improve_embedding_index.py --stats           # статистика индекса
+```
+
+**Архитектура CardEnvelope.payload (после обогащения):**
+- `title` (x2 вес в TF-IDF), `summary` (300 символов), `body` (800 слов чистого текста)
+- `tags`, `projects` (упомянутые проекты), `wc`, `path`
 
 ## Архитектурный принцип Svyazi 2.0
 
@@ -380,6 +574,44 @@ python scripts/improve_digest_weekly.py    # еженедельный дайдж
 | `docs/KPI_HISTORY.md` | История метрик (снапшоты с трендами) |
 | `docs/INDEX.md` | Главный навигационный хаб |
 | `docs/DEPENDENCY_MAP.md` | Карта зависимостей скриптов |
+| `docs/PROTOTYPE_SPEC.md` | Спецификация прототипа Svyazi 2.0 (4 контракта + 4 итерации) |
+
+### Рецепты (improve_recipe.py)
+```bash
+python scripts/improve_recipe.py --list               # все 20 рецептов
+python scripts/improve_recipe.py --find "поиск"       # найти рецепт по цели
+python scripts/improve_recipe.py --run morning-run    # ежедневный пайплайн
+python scripts/improve_recipe.py --run quality-check --dry-run  # план без запуска
+python scripts/improve_recipe.py --info full-index    # детали рецепта
+python scripts/improve_recipe.py --add my --desc "..." --scripts a.py b.py  # добавить
+```
+
+### Мета-аудит и генерация скриптов (improve_self.py)
+```bash
+python scripts/improve_self.py --audit                # аудит всех скриптов
+python scripts/improve_self.py --batch --dry-run      # план пакетного обогащения
+python scripts/improve_self.py --batch --apply        # добавить docstring + main-блок
+python scripts/improve_self.py --cross-read           # скрипты vs CLAUDE.md
+python scripts/improve_self.py --generate --pattern list          # список паттернов
+python scripts/improve_self.py --generate --name my_report --pattern REPORT --description "Мой отчёт"
+python scripts/improve_self.py --generate --name my_enricher --pattern ENRICHER --description "Обогащение"
+python scripts/improve_self.py --generate --name my_analyzer --pattern ANALYZER --description "Анализ"
+python scripts/improve_self.py --generate --name my_searcher --pattern SEARCHER --description "Поиск"
+python scripts/improve_self.py --generate --name my_exporter --pattern EXPORTER --description "Экспорт"
+```
+
+### Интерактивный поиск (improve_search_repl.py)
+```bash
+python scripts/improve_search_repl.py                    # интерактивный REPL
+python scripts/improve_search_repl.py --query "агент"   # разовый поиск
+python scripts/improve_search_repl.py --index           # пересобрать live-индекс
+# В REPL:
+#   <запрос>          BM25-поиск по абзацам
+#   :full <запрос>    полнотекстовый поиск
+#   :list <запрос>    список файлов с временем чтения
+#   :related <файл>   похожие документы (Jaccard)
+#   :top              топ-10 файлов по абзацам
+```
 
 ## Важные предупреждения
 

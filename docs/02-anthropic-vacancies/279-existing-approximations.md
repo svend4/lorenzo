@@ -8,7 +8,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [Existing Approximations](#existing-approximations)
   - [Anthropic Projects](#anthropic-projects)
   - [GitHub Discussions](#github-discussions)
@@ -27,17 +26,6 @@
 > ✅ **Результат:** Anthropic Projects Provides persistent context across multiple chats grouped around a topic.
 > 🏷️ **Ключевые слова:** `anthropic`, `layer`, `vacancies`, `existing`, `github`, `discussions`, `tools`, `projects`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-[obsidian](../docs/01-svyazi/03-component-catalog.md)-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
 
 
 <!-- summary -->
@@ -72,7 +60,7 @@ and structural needs.
 
 ### GitHub Discussions
 
-Provides threaded forum within [GitHub](../docs/01-svyazi/03-component-catalog.md) repositories. Threading 
+Provides threaded forum within [GitHub](../01-svyazi/03-component-catalog.md) repositories. Threading 
 works well. Limitations:
 - Culturally code-oriented; intellectual discussions feel 
   out of place
@@ -81,7 +69,7 @@ works well. Limitations:
   links between them are external references, not first-class
 - No annotation on document text
 
-[GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions is **structurally close** but **culturally 
+[GitHub](../01-svyazi/03-component-catalog.md) Discussions is **structurally close** but **culturally 
 distant** for intellectual work.
 
 ### Notion / Obsidian / Roam
@@ -114,7 +102,7 @@ designed for intellectual project development**.
 
 Most serious intellectual workers combine tools:
 - Anthropic Projects for AI-assisted writing
-- [GitHub](../docs/01-svyazi/03-component-catalog.md) for storage and versioning
+- [GitHub](../01-svyazi/03-component-catalog.md) for storage and versioning
 - Notion or Obsidian for personal knowledge
 - Email or messaging for real-time
 - Discord or Slack for community
@@ -135,19 +123,41 @@ problem.
 
 ---
 
-**Похожие документы:**
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.19)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.16)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.16)
+## Похожие документы
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.19)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.16)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.16)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Existing Approximations"
+```
+
+## Смотрите также
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- _...ещё 1_
 

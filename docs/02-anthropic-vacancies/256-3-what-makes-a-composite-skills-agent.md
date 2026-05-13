@@ -1,5 +1,10 @@
 # 3. What Makes a Composite Skills Agent
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > We define the type with precision.
 
 ---
@@ -180,7 +189,7 @@ agents inherit this distinction.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md) (сходство 0.18)
 - [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.16)
@@ -190,7 +199,13 @@ agents inherit this distinction.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Composite Skills Agent"
+```
+
+## Смотрите также
 - [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
 - [264-11-open-questions](264-11-open-questions.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
@@ -237,3 +252,19 @@ agents inherit this distinction.
 - [11. Open Questions](264-11-open-questions.md) _29%_
 - [10. Open Questions](179-10-open-questions.md) _25%_
 - [Table of Contents](211-table-of-contents.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [211-table-of-contents](211-table-of-contents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
+- _...ещё 4_
+

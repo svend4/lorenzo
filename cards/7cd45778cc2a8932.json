@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:7cd45778cc2a8932",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:62d970d21cee7c64",
+  "payload": {
+    "title": "INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md",
+    "summary": "title: \"INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md\"",
+    "body": "infrastructure for collaborative intellectual work open knowledge work foundation сходство infrastructure for collaborative intellectual work markdown infrastructure for collaborative intellectual work похожие документы open knowledge work foundation сходство composite skills agent сходство professional colleague agents сходство упоминается problem statement problem statement open questions open questions call for collaboration call for collaboration configuration how principals build their ensembl configuration how principals build their ensembles pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague composite skills agent composite skills agent content overview content overview executive summary executive summary ingit cowork native workspace substrate ingit cowork native workspace substrate open knowledge work foundation open knowledge work foundation professional colleague agents professional colleague agents readme вакансии anthropic анализ кластерам системный промпт для lorenzo project системный промпт для lorenzo project упоминается readme вакансии anthropic анализ кластерам связанные документы open knowledge work foundation open knowledge work foundation professional colleague agents professional colleague agents ingit cowork native workspace substrate ingit cowork native workspace substrate composite skills agent composite skills agent системный промпт для lorenzo project системный промпт для lorenzo project abstract abstract the sub agent registry the sub agent registry call for collaboration call for collaboration связанные документы open knowledge work foundation open knowledge work foundation professional colleague agents professional colleague agents composite skills agent composite skills agent ingit cowork native workspace substrate ingit cowork native workspace substrate the double triangle architecture the double triangle architecture системный промпт для lorenzo project системный промпт для lorenzo project executive summary executive summary open questions open questions смотрите также open knowledge work foundation ingit cowork native workspace substrate composite skills agent professional colleague agents",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 260,
+    "path": "docs/obsidian/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md"
+  }
+}

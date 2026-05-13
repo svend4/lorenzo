@@ -11,10 +11,15 @@ date: 2026-05-13
 
 # 🇬🇧 About
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
-> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
+> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(03-portal-protocol-md.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
 > 🔧 **Подход:** - 0: Discoverable — declared in registry only - 1: Readable — has passport + describe() method - 2: Queryable — implements fetch(query) — search works - 3: Interactive — translatet
 > ✅ **Результат:** Reports always show attribution — which repo each result came from.
 > 🏷️ **Ключевые слова:** `nautilus`, `portal`, `protocol`, `reference`, `https`, `anthropic`, `svend`, `passports`
@@ -22,6 +27,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Nautilus is a **federation protocol** and reference implementation
 
 ---
@@ -38,7 +47,7 @@ date: 2026-05-13
   - [Compatibility Levels](#compatibility-levels)
   - [Documentation](#documentation)
   - [Project Status](#project-status)
-  - [Why "Nautilus"?](#why-[nautilus](../docs/05-habr-projects/memory/memnet.md))
+  - [Why "Nautilus"?](#why-nautilus)
   - [Related Work](#related-work)
   - [Licenses](#licenses)
   - [Contact](#contact)
@@ -128,13 +137,13 @@ python portal.py --serve
 ```
 
 2. Write `passport.md` — a one-page description (see templates in 
-   [`passports/`](./passports/))
+   `passports/`)
 
 **Full (Level 2–3, a few hours):**
 
 3. Add an adapter in `adapters/my_repo.py` implementing the 
    `[[01-интегральный-анализ-профиля-svend4|BaseAdapter]]` interface (see 
-   [[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md §6]])
+   [[03-portal-protocol-md|PORTAL-PROTOCOL.md §6]])
 
 4. Register the repo in the portal's root `[[memnet|nautilus]].json`
 
@@ -173,16 +182,16 @@ day one.
 - **3: Interactive** — `translate_to()` — cross-repo translations 
   via bridges
 
-Details in [[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md §5]].
+Details in [[03-portal-protocol-md|PORTAL-PROTOCOL.md §5]].
 
 ### Documentation
 
-- **[[PORTAL-PROTOCOL|PORTAL-PROTOCOL.md]]** — formal v1.0 
+- **[[03-portal-protocol-md|PORTAL-PROTOCOL.md]]** — formal v1.0 
   specification (15 pages)
-- **[passports/](./passports/)** — human-readable repo descriptions
-  - [[info1]]
-  - [[pro2]]
-  - [[meta]]
+- **`passports/`** — human-readable repo descriptions
+  - `info1`
+  - `pro2`
+  - `meta`
 - **Issues** — questions, proposals, bug reports
 
 ### Project Status
@@ -231,7 +240,7 @@ consensus-based validation across repos.
 - **Documentation** (README, PORTAL-PROTOCOL, passports): 
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - **Code** (portal, adapters, glyph_adapter): 
-  [MIT](./LICENSE)
+  [[README|MIT]]
 
 ### Contact
 
@@ -244,7 +253,7 @@ consensus-based validation across repos.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[67-о-проекте]] (сходство 0.17)
 - [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
 - [[158-4-proposed-infrastructure]] (сходство 0.12)
@@ -254,9 +263,25 @@ consensus-based validation across repos.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[67-о-проекте]]
 - [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [[158-4-proposed-infrastructure]]
 - [[164-10-appendices]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[104-appendix-c-references]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[164-10-appendices]]
+- [[23-11-security-considerations]]
+- [[25-13-reference-implementation]]
+- [[26-14-adr-001-federation-over-merging]]
+- [[42-author-contact]]
+- [[67-о-проекте]]
+- _...ещё 2_
 

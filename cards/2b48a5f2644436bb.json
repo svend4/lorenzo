@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:2b48a5f2644436bb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/operationalized/04-recommendations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6c587546592aeb9f",
+  "payload": {
+    "title": "Вывод: документ deserves serious attention",
+    "summary": "Some могут быть hyped, incomplete, abandoned. Verify status before building dependencies.",
+    "body": "вывод документ deserves serious attention источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ внуковой комбинации которая operationalises концепт lorenzo проекты svyazi mclaude rufler hybrid rag graph rag sentinel смотрите также recommendations recommendations развёрнутый анализ внуковой комбинации anthropic vacancies развёрнутый анализ внуковой комбинации overview grandchild combination overview grandchild combination anchor node habr scout anchor node habr scout",
+    "tags": [
+      "rag",
+      "orchestration",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "Rufler",
+      "Hybrid RAG",
+      "Graph RAG",
+      "SENTINEL"
+    ],
+    "wc": 518,
+    "path": "docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md"
+  }
+}

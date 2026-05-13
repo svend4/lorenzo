@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:16a16a0289364c39",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/202-12-заключение.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/190-содержание.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:40918b89e58f89a0",
+  "payload": {
+    "title": "12. Заключение",
+    "summary": "Синдром Золушки — качество без видимости — не нов. Он формировал человеческий труд и признание задолго до компьютеров. Что нового — мы наконец имеем технологию, способную обеспечить представительство в масштабе — доступно, постоянно, во всём диапазоне человеческой работы и нужды.",
+    "body": "заключение синдром золушки качество без видимости нов формировал человеческий труд признание задолго компьютеров что нового наконец имеем технологию способную обеспечить представительство упоминается вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme смотрите также профессиональные коллеги агенты профессиональные коллеги агенты доступ данным доступ данным practical path layer through symbiotic inte practical path layer through symbiotic inte содержание содержание кто ссылается этот документ доступ данным доступ данным содержание содержание профессиональные коллеги агенты профессиональные коллеги агенты practical path layer through symbiotic inte practical path layer through symbiotic inte readme readme",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 246,
+    "path": "docs/02-anthropic-vacancies/202-12-заключение.md"
+  }
+}

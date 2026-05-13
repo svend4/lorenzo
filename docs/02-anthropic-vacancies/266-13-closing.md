@@ -1,16 +1,9 @@
 # 13. Closing
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [13. Closing](#13-closing)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -22,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Mastery in skilled work has always been composite. The yoga
 
 ---
@@ -105,7 +102,7 @@ walking it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [223-12-closing](223-12-closing.md) (сходство 0.21)
 - [252-abstract](252-abstract.md) (сходство 0.20)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.20)
@@ -115,7 +112,13 @@ walking it.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "13 Closing"
+```
+
+## Смотрите также
 - [252-abstract](252-abstract.md)
 - [223-12-closing](223-12-closing.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
@@ -162,3 +165,19 @@ walking it.
 - [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
 - [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _25%_
 - [Acknowledgments](267-acknowledgments.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [168-abstract](168-abstract.md)
+- [181-12-closing](181-12-closing.md)
+- [223-12-closing](223-12-closing.md)
+- [252-abstract](252-abstract.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [267-acknowledgments](267-acknowledgments.md)
+- _...ещё 4_
+

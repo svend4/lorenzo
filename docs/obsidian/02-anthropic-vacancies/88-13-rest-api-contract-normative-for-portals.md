@@ -13,7 +13,6 @@ date: 2026-05-13
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
   - [13.1. Required Endpoints](#131-required-endpoints)
   - [13.2. Recommended Endpoints](#132-recommended-endpoints)
@@ -27,18 +26,6 @@ date: 2026-05-13
 - [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
-  - [13.1. Required Endpoints](#131-required-endpoints)
-  - [13.2. Recommended Endpoints](#132-recommended-endpoints)
-  - [13.3. Response Schemas](#133-response-schemas)
-  - [13.4. CORS](#134-cors)
-  - [13.5. OpenAPI Specification](#135-openapi-specification)
-  - [13.6. Error Responses](#136-error-responses)
 
 
 > [!IMPORTANT]
@@ -180,7 +167,7 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[128-доступные-инструменты]] (сходство 0.12)
 - [[90-15-security-considerations]] (сходство 0.11)
 
@@ -189,9 +176,21 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[90-15-security-considerations]]
 - [[23-11-security-considerations]]
 - [[128-доступные-инструменты]]
 - [[82-7-portalentry-structure]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [[128-доступные-инструменты]]
+- [[18-6-adapter-interface]]
+- [[23-11-security-considerations]]
+- [[90-15-security-considerations]]
+- [[README]]
 

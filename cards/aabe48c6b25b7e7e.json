@@ -1,0 +1,68 @@
+{
+  "card_id": "sha256:aabe48c6b25b7e7e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/security-routing-plane.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/ensembles/E-execution-plane.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/research-docs-liteparse.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:a4c23cffd78ecacf",
+  "payload": {
+    "title": "Security + routing plane",
+    "summary": "Рантайм‑безопасность и бюджетный execution plane для агентных систем.",
+    "body": "security routing plane авторы dmitriila berriai mixaill maslennikovig проекты svyazi sentinel litellm auto router tool search смотрите также execution plane ensembles execution plane research docs liteparse research docs liteparse rufler rufler yodoca yodoca кто ссылается этот документ authors name glossary authors name components name glossary components name concepts glossary concepts readme readme",
+    "tags": [
+      "orchestration",
+      "security",
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 210,
+    "path": "docs/svyazi-2-0/components/security-routing-plane.md"
+  }
+}

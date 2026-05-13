@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:e93c6a7e8e967275",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/naming/01-search-results-not-found.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/naming/00-question-lorenzo-codename.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:31d6871687127d85",
+  "payload": {
+    "title": "Результаты последнего поиска — что нашлось и что не нашлось",
+    "summary": "Результаты последнего поиска — что нашлось и что не нашлось",
+    "body": "результаты последнего поиска что нашлось что нашлось источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога выбор имени lorenzo как codename для catalyst agent lorenzo medici dhlab umbrella смотрите также level full network phased deployment level full network question lorenzo codename question lorenzo codename personal multi agent hub habr unique projects extra examples personal multi agent hub section solution architecture anthropic vacancies beneficial deployments concept section solution architecture",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 295,
+    "path": "docs/lorenzo-agent/naming/01-search-results-not-found.md"
+  }
+}

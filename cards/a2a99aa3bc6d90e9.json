@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:a2a99aa3bc6d90e9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/SCRIPT_EVAL_REPORT.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:f4df97244c49bba2",
+  "payload": {
+    "title": "Отчёт об оценке скриптов Lorenzo",
+    "summary": "$ python scripts/improve_recipe.py --list",
+    "body": "отчёт оценке скриптов lorenzo детальное живое тестирование скриптов сценки диалоги сравнение после плюсы минусы пути развития дата статус актуально покрытие команды групп скриптов общая картина что изменилось показатель этап апрель сейчас май рост скриптов improve docs файлов поисковый индекс записи записей абзацев новый cardenvelope карточек dry run новый именованных рецептов встроенных новый mcp инструментов новый паттернов кодогенерации новый общий балл здоровья репо оценка диалог сценки скрипты действии сценка утренний пайплайн контекст разработчик открывает проект утра хочет быстро обновить все дашборды python scripts improve recipe list lorenzo recipes рецептов пользовательских daily morning run ежедневный пайплайн дашборд дайджест метрики скр reports dashboard обновить все дашборды здоровье метрики оценка скр python scripts improve recipe run dashboard рецепт dashboard скриптов improve health docs health общий балл improve metrics docs metrics файлов средний балл improve scoring docs scoring балл improve stats docs stats файлов слов improve coverage docs coverage файлов средний балл итог успешно результат все дашбордов обновлены секунды одной командой нужно было запускать отдельных команд вручную помнить порядок сценка работа card index контекст аналитик исследует проекты habr хочет построить граф знаний шаг посмотреть что будет создано python scripts improve card index build section habr projects dry run построение cardstore файлов dry run project sha yodoca консолидация забывание project sha ngt memory ассоциативный граф doc sha wikontic семантический граф dry run карточек рёбер ошибок шаг реальная сборка python scripts improve card index build section habr projects карточек рёбер записано cards шаг статистика python scripts improve card index stats cardstore карточек типу doc project статусу raw всего рёбер топ связанных рёбер yodoca консолидация забывание рёбер синтез как проекты собираются вместе шаг поиск python scripts improve card index search yodoca память project yodoca консолидация забывание docs habr projects memory yodoca project memnet исследовательская память doc авторы контакты шаг одобрить найденный проект python scripts improve card index approve sha yodoca консолидация забывание state raw approved сохранено шаг связать родственным проектом python scripts improve card index link sha docs habr projects memory ngt memory rel extends добавлено ребро sha ngt memory extends сохранено шаг экспорт csv для таблицы python scripts improve card index export fmt csv записано строк cards index csv результат полный цикл документы граф знаний поиск ревью экспорт без llm такой возможности существовало вообще сценка создание нового скрипта через кодогенерацию контекст нужен новый скрипт для анализа частоты упоминания технологий посмотреть доступные паттерны python scripts improve self generate pattern list report читает docs пишет один файл отчёт дашборд enricher читает модифицирует docs place добавляет блок analyzer анализирует docs пишет json статистика searcher интерактивный repl поиск live индексом exporter экспортирует docs внешний формат сгенерировать заготовку analyzer python scripts improve self generate name tech frequency pattern analyzer description анализ частоты упоминания технологий паттерн analyzer файл scripts generated improve tech frequency описание анализ частоты упоминания технологий generated проверить перед использованием improve tech frequency анализ частоты упоминания технологий читает docs пишет docs tech frequency docs tech frequency json запуск python scripts improve tech frequency dry run top import argparse json from pathlib import path root path file parent parent docs root docs out docs tech frequency out docs tech frequency json dry run файл создан добавьте apply результат полная заготовка нового скрипта команду правильная структура аргументы dry run section top паттерн чтения записи каждый скрипт писался нуля дублируя boilerplate сценка поиск базе знаний контекст нужно найти всё что есть консолидации памяти трёх уровнях детализации уровень быстрый полнотекстовый поиск файлы python scripts improve search repl query консолидация памяти забывание строю live индекс абзацев файлов docs onboarding docs prototype spec docs tech radar уровень поиск абзацам passage retrieval python scripts improve passage retrieval query консолидация памяти забывание top docs habr projects synthesis синтез yodoca episode fact консолидация ngt memory ассоциативный граф docs habr projects knowledge wikontic wikontic docs habr projects synthesis второй абзац docs habr projects knowledge wikontic второй абзац docs habr projects memory yodoca yodoca yodoca консолидация забывание уровень фасетный поиск фильтрация ранжирование python scripts improve faceted search query memory agent top запрос memory agent файлов docs concepts docs tables docs priorities wrote docs search results уровень card поиск только одобренные проекты python scripts improve card index search yodoca память project yodoca консолидация забывание project memnet исследовательская память doc авторы контакты результат четыре уровня поиска грубого файл точного карточка состоянием один поиск search index json без passage уровня живые результаты тестирования рецептная система improve recipe все команды протестированы лично команда результат время статус list рецептов категориям мгновенно info quality check скриптов теги команды запуска мгновенно run dashboard dry run скриптов запущены dry run run quality check dry run oserror длинном пути stats запись истории scripts audit мгновенно find экспорт нашёл export all мгновенно add test demo создан recipes json мгновенно delete test demo удалён мгновенно ключевое поведение dry run скрипты dry run получают флаг запускаются скрипты dry run health metrics scoring запускаются как есть read only безопасно найденная проблема improve broken links падает",
+    "tags": [
+      "evaluation",
+      "testing",
+      "scripts",
+      "automation",
+      "before-after",
+      "analysis"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "Wikontic"
+    ],
+    "wc": 2904,
+    "path": "docs/SCRIPT_EVAL_REPORT.md"
+  }
+}

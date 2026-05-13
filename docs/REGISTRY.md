@@ -6,33 +6,36 @@ _Обновлено: 2026-05-13_
 
 | Слой | Кол-во |
 |------|--------|
-| Скрипты `improve_*.py` | 154 |
+| Скрипты `improve_*.py` | 165 |
 | Шаблоны `docs/templates/*.md` | 22 |
 | Скилы `.claude/skills/*.md` | 28 |
 | MCP-серверы | 12 |
 | Манифесты задач | 13 |
-| Контакты | 14 |
+| Контакты | 16 |
 
 ## Скрипты по группам
 
 | Группа | Скриптов |
 |--------|----------|
 | `analysis` | 9 |
-| `analytics` | 6 |
+| `analytics` | 9 |
 | `cicd` | 4 |
+| `contacts-ext` | 1 |
 | `content` | 4 |
 | `deeptext` | 10 |
-| `export` | 7 |
+| `export` | 8 |
 | `extract` | 9 |
 | `generate` | 7 |
 | `graph` | 4 |
 | `index` | 6 |
+| `mcp` | 2 |
+| `meta` | 8 |
 | `nlpplus` | 10 |
-| `quality` | 10 |
-| `reports` | 19 |
-| `structure` | 6 |
-| `textwork` | 8 |
-| `без группы` | 35 |
+| `quality` | 15 |
+| `reports` | 21 |
+| `structure` | 7 |
+| `textwork` | 9 |
+| `без группы` | 22 |
 
 ## Шаблоны
 
@@ -133,6 +136,7 @@ _Обновлено: 2026-05-13_
 
 | Slug | Автор | Статус |
 |------|-------|--------|
+| `QA` | QA | unknown |
 | `anastasiyaw` | AnastasiyaW | not_started |
 | `andrey-chuyan` | andrey_chuyan | not_started |
 | `antipozitive` | Antipozitive | not_started |
@@ -145,6 +149,7 @@ _Обновлено: 2026-05-13_
 | `spbmolot` | spbmolot | studied |
 | `tagir-analyzes` | tagir_analyzes | not_started |
 | `vitalyoborin` | VitalyOborin | not_started |
+| `vitalysemenov` | VitaliySemenov | not_started |
 | `vladspace` | VladSpace | not_started |
 | `zodigancode` | zodigancode | not_started |
 

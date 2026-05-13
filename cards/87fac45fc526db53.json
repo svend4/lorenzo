@@ -1,0 +1,61 @@
+{
+  "card_id": "sha256:87fac45fc526db53",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/05-habr-projects/knowledge/mclaude.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/contacts/anastasiyaw.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/agentfs.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/agent-memory-mcp.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:30:24+00:00",
+  "updated_at": "2026-05-10T17:30:24+00:00",
+  "payload_hash": "sha256:ad6dd20ba94b571d",
+  "payload": {
+    "title": "mclaude",
+    "summary": "mclaude — система координации нескольких параллельных сессий Claude Code и других coding-агентов над одним проектом. Решает задачу «многоголового агента»: несколько Claude-экземпляров могут одновременно работать над разными частями проекта без конфликтов и потерь контекста.",
+    "body": "статус параметр значение теги упоминаний репо слой knowledge orchestration контакт anastasiyaw contacts anastasiyaw статус связи писали обновлено mclaude профиль проекта параметр значение автор anastasiyaw github anastasiyaw источник хабр github лицензия mit maturity активный oss слой svyazi orchestration coordination описание mclaude система координации нескольких параллельных сессий claude code других coding агентов над одним проектом решает задачу многоголового агента несколько claude экземпляров могут одновременно работать над разными частями проекта без конфликтов потерь контекста ключевой механизм locks взаимные исключения для файлов задач handoffs передача контекста между сессиями mailbox асинхронные сообщения между агентами shared project memory общее состояние проекта ключевые компоненты locks мьютексы для файлов задач предотвращают конфликты параллельных агентов handoffs структурированная передача контекста агента агенту mailbox асинхронный обмен сообщениями между сессиями multi session turn taking протокол очерёдности кто работает сейчас кто ждёт shared project memory общая память проекта задачи прогресс решения синергия svyazi locks skillpolicy approval mode blocked блокировка конкурентных мутаций cardstore handoffs memorywrite type episode сохранение контекста сессии перед завершением mailbox reviewrecord асинхронная система рецензирования между агентами shared memory cardenvelope state approved консолидированное общее знание turn taking решает проблему параллельной работы нескольких модераторов над одним графом mit прямая интеграция без ограничений позиция экосистеме mclaude закрывает слой multi agent coordination svyazi чего нет agentfs файловое ядро yodoca консолидация или knowledge space база знаний без координационного слоя параллельная работа нескольких агентов над общим графом знаний невозможна сравнение аналогами проект подход ниша mclaude claude code coordination multi session parallelism rufler yaml декларативный рой агентов запуск агентов конфига agentfs persistent state для агента файловое ядро одного агента factory spec driven multi agent dev полный dev цикл plan implement review контакт контактный файл docs contacts anastasiyaw contacts anastasiyaw также автор knowledge space knowledge space карточек mit смотрите также rufler rufler yaml декларативный запуск роя агентов альтернативный подход оркестрации agentfs agentfs файловое ядро для одного агента mclaude координирует несколько knowledge space knowledge space база знаний которую mclaude агенты читают параллельно agent memory mcp memory agent memory mcp shared memory через mcp между сессиями создано",
+    "tags": [
+      "mclaude",
+      "multi-agent",
+      "orchestration",
+      "claude-code",
+      "parallel",
+      "locks",
+      "handoff",
+      "mailbox",
+      "shared-memory"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "Yodoca",
+      "agent-memory-mcp"
+    ],
+    "wc": 475,
+    "path": "docs/05-habr-projects/knowledge/mclaude.md"
+  }
+}

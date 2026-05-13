@@ -11,18 +11,34 @@ date: 2026-05-13
 
 ## Содержание
 
-- [[research-summary|research-summary.md]] — <!-- summary -->
+- [[research-summary|research-summary.md]] — <!-- toc-auto -->
 
 ## Подразделы
 
 - [components/](components/) — components
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[.md]]
+- [[cowork]]
+- [[ingit]]
+- [[kksudo]]
+- _...ещё 7_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [[README]] (сходство 1.00)
-- [[README]] (сходство 0.36)
-- [[README]] (сходство 0.33)
+- [[README]] (сходство 0.68)
+- [[README]] (сходство 0.62)
+- [[README]] (сходство 0.52)
 

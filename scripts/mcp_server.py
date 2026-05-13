@@ -4,10 +4,13 @@ Stage 5: постоянный сервис, доступный любому MCP-
 
 Инструменты:
   search_docs(query)              — полнотекстовый поиск по search_index.json
+  bm25_search(query)              — BM25-поиск по абзацам (passages.json)
   get_decisions(topic)            — решения по теме из DECISIONS.md
   get_contacts(project)           — контакты авторов из CONTACTS.md
   get_project_status(name)        — теги, упоминания, связи проекта
   run_improve(script, dry_run)    — запустить скрипт обработки
+  run_recipe(name, dry_run)       — запустить именованный рецепт (improve_recipe.py)
+  list_recipes()                  — список рецептов с описаниями
   get_health()                    — общий балл здоровья репозитория
   list_scripts()                  — список доступных скриптов
   update_contact_status(author, status, note) — обновить статус контакта
@@ -35,8 +38,9 @@ import json
 import subprocess
 from pathlib import Path
 
-ROOT = Path(__file__).parent.parent
-DOCS = ROOT / "docs"
+ROOT    = Path(__file__).parent.parent
+DOCS    = ROOT / "docs"
+SCRIPTS = ROOT / "scripts"
 
 # ---------------------------------------------------------------------------
 # Утилиты: чтение данных из docs/
@@ -105,7 +109,120 @@ def _read_doc(filename: str) -> str:
 
 
 def _list_improve_scripts() -> list[str]:
-    return sorted(p.name for p in (ROOT / "scripts").glob("improve_*.py"))
+    return sorted(p.name for p in SCRIPTS.glob("improve_*.py"))
+
+
+# ---------------------------------------------------------------------------
+# BM25 поиск по абзацам (passages.json)
+# ---------------------------------------------------------------------------
+
+import math
+from collections import Counter, defaultdict
+
+_PASSAGES_CACHE: list[dict] | None = None
+_BM25_CACHE: dict | None = None
+
+
+def _load_passages() -> list[dict]:
+    global _PASSAGES_CACHE
+    if _PASSAGES_CACHE is not None:
+        return _PASSAGES_CACHE
+    path = DOCS / "passages.json"
+    if not path.exists():
+        _PASSAGES_CACHE = []
+        return _PASSAGES_CACHE
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        # passages.json может быть списком или {"passages": [...], "generated": ...}
+        items: list[dict] = raw if isinstance(raw, list) else raw.get("passages", [])
+        stop = {"и","в","не","на","с","по","к","из","за","для","это","как","но","или",
+                "что","был","его","её","их","мы","вы","при","от","до","об",
+                "the","a","an","is","of","in","on","to","for","with","by","and","not"}
+        for p in items:
+            # Нормализуем поле file/source
+            if "file" not in p:
+                p["file"] = p.get("source", p.get("id", "").split("::")[0])
+            if "tokens" not in p:
+                text = re.sub(r'```.*?```', ' ', p.get("text",""), flags=re.DOTALL)
+                text = re.sub(r'[*_`#|>\[\]()]', ' ', text)
+                p["tokens"] = [t for t in re.findall(r'[а-яёa-z]{3,}', text.lower())
+                               if t not in stop]
+        _PASSAGES_CACHE = items
+    except Exception:
+        _PASSAGES_CACHE = []
+    return _PASSAGES_CACHE
+
+
+def _build_bm25_index(passages: list[dict]) -> dict:
+    global _BM25_CACHE
+    if _BM25_CACHE is not None:
+        return _BM25_CACHE
+    N = len(passages)
+    df: Counter = Counter()
+    total_len = 0
+    for p in passages:
+        total_len += len(p["tokens"])
+        for t in set(p["tokens"]):
+            df[t] += 1
+    avgdl = total_len / max(N, 1)
+    idf = {t: math.log((N - n + 0.5) / (n + 0.5) + 1) for t, n in df.items()}
+    inv: dict = defaultdict(list)
+    for i, p in enumerate(passages):
+        freq = Counter(p["tokens"])
+        for t, tf in freq.items():
+            inv[t].append((i, tf))
+    _BM25_CACHE = {"idf": idf, "inv": dict(inv), "avgdl": avgdl,
+                   "lens": [len(p["tokens"]) for p in passages]}
+    return _BM25_CACHE
+
+
+def _bm25_search(query: str, top: int = 8) -> list[dict]:
+    passages = _load_passages()
+    if not passages:
+        return []
+    bm25 = _build_bm25_index(passages)
+    stop = {"и","в","не","на","с","по","к","из","за","для","это","как","но","или",
+            "the","a","an","is","of","in","on","to","for","with","by","and","not"}
+    tokens = [t for t in re.findall(r'[а-яёa-z]{3,}', query.lower()) if t not in stop]
+    if not tokens:
+        return []
+    k1, b = 1.5, 0.75
+    avgdl = bm25["avgdl"]
+    scores: dict[int, float] = defaultdict(float)
+    for t in tokens:
+        idf = bm25["idf"].get(t, 0)
+        for did, tf in bm25["inv"].get(t, []):
+            dl = bm25["lens"][did]
+            norm_tf = tf * (k1 + 1) / (tf + k1 * (1 - b + b * dl / avgdl))
+            scores[did] += idf * norm_tf
+
+    best_by_file: dict[str, tuple[float, dict]] = {}
+    for did, score in sorted(scores.items(), key=lambda x: -x[1]):
+        p = passages[did]
+        fname = p["file"]
+        if fname not in best_by_file or score > best_by_file[fname][0]:
+            best_by_file[fname] = (score, p)
+
+    results = sorted(best_by_file.values(), key=lambda x: -x[0])[:top]
+    return [{"score": round(s, 2), **p} for s, p in results]
+
+
+# ---------------------------------------------------------------------------
+# Рецепты (improve_recipe.py)
+# ---------------------------------------------------------------------------
+
+def _load_recipes() -> dict:
+    recipe_script = SCRIPTS / "improve_recipe.py"
+    if not recipe_script.exists():
+        return {}
+    try:
+        result = subprocess.run(
+            [sys.executable, str(recipe_script), "--list"],
+            capture_output=True, text=True, cwd=str(ROOT), timeout=10
+        )
+        return {"_raw_list": result.stdout}
+    except Exception:
+        return {}
 
 
 # ---------------------------------------------------------------------------
@@ -215,6 +332,50 @@ async def list_tools() -> list[Tool]:
             },
         ),
         Tool(
+            name="bm25_search",
+            description=(
+                "BM25-поиск по абзацам документов Lorenzo (passages.json). "
+                "Точнее чем search_docs для конкретных понятий и проектов. "
+                "Требует предварительного запуска improve_passage_retrieval.py --index."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "query": {"type": "string", "description": "Поисковый запрос"},
+                    "top_k": {"type": "integer", "default": 6,
+                              "description": "Число результатов (1-20)"},
+                },
+                "required": ["query"],
+            },
+        ),
+        Tool(
+            name="run_recipe",
+            description=(
+                "Запустить именованный рецепт (цепочку скриптов) из improve_recipe.py. "
+                "По умолчанию dry_run=true — показывает план без изменений."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string",
+                             "description": "Имя рецепта (quality-check, morning-run, ...)"},
+                    "dry_run": {"type": "boolean", "default": True},
+                },
+                "required": ["name"],
+            },
+        ),
+        Tool(
+            name="list_recipes",
+            description="Список всех доступных рецептов Lorenzo с описаниями.",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "find": {"type": "string",
+                             "description": "Поиск рецепта по цели (опционально)"},
+                },
+            },
+        ),
+        Tool(
             name="update_contact_status",
             description=(
                 "Обновляет статус контакта автора в docs/contacts/<author>.md. "
@@ -262,8 +423,14 @@ def _dispatch(name: str, args: dict) -> str:
         return _tool_contacts(args.get("project", ""))
     if name == "get_project_status":
         return _tool_project_status(args.get("name", ""))
+    if name == "bm25_search":
+        return _tool_bm25_search(args.get("query", ""), args.get("top_k", 6))
     if name == "run_improve":
         return _tool_run_improve(args.get("script", ""), args.get("dry_run", True))
+    if name == "run_recipe":
+        return _tool_run_recipe(args.get("name", ""), args.get("dry_run", True))
+    if name == "list_recipes":
+        return _tool_list_recipes(args.get("find", ""))
     if name == "get_health":
         return _tool_health()
     if name == "list_scripts":
@@ -385,6 +552,66 @@ def _tool_project_status(name: str) -> str:
             break
 
     return "\n".join(lines_out) if len(lines_out) > 1 else f"Проект «{name}» не найден в базе."
+
+
+def _tool_bm25_search(query: str, top_k: int) -> str:
+    if not query:
+        return "Укажите поисковый запрос."
+    passages = _load_passages()
+    if not passages:
+        return ("passages.json не найден. Запустите:\n"
+                "  python scripts/improve_passage_retrieval.py --index")
+    results = _bm25_search(query, top_k)
+    if not results:
+        return f"Ничего не найдено по BM25 для: «{query}»"
+    lines = [f"BM25-поиск «{query}» — топ {len(results)} абзацев:\n"]
+    for i, r in enumerate(results, 1):
+        fname = r["file"]
+        short = "/".join(fname.split("/")[-2:]) if "/" in fname else fname
+        text  = r.get("text", "").replace("\n", " ").strip()
+        snippet = (text[:150] + "…") if len(text) > 150 else text
+        lines.append(f"**{i}. [{r['score']:.2f}]** `{short}`\n> {snippet}\n")
+    return "\n".join(lines)
+
+
+def _tool_run_recipe(name: str, dry_run: bool) -> str:
+    if not name:
+        return "Укажите имя рецепта. Список: list_recipes()"
+    recipe_script = SCRIPTS / "improve_recipe.py"
+    if not recipe_script.exists():
+        return "improve_recipe.py не найден."
+    cmd = [sys.executable, str(recipe_script), "--run", name]
+    if dry_run:
+        cmd.append("--dry-run")
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True,
+                                cwd=str(ROOT), timeout=300)
+        output = result.stdout[-4000:] if result.stdout else ""
+        errors = result.stderr[-500:] if result.stderr else ""
+        status = "✅" if result.returncode == 0 else "⚠"
+        mode   = "[dry-run]" if dry_run else "[запущен]"
+        return f"{status} Рецепт «{name}» {mode}\n\n{output}\n{errors}".strip()
+    except subprocess.TimeoutExpired:
+        return f"⏱ Рецепт «{name}» превысил таймаут 300с"
+    except Exception as e:
+        return f"❌ Ошибка: {e}"
+
+
+def _tool_list_recipes(find: str = "") -> str:
+    recipe_script = SCRIPTS / "improve_recipe.py"
+    if not recipe_script.exists():
+        return "improve_recipe.py не найден."
+    cmd = [sys.executable, str(recipe_script)]
+    if find:
+        cmd += ["--find", find]
+    else:
+        cmd += ["--list"]
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True,
+                                cwd=str(ROOT), timeout=10)
+        return result.stdout or result.stderr or "Нет рецептов."
+    except Exception as e:
+        return f"❌ Ошибка: {e}"
 
 
 def _tool_run_improve(script: str, dry_run: bool) -> str:

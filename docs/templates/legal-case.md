@@ -12,6 +12,26 @@ tags: [legal, case]
 
 # Юридический кейс: [Aktenzeichen]
 
+<!-- summary -->
+> `legal-case` — раздел документации проекта Lorenzo.
+
+
+<!-- toc-auto -->
+## Содержание
+
+- [Идентификация](#идентификация)
+- [Стороны](#стороны)
+- [Хронология](#хронология)
+- [Предмет спора](#предмет-спора)
+- [Аргументы](#аргументы)
+- [Прецеденты](#прецеденты)
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 <!-- summary: О чём кейс в 1-2 предложениях -->
 <!-- tags: legal, case -->
 
@@ -92,6 +112,36 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
-- [`docs/svyazi-2-0/components/legal-rag.md`](...)
-- [decision-record](docs/templates/decision-record.md)
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template legal-case --output docs/new-doc.md
+```
+
+## Смотрите также
+- `docs/svyazi-2-0/components/legal-[rag.md`](...)
+- [decision-record](decision-record.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [legal-case](../obsidian/templates/legal-case.md) (сходство 0.93)
+- [meeting-notes](meeting-notes.md) (сходство 0.23)
+- [meeting-notes](../obsidian/templates/meeting-notes.md) (сходство 0.22)
+

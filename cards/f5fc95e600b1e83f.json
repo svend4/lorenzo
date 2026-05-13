@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:f5fc95e600b1e83f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/clusters/06-engineering-design-product.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/13-communications.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/09-product-management-support-ops.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/16-people.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/04-security.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6543d1da8a4498f0",
+  "payload": {
+    "title": "Engineering & Design - Product — 22 роли",
+    "summary": "Продуктовая инженерия: Software Engineer (Full-stack, Backend, Platform, UI, iOS, Android, Desktop), Staff+ уровни, Product Designer Claude Code, Prompt Engineer, Model Quality Engineer, API (Senior Staff), Billing Platform, Cybersecurity Products, Auth & Identity. Это ваши коллеги по стеку Managed ",
+    "body": "engineering design product роли источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также communications communications product management support ops product management support ops people people security security",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 109,
+    "path": "docs/anthropic-vacancies/clusters/06-engineering-design-product.md"
+  }
+}

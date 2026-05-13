@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:8fbe0a55b187b992",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CHANGELOG.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:9035becc84983946",
+  "payload": {
+    "title": "CHANGELOG",
+    "summary": "Статистика: 🔧 chore: 41 | ✨ feat: 30 | 📝 docs: 14 | ⚡ improve: 14 | 🐛 fix: 4",
+    "body": "changelog всего коммитов статистика chore feat docs improve fix semantic коммитов обслуживание hybrid коммитов обслуживание regenerate auto exports after sprint regenerate auto exports after sprint regenerate auto exports after sprint extend gitignore regenerate badges exports after sprint regenerate badges auto exports after sprint regenerate export artifacts report csv rss atom html bbad ignore auto generated exports and runtime caches regenerate validation after rebase sync progress https claude code session bfhh pxjw rvvliw sync progress bef https claude code session bfhh pxjw rvvliw audit driven extraction major missing substantive content fedc after audit source dialogs against extracted content major синхронизировать сгенерированные отчёты docs обновление всех авто генерируемых файлов после запуска extract nautilus portal protocol draft earlier version docs nautilus npp new files extract nautilus camel analysis and habr extra examples docs anthropic vacancies nautilus camel new files extract hermes agent comparison and prioritization docs anthropic vacancies hermes comparison new files sync progress after content scripts commit afe https claude code session bfhh pxjw rvvliw extract managed virtual company and mmorpg for programmers analyses docs anthropic vacancies managed virtual company new files extract anthropic outreach concept collaborator findings reading paths docs anthropic vacancies beneficial deployments concept new files extract lorenzo specification questions and phased deployment fee the same anthropic vacancies dialog contained more substantive extract three phase review methodology and operationalized lorenzo docs nautilus review methodology new extract lorenzo agent prompt and more dhlab papers the same mhtml dialog anthropic vacancies contained even more sync progress after nlpplus scripts commit https claude code session bfhh pxjw rvvliw extract nautilus portal protocol rfc and companion papers cbe the anthropic vacancies dialog drifted into substantial nautilus add profile mapping glossary source projects index bcfc docs anthropic vacancies profile mapping sync contradictions background task output https claude code session bfhh pxjw rvvliw sync contradictions after contradiction check fix ffed https claude code session bfhh pxjw rvvliw update mcp json description wording https claude code session jszdgmkgh elh hrluv sync progress after deeptext scripts commit https claude code session bfhh pxjw rvvliw extract mhtml content into topic docs continuation the monorepo split parsed each mhtml snapshot and sync progress after session bfdbd https claude code session bfhh pxjw rvvliw sync generated docs contacts health metrics auto updated improve scripts during session add claude requirements txt claude settings json cfdcd claude project context loaded automatically claude code each session commit readme with svg badges from batch https claude code session jszdgmkgh elh hrluv add gitignore for python cache files https claude code session jszdgmkgh elh hrluv add extract mhtml and ignore pycache https claude code session jszdgmkgh elh hrluv organize repo monorepo with topic split docs ddac make repo monorepo package json workspaces pnpm workspace yaml add files via upload initial commit dba документация auto update via improve run all skip auto update via improve run all skip auto update via improve run all skip auto update via improve run all skip auto update via improve run all skip auto update via improve run all skip auto update via improve run all skip fdd auto update via improve run all skip auto update via improve run all skip auto update via improve run all skip dfc auto update via improve run all skip auto update via improve run all skip sync progress https claude code session bfhh pxjw rvvliw sync progress after adding new scripts https claude code session bfhh pxjw rvvliw новые функции sprint rag pipeline jobs queue knowledge graph sprint rag end end sprint embeddings cache skill testing release engineering bad sprint persistent embeddings cache sprint mcp изация новых слоёв plugin system web ingest sprint mcp изация sprint workflow observability embeddings sprint workflow observability sprint bot aware exclusions distribution web dashboard sprint bot aware system sprint skills mcp server ingestion plugins sprint agentic skills layer sprint миграции мета скилы workflow runner registry docs toolkit vendoring sprint операционализация sprint roadmap templates skills plugins manifest engine sprint универсальный слой новых скрипта cross section digest auto export report improve cross section группа analytics применить auto linker gap filler всей базе знаний практические улучшения контента improve reading list список чтения теме новый скрипт для создания персонализированных списков чтения ещё скрипта применить toc абстракты всей базе знаний новые скрипты группа content nlpplus add component matrix kpi history tracker fix run all coverage improve component matrix compatibility matrix memory search добавить скриптов группы nlpplus расширенный nlp анализ bcc новые скрипты add risk register auto changelog master index fix run all missing scripts improve risk register curated risks extracted from docs add tech radar onboarding guide dependency map meta group run all ddee improve tech radar tech positions across adopt trial assess hold add autonomous watcher ступень workflow llm section summaries ступень improve watcher add claude weekly digest script enrich group run all dbced claude project guide for claude structure key docs",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improve",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 1560,
+    "path": "docs/obsidian/CHANGELOG.md"
+  }
+}

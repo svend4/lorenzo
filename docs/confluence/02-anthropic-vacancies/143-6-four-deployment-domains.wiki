@@ -82,7 +82,7 @@ with Double-Triangle if anonymization pipeline operates correctly.
 h3. 6.2. Project Management Domain
 
 _Participants._ Software engineers, product managers, designers, 
-[DevOps|../docs/05-habr-projects/memory/memnet.md] engineers, QA engineers.
+[DevOps|../05-habr-projects/memory/memnet.md] engineers, QA engineers.
 
 _Lower triangle contents._ Assistants specialized for:
 * Code generation and review (Copilot, Cursor, Claude Code)
@@ -98,7 +98,7 @@ _Pattern library examples._ Agile methodologies, CI/CD
 patterns, deployment playbooks, incident postmortems (anonymized), 
 architecture decision records.
 
-_Existing partial implementations._ Jira AI, Linear AI, [GitHub|../docs/01-svyazi/03-component-catalog.md] 
+_Existing partial implementations._ Jira AI, Linear AI, [GitHub|../01-svyazi/03-component-catalog.md] 
 Projects automation — all provide fragments of this architecture 
 but lack Protocol 3.
 
@@ -163,7 +163,7 @@ exist.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [158-4-proposed-infrastructure|158-4-proposed-infrastructure.md] (сходство 0.18)
 * [145-8-call-to-action|145-8-call-to-action.md] (сходство 0.17)
 * [164-10-appendices|164-10-appendices.md] (сходство 0.15)
@@ -173,7 +173,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Four Deployment Domains"
+{code}
+
+h2. Смотрите также
 * [158-4-proposed-infrastructure|158-4-proposed-infrastructure.md]
 * [145-8-call-to-action|145-8-call-to-action.md]
 * [164-10-appendices|164-10-appendices.md]
@@ -215,3 +221,19 @@ h2. Связанные документы
 * [9. Integration with OKWF Infrastructure|262-9-integration-with-okwf-infrastructure.md] _21%_
 * [THE DOUBLE-TRIANGLE ARCHITECTURE.md|134-the-double-triangle-architecture-md.md] _18%_
 * [Abstract|136-abstract.md] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [134-the-double-triangle-architecture-md|134-the-double-triangle-architecture-md.md]
+* [136-abstract|136-abstract.md]
+* [142-5-pattern-library-as-bridge-between-triangles|142-5-pattern-library-as-bridge-between-triangles.md]
+* [144-7-open-questions|144-7-open-questions.md]
+* [145-8-call-to-action|145-8-call-to-action.md]
+* [148-appendix-a-glossary|148-appendix-a-glossary.md]
+* [164-10-appendices|164-10-appendices.md]
+* [218-7-application-domains|218-7-application-domains.md]
+* _...ещё 3_
+

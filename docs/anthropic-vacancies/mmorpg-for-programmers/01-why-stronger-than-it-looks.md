@@ -1,10 +1,26 @@
 # Почему эта идея сильнее, чем выглядит
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +43,32 @@
 
 ---
 
-**Смотрите также:**
-- [02-existing-niche](docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md)
-- [00-question-mmorpg-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md)
-- [04-pluses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
-- [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Почему эта идея сильнее чем выглядит"
+```
+
+## Смотрите также
+- [02-existing-niche](02-existing-niche.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [04-pluses-as-business](04-pluses-as-business.md)
+- [05-minuses-as-business](05-minuses-as-business.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [02-existing-niche](02-existing-niche.md)
+- [05-minuses-as-business](05-minuses-as-business.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -39,7 +76,7 @@
 ---
 
 **Похожие документы:**
-- [02-existing-niche](docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md) (сходство 0.14)
-- [00-question-mmorpg-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) (сходство 0.13)
-- [04-pluses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md) (сходство 0.10)
+- [01-why-stronger-than-it-looks](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) (сходство 0.99)
+- [02-existing-niche](02-existing-niche.md) (сходство 0.18)
+- [02-existing-niche](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md) (сходство 0.18)
 

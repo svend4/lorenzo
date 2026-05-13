@@ -1,10 +1,25 @@
 # For the Curious: Philosophy
 
+<!-- toc-auto -->
+## Contents
+
+- [For the Curious: Philosophy](#for-the-curious-philosophy)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Q6-гиперкуб выбран не случайно. Он одновременно:
 
 ---
 <!-- tags: architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -21,12 +36,12 @@ Q6-гиперкуб выбран не случайно. Он одновреме�
    1) даёт естественный routing в MoE-архитектурах
 
 Это пример **reuse существующих онтологий** вместо изобретения 
-новых. Вместо строить собственную таксономию с нуля, `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` 
+новых. Вместо строить собственную таксономию с нуля, `[pro2](01-интегральный-анализ-профиля-svend4.md)` 
 использует 3000-летнюю, с адаптацией под современные задачи.
 
 ---
 
-*Passport version: 1.0 · Protocol: [NPP v1.0](../PORTAL-PROTOCOL.md) · 
+*Passport version: 1.0 · Protocol: [NPP v1.0](03-portal-protocol-md.md) · 
 Last updated: 2026-04*
 ```
 ---
@@ -36,7 +51,7 @@ Last updated: 2026-04*
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md) (сходство 0.12)
 
 
@@ -44,7 +59,13 @@ Last updated: 2026-04*
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "For the Curious Philosophy"
+```
+
+## Смотрите также
 - [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [47-native-format](47-native-format.md)
@@ -84,3 +105,19 @@ Last updated: 2026-04*
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _25%_
 - [Native Format](37-native-format.md) _25%_
 - [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [190-содержание](190-содержание.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [37-native-format](37-native-format.md)
+- [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md)
+- _...ещё 3_
+

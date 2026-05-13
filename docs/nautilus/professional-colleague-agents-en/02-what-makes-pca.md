@@ -1,11 +1,20 @@
 # 2. What Makes a Professional Colleague Agent
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [2. What Makes a Professional Colleague Agent](#2-what-makes-a-professional-colleague-agent)
@@ -154,11 +163,33 @@ to discuss work with."
 
 ---
 
-**Смотрите также:**
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
-- [09-relationship-other-agents](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
-- [03-empirical-case-obuchay](docs/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 What Makes a Professional Colleague"
+```
+
+## Смотрите также
+- [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
+- [03-empirical-case-obuchay](03-empirical-case-obuchay.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [03-empirical-case-obuchay](03-empirical-case-obuchay.md)
+- [04-architecture](04-architecture.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -166,7 +197,7 @@ to discuss work with."
 ---
 
 **Похожие документы:**
-- [213-2-what-makes-a-professional-colleague-agent](docs/obsidian/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.87)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.84)
-- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md) (сходство 0.21)
+- [02-what-makes-pca](../../obsidian/nautilus/professional-colleague-agents-en/02-what-makes-pca.md) (сходство 0.99)
+- [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.84)
+- [213-2-what-makes-a-professional-colleague-agent](../../obsidian/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.84)
 

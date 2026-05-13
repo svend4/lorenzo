@@ -13,6 +13,21 @@ tags: [pair, синергия, habr]
 
 # Tech Pair: [A] × [B]
 
+<!-- summary -->
+> `tech-pair` — раздел документации проекта Lorenzo.
+
+
+<!-- toc-auto -->
+## Содержание
+
+- [Основной раздел](#основной-раздел)
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 
 <!-- summary: Какая синергия от объединения A и B -->
 <!-- tags: pair, синергия, habr -->
@@ -109,6 +124,32 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [mega-stack](docs/templates/mega-stack.md)
+## Смотрите также
+- [ensemble](ensemble.md)
+- [mega-stack](mega-stack.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [project-component](project-component.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [tech-pair](../obsidian/templates/tech-pair.md) (сходство 0.91)
+- [tech-radar-entry](tech-radar-entry.md) (сходство 0.27)
+- [mega-stack](mega-stack.md) (сходство 0.27)
+

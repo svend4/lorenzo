@@ -15,9 +15,10 @@ improve_template_integrity.py — проверка целостности шаб
   - title в frontmatter совпадает с # заголовком (если есть)
 
 Запуск:
-    python scripts/improve_template_integrity.py            # отчёт
+    python scripts/improve_template_integrity.py            # отчёт (безопасно)
+    python scripts/improve_template_integrity.py --dry-run  # то же самое, явный dry-run
     python scripts/improve_template_integrity.py --strict   # exit 1 при проблемах
-    python scripts/improve_template_integrity.py --fix      # удаляет загрязнения
+    python scripts/improve_template_integrity.py --fix      # удаляет загрязнения (применяет)
 """
 import re
 import sys
@@ -111,6 +112,7 @@ def main():
     args = sys.argv[1:]
     strict = '--strict' in args
     fix = '--fix' in args
+    dry_run = '--dry-run' in args or not fix  # default behaviour is already read-only
 
     if not TEMPLATES.exists():
         print(f"❌ {TEMPLATES} не найден")
@@ -143,6 +145,10 @@ def main():
                     f.write_text(new_text, encoding='utf-8')
                     print(f"   → {n} удалений")
                     fixed_files += 1
+            elif dry_run:
+                new_text, n = clean_pollutions(text)
+                if n > 0:
+                    print(f"   [dry-run] можно удалить {n} загрязнений (запустите --fix)")
 
     if total_files_polluted == 0:
         print(f"✓ Все {len(files)} шаблонов чисты")
@@ -160,3 +166,6 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+
+if __name__ == "__main__":
+    main()

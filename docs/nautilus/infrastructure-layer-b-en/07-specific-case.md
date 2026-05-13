@@ -1,11 +1,20 @@
 # The Specific Case in Front of Us
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [The Specific Case in Front of Us](#the-specific-case-in-front-of-us)
@@ -111,11 +120,33 @@ infrastructure.
 
 ---
 
-**Смотрите также:**
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Specific Case in Front of Us"
+```
+
+## Смотрите также
+- [280-the-specific-case-in-front-of-us](../../02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [06-existing-approximations](06-existing-approximations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [11-practical-recommendations](11-practical-recommendations.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -123,7 +154,7 @@ infrastructure.
 ---
 
 **Похожие документы:**
-- [280-the-specific-case-in-front-of-us](docs/obsidian/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.85)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.81)
-- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md) (сходство 0.24)
+- [07-specific-case](../../obsidian/nautilus/infrastructure-layer-b-en/07-specific-case.md) (сходство 0.99)
+- [280-the-specific-case-in-front-of-us](../../02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.81)
+- [280-the-specific-case-in-front-of-us](../../obsidian/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.81)
 

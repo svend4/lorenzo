@@ -13,14 +13,6 @@ tags: [контакты, команда]
 ---
 # Контакт: kksudo / AgentFS
 
-<!-- summary -->
-> - [Статус связи](#статус-связи)
-**Проекты:** Svyazi, AgentFS
-
----
-
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -28,6 +20,26 @@ tags: [контакты, команда]
 - [Статус связи](#статус-связи)
 - [Первое сообщение](#первое-сообщение)
 - [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+> - [Статус связи](#статус-связи)
+**Проекты:** Svyazi, AgentFS
+
+---
+
 
 
 <!-- summary: Шаблон для связи с автором AgentFS -->
@@ -78,19 +90,29 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.71)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.70)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.70)
+## Похожие документы
+- [vladspace](vladspace.md) (сходство 0.71)
+- [zodigancode](zodigancode.md) (сходство 0.70)
+- [tagir-analyzes](tagir-analyzes.md) (сходство 0.70)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
+## Смотрите также
+- [tagir-analyzes](tagir-analyzes.md)
+- [vladspace](vladspace.md)
+- [cutcode](cutcode.md)
+- [zodigancode](zodigancode.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
 

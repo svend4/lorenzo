@@ -1,11 +1,28 @@
 # Комбинация 10: Legal Document Intelligence Pipeline
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex
 
 ---
 <!-- tags: rag, knowledge, ingestion, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -48,19 +65,38 @@ ROI: 10 sec queries vs 2 hour manual search
 
 ---
 
-**Смотрите также:**
-- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
-- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 10 Legal Document"
+```
+
+## Смотрите также
+- [04-sozialrecht-domain](../../03-technology-combinations/04-sozialrecht-domain.md)
+- 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- [13-legal-document-transpiler](13-legal-document-transpiler.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [04-sozialrecht-domain](docs/obsidian/03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.58)
-- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.54)
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md) (сходство 0.39)
+- [10-legal-document-intelligence-pipeline](../../obsidian/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.96)
+- [04-sozialrecht-domain](../../obsidian/03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.49)
+- [04-sozialrecht-domain](../../03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.48)
 

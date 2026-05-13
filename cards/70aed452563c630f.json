@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:70aed452563c630f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:ad12821bd1813b2f",
+  "payload": {
+    "title": "Более сильные пути вне Anthropic",
+    "summary": "Research fellowship с independent affiliation. Alan Turing Institute (UK), DFKI Saarbrücken или Berlin (DE), Fraunhofer IAO (Stuttgart), Max Planck Institute for Software Systems (Saarbrücken/Kaiserslautern), Mozilla Foundation AI fellowship, Open Society Foundations Disability Rights Fellowship, Ro",
+    "body": "более сильные пути вне anthropic источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также non anthropic paths reanalysis non anthropic paths revised anthropic mapping reanalysis revised anthropic mapping reality check distribution gap reanalysis reality check distribution gap partial fit honesty partial fit honesty",
+    "tags": [
+      "rag",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 448,
+    "path": "docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md"
+  }
+}

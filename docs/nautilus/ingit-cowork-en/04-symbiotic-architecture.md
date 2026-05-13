@@ -1,11 +1,20 @@
 # 4. The Symbiotic Architecture
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
@@ -148,11 +157,24 @@ state. Cowork memory is convenience, not authority.
 
 ---
 
-**Смотрите также:**
-- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
-- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
-- [311-3-what-ingit-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+## Смотрите также
+- [312-4-the-symbiotic-architecture](../../02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
+- 03-[ingit-provides](03-ingit-provides.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [311-3-what-ingit-provides-that-cowork-lacks](../../02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-ingit-provides](03-ingit-provides.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -160,7 +182,7 @@ state. Cowork memory is convenience, not authority.
 ---
 
 **Похожие документы:**
-- [312-4-the-symbiotic-architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.86)
-- [312-4-the-symbiotic-architecture](docs/obsidian/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.83)
-- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md) (сходство 0.23)
+- [04-symbiotic-architecture](../../obsidian/nautilus/ingit-cowork-en/04-symbiotic-architecture.md) (сходство 0.98)
+- [312-4-the-symbiotic-architecture](../../02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.85)
+- [312-4-the-symbiotic-architecture](../../obsidian/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.84)
 

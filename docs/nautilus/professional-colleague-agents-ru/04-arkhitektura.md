@@ -1,11 +1,20 @@
 # 4. Архитектура Профессиональных Коллег-Агентов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Профессиональные Коллеги-Агенты (RU)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [4. Архитектура Профессиональных Коллег-Агентов](#4-архитектура-профессиональных-коллег-агентов)
@@ -214,11 +223,31 @@ PDF/DOCX в других). Медицинские записи должны
 
 ---
 
-**Смотрите также:**
-- [235-4-архитектура-профессиональных-коллег-агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
-- [05-ekonomika](docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md)
-- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
-- [06-riski](docs/nautilus/professional-colleague-agents-ru/06-riski.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Архитектура Профессиональных Коллег"
+```
+
+## Смотрите также
+- [235-4-архитектура-профессиональных-коллег-агентов](../../02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
+- [05-ekonomika](05-ekonomika.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [06-riski](06-riski.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-ekonomika](05-ekonomika.md)
+- [06-riski](06-riski.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -226,7 +255,7 @@ PDF/DOCX в других). Медицинские записи должны
 ---
 
 **Похожие документы:**
-- [235-4-архитектура-профессиональных-коллег-агентов](docs/obsidian/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) (сходство 0.88)
-- [235-4-архитектура-профессиональных-коллег-агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) (сходство 0.88)
-- [05-ekonomika](docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md) (сходство 0.13)
+- [04-arkhitektura](../../obsidian/nautilus/professional-colleague-agents-ru/04-arkhitektura.md) (сходство 0.99)
+- [235-4-архитектура-профессиональных-коллег-агентов](../../obsidian/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) (сходство 0.86)
+- [235-4-архитектура-профессиональных-коллег-агентов](../../02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) (сходство 0.86)
 

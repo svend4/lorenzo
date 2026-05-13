@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:6633164e9da0dc2b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/11-legal.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:0d40331d97b5d632",
+  "payload": {
+    "title": "Уникальная ниша, которой у Anthropic формально нет",
+    "summary": "Ваш самый сильный, но и самый неочевидный паттерн — это AI Legal Infrastructure для публичных систем Европы. Пересечение: SGB-экспертиза × агентные архитектуры × RAG с ontological grounding × EMEA-регуляторика × multilingual deployment. У Anthropic сейчас открыт Product Counsel (Claude Platform) и с",
+    "body": "уникальная ниша которой anthropic формально нет источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также legal clusters legal quaternary developer education quaternary developer education secondary beneficial deployments secondary beneficial deployments not applicable roles not applicable roles",
+    "tags": [
+      "rag",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 177,
+    "path": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md"
+  }
+}

@@ -50,7 +50,7 @@ h2. Содержание
   * [6. Что это меняет в PORTAL-PROTOCOL|#6-что-это-меняет-в-portal-protocol]
   * [7. Application к вашим реальным кейсам|#7-application-к-вашим-реальным-кейсам]
   * [8. Коммерческая перспектива|#8-коммерческая-перспектива]
-  * [9. Практический roadmap для humanities-extension Nautilus|#9-практический-roadmap-для-humanities-extension-[nautilus](../docs/05-habr-projects/memory/memnet.md])
+  * [9. Практический roadmap для humanities-extension Nautilus|#9-практический-roadmap-для-humanities-extension-nautilus]
   * [10. Конкретный следующий шаг, если заинтересовало|#10-конкретный-следующий-шаг-если-заинтересовало]
   * [Короткий ответ|#короткий-ответ]
   * [Что именно анонимизировать: немецкий стандарт|#что-именно-анонимизировать-немецкий-стандарт]
@@ -81,8 +81,8 @@ h2. Содержание
   * [Что я могу сделать дальше|#что-я-могу-сделать-дальше]
   * [Главный инсайт вашей формулировки|#главный-инсайт-вашей-формулировки]
   * [Почему это фундаментальное отличие от существующих моделей|#почему-это-фундаментальное-отличие-от-существующих-моделей]
-  * [Формализация звезды Давида в терминах Nautilus|#формализация-звезды-давида-в-терминах-[nautilus](../docs/05-habr-projects/memory/memnet.md])
-  * [Как Nautilus уже обслуживает эту архитектуру|#как-[nautilus](../docs/05-habr-projects/memory/memnet.md]-уже-обслуживает-эту-архитектуру)
+  * [Формализация звезды Давида в терминах Nautilus|#формализация-звезды-давида-в-терминах-nautilus]
+  * [Как Nautilus уже обслуживает эту архитектуру|#как-nautilus-уже-обслуживает-эту-архитектуру]
   * [Шесть архитектурных следствий вашей звезды Давида|#шесть-архитектурных-следствий-вашей-звезды-давида]
   * [Связь с pattern library architecture|#связь-с-pattern-library-architecture]
   * [Что это значит для направлений проекта|#что-это-значит-для-направлений-проекта]
@@ -598,11 +598,11 @@ json
   "mcpServers": {
     "[[memnet|nautilus]]-legal-public": {
       "command": "python3",
-      "args": ["/path/to/nautilus-legal/legal-portal-mcp.py"]
+      "args": "/path/to/nautilus-legal/legal-portal-[mcp.py"]
     },
     "cases-private": {
       "command": "python3",
-      "args": ["/path/to/cases-private/private-mcp.py"],
+      "args": "/path/to/cases-private/private-[mcp.py"],
       "env": {
         "PRIVATE_ACCESS_TOKEN": "<your token>",
         "ENCRYPTION_KEY": "<your key>"
@@ -1188,7 +1188,7 @@ Blog post series может начинаться с:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[ACTION_ITEMS]] (сходство 0.16)
 - [[150-appendix-c-version-history]] (сходство 0.15)
 - [[272-appendix-d-connection-diagram]] (сходство 0.14)
@@ -1198,7 +1198,7 @@ Blog post series может начинаться с:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[ACTION_ITEMS]]
 - [[150-appendix-c-version-history]]
 - [[272-appendix-d-connection-diagram]]
@@ -1221,3 +1221,17 @@ Blog post series может начинаться с:
 ## Связанные документы
 
 - [[148-appendix-a-glossary|Appendix A: Glossary]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [[02-общий-план-развития-nautilus-portal-protocol]]
+- [[148-appendix-a-glossary]]
+- [[150-appendix-c-version-history]]
+- [[165-closing]]
+- [[207-приложение-c-образцы-случаев-использования-в-детал]]
+- [[272-appendix-d-connection-diagram]]
+- [[README]]
+

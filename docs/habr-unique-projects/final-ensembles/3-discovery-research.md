@@ -1,11 +1,27 @@
 # Ансамбль 3 — «Discovery-engine для научной работы»
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** AutoResearch
 
 ---
 <!-- tags: knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +44,35 @@ transcription → entity extraction → vault wikilinks;
 
 ---
 
-**Смотрите также:**
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
-- [2-autoresearch-legal](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md)
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
-- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 3 Discovery engine для научной"
+```
+
+## Смотрите также
+- [1-one-person-one-company](1-one-person-one-company.md)
+- [2-autoresearch-legal](2-autoresearch-legal.md)
+- [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md)
+- [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md)
+- [7-autoresearch-distributed](../deep-pairs/7-autoresearch-distributed.md)
+- [1-one-person-one-company](1-one-person-one-company.md)
+- _...ещё 5_
 
 
 <!-- similar-docs -->
@@ -40,7 +80,7 @@ transcription → entity extraction → vault wikilinks;
 ---
 
 **Похожие документы:**
-- [2-autoresearch-legal](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md) (сходство 0.27)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md) (сходство 0.27)
-- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.20)
+- [3-discovery-research](../../obsidian/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.95)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.46)
+- [12-technical-program-management](../../anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.45)
 

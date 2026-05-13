@@ -1,11 +1,27 @@
 # Пара 2 — Парсинг документов × локальный RAG
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Hybrid RAG
 
 ---
 <!-- tags: rag, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +44,33 @@ Local RAG за вечер (https://habr.com/ru/articles/955798/) — 5 open-sour
 
 ---
 
-**Смотрите также:**
-- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
-- [2-pkm-mcp-skills](docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md)
-- [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 2 Парсинг документов локальный RAG"
+```
+
+## Смотрите также
+- 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+- [5-voice-local-memory](5-voice-local-memory.md)
+- 2-pkm-[mcp-skills](../software-pairs/2-pkm-mcp-skills.md)
+- 1-[llm-gateway](1-llm-gateway.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [5-voice-local-memory](5-voice-local-memory.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -40,7 +78,7 @@ Local RAG за вечер (https://habr.com/ru/articles/955798/) — 5 open-sour
 ---
 
 **Похожие документы:**
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.18)
-- [2-pkm-mcp-skills](docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md) (сходство 0.17)
-- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md) (сходство 0.16)
+- [2-document-rag](../../obsidian/habr-unique-projects/deep-pairs/2-document-rag.md) (сходство 0.96)
+- [5-voice-local-memory](5-voice-local-memory.md) (сходство 0.23)
+- [5-voice-local-memory](../../obsidian/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.22)
 

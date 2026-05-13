@@ -12,18 +12,37 @@ date: 2026-05-13
 ## Contents
 
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [[memnet|A.1. Minimal [nautilus]].json](#a1-minimal-nautilusjson)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > "adapter": "adapters/my_notes.py",
 
 ---
 <!-- tags: ingestion -->
-
-
 
 
 ## Appendix A: Minimal Working Example
@@ -95,7 +114,7 @@ class MyNotesAdapter(BaseAdapter):
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[98-appendix-a-minimal-working-example]] (сходство 0.44)
 - [[03-portal-protocol-md]] (сходство 0.18)
 - [[123-portal-mcp-py]] (сходство 0.17)
@@ -105,9 +124,26 @@ class MyNotesAdapter(BaseAdapter):
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[98-appendix-a-minimal-working-example]]
 - [[123-portal-mcp-py]]
 - [[03-portal-protocol-md]]
 - [[105-review-methodology-md]]
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (31)
+- [[03-portal-protocol-md]]
+- [[04-abstract]]
+- [[09-4-passport-passport-md]]
+- [[103-appendix-b-change-log]]
+- [[104-appendix-c-references]]
+- [[105-review-methodology-md]]
+- [[122-глоссарий]]
+- [[123-portal-mcp-py]]
+- _...ещё 23_
+
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

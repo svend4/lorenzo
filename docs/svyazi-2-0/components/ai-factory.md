@@ -1,6 +1,25 @@
 # AI Factory + AIF Handoff
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **Источник:** Хабр + GitHub citeturn20view3turn29search0turn29search9
 **Проекты:** Svyazi, AI Factory
 
@@ -32,19 +51,37 @@ Spec‑driven многоагентный development‑framework и автоно
 
 ---
 
-**Смотрите также:**
-- [rufler](docs/svyazi-2-0/components/rufler.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
-- [memnet](docs/svyazi-2-0/components/memnet.md)
-- [mclaude](docs/svyazi-2-0/components/mclaude.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Factory AIF Handoff"
+```
+
+## Смотрите также
+- [rufler](rufler.md)
+- [yodoca](yodoca.md)
+- [memnet](memnet.md)
+- [mclaude](mclaude.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов.
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [rufler](docs/svyazi-2-0/components/rufler.md) (сходство 0.38)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md) (сходство 0.37)
-- [mclaude](docs/svyazi-2-0/components/mclaude.md) (сходство 0.35)
+- [ai-factory](../../obsidian/svyazi-2-0/components/ai-factory.md) (сходство 0.98)
+- [rufler](rufler.md) (сходство 0.64)
+- [rufler](../../obsidian/svyazi-2-0/components/rufler.md) (сходство 0.63)
 

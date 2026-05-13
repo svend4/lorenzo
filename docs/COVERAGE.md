@@ -1,6 +1,17 @@
 # Матрица покрытия документов
 
-_Обновлено: 2026-04-29_
+> [!NOTE]
+> Раздел `COVERAGE` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: coverage, docs -->
+
+
+<!-- summary -->
+> `COVERAGE` — раздел документации проекта Lorenzo.
+
+
+_Обновлено: 2026-05-13_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -8,20 +19,13 @@ _Обновлено: 2026-04-29_
 
 | Секция | Файлов | Summary | Теги | TOC | CrossRefs | Статус | Backlinks |
 |--------|--------|---------|------|-----|-----------|--------|-----------|
-| `01-svyazi` | 14 | 🟢 14/14 | 🟢 14/14 | 🔴 3/14 | 🟢 12/14 | 🔴 0/14 | 🔴 1/14 |
-| `02-anthropic-vacancies` | 355 | 🟢 355/355 | 🟢 355/355 | 🟡 206/355 | 🟢 354/355 | 🔴 0/355 | 🟡 210/355 |
-| `03-technology-combinations` | 5 | 🟢 5/5 | 🟢 5/5 | 🔴 2/5 | 🟢 5/5 | 🔴 0/5 | 🟡 3/5 |
-| `04-ai-collaborations` | 15 | 🟢 15/15 | 🟢 15/15 | 🔴 0/15 | 🟢 15/15 | 🟢 15/15 | 🔴 0/15 |
-| `05-habr-projects` | 6 | 🟢 6/6 | 🟢 6/6 | 🔴 1/6 | 🟢 6/6 | 🟢 6/6 | 🟡 3/6 |
+| `01-svyazi` | 14 | 🟢 14/14 | 🟢 14/14 | 🟢 14/14 | 🟢 13/14 | 🔴 0/14 | 🟢 14/14 |
+| `02-anthropic-vacancies` | 355 | 🟢 355/355 | 🟢 355/355 | 🟢 355/355 | 🟢 355/355 | 🔴 0/355 | 🟢 355/355 |
+| `03-technology-combinations` | 5 | 🟢 5/5 | 🟢 5/5 | 🟢 5/5 | 🟢 5/5 | 🔴 0/5 | 🟢 5/5 |
+| `04-ai-collaborations` | 15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 |
+| `05-habr-projects` | 12 | 🟢 12/12 | 🟢 12/12 | 🟢 12/12 | 🟡 6/12 | 🟢 12/12 | 🟢 12/12 |
 
-## Файлы с низким покрытием (< 3 признаков) — 2 файлов
-
-| Файл | Слов | Summary | Теги | TOC | CrossRefs | ## Статус | Backlinks |
-|------|------| ---|---|---|---|---|--- |
-| `docs/01-svyazi/00-intro-part2.md` | 21 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
-| `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 28 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
-
-## Полное покрытие — 16 файлов
+## Полное покрытие — 21 файлов
 
 - ✅ `docs/04-ai-collaborations/00-intro.md`
 - ✅ `docs/04-ai-collaborations/01-executive-summary.md`
@@ -33,7 +37,7 @@ _Обновлено: 2026-04-29_
 - ✅ `docs/04-ai-collaborations/07-выводы.md`
 - ✅ `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
 - ✅ `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md`
-- _...и ещё 6_
+- _...и ещё 11_
 
 ## Рекомендуемые действия
 
@@ -49,3 +53,34 @@ python scripts/improve_backlinks.py
 # Заполнить блок ## Статус в проектных файлах
 python scripts/improve_autofill.py
 ```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [HEATMAP](HEATMAP.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SUMMARIES](SUMMARIES.md)
+- [STALENESS](STALENESS.md)
+- [SCORING](SCORING.md)
+- [SCHEDULE](SCHEDULE.md)
+

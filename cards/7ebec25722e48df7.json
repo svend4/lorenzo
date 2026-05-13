@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:7ebec25722e48df7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:2d90208fd53322f6",
+  "payload": {
+    "title": "Сводка профиля: пять слоёв",
+    "summary": "Ваш корпус работ — это не «разработчик» и не «исследователь» в чистом виде. Это гибрид из пяти слоёв, которые редко встречаются вместе в одном человеке:",
+    "body": "сводка профиля пять слоёв источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также quaternary developer education quaternary developer education practical ranking practical ranking three archetypes integral final three archetypes primary fde primary fde",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 319,
+    "path": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md"
+  }
+}

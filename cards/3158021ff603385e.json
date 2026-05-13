@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:3158021ff603385e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/npp-v1-0/13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/10-query-result.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/15-glossary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:288583db9cb069c3",
+  "payload": {
+    "title": "Appendix B: Change Log",
+    "summary": "",
+    "body": "appendix change log источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol draft rfc более ранняя версия end nautilus portal protocol draft смотрите также reference implementation reference implementation query result query result question habr link community discussions habr article reaction question habr link glossary glossary",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 95,
+    "path": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md"
+  }
+}

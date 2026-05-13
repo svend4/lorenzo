@@ -1,5 +1,23 @@
 # Переприоритизация: что Hermes покрывает / не покрывает / synergy
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -152,11 +170,30 @@ https://github.com/camel-ai/camel сравнить этого Агента ну�
 
 ---
 
-**Смотрите также:**
-- [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
-- [12-minuses-of-hermes](docs/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md)
-- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Переприоритизация что Hermes покрывает"
+```
+
+## Смотрите также
+- [02-what-info-repos-contain](../nautilus-vs-camel/02-what-info-repos-contain.md)
+- 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- [12-minuses-of-hermes](12-minuses-of-hermes.md)
+- [10-strategic-positioning](../../nautilus/ingit-cowork-en/10-strategic-positioning.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [02-what-info-repos-contain](../nautilus-vs-camel/02-what-info-repos-contain.md)
 
 
 <!-- similar-docs -->
@@ -164,7 +201,7 @@ https://github.com/camel-ai/camel сравнить этого Агента ну�
 ---
 
 **Похожие документы:**
-- [02-what-info-repos-contain](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) (сходство 0.17)
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.16)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.16)
+- [13-reprioritization](../../obsidian/anthropic-vacancies/hermes-comparison/13-reprioritization.md) (сходство 0.99)
+- [08-implications-nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.18)
+- [04-what-to-take-from-info-repos](../nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.18)
 

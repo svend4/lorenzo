@@ -9,7 +9,30 @@ date: 2026-05-13
 
 # AI Support Through Configurable Specialist Ensembles
 
+<!-- toc-auto -->
+## Contents
+
+- [AI Support Through Configurable Specialist Ensembles](#ai-support-through-configurable-specialist-ensembles)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (16)](#кто-ссылается-на-этот-документ-16)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > - Professional Colleague Agents v1.0
 
 ---
@@ -40,7 +63,7 @@ date: 2026-05-13
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.70)
 - [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.62)
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.42)
@@ -50,11 +73,17 @@ date: 2026-05-13
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Support Through Configurable"
+```
+
+## Смотрите также
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[167-ai-mediated-representation-for-underrepresented-ex]]
 - [[274-the-missing-middle-layer-between-chat-and-code]]
-- [[306-with-anthropic-s-cowork-platform]]
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 
 <!-- backlinks-auto -->
 ## Упоминается в
@@ -103,3 +132,19 @@ date: 2026-05-13
 - [[146-acknowledgments|Acknowledgments]] _37%_
 - [[182-acknowledgments|Acknowledgments]] _37%_
 - [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _37%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+- [[137-table-of-contents]]
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[182-acknowledgments]]
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[224-acknowledgments]]
+- _...ещё 8_
+

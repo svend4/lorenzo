@@ -9,10 +9,14 @@ date: 2026-05-13
 
 # 6. Governance and Ethics
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [6. Governance and Ethics](#6-governance-and-ethics)
   - [6.1. Governance Structure](#61-governance-structure)
   - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
@@ -24,6 +28,10 @@ date: 2026-05-13
 
 <!-- tags: roadmap, anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -32,17 +40,6 @@ date: 2026-05-13
 > 🔧 **Подход:** Disability rights (all jurisdictions): Infrastructure explicitly designed for accessibility.
 > 🏷️ **Ключевые слова:** `contributor`, `foundation`, `governance`, `commitment`, `anthropic`, `vacancies`, `ethical`, `compliance`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [6. Governance and Ethics](#6-governance-and-ethics)
-  - [6.1. Governance Structure](#61-governance-structure)
-  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
-  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
-  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
-  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
 
 
 <!-- summary -->
@@ -157,7 +154,7 @@ Foundation will not:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[158-4-proposed-infrastructure]] (сходство 0.14)
 - [[164-10-appendices]] (сходство 0.11)
 - [[163-9-call-for-partnership]] (сходство 0.11)
@@ -167,9 +164,25 @@ Foundation will not:
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Governance and Ethics"
+```
+
+## Смотрите также
 - [[158-4-proposed-infrastructure]]
 - [[164-10-appendices]]
 - [[163-9-call-for-partnership]]
 - [[161-7-phased-rollout-plan]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[161-7-phased-rollout-plan]]
+- [[164-10-appendices]]
+- [[README]]
 

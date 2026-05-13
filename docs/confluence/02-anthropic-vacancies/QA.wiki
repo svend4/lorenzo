@@ -5,6 +5,19 @@
 
 h1. Q&A: 02-anthropic-vacancies
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{QA}} — раздел документации проекта Lorenzo.{quote}
+
+
 _Автоматически сгенерировано по 355 файлам раздела._
 
 h2. Какие 5 архитектурных зазоров выделены в исследовании?
@@ -14,6 +27,14 @@ h2. Какие 5 архитектурных зазоров выделены в �
 h2. Что входит в интеграционный контракт между слоями?
 
 Упоминаются: _card envelope_, _evidence envelope_, _memory write_, _skill policy_, _review record_
+
+h2. Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: _research_, _gtm_, _trust & safety_, _inference_, _product_
+
+h2. Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: _forward deployed_, _research engineer_, _developer community_
 
 h2. Какие кластеры найма выделены у Anthropic?
 
@@ -98,3 +119,30 @@ h2. Что такое knowledge-space и для кого он предназна
 h2. Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}
+
+h2. Смотрите также
+* [Главная|../README.md]
+* [Метрики|../METRICS.md]
+* [Здоровье|../HEALTH.md]
+* [Глоссарий|../GLOSSARY.md]
+* [Сущности|../ENTITIES.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (6):_
+* [README|README.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+

@@ -266,13 +266,21 @@ def main() -> None:
             sec = _section_of(f)
             label = SECTION_LABELS.get(sec, sec)
             fname = f.split("/")[-1]
-            lines.append(f"- [`{fname}`]({f}) — `{label}`")
+            rel = f[len("docs/"):] if f.startswith("docs/") else None
+            if rel:
+                lines.append(f"- [`{fname}`]({rel}) — `{label}`")
+            else:
+                lines.append(f"- `{fname}` — `{label}`")
 
     if file_stats["modified"]:
         lines += ["\n## Изменённые файлы\n"]
         for f in file_stats["modified"][:15]:
             fname = f.split("/")[-1]
-            lines.append(f"- [`{fname}`]({f})")
+            rel = f[len("docs/"):] if f.startswith("docs/") else None
+            if rel:
+                lines.append(f"- [`{fname}`]({rel})")
+            else:
+                lines.append(f"- `{fname}`")
 
     if top_added:
         lines += ["\n## Ключевые слова изменений\n",

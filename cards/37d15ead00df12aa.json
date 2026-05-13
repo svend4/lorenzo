@@ -1,0 +1,34 @@
+{
+  "card_id": "sha256:37d15ead00df12aa",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/READING_TIME.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:3d3d093f694fc4cf",
+  "payload": {
+    "title": "Время чтения документов",
+    "summary": "Документов: **1668** | Слов всего: **1,206,612** | Время чтения всей базы: **100ч 10мин**",
+    "body": "время чтения документов обновлено документов слов всего время чтения всей базы мин скорость слов мин слов мин все документы файл время слов категория docs tables мин очень долго docs obsidian tables мин очень долго docs obsidian outline мин очень долго docs outline мин очень долго docs anthropic vacancies интегральный анализ профиля svend мин очень долго docs obsidian anthropic vacancies интегральный анализ профиля svend мин очень долго docs concepts мин очень долго docs processing guide processing guide мин очень долго docs obsidian code blocks мин очень долго docs obsidian paragraph quality мин очень долго docs code blocks мин очень долго docs collaborations intro мин очень долго docs obsidian collaborations intro мин очень долго docs obsidian questions мин очень долго docs anthropic vacancies что такое вариант concept document для anthropic мин очень долго docs obsidian anthropic vacancies что такое вариант concept document для anthropic мин очень долго docs anthropic vacancies intro мин очень долго docs paragraph quality мин очень долго docs obsidian anthropic vacancies intro мин очень долго docs obsidian concepts мин очень долго docs empty sections мин очень долго docs heading audit мин очень долго docs nautilus community discussions agent changes reality response мин очень долго docs sitemap мин очень долго docs habr projects memory memnet мин очень долго docs obsidian habr projects memory memnet мин очень долго docs anthropic vacancies closing мин очень долго docs obsidian anthropic vacancies closing мин очень долго docs action items мин очень долго docs obsidian action items мин очень долго docs anthropic vacancies обратная связь мин очень долго docs scripts catalog мин очень долго docs obsidian anthropic vacancies обратная связь мин очень долго docs anthropic vacancies lorenzo catalyst agent глубокая проработка специфи мин очень долго docs obsidian anthropic vacancies lorenzo catalyst agent глубокая проработка специфи мин очень долго docs anthropic vacancies appendix version history мин очень долго docs anthropic vacancies приложение образец спецификаций инструментов ing мин очень долго docs obsidian anthropic vacancies appendix version history мин очень долго docs obsidian anthropic vacancies приложение образец спецификаций инструментов ing мин очень долго docs reading order мин очень долго docs obsidian sitemap мин очень долго docs nautilus representative agent layer zaklyuchenie мин очень долго docs anthropic vacancies развёрнутый анализ внуковой комбинации мин очень долго docs summaries мин очень долго docs readability мин очень долго docs anthropic vacancies appendix connection diagram мин очень долго docs obsidian anthropic vacancies развёрнутый анализ внуковой комбинации мин очень долго docs obsidian anthropic vacancies appendix connection diagram мин очень долго docs anthropic vacancies приложение архитектура быстрого старта для sgb мин очень долго docs obsidian anthropic vacancies приложение архитектура быстрого старта для sgb мин очень долго docs collaborations ограничения лицензии что пока лучше склеивать мин долго docs obsidian collaborations ограничения лицензии что пока лучше склеивать мин долго docs anthropic vacancies общий план развития nautilus portal protocol мин долго docs anthropic vacancies section мин долго docs anthropic vacancies readme мин долго docs obsidian reading order мин долго docs obsidian anthropic vacancies section мин долго docs obsidian anthropic vacancies общий план развития nautilus portal protocol мин долго docs anthropic vacancies приложение образцы случаев использования детал мин долго docs nautilus innovation transitions question innovations transitions мин долго docs obsidian anthropic vacancies приложение образцы случаев использования детал мин долго docs nautilus transmission box completing loop мин долго docs nautilus community discussions habr article reaction response мин долго docs processing guide future мин долго docs obsidian anthropic vacancies readme мин долго docs nautilus supply demand three related themes мин долго docs processing guide analysis мин долго docs nautilus multi tier architecture strategic significance мин долго docs obsidian duplicates мин долго docs nautilus community discussions habr article reaction claude response мин долго docs nautilus community discussions voiceless contributors response мин долго docs nautilus innovation transitions response мин долго docs anthropic vacancies приложение визуализация позиции серии мин долго docs nautilus representative agent layer closing мин долго docs lorenzo agent scenarios response мин долго docs obsidian anthropic vacancies приложение визуализация позиции серии мин долго docs version diff мин долго docs anthropic vacancies appendix sample use cases detail мин долго docs anthropic vacancies appendix quick start architecture for sgb advoca мин долго docs processing guide chunking мин долго docs obsidian anthropic vacancies appendix sample use cases detail мин долго docs processing guide structuring мин долго docs processing guide search мин долго docs obsidian anthropic vacancies appendix quick start architecture for sgb advoca мин долго docs glossary components name мин долго docs changelog мин долго docs methodology мин долго docs questions мин средне docs processing guide export мин долго docs мин средне docs nautilus community discussions practical observations response мин средне docs processing guide automation мин средне docs anthropic vacancies десять областей применения мин средне docs svyazi ensembles overview мин средне docs decisions мин средне docs processing guide llm мин средне docs obsidian svyazi ensembles overview мин средне docs obsidian decisions мин средне docs obsidian",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 18537,
+    "path": "docs/READING_TIME.md"
+  }
+}

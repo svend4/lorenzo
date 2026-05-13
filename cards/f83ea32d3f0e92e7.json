@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:f83ea32d3f0e92e7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:1e449be5b8d446ab",
+  "payload": {
+    "title": "5. Связь с существующими методологиями",
+    "summary": "Теоретическим прародителем является **N-version programming**",
+    "body": "связь существующими методологиями warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений абстракт авто проблема связь существующими методологиями contents подход новое данной методологии новое данной методологии теоретическим прародителем является version programming ключевые слова version programming связь существующими методологиями reviews ensembles отличия contents связь существующими методологиями связь существующими методологиями version programming version programming paired reviews academia paired reviews academia consensus ensembles consensus ensembles red team blue team red team blue team новое данной методологии новое данной методологии теоретическим прародителем является version programming смотрите также ограничения открытые вопросы ограничения открытые вопросы похожие документы ограничения открытые вопросы ограничения открытые вопросы сходство контекст мотивация контекст мотивация сходство реализация проекте nautilus реализация проекте nautilus сходство",
+    "tags": [
+      "memory",
+      "rag"
+    ],
+    "projects": [],
+    "wc": 389,
+    "path": "docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md"
+  }
+}

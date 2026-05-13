@@ -1,193 +1,189 @@
 ---
 title: "CHANGELOG"
 tags:
+  - changelog
+  - docs
   - general
 date: 2026-05-13
 ---
 
 # CHANGELOG
 
-Всего коммитов: **89**  
-Статистика: 🔧 chore: 36 | ✨ feat: 23 | ⚡ improve: 14 | 📝 docs: 9 | 🐛 fix: 7
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: changelog, docs -->
 
 
-## 2026-04-29 (88 коммитов)
+<!-- summary -->
+> `CHANGELOG` — раздел документации проекта Lorenzo.
+
+
+Всего коммитов: **56**  
+Статистика: 🧪 test: 34 | 🐛 fix: 10 | 🔧 chore: 7 | 🤖 ci: 4 | ✨ feat: 1
+
+
+## 2026-05-13 (6 коммитов)
 
 ### 🔧 Обслуживание
 
-- синхронизировать docs после обновления корпуса _7c83cefc_
-  > Авто-сгенерированные изменения после расширения корпуса
-- обновить KNOWLEDGE_MAP.md (1162 файла, 911K слов) _e335cb8f_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- sync PROGRESS.md _78e6481d_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- sync PROGRESS.md _d4d34b4a_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- sync PROGRESS.md _2a9e9403_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- sync PROGRESS.md _fc65bef5_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- Audit-driven extraction of major missing substantive content _fedc045a_
-  > After audit of source dialogs against extracted content, 12 major
-- refresh executive report _12dea45c_
-  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
-- sync CONTRADICTIONS.md (background task output) _89d3e8fb_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- sync CONTRADICTIONS.md after contradiction_check fix _6b81ffed_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- update mcp.json description wording _4e52a185_
-  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
-- sync PROGRESS.md after deeptext scripts commit _1d552d4e_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- Extract MHTML content into topic docs _4b567b23_
-  > Continuation of the monorepo split: parsed each MHTML snapshot and
-- sync PROGRESS.md after session _53bfdbd8_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- sync generated docs (CONTACTS, HEALTH, METRICS) _5571b369_
-  > Auto-updated by improve_* scripts during session.
-- add CLAUDE.md, requirements.txt, .claude/settings.json _cfdcd4e8_
-  > CLAUDE.md: project context loaded automatically by Claude Code each session
-- commit README.md with SVG badges from batch 13 _be9de469_
-  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
-- add .gitignore for Python cache files _7658df5b_
-  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
-- add extract_mhtml.py and ignore pycache _ff8a8161_
-  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
-- Organize repo as monorepo with topic-split docs _d5ddac56_
-  > - Make repo a monorepo (package.json workspaces, pnpm-workspace.yaml,
-- Add files via upload _183c4e9f_
-- Initial commit _6c49dba6_
-### 📝 Документация
-
-- auto-update metrics [skip ci] _94be1ad1_
-- auto-update via improve_run_all [skip ci] _ba78ff20_
-- auto-update via improve_run_all [skip ci] _f63f1a9f_
-- auto-update via improve_run_all [skip ci] _039a4a2a_
-- auto-update via improve_run_all [skip ci] _dfc530a0_
-- auto-update via improve_run_all [skip ci] _f73c58f7_
-- auto-update via improve_run_all [skip ci] _8e689b3d_
-- sync PROGRESS.md _4e217f2b_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- sync PROGRESS.md after adding 16 new scripts _4d237951_
-  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- update catalog — precision_eval now in quality group _5a593f4a_
+  > https://claude.ai/code/session_0152UNJd7SaxP8QSDGZZaFH7
+- bump version to 0.2.0 _83859499_
+  > Promotes unreleased features to 0.2.0:
+- update generated docs artifacts from local script runs _158b1749_
+  > https://claude.ai/code/session_0152UNJd7SaxP8QSDGZZaFH7
 ### ✨ Новые функции
 
-- Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph _d3dd0884_
-  > Sprint 24 — RAG end-to-end
-- Sprint 21-23 — embeddings cache, skill testing, release engineering _11d7bad1_
-  > Sprint 21 — Persistent embeddings cache
-- Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest _89f9dc93_
-  > Sprint 18 — MCP-изация
-- Sprint 15-17 — workflow v2, observability, embeddings, i18n _2265a4db_
-  > Sprint 15 — workflow & observability
-- Sprint 12-14 — bot-aware exclusions, distribution, web dashboard _1bf14810_
-  > Sprint 12 — bot-aware system
-- Sprint 9-11 — skills MCP server, ingestion plugins, CI/CD _22c4cf8d_
-  > Sprint 9 — agentic skills layer
-- Sprint 6-8 — миграции, мета-скилы, workflow-runner, registry, docs-toolkit vendoring _589fe47e_
-  > Sprint 6 — операционализация
-- 5-sprint roadmap — templates, skills, plugins + manifest engine _81644487_
-  > Sprint 1 (T1+S1+P1): универсальный слой
-- 3 новых скрипта — cross_section, digest_auto, export_report _cd90a751_
-  > improve_cross_section.py (группа analytics):
-- применить auto-linker + gap-filler ко всей базе знаний _ef99f46a_
-  > Практические улучшения контента:
-- improve_reading_list.py — BM25-список чтения по теме _19398486_
-  > Новый скрипт для создания персонализированных списков чтения:
-- ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний _a8455926_
-  > Новые скрипты (группа content + nlpplus):
-- add component matrix, KPI history tracker, fix run_all coverage _69562b02_
-  > - improve_component_matrix.py: 14×10 compatibility matrix (memory/search/
-- добавить 8 скриптов группы nlpplus — расширенный NLP-анализ _4bcc9739_
-  > Новые скрипты:
-- add risk register, auto-changelog, master index; fix run_all missing scripts _59617c5d_
-  > - improve_risk_register.py: 10 curated risks + 15 extracted from docs,
-- add tech radar, onboarding guide, dependency map, meta group in run_all _4ddee95e_
-  > - improve_tech_radar.py: 22 tech positions across ADOPT/TRIAL/ASSESS/HOLD
-- add autonomous watcher (Ступень 6), CI workflow, LLM section summaries _1f3fe74a_
-  > Ступень 6 — improve_watcher.py:
-- add CLAUDE.md, weekly digest script, enrich group in run_all _469dbced_
-  > - CLAUDE.md: project guide for Claude — structure, key docs, all 5 tiers,
-- add LLM integration (Ступень 3), skills (Ступень 4), MCP server (Ступень 5) _00a25f78_
-  > Ступень 3 — Claude API scripts:
-- добавить 12 скриптов глубокой обработки текста (группа deeptext) _6cbd49c7_
-  > Batch 1 — структура и навигация:
-- add 9 text-processing scripts (textwork group) for large-scale knowledge management _bfe2bdda_
-  > New scripts in group textwork (92 total, 12 groups):
-- add 16 new improve_* scripts across quality/export/cicd/analytics groups _f8464fe2_
-  > Quality/validation:
-- 13 улучшений — search fix, parallel/report/only, watch, priority, bulk, coverage, staleness, autofix, qa history, llm contact, benchmark _3d29c06c_
-  > Инфраструктура:
-- 4 улучшения — кэш QA, --save, dedup с текстом дублей, --only, MCP contact status _77613be2_
-  > improve_llm_qa.py:
-- 4 улучшения — contact_status CLI, --changed флаг, нормализация поискового индекса, post-commit хук _58003258_
-  > - improve_contact_status.py: CLI для обновления статуса контактов без редактирования файла
-- add improve skill — universal improvement workflow for Lorenzo _6e576a81_
-  > .claude/skills/improve.md — 370 lines, 6 decision branches:
-- implement 3 improvements + fix question truncation _a32f556b_
-  > 1. improve_llm_enrich.py — add --file and --force flags
-- implement stages 0-5 of the script→skill→plugin hierarchy _612e585b_
-  > Stage 0 — utils_chunker.py: chunking utilities for large texts
-- add improve_autofill.py — fills templates from existing script outputs _d946c3b3_
-  > - Creates docs/contacts/ with 14 contact-outreach.md files (one per author)
-- organize docs into monorepo structure with topic-based subfolders _d49a1f0f_
-  > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
+- add improve_precision_eval.py to quality group in run_all _72b9d4b9_
+  > Retrieval Hit Rate@K evaluation should run alongside other quality checks
 ### 🐛 Исправления
 
-- восстановить 24 файла повреждённых GitHub Actions ботом _643d52de_
-  > Бот (improve_run_all --fast --group reports) на чистом CI-сервере
-- остановить деструктивные авто-обновления от GitHub Actions бота _ee0b767e_
-  > Проблема: бот запускал improve_run_all.py --fast --group reports на чистом
-- fix crosslink root cause (relative paths), map all 125 scripts in dependency map _ed3fa81f_
-  > - Fixed improve_crosslink_all.py: links now use os.path.relpath() instead of
-- fix 8607 broken internal links, improve health score formula _52179ba5_
-  > - Fixed 8607 broken links (absolute → relative paths via improve_broken_links --fix)
-- fix update-docs CI job failures _42f561dd_
-  > Three issues fixed:
-- исправить ошибки в deeptext скриптах, добавить выходные файлы _4755dd94_
-  > Исправления в improve_contradiction_check.py:
-- search engine bug — 356/460 docs had empty 'content' field _f873e5fc_
-  > search_index.json uses two field names depending on improve_search_index.py
-### ⚡ Улучшения
+- suppress PytestCollectionWarning for TestResult dataclass _d655c2aa_
+  > pytest tried to collect TestResult as a test class because its name starts
+- exclude catalog files from backlink injection to keep catalog-fresh CI green _7c934060_
+  > SCRIPTS_CATALOG.md, REGISTRY.md, and TASKS_INDEX.md are fully regenerated
 
-- batch 13 — badges, FAQ, schedule, cost estimate, footnotes _7aee1dba_
-  > - improve_badges.py: docs/badges/ — 7 SVG badges inserted into README.md
-- batch 12 — digest, progress, see-also, scoring, word cloud _04a64831_
-  > - improve_digest.py: DIGEST.md — 15 commits history, 17 new files in last 3 commits
-- batch 11 — orphans, alerts, metrics, index update, master runner _a48150bf_
-  > - improve_orphans.py: ORPHANS.md — 0 isolated files (all 400 docs linked)
-- batch 10 — backlinks, heatmap, templates, validation, executive report _a25efe45_
-  > - improve_backlinks.py: BACKLINKS.md — 405 files mapped, reverse link index
-- batch 9 — abbreviations, sentiment, narrative, JSON export, network _873b8c58_
-  > - improve_abbreviations.py: ABBREVIATIONS.md — 83 abbreviations (21 known + 62 auto)
-- batch 8 — stats, similar docs, questions, KPI, sitemap _ff8fe0fa_
-  > - improve_stats.py: STATS.md — 436 files, 356,902 words across 6 sections
-- batch 7 — compare, density, complexity, entities, concepts _1c9ceeaa_
-  > - improve_compare.py: COMPARE.md — diff vs prev commit (151 new, 83 changed)
-- batch 6 — autocorrect, TOC, tables/code extraction, word freq, health dashboard, reading order, decisions _0952c336_
-  > - improve_autocorrect.py: 125 term replacements across 52 files
-- consistency check, broken links, changelog, CSV export _14f735a7_
-  > - improve_consistency.py: 66 inconsistent term spellings → CONSISTENCY.md
-- action items, gap analysis, clustering, mindmap, HTML export _4e7137c4_
-  > - improve_action_items.py: 490 items (risks, decisions, next steps) → ACTION_ITEMS.md
-- add Q&A sheets, priority ranking, and contacts extraction _e787c21f_
-  > - improve_qa.py: 5 section Q&A files + global QA.md (12 topic templates)
-- add tags, search index, and project relationship graph _b3d7d0bf_
-  > - improve_tags.py: tagged 316 files with 12 topics, 1021 tag entries → TAGS.md
-- add summaries, cross-refs, dedup report, timeline _75f1b3e4_
-  > - improve_summaries.py: added auto-annotations to 376 files
-- verify coverage, merge short files, add READMEs and glossary _91dd9685_
-  > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
-
-##  22 скила  (1 коммитов)
+## 2026-05-12 (50 коммитов)
 
 ### 🔧 Обслуживание
 
-- 9 MCP-серверов (+8) _Итого: 2_
-  > 5 манифестов
+- update generated docs artifacts from local script runs _7b3ddce3_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- update generated docs artifacts from local script runs _ec7795dc_
+  > Auto-generated files updated during local testing (test run output,
+- update generated docs artifacts from local script runs _f090a413_
+  > Auto-generated files updated by improve_textrank.py, improve_backlinks.py,
+- regenerate catalogs to fix CI catalog-fresh check _fb97fe67_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+### 🤖 CI/CD
 
-##  (1 коммитов)
+- retrigger after test fixes (textrank runpy + progress-sync tags) _50c2622c_
+  > Fixes applied in 095d710:
+- retrigger tests after runpy slow-test fixes _6164dc5f_
+  > All 4849 tests pass locally in 4:06 with --timeout=120.
+- add pytest-timeout and capture test output for diagnostics _8af64f0e_
+  > - Add pytest-timeout>=2.3.0 to requirements-test.txt
+- add --tb=short to pytest for better failure diagnostics _d3a371e4_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+### 🐛 Исправления
 
-### 🔧 Обслуживание
+- stub published in milestones test to avoid missing git tags in CI _7876fab3_
+  > Remote repo has no tags; check_published() returns ready=False in CI even
+- fix 3 CI failures from run 25754404920 _095d7105_
+  > 1. test_textrank::test_main_block_via_runpy — timed out with 1235 files.
+- prevent runpy tests from scanning all 2497 real docs files _08689e53_
+  > test_textrank.py::test_main_block_via_runpy and
+- mock subprocess in tests that call long-running scripts _afc39fc3_
+  > test_mcp_watch_server.py::test_tool_trigger_recompute_returns_string was
+- don't re-raise ImportError when streamlit is missing in review_queue.py _2f2c40df_
+  > review_queue.py re-raised ImportError on missing streamlit, causing all
+- raise ImportError instead of sys.exit in improve_ann_index.py _85732f55_
+  > sys.exit(1) raises SystemExit (a BaseException, not Exception), so when
+- add lxml to requirements-test.txt for bs4 parser backend _36adaf29_
+  > extract_mhtml.py uses BeautifulSoup(html, 'lxml') internally. Adding lxml
+- add beautifulsoup4 to requirements-test.txt to fix CI unit test failures _13eafd65_
+  > extract_mhtml.py and verify_coverage.py import beautifulsoup4 at module
+### 🧪 Тесты
 
-- preview _- _doc_t_
+- cover __main__ block (line 136) via runpy _ec6018f8_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add coverage improvements + CI debug output _dfe8f85b_
+  > - test_abstract.py: 88% → 100% (arg parsing, read error, no-problem, no-H1, __main__)
+- boost coverage to 97-100% for 6 more scripts _d7701f57_
+  > - test_auto_linker.py: arg parsing, entity map filtering, exception paths, apply mode
+- boost coverage for 6 more scripts (97-100% each) _291778f3_
+  > - test_alerts.py: added 8 tests covering dry-run, callout insertion, __main__
+- boost coverage to 100% for 17 test modules _6f5d9dcb_
+  > Achieved 100% line coverage for:
+- increase coverage for 8 scripts with targeted new tests _0969df78_
+  > Adds tests for improve_cross_section, improve_crosslink_all,
+- improve_sentiment 65→100%, improve_see_also 63→98% coverage _084534a8_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- improve_summaries/dedup/digest_auto/language_split to 99-100% coverage _84e424aa_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- improve_reading_order 63→100% coverage (23 tests) _c6635c26_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- part4_svyazi 74→97%, utils_docignore 75→100% _67b48847_
+  > part4_svyazi: cover run() function calling process_report for both reports.
+- improve_validate_templates coverage 68→97% (45 tests) _51d8f1f3_
+  > Cover parse_yaml_simple block lists, empty values, _coerce_scalar
+- improve_watcher coverage 97→100% (40 tests) _1852368b_
+  > Cover OSError in init loop (83-84), OSError in poll loop (96-97),
+- improve_watcher coverage 75→97% (39 tests) _868ba803_
+  > Cover handle_change exception branch (67-68), watch_polling loop
+- improve_workflow_v2 coverage 79→99% (50 tests) _a4bfbe8b_
+  > Cover retry backoff (87-89), sequential fail-break (182-183),
+- improve_workflow_run coverage 59→99% (65 tests) _8bd95c8f_
+  > Cover all execute_step operations (read, read_glob, run_script,
+- improve_collab_finder coverage 97→99% (68 tests) _7fc67f44_
+  > Cover dedup replacement (line 305), stub-prefix wc penalty (293),
+- boost coverage for backlinks (74%→99%) and chunk_semantic (72%→99%) _495e7cb3_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for part5-8 and organize_docs (48-62%→90-100%) _1083a622_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for broken_links (71%→96%) _ed67cfed_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for autofill (66%→99%) _ddddc037_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for ann_index (59%→97%) _5e03dd08_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for llm_qa (55%→99%) _2c93eb1c_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for link_preview (56%→91%) _f23b43f2_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for duplicate_across (54%→86%) _05450751_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for watch (41%→86%), benchmark (52%→90%), mcp_test (53%→93%) _2e2ce0d4_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for external_compare (45%→87%), embedding_index (53%→95%), version_diff (53%→90%) _ead46816_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add comprehensive tests for card_index (40%→90%), task_codegen (41%→87%), watcher (44%→75%) _97dd32ad_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add helper tests for workflow_v2 (34% → 79%) _ce011fcb_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add helper tests for collab_finder (35% → 68%) _a415f2e6_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add comprehensive helper tests for improve_recipe.py (34% → 90%) _f0e95be5_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add helper tests for epub, merge_by_topic, search_repl, ann_index _ea8dce7f_
+  > - epub: build_epub success/failure, main() pandoc not found, no files, success/failure
+- add helper tests for benchmark and watcher _db39dd35_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add helper tests for llm_summary, llm_contact, llm_enrich _d0c2f10d_
+  > Covers collect_targets, load_digest, append_to_digest, find_contact_file,
+- add helper tests for template_migrate, external_compare, run_all, llm_qa _dee34e8c_
+  > Covers default_for_type, suggest_migrations, tokens, top_freq, extract_urls,
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_changelog.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [[CHANGELOG_AUTO]]
+- [[DIGEST]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SCRIPT_EVAL_REPORT]]
+- [[SEARCH]]
+- _...ещё 1_
+

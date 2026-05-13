@@ -9,6 +9,21 @@ date: 2026-05-13
 
 # 2. Terminology
 
+<!-- toc-auto -->
+## Contents
+
+- [2. Terminology](#2-terminology)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -19,6 +34,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Ecosystem** — набор репозиториев, участвующих в одной федерации.
 
 ---
@@ -76,7 +95,7 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[77-2-terminology]] (сходство 0.63)
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.16)
 - [[67-о-проекте]] (сходство 0.16)
@@ -86,9 +105,28 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+```
+
+## Смотрите также
 - [[77-2-terminology]]
 - [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [[67-о-проекте]]
 - [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[51-compatibility-level]]
+- [[61-compatibility-level]]
+- [[67-о-проекте]]
+- [[74-abstract]]
+- 91-16-[[91-16-mcp-extension-informative|mcp-extension-informative]]
+- [[README]]
 

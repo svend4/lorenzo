@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:31b38df5cbb9a40a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/16-vsegda-delaesh.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/09-voobshche-nelzya.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/17-honestly-ne-znaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/08-bez-max-approval.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:5cd908fcb9d77880",
+  "payload": {
+    "title": "Что ты ВСЕГДА делаешь",
+    "summary": "",
+    "body": "что всегда делаешь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также что всегда делаешь anthropic vacancies что всегда делаешь voobshche nelzya voobshche nelzya honestly znaesh honestly znaesh bez max approval bez max approval",
+    "tags": [
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 131,
+    "path": "docs/lorenzo-agent/16-vsegda-delaesh.md"
+  }
+}

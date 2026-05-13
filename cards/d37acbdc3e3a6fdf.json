@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:d37acbdc3e3a6fdf",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/225-references.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:631d2edda89fcd8d",
+  "payload": {
+    "title": "References",
+    "summary": "Учитель создал нейросеть для коллег по всей России — и верит,",
+    "body": "references абстракт авто проблема references contents references references primary empirical source primary empirical source companion papers companion papers foundation sources continued from represen подход designing organizations for information rich world ключевые слова references anthropic vacancies professional practice architecture foundation representative contents references references primary empirical source primary empirical source companion papers companion papers foundation sources continued from representative agent layer foundation sources continued from representative agent layer professional practice theory professional practice theory professional practice professional practice related architecture related architecture soldatenko april школах любят страдать references primary empirical source soldatenko april школах любят страдать учитель создал нейросеть для коллег всей россии верит что скоро уроки будет вести fontanka https www fontanka companion papers svend the representative agent layer svend open knowledge work foundation concept document svend the double triangle architecture svend nautilus portal protocol foundation sources continued from representative agent layer akerlof the market for lemons simon designing organizations for information rich world professional practice theory sch the reflective practitioner how professionals think action basic books friedson professionalism the third logic university chicago press abbott the system professions essay the division expert labor university chicago press professional practice susskind susskind the future the professions oxford university press topol deep medicine how artificial intelligence can make healthcare human again basic books related architecture brynjolfsson generative work quarterly journal economics forthcoming похожие документы ссылки сходство references сходство references сходство смотрите также ссылки references support through configurable specialist ensembl references",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 353,
+    "path": "docs/obsidian/02-anthropic-vacancies/225-references.md"
+  }
+}

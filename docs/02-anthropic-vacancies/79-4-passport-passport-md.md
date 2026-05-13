@@ -1,14 +1,5 @@
 # 4. Passport (`passport.md`)
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Passport (passport.md)(4-passport-passportmd) - 4.1.
-> ✅ **Результат:** Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-
-> 🏷️ **Ключевые слова:** `passport`, `registry`, `nautilus`, `anthropic`, `vacancies`, `structure`, `schema`, `passports`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -18,6 +9,22 @@
   - [4.3. Recommended Sections](#43-recommended-sections)
   - [4.4. Schema Validation](#44-schema-validation)
   - [4.5. Naming Convention](#45-naming-convention)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Passport (passport.md)(4-passport-passportmd) - 4.1.
+> ✅ **Результат:** Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-
+> 🏷️ **Ключевые слова:** `passport`, `registry`, `nautilus`, `anthropic`, `vacancies`, `structure`, `schema`, `passports`
+>
 
 
 <!-- summary -->
@@ -80,7 +87,7 @@ Portal SHOULD предоставлять команду валидации:
 - Passport-файлы именуются `passports/<format>.md`, не 
   `passports/<repo-name>.md`
 - Причина: один format может обслуживаться несколькими репо 
-  (например, domain-sub-adapters в рамках [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)), но passport — 
+  (например, domain-sub-adapters в рамках [pro2](01-интегральный-анализ-профиля-svend4.md)), но passport — 
   один на format
 
 ---
@@ -89,19 +96,35 @@ Portal SHOULD предоставлять команду валидации:
 
 ---
 
-**Похожие документы:**
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.24)
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
+## Похожие документы
+- [09-4-passport-passport-md](09-4-passport-passport-md.md) (сходство 0.24)
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+## Смотрите также
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [README](README.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- _...ещё 1_
 

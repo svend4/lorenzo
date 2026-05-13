@@ -1,10 +1,26 @@
 # Federated platform
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 ---
 <!-- tags: ingestion, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -35,11 +51,35 @@ Federation between practitioner deployments (Nautilus)
 
 ---
 
-**Смотрите также:**
-- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
-- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Federated platform"
+```
+
+## Смотрите также
+- [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
+- [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
+- [10-profession-specific-workflows](10-profession-specific-workflows.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-sgb-advocate-colleague-example](../../anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
+- [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- _...ещё 6_
 
 
 <!-- similar-docs -->
@@ -47,7 +87,7 @@ Federation between practitioner deployments (Nautilus)
 ---
 
 **Похожие документы:**
-- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md) (сходство 0.35)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.31)
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.30)
+- [09-federated-platform](../../obsidian/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.95)
+- [06-platform-for-professional-communities](06-platform-for-professional-communities.md) (сходство 0.42)
+- [06-platform-for-professional-communities](../../obsidian/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md) (сходство 0.41)
 

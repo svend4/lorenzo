@@ -1,0 +1,38 @@
+{
+  "card_id": "sha256:267adde1beaa92ea",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/01-svyazi/12-roadmap.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:81d0dcdcdc08b83c",
+  "payload": {
+    "title": "12 roadmap",
+    "summary": "Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить контракт и доказуемость. Вторая — добавить controlled memory и human review. Третья — подключить or",
+    "body": "абстракт авто проблема тут нужно решить прежде всего какая память умнее какая licence policy лучше подходит подход это хорошая новость такую архитектуру можно собрать без огромной команды если самого начала дисциплинировать стыки результат эта фаза даёт уже очень ценный эффект объяснимые suggestions вместо магического мэтчинга ключевые слова итерации svyazi memory дорожная карта first evidence local если идти дальше после базового mvp лучшая стратегия добавить всё пройти три короткие итерации каждая которых поднимает один новый класс свойств первая итерация должна закрепить проекты svyazi svyazi mclaude factory yodoca yodoca ngt ngt memory дорожная карта прототипа следующей итерации если идти дальше после базового mvp лучшая стратегия добавить всё пройти три короткие итерации каждая которых поднимает один новый класс свойств первая итерация должна закрепить контракт доказуемость вторая добавить controlled memory human review третья подключить orchestration local first ingestion такой порядок лучше соответствует зрелости уже найденных компонентов снижает риск что сначала построите красивую агентную фабрику потом обнаружите что утверждения ней невозможно надёжно проверить cite turn view turn view turn view turn view turn view turn view первой итерации разумно сосредоточиться evidence first card graph привести card envelope одному формату внедрить evidence envelope сделать два типа карточек person project плюс episode как сырой контейнер этой фазе память можно держать даже упрощённом режиме без явного evidence слоя дальше лучше идти эта фаза даёт уже очень ценный эффект объяснимые suggestions вместо магического мэтчинга cite turn search turn view turn view turn view второй итерации имеет смысл включить двухуровневую память review queue практике это означает episode store proposal queue approved facts plus decay archival path тут нужно решить прежде всего какая память умнее какая licence policy лучше подходит если нужен максимально permissive понятный старт yodoca style паттерн typed memory выглядят безопаснее если важнее предельно быстрый ассоциативный matching ngt memory выглядит сильнее его bsl bsl режим уже требует аккуратной проверки коммерческих планов это недостаток одного проекта просто лицензионная развилка которую лучше признать заранее cite turn view turn view turn view третьей итерации стоит включать orchestration and federation mclaude или factory moderation build side plus local first voice intake crdt crdt sync для мультидевайсности именно здесь svyazi перестаёт быть одиночным инструментом исследователя становится системой для маленькой команды или сообщества делать это раньше чем специфицированы card evidence memory policies невыгодно рой агентов лишь ускорит накопление неструктурированного долга cite turn view turn view turn view turn search ниже практичная дорожная карта короткий цикл если продолжать уже описанного mvp итерация главная цель минимум который должен заработать оценка усилий главный риск evidence first core любого suggestions можно перейти основанию unified cards page span evidence manual reviewer недели переусложнение схемы слишком рано memory governance ассоциации перестают путаться фактами episode store proposal queue approval decay states недели ложная уверенность умной памяти без жёсткого review agented moderation рой помогает создаёт шум extractor reviewer publisher roles handoff journal недели многоагентный хаос без хороших критериев качества local first ingestion система начинает жить ежедневном потоке voice episode local vault selective sync недели sync конфликты таскание лишних данных наружу self improvement loop ошибки превращаются benchmark patch benchmark set nightly eval rollback policy неделя каркас дальше непрерывно большой соблазн автоматизировать раньше чем появилась метрика эта дорожная карта остаётся реалистичной именно потому что почти каждый слой уже имеет сильный референс найденных источниках самая большая инженерная работа здесь реализация низкоуровневых библиотек проектирование статусов границ ручных переходов это хорошая новость такую архитектуру можно собрать без огромной команды если самого начала дисциплинировать стыки cite turn search turn view turn view turn view turn view turn view похожие документы дорожная карта прототипа следующей итерации сходство intro part limitations limitations сходство выводы сходство смотрите также дорожная карта прототипа следующей итерации intro part limitations limitations выводы intro part conclusions conclusions crdt conflict free replicated data type бесконфликтные данные yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl svyazi главный проект экосистема компонентов bsl business source license коммерческая лицензия открытым кодом",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 732,
+    "path": "docs/obsidian/01-svyazi/12-roadmap.md"
+  }
+}

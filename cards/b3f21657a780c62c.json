@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:b3f21657a780c62c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6ec221e1194cf1cd",
+  "payload": {
+    "title": "Что промышленность вероятно построит",
+    "summary": "Пробел слишком очевиден, чтобы оставаться",
+    "body": "что промышленность вероятно построит warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также что промышленность вероятно построит anthropic vacancies что промышленность вероятно построит priblizheniya priblizheniya zaklyuchenie zaklyuchenie konkretnyy sluchay konkretnyy sluchay",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 284,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md"
+  }
+}

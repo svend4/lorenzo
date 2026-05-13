@@ -1,6 +1,26 @@
 # 5. Compatibility Levels
 
+<!-- toc-auto -->
+## Contents
+
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Queryable](#level-2-queryable)
+  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
@@ -51,12 +71,34 @@ Portal может переводить концепты между Repos чер�
 
 ---
 
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
+_Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-terminology](02-terminology.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [17-5-compatibility-levels](docs/obsidian/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.72)
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.69)
-- [05-compatibility-levels](docs/nautilus/npp-v1-1/05-compatibility-levels.md) (сходство 0.36)
+- [05-compatibility-levels](../../obsidian/nautilus/npp-v1-0/05-compatibility-levels.md) (сходство 0.98)
+- [17-5-compatibility-levels](../../obsidian/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.67)
+- [17-5-compatibility-levels](../../02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.67)
 

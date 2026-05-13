@@ -1,6 +1,26 @@
 # 1. Introduction (Motivation, Design Goals, Non-Goals, Terminology)
 
+<!-- toc-auto -->
+## Contents
+
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
@@ -65,12 +85,30 @@ NPP **не** пытается:
 
 ---
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Introduction Motivation Design Goals"
+```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.82)
-- [06-1-introduction](docs/obsidian/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.79)
-- [01-introduction](docs/nautilus/npp-v1-1/01-introduction.md) (сходство 0.54)
+- [01-introduction](../../obsidian/nautilus/npp-v1-0/01-introduction.md) (сходство 0.99)
+- [06-1-introduction](../../02-anthropic-vacancies/06-1-introduction.md) (сходство 0.80)
+- [06-1-introduction](../../obsidian/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.79)
 

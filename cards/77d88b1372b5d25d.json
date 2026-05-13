@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:77d88b1372b5d25d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/36-essence.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:41ea40bba05415cd",
+  "payload": {
+    "title": "Essence",
+    "summary": "`[[01-интегральный-анализ-профиля-svend4|info1]]` — персональная база методов и инструментов для структурированного",
+    "body": "essence info персональная база методов инструментов для структурированного essence интегральный анализ профиля svend info персональная база методов инструментов для структурированного мышления принятия решений отличие обычных knowledge bases записи здесь организованы темам уровням градациям уверенности абстракции которые позволяют отличать проверенные методы экспериментальных базовые принципы применений репозиторий входит экосистему svend как методологическое измерение отвечает вопрос как это делать отличие интегральный анализ профиля svend pro что это значит meta как это символически устроено похожие документы essence сходство essence сходство angle perspective сходство смотрите также essence angle perspective интегральный анализ профиля svend passports info docs anthropic vacancies passports info интегральный анализ профиля svend passports pro docs anthropic vacancies passports pro",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 139,
+    "path": "docs/obsidian/02-anthropic-vacancies/36-essence.md"
+  }
+}

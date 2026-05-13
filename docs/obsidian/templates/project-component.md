@@ -9,6 +9,11 @@ date: 2026-05-13
 
 # [Название компонента]
 
+> [!NOTE]
+> Раздел `project-component` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
 
@@ -41,15 +46,34 @@ date: 2026-05-13
 - Статус связи: [не писали / написали / ответили]
 
 ---
-_Создано: 2026-04-29_
+_Создано: 2026-05-13_
 
-<!-- see-also -->
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_project_component.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
-- [[contact-outreach]]
-- [[ensemble]]
-- [[vladspace]]
-- [[cutcode]]
+**Кто ссылается на этот документ (9):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[research-summary]]
+- [[README]]
+- [[agent-spec]]
+- [[mega-stack]]
+- _...ещё 1_
 

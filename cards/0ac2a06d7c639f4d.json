@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:0ac2a06d7c639f4d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/review-methodology/12-appendix-a-header-warning.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/15-appendix-c-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:9e0824dc0d3714bd",
+  "payload": {
+    "title": "Appendix A: Шаблон для header warning",
+    "summary": "Готовый копи-паст шаблон для вставки в начало документов в",
+    "body": "appendix шаблон для header warning warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также appendix шаблон для header warning anthropic vacancies appendix шаблон для header warning appendix history appendix history appendix change log npp appendix change log question habr link community discussions habr article reaction question habr link",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 214,
+    "path": "docs/nautilus/review-methodology/12-appendix-a-header-warning.md"
+  }
+}

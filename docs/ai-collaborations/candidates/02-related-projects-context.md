@@ -1,11 +1,27 @@
 # Смежные проекты в контексте
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** Svyazi
 
 ---
 <!-- tags: ingestion, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +43,35 @@
 
 ---
 
-**Смотрите также:**
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
-- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
-- [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Смежные проекты в контексте"
+```
+
+## Смотрите также
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
+- [01-three-key-candidates](01-three-key-candidates.md)
+- [03-synthesis-hebbian-collaboration-graph](03-synthesis-hebbian-collaboration-graph.md)
+- [01-yodoca](../../habr-unique-projects/key-findings/01-yodoca.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-three-key-candidates](01-three-key-candidates.md)
+- [03-synthesis-hebbian-collaboration-graph](03-synthesis-hebbian-collaboration-graph.md)
+- [README](README.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -39,7 +79,7 @@
 ---
 
 **Похожие документы:**
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.60)
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.22)
-- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md) (сходство 0.18)
+- [02-related-projects-context](../../obsidian/ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.96)
+- [02-related-projects](../../obsidian/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.58)
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md) (сходство 0.57)
 

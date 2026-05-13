@@ -10,16 +10,6 @@ date: 2026-05-13
 ---
 
 # 5. Compatibility Levels
-<!-- tags: memory, ingestion, anthropic, collaboration -->
-
-
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Compatibility Levels(5-compatibility-levels) - Level 0 — Discoverable(level-0-discoverable) - Level 1 — Readable(level-1-readable) - Level 2 — Linked(level-2-linked) - Level 3 — In
-> 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `portalentry`, `anthropic`, `vacancies`, `fallback`, `требования`
->
-
 
 <!-- toc-auto -->
 ## Contents
@@ -29,6 +19,29 @@ date: 2026-05-13
   - [Level 1 — Readable](#level-1-readable)
   - [Level 2 — Linked](#level-2-linked)
   - [Level 3 — Interactive](#level-3-interactive)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+<!-- tags: memory, ingestion, anthropic, collaboration -->
+
+
+<!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Compatibility Levels(5-compatibility-levels) - Level 0 — Discoverable(level-0-discoverable) - Level 1 — Readable(level-1-readable) - Level 2 — Linked(level-2-linked) - Level 3 — In
+> 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `portalentry`, `anthropic`, `vacancies`, `fallback`, `требования`
+>
 
 
 <!-- summary -->
@@ -102,7 +115,7 @@ Portal возвращает static entries.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[17-5-compatibility-levels]] (сходство 0.32)
 - [[77-2-terminology]] (сходство 0.12)
 - [[82-7-portalentry-structure]] (сходство 0.12)
@@ -112,9 +125,27 @@ Portal возвращает static entries.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
+```
+
+## Смотрите также
 - [[17-5-compatibility-levels]]
 - [[82-7-portalentry-structure]]
 - [[41-compatibility-level]]
 - [[77-2-terminology]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [[09-4-passport-passport-md]]
+- [[18-6-adapter-interface]]
+- [[41-compatibility-level]]
+- [[51-compatibility-level]]
+- [[README]]
 

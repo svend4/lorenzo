@@ -1,5 +1,10 @@
 # 6. Coordination and Disagreement Resolution
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The composite agent's most subtle function is coordinating
 
 ---
@@ -159,7 +168,7 @@ practice.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
 - [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.14)
 - [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md) (сходство 0.13)
@@ -169,7 +178,13 @@ practice.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Coordination and Disagreement"
+```
+
+## Смотрите также
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
 - [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
 - [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
@@ -211,3 +226,19 @@ practice.
 - [5. Architectural Specification](174-5-architectural-specification.md) _25%_
 - [Table of Contents](211-table-of-contents.md) _25%_
 - [Table of Contents](253-table-of-contents.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- _...ещё 3_
+

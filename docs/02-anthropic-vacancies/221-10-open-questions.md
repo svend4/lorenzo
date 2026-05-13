@@ -1,9 +1,13 @@
 # 10. Open Questions
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [10. Open Questions](#10-open-questions)
   - [10.1. Scope of "Profession"](#101-scope-of-profession)
   - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
@@ -13,26 +17,8 @@
   - [10.6. Transition Costs](#106-transition-costs)
   - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
   - [10.8. Appropriate Resistance](#108-appropriate-resistance)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Scope of "Profession"](#101-scope-of-profession)
-  - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
-  - [10.3. International Variation](#103-international-variation)
-  - [10.4. Update Cadence](#104-update-cadence)
-  - [10.5. Quality Assessment](#105-quality-assessment)
-  - [10.6. Transition Costs](#106-transition-costs)
-  - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
-  - [10.8. Appropriate Resistance](#108-appropriate-resistance)
 
 
 <!-- summary -->
@@ -118,19 +104,41 @@ they shape technical decisions.
 
 ---
 
-**Похожие документы:**
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.12)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.12)
+## Похожие документы
+- [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
+- [179-10-open-questions](179-10-open-questions.md) (сходство 0.12)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
+## Смотрите также
+- [264-11-open-questions](264-11-open-questions.md)
+- [179-10-open-questions](179-10-open-questions.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [223-12-closing](223-12-closing.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [223-12-closing](223-12-closing.md)
+- _...ещё 4_
 

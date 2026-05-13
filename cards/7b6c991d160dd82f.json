@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:7b6c991d160dd82f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/STALENESS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:ec1dfcbc5dde5bdf",
+  "payload": {
+    "title": "Отчёт об устаревших документах",
+    "summary": "python scripts/improve_llm_enrich.py --section 05-habr-projects",
+    "body": "отчёт устаревших документах порог дней обновлено найдено проблем файлов без метаданных нет summary или тегов файлов файл слов проблемы docs svyazi intro part нет summary нет тегов короткий слов docs svyazi нет summary нет тегов docs svyazi readme нет тегов короткий слов docs anthropic vacancies доступ данным нет summary нет тегов короткий слов docs anthropic vacancies почему это валидный паттерн для assisted work нет тегов docs anthropic vacancies appendix история изменений методологии нет тегов короткий слов docs anthropic vacancies appendix domain comparison matrix нет summary нет тегов короткий слов docs anthropic vacancies заключение нет тегов docs anthropic vacancies приложение матрица сравнения областей нет summary нет тегов короткий слов docs anthropic vacancies bridging the gap between profession wide and indiv нет summary нет тегов короткий слов docs anthropic vacancies приложение дерево решений для принимающих ingit нет тегов docs anthropic vacancies твоя миссия нет тегов docs anthropic vacancies твоя коммуникация outreach нет тегов docs anthropic vacancies когда honestly знаешь нет тегов короткий слов docs anthropic vacancies когда сомневаешься escalate max нет тегов короткий слов docs anthropic vacancies нет summary нет тегов docs technology combinations нет summary нет тегов docs technology combinations readme нет тегов короткий слов docs collaborations нет summary нет тегов docs collaborations readme нет summary нет тегов короткий слов короткие слов заготовки файлов файл слов docs anthropic vacancies portal protocol docs anthropic vacancies status this document docs anthropic vacancies review methodology docs anthropic vacancies content overview docs anthropic vacancies главные технические риски docs anthropic vacancies readme mcp инструкция установке docs anthropic vacancies angle perspective docs anthropic vacancies ограничения текущей версии draft docs anthropic vacancies planned docs anthropic vacancies the double triangle architecture docs anthropic vacancies formal model for human collaboration distr docs anthropic vacancies table contents docs anthropic vacancies open knowledge work foundation docs anthropic vacancies coordinated infrastructure for distributed expe docs anthropic vacancies table contents docs anthropic vacancies history docs anthropic vacancies representative agent layer docs anthropic vacancies mediated representation for underrepresented docs anthropic vacancies слой представительских агентов docs anthropic vacancies содержание рекомендуемые действия добавить summary теги файлам без метаданных python scripts improve summaries python scripts improve tags обогатить короткие файлы через llm python scripts improve llm enrich section habr projects",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 407,
+    "path": "docs/obsidian/STALENESS.md"
+  }
+}

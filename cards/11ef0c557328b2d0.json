@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:11ef0c557328b2d0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/307-abstract.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/318-10-strategic-positioning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:a56ebde7d22d9b9c",
+  "payload": {
+    "title": "Abstract",
+    "summary": "Document 2.3 identified Layer B — the missing infrastructure",
+    "body": "abstract содержание abstract abstract упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы abstract document identified layer the missing infrastructure between chat and code repositories fundamental gap collaborative intellectual work the document was theoretical naming the problem without specifying solutions this document written with knowledge the author existing ingit project and anthropic cowork platform launched january proposes specific implementation path argue that ingit and cowork together substantially close the layer gap with neither alone sufficient ingit provides structured workspace substrate file organization yaml metadata git native versioning encryption offline first operation cowork provides agentic intelligence layer persistent memory multi step task execution mcp integration scheduled tasks computer use their integration creates something neither could provide separately structured versioned augmented intellectual workspace propose specific integration paths order accessibility from immediate longer term identify which ingit features matter most when paired with cowork refine the ingit roadmap based this positioning and discuss strategic implications for the broader nautilus okwf project the central insight ingit should not compete with cowork ingit should position the structure layer that cowork needs substrate for sustained organized recoverable shareable collaborative work похожие документы the cowork discovery and why changes everythi the cowork discovery and why changes everythi сходство with anthropic cowork platform with anthropic cowork platform сходство the symbiotic architecture the symbiotic architecture сходство смотрите также the cowork discovery and why changes everythi the cowork discovery and why changes everythi with anthropic cowork platform with anthropic cowork platform the symbiotic architecture the symbiotic architecture table contents table contents упоминается the cowork discovery and why changes everything the cowork discovery and why changes everythi strategic positioning strategic positioning what cowork provides that ingit doesn need build what cowork provides that ingit doesn need the symbiotic architecture the symbiotic architecture practical first steps this month practical first steps this month implications for nautilus and okwf implications for nautilus and okwf practical path layer through symbiotic integration practical path layer through symbiotic inte appendix comparison matrix appendix comparison matrix appendix sample ingit mcp server tool specifications appendix sample ingit mcp server tool specificat what industry will likely build what industry will likely build what this document doesn solve what this document doesn solve вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы вакансии anthropic анализ кластерам readme the cowork discovery and why changes everything the cowork discovery and why changes everythi practical path layer through symbiotic integration practical path layer through symbiotic inte table contents table contents implications for nautilus and okwf implications for nautilus and okwf appendix sample ingit mcp server tool specifications appendix sample ingit mcp server tool specificat кластеры тематически близких файлов clusters карта происхождения текстов source map связанные документы the cowork discovery and why changes everything the cowork discovery and why changes everythi implications for nautilus and okwf implications for nautilus and okwf acknowledgments acknowledgments appendix sample ingit mcp server tool specifications appendix sample ingit mcp server tool specificat abstract abstract practical path layer through symbiotic integration practical path layer through symbiotic inte table contents table contents the symbiotic architecture the symbiotic architecture кто ссылается этот документ abstract abstract what industry will likely build what industry will likely build what this document doesn solve what this document doesn solve practical path layer through symbiotic inte practical path layer through symbiotic inte with anthropic cowork platform with anthropic cowork platform table contents table contents acknowledgments acknowledgments appendix sample ingit mcp server tool specificat appendix sample ingit mcp server tool specificat ещё",
+    "tags": [
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 601,
+    "path": "docs/02-anthropic-vacancies/307-abstract.md"
+  }
+}

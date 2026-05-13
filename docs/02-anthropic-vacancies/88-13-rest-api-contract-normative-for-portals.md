@@ -3,7 +3,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
   - [13.1. Required Endpoints](#131-required-endpoints)
   - [13.2. Recommended Endpoints](#132-recommended-endpoints)
@@ -11,24 +10,8 @@
   - [13.4. CORS](#134-cors)
   - [13.5. OpenAPI Specification](#135-openapi-specification)
   - [13.6. Error Responses](#136-error-responses)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
-  - [13.1. Required Endpoints](#131-required-endpoints)
-  - [13.2. Recommended Endpoints](#132-recommended-endpoints)
-  - [13.3. Response Schemas](#133-response-schemas)
-  - [13.4. CORS](#134-cors)
-  - [13.5. OpenAPI Specification](#135-openapi-specification)
-  - [13.6. Error Responses](#136-error-responses)
 
 
 > [!IMPORTANT]
@@ -170,18 +153,30 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 
 ---
 
-**Похожие документы:**
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md) (сходство 0.12)
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.11)
+## Похожие документы
+- [128-доступные-инструменты](128-доступные-инструменты.md) (сходство 0.12)
+- [90-15-security-considerations](90-15-security-considerations.md) (сходство 0.11)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
+## Смотрите также
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [README](README.md)
 

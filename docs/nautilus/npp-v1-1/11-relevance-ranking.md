@@ -1,6 +1,24 @@
 # 11. Relevance Ranking
 
+<!-- toc-auto -->
+## Contents
+
+- [11. Relevance Ranking](#11-relevance-ranking)
+  - [11.1. Scoring Formula](#111-scoring-formula)
+  - [11.2. MAY Extensions](#112-may-extensions)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -61,11 +79,28 @@ embeddings) могут использоваться, но MUST быть опци
 
 ---
 
-**Смотрите также:**
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [09-consensus-algorithm](docs/nautilus/npp-v1-1/09-consensus-algorithm.md)
-- [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
+## Смотрите также
+- [86-11-relevance-ranking](../../02-anthropic-vacancies/86-11-relevance-ranking.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [09-consensus-algorithm](09-consensus-algorithm.md)
+- [14-sdk](14-sdk.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [CONCEPT_GRAPH](../../CONCEPT_GRAPH.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-consensus-algorithm](09-consensus-algorithm.md)
+- [10-query-flow](10-query-flow.md)
+- [14-sdk](14-sdk.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -73,7 +108,7 @@ embeddings) могут использоваться, но MUST быть опци
 ---
 
 **Похожие документы:**
-- [86-11-relevance-ranking](docs/obsidian/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.58)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.58)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.34)
+- [11-relevance-ranking](../../obsidian/nautilus/npp-v1-1/11-relevance-ranking.md) (сходство 0.97)
+- [86-11-relevance-ranking](../../02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.63)
+- [86-11-relevance-ranking](../../obsidian/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.63)
 

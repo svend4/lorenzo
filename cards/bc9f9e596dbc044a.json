@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:bc9f9e596dbc044a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/STALENESS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:2001ca94cee7b9eb",
+  "payload": {
+    "title": "Отчёт об устаревших документах",
+    "summary": "python scripts/improve_llm_enrich.py --section 05-habr-projects",
+    "body": "отчёт устаревших документах порог дней обновлено найдено проблем файлов без метаданных нет summary или тегов файлов файл слов проблемы docs svyazi intro part нет summary нет тегов короткий слов docs anthropic vacancies bridging the gap between profession wide and indiv нет summary нет тегов короткий слов docs anthropic vacancies твоя коммуникация outreach нет тегов docs mcp dashboard нет summary нет тегов docs collaborations readme нет тегов короткий слов docs collaborations candidates readme нет тегов короткий слов docs collaborations channels readme нет summary нет тегов короткий слов docs collaborations continuation readme нет тегов короткий слов docs collaborations ensembles readme нет тегов короткий слов docs collaborations fast tracks readme нет summary нет тегов docs collaborations strategy readme нет summary нет тегов короткий слов docs anthropic vacancies readme нет тегов короткий слов docs anthropic vacancies managed virtual company readme нет тегов короткий слов docs anthropic vacancies beneficial deployments concept readme нет тегов короткий слов docs anthropic vacancies clusters readme нет тегов короткий слов docs anthropic vacancies extra collaborator findings readme нет тегов короткий слов docs anthropic vacancies hermes comparison readme нет тегов короткий слов docs anthropic vacancies mmorpg for programmers readme нет тегов короткий слов docs anthropic vacancies nautilus pro analysis readme нет тегов короткий слов docs anthropic vacancies nautilus camel readme нет тегов короткий слов короткие слов заготовки файлов файл слов docs skill dashboard docs anthropic vacancies clusters security docs anthropic vacancies clusters marketing brand docs anthropic vacancies clusters engineering design product docs anthropic vacancies clusters software engineering infrastructure docs anthropic vacancies clusters product management support ops docs anthropic vacancies clusters compute docs anthropic vacancies clusters legal docs anthropic vacancies clusters technical program management docs anthropic vacancies clusters communications docs anthropic vacancies clusters public policy docs anthropic vacancies clusters public benefit docs anthropic vacancies clusters people docs lorenzo agent intro docs nautilus community discussions habr article reaction question habr link docs nautilus npp appendix change log docs nautilus review methodology appendix history docs obsidian svyazi intro part docs obsidian anthropic vacancies главные технические риски docs obsidian kpi history рекомендуемые действия добавить summary теги файлам без метаданных python scripts improve summaries python scripts improve tags обогатить короткие файлы через llm python scripts improve llm enrich section habr projects",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 398,
+    "path": "docs/STALENESS.md"
+  }
+}

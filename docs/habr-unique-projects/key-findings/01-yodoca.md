@@ -1,11 +1,28 @@
 # Yodoca — главная находка итерации
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, Yodoca
 
 ---
 <!-- tags: memory, knowledge, ingestion, architecture, roadmap, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +50,28 @@ https://habr.com/ru/articles/1006622/
 
 ---
 
-**Смотрите также:**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Yodoca главная находка итерации"
+```
+
+## Смотрите также
+- [01-synthesis](../../05-habr-projects/01-synthesis.md)
+- [02-memnet](02-memnet.md)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
+- [02-related-projects](../analogues/02-related-projects.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -45,7 +79,7 @@ https://habr.com/ru/articles/1006622/
 ---
 
 **Похожие документы:**
-- [yodoca](docs/05-habr-projects/memory/yodoca.md) (сходство 0.21)
-- [yodoca](docs/obsidian/05-habr-projects/memory/yodoca.md) (сходство 0.21)
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md) (сходство 0.20)
+- [01-yodoca](../../obsidian/habr-unique-projects/key-findings/01-yodoca.md) (сходство 0.97)
+- [yodoca](../../05-habr-projects/memory/yodoca.md) (сходство 0.23)
+- [02-memnet](02-memnet.md) (сходство 0.23)
 

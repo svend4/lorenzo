@@ -156,11 +156,32 @@ Cowork в настоящее время дорог в использовании
 
 ---
 
-**Смотрите также:**
-- [335-9-риски-и-открытые-вопросы](docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)
-- [04-simbioticheskaya-arkhitektura](docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Риски и Открытые Вопросы"
+```
+
+## Смотрите также
+- [335-9-риски-и-открытые-вопросы](../../02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)
+- [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
+- [06-konkretnyy-sluchay](../infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+- [08-promyshlennost-postroit](../infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
+- [08-implikatsii-nautilus-okwf](08-implikatsii-nautilus-okwf.md)
+- [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -168,7 +189,7 @@ Cowork в настоящее время дорог в использовании
 ---
 
 **Похожие документы:**
-- [335-9-риски-и-открытые-вопросы](docs/obsidian/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) (сходство 0.88)
-- [335-9-риски-и-открытые-вопросы](docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) (сходство 0.87)
-- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md) (сходство 0.14)
+- [09-riski-voprosy](../../obsidian/nautilus/ingit-cowork-ru/09-riski-voprosy.md) (сходство 0.98)
+- [335-9-риски-и-открытые-вопросы](../../02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) (сходство 0.85)
+- [335-9-риски-и-открытые-вопросы](../../obsidian/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) (сходство 0.85)
 

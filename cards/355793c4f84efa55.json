@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:355793c4f84efa55",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/WORD_CLOUD.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/CONCEPT_GRAPH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/65-readme-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/INDEX.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:a9731e85b73e8591",
+  "payload": {
+    "title": "Word Cloud",
+    "summary": "Визуализация 80 самых частых слов репозитория.",
+    "body": "word cloud визуализация самых частых слов репозитория проекты svyazi похожие документы concept graph concept graph сходство appendix minimal working example anthropic vacancies appendix minimal working example сходство ingit cowork native workspace substrate anthropic vacancies ingit cowork native workspace substrate сходство смотрите также concept graph concept graph appendix minimal working example anthropic vacancies appendix minimal working example readme anthropic vacancies readme practical path layer through symbiotic inte anthropic vacancies practical path layer through symbiotic inte кто ссылается этот документ ingit cowork native workspace substrate anthropic vacancies ingit cowork native workspace substrate appendix decision tree for ingit adopters anthropic vacancies appendix decision tree for ingit adopters index index llm summaries llm summaries readme readme tables tables",
+    "tags": [
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 234,
+    "path": "docs/WORD_CLOUD.md"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:c3eae96a7bf1c3c0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/specification/00-context-fundamental-questions.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/07-q7-success-metrics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:8d20d66936059238",
+  "payload": {
+    "title": "Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture",
+    "summary": "Du hast gesagt: Direction E: Refine Lorenzo before strategic decisions",
+    "body": "direction refine lorenzo фундаментальные вопросы перед architecture источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин смотрите также other relationships other relationships question habr link nautilus community discussions habr article reaction question habr link success metrics success metrics geographic linguistic scope geographic linguistic scope",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 205,
+    "path": "docs/lorenzo-agent/specification/00-context-fundamental-questions.md"
+  }
+}

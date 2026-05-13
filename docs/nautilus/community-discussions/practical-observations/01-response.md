@@ -1,5 +1,23 @@
 # Claude hat geantwortet: Отличное наблюдение.
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -186,12 +204,42 @@ Peer-to-peer collaboration matching через deep-profile analysis — это 
 
 Спасибо за указание на статью. Это полезная находка, и в концептуально она усиливает все основания для OKWF и for humanities extension Nautilus.
 
+<!-- see-also -->
+
+---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отличное"
+```
+
+## Смотрите также
+- [00-question-practical](00-question-practical.md)
+- [165-closing](../../../02-anthropic-vacancies/165-closing.md)
+- [00-question-voiceless](../voiceless-contributors/00-question-voiceless.md)
+- [01-claude-response](../habr-article-1-reaction/01-claude-response.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [165-closing](docs/obsidian/02-anthropic-vacancies/165-closing.md) (сходство 0.36)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md) (сходство 0.35)
-- [00-question-voiceless](docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md) (сходство 0.14)
+- [01-response](../../../obsidian/nautilus/community-discussions/practical-observations/01-response.md) (сходство 0.99)
+- [00-question-voiceless](../voiceless-contributors/00-question-voiceless.md) (сходство 0.16)
+- [00-question-voiceless](../../../obsidian/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md) (сходство 0.16)
 

@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "AnastasiyaW"
 author_handle: "@AnastasiyaW"
-projects: ["Svyazi", "knowledge-space", "mclaude"]
+projects: [Svyazi, knowledge-space, mclaude]
 platform: GitHub
 status: not_started
 priority: 3
@@ -12,6 +12,18 @@ last_contact: null
 tags: [контакты, команда]
 ---
 # Контакт: AnastasiyaW / knowledge-space, mclaude
+
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -26,16 +38,7 @@ tags: [контакты, команда]
 
 
 
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
-
-
-<!-- summary: Шаблон для связи с автором [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude -->
+<!-- summary: Шаблон для связи с автором [knowledge-space](../01-svyazi/03-component-catalog.md), mclaude -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -51,7 +54,7 @@ tags: [контакты, команда]
 
 ## Статус связи
 
-- [ ] Изучили профиль
+- [x] Изучили профиль
 - [ ] Написали первое сообщение
 - [ ] Получили ответ
 - [ ] Договорились о сотрудничестве
@@ -83,19 +86,30 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [sonia-black](docs/contacts/sonia-black.md) (сходство 0.74)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.67)
-- [cutcode](docs/contacts/cutcode.md) (сходство 0.67)
+## Похожие документы
+- [sonia-black](sonia-black.md) (сходство 0.74)
+- [zodigancode](zodigancode.md) (сходство 0.67)
+- [cutcode](cutcode.md) (сходство 0.67)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [dmitriila](docs/contacts/dmitriila.md)
+## Смотрите также
+- [cutcode](cutcode.md)
+- [zodigancode](zodigancode.md)
+- [sonia-black](sonia-black.md)
+- [dmitriila](dmitriila.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
 

@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:122f8341c825db14",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/DECISIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:a54ecc5776ff7bba",
+  "payload": {
+    "title": "Наутилус B: nautilus — мета-оркестратор репозиториев (внешняя архитектура)",
+    "summary": "Наутилус B: nautilus — мета-оркестратор репозиториев",
+    "body": "наутилус nautilus мета оркестратор репозиториев внешняя архитектура источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ двух собственных проектов наутилус репозиториях svend pro yijing transformer смотрите также decisions decisions nautilus pro meta nautilus pro meta общий план развития nautilus portal protocol anthropic vacancies общий план развития nautilus portal protocol question two nautiluses question two nautiluses",
+    "tags": [
+      "rag",
+      "orchestration",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1105,
+    "path": "docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md"
+  }
+}

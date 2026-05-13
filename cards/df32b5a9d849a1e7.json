@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:df32b5a9d849a1e7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/08-export.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/processing-guide/01-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/PROCESSING_GUIDE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/09-automation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/10-future.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:26+00:00",
+  "updated_at": "2026-05-10T17:29:26+00:00",
+  "payload_hash": "sha256:7752a7d350eb5540",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 8: Экспорт и интеграции",
+    "summary": "Markdown-база — это хорошо, но разные инструменты требуют разных форматов:",
+    "body": "обработка больших массивов часть экспорт интеграции куда отправить обработанную базу знаний форматы платформы пайплайны проекты svyazi yodoca куда отправить обработанную базу знаний форматы платформы пайплайны зачем экспортировать markdown база это хорошо разные инструменты требуют разных форматов obsidian vault wikilinks yaml frontmatter confluence корпоративная wiki wiki разметка epub книга для чтения офлайн rss atom фид изменений для подписчиков jsonl для rag пайплайна llamaindex langchain csv для таблиц excel google sheets html для публикации сайте obsidian vault improve obsidian что делает добавляет yaml frontmatter теги дата тип документа конвертирует text path file wikilinks копирует docs obsidian сохранением структуры python scripts improve obsidian docs obsidian файла готовы открытию obsidian результат открыть docs obsidian как vault obsidian граф связей поиск теги confluence improve confluence что делает конвертирует markdown confluence wiki markup wiki python scripts improve confluence docs confluence wiki поддерживает таблицы заголовки блоки кода ссылки callout блоки note tip epub improve epub что делает через pandoc собирает всю секцию книгу python scripts improve epub check проверить наличие pandoc python scripts improve epub section svyazi python scripts improve epub section habr projects требования apt install pandoc rss atom improve rss что делает читает git log генерирует rss atom фид изменений python scripts improve rss docs feed rss docs feed atom применение подписчики могут следить изменениями базы знаний через rss ридер json csv improve export json improve export csv python scripts improve export json docs export full json документов метаданные текст python scripts improve export csv docs export full csv для excel google sheets pandas формат json file docs habr projects memory yodoca title yodoca консолидация забывание tags memory sqlite words section habr projects content yodoca научил агента jsonl для rag improve chunk semantic для llamaindex langchain любого rag пайплайна python scripts improve chunk semantic docs all chunks jsonl семантические чанки каждый слов подключение llamaindex from llama index core import simpledirectoryreader from llama index core node parser import simplenodeparser или напрямую our chunks import json chunks json loads for open docs all chunks jsonl html improve export html python scripts improve export html docs export full html статический сайт можно открыть браузере карта сайта improve sitemap python scripts improve sitemap docs sitemap навигационная карта для людей docs sitemap xml для поисковых роботов mcp сервер mcp server самая мощная интеграция подключить базу знаний как mcp инструменты claude desktop python scripts mcp server stdio режим инструментов claude получает инструмент что делает search docs поиск базе get doc прочитать конкретный файл get decisions архитектурные решения get contacts авторы статус связи get project status статус конкретного проекта run improve запустить любой скрипт update contact status обновить статус контакта конфигурация claude desktop claude desktop config json mcpservers lorenzo command python args home user lorenzo scripts mcp server сводная таблица экспортных форматов формат инструмент назначение obsidian vault improve obsidian личная база знаний confluence wiki improve confluence корпоративная wiki epub improve epub офлайн чтение rss atom improve rss подписка изменения json improve export json api анализ данных csv improve export csv excel google sheets html improve export html статический сайт jsonl чанки improve chunk semantic rag пайплайн xml sitemap improve sitemap seo навигация mcp сервер mcp server claude desktop следующий шаг после экспорта часть автоматизация оркестратор watcher кто ссылается этот документ overview overview processing guide processing guide readme readme смотрите также processing guide processing guide automation automation overview overview future future",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca"
+    ],
+    "wc": 720,
+    "path": "docs/processing-guide/08-export.md"
+  }
+}

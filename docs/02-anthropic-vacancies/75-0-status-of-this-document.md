@@ -1,6 +1,29 @@
 # 0. Status of This Document
 
+<!-- toc-auto -->
+## Contents
+
+- [0. Status of This Document](#0-status-of-this-document)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До
 
 ---
@@ -28,7 +51,7 @@ stable требуют bump до v2.0 с migration guide.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.55)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.16)
 - [42-author-contact](42-author-contact.md) (сходство 0.15)
@@ -38,7 +61,13 @@ stable требуют bump до v2.0 с migration guide.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "0 Status of This Document"
+```
+
+## Смотрите также
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [42-author-contact](42-author-contact.md)
 - [62-author-contact](62-author-contact.md)
@@ -84,3 +113,19 @@ stable требуют bump до v2.0 с migration guide.
 - [12. Versioning Policy](24-12-versioning-policy.md) _29%_
 - [Content Overview](48-content-overview.md) _29%_
 - [History](53-history.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [164-10-appendices](164-10-appendices.md)
+- [24-12-versioning-policy](24-12-versioning-policy.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [42-author-contact](42-author-contact.md)
+- [53-history](53-history.md)
+- _...ещё 3_
+

@@ -1,6 +1,29 @@
 # Acknowledgments
 
+<!-- toc-auto -->
+## Contents
+
+- [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (17)](#кто-ссылается-на-этот-документ-17)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > This document emerged from the author's observation, near
 
 ---
@@ -38,7 +61,7 @@ contributed structure and reference work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.20)
 - [275-why-this-document-exists](275-why-this-document-exists.md) (сходство 0.16)
 - [319-acknowledgments](319-acknowledgments.md) (сходство 0.16)
@@ -48,7 +71,13 @@ contributed structure and reference work.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
+## Смотрите также
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - [319-acknowledgments](319-acknowledgments.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
@@ -95,3 +124,19 @@ contributed structure and reference work.
 - [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) _33%_
 - [AI Support Through Configurable Specialist Ensembles](251-ai-support-through-configurable-specialist-ensembl.md) _33%_
 - [with Anthropic's Cowork Platform](306-with-anthropic-s-cowork-platform.md) _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (17)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [267-acknowledgments](267-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- _...ещё 9_
+

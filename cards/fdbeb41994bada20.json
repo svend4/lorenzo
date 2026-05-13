@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:fdbeb41994bada20",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/REPORT.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/DECISIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/KPI.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/QUESTIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SIMILAR.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READING_ORDER.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SITEMAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/NARRATIVE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/HEALTH.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
+  "payload_hash": "sha256:16739ce67ff8669b",
+  "payload": {
+    "title": "Executive Report: Репозиторий Lorenzo",
+    "summary": "Монорепозиторий **Lorenzo** содержит исследовательскую базу знаний по экосистеме AI-проектов вокруг **Svyazi 2.0**.",
+    "body": "executive report репозиторий lorenzo дата генерации отчёт сгенерирован автоматически",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 304,
+    "path": "docs/REPORT.md"
+  }
+}

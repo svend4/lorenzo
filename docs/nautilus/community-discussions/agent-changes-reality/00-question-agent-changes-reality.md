@@ -1,10 +1,26 @@
 # Du hast gesagt: Такой агент конечно меняет уже собственную реальность человека и…
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — агент меняет реальность не только своего человека, но и других.
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -21,11 +37,35 @@ Du hast gesagt: Такой агент конечно меняет уже соб�
 
 ---
 
-**Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Такой агент конечно"
+```
+
+## Смотрите также
+- [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [00-question-camel-vs-nautilus](../../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-multi-tier](../../multi-tier-architecture/00-question-multi-tier.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+- [00-question-habr-2](../habr-article-2-reaction/00-question-habr-2.md)
+- [00-question-practical](../practical-observations/00-question-practical.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -33,7 +73,7 @@ Du hast gesagt: Такой агент конечно меняет уже соб�
 ---
 
 **Похожие документы:**
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.26)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.24)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.24)
+- [00-question-agent-changes-reality](../../../obsidian/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.93)
+- [00-question-camel-vs-nautilus](../../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.34)
+- [00-question-practical](../practical-observations/00-question-practical.md) (сходство 0.34)
 

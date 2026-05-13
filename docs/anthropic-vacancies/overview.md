@@ -1,10 +1,28 @@
 # Обзор: 436 открытых ролей Anthropic, разбитых на 16 кластеров
 
+<!-- toc-auto -->
+## Contents
+
+- [Поправка к статье](#поправка-к-статье)
+- [Распределение по кластерам](#распределение-по-кластерам)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Затравка — статья 3dnews.ru/1140248 («≈429 вакансий, вилка $320–405 тыс.»).
 
 ---
 <!-- tags: anthropic -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 
 
 
@@ -42,11 +60,32 @@
 
 ---
 
-**Смотрите также:**
-- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [08-safeguards-trust-safety](docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
-- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Обзор 436 открытых ролей Anthropic"
+```
+
+## Смотрите также
+- [12-technical-program-management](clusters/12-technical-program-management.md)
+- [13-communications](clusters/13-communications.md)
+- [08-safeguards-trust-safety](clusters/08-safeguards-trust-safety.md)
+- [09-product-management-support-ops](clusters/09-product-management-support-ops.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [README](README.md)
+- [02-sales](clusters/02-sales.md)
+- [signals](signals.md)
+- [reading-paths](../reading-paths.md)
 
 
 <!-- similar-docs -->
@@ -54,7 +93,7 @@
 ---
 
 **Похожие документы:**
-- [README](docs/anthropic-vacancies/clusters/README.md) (сходство 0.33)
-- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.33)
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md) (сходство 0.32)
+- [overview](../obsidian/anthropic-vacancies/overview.md) (сходство 0.97)
+- [README](clusters/README.md) (сходство 0.34)
+- [README](../obsidian/anthropic-vacancies/clusters/README.md) (сходство 0.34)
 

@@ -172,7 +172,7 @@ NPP протокол (Sprint 36): запрос распределяется по
 
 ---
 
-## 6. ~~Чего ещё **не** умеет (10 главных дыр)~~ — **РЕАЛИЗОВАНО** (спринт 54, 2026-05-13)
+## 6. Чего ещё **не** умеет (10 главных дыр)
 
 ### 6.1 Knowledge graph reasoning
 
@@ -261,67 +261,31 @@ NPP протокол (Sprint 36): запрос распределяется по
 
 ## 7. Метрики проекта
 
-_Обновлено: 2026-05-13 (спринт 55)_
-
 | Метрика | Значение |
 |---------|---------:|
-| Спринтов завершено | **55** |
-| Модулей в `docstoolkit/` | **~48** |
-| Batch-скриптов в `scripts/` | 155 |
-| Тестов pytest | **1123** |
-| MCP-инструментов | 30 |
+| Спринтов завершено | 53 |
+| Модулей в `docstoolkit/` | ~30 |
+| Batch-скриптов в `scripts/` | 96 |
+| Тестов pytest | 546 |
+| MCP-инструментов (`improve_mcp_test.py`) | 30 |
 | Шаблонов с integrity check | 23 |
-| Документов в `docs/` | 2484 |
+| Документов в `docs/` | ~150 (включая авто-генерируемые) |
 | Habr-проектов проанализировано | 22 |
 | Контактов авторов готово | 14 |
-| LOC `docs-toolkit/` (.py) | ~26K |
-| Здоровье репо (HEALTH.md) | **99/100** |
+| LOC `docs-toolkit/` (.py) | ~15K |
+| Здоровье репо (HEALTH.md) | 75/100 |
 | GO/No-Go score (SCORING.md) | 96% → GO |
-| Версия `docs-toolkit` | **0.3.0** |
-
-### Новые модули (спринт 55)
-
-| Модуль | Фича | Тестов |
-|--------|------|-------:|
-| `classifier/tfidf_classifier.py` | TF-IDF centroid classifier: fit/classify/explain/save/load | 28 |
-| `diff/bulk.py` | Bulk diff: extract_headings, semantic_similarity, diff_snapshots | 31 |
-| `reads/store.py` | Read-receipt: ReadStore SQLite, estimate_reading_time, recommendations | 31 |
-| `rag/hierarchical.py` | Hierarchical retrieval: SectionIndex, DocIndex, hierarchical_search | 38 |
-| `intent/classifier.py` + `router.py` | Query intent: 7 labels RU+EN, IntentRouter + PipelineConfig | 61 |
-| `active_learning/` | Active learning queue: LearningQueue, triggers, auto_enqueue | 46 |
-
-### Новые модули (спринт 54)
-
-| Модуль | Фича | Тестов |
-|--------|------|-------:|
-| `graph/reasoning.py` | Knowledge Graph: TripletStore, BFS, multi-hop | 24 |
-| `rag/synthesis.py` | Cross-doc synthesis: compare/summarize/contrast | 33 |
-| `ingest/grounding.py` | Cross-modal grounding: ImageIndex→Passage | 20 |
-| `rag/clarifier.py` | Active clarification: detect_ambiguity, ClarifyingRAG | 21 |
-| `embeddings/incremental.py` + `watcher.py` | Incremental index + polling watcher | 23 |
-| `jobs/distributed.py` | Distributed workers: SQLite atomic claim, tag routing | 21 |
-| `conversation/profile.py` | Personalization: ProfileStore, PersonalizedRetriever | 28 |
-| `rag/counterfactual.py` | Forensic RAG: SpanAttribution, ForensicRAG.explain() | 40 |
-| `feedback/autotuner.py` | Self-improvement: AutoTuner, wilson_lower, apply_to_config | 28 |
-| `rag/mapreduce.py` | True long-context: map_reduce_ask, chunk→map→reduce | 37 |
-| `rerank/reranker.py` | Cross-encoder reranking: TFIDF/LLM/BGE, rerank() | 42 |
-| `online_eval/` | Continuous online eval: sampler, DriftReport | 32 |
-| `alerts/store.py` | Saved searches + alerts: cooldown, tick() | 27 |
-| `citations/graph.py` | Citation graph + PageRank (alpha=0.85) | 33 |
-| `serve.py` (+/faceted) | Faceted Search UI: HTML + /api/faceted | 23 |
 
 ---
 
 ## 8. Что это значит — стратегически
 
-Текущее состояние — **production-ready platform для knowledge workers**, с полным покрытием всех архитектурных слоёв, 1123 тестами и 48 модулями. Все 10 архитектурных дыр закрыты. Добавлены реранкинг, online eval, алерты, citation graph, faceted UI, hierarchical retrieval, intent classification, active learning.
+Текущее состояние — **production-ready foundation для одиночного knowledge worker'а или маленькой команды**, локально, с опциональной интеграцией LLM. Все базовые паттерны (RAG, agent, eval, A/B, conversation, federation, observability) реализованы и покрыты тестами.
 
 **Сильные стороны:**
-- **Все 10 gaps закрыты** — от knowledge graph до long-context map-reduce
-- **S3/S5/S7/M3/M4/M6** — classifier, bulk diff, read-receipt, hierarchical, intent, active learning
+- Полнота слоёв (от ingest до eval) без gaps
 - Stdlib-first позволяет deploy куда угодно
-- 1123 тестов (было 888, было 546)
-- 55 спринтов прошли без архитектурных переписываний → дизайн стабилен
+- 53 спринта прошли без архитектурных переписываний → дизайн стабилен
 
 **Узкие места:**
 - Многое работает, но не всегда хорошо (semantic search требует sentence-transformers, knowledge graph отсутствует)

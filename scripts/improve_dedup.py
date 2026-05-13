@@ -49,12 +49,26 @@ def paragraph_hash_map(text: str) -> dict[str, str]:
     return result
 
 
+MIRROR_DIRS = {"obsidian", "confluence"}
+
+
+def _is_mirror(path: Path) -> bool:
+    return any(part in MIRROR_DIRS for part in path.relative_to(DOCS).parts)
+
+
 def find_exact_duplicates() -> list[list[Path]]:
     hash_map: dict[str, list[Path]] = defaultdict(list)
     for f in DOCS.rglob("*.md"):
         h = file_hash(f)
         hash_map[h].append(f)
-    return [paths for paths in hash_map.values() if len(paths) > 1]
+    result = []
+    for paths in hash_map.values():
+        if len(paths) > 1:
+            # Skip groups where all non-mirror copies are the same (mirrors are expected)
+            non_mirrors = [p for p in paths if not _is_mirror(p)]
+            if len(non_mirrors) > 1:
+                result.append(non_mirrors)
+    return result
 
 
 def find_similar_files(threshold: float = THRESHOLD) -> list[tuple[Path, Path, float, list[str]]]:
@@ -91,6 +105,8 @@ def find_similar_files(threshold: float = THRESHOLD) -> list[tuple[Path, Path, f
 def _truncate(text: str, max_len: int = 200) -> str:
     """Обрезает абзац для отображения в отчёте."""
     text = text.replace("\n", " ").strip()
+    # Strip markdown links to avoid broken anchor refs in the report
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
     if len(text) <= max_len:
         return text
     return text[:max_len] + "…"

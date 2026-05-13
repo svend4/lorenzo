@@ -1,0 +1,84 @@
+{
+  "card_id": "sha256:8be9542b4a1d44e2",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/glossary/authors-by-name.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/self-aware-mcp.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/mclaude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/02-memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/voice-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/security-routing-plane.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:37d51f1fd6c1e3a2",
+  "payload": {
+    "title": "Авторы — алфавитный список",
+    "summary": "Авторы (Хабр / GitHub / Medium), упомянутые в монорепозитории, и их ключевые проекты с обратными ссылками на доки.",
+    "body": "авторы алфавитный список авторы хабр github medium упомянутые монорепозитории ключевые проекты обратными ссылками доки проекты svyazi agentfs knowledge space mclaude factory rufler liteparse legal rag смотрите также components name components name contact priority contact priority contacts contacts source projects collaborations source projects",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 497,
+    "path": "docs/glossary/authors-by-name.md"
+  }
+}

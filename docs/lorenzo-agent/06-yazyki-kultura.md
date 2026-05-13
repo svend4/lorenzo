@@ -1,10 +1,27 @@
 # Языки и культурные nuances (RU / DE / EN)
 
+<!-- toc-auto -->
+## Contents
+
+- [Твои языки и культурные nuances](#твои-языки-и-культурные-nuances)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ---
 <!-- tags: roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +50,33 @@
 
 ---
 
-**Смотрите также:**
-- [350-твои-языки-и-культурные-nuances](docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)
-- [02-tvoyo-proishozhdenie](docs/lorenzo-agent/02-tvoyo-proishozhdenie.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Языки и культурные nuances RU DE EN"
+```
+
+## Смотрите также
+- [350-твои-языки-и-культурные-nuances](../02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)
+- [02-tvoyo-proishozhdenie](02-tvoyo-proishozhdenie.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [09-q9-geographic-linguistic-scope](specification/09-q9-geographic-linguistic-scope.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [09-q9-geographic-linguistic-scope](specification/09-q9-geographic-linguistic-scope.md)
 
 
 <!-- similar-docs -->
@@ -45,7 +84,7 @@
 ---
 
 **Похожие документы:**
-- [350-твои-языки-и-культурные-nuances](docs/obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.69)
-- [350-твои-языки-и-культурные-nuances](docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.68)
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.24)
+- [06-yazyki-kultura](../obsidian/lorenzo-agent/06-yazyki-kultura.md) (сходство 0.97)
+- [350-твои-языки-и-культурные-nuances](../obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.62)
+- [350-твои-языки-и-культурные-nuances](../02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.62)
 

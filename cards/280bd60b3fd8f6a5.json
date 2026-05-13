@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:280bd60b3fd8f6a5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/METRICS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T17:03:28+00:00",
+  "updated_at": "2026-05-10T17:03:28+00:00",
+  "payload_hash": "sha256:823d3fc31a115749",
+  "payload": {
+    "title": "Метрики качества документации",
+    "summary": "",
+    "body": "метрики качества документации файлов средний балл качество разделам раздел балл ссылок слов код блоков summary тегами svyazi anthropic vacancies technology combinations collaborations habr projects root топ лучших документов документ балл слов интегральный анализ профиля svend общий план развития nautilus portal registry nautilus json формальный workflow принципы консолидации фаза обратная связь the double triangle architecture pattern library bridge between adapter interface appendix quick start architecture типология пяти типов агентов приложение архитектура быстрого appendix position series visualiz appendix sample ingit mcp server симбиотическая архитектура документы требующие улучшения документ балл что отсутствует summary tags toc callout summary tags toc callout summary tags toc callout summary tags toc callout summary tags toc callout backlinks summary tags toc callout broken links summary tags toc callout changelog summary tags toc callout citation index summary tags toc callout compare summary tags toc callout contradictions summary tags toc callout cost summary tags toc callout github issues summary tags toc callout heading audit summary tags toc callout kpi history summary tags toc callout language stats summary tags toc callout named entities summary tags toc callout paragraph quality summary tags toc callout passive voice summary tags toc callout summary tags toc callout общие показатели файлов summary файлов тегами файлов оглавлением файлов callout средний балл качества",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 471,
+    "path": "docs/METRICS.md"
+  }
+}

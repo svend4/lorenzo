@@ -1,0 +1,62 @@
+{
+  "card_id": "sha256:652c32b433b84f05",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/04-sozialrecht-domain.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/15-19-extended.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:f9baaa0cf74fa448",
+  "payload": {
+    "title": "Комбинация 18: LLM-Powered Legal Corpus Builder",
+    "summary": "Crawl4AI (BM25 filtering, LLM extraction, Pydantic schemas)",
+    "body": "комбинация llm powered legal corpus builder источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex смотрите также legal document intelligence pipeline legal document intelligence pipeline legal corpus analytics scale legal corpus analytics scale pydantic enforced legal workflows pydantic enforced legal workflows sozialrecht domain technology combinations sozialrecht domain кто ссылается этот документ components name glossary components name readme readme ultimate legal mega stacks ultimate legal extended synthesis tables extended",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 228,
+    "path": "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md"
+  }
+}

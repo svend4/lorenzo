@@ -843,7 +843,7 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[CONCEPTS]] (сходство 0.21)
 - [[00-intro]] (сходство 0.19)
 - [[00-intro]] (сходство 0.16)
@@ -853,7 +853,7 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[CONCEPTS]]
 - [[00-intro]]
 - [[ACTION_ITEMS]]
@@ -883,3 +883,15 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 - [[00-intro|Введение]] _21%_
 - [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _21%_
 - [[64-for-the-curious-philosophy|For the Curious: Philosophy]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [[00-intro]]
+- [[165-closing]]
+- [[272-appendix-d-connection-diagram]]
+- [[64-for-the-curious-philosophy]]
+- [[README]]
+

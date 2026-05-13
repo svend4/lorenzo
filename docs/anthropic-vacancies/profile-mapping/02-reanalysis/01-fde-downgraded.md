@@ -1,10 +1,27 @@
 # Коррекция: FDE понижается
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -21,19 +38,37 @@
 
 ---
 
-**Смотрите также:**
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Коррекция FDE понижается"
+```
+
+## Смотрите также
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
+- 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
+- [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)
+- [05-quaternary-developer-education](../01-initial-analysis/05-quaternary-developer-education.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [README](README.md)
+- [components-by-name](../../../glossary/components-by-name.md)
+- [concepts](../../../glossary/concepts.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.21)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.20)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.20)
+- [01-fde-downgraded](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md) (сходство 0.96)
+- [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md) (сходство 0.24)
+- [05-quaternary-developer-education](../01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.24)
 

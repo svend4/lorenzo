@@ -1,10 +1,26 @@
 # Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: anthropic, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -35,11 +51,35 @@ Certification Development Lead
 
 ---
 
-**Смотрите также:**
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
-- [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Quarternary match Developer Education"
+```
+
+## Смотрите также
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
+- [07-unique-niche-eu-legal-infra](07-unique-niche-eu-legal-infra.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [01-profile-five-layers](01-profile-five-layers.md)
+- [02-primary-fde](02-primary-fde.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
+- _...ещё 5_
 
 
 <!-- similar-docs -->
@@ -47,7 +87,7 @@ Certification Development Lead
 ---
 
 **Похожие документы:**
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.28)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md) (сходство 0.25)
-- [06-not-applicable-roles](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md) (сходство 0.25)
+- [05-quaternary-developer-education](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.98)
+- [08-practical-ranking](08-practical-ranking.md) (сходство 0.34)
+- [08-practical-ranking](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.34)
 

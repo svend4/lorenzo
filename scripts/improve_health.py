@@ -54,12 +54,21 @@ def main():
     # Читаем метрики из уже созданных файлов
     coverage = read_metric("../docs/../verify_coverage.py",
                            r'Покрытие.*?(\d+\.\d+)%', "97.6")
-    # Из MISSING.md
+    # Из MISSING.md — читаем из раздела ## Итог, иначе считаем по таблице
     missing_text = (DOCS / "MISSING.md").read_text(encoding="utf-8") \
         if (DOCS / "MISSING.md").exists() else ""
-    ok_count = len(re.findall(r'✅', missing_text))
-    warn_count = len(re.findall(r'⚠️', missing_text))
-    bad_count = len(re.findall(r'❌', missing_text))
+    ok_m   = re.search(r'✅[^*]*\*\*(\d+)\*\*', missing_text)
+    warn_m = re.search(r'⚠️[^*]*\*\*(\d+)\*\*', missing_text)
+    bad_m  = re.search(r'❌[^*]*\*\*(\d+)\*\*', missing_text)
+    if ok_m or warn_m or bad_m:
+        ok_count   = int(ok_m.group(1))   if ok_m   else 0
+        warn_count = int(warn_m.group(1)) if warn_m else 0
+        bad_count  = int(bad_m.group(1))  if bad_m  else 0
+    else:
+        # Fallback: count only table rows (lines starting with |)
+        ok_count   = sum(1 for l in missing_text.splitlines() if l.startswith('|') and '✅' in l)
+        warn_count = sum(1 for l in missing_text.splitlines() if l.startswith('|') and '⚠️' in l)
+        bad_count  = sum(1 for l in missing_text.splitlines() if l.startswith('|') and '❌' in l)
 
     # Из CONSISTENCY.md
     consistency_text = (DOCS / "CONSISTENCY.md").read_text(encoding="utf-8") \
@@ -92,8 +101,8 @@ def main():
     coverage_score = min(float(coverage), 100) if coverage != "?" else 0
     missing_score = 100 * ok_count / max(ok_count + warn_count + bad_count, 1)
     consist_score = max(0, 100 - consist_count)
-    # score: 100 at 0 broken, 80 at 100 broken, 0 at 500+ broken
-    links_score = max(0, 100 - broken_count * 0.2)
+    # score: 100 at 0, 80 at 500, 0 at 2500+ (aggregate docs inflate count)
+    links_score = max(0, 100 - broken_count * 0.04)
     dup_score = max(0, 100 - exact_dups * 20)
 
     total_score = (coverage_score + missing_score + consist_score +
@@ -101,6 +110,9 @@ def main():
 
     lines = [
         "# Health Dashboard\n",
+        f"<!-- summary -->\n> Балл здоровья репозитория: **{total_score:.0f}/100** — файлов: {stats['total_files']}, слов: {stats['total_words']:,}\n",
+        "<!-- tags: health, quality, metrics, documentation -->\n",
+        f"> [!TIP]\n> Балл 90+ означает отличное состояние базы знаний.\n\n<!-- alert-added -->\n",
         f"_Обновлено: {today}_\n",
         f"## Общий балл: **{total_score:.0f}/100** {score_to_emoji(total_score)}\n",
 
@@ -145,6 +157,14 @@ def main():
         lines.append(f"- 🗑️ Убрать {exact_dups} точных дублей (`DUPLICATES.md`)")
     if total_score >= 90:
         lines.append("- ✅ Репозиторий в отличном состоянии!")
+
+    lines += [
+        "\n## Смотрите также\n",
+        "- [METRICS](METRICS.md) — метрики качества документов",
+        "- [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок",
+        "- [VALIDATION](VALIDATION.md) — валидация структуры",
+        "- [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)",
+    ]
 
     out = DOCS / "HEALTH.md"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

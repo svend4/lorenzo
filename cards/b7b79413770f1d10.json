@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:b7b79413770f1d10",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/264-11-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:8982517210ea2248",
+  "payload": {
+    "title": "6. Coordination and Disagreement Resolution",
+    "summary": "The composite agent's most subtle function is coordinating",
+    "body": "coordination and disagreement resolution абстракт авто проблема they differ specific issue says says helps principal see what settled and what contested подход coordination and disagreement resolution the composite agent most subtle function coordinating содержание результат recommendation may produce result ключевые слова agent principal composite disagreement resolution agents recommendation their the composite agent most subtle function coordinating coordination and disagreement resolution the composite agent most subtle function coordinating multiple sub agents that may disagree why sub agents disagree disagreement normal and informative composite configurations several common causes different specialization frames sub agent legal strategy may recommend sub agent case management may recommend each correct within its frame different evidence weights sub agent may weight recent case law heavily another may weight long established methodology more both are reasonable choices that produce different recommendations different optimization targets sub agent may optimize for client outcomes another for procedural correctness these goals can conflict different boundary handling some questions fall the boundary between specializations each sub agent may interpret the boundary differently these disagreements often contain the most important information the principal needs composite agent that resolved them silently would hide what the principal most needs see surfacing versus resolving central architectural commitment the composite agent surfaces disagreements does not resolve them surfacing means presenting each sub agent recommendation clearly with reasoning the principal can see what each specialization contributes not resolving means the composite agent does not vote average arbitrate between sub agents the principal makes the call this critical because algorithmic resolution would impose hidden judgment the principal resolution loses information that the disagreement contains the principal authority over their work depends access underlying disagreement profession level differences approach should remain visible not smoothed away presentation disagreement how disagreement presented matters some patterns work well pattern side side recommendation sub agent recommends with reasoning sub agent recommends with reasoning principal sees both directly pattern common ground first both sub agents agree that base position they differ specific issue says says helps principal see what settled and what contested pattern compatibility analysis recommendation may produce result recommendation may produce result the choice depends whether you prioritize helps principal see what the disagreement actually means for outcomes pattern resolution suggestion without execution you favor here how recommendation can implemented you favor here how principal still chooses the agent helps with implementation the chosen direction what does not work averaging voting balanced outputs that mask the underlying disagreement these appear neutral but actually impose hidden judgment when the principal cannot decide sometimes the principal genuinely doesn know which recommendation follow the composite agent has options escalation mentor the principal has access human mentor the composite agent can structure the disagreement for mentor review deferred decision some decisions can deferred the agent helps the principal collect more information before committing risk weighted default one recommendation more conservative smaller commitment easier reversal the composite agent can suggest defaulting that while gathering more information acknowledged uncertainty sometimes the right output you face genuine professional judgment call here here what each sub agent recommends here what stake this moment where your accumulated experience matters the composite agent acknowledging the limits agent guidance itself valuable learning from resolution how the principal resolves disagreements over time informative the composite agent can track which sub agents the principal tends follow when there disagreement which contexts predict which choice whether the principal choices show evolving patterns this information should available the principal their own pattern decisions over time but not used hide future disagreements the point not predict and pre resolve the point give the principal insight into their own practice похожие документы what makes composite skills agent what makes composite skills agent сходство configuration how principals build their ensembl configuration how principals build their ensembl сходство risks specific composite architectures risks specific composite architectures сходство смотрите также what makes composite skills agent what makes composite skills agent configuration how principals build their ensembl configuration how principals build their ensembl risks specific composite architectures risks specific composite architectures open questions open questions упоминается why the binary view incomplete why the binary view incomplete risks specific composite architectures risks specific composite architectures the twenty one teachers pattern the twenty one teachers pattern what makes composite skills agent what makes composite skills agent what makes representative agent what makes representative agent configuration how principals build their ensembles configuration how principals build their ensembl seven domains application seven domains application вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы what makes composite skills agent what makes composite skills agent risks specific composite architectures risks specific composite architectures configuration how principals build their ensembles configuration how principals build their ensembl table contents table contents why the binary view incomplete why the binary view incomplete the twenty one teachers pattern the twenty one teachers",
+    "tags": [
+      "rag",
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 1025,
+    "path": "docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md"
+  }
+}

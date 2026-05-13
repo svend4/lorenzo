@@ -1,10 +1,37 @@
 # Наутилус B: nautilus — мета-оркестратор репозиториев (внешняя архитектура)
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer
 
 ---
 <!-- tags: rag, orchestration, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -123,11 +150,31 @@ Du hast gesagt: https://github.
 
 ---
 
-**Смотрите также:**
-- [DECISIONS](docs/DECISIONS.md)
-- [02-nautilus-A-pro2-meta](docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md)
-- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
-- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Наутилус B nautilus мета оркестратор"
+```
+
+## Смотрите также
+- [DECISIONS](../../DECISIONS.md)
+- 02-[nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
+- [02-общий-план-развития-nautilus-portal-protocol](../../02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [00-question-two-nautiluses](00-question-two-nautiluses.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -135,7 +182,7 @@ Du hast gesagt: https://github.
 ---
 
 **Похожие документы:**
-- [DECISIONS](docs/obsidian/DECISIONS.md) (сходство 0.15)
-- [DECISIONS](docs/DECISIONS.md) (сходство 0.14)
-- [02-общий-план-развития-nautilus-portal-protocol](docs/obsidian/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) (сходство 0.12)
+- [03-nautilus-B-meta-orchestrator](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md) (сходство 1.00)
+- [DECISIONS](../../obsidian/DECISIONS.md) (сходство 0.16)
+- [DECISIONS](../../DECISIONS.md) (сходство 0.16)
 

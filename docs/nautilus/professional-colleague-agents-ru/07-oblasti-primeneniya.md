@@ -237,11 +237,31 @@ Scite). Активная разработка.
 
 ---
 
-**Смотрите также:**
-- [238-7-области-применения](docs/02-anthropic-vacancies/238-7-области-применения.md)
-- [08-pilot-sgb-kolega](docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md)
-- [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
-- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Области применения"
+```
+
+## Смотрите также
+- [238-7-области-применения](../../02-anthropic-vacancies/238-7-области-применения.md)
+- [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)
+- [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
+- [09-strategiya-razvyortyvaniya](../representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)
+- [README](README.md)
+- [04-desyat-oblastey](../representative-agent-layer-ru/04-desyat-oblastey.md)
 
 
 <!-- similar-docs -->
@@ -249,7 +269,7 @@ Scite). Активная разработка.
 ---
 
 **Похожие документы:**
-- [238-7-области-применения](docs/obsidian/02-anthropic-vacancies/238-7-области-применения.md) (сходство 0.92)
-- [238-7-области-применения](docs/02-anthropic-vacancies/238-7-области-применения.md) (сходство 0.90)
-- [08-pilot-sgb-kolega](docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md) (сходство 0.14)
+- [07-oblasti-primeneniya](../../obsidian/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md) (сходство 0.98)
+- [238-7-области-применения](../../obsidian/02-anthropic-vacancies/238-7-области-применения.md) (сходство 0.90)
+- [238-7-области-применения](../../02-anthropic-vacancies/238-7-области-применения.md) (сходство 0.90)
 

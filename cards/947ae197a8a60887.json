@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:947ae197a8a60887",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/128-доступные-инструменты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/132-planned-v0-2-0.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:52b73db4cfa44fd0",
+  "payload": {
+    "title": "Ограничения текущей версии (0.1.0-draft)",
+    "summary": "`health_check.py` не удалось импортировать",
+    "body": "ограничения текущей версии draft работает только stdio mode http mode планируется похожие документы доступные инструменты доступные инструменты сходство смотрите также доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude appendix minimal working example appendix minimal working example planned planned упоминается mcp extension informative mcp extension informative вакансии anthropic анализ кластерам readme доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude упоминается вакансии anthropic анализ кластерам readme связанные документы доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude mcp extension informative mcp extension informative связанные документы доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude mcp extension informative mcp extension informative кто ссылается этот документ доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude planned planned mcp extension informative mcp extension informative readme readme",
+    "tags": [
+      "memory",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 197,
+    "path": "docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md"
+  }
+}

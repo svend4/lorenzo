@@ -1,10 +1,28 @@
 # Abstract + Status of This Document
 
+<!-- toc-auto -->
+## Contents
+
+- [Abstract](#abstract)
+- [0. Status of This Document](#0-status-of-this-document)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 <!-- tags: architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -72,11 +90,31 @@ stable требуют bump до v2.0 с migration guide.
 
 ---
 
-**Смотрите также:**
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
-- [01-introduction](docs/nautilus/npp-v1-1/01-introduction.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract Status of This Document"
+```
+
+## Смотрите также
+- [74-abstract](../../02-anthropic-vacancies/74-abstract.md)
+- [04-abstract](../../02-anthropic-vacancies/04-abstract.md)
+- [75-0-status-of-this-document](../../02-anthropic-vacancies/75-0-status-of-this-document.md)
+- [01-introduction](01-introduction.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-introduction](01-introduction.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 
 
 <!-- similar-docs -->
@@ -84,7 +122,7 @@ stable требуют bump до v2.0 с migration guide.
 ---
 
 **Похожие документы:**
-- [74-abstract](docs/obsidian/02-anthropic-vacancies/74-abstract.md) (сходство 0.60)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md) (сходство 0.55)
-- [00-abstract-status](docs/nautilus/npp-v1-0/00-abstract-status.md) (сходство 0.46)
+- [00-abstract-status](../../obsidian/nautilus/npp-v1-1/00-abstract-status.md) (сходство 0.97)
+- [74-abstract](../../obsidian/02-anthropic-vacancies/74-abstract.md) (сходство 0.60)
+- [74-abstract](../../02-anthropic-vacancies/74-abstract.md) (сходство 0.59)
 

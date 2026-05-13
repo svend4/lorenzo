@@ -12,6 +12,17 @@ tags: [mega-stack, архитектура]
 
 # Mega-stack: [Название]
 
+<!-- summary -->
+> `mega-stack` — раздел документации проекта Lorenzo.
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
+<!-- toc-auto -->
+
 
 <!-- summary: Полный стек для класса задач X -->
 <!-- tags: mega-stack, архитектура -->
@@ -112,7 +123,40 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [project-component](docs/templates/project-component.md)
-- [tech-radar-entry](docs/templates/tech-radar-entry.md)
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template mega-stack --output docs/new-doc.md
+```
+
+## Смотрите также
+- [ensemble](ensemble.md)
+- [project-component](project-component.md)
+- [tech-radar-entry](tech-radar-entry.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [ensemble](ensemble.md)
+- [prototype-mvp](prototype-mvp.md)
+- _...ещё 1_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [mega-stack](../obsidian/templates/mega-stack.md) (сходство 0.88)
+- [tech-pair](tech-pair.md) (сходство 0.27)
+- [tech-pair](../obsidian/templates/tech-pair.md) (сходство 0.25)
+

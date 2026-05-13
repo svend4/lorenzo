@@ -1,5 +1,20 @@
 # Авторы и контакты
 
+<!-- toc-auto -->
+## Contents
+
+- [Статус](#статус)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -9,6 +24,10 @@
 
 
 <!-- autofill-status -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Статус
 
 | Параметр | Значение |
@@ -42,19 +61,25 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [README](docs/05-habr-projects/README.md) (сходство 0.18)
+## Похожие документы
+- [README](README.md) (сходство 0.18)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
-- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Авторы и контакты"
+```
+
+## Смотрите также
+- [01-synthesis](01-synthesis.md)
+- [yodoca](memory/yodoca.md)
+- [ngt-memory](memory/ngt-memory.md)
+- [wikontic](knowledge/wikontic.md)
 
 
 
@@ -65,3 +90,14 @@ _Обновлено: 2026-04-29_
 [^llm]: Large Language Model — большая языковая модель
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [01-synthesis](01-synthesis.md)
+- [README](README.md)
+- [wikontic](knowledge/wikontic.md)
+- [yodoca](memory/yodoca.md)
+

@@ -1,5 +1,37 @@
 # 6. Уточнённый объём InGit с учётом Cowork
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Уточнённый объём InGit с учётом Cowork](#6-уточнённый-объём-ingit-с-учётом-cowork)
+  - [6.1. Новая Фаза 1 (Месяцы 1-3): Подложка MVP](#61-новая-фаза-1-месяцы-1-3-подложка-mvp)
+  - [6.2. Новая Фаза 2 (Месяцы 3-6): MCP Сервер](#62-новая-фаза-2-месяцы-3-6-mcp-сервер)
+  - [6.3. Новая Фаза 3 (Месяцы 6-12): Принятие и Уточнение](#63-новая-фаза-3-месяцы-6-12-принятие-и-уточнение)
+  - [6.4. Общий Сокращённый Объём](#64-общий-сокращённый-объём)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [6. Уточнённый объём InGit с учётом Cowork](#6-уточнённый-объём-ingit-с-учётом-cowork)
+  - [6.1. Новая Фаза 1 (Месяцы 1-3): Подложка MVP](#61-новая-фаза-1-месяцы-1-3-подложка-mvp)
+  - [6.2. Новая Фаза 2 (Месяцы 3-6): MCP Сервер](#62-новая-фаза-2-месяцы-3-6-mcp-сервер)
+  - [6.3. Новая Фаза 3 (Месяцы 6-12): Принятие и Уточнение](#63-новая-фаза-3-месяцы-6-12-принятие-и-уточнение)
+  - [6.4. Общий Сокращённый Объём](#64-общий-сокращённый-объём)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
@@ -106,11 +138,32 @@ GitHub)
 
 ---
 
-**Смотрите также:**
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
-- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md)
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
-- [05-chetyre-puti-integratsii](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Уточнённый объём InGit с учётом Cowork"
+```
+
+## Смотрите также
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
+- [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+- [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
+- [03-chto-ingit-obespechivaet](03-chto-ingit-obespechivaet.md)
+- [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -118,7 +171,7 @@ GitHub)
 ---
 
 **Похожие документы:**
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.76)
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/obsidian/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.71)
-- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md) (сходство 0.19)
+- [06-utochnyonnyy-obyom-ingit](../../obsidian/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md) (сходство 0.98)
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.78)
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../obsidian/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.77)
 

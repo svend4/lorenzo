@@ -169,11 +169,29 @@ within acceptable range for mission-driven foundation launch.
 
 ---
 
-**Смотрите также:**
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Risk Analysis"
+```
+
+## Смотрите также
+- [162-8-risk-analysis](../../02-anthropic-vacancies/162-8-risk-analysis.md)
+- [07-phased-rollout](07-phased-rollout.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -181,7 +199,7 @@ within acceptable range for mission-driven foundation launch.
 ---
 
 **Похожие документы:**
-- [162-8-risk-analysis](docs/obsidian/02-anthropic-vacancies/162-8-risk-analysis.md) (сходство 0.91)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md) (сходство 0.89)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md) (сходство 0.19)
+- [08-risk-analysis](../../obsidian/nautilus/okwf-concept/08-risk-analysis.md) (сходство 0.99)
+- [162-8-risk-analysis](../../02-anthropic-vacancies/162-8-risk-analysis.md) (сходство 0.88)
+- [162-8-risk-analysis](../../obsidian/02-anthropic-vacancies/162-8-risk-analysis.md) (сходство 0.88)
 

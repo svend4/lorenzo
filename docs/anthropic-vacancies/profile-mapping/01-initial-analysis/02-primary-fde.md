@@ -1,5 +1,13 @@
 # Primary match — Forward Deployed Engineer, Applied AI (EMEA)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -30,11 +38,27 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 
 ---
 
-**Смотрите также:**
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [signals](docs/anthropic-vacancies/signals.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Primary match Forward Deployed Engineer"
+```
+
+## Смотрите также
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [signals](../../signals.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [README](README.md)
+- [components-by-name](../../../glossary/components-by-name.md)
+- [concepts](../../../glossary/concepts.md)
 
 
 <!-- similar-docs -->
@@ -42,7 +66,7 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 ---
 
 **Похожие документы:**
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.23)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.20)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.17)
+- [02-primary-fde](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md) (сходство 0.98)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md) (сходство 0.19)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md) (сходство 0.19)
 

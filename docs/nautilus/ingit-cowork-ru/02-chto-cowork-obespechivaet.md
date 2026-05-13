@@ -1,11 +1,20 @@
 # 2. Что Cowork обеспечивает, что InGit не нужно строить
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
 
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [2. Что Cowork обеспечивает, что InGit не нужно строить](#2-что-cowork-обеспечивает-что-ingit-не-нужно-строить)
@@ -159,11 +168,32 @@ Cowork работает на macOS и Windows (Linux,
 
 ---
 
-**Смотрите также:**
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
-- [06-utochnyonnyy-obyom-ingit](docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md)
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
-- [01-otkrytie-cowork](docs/nautilus/ingit-cowork-ru/01-otkrytie-cowork.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Что Cowork обеспечивает что InGit не"
+```
+
+## Смотрите также
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+- [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
+- [01-otkrytie-cowork](01-otkrytie-cowork.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-otkrytie-cowork](01-otkrytie-cowork.md)
+- [03-chto-ingit-obespechivaet](03-chto-ingit-obespechivaet.md)
+- [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -171,7 +201,7 @@ Cowork работает на macOS и Windows (Linux,
 ---
 
 **Похожие документы:**
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/obsidian/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.88)
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.86)
-- [06-utochnyonnyy-obyom-ingit](docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md) (сходство 0.19)
+- [02-chto-cowork-obespechivaet](../../obsidian/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md) (сходство 0.99)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.84)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../obsidian/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.83)
 

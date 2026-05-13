@@ -8,6 +8,20 @@ date: 2026-05-13
 
 # Appendix A: Minimal Working Example
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -17,22 +31,23 @@ date: 2026-05-13
 >
 
 
-<!-- toc-auto -->
-## Contents
-
-- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [[memnet|A.1. Minimal [nautilus]].json](#a1-minimal-nautilusjson)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
   - [A.3. Minimal Passport](#a3-minimal-passport)
-
-
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+  - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
 <!-- summary -->
 > "passport": "passports/my_notes.md",
 
 ---
 <!-- tags: ingestion -->
-
-
 
 
 ## Appendix A: Minimal Working Example
@@ -124,7 +139,7 @@ class MyNotesAdapter(BaseAdapter):
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[28-appendix-a-minimal-working-example]] (сходство 0.44)
 - [[03-portal-protocol-md]] (сходство 0.11)
 - [[35-passports-info1-md]] (сходство 0.10)
@@ -134,9 +149,30 @@ class MyNotesAdapter(BaseAdapter):
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[28-appendix-a-minimal-working-example]]
 - [[123-portal-mcp-py]]
 - [[03-portal-protocol-md]]
 - [[105-review-methodology-md]]
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (17)
+- [[03-portal-protocol-md]]
+- [[04-abstract]]
+- [[09-4-passport-passport-md]]
+- [[105-review-methodology-md]]
+- [[123-portal-mcp-py]]
+- [[125-readme-mcp-md-инструкция-по-установке]]
+- [[132-planned-v0-2-0]]
+- [[22-10-queryresult-structure]]
+- _...ещё 9_
+
+# Описание
+
+## Описание
+
+Персональная коллекция Markdown-заметок.

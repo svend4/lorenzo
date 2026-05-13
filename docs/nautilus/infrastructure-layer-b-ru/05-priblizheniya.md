@@ -1,5 +1,35 @@
 # Существующие приближения
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Существующие приближения](#существующие-приближения)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-стиль форумы](#discourse-phpbb-стиль-форумы)
+  - [Комбинированные рабочие процессы](#комбинированные-рабочие-процессы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Существующие приближения](#существующие-приближения)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-стиль форумы](#discourse-phpbb-стиль-форумы)
+  - [Комбинированные рабочие процессы](#комбинированные-рабочие-процессы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -124,11 +154,33 @@ AI-сотрудничества над общей работой**.
 
 ---
 
-**Смотрите также:**
-- [294-существующие-приближения](docs/02-anthropic-vacancies/294-существующие-приближения.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
-- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующие приближения"
+```
+
+## Смотрите также
+- [294-существующие-приближения](../../02-anthropic-vacancies/294-существующие-приближения.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+- [04-pochemu-ne-postroeno](04-pochemu-ne-postroeno.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -136,7 +188,7 @@ AI-сотрудничества над общей работой**.
 ---
 
 **Похожие документы:**
-- [294-существующие-приближения](docs/02-anthropic-vacancies/294-существующие-приближения.md) (сходство 0.80)
-- [294-существующие-приближения](docs/obsidian/02-anthropic-vacancies/294-существующие-приближения.md) (сходство 0.79)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md) (сходство 0.18)
+- [05-priblizheniya](../../obsidian/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md) (сходство 0.98)
+- [294-существующие-приближения](../../02-anthropic-vacancies/294-существующие-приближения.md) (сходство 0.76)
+- [294-существующие-приближения](../../obsidian/02-anthropic-vacancies/294-существующие-приближения.md) (сходство 0.76)
 

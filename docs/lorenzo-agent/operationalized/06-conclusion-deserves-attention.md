@@ -1,11 +1,40 @@
 # Вывод: документ deserves serious attention
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Executive summary](#executive-summary)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Executive summary](#executive-summary)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 **Проекты:** Svyazi, mclaude, Rufler, Hybrid RAG, Graph RAG, SENTINEL
 
 ---
 <!-- tags: rag, orchestration, security, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -116,11 +145,33 @@ Continue conversation или pause для обдумывания?
 
 ---
 
-**Смотрите также:**
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Вывод документ deserves serious"
+```
+
+## Смотрите также
+- [04-recommendations](04-recommendations.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [FAQ](../../FAQ.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -128,7 +179,7 @@ Continue conversation или pause для обдумывания?
 ---
 
 **Похожие документы:**
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.19)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md) (сходство 0.18)
-- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.18)
+- [06-conclusion-deserves-attention](../../obsidian/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md) (сходство 0.99)
+- [01-pluses-1-7](01-pluses-1-7.md) (сходство 0.22)
+- [01-pluses-1-7](../../obsidian/lorenzo-agent/operationalized/01-pluses-1-7.md) (сходство 0.22)
 

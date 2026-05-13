@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:203dd7f3da0ce95e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:a3e260b1ed0a5a55",
+  "payload": {
+    "title": "5. Compatibility Levels",
+    "summary": "NPP определяет 4 уровня совместимости Repo с экосистемой. Это",
+    "body": "compatibility levels абстракт авто проблема compatibility levels compatibility levels level discoverable level discoverable level readable level readable level linked level linked level ключевые слова level compatibility levels portalentry anthropic vacancies fallback требования contents compatibility levels compatibility levels level discoverable level discoverable level readable level readable level linked level linked level interactive level interactive npp определяет уровня совместимости repo экосистемой это compatibility levels npp определяет уровня совместимости repo экосистемой это позволяет постепенное подключение level discoverable repo объявлен memnet nautilus json адаптера нет portal знает существовании repo может запрашивать use case анонс намерения подключить repo написания кода требования только запись memnet nautilus json минимально name format repo level readable repo имеет passport адаптер статическими записями portal возвращает static entries use case архивы reference docs стабильные репо требования всё level passport passports адаптер реализует fetch describe раздел fallback entries адаптере записи level linked адаптер производит записи заполненными координатами metadata links другие repos portal может вычислять кросс ссылки визуализировать граф use case активные repos семантическими связями требования всё level каждый интегральный анализ профиля svend portalentry must иметь metadata если маппинг определён для этого repo каждый интегральный анализ профиля svend portalentry should иметь link другой repo level interactive адаптер выполняет live fetch через component catalog github api или эквивалент возвращая реальные данные repo только fallback use case repos глубоко интегрированные экосистемой требования всё level fetch делает real network call timeout сек graceful fallback при ошибке сети api возвращает static entries fallback true интегральный анализ профиля svend portalentry fallback явно помечается похожие документы compatibility levels сходство terminology сходство portalentry structure сходство смотрите также compatibility levels portalentry structure compatibility level terminology",
+    "tags": [
+      "memory",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 381,
+    "path": "docs/obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md"
+  }
+}

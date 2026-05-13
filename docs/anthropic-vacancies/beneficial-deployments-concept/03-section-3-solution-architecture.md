@@ -1,11 +1,27 @@
 # Section 3: Proposed solution architecture (existing components + integration)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 **Проекты:** NGT Memory, Wikontic
 
 ---
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 
 
 
@@ -36,11 +52,35 @@ This is architecturally feasible synthesis, не build-from-scratch. Existing co
 
 ---
 
-**Смотрите также:**
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
-- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 3 Proposed solution"
+```
+
+## Смотрите также
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- _...ещё 6_
 
 
 <!-- similar-docs -->
@@ -48,7 +88,7 @@ This is architecturally feasible synthesis, не build-from-scratch. Existing co
 ---
 
 **Похожие документы:**
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) (сходство 0.35)
-- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md) (сходство 0.34)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) (сходство 0.31)
+- [03-section-3-solution-architecture](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.98)
+- [09-section-9-timeliness](09-section-9-timeliness.md) (сходство 0.53)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md) (сходство 0.53)
 

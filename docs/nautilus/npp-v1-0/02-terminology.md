@@ -1,10 +1,27 @@
 # 2. Terminology
 
+<!-- toc-auto -->
+## Contents
+
+- [2. Terminology](#2-terminology)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
 <!-- tags: architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -56,12 +73,42 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
+<!-- see-also -->
+
+---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Terminology"
+```
+
+## Смотрите также
+- [13-reference-implementation](13-reference-implementation.md)
+- [10-query-result](10-query-result.md)
+- [05-compatibility-levels](05-compatibility-levels.md)
+- [07-2-terminology](../../02-anthropic-vacancies/07-2-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [07-2-terminology](docs/obsidian/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.80)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.78)
-- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md) (сходство 0.62)
+- [02-terminology](../../obsidian/nautilus/npp-v1-0/02-terminology.md) (сходство 0.98)
+- [07-2-terminology](../../obsidian/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.78)
+- [07-2-terminology](../../02-anthropic-vacancies/07-2-terminology.md) (сходство 0.78)
 

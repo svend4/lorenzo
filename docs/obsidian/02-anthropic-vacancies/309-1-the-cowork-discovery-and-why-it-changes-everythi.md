@@ -7,6 +7,11 @@ date: 2026-05-13
 
 # 1. The Cowork Discovery and Why It Changes Everything
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -17,6 +22,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > When Document 2.3 was written earlier in this session, the
 
 ---
@@ -134,7 +143,7 @@ The remainder of this document develops Option C.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[307-abstract]] (сходство 0.19)
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
@@ -144,9 +153,28 @@ The remainder of this document develops Option C.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 The Cowork Discovery and Why It"
+```
+
+## Смотрите также
 - [[307-abstract]]
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [[279-existing-approximations]]
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[280-the-specific-case-in-front-of-us]]
+- [[283-what-this-document-doesn-t-solve]]
+- [[284-practical-recommendations-for-the-current-project]]
+- [[307-abstract]]
+- [[308-table-of-contents]]
+- [[README]]
 

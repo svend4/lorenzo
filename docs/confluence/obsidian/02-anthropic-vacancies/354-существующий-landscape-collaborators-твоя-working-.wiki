@@ -19,6 +19,21 @@ date: 2026-05-13
 h1. Существующий landscape collaborators (твоя working knowledge)
 
 
+h2. Contents
+
+* [Существующий landscape collaborators (твоя working knowledge)|#существующий-landscape-collaborators-твоя-working-knowledge]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Похожие документы|#похожие-документы]
+* [Кто ссылается на этот документ (4)|#кто-ссылается-на-этот-документ-4]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Существующий landscape collaborators (твоя working knowledge) В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more): Проекты: CardIndex, knowl{quote}
@@ -26,6 +41,10 @@ h1. Существующий landscape collaborators (твоя working knowledge
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):{quote}
 _Проекты:_ CardIndex, [[03-component-catalog|knowledge-space]], NGT Memory, Wikontic
@@ -66,7 +85,13 @@ _Existing infrastructure components_:
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующий landscape collaborators"
+{code}
+
+h2. Смотрите также
 * [[WORD_FREQ]]
 * [[341-приложение-c-образец-спецификаций-инструментов-ing]]
 * [[136-abstract]]
@@ -77,8 +102,19 @@ _Смотрите также:_
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[KEYWORD_INDEX]] (сходство 0.17)
 * [[CONSISTENCY]] (сходство 0.16)
 * [[NETWORK]] (сходство 0.14)
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [[136-abstract]]
+* [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+* [[364-final-note-ты-experiment]]
+* [[README]]
 

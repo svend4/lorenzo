@@ -7,6 +7,11 @@ date: 2026-05-13
 
 # Бенчмарки и производительность
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -18,6 +23,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Все ревьюеры работают параллельно, не последовательно → экономия времени. Результаты мержатся в финальный отчёт.
 **Проекты:** Svyazi, Yodoca
 
@@ -116,7 +125,7 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[02-knowledge-graphs]] (сходство 0.14)
 - [[03-local-first]] (сходство 0.11)
 
@@ -125,7 +134,13 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Бенчмарки и производительность"
+```
+
+## Смотрите также
 - [[02-knowledge-graphs]]
 - [[03-local-first]]
 - [[WORD_FREQ]]
@@ -153,3 +168,13 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 - [[01-agent-routing|Агентные системы и роутинг]] _21%_
 - [[02-knowledge-graphs|Графы знаний и Legal AI]] _21%_
 - [[PRIORITIES|Приоритеты файлов]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[01-agent-routing]]
+- [[03-local-first]]
+- [[README]]
+

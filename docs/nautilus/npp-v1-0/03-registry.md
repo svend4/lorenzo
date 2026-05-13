@@ -1,5 +1,36 @@
 # 3. Registry (`nautilus.json`)
 
+<!-- toc-auto -->
+## Contents
+
+- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+
+
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -10,8 +41,6 @@
 
 ---
 <!-- tags: architecture, anthropic -->
-
-
 
 
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
@@ -90,12 +119,24 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 
 ---
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [08-3-registry-nautilus-json](docs/obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.76)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.74)
-- [03-registry](docs/nautilus/npp-v1-1/03-registry.md) (сходство 0.54)
+- [03-registry](../../obsidian/nautilus/npp-v1-0/03-registry.md) (сходство 0.99)
+- [08-3-registry-nautilus-json](../../obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.74)
+- [08-3-registry-nautilus-json](../../02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.73)
 

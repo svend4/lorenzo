@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:dfb71155d6919a28",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6777d48ceebc2811",
+  "payload": {
+    "title": "Сходство 4: Multi-platform reach (17+ платформ)",
+    "summary": "Hermes работает через 17+ messaging platforms — Telegram, Discord, Signal, Email, и т.д. Cowork работает только в Claude Desktop (плюс mobile через Dispatch).",
+    "body": "сходство multi platform reach платформ источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога сравнение собственной архитектуры ingit cowork nautilus hermes agent nous resear смотрите также similarity mcp support similarity mcp support similarity persistent memory similarity persistent memory similarity self hosting privacy similarity self hosting privacy pluses hermes pluses hermes",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 135,
+    "path": "docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md"
+  }
+}

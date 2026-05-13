@@ -1,10 +1,27 @@
 # The Missing Middle Layer Between Chat and Code
 
+<!-- toc-auto -->
+## Contents
+
+- [The Missing Middle Layer Between Chat and Code](#the-missing-middle-layer-between-chat-and-code)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: architecture, anthropic, collaboration -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -38,12 +55,44 @@ applied work demonstrated its absence
 
 ---
 
+<!-- see-also -->
+
+---
+
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Missing Middle Layer Between Chat"
+```
+
+## Смотрите также
+- [13-acknowledgments-refs](13-acknowledgments-refs.md)
+- [10-what-not-solved](10-what-not-solved.md)
+- [12-closing](12-closing.md)
+- [274-the-missing-middle-layer-between-chat-and-code](../../02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [274-the-missing-middle-layer-between-chat-and-code](docs/obsidian/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.56)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.53)
-- [306-with-anthropic-s-cowork-platform](docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.34)
+- [00-intro](../../obsidian/nautilus/infrastructure-layer-b-en/00-intro.md) (сходство 0.98)
+- [274-the-missing-middle-layer-between-chat-and-code](../../obsidian/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.47)
+- [274-the-missing-middle-layer-between-chat-and-code](../../02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.47)
 

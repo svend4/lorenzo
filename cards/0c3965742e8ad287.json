@@ -1,0 +1,64 @@
+{
+  "card_id": "sha256:0c3965742e8ad287",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/132-planned-v0-2-0.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/51-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/61-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/41-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/37-native-format.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:9a0d07057603c111",
+  "payload": {
+    "title": "Planned (v0.2.0)",
+    "summary": "",
+    "body": "planned warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений http mode для debugging remote access похожие документы слой представительских агентов слой представительских агентов сходство смотрите также compatibility level compatibility level compatibility level compatibility level appendix minimal working example appendix minimal working example author contact author contact упоминается passport passport passport passport abstract abstract compatibility level compatibility level for the curious philosophy for the curious philosophy native format native format вакансии anthropic анализ кластерам readme ограничения текущей версии draft ограничения текущей версии draft упоминается вакансии anthropic анализ кластерам readme связанные документы compatibility level compatibility level for the curious philosophy for the curious philosophy passport passport passport passport содержание содержание appendix minimal working example appendix minimal working example native format native format history history appendix minimal working example appendix minimal working example связанные документы abstract abstract compatibility level compatibility level for the curious philosophy for the curious philosophy passport passport passport passport appendix minimal working example appendix minimal working example portal mcp portal mcp подключение claude desktop подключение claude desktop table contents table contents кто ссылается этот документ abstract abstract passport passport passport passport portal mcp portal mcp подключение claude desktop подключение claude desktop ограничения текущей версии draft ограничения текущей версии draft table contents table contents слой представительских агентов слой представительских агентов содержание содержание ещё",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 252,
+    "path": "docs/02-anthropic-vacancies/132-planned-v0-2-0.md"
+  }
+}

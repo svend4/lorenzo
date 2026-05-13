@@ -1,5 +1,16 @@
 # 4. Условия применимости
 
+<!-- toc-auto -->
+## Contents
+
+- [4. Условия применимости](#4-условия-применимости)
+  - [4.1. Когда применять](#41-когда-применять)
+  - [4.2. Когда НЕ применять](#42-когда-не-применять)
+  - [4.3. Когда оппонирует](#43-когда-оппонирует)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -58,11 +69,31 @@ PR
 
 ---
 
-**Смотрите также:**
-- [111-4-условия-применимости](docs/02-anthropic-vacancies/111-4-условия-применимости.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Условия применимости"
+```
+
+## Смотрите также
+- [111-4-условия-применимости](../../02-anthropic-vacancies/111-4-условия-применимости.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [11-application-plan-current-docs](11-application-plan-current-docs.md)
+
+_Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -70,7 +101,7 @@ PR
 ---
 
 **Похожие документы:**
-- [111-4-условия-применимости](docs/obsidian/02-anthropic-vacancies/111-4-условия-применимости.md) (сходство 0.71)
-- [111-4-условия-применимости](docs/02-anthropic-vacancies/111-4-условия-применимости.md) (сходство 0.70)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md) (сходство 0.25)
+- [05-conditions-of-applicability](../../obsidian/nautilus/review-methodology/05-conditions-of-applicability.md) (сходство 0.98)
+- [111-4-условия-применимости](../../02-anthropic-vacancies/111-4-условия-применимости.md) (сходство 0.67)
+- [111-4-условия-применимости](../../obsidian/02-anthropic-vacancies/111-4-условия-применимости.md) (сходство 0.67)
 

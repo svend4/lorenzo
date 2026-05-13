@@ -1,5 +1,20 @@
 # Итоговые выводы и порядок сборки
 
+<!-- toc-auto -->
+## Contents
+
+- [Главный вывод первой части](#главный-вывод-первой-части)
+- [Порядок практической сборки](#порядок-практической-сборки)
+- [Главный вывод второй части](#главный-вывод-второй-части)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источники: `deep-research-report (1).md` (раздел «Выводы») и итог из `deep-research-report (3).md`.
 **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, LiteParse, Yodoca
@@ -32,11 +47,33 @@
 
 ---
 
-**Смотрите также:**
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [14-limitations](docs/01-svyazi/14-limitations.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Итоговые выводы и порядок сборки"
+```
+
+## Смотрите также
+- [08-conclusions](../../01-svyazi/08-conclusions.md)
+- [07-выводы](../../04-ai-collaborations/07-выводы.md)
+- [14-limitations](../../01-svyazi/14-limitations.md)
+- [executive-summary](../overview/executive-summary.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [H-research-to-product-flywheel](../ensembles/H-research-to-product-flywheel.md)
+- [README](README.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -44,7 +81,7 @@
 ---
 
 **Похожие документы:**
-- [08-conclusions](docs/01-svyazi/08-conclusions.md) (сходство 0.51)
-- [08-conclusions](docs/obsidian/01-svyazi/08-conclusions.md) (сходство 0.49)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.47)
+- [conclusions](../../obsidian/svyazi-2-0/limitations/conclusions.md) (сходство 0.98)
+- [08-conclusions](../../01-svyazi/08-conclusions.md) (сходство 0.47)
+- [08-conclusions](../../obsidian/01-svyazi/08-conclusions.md) (сходство 0.47)
 

@@ -33,6 +33,19 @@
     "group": "quality"
   },
   {
+    "name": "improve_ann_index.py",
+    "summary": "ANN-граф на основе hnswlib для ускоренного векторного поиска.",
+    "description": "Строит HNSW-индекс (Hierarchical Navigable Small World) поверх TF-IDF векторов из search_index.json. Замена линейного O(N·D) скана на двухстадийный поиск: Стадия 1: HNSW ANN — O(log N), 0.5мс — быстрый отбор кандидатов Стадия 2: точный TF-IDF только по кандидатам — ещё 2мс Итого:    ~2.5мс вместо ~210мс  → ускорение 80-100×  |  Recall@10 ≥ 0.85",
+    "flags": [
+      "--benchmark",
+      "--build",
+      "--query",
+      "--stats",
+      "--top"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_audit_db.py",
     "summary": "SQLite audit log для всех событий системы.",
     "description": "Собирает 4 типа событий из jsonl-файлов в единую SQLite БД: - mcp_calls (.claude/mcp_calls.jsonl) - workflow_runs (.claude/workflow_runs.jsonl) - skill_metrics (.claude/skill_metrics.jsonl) - llm_cache (.claude/llm_cache.jsonl)",
@@ -44,7 +57,7 @@
       "--top-tools",
       "--workflow-stats"
     ],
-    "group": "без группы"
+    "group": "meta"
   },
   {
     "name": "improve_auto_linker.py",
@@ -118,12 +131,35 @@
   {
     "name": "improve_broken_links.py",
     "summary": "проверяет внутренние ссылки в docs/.",
-    "description": "Находит ссылки на несуществующие файлы и якоря. Создаёт docs/BROKEN_LINKS.md. Новое: --fix автоматически исправляет ссылки с неправильным регистром или лишними ../.",
+    "description": "Находит ссылки на несуществующие файлы и якоря. Создаёт docs/BROKEN_LINKS.md и docs/bad_links.json (пути с ошибками ОС). Новое: --fix автоматически исправляет ссылки с неправильным регистром или лишними ../.",
     "flags": [
       "--dry-run",
-      "--fix"
+      "--fix",
+      "--section"
     ],
     "group": "quality"
+  },
+  {
+    "name": "improve_card_index.py",
+    "summary": "CLI для управления CardEnvelope-карточками.",
+    "description": "Превращает docs/ в карточный индекс (CardStore) согласно PROTOTYPE_SPEC.md. Каждый .md файл → одна CardEnvelope с типом, состоянием, payload и рёбрами. Команды: Флаги:",
+    "flags": [
+      "--approve",
+      "--build",
+      "--decay",
+      "--dry-run",
+      "--export",
+      "--fmt",
+      "--get",
+      "--incremental",
+      "--link",
+      "--rel",
+      "--search",
+      "--section",
+      "--stats",
+      "--verbose"
+    ],
+    "group": "без группы"
   },
   {
     "name": "improve_changelog.py",
@@ -137,7 +173,7 @@
     "summary": "автоматический changelog из git-истории.",
     "description": "Группирует коммиты по типу (feat/fix/docs/chore), строит версионированный лог. Создаёт docs/CHANGELOG_AUTO.md.",
     "flags": [],
-    "group": "без группы"
+    "group": "analytics"
   },
   {
     "name": "improve_chunk_semantic.py",
@@ -179,6 +215,20 @@
     "group": "analysis"
   },
   {
+    "name": "improve_collab_finder.py",
+    "summary": "Collaboration Finder для Svyazi 2.0.",
+    "description": "Реализует PROTOTYPE_SPEC.md Итерация 3: агент анализирует документ или запрос и возвращает топ-5 OSS-проектов-кандидатов для коллаборации, с контактами авторов и шаблонами первого сообщения. Алгоритм (гибридный): 1. Семантический ранг — TF-IDF косинус по cards/tfidf_index.json",
+    "flags": [
+      "--dry-run",
+      "--file",
+      "--out",
+      "--query",
+      "--top",
+      "--type"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_compare.py",
     "summary": "сравнивает текущее состояние docs/ с предыдущим коммитом.",
     "description": "Показывает: новые файлы, удалённые, изменившиеся, рост/падение слов. Создаёт docs/COMPARE.md.",
@@ -211,7 +261,7 @@
     "summary": "матрица совместимости и возможностей компонентов.",
     "description": "Показывает какие компоненты поддерживают какие функции (memory, search, MCP, ...). Создаёт docs/COMPONENT_MATRIX.md.",
     "flags": [],
-    "group": "без группы"
+    "group": "meta"
   },
   {
     "name": "improve_concept_graph.py",
@@ -382,7 +432,7 @@
     "summary": "карта зависимостей: скрипты → выходные файлы.",
     "description": "Показывает что каждый improve_*.py производит и от чего зависит. Создаёт docs/DEPENDENCY_MAP.md.",
     "flags": [],
-    "group": "без группы"
+    "group": "analytics"
   },
   {
     "name": "improve_digest.py",
@@ -407,7 +457,7 @@
     "summary": "еженедельный дайджест изменений репозитория.",
     "description": "Показывает: новые файлы, изменённые, топ-активные папки, прирост слов. Создаёт docs/DIGEST_WEEKLY.md.",
     "flags": [],
-    "group": "без группы"
+    "group": "analytics"
   },
   {
     "name": "improve_duplicate_across.py",
@@ -421,6 +471,20 @@
       "--threshold"
     ],
     "group": "textwork"
+  },
+  {
+    "name": "improve_embedding_index.py",
+    "summary": "TF-IDF семантический индекс над CardStore.",
+    "description": "Строит TF-IDF векторы для всех карточек; поддерживает косинусное сходство без внешних ML-зависимостей (pure Python + stdlib math). Индекс сохраняется в cards/tfidf_index.json: { \"idf\": {token: float}, \"vectors\": {card_id: {token: float}}, \"meta\": {...} } Команды:",
+    "flags": [
+      "--index",
+      "--query",
+      "--similar",
+      "--stats",
+      "--top",
+      "--type"
+    ],
+    "group": "без группы"
   },
   {
     "name": "improve_empty_sections.py",
@@ -452,7 +516,7 @@
       "--section",
       "--title"
     ],
-    "group": "без группы"
+    "group": "export"
   },
   {
     "name": "improve_export_csv.py",
@@ -498,7 +562,7 @@
       "--section",
       "--url"
     ],
-    "group": "без группы"
+    "group": "textwork"
   },
   {
     "name": "improve_extract_code.py",
@@ -611,7 +675,7 @@
     "summary": "главный навигационный хаб docs/.",
     "description": "Собирает все ключевые документы, статистику, ссылки в один docs/INDEX.md. Служит точкой входа для навигации по всей документации.",
     "flags": [],
-    "group": "без группы"
+    "group": "meta"
   },
   {
     "name": "improve_index_update.py",
@@ -651,7 +715,7 @@
     "summary": "исторические снапшоты ключевых метрик.",
     "description": "Читает текущие метрики из docs/, добавляет запись с датой в историю, строит таблицу трендов. Создаёт docs/KPI_HISTORY.md.",
     "flags": [],
-    "group": "без группы"
+    "group": "meta"
   },
   {
     "name": "improve_language_split.py",
@@ -674,7 +738,7 @@
       "--section",
       "--timeout"
     ],
-    "group": "без группы"
+    "group": "quality"
   },
   {
     "name": "improve_llm_contact.py",
@@ -737,14 +801,14 @@
     "summary": "статистика вызовов MCP-серверов.",
     "description": "Читает .claude/mcp_calls.jsonl и формирует docs/MCP_DASHBOARD.md: - сколько вызовов на каждый сервер - топ-инструменты по частоте - средняя длительность - ошибки",
     "flags": [],
-    "group": "без группы"
+    "group": "mcp"
   },
   {
     "name": "improve_mcp_test.py",
     "summary": "smoke-тесты для всех MCP-серверов.",
     "description": "Проверяет: 1. Что каждый сервер импортируется без ошибок 2. Что dispatch() возвращает строку для известных инструментов 3. Что dispatch() обрабатывает unknown tool gracefully Не запускает stdio_server (требует MCP-клиента).",
     "flags": [],
-    "group": "без группы"
+    "group": "mcp"
   },
   {
     "name": "improve_merge_by_topic.py",
@@ -762,8 +826,10 @@
   {
     "name": "improve_merge_short.py",
     "summary": "сливает слишком короткие файлы с предыдущим соседом.",
-    "description": "",
-    "flags": [],
+    "description": "Файлы короче MIN_CHARS символов присоединяются к предыдущему файлу той же папки и удаляются. Операция необратима — используйте --dry-run перед применением.",
+    "flags": [
+      "--dry-run"
+    ],
     "group": "structure"
   },
   {
@@ -781,7 +847,7 @@
       "--apply",
       "--dry-run"
     ],
-    "group": "без группы"
+    "group": "contacts-ext"
   },
   {
     "name": "improve_mindmap.py",
@@ -825,7 +891,7 @@
   {
     "name": "improve_obsidian.py",
     "summary": "готовит docs/ для импорта в Obsidian.",
-    "description": "Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет [Text](../path/file.md) → [[file]] (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)",
+    "description": "Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет `[Text](../path/file.md)` → [[file]] (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)",
     "flags": [
       "--dry-run",
       "--in-place",
@@ -838,7 +904,7 @@
     "summary": "руководство для новых участников проекта.",
     "description": "Собирает: структуру repo, первые шаги, ключевые файлы, скрипты, контакты. Создаёт docs/ONBOARDING.md.",
     "flags": [],
-    "group": "без группы"
+    "group": "meta"
   },
   {
     "name": "improve_orphans.py",
@@ -904,6 +970,17 @@
     "group": "cicd"
   },
   {
+    "name": "improve_precision_eval.py",
+    "summary": "автоматическая оценка Hit Rate@K.",
+    "description": "Закрывает метрику из PROTOTYPE_SPEC §8: «Retrieval Hit Rate@10 ≥ 0.70» (≥ 70% запросов находят релевантный документ в топ-10). Методология — pseudo-relevance evaluation без ручной разметки: 1. 20 эталонных запросов с известными релевантными документами. 2. Запуск hybrid_search() с фильтром шумовых документов.",
+    "flags": [
+      "--json",
+      "--k",
+      "--verbose"
+    ],
+    "group": "quality"
+  },
+  {
     "name": "improve_priorities.py",
     "summary": "ранжирует файлы по важности через TF-IDF.",
     "description": "Ключевые термины = названия проектов + архитектурные понятия. Создаёт docs/PRIORITIES.md.",
@@ -932,6 +1009,13 @@
     "description": "Вопросы строятся детерминированно из заголовков и ключевых слов. Создаёт docs/QA.md и QA-файл в каждой подпапке.",
     "flags": [],
     "group": "reports"
+  },
+  {
+    "name": "improve_quality_patch.py",
+    "summary": "добавляет недостающие элементы качества во все docs/*.md.",
+    "description": "",
+    "flags": [],
+    "group": "meta"
   },
   {
     "name": "improve_question_extractor.py",
@@ -997,6 +1081,23 @@
     "group": "structure"
   },
   {
+    "name": "improve_recipe.py",
+    "summary": "умная система рецептов: последовательности скриптов под конкретную цель.",
+    "description": "Рецепт = именованная цепочка скриптов для решения типовой задачи. Встроенные рецепты охватывают 21 группу; пользователь может добавлять свои. Команды:",
+    "flags": [
+      "--add",
+      "--delete",
+      "--desc",
+      "--dry-run",
+      "--find",
+      "--info",
+      "--list",
+      "--run",
+      "--scripts"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_reclassify.py",
     "summary": "раскладывает файлы по подпапкам на основе TF-IDF тематики.",
     "description": "Алгоритм: 1. TF-IDF по всем файлам секции 2. k-means кластеризация (без numpy: по ключевым словам) 3. Именование кластеров по топ-словам 4. Предложение подпапок + перемещение файлов (с --apply)",
@@ -1013,7 +1114,7 @@
     "summary": "единый реестр всех артефактов проекта в docs/REGISTRY.md.",
     "description": "Сводит в одну таблицу: - Скрипты (из docs/SCRIPTS_CATALOG.md) - Шаблоны (из docs/templates/_schemas/) - Скилы (из .claude/skills/) - MCP-серверы (из .claude/mcp.json)",
     "flags": [],
-    "group": "без группы"
+    "group": "reports"
   },
   {
     "name": "improve_report.py",
@@ -1027,7 +1128,7 @@
     "summary": "реестр рисков проекта Svyazi 2.0.",
     "description": "Извлекает риски из документов (слова: риск, проблема, блокер, угроза), дополняет курированным списком, строит матрицу вероятность × влияние. Создаёт docs/RISK_REGISTER.md.",
     "flags": [],
-    "group": "без группы"
+    "group": "meta"
   },
   {
     "name": "improve_rss.py",
@@ -1078,6 +1179,16 @@
     "group": "index"
   },
   {
+    "name": "improve_search_repl.py",
+    "summary": "интерактивный поисковый терминал (REPL).",
+    "description": "Объединяет несколько поисковых движков в одном интерфейсе: • BM25-поиск по абзацам (из passages.json или live-индекс) • Полнотекстовый поиск по всем docs/ • Навигация по результатам (:related, :open, :list) Команды в REPL:",
+    "flags": [
+      "--index",
+      "--query"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_see_also.py",
     "summary": "добавляет блок \"See Also / Смотрите также\"",
     "description": "в ключевые документы на основе тематического сходства. Создаёт docs/SEE_ALSO.md (индекс) и вставляет блоки в файлы.",
@@ -1085,11 +1196,51 @@
     "group": "generate"
   },
   {
+    "name": "improve_self.py",
+    "summary": "метаскрипт: читает все скрипты, строит каталог, обогащает, генерирует.",
+    "description": "Режимы:",
+    "flags": [
+      "--apply",
+      "--audit",
+      "--batch",
+      "--catalog",
+      "--cross-read",
+      "--dry-run",
+      "--enrich",
+      "--generate"
+    ],
+    "group": "без группы"
+  },
+  {
+    "name": "improve_semantic_search.py",
+    "summary": "Unified semantic search over the knowledge base.",
+    "description": "Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level semantic similarity (cards/tfidf_index.json) 2. BM25 passages  — paragraph-level keyword search  (docs/passages.json) 3. Full-text      — simple substring match across all docs Commands:",
+    "flags": [
+      "--json",
+      "--mode",
+      "--query",
+      "--section",
+      "--top",
+      "--type"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_sentiment.py",
     "summary": "тональный анализ документов.",
     "description": "Оценивает: оптимизм, скептицизм, срочность, неопределённость. Создаёт docs/SENTIMENT.md.",
     "flags": [],
     "group": "analysis"
+  },
+  {
+    "name": "improve_sentinel_check.py",
+    "summary": "SENTINEL security audit для Svyazi 2.0.",
+    "description": "Проверяет репозиторий на: 1. PII-утечки (email, телефоны, API-ключи в docs/) 2. Небезопасные паттерны в скриптах (shell injection, hardcoded secrets) 3. Лицензионные конфликты (BSL/proprietary vs MIT/Apache в одном ансамбле) 4. Орфанные credentials (файлы .env, *.key, *.pem)",
+    "flags": [
+      "--section",
+      "--strict"
+    ],
+    "group": "quality"
   },
   {
     "name": "improve_similar.py",
@@ -1122,7 +1273,7 @@
     "summary": "статистика использования и оценок скилов.",
     "description": "Читает .claude/skill_metrics.jsonl и формирует docs/SKILL_DASHBOARD.md: - какие скилы используются чаще - средняя оценка по 4 осям - тренд за последние N дней - топ feedback'ов",
     "flags": [],
-    "group": "без группы"
+    "group": "reports"
   },
   {
     "name": "improve_source_map.py",
@@ -1168,7 +1319,7 @@
     "summary": "генератор SVG status badges для README.",
     "description": "Создаёт docs/badges/*.svg для: - tests        → 101 passing | 99 failing - templates    → 22 templates - skills       → 28 skills - mcp-servers  → 9 servers",
     "flags": [],
-    "group": "без группы"
+    "group": "structure"
   },
   {
     "name": "improve_subtopic_fill.py",
@@ -1213,7 +1364,7 @@
     "summary": "tech radar для технологий проекта Svyazi 2.0.",
     "description": "Классифицирует компоненты по 4 квадрантам: ADOPT / TRIAL / ASSESS / HOLD. Создаёт docs/TECH_RADAR.md.",
     "flags": [],
-    "group": "без группы"
+    "group": "meta"
   },
   {
     "name": "improve_template_init.py",
@@ -1233,10 +1384,11 @@
     "summary": "проверка целостности шаблонов.",
     "description": "Проверяет, что бот / автоматические скрипты не «загрязнили» шаблоны: - <!-- summary --> блоков без контента - дублирующих <!-- summary: ... --> комментариев - > [!TIP] / > [!WARNING] callout'ов - <!-- alert-added --> маркеров",
     "flags": [
+      "--dry-run",
       "--fix",
       "--strict"
     ],
-    "group": "без группы"
+    "group": "quality"
   },
   {
     "name": "improve_template_migrate.py",
@@ -1336,7 +1488,7 @@
       "--section",
       "--strict"
     ],
-    "group": "без группы"
+    "group": "quality"
   },
   {
     "name": "improve_version_diff.py",

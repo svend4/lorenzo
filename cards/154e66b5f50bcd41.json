@@ -1,0 +1,82 @@
+{
+  "card_id": "sha256:154e66b5f50bcd41",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/OUTLINE.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/ABBREVIATIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ALERTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/AUTHORS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/AUTOFILLED.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BACKLINKS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BADGES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CHANGELOG.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CHANGELOG_AUTO.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CLUSTERS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:b14097425765e395",
+  "payload": {
+    "title": "Outline базы знаний",
+    "summary": "",
+    "body": "outline базы знаний обновлено секций файлов содержание docs docs файлов svyazi svyazi файлов anthropic vacancies anthropic vacancies файлов technology combinations technology combinations файлов collaborations collaborations файлов habr projects habr projects файлов collaborations collaborations файлов anthropic vacancies anthropic vacancies файлов autofilled autofilled файлов badges badges файлов contacts contacts файлов glossary glossary файлов habr unique projects habr unique projects файлов lorenzo agent lorenzo agent файлов meta scripting meta scripting файлов nautilus nautilus файлов processing guide processing guide файлов svyazi svyazi файлов technology combinations technology combinations файлов templates templates файлов docs docs словарь аббревиатур сокращений abbreviations tip самые часто используемые слов action items риски решения action items автоматически извлечено всех документов следующие шаги решения рекомендации риски ограничения задачи todo контактные действия слов callout блоки alerts добавлено callout блоков документы пример синтаксиса слов авторы коллаборации authors авторы проектов упоминаемые исследованиях слов автозаполненные шаблоны autofilled источники entities scoring network docs templates файлы как работает связанные документы связанные документы упоминается слов индекс обратных ссылок backlinks файлов входящими ссылками топ самых цитируемых документов ссылки разделам слов status badges badges обновлено превью markdown сниппеты для readme слов changelog changelog всего коммитов semantic коммитов коммитов коммитов коммитов skip коммитов скила коммитов step коммитов коммитов слов changelog авто changelog auto статистика коммитов статистика коммитов содержание contents статистика коммитов история изменений упоминается связанные документы слов кластеры тематически близких файлов clusters tip кластер turn view svyazi cardindex файлов кластер anthropic vacancies docs mediated representation for underrepresented author contact файлов кластер cowork ingit anthropic vacancies docs файлов кластер repo passport docs str файлов кластер principal agent professional agents файлов кластер github documents com document файлов кластер профиль связи сообщение первое файлов кластер composite skills agent representative agent layer markdown сходство файлов ещё разделов слов code блоки репозитория code blocks tip диаграммы mermaid обрезано обрезано python обрезано обрезано обрезано yaml ещё разделов слов сравнение предыдущим коммитом compare файлов было стало новые файлы удалённые файлы изменившиеся файлы топ слов слов оценка читаемости документов complexity warning распределение сложности самые сложные документы самые простые документы методология слов матрица компонентов svyazi component matrix tip содержание contents матрица возможностей покрытие возможностей каталог компонентов рекомендуемые ансамбли связанные документы связанные документы ещё разделов слов глоссарий понятий concepts tip ещё разделов слов граф концептов базы знаний concept graph концептов связей мин вес диаграмма топ концептов связям слов согласованность терминов consistency анализ различных написаний одних тех терминов детали файлам как исправить пример заменить все вхождения docs слов контакты авторы contacts автор проект слой упомянут файлах первый вопрос ключевые авторы проектов github репозитории email адреса шаблон первого сообщения слов приоритет контактов contact priority обновлено топ авторов приоритету рекомендуемые следующие шаги формула расчёта балла слов противоречия базе знаний contradictions warning содержание найденные противоречия слов оценка стоимости mvp cost ориентировочные цифры основе документации проекта итого компонентам ролям сценарии временные оценки документов допущения слов перекрёстные ссылки crossrefs tip проекты файлы файлы проекты слов кросс секционный анализ cross section косинусное сходство idf векторов содержание матрица сходства секций граф связей топ кросс секционных концептов детальная карта концептов слов ключевые решения выводы decisions автоматически извлечено всех документов записей архитектура mvp память оркестрация безопасность лицензия риски контакты ещё разделов слов карта плотности тем density tip наиболее раскрытые темы слабо раскрытые темы где сосредоточена каждая тема слов мониторинг зависимостей dependabot обновлено python зависимости oss проекты svyazi автоматизация генерировать github dependabot yml проверить актуальные версии pypi слов карта зависимостей скриптов dependency map что каждый improve производит чего зависит содержание зависимости скрипты без карты зависимостей порядок запуска рекомендуемый слов дайджест изменений digest chore update generated docs auto enrichment toc summaries meta scripting последний коммит последние коммита итого новые документы история коммитов последние текущее состояние репозитория слов автодайджест изменений digest auto период дней сводка активность секциям последние коммиты новые файлы изменённые файлы ключевые слова изменений новые концепты слов еженедельный дайджест digest weekly период последние дней итого коммиты слов отчёт дублировании duplicates tip точные дубли одинаковое содержимое похожие файлы jaccard слов пустые секции empty sections tip содержание файлы пустых секций приоритет все файлы пустыми секциями слов именованные сущности entities файлов просмотрено люди авторы проекты организации технологии стандарты github репозитории встречаемость проектов топ пары слов часто задаваемые вопросы faq faq извлечено вопросов ответов архитектура mvp запуск компоненты интеграция лицензия общее слов сноски определения терминов footnotes обновлено файлов вставлено сносок словарь сносок как это работает слов глоссарий проектов glossary все проекты упоминаемые документах количеством файлов слов граф связей проектов graph рёбра совместные упоминания одном файле раз топ совместных упоминаний dot формат graphviz слов аудит заголовков heading audit tip содержание типы проблем файлам слов health dashboard health обновлено общий балл метрики структура репозитория action items скрипты обработки рекомендации слов тепловая карта тем heatmap tip числовые значения доминирующие темы разделам концентрация тем слов индекс документации lorenzo svyazi index tip содержание метрики репозитория разделы документации аналитика отчёты ключевые документы llm обогащение ступень быстрый старт читать документацию ещё разделов слов инвертированный индекс ключевых слов keyword index проблема инвертированный индекс ключевых слов обновлено",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Auto AI Router",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 32190,
+    "path": "docs/OUTLINE.md"
+  }
+}

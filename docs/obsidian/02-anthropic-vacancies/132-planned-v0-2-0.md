@@ -8,6 +8,25 @@ date: 2026-05-13
 
 # Planned (v0.2.0)
 
+<!-- toc-auto -->
+## Contents
+
+- [Planned (v0.2.0)](#planned-v020)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (17)](#кто-ссылается-на-этот-документ-17)
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - HTTP-mode для debugging и remote access
 
@@ -29,7 +48,7 @@ date: 2026-05-13
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[187-слой-представительских-агентов-md]] (сходство 0.12)
 
 
@@ -37,7 +56,14 @@ date: 2026-05-13
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Planned v0 2 0"
+```
+
+## Смотрите также
 - [[51-compatibility-level]]
 - [[61-compatibility-level]]
 - [[28-appendix-a-minimal-working-example]]
@@ -75,6 +101,22 @@ date: 2026-05-13
 - [[44-for-the-curious-philosophy|For the Curious: Philosophy]] _29%_
 - [[09-4-passport-passport-md|4. Passport (`passport.md`)]] _25%_
 - [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _25%_
-- [[123-portal-mcp-py|portal-mcp.py]] _21%_
+- portal-[[123-portal-mcp-py|mcp.py]] _21%_
 - [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] _21%_
 - [[154-table-of-contents|Table of Contents]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (17)
+- [[04-abstract]]
+- [[09-4-passport-passport-md]]
+- 123-portal-[[123-portal-mcp-py|mcp-py]]
+- 127-подключение-к-[[127-подключение-к-claude-desktop|claude-desktop]]
+- [[131-ограничения-текущей-версии-0-1-0-draft]]
+- [[154-table-of-contents]]
+- [[187-слой-представительских-агентов-md]]
+- [[326-содержание]]
+- _...ещё 9_
+

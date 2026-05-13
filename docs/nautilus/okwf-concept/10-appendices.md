@@ -1,11 +1,20 @@
 # 10. Appendices
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [10. Appendices](#10-appendices)
@@ -132,11 +141,33 @@ These questions await substantive input from partners:
 
 ---
 
-**Смотрите также:**
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
-- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Appendices"
+```
+
+## Смотрите также
+- [164-10-appendices](../../02-anthropic-vacancies/164-10-appendices.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [08-pilot-sgb-advocate](../professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [02-target-populations](02-target-populations.md)
+- [06-governance-ethics](06-governance-ethics.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -144,7 +175,7 @@ These questions await substantive input from partners:
 ---
 
 **Похожие документы:**
-- [164-10-appendices](docs/obsidian/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.75)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.73)
-- [00-abstract](docs/nautilus/okwf-concept/00-abstract.md) (сходство 0.22)
+- [10-appendices](../../obsidian/nautilus/okwf-concept/10-appendices.md) (сходство 0.98)
+- [164-10-appendices](../../02-anthropic-vacancies/164-10-appendices.md) (сходство 0.74)
+- [164-10-appendices](../../obsidian/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.74)
 

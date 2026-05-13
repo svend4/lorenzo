@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:babe9bc2b7cfba4e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/36-essence.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/46-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/56-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/39-angle-perspective.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/12-content-overview.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:a946c9dc5b9476c3",
+  "payload": {
+    "title": "Essence",
+    "summary": "`[info1](01-интегральный-анализ-профиля-svend4.md)` — персональная база методов и инструментов для структурированного",
+    "body": "essence info персональная база методов инструментов для структурированного похожие документы essence essence сходство essence essence сходство angle perspective angle perspective сходство смотрите также essence essence angle perspective angle perspective passports info интегральный анализ профиля svend docs anthropic vacancies passports info passports pro интегральный анализ профиля svend docs anthropic vacancies passports pro кто ссылается этот документ content overview content overview angle perspective angle perspective content overview content overview passports info passports info angle perspective angle perspective passports pro passports pro angle perspective angle perspective passports meta passports meta ещё",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 157,
+    "path": "docs/02-anthropic-vacancies/36-essence.md"
+  }
+}

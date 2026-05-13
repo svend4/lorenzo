@@ -9,7 +9,30 @@ date: 2026-05-13
 
 # Appendix A: Connection to Companion Papers
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Connection to Companion Papers](#appendix-a-connection-to-companion-papers)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > This paper builds on three previous documents:
 
 ---
@@ -47,7 +70,7 @@ work and beyond.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.24)
 - [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.22)
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.21)
@@ -57,7 +80,13 @@ work and beyond.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A Connection to Companion"
+```
+
+## Смотрите также
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 - [[251-ai-support-through-configurable-specialist-ensembl]]
 - [[274-the-missing-middle-layer-between-chat-and-code]]
@@ -107,3 +136,19 @@ work and beyond.
 - [[146-acknowledgments|Acknowledgments]] _42%_
 - [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _42%_
 - [[268-references|References]] _37%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [[137-table-of-contents]]
+- [[146-acknowledgments]]
+- [[167-ai-mediated-representation-for-underrepresented-ex]]
+- [[182-acknowledgments]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[224-acknowledgments]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- [[267-acknowledgments]]
+- _...ещё 6_
+

@@ -1,16 +1,9 @@
 # Abstract
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [Abstract](#abstract)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -22,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > We introduce the **Double-Triangle Architecture** for human-AI
 
 ---
@@ -58,7 +55,7 @@ knowledge work.
 
 Existing systems implement only one triangle: personal assistants 
 (Cursor, Copilot, ChatGPT) operate in the lower triangle only; 
-multi-agent frameworks (CrewAI, MetaGPT, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)) operate in the 
+multi-agent frameworks (CrewAI, MetaGPT, [AutoGen](01-интегральный-анализ-профиля-svend4.md)) operate in the 
 upper triangle only and typically replace humans rather than 
 augment them. Neither paradigm captures the full structure of how 
 humans will actually work alongside AI over the next decade.
@@ -92,7 +89,7 @@ unsolved issues.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.19)
 - [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.18)
 - [148-appendix-a-glossary](148-appendix-a-glossary.md) (сходство 0.17)
@@ -102,7 +99,13 @@ unsolved issues.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+```
+
+## Смотрите также
 - [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [137-table-of-contents](137-table-of-contents.md)
@@ -148,3 +151,19 @@ unsolved issues.
 - [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _21%_
 - [5. Pattern Library as Bridge Between Triangles](142-5-pattern-library-as-bridge-between-triangles.md) _21%_
 - [Appendix A: Glossary](148-appendix-a-glossary.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [137-table-of-contents](137-table-of-contents.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- _...ещё 1_
+

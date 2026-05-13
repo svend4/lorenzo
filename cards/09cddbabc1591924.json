@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:09cddbabc1591924",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/10-second-order-ensembles.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/ensembles/C-multi-agent-factory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/limitations/conclusions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:469afdc0c19713f4",
+  "payload": {
+    "title": "Ансамбль H — Research‑to‑Product Flywheel",
+    "summary": "A[Новый кейс / ошибка / спорный match] --> B[knowledge-space inbox]",
+    "body": "ансамбль research product flywheel источник deep research report проекты svyazi knowledge space mclaude factory rufler autoresearch смотрите также second order ensembles svyazi second order ensembles новые ансамбли следующего шага collaborations новые ансамбли следующего шага multi agent factory multi agent factory conclusions limitations conclusions",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "AutoResearch"
+    ],
+    "wc": 234,
+    "path": "docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md"
+  }
+}

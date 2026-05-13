@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:2964519eeb6f80b7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/meta-scripting/02-architecture.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/meta-scripting/05-synthesis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/132-planned-v0-2-0.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:1c5f611db6302a7d",
+  "payload": {
+    "title": "Метаскриптинг — Часть 2: Архитектура",
+    "summary": "дерево: функции, классы, импорты, аргументы — всё как объекты, без выполнения кода.",
+    "body": "метаскриптинг часть архитектура warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений как устроен скрипт который читает другие скрипты как устроен скрипт который читает другие скрипты ключевой инструмент ast ast abstract syntax tree стандартный модуль python читает файл возвращает дерево функции классы импорты аргументы всё как объекты без выполнения кода import ast source open scripts improve health read tree ast parse source for node ast walk tree isinstance node ast functiondef print функция node name строка node lineno isinstance node ast import print импорт name for node names почему ast grep grep def scripts находит строки текстом def ast понимает структуру это функция вот аргументы вот что она возвращает вот docstring что можно извлечь скрипта через ast class scriptinfo name str имя файла module doc str первый docstring модуля functions list все def аргументы docstring imports list все import from import constants list root docs output глобальные переменные reads list open path read text что читает writes list write text open что пишет cli args list argparse sys argv какие флаги принимает calls list какие другие скрипты функции вызывает этих данных строится полная карта скрипта четыре режима метаскрипта режим audit аудит читает все скриптов выдаёт отчёт без docstring скрипта без аргументов cli скрипт без вывода docs скриптов дублирующие функции пар упомянуты docs существуют скриптов режим enrich обогащение берёт конкретный скрипт читает его через ast добавляет или улучшает docstring типизацию аннотации примеры комментариях секцию name main режим generate генерация шаблону описанию задачи создаёт новый скрипт все скриптов это обучающий датасет паттернов режим cross read перекрёстное чтение читает скрипты docs одновременно находит скрипты упомянутые docs которых нет scripts скрипты scripts которых нет docs несоответствия между описанием claude реальным кодом структура данных scriptcatalog catalog improve health doc дашборд здоровья репозитория inputs docs outputs docs health args imports pathlib datetime group quality has dry run false risk green green yellow red lines functions count files calc score write health improve crosslink all doc добавляет обратные ссылки каждый файл inputs docs outputs docs перезаписывает входные файлы args apply dry run keywords risk red этот каталог основа для всех остальных операций паттерн читаю понимаю улучшаю вход анализ выход improve ast что делает обогащённый скрипт docs что говорим исправленный docstring claude что ждём новый скрипт шаблону другие скрипты паттерн раздел документации безопасность метаскрипт меняет чужой код без apply как все контентные скрипты метаскрипт работает правилу python scripts improve self audit только читает python scripts improve self enrich dry run показывает что изменит python scripts improve self enrich apply применяет никогда меняет чужой файл без явного apply смотрите также synthesis synthesis appendix шаблон для header warning anthropic vacancies appendix шаблон для header warning appendix примеры расхождений разрешения anthropic vacancies appendix примеры расхождений разрешения planned anthropic vacancies planned",
+    "tags": [
+      "security",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 614,
+    "path": "docs/meta-scripting/02-architecture.md"
+  }
+}

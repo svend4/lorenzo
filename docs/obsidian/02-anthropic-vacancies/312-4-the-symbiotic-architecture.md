@@ -7,10 +7,14 @@ date: 2026-05-13
 
 # 4. The Symbiotic Architecture
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
   - [4.1. Layer Decomposition](#41-layer-decomposition)
   - [4.2. How They Interact](#42-how-they-interact)
@@ -21,22 +25,16 @@ date: 2026-05-13
 
 
 <!-- abstract-auto -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** --- --- Похожие документы: - 311-3-what-ingit-provides-that-cowork-lacks(docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.18) - 307-abstract(
 > ✅ **Результат:** The Symbiotic Architecture The combination of InGit and Cowork creates an architecture neither alone provides.
 > 🏷️ **Ключевые слова:** `cowork`, `ingit`, `provides`, `state`, `architecture`, `anthropic`, `vacancies`, `operates`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)
-  - [4.1. Layer Decomposition](#41-layer-decomposition)
-  - [4.2. How They Interact](#42-how-they-interact)
-  - [4.3. Where Each Operates](#43-where-each-operates)
-  - [4.4. Shared State](#44-shared-state)
 
 
 <!-- summary -->
@@ -185,7 +183,7 @@ state. Cowork memory is convenience, not authority.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.18)
 - [[307-abstract]] (сходство 0.16)
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
@@ -195,9 +193,20 @@ state. Cowork memory is convenience, not authority.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[306-with-anthropic-s-cowork-platform|311-3-what-[ingit]]-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 - [[307-abstract]]
 - [[306-with-anthropic-s-cowork-platform|310-2-what-cowork-provides-that-[ingit]]-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [[168-abstract]]
+- [[307-abstract]]
+- [[308-table-of-contents]]
+- [[README]]
 

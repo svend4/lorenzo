@@ -1,10 +1,26 @@
 # Пара 1 — Workflow-автоматизация × LLM-агенты с MCP
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag, orchestration, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +43,34 @@ Event-driven legal watcher — Huginn собирает RSS/обновления 
 
 ---
 
-**Смотрите также:**
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [5-browser-agents-headless](docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 1 Workflow автоматизация LLM"
+```
+
+## Смотрите также
+- [4-skill-catalogs-subagents](../deep-pairs/4-skill-catalogs-subagents.md)
+- [5-browser-agents-headless](5-browser-agents-headless.md)
+- [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md)
+- 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [3-adversarial-multi-ide](../deep-pairs/3-adversarial-multi-ide.md)
+- [4-skill-catalogs-subagents](../deep-pairs/4-skill-catalogs-subagents.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -39,7 +78,7 @@ Event-driven legal watcher — Huginn собирает RSS/обновления 
 ---
 
 **Похожие документы:**
-- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md) (сходство 0.19)
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md) (сходство 0.19)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.18)
+- [1-workflow-llm-mcp](../../obsidian/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.96)
+- [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md) (сходство 0.24)
+- [6-tmux-village-openclaw](../../obsidian/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.23)
 

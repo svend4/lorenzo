@@ -1,10 +1,27 @@
 # Заключение
 
+<!-- toc-auto -->
+## Contents
+
+- [Заключение](#заключение)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 <!-- tags: architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -56,11 +73,35 @@ AI-координированной интеллектуальной работ�
 
 ---
 
-**Смотрите также:**
-- [300-заключение](docs/02-anthropic-vacancies/300-заключение.md)
-- [07-rekursivnoe-prozrenie](docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md)
-- [04-pochemu-ne-postroeno](docs/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md)
-- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Заключение"
+```
+
+## Смотрите также
+- [300-заключение](../../02-anthropic-vacancies/300-заключение.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
+- [04-pochemu-ne-postroeno](04-pochemu-ne-postroeno.md)
+- [09-ne-reshaet](09-ne-reshaet.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-zachem-dokument](01-zachem-dokument.md)
+- [04-pochemu-ne-postroeno](04-pochemu-ne-postroeno.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -68,7 +109,7 @@ AI-координированной интеллектуальной работ�
 ---
 
 **Похожие документы:**
-- [300-заключение](docs/02-anthropic-vacancies/300-заключение.md) (сходство 0.77)
-- [300-заключение](docs/obsidian/02-anthropic-vacancies/300-заключение.md) (сходство 0.73)
-- [07-rekursivnoe-prozrenie](docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md) (сходство 0.20)
+- [11-zaklyuchenie](../../obsidian/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md) (сходство 0.98)
+- [300-заключение](../../02-anthropic-vacancies/300-заключение.md) (сходство 0.71)
+- [300-заключение](../../obsidian/02-anthropic-vacancies/300-заключение.md) (сходство 0.70)
 

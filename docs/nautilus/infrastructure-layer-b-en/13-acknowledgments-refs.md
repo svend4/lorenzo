@@ -1,11 +1,20 @@
 # Acknowledgments
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [Acknowledgments](#acknowledgments)
@@ -142,11 +151,24 @@ placed where infrastructure considerations naturally fit.
 
 ---
 
-**Смотрите также:**
-- [287-references](docs/02-anthropic-vacancies/287-references.md)
-- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+## Смотрите также
+- [287-references](../../02-anthropic-vacancies/287-references.md)
+- [286-acknowledgments](../../02-anthropic-vacancies/286-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](../../02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-intro](00-intro.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -154,7 +176,7 @@ placed where infrastructure considerations naturally fit.
 ---
 
 **Похожие документы:**
-- [287-references](docs/02-anthropic-vacancies/287-references.md) (сходство 0.45)
-- [287-references](docs/obsidian/02-anthropic-vacancies/287-references.md) (сходство 0.45)
-- [286-acknowledgments](docs/obsidian/02-anthropic-vacancies/286-acknowledgments.md) (сходство 0.41)
+- [13-acknowledgments-refs](../../obsidian/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md) (сходство 0.99)
+- [287-references](../../02-anthropic-vacancies/287-references.md) (сходство 0.46)
+- [287-references](../../obsidian/02-anthropic-vacancies/287-references.md) (сходство 0.46)
 

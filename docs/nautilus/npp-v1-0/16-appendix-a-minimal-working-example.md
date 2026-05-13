@@ -1,6 +1,25 @@
 # Appendix A: Minimal Working Example
 
+<!-- toc-auto -->
+## Contents
+
+- [Essence](#essence)
+- [Native Format](#native-format)
+- [Content Overview](#content-overview)
+- [Angle / Perspective](#angle-perspective)
+- [Author](#author)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
@@ -75,11 +94,24 @@ example_user, example@email.com
 
 ---
 
-**Смотрите также:**
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
+## Смотрите также
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
+- [15-glossary](15-glossary.md)
+- [13-reference-implementation](13-reference-implementation.md)
+- [10-query-result](10-query-result.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -87,7 +119,7 @@ example_user, example@email.com
 ---
 
 **Похожие документы:**
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.30)
-- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md) (сходство 0.28)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.27)
+- [16-appendix-a-minimal-working-example](../../obsidian/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md) (сходство 0.99)
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.50)
+- [13-reference-implementation](../../obsidian/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.47)
 

@@ -1,0 +1,34 @@
+{
+  "card_id": "sha256:801c8f6f42c1fb5d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/components/spbmolot.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:3b46ceff75553e53",
+  "payload": {
+    "title": "spbmolot",
+    "summary": "",
+    "body": "spbmolot компонент экосистемы svyazi проекты svyazi тип статус упоминаний описание компонент экосистемы svyazi ссылки исходники readme документация связанные документы cowork ingit kksudo lorenzo nautilus sgb svyazi антропик связанные документы sgb svyazi антропик cowork ingit kksudo lorenzo nautilus упоминается cowork lorenzo ngt ngt memory ассоциативный граф habr projects memory ngt memory nautilus sgb svyazi readme components ingit kksudo autofilled автозаполненные шаблоны антропик tables все таблицы репозитория sitemap карта репозитория lorenzo anastasiyaw контакт anastasiyaw knowledge space mclaude cutcode контакт cutcode aif handoff dmitriila контакт dmitriila sentinel mixaill контакт mixaill auto router vitalyoborin контакт vitalyoborin yodoca vladspace контакт vladspace graph rag andrey chuyan контакт andrey chuyan svyazi kksudo контакт kksudo agentfs zodigancode контакт zodigancode rufler",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "Graph RAG",
+      "Yodoca",
+      "SENTINEL",
+      "Auto AI Router"
+    ],
+    "wc": 197,
+    "path": "docs/obsidian/autofilled/components/spbmolot.md"
+  }
+}

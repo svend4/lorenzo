@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:e99bb88b13700a96",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/91-16-mcp-extension-informative.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:aadfa77844d53ef4",
+  "payload": {
+    "title": "16. MCP Extension (Informative)",
+    "summary": "NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED",
+    "body": "mcp extension informative npp формализует mcp интеграцию как mandatory recommended mcp extension informative npp формализует mcp интеграцию как mandatory recommended для порталов используемых совместно llm claude chatgpt gemini mcp wrapper portal mcp reference implementation should экспонировать минимум tools nautilus query query repos none search across ecosystem nautilus list repos list all repos with metadata nautilus query repo repo query query single repo nautilus consensus check concept consensus validation nautilus describe ecosystem philosophy and metadata формальная mcp спецификация будет частью npp или похожие документы доступные инструменты сходство примеры запросов claude сходство appendix change log сходство смотрите также доступные инструменты примеры запросов claude appendix change log queryresult structure упоминается appendix change log appendix change log readme вакансии anthropic анализ кластерам доступные инструменты доступные инструменты ограничения текущей версии draft ограничения текущей версии draft примеры запросов claude примеры запросов claude упоминается readme вакансии anthropic анализ кластерам связанные документы доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude ограничения текущей версии draft ограничения текущей версии draft terminology terminology terminology terminology связанные документы доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude ограничения текущей версии draft ограничения текущей версии draft appendix change log appendix change log terminology terminology appendix change log appendix change log terminology terminology appendix references appendix references",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 261,
+    "path": "docs/obsidian/02-anthropic-vacancies/91-16-mcp-extension-informative.md"
+  }
+}

@@ -1,5 +1,12 @@
 # Memory Firewall против prompt worms (ансамбль I)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -37,11 +44,35 @@ Mermaid
 
 ---
 
-**Смотрите также:**
-- [5-agent-firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md)
-- [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Memory Firewall против prompt worms"
+```
+
+## Смотрите также
+- [5-agent-firewall](../ensembles/5-agent-firewall.md)
+- 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
+- [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
+- [1-agentic-knowledge-os](../ensembles/1-agentic-knowledge-os.md)
+
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
+- [03-a2a-vs-mcp-protocols](03-a2a-vs-mcp-protocols.md)
+- [README](README.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -49,7 +80,7 @@ Mermaid
 ---
 
 **Похожие документы:**
-- [5-agent-firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md) (сходство 0.20)
-- [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md) (сходство 0.19)
-- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md) (сходство 0.17)
+- [04-memory-firewall-vs-prompt-worms](../../obsidian/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.98)
+- [5-agent-firewall](../ensembles/5-agent-firewall.md) (сходство 0.21)
+- [5-agent-firewall](../../obsidian/ai-collaborations/ensembles/5-agent-firewall.md) (сходство 0.21)
 

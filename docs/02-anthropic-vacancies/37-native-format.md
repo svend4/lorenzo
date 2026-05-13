@@ -1,6 +1,29 @@
 # Native Format
 
+<!-- toc-auto -->
+## Contents
+
+- [Native Format](#native-format)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON,
 
 ---
@@ -11,7 +34,7 @@
 
 ## Native Format
 
-**Расширение:** `.[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`
+**Расширение:** `.[info1](01-интегральный-анализ-профиля-svend4.md)`
 
 **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON, 
 or something custom?]
@@ -40,7 +63,7 @@ or something custom?]
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [57-native-format](57-native-format.md) (сходство 0.12)
 
 
@@ -48,7 +71,13 @@ or something custom?]
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Native Format"
+```
+
+## Смотрите также
 - [57-native-format](57-native-format.md)
 - [47-native-format](47-native-format.md)
 - [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
@@ -74,16 +103,32 @@ or something custom?]
 - [Native Format](57-native-format.md) _25%_
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
 - [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _21%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _17%_
 - [Содержание](326-содержание.md) _17%_
 ## Связанные документы
 
 - [Native Format](57-native-format.md) _33%_
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _29%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _25%_
 - [Compatibility Level](41-compatibility-level.md) _25%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
 - [Abstract](04-abstract.md) _21%_
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
 - [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [04-abstract](04-abstract.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [47-native-format](47-native-format.md)
+- [54-for-the-curious-philosophy](54-for-the-curious-philosophy.md)
+- [57-native-format](57-native-format.md)
+- _...ещё 2_
+

@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:be8725edab7bdc24",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:a8807eaf89538880",
+  "payload": {
+    "title": "Section 9: Why this is timely",
+    "summary": "Multiple working components recently emerged (HMP active, Hermes 95K stars, CAMEL mature)",
+    "body": "section why this timely источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section solution architecture section solution architecture section risks mitigations section risks mitigations section proposer role section proposer role section success metrics section success metrics",
+    "tags": [
+      "rag",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 162,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md"
+  }
+}

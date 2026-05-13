@@ -1,0 +1,63 @@
+{
+  "card_id": "sha256:2446cb3e25ea9cc8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:e6f9a80e231dd82f",
+  "payload": {
+    "title": "Пара 3 — ZINC inference engine × гибрид Attention+SSM+MoE",
+    "summary": "Пара 3. Кастомный inference engine на Zig/Vulkan (ZINC) × гибрид Attention+SSM+MoE",
+    "body": "пара zinc inference engine гибрид attention ssm moe источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты yodoca autoresearch смотрите также bonus rram memristor bonus rram memristor openclaude utyokshiy claude code zinc inference engine mome technology combinations combinations openclaude utyokshiy claude code zinc inference engine mome crdt self hosted software pairs crdt self hosted riscv privacy riscv privacy кто ссылается этот документ components name glossary components name concepts glossary concepts readme readme readme nautilus readme",
+    "tags": [
+      "memory",
+      "orchestration",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca",
+      "AutoResearch"
+    ],
+    "wc": 285,
+    "path": "docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md"
+  }
+}

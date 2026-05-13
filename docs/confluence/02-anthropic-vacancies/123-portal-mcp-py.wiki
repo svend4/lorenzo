@@ -27,7 +27,7 @@ h1. portal-mcp.py
 
 h2. Содержание
 
-* [portal-mcp.py|#portal-mcppy]
+* portal-[mcp.py|#portal-mcppy]
 * [Упоминается в|#упоминается-в]
 * [Связанные документы|#связанные-документы]
 
@@ -750,9 +750,9 @@ if __name__ == "__main__":
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [03-portal-protocol-md|03-portal-protocol-md.md] (сходство 0.22)
-* [125-readme-mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md] (сходство 0.21)
+* 125-readme-[mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md] (сходство 0.21)
 * [28-appendix-a-minimal-working-example|28-appendix-a-minimal-working-example.md] (сходство 0.17)
 
 
@@ -760,9 +760,16 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "portal mcp py"
+{code}
+
+h2. Смотрите также
 * [28-appendix-a-minimal-working-example|28-appendix-a-minimal-working-example.md]
-* [125-readme-mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md]
+* 125-readme-[mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md]
 * [98-appendix-a-minimal-working-example|98-appendix-a-minimal-working-example.md]
 * [65-readme-md|65-readme-md.md]
 
@@ -771,8 +778,8 @@ h2. Упоминается в
 
 * [11. Security Considerations|23-11-security-considerations.md]
 * [17. Versioning Policy|92-17-versioning-policy.md]
-* [7. PortalEntry Structure|19-7-portalentry-structure.md]
-* [7. PortalEntry Structure|82-7-portalentry-structure.md]
+* 7. [PortalEntry Structure|19-7-portalentry-structure.md]
+* 7. [PortalEntry Structure|82-7-portalentry-structure.md]
 * [A Practical Path to Layer B Through Symbiotic Integration|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
 * [Abstract|04-abstract.md]
 * [Appendix A: Minimal Working Example|28-appendix-a-minimal-working-example.md]
@@ -815,3 +822,19 @@ h2. Связанные документы
 * [Appendix A: Minimal Working Example|98-appendix-a-minimal-working-example.md] _33%_
 * [For the Curious: Philosophy|54-for-the-curious-philosophy.md] _29%_
 * [REVIEW_METHODOLOGY.md|105-review-methodology-md.md] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (21)
+* [03-portal-protocol-md|03-portal-protocol-md.md]
+* [04-abstract|04-abstract.md]
+* [105-review-methodology-md|105-review-methodology-md.md]
+* 125-readme-[mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md]
+* 127-подключение-к-[claude-desktop|127-подключение-к-claude-desktop.md]
+* [130-отладка|130-отладка.md]
+* [132-planned-v0-2-0|132-planned-v0-2-0.md]
+* [154-table-of-contents|154-table-of-contents.md]
+* _...ещё 13_
+

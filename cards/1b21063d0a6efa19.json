@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:1b21063d0a6efa19",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/15-security.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/90-15-security-considerations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/11-security-considerations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/23-11-security-considerations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/06-adapter-interface.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:84b67358f0f52640",
+  "payload": {
+    "title": "15. Security Considerations",
+    "summary": "Adapters выполняются внутри Portal-процесса. Portal MUST",
+    "body": "security considerations источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также security considerations anthropic vacancies security considerations security considerations npp security considerations security considerations anthropic vacancies security considerations adapter interface adapter interface",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 288,
+    "path": "docs/nautilus/npp-v1-1/15-security.md"
+  }
+}

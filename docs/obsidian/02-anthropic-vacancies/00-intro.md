@@ -61,9 +61,9 @@ date: 2026-05-13
   - [Альтернативные пути, которых у меня не было в прошлом ответе](#альтернативные-пути-которых-у-меня-не-было-в-прошлом-ответе)
   - [Честный reality check](#честный-reality-check)
   - [Итог](#итог)
-  - [1. svend4/daten ⭐1](#1-svend4daten-1)
-  - [2. svend4/universal-file-storage-mcp ⭐1](#2-svend4universal-file-storage-mcp-1)
-  - [3. svend4/data70 ⭐0](#3-svend4data70-0)
+  - 1. [svend4/daten ⭐1](#1-svend4daten-1)
+  - 2. [svend4/universal-file-storage-mcp ⭐1](#2-svend4universal-file-storage-mcp-1)
+  - 3. [svend4/data70 ⭐0](#3-svend4data70-0)
   - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
   - [Итог по тому, что уже вижу](#итог-по-тому-что-уже-вижу)
   - [Ключевое наблюдение: ⭐ здесь — это не внешний сигнал](#ключевое-наблюдение-здесь-это-не-внешний-сигнал)
@@ -437,7 +437,7 @@ soz150 / Writing OS + data4 (public) → новый legal-sgb-toolkit с:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[01-интегральный-анализ-профиля-svend4]] (сходство 0.19)
 - [[CONCEPTS]] (сходство 0.18)
 - [[TABLES]] (сходство 0.15)
@@ -458,3 +458,33 @@ soz150 / Writing OS + data4 (public) → новый legal-sgb-toolkit с:
 
 - [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] _21%_
 - [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[272-appendix-d-connection-diagram]]
+- [[README]]
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Введение"
+```
+
+```bash
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Введение" --mode bm25 --top 5
+```
+
+```bash
+# Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Введение" --mode semantic --top 10
+```
+
+```bash
+# Поиск (full)
+python scripts/improve_semantic_search.py --query "Введение" --mode full --top 15
+```

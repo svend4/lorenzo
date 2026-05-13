@@ -1,5 +1,10 @@
 # 1. Why the Binary View Is Incomplete
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Professional Colleague Agents (PCA) v1.0 introduced five types
 
 ---
@@ -128,7 +137,7 @@ support to skilled professions.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [252-abstract](252-abstract.md) (сходство 0.25)
 - [266-13-closing](266-13-closing.md) (сходство 0.20)
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md) (сходство 0.18)
@@ -138,7 +147,13 @@ support to skilled professions.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Why the Binary View Is Incomplete"
+```
+
+## Смотрите также
 - [252-abstract](252-abstract.md)
 - [266-13-closing](266-13-closing.md)
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
@@ -183,3 +198,19 @@ support to skilled professions.
 - [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
 - [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _25%_
 - [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- [252-abstract](252-abstract.md)
+- _...ещё 8_
+

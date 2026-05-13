@@ -1,5 +1,16 @@
 # 7. PortalEntry Structure
 
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,14 +21,17 @@
 >
 
 
-<!-- toc-auto -->
-## Contents
-
-- [7. [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
-
-
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -28,8 +42,6 @@
 
 ---
 <!-- tags: ingestion, architecture, collaboration -->
-
-
 
 
 ## 7. PortalEntry Structure
@@ -55,22 +67,22 @@ class PortalEntry:
 ### 7.1. Field Semantics
 
 - `id` MUST быть уникален в пределах экосистемы. Формат: 
-  `"<format>:<slug>"` (например, `"[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md):alpha-3-doc-1"`)
+  `"<format>:<slug>"` (например, `"[info1](01-интегральный-анализ-профиля-svend4.md):alpha-3-doc-1"`)
 - `title` SHOULD быть до 120 символов
-- `source` — [GitHub](../docs/01-svyazi/03-component-catalog.md) slug `owner/repo-name`
+- `source` — [GitHub](../01-svyazi/03-component-catalog.md) slug `owner/repo-name`
 - `format_type` — one of: `document`, `concept`, `rule`, `theory`, 
   `schema`, `archetype`. Implementation MAY расширять список
 - `content` — полный текст/представление, MAY быть большим
 - `metadata` — MUST содержать `q6` для Level 2+ адаптеров
 - `links` — список id из других Repos, формат `"<format>:<type>:<id>"` 
-  или `"<format>:<id>"` (например, `"[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md):q6:010011"`, 
+  или `"<format>:<id>"` (например, `"[pro2](01-интегральный-анализ-профиля-svend4.md):q6:010011"`, 
   `"meta:hexagram:50"`)
 - `is_fallback` — Boolean, MUST быть `True` для fallback-entries, 
   `False` (default) для real fetch results
 
 ### 7.2. Q6 Metadata
 
-Для адаптеров Level 2+, каждый [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) MUST содержать 
+Для адаптеров Level 2+, каждый [PortalEntry](01-интегральный-анализ-профиля-svend4.md) MUST содержать 
 `metadata["q6"]` — 6-битную строку длиной 6, только символы `"0"` 
 и `"1"`.
 
@@ -94,19 +106,33 @@ PortalEntry(
 
 ---
 
-**Похожие документы:**
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.25)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.12)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.12)
+## Похожие документы
+- [19-7-portalentry-structure](19-7-portalentry-structure.md) (сходство 0.25)
+- [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.12)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+## Смотрите также
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [README](README.md)
 

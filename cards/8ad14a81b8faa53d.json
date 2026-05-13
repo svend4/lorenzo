@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:8ad14a81b8faa53d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/320-references.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:1e01615deb7a6bce",
+  "payload": {
+    "title": "References",
+    "summary": "launch]. https://claude.com/product/cowork",
+    "body": "references contents references references primary external references primary external references mcp standard mcp standard companion documents this series companion documents this series related work related work anthropic january claude cowork product references primary external references anthropic january claude cowork product launch https claude com product cowork anthropic ongoing cowork help center https support claude com collections cowork svend ongoing ingit https github com svend ingit mcp standard anthropic model context protocol documentation and specifications companion documents this series all previous documents the series listed acknowledgments above related work richard hipp ongoing fossil https www fossil scm org various cowork project tutorials and reviews from похожие документы ссылки сходство with anthropic cowork platform сходство references сходство смотрите также ссылки portal protocol with anthropic cowork platform readme mcp инструкция установке упоминается references references references references readme вакансии anthropic анализ кластерам ссылки ссылки что можешь делать что можешь делать упоминается readme вакансии anthropic анализ кластерам связанные документы references references ссылки ссылки acknowledgments acknowledgments references references references references support through configurable specialist ensembl support through configurable specialist ensembles closing closing acknowledgments acknowledgments связанные документы references references ссылки ссылки acknowledgments acknowledgments references references references references why this document exists why this document exists closing closing acknowledgments acknowledgments",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 265,
+    "path": "docs/obsidian/02-anthropic-vacancies/320-references.md"
+  }
+}

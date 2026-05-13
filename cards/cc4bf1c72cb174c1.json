@@ -1,0 +1,66 @@
+{
+  "card_id": "sha256:cc4bf1c72cb174c1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/01-svyazi/10-second-order-ensembles.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:262f583978d1d1ec",
+  "payload": {
+    "title": "10 second order ensembles",
+    "summary": "Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **трёх новых ансамблей второго порядка**, где компоненты перестают быть “рядами функций” и начинают образовывать новые свойства на уровне процесса сообщества, исследовательской группы ",
+    "body": "абстракт авто проблема это намного лучше соответствует задачам экспертных сообществ чем either выбор между всё облако всё только локально подход cite turn view turn search turn search turn view turn view turn view turn view главное новое свойство здесь только privacy архитектурная живучесть результат здесь главный эффект даёт одна новая функция изменение формы владения системой ключевые слова svyazi ансамбли новые search проект просто knowledge space самые интересные продолжения просто добавление ещё одного инструмента уже найденные пять ансамблей сборка трёх новых ансамблей второго порядка где компоненты перестают быть рядами функ проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы новые ансамбли следующего шага collaborations новые ансамбли следующего шага сходство приоритетные ансамбли collaborations приоритетные ансамбли сходство ensembles overview ensembles overview сходство смотрите также новые ансамбли следующего шага collaborations новые ансамбли следующего шага приоритетные ансамбли collaborations приоритетные ансамбли ensembles overview ensembles overview roadmap roadmap mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit кто ссылается этот документ contacts contacts readme readme component matrix component matrix",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "AutoResearch"
+    ],
+    "wc": 924,
+    "path": "docs/01-svyazi/10-second-order-ensembles.md"
+  }
+}

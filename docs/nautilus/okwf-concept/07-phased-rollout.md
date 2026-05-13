@@ -1,11 +1,20 @@
 # 7. Phased Rollout Plan
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [7. Phased Rollout Plan](#7-phased-rollout-plan)
@@ -141,11 +150,33 @@ qualified individuals regardless of traditional constraints.
 
 ---
 
-**Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md)
-- [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Phased Rollout Plan"
+```
+
+## Смотрите также
+- [161-7-phased-rollout-plan](../../02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [05-economic-model](05-economic-model.md)
+- [09-phased-rollout](../representative-agent-layer-en/09-phased-rollout.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-economic-model](05-economic-model.md)
+- [08-risk-analysis](08-risk-analysis.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -153,7 +184,7 @@ qualified individuals regardless of traditional constraints.
 ---
 
 **Похожие документы:**
-- [161-7-phased-rollout-plan](docs/obsidian/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.88)
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.86)
-- [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md) (сходство 0.23)
+- [07-phased-rollout](../../obsidian/nautilus/okwf-concept/07-phased-rollout.md) (сходство 0.98)
+- [161-7-phased-rollout-plan](../../02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.86)
+- [161-7-phased-rollout-plan](../../obsidian/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.86)
 

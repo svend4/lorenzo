@@ -1,5 +1,23 @@
 # Claude hat geantwortet: Отличный запрос.
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -300,11 +318,39 @@ Focused action > parallel ambition.
 
 ---
 
-**Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [01-completing-loop](docs/nautilus/transmission-box/01-completing-loop.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отличный запрос"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отличный запрос" --mode bm25
+```
+
+## Смотрите также
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
+- [00-question-innovations-transitions](00-question-innovations-transitions.md)
+- [01-completing-loop](../transmission-box/01-completing-loop.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-why-natural-for-programmers](../../anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
+- [01-claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
+- [README](README.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -312,7 +358,7 @@ Focused action > parallel ambition.
 ---
 
 **Похожие документы:**
-- [133-обратная-связь](docs/obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.19)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.18)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.16)
+- [01-response](../../obsidian/nautilus/innovation-transitions/01-response.md) (сходство 0.99)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.19)
+- [133-обратная-связь](../../obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.19)
 

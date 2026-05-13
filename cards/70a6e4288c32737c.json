@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:70a6e4288c32737c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/operationalized/04-recommendations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/02-minuses-1-10.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/01-pluses-1-7.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:0f43cc933306d51c",
+  "payload": {
+    "title": "Anchor-узел: Habr Scout как первый шаг",
+    "summary": "Уже частично делается в этом разговоре (manually)",
+    "body": "anchor узел habr scout как первый шаг tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ внуковой комбинации которая operationalises концепт lorenzo проекты agentfs knowledge space mclaude liteparse firecrawl смотрите также recommendations recommendations развёрнутый анализ внуковой комбинации anthropic vacancies развёрнутый анализ внуковой комбинации minuses minuses pluses pluses",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "LiteParse",
+      "Firecrawl"
+    ],
+    "wc": 584,
+    "path": "docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md"
+  }
+}

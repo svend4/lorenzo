@@ -1,36 +1,16 @@
 # Индекс документации — Lorenzo / Svyazi 2.0
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `INDEX` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: index, docs -->
+
 
 <!-- summary -->
-> _Главный навигационный хаб. Все разделы и документы._
-**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Метрики репозитория](#метрики-репозитория)
-- [Разделы документации](#разделы-документации)
-  - [[🏗️  Архитектура Svyazi 2.0](README.md)](#архитектура-svyazi-20docs01-svyazireadmemd)
-  - [[💼 Вакансии Anthropic](README.md)](#вакансии-anthropicdocs02-anthropic-vacanciesreadmemd)
-  - [[⚗️  Комбинации технологий](README.md)](#комбинации-технологийdocs03-technology-combinationsreadmemd)
-  - [[🤝 AI-коллаборации](README.md)](#ai-коллаборацииdocs04-ai-collaborationsreadmemd)
-  - [[📦 Хабр-проекты](README.md)](#хабр-проектыdocs05-habr-projectsreadmemd)
-- [Аналитика и отчёты](#аналитика-и-отчёты)
-- [Ключевые документы](#ключевые-документы)
-- [LLM-обогащение (Ступень 3)](#llm-обогащение-ступень-3)
-- [Быстрый старт](#быстрый-старт)
-
----
-
-<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
+> `INDEX` — раздел документации проекта Lorenzo.
 
 
 _Главный навигационный хаб. Все разделы и документы._
@@ -39,43 +19,43 @@ _Главный навигационный хаб. Все разделы и до
 
 | Параметр | Значение |
 |----------|---------|
-| Markdown документов | **529** |
-| Слов | **523,847** |
-| Скриптов автоматизации | **125** |
-| Go/No-Go скоринг | **93 🟢** |
-| Здоровье репо | **90/100** |
+| Markdown документов | **2484** |
+| Слов | **2,893,984** |
+| Скриптов автоматизации | **166** |
+| Go/No-Go скоринг | **96 🟢** |
+| Здоровье репо | **99/100** |
 
 ## Разделы документации
 
-### [🏗️  Архитектура Svyazi 2.0](README.md)
+### [🏗️  Архитектура Svyazi 2.0](01-svyazi/README.md)
 
 Ключевые компоненты, контракты, MVP, дорожная карта
 
-_16 файлов · 11,062 слов_
+_16 файлов · 13,329 слов_
 
-### [💼 Вакансии Anthropic](README.md)
+### [💼 Вакансии Anthropic](02-anthropic-vacancies/README.md)
 
 436 вакансий по 12 кластерам, стратегический анализ
 
-_357 файлов · 284,383 слов_
+_357 файлов · 341,899 слов_
 
-### [⚗️  Комбинации технологий](README.md)
+### [⚗️  Комбинации технологий](03-technology-combinations/README.md)
 
 40+ синергетических комбинаций AI-технологий
 
-_7 файлов · 2,600 слов_
+_7 файлов · 3,781 слов_
 
-### [🤝 AI-коллаборации](README.md)
+### [🤝 AI-коллаборации](04-ai-collaborations/README.md)
 
 5 ансамблей OSS-проектов: Knowledge OS, Agent Teams, Security Runtime
 
-_17 файлов · 27,222 слов_
+_17 файлов · 27,853 слов_
 
-### [📦 Хабр-проекты](README.md)
+### [📦 Хабр-проекты](05-habr-projects/README.md)
 
 Yodoca, NGT, AgentFS, knowledge-space — проекты с Хабра
 
-_10 файлов · 8,981 слов_
+_16 файлов · 14,824 слов_
 
 
 ## Аналитика и отчёты
@@ -134,7 +114,7 @@ _Требуют `ANTHROPIC_API_KEY`:_
 |----------|---------|
 | `LLM_ENRICHED.md` _(нет)_ | Обогащённые stub-файлы |
 | `LLM_QA.md` _(нет)_ | Ответы на открытые вопросы |
-| `LLM_GAPS.md` _(нет)_ | Семантические пробелы |
+| [`LLM_GAPS.md`](LLM_GAPS.md) | Семантические пробелы |
 | [`LLM_SUMMARIES.md`](LLM_SUMMARIES.md) | AI-саммари разделов |
 
 ## Быстрый старт
@@ -153,7 +133,23 @@ python scripts/improve_run_all.py --group analysis
 
 ---
 
-_Индекс сгенерирован автоматически · 529 документов · 125 скриптов_
+_Индекс сгенерирован автоматически · 2484 документов · 166 скриптов_
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [README](01-svyazi/README.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CLUSTERS](CLUSTERS.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 6_
 
 
 <!-- see-also -->
@@ -162,33 +158,7 @@ _Индекс сгенерирован автоматически · 529 док�
 
 **Смотрите также:**
 - [ONBOARDING](ONBOARDING.md)
-- [SITEMAP](SITEMAP.md)
-- [REPORT](REPORT.md)
 - [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [AI-саммари разделов документации](LLM_SUMMARIES.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-- [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [AI-саммари разделов документации](LLM_SUMMARIES.md) _25%_
-- [Метрики качества документации](METRICS.md) _21%_
-- [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md) _21%_
-- [Отчёт о дублировании](DUPLICATES.md) _17%_
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [INDEX](docs/obsidian/INDEX.md) (сходство 0.90)
-- [ONBOARDING](docs/obsidian/ONBOARDING.md) (сходство 0.24)
-- [ONBOARDING](docs/ONBOARDING.md) (сходство 0.23)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
 

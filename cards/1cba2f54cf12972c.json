@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:1cba2f54cf12972c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:e1c37414bf87a221",
+  "payload": {
+    "title": "Section 8: Risks & mitigations",
+    "summary": "Technical risk: integration complexity, multiple components → mitigated by phased approach",
+    "body": "section risks mitigations источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section timeliness section timeliness section sgb pilot section sgb pilot section solution architecture section solution architecture section success metrics section success metrics",
+    "tags": [
+      "local-first",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 163,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md"
+  }
+}

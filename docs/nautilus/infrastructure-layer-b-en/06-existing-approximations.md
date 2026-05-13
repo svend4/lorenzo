@@ -1,6 +1,45 @@
 # Existing Approximations
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
@@ -97,11 +136,33 @@ problem.
 
 ---
 
-**Смотрите также:**
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
-- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Existing Approximations"
+```
+
+## Смотрите также
+- [279-existing-approximations](../../02-anthropic-vacancies/279-existing-approximations.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [07-specific-case](07-specific-case.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [05-why-not-built](05-why-not-built.md)
+- _...ещё 5_
 
 
 <!-- similar-docs -->
@@ -109,7 +170,7 @@ problem.
 ---
 
 **Похожие документы:**
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.78)
-- [279-existing-approximations](docs/obsidian/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.77)
-- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md) (сходство 0.25)
+- [06-existing-approximations](../../obsidian/nautilus/infrastructure-layer-b-en/06-existing-approximations.md) (сходство 0.98)
+- [279-existing-approximations](../../02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.72)
+- [279-existing-approximations](../../obsidian/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.72)
 

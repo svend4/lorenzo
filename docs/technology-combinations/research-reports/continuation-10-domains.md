@@ -1,6 +1,29 @@
 # Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations
 
+<!-- toc-auto -->
+## Contents
+
+- [10 новых технологических областей](#10-новых-технологических-областей)
+- [35+ новых синергетических комбинаций](#35-новых-синергетических-комбинаций)
+- [5 кросс‑сквозных эмерджентных архитектур](#5-кросс-сквозных-эмерджентных-архитектур)
+- [Методологические оговорки](#методологические-оговорки)
+- [Применение к Sozialrecht](#применение-к-sozialrecht)
+- [Артефакт документа](#артефакт-документа)
+- [Итоговый объём исследования](#итоговый-объём-исследования)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «Continuation Research — 10 New Domains Beyond the Original 45 Combinations».
 
 ---
@@ -62,11 +85,33 @@
 
 ---
 
-**Смотрите также:**
-- [sozialrecht-35-combinations](docs/technology-combinations/research-reports/sozialrecht-35-combinations.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Research Report Continuation 10 New"
+```
+
+## Смотрите также
+- [sozialrecht-35-combinations](sozialrecht-35-combinations.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [30-mega-stack-3-0-with-dsl-ast](../combinations/30-mega-stack-3-0-with-dsl-ast.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -74,7 +119,7 @@
 ---
 
 **Похожие документы:**
-- [sozialrecht-35-combinations](docs/technology-combinations/research-reports/sozialrecht-35-combinations.md) (сходство 0.25)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.15)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.13)
+- [continuation-10-domains](../../obsidian/technology-combinations/research-reports/continuation-10-domains.md) (сходство 0.97)
+- [sozialrecht-35-combinations](sozialrecht-35-combinations.md) (сходство 0.32)
+- [sozialrecht-35-combinations](../../obsidian/technology-combinations/research-reports/sozialrecht-35-combinations.md) (сходство 0.30)
 

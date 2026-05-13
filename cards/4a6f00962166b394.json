@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:4a6f00962166b394",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:a7e72254cc9f98f7",
+  "payload": {
+    "title": "Section 4: Specific deployment — SGB Advocate Community pilot",
+    "summary": "Section 4: Specific deployment — SGB Advocate Community pilot",
+    "body": "section specific deployment sgb advocate community pilot источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section success metrics section success metrics section risks mitigations section risks mitigations section engagement request section engagement request section proposer role section proposer role",
+    "tags": [
+      "local-first",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 173,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md"
+  }
+}

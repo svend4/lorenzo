@@ -9,6 +9,23 @@ date: 2026-05-13
 
 # kksudo
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ссылки](#ссылки)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Упоминается в](#упоминается-в)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
+- [Использование](#использование)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Компонент экосистемы Svyazi 2.0_
 **Проекты:** Svyazi
@@ -27,7 +44,7 @@ date: 2026-05-13
 _Компонент экосистемы Svyazi 2.0_
 
 ## Ссылки
-- [Исходники](#)
+- Исходники
 - [[README|Документация]]
 
 <!-- related-auto -->
@@ -68,23 +85,44 @@ _Компонент экосистемы Svyazi 2.0_
 - [Антропик](.md)
 - [[TABLES|Все таблицы репозитория]]
 - [[SITEMAP|Карта репозитория Lorenzo]]
-- [[anastasiyaw|Контакт: AnastasiyaW / knowledge-space, mclaude]]
+- Контакт: AnastasiyaW / [[anastasiyaw|knowledge-space, mclaude]]
 - [[cutcode|Контакт: Cutcode / AIF Handoff]]
 - [[dmitriila|Контакт: Dmitriila / SENTINEL]]
 - [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]]
 - [[vitalyoborin|Контакт: VitalyOborin / Yodoca]]
-- [[vladspace|Контакт: VladSpace / Graph RAG]]
-- [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]]
-- [[spbmolot|Контакт: spbmolot / NGT Memory]]
+- Контакт: [[vladspace|VladSpace / Graph RAG]]
+- Контакт: [[andrey-chuyan|andrey_chuyan / Svyazi]]
+- Контакт: [[spbmolot|spbmolot / NGT Memory]]
 - [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]]
 - [[zodigancode|Контакт: zodigancode / Rufler]]
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[AUTOFILLED]]
+- [[TABLES]]
+- [.md](.md)
+- [[README]]
+- [[cowork]]
+- [[ingit]]
+- [[lorenzo]]
+- [[nautilus]]
+- _...ещё 4_
+
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "kksudo"
+```
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [[spbmolot]] (сходство 0.87)
-- [[svyazi]] (сходство 0.59)
-- [[svend4]] (сходство 0.59)
+- [[kksudo]] (сходство 0.96)
+- [[spbmolot]] (сходство 0.89)
+- [[spbmolot]] (сходство 0.85)
 

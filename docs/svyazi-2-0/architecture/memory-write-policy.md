@@ -1,11 +1,29 @@
 # Memory Write Policy
 
+<!-- toc-auto -->
+## Contents
+
+- [Минимальные поля](#минимальные-поля)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
 **Проекты:** Yodoca, NGT Memory, agent-memory-mcp
 
 ---
 <!-- tags: memory, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -32,19 +50,38 @@ Yodoca уже мыслит память через consolidation + forgetting, N
 
 ---
 
-**Смотрите также:**
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
-- [card-envelope](docs/svyazi-2-0/architecture/card-envelope.md)
-- [review-record](docs/svyazi-2-0/architecture/review-record.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Memory Write Policy"
+```
+
+## Смотрите также
+- [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](../../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [card-envelope](card-envelope.md)
+- [review-record](review-record.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [integration-spec](integration-spec.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [card-envelope](docs/svyazi-2-0/architecture/card-envelope.md) (сходство 0.23)
-- [review-record](docs/svyazi-2-0/architecture/review-record.md) (сходство 0.22)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.21)
+- [memory-write-policy](../../obsidian/svyazi-2-0/architecture/memory-write-policy.md) (сходство 0.97)
+- [card-envelope](card-envelope.md) (сходство 0.34)
+- [skill-tool-policy](skill-tool-policy.md) (сходство 0.34)
 

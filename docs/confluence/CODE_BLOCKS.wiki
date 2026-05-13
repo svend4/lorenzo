@@ -5,23 +5,30 @@
 
 h1. Code-блоки репозитория
 
+
+
+
+{quote}{{CODE_BLOCKS}} — раздел документации проекта Lorenzo.{quote}
+
+
 {quote}[!TIP]{quote}
-{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 
 
-_Всего блоков:_ 540
+_Всего блоков:_ 3596
 
 || Язык || Блоков ||
-|| 📝 Без языка || 325 ||
-|| 💻 Bash / Shell || 64 ||
-|| 🐍 Python || 52 ||
-|| 📦 JSON || 35 ||
-|| 📊 Диаграммы Mermaid || 29 ||
-|| markdown || 25 ||
-|| 📋 YAML || 10 ||
+|| 💻 Bash / Shell || 2552 ||
+|| 📝 Без языка || 556 ||
+|| 🐍 Python || 204 ||
+|| markdown || 116 ||
+|| 📦 JSON || 82 ||
+|| 📊 Диаграммы Mermaid || 46 ||
+|| 📋 YAML || 38 ||
+|| typescript || 2 ||
 
-h2. 📊 Диаграммы Mermaid (29)
+h2. 📊 Диаграммы Mermaid (46)
 
 
 h3. Приоритетные ансамбли
@@ -150,37 +157,37 @@ _{{docs/CONCEPT_GRAPH.md}} | 101 строк_
 
 {code:language=mermaid}
 graph TD
-    docs["docs\n(980)"]
-    anthropic["anthropic\n(793)"]
-    claude["claude\n(501)"]
-    summary["summary\n(485)"]
-    vacancies["vacancies\n(476)"]
-    источник["источник\n(465)"]
-    mhtml["mhtml\n(411)"]
-    снимок["снимок\n(400)"]
-    репозитория("репозитория\n(387)")
-    корень["корень\n(377)"]
-    agent{{"agent\n(355)"}}
-    tags["tags\n(334)"]
-    nautilus["nautilus\n(320)"]
-    раздел["раздел\n(309)"]
-    вакансии["вакансии\n(305)"]
-    кластерам["кластерам\n(295)"]
-    диалога["диалога\n(270)"]
-    svyazi("svyazi\n(249)")
-    knowledge["knowledge\n(242)"]
-    сходство["сходство\n(237)"]
-    architecture["architecture\n(237)"]
-    memory[("memory\n(192)")]
-    collaboration["collaboration\n(188)"]
-    habr["habr\n(172)"]
-    work["work\n(158)"]
-    layer[/"layer\n(157)"/]
+    документ["документ\n(957)"]
+    сходство["сходство\n(736)"]
+    смотрите["смотрите\n(690)"]
+    также["также\n(686)"]
+    anthropic["anthropic\n(637)"]
+    использование["использование\n(634)"]
+    связанные["связанные\n(554)"]
+    note["note\n(530)"]
+    ссылки["ссылки\n(461)"]
+    репозитория("репозитория\n(453)")
+    документы["документы\n(447)"]
+    создан["создан\n(434)"]
+    основе["основе\n(429)"]
+    claude["claude\n(421)"]
+    исследования["исследования\n(420)"]
+    ведут["ведут\n(389)"]
+    этот["этот\n(382)"]
+    материалы["материалы\n(375)"]
+    auto["auto\n(367)"]
+    источник["источник\n(365)"]
+    agent{{"agent\n(346)"}}
+    mhtml["mhtml\n(321)"]
+    ссылается["ссылается\n(316)"]
+    lorenzo["lorenzo\n(313)"]
+    readme["readme\n(308)"]
+    снимок["снимок\n(301)
 # ... (обрезано)
 {code}
 
 h3. Граф связей
-_{{docs/CROSS_SECTION.md}} | 22 строк_
+_{{docs/CROSS_SECTION.md}} | 191 строк_
 
 {code:language=mermaid}
 graph LR
@@ -189,19 +196,42 @@ graph LR
     03_technology_combinations["Технологии"]
     04_ai_collaborations["AI-ансамбли"]
     05_habr_projects["Хабр-проекты"]
+    ai_collaborations["ai-collaborations"]
+    anthropic_vacancies["anthropic-vacancies"]
+    autofilled["autofilled"]
     contacts["Контакты"]
-    01_svyazi -- 9% --> 02_anthropic_vacancies
+    glossary["glossary"]
+    habr_unique_projects["habr-unique-projects"]
+    letters["letters"]
+    lorenzo_agent["lorenzo-agent"]
+    meta_scripting["meta-scripting"]
+    nautilus["nautilus"]
+    obsidian["obsidian"]
+    processing_guide["processing-guide"]
+    svyazi_2_0["svyazi-2-0"]
+    technology_combinations["technology-combinations"]
+    01_svyazi -- 12% --> 02_anthropic_vacancies
     01_svyazi -- 16% --> 03_technology_combinations
-    01_svyazi -- 94% --> 04_ai_collaborations
-    01_svyazi -- 19% --> 05_habr_projects
-    01_svyazi -- 7% --> contacts
-    02_anthropic_vacancies -- 22% --> 03_technology_combinations
-    02_anthropic_vacancies -- 16% --> 04_ai_collaborations
-    02_anthropic_vacancies -- 23% --> 05_habr_projects
-    02_anthropic_vacancies -- 7% --> contacts
-    03_technology_combinations -- 28% --> 04_ai_collaborations
-    03_technology_combinations -- 42% --> 05_habr_projects
-    03_te
+    01_svyazi
+# ... (обрезано)
+{code}
+
+h3. Содержание
+_{{docs/README.md}} | 91 строк_
+
+{code:language=mermaid}
+- [MISSING.md](MISSING.md) — Анализ покрытия ключевых тем и проектов в docs/.
+- [NAMED_ENTITIES.md](NAMED_ENTITIES.md) — _Обновлено: 2026-04-29_
+- [NARRATIVE.md](NARRATIVE.md) — _Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._
+- [NETWORK.md](NETWORK.md) — **Узлов:** 20  **Связей:** 189
+- [ONBOARDING.md](ONBOARDING.md) — > [!TIP]
+- [ORPHANS.md](ORPHANS.md) — **Найдено:** 1 файлов без входящих ссылок из 1050 проверено.
+- [OUTLINE.md](OUTLINE.md) — _Обновлено: 2026-04-29_
+- [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — _Обновлено: 2026-04-29_
+- [PASSIVE_VOICE.md](PASSIVE_VOICE.md) — _Обновлено: 2026-04-29_
+- [PRIORITIES.md](PRIORITIES.md) — > [!TIP]
+- [PROGRESS.md](PROGRESS.md) — _Обновлено: 2026-04-29 (improve_progress_sync.py)_
+- [PROTOTYPE_SPEC.md](P
 # ... (обрезано)
 {code}
 
@@ -266,25 +296,9 @@ flowchart LR
     F --> G
 {code}
 
-h3. Приоритетные ансамбли
-_{{docs/obsidian/01-svyazi/04-ensembles-overview.md}} | 10 строк_
+_...и ещё 31 блоков этого языка_
 
-{code:language=mermaid}
-flowchart LR
-    A[Claude Code / Cursor / сервисы Svyazi 2.0] --> B[Tool Search]
-    B --> C[LiteLLM gateway]
-    C --> D[Auto AI Router]
-    D --> E[Локальные модели]
-    D --> F[Облачные модели]
-    C --> G[RLM routing policy]
-    E --> H[SENTINEL / guard layer]
-    F --> H
-    H --> I[Исполнение tool calls / UI / отчёты]
-{code}
-
-_...и ещё 14 блоков этого языка_
-
-h2. 🐍 Python (52)
+h2. 🐍 Python (204)
 
 
 h3. portal-mcp.py
@@ -613,9 +627,9 @@ class NautilusClient:
     def health(self) -> HealthReport: ...
 {code}
 
-_...и ещё 37 блоков этого языка_
+_...и ещё 189 блоков этого языка_
 
-h2. 📋 YAML (10)
+h2. 📋 YAML (38)
 
 
 h3. Appendix B: Sub-Agent Registry Schema (Sketch)
@@ -775,6 +789,22 @@ parameters:
 # ... (обрезано)
 {code}
 
+h3. Пример структуры задачи (Rufler DSL)
+_{{docs/05-habr-projects/knowledge/rufler.md}} | 10 строк_
+
+{code:language=yaml}
+tasks:
+  - id: extract_contacts
+    objective: "Извлечь контакты авторов из docs/contacts/"
+    depends_on: []
+    token_limit: 5000
+
+  - id: rank_by_priority
+    objective: "Ранжировать контакты по приоритету коллаборации"
+    depends_on: [extract_contacts]
+    token_limit: 3000
+{code}
+
 h3. Appendix B: Sub-Agent Registry Schema (Sketch)
 _{{docs/obsidian/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md}} | 56 строк_
 
@@ -932,6 +962,128 @@ parameters:
 # ... (обрезано)
 {code}
 
+h3. Пример структуры задачи (Rufler DSL)
+_{{docs/obsidian/05-habr-projects/knowledge/rufler.md}} | 10 строк_
+
+{code:language=yaml}
+tasks:
+  - id: extract_contacts
+    objective: "Извлечь контакты авторов из docs/contacts/"
+    depends_on: []
+    token_limit: 5000
+
+  - id: rank_by_priority
+    objective: "Ранжировать контакты по приоритету коллаборации"
+    depends_on: [extract_contacts]
+    token_limit: 3000
+{code}
+
+h3. Ступень 3: GitHub Actions CI/CD — .github/workflows/docs.yml
+_{{docs/obsidian/processing-guide/09-automation.md}} | 31 строк_
+
+{code:language=yaml}
+# .github/workflows/docs.yml (сгенерирован improve_ci_config.py)
+
+on: [push]
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -r requirements.txt -q
+      
+      # Быстрые скрипты на PR
+      - name: Run fast scripts
+        if: github.event_name == 'pull_request'
+        run: python scripts/improve_run_all.py --fast
+        continue-on-error: true
+      
+      # Все скрипты на push в main
+      - name: Run all scripts
+        if: github.event_name == 'push'
+        run: python scripts/improve_run_all.py --smart
+        continue-on-error: true
+      
+      # Закоммитить обновлённые docs/
+      - name: Commit updates
+        run: |
+          git
+# ... (обрезано)
+{code}
+
+h3. pre-commit install
+_{{docs/obsidian/processing-guide/09-automation.md}} | 12 строк_
+
+{code:language=yaml}
+# .pre-commit-config.yaml
+repos:
+  - repo: local
+    hooks:
+      - id: check-broken-links
+        name: Check broken links
+        entry: python scripts/improve_broken_links.py
+        language: python
+      - id: validate-docs
+        name: Validate docs structure
+        entry: python scripts/improve_validate.py
+        language: python
+{code}
+
+h3. Ступень 3: GitHub Actions CI/CD — .github/workflows/docs.yml
+_{{docs/obsidian/processing-guide/PROCESSING_GUIDE.md}} | 31 строк_
+
+{code:language=yaml}
+# .github/workflows/docs.yml (сгенерирован improve_ci_config.py)
+
+on: [push]
+jobs:
+  update-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -r requirements.txt -q
+      
+      # Быстрые скрипты на PR
+      - name: Run fast scripts
+        if: github.event_name == 'pull_request'
+        run: python scripts/improve_run_all.py --fast
+        continue-on-error: true
+      
+      # Все скрипты на push в main
+      - name: Run all scripts
+        if: github.event_name == 'push'
+        run: python scripts/improve_run_all.py --smart
+        continue-on-error: true
+      
+      # Закоммитить обновлённые docs/
+      - name: Commit updates
+        run: |
+          git
+# ... (обрезано)
+{code}
+
+h3. pre-commit install
+_{{docs/obsidian/processing-guide/PROCESSING_GUIDE.md}} | 12 строк_
+
+{code:language=yaml}
+# .pre-commit-config.yaml
+repos:
+  - repo: local
+    hooks:
+      - id: check-broken-links
+        name: Check broken links
+        entry: python scripts/improve_broken_links.py
+        language: python
+      - id: validate-docs
+        name: Validate docs structure
+        entry: python scripts/improve_validate.py
+        language: python
+{code}
+
 h3. Контракт взаимодействия
 _{{docs/obsidian/templates/ensemble.md}} | 6 строк_
 
@@ -944,173 +1096,131 @@ output:
   format: [формат]
 {code}
 
-h3. Контракт взаимодействия
-_{{docs/templates/ensemble.md}} | 6 строк_
+_...и ещё 23 блоков этого языка_
 
-{code:language=yaml}
-input:
-  type: [тип входа]
-  format: [формат]
-output:
-  type: [тип выхода]
-  format: [формат]
-{code}
-
-h2. 💻 Bash / Shell (64)
+h2. 💻 Bash / Shell (2552)
 
 
-h3. Чтобы я мог сделать конкретный code-level анализ
-_{{docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}} | 1 строк_
+h3. Использование
+_{{docs/01-svyazi/00-intro-part2.md}} | 1 строк_
 
 {code:language=bash}
-cat ~/storage/shared/pro2/nautilus/README.md
+python scripts/improve_semantic_search.py --query "Svyazi 2.0 архитектура" --section 01-svyazi
 {code}
 
-h3. Чтобы я мог сделать конкретный code-level анализ
-_{{docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}} | 2 строк_
+h3. Использование
+_{{docs/01-svyazi/01-executive-summary.md}} | 2 строк_
 
 {code:language=bash}
-cd ~/storage/shared/pro2/nautilus
-ls -la && echo "---" && find . -type f \( -name "*.py" -o -name "*.md" -o -name "*.yaml" \) | head -30
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Исполнительное резюме"
 {code}
 
-h3. Что сделать прямо сейчас
-_{{docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}} | 2 строк_
+h3. Использование
+_{{docs/01-svyazi/02-methodology.md}} | 2 строк_
 
 {code:language=bash}
-cd ~/<путь-к-pro2>/nautilus
-cat adapters/base.py adapters/info1.py nautilus.json
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Методика и рамка отбора проектов"
 {code}
 
-h3. Как правильно прислать код
-_{{docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}} | 2 строк_
+h3. Использование
+_{{docs/01-svyazi/03-component-catalog.md}} | 2 строк_
 
 {code:language=bash}
-cd ~/<путь-к-pro2>/nautilus
-cat adapters/base.py
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Каталог компонентов Svyazi 2 0"
 {code}
 
-h3. Что на самом деле ускоряет работу
-_{{docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}} | 6 строк_
+h3. Использование
+_{{docs/01-svyazi/06-security-privacy.md}} | 2 строк_
 
 {code:language=bash}
-cd ~/путь/к/pro2/nautilus
-for f in adapters/base.py adapters/info1.py nautilus.json; do
-  echo "=== $f ==="
-  cat "$f"
-  echo ""
-done
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Безопасность и приватность"
 {code}
 
-h3. 3.1. Для каждого расхождения применяются правила
-_{{docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md}} | 15 строк_
+h3. Использование
+_{{docs/01-svyazi/07-mvp-planning.md}} | 2 строк_
 
 {code:language=bash}
-# LOC в Python-коде
-find . -name "*.py" ! -path "./.git/*" ! -path "*/node_modules/*" | xargs wc -l | tail -1
-
-# Количество тестов
-find tests -name "*.py" | xargs wc -l | tail -1
-pytest --co -q 2>/dev/null | grep -c "::"
-
-# Число адаптеров
-ls adapters/*.py | grep -v "__\|base\|cache" | wc -l
-
-# Health score
-python health_check.py | grep -i "score"
-
-# Q6-покрытие
-python gap_detection.py | grep -i "covered\|coverage"
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Планирование MVP"
 {code}
 
-h3. 10.1. IMPLEMENTATION_STAGE_PART_[1-4].md
-_{{docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md}} | 6 строк_
+h3. Использование
+_{{docs/01-svyazi/08-conclusions.md}} | 2 строк_
 
 {code:language=bash}
-# В Termux
-cd ~/path/to/nautilus
-find . -name "*.py" ! -path "./.git/*" | xargs wc -l | tail -1
-find tests -name "*.py" | xargs wc -l | tail -1
-pytest --co -q 2>/dev/null | grep -c "::"
-ls adapters/*.py | grep -v "__\|base\|cache" | wc -l
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Выводы"
 {code}
 
-h3. B.1. Расхождение в числе строк кода
-_{{docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md}} | 2 строк_
+h3. Использование
+_{{docs/01-svyazi/09-architectural-gaps.md}} | 2 строк_
 
 {code:language=bash}
-$ find . -name "*.py" ! -path "./.git/*" | xargs wc -l | tail -1
-    6812 total
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Архитектурные зазоры"
 {code}
 
-h3. B.2. Расхождение в количестве строк тестов
-_{{docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md}} | 2 строк_
+h3. Использование
+_{{docs/01-svyazi/11-integration-contracts.md}} | 2 строк_
 
 {code:language=bash}
-$ find tests -name "*.py" | xargs wc -l | tail -1
-     769 total
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Интеграционные контракты"
 {code}
 
-h3. 1. Установить MCP SDK
-_{{docs/02-anthropic-vacancies/126-установка.md}} | 1 строк_
+h3. Использование
+_{{docs/01-svyazi/12-roadmap.md}} | 2 строк_
 
 {code:language=bash}
-pip install 'mcp>=1.0.0'
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Дорожная карта прототипа"
 {code}
 
-h3. 2. Проверить, что portal.py работает
-_{{docs/02-anthropic-vacancies/126-установка.md}} | 2 строк_
+h3. Использование
+_{{docs/01-svyazi/13-contacts.md}} | 2 строк_
 
 {code:language=bash}
-cd /path/to/nautilus
-python portal.py --query "synthesis"
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Контактная стратегия"
 {code}
 
-h3. 3. Протестировать MCP-обёртку локально
-_{{docs/02-anthropic-vacancies/126-установка.md}} | 2 строк_
+h3. Использование
+_{{docs/01-svyazi/14-limitations.md}} | 2 строк_
 
 {code:language=bash}
-python portal-mcp.py --warmup
-# Ждёт stdio-input; Ctrl+C для выхода
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ограничения и лицензии"
 {code}
 
-h3. Сервер не подключается
-_{{docs/02-anthropic-vacancies/130-отладка.md}} | 2 строк_
+h3. Использование
+_{{docs/01-svyazi/README.md}} | 1 строк_
 
 {code:language=bash}
-cd /path/to/nautilus
-   python3 -c "from portal import NautilusPortal; print(NautilusPortal())"
+python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Архитектура и исследов"
 {code}
 
-h3. Tool-call падает с "adapter_failed"
-_{{docs/02-anthropic-vacancies/130-отладка.md}} | 1 строк_
+h3. Использование
+_{{docs/02-anthropic-vacancies/00-intro.md}} | 1 строк_
 
 {code:language=bash}
-python3 portal.py --query ""
+python scripts/improve_semantic_search.py --query "Введение"
 {code}
 
-h3. Быстрый старт
-_{{docs/02-anthropic-vacancies/67-о-проекте.md}} | 13 строк_
+h3. Использование
+_{{docs/02-anthropic-vacancies/00-intro.md}} | 2 строк_
 
 {code:language=bash}
-git clone https://github.com/svend4/nautilus
-cd nautilus
-pip install -r requirements.txt
-
-# CLI
-python portal.py --query "кристалл"
-
-# Веб-интерфейс
-python portal.py --serve
-# открыть http://localhost:8000
-
-# MCP для Claude Desktop (в разработке)
-# см. MCP-EXTENSION.md
+# Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Введение" --mode bm25 --top 5
 {code}
 
-_...и ещё 49 блоков этого языка_
+_...и ещё 2537 блоков этого языка_
 
-h2. 📦 JSON (35)
+h2. 📦 JSON (82)
 
 
 h3. 3.2. Schema
@@ -1361,55 +1471,38 @@ _{{docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md}} | 15 �
 }
 {code}
 
-h3. 5.2. Pattern Library Architecture
-_{{docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md}} | 15 строк_
+h3. {{GET /api/health}}
+_{{docs/GATEWAY.md}} | 7 строк_
 
 {code:language=json}
 {
-"name": "my-case-2026",
-"format": "case_instance",
-"inherits_from": [
-"public:nautilus-legal:pattern/eingliederungshilfe_denial_reversal",
-"public:nautilus-legal:norm/sgb_xii_90",
-"public:nautilus-legal:template/widerspruch_generic"
-],
-"overrides": {
-"eingliederungshilfe_denial_reversal": {
-"specific_to": "Sachsen jurisdiction",
-"timeline_adjusted": true
-}
-}
+  "status": "ok",
+  "cards": 2461,
+  "passages": 13291,
+  "version": "1.0.0",
+  "llm": false
 }
 {code}
 
-h3. 3.2. Schema
-_{{docs/nautilus/npp-v1-0/03-registry.md}} | 19 строк_
+h3. {{GET /api/benchmark}}
+_{{docs/GATEWAY.md}} | 10 строк_
 
 {code:language=json}
 {
-"protocol_version": "1.0",
-"ecosystem_name": "string",
-"repositories": [
-{
-"name": "string",
-"url": "string (git URL)",
-"format": "string (e.g. '.info1')",
-"native_unit": "string (human description)",
-"adapter": "string (relative path to adapter file)",
-"passport": "string (relative path to passport file)",
-"angle": "methodological | semantic | symbolic | other",
-"compatibility_level": 0 | 1 | 2 | 3,
-"bridges": {
-"other_repo_name": "string (description of bridge)"
-}
-}
-]
+  "criteria": {
+    "latency_s":   {"value": 0.21, "threshold": "≤5.0s", "pass": true},
+    "cards":       {"value": 2482, "threshold": "≥500",  "pass": true},
+    "orphan_rate": {"value": 0.0,  "threshold": "≤0.15", "pass": true},
+    "hit_rate_10": {"value": 1.0,  "threshold": "≥0.70", "pass": true}
+  },
+  "all_pass": true,
+  "spec": "PROTOTYPE_SPEC §8"
 }
 {code}
 
-_...и ещё 20 блоков этого языка_
+_...и ещё 67 блоков этого языка_
 
-h2. 📝 Без языка (325)
+h2. 📝 Без языка (556)
 
 
 h3. Оставшиеся 53 репозитория — как получить список
@@ -1534,10 +1627,110 @@ _{{docs/02-anthropic-vacancies/01-интегральный-анализ-проф
 https://raw.githubusercontent.com/svend4/nautilus/main/glyph_adapter.py
 {code}
 
-_...и ещё 310 блоков этого языка_
+_...и ещё 541 блоков этого языка_
 
-h2. markdown (25)
+h2. markdown (116)
 
+
+h3. PORTAL-PROTOCOL.md
+_{{docs/02-anthropic-vacancies/03-portal-protocol-md.md}} | 25 строк_
+
+{code:language=markdown}
+# Nautilus Portal Protocol
+
+**Version:** 1.0.0-draft  
+**Status:** Draft (Working Document)  
+**Author:** svend4  
+**License:** CC BY 4.0 (documentation) / MIT (reference implementation)  
+**Date:** 2026-04  
+
+---
+
+<!-- similar-docs -->
+
+---
+
+## Похожие документы
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.47)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.38)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md) (сходство 0.36)
+
+
+<!-- see-also -->
+
+---
+
+## Использование
+{code}
+
+h3. 4.2. Recommended Structure
+_{{docs/02-anthropic-vacancies/09-4-passport-passport-md.md}} | 33 строк_
+
+{code:language=markdown}
+#
+
+# Essence
+
+## Essence
+Один абзац: что это, для кого, почему существует.
+
+# Объём
+
+## Объём
+
+- Единиц: 5 (demo)
+
+# Q6-отображение
+
+## Q6-отображение
+
+Не определено (Level 1).
+
+<!-- similar-docs -->
+
+---
+
+## Похожие документы
+- [79-4-passport-passport-md](79-4-passport-passport-md.md) (сходство 0.24)
+- [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md) (сходство 0.10)
+
+
+<!-- see-also -->
+
+---
+
+## Использование
+{code}
+
+h3. REVIEW_METHODOLOGY.md
+_{{docs/02-anthropic-vacancies/105-review-methodology-md.md}} | 24 строк_
+
+{code:language=markdown}
+# Трёхфазная методология Review в Nautilus
+
+**Дата:** 2026-04  
+**Статус:** Активно применяется в проекте svend4/nautilus  
+**Автор:** svend4  
+**Licensing:** CC BY 4.0
+
+---
+
+<!-- similar-docs -->
+
+---
+
+## Похожие документы
+- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.20)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.17)
+- [229-профессиональные-коллеги-агенты](229-профессиональные-коллеги-агенты.md) (сходство 0.17)
+
+
+<!-- see-also -->
+
+---
+
+## Использование
+{code}
 
 h3. 2.4. Заголовок транзитного состояния
 _{{docs/02-anthropic-vacancies/108-2-формальный-workflow.md}} | 11 строк_
@@ -1576,7 +1769,7 @@ _{{docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning
 > параграфов — **намеренные**, для сохранения информации из обоих 
 > независимых анализов.
 >
-> **Методология**: см. [REVIEW_METHODOLOGY.md](./REVIEW_METHODOLOGY.md)
+> **Методология**: см. [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
 >
 > Финальная консолидированная версия будет создана в рамках Фазы C
 > (deadline: ``). До тех пор этот документ — **internal 
@@ -1594,202 +1787,237 @@ _{{docs/02-anthropic-vacancies/119-appendix-b-примеры-расхожден�
                         B=~6600 were point-in-time estimates)_ |
 {code}
 
-h3. 4.2. Required Structure
-_{{docs/02-anthropic-vacancies/79-4-passport-passport-md.md}} | 9 строк_
+h3. README-MCP.md— инструкция по установке
+_{{docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md}} | 22 строк_
 
 {code:language=markdown}
-# Паспорт: /
+# Nautilus Portal MCP Integration
 
-| Поле | Значение |
-|------|----------|
-| Репозиторий | / |
-| Формат | `.` — краткое описание |
-| Единица | что является одной записью |
-| Адаптер | `adapters/.py` |
-| Уровень совместимости | <0-3> —  |
+Подключение Nautilus Portal к LLM-клиентам через 
+**Model Context Protocol** (MCP). Позволяет Claude Desktop, 
+Cursor и другим MCP-совместимым клиентам запрашивать экосистему 
+svend4 как обычный tool.
+
+<!-- similar-docs -->
+
+---
+
+## Похожие документы
+- [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.21)
+- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.18)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.16)
+
+
+<!-- see-also -->
+
+---
+
+## Использование
 {code}
 
-h3. Пример синтаксиса
-_{{docs/ALERTS.md}} | 11 строк_
+h3. THE DOUBLE-TRIANGLE ARCHITECTURE.md
+_{{docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md}} | 66 строк_
 
 {code:language=markdown}
-> [!NOTE]
-> Это заметка.
+# The Double-Triangle Architecture
 
-> [!TIP]
-> Практический совет.
+<!-- similar-docs -->
 
-> [!WARNING]
-> Предупреждение.
+---
 
-> [!IMPORTANT]
-> Важная информация.
+## Похожие документы
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.25)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.25)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.14)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [6. Four Deployment Domains](143-6-four-deployment-domains.md)
+- [7. Open Questions](144-7-open-questions.md)
+- [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+# ... (обрезано)
 {code}
 
-h3. Markdown сниппеты для README
-_{{docs/BADGES.md}} | 8 строк_
+h3. OPEN KNOWLEDGE WORK FOUNDATION.md
+_{{docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md}} | 77 строк_
 
 {code:language=markdown}
-![tests](https://img.shields.io/badge/tests-209--passing-brightgreen)
-![templates](https://img.shields.io/badge/templates-23-blue)
-![skills](https://img.shields.io/badge/skills-28-blue)
-![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
-![manifests](https://img.shields.io/badge/manifests-13-blue)
-![scripts](https://img.shields.io/badge/scripts-155-blue)
-![health](https://img.shields.io/badge/health-77/100-green)
-![validation](https://img.shields.io/badge/validation-14--valid-brightgreen)
+# Open Knowledge Work Foundation
+
+<!-- similar-docs -->
+
+---
+
+## Похожие документы
+- [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.25)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.12)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md) (сходство 0.12)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Problem Statement](155-1-problem-statement.md)
+- [10. Open Questions](221-10-open-questions.md)
+- [10. Risks Specific to Composite Architectures](263-10-risks-specific-to-composite-architectures.md)
+- [11. Call for Collaboration](222-11-call-for-collaboration.md)
+- [11. Open Questions](264-11-open-questions.md)
+- [12. Call for Collaboration](265-12-c
+# ... (обрезано)
 {code}
 
-h3. Как это работает
-_{{docs/FOOTNOTES.md}} | 3 строк_
+h3. REPRESENTATIVE AGENT LAYER.md
+_{{docs/02-anthropic-vacancies/166-representative-agent-layer-md.md}} | 56 строк_
 
 {code:language=markdown}
-Используем MCP[^mcp] для подключения инструментов.
+# The Representative Agent Layer
 
-[^mcp]: Model Context Protocol — протокол для AI-инструментов
+<!-- similar-docs -->
+
+---
+
+## Похожие документы
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.33)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) (сходство 0.27)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.25)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [Abstract](168-abstract.md)
+- [COMPOSITE SKILLS AGENT.md](249-composite-skills-agent-md.md)
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](304-ingit-as-cowork-native-workspace-substrate-md.md)
+- [PROFESSIONAL COLLEAGUE AGENTS.md](
+# ... (обрезано)
 {code}
 
-h3. Использование в README
-_{{docs/badges/README.md}} | 7 строк_
+h3. СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md
+_{{docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md}} | 53 строк_
 
 {code:language=markdown}
-![docs](docs/badges/docs.svg)
-![words](docs/badges/words.svg)
-![scripts](docs/badges/scripts.svg)
-![health](docs/badges/health.svg)
-![go/no-go](docs/badges/scoring.svg)
-![license](docs/badges/license.svg)
-![branch](docs/badges/branch.svg)
+# Слой Представительских Агентов
+
+<!-- similar-docs -->
+
+---
+
+## Похожие документы
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.33)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md) (сходство 0.25)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) (сходство 0.17)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [1. Why Single-Triangle Models Are Incomplete](138-1-why-single-triangle-models-are-incomplete.md)
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [Abstract](168-abstract.md)
+- [Planned (v0.2.0)
+# ... (обрезано)
 {code}
 
-h3. 4.2. Recommended Structure
-_{{docs/nautilus/npp-v1-0/04-passport.md}} | 23 строк_
+h3. PROFESSIONAL COLLEAGUE AGENTS.md
+_{{docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md}} | 68 строк_
 
 {code:language=markdown}
-# 
+# Professional Colleague Agents
 
-## Essence
-Один абзац: что это, для кого, почему существует.
+<!-- similar-docs -->
 
-## Native Format
-Формат хранения: `.ext`, структура, примеры.
+---
 
-## Content Overview
-Что внутри: типы данных, приблизительный объём, основные темы.
+## Похожие документы
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.14)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md) (сходство 0.14)
+- [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.12)
 
-## Angle / Perspective
-С какого угла Repo смотрит на общие концепты 
-(methodological / semantic / symbolic / other).
+<!-- backlinks-auto -->
+## Упоминается в
 
-## Bridges
-Как концепты Repo соотносятся с концепциями других Repos в экосистеме.
-
-## Author & Contact
-Кто поддерживает, как связаться.
-
-## History
-Когда создан, ключевые версии, направление развития.
+- [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [12. Call for Collaboration](265-12-call-for-collaboration.md)
+- [4. Architecture of Professional Colleague Agents](215-4-architecture-of-professional-colleague-agents.md)
+- [5. Architectural Specification](174-5-architectural-specification.md)
+- [8. Call to Action]
+# ... (обрезано)
 {code}
 
-h3. A.3. Minimal Passport
-_{{docs/nautilus/npp-v1-0/15-glossary.md}} | 16 строк_
+h3. Типология AI-агентов на стороне принципала и обоснование про
+_{{docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md}} | 31 строк_
 
 {code:language=markdown}
-# my_notes
+**Сопроводительный документ к:**
+- Слой Представительских Агентов v1.0
+- Концепт-документ Open Knowledge Work
+  Foundation v1.0
+- Архитектура Двойного Треугольника v1.0
+- Nautilus Portal Protocol v1.1
 
-## Essence
-Персональная коллекция Markdown-заметок.
+**Версия:** 1.0.0-черновик
+**Дата:** 2026-04-26
+**Автор:** svend4
+**Редакторская работа:** Claude
+**Лицензия:** CC BY 4.0
+**Статус:** Рабочая статья, ищем рецензентов
 
-## Native Format
-`.md` файлы в произвольной иерархии.
+---
 
-## Content Overview
-~200 заметок, темы: software engineering, philosophy, music.
+<!-- similar-docs -->
 
-## Angle / Perspective
-Methodological: how-to и reflection.
+---
 
-## Author
-example_user, example@email.com
+## Похожие документы
+- [188-ai-опосредованное-представительство-для-недопредст](188-ai-опосредованное-представительство-для-недопредст.md) (сходство 0.55)
+- [289-инфраструктура-для-ai-совместной-интеллектуальной-](289-инфраструктура-для-ai-совместной-интеллектуальной-.md) (сходство 0.37)
+- [324-ingit-как-cowork-интегрированная-подложка-рабочего](324-ingit-как-cowork-интегрированная-подложка-раб
+# ... (обрезано)
 {code}
 
-h3. 4.2. Required Structure
-_{{docs/nautilus/npp-v1-1/04-passport.md}} | 9 строк_
+h3. COMPOSITE SKILLS AGENT.md
+_{{docs/02-anthropic-vacancies/249-composite-skills-agent-md.md}} | 61 строк_
 
 {code:language=markdown}
-# Паспорт: /
+# The Composite Skills Agent
 
-| Поле | Значение |
-|------|----------|
-| Репозиторий | / |
-| Формат | `.` — краткое описание |
-| Единица | что является одной записью |
-| Адаптер | `adapters/.py` |
-| Уровень совместимости | <0-3> — |
+<!-- similar-docs -->
+
+---
+
+## Похожие документы
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.25)
+- [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md) (сходство 0.20)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md) (сходство 0.14)
+
+<!-- backlinks-auto -->
+## Упоминается в
+
+- [11. Open Questions](264-11-open-questions.md)
+- [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [Abstract](210-abstract.md)
+- [Abstract](252-abstract.md)
+- [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [Content Overview](12-c
+# ... (обрезано)
 {code}
 
-h3. A.3. Minimal Passport
-_{{docs/nautilus/npp-v1-1/22-glossary.md}} | 27 строк_
+_...и ещё 101 блоков этого языка_
 
-{code:language=markdown}
-# Паспорт: owner/my-notes
+h2. typescript (2)
 
-| Поле | Значение |
-|------|----------|
-| Репозиторий | owner/my-notes |
-| Формат | `.md` — Markdown notes |
-| Единица | Markdown-документ |
-| Адаптер | `adapters/my_notes.py` |
-| Уровень совместимости | 1 — читаемый |
 
-## Описание
+h3. 6. Adapter Interface
+_{{docs/obsidian/templates/protocol-spec.md}} | 4 строк_
 
-Персональная коллекция Markdown-заметок.
-
-## Объём
-
-- Единиц: 5 (demo)
-
-## Q6-отображение
-
-Не определено (Level 1).
-
-## Доступ к данным
-
-- Тип: static
-- Требует токен: нет
-- Fallback: всегда возвращает static entries
+{code:language=typescript}
+interface Adapter {
+  query(input: Query): Result;
+  ingest(data: Document): void;
+}
 {code}
-
-h3. 2.4. Заголовок транзитного состояния
-_{{docs/nautilus/review-methodology/02-formal-workflow.md}} | 11 строк_
-
-{code:language=markdown}
-> ⚠️ **Статус документа**: сравнительный промежуточный вариант.
-> 
-> Этот файл содержит **параллельно сохранённые версии** из двух 
-> независимых анализов: Вариант A (ветка ``) и Вариант B 
-> (ветка ``). Дубликаты таблиц и параграфов — 
-> **намеренные**, для сохранения информации из обоих независимых 
-> анализов.
-> 
-> Финальная консолидированная версия v3 будет создана после ручной 
-> верификации. До тех пор этот документ — **internal reference 
-> material**, не предназначен для внешнего аудита.
-{code}
-
-h3. Q6-покрытие
-_{{docs/nautilus/review-methodology/03-consolidation-principles.md}} | 2 строк_
-
-{code:language=markdown}
-| Python LOC | 6 782 | _(verified 2026-04-19, see ADR or 
-commit abc123; both Ag82 and Bf00 noted)_ |
-{code}
-
-_...и ещё 6 блоков этого языка_
-
-h2. typescript (1)
-
 
 h3. 6. Adapter Interface
 _{{docs/templates/protocol-spec.md}} | 4 строк_
@@ -1801,4 +2029,16 @@ interface Adapter {
 }
 {code}
 
-_...и ещё 10 блоков этого языка_
+
+
+----
+
+_Кто ссылается на этот документ (7):_
+* [CONTENT_GAPS|CONTENT_GAPS.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+

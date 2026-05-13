@@ -1,0 +1,65 @@
+{
+  "card_id": "sha256:6d02bddc40b87c23",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/yodoca.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/ngt-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/mclaude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/ai-factory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:bfd6e8217e6d75a6",
+  "payload": {
+    "title": "Yodoca",
+    "summary": "Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.",
+    "body": "yodoca источник хабр github citeturn view turn view turn view turn search проекты svyazi yodoca смотрите также ngt memory ngt memory memnet memnet mclaude mclaude factory factory кто ссылается этот документ authors name glossary authors name components name glossary components name concepts glossary concepts readme readme",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 127,
+    "path": "docs/svyazi-2-0/components/yodoca.md"
+  }
+}

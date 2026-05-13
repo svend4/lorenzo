@@ -94,20 +94,39 @@ def main():
     print(f"  wrote: {out.relative_to(ROOT)} ({out.stat().st_size // 1024} KB)")
 
     # Также создаём упрощённый Markdown-индекс для чтения
+    from pathlib import Path as _Path
     md_lines = [
         "# Поисковый индекс\n",
+        f"<!-- summary -->\n> Индекс **{len(index)}** документов, **{total_words:,}** слов\n",
+        "<!-- tags: search, index, knowledge-base, navigation -->\n",
+        f"> [!TIP]\n> Используйте этот индекс для навигации по базе знаний.\n\n<!-- alert-added -->\n",
         f"**Файлов:** {len(index)}  ",
         f"**Слов:** {total_words:,}\n",
+        "## Индекс документов\n",
         "| Файл | Теги | Проекты | Слов |",
         "|------|------|---------|------|",
     ]
     for e in index:
         if e["name"] if "name" in e else True:
             tags = ", ".join(e["tags"][:3])
-            projs = ", ".join(e["projects"][:3])
+            # Strip markdown link syntax [text](url) → text to avoid broken relative paths
+            raw_projs = [re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', p_) for p_ in e["projects"][:3]]
+            projs = ", ".join(raw_projs)
+            p = _Path(e['path'])
+            try:
+                rel = p.relative_to("docs")
+            except ValueError:
+                rel = p
+            stem = p.stem[:45]
             md_lines.append(
-                f"| `{e['path']}` | {tags} | {projs} | {e['words']} |"
+                f"| [{stem}]({rel}) | {tags} | {projs} | {e['words']} |"
             )
+
+    md_lines += [
+        "\n## Статистика\n",
+        f"- Всего документов: **{len(index)}**",
+        f"- Всего слов: **{total_words:,}**",
+    ]
 
     (DOCS / "SEARCH.md").write_text("\n".join(md_lines) + "\n", encoding="utf-8")
     print(f"  wrote: docs/SEARCH.md")

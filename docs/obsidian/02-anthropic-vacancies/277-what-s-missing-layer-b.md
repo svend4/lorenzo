@@ -8,17 +8,10 @@ date: 2026-05-13
 
 # What's Missing — Layer B
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [What's Missing — Layer B](#whats-missing-layer-b)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -30,6 +23,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Between chat and repository, there should exist Layer B: an
 
 ---
@@ -111,7 +108,7 @@ product.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[280-the-specific-case-in-front-of-us]] (сходство 0.16)
 - [[276-the-two-layer-stack-as-it-exists]] (сходство 0.16)
 - [[279-existing-approximations]] (сходство 0.16)
@@ -121,7 +118,13 @@ product.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What s Missing Layer B"
+```
+
+## Смотрите также
 - [[280-the-specific-case-in-front-of-us]]
 - [[276-the-two-layer-stack-as-it-exists]]
 - [[279-existing-approximations]]
@@ -165,3 +168,19 @@ product.
 - [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]] _21%_
 - [[283-what-this-document-doesn-t-solve|What This Document Doesn't Solve]] _21%_
 - [[287-references|References]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[218-7-application-domains]]
+- [[275-why-this-document-exists]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[278-why-this-hasn-t-been-built]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[281-the-recursive-insight]]
+- [[282-what-industry-will-likely-build]]
+- [[283-what-this-document-doesn-t-solve]]
+- _...ещё 3_
+

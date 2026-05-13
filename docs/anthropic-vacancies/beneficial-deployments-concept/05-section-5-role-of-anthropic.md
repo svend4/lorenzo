@@ -1,5 +1,12 @@
 # Section 5: Role of Anthropic Beneficial Deployments
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -48,11 +55,34 @@ This is mutual benefit framing. Не «вы дайте денег», но «да
 
 ---
 
-**Смотрите также:**
-- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
-- [01-section-1-problem](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 5 Role of Anthropic Beneficial"
+```
+
+## Смотрите также
+- [00-context](00-context.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- [01-section-1-problem](01-section-1-problem.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-context](00-context.md)
+- [11-not-and-format](11-not-and-format.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -60,7 +90,7 @@ This is mutual benefit framing. Не «вы дайте денег», но «да
 ---
 
 **Похожие документы:**
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) (сходство 0.26)
-- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md) (сходство 0.24)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) (сходство 0.24)
+- [05-section-5-role-of-anthropic](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md) (сходство 0.98)
+- [09-section-9-timeliness](09-section-9-timeliness.md) (сходство 0.30)
+- [09-section-9-timeliness](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) (сходство 0.30)
 

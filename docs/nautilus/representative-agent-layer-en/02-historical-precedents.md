@@ -1,11 +1,20 @@
 # 2. Historical Precedents: Agents as Civilizational Innovation
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [2. Historical Precedents: Agents as Civilizational Innovation](#2-historical-precedents-agents-as-civilizational-innovation)
@@ -197,11 +206,30 @@ never had it**.
 
 ---
 
-**Смотрите также:**
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
-- [01-cinderella-syndrome](docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md)
-- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 Historical Precedents Agents as"
+```
+
+## Смотрите также
+- [171-2-historical-precedents-agents-as-civilizational-i](../../02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [04-ten-domains](04-ten-domains.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -209,7 +237,7 @@ never had it**.
 ---
 
 **Похожие документы:**
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/obsidian/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.87)
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.86)
-- [01-cinderella-syndrome](docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md) (сходство 0.18)
+- [02-historical-precedents](../../obsidian/nautilus/representative-agent-layer-en/02-historical-precedents.md) (сходство 0.98)
+- [171-2-historical-precedents-agents-as-civilizational-i](../../02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.85)
+- [171-2-historical-precedents-agents-as-civilizational-i](../../obsidian/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.85)
 

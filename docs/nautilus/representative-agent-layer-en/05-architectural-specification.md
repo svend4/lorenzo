@@ -1,11 +1,20 @@
 # 5. Architectural Specification
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [5. Architectural Specification](#5-architectural-specification)
@@ -143,11 +152,33 @@ that touches the world beyond the personal context.
 
 ---
 
-**Смотрите также:**
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [03-what-makes-representative-agent](docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Architectural Specification"
+```
+
+## Смотрите также
+- [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md)
+- [03-what-makes-representative-agent](03-what-makes-representative-agent.md)
+- [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [06-ethical-framework](06-ethical-framework.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-what-makes-representative-agent](03-what-makes-representative-agent.md)
+- [06-ethical-framework](06-ethical-framework.md)
+- [07-governance-oversight](07-governance-oversight.md)
+- [08-risks-mitigations](08-risks-mitigations.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -155,7 +186,7 @@ that touches the world beyond the personal context.
 ---
 
 **Похожие документы:**
-- [174-5-architectural-specification](docs/obsidian/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.90)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.84)
-- [03-what-makes-representative-agent](docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md) (сходство 0.24)
+- [05-architectural-specification](../../obsidian/nautilus/representative-agent-layer-en/05-architectural-specification.md) (сходство 0.99)
+- [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.85)
+- [174-5-architectural-specification](../../obsidian/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.84)
 

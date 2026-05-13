@@ -40,7 +40,7 @@ h1. 4. Proposed Infrastructure
 h2. Содержание
 
 * [4. Proposed Infrastructure|#4-proposed-infrastructure]
-  * [4.1. Technical Substrate: Nautilus Portal Protocol|#41-technical-substrate-[nautilus](../docs/05-habr-projects/memory/memnet.md]-portal-protocol)
+  * [4.1. Technical Substrate: Nautilus Portal Protocol|#41-technical-substrate-nautilus-portal-protocol]
   * [4.2. Coordination Pattern: Double-Triangle Architecture|#42-coordination-pattern-double-triangle-architecture]
   * [4.3. Knowledge Layer: Pattern Library with Private Instances|#43-knowledge-layer-pattern-library-with-private-instances]
   * [4.4. Community Layer: Guild Structure|#44-community-layer-guild-structure]
@@ -257,7 +257,7 @@ Community governance operates:
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
 * [[143-6-four-deployment-domains]] (сходство 0.18)
 * [[144-7-open-questions]] (сходство 0.16)
@@ -267,9 +267,31 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Proposed Infrastructure"
+{code}
+
+h2. Смотрите также
 * [[memnet|141-4-[nautilus]]-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 * [[143-6-four-deployment-domains]]
 * [[144-7-open-questions]]
 * [[145-8-call-to-action]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (13)
+* 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+* [[142-5-pattern-library-as-bridge-between-triangles]]
+* [[143-6-four-deployment-domains]]
+* [[144-7-open-questions]]
+* [[145-8-call-to-action]]
+* [[150-appendix-c-version-history]]
+* [[153-executive-summary]]
+* [[157-3-why-existing-solutions-fail]]
+* _...ещё 5_
 

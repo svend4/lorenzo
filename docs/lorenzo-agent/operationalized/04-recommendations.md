@@ -1,5 +1,22 @@
 # Рекомендации: принять архитектуру как direction, не immediate plan
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -95,11 +112,33 @@ Read source code existing components
 
 ---
 
-**Смотрите также:**
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
-- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
-- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Рекомендации принять архитектуру как"
+```
+
+## Смотрите также
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [06-conclusion-deserves-attention](06-conclusion-deserves-attention.md)
+- [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [02-minuses-1-10](02-minuses-1-10.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -107,7 +146,7 @@ Read source code existing components
 ---
 
 **Похожие документы:**
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) (сходство 0.57)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md) (сходство 0.21)
-- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md) (сходство 0.19)
+- [04-recommendations](../../obsidian/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.99)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md) (сходство 0.59)
+- [05-anchor-node-habr-scout](../../obsidian/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) (сходство 0.59)
 

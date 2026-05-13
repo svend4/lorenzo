@@ -1,10 +1,26 @@
 # Du hast gesagt: Думаю про опцию д поискать в том числе на про что-то подобное на…
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).
 
 ---
 <!-- tags: anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +43,33 @@ Claude hat geantwortet: Отличная идея — Лоренцо как ко
 
 ---
 
-**Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Думаю про опцию д"
+```
+
+## Смотрите также
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-scenario](../scenarios/00-question-scenario.md)
+- [01-kto-ty](../01-kto-ty.md)
+- [09-voobshche-nelzya](../09-voobshche-nelzya.md)
+
+_Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-search-results-not-found](01-search-results-not-found.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -39,7 +77,7 @@ Claude hat geantwortet: Отличная идея — Лоренцо как ко
 ---
 
 **Похожие документы:**
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.23)
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.23)
-- [00-question-practical](docs/nautilus/community-discussions/practical-observations/00-question-practical.md) (сходство 0.23)
+- [00-question-lorenzo-codename](../../obsidian/lorenzo-agent/naming/00-question-lorenzo-codename.md) (сходство 0.93)
+- [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.32)
+- [00-question-agent-changes-reality](../../nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.30)
 

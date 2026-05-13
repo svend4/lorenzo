@@ -1,6 +1,29 @@
 # Author & Contact
 
+<!-- toc-auto -->
+## Contents
+
+- [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (21)](#кто-ссылается-на-этот-документ-21)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > **Maintainer:** svend4 (GitHub)
 
 ---
@@ -19,7 +42,7 @@
 **Лицензия контента:** [? уточнить — CC BY-SA? CC BY 4.0? proprietary?]
 
 **Лицензия адаптера:** MIT (следуя reference implementation 
-`[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal`)
+`[nautilus](../05-habr-projects/memory/memnet.md)-portal`)
 
 ---
 
@@ -27,7 +50,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [62-author-contact](62-author-contact.md) (сходство 0.37)
 - [52-author-contact](52-author-contact.md) (сходство 0.31)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.28)
@@ -37,7 +60,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Author Contact"
+```
+
+## Смотрите также
 - [62-author-contact](62-author-contact.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [52-author-contact](52-author-contact.md)
@@ -96,3 +125,19 @@
 - [4. Nautilus Portal as Reference Substrate](141-4-nautilus-portal-as-reference-substrate.md) _29%_
 - [12. Versioning Policy](24-12-versioning-policy.md) _29%_
 - [passports/info1.md](35-passports-info1-md.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (21)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- _...ещё 13_
+

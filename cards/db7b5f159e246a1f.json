@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:db7b5f159e246a1f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:9be317bd82fd318e",
+  "payload": {
+    "title": "Различие 2: Domain-specific specialization",
+    "summary": "Различие 2: Domain-specific specialization",
+    "body": "различие domain specific specialization источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога сравнение собственной архитектуры ingit cowork nautilus hermes agent nous resear смотрите также similarity composite skills similarity composite skills difference institutional vision difference institutional vision difference tool mission drift difference tool mission drift similarity persistent memory similarity persistent memory",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 179,
+    "path": "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:ae59ed0fe0531952",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/components/svyazi.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:83b7dfbaa3918b35",
+  "payload": {
+    "title": "Svyazi",
+    "summary": "",
+    "body": "svyazi компонент экосистемы svyazi проекты svyazi тип статус упоминаний описание компонент экосистемы svyazi ссылки исходники readme документация связанные документы cowork ingit kksudo lorenzo nautilus sgb spbmolot антропик связанные документы sgb антропик cowork ingit kksudo lorenzo nautilus spbmolot смотрите также cowork ingit lorenzo упоминается cowork lorenzo nautilus sgb readme components ingit kksudo spbmolot svend autofilled автозаполненные шаблоны антропик tables все таблицы репозитория sitemap карта репозитория lorenzo",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 158,
+    "path": "docs/obsidian/autofilled/components/svyazi.md"
+  }
+}

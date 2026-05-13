@@ -1,11 +1,28 @@
 # Mega‑Stack 2.0 — Ultimate Legal‑AI System
 
+<!-- toc-auto -->
+## Contents
+
+- [Capabilities](#capabilities)
+- [First implementation priority](#first-implementation-priority)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑STACK 2.0: Ultimate Legal‑AI System».
 **Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -68,11 +85,27 @@
 
 ---
 
-**Смотрите также:**
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
+## Смотрите также
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
+- [01-legal-ai-stack](01-legal-ai-stack.md)
+- [19-multi-agent-observability-platform](../combinations/19-multi-agent-observability-platform.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [reading-paths](../../reading-paths.md)
+- [18-llm-powered-legal-corpus-builder](../combinations/18-llm-powered-legal-corpus-builder.md)
+- [19-multi-agent-observability-platform](../combinations/19-multi-agent-observability-platform.md)
+- _...ещё 8_
 
 
 <!-- similar-docs -->
@@ -80,7 +113,7 @@
 ---
 
 **Похожие документы:**
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.44)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.40)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md) (сходство 0.37)
+- [02-ultimate-legal-ai](../../obsidian/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.96)
+- [09-14-extended](../synthesis-tables/09-14-extended.md) (сходство 0.41)
+- [01-legal-ai-stack](01-legal-ai-stack.md) (сходство 0.40)
 

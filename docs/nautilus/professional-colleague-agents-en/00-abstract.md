@@ -1,10 +1,49 @@
 # Professional Colleague Agents
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Содержание](#содержание-1)
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](#a-typology-of-ai-agents-on-the-principal-side-and-the-case-for-profession-specific-co-workers)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Содержание](#содержание)
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](#a-typology-of-ai-agents-on-the-principal-side-and-the-case-for-profession-specific-co-workers)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+## Содержание
+
+- Основной раздел
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
 <!-- tags: rag, architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -83,12 +122,41 @@ their daily work.
 
 ---
 
+<!-- see-also -->
+
+---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Professional Colleague Agents"
+```
+
+## Смотрите также
+- [12-closing](12-closing.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [210-abstract](../../02-anthropic-vacancies/210-abstract.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [210-abstract](docs/obsidian/02-anthropic-vacancies/210-abstract.md) (сходство 0.72)
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md) (сходство 0.68)
-- [12-closing](docs/nautilus/professional-colleague-agents-en/12-closing.md) (сходство 0.31)
+- [00-abstract](../../obsidian/nautilus/professional-colleague-agents-en/00-abstract.md) (сходство 0.99)
+- [210-abstract](../../obsidian/02-anthropic-vacancies/210-abstract.md) (сходство 0.72)
+- [210-abstract](../../02-anthropic-vacancies/210-abstract.md) (сходство 0.72)
 

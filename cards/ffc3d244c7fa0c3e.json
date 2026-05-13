@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:ffc3d244c7fa0c3e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/risk-entry.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/RISK_REGISTER.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/decision-record.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:32a8c0b1e195b335",
+  "payload": {
+    "title": "Риск: [Название]",
+    "summary": "",
+    "body": "риск название warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений risk nnnn описание описание риска предложениях что может произойти сценарий реализации триггер цепочка событий финальное последствие оценка параметр значение вероятность low medium high certain влияние low medium high critical risk score зона зелёная жёлтая красная митигация превентивные меры мера отв имя мера реактивные меры если риск реализуется что делать первый час что делать первый день триггеры мониторинга метрика значение escalate событие escalate история дата событие кто риск идентифицирован имя связанные риски risk nnnn risk nnnn как связан создано смотрите также risk register risk register decision record decision record",
+    "tags": [
+      "риск",
+      "безопасность"
+    ],
+    "projects": [],
+    "wc": 221,
+    "path": "docs/templates/risk-entry.md"
+  }
+}

@@ -152,11 +152,33 @@ broader applicability.
 
 ---
 
-**Смотрите также:**
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
-- [13-closing](docs/nautilus/composite-skills-agents/13-closing.md)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Integration with OKWF Infrastructure"
+```
+
+## Смотрите также
+- [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [13-closing](13-closing.md)
+- [07-economics-combinatorial](07-economics-combinatorial.md)
+- [04-sub-agent-registry](04-sub-agent-registry.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-sub-agent-registry](04-sub-agent-registry.md)
+- [07-economics-combinatorial](07-economics-combinatorial.md)
+- [10-risks](10-risks.md)
+- _...ещё 5_
 
 
 <!-- similar-docs -->
@@ -164,7 +186,7 @@ broader applicability.
 ---
 
 **Похожие документы:**
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.89)
-- [262-9-integration-with-okwf-infrastructure](docs/obsidian/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.88)
-- [13-closing](docs/nautilus/composite-skills-agents/13-closing.md) (сходство 0.24)
+- [09-okwf-integration](../../obsidian/nautilus/composite-skills-agents/09-okwf-integration.md) (сходство 0.99)
+- [262-9-integration-with-okwf-infrastructure](../../obsidian/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.84)
+- [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.84)
 

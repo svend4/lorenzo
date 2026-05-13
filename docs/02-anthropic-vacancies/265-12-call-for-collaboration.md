@@ -1,9 +1,13 @@
 # 12. Call for Collaboration
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [12. Call for Collaboration](#12-call-for-collaboration)
   - [12.1. For Practitioners](#121-for-practitioners)
   - [12.2. For Curators and Domain Experts](#122-for-curators-and-domain-experts)
@@ -11,24 +15,8 @@
   - [12.4. For Researchers](#124-for-researchers)
   - [12.5. For Foundation Funders](#125-for-foundation-funders)
   - [12.6. For Policymakers](#126-for-policymakers)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [12. Call for Collaboration](#12-call-for-collaboration)
-  - [12.1. For Practitioners](#121-for-practitioners)
-  - [12.2. For Curators and Domain Experts](#122-for-curators-and-domain-experts)
-  - [12.3. For Software Engineers and Architects](#123-for-software-engineers-and-architects)
-  - [12.4. For Researchers](#124-for-researchers)
-  - [12.5. For Foundation Funders](#125-for-foundation-funders)
-  - [12.6. For Policymakers](#126-for-policymakers)
 
 
 <!-- summary -->
@@ -111,19 +99,40 @@ match actual technology architecture.
 
 ---
 
-**Похожие документы:**
-- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.26)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.18)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.17)
+## Похожие документы
+- [222-11-call-for-collaboration](222-11-call-for-collaboration.md) (сходство 0.26)
+- [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.17)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Call for Collaboration"
+```
+
+## Смотрите также
+- [222-11-call-for-collaboration](222-11-call-for-collaboration.md)
+- [266-13-closing](266-13-closing.md)
+- [264-11-open-questions](264-11-open-questions.md)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
+- [266-13-closing](266-13-closing.md)
+- [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
+- [README](README.md)
 

@@ -1,10 +1,26 @@
 # Пара 6 — Деревня агентов через tmux × OpenClaw оркестратор
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag, orchestration, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +43,33 @@ Telegram-orchestrated headless village — пишешь в Telegram «откро
 
 ---
 
-**Смотрите также:**
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
-- [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 6 Деревня агентов через tmux"
+```
+
+## Смотрите также
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
+- [1-one-person-one-company](../final-ensembles/1-one-person-one-company.md)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
+- 1-[llm-gateway](1-llm-gateway.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [1-llm-gateway](1-llm-gateway.md)
+- [3-adversarial-multi-ide](3-adversarial-multi-ide.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -39,7 +77,7 @@ Telegram-orchestrated headless village — пишешь в Telegram «откро
 ---
 
 **Похожие документы:**
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md) (сходство 0.20)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md) (сходство 0.19)
-- [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md) (сходство 0.18)
+- [6-tmux-village-openclaw](../../obsidian/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.96)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md) (сходство 0.24)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md) (сходство 0.24)
 

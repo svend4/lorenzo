@@ -10,6 +10,11 @@ date: 2026-05-13
 
 # 1. The Five-Type Typology of Principal-Side Agents
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -20,6 +25,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Representative Agent Layer paper introduced one type of AI
 
 ---
@@ -219,7 +228,7 @@ ethical, and economic framework.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[226-appendix-a-comparative-table-five-agent-types]] (сходство 0.24)
 - [[220-9-relationship-to-other-agent-types]] (сходство 0.18)
 - [[213-2-what-makes-a-professional-colleague-agent]] (сходство 0.17)
@@ -229,7 +238,7 @@ ethical, and economic framework.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[226-appendix-a-comparative-table-five-agent-types]]
 - [[220-9-relationship-to-other-agent-types]]
 - [[213-2-what-makes-a-professional-colleague-agent]]
@@ -278,3 +287,19 @@ ethical, and economic framework.
 - [[210-abstract|Abstract]] _29%_
 - [[223-12-closing|12. Closing]] _29%_
 - [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[174-5-architectural-specification]]
+- [[210-abstract]]
+- [[211-table-of-contents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[214-3-empirical-case-study-обучай]]
+- [[220-9-relationship-to-other-agent-types]]
+- _...ещё 6_
+

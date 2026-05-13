@@ -1,11 +1,40 @@
 # Ключевые понятия и паттерны
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Не проекты, а концепции, которые повторяются в нескольких разделах.
 **Проекты:** Svyazi, CardIndex, Legal RAG, Yodoca, NGT Memory, MemNet, Tool Search, AutoResearch
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -45,11 +74,28 @@
 
 ---
 
-**Смотрите также:**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
-- [QA](docs/QA.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ключевые понятия и паттерны"
+```
+
+## Смотрите также
+- [components-by-name](components-by-name.md)
+- [11-integration-contracts](../01-svyazi/11-integration-contracts.md)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [QA](../QA.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [README](README.md)
+- [README](../nautilus/README.md)
+- [reading-paths](../reading-paths.md)
+- [glossary-entry](../templates/glossary-entry.md)
 
 
 <!-- similar-docs -->
@@ -57,7 +103,7 @@
 ---
 
 **Похожие документы:**
-- [components-by-name](docs/glossary/components-by-name.md) (сходство 0.19)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.17)
-- [11-integration-contracts](docs/obsidian/01-svyazi/11-integration-contracts.md) (сходство 0.17)
+- [concepts](../obsidian/glossary/concepts.md) (сходство 0.94)
+- [components-by-name](components-by-name.md) (сходство 0.21)
+- [components-by-name](../obsidian/glossary/components-by-name.md) (сходство 0.19)
 

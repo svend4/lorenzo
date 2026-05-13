@@ -1,6 +1,24 @@
 # 10. Конкретный план применения к текущим документам
 
+<!-- toc-auto -->
+## Contents
+
+- [10. Конкретный план применения к текущим документам](#10-конкретный-план-применения-к-текущим-документам)
+  - [10.1. IMPLEMENTATION_STAGE_PART_[1-4].md](#101-implementation_stage_part_1-4md)
+  - [10.2. Будущие применения](#102-будущие-применения)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ---
@@ -56,11 +74,27 @@ docs) методология **не применяется**.
 
 ---
 
-**Смотрите также:**
-- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [08-implementation-nautilus](docs/nautilus/review-methodology/08-implementation-nautilus.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+## Смотрите также
+- [117-10-конкретный-план-применения-к-текущим-документам](../../02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [08-implementation-nautilus](08-implementation-nautilus.md)
+- [02-formal-workflow](02-formal-workflow.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [05-conditions-of-applicability](05-conditions-of-applicability.md)
+- [08-implementation-nautilus](08-implementation-nautilus.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -68,7 +102,7 @@ docs) методология **не применяется**.
 ---
 
 **Похожие документы:**
-- [117-10-конкретный-план-применения-к-текущим-документам](docs/obsidian/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.70)
-- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.61)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.27)
+- [11-application-plan-current-docs](../../obsidian/nautilus/review-methodology/11-application-plan-current-docs.md) (сходство 0.98)
+- [117-10-конкретный-план-применения-к-текущим-документам](../../02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.57)
+- [117-10-конкретный-план-применения-к-текущим-документам](../../obsidian/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.56)
 

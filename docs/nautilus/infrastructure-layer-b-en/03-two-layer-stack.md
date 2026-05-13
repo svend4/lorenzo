@@ -1,5 +1,13 @@
 # The Two-Layer Stack As It Exists
 
+<!-- toc-auto -->
+## Contents
+
+- [The Two-Layer Stack As It Exists](#the-two-layer-stack-as-it-exists)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -64,11 +72,33 @@ infrastructure that does not exist as a unified product.
 
 ---
 
-**Смотрите также:**
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
-- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Two Layer Stack As It Exists"
+```
+
+## Смотрите также
+- [276-the-two-layer-stack-as-it-exists](../../02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -76,7 +106,7 @@ infrastructure that does not exist as a unified product.
 ---
 
 **Похожие документы:**
-- [276-the-two-layer-stack-as-it-exists](docs/obsidian/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.82)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.75)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md) (сходство 0.25)
+- [03-two-layer-stack](../../obsidian/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md) (сходство 0.98)
+- [276-the-two-layer-stack-as-it-exists](../../02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.73)
+- [276-the-two-layer-stack-as-it-exists](../../obsidian/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.73)
 

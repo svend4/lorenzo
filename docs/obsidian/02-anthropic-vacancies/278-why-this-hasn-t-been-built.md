@@ -9,6 +9,11 @@ date: 2026-05-13
 
 # Why This Hasn't Been Built
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -22,6 +27,10 @@ date: 2026-05-13
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Infrastructure built in the last three years is mostly focused on the chat layer, where the immediate need was visible.
@@ -88,7 +97,7 @@ integration does not.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[285-closing]] (сходство 0.15)
 - [[279-existing-approximations]] (сходство 0.14)
 - [[276-the-two-layer-stack-as-it-exists]] (сходство 0.12)
@@ -98,7 +107,13 @@ integration does not.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Hasn t Been Built"
+```
+
+## Смотрите также
 - [[285-closing]]
 - [[279-existing-approximations]]
 - [[275-why-this-document-exists]]
@@ -142,3 +157,19 @@ integration does not.
 - [[279-existing-approximations|Existing Approximations]] _25%_
 - [[286-acknowledgments|Acknowledgments]] _25%_
 - [[275-why-this-document-exists|Why This Document Exists]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[168-abstract]]
+- [[266-13-closing]]
+- [[275-why-this-document-exists]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[281-the-recursive-insight]]
+- [[282-what-industry-will-likely-build]]
+- [[283-what-this-document-doesn-t-solve]]
+- _...ещё 3_
+

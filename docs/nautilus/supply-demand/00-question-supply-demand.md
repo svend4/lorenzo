@@ -1,10 +1,37 @@
 # Du hast gesagt: Спрос рождает предложение - это простая экономическая истина нач…
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — спрос рождает предложение — три связанные темы.
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -23,11 +50,32 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
-- [00-question-mountain-to-person](docs/nautilus/transmission-box/00-question-mountain-to-person.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
-- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Спрос рождает"
+```
+
+## Смотрите также
+- [00-question-mountain-to-person](../transmission-box/00-question-mountain-to-person.md)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-habr-2](../community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-voiceless](../community-discussions/voiceless-contributors/00-question-voiceless.md)
+- [README](README.md)
+- [00-question-mountain-to-person](../transmission-box/00-question-mountain-to-person.md)
 
 
 <!-- similar-docs -->
@@ -35,7 +83,7 @@ Mehr anzeigen
 ---
 
 **Похожие документы:**
-- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md) (сходство 0.16)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.16)
-- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.15)
+- [00-question-supply-demand](../../obsidian/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.93)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.20)
+- [00-question-agent-changes-reality](../community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.20)
 

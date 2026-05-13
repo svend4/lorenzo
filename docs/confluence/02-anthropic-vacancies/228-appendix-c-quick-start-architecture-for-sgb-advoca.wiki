@@ -51,7 +51,7 @@ _Stack_ (suggested):
   privacy-sensitive operations
 * Storage: PostgreSQL (structured) + ChromaDB (vector)
 * Knowledge base format: Markdown files in Git repository
-* Frontend: [TypeScript|../docs/05-habr-projects/memory/memnet.md] + React
+* Frontend: [TypeScript|../05-habr-projects/memory/memnet.md] + React
 * Mobile: React Native or PWA
 
 _Knowledge base structure_ (initial):
@@ -232,7 +232,7 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.15)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.14)
 - [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md) (сходство 0.14)
@@ -242,7 +242,7 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
@@ -292,3 +292,19 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 - [Appendix C: Sample Use Cases in Detail](186-appendix-c-sample-use-cases-in-detail.md) _25%_
 - [PROFESSIONAL COLLEAGUE AGENTS.md](208-professional-colleague-agents-md.md) _25%_
 - [Abstract](210-abstract.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (20)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [210-abstract](210-abstract.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- _...ещё 12_
+

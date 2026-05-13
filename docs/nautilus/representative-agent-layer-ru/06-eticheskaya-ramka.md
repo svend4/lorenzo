@@ -1,5 +1,44 @@
 # 6. Этическая рамка
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [6. Этическая рамка](#6-этическая-рамка)
+  - [6.1. Суверенитет Принципала](#61-суверенитет-принципала)
+  - [6.2. Прозрачные Способности](#62-прозрачные-способности)
+  - [6.3. Никаких Неблагоприятных Действий Без Уведомления](#63-никаких-неблагоприятных-действий-без-уведомления)
+  - [6.4. Справедливость Между Принципалами](#64-справедливость-между-принципалами)
+  - [6.5. Защита Уязвимости](#65-защита-уязвимости)
+  - [6.6. Согласие и Дееспособность](#66-согласие-и-дееспособность)
+  - [6.7. Доступность как Первоочередная Забота](#67-доступность-как-первоочередная-забота)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Этическая рамка](#6-этическая-рамка)
+  - [6.1. Суверенитет Принципала](#61-суверенитет-принципала)
+  - [6.2. Прозрачные Способности](#62-прозрачные-способности)
+  - [6.3. Никаких Неблагоприятных Действий Без Уведомления](#63-никаких-неблагоприятных-действий-без-уведомления)
+  - [6.4. Справедливость Между Принципалами](#64-справедливость-между-принципалами)
+  - [6.5. Защита Уязвимости](#65-защита-уязвимости)
+  - [6.6. Согласие и Дееспособность](#66-согласие-и-дееспособность)
+  - [6.7. Доступность как Первоочередная Забота](#67-доступность-как-первоочередная-забота)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
 
@@ -81,11 +120,33 @@
 
 ---
 
-**Смотрите также:**
-- [196-6-этическая-рамка](docs/02-anthropic-vacancies/196-6-этическая-рамка.md)
-- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
-- [05-arkhitekturnaya-spetsifikatsiya](docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md)
-- [07-upravlenie-nadzor](docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Этическая рамка"
+```
+
+## Смотрите также
+- [196-6-этическая-рамка](../../02-anthropic-vacancies/196-6-этическая-рамка.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- [05-arkhitekturnaya-spetsifikatsiya](05-arkhitekturnaya-spetsifikatsiya.md)
+- [07-upravlenie-nadzor](07-upravlenie-nadzor.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-sindrom-zolushki](01-sindrom-zolushki.md)
+- [05-arkhitekturnaya-spetsifikatsiya](05-arkhitekturnaya-spetsifikatsiya.md)
+- [07-upravlenie-nadzor](07-upravlenie-nadzor.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -93,7 +154,7 @@
 ---
 
 **Похожие документы:**
-- [196-6-этическая-рамка](docs/obsidian/02-anthropic-vacancies/196-6-этическая-рамка.md) (сходство 0.84)
-- [196-6-этическая-рамка](docs/02-anthropic-vacancies/196-6-этическая-рамка.md) (сходство 0.81)
-- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md) (сходство 0.13)
+- [06-eticheskaya-ramka](../../obsidian/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md) (сходство 0.99)
+- [196-6-этическая-рамка](../../obsidian/02-anthropic-vacancies/196-6-этическая-рамка.md) (сходство 0.85)
+- [196-6-этическая-рамка](../../02-anthropic-vacancies/196-6-этическая-рамка.md) (сходство 0.85)
 

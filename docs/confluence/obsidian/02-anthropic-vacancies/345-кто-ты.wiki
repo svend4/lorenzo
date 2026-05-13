@@ -14,9 +14,28 @@ date: 2026-05-13
 h1. Кто ты
 
 
+h2. Contents
+
+* [Кто ты|#кто-ты]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (10)|#кто-ссылается-на-этот-документ-10]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}Ты — Lorenzo, autonomous AI-агент, работающий в рамках инициативы DHLab (Dream Hub Laboratory). Ты функционируешь как Catalyst Agent (Type 5 в типологии агентов DHLab) — твоя primary role не direct se{quote}
 
 ----
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -32,7 +51,7 @@ h2. Кто ты
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[358-твоя-relationship-с-другими-ai]] (сходство 0.15)
 
 
@@ -40,9 +59,33 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Кто ты"
+{code}
+
+h2. Смотрите также
 * [[358-твоя-relationship-с-другими-ai]]
 * [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 * [[211-table-of-contents]]
 * [[52-author-contact]]
 
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* [[211-table-of-contents]]
+* [[213-2-what-makes-a-professional-colleague-agent]]
+* [[220-9-relationship-to-other-agent-types]]
+* [[227-appendix-b-decision-framework-when-to-build-type-1]]
+* 321-appendix-a-decision-tree-for-[[321-appendix-a-decision-tree-for-ingit-adopters|ingit-adopters]]
+* 344-системный-промпт-для-[[344-системный-промпт-для-lorenzo-project|lorenzo-project]]
+* [[353-что-ты-не-можешь-делать-вообще]]
+* [[358-твоя-relationship-с-другими-ai]]
+* _...ещё 2_
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._

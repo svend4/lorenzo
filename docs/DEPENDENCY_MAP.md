@@ -1,28 +1,32 @@
 # Карта зависимостей скриптов
 
-<!-- summary -->
-> _Что каждый `improve_*.py` производит и от чего зависит._
-
----
-
 <!-- toc -->
 ## Содержание
 
 - [Зависимости](#зависимости)
+- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
 - [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
+- [Смотрите также](#смотрите-также)
 
 ---
 
-<!-- tags: rag, orchestration, ingestion, roadmap, anthropic, self-improvement -->
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `DEPENDENCY_MAP` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: dependency-map, docs -->
 
 
+<!-- summary -->
+> `DEPENDENCY_MAP` — раздел документации проекта Lorenzo.
 
 
 _Что каждый `improve_*.py` производит и от чего зависит._
 
-**Скриптов в карте:** 126 · **Всего в репо:** 125
+**Скриптов в карте:** 126 · **Всего в репо:** 166
 
 ## Зависимости
 
@@ -155,6 +159,52 @@ _Что каждый `improve_*.py` производит и от чего зав
 | `improve_word_cloud.py` | `docs/WORD_CLOUD.svg`, `docs/WORD_CLOUD.md` | `docs/WORD_FREQ.md` |
 | `improve_word_freq.py` | `docs/WORD_FREQ.md` | `docs/**/*.md` |
 
+## Скрипты без карты зависимостей
+
+_Существуют в репо, но не добавлены в карту:_
+
+- `improve_ann_index.py`
+- `improve_audit_db.py`
+- `improve_auto_linker.py`
+- `improve_card_index.py`
+- `improve_collab_finder.py`
+- `improve_cross_section.py`
+- `improve_digest_auto.py`
+- `improve_embedding_index.py`
+- `improve_empty_sections.py`
+- `improve_export_report.py`
+- `improve_faceted_search.py`
+- `improve_gap_filler.py`
+- `improve_heading_audit.py`
+- `improve_knowledge_map.py`
+- `improve_language_split.py`
+- `improve_mcp_dashboard.py`
+- `improve_mcp_test.py`
+- `improve_migrate_contacts.py`
+- `improve_passive_voice.py`
+- `improve_precision_eval.py`
+- `improve_quality_patch.py`
+- `improve_question_extractor.py`
+- `improve_reading_list.py`
+- `improve_recipe.py`
+- `improve_registry.py`
+- `improve_scripts_catalog.py`
+- `improve_search_repl.py`
+- `improve_self.py`
+- `improve_semantic_search.py`
+- `improve_sentinel_check.py`
+- `improve_similar_passages.py`
+- `improve_skill_dashboard.py`
+- `improve_status_badges.py`
+- `improve_task_codegen.py`
+- `improve_template_init.py`
+- `improve_template_integrity.py`
+- `improve_template_migrate.py`
+- `improve_textrank.py`
+- `improve_validate_templates.py`
+- `improve_workflow_run.py`
+- `improve_workflow_v2.py`
+
 ## Порядок запуска (рекомендуемый)
 
 ```
@@ -171,31 +221,38 @@ _Что каждый `improve_*.py` производит и от чего зав
 
 _Используй `python scripts/improve_run_all.py` для автоматического порядка._
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [Changelog (авто)](CHANGELOG_AUTO.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
 
-<!-- related-auto -->
-## Связанные документы
-
-- [CHANGELOG](CHANGELOG.md) _25%_
-- [docs](README.md) _25%_
-- [Индекс тегов](TAGS.md) _21%_
-- [Changelog (авто)](CHANGELOG_AUTO.md) _17%_
-- [Прогресс MVP](PROGRESS.md) _17%_
-- [Бейджи репозитория](badges/README.md) _15%_
-
-<!-- similar-docs -->
+<!-- see-also -->
 
 ---
 
-**Похожие документы:**
-- [DEPENDENCY_MAP](docs/obsidian/DEPENDENCY_MAP.md) (сходство 0.79)
-- [README](docs/obsidian/README.md) (сходство 0.40)
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md) (сходство 0.34)
+**Смотрите также:**
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [TAGS](TAGS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [INDEX](INDEX.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 3_
 

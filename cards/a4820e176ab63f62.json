@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:a4820e176ab63f62",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/05-compatibility-levels.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/80-5-compatibility-levels.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/17-5-compatibility-levels.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/07-portal-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/06-adapter-interface.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:f017401c3e187da7",
+  "payload": {
+    "title": "5. Compatibility Levels",
+    "summary": "NPP определяет 4 уровня совместимости Repo с экосистемой. Это",
+    "body": "compatibility levels источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также compatibility levels anthropic vacancies compatibility levels compatibility levels anthropic vacancies compatibility levels portal entry portal entry adapter interface adapter interface",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 302,
+    "path": "docs/nautilus/npp-v1-1/05-compatibility-levels.md"
+  }
+}

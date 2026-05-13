@@ -1,10 +1,17 @@
 # ai-collaborations
+<!-- tags: readme, docs -->
 
-**Файлов:** 1
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
+**Файлов:** 2
 
 ## Содержание
 
-- [source-projects.md](source-projects.md) — <!-- summary -->
+- [QA.md](QA.md) — <!-- toc-auto -->
+- [source-projects.md](source-projects.md) — > [!NOTE]
 
 ## Подразделы
 
@@ -15,12 +22,36 @@
 - [fast-tracks/](fast-tracks/) — fast-tracks
 - [strategy/](strategy/) — strategy
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [QA](QA.md)
+- [source-projects](source-projects.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/svyazi-2-0/overview/README.md) (сходство 0.25)
-- [README](docs/ai-collaborations/candidates/README.md) (сходство 0.22)
-- [README](docs/obsidian/autofilled/README.md) (сходство 0.21)
+- [README](../obsidian/ai-collaborations/README.md) (сходство 0.80)
+- [README](../svyazi-2-0/overview/README.md) (сходство 0.47)
+- [README](../habr-unique-projects/analogues/README.md) (сходство 0.45)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ai-collaborations». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

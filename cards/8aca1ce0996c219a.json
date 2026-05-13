@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:8aca1ce0996c219a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/phased-deployment/07-progression-logic.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/00-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/01-level-0-manual.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:ac915b5c46721589",
+  "payload": {
+    "title": "Логика прогрессии: conservative escalation",
+    "summary": "Не requires next level (можно остановиться)",
+    "body": "логика прогрессии conservative escalation источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network смотрите также overview overview level manual level manual level full network level full network level basic lite level basic lite",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 185,
+    "path": "docs/lorenzo-agent/phased-deployment/07-progression-logic.md"
+  }
+}

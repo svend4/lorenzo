@@ -1,11 +1,27 @@
 # Пара 7 — AutoResearch цикл × Распределённый рой
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, AutoResearch
 
 ---
 <!-- tags: orchestration, ingestion, roadmap, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +44,32 @@ Sequential протокол для модерации inferred-фактов — 
 
 ---
 
-**Смотрите также:**
-- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 7 AutoResearch цикл Распределённый"
+```
+
+## Смотрите также
+- 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](../../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- [05-supplementary-infrastructure](../key-findings/05-supplementary-infrastructure.md)
+- [3-discovery-research](../final-ensembles/3-discovery-research.md)
+- [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [2-autoresearch-legal](../final-ensembles/2-autoresearch-legal.md)
 
 
 <!-- similar-docs -->
@@ -40,7 +77,7 @@ Sequential протокол для модерации inferred-фактов — 
 ---
 
 **Похожие документы:**
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.17)
-- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.16)
-- [2-autoresearch-legal](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md) (сходство 0.16)
+- [7-autoresearch-distributed](../../obsidian/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md) (сходство 0.94)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](../../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.22)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](../../obsidian/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.21)
 

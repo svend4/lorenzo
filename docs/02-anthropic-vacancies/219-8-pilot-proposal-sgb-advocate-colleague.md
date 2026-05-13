@@ -1,5 +1,10 @@
 # 8. Pilot Proposal: SGB Advocate Colleague
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > We now apply the Professional Colleague Agent framework to a
 
 ---
@@ -232,7 +241,7 @@ incremental rather than novel.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.17)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
 - [164-10-appendices](164-10-appendices.md) (сходство 0.15)
@@ -242,7 +251,13 @@ incremental rather than novel.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Pilot Proposal SGB Advocate Colleague"
+```
+
+## Смотрите также
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [164-10-appendices](164-10-appendices.md)
@@ -289,3 +304,19 @@ incremental rather than novel.
 - [12. Closing](223-12-closing.md) _25%_
 - [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _25%_
 - [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](273-infrastructure-for-ai-collaborative-intellectual-w.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [164-10-appendices](164-10-appendices.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- _...ещё 10_
+

@@ -1,11 +1,27 @@
 # Ансамбль 2 — Distributed Agent Workshop
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** AI Factory, Rufler
 
 ---
 <!-- tags: orchestration, architecture, roadmap, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -50,11 +66,33 @@ Community Project Builder — участники сообщества предл
 
 ---
 
-**Смотрите также:**
-- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 2 Distributed Agent Workshop"
+```
+
+## Смотрите также
+- [01-shared-memory-between-agents](../continuation/01-shared-memory-between-agents.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-shared-memory-between-agents](../continuation/01-shared-memory-between-agents.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [6-continuous-eval-loop](6-continuous-eval-loop.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -62,7 +100,7 @@ Community Project Builder — участники сообщества предл
 ---
 
 **Похожие документы:**
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.18)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.18)
-- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md) (сходство 0.16)
+- [2-distributed-agent-workshop](../../obsidian/ai-collaborations/ensembles/2-distributed-agent-workshop.md) (сходство 0.99)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md) (сходство 0.22)
+- [9-ambient-team-agent](9-ambient-team-agent.md) (сходство 0.22)
 

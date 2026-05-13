@@ -1,0 +1,61 @@
+{
+  "card_id": "sha256:74a86bc991c36b6a",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/rufler.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/mclaude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/ai-factory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:992cc2e0820d9838",
+  "payload": {
+    "title": "Rufler",
+    "summary": "Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.",
+    "body": "rufler автор zodigancode lib проекты svyazi rufler смотрите также mclaude mclaude memnet memnet factory factory knowledge space knowledge space кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
+    "tags": [
+      "orchestration",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "MemNet"
+    ],
+    "wc": 114,
+    "path": "docs/svyazi-2-0/components/rufler.md"
+  }
+}

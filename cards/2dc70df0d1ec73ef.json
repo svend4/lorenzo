@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:2dc70df0d1ec73ef",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/09-okwf-integration.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/13-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/07-economics-combinatorial.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/04-sub-agent-registry.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:e5e4a8260fa1a713",
+  "payload": {
+    "title": "9. Integration with OKWF Infrastructure",
+    "summary": "Composite Skills Agents fit naturally into the OKWF infrastructure",
+    "body": "integration with okwf infrastructure tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper composite skills agents источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper composite skills agents integration with okwf infrastructure composite skills agents fit naturally into the okwf infrastructure proposed earlier papers with some specific implications connection pattern library the nautilus pattern library architecture public patterns private instances anonymization pipeline provides foundational support for the sub agent registry patterns become source material for sub agents anonymized practitioner contributions flow into pattern library which informs sub agent updates the connection not just analogical the same infrastructure serves both pattern library knowledge fragments accessible humans for review sub agent registry knowledge fragments operationalized into assistants given knowledge artifact can serve both functions connection guild structure okwf guild structure groups practitioners professional area provides natural organization for sub agent development each guild can identify priority sub agents for their area contribute expert curation test sub agents actual practice maintain quality standards develop common configuration templates guilds become both consumers and producers composite infrastructure connection double triangle architecture the double triangle architecture each node human practitioner has lower triangle assistants supporting their work composite skills agents formalize what lower triangle assistants typically contain not one undifferentiated assistant but coordinated configuration narrow specialists the composite agent itself the orchestrator the lower triangle the sub agents the configuration are the actual lower triangle assistants doing specialized work this refines the double triangle model the lower triangle not flat set assistants but coordinated ensemble connection representative agents composite skills agents and representative agents work together naturally the composite agent supports the practitioner work the representative agent supports the practitioner external position mature practitioner has both composite for daily work representative for opportunity navigation they share underlying profile information about the practitioner but operate different layers refined okwf rollout plan earlier papers proposed sequencing okwf deployment with composite skills agents recognized the sequence refines phase months foundation establishment initial sub agent set for one profession perhaps sgb social law build narrow sub agents plus coordinator pilot with practitioners phase year expand sub agent set scale practitioners establish pattern library connection anonymization pipeline begin contribution flow back into sub agent updates phase years expand second profession perhaps educational support for disabled students maintaining thematic connection cross profession integration methodology sub agents phase years multiple professions federated sub agent registry mature configuration management begin adding representative agent layer for principals who want phase year multi language multi jurisdiction expansion open registry with multiple curating organizations this plan more realistic than the earlier proposal because matches how skilled practitioners actually develop and what they actually need practical implication for pilot design for the sgb advocate colleague pilot specifically original plan build one comprehensive professional colleague agent for german social law refined plan build sub agent registry covering narrow sgb specializations plus coordinator that practitioners configure individually cost increases for year but produces genuinely useful infrastructure that scales multiple adjacent legal domains and supports practitioners actual diverse practices rather than forcing one size fits all generalization this better proposal for foundation funders even higher cost because demonstrates more sophisticated understanding how skilled practice works and produces infrastructure with broader applicability смотрите также integration with okwf infrastructure anthropic vacancies integration with okwf infrastructure closing closing economics combinatorial economics combinatorial sub agent registry sub agent registry",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 693,
+    "path": "docs/nautilus/composite-skills-agents/09-okwf-integration.md"
+  }
+}

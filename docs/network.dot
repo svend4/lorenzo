@@ -21,41 +21,36 @@ digraph network {
   "Lorenzo" [fillcolor=lightblue];
   "Cowork" [fillcolor=lightblue];
   "ingit" [fillcolor=lightblue];
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "Cowork" -- "ingit" [weight=270, penwidth=5];
-  "Svyazi" -- "NGT" [weight=198, penwidth=5];
-  "Svyazi" -- "Yodoca" [weight=197, penwidth=5];
-  "Yodoca" -- "NGT" [weight=182, penwidth=5];
-  "Svyazi" -- "CardIndex" [weight=172, penwidth=5];
-  "Svyazi" -- "AgentFS" [weight=161, penwidth=5];
-  "AgentFS" -- "NGT" [weight=147, penwidth=5];
-  "AgentFS" -- "Yodoca" [weight=141, penwidth=5];
-  "CardIndex" -- "NGT" [weight=140, penwidth=5];
-  "Svyazi" -- "knowledge-space" [weight=136, penwidth=5];
-  "Svyazi" -- "Rufler" [weight=133, penwidth=5];
-  "Svyazi" -- "Lorenzo" [weight=129, penwidth=5];
-  "CardIndex" -- "AgentFS" [weight=129, penwidth=5];
-  "CardIndex" -- "Yodoca" [weight=129, penwidth=5];
-  "Svyazi" -- "mclaude" [weight=127, penwidth=5];
-  "Cowork" -- "Lorenzo (svend4)" [weight=124, penwidth=5];
-  "Svyazi" -- "LiteParse" [weight=121, penwidth=5];
-  "Svyazi" -- "MemNet" [weight=120, penwidth=5];
-  "AgentFS" -- "knowledge-space" [weight=119, penwidth=5];
-  "NGT" -- "knowledge-space" [weight=118, penwidth=5];
-  "Svyazi" -- "SENTINEL" [weight=116, penwidth=5];
-  "Yodoca" -- "Rufler" [weight=116, penwidth=5];
-  "NGT" -- "Rufler" [weight=115, penwidth=5];
-  "Lorenzo" -- "ingit" [weight=114, penwidth=5];
-  "ingit" -- "Lorenzo (svend4)" [weight=114, penwidth=5];
-  "Yodoca" -- "knowledge-space" [weight=113, penwidth=5];
-  "Svyazi" -- "AI Factory" [weight=112, penwidth=5];
-  "Svyazi" -- "Андрей (kksudo)" [weight=112, penwidth=5];
-  "Svyazi" -- "Виталий (spbmolot)" [weight=112, penwidth=5];
-  "Yodoca" -- "mclaude" [weight=112, penwidth=5];
-=======
-=======
->>>>>>> origin/main
+  "Svyazi" -- "Lorenzo" [weight=403, penwidth=5];
+  "Cowork" -- "ingit" [weight=319, penwidth=5];
+  "Svyazi" -- "Yodoca" [weight=281, penwidth=5];
+  "Svyazi" -- "NGT" [weight=259, penwidth=5];
+  "Yodoca" -- "NGT" [weight=248, penwidth=5];
+  "Svyazi" -- "CardIndex" [weight=239, penwidth=5];
+  "Svyazi" -- "AgentFS" [weight=221, penwidth=5];
+  "Svyazi" -- "knowledge-space" [weight=191, penwidth=5];
+  "AgentFS" -- "Yodoca" [weight=188, penwidth=5];
+  "AgentFS" -- "NGT" [weight=188, penwidth=5];
+  "Svyazi" -- "mclaude" [weight=187, penwidth=5];
+  "Svyazi" -- "Rufler" [weight=184, penwidth=5];
+  "CardIndex" -- "NGT" [weight=183, penwidth=5];
+  "Lorenzo" -- "Cowork" [weight=182, penwidth=5];
+  "Lorenzo" -- "ingit" [weight=182, penwidth=5];
+  "Svyazi" -- "MemNet" [weight=174, penwidth=5];
+  "Lorenzo" -- "Lorenzo (svend4)" [weight=174, penwidth=5];
+  "CardIndex" -- "AgentFS" [weight=173, penwidth=5];
+  "CardIndex" -- "Yodoca" [weight=173, penwidth=5];
+  "AgentFS" -- "knowledge-space" [weight=173, penwidth=5];
+  "Svyazi" -- "LiteParse" [weight=170, penwidth=5];
+  "Svyazi" -- "SENTINEL" [weight=163, penwidth=5];
+  "Yodoca" -- "MemNet" [weight=160, penwidth=5];
+  "Svyazi" -- "Андрей (kksudo)" [weight=155, penwidth=5];
+  "Yodoca" -- "mclaude" [weight=155, penwidth=5];
+  "Yodoca" -- "knowledge-space" [weight=154, penwidth=5];
+  "AgentFS" -- "LiteParse" [weight=153, penwidth=5];
+  "Rufler" -- "mclaude" [weight=152, penwidth=5];
+  "NGT" -- "knowledge-space" [weight=150, penwidth=5];
+  "Yodoca" -- "Rufler" [weight=149, penwidth=5];
   "Cowork" -- "ingit" [weight=218, penwidth=5];
   "Svyazi" -- "NGT" [weight=162, penwidth=5];
   "Yodoca" -- "NGT" [weight=153, penwidth=5];
@@ -86,8 +81,6 @@ digraph network {
   "NGT" -- "SENTINEL" [weight=102, penwidth=5];
   "CardIndex" -- "Yodoca" [weight=99, penwidth=5];
   "SENTINEL" -- "Rufler" [weight=99, penwidth=5];
-<<<<<<< HEAD
 >>>>>>> origin/main
-=======
->>>>>>> origin/main
+>>>>>>> addd158217510d88e184eccd2be7b2f41b198cd4
 }

@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:f0a0efaf5a8238ff",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/18-reference-implementation.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/93-18-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/14-sdk.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:719b3d9b91794159",
+  "payload": {
+    "title": "18. Reference Implementation",
+    "summary": "Reference НЕ является нормативной. Альтернативные implementations",
+    "body": "reference implementation источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также reference implementation anthropic vacancies reference implementation reference implementation npp reference implementation reference implementation anthropic vacancies reference implementation sdk sdk",
+    "tags": [
+      "rag",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 212,
+    "path": "docs/nautilus/npp-v1-1/18-reference-implementation.md"
+  }
+}

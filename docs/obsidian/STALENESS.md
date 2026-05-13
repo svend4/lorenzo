@@ -1,65 +1,80 @@
 ---
 title: "Отчёт об устаревших документах"
 tags:
+  - staleness
+  - docs
   - general
 date: 2026-05-13
 ---
 
 # Отчёт об устаревших документах
 
-_Порог: 30 дней. Обновлено: 2026-04-29_
+<!-- toc-auto -->
 
-Найдено проблем: **208** файлов
+> [!NOTE]
+> Раздел `STALENESS` формируется автоматически из данных репозитория.
 
-## Без метаданных (нет summary или тегов) — 171 файлов
+<!-- alert-added -->
+<!-- tags: staleness, docs -->
+
+
+<!-- summary -->
+> `STALENESS` — раздел документации проекта Lorenzo.
+
+
+_Порог: 30 дней. Обновлено: 2026-05-13_
+
+Найдено проблем: **135** файлов
+
+## Без метаданных (нет summary или тегов) — 94 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
-| `docs/01-svyazi/QA.md` | 255 | нет summary, нет тегов |
-| `docs/01-svyazi/README.md` | 339 | нет summary, нет тегов |
+| `docs/MCP_DASHBOARD.md` | 21 | нет summary, нет тегов, короткий (21 слов) |
+| `docs/autofilled/README.md` | 66 | нет summary, нет тегов, короткий (66 слов) |
+| `docs/autofilled/components/README.md` | 96 | нет summary, нет тегов, короткий (96 слов) |
+| `docs/badges/README.md` | 69 | нет summary, нет тегов, короткий (69 слов) |
+| `docs/01-svyazi/QA.md` | 257 | нет summary, нет тегов |
 | `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
-| `docs/03-technology-combinations/QA.md` | 146 | нет summary, нет тегов |
-| `docs/03-technology-combinations/README.md` | 77 | нет summary, нет тегов, короткий (77 слов) |
+| `docs/03-technology-combinations/QA.md` | 100 | нет summary, нет тегов |
 | `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
-| `docs/04-ai-collaborations/README.md` | 364 | нет summary, нет тегов |
-| `docs/05-habr-projects/QA.md` | 133 | нет summary, нет тегов |
-| `docs/05-habr-projects/README.md` | 71 | нет summary, нет тегов, короткий (71 слов) |
-| `docs/05-habr-projects/knowledge/README.md` | 38 | нет summary, нет тегов, короткий (38 слов) |
-| `docs/05-habr-projects/memory/README.md` | 75 | нет summary, нет тегов, короткий (75 слов) |
-| `docs/ABBREVIATIONS.md` | 1097 | нет summary, нет тегов |
-| `docs/ACTION_ITEMS.md` | 8241 | нет summary, нет тегов |
+| `docs/05-habr-projects/QA.md` | 206 | нет summary, нет тегов |
+| `docs/ABBREVIATIONS.md` | 1306 | нет summary, нет тегов |
+| `docs/ACTION_ITEMS.md` | 8984 | нет summary, нет тегов |
 | `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
-| `docs/AUTHORS.md` | 66 | нет summary, нет тегов, короткий (66 слов) |
-| `docs/CHANGELOG.md` | 1321 | нет summary, нет тегов |
-| `docs/CODE_BLOCKS.md` | 4716 | нет summary, нет тегов |
+| `docs/AUTHORS.md` | 129 | нет тегов |
+| `docs/BACKLINKS.md` | 423 | нет тегов |
+| `docs/CHANGELOG.md` | 821 | нет summary, нет тегов |
+| `docs/CODE_BLOCKS.md` | 5051 | нет summary, нет тегов |
 | `docs/COMPARE.md` | 321 | нет summary, нет тегов |
-| `docs/COMPLEXITY.md` | 328 | нет summary, нет тегов |
-| `docs/CONCEPTS.md` | 14289 | нет summary, нет тегов |
+| `docs/COMPLEXITY.md` | 350 | нет тегов |
+| `docs/CONCEPTS.md` | 16170 | нет summary, нет тегов |
+| `docs/CONSISTENCY.md` | 525 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 37 файлов
+## Короткие (< 100 слов, заготовки) — 41 файлов
 
 | Файл | Слов |
 |------|------|
-| `docs/01-svyazi/00-intro-part2.md` | 21 |
-| `docs/02-anthropic-vacancies/120-главные-технические-риски.md` | 99 |
-| `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 28 |
-| `docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md` | 89 |
-| `docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md` | 95 |
-| `docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md` | 93 |
-| `docs/SEARCH_RESULTS.md` | 65 |
-| `docs/VERSION_DIFF.md` | 53 |
-| `docs/WORD_CLOUD.md` | 88 |
-| `docs/anthropic-vacancies/clusters/12-technical-program-management.md` | 96 |
-| `docs/anthropic-vacancies/clusters/13-communications.md` | 89 |
-| `docs/anthropic-vacancies/clusters/14-public-policy.md` | 96 |
-| `docs/anthropic-vacancies/clusters/15-public-benefit.md` | 96 |
-| `docs/anthropic-vacancies/clusters/16-people.md` | 87 |
-| `docs/lorenzo-agent/00-intro.md` | 84 |
-| `docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md` | 79 |
-| `docs/obsidian/01-svyazi/00-intro-part2.md` | 60 |
-| `docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md` | 79 |
-| `docs/obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` | 95 |
-| `docs/obsidian/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 71 |
+| `docs/ai-collaborations/candidates/README.md` | 98 |
+| `docs/glossary/README.md` | 88 |
+| `docs/habr-unique-projects/analogues/README.md` | 91 |
+| `docs/habr-unique-projects/final-ensembles/README.md` | 99 |
+| `docs/lorenzo-agent/scenarios/README.md` | 88 |
+| `docs/nautilus/community-discussions/agent-changes-reality/README.md` | 98 |
+| `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` | 88 |
+| `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` | 91 |
+| `docs/nautilus/community-discussions/practical-observations/README.md` | 91 |
+| `docs/nautilus/community-discussions/voiceless-contributors/README.md` | 88 |
+| `docs/nautilus/composite-skills-agents-companion-mentors/README.md` | 99 |
+| `docs/nautilus/innovation-transitions/README.md` | 95 |
+| `docs/nautilus/multi-tier-architecture/README.md` | 91 |
+| `docs/nautilus/supply-demand/README.md` | 91 |
+| `docs/nautilus/transmission-box/README.md` | 91 |
+| `docs/svyazi-2-0/limitations/README.md` | 95 |
+| `docs/svyazi-2-0/outreach/README.md` | 98 |
+| `docs/svyazi-2-0/prototype/README.md` | 88 |
+| `docs/svyazi-2-0/security/README.md` | 98 |
+| `docs/technology-combinations/research-reports/README.md` | 91 |
 
 ## Рекомендуемые действия
 
@@ -71,3 +86,22 @@ python scripts/improve_tags.py
 # Обогатить короткие файлы через LLM
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+

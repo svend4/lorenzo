@@ -1,6 +1,25 @@
 # Legal RAG
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **Источник:** Хабр citeturn20view6
 **Проекты:** Svyazi, Legal RAG
 
@@ -31,19 +50,38 @@
 
 ---
 
-**Смотрите также:**
-- [hybrid-rag](docs/svyazi-2-0/components/hybrid-rag.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
-- [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
-- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Legal RAG"
+```
+
+## Смотрите также
+- [hybrid-rag](hybrid-rag.md)
+- [yodoca](yodoca.md)
+- [graph-rag](graph-rag.md)
+- [research-docs-liteparse](research-docs-liteparse.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов.
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [hybrid-rag](docs/svyazi-2-0/components/hybrid-rag.md) (сходство 0.34)
-- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md) (сходство 0.33)
-- [graph-rag](docs/svyazi-2-0/components/graph-rag.md) (сходство 0.32)
+- [legal-rag](../../obsidian/svyazi-2-0/components/legal-rag.md) (сходство 0.98)
+- [hybrid-rag](hybrid-rag.md) (сходство 0.61)
+- [research-docs-liteparse](research-docs-liteparse.md) (сходство 0.60)
 

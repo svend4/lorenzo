@@ -1,5 +1,17 @@
 # Appendix A: Glossary
 
+<!-- toc -->
+## Содержание
+
+- [Appendix A: Glossary](#appendix-a-glossary)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -77,7 +89,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.19)
 - [136-abstract](136-abstract.md) (сходство 0.17)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.17)
@@ -87,7 +99,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A Glossary"
+```
+
+## Смотрите также
 - [146-acknowledgments](146-acknowledgments.md)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
@@ -134,3 +152,19 @@
 - [7. Open Questions](144-7-open-questions.md) _29%_
 - [9. Integration with OKWF Infrastructure](262-9-integration-with-okwf-infrastructure.md) _25%_
 - [THE DOUBLE-TRIANGLE ARCHITECTURE.md](134-the-double-triangle-architecture-md.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [133-обратная-связь](133-обратная-связь.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [136-abstract](136-abstract.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- _...ещё 3_
+

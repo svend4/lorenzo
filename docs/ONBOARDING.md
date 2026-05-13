@@ -1,33 +1,16 @@
 # Онбординг — Svyazi 2.0 / Lorenzo
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `ONBOARDING` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: onboarding, docs -->
+
 
 <!-- summary -->
-> _Руководство для новых участников проекта._
-**Проекты:** Svyazi, CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Firecrawl
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Что это такое?](#что-это-такое)
-- [Первые 30 минут](#первые-30-минут)
-- [Структура документации](#структура-документации)
-- [Ключевые документы](#ключевые-документы)
-- [Скрипты автоматизации](#скрипты-автоматизации)
-- [Архитектура компонентов](#архитектура-компонентов)
-- [Как внести вклад](#как-внести-вклад)
-- [Контакты](#контакты)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
+> `ONBOARDING` — раздел документации проекта Lorenzo.
 
 
 _Руководство для новых участников проекта._
@@ -60,15 +43,15 @@ python scripts/improve_run_all.py --fast
 
 ## Структура документации
 
-_Всего: 407 файлов, 306,267 слов_
+_Всего: 413 файлов, 401,686 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
-| [`docs/01-svyazi/`](docs/01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 10,166 |
-| [`docs/02-anthropic-vacancies/`](docs/02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 260,851 |
-| [`docs/03-technology-combinations/`](docs/03-technology-combinations/README.md) | Комбинации технологий | 7 | 2,433 |
-| [`docs/04-ai-collaborations/`](docs/04-ai-collaborations/README.md) | AI-коллаборации | 17 | 24,521 |
-| [`docs/05-habr-projects/`](docs/05-habr-projects/README.md) | Хабр-проекты | 10 | 8,296 |
+| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,329 |
+| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 341,899 |
+| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,781 |
+| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,853 |
+| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,824 |
 
 ## Ключевые документы
 
@@ -85,7 +68,7 @@ _Всего: 407 файлов, 306,267 слов_
 
 ## Скрипты автоматизации
 
-В репо 75 скриптов `improve_*.py` для автоматического обновления документации.
+В репо 166 скриптов `improve_*.py` для автоматического обновления документации.
 
 ```bash
 # Все скрипты быстро
@@ -134,23 +117,29 @@ _Этот документ генерируется скриптом `improve_on
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
 
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [FAQ](FAQ.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 3_
+
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [INDEX](docs/INDEX.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [PROGRESS](docs/PROGRESS.md)
-- [TECH_RADAR](docs/TECH_RADAR.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ONBOARDING](docs/obsidian/ONBOARDING.md) (сходство 0.93)
-- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md) (сходство 0.26)
-- [COMPONENT_MATRIX](docs/obsidian/COMPONENT_MATRIX.md) (сходство 0.23)
+- [INDEX](INDEX.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [TECH_RADAR](TECH_RADAR.md)
+- [PROGRESS](PROGRESS.md)
 

@@ -1,10 +1,27 @@
 # Существующие документы DHLab (твой context)
 
+<!-- toc-auto -->
+## Contents
+
+- [Существующие документы DHLab (твой context)](#существующие-документы-dhlab-твой-context)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ---
 <!-- tags: architecture, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -31,11 +48,33 @@
 
 ---
 
-**Смотрите также:**
-- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [273-infrastructure-for-ai-collaborative-intellectual-w](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Существующие документы DHLab твой"
+```
+
+## Смотрите также
+- [355-существующие-документы-dhlab-твой-context](../02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
+- [09-difference-4-institutional-vision](../anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
+- [273-infrastructure-for-ai-collaborative-intellectual-w](../02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)
+- [14-other-ai-relationships](14-other-ai-relationships.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [10-references](../nautilus/double-triangle-architecture/10-references.md)
 
 
 <!-- similar-docs -->
@@ -43,7 +82,7 @@
 ---
 
 **Похожие документы:**
-- [355-существующие-документы-dhlab-твой-context](docs/obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.59)
-- [355-существующие-документы-dhlab-твой-context](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.58)
-- [344-системный-промпт-для-lorenzo-project](docs/obsidian/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md) (сходство 0.33)
+- [11-dhlab-documents](../obsidian/lorenzo-agent/11-dhlab-documents.md) (сходство 0.96)
+- [355-существующие-документы-dhlab-твой-context](../02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.57)
+- [355-существующие-документы-dhlab-твой-context](../obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.57)
 

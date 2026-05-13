@@ -1,5 +1,23 @@
 # Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -125,11 +143,33 @@ Alternative: Комбинация 32 (Raft multi-agent) — если нужна 
 
 ---
 
-**Смотрите также:**
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
-- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 35 MEGA STACK 4 0 with Event"
+```
+
+## Смотрите также
+- [31-35-final](../synthesis-tables/31-35-final.md)
+- [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [30-mega-stack-3-0-with-dsl-ast](30-mega-stack-3-0-with-dsl-ast.md)
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
+- [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -137,7 +177,7 @@ Alternative: Комбинация 32 (Raft multi-agent) — если нужна 
 ---
 
 **Похожие документы:**
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.49)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.41)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.36)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../../obsidian/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.98)
+- [31-35-final](../synthesis-tables/31-35-final.md) (сходство 0.49)
+- [31-35-final](../../obsidian/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.48)
 

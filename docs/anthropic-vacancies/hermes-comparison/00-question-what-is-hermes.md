@@ -1,10 +1,26 @@
 # Что такое Hermes Agent (Nous Research, MIT, 95K+ stars)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear
 
 ---
 <!-- tags: memory, architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -59,11 +75,31 @@ Termux support (что особенно релевантно для вас, уч
 
 ---
 
-**Смотрите также:**
-- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
-- [11-pluses-of-hermes](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md)
-- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
-- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что такое Hermes Agent Nous Research"
+```
+
+## Смотрите также
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
+- [11-pluses-of-hermes](11-pluses-of-hermes.md)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
+- [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -71,7 +107,7 @@ Termux support (что особенно релевантно для вас, уч
 ---
 
 **Похожие документы:**
-- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.26)
-- [11-pluses-of-hermes](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md) (сходство 0.20)
-- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md) (сходство 0.19)
+- [00-question-what-is-hermes](../../obsidian/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md) (сходство 0.99)
+- [04-similarity-4-multi-platform](../../obsidian/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.26)
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md) (сходство 0.26)
 

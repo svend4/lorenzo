@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:87b11c1d09ecdd11",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-en/01-cowork-discovery.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-en/02-cowork-provides.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:3b441b1b4f7b2a16",
+  "payload": {
+    "title": "1. The Cowork Discovery and Why It Changes Everything",
+    "summary": "When Document 2.3 was written earlier in this session, the",
+    "body": "the cowork discovery and why changes everything источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper ingit cowork источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper ingit cowork the cowork discovery and why changes everything document position was incomplete when document was written earlier this session the author and collaborator framed the layer gap essentially unfilled surveyed anthropic projects github discussions notion obsidian and various combinations and concluded that existing tool adequately served sustained collaborative intellectual work this framing was incomplete were unaware only partially aware anthropic cowork platform launched january and its substantial expansion since cowork specifically addresses many the layer requirements persistent memory across sessions scoped project local file system access within permitted folders mcp connector support for external integrations multi step task execution agentic not just chat scheduled recurring tasks computer use for navigation when needed project workspaces with custom instructions reading the cowork documentation light document requirements reveals that substantial layer infrastructure already exists production this not speculative deployed and being used significant numbers professional knowledge workers what document got right despite missing cowork document correctly identified several requirements that cowork itself does not fully solve threading message level cowork has project scoped memory but within session conversation still linear branching from specific points develop alternatives parallel not first class operation annotation document sections cowork can read and edit documents but has native annotation layer where comments attach specific text passages and persist across versions cross references with link integrity cowork can follow references documents but does not maintain reference integrity automatically when documents restructure promotion workflow between layers cowork lives within claude desktop promoting content from chat sessions durable project artifacts repository commits remains manual these remain genuine gaps but the gaps are now different context they are gaps above substantial layer foundation not the entire absence layer the strategic implication this changes strategy dramatically building layer from scratch was the implicit framing document recursive insight nautilus extending into layer prototype the implication was multi year substantial product development effort with cowork existing the question changes now how does ingit position itself relative cowork three possibilities option compete build ingit alternative cowork this requires matching cowork agentic capabilities persistence mcp support computer use multi year effort duplicating anthropic investment option ignore build ingit independently cowork useful for offline first scenarios but misses the value multiplication option complement position ingit the structure layer that cowork needs leverage cowork agentic intelligence provide structured workspace substrate that cowork general purpose project storage doesn option dramatically better reduces ingit required scope accelerates time value creates symbiotic relationship rather than competitive one aligns with ingit existing offline first philosophy cowork can work with local ingit projects and makes ingit immediately useful not after years development the remainder this document develops option смотрите также the cowork discovery and why changes everythi anthropic vacancies the cowork discovery and why changes everythi cowork provides cowork provides existing approximations infrastructure layer existing approximations whats missing layer infrastructure layer whats missing layer",
+    "tags": [
+      "rag",
+      "local-first",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 631,
+    "path": "docs/nautilus/ingit-cowork-en/01-cowork-discovery.md"
+  }
+}

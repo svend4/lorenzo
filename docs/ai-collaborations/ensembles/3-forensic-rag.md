@@ -1,11 +1,28 @@
 # Ансамбль 3 — Forensic RAG
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** LiteParse, Legal RAG, Hybrid RAG, Graph RAG
 
 ---
 <!-- tags: rag, knowledge, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -50,11 +67,27 @@ Technical Docs Investigator — для больших кодовых/инжен�
 
 ---
 
-**Смотрите также:**
-- [B-forensic-rag](docs/svyazi-2-0/ensembles/B-forensic-rag.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 3 Forensic RAG"
+```
+
+## Смотрите также
+- [B-forensic-rag](../../svyazi-2-0/ensembles/B-forensic-rag.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [README](README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
 
 
 <!-- similar-docs -->
@@ -62,7 +95,7 @@ Technical Docs Investigator — для больших кодовых/инжен�
 ---
 
 **Похожие документы:**
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.15)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.15)
-- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md) (сходство 0.15)
+- [3-forensic-rag](../../obsidian/ai-collaborations/ensembles/3-forensic-rag.md) (сходство 0.98)
+- [B-forensic-rag](../../svyazi-2-0/ensembles/B-forensic-rag.md) (сходство 0.18)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md) (сходство 0.18)
 

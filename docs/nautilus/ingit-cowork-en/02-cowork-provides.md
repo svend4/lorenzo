@@ -1,11 +1,20 @@
 # 2. What Cowork Provides That InGit Doesn't Need to Build
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-ingit-doesnt-need-to-build)
@@ -135,11 +144,33 @@ individual developer or small team.
 
 ---
 
-**Смотрите также:**
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
-- [06-refined-ingit-scope](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md)
-- [01-cowork-discovery](docs/nautilus/ingit-cowork-en/01-cowork-discovery.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 What Cowork Provides That InGit Doesn"
+```
+
+## Смотрите также
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- 03-[ingit-provides](03-ingit-provides.md)
+- 06-refined-[ingit-scope](06-refined-ingit-scope.md)
+- [01-cowork-discovery](01-cowork-discovery.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-cowork-discovery](01-cowork-discovery.md)
+- [03-ingit-provides](03-ingit-provides.md)
+- [04-symbiotic-architecture](04-symbiotic-architecture.md)
+- [05-four-integration-paths](05-four-integration-paths.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -147,7 +178,7 @@ individual developer or small team.
 ---
 
 **Похожие документы:**
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.86)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/obsidian/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.85)
-- [06-refined-ingit-scope](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md) (сходство 0.23)
+- [02-cowork-provides](../../obsidian/nautilus/ingit-cowork-en/02-cowork-provides.md) (сходство 0.98)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.79)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../obsidian/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.79)
 

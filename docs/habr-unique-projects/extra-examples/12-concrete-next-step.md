@@ -1,5 +1,12 @@
 # Конкретный next step
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -54,11 +61,32 @@ Honest reflection
 
 ---
 
-**Смотрите также:**
-- [11-concrete-potential-collaborator](docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md)
-- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Конкретный next step"
+```
+
+## Смотрите также
+- [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
+- [10-profession-specific-workflows](10-profession-specific-workflows.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [09-federated-platform](09-federated-platform.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -66,7 +94,7 @@ Honest reflection
 ---
 
 **Похожие документы:**
-- [11-concrete-potential-collaborator](docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md) (сходство 0.23)
-- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md) (сходство 0.21)
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.20)
+- [12-concrete-next-step](../../obsidian/habr-unique-projects/extra-examples/12-concrete-next-step.md) (сходство 0.99)
+- [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md) (сходство 0.26)
+- [11-concrete-potential-collaborator](../../obsidian/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md) (сходство 0.25)
 

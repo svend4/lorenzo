@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:71f9eb7be6254cc6",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/05-habr-projects/memory/yodoca.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/contacts/vitalyoborin.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/01-synthesis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/wikontic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/02-collaboration-partners.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DECISIONS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:aad2888325251c3d",
+  "payload": {
+    "title": "Yodoca[^yodoca]: консолидация и забывание",
+    "summary": "Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное продолжение Svyazi на уровне agentic memory. Что у него есть, чего у Чуяна пока нет:",
+    "body": "yodoca yodoca консолидация забывание абстракт авто проблема yodoca yodoca консолидация забывание important ключевой документ для понимания архитектуры подход yodoca yodoca консолидация забывание important ключевой документ для понимания архитектуры ключевые слова memory projects yodoca svyazi collaboration wikontic sqlite readme important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь статус параметр значение теги упоминаний репо слой memory контакт vitalyoborin contacts vitalyoborin статус связи писали обновлено yodoca научил агента помнить важное забывать лишнее sqlite https habr com articles это просто аналог это архитектурное продолжение svyazi svyazi уровне agentic memory что проекты svyazi yodoca похожие документы readme readme сходство смотрите также synthesis synthesis wikontic knowledge wikontic portal mcp anthropic vacancies portal mcp collaboration partners collaboration partners llm large language model большая языковая модель yodoca oss проект система памяти консолидацией apache svyazi главный проект экосистема компонентов упоминается ngt ngt memory ассоциативный граф ngt memory wikontic семантический граф knowledge wikontic авторы контакты collaboration partners ключевые решения выводы decisions синтез как проекты собираются вместе synthesis системы памяти readme упоминается системы памяти readme связанные документы ngt ngt memory ассоциативный граф ngt memory синтез как проекты собираются вместе synthesis wikontic семантический граф knowledge wikontic авторы контакты collaboration partners связанные документы ngt ngt memory ассоциативный граф docs habr projects memory ngt memory синтез как проекты собираются вместе synthesis авторы контакты collaboration partners wikontic семантический граф knowledge wikontic diff базы знаний между версиями version diff кто ссылается этот документ synthesis synthesis wikontic knowledge wikontic readme readme structuring processing guide structuring processing guide processing guide processing guide",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 379,
+    "path": "docs/05-habr-projects/memory/yodoca.md"
+  }
+}

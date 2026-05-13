@@ -65,7 +65,8 @@ def extract_doc_risks() -> list[tuple[str, str]]:
         for m in RISK_KEYWORDS.finditer(text):
             start = max(0, m.start() - 30)
             end   = min(len(text), m.end() + 100)
-            snippet = re.sub(r'\s+', ' ', text[start:end]).strip()[:150]
+            snippet = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', text[start:end])
+            snippet = re.sub(r'\s+', ' ', snippet).strip()[:150]
             key = snippet[:40].lower()
             if key not in seen and len(snippet) > 40:
                 seen.add(key)

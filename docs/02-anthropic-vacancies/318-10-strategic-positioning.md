@@ -1,5 +1,10 @@
 # 10. Strategic Positioning
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Closing thoughts on broader strategic implications.
 
 ---
@@ -19,7 +28,7 @@
 ## Содержание
 
 - [10. Strategic Positioning](#10-strategic-positioning)
-  - [10.1. InGit as Niche Player](#101-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-as-niche-player)
+  - [10.1. InGit as Niche Player](#101-ingit-as-niche-player)
   - [10.2. Cowork as Distribution Channel](#102-cowork-as-distribution-channel)
   - [10.3. Open Source as Sustainability](#103-open-source-as-sustainability)
   - [10.4. The Bigger Pattern](#104-the-bigger-pattern)
@@ -39,7 +48,7 @@ Closing thoughts on broader strategic implications.
 
 ### 10.1. InGit as Niche Player
 
-InGit will not become the next [GitHub](../docs/01-svyazi/03-component-catalog.md) or Notion. Its market 
+InGit will not become the next [GitHub](../01-svyazi/03-component-catalog.md) or Notion. Its market 
 is narrower:
 
 - Technical users comfortable with Git and YAML
@@ -162,19 +171,40 @@ Either way, the material exists.
 
 ---
 
-**Похожие документы:**
-- [323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
-- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.16)
+## Похожие документы
+- [323-appendix-c-sample-[ingit](306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
+- [316-8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
+- [307-abstract](307-abstract.md) (сходство 0.16)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [323-appendix-c-sample-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Strategic Positioning"
+```
+
+## Смотрите также
+- [323-appendix-c-sample-[ingit](306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [316-8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [307-abstract](307-abstract.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
+- [307-abstract](307-abstract.md)
+- [319-acknowledgments](319-acknowledgments.md)
+- 323-appendix-c-sample-[ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [README](README.md)
 

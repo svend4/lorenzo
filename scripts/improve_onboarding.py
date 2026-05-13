@@ -52,7 +52,7 @@ def main():
         f, w = count_section(folder)
         total_files += f
         total_words += w
-        section_rows.append(f"| [`docs/{folder}/`](docs/{folder}/README.md) | {name} | {f} | {w:,} |")
+        section_rows.append(f"| [`{folder}/`]({folder}/README.md) | {name} | {f} | {w:,} |")
 
     lines = [
         "# Онбординг — Svyazi 2.0 / Lorenzo\n",

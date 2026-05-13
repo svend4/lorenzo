@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:a8a9a6168eef0222",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/12-onboarding-paths.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/03-registry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/02-terminology.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6cfb94c054303ec2",
+  "payload": {
+    "title": "12. Onboarding Paths (Normative)",
+    "summary": "NPP v1.1 формализует пять путей подключения нового Repo как",
+    "body": "onboarding paths normative источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также onboarding paths normative anthropic vacancies onboarding paths normative adr five onboarding paths adr five onboarding paths registry registry terminology terminology",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 449,
+    "path": "docs/nautilus/npp-v1-1/12-onboarding-paths.md"
+  }
+}

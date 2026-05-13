@@ -123,11 +123,31 @@
 
 ---
 
-**Смотрите также:**
-- [198-8-риски-и-меры-противодействия](docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)
-- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
-- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Риски и меры противодействия"
+```
+
+## Смотрите также
+- [198-8-риски-и-меры-противодействия](../../02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -135,7 +155,7 @@
 ---
 
 **Похожие документы:**
-- [198-8-риски-и-меры-противодействия](docs/obsidian/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) (сходство 0.87)
-- [198-8-риски-и-меры-противодействия](docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) (сходство 0.85)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) (сходство 0.14)
+- [08-riski-mery](../../obsidian/nautilus/representative-agent-layer-ru/08-riski-mery.md) (сходство 0.99)
+- [198-8-риски-и-меры-противодействия](../../obsidian/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) (сходство 0.84)
+- [198-8-риски-и-меры-противодействия](../../02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) (сходство 0.84)
 

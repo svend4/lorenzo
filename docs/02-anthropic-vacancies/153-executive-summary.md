@@ -1,5 +1,10 @@
 # Executive Summary
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -13,6 +18,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** --- --- Похожие документы: - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17) - 156-2-target-populations(docs/02-anthropic-vacancies/
@@ -81,7 +90,7 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [155-1-problem-statement](155-1-problem-statement.md) (сходство 0.17)
 - [156-2-target-populations](156-2-target-populations.md) (сходство 0.17)
 - [164-10-appendices](164-10-appendices.md) (сходство 0.15)
@@ -91,7 +100,13 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Executive Summary"
+```
+
+## Смотрите также
 - [155-1-problem-statement](155-1-problem-statement.md)
 - [156-2-target-populations](156-2-target-populations.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -138,3 +153,19 @@ stakeholders as basis for dialogue and refinement.
 - [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _21%_
 - [2. Target Populations](156-2-target-populations.md) _21%_
 - [8. Call to Action](145-8-call-to-action.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- _...ещё 6_
+

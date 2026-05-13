@@ -1,10 +1,26 @@
 # Question 8: Lorenzo's relationship с другими AI agents
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
 
 ---
 <!-- tags: ingestion, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -57,11 +73,35 @@ Acknowledges dependencies
 
 ---
 
-**Смотрите также:**
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
-- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
-- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md)
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 8 Lorenzo s relationship с"
+```
+
+## Смотрите также
+- [14-other-ai-relationships](../14-other-ai-relationships.md)
+- 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [00-context-fundamental-questions](00-context-fundamental-questions.md)
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [14-other-ai-relationships](../14-other-ai-relationships.md)
+- [00-context-fundamental-questions](00-context-fundamental-questions.md)
+- [01-q1-what-lorenzo-is](01-q1-what-lorenzo-is.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -69,7 +109,7 @@ Acknowledges dependencies
 ---
 
 **Похожие документы:**
-- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md) (сходство 0.28)
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md) (сходство 0.28)
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.26)
+- [08-q8-other-ai-relationships](../../obsidian/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.98)
+- [14-other-ai-relationships](../../obsidian/lorenzo-agent/14-other-ai-relationships.md) (сходство 0.38)
+- [14-other-ai-relationships](../14-other-ai-relationships.md) (сходство 0.38)
 

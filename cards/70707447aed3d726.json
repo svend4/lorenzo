@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:70707447aed3d726",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/319-acknowledgments.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:7d82d4771fb48841",
+  "payload": {
+    "title": "Acknowledgments",
+    "summary": "This document emerged from author's question about how to",
+    "body": "acknowledgments содержание acknowledgments acknowledgments angle perspective angle perspective упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы абстракт авто проблема acknowledgments this document emerged from author question about how acknowledgments this document emerged from author question about how integrate ingit specifically подход review methodology infrastructure for collaborative intellectual work ingit cowork native workspace substrate this paper результат the ingit project url provides the specific candidate substrate ключевые слова anthropic cowork document layer vacancies acknowledgments ingit author this document emerged from author question about how acknowledgments this document emerged from author question about how integrate ingit specifically with the cowork tab claude desktop the question prompted claude research current cowork capabilities web searches conducted during the session and discover that substantial layer infrastructure already exists production this discovery substantially updated document framing where document treated layer essentially missing this document recognizes cowork substantial existing implementation requiring complementary substrate rather than competition the ingit project https github com svend ingit provides the specific candidate substrate author existing work ingit makes this proposal practically achievable the four path integration strategy emerged from analysis cowork capabilities mcp standard and ingit existing scope the sequencing reflects pragmatic considerations development effort dependency external api maturation and value each stage author retained editorial authority all claims errors and specific architectural proposals are author responsibility claude contributed research and structure this the ninth document the series with its inclusion nautilus portal protocol review methodology infrastructure for collaborative intellectual work ingit cowork native workspace substrate this paper double triangle architecture open knowledge work foundation concept document representative agent layer professional colleague agents composite skills agent the architectural vision now spans technical substrate methodology infrastructure coordination institution and agent typology together they form unusually comprehensive treatment supported knowledge work angle perspective angle perspective methodological how reflection похожие документы acknowledgments сходство with anthropic cowork platform сходство the missing middle layer between chat and code сходство смотрите также with anthropic cowork platform acknowledgments the missing middle layer between chat and code существующие документы dhlab твой context упоминается strategic positioning strategic positioning risks and open questions risks and open questions abstract abstract acknowledgments acknowledgments acknowledgments acknowledgments references references why this document exists why this document exists with anthropic cowork platform with anthropic cowork platform readme вакансии anthropic анализ кластерам существующие документы dhlab твой context существующие документы dhlab твой context упоминается readme вакансии anthropic анализ кластерам связанные документы acknowledgments acknowledgments references references support through configurable specialist ensembl support through configurable specialist ensembles существующие документы dhlab твой context существующие документы dhlab твой context typology agents the principal side and typology agents the principal side and the case for profession specific workers with anthropic cowork platform with anthropic cowork platform appendix connection companion papers appendix connection companion papers acknowledgments acknowledgments связанные документы acknowledgments acknowledgments acknowledgments acknowledgments references references with anthropic cowork platform with anthropic cowork platform существующие документы dhlab твой context существующие документы dhlab твой context appendix connection companion papers appendix connection companion papers typology agents the principal side and typology agents the principal side and the case for profession specific workers support through configurable specialist ensembl support through configurable specialist ensembles",
+    "tags": [
+      "rag",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 605,
+    "path": "docs/obsidian/02-anthropic-vacancies/319-acknowledgments.md"
+  }
+}

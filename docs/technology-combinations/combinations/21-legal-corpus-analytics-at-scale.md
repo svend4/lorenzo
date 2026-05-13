@@ -1,10 +1,27 @@
 # Комбинация 21: Legal Corpus Analytics at Scale
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag, ingestion, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -77,11 +94,28 @@ ROI: Data-driven legal strategy, precedent patterns visible
 
 ---
 
-**Смотрите также:**
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
-- [22-russian-international-oss-stack](docs/technology-combinations/combinations/22-russian-international-oss-stack.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 21 Legal Corpus Analytics at"
+```
+
+## Смотрите также
+- 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [22-russian-international-oss-stack](22-russian-international-oss-stack.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
 
 
 <!-- similar-docs -->
@@ -89,7 +123,7 @@ ROI: Data-driven legal strategy, precedent patterns visible
 ---
 
 **Похожие документы:**
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md) (сходство 0.30)
-- [22-russian-international-oss-stack](docs/technology-combinations/combinations/22-russian-international-oss-stack.md) (сходство 0.28)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.28)
+- [21-legal-corpus-analytics-at-scale](../../obsidian/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md) (сходство 0.96)
+- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md) (сходство 0.35)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.34)
 

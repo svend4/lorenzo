@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:b8975148b5174392",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/155-1-problem-statement.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/221-10-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/222-11-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/264-11-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:e4e6889a7069031b",
+  "payload": {
+    "title": "OPEN KNOWLEDGE WORK FOUNDATION.md",
+    "summary": "",
+    "body": "open knowledge work foundation infrastructure for collaborative intellectual infrastructure for collaborative intellectual сходство похожие документы infrastructure for collaborative intellectual infrastructure for collaborative intellectual сходство composite skills agent composite skills agent сходство professional colleague agents professional colleague agents сходство упоминается problem statement problem statement open questions open questions risks specific composite architectures risks specific composite architectures call for collaboration call for collaboration open questions open questions call for collaboration call for collaboration closing closing closing closing what makes professional colleague agent what makes professional colleague agent architecture professional colleague agents architecture professional colleague agents the sub agent registry the sub agent registry configuration how principals build their ensembles configuration how principals build their ensembl the economics profession wide replication the economics profession wide replication pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague risks and mitigations risks and mitigations formal model for human collaboration distributed knowledge work formal model for human collaboration distr abstract abstract abstract abstract angle perspective angle perspective appendix quick start architecture for sgb advocate colleague appendix quick start architecture for sgb advoca appendix connection diagram appendix connection diagram composite skills agent composite skills agent content overview content overview content overview content overview executive summary executive summary infrastructure for collaborative intellectual work infrastructure for collaborative intellectual ingit cowork native workspace substrate ingit cowork native workspace substrate professional colleague agents professional colleague agents representative agent layer representative agent layer the double triangle architecture the double triangle architecture вакансии anthropic анализ кластерам readme системный промпт для lorenzo project системный промпт для lorenzo project упоминается вакансии anthropic анализ кластерам readme связанные документы infrastructure for collaborative intellectual work infrastructure for collaborative intellectual professional colleague agents professional colleague agents ingit cowork native workspace substrate ingit cowork native workspace substrate composite skills agent composite skills agent системный промпт для lorenzo project системный промпт для lorenzo project abstract abstract the sub agent registry the sub agent registry call for collaboration call for collaboration связанные документы infrastructure for collaborative intellectual work infrastructure for collaborative intellectual professional colleague agents professional colleague agents composite skills agent composite skills agent ingit cowork native workspace substrate ingit cowork native workspace substrate the double triangle architecture the double triangle architecture системный промпт для lorenzo project системный промпт для lorenzo project executive summary executive summary open questions open questions смотрите также infrastructure for collaborative intellectual infrastructure for collaborative intellectual ingit cowork native workspace substrate ingit cowork native workspace substrate composite skills agent composite skills agent professional colleague agents professional colleague agents кто ссылается этот документ content overview content overview angle perspective angle perspective the double triangle architecture the double triangle architecture formal model for human collaboration distr formal model for human collaboration distr executive summary executive summary problem statement problem statement representative agent layer representative agent layer closing closing ещё",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 372,
+    "path": "docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "card_id": "sha256:ca938574a00bd3e1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/174-5-architectural-specification.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/145-8-call-to-action.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:697c31c69b9a16a5",
+  "payload": {
+    "title": "PROFESSIONAL COLLEAGUE AGENTS.md",
+    "summary": "",
+    "body": "professional colleague agents composite skills agent composite skills agent сходство похожие документы composite skills agent composite skills agent сходство the double triangle architecture the double triangle architecture сходство infrastructure for collaborative intellectual infrastructure for collaborative intellectual сходство упоминается why the binary view incomplete why the binary view incomplete call for collaboration call for collaboration architecture professional colleague agents architecture professional colleague agents architectural specification architectural specification call action call action integration with okwf infrastructure integration with okwf infrastructure practical path layer through symbiotic integration practical path layer through symbiotic inte abstract abstract abstract abstract angle perspective angle perspective appendix quick start architecture for sgb advocate colleague appendix quick start architecture for sgb advoca appendix connection diagram appendix connection diagram composite skills agent composite skills agent content overview content overview content overview content overview infrastructure for collaborative intellectual work infrastructure for collaborative intellectual ingit cowork native workspace substrate ingit cowork native workspace substrate open knowledge work foundation open knowledge work foundation representative agent layer representative agent layer the double triangle architecture the double triangle architecture вакансии anthropic анализ кластерам readme системный промпт для lorenzo project системный промпт для lorenzo project слой представительских агентов слой представительских агентов упоминается вакансии anthropic анализ кластерам readme связанные документы ingit cowork native workspace substrate ingit cowork native workspace substrate open knowledge work foundation open knowledge work foundation infrastructure for collaborative intellectual work infrastructure for collaborative intellectual системный промпт для lorenzo project системный промпт для lorenzo project composite skills agent composite skills agent implications for nautilus and okwf implications for nautilus and okwf the double triangle architecture the double triangle architecture representative agent layer representative agent layer связанные документы open knowledge work foundation open knowledge work foundation infrastructure for collaborative intellectual work infrastructure for collaborative intellectual ingit cowork native workspace substrate ingit cowork native workspace substrate the double triangle architecture the double triangle architecture composite skills agent composite skills agent системный промпт для lorenzo project системный промпт для lorenzo project integration with okwf infrastructure integration with okwf infrastructure representative agent layer representative agent layer смотрите также ingit cowork native workspace substrate ingit cowork native workspace substrate composite skills agent composite skills agent open knowledge work foundation open knowledge work foundation infrastructure for collaborative intellectual infrastructure for collaborative intellectual кто ссылается этот документ content overview content overview angle perspective angle perspective the double triangle architecture the double triangle architecture abstract abstract nautilus portal reference substrate nautilus portal reference substrate call action call action appendix version history appendix version history open knowledge work foundation open knowledge work foundation ещё",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 332,
+    "path": "docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md"
+  }
+}

@@ -1,10 +1,25 @@
 # PROFESSIONAL COLLEAGUE AGENTS.md
 
+<!-- toc-auto -->
+## Contents
+
+- [PROFESSIONAL COLLEAGUE AGENTS.md](#professional-colleague-agentsmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.14)
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -18,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.14)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md) (сходство 0.14)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.12)
@@ -79,9 +94,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PROFESSIONAL COLLEAGUE AGENTS md"
+```
+
+## Смотрите также
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (25)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [136-abstract](136-abstract.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- _...ещё 17_
 

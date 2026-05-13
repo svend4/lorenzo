@@ -159,7 +159,7 @@ practitioner can configure into their own combination.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.18)
 - [[261-8-seven-domains-of-application]] (сходство 0.17)
 - [[252-abstract]] (сходство 0.15)
@@ -169,7 +169,13 @@ practitioner can configure into their own combination.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 The Twenty One Teachers Pattern"
+```
+
+## Смотрите также
 - [[261-8-seven-domains-of-application]]
 - [[254-1-why-the-binary-view-is-incomplete]]
 - [[252-abstract]]
@@ -207,3 +213,19 @@ practitioner can configure into their own combination.
 - [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _21%_
 - [[267-acknowledgments|Acknowledgments]] _21%_
 - [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Need to Build]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[214-3-empirical-case-study-обучай]]
+- [[252-abstract]]
+- [[253-table-of-contents]]
+- [[254-1-why-the-binary-view-is-incomplete]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[259-6-coordination-and-disagreement-resolution]]
+- [[261-8-seven-domains-of-application]]
+- [[266-13-closing]]
+- _...ещё 2_
+

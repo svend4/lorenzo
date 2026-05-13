@@ -1,10 +1,27 @@
 # Комбинация 9: Agent Orchestration Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: orchestration, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -47,19 +64,37 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 
 ---
 
-**Смотрите также:**
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md)
-- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
-- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 9 Agent Orchestration Stack"
+```
+
+## Смотрите также
+- [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
+- [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
+- 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [05-benchmarks](docs/obsidian/03-technology-combinations/05-benchmarks.md) (сходство 0.26)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.25)
-- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md) (сходство 0.23)
+- [09-agent-orchestration-stack](../../obsidian/technology-combinations/combinations/09-agent-orchestration-stack.md) (сходство 0.97)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.31)
+- [09-14-extended](../../obsidian/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.30)
 

@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:c2b2b16c00d5db0f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/00-question-habr-examples.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/02-collaboration-partners.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:36f777c69d73e42a",
+  "payload": {
+    "title": "Вопрос: ещё примеры с Хабра по варианту D",
+    "summary": "https://habr.com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программного обеспечения нужно поискать на хабре подобные проекты уникальные как у автора статьи выше подобных авторов подо",
+    "body": "вопрос ещё примеры хабра варианту источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов проекты svyazi смотрите также svyazi andrey chuyan svyazi andrey chuyan collaboration partners habr projects collaboration partners workflow workflow overview grandchild combination lorenzo agent operationalized overview grandchild combination",
+    "tags": [
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 444,
+    "path": "docs/habr-unique-projects/extra-examples/00-question-habr-examples.md"
+  }
+}

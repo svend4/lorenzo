@@ -1,5 +1,16 @@
 # REPRESENTATIVE AGENT LAYER.md
 
+<!-- toc-auto -->
+## Contents
+
+- [REPRESENTATIVE AGENT LAYER.md](#representative-agent-layermd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.33)
 
@@ -7,6 +18,10 @@
 
 
 <!-- tags: architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 ## REPRESENTATIVE AGENT LAYER.md
@@ -18,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.33)
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) (сходство 0.27)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.25)
@@ -67,9 +82,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "REPRESENTATIVE AGENT LAYER md"
+```
+
+## Смотрите также
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [168-abstract](168-abstract.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [230-аннотация](230-аннотация.md)
+- _...ещё 5_
 

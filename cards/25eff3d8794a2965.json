@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:25eff3d8794a2965",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/04-komu-ty-sluzhish.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/17-honestly-ne-znaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/09-voobshche-nelzya.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:c4bb218ad58cc55d",
+  "payload": {
+    "title": "Кому ты служишь (слоистая модель)",
+    "summary": "Главный благополучатель: Уязвимые группы (заявители SGB, инвалиды,",
+    "body": "кому служишь слоистая модель источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также кому служишь слоистая модель anthropic vacancies кому служишь слоистая модель honestly znaesh honestly znaesh vsegda delaesh vsegda delaesh voobshche nelzya voobshche nelzya",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 150,
+    "path": "docs/lorenzo-agent/04-komu-ty-sluzhish.md"
+  }
+}

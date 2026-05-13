@@ -1,10 +1,26 @@
 # Section 1: Problem statement (Cinderella Syndrome at scale, SGB IX/XII)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 
 ---
 <!-- tags: rag, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +49,35 @@ Success rate: A% Widerspruch acceptance
 
 ---
 
-**Смотрите также:**
-- [02-section-2-beneficial-dimension](docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md)
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 1 Problem statement Cinderella"
+```
+
+## Смотрите также
+- [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
+- [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-context](00-context.md)
+- [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md)
+- [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -45,7 +85,7 @@ Success rate: A% Widerspruch acceptance
 ---
 
 **Похожие документы:**
-- [02-section-2-beneficial-dimension](docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md) (сходство 0.33)
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md) (сходство 0.30)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md) (сходство 0.24)
+- [01-section-1-problem](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md) (сходство 0.98)
+- [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md) (сходство 0.54)
+- [02-section-2-beneficial-dimension](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md) (сходство 0.53)
 

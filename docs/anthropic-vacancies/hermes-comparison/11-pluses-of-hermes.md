@@ -1,10 +1,26 @@
 # Плюсы Hermes (vs наша гипотетическая архитектура)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear
 
 ---
 <!-- tags: architecture, anthropic, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,11 +49,34 @@
 
 ---
 
-**Смотрите также:**
-- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
-- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
-- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
-- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Плюсы Hermes vs наша гипотетическая"
+```
+
+## Смотрите также
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
+- [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
+- [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)
+- 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-question-what-is-hermes](00-question-what-is-hermes.md)
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
+- [12-minuses-of-hermes](12-minuses-of-hermes.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -45,7 +84,7 @@
 ---
 
 **Похожие документы:**
-- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.32)
-- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md) (сходство 0.29)
-- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.27)
+- [11-pluses-of-hermes](../../obsidian/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md) (сходство 0.98)
+- [04-similarity-4-multi-platform](../../obsidian/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.36)
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md) (сходство 0.36)
 

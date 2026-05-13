@@ -23,7 +23,7 @@
 <!-- toc -->
 ## Содержание
 
-- [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesnt-need-to-build)
+- [2. What Cowork Provides That InGit Doesn't Need to Build](#2-what-cowork-provides-that-ingit-doesnt-need-to-build)
   - [2.1. Agentic Task Execution](#21-agentic-task-execution)
   - [2.2. Persistent Memory Across Sessions](#22-persistent-memory-across-sessions)
   - [2.3. UI for Knowledge Work](#23-ui-for-knowledge-work)
@@ -31,7 +31,7 @@
   - [2.5. Computer Use Capability](#25-computer-use-capability)
   - [2.6. Scheduled Recurring Tasks](#26-scheduled-recurring-tasks)
   - [2.7. Cross-Platform Availability](#27-cross-platform-availability)
-  - [2.8. What This Removes from InGit Roadmap](#28-what-this-removes-from-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-roadmap)
+  - [2.8. What This Removes from InGit Roadmap](#28-what-this-removes-from-ingit-roadmap)
 
 ---
 
@@ -83,7 +83,7 @@ becomes unnecessary**. Saves substantial development effort.
 
 ### 2.4. Connector Ecosystem
 
-Cowork integrates with Gmail, Drive, Slack, [GitHub](../docs/01-svyazi/03-component-catalog.md), Notion, 
+Cowork integrates with Gmail, Drive, Slack, [GitHub](../01-svyazi/03-component-catalog.md), Notion, 
 many others. Through MCP, custom connectors can be added.
 
 InGit was not planning to build connectors itself, but 
@@ -148,19 +148,37 @@ individual developer or small team.
 
 ---
 
-**Похожие документы:**
-- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.20)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.18)
-- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.17)
+## Похожие документы
+- [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.20)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.18)
+- [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.17)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
-- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 What Cowork Provides That InGit Doesn"
+```
+
+## Смотрите также
+- [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [307-abstract](307-abstract.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
+- [307-abstract](307-abstract.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [README](README.md)
 

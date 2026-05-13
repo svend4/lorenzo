@@ -1,14 +1,23 @@
 # Bridges
-<!-- tags: memory, anthropic, collaboration -->
-
 
 <!-- toc-auto -->
 ## Contents
 
 - [Bridges](#bridges)
-  - [info1 ↔ pro2](#[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-pro2)
-  - [info1 ↔ meta](#[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-meta)
+  - [info1 ↔ pro2](#info1-pro2)
+  - [info1 ↔ meta](#info1-meta)
   - [Способ обращения через мост](#способ-обращения-через-мост)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+<!-- tags: memory, anthropic, collaboration -->
 
 
 <!-- summary -->
@@ -23,8 +32,8 @@
 ## Bridges
 
 ### `info1 ↔ pro2`
-**α-level ↔ Q6-concept-depth**. Уровень α в `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` коррелирует с 
-глубиной концепта в Q6-графе знаний `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact mapping: 
+**α-level ↔ Q6-concept-depth**. Уровень α в `[info1](01-интегральный-анализ-профиля-svend4.md)` коррелирует с 
+глубиной концепта в Q6-графе знаний `[pro2](01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact mapping: 
 например, α₀ ↔ leaf-вершины Q6, α₃ ↔ root-вершины?]
 
 ### `info1 ↔ meta`
@@ -33,7 +42,7 @@
 mapping если есть, или отметить, что мост пока декларативный]
 
 ### Способ обращения через мост
-Портал использует `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` для lookup bridge-описания и передаёт 
+Портал использует `[nautilus](../05-habr-projects/memory/memnet.md).json` для lookup bridge-описания и передаёт 
 его адаптеру при вызове `translate_to()`. Фактический перевод — 
 свободная текстовая интерпретация, не formal mapping.
 
@@ -43,19 +52,41 @@ mapping если есть, или отметить, что мост пока д�
 
 ---
 
-**Похожие документы:**
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.22)
-- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md) (сходство 0.20)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md) (сходство 0.14)
+## Похожие документы
+- [60-bridges](60-bridges.md) (сходство 0.22)
+- [50-bridges](50-bridges.md) (сходство 0.20)
+- [61-compatibility-level](61-compatibility-level.md) (сходство 0.14)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
-- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Bridges"
+```
+
+## Смотрите также
+- [60-bridges](60-bridges.md)
+- [50-bridges](50-bridges.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [41-compatibility-level](41-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [57-native-format](57-native-format.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [63-history](63-history.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](README.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.

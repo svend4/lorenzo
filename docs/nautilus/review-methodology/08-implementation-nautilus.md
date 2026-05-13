@@ -1,6 +1,26 @@
 # 7. Реализация в проекте Nautilus
 
+<!-- toc-auto -->
+## Contents
+
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
+  - [7.1. Хронология применения](#71-хронология-применения)
+  - [7.2. Артефакты](#72-артефакты)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ---
@@ -62,11 +82,31 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 
 ---
 
-**Смотрите также:**
-- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
-- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
-- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Реализация в проекте Nautilus"
+```
+
+## Смотрите также
+- [114-7-реализация-в-проекте-nautilus](../../02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [11-application-plan-current-docs](11-application-plan-current-docs.md)
+- [108-2-формальный-workflow](../../02-anthropic-vacancies/108-2-формальный-workflow.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [11-application-plan-current-docs](11-application-plan-current-docs.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -74,7 +114,7 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 ---
 
 **Похожие документы:**
-- [114-7-реализация-в-проекте-nautilus](docs/obsidian/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) (сходство 0.75)
-- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) (сходство 0.74)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md) (сходство 0.27)
+- [08-implementation-nautilus](../../obsidian/nautilus/review-methodology/08-implementation-nautilus.md) (сходство 0.98)
+- [114-7-реализация-в-проекте-nautilus](../../obsidian/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) (сходство 0.68)
+- [114-7-реализация-в-проекте-nautilus](../../02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) (сходство 0.66)
 

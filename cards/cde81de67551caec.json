@@ -1,0 +1,65 @@
+{
+  "card_id": "sha256:cde81de67551caec",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/contacts/vitalyoborin.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/contacts/vladspace.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/antipozitive.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/zodigancode.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/nlaik.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/sonia-black.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/spbmolot.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:67446b50e1702338",
+  "payload": {
+    "title": "Контакт: VitalyOborin / Yodoca",
+    "summary": "projects: [\"Svyazi\", \"Yodoca\", \"Wikontic\"]",
+    "body": "контакт vitalyoborin yodoca tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi yodoca contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник vitalyoborin github vitalyoborin https github com vitalyoborin проекты yodoca слой svyazi memory упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте vitalyoborin изучаю yodoca отлично вписывается svyazi которую собираю как локальную community intelligence platform yodoca закрывает слой memory архитектуре один конкретный вопрос что сильнее влияет качество памяти отдельный consolidator decay или строгая типизация записей было интересно пообщаться как лучше связаться открытые вопросы что сильнее влияет качество памяти отдельный consolidator decay или строгая типизация записей вопрос создано автоматически похожие документы vladspace vladspace сходство antipozitive antipozitive сходство zodigancode zodigancode сходство смотрите также antipozitive antipozitive nlaik nlaik sonia black sonia black spbmolot spbmolot кто ссылается этот документ yodoca habr projects memory yodoca kksudo autofilled components kksudo spbmolot autofilled components spbmolot readme readme",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 285,
+    "path": "docs/contacts/vitalyoborin.md"
+  }
+}

@@ -1,11 +1,28 @@
 # Комбинация 2: Мультиагентный хаос-решение × Auto AI Router
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Auto AI Router
 
 ---
 <!-- tags: architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -42,19 +59,37 @@ Router даёт fallback из коробки. Если Opus недоступен
 
 ---
 
-**Смотрите также:**
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
-- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
-- [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 2 Мультиагентный хаос"
+```
+
+## Смотрите также
+- [03-local-first](../../03-technology-combinations/03-local-first.md)
+- [01-agent-routing](../../03-technology-combinations/01-agent-routing.md)
+- 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- 1-[llm-gateway](../../habr-unique-projects/deep-pairs/1-llm-gateway.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [03-local-first](docs/obsidian/03-technology-combinations/03-local-first.md) (сходство 0.28)
-- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.27)
-- [01-agent-routing](docs/obsidian/03-technology-combinations/01-agent-routing.md) (сходство 0.25)
+- [02-multiagentnyy-khaos-reshenie-auto-ai-router](../../obsidian/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) (сходство 0.94)
+- [03-local-first](../../03-technology-combinations/03-local-first.md) (сходство 0.31)
+- [03-local-first](../../obsidian/03-technology-combinations/03-local-first.md) (сходство 0.30)
 

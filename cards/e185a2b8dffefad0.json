@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:e185a2b8dffefad0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/MINDMAP.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/GLOSSARY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACT_PRIORITY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/GRAPH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/NETWORK.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:81a380fd1fd1b1f2",
+  "payload": {
+    "title": "Майндмап репозитория Lorenzo",
+    "summary": "",
+    "body": "майндмап репозитория lorenzo структура разделов mindmap root lorenzo repository svyazi cardindex evidence envelope memory write policy ансамбли mvp дней безопасность anthropic vacancies research gtm sales trust safety inference infra product eng карьерный маппинг tech combinations агентный роутинг граф знаний local first sozialrecht бенчмарки collaborations knowledge forensic rag agent teams security runtime web intelligence habr projects yodoca ngt memory memnet knowledge space agentfs wikontic поток данных между проектами flowchart subgraph ingest svyazi svyazi cardindex cardindex firecrawl firecrawl end subgraph knowledge agentfs agentfs knowledge space knowledge space end subgraph memory yodoca yodoca ngt memory ngt memory memnet memnet end subgraph rag liteparse liteparse legal rag legal rag hybrid rag hybrid rag end subgraph orchestration mclaude mclaude factory factory rufler rufler end subgraph security litellm litellm sentinel sentinel tool search tool search end svyazi ingest index cardindex cardindex storage agentfs agentfs reference knowledge space yodoca consolidation ngt memory ngt memory recall discovery svyazi liteparse evidence legal rag legal rag proof card cardindex mclaude coordination factory factory orchestration rufler rufler self improve autoresearch litellm gateway guard sentinel tool search lazy load litellm легенда слой проекты ingestion svyazi cardindex firecrawl knowledge agentfs knowledge space memory yodoca ngt memory memnet rag liteparse legal rag hybrid rag graph rag orchestration mclaude factory rufler autoresearch security litellm sentinel tool search auto router sync yjs automerge",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 242,
+    "path": "docs/MINDMAP.md"
+  }
+}

@@ -1,11 +1,27 @@
 # Бонус-родитель — In-memory computing на мемристорах
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Yodoca, NGT Memory, MemNet
 
 ---
 <!-- tags: memory, architecture, roadmap, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +44,33 @@ In-memory computing на мемристорах (RRAM/CBRAM) (habr.com/ru/compan
 
 ---
 
-**Смотрите также:**
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md)
-- [2-tsu-mome](docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Бонус родитель In memory computing на"
+```
+
+## Смотрите также
+- [7-metaphor](7-metaphor.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
+- [6-metaphor](../software-pairs/6-metaphor.md)
+- [2-tsu-mome](2-tsu-mome.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [1-neuromorphic-ssm](1-neuromorphic-ssm.md)
+- [2-tsu-mome](2-tsu-mome.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -40,7 +78,7 @@ In-memory computing на мемристорах (RRAM/CBRAM) (habr.com/ru/compan
 ---
 
 **Похожие документы:**
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.52)
-- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md) (сходство 0.17)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) (сходство 0.17)
+- [6-bonus-rram-memristor](../../obsidian/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.97)
+- [7-metaphor](7-metaphor.md) (сходство 0.54)
+- [7-metaphor](../../obsidian/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.53)
 

@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:14798c5accdd70d8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/privacy-federation/00-question-anonymization.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/multi-tier-architecture/00-question-multi-tier.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:b85f7c6863d5c06e",
+  "payload": {
+    "title": "Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да…",
+    "summary": "Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные данные такие какими фамилия например конкретные числа конкретные номера дел даты а общий каркас в…",
+    "body": "hast gesagt насчёт приватности думаю что возможно удалять только личные источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога приватность анонимизация федерации npp смотрите также question multi tier multi tier architecture question multi tier question can apply docs npp humanitarian extension question can apply docs what anonymize german standard what anonymize german standard question two nautiluses anthropic vacancies nautilus pro analysis question two nautiluses",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 288,
+    "path": "docs/nautilus/privacy-federation/00-question-anonymization.md"
+  }
+}

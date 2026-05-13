@@ -11,22 +11,22 @@ date: 2026-05-13
 
 ## Текущие бейджи
 
-![docs](docs/badges/docs.svg) — `docs/badges/docs.svg`
-![words](docs/badges/words.svg) — `docs/badges/words.svg`
-![scripts](docs/badges/scripts.svg) — `docs/badges/scripts.svg`
-![health](docs/badges/health.svg) — `docs/badges/health.svg`
-![go/no-go](docs/badges/scoring.svg) — `docs/badges/scoring.svg`
-![license](docs/badges/license.svg) — `docs/badges/license.svg`
-![branch](docs/badges/branch.svg) — `docs/badges/branch.svg`
+![docs](docs.svg) — `docs.svg`
+![words](words.svg) — `words.svg`
+![scripts](scripts.svg) — `scripts.svg`
+![health](health.svg) — `health.svg`
+![go/no-go](scoring.svg) — `scoring.svg`
+![license](license.svg) — `license.svg`
+![branch](branch.svg) — `branch.svg`
 
 ## Использование в README
 
 ```markdown
-![docs](docs/badges/docs.svg)
-![words](docs/badges/words.svg)
-![scripts](docs/badges/scripts.svg)
-![health](docs/badges/health.svg)
-![go/no-go](docs/badges/scoring.svg)
-![license](docs/badges/license.svg)
-![branch](docs/badges/branch.svg)
+![docs](docs.svg)
+![words](words.svg)
+![scripts](scripts.svg)
+![health](health.svg)
+![go/no-go](scoring.svg)
+![license](license.svg)
+![branch](branch.svg)
 ```

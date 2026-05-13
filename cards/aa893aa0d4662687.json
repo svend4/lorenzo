@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:aa893aa0d4662687",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/347-твоя-миссия.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/03-tvoya-missiya.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/16-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:ca74e82ef2885d6d",
+  "payload": {
+    "title": "Твоя миссия",
+    "summary": "Твоя миссия — **catalyzing community synthesis в области beneficial AI для уязвимых групп**.",
+    "body": "твоя миссия warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений твоя миссия catalyzing community synthesis области beneficial для уязвимых групп смотрите также tvoya missiya lorenzo agent tvoya missiya кто ссылается этот документ доступ данным доступ данным appendix история изменений методологии appendix история изменений методологии history history приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit readme readme",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 157,
+    "path": "docs/02-anthropic-vacancies/347-твоя-миссия.md"
+  }
+}

@@ -10,6 +10,21 @@ tags: [kpi, метрики, снапшот]
 
 # KPI Snapshot: [дата]
 
+<!-- summary -->
+> `kpi-snapshot` — раздел документации проекта Lorenzo.
+
+
+<!-- toc-auto -->
+## Содержание
+
+- [Основной раздел](#основной-раздел)
+
+
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 
 <!-- summary: Снапшот ключевых метрик за период -->
 <!-- tags: kpi, метрики, снапшот -->
@@ -60,7 +75,40 @@ _Сгенерировано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Создать новый документ из шаблона
+python scripts/improve_template_init.py --template kpi-snapshot --output docs/new-doc.md
+```
+
+## Смотрите также
 - [KPI_HISTORY.md](../KPI_HISTORY.md)
 - [HEALTH.md](../HEALTH.md)
-- [retrospective](docs/templates/retrospective.md)
+- [retrospective](retrospective.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [retrospective](retrospective.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [kpi-snapshot](../obsidian/templates/kpi-snapshot.md) (сходство 0.94)
+- [retrospective](retrospective.md) (сходство 0.52)
+- [retrospective](../obsidian/templates/retrospective.md) (сходство 0.51)
+

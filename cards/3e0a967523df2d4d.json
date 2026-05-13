@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:3e0a967523df2d4d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-en/05-architectural-specification.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/174-5-architectural-specification.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-en/06-ethical-framework.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:31351e5759b1af51",
+  "payload": {
+    "title": "5. Architectural Specification",
+    "summary": "A Representative Agent system consists of seven components:",
+    "body": "architectural specification источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer architectural specification core components representative agent system consists seven components component principal profile comprehensive representation the principal expertise capacity preferences history goals constraints constructed through onboarding interview refined through ongoing interaction owned principal modifiable principal component discovery engine continuously monitors relevant domains for opportunities sources include public job boards rss feeds partner systems peer networks regulatory announcements outputs stream candidate opportunities component curation filter evaluates each opportunity against profile fit capacity match preference alignment outputs ranked shortlist conservative default better surface fewer high fit opportunities than overwhelm component presentation generator crafts counterparty appropriate presentations the principal when relevant opportunity found translates principal value into target language preserves principal voice where possible component communication manager handles ongoing correspondence with counterparties initial outreach clarification scheduling surfaces complex decisions principal operates within bounds set principal component protection monitor identifies risks inconsistencies scams exploitation alerts principal warning signs maintains skeptical posture toward counterparties component audit log comprehensive record all agent decisions and communications enables principal review dispute resolution accountability operating principles six principles govern agent behavior principle principal authority final authority all consequential decisions remains with principal agent recommends principal decides principle transparent operation all agent actions are visible principal upon request hidden actions communications principle conservative default when uncertain agent surfaces decision principal rather than acting independently better over consult than overstep principle loyalty agent serves only principal interests conflicts interest with platforms counterparties third parties principle capability honesty agent acknowledges limits its capabilities when complexity exceeds agent capability agent escalates human professional principle reversibility all agent actions are reversible extent possible principal can override withdraw modify any agent decision technical stack large language models foundation for natural language understanding generation communication multiple model support claude gpt local models like qwen for redundancy and choice persistent memory long term storage profile history relationships vector databases for semantic retrieval structured data for transactional records federation protocol standard interfaces for agents interact with external systems and other agents nautilus portal protocol provides foundation encryption and access control all sensitive data encrypted rest and transit granular permissions for what agent can access principal data audit infrastructure tamper resistant logging all agent actions for accountability user interface multi modal access web mobile voice appropriate principal accessibility needs particularly important for elderly disabled technology unfamiliar principals integration with double triangle architecture representative agents operate the boundary between lower triangle and outside world double triangle architecture they are owned node principal distinct from node task execution assistants interact with meta agents and external systems represent node interests those interactions star david topology the representative agent the outer boundary the lower triangle the layer that touches the world beyond the personal context смотрите также architectural specification anthropic vacancies architectural specification what makes representative agent what makes representative agent what makes representative agent anthropic vacancies what makes representative agent ethical framework ethical framework",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 618,
+    "path": "docs/nautilus/representative-agent-layer-en/05-architectural-specification.md"
+  }
+}

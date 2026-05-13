@@ -243,11 +243,30 @@ emerge.
 
 ---
 
-**Смотрите также:**
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
-- [10-risks](docs/nautilus/composite-skills-agents/10-risks.md)
-- [04-architecture](docs/nautilus/professional-colleague-agents-en/04-architecture.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Risks Specific to this Category"
+```
+
+## Смотрите также
+- [217-6-risks-specific-to-this-category](../../02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
+- [04-sub-agent-registry](../composite-skills-agents/04-sub-agent-registry.md)
+- [10-risks](../composite-skills-agents/10-risks.md)
+- [04-architecture](04-architecture.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-architecture](04-architecture.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -255,7 +274,7 @@ emerge.
 ---
 
 **Похожие документы:**
-- [217-6-risks-specific-to-this-category](docs/obsidian/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.93)
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.90)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md) (сходство 0.18)
+- [06-risks](../../obsidian/nautilus/professional-colleague-agents-en/06-risks.md) (сходство 0.99)
+- [217-6-risks-specific-to-this-category](../../02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.90)
+- [217-6-risks-specific-to-this-category](../../obsidian/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.90)
 

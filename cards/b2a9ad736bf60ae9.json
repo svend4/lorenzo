@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:b2a9ad736bf60ae9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/13-legal-document-transpiler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/25-30-extended.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:4da0958755c4e8cd",
+  "payload": {
+    "title": "Комбинация 25: Legal DSL → Code Transpiler",
+    "summary": "Python AST (Abstract Syntax Tree manipulation, code generation)",
+    "body": "комбинация legal dsl code transpiler источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также legal document transpiler legal document transpiler meta programmatic legal template generator meta programmatic legal template generator pydantic enforced legal workflows pydantic enforced legal workflows ast based code analysis for legal automation ast based code analysis for legal automation кто ссылается этот документ components name glossary components name readme readme extended synthesis tables extended",
+    "tags": [
+      "rag"
+    ],
+    "projects": [],
+    "wc": 252,
+    "path": "docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md"
+  }
+}

@@ -1,10 +1,26 @@
 # Что concept document NOT (это не grant / не paper / не business plan), длина и формат
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 
 ---
 <!-- tags: roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -79,11 +95,32 @@ Each session maybe 2-3 hours. Total time investment: 20-30 hours of yours, simil
 
 ---
 
-**Смотрите также:**
-- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
-- [05-section-5-role-of-anthropic](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md)
-- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
-- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что concept document NOT это не grant"
+```
+
+## Смотрите также
+- [10-section-10-engagement-request](10-section-10-engagement-request.md)
+- [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
+- [00-context](00-context.md)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-context](00-context.md)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -91,7 +128,7 @@ Each session maybe 2-3 hours. Total time investment: 20-30 hours of yours, simil
 ---
 
 **Похожие документы:**
-- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.45)
-- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md) (сходство 0.21)
-- [05-section-5-role-of-anthropic](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md) (сходство 0.21)
+- [11-not-and-format](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) (сходство 0.99)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md) (сходство 0.49)
+- [10-section-10-engagement-request](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.48)
 

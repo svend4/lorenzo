@@ -1,10 +1,27 @@
 # 21. ADR-003: Five Onboarding Paths as Equal-Rank
 
+<!-- toc-auto -->
+## Contents
+
+- [21. ADR-003: Five Onboarding Paths as Equal-Rank](#21-adr-003-five-onboarding-paths-as-equal-rank)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -42,11 +59,34 @@
 
 ---
 
-**Смотрите также:**
-- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
-- [19-adr-001-federation-over-merging](docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md)
-- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "21 ADR 003 Five Onboarding Paths as"
+```
+
+## Смотрите также
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](../../02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [19-adr-001-federation-over-merging](19-adr-001-federation-over-merging.md)
+- [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документ индексирован в базе знаний репозитория.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [12-onboarding-paths](12-onboarding-paths.md)
+- [19-adr-001-federation-over-merging](19-adr-001-federation-over-merging.md)
+- [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -54,7 +94,7 @@
 ---
 
 **Похожие документы:**
-- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.73)
-- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/obsidian/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.68)
-- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md) (сходство 0.27)
+- [21-adr-003-five-onboarding-paths](../../obsidian/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md) (сходство 0.98)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](../../02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.62)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](../../obsidian/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.61)
 

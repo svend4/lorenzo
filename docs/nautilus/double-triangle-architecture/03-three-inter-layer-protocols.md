@@ -160,11 +160,32 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 ---
 
-**Смотрите также:**
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
-- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
-- [01-why-single-triangle-incomplete](docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Three Inter Layer Protocols"
+```
+
+## Смотрите также
+- [140-3-three-inter-layer-protocols](../../02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+- [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
+- [139-2-the-double-triangle-architecture](../../02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -172,7 +193,7 @@ in distributed systems, adapted for human-AI hybrid execution.
 ---
 
 **Похожие документы:**
-- [140-3-three-inter-layer-protocols](docs/obsidian/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.91)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.88)
-- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md) (сходство 0.22)
+- [03-three-inter-layer-protocols](../../obsidian/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md) (сходство 0.99)
+- [140-3-three-inter-layer-protocols](../../obsidian/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.87)
+- [140-3-three-inter-layer-protocols](../../02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.87)
 

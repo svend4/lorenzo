@@ -1,11 +1,28 @@
 # Ансамбль 2 — «AutoResearch для legal precedent mining»
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** AutoResearch
 
 ---
 <!-- tags: self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -30,19 +47,37 @@ Stability Engine блокирует ложные обобщения («конк�
 
 ---
 
-**Смотрите также:**
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [7-autoresearch-distributed](docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 2 AutoResearch для legal"
+```
+
+## Смотрите также
+- [3-discovery-research](3-discovery-research.md)
+- [1-one-person-one-company](1-one-person-one-company.md)
+- [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
+- [7-autoresearch-distributed](../deep-pairs/7-autoresearch-distributed.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.27)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md) (сходство 0.20)
-- [7-autoresearch-distributed](docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md) (сходство 0.16)
+- [2-autoresearch-legal](../../obsidian/habr-unique-projects/final-ensembles/2-autoresearch-legal.md) (сходство 0.93)
+- [3-discovery-research](3-discovery-research.md) (сходство 0.28)
+- [3-discovery-research](../../obsidian/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.27)
 

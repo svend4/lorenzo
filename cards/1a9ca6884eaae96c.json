@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:1a9ca6884eaae96c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:0e81415219c88f1a",
+  "payload": {
+    "title": "HW-NL2Workflow — Supervisor/Orchestrator/Filler с 3600+ examples",
+    "summary": "Что делает: Multi-agent framework для перевода natural language инструкций в business processes. Три агента: Supervisor, Orchestrator, Filler. Свой dataset HW-NL2Workflow с 3600+ примерами.",
+    "body": "workflow supervisor orchestrator filler examples источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов смотрите также personal multi agent hub personal multi agent hub platform for professional communities platform for professional communities brainbox multi hub brainbox multi hub profession specific workflows profession specific workflows",
+    "tags": [
+      "rag",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 227,
+    "path": "docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md"
+  }
+}

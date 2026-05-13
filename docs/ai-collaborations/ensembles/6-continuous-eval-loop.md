@@ -1,11 +1,27 @@
 # Ансамбль 6 — Continuous Eval Loop
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** Svyazi, AI Factory
 
 ---
 <!-- tags: orchestration, knowledge, ingestion, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -48,11 +64,32 @@ Svyazi Self-Improver — карточки с низким качеством ext
 
 ---
 
-**Смотрите также:**
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 6 Continuous Eval Loop"
+```
+
+## Смотрите также
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -60,7 +97,7 @@ Svyazi Self-Improver — карточки с низким качеством ext
 ---
 
 **Похожие документы:**
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.17)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.16)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.15)
+- [6-continuous-eval-loop](../../obsidian/ai-collaborations/ensembles/6-continuous-eval-loop.md) (сходство 0.99)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md) (сходство 0.22)
+- [8-budget-aware-intelligence-stack](../../obsidian/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.22)
 

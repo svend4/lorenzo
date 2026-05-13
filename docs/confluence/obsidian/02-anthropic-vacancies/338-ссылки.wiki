@@ -22,8 +22,25 @@ h2. Contents
   * [Стандарт MCP|#стандарт-mcp]
   * [Сопроводительные Документы в этой Серии|#сопроводительные-документы-в-этой-серии]
   * [Связанная Работа|#связанная-работа]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (9)|#кто-ссылается-на-этот-документ-9]
 
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}- Anthropic. (2026, 12 января). *Claude{quote}
 
@@ -69,21 +86,27 @@ h3. Связанная Работа
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[320-references]] (сходство 0.32)
 * [[73-portal-protocol-md-v1-1]] (сходство 0.13)
-* [[306-with-anthropic-s-cowork-platform]] (сходство 0.12)
+* 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]] (сходство 0.12)
 
 
 
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ссылки"
+{code}
+
+h2. Смотрите также
 * [[320-references]]
 * [[73-portal-protocol-md-v1-1]]
 * [[62-author-contact]]
-* [[125-readme-mcp-md-инструкция-по-установке]]
+* 125-readme-[[125-readme-mcp-md-инструкция-по-установке|mcp-md-инструкция-по-установке]]
 
 
 h2. Упоминается в
@@ -104,7 +127,7 @@ h2. Связанные документы
 
 * [[302-ссылки|Ссылки]] _25%_
 * [[320-references|References]] _25%_
-* [[123-portal-mcp-py|portal-mcp.py]] _17%_
+* portal-[[123-portal-mcp-py|mcp.py]] _17%_
 * [[25-13-reference-implementation|13. Reference Implementation]] _17%_
 * [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _17%_
 * [[300-заключение|Заключение]] _17%_
@@ -119,3 +142,19 @@ h2. Связанные документы
 * [[34-appendix-b-change-log|Appendix B: Change Log]] _21%_
 * [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] _17%_
 * [[05-0-status-of-this-document|0. Status of This Document]] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [[03-portal-protocol-md]]
+* [[05-0-status-of-this-document]]
+* 125-readme-[[125-readme-mcp-md-инструкция-по-установке|mcp-md-инструкция-по-установке]]
+* 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
+* [[320-references]]
+* [[34-appendix-b-change-log]]
+* [[62-author-contact]]
+* [[73-portal-protocol-md-v1-1]]
+* _...ещё 1_
+

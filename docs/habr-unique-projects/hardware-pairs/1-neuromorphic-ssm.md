@@ -1,11 +1,28 @@
 # Пара 1 — Нейроморфные процессоры × State Space Models (Mamba)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, Yodoca
 
 ---
 <!-- tags: memory, knowledge, ingestion, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -30,11 +47,27 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 
 ---
 
-**Смотрите также:**
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
-- [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 1 Нейроморфные процессоры State"
+```
+
+## Смотрите также
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+- 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)
+- [4-riscv-privacy](4-riscv-privacy.md)
+- [01-yodoca](../key-findings/01-yodoca.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -42,7 +75,7 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 ---
 
 **Похожие документы:**
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.16)
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.15)
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.14)
+- [1-neuromorphic-ssm](../../obsidian/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md) (сходство 0.97)
+- [5-tinyml-mcp-skills](5-tinyml-mcp-skills.md) (сходство 0.20)
+- [5-tinyml-mcp-skills](../../obsidian/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.19)
 

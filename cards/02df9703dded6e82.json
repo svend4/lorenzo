@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:02df9703dded6e82",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/DIGEST.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/CHANGELOG_AUTO.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DIGEST_WEEKLY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DIGEST_AUTO.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CHANGELOG.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:dc2ee9f2093e7585",
+  "payload": {
+    "title": "Дайджест изменений",
+    "summary": "Изменено файлов: **692** (+22425 / -6820 строк)",
+    "body": "дайджест изменений chore update generated docs auto enrichment toc summaries meta scripting кто ссылается этот документ changelog auto changelog auto readme readme tables tables смотрите также digest weekly digest weekly changelog auto changelog auto digest auto digest auto changelog changelog",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 360,
+    "path": "docs/DIGEST.md"
+  }
+}

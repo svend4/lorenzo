@@ -1,10 +1,49 @@
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Содержание](#содержание)
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](#ai-coordinated-infrastructure-for-distributed-expert-contribution)
+- [Executive Summary](#executive-summary)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](#ai-coordinated-infrastructure-for-distributed-expert-contribution)
+- [Executive Summary](#executive-summary)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+## Содержание
+
+- Основной раздел
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ---
 <!-- tags: roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -85,12 +124,41 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
+<!-- see-also -->
+
+---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Coordinated Infrastructure for"
+```
+
+## Смотрите также
+- [10-appendices](10-appendices.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [01-problem-statement](01-problem-statement.md)
+- [153-executive-summary](../../02-anthropic-vacancies/153-executive-summary.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [153-executive-summary](docs/obsidian/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.78)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.73)
-- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md) (сходство 0.22)
+- [00-abstract](../../obsidian/nautilus/okwf-concept/00-abstract.md) (сходство 0.99)
+- [153-executive-summary](../../obsidian/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.70)
+- [153-executive-summary](../../02-anthropic-vacancies/153-executive-summary.md) (сходство 0.70)
 

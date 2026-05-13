@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:482938e5cb9ddb0d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/vitalyoborin.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:22ea70a63f7206a7",
+  "payload": {
+    "title": "Контакт: VitalyOborin / Yodoca",
+    "summary": "Я изучаю Yodoca — он отлично вписывается в Svyazi 2.0,",
+    "body": "контакт vitalyoborin yodoca tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi yodoca contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник vitalyoborin github vitalyoborin https github com vitalyoborin проекты yodoca слой svyazi memory упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте vitalyoborin изучаю yodoca отлично вписывается svyazi которую собираю как локальную community intelligence platform yodoca закрывает слой memory архитектуре один конкретный вопрос что сильнее влияет качество памяти отдельный consolidator decay или строгая типизация записей было интересно пообщаться как лучше связаться открытые вопросы что сильнее влияет качество памяти отдельный consolidator decay или строгая типизация записей вопрос создано автоматически похожие документы vladspace сходство antipozitive сходство zodigancode сходство смотрите также antipozitive nlaik sonia black spbmolot",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca"
+    ],
+    "wc": 256,
+    "path": "docs/obsidian/contacts/vitalyoborin.md"
+  }
+}

@@ -1,6 +1,29 @@
 # Author & Contact
 
+<!-- toc-auto -->
+## Contents
+
+- [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (16)](#кто-ссылается-на-этот-документ-16)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > **Контакт:** Issues в `github.com/svend4/meta`
 
 ---
@@ -25,7 +48,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [52-author-contact](52-author-contact.md) (сходство 0.37)
 - [42-author-contact](42-author-contact.md) (сходство 0.37)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.15)
@@ -35,7 +58,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Author Contact"
+```
+
+## Смотрите также
 - [42-author-contact](42-author-contact.md)
 - [52-author-contact](52-author-contact.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
@@ -87,3 +116,19 @@
 - [12. Versioning Policy](24-12-versioning-policy.md) _29%_
 - [passports/info1.md](35-passports-info1-md.md) _29%_
 - [Author & Contact](52-author-contact.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [16-history](16-history.md)
+- [24-12-versioning-policy](24-12-versioning-policy.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [338-ссылки](338-ссылки.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
+- [353-что-ты-не-можешь-делать-вообще](353-что-ты-не-можешь-делать-вообще.md)
+- _...ещё 8_
+

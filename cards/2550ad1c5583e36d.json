@@ -1,0 +1,68 @@
+{
+  "card_id": "sha256:2550ad1c5583e36d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/13-contacts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/QUESTIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/NARRATIVE.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c0e1ae445c49e0ce",
+  "payload": {
+    "title": "Контактная стратегия и узкие вопросы для авторов",
+    "summary": "С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы “давайте сделаем Svyazi‑2.0”, а вокруг **одного конкретного шва**, который автор уже хорошо понимает. У каждого сильного кандидата стоит просить не участие “во всём проекте”, а реакцию на один архитектур",
+    "body": "контактная стратегия узкие вопросы для авторов абстракт авто проблема такой стиль особенно естественен для хабр комментариев открытых issue трекеров подход каждого сильного кандидата стоит просить участие всём проекте реакцию один архитектурный вопрос результат это позволяет использовать yodoca как policy reference как ещё один ассистент ключевые слова вопрос knowledge svyazi space лучше cardindex agentfs search статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено tip этот документ описывает mvp подход начните него для быстрого прототипа практической точки зрения следующие письма или комментарии лучше строить вокруг общей фразы давайте сделаем svyazi svyazi вокруг одного конкретного шва который автор уже хорошо понимает проекты svyazi cardindex cardindex agentfs agentfs knowledge space svyazi component catalog knowledge space mclaude factory yodoca yodoca ngt ngt memory похожие документы contacts svyazi contacts сходство contacts contacts сходство план прототипа возможные контакты план прототипа возможные контакты сходство смотрите также contacts svyazi contacts questions questions план прототипа возможные контакты план прототипа возможные контакты narrative narrative cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit кто ссылается этот документ contacts svyazi contacts readme readme component matrix component matrix tables tables",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 892,
+    "path": "docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md"
+  }
+}

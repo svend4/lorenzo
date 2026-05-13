@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:5fb9dd52c4374742",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/05-habr-projects/knowledge/wikontic.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/ngt-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/02-collaboration-partners.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/01-synthesis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c78e074da54c2e60",
+  "payload": {
+    "title": "Wikontic: семантический граф",
+    "summary": "Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пайплайн построения графов знаний из текста с использованием онтологии Wikidata, дедупликацией и типиза",
+    "body": "wikontic семантический граф warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений абстракт авто проблема решает буквально тот класс проблем что чуяна слое нормализация kubernetes кубер одна сущность через ручной skillssynonyms yml через автоматическ ключевые слова projects memory readme yodoca wikontic https companies articles статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено wikontic алла чепурова airi лаборатория cognitive systems https habr com companies airi articles более ранняя статья https habr com companies airi articles пай проекты wikontic похожие документы readme readme сходство ngt memory memory ngt memory сходство смотрите также yodoca memory yodoca ngt memory memory ngt memory collaboration partners collaboration partners synthesis synthesis упоминается ngt ngt memory ассоциативный граф memory ngt memory yodoca yodoca консолидация забывание memory yodoca авторы контакты collaboration partners синтез как проекты собираются вместе synthesis системы знаний readme упоминается системы знаний readme связанные документы синтез как проекты собираются вместе synthesis ngt ngt memory ассоциативный граф memory ngt memory yodoca yodoca консолидация забывание memory yodoca авторы контакты collaboration partners уникальные проекты хабра readme системы памяти memory readme связанные документы системы знаний readme синтез как проекты собираются вместе synthesis уникальные проекты хабра readme ngt ngt memory ассоциативный граф docs habr projects memory ngt memory системы памяти readme yodoca yodoca консолидация забывание docs habr projects memory yodoca кто ссылается этот документ synthesis synthesis readme readme yodoca memory yodoca",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 385,
+    "path": "docs/05-habr-projects/knowledge/wikontic.md"
+  }
+}

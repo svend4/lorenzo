@@ -7,6 +7,11 @@ date: 2026-05-13
 
 # 9. Relationship to Other Agent Types
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -18,6 +23,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Professional Colleague Agents do not stand alone. They
 
 ---
@@ -148,7 +157,7 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[212-1-the-five-type-typology-of-principal-side-agents]] (сходство 0.18)
 - [[210-abstract]] (сходство 0.17)
 - [[223-12-closing]] (сходство 0.17)
@@ -158,7 +167,13 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Relationship to Other Agent Types"
+```
+
+## Смотрите также
 - [[210-abstract]]
 - [[212-1-the-five-type-typology-of-principal-side-agents]]
 - [[223-12-closing]]
@@ -205,3 +220,19 @@ confusion. Distinguishing them enables clear architecture.
 - [[223-12-closing|12. Closing]] _33%_
 - [[226-appendix-a-comparative-table-five-agent-types|Appendix A: Comparative Table — Five Agent Types]] _29%_
 - [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decision Framework — When to Build Type 1 First]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[172-3-what-makes-a-representative-agent]]
+- [[210-abstract]]
+- [[211-table-of-contents]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[214-3-empirical-case-study-обучай]]
+- [[223-12-closing]]
+- [[227-appendix-b-decision-framework-when-to-build-type-1]]
+- _...ещё 4_
+

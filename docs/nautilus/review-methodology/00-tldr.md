@@ -1,5 +1,13 @@
 # TL;DR — Трёхфазная методология Review
 
+<!-- toc-auto -->
+## Contents
+
+- [TL;DR](#tldr)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -47,11 +55,32 @@
 
 ---
 
-**Смотрите также:**
-- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md)
-- [70-зачем-две-версии-параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "TL DR Трёхфазная методология Review"
+```
+
+## Смотрите также
+- [106-tl-dr](../../02-anthropic-vacancies/106-tl-dr.md)
+- [70-зачем-две-версии-параллельно](../../02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-context-motivation](01-context-motivation.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -59,7 +88,7 @@
 ---
 
 **Похожие документы:**
-- [106-tl-dr](docs/obsidian/02-anthropic-vacancies/106-tl-dr.md) (сходство 0.52)
-- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md) (сходство 0.51)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.34)
+- [00-tldr](../../obsidian/nautilus/review-methodology/00-tldr.md) (сходство 0.98)
+- [12-appendix-a-header-warning](../../obsidian/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.49)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md) (сходство 0.48)
 

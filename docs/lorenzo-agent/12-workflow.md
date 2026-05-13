@@ -1,11 +1,28 @@
 # Твой workflow
 
+<!-- toc-auto -->
+## Contents
+
+- [Твой workflow](#твой-workflow)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 **Проекты:** CardIndex
 
 ---
 <!-- tags: knowledge, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -54,11 +71,33 @@
 
 ---
 
-**Смотрите также:**
-- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md)
-- [07-chto-mozhesh](docs/lorenzo-agent/07-chto-mozhesh.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твой workflow"
+```
+
+## Смотрите также
+- [356-твой-workflow](../02-anthropic-vacancies/356-твой-workflow.md)
+- [07-chto-mozhesh](07-chto-mozhesh.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [18-escalate-to-max](18-escalate-to-max.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [07-chto-mozhesh](07-chto-mozhesh.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -66,7 +105,7 @@
 ---
 
 **Похожие документы:**
-- [356-твой-workflow](docs/obsidian/02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.69)
-- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.65)
-- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md) (сходство 0.24)
+- [12-workflow](../obsidian/lorenzo-agent/12-workflow.md) (сходство 0.98)
+- [356-твой-workflow](../obsidian/02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.65)
+- [356-твой-workflow](../02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.65)
 

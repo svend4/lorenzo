@@ -1,11 +1,27 @@
 # Пара 1 — LLM-gateway × Self-hosted фронт + локальный inference
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** LiteLLM, Auto AI Router
 
 ---
 <!-- tags: security, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,11 +44,33 @@ Auto AI Router как sidecar — крутится рядом с Open WebUI, б�
 
 ---
 
-**Смотрите также:**
-- [02-multiagentnyy-khaos-reshenie-auto-ai-router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 1 LLM gateway Self hosted фронт"
+```
+
+## Смотрите также
+- [02-multiagentnyy-khaos-reshenie-auto-ai-router](../../technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
+- [1-one-person-one-company](../final-ensembles/1-one-person-one-company.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [2-document-rag](2-document-rag.md)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -40,7 +78,7 @@ Auto AI Router как sidecar — крутится рядом с Open WebUI, б�
 ---
 
 **Похожие документы:**
-- [02-multiagentnyy-khaos-reshenie-auto-ai-router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) (сходство 0.18)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.18)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md) (сходство 0.17)
+- [1-llm-gateway](../../obsidian/habr-unique-projects/deep-pairs/1-llm-gateway.md) (сходство 0.95)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md) (сходство 0.23)
+- [6-tmux-village-openclaw](../../obsidian/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.22)
 

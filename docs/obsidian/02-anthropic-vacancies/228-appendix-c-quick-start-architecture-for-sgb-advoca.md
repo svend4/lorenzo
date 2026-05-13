@@ -234,7 +234,7 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]] (сходство 0.15)
 - [[186-appendix-c-sample-use-cases-in-detail]] (сходство 0.14)
 - [[272-appendix-d-connection-diagram]] (сходство 0.14)
@@ -244,7 +244,7 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]]
 - [[288-appendix-position-in-series-visualization]]
 - [[186-appendix-c-sample-use-cases-in-detail]]
@@ -294,3 +294,19 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 - [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] _25%_
 - [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _25%_
 - [[210-abstract|Abstract]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (20)
+- [[151-open-knowledge-work-foundation-md]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[208-professional-colleague-agents-md]]
+- [[210-abstract]]
+- [[212-1-the-five-type-typology-of-principal-side-agents]]
+- [[214-3-empirical-case-study-обучай]]
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- _...ещё 12_
+

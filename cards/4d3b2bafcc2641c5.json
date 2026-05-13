@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:4d3b2bafcc2641c5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/24-mega-integration-full-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/14-local-first-agent-development-environment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/15-19-extended.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:6a022b59d4b6acb6",
+  "payload": {
+    "title": "Комбинация 19: Multi-Agent Observability Platform",
+    "summary": "OpenTelemetry (unified standard for traces/metrics/logs)",
+    "body": "комбинация multi agent observability platform источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex ngt memory auto router yjs смотрите также mega integration full stack mega integration full stack local first agent development environment local first agent development environment extended synthesis tables extended ultimate legal mega stacks ultimate legal",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "NGT Memory",
+      "Auto AI Router"
+    ],
+    "wc": 678,
+    "path": "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md"
+  }
+}

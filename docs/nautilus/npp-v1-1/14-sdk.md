@@ -1,6 +1,25 @@
 # 14. SDK Contract (Informative)
 
+<!-- toc-auto -->
+## Contents
+
+- [14. SDK Contract (Informative)](#14-sdk-contract-informative)
+  - [14.1. Required SDK Methods](#141-required-sdk-methods)
+  - [14.2. Optional SDK Methods](#142-optional-sdk-methods)
+  - [14.3. Return Types](#143-return-types)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -47,11 +66,27 @@ acceptable только для debugging/experimental версий.
 
 ---
 
-**Смотрите также:**
-- [89-14-sdk-contract-informative](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md)
-- [18-reference-implementation](docs/nautilus/npp-v1-1/18-reference-implementation.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+## Смотрите также
+- [89-14-sdk-contract-informative](../../02-anthropic-vacancies/89-14-sdk-contract-informative.md)
+- [18-reference-implementation](18-reference-implementation.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+- [18-reference-implementation](18-reference-implementation.md)
+- [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -59,7 +94,7 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Похожие документы:**
-- [89-14-sdk-contract-informative](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.57)
-- [89-14-sdk-contract-informative](docs/obsidian/02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.55)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md) (сходство 0.33)
+- [14-sdk](../../obsidian/nautilus/npp-v1-1/14-sdk.md) (сходство 0.97)
+- [89-14-sdk-contract-informative](../../obsidian/02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.57)
+- [89-14-sdk-contract-informative](../../02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.56)
 

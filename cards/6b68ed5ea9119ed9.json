@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:6b68ed5ea9119ed9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/166-representative-agent-layer-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/202-12-заключение.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/307-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/13-angle-perspective.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/12-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:b90c7c2d995a9c29",
+  "payload": {
+    "title": "A Practical Path to Layer B Through Symbiotic Integration",
+    "summary": "",
+    "body": "practical path layer through symbiotic integration representative agent layer representative agent layer сходство похожие документы representative agent layer representative agent layer сходство слой представительских агентов слой представительских агентов сходство portal mcp portal mcp сходство упоминается заключение заключение abstract abstract angle perspective angle perspective content overview content overview representative agent layer representative agent layer the double triangle architecture the double triangle architecture вакансии anthropic анализ кластерам readme системный промпт для lorenzo project системный промпт для lorenzo project слой представительских агентов слой представительских агентов упоминается вакансии anthropic анализ кластерам readme связанные документы слой представительских агентов слой представительских агентов representative agent layer representative agent layer the double triangle architecture the double triangle architecture системный промпт для lorenzo project системный промпт для lorenzo project abstract abstract composite skills agent composite skills agent angle perspective angle perspective abstract abstract связанные документы representative agent layer representative agent layer слой представительских агентов слой представительских агентов the double triangle architecture the double triangle architecture системный промпт для lorenzo project системный промпт для lorenzo project composite skills agent composite skills agent abstract abstract professional colleague agents professional colleague agents abstract abstract смотрите также слой представительских агентов слой представительских агентов the double triangle architecture the double triangle architecture representative agent layer representative agent layer системный промпт для lorenzo project системный промпт для lorenzo project кто ссылается этот документ content overview content overview portal mcp portal mcp angle perspective angle perspective the double triangle architecture the double triangle architecture representative agent layer representative agent layer abstract abstract слой представительских агентов слой представительских агентов заключение заключение ещё",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 232,
+    "path": "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md"
+  }
+}

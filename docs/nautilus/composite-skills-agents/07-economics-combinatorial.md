@@ -1,11 +1,20 @@
 # 7. Economics of Combinatorial Replication
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [7. Economics of Combinatorial Replication](#7-economics-of-combinatorial-replication)
@@ -161,11 +170,33 @@ funding or modest practitioner contribution.
 
 ---
 
-**Смотрите также:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [05-economics-replication](docs/nautilus/professional-colleague-agents-en/05-economics-replication.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Economics of Combinatorial Replication"
+```
+
+## Смотрите также
+- [260-7-economics-of-combinatorial-replication](../../02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- [05-economics-replication](../professional-colleague-agents-en/05-economics-replication.md)
+- [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-sub-agent-registry](04-sub-agent-registry.md)
+- [05-configuration-ensembles](05-configuration-ensembles.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -173,7 +204,7 @@ funding or modest practitioner contribution.
 ---
 
 **Похожие документы:**
-- [260-7-economics-of-combinatorial-replication](docs/obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.90)
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.87)
-- [05-economics-replication](docs/nautilus/professional-colleague-agents-en/05-economics-replication.md) (сходство 0.24)
+- [07-economics-combinatorial](../../obsidian/nautilus/composite-skills-agents/07-economics-combinatorial.md) (сходство 0.99)
+- [260-7-economics-of-combinatorial-replication](../../02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.87)
+- [260-7-economics-of-combinatorial-replication](../../obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.87)
 

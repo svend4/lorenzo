@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:eb2d3b3225572931",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/READING_TIME.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:32b55ad115ef634a",
+  "payload": {
+    "title": "Время чтения документов",
+    "summary": "Документов: **1113** | Слов всего: **681,470** | Время чтения всей базы: **56ч 20мин**",
+    "body": "время чтения документов содержание все документы все документы самые длинные документы самые длинные документы категориям категориям обновлено документов слов всего время чтения всей базы мин скорость слов мин слов мин все документы файл время слов категория docs outline мин очень долго docs tables мин очень долго docs anthropic vacancies интегральный анализ профиля svend мин очень долго docs concepts мин очень долго docs paragraph quality мин очень долго docs code blocks мин очень долго docs collaborations intro мин очень долго docs anthropic vacancies что такое вариант concept document для anthropic мин очень долго docs anthropic vacancies intro мин очень долго docs nautilus community discussions agent changes reality response мин очень долго docs heading audit мин очень долго docs habr projects memory memnet мин очень долго docs sitemap мин очень долго docs scripts catalog мин очень долго docs anthropic vacancies closing мин очень долго docs action items мин очень долго docs empty sections мин очень долго docs anthropic vacancies обратная связь мин очень долго docs anthropic vacancies lorenzo catalyst agent глубокая проработка специфи мин очень долго docs anthropic vacancies appendix version history мин очень долго docs anthropic vacancies приложение образец спецификаций инструментов ing мин очень долго docs reading order мин очень долго docs nautilus representative agent layer zaklyuchenie мин очень долго docs summaries мин очень долго docs anthropic vacancies развёрнутый анализ внуковой комбинации мин очень долго docs anthropic vacancies appendix connection diagram мин очень долго docs anthropic vacancies приложение архитектура быстрого старта для sgb мин очень долго docs collaborations ограничения лицензии что пока лучше склеивать мин долго docs anthropic vacancies section мин долго docs anthropic vacancies общий план развития nautilus portal protocol мин долго docs anthropic vacancies readme мин долго docs nautilus innovation transitions question innovations transitions мин долго docs nautilus transmission box completing loop мин долго docs anthropic vacancies приложение образцы случаев использования детал мин долго docs readability мин долго docs nautilus community discussions habr article reaction response мин долго docs nautilus supply demand three related themes мин долго docs nautilus multi tier architecture strategic significance мин долго docs nautilus community discussions habr article reaction claude response мин долго docs nautilus community discussions voiceless contributors response мин долго docs nautilus innovation transitions response мин долго docs nautilus representative agent layer closing мин долго docs lorenzo agent scenarios response мин долго docs duplicates мин долго docs anthropic vacancies приложение визуализация позиции серии мин долго docs glossary components name мин долго docs anthropic vacancies appendix sample use cases detail мин долго docs questions мин средне docs nautilus community discussions practical observations response мин средне docs timeline мин средне docs svyazi ensembles overview мин средне docs anthropic vacancies десять областей применения мин средне docs decisions мин средне docs anthropic vacancies appendix quick start architecture for sgb advoca мин средне docs nautilus representative agent layer desyat oblastey мин средне docs collaborations карта найденных проектов паттернов мин средне docs anthropic vacancies технический stack svyazi foundation мин средне docs svyazi component catalog мин средне docs anthropic vacancies ten domains application мин средне docs nautilus double triangle architecture glossary мин средне docs anthropic vacancies managed virtual company polymath project tao comparison мин средне docs nautilus npp glossary мин средне docs nautilus npp humanitarian extension structural comparison code docs мин средне docs nautilus privacy federation what this gives technically мин средне docs nautilus representative agent layer ten domains мин средне docs collaborations приоритетные ансамбли мин средне docs similar passages мин средне docs anthropic vacancies final note experiment мин средне docs svyazi overview projects map мин средне docs templates template templates мин средне docs anthropic vacancies риски специфичные для этой категории мин средне docs kpi мин средне docs мин средне docs lorenzo agent naming dhlab umbrella мин средне docs anthropic vacancies глоссарий мин средне docs changelog мин средне docs svyazi second order ensembles мин средне docs lorenzo agent specification difficulties and recommendations мин средне docs anthropic vacancies appendix sample ingit mcp server tool specificat мин средне docs contradictions мин средне docs nautilus professional colleague agents riski мин средне docs collaborations план прототипа возможные контакты мин средне docs anthropic vacancies nautilus pro analysis nautilus pro meta мин средне docs svyazi mvp planning мин средне docs anthropic vacancies risks specific this category мин средне docs anthropic vacancies nautilus pro analysis nautilus meta orchestrator мин средне docs nautilus composite skills agents companion mentors what was missing paper мин средне docs registry мин средне docs anthropic vacancies nautilus camel what info repos contain мин средне docs lorenzo agent naming naming rationale lorenzo medici мин средне docs anthropic vacancies mmorpg for programmers why natural for programmers мин средне docs clusters мин средне docs nautilus professional colleague agents risks мин средне docs anthropic vacancies the double triangle architecture мин средне docs anthropic vacancies типология пяти типов агентов стороне принц мин средне docs anthropic vacancies appendix position series visualization мин средне docs anthropic vacancies проекте мин средне",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 12452,
+    "path": "docs/obsidian/READING_TIME.md"
+  }
+}

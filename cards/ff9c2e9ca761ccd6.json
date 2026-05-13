@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:ff9c2e9ca761ccd6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/294-существующие-приближения.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SENTIMENT.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:bc13f137c832ebc0",
+  "payload": {
+    "title": "Что промышленность вероятно построит",
+    "summary": "Пробел слишком очевиден, чтобы оставаться",
+    "body": "что промышленность вероятно построит абстракт авто проблема риск сложность notion создаёт барьер для входа подход изучите перед принятием архитектурных решений результат риск сложность notion создаёт барьер для входа ключевые слова anthropic notion промышленность вероятно документ перед projects github warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений независимо того что делает автор смотрите также что этот документ решает что этот документ решает существующие приближения существующие приближения конкретный случай перед нами конкретный случай перед нами sentiment sentiment похожие документы существующие приближения существующие приближения сходство что этот документ решает что этот документ решает сходство sentiment sentiment сходство кто ссылается этот документ what industry will likely build what industry will likely build двухслойный стек как существует двухслойный стек как существует что отсутствует слой что отсутствует слой практические рекомендации для текущего проекта практические рекомендации для текущего проекта readme readme",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 333,
+    "path": "docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md"
+  }
+}

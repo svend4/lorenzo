@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:db1701b2e200ac77",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/outreach/first-contacts.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/outreach/message-template.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACTS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:4044cec717b70a45",
+  "payload": {
+    "title": "Первые контакты",
+    "summary": "",
+    "body": "первые контакты tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел план прототипа возможные контакты проекты svyazi cardindex agentfs knowledge space mclaude yodoca ngt memory смотрите также план прототипа возможные контакты collaborations план прототипа возможные контакты message template message template mvp planning svyazi mvp planning contacts contacts",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 259,
+    "path": "docs/svyazi-2-0/outreach/first-contacts.md"
+  }
+}

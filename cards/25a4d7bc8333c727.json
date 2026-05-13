@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:25a4d7bc8333c727",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/275-why-this-document-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:08a62a57a795fa9a",
+  "payload": {
+    "title": "Why This Document Exists",
+    "summary": "The seven preceding documents in this series were produced in",
+    "body": "why this document exists источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также missing middle layer missing middle layer why this document exists anthropic vacancies why this document exists two layer stack two layer stack what not solved what not solved",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 305,
+    "path": "docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md"
+  }
+}

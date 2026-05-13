@@ -215,11 +215,30 @@ YAML)
 
 ---
 
-**Смотрите также:**
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
-- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md)
-- [04-simbioticheskaya-arkhitektura](docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md)
-- [06-utochnyonnyy-obyom-ingit](docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Что InGit обеспечивает чего Cowork не"
+```
+
+## Смотрите также
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](../../02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
+- [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
+- [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -227,7 +246,7 @@ YAML)
 ---
 
 **Похожие документы:**
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/obsidian/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.87)
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.85)
-- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md) (сходство 0.14)
+- [03-chto-ingit-obespechivaet](../../obsidian/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md) (сходство 0.99)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](../../02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.83)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](../../obsidian/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.83)
 

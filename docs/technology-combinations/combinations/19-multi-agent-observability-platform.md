@@ -1,11 +1,38 @@
 # Комбинация 19: Multi-Agent Observability Platform
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -158,11 +185,33 @@ Claude hat geantwortet: Продолжаю охоту за уникальным�
 
 ---
 
-**Смотрите также:**
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 19 Multi Agent Observability"
+```
+
+## Смотрите также
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -170,7 +219,7 @@ Claude hat geantwortet: Продолжаю охоту за уникальным�
 ---
 
 **Похожие документы:**
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.41)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md) (сходство 0.34)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.29)
+- [19-multi-agent-observability-platform](../../obsidian/technology-combinations/combinations/19-multi-agent-observability-platform.md) (сходство 0.99)
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md) (сходство 0.44)
+- [24-mega-integration-full-stack](../../obsidian/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.43)
 

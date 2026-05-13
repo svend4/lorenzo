@@ -1,10 +1,39 @@
 # Table of Contents
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Table of Contents](#table-of-contents)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
+
+
+## Содержание
+
+- Основной раздел
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > 1. **Why the Binary View Is Incomplete**
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -30,7 +59,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [211-table-of-contents](211-table-of-contents.md) (сходство 0.26)
 - [169-table-of-contents](169-table-of-contents.md) (сходство 0.21)
 - [137-table-of-contents](137-table-of-contents.md) (сходство 0.15)
@@ -40,7 +69,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [211-table-of-contents](211-table-of-contents.md)
 - [169-table-of-contents](169-table-of-contents.md)
 - [308-table-of-contents](308-table-of-contents.md)
@@ -89,3 +124,19 @@
 - [Table of Contents](137-table-of-contents.md) _25%_
 - [Table of Contents](169-table-of-contents.md) _25%_
 - [2. The Twenty-One Teachers Pattern](255-2-the-twenty-one-teachers-pattern.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [137-table-of-contents](137-table-of-contents.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [252-abstract](252-abstract.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- _...ещё 5_
+

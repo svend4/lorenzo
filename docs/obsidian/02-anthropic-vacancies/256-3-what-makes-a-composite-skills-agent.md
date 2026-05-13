@@ -7,6 +7,11 @@ date: 2026-05-13
 
 # 3. What Makes a Composite Skills Agent
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -18,6 +23,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > We define the type with precision.
 
 ---
@@ -187,7 +196,7 @@ agents inherit this distinction.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[259-6-coordination-and-disagreement-resolution]] (сходство 0.18)
 - [[264-11-open-questions]] (сходство 0.18)
 - [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.16)
@@ -197,7 +206,13 @@ agents inherit this distinction.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Composite Skills Agent"
+```
+
+## Смотрите также
 - [[259-6-coordination-and-disagreement-resolution]]
 - [[264-11-open-questions]]
 - [[254-1-why-the-binary-view-is-incomplete]]
@@ -244,3 +259,19 @@ agents inherit this distinction.
 - [[264-11-open-questions|11. Open Questions]] _29%_
 - [[179-10-open-questions|10. Open Questions]] _25%_
 - [[211-table-of-contents|Table of Contents]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[211-table-of-contents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[253-table-of-contents]]
+- [[254-1-why-the-binary-view-is-incomplete]]
+- [[255-2-the-twenty-one-teachers-pattern]]
+- [[257-4-the-sub-agent-registry]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- [[259-6-coordination-and-disagreement-resolution]]
+- _...ещё 4_
+

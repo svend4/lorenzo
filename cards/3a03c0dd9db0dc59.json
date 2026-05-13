@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:3a03c0dd9db0dc59",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/42-author-contact.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:bc9c826bf155dfc7",
+  "payload": {
+    "title": "Author & Contact",
+    "summary": "",
+    "body": "author contact maintainer svend github author contact maintainer svend github контакт через issues github com svend info или github com svend nautilus лицензия контента уточнить proprietary лицензия адаптера mit следуя reference implementation memnet nautilus portal похожие документы author contact сходство author contact сходство portal protocol сходство смотрите также author contact reference implementation author contact status this document упоминается status this document status this document status this document status this document appendices appendices versioning policy versioning policy reference implementation reference implementation versioning policy versioning policy reference implementation reference implementation nautilus portal reference substrate nautilus portal reference substrate реализация проекте nautilus реализация проекте nautilus abstract abstract author contact author contact author contact author contact content overview content overview history history history history native format native format portal protocol portal protocol planned planned readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology readme вакансии anthropic анализ кластерам зачем две версии параллельно зачем две версии параллельно примеры запросов claude примеры запросов claude about about проекте проекте упоминается readme вакансии anthropic анализ кластерам связанные документы reference implementation reference implementation author contact author contact reference implementation reference implementation status this document status this document status this document status this document versioning policy versioning policy content overview content overview passports info passports info связанные документы author contact author contact reference implementation reference implementation reference implementation reference implementation status this document status this document status this document status this document nautilus portal reference substrate nautilus portal reference substrate versioning policy versioning policy passports info passports info",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 305,
+    "path": "docs/obsidian/02-anthropic-vacancies/42-author-contact.md"
+  }
+}

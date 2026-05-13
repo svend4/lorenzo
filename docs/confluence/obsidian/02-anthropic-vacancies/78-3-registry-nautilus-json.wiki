@@ -16,14 +16,13 @@ h1. 3. Registry ({{nautilus.json}})
 
 h2. Содержание
 
-* [Contents|#contents]
-* [3. Registry ({{nautilus.json}})|#3-registry-nautilusjson]
+* 3. Registry ({{[nautilus.json}})|#3-registry-nautilusjson]
   * [3.1. Purpose|#31-purpose]
   * [3.2. Schema|#32-schema]
   * [3.3. Required Fields|#33-required-fields]
   * [3.4. Optional Fields|#34-optional-fields]
   * [3.5. Validation Rules|#35-validation-rules]
-  * [3.6. AutoAdapter Special Case|#36-autoadapter-special-case]
+  * 3.6. [AutoAdapter Special Case|#36-autoadapter-special-case]
 
 ----
 
@@ -38,10 +37,34 @@ h2. Содержание
 >
 
 
-
-h2. Contents
-
-* [3. Registry (nautilus.json)|#3-registry-nautilusjson]
+  * [3.1. Purpose|#31-purpose]
+  * [3.2. Schema|#32-schema]
+  * [3.3. Required Fields|#33-required-fields]
+  * [3.4. Optional Fields|#34-optional-fields]
+  * [3.5. Validation Rules|#35-validation-rules]
+  * [3.6. AutoAdapter Special Case|#36-autoadapter-special-case]
+* 3. Registry (nautilus.[json)|#3-registry-nautilusjson]
+  * [3.1. Purpose|#31-purpose]
+  * [3.2. Schema|#32-schema]
+  * [3.3. Required Fields|#33-required-fields]
+  * [3.4. Optional Fields|#34-optional-fields]
+  * [3.5. Validation Rules|#35-validation-rules]
+  * 3.6. [AutoAdapter Special Case|#36-autoadapter-special-case]
+* 3. Registry (nautilus.[json)|#3-registry-nautilusjson]
+  * [3.1. Purpose|#31-purpose]
+  * [3.2. Schema|#32-schema]
+  * [3.3. Required Fields|#33-required-fields]
+  * [3.4. Optional Fields|#34-optional-fields]
+  * [3.5. Validation Rules|#35-validation-rules]
+  * 3.6. [AutoAdapter Special Case|#36-autoadapter-special-case]
+* 3. Registry (nautilus.[json)|#3-registry-nautilusjson]
+  * [3.1. Purpose|#31-purpose]
+  * [3.2. Schema|#32-schema]
+  * [3.3. Required Fields|#33-required-fields]
+  * [3.4. Optional Fields|#34-optional-fields]
+  * [3.5. Validation Rules|#35-validation-rules]
+  * 3.6. [AutoAdapter Special Case|#36-autoadapter-special-case]
+* 3. Registry (nautilus.[json)|#3-registry-nautilusjson]
   * [3.1. Purpose|#31-purpose]
   * [3.2. Schema|#32-schema]
   * [3.3. Required Fields|#33-required-fields]
@@ -59,8 +82,6 @@ h2. Contents
 {quote}Registry — central source of truth о том, какие Repos входят в{quote}
 
 ----
-
-
 
 
 
@@ -160,7 +181,7 @@ Onboarding Path C (self-declaring repo).
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.52)
 * [[77-2-terminology]] (сходство 0.16)
 * [[07-2-terminology]] (сходство 0.15)
@@ -170,9 +191,19 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[memnet|08-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 * [[82-7-portalentry-structure]]
 * [[77-2-terminology]]
 * [[07-2-terminology]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (3)
+* [[104-appendix-c-references]]
+* [[34-appendix-b-change-log]]
+* [[README]]
 

@@ -1976,11 +1976,49 @@ Thank you for the collaboration.
 
 ---
 
-**Смотрите также:**
-- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хорошо"
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хорошо" --mode bm25
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хорошо" --mode semantic --top 10
+```
+
+```bash
+python scripts/improve_collab_finder.py --file docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md
+```
+
+```bash
+python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хорошо" --mode full
+```
+
+## Смотрите также
+- [12-closing](../../representative-agent-layer-en/12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](../../../02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [04-ten-domains](../../representative-agent-layer-en/04-ten-domains.md)
+- [173-4-ten-domains-of-application](../../../02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](README.md)
+- [01-response](../voiceless-contributors/01-response.md)
+- [01-cinderella-syndrome](../../representative-agent-layer-en/01-cinderella-syndrome.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -1988,7 +2026,7 @@ Thank you for the collaboration.
 ---
 
 **Похожие документы:**
-- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md) (сходство 0.45)
-- [186-appendix-c-sample-use-cases-in-detail](docs/obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.37)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.37)
+- [01-response-en](../../../obsidian/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 1.00)
+- [12-closing](../../representative-agent-layer-en/12-closing.md) (сходство 0.45)
+- [12-closing](../../../obsidian/nautilus/representative-agent-layer-en/12-closing.md) (сходство 0.45)
 

@@ -1,5 +1,13 @@
 # План MVP-прототипа
 
+<!-- toc-auto -->
+## Contents
+
+- [Минимальная сборка прототипа](#минимальная-сборка-прототипа)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -35,11 +43,33 @@
 
 ---
 
-**Смотрите также:**
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "План MVP прототипа"
+```
+
+## Смотрите также
+- [05-план-прототипа-и-возможные-контакты](../../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [07-mvp-planning](../../01-svyazi/07-mvp-planning.md)
+- [executive-summary](../overview/executive-summary.md)
+- [first-contacts](../outreach/first-contacts.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [reading-paths](../../reading-paths.md)
+- [message-template](../outreach/message-template.md)
+- [executive-summary](../overview/executive-summary.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -47,7 +77,7 @@
 ---
 
 **Похожие документы:**
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.32)
-- [05-план-прототипа-и-возможные-контакты](docs/obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.31)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md) (сходство 0.31)
+- [mvp-plan](../../obsidian/svyazi-2-0/prototype/mvp-plan.md) (сходство 0.97)
+- [05-план-прототипа-и-возможные-контакты](../../obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.32)
+- [05-план-прототипа-и-возможные-контакты](../../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.32)
 

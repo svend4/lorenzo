@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:ca4e3d500b30974b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:536125e0b0386e6a",
+  "payload": {
+    "title": "22. Glossary of Reference Examples",
+    "summary": "title: \"22. Glossary of Reference Examples\"",
+    "body": "glossary reference examples качестве иллюстраций используется экосистема svend repos glossary reference examples качестве иллюстраций используется экосистема svend repos интегральный анализ профиля svend info level markdown документа уровнями методологический угол интегральный анализ профиля svend pro level концепты граф знаний bidir цикл семантический угол meta level правил гексаграммы символьный угол data level томов етд единая теория движения data level граф знаний трансформация infosystems level домен интегральный анализ профиля svend pro архитектура agents level домен интегральный анализ профиля svend pro агенты мультиагентные системы плюс расширенных адаптеров registry useable obsidianadapter локальный obsidian vault wikilinks arxivadapter arxiv api cache githubtopicadapter discovery component catalog github топику jsonladapter json lines files nautilus portal reference substrate autoadapter любой repo nautilus json корне похожие документы glossary examples сходство passports meta сходство смотрите также glossary examples passports meta интегральный анализ профиля svend passports info docs anthropic vacancies passports info интегральный анализ профиля svend passports pro docs anthropic vacancies passports pro",
+    "tags": [
+      "knowledge",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 210,
+    "path": "docs/obsidian/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md"
+  }
+}

@@ -1,18 +1,9 @@
----
-template: contact-outreach
-version: "1.0"
-author: "[Имя]"
-author_handle: "[@handle]"
-projects: []
-platform: "[Habr|GitHub|Telegram]"
-status: not_started
-priority: 3
-created: 2026-04-29
-last_contact: null
-tags: [контакты, команда]
----
-
 # Контакт: [Имя / Проект]
+
+> [!NOTE]
+> Раздел `contact-outreach` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Шаблон для связи с автором X -->
 <!-- tags: контакты, команда -->
@@ -53,15 +44,17 @@ tags: [контакты, команда]
 2. [Вопрос 2]
 
 ---
-_Создано: 2026-04-29_
+_Создано: 2026-05-13_
 
-<!-- see-also -->
+<!-- backlinks -->
 
 ---
 
-**Смотрите также:**
-- [vladspace](docs/obsidian/contacts/vladspace.md)
-- [cutcode](docs/obsidian/contacts/cutcode.md)
-- [dmitriila](docs/obsidian/contacts/dmitriila.md)
-- [mixaill76](docs/obsidian/contacts/mixaill76.md)
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [README](README.md)
+- [meeting-notes](meeting-notes.md)
 

@@ -1,5 +1,10 @@
 # 3. What Makes a Representative Agent
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > A Representative Agent is distinct from existing AI categories.
 
 ---
@@ -45,7 +54,7 @@ Locus of agency: User.
 Goal: Productivity multiplication on chosen tasks.
 
 **Layer 2 — Multi-Agent Systems** (current research/prototype):  
-Examples: MetaGPT, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), ChatDev, CrewAI.  
+Examples: MetaGPT, [AutoGen](01-интегральный-анализ-профиля-svend4.md), ChatDev, CrewAI.  
 Function: AI agents collaborate among themselves to complete 
 complex tasks.  
 Direction: AI → AI.  
@@ -143,7 +152,7 @@ and 7.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.20)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.15)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.13)
@@ -153,7 +162,13 @@ and 7.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Representative Agent"
+```
+
+## Смотрите также
 - [174-5-architectural-specification](174-5-architectural-specification.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
@@ -199,3 +214,19 @@ and 7.
 - [10. Open Questions](179-10-open-questions.md) _25%_
 - [6. Coordination and Disagreement Resolution](259-6-coordination-and-disagreement-resolution.md) _25%_
 - [11. Open Questions](264-11-open-questions.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- _...ещё 2_
+

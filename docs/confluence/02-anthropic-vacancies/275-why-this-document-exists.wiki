@@ -5,6 +5,11 @@
 
 h1. Why This Document Exists
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 
 h2. Содержание
 
@@ -17,6 +22,10 @@ h2. Содержание
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -75,7 +84,7 @@ This document explores that observation.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [276-the-two-layer-stack-as-it-exists|276-the-two-layer-stack-as-it-exists.md] (сходство 0.18)
 * [286-acknowledgments|286-acknowledgments.md] (сходство 0.16)
 * [279-existing-approximations|279-existing-approximations.md] (сходство 0.14)
@@ -85,7 +94,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Document Exists"
+{code}
+
+h2. Смотрите также
 * [286-acknowledgments|286-acknowledgments.md]
 * [276-the-two-layer-stack-as-it-exists|276-the-two-layer-stack-as-it-exists.md]
 * [283-what-this-document-doesn-t-solve|283-what-this-document-doesn-t-solve.md]
@@ -128,3 +143,19 @@ h2. Связанные документы
 * [References|287-references.md] _29%_
 * [Acknowledgments|319-acknowledgments.md] _29%_
 * [Acknowledgments|267-acknowledgments.md] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (12)
+* [267-acknowledgments|267-acknowledgments.md]
+* [276-the-two-layer-stack-as-it-exists|276-the-two-layer-stack-as-it-exists.md]
+* [277-what-s-missing-layer-b|277-what-s-missing-layer-b.md]
+* [278-why-this-hasn-t-been-built|278-why-this-hasn-t-been-built.md]
+* [280-the-specific-case-in-front-of-us|280-the-specific-case-in-front-of-us.md]
+* [283-what-this-document-doesn-t-solve|283-what-this-document-doesn-t-solve.md]
+* [284-practical-recommendations-for-the-current-project|284-practical-recommendations-for-the-current-project.md]
+* [285-closing|285-closing.md]
+* _...ещё 4_
+

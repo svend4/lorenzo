@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:71e300f688ed3fc5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:6c145ba62b7b24c1",
+  "payload": {
+    "title": "Что ты ВСЕГДА делаешь",
+    "summary": "",
+    "body": "что всегда делаешь reference specific details generic похожие документы что можешь делать вообще что можешь делать вообще сходство смотрите также что можешь делать вообще что можешь делать вообще appendix minimal working example appendix minimal working example appendix decision tree for ingit with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters что можешь делать без max approval что можешь делать без max approval кто ссылается этот документ abstract abstract passport passport passport passport portal mcp portal mcp подключение claude desktop подключение claude desktop queryresult structure queryresult structure appendix decision tree for ingit adopters appendix decision tree for ingit adopters что можешь делать что можешь делать что можешь делать вообще что можешь делать вообще ещё",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 127,
+    "path": "docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md"
+  }
+}

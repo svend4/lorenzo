@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:864b0b3cbc98d447",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:8d4c8e498a92bcb4",
+  "payload": {
+    "title": "THE DOUBLE-TRIANGLE ARCHITECTURE.md",
+    "summary": "title: \"THE DOUBLE-TRIANGLE ARCHITECTURE.md\"",
+    "body": "the double triangle architecture слой представительских агентов сходство the double triangle architecture markdown the double triangle architecture похожие документы слой представительских агентов сходство representative agent layer сходство composite skills agent сходство упоминается architectural specification architectural specification four deployment domains four deployment domains open questions open questions integration with okwf infrastructure integration with okwf infrastructure practical path layer through symbiotic inte practical path layer through symbiotic integration abstract abstract angle perspective angle perspective appendix glossary appendix glossary composite skills agent composite skills agent content overview content overview content overview content overview infrastructure for collaborative intellectual infrastructure for collaborative intellectual work ingit cowork native workspace substrate ingit cowork native workspace substrate open knowledge work foundation open knowledge work foundation professional colleague agents professional colleague agents representative agent layer representative agent layer references references аннотация аннотация readme вакансии anthropic анализ кластерам системный промпт для lorenzo project системный промпт для lorenzo project слой представительских агентов слой представительских агентов упоминается readme вакансии anthropic анализ кластерам связанные документы representative agent layer representative agent layer слой представительских агентов слой представительских агентов practical path layer through symbiotic inte practical path layer through symbiotic integration системный промпт для lorenzo project системный промпт для lorenzo project composite skills agent composite skills agent ingit cowork native workspace substrate ingit cowork native workspace substrate angle perspective angle perspective professional colleague agents professional colleague agents связанные документы representative agent layer representative agent layer слой представительских агентов слой представительских агентов professional colleague agents professional colleague agents системный промпт для lorenzo project системный промпт для lorenzo project composite skills agent composite skills agent practical path layer through symbiotic inte practical path layer through symbiotic integration ingit cowork native workspace substrate ingit cowork native workspace substrate open knowledge work foundation open knowledge work foundation смотрите также representative agent layer системный промпт для lorenzo project слой представительских агентов professional colleague agents",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 296,
+    "path": "docs/obsidian/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md"
+  }
+}

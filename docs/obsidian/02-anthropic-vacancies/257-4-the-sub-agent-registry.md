@@ -176,7 +176,7 @@ across both journals and individual researchers.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[260-7-economics-of-combinatorial-replication]] (сходство 0.19)
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.18)
 - [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.16)
@@ -186,7 +186,13 @@ across both journals and individual researchers.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 The Sub Agent Registry"
+```
+
+## Смотрите также
 - [[262-9-integration-with-okwf-infrastructure]]
 - [[260-7-economics-of-combinatorial-replication]]
 - [[158-4-proposed-infrastructure]]
@@ -231,3 +237,19 @@ across both journals and individual researchers.
 - [[215-4-architecture-of-professional-colleague-agents|4. Architecture of Professional Colleague Agents]] _25%_
 - [[221-10-open-questions|10. Open Questions]] _25%_
 - [[252-abstract|Abstract]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (16)
+- [[151-open-knowledge-work-foundation-md]]
+- [[153-executive-summary]]
+- [[155-1-problem-statement]]
+- [[161-7-phased-rollout-plan]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[217-6-risks-specific-to-this-category]]
+- _...ещё 8_
+

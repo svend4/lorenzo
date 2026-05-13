@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:0775cd2988d2b65a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/18-comment-on-document.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/34-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/03-registry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/07-portal-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/22-glossary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:58f505ba7e9c4b51",
+  "payload": {
+    "title": "Комментарий: дизайн-решения NPP v1.0",
+    "summary": "Несколько слов о том, что я сознательно сделал в этом draft:",
+    "body": "комментарий дизайн решения npp important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol draft rfc более ранняя версия смотрите также appendix change log anthropic vacancies appendix change log registry npp registry portal entry npp portal entry glossary npp glossary",
+    "tags": [
+      "security",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 454,
+    "path": "docs/nautilus/npp-v1-0/18-comment-on-document.md"
+  }
+}

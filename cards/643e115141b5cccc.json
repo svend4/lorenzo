@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:643e115141b5cccc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/86-11-relevance-ranking.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:6530faa9039ffd95",
+  "payload": {
+    "title": "11. Relevance Ranking",
+    "summary": "v1.1 нормализует алгоритм ранжирования из reference implementation.",
+    "body": "relevance ranking contents relevance ranking relevance ranking scoring formula scoring formula may extensions may extensions нормализует алгоритм ранжирования reference implementation relevance ranking нормализует алгоритм ранжирования reference implementation scoring formula для каждого интегральный анализ профиля svend portalentry query оба normalized def relevance score portalentry str float score lower lower title lower title lower content lower content lower lower lower lower title lower score elif lower title lower score lower content lower score lower lower score bonus for connectivity score min len links penalty for fallback fallback score return score may extensions альтернативные алгоритмы ранжирования idf semantic embeddings могут использоваться must быть опциональными через параметр ranked algorithm default must оставаться формула раздела для воспроизводимости между порталами похожие документы consensus algorithm сходство consensus algorithm сходство смотрите также consensus algorithm queryresult structure reference implementation consensus algorithm",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 213,
+    "path": "docs/obsidian/02-anthropic-vacancies/86-11-relevance-ranking.md"
+  }
+}

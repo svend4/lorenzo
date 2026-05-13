@@ -1,5 +1,16 @@
 # 7. PortalEntry Structure
 
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+
+
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -48,12 +59,26 @@ transport
 
 ---
 
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [19-7-portalentry-structure](docs/obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.61)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.57)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md) (сходство 0.38)
+- [07-portal-entry](../../obsidian/nautilus/npp-v1-0/07-portal-entry.md) (сходство 0.99)
+- [19-7-portalentry-structure](../../obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.51)
+- [19-7-portalentry-structure](../../02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.51)
 

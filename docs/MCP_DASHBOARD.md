@@ -1,41 +1,43 @@
 # MCP Dashboard
 
-_Обновлено: 2026-04-29_
+> [!NOTE]
+> Раздел `MCP_DASHBOARD` формируется автоматически из данных репозитория.
 
-**Всего вызовов:** 10
-**Ошибок:** 0
-**Период:** 2026-04-29T14:16:42 — 2026-04-29T14:16:42
+<!-- alert-added -->
+<!-- tags: mcp-dashboard, docs -->
 
-## По серверам
 
-| Сервер | Вызовов | Доля |
-|--------|---------|------|
-| `search` | 3 | 30.0% |
-| `graph` | 2 | 20.0% |
-| `templates` | 2 | 20.0% |
-| `skills` | 2 | 20.0% |
-| `runner` | 1 | 10.0% |
+<!-- summary -->
+> `MCP_DASHBOARD` — раздел документации проекта Lorenzo.
 
-## Топ-15 инструментов (с латентностью)
 
-| Сервер | Инструмент | Вызовов | Avg | p50 | p95 | p99 | Max | Errors |
-|--------|------------|--------:|----:|----:|----:|----:|----:|-------:|
-| `search` | `search_docs` | 2 | 47 | 49 | 49 | 49 | 49 | 0 |
-| `search` | `find_similar` | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
-| `graph` | `get_health` | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
-| `graph` | `get_decisions` | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
-| `templates` | `list_templates` | 1 | 1 | 1 | 1 | 1 | 1 | 0 |
-| `templates` | `list_tasks` | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
-| `skills` | `list_skills` | 1 | 3 | 3 | 3 | 3 | 3 | 0 |
-| `skills` | `match_skill` | 1 | 3 | 3 | 3 | 3 | 3 | 0 |
-| `runner` | `list_scripts` | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+_Логи MCP-вызовов отсутствуют._
 
-## Латентность по серверам
 
-| Сервер | p50 | p95 | p99 | Max |
-|--------|----:|----:|----:|----:|
-| `graph` | 0 | 0 | 0 | 0 |
-| `runner` | 0 | 0 | 0 | 0 |
-| `search` | 45 | 49 | 49 | 49 |
-| `skills` | 3 | 3 | 3 | 3 |
-| `templates` | 1 | 1 | 1 | 1 |
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «MCP Dashboard». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_mcp_dashboard.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

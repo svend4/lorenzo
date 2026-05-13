@@ -1,6 +1,45 @@
 # 1. Introduction (Motivation, Design Goals, Non-Goals, Terminology, Changes from v1.0)
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+  - [1.5. Changes from v1.0](#15-changes-from-v10)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+  - [1.5. Changes from v1.0](#15-changes-from-v10)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -87,11 +126,31 @@ NPP **не** пытается:
 
 ---
 
-**Смотрите также:**
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
-- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md)
-- [00-abstract-status](docs/nautilus/npp-v1-1/00-abstract-status.md)
-- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Introduction Motivation Design Goals"
+```
+
+## Смотрите также
+- [76-1-introduction](../../02-anthropic-vacancies/76-1-introduction.md)
+- [06-1-introduction](../../02-anthropic-vacancies/06-1-introduction.md)
+- [00-abstract-status](00-abstract-status.md)
+- [02-terminology](02-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract-status](00-abstract-status.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 
 
 <!-- similar-docs -->
@@ -99,7 +158,7 @@ NPP **не** пытается:
 ---
 
 **Похожие документы:**
-- [76-1-introduction](docs/obsidian/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.89)
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.86)
-- [01-introduction](docs/nautilus/npp-v1-0/01-introduction.md) (сходство 0.54)
+- [01-introduction](../../obsidian/nautilus/npp-v1-1/01-introduction.md) (сходство 0.99)
+- [76-1-introduction](../../obsidian/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.85)
+- [76-1-introduction](../../02-anthropic-vacancies/76-1-introduction.md) (сходство 0.83)
 

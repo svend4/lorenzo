@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:8b92cc8bbf88aebe",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/04-ai-collaborations/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:5e19a1489ea95f53",
+  "payload": {
+    "title": "Q&A: 04-ai-collaborations",
+    "summary": "_Автоматически сгенерировано по 15 файлам раздела._",
+    "body": "collaborations автоматически сгенерировано файлам раздела как реализован forensic rag доказуемостью упоминаются liteparse bounding box page level evidence что такое evidence envelope зачем нужен упоминаются evidence envelope source page span какие rag подходы сравниваются документах упоминаются legal rag hybrid rag graph rag liteparse какие архитектурных зазоров выделены исследовании упоминаются зазор карточка evidence memory governance agent contract что входит интеграционный контракт между слоями упоминаются card envelope evidence envelope memory write skill policy review record каковы этапы mvp оценка времени упоминаются mvp итерац фаза неделя что входит первую итерацию прототипа упоминаются evidence first unified card page span manual review кто ключевые авторы проектов для контакта упоминаются андрей чуян виталий оборин kksudo spbmolot какие вопросы лучше задавать авторам при первом контакте упоминаются первый вопрос архитектурный шаблон контакт какие инструменты обеспечивают безопасность агентов упоминаются sentinel litellm tool search auto router какова политика доступа умолчанию tool classes упоминаются read only allowlist path guard quarantine как организован бюджетный роутинг между моделями упоминаются routing budget litellm local model как работает agentfs что такое agentos упоминаются agentos vault compile persistent state что такое knowledge space для кого предназначен упоминаются reference card agent readable gotcha как cardindex хранит версионирует карточки упоминаются cardindex card state hash dedup",
+    "tags": [
+      "rag",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 246,
+    "path": "docs/obsidian/04-ai-collaborations/QA.md"
+  }
+}

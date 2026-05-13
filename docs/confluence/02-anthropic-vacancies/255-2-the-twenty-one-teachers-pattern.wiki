@@ -157,7 +157,7 @@ practitioner can configure into their own combination.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [254-1-why-the-binary-view-is-incomplete|254-1-why-the-binary-view-is-incomplete.md] (сходство 0.18)
 * [261-8-seven-domains-of-application|261-8-seven-domains-of-application.md] (сходство 0.17)
 * [252-abstract|252-abstract.md] (сходство 0.15)
@@ -167,7 +167,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "2 The Twenty One Teachers Pattern"
+{code}
+
+h2. Смотрите также
 * [261-8-seven-domains-of-application|261-8-seven-domains-of-application.md]
 * [254-1-why-the-binary-view-is-incomplete|254-1-why-the-binary-view-is-incomplete.md]
 * [252-abstract|252-abstract.md]
@@ -205,3 +211,19 @@ h2. Связанные документы
 * [3. What Makes a Composite Skills Agent|256-3-what-makes-a-composite-skills-agent.md] _21%_
 * [Acknowledgments|267-acknowledgments.md] _21%_
 * [2. What Cowork Provides That InGit Doesn't Need to Build|310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* [214-3-empirical-case-study-обучай|214-3-empirical-case-study-обучай.md]
+* [252-abstract|252-abstract.md]
+* [253-table-of-contents|253-table-of-contents.md]
+* [254-1-why-the-binary-view-is-incomplete|254-1-why-the-binary-view-is-incomplete.md]
+* [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md]
+* [259-6-coordination-and-disagreement-resolution|259-6-coordination-and-disagreement-resolution.md]
+* [261-8-seven-domains-of-application|261-8-seven-domains-of-application.md]
+* [266-13-closing|266-13-closing.md]
+* _...ещё 2_
+

@@ -1,10 +1,26 @@
 # Четыре структурные причины, почему это не работает в текущих попытках
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +43,32 @@
 
 ---
 
-**Смотрите также:**
-- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
-- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md)
-- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Четыре структурные причины почему это"
+```
+
+## Смотрите также
+- [08-pluses-of-model](08-pluses-of-model.md)
+- [07-current-implementations](07-current-implementations.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [09-minuses-and-risks](09-minuses-and-risks.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-pluses-of-model](08-pluses-of-model.md)
+- [09-minuses-and-risks](09-minuses-and-risks.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -39,7 +76,7 @@
 ---
 
 **Похожие документы:**
-- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md) (сходство 0.16)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.14)
-- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) (сходство 0.13)
+- [02-four-structural-blockers](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md) (сходство 0.99)
+- [08-pluses-of-model](08-pluses-of-model.md) (сходство 0.21)
+- [08-pluses-of-model](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md) (сходство 0.21)
 

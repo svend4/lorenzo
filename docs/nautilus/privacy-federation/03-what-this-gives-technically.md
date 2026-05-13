@@ -1,5 +1,23 @@
 # Что это даёт технически
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -141,11 +159,11 @@ json
 "mcpServers": {
 "nautilus-legal-public": {
 "command": "python3",
-"args": ["/path/to/nautilus-legal/legal-portal-mcp.py"]
+"args": "/path/to/nautilus-legal/legal-portal-[mcp.py"]
 },
 "cases-private": {
 "command": "python3",
-"args": ["/path/to/cases-private/private-mcp.py"],
+"args": "/path/to/cases-private/private-[mcp.py"],
 "env": {
 "PRIVATE_ACCESS_TOKEN": "<your token>",
 "ENCRYPTION_KEY": "<your key>"
@@ -186,11 +204,33 @@ Riskи и trade-offs, которые стоит осознавать
 
 ---
 
-**Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
-- [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
-- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что это даёт технически"
+```
+
+## Смотрите также
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
+- [02-two-tier-publication](02-two-tier-publication.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
+- [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+- [02-two-tier-publication](02-two-tier-publication.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -198,7 +238,7 @@ Riskи и trade-offs, которые стоит осознавать
 ---
 
 **Похожие документы:**
-- [133-обратная-связь](docs/obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.16)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.16)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.16)
+- [03-what-this-gives-technically](../../obsidian/nautilus/privacy-federation/03-what-this-gives-technically.md) (сходство 0.99)
+- [02-two-tier-publication](02-two-tier-publication.md) (сходство 0.16)
+- [133-обратная-связь](../../obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.16)
 

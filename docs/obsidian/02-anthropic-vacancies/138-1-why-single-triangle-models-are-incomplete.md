@@ -9,10 +9,14 @@ date: 2026-05-13
 
 # 1. Why Single-Triangle Models Are Incomplete
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
   - [1.1. The Current Landscape](#11-the-current-landscape)
   - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
@@ -22,21 +26,16 @@ date: 2026-05-13
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** The gap needs to be closed not through yet another centralized platform, but through a protocol — a way for the two triangles to negotiate through well-defined interfaces.
 > 🔧 **Подход:** What Both Paradigms Miss Both single-triangle approaches share a structural blind spot: they assume humans exist in one role at a time.
 > 🏷️ **Ключевые слова:** `triangle`, `anthropic`, `vacancies`, `architecture`, `copilot`, `single`, `assistants`, `layer`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
-  - [1.1. The Current Landscape](#11-the-current-landscape)
-  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
-  - [1.3. The Rising Urgency](#13-the-rising-urgency)
 
 
 <!-- summary -->
@@ -118,7 +117,7 @@ such a protocol.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[136-abstract]] (сходство 0.19)
 - [[140-3-three-inter-layer-protocols]] (сходство 0.18)
 - [[139-2-the-double-triangle-architecture]] (сходство 0.14)
@@ -128,9 +127,31 @@ such a protocol.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Why Single Triangle Models Are"
+```
+
+## Смотрите также
 - [[136-abstract]]
 - [[140-3-three-inter-layer-protocols]]
 - [[139-2-the-double-triangle-architecture]]
 - [[142-5-pattern-library-as-bridge-between-triangles]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[136-abstract]]
+- [[137-table-of-contents]]
+- [[140-3-three-inter-layer-protocols]]
+- 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[144-7-open-questions]]
+- [[149-appendix-b-summary-of-contributions]]
+- [[187-слой-представительских-агентов-md]]
+- _...ещё 3_
 

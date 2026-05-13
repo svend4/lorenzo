@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:f2e2ac4be565d430",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/07-llm.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/processing-guide/01-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/PROCESSING_GUIDE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/06-search.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/10-future.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/03-chunking.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:26+00:00",
+  "updated_at": "2026-05-10T17:29:26+00:00",
+  "payload_hash": "sha256:8f4926e5936d179c",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 7: LLM-обогащение",
+    "summary": "improve_llm_enrich.py    ← обогатить файл: добавить секции, углубить анализ",
+    "body": "обработка больших массивов часть llm обогащение что может сделать языковая модель документами чего может классический алгоритм проекты svyazi agentfs yodoca ngt memory что может сделать языковая модель документами чего может классический алгоритм граница классики llm задача классика llm найти все упоминания agentfs grep понять что agentfs делает найти противоречия ключевые слова смысловые написать резюме textrank связный текст предложить вопрос автору заполнить пробелы документации перевести другой язык архитектура llm скриптов improve llm enrich обогатить файл добавить секции углубить анализ improve llm базе вопрос ответ источниками improve llm summary каскадная суммаризация digest improve llm gaps найти пробелы чего хватает документации improve llm contact персонализированные письма авторам все скрипты используют claude haiku дешёвый быстрый prompt caching improve llm enrich обогащение файлов что делает читает файл анализирует дополняет недостающие секции pip install anthropic export anthropic api key ant python scripts improve llm enrich dry run план стоимость python scripts improve llm enrich section habr projects python scripts improve llm enrich file docs habr projects memory yodoca python scripts improve llm enrich force перезаписать уже обогащённые добавляет технические детали если было конкретики место архитектуре svyazi как компонент встраивается вопросы для автора что стоит уточнить альтернативы похожие проекты чем отличается стоимость файл токенов всего prompt caching системный промпт кешируется повторные запросы дешевле improve llm базе знаний что делает вопрос русском поиск search index json ответ claude цитатами python scripts improve llm question что такое ngt memory python scripts improve llm question какая лицензия yodoca python scripts improve llm интерактивный режим пример вопрос чем yodoca отличается ngt memory ответ yodoca apache фокусируется консолидации эпизодической памяти через sqlite fts явным механизмом забывания неважных событий ngt memory bsl использует хеббовский ассоциативный граф связи между концептами усиливаются при совместных упоминаниях источники docs habr projects memory yodoca score docs habr projects memory ngt memory score кеш повторные вопросы берутся docs cache json бесплатно improve llm summary каскадная суммаризация проблема документ слов влезает контекст решение map reduce map каждая секция краткое резюме параллельно reduce все резюме итоговый дайджест python scripts improve llm summary file docs anthropic vacancies intro python scripts improve llm summary section svyazi utils chunker автоматически делит большие документы перед отправкой api improve llm gaps пробелы документации что делает анализирует всю базу знаний находит темы которые упоминаются раскрыты вопросы которые остались без ответа связи между проектами которые задокументированы python scripts improve llm gaps docs llm gaps improve llm contact персонализированные письма что делает читает docs contacts author проектный файл генерирует персонализированное первое сообщение python scripts improve llm contact author kksudo python scripts improve llm contact all все авторов правила конкретная ссылка проект url документа один конкретный технический вопрос объяснение svyazi предложении максимум предложений стратегии работы большими документами стратегия sliding window utils chunker chunks chunk headers text max words for chunk chunks result llm complete prompt chunk text results append result final llm complete reduce prompt join results стратегия иерархическая суммаризация уровень абзац предложение уровень секция предложения уровень документ абзац уровень раздел страница стратегия rag retrieval augmented generation передавать весь документ только релевантные пассажи query как работает hot path yodoca passages search query passages index top context join text for passages answer llm complete основе контекста context nвопрос query этот подход реализован improve llm оценка стоимости операция модель стоимость обогатить файл токенов claude haiku обогатить файл claude haiku вопросов кешем claude haiku суммаризация большого файла claude haiku персонализированных писем claude haiku весь проект целиком claude haiku следующий шаг после llm обогащения часть экспорт интеграции кто ссылается этот документ overview overview processing guide processing guide readme readme смотрите также processing guide processing guide search search future future chunking chunking",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 855,
+    "path": "docs/processing-guide/07-llm.md"
+  }
+}

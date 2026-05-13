@@ -14,6 +14,11 @@ date: 2026-05-13
 
 h1. 5. The Economics of Profession-Wide Replication
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -24,6 +29,10 @@ h1. 5. The Economics of Profession-Wide Replication
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}A defining feature of Professional Colleague Agents is that{quote}
 
@@ -172,7 +181,7 @@ economically viable for moderately sized professions.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[260-7-economics-of-combinatorial-replication]] (сходство 0.20)
 * [[219-8-pilot-proposal-sgb-advocate-colleague]] (сходство 0.14)
 * [[215-4-architecture-of-professional-colleague-agents]] (сходство 0.12)
@@ -182,7 +191,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 The Economics of Profession Wide"
+{code}
+
+h2. Смотрите также
 * [[260-7-economics-of-combinatorial-replication]]
 * [[219-8-pilot-proposal-sgb-advocate-colleague]]
 * [[262-9-integration-with-okwf-infrastructure]]
@@ -225,3 +240,19 @@ h2. Связанные документы
 * [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]] _25%_
 * [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _25%_
 * [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial Replication]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [[151-open-knowledge-work-foundation-md]]
+* [[213-2-what-makes-a-professional-colleague-agent]]
+* [[215-4-architecture-of-professional-colleague-agents]]
+* [[217-6-risks-specific-to-this-category]]
+* [[219-8-pilot-proposal-sgb-advocate-colleague]]
+* [[223-12-closing]]
+* [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+* [[260-7-economics-of-combinatorial-replication]]
+* _...ещё 1_
+

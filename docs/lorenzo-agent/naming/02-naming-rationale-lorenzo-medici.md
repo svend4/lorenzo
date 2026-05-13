@@ -1,5 +1,23 @@
 # Что взять: agent controller architecture
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -302,11 +320,31 @@ LAYER 6: Outreach engine
 
 ---
 
-**Смотрите также:**
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что взять agent controller architecture"
+```
+
+## Смотрите также
+- [03-dhlab-umbrella](03-dhlab-umbrella.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [04-proposed-infrastructure](../../nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [11-difficulties-and-recommendations](../specification/11-difficulties-and-recommendations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-dhlab-umbrella](03-dhlab-umbrella.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -314,7 +352,7 @@ LAYER 6: Outreach engine
 ---
 
 **Похожие документы:**
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.23)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.20)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.20)
+- [02-naming-rationale-lorenzo-medici](../../obsidian/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md) (сходство 0.99)
+- [03-dhlab-umbrella](03-dhlab-umbrella.md) (сходство 0.24)
+- [03-dhlab-umbrella](../../obsidian/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.24)
 

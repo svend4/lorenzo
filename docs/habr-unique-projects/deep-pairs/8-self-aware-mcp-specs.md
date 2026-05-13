@@ -1,10 +1,27 @@
 # Пара 8 — Self-aware MCP × Specs-first архитектура
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 ---
 <!-- tags: knowledge, architecture, collaboration -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 
 
 
@@ -31,11 +48,27 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 
 ---
 
-**Смотрите также:**
-- [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md)
-- [5-browser-agents-headless](docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md)
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Пара 8 Self aware MCP Specs first"
+```
+
+## Смотрите также
+- 03-pda-[llm-as-periphery](../key-findings/03-pda-llm-as-periphery.md)
+- [5-browser-agents-headless](../software-pairs/5-browser-agents-headless.md)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
+- [3-adversarial-multi-ide](3-adversarial-multi-ide.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -43,7 +76,7 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 ---
 
 **Похожие документы:**
-- [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md) (сходство 0.21)
-- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md) (сходство 0.18)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.18)
+- [8-self-aware-mcp-specs](../../obsidian/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.96)
+- [03-pda-llm-as-periphery](../key-findings/03-pda-llm-as-periphery.md) (сходство 0.24)
+- [03-pda-llm-as-periphery](../../obsidian/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md) (сходство 0.23)
 

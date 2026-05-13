@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:c626e90f05b4b144",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/11-open-questions.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/264-11-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/12-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/09-okwf-integration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/03-what-makes-csa.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:e3595a3c8d04c7e7",
+  "payload": {
+    "title": "11. Open Questions",
+    "summary": "Many questions about Composite Skills Agents remain open.",
+    "body": "open questions tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper composite skills agents смотрите также open questions anthropic vacancies open questions call for collaboration call for collaboration okwf integration okwf integration what makes csa what makes csa",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 467,
+    "path": "docs/nautilus/composite-skills-agents/11-open-questions.md"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "docs/ACTION_ITEMS.md",
+    "target": "../docs/01-svyazi/03-comp  \n  _→ 01-интегральный-анализ-профиля-svend4_\n- полагаться на это. Отзовит",
+    "issue": "путь слишком длинный (2790 симв.)"
+  },
+  {
+    "file": "docs/DECISIONS.md",
+    "target": "../docs/01-svyazi/01-executive-sum  \n  _→ 08-conclusions_\n\n- слой — не память, не RAG и не оркестрац",
+    "issue": "путь слишком длинный (1276 симв.)"
+  },
+  {
+    "file": "docs/DECISIONS.md",
+    "target": "../docs/05-habr-projects/mem  \n  _→ 01-интегральный-анализ-профиля-svend4_\n\n- явно проставить relati",
+    "issue": "путь слишком длинный (406 симв.)"
+  },
+  {
+    "file": "docs/TABLES.md",
+    "target": "nautilus/review-methodology/00-tldr | 23 |\n| **DSL** | Non-programmers write legal automation | 72 |",
+    "issue": "путь слишком длинный (726 симв.)"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:3c8abc135e9555b5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:a7ab43f7a682fa85",
+  "payload": {
+    "title": "Минусы Hermes (где наша архитектура добавляет ценность)",
+    "summary": "Минусы Hermes (где наша архитектура добавляет ценность)",
+    "body": "минусы hermes где наша архитектура добавляет ценность источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога сравнение собственной архитектуры ingit cowork nautilus hermes agent nous resear смотрите также difference tool mission drift difference tool mission drift difference institutional vision difference institutional vision pluses hermes pluses hermes difference domain specialization difference domain specialization",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 291,
+    "path": "docs/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md"
+  }
+}

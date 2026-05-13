@@ -1,6 +1,27 @@
 # 4. Passport (`passport.md`)
 
+<!-- toc-auto -->
+## Contents
+
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Required Structure](#42-required-structure)
+  - [4.3. Recommended Sections](#43-recommended-sections)
+  - [4.4. Schema Validation](#44-schema-validation)
+  - [4.5. Naming Convention](#45-naming-convention)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -71,11 +92,24 @@ Portal SHOULD предоставлять команду валидации:
 
 ---
 
-**Смотрите также:**
-- [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md)
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
-- [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
+## Смотрите также
+- [79-4-passport-passport-md](../../02-anthropic-vacancies/79-4-passport-passport-md.md)
+- [09-4-passport-passport-md](../../02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [03-registry](03-registry.md)
+- 16-[mcp-extension](16-mcp-extension.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 
 
 <!-- similar-docs -->
@@ -83,7 +117,7 @@ Portal SHOULD предоставлять команду валидации:
 ---
 
 **Похожие документы:**
-- [79-4-passport-passport-md](docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.76)
-- [79-4-passport-passport-md](docs/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.74)
-- [04-passport](docs/nautilus/npp-v1-0/04-passport.md) (сходство 0.26)
+- [04-passport](../../obsidian/nautilus/npp-v1-1/04-passport.md) (сходство 0.98)
+- [79-4-passport-passport-md](../../obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.77)
+- [79-4-passport-passport-md](../../02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.77)
 

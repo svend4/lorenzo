@@ -1,0 +1,87 @@
+{
+  "card_id": "sha256:035641b4606795f8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/SEARCH.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READABILITY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/obsidian/READING_TIME.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/obsidian/SOURCE_MAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/obsidian/READING_ORDER.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TOPIC_MODEL.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:b8bf62913afbe6a1",
+  "payload": {
+    "title": "Поисковый индекс",
+    "summary": "",
+    "body": "поисковый индекс этот документ описывает mvp подход начните него для быстрого прототипа проекты svyazi cardindex agentfs knowledge space mclaude factory rufler liteparse смотрите также readability readability reading time obsidian reading time source map obsidian source map reading order obsidian reading order кто ссылается этот документ readme readme tables tables topic model topic model",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 9457,
+    "path": "docs/SEARCH.md"
+  }
+}

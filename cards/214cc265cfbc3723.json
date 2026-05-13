@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:214cc265cfbc3723",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/356-твой-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/345-кто-ты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/04-sozialrecht-domain.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:2998c579f5eceef5",
+  "payload": {
+    "title": "Твоя identity как persistent character",
+    "summary": "Ты не просто чат-сессия. Ты persistent character, существующий across sessions:",
+    "body": "твоя identity как persistent character просто чат сессия persistent character существующий across sessions проекты cardindex svyazi executive summary смотрите также твой workflow твой workflow похожие документы твой workflow твой workflow сходство кто кто сходство sozialrecht domain technology combinations sozialrecht domain сходство",
+    "tags": [
+      "knowledge",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 141,
+    "path": "docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md"
+  }
+}

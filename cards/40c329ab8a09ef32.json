@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:40c329ab8a09ef32",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/06-1-introduction.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:748dc5cb0b3744ee",
+  "payload": {
+    "title": "1. Introduction",
+    "summary": "Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,",
+    "body": "introduction абстракт авто проблема design goals протокол спроектирован так чтобы одновременно достичь low barrier entry подключение существующего репо федерации требует больше минут работы два файла подход homogenization разные типы знаний методология семантика символизм принудительно приводятся одной структуре что уменьшает выразительность ключевые слова introduction goals anthropic vacancies проекте federation merging motivation contents introduction introduction motivation motivation design goals design goals non goals non goals terminology terminology современные системы управления знаниями notion obsidian roam logseq introduction motivation современные системы управления знаниями notion obsidian roam logseq coda confluence требуют пользователя миграции единый формат это создаёт три проблемы lock данные становятся заложниками платформы экспорт теряет семантику homogenization разные типы знаний методология семантика символизм принудительно приводятся одной структуре что уменьшает выразительность loss authorship каждый автор вынужден работать чужой модели вместо того чтобы развивать свою альтернатива предлагаемая npp федеративная модель где каждый репозиторий сохраняет свой native формат переводы между форматами происходят через адаптеры запросу design goals протокол спроектирован так чтобы одновременно достичь low barrier entry подключение существующего репо федерации требует больше минут работы два файла корень local autonomy каждый репо остаётся полностью функциональным без портала progressive enhancement репо может быть подключён уровне просто обнаруживаем затем повышен уровня интерактивный постепенно implementation independence спецификация достаточна для написания альтернативных движков клиентов forward compatibility новые версии протокола совместимы старыми адаптерами через shim логику движка non goals npp пытается заменить существующие системы знаний notion obsidian они дополняются заменяются обеспечить real time sync между репо федерация асинхронна дизайну формализовать онтологии bridges между репо свободные текстовые описания owl rdf обеспечить write operations федерируемые репо read only terminology ключевые термины определены разделе для ключевых слов must must not should may required recommended применяется трактовка rfc похожие документы introduction сходство проекте сходство смотрите также introduction проекте adr federation over merging adr federation over merging",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 395,
+    "path": "docs/obsidian/02-anthropic-vacancies/06-1-introduction.md"
+  }
+}

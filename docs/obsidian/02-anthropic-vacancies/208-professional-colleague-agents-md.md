@@ -9,11 +9,26 @@ date: 2026-05-13
 
 # PROFESSIONAL COLLEAGUE AGENTS.md
 
+<!-- toc-auto -->
+## Contents
+
+- [PROFESSIONAL COLLEAGUE AGENTS.md](#professional-colleague-agentsmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [[249-composite-skills-agent-md]] (сходство 0.14)
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,7 +42,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[249-composite-skills-agent-md]] (сходство 0.14)
 - [[134-the-double-triangle-architecture-md]] (сходство 0.14)
 - [[273-infrastructure-for-ai-collaborative-intellectual-w]] (сходство 0.12)
@@ -88,9 +103,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PROFESSIONAL COLLEAGUE AGENTS md"
+```
+
+## Смотрите также
 - [[304-ingit-as-cowork-native-workspace-substrate-md]]
 - [[249-composite-skills-agent-md]]
 - [[151-open-knowledge-work-foundation-md]]
 - [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (25)
+- [[12-content-overview]]
+- [[13-angle-perspective]]
+- [[134-the-double-triangle-architecture-md]]
+- [[136-abstract]]
+- [[141-4-nautilus-portal-as-reference-substrate]]
+- [[145-8-call-to-action]]
+- [[150-appendix-c-version-history]]
+- [[151-open-knowledge-work-foundation-md]]
+- _...ещё 17_
 

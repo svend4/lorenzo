@@ -1,5 +1,12 @@
 # Ансамбль 5 — Agent Firewall
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -55,11 +62,32 @@ MCP Firewall — единая прослойка между агентом и в
 
 ---
 
-**Смотрите также:**
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [default-policy](docs/svyazi-2-0/security/default-policy.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 5 Agent Firewall"
+```
+
+## Смотрите также
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [default-policy](../../svyazi-2-0/security/default-policy.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -67,7 +95,7 @@ MCP Firewall — единая прослойка между агентом и в
 ---
 
 **Похожие документы:**
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.20)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.17)
-- [default-policy](docs/svyazi-2-0/security/default-policy.md) (сходство 0.16)
+- [5-agent-firewall](../../obsidian/ai-collaborations/ensembles/5-agent-firewall.md) (сходство 0.98)
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.21)
+- [04-memory-firewall-vs-prompt-worms](../../obsidian/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.21)
 

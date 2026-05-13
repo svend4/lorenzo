@@ -1,10 +1,27 @@
 # Комбинация 5: SourceCraft CLI × Claude Code × Sequential протокол Дочкиной
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: orchestration, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -51,19 +68,37 @@ Skills сохраняются в корпоративный граф знани�
 
 ---
 
-**Смотрите также:**
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [09-agent-orchestration-stack](docs/technology-combinations/combinations/09-agent-orchestration-stack.md)
-- [02-multiagentnyy-khaos-reshenie-auto-ai-router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
-- [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 5 SourceCraft CLI Claude"
+```
+
+## Смотрите также
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
+- [09-agent-orchestration-stack](09-agent-orchestration-stack.md)
+- [02-multiagentnyy-khaos-reshenie-auto-ai-router](02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
+- [16-adversarial-multi-agent-code-review](16-adversarial-multi-agent-code-review.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.30)
-- [02-knowledge-graphs](docs/obsidian/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.29)
-- [02-multiagentnyy-khaos-reshenie-auto-ai-router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) (сходство 0.20)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](../../obsidian/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.97)
+- [02-knowledge-graphs](../../obsidian/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.32)
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md) (сходство 0.31)
 

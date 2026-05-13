@@ -1,10 +1,26 @@
 # BrainBox — self-hosted multi-AI hub
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).
 
 ---
 <!-- tags: rag, local-first, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -59,11 +75,35 @@ Community knowledge: Zettelkasten + Лумановская иерархия + RA
 
 ---
 
-**Смотрите также:**
-- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
-- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
-- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "BrainBox self hosted multi AI hub"
+```
+
+## Смотрите также
+- [05-hw-nl2workflow](05-hw-nl2workflow.md)
+- 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
+- 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+
+_Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
+- [05-hw-nl2workflow](05-hw-nl2workflow.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -71,7 +111,7 @@ Community knowledge: Zettelkasten + Лумановская иерархия + RA
 ---
 
 **Похожие документы:**
-- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.24)
-- [02-vshe-scientific-networking](docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md) (сходство 0.23)
-- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) (сходство 0.21)
+- [03-brainbox-multi-ai-hub](../../obsidian/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md) (сходство 0.98)
+- [04-claude-subagents-patterns](../../obsidian/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.31)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md) (сходство 0.30)
 

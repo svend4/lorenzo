@@ -8,11 +8,26 @@ date: 2026-05-13
 
 # REVIEW_METHODOLOGY.md
 
+<!-- toc-auto -->
+## Contents
+
+- [REVIEW_METHODOLOGY.md](#review_methodologymd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Статус:** Активно применяется в проекте svend4/nautilus
 
 ---
 <!-- tags: collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,7 +48,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[03-portal-protocol-md]] (сходство 0.20)
 - [[73-portal-protocol-md-v1-1]] (сходство 0.17)
 - [[229-профессиональные-коллеги-агенты]] (сходство 0.17)
@@ -43,7 +58,13 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "REVIEW_METHODOLOGY md"
+```
+
+## Смотрите также
 - [[28-appendix-a-minimal-working-example]]
 - [[03-portal-protocol-md]]
 - [[42-author-contact]]
@@ -101,3 +122,19 @@ markdown
 - [[04-abstract|Abstract]] _25%_
 - [[123-portal-mcp-py|portal-mcp.py]] _25%_
 - [[190-содержание|Содержание]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (21)
+- [[03-portal-protocol-md]]
+- [[04-abstract]]
+- [[106-tl-dr]]
+- [[122-глоссарий]]
+- [[123-portal-mcp-py]]
+- [[125-readme-mcp-md-инструкция-по-установке]]
+- [[190-содержание]]
+- [[229-профессиональные-коллеги-агенты]]
+- _...ещё 13_
+

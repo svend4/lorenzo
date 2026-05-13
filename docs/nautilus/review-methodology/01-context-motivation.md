@@ -1,5 +1,20 @@
 # 1. Контекст и мотивация
 
+<!-- toc-auto -->
+## Contents
+
+- [1. Контекст и мотивация](#1-контекст-и-мотивация)
+  - [1.1. Рабочий процесс](#11-рабочий-процесс)
+  - [1.2. Проблема обычного merge](#12-проблема-обычного-merge)
+  - [1.3. Решение: сохранить оба, консолидировать позже](#13-решение-сохранить-оба-консолидировать-позже)
+- [Смотрите также](#смотрите-также)
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
@@ -70,11 +85,23 @@ third agent с явным контекстом обоих) создаёт фин
 
 ---
 
-**Смотрите также:**
-- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
-- [00-tldr](docs/nautilus/review-methodology/00-tldr.md)
-- [09-limitations-open-questions](docs/nautilus/review-methodology/09-limitations-open-questions.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+## Смотрите также
+- [107-1-контекст-и-мотивация](../../02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+- [00-tldr](00-tldr.md)
+- [09-limitations-open-questions](09-limitations-open-questions.md)
+- [10-checklist](10-checklist.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -82,7 +109,7 @@ third agent с явным контекстом обоих) создаёт фин
 ---
 
 **Похожие документы:**
-- [107-1-контекст-и-мотивация](docs/obsidian/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.78)
-- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.77)
-- [00-tldr](docs/nautilus/review-methodology/00-tldr.md) (сходство 0.19)
+- [01-context-motivation](../../obsidian/nautilus/review-methodology/01-context-motivation.md) (сходство 0.98)
+- [107-1-контекст-и-мотивация](../../02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.82)
+- [107-1-контекст-и-мотивация](../../obsidian/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.81)
 

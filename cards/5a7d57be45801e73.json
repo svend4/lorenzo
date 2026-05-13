@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:5a7d57be45801e73",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/06-adapter-interface.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/18-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/07-portal-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/16-mcp-extension.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:0383e377f23ff509",
+  "payload": {
+    "title": "6. Adapter Interface",
+    "summary": "Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс)",
+    "body": "adapter interface important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также adapter interface anthropic vacancies adapter interface adapter interface anthropic vacancies adapter interface portal entry portal entry mcp extension mcp extension",
+    "tags": [
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 327,
+    "path": "docs/nautilus/npp-v1-1/06-adapter-interface.md"
+  }
+}

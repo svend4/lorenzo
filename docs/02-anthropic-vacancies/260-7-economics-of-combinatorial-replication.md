@@ -1,5 +1,10 @@
 # 7. Economics of Combinatorial Replication
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The economics of Composite Skills Agents differ from both
 
 ---
@@ -169,7 +178,7 @@ funding or modest practitioner contribution.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.21)
 - [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md) (сходство 0.20)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.19)
@@ -179,7 +188,13 @@ funding or modest practitioner contribution.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Economics of Combinatorial Replication"
+```
+
+## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
@@ -215,3 +230,18 @@ funding or modest practitioner contribution.
 - [1. Why the Binary View Is Incomplete](254-1-why-the-binary-view-is-incomplete.md) _21%_
 - [3. What Makes a Composite Skills Agent](256-3-what-makes-a-composite-skills-agent.md) _21%_
 - [11. Open Questions](264-11-open-questions.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
+- [README](README.md)
+

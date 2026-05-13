@@ -1,5 +1,25 @@
 # Комбинация 34: Distributed Event Store with Paxos
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+
+<!-- tags: technology, distributed, consensus -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
@@ -56,19 +76,37 @@ ROI: Legal documents never lost, even with datacenter failure
 
 ---
 
-**Смотрите также:**
-- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 34 Distributed Event Store"
+```
+
+## Смотрите также
+- [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.28)
-- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md) (сходство 0.27)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.26)
+- [34-distributed-event-store-with-paxos](../../obsidian/technology-combinations/combinations/34-distributed-event-store-with-paxos.md) (сходство 0.96)
+- [31-35-final](../../obsidian/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.34)
+- [31-35-final](../synthesis-tables/31-35-final.md) (сходство 0.33)
 

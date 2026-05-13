@@ -1,10 +1,27 @@
 # Сводная таблица 20–24 (Final 1–24)
 
+<!-- toc-auto -->
+## Contents
+
+- [Рекомендация](#рекомендация)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «FINAL SYNTHESIS TABLE (Complete 1‑24)».
 
 ---
 <!-- tags: rag, orchestration, local-first -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -34,11 +51,35 @@
 
 ---
 
-**Смотрите также:**
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводная таблица 20 24 Final 1 24"
+```
+
+## Смотрите также
+- [24-mega-integration-full-stack](../combinations/24-mega-integration-full-stack.md)
+- [31-35-final](31-35-final.md)
+- [15-19-extended](15-19-extended.md)
+- [25-30-extended](25-30-extended.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](../combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+- [21-legal-corpus-analytics-at-scale](../combinations/21-legal-corpus-analytics-at-scale.md)
+- [22-russian-international-oss-stack](../combinations/22-russian-international-oss-stack.md)
+- _...ещё 6_
 
 
 <!-- similar-docs -->
@@ -46,7 +87,7 @@
 ---
 
 **Похожие документы:**
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.39)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.35)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.34)
+- [20-24-final](../../obsidian/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.98)
+- [24-mega-integration-full-stack](../combinations/24-mega-integration-full-stack.md) (сходство 0.43)
+- [24-mega-integration-full-stack](../../obsidian/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.43)
 

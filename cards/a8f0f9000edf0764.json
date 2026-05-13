@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:a8f0f9000edf0764",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/01-svyazi/11-integration-contracts.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:75202d982fcd4977",
+  "payload": {
+    "title": "11 integration contracts",
+    "summary": "Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели появятся три несовместимые сущности с названием “карточка”, два разных формата evidence и четыре нес",
+    "body": "абстракт авто проблема каждый skill или mcp mcp инструмент должен иметь класс доступа класс среды условия вызова postcondition подход любой retrieval ответ match suggestion profile enrichment или auto summary должен возвращать только текст sourceid page span box retrievalmethod confidence support результат это идеальная онтология минимальный договор который позволяет системам вообще разговаривать между собой ключевые слова контракт memory svyazi который через search проект agentfs чтобы все эти ансамбли рассыпались полезно зафиксировать минимальный интерфейсный контракт между слоями это заменяет будущую реализацию резко уменьшает риск того что через две недели проекты svyazi svyazi cardindex cardindex agentfs agentfs mclaude factory executive summary liteparse legal rag rag hybrid rag интеграционный контракт который стоит зафиксировать сразу чтобы все эти ансамбли рассыпались полезно зафиксировать минимальный интерфейсный контракт между слоями это заменяет будущую реализацию резко уменьшает риск того что через две недели появятся три несовместимые сущности названием карточка два разных формата evidence четыре несовместимых местоположения памяти первый контракт card envelope каждой карточки должен быть неизменяемый card card type статус raw normalized inferred approved rejected decayed список source links список relation edges временные метки хэш полезной нагрузки эта структура логически следует executive summary cardindex мышления svyazi immutable event style практик agentfs memory также необходимости разводить truth proposal memory системах это идеальная онтология минимальный договор который позволяет системам вообще разговаривать между собой cite turn search turn view turn view turn view второй контракт evidence envelope любой retrieval ответ match suggestion profile enrichment или auto summary должен возвращать только текст source page span box retrieval method confidence supporting nodes для документов это page box для чатов заметок message thread time span для голосовых эпизодов timestamp window для ассоциативных выводов список triggered nodes path explanation это прямой синтез executive summary liteparse research docs legal rag hybrid rag graph rag без такого формата нельзя построить нормальную ручную модерацию объяснение рекомендации cite turn view turn view turn view turn view третий контракт memory write policy система должна различать хотя четыре режима записи episode для сырых наблюдений fact для подтверждённого знания proposal для гипотез decay event для понижения значимости yodoca yodoca уже мыслит память через consolidation forgetting ngt ngt memory через ассоциативные связи иерархическую консолидацию agent memory mcp через typed memory primitives memory через temporal provenance heavy представление знаний этих линий следует что записать что память никогда должно быть одной неразличимой операцией cite turn view turn view turn view turn view четвёртый контракт skill and tool policy каждый skill или mcp mcp инструмент должен иметь класс доступа класс среды условия вызова postcondition простейшее разбиение read annotate plan mutate publish external send это дополняет tool search который экономит контекст сам себе задаёт governance litellm auto router которые управляют провайдерами правами sentinel sentinel который контролирует угрозы выигрывает того что политика уже структурирована размазана промптам cite turn view turn search turn view turn view ниже упрощённая интеграционная спецификация которую реально можно внедрить mvp без чрезмерной формализации контракт минимальные поля зачем нужен mvp какие идеи опирается card envelope card card type state sources edges updated payload hash единый source truth dedup version trace svyazi agentfs memory cite turn search turn view turn view evidence envelope source page span bbox offset method confidence supporting nodes проверяемость выводов ручной review liteparse legal rag hybrid graph rag cite turn view turn view turn view turn view memory write policy write type promotion rule review required decay policy развести факт эпизод гипотезу yodoca ngt memory agent memory mcp cite turn view turn view turn view skill policy tool class approval mode path scope network scope output target снизить blast radius упростить audit tool search sentinel factory practices cite turn view turn view turn search review record reviewer role decision reason evidence refs follow путать machine suggestion accepted truth mclaude factory sequential cite turn view turn view turn view похожие документы интеграционный контракт который стоит зафиксироват сходство intro part технический stack svyazi foundation docs anthropic vacancies технический stack svyazi foundation сходство архитектурные зазоры которые важнее новых инструме сходство смотрите также интеграционный контракт который стоит зафиксироват intro part технический stack svyazi foundation docs anthropic vacancies технический stack svyazi foundation intro part architectural gaps architectural gaps архитектурные зазоры которые важнее новых инструме mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp svyazi главный проект экосистема компонентов",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 748,
+    "path": "docs/obsidian/01-svyazi/11-integration-contracts.md"
+  }
+}

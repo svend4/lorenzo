@@ -1,5 +1,10 @@
 # Графы знаний и Legal AI
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -11,18 +16,18 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller)
-**Проекты:** Yodoca, Auto AI Router, [AutoResearch](../docs/01-svyazi/01-executive-summary.md)
+**Проекты:** Yodoca, Auto AI Router, [AutoResearch](../01-svyazi/01-executive-summary.md)
 
 ---
 
 <!-- toc -->
 ## Содержание
 
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 
@@ -67,7 +72,7 @@
 - Всё локально, никаких API-ключей
 - LCI контролирует когерентность агента
 Применение: legal AI на собственном железе без отправки данных наружу. GDPR-compliant, RISC-V-ready.
-6.2 [AutoResearch](../docs/01-svyazi/01-executive-summary.md) loop с геометрическим роутингом AutoResearch Карпатого + Q6-роутер + ZINC:
+6.2 [AutoResearch](../01-svyazi/01-executive-summary.md) loop с геометрическим роутингом AutoResearch Карпатого + Q6-роутер + ZINC:
 - Ночью агент крутит эксперименты с промптами
 - Роутер геометрически выбирает, какой эксперт подходит для данного типа задач
 - Лучший промпт сохраняется, LCI отслеживает стабильность
@@ -105,18 +110,35 @@
 
 ---
 
-**Похожие документы:**
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md) (сходство 0.14)
-- [03-local-first](docs/03-technology-combinations/03-local-first.md) (сходство 0.11)
+## Похожие документы
+- [05-benchmarks](05-benchmarks.md) (сходство 0.14)
+- [03-local-first](03-local-first.md) (сходство 0.11)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Графы знаний и Legal AI"
+```
+
+## Смотрите также
+- [05-benchmarks](05-benchmarks.md)
+- [03-local-first](03-local-first.md)
+- [01-agent-routing](01-agent-routing.md)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [01-agent-routing](01-agent-routing.md)
+- [03-local-first](03-local-first.md)
+- [05-benchmarks](05-benchmarks.md)
+- [README](README.md)
 

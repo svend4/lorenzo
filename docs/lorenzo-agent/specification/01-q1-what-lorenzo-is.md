@@ -1,10 +1,26 @@
 # Question 1: Что Lorenzo фундаментально такое? (Framings A–D)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -82,11 +98,31 @@ Avoids autonomy controversies while preserving brand benefits
 
 ---
 
-**Смотрите также:**
-- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
-- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
-- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)
-- [06-q6-accountability](docs/lorenzo-agent/specification/06-q6-accountability.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 1 Что Lorenzo фундаментально"
+```
+
+## Смотрите также
+- 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
+- [05-q5-authority-limits](05-q5-authority-limits.md)
+- [06-q6-accountability](06-q6-accountability.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -94,7 +130,7 @@ Avoids autonomy controversies while preserving brand benefits
 ---
 
 **Похожие документы:**
-- [06-q6-accountability](docs/lorenzo-agent/specification/06-q6-accountability.md) (сходство 0.22)
-- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.22)
-- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md) (сходство 0.22)
+- [01-q1-what-lorenzo-is](../../obsidian/lorenzo-agent/specification/01-q1-what-lorenzo-is.md) (сходство 0.99)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md) (сходство 0.28)
+- [06-q6-accountability](../../obsidian/lorenzo-agent/specification/06-q6-accountability.md) (сходство 0.28)
 

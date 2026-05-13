@@ -11,25 +11,40 @@ date: 2026-05-13
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
-- [3. Registry (`nautilus.json`)](#3-registry-nautilusjson)
+- 3. Registry (`[nautilus.json`)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
   - [3.4. Optional Fields](#34-optional-fields)
   - [3.5. Validation Rules](#35-validation-rules)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 
 
-<!-- toc-auto -->
-## Contents
-
-- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
+  - [3.1. Purpose](#31-purpose)
+  - [3.2. Schema](#32-schema)
+  - [3.3. Required Fields](#33-required-fields)
+  - [3.4. Optional Fields](#34-optional-fields)
+  - [3.5. Validation Rules](#35-validation-rules)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
@@ -47,8 +62,6 @@ date: 2026-05-13
 
 ---
 <!-- tags: architecture -->
-
-
 
 
 ## 3. Registry (`nautilus.json`)
@@ -129,7 +142,7 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.52)
 - [[07-2-terminology]] (сходство 0.16)
 - [[77-2-terminology]] (сходство 0.15)
@@ -139,9 +152,21 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[memnet|78-3-registry-[nautilus]]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [[82-7-portalentry-structure]]
 - [[19-7-portalentry-structure]]
 - [[07-2-terminology]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [[09-4-passport-passport-md]]
+- [[109-3-принципы-консолидации-фаза-c]]
+- [[18-6-adapter-interface]]
+- [[74-abstract]]
+- [[README]]
 

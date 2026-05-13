@@ -6,18 +6,6 @@
 h1. The Two-Layer Stack As It Exists
 
 
-h2. Содержание
-
-* [The Two-Layer Stack As It Exists|#the-two-layer-stack-as-it-exists]
-* [Упоминается в|#упоминается-в]
-* [Упоминается в|#упоминается-в]
-* [Связанные документы|#связанные-документы]
-* [Связанные документы|#связанные-документы]
-
-----
-
-
-
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ The problem is what happens between them.{quote}
@@ -62,7 +50,7 @@ products from other providers). Excellent for creative dialogue,
 exploration, generating content. The natural creative space. 
 Linear by structure.
 
-_Layer C — Code repositories._ [GitHub|../docs/01-svyazi/03-component-catalog.md], GitLab, Codeberg. 
+_Layer C — Code repositories._ [GitHub|../01-svyazi/03-component-catalog.md], GitLab, Codeberg. 
 Excellent for storing structured artifacts, version control, 
 collaboration around technical artifacts. Branching, merging, 
 issues, discussions. Code-oriented by design.
@@ -100,7 +88,7 @@ infrastructure that does not exist as a unified product.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [279-existing-approximations|279-existing-approximations.md] (сходство 0.19)
 * [275-why-this-document-exists|275-why-this-document-exists.md] (сходство 0.18)
 * [280-the-specific-case-in-front-of-us|280-the-specific-case-in-front-of-us.md] (сходство 0.18)
@@ -110,7 +98,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "The Two Layer Stack As It Exists"
+{code}
+
+h2. Смотрите также
 * [279-existing-approximations|279-existing-approximations.md]
 * [280-the-specific-case-in-front-of-us|280-the-specific-case-in-front-of-us.md]
 * [275-why-this-document-exists|275-why-this-document-exists.md]
@@ -155,3 +149,19 @@ h2. Связанные документы
 * [Existing Approximations|279-existing-approximations.md] _29%_
 * [What This Document Doesn't Solve|283-what-this-document-doesn-t-solve.md] _29%_
 * [Acknowledgments|286-acknowledgments.md] _29%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* [218-7-application-domains|218-7-application-domains.md]
+* [275-why-this-document-exists|275-why-this-document-exists.md]
+* [277-what-s-missing-layer-b|277-what-s-missing-layer-b.md]
+* [278-why-this-hasn-t-been-built|278-why-this-hasn-t-been-built.md]
+* [280-the-specific-case-in-front-of-us|280-the-specific-case-in-front-of-us.md]
+* [282-what-industry-will-likely-build|282-what-industry-will-likely-build.md]
+* [283-what-this-document-doesn-t-solve|283-what-this-document-doesn-t-solve.md]
+* [284-practical-recommendations-for-the-current-project|284-practical-recommendations-for-the-current-project.md]
+* _...ещё 2_
+

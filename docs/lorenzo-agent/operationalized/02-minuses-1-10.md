@@ -1,5 +1,23 @@
 # Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -191,11 +209,32 @@ If Lorenzo becomes pure tool-building exercise, original mission slips.
 
 ---
 
-**Смотрите также:**
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Минусы 1 10 integration сложность"
+```
+
+## Смотрите также
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [04-recommendations](04-recommendations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -203,7 +242,7 @@ If Lorenzo becomes pure tool-building exercise, original mission slips.
 ---
 
 **Похожие документы:**
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.28)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.28)
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) (сходство 0.20)
+- [02-minuses-1-10](../../obsidian/lorenzo-agent/operationalized/02-minuses-1-10.md) (сходство 0.99)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.28)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.28)
 

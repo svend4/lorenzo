@@ -1,9 +1,13 @@
 # 6. Governance and Ethics
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [6. Governance and Ethics](#6-governance-and-ethics)
   - [6.1. Governance Structure](#61-governance-structure)
   - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
@@ -15,6 +19,10 @@
 
 <!-- tags: roadmap, anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -23,17 +31,6 @@
 > 🔧 **Подход:** Disability rights (all jurisdictions): Infrastructure explicitly designed for accessibility.
 > 🏷️ **Ключевые слова:** `contributor`, `foundation`, `governance`, `commitment`, `anthropic`, `vacancies`, `ethical`, `compliance`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [6. Governance and Ethics](#6-governance-and-ethics)
-  - [6.1. Governance Structure](#61-governance-structure)
-  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
-  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
-  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
-  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
 
 
 <!-- summary -->
@@ -148,19 +145,35 @@ Foundation will not:
 
 ---
 
-**Похожие документы:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.14)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.11)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.11)
+## Похожие документы
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.14)
+- [164-10-appendices](164-10-appendices.md) (сходство 0.11)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.11)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Governance and Ethics"
+```
+
+## Смотрите также
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [164-10-appendices](164-10-appendices.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [164-10-appendices](164-10-appendices.md)
+- [README](README.md)
 

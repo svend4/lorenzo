@@ -1,10 +1,37 @@
 # 00 Intro
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».
 
 ---
 <!-- tags: architecture, anthropic, collaboration -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 
 
 
@@ -114,11 +141,30 @@ markdown
 
 ---
 
-**Смотрите также:**
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
-- [289-инфраструктура-для-ai-совместной-интеллектуальной-](docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
-- [324-ingit-как-cowork-интегрированная-подложка-рабочего](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
-- [12-blagodarnosti-ssylki](docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "00 Intro"
+```
+
+## Смотрите также
+- [288-appendix-position-in-series-visualization](../../02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
+- [289-инфраструктура-для-ai-совместной-интеллектуальной-](../../02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
+- [324-ingit-как-cowork-интегрированная-подложка-рабочего](../../02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
+- [12-blagodarnosti-ssylki](12-blagodarnosti-ssylki.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [12-blagodarnosti-ssylki](12-blagodarnosti-ssylki.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -126,7 +172,7 @@ markdown
 ---
 
 **Похожие документы:**
-- [288-appendix-position-in-series-visualization](docs/obsidian/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.40)
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.38)
-- [289-инфраструктура-для-ai-совместной-интеллектуальной-](docs/obsidian/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md) (сходство 0.29)
+- [00-intro](../../obsidian/nautilus/infrastructure-layer-b-ru/00-intro.md) (сходство 0.99)
+- [288-appendix-position-in-series-visualization](../../02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.39)
+- [288-appendix-position-in-series-visualization](../../obsidian/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.39)
 

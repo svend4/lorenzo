@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:e4607d23160e955d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:a34f69db8c563015",
+  "payload": {
+    "title": "PORTAL-PROTOCOL.md v1.1",
+    "summary": "",
+    "body": "portal protocol status draft пересмотрен под текущую реализацию portal protocol markdown nautilus portal protocol version draft status draft пересмотрен под текущую реализацию author svend editorial review claude ассистирующий анализ previous version portal protocol portal protocol license документация mit reference implementation date похожие документы portal protocol сходство mediated representation for underrepresented сходство formal model for human collaboration distr сходство смотрите также portal protocol coordinated infrastructure for distributed expe formal model for human collaboration distr mediated representation for underrepresented упоминается reference implementation reference implementation formal model for human collaboration distr formal model for human collaboration distributed knowledge work coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations author contact author contact portal protocol portal protocol readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology references references references references readme вакансии anthropic анализ кластерам ссылки ссылки упоминается readme вакансии anthropic анализ кластерам связанные документы portal protocol portal protocol coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution formal model for human collaboration distr formal model for human collaboration distributed knowledge work author contact author contact mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations readme mcp инструкция установке readme mcp инструкция установке appendices appendices связанные документы portal protocol portal protocol coordinated infrastructure for distributed expe coordinated infrastructure for distributed expert contribution formal model for human collaboration distr formal model for human collaboration distributed knowledge work mediated representation for underrepresented mediated representation for underrepresented experts and vulnerable populations author contact author contact status this document status this document review methodology review methodology readme mcp инструкция установке readme mcp инструкция установке",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 291,
+    "path": "docs/obsidian/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md"
+  }
+}

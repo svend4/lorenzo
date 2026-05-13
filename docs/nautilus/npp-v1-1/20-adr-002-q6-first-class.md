@@ -1,10 +1,27 @@
 # 20. ADR-002: Q6 as First-Class Protocol Concept
 
+<!-- toc-auto -->
+## Contents
+
+- [20. ADR-002: Q6 as First-Class Protocol Concept](#20-adr-002-q6-as-first-class-protocol-concept)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 <!-- tags: anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -44,11 +61,34 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 
 ---
 
-**Смотрите также:**
-- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
-- [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "20 ADR 002 Q6 as First Class Protocol"
+```
+
+## Смотрите также
+- [95-20-adr-002-q6-as-first-class-protocol-concept](../../02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+- [14-sdk](14-sdk.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [14-adr-001-federation-over-merging](../npp-v1-0/14-adr-001-federation-over-merging.md)
+- [08-q6-space](08-q6-space.md)
+- [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -56,7 +96,7 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 ---
 
 **Похожие документы:**
-- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.70)
-- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.69)
-- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md) (сходство 0.27)
+- [20-adr-002-q6-first-class](../../obsidian/nautilus/npp-v1-1/20-adr-002-q6-first-class.md) (сходство 0.98)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](../../02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.66)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](../../obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.66)
 

@@ -1,11 +1,37 @@
 # Ансамбль 1 — Agentic Knowledge OS
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** Svyazi, AgentFS, knowledge-space
 
 ---
 <!-- tags: memory, rag, knowledge, ingestion, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -46,11 +72,33 @@ Legal/Research Case OS — каждое дело, научная гипотез�
 
 ---
 
-**Смотрите также:**
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
-- [4-web-to-knowledge-pipeline](docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
-- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 1 Agentic Knowledge OS"
+```
+
+## Смотрите также
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-shared-memory-between-agents](../continuation/01-shared-memory-between-agents.md)
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+- _...ещё 7_
 
 
 <!-- similar-docs -->
@@ -58,7 +106,7 @@ Legal/Research Case OS — каждое дело, научная гипотез�
 ---
 
 **Похожие документы:**
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.18)
-- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md) (сходство 0.18)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.17)
+- [1-agentic-knowledge-os](../../obsidian/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.98)
+- [9-ambient-team-agent](9-ambient-team-agent.md) (сходство 0.23)
+- [9-ambient-team-agent](../../obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.23)
 

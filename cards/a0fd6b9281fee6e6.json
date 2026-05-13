@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:a0fd6b9281fee6e6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:33294a81e1600738",
+  "payload": {
+    "title": "Пассивный vs активный: разделение ролей (библиотека vs research team)",
+    "summary": "Сначала разделение ролей: пассивный vs активный",
+    "body": "пассивный активный разделение ролей библиотека research team источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ комбинирования пассивного nautilus активным camel framework смотрите также question camel nautilus question camel nautilus difference federation missing hermes comparison difference federation missing appendix change log nautilus npp appendix change log sgb advocate colleague example sgb advocate colleague example",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 176,
+    "path": "docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md"
+  }
+}

@@ -1,5 +1,12 @@
 # Синтез: хеббовский граф людей-навыков-идей
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -31,11 +38,35 @@
 
 ---
 
-**Смотрите также:**
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
-- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Синтез хеббовский граф людей навыков"
+```
+
+## Смотрите также
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
+- [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
+- [02-related-projects-context](02-related-projects-context.md)
+- [01-three-key-candidates](01-three-key-candidates.md)
+
+_Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-related-projects-context](02-related-projects-context.md)
+- [README](README.md)
+- [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -43,7 +74,7 @@
 ---
 
 **Похожие документы:**
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.50)
-- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.18)
-- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.18)
+- [03-synthesis-hebbian-collaboration-graph](../../obsidian/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md) (сходство 0.97)
+- [02-related-projects](../../obsidian/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.48)
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md) (сходство 0.48)
 

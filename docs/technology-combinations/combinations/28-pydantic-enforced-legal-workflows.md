@@ -1,10 +1,27 @@
 # Комбинация 28: Pydantic-Enforced Legal Workflows
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag, orchestration, ingestion, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -70,19 +87,37 @@ ROI: Type-safe legal automation, catches errors before human review
 
 ---
 
-**Смотрите также:**
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
-- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
-- [23-security-first-code-review-pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 28 Pydantic Enforced Legal"
+```
+
+## Смотрите также
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+- 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
+- [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+
+_Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.30)
-- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md) (сходство 0.28)
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md) (сходство 0.28)
+- [28-pydantic-enforced-legal-workflows](../../obsidian/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.96)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md) (сходство 0.37)
+- [10-legal-document-intelligence-pipeline](../../obsidian/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.36)
 

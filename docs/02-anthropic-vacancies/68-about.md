@@ -1,9 +1,14 @@
 # 🇬🇧 About
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
-> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
+> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(03-portal-protocol-md.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
 > 🔧 **Подход:** - 0: Discoverable — declared in registry only - 1: Readable — has passport + describe() method - 2: Queryable — implements fetch(query) — search works - 3: Interactive — translatet
 > ✅ **Результат:** Reports always show attribution — which repo each result came from.
 > 🏷️ **Ключевые слова:** `nautilus`, `portal`, `protocol`, `reference`, `https`, `anthropic`, `svend`, `passports`
@@ -11,6 +16,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Nautilus is a **federation protocol** and reference implementation
 
 ---
@@ -27,7 +36,7 @@
   - [Compatibility Levels](#compatibility-levels)
   - [Documentation](#documentation)
   - [Project Status](#project-status)
-  - [Why "Nautilus"?](#why-[nautilus](../docs/05-habr-projects/memory/memnet.md))
+  - [Why "Nautilus"?](#why-nautilus)
   - [Related Work](#related-work)
   - [Licenses](#licenses)
   - [Contact](#contact)
@@ -101,7 +110,7 @@ python portal.py --serve
 
 **Minimal (Level 0–1, 5 minutes):**
 
-1. Place `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` in your repo's root:
+1. Place `[nautilus](../05-habr-projects/memory/memnet.md).json` in your repo's root:
 
 ```json
 {
@@ -117,15 +126,15 @@ python portal.py --serve
 ```
 
 2. Write `passport.md` — a one-page description (see templates in 
-   [`passports/`](./passports/))
+   `passports/`)
 
 **Full (Level 2–3, a few hours):**
 
 3. Add an adapter in `adapters/my_repo.py` implementing the 
-   `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` interface (see 
-   [PORTAL-PROTOCOL.md §6](./PORTAL-PROTOCOL.md#6-adapter-interface))
+   `[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)` interface (see 
+   [PORTAL-PROTOCOL.md §6](03-portal-protocol-md.md#6-adapter-interface))
 
-4. Register the repo in the portal's root `[nautilus](../docs/05-habr-projects/memory/memnet.md).json`
+4. Register the repo in the portal's root `[nautilus](../05-habr-projects/memory/memnet.md).json`
 
 ### How It Works
 
@@ -162,16 +171,16 @@ day one.
 - **3: Interactive** — `translate_to()` — cross-repo translations 
   via bridges
 
-Details in [PORTAL-PROTOCOL.md §5](./PORTAL-PROTOCOL.md#5-compatibility-levels).
+Details in [PORTAL-PROTOCOL.md §5](03-portal-protocol-md.md#5-compatibility-levels).
 
 ### Documentation
 
-- **[PORTAL-PROTOCOL.md](./PORTAL-PROTOCOL.md)** — formal v1.0 
+- **[PORTAL-PROTOCOL.md](03-portal-protocol-md.md)** — formal v1.0 
   specification (15 pages)
-- **[passports/](./passports/)** — human-readable repo descriptions
-  - [info1](./passports/info1.md)
-  - [pro2](./passports/pro2.md)
-  - [meta](./passports/meta.md)
+- **`passports/`** — human-readable repo descriptions
+  - `info1`
+  - `pro2`
+  - `meta`
 - **Issues** — questions, proposals, bug reports
 
 ### Project Status
@@ -191,7 +200,7 @@ v1.0.0-stable.
 
 ### Why "Nautilus"?
 
-A [nautilus](../docs/05-habr-projects/memory/memnet.md) shell is a **spiral of nested chambers**, each larger 
+A [nautilus](../05-habr-projects/memory/memnet.md) shell is a **spiral of nested chambers**, each larger 
 than the last but built on the same geometry. This is *fractal 
 scaling with preserved proportion*. Nautilus Protocol embodies the 
 same pattern: repos nested inside an ecosystem, each self-contained 
@@ -220,7 +229,7 @@ consensus-based validation across repos.
 - **Documentation** (README, PORTAL-PROTOCOL, passports): 
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - **Code** (portal, adapters, glyph_adapter): 
-  [MIT](./LICENSE)
+  [MIT](README.md)
 
 ### Contact
 
@@ -233,19 +242,35 @@ consensus-based validation across repos.
 
 ---
 
-**Похожие документы:**
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.17)
-- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.12)
+## Похожие документы
+- [67-о-проекте](67-о-проекте.md) (сходство 0.17)
+- [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+## Смотрите также
+- [67-о-проекте](67-о-проекте.md)
+- [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [164-10-appendices](164-10-appendices.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [164-10-appendices](164-10-appendices.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [42-author-contact](42-author-contact.md)
+- [67-о-проекте](67-о-проекте.md)
+- _...ещё 2_
 

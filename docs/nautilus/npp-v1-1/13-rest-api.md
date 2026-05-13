@@ -1,5 +1,34 @@
 # 13. REST API Contract (Normative for Portals)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
+  - [13.1. Required Endpoints](#131-required-endpoints)
+  - [13.2. Recommended Endpoints](#132-recommended-endpoints)
+  - [13.3. Response Schemas](#133-response-schemas)
+  - [13.4. CORS](#134-cors)
+  - [13.5. OpenAPI Specification](#135-openapi-specification)
+  - [13.6. Error Responses](#136-error-responses)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [13. REST API Contract (Normative for Portals)](#13-rest-api-contract-normative-for-portals)
+  - [13.1. Required Endpoints](#131-required-endpoints)
+  - [13.2. Recommended Endpoints](#132-recommended-endpoints)
+  - [13.3. Response Schemas](#133-response-schemas)
+  - [13.4. CORS](#134-cors)
+  - [13.5. OpenAPI Specification](#135-openapi-specification)
+  - [13.6. Error Responses](#136-error-responses)
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -141,11 +170,24 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 
 ---
 
-**Смотрите также:**
-- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+## Смотрите также
+- [88-13-rest-api-contract-normative-for-portals](../../02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
+- [07-portal-entry](07-portal-entry.md)
+- [17-versioning-policy](17-versioning-policy.md)
+- [06-adapter-interface](06-adapter-interface.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [08-q6-space](08-q6-space.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -153,7 +195,7 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 ---
 
 **Похожие документы:**
-- [88-13-rest-api-contract-normative-for-portals](docs/obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) (сходство 0.77)
-- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) (сходство 0.74)
-- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md) (сходство 0.24)
+- [13-rest-api](../../obsidian/nautilus/npp-v1-1/13-rest-api.md) (сходство 0.98)
+- [88-13-rest-api-contract-normative-for-portals](../../obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) (сходство 0.75)
+- [88-13-rest-api-contract-normative-for-portals](../../02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) (сходство 0.75)
 

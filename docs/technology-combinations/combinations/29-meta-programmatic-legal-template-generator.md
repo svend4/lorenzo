@@ -1,10 +1,26 @@
 # Комбинация 29: Meta-Programmatic Legal Template Generator
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -65,11 +81,35 @@ ROI: Write once, deploy everywhere
 
 ---
 
-**Смотрите также:**
-- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 29 Meta Programmatic Legal"
+```
+
+## Смотрите также
+- [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [13-legal-document-transpiler](13-legal-document-transpiler.md)
+- [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
+- [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -77,7 +117,7 @@ ROI: Write once, deploy everywhere
 ---
 
 **Похожие документы:**
-- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md) (сходство 0.30)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.28)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.27)
+- [29-meta-programmatic-legal-template-generator](../../obsidian/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md) (сходство 0.97)
+- [25-30-extended](../../obsidian/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.38)
+- [25-30-extended](../synthesis-tables/25-30-extended.md) (сходство 0.38)
 

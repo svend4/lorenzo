@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:152e8d265296b7d4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/53-history.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:1870043fbb8d2ce6",
+  "payload": {
+    "title": "History",
+    "summary": "hexagrams onto Wolfram's Elementary Cellular Automata» (совместно",
+    "body": "history создан дата первого коммита history создан дата первого коммита ключевые этапы формирование концептуальной базы embedded версия nautilus portal подпапке memnet nautilus март миграция portal отдельный репо github com svend nautilus март yijing transformer январь апрель провал archetypal interlingua подхода урок trit proj bottleneck убивает градиент переход routing направление развития arxiv preprint yijing transformer формальным описанием moe заполнение оставшихся вершин графа конкретными концептами публичный демо nautilusmome huggingface hub возможная публикация projection mapping ching hexagrams onto wolfram elementary cellular automata совместно meta репо похожие документы history сходство content overview сходство смотрите также content overview history author contact history упоминается status this document status this document content overview content overview history history history history readme вакансии anthropic анализ кластерам упоминается readme вакансии anthropic анализ кластерам связанные документы content overview content overview status this document status this document reference implementation reference implementation author contact author contact status this document status this document reference implementation reference implementation author contact author contact реализация проекте nautilus реализация проекте nautilus связанные документы content overview content overview status this document status this document reference implementation reference implementation author contact author contact history history status this document status this document reference implementation reference implementation author contact author contact",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 283,
+    "path": "docs/obsidian/02-anthropic-vacancies/53-history.md"
+  }
+}

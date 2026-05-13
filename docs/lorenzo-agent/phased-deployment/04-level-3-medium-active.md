@@ -1,11 +1,27 @@
 # Уровень 3 — Средний (Lorenzo Active)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
 **Проекты:** CardIndex
 
 ---
 <!-- tags: knowledge, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -62,11 +78,35 @@ Synthesis quality зависит от model capabilities
 
 ---
 
-**Смотрите также:**
-- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
-- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md)
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
-- [02-level-1-minimal-zero](docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Уровень 3 Средний Lorenzo Active"
+```
+
+## Смотрите также
+- [03-level-2-basic-lite](03-level-2-basic-lite.md)
+- [05-level-4-extended-mature](05-level-4-extended-mature.md)
+- [01-level-0-manual](01-level-0-manual.md)
+- [02-level-1-minimal-zero](02-level-1-minimal-zero.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-level-1-minimal-zero](02-level-1-minimal-zero.md)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md)
+- [05-level-4-extended-mature](05-level-4-extended-mature.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -74,7 +114,7 @@ Synthesis quality зависит от model capabilities
 ---
 
 **Похожие документы:**
-- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.30)
-- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md) (сходство 0.26)
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md) (сходство 0.25)
+- [04-level-3-medium-active](../../obsidian/lorenzo-agent/phased-deployment/04-level-3-medium-active.md) (сходство 0.98)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md) (сходство 0.40)
+- [03-level-2-basic-lite](../../obsidian/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.39)
 

@@ -1,32 +1,21 @@
 # 1. Introduction
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [1. Introduction](#1-introduction)
   - [1.1. Motivation](#11-motivation)
   - [1.2. Design Goals](#12-design-goals)
   - [1.3. Non-Goals](#13-non-goals)
   - [1.4. Terminology](#14-terminology)
   - [1.5. Changes from v1.0](#15-changes-from-v10)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [1. Introduction](#1-introduction)
-  - [1.1. Motivation](#11-motivation)
-  - [1.2. Design Goals](#12-design-goals)
-  - [1.3. Non-Goals](#13-non-goals)
-  - [1.4. Terminology](#14-terminology)
-  - [1.5. Changes from v1.0](#15-changes-from-v10)
 
 
 <!-- summary -->
@@ -61,10 +50,10 @@ NPP предлагает альтернативу: **федеративную м
 Протокол спроектирован так, чтобы одновременно достичь:
 
 - **Low barrier to entry**: подключение существующего репо к федерации 
-  занимает не более 5 минут (один файл `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне + 
+  занимает не более 5 минут (один файл `[nautilus](../05-habr-projects/memory/memnet.md).json` в корне + 
   опциональный passport)
 - **Five onboarding paths**: от ручного адаптера до полностью 
-  автоматической регистрации через [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions webhook
+  автоматической регистрации через [GitHub](../01-svyazi/03-component-catalog.md) Actions webhook
 - **Local autonomy**: каждый репо остаётся функциональным без портала
 - **Progressive enhancement**: репо может подключиться на Level 0 и 
   дорастать до Level 3 без переделки
@@ -102,7 +91,7 @@ NPP **не** пытается:
   стратегии (раздел 12)
 - **REST API контракт** сделан mandatory для совместимых порталов 
   (раздел 13)
-- **`is_fallback`** поле добавлено в [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) как нормативное
+- **`is_fallback`** поле добавлено в [PortalEntry](01-интегральный-анализ-профиля-svend4.md) как нормативное
 - **Консенсус-модель** расширена: различаются `coverage` (только real) 
   и `coverage_with_fallback` (раздел 9)
 - **Passport schema** формализована в `passport_schema.json` (раздел 4)
@@ -114,19 +103,36 @@ NPP **не** пытается:
 
 ---
 
-**Похожие документы:**
-- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md) (сходство 0.53)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.14)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md) (сходство 0.13)
+## Похожие документы
+- [06-1-introduction](06-1-introduction.md) (сходство 0.53)
+- [67-о-проекте](67-о-проекте.md) (сходство 0.14)
+- [74-abstract](74-abstract.md) (сходство 0.13)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Introduction"
+```
+
+## Смотрите также
+- [06-1-introduction](06-1-introduction.md)
+- [74-abstract](74-abstract.md)
+- [67-о-проекте](67-о-проекте.md)
+- [77-2-terminology](77-2-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [67-о-проекте](67-о-проекте.md)
+- [74-abstract](74-abstract.md)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
+- [README](README.md)
 

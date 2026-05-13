@@ -3,32 +3,16 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [8. Q6 Space (Normative)](#8-q6-space-normative)
   - [8.1. Definition](#81-definition)
   - [8.2. Mandatory for Level 2+](#82-mandatory-for-level-2)
   - [8.3. Q6 Mapping Rules](#83-q6-mapping-rules)
   - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
   - [8.5. CA-Class Mapping (Informative)](#85-ca-class-mapping-informative)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 
 <!-- tags: ingestion, architecture, anthropic -->
-
-
-<!-- toc-auto -->
-## Contents
-
-- [8. Q6 Space (Normative)](#8-q6-space-normative)
-  - [8.1. Definition](#81-definition)
-  - [8.2. Mandatory for Level 2+](#82-mandatory-for-level-2)
-  - [8.3. Q6 Mapping Rules](#83-q6-mapping-rules)
-  - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
-  - [8.5. CA-Class Mapping (Informative)](#85-ca-class-mapping-informative)
 
 
 > [!IMPORTANT]
@@ -54,7 +38,7 @@ Q6 — 6-мерное бинарное пространство {0,1}⁶. Сод
 ### 8.2. Mandatory for Level 2+
 
 Адаптеры Level 2 и выше MUST обеспечивать Q6-координату в каждом 
-[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) через `metadata["q6"]`.
+[PortalEntry](01-интегральный-анализ-профиля-svend4.md) через `metadata["q6"]`.
 
 ### 8.3. Q6 Mapping Rules
 
@@ -126,17 +110,29 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 
 ---
 
-**Похожие документы:**
-- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.11)
+## Похожие документы
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.11)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
+## Смотрите также
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](README.md)
 

@@ -1,5 +1,10 @@
 # 7. Phased Rollout Plan
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - Establish legal entity (non-profit foundation in Germany or
 
 ---
@@ -148,7 +157,7 @@ qualified individuals regardless of traditional constraints.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [159-5-economic-model](159-5-economic-model.md) (сходство 0.18)
 - [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.17)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.16)
@@ -158,7 +167,13 @@ qualified individuals regardless of traditional constraints.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Phased Rollout Plan"
+```
+
+## Смотрите также
 - [159-5-economic-model](159-5-economic-model.md)
 - [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -194,3 +209,15 @@ qualified individuals regardless of traditional constraints.
 - [6. Governance and Ethics](160-6-governance-and-ethics.md) _17%_
 - [11. Call for Collaboration](180-11-call-for-collaboration.md) _17%_
 - [4. The Sub-Agent Registry](257-4-the-sub-agent-registry.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [153-executive-summary](153-executive-summary.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [README](README.md)
+

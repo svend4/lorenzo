@@ -1,10 +1,27 @@
 # PDA-бот — «LLM как периферия»
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 
 ---
 <!-- tags: orchestration, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +44,28 @@ https://habr.com/ru/articles/1017200/
 
 ---
 
-**Смотрите также:**
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PDA бот LLM как периферия"
+```
+
+## Смотрите также
+- 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
+- [02-memnet](02-memnet.md)
+- [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -39,7 +73,7 @@ https://habr.com/ru/articles/1017200/
 ---
 
 **Похожие документы:**
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.21)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.17)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.15)
+- [03-pda-llm-as-periphery](../../obsidian/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md) (сходство 0.95)
+- [8-self-aware-mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.24)
+- [8-self-aware-mcp-specs](../../obsidian/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.23)
 

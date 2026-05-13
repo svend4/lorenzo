@@ -1,5 +1,37 @@
 # Обработка больших массивов — Часть 9: Автоматизация
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Как сделать так, чтобы всё работало само: оркестратор, watcher, CI/CD, MCP.
+**Проекты:** AgentFS, Yodoca
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Проблема ручного запуска](#проблема-ручного-запуска)
+- [Ступень 1: Оркестратор — improve_run_all.py](#ступень-1-оркестратор-improve_run_allpy)
+- [Ступень 2: Автономный Watcher — improve_watcher.py](#ступень-2-автономный-watcher-improve_watcherpy)
+- Ступень 3: [GitHub Actions CI/CD — .github/workflows/docs.yml](#ступень-3-github-actions-cicd-githubworkflowsdocsyml)
+- [Ступень 4: Pre-commit хуки — .pre-commit-config.yaml](#ступень-4-pre-commit-хуки-pre-commit-configyaml)
+- [Ступень 5: Dependabot — .github/dependabot.yml](#ступень-5-dependabot-githubdependabotyml)
+- [Ступень 6: MCP-сервер — mcp_server.py (Claude Desktop)](#ступень-6-mcp-сервер-mcp_serverpy-claude-desktop)
+- [Ступень 7: Claude Skills (КОГДА запускать)](#ступень-7-claude-skills-когда-запускать)
+- [Полная цепочка автоматизации](#полная-цепочка-автоматизации)
+- [Следующий шаг](#следующий-шаг)
+
+---
+
+<!-- tags: memory, orchestration, knowledge, ingestion, anthropic, collaboration -->
+
+
+
+
 > Как сделать так, чтобы всё работало само: оркестратор, watcher, CI/CD, MCP.
 
 ---
@@ -228,3 +260,34 @@ Skills в `.claude/skills/` — это инструкции для Claude **ко
 ## Следующий шаг
 
 → **Часть 10: Инновационные и ещё не придуманные подходы**
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+## Смотрите также
+- [08-export](08-export.md)
+- [10-future](10-future.md)
+- [WORD_FREQ](../WORD_FREQ.md)
+- [03-chunking](03-chunking.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-automation](../obsidian/processing-guide/09-automation.md) (сходство 0.99)
+- [01-overview](01-overview.md) (сходство 0.17)
+- [01-overview](../obsidian/processing-guide/01-overview.md) (сходство 0.17)
+

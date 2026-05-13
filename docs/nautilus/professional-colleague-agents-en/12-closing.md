@@ -1,11 +1,20 @@
 # 12. Closing
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [12. Closing](#12-closing)
@@ -109,12 +118,31 @@ https://www.fontanka.ru/2026/04/25/76378978/
 - svend4 (2026). *The Representative Agent Layer v1.0*.
 - svend4 (2026). *Open Knowledge Work Foundation Concept Document v1.0*.
 
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [00-abstract](00-abstract.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [223-12-closing](docs/obsidian/02-anthropic-vacancies/223-12-closing.md) (сходство 0.60)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.56)
-- [00-abstract](docs/nautilus/professional-colleague-agents-en/00-abstract.md) (сходство 0.31)
+- [12-closing](../../obsidian/nautilus/professional-colleague-agents-en/12-closing.md) (сходство 0.99)
+- [223-12-closing](../../02-anthropic-vacancies/223-12-closing.md) (сходство 0.58)
+- [223-12-closing](../../obsidian/02-anthropic-vacancies/223-12-closing.md) (сходство 0.57)
 

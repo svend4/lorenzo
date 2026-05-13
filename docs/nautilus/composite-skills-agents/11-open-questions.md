@@ -1,5 +1,41 @@
 # 11. Open Questions
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [11. Open Questions](#11-open-questions)
+  - [11.1. Granularity Questions](#111-granularity-questions)
+  - [11.2. Configuration Stability](#112-configuration-stability)
+  - [11.3. Cross-Professional Configurations](#113-cross-professional-configurations)
+  - [11.4. Configuration Evolution at Scale](#114-configuration-evolution-at-scale)
+  - [11.5. Sub-Agent Quality Across Cultures](#115-sub-agent-quality-across-cultures)
+  - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
+  - [11.7. The "Emergence" Question](#117-the-emergence-question)
+  - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [11. Open Questions](#11-open-questions)
+  - [11.1. Granularity Questions](#111-granularity-questions)
+  - [11.2. Configuration Stability](#112-configuration-stability)
+  - [11.3. Cross-Professional Configurations](#113-cross-professional-configurations)
+  - [11.4. Configuration Evolution at Scale](#114-configuration-evolution-at-scale)
+  - [11.5. Sub-Agent Quality Across Cultures](#115-sub-agent-quality-across-cultures)
+  - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
+  - [11.7. The "Emergence" Question](#117-the-emergence-question)
+  - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -104,11 +140,33 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
-**Смотрите также:**
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Open Questions"
+```
+
+## Смотрите также
+- [264-11-open-questions](../../02-anthropic-vacancies/264-11-open-questions.md)
+- [12-call-for-collaboration](12-call-for-collaboration.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- [05-configuration-ensembles](05-configuration-ensembles.md)
+- [10-risks](10-risks.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -116,7 +174,7 @@ indefinitely; "graduation" may not be the right metaphor.
 ---
 
 **Похожие документы:**
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.89)
-- [264-11-open-questions](docs/obsidian/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.86)
-- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md) (сходство 0.22)
+- [11-open-questions](../../obsidian/nautilus/composite-skills-agents/11-open-questions.md) (сходство 0.98)
+- [264-11-open-questions](../../02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.82)
+- [264-11-open-questions](../../obsidian/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.82)
 

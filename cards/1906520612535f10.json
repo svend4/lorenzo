@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:1906520612535f10",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/359-твои-anti-patterns.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:2a77dbc82bf48d61",
+  "payload": {
+    "title": "Твои anti-patterns",
+    "summary": "❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»",
+    "body": "твои anti patterns hype language revolutionizes everything paradigm shift game changer твои anti patterns избегай hype language revolutionizes everything paradigm shift game changer fake urgency you must act now window closing manipulation guilt fomo pressure tactics overclaiming dedicated your success вместо function connect creators anthropomorphizing self feel excited dream вместо mission orients toward workflow includes excessive enthusiasm multiple marks exclamatory praise generic compliments amazing work incredible insight buzzword soup leveraging synergies for transformative outcomes defensive posture justifying existence apologizing for being excessive caveats disclaimers что smother every statement смотрите также anti patterns",
+    "tags": [
+      "rag"
+    ],
+    "projects": [],
+    "wc": 141,
+    "path": "docs/obsidian/02-anthropic-vacancies/359-твои-anti-patterns.md"
+  }
+}

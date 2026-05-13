@@ -1,5 +1,12 @@
 # Appendix A: Шаблон для header warning
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -49,11 +56,28 @@ transitional state:
 
 ---
 
-**Смотрите также:**
-- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+## Смотрите также
+- [118-appendix-a-шаблон-для-header-warning](../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [118-appendix-a-шаблон-для-header-warning](../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [SENTIMENT](../../SENTIMENT.md)
+- [04-pluses-as-business](../../anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
+- [09-ne-reshaet](../infrastructure-layer-b-ru/09-ne-reshaet.md)
+- _...ещё 9_
 
 
 <!-- similar-docs -->
@@ -61,7 +85,7 @@ transitional state:
 ---
 
 **Похожие документы:**
-- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.60)
-- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.48)
-- [118-appendix-a-шаблон-для-header-warning](docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.47)
+- [12-appendix-a-header-warning](../../obsidian/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.91)
+- [118-appendix-a-шаблон-для-header-warning](../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.61)
+- [118-appendix-a-шаблон-для-header-warning](../../obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.60)
 

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:c1c252052d314257",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/AUTOFILLED.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:4d32b3737a961e5e",
+  "payload": {
+    "title": "Автозаполненные шаблоны",
+    "summary": "_Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_",
+    "body": "автозаполненные шаблоны источники entities scoring network docs templates проекты svyazi источники entities scoring network docs templates создано файлов файлы docs autofilled components cowork docs autofilled components cowork ingit docs autofilled components ingit kksudo docs autofilled components kksudo lorenzo docs autofilled components lorenzo nautilus docs autofilled components nautilus sgb docs autofilled components sgb spbmolot docs autofilled components spbmolot svend docs autofilled components svend svyazi docs autofilled components svyazi research summary docs autofilled research summary как работает читает шаблоны docs templates плейсхолдерами name собирает данные entities сущности scoring статус network граф заменяет плейсхолдеры реальными данными сохраняет результаты docs autofilled повторный запуск перезаписывает файлы актуальными данными связанные документы readme components антропик cowork ingit kksudo lorenzo nautilus sgb связанные документы version diff diff базы знаний между версиями смотрите также cowork ingit lorenzo упоминается readme docs tables все таблицы репозитория sitemap карта репозитория lorenzo",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 172,
+    "path": "docs/obsidian/AUTOFILLED.md"
+  }
+}

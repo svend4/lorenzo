@@ -1,10 +1,26 @@
 # Три точки входа разной амбиции
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з
 
 ---
 <!-- tags: orchestration, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +43,33 @@
 
 ---
 
-**Смотрите также:**
-- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три точки входа разной амбиции"
+```
+
+## Смотрите также
+- [04-what-to-do](04-what-to-do.md)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [05-minuses-as-business](../mmorpg-for-programmers/05-minuses-as-business.md)
+- [07-current-implementations](07-current-implementations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [04-what-to-do](04-what-to-do.md)
+- [07-current-implementations](07-current-implementations.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -39,7 +77,7 @@
 ---
 
 **Похожие документы:**
-- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md) (сходство 0.20)
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.15)
-- [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md) (сходство 0.14)
+- [10-three-entry-points](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md) (сходство 0.97)
+- [04-what-to-do](04-what-to-do.md) (сходство 0.24)
+- [04-what-to-do](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md) (сходство 0.23)
 

@@ -1,10 +1,27 @@
 # Комбинация 25: Legal DSL → Code Transpiler
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -92,11 +109,28 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 
 ---
 
-**Смотрите также:**
-- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
-- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
-- [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 25 Legal DSL Code Transpiler"
+```
+
+## Смотрите также
+- [13-legal-document-transpiler](13-legal-document-transpiler.md)
+- [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+- [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
 
 
 <!-- similar-docs -->
@@ -104,7 +138,7 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 ---
 
 **Похожие документы:**
-- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md) (сходство 0.34)
-- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md) (сходство 0.30)
-- [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md) (сходство 0.27)
+- [25-legal-dsl-code-transpiler](../../obsidian/technology-combinations/combinations/25-legal-dsl-code-transpiler.md) (сходство 0.95)
+- [13-legal-document-transpiler](13-legal-document-transpiler.md) (сходство 0.38)
+- [13-legal-document-transpiler](../../obsidian/technology-combinations/combinations/13-legal-document-transpiler.md) (сходство 0.36)
 

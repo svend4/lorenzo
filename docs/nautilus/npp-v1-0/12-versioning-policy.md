@@ -1,6 +1,26 @@
 # 12. Versioning Policy
 
+<!-- toc-auto -->
+## Contents
+
+- [12. Versioning Policy](#12-versioning-policy)
+  - [12.1. Semver](#121-semver)
+  - [12.2. Version in Registry](#122-version-in-registry)
+  - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
@@ -42,11 +62,32 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
-**Смотрите также:**
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
-- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
-- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Versioning Policy"
+```
+
+## Смотрите также
+- [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md)
+- [17-versioning-policy](../npp-v1-1/17-versioning-policy.md)
+- [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [17-versioning-policy](../npp-v1-1/17-versioning-policy.md)
 
 
 <!-- similar-docs -->
@@ -54,7 +95,7 @@ implementation MUST поддерживать **минимум текущую maj
 ---
 
 **Похожие документы:**
-- [24-12-versioning-policy](docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.60)
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.59)
-- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md) (сходство 0.57)
+- [12-versioning-policy](../../obsidian/nautilus/npp-v1-0/12-versioning-policy.md) (сходство 0.97)
+- [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.60)
+- [24-12-versioning-policy](../../obsidian/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.60)
 

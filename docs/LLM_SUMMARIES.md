@@ -1,15 +1,5 @@
 # AI-саммари разделов документации
 
-<!-- summary -->
-> - [Архитектура Svyazi 2.0](#архитектура-svyazi-20)
-**Проекты:** Svyazi
-
----
-<!-- tags: ingestion, local-first, architecture, anthropic, self-improvement, collaboration -->
-
-
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -18,6 +8,31 @@
 - [Комбинации технологий](#комбинации-технологий)
 - [AI-коллаборации](#ai-коллаборации)
 - [Хабр-проекты](#хабр-проекты)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> - [Архитектура Svyazi 2.0](#архитектура-svyazi-20)
+**Проекты:** Svyazi
+
+---
+<!-- tags: ingestion, local-first, architecture, anthropic, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
+
 
 
 _Модель: claude-haiku-4-5 · Разделов: 5_
@@ -76,7 +91,13 @@ _Без ключа — автоматическое резюме на основ
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI саммари разделов документации"
+```
+
+## Смотрите также
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [VALIDATION](VALIDATION.md)
 - [ONBOARDING](ONBOARDING.md)
@@ -91,12 +112,22 @@ _Без ключа — автоматическое резюме на основ
 - [Карта репозитория Lorenzo](SITEMAP.md)
 - [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)
 
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [INDEX](INDEX.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [LLM_SUMMARIES](docs/obsidian/LLM_SUMMARIES.md) (сходство 0.87)
-- [VALIDATION](docs/VALIDATION.md) (сходство 0.26)
-- [VALIDATION](docs/obsidian/VALIDATION.md) (сходство 0.23)
+- [LLM_SUMMARIES](obsidian/LLM_SUMMARIES.md) (сходство 0.98)
+- [WORD_CLOUD](WORD_CLOUD.md) (сходство 0.28)
+- [WORD_CLOUD](obsidian/WORD_CLOUD.md) (сходство 0.27)
 

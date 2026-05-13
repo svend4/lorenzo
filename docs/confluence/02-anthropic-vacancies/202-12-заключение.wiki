@@ -6,6 +6,26 @@
 h1. 12. Заключение
 
 
+h2. Contents
+
+* [12. Заключение|#12-заключение]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (5)|#кто-ссылается-на-этот-документ-5]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
 {quote}Синдром Золушки — качество без видимости — не нов. Он формировал человеческий труд и признание задолго до компьютеров. Что нового — мы наконец имеем технологию, способную обеспечить представительство {quote}
 
 ----
@@ -40,7 +60,13 @@ h2. Упоминается в
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Заключение"
+{code}
+
+h2. Смотрите также
 * [229-профессиональные-коллеги-агенты|229-профессиональные-коллеги-агенты.md]
 * [102-доступ-к-данным|102-доступ-к-данным.md]
 * [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
@@ -51,8 +77,20 @@ _Смотрите также:_
 
 ----
 
+h2. Кто ссылается на этот документ (5)
+* [102-доступ-к-данным|102-доступ-к-данным.md]
+* [190-содержание|190-содержание.md]
+* [229-профессиональные-коллеги-агенты|229-профессиональные-коллеги-агенты.md]
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
+* [README|README.md]
+
+
+
+
+----
+
 _Похожие документы:_
-* [202-12-заключение|docs/obsidian/02-anthropic-vacancies/202-12-заключение.md] (сходство 0.98)
-* [305-a-practical-path-to-layer-b-through-symbiotic-inte|docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md] (сходство 0.13)
-* [187-слой-представительских-агентов-md|docs/obsidian/02-anthropic-vacancies/187-слой-представительских-агентов-md.md] (сходство 0.13)
+* [202-12-заключение|../obsidian/02-anthropic-vacancies/202-12-заключение.md] (сходство 0.98)
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md] (сходство 0.21)
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|../obsidian/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md] (сходство 0.21)
 

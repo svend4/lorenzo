@@ -1,11 +1,27 @@
 # Ансамбль 4 — Web-to-Knowledge Pipeline
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** Svyazi, knowledge-space, Firecrawl
 
 ---
 <!-- tags: knowledge, ingestion, architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -44,11 +60,32 @@ Court/Regulation Watcher — отслеживание судебных сайт�
 
 ---
 
-**Смотрите также:**
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Ансамбль 4 Web to Knowledge Pipeline"
+```
+
+## Смотрите также
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -56,7 +93,7 @@ Court/Regulation Watcher — отслеживание судебных сайт�
 ---
 
 **Похожие документы:**
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.17)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.16)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.15)
+- [4-web-to-knowledge-pipeline](../../obsidian/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md) (сходство 0.99)
+- [9-ambient-team-agent](9-ambient-team-agent.md) (сходство 0.22)
+- [9-ambient-team-agent](../../obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.21)
 

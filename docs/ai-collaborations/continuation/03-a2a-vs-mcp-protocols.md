@@ -1,5 +1,12 @@
 # A2A vs MCP, ансамбль H — MCP/A2A Review Fabric
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -58,11 +65,33 @@ memory_fact: "review_required"
 
 ---
 
-**Смотрите также:**
-- [07-vs-notion-mem-affine-langgraph](docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "A2A vs MCP ансамбль H MCP A2A Review"
+```
+
+## Смотрите также
+- 07-vs-[notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-shared-memory-between-agents](01-shared-memory-between-agents.md)
+- [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)
+- [07-vs-notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -70,7 +99,7 @@ memory_fact: "review_required"
 ---
 
 **Похожие документы:**
-- [07-vs-notion-mem-affine-langgraph](docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md) (сходство 0.19)
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.19)
-- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md) (сходство 0.18)
+- [03-a2a-vs-mcp-protocols](../../obsidian/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md) (сходство 0.99)
+- [04-memory-firewall-vs-prompt-worms](../../obsidian/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.21)
+- [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md) (сходство 0.20)
 

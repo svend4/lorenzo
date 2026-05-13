@@ -1,6 +1,45 @@
 # 12. Onboarding Paths (Normative)
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
+  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
+  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
+  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
+  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
+  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
+  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
+  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
+  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
+  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
+  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
+  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
+  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
@@ -104,11 +143,25 @@ python scan_repo.py owner/repo-name
 
 ---
 
-**Смотрите также:**
-- [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md)
-- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
-- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
-- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+## Смотрите также
+- [87-12-onboarding-paths-normative](../../02-anthropic-vacancies/87-12-onboarding-paths-normative.md)
+- [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
+- [03-registry](03-registry.md)
+- [02-terminology](02-terminology.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 
 
 <!-- similar-docs -->
@@ -116,7 +169,7 @@ python scan_repo.py owner/repo-name
 ---
 
 **Похожие документы:**
-- [87-12-onboarding-paths-normative](docs/obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.87)
-- [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.80)
-- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md) (сходство 0.17)
+- [12-onboarding-paths](../../obsidian/nautilus/npp-v1-1/12-onboarding-paths.md) (сходство 0.99)
+- [87-12-onboarding-paths-normative](../../obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.85)
+- [87-12-onboarding-paths-normative](../../02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.84)
 

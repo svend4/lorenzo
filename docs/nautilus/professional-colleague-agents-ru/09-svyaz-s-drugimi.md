@@ -163,11 +163,33 @@ AI-помощник нет.
 
 ---
 
-**Смотрите также:**
-- [240-9-связь-с-другими-типами-агентов](docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md)
-- [01-pyat-tipov](docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md)
-- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
-- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "9 Связь с другими типами агентов"
+```
+
+## Смотрите также
+- [240-9-связь-с-другими-типами-агентов](../../02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md)
+- [01-pyat-tipov](01-pyat-tipov.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](../../02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [03-the-spectrum](../composite-skills-agents-companion-mentors/03-the-spectrum.md)
+- [01-pyat-tipov](01-pyat-tipov.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [05-ekonomika](05-ekonomika.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -175,7 +197,7 @@ AI-помощник нет.
 ---
 
 **Похожие документы:**
-- [240-9-связь-с-другими-типами-агентов](docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) (сходство 0.88)
-- [240-9-связь-с-другими-типами-агентов](docs/obsidian/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) (сходство 0.86)
-- [01-pyat-tipov](docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md) (сходство 0.16)
+- [09-svyaz-s-drugimi](../../obsidian/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md) (сходство 0.97)
+- [240-9-связь-с-другими-типами-агентов](../../02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) (сходство 0.83)
+- [240-9-связь-с-другими-типами-агентов](../../obsidian/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) (сходство 0.83)
 

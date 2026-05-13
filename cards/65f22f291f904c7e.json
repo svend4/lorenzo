@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:65f22f291f904c7e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/scenarios/00-question-scenario.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/multi-tier-architecture/00-question-multi-tier.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:a8ff0262da43d711",
+  "payload": {
+    "title": "Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить",
+    "summary": "Du hast gesagt: Сначала общие вопросы такие вопросы например проект репозитории Наутилуса он не управляет он больше собирает информацию координируют репозитории но не активно …",
+    "body": "вопрос nautilus пассивный camel активный можно скрестить источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ комбинирования пассивного nautilus активным camel framework смотрите также question scenario lorenzo agent scenarios question scenario passive active roles passive active roles question multi tier nautilus multi tier architecture question multi tier question habr link nautilus community discussions habr article reaction question habr link",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 216,
+    "path": "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md"
+  }
+}

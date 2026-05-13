@@ -1,10 +1,27 @@
 # Комбинация 22: Russian-International OSS Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag, architecture, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -61,19 +78,37 @@ ROI: Performance + community support, no vendor lock-in
 
 ---
 
-**Смотрите также:**
-- [21-legal-corpus-analytics-at-scale](docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md)
-- [27-hybrid-rag-with-ast-chunked-code](docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
-- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 22 Russian International OSS"
+```
+
+## Смотрите также
+- [21-legal-corpus-analytics-at-scale](21-legal-corpus-analytics-at-scale.md)
+- 27-hybrid-[rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [21-legal-corpus-analytics-at-scale](docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md) (сходство 0.28)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.26)
-- [27-hybrid-rag-with-ast-chunked-code](docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md) (сходство 0.24)
+- [22-russian-international-oss-stack](../../obsidian/technology-combinations/combinations/22-russian-international-oss-stack.md) (сходство 0.95)
+- [20-24-final](../synthesis-tables/20-24-final.md) (сходство 0.33)
+- [20-24-final](../../obsidian/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.33)
 

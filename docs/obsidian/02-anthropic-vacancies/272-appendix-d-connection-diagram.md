@@ -336,7 +336,7 @@ Pero никто не построил yet what you described. Это opportunity
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[ACTION_ITEMS]] (сходство 0.17)
 - [[150-appendix-c-version-history]] (сходство 0.15)
 - [[165-closing]] (сходство 0.15)
@@ -346,7 +346,23 @@ Pero никто не построил yet what you described. Это opportunity
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "Appendix D Connection Diagram"
+```
+
+```bash
+# BM25 поиск
+python scripts/improve_semantic_search.py --query "Appendix D Connection Diagram" --mode bm25
+```
+
+```bash
+# семантический поиск
+python scripts/improve_semantic_search.py --query "Appendix D Connection Diagram" --mode semantic
+```
+
+## Смотрите также
 - [[ACTION_ITEMS]]
 - [[150-appendix-c-version-history]]
 - [[165-closing]]
@@ -391,3 +407,19 @@ Pero никто не построил yet what you described. Это opportunity
 - [[151-open-knowledge-work-foundation-md|OPEN KNOWLEDGE WORK FOUNDATION.md]] _17%_
 - [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _17%_
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [[00-intro]]
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[133-обратная-связь]]
+- [[150-appendix-c-version-history]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[165-closing]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[208-professional-colleague-agents-md]]
+- _...ещё 5_
+

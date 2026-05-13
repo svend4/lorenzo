@@ -1,0 +1,77 @@
+{
+  "card_id": "sha256:7570573a4d935354",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/00-intro-part2.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/09-architectural-gaps.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:0e2d9b16f32d3e14",
+  "payload": {
+    "title": "Технический stack (Svyazi 2.0 foundation)",
+    "summary": "Lorenzo's architecture builds on верифицированных open-source компонентах:",
+    "body": "технический stack svyazi foundation абстракт авто проблема запрос проанализировать нужно проанализировать что уже сделано информацию которая уже есть благодаря этим последним нескольким документам благодаря тем что уже было сделано подход cardid immutable cardtype person project episode doc hypothesis state raw normalized inferred approved rejected decayed sources edges updatedat payloadhash sourceid pageorspa ключевые слова svyazi lorenzo layer foundation документ новых вопросы которые tip документ содержит практические рекомендации лучшие практики lorenzo architecture builds верифицированных open source компонентах проекты svyazi cardindex agentfs knowledge space svyazi component catalog mclaude factory rufler liteparse технический stack svyazi foundation lorenzo architecture builds верифицированных open source компонентах layer ingestion svyazi style hybrid extraction чуян pattern layer knowledge knowledge space svyazi component catalog анастасия mit layer kernel agentfs style file architecture kksudo pattern mit layer memory yodoca consolidation ngt memory associations layer evidence research docs liteparse forensic rag apache layer orchestration mclaude factory rufler all mit layer execution litellm auto router tool search layer security sentinel path guards pii separation phase lorenzo focuses layers ingestion through evidence layers phase это даёт lorenzo concrete technical anchor рекомендация identify документа author очень важно кто написал этот документ возможные scenarios сами generated этот через другую session claude другом chat gpt gemini кто прислал вам тогда они are immediate tier collaborator found online нужна attribution original author internal team написал тогда dhlab уже has analyst capability каждый scenario имеет разные implications если generated validates lorenzo concept если human author known critical contact если found online study source carefully если internal great team capability можете сказать откуда документ анализ конкретных компонентов документа новых для нас дайте быстрый assessment ключевых добавлений yodoca vitalyoborin apache что делает local self evolving assistant long term memory nightly consolidation ebbinghaus decay почему важно nightly consolidation sleep like processing forgetting curve биологически валидное забывание hot slow path performance design causal edges explanatory memory для lorenzo это лучше чем ngt memory для memory layer потому что apache bsl less restrictive consolidation pattern critical для long term operation single author working implementation recommendation make yodoca primary memory candidate ngt memory secondary agentfs kksudo mit что делает превращает obsidian vault для агентов agentos как unified core почему важно compile native для разных runtimes claude cursor openclaw single source truth для multiple agents persistent state между sessions security policies built для lorenzo это filesystem kernel который недостаёт без этого lorenzo knowledge fragmented across различных storage recommendation make agentfs primary kernel для lorenzo factory aif handoff lee cutcode mit что делает spec driven multi agent framework autonomous kanban layer почему важно self learning patches фикс ошибок accumulate plan implement review workflow websocket kanban real time monitoring skill evolution pattern improvement для lorenzo это orchestrator когда lorenzo нужно coordinate multi step синтез factory provides framework recommendation adopt factory для phase orchestration self aware mcp akazant mit что делает дает агенту context time location почему важно closes basic gap агент знает где lightweight focused already mcp marketplace для lorenzo easy add immediate value lorenzo нужен awareness где operating utc dresden time jurisdiction recommendation adopt self aware mcp phase low cost high value yjs automerge mit что делает crdt based local first sync почему важно multi device support offline capability battle tested foundation для distributed lorenzo для lorenzo critical для multi device или multi user scenarios если lorenzo phase supports collaborators нужен sync layer recommendation phase candidate synthesizing нашим existing landscape combining этот документ нашими previous findings tier collaborators now expanded person project license status layer stack анастасия бутова mclaude knowledge space mit mit active layers kagvi hmp unverified active federation cross cutting андрей чуян svyazi closed active layer vitalyoborin yodoca apache active layer kksudo agentfs mit active layer spbmolot ngt memory bsl active layer alt lee cutcode factory mit active layer lib rufler mit active layer alt moshael memory concept concept layer theory akazant self aware mcp mit active layer this genuinely formidable team если все agree collaborate strategic implications для lorenzo implication анастасия становится strategic anchor этим документом анастасия бутова clearly the most strategic single contact builds layers уже layer knowledge space layer mclaude both mit licensed active development through april russian speaking matches lorenzo primary language demonstrated collaborative open source ethos engineer profession suggests technical depth already produced substantial codebase mclaude tests only one outreach happens should анастасия implication vitalyoborin yodoca close second yodoca apache nightly consolidation pattern active development make vitalyoborin second priority implication kksudo agentfs third priority agentfs provides foundational kernel layer without good filesystem story lorenzo knowledge fragmented implication outreach template should adopted документа outreach template better than ours use implication phase scope clarified document mvp recommendation layers days это excellent phase plan adopt with realistic adjustment weeks конкретные next steps учитывая всё это рекомендую immediate this session identify документа author если возможно save документ dhlab repository как docs svyazi technical foundation update lorenzo системный промпт этой architecture reference update tier collaborator",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 3955,
+    "path": "docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md"
+  }
+}

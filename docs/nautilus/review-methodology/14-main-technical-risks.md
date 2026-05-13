@@ -1,5 +1,11 @@
 # Главные технические риски
 
+<!-- toc-auto -->
+## Contents
+
+- [Главные технические риски](#главные-технические-риски)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -36,11 +42,34 @@ readiness.
 
 ---
 
-**Смотрите также:**
-- [120-главные-технические-риски](docs/02-anthropic-vacancies/120-главные-технические-риски.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Главные технические риски"
+```
+
+## Смотрите также
+- [120-главные-технические-риски](../../02-anthropic-vacancies/120-главные-технические-риски.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [120-главные-технические-риски](../../02-anthropic-vacancies/120-главные-технические-риски.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [07-why-valid-for-ai](07-why-valid-for-ai.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -48,7 +77,7 @@ readiness.
 ---
 
 **Похожие документы:**
-- [120-главные-технические-риски](docs/obsidian/02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.58)
-- [120-главные-технические-риски](docs/02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.50)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.48)
+- [14-main-technical-risks](../../obsidian/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.95)
+- [120-главные-технические-риски](../../02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.65)
+- [120-главные-технические-риски](../../obsidian/02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.64)
 

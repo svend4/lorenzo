@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:6e7bd50867ec31ed",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/63-history.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/53-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/43-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/40-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:63723d5cad67e5b8",
+  "payload": {
+    "title": "History",
+    "summary": "«64 as Projection of 256: Hexagrams as Symmetry Classes of",
+    "body": "history создан февраль судя repo creation date похожие документы history history сходство history history сходство смотрите также history history history history appendix minimal working example appendix minimal working example bridges bridges упоминается passport passport passport passport history history history history вакансии anthropic анализ кластерам readme содержание содержание установка установка упоминается вакансии anthropic анализ кластерам readme связанные документы compatibility level compatibility level appendix minimal working example appendix minimal working example содержание содержание passport passport passport passport portal mcp portal mcp подключение claude desktop подключение claude desktop planned planned содержание содержание связанные документы содержание содержание содержание содержание compatibility level compatibility level passport passport passport passport portal mcp portal mcp подключение claude desktop подключение claude desktop table contents table contents queryresult structure queryresult structure кто ссылается этот документ passport passport passport passport portal mcp portal mcp подключение claude desktop подключение claude desktop planned planned table contents table contents содержание содержание queryresult structure queryresult structure содержание содержание ещё",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 278,
+    "path": "docs/02-anthropic-vacancies/63-history.md"
+  }
+}

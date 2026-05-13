@@ -1,10 +1,39 @@
 # Table of Contents
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Table of Contents](#table-of-contents)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (18)](#кто-ссылается-на-этот-документ-18)
+
+
+## Содержание
+
+- Основной раздел
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > 3. **Why Existing Solutions Fail**
 
 ---
 <!-- tags: roadmap -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,7 +57,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [169-table-of-contents](169-table-of-contents.md) (сходство 0.17)
 
 
@@ -36,7 +65,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Table of Contents"
+```
+
+## Смотрите также
 - [169-table-of-contents](169-table-of-contents.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [137-table-of-contents](137-table-of-contents.md)
@@ -72,7 +107,7 @@
 - [Table of Contents](169-table-of-contents.md) _29%_
 - [Compatibility Level](41-compatibility-level.md) _29%_
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _29%_
-- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- portal-[mcp.py](123-portal-mcp-py.md) _25%_
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _25%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
 ## Связанные документы
@@ -85,3 +120,19 @@
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _29%_
 - [Table of Contents](169-table-of-contents.md) _25%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (18)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [153-executive-summary](153-executive-summary.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
+- _...ещё 10_
+

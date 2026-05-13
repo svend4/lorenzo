@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:05e4e0c79e11b2ed",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-en/10-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-en/05-architectural-specification.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-en/06-ethical-framework.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:4ecfee9d21903333",
+  "payload": {
+    "title": "8. Risks and Mitigations",
+    "summary": "We address eight categories of risk with specific mitigations.",
+    "body": "risks and mitigations источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer смотрите также risks and mitigations anthropic vacancies risks and mitigations open questions open questions architectural specification architectural specification ethical framework ethical framework",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 486,
+    "path": "docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md"
+  }
+}

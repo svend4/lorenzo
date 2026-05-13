@@ -1,5 +1,24 @@
 # Planned (v0.2.0)
 
+<!-- toc-auto -->
+## Contents
+
+- [Planned (v0.2.0)](#planned-v020)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (17)](#кто-ссылается-на-этот-документ-17)
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - HTTP-mode для debugging и remote access
 
@@ -21,7 +40,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.12)
 
 
@@ -29,7 +48,14 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Planned v0 2 0"
+```
+
+## Смотрите также
 - [51-compatibility-level](51-compatibility-level.md)
 - [61-compatibility-level](61-compatibility-level.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
@@ -67,6 +93,22 @@
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _29%_
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
-- [portal-mcp.py](123-portal-mcp-py.md) _21%_
+- portal-[mcp.py](123-portal-mcp-py.md) _21%_
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _21%_
 - [Table of Contents](154-table-of-contents.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (17)
+- [04-abstract](04-abstract.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
+- [131-ограничения-текущей-версии-0-1-0-draft](131-ограничения-текущей-версии-0-1-0-draft.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [326-содержание](326-содержание.md)
+- _...ещё 9_
+

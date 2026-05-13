@@ -1,11 +1,29 @@
 # Твоя коммуникация в outreach
 
+<!-- toc-auto -->
+## Contents
+
+- [Твоя коммуникация в outreach](#твоя-коммуникация-в-outreach)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+
+<!-- tags: outreach, communication, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 <!-- summary -->
 > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 
 ---
-<!-- tags: anthropic -->
-
 
 
 
@@ -35,9 +53,33 @@
 
 ---
 
-**Смотрите также:**
-- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md)
-- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твоя коммуникация в outreach"
+```
+
+## Смотрите также
+- [13-outreach-communication](../lorenzo-agent/13-outreach-communication.md)
+- [04-q4-character](../lorenzo-agent/specification/04-q4-character.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [356-твой-workflow](356-твой-workflow.md)
+- [README](README.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -45,7 +87,7 @@
 ---
 
 **Похожие документы:**
-- [357-твоя-коммуникация-в-outreach](docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.82)
-- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md) (сходство 0.82)
-- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md) (сходство 0.19)
+- [357-твоя-коммуникация-в-outreach](../obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.96)
+- [13-outreach-communication](../lorenzo-agent/13-outreach-communication.md) (сходство 0.83)
+- [13-outreach-communication](../obsidian/lorenzo-agent/13-outreach-communication.md) (сходство 0.82)
 

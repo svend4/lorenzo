@@ -1,9 +1,13 @@
 # 12. Onboarding Paths (Normative)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
   - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
   - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
@@ -11,24 +15,8 @@
   - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
   - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
   - [12.6. Path Selection Guidance](#126-path-selection-guidance)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
-  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
-  - [12.2. Path B — generatepassport.py Wizard](#122-path-b-generatepassportpy-wizard)
-  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
-  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
-  - [12.5. Path E — [GitHub](../docs/01-svyazi/03-component-catalog.md) Actions Webhook](#125-path-e-github-actions-webhook)
-  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
 
 
 <!-- summary -->
@@ -50,11 +38,11 @@ equivalent-рангованные стратегии. Каждая имеет с
 
 **Время**: 10–20 минут. **Автоматизация**: 0%. **Качество**: высокое.
 
-1. Написать `adapters/<format>.py`, наследуясь от `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`
+1. Написать `adapters/<format>.py`, наследуясь от `[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)`
 2. Написать `passports/<format>.md`
 3. Зарегистрировать адаптер в `adapters/__init__.py`
 4. Добавить импорт в `portal.py` в конструктор
-5. Добавить запись в `[nautilus](../docs/05-habr-projects/memory/memnet.md).json`
+5. Добавить запись в `[nautilus](../05-habr-projects/memory/memnet.md).json`
 
 ### 12.2. Path B — generate_passport.py Wizard
 
@@ -74,11 +62,11 @@ python generate_passport.py --repo owner/repo --format myformat --adapter
 ### 12.3. Path C — Self-Declaring Repo (AutoAdapter)
 
 **Время**: 10 минут. **Автоматизация**: ~80%. **Качество**: 
-зависит от index в [nautilus](../docs/05-habr-projects/memory/memnet.md).json target-репо.
+зависит от index в [nautilus](../05-habr-projects/memory/memnet.md).json target-репо.
 
-1. В целевом репо создать `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне с полем `index`
+1. В целевом репо создать `[nautilus](../05-habr-projects/memory/memnet.md).json` в корне с полем `index`
 2. В portal-репо добавить запись `{"adapter": "auto", "repo": "..."}`
-3. Portal автоматически использует [AutoAdapter](../docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+3. Portal автоматически использует [AutoAdapter](141-4-nautilus-portal-as-reference-substrate.md)
 
 **Ключевое свойство**: repo регистрирует себя сам, portal не 
 требует изменений кода. Это enables federation без координации.
@@ -111,7 +99,7 @@ python scan_repo.py owner/repo-name
    `scan_repo.py` + `generate_passport.py` + commit
 
 **Плюсы**: полностью автоматически.  
-**Минусы**: нужны [GitHub](../docs/01-svyazi/03-component-catalog.md) токены с правами на оба репо, Q6 всё равно 
+**Минусы**: нужны [GitHub](../01-svyazi/03-component-catalog.md) токены с правами на оба репо, Q6 всё равно 
 требует ручной проверки.
 
 ### 12.6. Path Selection Guidance
@@ -133,18 +121,33 @@ python scan_repo.py owner/repo-name
 
 ---
 
-**Смотрите также:**
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
+## Смотрите также
+- [07-2-terminology](07-2-terminology.md)
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [77-2-terminology](77-2-terminology.md)
 
 
 <!-- similar-docs -->
 
 ---
 
-**Похожие документы:**
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.16)
-- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.16)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.15)
+## Похожие документы
+- [07-2-terminology](07-2-terminology.md) (сходство 0.16)
+- [80-5-compatibility-levels](80-5-compatibility-levels.md) (сходство 0.16)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.15)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [README](README.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [12-onboarding-paths](../nautilus/npp-v1-1/12-onboarding-paths.md)
 

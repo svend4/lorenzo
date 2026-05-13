@@ -1,7 +1,15 @@
 # Ансамбль B — Forensic RAG для доказуемого matching и review
 
-> [!IMPORTANT]
-> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
@@ -11,6 +19,10 @@
 
 ---
 <!-- tags: rag, ingestion, architecture, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -45,11 +57,28 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [F-evidence-backed-intake](docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md)
-- [evidence-envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)
+## Смотрите также
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md)
+- [evidence-envelope](../architecture/evidence-envelope.md)
+
+_Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [3-forensic-rag](../../ai-collaborations/ensembles/3-forensic-rag.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -57,7 +86,7 @@ flowchart LR
 ---
 
 **Похожие документы:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md) (сходство 0.21)
-- [04-ensembles-overview](docs/obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.21)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.19)
+- [B-forensic-rag](../../obsidian/svyazi-2-0/ensembles/B-forensic-rag.md) (сходство 0.97)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md) (сходство 0.25)
+- [F-evidence-backed-intake](../../obsidian/svyazi-2-0/ensembles/F-evidence-backed-intake.md) (сходство 0.24)
 

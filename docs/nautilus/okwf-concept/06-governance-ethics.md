@@ -1,22 +1,48 @@
 # 6. Governance and Ethics
 
-<!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+<!-- toc-auto -->
+## Contents
 
----
-
-<!-- toc -->
-## Содержание
-
+- [Содержание](#содержание)
 - [6. Governance and Ethics](#6-governance-and-ethics)
   - [6.1. Governance Structure](#61-governance-structure)
   - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
   - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
   - [6.4. Regulatory Compliance](#64-regulatory-compliance)
   - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Governance and Ethics](#6-governance-and-ethics)
+  - [6.1. Governance Structure](#61-governance-structure)
+  - [6.2. Key Ethical Commitments](#62-key-ethical-commitments)
+  - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
+  - [6.4. Regulatory Compliance](#64-regulatory-compliance)
+  - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
 
 ---
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
+
+---
 <!-- tags: anthropic -->
 
 
@@ -127,11 +153,29 @@ dignified issues
 
 ---
 
-**Смотрите также:**
-- [160-6-governance-and-ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
-- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Governance and Ethics"
+```
+
+## Смотрите также
+- [160-6-governance-and-ethics](../../02-anthropic-vacancies/160-6-governance-and-ethics.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [10-appendices](10-appendices.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -139,7 +183,7 @@ dignified issues
 ---
 
 **Похожие документы:**
-- [160-6-governance-and-ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md) (сходство 0.85)
-- [160-6-governance-and-ethics](docs/obsidian/02-anthropic-vacancies/160-6-governance-and-ethics.md) (сходство 0.85)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md) (сходство 0.18)
+- [06-governance-ethics](../../obsidian/nautilus/okwf-concept/06-governance-ethics.md) (сходство 0.98)
+- [160-6-governance-and-ethics](../../02-anthropic-vacancies/160-6-governance-and-ethics.md) (сходство 0.86)
+- [160-6-governance-and-ethics](../../obsidian/02-anthropic-vacancies/160-6-governance-and-ethics.md) (сходство 0.85)
 

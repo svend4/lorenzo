@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:566caa302b22eb19",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/13-reference-implementation.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/18-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/10-query-result.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:3ae0b93f3780c310",
+  "payload": {
+    "title": "13. Reference Implementation",
+    "summary": "Reference implementation: `github.com/svend4/nautilus`.",
+    "body": "reference implementation источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol draft rfc более ранняя версия смотрите также reference implementation anthropic vacancies reference implementation appendix change log appendix change log reference implementation npp reference implementation query result query result",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 120,
+    "path": "docs/nautilus/npp-v1-0/13-reference-implementation.md"
+  }
+}

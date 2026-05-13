@@ -1,5 +1,14 @@
 # Appendix B: Примеры расхождений и их разрешения
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Примеры расхождений и их разрешения](#appendix-b-примеры-расхождений-и-их-разрешения)
+  - [B.1. Расхождение в числе строк кода](#b1-расхождение-в-числе-строк-кода)
+  - [B.2. Расхождение в количестве строк тестов](#b2-расхождение-в-количестве-строк-тестов)
+  - [B.3. Расхождение в концептуальных выводах (Правило 5)](#b3-расхождение-в-концептуальных-выводах-правило-5)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -83,11 +92,25 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 
 ---
 
-**Смотрите также:**
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+## Смотрите также
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [10-checklist](10-checklist.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-coally](../../anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [10-checklist](10-checklist.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -95,7 +118,7 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 ---
 
 **Похожие документы:**
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/obsidian/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.67)
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.61)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.36)
+- [13-appendix-b-examples](../../obsidian/nautilus/review-methodology/13-appendix-b-examples.md) (сходство 0.94)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../../obsidian/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.62)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.61)
 

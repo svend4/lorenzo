@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:e62592dba2878a31",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/108-2-формальный-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:dc6b657bcea6f4b0",
+  "payload": {
+    "title": "10. Конкретный план применения к текущим документам",
+    "summary": "1. Добавить header warning (§2.4) в каждую из 4 частей",
+    "body": "конкретный план применения текущим документам warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений абстракт авто проблема конкретный план применения текущим документам contents подход будущие применения планируемые кандидаты трёхфазную методологию architecture если создаётся формальное описание архитектуры contributing если создаётся guidel результат провести верификацию конкретных метрик результат вставить финальный консолидированный документ вместо обоих вариантов ключевые слова применения anthropic vacancies конкретный текущим документам реализация проекте contents конкретный план применения текущим документам конкретный план применения текущим документам implementationstagepart implementationstagepart будущие применения будущие применения текущий статус merged main фаза пройдена header похожие документы реализация проекте nautilus реализация проекте nautilus сходство формальный workflow формальный workflow сходство смотрите также реализация проекте nautilus реализация проекте nautilus формальный workflow формальный workflow review methodology review methodology зачем две версии параллельно зачем две версии параллельно кто ссылается этот документ review methodology review methodology зачем две версии параллельно зачем две версии параллельно readme readme",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 331,
+    "path": "docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md"
+  }
+}

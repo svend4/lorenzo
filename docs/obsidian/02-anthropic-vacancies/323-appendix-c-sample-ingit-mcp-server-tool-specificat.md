@@ -291,7 +291,7 @@ This recursive nature — каждый ваш observation refines understanding,
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[318-10-strategic-positioning]] (сходство 0.21)
 - [[288-appendix-position-in-series-visualization]] (сходство 0.17)
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca]] (сходство 0.15)
@@ -301,7 +301,7 @@ This recursive nature — каждый ваш observation refines understanding,
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[318-10-strategic-positioning]]
 - [[288-appendix-position-in-series-visualization]]
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
@@ -342,3 +342,18 @@ This recursive nature — каждый ваш observation refines understanding,
 - [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]] _21%_
 - [[274-the-missing-middle-layer-between-chat-and-code|The Missing Middle Layer Between Chat and Code]] _21%_
 - [[313-5-four-integration-paths-in-order-of-accessibility|5. Four Integration Paths in Order of Accessibility]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (8)
+- [[145-8-call-to-action]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[274-the-missing-middle-layer-between-chat-and-code]]
+- [[288-appendix-position-in-series-visualization]]
+- [[303-приложение-визуализация-позиции-в-серии]]
+- [[307-abstract]]
+- [[README]]
+

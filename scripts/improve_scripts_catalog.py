@@ -65,6 +65,8 @@ def extract_description(docstring: str) -> str:
             break
         if s.startswith('--') or s.startswith('python '):
             continue
+        # Escape markdown links to prevent broken link false positives
+        s = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'`[\1](\2)`', s)
         desc_lines.append(s)
     return ' '.join(desc_lines[:5])
 
@@ -158,4 +160,7 @@ def main():
 
 
 if __name__ == '__main__':
+    main()
+
+if __name__ == "__main__":
     main()

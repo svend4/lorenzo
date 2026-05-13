@@ -5,6 +5,20 @@
 
 h1. 5. Связь с существующими методологиями
 
+
+h2. Contents
+
+* [5. Связь с существующими методологиями|#5-связь-с-существующими-методологиями]
+  * [5.1. N-Version Programming|#51-n-version-programming]
+  * [5.2. Paired Reviews (Academia)|#52-paired-reviews-academia]
+  * [5.3. Consensus ML Ensembles|#53-consensus-ml-ensembles]
+  * [5.4. Red Team / Blue Team|#54-red-team-blue-team]
+  * [5.5. Новое в данной методологии|#55-новое-в-данной-методологии]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Похожие документы|#похожие-документы]
+
+
 {quote}[!WARNING]{quote}
 {quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
 
@@ -17,17 +31,6 @@ h1. 5. Связь с существующими методологиями
 {quote}🔧 _Подход:_ Новое в данной методологии(55-новое-в-данной-методологии) Теоретическим прародителем является N-version programming --- 5.{quote}
 {quote}🏷️ _Ключевые слова:_ {{version}}, {{programming}}, {{связь}}, {{существующими}}, {{методологиями}}, {{reviews}}, {{ensembles}}, {{отличия}}{quote}
 >
-
-
-
-h2. Contents
-
-* [5. Связь с существующими методологиями|#5-связь-с-существующими-методологиями]
-  * [5.1. N-Version Programming|#51-n-version-programming]
-  * [5.2. Paired Reviews (Academia)|#52-paired-reviews-academia]
-  * [5.3. Consensus ML Ensembles|#53-consensus-ml-ensembles]
-  * [5.4. Red Team / Blue Team|#54-red-team-blue-team]
-  * [5.5. Новое в данной методологии|#55-новое-в-данной-методологии]
 
 
 
@@ -106,16 +109,37 @@ h3. 5.5. Новое в данной методологии
 
 ----
 
-_Смотрите также:_
-* [115-8-ограничения-и-открытые-вопросы|docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md]
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "5 Связь с существующими методологиями"
+{code}
+
+h2. Смотрите также
+* [115-8-ограничения-и-открытые-вопросы|115-8-ограничения-и-открытые-вопросы.md]
 
 
 
 
 ----
 
-_Похожие документы:_
-* [115-8-ограничения-и-открытые-вопросы|docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md] (сходство 0.14)
-* [107-1-контекст-и-мотивация|docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md] (сходство 0.12)
-* [114-7-реализация-в-проекте-nautilus|docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md] (сходство 0.12)
+h2. Похожие документы
+* [115-8-ограничения-и-открытые-вопросы|115-8-ограничения-и-открытые-вопросы.md] (сходство 0.14)
+* [107-1-контекст-и-мотивация|107-1-контекст-и-мотивация.md] (сходство 0.12)
+* [114-7-реализация-в-проекте-nautilus|114-7-реализация-в-проекте-nautilus.md] (сходство 0.12)
+
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [README|README.md]
+* [CONCEPTS|../CONCEPTS.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [06-relation-existing-methodologies|../nautilus/review-methodology/06-relation-existing-methodologies.md]
 

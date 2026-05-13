@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:03f5854f428b0009",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/analogues/02-related-projects.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/2-document-rag.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6af2c9d24237bf3a",
+  "payload": {
+    "title": "Пара 2 — Local-first PKM (Obsidian/Logseq) × MCP/Skills",
+    "summary": "Пара 2. Local-first PKM (Obsidian/Logseq) × MCP/Skills",
+    "body": "пара local first pkm obsidian logseq mcp skills источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты yodoca смотрите также crawl docling yodoca consolidator technology combinations combinations crawl docling yodoca consolidator related projects analogues related projects speech text llm speech text llm document rag deep pairs document rag",
+    "tags": [
+      "memory",
+      "knowledge",
+      "local-first",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca"
+    ],
+    "wc": 302,
+    "path": "docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md"
+  }
+}

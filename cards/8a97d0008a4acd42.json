@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:8a97d0008a4acd42",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/218-7-application-domains.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/143-6-four-deployment-domains.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:220c49fb8a0c8e87",
+  "payload": {
+    "title": "7. Application Domains",
+    "summary": "We identify nine professions or sub-professions where",
+    "body": "application domains абстракт авто проблема application domains tip документ содержит практические рекомендации лучшие практики подход burden addressed literature review draft writing methodology selection support citation management grant application drafting результат significant healthcare provider adoption ключевые слова domains application deployment practice practitioners burden addressed existing tip документ содержит практические рекомендации лучшие практики identify nine professions sub professions where application domains identify nine professions sub professions where professional colleague agents are particularly applicable order readiness most ready first education practitioners teachers all subjects and levels approximately million globally burden addressed lesson planning assignment generation grading materials preparation administrative documentation existing implementation обучай russia teachai tools global curipod norway europe multiple competing services emerging maturity active deployment tens thousands millions users globally critical mass for new entry high established players exist new entrants need clear differentiation legal practice sub specialties practitioners lawyers paralegals legal advisors sub specialty family law criminal defense immigration disability rights social welfare burden addressed document drafting briefs motions contracts case research statute lookup deadline tracking existing implementation harvey casetext lexis commercial generalist limited specialized services maturity beginning generalist tools exist specialized profession specific colleagues nascent notable opportunity german social law disability rights sgb xii underserved current commercial offerings author domain see section medical practice specific specialties practitioners physicians particularly primary care and specific specialties radiology pathology dermatology burden addressed documentation clinical note synthesis literature search differential diagnosis support existing implementation multiple commercial services nuance dax abridge suki etc hospital integrated deployments common maturity rapid deployment significant healthcare provider adoption critical mass for new entry high major commercial players specialized opportunities underserved sub specialties social work and case management practitioners social workers case managers community organizers particularly welfare systems burden addressed client documentation resource matching deadline tracking regulatory compliance communication drafting existing implementation limited some case management software with features comprehensive professional colleague agent deployment maturity significant opportunity underserved profession serving vulnerable populations foundation alignment strong diakonie caritas equivalent organizations are natural deployment partners mental health care practitioners therapists counselors clinical psychologists burden addressed session note synthesis treatment planning support literature review billing documentation existing implementation emerging note taking tools appearing concerns about role therapeutic context significant maturity early ethical concerns slow deployment privacy and clinical accuracy critical caution mental health high sensitivity domain agent must deeply integrated with clinical safety frameworks architecture and engineering practitioners architects civil engineers structural engineers burden addressed code compliance checking drawing generation calculation routines regulatory navigation specification writing existing implementation specialized software with features autocad revit others adding limited true professional colleague agents maturity emerging significant opportunity for profession specific deployment accounting and tax practice practitioners accountants tax preparers auditors burden addressed document review regulatory compliance calculation routines audit preparation existing implementation multiple commercial services karbon taxact others active competitive market maturity active profession evolving rapidly with deployment government service delivery practitioners civil servants benefit determination licensing immigration processing burden addressed application review eligibility determination support documentation citizen communication drafting existing implementation limited and politically sensitive government deployment citizen facing services raises significant concerns maturity slow and contested important but careful deployment required caveat this domain particularly susceptible several risks mediation collapse bias profession capture especially careful design needed academic research support practitioners researchers across disciplines burden addressed literature review draft writing methodology selection support citation management grant application drafting existing implementation multiple emerging services elicit consensus scite active development maturity active deployment researcher attitudes mixed похожие документы four deployment domains four deployment domains сходство ten domains application ten domains application сходство seven domains application seven domains application сходство смотрите также seven domains application seven domains application ten domains application ten domains application four deployment domains four deployment domains pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague упоминается ten domains application ten domains application seven domains application seven domains application вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы four deployment domains four deployment domains seven domains application seven domains application the two layer stack exists the two layer stack exists what missing layer what missing layer the specific case front the specific case front practical recommendations for the current project practical recommendations for the current project кто ссылается этот документ four deployment domains four deployment domains ten domains application ten domains application pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague seven domains application seven domains application the two layer stack exists the two layer stack exists what missing layer what missing layer the specific case front the specific case front practical recommendations for the current project practical recommendations for the current project ещё",
+    "tags": [
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 851,
+    "path": "docs/02-anthropic-vacancies/218-7-application-domains.md"
+  }
+}

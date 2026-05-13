@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:ea9b98bec757d124",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/01-agent-routing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/01-08-summary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:895f8dda9ce11051",
+  "payload": {
+    "title": "Комбинация 1: Правильная агентская архитектура × Svyazi-паттерн",
+    "summary": "\"Правильная агентская архитектура в 2026\" (habr.com/ru/articles/1028290/) — durable state, event-driven ход/шаг/событие, персистентное состояние между запусками",
+    "body": "комбинация правильная агентская архитектура svyazi паттерн источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex смотрите также agent routing technology combinations agent routing parsing llm graph rag pravilnaya agentskaya arkhitektura parsing llm graph rag pravilnaya agentskaya arkhitektura crdt local first svyazi cardindex crdt local first svyazi cardindex crawl docling yodoca consolidator crawl docling yodoca consolidator кто ссылается этот документ components name glossary components name readme readme summary synthesis tables summary",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "Yodoca"
+    ],
+    "wc": 246,
+    "path": "docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md"
+  }
+}

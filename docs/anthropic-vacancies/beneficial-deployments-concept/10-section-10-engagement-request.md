@@ -1,10 +1,26 @@
 # Section 10: Engagement request
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 
 ---
 <!-- tags: roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -55,11 +71,35 @@ Potential outcomes
 
 ---
 
-**Смотрите также:**
-- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
-- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
-- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 10 Engagement request"
+```
+
+## Смотрите также
+- [11-not-and-format](11-not-and-format.md)
+- [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md)
+- [00-context](00-context.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-context](00-context.md)
+- [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
+- [11-not-and-format](11-not-and-format.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -67,7 +107,7 @@ Potential outcomes
 ---
 
 **Похожие документы:**
-- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) (сходство 0.45)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md) (сходство 0.27)
-- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md) (сходство 0.24)
+- [10-section-10-engagement-request](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.98)
+- [11-not-and-format](11-not-and-format.md) (сходство 0.49)
+- [11-not-and-format](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) (сходство 0.48)
 

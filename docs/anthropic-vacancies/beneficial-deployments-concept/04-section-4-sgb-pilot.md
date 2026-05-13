@@ -1,10 +1,26 @@
 # Section 4: Specific deployment — SGB Advocate Community pilot
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 
 ---
 <!-- tags: local-first, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -39,11 +55,35 @@ Phase 3 (year 2+): Foundation/economy formalization
 
 ---
 
-**Смотрите также:**
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
-- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
-- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Section 4 Specific deployment SGB"
+```
+
+## Смотрите также
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-section-1-problem](01-section-1-problem.md)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -51,7 +91,7 @@ Phase 3 (year 2+): Foundation/economy formalization
 ---
 
 **Похожие документы:**
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md) (сходство 0.33)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) (сходство 0.30)
-- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.27)
+- [04-section-4-sgb-pilot](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md) (сходство 0.98)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md) (сходство 0.54)
+- [07-section-7-success-metrics](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md) (сходство 0.53)
 

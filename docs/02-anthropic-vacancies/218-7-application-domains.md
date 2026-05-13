@@ -207,7 +207,7 @@ application drafting.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.14)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.14)
 - [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md) (сходство 0.14)
@@ -217,7 +217,13 @@ application drafting.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Application Domains"
+```
+
+## Смотрите также
 - [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
@@ -242,3 +248,19 @@ application drafting.
 - [What's Missing — Layer B](277-what-s-missing-layer-b.md) _17%_
 - [The Specific Case in Front of Us](280-the-specific-case-in-front-of-us.md) _17%_
 - [Practical Recommendations for the Current Project](284-practical-recommendations-for-the-current-project.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- _...ещё 1_
+

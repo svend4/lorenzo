@@ -1,43 +1,53 @@
-# Обработка больших массивов документов — Руководство
+# processing-guide
+<!-- tags: readme, docs -->
 
-> Полное руководство по обработке, анализу и управлению большими коллекциями документов.
-> Основано на реальной практике проекта Lorenzo: 9 MHTML/Markdown файлов → 483 структурированных документа.
 
----
+**Файлов:** 12
 
 ## Содержание
 
-| # | Тема | Описание |
-|---|------|---------|
-| [01](01-overview.md) | Обзор и таксономия | 8 уровней обработки от extraction до automation |
-| [02](02-extraction.md) | Извлечение | MHTML → Markdown, форматы, качество |
-| [03](03-chunking.md) | Чанкинг | 6 стратегий разбивки: фиксированный, по заголовкам, семантический |
-| [04](04-structuring.md) | Структурирование | TOC, теги, шаблоны, перекрёстные ссылки |
-| [05](05-analysis.md) | Анализ и NLP | TF-IDF, TextRank, граф концептов, противоречия |
-| [06](06-search.md) | Поиск | grep → BM25 → фасеты → пассажи → LLM Q&A |
-| [07](07-llm.md) | LLM-обогащение | 5 скриптов, 3 стратегии, ~$0.10 на весь проект |
-| [08](08-export.md) | Экспорт | Obsidian, EPUB, RSS, JSON, JSONL, MCP |
-| [09](09-automation.md) | Автоматизация | Оркестратор, watcher, CI/CD, MCP |
-| [10](10-future.md) | Инновационные подходы | Векторный поиск, граф знаний, мультиагент |
+- [01-overview.md](01-overview.md) — <!-- toc-auto -->
+- [02-extraction.md](02-extraction.md) — > [!WARNING]
+- [03-chunking.md](03-chunking.md) — > [!WARNING]
+- [04-structuring.md](04-structuring.md) — <!-- summary -->
+- [05-analysis.md](05-analysis.md) — > [!NOTE]
+- [06-search.md](06-search.md) — > [!IMPORTANT]
+- [07-llm.md](07-llm.md) — > [!NOTE]
+- [08-export.md](08-export.md) — > [!NOTE]
+- [09-automation.md](09-automation.md) — > [!WARNING]
+- [10-future.md](10-future.md) — > [!NOTE]
+- [PROCESSING_GUIDE.md](PROCESSING_GUIDE.md) — <!-- summary -->
+- [QA.md](QA.md) — > [!NOTE]
+
+<!-- backlinks -->
 
 ---
 
-## Быстрый старт
+**Кто ссылается на этот документ (16):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [02-extraction](02-extraction.md)
+- [03-chunking](03-chunking.md)
+- [04-structuring](04-structuring.md)
+- _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../obsidian/processing-guide/README.md) (сходство 0.87)
+- [README](../svyazi-2-0/overview/README.md) (сходство 0.47)
+- [README](../technology-combinations/synthesis-tables/README.md) (сходство 0.47)
+
+
+
+## Использование
 ```bash
-# Запустить всё разом (умный режим)
-python scripts/improve_run_all.py --smart
-
-# Только быстрые скрипты
-python scripts/improve_run_all.py --fast
-
-# Конкретная группа
-python scripts/improve_run_all.py --group quality
-python scripts/improve_run_all.py --group deeptext
+# Запуск
+python scripts/improve_readme.py
 ```
-
----
-
-## Единый документ
-
-→ [PROCESSING_GUIDE.md](PROCESSING_GUIDE.md) — все 10 частей в одном файле

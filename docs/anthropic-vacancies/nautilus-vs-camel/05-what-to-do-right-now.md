@@ -1,5 +1,12 @@
 # Что я бы посоветовал делать прямо сейчас
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -60,11 +67,30 @@ Option C: Help write specific document или code prototype prepared для CAM
 
 ---
 
-**Смотрите также:**
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
-- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
-- [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что я бы посоветовал делать прямо сейчас"
+```
+
+## Смотрите также
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+- 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -72,7 +98,7 @@ Option C: Help write specific document или code prototype prepared для CAM
 ---
 
 **Похожие документы:**
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.21)
-- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md) (сходство 0.19)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.17)
+- [05-what-to-do-right-now](../../obsidian/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md) (сходство 0.97)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md) (сходство 0.23)
+- [04-what-to-take-from-info-repos](../../obsidian/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.23)
 

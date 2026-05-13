@@ -1,5 +1,37 @@
 # 6. Refined InGit Scope with Cowork in Mind
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [6. Refined InGit Scope with Cowork in Mind](#6-refined-ingit-scope-with-cowork-in-mind)
+  - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
+  - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
+  - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
+  - [6.4. Total Reduced Scope](#64-total-reduced-scope)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [6. Refined InGit Scope with Cowork in Mind](#6-refined-ingit-scope-with-cowork-in-mind)
+  - [6.1. New Phase 1 (Months 1-3): Substrate MVP](#61-new-phase-1-months-1-3-substrate-mvp)
+  - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
+  - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
+  - [6.4. Total Reduced Scope](#64-total-reduced-scope)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
@@ -87,11 +119,31 @@ better outcomes.
 
 ---
 
-**Смотрите также:**
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
-- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Refined InGit Scope with Cowork in"
+```
+
+## Смотрите также
+- [314-6-refined-ingit-scope-with-cowork-in-mind](../../02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- 03-[ingit-provides](03-ingit-provides.md)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [07-practical-first-steps](07-practical-first-steps.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -99,7 +151,7 @@ better outcomes.
 ---
 
 **Похожие документы:**
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.76)
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/obsidian/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.73)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md) (сходство 0.23)
+- [06-refined-ingit-scope](../../obsidian/nautilus/ingit-cowork-en/06-refined-ingit-scope.md) (сходство 0.98)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](../../02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.78)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](../../obsidian/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.77)
 

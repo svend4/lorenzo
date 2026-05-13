@@ -1,6 +1,26 @@
 # Security + routing plane
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+- [Числовые наблюдения](#числовые-наблюдения)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!WARNING]
+> Документ описывает ограничения, риски или требования безопасности. Читайте внимательно.
+
 > - **Авторы:** Dmitriila / BerriAI / MiXaiLL76 / Maslennikovig
 **Проекты:** Svyazi, SENTINEL, LiteLLM, Auto AI Router, Tool Search
 
@@ -37,19 +57,38 @@
 
 ---
 
-**Смотрите также:**
-- [E-execution-plane](docs/svyazi-2-0/ensembles/E-execution-plane.md)
-- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md)
-- [rufler](docs/svyazi-2-0/components/rufler.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Security routing plane"
+```
+
+## Смотрите также
+- [E-execution-plane](../ensembles/E-execution-plane.md)
+- [research-docs-liteparse](research-docs-liteparse.md)
+- [rufler](rufler.md)
+- [yodoca](yodoca.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [E-execution-plane](docs/svyazi-2-0/ensembles/E-execution-plane.md) (сходство 0.29)
-- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md) (сходство 0.25)
-- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md) (сходство 0.24)
+- [security-routing-plane](../../obsidian/svyazi-2-0/components/security-routing-plane.md) (сходство 0.97)
+- [E-execution-plane](../ensembles/E-execution-plane.md) (сходство 0.30)
+- [E-execution-plane](../../obsidian/svyazi-2-0/ensembles/E-execution-plane.md) (сходство 0.29)
 

@@ -1,10 +1,39 @@
 # What's Missing — Layer B
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [What's Missing — Layer B](#whats-missing-layer-b)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [What's Missing — Layer B](#whats-missing-layer-b)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -72,11 +101,33 @@ product.
 
 ---
 
-**Смотрите также:**
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
-- [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
-- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "What s Missing Layer B"
+```
+
+## Смотрите также
+- [277-what-s-missing-layer-b](../../02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [07-specific-case](07-specific-case.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [07-specific-case](07-specific-case.md)
+- [08-recursive-insight](08-recursive-insight.md)
+- _...ещё 4_
 
 
 <!-- similar-docs -->
@@ -84,7 +135,7 @@ product.
 ---
 
 **Похожие документы:**
-- [277-what-s-missing-layer-b](docs/obsidian/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.83)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.76)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md) (сходство 0.24)
+- [04-whats-missing-layer-b](../../obsidian/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md) (сходство 0.98)
+- [277-what-s-missing-layer-b](../../02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.78)
+- [277-what-s-missing-layer-b](../../obsidian/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.77)
 

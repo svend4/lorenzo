@@ -13,6 +13,18 @@ tags: [контакты, команда]
 ---
 # Контакт: VladSpace / Graph RAG
 
+<!-- toc-auto -->
+## Contents
+
+- [Профиль](#профиль)
+- [Статус связи](#статус-связи)
+- [Первое сообщение](#первое-сообщение)
+- [Открытые вопросы](#открытые-вопросы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -24,15 +36,6 @@ tags: [контакты, команда]
 
 ---
 
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Профиль](#профиль)
-- [Статус связи](#статус-связи)
-- [Первое сообщение](#первое-сообщение)
-- [Открытые вопросы](#открытые-вопросы)
 
 
 <!-- summary: Шаблон для связи с автором Graph RAG -->
@@ -81,19 +84,30 @@ _Создано автоматически: 2026-04-29_
 
 ---
 
-**Похожие документы:**
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.88)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.88)
-- [mixaill76](docs/contacts/mixaill76.md) (сходство 0.88)
+## Похожие документы
+- [zodigancode](zodigancode.md) (сходство 0.88)
+- [tagir-analyzes](tagir-analyzes.md) (сходство 0.88)
+- [mixaill76](mixaill76.md) (сходство 0.88)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
+## Смотрите также
+- [tagir-analyzes](tagir-analyzes.md)
+- [cutcode](cutcode.md)
+- [zodigancode](zodigancode.md)
+- [dmitriila](dmitriila.md)
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

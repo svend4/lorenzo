@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:6519c55b8ca0467e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/218-7-application-domains.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:ff774aee90280bed",
+  "payload": {
+    "title": "4. Ten Domains of Application",
+    "summary": "The Representative Agent pattern applies broadly. We identify",
+    "body": "ten domains application абстракт авто проблема domain social workers managing client caseloads principal social worker case manager community organizer managing many clients with complex needs подход existing solutions legal aid severely underfunded advocacy organizations selective private lawyers unaffordable результат counterparties service providers government agencies community resources fellow social workers ключевые слова domain agent principal managing deployment existing solutions domains tip документ содержит практические рекомендации лучшие практики the representative agent pattern applies broadly identify ten domains application the representative agent pattern applies broadly identify ten distinct domains ordered readiness for deployment easiest first most challenging last each section briefly outlines who the principal who are counterparties what the agent does what makes different from existing solutions domain knowledge workers distributed markets principal skilled engineer designer researcher writer consultant operating outside traditional employment counterparties companies projects foundations clients seeking specialized work agent function monitor opportunities prepare applications surface matches negotiate basic terms existing solutions linkedin upwork toptal but these require active self marketing the worker what different worker can focus craft agent does visibility work critical for retired experts disabled specialists geographically dispersed talent career switchers neurodivergent professionals deployment readiness high this the original case that motivated the okwf concept domain retired professionals and volunteers principal retired teacher doctor engineer civil servant with available time and unique expertise but desire actively seek work counterparties schools charities mentorship programs foundation projects civic organizations agent function identify volunteer opportunities matching principal expertise and capacity manage scheduling handle communications with multiple organizations existing solutions volunteermatch idealist passive listings requiring active search what different retired professional doesn have job hunt for volunteer work agent finds the right matches proactively particularly valuable for those experiencing post retirement identity loss deployment readiness high volunteer matching well defined problem space domain social workers managing client caseloads principal social worker case manager community organizer managing many clients with complex needs counterparties service providers government agencies community resources fellow social workers agent function track each client status across multiple service systems alert worker deadlines opportunities complications draft routine communications prepare client specific resource summaries critical clarification the agent represents the social worker not the clients directly serves the worker ability advocate for clients direct client representation more sensitive see domain existing solutions case management software penelope casebook etc typically database oriented not proactive what different proactive advocacy agent surfaces opportunities for clients without requiring worker manual search reduces caseload fatigue helps social workers serve more clients more effectively deployment readiness medium requires careful design around privacy and data governance but fundamental technical barriers concrete example social worker diakonie caritas managing elderly clients each client has unique needs medical housing social financial the agent monitors program announcements deadline changes new community resources when relevant opportunity emerges for client new home delivered meals program the agent flags the worker with relevant context the worker decides whether apply but the discovery work done domain vulnerable citizens navigating bureaucracy principal disabled person navigating welfare system elderly person managing multiple government services immigrant navigating legal procedures person with mental illness managing healthcare bureaucracy counterparties government agencies courts healthcare systems advocacy organizations agent function track all open procedures and deadlines decode bureaucratic communications draft responses identify entitlements not yet claimed flag procedural errors authorities connect with appropriate human advocates when complexity exceeds capability existing solutions legal aid severely underfunded advocacy organizations selective private lawyers unaffordable what different universal access procedural representation citizen who would otherwise lose entitlement through procedural failure has effective advocate deployment readiness medium high some pilot work exists donotpay had early version this concept but mostly limited single domains critical caveat must paired with human advocate escalation agent cannot replace lawyer for serious legal matters must clearly communicate limitations principal personal note from author this the domain where the author currently engages navigating sozialgericht proceedings with disability status the need intensely felt existing infrastructure insufficient representative agent for disability social law contexts could substantially improve access entitlements for millions people domain caregivers managing dependents principal adult child caring for elderly parent parent caring for disabled child spouse caring for ill partner counterparties healthcare providers insurance government services support organizations agent function centralize information across multiple care contexts monitor for service changes schedule and remind draft communications identify support resources for the caregiver themselves often overlooked existing solutions caringbridge lotsa helping hands mostly focused coordination among caregivers not representation across systems what different single point coordination across fragmented care systems reduces caregiver cognitive load significantly deployment readiness medium requires careful privacy design hipaa equivalent elsewhere data sensitivity high domain small business owners and solo entrepreneurs principal small shop owner solo consultant micro business operator without staff for marketing customer service admin counterparties customers suppliers regulators financial services agent function monitor customer inquiries across channels draft responses track regulatory deadlines identify opportunities grants for small business",
+    "tags": [
+      "rag",
+      "ingestion",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 1682,
+    "path": "docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md"
+  }
+}

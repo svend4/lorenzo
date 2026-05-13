@@ -1,0 +1,71 @@
+{
+  "card_id": "sha256:d86ad67ab4969727",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/WORD_FREQ.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/136-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ENTITIES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/KEYWORD_INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONSISTENCY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/NETWORK.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:175621067ffc8234",
+  "payload": {
+    "title": "Существующий landscape collaborators (твоя working knowledge)",
+    "summary": "В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):",
+    "body": "существующий landscape collaborators твоя working knowledge абстракт авто проблема существующий landscape collaborators твоя working knowledge phase особенно осведомлён этих создателях проектах open discovering more проекты cardindex knowl ключевые слова knowledge memory space anthropic graph agent collaborators protocol phase особенно осведомлён этих создателях проектах open discovering more проекты cardindex knowledge space svyazi component catalog ngt memory wikontic смотрите также word freq word freq приложение образец спецификаций инструментов ing приложение образец спецификаций инструментов ing abstract abstract entities entities похожие документы keyword index keyword index сходство consistency consistency сходство network network сходство кто ссылается этот документ abstract abstract приложение образец спецификаций инструментов ing приложение образец спецификаций инструментов ing final note experiment final note experiment readme readme",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "knowledge-space",
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 354,
+    "path": "docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md"
+  }
+}

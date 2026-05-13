@@ -1,5 +1,25 @@
 # Глоссарий
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Глоссарий](#глоссарий)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Глоссарий](#глоссарий)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -101,7 +121,7 @@ Appendix B — реальные примеры
 
 Второе — в каждый из четырёх IMPLEMENTATION_STAGE_PART_*.md добавить header warning из Appendix A с реальными названиями веток (claude/review-nautilus-changes-tdywx и claude/project-implementation-stage-CzylE) и deadline Фазы C (рекомендую 2 недели от сегодня).
 
-Третье — в README.md в разделе «Документация» добавить одну строку: [REVIEW_METHODOLOGY.md](./REVIEW_METHODOLOGY.md) — о трёхфазной методологии review.
+Третье — в README.md в разделе «Документация» добавить одну строку: [REVIEW_METHODOLOGY.md](../../02-anthropic-vacancies/105-review-methodology-md.md) — о трёхфазной методологии review.
 
 Это займёт 15–20 минут, и после этого ваш repo имеет defensible meta-layer: для любого внешнего человека видно, что вы работаете в осмысленной парадигме, а не в хаотичном AI-assisted режиме.
 
@@ -125,11 +145,30 @@ INTEGRATION.md (637 строк) — пять путей подключения
 
 ---
 
-**Смотрите также:**
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
-- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
-- [22-glossary](docs/nautilus/npp-v1-1/22-glossary.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Глоссарий"
+```
+
+## Смотрите также
+- [122-глоссарий](../../02-anthropic-vacancies/122-глоссарий.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [72-расписание-фазы-3](../../02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [22-glossary](../npp-v1-1/22-glossary.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [22-glossary](../npp-v1-1/22-glossary.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -137,7 +176,7 @@ INTEGRATION.md (637 строк) — пять путей подключения
 ---
 
 **Похожие документы:**
-- [122-глоссарий](docs/obsidian/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.78)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.76)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md) (сходство 0.16)
+- [16-glossary](../../obsidian/nautilus/review-methodology/16-glossary.md) (сходство 0.99)
+- [122-глоссарий](../../obsidian/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.19)
+- [122-глоссарий](../../02-anthropic-vacancies/122-глоссарий.md) (сходство 0.19)
 

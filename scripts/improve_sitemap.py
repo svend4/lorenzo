@@ -81,7 +81,10 @@ def main():
     ]
     for sec in sorted(sections.keys()):
         label = SECTION_LABELS.get(sec, sec)
-        lines.append(f"- [{label}](#{sec})")
+        # Compute GitHub-style anchor from the label (must match ## {label} heading)
+        anchor = re.sub(r'[^\w\s-]', '', label.lower())
+        anchor = re.sub(r'\s+', '-', anchor.strip()).strip('-')
+        lines.append(f"- [{label}](#{anchor})")
 
     lines += ["\n---\n", "## Мета-документы\n",
               "| Документ | Описание | Слов |",
@@ -124,7 +127,7 @@ def main():
     for f in sorted(meta, key=lambda x: x.name):
         desc = META_DESC.get(f.name, "—")
         words = get_word_count(f)
-        rel = f.relative_to(ROOT)
+        rel = f.relative_to(DOCS)
         lines.append(f"| [{f.name}]({rel}) | {desc} | {words} |")
 
     # Разделы
@@ -140,7 +143,7 @@ def main():
         for i, f in enumerate(files[:50], 1):
             title = get_title(f)
             words = get_word_count(f)
-            rel   = f.relative_to(ROOT)
+            rel   = f.relative_to(DOCS)
             lines.append(f"| {i} | [{title[:50]}]({rel}) | {words} |")
         if len(files) > 50:
             lines.append(f"| ... | _ещё {len(files)-50} файлов_ | |")

@@ -1,5 +1,30 @@
 # 6. Adapter Interface
 
+<!-- toc-auto -->
+## Contents
+
+- [6. Adapter Interface](#6-adapter-interface)
+  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+- [Смотрите также](#смотрите-также)
+
+
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
+  - [6.2. fetch(query) — Required](#62-fetchquery-required)
+  - [6.3. describe() — Required](#63-describe-required)
+  - [6.4. Type Safety](#64-type-safety)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -10,8 +35,6 @@
 
 ---
 <!-- tags: ingestion, anthropic -->
-
-
 
 
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
@@ -89,11 +112,27 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Смотрите также:**
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
+## Смотрите также
+- [81-6-adapter-interface](../../02-anthropic-vacancies/81-6-adapter-interface.md)
+- [18-6-adapter-interface](../../02-anthropic-vacancies/18-6-adapter-interface.md)
+- [07-portal-entry](07-portal-entry.md)
+- 16-[mcp-extension](16-mcp-extension.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-compatibility-levels](05-compatibility-levels.md)
+- [07-portal-entry](07-portal-entry.md)
+- [13-rest-api](13-rest-api.md)
+- [15-security](15-security.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -101,7 +140,7 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Похожие документы:**
-- [81-6-adapter-interface](docs/obsidian/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.71)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.71)
-- [06-adapter-interface](docs/nautilus/npp-v1-0/06-adapter-interface.md) (сходство 0.57)
+- [06-adapter-interface](../../obsidian/nautilus/npp-v1-1/06-adapter-interface.md) (сходство 0.98)
+- [81-6-adapter-interface](../../obsidian/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.68)
+- [81-6-adapter-interface](../../02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.67)
 

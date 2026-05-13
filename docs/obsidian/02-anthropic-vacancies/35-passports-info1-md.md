@@ -9,11 +9,26 @@ date: 2026-05-13
 
 # passports/info1.md
 
+<!-- toc-auto -->
+## Contents
+
+- [passports/info1.md](#passportsinfo1md)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > **Методологический угол экосистемы svend4**
 
 ---
 <!-- tags: rag, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -33,7 +48,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[55-passports-meta-md]] (сходство 0.22)
 - [[45-passports-pro2-md]] (сходство 0.21)
 - [[27-15-glossary-of-examples]] (сходство 0.16)
@@ -43,7 +58,14 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports info1 md"
+```
+
+## Смотрите также
 - [[55-passports-meta-md]]
 - [[27-15-glossary-of-examples]]
 - [[45-passports-pro2-md]]
@@ -94,3 +116,19 @@ markdown
 - [[25-13-reference-implementation|13. Reference Implementation]] _33%_
 - [[93-18-reference-implementation|18. Reference Implementation]] _33%_
 - [[97-22-glossary-of-reference-examples|22. Glossary of Reference Examples]] _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[25-13-reference-implementation]]
+- [[39-angle-perspective]]
+- [[42-author-contact]]
+- [[45-passports-pro2-md]]
+- [[55-passports-meta-md]]
+- [[59-angle-perspective]]
+- [[62-author-contact]]
+- [[67-о-проекте]]
+- _...ещё 2_
+

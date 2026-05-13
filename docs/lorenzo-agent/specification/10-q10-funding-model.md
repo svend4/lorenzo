@@ -1,10 +1,26 @@
 # Question 10: Funding model (Options A–F + Phase strategy)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
 
 ---
 <!-- tags: roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -88,11 +104,31 @@ Phase 4 (year 3+): Sustainable operating model
 
 ---
 
-**Смотрите также:**
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
-- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)
-- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
-- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Question 10 Funding model Options A F"
+```
+
+## Смотрите также
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
+- [05-q5-authority-limits](05-q5-authority-limits.md)
+- 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [00-context-fundamental-questions](00-context-fundamental-questions.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -100,7 +136,7 @@ Phase 4 (year 3+): Sustainable operating model
 ---
 
 **Похожие документы:**
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.24)
-- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.22)
-- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md) (сходство 0.21)
+- [10-q10-funding-model](../../obsidian/lorenzo-agent/specification/10-q10-funding-model.md) (сходство 0.98)
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md) (сходство 0.32)
+- [09-q9-geographic-linguistic-scope](../../obsidian/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.31)
 

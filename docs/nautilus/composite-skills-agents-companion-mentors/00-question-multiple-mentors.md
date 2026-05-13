@@ -1,10 +1,37 @@
 # Du hast gesagt: Важный момент про способности про скилы как один человек професс…
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — 21 учитель индийского йога — спектр между Professional Colleague и Representative Agent.
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -23,11 +50,33 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-- [01-yogi-metaphor](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
-- [02-what-was-missing-in-paper-6](docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Du hast gesagt Важный момент про"
+```
+
+## Смотрите также
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -35,7 +84,7 @@ Mehr anzeigen
 ---
 
 **Похожие документы:**
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.18)
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.18)
-- [01-yogi-metaphor](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md) (сходство 0.17)
+- [00-question-multiple-mentors](../../obsidian/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md) (сходство 0.97)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.18)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.18)
 

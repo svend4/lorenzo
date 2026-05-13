@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:06d746d6a84d9f47",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/17-5-compatibility-levels.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:6776d5118f15d42e",
+  "payload": {
+    "title": "5. Compatibility Levels",
+    "summary": "NPP определяет 4 уровня совместимости Repo с экосистемой. Это",
+    "body": "compatibility levels абстракт авто проблема use case статические repos архивы reference docs которые нужно искать подход адаптер реализует только describe метод результат это позволяет постепенное подключение существующий repo может начать уровне расти уровню без переделки ключевые слова level compatibility levels anthropic vacancies может portal repos contents compatibility levels compatibility levels level discoverable level discoverable level readable level readable level queryable level queryable level interactive bridged level interactive bridged npp определяет уровня совместимости repo экосистемой это compatibility levels npp определяет уровня совместимости repo экосистемой это позволяет постепенное подключение существующий repo может начать уровне расти уровню без переделки level discoverable repo объявлен memnet nautilus json полями name url format адаптера ещё нет portal знает существовании repo может его запрашивать use case анонс намерения подключить repo написания кода level readable repo имеет passport корне адаптер реализует только describe метод portal может показать метаданные может выполнять query use case статические repos архивы reference docs которые нужно искать level queryable адаптер реализует describe fetch query portal может выполнять полноценный поиск repo use case большинство активных repos level interactive bridged адаптер реализует describe fetch query translate entry target repo portal может переводить концепты между repos через bridges use case repos глубоко связанные другими экосистеме где важны cross repo queries похожие документы compatibility levels сходство compatibility level сходство compatibility level сходство смотрите также compatibility levels compatibility level compatibility level compatibility level",
+    "tags": [
+      "memory",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 331,
+    "path": "docs/obsidian/02-anthropic-vacancies/17-5-compatibility-levels.md"
+  }
+}

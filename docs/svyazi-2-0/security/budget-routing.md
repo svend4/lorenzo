@@ -1,5 +1,14 @@
 # Практичный бюджетный роутинг моделей
 
+<!-- toc-auto -->
+## Contents
+
+- [Обоснование](#обоснование)
+- [Три режима](#три-режима)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -42,11 +51,33 @@
 
 ---
 
-**Смотрите также:**
-- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
-- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
-- [privacy](docs/svyazi-2-0/security/privacy.md)
-- [E-execution-plane](docs/svyazi-2-0/ensembles/E-execution-plane.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Практичный бюджетный роутинг моделей"
+```
+
+## Смотрите также
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](../../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [privacy](privacy.md)
+- [E-execution-plane](../ensembles/E-execution-plane.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONCEPTS](../../CONCEPTS.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [E-execution-plane](../ensembles/E-execution-plane.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -54,7 +85,7 @@
 ---
 
 **Похожие документы:**
-- [06-security-privacy](docs/01-svyazi/06-security-privacy.md) (сходство 0.38)
-- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) (сходство 0.37)
-- [06-security-privacy](docs/obsidian/01-svyazi/06-security-privacy.md) (сходство 0.37)
+- [budget-routing](../../obsidian/svyazi-2-0/security/budget-routing.md) (сходство 0.98)
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md) (сходство 0.39)
+- [06-security-privacy](../../obsidian/01-svyazi/06-security-privacy.md) (сходство 0.39)
 

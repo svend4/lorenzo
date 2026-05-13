@@ -1,16 +1,9 @@
 # Practical Recommendations for the Current Project
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [Practical Recommendations for the Current Project](#practical-recommendations-for-the-current-project)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -22,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > For the seven-document Nautilus / OKWF project specifically,
 
 ---
@@ -48,7 +45,7 @@ For the seven-document Nautilus / OKWF project specifically,
 practical next steps:
 
 **Step 1 — Commit documents to repository.** All seven 
-documents should be saved to `[nautilus](../docs/05-habr-projects/memory/memnet.md)/docs/` as Markdown 
+documents should be saved to `[nautilus](../05-habr-projects/memory/memnet.md)/docs/` as Markdown 
 files. This creates stable reference artifacts.
 
 **Step 2 — Create README that links them.** A top-level 
@@ -56,7 +53,7 @@ README explains the relationships between documents, in what
 order to read them, what each addresses. This serves as 
 poor-man's cross-reference index.
 
-**Step 3 — Open [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions.** Enable Discussions on 
+**Step 3 — Open [GitHub](../01-svyazi/03-component-catalog.md) Discussions.** Enable Discussions on 
 the Nautilus repository. Create initial categories: 
 Architecture, Implementation, Pilots, Theory, Community. 
 This provides threaded discussion infrastructure.
@@ -93,7 +90,7 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.16)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md) (сходство 0.15)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
@@ -103,7 +100,13 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Practical Recommendations for the"
+```
+
+## Смотрите также
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
 - [285-closing](285-closing.md)
@@ -151,3 +154,19 @@ The friction will be lower than no infrastructure at all.
 - [Existing Approximations](279-existing-approximations.md) _25%_
 - [The Recursive Insight](281-the-recursive-insight.md) _25%_
 - [What Industry Will Likely Build](282-what-industry-will-likely-build.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [164-10-appendices](164-10-appendices.md)
+- [218-7-application-domains](218-7-application-domains.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- _...ещё 4_
+

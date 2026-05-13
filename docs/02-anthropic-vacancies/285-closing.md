@@ -1,6 +1,47 @@
 # Closing
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Closing](#closing)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Closing](#closing)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** That vision rests on infrastructure that partially exists and partially needs building.
@@ -54,7 +95,7 @@ need to be solved before other work proceeds.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md) (сходство 0.15)
 - [281-the-recursive-insight](281-the-recursive-insight.md) (сходство 0.15)
 - [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md) (сходство 0.13)
@@ -64,7 +105,13 @@ need to be solved before other work proceeds.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Closing"
+```
+
+## Смотрите также
 - [281-the-recursive-insight](281-the-recursive-insight.md)
 - [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
 - [286-acknowledgments](286-acknowledgments.md)
@@ -107,3 +154,19 @@ need to be solved before other work proceeds.
 - [Acknowledgments](286-acknowledgments.md) _25%_
 - [Abstract](168-abstract.md) _21%_
 - [Why This Document Exists](275-why-this-document-exists.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [168-abstract](168-abstract.md)
+- [266-13-closing](266-13-closing.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- [286-acknowledgments](286-acknowledgments.md)
+- _...ещё 3_
+

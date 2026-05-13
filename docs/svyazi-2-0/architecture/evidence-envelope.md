@@ -1,11 +1,30 @@
 # Evidence Envelope
 
+<!-- toc-auto -->
+## Contents
+
+- [Минимальные поля](#минимальные-поля)
+- [Особые случаи](#особые-случаи)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
 **Проекты:** LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
 
 ---
 <!-- tags: memory, rag, local-first, architecture, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -34,11 +53,28 @@
 
 ---
 
-**Смотрите также:**
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
-- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
-- [review-record](docs/svyazi-2-0/architecture/review-record.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Evidence Envelope"
+```
+
+## Смотрите также
+- [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](../../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [integration-spec](integration-spec.md)
+- [review-record](review-record.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [integration-spec](integration-spec.md)
 
 
 <!-- similar-docs -->
@@ -46,7 +82,7 @@
 ---
 
 **Похожие документы:**
-- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md) (сходство 0.23)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md) (сходство 0.21)
-- [11-integration-contracts](docs/obsidian/01-svyazi/11-integration-contracts.md) (сходство 0.21)
+- [evidence-envelope](../../obsidian/svyazi-2-0/architecture/evidence-envelope.md) (сходство 0.97)
+- [READING_LIST](../../READING_LIST.md) (сходство 0.27)
+- [READING_LIST](../../obsidian/READING_LIST.md) (сходство 0.27)
 

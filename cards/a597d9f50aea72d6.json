@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:a597d9f50aea72d6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/39-angle-perspective.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/49-angle-perspective.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/59-angle-perspective.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/46-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/36-essence.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:cd0b5fc04d7aca0e",
+  "payload": {
+    "title": "Angle / Perspective",
+    "summary": "На вопрос «что такое кристалл» `[info1](01-интегральный-анализ-профиля-svend4.md)` отвечает не определением",
+    "body": "angle perspective methodological info смотрит концепты позиции применения похожие документы angle perspective angle perspective сходство angle perspective angle perspective сходство essence essence сходство смотрите также essence essence angle perspective angle perspective angle perspective angle perspective essence essence упоминается angle perspective angle perspective angle perspective angle perspective angle perspective angle perspective essence essence essence essence essence essence вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы angle perspective angle perspective passports pro passports pro passports meta passports meta essence essence angle perspective angle perspective passports info passports info essence essence essence essence связанные документы angle perspective angle perspective angle perspective angle perspective angle perspective angle perspective essence essence passports pro passports pro essence essence passports meta passports meta essence essence кто ссылается этот документ angle perspective angle perspective passports pro passports pro angle perspective angle perspective passports meta passports meta native format native format angle perspective angle perspective readme readme",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 257,
+    "path": "docs/02-anthropic-vacancies/39-angle-perspective.md"
+  }
+}

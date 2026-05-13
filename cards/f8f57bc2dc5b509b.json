@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:f8f57bc2dc5b509b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/35-passports-info1-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/55-passports-meta-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/45-passports-pro2-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/62-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/93-18-reference-implementation.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:2b23693a27ad86ab",
+  "payload": {
+    "title": "passports/info1.md",
+    "summary": "",
+    "body": "passports info методологический угол экосистемы svend похожие документы passports meta passports meta сходство passports pro passports pro сходство glossary examples glossary examples сходство смотрите также passports meta passports meta glossary examples glossary examples passports pro passports pro author contact author contact упоминается reference implementation reference implementation glossary examples glossary examples reference implementation reference implementation glossary reference examples glossary reference examples angle perspective angle perspective appendix minimal working example appendix minimal working example author contact author contact author contact author contact bridges bridges content overview content overview essence essence essence essence essence essence history history passports meta passports meta passports pro passports pro вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы passports pro passports pro passports meta passports meta glossary examples glossary examples essence essence angle perspective angle perspective reference implementation reference implementation essence essence essence essence связанные документы passports pro passports pro passports meta passports meta glossary examples glossary examples essence essence essence essence reference implementation reference implementation reference implementation reference implementation glossary reference examples glossary reference examples кто ссылается этот документ reference implementation reference implementation angle perspective angle perspective author contact author contact passports pro passports pro passports meta passports meta angle perspective angle perspective author contact author contact проекте проекте ещё",
+    "tags": [
+      "rag",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 260,
+    "path": "docs/02-anthropic-vacancies/35-passports-info1-md.md"
+  }
+}

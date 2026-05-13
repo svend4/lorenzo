@@ -370,7 +370,7 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[186-appendix-c-sample-use-cases-in-detail]] (сходство 0.16)
 - [[219-8-pilot-proposal-sgb-advocate-colleague]] (сходство 0.15)
 - [[171-2-historical-precedents-agents-as-civilizational-i]] (сходство 0.14)
@@ -380,7 +380,13 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Ten Domains of Application"
+```
+
+## Смотрите также
 - [[186-appendix-c-sample-use-cases-in-detail]]
 - [[219-8-pilot-proposal-sgb-advocate-colleague]]
 - [[218-7-application-domains]]
@@ -397,3 +403,16 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 ## Упоминается в
 
 - [[README|Вакансии Anthropic — Анализ по кластерам]]
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (6)
+- [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]]
+- [[171-2-historical-precedents-agents-as-civilizational-i]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[218-7-application-domains]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[README]]
+

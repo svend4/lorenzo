@@ -1,11 +1,20 @@
 # 8. Pilot Proposal: SGB Advocate Colleague
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [8. Pilot Proposal: SGB Advocate Colleague](#8-pilot-proposal-sgb-advocate-colleague)
@@ -224,11 +233,32 @@ incremental rather than novel.
 
 ---
 
-**Смотрите также:**
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Pilot Proposal SGB Advocate Colleague"
+```
+
+## Смотрите также
+- [219-8-pilot-proposal-sgb-advocate-colleague](../../02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
+- [09-okwf-integration](../composite-skills-agents/09-okwf-integration.md)
+- [10-appendices](../okwf-concept/10-appendices.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [10-appendices](../okwf-concept/10-appendices.md)
+- [05-economics-replication](05-economics-replication.md)
+- [README](README.md)
+- [09-phased-rollout](../representative-agent-layer-en/09-phased-rollout.md)
 
 
 <!-- similar-docs -->
@@ -236,7 +266,7 @@ incremental rather than novel.
 ---
 
 **Похожие документы:**
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.90)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.85)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md) (сходство 0.20)
+- [08-pilot-sgb-advocate](../../obsidian/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md) (сходство 0.98)
+- [219-8-pilot-proposal-sgb-advocate-colleague](../../02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.86)
+- [219-8-pilot-proposal-sgb-advocate-colleague](../../obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.86)
 

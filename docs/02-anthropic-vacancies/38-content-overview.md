@@ -1,10 +1,29 @@
 # Content Overview
 
+<!-- toc-auto -->
+## Contents
+
+- [Content Overview](#content-overview)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Объём:** 74 документа (по состоянию на апрель 2026)
 
 ---
 <!-- tags: anthropic -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 
 
 
@@ -33,17 +52,36 @@
 
 ---
 
-**Похожие документы:**
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md) (сходство 0.11)
+## Похожие документы
+- [12-content-overview](12-content-overview.md) (сходство 0.11)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [58-content-overview](docs/02-anthropic-vacancies/58-content-overview.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [231-содержание](docs/02-anthropic-vacancies/231-содержание.md)
-- [48-content-overview](docs/02-anthropic-vacancies/48-content-overview.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Content Overview"
+```
+
+## Смотрите также
+- [58-content-overview](58-content-overview.md)
+- [42-author-contact](42-author-contact.md)
+- [231-содержание](231-содержание.md)
+- [48-content-overview](48-content-overview.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [31-content-overview](31-content-overview.md)
+- [README](README.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория.

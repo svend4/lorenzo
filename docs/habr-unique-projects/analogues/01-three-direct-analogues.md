@@ -1,11 +1,39 @@
 # Три прямых аналога Svyazi: K2-18, Wikontic, NGT Memory
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, NGT Memory, Wikontic
 
 ---
 <!-- tags: memory, ingestion, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -41,11 +69,27 @@ https://habr.com/ru/articles/1014366/
 
 ---
 
-**Смотрите также:**
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Три прямых аналога Svyazi K2 18"
+```
+
+## Смотрите также
+- [01-three-key-candidates](../../ai-collaborations/candidates/01-three-key-candidates.md)
+- [wikontic](../../05-habr-projects/knowledge/wikontic.md)
+- [02-related-projects](02-related-projects.md)
+- [03-synthesis-hebbian-collaboration-graph](../../ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -53,7 +97,7 @@ https://habr.com/ru/articles/1014366/
 ---
 
 **Похожие документы:**
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.70)
-- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md) (сходство 0.43)
-- [ngt-memory](docs/obsidian/05-habr-projects/memory/ngt-memory.md) (сходство 0.41)
+- [01-three-direct-analogues](../../obsidian/habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.98)
+- [01-three-key-candidates](../../ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.70)
+- [01-three-key-candidates](../../obsidian/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.69)
 

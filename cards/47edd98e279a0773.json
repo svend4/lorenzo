@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:47edd98e279a0773",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/00-intro.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:cf401d19996b91c2",
+  "payload": {
+    "title": "00 Intro",
+    "summary": "Это honest about its limits. Inquiry paper, not specification.",
+    "body": "intro источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также appendix position series visualization anthropic vacancies appendix position series visualization инфраструктура для совместной интеллектуальной anthropic vacancies инфраструктура для совместной интеллектуальной ingit как cowork интегрированная подложка рабочего anthropic vacancies ingit как cowork интегрированная подложка рабочего blagodarnosti ssylki blagodarnosti ssylki",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 520,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/00-intro.md"
+  }
+}

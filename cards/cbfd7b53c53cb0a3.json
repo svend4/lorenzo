@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:cbfd7b53c53cb0a3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/252-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/211-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:1c96f4fc78eb1b3c",
+  "payload": {
+    "title": "Appendix A: The Six-Type Taxonomy (Updated)",
+    "summary": "This paper updates the Professional Colleague Agents v1.0",
+    "body": "appendix the six type taxonomy updated абстракт авто проблема appendix the six type taxonomy updated this paper updates the professional colleague agents appendix the six type taxonomy updated this paper updates the profess подход updated full taxonomy type name specialization example maturity personal assistant none general chatgpt claude mature pro ключевые слова appendix agent anthropic vacancies table types taxonomy professional this paper updates the professional colleague agents похожие документы appendix comparative table five agent types appendix comparative table five agent types сходство abstract abstract сходство appendix decision framework when build type appendix decision framework when build type сходство смотрите также appendix comparative table five agent types appendix comparative table five agent types appendix decision framework when build type appendix decision framework when build type table contents table contents abstract abstract упоминается closing closing appendix comparative table five agent types appendix comparative table five agent types appendix decision framework when build type first appendix decision framework when build type вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы appendix comparative table five agent types appendix comparative table five agent types appendix decision framework when build type first appendix decision framework when build type table contents table contents the five type typology principal side agents the five type typology principal side agents closing closing abstract abstract relationship other agent types relationship other agent types what makes professional colleague agent what makes professional colleague agent связанные документы appendix decision framework when build type first appendix decision framework when build type appendix comparative table five agent types appendix comparative table five agent types table contents table contents the five type typology principal side agents the five type typology principal side agents relationship other agent types relationship other agent types closing closing abstract abstract what makes professional colleague agent what makes professional colleague agent кто ссылается этот документ abstract abstract table contents table contents the five type typology principal side agents the five type typology principal side agents what makes professional colleague agent what makes professional colleague agent relationship other agent types relationship other agent types closing closing appendix decision framework when build type appendix decision framework when build type abstract abstract ещё",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 492,
+    "path": "docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:5be5d4060987b009",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/WORD_FREQ.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/KEYWORD_INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SENTIMENT.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/STATS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/HEALTH.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:4c3ef67a900f0960",
+  "payload": {
+    "title": "Частотный анализ слов",
+    "summary": "_(Слова, характерные только для этого раздела)_",
+    "body": "частотный анализ слов warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений всего слов очищенных глобальный топ слов слово частота визуализация anthropic vacancies agent проблем nautilus svyazi appendix мин readme cowork obsidian документы agents claude ingit turn быстро mcp layer lorenzo сложный knowledge what слов view architecture упоминается document portal memory связанные habr infrastructure анализ projects open protocol сходство contents work colleague professional документ legal search вакансии содержание why review кластерам топ слов разделам svyazi слов слово частота turn view svyazi search cite memory проект rag collaborations oss mcp agentfs cardindex ngt first anthropic vacancies слов слово частота anthropic vacancies agent appendix cowork документы agents ingit readme nautilus сходство what portal layer contents technology combinations слов слово частота first agent local legal knowledge svyazi technology combinations routing benchmarks readme комбинация habr articles graphs collaborations слов слово частота turn view svyazi search memory cite mcp rag проект llm knowledge слой habr oss agentfs habr projects слов слово частота memory yodoca llm пара habr mcp readme ngt wikontic projects svyazi legal проекты knowledge каждый collaborations слов слово частота collaborations agent memory svyazi rag habr проектов коллабораций mcp knowledge поиск источник mhtml снимок корень anthropic vacancies слов слово частота anthropic vacancies claude hermes вакансии источник кластерам репозитория снимок mhtml корень nautilus раздел диалога research autofilled слов слово частота autofilled lorenzo cowork ingit components svyazi kksudo nautilus sgb spbmolot readme tables антропик связанные документы badges слов слово частота badges svg words scripts health license branch бейджи scoring репозитория автоматически генерируются скриптом improve текущие contacts слов слово частота contacts статус связи профиль первое сообщение svyazi vladspace открытые вопросы сходство zodigancode spbmolot contact author glossary слов слово частота svyazi combinations habr projects components unique technology mcp ensembles memory комбинация pairs key rag agent habr unique projects слов слово частота habr projects unique claude проектов поиск источник уникальных репозитория mhtml pairs снимок корень mcp llm lorenzo agent слов слово частота lorenzo agent anthropic claude репозитория catalyst источник mhtml снимок вакансии кластерам корень раздел диалога dhlab meta scripting слов слово частота скрипт llm уровень скриптов скрипты читает режим docstring improve ast обогащение скрипта метаскрипт файл scripts nautilus слов слово частота nautilus agent anthropic claude agents cowork раздел work репозитория вакансии источник layer mhtml кластерам снимок obsidian слов слово частота anthropic vacancies проблем agent nautilus мин appendix svyazi cowork readme быстро agents turn ingit layer processing guide слов слово частота improve уровень llm часть claude поиск реализовано граф инструмент следующий шаг стратегия mcp обработка processing root слов слово частота anthropic vacancies проблем obsidian мин svyazi сложный быстро документы упоминается appendix nautilus слов связанные readme svyazi слов слово частота view turn svyazi search citeturn components memory research rag источник name report deep first yodoca technology combinations слов слово частота combinations legal technology agent claude новых code event stack технологий mhtml комбинирование свойств источник снимок templates слов слово частота templates template имя название version record tags смотрите дата decision nnnn компонент создано действие значение уникальные слова разделов слова характерные только для этого раздела svyazi turn view svyazi search cite memory проект rag collaborations oss agentfs cardindex anthropic vacancies ссылается technology combinations first local legal knowledge technology combinations routing benchmarks комбинация habr articles graphs collaborations turn view svyazi search memory cite rag проект llm слой oss agentfs habr projects memory yodoca llm пара habr ngt wikontic projects проекты каждый граф памяти collaborations collaborations memory rag habr проектов коллабораций поиск источник mhtml снимок корень репозитория anthropic vacancies hermes вакансии источник кластерам репозитория снимок mhtml корень раздел диалога research beneficial autofilled autofilled lorenzo cowork ingit components svyazi kksudo nautilus sgb spbmolot readme tables badges badges svg words scripts health license branch contacts contacts статус связи профиль первое сообщение svyazi vladspace открытые вопросы сходство zodigancode glossary svyazi combinations habr projects components unique technology mcp ensembles memory комбинация pairs habr unique projects habr projects unique claude проектов поиск источник уникальных репозитория mhtml pairs снимок lorenzo agent lorenzo репозитория catalyst источник mhtml снимок вакансии кластерам корень раздел диалога dhlab meta scripting скрипт llm уровень скриптов скрипты читает режим docstring improve ast обогащение скрипта nautilus раздел mhtml снимок корень диалога paper social these совместно assistants написанный rfc processing guide improve уровень llm часть поиск реализовано граф инструмент следующий шаг стратегия обработка root obsidian сложный строка заголовок секция группа svyazi view turn svyazi search citeturn components memory research rag источник name report technology combinations combinations legal technology claude новых code event stack технологий mhtml комбинирование свойств templates templates template имя название version record tags смотрите дата decision nnnn компонент",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 3193,
+    "path": "docs/WORD_FREQ.md"
+  }
+}

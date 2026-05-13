@@ -1,5 +1,13 @@
 # Что стоит зафиксировать как default policy
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -32,11 +40,27 @@
 
 ---
 
-**Смотрите также:**
-- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
-- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
-- [risks](docs/svyazi-2-0/prototype/risks.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что стоит зафиксировать как default"
+```
+
+## Смотрите также
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](../../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [risks](../prototype/risks.md)
+- [first-contacts](../outreach/first-contacts.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -44,7 +68,7 @@
 ---
 
 **Похожие документы:**
-- [06-security-privacy](docs/01-svyazi/06-security-privacy.md) (сходство 0.45)
-- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) (сходство 0.44)
-- [06-security-privacy](docs/obsidian/01-svyazi/06-security-privacy.md) (сходство 0.43)
+- [default-policy](../../obsidian/svyazi-2-0/security/default-policy.md) (сходство 0.97)
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md) (сходство 0.44)
+- [06-security-privacy](../../obsidian/01-svyazi/06-security-privacy.md) (сходство 0.44)
 

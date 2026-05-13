@@ -1,11 +1,27 @@
 # Комбинация 16: Adversarial Multi-Agent Code Review
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Auto AI Router
 
 ---
 <!-- tags: rag, orchestration, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -64,11 +80,34 @@ ROI: Automated review → manual approval only for edge cases
 
 ---
 
-**Смотрите также:**
-- [23-security-first-code-review-pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md)
-- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 16 Adversarial Multi Agent"
+```
+
+## Смотрите также
+- [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
+- [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
+- [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -76,7 +115,7 @@ ROI: Automated review → manual approval only for edge cases
 ---
 
 **Похожие документы:**
-- [23-security-first-code-review-pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md) (сходство 0.35)
-- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md) (сходство 0.25)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.23)
+- [16-adversarial-multi-agent-code-review](../../obsidian/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md) (сходство 0.97)
+- [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md) (сходство 0.30)
+- [23-security-first-code-review-pipeline](../../obsidian/technology-combinations/combinations/23-security-first-code-review-pipeline.md) (сходство 0.29)
 

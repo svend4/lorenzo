@@ -1,11 +1,26 @@
 # habr-unique-projects/ — поиск уникальных проектов на Хабре
 
+<!-- toc-auto -->
+## Содержание
+
+
+
+
+<!-- summary -->
+> Уникальные проекты с Хабра: память, граф знаний, инструменты и авторы для коллаборации.
+
+<!-- tags: habr, projects, overview -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
+
 ## Источник
 
 Файлы в корне репозитория:
 
-- [`Поиск уникальных проектов на Хабре для совместной разработки - Claude`](../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20-%20Claude)
-- [`… - Claude (1)`](../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D0%A5%D0%B0%D0%B1%D1%80%D0%B5%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8%20-%20Claude%20(1)) — почти идентичная вторая копия
+- `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (MHTML)
+- `… - Claude (1)` — почти идентичная вторая копия (MHTML)
 
 ## Подпапки
 
@@ -27,12 +42,34 @@
 
 Имена, которые стоит держать в голове: Дмитрий Дементьев (adversarial-review), Никита Списак (second-brain skill-pack для Obsidian), vuguzum (self-aware MCP), автор «Деревни» (tmux-агенты), автор «9 агентов», Андрей Чуян (Svyazi), Аскольд Романов (K2-18), Алла Чепурова (Wikontic), автор Yodoca, автор NGT Memory, автор PDA-бота. См. [`final-ensembles/4-summary-authors.md`](final-ensembles/4-summary-authors.md).
 
+## Использование
+
+```bash
+python scripts/improve_semantic_search.py --query "habr unique projects поиск уникальных пр" --section habr-unique-projects
+```
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [4-summary-authors](final-ensembles/4-summary-authors.md)
+- [README](search-strategy/README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md) (сходство 0.31)
-- [authors-by-name](docs/glossary/authors-by-name.md) (сходство 0.17)
-- [05-hw-nl2workflow](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md) (сходство 0.14)
+- [README](../obsidian/habr-unique-projects/README.md) (сходство 0.99)
+- [4-summary-authors](../obsidian/habr-unique-projects/final-ensembles/4-summary-authors.md) (сходство 0.28)
+- [4-summary-authors](final-ensembles/4-summary-authors.md) (сходство 0.28)
 

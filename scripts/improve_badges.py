@@ -101,7 +101,7 @@ def main():
         svg = make_badge(label, value, color)
         out = BADGES_DIR / filename
         out.write_text(svg, encoding="utf-8")
-        badge_paths.append((label, out.relative_to(ROOT)))
+        badge_paths.append((label, filename))
 
     print(f"  wrote: {len(badges)} badges → {BADGES_DIR.relative_to(ROOT)}/")
 

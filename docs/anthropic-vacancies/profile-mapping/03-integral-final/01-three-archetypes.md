@@ -1,10 +1,26 @@
 # Интегральный портрет — три архетипа
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: architecture, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -29,11 +45,30 @@
 
 ---
 
-**Смотрите также:**
-- [01-profile-five-layers](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md)
-- [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Интегральный портрет три архетипа"
+```
+
+## Смотрите также
+- [01-profile-five-layers](../01-initial-analysis/01-profile-five-layers.md)
+- [07-unique-niche-eu-legal-infra](../01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+- [04-tertiary-research-engineer-agents](../01-initial-analysis/04-tertiary-research-engineer-agents.md)
+- [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [01-profile-five-layers](../01-initial-analysis/01-profile-five-layers.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -41,7 +76,7 @@
 ---
 
 **Похожие документы:**
-- [01-profile-five-layers](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md) (сходство 0.14)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.13)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md) (сходство 0.13)
+- [01-three-archetypes](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md) (сходство 0.98)
+- [05-quaternary-developer-education](../01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.19)
+- [05-quaternary-developer-education](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.19)
 

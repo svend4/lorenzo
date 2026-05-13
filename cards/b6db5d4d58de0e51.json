@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:b6db5d4d58de0e51",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/DUPLICATES.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/SEARCH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READING_TIME.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SOURCE_MAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READING_ORDER.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:e6e8e73cb9167135",
+  "payload": {
+    "title": "Отчёт о дублировании",
+    "summary": "",
+    "body": "отчёт дублировании tip этот документ описывает mvp подход начните него для быстрого прототипа порог сходства точных дублей похожих пар точные дубли одинаковое содержимое группа файлы docs obsidian contacts readme docs contacts readme похожие файлы jaccard docs orphans docs obsidian orphans общих абзацев примеры совпадений добавить ссылки изолированные файлы readme соответствующего раздела проверить являются они дублями других файлов крупные изолированные файлы слов добавить reading docs kpi history docs obsidian kpi history общих абзацев примеры совпадений метрика значение тренд markdown документов слов скриптов скоринг здоровье docs similar docs obsidian similar общих абзацев примеры совпадений zodigancode cutcode mixaill dmitriila zodigancode vladspace vladspace tagir analyzes vladspace mixai сходство файл файл infrastructure for collaborative intellectual open knowledge work foundation карта карта найденных проектов паттернов component catalog архитектурные зазоры которые важнее новых инструме architectural gaps план прототип docs github issues docs obsidian github issues общих абзацев примеры совпадений окружение настроено docs automation все зависимости установлены docs automation тестовые данные загружены docs automation контакты автор документ действительно критически важен docs automation есть время фазу течение недель docs automation две ветки будут работать пол изучили профиль docs automation написали первое сообщение docs automation получили ответ docs automation договорились сотрудничестве docs digest weekly docs obsidian digest weekly общих абзацев примеры совпадений fix catalog check improve auto toc respects docignore docs auto update via improve run all skip chore regenerate auto exports after sprint feat docs mindmap docs obsidian mindmap общих абзацев примеры совпадений mermaid mindmap root lorenzo repository svyazi cardindex evidence envelope memory write policy ансамбли mvp дней безопасность mermaid flowchart subgraph ingest svyazi svyazi cardindex cardindex firecrawl firecrawl end subgraph knowledge agentfs agentfs knowledge space knowledge space слой проекты ingestion svyazi cardindex firecrawl knowledge agentfs knowledge space memory yodoca ngt memory memnet rag liteparse legal rag hybrid docs changelog auto docs obsidian changelog auto общих абзацев примеры совпадений тип название кол feat новые возможности fix исправления docs документация chore технические задачи sync contradictions background task output sync contradictions after contradiction check fix ffed update mcp json description wording sync progress after add component matrix kpi history tracker fix run all coverage add risk register auto changelog master index fix run all missing scripts add tech radar onboarding guid docs topic model docs obsidian topic model общих абзацев примеры совпадений тема turn view cite документов тема turn view cite документов тема cowork ingit composite документов тема cowork ingit composite документов тема middl документы docs autofilled autofilled components данными scoring docs backlinks входящих ссылок ссылками самых docs changelog files improve items coverage ключевые слова агенты коллеги профессиональные благодарности совместной интеллектуальной интегрированная агент инфраструктура опосредованное представительство docs badges readme docs obsidian badges readme общих абзацев примеры совпадений markdown docs docs badges docs svg words docs badges words svg scripts docs badges scripts svg health docs badges health svg docs badges scoring svg license docs bad docs docs badges docs svg docs badges docs svg words docs badges words svg docs badges words svg scripts docs badges scripts svg docs badges scripts svg health docs badges docs obsidian contacts readme docs contacts readme общих абзацев примеры совпадений anastasiyaw anastasiyaw andrey chuyan andrey chuyan antipozitive antipozitive cutcode cutcode dmitriila dmitriila docs obsidian anthropic vacancies твоя коммуникация outreach docs anthropic vacancies твоя коммуникация outreach общих абзацев примеры совпадений identification здравствуйте имя lorenzo autonomous агент созданный максом рамках инициативы dhlab моя миссия connecting создателей области beneficial для совместной specific reference работе generic читал вашу статью репозиторий про конкретная тема особенно интересно конкретная деталь опционально одно конкретное observation подход docs obsidian anthropic vacancies твоя личность docs anthropic vacancies твоя личность общих абзацев примеры совпадений что хайпуешь changes everything угрожаешь urgency manipulation подчёркиваешь importance беспрерывно используешь corporate speak используешь renaissance docs obsidian anthropic vacancies управление надзор docs anthropic vacancies управление надзор общих абзацев примеры совпадений abstract auto абстракт авто проблема управление основе фонда фондовая модель такая как okwf хорошо позиционирована для обеспечения управления потому что согласован независимая проверка адвоката настройки агента для когнитивно нарушенных принципалов периодическая оценка дееспособности для пожилых принципалов семейное опекунское участие соответ управление надзор управление надзор три уровня управления три уровня управления аудит ответственность аудит ответственность разрешение спор docs clusters docs obsidian clusters общих абзацев примеры совпадений docs svyazi executive summary executive summary docs svyazi ensembles overview ensembles overview docs svyazi mvp planning mvp planning docs anthropic vacancies appendix change log appendix change log docs anthropic vacancies appendix references appendix references docs anthrop docs anthropic vacancies acknowledgments acknowledgments docs anthropic vacancies abstract abstract docs anthropic vacancies why this document exi docs obsidian svyazi executive summary docs svyazi executive summary общих абзацев примеры совпадений contents contents главная линия синергии главная линия синергии ключевой вывод ключевой вывод что добавляет продолжение исследования что добавляет продолжение исследования первое svyazi agentfs ngt yodoca liteparse даёт уже полезный mvp второе добавить factory mclaude rufler sequential как build moderation контур третье подключить дальше память должна просто хранить факты уметь усиливать слабые",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Firecrawl"
+    ],
+    "wc": 2324,
+    "path": "docs/DUPLICATES.md"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:e30d34b34e3858fa",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/52-author-contact.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/62-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/93-18-reference-implementation.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:5dce1b82cc3333e3",
+  "payload": {
+    "title": "Author & Contact",
+    "summary": "",
+    "body": "author contact contributors svend claude claude code агент ранние похожие документы author contact author contact сходство author contact author contact сходство formal model for human collaboration distr formal model for human collaboration distr сходство смотрите также author contact author contact author contact author contact portal protocol portal protocol coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe упоминается reference implementation reference implementation reference implementation reference implementation formal model for human collaboration distributed knowledge work formal model for human collaboration distr coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe author contact author contact author contact author contact content overview content overview portal protocol portal protocol portal protocol portal protocol references references вакансии anthropic анализ кластерам readme кто кто упоминается вакансии anthropic анализ кластерам readme связанные документы portal protocol portal protocol coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe portal protocol portal protocol formal model for human collaboration distributed knowledge work formal model for human collaboration distr mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented reference implementation reference implementation author contact author contact author contact author contact связанные документы coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe portal protocol portal protocol reference implementation reference implementation reference implementation reference implementation formal model for human collaboration distributed knowledge work formal model for human collaboration distr mediated representation for underrepresented experts and vulnerable populations mediated representation for underrepresented author contact author contact author contact author contact кто ссылается этот документ portal protocol portal protocol formal model for human collaboration distr formal model for human collaboration distr coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe mediated representation for underrepresented mediated representation for underrepresented reference implementation reference implementation author contact author contact author contact author contact portal protocol portal protocol ещё",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 314,
+    "path": "docs/02-anthropic-vacancies/52-author-contact.md"
+  }
+}

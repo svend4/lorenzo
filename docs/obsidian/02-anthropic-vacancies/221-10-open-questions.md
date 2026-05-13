@@ -9,10 +9,14 @@ date: 2026-05-13
 
 # 10. Open Questions
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [10. Open Questions](#10-open-questions)
   - [10.1. Scope of "Profession"](#101-scope-of-profession)
   - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
@@ -22,26 +26,8 @@ date: 2026-05-13
   - [10.6. Transition Costs](#106-transition-costs)
   - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
   - [10.8. Appropriate Resistance](#108-appropriate-resistance)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Scope of "Profession"](#101-scope-of-profession)
-  - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
-  - [10.3. International Variation](#103-international-variation)
-  - [10.4. Update Cadence](#104-update-cadence)
-  - [10.5. Quality Assessment](#105-quality-assessment)
-  - [10.6. Transition Costs](#106-transition-costs)
-  - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
-  - [10.8. Appropriate Resistance](#108-appropriate-resistance)
 
 
 <!-- summary -->
@@ -127,7 +113,7 @@ they shape technical decisions.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[264-11-open-questions]] (сходство 0.18)
 - [[179-10-open-questions]] (сходство 0.12)
 - [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.12)
@@ -137,9 +123,31 @@ they shape technical decisions.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+```
+
+## Смотрите также
 - [[264-11-open-questions]]
 - [[179-10-open-questions]]
 - [[254-1-why-the-binary-view-is-incomplete]]
 - [[223-12-closing]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[151-open-knowledge-work-foundation-md]]
+- [[211-table-of-contents]]
+- [[213-2-what-makes-a-professional-colleague-agent]]
+- [[215-4-architecture-of-professional-colleague-agents]]
+- [[216-5-the-economics-of-profession-wide-replication]]
+- [[217-6-risks-specific-to-this-category]]
+- [[219-8-pilot-proposal-sgb-advocate-colleague]]
+- [[223-12-closing]]
+- _...ещё 4_
 

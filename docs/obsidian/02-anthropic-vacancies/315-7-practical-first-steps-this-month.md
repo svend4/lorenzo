@@ -9,33 +9,27 @@ date: 2026-05-13
 
 # 7. Practical First Steps This Month
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
   - [7.1. This Week](#71-this-week)
   - [7.2. This Month](#72-this-month)
   - [7.3. Next Quarter](#73-next-quarter)
   - [7.4. Specific Test Case: This Document Series](#74-specific-test-case-this-document-series)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 
 <!-- tags: architecture, anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-<!-- toc-auto -->
-## Contents
-
-- [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
-  - [7.1. This Week](#71-this-week)
-  - [7.2. This Month](#72-this-month)
-  - [7.3. Next Quarter](#73-next-quarter)
-  - [7.4. Specific Test Case: This Document Series](#74-specific-test-case-this-document-series)
 
 
 <!-- summary -->
@@ -122,7 +116,7 @@ work. Most successful infrastructure projects start this way.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[313-5-four-integration-paths-in-order-of-accessibility]] (сходство 0.14)
 - [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
 - [[280-the-specific-case-in-front-of-us]] (сходство 0.12)
@@ -132,9 +126,31 @@ work. Most successful infrastructure projects start this way.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Practical First Steps This Month"
+```
+
+## Смотрите также
 - [[306-with-anthropic-s-cowork-platform|314-6-refined-[ingit]]-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [[313-5-four-integration-paths-in-order-of-accessibility]]
 - [[308-table-of-contents]]
 - [[284-practical-recommendations-for-the-current-project]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[284-practical-recommendations-for-the-current-project]]
+- [[303-приложение-визуализация-позиции-в-серии]]
+- [[307-abstract]]
+- [[308-table-of-contents]]
+- 323-appendix-c-sample-[[323-appendix-c-sample-ingit-mcp-server-tool-specificat|ingit-mcp-server-tool-specificat]]
+- _...ещё 1_
 

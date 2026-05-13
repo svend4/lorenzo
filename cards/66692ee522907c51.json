@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:66692ee522907c51",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/13-closing.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/266-13-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/267-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/composite-skills-agents/09-okwf-integration.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6059cedb9df2161e",
+  "payload": {
+    "title": "13. Closing",
+    "summary": "Mastery in skilled work has always been composite. The yoga",
+    "body": "closing источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper composite skills agents источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper composite skills agents closing mastery skilled work has always been composite the yoga master who studied with twenty teachers did not invent his practice from nothing combined what learned from specialists the musician the lawyer the physician the architect the therapist all develop their distinctive practice combining individually general skills into individually distinctive configurations what new the possibility infrastructure that mirrors this structure until now support for skilled work has been either too generic one assistant for everyone too custom unique development per principal neither matches how practitioners actually develop and operate composite skills agents fill this gap they make the twenty teacher pattern accessible scale any practitioner can configure their own ensemble specialist sub agents creating support that matches their actual practice rather than forcing them into pre defined categories this recognition changes the practical strategy for deployment professions building monolithic profession wide agents serves narrow purposes well but cannot serve the more common case practitioners with distinctive specialized configurations building uniquely customized agents serves deep representational needs but cannot scale building composite infrastructure registry narrow sub agents plus configurable coordinators serves the broad middle where most skilled practice actually happens for the open knowledge work foundation specifically composite infrastructure provides more flexible support for diverse practitioner needs stronger alignment with mission empowering distinctive practitioners better economic structure combinatorial leverage fixed investment more natural connection existing pattern library architecture clearer migration path from initial pilot mature ecosystem this the architecture skilled work has needed the question whether build carefully with open standards foundation governance quality curation and practitioner ownership whether let emerge through commercial dynamics that favor concentration over distribution the choice again institutional rather than technological propose the careful path invite collaboration walking acknowledgments the composite skills agent concept emerged from dialogue with claude anthropic april the crystallizing contribution was the user observation that the binary view between professional colleague agent type and representative agent type missed the most common middle case practitioners whose distinctive value comes from combining individually general specializations the metaphor the indian yoga master who studied with twenty teachers drawn from journalist interview the user remembered provides the central illustration that makes the pattern clear the user retained editorial authority all claims errors and specific architectural proposals are author responsibility this paper the seventh the sequence developed across this extended collaboration nautilus portal protocol review methodology double triangle architecture open knowledge work foundation concept document representative agent layer professional colleague agents composite skills agent this paper together these papers form architectural vision for supported knowledge work that respects how mastery develops how professions function and how human dignity preserved when augments human practice references foundational sources for composite architecture anderson the architecture cognition harvard university press modular cognitive architecture minsky the society mind simon schuster cognition ensemble specialized agents csikszentmihalyi creativity flow and the psychology discovery and invention harper how expertise develops through specialization combined with synthesis pattern composite mastery смотрите также closing anthropic vacancies closing acknowledgments anthropic vacancies acknowledgments why binary incomplete why binary incomplete okwf integration okwf integration",
+    "tags": [
+      "rag",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 664,
+    "path": "docs/nautilus/composite-skills-agents/13-closing.md"
+  }
+}

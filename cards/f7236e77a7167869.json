@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:f7236e77a7167869",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/09-federated-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:ed52cff50721131d",
+  "payload": {
+    "title": "Personal multi-agent hub",
+    "summary": "Что получается: Personal multi-agent hub:",
+    "body": "personal multi agent hub источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов смотрите также specialized knowledge workspace specialized knowledge workspace platform for professional communities platform for professional communities federated platform federated platform claude subagents patterns claude subagents patterns",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 193,
+    "path": "docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:3cc26c60db9bd77f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:08778b3b4b23b108",
+  "payload": {
+    "title": "Что отсутствует — Слой B",
+    "summary": "Между чатом и репозиторием должен существовать",
+    "body": "что отсутствует слой источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также что отсутствует слой anthropic vacancies что отсутствует слой dvukhsloynyy stek dvukhsloynyy stek konkretnyy sluchay konkretnyy sluchay rekomendatsii rekomendatsii",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 401,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md"
+  }
+}

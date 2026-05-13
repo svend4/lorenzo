@@ -33,7 +33,7 @@ date: 2026-05-13
 <!-- toc -->
 ## Содержание
 
-- [portal-mcp.py](#portal-mcppy)
+- portal-[mcp.py](#portal-mcppy)
 - [Упоминается в](#упоминается-в)
 - [Связанные документы](#связанные-документы)
 
@@ -756,9 +756,9 @@ if __name__ == "__main__":
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[03-portal-protocol-md]] (сходство 0.22)
-- [[125-readme-mcp-md-инструкция-по-установке]] (сходство 0.21)
+- 125-readme-[[125-readme-mcp-md-инструкция-по-установке|mcp-md-инструкция-по-установке]] (сходство 0.21)
 - [[28-appendix-a-minimal-working-example]] (сходство 0.17)
 
 
@@ -766,9 +766,16 @@ if __name__ == "__main__":
 
 ---
 
-**Смотрите также:**
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "portal mcp py"
+```
+
+## Смотрите также
 - [[28-appendix-a-minimal-working-example]]
-- [[125-readme-mcp-md-инструкция-по-установке]]
+- 125-readme-[[125-readme-mcp-md-инструкция-по-установке|mcp-md-инструкция-по-установке]]
 - [[98-appendix-a-minimal-working-example]]
 - [[65-readme-md]]
 
@@ -777,8 +784,8 @@ if __name__ == "__main__":
 
 - [[23-11-security-considerations|11. Security Considerations]]
 - [[92-17-versioning-policy|17. Versioning Policy]]
-- [[19-7-portalentry-structure|7. PortalEntry Structure]]
-- [[82-7-portalentry-structure|7. PortalEntry Structure]]
+- 7. [[19-7-portalentry-structure|PortalEntry Structure]]
+- 7. [[82-7-portalentry-structure|PortalEntry Structure]]
 - [[305-a-practical-path-to-layer-b-through-symbiotic-inte|A Practical Path to Layer B Through Symbiotic Integration]]
 - [[04-abstract|Abstract]]
 - [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
@@ -821,3 +828,19 @@ if __name__ == "__main__":
 - [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]] _33%_
 - [[54-for-the-curious-philosophy|For the Curious: Philosophy]] _29%_
 - [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (21)
+- [[03-portal-protocol-md]]
+- [[04-abstract]]
+- [[105-review-methodology-md]]
+- 125-readme-[[125-readme-mcp-md-инструкция-по-установке|mcp-md-инструкция-по-установке]]
+- 127-подключение-к-[[127-подключение-к-claude-desktop|claude-desktop]]
+- [[130-отладка]]
+- [[132-planned-v0-2-0]]
+- [[154-table-of-contents]]
+- _...ещё 13_
+

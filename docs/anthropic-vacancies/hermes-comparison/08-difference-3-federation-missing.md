@@ -1,5 +1,12 @@
 # Различие 3: Federated knowledge architecture отсутствует
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -28,11 +35,35 @@ Nautilus Portal Protocol specifically addresses federated queries across multipl
 
 ---
 
-**Смотрите также:**
-- [06-difference-1-structured-substrate-missing](docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
-- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Различие 3 Federated knowledge"
+```
+
+## Смотрите также
+- [06-difference-1-structured-substrate-missing](06-difference-1-structured-substrate-missing.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-difference-1-structured-substrate-missing](06-difference-1-structured-substrate-missing.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- [README](README.md)
+- [01-passive-vs-active-roles](../nautilus-vs-camel/01-passive-vs-active-roles.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -40,7 +71,7 @@ Nautilus Portal Protocol specifically addresses federated queries across multipl
 ---
 
 **Похожие документы:**
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.33)
-- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md) (сходство 0.32)
-- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.32)
+- [08-difference-3-federation-missing](../../obsidian/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md) (сходство 0.97)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md) (сходство 0.52)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md) (сходство 0.51)
 

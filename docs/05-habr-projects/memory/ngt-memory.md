@@ -1,5 +1,21 @@
 # NGT[^ngt] Memory: ассоциативный граф
 
+<!-- toc-auto -->
+## Contents
+
+- [Статус](#статус)
+  - [Прямые аналоги Svyazi (паттерн «LLM + детерминированный код → структура»)](#прямые-аналоги-svyazi-паттерн-llm-детерминированный-код-структура)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,6 +26,10 @@
 
 
 <!-- autofill-status -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Статус
 
 | Параметр | Значение |
@@ -17,7 +37,7 @@
 | Теги | — |
 | Упоминаний в репо | 260 |
 | Слой | memory |
-| Контакт | [@spbmolot](docs/contacts/spbmolot.md) |
+| Контакт | [@spbmolot](../../contacts/spbmolot.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-04-29_
@@ -48,19 +68,25 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 ---
 
-**Похожие документы:**
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md) (сходство 0.10)
+## Похожие документы
+- [wikontic](../knowledge/wikontic.md) (сходство 0.10)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
-- [NARRATIVE](docs/NARRATIVE.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "NGT ngt Memory ассоциативный граф"
+```
+
+## Смотрите также
+- [Yodoca: консолидация и забывание](yodoca.md)
+- agent-memory-[mcp + Memory OS](agent-memory-mcp.md)
+- [MemNet: исследовательская память](memnet.md)
+- [Wikontic: семантический граф](../knowledge/wikontic.md)
 
 
 
@@ -73,3 +99,14 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 [^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [wikontic](../knowledge/wikontic.md)
+- [README](README.md)
+- [04-structuring](../../processing-guide/04-structuring.md)
+- [PROCESSING_GUIDE](../../processing-guide/PROCESSING_GUIDE.md)
+

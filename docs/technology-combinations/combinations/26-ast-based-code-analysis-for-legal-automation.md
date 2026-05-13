@@ -1,10 +1,26 @@
 # Комбинация 26: AST-Based Code Analysis for Legal Automation
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 
 ---
 <!-- tags: rag -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -72,11 +88,35 @@ ROI: Prevents errors from inconsistent legal implementations
 
 ---
 
-**Смотрите также:**
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
-- [27-hybrid-rag-with-ast-chunked-code](docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md)
-- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
-- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 26 AST Based Code Analysis"
+```
+
+## Смотрите также
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+- 27-hybrid-[rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
+- [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
+- [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
+- [27-hybrid-rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
+- [README](README.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -84,7 +124,7 @@ ROI: Prevents errors from inconsistent legal implementations
 ---
 
 **Похожие документы:**
-- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md) (сходство 0.27)
-- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md) (сходство 0.25)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.25)
+- [26-ast-based-code-analysis-for-legal-automation](../../obsidian/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md) (сходство 0.97)
+- [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md) (сходство 0.36)
+- [29-meta-programmatic-legal-template-generator](../../obsidian/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md) (сходство 0.35)
 

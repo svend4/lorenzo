@@ -107,7 +107,7 @@ def main():
             n = len(list(sec_dir.rglob("*.md")))
             w = sum(len(f.read_text(encoding="utf-8").split()) for f in sec_dir.rglob("*.md"))
             lines.append(
-                f"### [{title}](docs/{folder}/README.md)\n\n"
+                f"### [{title}]({folder}/README.md)\n\n"
                 f"{desc}\n\n"
                 f"_{n} файлов · {w:,} слов_\n"
             )
@@ -120,7 +120,7 @@ def main():
     for fname, desc in REPORT_DOCS:
         p = DOCS / fname
         if p.exists():
-            lines.append(f"| [`{fname}`](docs/{fname}) | {desc} |")
+            lines.append(f"| [`{fname}`]({fname}) | {desc} |")
 
     lines += ["\n## Ключевые документы\n"]
     lines.append("| Документ | Тема | Описание |")
@@ -128,7 +128,7 @@ def main():
     for fname, title, desc in META_DOCS:
         p = DOCS / fname
         exists = p.exists()
-        link = f"[`{fname}`](docs/{fname})" if exists else f"`{fname}` _(нет)_"
+        link = f"[`{fname}`]({fname})" if exists else f"`{fname}` _(нет)_"
         lines.append(f"| {link} | {title} | {desc} |")
 
     lines += [
@@ -145,7 +145,7 @@ def main():
     ]
     for fname, desc in llm_docs:
         p = DOCS / fname
-        link = f"[`{fname}`](docs/{fname})" if p.exists() else f"`{fname}` _(нет)_"
+        link = f"[`{fname}`]({fname})" if p.exists() else f"`{fname}` _(нет)_"
         lines.append(f"| {link} | {desc} |")
 
     lines += [

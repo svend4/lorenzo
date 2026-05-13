@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:d7dcdcbe8af6ac21",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SEE_ALSO.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:39c6d1cec69f6f82",
+  "payload": {
+    "title": "Индекс «Смотрите также»",
+    "summary": "",
+    "body": "индекс смотрите также файлов блоком see also ключевые связи executive summary component catalog ensembles overview mvp planning methodology методика рамка отбора methodology выводы executive summary component catalog карта найденных проектов паттернов projects map приоритетные ансамбли ensembles overview ensembles overview приоритетные ансамбли voice first mesh multi agent factory collaboration security privacy безопасность приватность бюджетный роутинг default policy budget routing mvp planning mvp planning architectural gaps integration contracts roadmap conclusions выводы conclusions executive summary что это продолжение добавляет architectural gaps integration contracts security privacy mvp planning second order ensembles новые ансамбли следующего шага federated local graph evidence backed intake research product flywheel integration contracts интеграционный контракт который стоит зафиксироват integration spec технический stack svyazi foundation architectural gaps roadmap дорожная карта прототипа следующей итерации roadmap limitations conclusions contacts контактная стратегия узкие вопросы для авторов narrow questions contacts план прототипа возможные контакты limitations not glue conclusions ограничения лицензии что пока лучше склеивать license tree contacts integration spec first contacts schedule intro appendix position series visualization инфраструктура для совместной интеллектуальной ingit как cowork интегрированная подложка рабочего профессиональные коллеги агенты интегральный анализ профиля svend question innovations transitions concepts tables action items общий план развития nautilus portal protocol timeline appendix change log обратная связь проекте portal protocol portal protocol coordinated infrastructure for distributed expe formal model for human collaboration distr mediated representation for underrepresented abstract abstract abstract status review methodology readme status this document status this document author contact author contact portal protocol introduction introduction introduction проекте adr federation over merging terminology terminology terminology registry nautilus json portalentry structure registry nautilus json registry nautilus json registry portalentry structure portalentry structure passport passport appendix minimal working example passport passport passport appendix minimal working example appendix change log mcp extension informative compatibility level appendix minimal working example queryresult structure appendix references glossary глоссарий appendix change log glossary review methodology appendix minimal working example readme опосредованное представительство для недопредст readme mcp инструкция установке tldr зачем две версии параллельно критерии выбора для фазы appendix minimal working example контекст мотивация context motivation ограничения открытые вопросы checklist применения методологии формальный workflow формальный workflow formal workflow конкретный план применения текущим документам реализация проекте nautilus условия применимости",
+    "tags": [
+      "rag",
+      "security",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 241,
+    "path": "docs/obsidian/SEE_ALSO.md"
+  }
+}

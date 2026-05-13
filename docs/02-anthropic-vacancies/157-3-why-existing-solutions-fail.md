@@ -1,5 +1,10 @@
 # 3. Why Existing Solutions Fail
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -10,6 +15,10 @@
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения.
+
 > Seven existing infrastructure categories partially address the
 
 ---
@@ -175,7 +184,7 @@ is this integration.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [156-2-target-populations](156-2-target-populations.md) (сходство 0.16)
 - [153-executive-summary](153-executive-summary.md) (сходство 0.15)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.13)
@@ -185,7 +194,13 @@ is this integration.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 Why Existing Solutions Fail"
+```
+
+## Смотрите также
 - [156-2-target-populations](156-2-target-populations.md)
 - [153-executive-summary](153-executive-summary.md)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
@@ -216,3 +231,15 @@ is this integration.
 - [Table of Contents](154-table-of-contents.md) _29%_
 - [1. Problem Statement](155-1-problem-statement.md) _25%_
 - [2. Target Populations](156-2-target-populations.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (5)
+- [153-executive-summary](153-executive-summary.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [README](README.md)
+

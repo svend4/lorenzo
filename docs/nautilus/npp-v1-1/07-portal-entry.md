@@ -1,5 +1,25 @@
 # 7. PortalEntry Structure
 
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- [Смотрите также](#смотрите-также)
+
+
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+  - [7.2. Q6 Metadata](#72-q6-metadata)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -10,8 +30,6 @@
 
 ---
 <!-- tags: ingestion, architecture, anthropic, collaboration -->
-
-
 
 
 > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
@@ -78,11 +96,27 @@ is_fallback=False
 
 ---
 
-**Смотрите также:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
-- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
+## Смотрите также
+- [82-7-portalentry-structure](../../02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](../../02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [06-adapter-interface](06-adapter-interface.md)
+- [17-versioning-policy](17-versioning-policy.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [18-comment-on-document](../npp-v1-0/18-comment-on-document.md)
+- [03-registry](03-registry.md)
+- [05-compatibility-levels](05-compatibility-levels.md)
+- [06-adapter-interface](06-adapter-interface.md)
+- _...ещё 5_
 
 
 <!-- similar-docs -->
@@ -90,7 +124,7 @@ is_fallback=False
 ---
 
 **Похожие документы:**
-- [82-7-portalentry-structure](docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.75)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.68)
-- [07-portal-entry](docs/nautilus/npp-v1-0/07-portal-entry.md) (сходство 0.38)
+- [07-portal-entry](../../obsidian/nautilus/npp-v1-1/07-portal-entry.md) (сходство 0.98)
+- [82-7-portalentry-structure](../../obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.64)
+- [82-7-portalentry-structure](../../02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.63)
 

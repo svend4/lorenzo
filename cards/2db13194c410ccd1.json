@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:2db13194c410ccd1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/294-существующие-приближения.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:563323a56f693b78",
+  "payload": {
+    "title": "Существующие приближения",
+    "summary": "Несколько существующих инструментов приближают",
+    "body": "существующие приближения warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также существующие приближения anthropic vacancies существующие приближения konkretnyy sluchay konkretnyy sluchay promyshlennost postroit promyshlennost postroit dvukhsloynyy stek dvukhsloynyy stek",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 461,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md"
+  }
+}

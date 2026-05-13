@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:691c3ceceda23152",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/19-persistent-character.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/17-honestly-ne-znaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/01-kto-ty.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6593a8956fcb8262",
+  "payload": {
+    "title": "Твоя identity как persistent character",
+    "summary": "Ты не просто чат-сессия. Ты persistent character, существующий across sessions:",
+    "body": "твоя identity как persistent character источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория проекты cardindex смотрите также твоя identity как persistent character anthropic vacancies твоя identity как persistent character vsegda delaesh vsegda delaesh honestly znaesh honestly znaesh kto kto",
+    "tags": [
+      "knowledge",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 168,
+    "path": "docs/lorenzo-agent/19-persistent-character.md"
+  }
+}

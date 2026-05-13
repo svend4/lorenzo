@@ -4,23 +4,39 @@
 
 ## Содержание
 
-- [.md](.md) — <!-- summary -->
-- [cowork.md](cowork.md) — <!-- summary -->
-- [ingit.md](ingit.md) — <!-- summary -->
-- [kksudo.md](kksudo.md) — <!-- summary -->
-- [lorenzo.md](lorenzo.md) — <!-- summary -->
-- [nautilus.md](nautilus.md) — <!-- summary -->
-- [sgb.md](sgb.md) — <!-- summary -->
-- [spbmolot.md](spbmolot.md) — <!-- summary -->
-- [svend4.md](svend4.md) — <!-- summary -->
-- [svyazi.md](svyazi.md) — <!-- summary -->
+- [.md](.md) — <!-- toc-auto -->
+- [cowork.md](cowork.md) — <!-- toc-auto -->
+- [ingit.md](ingit.md) — <!-- toc-auto -->
+- [kksudo.md](kksudo.md) — <!-- toc-auto -->
+- [lorenzo.md](lorenzo.md) — <!-- toc-auto -->
+- [nautilus.md](nautilus.md) — <!-- toc-auto -->
+- [sgb.md](sgb.md) — <!-- toc-auto -->
+- [spbmolot.md](spbmolot.md) — <!-- toc-auto -->
+- [svend4.md](svend4.md) — <!-- toc-auto -->
+- [svyazi.md](svyazi.md) — <!-- toc-auto -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [AUTOFILLED](../../AUTOFILLED.md)
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [.md](.md)
+- [cowork](cowork.md)
+- _...ещё 8_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/obsidian/autofilled/components/README.md) (сходство 0.92)
-- [README](docs/obsidian/autofilled/README.md) (сходство 0.27)
-- [README](docs/autofilled/README.md) (сходство 0.27)
+- [README](../../obsidian/autofilled/components/README.md) (сходство 0.85)
+- [README](../README.md) (сходство 0.62)
+- [README](../../glossary/README.md) (сходство 0.50)
 

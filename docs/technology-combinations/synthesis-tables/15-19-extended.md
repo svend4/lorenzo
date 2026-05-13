@@ -1,11 +1,27 @@
 # Сводная таблица 15–19 (Extended)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE».
 **Проекты:** Svyazi
 
 ---
 <!-- tags: memory, rag, orchestration, ingestion, local-first -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -24,11 +40,35 @@
 
 ---
 
-**Смотрите также:**
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Сводная таблица 15 19 Extended"
+```
+
+## Смотрите также
+- [09-14-extended](09-14-extended.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [20-24-final](20-24-final.md)
+- [19-multi-agent-observability-platform](../combinations/19-multi-agent-observability-platform.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [12-multi-agent-observability-stack](../combinations/12-multi-agent-observability-stack.md)
+- [15-self-consolidating-legal-corpus](../combinations/15-self-consolidating-legal-corpus.md)
+- [16-adversarial-multi-agent-code-review](../combinations/16-adversarial-multi-agent-code-review.md)
+- _...ещё 9_
 
 
 <!-- similar-docs -->
@@ -36,7 +76,7 @@
 ---
 
 **Похожие документы:**
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.45)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.44)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.35)
+- [15-19-extended](../../obsidian/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.97)
+- [12-multi-agent-observability-stack](../combinations/12-multi-agent-observability-stack.md) (сходство 0.49)
+- [12-multi-agent-observability-stack](../../obsidian/technology-combinations/combinations/12-multi-agent-observability-stack.md) (сходство 0.48)
 

@@ -1,10 +1,49 @@
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Содержание](#содержание)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populations)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populations)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+## Содержание
+
+- Основной раздел
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ---
 <!-- tags: architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -82,12 +121,41 @@ service organizations, civil society, and policymakers.
 
 ---
 
+<!-- see-also -->
+
+---
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "AI Mediated Representation for"
+```
+
+## Смотрите также
+- [11-call-for-collaboration](11-call-for-collaboration.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [09-phased-rollout](09-phased-rollout.md)
+- [168-abstract](../../02-anthropic-vacancies/168-abstract.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+
+
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [168-abstract](docs/obsidian/02-anthropic-vacancies/168-abstract.md) (сходство 0.67)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md) (сходство 0.64)
-- [00-abstract](docs/nautilus/professional-colleague-agents-en/00-abstract.md) (сходство 0.27)
+- [00-abstract](../../obsidian/nautilus/representative-agent-layer-en/00-abstract.md) (сходство 0.99)
+- [168-abstract](../../obsidian/02-anthropic-vacancies/168-abstract.md) (сходство 0.67)
+- [168-abstract](../../02-anthropic-vacancies/168-abstract.md) (сходство 0.67)
 

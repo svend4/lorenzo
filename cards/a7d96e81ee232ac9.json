@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:a7d96e81ee232ac9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/286-acknowledgments.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/275-why-this-document-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/319-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/267-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/285-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:6292d6c6c2da5d5b",
+  "payload": {
+    "title": "Acknowledgments",
+    "summary": "This document emerged from the author's observation, near",
+    "body": "acknowledgments this document emerged from the author observation near похожие документы the missing middle layer between chat and code the missing middle layer between chat and code сходство why this document exists why this document exists сходство acknowledgments acknowledgments сходство смотрите также the missing middle layer between chat and code the missing middle layer between chat and code acknowledgments acknowledgments why this document exists why this document exists acknowledgments acknowledgments упоминается acknowledgments acknowledgments acknowledgments acknowledgments closing closing references references references references the recursive insight the recursive insight the two layer stack exists the two layer stack exists what this document doesn solve what this document doesn solve what missing layer what missing layer why this document exists why this document exists why this hasn been built why this hasn been built вакансии anthropic анализ кластерам readme существующие документы dhlab твой context существующие документы dhlab твой context упоминается вакансии anthropic анализ кластерам readme связанные документы acknowledgments acknowledgments references references why this document exists why this document exists support through configurable specialist ensembles support through configurable specialist ensembl acknowledgments acknowledgments typology agents the principal side and the case for profession specific workers typology agents the principal side and the two layer stack exists the two layer stack exists why this hasn been built why this hasn been built связанные документы acknowledgments acknowledgments acknowledgments acknowledgments why this document exists why this document exists references references appendix connection companion papers appendix connection companion papers typology agents the principal side and the case for profession specific workers typology agents the principal side and support through configurable specialist ensembles support through configurable specialist ensembl with anthropic cowork platform with anthropic cowork platform кто ссылается этот документ appendix connection companion papers appendix connection companion papers typology agents the principal side and typology agents the principal side and support through configurable specialist ensembl support through configurable specialist ensembl acknowledgments acknowledgments the missing middle layer between chat and code the missing middle layer between chat and code why this document exists why this document exists the two layer stack exists the two layer stack exists what missing layer what missing layer ещё",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 410,
+    "path": "docs/02-anthropic-vacancies/286-acknowledgments.md"
+  }
+}

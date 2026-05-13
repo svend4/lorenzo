@@ -1,11 +1,27 @@
 # Что пока не стоит склеивать в один релиз
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** Auto AI Router, Tool Search, AutoResearch
 
 ---
 <!-- tags: rag, security, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -30,11 +46,32 @@
 
 ---
 
-**Смотрите также:**
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
-- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
-- [03-a2a-vs-mcp-protocols](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Что пока не стоит склеивать в один релиз"
+```
+
+## Смотрите также
+- [10-architecture-rfc](10-architecture-rfc.md)
+- [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
+- [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
+- 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -42,7 +79,7 @@
 ---
 
 **Похожие документы:**
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.17)
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md) (сходство 0.16)
-- [06-metrics-tree](docs/ai-collaborations/continuation/06-metrics-tree.md) (сходство 0.15)
+- [09-do-not-glue](../../obsidian/ai-collaborations/continuation/09-do-not-glue.md) (сходство 0.98)
+- [10-architecture-rfc](10-architecture-rfc.md) (сходство 0.21)
+- [06-metrics-tree](06-metrics-tree.md) (сходство 0.21)
 

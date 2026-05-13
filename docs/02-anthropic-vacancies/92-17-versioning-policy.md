@@ -1,14 +1,5 @@
 # 17. Versioning Policy
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Breaking Changes Process Для major version bump требуется: 1.
-> 🔧 **Подход:** Deprecation Policy(174-deprecation-policy) !IMPORTANT Ключевой документ для понимания архитектуры.
-> 🏷️ **Ключевые слова:** `policy`, `versioning`, `status`, `document`, `version`, `anthropic`, `vacancies`, `major`
->
-
-
 <!-- toc-auto -->
 ## Contents
 
@@ -17,6 +8,19 @@
   - [17.2. Version in Registry](#172-version-in-registry)
   - [17.3. Breaking Changes Process](#173-breaking-changes-process)
   - [17.4. Deprecation Policy](#174-deprecation-policy)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
+
+
+<!-- abstract-auto -->
+> **Абстракт** (авто)
+>
+> 🎯 **Проблема:** Breaking Changes Process Для major version bump требуется: 1.
+> 🔧 **Подход:** Deprecation Policy(174-deprecation-policy) !IMPORTANT Ключевой документ для понимания архитектуры.
+> 🏷️ **Ключевые слова:** `policy`, `versioning`, `status`, `document`, `version`, `anthropic`, `vacancies`, `major`
+>
 
 
 > [!IMPORTANT]
@@ -74,19 +78,41 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
-**Похожие документы:**
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.63)
-- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md) (сходство 0.15)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md) (сходство 0.12)
+## Похожие документы
+- [24-12-versioning-policy](24-12-versioning-policy.md) (сходство 0.63)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md) (сходство 0.15)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.12)
 
 
 <!-- see-also -->
 
 ---
 
-**Смотрите также:**
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "17 Versioning Policy"
+```
+
+## Смотрите также
+- [24-12-versioning-policy](24-12-versioning-policy.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [24-12-versioning-policy](24-12-versioning-policy.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md)
+- _...ещё 1_
 

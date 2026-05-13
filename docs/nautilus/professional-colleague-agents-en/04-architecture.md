@@ -1,11 +1,20 @@
 # 4. Architecture of Professional Colleague Agents
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [4. Architecture of Professional Colleague Agents](#4-architecture-of-professional-colleague-agents)
@@ -173,11 +182,30 @@ workflow.
 
 ---
 
-**Смотрите также:**
-- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
-- [06-risks](docs/nautilus/professional-colleague-agents-en/06-risks.md)
-- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Architecture of Professional"
+```
+
+## Смотрите также
+- [215-4-architecture-of-professional-colleague-agents](../../02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
+- [04-sub-agent-registry](../composite-skills-agents/04-sub-agent-registry.md)
+- [06-risks](06-risks.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [06-risks](06-risks.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -185,7 +213,7 @@ workflow.
 ---
 
 **Похожие документы:**
-- [215-4-architecture-of-professional-colleague-agents](docs/obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.89)
-- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.86)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md) (сходство 0.18)
+- [04-architecture](../../obsidian/nautilus/professional-colleague-agents-en/04-architecture.md) (сходство 0.99)
+- [215-4-architecture-of-professional-colleague-agents](../../02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.86)
+- [215-4-architecture-of-professional-colleague-agents](../../obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.86)
 

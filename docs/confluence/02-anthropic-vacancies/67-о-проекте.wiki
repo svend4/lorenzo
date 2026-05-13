@@ -5,16 +5,25 @@
 
 h1. 🇷🇺 О проекте
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 
 {quote}_Абстракт_ (авто){quote}
 >
-{quote}🎯 _Проблема:_ Документация - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal specification v1.0 (15 страниц) - passports/(./passports/) — описания репо экосистемы для людей - info1(./passports{quote}
+{quote}🎯 _Проблема:_ Документация - PORTAL-PROTOCOL.md(03-portal-protocol-md.md) — formal specification v1.0 (15 страниц) - passports/(./passports/) — описания репо экосистемы для людей - info1(./passports{quote}
 {quote}🔧 _Подход:_ - 0: Discoverable — только объявлен в registry - 1: Readable — имеет passport + describe() метод - 2: Queryable — реализует fetch(query) — поиск работает - 3: Interactive — transla{quote}
 {quote}✅ _Результат:_ Это создаёт lock-in, теряет авторские модели, гомогенизирует разные типы знания.{quote}
 {quote}🏷️ _Ключевые слова:_ {{nautilus}}, {{svend}}, {{passports}}, {{portal}}, {{terminology}}, {{protocol}}, {{anthropic}}, {{vacancies}}{quote}
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Nautilus — протокол и reference implementation для _федерации_{quote}
 
@@ -102,7 +111,7 @@ h3. Подключить свой репозиторий
 
 _Минимально (Level 0–1, 5 минут):_
 
-1. Положите {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} в корень вашего репо:
+1. Положите {{[nautilus|../05-habr-projects/memory/memnet.md].json}} в корень вашего репо:
 
 {code:language=json}
 {
@@ -118,14 +127,14 @@ _Минимально (Level 0–1, 5 минут):_
 {code}
 
 2. Напишите {{passport.md}} — одну страницу описания (см. шаблон в 
-   [{{passports/}}|./passports/])
+   {{passports/}})
 
 _Полностью (Level 2–3, несколько часов):_
 
 3. Добавьте адаптер в {{adapters/my_repo.py}}, реализующий 
-   {{[BaseAdapter|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}} интерфейс (см. [PORTAL-PROTOCOL.md §6|./PORTAL-PROTOCOL.md#6-adapter-interface])
+   {{[BaseAdapter|01-интегральный-анализ-профиля-svend4.md]}} интерфейс (см. [PORTAL-PROTOCOL.md §6|03-portal-protocol-md.md#6-adapter-interface])
 
-4. Зарегистрируйте репо в {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} корневого портала
+4. Зарегистрируйте репо в {{[nautilus|../05-habr-projects/memory/memnet.md].json}} корневого портала
 
 h3. Как это работает
 
@@ -161,17 +170,17 @@ h3. Уровни совместимости
 * _3: Interactive_ — {{translate_to()}} — cross-repo переводы через 
   bridges
 
-Детали — в [PORTAL-PROTOCOL.md §5|./PORTAL-PROTOCOL.md#5-compatibility-levels].
+Детали — в [PORTAL-PROTOCOL.md §5|03-portal-protocol-md.md#5-compatibility-levels].
 
 h3. Документация
 
-* _[PORTAL-PROTOCOL.md|./PORTAL-PROTOCOL.md]_ — formal 
+* _[PORTAL-PROTOCOL.md|03-portal-protocol-md.md]_ — formal 
   specification v1.0 (15 страниц)
-* _[passports/|./passports/]_ — описания репо экосистемы для 
+* _{{passports/}}_ — описания репо экосистемы для 
   людей
-  * [info1|./passports/info1.md]
-  * [pro2|./passports/pro2.md]
-  * [meta|./passports/meta.md]
+  * {{info1}}
+  * {{pro2}}
+  * {{meta}}
 * _Issues_ — вопросы, предложения, сообщения об ошибках
 
 h3. Файловая структура
@@ -216,7 +225,7 @@ h3. Лицензии
 * _Документация_ (README, PORTAL-PROTOCOL, passports): 
   [CC BY 4.0|https://creativecommons.org/licenses/by/4.0/]
 * _Код_ (portal, adapters, glyph_adapter): 
-  [MIT|./LICENSE]
+  [MIT|README.md]
 
 h3. Контакт
 
@@ -229,7 +238,7 @@ h3. Контакт
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [68-about|68-about.md] (сходство 0.17)
 * [07-2-terminology|07-2-terminology.md] (сходство 0.16)
 * [77-2-terminology|77-2-terminology.md] (сходство 0.14)
@@ -239,7 +248,7 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [68-about|68-about.md]
 * [07-2-terminology|07-2-terminology.md]
 * [77-2-terminology|77-2-terminology.md]
@@ -282,3 +291,19 @@ h2. Связанные документы
 * [REVIEW_METHODOLOGY.md|105-review-methodology-md.md] _25%_
 * [Глоссарий|122-глоссарий.md] _25%_
 * [4. Nautilus Portal as Reference Substrate|141-4-nautilus-portal-as-reference-substrate.md] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* 02-общий-план-развития-[nautilus-portal-protocol|02-общий-план-развития-nautilus-portal-protocol.md]
+* [104-appendix-c-references|104-appendix-c-references.md]
+* [105-review-methodology-md|105-review-methodology-md.md]
+* [122-глоссарий|122-глоссарий.md]
+* 141-4-[nautilus-portal-as-reference-substrate|141-4-nautilus-portal-as-reference-substrate.md]
+* [25-13-reference-implementation|25-13-reference-implementation.md]
+* [42-author-contact|42-author-contact.md]
+* [64-for-the-curious-philosophy|64-for-the-curious-philosophy.md]
+* _...ещё 2_
+

@@ -9,11 +9,26 @@ date: 2026-05-13
 
 # INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md
 
+<!-- toc-auto -->
+## Contents
+
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](#ingit-as-cowork-native-workspace-substratemd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [[249-composite-skills-agent-md]] (сходство 0.11)
 
 ---
 <!-- tags: architecture, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,7 +42,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[249-composite-skills-agent-md]] (сходство 0.11)
 - [[208-professional-colleague-agents-md]] (сходство 0.11)
 - [[134-the-double-triangle-architecture-md]] (сходство 0.11)
@@ -78,9 +93,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "INGIT AS COWORK NATIVE WORKSPACE"
+```
+
+## Смотрите также
 - [[249-composite-skills-agent-md]]
 - [[208-professional-colleague-agents-md]]
 - [[151-open-knowledge-work-foundation-md]]
 - [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (14)
+- [[134-the-double-triangle-architecture-md]]
+- [[150-appendix-c-version-history]]
+- [[151-open-knowledge-work-foundation-md]]
+- [[166-representative-agent-layer-md]]
+- [[174-5-architectural-specification]]
+- [[187-слой-представительских-агентов-md]]
+- [[208-professional-colleague-agents-md]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- _...ещё 6_
 

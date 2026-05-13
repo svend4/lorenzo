@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:1d17143423c06bba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/266-13-closing.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/252-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/181-12-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:e79d086efad6223a",
+  "payload": {
+    "title": "13. Closing",
+    "summary": "Mastery in skilled work has always been composite. The yoga",
+    "body": "closing абстракт авто проблема building uniquely customized agents serves deep representational needs but cannot scale результат for the open knowledge work foundation specifically composite infrastructure provides more flexible support for diverse practitioner needs stronger alignment with mission ключевые слова infrastructure anthropic vacancies closing skilled composite agents practice mastery skilled work has always been composite the yoga closing mastery skilled work has always been composite the yoga master who studied with twenty teachers did not invent his practice from nothing combined what learned from specialists the musician the lawyer the physician the architect the therapist all develop their distinctive practice combining individually general skills into individually distinctive configurations what new the possibility infrastructure that mirrors this structure until now support for skilled work has been either too generic one assistant for everyone too custom unique development per principal neither matches how practitioners actually develop and operate composite skills agents fill this gap they make the twenty teacher pattern accessible scale any practitioner can configure their own ensemble specialist sub agents creating support that matches their actual practice rather than forcing them into pre defined categories this recognition changes the practical strategy for deployment professions building monolithic profession wide agents serves narrow purposes well but cannot serve the more common case practitioners with distinctive specialized configurations building uniquely customized agents serves deep representational needs but cannot scale building composite infrastructure registry narrow sub agents plus configurable coordinators serves the broad middle where most skilled practice actually happens for the open knowledge work foundation specifically composite infrastructure provides more flexible support for diverse practitioner needs stronger alignment with mission empowering distinctive practitioners better economic structure combinatorial leverage fixed investment more natural connection existing pattern library architecture clearer migration path from initial pilot mature ecosystem this the architecture skilled work has needed the question whether build carefully with open standards foundation governance quality curation and practitioner ownership whether let emerge through commercial dynamics that favor concentration over distribution the choice again institutional rather than technological propose the careful path invite collaboration walking похожие документы closing closing сходство abstract abstract сходство integration with okwf infrastructure integration with okwf infrastructure сходство смотрите также abstract abstract closing closing why the binary view incomplete why the binary view incomplete integration with okwf infrastructure integration with okwf infrastructure упоминается why the binary view incomplete why the binary view incomplete call for collaboration call for collaboration closing closing closing closing the twenty one teachers pattern the twenty one teachers pattern the sub agent registry the sub agent registry integration with okwf infrastructure integration with okwf infrastructure abstract abstract abstract abstract closing closing the recursive insight the recursive insight why this hasn been built why this hasn been built вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы abstract abstract why the binary view incomplete why the binary view incomplete the twenty one teachers pattern the twenty one teachers pattern the sub agent registry the sub agent registry abstract abstract integration with okwf infrastructure integration with okwf infrastructure why this hasn been built why this hasn been built closing closing связанные документы abstract abstract the sub agent registry the sub agent registry why this hasn been built why this hasn been built closing closing abstract abstract the twenty one teachers pattern the twenty one teachers pattern integration with okwf infrastructure integration with okwf infrastructure acknowledgments acknowledgments кто ссылается этот документ abstract abstract closing closing closing closing abstract abstract why the binary view incomplete why the binary view incomplete the twenty one teachers pattern the twenty one teachers pattern the sub agent registry the sub agent registry acknowledgments acknowledgments ещё",
+    "tags": [
+      "rag"
+    ],
+    "projects": [],
+    "wc": 655,
+    "path": "docs/02-anthropic-vacancies/266-13-closing.md"
+  }
+}

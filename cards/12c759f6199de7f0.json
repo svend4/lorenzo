@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:12c759f6199de7f0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/15-anti-patterns.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/359-твои-anti-patterns.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/18-escalate-to-max.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/01-kto-ty.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:ea7f692bd2a38eeb",
+  "payload": {
+    "title": "Твои anti-patterns",
+    "summary": "❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»",
+    "body": "твои anti patterns источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также твои anti patterns anthropic vacancies твои anti patterns vsegda delaesh vsegda delaesh escalate max escalate max kto kto",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 175,
+    "path": "docs/lorenzo-agent/15-anti-patterns.md"
+  }
+}

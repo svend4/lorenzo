@@ -1,5 +1,23 @@
 # Комментарий: дизайн-решения NPP v1.0
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -56,11 +74,30 @@ Du hast gesagt: Да
 
 ---
 
-**Смотрите также:**
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [22-glossary](docs/nautilus/npp-v1-1/22-glossary.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комментарий дизайн решения NPP v1 0"
+```
+
+## Смотрите также
+- [34-appendix-b-change-log](../../02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [03-registry](../npp-v1-1/03-registry.md)
+- [07-portal-entry](../npp-v1-1/07-portal-entry.md)
+- [22-glossary](../npp-v1-1/22-glossary.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [README](README.md)
+- [22-glossary](../npp-v1-1/22-glossary.md)
 
 
 <!-- similar-docs -->
@@ -68,7 +105,7 @@ Du hast gesagt: Да
 ---
 
 **Похожие документы:**
-- [34-appendix-b-change-log](docs/obsidian/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.75)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.73)
-- [03-registry](docs/nautilus/npp-v1-0/03-registry.md) (сходство 0.16)
+- [18-comment-on-document](../../obsidian/nautilus/npp-v1-0/18-comment-on-document.md) (сходство 0.99)
+- [34-appendix-b-change-log](../../02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.25)
+- [34-appendix-b-change-log](../../obsidian/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.25)
 

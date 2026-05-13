@@ -1,11 +1,28 @@
 # Смежные проекты
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, NGT Memory, Wikontic
 
 ---
 <!-- tags: memory, knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -36,11 +53,27 @@
 
 ---
 
-**Смотрите также:**
-- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
-- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
-- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Смежные проекты"
+```
+
+## Смотрите также
+- [02-related-projects-context](../../ai-collaborations/candidates/02-related-projects-context.md)
+- [03-synthesis-hebbian-collaboration-graph](../../ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+- [01-three-key-candidates](../../ai-collaborations/candidates/01-three-key-candidates.md)
+- [01-three-direct-analogues](01-three-direct-analogues.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -48,7 +81,7 @@
 ---
 
 **Похожие документы:**
-- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.60)
-- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md) (сходство 0.50)
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.23)
+- [02-related-projects](../../obsidian/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.98)
+- [02-related-projects-context](../../obsidian/ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.57)
+- [02-related-projects-context](../../ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.57)
 

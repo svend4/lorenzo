@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:c9d2363a72d42de2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/reading-paths.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:6506f135d742cb29",
+  "payload": {
+    "title": "19. ADR-001: Federation over Merging",
+    "summary": "выбор: заставить все данные мигрировать в единую схему (merge),",
+    "body": "adr federation over merging источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также adr federation over merging npp adr federation over merging adr federation over merging anthropic vacancies adr federation over merging adr federation over merging anthropic vacancies adr federation over merging adr five onboarding paths adr five onboarding paths кто ссылается этот документ readme readme readme readme reading paths reading paths",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 234,
+    "path": "docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md"
+  }
+}

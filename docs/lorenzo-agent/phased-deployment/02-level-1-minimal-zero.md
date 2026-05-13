@@ -1,11 +1,27 @@
 # Уровень 1 — Минимальный (Lorenzo Zero)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).
 **Проекты:** CardIndex
 
 ---
 <!-- tags: knowledge, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -58,11 +74,34 @@ Project knowledge: накопленная база (CardIndex авторов, п
 
 ---
 
-**Смотрите также:**
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
-- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
-- [04-level-3-medium-active](docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md)
-- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Уровень 1 Минимальный Lorenzo Zero"
+```
+
+## Смотрите также
+- [01-level-0-manual](01-level-0-manual.md)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md)
+- [04-level-3-medium-active](04-level-3-medium-active.md)
+- [06-level-5-full-network](06-level-5-full-network.md)
+
+_Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-level-0-manual](01-level-0-manual.md)
+- [04-level-3-medium-active](04-level-3-medium-active.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -70,7 +109,7 @@ Project knowledge: накопленная база (CardIndex авторов, п
 ---
 
 **Похожие документы:**
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md) (сходство 0.28)
-- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.25)
-- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md) (сходство 0.24)
+- [02-level-1-minimal-zero](../../obsidian/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md) (сходство 0.99)
+- [03-level-2-basic-lite](../../obsidian/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.33)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md) (сходство 0.33)
 

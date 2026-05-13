@@ -1,61 +1,106 @@
 # Метрики качества документации
 
-**Файлов:** 1687  **Средний балл:** 73.0/100
+<!-- summary -->
+> Средний балл: **97.9/100** по 1226 документам
+
+<!-- tags: quality, metrics, documentation, coverage -->
+
+> [!TIP]
+> Балл выше 85 означает хорошее качество документации.
+
+<!-- alert-added -->
+
+**Файлов:** 1226  **Средний балл:** 97.9/100
 
 ## Качество по разделам
 
 | Раздел | Балл | Ссылок/1K слов | Код-блоков/1K | % с summary | % с тегами |
 |--------|------|----------------|--------------|-------------|------------|
-| **01-svyazi** | 64 | 20.0 | 0.4 | 94% | 94% |
-| **02-anthropic-vacancies** | 79 | 62.0 | 0.7 | 100% | 100% |
-| **03-technology-combinations** | 64 | 36.1 | 0.0 | 86% | 86% |
-| **04-ai-collaborations** | 77 | 13.5 | 0.0 | 94% | 94% |
-| **05-habr-projects** | 59 | 56.2 | 0.0 | 70% | 70% |
-| **root** | 67 | 22.9 | 1.0 | 76% | 75% |
+| **01-svyazi** | 99 | 33.4 | 1.6 | 100% | 100% |
+| **02-anthropic-vacancies** | 100 | 70.8 | 2.3 | 100% | 100% |
+| **03-technology-combinations** | 97 | 38.1 | 2.2 | 100% | 100% |
+| **04-ai-collaborations** | 99 | 29.4 | 1.1 | 100% | 100% |
+| **05-habr-projects** | 99 | 46.9 | 1.9 | 100% | 100% |
+| **root** | 79 | 41.5 | 2.9 | 86% | 68% |
 
 ## Топ-15 лучших документов
 
 | Документ | Балл | Слов |
 |----------|------|------|
-| `01-интегральный-анализ-профиля-svend4` | 100 | 19217 |
-| `02-общий-план-развития-nautilus-portal-p` | 100 | 3300 |
-| `109-3-принципы-консолидации-фаза-c` | 100 | 677 |
-| `133-обратная-связь` | 100 | 17075 |
-| `139-2-the-double-triangle-architecture` | 100 | 753 |
-| `142-5-pattern-library-as-bridge-between-` | 100 | 852 |
-| `18-6-adapter-interface` | 100 | 698 |
-| `228-appendix-c-quick-start-architecture-` | 100 | 1978 |
-| `232-1-типология-из-пяти-типов-агентов-на` | 100 | 1054 |
-| `248-приложение-c-архитектура-быстрого-ст` | 100 | 3545 |
-| `288-appendix-position-in-series-visualiz` | 100 | 1250 |
-| `323-appendix-c-sample-ingit-mcp-server-t` | 100 | 1756 |
-| `330-4-симбиотическая-архитектура` | 100 | 703 |
-| `331-5-четыре-пути-интеграции-в-порядке-д` | 100 | 783 |
-| `341-приложение-c-образец-спецификаций-ин` | 100 | 20553 |
+| `00-intro-part2` | 100 | 383 |
+| `01-executive-summary` | 100 | 750 |
+| `02-methodology` | 100 | 567 |
+| `03-component-catalog` | 100 | 1516 |
+| `04-ensembles-overview` | 100 | 1385 |
+| `06-security-privacy` | 100 | 941 |
+| `07-mvp-planning` | 100 | 1187 |
+| `08-conclusions` | 100 | 470 |
+| `09-architectural-gaps` | 100 | 878 |
+| `10-second-order-ensembles` | 100 | 1011 |
+| `11-integration-contracts` | 100 | 858 |
+| `12-roadmap` | 100 | 840 |
+| `13-contacts` | 100 | 1080 |
+| `14-limitations` | 100 | 765 |
+| `README` | 100 | 424 |
 
-## Документы, требующие улучшения (13)
+## Документы, требующие улучшения (3)
 
 | Документ | Балл | Что отсутствует |
 |----------|------|----------------|
 | `ABBREVIATIONS` | 30 | summary, tags, TOC, callout |
-| `AUTHORS` | 30 | summary, tags, TOC, callout |
-| `COMPLEXITY` | 30 | summary, tags, TOC, callout |
-| `CROSSREFS` | 30 | summary, tags, TOC, callout |
-| `DENSITY` | 30 | summary, tags, TOC, callout |
-| `GLOSSARY` | 30 | summary, tags, TOC, callout |
-| `LINKS` | 30 | summary, tags, TOC, callout |
-| `MCP_DASHBOARD` | 30 | summary, tags, TOC, callout |
 | `MISSING` | 30 | summary, tags, TOC, callout |
-| `PRIORITIES` | 30 | summary, tags, TOC, callout |
 | `QUESTIONS` | 30 | summary, tags, TOC, callout |
-| `SENTIMENT` | 30 | summary, tags, TOC, callout |
-| `TAGS` | 30 | summary, tags, TOC, callout |
-| `WORD_FREQ` | 30 | summary, tags, TOC, callout |
 
 ## Общие показатели
 
-- Файлов с `<!-- summary -->`: **96.5%**
-- Файлов с тегами: **91.8%**
-- Файлов с оглавлением: **33.5%**
-- Файлов с callout: **31.1%**
-- Средний балл качества: **73.0/100**
+- Файлов с `<!-- summary -->`: **98.6%**
+- Файлов с тегами: **97.0%**
+- Файлов с оглавлением: **94.1%**
+- Файлов с callout: **94.9%**
+- Средний балл качества: **97.9/100**
+
+## Использование
+
+```bash
+python scripts/improve_metrics.py
+```
+
+```bash
+# Обновить метрики и проверить здоровье репозитория
+python scripts/improve_metrics.py && python scripts/improve_health.py
+```
+
+
+## Смотрите также
+
+- [HEALTH](HEALTH.md) — общее здоровье репозитория
+- [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок
+- [VALIDATION](VALIDATION.md) — валидация структуры
+- [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [HEALTH](HEALTH.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [TAGS](TAGS.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (63):**
+- [QA](01-svyazi/QA.md)
+- [QA](02-anthropic-vacancies/QA.md)
+- [QA](03-technology-combinations/QA.md)
+- [QA](04-ai-collaborations/QA.md)
+- [QA](05-habr-projects/QA.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [ALERTS](ALERTS.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- _...ещё 55_
+

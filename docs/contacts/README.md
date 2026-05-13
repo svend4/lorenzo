@@ -1,30 +1,61 @@
 # contacts
+<!-- tags: readme, docs -->
 
-**Файлов:** 14
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
+**Файлов:** 16
 
 ## Содержание
 
-- [anastasiyaw.md](anastasiyaw.md) — <!-- summary -->
-- [andrey-chuyan.md](andrey-chuyan.md) — > [!TIP]
-- [antipozitive.md](antipozitive.md) — > [!TIP]
-- [cutcode.md](cutcode.md) — <!-- summary -->
-- [dmitriila.md](dmitriila.md) — <!-- summary -->
-- [kksudo.md](kksudo.md) — <!-- summary -->
-- [mixaill76.md](mixaill76.md) — <!-- summary -->
-- [nlaik.md](nlaik.md) — > [!TIP]
-- [sonia-black.md](sonia-black.md) — > [!TIP]
-- [spbmolot.md](spbmolot.md) — > [!TIP]
-- [tagir-analyzes.md](tagir-analyzes.md) — <!-- summary -->
-- [vitalyoborin.md](vitalyoborin.md) — > [!TIP]
-- [vladspace.md](vladspace.md) — <!-- summary -->
-- [zodigancode.md](zodigancode.md) — <!-- summary -->
+- [QA.md](QA.md) — > [!NOTE]
+- [anastasiyaw.md](anastasiyaw.md) — ---
+- [andrey-chuyan.md](andrey-chuyan.md) — ---
+- [antipozitive.md](antipozitive.md) — ---
+- [cutcode.md](cutcode.md) — ---
+- [dmitriila.md](dmitriila.md) — ---
+- [kksudo.md](kksudo.md) — ---
+- [mixaill76.md](mixaill76.md) — ---
+- [nlaik.md](nlaik.md) — ---
+- [sonia-black.md](sonia-black.md) — ---
+- [spbmolot.md](spbmolot.md) — ---
+- [tagir-analyzes.md](tagir-analyzes.md) — ---
+- [vitalyoborin.md](vitalyoborin.md) — ---
+- [vitalysemenov.md](vitalysemenov.md) — ---
+- [vladspace.md](vladspace.md) — ---
+- [zodigancode.md](zodigancode.md) — ---
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (21):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [QA](QA.md)
+- [anastasiyaw](anastasiyaw.md)
+- [andrey-chuyan](andrey-chuyan.md)
+- _...ещё 13_
+
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [README](docs/obsidian/contacts/README.md) (сходство 0.95)
-- [AUTHORS](docs/AUTHORS.md) (сходство 0.42)
-- [AUTHORS](docs/obsidian/AUTHORS.md) (сходство 0.38)
+- [README](../obsidian/contacts/README.md) (сходство 0.89)
+- [README](../letters/README.md) (сходство 0.51)
+- [AUTHORS](../AUTHORS.md) (сходство 0.50)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

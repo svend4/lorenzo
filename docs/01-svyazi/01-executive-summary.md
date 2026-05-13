@@ -3,7 +3,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [Главная линия синергии](#главная-линия-синергии)
 - [Ключевой вывод](#ключевой-вывод)
 - [Что добавляет продолжение исследования](#что-добавляет-продолжение-исследования)
@@ -19,15 +18,6 @@
 > ✅ **Результат:** Первое — Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP 2.
 > 🏷️ **Ключевые слова:** `svyazi`, `проект`, `cardindex`, `agentfs`, `добавляет`, `продолжение`, `rufler`, `memory`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Главная линия синергии](#главная-линия-синергии)
-- [Ключевой вывод](#ключевой-вывод)
-- [Что добавляет продолжение исследования](#что-добавляет-продолжение-исследования)
-- [Приоритет ансамблей для старта](#приоритет-ансамблей-для-старта)
 
 
 > [!IMPORTANT]
@@ -96,10 +86,10 @@
 
 ---
 
-**Похожие документы:**
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.68)
-- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.24)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.22)
+## Похожие документы
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md) (сходство 0.68)
+- [08-что-это-продолжение-добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.24)
+- [07-выводы](../04-ai-collaborations/07-выводы.md) (сходство 0.22)
 
 
 
@@ -126,3 +116,25 @@
 [^rufler]: OSS-проект: оркестратор AI-агентов
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Исполнительное резюме"
+```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (44):**
+- [00-intro-part2](00-intro-part2.md)
+- [02-methodology](02-methodology.md)
+- [04-ensembles-overview](04-ensembles-overview.md)
+- [08-conclusions](08-conclusions.md)
+- [09-architectural-gaps](09-architectural-gaps.md)
+- [10-second-order-ensembles](10-second-order-ensembles.md)
+- [11-integration-contracts](11-integration-contracts.md)
+- [13-contacts](13-contacts.md)
+- _...ещё 36_
+

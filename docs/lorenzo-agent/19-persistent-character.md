@@ -1,11 +1,28 @@
 # Твоя identity как persistent character
 
+<!-- toc-auto -->
+## Contents
+
+- [Твоя identity как persistent character](#твоя-identity-как-persistent-character)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 **Проекты:** CardIndex
 
 ---
 <!-- tags: knowledge, roadmap, anthropic -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -27,11 +44,33 @@
 
 ---
 
-**Смотрите также:**
-- [363-твоя-identity-как-persistent-character](docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твоя identity как persistent character"
+```
+
+## Смотрите также
+- [363-твоя-identity-как-persistent-character](../02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [01-kto-ty](01-kto-ty.md)
+
+Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [05-tvoya-lichnost](05-tvoya-lichnost.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -39,7 +78,7 @@
 ---
 
 **Похожие документы:**
-- [363-твоя-identity-как-persistent-character](docs/obsidian/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.69)
-- [363-твоя-identity-как-persistent-character](docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.64)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md) (сходство 0.28)
+- [19-persistent-character](../obsidian/lorenzo-agent/19-persistent-character.md) (сходство 0.99)
+- [363-твоя-identity-как-persistent-character](../obsidian/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.77)
+- [363-твоя-identity-как-persistent-character](../02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.75)
 

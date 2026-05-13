@@ -1,6 +1,29 @@
 # Author & Contact
 
+<!-- toc-auto -->
+## Contents
+
+- [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > **Contributors:** svend4 + claude (Claude Code агент, ранние
 
 ---
@@ -30,7 +53,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [62-author-contact](62-author-contact.md) (сходство 0.37)
 - [42-author-contact](42-author-contact.md) (сходство 0.31)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md) (сходство 0.16)
@@ -40,7 +63,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Author Contact"
+```
+
+## Смотрите также
 - [62-author-contact](62-author-contact.md)
 - [42-author-contact](42-author-contact.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
@@ -86,3 +115,19 @@
 - [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _29%_
 - [Author & Contact](42-author-contact.md) _29%_
 - [Author & Contact](62-author-contact.md) _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
+- _...ещё 2_
+

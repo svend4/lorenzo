@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:0f649f3261fc9c89",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/338-ссылки.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/320-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/62-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/147-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:d71ef3b48a89f2ab",
+  "payload": {
+    "title": "Ссылки",
+    "summary": "https://support.claude.com/en/collections/13345190-cowork",
+    "body": "ссылки contents ссылки ссылки первичные внешние ссылки первичные внешние ссылки стандарт mcp стандарт mcp сопроводительные документы этой серии сопроводительные документы этой серии связанная работа связанная работа anthropic января claude похожие документы references references сходство portal protocol portal protocol сходство with anthropic cowork platform with anthropic cowork platform сходство смотрите также references references portal protocol portal protocol author contact author contact readme mcp инструкция установке readme mcp инструкция установке упоминается references references references references вакансии anthropic анализ кластерам readme заключение заключение ссылки ссылки ссылки ссылки ссылки ссылки упоминается вакансии anthropic анализ кластерам readme связанные документы ссылки ссылки references references portal mcp portal mcp reference implementation reference implementation appendix minimal working example appendix minimal working example заключение заключение reference implementation reference implementation связанные документы ссылки ссылки references references ссылки ссылки ссылки ссылки заключение заключение appendix change log appendix change log portal protocol portal protocol status this document status this document кто ссылается этот документ portal protocol portal protocol status this document status this document readme mcp инструкция установке readme mcp инструкция установке with anthropic cowork platform with anthropic cowork platform references references appendix change log appendix change log author contact author contact portal protocol portal protocol ещё",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 284,
+    "path": "docs/02-anthropic-vacancies/338-ссылки.md"
+  }
+}

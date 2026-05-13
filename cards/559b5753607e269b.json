@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:559b5753607e269b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:c4c8980011470a29",
+  "payload": {
+    "title": "Ограничения, лицензии и что пока лучше не склеивать",
+    "summary": "title: \"Ограничения, лицензии и что пока лучше не склеивать\"",
+    "body": "ограничения лицензии что пока лучше склеивать абстракт авто проблема силён стабилизации card evidence memory contracts добавит много распределённой сложности без гарантии качества подход acd autoresearch подобные подходы полезны только после появления метрик regression set иначе система будет улучшать что ещё умеет измерять результат вместе это даёт новый тип сущности только personcard projectcard episodecard agentexperiencecard ключевые слова memory svyazi evidence review search envelope агент trace статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено tip этот документ описывает mvp подход начните него для быстрого прототипа самое важное ограничение техническое управленческое часть самых ценных компонентов находится разных режимах зрелости лицензирования svyazi svyazi как базовый паттерн остаётся авторским закрытым проекты svyazi cardindex cardindex agentfs agentfs component catalog knowledge space knowledge space mclaude factory rufler rufler liteparse ограничения лицензии что пока лучше склеивать самое важное ограничение техническое управленческое часть самых ценных компонентов находится разных режимах зрелости лицензирования svyazi как базовый паттерн остаётся авторским закрытым прототипом просмотренных материалах ngt ngt memory использует bsl bsl прямо говорит бесплатности для личных проектов ряду других систем лицензия просмотренных источниках либо акцентирована либо требует проверки уже стороне репозитория бизнес сценария это означает что для коммерчески чувствительного стека ранний выбор memory слоя только инженерный лицензионный cite turn search turn view turn search turn search второе ограничение относится оркестрации хотя mclaude factory rufler sequential выглядят очень привлекательно стоит собирать все сразу один контур mclaude хорошо решает синхронизацию нескольких сессий factory spec pipeline patch evolution rufler yaml рой sequential reviewer логика если попытаться включить все четыре слоя одновременно стабилизации card evidence contracts получится очень умный операционный шум поэтому ранней стадии разумнее выбрать один основной orchestration spine один review pattern строить суперкомбайн cite turn view turn view turn view turn view третье ограничение касается voice local first mesh голосовой вход очень соблазнительно добавляет живую ткань системы именно здесь легко утонуть необязательной инженерии streaming transcription diarization semantic post processing multi device sync offline conflict resolution для первой публично полезной версии достаточно идеальной диктовки простого надёжного пути voice episode card review всё что дальше лучше добавлять после того как уже появилась ценность графа evidence review такой порядок согласуется yttri подходом workspace вокруг записей простыми локальными whisper сценариями идеей local first sync как следующего первого слоя сложности cite turn view turn view turn search turn search последняя развилка это уровень самоулучшения executive summary autoresearch sequential выглядят очень мощно только после того как появилась метрика качества benchmark set отчетливое понимание что считать регрессией этого автоматическая оптимизация будет скорее производить вариации чем устойчивые улучшения поэтому self improvement контур разумно активировать только тогда когда уже можете померить quality match quality evidence false positive rate review очереди это консерватизм инженерная трезвость полностью согласующаяся духом autoresearch изменяй только что умеешь измерить откатывать cite turn view turn view turn view итоговое продолжение therefore выглядит так лучший следующий шаг искать ещё двадцать новых проектов собрать второй более строгий слой поверх уже найденных card envelope evidence envelope memory write policy skill policy review record этом основании уже можно настоящему проверить превращается набор скромных pet проектов хабра новую систему свойств discovery explainability local ownership controlled memory cheap safe execution если этот слой заработает тогда уже есть смысл возвращаться расширению ансамблей сторону federation richer voice self improving research loop cite turn search turn view turn view turn view turn view turn view продолжение этой темы продолжение лучше делать уже как очередной список интересных статей как переход конструктора операционной модели svyazi есть какие новые слои добавить какие метрики ввести как отличить систему notion mem affine langgraph стеков как довести это продукта новый важный слой общая память между агентами только память одного агента предыдущей карте нас уже были yodoca yodoca ngt memory agentfs mclaude component catalog knowledge space теперь общую схему стоит добавить ещё один близкий проект coally статьи контекстная амнезия три агента три ide ноль общей памяти его ключевая идея разные агенты ide должны заново учиться одному тому контексту система сохраняет архитектурные решения баги root cause analysis commit hash полезные знания делает доступными через общий mcp mcp слой автор прямо противопоставляет это статичным claude cursorrules ручному memory bank coally использует семантический поиск локальные multilingual embeddings асинхронную векторизацию premise режим изоляцию организаций envelope encryption поддержку claude code cursor windsurf continue gemini cli других mcp совместимых клиентов habr для svyazi это важнее чем кажется svyazi исходном виде умеет строить карточки людей находить связи между участниками coally подобный слой переносит эту идею агентов команды агентов кто что уже выяснил какие гипотезы проверены какие решения приняты какие ошибки повторяются вместе это даёт новый тип сущности только person card project card episode card agent experience card ансамбль cross agent memory bus родители svyazi coally agentfs yodoca ngt memory mclaude что рождается единая шина памяти где люди проекты агенты решения живут одном пространстве карточек mermaid новое свойство здесь память становится персональной коллективной межагентной один агент нашёл что кандидат хорошо подходит проекту другой агент проверил evidence третий агент нашёл риск четвёртый",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch"
+    ],
+    "wc": 3290,
+    "path": "docs/obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md"
+  }
+}

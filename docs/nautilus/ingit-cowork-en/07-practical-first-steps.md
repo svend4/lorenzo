@@ -1,6 +1,27 @@
 # 7. Practical First Steps This Month
 
+<!-- toc-auto -->
+## Contents
+
+- [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
+  - [7.1. This Week](#71-this-week)
+  - [7.2. This Month](#72-this-month)
+  - [7.3. Next Quarter](#73-next-quarter)
+  - [7.4. Specific Test Case: This Document Series](#74-specific-test-case-this-document-series)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ---
@@ -86,11 +107,30 @@ work. Most successful infrastructure projects start this way.
 
 ---
 
-**Смотрите также:**
-- [315-7-practical-first-steps-this-month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md)
-- [05-four-integration-paths](docs/nautilus/ingit-cowork-en/05-four-integration-paths.md)
-- [06-refined-ingit-scope](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md)
-- [11-practical-recommendations](docs/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Practical First Steps This Month"
+```
+
+## Смотрите также
+- [315-7-practical-first-steps-this-month](../../02-anthropic-vacancies/315-7-practical-first-steps-this-month.md)
+- [05-four-integration-paths](05-four-integration-paths.md)
+- 06-refined-[ingit-scope](06-refined-ingit-scope.md)
+- [11-practical-recommendations](../infrastructure-layer-b-en/11-practical-recommendations.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-four-integration-paths](05-four-integration-paths.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -98,7 +138,7 @@ work. Most successful infrastructure projects start this way.
 ---
 
 **Похожие документы:**
-- [315-7-practical-first-steps-this-month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) (сходство 0.82)
-- [315-7-practical-first-steps-this-month](docs/obsidian/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) (сходство 0.78)
-- [05-four-integration-paths](docs/nautilus/ingit-cowork-en/05-four-integration-paths.md) (сходство 0.20)
+- [07-practical-first-steps](../../obsidian/nautilus/ingit-cowork-en/07-practical-first-steps.md) (сходство 0.97)
+- [315-7-practical-first-steps-this-month](../../02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) (сходство 0.80)
+- [315-7-practical-first-steps-this-month](../../obsidian/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) (сходство 0.79)
 

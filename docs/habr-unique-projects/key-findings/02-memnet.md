@@ -1,11 +1,28 @@
 # MemNet — нейроархитектурный двойник «магии» Svyazi
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
 **Проекты:** Svyazi, NGT Memory, MemNet
 
 ---
 <!-- tags: memory, ingestion, architecture, roadmap, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -28,19 +45,38 @@ AI-бот для самопознания
 
 ---
 
-**Смотрите также:**
-- [2-tsu-mome](docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md)
-- [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md)
+## Использование
 
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "MemNet нейроархитектурный двойник магии"
+```
+
+## Смотрите также
+- [2-tsu-mome](../hardware-pairs/2-tsu-mome.md)
+- [01-yodoca](01-yodoca.md)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
+- 03-pda-[llm-as-periphery](03-pda-llm-as-periphery.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (4)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+
+_Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [2-tsu-mome](docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md) (сходство 0.19)
-- [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md) (сходство 0.18)
-- [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md) (сходство 0.17)
+- [02-memnet](../../obsidian/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.95)
+- [memnet](../../svyazi-2-0/components/memnet.md) (сходство 0.27)
+- [memnet](../../obsidian/svyazi-2-0/components/memnet.md) (сходство 0.26)
 

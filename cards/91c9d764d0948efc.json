@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:91c9d764d0948efc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/07-2-terminology.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
+  "payload_hash": "sha256:c9b775a6109d28a7",
+  "payload": {
+    "title": "2. Terminology",
+    "summary": "Имеет уникальное имя (например, `svend4`).",
+    "body": "terminology абстракт авто проблема terminology ecosystem набор репозиториев участвующих одной федерации результат consensus результат сопоставления найденных концептов между несколькими repos ключевые слова nautilus registry anthropic vacancies terminology native repos проекте ecosystem набор репозиториев участвующих одной федерации terminology ecosystem набор репозиториев участвующих одной федерации имеет уникальное имя например svend repository participant далее repo git репозиторий содержащий минимум memnet nautilus json passport корне native format исходный формат данных repo определяемый автором может быть любым markdown json yaml plain text бинарный формат так далее npp ограничивает native format portal implementation npp которая загружает registry инстанцирует адаптеры выполняет query операции reference implementation github com svend nautilus возможны альтернативные registry файл memnet nautilus json корне portal репо перечисляющий все repos экосистемы метаданными adapter python модуль или эквивалент другом языке реализующий интегральный анализ профиля svend baseadapter interface переводящий native format repo унифицированный интегральный анализ профиля svend portalentry passport passport файл корне каждого repo human readable описание что хранит какая философия кто автор как работать интегральный анализ профиля svend portalentry унифицированная структура данных которую адаптеры конвертируют native записи при fetch bridge декларативное описание моста между концепциями разных repos описан memnet nautilus json поле bridges consensus результат сопоставления найденных концептов между несколькими repos может быть full всех repos partial некоторых singular только одном compatibility level целое число характеризующее степень интеграции repo экосистемой определение разделе protocol version semver версия npp объявляемая memnet nautilus json поле protocol version похожие документы terminology сходство memnet registry nautilus json docs anthropic vacancies registry nautilus json сходство проекте сходство смотрите также terminology memnet registry nautilus json docs anthropic vacancies registry nautilus json проекте memnet registry nautilus json docs anthropic vacancies registry nautilus json",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 316,
+    "path": "docs/obsidian/02-anthropic-vacancies/07-2-terminology.md"
+  }
+}

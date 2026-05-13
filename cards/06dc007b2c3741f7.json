@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:06dc007b2c3741f7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CONCEPTS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:81ebe3657e2b7af4",
+  "payload": {
+    "title": "Глоссарий понятий",
+    "summary": "_Определения извлечены автоматически из документов._",
+    "body": "глоссарий понятий содержание tip этот документ описывает mvp подход начните него для быстрого прототипа определения извлечены автоматически документов извлечено понятий совпадений coherent composite agent this composite skills agent pattern why the binary view incomplete protocol components name mcp ансамбль about nautilus federation protocol and reference implementation about action create test cowork project pointing simple practical first steps this month action draft part vision сейчас long term articulation относительно independent capacity questions что такое вариант concept document для anthropic action draft part vision сейчас long term articulation относительно independent capacity questions difficulties and recommendations action document what works and what doesn practical first steps this month action refine custom instructions based observations practical first steps this month activities establish governance framework phased rollout strategy adapter python модуль или эквивалент другом языке terminology adapting them principals key research and design challenge addressed sections and what makes representative agent adopt используй сейчас минимальные риски tech radar adr adr adr formal записи ваших архитектурных решений обоснованиями appendix references adversarial awareness operates environments where what makes representative agent agent contract layer навыки маршрутизация права оформлены как исполнимые правила как размазанные инструкции разным файлам gaps agent function monitor opportunities prepare ten domains application agent pool components name distributed agent workshop agentic intelligence layer persistent memory multi step task execution mcp integration abstract agent bridge components name agent orchestration stack комбо agent first knowledge retrieval knowledge space снижает стоимость ориентации проекте потому что хранит туториалы уже очищенные reference карты граблями рабочими паттернами collaboration safety harms narrower perspective pool problem statement professional colleagues practical natural progression сложности concreteness appendix quick start architecture for sgb advoca aligned incentive structure agent succeeds when client succeeds commission duplicates aligned values serves vulnerable populations mission fit pilot proposal sgb advocate colleague alternatives rejected unified rdf owl ontology слишком высокий barrier adr federation over merging annotations branching infrastructure features которые нужны чтобы такая distributed работа распадалась хаос appendix version history anthropic open positions primarily senior roles problem statement anthropic вакансий демонстрация market gap существующая infrastructure может обработать existing talent appendix version history anthropic beneficial deployments команда внутри anthropic которая фокусируется helping deployments high impact areas что такое вариант concept document для anthropic anthropic skills components name self aware mcp skills codewiki anthropomorphizing self feel excited dream вместо mission orients toward workflow includes твои anti patterns application okwf each contributor node with personal assistants lower proposed infrastructure approach traditional permanent employment with single why existing solutions fail architectural implication open apis and standard formats relationship other agent types arguments for open prevents profession capture allows the sub agent registry arguments for proprietary easier monetization more the sub agent registry arxivadapter arxiv api cache glossary reference examples coherent composite agent this composite skills agent pattern why binary incomplete assess изучи внедряй production tech radar assistant working under specific node appendix glossary ast analysis code becomes part knowledge base dsl ast astructure for invisible quality experts visibility agency closing geantwortet правильно разграничиваете две разные архитектурные концепции которые объединяет только метафора наутилус раковина как вложенная спиральная структура question two nautiluses audit infrastructure tamper resistant logging architectural specification augmentation not replacement yes teacher remains empirical case study обучай author gdb user applying tools own case intro auto router components name security routing plane autoadapter любой repo nautilus glossary beneficial deployments anthropic именно про применение claude общественно полезным задачам здравоохранении образовании госсекторе социальных сервисах intro biome ruff components name continuation domains boundary issue when does helping type become acting relationship other agent types bridge декларативное описание моста между концепциями terminology bridge existing infrastructure many artists already seven domains application bridge existing tools many engineering teams already seven domains application bridges словарь repo name description structural comparison code docs build systems bazel buck turborepo continuation domains burden addressed lesson planning assignment generation application domains bureaucratic knowledge ksv sachsen practices and known patterns pilot proposal sgb advocate colleague burnout что обсуждали предыдущем сообщении glossary buzzword soup leveraging synergies for transformative outcomes твои anti patterns byterover components name supplementary infrastructure правила каждое правил content overview camel active execution framework passive active roles cardindex единственный источник правды состоянии каждой карточки андрея это центральный компонент состояниями pending processed error updated версионированием историей хешей claude response case law bsg decisions federal social court pilot proposal sgb advocate colleague catalyst agent новый агентский тип которого ещё нет literature что такое вариант concept document для anthropic caution mental health high sensitivity domain application domains caveat this domain particularly susceptible application domains centralized foundation employed curators evaluate the sub agent registry changed fallback field added appendix change log portalentry characteristics decades domain expertise target populations choice pause exploration substantial decision нужно time что такое вариант concept document для anthropic choice пауза исследовании существенное решение нужно время lorenzo catalyst agent глубокая проработка специфи choice pause exploration substantial decision нужно time difficulties and recommendations cinderella syndrome after the fairy tale",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 13271,
+    "path": "docs/obsidian/CONCEPTS.md"
+  }
+}

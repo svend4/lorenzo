@@ -1,206 +1,250 @@
 # Индекс ссылок
 
-Всего уникальных URL: 218
+<!-- toc-auto -->
+<!-- tags: links, docs -->
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> **Кто ссылается на этот документ (9):**
+**Проекты:** SENTINEL
+
+---
+
+
+
+Всего уникальных URL: 643
 
 | URL | Найден в файлах |
 |-----|-----------------|
-| http://localhost:8000 | 13 |
-| http://localhost:8080 | 10 |
-| https://...install.sh | 7 |
-| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000 | 7 |
-| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakans… | 5 |
-| https://activitypub.rocks/ | 7 |
-| https://api.github.com/users/svend4/repos?per_page=100&sort=updated | 9 |
-| https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner | 9 |
-| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv | 7 |
-| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 6 |
-| https://claude.com/product/cowork | 17 |
-| https://creativecommons.org/licenses/by/4.0/ | 9 |
-| https://forum.[obsidian | 5 |
-| https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223 | 7 |
-| https://github | 6 |
-| https://github. | 5 |
-| https://github.com/AnastasiyaW | 7 |
-| https://github.com/AnastasiyaW/knowledge-space | 12 |
-| https://github.com/AnastasiyaW/knowledge-space` | 6 |
-| https://github.com/AnastasiyaW` | 3 |
-| https://github.com/Antipozitive | 7 |
-| https://github.com/Cutcode | 7 |
-| https://github.com/Dmitriila | 7 |
-| https://github.com/MiXaiLL76 | 7 |
-| https://github.com/Sonia_Black | 7 |
-| https://github.com/VitalyOborin | 7 |
-| https://github.com/VitalyOborin/yodoca | 5 |
-| https://github.com/VladSpace | 7 |
-| https://github.com/andrey_chuyan | 7 |
-| https://github.com/anthropics/mcp | 9 |
-| https://github.com/anthropics/mcp` | 5 |
-| https://github.com/camel-ai/camel | 10 |
-| https://github.com/camel-ai/camel` | 3 |
-| https://github.com/kksudo | 7 |
-| https://github.com/kksudo/agentfs | 6 |
-| https://github.com/kksudo` | 3 |
-| https://github.com/mcp | 13 |
-| https://github.com/mcp` | 6 |
-| https://github.com/nlaik | 7 |
-| https://github.com/settings/tokens | 9 |
-| https://github.com/settings/tokens` | 6 |
-| https://github.com/spbmolot | 7 |
-| https://github.com/spbmolot/ngt-memory | 5 |
-| https://github.com/spbmolot/… | 1 |
-| https://github.com/spbmolot` | 3 |
-| https://github.com/svend4/ | 6 |
-| https://github.com/svend4/` | 4 |
-| https://github.com/svend4/data70 | 10 |
-| https://github.com/svend4/data70` | 5 |
-| https://github.com/svend4/info1 | 16 |
-| https://github.com/svend4/info1` | 6 |
-| https://github.com/svend4/info40 | 8 |
-| https://github.com/svend4/info7 | 8 |
-| https://github.com/svend4/ingit | 26 |
-| https://github.com/svend4/ingit/issues | 8 |
-| https://github.com/svend4/ingit/issues` | 5 |
-| https://github.com/svend4/ingit` | 6 |
-| https://github.com/svend4/meta | 12 |
-| https://github.com/svend4/meta` | 6 |
-| https://github.com/svend4/nautilus | 31 |
-| https://github.com/svend4/nautilus.git | 6 |
-| https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes-tdywx/README.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/INTEGRATION.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL | 6 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md` | 2 |
-| https://github.com/svend4/nautilus/blob/main/README.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 3 |
-| https://github.com/svend4/nautilus/blob/main/STATUS.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_1.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_2.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_3.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE_PART_4.md | 6 |
-| https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md | 6 |
-| https://github.com/svend4/nautilus/branches | 6 |
-| https://github.com/svend4/nautilus/commits/main | 6 |
-| https://github.com/svend4/nautilus/issues | 43 |
-| https://github.com/svend4/nautilus/issues` | 6 |
-| https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f12eb443ca50/docs | 6 |
-| https://github.com/svend4/nautilus/tree/main/adapters | 6 |
-| https://github.com/svend4/nautilus/tree/main/passports | 6 |
-| https://github.com/svend4/nautilus` | 6 |
-| https://github.com/svend4/pro2 | 18 |
-| https://github.com/svend4/pro2/blob/main/nautilus/README.md | 6 |
-| https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41badc6dc/nautilus | 6 |
-| https://github.com/svend4/pro2/tree/main/nautilus | 6 |
-| https://github.com/svend4/pro2/tree/main/nautilus` | 4 |
-| https://github.com/svend4/pro2` | 6 |
-| https://github.com/svend4?tab=repositories | 6 |
-| https://github.com/svend4?tab=repositories` | 4 |
-| https://github.com/tagir_analyzes | 6 |
-| https://github.com/zodigancode | 6 |
-| https://habr. | 10 |
-| https://habr.com/ru/articles/1002138/ | 10 |
-| https://habr.com/ru/articles/1002138/` | 6 |
-| https://habr.com/ru/articles/1005776/ | 10 |
-| https://habr.com/ru/articles/1005776/` | 6 |
-| https://habr.com/ru/articles/1006602/ | 7 |
-| https://habr.com/ru/articles/1006602/, | 7 |
-| https://habr.com/ru/articles/1006602/` | 6 |
-| https://habr.com/ru/articles/1006622/ | 14 |
-| https://habr.com/ru/articles/1006622/` | 6 |
-| https://habr.com/ru/articles/1007122/ | 10 |
-| https://habr.com/ru/articles/1007122/, | 8 |
-| https://habr.com/ru/articles/1007122/` | 6 |
-| https://habr.com/ru/articles/1009538/ | 10 |
-| https://habr.com/ru/articles/1009538/` | 6 |
-| https://habr.com/ru/articles/1009608/ | 10 |
-| https://habr.com/ru/articles/1009608/` | 6 |
-| https://habr.com/ru/articles/1009958/ | 10 |
-| https://habr.com/ru/articles/1009958/` | 6 |
-| https://habr.com/ru/articles/1010198/ | 10 |
-| https://habr.com/ru/articles/1010198/` | 6 |
-| https://habr.com/ru/articles/1010478/ | 10 |
-| https://habr.com/ru/articles/1010478/` | 6 |
-| https://habr.com/ru/articles/1012894/ | 7 |
-| https://habr.com/ru/articles/1012894/` | 3 |
-| https://habr.com/ru/articles/1014366/ | 9 |
-| https://habr.com/ru/articles/1014366/` | 3 |
-| https://habr.com/ru/articles/1016096/ | 10 |
-| https://habr.com/ru/articles/1016096/` | 6 |
-| https://habr.com/ru/articles/1017200/ | 11 |
-| https://habr.com/ru/articles/1017200/` | 6 |
-| https://habr.com/ru/articles/1019588/ | 7 |
-| https://habr.com/ru/articles/1019588/, | 7 |
-| https://habr.com/ru/articles/1019588/` | 6 |
-| https://habr.com/ru/articles/1020598/ | 7 |
-| https://habr.com/ru/articles/1020598/, | 7 |
-| https://habr.com/ru/articles/1020598/` | 6 |
-| https://habr.com/ru/articles/1020702/ | 3 |
-| https://habr.com/ru/articles/1020860/ | 10 |
-| https://habr.com/ru/articles/1020860/` | 6 |
-| https://habr.com/ru/articles/1021622/ | 7 |
-| https://habr.com/ru/articles/1021622/` | 3 |
-| https://habr.com/ru/articles/1023446/ | 10 |
-| https://habr.com/ru/articles/1023446/` | 6 |
-| https://habr.com/ru/articles/1024634/ | 10 |
-| https://habr.com/ru/articles/1024634/` | 6 |
-| https://habr.com/ru/articles/1024884/comments/ | 10 |
-| https://habr.com/ru/articles/1024884/comments/` | 6 |
-| https://habr.com/ru/articles/1026666/ | 7 |
-| https://habr.com/ru/articles/1027210/ | 11 |
-| https://habr.com/ru/articles/1027210/` | 6 |
-| https://habr.com/ru/articles/1027382/ | 10 |
-| https://habr.com/ru/articles/1027382/` | 6 |
-| https://habr.com/ru/articles/1027658/ | 10 |
-| https://habr.com/ru/articles/1027658/` | 6 |
-| https://habr.com/ru/articles/1027724/ | 13 |
-| https://habr.com/ru/articles/1027724/` | 5 |
-| https://habr.com/ru/articles/1027878/ | 7 |
-| https://habr.com/ru/articles/1027878/, | 7 |
-| https://habr.com/ru/articles/1027878/` | 6 |
-| https://habr.com/ru/articles/495554/ | 10 |
-| https://habr.com/ru/articles/495554/` | 3 |
-| https://habr.com/ru/articles/786278/ | 3 |
-| https://habr.com/ru/articles/800033/ | 3 |
-| https://habr.com/ru/articles/893356/ | 10 |
-| https://habr.com/ru/articles/893356/` | 6 |
-| https://habr.com/ru/articles/938626/ | 7 |
-| https://habr.com/ru/articles/938626/, | 7 |
-| https://habr.com/ru/articles/938626/` | 6 |
-| https://habr.com/ru/articles/943498/ | 7 |
-| https://habr.com/ru/articles/943498/, | 7 |
-| https://habr.com/ru/articles/943498/` | 6 |
-| https://habr.com/ru/articles/955798/ | 10 |
-| https://habr.com/ru/articles/955798/` | 6 |
-| https://habr.com/ru/articles/971620/ | 3 |
-| https://habr.com/ru/articles/975414/ | 10 |
-| https://habr.com/ru/articles/975414/` | 6 |
-| https://habr.com/ru/articles/983684/ | 11 |
-| https://habr.com/ru/articles/983684/` | 6 |
-| https://habr.com/ru/articles/987094/ | 3 |
-| https://habr.com/ru/articles/996144/ | 10 |
-| https://habr.com/ru/articles/996144/` | 6 |
-| https://habr.com/ru/companies/airi/articles/1000720/ | 12 |
-| https://habr.com/ru/companies/airi/articles/1000720/` | 6 |
-| https://habr.com/ru/companies/airi/articles/855128/ | 11 |
-| https://habr.com/ru/companies/airi/articles/855128/` | 6 |
-| https://habr.com/ru/companies/neuronet/articles/592625/ | 3 |
-| https://habr.com/ru/companies/ruvds/articles/980152/ | 3 |
-| https://habr.com/ru/companies/sberdevices/articles/855080/ | 3 |
-| https://habr.com/ru/companies/selectel/articles/1023796/ | 3 |
-| https://habr.com/ru/companies/surfstudio/articles/943108/ | 10 |
-| https://habr.com/ru/companies/surfstudio/articles/943108/` | 6 |
-| https://habr.com/ru/companies/teamly/articles/1024062/ | 9 |
-| https://habr.com/ru/companies/teamly/articles/1024062/` | 3 |
-| https://habr.com/ru/companies/yadro/articles/645843/ | 3 |
-| https://habr.com/ru/companies/yadro/articles/648119/ | 3 |
-| https://habr.com/ru/companies/yandex/articles/1019928/ | 11 |
-| https://habr.com/ru/companies/yandex/articles/1019928/` | 6 |
-| https://habr.com/ru/companies/yoomoney/articles/1012870/ | 11 |
-| https://habr.com/ru/companies/yoomoney/articles/1012870/` | 6 |
-| https://habr.com/ru/news/789164/ | 3 |
-| https://happyin.space/ | 7 |
-| https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7 | 6 |
-| https://olegtalks.ru/base/tpost/xn7kev4fa1-docling-gotovim-dannie-dlya-rag-i-llm | 10 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/adapters/base.py | 8 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/glyph_adapter.py | 8 |
-| https://raw.githubusercontent.com/svend4/nautilus/main/nautilus.json | 8 |
+| http://localhos | 4 |
+| http://localhost:8 | 3 |
+| http://localhost:8000 | 11 |
+| http://localhost:8000` | 8 |
+| http://localhost:8000`` | 8 |
+| http://localhost:8000``` | 8 |
+| http://localhost:8000```` | 8 |
+| http://localhost:8000````` | 8 |
+| http://localhost:8000`````` | 8 |
+| http://localhost:8000``````` | 6 |
+| http://localhost:8000```````` | 10 |
+| http://localhost:8000````````` | 9 |
+| http://localhost:8080 | 11 |
+| http://localhost:8080` | 6 |
+| http://localhost:8080`` | 6 |
+| http://localhost:8080``` | 8 |
+| http://localhost:8080```` | 8 |
+| http://localhost:8080````` | 8 |
+| http://localhost:8080`````` | 8 |
+| http://localhost:8080``````` | 6 |
+| http://localhost:8080```````` | 10 |
+| http://localhost:8080````````` | 7 |
+| http://localhost:8083/api/ask | 7 |
+| http://localhost:8083/api/ask` | 6 |
+| http://localhost:8083/api/ask`` | 4 |
+| http://localhost:8083/api/ask``` | 4 |
+| http://localhost:8083/api/ask```` | 3 |
+| http://localhost:8083/api/benchmark | 7 |
+| http://localhost:8083/api/benchmark` | 6 |
+| http://localhost:8083/api/benchmark`` | 4 |
+| http://localhost:8083/api/benchmark``` | 4 |
+| http://localhost:8083/api/benchmark```` | 3 |
+| http://localhost:8083/api/cards | 7 |
+| http://localhost:8083/api/cards` | 6 |
+| http://localhost:8083/api/cards`` | 4 |
+| http://localhost:8083/api/cards``` | 3 |
+| http://localhost:8083/api/cards```` | 3 |
+| http://localhost:8083/api/collabs | 7 |
+| http://localhost:8083/api/collabs` | 5 |
+| http://localhost:8083/api/collabs`` | 3 |
+| http://localhost:8083/api/collabs``` | 3 |
+| http://localhost:8083/api/collabs```` | 3 |
+| http://localhost:8083/api/health | 6 |
+| http://localhost:8083/api/health` | 5 |
+| http://localhost:8083/api/health`` | 3 |
+| http://localhost:8083/api/health``` | 3 |
+| http://localhost:8083/api/health```` | 3 |
+| http://localhost:8083/api/search | 6 |
+| http://localhost:8083/api/search` | 5 |
+| http://localhost:8083/api/search`` | 3 |
+| http://localhost:8083/api/search``` | 3 |
+| http://localhost:8083/api/search```` | 3 |
+| http://localhost:8083/docs | 6 |
+| http://localhost:8083/docs` | 5 |
+| http://localhost:8083/docs`` | 3 |
+| http://localhost:8083/docs``` | 3 |
+| http://localhost:8083/docs```` | 3 |
+| http://localhost:8083/v1 | 6 |
+| http://localhost:8083/v1/chat/completions | 6 |
+| http://localhost:8083/v1/chat/completions` | 5 |
+| http://localhost:8083/v1/chat/completions`` | 3 |
+| http://localhost:8083/v1/chat/completions``` | 3 |
+| http://localhost:8083/v1/chat/completions```` | 3 |
+| http://localhost:8083/v1` | 5 |
+| http://localhost:8083/v1`` | 3 |
+| http://localhost:8083/v1``` | 3 |
+| http://localhost:8083/v1```` | 3 |
+| http://localhost:8` | 5 |
+| https://...install.sh | 6 |
+| https://...install.sh` | 5 |
+| https://...install.sh`` | 5 |
+| https://...install.sh``` | 3 |
+| https://...install.sh```` | 3 |
+| https://...install.sh````` | 3 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-c` | 4 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-content-overview|[12-c` | 4 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-content-overview|anthropic | 4 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|anthr` | 5 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|anthropic | 4 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic | 4 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic` | 5 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic`` | 3 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic``` | 3 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic```` | 3 |
+| https://3dnews.ru/1140248/glava-[[README|[12-content-overview|[12-content-overvi` | 3 |
+| https://3dnews.ru/1140248/glava-[[README|[12-content-overview|[12-content-overview|[12-c` | 3 |
+| https://3dnews.ru/1140248/glava-[[README|[12-content-overview|[12-content-overview|anthropic | 4 |
+| https://3dnews.ru/1140248/glava-[[README|anthropic | 4 |
+| https://3dnews.ru/1140248/glava-[[README|anthropic` | 5 |
+| https://3dnews.ru/1140248/glava-[[README|anthropic`` | 3 |
+| https://3dnews.ru/1140248/glava-[[README|anthropic``` | 3 |
+| https://3dnews.ru/1140248/glava-[[README|anthropic```` | 3 |
+| https://3dnews.ru/1140248/glava-[anthropic | 4 |
+| https://3dnews.ru/1140248/glava-[anthropic` | 5 |
+| https://3dnews.ru/1140248/glava-[anthropic`` | 5 |
+| https://3dnews.ru/1140248/glava-[anthropic``` | 3 |
+| https://3dnews.ru/1140248/glava-[anthropic```` | 3 |
+| https://3dnews.ru/1140248/glava-[anthropic````` | 3 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe` | 5 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe`` | 5 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe``` | 3 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe```` | 3 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe````` | 3 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-pr` | 5 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000 | 6 |
+| https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakans… | 4 |
+| https://activitypub.rocks/ | 6 |
+| https://activitypub.rocks/` | 5 |
+| https://activitypub.rocks/`` | 5 |
+| https://activitypub.rocks/``` | 3 |
+| https://activitypub.rocks/```` | 3 |
+| https://activitypub.rocks/````` | 3 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated | 8 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner | 8 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner` | 5 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner`` | 5 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner``` | 3 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated` | 5 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated`` | 5 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated``` | 3 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated```` | 3 |
+| https://api.github.com/users/svend4/repos?per_page=100&sort=updated````` | 3 |
+| https://claude.ai/code/session_0152UNJd7SaxP8QSDGZZaFH7 | 1 |
+| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv | 6 |
+| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv` | 5 |
+| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv`` | 5 |
+| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv``` | 3 |
+| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv```` | 3 |
+| https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv````` | 3 |
+| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz | 5 |
+| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz` | 5 |
+| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz`` | 5 |
+| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz``` | 3 |
+| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz```` | 3 |
+| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz````` | 3 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 5 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW` | 5 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW`` | 5 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW``` | 3 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW```` | 3 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW````` | 3 |
+| https://claude.com/product/cowork | 16 |
+| https://claude.com/product/cowork` | 5 |
+| https://claude.com/product/cowork`` | 5 |
+| https://claude.com/product/cowork``` | 3 |
+| https://claude.com/product/cowork```` | 3 |
+| https://claude.com/product/cowork````` | 3 |
+| https://creativecommons.org/licenses/by/4.0/ | 8 |
+| https://creativecommons.org/licenses/by/4.0/` | 5 |
+| https://creativecommons.org/licenses/by/4.0/`` | 5 |
+| https://creativecommons.org/licenses/by/4.0/``` | 3 |
+| https://creativecommons.org/licenses/by/4.0/```` | 3 |
+| https://creativecommons.org/licenses/by/4.0/````` | 3 |
+| https://datatracker | 6 |
+| https://datatracker.ietf.org/doc/html/rfc2119 | 6 |
+| https://datatracker.ietf.org/doc/html/rfc2119` | 5 |
+| https://datatracker.ietf.org/doc/html/rfc2119`` | 5 |
+| https://datatracker.ietf.org/doc/html/rfc2119``` | 3 |
+| https://datatracker.ietf.org/doc/html/rfc2119```` | 3 |
+| https://datatracker.ietf.org/doc/html/rfc2119````` | 3 |
+| https://datatracker` | 5 |
+| https://datatracker`` | 5 |
+| https://datatracker``` | 3 |
+| https://datatracker```` | 3 |
+| https://datatracker````` | 3 |
+| https://forum.[[03-component-catalog|[obsidian | 4 |
+| https://forum.[[03-component-catalog|[obsidian` | 5 |
+| https://forum.[[03-component-catalog|[obsidian`` | 5 |
+| https://forum.[[03-component-catalog|[obsidian``` | 3 |
+| https://forum.[[03-component-catalog|[obsidian```` | 3 |
+| https://forum.[[03-component-catalog|[obsidian````` | 3 |
+| https://forum.[[03-component-catalog|obsidian | 6 |
+| https://forum.[[03-component-catalog|obsidian` | 5 |
+| https://forum.[[03-component-catalog|obsidian`` | 5 |
+| https://forum.[[03-component-catalog|obsidian``` | 3 |
+| https://forum.[[03-component-catalog|obsidian```` | 3 |
+| https://forum.[[03-component-catalog|obsidian````` | 3 |
+| https://forum.[[12-content-overview|[03-component-catalog|obsidian | 4 |
+| https://forum.[[12-content-overview|[03-component-catalog|obsidian` | 5 |
+| https://forum.[[12-content-overview|[03-component-catalog|obsidian`` | 5 |
+| https://forum.[[12-content-overview|[03-component-catalog|obsidian``` | 3 |
+| https://forum.[[12-content-overview|[03-component-catalog|obsidian```` | 3 |
+| https://forum.[[12-content-overview|[03-component-catalog|obsidian````` | 3 |
+| https://forum.[[BROKEN_LINKS|[obsidian | 4 |
+| https://forum.[[BROKEN_LINKS|[obsidian` | 5 |
+| https://forum.[[BROKEN_LINKS|[obsidian`` | 5 |
+| https://forum.[[BROKEN_LINKS|[obsidian``` | 3 |
+| https://forum.[[BROKEN_LINKS|[obsidian```` | 3 |
+| https://forum.[[BROKEN_LINKS|[obsidian````` | 3 |
+| https://forum.[[BROKEN_LINKS|obsidian | 4 |
+| https://forum.[[BROKEN_LINKS|obsidian` | 5 |
+| https://forum.[[BROKEN_LINKS|obsidian`` | 5 |
+| https://forum.[[BROKEN_LINKS|obsidian``` | 3 |
+| https://forum.[[BROKEN_LINKS|obsidian```` | 3 |
+| https://forum.[[BROKEN_LINKS|obsidian````` | 3 |
+| https://forum.[obsidian | 6 |
+| https://forum.[obsidian` | 5 |
+| https://forum.[obsidian`` | 5 |
+| https://forum.[obsidian``` | 3 |
+| https://forum.[obsidian```` | 3 |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [12-content-overview](02-anthropic-vacancies/12-content-overview.md)
+- [31-content-overview](02-anthropic-vacancies/31-content-overview.md)
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [SENTINEL](SENTINEL.md)
+- [STATS](STATS.md)
+

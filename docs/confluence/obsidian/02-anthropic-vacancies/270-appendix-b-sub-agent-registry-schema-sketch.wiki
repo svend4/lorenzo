@@ -13,6 +13,20 @@ date: 2026-05-13
 h1. Appendix B: Sub-Agent Registry Schema (Sketch)
 
 
+h2. Contents
+
+* [Appendix B: Sub-Agent Registry Schema (Sketch)|#appendix-b-sub-agent-registry-schema-sketch]
+* [Похожие документы|#похожие-документы]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (4)|#кто-ссылается-на-этот-документ-4]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}_Абстракт_ (авто){quote}
 >
 {quote}🎯 _Проблема:_ Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, su{quote}
@@ -20,6 +34,10 @@ h1. Appendix B: Sub-Agent Registry Schema (Sketch)
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}For implementation, sub-agent registry entries might follow{quote}
 
@@ -106,7 +124,7 @@ substantial refinement based on actual implementation experience.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
 * [[271-appendix-c-configuration-template-example]] (сходство 0.11)
 
@@ -115,9 +133,20 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[306-with-anthropic-s-cowork-platform|321-appendix-a-decision-tree-for-[ingit]]-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 * [[271-appendix-c-configuration-template-example]]
 * [[28-appendix-a-minimal-working-example]]
 * [[308-table-of-contents]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [[253-table-of-contents]]
+* [[308-table-of-contents]]
+* 321-appendix-a-decision-tree-for-[[321-appendix-a-decision-tree-for-ingit-adopters|ingit-adopters]]
+* [[README]]
 

@@ -1,11 +1,29 @@
 # Mega‑Stack 1.0 — Полный Legal‑AI Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Результат](#результат)
+- [Первый проект для внедрения](#первый-проект-для-внедрения)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑COMBINATION: Полный Legal‑AI Stack для Max».
 **Проекты:** Svyazi, CardIndex, Yjs
 
 ---
 <!-- tags: rag, knowledge, ingestion, local-first, roadmap -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -48,19 +66,30 @@
 
 ---
 
-**Смотрите также:**
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+## Смотрите также
+- [02-ultimate-legal-ai](02-ultimate-legal-ai.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
+- [14-local-first-agent-development-environment](../combinations/14-local-first-agent-development-environment.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
 
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [components-by-name](../../glossary/components-by-name.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
 
 <!-- similar-docs -->
 
 ---
 
 **Похожие документы:**
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.37)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.34)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.30)
+- [01-legal-ai-stack](../../obsidian/technology-combinations/mega-stacks/01-legal-ai-stack.md) (сходство 0.95)
+- [02-ultimate-legal-ai](02-ultimate-legal-ai.md) (сходство 0.40)
+- [09-14-extended](../synthesis-tables/09-14-extended.md) (сходство 0.40)
 

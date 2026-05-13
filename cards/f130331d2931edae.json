@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:f130331d2931edae",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/281-the-recursive-insight.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/279-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/307-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:5f96f2ad824665fd",
+  "payload": {
+    "title": "What Industry Will Likely Build",
+    "summary": "Independent of what the author does, the industry will move",
+    "body": "what industry will likely build абстракт авто проблема what industry will likely build independent what the author does the industry will move what industry will likely build independent what the author does the industry ключевые слова anthropic vacancies layer build industry likely infrastructure notion independent what the author does the industry will move похожие документы the recursive insight the recursive insight сходство what missing layer what missing layer сходство existing approximations existing approximations сходство смотрите также the recursive insight the recursive insight what missing layer what missing layer abstract abstract existing approximations existing approximations упоминается existing approximations existing approximations practical recommendations for the current project practical recommendations for the current project the recursive insight the recursive insight the specific case front the specific case front вакансии anthropic анализ кластерам readme существующие приближения существующие приближения что промышленность вероятно построит что промышленность вероятно построит упоминается вакансии anthropic анализ кластерам readme связанные документы existing approximations existing approximations the recursive insight the recursive insight the two layer stack exists the two layer stack exists the specific case front the specific case front practical recommendations for the current project practical recommendations for the current project why this hasn been built why this hasn been built what this document doesn solve what this document doesn solve связанные документы existing approximations existing approximations the recursive insight the recursive insight practical recommendations for the current project practical recommendations for the current project the two layer stack exists the two layer stack exists why this hasn been built why this hasn been built the specific case front the specific case front executive summary executive summary appendices appendices кто ссылается этот документ executive summary executive summary appendices appendices the two layer stack exists the two layer stack exists what missing layer what missing layer why this hasn been built why this hasn been built the specific case front the specific case front the recursive insight the recursive insight practical recommendations for the current project practical recommendations for the current project ещё",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 498,
+    "path": "docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md"
+  }
+}

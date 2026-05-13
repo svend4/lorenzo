@@ -1,0 +1,58 @@
+{
+  "card_id": "sha256:95df1207324dbb0b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/150-appendix-c-version-history.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/165-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONCEPTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:08477d3f9e83e6c4",
+  "payload": {
+    "title": "Appendix C: Version History",
+    "summary": "Initial consolidating draft. Synthesizes work across PORTAL-PROTOCOL",
+    "body": "appendix version history абстракт авто проблема точно заметили паттерн корм для животного приюте решает проблему приюта потому что животное снова становится голодным подход это demonstrates что подход работает создаёт reference case который можно ссылаться всех future discussions результат это demonstrates что подход работает создаёт reference case который можно ссылаться всех future discussions ключевые слова infrastructure часть anthropic foundation nautilus contributors architecture legal warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений initial consolidating draft synthesizes work across portal protocol appendix version history draft initial consolidating draft synthesizes work across portal protocol review methodology humanities extension discussion and prior managed team architecture analysis into unified framework next planned revision draft after external review least two readers one technical one from humanities legal domain end double triangle architecture draft seeking reviewers collaborators and critics contact via github com svend nautilus issues https github com svend nautilus issues комментарий документу это самый важный артефакт сессии несколько принципиальных решений стоит проговорить документ написанв формате академического working paper формате product documentation это сознательный выбор академический формат имеет abstract contributions references appendix stаndart для peer review использует must should may sparingly больше descriptive prose включает open questions критично call action редко академической литературе работает для working papers referенсирует foundational literature conway brooks raymond shneiderman это защита обвинения изобретение велосипеда причина этого документа легче вырезать раздел для arxiv submission parts или для grant application parts budget чем product documentation это базовый материал которого разворачиваются три opc tions метафора звезды давида использованасодержательно орнаментально воспроизвёл вашу формулировку дословно как name the architecture это важно метафора должна быть authored you anonymous acknowledgments явно указано что метафора emerged from вашего framing религиозные коннотации сознательно акцентированы hexagram как геометрическая фигура известный математический объект используется computer science hexagonal grids гиперкубы это делает метафору secularly accessible при сохранении вашего authorship open questions самая честная часть документа любой working paper без раздела что знаем это document research включил шесть open questions каждый framing возможными approaches особенно критичны burnout это что обсуждали предыдущем сообщении явно упомянут reference implementation opыт это защита romanticизации single person assisted operation честное признание limitations adversarial dynamics что почти никто пишет literature это критично для production deployment эти признания усиливают ослабляют documentimе reviewer который видит honest admission unknowns доверяет больше чем author claiming полное решение personal section включил явно personal section call action это необычно для academic paper причины ваш личный контекст gdb pflegegrad sozialgericht proceedings это defensible moat слабость reviewers grant evaluators humanities domains это оценят transparent authorship делает документ более сильным для grant programs особенно тех которые explicitly value disability informed perspective eic pathfinder mozilla foundation aktion mensch это устанавливает что collaboration это genuine invitation rhetorical device acknowledgments сделаны явно про collaboration это рискованное важное решение обычно academic papers скрывают contribution сделал противоположное явно указал claude collaboration рассматриваю это как evidence the architecture itself это смелый move большинство venues arxiv конференции принимают такое acknowledgement некоторые нет если решите submit conservative venue эта часть может быть toned down для working paper open community это правильный move устанавливает meta consistency paper about assisted work написана assisted явно это признаёт references mix foundational современной литературы foundational references conway brooks raymond weinberg устанавливают что работа grounded established scholarship современные references metagpt mcp shneiderman устанавливают contemporary relevance mix важен без foundational paper выглядит hoc без contemporary датированным three strategic paths preserved как обещал документ consolidates все accumulated work него academic paper path extract abstract part existing landscape part architecture part iii protocols part implementation part vii open questions страниц для arxiv target arxiv distributed computing arxiv human computer interaction cross post multiagent systems grant application path extract abstract part part part part viii call action добавить budget deliverables timeline страниц для eic pathfinder proposal budget over years partners anthropic industry dfki или fraunhofer research legal humanities ngo deployment blog series path extract каждую part separate substack post posts каждый слов publication cadence post per weeks target audience indie hackers builders knowledge workers все три требуют переписывания только extraction formatting для target venue следующие конкретные шаги порядке предполагаемой immediate value первое час сохранить документ github com svend nautilus docs double triangle architecture коммит сообщением docs add double triangle architecture working paper добавить ссылку главного readme разделе documentation это делает документ существующим артефактом который можно ссылаться второе минут опубликовать single linkedin mastodon twitter анонс been thinking about human collaboration and published working paper opening for review link это начинает gathering reviewers которые могут вам помочь улучшить документ перед academic submission третье выбрать один один трёх путей рекомендую начать самого lightweight blog post series substack почему меньшая committed экспозиция если вам понравится можно продолжать gathering реакций community рано building audience для потенциального grant academic path тестирование idea реальном world перед formal submission lower cognitive load per post writing full paper revision первый blog post может быть адаптацией part part почему single triangle модели incomplete introducing double",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 8608,
+    "path": "docs/02-anthropic-vacancies/150-appendix-c-version-history.md"
+  }
+}

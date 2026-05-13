@@ -1,11 +1,20 @@
 # 3. What Makes a Representative Agent
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [3. What Makes a Representative Agent](#3-what-makes-a-representative-agent)
@@ -136,11 +145,30 @@ and 7.
 
 ---
 
-**Смотрите также:**
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Representative Agent"
+```
+
+## Смотрите также
+- [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md)
+- [01-five-type-typology](../professional-colleague-agents-en/01-five-type-typology.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -148,7 +176,7 @@ and 7.
 ---
 
 **Похожие документы:**
-- [172-3-what-makes-a-representative-agent](docs/obsidian/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) (сходство 0.90)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) (сходство 0.83)
-- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md) (сходство 0.24)
+- [03-what-makes-representative-agent](../../obsidian/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md) (сходство 0.98)
+- [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) (сходство 0.82)
+- [172-3-what-makes-a-representative-agent](../../obsidian/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) (сходство 0.82)
 

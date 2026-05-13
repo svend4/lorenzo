@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:9a7c48af2ff3e6d8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:0e8cdf1090694675",
+  "payload": {
+    "title": "7. PortalEntry Structure",
+    "summary": "Унифицированная структура данных, возвращаемая адаптерами.",
+    "body": "portalentry structure абстракт авто проблема portalentry structure portalentry structure подход metadata metadata important ключевой документ для понимания архитектуры результат implementation may расширять список content полный текст представление may быть большим metadata must содержать для level адаптеров links список других rep ключевые слова portalentry structure anthropic vacancies metadata format adapter interface contents интегральный анализ профиля svend portalentry structure portalentry structure field semantics field semantics metadata metadata important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь унифицированная структура данных возвращаемая адаптерами portalentry structure унифицированная структура данных возвращаемая адаптерами from dataclasses import dataclass field from typing import any dataclass class portalentry str required format slug title str required human readable source str required owner repo name format type str required concept type content str required full text metadata dict str any field default factory dict links list str field default factory list fallback bool false field semantics must быть уникален пределах экосистемы формат format slug например интегральный анализ профиля svend info alpha doc title should быть символов source component catalog github slug owner repo name format type one document concept rule theory schema archetype implementation may расширять список content полный текст представление may быть большим metadata must содержать для level адаптеров links список других repos формат format type или format например интегральный анализ профиля svend pro meta hexagram fallback boolean must быть true для fallback entries false default для real fetch results metadata для адаптеров level каждый интегральный анализ профиля svend portalentry must содержать metadata битную строку длиной только символы пример portalentry info synthesis title синтез source svend info format type concept content metadata alpha links pro meta hexagram fallback false похожие документы portalentry structure сходство adapter interface сходство memnet registry nautilus json docs anthropic vacancies registry nautilus json сходство смотрите также portalentry structure adapter interface memnet registry nautilus json docs anthropic vacancies registry nautilus json portal mcp",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 369,
+    "path": "docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md"
+  }
+}

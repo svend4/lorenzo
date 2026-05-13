@@ -9,17 +9,10 @@ date: 2026-05-13
 
 # Practical Recommendations for the Current Project
 
-<!-- toc -->
-## Содержание
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-- [Practical Recommendations for the Current Project](#practical-recommendations-for-the-current-project)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-
----
-
+<!-- alert-added -->
 
 <!-- abstract-auto -->
 > **Абстракт** (авто)
@@ -31,6 +24,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > For the seven-document Nautilus / OKWF project specifically,
 
 ---
@@ -102,7 +99,7 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[280-the-specific-case-in-front-of-us]] (сходство 0.16)
 - [[277-what-s-missing-layer-b]] (сходство 0.15)
 - [[279-existing-approximations]] (сходство 0.14)
@@ -112,7 +109,13 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Practical Recommendations for the"
+```
+
+## Смотрите также
 - [[280-the-specific-case-in-front-of-us]]
 - [[277-what-s-missing-layer-b]]
 - [[285-closing]]
@@ -160,3 +163,19 @@ The friction will be lower than no infrastructure at all.
 - [[279-existing-approximations|Existing Approximations]] _25%_
 - [[281-the-recursive-insight|The Recursive Insight]] _25%_
 - [[282-what-industry-will-likely-build|What Industry Will Likely Build]] _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[164-10-appendices]]
+- [[218-7-application-domains]]
+- [[275-why-this-document-exists]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- [[280-the-specific-case-in-front-of-us]]
+- [[281-the-recursive-insight]]
+- [[282-what-industry-will-likely-build]]
+- _...ещё 4_
+

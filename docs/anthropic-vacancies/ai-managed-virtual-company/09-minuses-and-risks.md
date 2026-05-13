@@ -1,5 +1,23 @@
 # Минусы и риски
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -56,11 +74,33 @@ Fantastical: коллективный интеллект с AI-mediated consensu
 
 ---
 
-**Смотрите также:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [02-four-structural-blockers](docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Минусы и риски"
+```
+
+## Смотрите также
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [00-question-rephrasing](00-question-rephrasing.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [02-four-structural-blockers](02-four-structural-blockers.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-question-rephrasing](00-question-rephrasing.md)
+- [02-four-structural-blockers](02-four-structural-blockers.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -68,7 +108,7 @@ Fantastical: коллективный интеллект с AI-mediated consensu
 ---
 
 **Похожие документы:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.30)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.14)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md) (сходство 0.13)
+- [09-minuses-and-risks](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md) (сходство 0.99)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.30)
+- [00-question-innovations-transitions](../../obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.30)
 

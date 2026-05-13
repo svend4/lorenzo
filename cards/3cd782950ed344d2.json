@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:3cd782950ed344d2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:f3dd41f56a20ee8a",
+  "payload": {
+    "title": "Различие 5: Дрифт между tool capability и mission",
+    "summary": "Различие 5: Дрифт между tool capability и mission",
+    "body": "различие дрифт между tool capability mission источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога сравнение собственной архитектуры ingit cowork nautilus hermes agent nous resear смотрите также difference domain specialization difference domain specialization difference institutional vision difference institutional vision similarity self hosting privacy similarity self hosting privacy similarity multi platform similarity multi platform",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 165,
+    "path": "docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md"
+  }
+}

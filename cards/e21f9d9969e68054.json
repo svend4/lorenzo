@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:e21f9d9969e68054",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/12-concrete-next-step.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/09-federated-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:90146a70e1bce571",
+  "payload": {
+    "title": "Конкретный потенциальный collaborator",
+    "summary": "Самый interesting potential collaborator из найденного: Андрей Чуян (@andrey_chuyan).",
+    "body": "конкретный потенциальный collaborator источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов проекты svyazi смотрите также concrete next step concrete next step federated platform federated platform svyazi andrey chuyan svyazi andrey chuyan section risks mitigations anthropic vacancies beneficial deployments concept section risks mitigations",
+    "tags": [
+      "rag",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 247,
+    "path": "docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md"
+  }
+}

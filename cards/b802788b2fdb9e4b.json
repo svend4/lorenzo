@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:b802788b2fdb9e4b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/review-methodology/15-appendix-c-history.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/review-methodology/12-appendix-a-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/14-main-technical-risks.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:ec5d0ae717887131",
+  "payload": {
+    "title": "Appendix C: История изменений методологии",
+    "summary": "Первая формализация, основана на опыте применения к",
+    "body": "appendix история изменений методологии источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также appendix header warning appendix header warning appendix change log npp appendix change log question habr link community discussions habr article reaction question habr link main technical risks main technical risks",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 100,
+    "path": "docs/nautilus/review-methodology/15-appendix-c-history.md"
+  }
+}

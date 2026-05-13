@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:1a84a521d70b7953",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/09-federated-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:96423fb5577f8d92",
+  "payload": {
+    "title": "Конкретный пример: SGB Advocate Colleague на этой архитектуре",
+    "summary": "Конкретный example: SGB Advocate Colleague на этой архитектуре",
+    "body": "конкретный пример sgb advocate colleague этой архитектуре источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ комбинирования пассивного nautilus активным camel framework смотрите также personal multi agent hub habr unique projects extra examples personal multi agent hub what take from info repos what take from info repos federated platform habr unique projects extra examples federated platform passive active roles passive active roles",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 251,
+    "path": "docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md"
+  }
+}

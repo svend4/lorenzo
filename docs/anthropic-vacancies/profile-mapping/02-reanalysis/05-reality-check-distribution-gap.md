@@ -1,10 +1,26 @@
 # Reality check: проблема distribution-слоя
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
 
 ---
 <!-- tags: roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -25,11 +41,35 @@ Du hast gesagt: https://github.
 
 ---
 
-**Смотрите также:**
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [01-fde-downgraded](docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Reality check проблема distribution слоя"
+```
+
+## Смотрите также
+- [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md)
+- 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
+- [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)
+- [01-fde-downgraded](01-fde-downgraded.md)
+
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [OUTLINE](../../../OUTLINE.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md)
+- [01-fde-downgraded](01-fde-downgraded.md)
+- [02-three-overlapping-identities](02-three-overlapping-identities.md)
+- [03-revised-anthropic-mapping](03-revised-anthropic-mapping.md)
+- _...ещё 3_
 
 
 <!-- similar-docs -->
@@ -37,7 +77,7 @@ Du hast gesagt: https://github.
 ---
 
 **Похожие документы:**
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.22)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.21)
-- [01-fde-downgraded](docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md) (сходство 0.20)
+- [05-reality-check-distribution-gap](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.98)
+- [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md) (сходство 0.27)
+- [08-practical-ranking](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.27)
 

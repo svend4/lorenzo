@@ -1,11 +1,38 @@
 # Комбинация 24: MEGA-INTEGRATION: Full Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -134,11 +161,33 @@ Charted specialized domains for discovering innovative projects
 
 ---
 
-**Смотрите также:**
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Комбинация 24 MEGA INTEGRATION Full"
+```
+
+## Смотрите также
+- [20-24-final](../synthesis-tables/20-24-final.md)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
+- [30-mega-stack-3-0-with-dsl-ast](30-mega-stack-3-0-with-dsl-ast.md)
+- _...ещё 2_
 
 
 <!-- similar-docs -->
@@ -146,7 +195,7 @@ Charted specialized domains for discovering innovative projects
 ---
 
 **Похожие документы:**
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md) (сходство 0.41)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.39)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md) (сходство 0.30)
+- [24-mega-integration-full-stack](../../obsidian/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.98)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md) (сходство 0.44)
+- [19-multi-agent-observability-platform](../../obsidian/technology-combinations/combinations/19-multi-agent-observability-platform.md) (сходство 0.43)
 

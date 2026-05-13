@@ -9,7 +9,30 @@ date: 2026-05-13
 
 # Acknowledgments
 
+<!-- toc-auto -->
+## Contents
+
+- [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (17)](#кто-ссылается-на-этот-документ-17)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > This document emerged from the author's observation, near
 
 ---
@@ -47,7 +70,7 @@ contributed structure and reference work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.20)
 - [[275-why-this-document-exists]] (сходство 0.16)
 - [[319-acknowledgments]] (сходство 0.16)
@@ -57,7 +80,13 @@ contributed structure and reference work.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
+## Смотрите также
 - [[274-the-missing-middle-layer-between-chat-and-code]]
 - [[319-acknowledgments]]
 - [[275-why-this-document-exists]]
@@ -104,3 +133,19 @@ contributed structure and reference work.
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _33%_
 - [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _33%_
 - [[306-with-anthropic-s-cowork-platform|with Anthropic's Cowork Platform]] _33%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (17)
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- [[267-acknowledgments]]
+- [[274-the-missing-middle-layer-between-chat-and-code]]
+- [[275-why-this-document-exists]]
+- [[276-the-two-layer-stack-as-it-exists]]
+- [[277-what-s-missing-layer-b]]
+- _...ещё 9_
+

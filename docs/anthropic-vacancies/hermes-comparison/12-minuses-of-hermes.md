@@ -1,10 +1,26 @@
 # Минусы Hermes (где наша архитектура добавляет ценность)
 
+<!-- toc-auto -->
+## Contents
+
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear
 
 ---
 <!-- tags: architecture, anthropic, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
@@ -47,11 +63,30 @@ Cowork был самым серьёзным конкурентом для наш
 
 ---
 
-**Смотрите также:**
-- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [11-pluses-of-hermes](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md)
-- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Минусы Hermes где наша архитектура"
+```
+
+## Смотрите также
+- [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- [11-pluses-of-hermes](11-pluses-of-hermes.md)
+- [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [13-reprioritization](13-reprioritization.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -59,7 +94,7 @@ Cowork был самым серьёзным конкурентом для наш
 ---
 
 **Похожие документы:**
-- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.26)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.24)
-- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.23)
+- [12-minuses-of-hermes](../../obsidian/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md) (сходство 0.98)
+- [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md) (сходство 0.28)
+- [10-difference-5-tool-vs-mission-drift](../../obsidian/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.28)
 

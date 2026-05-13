@@ -1,11 +1,20 @@
 # 3. What Makes a Composite Skills Agent
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [3. What Makes a Composite Skills Agent](#3-what-makes-a-composite-skills-agent)
@@ -172,11 +181,33 @@ agents inherit this distinction.
 
 ---
 
-**Смотрите также:**
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [06-coordination-disagreement](docs/nautilus/composite-skills-agents/06-coordination-disagreement.md)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
-- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Composite Skills Agent"
+```
+
+## Смотрите также
+- [256-3-what-makes-a-composite-skills-agent](../../02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [06-coordination-disagreement](06-coordination-disagreement.md)
+- [11-open-questions](11-open-questions.md)
+- [01-why-binary-incomplete](01-why-binary-incomplete.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-configuration-ensembles](05-configuration-ensembles.md)
+- [06-coordination-disagreement](06-coordination-disagreement.md)
+- [11-open-questions](11-open-questions.md)
+- _...ещё 1_
 
 
 <!-- similar-docs -->
@@ -184,7 +215,7 @@ agents inherit this distinction.
 ---
 
 **Похожие документы:**
-- [256-3-what-makes-a-composite-skills-agent](docs/obsidian/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.90)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.86)
-- [06-coordination-disagreement](docs/nautilus/composite-skills-agents/06-coordination-disagreement.md) (сходство 0.21)
+- [03-what-makes-csa](../../obsidian/nautilus/composite-skills-agents/03-what-makes-csa.md) (сходство 0.99)
+- [256-3-what-makes-a-composite-skills-agent](../../02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.86)
+- [256-3-what-makes-a-composite-skills-agent](../../obsidian/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.86)
 

@@ -5,10 +5,14 @@
 
 h1. 12. Onboarding Paths (Normative)
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 
 h2. Содержание
 
-* [Contents|#contents]
 * [12. Onboarding Paths (Normative)|#12-onboarding-paths-normative]
   * [12.1. Path A — Manual Adapter|#121-path-a-manual-adapter]
   * [12.2. Path B — generate_passport.py Wizard|#122-path-b-generate_passportpy-wizard]
@@ -22,18 +26,6 @@ h2. Содержание
 * [Связанные документы|#связанные-документы]
 
 ----
-
-
-
-h2. Contents
-
-* [12. Onboarding Paths (Normative)|#12-onboarding-paths-normative]
-  * [12.1. Path A — Manual Adapter|#121-path-a-manual-adapter]
-  * [12.2. Path B — generatepassport.py Wizard|#122-path-b-generatepassportpy-wizard]
-  * [12.3. Path C — Self-Declaring Repo (AutoAdapter)|#123-path-c-self-declaring-repo-autoadapter]
-  * [12.4. Path D — Auto-Scanner|#124-path-d-auto-scanner]
-  * [12.5. Path E — [GitHub|../docs/01-svyazi/03-component-catalog.md] Actions Webhook](#125-path-e-github-actions-webhook)
-  * [12.6. Path Selection Guidance|#126-path-selection-guidance]
 
 
 
@@ -55,11 +47,11 @@ h3. 12.1. Path A — Manual Adapter
 
 _Время_: 10–20 минут. _Автоматизация_: 0%. _Качество_: высокое.
 
-1. Написать {{adapters/<format>.py}}, наследуясь от {{[BaseAdapter|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]}}
+1. Написать {{adapters/<format>.py}}, наследуясь от {{[BaseAdapter|01-интегральный-анализ-профиля-svend4.md]}}
 2. Написать {{passports/<format>.md}}
 3. Зарегистрировать адаптер в {{adapters/_init_.py}}
 4. Добавить импорт в {{portal.py}} в конструктор
-5. Добавить запись в {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}}
+5. Добавить запись в {{[nautilus|../05-habr-projects/memory/memnet.md].json}}
 
 h3. 12.2. Path B — generate_passport.py Wizard
 
@@ -79,11 +71,11 @@ python generate_passport.py --repo owner/repo --format myformat --adapter
 h3. 12.3. Path C — Self-Declaring Repo (AutoAdapter)
 
 _Время_: 10 минут. _Автоматизация_: ~80%. _Качество_: 
-зависит от index в [nautilus|../docs/05-habr-projects/memory/memnet.md].json target-репо.
+зависит от index в [nautilus|../05-habr-projects/memory/memnet.md].json target-репо.
 
-1. В целевом репо создать {{[nautilus|../docs/05-habr-projects/memory/memnet.md].json}} в корне с полем {{index}}
+1. В целевом репо создать {{[nautilus|../05-habr-projects/memory/memnet.md].json}} в корне с полем {{index}}
 2. В portal-репо добавить запись {{{"adapter": "auto", "repo": "..."}}}
-3. Portal автоматически использует [AutoAdapter|../docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md]
+3. Portal автоматически использует [AutoAdapter|141-4-nautilus-portal-as-reference-substrate.md]
 
 _Ключевое свойство_: repo регистрирует себя сам, portal не 
 требует изменений кода. Это enables federation без координации.
@@ -116,7 +108,7 @@ _Автоматизация_: 100%. _Качество_: низкое без Q6-�
    {{scan_repo.py}} + {{generate_passport.py}} + commit
 
 _Плюсы_: полностью автоматически.  
-_Минусы_: нужны [GitHub|../docs/01-svyazi/03-component-catalog.md] токены с правами на оба репо, Q6 всё равно 
+_Минусы_: нужны [GitHub|../01-svyazi/03-component-catalog.md] токены с правами на оба репо, Q6 всё равно 
 требует ручной проверки.
 
 h3. 12.6. Path Selection Guidance
@@ -137,18 +129,33 @@ _Рекомендуемый путь для типового Repo_: B → дор
 
 ----
 
-_Смотрите также:_
-* [07-2-terminology|docs/02-anthropic-vacancies/07-2-terminology.md]
-* [78-3-registry-[nautilus|../docs/05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-* [77-2-terminology|docs/02-anthropic-vacancies/77-2-terminology.md]
+h2. Смотрите также
+* [07-2-terminology|07-2-terminology.md]
+* [78-3-registry-[nautilus|../05-habr-projects/memory/memnet.md]-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+* [77-2-terminology|77-2-terminology.md]
 
 
 
 
 ----
 
-_Похожие документы:_
-* [07-2-terminology|docs/02-anthropic-vacancies/07-2-terminology.md] (сходство 0.16)
-* [80-5-compatibility-levels|docs/02-anthropic-vacancies/80-5-compatibility-levels.md] (сходство 0.16)
-* [77-2-terminology|docs/02-anthropic-vacancies/77-2-terminology.md] (сходство 0.15)
+h2. Похожие документы
+* [07-2-terminology|07-2-terminology.md] (сходство 0.16)
+* [80-5-compatibility-levels|80-5-compatibility-levels.md] (сходство 0.16)
+* [77-2-terminology|77-2-terminology.md] (сходство 0.15)
+
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [README|README.md]
+* [CONCEPTS|../CONCEPTS.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [12-onboarding-paths|../nautilus/npp-v1-1/12-onboarding-paths.md]
 

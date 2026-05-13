@@ -85,6 +85,12 @@ def add_footnotes(text: str, terms: dict[str, str]) -> tuple[str, int]:
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Добавляет сноски [^term] к терминам в .md файлах")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Показать сколько файлов будет изменено, не изменять")
+    args = parser.parse_args()
+
     print("Добавление сносок к терминам...")
 
     total_added = 0
@@ -104,7 +110,10 @@ def main():
 
             new_text, n = add_footnotes(text, GLOSSARY)
             if n > 0:
-                f.write_text(new_text, encoding="utf-8")
+                if args.dry_run:
+                    print(f"  [dry-run] {f.relative_to(ROOT)} → +{n} сносок")
+                else:
+                    f.write_text(new_text, encoding="utf-8")
                 files_updated += 1
                 total_added   += n
                 for term in GLOSSARY:
@@ -135,6 +144,11 @@ def main():
         "[^mcp]: Model Context Protocol — протокол для AI-инструментов",
         "```",
     ]
+
+    if args.dry_run:
+        print(f"\n[dry-run] файлов к обновлению: {files_updated}, сносок: {total_added}")
+        print("[dry-run] Файлы не изменены. Уберите --dry-run чтобы применить.")
+        return
 
     out = DOCS / "FOOTNOTES.md"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

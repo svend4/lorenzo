@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:eee1dc68947d8ea6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/37-native-format.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:aaa47ad4575d9c2c",
+  "payload": {
+    "title": "Native Format",
+    "summary": "интерпретации из возможных — выберите одну или опишите свою:]",
+    "body": "native format структура файла интегральный анализ профиля svend уточнить markdown yaml frontmatter чистый json native format расширение info структура файла уточнить markdown yaml frontmatter чистый json something custom обязательные поля записи уникальный идентификатор пределах репо title название метода формулы архетипа alpha level уровень ниже content основное содержание tags ключевые слова уровни определяют уточнить точную семантику наиболее вероятные интерпретации возможных выберите одну или опишите свою вариант уровень абстракции практические приёмы паттерны принципы метапринципы вариант уровень уверенности проверено многократно proven одном контексте гипотеза спекуляция вариант fuzzy membership степень принадлежности записи категории вариант другое описать похожие документы native format сходство смотрите также native format native format appendix minimal working example compatibility level упоминается appendix minimal working example appendix minimal working example for the curious philosophy for the curious philosophy native format native format native format native format readme вакансии anthropic анализ кластерам упоминается readme вакансии anthropic анализ кластерам связанные документы compatibility level compatibility level passport passport passport passport native format native format appendix minimal working example appendix minimal working example planned planned queryresult structure queryresult structure appendix minimal working example appendix minimal working example содержание содержание связанные документы native format native format appendix minimal working example appendix minimal working example queryresult structure queryresult structure compatibility level compatibility level for the curious philosophy for the curious philosophy abstract abstract passport passport passport passport planned planned",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 318,
+    "path": "docs/obsidian/02-anthropic-vacancies/37-native-format.md"
+  }
+}

@@ -170,7 +170,7 @@ Contact: via [[03-component-catalog|GitHub]] issues at
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[136-abstract]] (сходство 0.18)
 - [[143-6-four-deployment-domains]] (сходство 0.17)
 - [[158-4-proposed-infrastructure]] (сходство 0.15)
@@ -180,7 +180,13 @@ Contact: via [[03-component-catalog|GitHub]] issues at
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "8 Call to Action"
+```
+
+## Смотрите также
 - [[136-abstract]]
 - [[143-6-four-deployment-domains]]
 - [[144-7-open-questions]]
@@ -225,3 +231,19 @@ Contact: via [[03-component-catalog|GitHub]] issues at
 - [[158-4-proposed-infrastructure|4. Proposed Infrastructure]] _21%_
 - [[174-5-architectural-specification|5. Architectural Specification]] _21%_
 - [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[136-abstract]]
+- [[142-5-pattern-library-as-bridge-between-triangles]]
+- [[143-6-four-deployment-domains]]
+- [[144-7-open-questions]]
+- [[148-appendix-a-glossary]]
+- [[150-appendix-c-version-history]]
+- [[153-executive-summary]]
+- [[168-abstract]]
+- _...ещё 4_
+

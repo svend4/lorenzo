@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:a48739f5508b726a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/dmitriila.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:224233267689a1e0",
+  "payload": {
+    "title": "Контакт: Dmitriila / SENTINEL",
+    "summary": "Я изучаю SENTINEL — он отлично вписывается в Svyazi 2.0,",
+    "body": "контакт dmitriila sentinel статус связи статус связи проекты svyazi sentinel contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник dmitriila github dmitriila https github com dmitriila проекты sentinel слой svyazi security упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте dmitriila изучаю sentinel отлично вписывается svyazi которую собираю как локальную community intelligence platform sentinel закрывает слой security архитектуре было интересно пообщаться как лучше связаться открытые вопросы вопрос вопрос создано автоматически похожие документы mixaill сходство vladspace сходство zodigancode сходство смотрите также mixaill tagir analyzes vladspace cutcode",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "SENTINEL"
+    ],
+    "wc": 216,
+    "path": "docs/obsidian/contacts/dmitriila.md"
+  }
+}

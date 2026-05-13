@@ -1,5 +1,11 @@
 # Вопрос: fallback-ratio как критический или осмысленный?
 
+<!-- toc-auto -->
+## Contents
+
+- [Вопрос: fallback-ratio как критический или осмысленный?](#вопрос-fallback-ratio-как-критический-или-осмысленный)
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -29,7 +35,7 @@
 Два независимых анализа пришли к разным выводам:
 
 - **Позиция A**: 88% fallback критично, требует срочных живых 
-  адаптеров для [info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)/pro2/meta/data2
+  адаптеров для [info1](01-интегральный-анализ-профиля-svend4.md)/pro2/meta/data2
 - **Позиция B**: 88% fallback — осмысленное решение для 
   early-stage проекта, приоритет средний
 
@@ -72,19 +78,35 @@
 
 ---
 
-**Смотрите также:**
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+## Смотрите также
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [116-9-checklist-применения-методологии](116-9-checklist-применения-методологии.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
 
 
 <!-- similar-docs -->
 
 ---
 
-**Похожие документы:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.21)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) (сходство 0.19)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.19)
+## Похожие документы
+- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.21)
+- [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.19)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md) (сходство 0.19)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [README](README.md)
+- [CONCEPTS](../CONCEPTS.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- _...ещё 1_
 

@@ -169,7 +169,7 @@ efficiently between levels.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[148-appendix-a-glossary]] (сходство 0.17)
 * [[139-2-the-double-triangle-architecture]] (сходство 0.15)
 * [[144-7-open-questions]] (сходство 0.14)
@@ -179,7 +179,7 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[148-appendix-a-glossary]]
 * [[139-2-the-double-triangle-architecture]]
 * [[144-7-open-questions]]
@@ -220,3 +220,18 @@ h2. Связанные документы
 * [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] _21%_
 * [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]] _21%_
 * [[144-7-open-questions|7. Open Questions]] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (8)
+* [[136-abstract]]
+* [[140-3-three-inter-layer-protocols]]
+* 141-4-[[141-4-nautilus-portal-as-reference-substrate|nautilus-portal-as-reference-substrate]]
+* [[143-6-four-deployment-domains]]
+* [[144-7-open-questions]]
+* [[145-8-call-to-action]]
+* [[148-appendix-a-glossary]]
+* [[README]]
+

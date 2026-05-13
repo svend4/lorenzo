@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:9b03c7018b75a057",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/22-russian-international-oss-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/20-24-final.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:47436262afdd9240",
+  "payload": {
+    "title": "Комбинация 21: Legal Corpus Analytics at Scale",
+    "summary": "ClickHouse (100M rows/sec, columnar OLAP)",
+    "body": "комбинация legal corpus analytics scale источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также llm powered legal corpus builder llm powered legal corpus builder event sourcing cqrs clickhouse analytics event sourcing cqrs clickhouse analytics russian international oss stack russian international oss stack final synthesis tables final кто ссылается этот документ components name glossary components name readme readme final synthesis tables final",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 249,
+    "path": "docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md"
+  }
+}

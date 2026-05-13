@@ -1,6 +1,30 @@
 # Appendix B: Summary of Contributions
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
+- [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > 1. **Topological formalization** of Double-Triangle Architecture
 
 ---
@@ -44,7 +68,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [137-table-of-contents](137-table-of-contents.md) (сходство 0.24)
 - [136-abstract](136-abstract.md) (сходство 0.15)
 - [355-существующие-документы-dhlab-твой-context](355-существующие-документы-dhlab-твой-context.md) (сходство 0.12)
@@ -54,7 +78,13 @@
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Summary of Contributions"
+```
+
+## Смотрите также
 - [137-table-of-contents](137-table-of-contents.md)
 - [136-abstract](136-abstract.md)
 - [355-существующие-документы-dhlab-твой-context](355-существующие-документы-dhlab-твой-context.md)
@@ -95,3 +125,23 @@
 - [Содержание](190-содержание.md) _21%_
 - [Table of Contents](211-table-of-contents.md) _21%_
 - [Table of Contents](253-table-of-contents.md) _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [136-abstract](136-abstract.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [190-содержание](190-содержание.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- _...ещё 4_
+
+# Author & Contact
+
+## Author & Contact
+Кто поддерживает, как связаться.

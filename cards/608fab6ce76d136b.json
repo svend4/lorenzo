@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:608fab6ce76d136b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/nlaik.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
+  "payload_hash": "sha256:0e38bf30e7fff5b0",
+  "payload": {
+    "title": "Контакт: nlaik / LiteParse / research-docs",
+    "summary": "title: \"Контакт: nlaik / LiteParse / research-docs\"",
+    "body": "контакт nlaik liteparse research docs tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi liteparse contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник nlaik github nlaik https github com nlaik проекты liteparse research docs слой svyazi rag упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте nlaik изучаю liteparse research docs отлично вписывается svyazi которую собираю как локальную community intelligence platform liteparse research docs закрывает слой rag архитектуре было интересно пообщаться как лучше связаться открытые вопросы вопрос вопрос создано автоматически похожие документы antipozitive сходство vladspace сходство zodigancode сходство смотрите также antipozitive sonia black spbmolot andrey chuyan",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "LiteParse"
+    ],
+    "wc": 241,
+    "path": "docs/obsidian/contacts/nlaik.md"
+  }
+}

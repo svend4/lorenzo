@@ -12,7 +12,6 @@ date: 2026-05-13
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [11. Open Questions](#11-open-questions)
   - [11.1. Granularity Questions](#111-granularity-questions)
   - [11.2. Configuration Stability](#112-configuration-stability)
@@ -32,20 +31,6 @@ date: 2026-05-13
 > 🎯 **Проблема:** What signals suggest configuration revision is needed?
 > 🏷️ **Ключевые слова:** `composite`, `questions`, `agent`, `agents`, `configuration`, `configurations`, `anthropic`, `vacancies`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [11. Open Questions](#11-open-questions)
-  - [11.1. Granularity Questions](#111-granularity-questions)
-  - [11.2. Configuration Stability](#112-configuration-stability)
-  - [11.3. Cross-Professional Configurations](#113-cross-professional-configurations)
-  - [11.4. Configuration Evolution at Scale](#114-configuration-evolution-at-scale)
-  - [11.5. Sub-Agent Quality Across Cultures](#115-sub-agent-quality-across-cultures)
-  - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
-  - [11.7. The "Emergence" Question](#117-the-emergence-question)
-  - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
 
 
 > [!TIP]
@@ -150,7 +135,7 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[265-12-call-for-collaboration]] (сходство 0.18)
 - [[221-10-open-questions]] (сходство 0.18)
 - [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.18)
@@ -160,9 +145,31 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
-**Смотрите также:**
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Open Questions"
+```
+
+## Смотрите также
 - [[265-12-call-for-collaboration]]
 - [[256-3-what-makes-a-composite-skills-agent]]
 - [[262-9-integration-with-okwf-infrastructure]]
 - [[221-10-open-questions]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (10)
+- [[151-open-knowledge-work-foundation-md]]
+- [[172-3-what-makes-a-representative-agent]]
+- [[249-composite-skills-agent-md]]
+- [[256-3-what-makes-a-composite-skills-agent]]
+- [[258-5-configuration-how-principals-build-their-ensembl]]
+- [[259-6-coordination-and-disagreement-resolution]]
+- [[260-7-economics-of-combinatorial-replication]]
+- [[261-8-seven-domains-of-application]]
+- _...ещё 2_
 

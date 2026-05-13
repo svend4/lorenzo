@@ -486,11 +486,38 @@ pasted
 
 ---
 
-**Смотрите также:**
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
-- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+## Использование
+
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+```
+
+```bash
+# Альтернативный поиск (BM25)
+python scripts/improve_semantic_search.py --query "12 Closing" --mode bm25
+```
+
+## Смотрите также
+- [186-appendix-c-sample-use-cases-in-detail](../../02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [04-ten-domains](04-ten-domains.md)
+- [173-4-ten-domains-of-application](../../02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](../../OUTLINE.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [11-glossary](../double-triangle-architecture/11-glossary.md)
+- [04-ten-domains](04-ten-domains.md)
+- [README](README.md)
 
 
 <!-- similar-docs -->
@@ -498,7 +525,7 @@ pasted
 ---
 
 **Похожие документы:**
-- [186-appendix-c-sample-use-cases-in-detail](docs/obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.80)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.79)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.45)
+- [12-closing](../../obsidian/nautilus/representative-agent-layer-en/12-closing.md) (сходство 0.99)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.45)
+- [01-response-en](../../obsidian/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.45)
 

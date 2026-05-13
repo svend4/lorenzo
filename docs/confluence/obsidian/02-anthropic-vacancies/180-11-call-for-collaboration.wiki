@@ -14,17 +14,9 @@ date: 2026-05-13
 h1. 11. Call for Collaboration
 
 
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Pilot partnerships allow the technology to develop in service of actual need rather than imagined need.{quote}
-{quote}🔧 _Подход:_ Your needs should drive design decisions.{quote}
-{quote}🏷️ _Ключевые слова:_ {{collaboration}}, {{organizations}}, {{invite}}, {{anthropic}}, {{vacancies}}, {{social}}, {{critics}}, {{researchers}}{quote}
->
-
-
-
 h2. Contents
 
+* [Содержание|#содержание]
 * [11. Call for Collaboration|#11-call-for-collaboration]
   * [11.1. For AI Researchers|#111-for-ai-researchers]
   * [11.2. For Social Service Organizations|#112-for-social-service-organizations]
@@ -33,6 +25,44 @@ h2. Contents
   * [11.5. For Policymakers|#115-for-policymakers]
   * [11.6. For Potential Principals|#116-for-potential-principals]
   * [11.7. For Critics|#117-for-critics]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (4)|#кто-ссылается-на-этот-документ-4]
+
+
+
+h2. Содержание
+
+* [Contents|#contents]
+* [11. Call for Collaboration|#11-call-for-collaboration]
+  * [11.1. For AI Researchers|#111-for-ai-researchers]
+  * [11.2. For Social Service Organizations|#112-for-social-service-organizations]
+  * [11.3. For Disability Rights Organizations|#113-for-disability-rights-organizations]
+  * [11.4. For Foundation Funders|#114-for-foundation-funders]
+  * [11.5. For Policymakers|#115-for-policymakers]
+  * [11.6. For Potential Principals|#116-for-potential-principals]
+  * [11.7. For Critics|#117-for-critics]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (4)|#кто-ссылается-на-этот-документ-4]
+
+----
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ Pilot partnerships allow the technology to develop in service of actual need rather than imagined need.{quote}
+{quote}🔧 _Подход:_ Your needs should drive design decisions.{quote}
+{quote}🏷️ _Ключевые слова:_ {{collaboration}}, {{organizations}}, {{invite}}, {{anthropic}}, {{vacancies}}, {{social}}, {{critics}}, {{researchers}}{quote}
+>
 
 
 
@@ -112,7 +142,7 @@ prefer honest critics to unreserved enthusiasts.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[265-12-call-for-collaboration]] (сходство 0.16)
 * [[178-9-phased-rollout-strategy]] (сходство 0.14)
 * [[223-12-closing]] (сходство 0.13)
@@ -122,9 +152,26 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
+{code}
+
+h2. Смотрите также
 * [[265-12-call-for-collaboration]]
 * [[178-9-phased-rollout-strategy]]
 * [[223-12-closing]]
 * [[168-abstract]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (4)
+* [[161-7-phased-rollout-plan]]
+* [[168-abstract]]
+* [[223-12-closing]]
+* [[README]]
 

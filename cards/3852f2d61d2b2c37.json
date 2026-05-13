@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:3852f2d61d2b2c37",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/innovation-transitions/00-question-innovations-transitions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:e041a54812368bd2",
+  "payload": {
+    "title": "Сравнение с Terence Tao, Polymath Project",
+    "summary": "Du hast gesagt: Terence Tao, Polymath Project.",
+    "body": "сравнение terence tao polymath project warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также question innovations transitions nautilus innovation transitions question innovations transitions question rephrasing question rephrasing three variants three variants minuses and risks minuses and risks",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 1390,
+    "path": "docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md"
+  }
+}

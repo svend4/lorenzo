@@ -1,0 +1,40 @@
+{
+  "card_id": "sha256:e79f8b2479fc2ff6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/scenarios/00-question-scenario.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/multi-tier-architecture/00-question-multi-tier.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:31a07117d9e2a350",
+  "payload": {
+    "title": "Du hast gesagt: Такой агент конечно меняет уже собственную реальность человека и…",
+    "summary": "Du hast gesagt: Такой агент конечно меняет уже собственную реальность человека и может быть также не только менять реально в других людей Но даже групп людей это может быть не…",
+    "body": "hast gesagt такой агент конечно меняет уже собственную реальность человека источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога агент меняет реальность только своего человека других смотрите также question habr link habr article reaction question habr link question scenario lorenzo agent scenarios question scenario question camel nautilus anthropic vacancies nautilus camel question camel nautilus question multi tier multi tier architecture question multi tier",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 216,
+    "path": "docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md"
+  }
+}

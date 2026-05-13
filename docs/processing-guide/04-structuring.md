@@ -1,8 +1,44 @@
 # Обработка больших массивов — Часть 4: Структурирование
 
+<!-- summary -->
+> `04-structuring` — раздел документации проекта Lorenzo.
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 > Как превратить набор текстовых файлов в связанную, навигируемую базу знаний.
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Проблема неструктурированности](#проблема-неструктурированности)
+- [Инструмент 1: Автоматические метаданные — improve_autofill.py](#инструмент-1-автоматические-метаданные-improve_autofillpy)
+- [Статус](#статус)
+- [Инструмент 2: Оглавления — improve_auto_toc.py](#инструмент-2-оглавления-improve_auto_tocpy)
+- [Содержание](#содержание)
+- [Инструмент 3: Теги — improve_tags.py](#инструмент-3-теги-improve_tagspy)
+- [Инструмент 4: Перекрёстные ссылки — improve_crosslink_all.py](#инструмент-4-перекрёстные-ссылки-improve_crosslink_allpy)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Инструмент 5: Шаблоны — docs/templates/](#инструмент-5-шаблоны-docstemplates)
+- [Инструмент 6: Автоабстракты — improve_abstract.py](#инструмент-6-автоабстракты-improve_abstractpy)
+- [Инструмент 7: See-also и сноски](#инструмент-7-see-also-и-сноски)
+- [Итоговая структура файла после всех инструментов](#итоговая-структура-файла-после-всех-инструментов)
+- [Статус](#статус)
+- [Содержание (TOC)](#содержание-toc)
+- [Основной текст](#основной-текст)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Смотрите также](#смотрите-также)
+- [Следующий шаг](#следующий-шаг)
+
+---
+
 
 ## Проблема неструктурированности
 
@@ -34,7 +70,7 @@ python scripts/improve_autofill.py            # применить
 |----------|---------|
 | Упоминаний в репо | 13 |
 | Слой | knowledge/filesystem |
-| Контакт | [@kksudo](../../contacts/kksudo.md) |
+| Контакт | [@kksudo](../contacts/kksudo.md) |
 ```
 
 ---
@@ -91,7 +127,7 @@ python scripts/improve_crosslink_all.py --apply --keywords
 ```markdown
 ## Упоминается в
 - [Executive summary](../04-ai-collaborations/01-executive-summary.md)
-- [MVP Planning](07-mvp-planning.md)
+- [MVP Planning](../01-svyazi/07-mvp-planning.md)
 
 ## Связанные документы
 - [NGT Memory](../05-habr-projects/memory/ngt-memory.md) 71%
@@ -192,3 +228,34 @@ python scripts/improve_footnotes.py      # глоссарий-сноски
 ## Следующий шаг
 
 После структурирования → **Часть 5: Анализ (NLP, граф, противоречия)**
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (3)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+## Смотрите также
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [07-llm](07-llm.md)
+- [research-summary](../autofilled/research-summary.md)
+- [ONBOARDING](../ONBOARDING.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-structuring](../obsidian/processing-guide/04-structuring.md) (сходство 0.97)
+- [research-summary](../autofilled/research-summary.md) (сходство 0.17)
+- [research-summary](../obsidian/autofilled/research-summary.md) (сходство 0.16)
+

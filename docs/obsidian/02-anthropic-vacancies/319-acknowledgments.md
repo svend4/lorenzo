@@ -10,6 +10,11 @@ date: 2026-05-13
 
 # Acknowledgments
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -24,6 +29,10 @@ date: 2026-05-13
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's question about how to integrate InGit specifically
@@ -99,9 +108,9 @@ Methodological: how-to и reflection.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[267-acknowledgments]] (сходство 0.26)
-- [[306-with-anthropic-s-cowork-platform]] (сходство 0.25)
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]] (сходство 0.25)
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.23)
 
 
@@ -109,8 +118,14 @@ Methodological: how-to и reflection.
 
 ---
 
-**Смотрите также:**
-- [[306-with-anthropic-s-cowork-platform]]
+## Использование
+```bash
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Acknowledgments"
+```
+
+## Смотрите также
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 - [[267-acknowledgments]]
 - [[274-the-missing-middle-layer-between-chat-and-code]]
 - [[355-существующие-документы-dhlab-твой-context]]
@@ -153,3 +168,23 @@ Methodological: how-to и reflection.
 - [[184-appendix-a-connection-to-companion-papers|Appendix A: Connection to Companion Papers]] _29%_
 - [[209-a-typology-of-ai-agents-on-the-principal-side-and-|A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers]] _29%_
 - [[251-ai-support-through-configurable-specialist-ensembl|AI Support Through Configurable Specialist Ensembles]] _29%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [[184-appendix-a-connection-to-companion-papers]]
+- [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+- [[251-ai-support-through-configurable-specialist-ensembl]]
+- [[267-acknowledgments]]
+- [[274-the-missing-middle-layer-between-chat-and-code]]
+- [[275-why-this-document-exists]]
+- [[286-acknowledgments]]
+- 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
+- _...ещё 3_
+
+# Angle / Perspective
+
+## Angle / Perspective
+Methodological: how-to и reflection.

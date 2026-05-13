@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:ad988963eb9cae34",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/03-chunking.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/processing-guide/01-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/PROCESSING_GUIDE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/02-extraction.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/07-llm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/09-automation.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:26+00:00",
+  "updated_at": "2026-05-10T17:29:26+00:00",
+  "payload_hash": "sha256:81c9e949b70b2176",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 3: Разбивка и чанкинг",
+    "summary": "Большой файл (50 000+ слов) — проблема для:",
+    "body": "обработка больших массивов часть разбивка чанкинг warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений как правильно делить большой текст смысловые части как правильно делить большой текст смысловые части зачем делить большой файл слов проблема для поиска невозможно найти конкретный факт llm влезает контекстное окно rag слишком широкий чанк шум ответе навигации человек читает монолит версионирования любое изменение diff всего файла стратегии разбивки стратегия заголовкам реализовано utils chunker chunk headers как работает документ раздел отдельный файл подраздел чанк внутри файла плюсы сохраняет авторскую структуру смысловые границы чёткие минусы если автор плохо структурировал секции неравномерные скрипт part split improve text segmenter python scripts improve text segmenter dry run план python scripts improve text segmenter apply section anthropic vacancies стратегия семантические чанки реализовано improve chunk semantic как работает первичные границы если секция слов дробить абзацам если секция слов объединить соседней каждый чанк file section text word count tokens est вывод docs all chunks jsonl готово для rag python scripts improve chunk semantic python scripts improve chunk semantic section habr projects пример чанка file docs collaborations executive summary section executive summary text если смотреть отдельные статьи word count tokens est chunk collaborations executive summary стратегия разбивка абзацам уровень реализовано improve passage retrieval как работает каждый абзац слов отдельная единица поиска зачем для точного поиска каком файле каком абзаце python scripts improve passage retrieval index python scripts improve passage retrieval query ассоциативный граф памяти top стратегия разбивка теме idf рубрикация реализовано improve reclassify improve topic model как работает idf словам определяет какому тематическому кластеру относится файл перемещает если ошибочно классифицирован python scripts improve reclassify section anthropic vacancies dry run python scripts improve topic model topics стратегия слияние коротких файлов теме реализовано improve merge topic improve merge short проблема после дробления появляются файлы слов слишком мелко решение merge short объединяет файлы слов соседними merge topic idf кластеризация близкие файлы один файл python scripts improve merge topic section anthropic vacancies dry run python scripts improve merge short min words стратегия разбивка языку реализовано improve language split проблема файлы mix сложно индексировать читать переводить python scripts improve language split статистика python scripts improve language split split разделить параметры разбивки что выбрать задача стратегия размер чанка rag llm поиск семантический слов полнотекстовый поиск заголовкам слов точный поиск фактов абзацам слов навигация человека заголовкам слов тематическое хранение теме idf любой инструмент выбора стратегии utils chunker from scripts utils chunker import chunk headers estimate tokens chunks chunk headers text max words min words for chunk chunks print chunk section chunk word count слов estimate tokens chunk text токенов следующий шаг после разбивки часть структурирование теги toc шаблоны кто ссылается этот документ overview overview processing guide processing guide readme readme смотрите также extraction extraction llm llm automation automation processing guide processing guide",
+    "tags": [
+      "rag",
+      "ingestion",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 664,
+    "path": "docs/processing-guide/03-chunking.md"
+  }
+}
