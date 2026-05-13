@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # composite-skills-agents-companion-mentors
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> composite-skills-agents-companion-mentors
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 4

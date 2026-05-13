@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, ingestion, architecture, self-improve, collaboration]
+state: raw
+---
+
 # Ансамбль B — Forensic RAG для доказуемого matching и review
 
 <!-- toc-auto -->
@@ -14,7 +20,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`.
+> citeturn20view5turn20view6turn34view2turn34view3
+Схема
+ 
+Ожидаемые новые свойства
+ Верифицируемые ответы: у пользователя появляется не просто текстовый вывод, а визуально подсвеченный фрагмент страницы, к которому можно вернуться.
 **Проекты:** Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG
 
 ---

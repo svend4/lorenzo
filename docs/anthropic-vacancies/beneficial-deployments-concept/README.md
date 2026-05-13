@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # beneficial-deployments-concept
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> beneficial-deployments-concept
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 12

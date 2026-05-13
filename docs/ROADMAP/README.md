@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, ingestion, local-first]
+state: normalized
+---
+
 # ROADMAP — варианты развития Lorenzo / Knowledge OS
 
 **Дата:** 2026-04-29

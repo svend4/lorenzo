@@ -3,7 +3,21 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> contacts
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+Файлов: 16
+Содержание
+ QA.md — > [!NOTE]
+ anastasiyaw.md — ---
+ andrey-chuyan.md — ---
+ antipozitive.md — ---
+ cutcode.md — ---
+ dmitriila.md — ---
+ kksudo.md — ---
+ mixaill76.md — ---
+ nlaik.md
 
 
 **Файлов:** 16

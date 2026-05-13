@@ -31,7 +31,26 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Скрипт читает все 155 скриптов и строит живой каталог.
+> --
+Смотрите также
+ 04-enrichment
+ 01-concept
+ 05-synthesis
+ 02-architecture
+ --
+Кто ссылается на этот документ (11):
+ CONCEPTS
+ METHODOLOGY
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 01-concept
+ _...ещё 3_
+ --
+Похожие документы:
+ 03-catalog
 
 ---
 <!-- tags: ingestion -->

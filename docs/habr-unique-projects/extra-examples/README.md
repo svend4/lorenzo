@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # extra-examples
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> extra-examples
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 13

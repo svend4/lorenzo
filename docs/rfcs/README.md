@@ -1,4 +1,22 @@
+---
+date: 2026-05-13
+tags: [memory, ingestion, local-first, architecture]
+state: raw
+---
+
 # RFC Index — Svyazi 2.0
+
+
+<!-- summary -->
+> _Обновляется автоматически:  _
+Статусы
+ Статус | Описание |
+ --------|---------|
+ Draft | Черновик, обсуждается |
+ Proposed | Предложен, ожидает голосования |
+ Accepted | Принят, обязателен для реализации |
+ Rejected | Отклонён с обоснованием |
+ Supe
 
 Request for Comments: архитектурные решения, принятые формально.
 

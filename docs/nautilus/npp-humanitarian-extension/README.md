@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # npp-humanitarian-extension
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> npp-humanitarian-extension
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 6

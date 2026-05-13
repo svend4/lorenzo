@@ -3,7 +3,21 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Файлов: 2
+Содержание
+ 00-question-agent-changes-reality.md —  
+ 01-response-en.md — > [!TIP]
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 00-question-agent-changes-reality
+ 01-response-en
+ --
+Похожие до
 
 
 **Файлов:** 2

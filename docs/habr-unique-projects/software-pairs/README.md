@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # software-pairs
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> software-pairs
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 6

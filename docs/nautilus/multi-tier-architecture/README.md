@@ -8,7 +8,21 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Файлов: 2
+Содержание
+ 00-question-multi-tier.md —  
+ 01-strategic-significance.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 00-question-multi-tier
+ 01-strategic-significance
+ --
+Похожие документы
 
 
 **Файлов:** 2

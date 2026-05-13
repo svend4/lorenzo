@@ -23,7 +23,19 @@
 
 
 <!-- summary -->
-> Q&A: ai-collaborations — документ базы знаний репозитория Lorenzo.
+> _Смотрите также: README · Глоссарий · Контакты_
+ --
+Кто ссылается на этот документ (5):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ TABLES
+ README
+ --
+Похожие документы:
+ QA (сходство 0.99)
+ QA (сходство 0.80)
+ QA (сходство 0.79)
 
 <!-- tags: docs, reference, lorenzo -->
 

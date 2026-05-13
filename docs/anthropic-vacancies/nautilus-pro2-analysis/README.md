@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # nautilus-pro2-analysis
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> nautilus-pro2-analysis
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 4

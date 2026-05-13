@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # mmorpg-for-programmers
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> mmorpg-for-programmers
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 6

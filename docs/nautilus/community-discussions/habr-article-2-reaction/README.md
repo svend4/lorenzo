@@ -8,7 +8,23 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Файлов: 2
+Содержание
+ 00-question-habr-2.md —  
+ 01-response.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 00-question-habr-2
+ 01-response
+ --
+Похожие документы:
+ README (сходство 0.90)
+ README (с
 
 
 **Файлов:** 2

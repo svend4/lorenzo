@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, knowledge, ingestion, self-improve]
+state: raw
+---
+
 # Ансамбль 6 — Continuous Eval Loop
 
 <!-- toc-auto -->
@@ -13,7 +19,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Habr
+ACD — Automated Capability Discovery — ещё один сильный кубик: модель в роли «учёного» систематически генерирует задачи для модели-испытуемого и автоматически выявляет тысячи возможностей и ошибок, которые сложно обнаружить одной человеческой ко
 **Проекты:** Svyazi, AI Factory
 
 ---

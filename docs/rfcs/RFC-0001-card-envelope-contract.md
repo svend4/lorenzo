@@ -11,6 +11,12 @@ tags: [architecture, rfc, card-envelope, core]
 
 # RFC-0001: Card Envelope как единый контракт данных Svyazi 2.0
 
+
+<!-- summary -->
+> RFC-0001: Card Envelope как единый контракт данных Svyazi 2.0
+Summary
+Card Envelope — единый формат хранения любого знания в системе Svyazi 2.0.
+
 ## Summary
 
 Card Envelope — единый формат хранения любого знания в системе Svyazi 2.0.

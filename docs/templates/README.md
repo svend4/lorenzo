@@ -8,7 +8,17 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> --
+Кто ссылается на этот документ (24):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ research-summary
+ agent-spec
+ contradiction-record
+ _...ещё 16_
 
 
 _Создано: 2026-05-13_

@@ -13,7 +13,19 @@ tags: [faq]
 # FAQ: [Вопрос]
 
 <!-- summary -->
-> `faq-entry` — раздел документации проекта Lorenzo.
+> --
+Кто ссылается на этот документ (6):
+ READABILITY
+ READING_TIME
+ REGISTRY
+ SEARCH
+ TABLES
+ README
+ --
+Похожие документы:
+ faq-entry (сходство 0.90)
+ glossary-entry (сходство 0.56)
+ glossary-entry (сходство 0.55)
 
 
 <!-- toc-auto -->

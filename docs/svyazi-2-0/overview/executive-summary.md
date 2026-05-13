@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, knowledge]
+state: approved
+---
+
 # Executive summary
 
 <!-- toc-auto -->
@@ -13,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`, раздел «Executive summary».
+> Для многоагентной работы уже есть mclaude, AI Factory, AIF Handoff, Rufler и протокол Sequential; для forensic‑режима — research-docs/LiteParse, Legal RAG, Hybrid RAG и Graph RAG; для безопасного и дешёвого исполнения — Tool Search, LiteLLM, Auto AI
 **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
 
 ---

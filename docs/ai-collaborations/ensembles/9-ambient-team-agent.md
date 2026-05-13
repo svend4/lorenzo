@@ -13,7 +13,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Схема:
+Telegram/Mattermost chat → thread context → code/RAG/AgentFS → issue/task board → agent execution → handoff/report
+Дети этой связки:
+Team Memory Bot — помнит, что обсуждали, какие решения приняли, какие задачи появились, кто ответственный.
 **Проекты:** AgentFS, knowledge-space
 
 ---

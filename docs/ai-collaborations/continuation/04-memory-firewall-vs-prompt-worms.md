@@ -13,7 +13,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Habr
+Аудит OpenClaw показал практический слой этой проблемы: zero‑sanitization pipeline, timeout‑as‑approval, arbitrary exec через plugin system, plaintext credential storage, memory exfiltration/injection, default‑open command gating и другие критич
 **Проекты:** Svyazi, SENTINEL
 
 ---

@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Ансамбль D — Voice‑first local knowledge mesh
 
 <!-- toc-auto -->
@@ -14,7 +20,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`.
+> citeturn21view10turn21view11turn21view12turn35search0turn27view0turn11search0turn11search11turn20view12
+Схема
+ 
+Ожидаемые новые свойства
+ Нулевой friction для входа данных: мысль после звонка или встречи сразу превращается в текст и может быть автома
 **Проекты:** Svyazi, AgentFS, Yjs, Automerge, Whisper, Yttri
 
 ---

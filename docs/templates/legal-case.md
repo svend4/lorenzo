@@ -13,7 +13,27 @@ tags: [legal, case]
 # Юридический кейс: [Aktenzeichen]
 
 <!-- summary -->
-> `legal-case` — раздел документации проекта Lorenzo.
+> [имя], срок [дата]
+ [ ] [Action 2]
+Связанные кейсы
+  --
+_Создано: 2026-04-29_
+ --
+Использование
+ 
+Смотрите также
+ ](...)
+ decision-record
+ --
+Кто ссылается на этот документ (6):
+ READABILITY
+ READING_TIME
+ REGISTRY
+ SEARCH
+ TABLES
+ README
+ --
+Похожие
 
 
 <!-- toc-auto -->

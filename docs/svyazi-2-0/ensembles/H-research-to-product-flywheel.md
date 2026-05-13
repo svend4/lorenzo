@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, knowledge, ingestion, self-improve]
+state: approved
+---
+
 # Ансамбль H — Research‑to‑Product Flywheel
 
 <!-- toc-auto -->
@@ -14,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`.
+> Но следующий шаг интереснее: knowledge-space становится не просто хранилищем знаний, а приёмником результатов ночных исследований; CodeWiki и Skills превращают эти результаты в переносимую агентную компетенцию; а AutoResearch и Sequential работают не
 **Проекты:** Svyazi, knowledge-space, mclaude, AI Factory, Rufler, AutoResearch
 
 ---

@@ -13,7 +13,12 @@ tags: [mega-stack, архитектура]
 # Mega-stack: [Название]
 
 <!-- summary -->
-> `mega-stack` — раздел документации проекта Lorenzo.
+> Назначение
+Класс задач: [legal-AI / knowledge-OS / etc.]
+Целевой объём: [1M документов]
+SLA: latency p99 < 500ms, availability 99.9%
+Слои стека (сверху вниз)
+1.
 
 
 > [!NOTE]

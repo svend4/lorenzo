@@ -8,7 +8,22 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Файлов: 2
+Содержание
+ 01-three-direct-analogues.md —  
+ 02-related-projects.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 01-three-direct-analogues
+ 02-related-projects
+ --
+Похожие документы:
+ REA
 
 
 **Файлов:** 2

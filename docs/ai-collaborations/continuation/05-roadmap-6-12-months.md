@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, knowledge]
+state: approved
+---
+
 # Roadmap на 6–12 месяцев
 
 <!-- toc-auto -->
@@ -13,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Contract Freeze | 2–3 недели | Зафиксировать Card Envelope, Evidence Envelope, Memory Write Policy, Trace Envelope | Есть JSON/YAML‑схемы, тестовые карточки person/project/episode/evidence, все pipeline‑шаги пишут в один формат | 100% карточек имеют
 **Проекты:** CardIndex, mclaude, AI Factory
 
 ---

@@ -8,7 +8,23 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Файлов: 2
+Содержание
+ 00-question-practical.md —  
+ 01-response.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 00-question-practical
+ 01-response
+ --
+Похожие документы:
+ README (сходство 0.79)
+ REA
 
 
 **Файлов:** 2

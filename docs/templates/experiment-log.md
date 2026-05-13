@@ -14,7 +14,20 @@ tags: [эксперимент]
 # Эксперимент: [Название]
 
 <!-- summary -->
-> `experiment-log` — раздел документации проекта Lorenzo.
+> --
+Кто ссылается на этот документ (7):
+ READABILITY
+ READING_TIME
+ REGISTRY
+ SEARCH
+ TABLES
+ README
+ prototype-mvp
+ --
+Похожие документы:
+ experiment-log (сходство 0.90)
+ meeting-notes (сходство 0.46)
+ meeting-notes (сходство 0.46)
 
 
 <!-- toc-auto -->

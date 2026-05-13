@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, architecture]
+state: raw
+---
+
 # Что пока не стоит склеивать в один релиз
 
 <!-- toc-auto -->
@@ -13,7 +19,23 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Habr+1
+ --
+Использование
+ 
+Смотрите также
+ 10-architecture-rfc
+ 02-agentops-trace-envelope
+ 05-roadmap-6-12-months
+ 03-a2a-vs-mcp-protocols
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 10-architecture-r
 **Проекты:** Auto AI Router, Tool Search, AutoResearch
 
 ---

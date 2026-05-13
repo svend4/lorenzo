@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: raw
+---
+
 # Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph
 
 <!-- toc-auto -->
@@ -24,7 +30,9 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Чем Svyazi‑2.0 отличается от Notion AI, Mem, AFFiNE и LangGraph‑стеков
+Против Notion AI
+Notion AI Enterprise Search уже умеет искать по Notion и подключённым приложениям вроде Slack, Google Drive, GitHub, Jira, Teams, SharePoint и OneDrive; он даёт о
 **Проекты:** Svyazi, CardIndex
 
 ---

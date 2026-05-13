@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # extra-collaborator-findings
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> extra-collaborator-findings
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 7

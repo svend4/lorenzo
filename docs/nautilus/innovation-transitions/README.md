@@ -3,7 +3,22 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Файлов: 2
+Содержание
+ 00-question-innovations-transitions.md — > [!WARNING]
+ 01-response.md —  
+ --
+Кто ссылается на этот документ (6):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 01-response
+ --
+Похожие документы:
+ README (сходство 0.71)
+ R
 
 
 **Файлов:** 2

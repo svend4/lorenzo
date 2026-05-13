@@ -12,7 +12,20 @@ tags: [встреча]
 # Встреча: [Тема]
 
 <!-- summary -->
-> `meeting-notes` — раздел документации проекта Lorenzo.
+> --
+Кто ссылается на этот документ (7):
+ READABILITY
+ READING_TIME
+ REGISTRY
+ SEARCH
+ TABLES
+ README
+ weekly-digest
+ --
+Похожие документы:
+ meeting-notes (сходство 0.93)
+ retrospective (сходство 0.53)
+ retrospective (сходство 0.53)
 
 
 <!-- toc-auto -->

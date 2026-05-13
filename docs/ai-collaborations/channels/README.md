@@ -5,7 +5,18 @@
 
 
 <!-- summary -->
-> channels/ — каналы первого контакта
+> --
+Кто ссылается на этот документ (5):
+ OUTLINE
+ READABILITY
+ SEARCH
+ TABLES
+ README
+ --
+Похожие документы:
+ README (сходство 0.98)
+ README (сходство 0.54)
+ README (сходство 0.53)
 
 <!-- tags: collaboration, architecture, rag, knowledge -->
 

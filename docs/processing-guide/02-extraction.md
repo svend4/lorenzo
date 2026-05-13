@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [ingestion, local-first, architecture, anthropic, self-improve]
+state: raw
+---
+
 # Обработка больших массивов — Часть 2: Извлечение
 
 > [!WARNING]
@@ -6,7 +12,18 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Как превратить сырые файлы (MHTML, PDF, HTML, TXT) в чистый Markdown.
+> Проекты: Svyazi, Whisper
+ --
+ 
+Содержание
+ Проблема формата
+ Уровень 1: extract_mhtml.py
+ Уровень 2: organize_docs.py + part.py
+ Поддерживаемые форматы
+ Уже реализовано
+ Можно добавить (не реализовано)
+ Качество извлечения
+ Типичные проблемы и решени
 **Проекты:** Svyazi, Whisper
 
 ---

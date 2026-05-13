@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, local-first, architecture]
+state: raw
+---
+
 # Ансамбль 7 — Domain Agent App Factory
 
 <!-- toc-auto -->
@@ -13,7 +19,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Habr
+Статья про AI-ассистента юридической поддержки даёт бизнес-рамку: не «сделаем AI», а метрики — снижение нагрузки, время ответа, стоимость обращения, точность, hallucinations, user satisfaction; дальше выбираются RAG/GraphRAG, модель, deployment
 
 ---
 <!-- tags: rag, local-first, architecture, anthropic, self-improvement, collaboration -->

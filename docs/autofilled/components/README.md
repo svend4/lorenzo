@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [ingestion, collaboration]
+state: raw
+---
+
 # components
 
 **Файлов:** 10

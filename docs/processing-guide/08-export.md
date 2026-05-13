@@ -6,7 +6,19 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Куда отправить обработанную базу знаний: форматы, платформы, пайплайны.
+> --
+JSON/CSV — improve_export_json.py, improve_export_csv.py
+ 
+Формат JSON:
+ --
+JSONL для RAG — improve_chunk_semantic.py
+Для LlamaIndex / LangChain / любого RAG-пайплайна:
+ 
+Подключение к LlamaIndex:
+ --
+HTML — improve_export_html.py
+ --
+Карта сайта
 **Проекты:** Svyazi, Yodoca
 
 ---

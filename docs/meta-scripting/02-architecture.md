@@ -6,7 +6,20 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Как устроен скрипт, который читает другие скрипты.
+> --
+Смотрите также
+ 05-synthesis
+ 118-appendix-a-шаблон-для-header-warning
+ 119-appendix-b-примеры-расхождений-и-их-разрешения
+ 132-planned-v0-2-0
+ --
+Кто ссылается на этот документ (12):
+ CONCEPTS
+ METHODOLOGY
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEA
 
 ---
 

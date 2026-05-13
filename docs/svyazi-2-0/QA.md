@@ -21,7 +21,24 @@
 
 
 <!-- summary -->
-> Q&A: svyazi-2-0 — документ базы знаний репозитория Lorenzo.
+> _Смотрите также: README · Глоссарий · Контакты_
+ --
+Кто ссылается на этот документ (7):
+ MISSING
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEE_ALSO
+ TABLES
+ README
+ --
+Смотрите также:
+ KPI_HISTORY
+ DEPENDABOT
+ KNOWLEDGE_MAP
+ CONCEPT_GRAPH
+ --
+Похожие доку
 
 <!-- tags: docs, reference, lorenzo -->
 

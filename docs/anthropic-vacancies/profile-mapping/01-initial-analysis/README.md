@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 01-initial-analysis
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> 01-initial-analysis
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 8

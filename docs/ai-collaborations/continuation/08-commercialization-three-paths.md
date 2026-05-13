@@ -13,7 +13,9 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Продуктовая формула:
+“Ваши агенты перестают забывать, повторяться и работать в чёрном ящике.”
+Здесь Svyazi‑2.0 становится не внешним community product, а ядром агентной памяти и трассировки: CoAlly‑style shared memory, mclaude‑style handoffs/locks/ma
 **Проекты:** Svyazi, mclaude, AI Factory, LiteParse, Legal RAG
 
 ---

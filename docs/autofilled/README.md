@@ -1,4 +1,33 @@
+---
+date: 2026-05-13
+tags: [collaboration]
+state: raw
+---
+
 # autofilled
+
+
+<!-- summary -->
+> autofilled
+Файлов: 1
+Содержание
+ research-summary.md —  
+Подразделы
+ components/ — components
+ --
+Кто ссылается на этот документ (15):
+ OUTLINE
+ READABILITY
+ SEARCH
+ TABLES
+ .md
+ cowork
+ ingit
+ kksudo
+ _...ещё 7_
+ --
+Похожие документы:
+ README (сходс
 
 **Файлов:** 1
 

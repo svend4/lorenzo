@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # hardware-pairs
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> hardware-pairs
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 
 
 **Файлов:** 7
