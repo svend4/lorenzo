@@ -90,6 +90,12 @@ app.add_middleware(
 
 _INDEX: list[dict] | None = None
 _PASSAGES: list[dict] | None = None
+_PAGERANK: dict[str, float] | None = None
+
+# Top synthetic hub — inflated in-degree due to autofill cross-references.
+# Cap its pagerank contribution so it doesn't dominate all queries.
+_PAGERANK_CAP = 0.4
+_PAGERANK_ALPHA = 0.3  # boost weight: score *= (1 + alpha * pagerank)
 
 
 def _load_index() -> list[dict]:
@@ -112,9 +118,25 @@ def _load_passages() -> list[dict]:
     return _PASSAGES
 
 
+def _load_pagerank() -> dict[str, float]:
+    global _PAGERANK
+    if _PAGERANK is None:
+        p = DOCS / "CARD_GRAPH.json"
+        if p.exists():
+            data = json.loads(p.read_text(encoding="utf-8"))
+            _PAGERANK = {
+                n["id"]: min(n.get("pagerank", 0), _PAGERANK_CAP)
+                for n in data.get("nodes", [])
+            }
+        else:
+            _PAGERANK = {}
+    return _PAGERANK
+
+
 def _invalidate_index() -> None:
-    global _INDEX
+    global _INDEX, _PAGERANK
     _INDEX = None
+    _PAGERANK = None
 
 # ── Поиск (полностью наш, без внешних зависимостей) ────────────────────────
 
@@ -182,8 +204,8 @@ def _bm25_search(query: str, top_k: int = 10) -> list[dict]:
     return results
 
 
-def hybrid_search(query: str, top_k: int = 10) -> list[dict]:
-    """0.6×TF-IDF + 0.4×BM25 fusion — наш основной поиск."""
+def hybrid_search(query: str, top_k: int = 10, pagerank_boost: bool = True) -> list[dict]:
+    """0.6×TF-IDF + 0.4×BM25 fusion с опциональным PageRank-бустом."""
     tfidf = _tfidf_search(query, top_k * 2)
     bm25  = _bm25_search(query, top_k * 2)
 
@@ -194,6 +216,11 @@ def hybrid_search(query: str, top_k: int = 10) -> list[dict]:
     for rank, d in enumerate(bm25):
         p = d.get("path", "")
         scores[p] = scores.get(p, 0) + 0.4 * (1 / (rank + 1))
+
+    if pagerank_boost:
+        pr = _load_pagerank()
+        for p in list(scores.keys()):
+            scores[p] *= (1 + _PAGERANK_ALPHA * pr.get(p, 0))
 
     path_to_doc = {d.get("path", ""): d for d in _load_index()}
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
@@ -747,6 +774,8 @@ async def status():
         "llm_enabled":    bool(os.environ.get("ANTHROPIC_API_KEY")),
         "ann_enabled":    _ANN_AVAILABLE,
         "search_modes":   ["hybrid", "ann"] if _ANN_AVAILABLE else ["hybrid"],
+        "pagerank_nodes": len(_load_pagerank()),
+        "pagerank_boost": True,
     }
 
 

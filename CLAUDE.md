@@ -56,6 +56,7 @@ scripts/
   improve_bulk_decay.py       — bulk decay пустых stubs (date-age > N дней, нет тегов, нет предложений) → --apply
   improve_card_graph.py       — directed graph 1166 карточек, PageRank, CARD_GRAPH.json + CARD_GRAPH.md → --top/--dot
   improve_skill_metrics.py    — quality rubric для .claude/skills/*.md (structure/examples/steps) → SKILL_METRICS.md
+  improve_graph_search.py     — graph-neighbourhood search: TF-IDF seeds → BFS expand → re-rank by relevance×pagerank → --hops/--seeds/--alpha/--json/--stats
   review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
   prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
   improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
@@ -370,6 +371,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 | 9 — Progressive Summarize + SSE | ✅ Готово | improve_progressive_summarize.py: 335 карточек, promote rate 69→95.7%, SSE streaming |
 | 10 — Summary Extender + 1005 Approved | ✅ Готово | improve_summary_extender.py: 713 карточек, 1005 approved, promote rate 98.7% |
 | 11 — Knowledge Graph + Skill Metrics | ✅ Готово | improve_card_graph.py: 18458 рёбер, PageRank; /api/graph; improve_skill_metrics.py: 86/100 avg |
+| 12 — PageRank-Boosted Search | ✅ Готово | PageRank boost (alpha=0.3, cap=0.4) в gateway + semantic_search; improve_graph_search.py: neighbourhood BFS |
 
 ### Collaboration Finder (Итерация 3)
 ```bash
@@ -390,6 +392,16 @@ python scripts/improve_semantic_search.py --query "RAG retrieval" --mode semanti
 python scripts/improve_semantic_search.py --query "Yodoca" --mode bm25 --top 5
 python scripts/improve_semantic_search.py --query "CardIndex" --mode full --section 01-svyazi
 python scripts/improve_semantic_search.py --query "граф знаний" --json               # JSON
+```
+
+### Graph-neighbourhood Search (Итерация 12)
+```bash
+python scripts/improve_graph_search.py --query "агент с памятью"
+python scripts/improve_graph_search.py --query "RAG retrieval" --hops 2 --top 15
+python scripts/improve_graph_search.py --query "Yodoca" --json
+python scripts/improve_graph_search.py --stats   # статистика графа (узлы, рёбра, хабы)
+# PageRank boost встроен в гибридный поиск:
+python scripts/improve_semantic_search.py --query "агент память" --mode hybrid
 ```
 
 ### RFC-система (Итерация 5)

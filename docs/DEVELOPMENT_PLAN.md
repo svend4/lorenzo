@@ -20,6 +20,7 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | 9 — Progressive Summarize + SSE | `improve_progressive_summarize.py`: 335 карточек, +311 normalized, +70 approved | ✅ |
 | 10 — Summary Extender + 1005 Approved | `improve_summary_extender.py`: 713 карточек, +597+18 approved. CI 3-pass pipeline | ✅ |
 | 11 — Knowledge Graph + Skill Metrics | `improve_card_graph.py` (18458 рёбер, PageRank), `/api/graph`, `improve_skill_metrics.py` | ✅ |
+| 12 — PageRank-Boosted Search | PageRank boost в hybrid_search + `improve_graph_search.py` (neighbourhood search) | ✅ |
 
 **Текущее распределение карточек:** 1005 approved · 109 normalized · 51 raw · promote rate 98.7%
 
@@ -57,13 +58,71 @@ write  (6): add_card, update_card_state, propose_integration, list_cards,
 | `improve_decay_checker.py` | Поиск кандидатов на decay: stubs (377), near-dups (79) → `docs/DECAY_CANDIDATES.md` |
 | RFC-0002/0003 promoted | Оба RFC переведены в `normalized` → `approved` (274 approved итого) |
 
-### Следующий уровень (Итерация 12)
+---
+
+## Итерация 12 — PageRank-Boosted Search
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| PageRank boost в `gateway.py` | `_load_pagerank()` загружает CARD_GRAPH.json, `hybrid_search()` умножает scores на `(1 + 0.3 × pagerank)`. Синтетический хаб (autofilled, pr=1.0) ограничен cap=0.4 |
+| PageRank boost в `improve_semantic_search.py` | `_get_pagerank()` + boost в `search_hybrid()` после RRF-слияния. Те же параметры: alpha=0.3, cap=0.4 |
+| `improve_graph_search.py` | Graph-neighbourhood search: TF-IDF seed → BFS-расширение на 1-2 хопа → re-rank по relevance × pagerank. CLI: `--seeds`, `--hops`, `--alpha`, `--json`, `--stats` |
+| `/api/status` расширен | Поле `pagerank_nodes` + `pagerank_boost: true` в ответе health/status |
+
+### Архитектура PageRank-boost
+
+```
+query
+  ↓
+TF-IDF + BM25 → fusion scores (Reciprocal Rank Fusion)
+  ↓
+× (1 + 0.3 × min(pagerank, 0.4))   ← boost: связанные карточки поднимаются
+  ↓
+top-K результатов
+```
+
+**Почему cap=0.4 для synthetic hub?** Карточка `autofilled` имеет 1501 входящих ссылок из-за авто-генерированных cross-reference файлов — это технический артефакт, а не семантический хаб. Ограничение предотвращает то, что она появляется в топе всех запросов.
+
+### Graph-neighbourhood search
+
+```
+seed cards (TF-IDF top-10)
+  ↓
+BFS expand (1 hop out + 1 hop in по рёбрам графа)
+  ↓
+~200-500 кандидатов
+  ↓
+re-rank: (tfidf_score + rank_bonus) × (1 + alpha × pagerank)
+  ↓
+top-K результатов — включая карточки без ключевых слов, но связанные семантически
+```
+
+### CLI
+
+```bash
+python scripts/improve_graph_search.py --query "агент с памятью"
+python scripts/improve_graph_search.py --query "RAG retrieval" --hops 2 --top 15
+python scripts/improve_graph_search.py --query "Yodoca" --json
+python scripts/improve_graph_search.py --stats  # статистика графа
+
+# Обновлённый гибридный поиск с PageRank:
+python scripts/improve_semantic_search.py --query "агент память консолидация"
+
+# REST gateway теперь тоже с boost:
+curl -X POST http://localhost:8083/api/ask \
+     -H "Content-Type: application/json" \
+     -d '{"query": "агент с памятью", "top_k": 5}'
+```
+
+### Следующий уровень (Итерация 13)
 
 | Задача | Сложность | Ценность |
 |--------|-----------|---------|
-| Neural embeddings (sentence-transformers) pip install | низкая | высокая |
-| PageRank-boosted search — использовать CARD_GRAPH.json в гибридном поиске | средняя | высокая |
-| `improve_graph_search.py` — поиск по графу (ближайшие соседи через рёбра) | средняя | высокая |
+| Neural embeddings (sentence-transformers) | низкая | высокая |
+| Персонализированные контактные сообщения (LLM) | средняя | высокая |
+| Автоматический дайджест изменений (RSS/Atom + weekly summary) | средняя | средняя |
 
 ---
 
