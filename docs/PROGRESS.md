@@ -1,6 +1,6 @@
 # Прогресс MVP
 
-_Обновлено: 2026-04-29 (improve_progress_sync.py)_
+_Обновлено: 2026-05-13 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
