@@ -122,16 +122,22 @@ class DocFormatter:
         """Reduce runs of more than *max_blank* consecutive blank lines.
 
         A "blank line" is a line that contains only optional whitespace.
+        Lines that consist solely of spaces/tabs are first normalised to
+        empty lines, then runs of consecutive ``\\n`` characters are
+        reduced so that at most *max_blank* blank lines appear between
+        non-blank lines.
+
+        Counting: *n* blank lines between two content lines correspond to
+        *n + 1* consecutive ``\\n`` characters in the string.  Therefore
+        we collapse sequences of ``max_blank + 2`` or more ``\\n``
+        characters down to ``max_blank + 1``.
         """
-        # Build a pattern that matches (max_blank + 1) or more consecutive
-        # blank lines (each blank line is \\n followed by optional spaces).
-        # We match the excess blank lines and replace the run with exactly
-        # max_blank blank lines.
-        blank_line = r"[ \t]*\n"
-        pattern = r"(" + blank_line + r"){" + str(max_blank + 1) + r",}"
-
-        replacement = "\n" * max_blank
-
+        # Normalise whitespace-only lines to truly empty lines first.
+        text = re.sub(r"^[ \t]+$", "", text, flags=re.MULTILINE)
+        # Each blank line = one extra \n; max_blank blank lines = max_blank+1 \n.
+        # Collapse when we see max_blank+2 or more consecutive \n.
+        pattern = r"\n{" + str(max_blank + 2) + r",}"
+        replacement = "\n" * (max_blank + 1)
         return re.sub(pattern, replacement, text)
 
     def ensure_final_newline(self, text: str) -> str:
