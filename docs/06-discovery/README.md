@@ -55,9 +55,10 @@
 | Round 39 | ✅ Завершён | 4 | LLM юридическая авт. v2, synthetic data, персонализация v2, AI testing v2 | `round-39/` |
 | Round 40 | ✅ Завершён | 4 | LLM строительство, structured output v2, образование v3, кибербезопасность v2 | `round-40/` |
 | Round 41 | ✅ Завершён | 4 | Агро ML pipeline, SWE-MERA бенчмарк, Robovoice поддержка, Privacy LLM | `round-41/` |
-| Round 42 | 🔜 Следующий | — | LLM финтех v3, мультимодальные агенты v2, LLM DevOps/SRE v2, русскоязычные LLM v3 | — |
+| Round 42 | ✅ Завершён | 4 | AML LLM советник, PhysicalAgent VLA, SherlockOps SRE, T-Bank RU LLM | `round-42/` |
+| Round 43 | 🔜 Следующий | — | LLM медиа v2, RAG v4, LLM Reasoning v2, LLM промышленность | — |
 
-**Итого: 168 проектов, 86+ авторов**
+**Итого: 172 проекта, 88+ авторов**
 
 ## Шаблон раунда
 
