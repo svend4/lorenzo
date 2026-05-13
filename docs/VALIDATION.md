@@ -1,4 +1,6 @@
 # Валидация шаблонов
+<!-- tags: knowledge, architecture, roadmap, collaboration -->
+
 
 _Обновлено: 2026-05-13_
 

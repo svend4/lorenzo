@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 8. Consensus Algorithm (v1.0: string normalization)
 
 <!-- toc-auto -->

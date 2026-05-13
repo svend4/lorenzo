@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Планирование MVP
 
 <!-- toc-auto -->

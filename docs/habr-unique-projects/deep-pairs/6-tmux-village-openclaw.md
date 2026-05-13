@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 6 — Деревня агентов через tmux × OpenClaw оркестратор
 
 <!-- toc-auto -->

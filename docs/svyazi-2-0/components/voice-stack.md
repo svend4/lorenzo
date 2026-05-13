@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Voice / local-first stack
 
 <!-- toc-auto -->

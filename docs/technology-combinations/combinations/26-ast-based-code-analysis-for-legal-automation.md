@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 26: AST-Based Code Analysis for Legal Automation
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 8. Q6 Space (Normative)
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Когда ты Honestly не знаешь
 
 <!-- toc-auto -->

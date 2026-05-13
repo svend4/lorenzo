@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 4 — Скилл-каталоги × Subagent-оркестрация
 
 <!-- toc-auto -->

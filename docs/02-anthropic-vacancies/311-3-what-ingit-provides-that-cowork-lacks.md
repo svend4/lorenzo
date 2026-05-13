@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 3. What InGit Provides That Cowork Lacks
 
 > [!NOTE]

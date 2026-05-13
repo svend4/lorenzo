@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 27: Hybrid RAG with AST-Chunked Code
 
 <!-- toc-auto -->

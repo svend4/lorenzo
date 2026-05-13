@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 2. Terminology
 
 <!-- toc-auto -->

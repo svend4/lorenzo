@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Question 6: Как Lorenzo accountable?
 
 <!-- toc-auto -->

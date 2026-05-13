@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 01 — Простые улучшения (1-3 спринта каждое)
 
 <!-- summary -->
@@ -5,6 +9,8 @@
 **Проекты:** Svyazi, AgentFS
 
 ---
+<!-- tags: memory, rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

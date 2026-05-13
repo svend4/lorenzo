@@ -175,7 +175,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [knowledge-space](../../obsidian/05-habr-projects/knowledge/knowledge-space.md) (сходство 0.95)
+- [knowledge-space](../../svyazi-2-0/components/knowledge-space.md) (сходство 0.95)
 - [agentfs](agentfs.md) (сходство 0.28)
 - [mclaude](mclaude.md) (сходство 0.28)
 

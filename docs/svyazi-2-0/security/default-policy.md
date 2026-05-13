@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Что стоит зафиксировать как default policy
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # nautilus/ — Nautilus Portal Protocol и связанные working papers
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 12. Closing
 
 > [!NOTE]

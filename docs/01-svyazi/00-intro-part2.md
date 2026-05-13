@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Продолжение исследования для Svyazi[^svyazi] 2.0
 
 <!-- toc-auto -->

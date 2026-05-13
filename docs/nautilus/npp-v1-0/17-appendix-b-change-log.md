@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix B: Change Log
 
 <!-- toc-auto -->

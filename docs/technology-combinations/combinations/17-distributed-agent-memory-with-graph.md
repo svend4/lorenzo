@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 17: Distributed Agent Memory with Graph
 
 <!-- toc-auto -->

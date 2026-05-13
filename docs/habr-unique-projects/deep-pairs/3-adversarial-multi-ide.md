@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 3 — Adversarial agents × Multi-IDE стек
 
 <!-- toc-auto -->

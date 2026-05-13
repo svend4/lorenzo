@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Mega‑Stack 1.0 — Полный Legal‑AI Stack
 
 <!-- toc-auto -->

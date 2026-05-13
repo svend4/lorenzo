@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # REPRESENTATIVE AGENT LAYER.md
 
 <!-- toc-auto -->

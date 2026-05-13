@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Claude hat geantwortet: Прочитал внимательно.
 
 <!-- toc-auto -->

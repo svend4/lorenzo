@@ -6,6 +6,8 @@ date: 2026-05-13
 ---
 
 # Противоречия в базе знаний
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 _Обновлено: 2026-05-13_
 

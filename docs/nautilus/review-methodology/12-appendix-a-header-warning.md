@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: Шаблон для header warning
 
 <!-- toc-auto -->

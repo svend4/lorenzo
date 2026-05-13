@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # План MVP-прототипа
 
 <!-- toc-auto -->

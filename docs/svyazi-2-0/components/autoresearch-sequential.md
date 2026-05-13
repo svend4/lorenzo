@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # AutoResearch + Sequential
 
 <!-- toc-auto -->

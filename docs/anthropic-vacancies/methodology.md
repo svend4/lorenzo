@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Методика разбивки
 
 <!-- toc-auto -->

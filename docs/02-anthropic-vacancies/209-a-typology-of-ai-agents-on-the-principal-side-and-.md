@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers
 
 <!-- toc-auto -->

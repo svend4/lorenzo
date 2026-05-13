@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 31: Event-Sourced Legal Document History
 
 <!-- toc-auto -->

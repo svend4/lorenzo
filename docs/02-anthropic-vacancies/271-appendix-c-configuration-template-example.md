@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix C: Configuration Template Example
 
 <!-- toc-auto -->

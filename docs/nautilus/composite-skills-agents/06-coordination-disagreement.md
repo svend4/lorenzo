@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 6. Coordination and Disagreement Resolution
 
 > [!NOTE]

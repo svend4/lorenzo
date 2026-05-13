@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 29: Meta-Programmatic Legal Template Generator
 
 <!-- toc-auto -->

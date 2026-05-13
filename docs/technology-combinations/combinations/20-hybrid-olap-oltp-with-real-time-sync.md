@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync
 
 <!-- toc-auto -->

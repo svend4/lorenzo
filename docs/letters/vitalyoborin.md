@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Письмо: VitalyOborin / Yodoca + Wikontic
 
 > [!NOTE]

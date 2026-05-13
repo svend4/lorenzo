@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Svyazi
 
 <!-- toc-auto -->

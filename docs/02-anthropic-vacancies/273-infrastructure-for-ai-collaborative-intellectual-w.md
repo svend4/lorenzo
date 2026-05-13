@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
 
 <!-- toc-auto -->

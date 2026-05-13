@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # NGT Memory
 
 <!-- toc-auto -->

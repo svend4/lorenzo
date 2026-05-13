@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 9. Relationship to Other Agent Types
 
 > [!NOTE]

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 13. Reference Implementation
 
 <!-- toc-auto -->

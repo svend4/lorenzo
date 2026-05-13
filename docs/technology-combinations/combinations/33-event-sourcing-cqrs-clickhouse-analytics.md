@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Horizon Europe Cluster 3 — Civil Security for Society — пересекается с «access t…
 
 <!-- toc-auto -->

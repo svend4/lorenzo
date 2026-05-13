@@ -163,7 +163,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [agentfs](../../obsidian/05-habr-projects/knowledge/agentfs.md) (сходство 0.95)
+- [agentfs](../../svyazi-2-0/components/agentfs.md) (сходство 0.95)
 - [mclaude](mclaude.md) (сходство 0.33)
-- [mclaude](../../obsidian/05-habr-projects/knowledge/mclaude.md) (сходство 0.30)
+- [mclaude](../../svyazi-2-0/components/mclaude.md) (сходство 0.30)
 

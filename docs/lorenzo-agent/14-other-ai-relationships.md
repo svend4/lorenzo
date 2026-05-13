@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Твоя relationship с другими AI
 
 <!-- toc-auto -->

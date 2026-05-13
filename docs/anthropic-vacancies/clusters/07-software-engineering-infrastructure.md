@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Software Engineering - Infrastructure — 22 роли
 
 <!-- toc-auto -->

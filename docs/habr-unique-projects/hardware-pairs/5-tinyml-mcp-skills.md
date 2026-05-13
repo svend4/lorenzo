@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 5 — TinyML/Edge AI × MCP + skills
 
 <!-- toc-auto -->

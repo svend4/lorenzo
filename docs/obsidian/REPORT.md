@@ -10,6 +10,8 @@ date: 2026-05-13
 _Сгенерировано автоматически: 2026-05-13_
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 ## Содержание
 

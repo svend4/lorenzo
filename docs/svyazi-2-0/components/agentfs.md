@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # AgentFS
 
 <!-- toc-auto -->

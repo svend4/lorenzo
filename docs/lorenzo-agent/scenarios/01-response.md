@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude hat geantwortet: Очень интересный вопрос.
 
 <!-- toc-auto -->

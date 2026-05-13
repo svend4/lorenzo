@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Yodoca — главная находка итерации
 
 <!-- toc-auto -->

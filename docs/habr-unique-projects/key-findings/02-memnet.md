@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # MemNet — нейроархитектурный двойник «магии» Svyazi
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # For the Curious: Philosophy
 
 > [!NOTE]

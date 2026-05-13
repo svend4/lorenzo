@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. PortalEntry Structure
 
 <!-- toc-auto -->

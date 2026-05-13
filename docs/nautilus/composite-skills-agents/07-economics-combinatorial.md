@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. Economics of Combinatorial Replication
 
 > [!NOTE]

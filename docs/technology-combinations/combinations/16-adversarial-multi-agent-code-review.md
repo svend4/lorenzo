@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 16: Adversarial Multi-Agent Code Review
 
 <!-- toc-auto -->

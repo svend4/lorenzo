@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Приватность: local-first by default
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # AI Factory + AIF Handoff
 
 <!-- toc-auto -->

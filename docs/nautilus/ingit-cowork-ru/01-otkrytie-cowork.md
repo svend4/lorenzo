@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 1. Открытие Cowork и почему это меняет всё
 
 > [!NOTE]

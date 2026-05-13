@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Существующий landscape collaborators (твоя working knowledge)
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # research-docs + LiteParse
 
 <!-- toc-auto -->

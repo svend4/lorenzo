@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: Minimal Working Example
 
 <!-- toc-auto -->

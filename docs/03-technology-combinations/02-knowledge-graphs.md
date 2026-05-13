@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Графы знаний и Legal AI
 
 > [!NOTE]

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 2. What Cowork Provides That InGit Doesn't Need to Build
 
 > [!NOTE]

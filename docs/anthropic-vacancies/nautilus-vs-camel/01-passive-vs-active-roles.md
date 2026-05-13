@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Пассивный vs активный: разделение ролей (библиотека vs research team)
 
 <!-- toc-auto -->

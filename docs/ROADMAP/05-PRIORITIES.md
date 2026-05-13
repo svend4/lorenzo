@@ -1,9 +1,15 @@
+---
+state: normalized
+---
+
 # 05 — Приоритеты: что делать прямо сейчас
 
 <!-- summary -->
 > > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 ---
+<!-- tags: rag, security, ingestion, architecture, roadmap, self-improve -->
+
 
 
 

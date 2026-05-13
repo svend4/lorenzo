@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Angle / Perspective
 
 <!-- toc-auto -->

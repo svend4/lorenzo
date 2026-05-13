@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # COMPOSITE SKILLS AGENT.md
 
 <!-- toc-auto -->

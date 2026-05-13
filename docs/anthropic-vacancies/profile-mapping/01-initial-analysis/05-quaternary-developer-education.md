@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code
 
 <!-- toc-auto -->

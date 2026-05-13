@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 9. Integration with OKWF Infrastructure
 
 > [!TIP]

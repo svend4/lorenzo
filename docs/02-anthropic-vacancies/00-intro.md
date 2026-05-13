@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Введение
 
 <!-- abstract-auto -->

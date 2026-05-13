@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # A Practical Path to Layer B Through Symbiotic Integration
 
 <!-- toc-auto -->

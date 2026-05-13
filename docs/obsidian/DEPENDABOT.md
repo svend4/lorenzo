@@ -6,6 +6,8 @@ date: 2026-05-13
 ---
 
 # Мониторинг зависимостей
+<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->
+
 
 _Обновлено: 2026-05-13_
 

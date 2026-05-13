@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 5: SourceCraft CLI × Claude Code × Sequential протокол Дочкиной
 
 <!-- toc-auto -->

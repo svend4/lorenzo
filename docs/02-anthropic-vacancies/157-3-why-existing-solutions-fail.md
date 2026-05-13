@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 3. Why Existing Solutions Fail
 
 > [!NOTE]

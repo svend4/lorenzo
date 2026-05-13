@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Engineering & Design - Product — 22 роли
 
 <!-- toc-auto -->

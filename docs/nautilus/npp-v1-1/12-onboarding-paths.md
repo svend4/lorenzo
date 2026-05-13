@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 12. Onboarding Paths (Normative)
 
 <!-- toc-auto -->

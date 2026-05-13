@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 9: Agent Orchestration Stack
 
 <!-- toc-auto -->

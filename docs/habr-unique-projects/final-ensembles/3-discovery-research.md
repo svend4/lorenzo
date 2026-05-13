@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Ансамбль 3 — «Discovery-engine для научной работы»
 
 <!-- toc-auto -->

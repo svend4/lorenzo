@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 10. QueryResult Structure
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
 > [!NOTE]

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. The Double-Triangle Architecture
 
 > [!IMPORTANT]

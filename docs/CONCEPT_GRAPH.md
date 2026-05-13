@@ -5,6 +5,8 @@
 **Проекты:** Svyazi
 
 ---
+<!-- tags: ingestion, architecture, anthropic -->
+
 
 
 

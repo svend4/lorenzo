@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Question 1: Что Lorenzo фундаментально такое? (Framings A–D)
 
 <!-- toc-auto -->

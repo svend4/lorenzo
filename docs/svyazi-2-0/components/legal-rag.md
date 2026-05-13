@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Legal RAG
 
 <!-- toc-auto -->

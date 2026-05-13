@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # What's Missing — Layer B
 
 > [!NOTE]

@@ -3,6 +3,8 @@
 _Дата: 2026-05-13 · Ветка: claude/current-dev-stage-dJtu0_
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 ## 1. Концептуальный статус
 

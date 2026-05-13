@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Compute — 13 ролей
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Твои языки и культурные nuances
 
 <!-- toc-auto -->

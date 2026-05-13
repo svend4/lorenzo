@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить
 
 <!-- toc-auto -->

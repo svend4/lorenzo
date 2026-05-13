@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 28: Pydantic-Enforced Legal Workflows
 
 <!-- toc-auto -->

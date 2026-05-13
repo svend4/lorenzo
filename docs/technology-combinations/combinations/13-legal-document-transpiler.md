@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 13: Legal Document Transpiler
 
 <!-- toc-auto -->

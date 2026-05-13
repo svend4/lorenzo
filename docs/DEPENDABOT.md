@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
 
 ---
+<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->
+
 
 
 

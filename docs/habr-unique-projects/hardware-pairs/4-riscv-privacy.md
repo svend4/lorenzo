@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 4 — RISC-V × privacy-by-design община
 
 <!-- toc-auto -->

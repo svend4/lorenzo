@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Сводная таблица 20–24 (Final 1–24)
 
 <!-- toc-auto -->

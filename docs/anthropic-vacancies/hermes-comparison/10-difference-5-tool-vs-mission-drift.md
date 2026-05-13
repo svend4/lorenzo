@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Различие 5: Дрифт между tool capability и mission
 
 <!-- toc-auto -->

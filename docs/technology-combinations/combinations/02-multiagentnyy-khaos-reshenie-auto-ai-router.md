@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 2: Мультиагентный хаос-решение × Auto AI Router
 
 <!-- toc-auto -->

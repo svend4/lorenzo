@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 8. Risks and Mitigations
 
 <!-- toc-auto -->

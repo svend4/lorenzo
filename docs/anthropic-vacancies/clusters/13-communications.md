@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Communications — 5 ролей
 
 <!-- toc-auto -->

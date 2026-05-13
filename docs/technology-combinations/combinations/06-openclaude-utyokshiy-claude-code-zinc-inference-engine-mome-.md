@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 6: OpenClaude (утёкший Claude Code) × ZINC inference engine × MoME-роутер
 
 <!-- toc-auto -->

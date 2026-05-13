@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 3. What Makes a Composite Skills Agent
 
 > [!NOTE]

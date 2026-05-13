@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. Phased Rollout Plan
 
 > [!NOTE]

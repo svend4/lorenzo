@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # History
 
 <!-- toc-auto -->

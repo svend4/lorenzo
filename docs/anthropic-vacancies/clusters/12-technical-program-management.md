@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Technical Program Management — 10 ролей
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # OPEN KNOWLEDGE WORK FOUNDATION.md
 
 <!-- toc-auto -->

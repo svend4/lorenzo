@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 12: Multi-Agent Observability Stack
 
 <!-- toc-auto -->

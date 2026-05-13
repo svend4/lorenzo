@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 32: Consensus-Based Multi-Agent Coordination
 
 <!-- toc-auto -->

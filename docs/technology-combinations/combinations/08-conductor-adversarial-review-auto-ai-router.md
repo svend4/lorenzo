@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 8: Conductor × adversarial-review × Auto AI Router
 
 <!-- toc-auto -->

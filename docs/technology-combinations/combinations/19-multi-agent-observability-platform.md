@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 19: Multi-Agent Observability Platform
 
 <!-- toc-auto -->

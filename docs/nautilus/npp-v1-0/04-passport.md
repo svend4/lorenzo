@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 4. Passport (`passport.md`)
 
 <!-- toc-auto -->

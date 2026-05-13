@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 1. Introduction (Motivation, Design Goals, Non-Goals, Terminology, Changes from v1.0)
 
 <!-- toc-auto -->

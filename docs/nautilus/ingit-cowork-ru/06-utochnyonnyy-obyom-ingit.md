@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 6. Уточнённый объём InGit с учётом Cowork
 
 <!-- toc -->

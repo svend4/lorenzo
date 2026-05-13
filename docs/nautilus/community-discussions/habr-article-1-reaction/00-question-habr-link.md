@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Du hast gesagt: https://habr.
 
 <!-- toc-auto -->

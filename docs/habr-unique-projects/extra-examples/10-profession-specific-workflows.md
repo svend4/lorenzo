@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Profession-specific workflows
 
 <!-- toc-auto -->

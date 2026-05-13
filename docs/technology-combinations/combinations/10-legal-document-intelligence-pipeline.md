@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 10: Legal Document Intelligence Pipeline
 
 <!-- toc-auto -->

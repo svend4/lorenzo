@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Контекст: что такое Anthropic Beneficial Deployments
 
 <!-- toc-auto -->

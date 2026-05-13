@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 3: CRDT local-first × Svyazi CardIndex
 
 <!-- toc-auto -->

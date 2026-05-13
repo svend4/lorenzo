@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # AI Research & Engineering — 68 ролей
 
 <!-- toc-auto -->

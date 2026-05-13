@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Yjs + Automerge
 
 <!-- toc-auto -->

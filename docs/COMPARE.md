@@ -4,6 +4,8 @@
 > **Файлов было:** 1487  **стало:** 2492
 
 ---
+<!-- tags: memory, architecture, roadmap, anthropic, collaboration -->
+
 
 
 

@@ -6,6 +6,8 @@ date: 2026-05-13
 ---
 
 # Карта репозитория Lorenzo
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.

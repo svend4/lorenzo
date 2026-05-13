@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. Реализация в проекте Nautilus
 
 <!-- toc-auto -->

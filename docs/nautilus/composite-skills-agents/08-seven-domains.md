@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 8. Seven Domains of Application
 
 > [!TIP]

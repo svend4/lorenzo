@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Поиск AI-коллабораций
 
 <!-- toc-auto -->

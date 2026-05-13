@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Happyin Knowledge Space (Анастасия) — детали
 
 <!-- toc-auto -->

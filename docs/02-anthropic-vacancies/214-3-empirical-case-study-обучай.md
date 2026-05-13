@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 3. Empirical Case Study: «Обучай»
 
 > [!NOTE]

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Письмо: VitaliySemenov / agent-memory-mcp
 
 > [!NOTE]

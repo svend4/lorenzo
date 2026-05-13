@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Wikontic: семантический граф
 
 <!-- toc-auto -->

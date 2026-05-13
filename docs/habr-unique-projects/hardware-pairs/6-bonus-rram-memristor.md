@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Бонус-родитель — In-memory computing на мемристорах
 
 <!-- toc-auto -->

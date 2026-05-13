@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 5. Compatibility Levels
 
 <!-- toc-auto -->

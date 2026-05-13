@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 24: MEGA-INTEGRATION: Full Stack
 
 <!-- toc-auto -->

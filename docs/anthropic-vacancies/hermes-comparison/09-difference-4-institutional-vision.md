@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Различие 4: Institutional vision
 
 <!-- toc-auto -->

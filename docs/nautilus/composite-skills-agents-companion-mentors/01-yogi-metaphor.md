@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Claude hat geantwortet: Это очень тонкое и важное наблюдение.
 
 <!-- toc-auto -->

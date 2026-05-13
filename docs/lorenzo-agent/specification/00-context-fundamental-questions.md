@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture
 
 <!-- toc-auto -->

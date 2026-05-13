@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 1 — Нейроморфные процессоры × State Space Models (Mamba)
 
 <!-- toc-auto -->

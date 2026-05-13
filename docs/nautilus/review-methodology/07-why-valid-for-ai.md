@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 6. Почему это валидный паттерн для AI‑assisted workflows
 
 <!-- toc-auto -->

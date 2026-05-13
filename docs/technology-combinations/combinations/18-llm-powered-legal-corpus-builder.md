@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 18: LLM-Powered Legal Corpus Builder
 
 <!-- toc-auto -->

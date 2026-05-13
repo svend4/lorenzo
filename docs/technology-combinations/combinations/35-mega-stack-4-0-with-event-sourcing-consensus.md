@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus
 
 <!-- toc-auto -->

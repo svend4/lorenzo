@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix C: References
 
 > [!NOTE]

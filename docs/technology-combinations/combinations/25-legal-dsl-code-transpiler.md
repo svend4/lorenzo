@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 25: Legal DSL → Code Transpiler
 
 <!-- toc-auto -->

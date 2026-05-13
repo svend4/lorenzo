@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…
 
 <!-- toc-auto -->

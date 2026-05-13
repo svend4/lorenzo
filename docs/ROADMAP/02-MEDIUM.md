@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, AgentFS, Yodoca
 
 ---
+<!-- tags: memory, rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improve -->
+
 
 
 

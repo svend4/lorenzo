@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
 
 <!-- toc-auto -->

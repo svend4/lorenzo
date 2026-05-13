@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # MemNet / memory-is-all-you-need
 
 <!-- toc-auto -->

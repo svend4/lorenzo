@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 34: Distributed Event Store with Paxos
 
 <!-- toc-auto -->

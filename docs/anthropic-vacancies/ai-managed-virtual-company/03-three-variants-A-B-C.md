@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)
 
 <!-- toc-auto -->

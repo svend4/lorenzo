@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Конфигурация для Claude Desktop
 
 <!-- toc-auto -->

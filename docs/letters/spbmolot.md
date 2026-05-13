@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Письмо: spbmolot / NGT Memory
 
 > [!TIP]

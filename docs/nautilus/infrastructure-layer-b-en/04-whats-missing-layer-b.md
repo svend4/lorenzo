@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # What's Missing — Layer B
 
 <!-- toc-auto -->

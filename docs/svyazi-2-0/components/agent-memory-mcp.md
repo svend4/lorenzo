@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # agent-memory-mcp + Memory OS
 
 <!-- toc-auto -->

@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: project-component
 version: "1.0"
 author: "AnastasiyaW"
@@ -185,7 +186,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [mclaude](../../obsidian/05-habr-projects/knowledge/mclaude.md) (сходство 0.95)
+- [mclaude](../../svyazi-2-0/components/mclaude.md) (сходство 0.95)
 - [rufler](rufler.md) (сходство 0.37)
-- [rufler](../../obsidian/05-habr-projects/knowledge/rufler.md) (сходство 0.34)
+- [rufler](../../svyazi-2-0/components/rufler.md) (сходство 0.34)
 

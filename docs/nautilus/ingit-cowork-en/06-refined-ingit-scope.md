@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 6. Refined InGit Scope with Cowork in Mind
 
 <!-- toc -->

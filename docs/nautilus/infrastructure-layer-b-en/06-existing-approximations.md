@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Existing Approximations
 
 <!-- toc-auto -->

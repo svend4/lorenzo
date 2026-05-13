@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 6. Этическая рамка
 
 <!-- toc-auto -->

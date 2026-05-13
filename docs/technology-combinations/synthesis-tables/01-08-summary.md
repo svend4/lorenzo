@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Сводная таблица 1–8
 
 <!-- toc-auto -->

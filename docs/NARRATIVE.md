@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, AgentFS, AI Factory, LiteParse, Yodoca, NGT Memory
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, roadmap, collaboration -->
+
 
 
 

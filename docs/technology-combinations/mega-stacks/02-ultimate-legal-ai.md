@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Mega‑Stack 2.0 — Ultimate Legal‑AI System
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 8 — Self-aware MCP × Specs-first архитектура
 
 <!-- toc-auto -->

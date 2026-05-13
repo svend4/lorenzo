@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # References
 
 <!-- toc-auto -->

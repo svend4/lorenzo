@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Mega‑Stack 4.0 — with Event Sourcing & Consensus
 
 <!-- toc-auto -->

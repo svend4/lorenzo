@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 22: Russian-International OSS Stack
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Existing infrastructure stack
 
 <!-- toc-auto -->

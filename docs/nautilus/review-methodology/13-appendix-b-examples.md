@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix B: Примеры расхождений и их разрешения
 
 <!-- toc-auto -->

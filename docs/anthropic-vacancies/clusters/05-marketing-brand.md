@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Marketing & Brand — 23 роли
 
 <!-- toc-auto -->

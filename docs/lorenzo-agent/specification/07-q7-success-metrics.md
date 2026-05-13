@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Question 7: Каковы success metrics?
 
 <!-- toc-auto -->

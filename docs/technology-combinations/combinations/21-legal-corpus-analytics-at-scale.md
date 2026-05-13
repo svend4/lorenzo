@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 21: Legal Corpus Analytics at Scale
 
 <!-- toc-auto -->

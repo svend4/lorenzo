@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Native Format
 
 <!-- toc-auto -->

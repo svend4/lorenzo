@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 8. Implications for Nautilus and OKWF
 
 > [!TIP]

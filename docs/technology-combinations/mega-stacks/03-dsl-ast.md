@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Mega‑Stack 3.0 — with DSL & AST
 
 <!-- toc-auto -->

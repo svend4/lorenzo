@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Sales — 150 ролей (≈34% всего найма)
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Legal — 13 ролей
 
 <!-- toc-auto -->

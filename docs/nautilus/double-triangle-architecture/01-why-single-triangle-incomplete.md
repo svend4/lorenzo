@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 1. Why Single-Triangle Models Are Incomplete
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 12. Versioning Policy
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 4. The Symbiotic Architecture
 
 > [!NOTE]

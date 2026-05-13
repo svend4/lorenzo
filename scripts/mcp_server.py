@@ -402,6 +402,115 @@ async def list_tools() -> list[Tool]:
                 "required": ["author"],
             },
         ),
+        # ── Write-инструменты (Фаза 3) ──────────────────────────────────────
+        Tool(
+            name="add_card",
+            description=(
+                "Добавить новую карточку знаний в корпус Lorenzo. "
+                "Создаёт .md-файл, обновляет search_index.json и passages.json. "
+                "Перед созданием проверяет на дубли (cosine ≥ 0.85). "
+                "Карточка получает статус raw — используйте Review Queue для одобрения."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "title":   {"type": "string", "description": "Заголовок карточки"},
+                    "content": {"type": "string", "description": "Содержимое в Markdown"},
+                    "section": {
+                        "type": "string",
+                        "description": "Раздел: 04-ai-collaborations | 05-habr-projects | 01-svyazi",
+                        "default": "04-ai-collaborations",
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "Теги карточки",
+                    },
+                    "source_url": {
+                        "type": "string",
+                        "description": "URL источника (опционально)",
+                    },
+                },
+                "required": ["title", "content"],
+            },
+        ),
+        Tool(
+            name="update_card_state",
+            description=(
+                "Обновить статус карточки в жизненном цикле: raw → normalized → approved. "
+                "Также поддерживает rejected и decayed. "
+                "Используется после ревью карточки агентом или человеком."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "path": {
+                        "type": "string",
+                        "description": "Путь к файлу карточки (относительно корня репо)",
+                    },
+                    "new_state": {
+                        "type": "string",
+                        "description": "Новый статус карточки",
+                        "enum": ["raw", "normalized", "approved", "rejected", "decayed"],
+                    },
+                    "reason": {
+                        "type": "string",
+                        "description": "Причина смены статуса (опционально)",
+                    },
+                },
+                "required": ["path", "new_state"],
+            },
+        ),
+        Tool(
+            name="propose_integration",
+            description=(
+                "Создать proposal-карточку об интеграции двух проектов. "
+                "Генерирует карточку с гипотезой, аргументами и ссылками на оба проекта. "
+                "Карточка попадает в Review Queue для последующего одобрения."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "project_a":  {"type": "string", "description": "Первый проект (напр. AgentFS)"},
+                    "project_b":  {"type": "string", "description": "Второй проект (напр. Yodoca)"},
+                    "hypothesis": {
+                        "type": "string",
+                        "description": "Гипотеза об интеграции (1-3 предложения)",
+                    },
+                    "rationale": {
+                        "type": "string",
+                        "description": "Обоснование: зачем это нужно, какой эффект (опционально)",
+                    },
+                },
+                "required": ["project_a", "project_b", "hypothesis"],
+            },
+        ),
+        Tool(
+            name="list_cards",
+            description=(
+                "Список карточек корпуса с фильтрацией по статусу, типу и разделу. "
+                "Используй для аудита жизненного цикла карточек."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "state": {
+                        "type": "string",
+                        "description": "Фильтр по статусу: raw | normalized | approved | rejected | decayed | all",
+                        "default": "all",
+                    },
+                    "section": {
+                        "type": "string",
+                        "description": "Фильтр по разделу (напр. 05-habr-projects)",
+                    },
+                    "limit": {
+                        "type": "integer",
+                        "description": "Максимальное число карточек в ответе",
+                        "default": 20,
+                    },
+                },
+            },
+        ),
     ]
 
 
@@ -440,6 +549,33 @@ def _dispatch(name: str, args: dict) -> str:
             args.get("author", ""),
             args.get("status", ""),
             args.get("note", ""),
+        )
+    if name == "add_card":
+        return _tool_add_card(
+            args.get("title", ""),
+            args.get("content", ""),
+            args.get("section", "04-ai-collaborations"),
+            args.get("tags", []),
+            args.get("source_url", ""),
+        )
+    if name == "update_card_state":
+        return _tool_update_card_state(
+            args.get("path", ""),
+            args.get("new_state", ""),
+            args.get("reason", ""),
+        )
+    if name == "propose_integration":
+        return _tool_propose_integration(
+            args.get("project_a", ""),
+            args.get("project_b", ""),
+            args.get("hypothesis", ""),
+            args.get("rationale", ""),
+        )
+    if name == "list_cards":
+        return _tool_list_cards(
+            args.get("state", "all"),
+            args.get("section", ""),
+            args.get("limit", 20),
         )
     return f"Неизвестный инструмент: {name}"
 
@@ -774,6 +910,332 @@ def _tool_update_contact(author: str, status: str, note: str) -> str:
             changes.append("📊 PROGRESS.md синхронизирован")
 
     return f"**{path.stem}** обновлён:\n" + "\n".join(changes)
+
+
+# ---------------------------------------------------------------------------
+# Write-инструменты (Фаза 3): add_card, update_card_state, propose_integration
+# ---------------------------------------------------------------------------
+
+import math as _math
+import hashlib as _hashlib
+from datetime import datetime as _dt
+
+
+def _mcp_tokenize(text: str) -> list[str]:
+    stop = {"и", "в", "на", "что", "как", "это", "для", "или", "но",
+            "the", "a", "an", "of", "in", "to", "is", "are", "for"}
+    words = re.findall(r"[а-яёa-z0-9]+", text.lower())
+    return [w for w in words if w not in stop]
+
+
+def _cosine_sim(a: str, b: str) -> float:
+    def tf(t: str) -> dict:
+        freq: dict[str, int] = {}
+        for w in _mcp_tokenize(t):
+            freq[w] = freq.get(w, 0) + 1
+        return freq
+    fa, fb = tf(a), tf(b)
+    keys = set(fa) | set(fb)
+    dot  = sum(fa.get(k, 0) * fb.get(k, 0) for k in keys)
+    na   = sum(v * v for v in fa.values()) ** 0.5
+    nb   = sum(v * v for v in fb.values()) ** 0.5
+    return dot / (na * nb) if na and nb else 0.0
+
+
+def _find_dup(title: str, content: str, threshold: float = 0.85) -> dict | None:
+    query = f"{title} {content[:400]}"
+    for doc in _load_index()[:200]:
+        existing = f"{doc.get('title', '')} {(doc.get('content') or doc.get('preview', ''))[:400]}"
+        if _cosine_sim(query, existing) >= threshold:
+            return doc
+    return None
+
+
+def _sync_passages_mcp(filepath: Path) -> None:
+    """Добавить абзацы нового файла в passages.json."""
+    passages_path = DOCS / "passages.json"
+    try:
+        text = filepath.read_text(encoding="utf-8")
+        rel  = str(filepath.relative_to(ROOT))
+        new_p = []
+        for para in re.split(r"\n{2,}", text):
+            para = para.strip()
+            words = _mcp_tokenize(para)
+            if len(words) >= 5:
+                new_p.append({"file": rel, "text": para[:800], "wc": len(words), "tokens": words})
+        if not new_p:
+            return
+        existing = []
+        if passages_path.exists():
+            raw = json.loads(passages_path.read_text(encoding="utf-8"))
+            existing = raw.get("passages", raw) if isinstance(raw, dict) else raw
+        combined = existing + new_p
+        N = len(combined)
+        avgdl = sum(p["wc"] for p in combined) / max(N, 1)
+        df: dict[str, int] = {}
+        for p in combined:
+            for t in set(p["tokens"]):
+                df[t] = df.get(t, 0) + 1
+        idf = {t: _math.log((N - n + 0.5) / (n + 0.5) + 1) for t, n in df.items()}
+        passages_path.write_text(
+            json.dumps({"passages": combined, "idf": idf, "avgdl": avgdl, "N": N},
+                       ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except Exception:
+        pass
+
+
+def _set_frontmatter_state(text: str, state: str) -> str:
+    state_re = re.compile(r"^state:\s*\S+", re.MULTILINE)
+    if state_re.search(text):
+        return state_re.sub(f"state: {state}", text, count=1)
+    fm_re = re.compile(r"^(---\n)")
+    if fm_re.search(text):
+        return fm_re.sub(f"---\nstate: {state}\n", text, count=1)
+    return f"---\nstate: {state}\n---\n\n" + text
+
+
+def _tool_add_card(title: str, content: str, section: str,
+                   tags: list, source_url: str) -> str:
+    if not title or not content:
+        return "❌ title и content обязательны."
+
+    dup = _find_dup(title, content)
+    if dup:
+        return (
+            f"⚠️ Дубль найден (similarity ≥ 0.85):\n"
+            f"  **{dup.get('title', '?')}**\n"
+            f"  `{dup.get('path', '?')}`\n"
+            f"Карточка не создана. Передайте более уникальный контент."
+        )
+
+    slug      = re.sub(r"[^a-zа-яё0-9]+", "-", title.lower()).strip("-")[:50]
+    target    = DOCS / section
+    target.mkdir(parents=True, exist_ok=True)
+    date      = _dt.now().strftime("%Y-%m-%d")
+    tags_str  = ", ".join(tags)
+    preview   = content[:200].replace("\n", " ")
+    card_id   = _hashlib.sha256(f"{title}{content[:200]}".encode()).hexdigest()[:12]
+
+    source_line = f"source_url: {source_url}" if source_url else ""
+    md = f"""---
+title: {title}
+date: {date}
+card_id: {card_id}
+tags: [{tags_str}]
+source: mcp
+state: raw
+{source_line}
+---
+
+# {title}
+
+<!-- summary -->
+> {preview}
+
+<!-- tags: {tags_str} -->
+
+{content}
+
+---
+_Добавлено через Lorenzo MCP: {date}_
+"""
+    filepath = target / f"{slug}.md"
+    filepath.write_text(md, encoding="utf-8")
+
+    try:
+        subprocess.run(
+            [sys.executable, str(SCRIPTS / "improve_index_update.py")],
+            cwd=ROOT, capture_output=True, timeout=30,
+        )
+    except Exception:
+        pass
+
+    _sync_passages_mcp(filepath)
+
+    return (
+        f"✅ Карточка создана:\n"
+        f"  Путь: `{filepath.relative_to(ROOT)}`\n"
+        f"  card_id: `{card_id}`\n"
+        f"  Статус: raw\n"
+        f"  Теги: {tags_str or '(нет)'}\n"
+        f"Используйте update_card_state для перевода в normalized/approved."
+    )
+
+
+def _tool_update_card_state(path_str: str, new_state: str, reason: str) -> str:
+    if not path_str or not new_state:
+        return "❌ Укажите path и new_state."
+
+    valid_states = {"raw", "normalized", "approved", "rejected", "decayed"}
+    if new_state not in valid_states:
+        return f"❌ Недопустимый статус: {new_state}. Допустимые: {', '.join(sorted(valid_states))}"
+
+    filepath = ROOT / path_str
+    if not filepath.exists():
+        # Поиск по имени файла
+        candidates = list(DOCS.rglob(Path(path_str).name))
+        if candidates:
+            filepath = candidates[0]
+        else:
+            return f"❌ Файл не найден: {path_str}"
+
+    text = filepath.read_text(encoding="utf-8")
+    old_state_m = re.search(r"^state:\s*(\S+)", text, re.MULTILINE)
+    old_state = old_state_m.group(1) if old_state_m else "raw"
+
+    if old_state == new_state:
+        return f"ℹ️ Карточка уже в статусе `{new_state}`. Изменений нет."
+
+    new_text = _set_frontmatter_state(text, new_state)
+
+    if reason:
+        reason_block = f"\n<!-- state-change: {old_state} → {new_state} | {_dt.now().strftime('%Y-%m-%d')} | {reason} -->\n"
+        new_text = new_text + reason_block
+
+    filepath.write_text(new_text, encoding="utf-8")
+
+    return (
+        f"✅ Статус обновлён:\n"
+        f"  Файл: `{filepath.relative_to(ROOT)}`\n"
+        f"  {old_state} → **{new_state}**\n"
+        + (f"  Причина: {reason}" if reason else "")
+    )
+
+
+def _tool_propose_integration(project_a: str, project_b: str,
+                               hypothesis: str, rationale: str) -> str:
+    if not project_a or not project_b or not hypothesis:
+        return "❌ Укажите project_a, project_b и hypothesis."
+
+    date   = _dt.now().strftime("%Y-%m-%d")
+    slug   = f"proposal-{re.sub(r'[^a-zа-яё0-9]+', '-', project_a.lower())}-x-{re.sub(r'[^a-zа-яё0-9]+', '-', project_b.lower())}"[:60]
+    card_id = _hashlib.sha256(f"{project_a}{project_b}{hypothesis}".encode()).hexdigest()[:12]
+
+    content = f"""## Гипотеза интеграции
+
+{hypothesis}
+
+## Проекты
+
+- **{project_a}** → [поиск в базе знаний]
+- **{project_b}** → [поиск в базе знаний]
+
+## Обоснование
+
+{rationale or '_Не указано_'}
+
+## Статус
+
+- [ ] Предложено
+- [ ] Проверено
+- [ ] Одобрено
+- [ ] Реализовано
+
+## Следующие шаги
+
+1. Изучить API обоих проектов
+2. Определить точку интеграции (контракт)
+3. Создать proof-of-concept
+"""
+
+    tags_str = f"proposal, {project_a.lower()}, {project_b.lower()}, integration"
+    md = f"""---
+title: "Proposal: {project_a} × {project_b}"
+date: {date}
+card_id: {card_id}
+card_type: proposal
+state: raw
+tags: [{tags_str}]
+projects: [{project_a}, {project_b}]
+source: mcp
+---
+
+# Proposal: {project_a} × {project_b}
+
+<!-- summary -->
+> Гипотеза интеграции {project_a} и {project_b}: {hypothesis[:150]}
+
+<!-- tags: {tags_str} -->
+
+{content}
+
+---
+_Proposal создан через Lorenzo MCP: {date}_
+"""
+
+    target   = DOCS / "04-ai-collaborations"
+    target.mkdir(parents=True, exist_ok=True)
+    filepath = target / f"{slug}.md"
+    filepath.write_text(md, encoding="utf-8")
+
+    try:
+        subprocess.run(
+            [sys.executable, str(SCRIPTS / "improve_index_update.py")],
+            cwd=ROOT, capture_output=True, timeout=30,
+        )
+    except Exception:
+        pass
+
+    _sync_passages_mcp(filepath)
+
+    return (
+        f"✅ Proposal создан:\n"
+        f"  Файл: `{filepath.relative_to(ROOT)}`\n"
+        f"  card_id: `{card_id}`\n"
+        f"  Проекты: {project_a} × {project_b}\n"
+        f"  Статус: raw (требует ревью)\n"
+        f"\nГипотеза: {hypothesis[:200]}"
+    )
+
+
+def _tool_list_cards(state: str, section: str, limit: int) -> str:
+    base = DOCS / section if section else DOCS
+    state_re = re.compile(r"^state:\s*(\S+)", re.MULTILINE)
+
+    results: list[dict] = []
+    for path in base.rglob("*.md"):
+        if "obsidian" in path.parts:
+            continue
+        if path.parent == DOCS and path.stem.isupper():
+            continue
+        try:
+            text = path.read_text(encoding="utf-8", errors="ignore")
+        except Exception:
+            continue
+        m = state_re.search(text)
+        card_state = m.group(1) if m else "raw"
+        if state != "all" and card_state != state:
+            continue
+        title_m = re.search(r"^#\s+(.+)", text, re.MULTILINE)
+        title = title_m.group(1).strip() if title_m else path.stem
+        results.append({
+            "path":  str(path.relative_to(ROOT)),
+            "state": card_state,
+            "title": title[:60],
+        })
+        if len(results) >= limit:
+            break
+
+    if not results:
+        return f"Карточки с фильтрами state={state!r} section={section!r} не найдены."
+
+    counts: dict[str, int] = {}
+    for r in results:
+        counts[r["state"]] = counts.get(r["state"], 0) + 1
+
+    lines = [
+        f"## Карточки (state={state}, section={section or 'all'}, limit={limit})\n",
+        f"Найдено: {len(results)}\n",
+    ]
+    for s, n in sorted(counts.items()):
+        lines.append(f"- **{s}**: {n}")
+    lines.append("")
+    for r in results[:limit]:
+        lines.append(f"[{r['state']}] `{r['path']}` — {r['title']}")
+
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------

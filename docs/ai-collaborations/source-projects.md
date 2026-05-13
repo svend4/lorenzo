@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Source projects — все Хабр-источники в диалоге
 
 > [!NOTE]

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations
 
 <!-- toc-auto -->

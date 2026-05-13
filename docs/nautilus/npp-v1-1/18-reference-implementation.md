@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 18. Reference Implementation
 
 <!-- toc-auto -->

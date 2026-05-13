@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Твоя коммуникация в outreach
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Claude hat geantwortet: Прочитаю статью, чтобы понимать конкретный кейс, на кото…
 
 <!-- toc-auto -->

@@ -1,9 +1,15 @@
+---
+state: normalized
+---
+
 # 04 — Никем не сделанные направления (true novelty)
 
 <!-- summary -->
 > > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 ---
+<!-- tags: rag, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix B: Sub-Agent Registry Schema (Sketch)
 
 <!-- toc-auto -->

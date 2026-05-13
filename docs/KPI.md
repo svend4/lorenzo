@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, AgentFS, Auto AI Router, Whisper
 
 ---
+<!-- tags: memory, rag, knowledge, ingestion, local-first, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

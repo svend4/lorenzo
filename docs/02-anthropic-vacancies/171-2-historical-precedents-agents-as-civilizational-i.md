@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 2. Historical Precedents: Agents as Civilizational Innovation
 
 > [!NOTE]

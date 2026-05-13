@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 1. Why the Binary View Is Incomplete
 
 > [!NOTE]

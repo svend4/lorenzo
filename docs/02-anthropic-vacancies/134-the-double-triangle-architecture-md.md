@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # THE DOUBLE-TRIANGLE ARCHITECTURE.md
 
 <!-- toc-auto -->

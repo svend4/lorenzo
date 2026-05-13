@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Safeguards (Trust & Safety) — 21 роль
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # mclaude
 
 <!-- toc-auto -->

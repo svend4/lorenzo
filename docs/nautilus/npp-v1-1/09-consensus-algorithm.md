@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 9. Consensus Algorithm
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 8. Pilot Proposal: SGB Advocate Colleague
 
 > [!NOTE]

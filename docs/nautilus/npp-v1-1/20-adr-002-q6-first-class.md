@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 20. ADR-002: Q6 as First-Class Protocol Concept
 
 <!-- toc-auto -->

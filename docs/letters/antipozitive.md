@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Письмо: Antipozitive / MemNet
 
 > [!TIP]

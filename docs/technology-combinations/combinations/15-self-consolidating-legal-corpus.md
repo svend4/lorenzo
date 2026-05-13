@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 15: Self-Consolidating Legal Corpus
 
 <!-- toc-auto -->

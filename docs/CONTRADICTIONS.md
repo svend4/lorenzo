@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, knowledge-space, Rufler, LiteParse, NGT Memory, MemNet, SENTINEL, Auto AI Router
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 
 

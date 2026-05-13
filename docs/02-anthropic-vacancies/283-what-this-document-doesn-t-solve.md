@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # What This Document Doesn't Solve
 
 <!-- toc-auto -->

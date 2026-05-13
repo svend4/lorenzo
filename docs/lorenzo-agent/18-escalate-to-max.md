@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Когда сомневаешься — escalate к Max
 
 <!-- toc-auto -->

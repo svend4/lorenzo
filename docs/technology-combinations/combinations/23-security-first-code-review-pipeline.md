@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 23: Security-First Code Review Pipeline
 
 <!-- toc-auto -->

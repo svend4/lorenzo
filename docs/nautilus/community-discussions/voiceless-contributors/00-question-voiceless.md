@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы
 
 <!-- toc-auto -->

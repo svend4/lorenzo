@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

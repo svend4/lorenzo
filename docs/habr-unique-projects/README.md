@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # habr-unique-projects/ — поиск уникальных проектов на Хабре
 
 <!-- toc-auto -->

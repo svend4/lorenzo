@@ -1,4 +1,6 @@
 # Каталог задач (TASKS_INDEX)
+<!-- tags: architecture, roadmap, self-improve, collaboration -->
+
 
 _Обновлено: 2026-05-13_
 

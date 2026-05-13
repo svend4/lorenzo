@@ -344,11 +344,91 @@ def _exec_get_card(args: dict) -> str:
     return path.read_text(encoding="utf-8", errors="ignore")[:5000]
 
 
+def _cosine_sim(a: str, b: str) -> float:
+    """Простое косинусное сходство двух строк по TF-весам."""
+    def tf(text: str) -> dict:
+        words = _tokenize(text)
+        freq: dict[str, int] = {}
+        for w in words:
+            freq[w] = freq.get(w, 0) + 1
+        return freq
+    fa, fb = tf(a), tf(b)
+    keys = set(fa) | set(fb)
+    dot = sum(fa.get(k, 0) * fb.get(k, 0) for k in keys)
+    na  = sum(v * v for v in fa.values()) ** 0.5
+    nb  = sum(v * v for v in fb.values()) ** 0.5
+    return dot / (na * nb) if na and nb else 0.0
+
+
+def _find_duplicate(title: str, content: str, threshold: float = 0.85) -> dict | None:
+    """Проверить, есть ли уже карточка с похожим содержимым."""
+    query_text = f"{title} {content[:500]}"
+    for doc in _load_index()[:200]:  # проверяем топ по заголовку
+        existing = f"{doc.get('title', '')} {(doc.get('content') or doc.get('preview', ''))[:500]}"
+        if _cosine_sim(query_text, existing) >= threshold:
+            return doc
+    return None
+
+
+def _sync_passages(filepath: "Path") -> None:
+    """Добавить абзацы нового файла в passages.json без полной пересборки."""
+    import math
+    passages_path = DOCS / "passages.json"
+    try:
+        text = filepath.read_text(encoding="utf-8")
+        rel  = str(filepath.relative_to(ROOT))
+        # Разбить на абзацы (≥ 5 слов)
+        new_passages = []
+        for para in re.split(r"\n{2,}", text):
+            para = para.strip()
+            words = _tokenize(para)
+            if len(words) >= 5:
+                new_passages.append({
+                    "file": rel,
+                    "text": para[:800],
+                    "wc":   len(words),
+                    "tokens": words,
+                })
+        if not new_passages:
+            return
+        # Загрузить существующие passages
+        if passages_path.exists():
+            raw = json.loads(passages_path.read_text(encoding="utf-8"))
+            existing = raw.get("passages", raw) if isinstance(raw, dict) else raw
+        else:
+            existing = []
+        combined = existing + new_passages
+        # Пересчитать BM25-индекс
+        N    = len(combined)
+        avgdl = sum(p["wc"] for p in combined) / max(N, 1)
+        df: dict[str, int] = {}
+        for p in combined:
+            for t in set(p["tokens"]):
+                df[t] = df.get(t, 0) + 1
+        idf = {t: math.log((N - n + 0.5) / (n + 0.5) + 1) for t, n in df.items()}
+        passages_path.write_text(
+            json.dumps({"passages": combined, "idf": idf, "avgdl": avgdl, "N": N},
+                       ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except Exception:
+        pass
+
+
 def _exec_add_card(args: dict) -> str:
     title   = args["title"]
     content = args["content"]
     section = args.get("section", "04-ai-collaborations")
     tags    = args.get("tags") or []
+
+    # Дедупликация: проверить наличие похожей карточки
+    dup = _find_duplicate(title, content)
+    if dup:
+        return (
+            f"Дубль найден (сходство ≥ 0.85): **{dup.get('title', '?')}**\n"
+            f"Путь: {dup.get('path', '?')}\n"
+            f"Карточка не создана. Используйте существующую или передайте уникальный контент."
+        )
 
     slug       = re.sub(r"[^a-zа-яё0-9]+", "-", title.lower()).strip("-")[:50]
     target_dir = DOCS / section
@@ -363,6 +443,7 @@ title: {title}
 date: {date}
 tags: [{tags_str}]
 source: gateway
+state: raw
 ---
 
 # {title}
@@ -380,8 +461,7 @@ _Добавлено через Lorenzo Gateway: {date}_
     filepath = target_dir / f"{slug}.md"
     filepath.write_text(md, encoding="utf-8")
 
-    # Инкрементально обновить search_index.json, чтобы новая карточка
-    # была доступна через поиск без перезапуска сервера
+    # 1. Обновить search_index.json
     try:
         import subprocess
         subprocess.run(
@@ -390,9 +470,16 @@ _Добавлено через Lorenzo Gateway: {date}_
         )
     except Exception:
         pass
-    _invalidate_index()  # сбросить in-memory кэш
+    _invalidate_index()
 
-    return f"Карточка создана: {filepath.relative_to(ROOT)}\nЗаголовок: {title}\nТеги: {tags_str}"
+    # 2. Синхронизировать passages.json (BM25)
+    _sync_passages(filepath)
+
+    return (
+        f"✅ Карточка создана: {filepath.relative_to(ROOT)}\n"
+        f"Заголовок: {title}\nТеги: {tags_str}\n"
+        f"Статус: raw (используйте Review Queue для одобрения)"
+    )
 
 
 def _exec_find_collabs(args: dict) -> str:

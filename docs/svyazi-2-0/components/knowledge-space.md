@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # knowledge-space
 
 <!-- toc-auto -->

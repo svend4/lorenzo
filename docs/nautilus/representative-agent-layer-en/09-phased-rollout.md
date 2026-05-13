@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 9. Phased Rollout Strategy
 
 <!-- toc-auto -->

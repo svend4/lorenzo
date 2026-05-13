@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. Practical First Steps This Month
 
 <!-- toc-auto -->

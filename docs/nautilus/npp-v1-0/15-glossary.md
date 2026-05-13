@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 15. Glossary of Examples
 
 <!-- toc-auto -->

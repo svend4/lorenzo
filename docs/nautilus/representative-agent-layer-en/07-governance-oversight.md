@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. Governance and Oversight
 
 <!-- toc -->

@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, MemNet
 
 ---
+<!-- tags: memory, ingestion, local-first, roadmap, anthropic, collaboration -->
+
 
 
 

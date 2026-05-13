@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 0. Status of This Document
 
 <!-- toc-auto -->

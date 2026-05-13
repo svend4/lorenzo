@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 3 — CRDT-синхронизация × Self-hosted persistence
 
 <!-- toc-auto -->

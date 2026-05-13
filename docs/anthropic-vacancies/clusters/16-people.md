@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # People — 3 роли
 
 <!-- toc-auto -->

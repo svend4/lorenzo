@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Сводная таблица 15–19 (Extended)
 
 <!-- toc-auto -->

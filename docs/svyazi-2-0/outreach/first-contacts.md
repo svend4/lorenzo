@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Первые контакты
 
 <!-- toc-auto -->

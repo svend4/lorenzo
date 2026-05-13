@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 7 — AutoResearch цикл × Распределённый рой
 
 <!-- toc-auto -->

@@ -164,7 +164,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [research-docs-liteparse](../../obsidian/05-habr-projects/knowledge/research-docs-liteparse.md) (сходство 0.95)
+- [research-docs-liteparse](../../svyazi-2-0/components/research-docs-liteparse.md) (сходство 0.95)
 - [mclaude](mclaude.md) (сходство 0.28)
 - [rufler](rufler.md) (сходство 0.26)
 

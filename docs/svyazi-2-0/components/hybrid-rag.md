@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Hybrid RAG knowledge base
 
 <!-- toc-auto -->

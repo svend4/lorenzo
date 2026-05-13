@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 03 — Инновационные направления (frontier research)
 
 <!-- summary -->
@@ -5,6 +9,8 @@
 **Проекты:** Yodoca
 
 ---
+<!-- tags: memory, rag, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

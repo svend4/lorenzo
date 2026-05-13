@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 2. The Twenty-One Teachers Pattern
 
 > [!TIP]

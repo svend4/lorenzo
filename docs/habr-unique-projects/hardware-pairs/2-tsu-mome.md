@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 2 — Термодинамические TSU × MoE/MoME-роутинг
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md
 
 <!-- toc-auto -->

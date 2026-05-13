@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 13. Closing
 
 > [!NOTE]

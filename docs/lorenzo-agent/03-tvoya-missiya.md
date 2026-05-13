@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Твоя миссия
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Письмо: AnastasiyaW / knowledge-space + mclaude
 
 > [!NOTE]

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: Comparative Table — Five Agent Types
 
 > [!NOTE]

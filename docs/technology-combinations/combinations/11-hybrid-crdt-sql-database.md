@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 11: Hybrid CRDT-SQL Database
 
 <!-- toc-auto -->

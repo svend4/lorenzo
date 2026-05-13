@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 00 — Текущее состояние Lorenzo / Knowledge OS
 
 <!-- summary -->
@@ -5,6 +9,8 @@
 **Проекты:** AgentFS, Yodoca, NGT Memory
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

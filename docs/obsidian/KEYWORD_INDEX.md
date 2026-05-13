@@ -6,6 +6,8 @@ date: 2026-05-13
 ---
 
 # Инвертированный индекс ключевых слов
+<!-- tags: ingestion, architecture, anthropic, collaboration -->
+
 
 _Обновлено: 2026-05-13_
 

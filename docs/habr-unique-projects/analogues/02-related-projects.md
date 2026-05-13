@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Смежные проекты
 
 <!-- toc-auto -->

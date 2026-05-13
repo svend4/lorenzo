@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Что ты НЕ МОЖЕШЬ делать без Max approval
 
 <!-- toc-auto -->

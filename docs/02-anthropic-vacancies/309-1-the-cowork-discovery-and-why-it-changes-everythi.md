@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 1. The Cowork Discovery and Why It Changes Everything
 
 > [!NOTE]

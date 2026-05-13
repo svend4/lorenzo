@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Section 2: Why this matters — beneficial dimension
 
 <!-- toc-auto -->

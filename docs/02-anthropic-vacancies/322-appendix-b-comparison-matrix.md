@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix B: Comparison Matrix
 
 <!-- toc-auto -->

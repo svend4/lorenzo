@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 4. Architecture of Professional Colleague Agents
 
 > [!NOTE]

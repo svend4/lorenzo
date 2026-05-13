@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 4. Nautilus Portal as Reference Substrate
 
 > [!NOTE]

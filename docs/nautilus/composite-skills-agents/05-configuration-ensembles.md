@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 5. Configuration: How Principals Build Their Ensembles
 
 > [!NOTE]

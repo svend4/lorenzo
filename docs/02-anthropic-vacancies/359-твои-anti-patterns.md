@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Твои anti-patterns
 
 <!-- toc-auto -->

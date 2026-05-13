@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Section 7: Success metrics
 
 <!-- toc-auto -->

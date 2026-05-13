@@ -5,6 +5,8 @@
 **Проекты:** Svyazi
 
 ---
+<!-- tags: rag, ingestion, local-first, roadmap, anthropic, collaboration -->
+
 
 
 

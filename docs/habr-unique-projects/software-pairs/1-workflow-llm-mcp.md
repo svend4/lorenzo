@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 1 — Workflow-автоматизация × LLM-агенты с MCP
 
 <!-- toc-auto -->

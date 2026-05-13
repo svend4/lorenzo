@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Существующий landscape collaborators (working knowledge)
 
 <!-- toc-auto -->

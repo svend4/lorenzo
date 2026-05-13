@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Уровень 4 — Расширенный (Lorenzo Mature)
 
 <!-- toc-auto -->

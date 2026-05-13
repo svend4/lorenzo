@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT
 
 <!-- toc-auto -->

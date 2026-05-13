@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 6. Governance and Ethics
 
 <!-- toc-auto -->

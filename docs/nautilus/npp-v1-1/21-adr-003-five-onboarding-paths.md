@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 21. ADR-003: Five Onboarding Paths as Equal-Rank
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 4 — Speech-to-text локально × LLM с памятью
 
 <!-- toc-auto -->

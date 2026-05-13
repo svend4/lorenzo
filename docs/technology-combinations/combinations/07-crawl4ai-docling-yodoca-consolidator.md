@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 7: Crawl4AI × Docling × Yodoca consolidator
 
 <!-- toc-auto -->

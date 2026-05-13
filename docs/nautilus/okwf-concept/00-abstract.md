@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
 
 <!-- toc -->

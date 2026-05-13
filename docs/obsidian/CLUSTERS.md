@@ -6,6 +6,8 @@ date: 2026-05-13
 ---
 
 # Кластеры тематически близких файлов
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
 Документов: 2259, кластеров: 175

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 6. Ethical Framework
 
 <!-- toc-auto -->

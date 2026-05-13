@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 9. Call for Partnership
 
 <!-- toc-auto -->

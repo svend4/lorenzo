@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # PDA-бот — «LLM как периферия»
 
 <!-- toc-auto -->

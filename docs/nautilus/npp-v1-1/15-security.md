@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 15. Security Considerations
 
 <!-- toc-auto -->

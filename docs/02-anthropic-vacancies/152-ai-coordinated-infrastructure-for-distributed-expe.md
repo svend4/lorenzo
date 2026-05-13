@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Кто ты
 
 <!-- toc-auto -->

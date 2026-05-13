@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Practical Recommendations for the Current Project
 
 > [!NOTE]

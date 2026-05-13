@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude hat geantwortet: Отличный запрос.
 
 <!-- toc-auto -->

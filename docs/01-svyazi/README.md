@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Svyazi[^svyazi] 2.0 — Архитектура и исследование
 
 <!-- toc-auto -->

@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, CardIndex, AgentFS, agent-memory-mcp
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 
 

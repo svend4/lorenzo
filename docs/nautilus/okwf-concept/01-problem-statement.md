@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 1. Problem Statement
 
 > [!NOTE]

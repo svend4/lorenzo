@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 1 — LLM-gateway × Self-hosted фронт + локальный inference
 
 <!-- toc-auto -->

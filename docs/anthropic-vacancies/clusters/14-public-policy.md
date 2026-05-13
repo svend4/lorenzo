@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Public Policy — 5 ролей
 
 <!-- toc-auto -->

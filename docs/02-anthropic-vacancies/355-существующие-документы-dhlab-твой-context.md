@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Существующие документы DHLab (твой context)
 
 <!-- toc-auto -->

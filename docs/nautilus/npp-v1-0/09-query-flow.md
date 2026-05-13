@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 9. Query Flow
 
 <!-- toc-auto -->

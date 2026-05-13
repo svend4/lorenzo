@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # The Specific Case in Front of Us
 
 > [!NOTE]

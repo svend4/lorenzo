@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Product Management, Support, & Operations — 17 ролей
 
 <!-- toc-auto -->

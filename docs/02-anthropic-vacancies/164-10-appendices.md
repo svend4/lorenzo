@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 10. Appendices
 
 > [!NOTE]

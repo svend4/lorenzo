@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 2. What Makes a Professional Colleague Agent
 
 > [!NOTE]

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 2 — Local-first PKM (Obsidian/Logseq) × MCP/Skills
 
 <!-- toc-auto -->

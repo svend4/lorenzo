@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 5 — Browser agents × headless web extraction
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 14: local-first Agent Development Environment
 
 <!-- toc-auto -->

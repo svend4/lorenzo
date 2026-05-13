@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Reading paths — рекомендуемые маршруты по монорепозиторию
 
 > [!TIP]

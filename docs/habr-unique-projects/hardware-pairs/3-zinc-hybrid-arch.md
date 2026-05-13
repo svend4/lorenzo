@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Пара 3 — ZINC inference engine × гибрид Attention+SSM+MoE
 
 <!-- toc-auto -->

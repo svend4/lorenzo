@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: Decision Tree for InGit Adopters
 
 <!-- toc-auto -->

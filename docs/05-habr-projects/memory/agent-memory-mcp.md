@@ -175,7 +175,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [agent-memory-mcp](../../obsidian/05-habr-projects/memory/agent-memory-mcp.md) (сходство 0.94)
+- [agent-memory-mcp](../../svyazi-2-0/components/agent-memory-mcp.md) (сходство 0.94)
 - [mclaude](../knowledge/mclaude.md) (сходство 0.27)
 - [agentfs](../knowledge/agentfs.md) (сходство 0.27)
 

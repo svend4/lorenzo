@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Комбинация 30: MEGA-STACK 3.0 with DSL & AST
 
 <!-- toc-auto -->

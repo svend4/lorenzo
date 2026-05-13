@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 11. Call for Collaboration
 
 <!-- toc -->

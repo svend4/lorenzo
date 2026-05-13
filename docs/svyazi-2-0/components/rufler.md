@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Rufler
 
 <!-- toc-auto -->

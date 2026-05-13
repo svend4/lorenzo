@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: Connection to Companion Papers
 
 <!-- toc-auto -->

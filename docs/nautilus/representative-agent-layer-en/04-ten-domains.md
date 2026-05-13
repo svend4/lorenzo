@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 4. Ten Domains of Application
 
 > [!TIP]

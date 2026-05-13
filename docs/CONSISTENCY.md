@@ -5,6 +5,8 @@
 **Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, agent-memory-mcp, Auto AI Router
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improve, collaboration -->
+
 
 
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Существующие документы DHLab (твой context)
 
 <!-- toc-auto -->

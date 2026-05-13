@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Письмо: nlaik / LiteParse + research-docs
 
 > [!IMPORTANT]

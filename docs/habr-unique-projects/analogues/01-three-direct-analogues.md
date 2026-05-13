@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Три прямых аналога Svyazi: K2-18, Wikontic, NGT Memory
 
 <!-- toc -->

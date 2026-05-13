@@ -6,6 +6,8 @@ date: 2026-05-13
 ---
 
 # Индекс обратных ссылок
+<!-- tags: memory, ingestion, local-first, roadmap, anthropic, collaboration -->
+
 
 **Файлов с входящими ссылками:** 2722
 

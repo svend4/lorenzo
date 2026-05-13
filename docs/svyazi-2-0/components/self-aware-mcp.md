@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Self‑Aware MCP + Skills + CodeWiki
 
 <!-- toc-auto -->

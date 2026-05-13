@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Сводная таблица 25–30 (Complete 1–30)
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # AI Support Through Configurable Specialist Ensembles
 
 <!-- toc-auto -->

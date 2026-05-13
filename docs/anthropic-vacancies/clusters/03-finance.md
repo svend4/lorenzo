@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Finance — 36 ролей
 
 <!-- toc-auto -->

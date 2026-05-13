@@ -1,4 +1,6 @@
 # REGISTRY — реестр артефактов Lorenzo
+<!-- tags: knowledge, ingestion, architecture, roadmap, self-improve, collaboration -->
+
 
 _Обновлено: 2026-05-13_
 

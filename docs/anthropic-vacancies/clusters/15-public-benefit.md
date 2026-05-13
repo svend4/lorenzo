@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Public Benefit — 4 роли
 
 <!-- toc-auto -->

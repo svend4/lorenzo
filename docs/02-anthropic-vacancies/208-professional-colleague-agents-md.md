@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # PROFESSIONAL COLLEAGUE AGENTS.md
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 12. Call for Collaboration
 
 <!-- toc-auto -->

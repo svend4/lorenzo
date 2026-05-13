@@ -6,6 +6,8 @@ date: 2026-05-13
 ---
 
 # Числовые KPI и метрики
+<!-- tags: memory, rag, knowledge, ingestion, local-first, roadmap, anthropic, self-improve, collaboration -->
+
 
 _Извлечено: **3560** числовых показателей из документов_
 

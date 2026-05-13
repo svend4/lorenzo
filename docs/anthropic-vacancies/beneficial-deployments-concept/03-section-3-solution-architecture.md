@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Section 3: Proposed solution architecture (existing components + integration)
 
 <!-- toc-auto -->

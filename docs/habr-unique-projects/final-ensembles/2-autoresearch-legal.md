@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Ансамбль 2 — «AutoResearch для legal precedent mining»
 
 <!-- toc-auto -->

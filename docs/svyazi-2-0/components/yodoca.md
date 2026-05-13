@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Yodoca
 
 <!-- toc-auto -->

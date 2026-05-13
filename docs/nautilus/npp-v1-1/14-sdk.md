@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 14. SDK Contract (Informative)
 
 <!-- toc-auto -->

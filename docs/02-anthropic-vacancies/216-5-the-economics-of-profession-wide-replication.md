@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 5. The Economics of Profession-Wide Replication
 
 > [!NOTE]

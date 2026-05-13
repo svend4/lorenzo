@@ -1,4 +1,6 @@
 # Отчёт об устаревших документах
+<!-- tags: ingestion, local-first, anthropic, collaboration -->
+
 
 _Порог: 30 дней. Обновлено: 2026-05-13_
 

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 8. Импликации для Nautilus и OKWF
 
 > [!NOTE]

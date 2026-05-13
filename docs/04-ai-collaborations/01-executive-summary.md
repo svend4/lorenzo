@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Executive summary
 
 <!-- toc-auto -->

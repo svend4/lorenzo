@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 9. Risks and Open Questions
 
 > [!TIP]

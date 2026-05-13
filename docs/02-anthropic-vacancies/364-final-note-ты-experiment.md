@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Final note: Ты — experiment
 
 <!-- abstract-auto -->

@@ -1,4 +1,6 @@
 # Каталог скриптов
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 _Обновлено: 2026-05-13_
 
