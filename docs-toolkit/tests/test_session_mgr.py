@@ -617,9 +617,9 @@ class TestSessionManagerCustomStore:
 class TestTTLBehaviour:
     def test_session_expires_after_ttl(self):
         store = make_store()
-        s = store.create("alice", ttl=0.05)
+        s = store.create("alice", ttl=0.5)
         assert store.get(s.session_id) is not None
-        time.sleep(0.1)
+        time.sleep(0.7)
         assert store.get(s.session_id) is None
         store.close()
 
@@ -632,16 +632,16 @@ class TestTTLBehaviour:
 
     def test_manager_session_expires_after_ttl(self):
         mgr = SessionManager()
-        s = mgr.create_session("alice", ttl=0.05)
+        s = mgr.create_session("alice", ttl=0.5)
         assert mgr.get_session(s.session_id) is not None
-        time.sleep(0.1)
+        time.sleep(0.7)
         assert mgr.get_session(s.session_id) is None
 
     def test_count_active_decreases_after_expiry(self):
         store = make_store()
-        store.create("alice", ttl=0.05)
+        store.create("alice", ttl=0.5)
         assert store.count_active() == 1
-        time.sleep(0.1)
+        time.sleep(0.7)
         assert store.count_active() == 0
         store.close()
 
