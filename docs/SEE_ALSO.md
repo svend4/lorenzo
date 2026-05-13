@@ -1,14 +1,14 @@
 # Индекс «Смотрите также»
 
 <!-- summary -->
-> **Файлов с блоком See Also:** 1079
+> **Файлов с блоком See Also:** 1062
 **Проекты:** Svyazi
 
 ---
 
 
 
-**Файлов с блоком See Also:** 1079
+**Файлов с блоком See Also:** 1062
 
 ## Ключевые связи
 
@@ -24,7 +24,7 @@
 - [10-second-order-ensembles](01-svyazi/10-second-order-ensembles.md) → [10-новые-ансамбли-следующего-шага](04-ai-collaborations/10-новые-ансамбли-следующего-шага.md), [G-federated-local-graph](svyazi-2-0/ensembles/G-federated-local-graph.md), [F-evidence-backed-intake](svyazi-2-0/ensembles/F-evidence-backed-intake.md), [H-research-to-product-flywheel](svyazi-2-0/ensembles/H-research-to-product-flywheel.md)
 - [11-integration-contracts](01-svyazi/11-integration-contracts.md) → [11-интеграционный-контракт-который-стоит-зафиксироват](04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md), [integration-spec](svyazi-2-0/architecture/integration-spec.md), [09-архитектурные-зазоры-которые-важнее-новых-инструме](04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md), [09-architectural-gaps](01-svyazi/09-architectural-gaps.md)
 - [12-roadmap](01-svyazi/12-roadmap.md) → [12-дорожная-карта-прототипа-следующей-итерации](04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md), [roadmap](svyazi-2-0/prototype/roadmap.md), [14-limitations](01-svyazi/14-limitations.md), [08-conclusions](01-svyazi/08-conclusions.md)
-- [13-contacts](01-svyazi/13-contacts.md) → [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md), [narrow-questions](svyazi-2-0/outreach/narrow-questions.md), [07-mvp-planning](01-svyazi/07-mvp-planning.md), [NARRATIVE](NARRATIVE.md)
+- [13-contacts](01-svyazi/13-contacts.md) → [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md), [narrow-questions](svyazi-2-0/outreach/narrow-questions.md), [NARRATIVE](NARRATIVE.md), [07-mvp-planning](01-svyazi/07-mvp-planning.md)
 - [14-limitations](01-svyazi/14-limitations.md) → [do-not-glue](svyazi-2-0/limitations/do-not-glue.md), [conclusions](svyazi-2-0/limitations/conclusions.md), [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md), [license-tree](svyazi-2-0/limitations/license-tree.md)
 - [QA](svyazi-2-0/QA.md) → [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md), [review-record](svyazi-2-0/architecture/review-record.md), [SEARCH_RESULTS](SEARCH_RESULTS.md), [card-envelope](svyazi-2-0/architecture/card-envelope.md)
 - [00-intro](nautilus/infrastructure-layer-b-ru/00-intro.md) → [288-appendix-position-in-series-visualization](02-anthropic-vacancies/288-appendix-position-in-series-visualization.md), [12-blagodarnosti-ssylki](nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md), [188-ai-опосредованное-представительство-для-недопредст](02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md), [11-dhlab-documents](lorenzo-agent/11-dhlab-documents.md)

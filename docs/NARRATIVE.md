@@ -146,3 +146,14 @@ Lorenzo — это не один проект, а **экосистема вза�
 
 _Полная дорожная карта: [01-svyazi/12-roadmap.md](01-svyazi/12-roadmap.md)_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [13-contacts](01-svyazi/13-contacts.md)
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [08-conclusions](01-svyazi/08-conclusions.md)
+
