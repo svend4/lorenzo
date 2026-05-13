@@ -15,7 +15,19 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Currently, AI-collaborative work tends to occur in one of two
+> > Currently, AI-collaborative work tends to occur in one of two
+ --
+ 
+Содержание
+ The Two-Layer Stack As It Exists
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+The Two-Layer Stack As It Exists
+Currently, AI-collaborat
 
 ---
 

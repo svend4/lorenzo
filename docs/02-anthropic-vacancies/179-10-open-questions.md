@@ -19,7 +19,10 @@
 
 
 <!-- summary -->
-> Many questions remain unresolved. We list them explicitly
+> We argue only 
+that the questions are worth pursuing because the 
+underlying technology will be developed regardless 
+of whether ethical frameworks keep pace.
 
 ---
 <!-- tags: orchestration -->

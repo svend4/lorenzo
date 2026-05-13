@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, knowledge, ingestion, local-first]
+state: raw
+---
+
 # Closing
 
 <!-- abstract-auto -->
@@ -16,7 +22,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The Open Knowledge Work Foundation is proposed as response
+> Closing
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolation.
 **Проекты:** Svyazi, [CardIndex](../01-svyazi/01-executive-summary.md)
 
 ---

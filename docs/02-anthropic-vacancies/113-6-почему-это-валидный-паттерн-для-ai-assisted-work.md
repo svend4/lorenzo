@@ -15,7 +15,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Традиционная software engineering оптимизировалась против
+> Аналогичные переосмысления происходят в других областях:
+ Code generation: меньше DRY-полicy, больше regenerate-on-demand
+ Testing: меньше handcraft, больше auto-generated property tests
+ Documentation: меньше "write once", больше "iterate with AI"
+Т
 
 ---
 <!-- tags: anthropic -->

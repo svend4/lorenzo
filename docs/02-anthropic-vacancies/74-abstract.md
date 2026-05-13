@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Abstract
 
 <!-- toc-auto -->
@@ -33,7 +37,10 @@
 
 
 <!-- summary -->
-> Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации --- Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации независимых Git-репозито
+> 🔧 Подход: Алгоритм вычисления кон
 
 ---
 <!-- tags: architecture -->

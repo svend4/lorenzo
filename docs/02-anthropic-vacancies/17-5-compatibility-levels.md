@@ -36,7 +36,17 @@
 
 
 <!-- summary -->
-> NPP определяет 4 уровня совместимости Repo с экосистемой. Это
+> Compatibility Levels
+ Level 0 — Discoverable
+ Level 1 — Readable
+ Level 2 — Queryable
+ Level 3 — Interactive / Bridged
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (7)
+> [!NOTE]
+> Документ создан на основе исследо
 
 ---
 <!-- tags: anthropic -->

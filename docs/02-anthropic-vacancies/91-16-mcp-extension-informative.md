@@ -20,7 +20,14 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED
+> MCP wrapper (  в reference implementation) SHOULD 
+экспонировать минимум 5 tools:
+ — search across ecosystem
+ — list all repos with metadata
+ — query single repo
+ — consensus validation
+ — ecosystem philosophy and metadata
+Формальная MCP-спецификация
 
 ---
 <!-- tags: architecture -->

@@ -16,7 +16,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Mariya is 67, retired three years ago after 35 years
+> Governance and Oversight
+ Appendix C: Quick-Start Architecture for SGB Advocate Colleague
+ Appendix C: Sample InGit MCP Server Tool Specifications
+ Appendix C: Version History
+ Appendix: Position in Series Visualization
+ References
+ Вакансии Anthropi
 
 ---
 

@@ -16,7 +16,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> В качестве иллюстраций используется экосистема `svend4` с 7 Repos:
+> Glossary of Reference Examples
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (5)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: knowledge, architecture, collaboration -->

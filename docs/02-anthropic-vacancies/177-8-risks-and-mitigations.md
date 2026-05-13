@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, security, ingestion, local-first]
+state: raw
+---
+
 # 8. Risks and Mitigations
 
 > [!WARNING]
@@ -34,7 +40,14 @@
 
 
 <!-- summary -->
-> We address eight categories of risk with specific mitigations.
+> Mitigation:
+ Encryption at rest and in transit
+ Granular access control
+ Local-first deployment options (data stays on 
+  principal's device when possible)
+ Compliance with GDPR, HIPAA, and equivalent
+ Independent security audits
+8.5.
 
 ---
 <!-- tags: rag, orchestration, ingestion, local-first, self-improvement -->

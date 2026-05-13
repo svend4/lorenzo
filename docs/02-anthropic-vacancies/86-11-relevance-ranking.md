@@ -19,7 +19,10 @@
 
 
 <!-- summary -->
-> v1.1 нормализует алгоритм ранжирования из reference implementation.
+> MAY Extensions
+Альтернативные алгоритмы ранжирования (TF-IDF, BM25, semantic 
+embeddings) могут использоваться, но MUST быть опциональными через 
+параметр  .
 
 ---
 <!-- tags: anthropic -->

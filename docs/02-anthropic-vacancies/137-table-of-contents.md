@@ -26,7 +26,22 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> 1. **Why Single-Triangle Models Are Incomplete**
+> Table of Contents
+ 
+Contents
+ Содержание
+ Table of Contents
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (15)
+Содержание
+ Основной раздел
+> [
 
 ---
 <!-- tags: architecture -->

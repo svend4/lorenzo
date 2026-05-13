@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Технический stack (Svyazi 2.0 foundation)
 
 <!-- abstract-auto -->
@@ -15,7 +21,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Lorenzo's architecture builds on верифицированных open-source компонентах:
+> Phase 1 commitment : ready ли вы committed к 12-month roadmap, или это всё ещё exploration?
 **Проекты:** Svyazi, CardIndex, AgentFS, [knowledge-space](../01-svyazi/03-component-catalog.md), mclaude, AI Factory, Rufler, LiteParse
 
 ---

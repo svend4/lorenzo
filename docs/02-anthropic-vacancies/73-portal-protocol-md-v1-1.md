@@ -12,7 +12,16 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> **Status:** Draft — пересмотрен под текущую реализацию v1.1
+> PORTAL-PROTOCOL.md v1.1
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md v1 1"
+```
+Смотрите также
+ 03-portal-protocol-md
+ 152-ai-coordinated-infrastructure-for-distributed-expe
+ 135-a-formal
 
 ---
 <!-- tags: collaboration -->

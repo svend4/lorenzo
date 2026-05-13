@@ -31,7 +31,11 @@
 
 
 <!-- summary -->
-> Building on the Representative Agent Layer paper, we observe
+> We argue that Professional Colleague Agents should be the
+first production deployment of foundation-funded AI
+infrastructure, with Representative Agents as a second-phase
+extension once professionals have integrated AI partners into
+their daily work.
 
 ---
 <!-- tags: rag, architecture, roadmap -->

@@ -18,7 +18,12 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+> > Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+ --
+Когда ты Honestly не знаешь
+Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+ «Я не знаю это — нужно research»
+ «Это outside my current knowledge»
 
 ---
 

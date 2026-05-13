@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 1. Introduction
 
 <!-- toc-auto -->
@@ -29,7 +33,10 @@
 
 
 <!-- summary -->
-> Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла 
+> 🔧 Подход: Homogenization: разные
 
 ---
 <!-- tags: collaboration -->

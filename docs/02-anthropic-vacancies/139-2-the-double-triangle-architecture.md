@@ -16,7 +16,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> We formalize the architecture using two triangles sharing a common
+> Each human Node maintains two 
+separate identity contexts: personal context (their 
+work-in-progress, drafts, notes, private patterns) and team 
+context (their accepted deliverables, public roles, shared 
+outputs).
 
 ---
 

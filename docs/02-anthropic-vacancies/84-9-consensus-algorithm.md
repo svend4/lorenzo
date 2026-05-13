@@ -29,7 +29,13 @@
 
 
 <!-- summary -->
-> При query через portal, когда результаты возвращаются из нескольких
+> v1.1 Consensus Strategy: Real vs Fallback
+v1.1 различает два типа coverage:
+ — доля repos, вернувших реальные (не fallback) 
+  entries, содержащие query
+ — доля repos, вернувших любые 
+  entries, включая fallback
+Концепт считается agreed (полный конс
 
 ---
 <!-- tags: rag -->

@@ -29,7 +29,18 @@
 
 
 <!-- summary -->
-> Several existing tools approximate parts of what Layer B
+> Содержание
+ Existing Approximations
+ Anthropic Projects
+ GitHub Discussions
+ Notion / Obsidian / Roam
+ Discourse / phpBB-style forums
+ Combination workflows
+ --
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: It solves part of the problem (persistent context) bu
 
 ---
 <!-- tags: rag, architecture, anthropic -->

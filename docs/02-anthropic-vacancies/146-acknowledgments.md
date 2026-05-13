@@ -38,7 +38,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> This work emerged through extensive collaboration with Anthropic's
+> > This work emerged through extensive collaboration with Anthropic's
+ --
+ 
+Acknowledgments
+This work emerged through extensive collaboration with Anthropic's 
+Claude (primarily Claude Opus 4.7) across multiple sessions in 
+2026.
 
 ---
 <!-- tags: rag, roadmap, anthropic -->

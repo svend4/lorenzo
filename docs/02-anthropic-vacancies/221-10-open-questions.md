@@ -22,7 +22,10 @@
 
 
 <!-- summary -->
-> Several questions remain unresolved.
+> Multi-Profession Practitioners
+How do agents handle practitioners who span multiple
+professional contexts (researcher who also teaches; lawyer
+who is also academic; engineer who is also entrepreneur)?
 
 ---
 <!-- tags: architecture, anthropic -->

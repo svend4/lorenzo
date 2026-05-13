@@ -32,7 +32,15 @@
 
 
 <!-- summary -->
-> For an organization deciding whether to build a Professional
+> Relationship to Other Agent Types
+ Appendix A: Comparative Table — Five Agent Types
+ Appendix A: The Six-Type Taxonomy (Updated)
+ Вакансии Anthropic — Анализ по кластерам
+ Кто ты
+Упоминается в
+ Вакансии Anthropic — Анализ по кластерам
+ 
+Связанные док
 
 ---
 <!-- tags: anthropic -->

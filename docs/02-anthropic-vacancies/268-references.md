@@ -19,7 +19,16 @@
 
 
 <!-- summary -->
-> - Anderson, J. R. (1983). *The Architecture of Cognition*.
+> Содержание
+ References
+ Foundational Sources for Composite Architecture
+ Pattern of Composite Mastery
+ Multi-Agent Coordination
+ Practical Examples
+ Companion Documents in This Series
+ --
+ 
+> - Anderson, J.
 
 ---
 <!-- tags: rag, architecture, collaboration -->

@@ -36,7 +36,18 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> projects: ["agent-memory-mcp", "Memory OS"]
+> Статус
+ Параметр | Значение |
+ ----------|---------|
+ Теги | — |
+ Упоминаний в репо | 169 |
+ Слой | memory/MCP[^mcp] |
+ Контакт | @VitaliySemenov |
+ Статус связи | не писали |
+_Обновлено: 2026-05-10_
+agent-memory-mcp + Memory OS
+> [!NOTE]
+> Документ
 **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], Yodoca[^yodoca], NGT[^ngt] Memory, MemNet, agent-memory-mcp
 
 ---

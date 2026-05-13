@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, knowledge, ingestion, local-first]
+state: raw
+---
+
 # Appendix C: Sample InGit MCP Server Tool Specifications
 
 > [!WARNING]
@@ -16,7 +22,12 @@
 
 
 <!-- summary -->
-> For reference, here are detailed specifications for first
+> Numbering 2.4 (не 9) показывает:
+ Conceptually связан с 2.3 (infrastructure layer)
+ Sequentially написан после applied work (3-7)
+ Pairs naturally с 2.3 как theory-practice
+Главная переоценка — честная
+В Acknowledgments я явно написал, что Document 2
 
 ---
 

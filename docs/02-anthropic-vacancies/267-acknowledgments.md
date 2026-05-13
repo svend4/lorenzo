@@ -31,7 +31,11 @@
 
 
 <!-- summary -->
-> The Composite Skills Agent concept emerged from dialogue with
+> The crystallizing 
+contribution was the user's observation that the binary view 
+between Professional Colleague Agent (Type 1) and Representative 
+Agent (Type 4) missed the most common middle case — practitioners 
+whose distinctive value comes from c
 
 ---
 <!-- tags: architecture, anthropic -->

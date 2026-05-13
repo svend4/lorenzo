@@ -62,7 +62,18 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс)
+> --
+ --
+Похожие документы
+ 81-6-adapter-interface (сходство 0.51)
+ 21-9-query-flow (сходство 0.11)
+ 85-10-query-flow (сходство 0.10)
+ --
+Смотрите также
+ 81-6-adapter-interface
+ 19-7-portalentry-structure
+ 82-7-portalentry-structure
+ 23-11-security-con
 
 ---
 

@@ -12,7 +12,16 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> **Status:** Draft (Working Document)
+> PORTAL-PROTOCOL.md
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
+```
+Смотрите также
+ 152-ai-coordinated-infrastructure-for-distributed-expe
+ 73-portal-protocol-md-v1-1
+ 135-a-formal-mode
 
 ---
 <!-- tags: collaboration -->

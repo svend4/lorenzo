@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, knowledge]
+state: approved
+---
+
 # Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
 
 <!-- abstract-auto -->
@@ -16,7 +22,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Для справки, вот детальные спецификации для
+> > ✅ Результат: Уникальные свойства : - Knowledge written for agents, not humans — fundamentally different design - Domain-specific freshness thresholds : алгоритмы стабильны (обновлять не нужно),
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
 **Проекты:** Svyazi, CardIndex, [knowledge-space](../01-svyazi/03-component-catalog.md), Graph RAG, NGT Memory, Wikontic
 
 ---

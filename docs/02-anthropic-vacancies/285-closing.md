@@ -51,7 +51,11 @@
 
 
 <!-- summary -->
-> The seven documents in this series describe substantial
+> Either way, the immediate practical work continues: commit 
+the documents, structure the repository, enable discussions, 
+maintain cross-references manually, and proceed with the 
+applied work (SGB pilot, foundation outreach, sub-agent 
+registry deve
 
 ---
 <!-- tags: rag, ingestion, architecture -->

@@ -16,7 +16,22 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> **Объём:** 74 документа (по состоянию на апрель 2026)
+> --
+ --
+Похожие документы
+ 12-content-overview (сходство 0.11)
+ --
+Использование
+ 
+Смотрите также
+ 58-content-overview
+ 42-author-contact
+ 231-содержание
+ 48-content-overview
+ --
+Кто ссылается на этот документ (4)
+ 12-content-overview
+ 13-angle-perspe
 
 ---
 <!-- tags: anthropic -->

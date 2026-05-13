@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 5. Configuration: How Principals Build Their Ensembles
 
 > [!NOTE]
@@ -22,7 +26,11 @@
 
 
 <!-- summary -->
-> A central question for Composite Skills Agents: how does a
+> > ✅ Результат: A new social law lawyer might benefit from a starting template: - General SGB IX sub-agent - General SGB XII sub-agent - Procedural law sub-agent - BSG case law sub-agent - General
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+ 
+> A ce
 
 ---
 <!-- tags: anthropic -->

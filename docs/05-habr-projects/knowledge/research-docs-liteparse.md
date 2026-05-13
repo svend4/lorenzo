@@ -36,7 +36,18 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> projects: ["research-docs", "LiteParse"]
+> Статус
+ Параметр | Значение |
+ ----------|---------|
+ Теги | — |
+ Упоминаний в репо | 594 |
+ Слой | ingestion/evidence |
+ Контакт | @nlaik |
+ Статус связи | не писали |
+_Обновлено: 2026-05-10_
+research-docs + LiteParse
+> [!NOTE]
+> Документ создан на
 **Проекты:** Svyazi[^svyazi], AgentFS[^agentfs], knowledge-space[^knowledge-space], LiteParse, Yodoca[^yodoca], agent-memory-mcp
 
 ---

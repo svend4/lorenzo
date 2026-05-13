@@ -36,7 +36,13 @@
 
 
 <!-- summary -->
-> 1. Client вызывает `portal.query(q, target_repos=None)`
+> Error Handling
+Если adapter падает (exception, timeout), Portal MUST:
+ Включить repo в   список QueryResult
+ Продолжить обработку остальных
+ Не падать целиком
+Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, снижено 
+для лучшего UX).
 
 ---
 <!-- tags: anthropic -->

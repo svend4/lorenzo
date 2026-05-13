@@ -44,7 +44,20 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> 1. **The Cowork Discovery and Why It Changes Everything**
+> Strategic Positioning
+ --
+ --
+Похожие документы
+ 253-table-of-contents (сходство 0.15)
+ 137-table-of-contents (сходство 0.13)
+ 211-table-of-contents (сходство 0.13)
+ --
+Использование
+ 
+Смотрите также
+ 253-table-of-contents
+ 211-table-of-contents
+ 137
 
 ---
 <!-- tags: anthropic -->

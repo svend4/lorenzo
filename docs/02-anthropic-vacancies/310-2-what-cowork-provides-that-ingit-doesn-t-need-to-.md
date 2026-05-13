@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. What Cowork Provides That InGit Doesn't Need to Build
 
 > [!TIP]
@@ -16,7 +20,8 @@
 
 
 <!-- summary -->
-> If InGit positions to complement Cowork rather than replace
+> > 🔧 Подход: Claude in Cowork can: - Read multiple files, synthesize information - Make decisions about approach - Execute shell commands in isolated VM - Iterate based on results - Coordinate 
+> ✅ Результат: What Cowork Provides That InGit Doesn't Ne
 
 ---
 

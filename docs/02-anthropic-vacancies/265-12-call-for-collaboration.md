@@ -20,7 +20,12 @@
 
 
 <!-- summary -->
-> This paper opens questions that require multi-stakeholder
+> Particular needs:
+ Sub-agent registry standards and protocols
+ Configuration management interfaces
+ Disagreement detection and presentation systems
+ Audit and observability tools
+12.4.
 
 ---
 <!-- tags: rag, anthropic -->

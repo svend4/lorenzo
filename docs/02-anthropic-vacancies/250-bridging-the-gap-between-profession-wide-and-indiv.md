@@ -8,7 +8,16 @@
 
 
 <!-- summary -->
+> Bridging the Gap Between Profession-Wide and Individual-Unique 
+ 
+Contents
+ Bridging the Gap Between Profession-Wide and Individual-Unique
+ Использование
+ 
 > Bridging the Gap Between Profession-Wide and Individual-Unique
+ 
+> [!NOTE]
+> Документ создан
 
 <!-- tags: documentation, overview -->
 

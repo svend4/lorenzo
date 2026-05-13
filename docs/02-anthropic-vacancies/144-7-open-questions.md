@@ -15,7 +15,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The Double-Triangle Architecture is proposed as a framework, not
+> Open questions:
+ Communication overhead at deep recursion levels
+ Consensus model latency at scale
+ Protocol 3 routing efficiency in large trees
+ Governance coherence across many levels
+These require production-scale deployments to answer, which 
+dep
 
 ---
 

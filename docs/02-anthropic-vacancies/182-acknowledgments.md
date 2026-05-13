@@ -20,7 +20,20 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> This concept emerged through dialogue across multiple
+> Acknowledgments
+ 
+Contents
+ Acknowledgments
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (10)
+> [!TIP]
+> Документ содержит практические реком
 
 ---
 <!-- tags: anthropic -->

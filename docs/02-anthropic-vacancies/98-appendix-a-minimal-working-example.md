@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: Minimal Working Example
 
 <!-- toc-auto -->
@@ -36,7 +40,10 @@
   - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 <!-- summary -->
-> "passport": "passports/my_notes.md",
+> > 🔧 Подход: --- Похожие документы: - 28-appendix-a-minimal-working-example(docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.44) - 03-portal-protocol-md(docs/02
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+ A.1.
 
 ---
 <!-- tags: ingestion -->

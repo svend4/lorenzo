@@ -19,7 +19,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md**
+> Интеграция с Nautilus Portal Protocol
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (9)
+> [!WARNING]
+> Документ содержит описание рисков и ограничений.
 
 ---
 <!-- tags: orchestration, architecture, roadmap -->

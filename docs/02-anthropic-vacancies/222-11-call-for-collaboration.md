@@ -31,7 +31,13 @@
 
 
 <!-- summary -->
-> We invite specific kinds of collaboration:
+> For Policy Stakeholders
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (7)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: rag, architecture -->

@@ -16,7 +16,13 @@
 
 
 <!-- summary -->
-> Passport — human-readable описание Repo, расположенное в корне
+> Recommended Structure
+Passport SHOULD содержать следующие разделы:
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Passport passport md"
+`` passport.md passport.md`)](79-4-passport-passport-md.md) _29%_
+ Planned (v0
 
 ---
 <!-- tags: anthropic -->

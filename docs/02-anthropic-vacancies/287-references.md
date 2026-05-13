@@ -29,7 +29,19 @@
 
 
 <!-- summary -->
-> The references for this document are sparser than for the
+> References
+ 
+Contents
+ References
+ Threading and Annotation
+ Knowledge Management
+ AI Collaboration Infrastructure
+ Earlier Companion Documents in This Series
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (13)
+> [!
 
 ---
 <!-- tags: anthropic -->

@@ -12,7 +12,18 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> `info1` реализует идею, что **methodology — это отдельное измерение
+> Status of This Document _25%_
+ --
+Кто ссылается на этот документ (12)
+ 04-abstract
+ 05-0-status-of-this-document
+ 123-portal-mcp-py
+ 132-planned-v0-2-0
+ 154-table-of-contents
+ 190-содержание
+ 326-содержание
+ 54-for-the-curious-philosophy
+ _...ещё 4_
 
 ---
 <!-- tags: rag -->

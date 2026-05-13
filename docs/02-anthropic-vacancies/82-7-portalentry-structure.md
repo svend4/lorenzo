@@ -38,7 +38,14 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Унифицированная структура данных, возвращаемая адаптерами.
+> Implementation MAY расширять список
+ — полный текст/представление, MAY быть большим
+ — MUST содержать   для Level 2+ адаптеров
+ — список id из других Repos, формат   
+  или   (например,  , 
+   )
+ — Boolean, MUST быть   для fallback-entries, 
+    (def
 
 ---
 <!-- tags: ingestion, architecture, collaboration -->

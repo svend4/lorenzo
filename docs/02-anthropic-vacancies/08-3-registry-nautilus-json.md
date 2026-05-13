@@ -50,7 +50,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Registry — central source of truth о том, какие Repos входят в
+> Optional Fields
+Все остальные поля OPTIONAL, но SHOULD быть заполнены для хорошей 
+discoverability:
+ — если опущен, Repo существует только локально
+ ,  ,   — human-readable metadata
+ — пустой объект допустим, если мостов нет
+3.5.
 
 ---
 <!-- tags: architecture -->

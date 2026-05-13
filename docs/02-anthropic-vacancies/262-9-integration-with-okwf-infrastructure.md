@@ -16,7 +16,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Composite Skills Agents fit naturally into the OKWF infrastructure
+> Each guild can:
+ Identify priority sub-agents for their area
+ Contribute expert curation
+ Test sub-agents in actual practice
+ Maintain quality standards
+ Develop common configuration templates
+Guilds become both consumers and producers of composite
 
 ---
 

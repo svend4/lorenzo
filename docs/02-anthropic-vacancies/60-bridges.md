@@ -20,7 +20,18 @@
 
 
 <!-- summary -->
-> **Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `pro2/passport.md`).
+> Bridges
+ 
+Contents
+ Bridges
+ meta ↔ pro2
+ meta ↔ info1
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (8)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: anthropic -->

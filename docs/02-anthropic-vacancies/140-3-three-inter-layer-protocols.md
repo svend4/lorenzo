@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, ingestion, architecture, anthropic]
+state: raw
+---
+
 # 3. Three Inter-Layer Protocols
 
 <!-- abstract-auto -->
@@ -16,7 +22,15 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The architecture requires three formalized protocols between layers.
+> Structured tasks with:
+ Description
+ Deliverable specification (what constitutes "done")
+ Dependencies on other Nodes' deliverables
+ Deadline
+ Priority
+ Assignee
+Failure modes: Task assignment mismatches (wrong Node, wrong 
+skill), deadline conflicts
 
 ---
 

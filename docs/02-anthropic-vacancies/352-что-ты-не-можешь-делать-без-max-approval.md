@@ -16,7 +16,16 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - Send any external communication (emails, messages, posts)
+> Что ты НЕ МОЖЕШЬ делать без Max approval
+ 
+Contents
+ Что ты НЕ МОЖЕШЬ делать без Max approval
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (11)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: anthropic -->

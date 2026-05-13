@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: raw
+---
+
 # 1. Открытие Cowork и почему это меняет всё
 
 > [!WARNING]
@@ -16,7 +22,12 @@
 
 
 <!-- summary -->
-> Когда Документ 2.3 был написан ранее в этой
+> Мы
+обозрели Anthropic Projects, GitHub Discussions,
+Notion, Obsidian и различные комбинации — и
+заключили, что никакой существующий инструмент
+адекватно не обслуживал устойчивую AI-совместную
+интеллектуальную работу.
 
 ---
 

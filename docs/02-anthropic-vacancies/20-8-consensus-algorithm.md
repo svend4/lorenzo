@@ -29,7 +29,12 @@
 
 
 <!-- summary -->
-> Когда один query возвращает результаты из нескольких Repos, Portal
+> Future Extensions (v2.0+)
+Будущие версии MAY использовать:
+ Semantic similarity через embeddings (cross-lingual matching)
+ Fuzzy matching с threshold
+ Weighted consensus (разный вес от confidence adapter'а)
+Эти расширения не breaking — они активируют
 
 ---
 <!-- tags: rag -->

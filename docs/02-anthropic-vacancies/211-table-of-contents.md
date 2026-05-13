@@ -44,7 +44,18 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> 1. **The Five-Type Typology of Principal-Side Agents**
+> Call for Collaboration
+ --
+ --
+Похожие документы
+ 253-table-of-contents (сходство 0.26)
+ 169-table-of-contents (сходство 0.23)
+ 209-a-typology-of-ai-agents-on-the-principal-side-and- (сходство 0.18)
+ --
+Использование
+ 
+Смотрите также
+ 253-table-of-co
 
 ---
 <!-- tags: anthropic -->

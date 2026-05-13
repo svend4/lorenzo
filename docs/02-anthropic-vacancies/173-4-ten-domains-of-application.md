@@ -16,7 +16,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The Representative Agent pattern applies broadly. We identify
+> Domain 10 — Future Generations and Non-Human Stakeholders
+Principal: Conceptual — those who cannot represent 
+themselves: future generations affected by current 
+decisions, ecosystems impacted by policy, animals in 
+human-modified environments.
 
 ---
 

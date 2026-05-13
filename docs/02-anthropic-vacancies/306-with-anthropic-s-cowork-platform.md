@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, local-first, architecture, anthropic]
+state: raw
+---
+
 # with Anthropic's Cowork Platform
 
 > [!NOTE]
@@ -31,7 +37,16 @@
 
 
 <!-- summary -->
-> **Document type:** Practical implementation paper, building
+> Содержание
+ with Anthropic's Cowork Platform
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: local-first, architecture, anthropic, collaboration -->

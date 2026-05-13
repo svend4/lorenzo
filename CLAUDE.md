@@ -50,6 +50,7 @@ scripts/
   improve_semantic_embeddings.py — семантический индекс (ST + TF-IDF fallback, 1166 docs → docs/semantic_index.json)
   improve_knowledge_evolution.py — снапшоты KPI базы знаний во времени → docs/KNOWLEDGE_EVOLUTION.md
   improve_decay_checker.py    — поиск кандидатов на decay: stubs, orphans, near-dups → DECAY_CANDIDATES.md
+  improve_auto_summarize.py   — авто-генерация summary и тегов для raw-карточек (разблокирует promote) → --dry-run/--apply
   review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
   prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
   improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
@@ -354,7 +355,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 |----------|--------|--------------------|
 | 0 — Вертикальный срез | ✅ Готово | 1632 карточки, 2500+ рёбер, MCP 11 инструментов |
 | 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16487 токенов) + гибрид 0.6/0.4 + Review Queue UI |
-| 2 — Consolidation | ✅ Готово | CI daily + lifecycle promote, 272 approved · 435 normalized · 443 raw |
+| 2 — Consolidation | ✅ Готово | CI daily + lifecycle promote, 320 approved · 483 normalized · 362 raw |
 | 3 — Collaboration Finder | ✅ Готово | 9 богатых проектных файлов, 23 proposals, 9 контактов |
 | 4 — Gateway & Enrichment | ✅ Готово | OpenAI-compatible API, write-back + dedup, function calling, Review Queue |
 | 5 — RFC & Semantic Layer | ✅ Готово | RFC-система (3 RFC Accepted), ST+TF-IDF 1166 docs, MCP 15 инструментов |
@@ -399,6 +400,9 @@ python scripts/improve_rfc_tracker.py --validate                        # про
 
 ### Жизненный цикл карточек (lifecycle group)
 ```bash
+python scripts/improve_auto_summarize.py --dry-run                # план инжекции summary/тегов
+python scripts/improve_auto_summarize.py --apply                  # инжектировать summary и теги
+python scripts/improve_auto_summarize.py --apply --section 02-anthropic-vacancies
 python scripts/improve_card_promote.py --stats                    # статистика промоушена
 python scripts/improve_card_promote.py --dry-run                  # план без изменений
 python scripts/improve_card_promote.py --apply                    # промоушен raw→normalized→approved

@@ -33,7 +33,11 @@
 
 
 <!-- summary -->
-> The five-type taxonomy introduced in Professional Colleague
+> Most skilled professionals occupy a middle zone: not generic 
+practitioners of a profession, not unique individuals beyond 
+categorization, but composite specialists — practitioners 
+whose distinctive value comes from a particular combination of 
+nar
 
 ---
 <!-- tags: anthropic -->

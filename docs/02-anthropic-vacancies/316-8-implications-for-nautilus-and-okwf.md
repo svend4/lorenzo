@@ -28,7 +28,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Beyond InGit specifically, this positioning has implications
+> With 
+the InGit/Cowork combination available:
+Pilot architecture refined:
+ Each advocate has InGit Project for their case work
+ Cowork operates within these Projects
+ MCP server for SGB-specific knowledge (statutes, precedents)
+ Pattern Library integ
 
 ---
 

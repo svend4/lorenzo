@@ -21,8 +21,19 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
-> [!TIP]
+> Appendix B: Summary of Contributions
+ 
+Contents
+ Appendix B: Summary of Contributions
+ Author & Contact
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот д
 > Обзорный документ. Рекомендуется читать перед погружением в детали.
 
 > 1. **Topological formalization** of Double-Triangle Architecture

@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, local-first, anthropic]
+state: raw
+---
+
 # 8. Seven Domains of Application
 
 <!-- abstract-auto -->
@@ -16,7 +22,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Composite Skills Agents apply naturally to professions where
+> Domain 2 — Visual and Creative Arts
+Sub-agent specializations might include: Drawing fundamentals, 
+painting techniques, digital illustration, animation, sculpture, 
+photography, color theory, composition, art history (by period 
+or movement), specif
 
 ---
 

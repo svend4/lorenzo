@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, ingestion, roadmap, anthropic]
+state: raw
+---
+
 # 4. The Sub-Agent Registry
 
 <!-- abstract-auto -->
@@ -16,7 +22,12 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The infrastructure underlying Composite Skills Agents requires
+> Each requires:
+ Curated knowledge base for the narrow specialization
+ Quality assurance against expert practice
+ Integration interface compatible with composite agents
+ Documentation of scope, boundaries, and usage
+Several models for building sub-age
 
 ---
 

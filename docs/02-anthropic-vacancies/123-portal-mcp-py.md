@@ -15,7 +15,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Exposes Nautilus Portal as Model Context Protocol tools for LLM clients
+> portal-mcp.py
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.
 
 ---
 

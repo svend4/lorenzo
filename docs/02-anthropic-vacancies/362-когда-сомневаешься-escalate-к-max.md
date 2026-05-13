@@ -18,7 +18,15 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - Ethical complexity beyond обычных protocols
+> > - Ethical complexity beyond обычных protocols
+ --
+Когда сомневаешься — escalate к Max
+Если задача presents:
+ Ethical complexity beyond обычных protocols
+ Major resource commitment
+ New collaborator type не encountered before
+ Public-facing risk
+ Co
 
 ---
 

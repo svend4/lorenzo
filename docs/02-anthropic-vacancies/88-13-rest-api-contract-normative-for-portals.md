@@ -20,7 +20,14 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> v1.1 делает REST API mandatory частью протокола. Это обеспечивает
+> Recommended Endpoints
+Portal SHOULD предоставлять:
+ Метод | Путь | Описание |
+ -------|------|----------|
+ GET |   | Валидация кросс-ссылок |
+ GET |   | Q6-соседи |
+ GET |   | Prometheus-метрики (text/plain) |
+ GET |   | Root endpoint со списком endp
 
 ---
 <!-- tags: rag, architecture, collaboration -->

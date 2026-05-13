@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, knowledge, ingestion, local-first]
+state: approved
+---
+
 # Агентные системы и роутинг
 
 <!-- toc-auto -->
@@ -32,7 +38,11 @@
 
 
 <!-- summary -->
-> самоулучшения промпта". Добавляем durable state из агентской архитектуры:
+> > ✅ Результат: Durable state позволяет: - Разделить граф на домены (legal / tech / business) - Каждый домен = отдельный агентский поток с собственным состоянием - Cross-domain запросы через event
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+ 
+> само
 **Проекты:** [CardIndex](../01-svyazi/01-executive-summary.md), Auto AI Router
 
 ---

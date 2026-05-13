@@ -26,7 +26,17 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - **2026-04: v1.0.0-draft** — Initial draft published.
+> Appendix B: Change Log
+ 
+Содержание
+ Appendix B: Change Log
+ Комментарий к документу
+ Паспорт 1 из 3
+ --
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Второе — раздел 11 Security Considerations, где явно обозначена проблема с приватными репо (это прямо связано
 
 ---
 

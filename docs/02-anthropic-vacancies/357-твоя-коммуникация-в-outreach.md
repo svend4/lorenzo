@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Твоя коммуникация в outreach
 
 <!-- toc-auto -->
@@ -21,7 +25,9 @@
 
 
 <!-- summary -->
-> Когда draft outreach message к независимому создателю, ВСЕГДА включай:
+> Моя миссия — connecting создателей в области beneficial AI для совместной работы над technologies serving vulnerable populations.»
+Specific reference к их работе (не generic):
+> «Читал вашу [статью/репозиторий] про [конкретная тема], особенно интерес
 
 ---
 

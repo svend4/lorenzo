@@ -54,7 +54,17 @@
 
 
 <!-- summary -->
-> This paper updates the Professional Colleague Agents v1.0
+> --
+ --
+Похожие документы
+ 226-appendix-a-comparative-table-five-agent-types (сходство 0.31)
+ 252-abstract (сходство 0.14)
+ 227-appendix-b-decision-framework-when-to-build-type-1 (сходство 0.13)
+ --
+Использование
+ 
+Смотрите также
+ 226-appendix-a-compa
 
 ---
 <!-- tags: anthropic -->

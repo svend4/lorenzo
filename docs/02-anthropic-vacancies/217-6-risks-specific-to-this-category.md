@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, local-first, architecture, anthropic]
+state: raw
+---
+
 # 6. Risks Specific to this Category
 
 <!-- abstract-auto -->
@@ -16,7 +22,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Professional Colleague Agents have risks distinct from
+> Risks Specific to this Category
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Teacher's agent generates problems requiring active human reasoning, not pattern-matching.
 
 ---
 

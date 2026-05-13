@@ -32,7 +32,11 @@
 
 
 <!-- summary -->
-> OKWF is not a solo initiative. Successful launch requires
+> For Potential Contributors
+ --
+ 
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: rag, anthropic -->

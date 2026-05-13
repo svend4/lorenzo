@@ -31,7 +31,11 @@
 
 
 <!-- summary -->
-> The seven preceding documents in this series were produced in
+> The author 
+articulated this need directly: "an extended functional space 
+for project management, where one can return to messages, 
+comment them, branch from them, add to them — like blogs and 
+forums but adapted for AI-collaborative intellectual w
 
 ---
 <!-- tags: orchestration, architecture, roadmap -->

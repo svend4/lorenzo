@@ -20,7 +20,12 @@
 
 
 <!-- summary -->
-> Reference implementation предоставляет Python SDK (`nautilus_sdk.py`).
+> Return Types
+ Похожие документы
+ Смотрите также
+ Кто ссылается на этот документ (9)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: anthropic -->

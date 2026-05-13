@@ -30,7 +30,10 @@
 
 
 <!-- summary -->
-> The AI-assisted knowledge work field currently divides into two
+> Enterprise AI platforms (Microsoft Copilot Enterprise, Google 
+Workspace AI) attempt to bridge these but do so through layer 
+isolation — personal assistants and team-level orchestration 
+exist as separate products without formal protocols between th
 
 ---
 <!-- tags: architecture, anthropic -->

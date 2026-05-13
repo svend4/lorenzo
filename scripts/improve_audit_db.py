@@ -217,6 +217,50 @@ def cmd_recent(n: int = 10):
     )
 
 
+def cmd_write_log(tail: int = 50) -> int:
+    """Читает .claude/mcp_write_log.jsonl — audit trail MCP write операций."""
+    log_path = CLAUDE_DIR / "mcp_write_log.jsonl"
+    if not log_path.exists():
+        print("ℹ️  Лог .claude/mcp_write_log.jsonl не найден.")
+        print("   Создаётся автоматически при первом write через MCP.")
+        return 0
+
+    entries = []
+    for line in log_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            entries.append(json.loads(line))
+        except json.JSONDecodeError:
+            pass
+
+    if not entries:
+        print("ℹ️  Лог пустой.")
+        return 0
+
+    print(f"📋 MCP Write Log: {len(entries)} операций\n")
+
+    # Статистика по инструментам
+    tool_counts: dict[str, int] = {}
+    for e in entries:
+        t = e.get("tool", "unknown")
+        tool_counts[t] = tool_counts.get(t, 0) + 1
+
+    print("  По инструментам:")
+    for tool, count in sorted(tool_counts.items(), key=lambda x: -x[1]):
+        print(f"    {tool:<25} {count:>4}")
+
+    print(f"\n  Последние {min(tail, len(entries))} операций:")
+    for e in entries[-tail:]:
+        ts   = e.get("ts", "?")
+        tool = e.get("tool", "?")
+        res  = e.get("result", "")[:60]
+        print(f"    [{ts}] {tool:<25} → {res}")
+
+    return 0
+
+
 def cmd_workflow_stats():
     return cmd_query(
         "SELECT task_id, COUNT(*) AS runs, "
@@ -258,12 +302,17 @@ def main():
     if '--workflow-stats' in args:
         return cmd_workflow_stats()
 
+    if '--write-log' in args:
+        return cmd_write_log()
+
     # Default: rebuild + summary
     rebuild()
     print("\n— Топ-5 инструментов —")
     cmd_top_tools(5)
     print("\n— Workflow stats —")
     cmd_workflow_stats()
+    print("\n— MCP Write операции —")
+    cmd_write_log(tail=10)
     return 0
 
 

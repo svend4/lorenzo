@@ -25,7 +25,22 @@
 
 
 <!-- summary -->
-> ~/Library/Application Support/Claude/claude_desktop_config.json
+> Подключение к Claude Desktop
+ 
+Contents
+ Подключение к Claude Desktop
+ macOS
+ Windows
+ Linux
+ Содержимое
+ Похожие документы
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (15)
+>
 
 ---
 <!-- tags: anthropic -->

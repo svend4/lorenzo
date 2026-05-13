@@ -19,7 +19,13 @@
 
 
 <!-- summary -->
-> Effective Representative Agent systems require governance
+> Dispute Resolution
+When agent operations cause harm or disputes:
+First level: Principal-platform direct resolution 
+(refund, correction, restoration)
+Second level: Independent ombudsman within platform
+Third level: External arbitration
+Fourth level:
 
 ---
 <!-- tags: roadmap -->

@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, architecture]
+state: normalized
+---
+
 # Proposals — Гипотезы интеграции
 
 _Обновлено: 2026-05-13_

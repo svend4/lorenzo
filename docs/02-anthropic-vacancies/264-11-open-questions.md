@@ -30,7 +30,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Many questions about Composite Skills Agents remain open.
+> Transition from Composite to Representative
+As principals develop sophisticated composite configurations, 
+when (if ever) does it make sense to graduate to a Representative 
+Agent (Type 4) with truly individual specialization?
 
 ---
 <!-- tags: rag, anthropic -->

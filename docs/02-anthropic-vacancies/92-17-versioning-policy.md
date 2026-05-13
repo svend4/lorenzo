@@ -29,7 +29,12 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - **Major** (v1 → v2): breaking changes в interfaces или schemas
+> Semver
+NPP следует semver:
+ Major (v1 → v2): breaking changes в interfaces или schemas
+ Minor (v1.0 → v1.1): новая функциональность, backward-compatible
+ Patch (v1.0.0 → v1.0.1): clarifications, typo fixes
+17.2.
 
 ---
 <!-- tags: architecture -->

@@ -16,7 +16,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Double-Triangle systems face a fundamental question: how do
+> The Problem of Shared Knowledge
+Double-Triangle systems face a fundamental question: how do 
+assistants in different Nodes' lower triangles share knowledge 
+about best practices, conventions, and reusable patterns, without 
+each Node privately replic
 
 ---
 

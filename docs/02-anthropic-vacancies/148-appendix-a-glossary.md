@@ -27,7 +27,19 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - **Double-Triangle Architecture**: The topology where each
+> Appendix A: Glossary
+ 
+Содержание
+ Appendix A: Glossary
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие пра
 
 ---
 <!-- tags: roadmap -->

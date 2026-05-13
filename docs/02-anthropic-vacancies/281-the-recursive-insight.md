@@ -31,7 +31,19 @@
 
 
 <!-- summary -->
-> There is something subtle in all this that warrants explicit
+> --
+ --
+Похожие документы
+ 285-closing (сходство 0.15)
+ 277-what-s-missing-layer-b (сходство 0.14)
+ 282-what-industry-will-likely-build (сходство 0.13)
+ --
+Использование
+ 
+Смотрите также
+ 285-closing
+ 282-what-industry-will-likely-build
+ 277-what-s-mi
 
 ---
 <!-- tags: architecture -->

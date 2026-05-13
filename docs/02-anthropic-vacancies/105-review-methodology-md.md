@@ -12,7 +12,17 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> **Статус:** Активно применяется в проекте svend4/nautilus
+> REVIEW_METHODOLOGY.md
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "REVIEW_METHODOLOGY md"
+```
+Смотрите также
+ 28-appendix-a-minimal-working-example
+ 03-portal-protocol-md
+ 42-author-contact
+ 188-ai-опосред
 
 ---
 <!-- tags: collaboration -->

@@ -18,7 +18,18 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - [Вакансии Anthropic — Анализ по кластерам](../README.md)
+> Appendix B: Domain Comparison Matrix
+ 
+Contents
+ Appendix B: Domain Comparison Matrix
+ Упоминается в
+ Упоминается в
+ Использование
+ Смотрите также
+ Связанные документы
+ Кто ссылается на этот документ (5)
+> [!WARNING]
+> Документ содержит описание риск
 
 ---
 <!-- tags: anthropic -->

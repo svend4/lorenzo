@@ -16,7 +16,12 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The relationship between the seven documents in this series:
+> --
+The Composite Skills Agent v1.0.0-draft
+Companion paper to Professional Colleague Agents, Representative 
+Agent Layer, Open Knowledge Work Foundation, Double-Triangle 
+Architecture, and Nautilus Portal Protocol
+Central metaphor: The yoga master wh
 
 ---
 

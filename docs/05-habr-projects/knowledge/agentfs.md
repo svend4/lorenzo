@@ -32,7 +32,18 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> maturity: working-prototype-v0.1.5
+> Статус
+ Параметр | Значение |
+ ----------|---------|
+ Теги | — |
+ Упоминаний в репо | 1384 |
+ Слой | knowledge/filesystem |
+ Контакт | @kksudo |
+ Статус связи | не писали |
+_Обновлено: 2026-05-10_
+AgentFS
+> [!WARNING]
+> Документ содержит описание рис
 **Проекты:** Svyazi[^svyazi], AgentFS, knowledge-space[^knowledge-space], mclaude, agent-memory-mcp, Wikontic
 
 ---

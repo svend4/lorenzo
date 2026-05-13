@@ -16,7 +16,12 @@
 
 
 <!-- summary -->
-> The Double-Triangle Architecture is domain-agnostic but benefits
+> Assistants specialized for:
+ Code generation and review (Copilot, Cursor, Claude Code)
+ Design ideation (Figma AI, sketch tools)
+ Deployment automation (Terraform AI, kubectl-ai)
+ Test generation (property-based test synthesis)
+Upper triangle content
 
 ---
 

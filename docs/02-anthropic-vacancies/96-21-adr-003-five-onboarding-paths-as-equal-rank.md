@@ -16,7 +16,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> **Status**: Accepted (new in v1.1)
+> ADR-003: Five Onboarding Paths as Equal-Rank
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (6)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: anthropic -->
