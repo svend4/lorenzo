@@ -1,42 +1,36 @@
+"""CircuitState enum and CircuitStats dataclass."""
 from dataclasses import dataclass, field
-from datetime import datetime
 from enum import Enum
 
+
 class CircuitState(str, Enum):
-    CLOSED = "closed"       # normal operation
-    OPEN = "open"           # failing, reject calls
-    HALF_OPEN = "half_open" # testing recovery
+    """States of a circuit breaker."""
+    CLOSED = "closed"       # normal: requests pass through
+    OPEN = "open"           # tripped: requests fail fast
+    HALF_OPEN = "half_open" # testing recovery with limited requests
+
 
 @dataclass
 class CircuitStats:
-    """Rolling stats for a circuit breaker."""
+    """Rolling counters for a circuit breaker."""
     total_calls: int = 0
-    success_count: int = 0
-    failure_count: int = 0
-    rejected_count: int = 0     # calls rejected while OPEN
-    last_failure_ts: str = ""
-    last_success_ts: str = ""
+    failures: int = 0
+    successes: int = 0
+    consecutive_failures: int = 0
+    consecutive_successes: int = 0
+    last_failure_time: float = 0.0
 
     def failure_rate(self) -> float:
-        """failure_count / (success_count + failure_count), 0.0 if no calls."""
-        denom = self.success_count + self.failure_count
-        if denom == 0:
+        """Return failures / total_calls, or 0.0 if total_calls == 0."""
+        if self.total_calls == 0:
             return 0.0
-        return self.failure_count / denom
-
-    def record_success(self) -> None:
-        self.total_calls += 1
-        self.success_count += 1
-        self.last_success_ts = datetime.now().isoformat(timespec='seconds')
-
-    def record_failure(self) -> None:
-        self.total_calls += 1
-        self.failure_count += 1
-        self.last_failure_ts = datetime.now().isoformat(timespec='seconds')
-
-    def record_rejected(self) -> None:
-        self.total_calls += 1
-        self.rejected_count += 1
+        return self.failures / self.total_calls
 
     def reset(self) -> None:
-        self.__init__()
+        """Zero all fields."""
+        self.total_calls = 0
+        self.failures = 0
+        self.successes = 0
+        self.consecutive_failures = 0
+        self.consecutive_successes = 0
+        self.last_failure_time = 0.0
