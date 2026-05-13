@@ -647,7 +647,7 @@ async def benchmark():
     hit_rate = None
     prec_file = DOCS / "PRECISION_EVAL.md"
     if prec_file.exists():
-        m = _re.search(r'Hit Rate@10\s*\|\s*\*\*([\d.]+)\*\*', prec_file.read_text(encoding="utf-8"))
+        m = _re.search(r'Hit Rate@\d+\s*\|\s*\*\*([\d.]+)\*\*', prec_file.read_text(encoding="utf-8"))
         if m:
             hit_rate = float(m.group(1))
 
