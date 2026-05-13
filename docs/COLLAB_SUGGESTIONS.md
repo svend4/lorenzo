@@ -1,22 +1,43 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «aqlm браузере через webassembly битную квантизацию»
-> **Дата:** 2026-05-13 15:29  **Кандидатов:** 1
+> Автоматический поиск партнёрских проектов для: «темпоральные графы знаний юридического graph point time retrieval»
+> **Дата:** 2026-05-13 15:43  **Кандидатов:** 2
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-46/projects/yandex-aqlm-rs-llm-browser-wasm-2bit.md`
+**Источник:** `docs/06-discovery/round-47/projects/ekaterina-ya-temporal-knowledge-graph-legal-rag.md`
 
-**Запрос:** aqlm браузере через webassembly битную квантизацию
+**Запрос:** темпоральные графы знаний юридического graph point time retrieval
 
 ---
 
-## 1. Wikontic: семантический граф
+## 1. research-docs + LiteParse
 
-**Релевантность:** `0.400`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.429`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+
+**Документ:** [`docs/svyazi-2-0/components/research-docs-liteparse.md`](svyazi-2-0/components/research-docs-liteparse.md)
+
+**Теги:** rag, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, mclaude, LiteParse, Yodoca
+
+> Forensic document QA с HTML‑отчётом и bounding boxes на страницах PDF.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/graph-rag.md](svyazi-2-0/components/graph-rag.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+
+**Автор:** контакт не найден в docs/contacts/
+
+---
+
+## 2. Wikontic: семантический граф
+
+**Релевантность:** `0.353`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
 **Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
@@ -39,7 +60,7 @@
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «aqlm браузере через webassembly битную квантизацию»
+**Тема:** Коллаборация по теме «темпоральные графы знаний юридического graph point time retr»
 
 Привет, VitalyOborin!
 
@@ -79,7 +100,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "aqlm браузере через webassembly битную квантизацию"
+   python scripts/improve_collab_finder.py --query "темпоральные графы знаний юридического graph point"
    ```
 
-_Сгенерировано: 2026-05-13 15:29  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-13 15:43  |  Алгоритм: TF-IDF + BM25 + граф_

@@ -60,9 +60,10 @@
 | Round 44 | ✅ Завершён | 4 | AI EMR ассистент, LoRA эмбеддинги, Yandex LLM eval, LangGraph агенты | `round-44/` |
 | Round 45 | ✅ Завершён | 4 | MWS Vision Bench, MOEX DistilBERT, Avito Mistral RU, LLM Observability | `round-45/` |
 | Round 46 | ✅ Завершён | 4 | Coordination Harness, Telecom Classifier, Code MCP, AQLM.rs браузер | `round-46/` |
-| Round 47 | 🔜 Следующий | — | LLM образование v3, безопасность LLM v3, LLM DevOps v2, граф знаний v2 | — |
+| Round 47 | ✅ Завершён | 4 | LLM Judge образование, SENTINEL безопасность, MTS code review, Temporal KG | `round-47/` |
+| Round 48 | 🔜 Следующий | — | LLM медицина v3, Multimodal RAG v2, LLM промышленность v2, Agent evaluation v2 | — |
 
-**Итого: 188 проектов, 90+ авторов**
+**Итого: 192 проекта, 90+ авторов**
 
 ## Шаблон раунда
 
