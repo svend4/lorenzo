@@ -75,12 +75,10 @@ class EmbeddingStore:
 
         metric = self._config.metric
         if metric == "cosine":
-            # When normalize_on_add=True every stored vector is already unit
-            # length, so cosine = dot.  We normalise the query here too so
-            # the result is always a proper cosine similarity.
-            norm_query = query.normalize()
+            # Use true cosine similarity so that the score is correct whether
+            # or not vectors were normalised on add.
             scores = [
-                (doc_id, norm_query.dot(v))
+                (doc_id, query.cosine_similarity(v))
                 for doc_id, v in self._vectors.items()
             ]
         elif metric == "dot":
