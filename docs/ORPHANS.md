@@ -47,3 +47,18 @@ _Эти документы не связаны с остальными — их 
 # Запуск
 python scripts/improve_orphans.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

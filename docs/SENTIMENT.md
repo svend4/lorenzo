@@ -102,3 +102,19 @@
 # Запуск
 python scripts/improve_sentiment.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [201-11-призыв-к-сотрудничеству](02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
+- [297-что-промышленность-вероятно-построит](02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)
+- [298-что-этот-документ-не-решает](02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 5_
+

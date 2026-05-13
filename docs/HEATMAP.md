@@ -90,3 +90,19 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 - [COVERAGE](COVERAGE.md)
 - [SCHEDULE](SCHEDULE.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [03-local-first](03-technology-combinations/03-local-first.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DENSITY](DENSITY.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 3_
+

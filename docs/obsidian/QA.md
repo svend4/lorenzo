@@ -93,3 +93,14 @@ _Автоматически сгенерировано по 1129 файлам р
 ## Как работает spec-driven подход в AI Factory?
 
 Упоминаются: **spec**, **patch**, **skill**, **self-learning**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

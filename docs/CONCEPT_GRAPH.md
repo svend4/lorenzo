@@ -164,3 +164,19 @@ graph TD
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [LLM_GAPS](LLM_GAPS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 7_
+

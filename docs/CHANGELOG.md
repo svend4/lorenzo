@@ -162,3 +162,19 @@ python scripts/improve_changelog.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [DIGEST](DIGEST.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

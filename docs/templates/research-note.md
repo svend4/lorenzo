@@ -45,3 +45,18 @@ _Создано: 2026-05-13_
 # Запуск
 python scripts/improve_research_note.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [README](README.md)
+- [experiment-log](experiment-log.md)
+- [template-of-templates](template-of-templates.md)
+

@@ -160,3 +160,19 @@
 # Запуск
 python scripts/improve_entities.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (64):**
+- [QA](01-svyazi/QA.md)
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [QA](02-anthropic-vacancies/QA.md)
+- [QA](03-technology-combinations/QA.md)
+- [QA](04-ai-collaborations/QA.md)
+- [QA](05-habr-projects/QA.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [ALERTS](ALERTS.md)
+- _...ещё 56_
+

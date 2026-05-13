@@ -222,3 +222,18 @@ python scripts/improve_kpi.py
 # Вариант 2
 python scripts/improve_kpi.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [REPORT](REPORT.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

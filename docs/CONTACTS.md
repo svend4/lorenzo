@@ -108,3 +108,19 @@
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (31):**
+- [13-contacts](01-svyazi/13-contacts.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [GITHUB_ISSUES](GITHUB_ISSUES.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [INDEX](INDEX.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- _...ещё 23_
+

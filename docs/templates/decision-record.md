@@ -55,3 +55,19 @@ python scripts/improve_decision_record.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- [contradiction-record](contradiction-record.md)
+- [experiment-log](experiment-log.md)
+- [legal-case](legal-case.md)
+- _...ещё 5_
+

@@ -74,3 +74,19 @@ cat docs/contacts/anastasiyaw.md
 - [MVP Planning](01-svyazi/07-mvp-planning.md)
 
 <!-- auto-end -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [DECISIONS](DECISIONS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 3_
+

@@ -155,3 +155,19 @@ python scripts/improve_broken_links.py --fix
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [HEALTH](HEALTH.md)
+- [METRICS](METRICS.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [REPORT](REPORT.md)
+- _...ещё 2_
+

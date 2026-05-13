@@ -64,3 +64,19 @@
 - Всего ссылок: **73611**
 - Выделений жирным: **39075**
 - TODO/FIXME меток: **110**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [CONSISTENCY](CONSISTENCY.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [INDEX](INDEX.md)
+- [LINKS](LINKS.md)
+- [ORPHANS](ORPHANS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 6_
+

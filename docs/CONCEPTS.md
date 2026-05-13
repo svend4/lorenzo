@@ -4958,3 +4958,19 @@ python scripts/improve_concepts.py --dry-run
 # Вариант 8
 python scripts/improve_concepts.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (93):**
+- [02-methodology](01-svyazi/02-methodology.md)
+- [12-roadmap](01-svyazi/12-roadmap.md)
+- [14-limitations](01-svyazi/14-limitations.md)
+- [00-intro](02-anthropic-vacancies/00-intro.md)
+- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
+- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- _...ещё 85_
+

@@ -52,3 +52,19 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 ```
 
 _Чем выше балл — тем важнее написать первым._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [AUTHORS](AUTHORS.md)
+- [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md)
+- [ENTITIES](ENTITIES.md)
+- [MINDMAP](MINDMAP.md)
+- [MISSING](MISSING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 7_
+

@@ -230,3 +230,15 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
 - [STATS](STATS.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

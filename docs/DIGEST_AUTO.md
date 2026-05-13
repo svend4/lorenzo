@@ -107,3 +107,19 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 # Запуск
 python scripts/improve_digest_auto.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [DIGEST](DIGEST.md)
+- [LLM_GAPS](LLM_GAPS.md)
+- [OUTLINE](OUTLINE.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 12_
+

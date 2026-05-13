@@ -88,3 +88,19 @@ python scripts/improve_metrics.py && python scripts/improve_health.py
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
 - [TAGS](TAGS.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (63):**
+- [QA](01-svyazi/QA.md)
+- [QA](02-anthropic-vacancies/QA.md)
+- [QA](03-technology-combinations/QA.md)
+- [QA](04-ai-collaborations/QA.md)
+- [QA](05-habr-projects/QA.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [ALERTS](ALERTS.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- _...ещё 55_
+

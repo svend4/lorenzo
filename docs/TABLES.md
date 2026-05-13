@@ -34030,3 +34030,19 @@ _Файл: `docs/templates/weekly-digest.md` | 4 колонок, 4 строк_
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [SEARCH](SEARCH.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (428):**
+- [00-intro-part2](01-svyazi/00-intro-part2.md)
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [06-security-privacy](01-svyazi/06-security-privacy.md)
+- [00-intro](02-anthropic-vacancies/00-intro.md)
+- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
+- _...ещё 420_
+

@@ -522,3 +522,19 @@ python scripts/improve_version_diff.py --dry-run
 - [Оценка](SCORING.md)
 - [Теги](TAGS.md)
 - [Задачи](ACTION_ITEMS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [yodoca](05-habr-projects/memory/yodoca.md)
+- [AUTOFILLED](AUTOFILLED.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 4_
+

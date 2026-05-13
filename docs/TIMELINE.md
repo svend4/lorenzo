@@ -465,3 +465,19 @@ python scripts/improve_timeline.py --dry-run
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (19):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [24-12-versioning-policy](02-anthropic-vacancies/24-12-versioning-policy.md)
+- [34-appendix-b-change-log](02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [64-for-the-curious-philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [KPI](KPI.md)
+- _...ещё 11_
+

@@ -901,3 +901,19 @@ python scripts/improve_priorities.py
 # Вариант 2
 python scripts/improve_priorities.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [README](01-svyazi/README.md)
+- [03-local-first](03-technology-combinations/03-local-first.md)
+- [05-benchmarks](03-technology-combinations/05-benchmarks.md)
+- [README](04-ai-collaborations/README.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- _...ещё 8_
+

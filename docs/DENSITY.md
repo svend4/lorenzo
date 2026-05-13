@@ -103,3 +103,19 @@ _Все темы достаточно раскрыты_
 # Запуск
 python scripts/improve_density.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [GLOSSARY](GLOSSARY.md)
+- [HEATMAP](HEATMAP.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
+

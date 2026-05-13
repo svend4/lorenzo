@@ -369,3 +369,19 @@ _...и ещё 955 пар._
 - [vitalysemenov](letters/vitalysemenov.md)
 - [PRECISION_EVAL](PRECISION_EVAL.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (19):**
+- [02-methodology](01-svyazi/02-methodology.md)
+- [197-7-управление-и-надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md)
+- [02-методика-и-рамка-отбора](04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [CONCEPTS](CONCEPTS.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [PRECISION_EVAL](PRECISION_EVAL.md)
+- _...ещё 11_
+

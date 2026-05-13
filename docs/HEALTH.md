@@ -75,3 +75,19 @@ _Обновлено: 2026-05-13_
 - [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок
 - [VALIDATION](VALIDATION.md) — валидация структуры
 - [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (65):**
+- [QA](01-svyazi/QA.md)
+- [QA](02-anthropic-vacancies/QA.md)
+- [QA](03-technology-combinations/QA.md)
+- [QA](04-ai-collaborations/QA.md)
+- [QA](05-habr-projects/QA.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [ALERTS](ALERTS.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- _...ещё 57_
+

@@ -6,6 +6,7 @@
 
 | Версия | Поддерживается |
 |---------|----------------|
+| 0.2.x (готовится) | ✅            |
 | 0.1.x   | ✅            |
 | < 0.1   | ❌            |
 
@@ -77,6 +78,62 @@ Out of scope:
 - **Не загружайте чужие cache файлы** — pickle.load может выполнить произвольный
   код. Если кэш повреждён, удалите его: `docstoolkit index clear`.
 
+### Auth / RBAC (Sprint 39)
+
+- `docstoolkit/auth/` обеспечивает scope-based access control.
+- **Wildcard scopes** (`rag:*`, `admin:*`) предоставляют broad permissions —
+  выдавайте только trusted users.
+- Tokens хранятся в SQLite plain-text (для local-first дизайна).
+  Не делитесь `.docstoolkit/auth.sqlite`.
+- Для production: encrypt at rest или используйте OS keyring как backend.
+
+### Budget guards (Sprint 45)
+
+- Per-scope лимиты (`day` / `week` / `month` / `total`) защищают от runaway costs.
+- **`enforce()` raises BudgetExceeded** — обязательно catchить, иначе LLM-вызовы
+  будут падать.
+- Не используйте wildcard `*` для critical scope — kill-switch для всех.
+
+### Agent tools (Sprint 30+, planner Sprint 50)
+
+- `Tool.fn` вызывается с user-controllable arguments — **не передавайте небезопасные
+  fns** (например, `os.system`, `eval`).
+- Built-in tools (`builtin_tools.py`) safe; custom tools — на ответственности автора.
+- Output capped at 5000 chars per tool call для DoS protection.
+- `plan_and_execute` создаёт subtasks из user input — потенциально prompt injection
+  через task description. Не доверяйте multi-agent output без review.
+
+### Federation / NPP (Sprint 36)
+
+- `federation/` подключается к peer-нодам через HTTP.
+- **Нет встроенной authentication** — peer обязан быть в trusted network
+  или за reverse-proxy с auth.
+- Query payloads логируются в audit — не передавайте секреты в queries.
+- Peer responses не санитайзятся — malicious peer может вернуть HTML/JS которые
+  ваш UI отрендерит.
+
+### Webhooks (Sprint 52)
+
+- `WebhookDispatcher` отправляет POST на user-configured URLs.
+- **HMAC-SHA256 signing включён по умолчанию** через `secret` параметр —
+  всегда заполняйте.
+- **Default http_send (urllib)** не валидирует SSL hostname — для production
+  передайте custom http_send с requests/httpx.
+- Dead-letter queue хранит payloads — могут содержать sensitive data.
+
+### Conversation memory (Sprint 49)
+
+- SQLite `.docstoolkit/conversations.sqlite` хранит полные user/assistant messages.
+- **Не зашифровано** — для multi-tenant используйте per-user database files.
+- `squash_old` сжимает но не удаляет — explicit `delete_session(sid)` для GDPR.
+
+### Prompt library (Sprint 51)
+
+- A/B variants разные пользователи могут получать разные prompts —
+  используйте deterministic seed для воспроизводимости в audit.
+- `render(strict=False)` оставляет `{placeholder}` в output —
+  потенциальный template injection. **Default strict=True в этой версии**.
+
 ## Best practices
 
 1. Запускать в виртуальном окружении (venv / conda)
@@ -84,3 +141,8 @@ Out of scope:
 3. Использовать `pip-audit` для проверки зависимостей
 4. Закрепить версии: `docs-toolkit==0.X.Y`, не `>=0.X.Y`
 5. Для MCP серверов в Claude Desktop — отключать `lorenzo-runner` если не нужен
+6. **Auth / Budget**: настройте лимиты до production rollout
+7. **Webhooks**: всегда указывайте `secret` в Subscription
+8. **Federation**: peer trust model — explicitly документируйте кто peer
+9. **Conversation**: per-user encrypted DB для compliance
+10. **Agent tools**: review каждый custom tool на injection / RCE

@@ -2604,3 +2604,19 @@ python scripts/improve_readability.py --dry-run
 # Вариант 19
 python scripts/improve_readability.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (654):**
+- [00-intro-part2](01-svyazi/00-intro-part2.md)
+- [02-methodology](01-svyazi/02-methodology.md)
+- [06-security-privacy](01-svyazi/06-security-privacy.md)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
+- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [192-2-исторические-прецеденты-агенты-как-цивилизационн](02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
+- _...ещё 646_
+

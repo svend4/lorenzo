@@ -730,3 +730,19 @@ python scripts/improve_qa.py --dry-run
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [09-architectural-gaps](01-svyazi/09-architectural-gaps.md)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [OUTLINE](OUTLINE.md)
+- [QUESTIONS](QUESTIONS.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 5_
+

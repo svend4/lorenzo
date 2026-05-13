@@ -232,3 +232,19 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 # Запуск
 python scripts/improve_faq.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)
+- [memnet](05-habr-projects/memory/memnet.md)
+- [CLUSTERS](CLUSTERS.md)
+- [CONCEPTS](CONCEPTS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 9_
+

@@ -334,3 +334,16 @@ _Обновлено: 2026-05-13_
 # Запуск
 python scripts/improve_content_gaps.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [COMPLEXITY](COMPLEXITY.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

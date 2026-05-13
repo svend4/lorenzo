@@ -135,3 +135,19 @@ python scripts/improve_run_all.py --group analysis
 
 _Индекс сгенерирован автоматически · 2484 документов · 166 скриптов_
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [README](01-svyazi/README.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CLUSTERS](CLUSTERS.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 6_
+

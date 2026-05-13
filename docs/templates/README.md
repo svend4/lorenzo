@@ -35,3 +35,19 @@ cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.
 
 
 Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Шаблоны документов». Формируется автоматически.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (24):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [agent-spec](agent-spec.md)
+- [contradiction-record](contradiction-record.md)
+- _...ещё 16_
+

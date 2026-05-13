@@ -15246,3 +15246,19 @@ python scripts/improve_outline.py --dry-run
 # Вариант 21
 python scripts/improve_outline.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (645):**
+- [00-intro-part2](01-svyazi/00-intro-part2.md)
+- [02-methodology](01-svyazi/02-methodology.md)
+- [06-security-privacy](01-svyazi/06-security-privacy.md)
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [12-roadmap](01-svyazi/12-roadmap.md)
+- [14-limitations](01-svyazi/14-limitations.md)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
+- _...ещё 637_
+

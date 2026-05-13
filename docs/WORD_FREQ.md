@@ -564,3 +564,19 @@ python scripts/improve_word_freq.py
 # Вариант 2
 python scripts/improve_word_freq.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [01-agent-routing](03-technology-combinations/01-agent-routing.md)
+- [03-local-first](03-technology-combinations/03-local-first.md)
+- [05-benchmarks](03-technology-combinations/05-benchmarks.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 5_
+

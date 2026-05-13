@@ -15,5 +15,10 @@
     <text x="21" y="14">words</text>
     <text x="65" y="15" fill="#010101" fill-opacity=".3">2902K</text>
     <text x="65" y="14">2902K</text>
+=======
+    <text x="65" y="15" fill="#010101" fill-opacity=".3">1203K</text>
+    <text x="65" y="14">1203K</text>
+>>>>>>> origin/main
+>>>>>>> addd158217510d88e184eccd2be7b2f41b198cd4
   </g>
 </svg>

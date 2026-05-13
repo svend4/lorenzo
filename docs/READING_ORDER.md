@@ -460,3 +460,19 @@ python scripts/improve_reading_order.py --dry-run
 # Вариант 4
 python scripts/improve_reading_order.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [README](02-anthropic-vacancies/README.md)
+- [CLUSTERS](CLUSTERS.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [REPORT](REPORT.md)
+- _...ещё 4_
+

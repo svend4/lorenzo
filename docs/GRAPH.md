@@ -655,3 +655,19 @@ digraph lorenzo {
 - [GLOSSARY](GLOSSARY.md)
 - [ENTITIES](ENTITIES.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [FOOTNOTES](FOOTNOTES.md)
+- [GLOSSARY](GLOSSARY.md)
+- [MINDMAP](MINDMAP.md)
+- [NETWORK](NETWORK.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
+

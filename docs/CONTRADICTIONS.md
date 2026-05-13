@@ -396,3 +396,19 @@ python scripts/improve_contradictions.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [08-что-это-продолжение-добавляет](04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+- _...ещё 2_
+

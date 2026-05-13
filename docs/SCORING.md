@@ -86,3 +86,19 @@ python scripts/improve_scoring.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [DENSITY](DENSITY.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [GITHUB_ISSUES](GITHUB_ISSUES.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [METRICS](METRICS.md)
+- _...ещё 12_
+

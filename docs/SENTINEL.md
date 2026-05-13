@@ -105,3 +105,17 @@ python scripts/improve_sentinel_check.py --section 05-habr-projects
 - [102-доступ-к-данным](02-anthropic-vacancies/102-доступ-к-данным.md)
 - [DUPLICATES](DUPLICATES.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [DEMO](DEMO.md)
+- [LINKS](LINKS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

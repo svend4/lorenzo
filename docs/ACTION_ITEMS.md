@@ -1726,3 +1726,19 @@ python scripts/improve_action_items.py --dry-run
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (32):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)
+- [165-closing](02-anthropic-vacancies/165-closing.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [272-appendix-d-connection-diagram](02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- _...ещё 24_
+

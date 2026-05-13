@@ -572,3 +572,18 @@ python scripts/improve_github_issues.py
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
 - [Оценка](SCORING.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [10-checklist](nautilus/review-methodology/10-checklist.md)
+

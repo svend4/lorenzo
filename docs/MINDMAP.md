@@ -120,3 +120,19 @@ flowchart LR
 - [GRAPH](GRAPH.md)
 - [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [04-sozialrecht-domain](03-technology-combinations/04-sozialrecht-domain.md)
+- [GLOSSARY](GLOSSARY.md)
+- [GRAPH](GRAPH.md)
+- [NETWORK](NETWORK.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
+

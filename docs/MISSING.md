@@ -70,3 +70,19 @@
 # Запуск
 python scripts/improve_missing.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [README](04-ai-collaborations/README.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [CONSISTENCY](CONSISTENCY.md)
+- [DENSITY](DENSITY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 5_
+

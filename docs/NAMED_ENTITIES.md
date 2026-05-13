@@ -437,3 +437,19 @@ python scripts/improve_named_entities.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [COMPLEXITY](COMPLEXITY.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 3_
+
