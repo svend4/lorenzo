@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # References
 
 > [!NOTE]
@@ -19,7 +23,7 @@
 
 
 <!-- summary -->
-> Содержание
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Foundational Sources for Composite Architecture
  References
  Foundational Sources for Composite Architecture
  Pattern of Composite Mastery

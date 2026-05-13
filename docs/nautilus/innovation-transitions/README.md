@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # innovation-transitions
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> Файлов: 2
+> 00-question-innovations-transitions.md — > [!WARNING] Кто ссылается на этот документ (6):
 Содержание
  00-question-innovations-transitions.md — > [!WARNING]
  01-response.md —  

@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: meeting-notes
 version: "1.0"
 title: "[Тема встречи]"
@@ -12,7 +13,7 @@ tags: [встреча]
 # Встреча: [Тема]
 
 <!-- summary -->
-> --
+> Кто ссылается на этот документ (7): meeting-notes (сходство 0.93) retrospective (сходство 0.53)
 Кто ссылается на этот документ (7):
  READABILITY
  READING_TIME

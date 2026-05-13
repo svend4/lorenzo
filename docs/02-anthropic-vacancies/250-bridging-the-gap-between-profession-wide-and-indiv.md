@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Bridging the Gap Between Profession-Wide and Individual-Unique 
 
 <!-- toc-auto -->
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Bridging the Gap Between Profession-Wide and Individual-Unique 
+> Bridging the Gap Between Profession-Wide and Individual-Unique Bridging the Gap Between Profession-Wide and Individual-Unique
  
 Contents
  Bridging the Gap Between Profession-Wide and Individual-Unique

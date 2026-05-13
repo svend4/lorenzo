@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 12. Call for Collaboration
 
 > [!NOTE]
@@ -20,7 +24,7 @@
 
 
 <!-- summary -->
-> Particular needs:
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Sub-agent registry standards and protocols
  Sub-agent registry standards and protocols
  Configuration management interfaces
  Disagreement detection and presentation systems

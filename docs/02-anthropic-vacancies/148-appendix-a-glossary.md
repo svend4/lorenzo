@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: Glossary
 
 <!-- toc -->
@@ -27,7 +31,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Appendix A: Glossary
+> * Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие практики. * - Three-phase review: Methodology for parallel AI-agent review with subsequent consolidation
  
 Содержание
  Appendix A: Glossary

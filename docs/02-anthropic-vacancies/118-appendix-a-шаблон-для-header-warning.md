@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: Шаблон для header warning
 
 <!-- toc-auto -->
@@ -22,7 +26,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> --
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
  --
 Смотрите также
  12-appendix-a-header-warning

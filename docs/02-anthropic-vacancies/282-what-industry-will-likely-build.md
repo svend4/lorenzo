@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # What Industry Will Likely Build
 
 <!-- toc-auto -->
@@ -50,7 +54,7 @@
 
 
 <!-- summary -->
-> Appendices _17%_
+> * What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Lik
  --
 Кто ссылается на этот документ (10)
  153-executive-summary

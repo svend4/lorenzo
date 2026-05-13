@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "nlaik"
@@ -30,7 +31,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: nlaik / LiteParse / research-docs
+> Документ содержит практические рекомендации и лучшие практики. Контакт: nlaik / LiteParse / research-docs
  
 Contents
  Профиль

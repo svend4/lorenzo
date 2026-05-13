@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Table of Contents
 
 <!-- toc -->
@@ -44,7 +48,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Call for Collaboration
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Call for Collaboration
  --
  --
 Похожие документы

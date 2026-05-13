@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # analogues
 
 > [!NOTE]
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Файлов: 2
+> Раздел README формируется автоматически из данных репозитория. 01-three-direct-analogues.md —
 Содержание
  01-three-direct-analogues.md —  
  02-related-projects.md —  

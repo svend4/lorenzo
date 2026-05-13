@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [rag, orchestration, knowledge, ingestion, local-first]
-state: raw
+state: approved
 ---
 
 # Appendix C: Sample InGit MCP Server Tool Specifications
@@ -22,7 +22,7 @@ state: raw
 
 
 <!-- summary -->
-> Numbering 2.4 (не 9) показывает:
+> * Contact via github.com/svend4/nautilus/issues(URL or github.com/svend4/ingit/issues(URL --- Заметки к девятому докумен. * This is starting point, not final design
  Conceptually связан с 2.3 (infrastructure layer)
  Sequentially написан после applied work (3-7)
  Pairs naturally с 2.3 как theory-practice

@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "VladSpace"
@@ -31,7 +32,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: VladSpace / Graph RAG
+> Документ содержит практические рекомендации и лучшие практики. Контакт: VladSpace / Graph RAG
  
 Contents
  Профиль

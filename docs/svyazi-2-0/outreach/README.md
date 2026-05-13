@@ -8,7 +8,7 @@
 
 
 <!-- summary -->
-> Файлов: 3
+> Раздел README формируется автоматически из данных репозитория. message-template.md —
 Содержание
  first-contacts.md —  
  message-template.md —  

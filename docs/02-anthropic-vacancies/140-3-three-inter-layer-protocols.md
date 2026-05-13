@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [rag, orchestration, ingestion, architecture, anthropic]
-state: raw
+state: approved
 ---
 
 # 3. Three Inter-Layer Protocols
@@ -22,7 +22,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Structured tasks with:
+> * Instead, it issues a structured query that travels: A → N → M → N' → A' → response back through the chain. * Three Inter-Layer Protocols !IMPORTANT Ключевой документ для понимания архитектуры
  Description
  Deliverable specification (what constitutes "done")
  Dependencies on other Nodes' deliverables

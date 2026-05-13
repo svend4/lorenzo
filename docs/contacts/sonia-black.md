@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "Sonia_Black"
@@ -30,7 +31,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: Sonia_Black / knowledge-space
+> Документ содержит практические рекомендации и лучшие практики. Контакт: Sonia_Black / knowledge-space
  
 Contents
  Профиль

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. PortalEntry Structure
 
 <!-- toc-auto -->
@@ -31,7 +35,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Field Semantics
+> * PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры. * PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры
  
  
 > Абстракт (авто)

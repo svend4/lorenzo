@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Why This Hasn't Been Built
 
 > [!NOTE]
@@ -31,7 +35,7 @@
 
 
 <!-- summary -->
-> --
+> * Infrastructure built in the last three years is mostly focused on the chat layer, where the immediate need was visible. * Wikis showed cross-references can work but did not integrate AI collaboration
  --
 Похожие документы
  285-closing (сходство 0.15)

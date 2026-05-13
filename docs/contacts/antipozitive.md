@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "Antipozitive"
@@ -30,7 +31,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: Antipozitive / MemNet
+> Документ содержит практические рекомендации и лучшие практики. Контакт: Antipozitive / MemNet
  
 Contents
  Профиль

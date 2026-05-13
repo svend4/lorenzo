@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 6. Почему это валидный паттерн для AI-assisted workflows
 
 <!-- toc-auto -->
@@ -15,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Аналогичные переосмысления происходят в других областях:
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Аналогичные переосмысления происходят в других областях:
  Code generation: меньше DRY-полicy, больше regenerate-on-demand
  Testing: меньше handcraft, больше auto-generated property tests
  Documentation: меньше "write once", больше "iterate with AI"

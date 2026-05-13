@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. Governance and Oversight
 
 > [!NOTE]
@@ -19,7 +23,7 @@
 
 
 <!-- summary -->
-> Dispute Resolution
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. When agent operations cause harm or disputes:
 When agent operations cause harm or disputes:
 First level: Principal-platform direct resolution 
 (refund, correction, restoration)

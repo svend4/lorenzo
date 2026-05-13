@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, security, architecture]
-state: raw
+state: normalized
 ---
 
 # Что пока не стоит склеивать в один релиз
@@ -19,7 +19,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Habr+1
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 02-agentops-trace-envelope
  --
 Использование
  

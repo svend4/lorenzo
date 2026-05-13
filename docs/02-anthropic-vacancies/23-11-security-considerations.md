@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 11. Security Considerations
 
 <!-- toc-auto -->
@@ -36,7 +40,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> MCP Exposure
+> * Security Considerations - 11.1. * MCP Exposure !IMPORTANT Ключевой документ для понимания архитектуры
  Похожие документы
  Использование
  Смотрите также

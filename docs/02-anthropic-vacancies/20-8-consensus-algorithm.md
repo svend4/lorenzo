@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 8. Consensus Algorithm
 
 <!-- toc-auto -->
@@ -29,7 +33,7 @@
 
 
 <!-- summary -->
-> Future Extensions (v2.0+)
+> * Consensus Algorithm - 8.1. * Future Extensions (v2.0+) Когда один query возвращает результаты из нескольких Repos, Portal --- 8
 Будущие версии MAY использовать:
  Semantic similarity через embeddings (cross-lingual matching)
  Fuzzy matching с threshold

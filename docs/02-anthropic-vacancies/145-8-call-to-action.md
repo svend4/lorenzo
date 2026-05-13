@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 8. Call to Action
 
 <!-- abstract-auto -->
@@ -15,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Call to Action
+> * Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthrop. * Early experimentation informs future workplace design
  
 > Абстракт (авто)
 >

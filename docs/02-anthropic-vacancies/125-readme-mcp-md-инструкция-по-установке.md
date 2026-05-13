@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # README-MCP.md— инструкция по установке
 
 <!-- toc-auto -->
@@ -12,7 +16,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Status of This Document _25%_
+> Документ содержит практические рекомендации и лучшие практики. Status of This Document _25%_
  ⬡ _25%_
  --
 Кто ссылается на этот документ (20)

@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [orchestration, knowledge, architecture, roadmap, self-improve]
-state: raw
+state: normalized
 ---
 
 # Метаскриптинг — Часть 5: Синтез новых скриптов
@@ -12,7 +12,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Проекты: AgentFS
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
  --
  
 Содержание

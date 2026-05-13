@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 4. Passport (`passport.md`)
 
 <!-- toc-auto -->
@@ -16,7 +20,7 @@
 
 
 <!-- summary -->
-> Recommended Structure
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Recommended Structure
 Passport SHOULD содержать следующие разделы:
  bash
 Поиск по теме документа

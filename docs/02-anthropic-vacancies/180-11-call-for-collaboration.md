@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 11. Call for Collaboration
 
 <!-- toc-auto -->
@@ -53,7 +57,7 @@
 
 
 <!-- summary -->
-> --
+> * Pilot partnerships allow the technology to develop in service of actual need rather than imagined need. * Your needs should drive design decisions
  --
 Похожие документы
  265-12-call-for-collaboration (сходство 0.16)

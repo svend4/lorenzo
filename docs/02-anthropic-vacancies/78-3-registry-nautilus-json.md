@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 3. Registry (`nautilus.json`)
 
 <!-- toc -->
@@ -66,7 +70,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> MUST содержать минимум один элемент
+> * Registry (nautilus.json) - 3.1. * AutoAdapter Special Case !IMPORTANT Ключевой документ для понимания архитектуры
 Каждый элемент   MUST содержать:
  — уникальное в пределах экосистемы
  — идентификатор native-формата (используется для 

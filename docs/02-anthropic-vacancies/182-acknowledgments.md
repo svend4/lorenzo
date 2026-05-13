@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Acknowledgments
 
 <!-- toc-auto -->
@@ -20,7 +24,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Acknowledgments
+> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10)
  
 Contents
  Acknowledgments

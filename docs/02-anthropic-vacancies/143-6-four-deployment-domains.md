@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Four Deployment Domains
 
 > [!TIP]
@@ -16,7 +20,7 @@
 
 
 <!-- summary -->
-> Assistants specialized for:
+> * Meta-agent coordinating multiple advocates on related cases, sharing anonymized patterns, escalating cross-jurisdictio. * Agile methodologies, CI/CD patterns, deployment playbooks, incident postmortems , architecture decision records
  Code generation and review (Copilot, Cursor, Claude Code)
  Design ideation (Figma AI, sketch tools)
  Deployment automation (Terraform AI, kubectl-ai)

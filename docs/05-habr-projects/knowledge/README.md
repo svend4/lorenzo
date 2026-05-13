@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, knowledge, architecture]
-state: raw
+state: normalized
 ---
 
 # Системы знаний
@@ -9,7 +9,7 @@ state: raw
 <!-- toc-auto -->
 
 <!-- summary -->
-> --
+> wikontic (сходство 0.19) README (сходство 0.17) README (сходство 0.10) Кто ссылается на этот документ (3)
 Похожие документы
  wikontic (сходство 0.19)
  README (сходство 0.17)

@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "Cutcode"
@@ -31,7 +32,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: Cutcode / AIF Handoff
+> Документ содержит практические рекомендации и лучшие практики. Контакт: Cutcode / AIF Handoff
  
 Contents
  Профиль

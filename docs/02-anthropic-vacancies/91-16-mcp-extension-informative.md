@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 16. MCP Extension (Informative)
 
 <!-- toc-auto -->
@@ -20,7 +24,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> MCP wrapper (  в reference implementation) SHOULD 
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 экспонировать минимум 5 tools:
  — search across ecosystem
  — list all repos with metadata

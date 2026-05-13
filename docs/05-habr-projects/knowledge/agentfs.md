@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: project-component
 version: "1.0"
 author: "kksudo"
@@ -32,7 +33,7 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> Статус
+> Параметр | Значение | Упоминаний в репо | 1384 | Слой | knowledge/filesystem | Статус связи | не писали |
  Параметр | Значение |
  ----------|---------|
  Теги | — |

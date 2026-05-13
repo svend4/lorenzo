@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix B: Decision Framework — When to Build Type 1 First
 
 > [!NOTE]
@@ -32,7 +36,7 @@
 
 
 <!-- summary -->
-> Relationship to Other Agent Types
+> * another type: Choose Type 1 (Professional Colleague Agent) when: - Profession has well-defined standardized practices
  Appendix A: Comparative Table — Five Agent Types
  Appendix A: The Six-Type Taxonomy (Updated)
  Вакансии Anthropic — Анализ по кластерам

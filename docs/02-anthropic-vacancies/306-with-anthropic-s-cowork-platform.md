@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [rag, orchestration, local-first, architecture, anthropic]
-state: raw
+state: approved
 ---
 
 # with Anthropic's Cowork Platform
@@ -37,7 +37,7 @@ state: raw
 
 
 <!-- summary -->
-> Содержание
+> * with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork P. * with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork P
  with Anthropic's Cowork Platform
  Упоминается в
  Упоминается в

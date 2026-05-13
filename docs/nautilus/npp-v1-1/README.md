@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # npp-v1-1
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> npp-v1-1
+> — раздел документации проекта Lorenzo. 00-abstract-status.md — 01-introduction.md —
  
  
 >   — раздел документации проекта Lorenzo.

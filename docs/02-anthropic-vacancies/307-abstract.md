@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, local-first, architecture]
-state: raw
+state: approved
 ---
 
 # Abstract
@@ -38,7 +38,7 @@ state: raw
 
 
 <!-- summary -->
-> > 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+> * InGit should position as the structure layer that Cowork needs — substrate for sustained, organized, recoverable, shar. * The document was theoretical, naming the problem without specifying solutions
 >
  
 > Document 2.3 identified Layer B — the missing infrastructure

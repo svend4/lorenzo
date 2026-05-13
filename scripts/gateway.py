@@ -13,7 +13,7 @@ Lorenzo Gateway — OpenAI-compatible HTTP gateway for Svyazi 2.0.
   - без Redis, без Docker — одна команда: python scripts/gateway.py
 
 Эндпоинты:
-    POST /v1/chat/completions  — OpenAI API (с function calling)
+    POST /v1/chat/completions  — OpenAI API (с function calling + SSE streaming)
     POST /api/ask              — прямой RAG-запрос
     POST /api/cards            — добавить карточку (обогащение)
     GET  /api/status           — статистика корпуса
@@ -51,6 +51,7 @@ from typing import Any
 try:
     from fastapi import FastAPI, HTTPException
     from fastapi.middleware.cors import CORSMiddleware
+    from fastapi.responses import StreamingResponse
     from pydantic import BaseModel
     import uvicorn
 except ImportError:
@@ -647,6 +648,36 @@ def _openai_response(t0: float, model: str, content: str, finish: str = "stop") 
     }
 
 
+def _stream_response(t0: float, model: str, content: str):
+    """Generator yielding OpenAI-compatible SSE chunks."""
+    import asyncio
+    chunk_id = f"chatcmpl-{int(t0 * 1000)}"
+    created  = int(t0)
+    words    = content.split(" ")
+    # Role chunk first
+    yield "data: " + json.dumps({
+        "id": chunk_id, "object": "chat.completion.chunk", "created": created,
+        "model": model,
+        "choices": [{"index": 0, "delta": {"role": "assistant", "content": ""}, "finish_reason": None}],
+    }, ensure_ascii=False) + "\n\n"
+    # Content chunks — word by word
+    for i, word in enumerate(words):
+        piece = word if i == 0 else " " + word
+        yield "data: " + json.dumps({
+            "id": chunk_id, "object": "chat.completion.chunk", "created": created,
+            "model": model,
+            "choices": [{"index": 0, "delta": {"content": piece}, "finish_reason": None}],
+        }, ensure_ascii=False) + "\n\n"
+    # Stop chunk
+    yield "data: " + json.dumps({
+        "id": chunk_id, "object": "chat.completion.chunk", "created": created,
+        "model": model,
+        "choices": [{"index": 0, "delta": {}, "finish_reason": "stop"}],
+        "_meta": {"latency_s": round(time.time() - t0, 3)},
+    }, ensure_ascii=False) + "\n\n"
+    yield "data: [DONE]\n\n"
+
+
 def _openai_tool_call(t0: float, model: str, tool_name: str, tool_args: dict) -> dict:
     return {
         "id":      f"chatcmpl-{int(t0 * 1000)}",
@@ -866,12 +897,18 @@ async def chat_completions(req: ChatRequest):
     elif intent == "get_contacts":
         raw = _exec_get_contacts({"project": user_msg})
     elif intent == "add_card":
-        # Недостаточно данных для add_card из одного сообщения — используем RAG
         raw = _rag_answer(user_msg)
     else:
         raw = _rag_answer(user_msg)
 
     answer = _llm_answer(user_msg, raw) or raw
+
+    if req.stream:
+        return StreamingResponse(
+            _stream_response(t0, req.model, answer),
+            media_type="text/event-stream",
+            headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        )
     return _openai_response(t0, req.model, answer)
 
 

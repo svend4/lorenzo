@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Author & Contact
 
 <!-- toc-auto -->
@@ -20,7 +24,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Author & Contact
+> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (16)
  
 Contents
  Author & Contact

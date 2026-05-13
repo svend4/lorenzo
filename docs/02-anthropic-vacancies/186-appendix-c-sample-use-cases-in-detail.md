@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix C: Sample Use Cases in Detail
 
 <!-- abstract-auto -->
@@ -16,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Governance and Oversight
+> * Contact via github.com/svend4/nautilus/issues(URL --- Комментарий к этому документу Это пятый и финальный документ наш. * A properly-designed Representative Agent dedicated to the author would substantially increase opportunities, reduce ad
  Appendix C: Quick-Start Architecture for SGB Advocate Colleague
  Appendix C: Sample InGit MCP Server Tool Specifications
  Appendix C: Version History

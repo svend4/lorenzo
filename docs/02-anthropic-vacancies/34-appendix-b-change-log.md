@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix B: Change Log
 
 <!-- toc -->
@@ -26,7 +30,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Appendix B: Change Log
+> * Второе — раздел 11 Security Considerations, где явно обозначена проблема с приватными репо (это прямо связано с вашими. * Это важно: спецификация должна быть простой и реализуемой , а сложные алгоритмы (embeddings, semantic similarity) — от
  
 Содержание
  Appendix B: Change Log

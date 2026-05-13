@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # portal-mcp.py
 
 <!-- abstract-auto -->
@@ -15,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> portal-mcp.py
+> * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры. * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры
  
 > Абстракт (авто)
 >

@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "AnastasiyaW"
@@ -31,7 +32,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: AnastasiyaW / knowledge-space, mclaude
+> Документ содержит практические рекомендации и лучшие практики. Контакт: AnastasiyaW / knowledge-space, mclaude
  
 Contents
  Профиль

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Коммерциализация: три направления
 
 <!-- toc-auto -->
@@ -13,7 +17,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Продуктовая формула:
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Продуктовая формула:
 “Ваши агенты перестают забывать, повторяться и работать в чёрном ящике.”
 Здесь Svyazi‑2.0 становится не внешним community product, а ядром агентной памяти и трассировки: CoAlly‑style shared memory, mclaude‑style handoffs/locks/ma
 **Проекты:** Svyazi, mclaude, AI Factory, LiteParse, Legal RAG

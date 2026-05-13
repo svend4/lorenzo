@@ -3,7 +3,7 @@
 
 
 <!-- summary -->
-> Файлов: 3
+> authors-by-name.md — components-by-name.md — > [!NOTE] Кто ссылается на этот документ (7):
 Содержание
  authors-by-name.md —  
  components-by-name.md — > [!NOTE]

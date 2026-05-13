@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # References
 
 <!-- toc-auto -->
@@ -32,7 +36,7 @@
 
 
 <!-- summary -->
-> References
+> * References Contents - References - Foundational Sources - Multi-Agent Systems - Protocols and Federation(protocols-and. * "Architectural Styles and the Design of Network-based Software Architectures"
  
 Contents
  References

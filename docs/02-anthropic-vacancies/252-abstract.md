@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Abstract
 
 > [!NOTE]
@@ -33,7 +37,7 @@
 
 
 <!-- summary -->
-> Most skilled professionals occupy a middle zone: not generic 
+> * Abstract The five-type taxonomy introduced in Professional Colleague --- Abstract The five-type taxonomy introduced in. * Most skilled professionals occupy a middle zone: not generic practitioners of a profession, not unique individuals bey
 practitioners of a profession, not unique individuals beyond 
 categorization, but composite specialists — practitioners 
 whose distinctive value comes from a particular combination of 

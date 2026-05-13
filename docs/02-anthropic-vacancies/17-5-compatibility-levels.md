@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 5. Compatibility Levels
 
 <!-- toc-auto -->
@@ -36,7 +40,7 @@
 
 
 <!-- summary -->
-> Compatibility Levels
+> * Use case: статические Repos (архивы, reference docs), которые не нужно искать. * Адаптер реализует только describe() метод
  Level 0 — Discoverable
  Level 1 — Readable
  Level 2 — Queryable

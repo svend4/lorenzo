@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix B: Summary of Contributions
 
 <!-- toc-auto -->
@@ -21,7 +25,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Appendix B: Summary of Contributions
+> Документ содержит практические рекомендации и лучшие практики. Appendix B: Summary of Contributions
  
 Contents
  Appendix B: Summary of Contributions

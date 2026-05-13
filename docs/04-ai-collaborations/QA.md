@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Q&A: 04-ai-collaborations
 
 > [!NOTE]
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Упоминаются: cardindex, card_id, state, hash, dedup
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup
 Использование
  
 Смотрите также

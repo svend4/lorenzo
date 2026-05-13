@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Когда ты Honestly не знаешь
 
 <!-- toc-auto -->
@@ -18,7 +22,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
  --
 Когда ты Honestly не знаешь
 Если ты не знаешь что-то relevant (factual, technical, contextual), say:

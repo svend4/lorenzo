@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # transmission-box
 
 > [!NOTE]
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Файлов: 2
+> Раздел README формируется автоматически из данных репозитория. 00-question-mountain-to-person.md —
 Содержание
  00-question-mountain-to-person.md —  
  01-completing-loop.md —  

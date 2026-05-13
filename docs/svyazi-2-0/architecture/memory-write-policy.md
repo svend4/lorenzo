@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Memory Write Policy
 
 <!-- toc-auto -->
@@ -15,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Memory Write Policy
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (4)
  
 Contents
  Минимальные поля

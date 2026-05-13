@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "Dmitriila"
@@ -31,7 +32,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: Dmitriila / SENTINEL
+> Документ содержит практические рекомендации и лучшие практики. Контакт: Dmitriila / SENTINEL
  
 Contents
  Профиль

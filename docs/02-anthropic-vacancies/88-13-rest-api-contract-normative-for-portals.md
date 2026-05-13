@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 13. REST API Contract (Normative for Portals)
 
 <!-- toc -->
@@ -20,7 +24,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Recommended Endpoints
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 Portal SHOULD предоставлять:
  Метод | Путь | Описание |
  -------|------|----------|

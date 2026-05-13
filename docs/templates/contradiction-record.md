@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contradiction-record
 version: "1.0"
 contradiction_id: "CONTRA-NNNN"
@@ -14,7 +15,7 @@ tags: [противоречие, аудит]
 # Противоречие: [Название]
 
 <!-- summary -->
-> ID
+> Контекст: [когда написано / что предполагает] [Объяснение конфликта в 2-3 предложениях.]
 CONTRA-NNNN
 Серьёзность
  

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # multi-tier-architecture
 
 > [!NOTE]
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Файлов: 2
+> Раздел README формируется автоматически из данных репозитория. 00-question-multi-tier.md —
 Содержание
  00-question-multi-tier.md —  
  01-strategic-significance.md —  

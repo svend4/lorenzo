@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 15. Glossary of Examples
 
 <!-- toc-auto -->
@@ -16,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Glossary of Examples
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Glossary of Examples
 В качестве иллюстраций используется экосистема   с тремя 
 Repos:
  info1: 74 документа с α-уровнями, методологический угол

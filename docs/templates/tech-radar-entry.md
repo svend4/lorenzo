@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: tech-radar-entry
 version: "1.0"
 tech_name: "[Название технологии]"
@@ -14,7 +15,7 @@ tags: [tech-radar, оценка-технологий]
 # Tech Radar: [Название]
 
 <!-- summary -->
-> Quadrant
+> Кольцо | Что значит | Adopt | Используем, рекомендуем всем | Trial | Стоит пробовать на боевых проектах |
  
 Ring
  Кольцо | Что значит |

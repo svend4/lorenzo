@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Q&A: lorenzo-agent
 
 > [!NOTE]
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Упоминаются: episod, семантич, fact, proposal
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: episod, семантич, fact, proposal
 Использование
  
 Смотрите также

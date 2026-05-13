@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # References
 
 <!-- toc-auto -->
@@ -31,7 +35,7 @@
 
 
 <!-- summary -->
-> References
+> * References Contents - References - Primary Empirical Source - Companion Papers - Foundation Sources (continued from Re. * "Designing Organizations for an Information-Rich World"
  
 Contents
  References

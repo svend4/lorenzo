@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Q&A: 05-habr-projects
 
 > [!NOTE]
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Упоминаются: Hybrid RAG, LiteParse
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: Hybrid RAG, LiteParse
 Использование
  
 Смотрите также

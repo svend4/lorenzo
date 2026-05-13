@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, knowledge, ingestion]
-state: raw
+state: approved
 ---
 
 # Appendix C: Version History
@@ -22,7 +22,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Synthesizes work across PORTAL-PROTOCOL
+> * Вы точно заметили паттерн: корм для животного в приюте не решает проблему приюта, потому что животное снова становится. * Это demonstrates, что подход работает, и создаёт reference case , на который можно ссылаться во всех future discussion
  --
  
 Содержание

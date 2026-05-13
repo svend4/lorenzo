@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 17. Versioning Policy
 
 <!-- toc-auto -->
@@ -29,7 +33,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Semver
+> * Breaking Changes Process Для major version bump требуется: 1. * Deprecation Policy !IMPORTANT Ключевой документ для понимания архитектуры
 NPP следует semver:
  Major (v1 → v2): breaking changes в interfaces или schemas
  Minor (v1.0 → v1.1): новая функциональность, backward-compatible

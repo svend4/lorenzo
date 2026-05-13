@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: mega-stack
 version: "1.0"
 stack_name: "[Название стека]"
@@ -13,7 +14,7 @@ tags: [mega-stack, архитектура]
 # Mega-stack: [Название]
 
 <!-- summary -->
-> Назначение
+> Класс задач: [legal-AI / knowledge-OS / etc.] Целевой объём: [1M документов] SLA: latency p99 < 500ms, availability 99.9%
 Класс задач: [legal-AI / knowledge-OS / etc.]
 Целевой объём: [1M документов]
 SLA: latency p99 < 500ms, availability 99.9%

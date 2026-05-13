@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # For the Curious: Philosophy
 
 <!-- toc-auto -->
@@ -12,7 +16,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Status of This Document _25%_
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Status of This Document _25%_
  --
 Кто ссылается на этот документ (12)
  04-abstract

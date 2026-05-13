@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: rfc
 version: "1.0"
 rfc_id: "RFC-NNNN"
@@ -14,7 +15,7 @@ tags: [rfc, спецификация]
 # RFC NNNN: [Название]
 
 <!-- summary -->
-> Change Log
+> Версия | Дата | Что изменилось | 0.1 | 2026-04-29 | Initial draft | _Создано: 2026-04-29_
  Версия | Дата | Что изменилось |
  --------|------|---------------|
  0.1 | 2026-04-29 | Initial draft |

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 9. Consensus Algorithm
 
 <!-- toc-auto -->
@@ -29,7 +33,7 @@
 
 
 <!-- summary -->
-> v1.1 Consensus Strategy: Real vs Fallback
+> * Consensus Algorithm - 9.1. * Future Extensions (v2.0+) При query через portal, когда результаты возвращаются из нескольких --- 9
 v1.1 различает два типа coverage:
  — доля repos, вернувших реальные (не fallback) 
   entries, содержащие query

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # PORTAL-PROTOCOL.md v1.1
 
 <!-- toc-auto -->
@@ -12,7 +16,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> PORTAL-PROTOCOL.md v1.1
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. PORTAL-PROTOCOL.md v1.1
 markdown
  bash
 Поиск по теме документа

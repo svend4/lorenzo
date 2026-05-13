@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, roadmap, anthropic, self-improve]
-state: raw
+state: normalized
 ---
 
 # Content Overview
@@ -22,7 +22,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> подпапку или отдельную область)
+> Документ содержит практические рекомендации и лучшие практики. подпапку или отдельную область)
  v53–v55: PPL-based experiments
  v56–v58: LCI metric exploration (target π)
  v59: Archetypal Interlingua approach (failed, shared   

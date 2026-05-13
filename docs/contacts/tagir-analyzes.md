@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "tagir_analyzes"
@@ -30,7 +31,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: tagir_analyzes / Legal RAG
+> Документ содержит практические рекомендации и лучшие практики. Контакт: tagir_analyzes / Legal RAG
  
 Contents
  Профиль

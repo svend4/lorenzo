@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, security, knowledge]
-state: raw
+state: normalized
 ---
 
 # Ключевые понятия и паттерны
@@ -32,7 +32,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Ключевые понятия и паттерны
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Ключевые понятия и паттерны
  
 Contents
  Содержание

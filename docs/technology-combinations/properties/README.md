@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # properties/ — эмерджентные свойства
 
 <!-- toc-auto -->
@@ -5,7 +9,7 @@
 
 
 <!-- summary -->
-> Шаблон файла
+> METRICS — метрики качества документов HEALTH — здоровье репозитория README — раздел technology-combinations
  
 Смотрите также
  METRICS — метрики качества документов

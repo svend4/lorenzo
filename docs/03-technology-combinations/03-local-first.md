@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, knowledge, ingestion]
-state: raw
+state: approved
 ---
 
 # Local-first и P2P стек
@@ -37,7 +37,7 @@ state: raw
 
 
 <!-- summary -->
-> > 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+> * Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B -. * Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B -
 >
  
 > - Сложные архитектурные → Claude Opus

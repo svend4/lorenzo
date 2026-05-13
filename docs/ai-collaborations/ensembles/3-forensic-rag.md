@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [rag, orchestration, knowledge, ingestion, architecture]
-state: raw
+state: approved
 ---
 
 # Ансамбль 3 — Forensic RAG
@@ -20,7 +20,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Habr
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Hybrid RAG knowledge base за 15 минут добавляет координатную подсветку источника через pdfplumber: ответ открывает PDF на нужной странице и подсвечивает конкретный фрагмент;
 Hybrid RAG knowledge base за 15 минут добавляет координатную подсветку источника через pdfplumber: ответ открывает PDF на нужной странице и подсвечивает конкретный фрагмент; также там есть двухстадийная логика — сначала ответ по всему пулу докум
 **Проекты:** LiteParse, Legal RAG, Hybrid RAG, Graph RAG
 

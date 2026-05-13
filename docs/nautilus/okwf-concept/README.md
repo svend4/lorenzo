@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # okwf-concept
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> okwf-concept
+> — раздел документации проекта Lorenzo. 01-problem-statement.md — > [!NOTE] 02-target-populations.md — > [!NOTE]
  
  
 >   — раздел документации проекта Lorenzo.

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # evaluation/ — оценка уникальности и зрелости
 
 <!-- toc-auto -->
@@ -5,7 +9,7 @@
 
 
 <!-- summary -->
-> --
+> Кто ссылается на этот документ (5): README (сходство 0.96) SEARCH_RESULTS (сходство 0.53)
 Кто ссылается на этот документ (5):
  OUTLINE
  READABILITY

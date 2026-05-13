@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [rag, orchestration, local-first, architecture, anthropic]
-state: raw
+state: approved
 ---
 
 # 6. Risks Specific to this Category
@@ -22,7 +22,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Risks Specific to this Category
+> * Teacher's agent generates problems requiring active human reasoning, not pattern-matching. * Agents support practitioner customization that goes beyond preferences into methodology choices
  
 > Абстракт (авто)
 >

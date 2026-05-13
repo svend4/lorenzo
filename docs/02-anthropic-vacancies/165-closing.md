@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [rag, orchestration, knowledge, ingestion, local-first]
-state: raw
+state: approved
 ---
 
 # Closing
@@ -22,7 +22,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Closing
+> * Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolati. * Андрей формулирует это explicitly как архитектурный invariant : «expensive operations only on pre-filtered shortlist»
  
 > Абстракт (авто)
 >

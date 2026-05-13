@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [ingestion, local-first, architecture, anthropic, self-improve]
-state: raw
+state: normalized
 ---
 
 # Обработка больших массивов — Часть 2: Извлечение
@@ -12,7 +12,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Проекты: Svyazi, Whisper
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
  --
  
 Содержание

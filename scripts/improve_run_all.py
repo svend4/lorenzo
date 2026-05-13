@@ -301,6 +301,7 @@ LLM_SCRIPTS = {
 
 GROUPS["lifecycle"] = [
     # Жизненный цикл карточек: продвижение статусов, proposals, RFC
+    "improve_auto_summarize.py",         # инжекция summary/тегов → разблокирует promote
     "improve_card_promote.py",           # raw→normalized→approved
     "improve_proposal_gen.py",           # генерация proposal-карточек интеграции
     "improve_rfc_tracker.py",            # обновление RFC реестра

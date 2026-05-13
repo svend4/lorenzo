@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Q&A: 02-anthropic-vacancies
 
 <!-- toc-auto -->
@@ -10,7 +14,7 @@
 
 
 <!-- summary -->
-> Упоминаются: cardindex, card_id, state, hash, dedup
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup
 Использование
  
 Смотрите также

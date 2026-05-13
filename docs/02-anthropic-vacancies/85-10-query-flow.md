@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 10. Query Flow
 
 <!-- toc-auto -->
@@ -36,7 +40,7 @@
 
 
 <!-- summary -->
-> Error Handling
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Документ создан на основе исследования.
 Если adapter падает (exception, timeout), Portal MUST:
  Включить repo в   список QueryResult
  Продолжить обработку остальных

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Когда сомневаешься — escalate к Max
 
 <!-- toc-auto -->
@@ -18,7 +22,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > - Ethical complexity beyond обычных protocols
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
  --
 Когда сомневаешься — escalate к Max
 Если задача presents:

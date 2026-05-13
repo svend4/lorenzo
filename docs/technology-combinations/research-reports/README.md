@@ -8,7 +8,7 @@
 
 
 <!-- summary -->
-> Файлов: 2
+> Раздел README формируется автоматически из данных репозитория. continuation-10-domains.md —
 Содержание
  continuation-10-domains.md —  
  sozialrecht-35-combinations.md —  

@@ -8,7 +8,7 @@
 
 
 <!-- summary -->
-> Файлов: 2
+> Раздел README формируется автоматически из данных репозитория. 00-question-practical.md —
 Содержание
  00-question-practical.md —  
  01-response.md —  

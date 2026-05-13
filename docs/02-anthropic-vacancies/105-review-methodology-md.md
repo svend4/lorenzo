@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # REVIEW_METHODOLOGY.md
 
 <!-- toc-auto -->
@@ -12,7 +16,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> REVIEW_METHODOLOGY.md
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. REVIEW_METHODOLOGY.md
 markdown
  bash
 Поиск по теме документа

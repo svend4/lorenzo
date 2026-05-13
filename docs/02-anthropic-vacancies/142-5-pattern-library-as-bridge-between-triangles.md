@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 5. Pattern Library as Bridge Between Triangles
 
 <!-- abstract-auto -->
@@ -16,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The Problem of Shared Knowledge
+> * Fully distributed knowledge (every assistant learns independently) has opposite problems: it doesn't compound, and it. * Pattern Library Architecture We propose a pattern library architecture operating in two tiers: Tier 1 — Public Pattern
 Double-Triangle systems face a fundamental question: how do 
 assistants in different Nodes' lower triangles share knowledge 
 about best practices, conventions, and reusable patterns, without 

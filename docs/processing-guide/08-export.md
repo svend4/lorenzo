@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Обработка больших массивов — Часть 8: Экспорт и интеграции
 
 > [!NOTE]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> --
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. JSON/CSV — improve_export_json.py, improve_export_csv.py
 JSON/CSV — improve_export_json.py, improve_export_csv.py
  
 Формат JSON:

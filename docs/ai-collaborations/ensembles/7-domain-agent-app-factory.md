@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, local-first, architecture]
-state: raw
+state: approved
 ---
 
 # Ансамбль 7 — Domain Agent App Factory
@@ -19,7 +19,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Habr
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Статья про AI-ассистента юридической поддержки даёт бизнес-рамку: не «сделаем AI», а метрики — снижение нагрузки, время ответа, стоимость обращения, точность, hallucinations
 Статья про AI-ассистента юридической поддержки даёт бизнес-рамку: не «сделаем AI», а метрики — снижение нагрузки, время ответа, стоимость обращения, точность, hallucinations, user satisfaction; дальше выбираются RAG/GraphRAG, модель, deployment
 
 ---

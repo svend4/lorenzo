@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # References
 
 <!-- toc-auto -->
@@ -29,7 +33,7 @@
 
 
 <!-- summary -->
-> References
+> * AI Collaboration Infrastructure - Anthropic Projects documentation (current) - Microsoft Copilot Studio (different app. * (Zettelkasten method, foundational for modern personal knowledge management.) - Andy Matuschak (ongoing)
  
 Contents
  References

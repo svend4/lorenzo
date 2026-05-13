@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 7. PortalEntry Structure
 
 <!-- toc-auto -->
@@ -38,7 +42,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Implementation MAY расширять список
+> * PortalEntry Structure - 7.1. * Q6 Metadata !IMPORTANT Ключевой документ для понимания архитектуры
  — полный текст/представление, MAY быть большим
  — MUST содержать   для Level 2+ адаптеров
  — список id из других Repos, формат   

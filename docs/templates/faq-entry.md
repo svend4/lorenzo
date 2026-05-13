@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: faq-entry
 version: "1.0"
 question: "[Вопрос]"
@@ -13,7 +14,7 @@ tags: [faq]
 # FAQ: [Вопрос]
 
 <!-- summary -->
-> --
+> Кто ссылается на этот документ (6): faq-entry (сходство 0.90) glossary-entry (сходство 0.56)
 Кто ссылается на этот документ (6):
  READABILITY
  READING_TIME

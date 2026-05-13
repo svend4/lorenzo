@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [rag, orchestration, local-first, anthropic]
-state: raw
+state: approved
 ---
 
 # 8. Seven Domains of Application
@@ -22,7 +22,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Domain 2 — Visual and Creative Arts
+> * Typical configurations: A jazz pianist who teaches has different needs from a classical violinist, who has different n. * Typical configurations: A computational biologist working on epidemiology with humanities co-authors faces unique conf
 Sub-agent specializations might include: Drawing fundamentals, 
 painting techniques, digital illustration, animation, sculpture, 
 photography, color theory, composition, art history (by period 

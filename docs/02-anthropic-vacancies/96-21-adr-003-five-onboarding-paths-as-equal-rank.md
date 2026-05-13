@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 21. ADR-003: Five Onboarding Paths as Equal-Rank
 
 <!-- toc-auto -->
@@ -16,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> ADR-003: Five Onboarding Paths as Equal-Rank
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. ADR-003: Five Onboarding Paths as Equal-Rank
  Похожие документы
  Использование
  Смотрите также

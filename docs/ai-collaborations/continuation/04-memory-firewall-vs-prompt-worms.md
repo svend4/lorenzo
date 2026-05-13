@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Memory Firewall против prompt worms (ансамбль I)
 
 <!-- toc-auto -->
@@ -13,7 +17,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Habr
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 Аудит OpenClaw показал практический слой этой проблемы: zero‑sanitization pipeline, timeout‑as‑approval, arbitrary exec через plugin system, plaintext credential storage, memory exfiltration/injection, default‑open command gating и другие критич
 **Проекты:** Svyazi, SENTINEL
 

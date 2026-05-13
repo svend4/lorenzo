@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 7. Application Domains
 
 <!-- abstract-auto -->
@@ -16,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> --
+> * Application Domains !TIP Документ содержит практические рекомендации и лучшие практики. * Burden addressed: Literature review, draft writing, methodology selection support, citation management, grant applicat
  --
 Похожие документы
  143-6-four-deployment-domains (сходство 0.14)

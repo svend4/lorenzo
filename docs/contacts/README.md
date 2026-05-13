@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # contacts
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> contacts
+> — раздел документации проекта Lorenzo. anastasiyaw.md — --- andrey-chuyan.md — ---
  
  
 >   — раздел документации проекта Lorenzo.

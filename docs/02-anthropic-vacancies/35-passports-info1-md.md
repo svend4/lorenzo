@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # passports/info1.md
 
 <!-- toc-auto -->
@@ -12,7 +16,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> passports/info1.md
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа
 markdown
  bash
 Поиск по теме документа

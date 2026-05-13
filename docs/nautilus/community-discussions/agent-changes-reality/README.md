@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # agent-changes-reality
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> Файлов: 2
+> 00-question-agent-changes-reality.md — 01-response-en.md — > [!TIP] Кто ссылается на этот документ (7):
 Содержание
  00-question-agent-changes-reality.md —  
  01-response-en.md — > [!TIP]

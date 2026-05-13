@@ -1,4 +1,5 @@
 ---
+state: normalized
 rfc: "0001"
 title: "Card Envelope как единый контракт данных Svyazi 2.0"
 status: Accepted
@@ -13,7 +14,7 @@ tags: [architecture, rfc, card-envelope, core]
 
 
 <!-- summary -->
-> RFC-0001: Card Envelope как единый контракт данных Svyazi 2.0
+> Card Envelope — единый формат хранения любого знания в системе Svyazi 2.0. Все компоненты (AgentFS, Yodoca, MCP, Gateway) обмениваются только через Card Envelope.
 Summary
 Card Envelope — единый формат хранения любого знания в системе Svyazi 2.0.
 

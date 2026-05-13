@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, knowledge, ingestion]
-state: raw
+state: normalized
 ---
 
 # Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph
@@ -30,7 +30,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> Чем Svyazi‑2.0 отличается от Notion AI, Mem, AFFiNE и LangGraph‑стеков
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 Против Notion AI
 Notion AI Enterprise Search уже умеет искать по Notion и подключённым приложениям вроде Slack, Google Drive, GitHub, Jira, Teams, SharePoint и OneDrive; он даёт о
 **Проекты:** Svyazi, CardIndex

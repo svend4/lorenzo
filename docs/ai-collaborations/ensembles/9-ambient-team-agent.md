@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Ансамбль 9 — Ambient Team Agent
 
 <!-- toc-auto -->
@@ -13,7 +17,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Схема:
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Telegram/Mattermost chat → thread context → code/RAG/AgentFS → issue/task board → agent execution → handoff/report
 Telegram/Mattermost chat → thread context → code/RAG/AgentFS → issue/task board → agent execution → handoff/report
 Дети этой связки:
 Team Memory Bot — помнит, что обсуждали, какие решения приняли, какие задачи появились, кто ответственный.

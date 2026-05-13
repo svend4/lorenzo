@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix A: The Six-Type Taxonomy (Updated)
 
 <!-- toc-auto -->
@@ -54,7 +58,7 @@
 
 
 <!-- summary -->
-> --
+> * Appendix A: The Six-Type Taxonomy (Updated) This paper updates the Professional Colleague Agents v1.0 --- Appendix A:. * Updated full taxonomy: Type Name Specialization Example Maturity ----------------------------------------------- 0 Per
  --
 Похожие документы
  226-appendix-a-comparative-table-five-agent-types (сходство 0.31)

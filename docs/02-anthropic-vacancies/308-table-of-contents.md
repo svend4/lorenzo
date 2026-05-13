@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Table of Contents
 
 <!-- toc -->
@@ -44,7 +48,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Strategic Positioning
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Strategic Positioning
  --
  --
 Похожие документы

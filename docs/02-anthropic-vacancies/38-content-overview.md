@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Content Overview
 
 <!-- toc-auto -->
@@ -16,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> --
+> Документ содержит практические рекомендации и лучшие практики. 12-content-overview (сходство 0.11)
  --
 Похожие документы
  12-content-overview (сходство 0.11)

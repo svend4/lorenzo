@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Подключение к Claude Desktop
 
 <!-- toc-auto -->
@@ -25,7 +29,7 @@
 
 
 <!-- summary -->
-> Подключение к Claude Desktop
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Подключение к Claude Desktop
  
 Contents
  Подключение к Claude Desktop

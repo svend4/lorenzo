@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # professional-colleague-agents-ru
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> README — раздел документации проекта Lorenzo. Кто ссылается на этот документ (16):
 
 
 **Файлов:** 13

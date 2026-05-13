@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Acknowledgments
 
 <!-- toc-auto -->
@@ -38,7 +42,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > This work emerged through extensive collaboration with Anthropic's
+> Документ содержит практические рекомендации и лучшие практики. This work emerged through extensive collaboration with Anthropic's
  --
  
 Acknowledgments

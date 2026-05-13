@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 9. Call for Partnership
 
 > [!NOTE]
@@ -32,7 +36,7 @@
 
 
 <!-- summary -->
-> For Potential Contributors
+> * For Policy Organizations (EU Commission, National Governments, OECD) What we ask: - Regulatory guidance and dialogue -. * For Academic and Research Partners (Universities, Think Tanks) What we ask: - Research collaboration on methodology an
  --
  
 > [!NOTE]

@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: experiment-log
 version: "1.0"
 experiment_id: "EXP-NNNN"
@@ -14,7 +15,7 @@ tags: [эксперимент]
 # Эксперимент: [Название]
 
 <!-- summary -->
-> --
+> Кто ссылается на этот документ (7): experiment-log (сходство 0.90) meeting-notes (сходство 0.46)
 Кто ссылается на этот документ (7):
  READABILITY
  READING_TIME

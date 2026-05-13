@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 7. Open Questions
 
 <!-- abstract-auto -->
@@ -15,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Open questions:
+> * Open Questions !TIP Документ содержит практические рекомендации и лучшие практики. * Possible approaches: reputation systems, revenue sharing from commercial uses, academic citation as reward, governance
  Communication overhead at deep recursion levels
  Consensus model latency at scale
  Protocol 3 routing efficiency in large trees

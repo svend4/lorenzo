@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 3. Registry (`nautilus.json`)
 
 <!-- toc -->
@@ -50,7 +54,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Optional Fields
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 Все остальные поля OPTIONAL, но SHOULD быть заполнены для хорошей 
 discoverability:
  — если опущен, Repo существует только локально

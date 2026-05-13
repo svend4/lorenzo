@@ -16,9 +16,10 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | 5 — Semantic + RFC | `improve_semantic_embeddings.py`, `improve_rfc_tracker.py`, 3 RFC Accepted | ✅ |
 | 6 — Autonomous Intelligence | `decay_card`/`restore_card`, `write_type`, watcher lifecycle, knowledge evolution | ✅ |
 | 7 — Production Hardening | rate limiting, audit trail, gateway write_type, decay_checker | ✅ |
-| 8 — Auto-Summarize + Promote Lift | `improve_auto_summarize.py`: 410 карточек обогащено, +90 normalized, +46 approved | ✅ |
+| 8 — Auto-Summarize + Promote Lift | `improve_auto_summarize.py`: 410 карточек, +90 normalized, +46 approved | ✅ |
+| 9 — Progressive Summarize + SSE | `improve_progressive_summarize.py`: 335 карточек, +311 normalized, +70 approved | ✅ |
 
-**Текущее распределение карточек:** 320 approved · 483 normalized · 362 raw · promote rate 69%
+**Текущее распределение карточек:** 390 approved · 724 normalized · 51 raw · promote rate 95.7%
 
 ## Итерация 6 — Autonomous Intelligence Layer
 
@@ -54,13 +55,52 @@ write  (6): add_card, update_card_state, propose_integration, list_cards,
 | `improve_decay_checker.py` | Поиск кандидатов на decay: stubs (377), near-dups (79) → `docs/DECAY_CANDIDATES.md` |
 | RFC-0002/0003 promoted | Оба RFC переведены в `normalized` → `approved` (274 approved итого) |
 
-### Следующий уровень (Итерация 9)
+### Следующий уровень (Итерация 10)
 
 | Задача | Сложность | Ценность |
 |--------|-----------|---------|
 | Neural embeddings (sentence-transformers) | низкая (pip install) | высокая |
-| Bulk decay stubs через `improve_decay_checker.py` | низкая | средняя |
-| Streaming Gateway (OpenAI SSE) | высокая | средняя |
+| Auto-decay оставшихся 51 raw-стабов после даты > 90d | низкая | средняя |
+| `improve_skill_metrics.py` — автоматические метрики по скилам | средняя | высокая |
+
+---
+
+## Итерация 9 — Progressive Summarize + SSE Streaming
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| `improve_progressive_summarize.py` | Второй проход суммаризации: abstract-auto блоки, секции ## Summary, мульти-предложения. 335 карточек исправлено |
+| Batch promote | +311 normalized, +70 approved. Promote rate: 95.7% (было 69%) |
+| `improve_bulk_decay.py` | Bulk decay пустых stub-карточек по date-age и содержанию (future-ready, работает когда корпус > 90 дней) |
+| SSE Streaming Gateway | `gateway.py`: `stream=True` → `StreamingResponse` с word-by-word SSE чанками (OpenAI SSE format) |
+| `improve_run_all.py` lifecycle | Добавлен `improve_auto_summarize.py` в группу lifecycle |
+
+### Ключевые результаты
+
+```
+До Итерации 9:   approved=320  normalized=483  raw=362  promote_rate=69%
+После Итерации 9: approved=390  normalized=724  raw=51   promote_rate=95.7%
+```
+
+Прорыв объяснён: `improve_auto_summarize.py` не мог извлечь длинные предложения из файлов
+с `<!-- abstract-auto -->` блоками (slugified anchors, emoji-prefixed bullet points).
+`improve_progressive_summarize.py` специально парсит `🎯 Проблема / 🔧 Подход / ✅ Результат`
+структуру и склеивает их в связный summary.
+
+### CLI
+
+```bash
+python scripts/improve_progressive_summarize.py --dry-run
+python scripts/improve_progressive_summarize.py --apply
+python scripts/improve_bulk_decay.py --stats
+python scripts/improve_bulk_decay.py --apply --min-age 90
+# SSE streaming test:
+curl -N -X POST http://localhost:8083/v1/chat/completions \
+     -H "Content-Type: application/json" \
+     -d '{"messages":[{"role":"user","content":"что такое AgentFS?"}],"stream":true}'
+```
 
 ---
 

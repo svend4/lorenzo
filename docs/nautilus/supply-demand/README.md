@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # supply-demand
 
 > [!NOTE]
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Файлов: 2
+> Раздел README формируется автоматически из данных репозитория. 00-question-supply-demand.md —
 Содержание
  00-question-supply-demand.md —  
  01-three-related-themes.md —  

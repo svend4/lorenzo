@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Ансамбль 2 — Distributed Agent Workshop
 
 <!-- toc-auto -->
@@ -13,7 +17,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Habr
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. AIF Handoff / AI Factory добавляет другой слой: задача проходит через планирование, реализацию, ревью, security review и уведомление в Telegram; AI Factory сканирует проект,
 AIF Handoff / AI Factory добавляет другой слой: задача проходит через планирование, реализацию, ревью, security review и уведомление в Telegram; AI Factory сканирует проект, определяет стек, ставит skills, настраивает MCP-серверы, создаёт .ai-fa
 **Проекты:** AI Factory, Rufler
 

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Appendix B: Domain Comparison Matrix
 
 <!-- toc-auto -->
@@ -18,7 +22,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Appendix B: Domain Comparison Matrix
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
  
 Contents
  Appendix B: Domain Comparison Matrix

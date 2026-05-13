@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # habr-article-1-reaction
 
 > [!NOTE]
@@ -8,7 +12,7 @@
 
 
 <!-- summary -->
-> Файлов: 2
+> Раздел README формируется автоматически из данных репозитория. 00-question-habr-link.md —
 Содержание
  00-question-habr-link.md —  
  01-claude-response.md —  

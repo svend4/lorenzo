@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 12. Closing
 
 <!-- toc-auto -->
@@ -35,7 +39,7 @@
 
 
 <!-- summary -->
-> --
+> * What is new is that we finally have technology capable of providing representation at scale — affordably, persistently
  --
 Похожие документы
  223-12-closing (сходство 0.15)

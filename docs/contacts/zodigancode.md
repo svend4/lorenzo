@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "zodigancode"
@@ -31,7 +32,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Контакт: zodigancode / Rufler
+> Документ содержит практические рекомендации и лучшие практики. Контакт: zodigancode / Rufler
  
 Contents
  Профиль

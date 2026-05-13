@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix: Position in Series Visualization
 
 > [!WARNING]
@@ -16,7 +20,7 @@
 
 
 <!-- summary -->
-> --
+> * Он identifies a problem, surveys existing approximations, и stops short of specifying solution. * Он identifies a problem, surveys existing approximations, и stops short of specifying solution
 Infrastructure for AI-Collaborative Intellectual Work v1.0.0-draft
 Document 2.3 in the Nautilus / Open Knowledge Work series
 An inquiry document, not an architectural specification

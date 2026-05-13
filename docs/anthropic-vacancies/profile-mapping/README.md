@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # profile-mapping/ — маппинг профиля svend4 на роли Anthropic
 
 <!-- toc-auto -->
@@ -7,7 +11,7 @@
 
 
 <!-- summary -->
-> Папка | Что содержит |
+> Папка | Что содержит | Первая итерация: FDE Applied AI как Primary match | Коррекция после просмотра репозиториев: FDE понижен, выходят founder/research-fellowship треки |
  ---|---|
  | Первая итерация: FDE Applied AI как Primary match |
  | Коррекция после просмотра репозиториев: FDE понижен, выходят founder/research-fellowship треки |

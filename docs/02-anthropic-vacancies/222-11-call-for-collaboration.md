@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 11. Call for Collaboration
 
 <!-- toc-auto -->
@@ -31,7 +35,7 @@
 
 
 <!-- summary -->
-> For Policy Stakeholders
+> * Liability, professional licensure interaction, quality standards — all need development
  Похожие документы
  Использование
  Смотрите также

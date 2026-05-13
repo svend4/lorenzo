@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [rag, ingestion, architecture, self-improve, collaboration]
-state: raw
+state: normalized
 ---
 
 # Ансамбль B — Forensic RAG для доказуемого matching и review
@@ -20,7 +20,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> citeturn20view5turn20view6turn34view2turn34view3
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. citeturn20view5turn20view6turn34view2turn34view3
 Схема
  
 Ожидаемые новые свойства

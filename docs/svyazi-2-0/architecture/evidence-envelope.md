@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, ingestion, local-first, architecture]
-state: raw
+state: normalized
 ---
 
 # Evidence Envelope
@@ -22,7 +22,7 @@ state: raw
 <!-- alert-added -->
 
 <!-- summary -->
-> citeturn20view5turn20view6turn34view2turn34view3
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. citeturn20view5turn20view6turn34view2turn34view3
 Минимальные поля
  — идентификатор источника
  — для документов: страница; для текста: диапазон

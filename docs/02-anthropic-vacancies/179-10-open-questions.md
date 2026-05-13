@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 10. Open Questions
 
 > [!NOTE]
@@ -19,7 +23,7 @@
 
 
 <!-- summary -->
-> We argue only 
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. that the questions are worth pursuing because the
 that the questions are worth pursuing because the 
 underlying technology will be developed regardless 
 of whether ethical frameworks keep pace.

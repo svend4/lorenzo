@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: legal-case
 version: "1.0"
 case_id: "[Aktenzeichen]"
@@ -13,7 +14,7 @@ tags: [legal, case]
 # Юридический кейс: [Aktenzeichen]
 
 <!-- summary -->
-> [имя], срок [дата]
+> _Создано: 2026-04-29_ Кто ссылается на этот документ (6): Заполните поля согласно инструкции.
  [ ] [Action 2]
 Связанные кейсы
   --

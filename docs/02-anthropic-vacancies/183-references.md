@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # References
 
 <!-- toc-auto -->
@@ -30,7 +34,7 @@
 
 
 <!-- summary -->
-> References
+> * References Contents - References - Foundational Sources - Principal-Agent Theory - Disability and Access(disability-an. * "Designing Organizations for an Information-Rich World"
  
 Contents
  References

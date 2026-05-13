@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Table of Contents
 
 <!-- toc-auto -->
@@ -26,7 +30,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Table of Contents
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (18)
  
 Contents
  Содержание

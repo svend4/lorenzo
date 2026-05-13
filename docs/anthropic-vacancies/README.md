@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # anthropic-vacancies
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> README — раздел документации проекта Lorenzo. — ai-managed-virtual-company — beneficial-deployments-concept
 
 
 **Файлов:** 4

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # The Two-Layer Stack As It Exists
 
 <!-- abstract-auto -->
@@ -15,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Currently, AI-collaborative work tends to occur in one of two
+> * The problem is what happens between them. * The Anthropic chat interface (and similar products from other providers)
  --
  
 Содержание

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # The Recursive Insight
 
 > [!NOTE]
@@ -31,7 +35,7 @@
 
 
 <!-- summary -->
-> --
+> * The Recursive Insight There is something subtle in all this that warrants explicit --- The Recursive Insight There is. * Specifically: Portal Protocol already provides federated query across diverse sources
  --
 Похожие документы
  285-closing (сходство 0.15)

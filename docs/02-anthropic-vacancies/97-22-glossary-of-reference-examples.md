@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # 22. Glossary of Reference Examples
 
 <!-- toc-auto -->
@@ -16,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Glossary of Reference Examples
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Glossary of Reference Examples
  Похожие документы
  Использование
  Смотрите также
