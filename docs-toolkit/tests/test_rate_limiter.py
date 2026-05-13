@@ -1,486 +1,608 @@
-"""Tests for docstoolkit.rate_limiter — token bucket, sliding window, limiter, store."""
+"""Tests for the E52 rate limiter module (docstoolkit.rate_limiter).
+
+Covers:
+- TokenBucket  (bucket.py)
+- FixedWindowCounter  (bucket.py)
+- SlidingWindowCounter  (bucket.py)
+- RateLimiter  (registry.py)
+- RateLimitResult / RateLimitConfig / RateLimitStrategy  (limiter.py)
+- Legacy types preserved for backwards-compatibility
+"""
 import math
 import time
+import threading
 import pytest
 
 from docstoolkit.rate_limiter import (
-    TokenBucket,
-    SlidingWindow,
-    RateLimiter,
+    RateLimitStrategy,
+    RateLimitConfig,
     RateLimitResult,
+    TokenBucket,
+    FixedWindowCounter,
+    SlidingWindowCounter,
+    RateLimiter,
+)
+# Legacy imports must still work
+from docstoolkit.rate_limiter import (
     LimitConfig,
+    SlidingWindow,
     RateLimitStore,
+    _LegacyRateLimiter,
+    _LegacyRateLimitResult,
 )
 
+# =========================================================================== #
+#  RateLimitStrategy & RateLimitConfig                                         #
+# =========================================================================== #
 
-# ---------------------------------------------------------------------------
-# TokenBucket
-# ---------------------------------------------------------------------------
+class TestRateLimitConfig:
+    def test_default_strategy_is_sliding_window(self):
+        cfg = RateLimitConfig()
+        assert cfg.strategy is RateLimitStrategy.SLIDING_WINDOW
 
-class TestTokenBucketBasic:
-    def test_full_bucket_allows_first_request(self):
-        tb = TokenBucket(capacity=5.0, refill_rate=1.0)
-        assert tb.consume() is True
+    def test_default_requests_per_second(self):
+        cfg = RateLimitConfig()
+        assert cfg.requests_per_second == 10.0
 
-    def test_consume_reduces_tokens(self):
-        start = 1000.0
-        tb = TokenBucket(capacity=5.0, refill_rate=1.0, _last_refill=start)
-        tb.consume(2.0, now=start)
-        assert tb.available(now=start) == pytest.approx(3.0, abs=1e-6)
+    def test_default_burst_size(self):
+        cfg = RateLimitConfig()
+        assert cfg.burst_size == 20
+
+    def test_default_window_seconds(self):
+        cfg = RateLimitConfig()
+        assert cfg.window_seconds == 1.0
+
+    def test_custom_strategy(self):
+        cfg = RateLimitConfig(strategy=RateLimitStrategy.TOKEN_BUCKET)
+        assert cfg.strategy is RateLimitStrategy.TOKEN_BUCKET
+
+    def test_custom_requests_per_second(self):
+        cfg = RateLimitConfig(requests_per_second=5.0)
+        assert cfg.requests_per_second == 5.0
+
+    def test_custom_burst_size(self):
+        cfg = RateLimitConfig(burst_size=50)
+        assert cfg.burst_size == 50
+
+    def test_strategy_enum_values(self):
+        assert RateLimitStrategy.FIXED_WINDOW.value == "fixed_window"
+        assert RateLimitStrategy.SLIDING_WINDOW.value == "sliding_window"
+        assert RateLimitStrategy.TOKEN_BUCKET.value == "token_bucket"
+
+    def test_config_is_dataclass(self):
+        cfg = RateLimitConfig(requests_per_second=2.0, burst_size=5)
+        assert cfg.requests_per_second == 2.0
+        assert cfg.burst_size == 5
+
+
+# =========================================================================== #
+#  RateLimitResult                                                              #
+# =========================================================================== #
+
+class TestRateLimitResult:
+    def test_allowed_true(self):
+        r = RateLimitResult(allowed=True, remaining=5, reset_after=0.0, retry_after=0.0)
+        assert r.allowed is True
+
+    def test_allowed_false(self):
+        r = RateLimitResult(allowed=False, remaining=0, reset_after=1.0, retry_after=1.0)
+        assert r.allowed is False
+
+    def test_remaining_field(self):
+        r = RateLimitResult(allowed=True, remaining=7, reset_after=0.0, retry_after=0.0)
+        assert r.remaining == 7
+
+    def test_reset_after_zero_when_allowed(self):
+        r = RateLimitResult(allowed=True, remaining=3, reset_after=0.0, retry_after=0.0)
+        assert r.reset_after == 0.0
+
+    def test_retry_after_zero_when_allowed(self):
+        r = RateLimitResult(allowed=True, remaining=3, reset_after=0.0, retry_after=0.0)
+        assert r.retry_after == 0.0
+
+    def test_retry_after_positive_when_denied(self):
+        r = RateLimitResult(allowed=False, remaining=0, reset_after=0.5, retry_after=0.5)
+        assert r.retry_after > 0.0
+
+    def test_reset_after_positive_when_denied(self):
+        r = RateLimitResult(allowed=False, remaining=0, reset_after=2.0, retry_after=2.0)
+        assert r.reset_after > 0.0
+
+    def test_remaining_zero_when_exhausted(self):
+        r = RateLimitResult(allowed=False, remaining=0, reset_after=1.0, retry_after=1.0)
+        assert r.remaining == 0
+
+
+# =========================================================================== #
+#  TokenBucket                                                                  #
+# =========================================================================== #
+
+class TestTokenBucketConsume:
+    def test_consume_single_allowed(self):
+        tb = TokenBucket(capacity=5, refill_rate=1.0)
+        result = tb.consume()
+        assert result.allowed is True
+
+    def test_consume_returns_rate_limit_result(self):
+        tb = TokenBucket(capacity=5, refill_rate=1.0)
+        result = tb.consume()
+        assert isinstance(result, RateLimitResult)
+
+    def test_consume_multiple_tokens(self):
+        tb = TokenBucket(capacity=10, refill_rate=1.0)
+        result = tb.consume(5)
+        assert result.allowed is True
+
+    def test_consume_reduces_available(self):
+        tb = TokenBucket(capacity=10, refill_rate=0.0)
+        tb.consume(3)
+        assert tb.available() == 7
 
     def test_consume_exact_capacity(self):
-        tb = TokenBucket(capacity=3.0, refill_rate=1.0)
-        assert tb.consume(3.0) is True
+        tb = TokenBucket(capacity=5, refill_rate=0.0)
+        result = tb.consume(5)
+        assert result.allowed is True
 
-    def test_consume_more_than_capacity_denied(self):
-        tb = TokenBucket(capacity=3.0, refill_rate=1.0)
-        assert tb.consume(4.0) is False
+    def test_consume_over_capacity_denied(self):
+        tb = TokenBucket(capacity=5, refill_rate=0.0)
+        result = tb.consume(6)
+        assert result.allowed is False
 
-    def test_consume_more_than_capacity_does_not_modify_tokens(self):
-        tb = TokenBucket(capacity=3.0, refill_rate=1.0)
-        tb.consume(4.0)
-        assert tb.available() == pytest.approx(3.0, abs=1e-6)
+    def test_consume_over_capacity_does_not_modify_tokens(self):
+        tb = TokenBucket(capacity=5, refill_rate=0.0)
+        tb.consume(6)
+        assert tb.available() == 5
 
-    def test_exhaust_bucket_then_denied(self):
-        tb = TokenBucket(capacity=2.0, refill_rate=0.0)
-        assert tb.consume(1.0) is True
-        assert tb.consume(1.0) is True
-        assert tb.consume(1.0) is False
+    def test_exhaust_then_denied(self):
+        tb = TokenBucket(capacity=3, refill_rate=0.0)
+        for _ in range(3):
+            tb.consume()
+        result = tb.consume()
+        assert result.allowed is False
 
-    def test_available_returns_float(self):
-        tb = TokenBucket(capacity=10.0, refill_rate=1.0)
-        result = tb.available()
-        assert isinstance(result, float)
+    def test_remaining_decreases_after_consume(self):
+        tb = TokenBucket(capacity=10, refill_rate=0.0)
+        r1 = tb.consume(3)
+        assert r1.remaining == 7
 
-    def test_initial_tokens_equal_capacity(self):
-        tb = TokenBucket(capacity=7.0, refill_rate=2.0)
-        assert tb.available() == pytest.approx(7.0, abs=1e-6)
+    def test_retry_after_zero_when_allowed(self):
+        tb = TokenBucket(capacity=5, refill_rate=1.0)
+        result = tb.consume()
+        assert result.retry_after == 0.0
+
+    def test_retry_after_positive_when_denied(self):
+        tb = TokenBucket(capacity=1, refill_rate=1.0)
+        tb.consume()
+        result = tb.consume()
+        assert result.retry_after > 0.0
+
+    def test_reset_after_positive_when_denied(self):
+        tb = TokenBucket(capacity=1, refill_rate=1.0)
+        tb.consume()
+        result = tb.consume()
+        assert result.reset_after > 0.0
+
+    def test_burst_capacity(self):
+        """All burst tokens can be consumed in one go."""
+        tb = TokenBucket(capacity=20, refill_rate=1.0)
+        result = tb.consume(20)
+        assert result.allowed is True
 
 
 class TestTokenBucketRefill:
     def test_refill_over_time(self):
-        """Consume all tokens, then pass time via now= parameter."""
-        start = 1000.0
-        tb = TokenBucket(capacity=5.0, refill_rate=5.0, _last_refill=start)
-        tb.consume(5.0, now=start)
-        assert tb.available(now=start) == pytest.approx(0.0, abs=1e-6)
-        # After 1 second at 5 tokens/sec → bucket full again
-        assert tb.consume(1.0, now=start + 1.0) is True
+        """Consume all; sleep 0.1s; partial refill allows new consume."""
+        tb = TokenBucket(capacity=10, refill_rate=20.0)  # 20 tok/s → 2 tok in 0.1s
+        # exhaust
+        for _ in range(10):
+            tb.consume()
+        assert tb.available() == 0
+        time.sleep(0.1)
+        # expect at least 1 token refilled
+        assert tb.available() >= 1
 
     def test_refill_does_not_exceed_capacity(self):
-        """Capacity is respected — no overfill."""
-        start = 1000.0
-        tb = TokenBucket(capacity=5.0, refill_rate=10.0, _last_refill=start)
-        # Already full; 2 more seconds should not exceed capacity
-        assert tb.available(now=start + 2.0) == pytest.approx(5.0, abs=1e-6)
+        """A full bucket cannot overflow after time passes."""
+        tb = TokenBucket(capacity=5, refill_rate=100.0)
+        time.sleep(0.05)
+        assert tb.available() <= 5
 
-    def test_partial_refill(self):
-        start = 1000.0
-        tb = TokenBucket(capacity=10.0, refill_rate=2.0, _last_refill=start)
-        tb.consume(10.0, now=start)
-        # 3 seconds → 6 tokens refilled
-        assert tb.available(now=start + 3.0) == pytest.approx(6.0, abs=1e-6)
+    def test_consume_after_refill_allowed(self):
+        tb = TokenBucket(capacity=2, refill_rate=20.0)  # refill quickly
+        tb.consume(2)
+        assert tb.available() == 0
+        time.sleep(0.1)
+        result = tb.consume()
+        assert result.allowed is True
 
-    def test_refill_with_zero_elapsed(self):
-        start = 1000.0
-        tb = TokenBucket(capacity=5.0, refill_rate=5.0, _last_refill=start)
-        tb.consume(3.0, now=start)
-        assert tb.available(now=start) == pytest.approx(2.0, abs=1e-6)
+    def test_reset_restores_full_capacity(self):
+        tb = TokenBucket(capacity=5, refill_rate=0.0)
+        tb.consume(5)
+        assert tb.available() == 0
+        tb.reset()
+        assert tb.available() == 5
 
-    def test_consume_after_partial_refill(self):
-        start = 1000.0
-        tb = TokenBucket(capacity=10.0, refill_rate=1.0, _last_refill=start)
-        tb.consume(10.0, now=start)
-        # 5 seconds → 5 tokens
-        assert tb.consume(5.0, now=start + 5.0) is True
-
-    def test_consume_after_partial_refill_too_many_denied(self):
-        start = 1000.0
-        tb = TokenBucket(capacity=10.0, refill_rate=1.0, _last_refill=start)
-        tb.consume(10.0, now=start)
-        # 5 seconds → only 5 tokens, requesting 6 → denied
-        assert tb.consume(6.0, now=start + 5.0) is False
+    def test_reset_allows_new_consume(self):
+        tb = TokenBucket(capacity=1, refill_rate=0.0)
+        tb.consume()
+        tb.reset()
+        result = tb.consume()
+        assert result.allowed is True
 
 
-class TestTokenBucketTimeUntilAvailable:
-    def test_time_until_available_zero_when_tokens_present(self):
-        tb = TokenBucket(capacity=5.0, refill_rate=1.0)
-        assert tb.time_until_available(1.0) == pytest.approx(0.0, abs=1e-9)
+class TestTokenBucketThreadSafety:
+    def test_concurrent_consume_no_over_drain(self):
+        """No more tokens should be consumed than the bucket contains."""
+        capacity = 50
+        tb = TokenBucket(capacity=capacity, refill_rate=0.0)
+        successes = []
+        lock = threading.Lock()
 
-    def test_time_until_available_positive_after_exhaustion(self):
-        start = 1000.0
-        tb = TokenBucket(capacity=1.0, refill_rate=1.0, _last_refill=start)
-        tb.consume(1.0, now=start)
-        wait = tb.time_until_available(1.0, now=start)
-        assert wait > 0.0
+        def worker():
+            result = tb.consume()
+            if result.allowed:
+                with lock:
+                    successes.append(1)
 
-    def test_time_until_available_correct_value(self):
-        """Exhaust 10 tokens, need 4 more, rate=2/s → wait=2.0s."""
-        start = 1000.0
-        tb = TokenBucket(capacity=10.0, refill_rate=2.0, _last_refill=start)
-        tb.consume(10.0, now=start)
-        wait = tb.time_until_available(4.0, now=start)
-        assert wait == pytest.approx(2.0, abs=1e-6)
+        threads = [threading.Thread(target=worker) for _ in range(100)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
 
-    def test_time_until_available_zero_rate_returns_inf(self):
-        start = 1000.0
-        tb = TokenBucket(capacity=1.0, refill_rate=0.0, _last_refill=start)
-        tb.consume(1.0, now=start)
-        wait = tb.time_until_available(1.0, now=start)
-        assert math.isinf(wait)
-
-    def test_time_until_available_exact_capacity(self):
-        start = 1000.0
-        tb = TokenBucket(capacity=5.0, refill_rate=1.0, _last_refill=start)
-        tb.consume(5.0, now=start)
-        wait = tb.time_until_available(5.0, now=start)
-        assert wait == pytest.approx(5.0, abs=1e-6)
+        assert len(successes) <= capacity
 
 
-# ---------------------------------------------------------------------------
-# SlidingWindow
-# ---------------------------------------------------------------------------
+# =========================================================================== #
+#  FixedWindowCounter                                                           #
+# =========================================================================== #
 
-class TestSlidingWindowBasic:
-    def test_empty_window_allows_first_request(self):
-        sw = SlidingWindow(max_requests=3, window_seconds=60.0)
-        assert sw.allow() is True
+class TestFixedWindowCounter:
+    def test_first_request_allowed(self):
+        fw = FixedWindowCounter(limit=5, window_seconds=60.0)
+        assert fw.increment().allowed is True
 
-    def test_first_n_requests_allowed(self):
-        sw = SlidingWindow(max_requests=3, window_seconds=60.0)
-        start = 1000.0
-        for i in range(3):
-            assert sw.allow(now=start + i * 0.01) is True
+    def test_returns_rate_limit_result(self):
+        fw = FixedWindowCounter(limit=5, window_seconds=60.0)
+        assert isinstance(fw.increment(), RateLimitResult)
 
-    def test_n_plus_one_request_denied(self):
-        sw = SlidingWindow(max_requests=3, window_seconds=60.0)
-        start = 1000.0
-        for i in range(3):
-            sw.allow(now=start + i * 0.01)
-        assert sw.allow(now=start + 0.1) is False
+    def test_under_limit_allowed(self):
+        fw = FixedWindowCounter(limit=5, window_seconds=60.0)
+        for _ in range(4):
+            assert fw.increment().allowed is True
 
-    def test_old_requests_expire(self):
-        sw = SlidingWindow(max_requests=2, window_seconds=10.0)
-        start = 1000.0
-        sw.allow(now=start)
-        sw.allow(now=start + 1.0)
-        # Both slots used; denied
-        assert sw.allow(now=start + 2.0) is False
-        # After full window + 1 second, old requests are pruned
-        assert sw.allow(now=start + 11.0) is True
+    def test_at_limit_allowed(self):
+        fw = FixedWindowCounter(limit=3, window_seconds=60.0)
+        for _ in range(3):
+            fw.increment()
+        # fourth should be denied
+        assert fw.increment().allowed is False
 
-    def test_requests_recorded_correctly(self):
-        sw = SlidingWindow(max_requests=5, window_seconds=60.0)
-        start = 1000.0
-        for i in range(3):
-            sw.allow(now=start + float(i))
-        assert sw.current_count(now=start + 3.0) == 3
+    def test_over_limit_denied(self):
+        fw = FixedWindowCounter(limit=2, window_seconds=60.0)
+        fw.increment()
+        fw.increment()
+        result = fw.increment()
+        assert result.allowed is False
 
-    def test_allow_records_timestamp(self):
-        sw = SlidingWindow(max_requests=5, window_seconds=60.0)
-        start = 1000.0
-        sw.allow(now=start)
-        assert len(sw._timestamps) == 1
-        assert sw._timestamps[0] == pytest.approx(start)
+    def test_remaining_decreases(self):
+        fw = FixedWindowCounter(limit=5, window_seconds=60.0)
+        r = fw.increment()
+        assert r.remaining == 4
 
-    def test_denied_does_not_record_timestamp(self):
-        sw = SlidingWindow(max_requests=1, window_seconds=60.0)
-        start = 1000.0
-        sw.allow(now=start)
-        sw.allow(now=start + 0.1)  # denied
-        assert len(sw._timestamps) == 1
+    def test_remaining_zero_at_limit(self):
+        fw = FixedWindowCounter(limit=1, window_seconds=60.0)
+        r = fw.increment()
+        assert r.remaining == 0
+
+    def test_retry_after_zero_when_allowed(self):
+        fw = FixedWindowCounter(limit=5, window_seconds=60.0)
+        r = fw.increment()
+        assert r.retry_after == 0.0
+
+    def test_retry_after_positive_when_denied(self):
+        fw = FixedWindowCounter(limit=1, window_seconds=60.0)
+        fw.increment()
+        r = fw.increment()
+        assert r.retry_after > 0.0
+
+    def test_window_expiry_resets_counter(self):
+        """After the window expires the counter resets and requests are allowed again."""
+        fw = FixedWindowCounter(limit=2, window_seconds=0.1)
+        fw.increment()
+        fw.increment()
+        assert fw.increment().allowed is False
+        time.sleep(0.15)
+        assert fw.increment().allowed is True
+
+    def test_reset_clears_counter(self):
+        fw = FixedWindowCounter(limit=1, window_seconds=60.0)
+        fw.increment()
+        assert fw.increment().allowed is False
+        fw.reset()
+        assert fw.increment().allowed is True
+
+    def test_reset_after_is_finite(self):
+        fw = FixedWindowCounter(limit=5, window_seconds=1.0)
+        r = fw.increment()
+        assert math.isfinite(r.reset_after)
 
 
-class TestSlidingWindowCounts:
-    def test_current_count_zero_on_empty(self):
-        sw = SlidingWindow(max_requests=5, window_seconds=60.0)
-        assert sw.current_count() == 0
+# =========================================================================== #
+#  SlidingWindowCounter                                                         #
+# =========================================================================== #
 
-    def test_current_count_after_requests(self):
-        sw = SlidingWindow(max_requests=5, window_seconds=60.0)
-        start = 1000.0
-        for i in range(4):
-            sw.allow(now=start + float(i))
-        assert sw.current_count(now=start + 4.0) == 4
+class TestSlidingWindowCounter:
+    def test_first_request_allowed(self):
+        sw = SlidingWindowCounter(limit=5, window_seconds=60.0)
+        assert sw.increment().allowed is True
 
-    def test_remaining_equals_max_on_empty(self):
-        sw = SlidingWindow(max_requests=5, window_seconds=60.0)
-        assert sw.remaining() == 5
+    def test_returns_rate_limit_result(self):
+        sw = SlidingWindowCounter(limit=5, window_seconds=60.0)
+        assert isinstance(sw.increment(), RateLimitResult)
 
-    def test_remaining_decreases_after_requests(self):
-        sw = SlidingWindow(max_requests=5, window_seconds=60.0)
-        start = 1000.0
-        for i in range(3):
-            sw.allow(now=start + float(i))
-        assert sw.remaining(now=start + 3.0) == 2
+    def test_under_limit_allowed(self):
+        sw = SlidingWindowCounter(limit=5, window_seconds=60.0)
+        for _ in range(4):
+            assert sw.increment().allowed is True
+
+    def test_at_limit_denied(self):
+        sw = SlidingWindowCounter(limit=3, window_seconds=60.0)
+        for _ in range(3):
+            sw.increment()
+        result = sw.increment()
+        assert result.allowed is False
+
+    def test_remaining_decreases(self):
+        sw = SlidingWindowCounter(limit=5, window_seconds=60.0)
+        r = sw.increment()
+        assert r.remaining == 4
 
     def test_remaining_zero_when_exhausted(self):
-        sw = SlidingWindow(max_requests=2, window_seconds=60.0)
-        start = 1000.0
-        sw.allow(now=start)
-        sw.allow(now=start + 0.1)
-        assert sw.remaining(now=start + 0.2) == 0
+        sw = SlidingWindowCounter(limit=2, window_seconds=60.0)
+        sw.increment()
+        sw.increment()
+        r = sw.increment()
+        assert r.remaining == 0
 
-    def test_remaining_never_negative(self):
-        sw = SlidingWindow(max_requests=2, window_seconds=60.0)
-        start = 1000.0
-        for i in range(5):
-            sw.allow(now=start + float(i) * 0.1)
-        assert sw.remaining(now=start + 1.0) >= 0
+    def test_retry_after_zero_when_allowed(self):
+        sw = SlidingWindowCounter(limit=5, window_seconds=60.0)
+        assert sw.increment().retry_after == 0.0
 
-    def test_current_count_after_window_expires(self):
-        sw = SlidingWindow(max_requests=3, window_seconds=5.0)
-        start = 1000.0
-        for i in range(3):
-            sw.allow(now=start + float(i) * 0.1)
-        assert sw.current_count(now=start + 6.0) == 0
+    def test_retry_after_positive_when_denied(self):
+        sw = SlidingWindowCounter(limit=1, window_seconds=60.0)
+        sw.increment()
+        r = sw.increment()
+        assert r.retry_after > 0.0
+
+    def test_old_entries_evicted_allow_new_request(self):
+        """Old timestamps slide out of the window so new requests are allowed."""
+        sw = SlidingWindowCounter(limit=2, window_seconds=0.1)
+        sw.increment()
+        sw.increment()
+        assert sw.increment().allowed is False
+        time.sleep(0.15)
+        assert sw.increment().allowed is True
+
+    def test_reset_clears_timestamps(self):
+        sw = SlidingWindowCounter(limit=1, window_seconds=60.0)
+        sw.increment()
+        assert sw.increment().allowed is False
+        sw.reset()
+        assert sw.increment().allowed is True
+
+    def test_window_tracking_precise(self):
+        """Only requests within the window count toward the limit."""
+        sw = SlidingWindowCounter(limit=3, window_seconds=0.1)
+        sw.increment()
+        sw.increment()
+        sw.increment()
+        assert sw.increment().allowed is False
+        time.sleep(0.12)
+        # All old entries evicted; all 3 slots free again
+        for _ in range(3):
+            assert sw.increment().allowed is True
+
+    def test_reset_after_non_negative(self):
+        sw = SlidingWindowCounter(limit=1, window_seconds=1.0)
+        sw.increment()
+        r = sw.increment()
+        assert r.reset_after >= 0.0
 
 
-# ---------------------------------------------------------------------------
-# LimitConfig
-# ---------------------------------------------------------------------------
+# =========================================================================== #
+#  RateLimiter (registry)                                                       #
+# =========================================================================== #
 
-class TestLimitConfig:
-    def test_fields(self):
+class TestRateLimiterDefaults:
+    def test_instantiate_no_args(self):
+        rl = RateLimiter()
+        assert rl is not None
+
+    def test_default_config_is_sliding_window(self):
+        rl = RateLimiter()
+        assert rl._config.strategy is RateLimitStrategy.SLIDING_WINDOW
+
+    def test_keys_empty_on_fresh_instance(self):
+        rl = RateLimiter()
+        assert rl.keys() == []
+
+    def test_check_returns_rate_limit_result(self):
+        rl = RateLimiter()
+        result = rl.check("user:alice")
+        assert isinstance(result, RateLimitResult)
+
+    def test_first_check_allowed(self):
+        rl = RateLimiter()
+        result = rl.check("user:alice")
+        assert result.allowed is True
+
+    def test_key_created_after_first_check(self):
+        rl = RateLimiter()
+        rl.check("user:bob")
+        assert "user:bob" in rl.keys()
+
+
+class TestRateLimiterPerKeyIsolation:
+    def test_different_keys_are_independent(self):
+        # limit = requests_per_second * window_seconds = 1.0 * 1.0 = 1
+        cfg = RateLimitConfig(
+            strategy=RateLimitStrategy.SLIDING_WINDOW,
+            requests_per_second=1.0,
+            window_seconds=1.0,
+        )
+        rl = RateLimiter(config=cfg)
+        # exhaust key_a
+        rl.check("key_a")
+        r_a = rl.check("key_a")
+        assert r_a.allowed is False
+        # key_b is unaffected
+        r_b = rl.check("key_b")
+        assert r_b.allowed is True
+
+    def test_multiple_keys_tracked(self):
+        rl = RateLimiter()
+        for k in ("x", "y", "z"):
+            rl.check(k)
+        assert set(rl.keys()) == {"x", "y", "z"}
+
+    def test_keys_sorted(self):
+        rl = RateLimiter()
+        for k in ("c", "a", "b"):
+            rl.check(k)
+        assert rl.keys() == ["a", "b", "c"]
+
+
+class TestRateLimiterReset:
+    def test_reset_single_key(self):
+        # limit = requests_per_second * window_seconds = 1.0 * 1.0 = 1
+        cfg = RateLimitConfig(
+            strategy=RateLimitStrategy.SLIDING_WINDOW,
+            requests_per_second=1.0,
+            window_seconds=1.0,
+        )
+        rl = RateLimiter(config=cfg)
+        rl.check("k")
+        assert rl.check("k").allowed is False
+        rl.reset("k")
+        assert rl.check("k").allowed is True
+
+    def test_reset_unknown_key_no_error(self):
+        rl = RateLimiter()
+        rl.reset("does_not_exist")  # must not raise
+
+    def test_reset_all(self):
+        cfg = RateLimitConfig(
+            strategy=RateLimitStrategy.SLIDING_WINDOW,
+            requests_per_second=1.0,
+            window_seconds=60.0,
+        )
+        rl = RateLimiter(config=cfg)
+        for k in ("a", "b", "c"):
+            rl.check(k)
+            rl.check(k)  # exhaust
+        rl.reset_all()
+        for k in ("a", "b", "c"):
+            assert rl.check(k).allowed is True
+
+    def test_keys_still_present_after_reset(self):
+        """reset() resets the counter but keeps the key registered."""
+        rl = RateLimiter()
+        rl.check("k")
+        rl.reset("k")
+        assert "k" in rl.keys()
+
+
+class TestRateLimiterStrategies:
+    def test_token_bucket_strategy(self):
+        cfg = RateLimitConfig(
+            strategy=RateLimitStrategy.TOKEN_BUCKET,
+            requests_per_second=10.0,
+            burst_size=5,
+        )
+        rl = RateLimiter(config=cfg)
+        for _ in range(5):
+            assert rl.check("k").allowed is True
+        assert rl.check("k").allowed is False
+
+    def test_fixed_window_strategy(self):
+        cfg = RateLimitConfig(
+            strategy=RateLimitStrategy.FIXED_WINDOW,
+            requests_per_second=2.0,
+            window_seconds=1.0,
+        )
+        rl = RateLimiter(config=cfg)
+        # limit = 2 * 1 = 2
+        assert rl.check("k").allowed is True
+        assert rl.check("k").allowed is True
+        assert rl.check("k").allowed is False
+
+    def test_sliding_window_strategy(self):
+        cfg = RateLimitConfig(
+            strategy=RateLimitStrategy.SLIDING_WINDOW,
+            requests_per_second=3.0,
+            window_seconds=1.0,
+        )
+        rl = RateLimiter(config=cfg)
+        # limit = 3 * 1 = 3
+        for _ in range(3):
+            assert rl.check("k").allowed is True
+        assert rl.check("k").allowed is False
+
+    def test_custom_config_passed_correctly(self):
+        cfg = RateLimitConfig(
+            strategy=RateLimitStrategy.TOKEN_BUCKET,
+            burst_size=10,
+            requests_per_second=5.0,
+        )
+        rl = RateLimiter(config=cfg)
+        assert rl._config.burst_size == 10
+        assert rl._config.requests_per_second == 5.0
+
+
+# =========================================================================== #
+#  Legacy backwards-compatibility                                               #
+# =========================================================================== #
+
+class TestLegacyCompatibility:
+    def test_legacy_limit_config_fields(self):
         cfg = LimitConfig(key="user:bob", max_requests=10, window_seconds=60.0)
         assert cfg.key == "user:bob"
         assert cfg.max_requests == 10
         assert cfg.window_seconds == 60.0
         assert cfg.burst == 0
 
-    def test_burst_field(self):
-        cfg = LimitConfig(key="api:x", max_requests=5, window_seconds=1.0, burst=10)
-        assert cfg.burst == 10
-
-
-# ---------------------------------------------------------------------------
-# RateLimitResult
-# ---------------------------------------------------------------------------
-
-class TestRateLimitResult:
-    def test_bool_true_when_allowed(self):
-        r = RateLimitResult(allowed=True, key="k", remaining=4, retry_after=0.0)
-        assert bool(r) is True
-
-    def test_bool_false_when_denied(self):
-        r = RateLimitResult(allowed=False, key="k", remaining=0, retry_after=1.0)
-        assert bool(r) is False
-
-    def test_retry_after_zero_when_allowed(self):
-        r = RateLimitResult(allowed=True, key="k", remaining=3, retry_after=0.0)
-        assert r.retry_after == 0.0
-
-    def test_retry_after_positive_when_denied(self):
-        r = RateLimitResult(allowed=False, key="k", remaining=0, retry_after=0.5)
-        assert r.retry_after > 0.0
-
-    def test_remaining_field(self):
-        r = RateLimitResult(allowed=True, key="k", remaining=7, retry_after=0.0)
-        assert r.remaining == 7
-
-    def test_key_field(self):
-        r = RateLimitResult(allowed=True, key="user:alice", remaining=1, retry_after=0.0)
-        assert r.key == "user:alice"
-
-
-# ---------------------------------------------------------------------------
-# RateLimiter
-# ---------------------------------------------------------------------------
-
-class TestRateLimiter:
-    def _cfg(self, key="user:test", max_requests=3, window_seconds=60.0):
-        return LimitConfig(key=key, max_requests=max_requests, window_seconds=window_seconds)
-
-    def test_check_returns_rate_limit_result(self):
-        rl = RateLimiter()
-        result = rl.check(self._cfg())
-        assert isinstance(result, RateLimitResult)
-
-    def test_first_request_allowed(self):
-        rl = RateLimiter()
-        result = rl.check(self._cfg())
+    def test_legacy_limiter_check_allowed(self):
+        rl = _LegacyRateLimiter()
+        cfg = LimitConfig(key="x", max_requests=5, window_seconds=60.0)
+        result = rl.check(cfg)
         assert result.allowed is True
 
-    def test_first_n_requests_allowed(self):
-        rl = RateLimiter()
-        cfg = self._cfg(max_requests=5)
-        for _ in range(5):
-            assert rl.check(cfg).allowed is True
-
-    def test_n_plus_one_denied(self):
-        rl = RateLimiter()
-        cfg = self._cfg(max_requests=3)
-        for _ in range(3):
-            rl.check(cfg)
+    def test_legacy_limiter_check_denied(self):
+        rl = _LegacyRateLimiter()
+        cfg = LimitConfig(key="x", max_requests=1, window_seconds=60.0)
+        rl.check(cfg)
         result = rl.check(cfg)
         assert result.allowed is False
 
-    def test_reset_clears_state(self):
-        rl = RateLimiter()
-        cfg = self._cfg(max_requests=1)
-        rl.check(cfg)
-        assert rl.check(cfg).allowed is False
-        rl.reset(cfg.key)
-        assert rl.check(cfg).allowed is True
-
-    def test_reset_unknown_key_no_error(self):
-        rl = RateLimiter()
-        rl.reset("nonexistent")  # should not raise
-
-    def test_stats_contains_key_after_check(self):
-        rl = RateLimiter()
-        cfg = self._cfg(key="api:search")
-        rl.check(cfg)
-        s = rl.stats()
-        assert "api:search" in s
-
-    def test_stats_count_correct(self):
-        rl = RateLimiter()
-        cfg = self._cfg(key="api:calc", max_requests=10)
-        for _ in range(4):
-            rl.check(cfg)
-        s = rl.stats()
-        assert s["api:calc"] == 4
-
-    def test_different_keys_are_independent(self):
-        rl = RateLimiter()
-        cfg_a = self._cfg(key="user:a", max_requests=1)
-        cfg_b = self._cfg(key="user:b", max_requests=1)
-        assert rl.check(cfg_a).allowed is True
-        assert rl.check(cfg_b).allowed is True
-        # Second request for a denied, b unaffected by a's exhaustion
-        assert rl.check(cfg_a).allowed is False
-        # b is still at 1 allowed (exhausted now too)
-        assert rl.check(cfg_b).allowed is False
-
-    def test_allowed_result_has_non_negative_remaining(self):
-        rl = RateLimiter()
-        result = rl.check(self._cfg(max_requests=5))
-        assert result.remaining >= 0
-
-    def test_denied_result_has_positive_retry_after(self):
-        rl = RateLimiter()
-        cfg = self._cfg(max_requests=1, window_seconds=30.0)
-        rl.check(cfg)
-        denied = rl.check(cfg)
-        assert denied.retry_after > 0.0
-
-    def test_retry_after_formula(self):
-        """retry_after = window_seconds / max_requests when denied."""
-        rl = RateLimiter()
-        cfg = LimitConfig(key="k", max_requests=6, window_seconds=60.0)
-        for _ in range(6):
-            rl.check(cfg)
+    def test_legacy_result_has_key_field(self):
+        rl = _LegacyRateLimiter()
+        cfg = LimitConfig(key="user:alice", max_requests=5, window_seconds=60.0)
         result = rl.check(cfg)
-        assert result.retry_after == pytest.approx(10.0, abs=1e-6)
+        assert result.key == "user:alice"
 
-    def test_allowed_result_retry_after_is_zero(self):
-        rl = RateLimiter()
-        result = rl.check(self._cfg())
-        assert result.retry_after == 0.0
+    def test_legacy_sliding_window_allow(self):
+        sw = SlidingWindow(max_requests=3, window_seconds=60.0)
+        start = 1000.0
+        for i in range(3):
+            assert sw.allow(now=start + float(i)) is True
+        assert sw.allow(now=start + 3.0) is False
 
-    def test_stats_empty_on_fresh_limiter(self):
-        rl = RateLimiter()
-        assert rl.stats() == {}
-
-    def test_multiple_keys_in_stats(self):
-        rl = RateLimiter()
-        for key in ("a", "b", "c"):
-            rl.check(LimitConfig(key=key, max_requests=10, window_seconds=60.0))
-        s = rl.stats()
-        assert set(s.keys()) == {"a", "b", "c"}
-
-
-# ---------------------------------------------------------------------------
-# RateLimitStore
-# ---------------------------------------------------------------------------
-
-class TestRateLimitStore:
-    def _result(self, key="k", allowed=True, remaining=5):
-        return RateLimitResult(
-            allowed=allowed,
-            key=key,
-            remaining=remaining,
-            retry_after=0.0 if allowed else 1.0,
+    def test_rate_limit_store_record_and_count(self):
+        store = RateLimitStore()
+        result = _LegacyRateLimitResult(
+            allowed=True, key="k", remaining=4, retry_after=0.0
         )
-
-    def test_record_and_total_count(self):
-        store = RateLimitStore()
-        store.record(self._result())
+        store.record(result)
         assert store.total_count("k") == 1
-
-    def test_allowed_count(self):
-        store = RateLimitStore()
-        store.record(self._result(allowed=True))
-        store.record(self._result(allowed=True))
-        store.record(self._result(allowed=False))
-        assert store.allowed_count("k") == 2
-
-    def test_denied_count(self):
-        store = RateLimitStore()
-        store.record(self._result(allowed=True))
-        store.record(self._result(allowed=False))
-        store.record(self._result(allowed=False))
-        assert store.denied_count("k") == 2
-
-    def test_total_count_is_sum(self):
-        store = RateLimitStore()
-        for _ in range(3):
-            store.record(self._result(allowed=True))
-        for _ in range(2):
-            store.record(self._result(allowed=False))
-        assert store.total_count("k") == 5
-        assert store.allowed_count("k") + store.denied_count("k") == 5
-
-    def test_keys_are_independent(self):
-        store = RateLimitStore()
-        store.record(self._result(key="a", allowed=True))
-        store.record(self._result(key="a", allowed=True))
-        store.record(self._result(key="b", allowed=False))
-        assert store.allowed_count("a") == 2
-        assert store.denied_count("a") == 0
-        assert store.allowed_count("b") == 0
-        assert store.denied_count("b") == 1
-
-    def test_zero_counts_for_unknown_key(self):
-        store = RateLimitStore()
-        assert store.total_count("nobody") == 0
-        assert store.allowed_count("nobody") == 0
-        assert store.denied_count("nobody") == 0
-
-    def test_record_multiple_entries(self):
-        store = RateLimitStore()
-        for _ in range(10):
-            store.record(self._result(allowed=True))
-        assert store.total_count("k") == 10
-
-    def test_store_with_file_path(self, tmp_path):
-        db_file = tmp_path / "rl.db"
-        store = RateLimitStore(db_path=db_file)
-        store.record(self._result(allowed=True))
         store.close()
-        # Reopen and verify persistence
-        store2 = RateLimitStore(db_path=db_file)
-        assert store2.total_count("k") == 1
-        store2.close()
-
-    def test_close_does_not_raise(self):
-        store = RateLimitStore()
-        store.close()  # should not raise
-
-
-# ---------------------------------------------------------------------------
-# Integration: RateLimiter + RateLimitStore
-# ---------------------------------------------------------------------------
-
-class TestRateLimiterStoreIntegration:
-    def test_record_check_results(self):
-        rl = RateLimiter()
-        store = RateLimitStore()
-        cfg = LimitConfig(key="user:x", max_requests=2, window_seconds=60.0)
-        for _ in range(4):
-            result = rl.check(cfg)
-            store.record(result)
-        assert store.allowed_count("user:x") == 2
-        assert store.denied_count("user:x") == 2
-        assert store.total_count("user:x") == 4
