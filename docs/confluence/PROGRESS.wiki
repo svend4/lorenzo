@@ -6,7 +6,7 @@
 h1. Прогресс MVP
 
 
-{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+{quote}_Обновлено: 2026-05-13 (improve_progress_sync.py)_{quote}
 _Проекты:_ Svyazi, AgentFS, knowledge-space, NGT Memory
 
 ----
@@ -15,16 +15,11 @@ _Проекты:_ Svyazi, AgentFS, knowledge-space, NGT Memory
 
 
 
-{quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
-
-
-
-_Обновлено: 2026-05-12 (improve_progress_sync.py)_
+_Обновлено: 2026-05-13 (improve_progress_sync.py)_
 
 h2. Ключевые этапы (Milestones)
 
-{{███████████████░░░░░ 73%}} 8/11
+{{█████████████░░░░░░░ 64%}} 7/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
@@ -36,7 +31,7 @@ h2. Ключевые этапы (Milestones)
 ⬜ LLM-обогащение проектных файлов
 ✅ Создан рабочий прототип Knowledge OS
 ✅ Пройдено тестирование ансамбля
-✅ Опубликован MVP на GitHub
+⬜ Опубликован MVP на GitHub
 
 h2. Состояние компонентов
 
@@ -50,7 +45,7 @@ h2. Состояние компонентов
 h2. Метрики качества
 
 || Метрика || Балл || Статус ||
-|| Здоровье репо (HEALTH) || 100.0/100 || 🟢 ||
+|| Здоровье репо (HEALTH) || 99.0/100 || 🟢 ||
 || Качество доков (METRICS) || 95.9/100 || 🟢 ||
 || Go/No-Go (SCORING) || 96.0/100 || 🟢 ||
 
@@ -86,25 +81,14 @@ h2. Связанные документы
 
 ----
 
-_Смотрите также:_
-* [SCHEDULE|SCHEDULE.md]
-* [first-contacts|svyazi-2-0/outreach/first-contacts.md]
-* [DENSITY|DENSITY.md]
-* [INDEX|INDEX.md]
-
-
-
-
-----
-
-_Кто ссылается на этот документ (13):_
+_Кто ссылается на этот документ (10):_
 * [07-mvp-planning|01-svyazi/07-mvp-planning.md]
 * [116-9-checklist-применения-методологии|02-anthropic-vacancies/116-9-checklist-применения-методологии.md]
 * [CODE_BLOCKS|CODE_BLOCKS.md]
-* [CONTACTS|CONTACTS.md]
-* [DECISIONS|DECISIONS.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
-* _...ещё 5_
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* _...ещё 2_
 

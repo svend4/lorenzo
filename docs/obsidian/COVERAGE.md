@@ -13,11 +13,6 @@ date: 2026-05-13
 
 # Матрица покрытия документов
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > Условные обозначения: ✅ есть  ⬜ отсутствует
 **Проекты:** Svyazi
@@ -28,7 +23,7 @@ date: 2026-05-13
 
 
 
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-13_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -71,25 +66,14 @@ python scripts/improve_backlinks.py
 python scripts/improve_autofill.py
 ```
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[LLM_SUMMARIES]]
-- [[HEATMAP]]
-- [[SCORING]]
-- [[CROSS_SECTION]]
-
-
 <!-- backlinks -->
 
 ---
 
 **Кто ссылается на этот документ (6):**
-- [[CROSS_SECTION]]
 - [[METRICS]]
 - [[READABILITY]]
+- [[READING_TIME]]
 - [[README]]
 - [[SEARCH]]
 - [[TABLES]]

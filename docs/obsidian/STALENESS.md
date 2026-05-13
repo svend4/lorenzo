@@ -7,51 +7,46 @@ date: 2026-05-13
 
 # Отчёт об устаревших документах
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> _Порог: 30 дней. Обновлено: 2026-05-12_
+> _Порог: 30 дней. Обновлено: 2026-05-13_
 **Проекты:** Svyazi
 
 ---
-<!-- tags: ingestion, local-first, collaboration -->
+<!-- tags: ingestion, local-first, anthropic, collaboration -->
 
 
 
 
-_Порог: 30 дней. Обновлено: 2026-05-12_
+_Порог: 30 дней. Обновлено: 2026-05-13_
 
-Найдено проблем: **132** файлов
+Найдено проблем: **138** файлов
 
-## Без метаданных (нет summary или тегов) — 97 файлов
+## Без метаданных (нет summary или тегов) — 104 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
-| `docs/ALERTS.md` | 81 | нет summary, нет тегов, короткий (81 слов) |
-| `docs/AUTHORS.md` | 100 | нет summary, нет тегов |
-| `docs/BACKLINKS.md` | 401 | нет summary, нет тегов |
-| `docs/CHANGELOG.md` | 5351 | нет тегов |
-| `docs/COMPARE.md` | 321 | нет summary, нет тегов |
-| `docs/CONCEPT_GRAPH.md` | 641 | нет тегов |
-| `docs/CONSISTENCY.md` | 533 | нет summary, нет тегов |
-| `docs/CONTACTS.md` | 350 | нет summary, нет тегов |
-| `docs/CONTENT_GAPS.md` | 687 | нет summary, нет тегов |
-| `docs/CONTRADICTIONS.md` | 1624 | нет summary, нет тегов |
+| `docs/01-svyazi/QA.md` | 257 | нет summary, нет тегов |
+| `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
+| `docs/03-technology-combinations/QA.md` | 100 | нет summary, нет тегов |
+| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
+| `docs/05-habr-projects/QA.md` | 206 | нет summary, нет тегов |
+| `docs/AUTHORS.md` | 132 | нет тегов |
+| `docs/CHANGELOG.md` | 774 | нет summary, нет тегов |
+| `docs/COMPLEXITY.md` | 384 | нет тегов |
+| `docs/CONTACTS.md` | 316 | нет summary, нет тегов |
 | `docs/COST.md` | 344 | нет summary, нет тегов |
 | `docs/CROSSREFS.md` | 522 | нет тегов |
-| `docs/CROSS_SECTION.md` | 3800 | нет summary, нет тегов |
-| `docs/DEPENDABOT.md` | 124 | нет summary, нет тегов |
-| `docs/DIGEST.md` | 229 | нет summary, нет тегов |
-| `docs/DIGEST_AUTO.md` | 418 | нет summary, нет тегов |
-| `docs/GLOSSARY.md` | 125 | нет summary, нет тегов |
-| `docs/KEYWORD_INDEX.md` | 498 | нет summary, нет тегов |
-| `docs/KPI.md` | 2096 | нет summary, нет тегов |
-| `docs/KPI_HISTORY.md` | 116 | нет summary, нет тегов |
+| `docs/DIGEST.md` | 232 | нет summary, нет тегов |
+| `docs/GLOSSARY.md` | 159 | нет тегов |
+| `docs/LINKS.md` | 607 | нет тегов |
+| `docs/MCP_DASHBOARD.md` | 21 | нет summary, нет тегов, короткий (21 слов) |
+| `docs/PRIORITIES.md` | 1751 | нет тегов |
+| `docs/PROGRESS.md` | 219 | нет summary, нет тегов |
+| `docs/QA.md` | 2240 | нет summary, нет тегов |
+| `docs/SCHEDULE.md` | 212 | нет summary, нет тегов |
+| `docs/SCORING.md` | 211 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 35 файлов
+## Короткие (< 100 слов, заготовки) — 34 файлов
 
 | Файл | Слов |
 |------|------|
@@ -87,27 +82,15 @@ python scripts/improve_tags.py
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[TAGS]]
-- [[SPELLCHECK]]
-- [[HEALTH]]
-- [[LLM_SUMMARIES]]
-
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (7):**
+**Кто ссылается на этот документ (6):**
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
 - [[SEARCH]]
 - [[TABLES]]
-- [[TAGS]]
 - [[VERSION_DIFF]]
 

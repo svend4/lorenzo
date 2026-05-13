@@ -1,318 +1,308 @@
 # Индекс тегов
 
-<!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
----
-
-
-
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
-Каждый файл помечен тегами по темам автоматически.
-
-
-## #anthropic (46 файлов)
-
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONCEPT_GRAPH.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COVERAGE.md`
-- `docs/CROSS_SECTION.md`
-- `docs/DEPENDABOT.md`
-- `docs/DIGEST_AUTO.md`
-- `docs/KEYWORD_INDEX.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/LLM_GAPS.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCRIPTS_CATALOG.md`
-- _...и ещё 26_
-
-## #architecture (42 файлов)
-
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/KEYWORD_INDEX.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/LLM_GAPS.md`
-- `docs/NARRATIVE.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCHEDULE.md`
-- `docs/SCORING.md`
-- `docs/SCRIPTS_CATALOG.md`
-- _...и ещё 22_
-
-## #collaboration (52 файлов)
-
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/CROSS_SECTION.md`
-- `docs/DEPENDABOT.md`
-- `docs/KEYWORD_INDEX.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/NARRATIVE.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCHEDULE.md`
-- _...и ещё 32_
-
-## #ingestion (52 файлов)
-
-- `docs/ALERTS.md`
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/CONCEPT_GRAPH.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COVERAGE.md`
-- `docs/CROSS_SECTION.md`
-- `docs/DEPENDABOT.md`
-- `docs/DIGEST.md`
-- `docs/DIGEST_AUTO.md`
-- `docs/KEYWORD_INDEX.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/NARRATIVE.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
-- _...и ещё 32_
-
-## #knowledge (35 файлов)
-
-- `docs/CHANGELOG.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COST.md`
-- `docs/DEPENDABOT.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/NARRATIVE.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCHEDULE.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SITEMAP.md`
-- `docs/SUMMARIES.md`
-- `docs/VALIDATION.md`
-- `docs/obsidian/CHANGELOG.md`
-- `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 15_
-
-## #local-first (23 файлов)
-
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/CONCEPT_GRAPH.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/READING_ORDER.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SITEMAP.md`
-- `docs/STALENESS.md`
-- `docs/SUMMARIES.md`
-- `docs/obsidian/BACKLINKS.md`
-- `docs/obsidian/CHANGELOG.md`
-- `docs/obsidian/CONCEPT_GRAPH.md`
-- `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CONTACTS.md`
-- `docs/obsidian/KPI.md`
-- `docs/obsidian/LANGUAGE_STATS.md`
-- `docs/obsidian/READING_ORDER.md`
-- _...и ещё 3_
-
-## #memory (37 файлов)
-
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COST.md`
-- `docs/DEPENDABOT.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/NARRATIVE.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCHEDULE.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SITEMAP.md`
-- `docs/SUMMARIES.md`
-- `docs/obsidian/BACKLINKS.md`
-- _...и ещё 17_
-
-## #orchestration (26 файлов)
-
-- `docs/CHANGELOG.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COST.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/NARRATIVE.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SITEMAP.md`
-- `docs/SUMMARIES.md`
-- `docs/obsidian/CHANGELOG.md`
-- `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CONTACTS.md`
-- `docs/obsidian/CONTACT_PRIORITY.md`
-- `docs/obsidian/CONTRADICTIONS.md`
-- `docs/obsidian/COST.md`
-- _...и ещё 6_
-
-## #rag (37 файлов)
-
-- `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/CROSS_SECTION.md`
-- `docs/DIGEST.md`
-- `docs/DIGEST_AUTO.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/NARRATIVE.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SENTIMENT.md`
-- `docs/SITEMAP.md`
-- `docs/STATS.md`
-- `docs/SUMMARIES.md`
-- `docs/obsidian/CHANGELOG.md`
-- _...и ещё 17_
-
-## #roadmap (37 файлов)
-
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONTACTS.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/NARRATIVE.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCHEDULE.md`
-- `docs/SCORING.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SITEMAP.md`
-- `docs/SUMMARIES.md`
-- `docs/VALIDATION.md`
-- _...и ещё 17_
-
-## #security (28 файлов)
-
-- `docs/CHANGELOG.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCHEDULE.md`
-- `docs/SCORING.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SITEMAP.md`
-- `docs/SUMMARIES.md`
-- `docs/obsidian/CHANGELOG.md`
-- `docs/obsidian/CONTACTS.md`
-- `docs/obsidian/CONTACT_PRIORITY.md`
-- `docs/obsidian/CONTRADICTIONS.md`
-- `docs/obsidian/COST.md`
-- _...и ещё 8_
-
-## #self-improvement (25 файлов)
-
-- `docs/CHANGELOG.md`
-- `docs/CONSISTENCY.md`
-- `docs/CONTACTS.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/CONTRADICTIONS.md`
-- `docs/KPI.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
-- `docs/REPORT.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SITEMAP.md`
-- `docs/SUMMARIES.md`
-- `docs/obsidian/CHANGELOG.md`
-- `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CONTACTS.md`
-- `docs/obsidian/CONTRADICTIONS.md`
-- `docs/obsidian/KPI.md`
-- `docs/obsidian/LANGUAGE_STATS.md`
-- `docs/obsidian/PROGRESS.md`
-- _...и ещё 5_
-
-<!-- see-also -->
+<!-- summary -->
+> Каждый файл помечен тегами по темам автоматически.
+**Проекты:** Svyazi
 
 ---
 
-**Смотрите также:**
-- [STALENESS](STALENESS.md)
-- [METRICS](METRICS.md)
-- [MINDMAP](MINDMAP.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
 
+
+Каждый файл помечен тегами по темам автоматически.
+
+
+## #anthropic (56 файлов)
+
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/BACKLINKS.md`
+- `docs/CLUSTERS.md`
+- `docs/COMPARE.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONCEPT_GRAPH.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COVERAGE.md`
+- `docs/CROSS_SECTION.md`
+- `docs/DEPENDABOT.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/KEYWORD_INDEX.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/LLM_GAPS.md`
+- `docs/PRIORITIES.md`
+- `docs/PROGRESS.md`
+- _...и ещё 36_
+
+## #architecture (58 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/CLUSTERS.md`
+- `docs/COMPARE.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/COVERAGE.md`
+- `docs/KEYWORD_INDEX.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/LLM_GAPS.md`
+- `docs/NARRATIVE.md`
+- `docs/PRIORITIES.md`
+- _...и ещё 38_
+
+## #collaboration (66 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/BACKLINKS.md`
+- `docs/CLUSTERS.md`
+- `docs/COMPARE.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/COVERAGE.md`
+- `docs/CROSS_SECTION.md`
+- `docs/DEPENDABOT.md`
+- `docs/KEYWORD_INDEX.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/NARRATIVE.md`
+- _...и ещё 46_
+
+## #ingestion (63 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/ALERTS.md`
+- `docs/BACKLINKS.md`
+- `docs/CHANGELOG.md`
+- `docs/CLUSTERS.md`
+- `docs/CONCEPT_GRAPH.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COVERAGE.md`
+- `docs/CROSS_SECTION.md`
+- `docs/DEPENDABOT.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/KEYWORD_INDEX.md`
+- `docs/KPI.md`
+- _...и ещё 43_
+
+## #knowledge (45 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/CLUSTERS.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/DEPENDABOT.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/NARRATIVE.md`
+- `docs/PRIORITIES.md`
+- `docs/PROGRESS.md`
+- `docs/QA.md`
+- `docs/QUESTIONS.md`
+- `docs/READING_ORDER.md`
+- _...и ещё 25_
+
+## #local-first (25 файлов)
+
+- `docs/BACKLINKS.md`
+- `docs/CLUSTERS.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/PRIORITIES.md`
+- `docs/READING_ORDER.md`
+- `docs/SCRIPTS_CATALOG.md`
+- `docs/SEE_ALSO.md`
+- `docs/SITEMAP.md`
+- `docs/STALENESS.md`
+- `docs/WORD_FREQ.md`
+- `docs/obsidian/BACKLINKS.md`
+- `docs/obsidian/CLUSTERS.md`
+- `docs/obsidian/COMPLEXITY.md`
+- `docs/obsidian/CONSISTENCY.md`
+- `docs/obsidian/KPI.md`
+- `docs/obsidian/LANGUAGE_STATS.md`
+- _...и ещё 5_
+
+## #memory (45 файлов)
+
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/BACKLINKS.md`
+- `docs/CLUSTERS.md`
+- `docs/COMPARE.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/DEPENDABOT.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/NARRATIVE.md`
+- `docs/PRIORITIES.md`
+- `docs/PROGRESS.md`
+- `docs/QA.md`
+- `docs/QUESTIONS.md`
+- `docs/READING_ORDER.md`
+- _...и ещё 25_
+
+## #orchestration (31 файлов)
+
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/CHANGELOG.md`
+- `docs/CLUSTERS.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/NARRATIVE.md`
+- `docs/PRIORITIES.md`
+- `docs/QA.md`
+- `docs/QUESTIONS.md`
+- `docs/READING_ORDER.md`
+- `docs/SCRIPTS_CATALOG.md`
+- `docs/SITEMAP.md`
+- `docs/letters/QA.md`
+- `docs/obsidian/CLUSTERS.md`
+- `docs/obsidian/COMPLEXITY.md`
+- _...и ещё 11_
+
+## #rag (43 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/03-technology-combinations/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/CHANGELOG.md`
+- `docs/CLUSTERS.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/DIGEST.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/NARRATIVE.md`
+- `docs/PRIORITIES.md`
+- `docs/QA.md`
+- `docs/QUESTIONS.md`
+- `docs/READING_ORDER.md`
+- `docs/SCRIPTS_CATALOG.md`
+- _...и ещё 23_
+
+## #roadmap (49 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/05-habr-projects/QA.md`
+- `docs/BACKLINKS.md`
+- `docs/CLUSTERS.md`
+- `docs/COMPARE.md`
+- `docs/CONTACTS.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/COVERAGE.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/NARRATIVE.md`
+- `docs/PRIORITIES.md`
+- `docs/PROGRESS.md`
+- `docs/QA.md`
+- `docs/QUESTIONS.md`
+- `docs/READING_ORDER.md`
+- _...и ещё 29_
+
+## #security (27 файлов)
+
+- `docs/01-svyazi/QA.md`
+- `docs/02-anthropic-vacancies/QA.md`
+- `docs/04-ai-collaborations/QA.md`
+- `docs/CLUSTERS.md`
+- `docs/CONTACTS.md`
+- `docs/CONTACT_PRIORITY.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/COST.md`
+- `docs/COVERAGE.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/QA.md`
+- `docs/READING_ORDER.md`
+- `docs/SCHEDULE.md`
+- `docs/SCORING.md`
+- `docs/SCRIPTS_CATALOG.md`
+- `docs/SEE_ALSO.md`
+- `docs/SITEMAP.md`
+- `docs/meta-scripting/QA.md`
+- `docs/obsidian/CLUSTERS.md`
+- _...и ещё 7_
+
+## #self-improvement (34 файлов)
+
+- `docs/CHANGELOG.md`
+- `docs/CLUSTERS.md`
+- `docs/COMPLEXITY.md`
+- `docs/CONSISTENCY.md`
+- `docs/CONTACTS.md`
+- `docs/CONTENT_GAPS.md`
+- `docs/CONTRADICTIONS.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/KPI.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/PRIORITIES.md`
+- `docs/PROGRESS.md`
+- `docs/QUESTIONS.md`
+- `docs/READING_ORDER.md`
+- `docs/REGISTRY.md`
+- `docs/SCRIPTS_CATALOG.md`
+- `docs/SITEMAP.md`
+- `docs/TASKS_INDEX.md`
+- `docs/WORD_FREQ.md`
+- `docs/obsidian/CLUSTERS.md`
+- _...и ещё 14_
 
 <!-- backlinks -->
 
@@ -328,4 +318,15 @@
 - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
 - [READABILITY](READABILITY.md)
 - _...ещё 6_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [METRICS](METRICS.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [CONSISTENCY](CONSISTENCY.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
 

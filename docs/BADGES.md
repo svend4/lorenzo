@@ -10,7 +10,7 @@
 
 <!-- alert-added -->
 
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-13_
 
 
 ## Превью
@@ -21,7 +21,7 @@ _Обновлено: 2026-05-12_
 - **mcp-servers** ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
 - **manifests** ![manifests](https://img.shields.io/badge/manifests-13-blue)
 - **scripts** ![scripts](https://img.shields.io/badge/scripts-166-blue)
-- **health** ![health](https://img.shields.io/badge/health-100/100-brightgreen)
+- **health** ![health](https://img.shields.io/badge/health-99/100-brightgreen)
 - **validation** ![validation](https://img.shields.io/badge/validation-21--valid-brightgreen)
 
 ## Markdown сниппеты для README
@@ -32,7 +32,7 @@ _Обновлено: 2026-05-12_
 ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
 ![manifests](https://img.shields.io/badge/manifests-13-blue)
 ![scripts](https://img.shields.io/badge/scripts-166-blue)
-![health](https://img.shields.io/badge/health-100/100-brightgreen)
+![health](https://img.shields.io/badge/health-99/100-brightgreen)
 ![validation](https://img.shields.io/badge/validation-21--valid-brightgreen)
 ```
 

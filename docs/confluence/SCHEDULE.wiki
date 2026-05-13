@@ -6,17 +6,12 @@
 h1. Расписание проекта
 
 
-{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+{quote}_Дорожная карта с вехами и задачами по кварталам._{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
 ----
 
 
-
-
-
-{quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 
 
@@ -76,25 +71,12 @@ h2. Текущий статус
 
 ----
 
-_Смотрите также:_
-* [DENSITY|DENSITY.md]
-* [PROGRESS|PROGRESS.md]
-* [SCORING|SCORING.md]
-* [HEATMAP|HEATMAP.md]
-
-
-
-
-----
-
-_Кто ссылается на этот документ (10):_
-* [COST|COST.md]
+_Кто ссылается на этот документ (7):_
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
-* [PROGRESS|PROGRESS.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
-* [SCORING|SCORING.md]
-* _...ещё 2_
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
 

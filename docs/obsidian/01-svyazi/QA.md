@@ -14,16 +14,9 @@ date: 2026-05-13
 
 # Q&A: 01-svyazi
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > _Автоматически сгенерировано по 14 файлам раздела._
-**Проекты:** Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel], LiteLLM, Auto AI Router
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG
 
 ---
 <!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
@@ -81,6 +74,18 @@ _Автоматически сгенерировано по 14 файлам ра
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
+## Как работает AgentFS и что такое .agentos?
+
+Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
+
+## Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
+
+## Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
 <!-- backlinks -->
 
 ---
@@ -93,31 +98,3 @@ _Автоматически сгенерировано по 14 файлам ра
 - [[SEARCH]]
 - [[TABLES]]
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[QA]] (сходство 0.99)
-- [[QA]] (сходство 0.85)
-- [[QA]] (сходство 0.84)
-
-
-
-<!-- footnotes-added -->
-
----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
-
-[^sentinel]: OSS-проект: безопасность и allowlist для MCP
-
-[^svyazi]: Главный проект: экосистема AI-компонентов

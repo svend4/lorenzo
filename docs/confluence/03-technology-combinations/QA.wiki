@@ -5,11 +5,6 @@
 
 h1. Q&A: 03-technology-combinations
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 {quote}_Автоматически сгенерировано по 5 файлам раздела._{quote}
 _Проекты:_ CardIndex, AgentFS, knowledge-space
@@ -65,21 +60,4 @@ _Кто ссылается на этот документ (6):_
 * [READING_TIME|../READING_TIME.md]
 * [SEARCH|../SEARCH.md]
 * [TABLES|../TABLES.md]
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_qa.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [QA|../obsidian/03-technology-combinations/QA.md] (сходство 0.97)
-* [QA|../processing-guide/QA.md] (сходство 0.51)
-* [QA|../lorenzo-agent/QA.md] (сходство 0.50)
 

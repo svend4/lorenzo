@@ -6,7 +6,7 @@
 h1. Health Dashboard
 
 
-{quote}Балл здоровья репозитория: _100/100_ — файлов: 2482, слов: 2,922,644{quote}
+{quote}Балл здоровья репозитория: _99/100_ — файлов: 2484, слов: 2,922,288{quote}
 
 
 
@@ -15,9 +15,9 @@ h1. Health Dashboard
 
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
-h2. Общий балл: _100/100_ 🟢
+h2. Общий балл: _99/100_ 🟢
 
 h2. Метрики
 
@@ -25,13 +25,13 @@ h2. Метрики
 || Покрытие текста || 97.6% || 🟢 || 98 ||
 || Полнота тем || 25✅ 0⚠️ 0❌ || 🟢 || 100 ||
 || Согласованность || 0 проблем || 🟢 || 100 ||
-|| Внутренние ссылки || 0 сломано || 🟢 || 100 ||
+|| Внутренние ссылки || 90 сломано || 🟢 || 96 ||
 || Дублирование || 0 точных дублей || 🟢 || 100 ||
 
 h2. Структура репозитория
 
-_Файлов:_ 2482  
-_Слов:_ 2,922,644
+_Файлов:_ 2484  
+_Слов:_ 2,922,288
 
 || Раздел || Файлов ||
 || 01-svyazi || 16 ||
@@ -50,18 +50,18 @@ _Слов:_ 2,922,644
 || lorenzo-agent || 62 ||
 || meta-scripting || 7 ||
 || nautilus || 255 ||
-|| obsidian || 1238 ||
+|| obsidian || 1239 ||
 || processing-guide || 13 ||
-|| root || 114 ||
+|| root || 115 ||
 || svyazi-2-0 || 60 ||
 || technology-combinations || 53 ||
 || templates || 24 ||
 
 h2. Action Items
 
-Извлечено действий: _3515_  
+Извлечено действий: _3505_  
 Пробелов знаний: _0_  
-Сломанных ссылок: _0_
+Сломанных ссылок: _90_
 
 h2. Скрипты обработки
 
@@ -69,6 +69,7 @@ h2. Скрипты обработки
 
 h2. Рекомендации
 
+* 🔗 Проверить 90 сломанных ссылок ({{BROKEN_LINKS.md}})
 * ✅ Репозиторий в отличном состоянии!
 
 h2. Смотрите также
@@ -82,24 +83,14 @@ h2. Смотрите также
 
 ----
 
-_Смотрите также:_
-* [VALIDATION|VALIDATION.md]
-* [METRICS|METRICS.md]
-* [REPORT|REPORT.md]
-
-
-
-
-----
-
-_Кто ссылается на этот документ (36):_
+_Кто ссылается на этот документ (33):_
 * [BROKEN_LINKS|BROKEN_LINKS.md]
 * [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
 * [CITATION_INDEX|CITATION_INDEX.md]
-* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
-* [CONTRADICTIONS|CONTRADICTIONS.md]
-* [CROSS_SECTION|CROSS_SECTION.md]
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
 * [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
 * [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
-* _...ещё 28_
+* [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
+* [GITHUB_ISSUES|GITHUB_ISSUES.md]
+* _...ещё 25_
 

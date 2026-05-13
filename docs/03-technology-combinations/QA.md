@@ -1,20 +1,5 @@
 # Q&A: 03-technology-combinations
 
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Автоматически сгенерировано по 5 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space
-
----
-<!-- tags: rag, knowledge, ingestion, architecture -->
-
-
-
-
 _Автоматически сгенерировано по 5 файлам раздела._
 
 ## Как реализован forensic RAG с доказуемостью?
@@ -48,33 +33,3 @@ _Не найдено в этом файле._
 ## Что входит в интеграционный контракт между слоями?
 
 _Не найдено в этом файле._
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/03-technology-combinations/QA.md) (сходство 0.97)
-- [QA](../processing-guide/QA.md) (сходство 0.51)
-- [QA](../lorenzo-agent/QA.md) (сходство 0.50)
-

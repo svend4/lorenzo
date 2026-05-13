@@ -16,7 +16,7 @@ date: 2026-05-13
 # Приоритет контактов
 
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> 1. **kksudo** (AgentFS, 189 упоминаний) → [[kksudo|открыть контакт]]
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
@@ -25,24 +25,19 @@ date: 2026-05-13
 
 
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-13_
 
 ## Топ авторов по приоритету
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 190 | 👁 Изучили | 581 |
-| 2 | **spbmolot** | NGT Memory | memory | 169 | 👁 Изучили | 518 |
+| 1 | **kksudo** | AgentFS | knowledge/filesystem | 189 | 👁 Изучили | 578 |
+| 2 | **spbmolot** | NGT Memory | memory | 167 | 👁 Изучили | 512 |
 | 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 128 | 👁 Изучили | 395 |
 | 4 | **VitalyOborin** | Yodoca | memory | 104 | 👁 Изучили | 323 |
 | 5 | **zodigancode** | Rufler | orchestration | 91 | 👁 Изучили | 282 |
 | 6 | **Antipozitive** | MemNet | memory | 78 | 👁 Изучили | 245 |
-| 7 | **VladSpace** | Graph RAG | rag | 79 | ⬜ Не начато | 241 |
+| 7 | **VladSpace** | Graph RAG | rag | 80 | ⬜ Не начато | 244 |
 | 8 | **nlaik** | LiteParse / research-docs | rag | 75 | 👁 Изучили | 234 |
 | 9 | **Cutcode** | AIF Handoff | orchestration | 68 | ⬜ Не начато | 208 |
 | 10 | **Dmitriila** | SENTINEL | security | 60 | ⬜ Не начато | 182 |
@@ -56,8 +51,8 @@ _Обновлено: 2026-05-12_
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 190 упоминаний) → [[kksudo|открыть контакт]]
-1. **spbmolot** (NGT Memory, 169 упоминаний) → [[spbmolot|открыть контакт]]
+1. **kksudo** (AgentFS, 189 упоминаний) → [[kksudo|открыть контакт]]
+1. **spbmolot** (NGT Memory, 167 упоминаний) → [[spbmolot|открыть контакт]]
 1. **AnastasiyaW** (knowledge-space, mclaude, 128 упоминаний) → [[anastasiyaw|открыть контакт]]
 
 ## Формула расчёта балла
@@ -70,29 +65,18 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 
 _Чем выше балл — тем важнее написать первым._
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[AUTHORS]]
-- [[CONTACTS]]
-- [[authors-by-name]]
-- [[NETWORK]]
-
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (17):**
-- [[AUTHORS]]
+**Кто ссылается на этот документ (13):**
 - [[COLLAB_SUGGESTIONS]]
-- [[CONTACTS]]
-- [[DEPENDABOT]]
-- [[GLOSSARY]]
 - [[MINDMAP]]
 - [[OUTLINE]]
 - [[PRECISION_EVAL]]
-- _...ещё 9_
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 5_
 

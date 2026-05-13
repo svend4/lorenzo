@@ -1,19 +1,5 @@
 # Q&A: meta-scripting
 
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Автоматически сгенерировано по 5 файлам раздела._
-
----
-<!-- tags: security, architecture -->
-
-
-
-
 _Автоматически сгенерировано по 5 файлам раздела._
 
 ## Какие инструменты обеспечивают безопасность агентов?
@@ -35,33 +21,3 @@ _Не найдено в этом файле._
 ## Что входит в интеграционный контракт между слоями?
 
 _Не найдено в этом файле._
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [README](README.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/meta-scripting/QA.md) (сходство 0.97)
-- [QA](../03-technology-combinations/QA.md) (сходство 0.45)
-- [QA](../obsidian/03-technology-combinations/QA.md) (сходство 0.44)
-

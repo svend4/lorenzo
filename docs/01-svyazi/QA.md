@@ -1,22 +1,5 @@
 # Q&A: 01-svyazi
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Автоматически сгенерировано по 14 файлам раздела._
-**Проекты:** Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel], LiteLLM, Auto AI Router
-
----
-<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
-
-
 _Автоматически сгенерировано по 14 файлам раздела._
 
 ## Какие 5 архитектурных зазоров выделены в исследовании?
@@ -25,7 +8,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Как реализован forensic RAG с доказуемостью?
 
@@ -33,7 +16,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -67,43 +50,14 @@ _Автоматически сгенерировано по 14 файлам ра
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
-<!-- backlinks -->
+## Как работает AgentFS и что такое .agentos?
 
----
+Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
 
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+## Что такое knowledge-space и для кого он предназначен?
 
+Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
 
+## Как CardIndex хранит и версионирует карточки?
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/01-svyazi/QA.md) (сходство 0.99)
-- [QA](../04-ai-collaborations/QA.md) (сходство 0.85)
-- [QA](../obsidian/04-ai-collaborations/QA.md) (сходство 0.84)
-
-
-
-<!-- footnotes-added -->
-
----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
-
-[^sentinel]: OSS-проект: безопасность и allowlist для MCP
-
-[^svyazi]: Главный проект: экосистема AI-компонентов
+Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**

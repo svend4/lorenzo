@@ -8,7 +8,7 @@ date: 2026-05-13
 # Контакты и авторы
 
 <!-- summary -->
-> > Документ содержит практические рекомендации и лучшие практики.
+> Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
@@ -28,11 +28,6 @@ date: 2026-05-13
 
 
 
-> [!TIP]
-> Документ содержит практические рекомендации и лучшие практики.
-
-<!-- alert-added -->
-
 ## Ключевые авторы проектов
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
@@ -44,12 +39,12 @@ date: 2026-05-13
 | **MiXaiLL76** | Auto AI Router | security | 56 | — |
 | **Sonia_Black** | knowledge-space | knowledge | 38 | — |
 | **VitalyOborin** | Yodoca | memory | 104 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 79 | — |
+| **VladSpace** | Graph RAG | rag | 80 | — |
 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 31 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
-| **kksudo** | AgentFS | knowledge/filesystem | 190 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
+| **kksudo** | AgentFS | knowledge/filesystem | 189 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
 | **lee-to** | AI Factory | orchestration | 22 | — |
 | **nlaik** | LiteParse / research-docs | rag | 75 | — |
-| **spbmolot** | NGT Memory | memory | 169 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
+| **spbmolot** | NGT Memory | memory | 167 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
 | **tagir_analyzes** | Legal RAG | rag | 29 | — |
 | **zodigancode** | Rufler | orchestration | 91 | — |
 
@@ -126,24 +121,14 @@ date: 2026-05-13
 
 ---
 
-**Кто ссылается на этот документ (30):**
+**Кто ссылается на этот документ (27):**
 - [[13-contacts]]
 - [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]]
-- [[AUTHORS]]
-- [[CONTACT_PRIORITY]]
 - [[EMPTY_SECTIONS]]
 - [[ENTITIES]]
 - [[GITHUB_ISSUES]]
 - [[HEADING_AUDIT]]
-- _...ещё 22_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[AUTHORS]]
-- [[NETWORK]]
-- [[PROGRESS]]
+- [[INDEX]]
+- [[LINK_PREVIEW]]
+- _...ещё 19_
 

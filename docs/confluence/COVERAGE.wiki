@@ -5,11 +5,6 @@
 
 h1. Матрица покрытия документов
 
-{quote}[!NOTE]{quote}
-{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
-
-
-
 
 {quote}Условные обозначения: ✅ есть  ⬜ отсутствует{quote}
 _Проекты:_ Svyazi
@@ -20,7 +15,7 @@ _Проекты:_ Svyazi
 
 
 
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-13_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -66,21 +61,10 @@ python scripts/improve_autofill.py
 
 ----
 
-_Смотрите также:_
-* [LLM_SUMMARIES|LLM_SUMMARIES.md]
-* [HEATMAP|HEATMAP.md]
-* [SCORING|SCORING.md]
-* [CROSS_SECTION|CROSS_SECTION.md]
-
-
-
-
-----
-
 _Кто ссылается на этот документ (6):_
-* [CROSS_SECTION|CROSS_SECTION.md]
 * [METRICS|METRICS.md]
 * [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]

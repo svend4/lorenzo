@@ -12,73 +12,54 @@ date: 2026-05-13
 
 h1. Глоссарий проектов
 
-
-{quote}Все проекты, упоминаемые в документах, с количеством файлов.{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
-----
-
-
-
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 || Проект || Упоминается в файлах ||
-|| **AI Factory** || 153 ||
-|| **AIF Handoff** || 64 ||
-|| **AgentFS** || 262 ||
-|| **Auto AI Router** || 135 ||
-|| **AutoResearch** || 126 ||
+|| **AI Factory** || 151 ||
+|| **AIF Handoff** || 63 ||
+|| **AgentFS** || 259 ||
+|| **Auto AI Router** || 132 ||
+|| **AutoResearch** || 124 ||
 || **Automerge** || 76 ||
-|| **CardIndex** || 298 ||
+|| **CardIndex** || 296 ||
 || **Firecrawl** || 43 ||
-|| **Graph RAG** || 105 ||
-|| **Hybrid RAG** || 103 ||
+|| **Graph RAG** || 104 ||
+|| **Hybrid RAG** || 104 ||
 || **Legal RAG** || 107 ||
-|| **LiteLLM** || 99 ||
-|| **LiteParse** || 193 ||
-|| **MemNet** || 284 ||
+|| **LiteLLM** || 97 ||
+|| **LiteParse** || 192 ||
+|| **MemNet** || 281 ||
 || **Memory OS** || 97 ||
-|| **NGT Memory** || 223 ||
+|| **NGT Memory** || 219 ||
 || **OpenWhispr** || 39 ||
 || **RLM-Toolkit** || 20 ||
-|| **Rufler** || 209 ||
-|| **SENTINEL** || 192 ||
+|| **Rufler** || 207 ||
+|| **SENTINEL** || 188 ||
 || **Self-Aware MCP** || 44 ||
 || **Sequential** || 231 ||
-|| **Svyazi** || 746 ||
-|| **Tool Search** || 105 ||
-|| **Whisper** || 55 ||
-|| **Wikontic** || 123 ||
+|| **Svyazi** || 741 ||
+|| **Tool Search** || 103 ||
+|| **Whisper** || 53 ||
+|| **Wikontic** || 122 ||
 || **Yjs** || 92 ||
-|| **Yodoca** || 339 ||
-|| **Yttri** || 39 ||
-|| **agent-memory-mcp** || 143 ||
-|| **knowledge-space** || 245 ||
-|| **mclaude** || 215 ||
+|| **Yodoca** || 336 ||
+|| **Yttri** || 37 ||
+|| **agent-memory-mcp** || 140 ||
+|| **knowledge-space** || 242 ||
+|| **mclaude** || 211 ||
 
 
 
 ----
 
-_Кто ссылается на этот документ (37):_
+_Кто ссылается на этот документ (35):_
 * [[03-local-first]]
 * [[04-sozialrecht-domain]]
 * [[CHANGELOG_AUTO]]
 * [[CITATION_INDEX]]
 * [[COMPONENT_MATRIX]]
-* [[CONTACT_PRIORITY]]
 * [[DENSITY]]
 * [[DEPENDENCY_MAP]]
-* _...ещё 29_
-
-
-
-
-----
-
-_Смотрите также:_
-* [[MINDMAP]]
-* [[GRAPH]]
-* [[ENTITIES]]
-* [[NETWORK]]
+* [[DIGEST_WEEKLY]]
+* _...ещё 27_
 

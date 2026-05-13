@@ -1,7 +1,12 @@
 # Прогресс MVP
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> _Обновлено: 2026-05-13 (improve_progress_sync.py)_
 **Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
 
 ---
@@ -10,16 +15,11 @@
 
 
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-_Обновлено: 2026-05-12 (improve_progress_sync.py)_
+_Обновлено: 2026-05-13 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
-`███████████████░░░░░ 73%` 8/11
+`█████████████░░░░░░░ 64%` 7/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
@@ -31,7 +31,7 @@ _Обновлено: 2026-05-12 (improve_progress_sync.py)_
 ⬜ LLM-обогащение проектных файлов
 ✅ Создан рабочий прототип Knowledge OS
 ✅ Пройдено тестирование ансамбля
-✅ Опубликован MVP на GitHub
+⬜ Опубликован MVP на GitHub
 
 ## Состояние компонентов
 
@@ -47,7 +47,7 @@ _Обновлено: 2026-05-12 (improve_progress_sync.py)_
 
 | Метрика | Балл | Статус |
 |---------|------|--------|
-| Здоровье репо (HEALTH) | 100.0/100 | 🟢 |
+| Здоровье репо (HEALTH) | 99.0/100 | 🟢 |
 | Качество доков (METRICS) | 95.9/100 | 🟢 |
 | Go/No-Go (SCORING) | 96.0/100 | 🟢 |
 
@@ -79,29 +79,29 @@ cat docs/contacts/anastasiyaw.md
 
 <!-- auto-end -->
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
+
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
 - [SCHEDULE](SCHEDULE.md)
-- [first-contacts](svyazi-2-0/outreach/first-contacts.md)
-- [DENSITY](DENSITY.md)
-- [INDEX](INDEX.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (13):**
-- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
-- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [CONTACTS](CONTACTS.md)
-- [DECISIONS](DECISIONS.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- _...ещё 5_
+- [ONBOARDING](ONBOARDING.md)
+- [TAGS](TAGS.md)
 

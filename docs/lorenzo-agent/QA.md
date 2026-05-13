@@ -1,22 +1,5 @@
 # Q&A: lorenzo-agent
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Автоматически сгенерировано по 55 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
-
----
-<!-- tags: memory, rag, knowledge, architecture, roadmap, anthropic, collaboration -->
-
-
-
-
 _Автоматически сгенерировано по 55 файлам раздела._
 
 ## Какие кластеры найма выделены у Anthropic?
@@ -86,33 +69,3 @@ _Не найдено в этом файле._
 ## Какова разница между эпизодической и семантической памятью?
 
 Упоминаются: **episod**, **семантич**, **fact**, **proposal**
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [README](README.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/lorenzo-agent/QA.md) (сходство 0.98)
-- [QA](../processing-guide/QA.md) (сходство 0.69)
-- [QA](../obsidian/processing-guide/QA.md) (сходство 0.68)
-

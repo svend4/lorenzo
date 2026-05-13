@@ -1,7 +1,12 @@
 # Оценка стоимости MVP
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> _Ориентировочные цифры на основе документации проекта._
 **Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
 
 ---
@@ -22,11 +27,6 @@
 
 
 
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
 
 _Ориентировочные цифры на основе документации проекта._
 
@@ -100,29 +100,28 @@ _Минимальный сценарий: open source + личное время 
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [SCHEDULE](SCHEDULE.md)
-- [SCORING](SCORING.md)
-- [DENSITY](DENSITY.md)
-- [mvp-plan](svyazi-2-0/prototype/mvp-plan.md)
-
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (8):**
 - [DENSITY](DENSITY.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- [SCORING](SCORING.md)
 - [SEARCH](SEARCH.md)
-- _...ещё 1_
+- [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SCHEDULE](SCHEDULE.md)
+- [ONBOARDING](ONBOARDING.md)
+- [SCORING](SCORING.md)
+- [MINDMAP](MINDMAP.md)
 

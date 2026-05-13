@@ -1,13 +1,5 @@
 # Рекомендуемый порядок чтения
 
-<!-- summary -->
-> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
-
----
-
-
-
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 
 | # | Уровень | Документ | Слов | Предварительно прочитать |
@@ -436,14 +428,3 @@
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [SOURCE_MAP](SOURCE_MAP.md)
-- [CLUSTERS](CLUSTERS.md)
-- [READING_TIME](READING_TIME.md)
-- [READABILITY](READABILITY.md)
-

@@ -1,7 +1,12 @@
 # Оценка готовности проекта (Go/No-Go)
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> 1. **[вес 5]** Слишком много сломанных ссылок
 
 ---
 <!-- tags: security, architecture, roadmap, collaboration -->
@@ -9,12 +14,7 @@
 
 
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-_Дата: 2026-05-12_
+_Дата: 2026-05-13_
 
 ## Итог: **159/164** (96%) — 🟢 GO
 
@@ -74,29 +74,29 @@ _Дата: 2026-05-12_
 ## ✅ Проект готов к запуску MVP!
 
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [SCHEDULE](SCHEDULE.md)
-- [HEATMAP](HEATMAP.md)
-- [DENSITY](DENSITY.md)
-- [COST](COST.md)
-
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (19):**
-- [COST](COST.md)
-- [COVERAGE](COVERAGE.md)
+**Кто ссылается на этот документ (16):**
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [GITHUB_ISSUES](GITHUB_ISSUES.md)
 - [HEADING_AUDIT](HEADING_AUDIT.md)
 - [HEALTH](HEALTH.md)
 - [INDEX](INDEX.md)
 - [METRICS](METRICS.md)
-- _...ещё 11_
+- [OUTLINE](OUTLINE.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- _...ещё 8_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [COVERAGE](COVERAGE.md)
+- [SCHEDULE](SCHEDULE.md)
+- [COST](COST.md)
+- [ONBOARDING](ONBOARDING.md)
 

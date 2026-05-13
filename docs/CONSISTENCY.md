@@ -1,40 +1,37 @@
 # Согласованность терминов
 
-<!-- summary -->
-> Анализ различных написаний одних и тех же терминов.
-**Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, agent-memory-mcp, Auto AI Router
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
----
-
-
+<!-- alert-added -->
 
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 7 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 32 |
-| **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
-| **CardIndex** | `CardIndex` | `Card Index` | 4 |
-| **CardIndex** | `CardIndex` | `card index` | 4 |
-| **CardIndex** | `CardIndex` | `card-index` | 4 |
+| **knowledge-space** | `knowledge-space` | `knowledge_space` | 5 |
+| **CardIndex** | `CardIndex` | `Card Index` | 3 |
+| **CardIndex** | `CardIndex` | `card index` | 3 |
+| **CardIndex** | `CardIndex` | `card-index` | 3 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 44 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 105 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 103 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 4 |
 | **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 43 |
 | **local-first** | `local-first` | `local first` | 8 |
 | **local-first** | `local-first` | `localfirst` | 6 |
 | **local-first** | `local-first` | `Local First` | 8 |
 | **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 8 |
-| **self-improvement** | `self-improvement` | `self-improve` | 284 |
-| **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
-| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 6 |
+| **self-improvement** | `self-improvement` | `self-improve` | 297 |
+| **self-improvement** | `self-improvement` | `selfimprovement` | 3 |
+| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 44 |
-| **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
+| **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 3 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 38 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 32 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 33 |
 
-**Всего несогласованных написаний: 688**
+**Всего несогласованных написаний: 702**
 
 
 ## Детали по файлам
@@ -47,7 +44,7 @@
 - `docs/TABLES.md`
 - `docs/obsidian/EMPTY_SECTIONS.md`
 - `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 1_
+- _...и ещё 2_
 
 ### `knowledge space` → должно быть `knowledge-space`
 
@@ -61,6 +58,7 @@
 ### `knowledge_space` → должно быть `knowledge-space`
 
 - `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/05-habr-projects/knowledge/README.md`
 - `docs/05-habr-projects/knowledge/README.md`
@@ -68,23 +66,20 @@
 ### `Card Index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
+- `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `card index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
+- `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `card-index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
+- `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `AI-Factory` → должно быть `AI Factory`
 
@@ -102,7 +97,7 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- _...и ещё 100_
+- _...и ещё 98_
 
 ### `LiteParser` → должно быть `LiteParse`
 
@@ -161,23 +156,24 @@
 - `docs/FOOTNOTES.md`
 - `docs/CONSISTENCY.md`
 - `docs/PROTOTYPE_SPEC.md`
+- `docs/CONTENT_GAPS.md`
 - `docs/TABLES.md`
-- `docs/SPELLCHECK.md`
-- _...и ещё 279_
+- _...и ещё 292_
 
 ### `selfimprovement` → должно быть `self-improvement`
 
 - `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
 - `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
 - `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
-- `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
-- _...и ещё 1_
+- _...и ещё 2_
 
 ### `Evidence-Envelope` → должно быть `Evidence Envelope`
 
@@ -191,6 +187,7 @@
 ### `EvidenceEnvelope` → должно быть `Evidence Envelope`
 
 - `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 
 ### `Card-Envelope` → должно быть `Card Envelope`
@@ -215,7 +212,7 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 
 **Смотрите также:**
 - [MISSING](MISSING.md)
-- [SPELLCHECK](SPELLCHECK.md)
 - [TAGS](TAGS.md)
-- [GRAPH](GRAPH.md)
+- [STATS](STATS.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
 

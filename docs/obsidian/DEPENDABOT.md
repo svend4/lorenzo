@@ -1,11 +1,26 @@
 ---
 title: "Мониторинг зависимостей"
 tags:
+  - memory
+  - knowledge
+  - ingestion
+  - anthropic
+  - collaboration
   - general
 date: 2026-05-13
 ---
 
 # Мониторинг зависимостей
+
+<!-- summary -->
+> python scripts/improve_dependabot.py --generate-config
+**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
+
+---
+<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->
+
+
+
 
 _Обновлено: 2026-05-13_
 
@@ -39,3 +54,19 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [[COLLAB_SUGGESTIONS]]
+- [[ENTITIES]]
+- [[GRAPH]]
+- [[MISSING]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 3_
+

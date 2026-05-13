@@ -8,7 +8,7 @@ date: 2026-05-13
 # Карта репозитория Lorenzo
 
 <!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> - [Мета-документы](#мета-документы)
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
@@ -46,14 +46,9 @@ date: 2026-05-13
 
 
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+_Обновлено: 2026-05-13_
 
-<!-- alert-added -->
-
-_Обновлено: 2026-05-12_
-
-**Всего файлов:** 2495
+**Всего файлов:** 2482
 
 ## Навигация
 
@@ -89,53 +84,53 @@ _Обновлено: 2026-05-12_
 | [[ACTION_ITEMS|ACTION_ITEMS.md]] | Задачи и риски (490) | 9272 |
 | [[ACTION_ITEMS|ACTION_ITEMS.md]] | Задачи и риски (490) | 9285 |
 | [[ALERTS|ALERTS.md]] | — | 105 |
-| [[AUTHORS|AUTHORS.md]] | Авторы и контакты | 173 |
-| [[AUTHORS|AUTHORS.md]] | Авторы и контакты | 181 |
+| [[AUTHORS|AUTHORS.md]] | Авторы и контакты | 213 |
+| [[AUTHORS|AUTHORS.md]] | Авторы и контакты | 224 |
 | [[AUTOFILLED|AUTOFILLED.md]] | — | 322 |
 | [[BACKLINKS|BACKLINKS.md]] | — | 534 |
 | [[BADGES|BADGES.md]] | — | 100 |
 | [[BROKEN_LINKS|BROKEN_LINKS.md]] | Сломанные ссылки (26) | 1000 |
-| [[CHANGELOG|CHANGELOG.md]] | История изменений | 5712 |
-| [[CHANGELOG|CHANGELOG.md]] | История изменений | 5753 |
+| [[CHANGELOG|CHANGELOG.md]] | История изменений | 838 |
+| [[CHANGELOG|CHANGELOG.md]] | История изменений | 5766 |
 | [[CHANGELOG_AUTO|CHANGELOG_AUTO.md]] | — | 2027 |
 | [[CITATION_INDEX|CITATION_INDEX.md]] | — | 997 |
-| [[CLUSTERS|CLUSTERS.md]] | Кластеры (384 → 120 групп) | 1765 |
-| [[CLUSTERS|CLUSTERS.md]] | Кластеры (384 → 120 групп) | 1781 |
+| [[CLUSTERS|CLUSTERS.md]] | Кластеры (384 → 120 групп) | 1674 |
+| [[CLUSTERS|CLUSTERS.md]] | Кластеры (384 → 120 групп) | 1704 |
 | [[CODE_BLOCKS|CODE_BLOCKS.md]] | — | 5973 |
 | [[CODE_BLOCKS|CODE_BLOCKS.md]] | — | 5983 |
 | [[COLLAB_SUGGESTIONS|COLLAB_SUGGESTIONS.md]] | — | 702 |
 | [[COMPARE|COMPARE.md]] | Сравнение с предыдущим коммитом | 477 |
-| [[COMPARE|COMPARE.md]] | Сравнение с предыдущим коммитом | 599 |
-| [[COMPLEXITY|COMPLEXITY.md]] | Оценка читаемости | 671 |
-| [[COMPLEXITY|COMPLEXITY.md]] | Оценка читаемости | 682 |
+| [[COMPARE|COMPARE.md]] | Сравнение с предыдущим коммитом | 507 |
+| [[COMPLEXITY|COMPLEXITY.md]] | Оценка читаемости | 645 |
+| [[COMPLEXITY|COMPLEXITY.md]] | Оценка читаемости | 656 |
 | [[COMPONENT_MATRIX|COMPONENT_MATRIX.md]] | — | 940 |
 | [[CONCEPTS|CONCEPTS.md]] | Глоссарий понятий (888) | 15197 |
 | [[CONCEPTS|CONCEPTS.md]] | Глоссарий понятий (888) | 15137 |
-| [[CONCEPT_GRAPH|CONCEPT_GRAPH.md]] | — | 706 |
-| [[CONSISTENCY|CONSISTENCY.md]] | — | 659 |
-| [[CONSISTENCY|CONSISTENCY.md]] | — | 886 |
-| [[CONTACTS|CONTACTS.md]] | Контакты (15 авторов) | 586 |
-| [[CONTACTS|CONTACTS.md]] | Контакты (15 авторов) | 685 |
-| [[CONTACT_PRIORITY|CONTACT_PRIORITY.md]] | — | 452 |
-| [[CONTENT_GAPS|CONTENT_GAPS.md]] | — | 909 |
-| [[CONTRADICTIONS|CONTRADICTIONS.md]] | — | 1626 |
-| [[COST|COST.md]] | — | 628 |
-| [[COVERAGE|COVERAGE.md]] | — | 299 |
+| [[CONCEPT_GRAPH|CONCEPT_GRAPH.md]] | — | 646 |
+| [[CONSISTENCY|CONSISTENCY.md]] | — | 630 |
+| [[CONSISTENCY|CONSISTENCY.md]] | — | 658 |
+| [[CONTACTS|CONTACTS.md]] | Контакты (15 авторов) | 557 |
+| [[CONTACTS|CONTACTS.md]] | Контакты (15 авторов) | 680 |
+| [[CONTACT_PRIORITY|CONTACT_PRIORITY.md]] | — | 455 |
+| [[CONTENT_GAPS|CONTENT_GAPS.md]] | — | 885 |
+| [[CONTRADICTIONS|CONTRADICTIONS.md]] | — | 1592 |
+| [[COST|COST.md]] | — | 636 |
+| [[COVERAGE|COVERAGE.md]] | — | 297 |
 | [[CROSSREFS|CROSSREFS.md]] | Перекрёстные ссылки проектов | 678 |
-| [[CROSSREFS|CROSSREFS.md]] | Перекрёстные ссылки проектов | 648 |
-| [[CROSS_SECTION|CROSS_SECTION.md]] | — | 4101 |
-| [[DECISIONS|DECISIONS.md]] | Ключевые решения (150) | 2587 |
-| [[DECISIONS|DECISIONS.md]] | Ключевые решения (150) | 2611 |
+| [[CROSSREFS|CROSSREFS.md]] | Перекрёстные ссылки проектов | 688 |
+| [[CROSS_SECTION|CROSS_SECTION.md]] | — | 4072 |
+| [[DECISIONS|DECISIONS.md]] | Ключевые решения (150) | 2575 |
+| [[DECISIONS|DECISIONS.md]] | Ключевые решения (150) | 2589 |
 | [[DEMO|DEMO.md]] | — | 627 |
 | [[DENSITY|DENSITY.md]] | Карта плотности тем | 738 |
 | [[DENSITY|DENSITY.md]] | Карта плотности тем | 749 |
-| [[DEPENDABOT|DEPENDABOT.md]] | — | 165 |
+| [[DEPENDABOT|DEPENDABOT.md]] | — | 136 |
 | [[DEPENDENCY_MAP|DEPENDENCY_MAP.md]] | — | 1212 |
-| [[DIGEST|DIGEST.md]] | — | 375 |
-| [[DIGEST_AUTO|DIGEST_AUTO.md]] | — | 500 |
+| [[DIGEST|DIGEST.md]] | — | 385 |
+| [[DIGEST_AUTO|DIGEST_AUTO.md]] | — | 513 |
 | [[DIGEST_WEEKLY|DIGEST_WEEKLY.md]] | — | 408 |
-| [[DUPLICATES|DUPLICATES.md]] | — | 2292 |
-| [[DUPLICATES|DUPLICATES.md]] | — | 2163 |
+| [[DUPLICATES|DUPLICATES.md]] | — | 2071 |
+| [[DUPLICATES|DUPLICATES.md]] | — | 2117 |
 | [[EMPTY_SECTIONS|EMPTY_SECTIONS.md]] | — | 37649 |
 | [[ENTITIES|ENTITIES.md]] | Именованные сущности | 856 |
 | [[ENTITIES|ENTITIES.md]] | Именованные сущности | 866 |
@@ -143,25 +138,25 @@ _Обновлено: 2026-05-12_
 | [[FOOTNOTES|FOOTNOTES.md]] | — | 351 |
 | [[GATEWAY|GATEWAY.md]] | — | 1354 |
 | [[GITHUB_ISSUES|GITHUB_ISSUES.md]] | — | 3493 |
-| [[GLOSSARY|GLOSSARY.md]] | Глоссарий проектов (33 записи) | 219 |
-| [[GLOSSARY|GLOSSARY.md]] | Глоссарий проектов (33 записи) | 229 |
+| [[GLOSSARY|GLOSSARY.md]] | Глоссарий проектов (33 записи) | 256 |
+| [[GLOSSARY|GLOSSARY.md]] | Глоссарий проектов (33 записи) | 266 |
 | [[GRAPH|GRAPH.md]] | Граф связей проектов | 2736 |
 | [[GRAPH|GRAPH.md]] | Граф связей проектов | 2747 |
 | [[HEADING_AUDIT|HEADING_AUDIT.md]] | — | 13632 |
-| [[HEALTH|HEALTH.md]] | Дашборд здоровья (75/100) | 327 |
+| [[HEALTH|HEALTH.md]] | Дашборд здоровья (75/100) | 293 |
 | [[HEALTH|HEALTH.md]] | Дашборд здоровья (75/100) | 345 |
 | [[HEATMAP|HEATMAP.md]] | — | 619 |
 | [[INDEX|INDEX.md]] | — | 633 |
-| [[KEYWORD_INDEX|KEYWORD_INDEX.md]] | — | 1023 |
+| [[KEYWORD_INDEX|KEYWORD_INDEX.md]] | — | 1069 |
 | [[KNOWLEDGE_MAP|KNOWLEDGE_MAP.md]] | — | 699 |
-| [[KPI|KPI.md]] | Числовые KPI (737 показателей) | 2735 |
-| [[KPI|KPI.md]] | Числовые KPI (737 показателей) | 2807 |
-| [[KPI_HISTORY|KPI_HISTORY.md]] | — | 181 |
-| [[LANGUAGE_STATS|LANGUAGE_STATS.md]] | — | 7823 |
-| [[LINKS|LINKS.md]] | Внешние ссылки | 1041 |
-| [[LINKS|LINKS.md]] | Внешние ссылки | 1051 |
+| [[KPI|KPI.md]] | Числовые KPI (737 показателей) | 2812 |
+| [[KPI|KPI.md]] | Числовые KPI (737 показателей) | 2765 |
+| [[KPI_HISTORY|KPI_HISTORY.md]] | — | 252 |
+| [[LANGUAGE_STATS|LANGUAGE_STATS.md]] | — | 7909 |
+| [[LINKS|LINKS.md]] | Внешние ссылки | 1087 |
+| [[LINKS|LINKS.md]] | Внешние ссылки | 1097 |
 | [[LINK_PREVIEW|LINK_PREVIEW.md]] | — | 3351 |
-| [[LLM_GAPS|LLM_GAPS.md]] | — | 56 |
+| [[LLM_GAPS|LLM_GAPS.md]] | — | 111 |
 | [[LLM_SUMMARIES|LLM_SUMMARIES.md]] | — | 386 |
 | [[MCP_DASHBOARD|MCP_DASHBOARD.md]] | — | 22 |
 | [[METHODOLOGY|METHODOLOGY.md]] | — | 1070 |
@@ -171,7 +166,7 @@ _Обновлено: 2026-05-12_
 | [[MISSING|MISSING.md]] | Пробелы знаний | 517 |
 | [[MISSING|MISSING.md]] | Пробелы знаний | 528 |
 | [[NAMED_ENTITIES|NAMED_ENTITIES.md]] | — | 1744 |
-| [[NARRATIVE|NARRATIVE.md]] | — | 1211 |
+| [[NARRATIVE|NARRATIVE.md]] | — | 1128 |
 | [[NETWORK|NETWORK.md]] | — | 530 |
 | [[ONBOARDING|ONBOARDING.md]] | — | 566 |
 | [[ORPHANS|ORPHANS.md]] | — | 134 |
@@ -179,28 +174,28 @@ _Обновлено: 2026-05-12_
 | [[PARAGRAPH_QUALITY|PARAGRAPH_QUALITY.md]] | — | 17500 |
 | [[PASSIVE_VOICE|PASSIVE_VOICE.md]] | — | 468 |
 | [[PRECISION_EVAL|PRECISION_EVAL.md]] | — | 575 |
-| [[PRIORITIES|PRIORITIES.md]] | Приоритеты (TF-IDF) | 3675 |
-| [[PRIORITIES|PRIORITIES.md]] | Приоритеты (TF-IDF) | 3685 |
-| [[PROGRESS|PROGRESS.md]] | — | 348 |
+| [[PRIORITIES|PRIORITIES.md]] | Приоритеты (TF-IDF) | 3479 |
+| [[PRIORITIES|PRIORITIES.md]] | Приоритеты (TF-IDF) | 3489 |
+| [[PROGRESS|PROGRESS.md]] | — | 356 |
 | [[PROTOTYPE_SPEC|PROTOTYPE_SPEC.md]] | — | 1676 |
-| [[QA|QA.md]] | Вопросы и ответы | 305 |
-| [[QA|QA.md]] | Вопросы и ответы | 422 |
-| [[QA|QA.md]] | Вопросы и ответы | 190 |
-| [[QA|QA.md]] | Вопросы и ответы | 362 |
-| [[QA|QA.md]] | Вопросы и ответы | 290 |
-| [[QA|QA.md]] | Вопросы и ответы | 3313 |
+| [[QA|QA.md]] | Вопросы и ответы | 225 |
+| [[QA|QA.md]] | Вопросы и ответы | 323 |
+| [[QA|QA.md]] | Вопросы и ответы | 107 |
+| [[QA|QA.md]] | Вопросы и ответы | 226 |
+| [[QA|QA.md]] | Вопросы и ответы | 196 |
+| [[QA|QA.md]] | Вопросы и ответы | 2103 |
 | [[QA|QA.md]] | Вопросы и ответы | 468 |
-| [[QA|QA.md]] | Вопросы и ответы | 131 |
-| [[QA|QA.md]] | Вопросы и ответы | 146 |
-| [[QA|QA.md]] | Вопросы и ответы | 234 |
-| [[QA|QA.md]] | Вопросы и ответы | 305 |
-| [[QA|QA.md]] | Вопросы и ответы | 148 |
+| [[QA|QA.md]] | Вопросы и ответы | 61 |
+| [[QA|QA.md]] | Вопросы и ответы | 47 |
+| [[QA|QA.md]] | Вопросы и ответы | 135 |
+| [[QA|QA.md]] | Вопросы и ответы | 207 |
+| [[QA|QA.md]] | Вопросы и ответы | 71 |
 | [[QA|QA.md]] | Вопросы и ответы | 329 |
 | [[QA|QA.md]] | Вопросы и ответы | 452 |
 | [[QA|QA.md]] | Вопросы и ответы | 208 |
 | [[QA|QA.md]] | Вопросы и ответы | 386 |
 | [[QA|QA.md]] | Вопросы и ответы | 312 |
-| [[QA|QA.md]] | Вопросы и ответы | 3343 |
+| [[QA|QA.md]] | Вопросы и ответы | 336 |
 | [[QA|QA.md]] | Вопросы и ответы | 484 |
 | [[QA|QA.md]] | Вопросы и ответы | 145 |
 | [[QA|QA.md]] | Вопросы и ответы | 158 |
@@ -209,15 +204,15 @@ _Обновлено: 2026-05-12_
 | [[QA|QA.md]] | Вопросы и ответы | 162 |
 | [[QA|QA.md]] | Вопросы и ответы | 341 |
 | [[QA|QA.md]] | Вопросы и ответы | 489 |
-| [[QA|QA.md]] | Вопросы и ответы | 315 |
+| [[QA|QA.md]] | Вопросы и ответы | 219 |
 | [[QA|QA.md]] | Вопросы и ответы | 473 |
-| [[QUESTIONS|QUESTIONS.md]] | Открытые вопросы (484) | 1919 |
-| [[QUESTIONS|QUESTIONS.md]] | Открытые вопросы (484) | 1871 |
+| [[QUESTIONS|QUESTIONS.md]] | Открытые вопросы (484) | 1885 |
+| [[QUESTIONS|QUESTIONS.md]] | Открытые вопросы (484) | 1895 |
 | [[READABILITY|READABILITY.md]] | — | 37597 |
 | [[READING_LIST|READING_LIST.md]] | — | 601 |
-| [[READING_ORDER|READING_ORDER.md]] | Рекомендуемый порядок чтения | 6070 |
-| [[READING_ORDER|READING_ORDER.md]] | Рекомендуемый порядок чтения | 6114 |
-| [[READING_TIME|READING_TIME.md]] | — | 27497 |
+| [[READING_ORDER|READING_ORDER.md]] | Рекомендуемый порядок чтения | 6041 |
+| [[READING_ORDER|READING_ORDER.md]] | Рекомендуемый порядок чтения | 6139 |
+| [[READING_TIME|READING_TIME.md]] | — | 27381 |
 | [[README|README.md]] | Главная страница и навигация | 424 |
 | [[README|README.md]] | Главная страница и навигация | 2345 |
 | [[README|README.md]] | Главная страница и навигация | 326 |
@@ -248,7 +243,7 @@ _Обновлено: 2026-05-12_
 | [[README|README.md]] | Главная страница и навигация | 350 |
 | [[README|README.md]] | Главная страница и навигация | 65 |
 | [[README|README.md]] | Главная страница и навигация | 113 |
-| [[README|README.md]] | Главная страница и навигация | 66 |
+| [[README|README.md]] | Главная страница и навигация | 44 |
 | [[README|README.md]] | Главная страница и навигация | 141 |
 | [[README|README.md]] | Главная страница и навигация | 102 |
 | [[README|README.md]] | Главная страница и навигация | 358 |
@@ -327,7 +322,7 @@ _Обновлено: 2026-05-12_
 | [[README|README.md]] | Главная страница и навигация | 372 |
 | [[README|README.md]] | Главная страница и навигация | 74 |
 | [[README|README.md]] | Главная страница и навигация | 122 |
-| [[README|README.md]] | Главная страница и навигация | 74 |
+| [[README|README.md]] | Главная страница и навигация | 72 |
 | [[README|README.md]] | Главная страница и навигация | 154 |
 | [[README|README.md]] | Главная страница и навигация | 115 |
 | [[README|README.md]] | Главная страница и навигация | 379 |
@@ -392,7 +387,7 @@ _Обновлено: 2026-05-12_
 | [[README|README.md]] | Главная страница и навигация | 371 |
 | [[README|README.md]] | Главная страница и навигация | 123 |
 | [[README|README.md]] | Главная страница и навигация | 145 |
-| [[README|README.md]] | Главная страница и навигация | 116 |
+| [[README|README.md]] | Главная страница и навигация | 147 |
 | [[README|README.md]] | Главная страница и навигация | 129 |
 | [[README|README.md]] | Главная страница и навигация | 141 |
 | [[README|README.md]] | Главная страница и навигация | 131 |
@@ -410,16 +405,16 @@ _Обновлено: 2026-05-12_
 | [[README|README.md]] | Главная страница и навигация | 110 |
 | [[README|README.md]] | Главная страница и навигация | 132 |
 | [[README|README.md]] | Главная страница и навигация | 138 |
-| [[REGISTRY|REGISTRY.md]] | — | 1405 |
+| [[REGISTRY|REGISTRY.md]] | — | 1341 |
 | [[REPORT|REPORT.md]] | — | 326 |
 | [[RISK_REGISTER|RISK_REGISTER.md]] | — | 959 |
-| [[SCHEDULE|SCHEDULE.md]] | — | 356 |
-| [[SCORING|SCORING.md]] | — | 400 |
-| [[SCRIPTS_CATALOG|SCRIPTS_CATALOG.md]] | — | 7756 |
+| [[SCHEDULE|SCHEDULE.md]] | — | 364 |
+| [[SCORING|SCORING.md]] | — | 404 |
+| [[SCRIPTS_CATALOG|SCRIPTS_CATALOG.md]] | — | 7730 |
 | [[SCRIPT_EVAL_REPORT|SCRIPT_EVAL_REPORT.md]] | — | 2969 |
-| [[SEARCH|SEARCH.md]] | Поисковый индекс | 23190 |
+| [[SEARCH|SEARCH.md]] | Поисковый индекс | 23204 |
 | [[SEARCH_RESULTS|SEARCH_RESULTS.md]] | — | 344 |
-| [[SEE_ALSO|SEE_ALSO.md]] | — | 289 |
+| [[SEE_ALSO|SEE_ALSO.md]] | — | 278 |
 | [[SENTIMENT|SENTIMENT.md]] | — | 598 |
 | [[SENTINEL|SENTINEL.md]] | — | 384 |
 | [[SIMILAR|SIMILAR.md]] | Похожие документы (937 пар) | 318 |
@@ -428,25 +423,25 @@ _Обновлено: 2026-05-12_
 | [[SKILL_DASHBOARD|SKILL_DASHBOARD.md]] | — | 122 |
 | [[SOURCE_MAP|SOURCE_MAP.md]] | — | 12404 |
 | [[SPELLCHECK|SPELLCHECK.md]] | — | 455 |
-| [[STALENESS|STALENESS.md]] | — | 442 |
+| [[STALENESS|STALENESS.md]] | — | 444 |
 | [[STATS|STATS.md]] | Детальная статистика | 698 |
-| [[STATS|STATS.md]] | Детальная статистика | 817 |
-| [[SUMMARIES|SUMMARIES.md]] | — | 5297 |
+| [[STATS|STATS.md]] | Детальная статистика | 754 |
+| [[SUMMARIES|SUMMARIES.md]] | — | 35 |
 | [[TABLES|TABLES.md]] | — | 334302 |
 | [[TABLES|TABLES.md]] | — | 334315 |
-| [[TAGS|TAGS.md]] | Теги (316 файлов, 12 тем) | 527 |
-| [[TAGS|TAGS.md]] | Теги (316 файлов, 12 тем) | 299 |
-| [[TASKS_INDEX|TASKS_INDEX.md]] | — | 1041 |
+| [[TAGS|TAGS.md]] | Теги (316 файлов, 12 тем) | 661 |
+| [[TAGS|TAGS.md]] | Теги (316 файлов, 12 тем) | 671 |
+| [[TASKS_INDEX|TASKS_INDEX.md]] | — | 956 |
 | [[TECH_RADAR|TECH_RADAR.md]] | — | 634 |
-| [[TIMELINE|TIMELINE.md]] | Временная шкала (800 маркеров) | 4813 |
-| [[TIMELINE|TIMELINE.md]] | Временная шкала (800 маркеров) | 4858 |
+| [[TIMELINE|TIMELINE.md]] | Временная шкала (800 маркеров) | 4827 |
+| [[TIMELINE|TIMELINE.md]] | Временная шкала (800 маркеров) | 4841 |
 | [[TOPIC_MODEL|TOPIC_MODEL.md]] | — | 1085 |
-| [[VALIDATION|VALIDATION.md]] | — | 290 |
+| [[VALIDATION|VALIDATION.md]] | — | 283 |
 | [[VERSION_DIFF|VERSION_DIFF.md]] | — | 2861 |
 | [[VOCABULARY|VOCABULARY.md]] | — | 1004 |
 | [[WORD_CLOUD|WORD_CLOUD.md]] | — | 245 |
-| [[WORD_FREQ|WORD_FREQ.md]] | Частотный анализ слов | 3477 |
-| [[WORD_FREQ|WORD_FREQ.md]] | Частотный анализ слов | 3431 |
+| [[WORD_FREQ|WORD_FREQ.md]] | Частотный анализ слов | 3357 |
+| [[WORD_FREQ|WORD_FREQ.md]] | Частотный анализ слов | 3368 |
 | [[reading-paths|reading-paths.md]] | — | 692 |
 
 ## Svyazi 2.0 — Архитектура системы
@@ -917,7 +912,7 @@ _`docs/nautilus/` — 227 файлов_
 
 ## obsidian
 
-_`docs/obsidian/` — 1110 файлов_
+_`docs/obsidian/` — 1097 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|
@@ -945,33 +940,33 @@ _`docs/obsidian/` — 1110 файлов_
 | 22 | [[07-2-terminology|2. Terminology]] | 407 |
 | 23 | [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] | 508 |
 | 24 | [[09-4-passport-passport-md|4. Passport (`passport.md`)]] | 400 |
-| 25 | [[10-essence|Essence]] | 25 |
-| 26 | [[100-объём|Объём]] | 21 |
-| 27 | [[101-q6-отображение|Q6-отображение]] | 21 |
-| 28 | [[102-доступ-к-данным|Доступ к данным]] | 333 |
-| 29 | [[103-appendix-b-change-log|Appendix B: Change Log]] | 424 |
-| 30 | [[104-appendix-c-references|Appendix C: References]] | 1263 |
-| 31 | [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] | 364 |
-| 32 | [[106-tl-dr|TL;DR]] | 325 |
-| 33 | [[107-1-контекст-и-мотивация|1. Контекст и мотивация]] | 547 |
-| 34 | [[108-2-формальный-workflow|2. Формальный workflow]] | 460 |
-| 35 | [[109-3-принципы-консолидации-фаза-c|3. Принципы консолидации (Фаза C)]] | 730 |
-| 36 | [[11-native-format|Native Format]] | 25 |
-| 37 | [[110-вопрос-fallback-ratio-как-критический-или-осмыслен|Вопрос: fallback-ratio как критический или осмысле]] | 401 |
-| 38 | [[111-4-условия-применимости|4. Условия применимости]] | 358 |
-| 39 | [[112-5-связь-с-существующими-методологиями|5. Связь с существующими методологиями]] | 459 |
-| 40 | [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work|6. Почему это валидный паттерн для AI-assisted wor]] | 340 |
-| 41 | [[114-7-реализация-в-проекте-nautilus|7. Реализация в проекте Nautilus]] | 362 |
-| 42 | [[115-8-ограничения-и-открытые-вопросы|8. Ограничения и открытые вопросы]] | 561 |
-| 43 | [[116-9-checklist-применения-методологии|9. Checklist применения методологии]] | 468 |
-| 44 | [[117-10-конкретный-план-применения-к-текущим-документам|10. Конкретный план применения к текущим документа]] | 366 |
-| 45 | [[118-appendix-a-шаблон-для-header-warning|Appendix A: Шаблон для header warning]] | 341 |
-| 46 | [[119-appendix-b-примеры-расхождений-и-их-разрешения|Appendix B: Примеры расхождений и их разрешения]] | 422 |
-| 47 | [[12-content-overview|Content Overview]] | 316 |
-| 48 | [[120-главные-технические-риски|Главные технические риски]] | 333 |
-| 49 | [[121-appendix-c-история-изменений-методологии|Appendix C: История изменений методологии]] | 337 |
-| 50 | [[122-глоссарий|Глоссарий]] | 1572 |
-| ... | _ещё 1060 файлов_ | |
+| 25 | [[102-доступ-к-данным|Доступ к данным]] | 333 |
+| 26 | [[103-appendix-b-change-log|Appendix B: Change Log]] | 424 |
+| 27 | [[104-appendix-c-references|Appendix C: References]] | 1263 |
+| 28 | [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] | 364 |
+| 29 | [[106-tl-dr|TL;DR]] | 325 |
+| 30 | [[107-1-контекст-и-мотивация|1. Контекст и мотивация]] | 505 |
+| 31 | [[108-2-формальный-workflow|2. Формальный workflow]] | 460 |
+| 32 | [[109-3-принципы-консолидации-фаза-c|3. Принципы консолидации (Фаза C)]] | 730 |
+| 33 | [[110-вопрос-fallback-ratio-как-критический-или-осмыслен|Вопрос: fallback-ratio как критический или осмысле]] | 401 |
+| 34 | [[111-4-условия-применимости|4. Условия применимости]] | 358 |
+| 35 | [[112-5-связь-с-существующими-методологиями|5. Связь с существующими методологиями]] | 459 |
+| 36 | [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work|6. Почему это валидный паттерн для AI-assisted wor]] | 340 |
+| 37 | [[114-7-реализация-в-проекте-nautilus|7. Реализация в проекте Nautilus]] | 362 |
+| 38 | [[115-8-ограничения-и-открытые-вопросы|8. Ограничения и открытые вопросы]] | 561 |
+| 39 | [[116-9-checklist-применения-методологии|9. Checklist применения методологии]] | 468 |
+| 40 | [[117-10-конкретный-план-применения-к-текущим-документам|10. Конкретный план применения к текущим документа]] | 366 |
+| 41 | [[118-appendix-a-шаблон-для-header-warning|Appendix A: Шаблон для header warning]] | 341 |
+| 42 | [[119-appendix-b-примеры-расхождений-и-их-разрешения|Appendix B: Примеры расхождений и их разрешения]] | 422 |
+| 43 | [[12-content-overview|Content Overview]] | 316 |
+| 44 | [[120-главные-технические-риски|Главные технические риски]] | 333 |
+| 45 | [[121-appendix-c-история-изменений-методологии|Appendix C: История изменений методологии]] | 337 |
+| 46 | [[122-глоссарий|Глоссарий]] | 1572 |
+| 47 | [[123-portal-mcp-py|portal-mcp.py]] | 2559 |
+| 48 | [[124-конфигурация-для-claude-desktop|Конфигурация для Claude Desktop]] | 344 |
+| 49 | [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] | 359 |
+| 50 | [[126-установка|Установка]] | 320 |
+| ... | _ещё 1047 файлов_ | |
 
 ## processing-guide
 
@@ -1131,14 +1126,3 @@ _`docs/templates/` — 23 файлов_
 | 21 | [Tech Radar: [Название]](templates/tech-radar-entry.md) | 363 |
 | 22 | [[имя нового шаблона]](templates/template-of-templates.md) | 382 |
 | 23 | [Еженедельный дайджест: [период]](templates/weekly-digest.md) | 367 |
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[SEARCH]]
-- [[LANGUAGE_STATS]]
-- [[READABILITY]]
-- [[READING_TIME]]
-

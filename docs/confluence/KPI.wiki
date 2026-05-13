@@ -5,10 +5,10 @@
 
 h1. Числовые KPI и метрики
 
-_Извлечено: _3509_ числовых показателей из документов_
+_Извлечено: _3488_ числовых показателей из документов_
 
 
-h2. Количество (504)
+h2. Количество (508)
 
 || Значение || Контекст || Источник ||
 || **429** || ициальных данных Anthropic Статья даёт только общие цифры (≈429 вакансий, вилка || `00-intro` ||
@@ -20,20 +20,20 @@ h2. Количество (504)
 || **7** || v1.1 , формальная спецификация под текущую реальность репо (7 участников, 5 спос || `72-расписание-фазы-3` ||
 || **436** || # Вакансии Anthropic — Анализ по кластерам Анализ 436 вакансий Anthropic по 12 к || `README` ||
 || **440** || я-связь_ - blog post на тему «Почему в компании №1 на рынке 440 вакансий не закр || `ACTION_ITEMS` ||
-|| **2463** || шбордов после новых файлов _48553442_ > HEALTH.md: 2460 → 2463 файлов, 2,716,936 || `CHANGELOG` ||
-|| **25** || ed docs after reports pipeline run _f5d46f4c_ > Обновлены 25 файлов после запуск || `CHANGELOG` ||
-|| **12** || element injector ### 🐛 Исправления - валидация шаблонов — 12 файлов с frontmatte || `CHANGELOG` ||
-|| **354** || 167 ## Кластер 1 — концептов, репозитория, поиска, через (354 файлов) - `docs/01 || `CLUSTERS` ||
-|| **344** || оё-происхождение.md` — _346-твоё-происхождение_ - _...и ещё 344 файлов_ ## Класт || `CLUSTERS` ||
-|| **103** || щё 344 файлов_ ## Кластер 2 — turn, view, svyazi, agentfs (103 файлов) - `docs/0 || `CLUSTERS` ||
-|| **93** || -executive-summary.md` — _01-executive-summary_ - _...и ещё 93 файлов_ ## Класте || `CLUSTERS` ||
-|| **90** || ещё 93 файлов_ ## Кластер 3 — cowork, ingit, project, mcp (90 файлов) - `docs/02 || `CLUSTERS` ||
+|| **12** || ting/ `1a1f0520` **🐛 Исправления** - валидация шаблонов — 12 файлов с frontmatte || `CHANGELOG_AUTO` ||
+|| **356** || 167 ## Кластер 1 — концептов, репозитория, поиска, через (356 файлов) - `docs/01 || `CLUSTERS` ||
+|| **346** || оё-происхождение.md` — _346-твоё-происхождение_ - _...и ещё 346 файлов_ ## Класт || `CLUSTERS` ||
+|| **102** || щё 346 файлов_ ## Кластер 2 — turn, view, svyazi, agentfs (102 файлов) - `docs/0 || `CLUSTERS` ||
+|| **92** || -executive-summary.md` — _01-executive-summary_ - _...и ещё 92 файлов_ ## Класте || `CLUSTERS` ||
+|| **90** || ещё 92 файлов_ ## Кластер 3 — cowork, ingit, project, mcp (90 файлов) - `docs/02 || `CLUSTERS` ||
 || **80** || 21-appendix-a-decision-tree-for-ingit-adopters_ - _...и ещё 80 файлов_ ## Класте || `CLUSTERS` ||
 || **67** || ов_ ## Кластер 4 — agent, principal, professional, agents (67 файлов) - `docs/02 || `CLUSTERS` ||
 || **57** || 13-2-what-makes-a-professional-colleague-agent_ - _...и ещё 57 файлов_ ## Класте || `CLUSTERS` ||
-|| _...ещё 484_ ||  ||  ||
+|| **63** || us-of-this-document, portal-protocol-md, versioning-policy (63 файлов) - `docs/0 || `CLUSTERS` ||
+|| **53** || oordinated-infrastructure-for-distributed-expe_ - _...и ещё 53 файлов_ ## Класте || `CLUSTERS` ||
+|| _...ещё 488_ ||  ||  ||
 
-h2. Проценты (388)
+h2. Проценты (384)
 
 || Значение || Контекст || Источник ||
 || **34** || g — 68 ролей - Sales — 150 ролей (самый большой кластер, ≈34% всего найма) - Fin || `00-intro` ||
@@ -56,9 +56,9 @@ h2. Проценты (388)
 || **50** || s. ### 8.7. Expected Outcomes **For practitioners**: - 30-50% time reduction on || `219-8-pilot-proposal-sgb-` ||
 || **95** || - Cost vs. external lawyer: 80-90% saving - Quality target: 95% citation accurac || `341-приложение-c-образец-` ||
 || **60** || arget 50/year by end Phase 1 - Time saved per case : target 60% reduction in doc || `342-что-такое-вариант-c-c` ||
-|| _...ещё 368_ ||  ||  ||
+|| _...ещё 364_ ||  ||  ||
 
-h2. Время (551)
+h2. Время (553)
 
 || Значение || Контекст || Источник ||
 || **4–6** || з свободного текста получаются устойчивые профили и связи \ || 4–6 дней \ || \ || Evid || `07-mvp-planning` ||
@@ -81,9 +81,9 @@ h2. Время (551)
 || **4-6** || ner (может быть Anthropic или Mistral). Proposal пишется за 4-6 недель, шанс 15- || `01-интегральный-анализ-пр` ||
 || **2** || икуются в общий «доска квестов»: могут быть микро (fix bug, 2 часа, XP уровня 50 || `01-интегральный-анализ-пр` ||
 || **1-2** || fix bug, 2 часа, XP уровня 50), средние (implement feature, 1-2 недели, XP и cur || `01-интегральный-анализ-пр` ||
-|| _...ещё 531_ ||  ||  ||
+|| _...ещё 533_ ||  ||  ||
 
-h2. Стоимость (934)
+h2. Стоимость (935)
 
 || Значение || Контекст || Источник ||
 || **$320** || hropic Статья даёт только общие цифры (≈429 вакансий, вилка $320–405 тыс.) и наз || `00-intro` ||
@@ -106,7 +106,7 @@ h2. Стоимость (934)
 || **$320K** || thropic**: 440 open positions, primarily senior roles at $320K–$405K compensatio || `155-1-problem-statement` ||
 || **€500** || ife activities **Proposed structure**: - **Base stipend**: €500-1500/month for a || `158-4-proposed-infrastruc` ||
 || **€50** || rtners and foundation grants (€3-8M initial, growing to €50M+ target) 2. **Grant || `159-5-economic-model` ||
-|| _...ещё 914_ ||  ||  ||
+|| _...ещё 915_ ||  ||  ||
 
 h2. Размер (62)
 
@@ -124,7 +124,7 @@ h2. Размер (62)
 || **4.5** || .py **Строит:** `docs/search_index.json` — 1053 документа, 4.5 МБ Каждая запись: || `06-search` ||
 || **200** || `paraphrase-multilingual-MiniLM-L12-v2` — бесплатно, CPU, ~200 МБ - Индексация 1 || `10-future` ||
 
-h2. Версия (783)
+h2. Версия (782)
 
 || Значение || Контекст || Источник ||
 || **0.1.5** || **MIT**. citeturn33view4turn27view0 \ || Рабочий прототип, версия 0.1.5; “рабо || `03-component-catalog` ||
@@ -147,22 +147,22 @@ h2. Версия (783)
 || **5.0.6** || 2026` \ || азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Доку || `TABLES` ||
 || **0.10.0** || нтегрируется с любым MCP сервером 118 встроенных навыков в v0.10.0 Open standard || `00-question-what-is-herme` ||
 || **0.9** || Нет vendor lock-in. 6. Скорость разработки. 1556 commits с v0.9 до v0.11. Это fu || `11-pluses-of-hermes` ||
-|| _...ещё 763_ ||  ||  ||
+|| _...ещё 762_ ||  ||  ||
 
-h2. Рейтинг (104)
+h2. Рейтинг (103)
 
 || Значение || Контекст || Источник ||
 || **10** || 3 репо) - Кластер 4: Archives & Experiments (≈8 репо) - Топ-10 репо, в которые с || `00-intro` ||
 || **5** || sh/git), либо помочь с English README-драфтом для одного из топ-5, либо проработ || `00-intro` ||
 || **20** || ь-документы) _→ TABLES_ - создать документы - Детали по топ-20 пробелам - `MH \ ||  || `ACTION_ITEMS` ||
-|| **30** || i, MemNet --- **Файлов с входящими ссылками:** 2715 ## Топ-30 самых цитируемых д || `BACKLINKS` ||
+|| **30** || MemNet --- **Файлов с входящими ссылками:** 2715 ## Топ-30 самых цитируемых доку || `BACKLINKS` ||
 || **3** || найден в docs/contacts/ --- ## Следующие шаги 1. Изучить топ-3 кандидата и выбра || `COLLAB_SUGGESTIONS` ||
-|| **40** || ей _(толщина / процент = косинусное сходство × 100)_ ## Топ-40 кросс-секционных || `CROSS_SECTION` ||
+|| **40** || ## Содержание - Матрица сходства секций - Граф связей - Топ-40 кросс-секционных || `CROSS_SECTION` ||
 || **15** || же (14 сл., строка 217) ### `WORD_FREQ.md` (2 из 27) - ## Топ-15 слов по раздела || `EMPTY_SECTIONS` ||
 || **50** || - Запуск _Слов: 575_ ### Приоритеты файлов > > !NOTE - Топ-50 самых важных файло || `OUTLINE` ||
 || **8** || », «достигн», «получен», «вывод») - Ключевые слова (TF-IDF топ-8) **Флаги:** `-- || `SCRIPTS_CATALOG` ||
 
-h2. Этап (183)
+h2. Этап (161)
 
 || Значение || Контекст || Источник ||
 || **1** || les . Каждая фаза имеет smoke-test: завершена или нет. #### Фаза 1 — Спецификаци || `02-общий-план-развития-na` ||
@@ -171,18 +171,33 @@ h2. Этап (183)
 || **4** || кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa || `02-общий-план-развития-na` ||
 || **5** || y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация || `02-общий-план-развития-na` ||
 || **0** || одержание - 9. Стратегия поэтапного развёртывания - 9.1. Фаза 0 — Основание (Мес || `199-9-стратегия-поэтапног` ||
-|| **51** || onorepo-docs-VmctA _741edf95_ - regenerate auto-feeds after Sprint 51-53 _ba2fca || `CHANGELOG` ||
-|| **48** || sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 48-50 _dedfe1 || `CHANGELOG` ||
-|| **45** || sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 45-47 _74b242 || `CHANGELOG` ||
-|| **42** || sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 42-44 _7d1a69 || `CHANGELOG` ||
-|| **39** || ct files updated by benchmark - regenerate auto-feeds after Sprint 39-41 _d445ff || `CHANGELOG` ||
-|| **36** || after Sprint 39-41 _d445ffb3_ - regenerate auto-feeds after Sprint 36-38 _6efb6b || `CHANGELOG` ||
-|| **33** || after Sprint 36-38 _6efb6b90_ - regenerate auto-feeds after Sprint 33-35 _659414 || `CHANGELOG` ||
-|| **30** || n REPORT exports _2b1e57d2_ - regenerate auto-exports after Sprint 30-32 _e0233b || `CHANGELOG` ||
-|| **27** || ter Sprint 30-32 _e0233b26_ - regenerate auto-exports after Sprint 27-29 _40f122 || `CHANGELOG` ||
-|| **24** || merge with main _b9521c3d_ - regenerate auto-exports after Sprint 24-26 _6421a1f || `CHANGELOG` ||
-|| **21** || ter Sprint 24-26 _6421a1fc_ - regenerate auto-exports after Sprint 21-23 _6ac597 || `CHANGELOG` ||
-|| **18** || ter Sprint 21-23 _6ac59707_ - regenerate auto-exports after Sprint 18-20 _f05312 || `CHANGELOG` ||
-|| **15** || 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 || `CHANGELOG` ||
-|| **12** || t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e || `CHANGELOG` ||
-|| _...ещё 163_ ||  ||  ||
+|| **51** || tnotes `daf0d7f2` ### 2026-04 **✨ Новые возможности** - Sprint 51-53 — prompt li || `CHANGELOG_AUTO` ||
+|| **48** || — prompt library, webhooks, adaptive retrieval `4d415860` - Sprint 48-50 — eval || `CHANGELOG_AUTO` ||
+|| **45** || amework, conversation memory, plan-and-execute `707d1d26` - Sprint 45-47 — budge || `CHANGELOG_AUTO` ||
+|| **42** || 47 — budget guards, model router, workflow DAG `5b15d5f6` - Sprint 42-44 — strea || `CHANGELOG_AUTO` ||
+|| **39** || streaming RAG, feedback loop, A/B experiments `2a7a98b3` - Sprint 39-41 — auth/R || `CHANGELOG_AUTO` ||
+|| **36** || — auth/RBAC, vector DB plugins, OpenTelemetry `dccdd498` - Sprint 36-38 — federa || `CHANGELOG_AUTO` ||
+|| **33** || 38 — federation, event bus, multi-modal ingest `6313b6a7` - Sprint 33-35 — agent || `CHANGELOG_AUTO` ||
+|| **30** || agent loop, cloud ingest, time-travel queries `be1b6b9b` - Sprint 30-32 — intera || `CHANGELOG_AUTO` ||
+|| **27** || ractive web UI, SSE streaming, benchmark suite `965bc0d7` - Sprint 27-29 — Multi || `CHANGELOG_AUTO` ||
+|| **24** || 9 — Multi-LLM, concept clustering, docs portal `00ff4e11` - Sprint 24-26 — RAG p || `CHANGELOG_AUTO` ||
+|| **21** || 26 — RAG pipeline, jobs queue, knowledge graph `d3dd0884` - Sprint 21-23 — embed || `CHANGELOG_AUTO` ||
+|| **18** || ings cache, skill testing, release engineering `11d7bad1` - Sprint 18-20 — MCP-и || `CHANGELOG_AUTO` ||
+|| **15** || -изация новых слоёв, plugin system, web ingest `89f9dc93` - Sprint 15-17 — workf || `CHANGELOG_AUTO` ||
+|| **12** || — workflow v2, observability, embeddings, i18n `2265a4db` - Sprint 12-14 — bot-a || `CHANGELOG_AUTO` ||
+|| _...ещё 141_ ||  ||  ||
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [REPORT|REPORT.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+

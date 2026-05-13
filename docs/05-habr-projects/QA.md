@@ -1,20 +1,5 @@
 # Q&A: 05-habr-projects
 
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Автоматически сгенерировано по 12 файлам раздела._
-**Проекты:** CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], Yodoca[^yodoca], NGT[^ngt] Memory, MemNet, agent-memory-mcp
-
----
-<!-- tags: memory, rag, knowledge, architecture, roadmap, collaboration -->
-
-
-
-
 _Автоматически сгенерировано по 12 файлам раздела._
 
 ## Как работает AgentFS и что такое .agentos?
@@ -55,7 +40,7 @@ _Автоматически сгенерировано по 12 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **Evidence Envelope**, **memory write**
+Упоминаются: **evidence envelope**, **memory write**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -65,47 +50,14 @@ _Автоматически сгенерировано по 12 файлам ра
 
 _Не найдено в этом файле._
 
-<!-- backlinks -->
+## Как реализован forensic RAG с доказуемостью?
 
----
+Упоминаются: **liteparse**, **bounding box**, **evidence**
 
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+## Что такое Evidence Envelope и зачем он нужен?
 
+Упоминаются: **evidence envelope**, **page**, **span**
 
+## Какие RAG-подходы сравниваются в документах?
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/05-habr-projects/QA.md) (сходство 0.98)
-- [QA](../lorenzo-agent/QA.md) (сходство 0.66)
-- [QA](../obsidian/lorenzo-agent/QA.md) (сходство 0.66)
-
-
-
-<!-- footnotes-added -->
-
----
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
-
-[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
-
-[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+Упоминаются: **Hybrid RAG**, **LiteParse**

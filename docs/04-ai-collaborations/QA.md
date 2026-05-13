@@ -1,22 +1,5 @@
 # Q&A: 04-ai-collaborations
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Автоматически сгенерировано по 15 файлам раздела._
-**Проекты:** CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel]
-
----
-<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
-
-
 _Автоматически сгенерировано по 15 файлам раздела._
 
 ## Как реализован forensic RAG с доказуемостью?
@@ -25,7 +8,7 @@ _Автоматически сгенерировано по 15 файлам ра
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -37,7 +20,7 @@ _Автоматически сгенерировано по 15 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -78,48 +61,3 @@ _Автоматически сгенерировано по 15 файлам ра
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/04-ai-collaborations/QA.md) (сходство 0.99)
-- [QA](../01-svyazi/QA.md) (сходство 0.85)
-- [QA](../obsidian/01-svyazi/QA.md) (сходство 0.84)
-
-
-
-<!-- footnotes-added -->
-
----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^sentinel]: OSS-проект: безопасность и allowlist для MCP
-
-[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

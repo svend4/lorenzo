@@ -1,62 +1,75 @@
 # Дайджест изменений
 
-<!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
----
-<!-- tags: rag, ingestion -->
-
-
-
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 <!-- alert-added -->
 
-_Обновлено: 2026-05-12_
+<!-- summary -->
+> > fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass
+
+---
+<!-- tags: rag -->
+
+
+
+
+_Обновлено: 2026-05-13_
 
 ## Последний коммит
 
-**2026-05-12** — `ec6018f8`
-> test(backlinks): cover __main__ block (line 136) via runpy
+**2026-05-13** — `d655c2aa`
+> fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass
 
-Изменено файлов: **1** (+13 / -0 строк)
+Изменено файлов: **1** (+2 / -0 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **6**
-- Добавлено строк: **+258**
-- Удалено строк: **-1**
+- Изменено файлов: **1619**
+- Добавлено строк: **+18476**
+- Удалено строк: **-19799**
 - Новых md-файлов: **0**
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
+| 2026-05-13 | `d655c2aa` | fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dat |
+| 2026-05-13 | `7c934060` | fix: exclude catalog files from backlink injection to keep catalog-fre |
+| 2026-05-13 | `158b1749` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `7b3ddce3` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `7876fab3` | fix(tests): stub published in milestones test to avoid missing git tag |
+| 2026-05-12 | `50c2622c` | ci: retrigger after test fixes (textrank runpy + progress-sync tags) |
+| 2026-05-12 | `ec7795dc` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `095d7105` | fix(tests): fix 3 CI failures from run 25754404920 |
+| 2026-05-12 | `6164dc5f` | ci: retrigger tests after runpy slow-test fixes |
+| 2026-05-12 | `f090a413` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `08689e53` | fix(tests): prevent runpy tests from scanning all 2497 real docs files |
+| 2026-05-12 | `8af64f0e` | ci: add pytest-timeout and capture test output for diagnostics |
 | 2026-05-12 | `ec6018f8` | test(backlinks): cover __main__ block (line 136) via runpy |
 | 2026-05-12 | `afc39fc3` | fix: mock subprocess in tests that call long-running scripts |
 | 2026-05-12 | `dfe8f85b` | test: add coverage improvements + CI debug output |
-| 2026-05-12 | `2f2c40df` | fix: don't re-raise ImportError when streamlit is missing in review_qu |
-| 2026-05-12 | `85732f55` | fix: raise ImportError instead of sys.exit in improve_ann_index.py |
-| 2026-05-12 | `d7701f57` | test: boost coverage to 97-100% for 6 more scripts |
-| 2026-05-12 | `36adaf29` | fix: add lxml to requirements-test.txt for bs4 parser backend |
-| 2026-05-12 | `291778f3` | test: boost coverage for 6 more scripts (97-100% each) |
-| 2026-05-12 | `13eafd65` | fix: add beautifulsoup4 to requirements-test.txt to fix CI unit test f |
-| 2026-05-12 | `d3a371e4` | ci: add --tb=short to pytest for better failure diagnostics |
-| 2026-05-12 | `fb97fe67` | chore: regenerate catalogs to fix CI catalog-fresh check |
-| 2026-05-12 | `6f5d9dcb` | test: boost coverage to 100% for 17 test modules |
-| 2026-05-12 | `0969df78` | test: increase coverage for 8 scripts with targeted new tests |
-| 2026-05-12 | `084534a8` | test: improve_sentiment 65→100%, improve_see_also 63→98% coverage |
-| 2026-05-12 | `84e424aa` | test: improve_summaries/dedup/digest_auto/language_split to 99-100% co |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Документов `.md` | **2497** |
+| Документов `.md` | **2484** |
 | Скриптов обработки | **166** |
-| Последнее обновление | **2026-05-12** |
+| Последнее обновление | **2026-05-13** |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
 
 <!-- see-also -->
 
@@ -64,22 +77,7 @@ _Обновлено: 2026-05-12_
 
 **Смотрите также:**
 - [DIGEST_AUTO](DIGEST_AUTO.md)
+- [CHANGELOG](CHANGELOG.md)
 - [KPI_HISTORY](KPI_HISTORY.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [KPI_HISTORY](KPI_HISTORY.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+- [ALERTS](ALERTS.md)
 

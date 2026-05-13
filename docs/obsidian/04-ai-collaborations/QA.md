@@ -14,16 +14,9 @@ date: 2026-05-13
 
 # Q&A: 04-ai-collaborations
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > _Автоматически сгенерировано по 15 файлам раздела._
-**Проекты:** CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel]
+**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL
 
 ---
 <!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
@@ -105,35 +98,3 @@ _Автоматически сгенерировано по 15 файлам ра
 - [[SEARCH]]
 - [[TABLES]]
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[QA]] (сходство 0.99)
-- [[QA]] (сходство 0.85)
-- [[QA]] (сходство 0.84)
-
-
-
-<!-- footnotes-added -->
-
----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^sentinel]: OSS-проект: безопасность и allowlist для MCP
-
-[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

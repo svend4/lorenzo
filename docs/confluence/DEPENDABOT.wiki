@@ -5,6 +5,16 @@
 
 h1. Мониторинг зависимостей
 
+
+{quote}python scripts/improve_dependabot.py --generate-config{quote}
+_Проекты:_ Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
+
+----
+
+
+
+
+
 _Обновлено: 2026-05-13_
 
 h2. Python-зависимости
@@ -35,3 +45,19 @@ python scripts/improve_dependabot.py --check-pypi
 
 После {{--generate-config}} Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [COLLAB_SUGGESTIONS|COLLAB_SUGGESTIONS.md]
+* [ENTITIES|ENTITIES.md]
+* [GRAPH|GRAPH.md]
+* [MISSING|MISSING.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 3_
+

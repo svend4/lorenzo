@@ -6,7 +6,7 @@
 h1. Контакты и авторы
 
 
-{quote}> Документ содержит практические рекомендации и лучшие практики.{quote}
+{quote}Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ----
@@ -26,11 +26,6 @@ h2. Содержание
 
 
 
-{quote}[!TIP]{quote}
-{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
-
-
-
 h2. Ключевые авторы проектов
 
 || Автор || Проект || Слой || Упомянут в файлах || Первый вопрос ||
@@ -41,12 +36,12 @@ h2. Ключевые авторы проектов
 || **MiXaiLL76** || Auto AI Router || security || 56 || — ||
 || **Sonia_Black** || knowledge-space || knowledge || 38 || — ||
 || **VitalyOborin** || Yodoca || memory || 104 || Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? ||
-|| **VladSpace** || Graph RAG || rag || 79 || — ||
+|| **VladSpace** || Graph RAG || rag || 80 || — ||
 || **andrey_chuyan** || Svyazi || ingestion/CardIndex || 31 || Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? ||
-|| **kksudo** || AgentFS || knowledge/filesystem || 190 || Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? ||
+|| **kksudo** || AgentFS || knowledge/filesystem || 189 || Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? ||
 || **lee-to** || AI Factory || orchestration || 22 || — ||
 || **nlaik** || LiteParse / research-docs || rag || 75 || — ||
-|| **spbmolot** || NGT Memory || memory || 169 || Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? ||
+|| **spbmolot** || NGT Memory || memory || 167 || Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? ||
 || **tagir_analyzes** || Legal RAG || rag || 29 || — ||
 || **zodigancode** || Rufler || orchestration || 91 || — ||
 
@@ -122,24 +117,14 @@ h2. Шаблон первого сообщения
 
 ----
 
-_Кто ссылается на этот документ (30):_
+_Кто ссылается на этот документ (27):_
 * [13-contacts|01-svyazi/13-contacts.md]
 * [13-контактная-стратегия-и-узкие-вопросы-для-авторов|04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md]
-* [AUTHORS|AUTHORS.md]
-* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
 * [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
 * [ENTITIES|ENTITIES.md]
 * [GITHUB_ISSUES|GITHUB_ISSUES.md]
 * [HEADING_AUDIT|HEADING_AUDIT.md]
-* _...ещё 22_
-
-
-
-
-----
-
-_Смотрите также:_
-* [AUTHORS|AUTHORS.md]
-* [NETWORK|NETWORK.md]
-* [PROGRESS|PROGRESS.md]
+* [INDEX|INDEX.md]
+* [LINK_PREVIEW|LINK_PREVIEW.md]
+* _...ещё 19_
 

@@ -12,6 +12,40 @@ date: 2026-05-13
 
 h1. Частотный анализ слов
 
+
+h2. Содержание
+
+* [Глобальный топ-50 слов|#глобальный-топ-50-слов]
+* [Топ-15 слов по разделам|#топ-15-слов-по-разделам]
+  * [01-svyazi (11,030 слов)|#01-svyazi-11030-слов]
+  * [02-anthropic-vacancies (199,374 слов)|#02-anthropic-vacancies-199374-слов]
+  * [03-technology-combinations (2,733 слов)|#03-technology-combinations-2733-слов]
+  * [04-ai-collaborations (22,370 слов)|#04-ai-collaborations-22370-слов]
+  * [05-habr-projects (10,845 слов)|#05-habr-projects-10845-слов]
+  * [ai-collaborations (9,644 слов)|#ai-collaborations-9644-слов]
+  * [anthropic-vacancies (36,706 слов)|#anthropic-vacancies-36706-слов]
+  * [autofilled (1,892 слов)|#autofilled-1892-слов]
+  * [badges (60 слов)|#badges-60-слов]
+  * [contacts (2,782 слов)|#contacts-2782-слов]
+  * [glossary (3,192 слов)|#glossary-3192-слов]
+  * [habr-unique-projects (15,803 слов)|#habr-unique-projects-15803-слов]
+  * [letters (2,420 слов)|#letters-2420-слов]
+  * [lorenzo-agent (21,787 слов)|#lorenzo-agent-21787-слов]
+  * [meta-scripting (1,510 слов)|#meta-scripting-1510-слов]
+  * [nautilus (132,469 слов)|#nautilus-132469-слов]
+  * [obsidian (806,068 слов)|#obsidian-806068-слов]
+  * [processing-guide (8,652 слов)|#processing-guide-8652-слов]
+  * [root (371,107 слов)|#root-371107-слов]
+  * [svyazi-2-0 (16,214 слов)|#svyazi-2-0-16214-слов]
+  * [technology-combinations (16,206 слов)|#technology-combinations-16206-слов]
+  * [templates (4,428 слов)|#templates-4428-слов]
+* [Уникальные слова разделов|#уникальные-слова-разделов]
+
+----
+
+
+
+
 {quote}[!WARNING]{quote}
 {quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
 

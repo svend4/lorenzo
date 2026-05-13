@@ -18,14 +18,9 @@ date: 2026-05-13
 
 h1. Q&A: 05-habr-projects
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 {quote}_Автоматически сгенерировано по 12 файлам раздела._{quote}
-_Проекты:_ CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], Yodoca[^yodoca], NGT[^ngt] Memory, MemNet, agent-memory-mcp
+_Проекты:_ CardIndex, AgentFS, knowledge-space, LiteParse, Hybrid RAG, Yodoca, NGT Memory, MemNet
 
 ----
 
@@ -83,6 +78,18 @@ h2. Что входит в первую итерацию прототипа?
 
 _Не найдено в этом файле._
 
+h2. Как реализован forensic RAG с доказуемостью?
+
+Упоминаются: _liteparse_, _bounding box_, _evidence_
+
+h2. Что такое Evidence Envelope и зачем он нужен?
+
+Упоминаются: _Evidence Envelope_, _page_, _span_
+
+h2. Какие RAG-подходы сравниваются в документах?
+
+Упоминаются: _Hybrid RAG_, _LiteParse_
+
 
 
 ----
@@ -95,35 +102,3 @@ _Кто ссылается на этот документ (6):_
 * [[SEARCH]]
 * [[TABLES]]
 
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_qa.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [[QA]] (сходство 0.98)
-* [[QA]] (сходство 0.66)
-* [[QA]] (сходство 0.66)
-
-
-
-
-
-----
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
-
-[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
-
-[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

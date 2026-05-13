@@ -17,13 +17,6 @@ date: 2026-05-13
 
 # Q&A: 02-anthropic-vacancies
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `QA` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > _Автоматически сгенерировано по 355 файлам раздела._
 **Проекты:** CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
@@ -139,21 +132,4 @@ _Автоматически сгенерировано по 355 файлам р�
 - [[READING_TIME]]
 - [[SEARCH]]
 - [[TABLES]]
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[QA]] (сходство 0.99)
-- [[QA]] (сходство 0.82)
-- [[QA]] (сходство 0.81)
 
