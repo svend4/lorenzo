@@ -2,7 +2,7 @@
 title: "8. Risks and Mitigations"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 8. Risks and Mitigations

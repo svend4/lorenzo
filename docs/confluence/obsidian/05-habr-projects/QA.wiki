@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/05-habr-projects/QA.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -13,7 +13,7 @@ tags:
   * roadmap
   * collaboration
   * habr-projects
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. Q&A: 05-habr-projects

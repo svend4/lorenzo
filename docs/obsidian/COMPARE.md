@@ -2,16 +2,23 @@
 title: "Сравнение с предыдущим коммитом"
 tags:
   - general
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Сравнение с предыдущим коммитом
 
-**Файлов было:** 1479  **стало:** 2497  
-**Слов было:** 2,103,742  **стало:** 2,933,724  **Δ:** +829,982
+<!-- summary -->
+> **Файлов было:** 1479  **стало:** 2484
+
+---
 
 
-## Новые файлы (1018)
+
+**Файлов было:** 1479  **стало:** 2484  
+**Слов было:** 2,103,252  **стало:** 2,934,352  **Δ:** +831,100
+
+
+## Новые файлы (1005)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19240 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3329 слов)
@@ -53,53 +60,42 @@ date: 2026-05-12
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (653 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (573 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (645 слов)
-_...и ещё 978_
+_...и ещё 965_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (53) — топ по Δ слов
+## Изменившиеся файлы (410) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `REPORT.md` | 984 | 326 | -658 |
-| `CONTRADICTIONS.md` | 1571 | 1660 | +89 |
-| `NARRATIVE.md` | 1041 | 1128 | +87 |
-| `READING_ORDER.md` | 6041 | 6128 | +87 |
-| `CONSISTENCY.md` | 630 | 715 | +85 |
-| `QUESTIONS.md` | 1807 | 1885 | +78 |
-| `KPI.md` | 2735 | 2812 | +77 |
-| `KEYWORD_INDEX.md` | 994 | 1069 | +75 |
-| `CONCEPT_GRAPH.md` | 646 | 720 | +74 |
-| `DEPENDABOT.md` | 136 | 210 | +74 |
-| `DIGEST_AUTO.md` | 471 | 543 | +72 |
-| `LANGUAGE_STATS.md` | 7830 | 7902 | +72 |
-| `CROSS_SECTION.md` | 4072 | 4142 | +70 |
-| `CONTENT_GAPS.md` | 885 | 952 | +67 |
-| `COMPARE.md` | 477 | 543 | +66 |
-| `KPI_HISTORY.md` | 181 | 239 | +58 |
-| `LLM_GAPS.md` | 56 | 111 | +55 |
-| `DUPLICATES.md` | 2032 | 2079 | +47 |
-| `READING_TIME.md` | 27338 | 27381 | +43 |
-| `READING_TIME.md` | 27427 | 27392 | -35 |
+| `REPORT.md` | 297 | 1013 | +716 |
+| `DUPLICATES.md` | 2032 | 2323 | +291 |
+| `DUPLICATES.md` | 2029 | 2293 | +264 |
+| `CONTRADICTIONS.md` | 1519 | 1683 | +164 |
+| `CONTRADICTIONS.md` | 1497 | 1652 | +155 |
+| `SENTIMENT.md` | 553 | 612 | +59 |
+| `STATS.md` | 698 | 757 | +59 |
+| `KPI_HISTORY.md` | 194 | 239 | +45 |
+| `CROSS_SECTION.md` | 4097 | 4131 | +34 |
+| `LANGUAGE_STATS.md` | 7860 | 7893 | +33 |
+| `COMPARE.md` | 501 | 533 | +32 |
+| `CONCEPT_GRAPH.md` | 675 | 705 | +30 |
+| `DEPENDABOT.md` | 165 | 195 | +30 |
+| `KEYWORD_INDEX.md` | 1024 | 1053 | +29 |
+| `READING_TIME.md` | 27352 | 27381 | +29 |
 | `REGISTRY.md` | 1341 | 1370 | +29 |
 | `TASKS_INDEX.md` | 956 | 985 | +29 |
 | `VALIDATION.md` | 254 | 283 | +29 |
-| `CONTRADICTIONS.md` | 1583 | 1609 | +26 |
+| `KPI_HISTORY.md` | 192 | 221 | +29 |
+| `QUESTIONS.md` | 1838 | 1864 | +26 |
 | `SCRIPTS_CATALOG.md` | 7730 | 7754 | +24 |
 | `SUMMARIES.md` | 13 | 35 | +22 |
+| `KPI.md` | 2767 | 2788 | +21 |
+| `CONSISTENCY.md` | 670 | 689 | +19 |
+| `LLM_GAPS.md` | 79 | 98 | +19 |
 | `CLUSTERS.md` | 1686 | 1704 | +18 |
 | `COMPARE.md` | 489 | 507 | +18 |
 | `CONCEPT_GRAPH.md` | 658 | 676 | +18 |
 | `CONSISTENCY.md` | 640 | 658 | +18 |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
+| `REPORT.md` | 998 | 1016 | +18 |

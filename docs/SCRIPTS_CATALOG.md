@@ -1,6 +1,6 @@
 # Каталог скриптов
 
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-13_
 
 **Всего скриптов:** 165
 
@@ -1594,18 +1594,4 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 Расширяет improve_workflow_run.py: - retry с exponential backoff на сетевые/таймаут ошибки - parallel execution для независимых шагов (через ThreadPoolExecutor) - DAG: шаг может объявить depends_on: [step_id, ...] - JSONL execution log в .claude/workflow_runs.jsonl
 
 **Флаги:** `--history`, `--output`, `--parallel`, `--resume`, `--task`
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md)
 

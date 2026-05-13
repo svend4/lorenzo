@@ -6,7 +6,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 5. Four Integration Paths in Order of Accessibility

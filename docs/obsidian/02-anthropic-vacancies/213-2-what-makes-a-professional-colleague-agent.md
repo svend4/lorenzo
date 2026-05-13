@@ -3,7 +3,7 @@ title: "2. What Makes a Professional Colleague Agent"
 tags:
   - ingestion
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 2. What Makes a Professional Colleague Agent

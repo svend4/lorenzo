@@ -2,7 +2,7 @@
 title: "GitHub Issues — список задач"
 tags:
   - general
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # GitHub Issues — список задач

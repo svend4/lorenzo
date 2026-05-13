@@ -2,7 +2,7 @@
 title: "with Anthropic's Cowork Platform"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # with Anthropic's Cowork Platform

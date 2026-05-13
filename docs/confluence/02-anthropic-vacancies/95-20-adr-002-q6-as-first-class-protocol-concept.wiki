@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. 20. ADR-002: Q6 as First-Class Protocol Concept

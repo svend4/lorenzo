@@ -2,7 +2,7 @@
 title: "Майндмап репозитория Lorenzo"
 tags:
   - general
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Майндмап репозитория Lorenzo

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "5. Configuration: How Principals Build Their Ensembles"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. 5. Configuration: How Principals Build Their Ensembles

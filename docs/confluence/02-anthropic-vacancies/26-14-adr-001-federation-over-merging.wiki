@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. 14. ADR-001: Federation over Merging

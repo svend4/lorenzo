@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/325-аннотация.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Аннотация"
 tags:
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. Аннотация

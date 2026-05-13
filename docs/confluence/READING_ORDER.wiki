@@ -1,20 +1,20 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/READING_ORDER.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. Рекомендуемый порядок чтения
 
-{quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
-
-
-
-{quote}От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).{quote}
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 _Проекты:_ Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
 
 ----
+
+
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 
 
@@ -450,25 +450,25 @@ h3. 🔬 Полное исследование (1 день)
 
 ----
 
-_Смотрите также:_
-* [SOURCE_MAP|SOURCE_MAP.md]
-* [CLUSTERS|CLUSTERS.md]
-* [READING_TIME|READING_TIME.md]
+_Кто ссылается на этот документ (10):_
+* [README|02-anthropic-vacancies/README.md]
+* [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+* [TIMELINE|TIMELINE.md]
+* _...ещё 2_
 
 
 
 
 ----
 
-_Кто ссылается на этот документ (14):_
-* [README|02-anthropic-vacancies/README.md]
+_Смотрите также:_
+* [SOURCE_MAP|SOURCE_MAP.md]
 * [CLUSTERS|CLUSTERS.md]
-* [COMPARE|COMPARE.md]
-* [CONTENT_GAPS|CONTENT_GAPS.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* _...ещё 6_
+* [READABILITY|READABILITY.md]
 

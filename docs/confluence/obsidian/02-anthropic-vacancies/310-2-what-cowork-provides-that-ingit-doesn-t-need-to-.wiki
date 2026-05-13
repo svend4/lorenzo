@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * roadmap
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. 2. What Cowork Provides That InGit Doesn't Need to Build

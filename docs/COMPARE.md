@@ -1,10 +1,17 @@
 # Сравнение с предыдущим коммитом
 
-**Файлов было:** 1479  **стало:** 2497  
-**Слов было:** 2,103,252  **стало:** 2,933,532  **Δ:** +830,280
+<!-- summary -->
+> **Файлов было:** 1479  **стало:** 2484
+
+---
 
 
-## Новые файлы (1018)
+
+**Файлов было:** 1479  **стало:** 2484  
+**Слов было:** 2,103,252  **стало:** 2,934,352  **Δ:** +831,100
+
+
+## Новые файлы (1005)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19240 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3329 слов)
@@ -46,42 +53,53 @@
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (653 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (573 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (645 слов)
-_...и ещё 978_
+_...и ещё 965_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (43) — топ по Δ слов
+## Изменившиеся файлы (410) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `CONTRADICTIONS.md` | 1519 | 1566 | +47 |
-| `DUPLICATES.md` | 2032 | 2079 | +47 |
-| `QUESTIONS.md` | 1838 | 1885 | +47 |
-| `CONCEPT_GRAPH.md` | 675 | 720 | +45 |
-| `CONSISTENCY.md` | 670 | 715 | +45 |
-| `CROSS_SECTION.md` | 4097 | 4142 | +45 |
-| `DEPENDABOT.md` | 165 | 210 | +45 |
-| `DIGEST_AUTO.md` | 496 | 541 | +45 |
-| `KEYWORD_INDEX.md` | 1024 | 1069 | +45 |
-| `KPI.md` | 2767 | 2812 | +45 |
+| `REPORT.md` | 297 | 1013 | +716 |
+| `DUPLICATES.md` | 2032 | 2323 | +291 |
+| `DUPLICATES.md` | 2029 | 2293 | +264 |
+| `CONTRADICTIONS.md` | 1519 | 1683 | +164 |
+| `CONTRADICTIONS.md` | 1497 | 1652 | +155 |
+| `SENTIMENT.md` | 553 | 612 | +59 |
+| `STATS.md` | 698 | 757 | +59 |
 | `KPI_HISTORY.md` | 194 | 239 | +45 |
-| `NARRATIVE.md` | 1083 | 1128 | +45 |
-| `READING_ORDER.md` | 6083 | 6128 | +45 |
-| `SEE_ALSO.md` | 233 | 278 | +45 |
-| `SENTIMENT.md` | 553 | 598 | +45 |
-| `STATS.md` | 698 | 743 | +45 |
-| `COMPARE.md` | 501 | 543 | +42 |
-| `LANGUAGE_STATS.md` | 7860 | 7902 | +42 |
-| `CONTENT_GAPS.md` | 912 | 952 | +40 |
-| `LLM_GAPS.md` | 79 | 111 | +32 |
-| `CLUSTERS.md` | 1705 | 1674 | -31 |
+| `CROSS_SECTION.md` | 4097 | 4131 | +34 |
+| `LANGUAGE_STATS.md` | 7860 | 7893 | +33 |
+| `COMPARE.md` | 501 | 533 | +32 |
+| `CONCEPT_GRAPH.md` | 675 | 705 | +30 |
+| `DEPENDABOT.md` | 165 | 195 | +30 |
+| `KEYWORD_INDEX.md` | 1024 | 1053 | +29 |
 | `READING_TIME.md` | 27352 | 27381 | +29 |
 | `REGISTRY.md` | 1341 | 1370 | +29 |
-| `REPORT.md` | 297 | 326 | +29 |
 | `TASKS_INDEX.md` | 956 | 985 | +29 |
 | `VALIDATION.md` | 254 | 283 | +29 |
-| `ALERTS.md` | 132 | 108 | -24 |
+| `KPI_HISTORY.md` | 192 | 221 | +29 |
+| `QUESTIONS.md` | 1838 | 1864 | +26 |
 | `SCRIPTS_CATALOG.md` | 7730 | 7754 | +24 |
 | `SUMMARIES.md` | 13 | 35 | +22 |
+| `KPI.md` | 2767 | 2788 | +21 |
+| `CONSISTENCY.md` | 670 | 689 | +19 |
+| `LLM_GAPS.md` | 79 | 98 | +19 |
 | `CLUSTERS.md` | 1686 | 1704 | +18 |
+| `COMPARE.md` | 489 | 507 | +18 |
+| `CONCEPT_GRAPH.md` | 658 | 676 | +18 |
+| `CONSISTENCY.md` | 640 | 658 | +18 |
+| `REPORT.md` | 998 | 1016 | +18 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [190-содержание](02-anthropic-vacancies/190-содержание.md)
+- [00-abstract](nautilus/representative-agent-layer-ru/00-abstract.md)
+- [READING_ORDER](READING_ORDER.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+

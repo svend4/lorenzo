@@ -1,6 +1,6 @@
 # REGISTRY — реестр артефактов Lorenzo
 
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-13_
 
 ## Сводка
 
@@ -174,19 +174,3 @@ python scripts/improve_task_codegen.py
 # Реестр артефактов (этот файл)
 python scripts/improve_registry.py
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (28):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- [agent-spec](templates/agent-spec.md)
-- [contact-outreach](templates/contact-outreach.md)
-- _...ещё 20_
-

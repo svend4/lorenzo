@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/autofilled/components/svend4.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * ingestion
   * collaboration
   * autofilled
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. svend4

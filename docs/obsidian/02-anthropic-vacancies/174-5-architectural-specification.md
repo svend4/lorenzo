@@ -2,7 +2,7 @@
 title: "5. Architectural Specification"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 5. Architectural Specification

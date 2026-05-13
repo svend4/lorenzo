@@ -3,7 +3,7 @@ title: "README-MCP.md— инструкция по установке"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # README-MCP.md— инструкция по установке

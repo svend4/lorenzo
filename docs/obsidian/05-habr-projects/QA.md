@@ -8,7 +8,7 @@ tags:
   - roadmap
   - collaboration
   - habr-projects
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Q&A: 05-habr-projects

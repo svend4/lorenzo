@@ -3,7 +3,7 @@ title: "13. Closing"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 13. Closing

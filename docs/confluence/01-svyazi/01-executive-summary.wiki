@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/01-svyazi/01-executive-summary.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. Svyazi[^svyazi] 2.0 — Исполнительное резюме

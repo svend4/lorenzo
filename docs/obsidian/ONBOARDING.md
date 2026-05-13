@@ -4,7 +4,7 @@ tags:
   - onboarding
   - docs
   - general
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Онбординг — Svyazi 2.0 / Lorenzo

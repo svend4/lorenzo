@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. Appendix A: Minimal Working Example

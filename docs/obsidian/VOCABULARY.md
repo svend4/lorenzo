@@ -4,7 +4,7 @@ tags:
   - vocabulary
   - docs
   - general
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Богатство словаря документов

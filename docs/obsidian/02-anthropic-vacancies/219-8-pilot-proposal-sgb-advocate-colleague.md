@@ -5,7 +5,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 8. Pilot Proposal: SGB Advocate Colleague

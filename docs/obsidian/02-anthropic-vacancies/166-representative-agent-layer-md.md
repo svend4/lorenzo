@@ -3,7 +3,7 @@ title: "REPRESENTATIVE AGENT LAYER.md"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # REPRESENTATIVE AGENT LAYER.md

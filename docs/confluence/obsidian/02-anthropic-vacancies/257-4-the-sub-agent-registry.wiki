@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/257-4-the-sub-agent-registry.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
 title: "4. The Sub-Agent Registry"
 tags:
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. 4. The Sub-Agent Registry

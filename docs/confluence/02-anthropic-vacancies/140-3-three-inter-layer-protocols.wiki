@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. 3. Three Inter-Layer Protocols

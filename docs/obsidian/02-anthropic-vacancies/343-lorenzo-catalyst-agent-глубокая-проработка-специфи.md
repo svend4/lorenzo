@@ -2,7 +2,7 @@
 title: "Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)

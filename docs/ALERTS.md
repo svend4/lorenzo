@@ -1,12 +1,19 @@
 # Callout-блоки
 
-Добавлено **22** callout-блоков в документы.
+<!-- summary -->
+> Добавлено **19** callout-блоков в документы.
+
+---
+
+
+
+Добавлено **19** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
 |-----|------------|------------|
-| `[!NOTE]` | 10 | Нейтральная заметка |
+| `[!NOTE]` | 8 | Нейтральная заметка |
 | `[!TIP]` | 7 | Практический совет |
-| `[!WARNING]` | 5 | Предупреждение о риске |
+| `[!WARNING]` | 4 | Предупреждение о риске |
 | `[!IMPORTANT]` | 0 | Ключевой документ |
 
 ## Пример синтаксиса
@@ -31,8 +38,7 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ---
 
-**Кто ссылается на этот документ (9):**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
+**Кто ссылается на этот документ (8):**
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
@@ -40,5 +46,16 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
-- _...ещё 1_
+- [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ORPHANS](ORPHANS.md)
+- [STATS](STATS.md)
+- [AUTHORS](AUTHORS.md)
+- [LINKS](LINKS.md)
 

@@ -1,18 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/DUPLICATES.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. Отчёт о дублировании
 
-{quote}[!WARNING]{quote}
-{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
-
-
-
 Порог сходства: _0.5_  
 Точных дублей: _0_  
-Похожих пар: _974_
+Похожих пар: _972_
 
 h2. Похожие файлы (Jaccard ≥ 0.5)
 
@@ -21,22 +16,11 @@ h3. 100% — {{docs/SENTINEL.md}} vs {{docs/obsidian/SENTINEL.md}}
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
+{quote}| Файл | Лицензия | Риск | |------|----------|------| | {{docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-}} | BSL | Business Source License — не открытая, коммерческие ограниче | | `docs/ob…{quote}
+
 {quote}| Файл | Строка | Проблема | Фрагмент | |------|--------|----------|----------| | {{scripts/gateway.py}} | 655 | _import_() dynamic import | {{t0      = _import_("time").time()}} | | `scripts/gateway.…{quote}
 
 {quote}- {{http://localhost:8000}}``````{{ в }}docs/SENTINEL.md{{ - }}http://localhost:8000````````{{ в }}docs/SENTINEL.md{{ - }}http://localhost:8080```````{{ в }}docs/SENTINEL.md{{ - }}http://localhost:8080````````{{ в }}…{quote}
-
-{quote}- Итог - PII и секреты - Небезопасный код - Файлы credentials - Лицензионные риски - HTTP без TLS - Использование{quote}
-
-----
-
-h3. 100% — {{docs/CONSISTENCY.md}} vs {{docs/obsidian/CONSISTENCY.md}}
-
-_Общих абзацев:_ 2  
-_Примеры совпадений:_
-
-{quote}- {{docs/CONSISTENCY.md}} - {{docs/obsidian/CONSISTENCY.md}} - {{docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md}} - `docs/obsidian/02-anthropic-vacancies/365-развёрнутый…{quote}
-
-{quote}| Термин | Канонично | Вариант | Файлов | |--------|-----------|---------|--------| | _knowledge-space_ | {{knowledge-space}} | {{knowledgespace}} | 6 | | _knowledge-space_ | {{knowledge-space}} | `know…{quote}
 
 ----
 
@@ -45,9 +29,9 @@ h3. 100% — {{docs/PRECISION_EVAL.md}} vs {{docs/obsidian/PRECISION_EVAL.md}}
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
-{quote}| # | Запрос | Rank | Hit | |---|--------|------|-----| | 1 | Yodoca консолидация SQLite decay forgot memory | 4 | ✅ | | 2 | AgentFS файловая система агент vault kksudo | 2 | ✅ | | 3 | NGT Memory ассо…{quote}
-
 {quote}| Метрика | Значение | Порог | Статус | |---------|---------|-------|--------| | Hit Rate@10 | _1.000_ (20/20) | ≥ 0.70 | ✅ PASS | | Mean MRR      | 0.603 | — | — | | Avg Latency   | 1.106с | ≤ 5.0с…{quote}
+
+{quote}> _Примечание:_ Hit Rate@K = доля запросов, где хотя бы 1 релевантный > документ попал в топ-K. Стандартный P@K с 1 документом/запрос ≤ 1/K, > поэтому Hit Rate — правильная метрика для этого набора …{quote}
 
 {quote}- _Метрика:_ Hit Rate@10 — доля запросов с ≥1 релевантным документом в топ-10. - _Поиск:_ {{hybrid_search()}} = 0.6×TF-IDF + 0.4×BM25 с фильтром шумовых документов. - _Фильтр шума:_ исключаются me…{quote}
 
@@ -69,24 +53,11 @@ h3. 100% — {{docs/GATEWAY.md}} vs {{docs/obsidian/GATEWAY.md}}
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
-{quote}| Аспект | Lorenzo Gateway | DAF-gateway | |--------|----------------|-------------| | Поиск | {{hybrid_search()}} — наш BM25+TF-IDF | {{docstoolkit.rag}} — внешняя библиотека | | Данные | `search_index.j…{quote}
+{quote}_Как работает {{add_card}}:_ 1. AI-агент (или пользователь) вызывает {{POST /api/cards}} или инструмент {{add_card}} 2. Gateway создаёт {{.md}} файл в {{docs/<section>/}} с правильным frontmatter 3. Сбрасывае…{quote}
 
-{quote}### {{GET /api/benchmark}} Все 5 критериев успеха PROTOTYPE_SPEC §8 одним запросом. ``{{bash curl http://localhost:8083/api/benchmark }}`{{ }}``json {   "criteria": {     "latency_s":   {"value": 0.21, "thr…{quote}
+{quote}### Простой поиск ```bash curl -X POST http://localhost:8083/v1/chat/completions \      -H "Content-Type: application/json" \      -d '{        "model": "lorenzo-gateway",        "messages": [{"role":…{quote}
 
-{quote}### Поиск коллаборации ```bash curl -X POST http://localhost:8083/v1/chat/completions \      -H "Content-Type: application/json" \      -d '{        "model": "lorenzo-gateway",        "messages": [{"r…{quote}
-
-----
-
-h3. 100% — {{docs/CLUSTERS.md}} vs {{docs/obsidian/CLUSTERS.md}}
-
-_Общих абзацев:_ 3  
-_Примеры совпадений:_
-
-{quote}- {{docs/02-anthropic-vacancies/150-appendix-c-version-history.md}} — _150-appendix-c-version-history_ - {{docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md}} — _161-7-phased-rollout-plan_ - `docs/…{quote}
-
-{quote}- {{docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md}} — _343-lorenzo-catalyst-agent-глубокая-проработка-специфи_ - `docs/02-anthropic-vacancies/364-final-note-ты-ex…{quote}
-
-{quote}- {{docs/02-anthropic-vacancies/03-portal-protocol-md.md}} — _03-portal-protocol-md_ - {{docs/02-anthropic-vacancies/04-abstract.md}} — _04-abstract_ - `docs/02-anthropic-vacancies/05-0-status-of-this-doc…{quote}
+{quote}- Содержание - Что это - Сравнение с DAF-gateway - Архитектура - Запуск - Эндпоинты   - {{GET /api/health}}   - {{GET /api/status}}   - {{GET /api/benchmark}}   - {{POST /api/ask}}   - {{POST /api/search}}   - …{quote}
 
 ----
 
@@ -95,9 +66,9 @@ h3. 100% — {{docs/COVERAGE.md}} vs {{docs/obsidian/COVERAGE.md}}
 _Общих абзацев:_ 2  
 _Примеры совпадений:_
 
-{quote}- ✅ {{docs/04-ai-collaborations/00-intro.md}} - ✅ {{docs/04-ai-collaborations/01-executive-summary.md}} - ✅ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}} - ✅ `docs/04-ai-collaborations/03-карт…{quote}
-
 {quote}| Секция | Файлов | Summary | Теги | TOC | CrossRefs | Статус | Backlinks | |--------|--------|---------|------|-----|-----------|--------|-----------| | {{01-svyazi}} | 14 | 🟢 14/14 | 🟢 14/14 | 🟢 14/14…{quote}
+
+{quote}- ✅ {{docs/04-ai-collaborations/00-intro.md}} - ✅ {{docs/04-ai-collaborations/01-executive-summary.md}} - ✅ {{docs/04-ai-collaborations/02-методика-и-рамка-отбора.md}} - ✅ `docs/04-ai-collaborations/03-карт…{quote}
 
 ----
 
@@ -128,24 +99,11 @@ h3. 100% — {{docs/TOPIC_MODEL.md}} vs {{docs/obsidian/TOPIC_MODEL.md}}
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
-{quote}- Тема 1: cowork, ingit, turn (2042 документов) - Тема 4: triangle, double, domain (123 документов) - Тема 2: memory, wikontic, yodoca (102 документов) - Тема 3: level, compatibility, bridges (83 доку…{quote}
+{quote}_Документы:_ - {{docs/02-anthropic-vacancies/06-1-introduction.md}} — goals, introduction, merging, federation - {{docs/02-anthropic-vacancies/103-appendix-b-change-log.md}} — informative, queryresult, …{quote}
 
-{quote}_Документы:_ - {{docs/02-anthropic-vacancies/132-planned-v0-2-0.md}} — passport, compatibility, minimal, curious - {{docs/02-anthropic-vacancies/17-5-compatibility-levels.md}} — compatibility, level, re…{quote}
+{quote}| Тема | Слово 1 | Слово 2 | Слово 3 | Слово 4 | Слово 5 | |------|---------|---------|---------|---------|---------| | cowork, ingit, turn | cowork | ingit | appendix | turn | svyazi | | triangle, do…{quote}
 
-{quote}_Документы:_ - {{docs/COVERAGE.md}} — условные, обозначения, heatmap, отсутствует - {{docs/DIGEST_WEEKLY.md}} — digest, metrics, auto, preview - {{docs/HEALTH.md}} — балл, broken, links, validation - `doc…{quote}
-
-----
-
-h3. 100% — {{docs/CONTRADICTIONS.md}} vs {{docs/obsidian/CONTRADICTIONS.md}}
-
-_Общих абзацев:_ 3  
-_Примеры совпадений:_
-
-{quote}_B:_ {{docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md}} > md) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Model — большая языковая модель ^cardin…{quote}
-
-{quote}_A:_ {{docs/01-svyazi/11-integration-contracts.md}} > 1) ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: экосистема AI-компонентов --- Кто ссылается на этот документ (…{quote}
-
-{quote}_B:_ {{docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md}} > knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референс…{quote}
+{quote}_Документы:_ - {{docs/02-anthropic-vacancies/12-content-overview.md}} — content, overview, angle, perspective - {{docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md}} — triangle, dou…{quote}
 
 ----
 
@@ -156,9 +114,9 @@ _Примеры совпадений:_
 
 {quote}- Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3){quote}
 
-{quote}- _Автор:_ iximy - _Источник:_ Хабр citeturn34view2 - _Лицензия:_ неуточнено. citeturn34view2 - _Maturity:_ практический implementation guide; публичный код в статье не акцентирован. citeturn3…{quote}
-
 {quote}Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…{quote}
+
+{quote}- _Автор:_ iximy - _Источник:_ Хабр citeturn34view2 - _Лицензия:_ неуточнено. citeturn34view2 - _Maturity:_ практический implementation guide; публичный код в статье не акцентирован. citeturn3…{quote}
 
 ----
 
@@ -167,9 +125,9 @@ h3. 100% — {{docs/svyazi-2-0/components/agent-memory-mcp.md}} vs {{docs/obsidi
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
-{quote}- _Автор:_ VitaliySemenov / moshael - _Источник:_ Хабр + GitHub + Хабр citeturn20view16turn15search3turn39view3 - _Лицензия:_ для {{agent-memory-mcp}} — неуточнено; для Memory OS — неуточнено. cit…{quote}
-
 {quote}- Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3){quote}
+
+{quote}- _Автор:_ VitaliySemenov / moshael - _Источник:_ Хабр + GitHub + Хабр citeturn20view16turn15search3turn39view3 - _Лицензия:_ для {{agent-memory-mcp}} — неуточнено; для Memory OS — неуточнено. cit…{quote}
 
 {quote}Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…{quote}
 
@@ -180,11 +138,11 @@ h3. 100% — {{docs/svyazi-2-0/components/graph-rag.md}} vs {{docs/obsidian/svya
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
-{quote}- _Автор:_ VladSpace / vpakspace - _Источник:_ Хабр + GitHub citeturn34view3turn40search2 - _Лицензия:_ неуточнено. citeturn34view3turn40search2 - _Maturity:_ активный публичный repo / product…{quote}
+{quote}- Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3){quote}
 
 {quote}Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…{quote}
 
-{quote}- Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3){quote}
+{quote}- _Автор:_ VladSpace / vpakspace - _Источник:_ Хабр + GitHub citeturn34view3turn40search2 - _Лицензия:_ неуточнено. citeturn34view3turn40search2 - _Maturity:_ активный публичный repo / product…{quote}
 
 ----
 
@@ -195,9 +153,9 @@ _Примеры совпадений:_
 
 {quote}- Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3){quote}
 
-{quote}- _Автор:_ AnastasiyaW - _Источник:_ Хабр + GitHub citeturn20view2turn37search0 - _Лицензия:_ _MIT_. citeturn37search0 - _Maturity:_ активный OSS. citeturn37search0 - **Релевантность к Svyaz…{quote}
-
 {quote}Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…{quote}
+
+{quote}- _Автор:_ AnastasiyaW - _Источник:_ Хабр + GitHub citeturn20view2turn37search0 - _Лицензия:_ _MIT_. citeturn37search0 - _Maturity:_ активный OSS. citeturn37search0 - **Релевантность к Svyaz…{quote}
 
 ----
 
@@ -215,11 +173,11 @@ h3. 100% — {{docs/letters/vitalysemenov.md}} vs {{docs/obsidian/letters/vitaly
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
-{quote}Я строю Svyazi 2.0 — локальную knowledge-платформу для Claude. Ключевая задача — дать агенту постоянную типизированную память, которая не зависит от внешних сервисов и работает офлайн. Именно поэтому …{quote}
+{quote}- Описание того, как agent-memory-mcp + Memory OS закрывают memory-слой   в архитектуре Svyazi 2.0 (задокументировано детально) - Обсуждение, как {{CardEnvelope}} Svyazi соотносится с типами записей   a…{quote}
 
 {quote}Четыре типа записей ({{episodic}}, {{semantic}}, {{procedural}}, {{working}}) — это точная типизация, которой не хватает большинству memory-систем. В PROTOTYPE_SPEC Svyazi я использую похожее разделение: `fac…{quote}
 
-{quote}Как gardener-loop решает конфликты bi-temporal фактов? Конкретно: если в {{episodic}} памяти есть запись «X произошло в момент T₁» (время события), добавленная в момент T₂ (время записи), а потом приход…{quote}
+{quote}Я строю Svyazi 2.0 — локальную knowledge-платформу для Claude. Ключевая задача — дать агенту постоянную типизированную память, которая не зависит от внешних сервисов и работает офлайн. Именно поэтому …{quote}
 
 ----
 
@@ -228,9 +186,9 @@ h3. 100% — {{docs/letters/antipozitive.md}} vs {{docs/obsidian/letters/antipoz
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
-{quote}В Svyazi 2.0 граф строится из карточек (факты, проекты, люди, эпизоды), и для каждой пары карточек нужно решить: есть между ними связь или это случайное совпадение терминов. При размере базы в 1600+ к…{quote}
-
 {quote}Я строю Svyazi 2.0 — локальную систему, которая связывает знания из разных источников через граф. Один из ключевых вопросов, с которым я работаю — как оценивать качество связей в таком графе, не прибе…{quote}
+
+{quote}В Svyazi 2.0 граф строится из карточек (факты, проекты, люди, эпизоды), и для каждой пары карточек нужно решить: есть между ними связь или это случайное совпадение терминов. При размере базы в 1600+ к…{quote}
 
 {quote}- Тестовый набор из реальных карточек Svyazi для проверки MemNet на   практическом случае (смешанные типы: факты, проекты, люди) - Обсуждение, как MemNet может стать слоем валидации связей поверх   BM…{quote}
 
@@ -243,9 +201,9 @@ _Примеры совпадений:_
 
 {quote}Я строю Svyazi 2.0 — локальную систему для работы со знаниями из документов. Ключевой компонент, который мне нужен — слой evidence: не просто найти нужный абзац, а показать, откуда взялся каждый факт,…{quote}
 
-{quote}Bounding boxes на страницах PDF — это принципиально другой уровень доверия к ответу агента. Когда источник цитаты — не «страница 3», а конкретный визуальный блок на странице, это меняет применимость с…{quote}
-
 {quote}- Описание того, как LiteParse закрывает слой ingestion в Evidence Envelope   Svyazi 2.0 — уже задокументировано с примерами - Тестовый набор: 3-4 юридических/технических PDF на русском языке,   если …{quote}
+
+{quote}Bounding boxes на страницах PDF — это принципиально другой уровень доверия к ответу агента. Когда источник цитаты — не «страница 3», а конкретный визуальный блок на странице, это меняет применимость с…{quote}
 
 ----
 
@@ -256,9 +214,9 @@ _Примеры совпадений:_
 
 {quote}_Алгоритм:_ 1. BM25 по запросу → базовый score 2. Умножает на важность файла (из PRIORITIES.md) 3. Умножает на связность (количество входящих ссылок) 4. Оценивает время чтения (200 сл/мин RU, 250 EN…{quote}
 
-{quote}```bash python scripts/improve_reading_list.py --query "агент с памятью" python scripts/improve_reading_list.py --query "RAG retrieval" --top 20 python scripts/improve_reading_list.py --query "Yodoca"…{quote}
-
 {quote}_BM25 (Best Match 25)_ — стандарт информационного поиска. Лучше TF-IDF: - Учитывает насыщенность документа (term saturation) - Учитывает длину документа (document length normalization) - Параметры: …{quote}
+
+{quote}Каждая запись: ```json {   "file": "docs/05-habr-projects/memory/yodoca.md",   "title": "Yodoca: консолидация и забывание",   "content": "Yodoca — Научил ИИ-агента помнить важное...",   "preview": "SQ…{quote}
 
 ----
 
@@ -314,11 +272,11 @@ h3. 100% — {{docs/obsidian/05-habr-projects/02-collaboration-partners.md}} vs 
 _Общих абзацев:_ 3  
 _Примеры совпадений:_
 
-{quote} > _Абстракт_ (авто) > > 🎯 _Проблема:_ Авторы и контакты Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обнов…{quote}
-
 {quote}- Статус - Похожие документы - Использование - Смотрите также - Кто ссылается на этот документ (4){quote}
 
 {quote} > автора статьи выше подобных авторов подобных разработчиков или ещё может быть или может быть даже несколько проектов которые вместе можно совместить и которые дойдут вместе один уни…{quote}
+
+{quote} > _Абстракт_ (авто) > > 🎯 _Проблема:_ Авторы и контакты Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обнов…{quote}
 
 ----
 
@@ -358,33 +316,33 @@ _Примеры совпадений:_
 
 ----
 
-_...и ещё 944 пар._
+h3. 100% — {{docs/processing-guide/QA.md}} vs {{docs/anthropic-vacancies/QA.md}}
+
+_Общих абзацев:_ 1  
+_Примеры совпадений:_
+
+{quote}_Кто ссылается на этот документ (6):_ - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES - README{quote}
+
+----
+
+h3. 100% — {{docs/03-technology-combinations/QA.md}} vs {{docs/02-anthropic-vacancies/QA.md}}
+
+_Общих абзацев:_ 1  
+_Примеры совпадений:_
+
+{quote}_Кто ссылается на этот документ (6):_ - README - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES{quote}
+
+----
+
+h3. 100% — {{docs/03-technology-combinations/QA.md}} vs {{docs/01-svyazi/QA.md}}
+
+_Общих абзацев:_ 1  
+_Примеры совпадений:_
+
+{quote}_Кто ссылается на этот документ (6):_ - README - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES{quote}
+
+----
+
+_...и ещё 942 пар._
 
 {quote}Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.{quote}
-
-
-
-----
-
-_Смотрите также:_
-* [nlaik|letters/nlaik.md]
-* [03-карта-найденных-проектов-и-паттернов|04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md]
-* [TOPIC_MODEL|TOPIC_MODEL.md]
-* [vitalysemenov|letters/vitalysemenov.md]
-
-
-
-
-----
-
-_Кто ссылается на этот документ (18):_
-* [02-methodology|01-svyazi/02-methodology.md]
-* [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]
-* [02-методика-и-рамка-отбора|04-ai-collaborations/02-методика-и-рамка-отбора.md]
-* [CONCEPTS|CONCEPTS.md]
-* [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
-* [LLM_SUMMARIES|LLM_SUMMARIES.md]
-* [OUTLINE|OUTLINE.md]
-* [PRECISION_EVAL|PRECISION_EVAL.md]
-* _...ещё 10_
-

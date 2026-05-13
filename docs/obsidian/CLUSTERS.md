@@ -2,16 +2,24 @@
 title: "Кластеры тематически близких файлов"
 tags:
   - general
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Кластеры тематически близких файлов
 
+<!-- summary -->
+> Метод: TF-IDF + косинусное сходство (порог 0.15)
+**Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
+
+---
+
+
+
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
-Документов: 2249, кластеров: 166
+Документов: 2249, кластеров: 167
 
 
-## Кластер 1 — концептов, репозитория, поиска, через (356 файлов)
+## Кластер 1 — концептов, репозитория, поиска, через (354 файлов)
 
 - `docs/01-svyazi/00-intro-part2.md` — _00-intro-part2_
 - `docs/02-anthropic-vacancies/120-главные-технические-риски.md` — _120-главные-технические-риски_
@@ -23,9 +31,9 @@ date: 2026-05-12
 - `docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md` — _298-что-этот-документ-не-решает_
 - `docs/02-anthropic-vacancies/345-кто-ты.md` — _345-кто-ты_
 - `docs/02-anthropic-vacancies/346-твоё-происхождение.md` — _346-твоё-происхождение_
-- _...и ещё 346 файлов_
+- _...и ещё 344 файлов_
 
-## Кластер 2 — turn, view, svyazi, agentfs (101 файлов)
+## Кластер 2 — turn, view, svyazi, agentfs (103 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md` — _01-executive-summary_
 - `docs/01-svyazi/04-ensembles-overview.md` — _04-ensembles-overview_
@@ -37,7 +45,7 @@ date: 2026-05-12
 - `docs/01-svyazi/13-contacts.md` — _13-contacts_
 - `docs/04-ai-collaborations/00-intro.md` — _00-intro_
 - `docs/04-ai-collaborations/01-executive-summary.md` — _01-executive-summary_
-- _...и ещё 91 файлов_
+- _...и ещё 93 файлов_
 
 ## Кластер 3 — cowork, ingit, project, mcp (90 файлов)
 
@@ -170,9 +178,9 @@ date: 2026-05-12
 - `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
 - `docs/COMPARE.md` — _COMPARE_
 - `docs/CONSISTENCY.md` — _CONSISTENCY_
-- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
 - `docs/COVERAGE.md` — _COVERAGE_
 - `docs/DIGEST_WEEKLY.md` — _DIGEST_WEEKLY_
+- `docs/DUPLICATES.md` — _DUPLICATES_
 - `docs/GATEWAY.md` — _GATEWAY_
 - `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
 - `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
@@ -207,7 +215,21 @@ date: 2026-05-12
 - `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` — _02-what-info-repos-contain_
 - _...и ещё 26 файлов_
 
-## Кластер 15 — essence, angle-perspective, representative-agent-layer-md, angle (32 файлов)
+## Кластер 15 — com, https, articles, habr (33 файлов)
+
+- `docs/CITATION_INDEX.md` — _CITATION_INDEX_
+- `docs/CONTACTS.md` — _CONTACTS_
+- `docs/DEPENDABOT.md` — _DEPENDABOT_
+- `docs/ai-collaborations/source-projects.md` — _source-projects_
+- `docs/habr-unique-projects/analogues/02-related-projects.md` — _02-related-projects_
+- `docs/habr-unique-projects/deep-pairs/2-document-rag.md` — _2-document-rag_
+- `docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md` — _3-adversarial-multi-ide_
+- `docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md` — _4-skill-catalogs-subagents_
+- `docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md` — _5-voice-local-memory_
+- `docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md` — _6-tmux-village-openclaw_
+- _...и ещё 23 файлов_
+
+## Кластер 16 — essence, angle-perspective, representative-agent-layer-md, angle (32 файлов)
 
 - `docs/02-anthropic-vacancies/13-angle-perspective.md` — _13-angle-perspective_
 - `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` — _134-the-double-triangle-architecture-md_
@@ -219,20 +241,6 @@ date: 2026-05-12
 - `docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md` — _273-infrastructure-for-ai-collaborative-intellectual-w_
 - `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` — _304-ingit-as-cowork-native-workspace-substrate-md_
 - `docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md` — _305-a-practical-path-to-layer-b-through-symbiotic-inte_
-- _...и ещё 22 файлов_
-
-## Кластер 16 — com, https, articles, habr (32 файлов)
-
-- `docs/CITATION_INDEX.md` — _CITATION_INDEX_
-- `docs/CONTACTS.md` — _CONTACTS_
-- `docs/ai-collaborations/source-projects.md` — _source-projects_
-- `docs/habr-unique-projects/analogues/02-related-projects.md` — _02-related-projects_
-- `docs/habr-unique-projects/deep-pairs/2-document-rag.md` — _2-document-rag_
-- `docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md` — _3-adversarial-multi-ide_
-- `docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md` — _4-skill-catalogs-subagents_
-- `docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md` — _5-voice-local-memory_
-- `docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md` — _6-tmux-village-openclaw_
-- `docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md` — _8-self-aware-mcp-specs_
 - _...и ещё 22 файлов_
 
 ## Кластер 17 — adr-, federation-over-merging, introduction, terminology (31 файлов)
@@ -277,7 +285,7 @@ date: 2026-05-12
 - `docs/nautilus/npp-v1-0/03-registry.md` — _03-registry_
 - _...и ещё 20 файлов_
 
-## Кластер 20 — yodoca, wikontic, memory, ngt (29 файлов)
+## Кластер 20 — wikontic, yodoca, memory, ngt (29 файлов)
 
 - `docs/05-habr-projects/01-synthesis.md` — _01-synthesis_
 - `docs/05-habr-projects/02-collaboration-partners.md` — _02-collaboration-partners_
@@ -319,21 +327,7 @@ date: 2026-05-12
 - `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` — _03-chto-delaet-predstavitelskim_
 - _...и ещё 15 файлов_
 
-## Кластер 23 — есть, company, virtual, ai-managed (25 файлов)
-
-- `docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md` — _00-question-rephrasing_
-- `docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md` — _01-existing-landscape_
-- `docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md` — _02-four-structural-blockers_
-- `docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md` — _03-three-variants-A-B-C_
-- `docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md` — _05-polymath-project-tao-comparison_
-- `docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md` — _07-current-implementations_
-- `docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md` — _09-minuses-and-risks_
-- `docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md` — _05-platform-not-position_
-- `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` — _00-question-voiceless_
-- `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` — _00-question-innovations-transitions_
-- _...и ещё 15 файлов_
-
-## Кластер 24 — professional, colleague, sub-agent, practitioners (24 файлов)
+## Кластер 23 — professional, colleague, sub-agent, practitioners (24 файлов)
 
 - `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` — _216-5-the-economics-of-profession-wide-replication_
 - `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` — _217-6-risks-specific-to-this-category_
@@ -345,6 +339,20 @@ date: 2026-05-12
 - `docs/nautilus/composite-skills-agents/07-economics-combinatorial.md` — _07-economics-combinatorial_
 - `docs/nautilus/professional-colleague-agents-en/04-architecture.md` — _04-architecture_
 - `docs/nautilus/professional-colleague-agents-en/06-risks.md` — _06-risks_
+- _...и ещё 14 файлов_
+
+## Кластер 24 — есть, company, virtual, ai-managed (24 файлов)
+
+- `docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md` — _00-question-rephrasing_
+- `docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md` — _01-existing-landscape_
+- `docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md` — _02-four-structural-blockers_
+- `docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md` — _03-three-variants-A-B-C_
+- `docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md` — _05-polymath-project-tao-comparison_
+- `docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md` — _07-current-implementations_
+- `docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md` — _09-minuses-and-risks_
+- `docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md` — _05-platform-not-position_
+- `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` — _00-question-voiceless_
+- `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` — _00-question-innovations-transitions_
 - _...и ещё 14 файлов_
 
 ## Кластер 25 — двухслойный-стек-как-он-существует, что-отсутствует-слой-b, конкретный-случай-перед-нами, практические-рекомендации-для-текущего-проекта (22 файлов)
@@ -431,15 +439,15 @@ date: 2026-05-12
 - `docs/obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` — _236-5-экономика-тиражирования-по-профессии_
 - _...и ещё 6 файлов_
 
-_...и ещё 136 малых кластеров (по 1-2 файла)_
+_...и ещё 137 малых кластеров (по 1-2 файла)_
 
-<!-- backlinks -->
+<!-- see-also -->
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Смотрите также:**
+- [[READING_ORDER]]
+- [[SOURCE_MAP]]
+- [[READING_TIME]]
+- [[READABILITY]]
 

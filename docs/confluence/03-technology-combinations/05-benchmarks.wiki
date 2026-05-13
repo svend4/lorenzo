@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/03-technology-combinations/05-benchmarks.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. Бенчмарки и производительность

@@ -3,7 +3,7 @@ title: "6. Adapter Interface"
 tags:
   - ingestion
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 6. Adapter Interface

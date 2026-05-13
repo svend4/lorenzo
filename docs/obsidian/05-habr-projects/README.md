@@ -7,7 +7,7 @@ tags:
   - knowledge
   - collaboration
   - habr-projects
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Уникальные проекты с Хабра

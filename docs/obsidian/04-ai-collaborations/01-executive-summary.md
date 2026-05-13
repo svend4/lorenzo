@@ -2,7 +2,7 @@
 title: "Executive summary"
 tags:
   - ai-collaborations
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Executive summary

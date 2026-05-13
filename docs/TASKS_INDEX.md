@@ -1,6 +1,6 @@
 # Каталог задач (TASKS_INDEX)
 
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-13_
 
 **Всего задач:** 13
 
@@ -284,20 +284,4 @@ _Обновлено: 2026-05-12_
 
 **Связанные скилы:** write-contact, propose-collaboration, status
 **Связанные шаблоны:** contact-outreach
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- [contact-outreach](templates/contact-outreach.md)
-- [prototype-mvp](templates/prototype-mvp.md)
-- _...ещё 2_
 

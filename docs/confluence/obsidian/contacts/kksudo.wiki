@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/contacts/kksudo.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * контакты
   * команда
   * contacts
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. Контакт: kksudo / AgentFS

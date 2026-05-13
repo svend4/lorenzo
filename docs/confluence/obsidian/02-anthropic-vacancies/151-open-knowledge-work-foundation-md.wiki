@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "OPEN KNOWLEDGE WORK FOUNDATION.md"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. OPEN KNOWLEDGE WORK FOUNDATION.md

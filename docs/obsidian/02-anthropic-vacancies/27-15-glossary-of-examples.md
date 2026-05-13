@@ -3,7 +3,7 @@ title: "15. Glossary of Examples"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 15. Glossary of Examples

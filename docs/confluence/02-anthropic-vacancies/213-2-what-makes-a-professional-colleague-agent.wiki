@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. 2. What Makes a Professional Colleague Agent

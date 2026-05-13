@@ -3,7 +3,7 @@ title: "OPEN KNOWLEDGE WORK FOUNDATION.md"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # OPEN KNOWLEDGE WORK FOUNDATION.md

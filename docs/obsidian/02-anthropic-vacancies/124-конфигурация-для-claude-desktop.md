@@ -3,7 +3,7 @@ title: "Конфигурация для Claude Desktop"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Конфигурация для Claude Desktop

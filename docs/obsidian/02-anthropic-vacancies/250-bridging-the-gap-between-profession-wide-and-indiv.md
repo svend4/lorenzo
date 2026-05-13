@@ -4,7 +4,7 @@ tags:
   - documentation
   - overview
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Bridging the Gap Between Profession-Wide and Individual-Unique 

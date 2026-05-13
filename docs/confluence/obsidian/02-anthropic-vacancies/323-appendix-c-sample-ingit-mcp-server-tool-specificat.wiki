@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Appendix C: Sample InGit MCP Server Tool Specifications"
 tags:
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. Appendix C: Sample InGit MCP Server Tool Specifications

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "README-MCP.md— инструкция по установке"
 tags:
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. README-MCP.md— инструкция по установке

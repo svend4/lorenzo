@@ -2,7 +2,7 @@
 title: "4. The Symbiotic Architecture"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 4. The Symbiotic Architecture

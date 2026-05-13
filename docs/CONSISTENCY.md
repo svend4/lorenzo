@@ -1,17 +1,25 @@
 # Согласованность терминов
 
+<!-- summary -->
+> Анализ различных написаний одних и тех же терминов.
+**Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, agent-memory-mcp, Auto AI Router
+
+---
+
+
+
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 8 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 32 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
 | **CardIndex** | `CardIndex` | `Card Index` | 4 |
 | **CardIndex** | `CardIndex` | `card index` | 4 |
 | **CardIndex** | `CardIndex` | `card-index` | 4 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 44 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 103 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 105 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 4 |
 | **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 43 |
 | **local-first** | `local-first` | `local first` | 8 |
@@ -37,9 +45,9 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/DUPLICATES.md`
 - `docs/obsidian/EMPTY_SECTIONS.md`
-- _...и ещё 3_
+- `docs/obsidian/CONSISTENCY.md`
+- _...и ещё 1_
 
 ### `knowledge space` → должно быть `knowledge-space`
 
@@ -94,7 +102,7 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- _...и ещё 98_
+- _...и ещё 100_
 
 ### `LiteParser` → должно быть `LiteParse`
 
@@ -200,3 +208,14 @@
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MISSING](MISSING.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- [TAGS](TAGS.md)
+- [GRAPH](GRAPH.md)
+

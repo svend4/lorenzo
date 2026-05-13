@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/CONTACT_PRIORITY.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -15,7 +15,7 @@ tags:
   * architecture
   * collaboration
   * general
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. Приоритет контактов

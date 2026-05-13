@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. 5. The Economics of Profession-Wide Replication

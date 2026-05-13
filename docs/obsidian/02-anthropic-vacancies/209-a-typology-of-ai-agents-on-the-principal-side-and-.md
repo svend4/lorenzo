@@ -4,7 +4,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers

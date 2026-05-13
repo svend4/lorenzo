@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 20. ADR-002: Q6 as First-Class Protocol Concept

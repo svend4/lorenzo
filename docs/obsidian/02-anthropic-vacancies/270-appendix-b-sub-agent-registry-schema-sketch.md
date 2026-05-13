@@ -2,7 +2,7 @@
 title: "Appendix B: Sub-Agent Registry Schema (Sketch)"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Appendix B: Sub-Agent Registry Schema (Sketch)

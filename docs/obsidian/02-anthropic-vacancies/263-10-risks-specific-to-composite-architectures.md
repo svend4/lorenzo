@@ -2,7 +2,7 @@
 title: "10. Risks Specific to Composite Architectures"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # 10. Risks Specific to Composite Architectures

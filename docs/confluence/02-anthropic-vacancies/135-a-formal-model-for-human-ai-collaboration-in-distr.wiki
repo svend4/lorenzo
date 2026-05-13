@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 h1. A Formal Model for Human-AI Collaboration in Distributed Knowledge Work

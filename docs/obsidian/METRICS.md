@@ -6,7 +6,7 @@ tags:
   - documentation
   - coverage
   - general
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # Метрики качества документации

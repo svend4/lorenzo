@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/NETWORK.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
@@ -14,7 +14,7 @@ tags:
   * ingestion
   * collaboration
   * general
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. Сеть проектов и авторов

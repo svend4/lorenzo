@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md}}
-Дата: 2026-05-12
+Дата: 2026-05-13
 {info}
 
 ----
 title: "6. Risks Specific to this Category"
 tags:
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ----
 
 h1. 6. Risks Specific to this Category

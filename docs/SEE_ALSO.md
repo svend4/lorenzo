@@ -1,19 +1,14 @@
 # Индекс «Смотрите также»
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> **Файлов с блоком See Also:** 1071
+> **Файлов с блоком See Also:** 1069
 **Проекты:** Svyazi
 
 ---
 
 
 
-**Файлов с блоком See Also:** 1071
+**Файлов с блоком See Also:** 1069
 
 ## Ключевые связи
 
@@ -31,7 +26,7 @@
 - [12-roadmap](01-svyazi/12-roadmap.md) → [12-дорожная-карта-прототипа-следующей-итерации](04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md), [roadmap](svyazi-2-0/prototype/roadmap.md), [14-limitations](01-svyazi/14-limitations.md), [08-conclusions](01-svyazi/08-conclusions.md)
 - [13-contacts](01-svyazi/13-contacts.md) → [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md), [narrow-questions](svyazi-2-0/outreach/narrow-questions.md), [07-mvp-planning](01-svyazi/07-mvp-planning.md), [NARRATIVE](NARRATIVE.md)
 - [14-limitations](01-svyazi/14-limitations.md) → [do-not-glue](svyazi-2-0/limitations/do-not-glue.md), [conclusions](svyazi-2-0/limitations/conclusions.md), [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md), [license-tree](svyazi-2-0/limitations/license-tree.md)
-- [QA](svyazi-2-0/QA.md) → [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md), [review-record](svyazi-2-0/architecture/review-record.md), [SEARCH_RESULTS](SEARCH_RESULTS.md), [card-envelope](svyazi-2-0/architecture/card-envelope.md)
+- [QA](svyazi-2-0/QA.md) → [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md), [review-record](svyazi-2-0/architecture/review-record.md), [SEARCH_RESULTS](SEARCH_RESULTS.md), [DUPLICATES](DUPLICATES.md)
 - [00-intro](nautilus/infrastructure-layer-b-ru/00-intro.md) → [288-appendix-position-in-series-visualization](02-anthropic-vacancies/288-appendix-position-in-series-visualization.md), [12-blagodarnosti-ssylki](nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md), [188-ai-опосредованное-представительство-для-недопредст](02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md), [11-dhlab-documents](lorenzo-agent/11-dhlab-documents.md)
 - [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) → [00-question-innovations-transitions](nautilus/innovation-transitions/00-question-innovations-transitions.md), [CONCEPTS](CONCEPTS.md), [TABLES](TABLES.md), [ACTION_ITEMS](ACTION_ITEMS.md)
 - [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) → [67-о-проекте](02-anthropic-vacancies/67-о-проекте.md), [TIMELINE](TIMELINE.md), [22-glossary](nautilus/npp-v1-1/22-glossary.md), [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)
@@ -47,19 +42,3 @@
 - [104-appendix-c-references](02-anthropic-vacancies/104-appendix-c-references.md) → [122-глоссарий](02-anthropic-vacancies/122-глоссарий.md), [105-review-methodology-md](02-anthropic-vacancies/105-review-methodology-md.md), [103-appendix-b-change-log](02-anthropic-vacancies/103-appendix-b-change-log.md), [64-for-the-curious-philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md)
 - [105-review-methodology-md](02-anthropic-vacancies/105-review-methodology-md.md) → [229-профессиональные-коллеги-агенты](02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md), [289-инфраструктура-для-ai-совместной-интеллектуальной-](02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md), [125-readme-mcp-md-инструкция-по-установке](02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md), [03-portal-protocol-md](02-anthropic-vacancies/03-portal-protocol-md.md)
 - [106-tl-dr](02-anthropic-vacancies/106-tl-dr.md) → [00-tldr](nautilus/review-methodology/00-tldr.md), [70-зачем-две-версии-параллельно](02-anthropic-vacancies/70-зачем-две-версии-параллельно.md), [190-содержание](02-anthropic-vacancies/190-содержание.md), [132-planned-v0-2-0](02-anthropic-vacancies/132-planned-v0-2-0.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [04-abstract](02-anthropic-vacancies/04-abstract.md)
-- [70-зачем-две-версии-параллельно](02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
-- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 2_
-

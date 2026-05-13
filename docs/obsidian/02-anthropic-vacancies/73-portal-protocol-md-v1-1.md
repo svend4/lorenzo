@@ -3,7 +3,7 @@ title: "PORTAL-PROTOCOL.md v1.1"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-13
 ---
 
 # PORTAL-PROTOCOL.md v1.1
