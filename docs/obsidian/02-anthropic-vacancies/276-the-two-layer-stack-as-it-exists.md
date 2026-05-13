@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # The Two-Layer Stack As It Exists
@@ -39,6 +39,18 @@ date: 2026-04-29
 > Currently, AI-collaborative work tends to occur in one of two
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [The Two-Layer Stack As It Exists](#the-two-layer-stack-as-it-exists)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture, anthropic -->
 
 

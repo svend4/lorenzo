@@ -3,7 +3,7 @@ title: "Du hast gesagt: Да это интересная ссылка спаси
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: Да это интересная ссылка спасибо всем участникам за творчество и…

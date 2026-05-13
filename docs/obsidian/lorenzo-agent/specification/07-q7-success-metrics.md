@@ -3,7 +3,7 @@ title: "Question 7: Каковы success metrics?"
 tags:
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Question 7: Каковы success metrics?

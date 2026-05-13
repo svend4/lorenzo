@@ -3,7 +3,7 @@ title: "Подключение к Claude Desktop"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Подключение к Claude Desktop

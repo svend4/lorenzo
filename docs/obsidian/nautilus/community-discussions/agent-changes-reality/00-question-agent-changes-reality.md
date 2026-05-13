@@ -3,7 +3,7 @@ title: "Du hast gesagt: Такой агент конечно меняет уже
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: Такой агент конечно меняет уже собственную реальность человека и…

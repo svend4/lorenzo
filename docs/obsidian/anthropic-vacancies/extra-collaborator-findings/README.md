@@ -2,7 +2,7 @@
 title: "extra-collaborator-findings"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # extra-collaborator-findings

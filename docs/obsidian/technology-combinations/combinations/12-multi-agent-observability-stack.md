@@ -4,7 +4,7 @@ tags:
   - orchestration
   - collaboration
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 12: Multi-Agent Observability Stack

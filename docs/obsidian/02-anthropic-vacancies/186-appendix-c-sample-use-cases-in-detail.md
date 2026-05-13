@@ -8,7 +8,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix C: Sample Use Cases in Detail

@@ -4,7 +4,7 @@ tags:
   - ingestion
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Question 8: Lorenzo's relationship с другими AI agents

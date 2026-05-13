@@ -3,7 +3,7 @@ title: "Du hast gesagt: Того если гора не идёт человек�
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к…

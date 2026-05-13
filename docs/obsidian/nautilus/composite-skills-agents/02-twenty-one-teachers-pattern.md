@@ -2,7 +2,7 @@
 title: "2. The Twenty-One Teachers Pattern"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 2. The Twenty-One Teachers Pattern

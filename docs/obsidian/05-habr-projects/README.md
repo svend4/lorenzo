@@ -2,29 +2,20 @@
 title: "Уникальные проекты с Хабра"
 tags:
   - habr-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Уникальные проекты с Хабра
 
-**Файлов:** 2
+**Файлов:** 3
 
 ## Содержание
 
-- [[01-synthesis|01-synthesis.md]] — Синтезировал архитектурные находки для расширенной системы памяти
-- [[02-collaboration-partners|02-collaboration-partners.md]] — автора статьи выше подобных авторов подобных разработчиков или ещё может быть или может быть даже несколько проектов кот…
+- [[01-synthesis|01-synthesis.md]] — <!-- autofill-status -->
+- [[02-collaboration-partners|02-collaboration-partners.md]] — <!-- abstract-auto -->
+- [[QA|QA.md]] — _Автоматически сгенерировано по 6 файлам раздела._
 
 ## Подразделы
 
 - [knowledge/](knowledge/) — Системы знаний
 - [memory/](memory/) — Системы памяти
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[02-collaboration-partners]] (сходство 0.18)
-- [[01-synthesis]] (сходство 0.16)
-- [[README]] (сходство 0.10)
-

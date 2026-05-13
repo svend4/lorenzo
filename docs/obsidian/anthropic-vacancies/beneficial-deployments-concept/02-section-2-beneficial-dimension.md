@@ -3,7 +3,7 @@ title: "Section 2: Why this matters — beneficial dimension"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Section 2: Why this matters — beneficial dimension

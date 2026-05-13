@@ -2,7 +2,7 @@
 title: "AgentOps и Trace Envelope (ансамбль G)"
 tags:
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # AgentOps и Trace Envelope (ансамбль G)

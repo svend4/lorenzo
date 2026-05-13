@@ -3,7 +3,7 @@ title: "Legal — 13 ролей"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Legal — 13 ролей

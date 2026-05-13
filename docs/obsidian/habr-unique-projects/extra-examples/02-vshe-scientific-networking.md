@@ -2,7 +2,7 @@
 title: "ВШЭ научный нетворкинг — micro-collaborations"
 tags:
   - habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # ВШЭ научный нетворкинг — micro-collaborations

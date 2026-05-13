@@ -2,7 +2,7 @@
 title: "Часто задаваемые вопросы (FAQ)"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Часто задаваемые вопросы (FAQ)
@@ -31,12 +31,6 @@ _→ [[248-приложение-c-архитектура-быстрого-ста
 **Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **96% 🟢 GO** (документация и архитектура).
 
 _→ [[ONBOARDING]]_
-
-### Принимаем эту architecture как Lorenzo vision (с моими caveats)?
-
-Если да — должен ли я update Lorenzo системный промпт с этой архитектурой?
-
-_→ [[06-conclusion-deserves-attention]]_
 
 
 ## MVP/Запуск
@@ -101,12 +95,6 @@ A [[memnet|nautilus]] shell is a **spiral of nested chambers**, each larger than
 
 _→ [[68-about]]_
 
-### Did creator approve final attribution?
-
-Это много steps. И violations damage Lorenzo's reputation rapidly.
-
-_→ [[11-difficulties-and-recommendations]]_
-
 
 ## Лицензия
 
@@ -115,12 +103,6 @@ _→ [[11-difficulties-and-recommendations]]_
 И еще один thoughtful вопрос для consideration: в вашем личном случае , как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ва
 
 _→ [[165-closing]]_
-
-### Question 5: Каковы limits Lorenzo's authority?
-
-Critical question для ethical design.
-
-_→ [[05-q5-authority-limits]]_
 
 
 ## Общее

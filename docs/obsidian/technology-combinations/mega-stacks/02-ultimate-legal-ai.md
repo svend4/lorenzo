@@ -2,7 +2,7 @@
 title: "Mega‑Stack 2.0 — Ultimate Legal‑AI System"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Mega‑Stack 2.0 — Ultimate Legal‑AI System

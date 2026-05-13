@@ -6,7 +6,7 @@ tags:
   - knowledge
   - collaboration
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль 9 — Ambient Team Agent

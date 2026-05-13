@@ -2,7 +2,7 @@
 title: "Пять быстрых связок (fast-tracks)"
 tags:
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Пять быстрых связок (fast-tracks)

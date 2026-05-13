@@ -3,7 +3,7 @@ title: "Question 6: Как Lorenzo accountable?"
 tags:
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Question 6: Как Lorenzo accountable?

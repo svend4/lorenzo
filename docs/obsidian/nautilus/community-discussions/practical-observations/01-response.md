@@ -2,7 +2,7 @@
 title: "Claude hat geantwortet: Отличное наблюдение."
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Claude hat geantwortet: Отличное наблюдение.

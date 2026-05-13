@@ -2,7 +2,7 @@
 title: "Оценка стоимости MVP"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Оценка стоимости MVP
@@ -65,6 +65,7 @@ _Минимальный сценарий: open source + личное время 
 | `343-lorenzo-catalyst` | рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс… | 72 |
 | `365-развёрнутый-анал` | eam. С solo developer (Макс) и part-time, реальный timeline … | 72 |
 | `ACTION_ITEMS` | обратная-связь_ - 5: Burnout. Проект 12-18 месяцев для singl… | 72 |
+| `CONCEPTS` | инимально жизнеспособный прототип за 12-18 месяцев     _→ [N… | 72 |
 | `DECISIONS` | document — структурированный план на 12-18 месяцев, который … | 72 |
 | `TABLES` | 65-развёрнутый-анал` | Макс) и part-time, реальный timeline … | 72 |
 | `01-response` | есяцев) → maybe eventual formalization как RFC or standard (… | 72 |

@@ -2,7 +2,7 @@
 title: "Комбинация 8: Conductor × adversarial-review × Auto AI Router"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 8: Conductor × adversarial-review × Auto AI Router

@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: Думаю про опцию д поискать в том числе на про что-то подобное на…

@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Practical Recommendations for the Current Project
@@ -34,6 +34,18 @@ date: 2026-04-29
 > For the seven-document Nautilus / OKWF project specifically,
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Practical Recommendations for the Current Project](#practical-recommendations-for-the-current-project)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture, anthropic -->
 
 

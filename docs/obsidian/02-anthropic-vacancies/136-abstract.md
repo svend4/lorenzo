@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Abstract
@@ -34,6 +34,18 @@ date: 2026-04-29
 > We introduce the **Double-Triangle Architecture** for human-AI
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Abstract](#abstract)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: rag, architecture -->
 
 

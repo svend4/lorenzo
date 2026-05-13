@@ -3,7 +3,7 @@ title: "Комбинация 31: Event-Sourced Legal Document History"
 tags:
   - rag
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 31: Event-Sourced Legal Document History

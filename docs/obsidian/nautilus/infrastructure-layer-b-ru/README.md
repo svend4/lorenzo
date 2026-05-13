@@ -2,7 +2,7 @@
 title: "infrastructure-layer-b-ru"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # infrastructure-layer-b-ru

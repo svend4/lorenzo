@@ -5,7 +5,7 @@ tags:
   - roadmap
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 6. Refined InGit Scope with Cowork in Mind

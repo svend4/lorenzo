@@ -4,7 +4,7 @@ tags:
   - roadmap
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы …

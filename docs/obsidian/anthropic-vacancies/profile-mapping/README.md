@@ -2,7 +2,7 @@
 title: "profile-mapping/ — маппинг профиля svend4 на роли Anthropic"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # profile-mapping/ — маппинг профиля svend4 на роли Anthropic

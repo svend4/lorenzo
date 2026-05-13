@@ -2,7 +2,7 @@
 title: "Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы

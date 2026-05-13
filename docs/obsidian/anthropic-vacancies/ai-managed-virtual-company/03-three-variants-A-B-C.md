@@ -6,7 +6,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)

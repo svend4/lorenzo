@@ -2,7 +2,7 @@
 title: "01-initial-analysis"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 01-initial-analysis

@@ -2,7 +2,7 @@
 title: "Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact"
 tags:
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact

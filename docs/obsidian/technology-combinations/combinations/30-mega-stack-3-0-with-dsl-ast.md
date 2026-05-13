@@ -2,7 +2,7 @@
 title: "Комбинация 30: MEGA-STACK 3.0 with DSL & AST"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 30: MEGA-STACK 3.0 with DSL & AST

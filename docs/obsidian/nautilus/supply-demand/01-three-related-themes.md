@@ -2,7 +2,7 @@
 title: "Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы."
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.

@@ -2,7 +2,7 @@
 title: "composite-skills-agents-companion-mentors"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # composite-skills-agents-companion-mentors

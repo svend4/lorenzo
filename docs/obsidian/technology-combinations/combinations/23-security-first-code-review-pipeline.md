@@ -3,7 +3,7 @@ title: "Комбинация 23: Security-First Code Review Pipeline"
 tags:
   - orchestration
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 23: Security-First Code Review Pipeline

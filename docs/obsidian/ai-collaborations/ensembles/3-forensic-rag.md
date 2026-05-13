@@ -2,7 +2,7 @@
 title: "Ансамбль 3 — Forensic RAG"
 tags:
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль 3 — Forensic RAG

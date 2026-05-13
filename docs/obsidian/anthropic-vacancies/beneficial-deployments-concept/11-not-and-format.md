@@ -4,7 +4,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Что concept document NOT (это не grant / не paper / не business plan), длина и формат

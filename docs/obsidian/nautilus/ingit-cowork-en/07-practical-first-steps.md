@@ -3,7 +3,7 @@ title: "7. Practical First Steps This Month"
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 7. Practical First Steps This Month

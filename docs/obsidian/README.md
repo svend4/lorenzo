@@ -2,7 +2,7 @@
 title: "docs"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # docs
@@ -82,6 +82,7 @@ date: 2026-04-29
 - [[READING_LIST|READING_LIST.md]] — <!-- summary -->
 - [[READING_ORDER|READING_ORDER.md]] — От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 - [[READING_TIME|READING_TIME.md]] — _Обновлено: 2026-04-29_
+- [[REGISTRY|REGISTRY.md]] — _Обновлено: 2026-04-29_
 - [[REPORT|REPORT.md]] — _Сгенерировано автоматически: 2026-04-29_
 - [[RISK_REGISTER|RISK_REGISTER.md]] — > [!TIP]
 - [[SCHEDULE|SCHEDULE.md]] — <!-- abstract-auto -->
@@ -100,6 +101,7 @@ date: 2026-04-29
 - [[SUMMARIES|SUMMARIES.md]] — > [!TIP]
 - [[TABLES|TABLES.md]] — > [!TIP]
 - [[TAGS|TAGS.md]] — Каждый файл помечен тегами по темам автоматически.
+- [[TASKS_INDEX|TASKS_INDEX.md]] — _Обновлено: 2026-04-29_
 - [[TECH_RADAR|TECH_RADAR.md]] — > [!WARNING]
 - [[TIMELINE|TIMELINE.md]] — _Обновлено: 2026-04-29_
 - [[TOPIC_MODEL|TOPIC_MODEL.md]] — > [!WARNING]

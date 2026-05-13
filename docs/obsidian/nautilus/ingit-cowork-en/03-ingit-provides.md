@@ -2,7 +2,7 @@
 title: "3. What InGit Provides That Cowork Lacks"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 3. What InGit Provides That Cowork Lacks

@@ -3,7 +3,7 @@ title: "9. Checklist применения методологии"
 tags:
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 9. Checklist применения методологии

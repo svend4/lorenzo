@@ -2,7 +2,7 @@
 title: "10. Strategic Positioning"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 10. Strategic Positioning

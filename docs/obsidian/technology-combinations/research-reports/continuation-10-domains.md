@@ -2,7 +2,7 @@
 title: "Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations

@@ -2,7 +2,7 @@
 title: "community-discussions/ — обсуждения и реакции вокруг DHLab серии"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # community-discussions/ — обсуждения и реакции вокруг DHLab серии

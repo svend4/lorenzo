@@ -5,19 +5,15 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 7. Реализация в проекте Nautilus
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** Реализация в проекте Nautilus Contents - 7.
-> 🔧 **Подход:** В будущем методология может быть формализована в NPP v2.0 как рекомендованный workflow для community-contributed documentation.
-> 🏷️ **Ключевые слова:** `nautilus`, `применения`, `anthropic`, `vacancies`, `status`, `workflow`, `реализация`, `проекте`
->
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
+<!-- alert-added -->
 
 <!-- toc-auto -->
 ## Contents

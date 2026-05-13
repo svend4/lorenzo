@@ -4,7 +4,7 @@ tags:
   - orchestration
   - collaboration
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 5: SourceCraft CLI × Claude Code × Sequential протокол Дочкиной

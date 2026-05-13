@@ -3,7 +3,7 @@ title: "6. Почему это валидный паттерн для AI‑assis
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 6. Почему это валидный паттерн для AI‑assisted workflows

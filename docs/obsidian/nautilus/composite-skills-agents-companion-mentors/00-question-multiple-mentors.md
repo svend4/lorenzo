@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: Важный момент про способности про скилы как один человек професс…

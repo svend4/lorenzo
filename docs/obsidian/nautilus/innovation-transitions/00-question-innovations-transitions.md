@@ -6,7 +6,7 @@ tags:
   - roadmap
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: Интересно как новая как инновация как как рационализация как пер…

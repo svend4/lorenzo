@@ -3,7 +3,7 @@ title: "13. Closing"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 13. Closing
@@ -33,6 +33,18 @@ date: 2026-04-29
 > Mastery in skilled work has always been composite. The yoga
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [13. Closing](#13-closing)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: rag -->
 
 

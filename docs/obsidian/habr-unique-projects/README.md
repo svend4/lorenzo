@@ -2,7 +2,7 @@
 title: "habr-unique-projects/ — поиск уникальных проектов на Хабре"
 tags:
   - habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # habr-unique-projects/ — поиск уникальных проектов на Хабре

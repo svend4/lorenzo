@@ -2,7 +2,7 @@
 title: "Комбинация 22: Russian-International OSS Stack"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 22: Russian-International OSS Stack

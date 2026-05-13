@@ -7,7 +7,7 @@ tags:
   - roadmap
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 4. Ten Domains of Application

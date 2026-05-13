@@ -2,7 +2,7 @@
 title: "Комбинация 15: Self-Consolidating Legal Corpus"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 15: Self-Consolidating Legal Corpus

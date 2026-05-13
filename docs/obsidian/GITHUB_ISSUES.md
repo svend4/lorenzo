@@ -2,14 +2,14 @@
 title: "GitHub Issues — список задач"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # GitHub Issues — список задач
 
 _Обновлено: 2026-04-29_
 
-Найдено задач: **187**
+Найдено задач: **209**
 
 > Создайте Issues вручную или запустите с `--create` (требует gh CLI)
 
@@ -47,9 +47,10 @@ _Обновлено: 2026-04-29_
 
 - [ ] **Отсутствует: 0**  _`docs`, `automation`_
 
-## `docs/SCRIPTS_CATALOG.md` (1 задач)
+## `docs/QUESTIONS.md` (2 задач)
 
-- [ ] **из docs/. | |**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 3 [91. Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 10 [Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
 
 ## `docs/SPELLCHECK.md` (1 задач)
 
@@ -214,6 +215,11 @@ _Обновлено: 2026-04-29_
 
 - [ ] **Отсутствует: 0**  _`docs`, `automation`_
 
+## `docs/obsidian/QUESTIONS.md` (2 задач)
+
+- [ ] **⭐ To Do — задача к выполнению 3 [91. Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 10 [Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
+
 ## `docs/obsidian/autofilled/research-summary.md` (2 задач)
 
 - [ ] **[Действие 1]**  _`docs`, `automation`_
@@ -314,6 +320,27 @@ _Обновлено: 2026-04-29_
 - [ ] **Написали первое сообщение**  _`docs`, `automation`_
 - [ ] **Получили ответ**  _`docs`, `automation`_
 - [ ] **Договорились о сотрудничестве**  _`docs`, `automation`_
+
+## `docs/obsidian/nautilus/review-methodology/10-checklist.md` (18 задач)
+
+- [ ] **Документ действительно критически важен (см. §4.1)?**  _`docs`, `automation`_
+- [ ] **Есть время на Фазу C в течение 2 недель?**  _`docs`, `automation`_
+- [ ] **Две ветки будут работать на полностью независимых**  _`docs`, `automation`_
+- [ ] **Агенты работают в разных ветках (не в одной)**  _`docs`, `automation`_
+- [ ] **Prompt'ы для A и B идентичны (иначе это не**  _`docs`, `automation`_
+- [ ] **Каждый агент не видит результат другого**  _`docs`, `automation`_
+- [ ] **Header warning добавлен (см. §2.4)**  _`docs`, `automation`_
+- [ ] **Документ скомпозирован с дубликатами, а не с одним**  _`docs`, `automation`_
+- [ ] **Ветки A и B не удалены (audit trail)**  _`docs`, `automation`_
+- [ ] **Установлен deadline Фазы C (ISO дата или sprint marker)**  _`docs`, `automation`_
+- [ ] **Прочитаны A и B целиком**  _`docs`, `automation`_
+- [ ] **Outline финальной версии создан**  _`docs`, `automation`_
+- [ ] **Применены правила 1-5 ко всем расхождениям**  _`docs`, `automation`_
+- [ ] **Числа верифицированы (команды из §3.1 Правило 2)**  _`docs`, `automation`_
+- [ ] **Уникальные секции из A и B сохранены**  _`docs`, `automation`_
+- [ ] **Header warning удалён**  _`docs`, `automation`_
+- [ ] **Changelog запись добавлена**  _`docs`, `automation`_
+- [ ] **Исходные ветки могут быть удалены или archived**  _`docs`, `automation`_
 
 ## `docs/obsidian/templates/contact-outreach.md` (4 задач)
 

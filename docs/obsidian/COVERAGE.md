@@ -2,7 +2,7 @@
 title: "Матрица покрытия документов"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Матрица покрытия документов
@@ -21,15 +21,26 @@ _Обновлено: 2026-04-29_
 | `04-ai-collaborations` | 15 | 🟢 15/15 | 🟢 15/15 | 🔴 0/15 | 🟢 15/15 | 🟢 15/15 | 🔴 0/15 |
 | `05-habr-projects` | 6 | 🟢 6/6 | 🟢 6/6 | 🔴 1/6 | 🟢 6/6 | 🟢 6/6 | 🟡 3/6 |
 
-## Файлы с низким покрытием (< 3 признаков) — 87 файлов
+## Файлы с низким покрытием (< 3 признаков) — 2 файлов
 
 | Файл | Слов | Summary | Теги | TOC | CrossRefs | ## Статус | Backlinks |
 |------|------| ---|---|---|---|---|--- |
 | `docs/01-svyazi/00-intro-part2.md` | 21 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 | `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | 28 | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ⬜ |
 
-## Полное покрытие — 0 файлов
+## Полное покрытие — 16 файлов
 
+- ✅ `docs/04-ai-collaborations/00-intro.md`
+- ✅ `docs/04-ai-collaborations/01-executive-summary.md`
+- ✅ `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md`
+- ✅ `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
+- ✅ `docs/04-ai-collaborations/04-приоритетные-ансамбли.md`
+- ✅ `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md`
+- ✅ `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
+- ✅ `docs/04-ai-collaborations/07-выводы.md`
+- ✅ `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
+- ✅ `docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md`
+- _...и ещё 6_
 
 ## Рекомендуемые действия
 

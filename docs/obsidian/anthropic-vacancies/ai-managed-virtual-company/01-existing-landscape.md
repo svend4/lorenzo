@@ -4,7 +4,7 @@ tags:
   - orchestration
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Что уже существует (InnoCentive, Kaggle, Toptal, Anthropic Fellows, DAOs)

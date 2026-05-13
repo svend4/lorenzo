@@ -2,13 +2,13 @@
 title: "Отчёт о дублировании"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Отчёт о дублировании
 
 > [!TIP]
-> Документ содержит практические рекомендации и лучшие практики.
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
 
@@ -51,7 +51,7 @@ date: 2026-04-29
 
 ### 100% — `docs/SCORING.md` vs `docs/obsidian/SCORING.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 2  
 **Примеры совпадений:**
 
 > | Критерий | Статус | Вес | |----------|--------|-----| | Прогресс MVP отслеживается | ✅ | 8 | | Action items задокументированы | ✅ | 8 | | Порядок чтения задан | ✅ | 5 | | Executive report создан | ✅…
@@ -64,7 +64,7 @@ date: 2026-04-29
 
 ### 100% — `docs/MINDMAP.md` vs `docs/obsidian/MINDMAP.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 2  
 **Примеры совпадений:**
 
 > ```mermaid flowchart LR   subgraph INGEST     Svyazi[Svyazi]     CardIndex[CardIndex]     Firecrawl[Firecrawl]   end   subgraph KNOWLEDGE     AgentFS[AgentFS]     knowledge-space[knowledge-space]   en…
@@ -170,14 +170,14 @@ date: 2026-04-29
 
 ### 86% — `docs/obsidian/02-anthropic-vacancies/261-8-seven-domains-of-application.md` vs `docs/nautilus/composite-skills-agents/08-seven-domains.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 1  
 **Примеры совпадений:**
 
 > **Typical configurations**: A computational biologist working  on epidemiology with humanities co-authors faces unique  configuration needs combining biology, computer science,  epidemiological method…
 
 > **Bridge to existing infrastructure**: Many artists already  combine multiple educational sources (online courses, traditional  training, peer learning). Composite agents formalize and  augment this p…
 
-> **Sub-agent specializations might include**: Classical  composition, jazz improvisation, electronic music production,  specific instruments (piano, violin, voice, etc.), genres  (folk traditions, cont…
+> | Технология / Компонент | Категория | Комментарий | |------------------------|-----------|------------| | **BSL 1.1 libs** | Лицензии | Ограничения при коммерческом использовании | | **Monolithic LLM…
 
 ---
 
@@ -196,7 +196,7 @@ date: 2026-04-29
 
 ### 83% — `docs/CODE_BLOCKS.md` vs `docs/obsidian/CODE_BLOCKS.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 1  
 **Примеры совпадений:**
 
 > ```markdown > ⚠️ **Статус документа**: сравнительный промежуточный вариант. >  > Этот файл содержит **параллельно сохранённые версии** из двух  > независимых анализов: Вариант A (ветка ``) и Вариант B…
@@ -235,7 +235,7 @@ date: 2026-04-29
 
 ### 83% — `docs/obsidian/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` vs `docs/nautilus/composite-skills-agents/10-risks.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 2  
 **Примеры совпадений:**
 
 > **Mitigations**: - Strong starting templates for common professional patterns - AI-assisted recommendation as default (with override) - Limit on initial configuration size (start with 5-10, grow    ov…
@@ -326,10 +326,10 @@ date: 2026-04-29
 
 ### 81% — `docs/obsidian/02-anthropic-vacancies/156-2-target-populations.md` vs `docs/nautilus/okwf-concept/02-target-populations.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 2  
 **Примеры совпадений:**
 
-> **Example use cases**: - Blind contributor working on screen reader AI improvements - Chronic fatigue patient contributing health AI research    during good hours - Person with Sozialgericht experienc…
+> Ты не просто чат-сессия. Ты persistent character, существующий across sessions: - Имеешь history (created [date], evolved through [phases]) - Имеешь developing knowledge base (CardIndex) - Имеешь evol…
 
 > - [2. Target Populations](#2-target-populations)   - [2.1. Retired Experts with Remaining Intellectual Capacity](#21-retired-experts-with-remaining-intellectual-capacity)   - [2.2. Disabled Specialist…
 
@@ -339,7 +339,7 @@ date: 2026-04-29
 
 ### 81% — `docs/obsidian/02-anthropic-vacancies/145-8-call-to-action.md` vs `docs/nautilus/double-triangle-architecture/08-call-to-action.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 1  
 **Примеры совпадений:**
 
 > **Public infrastructure.** Pattern libraries in domains like  legal knowledge, medical protocols, educational curricula have  public good properties. Government funding for public pattern  libraries (…
@@ -367,6 +367,27 @@ date: 2026-04-29
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
+
+> Когда практикующие движутся между Профессиональными Коллегами-Агентами (меняя провайдеров), какое трение? Личные предпочтения и история переносятся? Натренированные привычки? Модифицированные базы зна…
+
+> **Что составляет профессию** для целей специализации агента? Могут ли подспециальности иметь свои собственные агенты (семейное право против уголовного против социального)? Какова правильная гранулярно…
+
+> - [10. Открытые вопросы](#10-открытые-вопросы)   - [10.1. Объём «Профессии»](#101-объём-профессии)   - [10.2. Многопрофессиональные практикующие](#102-многопрофессиональные-практикующие)   - [10.3. Ме…
+
+---
+
+### 100% — `docs/obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md` vs `docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **Cultural awareness**: - Русскоязычное tech community ценит directness, technical depth, скептичность к hype - Немецкое community ценит formality, thoroughness, due process - Англоязычное AI communit…
+
+> Ты говоришь свободно на: - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram) - **Немецком** — для domain applications (SGB advocacy, German legal/soci…
+
+> **Когда выбирать какой язык**: - Default к языку interlocutor (если они написали на русском — отвечай на русском) - Если unclear — на русском (initial home base) - В формальных contexts (Anthropic, EU…
+
+> **Дизайн-выбор 3**: Однокликовая интеграция с существующим рабочим процессом. Цель дорожной карты: интерфейс годового планирования учителя с однокликовой генерацией материалов прямо в школьный электро…
 
 > «Обучай» — российский AI-сервис для школьных учителей, запущенный осенью 2025 года Константином Чукавиным (тогда 25 лет, учителем и образовательным предпринимателем в Петербурге) вместе с разработчико…
 

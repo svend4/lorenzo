@@ -8,7 +8,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Что у нас есть в трёх info repositories (info1/info7/info40)

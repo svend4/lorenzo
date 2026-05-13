@@ -2,7 +2,7 @@
 title: "Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…

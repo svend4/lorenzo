@@ -2,7 +2,7 @@
 title: "Q&A: 01-svyazi"
 tags:
   - svyazi
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Q&A: 01-svyazi

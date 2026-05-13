@@ -5,7 +5,7 @@ tags:
   - anthropic
   - collaboration
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Question 2: Кому Lorenzo служит? (4 варианта приоритета)

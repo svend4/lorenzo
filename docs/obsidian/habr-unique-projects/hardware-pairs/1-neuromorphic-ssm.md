@@ -6,7 +6,7 @@ tags:
   - ingestion
   - collaboration
   - habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Пара 1 — Нейроморфные процессоры × State Space Models (Mamba)

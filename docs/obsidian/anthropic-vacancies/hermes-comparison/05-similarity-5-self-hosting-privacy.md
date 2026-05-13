@@ -2,7 +2,7 @@
 title: "Сходство 5: Self-hosting и privacy"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Сходство 5: Self-hosting и privacy

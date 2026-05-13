@@ -3,7 +3,7 @@ title: "1. The Cinderella Syndrome: Why Quality Stays Invisible"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible

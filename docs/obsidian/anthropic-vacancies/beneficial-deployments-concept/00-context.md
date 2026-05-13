@@ -3,7 +3,7 @@ title: "Контекст: что такое Anthropic Beneficial Deployments"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Контекст: что такое Anthropic Beneficial Deployments

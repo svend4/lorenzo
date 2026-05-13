@@ -3,7 +3,7 @@ title: "For the Curious: Philosophy"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # For the Curious: Philosophy

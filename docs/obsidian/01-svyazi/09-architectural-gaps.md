@@ -2,7 +2,7 @@
 title: "09 Architectural Gaps"
 tags:
   - svyazi
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 <!-- abstract-auto -->

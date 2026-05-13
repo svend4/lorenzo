@@ -3,7 +3,7 @@ title: "Question 1: Что Lorenzo фундаментально такое? (Fra
 tags:
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Question 1: Что Lorenzo фундаментально такое? (Framings A–D)

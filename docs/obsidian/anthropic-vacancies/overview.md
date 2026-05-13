@@ -3,7 +3,7 @@ title: "Обзор: 436 открытых ролей Anthropic, разбитых 
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Обзор: 436 открытых ролей Anthropic, разбитых на 16 кластеров

@@ -3,7 +3,7 @@ title: "Кто ты"
 tags:
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Кто ты

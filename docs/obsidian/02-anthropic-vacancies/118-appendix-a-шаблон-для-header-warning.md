@@ -3,12 +3,17 @@ title: "Appendix A: Шаблон для header warning"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix A: Шаблон для header warning
 <!-- tags: architecture -->
 
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.

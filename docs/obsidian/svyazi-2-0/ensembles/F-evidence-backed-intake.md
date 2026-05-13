@@ -2,7 +2,7 @@
 title: "Ансамбль F — Evidence‑Backed Community Intake"
 tags:
   - svyazi-2-0
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль F — Evidence‑Backed Community Intake

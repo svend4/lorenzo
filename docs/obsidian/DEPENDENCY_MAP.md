@@ -2,7 +2,7 @@
 title: "Карта зависимостей скриптов"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Карта зависимостей скриптов
@@ -206,9 +206,3 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [[README]] (сходство 0.40)
 - [[CHANGELOG_AUTO]] (сходство 0.34)
 
-- [[CHANGELOG]] _25%_
-- [[README|docs]] _25%_
-- [[TAGS|Индекс тегов]] _21%_
-- [[CHANGELOG_AUTO|Changelog (авто)]] _17%_
-- [[PROGRESS|Прогресс MVP]] _17%_
-- [[README|Бейджи репозитория]] _15%_

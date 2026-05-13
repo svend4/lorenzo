@@ -2,7 +2,7 @@
 title: "Ансамбль H — Research‑to‑Product Flywheel"
 tags:
   - svyazi-2-0
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль H — Research‑to‑Product Flywheel

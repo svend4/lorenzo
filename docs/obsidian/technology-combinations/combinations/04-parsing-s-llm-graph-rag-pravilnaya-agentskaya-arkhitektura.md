@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 4: Парсинг с LLM × Graph-RAG × Правильная агентская архитектура

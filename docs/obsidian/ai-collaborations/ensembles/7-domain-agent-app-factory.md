@@ -2,7 +2,7 @@
 title: "Ансамбль 7 — Domain Agent App Factory"
 tags:
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль 7 — Domain Agent App Factory

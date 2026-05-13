@@ -7,7 +7,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # AI-ассистент с Mem0 / Letta / Graphiti integration

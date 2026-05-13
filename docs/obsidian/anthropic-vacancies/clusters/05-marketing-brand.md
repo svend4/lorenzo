@@ -3,7 +3,7 @@ title: "Marketing & Brand — 23 роли"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Marketing & Brand — 23 роли

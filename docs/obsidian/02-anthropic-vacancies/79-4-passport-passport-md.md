@@ -3,7 +3,7 @@ title: "4. Passport (`passport.md`)"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 4. Passport (`passport.md`)

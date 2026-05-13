@@ -8,7 +8,7 @@ tags:
   - architecture
   - collaboration
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль 1 — Agentic Knowledge OS

@@ -6,7 +6,7 @@ tags:
   - roadmap
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 8. Пилотное предложение: SGB Колega-Адвокат

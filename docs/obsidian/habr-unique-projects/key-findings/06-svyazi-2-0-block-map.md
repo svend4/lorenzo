@@ -6,7 +6,7 @@ tags:
   - architecture
   - collaboration
   - habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Синтез: блок-карта Svyazi 2.0 на хеббовском графе

@@ -3,7 +3,7 @@ title: "6. Adapter Interface"
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 6. Adapter Interface

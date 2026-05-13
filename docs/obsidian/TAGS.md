@@ -2,7 +2,7 @@
 title: "Индекс тегов"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Индекс тегов
@@ -101,8 +101,6 @@ date: 2026-04-29
 - `docs/CONTENT_GAPS.md`
 - `docs/COVERAGE.md`
 - `docs/DENSITY.md`
-- `docs/DEPENDABOT.md`
-- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
@@ -124,7 +122,6 @@ date: 2026-04-29
 - `docs/CONTACT_PRIORITY.md`
 - `docs/COST.md`
 - `docs/DENSITY.md`
-- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
@@ -192,14 +189,11 @@ date: 2026-04-29
 - `docs/CONTACT_PRIORITY.md`
 - `docs/COST.md`
 - `docs/DENSITY.md`
-- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
 - `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
 - `docs/HEATMAP.md`
-- `docs/LANGUAGE_STATS.md`
 - `docs/MINDMAP.md`
 - `docs/MISSING.md`
 - `docs/NARRATIVE.md`
@@ -224,12 +218,10 @@ date: 2026-04-29
 - `docs/CONTACTS.md`
 - `docs/CONTACT_PRIORITY.md`
 - `docs/DENSITY.md`
-- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
 - `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
 - `docs/HEATMAP.md`
 - _...и ещё 17_
 
@@ -272,12 +264,10 @@ date: 2026-04-29
 - `docs/CONTENT_GAPS.md`
 - `docs/COST.md`
 - `docs/DENSITY.md`
-- `docs/EMPTY_SECTIONS.md`
 - `docs/ENTITIES.md`
 - `docs/FAQ.md`
 - `docs/FOOTNOTES.md`
 - `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
 - `docs/HEATMAP.md`
 - `docs/MINDMAP.md`
 - `docs/MISSING.md`
@@ -295,10 +285,7 @@ date: 2026-04-29
 - `docs/CONSISTENCY.md`
 - `docs/CONTACTS.md`
 - `docs/FOOTNOTES.md`
-- `docs/GITHUB_ISSUES.md`
 - `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/KNOWLEDGE_MAP.md`
 - `docs/KPI.md`
 - `docs/MINDMAP.md`
 - `docs/MISSING.md`

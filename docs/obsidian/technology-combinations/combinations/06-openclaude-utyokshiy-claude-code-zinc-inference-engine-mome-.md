@@ -2,7 +2,7 @@
 title: "Комбинация 6: OpenClaude (утёкший Claude Code) × ZINC inference engine × MoME-роутер"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 6: OpenClaude (утёкший Claude Code) × ZINC inference engine × MoME-роутер

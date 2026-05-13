@@ -10,7 +10,7 @@ tags:
   - anthropic
   - collaboration
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Плюсы 1–7: feasibility, flywheel, independent value, mission alignment, collaborators, pattern validation, Анастасия Бутова

@@ -7,7 +7,7 @@ tags:
   - architecture
   - collaboration
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 10: Legal Document Intelligence Pipeline

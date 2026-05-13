@@ -2,7 +2,7 @@
 title: "Technical Program Management — 10 ролей"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Technical Program Management — 10 ролей

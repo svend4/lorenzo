@@ -2,7 +2,7 @@
 title: "Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code

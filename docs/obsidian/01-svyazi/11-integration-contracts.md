@@ -2,7 +2,7 @@
 title: "11 Integration Contracts"
 tags:
   - svyazi
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 <!-- abstract-auto -->

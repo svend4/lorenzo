@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Конкретный next step

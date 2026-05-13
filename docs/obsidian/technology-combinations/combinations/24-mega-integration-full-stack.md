@@ -2,7 +2,7 @@
 title: "Комбинация 24: MEGA-INTEGRATION: Full Stack"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 24: MEGA-INTEGRATION: Full Stack

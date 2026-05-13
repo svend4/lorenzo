@@ -2,7 +2,7 @@
 title: "Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph"
 tags:
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph

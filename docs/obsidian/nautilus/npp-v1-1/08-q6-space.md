@@ -3,7 +3,7 @@ title: "8. Q6 Space (Normative)"
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 8. Q6 Space (Normative)

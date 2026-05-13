@@ -2,7 +2,7 @@
 title: "3. What Makes a Composite Skills Agent"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 3. What Makes a Composite Skills Agent

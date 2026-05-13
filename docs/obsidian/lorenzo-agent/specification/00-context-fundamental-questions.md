@@ -3,7 +3,7 @@ title: "Direction E: Refine Lorenzo — фундаментальные вопр�
 tags:
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture

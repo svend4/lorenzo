@@ -2,7 +2,7 @@
 title: "Ансамбль 2 — «AutoResearch для legal precedent mining»"
 tags:
   - habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль 2 — «AutoResearch для legal precedent mining»

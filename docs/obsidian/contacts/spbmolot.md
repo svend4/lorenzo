@@ -4,7 +4,7 @@ tags:
   - контакты
   - команда
   - contacts
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Контакт: spbmolot / NGT Memory

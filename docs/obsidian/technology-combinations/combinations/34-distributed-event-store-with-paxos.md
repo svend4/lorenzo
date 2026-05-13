@@ -2,7 +2,7 @@
 title: "Комбинация 34: Distributed Event Store with Paxos"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 34: Distributed Event Store with Paxos

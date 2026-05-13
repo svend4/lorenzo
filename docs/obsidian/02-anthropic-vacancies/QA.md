@@ -2,7 +2,7 @@
 title: "Q&A: 02-anthropic-vacancies"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Q&A: 02-anthropic-vacancies
@@ -16,6 +16,14 @@ _Автоматически сгенерировано по 355 файлам р�
 ## Что входит в интеграционный контракт между слоями?
 
 Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+
+## Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
+
+## Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: **forward deployed**, **research engineer**, **developer community**
 
 ## Кто ключевые авторы проектов для контакта?
 
@@ -43,15 +51,7 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Какие RAG-подходы сравниваются в документах?
 
-Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **[[01-executive-summary|LiteParse]]**
-
-## Какие кластеры найма выделены у Anthropic?
-
-Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
-
-## Какие роли наиболее релевантны для профиля svend4?
-
-Упоминаются: **forward deployed**, **research engineer**, **developer community**
+Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **LiteParse**
 
 ## Какие системы памяти описаны в этом разделе?
 
@@ -100,13 +100,3 @@ _Автоматически сгенерировано по 355 файлам р�
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[QA]] (сходство 0.86)
-- [[QA]] (сходство 0.63)
-- [[00-intro-part2|QA]]/QA.md) (сходство 0.52)
-

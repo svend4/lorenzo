@@ -2,7 +2,7 @@
 title: "Ансамбль 6 — Continuous Eval Loop"
 tags:
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль 6 — Continuous Eval Loop

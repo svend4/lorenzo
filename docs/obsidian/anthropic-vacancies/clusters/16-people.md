@@ -3,7 +3,7 @@ title: "People — 3 роли"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # People — 3 роли

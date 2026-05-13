@@ -2,7 +2,7 @@
 title: "double-triangle-architecture"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # double-triangle-architecture

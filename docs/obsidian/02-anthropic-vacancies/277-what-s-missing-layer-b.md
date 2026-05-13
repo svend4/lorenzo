@@ -3,7 +3,7 @@ title: "What's Missing — Layer B"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # What's Missing — Layer B
@@ -33,6 +33,18 @@ date: 2026-04-29
 > Between chat and repository, there should exist Layer B: an
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [What's Missing — Layer B](#whats-missing-layer-b)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture -->
 
 

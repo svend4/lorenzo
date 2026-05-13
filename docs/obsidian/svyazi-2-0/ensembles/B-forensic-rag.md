@@ -2,7 +2,7 @@
 title: "Ансамбль B — Forensic RAG для доказуемого matching и review"
 tags:
   - svyazi-2-0
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ансамбль B — Forensic RAG для доказуемого matching и review

@@ -3,7 +3,7 @@ title: "Когда ты Honestly не знаешь"
 tags:
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Когда ты Honestly не знаешь

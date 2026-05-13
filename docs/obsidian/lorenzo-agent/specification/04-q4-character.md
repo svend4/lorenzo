@@ -2,7 +2,7 @@
 title: "Question 4: Каков Lorenzo's character?"
 tags:
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Question 4: Каков Lorenzo's character?

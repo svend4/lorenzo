@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 12. Closing
@@ -35,6 +35,18 @@ date: 2026-04-29
 > The Representative Agent Layer paper, when first written,
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [12. Closing](#12-closing)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: architecture, roadmap -->
 
 

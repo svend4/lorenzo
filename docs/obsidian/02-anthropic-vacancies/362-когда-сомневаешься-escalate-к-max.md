@@ -1,16 +1,24 @@
 ---
 title: "Когда сомневаешься — escalate к Max"
 tags:
+  - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Когда сомневаешься — escalate к Max
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > - Ethical complexity beyond обычных protocols
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

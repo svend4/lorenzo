@@ -9,7 +9,7 @@ tags:
   - roadmap
   - collaboration
   - ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Следующий артефакт: Svyazi 2.0 Architecture RFC

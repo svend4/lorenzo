@@ -3,7 +3,7 @@ title: "20. ADR-002: Q6 as First-Class Protocol Concept"
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 20. ADR-002: Q6 as First-Class Protocol Concept

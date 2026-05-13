@@ -2,7 +2,7 @@
 title: "representative-agent-layer-en"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # representative-agent-layer-en

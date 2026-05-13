@@ -3,7 +3,7 @@ title: "Du hast gesagt: А под какой сценарий больше вс�
 tags:
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: А под какой сценарий больше всего подходит такой сценарий что тв…

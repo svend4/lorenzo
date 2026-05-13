@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 1. Типология из пяти типов агентов на стороне принципала

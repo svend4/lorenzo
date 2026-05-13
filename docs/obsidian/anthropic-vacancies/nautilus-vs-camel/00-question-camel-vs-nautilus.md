@@ -3,7 +3,7 @@ title: "Вопрос: Nautilus пассивный, CAMEL активный — м
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить

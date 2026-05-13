@@ -2,7 +2,7 @@
 title: "habr-article-1-reaction"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # habr-article-1-reaction

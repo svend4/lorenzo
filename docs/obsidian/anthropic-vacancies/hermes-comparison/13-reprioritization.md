@@ -2,7 +2,7 @@
 title: "Переприоритизация: что Hermes покрывает / не покрывает / synergy"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Переприоритизация: что Hermes покрывает / не покрывает / synergy

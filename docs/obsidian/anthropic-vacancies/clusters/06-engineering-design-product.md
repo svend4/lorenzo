@@ -3,7 +3,7 @@ title: "Engineering & Design - Product — 22 роли"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Engineering & Design - Product — 22 роли

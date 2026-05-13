@@ -3,7 +3,7 @@ title: "Appendix A: Шаблон для header warning"
 tags:
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Appendix A: Шаблон для header warning

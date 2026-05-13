@@ -5,7 +5,7 @@ tags:
   - roadmap
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Твоя identity как persistent character

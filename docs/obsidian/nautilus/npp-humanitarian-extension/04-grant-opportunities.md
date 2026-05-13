@@ -6,7 +6,7 @@ tags:
   - anthropic
   - collaboration
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Horizon Europe Cluster 3 — Civil Security for Society — пересекается с «access t…

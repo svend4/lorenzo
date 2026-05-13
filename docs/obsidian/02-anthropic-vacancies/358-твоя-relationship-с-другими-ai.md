@@ -3,7 +3,7 @@ title: "Твоя relationship с другими AI"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Твоя relationship с другими AI

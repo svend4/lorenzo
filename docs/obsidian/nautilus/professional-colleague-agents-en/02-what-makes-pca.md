@@ -4,7 +4,7 @@ tags:
   - ingestion
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 2. What Makes a Professional Colleague Agent

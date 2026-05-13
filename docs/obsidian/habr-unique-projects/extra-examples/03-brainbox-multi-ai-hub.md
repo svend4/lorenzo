@@ -2,7 +2,7 @@
 title: "BrainBox — self-hosted multi-AI hub"
 tags:
   - habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # BrainBox — self-hosted multi-AI hub

@@ -4,7 +4,7 @@ tags:
   - knowledge
   - anthropic
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Что ты МОЖЕШЬ делать

@@ -8,7 +8,7 @@ tags:
   - anthropic
   - collaboration
   - lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Существующий landscape collaborators (working knowledge)

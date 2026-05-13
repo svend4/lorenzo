@@ -5,7 +5,7 @@ tags:
   - anthropic
   - collaboration
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 14. ADR-001: Federation over Merging

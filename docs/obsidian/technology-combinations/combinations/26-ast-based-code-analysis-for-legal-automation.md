@@ -3,7 +3,7 @@ title: "Комбинация 26: AST-Based Code Analysis for Legal Automation"
 tags:
   - rag
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 26: AST-Based Code Analysis for Legal Automation

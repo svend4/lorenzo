@@ -2,7 +2,7 @@
 title: "Бейджи репозитория"
 tags:
   - badges
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Бейджи репозитория
@@ -30,9 +30,3 @@ date: 2026-04-29
 ![license](docs/badges/license.svg)
 ![branch](docs/badges/branch.svg)
 ```
-
-<!-- related-auto -->
-## Связанные документы
-
-- [[DEPENDENCY_MAP|Карта зависимостей скриптов]] _15%_
-- [[PROGRESS|Прогресс MVP]] _15%_

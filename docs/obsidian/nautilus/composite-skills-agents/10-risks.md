@@ -2,7 +2,7 @@
 title: "10. Risks Specific to Composite Architectures"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 10. Risks Specific to Composite Architectures

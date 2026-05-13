@@ -2,7 +2,7 @@
 title: "Графы знаний и Legal AI"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Графы знаний и Legal AI
@@ -22,6 +22,17 @@ date: 2026-04-29
 **Проекты:** Yodoca, Auto AI Router, [[01-executive-summary|AutoResearch]]
 
 ---
+
+<!-- toc -->
+## Содержание
+
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
+
 <!-- tags: memory, rag, orchestration, knowledge, self-improvement, collaboration -->
 
 

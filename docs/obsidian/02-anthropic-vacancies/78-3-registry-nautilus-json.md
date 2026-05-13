@@ -3,7 +3,7 @@ title: "3. Registry (`nautilus.json`)"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # 3. Registry (`nautilus.json`)

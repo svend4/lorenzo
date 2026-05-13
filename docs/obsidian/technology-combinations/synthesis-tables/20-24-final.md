@@ -2,7 +2,7 @@
 title: "Сводная таблица 20–24 (Final 1–24)"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Сводная таблица 20–24 (Final 1–24)

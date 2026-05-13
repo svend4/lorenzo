@@ -5,17 +5,27 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # References
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources for Composite Architecture(foundational-sources-for-composite-architecture) - Pattern of Composite Mastery(patte
-> 🏷️ **Ключевые слова:** `architecture`, `anthropic`, `vacancies`, `references`, `composite`, `svend`, `companion`, `press`
->
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [References](#references)
+  - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
+  - [Pattern of Composite Mastery](#pattern-of-composite-mastery)
+  - [Multi-Agent Coordination](#multi-agent-coordination)
+  - [Practical Examples](#practical-examples)
+  - [Companion Documents in This Series](#companion-documents-in-this-series)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
+
+---
 
 
 <!-- toc-auto -->

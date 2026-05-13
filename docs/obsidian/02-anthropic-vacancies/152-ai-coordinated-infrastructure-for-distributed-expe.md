@@ -3,7 +3,7 @@ title: "AI-Coordinated Infrastructure for Distributed Expert Contribution"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # AI-Coordinated Infrastructure for Distributed Expert Contribution

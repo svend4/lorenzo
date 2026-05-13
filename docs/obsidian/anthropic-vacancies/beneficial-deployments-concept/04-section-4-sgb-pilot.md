@@ -2,7 +2,7 @@
 title: "Section 4: Specific deployment — SGB Advocate Community pilot"
 tags:
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Section 4: Specific deployment — SGB Advocate Community pilot

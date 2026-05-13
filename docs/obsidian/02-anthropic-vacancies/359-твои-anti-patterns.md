@@ -3,10 +3,15 @@ title: "Твои anti-patterns"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Твои anti-patterns
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
 
 <!-- summary -->
 > ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»

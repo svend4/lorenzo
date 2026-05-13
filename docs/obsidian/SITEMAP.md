@@ -2,14 +2,14 @@
 title: "Карта репозитория Lorenzo"
 tags:
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Карта репозитория Lorenzo
 
 _Обновлено: 2026-04-29_
 
-**Всего файлов:** 1693
+**Всего файлов:** 1193
 
 ## Навигация
 
@@ -27,7 +27,6 @@ _Обновлено: 2026-04-29_
 - [habr-unique-projects](#habr-unique-projects)
 - [lorenzo-agent](#lorenzo-agent)
 - [nautilus](#nautilus)
-- [obsidian](#obsidian)
 - [svyazi-2-0](#svyazi-2-0)
 - [technology-combinations](#technology-combinations)
 - [templates](#templates)
@@ -313,19 +312,19 @@ _`docs/02-anthropic-vacancies/` — 355 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [[00-intro|Введение]] | 8984 |
-| 2 | [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] | 19217 |
-| 3 | [[02-общий-план-развития-nautilus-portal-protocol|ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL]] | 3300 |
+| 1 | [[00-intro|Введение]] | 8903 |
+| 2 | [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]] | 19139 |
+| 3 | [[02-общий-план-развития-nautilus-portal-protocol|ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL]] | 3221 |
 | 4 | [[03-portal-protocol-md|PORTAL-PROTOCOL.md]] | 318 |
 | 5 | [[04-abstract|Abstract]] | 310 |
 | 6 | [[05-0-status-of-this-document|0. Status of This Document]] | 296 |
-| 7 | [[06-1-introduction|1. Introduction]] | 383 |
-| 8 | [[07-2-terminology|2. Terminology]] | 302 |
-| 9 | [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] | 403 |
+| 7 | [[06-1-introduction|1. Introduction]] | 428 |
+| 8 | [[07-2-terminology|2. Terminology]] | 411 |
+| 9 | [[08-3-registry-nautilus-json|3. Registry (`nautilus.json`)]] | 575 |
 | 10 | [[09-4-passport-passport-md|4. Passport (`passport.md`)]] | 298 |
 | 11 | [[102-доступ-к-данным|Доступ к данным]] | 250 |
 | 12 | [[103-appendix-b-change-log|Appendix B: Change Log]] | 309 |
-| 13 | [[104-appendix-c-references|Appendix C: References]] | 1162 |
+| 13 | [[104-appendix-c-references|Appendix C: References]] | 1091 |
 | 14 | [[105-review-methodology-md|REVIEW_METHODOLOGY.md]] | 271 |
 | 15 | [[106-tl-dr|TL;DR]] | 216 |
 | 16 | [[107-1-контекст-и-мотивация|1. Контекст и мотивация]] | 455 |
@@ -348,21 +347,21 @@ _`docs/02-anthropic-vacancies/` — 355 файлов_
 | 33 | [[123-portal-mcp-py|portal-mcp.py]] | 2495 |
 | 34 | [[124-конфигурация-для-claude-desktop|Конфигурация для Claude Desktop]] | 241 |
 | 35 | [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]] | 261 |
-| 36 | [[126-установка|Установка]] | 145 |
+| 36 | [[126-установка|Установка]] | 216 |
 | 37 | [[127-подключение-к-claude-desktop|Подключение к Claude Desktop]] | 247 |
 | 38 | [[128-доступные-инструменты|Доступные инструменты]] | 296 |
 | 39 | [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]] | 291 |
 | 40 | [[13-angle-perspective|Angle / Perspective]] | 209 |
 | 41 | [[130-отладка|Отладка]] | 243 |
-| 42 | [[131-ограничения-текущей-версии-0-1-0-draft|Ограничения текущей версии (0.1.0-draft)]] | 177 |
+| 42 | [[131-ограничения-текущей-версии-0-1-0-draft|Ограничения текущей версии (0.1.0-draft)]] | 175 |
 | 43 | [[132-planned-v0-2-0|Planned (v0.2.0)]] | 205 |
-| 44 | [[133-обратная-связь|Обратная связь]] | 17075 |
+| 44 | [[133-обратная-связь|Обратная связь]] | 16992 |
 | 45 | [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] | 281 |
 | 46 | [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distr]] | 262 |
 | 47 | [[136-abstract|Abstract]] | 602 |
 | 48 | [[137-table-of-contents|Table of Contents]] | 287 |
-| 49 | [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] | 584 |
-| 50 | [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] | 753 |
+| 49 | [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Models Are Incomplete]] | 651 |
+| 50 | [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]] | 837 |
 | ... | _ещё 305 файлов_ | |
 
 ## Комбинации технологий
@@ -383,21 +382,21 @@ _`docs/04-ai-collaborations/` — 15 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [[00-intro|Введение]] | 11389 |
-| 2 | [[01-executive-summary|Executive summary]] | 575 |
-| 3 | [[02-методика-и-рамка-отбора|Методика и рамка отбора]] | 434 |
-| 4 | [[03-карта-найденных-проектов-и-паттернов|Карта найденных проектов и паттернов]] | 1478 |
-| 5 | [[04-приоритетные-ансамбли|Приоритетные ансамбли]] | 1340 |
-| 6 | [[05-план-прототипа-и-возможные-контакты|План прототипа и возможные контакты]] | 1130 |
-| 7 | [[06-безопасность-приватность-и-бюджетный-роутинг|Безопасность, приватность и бюджетный роутинг]] | 887 |
-| 8 | [[07-выводы|Выводы]] | 470 |
-| 9 | [[08-что-это-продолжение-добавляет|Что это продолжение добавляет]] | 439 |
-| 10 | [[09-архитектурные-зазоры-которые-важнее-новых-инструме|Архитектурные зазоры, которые важнее новых инструм]] | 821 |
-| 11 | [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] | 984 |
-| 12 | [[11-интеграционный-контракт-который-стоит-зафиксироват|Интеграционный контракт, который стоит зафиксирова]] | 846 |
-| 13 | [[12-дорожная-карта-прототипа-следующей-итерации|Дорожная карта прототипа следующей итерации]] | 787 |
-| 14 | [[13-контактная-стратегия-и-узкие-вопросы-для-авторов|Контактная стратегия и узкие вопросы для авторов]] | 874 |
-| 15 | [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать|Ограничения, лицензии и что пока лучше не склеиват]] | 3274 |
+| 1 | [[00-intro|Введение]] | 11524 |
+| 2 | [[01-executive-summary|Executive summary]] | 761 |
+| 3 | [[02-методика-и-рамка-отбора|Методика и рамка отбора]] | 585 |
+| 4 | [[03-карта-найденных-проектов-и-паттернов|Карта найденных проектов и паттернов]] | 1638 |
+| 5 | [[04-приоритетные-ансамбли|Приоритетные ансамбли]] | 1573 |
+| 6 | [[05-план-прототипа-и-возможные-контакты|План прототипа и возможные контакты]] | 1356 |
+| 7 | [[06-безопасность-приватность-и-бюджетный-роутинг|Безопасность, приватность и бюджетный роутинг]] | 1055 |
+| 8 | [[07-выводы|Выводы]] | 649 |
+| 9 | [[08-что-это-продолжение-добавляет|Что это продолжение добавляет]] | 584 |
+| 10 | [[09-архитектурные-зазоры-которые-важнее-новых-инструме|Архитектурные зазоры, которые важнее новых инструм]] | 1048 |
+| 11 | [[10-новые-ансамбли-следующего-шага|Новые ансамбли следующего шага]] | 1245 |
+| 12 | [[11-интеграционный-контракт-который-стоит-зафиксироват|Интеграционный контракт, который стоит зафиксирова]] | 1024 |
+| 13 | [[12-дорожная-карта-прототипа-следующей-итерации|Дорожная карта прототипа следующей итерации]] | 934 |
+| 14 | [[13-контактная-стратегия-и-узкие-вопросы-для-авторов|Контактная стратегия и узкие вопросы для авторов]] | 1031 |
+| 15 | [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать|Ограничения, лицензии и что пока лучше не склеиват]] | 3444 |
 
 ## Хабр-проекты — память и граф
 
@@ -406,10 +405,10 @@ _`docs/05-habr-projects/` — 6 файлов_
 | # | Документ | Слов |
 |---|----------|------|
 | 1 | [[01-synthesis|Синтез: как проекты собираются вместе]] | 245 |
-| 2 | [[02-collaboration-partners|Авторы и контакты]] | 261 |
+| 2 | [[02-collaboration-partners|Авторы и контакты]] | 369 |
 | 3 | [[wikontic|Wikontic: семантический граф]] | 369 |
-| 4 | [[memnet|MemNet: исследовательская память]] | 7246 |
-| 5 | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 364 |
+| 4 | [[memnet|MemNet: исследовательская память]] | 7298 |
+| 5 | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 480 |
 | 6 | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 359 |
 
 ## ai-collaborations
@@ -524,20 +523,20 @@ _`docs/contacts/` — 14 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [[anastasiyaw|Контакт: AnastasiyaW / knowledge-space, mclaude]] | 233 |
-| 2 | [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] | 236 |
-| 3 | [[antipozitive|Контакт: Antipozitive / MemNet]] | 213 |
-| 4 | [[cutcode|Контакт: Cutcode / AIF Handoff]] | 204 |
-| 5 | [[dmitriila|Контакт: Dmitriila / SENTINEL]] | 200 |
-| 6 | [[kksudo|Контакт: kksudo / AgentFS]] | 228 |
-| 7 | [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] | 212 |
-| 8 | [[nlaik|Контакт: nlaik / LiteParse / research-docs]] | 223 |
-| 9 | [[sonia-black|Контакт: Sonia_Black / knowledge-space]] | 213 |
-| 10 | [[spbmolot|Контакт: spbmolot / NGT Memory]] | 247 |
-| 11 | [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] | 206 |
-| 12 | [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] | 240 |
-| 13 | [[vladspace|Контакт: VladSpace / Graph RAG]] | 206 |
-| 14 | [[zodigancode|Контакт: zodigancode / Rufler]] | 200 |
+| 1 | [[anastasiyaw|Контакт: AnastasiyaW / knowledge-space, mclaude]] | 381 |
+| 2 | [[andrey-chuyan|Контакт: andrey_chuyan / Svyazi]] | 366 |
+| 3 | [[antipozitive|Контакт: Antipozitive / MemNet]] | 344 |
+| 4 | [[cutcode|Контакт: Cutcode / AIF Handoff]] | 404 |
+| 5 | [[dmitriila|Контакт: Dmitriila / SENTINEL]] | 402 |
+| 6 | [[kksudo|Контакт: kksudo / AgentFS]] | 353 |
+| 7 | [[mixaill76|Контакт: MiXaiLL76 / Auto AI Router]] | 406 |
+| 8 | [[nlaik|Контакт: nlaik / LiteParse / research-docs]] | 357 |
+| 9 | [[sonia-black|Контакт: Sonia_Black / knowledge-space]] | 353 |
+| 10 | [[spbmolot|Контакт: spbmolot / NGT Memory]] | 355 |
+| 11 | [[tagir-analyzes|Контакт: tagir_analyzes / Legal RAG]] | 390 |
+| 12 | [[vitalyoborin|Контакт: VitalyOborin / Yodoca]] | 392 |
+| 13 | [[vladspace|Контакт: VladSpace / Graph RAG]] | 398 |
+| 14 | [[zodigancode|Контакт: zodigancode / Rufler]] | 392 |
 
 ## glossary
 
@@ -887,9 +886,9 @@ _`docs/technology-combinations/` — 47 файлов_
 | 46 | [[25-30-extended|Сводная таблица 25–30 (Complete 1–30)]] | 246 |
 | 47 | [[31-35-final|Сводная таблица 31–35 (Complete 1–35)]] | 267 |
 
-## glossary
+## templates
 
-_`docs/glossary/` — 3 файлов_
+_`docs/templates/` — 23 файлов_
 
 | # | Документ | Слов |
 |---|----------|------|

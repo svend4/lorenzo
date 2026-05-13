@@ -2,7 +2,7 @@
 title: "Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на н…"
 tags:
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на н…

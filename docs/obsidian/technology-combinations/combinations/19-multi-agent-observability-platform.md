@@ -2,7 +2,7 @@
 title: "Комбинация 19: Multi-Agent Observability Platform"
 tags:
   - technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Комбинация 19: Multi-Agent Observability Platform

@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - nautilus
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система…

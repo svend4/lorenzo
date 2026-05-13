@@ -5,7 +5,7 @@ tags:
   - rag
   - collaboration
   - general
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Ключевые решения и выводы
@@ -86,6 +86,9 @@ _...ещё 40 записей в этой категории_
 - переориентировать стратегию OKWF : начать с гильдийных Профессиональных Коллег, как первый продукт фонда. Использовать SGB-domain как pilot domain (используя ваш expertise). Если будете писать compani  
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
 
+- склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) - [План прототипа и возможные контакты](05-план-прототипа-и-возможные-контакты.md  
+  _→ 09-архитектурные-зазоры-которые-важнее-новых-инструме_
+
 - кандидат для слоя ### 17. План прототипа и возможные контакты _Файл: `docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md` | 4 колонок, 0 строк_ | **VitalyOborin** | Сильнейший канд  
   _→ TABLES_
 
@@ -146,7 +149,7 @@ _...ещё 40 записей в этой категории_
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
-- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [[README|contacts]] > Файлов: 14 - Содержание _Слов: 90_ ### [[do-not-glue|Контакт: AnastasiyaW / knowledge-space, mclaude  
+- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [[README|contacts]] > Файлов: 14 - Содержание _Слов: 90_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
   _→ OUTLINE_
 
 - вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
@@ -179,8 +182,8 @@ _...ещё 40 записей в этой категории_
 - положите все четыре файла в репо (PORTAL-PROTOCOL.md в корень, README.md заменяет текущий, три passport'а в папку passports/). Commit с сообщением вида docs: initial v1.0-draft documentation layer . Т  
   _→ 69-section_
 
-- первой части - Порядок практической сборки - Главный вывод второй части _Слов: 318_ ### [Что пока лучше не склеивать]] > > !WARNING - Оркестрация — выбрать один spine - Voice/local‑first mesh — не идеализиро  
-  _→ OUTLINE_
+- создать документы](#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](#детали-по-топ-20-пробелам) - [`LiteParse` (100 файлов)](#liteparse-100-файлов) - [`BSL` (74 файлов)](#bsl-74-фай  
+  _→ CONTENT_GAPS_
 
 - склеивать](docs/01-svyazi/14-limitations.md)](#ограничения-лицензии-и-что-пока-лучше-не-склеиватьdocs01-svyazi14-limitationsmd) - [[do-not-glue|[Q&A: 01-svyazi]]](#что-пока-лучше-не-склеиватьdocssvyazi-2-0limitationsdo-not-gluemd) - [[14-limitations|[Лицензионные развилк  
   _→ OUTLINE_
@@ -239,8 +242,7 @@ _...ещё 40 записей в этой категории_
 - немедленный шаг — написать vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про AI-orchestrated teams в единую аргументацию «MMORPG as Work Infrastructure». Один документ, к  
   _→ 05-minuses-as-business_
 
-- identifies potential collaborator/contributor. Андрей — fullstack-разработчик, основатель сообщества, активный в russian-language tech community. Если OKWF будет recruiting первых contributors, именно  
-  _→ 01-claude-response_
+## Общее (321)
 
 - написать один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRARY.md. Это extension к NPP v1.1, который формализует: Three types of bridges (inheritance, citation, contributi  
   _→ 01-strategic-significance_

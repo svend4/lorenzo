@@ -2,7 +2,7 @@
 title: "Пара 3 — ZINC inference engine × гибрид Attention+SSM+MoE"
 tags:
   - habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ---
 
 # Пара 3 — ZINC inference engine × гибрид Attention+SSM+MoE
