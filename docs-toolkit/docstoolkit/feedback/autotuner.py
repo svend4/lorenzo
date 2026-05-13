@@ -22,7 +22,7 @@ import tomllib
 from dataclasses import dataclass
 from pathlib import Path
 
-from docstoolkit.feedback.store import Feedback, FeedbackStore
+from docstoolkit.feedback.legacy_store import Feedback, FeedbackStore
 
 
 @dataclass
