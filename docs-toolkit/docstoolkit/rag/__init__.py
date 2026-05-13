@@ -18,6 +18,18 @@ from docstoolkit.rag.answerer import (
     Answerer, EchoAnswerer, AnthropicAnswerer, get_answerer,
 )
 from docstoolkit.rag.pipeline import ask, RAGPipeline
+from docstoolkit.rag.synthesis import (
+    synthesize, compare_sections, SynthesisRequest, SynthesisResult,
+    DocumentGroup, SynthesisMode,
+)
+from docstoolkit.rag.counterfactual import (
+    attribute_answer, counterfactual_ask, ForensicRAG,
+    AttributedAnswer, CounterfactualResult, SpanAttribution,
+)
+from docstoolkit.rag.mapreduce import (
+    map_reduce_ask, should_use_mapreduce,
+    MapReduceConfig, ReduceResult,
+)
 
 __all__ = [
     "Passage", "AnswerResult", "RAGQuery",
@@ -25,4 +37,12 @@ __all__ = [
     "assemble_prompt",
     "Answerer", "EchoAnswerer", "AnthropicAnswerer", "get_answerer",
     "ask", "RAGPipeline",
+    # Gap 2: Cross-document synthesis
+    "synthesize", "compare_sections", "SynthesisRequest", "SynthesisResult",
+    "DocumentGroup", "SynthesisMode",
+    # Gap 8: Counterfactual / forensic RAG
+    "attribute_answer", "counterfactual_ask", "ForensicRAG",
+    "AttributedAnswer", "CounterfactualResult", "SpanAttribution",
+    # Gap 10: True long-context map-reduce
+    "map_reduce_ask", "should_use_mapreduce", "MapReduceConfig", "ReduceResult",
 ]
