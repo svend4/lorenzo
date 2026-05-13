@@ -1,64 +1,53 @@
-"""DomainEvent — base immutable event record for event sourcing."""
+"""Event and EventEnvelope dataclasses for the E84 event sourcing module."""
 import time
-import uuid
 from dataclasses import dataclass, field
+from uuid import uuid4
 
 
 def _short_uuid() -> str:
-    return uuid.uuid4().hex[:8]
+    """Generate a short 12-character hex UUID."""
+    return uuid4().hex[:12]
 
 
 @dataclass
-class DomainEvent:
-    """Immutable domain event record.
+class Event:
+    """An immutable domain event record.
 
-    Attributes:
-        event_id:       Short UUID4 (8 hex chars), auto-generated.
-        event_type:     Name of the event (e.g. ``"user.created"``).
-        aggregate_id:   ID of the aggregate this event belongs to.
-        aggregate_type: Type name of the aggregate (e.g. ``"User"``).
-        payload:        Event-specific data.
-        ts:             Unix timestamp (float), auto-generated.
-        version:        Monotonically increasing version within the aggregate.
-        metadata:       Optional extra metadata (correlation IDs, author, …).
+    Attributes
+    ----------
+    event_id:
+        Unique identifier for the event (12 hex chars, auto-generated).
+    aggregate_id:
+        Identifier of the aggregate this event belongs to.
+    event_type:
+        Name of the event (e.g. ``"user.created"``).
+    payload:
+        Event-specific data.
+    version:
+        Monotonically increasing version within the aggregate (default 1).
+    timestamp:
+        Unix timestamp (float) when the event was created.
     """
 
-    event_type: str
-    aggregate_id: str
-    aggregate_type: str
-    payload: dict
+    aggregate_id: str = ""
+    event_type: str = ""
     event_id: str = field(default_factory=_short_uuid)
-    ts: float = field(default_factory=time.time)
+    payload: dict = field(default_factory=dict)
     version: int = 1
-    metadata: dict = field(default_factory=dict)
+    timestamp: float = field(default_factory=time.time)
 
-    # ------------------------------------------------------------------
-    # Serialisation
-    # ------------------------------------------------------------------
 
-    def to_dict(self) -> dict:
-        """Return a plain-dict representation suitable for JSON encoding."""
-        return {
-            "event_id": self.event_id,
-            "event_type": self.event_type,
-            "aggregate_id": self.aggregate_id,
-            "aggregate_type": self.aggregate_type,
-            "payload": self.payload,
-            "ts": self.ts,
-            "version": self.version,
-            "metadata": self.metadata,
-        }
+@dataclass
+class EventEnvelope:
+    """Wraps an :class:`Event` with its global sequence number.
 
-    @classmethod
-    def from_dict(cls, d: dict) -> "DomainEvent":
-        """Reconstruct a :class:`DomainEvent` from a plain dict."""
-        return cls(
-            event_id=d["event_id"],
-            event_type=d["event_type"],
-            aggregate_id=d["aggregate_id"],
-            aggregate_type=d["aggregate_type"],
-            payload=d["payload"],
-            ts=d["ts"],
-            version=d["version"],
-            metadata=d.get("metadata", {}),
-        )
+    Attributes
+    ----------
+    event:
+        The underlying domain event.
+    sequence:
+        Global ordering value assigned by the EventStore.
+    """
+
+    event: Event
+    sequence: int

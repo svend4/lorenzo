@@ -1,40 +1,37 @@
-"""Event sourcing primitives for docs-toolkit.
+"""Event sourcing primitives for docs-toolkit (E84).
 
-Provides an append-only :class:`EventStore` backed by SQLite, an immutable
-:class:`DomainEvent` record, and a :class:`EventSourcedAggregate` façade for
-building event-sourced domain objects entirely with the standard library.
+Provides:
+
+* :class:`Event` — immutable domain event with auto-generated id/timestamp.
+* :class:`EventEnvelope` — wraps an :class:`Event` with a global sequence.
+* :class:`EventStore` — append-only SQLite-backed event store.
+* :class:`Projection` — accumulates state by replaying events.
+* :class:`ReplayEngine` — reads events from an :class:`EventStore` and runs
+  them through a :class:`Projection`.
 
 Quick-start::
 
     from docstoolkit.event_sourcing import (
-        DomainEvent, EventStore,
-        AggregateState, EventApplier, EventSourcedAggregate,
+        Event, EventStore, Projection, ReplayEngine,
     )
 
-    class CounterApplier(EventApplier):
-        def apply(self, state, event):
-            state.state["count"] = state.state.get("count", 0) + event.payload.get("delta", 1)
-            return state
-
     store = EventStore()
-    agg   = EventSourcedAggregate("c1", "Counter", CounterApplier(), store)
-    agg.append_event("counter.incremented", {"delta": 1})
-    agg.append_event("counter.incremented", {"delta": 2})
-    print(agg.current_state().state)   # {'count': 3}
-"""
-from docstoolkit.event_sourcing.event import DomainEvent
-from docstoolkit.event_sourcing.store import EventStore, VersionConflictError
-from docstoolkit.event_sourcing.aggregate import (
-    AggregateState,
-    EventApplier,
-    EventSourcedAggregate,
-)
+    store.append(Event(aggregate_id="c1", event_type="counter.incremented",
+                       payload={"delta": 1}, version=1))
+    store.append(Event(aggregate_id="c1", event_type="counter.incremented",
+                       payload={"delta": 2}, version=2))
 
-__all__ = [
-    "DomainEvent",
-    "EventStore",
-    "VersionConflictError",
-    "AggregateState",
-    "EventApplier",
-    "EventSourcedAggregate",
-]
+    proj = Projection("counter")
+    proj.apply_typed(
+        "counter.incremented",
+        lambda s, e: s.update({"total": s.get("total", 0) + e.payload["delta"]}),
+    )
+    engine = ReplayEngine(store)
+    state = engine.replay_aggregate("c1", proj)
+    print(state)   # {'total': 3}
+"""
+from docstoolkit.event_sourcing.event import Event, EventEnvelope
+from docstoolkit.event_sourcing.store import EventStore
+from docstoolkit.event_sourcing.replay import Projection, ReplayEngine
+
+__all__ = ["Event", "EventEnvelope", "EventStore", "Projection", "ReplayEngine"]

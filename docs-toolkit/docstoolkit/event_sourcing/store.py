@@ -1,46 +1,37 @@
-"""SQLite-backed EventStore for persisting DomainEvents."""
+"""SQLite-backed EventStore for the E84 event sourcing module."""
 import json
 import sqlite3
-from pathlib import Path
 
-from docstoolkit.event_sourcing.event import DomainEvent
+from docstoolkit.event_sourcing.event import Event, EventEnvelope
 
 _SCHEMA = """
-CREATE TABLE IF NOT EXISTS domain_events (
-    event_id        TEXT    PRIMARY KEY,
-    event_type      TEXT    NOT NULL,
-    aggregate_id    TEXT    NOT NULL,
-    aggregate_type  TEXT    NOT NULL,
-    payload_json    TEXT    NOT NULL,
-    ts              REAL    NOT NULL,
-    version         INTEGER NOT NULL,
-    metadata_json   TEXT    NOT NULL DEFAULT '{}',
-    UNIQUE (aggregate_id, version)
+CREATE TABLE IF NOT EXISTS events (
+    sequence     INTEGER PRIMARY KEY AUTOINCREMENT,
+    event_id     TEXT    UNIQUE,
+    aggregate_id TEXT,
+    event_type   TEXT,
+    payload      TEXT,
+    version      INTEGER,
+    timestamp    REAL
 );
-
-CREATE INDEX IF NOT EXISTS idx_de_aggregate ON domain_events (aggregate_id, version);
-CREATE INDEX IF NOT EXISTS idx_de_type      ON domain_events (event_type);
-CREATE INDEX IF NOT EXISTS idx_de_ts        ON domain_events (ts);
+CREATE INDEX IF NOT EXISTS idx_events_aggregate_id ON events (aggregate_id);
+CREATE INDEX IF NOT EXISTS idx_events_event_type   ON events (event_type);
 """
 
 
-class VersionConflictError(Exception):
-    """Raised when an event with the same (aggregate_id, version) already exists."""
-
-
 class EventStore:
-    """Append-only SQLite event store.
+    """SQLite-backed append-only event store with global sequence ordering.
 
     Parameters
     ----------
     db_path:
-        Path to the SQLite database file, or ``None`` / ``":memory:"`` for an
-        in-memory database (default).
+        Path to the SQLite database file. Use ``":memory:"`` (the default) for
+        an in-memory database.
     """
 
-    def __init__(self, db_path: "Path | str | None" = None) -> None:
-        path = str(db_path) if db_path is not None else ":memory:"
-        self._conn = sqlite3.connect(path, check_same_thread=False)
+    def __init__(self, db_path: str = ":memory:") -> None:
+        self.db_path = db_path
+        self._conn = sqlite3.connect(db_path, check_same_thread=False)
         self._conn.row_factory = sqlite3.Row
         self._conn.executescript(_SCHEMA)
         self._conn.commit()
@@ -49,111 +40,137 @@ class EventStore:
     # Write
     # ------------------------------------------------------------------
 
-    def append(self, event: DomainEvent) -> None:
-        """Persist *event*.
+    def append(self, event: Event) -> int:
+        """Insert *event* and return its assigned global sequence number."""
+        cur = self._conn.execute(
+            "INSERT INTO events "
+            "(event_id, aggregate_id, event_type, payload, version, timestamp) "
+            "VALUES (?, ?, ?, ?, ?, ?)",
+            (
+                event.event_id,
+                event.aggregate_id,
+                event.event_type,
+                json.dumps(event.payload),
+                event.version,
+                event.timestamp,
+            ),
+        )
+        self._conn.commit()
+        return int(cur.lastrowid)
 
-        Raises :class:`VersionConflictError` if an event with the same
-        ``(aggregate_id, version)`` pair is already stored.
+    def append_many(self, events: list) -> list:
+        """Insert all *events* in a single transaction.
+
+        Returns a list of the assigned sequence numbers in the same order.
         """
+        sequences: list = []
         try:
-            self._conn.execute(
-                "INSERT INTO domain_events "
-                "(event_id, event_type, aggregate_id, aggregate_type, "
-                " payload_json, ts, version, metadata_json) "
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-                (
-                    event.event_id,
-                    event.event_type,
-                    event.aggregate_id,
-                    event.aggregate_type,
-                    json.dumps(event.payload),
-                    event.ts,
-                    event.version,
-                    json.dumps(event.metadata),
-                ),
-            )
+            cur = self._conn.cursor()
+            for event in events:
+                cur.execute(
+                    "INSERT INTO events "
+                    "(event_id, aggregate_id, event_type, payload, version, timestamp) "
+                    "VALUES (?, ?, ?, ?, ?, ?)",
+                    (
+                        event.event_id,
+                        event.aggregate_id,
+                        event.event_type,
+                        json.dumps(event.payload),
+                        event.version,
+                        event.timestamp,
+                    ),
+                )
+                sequences.append(int(cur.lastrowid))
             self._conn.commit()
-        except sqlite3.IntegrityError as exc:
-            raise VersionConflictError(
-                f"Version conflict: aggregate_id={event.aggregate_id!r} "
-                f"version={event.version} already exists."
-            ) from exc
+        except Exception:
+            self._conn.rollback()
+            raise
+        return sequences
 
     # ------------------------------------------------------------------
     # Read
     # ------------------------------------------------------------------
 
     def get_events(
-        self, aggregate_id: str, from_version: int = 1
-    ) -> "list[DomainEvent]":
-        """Return events for *aggregate_id* ordered by version ascending.
+        self,
+        aggregate_id: str,
+        from_version: int = 0,
+        to_version: int = None,
+    ) -> list:
+        """Return events for *aggregate_id*, ordered by sequence ascending.
 
-        Parameters
-        ----------
-        aggregate_id:
-            The aggregate whose event stream to load.
-        from_version:
-            Only events with ``version >= from_version`` are returned.
+        Filters: ``version >= from_version`` and (if provided)
+        ``version <= to_version``.
         """
-        rows = self._conn.execute(
-            "SELECT * FROM domain_events "
-            "WHERE aggregate_id = ? AND version >= ? "
-            "ORDER BY version ASC",
-            (aggregate_id, from_version),
-        ).fetchall()
-        return [self._row_to_event(r) for r in rows]
-
-    def get_all_events(self, event_type: str = None) -> "list[DomainEvent]":
-        """Return all events, optionally filtered by *event_type*, ordered by ts."""
-        if event_type is not None:
+        if to_version is not None:
             rows = self._conn.execute(
-                "SELECT * FROM domain_events WHERE event_type = ? ORDER BY ts ASC",
-                (event_type,),
+                "SELECT * FROM events "
+                "WHERE aggregate_id = ? AND version >= ? AND version <= ? "
+                "ORDER BY sequence ASC",
+                (aggregate_id, from_version, to_version),
             ).fetchall()
         else:
             rows = self._conn.execute(
-                "SELECT * FROM domain_events ORDER BY ts ASC"
+                "SELECT * FROM events "
+                "WHERE aggregate_id = ? AND version >= ? "
+                "ORDER BY sequence ASC",
+                (aggregate_id, from_version),
             ).fetchall()
-        return [self._row_to_event(r) for r in rows]
+        return [self._row_to_envelope(r) for r in rows]
+
+    def get_by_type(self, event_type: str, limit: int = 100) -> list:
+        """Return up to *limit* envelopes with given *event_type*, by sequence."""
+        rows = self._conn.execute(
+            "SELECT * FROM events WHERE event_type = ? "
+            "ORDER BY sequence ASC LIMIT ?",
+            (event_type, limit),
+        ).fetchall()
+        return [self._row_to_envelope(r) for r in rows]
+
+    def get_all(self, from_sequence: int = 0, limit: int = 100) -> list:
+        """Return up to *limit* envelopes with ``sequence >= from_sequence``."""
+        rows = self._conn.execute(
+            "SELECT * FROM events WHERE sequence >= ? "
+            "ORDER BY sequence ASC LIMIT ?",
+            (from_sequence, limit),
+        ).fetchall()
+        return [self._row_to_envelope(r) for r in rows]
 
     def latest_version(self, aggregate_id: str) -> int:
-        """Return the highest version stored for *aggregate_id*, or ``0``."""
+        """Return the highest ``version`` for *aggregate_id*, or ``0`` if none."""
         row = self._conn.execute(
-            "SELECT MAX(version) FROM domain_events WHERE aggregate_id = ?",
+            "SELECT MAX(version) FROM events WHERE aggregate_id = ?",
             (aggregate_id,),
         ).fetchone()
         result = row[0]
-        return result if result is not None else 0
+        return int(result) if result is not None else 0
 
-    def snapshot_count(self) -> int:
-        """Total number of events in the store."""
-        return self._conn.execute(
-            "SELECT COUNT(*) FROM domain_events"
-        ).fetchone()[0]
+    def count(self) -> int:
+        """Return total number of events in the store."""
+        return int(
+            self._conn.execute("SELECT COUNT(*) FROM events").fetchone()[0]
+        )
 
-    def aggregate_ids(self) -> "list[str]":
-        """Return a list of all distinct aggregate IDs."""
-        rows = self._conn.execute(
-            "SELECT DISTINCT aggregate_id FROM domain_events"
-        ).fetchall()
-        return [r[0] for r in rows]
+    # ------------------------------------------------------------------
+    # Lifecycle
+    # ------------------------------------------------------------------
+
+    def close(self) -> None:
+        """Close the underlying SQLite connection."""
+        self._conn.close()
 
     # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------
 
     @staticmethod
-    def _row_to_event(row: sqlite3.Row) -> DomainEvent:
-        return DomainEvent(
+    def _row_to_envelope(row: sqlite3.Row) -> EventEnvelope:
+        event = Event(
             event_id=row["event_id"],
-            event_type=row["event_type"],
             aggregate_id=row["aggregate_id"],
-            aggregate_type=row["aggregate_type"],
-            payload=json.loads(row["payload_json"]),
-            ts=row["ts"],
-            version=row["version"],
-            metadata=json.loads(row["metadata_json"]),
+            event_type=row["event_type"],
+            payload=json.loads(row["payload"]),
+            version=int(row["version"]),
+            timestamp=float(row["timestamp"]),
         )
-
-    def close(self) -> None:
-        self._conn.close()
+        return EventEnvelope(event=event, sequence=int(row["sequence"]))
