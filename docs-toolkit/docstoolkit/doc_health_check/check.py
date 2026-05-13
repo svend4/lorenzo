@@ -59,7 +59,7 @@ HealthChecker = Callable[[dict], list]
 
 # ------------------------- Built-in checks -------------------------
 
-_LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")
+_LINK_RE = re.compile(r"\[([^\]]*)\]\(([^)]*)\)")
 _EMPTY_HEADING_RE = re.compile(r"^#+\s*$")
 
 
