@@ -978,7 +978,7 @@
       "--k",
       "--verbose"
     ],
-    "group": "без группы"
+    "group": "quality"
   },
   {
     "name": "improve_priorities.py",
