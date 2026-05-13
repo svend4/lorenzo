@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/composite-skills-agents/03-what-makes-csa.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "3. What Makes a Composite Skills Agent"
 tags:
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 3. What Makes a Composite Skills Agent

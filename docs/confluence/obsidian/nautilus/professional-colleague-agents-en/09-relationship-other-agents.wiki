@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "9. Relationship to Other Agent Types"
 tags:
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 9. Relationship to Other Agent Types

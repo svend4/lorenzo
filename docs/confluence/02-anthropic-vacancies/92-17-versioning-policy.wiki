@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/92-17-versioning-policy.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 17. Versioning Policy

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 20. ADR-002: Q6 as First-Class Protocol Concept

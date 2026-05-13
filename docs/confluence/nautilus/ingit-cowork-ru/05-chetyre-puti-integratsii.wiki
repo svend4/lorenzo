@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 5. Четыре пути интеграции в порядке доступности

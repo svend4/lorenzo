@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Что из этого сейчас кажется более ценны
 tags:
   * anthropic
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Что из этого сейчас кажется более ценным? Или какая-то своя комбинация?

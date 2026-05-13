@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/autofilled/research-summary.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "[Тема исследования]"
 tags:
   * исследование
   * autofilled
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. [Тема исследования]

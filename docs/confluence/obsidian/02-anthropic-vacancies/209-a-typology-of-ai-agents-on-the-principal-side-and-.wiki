@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers

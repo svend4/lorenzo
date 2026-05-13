@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Интегральный портрет — три архетипа

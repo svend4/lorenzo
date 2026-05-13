@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Двухслойный стек, как он существует

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Финальное ранжирование Anthropic-ролей по частичному покрытию

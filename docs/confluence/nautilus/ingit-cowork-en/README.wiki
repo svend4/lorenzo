@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/ingit-cowork-en/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. ingit-cowork-en

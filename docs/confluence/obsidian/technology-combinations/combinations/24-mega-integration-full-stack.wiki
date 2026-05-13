@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/combinations/24-mega-integration-full-stack.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Комбинация 24: MEGA-INTEGRATION: Full Stack"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Комбинация 24: MEGA-INTEGRATION: Full Stack

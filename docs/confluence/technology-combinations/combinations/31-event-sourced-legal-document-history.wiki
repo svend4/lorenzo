@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Комбинация 31: Event-Sourced Legal Document History

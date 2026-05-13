@@ -1,27 +1,27 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/HEADING_AUDIT.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Аудит заголовков"
 tags:
   * general
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Аудит заголовков
 
 _Обновлено: 2026-04-29_
 
-Файлов с проблемами: _811_ из 1164
+Файлов с проблемами: _814_ из 1164
 
 h2. Типы проблем
 
 || Тип || Кол-во ||
 || ⚠️  Нет родительского H2 || 5 ||
-|| 🕳️  Пустая секция || 1243 ||
-|| ♊ Дублирующийся заголовок || 1108 ||
+|| 🕳️  Пустая секция || 1375 ||
+|| ♊ Дублирующийся заголовок || 1152 ||
 || 📏 Длинный заголовок || 4 ||
 || 🪜 Пропущен уровень || 7 ||
 || ❌ Нет H1 || 11 ||
@@ -29,9 +29,9 @@ h2. Типы проблем
 
 h2. По файлам
 
-h3. {{docs/EMPTY_SECTIONS.md}} (159 проблем)
+h3. {{docs/EMPTY_SECTIONS.md}} (246 проблем)
 
-_секция: 155, заголовок: 4_
+_секция: 243, заголовок: 3_
 
 
 h3. {{docs/QA.md}} (150 проблем)
@@ -42,6 +42,11 @@ _секция: 127, заголовок: 23_
 h3. {{docs/CODE_BLOCKS.md}} (126 проблем)
 
 _секция: 101, заголовок: 25_
+
+
+h3. {{docs/QUESTIONS.md}} (85 проблем)
+
+_заголовок: 45, секция: 40_
 
 
 h3. {{docs/SPELLCHECK.md}} (44 проблем)
@@ -149,6 +154,11 @@ h3. {{docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md}} (8 
 _секция: 5, заголовок: 2, H1: 1_
 
 
+h3. {{docs/CHANGELOG.md}} (8 проблем)
+
+_секция: 7, заголовок: 1_
+
+
 h3. {{docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md}} (8 проблем)
 
 _секция: 7, H1: 1_
@@ -235,6 +245,16 @@ _секция: 3, заголовок: 3_
 
 
 h3. {{docs/CONSISTENCY.md}} (6 проблем)
+
+_секция: 6_
+
+
+h3. {{docs/GITHUB_ISSUES.md}} (6 проблем)
+
+_секция: 6_
+
+
+h3. {{docs/GITHUB_ISSUES.md}} (6 проблем)
 
 _секция: 6_
 
@@ -727,6 +747,11 @@ _секция: 3, заголовок: 1_
 h3. {{docs/nautilus/npp-v1-1/09-consensus-algorithm.md}} (4 проблем)
 
 _секция: 3, заголовок: 1_
+
+
+h3. {{docs/templates/contradiction-record.md}} (4 проблем)
+
+_секция: 4_
 
 
 h3. {{docs/templates/ensemble.md}} (4 проблем)
@@ -1829,7 +1854,17 @@ h3. {{docs/CITATION_INDEX.md}} (2 проблем)
 _секция: 2_
 
 
+h3. {{docs/CROSS_SECTION.md}} (2 проблем)
+
+_секция: 2_
+
+
 h3. {{docs/INDEX.md}} (2 проблем)
+
+_секция: 2_
+
+
+h3. {{docs/KNOWLEDGE_MAP.md}} (2 проблем)
 
 _секция: 2_
 
@@ -1849,12 +1884,22 @@ h3. {{docs/READING_ORDER.md}} (2 проблем)
 _секция: 2_
 
 
+h3. {{docs/REGISTRY.md}} (2 проблем)
+
+_секция: 2_
+
+
 h3. {{docs/RISK_REGISTER.md}} (2 проблем)
 
 _секция: 2_
 
 
 h3. {{docs/STALENESS.md}} (2 проблем)
+
+_секция: 2_
+
+
+h3. {{docs/WORD_FREQ.md}} (2 проблем)
 
 _секция: 2_
 
@@ -2227,6 +2272,11 @@ _H1: 1, секция: 1_
 h3. {{docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md}} (2 проблем)
 
 _H1: 1, секция: 1_
+
+
+h3. {{docs/templates/contact-outreach.md}} (2 проблем)
+
+_секция: 2_
 
 
 h3. {{docs/templates/project-component.md}} (2 проблем)
@@ -2719,6 +2769,11 @@ h3. {{docs/05-habr-projects/memory/README.md}} (1 проблем)
 _секция: 1_
 
 
+h3. {{docs/ACTION_ITEMS.md}} (1 проблем)
+
+_секция: 1_
+
+
 h3. {{docs/ALERTS.md}} (1 проблем)
 
 _секция: 1_
@@ -2764,11 +2819,6 @@ h3. {{docs/COST.md}} (1 проблем)
 _секция: 1_
 
 
-h3. {{docs/CROSS_SECTION.md}} (1 проблем)
-
-_секция: 1_
-
-
 h3. {{docs/DECISIONS.md}} (1 проблем)
 
 _секция: 1_
@@ -2810,6 +2860,11 @@ _секция: 1_
 
 
 h3. {{docs/GRAPH.md}} (1 проблем)
+
+_секция: 1_
+
+
+h3. {{docs/LANGUAGE_STATS.md}} (1 проблем)
 
 _секция: 1_
 
@@ -2890,11 +2945,6 @@ _секция: 1_
 
 
 h3. {{docs/TIMELINE.md}} (1 проблем)
-
-_секция: 1_
-
-
-h3. {{docs/WORD_FREQ.md}} (1 проблем)
 
 _секция: 1_
 
@@ -4079,7 +4129,7 @@ h3. {{docs/templates/README.md}} (1 проблем)
 _секция: 1_
 
 
-h3. {{docs/templates/contact-outreach.md}} (1 проблем)
+h3. {{docs/templates/agent-spec.md}} (1 проблем)
 
 _секция: 1_
 

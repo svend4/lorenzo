@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Комбинация 23: Security-First Code Review Pipeline

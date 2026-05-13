@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/lorenzo-agent/specification/05-q5-authority-limits.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * knowledge
   * anthropic
   * lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Question 5: Каковы limits Lorenzo's authority?

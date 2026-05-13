@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Section 6: Proposer's role и qualifications

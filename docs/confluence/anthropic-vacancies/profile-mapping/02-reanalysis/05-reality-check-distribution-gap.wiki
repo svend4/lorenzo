@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Reality check: проблема distribution-слоя

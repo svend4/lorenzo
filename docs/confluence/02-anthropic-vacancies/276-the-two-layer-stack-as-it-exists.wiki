@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. The Two-Layer Stack As It Exists
@@ -35,6 +35,18 @@ h2. Содержание
 {quote}Currently, AI-collaborative work tends to occur in one of two{quote}
 
 ----
+
+
+h2. Содержание
+
+* [The Two-Layer Stack As It Exists|#the-two-layer-stack-as-it-exists]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
 
 
 

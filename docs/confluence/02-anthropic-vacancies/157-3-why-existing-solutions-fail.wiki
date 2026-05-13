@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 3. Why Existing Solutions Fail

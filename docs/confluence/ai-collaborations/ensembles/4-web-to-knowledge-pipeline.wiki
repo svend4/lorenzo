@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Ансамбль 4 — Web-to-Knowledge Pipeline

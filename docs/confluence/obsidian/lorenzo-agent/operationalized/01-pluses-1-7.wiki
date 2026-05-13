@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/lorenzo-agent/operationalized/01-pluses-1-7.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -15,7 +15,7 @@ tags:
   * anthropic
   * collaboration
   * lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Плюсы 1–7: feasibility, flywheel, independent value, mission alignment, collaborators, pattern validation, Анастасия Бутова

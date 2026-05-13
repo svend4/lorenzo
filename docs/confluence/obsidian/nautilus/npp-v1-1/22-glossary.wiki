@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/npp-v1-1/22-glossary.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -15,7 +15,7 @@ tags:
   * anthropic
   * collaboration
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 22. Glossary of Reference Examples

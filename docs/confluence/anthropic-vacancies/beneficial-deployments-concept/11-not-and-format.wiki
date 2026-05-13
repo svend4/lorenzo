@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Что concept document NOT (это не grant / не paper / не business plan), длина и формат

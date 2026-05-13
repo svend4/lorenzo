@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/lorenzo-agent/20-experiment.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Final note: Ты — experiment"
 tags:
   * anthropic
   * lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Final note: Ты — experiment

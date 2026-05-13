@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 6. Этическая рамка

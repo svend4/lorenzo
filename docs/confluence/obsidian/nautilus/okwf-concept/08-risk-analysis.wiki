@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/okwf-concept/08-risk-analysis.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * roadmap
   * anthropic
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 8. Risk Analysis

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/composite-skills-agents/06-coordination-disagreement.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * ingestion
   * anthropic
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 6. Coordination and Disagreement Resolution

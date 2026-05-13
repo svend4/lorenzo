@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Пара 8 — Self-aware MCP × Specs-first архитектура

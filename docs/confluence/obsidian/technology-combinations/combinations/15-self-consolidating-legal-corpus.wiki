@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/combinations/15-self-consolidating-legal-corpus.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Комбинация 15: Self-Consolidating Legal Corpus"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Комбинация 15: Self-Consolidating Legal Corpus

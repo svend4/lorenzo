@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/01-svyazi/02-methodology.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -13,7 +13,7 @@ tags:
   * roadmap
   * collaboration
   * svyazi
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Методика и рамка отбора проектов

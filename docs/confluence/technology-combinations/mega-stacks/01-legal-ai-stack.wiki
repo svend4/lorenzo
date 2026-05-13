@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/mega-stacks/01-legal-ai-stack.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Mega‑Stack 1.0 — Полный Legal‑AI Stack

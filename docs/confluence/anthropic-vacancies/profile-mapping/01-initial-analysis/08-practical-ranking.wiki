@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Практическое ранжирование (первая итерация)

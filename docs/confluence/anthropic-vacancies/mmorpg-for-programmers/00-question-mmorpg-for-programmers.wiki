@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Вопрос: MMORPG-RPG переделанная для программистов / технарей

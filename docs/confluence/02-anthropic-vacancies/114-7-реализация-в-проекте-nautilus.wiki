@@ -1,17 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 7. Реализация в проекте Nautilus
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
 
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Реализация в проекте Nautilus Contents - 7.{quote}
-{quote}🔧 _Подход:_ В будущем методология может быть формализована в NPP v2.0 как рекомендованный workflow для community-contributed documentation.{quote}
-{quote}🏷️ _Ключевые слова:_ {{nautilus}}, {{применения}}, {{anthropic}}, {{vacancies}}, {{status}}, {{workflow}}, {{реализация}}, {{проекте}}{quote}
->
 
 
 

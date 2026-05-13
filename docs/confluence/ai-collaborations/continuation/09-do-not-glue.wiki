@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ai-collaborations/continuation/09-do-not-glue.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Что пока не стоит склеивать в один релиз

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Различие 4: Institutional vision

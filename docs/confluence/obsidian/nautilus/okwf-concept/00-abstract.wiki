@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/okwf-concept/00-abstract.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * anthropic
   * collaboration
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. AI-Coordinated Infrastructure for Distributed Expert Contribution

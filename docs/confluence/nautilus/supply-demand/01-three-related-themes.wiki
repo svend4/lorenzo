@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/supply-demand/01-three-related-themes.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.

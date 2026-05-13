@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/research-reports/sozialrecht-35-combinations.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Research Report: Sozialrecht (35 комбинаций)

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/okwf-concept/04-proposed-infrastructure.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -12,7 +12,7 @@ tags:
   * anthropic
   * collaboration
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 4. Proposed Infrastructure

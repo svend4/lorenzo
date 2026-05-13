@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code

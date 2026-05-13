@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Почему эта идея сильнее, чем выглядит

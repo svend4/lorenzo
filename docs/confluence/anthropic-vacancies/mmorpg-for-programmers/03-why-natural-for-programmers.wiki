@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Почему именно для программистов это работает естественно

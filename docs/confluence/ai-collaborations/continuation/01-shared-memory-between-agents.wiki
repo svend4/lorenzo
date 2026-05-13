@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ai-collaborations/continuation/01-shared-memory-between-agents.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Общая память между агентами (CoAlly + ансамбль F)

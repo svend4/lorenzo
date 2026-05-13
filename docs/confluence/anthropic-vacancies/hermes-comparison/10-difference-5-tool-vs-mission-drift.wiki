@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Различие 5: Дрифт между tool capability и mission

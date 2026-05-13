@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Комбинация 15: Self-Consolidating Legal Corpus

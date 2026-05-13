@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Пара 5 — Browser agents × headless web extraction

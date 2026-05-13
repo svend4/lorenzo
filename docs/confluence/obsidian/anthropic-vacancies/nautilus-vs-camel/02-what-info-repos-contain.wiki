@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -13,7 +13,7 @@ tags:
   * roadmap
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Что у нас есть в трёх info repositories (info1/info7/info40)

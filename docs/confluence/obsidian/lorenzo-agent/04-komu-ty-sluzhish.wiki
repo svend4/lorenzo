@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/lorenzo-agent/04-komu-ty-sluzhish.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * anthropic
   * collaboration
   * lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Кому ты служишь (слоистая модель)

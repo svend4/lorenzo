@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * anthropic
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 1. Why Single-Triangle Models Are Incomplete

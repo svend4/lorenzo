@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -11,7 +11,7 @@ tags:
   * ingestion
   * architecture
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Комбинация 28: Pydantic-Enforced Legal Workflows

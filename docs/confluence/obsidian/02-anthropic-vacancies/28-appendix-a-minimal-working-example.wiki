@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Appendix A: Minimal Working Example"
 tags:
   * ingestion
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Appendix A: Minimal Working Example

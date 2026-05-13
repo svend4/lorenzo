@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/221-10-open-questions.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,18 +9,30 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 10. Open Questions
 
 
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Open Questions(10-open-questions) - 10.1.{quote}
-{quote}✅ _Результат:_ Transition Costs When practitioners move between Professional Colleague Agents (switching providers), what's the friction?{quote}
-{quote}🏷️ _Ключевые слова:_ {{questions}}, {{profession}}, {{practitioners}}, {{anthropic}}, {{professional}}, {{vacancies}}, {{agents}}, {{quality}}{quote}
->
+h2. Содержание
+
+* [Contents|#contents]
+* [10. Open Questions|#10-open-questions]
+  * [10.1. Scope of "Profession"|#101-scope-of-profession]
+  * [10.2. Multi-Profession Practitioners|#102-multi-profession-practitioners]
+  * [10.3. International Variation|#103-international-variation]
+  * [10.4. Update Cadence|#104-update-cadence]
+  * [10.5. Quality Assessment|#105-quality-assessment]
+  * [10.6. Transition Costs|#106-transition-costs]
+  * [10.7. Profession-Wide Effects|#107-profession-wide-effects]
+  * [10.8. Appropriate Resistance|#108-appropriate-resistance]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
 
 
 

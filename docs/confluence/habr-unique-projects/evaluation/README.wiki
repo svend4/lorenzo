@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/evaluation/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. evaluation/ — оценка уникальности и зрелости

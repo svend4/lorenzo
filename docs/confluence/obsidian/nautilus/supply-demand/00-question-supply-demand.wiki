@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/supply-demand/00-question-supply-demand.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Du hast gesagt: Спрос рождает предложение - эт�
 tags:
   * anthropic
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Du hast gesagt: Спрос рождает предложение - это простая экономическая истина нач…

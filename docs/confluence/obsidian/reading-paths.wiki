@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/reading-paths.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -15,7 +15,7 @@ tags:
   * anthropic
   * collaboration
   * general
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Reading paths — рекомендуемые маршруты по монорепозиторию

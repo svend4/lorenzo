@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 13. REST API Contract (Normative for Portals)
@@ -16,18 +16,12 @@ h2. Содержание
   * [13.4. CORS|#134-cors]
   * [13.5. OpenAPI Specification|#135-openapi-specification]
   * [13.6. Error Responses|#136-error-responses]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
 
 ----
-
-
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ REST API Contract (Normative for Portals) Contents - 13.{quote}
-{quote}🔧 _Подход:_ Error Responses(136-error-responses) !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
-{quote}✅ _Результат:_ Это обеспечивает interoperability между порталами и внешними клиентами (SDK, web UI, MCP wrappers).{quote}
-{quote}🏷️ _Ключевые слова:_ {{endpoints}}, {{response}}, {{anthropic}}, {{vacancies}}, {{security}}, {{considerations}}, {{openapi}}, {{error}}{quote}
->
 
 
 

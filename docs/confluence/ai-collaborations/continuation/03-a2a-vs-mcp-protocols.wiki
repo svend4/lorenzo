@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. A2A vs MCP, ансамбль H — MCP/A2A Review Fabric

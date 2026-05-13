@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Software Engineering - Infrastructure — 22 роли

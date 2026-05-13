@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Section 5: Role of Anthropic Beneficial Deployments

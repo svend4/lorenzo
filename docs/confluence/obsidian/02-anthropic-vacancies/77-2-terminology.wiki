@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/77-2-terminology.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 2. Terminology
@@ -28,6 +28,18 @@ h1. 2. Terminology
 {quote}_Ecosystem_ — набор репозиториев, участвующих в одной федерации.{quote}
 
 ----
+
+
+h2. Содержание
+
+* [2. Terminology|#2-terminology]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
 
 
 

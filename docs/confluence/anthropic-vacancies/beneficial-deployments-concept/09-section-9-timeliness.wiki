@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Section 9: Why this is timely

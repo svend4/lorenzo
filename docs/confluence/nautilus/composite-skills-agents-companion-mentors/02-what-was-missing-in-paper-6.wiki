@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Это не Тип 1 — потому что профиль не общий для всей профессии. И это не Тип 4 — …

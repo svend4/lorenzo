@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Синтез: блок-карта Svyazi 2.0 на хеббовском графе

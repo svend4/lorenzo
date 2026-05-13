@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "21. ADR-003: Five Onboarding Paths as Equal-Rank"
 tags:
   * anthropic
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 21. ADR-003: Five Onboarding Paths as Equal-Rank

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Что из этого сейчас кажется более ценным? Или какая-то своя комбинация?

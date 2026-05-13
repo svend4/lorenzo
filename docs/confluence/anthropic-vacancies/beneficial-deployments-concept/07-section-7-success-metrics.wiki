@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Section 7: Success metrics

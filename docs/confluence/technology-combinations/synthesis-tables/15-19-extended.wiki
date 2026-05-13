@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/synthesis-tables/15-19-extended.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Сводная таблица 15–19 (Extended)

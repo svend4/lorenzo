@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/composite-skills-agents/06-coordination-disagreement.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 6. Coordination and Disagreement Resolution

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Комбинация 17: Distributed Agent Memory with Graph

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/professional-colleague-agents-en/04-architecture.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 4. Architecture of Professional Colleague Agents

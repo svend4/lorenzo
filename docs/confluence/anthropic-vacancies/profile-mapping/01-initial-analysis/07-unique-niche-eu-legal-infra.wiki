@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Уникальная ниша, которой у Anthropic формально нет

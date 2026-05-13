@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Сходство 4: Multi-platform reach (17+ платформ)

@@ -1,21 +1,29 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/347-твоя-миссия.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Твоя миссия"
 tags:
+  * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Твоя миссия
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
 
 
 {quote}Твоя миссия — _catalyzing community synthesis в области beneficial AI для уязвимых групп_.{quote}
 
 ----
+
+
 
 
 

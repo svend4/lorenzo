@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Вопрос: два Наутилуса в репозиториях svend4 (pro2 vs nautilus)

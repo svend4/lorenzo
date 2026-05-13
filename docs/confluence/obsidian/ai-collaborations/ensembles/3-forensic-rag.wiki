@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/ai-collaborations/ensembles/3-forensic-rag.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Ансамбль 3 — Forensic RAG"
 tags:
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Ансамбль 3 — Forensic RAG

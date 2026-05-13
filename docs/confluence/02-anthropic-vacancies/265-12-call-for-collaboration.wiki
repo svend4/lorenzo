@@ -1,16 +1,27 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/265-12-call-for-collaboration.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 12. Call for Collaboration
 
 
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ For Curators and Domain Experts Sub-agent registry development needs curated knowledge across many narrow specializations.{quote}
-{quote}🏷️ _Ключевые слова:_ {{collaboration}}, {{questions}}, {{anthropic}}, {{agents}}, {{infrastructure}}, {{vacancies}}, {{composite}}, {{practitioners}}{quote}
->
+h2. Содержание
+
+* [Contents|#contents]
+* [12. Call for Collaboration|#12-call-for-collaboration]
+  * [12.1. For Practitioners|#121-for-practitioners]
+  * [12.2. For Curators and Domain Experts|#122-for-curators-and-domain-experts]
+  * [12.3. For Software Engineers and Architects|#123-for-software-engineers-and-architects]
+  * [12.4. For Researchers|#124-for-researchers]
+  * [12.5. For Foundation Funders|#125-for-foundation-funders]
+  * [12.6. For Policymakers|#126-for-policymakers]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
 
 
 

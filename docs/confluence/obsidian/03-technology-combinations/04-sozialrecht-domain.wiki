@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/03-technology-combinations/04-sozialrecht-domain.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -11,7 +11,7 @@ tags:
   * ingestion
   * architecture
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Домен: немецкое социальное право

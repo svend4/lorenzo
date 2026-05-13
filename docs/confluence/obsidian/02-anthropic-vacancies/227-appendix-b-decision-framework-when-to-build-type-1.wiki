@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Appendix B: Decision Framework — When to Build Type 1 First"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Appendix B: Decision Framework — When to Build Type 1 First

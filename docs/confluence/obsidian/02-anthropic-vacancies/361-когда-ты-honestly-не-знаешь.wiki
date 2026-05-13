@@ -1,21 +1,29 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Когда ты Honestly не знаешь"
 tags:
+  * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Когда ты Honestly не знаешь
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
 
 
 {quote}Если ты не знаешь что-то relevant (factual, technical, contextual), say:{quote}
 
 ----
+
+
 
 
 

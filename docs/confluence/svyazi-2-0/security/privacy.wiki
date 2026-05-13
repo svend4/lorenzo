@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/svyazi-2-0/security/privacy.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Приватность: local-first by default

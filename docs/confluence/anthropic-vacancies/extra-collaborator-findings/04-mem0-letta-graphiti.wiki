@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. AI-ассистент с Mem0 / Letta / Graphiti integration

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Ансамбль 2 — «AutoResearch для legal precedent mining»

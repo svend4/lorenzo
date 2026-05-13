@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Ансамбль 8 — Budget-Aware Intelligence Stack"
 tags:
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Ансамбль 8 — Budget-Aware Intelligence Stack

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/composite-skills-agents/08-seven-domains.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "8. Seven Domains of Application"
 tags:
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 8. Seven Domains of Application

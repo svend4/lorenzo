@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 8. Seven Domains of Application

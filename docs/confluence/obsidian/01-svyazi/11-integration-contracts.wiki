@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/01-svyazi/11-integration-contracts.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "11 Integration Contracts"
 tags:
   * svyazi
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 

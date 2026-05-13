@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/contacts/tagir-analyzes.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,10 +9,15 @@ tags:
   * контакты
   * команда
   * contacts
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Контакт: tagir_analyzes / Legal RAG
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
 
 
 {quote}- [Статус связи|#статус-связи]{quote}

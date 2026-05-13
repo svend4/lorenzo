@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/lorenzo-agent/naming/00-question-lorenzo-codename.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Du hast gesagt: Думаю про опцию д поискать в том числе на про что-то подобное на…

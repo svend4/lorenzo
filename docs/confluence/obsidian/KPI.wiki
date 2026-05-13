@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/KPI.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Числовые KPI и метрики"
 tags:
   * general
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Числовые KPI и метрики
@@ -147,11 +147,11 @@ h2. Версия (615)
 || **3.1.0** || RFCs to Indicate Requirement Levels - OpenAPI Specification v3.1.0 (for REST API || `104-appendix-c-references` ||
 || **1.2** || прямое следствие этого. #### Что я сознательно оставил для v1.2 или v2.0 Formal || `104-appendix-c-references` ||
 || **3.0** || Удалить transitional header 7. Добавить changelog-запись: «v3.0 consolidated fro || `110-вопрос-fallback-ratio` ||
-|| **0.2.0** || # Planned (v0.2.0) > - HTTP-mode для debugging и remote access --- ## || `132-planned-v0-2-0` ||
 || **0.6.0** || laude (Анастасия Бутова, AnastasiyaW) — реально существует, версия 0.6.0, MIT, 1 || `365-развёрнутый-анализ-вн` ||
 || **3.2** || viewer 1 (GPT-5.4): проверяет логику - Reviewer 2 (DeepSeek-V3.2): проверяет --- || `02-knowledge-graphs` ||
 || **0.1** || st per card, trace completeness. MVP boundary: что входит в v0.1, что запрещено || `14-ограничения-лицензии-и` ||
 || **0.2** || leteness. MVP boundary: что входит в v0.1, что запрещено до v0.2. Pilot scenario || `14-ограничения-лицензии-и` ||
+|| **5.0.6** || zed cognitive mesh для AI-агентов, активно разрабатываемый, версия 5.0.6 от март || `DUPLICATES` ||
 || **0.11.0** || лицензия. К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё || `TABLES` ||
 || **5.0.6** || 2026` \\ || азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Док || `TABLES` ||
 || **0.10.0** || нтегрируется с любым MCP сервером 118 встроенных навыков в v0.10.0 Open standard || `TABLES` ||

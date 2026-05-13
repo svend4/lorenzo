@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/lorenzo-agent/specification/04-q4-character.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Question 4: Каков Lorenzo's character?"
 tags:
   * lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Question 4: Каков Lorenzo's character?

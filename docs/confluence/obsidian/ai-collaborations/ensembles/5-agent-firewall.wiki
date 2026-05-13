@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/ai-collaborations/ensembles/5-agent-firewall.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Ансамбль 5 — Agent Firewall"
 tags:
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Ансамбль 5 — Agent Firewall

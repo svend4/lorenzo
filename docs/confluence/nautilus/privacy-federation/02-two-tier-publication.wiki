@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/privacy-federation/02-two-tier-publication.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Архитектурное решение: две-уровневая публикация

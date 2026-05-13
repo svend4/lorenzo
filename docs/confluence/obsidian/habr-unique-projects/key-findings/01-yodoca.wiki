@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/habr-unique-projects/key-findings/01-yodoca.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -13,7 +13,7 @@ tags:
   * roadmap
   * collaboration
   * habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Yodoca — главная находка итерации

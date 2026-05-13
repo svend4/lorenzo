@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/npp-v1-0/07-portal-entry.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 7. PortalEntry Structure

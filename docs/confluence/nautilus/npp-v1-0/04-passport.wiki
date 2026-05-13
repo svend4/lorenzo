@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/npp-v1-0/04-passport.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 4. Passport ({{passport.md}})

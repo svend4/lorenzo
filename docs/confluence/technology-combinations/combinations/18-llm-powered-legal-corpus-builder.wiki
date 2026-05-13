@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Комбинация 18: LLM-Powered Legal Corpus Builder

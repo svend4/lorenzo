@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/FAQ.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Часто задаваемые вопросы (FAQ)
@@ -29,12 +29,6 @@ h3. Что это такое?
 _Svyazi 2.0_ — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: _96% 🟢 GO_ (документация и архитектура).
 
 _→ [ONBOARDING|docs/ONBOARDING.md]_
-
-h3. Принимаем эту architecture как Lorenzo vision (с моими caveats)?
-
-Если да — должен ли я update Lorenzo системный промпт с этой архитектурой?
-
-_→ [06-conclusion-deserves-attention|docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md]_
 
 
 h2. MVP/Запуск
@@ -99,12 +93,6 @@ A [nautilus|../docs/05-habr-projects/memory/memnet.md] shell is a _spiral of nes
 
 _→ [68-about|docs/02-anthropic-vacancies/68-about.md]_
 
-h3. Did creator approve final attribution?
-
-Это много steps. И violations damage Lorenzo's reputation rapidly.
-
-_→ [11-difficulties-and-recommendations|docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md]_
-
 
 h2. Лицензия
 
@@ -113,12 +101,6 @@ h3. Какой подход resonates? Integration в OKWF document, или sepa
 И еще один thoughtful вопрос для consideration: в вашем личном случае , как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ва
 
 _→ [165-closing|docs/02-anthropic-vacancies/165-closing.md]_
-
-h3. Question 5: Каковы limits Lorenzo's authority?
-
-Critical question для ethical design.
-
-_→ [05-q5-authority-limits|docs/lorenzo-agent/specification/05-q5-authority-limits.md]_
 
 
 h2. Общее

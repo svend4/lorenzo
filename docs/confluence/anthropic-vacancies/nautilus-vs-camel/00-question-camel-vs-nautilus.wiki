@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить

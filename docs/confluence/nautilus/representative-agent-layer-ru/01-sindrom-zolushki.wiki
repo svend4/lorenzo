@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 1. Синдром Золушки: Почему качество остаётся невидимым

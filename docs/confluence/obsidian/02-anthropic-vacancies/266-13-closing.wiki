@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/266-13-closing.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "13. Closing"
 tags:
   * rag
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 13. Closing
@@ -38,6 +38,18 @@ h2. Содержание
 {quote}Mastery in skilled work has always been composite. The yoga{quote}
 
 ----
+
+
+h2. Содержание
+
+* [13. Closing|#13-closing]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
 
 
 

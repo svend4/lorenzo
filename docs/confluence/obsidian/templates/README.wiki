@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/templates/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Шаблоны документов"
 tags:
   * templates
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Шаблоны документов
@@ -32,3 +32,11 @@ h2. Использование
 cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.md
 # Затем откройте и заполните поля в [квадратных скобках]
 {code}
+
+
+
+----
+
+_Смотрите также:_
+* [[research-summary]]
+

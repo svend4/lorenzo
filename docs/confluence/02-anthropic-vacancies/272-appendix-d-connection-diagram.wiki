@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Appendix D: Connection Diagram

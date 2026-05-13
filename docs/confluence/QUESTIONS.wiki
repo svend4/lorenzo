@@ -1,20 +1,20 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/QUESTIONS.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Вопросы и открытые темы из базы знаний
 
 _Обновлено: 2026-04-29_
 
-Всего: _2366_ | Файлов: _1164_
+Всего: _2378_ | Файлов: _1164_
 
-h2. Сводка
+_Извлечено автоматически из всех документов: _1042_ вопросов_
 
 || Тип || Кол-во ||
-|| ❓ Вопрос || 1819 ||
-|| 💭 Гипотеза || 392 ||
-|| 📌 TODO/Идея || 139 ||
+|| ❓ Вопрос || 1831 ||
+|| 💭 Гипотеза || 391 ||
+|| 📌 TODO/Идея || 140 ||
 || 🔓 Открытый вопрос || 16 ||
 
 h2. 🔓 Открытый вопрос (16)
@@ -84,7 +84,7 @@ h3. {{license-tree.md}} (1)
 * Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL 1.1 и прямо говорит о бесплатн [Лицензионные развилки]
 
 
-h2. ❓ Вопрос (1819)
+h2. ❓ Вопрос (1831)
 
 h3. {{TABLES.md}} (191)
 
@@ -95,14 +95,14 @@ h3. {{TABLES.md}} (191)
 * Кому   Лучший первый вопрос   Почему именно он [11. Контактная стратегия и узкие вопросы для авторов]
 * _...ещё 186_
 
-h3. {{OUTLINE.md}} (128)
+h3. {{OUTLINE.md}} (127)
 
-* - - -  Как реализован forensic RAG с доказуемостью? [[Карта базы знаний Lorenzo|docs/KNOWLEDGE_MAP.md]]
 * - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A|docs/QA.md]]
 * - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A|docs/QA.md]]
 * - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A|docs/QA.md]]
 * - Какие инструменты обеспечивают безопасность агентов? [[Глобальный Q&A|docs/QA.md]]
-* _...ещё 123_
+* - Какова политика доступа по умолчанию (tool classes)? [[Глобальный Q&A|docs/QA.md]]
+* _...ещё 122_
 
 h3. {{QA.md}} (120)
 
@@ -113,16 +113,16 @@ h3. {{QA.md}} (120)
 * ## Какова политика доступа по умолчанию (tool classes)? [Какие инструменты обеспечивают безопасность агентов?]
 * _...ещё 115_
 
-h3. {{EMPTY_SECTIONS.md}} (64)
+h3. {{EMPTY_SECTIONS.md}} (54)
 
-* -   138-1-why-single-triangle-models-are-incomplete.md  (1 из 6) (#138-1-why-single-triangle-models-are-incompletemd-1-из-6) [Содержание]
-* -   157-3-why-existing-solutions-fail.md  (1 из 10) (#157-3-why-existing-solutions-failmd-1-из-10) [Содержание]
-* -   170-1-the-cinderella-syndrome-why-quality-stays-invisi.md  (1 из 6) (#170-1-the-cinderella-syndrome-why-quality-stays-invisimd-1-из-6) [Содержание]
-* -   191-1-синдром-золушки-почему-качество-остаётся-невидим.md  (1 из 6) (#191-1-синдром-золушки-почему-качество-остаётся-невидимmd-1-из-6) [Содержание]
-* -   254-1-why-the-binary-view-is-incomplete.md  (1 из 6) (#254-1-why-the-binary-view-is-incompletemd-1-из-6) [Содержание]
-* _...ещё 59_
+* - ## Как реализован forensic RAG с доказуемостью? [{{QA.md}} (130 из 130)]
+* - ## Что такое Evidence Envelope и зачем он нужен? [{{QA.md}} (130 из 130)]
+* - ## Какие RAG-подходы сравниваются в документах? [{{QA.md}} (130 из 130)]
+* - ## Какие инструменты обеспечивают безопасность агентов? [{{QA.md}} (130 из 130)]
+* - ## Какие 5 архитектурных зазоров выделены в исследовании? [{{QA.md}} (23 из 23)]
+* _...ещё 49_
 
-h3. {{342-что-такое-вариант-c-concept-document-для-anthropic.md}} (51)
+h3. {{EMPTY_SECTIONS.md}} (66)
 
 * 🎯   Проблема:   Question Set 2: Your priorities 2a) Что важнее: Lorenzo как long-term project, или SGB Advocate Tool как immediate need? [Что такое Вариант C — Concept Document для Anthropic Benefic]
 * -  А reflection — это вы делаете уже? [Содержание]
@@ -139,6 +139,15 @@ h3. {{343-lorenzo-catalyst-agent-глубокая-проработка-спец�
 * - Исследование нового домена (медицинская защита прав? [Фундаментальные вопросы для Lorenzo]
 * #### Вопрос 4: Каков «характер» Lorenzo? [Фундаментальные вопросы для Lorenzo]
 * _...ещё 38_
+
+h3. {{READING_TIME.md}} (42)
+
+* docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md    ~4 мин   999   📘 Средне [Все документы]
+* docs/obsidian/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md    ~4 мин   955   📘 Средне [Все документы]
+* docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md    ~3 мин   916   📘 Средне [Все документы]
+* docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    ~3 мин   887   📘 Средне [Все документы]
+* docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    ~3 мин   737   📘 Средне [Все документы]
+* _...ещё 37_
 
 h3. {{01-интегральный-анализ-профиля-svend4.md}} (41)
 
@@ -165,15 +174,6 @@ h3. {{READABILITY.md}} (34)
 * docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    0   🔴 Очень сложный   887   80   11.1 [Все документы]
 * docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    0   🔴 Очень сложный   729   65   11.2 [Все документы]
 * docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md    0   🔴 Очень сложный   291   29   10.0 [Все документы]
-* _...ещё 29_
-
-h3. {{READING_TIME.md}} (34)
-
-* docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md    ~4 мин   999   📘 Средне [Все документы]
-* docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md    ~3 мин   916   📘 Средне [Все документы]
-* docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md    ~3 мин   887   📘 Средне [Все документы]
-* docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    ~3 мин   737   📘 Средне [Все документы]
-* docs/obsidian/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md    ~3 мин   676   📘 Средне [Все документы]
 * _...ещё 29_
 
 h3. {{11-difficulties-and-recommendations.md}} (27)
@@ -293,6 +293,15 @@ h3. {{QA.md}} (12)
 * ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
 * _...ещё 7_
 
+h3. {{REPORT.md}} (12)
+
+* AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   85   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые проекты]
+* VitalyOborin     Yodoca   memory   70   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
+* - - - -  Как реализован forensic RAG с доказуемостью? [Открытые вопросы]
+* - - Как реализован forensic RAG с доказуемостью? [Открытые вопросы]
+* - - Что такое Evidence Envelope и зачем он нужен? [Открытые вопросы]
+* _...ещё 7_
+
 h3. {{00-question-innovations-transitions.md}} (12)
 
 * -  Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь (#почему-двойственность-ангел-хранитель-строгий-демон-гениальная-деталь [Содержание]
@@ -338,13 +347,22 @@ h3. {{CONCEPTS.md}} (11)
 * : есть ли понятный публичный API/контракт для интеграции? [И]
 * _...ещё 6_
 
-h3. {{KNOWLEDGE_MAP.md}} (11)
+h3. {{SUMMARIES.md}} (11)
 
-* - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-* - - -  Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-* - - Как реализован forensic RAG с доказуемостью? [Топ сущностей]
-* - - Что такое Evidence Envelope и зачем он нужен? [Открытые вопросы]
-* - - Какие RAG-подходы сравниваются в документах? [Открытые вопросы]
+* Абстракт авто 🎯 Проблема: Методика и рамка отбора проектов Contents - Источники источники - Шкала зрелости шкала-зрелости - Принцип отбора паттернов п [{{docs/01-svyazi/02-methodology.md}}]
+* citeturn33view3turn37search1 Ансамбль B — Forensic RAG ^rag для доказуемого matching и review Если Svyazi‑2.0 должен не только находить людей и ид [{{docs/01-svyazi/04-ensembles-overview.md}}]
+* citeturn22view4turn22view5 авторы knowledge-space / mclaude Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельн [{{docs/01-svyazi/13-contacts.md}}]
+* Reference Implementation 93-18-reference-implementation.md - A Formal Model for Human-AI Collaboration in Distributed Knowledge Work 135-a-formal-mode [{{docs/02-anthropic-vacancies/03-portal-protocol-md.md}}]
+* Nautilus Portal as Reference Substrate 141-4-nautilus-portal-as-reference-substrate.md - Appendix B: Change Log 103-appendix-b-change-log.md - Appendi [{{docs/02-anthropic-vacancies/104-appendix-c-references.md}}]
+* _...ещё 6_
+
+h3. {{TIMELINE.md}} (11)
+
+* - 📌   2022   ·  Why This Hasn't Been Built [2022 (11 упоминаний)]
+* - 📌   2022   ·  Почему это не было построено [2022 (11 упоминаний)]
+* docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-во - ...ещё 2 TIMELINE.md (7) - - 📌 2022 · Why This Hasn't Been [2022 (11 упоминаний)]
+* - 📌   2022   ·  Why This Hasn't Been Built [2022 (11 упоминаний)]
+* - 📌   2022   ·  Почему это не было построено [2022 (11 упоминаний)]
 * _...ещё 6_
 
 h3. {{133-обратная-связь.md}} (10)
@@ -372,6 +390,15 @@ h3. {{179-10-open-questions.md}} (10)
 * How should agent-to-agent negotiation work when both [10.1. Technical Questions]
 * How to handle situations where principal preferences [10.1. Technical Questions]
 * How do we ensure access for those who cannot pay? [10.2. Economic Questions]
+* _...ещё 5_
+
+h3. {{KNOWLEDGE_MAP.md}} (10)
+
+* - - - -  Как реализован forensic RAG с доказуемостью? [Открытые вопросы]
+* - - Как реализован forensic RAG с доказуемостью? [Открытые вопросы]
+* - - Что такое Evidence Envelope и зачем он нужен? [Открытые вопросы]
+* - - Какие RAG-подходы сравниваются в документах? [Открытые вопросы]
+* - - Какие инструменты обеспечивают безопасность агентов? [Открытые вопросы]
 * _...ещё 5_
 
 h3. {{150-appendix-c-version-history.md}} (9)
@@ -473,24 +500,6 @@ h3. {{366-технический-stack-svyazi-2-0-foundation.md}} (7)
 * Save documents в DHLab repo — у меня есть create file capability? [Анализ конкретных компонентов из документа (новых для нас)]
 * _...ещё 2_
 
-h3. {{SUMMARIES.md}} (7)
-
-* Доказуемость — можно ли проверить, что слой работает правильно? [{{docs/01-svyazi/02-methodology.md}}]
-* citeturn22view4turn22view5 авторы knowledge-space / mclaude Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельн [{{docs/01-svyazi/13-contacts.md}}]
-* Вопрос: fallback-ratio как критический или осмысленный? [`docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаз]
-* Q4 : Как долго может оставаться документ в transitional state? [`docs/02-anthropic-vacancies/114-7-реализация-в-проекте-naut]
-* - Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-во]
-* _...ещё 2_
-
-h3. {{TIMELINE.md}} (7)
-
-* - 📌   2022   ·  Why This Hasn't Been Built [2022 (10 упоминаний)]
-* - 📌   2022   ·  Почему это не было построено [2022 (10 упоминаний)]
-* - 📌   2022   ·  Why This Hasn't Been Built [2022 (10 упоминаний)]
-* - 📌   2022   ·  Почему это не было построено [2022 (10 упоминаний)]
-* Почему это именно сейчас стало возможным В 2023 — невозможно. [2023 (11 упоминаний)]
-* _...ещё 2_
-
 h3. {{07-open-questions.md}} (7)
 
 * Who decides what the meta-agent can see? [7. Open Questions]
@@ -581,22 +590,13 @@ h3. {{365-развёрнутый-анализ-внуковой-комбинац�
 * Continue conversation или pause для обдумывания? [Вопросы к вам]
 * _...ещё 1_
 
-h3. {{REPORT.md}} (6)
+h3. {{GITHUB_ISSUES.md}} (6)
 
-* AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   85   Держать operational benchmark/gotcha cards в одной базе с reference cards ил [Ключевые проекты]
-* VitalyOborin     Yodoca   memory   70   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
-* -   Интерфейс   — есть ли понятный публичный API/контракт для интеграции? [Открытые вопросы]
-* -   Доказуемость   — можно ли проверить, что слой работает правильно? [Открытые вопросы]
-* - Как двойственная архитектура избегает этого? [Открытые вопросы]
-* _...ещё 1_
-
-h3. {{QA.md}} (6)
-
-* ## Какие кластеры найма выделены у Anthropic? [Q&A: anthropic-vacancies]
-* ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
-* ## Какие 5 архитектурных зазоров выделены в исследовании? [Какие роли наиболее релевантны для профиля svend4?]
-* ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
-* ## Кто ключевые авторы проектов для контакта? [Что входит в интеграционный контракт между слоями?]
+* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
+* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
 * _...ещё 1_
 
 h3. {{05-polymath-project-tao-comparison.md}} (6)
@@ -772,14 +772,6 @@ h3. {{CONTACTS.md}} (5)
 * kksudo     AgentFS   knowledge/filesystem   130   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
 * spbmolot     NGT Memory   memory   131   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discove [Ключевые авторы проектов]
 
-h3. {{GITHUB_ISSUES.md}} (5)
-
-* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-* -       Есть время на Фазу C в течение 2 недель? [`docs/02-anthropic-vacancies/116-9-checklist-применения-мето]
-
 h3. {{00-question-rephrasing.md}} (5)
 
 * Особенно для высокого высококвалифицированный пенсионеров разработчиков что если например переменная эти полмиллиона долларов на одну одного разработч [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров]
@@ -790,11 +782,7 @@ h3. {{00-question-rephrasing.md}} (5)
 
 h3. {{06-angel-vs-demon-duality.md}} (5)
 
-* # Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
-* Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
-* Они проверяют против правил, но не помогают понять почему правило есть и как решить задачу лучше. [Почему двойственность «ангел-хранитель + строгий демон» — ге]
-* Что происходит, когда два фрилансера с разными суб-агентами делают несовместимые решения? [Почему двойственность «ангел-хранитель + строгий демон» — ге]
-* В вашей модели мета-агент должен иметь authority разрешать конфликты, но на основании чего? [Почему двойственность «ангел-хранитель + строгий демон» — ге]
+_...ещё 100 вопросов в этой категории_
 
 h3. {{13-reprioritization.md}} (5)
 
@@ -1343,7 +1331,7 @@ h3. {{KPI.md}} (2)
 h3. {{PASSIVE_VOICE.md}} (2)
 
 * 327-1-открытие-cowork-и-почему-это-меняет-всё.md    21%   🟠 Много пассива   8   0   2 [Топ файлов по доле пассива]
-* 70-зачем-две-версии-параллельно.md    20%   🟠 Много пассива   1   0   0 [Топ файлов по доле пассива]
+* 70-зачем-две-версии-параллельно.md    17%   🟠 Много пассива   1   0   0 [Топ файлов по доле пассива]
 
 h3. {{02-section-2-beneficial-dimension.md}} (2)
 
@@ -1695,6 +1683,10 @@ h3. {{SEE_ALSO.md}} (1)
 
 * -   106-tl-dr   →  00-tldr ,  70-зачем-две-версии-параллельно ,  71-критерии-выбора-для-фазы-3 ,  28-appendix-a-minimal-working-example [Ключевые связи]
 
+h3. {{TOPIC_MODEL.md}} (1)
+
+* -  docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md  — target, populations, verdict, strengths [Тема 2: turn, view, svyazi (199 документов)]
+
 h3. {{VALIDATION.md}} (1)
 
 * - ℹ️ Длинное кириллическое имя:  docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md [Именование файлов]
@@ -1996,7 +1988,7 @@ h3. {{decision-record.md}} (1)
 * Почему нужно было принять это решение. [Статус]
 
 
-h2. 📌 TODO/Идея (139)
+h2. 📌 TODO/Идея (140)
 
 h3. {{TABLES.md}} (16)
 
@@ -2152,6 +2144,11 @@ h3. {{11-интеграционный-контракт-который-стоит
 * Эта структура логически следует из  CardIndex (../docs/01-svyazi/01-executive-summary.md)‑мышления Svyazi, immutable/event‑style практик AgentFS и Mem [Интеграционный контракт, который стоит зафиксировать сразу]
 * Из этих линий следует, что “записать что-то в память” никогда не должно быть одной неразличимой операцией. [Интеграционный контракт, который стоит зафиксировать сразу]
 
+h3. {{TIMELINE.md}} (2)
+
+* Все документы - 2025-Q3 ⬜ Прототип ансамбля (Svyazi + CardIndex) ⬜ Планируется 180. [2025 (51 упоминаний)]
+* Все документы - ...ещё 11 SCHEDULE.md (7) - 2025-Q1 ⬜ Написать авторам AgentFS, Yodoca, NGT ⬜ Планируется Ключевые вехи [2025 (51 упоминаний)]
+
 h3. {{01-claude-response.md}} (2)
 
 * В Nautilus README или PORTAL-PROTOCOL стоит добавить аналогичный сквозной пример для humanities domain. [unknown_legal_concepts.yml]
@@ -2247,10 +2244,6 @@ h3. {{ACTION_ITEMS.md}} (1)
 
 * - авторам AgentFS, Yodoca, NGT   ⬜ Планируется [📬 Контактные действия (224)]
 
-h3. {{SUMMARIES.md}} (1)
-
-* Финальная консолидированная — после Фазы C Удалять исходные ветки не следует до завершения Фазы C — они могут содержать контекст, нужный для разрешени [`docs/02-anthropic-vacancies/114-7-реализация-в-проекте-naut]
-
 h3. {{01-three-key-candidates.md}} (1)
 
 * Смежные проекты, которые тоже стоит изучить [Три ключевых кандидата: K2-18, Wikontic, NGT Memory]
@@ -2340,7 +2333,7 @@ h3. {{memory-write-policy.md}} (1)
 * Из этих линий следует, что «записать что‑то в память» никогда не должно быть одной неразличимой операцией. [Memory Write Policy]
 
 
-h2. 💭 Гипотеза (392)
+h2. 💭 Гипотеза (391)
 
 h3. {{01-интегральный-анализ-профиля-svend4.md}} (21)
 
@@ -2684,7 +2677,7 @@ h3. {{READABILITY.md}} (2)
 h3. {{READING_TIME.md}} (2)
 
 * docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    ~1 мин   310   📗 Быстро [Все документы]
-* docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    ~1 мин   315   📗 Быстро [Все документы]
+* docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md    ~1 мин   272   📗 Быстро [Все документы]
 
 h3. {{00-question-rephrasing.md}} (2)
 
@@ -2997,10 +2990,6 @@ h3. {{KPI.md}} (1)
 h3. {{READING_ORDER.md}} (1)
 
 * 327   🟢 Начало    Что промышленность вероятно построит (docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)   313   — [Рекомендуемый порядок чтения]
-
-h3. {{SUMMARIES.md}} (1)
-
-* This domain is perhaps the broadest application of Double-Triangle architecture. [`docs/02-anthropic-vacancies/143-6-four-deployment-domains.m]
 
 h3. {{07-vs-notion-mem-affine-langgraph.md}} (1)
 

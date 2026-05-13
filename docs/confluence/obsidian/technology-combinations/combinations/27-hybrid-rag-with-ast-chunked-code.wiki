@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Комбинация 27: Hybrid RAG with AST-Chunked Code"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Комбинация 27: Hybrid RAG with AST-Chunked Code

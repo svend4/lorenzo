@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. What's Missing — Layer B

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/132-planned-v0-2-0.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Planned (v0.2.0)

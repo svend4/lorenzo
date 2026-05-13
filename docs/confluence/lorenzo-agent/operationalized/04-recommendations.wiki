@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/lorenzo-agent/operationalized/04-recommendations.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Рекомендации: принять архитектуру как direction, не immediate plan

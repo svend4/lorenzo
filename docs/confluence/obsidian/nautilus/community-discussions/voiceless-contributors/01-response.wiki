@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/community-discussions/voiceless-contributors/01-response.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…"
 tags:
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…

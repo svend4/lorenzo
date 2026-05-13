@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/privacy-federation/00-question-anonymization.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да…

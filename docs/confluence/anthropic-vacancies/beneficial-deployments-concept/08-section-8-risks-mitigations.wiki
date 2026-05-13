@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Section 8: Risks & mitigations

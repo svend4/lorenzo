@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/community-discussions/practical-observations/00-question-practical.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Du hast gesagt: Да это интересная ссылка спасибо всем участникам за творчество и…

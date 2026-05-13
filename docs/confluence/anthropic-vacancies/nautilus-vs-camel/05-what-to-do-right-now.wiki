@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Что я бы посоветовал делать прямо сейчас

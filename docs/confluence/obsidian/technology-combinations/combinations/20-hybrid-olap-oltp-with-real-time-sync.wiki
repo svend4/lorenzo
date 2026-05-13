@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync

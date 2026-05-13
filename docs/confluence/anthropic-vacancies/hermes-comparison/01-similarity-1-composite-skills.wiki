@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Сходство 1: Composite Skills паттерн уже встроен

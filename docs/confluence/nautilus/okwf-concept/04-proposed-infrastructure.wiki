@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/okwf-concept/04-proposed-infrastructure.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 4. Proposed Infrastructure

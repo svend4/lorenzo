@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/ai-collaborations/continuation/01-shared-memory-between-agents.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -14,7 +14,7 @@ tags:
   * architecture
   * collaboration
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Общая память между агентами (CoAlly + ансамбль F)

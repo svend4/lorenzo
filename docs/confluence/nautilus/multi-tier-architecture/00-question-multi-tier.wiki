@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/multi-tier-architecture/00-question-multi-tier.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Du hast gesagt: Ещё есть такие вопросы то есть если общие юридические Наутилус м…

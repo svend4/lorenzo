@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Вопрос: MMORPG-RPG переделанная для программистов / технарей"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Вопрос: MMORPG-RPG переделанная для программистов / технарей

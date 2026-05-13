@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Финальный вывод: платформа, а не должность

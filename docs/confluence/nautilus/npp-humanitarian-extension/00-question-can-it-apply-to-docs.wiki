@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система…

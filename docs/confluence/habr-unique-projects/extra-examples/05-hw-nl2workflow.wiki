@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. HW-NL2Workflow — Supervisor/Orchestrator/Filler с 3600+ examples

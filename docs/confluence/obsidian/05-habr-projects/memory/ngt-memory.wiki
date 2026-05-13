@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/05-habr-projects/memory/ngt-memory.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * ingestion
   * collaboration
   * habr-projects
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. NGT[^ngt] Memory: ассоциативный граф

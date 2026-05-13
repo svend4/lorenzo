@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Пара 5 — TinyML/Edge AI × MCP + skills

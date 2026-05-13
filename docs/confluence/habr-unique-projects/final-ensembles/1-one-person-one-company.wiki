@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Ансамбль 1 — «Один человек = одна компания»

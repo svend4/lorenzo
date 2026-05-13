@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 11. Call for Collaboration

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/transmission-box/00-question-mountain-to-person.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Du hast gesagt: Того если гора не идёт человек�
 tags:
   * anthropic
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к…

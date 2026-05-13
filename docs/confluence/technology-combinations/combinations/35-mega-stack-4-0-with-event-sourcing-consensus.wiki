@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus

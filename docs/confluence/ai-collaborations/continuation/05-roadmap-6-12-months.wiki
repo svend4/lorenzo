@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ai-collaborations/continuation/05-roadmap-6-12-months.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Roadmap на 6–12 месяцев

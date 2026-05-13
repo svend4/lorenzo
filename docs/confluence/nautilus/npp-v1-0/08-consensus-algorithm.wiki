@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/npp-v1-0/08-consensus-algorithm.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 8. Consensus Algorithm (v1.0: string normalization)

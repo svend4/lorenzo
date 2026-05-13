@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -16,7 +16,7 @@ tags:
   * anthropic
   * collaboration
   * lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Что такое «внуковая» комбинация — operationalized Lorenzo

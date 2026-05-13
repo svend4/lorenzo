@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 6. Risks Specific to this Category

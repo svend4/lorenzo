@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/privacy-federation/04-what-i-can-do-now.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Что я могу сделать сейчас

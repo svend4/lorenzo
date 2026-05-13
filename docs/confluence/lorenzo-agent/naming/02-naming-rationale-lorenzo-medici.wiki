@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Что взять: agent controller architecture

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/technology-combinations/synthesis-tables/31-35-final.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Сводная таблица 31–35 (Complete 1–35)

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/05-habr-projects/knowledge/wikontic.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Wikontic: семантический граф

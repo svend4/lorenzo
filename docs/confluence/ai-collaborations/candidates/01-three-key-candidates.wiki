@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ai-collaborations/candidates/01-three-key-candidates.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Три ключевых кандидата: K2-18, Wikontic, NGT Memory

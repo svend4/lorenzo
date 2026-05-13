@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/03-technology-combinations/02-knowledge-graphs.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Графы знаний и Legal AI"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Графы знаний и Legal AI
@@ -27,6 +27,17 @@ h1. Графы знаний и Legal AI
 _Проекты:_ Yodoca, Auto AI Router, [[01-executive-summary|AutoResearch]]
 
 ----
+
+
+h2. Содержание
+
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
 
 
 

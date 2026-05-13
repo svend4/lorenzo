@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Наутилус B: nautilus — мета-оркестратор репозиториев (внешняя архитектура)

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)

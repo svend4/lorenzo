@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/clusters/05-marketing-brand.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Marketing & Brand — 23 роли

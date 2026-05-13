@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ai-collaborations/source-projects.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Source projects — все Хабр-источники в диалоге

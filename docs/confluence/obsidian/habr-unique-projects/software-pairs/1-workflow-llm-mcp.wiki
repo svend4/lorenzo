@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * orchestration
   * collaboration
   * habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Пара 1 — Workflow-автоматизация × LLM-агенты с MCP

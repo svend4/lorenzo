@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/review-methodology/08-implementation-nautilus.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 7. Реализация в проекте Nautilus

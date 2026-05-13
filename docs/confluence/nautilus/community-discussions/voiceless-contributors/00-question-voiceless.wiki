@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы

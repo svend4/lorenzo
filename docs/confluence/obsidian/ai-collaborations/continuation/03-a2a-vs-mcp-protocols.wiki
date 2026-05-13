@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -13,7 +13,7 @@ tags:
   * architecture
   * collaboration
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. A2A vs MCP, ансамбль H — MCP/A2A Review Fabric

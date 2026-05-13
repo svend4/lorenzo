@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ONBOARDING.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Онбординг — Svyazi 2.0 / Lorenzo

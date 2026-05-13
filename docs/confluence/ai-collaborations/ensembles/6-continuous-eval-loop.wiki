@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ai-collaborations/ensembles/6-continuous-eval-loop.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Ансамбль 6 — Continuous Eval Loop

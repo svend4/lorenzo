@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/svyazi-2-0/ensembles/G-federated-local-graph.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Ансамбль G — Federated Local‑First Community Graph"
 tags:
   * svyazi-2-0
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Ансамбль G — Federated Local‑First Community Graph

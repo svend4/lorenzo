@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. 8. Pilot Proposal: SGB Advocate Colleague

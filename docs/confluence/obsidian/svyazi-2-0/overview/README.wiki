@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/svyazi-2-0/overview/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "overview"
 tags:
   * svyazi-2-0
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. overview

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/lorenzo-agent/scenarios/00-question-scenario.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Du hast gesagt: А под какой сценарий больше вс�
 tags:
   * anthropic
   * lorenzo-agent
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Du hast gesagt: А под какой сценарий больше всего подходит такой сценарий что тв…

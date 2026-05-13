@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/277-what-s-missing-layer-b.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "What's Missing — Layer B"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. What's Missing — Layer B
@@ -38,6 +38,18 @@ h2. Содержание
 {quote}Between chat and repository, there should exist Layer B: an{quote}
 
 ----
+
+
+h2. Содержание
+
+* [What's Missing — Layer B|#whats-missing-layer-b]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
 
 
 

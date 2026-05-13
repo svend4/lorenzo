@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/MINDMAP.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Майндмап репозитория Lorenzo"
 tags:
   * general
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Майндмап репозитория Lorenzo

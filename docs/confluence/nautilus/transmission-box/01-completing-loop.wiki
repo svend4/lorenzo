@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/transmission-box/01-completing-loop.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на н…

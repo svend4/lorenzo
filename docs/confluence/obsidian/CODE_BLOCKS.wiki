@@ -1,19 +1,19 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/CODE_BLOCKS.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Code-блоки репозитория"
 tags:
   * general
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Code-блоки репозитория
 
-{quote}[!WARNING]{quote}
-{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
 
 
@@ -1793,26 +1793,19 @@ _{{docs/nautilus/review-methodology/03-consolidation-principles.md}} | 2 стр�
 commit abc123; both Ag82 and Bf00 noted)_ |
 {code}
 
-h3. Appendix A: Шаблон для header warning
-_{{docs/nautilus/review-methodology/12-appendix-a-header-warning.md}} | 16 строк_
+_...и ещё 6 блоков этого языка_
 
-{code:language=markdown}
-> ⚠️ **Статус документа**: сравнительный промежуточный вариант.
-> 
-> Этот файл содержит **параллельно сохранённые версии** из двух 
-> независимых анализов: Вариант A (ветка ``) и 
-> Вариант B (ветка ``). Дубликаты таблиц и 
-> параграфов — **намеренные**, для сохранения информации из обоих 
-> независимых анализов.
->
-> **Методология**: см. [[REVIEW_METHODOLOGY|REVIEW_METHODOLOGY.md]]
->
-> Финальная консолидированная версия будет создана в рамках Фазы C
-> (deadline: ``). До тех пор этот документ — **internal 
-> reference material**, не предназначен для внешнего аудита.
->
-> **Не цитировать** метрики из этого документа без проверки — 
-> числа могут расходиться между вариантами.
+h2. typescript (1)
+
+
+h3. 6. Adapter Interface
+_{{docs/templates/protocol-spec.md}} | 4 строк_
+
+{code:language=typescript}
+interface Adapter {
+  query(input: Query): Result;
+  ingest(data: Document): void;
+}
 {code}
 
 _...и ещё 10 блоков этого языка_

@@ -1,31 +1,38 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "8. Q6 Space (Normative)"
 tags:
-  * memory
   * ingestion
   * architecture
   * anthropic
-  * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 8. Q6 Space (Normative)
 
 
+h2. Содержание
+
+* [Contents|#contents]
+* [8. Q6 Space (Normative)|#8-q6-space-normative]
+  * [8.1. Definition|#81-definition]
+  * [8.2. Mandatory for Level 2+|#82-mandatory-for-level-2]
+  * [8.3. Q6 Mapping Rules|#83-q6-mapping-rules]
+  * [8.4. Q6-Neighbors (Hamming Distance)|#84-q6-neighbors-hamming-distance]
+  * [8.5. CA-Class Mapping (Informative)|#85-ca-class-mapping-informative]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
 
 
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Это не обязательно, но RECOMMENDED для экосистем, интегрирующих symbolic и dynamical angles: - Class I (стационарные) — стабильные концепты (базовые алгоритмы, определения) - Class{quote}
-{quote}🔧 _Подход:_ CA-Class Mapping (Informative)(85-ca-class-mapping-informative) !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
-{quote}🏷️ _Ключевые слова:_ {{class}}, {{mapping}}, {{level}}, {{portalentry}}, {{anthropic}}, {{vacancies}}, {{space}}, {{normative}}{quote}
->
 
 
 

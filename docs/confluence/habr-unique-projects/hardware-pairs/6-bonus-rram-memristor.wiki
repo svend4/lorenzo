@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Бонус-родитель — In-memory computing на мемристорах

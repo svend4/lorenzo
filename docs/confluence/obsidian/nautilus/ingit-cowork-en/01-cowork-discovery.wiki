@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/ingit-cowork-en/01-cowork-discovery.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "1. The Cowork Discovery and Why It Changes Everything"
 tags:
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 1. The Cowork Discovery and Why It Changes Everything

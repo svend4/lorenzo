@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/ai-collaborations/source-projects.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Source projects — все Хабр-источники в диалоге"
 tags:
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Source projects — все Хабр-источники в диалоге

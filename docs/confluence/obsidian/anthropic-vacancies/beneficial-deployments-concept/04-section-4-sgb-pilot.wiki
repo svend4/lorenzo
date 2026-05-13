@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Section 4: Specific deployment — SGB Advocate Community pilot"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Section 4: Specific deployment — SGB Advocate Community pilot

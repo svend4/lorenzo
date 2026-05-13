@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/habr-unique-projects/software-pairs/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "software-pairs"
 tags:
   * habr-unique-projects
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. software-pairs

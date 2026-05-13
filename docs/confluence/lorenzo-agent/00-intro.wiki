@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/lorenzo-agent/00-intro.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Введение: Lorenzo — Catalyst Agent at DHLab

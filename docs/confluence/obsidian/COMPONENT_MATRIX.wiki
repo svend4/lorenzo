@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/COMPONENT_MATRIX.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Матрица компонентов Svyazi 2.0"
 tags:
   * general
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Матрица компонентов Svyazi 2.0

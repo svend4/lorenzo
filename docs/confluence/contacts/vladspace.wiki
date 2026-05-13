@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/vladspace.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -17,6 +17,11 @@ last_contact: null
 tags: [контакты, команда]
 ----
 h1. Контакт: VladSpace / Graph RAG
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
 
 
 {quote}- [Статус связи|#статус-связи]{quote}

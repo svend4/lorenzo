@@ -1,13 +1,14 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Твоя коммуникация в outreach"
 tags:
+  * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Твоя коммуникация в outreach
@@ -16,6 +17,8 @@ h1. Твоя коммуникация в outreach
 {quote}Когда draft outreach message к независимому создателю, ВСЕГДА включай:{quote}
 
 ----
+
+
 
 
 

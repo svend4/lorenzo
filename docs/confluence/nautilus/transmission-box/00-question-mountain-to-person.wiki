@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/nautilus/transmission-box/00-question-mountain-to-person.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к…

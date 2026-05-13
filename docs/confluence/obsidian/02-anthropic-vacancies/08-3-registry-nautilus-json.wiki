@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,18 +8,27 @@ title: "3. Registry ({{nautilus.json}})"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. 3. Registry ({{nautilus.json}})
 
 
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Registry (nautilus.json)(3-registry-nautilusjson) - 3.1.{quote}
-{quote}🔧 _Подход:_ Validation Rules(35-validation-rules) !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
-{quote}🏷️ _Ключевые слова:_ {{registry}}, {{nautilus}}, {{fields}}, {{anthropic}}, {{vacancies}}, {{terminology}}, {{required}}, {{optional}}{quote}
->
+h2. Содержание
+
+* [Contents|#contents]
+* [3. Registry ({{nautilus.json}})|#3-registry-nautilusjson]
+  * [3.1. Purpose|#31-purpose]
+  * [3.2. Schema|#32-schema]
+  * [3.3. Required Fields|#33-required-fields]
+  * [3.4. Optional Fields|#34-optional-fields]
+  * [3.5. Validation Rules|#35-validation-rules]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
 
 
 

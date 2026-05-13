@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Уровень 1 — Минимальный (Lorenzo Zero)

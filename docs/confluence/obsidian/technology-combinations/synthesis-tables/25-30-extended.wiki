@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/synthesis-tables/25-30-extended.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * rag
   * orchestration
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Сводная таблица 25–30 (Complete 1–30)

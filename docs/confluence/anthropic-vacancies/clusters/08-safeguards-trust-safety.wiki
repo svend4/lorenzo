@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Safeguards (Trust & Safety) — 21 роль

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Personal multi-agent hub

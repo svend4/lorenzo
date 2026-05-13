@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/anthropic-vacancies/hermes-comparison/13-reprioritization.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Переприоритизация: что Hermes покрывает / не покрывает / synergy"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Переприоритизация: что Hermes покрывает / не покрывает / synergy

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * anthropic
   * collaboration
   * nautilus
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Du hast gesagt: https://habr.

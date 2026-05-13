@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Пара 3 — CRDT-синхронизация × Self-hosted persistence

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Practical Recommendations for the Current Project
@@ -39,6 +39,18 @@ h2. Содержание
 {quote}For the seven-document Nautilus / OKWF project specifically,{quote}
 
 ----
+
+
+h2. Содержание
+
+* [Practical Recommendations for the Current Project|#practical-recommendations-for-the-current-project]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
 
 
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/lorenzo-agent/phased-deployment/01-level-0-manual.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 h1. Уровень 0 — Ручной режим (текущий)

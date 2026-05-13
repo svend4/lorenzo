@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/mega-stacks/04-event-sourcing-consensus.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Mega‑Stack 4.0 — with Event Sourcing & Consensus"
 tags:
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Mega‑Stack 4.0 — with Event Sourcing & Consensus

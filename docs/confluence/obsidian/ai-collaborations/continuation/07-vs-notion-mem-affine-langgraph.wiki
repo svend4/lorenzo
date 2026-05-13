@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
 title: "Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph"
 tags:
   * ai-collaborations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph

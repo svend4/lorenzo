@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md}}
-Дата: 2026-04-29
+Дата: 2026-05-13
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Комбинация 26: AST-Based Code Analysis for Legal Automation"
 tags:
   * rag
   * technology-combinations
-date: 2026-04-29
+date: 2026-05-13
 ----
 
 h1. Комбинация 26: AST-Based Code Analysis for Legal Automation
