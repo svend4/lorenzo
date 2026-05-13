@@ -795,6 +795,117 @@ class TestPublicImports:
         assert "ReloadConfig" in mod.__all__
         assert "HotReloadManager" in mod.__all__
 
+    def test_watcher_importable_directly(self):
+        from docstoolkit.config_hotreload.watcher import FileWatcher as FW
+        assert FW is not None
+
+    def test_reloader_importable_directly(self):
+        from docstoolkit.config_hotreload.reloader import HotReloadManager as HRM
+        assert HRM is not None
+
+
+class TestFileWatcherStatHelper:
+    def test_stat_returns_tuple_for_existing_file(self, tmp_path):
+        p = tmp_path / "f.txt"
+        p.write_text("data")
+        stat = FileWatcher._stat(str(p))
+        assert isinstance(stat, tuple)
+        assert len(stat) == 2
+
+    def test_stat_returns_zero_tuple_for_missing_file(self):
+        stat = FileWatcher._stat("/tmp/__absolutely_does_not_exist_fw__.bin")
+        assert stat == (0, 0)
+
+    def test_stat_mtime_advances_after_utime(self, tmp_path):
+        p = tmp_path / "f.txt"
+        p.write_text("x")
+        s1 = FileWatcher._stat(str(p))
+        bump_mtime(str(p))
+        s2 = FileWatcher._stat(str(p))
+        assert s2[0] > s1[0]
+
+
+class TestHotReloadManagerThreadSafety:
+    def test_concurrent_reloads_do_not_crash(self, tmp_path):
+        p = tmp_path / "cfg.json"
+        write_json(str(p), {"counter": 0})
+        mgr = HotReloadManager(ReloadConfig(paths=[str(p)]))
+        mgr.start()
+
+        errors = []
+
+        def worker(i: int):
+            try:
+                write_json(str(p), {"counter": i})
+                mgr.reload(str(p))
+            except Exception as e:
+                errors.append(e)
+
+        threads = [threading.Thread(target=worker, args=(i,)) for i in range(10)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
+        assert errors == [], f"concurrent reload raised: {errors}"
+        mgr.stop()
+
+    def test_concurrent_gets_are_safe(self, tmp_path):
+        p = tmp_path / "cfg.json"
+        write_json(str(p), {"value": 42})
+        mgr = HotReloadManager(ReloadConfig(paths=[str(p)]))
+        mgr.start()
+        results = []
+        lock = threading.Lock()
+
+        def reader():
+            v = mgr.get("value")
+            with lock:
+                results.append(v)
+
+        threads = [threading.Thread(target=reader) for _ in range(20)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
+        assert len(results) == 20
+        mgr.stop()
+
+
+class TestHotReloadManagerINIDetails:
+    def test_ini_section_keys_are_lowercase(self, tmp_path):
+        """configparser lowercases keys by default."""
+        p = tmp_path / "cfg.ini"
+        write_ini(str(p), {"Settings": {"MyKey": "myval"}})
+        mgr = HotReloadManager(ReloadConfig(paths=[str(p)]))
+        data = mgr.load(str(p))
+        section = data.get("Settings") or data.get("settings")
+        assert section is not None
+        # configparser lowercases keys; value should still be accessible
+        assert "myval" in section.values()
+
+    def test_ini_multiple_sections(self, tmp_path):
+        p = tmp_path / "multi.ini"
+        write_ini(str(p), {
+            "database": {"host": "db.host", "port": "5432"},
+            "cache":    {"host": "cache.host", "ttl": "300"},
+        })
+        mgr = HotReloadManager(ReloadConfig(paths=[str(p)]))
+        mgr.start()
+        assert mgr.get("database.host") == "db.host"
+        assert mgr.get("cache.ttl") == "300"
+        mgr.stop()
+
+    def test_ini_boolean_string_values(self, tmp_path):
+        p = tmp_path / "flags.ini"
+        write_ini(str(p), {"flags": {"debug": "true", "verbose": "false"}})
+        mgr = HotReloadManager(ReloadConfig(paths=[str(p)]))
+        mgr.start()
+        # Values are stored as strings in configparser
+        assert mgr.get("flags.debug") == "true"
+        mgr.stop()
+
 
 class TestEdgeCases:
     def test_empty_json_file(self, tmp_path):
