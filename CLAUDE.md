@@ -39,10 +39,15 @@ docs/
   benchmark.json       — история замеров скриптов
 
 scripts/
-  improve_*.py           — 159 скриптов обработки документов (21 группа)
+  improve_*.py           — 165 скриптов обработки документов (24 группы)
   utils_chunker.py       — утилиты чанкинга для больших текстов
-  mcp_server.py          — MCP-сервер с 11 инструментами (+ bm25_search, run_recipe, list_recipes)
-  gateway.py             — OpenAI-compatible HTTP gateway (FastAPI, порт 8083, 5 инструментов)
+  mcp_server.py          — MCP-сервер с 15 инструментами (11 read + 4 write: add_card, update_card_state, propose_integration, list_cards)
+  gateway.py             — OpenAI-compatible HTTP gateway (FastAPI, порт 8083, 5 инструментов + dedup + passages sync)
+  improve_card_promote.py    — жизненный цикл карточек: raw→normalized→approved (критерии по RFC-0001)
+  improve_proposal_gen.py    — генератор интеграционных предложений (TF-IDF + layer complementarity, 23 proposals)
+  improve_github_tracker.py  — мониторинг 12 GitHub-репозиториев 8 авторов, event cards
+  improve_rfc_tracker.py     — RFC-система: Draft→Proposed→Accepted|Rejected|Superseded (docs/rfcs/)
+  improve_semantic_embeddings.py — семантический индекс (ST + TF-IDF fallback, 1166 docs → docs/semantic_index.json)
   review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
   prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
   improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
@@ -270,8 +275,12 @@ python scripts/improve_run_all.py --group cicd      # CI/CD конфиги
 python scripts/improve_run_all.py --group textwork  # работа с текстом
 python scripts/improve_run_all.py --group deeptext  # NLP: TOC, NER, BM25, граф, чанки
 python scripts/improve_run_all.py --group nlpplus   # TextRank, аудит, язык, пассив, поиск
+python scripts/improve_run_all.py --group lifecycle # promote + proposals + rfc update
+python scripts/improve_run_all.py --group semantic  # semantic TF-IDF/ST индекс
 python scripts/improve_run_all.py --changed         # только группы для изменённых файлов
 python scripts/improve_run_all.py --parallel 4      # параллельное выполнение групп
+# Примечание: группа "live" (GitHub tracker) НЕ включена в авто-запуск (HTTP запросы)
+python scripts/improve_github_tracker.py --apply    # вручную: мониторинг GitHub активности
 ```
 
 ### HTTP Gateway (Stage 7)
@@ -335,17 +344,18 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 
 1. **Написать авторам** — файлы готовы в `docs/contacts/`, нужно только отправить
 2. **LLM-обогащение** — `improve_llm_enrich.py` обогатит файлы за ~$0.011
-3. **Прототип** — Итерации 0-1-3 ✅ ВЫПОЛНЕНО; Итерация 2 (Consolidation) 🔄 в процессе
+3. **Прототип** — Все 5 итераций ✅ ВЫПОЛНЕНО + расширения: RFC-система, 23 proposals, lifecycle CI
 
 ## Статус прототипа (PROTOTYPE_SPEC.md)
 
 | Итерация | Статус | Ключевые артефакты |
 |----------|--------|--------------------|
 | 0 — Вертикальный срез | ✅ Готово | 1632 карточки, 2500+ рёбер, MCP 11 инструментов |
-| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16472 токенов) + гибрид 0.6/0.4 + Review Queue UI |
-| 2 — Consolidation | 🔄 В процессе | CI daily, incremental build, orphan rate < 15% |
-| 3 — Collaboration Finder | ✅ Готово | 9 богатых проектных файлов, 10/11 карточек с рёбрами, 9 контактов |
-| 4 — Gateway & Enrichment | ✅ Готово | OpenAI-compatible API, write-back, function calling, Review Queue |
+| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16487 токенов) + гибрид 0.6/0.4 + Review Queue UI |
+| 2 — Consolidation | ✅ Готово | CI daily + lifecycle promote, 272 approved · 435 normalized · 443 raw |
+| 3 — Collaboration Finder | ✅ Готово | 9 богатых проектных файлов, 23 proposals, 9 контактов |
+| 4 — Gateway & Enrichment | ✅ Готово | OpenAI-compatible API, write-back + dedup, function calling, Review Queue |
+| 5 — RFC & Semantic Layer | ✅ Готово | RFC-система (3 RFC Accepted), ST+TF-IDF 1166 docs, MCP 15 инструментов |
 
 ### Collaboration Finder (Итерация 3)
 ```bash
@@ -368,10 +378,53 @@ python scripts/improve_semantic_search.py --query "CardIndex" --mode full --sect
 python scripts/improve_semantic_search.py --query "граф знаний" --json               # JSON
 ```
 
+### RFC-система (Итерация 5)
+```bash
+python scripts/improve_rfc_tracker.py                             # список всех RFC
+python scripts/improve_rfc_tracker.py --new "Название" --author "ник"  # создать RFC
+python scripts/improve_rfc_tracker.py --status RFC-0002 Accepted        # изменить статус
+python scripts/improve_rfc_tracker.py --show RFC-0001                   # показать RFC
+python scripts/improve_rfc_tracker.py --update                          # обновить реестр
+python scripts/improve_rfc_tracker.py --validate                        # проверить структуру
+```
+
+**Текущие RFC:**
+- [RFC-0001](docs/rfcs/RFC-0001-card-envelope-contract.md) — Card Envelope как единый контракт (Accepted)
+- [RFC-0002](docs/rfcs/RFC-0002-memory-write-policy-для-svyazi-2-0.md) — Memory Write Policy (Accepted)
+- [RFC-0003](docs/rfcs/RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md) — MCP Write-back Protocol (Accepted)
+
+### Жизненный цикл карточек (lifecycle group)
+```bash
+python scripts/improve_card_promote.py --stats                    # статистика промоушена
+python scripts/improve_card_promote.py --dry-run                  # план без изменений
+python scripts/improve_card_promote.py --apply                    # промоушен raw→normalized→approved
+python scripts/improve_card_promote.py --apply --section 05-habr-projects
+python scripts/improve_proposal_gen.py --dry-run --top 25         # план предложений
+python scripts/improve_proposal_gen.py --apply --top 25           # генерация proposals
+python scripts/improve_proposal_gen.py --stats                    # статистика (23 proposals)
+```
+
+### GitHub-трекер активности авторов
+```bash
+python scripts/improve_github_tracker.py --dry-run --days 30      # план (без записи)
+python scripts/improve_github_tracker.py --apply                   # создать event cards
+python scripts/improve_github_tracker.py --apply --author kksudo  # только один автор
+python scripts/improve_github_tracker.py --stats                   # статистика трекера
+```
+
+### Семантический индекс (TF-IDF + sentence-transformers)
+```bash
+python scripts/improve_semantic_embeddings.py --check             # проверить бэкенды
+python scripts/improve_semantic_embeddings.py --index             # построить индекс (1166 docs)
+python scripts/improve_semantic_embeddings.py --index --backend st  # neural (нужен pip install sentence-transformers)
+python scripts/improve_semantic_embeddings.py --query "агент память"   # семантический поиск
+python scripts/improve_semantic_embeddings.py --compare doc1.md doc2.md  # сравнение
+```
+
 ### CardStore и TF-IDF индекс
 ```bash
 python scripts/improve_card_index.py --build --incremental   # инкрементальная сборка (< 3с)
-python scripts/improve_embedding_index.py --index            # TF-IDF индекс (16472 токенов, body-поле)
+python scripts/improve_embedding_index.py --index            # TF-IDF индекс (16487 токенов, body-поле)
 python scripts/improve_embedding_index.py --query "агент"   # семантический поиск
 python scripts/improve_embedding_index.py --similar <card_id>  # похожие карточки
 python scripts/improve_embedding_index.py --stats           # статистика индекса

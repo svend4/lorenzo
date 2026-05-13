@@ -299,11 +299,29 @@ LLM_SCRIPTS = {
     "improve_llm_contact.py",
 }
 
+GROUPS["lifecycle"] = [
+    # Жизненный цикл карточек: продвижение статусов, proposals, RFC
+    "improve_card_promote.py",       # raw→normalized→approved
+    "improve_proposal_gen.py",       # генерация proposal-карточек интеграции
+    "improve_rfc_tracker.py",        # обновление RFC реестра
+]
+
+GROUPS["live"] = [
+    # Живой корпус: мониторинг внешних источников
+    "improve_github_tracker.py",     # события GitHub-репозиториев авторов
+]
+
+GROUPS["semantic"] = [
+    # Семантический поиск
+    "improve_semantic_embeddings.py",  # TF-IDF fallback индекс
+]
+
 GROUP_ORDER = [
     "structure", "index", "analysis", "extract",
     "quality", "graph", "generate", "reports", "export",
     "cicd", "analytics", "textwork", "deeptext", "nlpplus", "content",
-    "meta", "mcp", "contacts-ext",
+    "meta", "mcp", "contacts-ext", "lifecycle", "semantic",
+    # "live" — не включаем в авто-запуск (HTTP-запросы к GitHub API)
 ]
 
 # ---------------------------------------------------------------------------

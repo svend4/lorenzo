@@ -39,6 +39,15 @@ jobs:
       - name: Run fast scripts
         run: python scripts/improve_run_all.py --fast --group reports
 
+      - name: Promote card lifecycle states
+        run: python scripts/improve_card_promote.py --apply
+
+      - name: Generate integration proposals
+        run: python scripts/improve_proposal_gen.py --apply
+
+      - name: Update RFC registry
+        run: python scripts/improve_rfc_tracker.py --update
+
       - name: Update search index
         run: python scripts/improve_search_index.py
 
