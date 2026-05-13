@@ -86,8 +86,36 @@ app.add_middleware(
 
 # ── Индексы (lazy load, кэш в памяти) ──────────────────────────────────────
 
-_INDEX: list[dict] | None = None
+_INDEX:    list[dict] | None = None
 _PASSAGES: list[dict] | None = None
+_PAGERANK: dict[str, float] | None = None
+
+# Duplicate/mirror directory prefixes — obsidian and confluence exports are
+# verbatim copies of the canonical docs; exclude them from all search results
+# so canonical documents surface instead.
+_SKIP_PREFIXES = (
+    "docs/obsidian/",
+    "docs/confluence/",
+)
+
+# Meta/aggregate documents that contain the entire corpus in extracted form.
+# They match almost every query (high recall, low precision) and should be
+# excluded from passage-based BM25 so content documents can surface.
+_BM25_SKIP = frozenset({
+    "docs/TABLES.md",
+    "docs/OUTLINE.md",
+    "docs/SITEMAP.md",
+    "docs/READING_ORDER.md",
+    "docs/REGISTRY.md",
+    "docs/INDEX.md",
+    "docs/SCRIPTS_CATALOG.md",
+    "docs/TASKS_INDEX.md",
+})
+
+
+def _is_duplicate(path: str) -> bool:
+    """Return True for obsidian/confluence mirror paths."""
+    return any(path.startswith(pfx) for pfx in _SKIP_PREFIXES)
 
 
 def _load_index() -> list[dict]:
@@ -110,6 +138,14 @@ def _load_passages() -> list[dict]:
     return _PASSAGES
 
 
+def _load_pagerank() -> dict[str, float]:
+    global _PAGERANK
+    if _PAGERANK is None:
+        p = DOCS / "pagerank.json"
+        _PAGERANK = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+    return _PAGERANK
+
+
 def _invalidate_index() -> None:
     global _INDEX
     _INDEX = None
@@ -125,6 +161,8 @@ def _tfidf_search(query: str, top_k: int = 10) -> list[dict]:
     tokens = set(_tokenize(query))
     scored: list[tuple[float, dict]] = []
     for d in docs:
+        if _is_duplicate(d.get("path", "")):
+            continue
         parts = [
             (d.get("title") or "") + " " + (d.get("title") or ""),  # двойной вес заголовка
             d.get("summary") or "",
@@ -148,16 +186,24 @@ def _bm25_search(query: str, top_k: int = 10) -> list[dict]:
         return []
 
     k1, b = 1.5, 0.75
-    N = len(passages)
-    avgdl = sum(len(_tokenize(p.get("text", ""))) for p in passages) / max(N, 1)
+    # Exclude meta-aggregator documents and obsidian/confluence mirror paths.
+    active = [
+        p for p in passages
+        if p.get("source", "") not in _BM25_SKIP
+        and not _is_duplicate(p.get("source", ""))
+    ]
+    N = len(active)
+    if N == 0:
+        return []
+    avgdl = sum(len(_tokenize(p.get("text", ""))) for p in active) / N
 
     idf: dict[str, float] = {}
     for t in set(tokens):
-        df = sum(1 for p in passages if t in _tokenize(p.get("text", "")))
+        df = sum(1 for p in active if t in _tokenize(p.get("text", "")))
         idf[t] = math.log((N - df + 0.5) / (df + 0.5) + 1)
 
     scored: dict[str, float] = {}
-    for p in passages:
+    for p in active:
         src = p.get("source", "")
         words = _tokenize(p.get("text", ""))
         dl = len(words)
@@ -181,9 +227,10 @@ def _bm25_search(query: str, top_k: int = 10) -> list[dict]:
 
 
 def hybrid_search(query: str, top_k: int = 10) -> list[dict]:
-    """0.6×TF-IDF + 0.4×BM25 fusion — наш основной поиск."""
+    """0.6×TF-IDF + 0.4×BM25 + 0.05×PageRank RRF fusion."""
     tfidf = _tfidf_search(query, top_k * 2)
     bm25  = _bm25_search(query, top_k * 2)
+    pr    = _load_pagerank()
 
     scores: dict[str, float] = {}
     for rank, d in enumerate(tfidf):
@@ -192,6 +239,12 @@ def hybrid_search(query: str, top_k: int = 10) -> list[dict]:
     for rank, d in enumerate(bm25):
         p = d.get("path", "")
         scores[p] = scores.get(p, 0) + 0.4 * (1 / (rank + 1))
+
+    # Small PageRank authority bonus — boosts highly-linked documents that
+    # would otherwise lose to more narrowly focused files on the same topic.
+    if pr:
+        for path in list(scores):
+            scores[path] += 0.05 * pr.get(path, 0)
 
     path_to_doc = {d.get("path", ""): d for d in _load_index()}
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)

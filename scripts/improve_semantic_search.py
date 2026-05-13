@@ -47,6 +47,30 @@ from utils_card_envelope import CardStore, CardEnvelope
 
 _tfidf_idx: dict | None = None
 _passages:  list | None = None
+_pagerank:  dict | None = None
+
+# Obsidian/confluence directories are mirror copies of canonical docs.
+# Exclude them from passage BM25 to avoid duplicate results.
+_SKIP_PREFIXES = (
+    "docs/obsidian/",
+    "docs/confluence/",
+)
+
+# Aggregate meta-documents that match almost every query (full-corpus extracts).
+_BM25_SKIP = frozenset({
+    "docs/TABLES.md",
+    "docs/OUTLINE.md",
+    "docs/SITEMAP.md",
+    "docs/READING_ORDER.md",
+    "docs/REGISTRY.md",
+    "docs/INDEX.md",
+    "docs/SCRIPTS_CATALOG.md",
+    "docs/TASKS_INDEX.md",
+})
+
+
+def _skip_passage(source: str) -> bool:
+    return source in _BM25_SKIP or any(source.startswith(p) for p in _SKIP_PREFIXES)
 
 
 def _get_tfidf() -> dict | None:
@@ -57,6 +81,20 @@ def _get_tfidf() -> dict | None:
         except Exception:
             pass
     return _tfidf_idx
+
+
+def _get_pagerank() -> dict:
+    global _pagerank
+    if _pagerank is None:
+        pr_path = DOCS / "pagerank.json"
+        if pr_path.exists():
+            try:
+                _pagerank = json.loads(pr_path.read_text(encoding="utf-8"))
+            except Exception:
+                _pagerank = {}
+        else:
+            _pagerank = {}
+    return _pagerank
 
 
 def _get_passages() -> list:
@@ -223,10 +261,12 @@ def search_bm25(query: str, top: int = 10, section: str = "",
     if not q_tokens:
         return []
 
+    # Exclude obsidian/confluence mirrors and aggregate meta-docs.
+    pool = [p for p in passages
+            if not _skip_passage(p.get("source", p.get("file", p.get("id", ""))))]
     # Filter by section
-    pool = passages
     if section:
-        pool = [p for p in passages
+        pool = [p for p in pool
                 if section in p.get("source", p.get("file", p.get("id", "")))]
 
     if not pool:
@@ -382,6 +422,13 @@ def search_hybrid(query: str, top: int = 10,
         rrf[dedup_key]  = rrf.get(dedup_key, 0) + 1.0 / (k + rank + 1)
         if dedup_key not in meta:
             meta[dedup_key] = r
+
+    # Small PageRank authority bonus — boosts highly-linked canonical documents.
+    pr = _get_pagerank()
+    if pr:
+        for key in list(rrf):
+            path = meta[key].get("path") or meta[key].get("file", "")
+            rrf[key] += 0.05 * pr.get(path, 0)
 
     merged = sorted(rrf.items(), key=lambda x: -x[1])[:top]
     results = []

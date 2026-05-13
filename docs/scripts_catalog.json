@@ -925,6 +925,16 @@
     "group": "textwork"
   },
   {
+    "name": "improve_pagerank.py",
+    "summary": "Build PageRank scores from intra-repository Markdown links.",
+    "description": "Parses [[wikilinks]] and `[text](relative.md)` in all docs/*.md files, builds a directed graph, and runs the standard PageRank algorithm. Output: docs/pagerank.json — {relative_path: normalised_score, ...} Scores are normalised so the max-scoring document = 1.0; all others are in (0, 1].  Documents with no inbound links receive the base",
+    "flags": [
+      "--dry-run",
+      "--top"
+    ],
+    "group": "quality"
+  },
+  {
     "name": "improve_paragraph_quality.py",
     "summary": "находит проблемные абзацы в документах.",
     "description": "Проверяет: - Слишком короткие абзацы (< MIN_SENTENCES предложений) - Копипаста: абзац почти идентичен другому в том же файле (Jaccard > 0.8) - «Водяные» абзацы: много союзов/местоимений, мало ключевых слов - «Оборванные»: заканчиваются без знака препинания",

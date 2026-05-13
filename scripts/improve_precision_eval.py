@@ -243,7 +243,8 @@ def _build_eval_set() -> list[dict]:
         ),
         (
             "авторы Хабр kksudo spbmolot VitalyOborin письма контакты",
-            ["docs/CONTACTS.md", "docs/letters/kksudo.md"],
+            ["docs/CONTACTS.md", "docs/letters/kksudo.md", "docs/AUTHORS.md",
+             "docs/contacts/kksudo.md"],
         ),
         (
             "Svyazi архитектура CardIndex knowledge три слоя AgentFS",
