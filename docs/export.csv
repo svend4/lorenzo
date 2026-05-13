@@ -474,7 +474,7 @@ docs/READING_LIST.md,READING_LIST.md,READING_LIST.md,Список чтения,2
 docs/READING_ORDER.md,READING_ORDER.md,READING_ORDER.md,Рекомендуемый порядок чтения,22,49941,,Svyazi; Yodoca; MemNet; Wikontic,,да,да
 docs/READING_TIME.md,READING_TIME.md,READING_TIME.md,Время чтения документов,3,213072,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,,да,да
 docs/REGISTRY.md,REGISTRY.md,REGISTRY.md,REGISTRY — реестр артефактов Lorenzo,14,10701,,Svyazi,,да,да
-docs/REPORT.md,REPORT.md,REPORT.md,Svyazi 2.0 — Knowledge Base Report,45,6337,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
+docs/REPORT.md,REPORT.md,REPORT.md,Svyazi 2.0 — Knowledge Base Report,45,6625,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
 docs/RISK_REGISTER.md,RISK_REGISTER.md,RISK_REGISTER.md,Реестр рисков — Svyazi 2.0,17,9048,,Svyazi; CardIndex; AgentFS; Rufler; SENTINEL,- [Матрица рисков (Вероятность × Влияние)](#матрица-рисков-вероятность-влияние),да,да
 docs/ROADMAP/00-CURRENT-STATE.md,ROADMAP,00-CURRENT-STATE.md,00 — Текущее состояние Lorenzo / Knowledge OS,27,16463,,AgentFS; Yodoca; NGT Memory,> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.,да,да
 docs/ROADMAP/01-SIMPLE.md,ROADMAP,01-SIMPLE.md,01 — Простые улучшения (1-3 спринта каждое),203,14797,,Svyazi; AgentFS,> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.,да,да
@@ -1459,7 +1459,7 @@ docs/obsidian/READING_LIST.md,obsidian,READING_LIST.md,Список чтения
 docs/obsidian/READING_ORDER.md,obsidian,READING_ORDER.md,Рекомендуемый порядок чтения,26,38125,,Svyazi; Yodoca; MemNet; Wikontic,,да,да
 docs/obsidian/READING_TIME.md,obsidian,READING_TIME.md,Время чтения документов,7,213149,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs; Automerge,,да,да
 docs/obsidian/REGISTRY.md,obsidian,REGISTRY.md,REGISTRY — реестр артефактов Lorenzo,18,9967,,Svyazi,,да,да
-docs/obsidian/REPORT.md,obsidian,REPORT.md,Svyazi 2.0 — Knowledge Base Report,49,6203,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
+docs/obsidian/REPORT.md,obsidian,REPORT.md,Svyazi 2.0 — Knowledge Base Report,49,6553,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
 docs/obsidian/RISK_REGISTER.md,obsidian,RISK_REGISTER.md,Реестр рисков — Svyazi 2.0,21,8906,,Svyazi; CardIndex; AgentFS; Rufler; SENTINEL,- [Матрица рисков (Вероятность × Влияние)](#матрица-рисков-вероятность-влияние),да,да
 docs/obsidian/ROADMAP/00-CURRENT-STATE.md,obsidian,00-CURRENT-STATE.md,00 — Текущее состояние Lorenzo / Knowledge OS,31,16349,,AgentFS; Yodoca; NGT Memory,> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.,да,да
 docs/obsidian/ROADMAP/01-SIMPLE.md,obsidian,01-SIMPLE.md,01 — Простые улучшения (1-3 спринта каждое),207,14667,,Svyazi; AgentFS,> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.,да,да

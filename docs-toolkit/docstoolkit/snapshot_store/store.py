@@ -155,6 +155,8 @@ class SnapshotStore:
                 "ORDER BY created_at DESC, snapshot_id DESC"
             )
         results: list[SnapshotMetadata] = []
+        if limit <= 0:
+            return results
         for row in cur.fetchall():
             meta = _metadata_from_row(row)
             if tag is not None and tag not in meta.tags:
