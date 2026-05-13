@@ -95,17 +95,29 @@ class RangeRule(ValidationRule):
     def validate(self, field: str, value: Any) -> list[ValidationError]:
         if value is None:
             return []
+        if not isinstance(value, (int, float)):
+            return []
         errors: list[ValidationError] = []
-        if self._min is not None and value < self._min:
+        try:
+            if self._min is not None and value < self._min:
+                errors.append(ValidationError(
+                    field=field,
+                    message=f"'{field}' must be >= {self._min}, got {value}",
+                    value=value,
+                ))
+            if self._max is not None and value > self._max:
+                errors.append(ValidationError(
+                    field=field,
+                    message=f"'{field}' must be <= {self._max}, got {value}",
+                    value=value,
+                ))
+        except TypeError:
             errors.append(ValidationError(
                 field=field,
-                message=f"'{field}' must be >= {self._min}, got {value}",
-                value=value,
-            ))
-        if self._max is not None and value > self._max:
-            errors.append(ValidationError(
-                field=field,
-                message=f"'{field}' must be <= {self._max}, got {value}",
+                message=(
+                    f"'{field}' cannot be compared with range "
+                    f"[{self._min}, {self._max}]: incompatible type {type(value).__name__}"
+                ),
                 value=value,
             ))
         return errors
