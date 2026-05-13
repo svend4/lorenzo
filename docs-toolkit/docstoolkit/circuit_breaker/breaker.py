@@ -1,111 +1,159 @@
+"""CircuitBreakerConfig and CircuitBreaker."""
+import copy
+import threading
 import time
 from dataclasses import dataclass
-from typing import Callable
+
 from docstoolkit.circuit_breaker.state import CircuitState, CircuitStats
+
 
 @dataclass
 class CircuitBreakerConfig:
-    failure_threshold: int = 5       # failures before opening
-    success_threshold: int = 2       # successes in HALF_OPEN before closing
-    timeout_seconds: float = 30.0    # time OPEN before trying HALF_OPEN
-    max_half_open_calls: int = 1     # concurrent HALF_OPEN probe calls
-
-@dataclass
-class CallResult:
-    """Result of a circuit-breaker-protected call."""
-    success: bool
-    result: object = None
-    error: str = ""
-    state_after: CircuitState = CircuitState.CLOSED
-    rejected: bool = False
+    """Configuration for a CircuitBreaker."""
+    failure_threshold: int = 5       # consecutive failures before OPEN
+    recovery_timeout: float = 60.0   # seconds OPEN before trying HALF_OPEN
+    half_open_max_calls: int = 3     # calls allowed in HALF_OPEN
+    success_threshold: int = 2       # consecutive successes in HALF_OPEN to CLOSE
 
 
 class CircuitBreaker:
-    """Circuit breaker for protecting external calls.
+    """Circuit breaker protecting external calls from cascading failures.
 
-    States:
-    CLOSED → calls pass through; too many failures → OPEN
-    OPEN → calls rejected immediately; after timeout → HALF_OPEN
-    HALF_OPEN → limited probe calls; success → CLOSED; failure → OPEN
+    State machine:
+      CLOSED  → too many consecutive failures → OPEN
+      OPEN    → recovery_timeout elapsed      → HALF_OPEN
+      HALF_OPEN → success_threshold successes → CLOSED
+      HALF_OPEN → any failure                → OPEN
     """
 
-    def __init__(self, name: str, config: CircuitBreakerConfig | None = None):
+    def __init__(self, name: str, config: "CircuitBreakerConfig | None" = None):
         self.name = name
-        self._config = config or CircuitBreakerConfig()
-        self._state = CircuitState.CLOSED
-        self._stats = CircuitStats()
+        self._config = config if config is not None else CircuitBreakerConfig()
+        self._state: CircuitState = CircuitState.CLOSED
+        self._stats: CircuitStats = CircuitStats()
         self._open_since: float = 0.0
-        self._half_open_successes: int = 0
         self._half_open_calls: int = 0
+        self._lock = threading.Lock()
+
+    # ------------------------------------------------------------------
+    # Properties
+    # ------------------------------------------------------------------
 
     @property
     def state(self) -> CircuitState:
-        self._check_timeout()
-        return self._state
+        """Current state (may trigger OPEN→HALF_OPEN timeout check)."""
+        with self._lock:
+            self._maybe_transition_to_half_open()
+            return self._state
 
     @property
     def stats(self) -> CircuitStats:
-        return self._stats
+        """Return a shallow copy of the current stats."""
+        with self._lock:
+            return copy.copy(self._stats)
 
-    def _check_timeout(self) -> None:
-        """Transition OPEN → HALF_OPEN if timeout elapsed."""
-        if (self._state == CircuitState.OPEN and
-                self._open_since > 0 and
-                time.monotonic() - self._open_since >= self._config.timeout_seconds):
-            self._state = CircuitState.HALF_OPEN
-            self._half_open_successes = 0
+    # ------------------------------------------------------------------
+    # Public interface
+    # ------------------------------------------------------------------
+
+    def call(self, func, *args, **kwargs):
+        """Execute *func* through the circuit breaker.
+
+        Raises CircuitOpenError if the circuit is OPEN or if HALF_OPEN
+        and the half_open_max_calls limit has been reached.
+
+        On success: updates stats; if HALF_OPEN and consecutive_successes
+        reaches success_threshold, transitions back to CLOSED.
+
+        On failure: updates stats; if CLOSED and consecutive_failures
+        reaches failure_threshold → OPEN; if HALF_OPEN → OPEN.
+
+        Returns whatever *func* returns.
+        """
+        from docstoolkit.circuit_breaker.registry import CircuitOpenError
+
+        with self._lock:
+            self._maybe_transition_to_half_open()
+
+            if self._state == CircuitState.OPEN:
+                raise CircuitOpenError(
+                    f"Circuit '{self.name}' is OPEN — failing fast"
+                )
+
+            if self._state == CircuitState.HALF_OPEN:
+                if self._half_open_calls >= self._config.half_open_max_calls:
+                    raise CircuitOpenError(
+                        f"Circuit '{self.name}' is HALF_OPEN — max probe calls reached"
+                    )
+                self._half_open_calls += 1
+
+        # Execute outside the lock so concurrent calls are not serialised
+        try:
+            result = func(*args, **kwargs)
+        except Exception:
+            with self._lock:
+                self._record_failure()
+            raise
+
+        with self._lock:
+            self._record_success()
+
+        return result
+
+    def reset(self) -> None:
+        """Force circuit back to CLOSED and zero all stats."""
+        with self._lock:
+            self._state = CircuitState.CLOSED
+            self._stats.reset()
+            self._open_since = 0.0
             self._half_open_calls = 0
 
-    def call(self, fn: Callable, *args, **kwargs) -> CallResult:
-        """Execute fn through circuit breaker.
+    def trip(self) -> None:
+        """Force circuit to OPEN (useful for testing)."""
+        with self._lock:
+            self._state = CircuitState.OPEN
+            self._open_since = time.monotonic()
 
-        OPEN: reject immediately → CallResult(rejected=True, success=False)
-        HALF_OPEN: if _half_open_calls >= max_half_open_calls: reject
-        Otherwise: execute fn
-          - Success: record_success; if HALF_OPEN: increment successes;
-            if successes >= success_threshold: CLOSED + reset
-          - Exception: record_failure; if >= failure_threshold: OPEN
-        """
-        self._check_timeout()
+    # ------------------------------------------------------------------
+    # Internal helpers (must be called with lock held)
+    # ------------------------------------------------------------------
 
-        if self._state == CircuitState.OPEN:
-            self._stats.record_rejected()
-            return CallResult(success=False, rejected=True,
-                              state_after=CircuitState.OPEN,
-                              error="Circuit is OPEN")
+    def _maybe_transition_to_half_open(self) -> None:
+        """If OPEN and recovery_timeout has elapsed, move to HALF_OPEN."""
+        if (
+            self._state == CircuitState.OPEN
+            and self._open_since > 0
+            and time.monotonic() - self._open_since >= self._config.recovery_timeout
+        ):
+            self._state = CircuitState.HALF_OPEN
+            self._half_open_calls = 0
 
-        if (self._state == CircuitState.HALF_OPEN and
-                self._half_open_calls >= self._config.max_half_open_calls):
-            self._stats.record_rejected()
-            return CallResult(success=False, rejected=True,
-                              state_after=CircuitState.HALF_OPEN,
-                              error="Circuit is HALF_OPEN, max probes reached")
+    def _record_success(self) -> None:
+        s = self._stats
+        s.total_calls += 1
+        s.successes += 1
+        s.consecutive_successes += 1
+        s.consecutive_failures = 0
 
         if self._state == CircuitState.HALF_OPEN:
-            self._half_open_calls += 1
+            if s.consecutive_successes >= self._config.success_threshold:
+                self._state = CircuitState.CLOSED
+                self._stats.reset()
+                self._half_open_calls = 0
 
-        try:
-            result = fn(*args, **kwargs)
-            self._stats.record_success()
-            if self._state == CircuitState.HALF_OPEN:
-                self._half_open_successes += 1
-                if self._half_open_successes >= self._config.success_threshold:
-                    self._state = CircuitState.CLOSED
-                    self._stats.reset()
-            return CallResult(success=True, result=result, state_after=self._state)
-        except Exception as e:
-            self._stats.record_failure()
-            if self._stats.failure_count >= self._config.failure_threshold:
+    def _record_failure(self) -> None:
+        import time as _time
+        s = self._stats
+        s.total_calls += 1
+        s.failures += 1
+        s.consecutive_failures += 1
+        s.consecutive_successes = 0
+        s.last_failure_time = _time.monotonic()
+
+        if self._state == CircuitState.CLOSED:
+            if s.consecutive_failures >= self._config.failure_threshold:
                 self._state = CircuitState.OPEN
-                self._open_since = time.monotonic()
-                self._half_open_successes = 0
-            return CallResult(success=False, error=str(e), state_after=self._state)
-
-    def force_open(self) -> None:
-        self._state = CircuitState.OPEN
-        self._open_since = time.monotonic()
-
-    def force_close(self) -> None:
-        self._state = CircuitState.CLOSED
-        self._stats.reset()
-        self._half_open_successes = 0
+                self._open_since = _time.monotonic()
+        elif self._state == CircuitState.HALF_OPEN:
+            self._state = CircuitState.OPEN
+            self._open_since = _time.monotonic()

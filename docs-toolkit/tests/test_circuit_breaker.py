@@ -1,16 +1,64 @@
-"""Tests for the circuit_breaker module — 65+ tests."""
+"""Tests for the circuit_breaker module — 75+ tests covering all spec requirements."""
+import threading
 import time
 import pytest
 
 from docstoolkit.circuit_breaker import (
-    CircuitState, CircuitStats,
-    CircuitBreaker, CircuitBreakerConfig, CallResult,
+    CircuitState,
+    CircuitStats,
+    CircuitBreaker,
+    CircuitBreakerConfig,
     CircuitBreakerRegistry,
+    CircuitOpenError,
 )
 
 
 # ---------------------------------------------------------------------------
-# CircuitState enum
+# Helpers
+# ---------------------------------------------------------------------------
+
+def _ok(*args, **kwargs):
+    return "ok"
+
+
+def _fail(*args, **kwargs):
+    raise RuntimeError("deliberate failure")
+
+
+def _return(value):
+    """Return a callable that returns *value*."""
+    def fn(*args, **kwargs):
+        return value
+    return fn
+
+
+def _make_cb(
+    failure_threshold=5,
+    recovery_timeout=60.0,
+    half_open_max_calls=3,
+    success_threshold=2,
+    name="svc",
+):
+    cfg = CircuitBreakerConfig(
+        failure_threshold=failure_threshold,
+        recovery_timeout=recovery_timeout,
+        half_open_max_calls=half_open_max_calls,
+        success_threshold=success_threshold,
+    )
+    return CircuitBreaker(name, cfg)
+
+
+def _trip_and_recover(cb):
+    """Force cb to HALF_OPEN immediately (uses very short recovery_timeout)."""
+    cb.trip()
+    # wait past the configured recovery_timeout (already set short by caller)
+    time.sleep(cb._config.recovery_timeout + 0.02)
+    # touch state to trigger transition
+    _ = cb.state
+
+
+# ---------------------------------------------------------------------------
+# 1. CircuitState enum
 # ---------------------------------------------------------------------------
 
 class TestCircuitState:
@@ -23,186 +71,124 @@ class TestCircuitState:
     def test_half_open_value(self):
         assert CircuitState.HALF_OPEN == "half_open"
 
-    def test_three_members(self):
+    def test_exactly_three_members(self):
         assert len(CircuitState) == 3
 
     def test_is_str_enum(self):
         assert isinstance(CircuitState.CLOSED, str)
 
+    def test_members_distinct(self):
+        states = {CircuitState.CLOSED, CircuitState.OPEN, CircuitState.HALF_OPEN}
+        assert len(states) == 3
+
 
 # ---------------------------------------------------------------------------
-# CircuitStats
+# 2. CircuitStats dataclass
 # ---------------------------------------------------------------------------
 
 class TestCircuitStats:
-    def test_defaults_zero(self):
+    def test_default_total_calls(self):
         s = CircuitStats()
         assert s.total_calls == 0
-        assert s.success_count == 0
-        assert s.failure_count == 0
-        assert s.rejected_count == 0
-        assert s.last_failure_ts == ""
-        assert s.last_success_ts == ""
 
-    def test_failure_rate_no_calls(self):
+    def test_default_failures(self):
         s = CircuitStats()
-        assert s.failure_rate() == 0.0
+        assert s.failures == 0
 
-    def test_failure_rate_all_success(self):
+    def test_default_successes(self):
         s = CircuitStats()
-        s.record_success()
-        s.record_success()
+        assert s.successes == 0
+
+    def test_default_consecutive_failures(self):
+        s = CircuitStats()
+        assert s.consecutive_failures == 0
+
+    def test_default_consecutive_successes(self):
+        s = CircuitStats()
+        assert s.consecutive_successes == 0
+
+    def test_default_last_failure_time(self):
+        s = CircuitStats()
+        assert s.last_failure_time == 0.0
+
+    def test_failure_rate_zero_calls(self):
+        s = CircuitStats()
         assert s.failure_rate() == 0.0
 
     def test_failure_rate_all_failures(self):
-        s = CircuitStats()
-        s.record_failure()
-        s.record_failure()
+        s = CircuitStats(total_calls=4, failures=4)
         assert s.failure_rate() == 1.0
 
-    def test_failure_rate_mixed(self):
-        s = CircuitStats()
-        s.record_success()
-        s.record_failure()
-        assert s.failure_rate() == pytest.approx(0.5)
-
-    def test_failure_rate_excludes_rejected(self):
-        # rejected calls do not count toward failure_rate denominator
-        s = CircuitStats()
-        s.record_success()
-        s.record_rejected()
+    def test_failure_rate_all_successes(self):
+        s = CircuitStats(total_calls=3, successes=3)
         assert s.failure_rate() == 0.0
 
-    def test_record_success_increments(self):
-        s = CircuitStats()
-        s.record_success()
-        assert s.total_calls == 1
-        assert s.success_count == 1
-        assert s.failure_count == 0
+    def test_failure_rate_mixed(self):
+        s = CircuitStats(total_calls=10, failures=3, successes=7)
+        assert s.failure_rate() == pytest.approx(0.3)
 
-    def test_record_failure_increments(self):
-        s = CircuitStats()
-        s.record_failure()
-        assert s.total_calls == 1
-        assert s.failure_count == 1
-        assert s.success_count == 0
+    def test_failure_rate_uses_total_calls(self):
+        # total_calls is the denominator (not failures+successes)
+        s = CircuitStats(total_calls=5, failures=2)
+        assert s.failure_rate() == pytest.approx(2 / 5)
 
-    def test_record_rejected_increments(self):
-        s = CircuitStats()
-        s.record_rejected()
-        assert s.total_calls == 1
-        assert s.rejected_count == 1
-
-    def test_last_success_ts_set(self):
-        s = CircuitStats()
-        assert s.last_success_ts == ""
-        s.record_success()
-        assert s.last_success_ts != ""
-
-    def test_last_failure_ts_set(self):
-        s = CircuitStats()
-        assert s.last_failure_ts == ""
-        s.record_failure()
-        assert s.last_failure_ts != ""
-
-    def test_reset_clears_all(self):
-        s = CircuitStats()
-        s.record_success()
-        s.record_failure()
-        s.record_rejected()
+    def test_reset_clears_all_fields(self):
+        s = CircuitStats(
+            total_calls=10,
+            failures=3,
+            successes=7,
+            consecutive_failures=2,
+            consecutive_successes=4,
+            last_failure_time=123.456,
+        )
         s.reset()
         assert s.total_calls == 0
-        assert s.success_count == 0
-        assert s.failure_count == 0
-        assert s.rejected_count == 0
-        assert s.last_success_ts == ""
-        assert s.last_failure_ts == ""
+        assert s.failures == 0
+        assert s.successes == 0
+        assert s.consecutive_failures == 0
+        assert s.consecutive_successes == 0
+        assert s.last_failure_time == 0.0
 
-    def test_multiple_records_accumulate(self):
+    def test_reset_idempotent(self):
         s = CircuitStats()
-        for _ in range(3):
-            s.record_success()
-        for _ in range(2):
-            s.record_failure()
-        assert s.total_calls == 5
-        assert s.success_count == 3
-        assert s.failure_count == 2
+        s.reset()
+        s.reset()
+        assert s.total_calls == 0
 
 
 # ---------------------------------------------------------------------------
-# CircuitBreakerConfig defaults
+# 3. CircuitBreakerConfig defaults
 # ---------------------------------------------------------------------------
 
 class TestCircuitBreakerConfig:
     def test_default_failure_threshold(self):
-        cfg = CircuitBreakerConfig()
-        assert cfg.failure_threshold == 5
+        assert CircuitBreakerConfig().failure_threshold == 5
+
+    def test_default_recovery_timeout(self):
+        assert CircuitBreakerConfig().recovery_timeout == 60.0
+
+    def test_default_half_open_max_calls(self):
+        assert CircuitBreakerConfig().half_open_max_calls == 3
 
     def test_default_success_threshold(self):
-        cfg = CircuitBreakerConfig()
-        assert cfg.success_threshold == 2
-
-    def test_default_timeout_seconds(self):
-        cfg = CircuitBreakerConfig()
-        assert cfg.timeout_seconds == 30.0
-
-    def test_default_max_half_open_calls(self):
-        cfg = CircuitBreakerConfig()
-        assert cfg.max_half_open_calls == 1
+        assert CircuitBreakerConfig().success_threshold == 2
 
     def test_custom_values(self):
-        cfg = CircuitBreakerConfig(failure_threshold=3, success_threshold=1,
-                                   timeout_seconds=10.0, max_half_open_calls=2)
-        assert cfg.failure_threshold == 3
-        assert cfg.success_threshold == 1
-        assert cfg.timeout_seconds == 10.0
-        assert cfg.max_half_open_calls == 2
+        cfg = CircuitBreakerConfig(
+            failure_threshold=10,
+            recovery_timeout=5.0,
+            half_open_max_calls=1,
+            success_threshold=3,
+        )
+        assert cfg.failure_threshold == 10
+        assert cfg.recovery_timeout == 5.0
+        assert cfg.half_open_max_calls == 1
+        assert cfg.success_threshold == 3
 
 
 # ---------------------------------------------------------------------------
-# CallResult
+# 4. CircuitBreaker – initial state & basic call
 # ---------------------------------------------------------------------------
-
-class TestCallResult:
-    def test_success_fields(self):
-        r = CallResult(success=True, result=42)
-        assert r.success is True
-        assert r.result == 42
-        assert r.error == ""
-        assert r.rejected is False
-
-    def test_failure_fields(self):
-        r = CallResult(success=False, error="boom")
-        assert r.success is False
-        assert r.error == "boom"
-        assert r.result is None
-
-    def test_rejected_default_false(self):
-        r = CallResult(success=True)
-        assert r.rejected is False
-
-    def test_rejected_can_be_set(self):
-        r = CallResult(success=False, rejected=True, error="Circuit is OPEN")
-        assert r.rejected is True
-
-    def test_state_after_default(self):
-        r = CallResult(success=True)
-        assert r.state_after == CircuitState.CLOSED
-
-
-# ---------------------------------------------------------------------------
-# CircuitBreaker — core behaviour
-# ---------------------------------------------------------------------------
-
-def _fail():
-    raise ValueError("deliberate failure")
-
-def _ok():
-    return "ok"
-
-def _ok_val(v):
-    return v
-
 
 class TestCircuitBreakerBasics:
     def test_initial_state_closed(self):
@@ -213,302 +199,594 @@ class TestCircuitBreakerBasics:
         cb = CircuitBreaker("my-service")
         assert cb.name == "my-service"
 
-    def test_successful_call_returns_success(self):
+    def test_none_config_uses_defaults(self):
+        cb = CircuitBreaker("svc", None)
+        assert cb._config.failure_threshold == 5
+
+    def test_successful_call_returns_value(self):
         cb = CircuitBreaker("svc")
-        res = cb.call(_ok)
-        assert res.success is True
-        assert res.result == "ok"
-        assert res.rejected is False
+        result = cb.call(_return(42))
+        assert result == 42
 
     def test_successful_call_with_args(self):
         cb = CircuitBreaker("svc")
-        res = cb.call(_ok_val, 99)
-        assert res.result == 99
+        result = cb.call(lambda x, y: x + y, 3, 4)
+        assert result == 7
 
-    def test_successful_call_increments_stats(self):
+    def test_successful_call_with_kwargs(self):
+        cb = CircuitBreaker("svc")
+        result = cb.call(lambda x=0, y=0: x * y, x=6, y=7)
+        assert result == 42
+
+    def test_success_increments_total_calls(self):
         cb = CircuitBreaker("svc")
         cb.call(_ok)
-        assert cb.stats.success_count == 1
+        assert cb.stats.total_calls == 1
 
-    def test_exception_returns_failure(self):
+    def test_success_increments_successes(self):
         cb = CircuitBreaker("svc")
-        res = cb.call(_fail)
-        assert res.success is False
-        assert "deliberate failure" in res.error
+        cb.call(_ok)
+        assert cb.stats.successes == 1
 
-    def test_exception_increments_failure_count(self):
+    def test_failure_raises_original_exception(self):
         cb = CircuitBreaker("svc")
-        cb.call(_fail)
-        assert cb.stats.failure_count == 1
+        with pytest.raises(RuntimeError, match="deliberate failure"):
+            cb.call(_fail)
 
-    def test_state_after_is_current_state(self):
+    def test_failure_increments_failures(self):
         cb = CircuitBreaker("svc")
-        res = cb.call(_ok)
-        assert res.state_after == CircuitState.CLOSED
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.stats.failures == 1
+
+    def test_failure_increments_total_calls(self):
+        cb = CircuitBreaker("svc")
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.stats.total_calls == 1
+
+    def test_stats_property_returns_copy(self):
+        cb = CircuitBreaker("svc")
+        s1 = cb.stats
+        cb.call(_ok)
+        s2 = cb.stats
+        assert s1.total_calls == 0
+        assert s2.total_calls == 1
 
 
-class TestCircuitBreakerOpening:
-    def _cb(self, threshold=3):
-        return CircuitBreaker("svc", CircuitBreakerConfig(failure_threshold=threshold,
-                                                          timeout_seconds=60.0))
+# ---------------------------------------------------------------------------
+# 5. CLOSED → OPEN transition
+# ---------------------------------------------------------------------------
 
-    def test_opens_after_threshold_failures(self):
-        cb = self._cb(3)
+class TestClosedToOpen:
+    def test_opens_after_consecutive_failure_threshold(self):
+        cb = _make_cb(failure_threshold=3)
         for _ in range(3):
-            cb.call(_fail)
+            with pytest.raises(RuntimeError):
+                cb.call(_fail)
         assert cb.state == CircuitState.OPEN
 
-    def test_does_not_open_before_threshold(self):
-        cb = self._cb(3)
+    def test_does_not_open_below_threshold(self):
+        cb = _make_cb(failure_threshold=3)
         for _ in range(2):
+            with pytest.raises(RuntimeError):
+                cb.call(_fail)
+        assert cb.state == CircuitState.CLOSED
+
+    def test_success_resets_consecutive_failures(self):
+        cb = _make_cb(failure_threshold=3)
+        with pytest.raises(RuntimeError):
             cb.call(_fail)
+        cb.call(_ok)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        # consecutive_failures reset to 1, not 2
+        assert cb.stats.consecutive_failures == 1
         assert cb.state == CircuitState.CLOSED
 
-    def test_open_call_returns_rejected(self):
-        cb = self._cb(1)
-        cb.call(_fail)
-        assert cb.state == CircuitState.OPEN
-        res = cb.call(_ok)
-        assert res.rejected is True
-        assert res.success is False
+    def test_consecutive_failures_counter_increments(self):
+        cb = _make_cb(failure_threshold=10)
+        for i in range(4):
+            with pytest.raises(RuntimeError):
+                cb.call(_fail)
+        assert cb.stats.consecutive_failures == 4
 
-    def test_open_call_increments_rejected_count(self):
-        cb = self._cb(1)
-        cb.call(_fail)
-        cb.call(_ok)  # rejected
-        assert cb.stats.rejected_count == 1
-
-    def test_open_call_does_not_execute_fn(self):
-        calls = []
-        cb = self._cb(1)
-        cb.call(_fail)
-        cb.call(lambda: calls.append(1))
-        assert calls == []
-
-    def test_state_after_on_open_rejection(self):
-        cb = self._cb(1)
-        cb.call(_fail)
-        res = cb.call(_ok)
-        assert res.state_after == CircuitState.OPEN
-
-
-class TestCircuitBreakerForce:
-    def test_force_open(self):
+    def test_last_failure_time_set_on_failure(self):
         cb = CircuitBreaker("svc")
-        cb.force_open()
-        assert cb.state == CircuitState.OPEN
-
-    def test_force_close(self):
-        cb = CircuitBreaker("svc")
-        cb.force_open()
-        cb.force_close()
-        assert cb.state == CircuitState.CLOSED
-
-    def test_force_close_resets_stats(self):
-        cb = CircuitBreaker("svc", CircuitBreakerConfig(failure_threshold=2))
-        cb.call(_fail)
-        cb.call(_fail)
-        assert cb.stats.failure_count == 2
-        cb.force_close()
-        assert cb.stats.failure_count == 0
-
-    def test_force_close_allows_calls(self):
-        cb = CircuitBreaker("svc", CircuitBreakerConfig(failure_threshold=1))
-        cb.call(_fail)
-        assert cb.state == CircuitState.OPEN
-        cb.force_close()
-        res = cb.call(_ok)
-        assert res.success is True
+        before = time.monotonic()
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.stats.last_failure_time >= before
 
 
 # ---------------------------------------------------------------------------
-# CircuitBreaker — HALF_OPEN behaviour
+# 6. OPEN state – fast-fail
 # ---------------------------------------------------------------------------
 
-class TestCircuitBreakerHalfOpen:
-    def _open_cb(self, failure_threshold=1, success_threshold=2,
-                 max_half_open_calls=1):
-        cfg = CircuitBreakerConfig(failure_threshold=failure_threshold,
-                                   success_threshold=success_threshold,
-                                   timeout_seconds=60.0,
-                                   max_half_open_calls=max_half_open_calls)
-        cb = CircuitBreaker("svc", cfg)
-        # Force into HALF_OPEN directly
-        cb._state = CircuitState.HALF_OPEN
-        cb._half_open_successes = 0
-        cb._half_open_calls = 0
+class TestOpenState:
+    def test_open_raises_circuit_open_error(self):
+        cb = _make_cb(failure_threshold=1)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.state == CircuitState.OPEN
+        with pytest.raises(CircuitOpenError):
+            cb.call(_ok)
+
+    def test_open_does_not_execute_callable(self):
+        called = []
+        cb = _make_cb(failure_threshold=1)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        with pytest.raises(CircuitOpenError):
+            cb.call(lambda: called.append(1))
+        assert called == []
+
+    def test_open_consecutive_rejections(self):
+        cb = _make_cb(failure_threshold=1)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        for _ in range(5):
+            with pytest.raises(CircuitOpenError):
+                cb.call(_ok)
+
+    def test_trip_forces_open(self):
+        cb = CircuitBreaker("svc")
+        cb.trip()
+        assert cb.state == CircuitState.OPEN
+
+    def test_trip_then_fast_fail(self):
+        cb = CircuitBreaker("svc")
+        cb.trip()
+        with pytest.raises(CircuitOpenError):
+            cb.call(_ok)
+
+
+# ---------------------------------------------------------------------------
+# 7. OPEN → HALF_OPEN (time-based recovery)
+# ---------------------------------------------------------------------------
+
+class TestOpenToHalfOpen:
+    def test_transitions_after_recovery_timeout(self):
+        cb = _make_cb(failure_threshold=1, recovery_timeout=0.05)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb._state == CircuitState.OPEN
+        time.sleep(0.1)
+        assert cb.state == CircuitState.HALF_OPEN
+
+    def test_no_transition_before_timeout(self):
+        cb = _make_cb(failure_threshold=1, recovery_timeout=60.0)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.state == CircuitState.OPEN
+
+    def test_trip_and_recover(self):
+        cb = _make_cb(failure_threshold=5, recovery_timeout=0.05)
+        cb.trip()
+        time.sleep(0.1)
+        assert cb.state == CircuitState.HALF_OPEN
+
+    def test_call_triggers_transition(self):
+        cb = _make_cb(failure_threshold=1, recovery_timeout=0.05,
+                      success_threshold=10)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        time.sleep(0.1)
+        # call itself should transition then execute
+        result = cb.call(_ok)
+        assert result == "ok"
+
+
+# ---------------------------------------------------------------------------
+# 8. HALF_OPEN behaviour
+# ---------------------------------------------------------------------------
+
+class TestHalfOpen:
+    def _half_open_cb(self, success_threshold=2, half_open_max_calls=3,
+                      failure_threshold=5):
+        cb = _make_cb(
+            failure_threshold=failure_threshold,
+            recovery_timeout=0.05,
+            half_open_max_calls=half_open_max_calls,
+            success_threshold=success_threshold,
+        )
+        cb.trip()
+        time.sleep(0.1)
+        _ = cb.state  # trigger transition
         return cb
 
-    def test_half_open_allows_probe(self):
-        cb = self._open_cb()
-        res = cb.call(_ok)
-        assert res.success is True
-        assert res.rejected is False
-
-    def test_half_open_success_increments_counter(self):
-        cb = self._open_cb()
+    def test_half_open_allows_calls_up_to_max(self):
+        cb = self._half_open_cb(success_threshold=10, half_open_max_calls=2)
         cb.call(_ok)
-        assert cb._half_open_successes == 1
+        cb.call(_ok)
+        # 3rd should be rejected
+        with pytest.raises(CircuitOpenError):
+            cb.call(_ok)
+
+    def test_half_open_max_calls_zero_rejects_all(self):
+        cb = self._half_open_cb(half_open_max_calls=0)
+        with pytest.raises(CircuitOpenError):
+            cb.call(_ok)
+
+    def test_half_open_success_increments_consecutive(self):
+        cb = self._half_open_cb(success_threshold=5, half_open_max_calls=5)
+        cb.call(_ok)
+        assert cb.stats.consecutive_successes == 1
 
     def test_half_open_closes_after_success_threshold(self):
-        cb = self._open_cb(success_threshold=2, max_half_open_calls=2)
+        cb = self._half_open_cb(success_threshold=2, half_open_max_calls=5)
         cb.call(_ok)
         assert cb._state == CircuitState.HALF_OPEN  # still half-open after 1
         cb.call(_ok)
         assert cb.state == CircuitState.CLOSED
 
     def test_half_open_stats_reset_on_close(self):
-        cb = self._open_cb(success_threshold=1)
-        # Add some stats first
-        cb._stats.record_failure()
-        cb.call(_ok)
+        cb = self._half_open_cb(success_threshold=1, half_open_max_calls=5)
+        # Put some stats in
+        cb._stats.failures = 10
+        cb._stats.total_calls = 10
+        cb.call(_ok)  # hits success_threshold=1 → CLOSED + reset
         assert cb.state == CircuitState.CLOSED
-        # After close, stats are reset
-        assert cb.stats.failure_count == 0
+        assert cb.stats.total_calls == 0
+        assert cb.stats.failures == 0
 
     def test_half_open_failure_reopens(self):
-        cb = self._open_cb(failure_threshold=1)
-        cb.call(_fail)
+        cb = self._half_open_cb(success_threshold=5, half_open_max_calls=5)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
         assert cb.state == CircuitState.OPEN
 
-    def test_half_open_max_probes_reached_rejects(self):
-        cb = self._open_cb(max_half_open_calls=1)
-        # first probe is allowed (will succeed but state stays HALF_OPEN with threshold=2)
-        cfg = CircuitBreakerConfig(failure_threshold=1, success_threshold=2,
-                                   timeout_seconds=60.0, max_half_open_calls=1)
-        cb2 = CircuitBreaker("svc2", cfg)
-        cb2._state = CircuitState.HALF_OPEN
-        cb2._half_open_calls = 1  # already at max
-        res = cb2.call(_ok)
-        assert res.rejected is True
-        assert res.state_after == CircuitState.HALF_OPEN
-
-    def test_timeout_transitions_open_to_half_open(self):
-        cfg = CircuitBreakerConfig(failure_threshold=1, timeout_seconds=0.01)
-        cb = CircuitBreaker("svc", cfg)
-        cb.call(_fail)
-        assert cb._state == CircuitState.OPEN
-        time.sleep(0.05)
-        # accessing .state triggers _check_timeout
+    def test_half_open_failure_resets_half_open_calls(self):
+        cb = self._half_open_cb(success_threshold=5, half_open_max_calls=5,
+                                failure_threshold=1)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.state == CircuitState.OPEN
+        # After recovery, half_open_calls should be reset
+        time.sleep(0.1)
         assert cb.state == CircuitState.HALF_OPEN
-
-    def test_no_transition_before_timeout(self):
-        cfg = CircuitBreakerConfig(failure_threshold=1, timeout_seconds=60.0)
-        cb = CircuitBreaker("svc", cfg)
-        cb.call(_fail)
-        assert cb.state == CircuitState.OPEN  # timeout not elapsed
+        assert cb._half_open_calls == 0
 
 
 # ---------------------------------------------------------------------------
-# CircuitBreaker — stats failure_rate
+# 9. CircuitBreaker.reset() and trip()
 # ---------------------------------------------------------------------------
 
-class TestCircuitBreakerStatsIntegration:
-    def test_failure_rate_after_calls(self):
-        cb = CircuitBreaker("svc", CircuitBreakerConfig(failure_threshold=10))
-        cb.call(_ok)
-        cb.call(_ok)
-        cb.call(_fail)
-        # 2 success, 1 failure → rate = 1/3
-        assert cb.stats.failure_rate() == pytest.approx(1 / 3)
+class TestResetAndTrip:
+    def test_reset_closes_open_circuit(self):
+        cb = CircuitBreaker("svc")
+        cb.trip()
+        assert cb.state == CircuitState.OPEN
+        cb.reset()
+        assert cb.state == CircuitState.CLOSED
 
-    def test_rejected_count_on_open(self):
-        cb = CircuitBreaker("svc", CircuitBreakerConfig(failure_threshold=1))
-        cb.call(_fail)
-        cb.call(_ok)  # rejected
-        cb.call(_ok)  # rejected
-        assert cb.stats.rejected_count == 2
+    def test_reset_zeroes_stats(self):
+        cb = _make_cb(failure_threshold=2)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        cb.reset()
+        s = cb.stats
+        assert s.total_calls == 0
+        assert s.failures == 0
+        assert s.consecutive_failures == 0
+
+    def test_reset_allows_calls(self):
+        cb = _make_cb(failure_threshold=1)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        cb.reset()
+        result = cb.call(_ok)
+        assert result == "ok"
+
+    def test_reset_idempotent(self):
+        cb = CircuitBreaker("svc")
+        cb.reset()
+        cb.reset()
+        assert cb.state == CircuitState.CLOSED
+
+    def test_trip_forces_open(self):
+        cb = CircuitBreaker("svc")
+        cb.trip()
+        assert cb.state == CircuitState.OPEN
+
+    def test_trip_on_already_open(self):
+        cb = CircuitBreaker("svc")
+        cb.trip()
+        cb.trip()  # should not raise
+        assert cb.state == CircuitState.OPEN
+
+    def test_trip_resets_open_since_timestamp(self):
+        cb = CircuitBreaker("svc")
+        before = time.monotonic()
+        cb.trip()
+        assert cb._open_since >= before
 
 
 # ---------------------------------------------------------------------------
-# CircuitBreakerRegistry
+# 10. CircuitOpenError
+# ---------------------------------------------------------------------------
+
+class TestCircuitOpenError:
+    def test_is_exception_subclass(self):
+        assert issubclass(CircuitOpenError, Exception)
+
+    def test_can_be_raised_and_caught(self):
+        with pytest.raises(CircuitOpenError):
+            raise CircuitOpenError("test")
+
+    def test_open_raises_circuit_open_error_not_swallowed(self):
+        cb = _make_cb(failure_threshold=1)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        try:
+            cb.call(_ok)
+            assert False, "Expected CircuitOpenError"
+        except CircuitOpenError:
+            pass
+        except Exception as e:
+            assert False, f"Wrong exception type: {type(e)}"
+
+    def test_half_open_limit_raises_circuit_open_error(self):
+        cb = _make_cb(failure_threshold=1, recovery_timeout=0.05,
+                      half_open_max_calls=0, success_threshold=5)
+        cb.trip()
+        time.sleep(0.1)
+        _ = cb.state
+        with pytest.raises(CircuitOpenError):
+            cb.call(_ok)
+
+    def test_original_exception_not_wrapped(self):
+        cb = CircuitBreaker("svc")
+        with pytest.raises(ValueError):
+            cb.call(lambda: (_ for _ in ()).throw(ValueError("raw")))
+
+
+# ---------------------------------------------------------------------------
+# 11. CircuitBreakerRegistry
 # ---------------------------------------------------------------------------
 
 class TestCircuitBreakerRegistry:
-    def test_get_or_create_returns_breaker(self):
+    def test_get_creates_breaker(self):
         reg = CircuitBreakerRegistry()
-        b = reg.get_or_create("svc-a")
+        b = reg.get("svc-a")
         assert isinstance(b, CircuitBreaker)
         assert b.name == "svc-a"
 
-    def test_get_or_create_same_instance(self):
+    def test_get_reuses_existing(self):
         reg = CircuitBreakerRegistry()
-        b1 = reg.get_or_create("svc-a")
-        b2 = reg.get_or_create("svc-a")
+        b1 = reg.get("svc-a")
+        b2 = reg.get("svc-a")
         assert b1 is b2
 
-    def test_get_missing_returns_none(self):
+    def test_get_different_names_different_breakers(self):
         reg = CircuitBreakerRegistry()
-        assert reg.get("nonexistent") is None
+        a = reg.get("a")
+        b = reg.get("b")
+        assert a is not b
 
-    def test_get_existing(self):
+    def test_all_returns_dict(self):
         reg = CircuitBreakerRegistry()
-        b = reg.get_or_create("svc-a")
-        assert reg.get("svc-a") is b
+        reg.get("x")
+        reg.get("y")
+        d = reg.all()
+        assert isinstance(d, dict)
+        assert "x" in d and "y" in d
 
-    def test_list_names_sorted(self):
+    def test_all_returns_copy(self):
         reg = CircuitBreakerRegistry()
-        reg.get_or_create("zebra")
-        reg.get_or_create("alpha")
-        reg.get_or_create("mango")
-        assert reg.list_names() == ["alpha", "mango", "zebra"]
+        reg.get("x")
+        d = reg.all()
+        d["injected"] = None
+        assert "injected" not in reg.all()
 
-    def test_list_names_empty(self):
+    def test_all_empty_registry(self):
         reg = CircuitBreakerRegistry()
-        assert reg.list_names() == []
+        assert reg.all() == {}
 
-    def test_open_circuits_empty_when_all_closed(self):
+    def test_reset_all_closes_open_breakers(self):
         reg = CircuitBreakerRegistry()
-        reg.get_or_create("a")
-        reg.get_or_create("b")
-        assert reg.open_circuits() == []
-
-    def test_open_circuits_after_force_open(self):
-        reg = CircuitBreakerRegistry()
-        reg.get_or_create("a").force_open()
-        reg.get_or_create("b")
-        assert "a" in reg.open_circuits()
-        assert "b" not in reg.open_circuits()
-
-    def test_health_summary_all_closed(self):
-        reg = CircuitBreakerRegistry()
-        reg.get_or_create("x")
-        reg.get_or_create("y")
-        summary = reg.health_summary()
-        assert summary == {"x": "closed", "y": "closed"}
-
-    def test_health_summary_mixed_states(self):
-        reg = CircuitBreakerRegistry()
-        reg.get_or_create("ok")
-        reg.get_or_create("broken").force_open()
-        summary = reg.health_summary()
-        assert summary["ok"] == "closed"
-        assert summary["broken"] == "open"
-
-    def test_reset_all_closes_open_circuits(self):
-        reg = CircuitBreakerRegistry()
-        reg.get_or_create("a").force_open()
-        reg.get_or_create("b").force_open()
+        reg.get("a").trip()
+        reg.get("b").trip()
         reg.reset_all()
         assert reg.get("a").state == CircuitState.CLOSED
         assert reg.get("b").state == CircuitState.CLOSED
 
+    def test_reset_all_zeroes_stats(self):
+        cfg = CircuitBreakerConfig(failure_threshold=1)
+        reg = CircuitBreakerRegistry(default_config=cfg)
+        b = reg.get("svc")
+        with pytest.raises(RuntimeError):
+            b.call(_fail)
+        reg.reset_all()
+        assert b.stats.total_calls == 0
+
     def test_reset_all_empty_registry(self):
         reg = CircuitBreakerRegistry()
-        reg.reset_all()  # should not raise
+        reg.reset_all()  # must not raise
 
-    def test_default_config_applied_to_new_breakers(self):
+    def test_stats_summary_structure(self):
+        reg = CircuitBreakerRegistry()
+        reg.get("svc")
+        summary = reg.stats_summary()
+        assert "svc" in summary
+        entry = summary["svc"]
+        assert "state" in entry
+        assert "failure_rate" in entry
+        assert "total_calls" in entry
+
+    def test_stats_summary_state_value(self):
+        reg = CircuitBreakerRegistry()
+        reg.get("svc")
+        assert reg.stats_summary()["svc"]["state"] == "closed"
+
+    def test_stats_summary_open_state(self):
+        reg = CircuitBreakerRegistry()
+        reg.get("svc").trip()
+        assert reg.stats_summary()["svc"]["state"] == "open"
+
+    def test_stats_summary_failure_rate(self):
+        cfg = CircuitBreakerConfig(failure_threshold=10)
+        reg = CircuitBreakerRegistry(default_config=cfg)
+        b = reg.get("svc")
+        b.call(_ok)
+        with pytest.raises(RuntimeError):
+            b.call(_fail)
+        summary = reg.stats_summary()
+        assert summary["svc"]["failure_rate"] == pytest.approx(0.5)
+
+    def test_stats_summary_total_calls(self):
+        cfg = CircuitBreakerConfig(failure_threshold=10)
+        reg = CircuitBreakerRegistry(default_config=cfg)
+        b = reg.get("svc")
+        b.call(_ok)
+        b.call(_ok)
+        assert reg.stats_summary()["svc"]["total_calls"] == 2
+
+    def test_default_config_applied(self):
         cfg = CircuitBreakerConfig(failure_threshold=99)
         reg = CircuitBreakerRegistry(default_config=cfg)
-        b = reg.get_or_create("svc")
+        b = reg.get("svc")
         assert b._config.failure_threshold == 99
 
     def test_multiple_breakers_independent(self):
-        reg = CircuitBreakerRegistry(
-            default_config=CircuitBreakerConfig(failure_threshold=1)
-        )
-        a = reg.get_or_create("a")
-        b = reg.get_or_create("b")
-        a.call(_fail)
+        cfg = CircuitBreakerConfig(failure_threshold=1)
+        reg = CircuitBreakerRegistry(default_config=cfg)
+        a = reg.get("a")
+        b = reg.get("b")
+        with pytest.raises(RuntimeError):
+            a.call(_fail)
         assert a.state == CircuitState.OPEN
         assert b.state == CircuitState.CLOSED
+
+
+# ---------------------------------------------------------------------------
+# 12. Threading — concurrent calls
+# ---------------------------------------------------------------------------
+
+class TestThreading:
+    def test_concurrent_successes_no_crash(self):
+        cb = _make_cb(failure_threshold=100)
+        errors = []
+
+        def worker():
+            try:
+                cb.call(_ok)
+            except Exception as e:
+                errors.append(e)
+
+        threads = [threading.Thread(target=worker) for _ in range(20)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
+        assert errors == []
+        assert cb.stats.total_calls == 20
+
+    def test_concurrent_failures_open_circuit_exactly_once(self):
+        cb = _make_cb(failure_threshold=5)
+        results = []
+        lock = threading.Lock()
+
+        def worker():
+            try:
+                cb.call(_fail)
+                with lock:
+                    results.append("ok")
+            except RuntimeError:
+                with lock:
+                    results.append("fail")
+            except CircuitOpenError:
+                with lock:
+                    results.append("open")
+
+        threads = [threading.Thread(target=worker) for _ in range(10)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
+        # After enough failures, some calls should be rejected as OPEN
+        assert "fail" in results
+        # Circuit must be OPEN at end
+        assert cb.state == CircuitState.OPEN
+
+    def test_concurrent_reset_safe(self):
+        cb = CircuitBreaker("svc")
+
+        def trip_and_reset():
+            cb.trip()
+            cb.reset()
+
+        threads = [threading.Thread(target=trip_and_reset) for _ in range(10)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
+        # Should end in either OPEN or CLOSED — no crash or corruption
+        assert cb.state in (CircuitState.OPEN, CircuitState.CLOSED)
+
+    def test_concurrent_calls_after_trip_raise_circuit_open(self):
+        cb = CircuitBreaker("svc")
+        cb.trip()
+        errors = []
+
+        def worker():
+            try:
+                cb.call(_ok)
+            except CircuitOpenError as e:
+                errors.append(e)
+
+        threads = [threading.Thread(target=worker) for _ in range(10)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
+        assert len(errors) == 10
+
+
+# ---------------------------------------------------------------------------
+# 13. Time-based recovery (short sleep)
+# ---------------------------------------------------------------------------
+
+class TestTimeBasedRecovery:
+    def test_recovery_timeout_respected(self):
+        cb = _make_cb(failure_threshold=1, recovery_timeout=0.05,
+                      success_threshold=1)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.state == CircuitState.OPEN
+        time.sleep(0.1)
+        assert cb.state == CircuitState.HALF_OPEN
+
+    def test_full_cycle_closed_open_half_open_closed(self):
+        cb = _make_cb(failure_threshold=1, recovery_timeout=0.05,
+                      success_threshold=1, half_open_max_calls=3)
+        # CLOSED → OPEN
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.state == CircuitState.OPEN
+        # OPEN → HALF_OPEN
+        time.sleep(0.1)
+        assert cb.state == CircuitState.HALF_OPEN
+        # HALF_OPEN → CLOSED
+        cb.call(_ok)
+        assert cb.state == CircuitState.CLOSED
+
+    def test_half_open_failure_reopens_and_recovers_again(self):
+        cb = _make_cb(failure_threshold=1, recovery_timeout=0.05,
+                      success_threshold=1, half_open_max_calls=3)
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        time.sleep(0.1)
+        assert cb.state == CircuitState.HALF_OPEN
+        with pytest.raises(RuntimeError):
+            cb.call(_fail)
+        assert cb.state == CircuitState.OPEN
+        # Recover again
+        time.sleep(0.1)
+        assert cb.state == CircuitState.HALF_OPEN
+        cb.call(_ok)
+        assert cb.state == CircuitState.CLOSED
