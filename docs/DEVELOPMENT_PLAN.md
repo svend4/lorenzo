@@ -19,6 +19,7 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | 8 — Auto-Summarize + Promote Lift | `improve_auto_summarize.py`: 410 карточек, +90 normalized, +46 approved | ✅ |
 | 9 — Progressive Summarize + SSE | `improve_progressive_summarize.py`: 335 карточек, +311 normalized, +70 approved | ✅ |
 | 10 — Summary Extender + 1005 Approved | `improve_summary_extender.py`: 713 карточек, +597+18 approved. CI 3-pass pipeline | ✅ |
+| 11 — Knowledge Graph + Skill Metrics | `improve_card_graph.py` (18458 рёбер, PageRank), `/api/graph`, `improve_skill_metrics.py` | ✅ |
 
 **Текущее распределение карточек:** 1005 approved · 109 normalized · 51 raw · promote rate 98.7%
 
@@ -56,13 +57,40 @@ write  (6): add_card, update_card_state, propose_integration, list_cards,
 | `improve_decay_checker.py` | Поиск кандидатов на decay: stubs (377), near-dups (79) → `docs/DECAY_CANDIDATES.md` |
 | RFC-0002/0003 promoted | Оба RFC переведены в `normalized` → `approved` (274 approved итого) |
 
-### Следующий уровень (Итерация 11)
+### Следующий уровень (Итерация 12)
 
 | Задача | Сложность | Ценность |
 |--------|-----------|---------|
-| Neural embeddings (sentence-transformers) | низкая | высокая |
-| `improve_skill_metrics.py` — автоматические метрики по скилам | средняя | высокая |
-| Gateway `/api/graph` эндпоинт — граф карточек | средняя | средняя |
+| Neural embeddings (sentence-transformers) pip install | низкая | высокая |
+| PageRank-boosted search — использовать CARD_GRAPH.json в гибридном поиске | средняя | высокая |
+| `improve_graph_search.py` — поиск по графу (ближайшие соседи через рёбра) | средняя | высокая |
+
+---
+
+## Итерация 11 — Knowledge Graph + Skill Metrics
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| `improve_card_graph.py` | Directed graph 1166 узлов + 18 458 рёбер из wikilinks и md-ссылок. PageRank за 30 итераций. Топ-хаб: 1501 входящих ссылок (autofilled). Вывод: `docs/CARD_GRAPH.json` + `docs/CARD_GRAPH.md` |
+| Gateway `/api/graph` | GET `/api/graph?top=100&state=approved` — возвращает отфильтрованный граф из CARD_GRAPH.json |
+| `improve_skill_metrics.py` | Рубрика качества скилов: structure/length/examples/steps/tools/clarity. 28 скилов, средний балл 86/100, 27/28 хороших |
+| `improve_run_all.py` | `improve_skill_metrics.py` + `improve_card_graph.py` добавлены в группу reports |
+
+### CLI
+
+```bash
+python scripts/improve_card_graph.py          # построить граф + CARD_GRAPH.md
+python scripts/improve_card_graph.py --top 20 # топ-20 хабов
+python scripts/improve_card_graph.py --dot    # Graphviz DOT для топ-50
+python scripts/improve_skill_metrics.py       # качество всех скилов
+python scripts/improve_skill_metrics.py --low # только слабые скилы
+
+# REST:
+curl http://localhost:8083/api/graph?top=50
+curl "http://localhost:8083/api/graph?state=approved&top=100"
+```
 
 ---
 

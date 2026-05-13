@@ -139,6 +139,8 @@ GROUPS = {
         "improve_report.py",
         "improve_registry.py",          # единый реестр всех артефактов
         "improve_skill_dashboard.py",   # статистика использования скилов
+        "improve_skill_metrics.py",     # качество скилов (structure/examples/steps)
+        "improve_card_graph.py",        # граф карточек + PageRank → CARD_GRAPH.json
         "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "export": [

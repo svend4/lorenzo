@@ -16,6 +16,7 @@ Lorenzo Gateway — OpenAI-compatible HTTP gateway for Svyazi 2.0.
     POST /v1/chat/completions  — OpenAI API (с function calling + SSE streaming)
     POST /api/ask              — прямой RAG-запрос
     POST /api/cards            — добавить карточку (обогащение)
+    GET  /api/graph            — граф карточек + PageRank (CARD_GRAPH.json)
     GET  /api/status           — статистика корпуса
     GET  /api/health           — health check
     GET  /v1/models            — список моделей
@@ -857,6 +858,47 @@ async def add_card_endpoint(req: CardRequest):
     """Добавить карточку в корпус (обогащение базы знаний)."""
     result = _exec_add_card(req.model_dump())
     return {"status": "created", "message": result}
+
+
+@app.get("/api/graph")
+async def get_graph(top: int = 100, state: str = ""):
+    """
+    Граф карточек: узлы + рёбра + PageRank.
+
+    Параметры:
+      top   — вернуть только top-N хабов по PageRank (0 = все)
+      state — фильтр по state (approved | normalized | raw | все)
+    """
+    graph_path = DOCS / "CARD_GRAPH.json"
+    if not graph_path.exists():
+        raise HTTPException(status_code=503, detail=(
+            "Граф не построен. Запустите: python scripts/improve_card_graph.py"
+        ))
+    data = json.loads(graph_path.read_text(encoding="utf-8"))
+    nodes = data.get("nodes", [])
+    edges = data.get("edges", [])
+
+    if state:
+        keep = {n["id"] for n in nodes if n.get("state") == state}
+        nodes = [n for n in nodes if n["id"] in keep]
+        edges = [e for e in edges if e["from"] in keep and e["to"] in keep]
+
+    if top and top < len(nodes):
+        nodes_sorted = sorted(nodes, key=lambda n: -n.get("pagerank", 0))[:top]
+        keep_ids = {n["id"] for n in nodes_sorted}
+        nodes = nodes_sorted
+        edges = [e for e in edges if e["from"] in keep_ids and e["to"] in keep_ids]
+
+    return {
+        "stats": {
+            "nodes": len(nodes),
+            "edges": len(edges),
+            **data.get("stats", {}),
+        },
+        "generated": data.get("generated"),
+        "nodes": nodes,
+        "edges": edges,
+    }
 
 
 @app.post("/v1/chat/completions")

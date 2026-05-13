@@ -54,6 +54,8 @@ scripts/
   improve_progressive_summarize.py — второй проход: abstract-auto + section headings + multi-sentence → --apply (автоматически запускает promote)
   improve_summary_extender.py — третий проход: расширяет normalized summary 80→150ch + добавляет 2-й тег → --apply (автоматически запускает promote)
   improve_bulk_decay.py       — bulk decay пустых stubs (date-age > N дней, нет тегов, нет предложений) → --apply
+  improve_card_graph.py       — directed graph 1166 карточек, PageRank, CARD_GRAPH.json + CARD_GRAPH.md → --top/--dot
+  improve_skill_metrics.py    — quality rubric для .claude/skills/*.md (structure/examples/steps) → SKILL_METRICS.md
   review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
   prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
   improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
@@ -367,6 +369,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 | 8 — Auto-Summarize | ✅ Готово | improve_auto_summarize.py: 410 карточек, promote rate 62→69% |
 | 9 — Progressive Summarize + SSE | ✅ Готово | improve_progressive_summarize.py: 335 карточек, promote rate 69→95.7%, SSE streaming |
 | 10 — Summary Extender + 1005 Approved | ✅ Готово | improve_summary_extender.py: 713 карточек, 1005 approved, promote rate 98.7% |
+| 11 — Knowledge Graph + Skill Metrics | ✅ Готово | improve_card_graph.py: 18458 рёбер, PageRank; /api/graph; improve_skill_metrics.py: 86/100 avg |
 
 ### Collaboration Finder (Итерация 3)
 ```bash
