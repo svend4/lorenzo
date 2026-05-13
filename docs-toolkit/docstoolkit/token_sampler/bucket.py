@@ -41,16 +41,22 @@ class TokenBucket:
         """Add tokens proportional to elapsed time.
 
         Must be called while holding ``self._lock``.
+
+        When an explicit ``now`` is supplied, it always becomes the new
+        reference point – allowing tests (or simulations) to drive the
+        bucket on a virtual clock independent of ``time.time()``.
         """
+        explicit = now is not None
         if now is None:
             now = time.time()
         elapsed = now - self._last_refill
         if elapsed > 0 and self._refill_rate > 0:
             added = elapsed * self._refill_rate
             self._tokens = min(float(self._capacity), self._tokens + added)
-        # Always advance last_refill so future deltas are correct, even
-        # for zero refill_rate.
-        if elapsed > 0:
+        # Always advance last_refill for non-negative elapsed time, and
+        # always when the caller supplied an explicit ``now`` (so tests
+        # using a virtual clock anchor the bucket to the supplied time).
+        if elapsed > 0 or explicit:
             self._last_refill = now
 
     # ------------------------------------------------------------------ #

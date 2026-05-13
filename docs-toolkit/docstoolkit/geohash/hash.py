@@ -174,10 +174,10 @@ def _adjacent(geohash: str, direction: str) -> str:
     gh = geohash.lower()
     last = gh[-1]
     parent = gh[:-1]
-    # Standard geohash convention: 'even' type when the last char's 0-based
-    # index is even (i.e. when the length is odd), 'odd' when the index is odd
-    # (length even).
-    typ = "even" if (len(gh) % 2) == 1 else "odd"
+    # Standard geohash convention: type is 'even' when length is even,
+    # 'odd' when length is odd. Geohash chars at even index (0-based) encode
+    # 3 lon + 2 lat bits; odd-index chars encode 2 lon + 3 lat bits.
+    typ = "odd" if (len(gh) % 2) == 1 else "even"
 
     if last in _BORDER[direction][typ] and parent != "":
         parent = _adjacent(parent, direction)
@@ -185,9 +185,12 @@ def _adjacent(geohash: str, direction: str) -> str:
         # Border of world: there is no parent. Standard geohash libraries
         # typically return an empty string here, but for our 'neighbors' API
         # we still want a usable cell, so we return the substituted char alone.
-        return _NEIGHBOR[direction][typ][_BASE32_INDEX[last]]
+        nb_pos = _NEIGHBOR[direction][typ].index(last)
+        return BASE32[nb_pos]
 
-    return parent + _NEIGHBOR[direction][typ][_BASE32_INDEX[last]]
+    # Standard algorithm: position of last char within neighbour table → base32 char.
+    nb_pos = _NEIGHBOR[direction][typ].index(last)
+    return parent + BASE32[nb_pos]
 
 
 def neighbors(geohash: str) -> Dict[str, str]:
