@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Acknowledgments
@@ -24,14 +24,14 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. This paper emerged through dialogue with Claude (Anthropic) This paper emerged through dialogue with Claude (Anthropic)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > This paper emerged through dialogue with Claude (Anthropic)
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 6. Этическая рамка
@@ -44,7 +44,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)». Ключевой документ для понимания архитектуры.
 
 ---
 <!-- tags: local-first, architecture, anthropic, collaboration -->

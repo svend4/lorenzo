@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 4. Симбиотическая Архитектура
@@ -10,7 +10,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)». Документ содержит описание рисков и ограничений.
 
 ---
 

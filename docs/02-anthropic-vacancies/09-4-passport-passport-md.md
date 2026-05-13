@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 4. Passport (`passport.md`)
@@ -16,11 +16,11 @@ state: normalized
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Recommended Structure
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Recommended Structure Passport SHOULD содержать следующие разделы: python scripts/improve_semantic_search.py --query "4 Passport passport md"
 Passport SHOULD содержать следующие разделы:
  bash
 Поиск по теме документа

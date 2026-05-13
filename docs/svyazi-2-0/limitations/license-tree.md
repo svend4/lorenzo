@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Лицензионные развилки
@@ -18,7 +18,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`, раздел «Ограничения, лицензии и что пока лучше не склеивать».
+> > Источник: `deep-research-report (3).md`, раздел «Ограничения, лицензии и что пока лучше не склеивать». Документ содержит описание рисков и ограничений.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG
 
 ---

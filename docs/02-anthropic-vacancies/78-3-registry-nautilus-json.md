@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 3. Registry (`nautilus.json`)
@@ -70,7 +70,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> * Registry (nautilus.json) - 3.1. * AutoAdapter Special Case !IMPORTANT Ключевой документ для понимания архитектуры
+> * Registry (nautilus.json) - 3.1. * AutoAdapter Special Case !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: Registry (nautilus.json) - 3.1.
 Каждый элемент   MUST содержать:
  — уникальное в пределах экосистемы
  — идентификатор native-формата (используется для 
@@ -79,7 +79,7 @@ state: normalized
   либо   для и
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 ## 3. Registry (`nautilus.json`)

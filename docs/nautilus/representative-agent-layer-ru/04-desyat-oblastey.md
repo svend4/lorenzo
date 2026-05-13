@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 4. Десять областей применения
@@ -10,7 +10,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)». Документ содержит описание рисков и ограничений.
 
 ---
 

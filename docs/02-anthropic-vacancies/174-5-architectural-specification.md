@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 5. Architectural Specification
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > A Representative Agent system consists of seven components:

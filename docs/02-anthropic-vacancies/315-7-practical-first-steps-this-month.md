@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 7. Practical First Steps This Month
@@ -28,7 +28,7 @@ state: normalized
 
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Документ создан на основе исследования.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Документ создан на основе исследования. The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7)
 The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7) 
 provide an ideal first test case.
 

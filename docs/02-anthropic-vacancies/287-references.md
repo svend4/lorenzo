@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # References
@@ -48,7 +48,7 @@ Contents
 > [!
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить
@@ -20,7 +20,7 @@ state: normalized
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

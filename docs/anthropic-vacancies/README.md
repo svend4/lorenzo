@@ -7,7 +7,7 @@ state: normalized
 
 
 <!-- summary -->
-> README — раздел документации проекта Lorenzo. — ai-managed-virtual-company — beneficial-deployments-concept
+> README — раздел документации проекта Lorenzo. — ai-managed-virtual-company — beneficial-deployments-concept — extra-collaborator-findings Кто ссылается на этот документ (9):
 
 
 **Файлов:** 4

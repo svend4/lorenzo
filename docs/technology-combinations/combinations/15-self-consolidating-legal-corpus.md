@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Комбинация 15: Self-Consolidating Legal Corpus
@@ -18,7 +18,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория). Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: memory, knowledge, self-improvement -->

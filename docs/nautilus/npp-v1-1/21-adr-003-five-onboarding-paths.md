@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 21. ADR-003: Five Onboarding Paths as Equal-Rank
@@ -21,7 +21,7 @@ state: normalized
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

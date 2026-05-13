@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Security — 24 роли
@@ -17,10 +17,10 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248. Документ создан на основе исследования.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

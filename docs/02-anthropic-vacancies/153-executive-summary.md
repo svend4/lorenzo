@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Executive Summary
@@ -42,7 +42,7 @@ state: normalized
 > 🔧 Подход: OKWF proposes a foundat
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

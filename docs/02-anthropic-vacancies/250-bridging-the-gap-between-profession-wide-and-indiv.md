@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Bridging the Gap Between Profession-Wide and Individual-Unique 
@@ -12,7 +12,7 @@ state: normalized
 
 
 <!-- summary -->
-> Bridging the Gap Between Profession-Wide and Individual-Unique Bridging the Gap Between Profession-Wide and Individual-Unique
+> Bridging the Gap Between Profession-Wide and Individual-Unique Bridging the Gap Between Profession-Wide and Individual-Unique Документ создан на основе исследования.
  
 Contents
  Bridging the Gap Between Profession-Wide and Individual-Unique

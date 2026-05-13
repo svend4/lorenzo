@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 12. Closing
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Specifically, an SGB Advocate Colleague pilot can demonstrate the model and serve real need simultaneously.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The Representative Agent Layer paper, when first written,

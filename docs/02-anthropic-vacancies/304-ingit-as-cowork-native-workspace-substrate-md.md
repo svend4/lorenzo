@@ -16,7 +16,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.11)
+> - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.11) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: architecture, anthropic -->

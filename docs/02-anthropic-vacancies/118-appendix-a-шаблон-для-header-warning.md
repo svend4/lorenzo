@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix A: Шаблон для header warning
@@ -12,7 +12,7 @@ state: normalized
 - [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 > [!WARNING]
@@ -26,7 +26,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. 12-appendix-a-header-warning Кто ссылается на этот документ (6)
  --
 Смотрите также
  12-appendix-a-header-warning

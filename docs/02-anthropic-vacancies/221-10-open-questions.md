@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 10. Open Questions
@@ -26,7 +26,7 @@ state: normalized
 
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Multi-Profession Practitioners
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Multi-Profession Practitioners How do agents handle practitioners who span multiple
 How do agents handle practitioners who span multiple
 professional contexts (researcher who also teaches; lawyer
 who is also academic; engineer who is also entrepreneur)?

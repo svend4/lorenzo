@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # npp-v1-1
@@ -7,7 +7,7 @@ state: normalized
 
 
 <!-- summary -->
-> — раздел документации проекта Lorenzo. 00-abstract-status.md — 01-introduction.md —
+> — раздел документации проекта Lorenzo. 00-abstract-status.md — 01-introduction.md — 05-compatibility-levels.md — 06-adapter-interface.md — Кто ссылается на этот документ (25):
  
  
 >   — раздел документации проекта Lorenzo.

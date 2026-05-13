@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # What's Missing — Layer B
@@ -19,8 +19,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: What's Missing — Layer B Between chat and repository, there should exist Layer B: an --- What's Missing — Layer B Between chat and repository, there should exist Layer B: an intell
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Between chat and repository, there should exist Layer B: an
@@ -38,7 +38,7 @@ state: normalized
 
 ---
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

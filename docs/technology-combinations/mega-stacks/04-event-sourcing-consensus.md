@@ -19,7 +19,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 35: MEGA‑STACK 4.0».
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 35: MEGA‑STACK 4.0». Документ содержит практические рекомендации и лучшие практики.
 
 ---
 <!-- tags: rag, orchestration, local-first, architecture, anthropic -->

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Table of Contents
@@ -48,7 +48,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Call for Collaboration
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Call for Collaboration 253-table-of-contents (сходство 0.26) 169-table-of-contents (сходство 0.23)
  --
  --
 Похожие документы
@@ -62,7 +62,7 @@ state: normalized
  253-table-of-co
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

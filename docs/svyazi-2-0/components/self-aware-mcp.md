@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Self‑Aware MCP + Skills + CodeWiki
@@ -20,8 +20,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Авторы: akazant / akzhankalimatov / AnastasiyaW Авторы: akazant / akzhankalimatov / AnastasiyaW
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Авторы:** akazant / akzhankalimatov / AnastasiyaW

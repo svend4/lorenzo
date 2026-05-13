@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Abstract
@@ -20,7 +20,7 @@ state: normalized
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

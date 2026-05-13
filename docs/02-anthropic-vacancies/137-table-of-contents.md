@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Table of Contents
@@ -30,7 +30,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (15)
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (15) Why Single-Triangle Models Are Incomplete
  
 Contents
  Содержание
@@ -48,7 +48,7 @@ Contents
 > [
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Когда сомневаешься — escalate к Max
@@ -13,7 +13,7 @@ state: normalized
 - [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 > [!WARNING]
@@ -22,7 +22,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Когда сомневаешься — escalate к Max Ethical complexity beyond обычных protocols
  --
 Когда сомневаешься — escalate к Max
 Если задача presents:

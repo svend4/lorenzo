@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Сводная таблица 31–35 (Complete 1–35)
@@ -17,7 +17,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑35)».
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑35)». Документ создан на основе исследования.
 
 ---
 <!-- tags: rag, local-first, anthropic -->

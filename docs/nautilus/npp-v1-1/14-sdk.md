@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 14. SDK Contract (Informative)
@@ -20,14 +20,14 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Документ фиксирует ключевые архитектурные или технические решения.
 
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

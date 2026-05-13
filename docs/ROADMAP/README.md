@@ -6,6 +6,11 @@ state: normalized
 
 # ROADMAP — варианты развития Lorenzo / Knowledge OS
 
+
+<!-- summary -->
+> **Дата:** 2026-04-29
+**Статус:** Lorenzo на 53-м спринте, production-ready foundation для индивидуального knowledge worker'а или маленькой команды. Статус: Lorenzo на 53-м спринте, production-ready foundation для индивидуального knowledge worker'а или маленькой команды.
+
 **Дата:** 2026-04-29
 **Статус:** Lorenzo на 53-м спринте, production-ready foundation для индивидуального knowledge worker'а или маленькой команды.
 

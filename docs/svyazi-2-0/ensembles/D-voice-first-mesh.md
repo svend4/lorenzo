@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, knowledge, ingestion]
-state: normalized
+state: approved
 ---
 
 # Ансамбль D — Voice‑first local knowledge mesh
@@ -20,7 +20,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> citeturn21view10turn21view11turn21view12turn35search0turn27view0turn11search0turn11search11turn20view12
+> citeturn21view10turn21view11turn21view12turn35search0turn27view0turn11search0turn11search11turn20view12 Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 Схема
  
 Ожидаемые новые свойства

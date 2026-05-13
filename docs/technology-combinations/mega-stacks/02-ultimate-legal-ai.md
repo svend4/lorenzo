@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Mega‑Stack 2.0 — Ultimate Legal‑AI System
@@ -18,7 +18,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑STACK 2.0: Ultimate Legal‑AI System».
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑STACK 2.0: Ultimate Legal‑AI System». Документ создан на основе исследования.
 **Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs
 
 ---

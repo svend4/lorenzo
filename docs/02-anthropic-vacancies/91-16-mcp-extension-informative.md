@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 16. MCP Extension (Informative)
@@ -24,7 +24,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. экспонировать минимум 5 tools: — search across ecosystem
 экспонировать минимум 5 tools:
  — search across ecosystem
  — list all repos with metadata
@@ -34,7 +34,7 @@ state: normalized
 Формальная MCP-спецификация
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

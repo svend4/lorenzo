@@ -52,6 +52,7 @@ scripts/
   improve_decay_checker.py    — поиск кандидатов на decay: stubs, orphans, near-dups → DECAY_CANDIDATES.md
   improve_auto_summarize.py   — авто-генерация summary и тегов для raw-карточек (разблокирует promote) → --dry-run/--apply
   improve_progressive_summarize.py — второй проход: abstract-auto + section headings + multi-sentence → --apply (автоматически запускает promote)
+  improve_summary_extender.py — третий проход: расширяет normalized summary 80→150ch + добавляет 2-й тег → --apply (автоматически запускает promote)
   improve_bulk_decay.py       — bulk decay пустых stubs (date-age > N дней, нет тегов, нет предложений) → --apply
   review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
   prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
@@ -357,7 +358,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 |----------|--------|--------------------|
 | 0 — Вертикальный срез | ✅ Готово | 1632 карточки, 2500+ рёбер, MCP 11 инструментов |
 | 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16487 токенов) + гибрид 0.6/0.4 + Review Queue UI |
-| 2 — Consolidation | ✅ Готово | CI daily + lifecycle promote, 390 approved · 724 normalized · 51 raw |
+| 2 — Consolidation | ✅ Готово | CI daily + lifecycle promote, 1005 approved · 109 normalized · 51 raw |
 | 3 — Collaboration Finder | ✅ Готово | 9 богатых проектных файлов, 23 proposals, 9 контактов |
 | 4 — Gateway & Enrichment | ✅ Готово | OpenAI-compatible API, write-back + dedup, function calling, Review Queue |
 | 5 — RFC & Semantic Layer | ✅ Готово | RFC-система (3 RFC Accepted), ST+TF-IDF 1166 docs, MCP 15 инструментов |
@@ -365,6 +366,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 | 7 — Production Hardening | ✅ Готово | rate limiting, JSONL audit trail, gateway write_type, decay_checker (410 кандидатов) |
 | 8 — Auto-Summarize | ✅ Готово | improve_auto_summarize.py: 410 карточек, promote rate 62→69% |
 | 9 — Progressive Summarize + SSE | ✅ Готово | improve_progressive_summarize.py: 335 карточек, promote rate 69→95.7%, SSE streaming |
+| 10 — Summary Extender + 1005 Approved | ✅ Готово | improve_summary_extender.py: 713 карточек, 1005 approved, promote rate 98.7% |
 
 ### Collaboration Finder (Итерация 3)
 ```bash
@@ -409,6 +411,8 @@ python scripts/improve_auto_summarize.py --apply                  # инжект
 python scripts/improve_auto_summarize.py --apply --section 02-anthropic-vacancies
 python scripts/improve_progressive_summarize.py --dry-run         # второй проход: abstract-auto/sections
 python scripts/improve_progressive_summarize.py --apply           # применить + promote автоматически
+python scripts/improve_summary_extender.py --dry-run              # третий проход: расширить до 150ch
+python scripts/improve_summary_extender.py --apply                # применить + promote автоматически
 python scripts/improve_bulk_decay.py --stats                      # кандидаты на bulk decay
 python scripts/improve_bulk_decay.py --apply --min-age 90         # decay пустых stubs > 90 дней
 python scripts/improve_card_promote.py --stats                    # статистика промоушена

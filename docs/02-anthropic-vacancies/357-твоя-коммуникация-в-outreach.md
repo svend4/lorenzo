@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Твоя коммуникация в outreach
@@ -25,7 +25,7 @@ state: normalized
 
 
 <!-- summary -->
-> Моя миссия — connecting создателей в области beneficial AI для совместной работы над technologies serving vulnerable populations.»
+> Моя миссия — connecting создателей в области beneficial AI для совместной работы над technologies serving vulnerable populations.» Документ создан на основе исследования.
 Specific reference к их работе (не generic):
 > «Читал вашу [статью/репозиторий] про [конкретная тема], особенно интерес
 

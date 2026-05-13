@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 2. Target Populations
@@ -30,7 +30,7 @@ state: normalized
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Введение: Lorenzo — Catalyst Agent at DHLab
@@ -25,7 +25,7 @@ state: normalized
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

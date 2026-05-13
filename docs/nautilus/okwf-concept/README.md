@@ -7,7 +7,7 @@ state: normalized
 
 
 <!-- summary -->
-> — раздел документации проекта Lorenzo. 01-problem-statement.md — > [!NOTE] 02-target-populations.md — > [!NOTE]
+> — раздел документации проекта Lorenzo. 01-problem-statement.md — > [!NOTE] 02-target-populations.md — > [!NOTE] 03-why-existing-fail.md — > [!NOTE] 04-proposed-infrastructure.md — > [
  
  
 >   — раздел документации проекта Lorenzo.

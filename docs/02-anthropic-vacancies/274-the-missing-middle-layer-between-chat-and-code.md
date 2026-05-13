@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # The Missing Middle Layer Between Chat and Code
@@ -42,8 +42,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Document type: Inquiry paper, not architectural specification Document type: Inquiry paper, not architectural specification
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Document type:** Inquiry paper, not architectural specification

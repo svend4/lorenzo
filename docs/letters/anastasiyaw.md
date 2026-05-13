@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Письмо: AnastasiyaW / knowledge-space + mclaude
@@ -18,7 +18,7 @@ state: normalized
 
 
 <!-- summary -->
-> Открытое письмо автору knowledge-space и mclaude — карточной базы знаний и системы координации параллельных Claude-агентов.
+> Открытое письмо автору knowledge-space и mclaude — карточной базы знаний и системы координации параллельных Claude-агентов. Документ создан на основе исследования.
 
 <!-- tags: contacts, letters, knowledge-space, mclaude, orchestration, knowledge -->
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix B: Domain Comparison Matrix
@@ -22,7 +22,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Appendix B: Domain Comparison Matrix Кто ссылается на этот документ (5)
  
 Contents
  Appendix B: Domain Comparison Matrix
@@ -36,7 +36,7 @@ Contents
 > Документ содержит описание риск
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

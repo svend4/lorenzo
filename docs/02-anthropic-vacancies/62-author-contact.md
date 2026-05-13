@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Author & Contact
@@ -24,7 +24,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (16)
+> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (16) Рекомендуется читать перед погружением в детали. Контакт: Issues в github.com/svend4/meta
  
 Contents
  Author & Contact
@@ -43,7 +43,7 @@ Contents
 > **Контакт:** Issues в `github.com/svend4/meta`
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

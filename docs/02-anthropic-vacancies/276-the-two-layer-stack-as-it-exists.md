@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # The Two-Layer Stack As It Exists
@@ -19,7 +19,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> * The problem is what happens between them. * The Anthropic chat interface (and similar products from other providers)
+> * The problem is what happens between them. * The Anthropic chat interface (and similar products from other providers) 🎯 Проблема: The problem is what happens between them.
  --
  
 Содержание

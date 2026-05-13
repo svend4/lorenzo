@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 1. Introduction (Motivation, Design Goals, Non-Goals, Terminology)
@@ -21,8 +21,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Раздел содержит несколько документов. Используйте содержание для навигации.
 
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).

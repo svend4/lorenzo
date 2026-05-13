@@ -7,7 +7,7 @@ state: normalized
 
 
 <!-- summary -->
-> — раздел документации проекта Lorenzo. anastasiyaw.md — --- andrey-chuyan.md — ---
+> — раздел документации проекта Lorenzo. anastasiyaw.md — --- andrey-chuyan.md — --- Кто ссылается на этот документ (21): Материал из базы знаний Svyazi 2.0, раздел «contacts».
  
  
 >   — раздел документации проекта Lorenzo.

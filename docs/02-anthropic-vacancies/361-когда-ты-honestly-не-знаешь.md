@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Когда ты Honestly не знаешь
@@ -13,7 +13,7 @@ state: normalized
 - [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 > [!WARNING]
@@ -22,7 +22,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Когда ты Honestly не знаешь Если ты не знаешь что-то relevant (factual, technical, contextual), say:
  --
 Когда ты Honestly не знаешь
 Если ты не знаешь что-то relevant (factual, technical, contextual), say:

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 7. Practical First Steps This Month
@@ -22,14 +22,14 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория).
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

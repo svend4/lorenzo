@@ -31,7 +31,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Контакт: Sonia_Black / knowledge-space
+> Документ содержит практические рекомендации и лучшие практики. Контакт: Sonia_Black / knowledge-space Проекты: Svyazi, knowledge-space Проекты | knowledge-space |
  
 Contents
  Профиль

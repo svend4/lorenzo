@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Дорожная карта прототипа
@@ -10,7 +10,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`, раздел «Дорожная карта прототипа следующей итерации».
+> > Источник: `deep-research-report (3).md`, раздел «Дорожная карта прототипа следующей итерации». Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, mclaude, AI Factory, Yodoca, NGT Memory
 
 ---

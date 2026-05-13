@@ -32,7 +32,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Контакт: AnastasiyaW / knowledge-space, mclaude
+> Документ содержит практические рекомендации и лучшие практики. Контакт: AnastasiyaW / knowledge-space, mclaude Кто ссылается на этот документ (4) Проекты: Svyazi, knowledge-space, mclaude
  
 Contents
  Профиль

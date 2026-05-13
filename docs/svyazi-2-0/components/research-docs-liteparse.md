@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # research-docs + LiteParse
@@ -20,8 +20,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: nlaik / Jerry Liu / LlamaIndex Проекты: Svyazi, LiteParse
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Автор:** nlaik / Jerry Liu / LlamaIndex

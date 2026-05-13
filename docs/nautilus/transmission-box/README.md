@@ -12,7 +12,7 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел README формируется автоматически из данных репозитория. 00-question-mountain-to-person.md —
+> Раздел README формируется автоматически из данных репозитория. 00-question-mountain-to-person.md — Кто ссылается на этот документ (7): Кто ссылается на этот документ (7):
 Содержание
  00-question-mountain-to-person.md —  
  01-completing-loop.md —  

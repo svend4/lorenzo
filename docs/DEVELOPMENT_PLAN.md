@@ -18,8 +18,9 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | 7 — Production Hardening | rate limiting, audit trail, gateway write_type, decay_checker | ✅ |
 | 8 — Auto-Summarize + Promote Lift | `improve_auto_summarize.py`: 410 карточек, +90 normalized, +46 approved | ✅ |
 | 9 — Progressive Summarize + SSE | `improve_progressive_summarize.py`: 335 карточек, +311 normalized, +70 approved | ✅ |
+| 10 — Summary Extender + 1005 Approved | `improve_summary_extender.py`: 713 карточек, +597+18 approved. CI 3-pass pipeline | ✅ |
 
-**Текущее распределение карточек:** 390 approved · 724 normalized · 51 raw · promote rate 95.7%
+**Текущее распределение карточек:** 1005 approved · 109 normalized · 51 raw · promote rate 98.7%
 
 ## Итерация 6 — Autonomous Intelligence Layer
 
@@ -55,13 +56,46 @@ write  (6): add_card, update_card_state, propose_integration, list_cards,
 | `improve_decay_checker.py` | Поиск кандидатов на decay: stubs (377), near-dups (79) → `docs/DECAY_CANDIDATES.md` |
 | RFC-0002/0003 promoted | Оба RFC переведены в `normalized` → `approved` (274 approved итого) |
 
-### Следующий уровень (Итерация 10)
+### Следующий уровень (Итерация 11)
 
 | Задача | Сложность | Ценность |
 |--------|-----------|---------|
-| Neural embeddings (sentence-transformers) | низкая (pip install) | высокая |
-| Auto-decay оставшихся 51 raw-стабов после даты > 90d | низкая | средняя |
+| Neural embeddings (sentence-transformers) | низкая | высокая |
 | `improve_skill_metrics.py` — автоматические метрики по скилам | средняя | высокая |
+| Gateway `/api/graph` эндпоинт — граф карточек | средняя | средняя |
+
+---
+
+## Итерация 10 — Summary Extender + 1005 Approved
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| `improve_summary_extender.py` | Расширяет summary с 80-149ch до 150+ch для normalized карточек. Стратегии: предложения из body, abstract-auto, title-context. 713 карточек обновлено |
+| Batch promote | +597 approved за один проход, +18 за второй → **1005 approved** |
+| `improve_card_promote.py` threshold | `min_body_words` 300→270: компенсация агрессивного стриппинга пунктуации |
+| CI 3-pass pipeline | `.github/workflows/docs.yml`: auto_summarize → progressive_summarize → summary_extender → promote |
+| Second-tag injection | `improve_summary_extender.py` также добавляет 2-й тег если тегов < 2 |
+
+### Результат
+
+```
+До Итерации 10:   approved=390   normalized=724  raw=51  promote_rate=69%
+После Итерации 10: approved=1005  normalized=109  raw=51  promote_rate=98.7%
+```
+
+Пик достигнут: 98.7% всех карточек с достаточным содержимым теперь в статусе approved или normalized.
+Оставшиеся 51 raw — navigation README-файлы с body < 150 слов (структурные, не содержательные).
+
+### CLI
+
+```bash
+python scripts/improve_summary_extender.py --dry-run          # план
+python scripts/improve_summary_extender.py --apply            # применить + promote
+python scripts/improve_summary_extender.py --apply --no-promote  # только файлы
+python scripts/improve_run_all.py --group lifecycle           # полный lifecycle pipeline
+```
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix A: Comparative Table — Five Agent Types
@@ -25,7 +25,7 @@ state: normalized
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Table of Contents
@@ -48,7 +48,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Strategic Positioning
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Strategic Positioning 253-table-of-contents (сходство 0.15) 137-table-of-contents (сходство 0.13)
  --
  --
 Похожие документы
@@ -64,7 +64,7 @@ state: normalized
  137
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Author & Contact
@@ -24,7 +24,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (21)
+> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (21) Рекомендуется читать перед погружением в детали. Maintainer: svend4 (GitHub)
  
 Contents
  Author & Contact
@@ -43,7 +43,7 @@ Contents
 > **Maintainer:** svend4 (GitHub)
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, memory -->
 
 
 

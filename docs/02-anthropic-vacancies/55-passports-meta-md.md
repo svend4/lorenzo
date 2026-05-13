@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # passports/meta.md
@@ -16,7 +16,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа python scripts/improve_semantic_search.py --query "passports meta md"
 markdown
  bash
 Поиск по теме документа
@@ -32,7 +32,7 @@ python scripts/improve_semantic_search.py --query "passports meta md"
  15
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

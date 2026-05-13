@@ -31,7 +31,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Автор agent-memory-mcp (типизированная память для MCP + Memory OS с bi-temporal фактами).
+> Автор agent-memory-mcp (типизированная память для MCP + Memory OS с bi-temporal фактами). Документ содержит практические рекомендации и лучшие практики.
 **Проекты:** agent-memory-mcp, Memory OS
 
 ---

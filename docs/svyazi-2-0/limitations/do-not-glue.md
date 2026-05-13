@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Что пока лучше не склеивать
@@ -20,7 +20,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`, раздел «Ограничения, лицензии и что пока лучше не склеивать».
+> > Источник: `deep-research-report (3).md`, раздел «Ограничения, лицензии и что пока лучше не склеивать». Документ содержит описание рисков и ограничений.
 **Проекты:** mclaude, AI Factory, Rufler, AutoResearch, Whisper, Yttri
 
 ---

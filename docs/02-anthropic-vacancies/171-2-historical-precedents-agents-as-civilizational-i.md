@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 2. Historical Precedents: Agents as Civilizational Innovation
@@ -19,8 +19,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Документ фиксирует ключевые архитектурные или технические решения.
 
 > The pattern of representative agents is ancient and recurring.

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 11. Relevance Ranking
@@ -19,14 +19,14 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория).
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 6. Почему это валидный паттерн для AI‑assisted workflows
@@ -21,7 +21,7 @@ state: normalized
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

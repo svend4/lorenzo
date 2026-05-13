@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix B: Summary of Contributions
@@ -25,7 +25,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Appendix B: Summary of Contributions
+> Документ содержит практические рекомендации и лучшие практики. Appendix B: Summary of Contributions Рекомендуется читать перед погружением в детали. Topological formalization of Double-Triangle Architecture
  
 Contents
  Appendix B: Summary of Contributions
@@ -43,7 +43,7 @@ Contents
 > 1. **Topological formalization** of Double-Triangle Architecture
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

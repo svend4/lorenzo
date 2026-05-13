@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # The Specific Case in Front of Us
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > The seven documents produced in this session have specific

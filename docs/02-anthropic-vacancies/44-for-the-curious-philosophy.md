@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # For the Curious: Philosophy
@@ -16,7 +16,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Status of This Document _25%_
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Status of This Document _25%_ Кто ссылается на этот документ (12) 05-0-status-of-this-document
  --
 Кто ссылается на этот документ (12)
  04-abstract
@@ -30,7 +30,7 @@ state: normalized
  _...ещё 4_
 
 ---
-<!-- tags: rag -->
+<!-- tags: rag, knowledge -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

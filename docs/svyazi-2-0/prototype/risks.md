@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Ключевые риски и как их закрывать
@@ -17,7 +17,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты».
+> > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты». Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, mclaude, AI Factory, Rufler, Yodoca, NGT Memory, agent-memory-mcp, AutoResearch
 
 ---

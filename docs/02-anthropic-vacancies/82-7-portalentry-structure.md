@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 7. PortalEntry Structure
@@ -42,7 +42,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> * PortalEntry Structure - 7.1. * Q6 Metadata !IMPORTANT Ключевой документ для понимания архитектуры
+> * PortalEntry Structure - 7.1. * Q6 Metadata !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: PortalEntry Structure - 7.1. 🔧 Подход: Q6 Metadata !IMPORTANT Ключевой документ для понимания архитектуры.
  — полный текст/представление, MAY быть большим
  — MUST содержать   для Level 2+ адаптеров
  — список id из других Repos, формат   

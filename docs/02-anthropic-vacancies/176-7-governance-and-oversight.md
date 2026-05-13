@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 7. Governance and Oversight
@@ -23,7 +23,7 @@ state: normalized
 
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. When agent operations cause harm or disputes:
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. When agent operations cause harm or disputes: First level: Principal-platform direct resolution
 When agent operations cause harm or disputes:
 First level: Principal-platform direct resolution 
 (refund, correction, restoration)
@@ -32,7 +32,7 @@ Third level: External arbitration
 Fourth level:
 
 ---
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

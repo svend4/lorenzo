@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Комбинация 8: Conductor × adversarial-review × Auto AI Router
@@ -30,7 +30,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория). Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi, Yodoca, Auto AI Router
 
 ---

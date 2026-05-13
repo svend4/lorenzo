@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # What This Document Doesn't Solve
@@ -24,8 +24,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. This document identifies a problem. This document identifies a problem.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > This document identifies a problem. It does not propose a

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # README-MCP.md— инструкция по установке
@@ -16,7 +16,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Status of This Document _25%_
+> Документ содержит практические рекомендации и лучшие практики. Status of This Document _25%_ Кто ссылается на этот документ (20) 02-общий-план-развития-nautilus-portal-protocol
  ⬡ _25%_
  --
 Кто ссылается на этот документ (20)
@@ -29,7 +29,7 @@ state: normalized
  124-кон
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!TIP]
 > Обзорный документ. Рекомендуется читать перед погружением в детали.

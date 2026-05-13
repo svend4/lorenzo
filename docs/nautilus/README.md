@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # nautilus/ — Nautilus Portal Protocol и связанные working papers
@@ -8,7 +8,7 @@ state: normalized
 
 
 <!-- summary -->
-> Nautilus Portal Protocol: спецификации NPP v1.0 и v1.1, адаптеры, паспорта и протоколы взаимодействия.
+> Nautilus Portal Protocol: спецификации NPP v1.0 и v1.1, адаптеры, паспорта и протоколы взаимодействия. Раздел содержит несколько документов. Используйте содержание для навигации.
 
 <!-- tags: nautilus, protocol, overview -->
 

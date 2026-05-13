@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 🇬🇧 About
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Documentation - PORTAL-PROTOCOL.md(03-portal-protocol-md.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Nautilus is a **federation protocol** and reference implementation

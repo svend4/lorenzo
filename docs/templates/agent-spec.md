@@ -14,7 +14,7 @@ tags: [агент, спецификация]
 # Спецификация агента: [Название]
 
 <!-- summary -->
-> agent-spec — раздел документации проекта Lorenzo. Заполните поля согласно инструкции.
+> agent-spec — раздел документации проекта Lorenzo. Заполните поля согласно инструкции. [representative | professional-colleague | composite-skills | catalyst | companion | other]
 
 
 > [!NOTE]

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Planned (v0.2.0)
@@ -24,7 +24,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Кто ссылается на этот документ (17) HTTP-mode для debugging и remote access
  
 Contents
  Planned (v0.2.0)
@@ -40,7 +40,7 @@ Contents
 > Документ содержит описание рис
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

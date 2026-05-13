@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 5. Configuration: How Principals Build Their Ensembles
@@ -8,7 +8,7 @@ state: normalized
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 <!-- abstract-auto -->

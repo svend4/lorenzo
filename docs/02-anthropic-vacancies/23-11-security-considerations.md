@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 11. Security Considerations
@@ -40,7 +40,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> * Security Considerations - 11.1. * MCP Exposure !IMPORTANT Ключевой документ для понимания архитектуры
+> * Security Considerations - 11.1. * MCP Exposure !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: Security Considerations - 11.1. 🔧 Подход: MCP Exposure !IMPORTANT Ключевой документ для понимания архитектуры.
  Похожие документы
  Использование
  Смотрите также

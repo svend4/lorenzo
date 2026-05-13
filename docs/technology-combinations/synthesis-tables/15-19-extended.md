@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Сводная таблица 15–19 (Extended)
@@ -17,7 +17,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE».
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE». Документ создан на основе исследования.
 **Проекты:** Svyazi
 
 ---

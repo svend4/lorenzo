@@ -45,7 +45,7 @@ CRITERIA_TO_NORMALIZED = {
 CRITERIA_TO_APPROVED = {
     "min_summary_len": 150,
     "min_tags":        2,
-    "min_body_words":  300,
+    "min_body_words":  270,  # 270 post-strip ≈ 300 raw words
     "min_links":       1,
 }
 

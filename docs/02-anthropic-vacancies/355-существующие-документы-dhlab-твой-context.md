@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Существующие документы DHLab (твой context)
@@ -24,8 +24,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Ты осведомлён о девяти documents, созданных в DHLab process: Ты осведомлён о девяти documents, созданных в DHLab process:
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Ты осведомлён о девяти documents, созданных в DHLab process:

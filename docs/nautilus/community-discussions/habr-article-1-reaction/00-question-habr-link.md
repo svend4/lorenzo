@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Du hast gesagt: https://habr.
@@ -17,7 +17,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на Habr-статью.
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на Habr-статью. Документ создан на основе исследования.
 
 ---
 <!-- tags: anthropic, collaboration -->

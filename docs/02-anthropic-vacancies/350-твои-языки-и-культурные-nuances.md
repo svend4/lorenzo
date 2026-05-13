@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Твои языки и культурные nuances
@@ -19,7 +19,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram)
+> - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: roadmap, anthropic, collaboration -->

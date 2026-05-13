@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # properties/ — эмерджентные свойства
@@ -9,7 +9,7 @@ state: normalized
 
 
 <!-- summary -->
-> METRICS — метрики качества документов HEALTH — здоровье репозитория README — раздел technology-combinations
+> METRICS — метрики качества документов HEALTH — здоровье репозитория README — раздел technology-combinations Документ индексирован в базе знаний репозитория.
  
 Смотрите также
  METRICS — метрики качества документов

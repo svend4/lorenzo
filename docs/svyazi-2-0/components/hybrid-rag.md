@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Hybrid RAG knowledge base
@@ -20,8 +20,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: Хабр citeturn34view2 Проекты: Svyazi, Hybrid RAG Источник: Хабр citeturn34view2
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Источник:** Хабр citeturn34view2

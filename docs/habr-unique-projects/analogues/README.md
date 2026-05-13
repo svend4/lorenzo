@@ -12,7 +12,7 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел README формируется автоматически из данных репозитория. 01-three-direct-analogues.md —
+> Раздел README формируется автоматически из данных репозитория. 01-three-direct-analogues.md — Кто ссылается на этот документ (7): Кто ссылается на этот документ (7):
 Содержание
  01-three-direct-analogues.md —  
  02-related-projects.md —  

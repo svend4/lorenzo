@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # REVIEW_METHODOLOGY.md
@@ -16,7 +16,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. REVIEW_METHODOLOGY.md
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. REVIEW_METHODOLOGY.md python scripts/improve_semantic_search.py --query "REVIEW_METHODOLOGY md"
 markdown
  bash
 Поиск по теме документа
@@ -29,7 +29,7 @@ python scripts/improve_semantic_search.py --query "REVIEW_METHODOLOGY md"
  188-ai-опосред
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

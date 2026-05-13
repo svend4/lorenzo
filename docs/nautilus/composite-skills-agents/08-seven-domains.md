@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 8. Seven Domains of Application
@@ -10,7 +10,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents». Документ содержит практические рекомендации и лучшие практики.
 
 ---
 

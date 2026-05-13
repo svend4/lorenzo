@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 11. Call for Collaboration
@@ -57,7 +57,7 @@ state: normalized
 
 
 <!-- summary -->
-> * Pilot partnerships allow the technology to develop in service of actual need rather than imagined need. * Your needs should drive design decisions
+> * Pilot partnerships allow the technology to develop in service of actual need rather than imagined need. * Your needs should drive design decisions Документ создан на основе исследования.
  --
 Похожие документы
  265-12-call-for-collaboration (сходство 0.16)
@@ -72,7 +72,7 @@ state: normalized
  2
 
 ---
-<!-- tags: ingestion -->
+<!-- tags: ingestion, rag -->
 
 
 

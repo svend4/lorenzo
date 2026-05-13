@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 8. Pilot Proposal: SGB Advocate Colleague
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Clear demand: Author personally needs this. 🔧 Подход: Tertiary requires careful design and supervision; appropriate for later phase.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We now apply the Professional Colleague Agent framework to a

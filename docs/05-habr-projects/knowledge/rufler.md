@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 template: project-component
 version: "1.0"
 author: "zodigancode"
@@ -69,7 +69,7 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
+> tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting] Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, Rufler, agent-memory-mcp
 
 ---

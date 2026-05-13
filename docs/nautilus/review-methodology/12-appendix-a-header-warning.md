@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix A: Шаблон для header warning
@@ -20,7 +20,7 @@ state: normalized
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

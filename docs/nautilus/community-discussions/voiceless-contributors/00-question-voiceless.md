@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы
@@ -28,7 +28,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless контрибьюторы — могут ли быть.
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless контрибьюторы — могут ли быть. Документ создан на основе исследования.
 
 ---
 <!-- tags: local-first, anthropic, collaboration -->

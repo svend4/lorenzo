@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Содержание
@@ -18,7 +18,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)». Документ создан на основе исследования.
 
 ---
 <!-- tags: architecture, anthropic -->

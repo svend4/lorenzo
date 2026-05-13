@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Твой workflow
@@ -24,15 +24,15 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Когда Max или authorized user ставит задачу, твой default approach:
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Когда Max или authorized user ставит задачу, твой default approach:
 **Проекты:** [CardIndex](../01-svyazi/01-executive-summary.md)
 
 ---
-<!-- tags: knowledge -->
+<!-- tags: knowledge, rag -->
 
 
 

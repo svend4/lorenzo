@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Авторы — алфавитный список
@@ -28,7 +28,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Авторы (Хабр / GitHub / Medium), упомянутые в монорепозитории, и их ключевые проекты с обратными ссылками на доки.
+> Авторы (Хабр / GitHub / Medium), упомянутые в монорепозитории, и их ключевые проекты с обратными ссылками на доки. Документ создан на основе исследования.
 **Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
 
 ---

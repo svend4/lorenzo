@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 template: faq-entry
 version: "1.0"
 question: "[Вопрос]"
@@ -8,13 +8,13 @@ audience: any
 priority: medium
 created: 2026-04-29
 last_verified: 2026-04-29
-tags: [faq]
+tags: [faq, rag]
 ---
 
 # FAQ: [Вопрос]
 
 <!-- summary -->
-> Кто ссылается на этот документ (6): faq-entry (сходство 0.90) glossary-entry (сходство 0.56)
+> Кто ссылается на этот документ (6): faq-entry (сходство 0.90) glossary-entry (сходство 0.56) glossary-entry (сходство 0.55) Заполните поля согласно инструкции.
 Кто ссылается на этот документ (6):
  READABILITY
  READING_TIME

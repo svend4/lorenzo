@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Комбинация 9: Agent Orchestration Stack
@@ -18,7 +18,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория). Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: orchestration, collaboration -->

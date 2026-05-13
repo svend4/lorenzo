@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 2. The Double-Triangle Architecture
@@ -39,7 +39,7 @@ outputs).
 
 ---
 
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 

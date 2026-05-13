@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 3. Empirical Case Study: «Обучай»
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Schools can be closed for lack of need." This is a real risk we address in Section 6.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We document a successfully deployed Professional Colleague

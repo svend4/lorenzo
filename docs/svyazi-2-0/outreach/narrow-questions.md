@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Узкие вопросы для каждого автора
@@ -18,7 +18,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`, раздел «Контактная стратегия и узкие вопросы для авторов».
+> > Источник: `deep-research-report (3).md`, раздел «Контактная стратегия и узкие вопросы для авторов». Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Yodoca
 
 ---

@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, knowledge, architecture]
-state: normalized
+state: approved
 ---
 
 # Системы памяти
@@ -9,7 +9,7 @@ state: normalized
 <!-- toc-auto -->
 
 <!-- summary -->
-> [^mcp]: Model Context Protocol — протокол для AI-инструментов [^llm]: Large Language Model — большая языковая модель
+> [^mcp]: Model Context Protocol — протокол для AI-инструментов [^llm]: Large Language Model — большая языковая модель [^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 [^llm]: Large Language Model — большая языковая модель
 [^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)

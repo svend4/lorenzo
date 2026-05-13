@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 9. Checklist применения методологии
@@ -39,7 +39,7 @@ state: normalized
 > [!WARN
 
 ---
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

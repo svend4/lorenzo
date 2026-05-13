@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix B: Change Log
@@ -26,8 +26,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. New: Q6 as normative concept (section 8, ADR-002) New: Q6 as normative concept (section 8, ADR-002)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **New**: Q6 as normative concept (section 8, ADR-002)

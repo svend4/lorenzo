@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix A: Minimal Working Example
@@ -46,7 +46,7 @@ state: normalized
  A.1.
 
 ---
-<!-- tags: ingestion -->
+<!-- tags: ingestion, anthropic -->
 
 
 ## Appendix A: Minimal Working Example

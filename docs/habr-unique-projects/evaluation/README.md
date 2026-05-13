@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # evaluation/ — оценка уникальности и зрелости
@@ -9,7 +9,7 @@ state: normalized
 
 
 <!-- summary -->
-> Кто ссылается на этот документ (5): README (сходство 0.96) SEARCH_RESULTS (сходство 0.53)
+> Кто ссылается на этот документ (5): README (сходство 0.96) SEARCH_RESULTS (сходство 0.53) SEARCH_RESULTS (сходство 0.52) Документ создан на основе исследования.
 Кто ссылается на этот документ (5):
  OUTLINE
  READABILITY

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # passports/info1.md
@@ -16,7 +16,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа python scripts/improve_semantic_search.py --query "passports info1 md"
 markdown
  bash
 Поиск по теме документа

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 5. The Economics of Profession-Wide Replication
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The Economics of Profession-Wide Replication A defining feature of Professional Colleague Agents is that --- Содержание - 5.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > A defining feature of Professional Colleague Agents is that

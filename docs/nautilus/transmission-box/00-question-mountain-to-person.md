@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к…
@@ -31,7 +31,7 @@ state: normalized
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — если гора не идёт к человеку — посредник как коробка передач.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

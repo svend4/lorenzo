@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 3. Registry (`nautilus.json`)
@@ -54,7 +54,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. Все остальные поля OPTIONAL, но SHOULD быть заполнены для хорошей
 Все остальные поля OPTIONAL, но SHOULD быть заполнены для хорошей 
 discoverability:
  — если опущен, Repo существует только локально
@@ -63,7 +63,7 @@ discoverability:
 3.5.
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 ## 3. Registry (`nautilus.json`)

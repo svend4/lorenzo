@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 21. ADR-003: Five Onboarding Paths as Equal-Rank
@@ -20,7 +20,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. ADR-003: Five Onboarding Paths as Equal-Rank
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. ADR-003: Five Onboarding Paths as Equal-Rank Кто ссылается на этот документ (6)
  Похожие документы
  Использование
  Смотрите также
@@ -29,7 +29,7 @@ state: normalized
 > Документ создан на основе исследования.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

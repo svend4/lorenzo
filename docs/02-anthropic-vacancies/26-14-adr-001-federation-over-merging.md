@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 14. ADR-001: Federation over Merging
@@ -24,8 +24,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Context: При построении системы knowledge management встаёт Context: При построении системы knowledge management встаёт
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Context:** При построении системы knowledge management встаёт

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 22. Glossary of Reference Examples
@@ -20,7 +20,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Glossary of Reference Examples
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Glossary of Reference Examples Кто ссылается на этот документ (5) В качестве иллюстраций используется экосистема svend4 с 7 Repos:
  Похожие документы
  Использование
  Смотрите также

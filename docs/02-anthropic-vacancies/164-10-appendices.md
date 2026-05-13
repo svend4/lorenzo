@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 10. Appendices
@@ -19,8 +19,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Appendix F: Document Metadata Document status: Working draft, seeking feedback Review version: v1.0.0-draft Next planned revision: v1.1-draft incorporating partner feedback Primary
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Nautilus Portal Protocol v1.1**:

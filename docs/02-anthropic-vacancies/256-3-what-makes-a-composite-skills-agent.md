@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 3. What Makes a Composite Skills Agent
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Some need a specific sequence (one sub-agent's output feeds into another).
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We define the type with precision.

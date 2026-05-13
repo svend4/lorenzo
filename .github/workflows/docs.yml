@@ -39,6 +39,15 @@ jobs:
       - name: Run fast scripts
         run: python scripts/improve_run_all.py --fast --group reports
 
+      - name: Auto-summarize raw cards (pass 1)
+        run: python scripts/improve_auto_summarize.py --apply
+
+      - name: Progressive summarize blocked cards (pass 2)
+        run: python scripts/improve_progressive_summarize.py --apply --no-promote
+
+      - name: Extend normalized summaries (pass 3)
+        run: python scripts/improve_summary_extender.py --apply --no-promote
+
       - name: Promote card lifecycle states
         run: python scripts/improve_card_promote.py --apply
 

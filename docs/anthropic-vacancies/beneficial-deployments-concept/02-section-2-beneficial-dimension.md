@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Section 2: Why this matters — beneficial dimension
@@ -20,7 +20,7 @@ state: normalized
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

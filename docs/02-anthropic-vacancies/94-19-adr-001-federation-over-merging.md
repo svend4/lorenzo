@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 19. ADR-001: Federation over Merging
@@ -24,8 +24,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Status: Accepted (since v1.0, reaffirmed in v1.1) Status: Accepted (since v1.0, reaffirmed in v1.1)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Status**: Accepted (since v1.0, reaffirmed in v1.1)

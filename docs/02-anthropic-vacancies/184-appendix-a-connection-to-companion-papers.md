@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix A: Connection to Companion Papers
@@ -24,8 +24,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. This paper builds on three previous documents: This paper builds on three previous documents:
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > This paper builds on three previous documents:

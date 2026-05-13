@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # agent-memory-mcp + Memory OS
@@ -20,8 +20,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: VitaliySemenov / moshael Проекты: Svyazi, agent-memory-mcp
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Автор:** VitaliySemenov / moshael

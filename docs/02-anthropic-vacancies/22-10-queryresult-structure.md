@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 10. QueryResult Structure
@@ -49,14 +49,14 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. results_by_repo: dict[str, list[PortalEntry]] MUST поддерживать сериализацию в JSON, Markdown, HTML.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > results_by_repo: dict[str, list[PortalEntry]]
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, roadmap -->
 
 
 ## 10. QueryResult Structure

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # portal-mcp.py
@@ -19,7 +19,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры. * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры
+> * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры. * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.
  
 > Абстракт (авто)
 >

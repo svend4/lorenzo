@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # knowledge-space
@@ -20,8 +20,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: Sonia_Black / AnastasiyaW Проекты: Svyazi, knowledge-space
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Автор:** Sonia_Black / AnastasiyaW

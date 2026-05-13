@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Graph RAG
@@ -20,8 +20,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: VladSpace / vpakspace Проекты: Svyazi, Graph RAG Автор: VladSpace / vpakspace
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Автор:** VladSpace / vpakspace

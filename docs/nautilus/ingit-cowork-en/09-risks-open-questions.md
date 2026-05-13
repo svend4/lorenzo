@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 9. Risks and Open Questions
@@ -10,7 +10,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)». Документ содержит практические рекомендации и лучшие практики.
 
 ---
 

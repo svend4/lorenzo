@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Acknowledgments
@@ -42,7 +42,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. This work emerged through extensive collaboration with Anthropic's
+> Документ содержит практические рекомендации и лучшие практики. This work emerged through extensive collaboration with Anthropic's Claude (primarily Claude Opus 4.7) across multiple sessions in
  --
  
 Acknowledgments

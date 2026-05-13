@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Комбинация 32: Consensus-Based Multi-Agent Coordination
@@ -18,7 +18,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория). Документ содержит практические рекомендации и лучшие практики.
 
 ---
 <!-- tags: orchestration, local-first, anthropic -->

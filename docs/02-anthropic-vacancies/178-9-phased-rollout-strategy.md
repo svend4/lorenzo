@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 9. Phased Rollout Strategy
@@ -44,7 +44,7 @@ state: normalized
 > A re
 
 ---
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

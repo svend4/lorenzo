@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 11. Call for Collaboration
@@ -35,7 +35,7 @@ state: normalized
 
 
 <!-- summary -->
-> * Liability, professional licensure interaction, quality standards — all need development
+> * Liability, professional licensure interaction, quality standards — all need development Документ создан на основе исследования. Ссылки ведут на связанные материалы.
  Похожие документы
  Использование
  Смотрите также

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Письмо: VitaliySemenov / agent-memory-mcp
@@ -18,7 +18,7 @@ state: normalized
 
 
 <!-- summary -->
-> Открытое письмо автору agent-memory-mcp — типизированного MCP-сервера памяти для AI-агентов с SQLite, четырьмя типами записей и Memory OS концепцией.
+> Открытое письмо автору agent-memory-mcp — типизированного MCP-сервера памяти для AI-агентов с SQLite, четырьмя типами записей и Memory OS концепцией. Документ создан на основе исследования.
 
 <!-- tags: contacts, letters, agent-memory-mcp, memory, mcp, sqlite, typed-memory -->
 

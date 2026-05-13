@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 1. Problem Statement
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: It is a present problem with actionable solutions that require coordinated action now.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The AI industry in 2026 exhibits an apparent paradox. Frontier
@@ -38,7 +38,7 @@ state: normalized
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

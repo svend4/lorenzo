@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 6. Governance and Ethics
@@ -40,14 +40,14 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория).
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 13. Reference Implementation
@@ -24,14 +24,14 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Reference implementation: github.com/svend4/nautilus. Reference implementation: github.com/svend4/nautilus.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Reference implementation: `github.com/svend4/nautilus`.
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, memory -->
 
 
 

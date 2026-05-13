@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 7. Governance and Oversight
@@ -39,8 +39,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория).
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Комбинация 23: Security-First Code Review Pipeline
@@ -17,10 +17,10 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория). Документ содержит описание рисков и ограничений.
 
 ---
-<!-- tags: orchestration -->
+<!-- tags: orchestration, rag -->
 
 > [!WARNING]
 > Документ описывает ограничения, риски или требования безопасности.

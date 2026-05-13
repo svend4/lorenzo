@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Claude hat geantwortet: Прочитал внимательно.
@@ -28,7 +28,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на Habr-статью.
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на Habr-статью. Документ содержит описание рисков и ограничений.
 **Проекты:** Svyazi, CardIndex
 
 ---

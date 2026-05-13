@@ -31,7 +31,7 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Контакт: nlaik / LiteParse / research-docs
+> Документ содержит практические рекомендации и лучшие практики. Контакт: nlaik / LiteParse / research-docs Проекты: Svyazi, LiteParse Проекты | LiteParse / research-docs |
  
 Contents
  Профиль

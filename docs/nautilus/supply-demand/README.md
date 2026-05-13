@@ -12,7 +12,7 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел README формируется автоматически из данных репозитория. 00-question-supply-demand.md —
+> Раздел README формируется автоматически из данных репозитория. 00-question-supply-demand.md — 01-three-related-themes.md — Кто ссылается на этот документ (7):
 Содержание
  00-question-supply-demand.md —  
  01-three-related-themes.md —  

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Abstract
@@ -46,7 +46,7 @@ We introduce the Representative Agent Layer — an architectural
 pattern in which AI systems serve as proactive representat
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

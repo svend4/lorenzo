@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 2. What Makes a Professional Colleague Agent
@@ -20,8 +20,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The practitioner does not need to re-explain professional context with each interaction.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We now develop Type 1 in detail.
@@ -39,7 +39,7 @@ state: normalized
 
 ---
 
-<!-- tags: ingestion -->
+<!-- tags: ingestion, rag -->
 
 
 

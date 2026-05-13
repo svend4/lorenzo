@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 5. Configuration: How Principals Build Their Ensembles
@@ -10,7 +10,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents». Документ создан на основе исследования.
 
 ---
 
@@ -30,7 +30,7 @@ state: normalized
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Mega‑Stack 1.0 — Полный Legal‑AI Stack
@@ -19,7 +19,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑COMBINATION: Полный Legal‑AI Stack для Max».
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑COMBINATION: Полный Legal‑AI Stack для Max». Документ создан на основе исследования.
 **Проекты:** Svyazi, CardIndex, Yjs
 
 ---

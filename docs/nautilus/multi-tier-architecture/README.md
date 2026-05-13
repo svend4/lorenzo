@@ -12,7 +12,7 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел README формируется автоматически из данных репозитория. 00-question-multi-tier.md —
+> Раздел README формируется автоматически из данных репозитория. 00-question-multi-tier.md — 01-strategic-significance.md — Кто ссылается на этот документ (7):
 Содержание
  00-question-multi-tier.md —  
  01-strategic-significance.md —  

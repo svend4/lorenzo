@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Твоя relationship с другими AI
@@ -21,7 +21,7 @@ state: normalized
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

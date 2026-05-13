@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Уникальные проекты с Хабра
@@ -7,7 +7,7 @@ state: normalized
 <!-- toc-auto -->
 
 <!-- summary -->
-> 02-collaboration-partners (сходство 0.18) 01-synthesis (сходство 0.16) README (сходство 0.10)
+> 02-collaboration-partners (сходство 0.18) 01-synthesis (сходство 0.16) README (сходство 0.10) Кто ссылается на этот документ (3) Документ индексирован в базе знаний репозитор
 Похожие документы
  02-collaboration-partners (сходство 0.18)
  01-synthesis (сходство 0.16)

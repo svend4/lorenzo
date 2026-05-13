@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # The Recursive Insight
@@ -50,7 +50,7 @@ state: normalized
  277-what-s-mi
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

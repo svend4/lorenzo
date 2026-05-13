@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 10. Open Questions
@@ -23,13 +23,13 @@ state: normalized
 
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. that the questions are worth pursuing because the
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. that the questions are worth pursuing because the underlying technology will be developed regardless
 that the questions are worth pursuing because the 
 underlying technology will be developed regardless 
 of whether ethical frameworks keep pace.
 
 ---
-<!-- tags: orchestration -->
+<!-- tags: orchestration, rag -->
 
 
 

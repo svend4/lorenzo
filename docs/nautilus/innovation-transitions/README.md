@@ -7,7 +7,7 @@ state: normalized
 
 
 <!-- summary -->
-> 00-question-innovations-transitions.md — > [!WARNING] Кто ссылается на этот документ (6):
+> 00-question-innovations-transitions.md — > [!WARNING] Кто ссылается на этот документ (6): Документ является частью монорепозитория Lorenzo (Svyazi 2.0).
 Содержание
  00-question-innovations-transitions.md — > [!WARNING]
  01-response.md —  

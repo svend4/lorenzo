@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, security, architecture]
-state: normalized
+state: approved
 ---
 
 # Что пока не стоит склеивать в один релиз
@@ -19,7 +19,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 02-agentops-trace-envelope
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 02-agentops-trace-envelope Кто ссылается на этот документ (7): Проекты: Auto AI Router, Tool Search, AutoResearch
  --
 Использование
  

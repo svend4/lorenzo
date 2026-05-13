@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Memory Firewall против prompt worms (ансамбль I)
@@ -17,7 +17,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Аудит OpenClaw показал практический слой этой проблемы: zero‑sanitization pipeline, timeout‑as‑approval, arbitrary exec через plugin system, plaintext credential storage, memory exfiltration/injection, default‑open command gating и другие критич
 Аудит OpenClaw показал практический слой этой проблемы: zero‑sanitization pipeline, timeout‑as‑approval, arbitrary exec через plugin system, plaintext credential storage, memory exfiltration/injection, default‑open command gating и другие критич
 **Проекты:** Svyazi, SENTINEL
 

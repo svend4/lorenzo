@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 1. Introduction
@@ -39,7 +39,7 @@ state: normalized
 > 🔧 Подход: Homogenization: разные
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

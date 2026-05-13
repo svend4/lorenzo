@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Abstract
@@ -43,7 +43,7 @@ state: normalized
 > 🔧 Подход: Алгоритм вычисления кон
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 

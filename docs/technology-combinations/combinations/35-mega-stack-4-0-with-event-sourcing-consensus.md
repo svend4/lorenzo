@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus
@@ -28,7 +28,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория). Документ содержит практические рекомендации и лучшие практики.
 
 ---
 <!-- tags: rag, orchestration, local-first, architecture, anthropic -->

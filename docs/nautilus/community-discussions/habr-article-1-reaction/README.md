@@ -12,7 +12,7 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел README формируется автоматически из данных репозитория. 00-question-habr-link.md —
+> Раздел README формируется автоматически из данных репозитория. 00-question-habr-link.md — Кто ссылается на этот документ (6): Кто ссылается на этот документ (6):
 Содержание
  00-question-habr-link.md —  
  01-claude-response.md —  

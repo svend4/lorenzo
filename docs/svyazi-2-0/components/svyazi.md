@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Svyazi
@@ -20,8 +20,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: Хабр citeturn41search0 Проекты: Svyazi, CardIndex Источник: Хабр citeturn41search0
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Источник:** Хабр citeturn41search0

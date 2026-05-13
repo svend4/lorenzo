@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 4. Passport (`passport.md`)
@@ -39,7 +39,7 @@ state: normalized
 > Pass
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 

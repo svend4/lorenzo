@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Acknowledgments
@@ -24,8 +24,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. This document emerged from the author's observation, near This document emerged from the author's observation, near
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > This document emerged from the author's observation, near

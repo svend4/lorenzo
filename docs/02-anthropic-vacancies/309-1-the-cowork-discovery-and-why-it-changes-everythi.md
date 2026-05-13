@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 1. The Cowork Discovery and Why It Changes Everything
@@ -19,8 +19,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Position InGit as the structure layer that Cowork needs.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > When Document 2.3 was written earlier in this session, the

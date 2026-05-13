@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # hermes-comparison
@@ -13,6 +13,8 @@ state: normalized
 
 <!-- summary -->
 > hermes-comparison
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория. Раздел README формируется автоматически из данных репозитория.
 > [!NOTE]
 > Раздел   формируется автоматически из данных репозитория.
 

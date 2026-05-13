@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 12. Closing
@@ -23,7 +23,7 @@ state: normalized
 
 <!-- alert-added -->
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -39,7 +39,7 @@ state: normalized
 
 
 <!-- summary -->
-> * What is new is that we finally have technology capable of providing representation at scale — affordably, persistently
+> * What is new is that we finally have technology capable of providing representation at scale — affordably, persistently Документ создан на основе исследования.
  --
 Похожие документы
  223-12-closing (сходство 0.15)

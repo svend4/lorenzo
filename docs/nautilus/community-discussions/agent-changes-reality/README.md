@@ -7,7 +7,7 @@ state: normalized
 
 
 <!-- summary -->
-> 00-question-agent-changes-reality.md — 01-response-en.md — > [!TIP] Кто ссылается на этот документ (7):
+> 00-question-agent-changes-reality.md — 01-response-en.md — > [!TIP] Кто ссылается на этот документ (7): Документ является частью монорепозитория Lorenzo (Svyazi 2.0).
 Содержание
  00-question-agent-changes-reality.md —  
  01-response-en.md — > [!TIP]

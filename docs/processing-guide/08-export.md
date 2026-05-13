@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Обработка больших массивов — Часть 8: Экспорт и интеграции
@@ -10,7 +10,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. JSON/CSV — improve_export_json.py, improve_export_csv.py
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. JSON/CSV — improve_export_json.py, improve_export_csv.py JSONL для RAG — improve_chunk_semantic.py
 JSON/CSV — improve_export_json.py, improve_export_csv.py
  
 Формат JSON:

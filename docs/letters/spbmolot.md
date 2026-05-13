@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Письмо: spbmolot / NGT Memory
@@ -18,7 +18,7 @@ state: normalized
 
 
 <!-- summary -->
-> Открытое письмо автору NGT Memory — ассоциативного графа памяти для LLM, построенного на нейронных тензорных разложениях.
+> Открытое письмо автору NGT Memory — ассоциативного графа памяти для LLM, построенного на нейронных тензорных разложениях. Документ содержит практические рекомендации и лучшие практики.
 
 <!-- tags: contacts, letters, ngt-memory, memory, associative-graph -->
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix A: The Six-Type Taxonomy (Updated)
@@ -41,7 +41,7 @@ state: normalized
 
 <!-- alert-added -->
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

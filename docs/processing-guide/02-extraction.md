@@ -1,7 +1,7 @@
 ---
 date: 2026-05-13
 tags: [ingestion, local-first, architecture, anthropic, self-improve]
-state: normalized
+state: approved
 ---
 
 # Обработка больших массивов — Часть 2: Извлечение
@@ -12,7 +12,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Уровень 1: extract_mhtml.py Уровень 2: organize_docs.py + part.py
  --
  
 Содержание

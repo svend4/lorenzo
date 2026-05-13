@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 13. Closing
@@ -19,8 +19,8 @@ state: normalized
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Building uniquely customized agents serves deep representational needs but cannot scale.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Mastery in skilled work has always been composite. The yoga
@@ -38,7 +38,7 @@ state: normalized
 
 ---
 
-<!-- tags: rag -->
+<!-- tags: rag, orchestration -->
 
 
 

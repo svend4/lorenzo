@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Legal RAG
@@ -20,8 +20,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: Хабр citeturn20view6 Проекты: Svyazi, Legal RAG Источник: Хабр citeturn20view6
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Источник:** Хабр citeturn20view6

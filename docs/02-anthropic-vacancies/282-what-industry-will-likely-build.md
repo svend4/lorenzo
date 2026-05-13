@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # What Industry Will Likely Build
@@ -54,7 +54,7 @@ state: normalized
 
 
 <!-- summary -->
-> * What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Lik
+> * What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Lik Документ создан на основе исследования.
  --
 Кто ссылается на этот документ (10)
  153-executive-summary

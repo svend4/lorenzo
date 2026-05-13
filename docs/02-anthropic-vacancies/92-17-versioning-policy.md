@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 17. Versioning Policy
@@ -33,7 +33,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> * Breaking Changes Process Для major version bump требуется: 1. * Deprecation Policy !IMPORTANT Ключевой документ для понимания архитектуры
+> * Breaking Changes Process Для major version bump требуется: 1. * Deprecation Policy !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: Breaking Changes Process Для major version bump требуется: 1.
 NPP следует semver:
  Major (v1 → v2): breaking changes в interfaces или schemas
  Minor (v1.0 → v1.1): новая функциональность, backward-compatible
@@ -41,7 +41,7 @@ NPP следует semver:
 17.2.
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

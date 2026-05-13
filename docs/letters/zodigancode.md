@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Письмо: zodigancode / Rufler
@@ -18,7 +18,7 @@ state: normalized
 
 
 <!-- summary -->
-> Открытое письмо автору Rufler — декларативного YAML-слоя для запуска роя Claude Code-агентов с управлением зависимостями и токенами.
+> Открытое письмо автору Rufler — декларативного YAML-слоя для запуска роя Claude Code-агентов с управлением зависимостями и токенами. Документ создан на основе исследования.
 
 <!-- tags: contacts, letters, rufler, orchestration, yaml, agents -->
 

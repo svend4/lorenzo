@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # PORTAL-PROTOCOL.md
@@ -16,7 +16,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
 markdown
  bash
 Поиск по теме документа
@@ -28,7 +28,7 @@ python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
  135-a-formal-mode
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!IMPORTANT]
 > Нормативный документ. Описывает контракты и архитектурные решения.

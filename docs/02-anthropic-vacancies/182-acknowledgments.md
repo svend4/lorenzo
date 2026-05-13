@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Acknowledgments
@@ -24,7 +24,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10)
+> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10) This concept emerged through dialogue across multiple
  
 Contents
  Acknowledgments
@@ -40,7 +40,7 @@ Contents
 > Документ содержит практические реком
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

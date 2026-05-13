@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Content Overview
@@ -24,14 +24,14 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Раздел содержит несколько документов. Используйте содержание для навигации.
 
 > ~200 заметок, темы: software engineering, philosophy, music.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

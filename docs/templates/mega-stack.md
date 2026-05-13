@@ -14,7 +14,7 @@ tags: [mega-stack, архитектура]
 # Mega-stack: [Название]
 
 <!-- summary -->
-> Класс задач: [legal-AI / knowledge-OS / etc.] Целевой объём: [1M документов] SLA: latency p99 < 500ms, availability 99.9%
+> Класс задач: [legal-AI / knowledge-OS / etc.] Целевой объём: [1M документов] SLA: latency p99 < 500ms, availability 99.9% Заполните поля согласно инструкции.
 Класс задач: [legal-AI / knowledge-OS / etc.]
 Целевой объём: [1M документов]
 SLA: latency p99 < 500ms, availability 99.9%

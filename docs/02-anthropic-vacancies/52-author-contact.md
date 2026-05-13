@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Author & Contact
@@ -24,7 +24,7 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10)
+> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10) Рекомендуется читать перед погружением в детали. Contributors: svend4 + claude (Claude Code агент, ранние
  
 Contents
  Author & Contact
@@ -43,7 +43,7 @@ Contents
 > **Contributors:** svend4 + claude (Claude Code агент, ранние
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # References
@@ -51,7 +51,7 @@ Contents
 > Документ
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

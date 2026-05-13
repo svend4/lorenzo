@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # History
@@ -24,14 +24,14 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Создан: февраль 2026 (судя по repo creation date) Создан: февраль 2026 (судя по repo creation date)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Создан:** февраль 2026 (судя по repo creation date)
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

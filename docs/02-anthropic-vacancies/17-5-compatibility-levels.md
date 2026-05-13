@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 5. Compatibility Levels
@@ -40,7 +40,7 @@ state: normalized
 
 
 <!-- summary -->
-> * Use case: статические Repos (архивы, reference docs), которые не нужно искать. * Адаптер реализует только describe() метод
+> * Use case: статические Repos (архивы, reference docs), которые не нужно искать. * Адаптер реализует только describe() метод Документ создан на основе исследования.
  Level 0 — Discoverable
  Level 1 — Readable
  Level 2 — Queryable

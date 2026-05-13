@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Appendix A: Glossary
@@ -46,7 +46,7 @@ state: normalized
 > 🎯 Проблема: Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие пра
 
 ---
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # Compatibility Level
@@ -24,8 +24,8 @@ state: normalized
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Текущий уровень: 3 (Interactive / Bridged) Текущий уровень: 3 (Interactive / Bridged)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Текущий уровень: 3 (Interactive / Bridged)**

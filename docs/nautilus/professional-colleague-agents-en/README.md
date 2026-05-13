@@ -7,7 +7,7 @@ state: normalized
 
 
 <!-- summary -->
-> README — раздел документации проекта Lorenzo. Кто ссылается на этот документ (17):
+> README — раздел документации проекта Lorenzo. Кто ссылается на этот документ (17): Материал из базы знаний Svyazi 2.0, раздел «professional-colleague-agents-en».
 
 
 **Файлов:** 13

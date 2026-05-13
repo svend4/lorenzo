@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 ---
 
 # 12. Call for Collaboration
@@ -24,7 +24,7 @@ state: normalized
 
 
 <!-- summary -->
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Sub-agent registry standards and protocols
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Sub-agent registry standards and protocols Configuration management interfaces
  Sub-agent registry standards and protocols
  Configuration management interfaces
  Disagreement detection and presentation systems
