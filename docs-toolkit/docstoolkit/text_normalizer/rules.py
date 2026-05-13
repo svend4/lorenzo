@@ -98,13 +98,13 @@ def punctuation_rules() -> list[NormRule]:
         ),
         NormRule(
             name="normalize_double_quotes",
-            pattern=r'[""«»„]',
+            pattern='[“”«»„]',
             replacement='"',
             description="Replace typographic double-quote variants with straight double quote",
         ),
         NormRule(
             name="normalize_single_quotes",
-            pattern=r"[''`]",
+            pattern="[‘’`]",
             replacement="'",
             description="Replace typographic single-quote / backtick variants with apostrophe",
         ),
