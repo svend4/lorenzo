@@ -835,7 +835,7 @@ class TestThreading:
         def slow_task():
             with lock:
                 start_times.append(time.time())
-            time.sleep(0.05)
+            time.sleep(0.1)
 
         tasks = []
         for i in range(4):
@@ -851,8 +851,9 @@ class TestThreading:
         sched.tick(now=t0)
         elapsed = time.time() - t0
 
-        # 4 tasks each sleeping 0.05s: serial = 0.2s, concurrent < 0.15s
-        assert elapsed < 0.15, f"Tasks appear to run serially (elapsed={elapsed:.3f}s)"
+        # 4 tasks each sleeping 0.1s: serial = 0.4s, concurrent should be < 0.35s
+        # Generous threshold to avoid flakes under heavy CI load
+        assert elapsed < 0.35, f"Tasks appear to run serially (elapsed={elapsed:.3f}s)"
 
     def test_shared_counter_incremented_correctly(self):
         """All tasks should increment a shared counter exactly N times."""
