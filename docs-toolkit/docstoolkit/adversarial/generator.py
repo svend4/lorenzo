@@ -139,7 +139,7 @@ class AdversarialGenerator:
             for p in passages:
                 ents = self._extract_entities(getattr(p, "text", ""))
                 entities.append(ents[0] if ents else getattr(p, "doc_id", "unknown"))
-            if len(entities) < 2:
+            while len(entities) < 2:
                 entities.append("unknown")
             question = f"What connects {entities[0]} and {entities[1]}?"
             return question, doc_ids, weakness
