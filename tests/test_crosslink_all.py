@@ -12,6 +12,12 @@ sys.path.insert(0, str(ROOT / "scripts"))
 mod = importlib.import_module("improve_crosslink_all")
 
 
+def test_skip_files_includes_catalog_files():
+    """SCRIPTS_CATALOG.md, REGISTRY.md, TASKS_INDEX.md must be in SKIP_FILES to prevent catalog-fresh CI failures."""
+    for fname in ("SCRIPTS_CATALOG.md", "REGISTRY.md", "TASKS_INDEX.md"):
+        assert fname in mod.SKIP_FILES, f"{fname} must be in SKIP_FILES"
+
+
 def test_extract_md_links_returns_set(tmp_path):
     f = tmp_path / "source.md"
     target = tmp_path / "target.md"
