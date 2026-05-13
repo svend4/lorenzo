@@ -261,23 +261,34 @@ NPP протокол (Sprint 36): запрос распределяется по
 
 ## 7. Метрики проекта
 
-_Обновлено: 2026-05-13 (спринт 54)_
+_Обновлено: 2026-05-13 (спринт 55)_
 
 | Метрика | Значение |
 |---------|---------:|
-| Спринтов завершено | **54** |
-| Модулей в `docstoolkit/` | **~42** |
+| Спринтов завершено | **55** |
+| Модулей в `docstoolkit/` | **~48** |
 | Batch-скриптов в `scripts/` | 155 |
-| Тестов pytest | **888** |
+| Тестов pytest | **1123** |
 | MCP-инструментов | 30 |
 | Шаблонов с integrity check | 23 |
 | Документов в `docs/` | 2484 |
 | Habr-проектов проанализировано | 22 |
 | Контактов авторов готово | 14 |
-| LOC `docs-toolkit/` (.py) | ~21K |
+| LOC `docs-toolkit/` (.py) | ~26K |
 | Здоровье репо (HEALTH.md) | **99/100** |
 | GO/No-Go score (SCORING.md) | 96% → GO |
 | Версия `docs-toolkit` | **0.3.0** |
+
+### Новые модули (спринт 55)
+
+| Модуль | Фича | Тестов |
+|--------|------|-------:|
+| `classifier/tfidf_classifier.py` | TF-IDF centroid classifier: fit/classify/explain/save/load | 28 |
+| `diff/bulk.py` | Bulk diff: extract_headings, semantic_similarity, diff_snapshots | 31 |
+| `reads/store.py` | Read-receipt: ReadStore SQLite, estimate_reading_time, recommendations | 31 |
+| `rag/hierarchical.py` | Hierarchical retrieval: SectionIndex, DocIndex, hierarchical_search | 38 |
+| `intent/classifier.py` + `router.py` | Query intent: 7 labels RU+EN, IntentRouter + PipelineConfig | 61 |
+| `active_learning/` | Active learning queue: LearningQueue, triggers, auto_enqueue | 46 |
 
 ### Новые модули (спринт 54)
 
@@ -303,13 +314,14 @@ _Обновлено: 2026-05-13 (спринт 54)_
 
 ## 8. Что это значит — стратегически
 
-Текущее состояние — **production-ready platform для knowledge workers**, с полным покрытием всех архитектурных слоёв, 888 тестами и 42 модулями. Все 10 архитектурных дыр закрыты. Добавлены реранкинг, online eval, алерты, citation graph, faceted UI.
+Текущее состояние — **production-ready platform для knowledge workers**, с полным покрытием всех архитектурных слоёв, 1123 тестами и 48 модулями. Все 10 архитектурных дыр закрыты. Добавлены реранкинг, online eval, алерты, citation graph, faceted UI, hierarchical retrieval, intent classification, active learning.
 
 **Сильные стороны:**
 - **Все 10 gaps закрыты** — от knowledge graph до long-context map-reduce
+- **S3/S5/S7/M3/M4/M6** — classifier, bulk diff, read-receipt, hierarchical, intent, active learning
 - Stdlib-first позволяет deploy куда угодно
-- 888 тестов (было 546)
-- 53 спринта прошли без архитектурных переписываний → дизайн стабилен
+- 1123 тестов (было 888, было 546)
+- 55 спринтов прошли без архитектурных переписываний → дизайн стабилен
 
 **Узкие места:**
 - Многое работает, но не всегда хорошо (semantic search требует sentence-transformers, knowledge graph отсутствует)
