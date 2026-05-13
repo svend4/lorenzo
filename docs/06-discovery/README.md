@@ -58,9 +58,10 @@
 | Round 42 | ✅ Завершён | 4 | AML LLM советник, PhysicalAgent VLA, SherlockOps SRE, T-Bank RU LLM | `round-42/` |
 | Round 43 | ✅ Завершён | 4 | feeds.fun медиа, RAG чанкинг, LOCK-R reasoning, Kaspersky MLAD ICS | `round-43/` |
 | Round 44 | ✅ Завершён | 4 | AI EMR ассистент, LoRA эмбеддинги, Yandex LLM eval, LangGraph агенты | `round-44/` |
-| Round 45 | 🔜 Следующий | — | Multimodal AI v3, LLM финансы v3, Russian NLP v3, AI Observability v2 | — |
+| Round 45 | ✅ Завершён | 4 | MWS Vision Bench, MOEX DistilBERT, Avito Mistral RU, LLM Observability | `round-45/` |
+| Round 46 | 🔜 Следующий | — | Multi-agent v2, LLM телеком v2, RAG для кода v2, Edge AI v2 | — |
 
-**Итого: 180 проектов, 90+ авторов**
+**Итого: 184 проекта, 90+ авторов**
 
 ## Шаблон раунда
 
