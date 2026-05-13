@@ -7,6 +7,8 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-05-13
+
 ### Added
 - Persistent SQLite кэш embeddings (`docstoolkit/embeddings/cache.py`)
   с TF-IDF IDF и vectors, content-hash cache invalidation
@@ -18,6 +20,7 @@
 
 ### Changed
 - TFIDFProvider принимает опциональный `cache=` для persistent IDF
+- `TestResult` dataclass получил `__test__ = False` для совместимости с pytest
 
 ### Performance
 - TF-IDF.fit() с кэшем: 25x speedup на повторных вызовах
@@ -41,5 +44,6 @@
 - Dockerfile (multi-stage), GitHub Action template, PyPI publish workflow
 - Example plugin pack с 4 типами расширений
 
-[Unreleased]: https://github.com/svend4/lorenzo/compare/toolkit-v0.1.0...HEAD
+[Unreleased]: https://github.com/svend4/lorenzo/compare/toolkit-v0.2.0...HEAD
+[0.2.0]: https://github.com/svend4/lorenzo/compare/toolkit-v0.1.0...toolkit-v0.2.0
 [0.1.0]: https://github.com/svend4/lorenzo/releases/tag/toolkit-v0.1.0
