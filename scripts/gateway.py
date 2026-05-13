@@ -179,6 +179,10 @@ def _tfidf_search(query: str, top_k: int = 10) -> list[dict]:
             continue
         score = sum(words.count(t) for t in tokens) / len(words)
         if score > 0:
+            # Extra boost when query tokens overlap with document title
+            title_tokens = set(_tokenize(d.get("title") or ""))
+            title_overlap = len(tokens & title_tokens) / max(len(tokens), 1)
+            score *= (1 + 2.5 * title_overlap)
             scored.append((score, d))
     scored.sort(key=lambda x: x[0], reverse=True)
     return [d for _, d in scored[:top_k]]

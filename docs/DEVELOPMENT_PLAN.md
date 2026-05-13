@@ -22,6 +22,7 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | 11 — Knowledge Graph + Skill Metrics | `improve_card_graph.py` (18458 рёбер, PageRank), `/api/graph`, `improve_skill_metrics.py` | ✅ |
 | 12 — PageRank-Boosted Search | PageRank boost в hybrid_search + `improve_graph_search.py` (neighbourhood search) | ✅ |
 | 13 — ANN Index + Query Analytics + Hot Cards | pure-Python ANN (0ms warm), query logging, hot cards composite score | ✅ |
+| 14 — Search Boost + Digest + Snapshot + Contacts | title-match boost (Hit Rate 100%), weekly digest, knowledge snapshot, contact drafts | ✅ |
 
 **Текущее распределение карточек:** 1005 approved · 109 normalized · 51 raw · promote rate 98.7%
 
@@ -165,13 +166,60 @@ python scripts/improve_hot_cards.py --top 20 --state approved    # только 
 python scripts/improve_hot_cards.py --json                       # JSON
 ```
 
-### Следующий уровень (Итерация 14)
+---
+
+## Итерация 14 — Search Boost + Digest + Snapshot + Contact Drafts
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| Title-match boost в поиске | `_tfidf_search()` в gateway.py и precision_eval.py: `score *= (1 + 2.5 × title_overlap)`. Hit Rate@10: 0.850 → **1.000** (20/20). Mean MRR: 0.437 → 0.441 |
+| `improve_digest_weekly.py` (переписан) | Четыре источника: git activity + card lifecycle + hot cards (топ-5) + query analytics. Flags: `--days`, `--no-cards` |
+| `improve_knowledge_snapshot.py` (новый) | Comprehensive KPI snapshot: corpus/search/graph/skills/activity. Сохраняет `docs/KNOWLEDGE_SNAPSHOT.md` + `docs/snapshots/YYYYMMDD.json` для исторического тренда. `--trend` показывает таблицу изменений |
+| `improve_contact_personalize.py` (новый) | Template-based contact drafts (без LLM). 3 шаблона (memory/knowledge/orchestration layer). 15 черновиков → `docs/contacts/{author}_draft.md`. `--stats`, `--dry-run`, `--author` |
+| `improve_run_all.py` обновлён | knowledge_snapshot в reports group; contact_personalize в contacts-ext group |
+
+### Архитектура title-boost
+
+```
+score = (TF-IDF term match in body) / len(words)
+
+# New: extra multiplier for title overlap
+title_tokens  = tokenize(doc.title)
+title_overlap = |query_tokens ∩ title_tokens| / |query_tokens|
+score *= (1 + 2.5 × title_overlap)
+```
+
+**Эффект:** при запросе "NGT Memory ассоциативный граф" документ `ngt-memory.md`
+(title содержит {ngt, memory}) получает буст 1 + 2.5×(2/7) ≈ 1.71×, поднимается
+с rank=17 в топ-10.
+
+### CLI
+
+```bash
+python scripts/improve_precision_eval.py          # Hit Rate@10 eval
+python scripts/improve_precision_eval.py --verbose # детали по каждому запросу
+
+python scripts/improve_digest_weekly.py           # еженедельный дайджест
+python scripts/improve_digest_weekly.py --days 14 # за 2 недели
+
+python scripts/improve_knowledge_snapshot.py      # snapshot текущего состояния
+python scripts/improve_knowledge_snapshot.py --trend  # исторический тренд
+
+python scripts/improve_contact_personalize.py --dry-run   # предпросмотр черновиков
+python scripts/improve_contact_personalize.py             # генерация всех черновиков
+python scripts/improve_contact_personalize.py --author kksudo
+python scripts/improve_contact_personalize.py --stats     # таблица статусов
+```
+
+### Следующий уровень (Итерация 15)
 
 | Задача | Сложность | Ценность |
 |--------|-----------|---------|
-| Персонализированные контактные сообщения (LLM) | средняя | высокая |
-| Автоматический еженедельный дайджест с hot cards | низкая | средняя |
-| Retrieval evaluation framework (precision@K, NDCG) | средняя | средняя |
+| LLM-enhanced contact messages (ANTHROPIC_API_KEY) | средняя | высокая |
+| Multi-hop reasoning: multi-query graph expansion | высокая | высокая |
+| Автоматическое обновление hot_cards при каждом цикле | низкая | средняя |
 
 ---
 

@@ -142,9 +142,10 @@ GROUPS = {
         "improve_skill_dashboard.py",   # статистика использования скилов
         "improve_skill_metrics.py",     # качество скилов (structure/examples/steps)
         "improve_card_graph.py",        # граф карточек + PageRank → CARD_GRAPH.json
-        "improve_hot_cards.py",         # горячие карточки: PageRank + query_freq → HOT_CARDS.md
-        "improve_query_log.py",         # аналитика запросов gateway → QUERY_ANALYTICS.md
-        "improve_quality_patch.py",     # патч качества после регенерации
+        "improve_hot_cards.py",             # горячие карточки: PageRank + query_freq → HOT_CARDS.md
+        "improve_query_log.py",             # аналитика запросов gateway → QUERY_ANALYTICS.md
+        "improve_knowledge_snapshot.py",    # KPI snapshot → KNOWLEDGE_SNAPSHOT.md + snapshots/
+        "improve_quality_patch.py",         # патч качества после регенерации
     ],
     "export": [
         # Экспорт
@@ -243,7 +244,8 @@ GROUPS = {
     ],
     "contacts-ext": [
         # Расширенная работа с контактами авторов
-        "improve_migrate_contacts.py",  # миграция docs/contacts/*.md на frontmatter
+        "improve_migrate_contacts.py",      # миграция docs/contacts/*.md на frontmatter
+        "improve_contact_personalize.py",   # шаблонные черновики первых сообщений авторам
     ],
 }
 
