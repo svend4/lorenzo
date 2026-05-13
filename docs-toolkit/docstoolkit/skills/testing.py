@@ -41,6 +41,8 @@ from docstoolkit.skills.registry import get_skill_path
 
 @dataclass
 class TestResult:
+    __test__ = False  # prevent pytest from collecting this dataclass as a test class
+
     name: str
     skill: str
     status: str  # ok | fail | skip
