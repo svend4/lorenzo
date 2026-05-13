@@ -3,7 +3,7 @@ title: "Proposal: Knowledge-Space × Agent-Memory-Mcp"
 date: 2026-05-13
 card_id: 775a002b1753
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, knowledge-space, agent-memory-mcp, knowledge, memory, integration]
 projects: [knowledge-space, agent-memory-mcp]
 similarity: 0.214

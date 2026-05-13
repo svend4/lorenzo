@@ -301,9 +301,10 @@ LLM_SCRIPTS = {
 
 GROUPS["lifecycle"] = [
     # Жизненный цикл карточек: продвижение статусов, proposals, RFC
-    "improve_card_promote.py",       # raw→normalized→approved
-    "improve_proposal_gen.py",       # генерация proposal-карточек интеграции
-    "improve_rfc_tracker.py",        # обновление RFC реестра
+    "improve_card_promote.py",           # raw→normalized→approved
+    "improve_proposal_gen.py",           # генерация proposal-карточек интеграции
+    "improve_rfc_tracker.py",            # обновление RFC реестра
+    "improve_knowledge_evolution.py",    # снапшот KPI → KNOWLEDGE_EVOLUTION.md
 ]
 
 GROUPS["live"] = [

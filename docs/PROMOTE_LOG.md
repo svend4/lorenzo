@@ -988,3 +988,13 @@
 - `docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md`
 - `docs/lorenzo-agent/12-workflow.md`
 - `docs/nautilus/npp-v1-0/00-abstract-status.md`
+
+## 2026-05-13 13:58
+
+### raw → normalized (6)
+- `docs/rfcs/RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md`
+- `docs/rfcs/RFC-0002-memory-write-policy-для-svyazi-2-0.md`
+- `docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md`
+- `docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md`
+- `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md`
+- `docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md`

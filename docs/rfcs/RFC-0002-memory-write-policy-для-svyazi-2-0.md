@@ -1,4 +1,5 @@
 ---
+state: normalized
 rfc: "0002"
 title: "Memory Write Policy для Svyazi 2.0"
 status: Accepted

@@ -3,7 +3,7 @@ title: "Proposal: Research-Docs-Liteparse × Agent-Memory-Mcp"
 date: 2026-05-13
 card_id: f369f80c605c
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, research-docs-liteparse, agent-memory-mcp, ingestion, memory, integration]
 projects: [research-docs-liteparse, agent-memory-mcp]
 similarity: 0.163

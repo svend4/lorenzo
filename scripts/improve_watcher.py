@@ -26,6 +26,18 @@ RULES = [
     (lambda p: p.name == "README.md",       ["improve_sitemap.py"]),
     # Изменился скрипт → обновить отчёт
     (lambda p: "scripts" in str(p) and p.suffix == ".py", ["improve_report.py"]),
+    # Lifecycle: новая карточка в proposals/ → запустить промоутер
+    (lambda p: "proposals" in str(p) and p.suffix == ".md",
+     ["improve_card_promote.py"]),
+    # Lifecycle: новый RFC → обновить RFC-реестр
+    (lambda p: "rfcs" in str(p) and p.name.startswith("RFC-"),
+     ["improve_rfc_tracker.py"]),
+    # Lifecycle: изменились файлы 05-habr-projects → обновить proposals
+    (lambda p: "05-habr-projects" in str(p) and p.suffix == ".md",
+     ["improve_proposal_gen.py"]),
+    # Semantic: изменился корпус (новые файлы) → пересобрать passages
+    (lambda p: p.suffix == ".md" and "obsidian" not in str(p),
+     ["improve_passage_retrieval.py"]),
 ]
 
 # Скрипты которые запускаем не чаще раза в N секунд
@@ -132,9 +144,15 @@ def watch_watchdog() -> None:
 
 
 def run_once() -> None:
-    """Однократная проверка: запустить базовые скрипты."""
+    """Однократная проверка: запустить базовые + lifecycle скрипты."""
     print("  однократный запуск базовых скриптов...")
-    for script in ["improve_index_update.py", "improve_stats.py", "improve_report.py"]:
+    for script in [
+        "improve_index_update.py",
+        "improve_card_promote.py",
+        "improve_rfc_tracker.py",
+        "improve_stats.py",
+        "improve_report.py",
+    ]:
         run_script(script)
     print("  готово")
 

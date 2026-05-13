@@ -48,6 +48,9 @@ jobs:
       - name: Update RFC registry
         run: python scripts/improve_rfc_tracker.py --update
 
+      - name: Snapshot knowledge evolution
+        run: python scripts/improve_knowledge_evolution.py
+
       - name: Update search index
         run: python scripts/improve_search_index.py
 

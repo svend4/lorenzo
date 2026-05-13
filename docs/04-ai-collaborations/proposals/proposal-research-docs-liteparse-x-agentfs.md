@@ -3,7 +3,7 @@ title: "Proposal: Research-Docs-Liteparse × Agentfs"
 date: 2026-05-13
 card_id: 42118a818e41
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, research-docs-liteparse, agentfs, ingestion, knowledge, integration]
 projects: [research-docs-liteparse, agentfs]
 similarity: 0.182

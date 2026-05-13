@@ -10,12 +10,46 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | Фаза | Что сделано | Статус |
 |------|-------------|--------|
 | 1 — Технический долг | авто-теги, якори habr-projects, gateway dedup+passages sync | ✅ |
-| 2 — Card Lifecycle | `improve_card_promote.py`: 707 normalized + 272 approved | ✅ |
+| 2 — Card Lifecycle | `improve_card_promote.py`: 441 normalized + 272 approved | ✅ |
 | 3 — MCP Write-back | `add_card`, `update_card_state`, `propose_integration`, `list_cards` | ✅ |
-| 4 — Живой корпус | `improve_github_tracker.py`, `improve_proposal_gen.py` (11 proposals), incremental IDF | ✅ |
-| 5 — Semantic + RFC | `improve_semantic_embeddings.py`, `improve_rfc_tracker.py`, RFC-0001 Accepted | ✅ |
+| 4 — Живой корпус | `improve_github_tracker.py`, `improve_proposal_gen.py` (23 proposals), incremental IDF | ✅ |
+| 5 — Semantic + RFC | `improve_semantic_embeddings.py`, `improve_rfc_tracker.py`, 3 RFC Accepted | ✅ |
+| 6 — Autonomous Intelligence | `decay_card`/`restore_card`, `write_type`, watcher lifecycle, knowledge evolution | ✅ |
 
-**Текущее распределение карточек:** 272 approved · 435 normalized · 443 raw (1150 из 1632)
+**Текущее распределение карточек:** 272 approved · 441 normalized · 451 raw · promote rate 61.3%
+
+## Итерация 6 — Autonomous Intelligence Layer
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| `decay_card` MCP tool | RFC-0002 decay_event: пометить карточку как устаревшую |
+| `restore_card` MCP tool | RFC-0002 restore_event: отменить decay |
+| `write_type` frontmatter | Все карточки из MCP получают `write_type: episode`, `written_by: mcp`, `written_at` |
+| Lifecycle watcher rules | `improve_watcher.py`: proposals/ → promote, rfcs/ → update registry, habr → regenerate proposals |
+| `improve_knowledge_evolution.py` | Снапшоты KPI во времени → `docs/KNOWLEDGE_EVOLUTION.md` + `docs/knowledge_evolution.json` |
+| Collab Finder semantic upgrade | Гибрид 0.5×card_tfidf + 0.3×doc_semantic + 0.2×bm25 + graph_bonus |
+
+### MCP: теперь 17 инструментов
+
+```
+read  (11): search, decisions, contacts, project_status, bm25_search, run_recipe,
+             list_recipes, run_improve, health, list_scripts, update_contact
+write  (6): add_card, update_card_state, propose_integration, list_cards,
+             decay_card, restore_card
+```
+
+### Следующий уровень (Итерация 7 — Production)
+
+| Задача | Сложность | Ценность |
+|--------|-----------|---------|
+| `improve_audit_db.py` integration | средняя | высокая — полный audit trail |
+| Rate limiting в MCP (100ms) | низкая | средняя |
+| Neural embeddings (sentence-transformers) | низкая (pip install) | высокая |
+| Streaming Gateway (OpenAI SSE) | высокая | средняя |
+| GitHub Actions: lifecycle снапшот в KNOWLEDGE_EVOLUTION | низкая | высокая |
+| `improve_decay_checker.py` — авто-decay по возрасту + сигналам | средняя | средняя |
 
 ---
 

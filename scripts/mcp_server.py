@@ -511,6 +511,51 @@ async def list_tools() -> list[Tool]:
                 },
             },
         ),
+        Tool(
+            name="decay_card",
+            description=(
+                "Пометить карточку как устаревшую (state: decayed). "
+                "Операция RFC-0002 decay_event: карточка остаётся в корпусе, "
+                "но исключается из поиска и lifecycle promote. "
+                "Необратима без явного вызова restore_card."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "path": {
+                        "type": "string",
+                        "description": "Путь к файлу карточки (относительно корня репо)",
+                    },
+                    "reason": {
+                        "type": "string",
+                        "description": "Причина устаревания (обязательна для decay_event)",
+                    },
+                },
+                "required": ["path", "reason"],
+            },
+        ),
+        Tool(
+            name="restore_card",
+            description=(
+                "Восстановить карточку из decayed обратно в raw. "
+                "Операция restore_event по RFC-0002: отменяет decay_event. "
+                "Используется при ошибочном decay или повторной актуализации."
+            ),
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "path": {
+                        "type": "string",
+                        "description": "Путь к файлу карточки (относительно корня репо)",
+                    },
+                    "reason": {
+                        "type": "string",
+                        "description": "Причина восстановления (опционально)",
+                    },
+                },
+                "required": ["path"],
+            },
+        ),
     ]
 
 
@@ -576,6 +621,16 @@ def _dispatch(name: str, args: dict) -> str:
             args.get("state", "all"),
             args.get("section", ""),
             args.get("limit", 20),
+        )
+    if name == "decay_card":
+        return _tool_decay_card(
+            args.get("path", ""),
+            args.get("reason", ""),
+        )
+    if name == "restore_card":
+        return _tool_restore_card(
+            args.get("path", ""),
+            args.get("reason", ""),
         )
     return f"Неизвестный инструмент: {name}"
 
@@ -1019,6 +1074,7 @@ def _tool_add_card(title: str, content: str, section: str,
     card_id   = _hashlib.sha256(f"{title}{content[:200]}".encode()).hexdigest()[:12]
 
     source_line = f"source_url: {source_url}" if source_url else ""
+    written_at = _dt.now().strftime("%Y-%m-%dT%H:%M:%S")
     md = f"""---
 title: {title}
 date: {date}
@@ -1026,6 +1082,9 @@ card_id: {card_id}
 tags: [{tags_str}]
 source: mcp
 state: raw
+write_type: episode
+written_by: mcp
+written_at: {written_at}
 {source_line}
 ---
 
@@ -1236,6 +1295,88 @@ def _tool_list_cards(state: str, section: str, limit: int) -> str:
         lines.append(f"[{r['state']}] `{r['path']}` — {r['title']}")
 
     return "\n".join(lines)
+
+
+# decay_card и restore_card (RFC-0002 decay_event / restore_event)
+
+def _tool_decay_card(path_str: str, reason: str) -> str:
+    if not path_str:
+        return "❌ Укажите path карточки."
+    if not reason:
+        return "❌ Укажите reason — причина decay_event обязательна (RFC-0002)."
+
+    filepath = ROOT / path_str
+    if not filepath.exists():
+        candidates = list(DOCS.rglob(Path(path_str).name))
+        if len(candidates) == 1:
+            filepath = candidates[0]
+        elif len(candidates) > 1:
+            names = [str(c.relative_to(ROOT)) for c in candidates[:3]]
+            return f"❓ Несколько совпадений: {names}"
+        else:
+            return f"❌ Файл не найден: {path_str}"
+
+    text = filepath.read_text(encoding="utf-8")
+    state_m = re.search(r"^state:\s*(\S+)", text, re.MULTILINE)
+    current = state_m.group(1) if state_m else "raw"
+
+    if current == "decayed":
+        return f"ℹ️ Карточка уже decayed: `{filepath.relative_to(ROOT)}`"
+
+    now = _dt.now().strftime("%Y-%m-%dT%H:%M:%S")
+    if state_m:
+        text = re.sub(r"^state:\s*\S+", "state: decayed", text, count=1, flags=re.MULTILINE)
+    else:
+        text = text.replace("---\n", f"---\nstate: decayed\n", 1)
+
+    # Добавить decay_event в конец файла
+    text += f"\n<!-- decay_event: {current} → decayed | {now} | {reason} -->\n"
+    filepath.write_text(text, encoding="utf-8")
+
+    return (
+        f"✅ Карточка помечена как decayed:\n"
+        f"  `{filepath.relative_to(ROOT)}`\n"
+        f"  Было: {current} → Стало: decayed\n"
+        f"  Причина: {reason}\n"
+        f"  Карточка исключена из promote и поиска.\n"
+        f"  Восстановление: restore_card"
+    )
+
+
+def _tool_restore_card(path_str: str, reason: str) -> str:
+    if not path_str:
+        return "❌ Укажите path карточки."
+
+    filepath = ROOT / path_str
+    if not filepath.exists():
+        candidates = list(DOCS.rglob(Path(path_str).name))
+        if len(candidates) == 1:
+            filepath = candidates[0]
+        elif len(candidates) > 1:
+            names = [str(c.relative_to(ROOT)) for c in candidates[:3]]
+            return f"❓ Несколько совпадений: {names}"
+        else:
+            return f"❌ Файл не найден: {path_str}"
+
+    text = filepath.read_text(encoding="utf-8")
+    state_m = re.search(r"^state:\s*(\S+)", text, re.MULTILINE)
+    current = state_m.group(1) if state_m else "raw"
+
+    if current != "decayed":
+        return f"ℹ️ Карточка не в decayed (текущий state: {current}): `{filepath.relative_to(ROOT)}`"
+
+    now = _dt.now().strftime("%Y-%m-%dT%H:%M:%S")
+    text = re.sub(r"^state:\s*decayed", "state: raw", text, count=1, flags=re.MULTILINE)
+    reason_note = f" | {reason}" if reason else ""
+    text += f"\n<!-- restore_event: decayed → raw | {now}{reason_note} -->\n"
+    filepath.write_text(text, encoding="utf-8")
+
+    return (
+        f"✅ Карточка восстановлена:\n"
+        f"  `{filepath.relative_to(ROOT)}`\n"
+        f"  decayed → raw\n"
+        f"  Карточка снова участвует в promote и поиске."
+    )
 
 
 # ---------------------------------------------------------------------------
