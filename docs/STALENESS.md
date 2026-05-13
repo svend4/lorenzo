@@ -1,48 +1,35 @@
 # Отчёт об устаревших документах
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `STALENESS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: staleness, docs -->
-
-
-<!-- summary -->
-> `STALENESS` — раздел документации проекта Lorenzo.
-
-
 _Порог: 30 дней. Обновлено: 2026-05-13_
 
-Найдено проблем: **135** файлов
+Найдено проблем: **81** файлов
 
-## Без метаданных (нет summary или тегов) — 94 файлов
+## Без метаданных (нет summary или тегов) — 59 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
-| `docs/MCP_DASHBOARD.md` | 21 | нет summary, нет тегов, короткий (21 слов) |
 | `docs/autofilled/README.md` | 66 | нет summary, нет тегов, короткий (66 слов) |
 | `docs/autofilled/components/README.md` | 96 | нет summary, нет тегов, короткий (96 слов) |
-| `docs/badges/README.md` | 69 | нет summary, нет тегов, короткий (69 слов) |
-| `docs/01-svyazi/QA.md` | 257 | нет summary, нет тегов |
-| `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
-| `docs/03-technology-combinations/QA.md` | 100 | нет summary, нет тегов |
-| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
-| `docs/05-habr-projects/QA.md` | 206 | нет summary, нет тегов |
-| `docs/ABBREVIATIONS.md` | 1306 | нет summary, нет тегов |
-| `docs/ACTION_ITEMS.md` | 8984 | нет summary, нет тегов |
-| `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
-| `docs/AUTHORS.md` | 129 | нет тегов |
-| `docs/BACKLINKS.md` | 423 | нет тегов |
-| `docs/CHANGELOG.md` | 821 | нет summary, нет тегов |
-| `docs/CODE_BLOCKS.md` | 5051 | нет summary, нет тегов |
-| `docs/COMPARE.md` | 321 | нет summary, нет тегов |
-| `docs/COMPLEXITY.md` | 350 | нет тегов |
-| `docs/CONCEPTS.md` | 16170 | нет summary, нет тегов |
-| `docs/CONSISTENCY.md` | 525 | нет summary, нет тегов |
+| `docs/ALERTS.md` | 105 | нет тегов |
+| `docs/BACKLINKS.md` | 413 | нет тегов |
+| `docs/CLUSTERS.md` | 1671 | нет тегов |
+| `docs/COMPARE.md` | 342 | нет тегов |
+| `docs/CONCEPT_GRAPH.md` | 611 | нет тегов |
+| `docs/CONSISTENCY.md` | 520 | нет тегов |
+| `docs/CONTENT_GAPS.md` | 683 | нет тегов |
+| `docs/CONTRADICTIONS.md` | 1450 | нет тегов |
+| `docs/CROSS_SECTION.md` | 4035 | нет тегов |
+| `docs/DEPENDABOT.md` | 116 | нет тегов |
+| `docs/DIGEST_AUTO.md` | 371 | нет тегов |
+| `docs/INFO_PROCESSING_METHODS.md` | 3075 | нет тегов |
+| `docs/KEYWORD_INDEX.md` | 489 | нет тегов |
+| `docs/KPI.md` | 2222 | нет тегов |
+| `docs/KPI_HISTORY.md` | 131 | нет тегов |
+| `docs/LANGUAGE_STATS.md` | 3471 | нет тегов |
+| `docs/LLM_GAPS.md` | 72 | нет тегов, короткий (72 слов) |
+| `docs/NARRATIVE.md` | 1036 | нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 41 файлов
+## Короткие (< 100 слов, заготовки) — 22 файлов
 
 | Файл | Слов |
 |------|------|
@@ -77,33 +64,3 @@ python scripts/improve_tags.py
 # Обогатить короткие файлы через LLM
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (5):**
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [COVERAGE](COVERAGE.md)
-- [SUMMARIES](SUMMARIES.md)
-- [PASSIVE_VOICE](PASSIVE_VOICE.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-
