@@ -1,78 +1,57 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «темпоральные графы знаний юридического graph point time retrieval»
-> **Дата:** 2026-05-13 15:43  **Кандидатов:** 2
+> Автоматический поиск партнёрских проектов для: «инженерия оценки агентов golden трассами ragas knowledge graph русском»
+> **Дата:** 2026-05-13 16:06  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-47/projects/ekaterina-ya-temporal-knowledge-graph-legal-rag.md`
+**Источник:** `docs/06-discovery/round-48/projects/kobets87-agent-evaluation-golden-set-ragas.md`
 
-**Запрос:** темпоральные графы знаний юридического graph point time retrieval
+**Запрос:** инженерия оценки агентов golden трассами ragas knowledge graph русском
 
 ---
 
-## 1. research-docs + LiteParse
+## 1. AgentFS
 
 **Релевантность:** `0.429`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/svyazi-2-0/components/research-docs-liteparse.md`](svyazi-2-0/components/research-docs-liteparse.md)
+**Документ:** [`docs/svyazi-2-0/components/agentfs.md`](svyazi-2-0/components/agentfs.md)
 
-**Теги:** rag, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, mclaude, LiteParse, Yodoca
+**Теги:** knowledge, ingestion, roadmap, collaboration
+**Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
 
-> Forensic document QA с HTML‑отчётом и bounding boxes на страницах PDF.
+> Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром.
 
 **Связан с:**
   - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/graph-rag.md](svyazi-2-0/components/graph-rag.md) _references_
   - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
 
-**Автор:** контакт не найден в docs/contacts/
-
----
-
-## 2. Wikontic: семантический граф
-
-**Релевантность:** `0.353`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
-
-**Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
-
-**Теги:** ingestion, collaboration
-**Упомянутые проекты:** Yodoca, Wikontic
-
-> Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пай
-
-**Связан с:**
-  - [docs/README.md](README.md) _references_
-  - [docs/05-habr-projects/memory/ngt-memory.md](05-habr-projects/memory/ngt-memory.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/02-collaboration-partners.md](05-habr-projects/02-collaboration-partners.md) _references_
-
-**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
+**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
 
 <details>
-<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
+<summary>📧 Шаблон первого сообщения → kksudo</summary>
 
 ```
-**Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «темпоральные графы знаний юридического graph point time retr»
+**Кому:** kksudo (@kksudo)
+**Тема:** Коллаборация по теме «инженерия оценки агентов golden трассами ragas knowledge gra»
 
-Привет, VitalyOborin!
+Привет, kksudo!
 
-Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
+Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https_
+Особенно ценна идея: _Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром._
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
 
 **Конкретные вопросы:**
-- Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
+- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -83,6 +62,99 @@ Lorenzo / svend4
 ```
 
 </details>
+
+---
+
+## 2. Rufler
+
+**Релевантность:** `0.418`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+
+**Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
+
+**Теги:** orchestration, ingestion, architecture, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
+
+> Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
+
+**Автор:** zodigancode @zodigancode  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/zodigancode.md`](contacts/zodigancode.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → zodigancode</summary>
+
+```
+**Кому:** zodigancode (@zodigancode)
+**Тема:** Коллаборация по теме «инженерия оценки агентов golden трассами ragas knowledge gra»
+
+Привет, zodigancode!
+
+Изучила ваш проект **Svyazi, Rufler** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов._
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 3. mclaude
+
+**Релевантность:** `0.410`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+
+**Документ:** [`docs/svyazi-2-0/components/mclaude.md`](svyazi-2-0/components/mclaude.md)
+
+**Теги:** orchestration, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
+
+> Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+
+**Автор:** контакт не найден в docs/contacts/
+
+---
+
+## 4. knowledge-space
+
+**Релевантность:** `0.298`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+
+**Документ:** [`docs/svyazi-2-0/components/knowledge-space.md`](svyazi-2-0/components/knowledge-space.md)
+
+**Теги:** knowledge, ingestion, architecture, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
+
+> Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+
+**Автор:** контакт не найден в docs/contacts/
 
 ---
 
@@ -100,7 +172,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "темпоральные графы знаний юридического graph point"
+   python scripts/improve_collab_finder.py --query "инженерия оценки агентов golden трассами ragas kno"
    ```
 
-_Сгенерировано: 2026-05-13 15:43  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-13 16:06  |  Алгоритм: TF-IDF + BM25 + граф_

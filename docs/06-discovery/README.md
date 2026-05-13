@@ -61,9 +61,10 @@
 | Round 45 | ✅ Завершён | 4 | MWS Vision Bench, MOEX DistilBERT, Avito Mistral RU, LLM Observability | `round-45/` |
 | Round 46 | ✅ Завершён | 4 | Coordination Harness, Telecom Classifier, Code MCP, AQLM.rs браузер | `round-46/` |
 | Round 47 | ✅ Завершён | 4 | LLM Judge образование, SENTINEL безопасность, MTS code review, Temporal KG | `round-47/` |
-| Round 48 | 🔜 Следующий | — | LLM медицина v3, Multimodal RAG v2, LLM промышленность v2, Agent evaluation v2 | — |
+| Round 48 | ✅ Завершён | 4 | LLM медицина v3, Multimodal RAG v2, ML промышленность v2, Agent evaluation v2 | `round-48/` |
+| Round 49 | 🔜 Следующий | — | LLM финтех v2, Structured output v3, Self-hosted AI v2, LLM + базы данных v2 | — |
 
-**Итого: 192 проекта, 90+ авторов**
+**Итого: 196 проектов, 90+ авторов**
 
 ## Шаблон раунда
 
