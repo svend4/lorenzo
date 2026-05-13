@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-13T20:05:42+00:00</updated>
+  <updated>2026-05-13T20:11:35+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/e9fd0638fc8db471b7481c0f194864f555f859d5</id>
+    <title>chore(docs-toolkit): WIP спринт 93 — E91+E92+E93 источники в процессе</title>
+    <link href="https://github.com/svend4/lorenzo/commit/e9fd0638fc8db471b7481c0f194864f555f859d5"/>
+    <updated>2026-05-13T20:06:06+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore(docs-toolkit): WIP спринт 93 — E91+E92+E93 источники в процессе</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>e9fd0638</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/bc195304ef872842a06c821c1bb801233ec2f088</id>
     <title>chore(docs): обновление REPORT/VALIDATION в obsidian/confluence</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/ba2fcac1b165d5bc9311b4e9b1651a62aa22af3f"/>
     <updated>2026-04-29T16:46:43+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 51-53</strong></p><p>Коммит: <code>ba2fcac1</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/dedfe11df266b9cfea355ff3402fd0212bb94be3</id>
-    <title>chore: regenerate auto-feeds after Sprint 48-50</title>
-    <link href="https://github.com/svend4/lorenzo/commit/dedfe11df266b9cfea355ff3402fd0212bb94be3"/>
-    <updated>2026-04-29T16:33:38+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>chore: regenerate auto-feeds after Sprint 48-50</strong></p><p>Коммит: <code>dedfe11d</code></p>]]></content>
   </entry>
 </feed>
