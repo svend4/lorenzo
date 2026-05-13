@@ -1,31 +1,16 @@
 # Оценка стоимости MVP
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `COST` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: cost, docs -->
+
 
 <!-- summary -->
-> _Ориентировочные цифры на основе документации проекта._
-**Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Итого](#итого)
-- [По компонентам](#по-компонентам)
-- [По ролям](#по-ролям)
-- [Сценарии](#сценарии)
-- [Временные оценки из документов](#временные-оценки-из-документов)
-- [Допущения](#допущения)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, architecture, roadmap, collaboration -->
-
-
+> `COST` — раздел документации проекта Lorenzo.
 
 
 _Ориентировочные цифры на основе документации проекта._
@@ -100,28 +85,16 @@ _Минимальный сценарий: open source + личное время 
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
 
-<!-- backlinks -->
 
----
+## Использование
+```bash
+# Запуск
+python scripts/improve_cost.py
+```
 
-**Кто ссылается на этот документ (8):**
-- [DENSITY](DENSITY.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [SCHEDULE](SCHEDULE.md)
-- [ONBOARDING](ONBOARDING.md)
-- [SCORING](SCORING.md)
-- [MINDMAP](MINDMAP.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

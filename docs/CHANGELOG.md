@@ -1,5 +1,18 @@
 # CHANGELOG
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: changelog, docs -->
+
+
+<!-- summary -->
+> `CHANGELOG` — раздел документации проекта Lorenzo.
+
+
 Всего коммитов: **56**  
 Статистика: 🧪 test: 34 | 🐛 fix: 10 | 🔧 chore: 7 | 🤖 ci: 4 | ✨ feat: 1
 
@@ -135,3 +148,17 @@
   > Covers collect_targets, load_digest, append_to_digest, find_contact_file,
 - add helper tests for template_migrate, external_compare, run_all, llm_qa _dee34e8c_
   > Covers default_for_type, suggest_migrations, tokens, top_freq, extract_urls,
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_changelog.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

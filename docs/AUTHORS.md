@@ -1,4 +1,6 @@
 # Авторы и коллаборации
+<!-- tags: authors, docs -->
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -67,3 +69,10 @@
 - [ALERTS](ALERTS.md)
 - [sonia-black](contacts/sonia-black.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_authors.py
+```

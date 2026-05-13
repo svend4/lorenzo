@@ -1,281 +1,467 @@
-# Хронология и временные маркеры
+# Хронологическая лента событий
 
-Всего временных меток: **15408**
+<!-- toc-auto -->
 
+> [!NOTE]
+> Раздел `TIMELINE` формируется автоматически из данных репозитория.
 
-## Точная дата (9591)
-
-| Маркер | Контекст | Файл |
-|--------|----------|------|
-| `2026-04-19` | pendix-b-change-log) - v1.1.0-draft (2026-04-19) - [v1.0.0-draft (2026-04 earlie | `02-anthropic-vacancies/103-appendix-b-change-log.md` |
-| `2026-04-19` | kdown / Python LOC / 6 782 / _(verified 2026-04-19, see ADR or commit abc123; both A= | `02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` |
-| `2026-05-03` | 4 частей 2. Установить deadline Фазы C: 2026-05-03 (2 недели) 3. Провести верификацию конкретных метрик: ```b | `02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` |
-| `2026-04-19` | kdown / Python LOC / 6 812 / _(verified 2026-04-19; both A=6782 and B=~6600 were poin | `02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md` |
-| `2026-04-19` | жен вывести в stderr что-то вроде: ``` [2026-04-19 14:30:00,123] INFO [nautilus](../05-habr-projects/memory/me | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `2025-11-12` | икальный ID: sozialamt_dresden:bescheid:2025-11-12:SO-123 . Содержит: issuer, addressee, дата, срок Widerspruc | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `2024-01-01` | Темпоральные "effective_from": "2024-01-01", # ISO date, Inkrafttreten "effective_until": | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `2025-12-15` | # Процессуальные "deadline": "2025-12-15", # если документ содержит срок "deadlin | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `2026-04-19` | rk **Draft:** v1.0.0-draft **Date:** 2026-04-19 **Author:** svend4 **Editorial review:** Claude (intell | `02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` |
-| `2026-04-19` | x-c-version-history) - v1.0.0-draft (2026-04-19) - [Комментарий к документу](#ко | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `2026-04-19` | **Version:** 1.0.0-draft **Date:** 2026-04-19 **Author:** svend4 **Editorial collaboration:** Claude | `02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` |
-| `2026-04-15` | ппинге" occurrences: 3 first_seen: "2026-04-15" candidate_pattern: "specialized form of Eingliederungshi | `02-anthropic-vacancies/165-closing.md` |
-| `2026-04-19` | 1 **Version:** 1.0.0-draft **Date:** 2026-04-19 **Author:** svend4 **Editorial collaboration:** Claude | `02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` |
-| `2026-04-19` | .1 **Версия:** 1.0.0-draft **Дата:** 2026-04-19 **Автор:** svend4 **Редакторская работа:** Claude **Л | `02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` |
-| `2026/04/25` | **[Запрос]** [ https://www.fontanka.ru/2026/04/25/76378978/ нужно подробно подробно и детальнее разобрать на | `02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` |
-| `2026-04-26` | 1.1 **Version:** 1.0.0-draft **Date:** 2026-04-26 **Author:** svend4 **Editorial collaboration:** Claude **Li | `02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` |
-| `2026/04/25` | Fontanka.ru*. https://www.fontanka.ru/2026/04/25/76378978/ ### Companion Papers - svend4 (2026). *The Repr | `02-anthropic-vacancies/225-references.md` |
-| `2026/04/25` | tudy: «Обучай» (https://www.fontanka.ru/2026/04/25/76378978/)* *Seeking collaborators, critics, and pilot par | `02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` |
-| `2026-04-26` | 1 **Версия:** 1.0.0-черновик **Дата:** 2026-04-26 **Автор:** svend4 **Редакторская работа:** Claude **Лицензи | `02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md` |
-| `2026/04/25` | Fontanka.ru*. https://www.fontanka.ru/2026/04/25/76378978/ ### Сопроводительные Документы - svend4 (2026). | `02-anthropic-vacancies/245-ссылки.md` |
-| `2026/04/25` | кейс: «Обучай» (https://www.fontanka.ru/2026/04/25/76378978/)* *Ищем сотрудников, критиков и пилотных партнёр | `02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` |
-| `2026-04-26` | 1 **Version:** 1.0.0-draft **Date:** 2026-04-26 **Author:** svend4 **Editorial collaboration:** Claude | `02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` |
-| `2026-04-15` | Procedural guidance" last_updated: "2026-04-15" next_review: "2026-10-15" curators: primary: | `02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md` |
-| `2026-10-15` | updated: "2026-04-15" next_review: "2026-10-15" curators: primary: name: "[Curator name]" | `02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md` |
-| `2026-04-26` | 7) **Version:** 1.0.0-draft **Date:** 2026-04-26 **Author:** svend4 **Editorial collaboration:** Claude **Li | `02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md` |
-| `2026-04-26` | ) **Версия:** 1.0.0-черновик **Дата:** 2026-04-26 **Автор:** svend4 **Редакторская работа:** Claude **Лицензи | `02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md` |
-| `2026-02-01` | и и документацией». Дата документации — 2026-02-01, то есть проект активно развивался около двух-трёх месяцев | `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |
-| `2026-04-26` | 026 **Version:** 1.0.0-draft **Date:** 2026-04-26 **Author:** svend4 **Editorial collaboration:** Claude **Li | `02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` |
-| `2026-04-26` | а **Версия:** 1.0.0-черновик **Дата:** 2026-04-26 **Автор:** svend4 **Редакторская работа:** Claude **Лицензи | `02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` |
-| `2026-04-19` | review:** Claude (ассистирующий анализ, 2026-04-19) **Previous version:** [PORTAL-PROTOCOL.md v1.0](https:// | `02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` |
-| ... | _ещё 9561 записей_ | |
-
-## Год (438)
-
-| Маркер | Контекст | Файл |
-|--------|----------|------|
-| `2026 год` | стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: | `01-svyazi/01-executive-summary.md` |
-| `2026 год` | azi/03-component-catalog.md)-профилей в 2026 году. Мой конкретный план consolidation: Archive (выставить [Gi | `02-anthropic-vacancies/00-intro.md` |
-| `2026 год` | ли ваш кейс — единственный в Dresden за 2026 год по очень редкой комбинации (Pflegegrad 2-3 + Persönliches B | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `2026 год` | кла через диалог в нескольких сессиях в 2026 году. Формулировка «Синдром Золушки» и расширение к социальным | `02-anthropic-vacancies/203-благодарности.md` |
-| `2025 год` | Кириллом Дьологом сервис «Обучай» летом 2025 года. К апрелю 2026 — 93 тысячи пользователей за семь месяцев . | `02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` |
-| `2026 год` | ей-пользователей за семь месяцев в 2025-2026 годах), разрабатыв > 🏷️ **Ключевые слова:** `агенты`, `anthropi | `02-anthropic-vacancies/230-аннотация.md` |
-| `2025 год` | ля школьных учителей, запущенный осенью 2025 года Константином Чукавиным (тогда 25 лет, учителем и образоват | `02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` |
-| `2026 год` | з диалог с Claude (Anthropic) 26 апреля 2026 года, инициированный обзором автором русскоязычного интервью с | `02-anthropic-vacancies/244-благодарности.md` |
-| `2027 год` | к функциональности Projects через 2026-2027 годы. **GitHub для иде | `02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md` |
-| `2026 год` | т . Это значимый gap, учитывая context (2026 год, AI-assisted development является normal). InGit как сейчас | `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |
-| `2026 год` | в Claude Desktop, запущенный в январе 2026 года **Версия:** 1.0.0-черновик **Дата:** 2026-04-26 **Автор:* | `02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` |
-| `2026 год` | work от Anthropic, запущенной 12 января 2026 года, и её существенном расширении с тех пор. Cowork конкретно | `02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md` |
-| `2026 год` | е туториалы и обзоры Cowork-Project с 2026 года. --- <!-- similar-docs --> --- ## Похожие документы - | `02-anthropic-vacancies/338-ссылки.md` |
-| `2026 год` | от Nous Research, выпущенный 25 февраля 2026 года, MIT лицензия. К 23 апреля 2026 (несколько дней назад) — в | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `2026 год` | х решений для двуязычной документации в 2026 году. Отдельные файлы README.ru.md / README.en.md почти всегда | `02-anthropic-vacancies/69-section.md` |
-| `2024 год` | «это решение 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `04-ai-collaborations/00-intro.md` |
-| `2026 год` | earch + model routing. Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных р | `04-ai-collaborations/00-intro.md` |
-| `2026 год` | стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: | `04-ai-collaborations/01-executive-summary.md` |
-| `2026 год` | гим агентом”. Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с бо | `04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` |
-| `2024 год` | «это решение 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `05-habr-projects/memory/memnet.md` |
-| `2024 год` | 00-intro_ - 2019 года, после изменений 2024 года применяется иначе»); _→ 00-intro_ - Record (ADR): конт | `ACTION_ITEMS.md` |
-| `2026 год` | tes / / `2026-05-10` / 8 / dates / / `в 2026 году` / 7 / dates / / `март 2026` / 7 / dates / / `марта 2026` | `NAMED_ENTITIES.md` |
-| `2026 год` | ates / / `март 2026` / 7 / dates / / `в 2026 году` / 7 / dates / / `марта 2026` / 6 / dates / / `апреле 2026 | `TABLES.md` |
-| `2025 год` | ic-vacancies/203-благодарности.md` / / `2025 год` / Кириллом Дьологом сервис «Обучай» летом 2025 года. К апр | `TABLES.md` |
-| `2027 год` | ic-vacancies/244-благодарности.md` / / `2027 год` / к функциональности Projects через 2026-2027 годы. **GitH | `TABLES.md` |
-| `2024 год` | anthropic-vacancies/69-section.md` / / `2024 год` / «это решение 2019 года, после изменений 2024 года примен | `TABLES.md` |
-| `2026 год` | гим агентом”. Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с бо | `ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md` |
-| `2026 год` | arch + model routing. Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных р | `ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md` |
-| `2026 год` | от Nous Research, выпущенный 25 февраля 2026 года, MIT лицензия. К 23 апреля 2026 (несколько дней назад) — в | `anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md` |
-| `2024 год` | «это решение 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные об | `habr-unique-projects/final-ensembles/2-autoresearch-legal.md` |
-| ... | _ещё 408 записей_ | |
-
-## Квартал (130)
-
-| Маркер | Контекст | Файл |
-|--------|----------|------|
-| `Q1 2026` | ates / / `января 2026` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `январе 202 | `NAMED_ENTITIES.md` |
-| `Q2 2024` | dates / / `2024-03-15` / 3 / dates / / `Q2 2024` / 3 / dates / / `2024-06-15` / 3 / dates / / `2025-11-12` | `NAMED_ENTITIES.md` |
-| `Q2 2024` | Конкретные даты: 2024-03-15, март 2024, Q2 2024 - Относительные: «через 3 месяца», «в следующем квартале» - | `SCRIPTS_CATALOG.md` |
-| `Q1 2026` | dates / / `2026-04-22` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `2024-01` / | `TABLES.md` |
-| `Q2 2024` | dates / / `2024-03-15` / 3 / dates / / `Q2 2024` / 3 / dates / / `февраля 2026` / 3 / dates / / `феврале 20 | `TABLES.md` |
-| `Q1 2026` | ates / / `января 2026` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `январе 202 | `obsidian/NAMED_ENTITIES.md` |
-| `Q2 2024` | dates / / `2024-03-15` / 3 / dates / / `Q2 2024` / 3 / dates / / `2024-06-15` / 3 / dates / / `2025-11-12` | `obsidian/NAMED_ENTITIES.md` |
-| `Q2 2024` | Конкретные даты: 2024-03-15, март 2024, Q2 2024 - Относительные: «через 3 месяца», «в следующем квартале» - | `obsidian/SCRIPTS_CATALOG.md` |
-| `Q1 2026` | dates / / `2026-04-22` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `2024-01` / | `obsidian/TABLES.md` |
-| `Q2 2024` | dates / / `2024-03-15` / 3 / dates / / `Q2 2024` / 3 / dates / / `февраля 2026` / 3 / dates / / `феврале 20 | `obsidian/TABLES.md` |
-| `Q1 2026` | on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p | `obsidian/processing-guide/05-analysis.md` |
-| `Q1 2026` | on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p | `obsidian/processing-guide/PROCESSING_GUIDE.md` |
-| `Q1 2026` | on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p | `processing-guide/05-analysis.md` |
-| `Q1 2026` | on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p | `processing-guide/PROCESSING_GUIDE.md` |
-
-## Месяц+год (735)
-
-| Маркер | Контекст | Файл |
-|--------|----------|------|
-| `марта 2026` | Новый Anthropic Institute (объявлен 11 марта 2026): Analyst, Research Economist, Transformative AI Research E | `02-anthropic-vacancies/00-intro.md` |
-| `апрель 2026` | claude-sonnet-4-5-20250929 , а сейчас (апрель 2026) актуальны Sonnet 4.6 и Opus 4.7. Это проект, в который сто | `02-anthropic-vacancies/00-intro.md` |
-| `декабря 2025` | Самый ранний репозиторий — daten2 , 25 декабря 2025. Самый свежий — data50 , 19 часов назад. Это означает, что | `02-anthropic-vacancies/00-intro.md` |
-| `декабрь 2024` | публикацией data70 (где период данных: декабрь 2024 — март 2026, а сам архив выложен 27 марта 2026). Хронологич | `02-anthropic-vacancies/00-intro.md` |
-| `март 2026` | ta70 (где период данных: декабрь 2024 — март 2026, а сам архив выложен 27 марта 2026). Хронологически профиль | `02-anthropic-vacancies/00-intro.md` |
-| `декабрь 2025` | п и объём. 70 репозиториев за 120 дней (декабрь 2025 — апрель 2026), то есть один репо каждые 1.7 дня. Плюс корп | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `апрель 2026` | епозиториев за 120 дней (декабрь 2025 — апрель 2026), то есть один репо каждые 1.7 дня. Плюс корпус data70 — 11 | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `апрель 2026` | IMPLEMENTATION_STAGE_PART_[1-4].md** (апрель 2026): - Вариант A: ветка `claude/review-[nautilus](../05-habr- | `02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` |
-| `апреле 2026` | ния к IMPLEMENTATION_STAGE_PART_*.md в апреле 2026. Будущие версии методологии будут задокументированы в этом | `02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md` |
-| `апрель 2026` | одтверждаются: ~440 открытых позиций на апрель 2026 . Цифра, которую вы упомянули, актуальна. Теперь по существ | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `май 2025` | am building (статья Mandelbro в Medium, май 2025) Что делает : автор описывает, как он «нанял» LLM в роли ad | `02-anthropic-vacancies/165-closing.md` |
-| `феврале 2025` | ндрей независимо реализовал то, о чём в феврале 2025 публикуют academic papers. Где отличается : PURE — про prod | `02-anthropic-vacancies/165-closing.md` |
-| `апреля 2026` | ли из разговора с Claude (Anthropic) 19 апреля 2026 года. Автор интегрировал, расширил и сохранил редакторские | `02-anthropic-vacancies/203-благодарности.md` |
-| `Сентябрь 2025` | --/ / Лето 2025 / Начало разработки / / Сентябрь 2025 / Публичный запуск / / Апрель 2026 / 93 000 активных учител | `02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` |
-| `Апрель 2026` | / Сентябрь 2025 / Публичный запуск / / Апрель 2026 / 93 000 активных учителей-пользователей / Рост: с нуля до | `02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md` |
-| `апреля 2026` | ла через диалог с Claude (Anthropic) 26 апреля 2026 года, инициированный обзором автором русскоязычного интервь | `02-anthropic-vacancies/244-благодарности.md` |
-| `января 2026` | а в Claude Desktop, которая запущена 12 января 2026 года. Это agentic interface — другая парадигма от Chat. Она | `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |
-| `январе 2026` | ерфейс в Claude Desktop, запущенный в январе 2026 года **Версия:** 1.0.0-черновик **Дата:** 2026-04-26 **Авт | `02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` |
-| `январе 2026` | формы Cowork от Anthropic (запущенной в январе 2026), предлагает конкретный путь реализации. > ✅ **Результат:** | `02-anthropic-vacancies/325-аннотация.md` |
-| `января 2026` | орме Cowork от Anthropic, запущенной 12 января 2026 года, и её существенном расширении с тех пор. Cowork конкр | `02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md` |
-| `февраля 2026` | I-агент от Nous Research, выпущенный 25 февраля 2026 года, MIT лицензия. К 23 апреля 2026 (несколько дней назад) | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `апреля 2026` | 5 февраля 2026 года, MIT лицензия. К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звёзд на | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `марта 2026` | яние : В активной разработке (статья от марта 2026). Студенческая команда внедряет в ВШЭ. #### Проект 3: Brain | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `март 2026` | азработка : версии HMP-0001 → HMP-0005 (март 2026, версия 5.0.6) - Документация : kagvi13.github.io/HMP - Бло | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `декабря 2025` | # AI ассистент для поддержки (статья от декабря 2025) Автор Артём (без полного имени) проектирует AI-ассистента | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `ноябре 2025` | ion Из найденного: "Проект запустился в ноябре 2025 как Clawdbot, 27 января 2026 переименован в Moltbot, а 30 я | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `января 2026` | пустился в ноябре 2025 как Clawdbot, 27 января 2026 переименован в Moltbot, а 30 января — в OpenClaw. 14 феврал | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `апрель 2026` | uthor working projects , недавние (март-апрель 2026), MIT licenses, directly applicable к нашей стек. Они предс | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
-| `апрель 2026` | *Объём:** 74 документа (по состоянию на апрель 2026) --- <!-- tags: anthropic --> > [!TIP] > Обзорный докумен | `02-anthropic-vacancies/38-content-overview.md` |
-| `декабрь 2025` | summary --> > **Создан:** [? уточнить — декабрь 2025, если совпадает с волной --- <!-- tags: memory, anthropic, | `02-anthropic-vacancies/43-history.md` |
-| ... | _ещё 705 записей_ | |
-
-## Период (120)
-
-| Маркер | Контекст | Файл |
-|--------|----------|------|
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `01-svyazi/01-executive-summary.md` |
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `04-ai-collaborations/01-executive-summary.md` |
-| `первые месяцы 2026` | `2026 год` / стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `TABLES.md` |
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` |
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/01-svyazi/01-executive-summary.md` |
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/04-ai-collaborations/01-executive-summary.md` |
-| `первые месяцы 2026` | `2026 год` / стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/TABLES.md` |
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` |
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/svyazi-2-0/overview/executive-summary.md` |
-| `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `svyazi-2-0/overview/executive-summary.md` |
-
-## Фаза (1218)
-
-| Маркер | Контекст | Файл |
-|--------|----------|------|
-| `Фаза 1` | еет smoke-test: завершена или нет. #### Фаза 1 — Спецификация (неделя 1) Deliverables: - PORTAL-PROTOCOL.m | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `Фаза 2` | епо без задавания вопросов автору? #### Фаза 2 — Reference implementation (неделя 2–3) Deliverables: - Bas | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `Фаза 3` | результат с consensus-информацией? #### Фаза 3 — MCP интерфейс (неделя 3, параллельно) Deliverables: - por | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `Фаза 4` | osmыслený ответ с указанием репо. #### Фаза 4 — Web interface и публичная видимость (неделя 4) Deliverabl | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `Фаза 5` | учить отформатированный результат. #### Фаза 5 — Публикация и адаптация (неделя 5+) Deliverables: - Arxiv | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `Фаза 1` | , вот как это может выглядеть поэтапно: Фаза 1 — Proof of Concept (2 недели). Создать legal-nautilus как f | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `Фаза 2` | щий MCP server с одним legal-адаптером. Фаза 2 — Multiple Legal Sources (4 недели). Расширить до 4-5 адапт | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `Фаза 3` | й demo на конкретных социальных кейсах. Фаза 3 — Private Case Files (4 недели). Добавить адаптеры для ваши | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `Фаза 4` | в реальной работе над S 6 SO 58/26 ER. Фаза 4 — Extension to General Humanities (ongoing). Добавить адапт | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `Фаза 5` | l", а humanities knowledge federation . Фаза 5 — Public Launch & Grant Applications (после Фазы 3). Paper | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `Phase 1` | nimizes risk и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `Phase 2` | routing (минимальный, но symbolic) #### Phase 2 — Specialized journalism (months 6-12) Contributors who dem | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `Phase 3` | ers, Nautilus Medical Translators. #### Phase 3 — Amateur projects (year 2) Contributors начинают initiatin | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `Phase 4` | , accumulated knowledge compounds. #### Phase 4 — Specialized projects (year 2-3) Structured professional e | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `Phase 5` | structure becomes self-sustaining. #### Phase 5 — Integration with existing ecosystems (year 3+) Integratio | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `Phase 1` | l: €12.3M ### 5.3. Funding Strategy **Phase 1 (months 1-6)**: Secure anchor partnership (€2-3M commitmen | `02-anthropic-vacancies/159-5-economic-model.md` |
-| `Phase 2` | ion alignment and existing programs. **Phase 2 (months 3-9, overlapping)**: Secure secondary partnerships | `02-anthropic-vacancies/159-5-economic-model.md` |
-| `Phase 3` | ant (EIC Pathfinder, Horizon Europe) **Phase 3 (months 6-18)**: Launch commercial project revenue stream. | `02-anthropic-vacancies/159-5-economic-model.md` |
-| `Phase 4` | revenue scaling to €2M+ in Year 3. **Phase 4 (Year 2-3)**: Develop endowment through success-contingent | `02-anthropic-vacancies/159-5-economic-model.md` |
-| `Phase 0` | Plan](#7-phased-rollout-plan) - [7.1. Phase 0: Foundation and Funding (Months 1-6)](#71-phase-0-foundatio | `02-anthropic-vacancies/161-7-phased-rollout-plan.md` |
-| `Phase 1` | ation-and-funding-months-1-6) - [7.2. Phase 1: Infrastructure and First Cohort (Months 6-18)](#72-phase-1 | `02-anthropic-vacancies/161-7-phased-rollout-plan.md` |
-| `Phase 2` | and-first-cohort-months-6-18) - [7.3. Phase 2: Scale and Diversification (Months 18-36)](#73-phase-2-scal | `02-anthropic-vacancies/161-7-phased-rollout-plan.md` |
-| `Phase 3` | diversification-months-18-36) - [7.4. Phase 3: Consolidation and Self-Sustaining Operations](#74-phase-3- | `02-anthropic-vacancies/161-7-phased-rollout-plan.md` |
-| `Phase 1` | gations**: - Aggressive outreach during Phase 1 recruitment - Partnership with existing advocacy organizati | `02-anthropic-vacancies/162-8-risk-analysis.md` |
-| `Phase 1` | — conservative by foundation standards Phase 1 (50 contributors, year 1), Phase 2 (500, year 2), Phase 3 ( | `02-anthropic-vacancies/165-closing.md` |
-| `Phase 2` | ards Phase 1 (50 contributors, year 1), Phase 2 (500, year 2), Phase 3 (5000, year 3) — это conservative gr | `02-anthropic-vacancies/165-closing.md` |
-| `Phase 3` | butors, year 1), Phase 2 (500, year 2), Phase 3 (5000, year 3) — это conservative growth . Many foundation | `02-anthropic-vacancies/165-closing.md` |
-| `Phase 0` | ](#9-phased-rollout-strategy) - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1 | `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` |
-| `Phase 1` | ase-0-foundation-months-1-12) - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-dom | `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` |
-| `Phase 2` | gle-domain-maturation-year-2) - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansio | `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` |
-| ... | _ещё 1188 записей_ | |
-
-## Длительность (845)
-
-| Маркер | Контекст | Файл |
-|--------|----------|------|
-| `2–3 дня` | uth и трассируемый lifecycle карточки / 2–3 дня / / Ingest и память / LLM[^llm] extraction + нормализация + | `01-svyazi/07-mvp-planning.md` |
-| `4–6 дне` | получаются устойчивые профили и связи / 4–6 дней / / Evidence / LiteParse/research-docs + page‑level viewer | `01-svyazi/07-mvp-planning.md` |
-| `3–4 дня` | показать match, а показать основание / 3–4 дня / / Исполнение / LiteLLM/Auto AI Router + Tool Search + баз | `01-svyazi/07-mvp-planning.md` |
-| `1–2 дня` | / Снизить риск ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `01-svyazi/07-mvp-planning.md` |
-| `12-18 месяце` | ANT] > Дорожная карта проекта — план на 12-18 месяцев. <!-- alert-added --> <!-- abstract-auto --> > **Абстрак | `01-svyazi/12-roadmap.md` |
-| `1–2 недели` | ge/span evidence + manual reviewer UI / 1–2 недели / Переусложнение схемы слишком рано / / Memory governance / | `01-svyazi/12-roadmap.md` |
-| `2–3 недели` | ому. daten — стратегический, но требует 2–3 недели работы на пивот и ребрендинг. Отложить до окончания работы | `02-anthropic-vacancies/00-intro.md` |
-| `1-2 дня` | ый в своей горячей нише. Каждый требует 1-2 дня на English README + demo + опубликовать пост в /r/LocalLLaM | `02-anthropic-vacancies/00-intro.md` |
-| `30-45 дне` | иля. ### Итоговая целевая картина Через 30-45 дней вашего собранного времени [GitHub](../01-svyazi/03-compone | `02-anthropic-vacancies/00-intro.md` |
-| `6-12 месяце` | которые берут нестандартных одиночек на 6-12 месяцев, обучают, иногда принимают в штат. Гибридная модель, но вс | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `2-3 месяца` | знают друг друга, будут тратить первые 2-3 месяца на выстраивание взаимопонимания и распределения ответственн | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `3-6 месяце` | 5 человек), команды работают независимо 3-6 месяцев, агент модерирует прогресс и помогает с координацией внутр | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `1-2 дня` | vend4. Это zero-cost действие, занимает 1-2 дня, и делает одну важную вещь — создаёт intellectual footprint | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `2-3 дня` | екст проекта и вводит нового человека в 2-3 дня. Natural fit для inclusive work. Люди с health limitations, | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `4-6 недель` | ropic или Mistral). Proposal пишется за 4-6 недель, шанс 15-25%. Максимальная — founder track . Построить это | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `1-2 недели` | уровня 50), средние (implement feature, 1-2 недели, XP и currency), эпические (прорывной проект на 6 месяцев, | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `2-3 месяца` | реально использовать для работы. Через 2-3 месяца практики станет ясно, какие paттерны и инструменты действит | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `1-2 месяца` | ость, которая имеет смысл: Первый этап (1-2 месяца) — закрепить core Nautilus v1.1, написать PORTAL-PROTOCOL-H | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `3-4 месяца` | ет для реального use case. Третий этап (3-4 месяца) — расширить legal до 5-7 adapters (SGB, SGG, openJur, BSG, | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `12-18 месяце` | ой план: это не спринт, это marathon на 12-18 месяцев . Реалистично для single person с Claude Code assistance — | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `2-3 дня` | екст проекта и вводит нового человека в 2-3 дня. **Natural fit для inclusive work.** Люди с health limitati | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `3-6 месяце` | **работающий документированный кейс**. 3-6 месяцев, €20-50K. Это становится вашей reference implementation и | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `4-6 недель` | ropic или Mistral). Proposal пишется за 4-6 недель, шанс 15-25%. **Максимальная — founder track**. Построить э | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `6-12 месяце` | y growth → first external contributors (6-12 месяцев) → maybe eventual formalization как RFC or standard (12-24 | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `12-24 месяца` | tual formalization как RFC or standard (12-24 месяца). Upside: minimal upfront cost, organic growth, maintains a | `02-anthropic-vacancies/133-обратная-связь.md` |
-| `6-12 месяце` | H-1B — лотерея. EU Blue Card — занимает 6-12 месяцев. Передача работника без юридической поддержки — почти нево | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `2-3 месяца` | ический onboarding в Anthropic занимает 2-3 месяца. Для distributed/part-time/contract workers это неприемлемо | `02-anthropic-vacancies/150-appendix-c-version-history.md` |
-| `6-12 месяце` | end, AI integration, design, product) - 6-12 месяцев до viable MVP - $500K-1.5M первого года - И главное — clea | `02-anthropic-vacancies/272-appendix-d-connection-diagram.md` |
-| `1-2 недели` | уже это позволяют (нужно проверить), то 1-2 недели для создания template. > 🔧 **Подход:** Часть 2 (Project Man | `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |
-| `10-16 месяце` | ompose, документацию, план реализации в 10-16 месяцев, technological stack уже выбран (Python 3.11, FastAPI, pyg | `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |
-| ... | _ещё 815 записей_ | |
-
-## Версия (2331)
-
-| Маркер | Контекст | Файл |
-|--------|----------|------|
-| `версия 0.1.5` | 3view4turn27view0 / Рабочий прототип, версия 0.1.5; “рабочая, но не финальная”. citeturn33view7 / **Очень в | `01-svyazi/03-component-catalog.md` |
-| `v4.5` | латформы : 87 skills, chat-migration v1→v4.5 quantum-hybrid, Multi-Chat Orchestrator, xMemory-архитектур | `02-anthropic-vacancies/00-intro.md` |
-| `v1.0` | rlängerung/Nachzahlung), Master Dossier v1.0, анализ BSG-практики, анализ Kostenschieberei. То есть это | `02-anthropic-vacancies/00-intro.md` |
-| `v1.0` | ая архитектурная спецификация протокола v1.0 — и она существенно сильнее , чем я реконструировал в преды | `02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` |
-| `v1.0` | 112 строк) — архитектурная спецификация v1.0 с философией federation-over-merging, триадой [info1](01-ин | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `v1.1` | Как версионируется сам протокол (v1.0, v1.1, breaking changes policy) Ключевой принцип слоя 0 : специфи | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `v2.0` | ng — это отдельный extension протокола (v2.0 или как опциональное расширение), не меняющее read-path. Пр | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `v1.0.0` | ый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHANGELOG.md в корне. Контакт с MCP Regist | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `v1.0.1` | — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHANGELOG.md в корне. Контакт с MCP Registry и Ant | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `v1.1.0` | ag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHANGELOG.md в корне. Контакт с MCP Registry и Anthropic c | `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` |
-| `v1.1` | us-philosophy.md) - PORTAL-PROTOCOL.md v1.1 - [README-MCP.md— инструкци | `02-anthropic-vacancies/03-portal-protocol-md.md` |
-| `v0.2.0` | ormat](47-native-format.md) - Planned (v0.2.0) - README.md - [ | `02-anthropic-vacancies/04-abstract.md` |
-| `v1.0` | бочий черновик Nautilus Portal Protocol v1.0. Он может --- <!-- tags: collaboration --> ## 0. Statu | `02-anthropic-vacancies/05-0-status-of-this-document.md` |
-| `v1.0.0` | может изменяться до объявления stable v1.0.0. Breaking changes после stable потребуют bump до v2.0 с mi | `02-anthropic-vacancies/05-0-status-of-this-document.md` |
-| `v2.0` | changes после stable потребуют bump до v2.0 с migration guide. Комментарии и предложения — через Issue | `02-anthropic-vacancies/05-0-status-of-this-document.md` |
-| `v1.1` | l-protocol-md.md) - PORTAL-PROTOCOL.md v1.1 - [README-MCP.md— инструкци | `02-anthropic-vacancies/05-0-status-of-this-document.md` |
-| `v1.0` | ations в федерируемые репо (read-only в v1.0) ### 1.4. Terminology Ключевые термины определены в разде | `02-anthropic-vacancies/06-1-introduction.md` |
-| `v1.0` | col_version` — строка в формате semver. v1.0 совместимо с минорными обновлениями. - `ecosystem_name` | `02-anthropic-vacancies/08-3-registry-nautilus-json.md` |
-| `v0.2.0` | ormat](37-native-format.md) - Planned (v0.2.0) - [Вакансии Anthropic — Анализ по | `02-anthropic-vacancies/09-4-passport-passport-md.md` |
-| `v1.1.0` | hange Log](#appendix-b-change-log) - v1.1.0-draft (2026-04-19) - [v1.0.0-dra | `02-anthropic-vacancies/103-appendix-b-change-log.md` |
-| `v1.0.0` | 26-04-19)](#v110-draft-2026-04-19) - v1.0.0-draft (2026-04 earlier) - [По | `02-anthropic-vacancies/103-appendix-b-change-log.md` |
-| `v3.1.0` | uirement Levels - OpenAPI Specification v3.1.0 (for REST API schemas) - JSON Schema (for passport validati | `02-anthropic-vacancies/104-appendix-c-references.md` |
-| `v1.1.0` | --- *End of Nautilus Portal Protocol v1.1.0-draft* *Feedback, issues, proposals: [github.com/svend4/n | `02-anthropic-vacancies/104-appendix-c-references.md` |
-| `v1.0` | ворить отдельно. #### Что я сохранил из v1.0 Базовая структура, нумерация разделов (1–15 из v1.0 осталис | `02-anthropic-vacancies/104-appendix-c-references.md` |
-| `v1.1` | и у кого-то есть v1.0, они могут читать v1.1 параллельно — те же разделы говорят о том же, плюс новые. # | `02-anthropic-vacancies/104-appendix-c-references.md` |
-| `v1.2` | ого. #### Что я сознательно оставил для v1.2 или v2.0 Formal bridge algebra. Part 3 implementation docs | `02-anthropic-vacancies/104-appendix-c-references.md` |
-| `v2.0` | Что я сознательно оставил для v1.2 или v2.0 Formal bridge algebra. Part 3 implementation docs указывает | `02-anthropic-vacancies/104-appendix-c-references.md` |
-| `v1.1` | -b-change-log.md) - PORTAL-PROTOCOL.md v1.1 - [README-MCP.md— инструкци | `02-anthropic-vacancies/105-review-methodology-md.md` |
-| `v3.0` | l header 7. Добавить changelog-запись: «v3.0 consolidated from A (branch X) and B (branch Y) on YYYY | `02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` |
-| `v1.1` | еграция с Nautilus Portal Protocol NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процесс для | `02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` |
-| ... | _ещё 2301 записей_ | |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (16):**
-- [03-component-catalog](01-svyazi/03-component-catalog.md)
-- [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
-- [24-12-versioning-policy](02-anthropic-vacancies/24-12-versioning-policy.md)
-- [34-appendix-b-change-log](02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [64-for-the-curious-philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md)
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
-- [HEADING_AUDIT](HEADING_AUDIT.md)
-- [OUTLINE](OUTLINE.md)
-- _...ещё 8_
+<!-- alert-added -->
+<!-- tags: timeline, docs -->
 
 
-<!-- see-also -->
+<!-- summary -->
+> `TIMELINE` — раздел документации проекта Lorenzo.
 
----
 
-**Смотрите также:**
-- [KPI](KPI.md)
-- [TABLES](TABLES.md)
-- [SOURCE_MAP](SOURCE_MAP.md)
-- [SEARCH](SEARCH.md)
+_Обновлено: 2026-05-13_
 
+Период: **2020–2030** | Событий: **663**
+
+
+## 2020 (4 упоминаний)
+
+- 🔔 **2020-01-01** · _Pipeline_  
+  ClickHouse stores for analytics Schema CREATE TABLE decisions ( aktenzeichen String, court String, decisiondate Date, pa  
+  `21-legal-corpus-analytics-at-scale.md`
+
+- 📌 **2020** · _Multi-Agent Systems_  
+  (2020).  
+  `147-references.md`
+
+- 📌 **2020** · _Practical Examples_  
+  (2020).  
+  `268-references.md`
+
+- 📌 **2020** · _Multi-Agent Systems_  
+  (2020).  
+  `10-references.md`
+
+
+## 2021 (2 упоминаний)
+
+- 🔔 **2021** · _Ответ по существу_  
+  Плюсы и минусы как бизнес Плюсы : - Огромный underserved рынок — нет прямых конкурентов, пустое пространство - Естествен  
+  `01-интегральный-анализ-профиля-svend4.md`
+
+- 🔔 **2021** · _Содержание_  
+  Минусы: 5-7 лет до устойчивой монетизации (это не 18-месячный стартап) $10-50M минимум capital requirements для нормальн  
+  `05-minuses-as-business.md`
+
+
+## 2022 (13 упоминаний)
+
+- 📌 **2022** · _1.3. The Rising Urgency_  
+  When Copilot produced autocomplete in 2022, misalignment with team context was minor.  
+  `138-1-why-single-triangle-models-are-incomplete.md`
+
+- 📌 **2022** · _Human-AI Collaboration_  
+  (2022).  
+  `147-references.md`
+
+- 📌 **2022** · _Why This Hasn't Been Built_  
+  Explanation 4 — AI collaboration is recent. Until 2022-2023, collaborative AI work at this depth was not feasible.  
+  `278-why-this-hasn-t-been-built.md`
+
+- 📌 **2022** · _Почему это не было построено_  
+  Объяснение 4 — AI-сотрудничество недавнее. До 2022-2023 годов, совместная AI-работа на этой глубине не была осуществимой  
+  `293-почему-это-не-было-построено.md`
+
+- 📌 **2022** · _Где это уже происходит частично_  
+  Galactica (Meta, 2022) — пыталась быть «AI scientist» который could synthesize across literatures.  
+  `342-что-такое-вариант-c-concept-document-для-anthropic.md`
+
+- 📌 **2022** · _488. П_  
+  Прецеденты Файл: docs/obsidian/templates/legal-case.md 4 колонок, 1 строк Решение Суд Дата Релевантность ---------------  
+  `TABLES.md`
+
+- 📌 **2022** · _14. П_  
+  Прецеденты Файл: docs/templates/legal-case.md 4 колонок, 1 строк Решение Суд Дата Релевантность ------------------------  
+  `TABLES.md`
+
+- 📌 **2022** · _Содержание_  
+  Galactica (Meta, 2022) — пыталась быть «AI scientist» который could synthesize across literatures.  
+  `01-response.md`
+
+- 📌 **2022** · _1.3. The Rising Urgency_  
+  When Copilot produced autocomplete in 2022, misalignment with team context was minor.  
+  `01-why-single-triangle-incomplete.md`
+
+- 📌 **2022** · _Human-AI Collaboration_  
+  (2022).  
+  `10-references.md`
+
+- 📌 **2022** · _Why This Hasn't Been Built_  
+  Explanation 4 — AI collaboration is recent. Until 2022-2023, collaborative AI work at this depth was not feasible.  
+  `05-why-not-built.md`
+
+- 📌 **2022** · _Почему это не было построено_  
+  Объяснение 4 — AI-сотрудничество недавнее. До 2022-2023 годов, совместная AI-работа на этой глубине не была осуществимой  
+  `04-pochemu-ne-postroeno.md`
+
+- 📌 **2022** · _Behörde / Beklagte_  
+  Контр-аргумент 2 Прецеденты Решение Суд Дата Релевантность ----------------------------------- BSG B 14 AS 1/22 R BSG 20  
+  `legal-case.md`
+
+
+## 2023 (11 упоминаний)
+
+- 📌 **2023** · _1.1. The Current Landscape_  
+  This paradigm has rapidly matured over 2023–2026 and is now mainstream.  
+  `138-1-why-single-triangle-models-are-incomplete.md`
+
+- 📌 **2023** · _Multi-Agent Systems_  
+  (2023).  
+  `147-references.md`
+
+- 📌 **2023** · _Related Architecture_  
+  (2023).  
+  `225-references.md`
+
+- 📌 **2023** · _Связанная Архитектура_  
+  (2023).  
+  `245-ссылки.md`
+
+- 📌 **2023** · _На что это структурно похоже_  
+  НаGenerative agents в Stanford research Помните 2023 Stanford «Generative Agents: Interactive Simulacra of Human Behavio  
+  `342-что-такое-вариант-c-concept-document-для-anthropic.md`
+
+- 📌 **2023** · _Callout-блоки_  
+  Тип Количество Назначение ----------------------------- !NOTE 25 Нейтральная заметка !TIP 28 Практический совет !WARNING  
+  `ALERTS.md`
+
+- 📌 **2023** · _Содержание_  
+  На Generative agents в Stanford research Помните 2023 Stanford «Generative Agents: Interactive Simulacra of Human Behavi  
+  `01-response.md`
+
+- 📌 **2023** · _1.1. The Current Landscape_  
+  This paradigm has rapidly matured over 2023–2026 and is now mainstream.  
+  `01-why-single-triangle-incomplete.md`
+
+- 📌 **2023** · _Multi-Agent Systems_  
+  (2023).  
+  `10-references.md`
+
+- 📌 **2023** · _Содержание_  
+  Vision paper про MMORPG работал бы в 2023.  
+  `01-response.md`
+
+- 📌 **2023** · _Содержание_  
+  Почему это именно сейчас стало возможным В 2023 — невозможно.  
+  `01-three-related-themes.md`
+
+
+## 2024 (49 упоминаний)
+
+- 🔔 **2024-01-01** · _Конфигурация: см. R_  
+  README-MCP.md python FORMATTYPESHUMANITIES = Законодательные "lawsection", статья закона (§ 90 SGB XII) "lawparagraph",   
+  `133-обратная-связь.md`
+
+- 🔔 **2024-01-01** · _321. Точная дата (9591)_  
+  Содержит: issuer, addressee, дата, срок Widerspruc 02-anthropic-vacancies/133-обратная-связь.md 2024-01-01 Темпоральные   
+  `TABLES.md`
+
+- 🔔 **2024-01-01** · _321. Точная дата (9591)_  
+  Содержит: issuer, addressee, дата, срок Widerspruc 02-anthropic-vacancies/133-обратная-связь.md 2024-01-01 Темпоральные   
+  `TABLES.md`
+
+- 🔔 **2024-01-01** · _Метаданные_  
+  Для гуманитарных документов рекомендую conventional metadata keys: python @dataclass class LegalPortalEntry(PortalEntry)  
+  `01-structural-comparison-code-vs-docs.md`
+
+- 🔔 **2024-03-15** · _`improve_timeline.py` _(группа: index)__  
+  improvetimelineevents.py (группа: deeptext) извлекает даты и события из базы знаний. Строит хронологическую ленту: - Кон  
+  `SCRIPTS_CATALOG.md`
+
+- 🔔 **2024** · _1. Problem Statement_  
+  > ✅ Результат: The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for A  
+  `155-1-problem-statement.md`
+
+- 🔔 **2024** · _1.3. Why Now_  
+  The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted work  
+  `155-1-problem-statement.md`
+
+- 🔔 **2024** · _7.3. Medical Practice (Specific Specialties)_  
+  Maturity: Rapid deployment in 2024-2026.  
+  `218-7-application-domains.md`
+
+- 🔔 **2024** · _Глоссарий понятий_  
+  Определения извлечены автоматически из документов. Извлечено понятий: 1184 (из 4304 совпадений) A a coherent composite a  
+  `CONCEPTS.md`
+
+- 🔔 **2024** · _Стоимость (934)_  
+  Grant 159-5-economic-model ...ещё 914 Размер (62) Значение Контекст Источник ----------------------------- 80 y‑слое: Au  
+  `KPI.md`
+
+- 🔔 **2024** · _Расписание проекта_  
+  Дорожная карта с вехами и задачами по кварталам. Ключевые вехи Срок Веха Статус -------------------- 2024-Q4 ✅ Исследова  
+  `SCHEDULE.md`
+
+- 🔔 **2024** · _243. К_  
+  Ключевые вехи Файл: docs/obsidian/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исслед  
+  `TABLES.md`
+
+- 🔔 **2024** · _141. К_  
+  Ключевые вехи Файл: docs/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исследование ко  
+  `TABLES.md`
+
+- 🔔 **2024** · _1.3. Why Now_  
+  The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted work  
+  `01-problem-statement.md`
+
+- 🔔 **2024** · _7.3. Medical Practice (Specific Specialties)_  
+  Maturity: Rapid deployment in 2024-2026.  
+  `07-application-domains.md`
+
+- 🔔 **2024-06-15** · _Contents_  
+  Родители: Event Sourcing (immutable event log, time-travel queries) CQRS (Command Query Responsibility Segregation) Clic  
+  `31-event-sourced-legal-document-history.md`
+
+- 🔔 **2024-06-15** · _Содержание_  
+  Complete architecture combining ALL 35 combinations: ┌─ DISTRIBUTED COORDINATION ──────────────────────────┐ │ Raft: mul  
+  `35-mega-stack-4-0-with-event-sourcing-consensus.md`
+
+- 📌 **2024-03-15** · _323. Т_  
+  Точная дата (9591) Файл: docs/obsidian/TIMELINE.md 3 колонок, 14 строк Маркер Контекст Файл ------------------------ Q1   
+  `TABLES.md`
+
+- 📌 **2024-03-15** · _221. Т_  
+  Точная дата (9591) Файл: docs/TIMELINE.md 3 колонок, 14 строк Маркер Контекст Файл ------------------------ Q1 2026 ates  
+  `TABLES.md`
+
+- 📌 **2024** · _Что на самом деле в data70_  
+  Это архив 1105 разговоров за 15 месяцев (dec 2024 → mar 2026), 78 МБ текста, 29 802 сообщения — с собственной аналитикой  
+  `00-intro.md`
+
+_...ещё 29 упоминаний в 2024_
+
+
+## 2025 (47 упоминаний)
+
+- 🔔 **2025-02** · _324. Точная дата (9591)_  
+  Теперь по существ 02-anthropic-vacancies/150-appendix-c-version-history.md май 2025 am building (статья Mandelbro в Medi  
+  `TABLES.md`
+
+- 🔔 **2025-02** · _324. Точная дата (9591)_  
+  Теперь по существ 02-anthropic-vacancies/150-appendix-c-version-history.md май 2025 am building (статья Mandelbro в Medi  
+  `TABLES.md`
+
+- 🔔 **2025** · _Пришлите страницу 3_  
+  svend4 1 follower · 0 following Achievements Achievement: Quickdraw Achievement: Pair Extraordinaire Achievement: Pull S  
+  `00-intro.md`
+
+- 🔔 **2025** · _Содержание_  
+  > 🔧 Подход: We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew fro  
+  `210-abstract.md`
+
+- 🔔 **2025** · _Abstract_  
+  We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93  
+  `210-abstract.md`
+
+- 🔔 **2025** · _3.1. B_  
+  Background «Обучай» (transliterated as "Obuchay", meaning "Teach") is a Russian AI service for school teachers, launched  
+  `214-3-empirical-case-study-обучай.md`
+
+- 🔔 **2025** · _3.3. D_  
+  Deployment Trajectory Date Status -------------- Summer 2025 Development begins September 2025 Public launch April 2026   
+  `214-3-empirical-case-study-обучай.md`
+
+- 🔔 **2025** · _11. 3.3. D_  
+  Deployment Trajectory Файл: docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md 2 колонок, 3 строк Date Sta  
+  `TABLES.md`
+
+- 🔔 **2025** · _15. 3.3. D_  
+  Deployment Trajectory Файл: docs/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md 2 колонок, 3 стр  
+  `TABLES.md`
+
+- 🔔 **2025** · _22. 3.3. D_  
+  Deployment Trajectory Файл: docs/obsidian/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md 2 колонок, 3 строк  
+  `TABLES.md`
+
+- 🔔 **2025** · _408. 3.3. D_  
+  Deployment Trajectory Файл: docs/obsidian/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md 2 колон  
+  `TABLES.md`
+
+- 🔔 **2025** · _Abstract_  
+  We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to 93  
+  `00-abstract.md`
+
+- 🔔 **2025** · _3.1. B_  
+  Background «Обучай» (transliterated as "Obuchay", meaning "Teach") is a Russian AI service for school teachers, launched  
+  `03-empirical-case-obuchay.md`
+
+- 🔔 **2025** · _3.3. D_  
+  Deployment Trajectory Date Status -------------- Summer 2025 Development begins September 2025 Public launch April 2026   
+  `03-empirical-case-obuchay.md`
+
+- 🔔 **2025** · _Contents_  
+  Родители: CRDT/Yjs/Automerge (local-first, conflict-free sync) PostgreSQL 18 (async I/O, 2025 release, habr.com/ru/compa  
+  `11-hybrid-crdt-sql-database.md`
+
+- 🔔 **2025** · _Contents_  
+  Родители: ClickHouse (Yandex, колоночная OLAP, 100M+ строк/сек, $2B valuation) CRDT (Yjs/Automerge, conflict-free sync)   
+  `20-hybrid-olap-oltp-with-real-time-sync.md`
+
+- 🔔 **2025-12-15** · _Конфигурация: см. README-MCP.md_  
+  3234", официальная публикация "aktenzeichen": "S 6 SO 58/26 ER", номер дела (для судов) Классификация "q6": "010011", ка  
+  `133-обратная-связь.md`
+
+- 🔔 **2025-12-15** · _Источник_  
+  3234", официальная публикация "aktenzeichen": "S 6 SO 58/26 ER", номер дела (для судов) Классификация "q6": "010011", ка  
+  `01-structural-comparison-code-vs-docs.md`
+
+- 📌 **2025-02** · _Содержание_  
+  Андрей независимо реализовал то, о чём в феврале 2025 публикуют academic papers.  
+  `01-response.md`
+
+- 📌 **2025-05** · _Содержание_  
+  Категория 4: Personal LLM team building (статья Mandelbro в Medium, май 2025) Что делает: автор описывает, как он «нанял  
+  `01-response.md`
+
+_...ещё 27 упоминаний в 2025_
+
+
+## 2026 (528 упоминаний)
+
+- 🔔 **2026-01** · _History_  
+  дата первого коммита Ключевые этапы: - Формирование Q6-концептуальной базы - Embedded-версия Nautilus Portal в подпапке   
+  `53-history.md`
+
+- 🔔 **2026-01** · _324. Точная дата (9591)_  
+  Автор интегрировал, расширил и сохранил редакторские 02-anthropic-vacancies/203-благодарности.md Сентябрь 2025 --/ / Лет  
+  `TABLES.md`
+
+- 🔔 **2026-01** · _324. Точная дата (9591)_  
+  Проект 3: Brain 02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md март 2026 азработка : в  
+  `TABLES.md`
+
+- 🔔 **2026-01** · _324. Точная дата (9591)_  
+  Автор интегрировал, расширил и сохранил редакторские 02-anthropic-vacancies/203-благодарности.md Сентябрь 2025 --/ / Лет  
+  `TABLES.md`
+
+- 🔔 **2026-01** · _324. Точная дата (9591)_  
+  Проект 3: Brain 02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md март 2026 азработка : в  
+  `TABLES.md`
+
+- 🔔 **2026-02** · _Contents_  
+  > Создан: февраль 2026 (судя по repo creation date) --- History Создан: февраль 2026 (судя по repo creation date) Ключев  
+  `63-history.md`
+
+- 🔔 **2026-02-01** · _321. Точная дата (9591)_  
+  Дата документации — 2026-02-01, то есть проект активно развивался около двух-трёх месяцев 02-anthropic-vacancies/303-при  
+  `TABLES.md`
+
+- 🔔 **2026-02** · _324. Точная дата (9591)_  
+  Cowork конкр 02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md февраля 2026 I-агент от Nous Resear  
+  `TABLES.md`
+
+- 🔔 **2026-02-01** · _321. Точная дата (9591)_  
+  Дата документации — 2026-02-01, то есть проект активно развивался около двух-трёх месяцев 02-anthropic-vacancies/303-при  
+  `TABLES.md`
+
+- 🔔 **2026-02** · _324. Точная дата (9591)_  
+  Cowork конкр 02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md февраля 2026 I-агент от Nous Resear  
+  `TABLES.md`
+
+- 🔔 **2026-02** · _Contents_  
+  Что такое Hermes Agent Hermes Agent — open-source автономный AI-агент от Nous Research, выпущенный 25 февраля 2026 года,  
+  `00-question-what-is-hermes.md`
+
+- 🔔 **2026-03** · _Честный reality check_  
+  Публикация data70 на GitHub(../01-svyazi/03-component-catalog.md) 27 марта 2026 — сигнал изменения этого паттерна, попыт  
+  `00-intro.md`
+
+- 🔔 **2026-03** · _Финальный список potential collaborators_  
+  OpenClaw foundation (after Steinberger transition) — independent foundation governance Самое важное наблюдение из этого   
+  `341-приложение-c-образец-спецификаций-инструментов-ing.md`
+
+- 🔔 **2026-03** · _Версия (781)_  
+  К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звё TABLES 5.0.6 2026 \ азработка : версии HMP-0001 →  
+  `KPI.md`
+
+- 🔔 **2026-03** · _[anthropic-vacancies](anthropic-vacancies/README.md)_  
+  - Содержание - Подразделы - Использование - Запуск Слов: 138 Вопрос: разделить $500K зарплату на команду 5–10 фрилансеро  
+  `OUTLINE.md`
+
+- 🔔 **2026-03** · _324. Точная дата (9591)_  
+  К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звёзд на 02-anthropic-vacancies/341-приложение-c-обра  
+  `TABLES.md`
+
+- 🔔 **2026-03** · _324. Точная дата (9591)_  
+  К 23 апреля 2026 (несколько дней назад) — версия v0.11.0 с 95 600+ звёзд на 02-anthropic-vacancies/341-приложение-c-обра  
+  `TABLES.md`
+
+- 🔔 **2026-03** · _Contents_  
+  Публикация data70 на GitHub 27 марта 2026 — сигнал изменения этого паттерна, попытка зафиксировать корпус снаружи.  
+  `04-non-anthropic-paths.md`
+
+- 🔔 **2026-04-01** · _4.3. Empirical Evidence from Nautilus Reference Implementation_  
+  As of 2026-04: - 6,782 lines of Python, 13 adapters, 60 tests passing, 0 mypy errors - 7 knowledge repositories federate  
+  `141-4-nautilus-portal-as-reference-substrate.md`
+
+- 🔔 **2026-04-01** · _Contents_  
+  > Editorial collaboration: Claude (intellectual development, 2026-04) --- AI-Coordinated Infrastructure for Distributed   
+  `152-ai-coordinated-infrastructure-for-distributed-expe.md`
+
+_...ещё 508 упоминаний в 2026_
+
+
+## 2027 (7 упоминаний)
+
+- 🔔 **2027** · _Альтернативные пути, которых у меня не было в прошлом ответе_  
+  Y Combinator Winter 2027 batch — если решите упаковать кластер 1 как LegalTech-стартап.  
+  `00-intro.md`
+
+- 🔔 **2027** · _285. М_  
+  Мета-документы Файл: docs/obsidian/SITEMAP.md 3 колонок, 363 строк Документ Описание Слов -------------------------- ABB  
+  `TABLES.md`
+
+- 🔔 **2027** · _183. М_  
+  Мета-документы Файл: docs/SITEMAP.md 3 колонок, 363 строк Документ Описание Слов -------------------------- ABBREVIATION  
+  `TABLES.md`
+
+- 🔔 **2027** · _Тема 1: cowork, ingit, turn (2042 документов)_  
+  и ещё 2027 документов Тема 4: triangle, double, domain (123 документов) Ключевые слова: triangle, double, layer, domains  
+  `TOPIC_MODEL.md`
+
+- 🔔 **2027** · _Contents_  
+  Y Combinator Winter 2027 batch — если решите упаковать кластер 1 как LegalTech-стартап.  
+  `03-revised-anthropic-mapping.md`
+
+- 📌 **2027** · _322. Точная дата (9591)_  
+  К апр TABLES.md 2027 год ic-vacancies/244-благодарности.md / / 2027 год / к функциональности Projects через 2026-2027 го  
+  `TABLES.md`
+
+- 📌 **2027** · _322. Точная дата (9591)_  
+  К апр TABLES.md 2027 год ic-vacancies/244-благодарности.md / / 2027 год / к функциональности Projects через 2026-2027 го  
+  `TABLES.md`
+
+
+## 2028 (2 упоминаний)
+
+- 📌 **2028** · _Применение к Synthesis A: Professional Community Matching_  
+  Building в 2028 risks being late to wave.  
+  `342-что-такое-вариант-c-concept-document-для-anthropic.md`
+
+- 📌 **2028** · _Contents_  
+  Building в 2028 risks being late to wave.  
+  `09-section-9-timeliness.md`
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_timeline.py
+```
+```bash
+# Вариант 2
+python scripts/improve_timeline.py --dry-run
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)

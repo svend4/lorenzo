@@ -1,5 +1,13 @@
 # Именованные сущности
 
+<!-- toc-auto -->
+<!-- tags: entities, docs -->
+
+
+<!-- summary -->
+> `ENTITIES` — раздел документации проекта Lorenzo.
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -145,3 +153,10 @@
 - [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 - [.md](autofilled/components/.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_entities.py
+```

@@ -1,5 +1,13 @@
 # Карта пробелов знаний
 
+<!-- toc-auto -->
+<!-- tags: missing, docs -->
+
+
+<!-- summary -->
+> `MISSING` — раздел документации проекта Lorenzo.
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -55,3 +63,10 @@
 - [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 - [ENTITIES](ENTITIES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_missing.py
+```

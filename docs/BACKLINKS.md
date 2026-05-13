@@ -1,5 +1,9 @@
 # Индекс обратных ссылок
 
+<!-- toc-auto -->
+<!-- tags: backlinks, docs -->
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -78,3 +82,17 @@
 | **svyazi-2-0** | 699 | 699 |
 | **technology-combinations** | 662 | 609 |
 | **templates** | 205 | 261 |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_backlinks.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

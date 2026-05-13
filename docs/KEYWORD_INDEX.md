@@ -1,5 +1,9 @@
 # Инвертированный индекс ключевых слов
 
+<!-- toc-auto -->
+<!-- tags: keyword-index, docs -->
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -185,3 +189,10 @@ _Обновлено: 2026-05-13_
 - [02-similarity-2-persistent-memory](anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
 - [00-question-habr-link](nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_keyword_index.py
+```

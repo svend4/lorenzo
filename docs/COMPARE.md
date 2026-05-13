@@ -1,21 +1,20 @@
 # Сравнение с предыдущим коммитом
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `COMPARE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: compare, docs -->
+
 
 <!-- summary -->
-> **Файлов было:** 1479  **стало:** 2484
-
----
-<!-- tags: memory, architecture, roadmap, anthropic, collaboration -->
-
-
+> `COMPARE` — раздел документации проекта Lorenzo.
 
 
 **Файлов было:** 1479  **стало:** 2484  
-**Слов было:** 2,103,273  **стало:** 2,922,254  **Δ:** +818,981
+**Слов было:** 2,103,272  **стало:** 2,897,158  **Δ:** +793,886
 
 
 ## Новые файлы (1005)
@@ -65,62 +64,51 @@ _...и ещё 965_
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (66) — топ по Δ слов
+## Изменившиеся файлы (135) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `CHANGELOG.md` | 5757 | 838 | -4919 |
+| `TABLES.md` | 334302 | 316150 | -18152 |
+| `CHANGELOG.md` | 5757 | 890 | -4867 |
+| `CHANGELOG.md` | 5766 | 903 | -4863 |
 | `QA.md` | 3343 | 336 | -3007 |
-| `QA.md` | 3313 | 2103 | -1210 |
-| `DUPLICATES.md` | 1957 | 2117 | +160 |
+| `QA.md` | 3313 | 2126 | -1187 |
+| `CODE_BLOCKS.md` | 5973 | 5332 | -641 |
+| `FAQ.md` | 1821 | 1378 | -443 |
+| `CONTRADICTIONS.md` | 1594 | 1975 | +381 |
+| `CONTRADICTIONS.md` | 1616 | 1995 | +379 |
+| `DUPLICATES.md` | 1957 | 2303 | +346 |
+| `ACTION_ITEMS.md` | 9272 | 8945 | -327 |
+| `CONCEPTS.md` | 15197 | 14963 | -234 |
+| `READABILITY.md` | 37597 | 37373 | -224 |
+| `CONSISTENCY.md` | 640 | 856 | +216 |
+| `PRIORITIES.md` | 3489 | 3683 | +194 |
 | `QA.md` | 362 | 226 | -136 |
+| `WORD_FREQ.md` | 3368 | 3488 | +120 |
+| `NETWORK.md` | 530 | 413 | -117 |
 | `CONTACTS.md` | 669 | 557 | -112 |
-| `DUPLICATES.md` | 1960 | 2071 | +111 |
+| `NARRATIVE.md` | 1136 | 1241 | +105 |
 | `QA.md` | 422 | 323 | -99 |
 | `QA.md` | 146 | 47 | -99 |
 | `QA.md` | 234 | 135 | -99 |
+| `ENTITIES.md` | 856 | 758 | -98 |
 | `QA.md` | 305 | 207 | -98 |
 | `QA.md` | 315 | 219 | -96 |
 | `QA.md` | 290 | 196 | -94 |
 | `QA.md` | 190 | 107 | -83 |
-| `QA.md` | 305 | 225 | -80 |
-| `CONTRADICTIONS.md` | 1594 | 1515 | -79 |
-| `QA.md` | 148 | 71 | -77 |
-| `QA.md` | 131 | 61 | -70 |
-| `LANGUAGE_STATS.md` | 7860 | 7909 | +49 |
-| `DIGEST_AUTO.md` | 466 | 513 | +47 |
-| `QUESTIONS.md` | 1838 | 1885 | +47 |
-| `KEYWORD_INDEX.md` | 1024 | 1069 | +45 |
-| `KPI_HISTORY.md` | 207 | 252 | +45 |
-| `NARRATIVE.md` | 1083 | 1128 | +45 |
-| `SEE_ALSO.md` | 233 | 278 | +45 |
-| `SENTIMENT.md` | 553 | 598 | +45 |
-| `SEE_ALSO.md` | 244 | 289 | +45 |
-| `SENTIMENT.md` | 564 | 609 | +45 |
-| `STATS.md` | 709 | 754 | +45 |
-| `KPI.md` | 2770 | 2812 | +42 |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [COMPLEXITY](COMPLEXITY.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+| `GRAPH.md` | 2736 | 2654 | -82 |
+| `SENTIMENT.md` | 564 | 646 | +82 |
 
 
-<!-- see-also -->
+## Использование
+```bash
+# Запуск
+python scripts/improve_compare.py
+```
 
----
-
-**Смотрите также:**
-- [190-содержание](02-anthropic-vacancies/190-содержание.md)
-- [00-abstract](nautilus/representative-agent-layer-ru/00-abstract.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
-- [105-review-methodology-md](02-anthropic-vacancies/105-review-methodology-md.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

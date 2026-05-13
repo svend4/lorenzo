@@ -1,5 +1,9 @@
 # Частотный анализ слов
 
+<!-- toc-auto -->
+<!-- tags: word-freq, docs -->
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -549,3 +553,14 @@ _(Слова, характерные только для этого раздел
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [05-existing-infrastructure-stack](anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_word_freq.py
+```
+```bash
+# Вариант 2
+python scripts/improve_word_freq.py --dry-run
+```

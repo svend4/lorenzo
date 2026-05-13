@@ -1,4 +1,10 @@
 # Числовые KPI и метрики
+<!-- tags: kpi, docs -->
+
+
+<!-- summary -->
+> `KPI` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
@@ -205,3 +211,14 @@ _Извлечено: **3463** числовых показателей из до�
 - [CLUSTERS](CLUSTERS.md)
 - [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_kpi.py
+```
+```bash
+# Вариант 2
+python scripts/improve_kpi.py --dry-run
+```

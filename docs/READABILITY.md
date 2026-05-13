@@ -1,5 +1,7 @@
 # Читаемость документов (Flesch-Kincaid)
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > Средний индекс FRE: **0.7/100** по 2481 документам
 
@@ -2523,3 +2525,82 @@ _Обновлено: 2026-05-13_
 - [SOURCE_MAP](SOURCE_MAP.md)
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readability.py
+```
+```bash
+# Вариант 2
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 9
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 10
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 11
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 12
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 13
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 14
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 15
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 16
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 17
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 18
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 19
+python scripts/improve_readability.py --dry-run
+```

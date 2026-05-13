@@ -1,5 +1,18 @@
 # Рекомендуемый порядок чтения
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `READING_ORDER` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: reading-order, docs -->
+
+
+<!-- summary -->
+> `READING_ORDER` — раздел документации проекта Lorenzo.
+
+
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 
 | # | Уровень | Документ | Слов | Предварительно прочитать |
@@ -428,3 +441,22 @@
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_reading_order.py
+```
+```bash
+# Вариант 2
+python scripts/improve_reading_order.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_reading_order.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_reading_order.py --dry-run
+```

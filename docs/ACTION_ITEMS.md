@@ -1,4 +1,10 @@
 # Action Items, риски и решения
+<!-- tags: action-items, docs -->
+
+
+<!-- summary -->
+> `ACTION_ITEMS` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
@@ -1688,3 +1694,35 @@ _(223 дублей скрыто)_
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_action_items.py
+```
+```bash
+# Вариант 2
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_action_items.py --dry-run
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)

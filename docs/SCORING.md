@@ -1,17 +1,16 @@
 # Оценка готовности проекта (Go/No-Go)
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `SCORING` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: scoring, docs -->
+
 
 <!-- summary -->
-> 1. **[вес 5]** Слишком много сломанных ссылок
-
----
-<!-- tags: security, architecture, roadmap, collaboration -->
-
-
+> `SCORING` — раздел документации проекта Lorenzo.
 
 
 _Дата: 2026-05-13_
@@ -74,29 +73,16 @@ _Дата: 2026-05-13_
 ## ✅ Проект готов к запуску MVP!
 
 
-<!-- backlinks -->
 
----
+## Использование
+```bash
+# Запуск
+python scripts/improve_scoring.py
+```
 
-**Кто ссылается на этот документ (16):**
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
-- [GITHUB_ISSUES](GITHUB_ISSUES.md)
-- [HEADING_AUDIT](HEADING_AUDIT.md)
-- [HEALTH](HEALTH.md)
-- [INDEX](INDEX.md)
-- [METRICS](METRICS.md)
-- [OUTLINE](OUTLINE.md)
-- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
-- _...ещё 8_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [COVERAGE](COVERAGE.md)
-- [SCHEDULE](SCHEDULE.md)
-- [COST](COST.md)
-- [ONBOARDING](ONBOARDING.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

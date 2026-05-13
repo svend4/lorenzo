@@ -1,23 +1,5 @@
 # Индекс документации — Lorenzo / Svyazi 2.0
 
-<!-- toc -->
-## Содержание
-
-- [Метрики репозитория](#метрики-репозитория)
-- [Разделы документации](#разделы-документации)
-  - [[🏗️  Архитектура Svyazi 2.0](01-svyazi/README.md)](#архитектура-svyazi-2001-svyazireadmemd)
-  - [[💼 Вакансии Anthropic](02-anthropic-vacancies/README.md)](#вакансии-anthropic02-anthropic-vacanciesreadmemd)
-  - [[⚗️  Комбинации технологий](03-technology-combinations/README.md)](#комбинации-технологий03-technology-combinationsreadmemd)
-  - [[🤝 AI-коллаборации](04-ai-collaborations/README.md)](#ai-коллаборации04-ai-collaborationsreadmemd)
-  - [[📦 Хабр-проекты](05-habr-projects/README.md)](#хабр-проекты05-habr-projectsreadmemd)
-- [Аналитика и отчёты](#аналитика-и-отчёты)
-- [Ключевые документы](#ключевые-документы)
-- [LLM-обогащение (Ступень 3)](#llm-обогащение-ступень-3)
-- [Быстрый старт](#быстрый-старт)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -37,11 +19,11 @@ _Главный навигационный хаб. Все разделы и до
 
 | Параметр | Значение |
 |----------|---------|
-| Markdown документов | **2482** |
-| Слов | **2,925,698** |
+| Markdown документов | **2484** |
+| Слов | **2,893,984** |
 | Скриптов автоматизации | **166** |
 | Go/No-Go скоринг | **96 🟢** |
-| Здоровье репо | **100/100** |
+| Здоровье репо | **99/100** |
 
 ## Разделы документации
 
@@ -49,31 +31,31 @@ _Главный навигационный хаб. Все разделы и до
 
 Ключевые компоненты, контракты, MVP, дорожная карта
 
-_16 файлов · 13,360 слов_
+_16 файлов · 13,329 слов_
 
 ### [💼 Вакансии Anthropic](02-anthropic-vacancies/README.md)
 
 436 вакансий по 12 кластерам, стратегический анализ
 
-_357 файлов · 341,828 слов_
+_357 файлов · 341,899 слов_
 
 ### [⚗️  Комбинации технологий](03-technology-combinations/README.md)
 
 40+ синергетических комбинаций AI-технологий
 
-_7 файлов · 3,815 слов_
+_7 файлов · 3,781 слов_
 
 ### [🤝 AI-коллаборации](04-ai-collaborations/README.md)
 
 5 ансамблей OSS-проектов: Knowledge OS, Agent Teams, Security Runtime
 
-_17 файлов · 27,940 слов_
+_17 файлов · 27,853 слов_
 
 ### [📦 Хабр-проекты](05-habr-projects/README.md)
 
 Yodoca, NGT, AgentFS, knowledge-space — проекты с Хабра
 
-_16 файлов · 14,869 слов_
+_16 файлов · 14,824 слов_
 
 
 ## Аналитика и отчёты
@@ -132,7 +114,7 @@ _Требуют `ANTHROPIC_API_KEY`:_
 |----------|---------|
 | `LLM_ENRICHED.md` _(нет)_ | Обогащённые stub-файлы |
 | `LLM_QA.md` _(нет)_ | Ответы на открытые вопросы |
-| `LLM_GAPS.md` _(нет)_ | Семантические пробелы |
+| [`LLM_GAPS.md`](LLM_GAPS.md) | Семантические пробелы |
 | [`LLM_SUMMARIES.md`](LLM_SUMMARIES.md) | AI-саммари разделов |
 
 ## Быстрый старт
@@ -151,32 +133,5 @@ python scripts/improve_run_all.py --group analysis
 
 ---
 
-_Индекс сгенерирован автоматически · 2482 документов · 166 скриптов_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [ONBOARDING](ONBOARDING.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (16):**
-- [README](01-svyazi/README.md)
-- [ABBREVIATIONS](ABBREVIATIONS.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [FAQ](FAQ.md)
-- [FOOTNOTES](FOOTNOTES.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [NETWORK](NETWORK.md)
-- _...ещё 8_
+_Индекс сгенерирован автоматически · 2484 документов · 166 скриптов_
 

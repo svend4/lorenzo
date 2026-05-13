@@ -1,13 +1,31 @@
 # MCP Dashboard
 
+> [!NOTE]
+> Раздел `MCP_DASHBOARD` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: mcp-dashboard, docs -->
+
+
+<!-- summary -->
+> `MCP_DASHBOARD` — раздел документации проекта Lorenzo.
+
+
 _Логи MCP-вызовов отсутствуют._
 
-<!-- backlinks -->
 
----
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «MCP Dashboard». Формируется автоматически.
 
-**Кто ссылается на этот документ (3):**
-- [OUTLINE](OUTLINE.md)
-- [README](README.md)
-- [TABLES](TABLES.md)
 
+## Использование
+```bash
+# Запуск
+python scripts/improve_mcp_dashboard.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

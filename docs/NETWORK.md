@@ -1,5 +1,18 @@
 # Сеть проектов и авторов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `NETWORK` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: network, docs -->
+
+
+<!-- summary -->
+> `NETWORK` — раздел документации проекта Lorenzo.
+
+
 **Узлов:** 20  **Связей:** 190
 
 ## Топ-20 ко-упоминаемых пар
@@ -71,3 +84,10 @@
 - [MINDMAP](MINDMAP.md)
 - [GLOSSARY](GLOSSARY.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_network.py
+```

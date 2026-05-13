@@ -1,5 +1,9 @@
 # Тональный анализ документов
 
+<!-- toc-auto -->
+<!-- tags: sentiment, docs -->
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -91,3 +95,10 @@
 - [HEALTH](HEALTH.md)
 - [TAGS](TAGS.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_sentiment.py
+```

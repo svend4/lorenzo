@@ -354,3 +354,14 @@ _Для каждого концепта — TF-IDF вес в каждой сек
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [.md](autofilled/components/.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_cross_section.py
+```
+```bash
+# Вариант 2
+python scripts/improve_cross_section.py --dry-run
+```

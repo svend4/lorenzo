@@ -1,18 +1,14 @@
 # Мониторинг зависимостей
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `DEPENDABOT` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: dependabot, docs -->
+
 
 <!-- summary -->
-> python scripts/improve_dependabot.py --generate-config
-**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
-
----
-<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->
-
-
+> `DEPENDABOT` — раздел документации проекта Lorenzo.
 
 
 _Обновлено: 2026-05-13_
@@ -47,30 +43,3 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (11):**
-- [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md)
-- [ENTITIES](ENTITIES.md)
-- [GRAPH](GRAPH.md)
-- [MISSING](MISSING.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 3_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [GRAPH](GRAPH.md)
-- [NETWORK](NETWORK.md)
-- [MINDMAP](MINDMAP.md)
-

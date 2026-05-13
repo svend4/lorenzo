@@ -1,5 +1,13 @@
 # Словарь аббревиатур и сокращений
 
+<!-- toc-auto -->
+<!-- tags: abbreviations, docs -->
+
+
+<!-- summary -->
+> `ABBREVIATIONS` — раздел документации проекта Lorenzo.
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -163,3 +171,10 @@
 - [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)
 - [SOURCE_MAP](SOURCE_MAP.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_abbreviations.py
+```

@@ -1,5 +1,9 @@
 # Оценка читаемости документов
 
+<!-- toc-auto -->
+<!-- tags: complexity, docs -->
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -90,3 +94,10 @@
 - [NAMED_ENTITIES](NAMED_ENTITIES.md)
 - [READING_LIST](READING_LIST.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_complexity.py
+```

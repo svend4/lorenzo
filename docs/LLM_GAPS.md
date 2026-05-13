@@ -1,4 +1,6 @@
 # LLM Gap Analysis — семантические пробелы
+<!-- tags: llm-gaps, docs -->
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -50,3 +52,10 @@ _Источник: docs/ (первые 60 файлов) + архитектурн
 - [57-native-format](02-anthropic-vacancies/57-native-format.md)
 - [CROSS_SECTION](CROSS_SECTION.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_llm_gaps.py
+```

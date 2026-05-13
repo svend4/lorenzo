@@ -1,18 +1,16 @@
 # Приоритет контактов
 
+<!-- toc-auto -->
+
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `CONTACT_PRIORITY` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: contact-priority, docs -->
+
 
 <!-- summary -->
-> 1. **kksudo** (AgentFS, 189 упоминаний) → [открыть контакт](contacts/kksudo.md)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
-
-
+> `CONTACT_PRIORITY` — раздел документации проекта Lorenzo.
 
 
 _Обновлено: 2026-05-13_
@@ -23,8 +21,8 @@ _Обновлено: 2026-05-13_
 |---|-------|--------|------|-----------|--------|------|
 | 1 | **kksudo** | AgentFS | knowledge/filesystem | 189 | 👁 Изучили | 578 |
 | 2 | **spbmolot** | NGT Memory | memory | 167 | 👁 Изучили | 512 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 128 | 👁 Изучили | 395 |
-| 4 | **VitalyOborin** | Yodoca | memory | 104 | 👁 Изучили | 323 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 126 | 👁 Изучили | 389 |
+| 4 | **VitalyOborin** | Yodoca | memory | 102 | 👁 Изучили | 317 |
 | 5 | **zodigancode** | Rufler | orchestration | 91 | 👁 Изучили | 282 |
 | 6 | **Antipozitive** | MemNet | memory | 78 | 👁 Изучили | 245 |
 | 7 | **VladSpace** | Graph RAG | rag | 80 | ⬜ Не начато | 244 |
@@ -43,7 +41,7 @@ _Обновлено: 2026-05-13_
 
 1. **kksudo** (AgentFS, 189 упоминаний) → [открыть контакт](contacts/kksudo.md)
 1. **spbmolot** (NGT Memory, 167 упоминаний) → [открыть контакт](contacts/spbmolot.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 128 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 126 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 
@@ -54,30 +52,3 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 ```
 
 _Чем выше балл — тем важнее написать первым._
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (13):**
-- [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md)
-- [MINDMAP](MINDMAP.md)
-- [OUTLINE](OUTLINE.md)
-- [PRECISION_EVAL](PRECISION_EVAL.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 5_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [MINDMAP](MINDMAP.md)
-- [AUTHORS](AUTHORS.md)
-- [CONTACTS](CONTACTS.md)
-- [GRAPH](GRAPH.md)
-

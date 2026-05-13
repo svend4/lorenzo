@@ -1,5 +1,9 @@
 # Индекс тегов
 
+<!-- toc-auto -->
+<!-- tags: tags, docs -->
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -330,3 +334,10 @@
 - [CONSISTENCY](CONSISTENCY.md)
 - [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_tags.py
+```

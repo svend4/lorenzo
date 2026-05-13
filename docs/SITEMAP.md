@@ -1,49 +1,5 @@
 # Карта репозитория Lorenzo
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> - [Мета-документы](#мета-документы)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Навигация](#навигация)
-- [Мета-документы](#мета-документы)
-- [Svyazi 2.0 — Архитектура системы](#svyazi-20-архитектура-системы)
-- [Вакансии Anthropic — 436 позиций](#вакансии-anthropic-436-позиций)
-- [Комбинации технологий](#комбинации-технологий)
-- [AI Коллаборации — ансамбли проектов](#ai-коллаборации-ансамбли-проектов)
-- [Хабр-проекты — память и граф](#хабр-проекты-память-и-граф)
-- [ai-collaborations](#ai-collaborations)
-- [anthropic-vacancies](#anthropic-vacancies)
-- [autofilled](#autofilled)
-- [contacts](#contacts)
-- [glossary](#glossary)
-- [habr-unique-projects](#habr-unique-projects)
-- [letters](#letters)
-- [lorenzo-agent](#lorenzo-agent)
-- [meta-scripting](#meta-scripting)
-- [nautilus](#nautilus)
-- [obsidian](#obsidian)
-- [processing-guide](#processing-guide)
-- [svyazi-2-0](#svyazi-2-0)
-- [technology-combinations](#technology-combinations)
-- [templates](#templates)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 _Обновлено: 2026-05-13_
 
 **Всего файлов:** 2482
@@ -78,139 +34,139 @@ _Обновлено: 2026-05-13_
 
 | Документ | Описание | Слов |
 |----------|----------|------|
-| [ABBREVIATIONS.md](ABBREVIATIONS.md) | — | 1918 |
-| [ACTION_ITEMS.md](ACTION_ITEMS.md) | Задачи и риски (490) | 9272 |
+| [ABBREVIATIONS.md](ABBREVIATIONS.md) | — | 1847 |
+| [ACTION_ITEMS.md](ACTION_ITEMS.md) | Задачи и риски (490) | 8945 |
 | [ACTION_ITEMS.md](obsidian/ACTION_ITEMS.md) | Задачи и риски (490) | 9285 |
-| [ALERTS.md](ALERTS.md) | — | 105 |
-| [AUTHORS.md](AUTHORS.md) | Авторы и контакты | 213 |
-| [AUTHORS.md](obsidian/AUTHORS.md) | Авторы и контакты | 224 |
+| [ALERTS.md](ALERTS.md) | — | 79 |
+| [AUTHORS.md](AUTHORS.md) | Авторы и контакты | 210 |
+| [AUTHORS.md](obsidian/AUTHORS.md) | Авторы и контакты | 181 |
 | [AUTOFILLED.md](AUTOFILLED.md) | — | 322 |
-| [BACKLINKS.md](BACKLINKS.md) | — | 534 |
+| [BACKLINKS.md](BACKLINKS.md) | — | 565 |
 | [BADGES.md](BADGES.md) | — | 100 |
-| [BROKEN_LINKS.md](BROKEN_LINKS.md) | Сломанные ссылки (26) | 1000 |
-| [CHANGELOG.md](CHANGELOG.md) | История изменений | 838 |
-| [CHANGELOG.md](obsidian/CHANGELOG.md) | История изменений | 5766 |
+| [BROKEN_LINKS.md](BROKEN_LINKS.md) | Сломанные ссылки (26) | 927 |
+| [CHANGELOG.md](CHANGELOG.md) | История изменений | 890 |
+| [CHANGELOG.md](obsidian/CHANGELOG.md) | История изменений | 903 |
 | [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) | — | 2027 |
 | [CITATION_INDEX.md](CITATION_INDEX.md) | — | 997 |
-| [CLUSTERS.md](CLUSTERS.md) | Кластеры (384 → 120 групп) | 1674 |
-| [CLUSTERS.md](obsidian/CLUSTERS.md) | Кластеры (384 → 120 групп) | 1704 |
-| [CODE_BLOCKS.md](CODE_BLOCKS.md) | — | 5973 |
+| [CLUSTERS.md](CLUSTERS.md) | Кластеры (384 → 120 групп) | 1765 |
+| [CLUSTERS.md](obsidian/CLUSTERS.md) | Кластеры (384 → 120 групп) | 1747 |
+| [CODE_BLOCKS.md](CODE_BLOCKS.md) | — | 5332 |
 | [CODE_BLOCKS.md](obsidian/CODE_BLOCKS.md) | — | 5983 |
 | [COLLAB_SUGGESTIONS.md](COLLAB_SUGGESTIONS.md) | — | 702 |
 | [COMPARE.md](COMPARE.md) | Сравнение с предыдущим коммитом | 477 |
-| [COMPARE.md](obsidian/COMPARE.md) | Сравнение с предыдущим коммитом | 507 |
-| [COMPLEXITY.md](COMPLEXITY.md) | Оценка читаемости | 645 |
-| [COMPLEXITY.md](obsidian/COMPLEXITY.md) | Оценка читаемости | 656 |
+| [COMPARE.md](obsidian/COMPARE.md) | Сравнение с предыдущим коммитом | 541 |
+| [COMPLEXITY.md](COMPLEXITY.md) | Оценка читаемости | 616 |
+| [COMPLEXITY.md](obsidian/COMPLEXITY.md) | Оценка читаемости | 684 |
 | [COMPONENT_MATRIX.md](COMPONENT_MATRIX.md) | — | 940 |
-| [CONCEPTS.md](CONCEPTS.md) | Глоссарий понятий (888) | 15197 |
+| [CONCEPTS.md](CONCEPTS.md) | Глоссарий понятий (888) | 14963 |
 | [CONCEPTS.md](obsidian/CONCEPTS.md) | Глоссарий понятий (888) | 15137 |
-| [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) | — | 646 |
-| [CONSISTENCY.md](CONSISTENCY.md) | — | 630 |
-| [CONSISTENCY.md](obsidian/CONSISTENCY.md) | — | 658 |
+| [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) | — | 725 |
+| [CONSISTENCY.md](CONSISTENCY.md) | — | 660 |
+| [CONSISTENCY.md](obsidian/CONSISTENCY.md) | — | 856 |
 | [CONTACTS.md](CONTACTS.md) | Контакты (15 авторов) | 557 |
-| [CONTACTS.md](obsidian/CONTACTS.md) | Контакты (15 авторов) | 680 |
-| [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) | — | 455 |
-| [CONTENT_GAPS.md](CONTENT_GAPS.md) | — | 885 |
-| [CONTRADICTIONS.md](CONTRADICTIONS.md) | — | 1592 |
-| [COST.md](COST.md) | — | 636 |
+| [CONTACTS.md](obsidian/CONTACTS.md) | Контакты (15 авторов) | 657 |
+| [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) | — | 452 |
+| [CONTENT_GAPS.md](CONTENT_GAPS.md) | — | 899 |
+| [CONTRADICTIONS.md](CONTRADICTIONS.md) | — | 1995 |
+| [COST.md](COST.md) | — | 628 |
 | [COVERAGE.md](COVERAGE.md) | — | 297 |
 | [CROSSREFS.md](CROSSREFS.md) | Перекрёстные ссылки проектов | 678 |
-| [CROSSREFS.md](obsidian/CROSSREFS.md) | Перекрёстные ссылки проектов | 688 |
-| [CROSS_SECTION.md](CROSS_SECTION.md) | — | 4072 |
-| [DECISIONS.md](DECISIONS.md) | Ключевые решения (150) | 2575 |
+| [CROSSREFS.md](obsidian/CROSSREFS.md) | Перекрёстные ссылки проектов | 648 |
+| [CROSS_SECTION.md](CROSS_SECTION.md) | — | 4169 |
+| [DECISIONS.md](DECISIONS.md) | Ключевые решения (150) | 2585 |
 | [DECISIONS.md](obsidian/DECISIONS.md) | Ключевые решения (150) | 2589 |
 | [DEMO.md](DEMO.md) | — | 627 |
-| [DENSITY.md](DENSITY.md) | Карта плотности тем | 738 |
+| [DENSITY.md](DENSITY.md) | Карта плотности тем | 671 |
 | [DENSITY.md](obsidian/DENSITY.md) | Карта плотности тем | 749 |
-| [DEPENDABOT.md](DEPENDABOT.md) | — | 136 |
+| [DEPENDABOT.md](DEPENDABOT.md) | — | 218 |
 | [DEPENDENCY_MAP.md](DEPENDENCY_MAP.md) | — | 1212 |
-| [DIGEST.md](DIGEST.md) | — | 385 |
-| [DIGEST_AUTO.md](DIGEST_AUTO.md) | — | 513 |
+| [DIGEST.md](DIGEST.md) | — | 381 |
+| [DIGEST_AUTO.md](DIGEST_AUTO.md) | — | 514 |
 | [DIGEST_WEEKLY.md](DIGEST_WEEKLY.md) | — | 408 |
-| [DUPLICATES.md](DUPLICATES.md) | — | 2071 |
-| [DUPLICATES.md](obsidian/DUPLICATES.md) | — | 2117 |
+| [DUPLICATES.md](DUPLICATES.md) | — | 2010 |
+| [DUPLICATES.md](obsidian/DUPLICATES.md) | — | 2303 |
 | [EMPTY_SECTIONS.md](EMPTY_SECTIONS.md) | — | 37649 |
-| [ENTITIES.md](ENTITIES.md) | Именованные сущности | 856 |
+| [ENTITIES.md](ENTITIES.md) | Именованные сущности | 758 |
 | [ENTITIES.md](obsidian/ENTITIES.md) | Именованные сущности | 866 |
-| [FAQ.md](FAQ.md) | — | 1821 |
-| [FOOTNOTES.md](FOOTNOTES.md) | — | 351 |
+| [FAQ.md](FAQ.md) | — | 1378 |
+| [FOOTNOTES.md](FOOTNOTES.md) | — | 275 |
 | [GATEWAY.md](GATEWAY.md) | — | 1354 |
 | [GITHUB_ISSUES.md](GITHUB_ISSUES.md) | — | 3493 |
 | [GLOSSARY.md](GLOSSARY.md) | Глоссарий проектов (33 записи) | 256 |
-| [GLOSSARY.md](obsidian/GLOSSARY.md) | Глоссарий проектов (33 записи) | 266 |
-| [GRAPH.md](GRAPH.md) | Граф связей проектов | 2736 |
+| [GLOSSARY.md](obsidian/GLOSSARY.md) | Глоссарий проектов (33 записи) | 229 |
+| [GRAPH.md](GRAPH.md) | Граф связей проектов | 2654 |
 | [GRAPH.md](obsidian/GRAPH.md) | Граф связей проектов | 2747 |
 | [HEADING_AUDIT.md](HEADING_AUDIT.md) | — | 13632 |
 | [HEALTH.md](HEALTH.md) | Дашборд здоровья (75/100) | 293 |
-| [HEALTH.md](obsidian/HEALTH.md) | Дашборд здоровья (75/100) | 345 |
-| [HEATMAP.md](HEATMAP.md) | — | 619 |
+| [HEALTH.md](obsidian/HEALTH.md) | Дашборд здоровья (75/100) | 340 |
+| [HEATMAP.md](HEATMAP.md) | — | 560 |
 | [INDEX.md](INDEX.md) | — | 633 |
 | [KEYWORD_INDEX.md](KEYWORD_INDEX.md) | — | 1069 |
 | [KNOWLEDGE_MAP.md](KNOWLEDGE_MAP.md) | — | 699 |
-| [KPI.md](KPI.md) | Числовые KPI (737 показателей) | 2812 |
-| [KPI.md](obsidian/KPI.md) | Числовые KPI (737 показателей) | 2765 |
-| [KPI_HISTORY.md](KPI_HISTORY.md) | — | 252 |
-| [LANGUAGE_STATS.md](LANGUAGE_STATS.md) | — | 7909 |
+| [KPI.md](KPI.md) | Числовые KPI (737 показателей) | 2787 |
+| [KPI.md](obsidian/KPI.md) | Числовые KPI (737 показателей) | 2794 |
+| [KPI_HISTORY.md](KPI_HISTORY.md) | — | 265 |
+| [LANGUAGE_STATS.md](LANGUAGE_STATS.md) | — | 7890 |
 | [LINKS.md](LINKS.md) | Внешние ссылки | 1087 |
-| [LINKS.md](obsidian/LINKS.md) | Внешние ссылки | 1097 |
+| [LINKS.md](obsidian/LINKS.md) | Внешние ссылки | 1054 |
 | [LINK_PREVIEW.md](LINK_PREVIEW.md) | — | 3351 |
-| [LLM_GAPS.md](LLM_GAPS.md) | — | 111 |
+| [LLM_GAPS.md](LLM_GAPS.md) | — | 115 |
 | [LLM_SUMMARIES.md](LLM_SUMMARIES.md) | — | 386 |
 | [MCP_DASHBOARD.md](MCP_DASHBOARD.md) | — | 22 |
 | [METHODOLOGY.md](METHODOLOGY.md) | — | 1070 |
-| [METRICS.md](METRICS.md) | — | 459 |
-| [MINDMAP.md](MINDMAP.md) | Майндмап в Mermaid | 317 |
+| [METRICS.md](METRICS.md) | — | 392 |
+| [MINDMAP.md](MINDMAP.md) | Майндмап в Mermaid | 242 |
 | [MINDMAP.md](obsidian/MINDMAP.md) | Майндмап в Mermaid | 328 |
-| [MISSING.md](MISSING.md) | Пробелы знаний | 517 |
+| [MISSING.md](MISSING.md) | Пробелы знаний | 450 |
 | [MISSING.md](obsidian/MISSING.md) | Пробелы знаний | 528 |
 | [NAMED_ENTITIES.md](NAMED_ENTITIES.md) | — | 1744 |
-| [NARRATIVE.md](NARRATIVE.md) | — | 1128 |
-| [NETWORK.md](NETWORK.md) | — | 530 |
+| [NARRATIVE.md](NARRATIVE.md) | — | 1055 |
+| [NETWORK.md](NETWORK.md) | — | 413 |
 | [ONBOARDING.md](ONBOARDING.md) | — | 566 |
-| [ORPHANS.md](ORPHANS.md) | — | 134 |
+| [ORPHANS.md](ORPHANS.md) | — | 90 |
 | [OUTLINE.md](OUTLINE.md) | — | 47483 |
 | [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) | — | 17500 |
 | [PASSIVE_VOICE.md](PASSIVE_VOICE.md) | — | 468 |
-| [PRECISION_EVAL.md](PRECISION_EVAL.md) | — | 575 |
-| [PRIORITIES.md](PRIORITIES.md) | Приоритеты (TF-IDF) | 3479 |
-| [PRIORITIES.md](obsidian/PRIORITIES.md) | Приоритеты (TF-IDF) | 3489 |
-| [PROGRESS.md](PROGRESS.md) | — | 356 |
+| [PRECISION_EVAL.md](PRECISION_EVAL.md) | — | 515 |
+| [PRIORITIES.md](PRIORITIES.md) | Приоритеты (TF-IDF) | 3448 |
+| [PRIORITIES.md](obsidian/PRIORITIES.md) | Приоритеты (TF-IDF) | 3683 |
+| [PROGRESS.md](PROGRESS.md) | — | 348 |
 | [PROTOTYPE_SPEC.md](PROTOTYPE_SPEC.md) | — | 1676 |
 | [QA.md](01-svyazi/QA.md) | Вопросы и ответы | 225 |
 | [QA.md](02-anthropic-vacancies/QA.md) | Вопросы и ответы | 323 |
 | [QA.md](03-technology-combinations/QA.md) | Вопросы и ответы | 107 |
 | [QA.md](04-ai-collaborations/QA.md) | Вопросы и ответы | 226 |
 | [QA.md](05-habr-projects/QA.md) | Вопросы и ответы | 196 |
-| [QA.md](QA.md) | Вопросы и ответы | 2103 |
+| [QA.md](QA.md) | Вопросы и ответы | 2126 |
 | [QA.md](ai-collaborations/QA.md) | Вопросы и ответы | 468 |
-| [QA.md](anthropic-vacancies/QA.md) | Вопросы и ответы | 61 |
+| [QA.md](anthropic-vacancies/QA.md) | Вопросы и ответы | 84 |
 | [QA.md](contacts/QA.md) | Вопросы и ответы | 47 |
 | [QA.md](letters/QA.md) | Вопросы и ответы | 135 |
 | [QA.md](lorenzo-agent/QA.md) | Вопросы и ответы | 207 |
 | [QA.md](meta-scripting/QA.md) | Вопросы и ответы | 71 |
-| [QA.md](obsidian/01-svyazi/QA.md) | Вопросы и ответы | 329 |
-| [QA.md](obsidian/02-anthropic-vacancies/QA.md) | Вопросы и ответы | 452 |
-| [QA.md](obsidian/03-technology-combinations/QA.md) | Вопросы и ответы | 208 |
-| [QA.md](obsidian/04-ai-collaborations/QA.md) | Вопросы и ответы | 386 |
-| [QA.md](obsidian/05-habr-projects/QA.md) | Вопросы и ответы | 312 |
+| [QA.md](obsidian/01-svyazi/QA.md) | Вопросы и ответы | 304 |
+| [QA.md](obsidian/02-anthropic-vacancies/QA.md) | Вопросы и ответы | 410 |
+| [QA.md](obsidian/03-technology-combinations/QA.md) | Вопросы и ответы | 169 |
+| [QA.md](obsidian/04-ai-collaborations/QA.md) | Вопросы и ответы | 305 |
+| [QA.md](obsidian/05-habr-projects/QA.md) | Вопросы и ответы | 271 |
 | [QA.md](obsidian/QA.md) | Вопросы и ответы | 336 |
 | [QA.md](obsidian/ai-collaborations/QA.md) | Вопросы и ответы | 484 |
-| [QA.md](obsidian/anthropic-vacancies/QA.md) | Вопросы и ответы | 145 |
-| [QA.md](obsidian/contacts/QA.md) | Вопросы и ответы | 158 |
-| [QA.md](obsidian/letters/QA.md) | Вопросы и ответы | 252 |
-| [QA.md](obsidian/lorenzo-agent/QA.md) | Вопросы и ответы | 329 |
-| [QA.md](obsidian/meta-scripting/QA.md) | Вопросы и ответы | 162 |
-| [QA.md](obsidian/processing-guide/QA.md) | Вопросы и ответы | 341 |
+| [QA.md](obsidian/anthropic-vacancies/QA.md) | Вопросы и ответы | 118 |
+| [QA.md](obsidian/contacts/QA.md) | Вопросы и ответы | 102 |
+| [QA.md](obsidian/letters/QA.md) | Вопросы и ответы | 204 |
+| [QA.md](obsidian/lorenzo-agent/QA.md) | Вопросы и ответы | 287 |
+| [QA.md](obsidian/meta-scripting/QA.md) | Вопросы и ответы | 123 |
+| [QA.md](obsidian/processing-guide/QA.md) | Вопросы и ответы | 299 |
 | [QA.md](obsidian/svyazi-2-0/QA.md) | Вопросы и ответы | 489 |
 | [QA.md](processing-guide/QA.md) | Вопросы и ответы | 219 |
 | [QA.md](svyazi-2-0/QA.md) | Вопросы и ответы | 473 |
-| [QUESTIONS.md](QUESTIONS.md) | Открытые вопросы (484) | 1885 |
-| [QUESTIONS.md](obsidian/QUESTIONS.md) | Открытые вопросы (484) | 1895 |
-| [READABILITY.md](READABILITY.md) | — | 37597 |
+| [QUESTIONS.md](QUESTIONS.md) | Открытые вопросы (484) | 1839 |
+| [QUESTIONS.md](obsidian/QUESTIONS.md) | Открытые вопросы (484) | 1935 |
+| [READABILITY.md](READABILITY.md) | — | 37373 |
 | [READING_LIST.md](READING_LIST.md) | — | 601 |
 | [READING_ORDER.md](READING_ORDER.md) | Рекомендуемый порядок чтения | 6041 |
-| [READING_ORDER.md](obsidian/READING_ORDER.md) | Рекомендуемый порядок чтения | 6139 |
-| [READING_TIME.md](READING_TIME.md) | — | 27381 |
+| [READING_ORDER.md](obsidian/READING_ORDER.md) | Рекомендуемый порядок чтения | 6151 |
+| [READING_TIME.md](READING_TIME.md) | — | 27426 |
 | [README.md](01-svyazi/README.md) | Главная страница и навигация | 424 |
 | [README.md](02-anthropic-vacancies/README.md) | Главная страница и навигация | 2345 |
 | [README.md](03-technology-combinations/README.md) | Главная страница и навигация | 326 |
@@ -402,44 +358,44 @@ _Обновлено: 2026-05-13_
 | [README.md](technology-combinations/properties/README.md) | Главная страница и навигация | 351 |
 | [README.md](technology-combinations/research-reports/README.md) | Главная страница и навигация | 110 |
 | [README.md](technology-combinations/synthesis-tables/README.md) | Главная страница и навигация | 132 |
-| [README.md](templates/README.md) | Главная страница и навигация | 138 |
+| [README.md](templates/README.md) | Главная страница и навигация | 82 |
 | [REGISTRY.md](REGISTRY.md) | — | 1341 |
-| [REPORT.md](REPORT.md) | — | 326 |
+| [REPORT.md](REPORT.md) | — | 297 |
 | [RISK_REGISTER.md](RISK_REGISTER.md) | — | 959 |
-| [SCHEDULE.md](SCHEDULE.md) | — | 364 |
-| [SCORING.md](SCORING.md) | — | 404 |
-| [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) | — | 7730 |
+| [SCHEDULE.md](SCHEDULE.md) | — | 356 |
+| [SCORING.md](SCORING.md) | — | 400 |
+| [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) | — | 7729 |
 | [SCRIPT_EVAL_REPORT.md](SCRIPT_EVAL_REPORT.md) | — | 2969 |
 | [SEARCH.md](SEARCH.md) | Поисковый индекс | 23204 |
 | [SEARCH_RESULTS.md](SEARCH_RESULTS.md) | — | 344 |
-| [SEE_ALSO.md](SEE_ALSO.md) | — | 278 |
-| [SENTIMENT.md](SENTIMENT.md) | — | 598 |
-| [SENTINEL.md](SENTINEL.md) | — | 384 |
+| [SEE_ALSO.md](SEE_ALSO.md) | — | 220 |
+| [SENTIMENT.md](SENTIMENT.md) | — | 583 |
+| [SENTINEL.md](SENTINEL.md) | — | 374 |
 | [SIMILAR.md](SIMILAR.md) | Похожие документы (937 пар) | 318 |
 | [SIMILAR.md](obsidian/SIMILAR.md) | Похожие документы (937 пар) | 334 |
 | [SIMILAR_PASSAGES.md](SIMILAR_PASSAGES.md) | — | 1606 |
 | [SKILL_DASHBOARD.md](SKILL_DASHBOARD.md) | — | 122 |
 | [SOURCE_MAP.md](SOURCE_MAP.md) | — | 12404 |
-| [SPELLCHECK.md](SPELLCHECK.md) | — | 455 |
-| [STALENESS.md](STALENESS.md) | — | 444 |
+| [SPELLCHECK.md](SPELLCHECK.md) | — | 381 |
+| [STALENESS.md](STALENESS.md) | — | 437 |
 | [STATS.md](STATS.md) | Детальная статистика | 698 |
-| [STATS.md](obsidian/STATS.md) | Детальная статистика | 754 |
-| [SUMMARIES.md](SUMMARIES.md) | — | 35 |
-| [TABLES.md](TABLES.md) | — | 334302 |
+| [STATS.md](obsidian/STATS.md) | Детальная статистика | 787 |
+| [SUMMARIES.md](SUMMARIES.md) | — | 13 |
+| [TABLES.md](TABLES.md) | — | 316150 |
 | [TABLES.md](obsidian/TABLES.md) | — | 334315 |
-| [TAGS.md](TAGS.md) | Теги (316 файлов, 12 тем) | 661 |
-| [TAGS.md](obsidian/TAGS.md) | Теги (316 файлов, 12 тем) | 671 |
+| [TAGS.md](TAGS.md) | Теги (316 файлов, 12 тем) | 659 |
+| [TAGS.md](obsidian/TAGS.md) | Теги (316 файлов, 12 тем) | 625 |
 | [TASKS_INDEX.md](TASKS_INDEX.md) | — | 956 |
 | [TECH_RADAR.md](TECH_RADAR.md) | — | 634 |
-| [TIMELINE.md](TIMELINE.md) | Временная шкала (800 маркеров) | 4827 |
-| [TIMELINE.md](obsidian/TIMELINE.md) | Временная шкала (800 маркеров) | 4841 |
+| [TIMELINE.md](TIMELINE.md) | Временная шкала (800 маркеров) | 4771 |
+| [TIMELINE.md](obsidian/TIMELINE.md) | Временная шкала (800 маркеров) | 4771 |
 | [TOPIC_MODEL.md](TOPIC_MODEL.md) | — | 1085 |
-| [VALIDATION.md](VALIDATION.md) | — | 283 |
+| [VALIDATION.md](VALIDATION.md) | — | 254 |
 | [VERSION_DIFF.md](VERSION_DIFF.md) | — | 2861 |
 | [VOCABULARY.md](VOCABULARY.md) | — | 1004 |
 | [WORD_CLOUD.md](WORD_CLOUD.md) | — | 245 |
-| [WORD_FREQ.md](WORD_FREQ.md) | Частотный анализ слов | 3357 |
-| [WORD_FREQ.md](obsidian/WORD_FREQ.md) | Частотный анализ слов | 3368 |
+| [WORD_FREQ.md](WORD_FREQ.md) | Частотный анализ слов | 3327 |
+| [WORD_FREQ.md](obsidian/WORD_FREQ.md) | Частотный анализ слов | 3488 |
 | [reading-paths.md](reading-paths.md) | — | 692 |
 
 ## Svyazi 2.0 — Архитектура системы
@@ -1102,10 +1058,10 @@ _`docs/templates/` — 23 файлов_
 | # | Документ | Слов |
 |---|----------|------|
 | 1 | [Спецификация агента: [Название]](templates/agent-spec.md) | 438 |
-| 2 | [Контакт: [Имя / Проект]](templates/contact-outreach.md) | 161 |
+| 2 | [Контакт: [Имя / Проект]](templates/contact-outreach.md) | 119 |
 | 3 | [Противоречие: [Название]](templates/contradiction-record.md) | 364 |
-| 4 | [ADR: [Название решения]](templates/decision-record.md) | 134 |
-| 5 | [Ансамбль: [Название]](templates/ensemble.md) | 154 |
+| 4 | [ADR: [Название решения]](templates/decision-record.md) | 84 |
+| 5 | [Ансамбль: [Название]](templates/ensemble.md) | 112 |
 | 6 | [Эксперимент: [Название]](templates/experiment-log.md) | 365 |
 | 7 | [FAQ: [Вопрос]](templates/faq-entry.md) | 366 |
 | 8 | [[Термин]](templates/glossary-entry.md) | 368 |
@@ -1113,10 +1069,10 @@ _`docs/templates/` — 23 файлов_
 | 10 | [Юридический кейс: [Aktenzeichen]](templates/legal-case.md) | 372 |
 | 11 | [Встреча: [Тема]](templates/meeting-notes.md) | 362 |
 | 12 | [Mega-stack: [Название]](templates/mega-stack.md) | 428 |
-| 13 | [[Название компонента]](templates/project-component.md) | 152 |
+| 13 | [[Название компонента]](templates/project-component.md) | 102 |
 | 14 | [[Название протокола]](templates/protocol-spec.md) | 431 |
 | 15 | [MVP: [Название]](templates/prototype-mvp.md) | 445 |
-| 16 | [[Тема исследования]](templates/research-note.md) | 131 |
+| 16 | [[Тема исследования]](templates/research-note.md) | 66 |
 | 17 | [Ретроспектива: [период]](templates/retrospective.md) | 373 |
 | 18 | [RFC NNNN: [Название]](templates/rfc.md) | 341 |
 | 19 | [Риск: [Название]](templates/risk-entry.md) | 371 |
@@ -1124,14 +1080,3 @@ _`docs/templates/` — 23 файлов_
 | 21 | [Tech Radar: [Название]](templates/tech-radar-entry.md) | 363 |
 | 22 | [[имя нового шаблона]](templates/template-of-templates.md) | 382 |
 | 23 | [Еженедельный дайджест: [период]](templates/weekly-digest.md) | 367 |
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [SEARCH](SEARCH.md)
-- [READING_TIME](READING_TIME.md)
-- [READABILITY](READABILITY.md)
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
-

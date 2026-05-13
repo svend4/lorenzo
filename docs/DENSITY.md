@@ -1,5 +1,9 @@
 # Карта плотности тем
 
+<!-- toc-auto -->
+<!-- tags: density, docs -->
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -92,3 +96,10 @@ _Все темы достаточно раскрыты_
 - [MISSING](MISSING.md)
 - [SCORING](SCORING.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_density.py
+```

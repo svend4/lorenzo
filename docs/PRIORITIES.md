@@ -1,5 +1,9 @@
 # Приоритеты файлов
 
+<!-- toc-auto -->
+<!-- tags: priorities, docs -->
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -886,3 +890,14 @@
 - [READABILITY](READABILITY.md)
 - [SEARCH](SEARCH.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_priorities.py
+```
+```bash
+# Вариант 2
+python scripts/improve_priorities.py --dry-run
+```

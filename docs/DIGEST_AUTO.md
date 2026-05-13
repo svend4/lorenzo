@@ -1,18 +1,16 @@
 # Автодайджест изменений
 
+<!-- toc-auto -->
+
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `DIGEST_AUTO` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: digest-auto, docs -->
+
 
 <!-- summary -->
-> _Период: 2026-05-06 — 2026-05-13 (7 дней)_
-**Проекты:** Svyazi
-
----
-<!-- tags: ingestion, anthropic, self-improvement -->
-
-
+> `DIGEST_AUTO` — раздел документации проекта Lorenzo.
 
 
 _Период: 2026-05-06 — 2026-05-13 (7 дней)_
@@ -23,11 +21,11 @@ _Период: 2026-05-06 — 2026-05-13 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **53** |
+| Коммитов | **57** |
 | Новых файлов | **20** |
 | Изменённых файлов | **0** |
-| Слов добавлено | **+5,853,212** |
-| Слов удалено | **−6,373,148** |
+| Слов добавлено | **+5,825,541** |
+| Слов удалено | **−6,378,994** |
 
 ## Активность по секциям
 
@@ -44,16 +42,16 @@ _Период: 2026-05-06 — 2026-05-13 (7 дней)_
 
 ## Последние коммиты
 
+- `2026-05-13` [1ed4b81b] chore: update generated docs artifacts from local script runs
+- `2026-05-13` [5a593f4a] chore: update catalog — precision_eval now in quality group
+- `2026-05-13` [72b9d4b9] feat: add improve_precision_eval.py to quality group in run_all
+- `2026-05-13` [83859499] chore(docs-toolkit): bump version to 0.2.0
 - `2026-05-13` [d655c2aa] fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dat
 - `2026-05-13` [7c934060] fix: exclude catalog files from backlink injection to keep catalog-fre
 - `2026-05-13` [158b1749] chore: update generated docs artifacts from local script runs
 - `2026-05-12` [7b3ddce3] chore: update generated docs artifacts from local script runs
 - `2026-05-12` [7876fab3] fix(tests): stub published in milestones test to avoid missing git tag
 - `2026-05-12` [50c2622c] ci: retrigger after test fixes (textrank runpy + progress-sync tags)
-- `2026-05-12` [ec7795dc] chore: update generated docs artifacts from local script runs
-- `2026-05-12` [095d7105] fix(tests): fix 3 CI failures from run 25754404920
-- `2026-05-12` [6164dc5f] ci: retrigger tests after runpy slow-test fixes
-- `2026-05-12` [f090a413] chore: update generated docs artifacts from local script runs
 
 ## Новые файлы
 
@@ -77,21 +75,21 @@ _Период: 2026-05-06 — 2026-05-13 (7 дней)_
 
 | Слово | Добавлено | Удалено |
 |-------|-----------|---------|
-| `anthropic` | +108389 | −136510 |
-| `vacancies` | +85297 | −101625 |
-| `nautilus` | +65514 | −68632 |
-| `obsidian` | +50202 | −26557 |
-| `agent` | +47284 | −54775 |
-| `документ` | +46532 | −9521 |
-| `readme` | +40394 | −19989 |
-| `использование` | +38592 | −340 |
-| `heading` | +37485 | −28447 |
-| `смотрите` | +34853 | −11289 |
-| `также` | +34819 | −11981 |
-| `svyazi` | +34786 | −37762 |
-| `code` | +34104 | −25111 |
-| `быстро` | +33799 | −21791 |
-| `документы` | +30927 | −20832 |
+| `anthropic` | +108172 | −136465 |
+| `vacancies` | +85056 | −101595 |
+| `nautilus` | +65018 | −68650 |
+| `obsidian` | +50241 | −26561 |
+| `agent` | +47051 | −54759 |
+| `документ` | +46350 | −9531 |
+| `readme` | +40232 | −19996 |
+| `использование` | +38345 | −339 |
+| `heading` | +37458 | −28448 |
+| `смотрите` | +34751 | −11300 |
+| `также` | +34722 | −11992 |
+| `svyazi` | +34523 | −37733 |
+| `code` | +34045 | −25317 |
+| `быстро` | +33813 | −21791 |
+| `документы` | +30851 | −20841 |
 
 ## Новые концепты
 
@@ -103,29 +101,9 @@ _Слова появившиеся в этом периоде (≥3 раза):_
 _Дайджест сгенерирован автоматически: 2026-05-13_
 
 
-<!-- backlinks -->
 
----
-
-**Кто ссылается на этот документ (24):**
-- [ABBREVIATIONS](ABBREVIATIONS.md)
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
-- [HEADING_AUDIT](HEADING_AUDIT.md)
-- [INDEX](INDEX.md)
-- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
-- [METRICS](METRICS.md)
-- [OUTLINE](OUTLINE.md)
-- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
-- _...ещё 16_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [DIGEST](DIGEST.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [PROGRESS](PROGRESS.md)
-- [WORD_CLOUD](WORD_CLOUD.md)
-
+## Использование
+```bash
+# Запуск
+python scripts/improve_digest_auto.py
+```

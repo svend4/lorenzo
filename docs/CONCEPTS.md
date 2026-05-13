@@ -1,5 +1,13 @@
 # Глоссарий понятий
 
+<!-- toc-auto -->
+<!-- tags: concepts, docs -->
+
+
+<!-- summary -->
+> `CONCEPTS` — раздел документации проекта Lorenzo.
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -4915,3 +4923,38 @@ _Определения извлечены автоматически из до�
 - [ACTION_ITEMS](ACTION_ITEMS.md)
 - [OUTLINE](OUTLINE.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_concepts.py
+```
+```bash
+# Вариант 2
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_concepts.py --dry-run
+```

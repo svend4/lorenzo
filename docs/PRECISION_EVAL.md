@@ -1,5 +1,7 @@
 # Retrieval Hit Rate Evaluation — Lorenzo / Svyazi 2.0
 
+<!-- toc-auto -->
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -72,3 +74,10 @@
 - [DEMO](DEMO.md)
 - [DUPLICATES](DUPLICATES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_precision_eval.py
+```

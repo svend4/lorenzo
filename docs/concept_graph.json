@@ -2,116 +2,116 @@
   "nodes": [
     {
       "id": "документ",
-      "count": 957,
-      "files": 957,
+      "count": 938,
+      "files": 938,
       "category": "other"
     },
     {
       "id": "сходство",
-      "count": 736,
-      "files": 736,
+      "count": 723,
+      "files": 723,
       "category": "other"
     },
     {
       "id": "смотрите",
-      "count": 690,
-      "files": 690,
+      "count": 688,
+      "files": 688,
       "category": "other"
     },
     {
       "id": "также",
-      "count": 686,
-      "files": 686,
+      "count": 683,
+      "files": 683,
       "category": "other"
     },
     {
-      "id": "anthropic",
+      "id": "использование",
       "count": 637,
       "files": 637,
       "category": "other"
     },
     {
-      "id": "использование",
-      "count": 634,
-      "files": 634,
-      "category": "other"
-    },
-    {
-      "id": "связанные",
-      "count": 554,
-      "files": 554,
+      "id": "anthropic",
+      "count": 631,
+      "files": 631,
       "category": "other"
     },
     {
       "id": "note",
-      "count": 530,
-      "files": 530,
+      "count": 550,
+      "files": 550,
       "category": "other"
     },
     {
-      "id": "ссылки",
-      "count": 461,
-      "files": 461,
+      "id": "связанные",
+      "count": 549,
+      "files": 549,
       "category": "other"
     },
     {
       "id": "репозитория",
-      "count": 453,
-      "files": 453,
+      "count": 473,
+      "files": 473,
       "category": "project"
     },
     {
+      "id": "ссылки",
+      "count": 456,
+      "files": 456,
+      "category": "other"
+    },
+    {
       "id": "документы",
-      "count": 447,
-      "files": 447,
+      "count": 445,
+      "files": 445,
       "category": "other"
     },
     {
       "id": "создан",
-      "count": 434,
-      "files": 434,
+      "count": 430,
+      "files": 430,
       "category": "other"
     },
     {
       "id": "основе",
-      "count": 429,
-      "files": 429,
+      "count": 424,
+      "files": 424,
       "category": "other"
     },
     {
       "id": "claude",
-      "count": 421,
-      "files": 421,
+      "count": 422,
+      "files": 422,
       "category": "other"
     },
     {
       "id": "исследования",
-      "count": 420,
-      "files": 420,
+      "count": 415,
+      "files": 415,
       "category": "other"
     },
     {
       "id": "ведут",
-      "count": 389,
-      "files": 389,
-      "category": "other"
-    },
-    {
-      "id": "этот",
-      "count": 382,
-      "files": 382,
-      "category": "other"
-    },
-    {
-      "id": "материалы",
-      "count": 375,
-      "files": 375,
+      "count": 384,
+      "files": 384,
       "category": "other"
     },
     {
       "id": "auto",
-      "count": 367,
-      "files": 367,
+      "count": 378,
+      "files": 378,
+      "category": "other"
+    },
+    {
+      "id": "материалы",
+      "count": 370,
+      "files": 370,
+      "category": "other"
+    },
+    {
+      "id": "этот",
+      "count": 368,
+      "files": 368,
       "category": "other"
     },
     {
@@ -122,9 +122,15 @@
     },
     {
       "id": "agent",
-      "count": 346,
-      "files": 346,
+      "count": 347,
+      "files": 347,
       "category": "agent"
+    },
+    {
+      "id": "lorenzo",
+      "count": 344,
+      "files": 344,
+      "category": "other"
     },
     {
       "id": "mhtml",
@@ -134,20 +140,14 @@
     },
     {
       "id": "ссылается",
-      "count": 316,
-      "files": 316,
+      "count": 312,
+      "files": 312,
       "category": "other"
     },
     {
-      "id": "lorenzo",
-      "count": 313,
-      "files": 313,
-      "category": "other"
-    },
-    {
-      "id": "readme",
-      "count": 308,
-      "files": 308,
+      "id": "раздел",
+      "count": 311,
+      "files": 311,
       "category": "other"
     },
     {
@@ -157,33 +157,45 @@
       "category": "other"
     },
     {
-      "id": "nautilus",
-      "count": 283,
-      "files": 283,
+      "id": "readme",
+      "count": 289,
+      "files": 289,
       "category": "other"
     },
     {
-      "id": "раздел",
-      "count": 281,
-      "files": 281,
+      "id": "nautilus",
+      "count": 282,
+      "files": 282,
       "category": "other"
     },
     {
       "id": "svyazi",
-      "count": 273,
-      "files": 273,
+      "count": 277,
+      "files": 277,
       "category": "project"
     },
     {
-      "id": "knowledge",
-      "count": 251,
-      "files": 251,
+      "id": "docs",
+      "count": 264,
+      "files": 264,
+      "category": "other"
+    },
+    {
+      "id": "summary",
+      "count": 249,
+      "files": 249,
       "category": "other"
     },
     {
       "id": "через",
-      "count": 240,
-      "files": 240,
+      "count": 241,
+      "files": 241,
+      "category": "other"
+    },
+    {
+      "id": "knowledge",
+      "count": 238,
+      "files": 238,
       "category": "other"
     },
     {
@@ -194,12 +206,6 @@
     },
     {
       "id": "похожие",
-      "count": 235,
-      "files": 235,
-      "category": "other"
-    },
-    {
-      "id": "summary",
       "count": 234,
       "files": 234,
       "category": "other"
@@ -212,21 +218,9 @@
     },
     {
       "id": "vacancies",
-      "count": 230,
-      "files": 230,
-      "category": "other"
-    },
-    {
-      "id": "docs",
-      "count": 230,
-      "files": 230,
-      "category": "other"
-    },
-    {
-      "id": "search",
       "count": 228,
       "files": 228,
-      "category": "knowledge"
+      "category": "other"
     },
     {
       "id": "корень",
@@ -239,58 +233,64 @@
       "count": 205,
       "files": 205,
       "category": "other"
+    },
+    {
+      "id": "search",
+      "count": 202,
+      "files": 202,
+      "category": "knowledge"
     }
   ],
   "edges": [
     {
       "source": "anthropic",
       "target": "lorenzo",
-      "weight": 158
+      "weight": 161
     },
     {
       "source": "anthropic",
       "target": "readme",
-      "weight": 105
+      "weight": 100
     },
     {
       "source": "anthropic",
       "target": "search",
-      "weight": 44
+      "weight": 36
     },
     {
       "source": "anthropic",
       "target": "summary",
-      "weight": 53
+      "weight": 55
     },
     {
       "source": "anthropic",
       "target": "svyazi",
-      "weight": 60
+      "weight": 59
     },
     {
       "source": "anthropic",
       "target": "vacancies",
-      "weight": 230
+      "weight": 228
     },
     {
       "source": "anthropic",
       "target": "документ",
-      "weight": 501
+      "weight": 488
     },
     {
       "source": "anthropic",
       "target": "документы",
-      "weight": 216
+      "weight": 215
     },
     {
       "source": "anthropic",
       "target": "использование",
-      "weight": 366
+      "weight": 368
     },
     {
       "source": "anthropic",
       "target": "исследования",
-      "weight": 241
+      "weight": 239
     },
     {
       "source": "anthropic",
@@ -300,82 +300,82 @@
     {
       "source": "anthropic",
       "target": "репозитория",
-      "weight": 255
+      "weight": 258
     },
     {
       "source": "anthropic",
       "target": "связанные",
-      "weight": 314
+      "weight": 312
     },
     {
       "source": "anthropic",
       "target": "смотрите",
-      "weight": 388
+      "weight": 385
     },
     {
       "source": "anthropic",
       "target": "ссылки",
-      "weight": 268
+      "weight": 266
     },
     {
       "source": "anthropic",
       "target": "сходство",
-      "weight": 363
+      "weight": 358
     },
     {
       "source": "anthropic",
       "target": "также",
-      "weight": 383
+      "weight": 380
     },
     {
       "source": "anthropic",
       "target": "через",
-      "weight": 138
+      "weight": 139
     },
     {
       "source": "lorenzo",
       "target": "readme",
-      "weight": 104
+      "weight": 106
     },
     {
       "source": "lorenzo",
       "target": "search",
-      "weight": 95
-    },
-    {
-      "source": "lorenzo",
-      "target": "summary",
-      "weight": 95
-    },
-    {
-      "source": "lorenzo",
-      "target": "svyazi",
       "weight": 90
     },
     {
       "source": "lorenzo",
+      "target": "summary",
+      "weight": 124
+    },
+    {
+      "source": "lorenzo",
+      "target": "svyazi",
+      "weight": 106
+    },
+    {
+      "source": "lorenzo",
       "target": "vacancies",
-      "weight": 54
+      "weight": 58
     },
     {
       "source": "lorenzo",
       "target": "документ",
-      "weight": 272
+      "weight": 277
     },
     {
       "source": "lorenzo",
       "target": "документы",
-      "weight": 168
+      "weight": 171
     },
     {
       "source": "lorenzo",
       "target": "использование",
-      "weight": 180
+      "weight": 185
     },
     {
       "source": "lorenzo",
       "target": "исследования",
-      "weight": 135
+      "weight": 136
     },
     {
       "source": "lorenzo",
@@ -385,7 +385,7 @@
     {
       "source": "lorenzo",
       "target": "репозитория",
-      "weight": 245
+      "weight": 271
     },
     {
       "source": "lorenzo",
@@ -395,17 +395,17 @@
     {
       "source": "lorenzo",
       "target": "смотрите",
-      "weight": 189
+      "weight": 190
     },
     {
       "source": "lorenzo",
       "target": "ссылки",
-      "weight": 163
+      "weight": 164
     },
     {
       "source": "lorenzo",
       "target": "сходство",
-      "weight": 257
+      "weight": 254
     },
     {
       "source": "lorenzo",
@@ -420,17 +420,17 @@
     {
       "source": "readme",
       "target": "search",
-      "weight": 115
+      "weight": 93
     },
     {
       "source": "readme",
       "target": "summary",
-      "weight": 134
+      "weight": 125
     },
     {
       "source": "readme",
       "target": "svyazi",
-      "weight": 98
+      "weight": 97
     },
     {
       "source": "readme",
@@ -440,37 +440,37 @@
     {
       "source": "readme",
       "target": "документ",
-      "weight": 224
+      "weight": 212
     },
     {
       "source": "readme",
       "target": "документы",
-      "weight": 147
+      "weight": 146
     },
     {
       "source": "readme",
       "target": "использование",
-      "weight": 99
+      "weight": 103
     },
     {
       "source": "readme",
       "target": "исследования",
-      "weight": 61
+      "weight": 57
     },
     {
       "source": "readme",
       "target": "поиска",
-      "weight": 26
+      "weight": 27
     },
     {
       "source": "readme",
       "target": "репозитория",
-      "weight": 100
+      "weight": 96
     },
     {
       "source": "readme",
       "target": "связанные",
-      "weight": 113
+      "weight": 111
     },
     {
       "source": "readme",
@@ -480,12 +480,12 @@
     {
       "source": "readme",
       "target": "ссылки",
-      "weight": 72
+      "weight": 71
     },
     {
       "source": "readme",
       "target": "сходство",
-      "weight": 181
+      "weight": 172
     },
     {
       "source": "readme",
@@ -495,42 +495,42 @@
     {
       "source": "readme",
       "target": "через",
-      "weight": 34
+      "weight": 36
     },
     {
       "source": "search",
       "target": "summary",
-      "weight": 97
+      "weight": 82
     },
     {
       "source": "search",
       "target": "svyazi",
-      "weight": 104
+      "weight": 100
     },
     {
       "source": "search",
       "target": "vacancies",
-      "weight": 17
+      "weight": 15
     },
     {
       "source": "search",
       "target": "документ",
-      "weight": 159
+      "weight": 149
     },
     {
       "source": "search",
       "target": "документы",
-      "weight": 79
+      "weight": 77
     },
     {
       "source": "search",
       "target": "использование",
-      "weight": 73
+      "weight": 74
     },
     {
       "source": "search",
       "target": "исследования",
-      "weight": 44
+      "weight": 43
     },
     {
       "source": "search",
@@ -540,7 +540,7 @@
     {
       "source": "search",
       "target": "репозитория",
-      "weight": 98
+      "weight": 87
     },
     {
       "source": "search",
@@ -555,12 +555,12 @@
     {
       "source": "search",
       "target": "ссылки",
-      "weight": 50
+      "weight": 49
     },
     {
       "source": "search",
       "target": "сходство",
-      "weight": 160
+      "weight": 149
     },
     {
       "source": "search",
@@ -575,17 +575,17 @@
     {
       "source": "summary",
       "target": "svyazi",
-      "weight": 105
+      "weight": 115
     },
     {
       "source": "summary",
       "target": "vacancies",
-      "weight": 22
+      "weight": 23
     },
     {
       "source": "summary",
       "target": "документ",
-      "weight": 181
+      "weight": 178
     },
     {
       "source": "summary",
@@ -595,12 +595,12 @@
     {
       "source": "summary",
       "target": "использование",
-      "weight": 63
+      "weight": 67
     },
     {
       "source": "summary",
       "target": "исследования",
-      "weight": 47
+      "weight": 46
     },
     {
       "source": "summary",
@@ -610,27 +610,27 @@
     {
       "source": "summary",
       "target": "репозитория",
-      "weight": 99
+      "weight": 119
     },
     {
       "source": "summary",
       "target": "связанные",
-      "weight": 71
+      "weight": 70
     },
     {
       "source": "summary",
       "target": "смотрите",
-      "weight": 83
+      "weight": 84
     },
     {
       "source": "summary",
       "target": "ссылки",
-      "weight": 48
+      "weight": 47
     },
     {
       "source": "summary",
       "target": "сходство",
-      "weight": 147
+      "weight": 141
     },
     {
       "source": "summary",
@@ -640,32 +640,32 @@
     {
       "source": "summary",
       "target": "через",
-      "weight": 31
+      "weight": 32
     },
     {
       "source": "svyazi",
       "target": "vacancies",
-      "weight": 39
+      "weight": 38
     },
     {
       "source": "svyazi",
       "target": "документ",
-      "weight": 208
+      "weight": 200
     },
     {
       "source": "svyazi",
       "target": "документы",
-      "weight": 102
+      "weight": 101
     },
     {
       "source": "svyazi",
       "target": "использование",
-      "weight": 132
+      "weight": 136
     },
     {
       "source": "svyazi",
       "target": "исследования",
-      "weight": 76
+      "weight": 72
     },
     {
       "source": "svyazi",
@@ -675,32 +675,32 @@
     {
       "source": "svyazi",
       "target": "репозитория",
-      "weight": 89
+      "weight": 101
     },
     {
       "source": "svyazi",
       "target": "связанные",
-      "weight": 84
-    },
-    {
-      "source": "svyazi",
-      "target": "смотрите",
-      "weight": 153
-    },
-    {
-      "source": "svyazi",
-      "target": "ссылки",
       "weight": 80
     },
     {
       "source": "svyazi",
+      "target": "смотрите",
+      "weight": 152
+    },
+    {
+      "source": "svyazi",
+      "target": "ссылки",
+      "weight": 76
+    },
+    {
+      "source": "svyazi",
       "target": "сходство",
-      "weight": 147
+      "weight": 145
     },
     {
       "source": "svyazi",
       "target": "также",
-      "weight": 151
+      "weight": 149
     },
     {
       "source": "svyazi",
@@ -710,17 +710,17 @@
     {
       "source": "vacancies",
       "target": "документ",
-      "weight": 177
+      "weight": 168
     },
     {
       "source": "vacancies",
       "target": "документы",
-      "weight": 48
+      "weight": 47
     },
     {
       "source": "vacancies",
       "target": "использование",
-      "weight": 107
+      "weight": 109
     },
     {
       "source": "vacancies",
@@ -735,7 +735,7 @@
     {
       "source": "vacancies",
       "target": "репозитория",
-      "weight": 95
+      "weight": 96
     },
     {
       "source": "vacancies",
@@ -745,7 +745,7 @@
     {
       "source": "vacancies",
       "target": "смотрите",
-      "weight": 127
+      "weight": 123
     },
     {
       "source": "vacancies",
@@ -755,12 +755,12 @@
     {
       "source": "vacancies",
       "target": "сходство",
-      "weight": 141
+      "weight": 138
     },
     {
       "source": "vacancies",
       "target": "также",
-      "weight": 124
+      "weight": 120
     },
     {
       "source": "vacancies",
@@ -770,17 +770,17 @@
     {
       "source": "документ",
       "target": "документы",
-      "weight": 417
+      "weight": 416
     },
     {
       "source": "документ",
       "target": "использование",
-      "weight": 590
+      "weight": 596
     },
     {
       "source": "документ",
       "target": "исследования",
-      "weight": 419
+      "weight": 414
     },
     {
       "source": "документ",
@@ -795,22 +795,22 @@
     {
       "source": "документ",
       "target": "связанные",
-      "weight": 528
+      "weight": 523
     },
     {
       "source": "документ",
       "target": "смотрите",
-      "weight": 643
+      "weight": 644
     },
     {
       "source": "документ",
       "target": "ссылки",
-      "weight": 456
+      "weight": 451
     },
     {
       "source": "документ",
       "target": "сходство",
-      "weight": 676
+      "weight": 672
     },
     {
       "source": "документ",
@@ -840,7 +840,7 @@
     {
       "source": "документы",
       "target": "репозитория",
-      "weight": 193
+      "weight": 194
     },
     {
       "source": "документы",
@@ -850,7 +850,7 @@
     {
       "source": "документы",
       "target": "смотрите",
-      "weight": 327
+      "weight": 326
     },
     {
       "source": "документы",
@@ -860,12 +860,12 @@
     {
       "source": "документы",
       "target": "сходство",
-      "weight": 294
+      "weight": 293
     },
     {
       "source": "документы",
       "target": "также",
-      "weight": 323
+      "weight": 322
     },
     {
       "source": "документы",
@@ -875,22 +875,22 @@
     {
       "source": "использование",
       "target": "исследования",
-      "weight": 344
+      "weight": 345
     },
     {
       "source": "использование",
       "target": "поиска",
-      "weight": 184
+      "weight": 185
     },
     {
       "source": "использование",
       "target": "репозитория",
-      "weight": 322
+      "weight": 325
     },
     {
       "source": "использование",
       "target": "связанные",
-      "weight": 412
+      "weight": 413
     },
     {
       "source": "использование",
@@ -900,7 +900,7 @@
     {
       "source": "использование",
       "target": "ссылки",
-      "weight": 369
+      "weight": 370
     },
     {
       "source": "использование",
@@ -910,12 +910,12 @@
     {
       "source": "использование",
       "target": "также",
-      "weight": 600
+      "weight": 599
     },
     {
       "source": "использование",
       "target": "через",
-      "weight": 172
+      "weight": 173
     },
     {
       "source": "исследования",
@@ -930,7 +930,7 @@
     {
       "source": "исследования",
       "target": "связанные",
-      "weight": 398
+      "weight": 393
     },
     {
       "source": "исследования",
@@ -940,7 +940,7 @@
     {
       "source": "исследования",
       "target": "ссылки",
-      "weight": 398
+      "weight": 393
     },
     {
       "source": "исследования",
@@ -1010,12 +1010,12 @@
     {
       "source": "репозитория",
       "target": "сходство",
-      "weight": 420
+      "weight": 415
     },
     {
       "source": "репозитория",
       "target": "также",
-      "weight": 341
+      "weight": 340
     },
     {
       "source": "репозитория",
@@ -1025,12 +1025,12 @@
     {
       "source": "связанные",
       "target": "смотрите",
-      "weight": 434
+      "weight": 433
     },
     {
       "source": "связанные",
       "target": "ссылки",
-      "weight": 434
+      "weight": 429
     },
     {
       "source": "связанные",
@@ -1040,7 +1040,7 @@
     {
       "source": "связанные",
       "target": "также",
-      "weight": 431
+      "weight": 430
     },
     {
       "source": "связанные",
@@ -1050,17 +1050,17 @@
     {
       "source": "смотрите",
       "target": "ссылки",
-      "weight": 388
+      "weight": 387
     },
     {
       "source": "смотрите",
       "target": "сходство",
-      "weight": 524
+      "weight": 522
     },
     {
       "source": "смотрите",
       "target": "также",
-      "weight": 683
+      "weight": 680
     },
     {
       "source": "смотрите",
@@ -1075,7 +1075,7 @@
     {
       "source": "ссылки",
       "target": "также",
-      "weight": 389
+      "weight": 388
     },
     {
       "source": "ссылки",
@@ -1085,7 +1085,7 @@
     {
       "source": "сходство",
       "target": "также",
-      "weight": 523
+      "weight": 521
     },
     {
       "source": "сходство",
@@ -1100,27 +1100,27 @@
     {
       "source": "agent",
       "target": "auto",
-      "weight": 67
+      "weight": 68
     },
     {
       "source": "agent",
       "target": "docs",
-      "weight": 52
+      "weight": 61
     },
     {
       "source": "agent",
       "target": "knowledge",
-      "weight": 130
+      "weight": 124
     },
     {
       "source": "agent",
       "target": "summary",
-      "weight": 36
+      "weight": 41
     },
     {
       "source": "agent",
       "target": "svyazi",
-      "weight": 77
+      "weight": 78
     },
     {
       "source": "agent",
@@ -1130,82 +1130,82 @@
     {
       "source": "auto",
       "target": "docs",
-      "weight": 111
+      "weight": 130
     },
     {
       "source": "auto",
       "target": "knowledge",
-      "weight": 66
+      "weight": 71
     },
     {
       "source": "auto",
       "target": "summary",
-      "weight": 121
+      "weight": 126
     },
     {
       "source": "auto",
       "target": "svyazi",
-      "weight": 96
+      "weight": 105
     },
     {
       "source": "auto",
       "target": "исследования",
-      "weight": 99
+      "weight": 100
     },
     {
       "source": "docs",
       "target": "knowledge",
-      "weight": 39
+      "weight": 45
     },
     {
       "source": "docs",
       "target": "summary",
-      "weight": 94
+      "weight": 124
     },
     {
       "source": "docs",
       "target": "svyazi",
-      "weight": 74
+      "weight": 90
     },
     {
       "source": "docs",
       "target": "исследования",
-      "weight": 23
+      "weight": 27
     },
     {
       "source": "knowledge",
       "target": "summary",
-      "weight": 52
+      "weight": 50
     },
     {
       "source": "knowledge",
       "target": "svyazi",
-      "weight": 108
+      "weight": 100
     },
     {
       "source": "knowledge",
       "target": "исследования",
-      "weight": 63
+      "weight": 60
     },
     {
       "source": "auto",
       "target": "readme",
-      "weight": 195
+      "weight": 193
     },
     {
       "source": "auto",
       "target": "документ",
-      "weight": 300
+      "weight": 303
     },
     {
       "source": "auto",
       "target": "документы",
-      "weight": 219
+      "weight": 218
     },
     {
       "source": "auto",
       "target": "использование",
-      "weight": 177
+      "weight": 176
     },
     {
       "source": "auto",
@@ -1215,17 +1215,17 @@
     {
       "source": "auto",
       "target": "смотрите",
-      "weight": 196
+      "weight": 193
     },
     {
       "source": "auto",
       "target": "также",
-      "weight": 195
+      "weight": 192
     },
     {
       "source": "auto",
       "target": "этот",
-      "weight": 202
+      "weight": 204
     },
     {
       "source": "readme",
@@ -1235,7 +1235,7 @@
     {
       "source": "readme",
       "target": "этот",
-      "weight": 147
+      "weight": 141
     },
     {
       "source": "summary",
@@ -1245,17 +1245,17 @@
     {
       "source": "summary",
       "target": "этот",
-      "weight": 99
+      "weight": 95
     },
     {
       "source": "svyazi",
       "target": "похожие",
-      "weight": 58
+      "weight": 57
     },
     {
       "source": "svyazi",
       "target": "этот",
-      "weight": 129
+      "weight": 124
     },
     {
       "source": "документ",
@@ -1265,27 +1265,27 @@
     {
       "source": "документ",
       "target": "этот",
-      "weight": 367
+      "weight": 356
     },
     {
       "source": "документы",
       "target": "похожие",
-      "weight": 230
+      "weight": 229
     },
     {
       "source": "документы",
       "target": "этот",
-      "weight": 241
+      "weight": 240
     },
     {
       "source": "использование",
       "target": "похожие",
-      "weight": 166
+      "weight": 165
     },
     {
       "source": "использование",
       "target": "этот",
-      "weight": 275
+      "weight": 277
     },
     {
       "source": "похожие",
@@ -1305,32 +1305,32 @@
     {
       "source": "смотрите",
       "target": "этот",
-      "weight": 300
+      "weight": 299
     },
     {
       "source": "также",
       "target": "этот",
-      "weight": 300
+      "weight": 299
     },
     {
       "source": "auto",
       "target": "search",
-      "weight": 110
+      "weight": 105
     },
     {
       "source": "auto",
       "target": "ссылается",
-      "weight": 188
+      "weight": 189
     },
     {
       "source": "knowledge",
       "target": "search",
-      "weight": 58
+      "weight": 49
     },
     {
       "source": "knowledge",
       "target": "документ",
-      "weight": 172
+      "weight": 162
     },
     {
       "source": "knowledge",
@@ -1340,7 +1340,7 @@
     {
       "source": "knowledge",
       "target": "использование",
-      "weight": 108
+      "weight": 107
     },
     {
       "source": "knowledge",
@@ -1350,22 +1350,22 @@
     {
       "source": "knowledge",
       "target": "смотрите",
-      "weight": 115
+      "weight": 113
     },
     {
       "source": "knowledge",
       "target": "ссылается",
-      "weight": 49
+      "weight": 47
     },
     {
       "source": "knowledge",
       "target": "также",
-      "weight": 114
+      "weight": 112
     },
     {
       "source": "knowledge",
       "target": "этот",
-      "weight": 63
+      "weight": 58
     },
     {
       "source": "search",
@@ -1375,32 +1375,32 @@
     {
       "source": "search",
       "target": "ссылается",
-      "weight": 74
+      "weight": 72
     },
     {
       "source": "search",
       "target": "этот",
-      "weight": 85
+      "weight": 77
     },
     {
       "source": "svyazi",
       "target": "ссылается",
-      "weight": 105
+      "weight": 103
     },
     {
       "source": "документ",
       "target": "ссылается",
-      "weight": 313
+      "weight": 310
     },
     {
       "source": "документы",
       "target": "ссылается",
-      "weight": 231
+      "weight": 230
     },
     {
       "source": "использование",
       "target": "ссылается",
-      "weight": 238
+      "weight": 241
     },
     {
       "source": "похожие",
@@ -1410,17 +1410,17 @@
     {
       "source": "смотрите",
       "target": "ссылается",
-      "weight": 272
+      "weight": 271
     },
     {
       "source": "ссылается",
       "target": "также",
-      "weight": 272
+      "weight": 271
     },
     {
       "source": "ссылается",
       "target": "этот",
-      "weight": 310
+      "weight": 306
     },
     {
       "source": "поиска",
@@ -1435,57 +1435,57 @@
     {
       "source": "agent",
       "target": "search",
-      "weight": 54
+      "weight": 47
     },
     {
       "source": "agent",
       "target": "документ",
-      "weight": 220
+      "weight": 214
     },
     {
       "source": "agent",
       "target": "документы",
-      "weight": 76
+      "weight": 75
     },
     {
       "source": "agent",
       "target": "использование",
-      "weight": 152
+      "weight": 155
     },
     {
       "source": "agent",
       "target": "похожие",
-      "weight": 28
+      "weight": 27
     },
     {
       "source": "agent",
       "target": "смотрите",
-      "weight": 165
+      "weight": 164
     },
     {
       "source": "agent",
       "target": "ссылается",
-      "weight": 43
+      "weight": 41
     },
     {
       "source": "agent",
       "target": "также",
-      "weight": 165
+      "weight": 164
     },
     {
       "source": "agent",
       "target": "этот",
-      "weight": 58
+      "weight": 54
     },
     {
       "source": "auto",
       "target": "через",
-      "weight": 22
+      "weight": 23
     },
     {
       "source": "summary",
       "target": "ссылается",
-      "weight": 89
+      "weight": 90
     },
     {
       "source": "похожие",
@@ -1500,62 +1500,107 @@
     {
       "source": "через",
       "target": "этот",
-      "weight": 66
+      "weight": 67
     },
     {
-      "source": "auto",
+      "source": "agent",
+      "target": "lorenzo",
+      "weight": 103
+    },
+    {
+      "source": "agent",
       "target": "note",
-      "weight": 176
+      "weight": 121
     },
     {
-      "source": "auto",
-      "target": "сходство",
-      "weight": 211
+      "source": "agent",
+      "target": "раздел",
+      "weight": 55
+    },
+    {
+      "source": "agent",
+      "target": "репозитория",
+      "weight": 87
+    },
+    {
+      "source": "docs",
+      "target": "lorenzo",
+      "weight": 121
+    },
+    {
+      "source": "docs",
+      "target": "note",
+      "weight": 129
+    },
+    {
+      "source": "docs",
+      "target": "раздел",
+      "weight": 122
+    },
+    {
+      "source": "docs",
+      "target": "репозитория",
+      "weight": 102
+    },
+    {
+      "source": "lorenzo",
+      "target": "note",
+      "weight": 224
+    },
+    {
+      "source": "lorenzo",
+      "target": "раздел",
+      "weight": 151
     },
     {
       "source": "note",
-      "target": "readme",
-      "weight": 140
-    },
-    {
-      "source": "note",
-      "target": "search",
-      "weight": 117
+      "target": "summary",
+      "weight": 128
     },
     {
       "source": "note",
       "target": "svyazi",
-      "weight": 100
+      "weight": 110
     },
     {
       "source": "note",
-      "target": "сходство",
-      "weight": 453
+      "target": "раздел",
+      "weight": 202
     },
     {
-      "source": "readme",
-      "target": "раздел",
-      "weight": 98
+      "source": "note",
+      "target": "репозитория",
+      "weight": 333
     },
     {
       "source": "summary",
       "target": "раздел",
-      "weight": 88
+      "weight": 112
     },
     {
       "source": "svyazi",
       "target": "раздел",
-      "weight": 47
+      "weight": 64
+    },
+    {
+      "source": "раздел",
+      "target": "репозитория",
+      "weight": 240
+    },
+    {
+      "source": "readme",
+      "target": "раздел",
+      "weight": 92
     },
     {
       "source": "anthropic",
       "target": "claude",
-      "weight": 315
+      "weight": 316
     },
     {
       "source": "claude",
       "target": "readme",
-      "weight": 53
+      "weight": 54
     },
     {
       "source": "claude",
@@ -1565,22 +1610,22 @@
     {
       "source": "anthropic",
       "target": "nautilus",
-      "weight": 199
+      "weight": 197
     },
     {
       "source": "anthropic",
       "target": "этот",
-      "weight": 126
+      "weight": 118
     },
     {
       "source": "claude",
       "target": "nautilus",
-      "weight": 119
+      "weight": 120
     },
     {
       "source": "claude",
       "target": "этот",
-      "weight": 84
+      "weight": 83
     },
     {
       "source": "nautilus",
@@ -1595,27 +1640,27 @@
     {
       "source": "nautilus",
       "target": "этот",
-      "weight": 67
+      "weight": 65
     },
     {
       "source": "auto",
       "target": "claude",
-      "weight": 54
+      "weight": 56
     },
     {
       "source": "auto",
       "target": "связанные",
-      "weight": 173
+      "weight": 174
     },
     {
       "source": "auto",
       "target": "ссылки",
-      "weight": 108
+      "weight": 109
     },
     {
       "source": "claude",
       "target": "knowledge",
-      "weight": 62
+      "weight": 63
     },
     {
       "source": "claude",
@@ -1635,22 +1680,22 @@
     {
       "source": "knowledge",
       "target": "readme",
-      "weight": 46
+      "weight": 35
     },
     {
       "source": "knowledge",
       "target": "связанные",
-      "weight": 83
+      "weight": 80
     },
     {
       "source": "knowledge",
       "target": "ссылки",
-      "weight": 64
+      "weight": 61
     },
     {
       "source": "anthropic",
       "target": "auto",
-      "weight": 123
+      "weight": 125
     },
     {
       "source": "anthropic",
@@ -1660,57 +1705,62 @@
     {
       "source": "anthropic",
       "target": "ведут",
-      "weight": 226
+      "weight": 224
     },
     {
       "source": "anthropic",
       "target": "материалы",
-      "weight": 218
+      "weight": 216
     },
     {
       "source": "anthropic",
       "target": "основе",
-      "weight": 248
+      "weight": 246
     },
     {
       "source": "anthropic",
       "target": "похожие",
-      "weight": 84
+      "weight": 83
     },
     {
       "source": "anthropic",
       "target": "создан",
-      "weight": 256
+      "weight": 254
     },
     {
       "source": "anthropic",
       "target": "ссылается",
-      "weight": 90
+      "weight": 88
+    },
+    {
+      "source": "auto",
+      "target": "note",
+      "weight": 184
     },
     {
       "source": "auto",
       "target": "ведут",
-      "weight": 84
+      "weight": 85
     },
     {
       "source": "auto",
       "target": "материалы",
-      "weight": 80
+      "weight": 81
     },
     {
       "source": "auto",
       "target": "основе",
-      "weight": 103
+      "weight": 104
     },
     {
       "source": "auto",
       "target": "создан",
-      "weight": 101
+      "weight": 104
     },
     {
       "source": "claude",
       "target": "note",
-      "weight": 223
+      "weight": 225
     },
     {
       "source": "claude",
@@ -1725,7 +1775,7 @@
     {
       "source": "claude",
       "target": "использование",
-      "weight": 288
+      "weight": 289
     },
     {
       "source": "claude",
@@ -1765,42 +1815,47 @@
     {
       "source": "claude",
       "target": "также",
-      "weight": 306
+      "weight": 305
+    },
+    {
+      "source": "note",
+      "target": "readme",
+      "weight": 131
     },
     {
       "source": "note",
       "target": "ведут",
-      "weight": 385
+      "weight": 384
     },
     {
       "source": "note",
       "target": "документ",
-      "weight": 491
+      "weight": 490
     },
     {
       "source": "note",
       "target": "документы",
-      "weight": 198
+      "weight": 199
     },
     {
       "source": "note",
       "target": "использование",
-      "weight": 371
+      "weight": 376
     },
     {
       "source": "note",
       "target": "исследования",
-      "weight": 409
+      "weight": 408
     },
     {
       "source": "note",
       "target": "материалы",
-      "weight": 369
+      "weight": 368
     },
     {
       "source": "note",
       "target": "основе",
-      "weight": 412
+      "weight": 411
     },
     {
       "source": "note",
@@ -1815,7 +1870,7 @@
     {
       "source": "note",
       "target": "смотрите",
-      "weight": 388
+      "weight": 389
     },
     {
       "source": "note",
@@ -1825,7 +1880,7 @@
     {
       "source": "note",
       "target": "ссылается",
-      "weight": 179
+      "weight": 178
     },
     {
       "source": "note",
@@ -1840,37 +1895,37 @@
     {
       "source": "note",
       "target": "этот",
-      "weight": 192
+      "weight": 189
     },
     {
       "source": "readme",
       "target": "ведут",
-      "weight": 51
+      "weight": 48
     },
     {
       "source": "readme",
       "target": "материалы",
-      "weight": 51
+      "weight": 48
     },
     {
       "source": "readme",
       "target": "основе",
-      "weight": 61
+      "weight": 58
     },
     {
       "source": "readme",
       "target": "создан",
-      "weight": 61
+      "weight": 58
     },
     {
       "source": "readme",
       "target": "ссылается",
-      "weight": 126
+      "weight": 125
     },
     {
       "source": "ведут",
       "target": "документ",
-      "weight": 389
+      "weight": 384
     },
     {
       "source": "ведут",
@@ -1880,22 +1935,22 @@
     {
       "source": "ведут",
       "target": "использование",
-      "weight": 320
+      "weight": 321
     },
     {
       "source": "ведут",
       "target": "исследования",
-      "weight": 389
+      "weight": 384
     },
     {
       "source": "ведут",
       "target": "материалы",
-      "weight": 373
+      "weight": 368
     },
     {
       "source": "ведут",
       "target": "основе",
-      "weight": 389
+      "weight": 384
     },
     {
       "source": "ведут",
@@ -1905,7 +1960,7 @@
     {
       "source": "ведут",
       "target": "связанные",
-      "weight": 386
+      "weight": 381
     },
     {
       "source": "ведут",
@@ -1915,7 +1970,7 @@
     {
       "source": "ведут",
       "target": "создан",
-      "weight": 389
+      "weight": 384
     },
     {
       "source": "ведут",
@@ -1925,7 +1980,7 @@
     {
       "source": "ведут",
       "target": "ссылки",
-      "weight": 389
+      "weight": 384
     },
     {
       "source": "ведут",
@@ -1940,17 +1995,17 @@
     {
       "source": "документ",
       "target": "материалы",
-      "weight": 375
+      "weight": 370
     },
     {
       "source": "документ",
       "target": "основе",
-      "weight": 427
+      "weight": 422
     },
     {
       "source": "документ",
       "target": "создан",
-      "weight": 434
+      "weight": 429
     },
     {
       "source": "документы",
@@ -1970,27 +2025,27 @@
     {
       "source": "использование",
       "target": "материалы",
-      "weight": 307
+      "weight": 308
     },
     {
       "source": "использование",
       "target": "основе",
-      "weight": 353
+      "weight": 354
     },
     {
       "source": "использование",
       "target": "создан",
-      "weight": 355
+      "weight": 356
     },
     {
       "source": "исследования",
       "target": "материалы",
-      "weight": 373
+      "weight": 368
     },
     {
       "source": "исследования",
       "target": "основе",
-      "weight": 413
+      "weight": 408
     },
     {
       "source": "исследования",
@@ -2000,7 +2055,7 @@
     {
       "source": "исследования",
       "target": "создан",
-      "weight": 411
+      "weight": 406
     },
     {
       "source": "исследования",
@@ -2015,7 +2070,7 @@
     {
       "source": "материалы",
       "target": "основе",
-      "weight": 373
+      "weight": 368
     },
     {
       "source": "материалы",
@@ -2025,7 +2080,7 @@
     {
       "source": "материалы",
       "target": "связанные",
-      "weight": 373
+      "weight": 368
     },
     {
       "source": "материалы",
@@ -2035,7 +2090,7 @@
     {
       "source": "материалы",
       "target": "создан",
-      "weight": 373
+      "weight": 368
     },
     {
       "source": "материалы",
@@ -2045,7 +2100,7 @@
     {
       "source": "материалы",
       "target": "ссылки",
-      "weight": 373
+      "weight": 368
     },
     {
       "source": "материалы",
@@ -2065,7 +2120,7 @@
     {
       "source": "основе",
       "target": "связанные",
-      "weight": 401
+      "weight": 396
     },
     {
       "source": "основе",
@@ -2075,7 +2130,7 @@
     {
       "source": "основе",
       "target": "создан",
-      "weight": 416
+      "weight": 411
     },
     {
       "source": "основе",
@@ -2085,7 +2140,7 @@
     {
       "source": "основе",
       "target": "ссылки",
-      "weight": 400
+      "weight": 395
     },
     {
       "source": "основе",
@@ -2115,17 +2170,17 @@
     {
       "source": "связанные",
       "target": "создан",
-      "weight": 400
+      "weight": 395
     },
     {
       "source": "связанные",
       "target": "ссылается",
-      "weight": 194
+      "weight": 193
     },
     {
       "source": "связанные",
       "target": "этот",
-      "weight": 202
+      "weight": 201
     },
     {
       "source": "смотрите",
@@ -2140,7 +2195,7 @@
     {
       "source": "создан",
       "target": "ссылки",
-      "weight": 401
+      "weight": 396
     },
     {
       "source": "создан",
@@ -2150,22 +2205,27 @@
     {
       "source": "создан",
       "target": "этот",
-      "weight": 152
+      "weight": 151
     },
     {
       "source": "ссылается",
       "target": "ссылки",
-      "weight": 151
+      "weight": 150
     },
     {
       "source": "ссылки",
       "target": "этот",
-      "weight": 158
+      "weight": 157
     },
     {
       "source": "auto",
       "target": "nautilus",
-      "weight": 73
+      "weight": 80
+    },
+    {
+      "source": "auto",
+      "target": "сходство",
+      "weight": 204
     },
     {
       "source": "claude",
@@ -2175,7 +2235,7 @@
     {
       "source": "nautilus",
       "target": "документ",
-      "weight": 212
+      "weight": 206
     },
     {
       "source": "nautilus",
@@ -2185,7 +2245,7 @@
     {
       "source": "nautilus",
       "target": "использование",
-      "weight": 126
+      "weight": 127
     },
     {
       "source": "nautilus",
@@ -2200,12 +2260,12 @@
     {
       "source": "nautilus",
       "target": "смотрите",
-      "weight": 146
+      "weight": 144
     },
     {
       "source": "nautilus",
       "target": "ссылается",
-      "weight": 52
+      "weight": 51
     },
     {
       "source": "nautilus",
@@ -2220,62 +2280,62 @@
     {
       "source": "nautilus",
       "target": "также",
-      "weight": 144
+      "weight": 142
     },
     {
       "source": "ссылается",
       "target": "сходство",
-      "weight": 215
+      "weight": 214
     },
     {
       "source": "сходство",
       "target": "этот",
-      "weight": 251
+      "weight": 249
     },
     {
       "source": "anthropic",
       "target": "docs",
-      "weight": 84
+      "weight": 90
     },
     {
       "source": "docs",
       "target": "nautilus",
-      "weight": 62
+      "weight": 65
     },
     {
       "source": "docs",
       "target": "vacancies",
-      "weight": 58
+      "weight": 64
     },
     {
       "source": "docs",
       "target": "документ",
-      "weight": 155
+      "weight": 159
     },
     {
       "source": "docs",
       "target": "документы",
-      "weight": 81
+      "weight": 83
     },
     {
       "source": "docs",
       "target": "использование",
-      "weight": 55
+      "weight": 60
     },
     {
       "source": "docs",
       "target": "похожие",
-      "weight": 59
+      "weight": 58
     },
     {
       "source": "docs",
       "target": "смотрите",
-      "weight": 62
+      "weight": 63
     },
     {
       "source": "docs",
       "target": "ссылается",
-      "weight": 63
+      "weight": 65
     },
     {
       "source": "docs",
@@ -2285,32 +2345,32 @@
     {
       "source": "docs",
       "target": "этот",
-      "weight": 75
+      "weight": 74
     },
     {
       "source": "nautilus",
       "target": "vacancies",
-      "weight": 100
+      "weight": 98
     },
     {
       "source": "vacancies",
       "target": "похожие",
-      "weight": 17
+      "weight": 16
     },
     {
       "source": "vacancies",
       "target": "ссылается",
-      "weight": 19
+      "weight": 17
     },
     {
       "source": "vacancies",
       "target": "этот",
-      "weight": 33
+      "weight": 28
     },
     {
       "source": "docs",
       "target": "сходство",
-      "weight": 153
+      "weight": 152
     },
     {
       "source": "anthropic",
@@ -2325,7 +2385,7 @@
     {
       "source": "auto",
       "target": "вакансии",
-      "weight": 18
+      "weight": 20
     },
     {
       "source": "auto",
@@ -2355,7 +2415,7 @@
     {
       "source": "вакансии",
       "target": "документ",
-      "weight": 232
+      "weight": 231
     },
     {
       "source": "вакансии",
@@ -2378,6 +2438,11 @@
       "weight": 154
     },
     {
+      "source": "note",
+      "target": "сходство",
+      "weight": 446
+    },
+    {
       "source": "основе",
       "target": "сходство",
       "weight": 360
@@ -2390,7 +2455,7 @@
     {
       "source": "nautilus",
       "target": "note",
-      "weight": 107
+      "weight": 109
     },
     {
       "source": "nautilus",
@@ -2415,52 +2480,52 @@
     {
       "source": "nautilus",
       "target": "создан",
-      "weight": 87
+      "weight": 86
     },
     {
       "source": "claude",
       "target": "docs",
-      "weight": 34
+      "weight": 37
     },
     {
       "source": "docs",
       "target": "readme",
-      "weight": 116
+      "weight": 124
     },
     {
       "source": "anthropic",
       "target": "раздел",
-      "weight": 177
+      "weight": 183
     },
     {
       "source": "auto",
       "target": "раздел",
-      "weight": 78
+      "weight": 92
     },
     {
       "source": "nautilus",
       "target": "раздел",
-      "weight": 87
+      "weight": 93
     },
     {
       "source": "документы",
       "target": "раздел",
-      "weight": 80
+      "weight": 81
     },
     {
       "source": "раздел",
       "target": "связанные",
-      "weight": 113
+      "weight": 114
     },
     {
       "source": "раздел",
       "target": "этот",
-      "weight": 56
+      "weight": 55
     },
     {
       "source": "auto",
       "target": "lorenzo",
-      "weight": 86
+      "weight": 97
     },
     {
       "source": "auto",
@@ -2470,17 +2535,12 @@
     {
       "source": "auto",
       "target": "репозитория",
-      "weight": 77
+      "weight": 81
     },
     {
       "source": "lorenzo",
       "target": "nautilus",
-      "weight": 76
-    },
-    {
-      "source": "lorenzo",
-      "target": "note",
-      "weight": 194
+      "weight": 81
     },
     {
       "source": "lorenzo",
@@ -2500,17 +2560,17 @@
     {
       "source": "lorenzo",
       "target": "создан",
-      "weight": 138
+      "weight": 140
     },
     {
       "source": "lorenzo",
       "target": "ссылается",
-      "weight": 93
+      "weight": 94
     },
     {
       "source": "lorenzo",
       "target": "этот",
-      "weight": 97
+      "weight": 98
     },
     {
       "source": "nautilus",
@@ -2520,17 +2580,12 @@
     {
       "source": "nautilus",
       "target": "репозитория",
-      "weight": 109
+      "weight": 111
     },
     {
       "source": "note",
       "target": "поиска",
       "weight": 150
-    },
-    {
-      "source": "note",
-      "target": "репозитория",
-      "weight": 313
     },
     {
       "source": "ведут",
@@ -2590,17 +2645,17 @@
     {
       "source": "репозитория",
       "target": "создан",
-      "weight": 255
+      "weight": 256
     },
     {
       "source": "репозитория",
       "target": "ссылается",
-      "weight": 118
+      "weight": 119
     },
     {
       "source": "репозитория",
       "target": "этот",
-      "weight": 132
+      "weight": 131
     },
     {
       "source": "agent",
@@ -2610,7 +2665,7 @@
     {
       "source": "agent",
       "target": "anthropic",
-      "weight": 191
+      "weight": 189
     },
     {
       "source": "agent",
@@ -2620,7 +2675,7 @@
     {
       "source": "anthropic",
       "target": "knowledge",
-      "weight": 103
+      "weight": 95
     },
     {
       "source": "note",
@@ -2655,7 +2710,7 @@
     {
       "source": "lorenzo",
       "target": "похожие",
-      "weight": 50
+      "weight": 51
     },
     {
       "source": "похожие",
@@ -2695,7 +2750,7 @@
     {
       "source": "вакансии",
       "target": "этот",
-      "weight": 30
+      "weight": 29
     },
     {
       "source": "claude",
@@ -2705,22 +2760,12 @@
     {
       "source": "agent",
       "target": "claude",
-      "weight": 105
+      "weight": 106
     },
     {
       "source": "agent",
       "target": "через",
-      "weight": 44
-    },
-    {
-      "source": "agent",
-      "target": "lorenzo",
-      "weight": 96
-    },
-    {
-      "source": "agent",
-      "target": "note",
-      "weight": 120
+      "weight": 45
     },
     {
       "source": "agent",
@@ -2730,7 +2775,7 @@
     {
       "source": "agent",
       "target": "создан",
-      "weight": 97
+      "weight": 96
     },
     {
       "source": "agent",
@@ -2740,42 +2785,42 @@
     {
       "source": "knowledge",
       "target": "lorenzo",
-      "weight": 52
+      "weight": 55
     },
     {
       "source": "knowledge",
       "target": "note",
-      "weight": 76
+      "weight": 77
     },
     {
       "source": "knowledge",
       "target": "основе",
-      "weight": 64
+      "weight": 61
     },
     {
       "source": "knowledge",
       "target": "создан",
-      "weight": 62
+      "weight": 59
     },
     {
       "source": "knowledge",
       "target": "nautilus",
-      "weight": 47
+      "weight": 46
     },
     {
       "source": "nautilus",
       "target": "summary",
-      "weight": 43
+      "weight": 45
     },
     {
       "source": "agent",
       "target": "сходство",
-      "weight": 159
+      "weight": 154
     },
     {
       "source": "nautilus",
       "target": "search",
-      "weight": 33
+      "weight": 32
     },
     {
       "source": "agent",
@@ -2790,52 +2835,47 @@
     {
       "source": "knowledge",
       "target": "ведут",
-      "weight": 55
+      "weight": 52
     },
     {
       "source": "knowledge",
       "target": "материалы",
-      "weight": 53
-    },
-    {
-      "source": "note",
-      "target": "summary",
-      "weight": 109
+      "weight": 50
     },
     {
       "source": "summary",
       "target": "ведут",
-      "weight": 39
+      "weight": 38
     },
     {
       "source": "summary",
       "target": "материалы",
-      "weight": 39
+      "weight": 38
     },
     {
       "source": "summary",
       "target": "основе",
-      "weight": 43
+      "weight": 42
     },
     {
       "source": "summary",
       "target": "создан",
-      "weight": 46
+      "weight": 45
     },
     {
       "source": "knowledge",
       "target": "сходство",
-      "weight": 96
+      "weight": 88
     },
     {
       "source": "claude",
       "target": "summary",
-      "weight": 31
+      "weight": 32
     },
     {
       "source": "nautilus",
       "target": "svyazi",
-      "weight": 41
+      "weight": 40
     },
     {
       "source": "note",
@@ -2865,7 +2905,7 @@
     {
       "source": "вакансии",
       "target": "использование",
-      "weight": 194
+      "weight": 195
     },
     {
       "source": "вакансии",
@@ -2905,7 +2945,7 @@
     {
       "source": "использование",
       "target": "кластерам",
-      "weight": 171
+      "weight": 172
     },
     {
       "source": "исследования",
@@ -2964,38 +3004,33 @@
     },
     {
       "source": "docs",
-      "target": "note",
-      "weight": 96
-    },
-    {
-      "source": "docs",
       "target": "ведут",
-      "weight": 21
+      "weight": 25
     },
     {
       "source": "docs",
       "target": "материалы",
-      "weight": 20
+      "weight": 24
     },
     {
       "source": "docs",
       "target": "основе",
-      "weight": 26
+      "weight": 30
     },
     {
       "source": "docs",
       "target": "связанные",
-      "weight": 36
+      "weight": 40
     },
     {
       "source": "docs",
       "target": "создан",
-      "weight": 29
+      "weight": 35
     },
     {
       "source": "docs",
       "target": "ссылки",
-      "weight": 32
+      "weight": 37
     },
     {
       "source": "knowledge",
@@ -3009,23 +3044,13 @@
     },
     {
       "source": "docs",
-      "target": "lorenzo",
-      "weight": 87
-    },
-    {
-      "source": "docs",
-      "target": "репозитория",
-      "weight": 76
-    },
-    {
-      "source": "docs",
       "target": "через",
-      "weight": 25
+      "weight": 26
     },
     {
       "source": "auto",
       "target": "vacancies",
-      "weight": 21
+      "weight": 26
     },
     {
       "source": "auto",
@@ -3045,7 +3070,7 @@
     {
       "source": "использование",
       "target": "источник",
-      "weight": 316
+      "weight": 317
     },
     {
       "source": "источник",
@@ -3078,29 +3103,24 @@
       "weight": 83
     },
     {
-      "source": "note",
-      "target": "раздел",
-      "weight": 176
-    },
-    {
       "source": "документ",
       "target": "раздел",
-      "weight": 237
+      "weight": 241
     },
     {
       "source": "использование",
       "target": "раздел",
-      "weight": 154
+      "weight": 157
     },
     {
       "source": "исследования",
       "target": "раздел",
-      "weight": 105
+      "weight": 106
     },
     {
       "source": "основе",
       "target": "раздел",
-      "weight": 104
+      "weight": 105
     },
     {
       "source": "похожие",
@@ -3110,27 +3130,27 @@
     {
       "source": "раздел",
       "target": "смотрите",
-      "weight": 168
+      "weight": 170
     },
     {
       "source": "раздел",
       "target": "создан",
-      "weight": 106
+      "weight": 109
     },
     {
       "source": "раздел",
       "target": "ссылается",
-      "weight": 40
+      "weight": 41
     },
     {
       "source": "раздел",
       "target": "сходство",
-      "weight": 251
+      "weight": 246
     },
     {
       "source": "раздел",
       "target": "также",
-      "weight": 167
+      "weight": 168
     },
     {
       "source": "docs",
@@ -3150,7 +3170,7 @@
     {
       "source": "agent",
       "target": "vacancies",
-      "weight": 84
+      "weight": 82
     },
     {
       "source": "vacancies",
@@ -3170,17 +3190,17 @@
     {
       "source": "knowledge",
       "target": "vacancies",
-      "weight": 38
+      "weight": 35
     },
     {
       "source": "agent",
       "target": "readme",
-      "weight": 46
+      "weight": 41
     },
     {
       "source": "claude",
       "target": "vacancies",
-      "weight": 123
+      "weight": 124
     },
     {
       "source": "knowledge",
@@ -3190,7 +3210,7 @@
     {
       "source": "claude",
       "target": "lorenzo",
-      "weight": 114
+      "weight": 115
     },
     {
       "source": "claude",
@@ -3203,29 +3223,24 @@
       "weight": 53
     },
     {
-      "source": "agent",
-      "target": "репозитория",
-      "weight": 83
-    },
-    {
       "source": "svyazi",
       "target": "ведут",
-      "weight": 69
+      "weight": 65
     },
     {
       "source": "svyazi",
       "target": "материалы",
-      "weight": 66
+      "weight": 62
     },
     {
       "source": "svyazi",
       "target": "основе",
-      "weight": 76
+      "weight": 72
     },
     {
       "source": "svyazi",
       "target": "создан",
-      "weight": 73
+      "weight": 68
     },
     {
       "source": "knowledge",
@@ -3235,7 +3250,7 @@
     {
       "source": "knowledge",
       "target": "репозитория",
-      "weight": 52
+      "weight": 53
     },
     {
       "source": "вакансии",
@@ -3250,7 +3265,7 @@
     {
       "source": "claude",
       "target": "репозитория",
-      "weight": 238
+      "weight": 239
     },
     {
       "source": "вакансии",
@@ -3268,79 +3283,24 @@
       "weight": 64
     },
     {
+      "source": "vacancies",
+      "target": "раздел",
+      "weight": 94
+    },
+    {
       "source": "knowledge",
       "target": "раздел",
-      "weight": 32
-    },
-    {
-      "source": "search",
-      "target": "раздел",
-      "weight": 93
-    },
-    {
-      "source": "раздел",
-      "target": "репозитория",
-      "weight": 218
+      "weight": 37
     },
     {
       "source": "docs",
       "target": "search",
-      "weight": 105
+      "weight": 103
     },
     {
-      "source": "claude",
-      "target": "раздел",
-      "weight": 166
-    },
-    {
-      "source": "docs",
-      "target": "раздел",
-      "weight": 86
-    },
-    {
-      "source": "vacancies",
-      "target": "раздел",
-      "weight": 90
-    },
-    {
-      "source": "agent",
-      "target": "раздел",
-      "weight": 47
-    },
-    {
-      "source": "agent",
-      "target": "mhtml",
-      "weight": 78
-    },
-    {
-      "source": "anthropic",
-      "target": "mhtml",
-      "weight": 234
-    },
-    {
-      "source": "docs",
-      "target": "mhtml",
-      "weight": 10
-    },
-    {
-      "source": "mhtml",
-      "target": "nautilus",
-      "weight": 82
-    },
-    {
-      "source": "mhtml",
-      "target": "summary",
-      "weight": 15
-    },
-    {
-      "source": "mhtml",
-      "target": "svyazi",
-      "weight": 35
-    },
-    {
-      "source": "mhtml",
-      "target": "vacancies",
-      "weight": 91
+      "source": "note",
+      "target": "search",
+      "weight": 103
     },
     {
       "source": "search",
@@ -3360,17 +3320,77 @@
     {
       "source": "search",
       "target": "создан",
-      "weight": 42
+      "weight": 41
     },
     {
-      "source": "svyazi",
+      "source": "claude",
+      "target": "раздел",
+      "weight": 167
+    },
+    {
+      "source": "agent",
+      "target": "mhtml",
+      "weight": 78
+    },
+    {
+      "source": "anthropic",
+      "target": "mhtml",
+      "weight": 234
+    },
+    {
+      "source": "docs",
+      "target": "mhtml",
+      "weight": 11
+    },
+    {
+      "source": "lorenzo",
+      "target": "mhtml",
+      "weight": 104
+    },
+    {
+      "source": "mhtml",
+      "target": "nautilus",
+      "weight": 82
+    },
+    {
+      "source": "mhtml",
+      "target": "summary",
+      "weight": 15
+    },
+    {
+      "source": "mhtml",
+      "target": "svyazi",
+      "weight": 34
+    },
+    {
+      "source": "mhtml",
+      "target": "vacancies",
+      "weight": 91
+    },
+    {
+      "source": "docs",
       "target": "вакансии",
       "weight": 9
     },
     {
-      "source": "lorenzo",
+      "source": "svyazi",
+      "target": "вакансии",
+      "weight": 8
+    },
+    {
+      "source": "ведут",
       "target": "раздел",
-      "weight": 116
+      "weight": 101
+    },
+    {
+      "source": "материалы",
+      "target": "раздел",
+      "weight": 101
+    },
+    {
+      "source": "раздел",
+      "target": "ссылки",
+      "weight": 110
     },
     {
       "source": "claude",
@@ -3395,7 +3415,7 @@
     {
       "source": "agent",
       "target": "источник",
-      "weight": 87
+      "weight": 88
     },
     {
       "source": "agent",
@@ -3448,6 +3468,26 @@
       "weight": 242
     },
     {
+      "source": "docs",
+      "target": "источник",
+      "weight": 19
+    },
+    {
+      "source": "docs",
+      "target": "кластерам",
+      "weight": 6
+    },
+    {
+      "source": "docs",
+      "target": "корень",
+      "weight": 6
+    },
+    {
+      "source": "docs",
+      "target": "снимок",
+      "weight": 8
+    },
+    {
       "source": "mhtml",
       "target": "note",
       "weight": 236
@@ -3471,6 +3511,11 @@
       "source": "mhtml",
       "target": "документы",
       "weight": 79
+    },
+    {
+      "source": "mhtml",
+      "target": "использование",
+      "weight": 283
     },
     {
       "source": "mhtml",
@@ -3583,26 +3628,6 @@
       "weight": 221
     },
     {
-      "source": "svyazi",
-      "target": "источник",
-      "weight": 61
-    },
-    {
-      "source": "svyazi",
-      "target": "кластерам",
-      "weight": 5
-    },
-    {
-      "source": "svyazi",
-      "target": "корень",
-      "weight": 24
-    },
-    {
-      "source": "svyazi",
-      "target": "снимок",
-      "weight": 32
-    },
-    {
       "source": "vacancies",
       "target": "источник",
       "weight": 94
@@ -3654,11 +3679,6 @@
     },
     {
       "source": "ведут",
-      "target": "раздел",
-      "weight": 100
-    },
-    {
-      "source": "ведут",
       "target": "снимок",
       "weight": 221
     },
@@ -3681,6 +3701,16 @@
       "source": "документы",
       "target": "снимок",
       "weight": 74
+    },
+    {
+      "source": "использование",
+      "target": "корень",
+      "weight": 185
+    },
+    {
+      "source": "использование",
+      "target": "снимок",
+      "weight": 269
     },
     {
       "source": "исследования",
@@ -3819,11 +3849,6 @@
     },
     {
       "source": "материалы",
-      "target": "раздел",
-      "weight": 100
-    },
-    {
-      "source": "материалы",
       "target": "снимок",
       "weight": 221
     },
@@ -3836,11 +3861,6 @@
       "source": "раздел",
       "target": "снимок",
       "weight": 150
-    },
-    {
-      "source": "раздел",
-      "target": "ссылки",
-      "weight": 109
     },
     {
       "source": "репозитория",
@@ -3878,19 +3898,9 @@
       "weight": 284
     },
     {
-      "source": "docs",
-      "target": "источник",
-      "weight": 18
-    },
-    {
       "source": "readme",
       "target": "источник",
-      "weight": 18
-    },
-    {
-      "source": "search",
-      "target": "источник",
-      "weight": 43
+      "weight": 17
     },
     {
       "source": "summary",
@@ -3898,9 +3908,9 @@
       "weight": 25
     },
     {
-      "source": "docs",
-      "target": "вакансии",
-      "weight": 7
+      "source": "источник",
+      "target": "через",
+      "weight": 116
     },
     {
       "source": "lorenzo",
@@ -3908,9 +3918,9 @@
       "weight": 87
     },
     {
-      "source": "mhtml",
-      "target": "использование",
-      "weight": 282
+      "source": "search",
+      "target": "раздел",
+      "weight": 81
     },
     {
       "source": "mhtml",
@@ -3926,21 +3936,6 @@
       "source": "mhtml",
       "target": "этот",
       "weight": 59
-    },
-    {
-      "source": "использование",
-      "target": "корень",
-      "weight": 184
-    },
-    {
-      "source": "использование",
-      "target": "снимок",
-      "weight": 268
-    },
-    {
-      "source": "источник",
-      "target": "через",
-      "weight": 115
     },
     {
       "source": "корень",
@@ -3974,13 +3969,8 @@
     },
     {
       "source": "lorenzo",
-      "target": "mhtml",
-      "weight": 103
-    },
-    {
-      "source": "lorenzo",
       "target": "источник",
-      "weight": 118
+      "weight": 119
     },
     {
       "source": "lorenzo",
@@ -4023,6 +4013,21 @@
       "weight": 34
     },
     {
+      "source": "svyazi",
+      "target": "источник",
+      "weight": 60
+    },
+    {
+      "source": "svyazi",
+      "target": "корень",
+      "weight": 23
+    },
+    {
+      "source": "svyazi",
+      "target": "снимок",
+      "weight": 31
+    },
+    {
       "source": "auto",
       "target": "mhtml",
       "weight": 14
@@ -4049,6 +4054,11 @@
     },
     {
       "source": "search",
+      "target": "источник",
+      "weight": 41
+    },
+    {
+      "source": "search",
       "target": "корень",
       "weight": 10
     },
@@ -4056,16 +4066,6 @@
       "source": "search",
       "target": "снимок",
       "weight": 13
-    },
-    {
-      "source": "docs",
-      "target": "корень",
-      "weight": 5
-    },
-    {
-      "source": "docs",
-      "target": "снимок",
-      "weight": 7
     },
     {
       "source": "поиска",
@@ -4113,14 +4113,14 @@
       "weight": 11
     },
     {
-      "source": "summary",
-      "target": "корень",
+      "source": "svyazi",
+      "target": "кластерам",
       "weight": 4
     },
     {
-      "source": "docs",
-      "target": "кластерам",
-      "weight": 5
+      "source": "summary",
+      "target": "корень",
+      "weight": 4
     }
   ],
   "generated": "2026-05-13"

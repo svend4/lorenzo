@@ -1,5 +1,12 @@
 # Глоссарий проектов
 
+> [!NOTE]
+> Раздел `GLOSSARY` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: glossary, docs -->
+
+
 <!-- summary -->
 > Все проекты, упоминаемые в документах, с количеством файлов.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -71,3 +78,10 @@
 - [ENTITIES](ENTITIES.md)
 - [NETWORK](NETWORK.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_glossary.py
+```

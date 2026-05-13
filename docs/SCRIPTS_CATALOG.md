@@ -1,4 +1,6 @@
 # Каталог скриптов
+<!-- tags: scripts-catalog, docs -->
+
 
 _Обновлено: 2026-05-13_
 
@@ -1595,3 +1597,35 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 
 **Флаги:** `--history`, `--output`, `--parallel`, `--resume`, `--task`
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_scripts_catalog.py
+```
+```bash
+# Вариант 2
+python scripts/improve_scripts_catalog.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_scripts_catalog.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_scripts_catalog.py --dry-run
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)
+- [Теги](TAGS.md)
+- [Задачи](ACTION_ITEMS.md)
+- [Хронология](TIMELINE.md)

@@ -1,5 +1,18 @@
 # Тематические пробелы (Content Gaps)
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `CONTENT_GAPS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: content-gaps, docs -->
+
+
+<!-- summary -->
+> `CONTENT_GAPS` — раздел документации проекта Lorenzo.
+
+
 _Обновлено: 2026-05-13_
 
 Найдено пробелов: **909** (мин. упоминаний: 3)
@@ -314,3 +327,10 @@ _Обновлено: 2026-05-13_
 - [CODE_BLOCKS](CODE_BLOCKS.md)
 - [NAMED_ENTITIES](NAMED_ENTITIES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_content_gaps.py
+```
