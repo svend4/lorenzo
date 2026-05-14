@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-05-14_
 
-**Всего скриптов:** 185
+**Всего скриптов:** 186
 
 
 ## По группам
@@ -173,7 +173,7 @@ _Обновлено: 2026-05-14_
 | `improve_similar_passages.py` | поиск похожих абзацев между файлами (TF-IDF cosine). | `--min-sim`, `--min-words`, `--section`, `--top` |
 | `improve_textrank.py` | извлекательное резюме через TextRank (без LLM). | `--apply`, `--query`, `--section`, `--sentences` |
 
-### quality (15)
+### quality (16)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
@@ -185,6 +185,7 @@ _Обновлено: 2026-05-14_
 | `improve_metrics.py` | метрики качества документации. |  |
 | `improve_missing.py` | находит темы/проекты упомянутые в документах |  |
 | `improve_orphans.py` | находит документы без входящих ссылок (orphan docs). |  |
+| `improve_pagerank.py` | Build PageRank scores from intra-repository Markdown links. | `--dry-run`, `--top` |
 | `improve_precision_eval.py` | автоматическая оценка Hit Rate@K. | `--json`, `--k`, `--verbose` |
 | `improve_readability_v2.py` | индекс читаемости текстов. | `--section` |
 | `improve_sentinel_check.py` | SENTINEL security audit для Svyazi 2.0. | `--section`, `--strict` |
@@ -1192,6 +1193,15 @@ Handles complex queries by decomposing them into focused sub-queries, running ea
 Генерирует два вида оглавления: 1. По структуре папок + заголовкам H1/H2 каждого файла 2. По темам (TF-IDF кластеры) — тематическая карта Создаёт docs/OUTLINE.md.
 
 **Флаги:** `--depth`, `--format`, `--section`
+
+
+### `improve_pagerank.py` _(группа: quality)_
+
+**Build PageRank scores from intra-repository Markdown links.**
+
+Parses [[wikilinks]] and `[text](relative.md)` in all docs/*.md files, builds a directed graph, and runs the standard PageRank algorithm. Output: docs/pagerank.json — {relative_path: normalised_score, ...} Scores are normalised so the max-scoring document = 1.0; all others are in (0, 1].  Documents with no inbound links receive the base
+
+**Флаги:** `--dry-run`, `--top`
 
 
 ### `improve_paragraph_quality.py` _(группа: deeptext)_

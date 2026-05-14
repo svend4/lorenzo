@@ -97,6 +97,7 @@ GROUPS = {
         "improve_content_gaps.py",
         "improve_link_preview.py",        # статус внешних ссылок (slow — HTTP)
         "improve_sentinel_check.py",      # SENTINEL security audit
+        "improve_pagerank.py",            # PageRank link-authority scores
         "improve_precision_eval.py",      # Hit Rate@K retrieval evaluation
     ],
     "graph": [
