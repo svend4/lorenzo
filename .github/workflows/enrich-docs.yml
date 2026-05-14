@@ -6,12 +6,11 @@
 #   - Enrichment был контролируемым процессом с audit trail и safety gate
 #   - Discovery-контент защищён: safety check отклоняет коммиты где REMOVED > ADDED
 #
-# Запуск: ежедневно в 02:30 UTC + ручной workflow_dispatch
+# Запуск: ТОЛЬКО ручной (workflow_dispatch). Автоматический cron отключён —
+# человек решает когда запустить и проверяет результат.
 name: enrich-docs
 
 on:
-  schedule:
-    - cron: "30 2 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
