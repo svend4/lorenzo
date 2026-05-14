@@ -2,7 +2,7 @@
 title: "1. The Cowork Discovery and Why It Changes Everything"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 1. The Cowork Discovery and Why It Changes Everything
@@ -22,8 +22,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Position InGit as the structure layer that Cowork needs.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > When Document 2.3 was written earlier in this session, the

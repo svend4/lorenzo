@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Письмо: kksudo / AgentFS
 
 > [!IMPORTANT]
@@ -14,7 +18,7 @@
 
 
 <!-- summary -->
-> Открытое письмо автору AgentFS — проекта, который превращает Obsidian-vault в операционную систему для AI-агентов.
+> Открытое письмо автору AgentFS — проекта, который превращает Obsidian-vault в операционную систему для AI-агентов. Ключевой документ для понимания архитектуры.
 
 <!-- tags: contacts, letters, agentfs, knowledge, filesystem -->
 

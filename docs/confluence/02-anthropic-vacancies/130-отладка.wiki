@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/130-отладка.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Отладка
 
@@ -27,8 +31,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Проверить логи Claude Desktop: Проверить логи Claude Desktop: macOS: ~/Library/Logs/Claude/mcp*.log{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}1. Проверить логи Claude Desktop:{quote}

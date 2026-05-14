@@ -2,7 +2,7 @@
 title: "Интегральный анализ профиля svend4"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Интегральный анализ профиля svend4

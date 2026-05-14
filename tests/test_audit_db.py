@@ -197,3 +197,84 @@ def test_get_db_creates_db(tmp_path, monkeypatch):
     conn.close()
     claude_dir = tmp_path / ".claude"
     assert (claude_dir / "audit.sqlite").exists()
+
+
+# ── rebuild: DB already exists (line 97), bad JSON (lines 116-117), workflow_runs (122-149) ──
+
+def test_rebuild_unlinks_existing_db(tmp_path, monkeypatch):
+    """Line 97: DB already exists → unlinked before recreate."""
+    claude_dir = _setup_audit(tmp_path, monkeypatch)
+    db = claude_dir / "audit.sqlite"
+    db.write_bytes(b"fake")  # pre-existing DB
+    mod.rebuild()
+    assert db.exists()  # re-created by get_db()
+
+
+def test_rebuild_skips_bad_json_in_mcp_log(tmp_path, monkeypatch):
+    """Lines 116-117: bad JSON in mcp_calls.jsonl → skip."""
+    claude_dir = _setup_audit(tmp_path, monkeypatch)
+    mcp_log = claude_dir / "mcp_calls.jsonl"
+    mcp_log.write_text("not-valid-json\n", encoding="utf-8")
+    mod.rebuild()  # must not raise
+
+
+def test_rebuild_with_workflow_runs_log(tmp_path, monkeypatch):
+    """Lines 122-149: workflow_runs.jsonl → inserted."""
+    import json as _json
+    claude_dir = _setup_audit(tmp_path, monkeypatch)
+    wf_log = claude_dir / "workflow_runs.jsonl"
+    entry = {
+        "run_id": "run-001", "task_id": "task-1",
+        "started": "2026-01-01T10:00:00", "finished": "2026-01-01T10:01:00",
+        "duration_ms": 60000, "parallel": 1, "dry_run": False,
+        "summary": {"ok": 3}, "inputs": {"a": 1},
+        "steps": [{"id": "s1", "op": "run_script", "status": "ok", "duration_ms": 500, "attempts": []}],
+    }
+    wf_log.write_text(_json.dumps(entry) + "\n", encoding="utf-8")
+    mod.rebuild()
+    import sqlite3 as _sq
+    conn = _sq.connect(str(claude_dir / "audit.sqlite"))
+    count = conn.execute("SELECT COUNT(*) FROM workflow_runs").fetchone()[0]
+    conn.close()
+    assert count == 1
+
+
+def test_rebuild_skips_bad_json_in_workflow_log(tmp_path, monkeypatch):
+    """Lines 122-149 except: bad JSON in workflow_runs.jsonl → skip."""
+    claude_dir = _setup_audit(tmp_path, monkeypatch)
+    wf_log = claude_dir / "workflow_runs.jsonl"
+    wf_log.write_text("not-valid-json\n", encoding="utf-8")
+    mod.rebuild()  # must not raise
+
+
+def test_rebuild_skips_bad_json_in_skill_metrics_log(tmp_path, monkeypatch):
+    """Lines 167-168: bad JSON in skill_metrics.jsonl → skip."""
+    claude_dir = _setup_audit(tmp_path, monkeypatch)
+    sk_log = claude_dir / "skill_metrics.jsonl"
+    sk_log.write_text("not-valid-json\n", encoding="utf-8")
+    mod.rebuild()  # must not raise
+
+
+# ── main: --query without SQL (lines 239-240) ─────────────────────────────────
+
+def test_main_query_without_sql(tmp_path, monkeypatch, capsys):
+    """Lines 239-240: --query without SQL → error message, return 1."""
+    _setup_audit(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog", "--query"])
+    result = mod.main()
+    assert result == 1
+    out = capsys.readouterr().out
+    assert "--query" in out or "SQL" in out or "требует" in out
+
+
+# ── __main__ block (line 271) ─────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 271: __main__ block calls sys.exit(main())."""
+    import runpy
+    _setup_audit(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    try:
+        runpy.run_path(str(ROOT / "scripts" / "improve_audit_db.py"), run_name="__main__")
+    except SystemExit:
+        pass  # sys.exit() is expected

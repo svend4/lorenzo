@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # What Industry Will Likely Build
@@ -59,7 +59,16 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> Independent of what the author does, the industry will move
+> * What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Lik Документ создан на основе исследования.
+ --
+Кто ссылается на этот документ (10)
+ 153-executive-summary
+ 164-10-appendices
+ 276-the-two-layer-stack-as-it-exists
+ 277-what-s-missing-layer-b
+ 278-why-this-hasn-t-been-built
+ 280-the-specific-case-in-front-of-us
+ 281-the-recurs
 
 ---
 <!-- tags: architecture, anthropic -->

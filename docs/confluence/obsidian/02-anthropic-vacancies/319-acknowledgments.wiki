@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/319-acknowledgments.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Acknowledgments
@@ -48,7 +48,10 @@ h2. Содержание
 
 
 
-{quote}This document emerged from author's question about how to{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's question about how to integrate InGit specifically{quote}
+{quote}🔧 Подход: Review Methodology v1.0{quote}
 
 ----
 
@@ -189,3 +192,7 @@ h2. Кто ссылается на этот документ (11)
 * 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 * _...ещё 3_
 
+h1. Angle / Perspective
+
+h2. Angle / Perspective
+Methodological: how-to и reflection.

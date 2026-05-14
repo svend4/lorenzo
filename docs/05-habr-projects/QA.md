@@ -1,18 +1,34 @@
+---
+state: normalized
+---
+
 # Q&A: 05-habr-projects
 
 > [!NOTE]
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 12 файлам раздела._
-**Проекты:** CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], Yodoca[^yodoca], NGT[^ngt] Memory, MemNet, agent-memory-mcp
-
----
-<!-- tags: memory, rag, knowledge, architecture, roadmap, collaboration -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: Hybrid RAG, LiteParse Кто ссылается на этот документ (6): _Автоматически сгенерировано по 12 файлам раздела._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 12 файлам раздела._
@@ -65,6 +81,32 @@ _Автоматически сгенерировано по 12 файлам ра
 
 _Не найдено в этом файле._
 
+## Как реализован forensic RAG с доказуемостью?
+
+Упоминаются: **liteparse**, **bounding box**, **evidence**
+
+## Что такое Evidence Envelope и зачем он нужен?
+
+Упоминаются: **Evidence Envelope**, **page**, **span**
+
+## Какие RAG-подходы сравниваются в документах?
+
+Упоминаются: **Hybrid RAG**, **LiteParse**
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
 <!-- backlinks -->
 
 ---
@@ -77,35 +119,3 @@ _Не найдено в этом файле._
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/05-habr-projects/QA.md) (сходство 0.98)
-- [QA](../lorenzo-agent/QA.md) (сходство 0.66)
-- [QA](../obsidian/lorenzo-agent/QA.md) (сходство 0.66)
-
-
-
-<!-- footnotes-added -->
-
----
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
-
-[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
-
-[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

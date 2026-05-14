@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 4. Architecture of Professional Colleague Agents
@@ -25,8 +25,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > A Professional Colleague Agent has three distinct internal

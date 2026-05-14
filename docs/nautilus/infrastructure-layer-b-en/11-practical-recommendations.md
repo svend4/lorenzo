@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Practical Recommendations for the Current Project
 
 <!-- toc-auto -->

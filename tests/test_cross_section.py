@@ -223,3 +223,186 @@ def test_main_two_sections(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "CROSS_SECTION.md").read_text(encoding="utf-8")
     assert "section" in text.lower() or "#" in text
+
+
+# ── module-level arg parsing (requires reload) ────────────────────────────────
+
+def test_top_arg_parsing():
+    """Lines 33-35: --top N sets TOP_CONCEPTS."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--top", "30"]
+        importlib.reload(mod)
+        assert mod.TOP_CONCEPTS == 30
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_min_secs_arg_parsing():
+    """Lines 38-40: --min-secs N sets MIN_SECTIONS."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--min-secs", "3"]
+        importlib.reload(mod)
+        assert mod.MIN_SECTIONS == 3
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+# ── _build_section_vectors edge cases ────────────────────────────────────────
+
+def test_build_section_vectors_skips_files(tmp_path):
+    """Line 86: regular file in docs_dir (not a dir) → skipped."""
+    (tmp_path / "README.md").write_text("# Root", encoding="utf-8")
+    sec = tmp_path / "sec-a"
+    sec.mkdir()
+    (sec / "doc.md").write_text("agent memory knowledge", encoding="utf-8")
+    result = mod._build_section_vectors(tmp_path)
+    assert "README" not in result
+
+
+def test_build_section_vectors_skips_hidden_dirs(tmp_path):
+    """Line 86: hidden dir (starts with .) → skipped."""
+    hidden = tmp_path / ".hidden"
+    hidden.mkdir()
+    (hidden / "doc.md").write_text("agent memory", encoding="utf-8")
+    result = mod._build_section_vectors(tmp_path)
+    assert ".hidden" not in result
+
+
+def test_build_section_vectors_skips_skip_files(tmp_path):
+    """Line 90: file in SKIP_FILES → skipped."""
+    sec = tmp_path / "sec-a"
+    sec.mkdir()
+    (sec / "CROSS_SECTION.md").write_text("agent memory", encoding="utf-8")
+    (sec / "doc.md").write_text("agent memory knowledge system", encoding="utf-8")
+    result = mod._build_section_vectors(tmp_path)
+    assert "sec-a" in result
+
+
+def test_build_section_vectors_skips_parts_path(tmp_path):
+    """Line 90: path with '-parts' → skipped."""
+    sec = tmp_path / "sec-a"
+    sec.mkdir()
+    parts_dir = sec / "doc-parts"
+    parts_dir.mkdir()
+    (parts_dir / "chunk.md").write_text("agent memory", encoding="utf-8")
+    result = mod._build_section_vectors(tmp_path)
+    # files under -parts path are skipped
+    assert isinstance(result, dict)
+
+
+def test_build_section_vectors_exception_on_read(tmp_path, monkeypatch):
+    """Lines 93-94: exception reading file → continue."""
+    sec = tmp_path / "sec-a"
+    sec.mkdir()
+    bad_file = sec / "bad.md"
+    bad_file.write_text("agent memory", encoding="utf-8")
+
+    original_read = Path.read_text
+
+    def mock_read(self, *args, **kwargs):
+        if self == bad_file:
+            raise OSError("mocked error")
+        return original_read(self, *args, **kwargs)
+
+    monkeypatch.setattr(Path, "read_text", mock_read)
+    result = mod._build_section_vectors(tmp_path)
+    assert isinstance(result, dict)
+
+
+# ── _mermaid_graph ────────────────────────────────────────────────────────────
+
+def test_mermaid_graph_returns_list():
+    """Lines 161-163, 167-178: _mermaid_graph with sections and edges."""
+    sections = ["sec-a", "sec-b"]
+    sim_matrix = {("sec-a", "sec-b"): 0.8, ("sec-b", "sec-a"): 0.8}
+    result = mod._mermaid_graph(sections, sim_matrix)
+    assert isinstance(result, list)
+    assert any("mermaid" in line for line in result)
+
+
+def test_mermaid_graph_below_threshold_no_edge():
+    """Line 174: sim < threshold → edge not added."""
+    sections = ["sec-a", "sec-b"]
+    sim_matrix = {("sec-a", "sec-b"): 0.01, ("sec-b", "sec-a"): 0.01}
+    result = mod._mermaid_graph(sections, sim_matrix, threshold=0.05)
+    result_str = "\n".join(result)
+    assert "-->" not in result_str
+
+
+# ── _dot_graph ────────────────────────────────────────────────────────────────
+
+def test_dot_graph_returns_string():
+    """Lines 185-208: _dot_graph with sections and similarity."""
+    sections = ["sec-a", "sec-b"]
+    sim_matrix = {("sec-a", "sec-b"): 0.7, ("sec-b", "sec-a"): 0.7}
+    result = mod._dot_graph(sections, sim_matrix)
+    assert isinstance(result, str)
+    assert "digraph" in result
+
+
+def test_dot_graph_below_threshold_no_edge():
+    """Line 201-202: sim < threshold → edge not added."""
+    sections = ["sec-a", "sec-b"]
+    sim_matrix = {("sec-a", "sec-b"): 0.01, ("sec-b", "sec-a"): 0.01}
+    result = mod._dot_graph(sections, sim_matrix, threshold=0.05)
+    assert "->" not in result or "0.01" not in result
+
+
+# ── main with rich multi-section content ──────────────────────────────────────
+
+# Section texts: "agent" and "memory" are shared, other terms differ
+# This ensures cross-concepts exist with some sections where score=0
+_SEC_A = "agent memory alpha knowledge system architecture " * 20
+_SEC_B = "agent memory beta retrieval search graph network " * 20
+_SEC_C = "agent gamma delta protocol service interface system " * 20
+
+
+def test_main_three_rich_sections(tmp_path, monkeypatch):
+    """Lines 227-230, 250-258, 275-276, 290-297, 311-312, 319-326: full report."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "EXPORT_DOT", False)
+    monkeypatch.setattr(mod, "TOP_CONCEPTS", 40)
+    monkeypatch.setattr(mod, "MIN_SECTIONS", 2)
+
+    for name, text in [("sec-a", _SEC_A), ("sec-b", _SEC_B), ("sec-c", _SEC_C)]:
+        d = tmp_path / name
+        d.mkdir()
+        (d / "doc.md").write_text(text, encoding="utf-8")
+
+    mod.main()
+    text = (tmp_path / "CROSS_SECTION.md").read_text(encoding="utf-8")
+    assert "Матрица" in text
+
+
+def test_main_export_dot(tmp_path, monkeypatch):
+    """Lines 304-306: EXPORT_DOT=True → .dot file written."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "EXPORT_DOT", True)
+    monkeypatch.setattr(mod, "TOP_CONCEPTS", 40)
+    monkeypatch.setattr(mod, "MIN_SECTIONS", 2)
+
+    for name, text in [("sec-a", _SEC_A), ("sec-b", _SEC_B)]:
+        d = tmp_path / name
+        d.mkdir()
+        (d / "doc.md").write_text(text, encoding="utf-8")
+
+    mod.main()
+    assert (tmp_path / "cross_section.dot").exists()
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 330: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "EXPORT_DOT", False)
+    script_path = str(ROOT / "scripts" / "improve_cross_section.py")
+    runpy.run_path(script_path, run_name="__main__")

@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/03-technology-combinations/04-sozialrecht-domain.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Домен: немецкое социальное право
 

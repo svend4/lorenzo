@@ -66,3 +66,14 @@
 # Запуск
 python scripts/improve_word_cloud.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [.md](autofilled/components/.md)
+- [cowork](autofilled/components/cowork.md)
+- [ingit](autofilled/components/ingit.md)
+- [lorenzo](autofilled/components/lorenzo.md)
+

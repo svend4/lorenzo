@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -11,7 +11,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 5. Compatibility Levels
@@ -50,7 +50,10 @@ h2. Contents
 
 
 
-{quote}NPP определяет 4 уровня совместимости Repo с экосистемой. Это{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Compatibility Levels(5-compatibility-levels) - Level 0 — Discoverable(level-0-discoverable) - Level 1 — Readable(level-1-readable) - Level 2 — Linked(level-2-linked) - Level 3 — In{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,{quote}
 
 ----
 

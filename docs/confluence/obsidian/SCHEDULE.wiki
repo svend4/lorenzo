@@ -1,20 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/SCHEDULE.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Расписание проекта"
 tags:
-  * memory
-  * security
-  * knowledge
-  * ingestion
-  * architecture
-  * roadmap
-  * collaboration
+  * schedule
+  * docs
   * general
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Расписание проекта
@@ -27,13 +22,9 @@ h1. Расписание проекта
 
 
 
-{quote}_Дорожная карта с вехами и задачами по кварталам._{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
-
-----
 
 
-
+{quote}{{SCHEDULE}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -88,13 +79,20 @@ h2. Текущий статус
 * Текущая фаза: _Контакты с авторами_
 * Следующая веха: _⬜ Написать авторам AgentFS, Yodoca, NGT_
 
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+
 
 
 ----
 
 _Кто ссылается на этот документ (9):_
 * [[DENSITY]]
-* [[DEPENDABOT]]
+* [[HEATMAP]]
 * [[INDEX]]
 * [[OUTLINE]]
 * [[READABILITY]]
@@ -102,4 +100,15 @@ _Кто ссылается на этот документ (9):_
 * [[README]]
 * [[SEARCH]]
 * _...ещё 1_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[SUMMARIES]]
+* [[GRAPH]]
+* [[MINDMAP]]
+* [[COVERAGE]]
 

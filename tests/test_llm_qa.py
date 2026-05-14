@@ -438,3 +438,458 @@ def test_put_cached_stores_answer():
     cache = {}
     mod.put_cached("What is agent?", "An agent is a system.", cache)
     assert len(cache) == 1
+
+
+# ── load_cache / save_cache ───────────────────────────────────────────────────
+
+def test_load_cache_reads_existing(tmp_path, monkeypatch):
+    cache_data = {"abc123": {"question": "test?", "answer": "answer"}}
+    cache_file = tmp_path / "cache.json"
+    cache_file.write_text(json.dumps(cache_data), encoding="utf-8")
+    monkeypatch.setattr(mod, "CACHE_PATH", cache_file)
+    monkeypatch.setattr(mod, "NO_CACHE", False)
+    result = mod.load_cache()
+    assert "abc123" in result
+
+
+def test_load_cache_bad_json_returns_empty(tmp_path, monkeypatch):
+    cache_file = tmp_path / "cache.json"
+    cache_file.write_text("NOT VALID JSON {{{{", encoding="utf-8")
+    monkeypatch.setattr(mod, "CACHE_PATH", cache_file)
+    monkeypatch.setattr(mod, "NO_CACHE", False)
+    result = mod.load_cache()
+    assert isinstance(result, dict)
+
+
+def test_save_cache_writes_file(tmp_path, monkeypatch):
+    cache_file = tmp_path / "cache.json"
+    monkeypatch.setattr(mod, "CACHE_PATH", cache_file)
+    monkeypatch.setattr(mod, "NO_CACHE", False)
+    mod.save_cache({"key": {"answer": "val"}})
+    assert cache_file.exists()
+
+
+def test_save_cache_no_cache_skips(tmp_path, monkeypatch):
+    cache_file = tmp_path / "cache.json"
+    monkeypatch.setattr(mod, "CACHE_PATH", cache_file)
+    monkeypatch.setattr(mod, "NO_CACHE", True)
+    mod.save_cache({"key": {"answer": "val"}})
+    assert not cache_file.exists()
+
+
+# ── append_to_qa_answers ──────────────────────────────────────────────────────
+
+def test_append_to_qa_answers_creates_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", tmp_path / "QA_ANSWERS.md")
+    docs = [{"title": "Test Doc", "path": "test.md"}]
+    mod.append_to_qa_answers("What is agent?", "An agent is a system.", docs)
+    assert (tmp_path / "QA_ANSWERS.md").exists()
+
+
+def test_append_to_qa_answers_appends_twice(tmp_path, monkeypatch):
+    qa_file = tmp_path / "QA_ANSWERS.md"
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", qa_file)
+    docs = [{"title": "Doc", "path": "doc.md"}]
+    mod.append_to_qa_answers("Q1?", "A1", docs)
+    mod.append_to_qa_answers("Q2?", "A2", docs)
+    content = qa_file.read_text(encoding="utf-8")
+    assert "Q1?" in content
+    assert "Q2?" in content
+
+
+# ── ask_llm ───────────────────────────────────────────────────────────────────
+
+def test_ask_llm_calls_client():
+    from unittest.mock import MagicMock
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Mock answer")]
+    mock_client.messages.create.return_value = mock_resp
+    result = mod.ask_llm("What is agent?", "context text", mock_client)
+    assert result == "Mock answer"
+
+
+# ── ask_llm_with_history ──────────────────────────────────────────────────────
+
+def test_ask_llm_with_history_empty():
+    from unittest.mock import MagicMock
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Answer without history")]
+    mock_client.messages.create.return_value = mock_resp
+    result = mod.ask_llm_with_history("Q?", "context", [], mock_client)
+    assert result == "Answer without history"
+
+
+def test_ask_llm_with_history_has_history():
+    from unittest.mock import MagicMock
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Answer with history")]
+    mock_client.messages.create.return_value = mock_resp
+    history = [{"q": "Previous question here", "a": "Previous answer here"}]
+    result = mod.ask_llm_with_history("Follow-up?", "context", history, mock_client)
+    assert result == "Answer with history"
+
+
+def test_ask_llm_with_history_long_answer():
+    from unittest.mock import MagicMock
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="New answer")]
+    mock_client.messages.create.return_value = mock_resp
+    # long answer > 300 chars triggers truncation path
+    long_a = "x" * 400
+    history = [{"q": "Long question?", "a": long_a}]
+    result = mod.ask_llm_with_history("Next?", "context", history, mock_client)
+    assert result == "New answer"
+
+
+# ── single_question ───────────────────────────────────────────────────────────
+
+def _qa_index():
+    return [{"title": "Memory Doc", "content": "память консолидация агент systems",
+             "path": "mem.md", "preview": "", "tags": ["memory"]}]
+
+
+def test_single_question_dry_run(monkeypatch):
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SAVE", False)
+    result = mod.single_question("Что такое память?", _qa_index(), client=None, cache=None)
+    assert result == ""
+
+
+def test_single_question_cached(monkeypatch):
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SAVE", False)
+    cache = {}
+    mod.put_cached("Что такое память?", "Память — это хранилище.", cache)
+    result = mod.single_question("Что такое память?", _qa_index(), client=None, cache=cache)
+    assert result == "Память — это хранилище."
+
+
+def test_single_question_with_llm(monkeypatch, tmp_path):
+    from unittest.mock import MagicMock
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "cache.json")
+    monkeypatch.setattr(mod, "NO_CACHE", False)
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="LLM answer")]
+    mock_client.messages.create.return_value = mock_resp
+    result = mod.single_question("Что такое память?", _qa_index(), mock_client, {})
+    assert result == "LLM answer"
+
+
+def test_single_question_with_save(monkeypatch, tmp_path):
+    from unittest.mock import MagicMock
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SAVE", True)
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", tmp_path / "QA_ANSWERS.md")
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "cache.json")
+    monkeypatch.setattr(mod, "NO_CACHE", False)
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Saved answer")]
+    mock_client.messages.create.return_value = mock_resp
+    result = mod.single_question("Что такое память?", _qa_index(), mock_client, {})
+    assert result == "Saved answer"
+    assert (tmp_path / "QA_ANSWERS.md").exists()
+
+
+def test_single_question_cached_with_save(monkeypatch, tmp_path):
+    from unittest.mock import MagicMock
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SAVE", True)
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", tmp_path / "QA_ANSWERS.md")
+    cache = {}
+    mod.put_cached("Что такое память?", "Cached answer here.", cache)
+    result = mod.single_question("Что такое память?", _qa_index(), client=None, cache=cache)
+    assert result == "Cached answer here."
+    assert (tmp_path / "QA_ANSWERS.md").exists()
+
+
+# ── interactive_mode ──────────────────────────────────────────────────────────
+
+def test_interactive_mode_exit(monkeypatch):
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "SAVE", False)
+    with patch("builtins.input", return_value="exit"):
+        mod.interactive_mode(_qa_index(), MagicMock(), {})
+
+
+def test_interactive_mode_eoferror(monkeypatch):
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "SAVE", False)
+    with patch("builtins.input", side_effect=EOFError()):
+        mod.interactive_mode([], MagicMock(), {})
+
+
+def test_interactive_mode_keyboard_interrupt(monkeypatch):
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "SAVE", False)
+    with patch("builtins.input", side_effect=KeyboardInterrupt()):
+        mod.interactive_mode([], MagicMock(), {})
+
+
+def test_interactive_mode_with_question(monkeypatch, tmp_path):
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "SAVE", False)
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Interactive answer")]
+    mock_client.messages.create.return_value = mock_resp
+    inputs = iter(["Что такое память агент?", "exit"])
+    with patch("builtins.input", side_effect=inputs):
+        with patch.object(mod.time, "sleep"):
+            mod.interactive_mode(_qa_index(), mock_client, {})
+
+
+def test_interactive_mode_uses_cache(monkeypatch):
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "SAVE", False)
+    cache = {}
+    mod.put_cached("Что такое память агент?", "Cached interactive answer.", cache)
+    inputs = iter(["Что такое память агент?", "exit"])
+    with patch("builtins.input", side_effect=inputs):
+        with patch.object(mod.time, "sleep"):
+            mod.interactive_mode(_qa_index(), MagicMock(), cache)
+
+
+def test_interactive_mode_with_save(monkeypatch, tmp_path):
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "SAVE", True)
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", tmp_path / "QA_ANSWERS.md")
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "cache.json")
+    monkeypatch.setattr(mod, "NO_CACHE", False)
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Saved interactive answer")]
+    mock_client.messages.create.return_value = mock_resp
+    inputs = iter(["Что такое агент память?", "exit"])
+    with patch("builtins.input", side_effect=inputs):
+        with patch.object(mod.time, "sleep"):
+            mod.interactive_mode(_qa_index(), mock_client, {})
+    assert (tmp_path / "QA_ANSWERS.md").exists()
+
+
+# ── batch_mode ────────────────────────────────────────────────────────────────
+
+def test_batch_mode_with_questions(monkeypatch, tmp_path):
+    from unittest.mock import MagicMock, patch
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", tmp_path / "QA_ANSWERS.md")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    questions_file = tmp_path / "questions.md"
+    questions_file.write_text(
+        "- Что такое агент с памятью консолидацией?\n"
+        "- Как работает NGT Memory граф системы?\n",
+        encoding="utf-8"
+    )
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Batch LLM answer")]
+    mock_client.messages.create.return_value = mock_resp
+    cache = {}
+    with patch.object(mod.time, "sleep"):
+        mod.batch_mode(questions_file, _qa_index(), mock_client, cache)
+    assert (tmp_path / "QA_ANSWERS.md").exists()
+
+
+def test_batch_mode_cached(monkeypatch, tmp_path):
+    from unittest.mock import MagicMock, patch
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", tmp_path / "QA_ANSWERS.md")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    questions_file = tmp_path / "questions.md"
+    questions_file.write_text(
+        "- Что такое агент с памятью консолидацией?\n",
+        encoding="utf-8"
+    )
+    cache = {}
+    mod.put_cached("Что такое агент с памятью консолидацией?", "Pre-cached answer.", cache)
+    with patch.object(mod.time, "sleep"):
+        mod.batch_mode(questions_file, _qa_index(), MagicMock(), cache)
+
+
+def test_batch_mode_no_sources(monkeypatch, tmp_path):
+    from unittest.mock import MagicMock
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", tmp_path / "QA_ANSWERS.md")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    questions_file = tmp_path / "questions.md"
+    questions_file.write_text("- Xyz nonexistent topic zqr?\n", encoding="utf-8")
+    mod.batch_mode(questions_file, [], MagicMock(), {})
+
+
+# ── main() additional ─────────────────────────────────────────────────────────
+
+def test_main_clear_cache_file_exists(tmp_path, monkeypatch):
+    cache_file = tmp_path / "qa_cache.json"
+    cache_file.write_text("{}", encoding="utf-8")
+    monkeypatch.setattr(mod, "CACHE_PATH", cache_file)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", True)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    mod.main()
+    assert not cache_file.exists()
+
+
+def test_main_cache_printed(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "NO_CACHE", False)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_cache", lambda: {"key": {"answer": "val"}})
+    monkeypatch.setattr(mod, "load_index", lambda: _qa_index())
+    monkeypatch.setattr(sys, "argv", ["prog"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "Кэш" in out
+
+
+def test_main_no_index_exits(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "NO_CACHE", True)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_cache", lambda: {})
+    monkeypatch.setattr(mod, "load_index", lambda: [])
+    monkeypatch.setattr(sys, "argv", ["prog"])
+    with pytest.raises(SystemExit):
+        mod.main()
+
+
+def test_main_dry_run_with_question_arg(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "NO_CACHE", True)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_cache", lambda: {})
+    monkeypatch.setattr(mod, "load_index", lambda: _qa_index())
+    monkeypatch.setattr(sys, "argv", ["prog", "--question", "Что такое агент память?"])
+    mod.main()
+
+
+def test_main_dry_run_with_batch_arg(tmp_path, monkeypatch):
+    questions_file = tmp_path / "questions.md"
+    questions_file.write_text("- Что такое агент?\n", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "NO_CACHE", True)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_cache", lambda: {})
+    monkeypatch.setattr(mod, "load_index", lambda: _qa_index())
+    monkeypatch.setattr(sys, "argv", ["prog", "--batch", str(questions_file)])
+    mod.main()
+
+
+def test_main_no_anthropic_exits(tmp_path, monkeypatch):
+    from unittest.mock import patch
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "NO_CACHE", True)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_cache", lambda: {})
+    monkeypatch.setattr(mod, "load_index", lambda: _qa_index())
+    monkeypatch.setattr(sys, "argv", ["prog"])
+    with patch.dict(sys.modules, {"anthropic": None}):
+        with pytest.raises(SystemExit):
+            mod.main()
+
+
+def test_main_with_question_arg_and_anthropic(tmp_path, monkeypatch):
+    from unittest.mock import MagicMock, patch
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "NO_CACHE", False)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_cache", lambda: {})
+    monkeypatch.setattr(mod, "load_index", lambda: _qa_index())
+    monkeypatch.setattr(sys, "argv", ["prog", "--question", "Что такое агент память?"])
+    mock_anthropic = MagicMock()
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Main answer")]
+    mock_client.messages.create.return_value = mock_resp
+    mock_anthropic.Anthropic.return_value = mock_client
+    with patch.dict(sys.modules, {"anthropic": mock_anthropic}):
+        mod.main()
+
+
+def test_main_interactive_mode(tmp_path, monkeypatch):
+    from unittest.mock import MagicMock, patch
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "NO_CACHE", True)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_cache", lambda: {})
+    monkeypatch.setattr(mod, "load_index", lambda: _qa_index())
+    monkeypatch.setattr(sys, "argv", ["prog"])
+    mock_anthropic = MagicMock()
+    mock_client = MagicMock()
+    mock_anthropic.Anthropic.return_value = mock_client
+    with patch("builtins.input", return_value="exit"):
+        with patch.dict(sys.modules, {"anthropic": mock_anthropic}):
+            mod.main()
+
+
+def test_main_batch_mode_via_argv(tmp_path, monkeypatch):
+    from unittest.mock import MagicMock, patch
+    questions_file = tmp_path / "questions.md"
+    questions_file.write_text("- Что такое агент память консолидация?\n", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "QA_ANSWERS_PATH", tmp_path / "QA_ANSWERS.md")
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "NO_CACHE", True)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_cache", lambda: {})
+    monkeypatch.setattr(mod, "load_index", lambda: _qa_index())
+    monkeypatch.setattr(sys, "argv", ["prog", "--batch", str(questions_file)])
+    mock_anthropic = MagicMock()
+    mock_client = MagicMock()
+    mock_resp = MagicMock()
+    mock_resp.content = [MagicMock(text="Batch answer")]
+    mock_client.messages.create.return_value = mock_resp
+    mock_anthropic.Anthropic.return_value = mock_client
+    with patch.object(mod.time, "sleep"):
+        with patch.dict(sys.modules, {"anthropic": mock_anthropic}):
+            mod.main()
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 480: __main__ block."""
+    import runpy
+    from unittest.mock import patch
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--dry-run"]
+        monkeypatch.setattr(mod, "DOCS", tmp_path)
+        monkeypatch.setattr(mod, "ROOT", tmp_path)
+        script_path = str(ROOT / "scripts" / "improve_llm_qa.py")
+        runpy.run_path(script_path, run_name="__main__")
+    finally:
+        sys.argv = orig_argv

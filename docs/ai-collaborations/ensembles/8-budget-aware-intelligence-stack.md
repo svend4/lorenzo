@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, knowledge]
+state: approved
+---
+
 # Ансамбль 8 — Budget-Aware Intelligence Stack
 
 <!-- toc-auto -->
@@ -13,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных рекомендаций научных статей старый SVM/TF-IDF может быть быстрее, дешевле и интерпретируемее; гибрид SVM + LLM оценивается как production-вариант для высоких требован
 **Проекты:** Svyazi, Tool Search
 
 ---

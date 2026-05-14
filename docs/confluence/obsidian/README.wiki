@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * index
   * overview
   * general
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. docs
@@ -112,7 +112,6 @@ h2. Содержание
 * [[SIMILAR|SIMILAR.md]] — > [!TIP]
 * [[SIMILAR_PASSAGES|SIMILAR_PASSAGES.md]] — > [!TIP]
 * [[SITEMAP|SITEMAP.md]] — _Обновлено: 2026-04-29_
-* [[SKILL_DASHBOARD|SKILL_DASHBOARD.md]] — 
 * [[SOURCE_MAP|SOURCE_MAP.md]] — _Обновлено: 2026-04-29_
 * [[SPELLCHECK|SPELLCHECK.md]] — _Обновлено: 2026-04-29_
 * [[STALENESS|STALENESS.md]] — _Порог: 30 дней. Обновлено: 2026-04-29_

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # References
 
 > [!NOTE]
@@ -19,7 +23,16 @@
 
 
 <!-- summary -->
-> - Anderson, J. R. (1983). *The Architecture of Cognition*.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Foundational Sources for Composite Architecture Pattern of Composite Mastery
+ References
+ Foundational Sources for Composite Architecture
+ Pattern of Composite Mastery
+ Multi-Agent Coordination
+ Practical Examples
+ Companion Documents in This Series
+ --
+ 
+> - Anderson, J.
 
 ---
 <!-- tags: rag, architecture, collaboration -->

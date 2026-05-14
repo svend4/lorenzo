@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # The Specific Case in Front of Us
 
 > [!NOTE]

@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 3. What InGit Provides That Cowork Lacks
 
@@ -20,8 +24,8 @@ h1. 3. What InGit Provides That Cowork Lacks
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: If you use Cowork extensively and later need to switch platforms (Gemini, GPT, local models), Cowork-specific patterns don't transfer.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Equally important: where does InGit add value that Cowork{quote}

@@ -1,21 +1,12 @@
 # Callout-блоки
 
-<!-- summary -->
-> Добавлено **25** callout-блоков в документы.
-
----
-<!-- tags: ingestion -->
-
-
-
-
-Добавлено **25** callout-блоков в документы.
+Добавлено **22** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
 |-----|------------|------------|
-| `[!NOTE]` | 7 | Нейтральная заметка |
-| `[!TIP]` | 13 | Практический совет |
-| `[!WARNING]` | 5 | Предупреждение о риске |
+| `[!NOTE]` | 9 | Нейтральная заметка |
+| `[!TIP]` | 9 | Практический совет |
+| `[!WARNING]` | 4 | Предупреждение о риске |
 | `[!IMPORTANT]` | 0 | Ключевой документ |
 
 ## Пример синтаксиса
@@ -40,14 +31,14 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ---
 
-**Кто ссылается на этот документ (10):**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+**Кто ссылается на этот документ (12):**
+- [AUTHORS](AUTHORS.md)
+- [DIGEST](DIGEST.md)
+- [ENTITIES](ENTITIES.md)
+- [HEALTH](HEALTH.md)
 - [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
-- [READING_LIST](READING_LIST.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- _...ещё 2_
+- _...ещё 4_
 

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Appendix A: Decision Tree for InGit Adopters"
 tags:
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Appendix A: Decision Tree for InGit Adopters
@@ -31,8 +31,8 @@ h2. Contents
 
 
 
-
 {quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}Quick reference for users evaluating InGit + Cowork:{quote}

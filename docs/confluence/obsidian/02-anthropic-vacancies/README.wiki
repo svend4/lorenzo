@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -14,7 +14,7 @@ tags:
   * svend4
   * nautilus
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Вакансии Anthropic — Анализ по кластерам

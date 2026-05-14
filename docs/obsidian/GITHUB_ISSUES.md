@@ -2,7 +2,7 @@
 title: "GitHub Issues — список задач"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # GitHub Issues — список задач
@@ -20,7 +20,7 @@ date: 2026-05-11
 > `GITHUB_ISSUES` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
 Найдено задач: **293**
 
@@ -67,7 +67,8 @@ _Обновлено: 2026-05-11_
 
 ## `docs/SCRIPTS_CATALOG.md` (1 задач)
 
-- [ ] **из docs/. | |**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 3 [91. Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 10 [Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
 
 ## `docs/SPELLCHECK.md` (1 задач)
 
@@ -75,7 +76,7 @@ _Обновлено: 2026-05-11_
 
 ## `docs/STATS.md` (1 задач)
 
-- [ ] **меток: 109**  _`docs`, `automation`_
+- [ ] **меток: 110**  _`docs`, `automation`_
 
 ## `docs/TABLES.md` (1 задач)
 
@@ -246,7 +247,7 @@ _Обновлено: 2026-05-11_
 
 ## `docs/obsidian/STATS.md` (1 задач)
 
-- [ ] **меток: 109**  _`docs`, `automation`_
+- [ ] **меток: 113**  _`docs`, `automation`_
 
 ## `docs/obsidian/TABLES.md` (1 задач)
 
@@ -579,3 +580,29 @@ python scripts/improve_github_issues.py
 - [[DECISIONS|Решения]]
 - [[CONTACTS|Контакты]]
 - [[SCORING|Оценка]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [[116-9-checklist-применения-методологии]]
+- [[PROTOTYPE_SPEC]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[10-checklist]]
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[10-checklist]]
+- [[116-9-checklist-применения-методологии]]
+- [[CONTACTS]]
+- [[CONTACT_PRIORITY]]
+

@@ -6,7 +6,7 @@ tags:
   - architecture
   - collaboration
   - habr-projects
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Yodoca[^yodoca]: консолидация и забывание

@@ -4,7 +4,7 @@ tags:
   - rag
   - ingestion
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 6. Coordination and Disagreement Resolution
@@ -25,8 +25,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: They differ on specific issue: A says X; B says Y." Helps principal see what is settled and what is contested.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The composite agent's most subtle function is coordinating

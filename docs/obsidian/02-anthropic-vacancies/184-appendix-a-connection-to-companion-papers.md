@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix A: Connection to Companion Papers
@@ -29,8 +29,8 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. This paper builds on three previous documents: This paper builds on three previous documents:
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > This paper builds on three previous documents:

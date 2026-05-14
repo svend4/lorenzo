@@ -1,19 +1,19 @@
 # Автодайджест изменений
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `DIGEST_AUTO` формируется автоматически из данных репозитория.
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
 
 <!-- alert-added -->
-<!-- tags: digest-auto, docs -->
-
 
 <!-- summary -->
-> `DIGEST_AUTO` — раздел документации проекта Lorenzo.
+> _Период: 2026-05-07 — 2026-05-14 (7 дней)_
+**Проекты:** Svyazi
+
+---
 
 
-_Период: 2026-05-04 — 2026-05-11 (7 дней)_
+
+_Период: 2026-05-07 — 2026-05-14 (7 дней)_
 
 ---
 
@@ -21,107 +21,109 @@ _Период: 2026-05-04 — 2026-05-11 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **118** |
+| Коммитов | **67** |
 | Новых файлов | **20** |
-| Изменённых файлов | **20** |
-| Слов добавлено | **+6,197,330** |
-| Слов удалено | **−2,866,545** |
+| Изменённых файлов | **0** |
+| Слов добавлено | **+1,218,323** |
+| Слов удалено | **−1,281,641** |
 
 ## Активность по секциям
 
 | Секция | Изменений |
 |--------|-----------|
-| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 1663 |
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 2048 |
 | `obsidian` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 379 |
 | `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
 | `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 225 |
+| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 218 |
 | `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
-| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 72 |
 | `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
 | `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 60 |
 
 ## Последние коммиты
 
-- `2026-05-11` [02c362fe] chore: regenerate auto-generated docs artifacts
-- `2026-05-11` [351a135d] test: add 74 tests for improve_contact_status, improve_kpi_snapshot, i
-- `2026-05-11` [7e4ee06b] chore: regenerate auto-generated docs artifacts
-- `2026-05-11` [2b05200b] test: add 95 tests for improve_export_csv, improve_scoring, improve_wo
-- `2026-05-11` [0623cb16] chore: regenerate auto-generated docs artifacts
-- `2026-05-11` [e734762d] test: add 52 tests for improve_watcher, improve_self, improve_card_ind
-- `2026-05-11` [7ff328ed] chore: regenerate all auto-generated docs artifacts after smart pipeli
-- `2026-05-11` [4a6e7a87] chore: update auto-generated docs artifacts
-- `2026-05-11` [a345c19d] test: add 95 tests for improve_llm_qa, improve_abstract, improve_bench
-- `2026-05-11` [cda0f08a] test: +54 теста — test_status_badges.py + test_autofill.py; итого 394
+- `2026-05-13` [3f67a595] feat: Iteration 15 — CI Quality Gate + Multi-Query + Feedback Loop
+- `2026-05-13` [9a5107a0] feat: Iteration 14 — Search Boost + Digest + Snapshot + Contact Drafts
+- `2026-05-13` [5524f21e] feat: Iteration 13 — ANN Index + Query Analytics + Hot Cards
+- `2026-05-13` [00610ac4] feat: Iteration 12 — PageRank-Boosted Search
+- `2026-05-13` [b240647c] feat: Iteration 11 — Knowledge Graph + Skill Metrics
+- `2026-05-13` [11edba6f] feat: Iteration 10 — Summary Extender + 1005 Approved
+- `2026-05-13` [47cf2b2b] feat: Iteration 9 — Progressive Summarize + SSE Streaming
+- `2026-05-13` [04651832] chore: commit auto-summarize state changes across docs
+- `2026-05-13` [b79ec908] feat: Iteration 8 — Auto-Summarize + Promote Lift
+- `2026-05-13` [53f64dee] feat: Iteration 7 — Production Hardening
 
 ## Новые файлы
 
-- `test_complexity.py` — `root`
-- `test_contact_status.py` — `root`
-- `test_kpi_snapshot.py` — `root`
-- `test_export_csv.py` — `root`
-- `test_scoring.py` — `root`
-- `test_workflow_run.py` — `root`
-- `test_card_index.py` — `root`
-- `test_self.py` — `root`
-- `test_watcher.py` — `root`
-- `test_abstract.py` — `root`
-- `test_benchmark.py` — `root`
-- `test_llm_qa.py` — `root`
-- `test_autofill.py` — `root`
-- `test_status_badges.py` — `root`
-- `test_metrics.py` — `root`
-
-## Изменённые файлы
-
-- [`ABBREVIATIONS.md`](ABBREVIATIONS.md)
-- [`ACTION_ITEMS.md`](ACTION_ITEMS.md)
-- [`ALERTS.md`](ALERTS.md)
-- [`AUTHORS.md`](AUTHORS.md)
-- [`BACKLINKS.md`](BACKLINKS.md)
-- [`BROKEN_LINKS.md`](BROKEN_LINKS.md)
-- [`CHANGELOG.md`](CHANGELOG.md)
-- [`CLUSTERS.md`](CLUSTERS.md)
-- [`CODE_BLOCKS.md`](CODE_BLOCKS.md)
-- [`COMPARE.md`](COMPARE.md)
-- [`COMPLEXITY.md`](COMPLEXITY.md)
-- [`CONCEPTS.md`](CONCEPTS.md)
-- [`CONTACTS.md`](CONTACTS.md)
-- [`CONTACT_PRIORITY.md`](CONTACT_PRIORITY.md)
-- [`CONTENT_GAPS.md`](CONTENT_GAPS.md)
+- [`FEEDBACK_LOOP.md`](FEEDBACK_LOOP.md) — `FEEDBACK_LOOP.md`
+- `improve_feedback_loop.py` — `Скрипты`
+- `improve_multi_query.py` — `Скрипты`
+- [`KNOWLEDGE_SNAPSHOT.md`](KNOWLEDGE_SNAPSHOT.md) — `KNOWLEDGE_SNAPSHOT.md`
+- [`AnastasiyaW_draft.md`](contacts/AnastasiyaW_draft.md) — `Контакты`
+- [`Antipozitive_draft.md`](contacts/Antipozitive_draft.md) — `Контакты`
+- [`Cutcode_draft.md`](contacts/Cutcode_draft.md) — `Контакты`
+- [`Dmitriila_draft.md`](contacts/Dmitriila_draft.md) — `Контакты`
+- [`MiXaiLL76_draft.md`](contacts/MiXaiLL76_draft.md) — `Контакты`
+- [`Sonia_Black_draft.md`](contacts/Sonia_Black_draft.md) — `Контакты`
+- [`VitaliySemenov_draft.md`](contacts/VitaliySemenov_draft.md) — `Контакты`
+- [`VitalyOborin_draft.md`](contacts/VitalyOborin_draft.md) — `Контакты`
+- [`VladSpace_draft.md`](contacts/VladSpace_draft.md) — `Контакты`
+- [`andrey_chuyan_draft.md`](contacts/andrey_chuyan_draft.md) — `Контакты`
+- [`kksudo_draft.md`](contacts/kksudo_draft.md) — `Контакты`
 
 ## Ключевые слова изменений
 
 | Слово | Добавлено | Удалено |
 |-------|-----------|---------|
-| `anthropic` | +119394 | −81568 |
-| `vacancies` | +93008 | −67084 |
-| `nautilus` | +70589 | −24442 |
-| `obsidian` | +54638 | −9503 |
-| `agent` | +50633 | −21401 |
-| `документ` | +48684 | −4485 |
-| `использование` | +43747 | −169 |
-| `readme` | +41997 | −8742 |
-| `heading` | +38974 | −8984 |
-| `svyazi` | +37702 | −21753 |
-| `смотрите` | +35877 | −6134 |
-| `также` | +35837 | −6448 |
-| `документы` | +34813 | −8594 |
-| `code` | +34219 | −9774 |
-| `быстро` | +33785 | −10078 |
+| `anthropic` | +48250 | −27423 |
+| `vacancies` | +42366 | −19305 |
+| `from` | +19327 | −959 |
+| `nautilus` | +14763 | −13600 |
+| `obsidian` | +11784 | −11774 |
+| `readme` | +11440 | −9688 |
+| `svyazi` | +10916 | −11459 |
+| `agent` | +10681 | −10484 |
+| `документ` | +9571 | −11941 |
+| `lorenzo` | +7987 | −9283 |
+| `habr` | +6540 | −5796 |
+| `projects` | +5216 | −6270 |
+| `репозитория` | +5133 | −7846 |
+| `combinations` | +4990 | −3881 |
+| `lastmod` | +4964 | −4960 |
 
 ## Новые концепты
 
 _Слова появившиеся в этом периоде (≥3 раза):_
 
-`данный`, `вошли`, `разделения`, `заменяем`, `тестируем`, `индексирован`, `актуальной`, `статистики`, `деталям`, `индексированы`, `соблюдению`, `обзорный`, `погружением`, `коллективного`, `исследов`
+`jurisdictio`, `foundat`, `isolati`, `managi`, `impo`, `infrastructu`, `conf`, `specif`, `deve`, `shar`, `archit`, `sequentially`, `конс`, `взаимодополняющие`, `enve`
 
 ---
-_Дайджест сгенерирован автоматически: 2026-05-11_
+_Дайджест сгенерирован автоматически: 2026-05-14_
 
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_digest_auto.py
-```
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (29):**
+- [DIGEST](DIGEST.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
+- [OUTLINE](OUTLINE.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 21_
+

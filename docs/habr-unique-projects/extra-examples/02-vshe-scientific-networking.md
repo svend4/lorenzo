@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # ВШЭ научный нетворкинг — micro-collaborations
 
 <!-- toc-auto -->

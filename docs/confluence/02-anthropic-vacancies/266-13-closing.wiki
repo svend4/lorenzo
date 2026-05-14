@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/266-13-closing.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 13. Closing
 
@@ -20,8 +24,8 @@ h1. 13. Closing
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Building uniquely customized agents serves deep representational needs but cannot scale.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Mastery in skilled work has always been composite. The yoga{quote}

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…
 
 <!-- toc-auto -->
@@ -24,7 +28,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless контрибьюторы — могут ли быть.
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — voiceless контрибьюторы — могут ли быть. Документ содержит описание рисков и ограничений.
 
 ---
 <!-- tags: rag, ingestion, local-first, architecture, roadmap, anthropic, collaboration -->

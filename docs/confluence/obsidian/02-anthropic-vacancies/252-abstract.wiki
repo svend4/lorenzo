@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/252-abstract.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Abstract"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Abstract
@@ -46,7 +47,11 @@ h2. Содержание
 
 
 
-{quote}The five-type taxonomy introduced in Professional Colleague{quote}
+{quote}_ Abstract The five-type taxonomy introduced in Professional Colleague --- Abstract The five-type taxonomy introduced in. _ Most skilled professionals occupy a middle zone: not generic practitioners of a profession, not unique individuals bey{quote}
+practitioners of a profession, not unique individuals beyond 
+categorization, but composite specialists — practitioners 
+whose distinctive value comes from a particular combination of 
+nar
 
 ----
 

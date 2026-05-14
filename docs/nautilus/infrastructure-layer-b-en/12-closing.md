@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Closing
 
 <!-- toc-auto -->

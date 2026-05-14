@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/160-6-governance-and-ethics.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * roadmap
   * anthropic
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 6. Governance and Ethics
@@ -48,7 +48,10 @@ h2. Содержание
 
 
 
-{quote}_Board of Directors_ (7 members):{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Ethical Red Lines Foundation will not: - Support projects intended for military use - Accept funding contingent on compromising commitment 1-7 - Use contributor data for AI trainin{quote}
+{quote}🔧 Подход: Disability rights (all{quote}
 
 ----
 

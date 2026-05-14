@@ -2,8 +2,9 @@
 title: "7. Governance and Oversight"
 tags:
   - roadmap
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 7. Governance and Oversight
@@ -27,10 +28,16 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> Effective Representative Agent systems require governance
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. When agent operations cause harm or disputes: First level: Principal-platform direct resolution
+When agent operations cause harm or disputes:
+First level: Principal-platform direct resolution 
+(refund, correction, restoration)
+Second level: Independent ombudsman within platform
+Third level: External arbitration
+Fourth level:
 
 ---
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

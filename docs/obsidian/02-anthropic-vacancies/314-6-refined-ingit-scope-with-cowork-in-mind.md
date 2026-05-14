@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 6. Refined InGit Scope with Cowork in Mind
@@ -56,7 +56,10 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> The original InGit roadmap (10-16 months to v1.0) reflected
+> > Абстракт (авто)
+>
+> 🎯 Проблема: --- --- Похожие документы: - 310-2-what-cowork-provides-that-ingit-doesn-t-need-to-(docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство
+> ✅ Результат: Net timeline: From 1
 
 ---
 <!-- tags: architecture, roadmap -->

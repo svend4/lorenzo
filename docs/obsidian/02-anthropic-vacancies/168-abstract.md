@@ -2,8 +2,9 @@
 title: "Abstract"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Abstract
@@ -39,10 +40,18 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> We introduce the **Representative Agent Layer** — an architectural
+> * Each category exhibits the same structural problem: gap between value created or held and capacity to make that value. * We propose architectural specifications, ethical commitments, governance structures, and rollout pathways
+>
+ 
+> We introduce the Representative Agent Layer — an architectural
+ --
+ 
+Abstract
+We introduce the Representative Agent Layer — an architectural 
+pattern in which AI systems serve as proactive representat
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

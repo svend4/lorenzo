@@ -31,5 +31,38 @@
     "kpis": 737,
     "questions": 484,
     "actions": 0
+  },
+  {
+    "date": "2026-05-12",
+    "docs": 2497,
+    "words": 2932816,
+    "scripts": 166,
+    "scoring": 96,
+    "health": 100,
+    "kpis": 737,
+    "questions": 45,
+    "actions": 0
+  },
+  {
+    "date": "2026-05-13",
+    "docs": 2492,
+    "words": 2828318,
+    "scripts": 166,
+    "scoring": 96,
+    "health": 99,
+    "kpis": 737,
+    "questions": 484,
+    "actions": 0
+  },
+  {
+    "date": "2026-05-14",
+    "docs": 2606,
+    "words": 2976824,
+    "scripts": 186,
+    "scoring": 96,
+    "health": 99,
+    "kpis": 737,
+    "questions": 45,
+    "actions": 0
   }
 ]

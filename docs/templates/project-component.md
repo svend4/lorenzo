@@ -1,5 +1,9 @@
 # [Название компонента]
 
+
+<!-- summary -->
+> Раздел project-component формируется автоматически из данных репозитория. [Описание проекта в 2-3 предложениях.
+
 > [!NOTE]
 > Раздел `project-component` формируется автоматически из данных репозитория.
 
@@ -37,23 +41,7 @@
 - Статус связи: [не писали / написали / ответили]
 
 ---
-_Создано: 2026-05-11_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [REGISTRY](../REGISTRY.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [research-summary](../autofilled/research-summary.md)
-- [README](README.md)
-- [agent-spec](agent-spec.md)
-- _...ещё 2_
-
+_Создано: 2026-05-13_
 
 
 ## Использование
@@ -61,3 +49,26 @@ _Создано: 2026-05-11_
 # Запуск
 python scripts/improve_project_component.py
 ```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [README](README.md)
+- [agent-spec](agent-spec.md)
+- [mega-stack](mega-stack.md)
+- _...ещё 1_
+

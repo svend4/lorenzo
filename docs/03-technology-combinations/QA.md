@@ -4,15 +4,27 @@
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 5 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space
-
----
-<!-- tags: rag, knowledge, ingestion, architecture -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. _Не найдено в этом файле._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 5 файлам раздела._
@@ -49,6 +61,20 @@ _Не найдено в этом файле._
 
 _Не найдено в этом файле._
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
 <!-- backlinks -->
 
 ---
@@ -60,21 +86,4 @@ _Не найдено в этом файле._
 - [READING_TIME](../READING_TIME.md)
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/03-technology-combinations/QA.md) (сходство 0.97)
-- [QA](../processing-guide/QA.md) (сходство 0.51)
-- [QA](../lorenzo-agent/QA.md) (сходство 0.50)
 

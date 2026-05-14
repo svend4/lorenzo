@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * roadmap
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 6. Refined InGit Scope with Cowork in Mind
@@ -61,7 +61,10 @@ h2. Содержание
 
 
 
-{quote}The original InGit roadmap (10-16 months to v1.0) reflected{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: --- --- Похожие документы: - 310-2-what-cowork-provides-that-ingit-doesn-t-need-to-(docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство{quote}
+{quote}✅ Результат: Net timeline: From 1{quote}
 
 ----
 

@@ -1,9 +1,18 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/359-твои-anti-patterns.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
+----
+state: approved
+----
+
 h1. Твои anti-patterns
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
 
 
 h2. Contents
@@ -20,7 +29,7 @@ h2. Contents
 
 
 
-{quote}❌ _Hype language_: «AI revolutionizes everything», «paradigm shift», «game-changer»{quote}
+{quote}❌ _Hype language_: «AI revolutionizes everything», «paradigm shift», «game-changer» Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
 
 ----
 

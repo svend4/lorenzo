@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 7. Open Questions
 
 <!-- abstract-auto -->
@@ -15,7 +19,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The Double-Triangle Architecture is proposed as a framework, not
+> * Open Questions !TIP Документ содержит практические рекомендации и лучшие практики. * Possible approaches: reputation systems, revenue sharing from commercial uses, academic citation as reward, governance
+ Communication overhead at deep recursion levels
+ Consensus model latency at scale
+ Protocol 3 routing efficiency in large trees
+ Governance coherence across many levels
+These require production-scale deployments to answer, which 
+dep
 
 ---
 

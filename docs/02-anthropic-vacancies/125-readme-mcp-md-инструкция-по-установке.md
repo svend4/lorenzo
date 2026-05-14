@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # README-MCP.md— инструкция по установке
 
 <!-- toc-auto -->
@@ -12,10 +16,20 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Отдельный документ для репо, объясняющий, как настроить MCP-обёртку:
+> Документ содержит практические рекомендации и лучшие практики. Status of This Document _25%_ Кто ссылается на этот документ (20) 02-общий-план-развития-nautilus-portal-protocol
+ ⬡ _25%_
+ --
+Кто ссылается на этот документ (20)
+ 02-общий-план-развития-nautilus-portal-protocol
+ 03-portal-protocol-md
+ 05-0-status-of-this-document
+ 105-review-methodology-md
+ 122-глоссарий
+ 123-portal-mcp-py
+ 124-кон
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!TIP]
 > Обзорный документ. Рекомендуется читать перед погружением в детали.

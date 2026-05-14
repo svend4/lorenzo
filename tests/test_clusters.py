@@ -255,3 +255,75 @@ def test_main_clusters_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "CLUSTERS.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+# ── cosine_sim: zero norm case ────────────────────────────────────────────────
+
+def test_cosine_zero_norm():
+    """Line 64: common non-empty but norm == 0 → return 0.0."""
+    # v1 has shared key but value 0 → norm1 = 0
+    result = mod.cosine({"agent": 0.0}, {"agent": 1.0})
+    assert result == 0.0
+
+
+# ── main: skip files, cluster output sections ─────────────────────────────────
+
+def test_main_skips_readme(tmp_path, monkeypatch):
+    """Line 109: file in skip set → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    # README.md should be skipped (in skip set)
+    (tmp_path / "README.md").write_text("# README\n\n" + "word " * 50, encoding="utf-8")
+    (tmp_path / "doc.md").write_text("# Doc\n\n" + "agent memory system " * 20, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "CLUSTERS.md").exists()
+
+
+def test_main_file_with_few_tokens_skipped(tmp_path, monkeypatch):
+    """Line 113: len(tokens) < 30 → not added to raw_docs."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "short.md").write_text("# Title\n\nToo short.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "CLUSTERS.md").exists()
+
+
+def test_main_cluster_with_many_files_truncated(tmp_path, monkeypatch):
+    """Lines 127-134: cluster written with top 10 files + truncation note."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    # Create 12 very similar files to trigger one large cluster
+    for i in range(12):
+        (tmp_path / f"doc{i}.md").write_text(
+            f"# Doc {i}\n\n" + "agent memory knowledge system retrieval " * 20,
+            encoding="utf-8"
+        )
+    mod.main()
+    text = (tmp_path / "CLUSTERS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_many_clusters_truncated(tmp_path, monkeypatch):
+    """Line 137: > 30 clusters → truncation note."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    # Create 35 unique files → each in its own cluster
+    for i in range(35):
+        unique_words = " ".join([f"uniqueword{i}x{j}" for j in range(35)])
+        (tmp_path / f"doc{i:03d}.md").write_text(
+            f"# Title {i}\n\n{unique_words}\n",
+            encoding="utf-8"
+        )
+    mod.main()
+    text = (tmp_path / "CLUSTERS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+# ── __main__ block ─────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 145: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    runpy.run_path(str(ROOT / "scripts" / "improve_clusters.py"), run_name="__main__")

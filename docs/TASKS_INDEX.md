@@ -1,46 +1,6 @@
 # Каталог задач (TASKS_INDEX)
 
-<!-- toc -->
-## Содержание
-
-- [По MCP-серверу](#по-mcp-серверу)
-  - [lorenzo-contacts (1)](#lorenzo-contacts-1)
-  - [lorenzo-graph (4)](#lorenzo-graph-4)
-  - [lorenzo-runner (5)](#lorenzo-runner-5)
-  - [lorenzo-search (3)](#lorenzo-search-3)
-- [Подробно](#подробно)
-  - [`audit-corpus`](#audit-corpus)
-  - [`compare`](#compare)
-  - [`daily-routine`](#daily-routine)
-  - [`find-contradictions`](#find-contradictions)
-  - [`find-gaps`](#find-gaps)
-  - [`generate-rfc`](#generate-rfc)
-  - [`plan-mvp`](#plan-mvp)
-  - [`search`](#search)
-  - [`summarize`](#summarize)
-  - [`synthesize`](#synthesize)
-  - [`track-decisions`](#track-decisions)
-  - [`weekly-review`](#weekly-review)
-  - [`write-contact`](#write-contact)
-- [Использование](#использование)
-
----
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `TASKS_INDEX` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: tasks-index, docs -->
-
-
-<!-- summary -->
-> `TASKS_INDEX` — раздел документации проекта Lorenzo.
-
-
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-14_
 
 **Всего задач:** 13
 
@@ -324,36 +284,4 @@ _Обновлено: 2026-05-11_
 
 **Связанные скилы:** write-contact, propose-collaboration, status
 **Связанные шаблоны:** contact-outreach
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- [prototype-mvp](templates/prototype-mvp.md)
-- [rfc](templates/rfc.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_tasks_index.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [TASKS_INDEX](obsidian/TASKS_INDEX.md) (сходство 0.98)
-- [REGISTRY](REGISTRY.md) (сходство 0.29)
-- [REGISTRY](obsidian/REGISTRY.md) (сходство 0.29)
 

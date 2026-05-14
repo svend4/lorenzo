@@ -1,16 +1,5 @@
 # Бейджи репозитория
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 Автоматически генерируются скриптом `improve_badges.py`.
 
 ## Текущие бейджи
@@ -34,22 +23,3 @@
 ![license](license.svg)
 ![branch](branch.svg)
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (9):**
-- [BADGES](../BADGES.md)
-- [DEPENDABOT](../DEPENDABOT.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [SKILL_DASHBOARD](../SKILL_DASHBOARD.md)
-- [TABLES](../TABLES.md)
-- _...ещё 1_
-
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.

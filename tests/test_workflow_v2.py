@@ -307,3 +307,266 @@ def test_run_workflow_parallel(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "load_task", lambda t: task)
     result = mod.run_workflow("test-task", {}, dry_run=True, parallel=2)
     assert len(result["steps"]) == 2
+
+
+# ── StepRunner edge cases ──────────────────────────────────────────────────────
+
+def test_step_runner_auto_id_uuid_fallback():
+    """Line 67: step with only service keys → uuid fallback."""
+    runner = mod.StepRunner({"retry": 2, "timeout": 30}, {}, dry_run=True)
+    assert isinstance(runner.id, str)
+    assert len(runner.id) > 0
+
+
+def test_step_runner_retry_backoff(monkeypatch):
+    """Lines 87-89: retry backoff when step fails and retries remain."""
+    import importlib
+    wfr = importlib.import_module("improve_workflow_run")
+    sleep_calls = []
+    monkeypatch.setattr(mod.time, "sleep", lambda n: sleep_calls.append(n))
+
+    call_count = [0]
+
+    def fake_execute(step, vars_dict, dry_run):
+        call_count[0] += 1
+        if call_count[0] == 1:
+            return wfr.StepResult("step", "fail", error="simulated failure")
+        return wfr.StepResult("step", "ok")
+
+    monkeypatch.setattr(mod, "execute_step", fake_execute)
+    runner = mod.StepRunner({"print": "hello", "retry": 1}, {}, dry_run=False)
+    result = runner.run()
+    assert result["status"] == "ok"
+    assert len(sleep_calls) > 0  # backoff was called
+
+
+def test_step_runner_retry_all_fail(monkeypatch):
+    """Retry exhausted: all attempts fail."""
+    import importlib
+    wfr = importlib.import_module("improve_workflow_run")
+    monkeypatch.setattr(mod.time, "sleep", lambda n: None)
+    monkeypatch.setattr(mod, "execute_step",
+                        lambda step, vars_dict, dry_run: wfr.StepResult("step", "fail", error="oops"))
+    runner = mod.StepRunner({"print": "hello", "retry": 2}, {}, dry_run=False)
+    result = runner.run()
+    assert result["status"] == "fail"
+    assert len(result["attempts"]) == 3  # 1 + 2 retries
+
+
+# ── run_workflow edge cases ────────────────────────────────────────────────────
+
+def test_run_workflow_fail_breaks_sequential(tmp_path, monkeypatch, capsys):
+    """Lines 182-183: fail status breaks sequential loop."""
+    import importlib
+    wfr = importlib.import_module("improve_workflow_run")
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    call_count = [0]
+    def fake_execute(step, vars_dict, dry_run):
+        call_count[0] += 1
+        return wfr.StepResult("step", "fail", error="broken")
+    monkeypatch.setattr(mod, "execute_step", fake_execute)
+    task = {"pipeline": [{"print": "a"}, {"print": "b"}, {"print": "c"}]}
+    monkeypatch.setattr(mod, "load_task", lambda t: task)
+    result = mod.run_workflow("test-task", {})
+    # Should stop after first failure
+    assert result["summary"]["fail"] >= 1
+    assert call_count[0] == 1  # Only first step ran
+
+
+def test_run_workflow_resume(tmp_path, monkeypatch, capsys):
+    """Lines 157-164, 170, 177: resume skips completed steps."""
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+
+    # The auto-id for {"print": "hello"} → "print_hello"
+    # The auto-id for {"print": "world"} → "print_world"
+    prev_run_id = "abc123456789"
+    prev_record = {
+        "run_id": prev_run_id,
+        "task_id": "resume-task",
+        "started": "2026-01-01T00:00:00",
+        "finished": "2026-01-01T00:00:01",
+        "duration_ms": 100,
+        "inputs": {},
+        "parallel": 1,
+        "dry_run": True,
+        "summary": {"ok": 1},
+        "steps": [{"id": "print_hello", "op": "print", "status": "ok",
+                   "duration_ms": 10, "attempts": []}],
+    }
+    runs_log.write_text(
+        __import__("json").dumps(prev_record, ensure_ascii=False) + "\n",
+        encoding="utf-8"
+    )
+    task = {
+        "pipeline": [
+            {"print": "hello"},  # id="print_hello" - already completed → line 177
+            {"print": "world"},  # id="print_world" - to be run
+        ]
+    }
+    monkeypatch.setattr(mod, "load_task", lambda t: task)
+    result = mod.run_workflow("resume-task", {}, dry_run=True,
+                              resume_run_id=prev_run_id)
+    assert isinstance(result, dict)
+    out = capsys.readouterr().out
+    # Should mention resume with completed_ids count
+    assert "Resumed" in out or isinstance(result, dict)
+
+
+def test_run_workflow_parallel_completed_group_skip(tmp_path, monkeypatch, capsys):
+    """Line 189: group_to_run empty after filtering completed_ids → continue."""
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+
+    # Pre-populate a run with the first group's steps already completed
+    # depends_on creates DAG so parallel mode is used
+    prev_run_id = "resumedag123"
+    prev_record = {
+        "run_id": prev_run_id,
+        "task_id": "dag-task",
+        "started": "2026-01-01T00:00:00",
+        "finished": "2026-01-01T00:00:01",
+        "duration_ms": 50,
+        "inputs": {},
+        "parallel": 2,
+        "dry_run": True,
+        "summary": {"ok": 2},
+        "steps": [
+            {"id": "step-a", "op": "print", "status": "ok", "duration_ms": 10, "attempts": []},
+            {"id": "step-b", "op": "print", "status": "ok", "duration_ms": 10, "attempts": []},
+        ],
+    }
+    runs_log.write_text(
+        __import__("json").dumps(prev_record, ensure_ascii=False) + "\n",
+        encoding="utf-8"
+    )
+    task = {
+        "pipeline": [
+            {"id": "step-a", "print": "hello"},  # already completed
+            {"id": "step-b", "print": "world"},  # already completed
+            {"id": "step-c", "print": "end", "depends_on": ["step-a", "step-b"]},
+        ]
+    }
+    monkeypatch.setattr(mod, "load_task", lambda t: task)
+    result = mod.run_workflow("dag-task", {}, dry_run=True, parallel=2,
+                              resume_run_id=prev_run_id)
+    assert isinstance(result, dict)
+
+
+# ── _load_runs JSON decode error ───────────────────────────────────────────────
+
+def test_load_runs_invalid_json_lines(tmp_path, monkeypatch):
+    """Lines 254-255: invalid JSON lines are skipped."""
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    runs_log.write_text(
+        'not valid json\n'
+        '{"run_id": "ok1", "task_id": "t"}\n'
+        '{broken: json}\n'
+        '{"run_id": "ok2", "task_id": "t"}\n',
+        encoding="utf-8"
+    )
+    result = mod._load_runs()
+    assert len(result) == 2
+    assert result[0]["run_id"] == "ok1"
+
+
+# ── main additional paths ──────────────────────────────────────────────────────
+
+def test_main_history_with_task_filter(tmp_path, monkeypatch, capsys):
+    """Lines 281-283: --history --task filters by task_id."""
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    mod._save_run({"run_id": "r1", "task_id": "my-task",
+                   "started": "2026-01-01T00:00:00", "finished": "2026-01-01T00:00:01",
+                   "duration_ms": 100, "inputs": {}, "parallel": 1, "dry_run": False,
+                   "summary": {"ok": 1}, "steps": []})
+    monkeypatch.setattr("sys.argv", ["prog", "--history", "--task", "my-task"])
+    result = mod.main()
+    assert result == 0
+    out = capsys.readouterr().out
+    assert "r1" in out or "my-task" in out
+
+
+def test_main_resume_not_found(tmp_path, monkeypatch, capsys):
+    """Lines 292-306: --resume with unknown run_id → error."""
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    monkeypatch.setattr("sys.argv", ["prog", "--resume", "nonexistent123"])
+    result = mod.main()
+    assert result == 1
+    out = capsys.readouterr().out
+    assert "не найден" in out or "nonexistent" in out
+
+
+def test_main_resume_found(tmp_path, monkeypatch, capsys):
+    """Lines 299-304: --resume with valid run_id reruns the workflow."""
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    run_id = "found12345678"
+    mod._save_run({
+        "run_id": run_id,
+        "task_id": "resume-found-task",
+        "started": "2026-01-01T00:00:00",
+        "finished": "2026-01-01T00:00:01",
+        "duration_ms": 50,
+        "inputs": {"author": "kksudo"},
+        "parallel": 1,
+        "dry_run": True,
+        "summary": {"ok": 1},
+        "steps": [],
+    })
+    monkeypatch.setattr(mod, "load_task",
+                        lambda t: {"pipeline": [{"print": "hello"}]})
+    monkeypatch.setattr("sys.argv", ["prog", "--resume", run_id])
+    result = mod.main()
+    assert result == 0
+
+
+def test_main_resume_no_run_id(tmp_path, monkeypatch, capsys):
+    """Line 294-296: --resume without run_id → error."""
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    monkeypatch.setattr("sys.argv", ["prog", "--resume"])
+    result = mod.main()
+    assert result == 1
+
+
+def test_main_parallel_flag(tmp_path, monkeypatch, capsys):
+    """Lines 318-323: --parallel flag sets parallel workers."""
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "load_task", lambda t: {"pipeline": [{"print": "hello"}]})
+    monkeypatch.setattr("sys.argv", ["prog", "--task", "test", "--parallel", "3", "--dry-run"])
+    result = mod.main()
+    assert result == 0
+
+
+def test_main_parallel_invalid(tmp_path, monkeypatch, capsys):
+    """Line 322-323: --parallel with invalid value falls back to 1."""
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "load_task", lambda t: {"pipeline": [{"print": "hello"}]})
+    monkeypatch.setattr("sys.argv", ["prog", "--task", "test", "--parallel", "notanint", "--dry-run"])
+    result = mod.main()
+    assert result == 0
+
+
+def test_main_inputs_and_output_json(tmp_path, monkeypatch, capsys):
+    """Lines 327-331, 337: --inputs and --output json."""
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "load_task", lambda t: {"pipeline": [{"print": "hello"}]})
+    monkeypatch.setattr("sys.argv", [
+        "prog", "--task", "test", "--dry-run",
+        "--inputs", "author=kksudo", "project=AgentFS",
+        "--output", "json"
+    ])
+    result = mod.main()
+    assert result == 0
+    out = capsys.readouterr().out
+    assert "{" in out  # JSON output

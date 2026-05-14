@@ -1,5 +1,18 @@
 # Матрица компонентов Svyazi 2.0
 
+<!-- toc -->
+## Содержание
+
+- [Матрица возможностей](#матрица-возможностей)
+- [Покрытие возможностей](#покрытие-возможностей)
+- [Каталог компонентов](#каталог-компонентов)
+- [Рекомендуемые ансамбли](#рекомендуемые-ансамбли)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -55,7 +68,7 @@ _Совместимость и возможности 14 компонентов 
 
 | Компонент | Лицензия | Статус | Репозиторий |
 |-----------|----------|--------|-------------|
-| **CardIndex** | 🟢 MIT | 🟢 stable | `kksudo/card-index` |
+| **CardIndex** | 🟢 MIT | 🟢 stable | `kksudo/CardIndex` |
 | **AgentFS** | 🟢 MIT | 🟢 stable | `kksudo/agentfs` |
 | **Yodoca** | 🟢 Apache 2.0 | 🔵 active | `spbmolot/yodoca` |
 | **NGT-memory** | 🟠 BSL 1.1 | 🔵 active | — |
@@ -94,3 +107,30 @@ python scripts/improve_component_matrix.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DENSITY](DENSITY.md)
+- [GLOSSARY](GLOSSARY.md)
+- [NETWORK](NETWORK.md)
+- [TECH_RADAR](TECH_RADAR.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [10-second-order-ensembles](01-svyazi/10-second-order-ensembles.md)
+- [04-приоритетные-ансамбли](04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [10-новые-ансамбли-следующего-шага](04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [DENSITY](DENSITY.md)
+- _...ещё 9_
+

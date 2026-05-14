@@ -1,26 +1,13 @@
 ---
 title: "Мониторинг зависимостей"
 tags:
-  - dependabot
-  - docs
   - general
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Мониторинг зависимостей
 
-> [!NOTE]
-> Раздел `DEPENDABOT` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: dependabot, docs -->
-
-
-<!-- summary -->
-> `DEPENDABOT` — раздел документации проекта Lorenzo.
-
-
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-14_
 
 ## Python-зависимости
 
@@ -52,3 +39,13 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

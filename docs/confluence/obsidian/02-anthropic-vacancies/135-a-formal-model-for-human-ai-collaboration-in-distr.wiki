@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "A Formal Model for Human-AI Collaboration in Distributed Knowledge Work"
 tags:
   * collaboration
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
@@ -33,8 +34,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Editorial review: Claude (intellectual collaboration, 2026-04) Editorial review: Claude (intellectual collaboration, 2026-04){quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Editorial review:_ Claude (intellectual collaboration, 2026-04){quote}

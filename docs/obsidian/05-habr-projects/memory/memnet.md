@@ -2,7 +2,7 @@
 title: "MemNet: исследовательская память"
 tags:
   - habr-projects
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # MemNet: исследовательская память

@@ -1,20 +1,34 @@
-# Q&A: 04-ai-collaborations
+---
+state: normalized
+---
 
-<!-- toc-auto -->
+# Q&A: 04-ai-collaborations
 
 > [!NOTE]
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 15 файлам раздела._
-**Проекты:** CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel]
-
----
-<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 15 файлам раздела._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 15 файлам раздела._
@@ -79,6 +93,20 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
 <!-- backlinks -->
 
 ---
@@ -91,35 +119,3 @@ _Автоматически сгенерировано по 15 файлам ра
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/04-ai-collaborations/QA.md) (сходство 0.99)
-- [QA](../01-svyazi/QA.md) (сходство 0.85)
-- [QA](../obsidian/01-svyazi/QA.md) (сходство 0.84)
-
-
-
-<!-- footnotes-added -->
-
----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
-
-[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
-
-[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
-
-[^sentinel]: OSS-проект: безопасность и allowlist для MCP
-
-[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

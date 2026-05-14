@@ -2,8 +2,9 @@
 title: "12. Closing"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 12. Closing
@@ -27,7 +28,7 @@ date: 2026-05-11
 
 <!-- alert-added -->
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -43,7 +44,22 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> The Cinderella Syndrome — quality without visibility —
+> * What is new is that we finally have technology capable of providing representation at scale — affordably, persistently Документ создан на основе исследования.
+ --
+Похожие документы
+ 223-12-closing (сходство 0.15)
+ 266-13-closing (сходство 0.12)
+ 179-10-open-questions (сходство 0.12)
+ --
+Использование
+ 
+Смотрите также
+ 223-12-closing
+ 179-10-open-questions
+ 266-13-closing
+ 169-table-of-contents
+ 
+Упомина
 
 ---
 <!-- tags: anthropic -->

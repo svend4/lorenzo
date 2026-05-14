@@ -176,3 +176,131 @@ def test_main_reading_time_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "READING_TIME.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+# ── arg parsing ───────────────────────────────────────────────────────────────
+
+def test_wpm_arg_parsing():
+    """Lines 28-30: --wpm N sets WPM_RU and WPM_EN."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--wpm", "180"]
+        import importlib as _il
+        _il.reload(mod)
+        assert mod.WPM_RU == 180
+        assert mod.WPM_EN == 180
+    finally:
+        sys.argv = orig_argv
+        import importlib as _il2
+        _il2.reload(mod)
+
+
+def test_section_arg_parsing():
+    """Lines 34-36: --section NAME sets SECTION_FILTER."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--section", "05-habr-projects"]
+        import importlib as _il
+        _il.reload(mod)
+        assert mod.SECTION_FILTER is not None
+    finally:
+        sys.argv = orig_argv
+        import importlib as _il2
+        _il2.reload(mod)
+
+
+# ── estimate_reading_time: category branches ──────────────────────────────────
+
+def test_estimate_reading_time_category_medium():
+    """Line 89: 3 < minutes <= 8 → '📘 Средне'."""
+    text = "агент " * 1000  # ~5 min
+    result = mod.estimate_reading_time(text)
+    assert result.get("category") == "📘 Средне"
+
+
+def test_estimate_reading_time_category_long():
+    """Line 91: 8 < minutes <= 15 → '📙 Долго'."""
+    text = "агент " * 2200  # ~11 min
+    result = mod.estimate_reading_time(text)
+    assert result.get("category") == "📙 Долго"
+
+
+def test_estimate_reading_time_category_very_long():
+    """Line 92: minutes > 15 → '📕 Очень долго'."""
+    text = "агент " * 4000  # ~20 min
+    result = mod.estimate_reading_time(text)
+    assert result.get("category") == "📕 Очень долго"
+
+
+def test_estimate_reading_time_hours_format():
+    """Lines 80-82: minutes >= 60 → '~Nч Mмин' format."""
+    text = "агент " * 15000  # ~75 min
+    result = mod.estimate_reading_time(text)
+    assert "ч" in result.get("time_str", "")
+
+
+# ── main: full coverage ───────────────────────────────────────────────────────
+
+def test_main_with_long_doc(tmp_path, monkeypatch):
+    """Lines 121, 148-154, 178, 181: results list filled with one doc."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("агент " * 300, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "READING_TIME.md").read_text(encoding="utf-8")
+    assert "doc" in text
+
+
+def test_main_with_very_long_doc(tmp_path, monkeypatch):
+    """Lines 161-171: long_docs section (minutes >= 10)."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "big.md").write_text("агент " * 2500, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "READING_TIME.md").read_text(encoding="utf-8")
+    assert "Самые длинные" in text
+
+
+def test_main_file_read_exception(tmp_path, monkeypatch):
+    """Lines 117-118: exception during file read → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    bad = tmp_path / "bad.md"
+    bad.write_text("content", encoding="utf-8")
+
+    from pathlib import Path as _Path
+    original_read = _Path.read_text
+
+    def mock_read(self, *args, **kwargs):
+        if self == bad:
+            raise OSError("mocked error")
+        return original_read(self, *args, **kwargs)
+
+    monkeypatch.setattr(_Path, "read_text", mock_read)
+    mod.main()  # should not crash
+
+
+def test_main_relative_to_docs_fallback(tmp_path, monkeypatch):
+    """Line 152: path not relative to 'docs' → fallback rel = p."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    # File in tmp_path directly (not under 'docs' subdir)
+    (tmp_path / "doc.md").write_text("агент " * 300, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "READING_TIME.md").exists()
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 191: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    script_path = str(ROOT / "scripts" / "improve_reading_time.py")
+    runpy.run_path(script_path, run_name="__main__")

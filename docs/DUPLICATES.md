@@ -1,34 +1,19 @@
 # Отчёт о дублировании
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `DUPLICATES` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: duplicates, docs -->
-
-
-<!-- summary -->
-> `DUPLICATES` — раздел документации проекта Lorenzo.
-
-
 Порог сходства: **0.5**  
 Точных дублей: **0**  
-Похожих пар: **977**
+Похожих пар: **937**
 
 ## Похожие файлы (Jaccard ≥ 0.5)
 
-### 100% — `docs/SENTINEL.md` vs `docs/obsidian/SENTINEL.md`
+### 100% — `docs/CARD_GRAPH.md` vs `docs/obsidian/CARD_GRAPH.md`
 
-**Общих абзацев:** 3  
+**Общих абзацев:** 2  
 **Примеры совпадений:**
 
-> | Категория | Найдено | |-----------|---------| | PII / секреты в docs | 0 | | Небезопасные паттерны в коде | 3 | | Credential-файлы | 0 | | HTTP (не HTTPS) ссылок | 368 | | Лицензионных рисков | 4 | …
+> **rag** (507 карточек): `03-component-catalog`, `components-by-name`, `concepts` **anthropic** (443 карточек): `13-communications`, `00-question-habr-link`, `17-appendix-b-change-log` **architecture**…
 
-> | Файл | Строка | Проблема | Фрагмент | |------|--------|----------|----------| | `scripts/gateway.py` | 655 | __import__() dynamic import | `t0      = __import__("time").time()` | | `scripts/gateway.…
-
-> | Файл | Лицензия | Риск | |------|----------|------| | `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-` | BSL | Business Source License — не открытая, коммерческие ограниче | | `docs/ob…
+> | # | PageRank | In | Out | Путь | Теги | |---|----------|----|----|------|------| | 1 | 1.000 | 1501 | 5 | `docs/autofilled/README.md` · autofilled | collaboration | | 2 | 0.434 | 44 | 40 | `docs/aut…
 
 ---
 
@@ -37,11 +22,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> | # | Запрос | Rank | Hit | |---|--------|------|-----| | 1 | Yodoca консолидация SQLite decay forgot memory | 4 | ✅ | | 2 | AgentFS файловая система агент vault kksudo | 2 | ✅ | | 3 | NGT Memory ассо…
+> | Метрика | Значение | Порог | Статус | |---------|---------|-------|--------| | Hit Rate@10 | **1.000** (20/20) | ≥ 0.70 | ✅ PASS | | Mean MRR      | 0.441 | — | — | | Avg Latency   | 1.251с | ≤ 5.0с…
 
-> > **Примечание:** Hit Rate@K = доля запросов, где хотя бы 1 релевантный > документ попал в топ-K. Стандартный P@K с 1 документом/запрос ≤ 1/K, > поэтому Hit Rate — правильная метрика для этого набора …
+> - **Метрика:** Hit Rate@10 — доля запросов с ≥1 релевантным документом в топ-10. - **Поиск:** `hybrid_search()` = 0.6×TF-IDF + 0.4×BM25 с фильтром шумовых документов. - **Фильтр шума:** исключаются me…
 
-> | Метрика | Значение | Порог | Статус | |---------|---------|-------|--------| | Hit Rate@10 | **1.000** (20/20) | ≥ 0.70 | ✅ PASS | | Mean MRR      | 0.603 | — | — | | Avg Latency   | 1.106с | ≤ 5.0с…
+> | # | Запрос | Rank | Hit | |---|--------|------|-----| | 1 | Yodoca консолидация SQLite decay forgot memory | 1 | ✅ | | 2 | AgentFS файловая система агент vault kksudo | 3 | ✅ | | 3 | NGT Memory ассо…
 
 ---
 
@@ -50,9 +35,9 @@
 **Общих абзацев:** 2  
 **Примеры совпадений:**
 
-> ## Markdown сниппеты для README ```markdown !tests !templates !skills !mcp_servers !manifests !scripts !health ```
+> - **tests** !tests - **templates** !templates - **skills** !skills - **mcp-servers** !mcp_servers - **manifests** !manifests - **scripts** !scripts - **health** !health - **validation** !validation
 
-> - **tests** !tests - **templates** !templates - **skills** !skills - **mcp-servers** !mcp_servers - **manifests** !manifests - **scripts** !scripts - **health** !health
+> ## Markdown сниппеты для README ```markdown !tests !templates !skills !mcp_servers !manifests !scripts !health !validation ```
 
 ---
 
@@ -63,9 +48,42 @@
 
 > ``` ┌─────────────────────────────────────────────┐ │   Любой AI-клиент                           │ │   (Claude Desktop / Cursor / GPT / агент)   │ └─────────────────┬───────────────────────────┘     …
 
-> | Аспект | Lorenzo Gateway | DAF-gateway | |--------|----------------|-------------| | Поиск | `hybrid_search()` — наш BM25+TF-IDF | `docstoolkit.rag` — внешняя библиотека | | Данные | `search_index.j…
+> ### Поиск коллаборации ```bash curl -X POST http://localhost:8083/v1/chat/completions \      -H "Content-Type: application/json" \      -d '{        "model": "lorenzo-gateway",        "messages": [{"r…
 
-> ### Простой поиск ```bash curl -X POST http://localhost:8083/v1/chat/completions \      -H "Content-Type: application/json" \      -d '{        "model": "lorenzo-gateway",        "messages": [{"role":…
+> ### `POST /api/cards` Добавить карточку в корпус (обогащение базы знаний). ```bash curl -X POST http://localhost:8083/api/cards \      -H "Content-Type: application/json" \      -d '{        "title": …
+
+---
+
+### 100% — `docs/DECISIONS.md` vs `docs/obsidian/DECISIONS.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> - переориентировать стратегию OKWF : начать с гильдийных Профессиональных Коллег, как первый продукт фонда. Использовать SGB-domain как pilot domain (используя ваш expertise). Если будете писать compa…
+
+> - из memory-проектов, которые я изучил. **Что именно ценно:** Механизм decay в Yodoca отвечает на вопрос, который я не смог закрыть через другие подходы: как система сама решает, что устарело, а не жд…
+
+> - отменить без явного `restore_event`. ### Идемпотентность Перед записью `episode` и `fact` выполняется проверка дубликата (cosine ≥ 0.85 по title+bod     _→ RFC-0002-memory-write-policy-для-svyazi-2-…
+
+---
+
+### 100% — `docs/COVERAGE.md` vs `docs/obsidian/COVERAGE.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> | Секция | Файлов | Summary | Теги | TOC | CrossRefs | Статус | Backlinks | |--------|--------|---------|------|-----|-----------|--------|-----------| | `01-svyazi` | 14 | 🟢 14/14 | 🟢 14/14 | 🟢 14/14…
+
+> - ✅ `docs/04-ai-collaborations/00-intro.md` - ✅ `docs/04-ai-collaborations/01-executive-summary.md` - ✅ `docs/04-ai-collaborations/02-методика-и-рамка-отбора.md` - ✅ `docs/04-ai-collaborations/03-карт…
+
+---
+
+### 100% — `docs/DIGEST.md` vs `docs/obsidian/DIGEST.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> | Дата | Hash | Описание | |------|------|---------| | 2026-05-13 | `d655c2aa` | fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dat | | 2026-05-13 | `7c934060` | fix: exclude catal…
 
 ---
 
@@ -80,16 +98,75 @@
 
 ---
 
+### 100% — `docs/PROMOTE_LOG.md` vs `docs/obsidian/PROMOTE_LOG.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> ### normalized → approved (597) - `docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md` - `docs/processing-guide/PROCESSING_GUIDE.md` - `docs/02-anthropic-vacancies/133-обратная-связь.md` -…
+
+> ### normalized → approved (272) - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` - `docs/04-ai-collaborations/00-intro.md` - `docs/02-anthropic-vacancies/342-что-такое-вариант-…
+
+> ### raw → normalized (311) - `docs/processing-guide/PROCESSING_GUIDE.md` - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` - `docs/02-anthropic-vacancies/248-приложение-c-а…
+
+---
+
+### 100% — `docs/SKILL_METRICS.md` vs `docs/obsidian/SKILL_METRICS.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> | Скил | Score | Struct | Len | Examples | Steps | Tools | Clarity | Uses | Words | |------|-------|--------|-----|----------|-------|-------|---------|------|-------| | ✅ `review-docs` | **94** | 10 …
+
+---
+
+### 100% — `docs/CROSSREFS.md` vs `docs/obsidian/CROSSREFS.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> | Файл | Проектов | Список | |------|----------|--------| | `docs/TABLES.md` | 30 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +24 | | `docs/obsidian/TABLES.md` | 30 | Svyazi, Ca…
+
+> | Проект | Файлов | Где упоминается | |--------|--------|-----------------| | **AI Factory** | 145 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi…
+
+---
+
+### 100% — `docs/TASKS_INDEX.md` vs `docs/obsidian/TASKS_INDEX.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> | Task ID | Описание | Триггеры | Шаблон | MCP tool | |---------|----------|----------|--------|----------| | `audit-corpus` | Сводный аудит состояния всего монорепо | "оцени состояние репо", "что сей…
+
+> | Task ID | Описание | Триггеры | Шаблон | MCP tool | |---------|----------|----------|--------|----------| | `write-contact` | Помогает написать первое сообщение автору OSS-проекта | "напиши письмо а…
+
+> | Task ID | Описание | Триггеры | Шаблон | MCP tool | |---------|----------|----------|--------|----------| | `compare` | Сравнение двух документов / разделов / подходов | "сравни", "в чём разница" | …
+
+---
+
 ### 100% — `docs/TOPIC_MODEL.md` vs `docs/obsidian/TOPIC_MODEL.md`
 
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
+> **Документы:** - `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` — passport, compatibility, minimal, curious - `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` — compatibility, level, re…
+
+> **Документы:** - `docs/05-habr-projects/01-synthesis.md` — wikontic, yodoca, memory, уникальные - `docs/05-habr-projects/02-collaboration-partners.md` — подобных, статус, wikontic, статьи - `docs/05-h…
+
 > | Тема | Слово 1 | Слово 2 | Слово 3 | Слово 4 | Слово 5 | |------|---------|---------|---------|---------|---------| | cowork, ingit, turn | cowork | ingit | appendix | turn | svyazi | | triangle, do…
 
-> **Документы:** - `docs/02-anthropic-vacancies/12-content-overview.md` — content, overview, angle, perspective - `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` — triangle, dou…
+---
 
-> **Документы:** - `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` — passport, compatibility, minimal, curious - `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` — guild, contributors,…
+### 100% — `docs/CONTRADICTIONS.md` vs `docs/obsidian/CONTRADICTIONS.md`
+
+**Общих абзацев:** 3  
+**Примеры совпадений:**
+
+> **B:** `docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md` > 1) ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: экосистема AI-компонен…
+
+> **B:** `docs/01-svyazi/04-ensembles-overview.md` > 1) ^sentinel: OSS-проект: безопасность и allowlist для MCP ^rufler: OSS-проект: оркестратор AI-агентов ^svyazi: Главный проект: экосистема AI-компоне…
+
+> **B:** `docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md` > Фаза 2 — Расширение Областей (Годы 3-4) Деятельность: - Добавить области 2 (профессионалы на пенсии) и 8 (студен…
 
 ---
 
@@ -98,9 +175,9 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> - Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3)
-
 > Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+
+> <!-- summary --> > [!NOTE] > Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: Хабр citeturn34view2 Проекты: Svyazi, Hybrid RAG Источник: Хабр citeturn34view2 > До…
 
 > - **Автор:** iximy - **Источник:** Хабр citeturn34view2 - **Лицензия:** неуточнено. citeturn34view2 - **Maturity:** практический implementation guide; публичный код в статье не акцентирован. citeturn3…
 
@@ -111,11 +188,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
+> <!-- summary --> > [!NOTE] > Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: VitaliySemenov / moshael Проекты: Svyazi, agent-memory-mcp > Документ создан на основе …
+
 > - **Автор:** VitaliySemenov / moshael - **Источник:** Хабр + GitHub + Хабр citeturn20view16turn15search3turn39view3 - **Лицензия:** для `agent-memory-mcp` — неуточнено; для Memory OS — неуточнено. cit…
 
 > - Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3)
-
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 ---
 
@@ -124,7 +201,7 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> - Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3)
+> <!-- summary --> > [!NOTE] > Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: VladSpace / vpakspace Проекты: Svyazi, Graph RAG Автор: VladSpace / vpakspace > Докумен…
 
 > - **Автор:** VladSpace / vpakspace - **Источник:** Хабр + GitHub citeturn34view3turn40search2 - **Лицензия:** неуточнено. citeturn34view3turn40search2 - **Maturity:** активный публичный repo / product…
 
@@ -137,11 +214,20 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> - **Автор:** AnastasiyaW - **Источник:** Хабр + GitHub citeturn20view2turn37search0 - **Лицензия:** **MIT**. citeturn37search0 - **Maturity:** активный OSS. citeturn37search0 - **Релевантность к Svyaz…
+> <!-- summary --> > [!NOTE] > Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: Хабр + GitHub citeturn20view2turn37search0 Источник: Хабр + GitHub citeturn20view2tu…
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 > - Описание - Ключевые компоненты и паттерны - Использование - Смотрите также - Кто ссылается на этот документ (3)
 
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+---
+
+### 100% — `docs/badges/README.md` vs `docs/obsidian/badges/README.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> !docs — `docs.svg` !words — `words.svg` !scripts — `scripts.svg` !health — `health.svg` !go/no-go — `scoring.svg` !license — `license.svg` !branch — `branch.svg`
 
 ---
 
@@ -150,11 +236,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> Четыре типа записей (`episodic`, `semantic`, `procedural`, `working`) — это точная типизация, которой не хватает большинству memory-систем. В PROTOTYPE_SPEC Svyazi я использую похожее разделение: `fac…
-
-> Я строю Svyazi 2.0 — локальную knowledge-платформу для Claude. Ключевая задача — дать агенту постоянную типизированную память, которая не зависит от внешних сервисов и работает офлайн. Именно поэтому …
-
 > Как gardener-loop решает конфликты bi-temporal фактов? Конкретно: если в `episodic` памяти есть запись «X произошло в момент T₁» (время события), добавленная в момент T₂ (время записи), а потом приход…
+
+> - Описание того, как agent-memory-mcp + Memory OS закрывают memory-слой   в архитектуре Svyazi 2.0 (задокументировано детально) - Обсуждение, как `CardEnvelope` Svyazi соотносится с типами записей   a…
+
+> <!-- summary --> > Открытое письмо автору agent-memory-mcp — типизированного MCP-сервера памяти для AI-агентов с SQLite, четырьмя типами записей и Memory OS концепцией. Документ создан на основе иссле…
 
 ---
 
@@ -163,9 +249,9 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> В Svyazi 2.0 граф строится из карточек (факты, проекты, люди, эпизоды), и для каждой пары карточек нужно решить: есть между ними связь или это случайное совпадение терминов. При размере базы в 1600+ к…
+> <!-- summary --> > Открытое письмо автору MemNet — исследовательского проекта по ассоциативной памяти для LLM с формальными метриками качества связей. Документ содержит практические рекомендации и луч…
 
-> Я строю Svyazi 2.0 — локальную систему, которая связывает знания из разных источников через граф. Один из ключевых вопросов, с которым я работаю — как оценивать качество связей в таком графе, не прибе…
+> В Svyazi 2.0 граф строится из карточек (факты, проекты, люди, эпизоды), и для каждой пары карточек нужно решить: есть между ними связь или это случайное совпадение терминов. При размере базы в 1600+ к…
 
 > - Тестовый набор из реальных карточек Svyazi для проверки MemNet на   практическом случае (смешанные типы: факты, проекты, люди) - Обсуждение, как MemNet может стать слоем валидации связей поверх   BM…
 
@@ -176,9 +262,9 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> Как LiteParse обрабатывает таблицы с объединёнными или перенесёнными ячейками? Это самый сложный случай в юридических и финансовых PDF, где данные в ячейке относятся к заголовку в предыдущей строке — …
-
 > Bounding boxes на страницах PDF — это принципиально другой уровень доверия к ответу агента. Когда источник цитаты — не «страница 3», а конкретный визуальный блок на странице, это меняет применимость с…
+
+> - Описание того, как LiteParse закрывает слой ingestion в Evidence Envelope   Svyazi 2.0 — уже задокументировано с примерами - Тестовый набор: 3-4 юридических/технических PDF на русском языке,   если …
 
 > Я строю Svyazi 2.0 — локальную систему для работы со знаниями из документов. Ключевой компонент, который мне нужен — слой evidence: не просто найти нужный абзац, а показать, откуда взялся каждый факт,…
 
@@ -189,58 +275,42 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> ``` Уровень 1: grep / find                  — быстро, грубо Уровень 2: Поисковый индекс             — полнотекстовый, с preview Уровень 3: BM25 (Okapi)                 — релевантность, не просто вхожд…
-
-> - Уровни поиска (от простого к сложному) - Уровень 2: Поисковый индекс — improve_search_index.py - Уровень 3: BM25 — improve_keyword_index.py - Уровень 4: Поиск по абзацам — improve_passage_retrieval.…
-
 > **Результат:** ``` 1. [0.847] docs/05-habr-projects/memory/yodoca.md §"hot path"    "разделение на hot path (запись эпизодов в SQLite + FTS5 за <50 мс, без LLM) и     slow path (асинхронные эмбеддинги…
 
----
+> **BM25 (Best Match 25)** — стандарт информационного поиска. Лучше TF-IDF: - Учитывает насыщенность документа (term saturation) - Учитывает длину документа (document length normalization) - Параметры: …
 
-### 100% — `docs/obsidian/templates/retrospective.md` vs `docs/obsidian/templates/meeting-notes.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
----
-
-### 100% — `docs/obsidian/templates/faq-entry.md` vs `docs/obsidian/nautilus/review-methodology/15-appendix-c-history.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
----
-
-### 100% — `docs/obsidian/templates/faq-entry.md` vs `docs/obsidian/02-anthropic-vacancies/120-главные-технические-риски.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
----
-
-### 100% — `docs/obsidian/templates/weekly-digest.md` vs `docs/obsidian/nautilus/review-methodology/00-tldr.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+> | Метод | Точность | Скорость | Стоимость | Реализован | |-------|---------|---------|----------|-----------| | grep | низкая | мгновенно | 0 | ✅ | | Полнотекстовый индекс | средняя | быстро | 0 | ✅ |…
 
 ---
 
 ### 100% — `docs/obsidian/ai-collaborations/QA.md` vs `docs/ai-collaborations/QA.md`
 
-**Общих абзацев:** 2  
+**Общих абзацев:** 3  
 **Примеры совпадений:**
+
+> Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данн…
+
+> <!-- summary --> > _Смотрите также: README · Глоссарий · Контакты_ Кто ссылается на этот документ (5): Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.  -- Кто ссылае…
 
 > - Содержание - Как реализован forensic RAG с доказуемостью? - Что такое Evidence Envelope и зачем он нужен? - Какие RAG-подходы сравниваются в документах? - Как работает AgentFS и что такое .agentos? …
 
-> Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данн…
+---
+
+### 100% — `docs/obsidian/contacts/QA.md` vs `docs/obsidian/meta-scripting/QA.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> <!-- summary --> > Раздел QA формируется автоматически из данных репозитория. Кто ссылается на этот документ (6):   Смотрите также  Главная  Метрики  Здоровье  Глоссарий  Сущности  -- Кто ссылается на…
+
+---
+
+### 100% — `docs/obsidian/contacts/QA.md` vs `docs/obsidian/anthropic-vacancies/QA.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> <!-- summary --> > Раздел QA формируется автоматически из данных репозитория. Кто ссылается на этот документ (6):   Смотрите также  Главная  Метрики  Здоровье  Глоссарий  Сущности  -- Кто ссылается на…
 
 ---
 
@@ -249,20 +319,20 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Авторы и контакты Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обнов…
-
-> Проанализировал задачу поиска гибридных AI-проектов на Хабре для объединения Проанализировал задачу поиска гибридных AI-проектов на Хабре для объединения Понял суть статьи. Андрей Чуян построил систем…
+> <!-- summary --> > автора статьи выше подобных авторов подобных разработчиков или ещё может быть или может быть даже несколько проектов которые вместе можно совместить и которые дойдут вместе один уни…
 
 > - Статус - Похожие документы - Использование - Смотрите также - Кто ссылается на этот документ (4)
 
+> <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Авторы и контакты Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обнов…
+
 ---
 
-### 100% — `docs/obsidian/nautilus/review-methodology/15-appendix-c-history.md` vs `docs/obsidian/02-anthropic-vacancies/120-главные-технические-риски.md`
+### 100% — `docs/obsidian/meta-scripting/QA.md` vs `docs/obsidian/anthropic-vacancies/QA.md`
 
 **Общих абзацев:** 1  
 **Примеры совпадений:**
 
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+> <!-- summary --> > Раздел QA формируется автоматически из данных репозитория. Кто ссылается на этот документ (6):   Смотрите также  Главная  Метрики  Здоровье  Глоссарий  Сущности  -- Кто ссылается на…
 
 ---
 
@@ -275,95 +345,17 @@
 
 ---
 
-### 100% — `docs/lorenzo-agent/QA.md` vs `docs/processing-guide/QA.md`
+### 100% — `docs/contacts/QA.md` vs `docs/meta-scripting/QA.md`
 
-**Общих абзацев:** 1  
+**Общих абзацев:** 2  
 **Примеры совпадений:**
+
+> <!-- summary --> > Раздел QA формируется автоматически из данных репозитория. Кто ссылается на этот документ (6):   Смотрите также  Главная  Метрики  Здоровье  Глоссарий  Сущности  -- Кто ссылается на…
 
 > **Кто ссылается на этот документ (6):** - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES - README
 
 ---
 
-### 100% — `docs/lorenzo-agent/QA.md` vs `docs/anthropic-vacancies/QA.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> **Кто ссылается на этот документ (6):** - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES - README
-
----
-
-### 100% — `docs/processing-guide/QA.md` vs `docs/anthropic-vacancies/QA.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> **Кто ссылается на этот документ (6):** - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES - README
-
----
-
-### 100% — `docs/03-technology-combinations/QA.md` vs `docs/02-anthropic-vacancies/QA.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> **Кто ссылается на этот документ (6):** - README - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES
-
----
-
-### 100% — `docs/03-technology-combinations/QA.md` vs `docs/01-svyazi/QA.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> **Кто ссылается на этот документ (6):** - README - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES
-
----
-
-### 100% — `docs/02-anthropic-vacancies/QA.md` vs `docs/01-svyazi/QA.md`
-
-**Общих абзацев:** 1  
-**Примеры совпадений:**
-
-> **Кто ссылается на этот документ (6):** - README - OUTLINE - READABILITY - READING_TIME - SEARCH - TABLES
-
----
-
-### 99% — `docs/DECISIONS.md` vs `docs/obsidian/DECISIONS.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела…
-
-> - создать REVIEW_METHODOLOGY.md в корне репо (не в docs/ , потому что это применимо ко всему проекту, не к специфической области). Commit: docs: add REVIEW_METHODOLOGY for three-phase review process .…
-
-> - написать PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md . Formal specification extension к NPP v1.1, которая формализует всё описанное здесь: humanity-specific format_types, conventional metadata, anonymiz…
-
----
-
-### 98% — `docs/PRIORITIES.md` vs `docs/obsidian/PRIORITIES.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Файл | Score | |------|-------| | `docs/03-technology-combinations/03-local-first.md` | 12.16 | | `docs/03-technology-combinations/05-benchmarks.md` | 11.91 | | `docs/obsidian/03-technology-combinat…
-
-> | Файл | Score | |------|-------| | `docs/obsidian/nautilus/infrastructure-layer-b-en/07-specific-case.md` | 2.58 | | `docs/nautilus/infrastructure-layer-b-en/07-specific-case.md` | 2.44 | | `docs/obs…
-
-> | Файл | Score | |------|-------| | `docs/habr-unique-projects/final-ensembles/4-summary-authors.md` | 4.65 | | `docs/obsidian/habr-unique-projects/final-ensembles/4-summary-authors.md` | 4.62 | | `do…
-
----
-
-_...и ещё 947 пар._
+_...и ещё 907 пар._
 
 > Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-- [Решения](DECISIONS.md)
-- [Контакты](CONTACTS.md)

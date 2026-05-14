@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 7. PortalEntry Structure
@@ -53,7 +53,14 @@ h2. Contents
 
 
 
-{quote}Унифицированная структура данных, возвращаемая адаптерами.{quote}
+{quote}_ PortalEntry Structure - 7.1. _ Q6 Metadata !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: PortalEntry Structure - 7.1. 🔧 Подход: Q6 Metadata !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+ — полный текст/представление, MAY быть большим
+ — MUST содержать   для Level 2+ адаптеров
+ — список id из других Repos, формат   
+  или   (например,  , 
+   )
+ — Boolean, MUST быть   для fallback-entries, 
+    (def
 
 ----
 

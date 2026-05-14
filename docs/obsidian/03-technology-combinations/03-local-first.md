@@ -2,7 +2,7 @@
 title: "Local-first и P2P стек"
 tags:
   - technology-combinations
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Local-first и P2P стек
@@ -38,7 +38,17 @@ date: 2026-05-11
 
 
 <!-- summary -->
+> * Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B -. * Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B -
+>
+ 
 > - Сложные архитектурные → Claude Opus
+Проекты: Svyazi, CardIndex, Yjs
+ --
+ 
+локальная Qwen3:8B
+ Средние → облачная DeepSeek
+ Сложные архитектурные → Claude Opus
+ Роутер перед каждым агентом, не после
 **Проекты:** Svyazi, [[01-executive-summary|CardIndex]], Yjs
 
 ---

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 14. SDK Contract (Informative)
 
 <!-- toc-auto -->
@@ -20,7 +24,12 @@
 
 
 <!-- summary -->
-> Reference implementation предоставляет Python SDK (`nautilus_sdk.py`).
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (9) Reference implementation предоставляет Python SDK (nautilus_sdk.py).
+ Похожие документы
+ Смотрите также
+ Кто ссылается на этот документ (9)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: anthropic -->

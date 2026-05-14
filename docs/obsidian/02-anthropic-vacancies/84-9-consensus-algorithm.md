@@ -2,8 +2,9 @@
 title: "9. Consensus Algorithm"
 tags:
   - rag
+  - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 9. Consensus Algorithm
@@ -37,10 +38,16 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> При query через portal, когда результаты возвращаются из нескольких
+> * Consensus Algorithm - 9.1. * Future Extensions (v2.0+) При query через portal, когда результаты возвращаются из нескольких --- 9 Документ создан на основе исследования.
+v1.1 различает два типа coverage:
+ — доля repos, вернувших реальные (не fallback) 
+  entries, содержащие query
+ — доля repos, вернувших любые 
+  entries, включая fallback
+Концепт считается agreed (полный конс
 
 ---
-<!-- tags: rag -->
+<!-- tags: rag, anthropic -->
 
 
 

@@ -1,5 +1,9 @@
 # Контакт: [Имя / Проект]
 
+
+<!-- summary -->
+> Раздел contact-outreach формируется автоматически из данных репозитория. Параметр | Значение |
+
 > [!NOTE]
 > Раздел `contact-outreach` формируется автоматически из данных репозитория.
 
@@ -44,20 +48,17 @@
 2. [Вопрос 2]
 
 ---
-_Создано: 2026-05-11_
+_Создано: 2026-05-13_
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (6):**
 - [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [REGISTRY](../REGISTRY.md)
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
-- [TASKS_INDEX](../TASKS_INDEX.md)
 - [research-summary](../autofilled/research-summary.md)
 - [README](README.md)
-- _...ещё 1_
+- [meeting-notes](meeting-notes.md)
 

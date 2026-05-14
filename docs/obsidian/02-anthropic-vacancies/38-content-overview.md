@@ -2,8 +2,9 @@
 title: "Content Overview"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Content Overview
@@ -24,10 +25,25 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> **Объём:** 74 документа (по состоянию на апрель 2026)
+> Документ содержит практические рекомендации и лучшие практики. 12-content-overview (сходство 0.11) Кто ссылается на этот документ (4) Рекомендуется читать перед погружением в детали.
+ --
+Похожие документы
+ 12-content-overview (сходство 0.11)
+ --
+Использование
+ 
+Смотрите также
+ 58-content-overview
+ 42-author-contact
+ 231-содержание
+ 48-content-overview
+ --
+Кто ссылается на этот документ (4)
+ 12-content-overview
+ 13-angle-perspe
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!TIP]
 > Обзорный документ. Рекомендуется читать перед погружением в детали.

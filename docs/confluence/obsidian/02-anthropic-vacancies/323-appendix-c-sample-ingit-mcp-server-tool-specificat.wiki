@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Appendix C: Sample InGit MCP Server Tool Specifications"
 tags:
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Appendix C: Sample InGit MCP Server Tool Specifications
@@ -28,7 +28,12 @@ h1. Appendix C: Sample InGit MCP Server Tool Specifications
 
 
 
-{quote}For reference, here are detailed specifications for first{quote}
+{quote}_ Contact via github.com/svend4/nautilus/issues(URL or github.com/svend4/ingit/issues(URL --- Заметки к девятому докумен. _ This is starting point, not final design{quote}
+ Conceptually связан с 2.3 (infrastructure layer)
+ Sequentially написан после applied work (3-7)
+ Pairs naturally с 2.3 как theory-practice
+Главная переоценка — честная
+В Acknowledgments я явно написал, что Document 2
 
 ----
 

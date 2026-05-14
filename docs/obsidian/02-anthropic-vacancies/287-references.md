@@ -2,8 +2,9 @@
 title: "References"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # References
@@ -37,10 +38,22 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> The references for this document are sparser than for the
+> * AI Collaboration Infrastructure - Anthropic Projects documentation (current) - Microsoft Copilot Studio (different app. * (Zettelkasten method, foundational for modern personal knowledge management.) - Andy Matuschak (ongoing)
+ 
+Contents
+ References
+ Threading and Annotation
+ Knowledge Management
+ AI Collaboration Infrastructure
+ Earlier Companion Documents in This Series
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (13)
+> [[01-интегральный-анализ-профиля-svend4|!
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 
@@ -72,7 +85,7 @@ than specifying. Key relevant work includes:
 - Anthropic Projects documentation (current)
 - Microsoft Copilot Studio (different approach to similar 
   problem)
-- Various multi-agent frameworks (LangChain, CrewAI, [[01-интегральный-анализ-профиля-svend4|AutoGen]])
+- Various multi-agent frameworks (LangChain, CrewAI, [AutoGen]])
 
 ### Earlier Companion Documents in This Series
 

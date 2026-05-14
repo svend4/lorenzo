@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/218-7-application-domains.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * ingestion
   * architecture
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 7. Application Domains
@@ -30,7 +30,18 @@ h1. 7. Application Domains
 
 
 
-{quote}We identify nine professions or sub-professions where{quote}
+{quote}_ Application Domains !TIP Документ содержит практические рекомендации и лучшие практики. _ Burden addressed: Literature review, draft writing, methodology selection support, citation management, grant applicat{quote}
+ --
+Похожие документы
+ 143-6-four-deployment-domains (сходство 0.14)
+ 173-4-ten-domains-of-application (сходство 0.14)
+ 261-8-seven-domains-of-application (сходство 0.14)
+ --
+Использование
+ 
+Смотрите также
+ 261-8-seven-domains-of-application
+ 173-
 
 ----
 

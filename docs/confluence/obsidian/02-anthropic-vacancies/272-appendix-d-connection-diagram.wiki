@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/272-appendix-d-connection-diagram.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -13,7 +13,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Appendix D: Connection Diagram
@@ -34,7 +34,12 @@ h1. Appendix D: Connection Diagram
 
 
 
-{quote}The relationship between the seven documents in this series:{quote}
+{quote}_ Если у вас есть bandwidth хотеть участвовать в этом — даже на уровне написания о том, что нужно — вы могли бы внести в. _ Это интегрирующий документ, который подтягивает остальные шесть в более согласованную архитектуру{quote}
+The Composite Skills Agent v1.0.0-draft
+Companion paper to Professional Colleague Agents, Representative 
+Agent Layer, Open Knowledge Work Foundation, Double-Triangle 
+Architecture, and Nautilus Portal Protocol
+Central metaphor: The yoga master wh
 
 ----
 

@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "andrey_chuyan"
@@ -31,7 +32,22 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> - [Статус связи](#статус-связи)
+> Документ содержит практические рекомендации и лучшие практики. _Создано автоматически: 2026-04-29_ antipozitive (сходство 0.70) vladspace (сходство 0.67)
+ --
+_Создано автоматически: 2026-04-29_
+ --
+Похожие документы
+ nlaik (сходство 0.70)
+ antipozitive (сходство 0.70)
+ vladspace (сходство 0.67)
+ --
+Смотрите также
+ antipozitive
+ nlaik
+ sonia-black
+ spbmolot
+ --
+Кто ссылается на этот документ
 **Проекты:** Svyazi, CardIndex
 
 ---

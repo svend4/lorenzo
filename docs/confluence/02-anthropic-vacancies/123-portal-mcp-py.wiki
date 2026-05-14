@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/123-portal-mcp-py.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. portal-mcp.py
 
@@ -20,7 +24,11 @@ h1. portal-mcp.py
 
 
 
-{quote}Exposes Nautilus Portal as Model Context Protocol tools for LLM clients{quote}
+{quote}_ portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры. _ portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
 
 ----
 

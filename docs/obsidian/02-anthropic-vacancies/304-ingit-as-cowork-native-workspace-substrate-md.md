@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md
@@ -21,7 +21,7 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> - [[249-composite-skills-agent-md]] (сходство 0.11)
+> - [[249-composite-skills-agent-md]] (сходство 0.11) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: architecture, anthropic -->

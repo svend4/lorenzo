@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/180-11-call-for-collaboration.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "11. Call for Collaboration"
 tags:
   * ingestion
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 11. Call for Collaboration
@@ -66,7 +67,19 @@ h2. Содержание
 
 
 
-{quote}This paper is offered as starting point, not finished{quote}
+{quote}_ Pilot partnerships allow the technology to develop in service of actual need rather than imagined need. _ Your needs should drive design decisions Документ создан на основе исследования.{quote}
+ --
+Похожие документы
+ 265-12-call-for-collaboration (сходство 0.16)
+ 178-9-phased-rollout-strategy (сходство 0.14)
+ 223-12-closing (сходство 0.13)
+ --
+Использование
+ 
+Смотрите также
+ 265-12-call-for-collaboration
+ 178-9-phased-rollout-strategy
+ 2
 
 ----
 

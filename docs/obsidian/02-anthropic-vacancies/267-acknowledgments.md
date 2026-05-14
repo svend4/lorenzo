@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Acknowledgments
@@ -40,7 +40,11 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> The Composite Skills Agent concept emerged from dialogue with
+> * Acknowledgments The Composite Skills Agent concept emerged from dialogue with --- Acknowledgments The Composite Skills. * The metaphor of the Indian yoga master who studied with twenty teachers, drawn from a journalist's interview the user
+contribution was the user's observation that the binary view 
+between Professional Colleague Agent (Type 1) and Representative 
+Agent (Type 4) missed the most common middle case — practitioners 
+whose distinctive value comes from c
 
 ---
 <!-- tags: architecture, anthropic -->

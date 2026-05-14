@@ -1,15 +1,10 @@
 ---
 title: "Расписание проекта"
 tags:
-  - memory
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - collaboration
+  - schedule
+  - docs
   - general
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Расписание проекта
@@ -20,15 +15,11 @@ date: 2026-05-11
 > Раздел `SCHEDULE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: schedule, docs -->
+
 
 <!-- summary -->
-> _Дорожная карта с вехами и задачами по кварталам._
-**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
-
----
-<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
+> `SCHEDULE` — раздел документации проекта Lorenzo.
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -84,13 +75,20 @@ _█ = активная работа, ░ = ожидание_
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
 
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
 <!-- backlinks -->
 
 ---
 
 **Кто ссылается на этот документ (9):**
 - [[DENSITY]]
-- [[DEPENDABOT]]
+- [[HEATMAP]]
 - [[INDEX]]
 - [[OUTLINE]]
 - [[READABILITY]]
@@ -98,4 +96,15 @@ _█ = активная работа, ░ = ожидание_
 - [[README]]
 - [[SEARCH]]
 - _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SUMMARIES]]
+- [[GRAPH]]
+- [[MINDMAP]]
+- [[COVERAGE]]
 

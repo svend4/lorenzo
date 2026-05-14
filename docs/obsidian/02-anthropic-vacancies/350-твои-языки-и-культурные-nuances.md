@@ -5,7 +5,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Твои языки и культурные nuances
@@ -25,7 +25,7 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram)
+> - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: roadmap, anthropic, collaboration -->

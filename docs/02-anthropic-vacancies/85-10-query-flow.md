@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 10. Query Flow
 
 <!-- toc-auto -->
@@ -18,7 +22,7 @@
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 <!-- abstract-auto -->
@@ -36,7 +40,13 @@
 
 
 <!-- summary -->
-> 1. Client вызывает `portal.query(q, target_repos=None)`
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Документ создан на основе исследования. 🎯 Проблема: Error Handling - 10.4.
+Если adapter падает (exception, timeout), Portal MUST:
+ Включить repo в   список QueryResult
+ Продолжить обработку остальных
+ Не падать целиком
+Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, снижено 
+для лучшего UX).
 
 ---
 <!-- tags: anthropic -->

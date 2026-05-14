@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Graph RAG
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: VladSpace / vpakspace Проекты: Svyazi, Graph RAG Автор: VladSpace / vpakspace
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Автор:** VladSpace / vpakspace

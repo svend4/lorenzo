@@ -5,7 +5,7 @@ tags:
   - ingestion
   - collaboration
   - habr-projects
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Авторы и контакты

@@ -2,8 +2,9 @@
 title: "2. The Double-Triangle Architecture"
 tags:
   - architecture
+  - memory
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 2. The Double-Triangle Architecture
@@ -24,7 +25,11 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> We formalize the architecture using two triangles sharing a common
+> * The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры. * The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры
+separate identity contexts: personal context (their 
+work-in-progress, drafts, notes, private patterns) and team 
+context (their accepted deliverables, public roles, shared 
+outputs).
 
 ---
 
@@ -39,7 +44,7 @@ date: 2026-05-11
 
 ---
 
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 
@@ -197,3 +202,7 @@ large organizations (Star(n)) without protocol changes.
 - [[148-appendix-a-glossary]]
 - [[README]]
 
+# Bridges
+
+## Bridges
+Как концепты Repo соотносятся с концепциями других Repos в экосистеме.

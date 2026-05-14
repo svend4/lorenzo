@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 1. Why Single-Triangle Models Are Incomplete
 
 > [!NOTE]
@@ -30,7 +34,10 @@
 
 
 <!-- summary -->
-> The AI-assisted knowledge work field currently divides into two
+> * The gap needs to be closed not through yet another centralized platform, but through a protocol — a way for the two tr. * What Both Paradigms Miss Both single-triangle approaches share a structural blind spot: they assume humans exist in on
+Workspace AI) attempt to bridge these but do so through layer 
+isolation — personal assistants and team-level orchestration 
+exist as separate products without formal protocols between th
 
 ---
 <!-- tags: architecture, anthropic -->

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/autofilled/components/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "components"
 tags:
   * autofilled
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. components

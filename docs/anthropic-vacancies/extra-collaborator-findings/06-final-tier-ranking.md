@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Финальный список потенциальных collaborators (Tier 1–4)
 
 <!-- toc-auto -->

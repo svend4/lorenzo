@@ -2,7 +2,7 @@
 title: "4. The Symbiotic Architecture"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 4. The Symbiotic Architecture
@@ -38,7 +38,10 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> The combination of InGit and Cowork creates an architecture
+> > Абстракт (авто)
+>
+> 🎯 Проблема: --- --- Похожие документы: - 311-3-what-ingit-provides-that-cowork-lacks(docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.18) - 307-abstract(
+> ✅ Результат: The Symbiotic Archit
 
 ---
 

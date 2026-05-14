@@ -207,3 +207,218 @@ def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "ROOT", tmp_path)
     monkeypatch.setattr(mod, "DRY_RUN", True)
     mod.main()  # must not raise
+
+
+# ── _load_full_questions ──────────────────────────────────────────────────────
+
+def test_load_full_questions_with_script(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "improve_contacts.py").write_text(
+        'FIRST_QUESTIONS = {"kksudo": "Планируете ли поддержку MCP?"}\n',
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    result = mod._load_full_questions()
+    assert "kksudo" in result
+
+
+def test_load_full_questions_invalid_script(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "improve_contacts.py").write_text(
+        "raise RuntimeError('bad script')\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    result = mod._load_full_questions()
+    assert isinstance(result, dict)
+
+
+# ── parse_contacts with proper format ─────────────────────────────────────────
+
+def test_parse_contacts_proper_format(tmp_path, monkeypatch):
+    (tmp_path / "CONTACTS.md").write_text(
+        "| **kksudo** | AgentFS | knowledge/filesystem | 87 | Планируете MCP? |\n"
+        "| Автор | Проект | Слой | Упомин | Вопрос |\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    result = mod.parse_contacts()
+    assert len(result) >= 1
+    assert result[0]["author"] == "kksudo"
+    assert result[0]["mentions"] == 87
+
+
+def test_parse_contacts_em_dash_question(tmp_path, monkeypatch):
+    (tmp_path / "CONTACTS.md").write_text(
+        "| **kksudo** | AgentFS | knowledge | 87 | — |\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    result = mod.parse_contacts()
+    if result:
+        assert result[0]["question"] == ""
+
+
+# ── generate_contacts (DRY_RUN=False) ─────────────────────────────────────────
+
+def test_generate_contacts_creates_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    authors = [{"author": "kksudo", "project": "AgentFS", "layer": "knowledge",
+                "mentions": 87, "question": "Планируете MCP?"}]
+    result = mod.generate_contacts(authors)
+    assert result >= 1
+    assert (tmp_path / "contacts" / "kksudo.md").exists()
+
+
+def test_generate_contacts_skips_existing(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    contacts_dir = tmp_path / "contacts"
+    contacts_dir.mkdir()
+    (contacts_dir / "kksudo.md").write_text("# existing", encoding="utf-8")
+    authors = [{"author": "kksudo", "project": "AgentFS", "layer": "knowledge",
+                "mentions": 87, "question": "Test?"}]
+    result = mod.generate_contacts(authors)
+    assert result == 0  # skipped existing
+
+
+# ── enrich_project_file ────────────────────────────────────────────────────────
+
+def test_enrich_project_file_adds_status(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    md_file = tmp_path / "agentfs.md"
+    md_file.write_text("# AgentFS\n\nContent about agent file system.", encoding="utf-8")
+    result = mod.enrich_project_file(md_file, {}, {}, [])
+    assert result is True
+    text = md_file.read_text(encoding="utf-8")
+    assert "autofill-status" in text
+
+
+def test_enrich_project_file_skips_already_enriched(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    md_file = tmp_path / "already.md"
+    md_file.write_text("# Doc\n\n<!-- autofill-status -->\ncontent", encoding="utf-8")
+    result = mod.enrich_project_file(md_file, {}, {}, [])
+    assert result is False
+
+
+def test_enrich_project_file_dry_run(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    md_file = tmp_path / "agent.md"
+    md_file.write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    result = mod.enrich_project_file(md_file, {}, {}, [])
+    assert result is True
+    text = md_file.read_text(encoding="utf-8")
+    assert "autofill-status" not in text  # not written in dry_run
+
+
+def test_enrich_project_file_with_contact(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    md_file = tmp_path / "agentfs.md"
+    md_file.write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    authors = [{"author": "kksudo", "project": "AgentFS", "layer": "knowledge",
+                "mentions": 87, "question": "Test?"}]
+    result = mod.enrich_project_file(md_file, {}, {"AgentFS": 87}, authors)
+    assert result is True
+
+
+# ── enrich_project_files ──────────────────────────────────────────────────────
+
+def test_enrich_project_files_with_files(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    habr_dir = tmp_path / "05-habr-projects"
+    habr_dir.mkdir()
+    (habr_dir / "project.md").write_text("# TestProject\n\nContent.", encoding="utf-8")
+    result = mod.enrich_project_files({}, {}, [])
+    assert result >= 1
+
+
+# ── main() with real data ──────────────────────────────────────────────────────
+
+def test_main_non_dry_run_with_contacts(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    (tmp_path / "CONTACTS.md").write_text(
+        "| **kksudo** | AgentFS | knowledge | 87 | Test question? |\n",
+        encoding="utf-8",
+    )
+    habr_dir = tmp_path / "05-habr-projects"
+    habr_dir.mkdir()
+    (habr_dir / "agentfs.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "contacts").exists()
+
+
+def test_main_all_already_processed(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "обработаны" in out or "Готово" in out
+
+
+def test_generate_contacts_dry_run_print(tmp_path, monkeypatch, capsys):
+    """Line 232: dry-run print in generate_contacts when file doesn't exist."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    authors = [{"author": "kksudo", "project": "AgentFS", "layer": "knowledge",
+                "mentions": 87, "question": "Test?"}]
+    result = mod.generate_contacts(authors)
+    assert result == 1
+    out = capsys.readouterr().out
+    assert "dry" in out or "kksudo" in out
+
+
+def test_enrich_project_file_no_header(tmp_path, monkeypatch):
+    """Line 320: else branch when no H1 header found in file."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    md_file = tmp_path / "noheader.md"
+    md_file.write_text("Just some content without a heading.", encoding="utf-8")
+    result = mod.enrich_project_file(md_file, {}, {}, [])
+    assert result is True
+
+
+def test_enrich_project_files_skips_readme(tmp_path, monkeypatch):
+    """Line 344: continue when file is README.md."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "TODAY", "2026-05-12")
+    habr_dir = tmp_path / "05-habr-projects"
+    habr_dir.mkdir()
+    (habr_dir / "README.md").write_text("# README\n\nIndex.", encoding="utf-8")
+    (habr_dir / "project.md").write_text("# TestProject\n\nContent.", encoding="utf-8")
+    result = mod.enrich_project_files({}, {}, [])
+    assert result == 1  # only project.md, not README.md

@@ -2,8 +2,9 @@
 title: "Appendix A: The Six-Type Taxonomy (Updated)"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix A: The Six-Type Taxonomy (Updated)
@@ -45,7 +46,7 @@ date: 2026-05-11
 
 <!-- alert-added -->
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -62,7 +63,17 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> This paper updates the Professional Colleague Agents v1.0
+> * Appendix A: The Six-Type Taxonomy (Updated) This paper updates the Professional Colleague Agents v1.0 --- Appendix A:. * Updated full taxonomy: Type Name Specialization Example Maturity ----------------------------------------------- 0 Per
+ --
+Похожие документы
+ 226-appendix-a-comparative-table-five-agent-types (сходство 0.31)
+ 252-abstract (сходство 0.14)
+ 227-appendix-b-decision-framework-when-to-build-type-1 (сходство 0.13)
+ --
+Использование
+ 
+Смотрите также
+ 226-appendix-a-compa
 
 ---
 <!-- tags: anthropic -->

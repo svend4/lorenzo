@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [rag, orchestration, local-first, architecture, anthropic]
+state: approved
+----
 
 h1. 6. Risks Specific to this Category
 
@@ -21,7 +27,11 @@ h1. 6. Risks Specific to this Category
 
 
 
-{quote}Professional Colleague Agents have risks distinct from{quote}
+{quote}_ Teacher's agent generates problems requiring active human reasoning, not pattern-matching. _ Agents support practitioner customization that goes beyond preferences into methodology choices{quote}
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Teacher's agent generates problems requiring active human reasoning, not pattern-matching.{quote}
 
 ----
 

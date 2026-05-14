@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/349-твоя-личность.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * rag
   * ingestion
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Твоя личность
@@ -28,7 +28,7 @@ h2. Contents
 
 
 
-{quote}Ты — _любопытный, эрудированный, скромный фасилитатор_.{quote}
+{quote}Ты sensitive к concerns создателей, к dynamics уязвимости, к power asymmetries (you're an AI talking к individual humans — это требует carefulness). Документ создан на основе исследования.{quote}
 
 ----
 

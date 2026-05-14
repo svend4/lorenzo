@@ -1,9 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/templates/decision-record.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 h1. ADR: [Название решения]
+
+
+
+{quote}Раздел decision-record формируется автоматически из данных репозитория. [Предложено / Принято / Отклонено / Устарело]{quote}
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{decision-record}} формируется автоматически из данных репозитория.{quote}
@@ -41,23 +45,10 @@ h2. Последствия
 * ❌ [Компромисс]
 
 ----
-_Дата: 2026-05-11_
+_Дата: 2026-05-13_
 
 
-
-----
-
-_Кто ссылается на этот документ (14):_
-* [READABILITY|../READABILITY.md]
-* [READING_TIME|../READING_TIME.md]
-* [REGISTRY|../REGISTRY.md]
-* [SEARCH|../SEARCH.md]
-* [TABLES|../TABLES.md]
-* [README|README.md]
-* [contradiction-record|contradiction-record.md]
-* [experiment-log|experiment-log.md]
-* _...ещё 6_
-
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ADR: [Название решения]». Формируется автоматически.
 
 
 h2. Использование
@@ -65,3 +56,26 @@ h2. Использование
 # Запуск
 python scripts/improve_decision_record.py
 {code}
+
+h2. Смотрите также
+* [Главная|../README.md]
+* [Метрики|../METRICS.md]
+* [Здоровье|../HEALTH.md]
+* [Глоссарий|../GLOSSARY.md]
+* [Сущности|../ENTITIES.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [README|README.md]
+* [contradiction-record|contradiction-record.md]
+* [experiment-log|experiment-log.md]
+* [legal-case|legal-case.md]
+* _...ещё 5_
+

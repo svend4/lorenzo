@@ -2,8 +2,9 @@
 title: "Когда ты Honestly не знаешь"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Когда ты Honestly не знаешь
@@ -17,7 +18,7 @@ date: 2026-05-11
 - [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 > [!WARNING]
@@ -26,9 +27,16 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Когда ты Honestly не знаешь Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+ --
+Когда ты Honestly не знаешь
+Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+ «Я не знаю это — нужно research»
+ «Это outside my current knowledge»
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

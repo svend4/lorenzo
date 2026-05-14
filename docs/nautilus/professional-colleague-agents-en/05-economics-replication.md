@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 5. The Economics of Profession-Wide Replication
 
 > [!NOTE]

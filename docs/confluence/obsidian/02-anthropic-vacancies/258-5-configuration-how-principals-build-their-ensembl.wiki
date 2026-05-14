@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "5. Configuration: How Principals Build Their Ensembles"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 5. Configuration: How Principals Build Their Ensembles
@@ -35,7 +36,11 @@ h1. 5. Configuration: How Principals Build Their Ensembles
 
 
 
-{quote}A central question for Composite Skills Agents: how does a{quote}
+{quote}> ✅ Результат: A new social law lawyer might benefit from a starting template: - General SGB IX sub-agent - General SGB XII sub-agent - Procedural law sub-agent - BSG case law sub-agent - General{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+ 
+{quote}A ce{quote}
 
 ----
 

@@ -4,7 +4,7 @@ tags:
   - rag
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # The Specific Case in Front of Us
@@ -25,8 +25,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > The seven documents produced in this session have specific

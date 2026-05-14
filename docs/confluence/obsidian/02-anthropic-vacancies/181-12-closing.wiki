@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/181-12-closing.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "12. Closing"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 12. Closing
@@ -48,7 +49,22 @@ h2. Contents
 
 
 
-{quote}The Cinderella Syndrome — quality without visibility —{quote}
+{quote}* What is new is that we finally have technology capable of providing representation at scale — affordably, persistently Документ создан на основе исследования.{quote}
+ --
+Похожие документы
+ 223-12-closing (сходство 0.15)
+ 266-13-closing (сходство 0.12)
+ 179-10-open-questions (сходство 0.12)
+ --
+Использование
+ 
+Смотрите также
+ 223-12-closing
+ 179-10-open-questions
+ 266-13-closing
+ 169-table-of-contents
+ 
+Упомина
 
 ----
 

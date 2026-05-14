@@ -47,6 +47,10 @@ from utils_card_envelope import CardStore, CardEnvelope
 
 _tfidf_idx: dict | None = None
 _passages:  list | None = None
+_pagerank:  dict[str, float] | None = None
+
+_PR_CAP   = 0.4   # cap synthetic hubs (e.g. autofilled, in-degree=1501)
+_PR_ALPHA = 0.3   # score *= (1 + alpha * pagerank)
 
 
 def _get_tfidf() -> dict | None:
@@ -57,6 +61,24 @@ def _get_tfidf() -> dict | None:
         except Exception:
             pass
     return _tfidf_idx
+
+
+def _get_pagerank() -> dict[str, float]:
+    global _pagerank
+    if _pagerank is None:
+        graph_path = DOCS / "CARD_GRAPH.json"
+        if graph_path.exists():
+            try:
+                data = json.loads(graph_path.read_text(encoding="utf-8"))
+                _pagerank = {
+                    n["id"]: min(n.get("pagerank", 0), _PR_CAP)
+                    for n in data.get("nodes", [])
+                }
+            except Exception:
+                _pagerank = {}
+        else:
+            _pagerank = {}
+    return _pagerank
 
 
 def _get_passages() -> list:
@@ -382,6 +404,11 @@ def search_hybrid(query: str, top: int = 10,
         rrf[dedup_key]  = rrf.get(dedup_key, 0) + 1.0 / (k + rank + 1)
         if dedup_key not in meta:
             meta[dedup_key] = r
+
+    pr = _get_pagerank()
+    for key in rrf:
+        path = meta[key].get("path") or meta[key].get("file", "")
+        rrf[key] *= (1 + _PR_ALPHA * pr.get(path, 0))
 
     merged = sorted(rrf.items(), key=lambda x: -x[1])[:top]
     results = []

@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/102-доступ-к-данным.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Доступ к данным"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Доступ к данным
@@ -25,7 +26,12 @@ h2. Contents
 
 
 
-{quote}- Fallback: всегда возвращает static entries{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Fallback: всегда возвращает static entries python scripts/improve_semantic_search.py --query "Доступ к данным"{quote}
+ 
+Contents
+ Доступ к данным
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений.{quote}
 
 ----
 

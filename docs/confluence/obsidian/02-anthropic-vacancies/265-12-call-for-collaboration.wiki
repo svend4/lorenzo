@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/265-12-call-for-collaboration.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * rag
   * anthropic
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 12. Call for Collaboration
@@ -34,7 +34,12 @@ h2. Содержание
 
 
 
-{quote}This paper opens questions that require multi-stakeholder{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Sub-agent registry standards and protocols Configuration management interfaces{quote}
+ Sub-agent registry standards and protocols
+ Configuration management interfaces
+ Disagreement detection and presentation systems
+ Audit and observability tools
+12.4.
 
 ----
 

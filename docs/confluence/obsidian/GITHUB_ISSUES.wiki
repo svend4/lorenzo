@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/GITHUB_ISSUES.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "GitHub Issues — список задач"
 tags:
   * general
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. GitHub Issues — список задач
@@ -25,7 +25,7 @@ h1. GitHub Issues — список задач
 {quote}{{GITHUB_ISSUES}} — раздел документации проекта Lorenzo.{quote}
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
 Найдено задач: _293_
 
@@ -72,7 +72,8 @@ h2. {{docs/PROTOTYPE_SPEC.md}} (2 задач)
 
 h2. {{docs/SCRIPTS_CATALOG.md}} (1 задач)
 
-* [ ] _из docs/. | |_  _{{docs}}, {{automation}}_
+* [ ] _⭐ To Do — задача к выполнению 3 [91. Словарь аббревиатур и сокращений]_  _{{docs}}, {{automation}}_
+* [ ] _⭐ To Do — задача к выполнению 10 [Словарь аббревиатур и сокращений]_  _{{docs}}, {{automation}}_
 
 h2. {{docs/SPELLCHECK.md}} (1 задач)
 
@@ -80,7 +81,7 @@ h2. {{docs/SPELLCHECK.md}} (1 задач)
 
 h2. {{docs/STATS.md}} (1 задач)
 
-* [ ] _меток: 109_  _{{docs}}, {{automation}}_
+* [ ] _меток: 110_  _{{docs}}, {{automation}}_
 
 h2. {{docs/TABLES.md}} (1 задач)
 
@@ -251,7 +252,7 @@ h2. {{docs/obsidian/SCRIPTS_CATALOG.md}} (1 задач)
 
 h2. {{docs/obsidian/STATS.md}} (1 задач)
 
-* [ ] _меток: 109_  _{{docs}}, {{automation}}_
+* [ ] _меток: 113_  _{{docs}}, {{automation}}_
 
 h2. {{docs/obsidian/TABLES.md}} (1 задач)
 
@@ -584,3 +585,29 @@ h2. Смотрите также
 * [[DECISIONS|Решения]]
 * [[CONTACTS|Контакты]]
 * [[SCORING|Оценка]]
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [[116-9-checklist-применения-методологии]]
+* [[PROTOTYPE_SPEC]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[TABLES]]
+* [[10-checklist]]
+
+
+
+
+----
+
+_Смотрите также:_
+* [[10-checklist]]
+* [[116-9-checklist-применения-методологии]]
+* [[CONTACTS]]
+* [[CONTACT_PRIORITY]]
+

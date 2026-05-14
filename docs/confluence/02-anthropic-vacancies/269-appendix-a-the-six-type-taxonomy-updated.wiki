@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix A: The Six-Type Taxonomy (Updated)
 
@@ -59,7 +63,17 @@ h2. Содержание
 
 
 
-{quote}This paper updates the Professional Colleague Agents v1.0{quote}
+{quote}_ Appendix A: The Six-Type Taxonomy (Updated) This paper updates the Professional Colleague Agents v1.0 --- Appendix A:. _ Updated full taxonomy: Type Name Specialization Example Maturity ----------------------------------------------- 0 Per{quote}
+ --
+Похожие документы
+ 226-appendix-a-comparative-table-five-agent-types (сходство 0.31)
+ 252-abstract (сходство 0.14)
+ 227-appendix-b-decision-framework-when-to-build-type-1 (сходство 0.13)
+ --
+Использование
+ 
+Смотрите также
+ 226-appendix-a-compa
 
 ----
 

@@ -1,11 +1,9 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/MINDMAP.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 h1. Майндмап репозитория Lorenzo
-
-
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{MINDMAP}} формируется автоматически из данных репозитория.{quote}
@@ -13,13 +11,9 @@ h1. Майндмап репозитория Lorenzo
 
 
 
-{quote}knowledge-space[knowledge-space]{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
-----
 
 
-
+{quote}{{MINDMAP}} — раздел документации проекта Lorenzo.{quote}
 
 
 h2. Структура разделов
@@ -135,14 +129,14 @@ _Смотрите также:_
 
 ----
 
-_Кто ссылается на этот документ (9):_
+_Кто ссылается на этот документ (10):_
 * [04-sozialrecht-domain|03-technology-combinations/04-sozialrecht-domain.md]
+* [GLOSSARY|GLOSSARY.md]
 * [GRAPH|GRAPH.md]
 * [NETWORK|NETWORK.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
-* [SEARCH|SEARCH.md]
-* _...ещё 1_
+* _...ещё 2_
 

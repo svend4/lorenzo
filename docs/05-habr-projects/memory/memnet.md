@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # MemNet: исследовательская память
 
 <!-- abstract-auto -->

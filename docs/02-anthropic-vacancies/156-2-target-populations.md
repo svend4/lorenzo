@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. Target Populations
 
 > [!NOTE]
@@ -15,8 +19,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Disabled Specialists with Modified Work Requirements Size estimate: 5M+ in OECD countries with preserved intellectual capacity and specific support needs.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Size estimate**: 500K+ in OECD countries with relevant skills
@@ -35,7 +39,7 @@
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, local-first, anthropic]
+state: approved
+---
+
 # 2. The Twenty-One Teachers Pattern
 
 <!-- abstract-auto -->
@@ -15,7 +21,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The metaphor that crystallizes this pattern comes from a story
+> * AI Architecture Should Mirror This If composite mastery is how skilled practitioners actually develop, AI infrastructu. * A teacher whose effectiveness comes from combining subject expertise , pedagogical approach , specialty (working with
+If composite mastery is how skilled practitioners actually 
+develop, AI infrastructure supporting them should make this 
+pattern accessible — not just to those few who can find 
+twenty human teachers, but to anyone
 
 ---
 

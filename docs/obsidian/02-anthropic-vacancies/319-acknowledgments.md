@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Acknowledgments
@@ -43,7 +43,10 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> This document emerged from author's question about how to
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's question about how to integrate InGit specifically
+> 🔧 Подход: Review Methodology v1.0
 
 ---
 <!-- tags: rag, architecture, collaboration -->
@@ -184,3 +187,7 @@ python scripts/improve_semantic_search.py --query "Acknowledgments"
 - 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 - _...ещё 3_
 
+# Angle / Perspective
+
+## Angle / Perspective
+Methodological: how-to и reflection.

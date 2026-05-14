@@ -8,7 +8,23 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Раздел README формируется автоматически из данных репозитория. message-template.md —
+Содержание
+ first-contacts.md —  
+ message-template.md —  
+ narrow-questions.md —  
+ --
+Кто ссылается на этот документ (8):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ first-contacts
+ message-template
+ narrow-questions
+ --
+Похожие
 
 
 **Файлов:** 3

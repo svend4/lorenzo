@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 6. Уточнённый объём InGit с учётом Cowork
@@ -56,7 +56,10 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> Оригинальная дорожная карта InGit (10-16
+> > Абстракт (авто)
+>
+> 🎯 Проблема: --- --- Похожие документы: - 328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи(docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство
+> ✅ Результат: Чистая временная лин
 
 ---
 <!-- tags: architecture, roadmap -->

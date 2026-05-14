@@ -2,7 +2,7 @@
 title: "2. The Twenty-One Teachers Pattern"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 2. The Twenty-One Teachers Pattern
@@ -22,7 +22,11 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> The metaphor that crystallizes this pattern comes from a story
+> * AI Architecture Should Mirror This If composite mastery is how skilled practitioners actually develop, AI infrastructu. * A teacher whose effectiveness comes from combining subject expertise , pedagogical approach , specialty (working with
+If composite mastery is how skilled practitioners actually 
+develop, AI infrastructure supporting them should make this 
+pattern accessible — not just to those few who can find 
+twenty human teachers, but to anyone
 
 ---
 

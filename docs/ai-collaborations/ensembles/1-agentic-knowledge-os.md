@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Ансамбль 1 — Agentic Knowledge OS
 
 <!-- toc -->
@@ -23,7 +27,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> В статье про AgentFS автор описывает CLI, который разворачивает Obsidian vault как «операционную систему» для агентов: есть User Space для человека, Native Runtimes для конфигов Claude/Cursor/OpenClaw и Kernel Space .agentos/ как единый source of tru
 **Проекты:** Svyazi, AgentFS, knowledge-space
 
 ---

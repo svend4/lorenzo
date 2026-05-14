@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 11. Call for Collaboration
@@ -40,7 +40,13 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> We invite specific kinds of collaboration:
+> * Liability, professional licensure interaction, quality standards — all need development Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (7)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: rag, architecture -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Твоя identity как persistent character
 
 <!-- toc-auto -->

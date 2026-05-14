@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что concept document NOT (это не grant / не paper / не business plan), длина и формат
 
 <!-- toc-auto -->

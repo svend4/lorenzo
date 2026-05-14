@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 19. ADR-001: Federation over Merging
 
 <!-- toc-auto -->

@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Compatibility Level
@@ -29,8 +29,8 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Текущий уровень: 3 (Interactive / Bridged) Текущий уровень: 3 (Interactive / Bridged)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Текущий уровень: 3 (Interactive / Bridged)**

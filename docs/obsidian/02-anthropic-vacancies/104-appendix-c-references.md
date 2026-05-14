@@ -9,7 +9,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix C: References
@@ -30,8 +30,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Informative — описывает, что нужно SDK на других языках, чтобы считаться NPP-compatible.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Tertiary match — Research Engineer, Agents / Virtual Collaborator (Cowork)
 
 <!-- toc-auto -->

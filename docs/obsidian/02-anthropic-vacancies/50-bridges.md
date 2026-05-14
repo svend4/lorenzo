@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Bridges
@@ -29,7 +29,23 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 60-bridges (сходство 0.21) 40-bridges (сходство 0.20) Кто ссылается на этот документ (6)
+ --
+Похожие документы
+ 60-bridges (сходство 0.21)
+ 40-bridges (сходство 0.20)
+ --
+Использование
+ 
+Смотрите также
+ 60-bridges
+ 40-bridges
+ 61-compatibility-level
+ 57-native-format
+ --
+Кто ссылается на этот документ (6)
+ 35-passports-info1-md
+ 47-na
 
 ---
 <!-- tags: anthropic -->

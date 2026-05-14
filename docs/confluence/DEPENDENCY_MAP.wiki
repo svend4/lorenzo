@@ -1,9 +1,20 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/DEPENDENCY_MAP.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 h1. Карта зависимостей скриптов
+
+
+h2. Содержание
+
+* [Зависимости|#зависимости]
+* [Скрипты без карты зависимостей|#скрипты-без-карты-зависимостей]
+* [Порядок запуска (рекомендуемый)|#порядок-запуска-рекомендуемый]
+* [Смотрите также|#смотрите-также]
+
+----
+
 
 
 
@@ -222,3 +233,30 @@ h2. Смотрите также
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
 * [Решения|DECISIONS.md]
+
+
+
+----
+
+_Смотрите также:_
+* [VERSION_DIFF|VERSION_DIFF.md]
+* [TAGS|TAGS.md]
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
+* [INDEX|INDEX.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
+* [HEALTH|HEALTH.md]
+* [INDEX|INDEX.md]
+* [METRICS|METRICS.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* _...ещё 3_
+

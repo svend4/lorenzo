@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 12. Closing
@@ -25,8 +25,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Specifically, an SGB Advocate Colleague pilot can demonstrate the model and serve real need simultaneously.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The Representative Agent Layer paper, when first written,

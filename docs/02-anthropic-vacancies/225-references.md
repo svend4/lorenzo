@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # References
 
 <!-- toc-auto -->
@@ -31,7 +35,18 @@
 
 
 <!-- summary -->
-> - Soldatenko, M. (2026, April 25). «В школах любят страдать».
+> * References Contents - References - Primary Empirical Source - Companion Papers - Foundation Sources (continued from Re. * "Designing Organizations for an Information-Rich World"
+ 
+Contents
+ References
+ Primary Empirical Source
+ Companion Papers
+ Foundation Sources (continued from Representative Agent Layer)
+ Professional Practice Theory
+ AI in Professional Practice
+ Related Architecture
+ Похожие документы
+ Использ
 
 ---
 <!-- tags: architecture, collaboration -->

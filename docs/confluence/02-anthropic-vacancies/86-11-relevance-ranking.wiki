@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/86-11-relevance-ranking.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 11. Relevance Ranking
 
@@ -24,7 +28,10 @@ h2. Contents
 
 
 
-{quote}v1.1 нормализует алгоритм ранжирования из reference implementation.{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Альтернативные алгоритмы ранжирования (TF-IDF, BM25, semantic embeddings) могут использоваться, но MUST быть опциональными через{quote}
+Альтернативные алгоритмы ранжирования (TF-IDF, BM25, semantic 
+embeddings) могут использоваться, но MUST быть опциональными через 
+параметр  .
 
 ----
 

@@ -1,45 +1,25 @@
 ---
 title: "Оценка стоимости MVP"
 tags:
-  - memory
-  - orchestration
-  - security
-  - knowledge
-  - architecture
-  - roadmap
-  - collaboration
+  - cost
+  - docs
   - general
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Оценка стоимости MVP
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Раздел `COST` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: cost, docs -->
+
 
 <!-- summary -->
-> _Ориентировочные цифры на основе документации проекта._
-**Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Итого](#итого)
-- [По компонентам](#по-компонентам)
-- [По ролям](#по-ролям)
-- [Сценарии](#сценарии)
-- [Временные оценки из документов](#временные-оценки-из-документов)
-- [Допущения](#допущения)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, architecture, roadmap, collaboration -->
-
-
+> `COST` — раздел документации проекта Lorenzo.
 
 
 _Ориентировочные цифры на основе документации проекта._
@@ -101,7 +81,7 @@ _Минимальный сценарий: open source + личное время 
 | `343-lorenzo-catalyst` | рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс… | 72 |
 | `365-развёрнутый-анал` | eam. С solo developer (Макс) и part-time, реальный timeline … | 72 |
 | `ACTION_ITEMS` | обратная-связь_ - 5: Burnout. Проект 12-18 месяцев для singl… | 72 |
-| `CONCEPTS` | инимально жизнеспособный прототип за 12-18 месяцев     _→ [[INDEX|N… | 72 |
+| `CONCEPTS` | инимально жизнеспособный прототип за 12-18 месяцев     _→ [[README|N… | 72 |
 | `DECISIONS` | document — структурированный план на 12-18 месяцев, который … | 72 |
 | `TABLES` | 65-развёрнутый-анал` | Макс) и part-time, реальный timeline … | 72 |
 | `01-response` | есяцев) → maybe eventual formalization как RFC or standard (… | 72 |
@@ -114,12 +94,26 @@ _Минимальный сценарий: open source + личное время 
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_cost.py
+```
+
+## Смотрите также
+- [Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
 <!-- backlinks -->
 
 ---
 
 **Кто ссылается на этот документ (7):**
-- [INDEX]]
+- [[INDEX]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
@@ -128,9 +122,13 @@ _Минимальный сценарий: open source + личное время 
 - [[TABLES]]
 
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_cost.py
-```
+---
+
+**Смотрите также:**
+- [[SCHEDULE]]
+- [[SCORING]]
+- [[SUMMARIES]]
+- [[COMPONENT_MATRIX]]
+

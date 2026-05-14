@@ -1,20 +1,9 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/badges/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 h1. Бейджи репозитория
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{README}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-
-
-{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
-
 
 Автоматически генерируются скриптом {{improve_badges.py}}.
 
@@ -39,22 +28,3 @@ h2. Использование в README
 ![license](license.svg)
 ![branch](branch.svg)
 {code}
-
-
-
-----
-
-_Кто ссылается на этот документ (9):_
-* [BADGES|../BADGES.md]
-* [DEPENDABOT|../DEPENDABOT.md]
-* [OUTLINE|../OUTLINE.md]
-* [READABILITY|../READABILITY.md]
-* [READING_TIME|../READING_TIME.md]
-* [SEARCH|../SEARCH.md]
-* [SKILL_DASHBOARD|../SKILL_DASHBOARD.md]
-* [TABLES|../TABLES.md]
-* _...ещё 1_
-
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.

@@ -2,8 +2,9 @@
 title: "12. Versioning Policy"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 12. Versioning Policy
@@ -31,14 +32,14 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Major (v1 → v2): breaking changes в interfaces или schemas Major (v1 → v2): breaking changes в interfaces или schemas
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Major** (v1 → v2): breaking changes в interfaces или schemas
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

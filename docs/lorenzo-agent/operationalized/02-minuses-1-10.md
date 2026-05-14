@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact
 
 <!-- toc-auto -->

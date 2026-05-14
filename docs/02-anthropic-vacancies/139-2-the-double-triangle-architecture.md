@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. The Double-Triangle Architecture
 
 <!-- abstract-auto -->
@@ -16,7 +20,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> We formalize the architecture using two triangles sharing a common
+> * The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры. * The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры
+separate identity contexts: personal context (their 
+work-in-progress, drafts, notes, private patterns) and team 
+context (their accepted deliverables, public roles, shared 
+outputs).
 
 ---
 
@@ -31,7 +39,7 @@
 
 ---
 
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 
@@ -189,3 +197,7 @@ large organizations (Star(n)) without protocol changes.
 - [148-appendix-a-glossary](148-appendix-a-glossary.md)
 - [README](README.md)
 
+# Bridges
+
+## Bridges
+Как концепты Repo соотносятся с концепциями других Repos в экосистеме.

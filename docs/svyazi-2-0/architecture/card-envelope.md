@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Card Envelope
 
 <!-- toc-auto -->
@@ -15,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
+> Эта структура логически следует из CardIndex‑мышления Svyazi, immutable/event‑style практик AgentFS и Memory OS, а также из необходимости разводить truth и proposal в memory‑системах.
 **Проекты:** Svyazi, CardIndex, AgentFS
 
 ---

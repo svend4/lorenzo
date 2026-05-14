@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: agent-spec
 version: "1.0"
 agent_name: "[Название агента]"
@@ -13,7 +14,7 @@ tags: [агент, спецификация]
 # Спецификация агента: [Название]
 
 <!-- summary -->
-> `agent-spec` — раздел документации проекта Lorenzo.
+> agent-spec — раздел документации проекта Lorenzo. Заполните поля согласно инструкции. [representative | professional-colleague | composite-skills | catalyst | companion | other]
 
 
 > [!NOTE]

@@ -2,7 +2,7 @@
 title: "Appendix B: Sub-Agent Registry Schema (Sketch)"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix B: Sub-Agent Registry Schema (Sketch)
@@ -30,8 +30,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, su
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > For implementation, sub-agent registry entries might follow

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Anchor-узел: Habr Scout как первый шаг
 
 <!-- toc-auto -->

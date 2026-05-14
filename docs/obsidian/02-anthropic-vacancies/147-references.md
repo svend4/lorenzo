@@ -5,7 +5,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # References
@@ -42,7 +42,21 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> - Conway, M. E. (1968). "How do committees invent?" *Datamation*.
+> * References Contents - References - Foundational Sources - Multi-Agent Systems - Protocols and Federation(protocols-and. * "Architectural Styles and the Design of Network-based Software Architectures"
+ 
+Contents
+ References
+ Foundational Sources
+ Multi-Agent Systems
+ Protocols and Federation
+ Human-AI Collaboration
+ Related Architectures
+ Pattern Libraries
+ Primary Reference
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылает
 
 ---
 <!-- tags: roadmap, anthropic, collaboration -->

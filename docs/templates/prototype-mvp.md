@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: prototype-mvp
 version: "1.0"
 mvp_id: "MVP-NNNN"
@@ -14,7 +15,7 @@ tags: [mvp, прототип]
 # MVP: [Название]
 
 <!-- summary -->
-> `prototype-mvp` — раздел документации проекта Lorenzo.
+> prototype-mvp — раздел документации проекта Lorenzo. Заполните поля согласно инструкции. [1-2 предложения: что делает прототип.] Главная: [метрика] [≥/≤] [значение]
 
 
 > [!NOTE]

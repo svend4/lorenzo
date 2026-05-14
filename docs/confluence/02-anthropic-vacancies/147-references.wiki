@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/147-references.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. References
 
@@ -37,7 +41,21 @@ h2. Contents
 
 
 
-{quote}- Conway, M. E. (1968). "How do committees invent?" _Datamation_.{quote}
+{quote}_ References Contents - References - Foundational Sources - Multi-Agent Systems - Protocols and Federation(protocols-and. _ "Architectural Styles and the Design of Network-based Software Architectures"{quote}
+ 
+Contents
+ References
+ Foundational Sources
+ Multi-Agent Systems
+ Protocols and Federation
+ Human-AI Collaboration
+ Related Architectures
+ Pattern Libraries
+ Primary Reference
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылает
 
 ----
 

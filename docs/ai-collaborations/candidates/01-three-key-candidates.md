@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Три ключевых кандидата: K2-18, Wikontic, NGT Memory
 
 <!-- toc-auto -->
@@ -14,7 +18,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пайплайн построения графов знаний из текста с использ
 **Проекты:** NGT Memory, Wikontic
 
 ---

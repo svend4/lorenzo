@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix A: Glossary
 
 <!-- toc -->
@@ -27,10 +31,22 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - **Double-Triangle Architecture**: The topology where each
+> * Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие практики. * - Three-phase review: Methodology for parallel AI-agent review with subsequent consolidation
+ 
+Содержание
+ Appendix A: Glossary
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие пра
 
 ---
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

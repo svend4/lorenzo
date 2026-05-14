@@ -159,3 +159,57 @@ def test_main_kpi_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "KPI.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+def test_main_skips_skip_files(tmp_path, monkeypatch):
+    """Line 87: SKIP files (KPI.md, HEALTH.md etc.) → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "KPI.md").write_text("# KPI\n\n436 старых значений\n", encoding="utf-8")
+    (tmp_path / "HEALTH.md").write_text("# Health\n\n87% coverage\n", encoding="utf-8")
+    mod.main()
+
+
+def test_main_with_long_doc_extracts_kpis(tmp_path, monkeypatch):
+    """Lines 91-93: doc with >= 150 chars containing KPIs → extracted."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    long_text = "# Title\n\n" + "Проект включает 436 вакансий в 12 кластерах. " * 10
+    (tmp_path / "doc.md").write_text(long_text, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "KPI.md").read_text(encoding="utf-8")
+    assert "436" in text
+
+
+def test_main_with_multiple_kpi_categories(tmp_path, monkeypatch):
+    """Lines 107-124: rendering of multiple categories with dedup and table rows."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    content = "# Report\n\n" + (
+        "Системы: 436 вакансий. Покрытие 87% тестами. Версия 2.0. "
+        "Стоимость $1000 в месяц. Размер 500 MB. Время 3 часа работы. "
+    ) * 6  # make it > 150 chars
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "KPI.md").read_text(encoding="utf-8")
+    assert "#" in text
+
+
+def test_main_dedup_kpis(tmp_path, monkeypatch):
+    """Lines 115-123: dedup by value within category."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    # Many same values to trigger dedup and see_val >= 20 path
+    base = "Системы включают 436 вакансий здесь.\n"
+    content = "# Title\n\n" + base * 30  # long enough, many duplicates
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 133: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    script_path = str(ROOT / "scripts" / "improve_kpi.py")
+    runpy.run_path(script_path, run_name="__main__")

@@ -122,3 +122,30 @@ _Курированных рисков: 10 · Из документов: 15_
 | 🔴 КРИТИЧЕСКИЙ | 1 |
 | 🟠 ВЫСОКИЙ | 7 |
 | 🟡 СРЕДНИЙ | 2 |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [02-methodology](01-svyazi/02-methodology.md)
+- [02-методика-и-рамка-отбора](04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 6_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+- [02-methodology](01-svyazi/02-methodology.md)
+- [privacy](svyazi-2-0/security/privacy.md)
+- [security-routing-plane](svyazi-2-0/components/security-routing-plane.md)
+

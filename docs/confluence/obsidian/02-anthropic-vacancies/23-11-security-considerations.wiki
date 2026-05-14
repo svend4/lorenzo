@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/23-11-security-considerations.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -12,7 +12,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 11. Security Considerations
@@ -53,7 +53,20 @@ h2. Contents
 
 
 
-{quote}Adapters выполняются внутри Portal-процесса. Portal MUST обрабатывать{quote}
+{quote}_ Security Considerations - 11.1. _ MCP Exposure !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: Security Considerations - 11.1. 🔧 Подход: MCP Exposure !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (4)
+ 
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Security Considerations(11-security-consi{quote}
 
 ----
 

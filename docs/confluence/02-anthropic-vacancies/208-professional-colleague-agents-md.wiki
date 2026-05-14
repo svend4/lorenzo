@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: normalized
+----
 
 h1. PROFESSIONAL COLLEAGUE AGENTS.md
 
@@ -17,7 +21,7 @@ h2. Contents
 
 
 
-{quote}- [249-composite-skills-agent-md|249-composite-skills-agent-md.md] (сходство 0.14){quote}
+{quote}- [249-composite-skills-agent-md|249-composite-skills-agent-md.md] (сходство 0.14) Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 ----
 

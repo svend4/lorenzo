@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/221-10-open-questions.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 10. Open Questions
 
@@ -27,7 +31,10 @@ h2. Содержание
 
 
 
-{quote}Several questions remain unresolved.{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Multi-Profession Practitioners How do agents handle practitioners who span multiple{quote}
+How do agents handle practitioners who span multiple
+professional contexts (researcher who also teaches; lawyer
+who is also academic; engineer who is also entrepreneur)?
 
 ----
 

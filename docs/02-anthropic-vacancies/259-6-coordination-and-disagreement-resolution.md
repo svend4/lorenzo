@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Coordination and Disagreement Resolution
 
 > [!NOTE]
@@ -16,8 +20,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: They differ on specific issue: A says X; B says Y." Helps principal see what is settled and what is contested.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The composite agent's most subtle function is coordinating

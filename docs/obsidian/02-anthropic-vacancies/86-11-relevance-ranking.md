@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 11. Relevance Ranking
@@ -28,7 +28,10 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> v1.1 нормализует алгоритм ранжирования из reference implementation.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Альтернативные алгоритмы ранжирования (TF-IDF, BM25, semantic embeddings) могут использоваться, но MUST быть опциональными через
+Альтернативные алгоритмы ранжирования (TF-IDF, BM25, semantic 
+embeddings) могут использоваться, но MUST быть опциональными через 
+параметр  .
 
 ---
 <!-- tags: anthropic -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Контекст: что такое Anthropic Beneficial Deployments
 
 <!-- toc-auto -->
@@ -16,7 +20,7 @@
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

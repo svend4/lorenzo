@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/65-readme-md.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "README.md"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. README.md
@@ -25,7 +26,12 @@ h2. Contents
 
 
 
-{quote}_Единая точка входа для федеративных git-экосистем знаний._{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Документ содержит практические рекомендации и лучшие практики. Рекомендуется читать перед погружением в детали.{quote}
+ 
+Contents
+ README.md
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 
 ----
 
@@ -131,3 +137,7 @@ python scripts/improve_semantic_search.py --query "README md"
 - _...ещё 1_
 
 _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+# English below ↓
+
+## English below ↓

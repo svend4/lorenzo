@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Section 6: Proposer's role и qualifications
 
 <!-- toc-auto -->

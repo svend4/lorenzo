@@ -1,12 +1,10 @@
 ---
 title: "Q&A: 03-technology-combinations"
 tags:
-  - rag
-  - knowledge
-  - ingestion
-  - architecture
+  - qa
+  - docs
   - technology-combinations
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Q&A: 03-technology-combinations
@@ -15,15 +13,27 @@ date: 2026-05-11
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 5 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space
-
----
-<!-- tags: rag, knowledge, ingestion, architecture -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. _Не найдено в этом файле._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 5 файлам раздела._
@@ -60,6 +70,20 @@ _Не найдено в этом файле._
 
 _Не найдено в этом файле._
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
 <!-- backlinks -->
 
 ---
@@ -71,21 +95,4 @@ _Не найдено в этом файле._
 - [[READING_TIME]]
 - [[SEARCH]]
 - [[TABLES]]
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[QA]] (сходство 0.97)
-- [[QA]] (сходство 0.51)
-- [[QA]] (сходство 0.50)
 

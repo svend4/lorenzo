@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix B: Decision Framework — When to Build Type 1 First
 
@@ -37,7 +41,15 @@ h2. Содержание
 
 
 
-{quote}For an organization deciding whether to build a Professional{quote}
+{quote}* another type: Choose Type 1 (Professional Colleague Agent) when: - Profession has well-defined standardized practices Документ создан на основе исследования.{quote}
+ Appendix A: Comparative Table — Five Agent Types
+ Appendix A: The Six-Type Taxonomy (Updated)
+ Вакансии Anthropic — Анализ по кластерам
+ Кто ты
+Упоминается в
+ Вакансии Anthropic — Анализ по кластерам
+ 
+Связанные док
 
 ----
 

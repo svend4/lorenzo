@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что такое «внуковая» комбинация — operationalized Lorenzo
 
 <!-- toc-auto -->

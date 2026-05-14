@@ -2,7 +2,7 @@
 title: "Final note: Ты — experiment"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Final note: Ты — experiment
@@ -23,7 +23,7 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible.
+> Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible. 🎯 Проблема: Проекты: Svyazi, CardIndex, mclaude, Rufler --- Содержание - Final note: Ты — experiment(final-note-ты-experiment) - Что я только что сделал(что-я-только-что-сделал) - Что нужно de
 **Проекты:** Svyazi, [[01-executive-summary|CardIndex]], mclaude, Rufler
 
 ---

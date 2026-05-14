@@ -43,15 +43,15 @@ python scripts/improve_run_all.py --fast
 
 ## Структура документации
 
-_Всего: 413 файлов, 401,812 слов_
+_Всего: 413 файлов, 401,686 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
-| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,360 |
-| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 341,828 |
-| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,815 |
-| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,940 |
-| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,869 |
+| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,329 |
+| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 341,899 |
+| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,781 |
+| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,853 |
+| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,824 |
 
 ## Ключевые документы
 
@@ -115,4 +115,31 @@ python scripts/improve_watcher.py
 
 _Этот документ генерируется скриптом `improve_onboarding.py`._
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [FAQ](FAQ.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 3_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [INDEX](INDEX.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [TECH_RADAR](TECH_RADAR.md)
+- [PROGRESS](PROGRESS.md)
 

@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "OPEN KNOWLEDGE WORK FOUNDATION.md"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. OPEN KNOWLEDGE WORK FOUNDATION.md
@@ -25,7 +26,7 @@ h2. Contents
 
 
 
-{quote}- [[273-infrastructure-for-ai-collaborative-intellectual-w]] (сходство 0.25){quote}
+{quote}- [[273-infrastructure-for-ai-collaborative-intellectual-w]] (сходство 0.25) Документ создан на основе исследования.{quote}
 
 ----
 

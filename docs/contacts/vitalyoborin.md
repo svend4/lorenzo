@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "VitalyOborin"
@@ -31,7 +32,22 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> - [Статус связи](#статус-связи)
+> Документ содержит практические рекомендации и лучшие практики. _Создано автоматически: 2026-04-29_ vladspace (сходство 0.71) antipozitive (сходство 0.70)
+ --
+_Создано автоматически: 2026-04-29_
+ --
+Похожие документы
+ vladspace (сходство 0.71)
+ antipozitive (сходство 0.70)
+ zodigancode (сходство 0.70)
+ --
+Смотрите также
+ antipozitive
+ nlaik
+ sonia-black
+ spbmolot
+ --
+Кто ссылается на этот до
 **Проекты:** Svyazi, Yodoca
 
 ---

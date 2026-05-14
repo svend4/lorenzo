@@ -243,3 +243,88 @@ def test_main_benchmark_mocked(monkeypatch):
     monkeypatch.setattr("sys.argv", ["prog", "--benchmark"])
     monkeypatch.setattr(_mod, "benchmark", lambda: None)
     _mod.main()
+
+
+# ── _exact_score edge cases ───────────────────────────────────────────────────
+
+def test_exact_score_zero_norm_query(monkeypatch):
+    """Line 249: return 0.0 when norm_q < 1e-9."""
+    from improve_ann_index import _exact_score
+    # All-zero query sparse → norm_q = 0
+    result = _exact_score({0: 0.0}, {0: 1.0})
+    assert result == 0.0
+
+
+def test_exact_score_nonzero():
+    from improve_ann_index import _exact_score
+    a = {0: 1.0, 1: 0.0}
+    b = {0: 1.0, 1: 0.0}
+    result = _exact_score(a, b)
+    assert result > 0.0
+
+
+# ── _load() fresh (empty cache) ───────────────────────────────────────────────
+
+def test_load_from_disk_when_cache_empty(monkeypatch):
+    """Force _load() to go through the full file-loading path (lines 220-237)."""
+    monkeypatch.setattr(_mod, "_CACHE", {})
+    result = _mod._load()
+    assert len(result) == 5  # index, meta, proj, vocab, idf
+    index, meta, proj, vocab, idf = result
+    assert meta["n_docs"] > 0
+
+
+def test_load_raises_when_index_bin_missing(tmp_path, monkeypatch):
+    """Line 222: raise FileNotFoundError when INDEX_BIN is missing."""
+    monkeypatch.setattr(_mod, "_CACHE", {})
+    monkeypatch.setattr(_mod, "INDEX_BIN", tmp_path / "nonexistent.bin")
+    with pytest.raises(FileNotFoundError):
+        _mod._load()
+
+
+# ── build_index() ─────────────────────────────────────────────────────────────
+
+def test_build_index_creates_files(tmp_path, monkeypatch):
+    """Cover lines 142-208: build_index() with a small fake corpus."""
+    import json as _json
+    idx_data = [
+        {"title": f"Agent Memory Doc {i}",
+         "content": "agent memory knowledge system retrieval graph structure " * 5,
+         "path": f"doc{i}.md", "preview": "", "tags": ["agent", "memory"]}
+        for i in range(20)
+    ]
+    idx_file = tmp_path / "search_index.json"
+    idx_file.write_text(_json.dumps(idx_data), encoding="utf-8")
+    monkeypatch.setattr(_mod, "DOCS", tmp_path)
+    monkeypatch.setattr(_mod, "INDEX_BIN", tmp_path / "ann_index.bin")
+    monkeypatch.setattr(_mod, "PROJ_NPY", tmp_path / "ann_proj.npy")
+    monkeypatch.setattr(_mod, "META_FILE", tmp_path / "ann_meta.json")
+    _mod.build_index()
+    assert (tmp_path / "ann_index.bin").exists()
+    assert (tmp_path / "ann_proj.npy").exists()
+    assert (tmp_path / "ann_meta.json").exists()
+
+
+def test_main_build_calls_build_index(monkeypatch):
+    """Line 391: build_index() is called when --build flag is set."""
+    called = [False]
+    def fake_build():
+        called[0] = True
+    monkeypatch.setattr(_mod, "build_index", fake_build)
+    monkeypatch.setattr("sys.argv", ["prog", "--build"])
+    _mod.main()
+    assert called[0]
+
+
+# ── benchmark() ──────────────────────────────────────────────────────────────
+
+def test_benchmark_no_crash(monkeypatch, capsys):
+    """Cover lines 292-355: benchmark() with mocked ann_search."""
+    fake_results = [
+        {"path": "doc0.md", "title": "Test Doc", "_ann_score": 0.9,
+         "sparse": {0: 0.5, 1: 0.3}}
+    ]
+    monkeypatch.setattr(_mod, "ann_search", lambda q, k=10: fake_results)
+    _mod.benchmark()
+    out = capsys.readouterr().out
+    assert "Запрос" in out or "Recall" in out or "ANN" in out

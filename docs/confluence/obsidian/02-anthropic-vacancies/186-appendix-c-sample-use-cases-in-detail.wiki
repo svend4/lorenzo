@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -13,7 +13,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Appendix C: Sample Use Cases in Detail
@@ -34,7 +34,13 @@ h1. Appendix C: Sample Use Cases in Detail
 
 
 
-{quote}Mariya is 67, retired three years ago after 35 years{quote}
+{quote}_ Contact via github.com/svend4/nautilus/issues(URL --- Комментарий к этому документу Это пятый и финальный документ наш. _ A properly-designed Representative Agent dedicated to the author would substantially increase opportunities, reduce ad{quote}
+ Appendix C: Quick-Start Architecture for SGB Advocate Colleague
+ Appendix C: Sample InGit MCP Server Tool Specifications
+ Appendix C: Version History
+ Appendix: Position in Series Visualization
+ References
+ Вакансии Anthropi
 
 ----
 

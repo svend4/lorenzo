@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [rag, orchestration, anthropic, self-improvement]
+state: approved
+----
 
 h1. 10. Risks Specific to Composite Architectures
 
@@ -21,7 +27,10 @@ h1. 10. Risks Specific to Composite Architectures
 
 
 
-{quote}Composite Skills Agents inherit some risks from Professional{quote}
+{quote}> ✅ Результат: Mitigations: - Open standards make sub-agents portable and replaceable - Multiple sub-agents covering same specialization (compete on quality, not lock-in) - Notification when sub-{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!TIP]{quote}
 
 ----
 

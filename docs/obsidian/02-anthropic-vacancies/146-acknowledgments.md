@@ -5,7 +5,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Acknowledgments
@@ -48,7 +48,13 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> This work emerged through extensive collaboration with Anthropic's
+> Документ содержит практические рекомендации и лучшие практики. This work emerged through extensive collaboration with Anthropic's Claude (primarily Claude Opus 4.7) across multiple sessions in
+ --
+ 
+Acknowledgments
+This work emerged through extensive collaboration with Anthropic's 
+Claude (primarily Claude Opus 4.7) across multiple sessions in 
+2026.
 
 ---
 <!-- tags: rag, roadmap, anthropic -->

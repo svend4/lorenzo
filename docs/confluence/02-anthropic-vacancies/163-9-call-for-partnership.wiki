@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/163-9-call-for-partnership.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 9. Call for Partnership
 
@@ -37,7 +41,11 @@ h2. Содержание
 
 
 
-{quote}OKWF is not a solo initiative. Successful launch requires{quote}
+{quote}_ For Policy Organizations (EU Commission, National Governments, OECD) What we ask: - Regulatory guidance and dialogue -. _ For Academic and Research Partners (Universities, Think Tanks) What we ask: - Research collaboration on methodology an{quote}
+ --
+ 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования.{quote}
 
 ----
 

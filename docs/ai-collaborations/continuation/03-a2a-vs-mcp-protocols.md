@@ -13,7 +13,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с более чем 150 организациями поддержки и интеграциями в крупные cloud‑платформы; спецификация A2A описывает discovery capabilities, modalities, collaborative t
 **Проекты:** Svyazi, mclaude, AI Factory
 
 ---

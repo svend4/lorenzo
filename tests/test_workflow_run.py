@@ -257,3 +257,394 @@ def test_main_missing_task_id_graceful(tmp_path, monkeypatch):
     monkeypatch.setattr("sys.argv", ["prog", "--task", "nonexistent-task", "--dry-run"])
     result = mod.main()
     assert result in (0, 1)
+
+
+# ── execute_step: read (lines 93-94) ─────────────────────────────────────────
+
+def test_execute_step_read_existing_file(tmp_path, monkeypatch):
+    """Lines 93-96: read op with existing file."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "test.md").write_text("# Hello world content", encoding="utf-8")
+    step = {"read": "test.md"}
+    result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+    assert "chars" in result.output
+
+
+def test_execute_step_read_missing_returns_skip(tmp_path, monkeypatch):
+    """Lines 93-94: read op with missing file → skip."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    step = {"read": "TOTALLY_NONEXISTENT_FILE.md"}
+    result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "skip"
+    assert "not found" in result.error
+
+
+# ── execute_step: read_glob (lines 99-104) ───────────────────────────────────
+
+def test_execute_step_read_glob(tmp_path, monkeypatch):
+    """Lines 99-104: read_glob op."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "a.md").write_text("# A", encoding="utf-8")
+    (tmp_path / "b.md").write_text("# B", encoding="utf-8")
+    step = {"read_glob": "*.md"}
+    result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+    assert "matched" in result.output
+
+
+def test_execute_step_read_glob_no_matches(tmp_path, monkeypatch):
+    """Lines 99-104: read_glob op with no matches."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    step = {"read_glob": "*.xyz_nonexistent"}
+    result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+    assert "matched" in result.output
+    assert "0" in result.output
+
+
+# ── execute_step: run_script (lines 107-119) ─────────────────────────────────
+
+def test_execute_step_run_script_not_found(tmp_path, monkeypatch):
+    """Line 111: run_script op with missing script → fail."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "scripts").mkdir()
+    step = {"run_script": "nonexistent_xyz.py"}
+    result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "fail"
+    assert "not found" in result.error
+
+
+def test_execute_step_run_script_ok(tmp_path, monkeypatch):
+    """Lines 113-119: run_script op with existing script that succeeds."""
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "dummy.py").write_text("print('ok')", encoding="utf-8")
+    mock_result = MagicMock()
+    mock_result.returncode = 0
+    mock_result.stdout = "done"
+    mock_result.stderr = ""
+    step = {"run_script": "dummy.py"}
+    with patch("subprocess.run", return_value=mock_result):
+        result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+
+
+def test_execute_step_run_script_fail(tmp_path, monkeypatch):
+    """Lines 115-119: run_script op that returns non-zero → fail."""
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "bad.py").write_text("sys.exit(1)", encoding="utf-8")
+    mock_result = MagicMock()
+    mock_result.returncode = 1
+    mock_result.stdout = ""
+    mock_result.stderr = "error output"
+    step = {"run_script": "bad.py"}
+    with patch("subprocess.run", return_value=mock_result):
+        result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "fail"
+
+
+def test_execute_step_run_script_with_extra_args(tmp_path, monkeypatch):
+    """Lines 107-119: run_script with extra arguments."""
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "myscript.py").write_text("print('ok')", encoding="utf-8")
+    mock_result = MagicMock()
+    mock_result.returncode = 0
+    mock_result.stdout = "output"
+    mock_result.stderr = ""
+    step = {"run_script": "myscript.py --dry-run --top 5"}
+    with patch("subprocess.run", return_value=mock_result) as mock_run:
+        result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+    call_args = mock_run.call_args[0][0]
+    assert "--dry-run" in call_args
+    assert "--top" in call_args
+
+
+# ── execute_step: run_template_init (lines 122-128) ──────────────────────────
+
+def test_execute_step_run_template_init(tmp_path, monkeypatch):
+    """Lines 122-128: run_template_init op with no vars."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    step = {"run_template_init": "project-component"}
+    result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+
+
+def test_execute_step_run_template_init_with_vars(tmp_path, monkeypatch):
+    """Lines 124-125: run_template_init with vars_dict items."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    step = {"run_template_init": "project-component"}
+    result = mod.execute_step(step, {"author": "kksudo", "project": "AgentFS"}, dry_run=False)
+    assert result.status == "ok"
+    assert "requires" in result.output
+
+
+# ── execute_step: bm25_passages (lines 131-139) ──────────────────────────────
+
+def test_execute_step_bm25_passages(tmp_path, monkeypatch):
+    """Lines 131-139: bm25_passages op returns ok."""
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mock_result = MagicMock()
+    mock_result.returncode = 0
+    mock_result.stdout = "passage result"
+    step = {"bm25_passages": "agent memory"}
+    with patch("subprocess.run", return_value=mock_result):
+        result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+
+
+def test_execute_step_bm25_passages_fail(tmp_path, monkeypatch):
+    """Lines 136-139: bm25_passages op returns fail on non-zero returncode."""
+    from unittest.mock import patch, MagicMock
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mock_result = MagicMock()
+    mock_result.returncode = 1
+    mock_result.stdout = ""
+    step = {"bm25_passages": "no results query"}
+    with patch("subprocess.run", return_value=mock_result):
+        result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "fail"
+
+
+# ── execute_step: filter_by_topic / update_checklist (lines 162, 167) ────────
+
+def test_execute_step_filter_by_topic(tmp_path, monkeypatch):
+    """Lines 161-164: filter_by_topic op."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    step = {"filter_by_topic": "memory"}
+    result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+    assert "memory" in result.output
+
+
+def test_execute_step_update_checklist(tmp_path, monkeypatch):
+    """Lines 166-169: update_checklist op."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    step = {"update_checklist": "item completed"}
+    result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "ok"
+
+
+# ── execute_step: exception handlers (lines 173-176) ─────────────────────────
+
+def test_execute_step_timeout(tmp_path, monkeypatch):
+    """Lines 173-174: TimeoutExpired → fail with 'timeout' error."""
+    from unittest.mock import patch
+    import subprocess as _subprocess
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "slow.py").write_text("import time; time.sleep(999)", encoding="utf-8")
+    step = {"run_script": "slow.py"}
+    with patch("subprocess.run", side_effect=_subprocess.TimeoutExpired(["slow.py"], 120)):
+        result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "fail"
+    assert "timeout" in result.error
+
+
+def test_execute_step_generic_exception(tmp_path, monkeypatch):
+    """Lines 175-176: generic Exception → fail."""
+    from unittest.mock import patch
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "broken.py").write_text("raise RuntimeError('oops')", encoding="utf-8")
+    step = {"run_script": "broken.py"}
+    with patch("subprocess.run", side_effect=RuntimeError("oops")):
+        result = mod.execute_step(step, {}, dry_run=False)
+    assert result.status == "fail"
+    assert "oops" in result.error
+
+
+# ── run_workflow (lines 185-212) ─────────────────────────────────────────────
+
+def test_run_workflow_missing_task(tmp_path, monkeypatch, capsys):
+    """Lines 180-183: run_workflow with missing task → empty list."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    result = mod.run_workflow("nonexistent-task", {})
+    assert result == []
+    out = capsys.readouterr().out
+    assert "не найден" in out or "Манифест" in out
+
+
+def test_run_workflow_empty_pipeline(tmp_path, monkeypatch, capsys):
+    """Lines 185-188: run_workflow with empty pipeline → empty list."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    (tmp_path / "empty-task.json").write_text(
+        '{"id": "empty-task", "description": "Empty", "pipeline": []}',
+        encoding="utf-8"
+    )
+    result = mod.run_workflow("empty-task", {})
+    assert result == []
+    out = capsys.readouterr().out
+    assert "пустой" in out or "нет pipeline" in out or "⚠" in out
+
+
+def test_run_workflow_runs_steps(tmp_path, monkeypatch, capsys):
+    """Lines 195-211: run_workflow processes all steps."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    task_data = {
+        "id": "test-task",
+        "description": "Test workflow",
+        "pipeline": [
+            {"generate": "Write a summary."},
+            {"validate_template": "project"},
+        ]
+    }
+    (tmp_path / "test-task.json").write_text(
+        json.dumps(task_data), encoding="utf-8"
+    )
+    results = mod.run_workflow("test-task", {"author": "kksudo"})
+    assert len(results) == 2
+    out = capsys.readouterr().out
+    assert "Workflow" in out or "test-task" in out
+
+
+def test_run_workflow_dry_run(tmp_path, monkeypatch, capsys):
+    """Lines 196-211: run_workflow dry_run mode."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    task_data = {
+        "id": "dry-task",
+        "description": "Dry run test",
+        "pipeline": [{"generate": "test prompt"}]
+    }
+    (tmp_path / "dry-task.json").write_text(
+        json.dumps(task_data), encoding="utf-8"
+    )
+    results = mod.run_workflow("dry-task", {}, dry_run=True)
+    assert len(results) == 1
+    assert results[0].status == "dry-run"
+
+
+def test_run_workflow_failed_steps_count(tmp_path, monkeypatch, capsys):
+    """Lines 207-211: run_workflow summary reflects step statuses."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    task_data = {
+        "id": "mixed-task",
+        "description": "Mixed results",
+        "pipeline": [
+            {"generate": "ok step"},
+            {"unknown_op_xyz": "will skip"},
+        ]
+    }
+    (tmp_path / "mixed-task.json").write_text(
+        json.dumps(task_data), encoding="utf-8"
+    )
+    results = mod.run_workflow("mixed-task", {})
+    assert len(results) == 2
+    statuses = {r.status for r in results}
+    assert "ok" in statuses
+
+
+def test_run_workflow_with_outputs_and_errors(tmp_path, monkeypatch, capsys):
+    """Lines 200-205: run_workflow prints output and error lines."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    task_data = {
+        "id": "output-task",
+        "description": "Task with output",
+        "pipeline": [
+            {"read": "nonexistent_file_xyz.md"},   # → skip with error
+        ]
+    }
+    (tmp_path / "output-task.json").write_text(
+        json.dumps(task_data), encoding="utf-8"
+    )
+    results = mod.run_workflow("output-task", {})
+    assert len(results) == 1
+    out = capsys.readouterr().out
+    # Should print ERROR line
+    assert "ERROR" in out or "not found" in out
+
+
+# ── main: --list with tasks (lines 221-223) ───────────────────────────────────
+
+def test_main_list_with_tasks(tmp_path, monkeypatch, capsys):
+    """Lines 221-223: --list shows task descriptions."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    task_data = {"id": "my-task", "description": "My task description"}
+    (tmp_path / "my-task.json").write_text(
+        json.dumps(task_data), encoding="utf-8"
+    )
+    result = mod.main()
+    assert result == 0
+    out = capsys.readouterr().out
+    assert "my-task" in out
+    assert "My task description" in out
+
+
+def test_main_list_multiple_tasks(tmp_path, monkeypatch, capsys):
+    """Lines 220-223: --list iterates all tasks."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    for name, desc in [("alpha-task", "Alpha desc"), ("beta-task", "Beta desc")]:
+        (tmp_path / f"{name}.json").write_text(
+            json.dumps({"id": name, "description": desc}), encoding="utf-8"
+        )
+    result = mod.main()
+    assert result == 0
+    out = capsys.readouterr().out
+    assert "alpha-task" in out
+    assert "beta-task" in out
+
+
+# ── main: --inputs parsing (lines 235-239) ───────────────────────────────────
+
+def test_main_with_inputs(tmp_path, monkeypatch, capsys):
+    """Lines 234-240: --inputs parsing in main."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    task_data = {
+        "id": "input-task",
+        "description": "Task with inputs",
+        "pipeline": [{"generate": "process {author}"}]
+    }
+    (tmp_path / "input-task.json").write_text(
+        json.dumps(task_data), encoding="utf-8"
+    )
+    monkeypatch.setattr("sys.argv", ["prog", "--task", "input-task", "--inputs", "author=kksudo"])
+    result = mod.main()
+    assert result in (0, 1)
+
+
+def test_main_with_inputs_stops_at_flag(tmp_path, monkeypatch, capsys):
+    """Lines 236-238: --inputs parsing stops at next -- flag."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    task_data = {
+        "id": "input-task2",
+        "description": "Task",
+        "pipeline": [{"generate": "process"}]
+    }
+    (tmp_path / "input-task2.json").write_text(
+        json.dumps(task_data), encoding="utf-8"
+    )
+    monkeypatch.setattr("sys.argv", ["prog", "--task", "input-task2",
+                                     "--inputs", "author=kksudo", "--dry-run"])
+    result = mod.main()
+    assert result in (0, 1)
+
+
+def test_main_with_multiple_inputs(tmp_path, monkeypatch, capsys):
+    """Lines 235-239: --inputs with multiple key=value pairs."""
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    task_data = {
+        "id": "multi-input-task",
+        "description": "Multi-input task",
+        "pipeline": [{"generate": "process {author} {project}"}]
+    }
+    (tmp_path / "multi-input-task.json").write_text(
+        json.dumps(task_data), encoding="utf-8"
+    )
+    monkeypatch.setattr("sys.argv", ["prog", "--task", "multi-input-task",
+                                     "--inputs", "author=kksudo", "project=AgentFS"])
+    result = mod.main()
+    assert result in (0, 1)

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 4. Nautilus Portal as Reference Substrate
 
 > [!NOTE]

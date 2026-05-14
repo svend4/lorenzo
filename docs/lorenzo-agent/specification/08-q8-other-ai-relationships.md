@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Question 8: Lorenzo's relationship с другими AI agents
 
 <!-- toc-auto -->

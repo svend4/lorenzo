@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/162-8-risk-analysis.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * roadmap
   * anthropic
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 8. Risk Analysis
@@ -30,7 +30,11 @@ h1. 8. Risk Analysis
 
 
 
-{quote}_Impact_: High (foundational failure){quote}
+{quote}> 🔧 Подход: Risk: Regulatory Challenges Probability: Low-Medium Impact: Medium Risk sources: - Employment law reclassifying contributors as employees - GDPR enforcement challenges with anonymi{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!TIP]{quote}
+>
 
 ----
 

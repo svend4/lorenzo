@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, knowledge]
+state: approved
+----
 
 h1. Технический stack (Svyazi 2.0 foundation)
 
@@ -20,7 +26,7 @@ h1. Технический stack (Svyazi 2.0 foundation)
 
 
 
-{quote}Lorenzo's architecture builds on верифицированных open-source компонентах:{quote}
+{quote}Phase 1 commitment : ready ли вы committed к 12-month roadmap, или это всё ещё exploration? 🎯 Проблема: Запрос проанализировать нужно проанализировать то что уже сделано то информацию которая уже есть благодаря этим последним нескольким документам благодаря тем что уже было сделано в{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, [knowledge-space|../01-svyazi/03-component-catalog.md], mclaude, AI Factory, Rufler, LiteParse
 
 ----

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Bridging the Gap Between Profession-Wide and Individual-Unique 
 
 <!-- toc-auto -->
@@ -8,7 +12,16 @@
 
 
 <!-- summary -->
+> Bridging the Gap Between Profession-Wide and Individual-Unique Bridging the Gap Between Profession-Wide and Individual-Unique Документ создан на основе исследования.
+ 
+Contents
+ Bridging the Gap Between Profession-Wide and Individual-Unique
+ Использование
+ 
 > Bridging the Gap Between Profession-Wide and Individual-Unique
+ 
+> [!NOTE]
+> Документ создан
 
 <!-- tags: documentation, overview -->
 

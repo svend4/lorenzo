@@ -1,9 +1,10 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/spbmolot.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "spbmolot"
@@ -36,7 +37,22 @@ h2. Contents
 
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. _Создано автоматически: 2026-04-29_ vladspace (сходство 0.73) antipozitive (сходство 0.72){quote}
+ --
+_Создано автоматически: 2026-04-29_
+ --
+Похожие документы
+ vladspace (сходство 0.73)
+ antipozitive (сходство 0.72)
+ zodigancode (сходство 0.71)
+ --
+Смотрите также
+ antipozitive
+ nlaik
+ sonia-black
+ vitalyoborin
+ --
+Кто ссылается на это
 _Проекты:_ Svyazi, NGT Memory
 
 ----

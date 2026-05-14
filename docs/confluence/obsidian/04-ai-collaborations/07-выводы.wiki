@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/04-ai-collaborations/07-выводы.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Выводы"
 tags:
   * ai-collaborations
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Выводы

@@ -48,3 +48,21 @@ def test_keywords_displays_are_strings():
     for key, (fname, display) in mod.KEYWORDS.items():
         assert isinstance(display, str)
         assert len(display) > 0
+
+
+def test_run_calls_extract_and_split(monkeypatch, capsys):
+    """Lines 22-24: run() calls extract_and_split."""
+    called = [False]
+    def fake_extract(mhtml_path, keywords, out_dir):
+        called[0] = True
+    monkeypatch.setattr(mod, "extract_and_split", fake_extract)
+    mod.run()
+    assert called[0]
+
+
+def test_run_prints_section_header(monkeypatch, capsys):
+    """Line 23: run() prints a header."""
+    monkeypatch.setattr(mod, "extract_and_split", lambda *a: None)
+    mod.run()
+    out = capsys.readouterr().out
+    assert "Technology" in out or "tech" in out.lower() or "---" in out

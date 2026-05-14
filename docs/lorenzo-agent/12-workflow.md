@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Твой workflow
 
 <!-- toc-auto -->

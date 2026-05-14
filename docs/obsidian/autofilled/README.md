@@ -2,10 +2,33 @@
 title: "autofilled"
 tags:
   - autofilled
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # autofilled
+
+
+<!-- summary -->
+> research-summary.md — components/ — components Кто ссылается на этот документ (15):
+Файлов: 1
+Содержание
+ research-summary.md —  
+Подразделы
+ components/ — components
+ --
+Кто ссылается на этот документ (15):
+ OUTLINE
+ READABILITY
+ SEARCH
+ TABLES
+ .md
+ cowork
+ ingit
+ kksudo
+ _...ещё 7_
+ --
+Похожие документы:
+ README (сходс
 
 **Файлов:** 1
 

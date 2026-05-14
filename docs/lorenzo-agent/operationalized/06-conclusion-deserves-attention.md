@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Вывод: документ deserves serious attention
 
 <!-- toc-auto -->

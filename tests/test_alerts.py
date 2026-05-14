@@ -158,3 +158,111 @@ def test_main_alerts_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "ALERTS.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+# ── main: loop body coverage ──────────────────────────────────────────────────
+
+def test_main_skips_skip_set_files(tmp_path, monkeypatch):
+    """Line 127: f.name in SKIP → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    # README.md is in SKIP
+    (tmp_path / "README.md").write_text("# Title\n\n" + "word " * 100, encoding="utf-8")
+    mod.main()
+    # Should not be modified (SKIP), ALERTS.md created with 0 additions
+    alerts = (tmp_path / "ALERTS.md").read_text(encoding="utf-8")
+    assert "Добавлено **0**" in alerts
+
+
+def test_main_skips_marker_file(tmp_path, monkeypatch):
+    """Line 132: MARKER already in file → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    content = "# Title\n\n<!-- alert-added -->\n\n" + "word " * 100
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    alerts = (tmp_path / "ALERTS.md").read_text(encoding="utf-8")
+    assert "Добавлено **0**" in alerts
+
+
+def test_main_adds_callout_to_long_doc(tmp_path, monkeypatch):
+    """Lines 137-162: file with > 50 words, has H1, gets callout inserted."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    content = "# My Document\n\n" + "word " * 60
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    # File should be modified with callout
+    modified = (tmp_path / "doc.md").read_text(encoding="utf-8")
+    assert "> [!" in modified
+    assert "<!-- alert-added -->" in modified
+
+
+def test_main_dry_run_prints_count(tmp_path, monkeypatch, capsys):
+    """Line 157-158: dry-run prints file name."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    content = "# My Doc\n\n" + "word " * 60
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "dry-run" in out
+
+
+def test_main_special_file_gets_important_callout(tmp_path, monkeypatch):
+    """Lines 137-138: special file in `special` dict → specific callout type."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    # 01-executive-summary.md is in special dict → IMPORTANT
+    content = "# Executive Summary\n\n" + "word " * 60
+    (tmp_path / "01-executive-summary.md").write_text(content, encoding="utf-8")
+    mod.main()
+    modified = (tmp_path / "01-executive-summary.md").read_text(encoding="utf-8")
+    assert "[!IMPORTANT]" in modified
+
+
+def test_main_skips_no_h1(tmp_path, monkeypatch):
+    """Line 151: file without H1 heading → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    # No H1 → skip
+    content = "## Section\n\n" + "word " * 60
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    # Should not add callout
+    original = (tmp_path / "doc.md").read_text(encoding="utf-8")
+    assert "> [!" not in original
+
+
+def test_main_utils_docignore_import_error(tmp_path, monkeypatch):
+    """Lines 122-123: ImportError on utils_docignore → is_ignored = lambda p: False."""
+    import builtins
+    real_import = builtins.__import__
+
+    def mock_import(name, *args, **kwargs):
+        if name == "utils_docignore":
+            raise ImportError("mock import error")
+        return real_import(name, *args, **kwargs)
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    monkeypatch.setattr(builtins, "__import__", mock_import)
+    mod.main()
+    # Should not raise
+    assert (tmp_path / "ALERTS.md").exists()
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 204: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    runpy.run_path(str(ROOT / "scripts" / "improve_alerts.py"), run_name="__main__")

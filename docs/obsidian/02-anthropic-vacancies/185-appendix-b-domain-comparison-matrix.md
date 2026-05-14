@@ -2,8 +2,9 @@
 title: "Appendix B: Domain Comparison Matrix"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix B: Domain Comparison Matrix
@@ -26,10 +27,21 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> - [[README|Вакансии Anthropic — Анализ по кластерам]]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Appendix B: Domain Comparison Matrix Кто ссылается на этот документ (5)
+ 
+Contents
+ Appendix B: Domain Comparison Matrix
+ Упоминается в
+ Упоминается в
+ Использование
+ Смотрите также
+ Связанные документы
+ Кто ссылается на этот документ (5)
+> [!WARNING]
+> Документ содержит описание риск
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

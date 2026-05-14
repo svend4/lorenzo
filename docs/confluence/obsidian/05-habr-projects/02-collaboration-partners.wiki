@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/05-habr-projects/02-collaboration-partners.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * ingestion
   * collaboration
   * habr-projects
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Авторы и контакты

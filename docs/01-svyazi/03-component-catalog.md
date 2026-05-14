@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Каталог компонентов Svyazi 2.0
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Refined InGit Scope with Cowork in Mind
 
 <!-- toc-auto -->
@@ -47,7 +51,10 @@
 
 
 <!-- summary -->
-> The original InGit roadmap (10-16 months to v1.0) reflected
+> > Абстракт (авто)
+>
+> 🎯 Проблема: --- --- Похожие документы: - 310-2-what-cowork-provides-that-ingit-doesn-t-need-to-(docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство
+> ✅ Результат: Net timeline: From 1
 
 ---
 <!-- tags: architecture, roadmap -->

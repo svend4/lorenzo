@@ -13,7 +13,7 @@
 > `GITHUB_ISSUES` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
 Найдено задач: **293**
 
@@ -68,7 +68,7 @@ _Обновлено: 2026-05-11_
 
 ## `docs/STATS.md` (1 задач)
 
-- [ ] **меток: 109**  _`docs`, `automation`_
+- [ ] **меток: 110**  _`docs`, `automation`_
 
 ## `docs/TABLES.md` (1 задач)
 
@@ -239,7 +239,7 @@ _Обновлено: 2026-05-11_
 
 ## `docs/obsidian/STATS.md` (1 задач)
 
-- [ ] **меток: 109**  _`docs`, `automation`_
+- [ ] **меток: 113**  _`docs`, `automation`_
 
 ## `docs/obsidian/TABLES.md` (1 задач)
 
@@ -572,3 +572,29 @@ python scripts/improve_github_issues.py
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
 - [Оценка](SCORING.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [10-checklist](nautilus/review-methodology/10-checklist.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-checklist](nautilus/review-methodology/10-checklist.md)
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [CONTACTS](CONTACTS.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+

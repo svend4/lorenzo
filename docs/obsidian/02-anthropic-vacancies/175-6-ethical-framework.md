@@ -2,7 +2,7 @@
 title: "6. Ethical Framework"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 6. Ethical Framework
@@ -38,7 +38,10 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> Representative Agents raise novel ethical questions. We
+> > ✅ Результат: This means: - Principal owns all data about themselves used by agent - Principal can modify or terminate agent at any time - Principal can override any agent decision - Principal c
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [[176-7-governance-and-oversight|!IMPO
 
 ---
 <!-- tags: orchestration, local-first -->
@@ -141,7 +144,7 @@ tech-sophisticated principals fails its core mission.
 ---
 
 ## Похожие документы
-- [[176-7-governance-and-oversight]] (сходство 0.15)
+- [176-7-governance-and-oversight]] (сходство 0.15)
 - [[174-5-architectural-specification]] (сходство 0.14)
 - [[177-8-risks-and-mitigations]] (сходство 0.13)
 

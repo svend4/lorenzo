@@ -2,8 +2,9 @@
 title: "For the Curious: Philosophy"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # For the Curious: Philosophy
@@ -20,10 +21,13 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> Q6-гиперкуб выбран не случайно. Он одновременно:
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Topologически полезен — локальная соседство (hamming distance 1) даёт естественный routing в MoE-архитектурах
+   1) даёт естественный routing в MoE-архитектурах
+Это пример reuse существующих онтологий вместо изобретения 
+новых.
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

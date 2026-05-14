@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # References
@@ -33,8 +33,8 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. https://claude.com/product/cowork https://support.claude.com/en/collections/13345190-cowork
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - Anthropic. (2026, January 12). *Claude Cowork* [Product

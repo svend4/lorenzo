@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/225-references.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. References
 
@@ -36,7 +40,18 @@ h2. Contents
 
 
 
-{quote}- Soldatenko, M. (2026, April 25). «В школах любят страдать».{quote}
+{quote}_ References Contents - References - Primary Empirical Source - Companion Papers - Foundation Sources (continued from Re. _ "Designing Organizations for an Information-Rich World"{quote}
+ 
+Contents
+ References
+ Primary Empirical Source
+ Companion Papers
+ Foundation Sources (continued from Representative Agent Layer)
+ Professional Practice Theory
+ AI in Professional Practice
+ Related Architecture
+ Похожие документы
+ Использ
 
 ----
 

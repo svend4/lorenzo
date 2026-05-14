@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # HW-NL2Workflow — Supervisor/Orchestrator/Filler с 3600+ examples
 
 <!-- toc-auto -->

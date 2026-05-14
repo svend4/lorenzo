@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/67-о-проекте.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 🇷🇺 О проекте
 
@@ -21,8 +25,8 @@ h1. 🇷🇺 О проекте
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Документация - PORTAL-PROTOCOL.md(03-portal-protocol-md.md) — formal specification v1.0 (15 страниц) - passports/(./passports/) — описания репо экосистемы для людей - info1(./passports{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Nautilus — протокол и reference implementation для _федерации_{quote}

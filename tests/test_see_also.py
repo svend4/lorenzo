@@ -258,3 +258,147 @@ def test_main_see_also_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "SEE_ALSO.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+# ── build_see_also_block with target (line 78) ───────────────────────────────
+
+def test_build_see_also_block_with_target(tmp_path):
+    """Line 78: target is not None → os.path.relpath used."""
+    target = tmp_path / "subdir" / "doc.md"
+    target.parent.mkdir()
+    related = [("other.md", tmp_path / "other.md")]
+    result = mod.build_see_also_block(related, target=target)
+    assert isinstance(result, str)
+    assert "other" in result
+
+
+# ── main with rich files (covers lines 103-104, 111, 113, 117-118, 125-183) ──
+
+FIFTY_WORDS = ("memory agent knowledge system project platform architecture component "
+               "integration service interface protocol data structure design pattern "
+               "retrieval storage indexing embedding vector graph neural network ") * 3
+
+
+def test_main_skip_file_ignored(tmp_path, monkeypatch):
+    """Line 111: SKIP file (SEE_ALSO.md) is skipped in processing."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    (tmp_path / "SEE_ALSO.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "doc.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SEE_ALSO.md").exists()
+
+
+def test_main_with_long_files_populated_all_files(tmp_path, monkeypatch):
+    """Lines 117-118: files >= 50 words added to all_files and tokens."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    (tmp_path / "doc1.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "doc2.md").write_text(FIFTY_WORDS + " extra unique", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SEE_ALSO.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_is_ignored_skips_file(tmp_path, monkeypatch):
+    """Line 113: is_ignored returns True → file skipped."""
+    import sys, types
+    mock_module = types.ModuleType("utils_docignore")
+    mock_module.is_ignored = lambda path, root=None: path.name == "ignored.md"
+    monkeypatch.setitem(sys.modules, "utils_docignore", mock_module)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    (tmp_path / "ignored.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SEE_ALSO.md").exists()
+
+
+def test_main_import_error_uses_fallback(tmp_path, monkeypatch):
+    """Lines 103-104: ImportError → fallback lambda used."""
+    import sys
+    sentinel = object()
+    orig = sys.modules.pop("utils_docignore", sentinel)
+    sys.modules["utils_docignore"] = None
+    try:
+        monkeypatch.setattr(mod, "DOCS", tmp_path)
+        monkeypatch.setattr(mod, "ROOT", tmp_path)
+        monkeypatch.setattr("sys.argv", ["prog"])
+        mod.main()
+    finally:
+        if orig is sentinel:
+            sys.modules.pop("utils_docignore", None)
+        else:
+            sys.modules["utils_docignore"] = orig
+
+
+def test_main_curated_entry_builds_see_also(tmp_path, monkeypatch):
+    """Lines 125-138: curated CURATED key → curated related list built."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    # Create the curated key file and its referenced files
+    (tmp_path / "01-executive-summary.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "03-component-catalog.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "04-ensembles-overview.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "07-mvp-planning.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SEE_ALSO.md").read_text(encoding="utf-8")
+    assert "executive-summary" in text or "component-catalog" in text
+
+
+def test_main_inserts_see_also_block_into_file(tmp_path, monkeypatch):
+    """Lines 147-159: see_also_map non-empty → blocks inserted into files."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    (tmp_path / "01-executive-summary.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "03-component-catalog.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "04-ensembles-overview.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "07-mvp-planning.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    mod.main()
+    summary = (tmp_path / "01-executive-summary.md").read_text(encoding="utf-8")
+    assert mod.MARKER in summary
+
+
+def test_main_dry_run_with_see_also_map(tmp_path, monkeypatch, capsys):
+    """Lines 154-156: dry_run=True + see_also_map → prints [dry-run] messages."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    (tmp_path / "01-executive-summary.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "03-component-catalog.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "04-ensembles-overview.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "07-mvp-planning.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    mod.main()
+    captured = capsys.readouterr()
+    assert "dry-run" in captured.out
+
+
+def test_main_skips_file_already_has_marker(tmp_path, monkeypatch):
+    """Line 149: file with MARKER already inserted → continue (not re-inserted)."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    # Create curated key file with MARKER already present
+    (tmp_path / "01-executive-summary.md").write_text(
+        FIFTY_WORDS + f"\n{mod.MARKER}\n", encoding="utf-8")
+    (tmp_path / "03-component-catalog.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "04-ensembles-overview.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    (tmp_path / "07-mvp-planning.md").write_text(FIFTY_WORDS, encoding="utf-8")
+    mod.main()
+    content = (tmp_path / "01-executive-summary.md").read_text(encoding="utf-8")
+    # MARKER should appear only once (not duplicated)
+    assert content.count(mod.MARKER) == 1
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 196: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["improve_see_also.py"])
+    script_path = str(ROOT / "scripts" / "improve_see_also.py")
+    runpy.run_path(script_path, run_name="__main__")

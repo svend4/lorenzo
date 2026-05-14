@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/12-content-overview.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Content Overview"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Content Overview
@@ -33,8 +34,8 @@ h2. Contents
 
 
 
-
 {quote}[!TIP]{quote}
+{quote}Раздел содержит несколько документов. Используйте содержание для навигации. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Раздел содержит несколько документов. Используйте содержание для навигации.{quote}
 
 {quote}Что внутри: типы данных, приблизительный объём, основные темы.{quote}

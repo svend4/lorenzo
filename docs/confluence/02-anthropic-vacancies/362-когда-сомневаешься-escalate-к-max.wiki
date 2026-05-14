@@ -1,9 +1,18 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
+----
+state: approved
+----
+
 h1. Когда сомневаешься — escalate к Max
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
 
 
 h2. Contents
@@ -23,9 +32,19 @@ h2. Contents
 
 
 
-{quote}- Ethical complexity beyond обычных protocols{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Когда сомневаешься — escalate к Max Ethical complexity beyond обычных protocols{quote}
+ --
+Когда сомневаешься — escalate к Max
+Если задача presents:
+ Ethical complexity beyond обычных protocols
+ Major resource commitment
+ New collaborator type не encountered before
+ Public-facing risk
+ Co
 
 ----
+
+
 
 
 

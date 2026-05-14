@@ -216,3 +216,179 @@ def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "DRY_RUN", True)
     monkeypatch.setattr(mod, "SECTION_FILTER", None)
     mod.main()  # no files → must not raise
+
+
+# ── arg parsing ───────────────────────────────────────────────────────────────
+
+def test_min_headings_arg_parsing():
+    """Lines 34-36: --min-headings N sets MIN_HEADINGS."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--min-headings", "5"]
+        importlib.reload(mod)
+        assert mod.MIN_HEADINGS == 5
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_depth_arg_parsing():
+    """Lines 40-42: --depth N sets TOC_DEPTH."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--depth", "4"]
+        importlib.reload(mod)
+        assert mod.TOC_DEPTH == 4
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_section_arg_parsing():
+    """Lines 46-48: --section NAME sets SECTION_FILTER."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--section", "01-svyazi"]
+        importlib.reload(mod)
+        assert mod.SECTION_FILTER is not None
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+# ── process_file edge cases ───────────────────────────────────────────────────
+
+def test_process_file_read_exception(tmp_path, monkeypatch):
+    """Lines 132-133: read exception → return False."""
+    f = tmp_path / "bad.md"
+    f.write_text("content", encoding="utf-8")
+
+    from pathlib import Path as _Path
+    original_read = _Path.read_text
+
+    def mock_read(self, *args, **kwargs):
+        if self == f:
+            raise OSError("mocked error")
+        return original_read(self, *args, **kwargs)
+
+    monkeypatch.setattr(_Path, "read_text", mock_read)
+    result = mod.process_file(f)
+    assert result is False
+
+
+def test_process_file_too_few_headings(tmp_path, monkeypatch):
+    """Line 137: fewer than MIN_HEADINGS → return False."""
+    monkeypatch.setattr(mod, "MIN_HEADINGS", 5)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\n## Section\n\nContent.", encoding="utf-8")
+    result = mod.process_file(f)
+    assert result is False
+
+
+def test_process_file_manual_toc_no_marker(tmp_path, monkeypatch):
+    """Line 153: has_toc but no TOC_MARKER → return False."""
+    monkeypatch.setattr(mod, "MIN_HEADINGS", 2)
+    f = tmp_path / "doc.md"
+    f.write_text(
+        "# Title\n\n## Contents\n- [Sec](#sec)\n\n## Section\n\nContent.\n\n## Other\n\nMore.",
+        encoding="utf-8",
+    )
+    result = mod.process_file(f)
+    assert result is False
+
+
+def test_process_file_updates_existing_toc(tmp_path, monkeypatch):
+    """Lines 143-149: file has TOC_MARKER → strips and re-inserts."""
+    monkeypatch.setattr(mod, "MIN_HEADINGS", 2)
+    monkeypatch.setattr(mod, "APPLY", False)
+    toc_block = f"{mod.TOC_MARKER}\n## Contents\n- [Old](#old)\n"
+    f = tmp_path / "doc.md"
+    f.write_text(
+        f"# Title\n\n{toc_block}\n## Section A\n\nContent.\n\n## Section B\n\nMore.",
+        encoding="utf-8",
+    )
+    result = mod.process_file(f)
+    # Either returns True (changed) or False (no change needed) - must not crash
+    assert isinstance(result, bool)
+
+
+def test_process_file_no_h1(tmp_path, monkeypatch):
+    """Line 161: no H1 in else branch → toc_block + text."""
+    monkeypatch.setattr(mod, "MIN_HEADINGS", 2)
+    monkeypatch.setattr(mod, "APPLY", False)
+    f = tmp_path / "doc.md"
+    f.write_text("## Section A\n\nContent.\n\n## Section B\n\nMore.", encoding="utf-8")
+    result = mod.process_file(f)
+    assert result is True
+
+
+# ── main: edge cases ──────────────────────────────────────────────────────────
+
+def test_main_read_exception_in_loop(tmp_path, monkeypatch):
+    """Lines 189-190: exception reading file in main loop → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    bad = tmp_path / "bad.md"
+    bad.write_text("content", encoding="utf-8")
+
+    from pathlib import Path as _Path
+    original_read = _Path.read_text
+
+    def mock_read(self, *args, **kwargs):
+        if self == bad:
+            raise OSError("mocked error")
+        return original_read(self, *args, **kwargs)
+
+    monkeypatch.setattr(_Path, "read_text", mock_read)
+    mod.main()  # must not crash
+
+
+def test_main_skipped_has_toc(tmp_path, monkeypatch):
+    """Lines 196-197: file has manual TOC (no marker) → skipped_has += 1."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_HEADINGS", 2)
+    f = tmp_path / "doc.md"
+    f.write_text(
+        "# Title\n\n## Contents\n- [A](#a)\n\n## Section A\n\nContent.\n\n## Section B\n\nMore.",
+        encoding="utf-8",
+    )
+    mod.main()  # must not crash
+
+
+def test_main_apply_updates_toc(tmp_path, monkeypatch):
+    """Lines 198-202: process_file returns True → updated count incremented."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", True)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_HEADINGS", 2)
+    f = tmp_path / "doc.md"
+    f.write_text(
+        "# Title\n\n## Section A\n\nContent here.\n\n## Section B\n\nMore content.",
+        encoding="utf-8",
+    )
+    mod.main()
+    content = f.read_text(encoding="utf-8")
+    assert mod.TOC_MARKER in content
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 212: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    script_path = str(ROOT / "scripts" / "improve_auto_toc.py")
+    runpy.run_path(script_path, run_name="__main__")

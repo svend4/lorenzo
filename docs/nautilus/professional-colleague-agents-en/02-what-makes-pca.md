@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. What Makes a Professional Colleague Agent
 
 > [!NOTE]

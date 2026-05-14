@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # infrastructure-layer-b-en
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> README — раздел документации проекта Lorenzo. Кто ссылается на этот документ (12): Материал из базы знаний Svyazi 2.0, раздел «infrastructure-layer-b-en».
 
 
 **Файлов:** 14

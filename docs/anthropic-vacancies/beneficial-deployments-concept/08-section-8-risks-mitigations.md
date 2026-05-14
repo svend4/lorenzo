@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Section 8: Risks & mitigations
 
 <!-- toc-auto -->

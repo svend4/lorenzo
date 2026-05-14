@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "1. The Cowork Discovery and Why It Changes Everything"
 tags:
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 1. The Cowork Discovery and Why It Changes Everything
@@ -27,8 +27,8 @@ h1. 1. The Cowork Discovery and Why It Changes Everything
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Position InGit as the structure layer that Cowork needs.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}When Document 2.3 was written earlier in this session, the{quote}

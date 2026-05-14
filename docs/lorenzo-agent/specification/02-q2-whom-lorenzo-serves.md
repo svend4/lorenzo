@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Question 2: Кому Lorenzo служит? (4 варианта приоритета)
 
 <!-- toc-auto -->

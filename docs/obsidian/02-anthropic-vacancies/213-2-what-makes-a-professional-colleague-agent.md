@@ -2,8 +2,9 @@
 title: "2. What Makes a Professional Colleague Agent"
 tags:
   - ingestion
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 2. What Makes a Professional Colleague Agent
@@ -24,8 +25,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The practitioner does not need to re-explain professional context with each interaction.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We now develop Type 1 in detail.
@@ -43,7 +44,7 @@ date: 2026-05-11
 
 ---
 
-<!-- tags: ingestion -->
+<!-- tags: ingestion, rag -->
 
 
 

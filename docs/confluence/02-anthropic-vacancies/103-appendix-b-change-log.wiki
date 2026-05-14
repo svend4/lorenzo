@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/103-appendix-b-change-log.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix B: Change Log
 
@@ -27,8 +31,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. New: Q6 as normative concept (section 8, ADR-002) New: Q6 as normative concept (section 8, ADR-002){quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}- _New_: Q6 as normative concept (section 8, ADR-002){quote}

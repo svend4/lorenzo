@@ -1,4 +1,5 @@
 ---
+state: approved
 template: project-component
 version: "1.0"
 author: "kksudo"
@@ -32,7 +33,18 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> maturity: working-prototype-v0.1.5
+> Параметр | Значение | Упоминаний в репо | 1384 | Слой | knowledge/filesystem | Статус связи | не писали | Документ содержит описание рисков и ограничений.
+ Параметр | Значение |
+ ----------|---------|
+ Теги | — |
+ Упоминаний в репо | 1384 |
+ Слой | knowledge/filesystem |
+ Контакт | @kksudo |
+ Статус связи | не писали |
+_Обновлено: 2026-05-10_
+AgentFS
+> [!WARNING]
+> Документ содержит описание рис
 **Проекты:** Svyazi[^svyazi], AgentFS, knowledge-space[^knowledge-space], mclaude, agent-memory-mcp, Wikontic
 
 ---
@@ -163,7 +175,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [agentfs](../../obsidian/05-habr-projects/knowledge/agentfs.md) (сходство 0.95)
+- [agentfs](../../svyazi-2-0/components/agentfs.md) (сходство 0.95)
 - [mclaude](mclaude.md) (сходство 0.33)
-- [mclaude](../../obsidian/05-habr-projects/knowledge/mclaude.md) (сходство 0.30)
+- [mclaude](../../svyazi-2-0/components/mclaude.md) (сходство 0.30)
 

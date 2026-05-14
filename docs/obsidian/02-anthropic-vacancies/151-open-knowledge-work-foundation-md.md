@@ -2,8 +2,9 @@
 title: "OPEN KNOWLEDGE WORK FOUNDATION.md"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # OPEN KNOWLEDGE WORK FOUNDATION.md
@@ -20,10 +21,10 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> - [[273-infrastructure-for-ai-collaborative-intellectual-w]] (сходство 0.25)
+> - [[273-infrastructure-for-ai-collaborative-intellectual-w]] (сходство 0.25) Документ создан на основе исследования.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

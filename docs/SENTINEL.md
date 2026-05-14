@@ -1,7 +1,7 @@
 # SENTINEL Security Report
 
 <!-- summary -->
-> Дата: 2026-05-11 · Проблем: **3** · HTTP-ссылок: 368 · Лицензионных рисков: 4
+> Дата: 2026-05-13 · Проблем: **3** · HTTP-ссылок: 583 · Лицензионных рисков: 4
 
 <!-- tags: security, sentinel, privacy, license, audit -->
 
@@ -28,7 +28,7 @@
 | PII / секреты в docs | 0 |
 | Небезопасные паттерны в коде | 3 |
 | Credential-файлы | 0 |
-| HTTP (не HTTPS) ссылок | 368 |
+| HTTP (не HTTPS) ссылок | 583 |
 | Лицензионных рисков | 4 |
 | **Итого критических** | **3** |
 
@@ -61,24 +61,30 @@ _Компоненты с нестандартными лицензиями в а
 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-` | BSL | Business Source License — не открытая, коммерческие ограниче |
 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-` | неуточнено | Лицензия неизвестна — требует уточнения |
 
-## HTTP без TLS (368 ссылок)
+## HTTP без TLS (583 ссылок)
 
 _HTTP-ссылки могут быть перехвачены. Рекомендуется замена на HTTPS._
 
-- `http://localhost:8000`````` в `docs/SENTINEL.md`
+- `http://localhost:8000````````` в `docs/SENTINEL.md`
+- `http://localhost:8000`````````` в `docs/SENTINEL.md`
+- `http://localhost:8080````````` в `docs/SENTINEL.md`
+- `http://localhost:8080`````````` в `docs/SENTINEL.md`
+- `http://localhost:8000```````` в `docs/SENTINEL.md`
+- `http://localhost:8080```````` в `docs/SENTINEL.md`
 - `http://localhost:8000``````` в `docs/SENTINEL.md`
-- `http://localhost:8080`````` в `docs/SENTINEL.md`
 - `http://localhost:8080``````` в `docs/SENTINEL.md`
+- `http://localhost:8000`````` в `docs/SENTINEL.md`
+- `http://localhost:8080`````` в `docs/SENTINEL.md`
 - `http://localhost:8000````` в `docs/SENTINEL.md`
 - `http://localhost:8080````` в `docs/SENTINEL.md`
 - `http://localhost:8000```` в `docs/SENTINEL.md`
 - `http://localhost:8080```` в `docs/SENTINEL.md`
 - `http://localhost:8000``` в `docs/SENTINEL.md`
-- `http://localhost:8080``` в `docs/SENTINEL.md`
+- `http://localhost:8`` в `docs/SENTINEL.md`
 - `http://localhost:8000`` в `docs/SENTINEL.md`
-- `http://localhost:8080`` в `docs/SENTINEL.md`
+- `http://localhos` в `docs/BROKEN_LINKS.md`
+- `http://localhost:8` в `docs/BROKEN_LINKS.md`
 - `http://localhost:8000` в `docs/BROKEN_LINKS.md`
-- `http://localhost:8080` в `docs/BROKEN_LINKS.md`
 
 ## Использование
 
@@ -94,18 +100,19 @@ python scripts/improve_sentinel_check.py --section 05-habr-projects
 ---
 
 **Смотрите также:**
-- [DUPLICATES](DUPLICATES.md)
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [BROKEN_LINKS](BROKEN_LINKS.md)
-- [security-routing-plane](svyazi-2-0/components/security-routing-plane.md)
+- [DEMO](DEMO.md)
+- [102-доступ-к-данным](02-anthropic-vacancies/102-доступ-к-данным.md)
+- [DUPLICATES](DUPLICATES.md)
 
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (6):**
+**Кто ссылается на этот документ (7):**
 - [DEMO](DEMO.md)
+- [LINKS](LINKS.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)

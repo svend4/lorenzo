@@ -2,8 +2,9 @@
 title: "Appendix A: Minimal Working Example"
 tags:
   - ingestion
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix A: Minimal Working Example
@@ -35,14 +36,14 @@ date: 2026-05-11
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. "adapter": "adapters/my_notes.py", _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > "adapter": "adapters/my_notes.py",
 
 ---
-<!-- tags: ingestion -->
+<!-- tags: ingestion, rag -->
 
 
 ## Appendix A: Minimal Working Example

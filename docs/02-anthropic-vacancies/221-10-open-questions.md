@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 10. Open Questions
 
 > [!NOTE]
@@ -22,7 +26,10 @@
 
 
 <!-- summary -->
-> Several questions remain unresolved.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Multi-Profession Practitioners How do agents handle practitioners who span multiple
+How do agents handle practitioners who span multiple
+professional contexts (researcher who also teaches; lawyer
+who is also academic; engineer who is also entrepreneur)?
 
 ---
 <!-- tags: architecture, anthropic -->

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/contacts/vitalyoborin.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * контакты
   * команда
   * contacts
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Контакт: VitalyOborin / Yodoca
@@ -32,7 +32,22 @@ h2. Contents
 
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. _Создано автоматически: 2026-04-29_ vladspace (сходство 0.71) antipozitive (сходство 0.70){quote}
+ --
+_Создано автоматически: 2026-04-29_
+ --
+Похожие документы
+ vladspace (сходство 0.71)
+ antipozitive (сходство 0.70)
+ zodigancode (сходство 0.70)
+ --
+Смотрите также
+ antipozitive
+ nlaik
+ sonia-black
+ spbmolot
+ --
+Кто ссылается на этот до
 _Проекты:_ Svyazi, Yodoca
 
 ----

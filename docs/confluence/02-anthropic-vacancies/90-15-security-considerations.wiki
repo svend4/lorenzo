@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/90-15-security-considerations.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 15. Security Considerations
 
@@ -40,7 +44,10 @@ h2. Содержание
 
 
 
-{quote}Adapters выполняются внутри Portal-процесса. Portal MUST{quote}
+{quote}> ✅ Результат: Для приватных Repos RECOMMENDED: - Отдельный private-nautilus.json с explicit opt-in - Отдельный portal instance, не доступный публично - Authentication на REST API (JWT / API keys{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!IMPO{quote}
 
 ----
 

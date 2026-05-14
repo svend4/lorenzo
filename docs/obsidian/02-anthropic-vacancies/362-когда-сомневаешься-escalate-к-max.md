@@ -2,8 +2,9 @@
 title: "Когда сомневаешься — escalate к Max"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Когда сомневаешься — escalate к Max
@@ -17,7 +18,7 @@ date: 2026-05-11
 - [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 > [!WARNING]
@@ -26,9 +27,19 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> - Ethical complexity beyond обычных protocols
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Когда сомневаешься — escalate к Max Ethical complexity beyond обычных protocols
+ --
+Когда сомневаешься — escalate к Max
+Если задача presents:
+ Ethical complexity beyond обычных protocols
+ Major resource commitment
+ New collaborator type не encountered before
+ Public-facing risk
+ Co
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

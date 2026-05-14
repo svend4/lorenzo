@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/40-bridges.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Bridges
@@ -36,7 +36,19 @@ h2. Contents
 
 
 
-{quote}_α-level ↔ Q6-concept-depth_. Уровень α в {{info1}} коррелирует с{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Способ обращения через мост Кто ссылается на этот документ (7) α-level ↔ Q6-concept-depth.{quote}
+ 
+Contents
+ Bridges
+ info1 ↔ pro2
+ info1 ↔ meta
+ Способ обращения через мост
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (7)
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования.{quote}
 
 ----
 

@@ -6,17 +6,14 @@
 > Раздел `SCORING` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: scoring, docs -->
+
 
 <!-- summary -->
-> 1. **[вес 5]** Слишком много сломанных ссылок
-
----
-<!-- tags: security, architecture, roadmap, collaboration -->
+> `SCORING` — раздел документации проекта Lorenzo.
 
 
-
-
-_Дата: 2026-05-11_
+_Дата: 2026-05-13_
 
 ## Итог: **159/164** (96%) — 🟢 GO
 
@@ -76,12 +73,26 @@ _Дата: 2026-05-11_
 ## ✅ Проект готов к запуску MVP!
 
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_scoring.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
 <!-- backlinks -->
 
 ---
 
 **Кто ссылается на этот документ (20):**
-- [CROSS_SECTION](CROSS_SECTION.md)
+- [DENSITY](DENSITY.md)
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [GITHUB_ISSUES](GITHUB_ISSUES.md)
 - [HEADING_AUDIT](HEADING_AUDIT.md)
@@ -92,9 +103,13 @@ _Дата: 2026-05-11_
 - _...ещё 12_
 
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_scoring.py
-```
+---
+
+**Смотрите также:**
+- [COVERAGE](COVERAGE.md)
+- [SCHEDULE](SCHEDULE.md)
+- [SUMMARIES](SUMMARIES.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+

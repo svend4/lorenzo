@@ -1,9 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/templates/contact-outreach.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 h1. Контакт: [Имя / Проект]
+
+
+
+{quote}Раздел contact-outreach формируется автоматически из данных репозитория. Параметр | Значение |{quote}
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{contact-outreach}} формируется автоматически из данных репозитория.{quote}
@@ -48,20 +52,17 @@ h2. Открытые вопросы для обсуждения
 2. [Вопрос 2]
 
 ----
-_Создано: 2026-05-11_
+_Создано: 2026-05-13_
 
 
 
 ----
 
-_Кто ссылается на этот документ (9):_
+_Кто ссылается на этот документ (6):_
 * [READABILITY|../READABILITY.md]
-* [READING_TIME|../READING_TIME.md]
-* [REGISTRY|../REGISTRY.md]
 * [SEARCH|../SEARCH.md]
 * [TABLES|../TABLES.md]
-* [TASKS_INDEX|../TASKS_INDEX.md]
 * [research-summary|../autofilled/research-summary.md]
 * [README|README.md]
-* _...ещё 1_
+* [meeting-notes|meeting-notes.md]
 

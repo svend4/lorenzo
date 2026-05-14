@@ -1,14 +1,32 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/05-habr-projects/knowledge/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, architecture]
+state: approved
+----
 
 h1. Системы знаний
 
 
 
 
-{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
+{quote}wikontic (сходство 0.19) README (сходство 0.17) README (сходство 0.10) Кто ссылается на этот документ (3) Документ индексирован в базе знаний репозитория.{quote}
+Похожие документы
+ wikontic (сходство 0.19)
+ README (сходство 0.17)
+ README (сходство 0.10)
+ --
+Кто ссылается на этот документ (3)
+ README
+ wikontic
+ README
+Использование
+ 
+Документ индексирован в базе знаний репозитория.
 
 
 

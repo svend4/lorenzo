@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations"
 tags:
   * collaboration
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
@@ -33,8 +34,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Open Knowledge Work Foundation Concept Document v1.0 Open Knowledge Work Foundation Concept Document v1.0{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}- Open Knowledge Work Foundation Concept Document v1.0{quote}

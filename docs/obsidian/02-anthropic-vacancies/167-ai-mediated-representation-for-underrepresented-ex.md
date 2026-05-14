@@ -2,8 +2,9 @@
 title: "AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations"
 tags:
   - collaboration
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
@@ -28,14 +29,14 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Open Knowledge Work Foundation Concept Document v1.0 Open Knowledge Work Foundation Concept Document v1.0
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - Open Knowledge Work Foundation Concept Document v1.0
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

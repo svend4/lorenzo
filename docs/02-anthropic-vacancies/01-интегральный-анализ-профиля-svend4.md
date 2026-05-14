@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Интегральный анализ профиля svend4
 
 <!-- abstract-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 9. Integration with OKWF Infrastructure
 
 <!-- abstract-auto -->
@@ -16,7 +20,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Composite Skills Agents fit naturally into the OKWF infrastructure
+> * This plan is more realistic than the earlier proposal because it matches how skilled practitioners actually develop an. * Practical Implication for Pilot Design --- 9
+ Identify priority sub-agents for their area
+ Contribute expert curation
+ Test sub-agents in actual practice
+ Maintain quality standards
+ Develop common configuration templates
+Guilds become both consumers and producers of composite
 
 ---
 

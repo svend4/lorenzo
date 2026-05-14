@@ -1,19 +1,6 @@
 # Кросс-секционный анализ
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `CROSS_SECTION` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: cross-section, docs -->
-
-
-<!-- summary -->
-> `CROSS_SECTION` — раздел документации проекта Lorenzo.
-
-
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-14_
 
 ---
 
@@ -21,27 +8,29 @@ _Обновлено: 2026-05-11_
 
 _(косинусное сходство TF-IDF векторов)_
 
-| Секция | Svyazi 2.0 | Anthropic | Технологии | AI-ансамбли | Хабр-проекты | ai-collaborations | anthropic-vacancies | autofilled | Контакты | glossary | habr-unique-projects | letters | lorenzo-agent | meta-scripting | nautilus | obsidian | processing-guide | svyazi-2-0 | technology-combinations |
-|--------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
-| `Svyazi 2.0` | **—** | 0.12 █░░░░ | 0.16 █░░░░ | 0.94 █████ | 0.24 ██░░░ | 0.22 ██░░░ | 0.12 █░░░░ | 0.09 ░░░░░ | 0.11 █░░░░ | 0.14 █░░░░ | 0.15 █░░░░ | 0.15 █░░░░ | 0.11 █░░░░ | 0.08 ░░░░░ | 0.11 █░░░░ | 0.35 ███░░ | 0.08 ░░░░░ | 0.75 █████ | 0.11 █░░░░ |
-| `Anthropic` | 0.12 █░░░░ | **—** | 0.29 ██░░░ | 0.16 █░░░░ | 0.28 ██░░░ | 0.31 ███░░ | 0.45 ████░ | 0.34 ███░░ | 0.19 █░░░░ | 0.13 █░░░░ | 0.32 ███░░ | 0.17 █░░░░ | 0.43 ████░ | 0.17 █░░░░ | 0.76 █████ | 0.81 █████ | 0.14 █░░░░ | 0.21 ██░░░ | 0.26 ██░░░ |
-| `Технологии` | 0.16 █░░░░ | 0.29 ██░░░ | **—** | 0.24 ██░░░ | 0.42 ████░ | 0.38 ███░░ | 0.30 ███░░ | 0.21 ██░░░ | 0.17 █░░░░ | 0.28 ██░░░ | 0.38 ███░░ | 0.20 █░░░░ | 0.28 ██░░░ | 0.12 █░░░░ | 0.27 ██░░░ | 0.40 ███░░ | 0.15 █░░░░ | 0.29 ██░░░ | 0.52 █████ |
-| `AI-ансамбли` | 0.94 █████ | 0.16 █░░░░ | 0.24 ██░░░ | **—** | 0.44 ████░ | 0.33 ███░░ | 0.15 █░░░░ | 0.13 █░░░░ | 0.17 █░░░░ | 0.21 ██░░░ | 0.25 ██░░░ | 0.22 ██░░░ | 0.13 █░░░░ | 0.10 ░░░░░ | 0.16 █░░░░ | 0.41 ████░ | 0.12 █░░░░ | 0.74 █████ | 0.17 █░░░░ |
-| `Хабр-проекты` | 0.24 ██░░░ | 0.28 ██░░░ | 0.42 ████░ | 0.44 ████░ | **—** | 0.47 ████░ | 0.30 ███░░ | 0.23 ██░░░ | 0.33 ███░░ | 0.29 ██░░░ | 0.48 ████░ | 0.44 ████░ | 0.26 ██░░░ | 0.14 █░░░░ | 0.26 ██░░░ | 0.44 ████░ | 0.20 █░░░░ | 0.36 ███░░ | 0.29 ██░░░ |
-| `ai-collaborations` | 0.22 ██░░░ | 0.31 ███░░ | 0.38 ███░░ | 0.33 ███░░ | 0.47 ████░ | **—** | 0.48 ████░ | 0.23 ██░░░ | 0.27 ██░░░ | 0.40 ███░░ | 0.60 █████ | 0.32 ███░░ | 0.45 ████░ | 0.20 ██░░░ | 0.42 ████░ | 0.50 █████ | 0.18 █░░░░ | 0.42 ████░ | 0.43 ████░ |
-| `anthropic-vacancies` | 0.12 █░░░░ | 0.45 ████░ | 0.30 ███░░ | 0.15 █░░░░ | 0.30 ███░░ | 0.48 ████░ | **—** | 0.26 ██░░░ | 0.22 ██░░░ | 0.14 █░░░░ | 0.57 █████ | 0.20 ██░░░ | 0.63 █████ | 0.20 ██░░░ | 0.65 █████ | 0.66 █████ | 0.17 █░░░░ | 0.33 ███░░ | 0.38 ███░░ |
-| `autofilled` | 0.09 ░░░░░ | 0.34 ███░░ | 0.21 ██░░░ | 0.13 █░░░░ | 0.23 ██░░░ | 0.23 ██░░░ | 0.26 ██░░░ | **—** | 0.31 ███░░ | 0.17 █░░░░ | 0.25 ██░░░ | 0.25 ██░░░ | 0.27 ██░░░ | 0.10 █░░░░ | 0.27 ██░░░ | 0.39 ███░░ | 0.09 ░░░░░ | 0.22 ██░░░ | 0.17 █░░░░ |
-| `Контакты` | 0.11 █░░░░ | 0.19 █░░░░ | 0.17 █░░░░ | 0.17 █░░░░ | 0.33 ███░░ | 0.27 ██░░░ | 0.22 ██░░░ | 0.31 ███░░ | **—** | 0.16 █░░░░ | 0.27 ██░░░ | 0.32 ███░░ | 0.22 ██░░░ | 0.10 █░░░░ | 0.17 █░░░░ | 0.28 ██░░░ | 0.10 █░░░░ | 0.24 ██░░░ | 0.20 ██░░░ |
-| `glossary` | 0.14 █░░░░ | 0.13 █░░░░ | 0.28 ██░░░ | 0.21 ██░░░ | 0.29 ██░░░ | 0.40 ███░░ | 0.14 █░░░░ | 0.17 █░░░░ | 0.16 █░░░░ | **—** | 0.41 ████░ | 0.20 █░░░░ | 0.12 █░░░░ | 0.07 ░░░░░ | 0.13 █░░░░ | 0.29 ██░░░ | 0.05 ░░░░░ | 0.27 ██░░░ | 0.40 ███░░ |
-| `habr-unique-projects` | 0.15 █░░░░ | 0.32 ███░░ | 0.38 ███░░ | 0.25 ██░░░ | 0.48 ████░ | 0.60 █████ | 0.57 █████ | 0.25 ██░░░ | 0.27 ██░░░ | 0.41 ████░ | **—** | 0.27 ██░░░ | 0.49 ████░ | 0.20 █░░░░ | 0.47 ████░ | 0.52 █████ | 0.18 █░░░░ | 0.39 ███░░ | 0.48 ████░ |
-| `letters` | 0.15 █░░░░ | 0.17 █░░░░ | 0.20 █░░░░ | 0.22 ██░░░ | 0.44 ████░ | 0.32 ███░░ | 0.20 ██░░░ | 0.25 ██░░░ | 0.32 ███░░ | 0.20 █░░░░ | 0.27 ██░░░ | **—** | 0.18 █░░░░ | 0.12 █░░░░ | 0.18 █░░░░ | 0.28 ██░░░ | 0.12 █░░░░ | 0.24 ██░░░ | 0.17 █░░░░ |
-| `lorenzo-agent` | 0.11 █░░░░ | 0.43 ████░ | 0.28 ██░░░ | 0.13 █░░░░ | 0.26 ██░░░ | 0.45 ████░ | 0.63 █████ | 0.27 ██░░░ | 0.22 ██░░░ | 0.12 █░░░░ | 0.49 ████░ | 0.18 █░░░░ | **—** | 0.18 █░░░░ | 0.57 █████ | 0.59 █████ | 0.15 █░░░░ | 0.30 ██░░░ | 0.37 ███░░ |
-| `meta-scripting` | 0.08 ░░░░░ | 0.17 █░░░░ | 0.12 █░░░░ | 0.10 ░░░░░ | 0.14 █░░░░ | 0.20 ██░░░ | 0.20 ██░░░ | 0.10 █░░░░ | 0.10 █░░░░ | 0.07 ░░░░░ | 0.20 █░░░░ | 0.12 █░░░░ | 0.18 █░░░░ | **—** | 0.19 █░░░░ | 0.24 ██░░░ | 0.23 ██░░░ | 0.15 █░░░░ | 0.16 █░░░░ |
-| `nautilus` | 0.11 █░░░░ | 0.76 █████ | 0.27 ██░░░ | 0.16 █░░░░ | 0.26 ██░░░ | 0.42 ████░ | 0.65 █████ | 0.27 ██░░░ | 0.17 █░░░░ | 0.13 █░░░░ | 0.47 ████░ | 0.18 █░░░░ | 0.57 █████ | 0.19 █░░░░ | **—** | 0.82 █████ | 0.14 █░░░░ | 0.24 ██░░░ | 0.34 ███░░ |
-| `obsidian` | 0.35 ███░░ | 0.81 █████ | 0.40 ███░░ | 0.41 ████░ | 0.44 ████░ | 0.50 █████ | 0.66 █████ | 0.39 ███░░ | 0.28 ██░░░ | 0.29 ██░░░ | 0.52 █████ | 0.28 ██░░░ | 0.59 █████ | 0.24 ██░░░ | 0.82 █████ | **—** | 0.27 ██░░░ | 0.46 ████░ | 0.43 ████░ |
-| `processing-guide` | 0.08 ░░░░░ | 0.14 █░░░░ | 0.15 █░░░░ | 0.12 █░░░░ | 0.20 █░░░░ | 0.18 █░░░░ | 0.17 █░░░░ | 0.09 ░░░░░ | 0.10 █░░░░ | 0.05 ░░░░░ | 0.18 █░░░░ | 0.12 █░░░░ | 0.15 █░░░░ | 0.23 ██░░░ | 0.14 █░░░░ | 0.27 ██░░░ | **—** | 0.14 █░░░░ | 0.12 █░░░░ |
-| `svyazi-2-0` | 0.75 █████ | 0.21 ██░░░ | 0.29 ██░░░ | 0.74 █████ | 0.36 ███░░ | 0.42 ████░ | 0.33 ███░░ | 0.22 ██░░░ | 0.24 ██░░░ | 0.27 ██░░░ | 0.39 ███░░ | 0.24 ██░░░ | 0.30 ██░░░ | 0.15 █░░░░ | 0.24 ██░░░ | 0.46 ████░ | 0.14 █░░░░ | **—** | 0.29 ██░░░ |
-| `technology-combinations` | 0.11 █░░░░ | 0.26 ██░░░ | 0.52 █████ | 0.17 █░░░░ | 0.29 ██░░░ | 0.43 ████░ | 0.38 ███░░ | 0.17 █░░░░ | 0.20 ██░░░ | 0.40 ███░░ | 0.48 ████░ | 0.17 █░░░░ | 0.37 ███░░ | 0.16 █░░░░ | 0.34 ███░░ | 0.43 ████░ | 0.12 █░░░░ | 0.29 ██░░░ | **—** |
+| Секция | Svyazi 2.0 | Anthropic | Технологии | AI-ансамбли | Хабр-проекты | ROADMAP | ai-collaborations | anthropic-vacancies | autofilled | Контакты | glossary | habr-unique-projects | letters | lorenzo-agent | meta-scripting | nautilus | obsidian | processing-guide | rfcs | svyazi-2-0 | technology-combinations |
+|--------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| `Svyazi 2.0` | **—** | 0.13 █░░░░ | 0.17 █░░░░ | 0.75 █████ | 0.25 ██░░░ | 0.07 ░░░░░ | 0.24 ██░░░ | 0.13 █░░░░ | 0.11 █░░░░ | 0.12 █░░░░ | 0.14 █░░░░ | 0.17 █░░░░ | 0.16 █░░░░ | 0.12 █░░░░ | 0.09 ░░░░░ | 0.12 █░░░░ | 0.36 ███░░ | 0.09 ░░░░░ | 0.12 █░░░░ | 0.74 █████ | 0.12 █░░░░ |
+| `Anthropic` | 0.13 █░░░░ | **—** | 0.30 ██░░░ | 0.18 █░░░░ | 0.30 ██░░░ | 0.17 █░░░░ | 0.34 ███░░ | 0.46 ████░ | 0.40 ███░░ | 0.20 ██░░░ | 0.14 █░░░░ | 0.34 ███░░ | 0.19 █░░░░ | 0.44 ████░ | 0.21 ██░░░ | 0.76 █████ | 0.81 █████ | 0.15 █░░░░ | 0.12 █░░░░ | 0.23 ██░░░ | 0.28 ██░░░ |
+| `Технологии` | 0.17 █░░░░ | 0.30 ██░░░ | **—** | 0.25 ██░░░ | 0.42 ████░ | 0.12 █░░░░ | 0.40 ████░ | 0.31 ███░░ | 0.25 ██░░░ | 0.18 █░░░░ | 0.28 ██░░░ | 0.39 ███░░ | 0.20 ██░░░ | 0.28 ██░░░ | 0.14 █░░░░ | 0.28 ██░░░ | 0.41 ████░ | 0.16 █░░░░ | 0.12 █░░░░ | 0.30 ██░░░ | 0.52 █████ |
+| `AI-ансамбли` | 0.75 █████ | 0.18 █░░░░ | 0.25 ██░░░ | **—** | 0.54 █████ | 0.11 █░░░░ | 0.39 ███░░ | 0.17 █░░░░ | 0.13 █░░░░ | 0.19 █░░░░ | 0.24 ██░░░ | 0.25 ██░░░ | 0.29 ██░░░ | 0.17 █░░░░ | 0.11 █░░░░ | 0.17 █░░░░ | 0.41 ████░ | 0.12 █░░░░ | 0.24 ██░░░ | 0.63 █████ | 0.18 █░░░░ |
+| `Хабр-проекты` | 0.25 ██░░░ | 0.30 ██░░░ | 0.42 ████░ | 0.54 █████ | **—** | 0.12 █░░░░ | 0.50 █████ | 0.32 ███░░ | 0.28 ██░░░ | 0.32 ███░░ | 0.29 ██░░░ | 0.49 ████░ | 0.43 ████░ | 0.27 ██░░░ | 0.17 █░░░░ | 0.27 ██░░░ | 0.46 ████░ | 0.21 ██░░░ | 0.21 ██░░░ | 0.38 ███░░ | 0.31 ███░░ |
+| `ROADMAP` | 0.07 ░░░░░ | 0.17 █░░░░ | 0.12 █░░░░ | 0.11 █░░░░ | 0.12 █░░░░ | **—** | 0.16 █░░░░ | 0.13 █░░░░ | 0.04 ░░░░░ | 0.05 ░░░░░ | 0.07 ░░░░░ | 0.11 █░░░░ | 0.07 ░░░░░ | 0.14 █░░░░ | 0.08 ░░░░░ | 0.18 █░░░░ | 0.22 ██░░░ | 0.12 █░░░░ | 0.06 ░░░░░ | 0.10 ░░░░░ | 0.12 █░░░░ |
+| `ai-collaborations` | 0.24 ██░░░ | 0.34 ███░░ | 0.40 ████░ | 0.39 ███░░ | 0.50 █████ | 0.16 █░░░░ | **—** | 0.47 ████░ | 0.29 ██░░░ | 0.28 ██░░░ | 0.41 ████░ | 0.58 █████ | 0.35 ███░░ | 0.44 ████░ | 0.24 ██░░░ | 0.42 ████░ | 0.53 █████ | 0.19 █░░░░ | 0.22 ██░░░ | 0.45 ████░ | 0.44 ████░ |
+| `anthropic-vacancies` | 0.13 █░░░░ | 0.46 ████░ | 0.31 ███░░ | 0.17 █░░░░ | 0.32 ███░░ | 0.13 █░░░░ | 0.47 ████░ | **—** | 0.30 ███░░ | 0.21 ██░░░ | 0.15 █░░░░ | 0.59 █████ | 0.22 ██░░░ | 0.63 █████ | 0.23 ██░░░ | 0.67 █████ | 0.67 █████ | 0.18 █░░░░ | 0.10 █░░░░ | 0.34 ███░░ | 0.40 ████░ |
+| `autofilled` | 0.11 █░░░░ | 0.40 ███░░ | 0.25 ██░░░ | 0.13 █░░░░ | 0.28 ██░░░ | 0.04 ░░░░░ | 0.29 ██░░░ | 0.30 ███░░ | **—** | 0.32 ███░░ | 0.19 █░░░░ | 0.32 ███░░ | 0.28 ██░░░ | 0.30 ███░░ | 0.15 █░░░░ | 0.30 ███░░ | 0.42 ████░ | 0.11 █░░░░ | 0.13 █░░░░ | 0.27 ██░░░ | 0.24 ██░░░ |
+| `Контакты` | 0.12 █░░░░ | 0.20 ██░░░ | 0.18 █░░░░ | 0.19 █░░░░ | 0.32 ███░░ | 0.05 ░░░░░ | 0.28 ██░░░ | 0.21 ██░░░ | 0.32 ███░░ | **—** | 0.17 █░░░░ | 0.27 ██░░░ | 0.35 ███░░ | 0.22 ██░░░ | 0.13 █░░░░ | 0.18 █░░░░ | 0.29 ██░░░ | 0.10 ░░░░░ | 0.15 █░░░░ | 0.24 ██░░░ | 0.21 ██░░░ |
+| `glossary` | 0.14 █░░░░ | 0.14 █░░░░ | 0.28 ██░░░ | 0.24 ██░░░ | 0.29 ██░░░ | 0.07 ░░░░░ | 0.41 ████░ | 0.15 █░░░░ | 0.19 █░░░░ | 0.17 █░░░░ | **—** | 0.42 ████░ | 0.20 █░░░░ | 0.13 █░░░░ | 0.07 ░░░░░ | 0.14 █░░░░ | 0.29 ██░░░ | 0.06 ░░░░░ | 0.23 ██░░░ | 0.27 ██░░░ | 0.41 ████░ |
+| `habr-unique-projects` | 0.17 █░░░░ | 0.34 ███░░ | 0.39 ███░░ | 0.25 ██░░░ | 0.49 ████░ | 0.11 █░░░░ | 0.58 █████ | 0.59 █████ | 0.32 ███░░ | 0.27 ██░░░ | 0.42 ████░ | **—** | 0.29 ██░░░ | 0.50 █████ | 0.23 ██░░░ | 0.49 ████░ | 0.54 █████ | 0.19 █░░░░ | 0.13 █░░░░ | 0.40 ████░ | 0.51 █████ |
+| `letters` | 0.16 █░░░░ | 0.19 █░░░░ | 0.20 ██░░░ | 0.29 ██░░░ | 0.43 ████░ | 0.07 ░░░░░ | 0.35 ███░░ | 0.22 ██░░░ | 0.28 ██░░░ | 0.35 ███░░ | 0.20 █░░░░ | 0.29 ██░░░ | **—** | 0.19 █░░░░ | 0.14 █░░░░ | 0.19 █░░░░ | 0.30 ███░░ | 0.13 █░░░░ | 0.16 █░░░░ | 0.26 ██░░░ | 0.19 █░░░░ |
+| `lorenzo-agent` | 0.12 █░░░░ | 0.44 ████░ | 0.28 ██░░░ | 0.17 █░░░░ | 0.27 ██░░░ | 0.14 █░░░░ | 0.44 ████░ | 0.63 █████ | 0.30 ███░░ | 0.22 ██░░░ | 0.13 █░░░░ | 0.50 █████ | 0.19 █░░░░ | **—** | 0.20 ██░░░ | 0.58 █████ | 0.60 █████ | 0.15 █░░░░ | 0.07 ░░░░░ | 0.31 ███░░ | 0.38 ███░░ |
+| `meta-scripting` | 0.09 ░░░░░ | 0.21 ██░░░ | 0.14 █░░░░ | 0.11 █░░░░ | 0.17 █░░░░ | 0.08 ░░░░░ | 0.24 ██░░░ | 0.23 ██░░░ | 0.15 █░░░░ | 0.13 █░░░░ | 0.07 ░░░░░ | 0.23 ██░░░ | 0.14 █░░░░ | 0.20 ██░░░ | **—** | 0.21 ██░░░ | 0.27 ██░░░ | 0.24 ██░░░ | 0.07 ░░░░░ | 0.18 █░░░░ | 0.18 █░░░░ |
+| `nautilus` | 0.12 █░░░░ | 0.76 █████ | 0.28 ██░░░ | 0.17 █░░░░ | 0.27 ██░░░ | 0.18 █░░░░ | 0.42 ████░ | 0.67 █████ | 0.30 ███░░ | 0.18 █░░░░ | 0.14 █░░░░ | 0.49 ████░ | 0.19 █░░░░ | 0.58 █████ | 0.21 ██░░░ | **—** | 0.82 █████ | 0.15 █░░░░ | 0.11 █░░░░ | 0.25 ██░░░ | 0.36 ███░░ |
+| `obsidian` | 0.36 ███░░ | 0.81 █████ | 0.41 ████░ | 0.41 ████░ | 0.46 ████░ | 0.22 ██░░░ | 0.53 █████ | 0.67 █████ | 0.42 ████░ | 0.29 ██░░░ | 0.29 ██░░░ | 0.54 █████ | 0.30 ███░░ | 0.60 █████ | 0.27 ██░░░ | 0.82 █████ | **—** | 0.28 ██░░░ | 0.19 █░░░░ | 0.48 ████░ | 0.45 ████░ |
+| `processing-guide` | 0.09 ░░░░░ | 0.15 █░░░░ | 0.16 █░░░░ | 0.12 █░░░░ | 0.21 ██░░░ | 0.12 █░░░░ | 0.19 █░░░░ | 0.18 █░░░░ | 0.11 █░░░░ | 0.10 ░░░░░ | 0.06 ░░░░░ | 0.19 █░░░░ | 0.13 █░░░░ | 0.15 █░░░░ | 0.24 ██░░░ | 0.15 █░░░░ | 0.28 ██░░░ | **—** | 0.09 ░░░░░ | 0.14 █░░░░ | 0.13 █░░░░ |
+| `rfcs` | 0.12 █░░░░ | 0.12 █░░░░ | 0.12 █░░░░ | 0.24 ██░░░ | 0.21 ██░░░ | 0.06 ░░░░░ | 0.22 ██░░░ | 0.10 █░░░░ | 0.13 █░░░░ | 0.15 █░░░░ | 0.23 ██░░░ | 0.13 █░░░░ | 0.16 █░░░░ | 0.07 ░░░░░ | 0.07 ░░░░░ | 0.11 █░░░░ | 0.19 █░░░░ | 0.09 ░░░░░ | **—** | 0.18 █░░░░ | 0.10 █░░░░ |
+| `svyazi-2-0` | 0.74 █████ | 0.23 ██░░░ | 0.30 ██░░░ | 0.63 █████ | 0.38 ███░░ | 0.10 ░░░░░ | 0.45 ████░ | 0.34 ███░░ | 0.27 ██░░░ | 0.24 ██░░░ | 0.27 ██░░░ | 0.40 ████░ | 0.26 ██░░░ | 0.31 ███░░ | 0.18 █░░░░ | 0.25 ██░░░ | 0.48 ████░ | 0.14 █░░░░ | 0.18 █░░░░ | **—** | 0.31 ███░░ |
+| `technology-combinations` | 0.12 █░░░░ | 0.28 ██░░░ | 0.52 █████ | 0.18 █░░░░ | 0.31 ███░░ | 0.12 █░░░░ | 0.44 ████░ | 0.40 ████░ | 0.24 ██░░░ | 0.21 ██░░░ | 0.41 ████░ | 0.51 █████ | 0.19 █░░░░ | 0.38 ███░░ | 0.18 █░░░░ | 0.36 ███░░ | 0.45 ████░ | 0.13 █░░░░ | 0.10 █░░░░ | 0.31 ███░░ | **—** |
 
 ## Граф связей
 
@@ -54,6 +43,7 @@ graph LR
     03_technology_combinations["Технологии"]
     04_ai_collaborations["AI-ансамбли"]
     05_habr_projects["Хабр-проекты"]
+    ROADMAP["ROADMAP"]
     ai_collaborations["ai-collaborations"]
     anthropic_vacancies["anthropic-vacancies"]
     autofilled["autofilled"]
@@ -66,179 +56,218 @@ graph LR
     nautilus["nautilus"]
     obsidian["obsidian"]
     processing_guide["processing-guide"]
+    rfcs["rfcs"]
     svyazi_2_0["svyazi-2-0"]
     technology_combinations["technology-combinations"]
-    01_svyazi -- 12% --> 02_anthropic_vacancies
+    01_svyazi -- 13% --> 02_anthropic_vacancies
     01_svyazi -- 16% --> 03_technology_combinations
-    01_svyazi -- 94% --> 04_ai_collaborations
-    01_svyazi -- 24% --> 05_habr_projects
-    01_svyazi -- 22% --> ai_collaborations
-    01_svyazi -- 12% --> anthropic_vacancies
-    01_svyazi -- 9% --> autofilled
-    01_svyazi -- 11% --> contacts
+    01_svyazi -- 75% --> 04_ai_collaborations
+    01_svyazi -- 25% --> 05_habr_projects
+    01_svyazi -- 7% --> ROADMAP
+    01_svyazi -- 24% --> ai_collaborations
+    01_svyazi -- 13% --> anthropic_vacancies
+    01_svyazi -- 11% --> autofilled
+    01_svyazi -- 12% --> contacts
     01_svyazi -- 14% --> glossary
     01_svyazi -- 16% --> habr_unique_projects
-    01_svyazi -- 15% --> letters
-    01_svyazi -- 11% --> lorenzo_agent
-    01_svyazi -- 8% --> meta_scripting
-    01_svyazi -- 11% --> nautilus
-    01_svyazi -- 35% --> obsidian
-    01_svyazi -- 8% --> processing_guide
-    01_svyazi -- 75% --> svyazi_2_0
-    01_svyazi -- 11% --> technology_combinations
-    02_anthropic_vacancies -- 29% --> 03_technology_combinations
-    02_anthropic_vacancies -- 16% --> 04_ai_collaborations
-    02_anthropic_vacancies -- 28% --> 05_habr_projects
-    02_anthropic_vacancies -- 31% --> ai_collaborations
-    02_anthropic_vacancies -- 45% --> anthropic_vacancies
-    02_anthropic_vacancies -- 34% --> autofilled
-    02_anthropic_vacancies -- 19% --> contacts
-    02_anthropic_vacancies -- 13% --> glossary
-    02_anthropic_vacancies -- 32% --> habr_unique_projects
-    02_anthropic_vacancies -- 17% --> letters
-    02_anthropic_vacancies -- 43% --> lorenzo_agent
-    02_anthropic_vacancies -- 17% --> meta_scripting
+    01_svyazi -- 16% --> letters
+    01_svyazi -- 12% --> lorenzo_agent
+    01_svyazi -- 9% --> meta_scripting
+    01_svyazi -- 12% --> nautilus
+    01_svyazi -- 36% --> obsidian
+    01_svyazi -- 9% --> processing_guide
+    01_svyazi -- 12% --> rfcs
+    01_svyazi -- 74% --> svyazi_2_0
+    01_svyazi -- 12% --> technology_combinations
+    02_anthropic_vacancies -- 30% --> 03_technology_combinations
+    02_anthropic_vacancies -- 18% --> 04_ai_collaborations
+    02_anthropic_vacancies -- 30% --> 05_habr_projects
+    02_anthropic_vacancies -- 16% --> ROADMAP
+    02_anthropic_vacancies -- 34% --> ai_collaborations
+    02_anthropic_vacancies -- 46% --> anthropic_vacancies
+    02_anthropic_vacancies -- 40% --> autofilled
+    02_anthropic_vacancies -- 20% --> contacts
+    02_anthropic_vacancies -- 14% --> glossary
+    02_anthropic_vacancies -- 34% --> habr_unique_projects
+    02_anthropic_vacancies -- 19% --> letters
+    02_anthropic_vacancies -- 44% --> lorenzo_agent
+    02_anthropic_vacancies -- 21% --> meta_scripting
     02_anthropic_vacancies -- 76% --> nautilus
-    02_anthropic_vacancies -- 80% --> obsidian
-    02_anthropic_vacancies -- 14% --> processing_guide
-    02_anthropic_vacancies -- 21% --> svyazi_2_0
-    02_anthropic_vacancies -- 26% --> technology_combinations
-    03_technology_combinations -- 24% --> 04_ai_collaborations
+    02_anthropic_vacancies -- 81% --> obsidian
+    02_anthropic_vacancies -- 15% --> processing_guide
+    02_anthropic_vacancies -- 12% --> rfcs
+    02_anthropic_vacancies -- 23% --> svyazi_2_0
+    02_anthropic_vacancies -- 28% --> technology_combinations
+    03_technology_combinations -- 25% --> 04_ai_collaborations
     03_technology_combinations -- 42% --> 05_habr_projects
-    03_technology_combinations -- 38% --> ai_collaborations
-    03_technology_combinations -- 30% --> anthropic_vacancies
-    03_technology_combinations -- 21% --> autofilled
-    03_technology_combinations -- 17% --> contacts
+    03_technology_combinations -- 12% --> ROADMAP
+    03_technology_combinations -- 40% --> ai_collaborations
+    03_technology_combinations -- 31% --> anthropic_vacancies
+    03_technology_combinations -- 25% --> autofilled
+    03_technology_combinations -- 18% --> contacts
     03_technology_combinations -- 28% --> glossary
-    03_technology_combinations -- 38% --> habr_unique_projects
+    03_technology_combinations -- 39% --> habr_unique_projects
     03_technology_combinations -- 20% --> letters
     03_technology_combinations -- 28% --> lorenzo_agent
-    03_technology_combinations -- 12% --> meta_scripting
-    03_technology_combinations -- 27% --> nautilus
+    03_technology_combinations -- 14% --> meta_scripting
+    03_technology_combinations -- 28% --> nautilus
     03_technology_combinations -- 40% --> obsidian
-    03_technology_combinations -- 15% --> processing_guide
-    03_technology_combinations -- 29% --> svyazi_2_0
+    03_technology_combinations -- 16% --> processing_guide
+    03_technology_combinations -- 12% --> rfcs
+    03_technology_combinations -- 30% --> svyazi_2_0
     03_technology_combinations -- 52% --> technology_combinations
-    04_ai_collaborations -- 44% --> 05_habr_projects
-    04_ai_collaborations -- 33% --> ai_collaborations
-    04_ai_collaborations -- 15% --> anthropic_vacancies
+    04_ai_collaborations -- 54% --> 05_habr_projects
+    04_ai_collaborations -- 11% --> ROADMAP
+    04_ai_collaborations -- 39% --> ai_collaborations
+    04_ai_collaborations -- 16% --> anthropic_vacancies
     04_ai_collaborations -- 13% --> autofilled
-    04_ai_collaborations -- 17% --> contacts
-    04_ai_collaborations -- 21% --> glossary
+    04_ai_collaborations -- 19% --> contacts
+    04_ai_collaborations -- 24% --> glossary
     04_ai_collaborations -- 25% --> habr_unique_projects
-    04_ai_collaborations -- 22% --> letters
-    04_ai_collaborations -- 13% --> lorenzo_agent
-    04_ai_collaborations -- 10% --> meta_scripting
-    04_ai_collaborations -- 16% --> nautilus
-    04_ai_collaborations -- 41% --> obsidian
+    04_ai_collaborations -- 29% --> letters
+    04_ai_collaborations -- 17% --> lorenzo_agent
+    04_ai_collaborations -- 11% --> meta_scripting
+    04_ai_collaborations -- 17% --> nautilus
+    04_ai_collaborations -- 42% --> obsidian
     04_ai_collaborations -- 12% --> processing_guide
-    04_ai_collaborations -- 74% --> svyazi_2_0
-    04_ai_collaborations -- 17% --> technology_combinations
-    05_habr_projects -- 47% --> ai_collaborations
-    05_habr_projects -- 30% --> anthropic_vacancies
-    05_habr_projects -- 23% --> autofilled
-    05_habr_projects -- 33% --> contacts
+    04_ai_collaborations -- 24% --> rfcs
+    04_ai_collaborations -- 63% --> svyazi_2_0
+    04_ai_collaborations -- 18% --> technology_combinations
+    05_habr_projects -- 12% --> ROADMAP
+    05_habr_projects -- 50% --> ai_collaborations
+    05_habr_projects -- 32% --> anthropic_vacancies
+    05_habr_projects -- 28% --> autofilled
+    05_habr_projects -- 32% --> contacts
     05_habr_projects -- 29% --> glossary
-    05_habr_projects -- 48% --> habr_unique_projects
-    05_habr_projects -- 44% --> letters
-    05_habr_projects -- 26% --> lorenzo_agent
-    05_habr_projects -- 14% --> meta_scripting
-    05_habr_projects -- 26% --> nautilus
-    05_habr_projects -- 44% --> obsidian
-    05_habr_projects -- 20% --> processing_guide
-    05_habr_projects -- 36% --> svyazi_2_0
-    05_habr_projects -- 29% --> technology_combinations
-    ai_collaborations -- 48% --> anthropic_vacancies
-    ai_collaborations -- 22% --> autofilled
-    ai_collaborations -- 27% --> contacts
-    ai_collaborations -- 40% --> glossary
-    ai_collaborations -- 60% --> habr_unique_projects
-    ai_collaborations -- 32% --> letters
-    ai_collaborations -- 45% --> lorenzo_agent
-    ai_collaborations -- 20% --> meta_scripting
+    05_habr_projects -- 49% --> habr_unique_projects
+    05_habr_projects -- 43% --> letters
+    05_habr_projects -- 27% --> lorenzo_agent
+    05_habr_projects -- 17% --> meta_scripting
+    05_habr_projects -- 27% --> nautilus
+    05_habr_projects -- 46% --> obsidian
+    05_habr_projects -- 21% --> processing_guide
+    05_habr_projects -- 21% --> rfcs
+    05_habr_projects -- 38% --> svyazi_2_0
+    05_habr_projects -- 31% --> technology_combinations
+    ROADMAP -- 16% --> ai_collaborations
+    ROADMAP -- 13% --> anthropic_vacancies
+    ROADMAP -- 5% --> contacts
+    ROADMAP -- 7% --> glossary
+    ROADMAP -- 11% --> habr_unique_projects
+    ROADMAP -- 7% --> letters
+    ROADMAP -- 14% --> lorenzo_agent
+    ROADMAP -- 8% --> meta_scripting
+    ROADMAP -- 18% --> nautilus
+    ROADMAP -- 22% --> obsidian
+    ROADMAP -- 12% --> processing_guide
+    ROADMAP -- 6% --> rfcs
+    ROADMAP -- 10% --> svyazi_2_0
+    ROADMAP -- 12% --> technology_combinations
+    ai_collaborations -- 47% --> anthropic_vacancies
+    ai_collaborations -- 29% --> autofilled
+    ai_collaborations -- 28% --> contacts
+    ai_collaborations -- 41% --> glossary
+    ai_collaborations -- 58% --> habr_unique_projects
+    ai_collaborations -- 35% --> letters
+    ai_collaborations -- 44% --> lorenzo_agent
+    ai_collaborations -- 24% --> meta_scripting
     ai_collaborations -- 42% --> nautilus
-    ai_collaborations -- 50% --> obsidian
-    ai_collaborations -- 18% --> processing_guide
-    ai_collaborations -- 42% --> svyazi_2_0
-    ai_collaborations -- 43% --> technology_combinations
-    anthropic_vacancies -- 26% --> autofilled
-    anthropic_vacancies -- 22% --> contacts
-    anthropic_vacancies -- 14% --> glossary
-    anthropic_vacancies -- 57% --> habr_unique_projects
-    anthropic_vacancies -- 20% --> letters
+    ai_collaborations -- 53% --> obsidian
+    ai_collaborations -- 19% --> processing_guide
+    ai_collaborations -- 22% --> rfcs
+    ai_collaborations -- 45% --> svyazi_2_0
+    ai_collaborations -- 44% --> technology_combinations
+    anthropic_vacancies -- 30% --> autofilled
+    anthropic_vacancies -- 21% --> contacts
+    anthropic_vacancies -- 15% --> glossary
+    anthropic_vacancies -- 59% --> habr_unique_projects
+    anthropic_vacancies -- 22% --> letters
     anthropic_vacancies -- 63% --> lorenzo_agent
-    anthropic_vacancies -- 20% --> meta_scripting
-    anthropic_vacancies -- 65% --> nautilus
-    anthropic_vacancies -- 66% --> obsidian
-    anthropic_vacancies -- 17% --> processing_guide
-    anthropic_vacancies -- 33% --> svyazi_2_0
-    anthropic_vacancies -- 38% --> technology_combinations
-    autofilled -- 31% --> contacts
-    autofilled -- 17% --> glossary
-    autofilled -- 25% --> habr_unique_projects
-    autofilled -- 25% --> letters
-    autofilled -- 27% --> lorenzo_agent
-    autofilled -- 10% --> meta_scripting
-    autofilled -- 27% --> nautilus
-    autofilled -- 38% --> obsidian
-    autofilled -- 8% --> processing_guide
-    autofilled -- 22% --> svyazi_2_0
-    autofilled -- 18% --> technology_combinations
-    contacts -- 16% --> glossary
+    anthropic_vacancies -- 22% --> meta_scripting
+    anthropic_vacancies -- 66% --> nautilus
+    anthropic_vacancies -- 67% --> obsidian
+    anthropic_vacancies -- 18% --> processing_guide
+    anthropic_vacancies -- 10% --> rfcs
+    anthropic_vacancies -- 34% --> svyazi_2_0
+    anthropic_vacancies -- 40% --> technology_combinations
+    autofilled -- 32% --> contacts
+    autofilled -- 19% --> glossary
+    autofilled -- 32% --> habr_unique_projects
+    autofilled -- 28% --> letters
+    autofilled -- 30% --> lorenzo_agent
+    autofilled -- 15% --> meta_scripting
+    autofilled -- 30% --> nautilus
+    autofilled -- 42% --> obsidian
+    autofilled -- 11% --> processing_guide
+    autofilled -- 13% --> rfcs
+    autofilled -- 27% --> svyazi_2_0
+    autofilled -- 24% --> technology_combinations
+    contacts -- 17% --> glossary
     contacts -- 27% --> habr_unique_projects
-    contacts -- 32% --> letters
+    contacts -- 35% --> letters
     contacts -- 22% --> lorenzo_agent
-    contacts -- 10% --> meta_scripting
-    contacts -- 17% --> nautilus
-    contacts -- 28% --> obsidian
+    contacts -- 13% --> meta_scripting
+    contacts -- 18% --> nautilus
+    contacts -- 29% --> obsidian
     contacts -- 10% --> processing_guide
+    contacts -- 15% --> rfcs
     contacts -- 24% --> svyazi_2_0
-    contacts -- 20% --> technology_combinations
+    contacts -- 21% --> technology_combinations
     glossary -- 42% --> habr_unique_projects
     glossary -- 20% --> letters
-    glossary -- 12% --> lorenzo_agent
-    glossary -- 7% --> meta_scripting
-    glossary -- 13% --> nautilus
+    glossary -- 13% --> lorenzo_agent
+    glossary -- 8% --> meta_scripting
+    glossary -- 14% --> nautilus
     glossary -- 29% --> obsidian
-    glossary -- 5% --> processing_guide
+    glossary -- 6% --> processing_guide
+    glossary -- 23% --> rfcs
     glossary -- 27% --> svyazi_2_0
-    glossary -- 40% --> technology_combinations
-    habr_unique_projects -- 27% --> letters
-    habr_unique_projects -- 49% --> lorenzo_agent
-    habr_unique_projects -- 20% --> meta_scripting
-    habr_unique_projects -- 47% --> nautilus
-    habr_unique_projects -- 52% --> obsidian
-    habr_unique_projects -- 18% --> processing_guide
-    habr_unique_projects -- 39% --> svyazi_2_0
-    habr_unique_projects -- 48% --> technology_combinations
-    letters -- 18% --> lorenzo_agent
-    letters -- 12% --> meta_scripting
-    letters -- 18% --> nautilus
-    letters -- 28% --> obsidian
-    letters -- 12% --> processing_guide
-    letters -- 24% --> svyazi_2_0
-    letters -- 17% --> technology_combinations
-    lorenzo_agent -- 18% --> meta_scripting
-    lorenzo_agent -- 57% --> nautilus
-    lorenzo_agent -- 59% --> obsidian
+    glossary -- 41% --> technology_combinations
+    habr_unique_projects -- 29% --> letters
+    habr_unique_projects -- 50% --> lorenzo_agent
+    habr_unique_projects -- 23% --> meta_scripting
+    habr_unique_projects -- 49% --> nautilus
+    habr_unique_projects -- 54% --> obsidian
+    habr_unique_projects -- 19% --> processing_guide
+    habr_unique_projects -- 13% --> rfcs
+    habr_unique_projects -- 40% --> svyazi_2_0
+    habr_unique_projects -- 51% --> technology_combinations
+    letters -- 19% --> lorenzo_agent
+    letters -- 14% --> meta_scripting
+    letters -- 19% --> nautilus
+    letters -- 30% --> obsidian
+    letters -- 13% --> processing_guide
+    letters -- 16% --> rfcs
+    letters -- 26% --> svyazi_2_0
+    letters -- 19% --> technology_combinations
+    lorenzo_agent -- 20% --> meta_scripting
+    lorenzo_agent -- 58% --> nautilus
+    lorenzo_agent -- 60% --> obsidian
     lorenzo_agent -- 15% --> processing_guide
-    lorenzo_agent -- 30% --> svyazi_2_0
-    lorenzo_agent -- 37% --> technology_combinations
-    meta_scripting -- 19% --> nautilus
-    meta_scripting -- 24% --> obsidian
-    meta_scripting -- 23% --> processing_guide
-    meta_scripting -- 15% --> svyazi_2_0
-    meta_scripting -- 16% --> technology_combinations
+    lorenzo_agent -- 7% --> rfcs
+    lorenzo_agent -- 31% --> svyazi_2_0
+    lorenzo_agent -- 38% --> technology_combinations
+    meta_scripting -- 21% --> nautilus
+    meta_scripting -- 27% --> obsidian
+    meta_scripting -- 24% --> processing_guide
+    meta_scripting -- 8% --> rfcs
+    meta_scripting -- 18% --> svyazi_2_0
+    meta_scripting -- 18% --> technology_combinations
     nautilus -- 82% --> obsidian
-    nautilus -- 14% --> processing_guide
-    nautilus -- 24% --> svyazi_2_0
-    nautilus -- 34% --> technology_combinations
-    obsidian -- 27% --> processing_guide
-    obsidian -- 46% --> svyazi_2_0
-    obsidian -- 43% --> technology_combinations
+    nautilus -- 15% --> processing_guide
+    nautilus -- 11% --> rfcs
+    nautilus -- 25% --> svyazi_2_0
+    nautilus -- 36% --> technology_combinations
+    obsidian -- 28% --> processing_guide
+    obsidian -- 19% --> rfcs
+    obsidian -- 48% --> svyazi_2_0
+    obsidian -- 45% --> technology_combinations
+    processing_guide -- 9% --> rfcs
     processing_guide -- 14% --> svyazi_2_0
-    processing_guide -- 12% --> technology_combinations
-    svyazi_2_0 -- 29% --> technology_combinations
+    processing_guide -- 13% --> technology_combinations
+    rfcs -- 18% --> svyazi_2_0
+    rfcs -- 10% --> technology_combinations
+    svyazi_2_0 -- 31% --> technology_combinations
 ```
 
 ## Топ-40 кросс-секционных концептов
@@ -247,92 +276,70 @@ _Присутствуют в ≥ 2 секциях_
 
 | Концепт | Секций | Авг. TF-IDF | Присутствует в |
 |---------|--------|-------------|----------------|
-| `svyazi` | 19 | 12.1414 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `документ` | 19 | 11.3747 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `сходство` | 19 | 8.8129 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `readme` | 19 | 8.1186 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `документы` | 19 | 7.9667 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `также` | 19 | 7.1029 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `смотрите` | 19 | 7.0361 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `использование` | 19 | 6.2282 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `search` | 19 | 6.1372 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `связанные` | 19 | 5.8633 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `этот` | 19 | 5.7062 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `ссылается` | 19 | 5.1314 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `obsidian` | 19 | 4.6039 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `похожие` | 19 | 4.3040 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `ссылки` | 19 | 4.2945 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `tables` | 19 | 4.0462 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `time` | 19 | 3.9160 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `reading` | 19 | 3.7025 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `note` | 19 | 3.6929 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `readability` | 19 | 3.1563 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `contents` | 19 | 3.1421 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `исследования` | 19 | 2.9756 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `основе` | 19 | 2.9182 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `проекты` | 19 | 2.8073 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `содержание` | 19 | 2.1120 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `файлов` | 19 | 0.5918 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `lorenzo` | 18 | 7.9478 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `memory` | 18 | 6.8246 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `репозитория` | 18 | 5.8308 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `knowledge` | 18 | 4.9427 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `habr` | 18 | 4.9412 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `claude` | 18 | 4.5520 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `outline` | 18 | 3.4320 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `создан` | 18 | 3.0644 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `ведут` | 18 | 3.0602 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `материалы` | 18 | 3.0589 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `research` | 18 | 2.7301 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `проект` | 18 | 1.8954 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `раздел` | 18 | 1.8134 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
-| `auto` | 18 | 1.7996 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `документ` | 21 | 13.1351 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `svyazi` | 21 | 12.9308 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `readme` | 21 | 7.1568 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `также` | 21 | 6.6861 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `смотрите` | 21 | 6.5927 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `связанные` | 21 | 6.4124 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `этот` | 21 | 6.1926 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `ссылается` | 21 | 5.5799 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `time` | 21 | 4.2220 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `основе` | 21 | 4.1590 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `reading` | 21 | 3.9870 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `state` | 21 | 3.7021 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `проекты` | 21 | 2.6525 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `memory` | 20 | 7.6463 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `документы` | 20 | 7.6211 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `search` | 20 | 6.0904 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `ссылки` | 20 | 5.4033 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `knowledge` | 20 | 5.2832 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `исследования` | 20 | 4.5848 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `создан` | 20 | 4.4226 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `note` | 20 | 4.3040 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `obsidian` | 20 | 4.0889 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `ведут` | 20 | 3.8358 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `материалы` | 20 | 3.8299 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `outline` | 20 | 3.0982 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `approved` | 20 | 2.4040 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `если` | 20 | 2.2163 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `один` | 20 | 1.7676 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `автоматически` | 20 | 1.5834 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `между` | 20 | 1.5596 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `агент` | 20 | 1.4202 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `сходство` | 19 | 8.6137 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `lorenzo` | 19 | 6.9974 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `использование` | 19 | 6.7966 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `через` | 19 | 4.6730 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `claude` | 19 | 4.5843 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `rfcs`, `svyazi-2-0`, `technology-combinations` |
+| `habr` | 19 | 4.5636 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ROADMAP`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `похожие` | 19 | 4.2139 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `tables` | 19 | 4.1828 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
+| `contents` | 19 | 3.5642 | `Svyazi 2.0`, `Anthropic`, `Технологии`, `AI-ансамбли`, `Хабр-проекты`, `ai-collaborations`, `anthropic-vacancies`, `autofilled`, `Контакты`, `glossary`, `habr-unique-projects`, `letters`, `lorenzo-agent`, `meta-scripting`, `nautilus`, `obsidian`, `processing-guide`, `svyazi-2-0`, `technology-combinations` |
 
 ## Детальная карта концептов
 
 _Для каждого концепта — TF-IDF вес в каждой секции_
 
-| Концепт | Svyazi 2.0 | Anthropic | Технологии | AI-ансамбл | Хабр-проек | ai-collabo | anthropic- | autofilled | Контакты | glossary | habr-uniqu | letters | lorenzo-ag | meta-scrip | nautilus | obsidian | processing | svyazi-2-0 | technology |
-|---------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
-| `svyazi` | **13.147** | **0.966** | **10.495** | **15.446** | **10.420** | **8.342** | **0.275** | **55.092** | **18.155** | **48.343** | **6.560** | **14.517** | **0.552** | **0.677** | **0.160** | **4.271** | **2.197** | **15.927** | **5.144** |
-| `документ` | **5.555** | **8.160** | **9.745** | **3.792** | **5.692** | **11.123** | **11.240** | **24.485** | **29.049** | **5.071** | **14.957** | **11.199** | **11.180** | **10.156** | **6.598** | **7.267** | **5.616** | **17.425** | **17.810** |
-| `сходство` | **4.259** | **4.519** | **5.622** | **2.312** | **3.763** | **9.947** | **9.426** | **21.703** | **18.518** | **4.057** | **11.021** | **12.443** | **8.604** | **14.218** | **5.843** | **4.719** | **5.005** | **11.242** | **10.223** |
-| `readme` | **3.518** | **5.317** | **9.370** | **1.711** | **6.850** | **9.198** | **6.183** | **30.607** | **13.435** | **5.071** | **8.725** | **10.784** | **4.923** | **7.447** | **4.279** | **5.850** | **3.418** | **10.493** | **7.073** |
-| `документы` | **6.481** | **9.121** | **10.120** | **3.468** | **5.403** | **4.813** | **6.101** | **43.962** | **16.340** | **1.352** | **4.789** | **4.977** | **5.153** | **6.093** | **2.708** | **5.667** | **4.395** | **6.308** | **4.115** |
-| `также` | **5.463** | **3.891** | **3.373** | **3.237** | **4.052** | **8.449** | **9.041** | **15.025** | **16.340** | **3.719** | **9.643** | **3.733** | **8.604** | **8.802** | **4.478** | **5.390** | **2.320** | **9.431** | **9.966** |
-| `смотрите` | **5.370** | **3.783** | **3.373** | **3.098** | **3.859** | **8.235** | **8.931** | **15.025** | **16.340** | **3.719** | **9.512** | **3.733** | **8.604** | **8.802** | **4.348** | **5.363** | **2.320** | **9.369** | **9.902** |
-| `использование` | **4.629** | **3.134** | **2.998** | **3.237** | **3.377** | **8.877** | **9.371** | **18.364** | **0.726** | **4.057** | **10.168** | **10.784** | **8.972** | **1.354** | **4.287** | **6.261** | **0.244** | **8.494** | **9.002** |
-| `search` | **17.313** | **0.675** | **3.748** | **9.295** | **0.868** | **7.594** | **6.019** | **3.339** | **4.720** | **3.043** | **5.838** | **1.659** | **6.579** | **10.156** | **4.028** | **3.380** | **5.372** | **18.737** | **4.244** |
-| `связанные` | **1.111** | **6.846** | **8.995** | **0.185** | **3.763** | **4.171** | **5.826** | **42.849** | **0.726** | **2.028** | **6.363** | **1.659** | **5.153** | **2.708** | **2.250** | **3.727** | **2.197** | **5.122** | **5.722** |
-| `этот` | **3.981** | **4.417** | **4.123** | **3.515** | **2.701** | **4.171** | **3.957** | **18.364** | **13.435** | **2.704** | **6.166** | **7.880** | **3.267** | **5.416** | **2.716** | **3.587** | **2.564** | **7.995** | **7.458** |
-| `ссылается` | **3.333** | **3.563** | **4.123** | **2.636** | **2.508** | **3.957** | **3.270** | **18.364** | **13.435** | **2.704** | **6.035** | **4.148** | **2.853** | **4.739** | **2.029** | **2.958** | **2.075** | **7.370** | **7.394** |
-| `obsidian` | **0.463** | **0.404** | **1.874** | **1.295** | **3.956** | **6.096** | **5.386** | **5.565** | **1.452** | **2.704** | **8.594** | **7.880** | **5.153** | **7.447** | **3.883** | **5.877** | **6.959** | **6.121** | **6.365** |
-| `похожие` | **5.463** | **3.502** | **4.123** | **3.191** | **2.508** | **3.316** | **3.050** | **7.234** | **16.340** | **1.352** | **3.674** | **4.148** | **2.853** | **5.416** | **1.945** | **2.966** | **3.541** | **3.747** | **3.408** |
-| `ссылки` | **0.833** | **2.996** | **5.247** | **0.231** | **2.026** | **4.599** | **5.799** | **22.816** | **0.726** | **2.028** | **6.363** | **1.659** | **5.199** | **2.708** | **2.510** | **2.624** | **2.197** | **5.246** | **5.787** |
-| `tables` | **1.111** | **0.251** | **0.750** | **1.572** | **0.386** | **5.989** | **3.655** | **18.364** | **4.357** | **2.704** | **5.379** | **0.830** | **5.337** | **10.156** | **1.198** | **1.060** | **0.855** | **4.309** | **8.616** |
-| `time` | **0.833** | **0.757** | **0.750** | **0.786** | **0.868** | **5.882** | **6.183** | **2.226** | **5.083** | **2.704** | **5.117** | **7.880** | **6.625** | **9.479** | **4.585** | **1.643** | **0.977** | **4.309** | **7.716** |
-| `reading` | **0.555** | **0.296** | **0.750** | **0.462** | **0.772** | **5.775** | **6.073** | **2.226** | **5.083** | **2.704** | **4.986** | **7.466** | **5.981** | **10.833** | **3.997** | **1.268** | **1.953** | **5.371** | **3.793** |
-| `note` | **0.648** | **2.239** | **4.123** | **0.092** | **1.447** | **4.171** | **4.589** | **10.017** | **1.452** | **2.366** | **6.166** | **5.807** | **4.969** | **4.739** | **2.525** | **2.650** | **2.197** | **4.372** | **5.594** |
-| `readability` | **0.741** | **0.317** | **0.750** | **0.555** | **1.158** | **5.989** | **5.881** | **3.339** | **5.083** | **2.028** | **5.117** | **0.830** | **5.705** | **9.479** | **3.875** | **1.063** | **0.977** | **3.997** | **3.086** |
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_cross_section.py
-```
-```bash
-# Вариант 2
-python scripts/improve_cross_section.py --dry-run
-```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-- [Решения](DECISIONS.md)
-- [Контакты](CONTACTS.md)
-- [Оценка](SCORING.md)
-- [Теги](TAGS.md)
+| Концепт | Svyazi 2.0 | Anthropic | Технологии | AI-ансамбл | Хабр-проек | ROADMAP | ai-collabo | anthropic- | autofilled | Контакты | glossary | habr-uniqu | letters | lorenzo-ag | meta-scrip | nautilus | obsidian | processing | rfcs | svyazi-2-0 | technology |
+|---------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|------|
+| `документ` | **6.671** | **9.648** | **10.255** | **4.807** | **7.586** | **4.060** | **12.540** | **11.631** | **40.197** | **30.449** | **7.923** | **17.030** | **14.883** | **11.333** | **16.187** | **7.505** | **8.614** | **6.658** | **7.955** | **19.568** | **20.336** |
+| `svyazi` | **12.532** | **0.937** | **11.315** | **12.372** | **11.052** | **0.387** | **7.838** | **0.271** | **49.129** | **26.179** | **47.210** | **6.378** | **14.079** | **0.592** | **1.199** | **0.240** | **4.034** | **2.103** | **42.959** | **15.782** | **4.960** |
+| `readme` | **3.606** | **5.068** | **9.547** | **3.205** | **7.399** | **1.160** | **9.111** | **6.032** | **25.011** | **7.055** | **4.952** | **8.611** | **10.459** | **5.098** | **7.794** | **4.252** | **5.530** | **3.504** | **5.569** | **10.075** | **7.254** |
+| `также` | **5.590** | **4.038** | **3.890** | **3.503** | **4.308** | **1.160** | **8.132** | **8.953** | **16.079** | **13.925** | **4.292** | **9.376** | **4.022** | **8.602** | **10.192** | **4.410** | **5.545** | **2.453** | **3.182** | **9.085** | **9.672** |
+| `смотрите` | **5.500** | **3.925** | **3.890** | **3.391** | **4.121** | **0.580** | **7.838** | **8.845** | **16.079** | **13.925** | **4.292** | **9.249** | **4.022** | **8.602** | **10.192** | **4.282** | **5.501** | **2.453** | **3.182** | **8.969** | **9.610** |
+| `связанные` | **1.533** | **7.553** | **9.194** | **0.894** | **4.308** | **0.097** | **4.997** | **5.789** | **49.129** | **5.756** | **2.311** | **6.187** | **2.011** | **5.098** | **3.597** | **2.502** | **4.279** | **2.570** | **3.182** | **6.173** | **7.502** |
+| `этот` | **4.327** | **4.633** | **4.243** | **3.764** | **3.372** | **1.257** | **4.703** | **3.976** | **25.011** | **12.440** | **4.622** | **6.315** | **8.447** | **3.459** | **8.393** | **2.937** | **3.951** | **2.687** | **5.569** | **8.561** | **7.378** |
+| `ссылается` | **3.426** | **3.784** | **4.243** | **3.056** | **3.184** | **0.870** | **4.507** | **3.300** | **25.011** | **12.625** | **4.622** | **6.187** | **4.827** | **3.050** | **7.794** | **2.231** | **3.319** | **2.219** | **3.978** | **7.629** | **7.316** |
+| `time` | **0.902** | **0.732** | **1.061** | **1.789** | **0.937** | **2.707** | **5.682** | **6.113** | **1.786** | **7.612** | **2.971** | **5.039** | **8.850** | **6.645** | **10.192** | **4.582** | **1.773** | **1.051** | **6.364** | **4.310** | **7.564** |
+| `основе` | **0.902** | **3.042** | **4.597** | **0.783** | **1.686** | **0.193** | **4.507** | **4.761** | **15.185** | **5.756** | **2.971** | **7.590** | **3.218** | **4.142** | **4.197** | **2.607** | **2.552** | **2.103** | **3.182** | **5.183** | **8.184** |
+| `reading` | **0.631** | **0.288** | **1.061** | **2.944** | **0.843** | **0.290** | **5.584** | **6.005** | **1.786** | **7.612** | **2.971** | **4.911** | **8.447** | **6.008** | **11.391** | **4.004** | **1.455** | **1.986** | **6.364** | **5.300** | **3.844** |
+| `state` | **2.434** | **1.992** | **6.011** | **2.199** | **3.184** | **4.640** | **3.331** | **3.030** | **5.806** | **3.156** | **1.321** | **3.700** | **4.022** | **2.867** | **2.998** | **2.231** | **0.481** | **1.402** | **15.115** | **3.669** | **4.154** |
+| `проекты` | **1.352** | **0.239** | **4.950** | **2.795** | **3.465** | **0.773** | **3.527** | **0.297** | **4.466** | **12.811** | **2.311** | **2.615** | **3.218** | **1.183** | **0.600** | **0.210** | **1.002** | **2.336** | **1.591** | **3.727** | **2.232** |
+| `memory` | **9.341** | **1.211** | **0.740** | **18.953** | **16.859** | **2.529** | **12.201** | **2.406** | **1.870** | **8.744** | **15.547** | **3.604** | **17.680** | **0.476** | — | **0.220** | **3.432** | **1.834** | **22.479** | **10.788** | **2.011** |
+| `документы` | **6.793** | **9.769** | **9.621** | **2.886** | **5.979** | **0.809** | **4.921** | **6.256** | **47.675** | **11.075** | **1.728** | **5.006** | **4.631** | **5.335** | **6.274** | **2.838** | **5.930** | **4.279** | — | **6.399** | **4.218** |
+| `search` | **17.832** | **0.741** | **4.071** | **7.917** | **0.980** | **2.833** | **7.895** | **6.228** | **3.272** | **3.109** | **3.455** | **6.275** | **2.105** | **6.907** | **10.666** | **4.222** | **3.643** | **5.745** | — | **19.503** | **4.412** |
+| `ссылки` | **1.321** | **3.837** | **5.921** | **0.975** | **2.450** | — | **5.742** | **6.030** | **28.979** | **6.023** | **2.418** | **6.475** | **2.105** | **5.382** | **3.764** | **2.885** | **3.240** | **2.689** | **3.330** | **6.582** | **7.916** |
+| `knowledge` | **4.529** | **2.882** | **12.582** | **14.234** | **10.390** | **3.035** | **8.920** | **1.387** | **0.935** | **10.298** | **5.873** | **3.271** | **8.419** | **3.144** | **0.627** | **2.374** | **3.657** | **1.222** | — | **4.510** | **3.374** |
+| `исследования` | **1.887** | **3.004** | **4.811** | **0.858** | **1.764** | — | **4.716** | **4.897** | **17.761** | **6.023** | **2.764** | **7.943** | **3.368** | **4.287** | **3.764** | **2.634** | **2.625** | **1.467** | **3.330** | **5.485** | **8.305** |
+| `создан` | **0.849** | **3.015** | **4.441** | **0.780** | **1.960** | — | **4.716** | **4.869** | **15.892** | **6.023** | **3.110** | **7.943** | **3.368** | **4.287** | **3.764** | **2.579** | **2.584** | **1.467** | **3.330** | **5.363** | **8.111** |

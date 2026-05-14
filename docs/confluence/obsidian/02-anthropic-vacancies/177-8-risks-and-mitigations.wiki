@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "8. Risks and Mitigations"
 tags:
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 8. Risks and Mitigations
@@ -46,7 +46,14 @@ h2. Содержание
 
 
 
-{quote}We address eight categories of risk with specific mitigations.{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Документ описывает ограничения, риски или требования безопасности.{quote}
+ Encryption at rest and in transit
+ Granular access control
+ Local-first deployment options (data stays on 
+  principal's device when possible)
+ Compliance with GDPR, HIPAA, and equivalent
+ Independent security audits
+8.5.
 
 ----
 

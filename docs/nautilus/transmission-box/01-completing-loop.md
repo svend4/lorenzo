@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на н…
 
 <!-- toc-auto -->

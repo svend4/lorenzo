@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: approved
+---
+
 # Ансамбль A — Collaboration OS
 
 <!-- toc-auto -->
@@ -14,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`.
+> Это базовый сценарий для Svyazi‑2.0: Svyazi отвечает за извлечение и нормализацию профилей, AgentFS — за единое файловое ядро и политику, knowledge-space — за agent‑readable reference layer, NGT Memory — за быстрые ассоциативные связи, Yodoca — за но
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory
 
 ---

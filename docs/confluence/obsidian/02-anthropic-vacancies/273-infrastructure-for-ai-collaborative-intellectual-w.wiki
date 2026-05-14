@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
@@ -25,7 +26,7 @@ h2. Contents
 
 
 
-{quote}- [[151-open-knowledge-work-foundation-md]] (сходство 0.25){quote}
+{quote}- [[151-open-knowledge-work-foundation-md]] (сходство 0.25) Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 ----
 

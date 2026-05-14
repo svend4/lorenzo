@@ -1,55 +1,54 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/STALENESS.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 h1. Отчёт об устаревших документах
 
 
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{STALENESS}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-{quote}_Порог: 30 дней. Обновлено: 2026-05-11_{quote}
+{quote}> Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+_Проекты:_ Svyazi
 
 ----
 
 
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
-_Порог: 30 дней. Обновлено: 2026-05-11_
 
-Найдено проблем: _126_ файлов
 
-h2. Без метаданных (нет summary или тегов) — 87 файлов
+
+_Порог: 30 дней. Обновлено: 2026-05-13_
+
+Найдено проблем: _81_ файлов
+
+h2. Без метаданных (нет summary или тегов) — 59 файлов
 
 || Файл || Слов || Проблемы ||
-|| `docs/ABBREVIATIONS.md` || 1304 || нет summary, нет тегов ||
-|| `docs/ACTION_ITEMS.md` || 9444 || нет summary, нет тегов ||
-|| `docs/ALERTS.md` || 50 || нет summary, нет тегов, короткий (50 слов) ||
-|| `docs/AUTHORS.md` || 144 || нет summary, нет тегов ||
-|| `docs/BACKLINKS.md` || 432 || нет summary, нет тегов ||
-|| `docs/CHANGELOG.md` || 3792 || нет тегов ||
-|| `docs/CLUSTERS.md` || 1669 || нет summary, нет тегов ||
-|| `docs/CODE_BLOCKS.md` || 5044 || нет summary, нет тегов ||
-|| `docs/COMPARE.md` || 321 || нет summary, нет тегов ||
-|| `docs/COMPLEXITY.md` || 343 || нет summary, нет тегов ||
-|| `docs/CONCEPTS.md` || 16181 || нет summary, нет тегов ||
-|| `docs/CONTACTS.md` || 316 || нет summary, нет тегов ||
-|| `docs/CONTENT_GAPS.md` || 674 || нет summary, нет тегов ||
-|| `docs/COST.md` || 344 || нет summary, нет тегов ||
-|| `docs/CROSSREFS.md` || 502 || нет summary, нет тегов ||
-|| `docs/DENSITY.md` || 336 || нет summary, нет тегов ||
-|| `docs/DIGEST.md` || 200 || нет summary, нет тегов ||
-|| `docs/ENTITIES.md` || 397 || нет summary, нет тегов ||
-|| `docs/FAQ.md` || 1346 || нет summary, нет тегов ||
-|| `docs/FOOTNOTES.md` || 204 || нет summary, нет тегов ||
+|| `docs/autofilled/README.md` || 66 || нет summary, нет тегов, короткий (66 слов) ||
+|| `docs/autofilled/components/README.md` || 96 || нет summary, нет тегов, короткий (96 слов) ||
+|| `docs/ALERTS.md` || 105 || нет тегов ||
+|| `docs/BACKLINKS.md` || 413 || нет тегов ||
+|| `docs/CLUSTERS.md` || 1671 || нет тегов ||
+|| `docs/COMPARE.md` || 342 || нет тегов ||
+|| `docs/CONCEPT_GRAPH.md` || 611 || нет тегов ||
+|| `docs/CONSISTENCY.md` || 520 || нет тегов ||
+|| `docs/CONTENT_GAPS.md` || 683 || нет тегов ||
+|| `docs/CONTRADICTIONS.md` || 1450 || нет тегов ||
+|| `docs/CROSS_SECTION.md` || 4035 || нет тегов ||
+|| `docs/DEPENDABOT.md` || 116 || нет тегов ||
+|| `docs/DIGEST_AUTO.md` || 371 || нет тегов ||
+|| `docs/INFO_PROCESSING_METHODS.md` || 3075 || нет тегов ||
+|| `docs/KEYWORD_INDEX.md` || 489 || нет тегов ||
+|| `docs/KPI.md` || 2222 || нет тегов ||
+|| `docs/KPI_HISTORY.md` || 131 || нет тегов ||
+|| `docs/LANGUAGE_STATS.md` || 3471 || нет тегов ||
+|| `docs/LLM_GAPS.md` || 72 || нет тегов, короткий (72 слов) ||
+|| `docs/NARRATIVE.md` || 1036 || нет тегов ||
 
-h2. Короткие (< 100 слов, заготовки) — 39 файлов
+h2. Короткие (< 100 слов, заготовки) — 22 файлов
 
 || Файл || Слов ||
 || `docs/ai-collaborations/candidates/README.md` || 98 ||
@@ -67,11 +66,11 @@ h2. Короткие (< 100 слов, заготовки) — 39 файлов
 || `docs/nautilus/multi-tier-architecture/README.md` || 91 ||
 || `docs/nautilus/supply-demand/README.md` || 91 ||
 || `docs/nautilus/transmission-box/README.md` || 91 ||
-|| `docs/obsidian/glossary/README.md` || 91 ||
-|| `docs/obsidian/habr-unique-projects/analogues/README.md` || 94 ||
-|| `docs/obsidian/lorenzo-agent/scenarios/README.md` || 92 ||
-|| `docs/obsidian/nautilus/community-discussions/habr-article-1-reaction/README.md` || 92 ||
-|| `docs/obsidian/nautilus/community-discussions/habr-article-2-reaction/README.md` || 94 ||
+|| `docs/svyazi-2-0/limitations/README.md` || 95 ||
+|| `docs/svyazi-2-0/outreach/README.md` || 98 ||
+|| `docs/svyazi-2-0/prototype/README.md` || 88 ||
+|| `docs/svyazi-2-0/security/README.md` || 98 ||
+|| `docs/technology-combinations/research-reports/README.md` || 91 ||
 
 h2. Рекомендуемые действия
 
@@ -88,14 +87,23 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 
 ----
 
-_Кто ссылается на этот документ (9):_
-* [CONSISTENCY|CONSISTENCY.md]
-* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
-* [DIGEST_AUTO|DIGEST_AUTO.md]
-* [ORPHANS|ORPHANS.md]
+_Кто ссылается на этот документ (7):_
+* [COVERAGE|COVERAGE.md]
+* [PASSIVE_VOICE|PASSIVE_VOICE.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
 * [SEARCH|SEARCH.md]
-* _...ещё 1_
+* [TABLES|TABLES.md]
+
+
+
+
+----
+
+_Смотрите также:_
+* [TAGS|TAGS.md]
+* [STATS|STATS.md]
+* [SENTIMENT|SENTIMENT.md]
+* [LLM_SUMMARIES|LLM_SUMMARIES.md]
 

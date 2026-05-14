@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 10. Appendices
 
 > [!NOTE]

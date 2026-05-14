@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. A Practical Path to Layer B Through Symbiotic Integration
 
@@ -25,8 +29,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 123-portal- (сходство 0.10) 344-системный-промпт-для- Материал из базы знаний Svyazi 2.0, раздел «A Practical Path to Layer B Through Symbiotic Integration».{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}- [166-representative-agent-layer-md|166-representative-agent-layer-md.md] (сходство 0.27){quote}

@@ -3,7 +3,7 @@ title: "Подключение к Claude Desktop"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Подключение к Claude Desktop
@@ -33,7 +33,22 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> ~/Library/Application Support/Claude/claude_desktop_config.json
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Подключение к Claude Desktop Кто ссылается на этот документ (15) После сохранения перезапустить Claude Desktop.
+ 
+Contents
+ Подключение к Claude Desktop
+ macOS
+ Windows
+ Linux
+ Содержимое
+ Похожие документы
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (15)
+>
 
 ---
 <!-- tags: anthropic -->

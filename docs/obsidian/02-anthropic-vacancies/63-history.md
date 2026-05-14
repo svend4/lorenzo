@@ -2,8 +2,9 @@
 title: "History"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # History
@@ -28,14 +29,14 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Создан: февраль 2026 (судя по repo creation date) Создан: февраль 2026 (судя по repo creation date)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Создан:** февраль 2026 (судя по repo creation date)
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

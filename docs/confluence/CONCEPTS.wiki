@@ -1,14 +1,9 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/CONCEPTS.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 h1. Глоссарий понятий
-
-
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{CONCEPTS}} формируется автоматически из данных репозитория.{quote}
 
 
 
@@ -18,9 +13,14 @@ h1. Глоссарий понятий
 {quote}{{CONCEPTS}} — раздел документации проекта Lorenzo.{quote}
 
 
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
 _Определения извлечены автоматически из документов._
 
-_Извлечено понятий:_ 1185  (из 4306 совпадений)
+_Извлечено понятий:_ 1184  (из 4304 совпадений)
 
 
 h2. A
@@ -136,6 +136,10 @@ _AI safety harms_
 _al) к Professional Colleagues (practical)_
 : natural progression сложности и concreteness  
   _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca|02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]_
+
+_Aligned incentive structure_
+: agent succeeds when client succeeds (commission) 3  
+  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 _Aligned values_
 : Serves vulnerable populations; mission-fit  
@@ -270,7 +274,7 @@ _Biome / Ruff / uv_
 
 _BM25 (Best Match 25)_
 : стандарт информационного поиска  
-  _→ [06-search|obsidian/processing-guide/06-search.md]_
+  _→ [DUPLICATES|obsidian/DUPLICATES.md]_
 
 _Boundary issue_
 : When does helping (Type 1) become acting  
@@ -1142,6 +1146,10 @@ _Hype language_
 : «AI revolutionizes everything», «paradigm shift», «game-changer»  
   _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
 
+_HyperCortex Mesh Protocol (HMP)_
+: буквально decentralized cognitive mesh для AI-агентов, активно разрабатываемый, версия 5  
+  _→ [DUPLICATES|docs/DUPLICATES.md]_
+
 
 h2. I
 
@@ -1492,10 +1500,6 @@ _MCP (Model Context Protocol)_
 _MCP server management_
 : Rufler управляет запуском/остановкой MCP-серверов для агентов  
   _→ [rufler|05-habr-projects/knowledge/rufler.md]_
-
-_md использует MCP как protocol_
-: современный и правильный выбор  
-  _→ [SUMMARIES|SUMMARIES.md]_
 
 _md)_
 : вложенная иерархическая координация : один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
@@ -2544,8 +2548,8 @@ _Svyazi 2.0_
   _→ [FAQ|FAQ.md]_
 
 _Svyazi 2.0 — Knowledge Base Report_
-: аналитический обзор базы знаний, сгенерированный автоматически 2026-05-11  
-  _→ [REPORT|REPORT.md]_
+: аналитический обзор базы знаний, сгенерированный автоматически 2026-05-13  
+  _→ [REPORT|obsidian/REPORT.md]_
 
 _Svyazi‑2.0_
 : ingestion и нормализация профи  
@@ -3935,6 +3939,14 @@ _Оба правы в разных контекстах_
 : нужно разделить области применимости  
   _→ [contradiction-record|obsidian/templates/contradiction-record.md]_
 
+_Оба неверны_
+: нужно переформулировать  
+  _→ [contradiction-record|docs/templates/contradiction-record.md]_
+
+_Оба правы в разных контекстах_
+: нужно разделить области применимости  
+  _→ [contradiction-record|docs/templates/contradiction-record.md]_
+
 _Обнаружение_
 : Агент мониторит open-source проекты ячеистых сетей, гражданские технологические инициативы на её языке, исследовательские сотрудничества  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
@@ -4300,6 +4312,10 @@ _Регионы карты_
 _Результат_
 : Мария вкладывает 8 часов/неделю как советник  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Результаты_
+: черновики, требующие проверки и принятия практикующим, не окончательные продукты  
+  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 _Рекомендация_
 : _Сделайте это сейчас_  
@@ -4923,6 +4939,17 @@ _Ясный спрос_
 
 
 
+
+----
+
+_Смотрите также:_
+* [TABLES|TABLES.md]
+* [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]
+* [ACTION_ITEMS|ACTION_ITEMS.md]
+* [OUTLINE|OUTLINE.md]
+
+
+
 h2. Использование
 {code:language=bash}
 # Запуск
@@ -4956,3 +4983,19 @@ python scripts/improve_concepts.py --dry-run
 # Вариант 8
 python scripts/improve_concepts.py --dry-run
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (93):_
+* [02-methodology|01-svyazi/02-methodology.md]
+* [12-roadmap|01-svyazi/12-roadmap.md]
+* [14-limitations|01-svyazi/14-limitations.md]
+* [00-intro|02-anthropic-vacancies/00-intro.md]
+* [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]
+* [110-вопрос-fallback-ratio-как-критический-или-осмыслен|02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md]
+* [112-5-связь-с-существующими-методологиями|02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md]
+* [115-8-ограничения-и-открытые-вопросы|02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md]
+* _...ещё 85_
+

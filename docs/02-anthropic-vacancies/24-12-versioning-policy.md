@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 12. Versioning Policy
 
 <!-- toc-auto -->
@@ -23,14 +27,14 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Major (v1 → v2): breaking changes в interfaces или schemas Major (v1 → v2): breaking changes в interfaces или schemas
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Major** (v1 → v2): breaking changes в interfaces или schemas
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

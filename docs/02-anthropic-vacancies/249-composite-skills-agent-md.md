@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # COMPOSITE SKILLS AGENT.md
 
 <!-- toc-auto -->
@@ -12,7 +16,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.25)
+> - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.25) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: architecture, anthropic -->

@@ -27,8 +27,7 @@ from pathlib import Path
 try:
     import streamlit as st
 except ImportError:
-    print("Установите: pip install streamlit")
-    raise
+    st = None  # type: ignore  # UI functions only; non-UI helpers work without it
 
 ROOT = Path(__file__).parent.parent
 DOCS = ROOT / "docs"

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Abstract + Status of This Document
 
 <!-- toc-auto -->

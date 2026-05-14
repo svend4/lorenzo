@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: approved
+---
+
 # Ансамбль G — Federated Local‑First Community Graph
 
 <!-- toc-auto -->
@@ -15,7 +21,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`.
+> Когда профиль, заметка, эпизод и документ существуют локально, а наружу синхронизируется только та часть структуры, которую сообщество хочет шарить, появляется новый класс возможных сценариев: приватные персональные слои, полуобщие тематические слои
 **Проекты:** Svyazi, AgentFS, NGT Memory, Yjs, Automerge
 
 ---

@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # representative-agent-layer-ru
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> README — раздел документации проекта Lorenzo. Кто ссылается на этот документ (15): Материал из базы знаний Svyazi 2.0, раздел «representative-agent-layer-ru».
 
 
 **Файлов:** 13

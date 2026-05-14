@@ -2,8 +2,9 @@
 title: "5. Configuration: How Principals Build Their Ensembles"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 5. Configuration: How Principals Build Their Ensembles
@@ -12,7 +13,7 @@ date: 2026-05-11
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 <!-- abstract-auto -->
@@ -30,7 +31,11 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> A central question for Composite Skills Agents: how does a
+> > ✅ Результат: A new social law lawyer might benefit from a starting template: - General SGB IX sub-agent - General SGB XII sub-agent - Procedural law sub-agent - BSG case law sub-agent - General
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+ 
+> A ce
 
 ---
 <!-- tags: anthropic -->

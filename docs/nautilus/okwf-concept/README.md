@@ -1,9 +1,23 @@
+---
+state: normalized
+---
+
 # okwf-concept
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> — раздел документации проекта Lorenzo. 01-problem-statement.md — > [!NOTE] 02-target-populations.md — > [!NOTE] 03-why-existing-fail.md — > [!NOTE] 04-proposed-infrastructure.md — > [
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+Файлов: 11
+Содержание
+ 00-abstract.md —  
+ 01-problem-statement.md — > [!NOTE]
+ 02-target-populations.md — > [!NOTE]
+ 03-why-existing-fail.md — > [!NOTE]
+ 04-proposed-infrastructure.md — > [
 
 
 **Файлов:** 11

@@ -1,20 +1,34 @@
-# Q&A: lorenzo-agent
+---
+state: normalized
+---
 
-<!-- toc-auto -->
+# Q&A: lorenzo-agent
 
 > [!NOTE]
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 55 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
-
----
-<!-- tags: memory, rag, knowledge, architecture, roadmap, anthropic, collaboration -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: episod, семантич, fact, proposal Кто ссылается на этот документ (6): _Автоматически сгенерировано по 55 файлам раздела._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ README
 
 
 _Автоматически сгенерировано по 55 файлам раздела._
@@ -87,6 +101,20 @@ _Не найдено в этом файле._
 
 Упоминаются: **episod**, **семантич**, **fact**, **proposal**
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
 <!-- backlinks -->
 
 ---
@@ -98,21 +126,4 @@ _Не найдено в этом файле._
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 - [README](README.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/lorenzo-agent/QA.md) (сходство 0.98)
-- [QA](../processing-guide/QA.md) (сходство 0.69)
-- [QA](../obsidian/processing-guide/QA.md) (сходство 0.68)
 

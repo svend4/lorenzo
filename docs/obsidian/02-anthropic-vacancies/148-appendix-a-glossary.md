@@ -2,8 +2,9 @@
 title: "Appendix A: Glossary"
 tags:
   - roadmap
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix A: Glossary
@@ -35,10 +36,22 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> - **Double-Triangle Architecture**: The topology where each
+> * Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие практики. * - Three-phase review: Methodology for parallel AI-agent review with subsequent consolidation
+ 
+Содержание
+ Appendix A: Glossary
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие пра
 
 ---
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

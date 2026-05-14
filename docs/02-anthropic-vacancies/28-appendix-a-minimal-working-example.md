@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix A: Minimal Working Example
 
 <!-- toc-auto -->
@@ -27,14 +31,14 @@
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. "adapter": "adapters/my_notes.py", _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > "adapter": "adapters/my_notes.py",
 
 ---
-<!-- tags: ingestion -->
+<!-- tags: ingestion, rag -->
 
 
 ## Appendix A: Minimal Working Example

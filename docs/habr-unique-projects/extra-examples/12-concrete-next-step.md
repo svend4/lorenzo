@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Конкретный next step
 
 <!-- toc-auto -->

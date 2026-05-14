@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Твоя личность
 
 <!-- toc-auto -->

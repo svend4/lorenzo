@@ -1,14 +1,10 @@
 ---
 title: "Матрица покрытия документов"
 tags:
-  - security
-  - ingestion
-  - architecture
-  - roadmap
-  - anthropic
-  - collaboration
+  - coverage
+  - docs
   - general
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Матрица покрытия документов
@@ -17,18 +13,14 @@ date: 2026-05-11
 > Раздел `COVERAGE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: coverage, docs -->
+
 
 <!-- summary -->
-> Условные обозначения: ✅ есть  ⬜ отсутствует
-**Проекты:** Svyazi
-
----
-<!-- tags: security, ingestion, architecture, roadmap, anthropic, collaboration -->
+> `COVERAGE` — раздел документации проекта Lorenzo.
 
 
-
-
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -71,16 +63,33 @@ python scripts/improve_backlinks.py
 python scripts/improve_autofill.py
 ```
 
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (7):**
+**Кто ссылается на этот документ (6):**
 - [[HEATMAP]]
-- [[METRICS]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
 - [[SEARCH]]
 - [[TABLES]]
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SUMMARIES]]
+- [[STALENESS]]
+- [[SCORING]]
+- [[SCHEDULE]]
 

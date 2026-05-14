@@ -1,9 +1,25 @@
+---
+state: approved
+---
+
 # npp-v1-1
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> — раздел документации проекта Lorenzo. 00-abstract-status.md — 01-introduction.md — 05-compatibility-levels.md — 06-adapter-interface.md — Кто ссылается на этот документ (25):
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+Файлов: 23
+Содержание
+ 00-abstract-status.md —  
+ 01-introduction.md —  
+ 02-terminology.md —  
+ 03-registry.md —  
+ 04-passport.md —  
+ 05-compatibility-levels.md —  
+ 06-adapter-interface.md —
 
 
 **Файлов:** 23

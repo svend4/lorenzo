@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/WORD_CLOUD.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * anthropic
   * general
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Word Cloud
@@ -80,3 +80,14 @@ h2. Использование
 # Запуск
 python scripts/improve_word_cloud.py
 {code}
+
+
+
+----
+
+_Смотрите также:_
+* [[.md]]
+* [[cowork]]
+* [[ingit]]
+* [[lorenzo]]
+

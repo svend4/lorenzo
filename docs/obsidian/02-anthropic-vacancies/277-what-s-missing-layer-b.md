@@ -2,8 +2,9 @@
 title: "What's Missing — Layer B"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # What's Missing — Layer B
@@ -23,8 +24,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: What's Missing — Layer B Between chat and repository, there should exist Layer B: an --- What's Missing — Layer B Between chat and repository, there should exist Layer B: an intell
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Between chat and repository, there should exist Layer B: an
@@ -42,7 +43,7 @@ date: 2026-05-11
 
 ---
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

@@ -1,4 +1,5 @@
 ---
+state: approved
 template: project-component
 version: "1.0"
 author: "AnastasiyaW"
@@ -68,7 +69,7 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> tags: [knowledge-space, reference, cards, agent-first, wiki, domains, research]
+> Ключевой принцип: карточки написаны «для агентов, не людей» — каждая содержит максимум структурированной информации в минимуме текста, gotchas (подводные камни) и wiki-links на связанные концепты.
 **Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space, mclaude, LiteParse, Wikontic
 
 ---
@@ -175,7 +176,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [knowledge-space](../../obsidian/05-habr-projects/knowledge/knowledge-space.md) (сходство 0.95)
+- [knowledge-space](../../svyazi-2-0/components/knowledge-space.md) (сходство 0.95)
 - [agentfs](agentfs.md) (сходство 0.28)
 - [mclaude](mclaude.md) (сходство 0.28)
 

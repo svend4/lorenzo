@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "3. Registry ({{nautilus.json}})"
 tags:
   * architecture
+  * memory
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 3. Registry ({{nautilus.json}})
@@ -63,7 +64,13 @@ h2. Содержание
 
 
 
-{quote}Registry — central source of truth о том, какие Repos входят в{quote}
+{quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. Все остальные поля OPTIONAL, но SHOULD быть заполнены для хорошей{quote}
+Все остальные поля OPTIONAL, но SHOULD быть заполнены для хорошей 
+discoverability:
+ — если опущен, Repo существует только локально
+ ,  ,   — human-readable metadata
+ — пустой объект допустим, если мостов нет
+3.5.
 
 ----
 

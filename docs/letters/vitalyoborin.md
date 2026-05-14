@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Письмо: VitalyOborin / Yodoca + Wikontic
 
 > [!NOTE]
@@ -14,7 +18,7 @@
 
 
 <!-- summary -->
-> Открытое письмо автору Yodoca и Wikontic — системы консолидации памяти с decay-механизмом и граф-базы знаний.
+> Открытое письмо автору Yodoca и Wikontic — системы консолидации памяти с decay-механизмом и граф-базы знаний. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- tags: contacts, letters, yodoca, wikontic, memory, knowledge-graph -->
 

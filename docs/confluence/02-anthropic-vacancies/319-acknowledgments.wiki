@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/319-acknowledgments.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Acknowledgments
 
@@ -38,7 +42,10 @@ h2. Содержание
 
 
 
-{quote}This document emerged from author's question about how to{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's question about how to integrate InGit specifically{quote}
+{quote}🔧 Подход: Review Methodology v1.0{quote}
 
 ----
 
@@ -179,3 +186,7 @@ h2. Кто ссылается на этот документ (11)
 * 306-with-[anthropic-s-cowork-platform|306-with-anthropic-s-cowork-platform.md]
 * _...ещё 3_
 
+h1. Angle / Perspective
+
+h2. Angle / Perspective
+Methodological: how-to и reflection.

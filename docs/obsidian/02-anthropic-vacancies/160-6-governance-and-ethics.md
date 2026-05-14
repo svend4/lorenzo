@@ -4,7 +4,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 6. Governance and Ethics
@@ -43,7 +43,10 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> **Board of Directors** (7 members):
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Ethical Red Lines Foundation will not: - Support projects intended for military use - Accept funding contingent on compromising commitment 1-7 - Use contributor data for AI trainin
+> 🔧 Подход: Disability rights (all
 
 ---
 <!-- tags: roadmap, anthropic -->

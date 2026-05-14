@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 4. Proposed Infrastructure
 
 > [!TIP]

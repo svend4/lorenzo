@@ -20,9 +20,12 @@ from docstoolkit.graph.builder import (
 from docstoolkit.graph.export import (
     export_dot, export_mermaid, export_json, export_markdown,
 )
+from docstoolkit.graph.reasoning import TripletStore, GraphReasoner
 
 __all__ = [
     "extract_entities", "EntityKinds",
     "build_graph", "ConceptGraph", "build_from_docs_index",
     "export_dot", "export_mermaid", "export_json", "export_markdown",
+    # Gap 1: Knowledge graph reasoning
+    "TripletStore", "GraphReasoner",
 ]

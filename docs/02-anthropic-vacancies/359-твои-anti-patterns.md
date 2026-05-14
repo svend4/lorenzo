@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Твои anti-patterns
 
 <!-- toc-auto -->
@@ -15,10 +19,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»
+> ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer» Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 ---
-<!-- tags: rag -->
+<!-- tags: rag, orchestration -->
 
 
 

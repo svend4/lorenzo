@@ -15,12 +15,26 @@
     result = run(wf, {"question": "что такое RAG?"})
     # result.outputs["answer"] — финальный ответ
     # result.steps — детали каждого шага (input/output/duration/error)
+
+E48 Workflow Engine:
+    from docstoolkit.workflow import (
+        StepStatus, WorkflowStep, WorkflowConfig, WorkflowEngine,
+    )
+    # StepResult re-exported from step module (E48 variant)
 """
 from docstoolkit.workflow.dag import (
-    Workflow, Step, StepResult, WorkflowResult, run, run_async,
+    Workflow, Step, run, run_async,
 )
+from docstoolkit.workflow.dag import StepResult as DagStepResult
+from docstoolkit.workflow.dag import WorkflowResult as DagWorkflowResult
+from docstoolkit.workflow.step import StepStatus, StepResult, WorkflowStep
+from docstoolkit.workflow.engine import WorkflowConfig, WorkflowResult, WorkflowEngine
 
 __all__ = [
-    "Workflow", "Step", "StepResult", "WorkflowResult",
+    # Legacy DAG runner
+    "Workflow", "Step", "DagStepResult", "DagWorkflowResult",
     "run", "run_async",
+    # E48 engine
+    "StepStatus", "StepResult", "WorkflowStep",
+    "WorkflowConfig", "WorkflowResult", "WorkflowEngine",
 ]

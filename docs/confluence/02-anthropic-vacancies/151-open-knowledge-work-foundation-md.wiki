@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: normalized
+----
 
 h1. OPEN KNOWLEDGE WORK FOUNDATION.md
 
@@ -17,7 +21,7 @@ h2. Contents
 
 
 
-{quote}- [273-infrastructure-for-ai-collaborative-intellectual-w|273-infrastructure-for-ai-collaborative-intellectual-w.md] (сходство 0.25){quote}
+{quote}- [273-infrastructure-for-ai-collaborative-intellectual-w|273-infrastructure-for-ai-collaborative-intellectual-w.md] (сходство 0.25) Документ создан на основе исследования.{quote}
 
 ----
 

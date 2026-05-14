@@ -2,8 +2,9 @@
 title: "4. Passport (`passport.md`)"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 4. Passport (`passport.md`)
@@ -20,11 +21,17 @@ date: 2026-05-11
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 <!-- summary -->
-> Passport — human-readable описание Repo, расположенное в корне
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Recommended Structure Passport SHOULD содержать следующие разделы: python scripts/improve_semantic_search.py --query "4 Passport passport md"
+Passport SHOULD содержать следующие разделы:
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Passport passport md"
+`` passport.md passport.md`)](79-4-passport-passport-md.md) _29%_
+ Planned (v0
 
 ---
 <!-- tags: anthropic -->
@@ -146,3 +153,19 @@ python scripts/improve_semantic_search.py --query "4 Passport passport md"
 - [[63-history]]
 - [[README]]
 
+# Essence
+
+## Essence
+Один абзац: что это, для кого, почему существует.
+
+# Объём
+
+## Объём
+
+- Единиц: 5 (demo)
+
+# Q6-отображение
+
+## Q6-отображение
+
+Не определено (Level 1).

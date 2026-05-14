@@ -2,7 +2,7 @@
 title: "9. Relationship to Other Agent Types"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 9. Relationship to Other Agent Types
@@ -23,8 +23,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Integration challenge: Layer C (interface layer) of Type 1 needs to talk to Type 2 systems.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Professional Colleague Agents do not stand alone. They

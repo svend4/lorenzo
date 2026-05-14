@@ -2,12 +2,12 @@
 title: "Svyazi 2.0 — Knowledge Base Report"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Svyazi 2.0 — Knowledge Base Report
 
-_Сгенерировано автоматически: 2026-05-11_
+_Сгенерировано автоматически: 2026-05-14_
 
 ---
 
@@ -23,9 +23,9 @@ _Сгенерировано автоматически: 2026-05-11_
 
 ## Executive Summary
 
-**Svyazi 2.0 — Knowledge Base Report** — аналитический обзор базы знаний, сгенерированный автоматически 2026-05-11.
+**Svyazi 2.0 — Knowledge Base Report** — аналитический обзор базы знаний, сгенерированный автоматически 2026-05-14.
 
-База содержит **1244 документов** объёмом **1,486,346 слов** в **23 секциях**. Здоровье репозитория: **90/100**, средний балл документов: **95.9/100/100**, словарное богатство (STTR): **0.621**.
+База содержит **1306 документов** объёмом **1,515,189 слов** в **26 секциях**. Здоровье репозитория: **90/100**, средний балл документов: **97.9/100/100**, словарное богатство (STTR): **0.624**.
 
 Цель базы знаний — поддержка разработки **Svyazi 2.0**, community intelligence platform, объединяющей лучшие OSS-проекты с Хабра в единую архитектуру Knowledge OS.
 
@@ -35,38 +35,40 @@ _Сгенерировано автоматически: 2026-05-11_
 
 | Метрика | Значение |
 |---------|----------|
-| Документов | **1244** |
-| Слов | **1,486,346** |
-| Секций | **23** |
+| Документов | **1306** |
+| Слов | **1,515,189** |
+| Секций | **26** |
 | Здоровье репо | **90/100** |
-| Средний балл | **95.9/100/100** |
-| Словарное богатство (STTR) | **0.621** |
+| Средний балл | **97.9/100/100** |
+| Словарное богатство (STTR) | **0.624** |
 
 ### По секциям
 
 | Секция | Файлов | Слов |
 |--------|--------|------|
-| **obsidian** | 1238 | 1,439,566 |
-| **Anthropic Vacancies** | 357 | 341,828 |
-| **nautilus** | 255 | 176,913 |
-| **anthropic-vacancies** | 111 | 47,082 |
-| **lorenzo-agent** | 62 | 28,664 |
-| **AI Collaborations** | 17 | 27,940 |
-| **svyazi-2-0** | 60 | 20,715 |
-| **habr-unique-projects** | 56 | 19,966 |
-| **technology-combinations** | 53 | 19,585 |
-| **processing-guide** | 13 | 17,500 |
-| **Habr Projects** | 16 | 14,869 |
-| **Svyazi 2.0** | 16 | 13,360 |
-| **ai-collaborations** | 31 | 12,182 |
-| **Templates** | 24 | 7,794 |
-| **Contacts** | 17 | 5,044 |
-| **Tech Combinations** | 7 | 3,815 |
-| **letters** | 10 | 3,618 |
-| **meta-scripting** | 7 | 3,344 |
-| **autofilled** | 13 | 2,904 |
-| **glossary** | 4 | 2,692 |
-| **badges** | 1 | 116 |
+| **obsidian** | 1300 | 1,463,622 |
+| **Anthropic Vacancies** | 357 | 355,535 |
+| **nautilus** | 255 | 179,896 |
+| **anthropic-vacancies** | 111 | 48,013 |
+| **AI Collaborations** | 40 | 34,824 |
+| **lorenzo-agent** | 62 | 29,064 |
+| **svyazi-2-0** | 60 | 22,257 |
+| **habr-unique-projects** | 56 | 20,596 |
+| **technology-combinations** | 53 | 20,386 |
+| **ROADMAP** | 7 | 18,232 |
+| **processing-guide** | 13 | 18,013 |
+| **Habr Projects** | 16 | 15,409 |
+| **Svyazi 2.0** | 16 | 13,727 |
+| **ai-collaborations** | 31 | 13,346 |
+| **Templates** | 24 | 8,838 |
+| **Contacts** | 32 | 8,431 |
+| **Tech Combinations** | 7 | 4,050 |
+| **letters** | 10 | 3,727 |
+| **meta-scripting** | 7 | 3,604 |
+| **autofilled** | 13 | 3,550 |
+| **glossary** | 4 | 2,798 |
+| **rfcs** | 5 | 1,899 |
+| **badges** | 1 | 44 |
 
 ## Ключевые проекты
 
@@ -74,27 +76,27 @@ _Авторы и проекты из CONTACTS.md:_
 
 | Автор | Проект | Слой | Приоритет |
 |-------|--------|------|-----------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 133 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 83 | — |
-| **Cutcode** | AIF Handoff | orchestration | 71 | — |
-| **Dmitriila** | SENTINEL | security | 63 | — |
-| **MiXaiLL76** | Auto AI Router | security | 61 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 41 | — |
-| **VitalyOborin** | Yodoca | memory | 107 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 81 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 126 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 78 | — |
+| **Cutcode** | AIF Handoff | orchestration | 68 | — |
+| **Dmitriila** | SENTINEL | security | 60 | — |
+| **MiXaiLL76** | Auto AI Router | security | 56 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 38 | — |
+| **VitalyOborin** | Yodoca | memory | 102 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 80 | — |
 
 ## Ключевые сущности
 
-- 📦 **obsidian** (projects) — упомянут в 808 файлах
-- 👤 **anthropic** (people) — упомянут в 739 файлах
-- 📦 **nautilus** (projects) — упомянут в 547 файлах
-- 📦 **lorenzo** (projects) — упомянут в 502 файлах
-- 👤 **claude** (people) — упомянут в 459 файлах
-- 📦 **svyazi** (projects) — упомянут в 389 файлах
-- ⚙️ **mcp** (tech) — упомянут в 363 файлах
-- 🏢 **вк** (orgs) — упомянут в 298 файлах
-- ⚙️ **bm25** (tech) — упомянут в 261 файлах
-- 📦 **github** (projects) — упомянут в 261 файлах
+- 📦 **obsidian** (projects) — упомянут в 775 файлах
+- 👤 **anthropic** (people) — упомянут в 736 файлах
+- 📦 **nautilus** (projects) — упомянут в 542 файлах
+- 📦 **lorenzo** (projects) — упомянут в 511 файлах
+- 👤 **claude** (people) — упомянут в 458 файлах
+- 📦 **svyazi** (projects) — упомянут в 391 файлах
+- ⚙️ **mcp** (tech) — упомянут в 360 файлах
+- 🏢 **вк** (orgs) — упомянут в 297 файлах
+- ⚙️ **bm25** (tech) — упомянут в 259 файлах
+- 📦 **github** (projects) — упомянут в 259 файлах
 
 ## Архитектурные решения
 
@@ -113,14 +115,14 @@ _Из DECISIONS.md:_
 
 _Из QUESTIONS.md — вопросы, требующие решения:_
 
-- -  Какие 5 архитектурных зазоров выделены в исследовании? [Содержан]
-- -  Что входит в интеграционный контракт между слоями? [Содержание]
-- -  Как реализован forensic RAG с доказуемостью? [Содержание]
-- -  Что такое Evidence Envelope и зачем он нужен? [Содержание]
-- -  Какие RAG-подходы сравниваются в документах? [Содержание]
-- - Какие 5 архитектурных зазоров выделены в исследовании? [[QA|[Глобальный Q&A]]]
-- - Что входит в интеграционный контракт между слоями? [[QA|[Глобальный Q&A]]]
-- - Как реализован forensic RAG с доказуемостью? [[QA|[Глобальный Q&A]]]
+- **Интерфейс** — есть ли понятный публичный API/контракт для интеграции?
+- **Доказуемость** — можно ли проверить, что слой работает правильно?
+- ше задавать вопрос о memory write policy и conservative consolidation: *что в вашей архитектуре оказ
+- о memory write policy и conservative consolidation: *что в вашей архитектуре оказалось критичнее для
+- Вопрос: как вы оцениваете эту многоуровневую агентную архитектуру, где каждый член команды получает 
+- как вы оцениваете эту многоуровневую агентную архитектуру, где каждый член команды получает персонал
+- Как двойственная архитектура избегает этого?
+- Как бы выглядел Слой B идеально?
 
 ## Рекомендуемое чтение
 
@@ -153,5 +155,17 @@ python scripts/improve_reading_list.py --query "архитектура аген�
 python scripts/improve_llm_qa.py --question "Что такое NGT Memory?"
 ```
 
-_Отчёт сгенерирован автоматически скриптом `improve_export_report.py` (2026-05-11)_
+_Отчёт сгенерирован автоматически скриптом `improve_export_report.py` (2026-05-14)_
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [CONCEPTS](../CONCEPTS.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

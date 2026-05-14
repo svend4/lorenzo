@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/267-acknowledgments.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Acknowledgments
@@ -45,7 +45,11 @@ h2. Содержание
 
 
 
-{quote}The Composite Skills Agent concept emerged from dialogue with{quote}
+{quote}_ Acknowledgments The Composite Skills Agent concept emerged from dialogue with --- Acknowledgments The Composite Skills. _ The metaphor of the Indian yoga master who studied with twenty teachers, drawn from a journalist's interview the user{quote}
+contribution was the user's observation that the binary view 
+between Professional Colleague Agent (Type 1) and Representative 
+Agent (Type 4) missed the most common middle case — practitioners 
+whose distinctive value comes from c
 
 ----
 

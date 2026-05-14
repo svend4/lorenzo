@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, local-first]
+state: approved
+----
 
 h1. Приложение: Визуализация позиции в серии
 
@@ -21,7 +27,15 @@ h1. Приложение: Визуализация позиции в серии
 
 
 
-{quote}Документ 1: Nautilus Portal Protocol{quote}
+{quote}_ Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template. _ Часть 2 (Project Management) — для Cowork тоже хорошо Cowork specifically designed для multi-step task execution{quote}
+Инфраструктура для AI-Совместной
+Интеллектуальной Работы v1.0.0-черновик
+Документ 2.3 в серии Nautilus / Open
+Knowledge Work
+Исследовательский документ, не архитектурная
+спецификация
+Ищем наблюдения, альтернативные формулировки и
+практические реал
 
 ----
 

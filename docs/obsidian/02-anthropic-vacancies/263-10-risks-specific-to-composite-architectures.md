@@ -2,7 +2,7 @@
 title: "10. Risks Specific to Composite Architectures"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 10. Risks Specific to Composite Architectures
@@ -23,7 +23,10 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> Composite Skills Agents inherit some risks from Professional
+> > ✅ Результат: Mitigations: - Open standards make sub-agents portable and replaceable - Multiple sub-agents covering same specialization (compete on quality, not lock-in) - Notification when sub-
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
 
 ---
 

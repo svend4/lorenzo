@@ -1,25 +1,18 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/01-svyazi/QA.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Q&A: 01-svyazi"
 tags:
-  * rag
-  * security
-  * knowledge
-  * ingestion
-  * architecture
-  * roadmap
-  * collaboration
+  * qa
+  * docs
   * svyazi
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. Q&A: 01-svyazi
-
-
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
@@ -27,13 +20,25 @@ h1. Q&A: 01-svyazi
 
 
 
-{quote}_Автоматически сгенерировано по 14 файлам раздела._{quote}
-_Проекты:_ Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel], LiteLLM, Auto AI Router
-
-----
 
 
-
+{quote}Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 14 файлам раздела._{quote}
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 14 файлам раздела._
@@ -86,6 +91,32 @@ h2. Какие вопросы лучше задавать авторам при 
 
 Упоминаются: _первый вопрос_, _архитектурный_, _шаблон_, _контакт_
 
+h2. Как работает AgentFS и что такое .agentos?
+
+Упоминаются: _agentos_, _vault_, _compile_, _persistent state_
+
+h2. Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: _reference card_, _agent-readable_, _785_, _gotcha_
+
+h2. Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+
 
 
 ----
@@ -98,31 +129,3 @@ _Кто ссылается на этот документ (6):_
 * [[SEARCH]]
 * [[TABLES]]
 
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_qa.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [[QA]] (сходство 0.99)
-* [[QA]] (сходство 0.85)
-* [[QA]] (сходство 0.84)
-
-
-
-
-
-----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском
-
-[^sentinel]: OSS-проект: безопасность и allowlist для MCP
-
-[^svyazi]: Главный проект: экосистема AI-компонентов

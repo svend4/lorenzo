@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/161-7-phased-rollout-plan.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "7. Phased Rollout Plan"
 tags:
   * roadmap
+  * rag
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. 7. Phased Rollout Plan
@@ -28,8 +29,8 @@ h1. 7. Phased Rollout Plan
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Phased Rollout Plan - Establish legal entity (non-profit foundation in Germany or --- Содержание - 7.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}- Establish legal entity (non-profit foundation in Germany or{quote}

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # properties/ — эмерджентные свойства
 
 <!-- toc-auto -->
@@ -5,7 +9,13 @@
 
 
 <!-- summary -->
-> properties/ — эмерджентные свойства
+> METRICS — метрики качества документов HEALTH — здоровье репозитория README — раздел technology-combinations Документ индексирован в базе знаний репозитория.
+ 
+Смотрите также
+ METRICS — метрики качества документов
+ HEALTH — здоровье репозитория
+ README — раздел technology-combinations
+Документ индексирован в базе знаний репозитория.
 
 <!-- tags: technology, combinations, architecture, synergy -->
 

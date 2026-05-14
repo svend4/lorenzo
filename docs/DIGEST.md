@@ -2,76 +2,86 @@
 
 <!-- toc-auto -->
 
-> [!NOTE]
-> Раздел `DIGEST` формируется автоматически из данных репозитория.
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 <!-- alert-added -->
 
 <!-- summary -->
-> > chore: regenerate auto-generated docs artifacts
+> > fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass
 
 ---
-<!-- tags: rag, self-improvement -->
+<!-- tags: rag -->
 
 
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
 ## Последний коммит
 
-**2026-05-11** — `0623cb16`
-> chore: regenerate auto-generated docs artifacts
+**2026-05-13** — `d655c2aa`
+> fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass
 
-Изменено файлов: **335** (+19295 / -16103 строк)
+Изменено файлов: **1** (+2 / -0 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **342**
-- Добавлено строк: **+20443**
-- Удалено строк: **-16104**
+- Изменено файлов: **1619**
+- Добавлено строк: **+18476**
+- Удалено строк: **-19799**
 - Новых md-файлов: **0**
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
-| 2026-05-11 | `0623cb16` | chore: regenerate auto-generated docs artifacts |
-| 2026-05-11 | `e734762d` | test: add 52 tests for improve_watcher, improve_self, improve_card_ind |
-| 2026-05-11 | `7ff328ed` | chore: regenerate all auto-generated docs artifacts after smart pipeli |
-| 2026-05-11 | `4a6e7a87` | chore: update auto-generated docs artifacts |
-| 2026-05-11 | `a345c19d` | test: add 95 tests for improve_llm_qa, improve_abstract, improve_bench |
-| 2026-05-11 | `cda0f08a` | test: +54 теста — test_status_badges.py + test_autofill.py; итого 394 |
-| 2026-05-11 | `c34d758c` | test: +54 теста — test_metrics.py + test_migrate_contacts.py; итого 34 |
-| 2026-05-11 | `3c00c354` | test: +51 тест — test_embedding_index.py + test_badges.py; итого 286 |
-| 2026-05-11 | `a833ea0b` | test: +27 тестов — test_passage_retrieval.py; итого 235 тестов |
-| 2026-05-11 | `779808d5` | chore: обновление COMPLEXITY.md и SENTIMENT.md |
-| 2026-05-11 | `0515207f` | test: +25 тестов — test_index_update.py; обновление docs/ и README.md |
-| 2026-05-11 | `a5b93b95` | chore: обновление CONCEPTS.md и ENTITIES.md |
-| 2026-05-11 | `56694311` | chore: обновление QUESTIONS.md |
-| 2026-05-11 | `04a47cc0` | chore: обновление ACTION_ITEMS.md и DECISIONS.md |
-| 2026-05-11 | `619729e1` | chore: обновление DENSITY.md и HEATMAP.md |
+| 2026-05-13 | `d655c2aa` | fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dat |
+| 2026-05-13 | `7c934060` | fix: exclude catalog files from backlink injection to keep catalog-fre |
+| 2026-05-13 | `158b1749` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `7b3ddce3` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `7876fab3` | fix(tests): stub published in milestones test to avoid missing git tag |
+| 2026-05-12 | `50c2622c` | ci: retrigger after test fixes (textrank runpy + progress-sync tags) |
+| 2026-05-12 | `ec7795dc` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `095d7105` | fix(tests): fix 3 CI failures from run 25754404920 |
+| 2026-05-12 | `6164dc5f` | ci: retrigger tests after runpy slow-test fixes |
+| 2026-05-12 | `f090a413` | chore: update generated docs artifacts from local script runs |
+| 2026-05-12 | `08689e53` | fix(tests): prevent runpy tests from scanning all 2497 real docs files |
+| 2026-05-12 | `8af64f0e` | ci: add pytest-timeout and capture test output for diagnostics |
+| 2026-05-12 | `ec6018f8` | test(backlinks): cover __main__ block (line 136) via runpy |
+| 2026-05-12 | `afc39fc3` | fix: mock subprocess in tests that call long-running scripts |
+| 2026-05-12 | `dfe8f85b` | test: add coverage improvements + CI debug output |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Документов `.md` | **2482** |
+| Документов `.md` | **2484** |
 | Скриптов обработки | **166** |
-| Последнее обновление | **2026-05-11** |
+| Последнее обновление | **2026-05-13** |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (7):**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
+**Кто ссылается на этот документ (6):**
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [CHANGELOG](CHANGELOG.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [ALERTS](ALERTS.md)
 
 
 

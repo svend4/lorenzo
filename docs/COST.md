@@ -1,31 +1,16 @@
 # Оценка стоимости MVP
 
+<!-- toc-auto -->
+
 > [!NOTE]
 > Раздел `COST` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: cost, docs -->
+
 
 <!-- summary -->
-> _Ориентировочные цифры на основе документации проекта._
-**Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Итого](#итого)
-- [По компонентам](#по-компонентам)
-- [По ролям](#по-ролям)
-- [Сценарии](#сценарии)
-- [Временные оценки из документов](#временные-оценки-из-документов)
-- [Допущения](#допущения)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, architecture, roadmap, collaboration -->
-
-
+> `COST` — раздел документации проекта Lorenzo.
 
 
 _Ориентировочные цифры на основе документации проекта._
@@ -100,6 +85,20 @@ _Минимальный сценарий: open source + личное время 
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_cost.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
 <!-- backlinks -->
 
 ---
@@ -114,9 +113,13 @@ _Минимальный сценарий: open source + личное время 
 - [TABLES](TABLES.md)
 
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_cost.py
-```
+---
+
+**Смотрите также:**
+- [SCHEDULE](SCHEDULE.md)
+- [SCORING](SCORING.md)
+- [SUMMARIES](SUMMARIES.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+

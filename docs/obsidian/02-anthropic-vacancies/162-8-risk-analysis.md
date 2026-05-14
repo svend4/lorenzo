@@ -5,7 +5,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 8. Risk Analysis
@@ -25,7 +25,11 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> **Impact**: High (foundational failure)
+> > 🔧 Подход: Risk: Regulatory Challenges Probability: Low-Medium Impact: Medium Risk sources: - Employment law reclassifying contributors as employees - GDPR enforcement challenges with anonymi
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
+>
 
 ---
 

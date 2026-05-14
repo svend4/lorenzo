@@ -2,8 +2,9 @@
 title: "Appendix B: Summary of Contributions"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix B: Summary of Contributions
@@ -29,14 +30,25 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-
-> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики. Appendix B: Summary of Contributions Рекомендуется читать перед погружением в детали. Topological formalization of Double-Triangle Architecture
+ 
+Contents
+ Appendix B: Summary of Contributions
+ Author & Contact
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот д
 > Обзорный документ. Рекомендуется читать перед погружением в детали.
 
 > 1. **Topological formalization** of Double-Triangle Architecture
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 
@@ -149,3 +161,7 @@ python scripts/improve_semantic_search.py --query "Appendix B Summary of Contrib
 - [[308-table-of-contents]]
 - _...ещё 4_
 
+# Author & Contact
+
+## Author & Contact
+Кто поддерживает, как связаться.

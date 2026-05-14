@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT
@@ -26,7 +26,7 @@ h2. Contents
 
 
 
-{quote}- [[249-composite-skills-agent-md]] (сходство 0.20){quote}
+{quote}- [[249-composite-skills-agent-md]] (сходство 0.20) Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 ----
 

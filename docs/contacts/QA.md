@@ -4,15 +4,26 @@
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 15 файлам раздела._
-**Проекты:** Yodoca, NGT Memory, MemNet, agent-memory-mcp
-
----
-<!-- tags: memory -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. Кто ссылается на этот документ (6):
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ README
 
 
 _Автоматически сгенерировано по 15 файлам раздела._
@@ -29,20 +40,6 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **episod**, **семантич**, **fact**
 
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [DIGEST_AUTO](../DIGEST_AUTO.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [TABLES](../TABLES.md)
-- [VERSION_DIFF](../VERSION_DIFF.md)
-- [README](README.md)
-
-
 
 Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Q&A: contacts». Формируется автоматически.
 
@@ -53,12 +50,22 @@ _Автоматически сгенерировано по 15 файлам ра
 python scripts/improve_qa.py
 ```
 
-<!-- similar-docs -->
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
+<!-- backlinks -->
 
 ---
 
-**Похожие документы:**
-- [QA](../obsidian/contacts/QA.md) (сходство 0.97)
-- [QA](../anthropic-vacancies/QA.md) (сходство 0.40)
-- [QA](../obsidian/anthropic-vacancies/QA.md) (сходство 0.39)
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
 

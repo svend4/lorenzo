@@ -6,7 +6,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 7. Economics of Combinatorial Replication
@@ -27,8 +27,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Economics of Combinatorial Replication The economics of Composite Skills Agents differ from both --- Содержание - 7.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The economics of Composite Skills Agents differ from both

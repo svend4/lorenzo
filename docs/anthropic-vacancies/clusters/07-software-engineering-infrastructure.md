@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Software Engineering - Infrastructure — 22 роли
 
 <!-- toc-auto -->
@@ -13,7 +17,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248. Документ создан на основе исследования.
 
 ---
 <!-- tags: local-first, anthropic -->

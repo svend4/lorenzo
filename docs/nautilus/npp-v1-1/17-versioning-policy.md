@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 17. Versioning Policy
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Existing Approximations
 
 > [!TIP]
@@ -29,7 +33,18 @@
 
 
 <!-- summary -->
-> Several existing tools approximate parts of what Layer B
+> * It solves part of the problem (persistent context) but not the threading and structural needs. * Limitations: - No AI collaboration - Not designed for documents as first-class artifacts - Not designed for project-st
+ Existing Approximations
+ Anthropic Projects
+ GitHub Discussions
+ Notion / Obsidian / Roam
+ Discourse / phpBB-style forums
+ Combination workflows
+ --
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: It solves part of the problem (persistent context) bu
 
 ---
 <!-- tags: rag, architecture, anthropic -->

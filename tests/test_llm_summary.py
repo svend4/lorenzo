@@ -137,3 +137,184 @@ def test_append_to_digest_creates_file(tmp_path, monkeypatch):
     mod.append_to_digest("## New Section\n\nContent.\n")
     assert digest.exists()
     assert "New Section" in digest.read_text(encoding="utf-8")
+
+
+# ── arg parsing ───────────────────────────────────────────────────────────────
+
+def test_section_arg_parsing():
+    """Lines 37-39: --section NAME sets SECTION_FILTER."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--section", "05-habr-projects"]
+        importlib.reload(mod)
+        assert mod.SECTION_FILTER is not None
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_file_arg_parsing():
+    """Lines 43-45: --file PATH sets FILE_FILTER."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--file", "docs/test.md"]
+        importlib.reload(mod)
+        assert mod.FILE_FILTER is not None
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+# ── summarize_chunks ──────────────────────────────────────────────────────────
+
+def test_summarize_chunks_single_chunk():
+    """Lines 89-96: single chunk → direct summarize."""
+    class MockContent:
+        text = "Summary of the document chunk content."
+    class MockResp:
+        content = [MockContent()]
+    class MockMessages:
+        def create(self, **kwargs):
+            return MockResp()
+    class MockClient:
+        messages = MockMessages()
+
+    result = mod.summarize_chunks(["chunk text content here"], MockClient(), "Test Title")
+    assert isinstance(result, str)
+    assert result == "Summary of the document chunk content."
+
+
+def test_summarize_chunks_multiple_chunks():
+    """Lines 99-117: multiple chunks → map-reduce."""
+    class MockContent:
+        text = "Mini summary."
+    class MockResp:
+        content = [MockContent()]
+    call_count = [0]
+    class MockMessages:
+        def create(self, **kwargs):
+            call_count[0] += 1
+            return MockResp()
+    class MockClient:
+        messages = MockMessages()
+
+    result = mod.summarize_chunks(["chunk1 content", "chunk2 content"], MockClient(), "Test Title")
+    assert isinstance(result, str)
+    assert call_count[0] == 3  # 2 map + 1 reduce
+
+
+# ── main: dry-run with targets ────────────────────────────────────────────────
+
+def test_main_dry_run_with_many_targets(tmp_path, monkeypatch):
+    """Lines 209-213: dry-run with new_targets → prints file info."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FILE_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_WORDS", 1)
+    monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "DIGEST.md")
+    for i in range(3):
+        (tmp_path / f"doc{i}.md").write_text(f"# Doc {i}\n\n" + "word " * 5, encoding="utf-8")
+    mod.main()
+
+
+def test_main_dry_run_more_than_20_targets(tmp_path, monkeypatch):
+    """Lines 186, 215: dry-run with > 20 new_targets → truncation message."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FILE_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_WORDS", 1)
+    monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "DIGEST.md")
+    for i in range(22):
+        (tmp_path / f"doc{i:02d}.md").write_text(f"# Doc {i}\n\nword\n", encoding="utf-8")
+    mod.main()  # prints "... и ещё N файлов"
+
+
+# ── main: non-dry-run with mock anthropic ─────────────────────────────────────
+
+def test_main_apply_with_mock_anthropic(tmp_path, monkeypatch):
+    """Lines 220-256: non-dry-run uses mock anthropic."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FILE_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_WORDS", 1)
+    monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "DIGEST.md")
+    (tmp_path / "doc.md").write_text("# Test Doc\n\nContent here.\n", encoding="utf-8")
+
+    class MockContent:
+        text = "Summary text."
+    class MockResp:
+        content = [MockContent()]
+    class MockMessages:
+        def create(self, **kwargs):
+            return MockResp()
+    class MockAnthropicInstance:
+        messages = MockMessages()
+    class MockAnthropicModule:
+        def Anthropic(self):
+            return MockAnthropicInstance()
+
+    monkeypatch.setitem(sys.modules, "anthropic", MockAnthropicModule())
+    mod.main()  # should not crash
+
+
+def test_main_apply_anthropic_not_installed(tmp_path, monkeypatch):
+    """Lines 222-224: anthropic not importable → sys.exit(1)."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FILE_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_WORDS", 1)
+    monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "DIGEST.md")
+    (tmp_path / "doc.md").write_text("# Test\n\nword\n", encoding="utf-8")
+    saved = sys.modules.pop("anthropic", None)
+    try:
+        with pytest.raises(SystemExit):
+            mod.main()
+    finally:
+        if saved is not None:
+            sys.modules["anthropic"] = saved
+
+
+def test_main_apply_summarize_exception_handled(tmp_path, monkeypatch):
+    """Lines 253-254: summarize_chunks raises → exception caught."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FILE_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_WORDS", 1)
+    monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "DIGEST.md")
+    (tmp_path / "doc.md").write_text("# Test\n\nword\n", encoding="utf-8")
+
+    class MockMessages:
+        def create(self, **kwargs):
+            raise RuntimeError("API error")
+    class MockAnthropicInstance:
+        messages = MockMessages()
+    class MockAnthropicModule:
+        def Anthropic(self):
+            return MockAnthropicInstance()
+
+    monkeypatch.setitem(sys.modules, "anthropic", MockAnthropicModule())
+    mod.main()  # exception caught, should not crash
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 260: __main__ block."""
+    import runpy
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--dry-run"]
+        script_path = str(ROOT / "scripts" / "improve_llm_summary.py")
+        runpy.run_path(script_path, run_name="__main__")
+    finally:
+        sys.argv = orig_argv

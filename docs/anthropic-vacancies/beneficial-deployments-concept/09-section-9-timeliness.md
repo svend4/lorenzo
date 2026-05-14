@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Section 9: Why this is timely
 
 <!-- toc-auto -->

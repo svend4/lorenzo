@@ -45,7 +45,13 @@ def test_tool_trigger_recompute_empty_section():
     assert isinstance(result, str)
 
 
-def test_tool_trigger_recompute_returns_string():
+def test_tool_trigger_recompute_returns_string(monkeypatch):
+    from unittest.mock import MagicMock
+    fake = MagicMock()
+    fake.returncode = 0
+    fake.stdout = "ok"
+    fake.stderr = ""
+    monkeypatch.setattr("subprocess.run", lambda *a, **kw: fake)
     result = mod.tool_trigger_recompute("01-svyazi")
     assert isinstance(result, str)
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Следующий артефакт: Svyazi 2.0 Architecture RFC
 
 <!-- toc-auto -->
@@ -13,7 +17,21 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (11): 02-agentops-trace-envelope 10-architecture-rfc (сходство 0.98)
+Кто ссылается на этот документ (11):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 02-agentops-trace-envelope
+ 03-a2a-vs-mcp-protocols
+ 05-roadmap-6-12-months
+ _...ещё 3_
+ --
+Похожие документы:
+ 10-architecture-rfc (сходство 0.98)
+ 13-commu
 **Проекты:** Svyazi
 
 ---

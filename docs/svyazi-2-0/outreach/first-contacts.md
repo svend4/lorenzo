@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Первые контакты
 
 <!-- toc-auto -->
@@ -13,7 +17,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты».
+> > Источник: `deep-research-report (1).md`, раздел «План прототипа и возможные контакты». Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Yodoca, NGT Memory
 
 ---

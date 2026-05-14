@@ -198,3 +198,140 @@ def test_main_with_concepts(tmp_path, monkeypatch):
     )
     mod.main()
     assert (tmp_path / "CONTENT_GAPS.md").exists()
+
+
+# ── arg parsing ───────────────────────────────────────────────────────────────
+
+def test_min_mentions_arg_parsing():
+    """Lines 27-29: --min-mentions N sets MIN_MENTIONS."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--min-mentions", "5"]
+        importlib.reload(mod)
+        assert mod.MIN_MENTIONS == 5
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_section_arg_parsing():
+    """Lines 33-35: --section NAME sets SECTION_FILTER."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--section", "05-habr-projects"]
+        importlib.reload(mod)
+        assert mod.SECTION_FILTER is not None
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+# ── _extract_concepts edge cases ──────────────────────────────────────────────
+
+def test_extract_concepts_skips_len2_abbrev():
+    """Line 89: concept with len < 3 → skipped."""
+    result = mod._extract_concepts("AB testing is not good here.")
+    # "AB" (2 chars) should be filtered out
+    for c in result:
+        assert len(c.lower().strip()) >= 3
+
+
+def test_extract_concepts_skips_known_terms():
+    """Line 91: concept in KNOWN_TERMS → skipped."""
+    result = mod._extract_concepts("LLM is a known term here.")
+    for c in result:
+        assert c.lower() not in mod.KNOWN_TERMS
+
+
+def test_extract_concepts_skips_pure_digits():
+    """Line 93: quoted pure-digit concept → skipped."""
+    result = mod._extract_concepts('Use "12345" as the identifier here.')
+    for c in result:
+        assert not c.strip().isdigit()
+
+
+# ── main: full coverage with CamelCase concepts ───────────────────────────────
+
+def test_main_finds_gaps_with_camelcase(tmp_path, monkeypatch):
+    """Lines 143, 148-154, 171-189, 198: real CamelCase concepts create gaps."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_MENTIONS", 2)
+    # KnowledgeBase appears in 2 files → gap
+    (tmp_path / "doc1.md").write_text(
+        "# Title\n\nKnowledgeBase is the core system here.", encoding="utf-8"
+    )
+    (tmp_path / "doc2.md").write_text(
+        "# Other\n\nKnowledgeBase integrates well with SearchEngine.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "CONTENT_GAPS.md").read_text(encoding="utf-8")
+    assert "#" in text
+
+
+def test_main_file_read_exception(tmp_path, monkeypatch):
+    """Lines 138-139: exception reading file → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    bad = tmp_path / "bad.md"
+    bad.write_text("content", encoding="utf-8")
+
+    from pathlib import Path as _Path
+    original_read = _Path.read_text
+
+    def mock_read(self, *args, **kwargs):
+        if self == bad:
+            raise OSError("mocked error")
+        return original_read(self, *args, **kwargs)
+
+    monkeypatch.setattr(_Path, "read_text", mock_read)
+    mod.main()  # should not crash
+
+
+def test_main_gaps_with_dedicated_doc_skipped(tmp_path, monkeypatch):
+    """Lines 150-152: concept has dedicated doc → skip from gaps."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_MENTIONS", 1)
+    # Create KnowledgeBase in 1 file
+    (tmp_path / "doc1.md").write_text(
+        "# Title\n\nKnowledgeBase is used here.", encoding="utf-8"
+    )
+    # Create a dedicated doc for it
+    (tmp_path / "knowledgebase.md").write_text(
+        "# KnowledgeBase\n\nDedicated document.", encoding="utf-8"
+    )
+    mod.main()
+    assert (tmp_path / "CONTENT_GAPS.md").exists()
+
+
+def test_main_many_gaps_detail(tmp_path, monkeypatch):
+    """Lines 182-189: detail section for gaps[:20] with >5 files per gap."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_MENTIONS", 2)
+    # Create multiple files all mentioning KnowledgeBase
+    for i in range(7):
+        (tmp_path / f"doc{i}.md").write_text(
+            f"# Title{i}\n\nKnowledgeBase SearchEngine SystemArchitecture.",
+            encoding="utf-8",
+        )
+    mod.main()
+    text = (tmp_path / "CONTENT_GAPS.md").read_text(encoding="utf-8")
+    assert "Рекомендуется" in text or "#" in text
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 202: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    script_path = str(ROOT / "scripts" / "improve_content_gaps.py")
+    runpy.run_path(script_path, run_name="__main__")

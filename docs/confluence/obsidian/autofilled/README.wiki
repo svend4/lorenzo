@@ -1,16 +1,39 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/autofilled/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
 
 ----
 title: "autofilled"
 tags:
   * autofilled
-date: 2026-05-11
+date: 2026-05-14
 ----
 
 h1. autofilled
+
+
+
+{quote}research-summary.md — components/ — components Кто ссылается на этот документ (15):{quote}
+Файлов: 1
+Содержание
+ research-summary.md —  
+Подразделы
+ components/ — components
+ --
+Кто ссылается на этот документ (15):
+ OUTLINE
+ READABILITY
+ SEARCH
+ TABLES
+ .md
+ cowork
+ ingit
+ kksudo
+ _...ещё 7_
+ --
+Похожие документы:
+ README (сходс
 
 _Файлов:_ 1
 

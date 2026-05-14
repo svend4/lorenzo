@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # 2. What Cowork Provides That InGit Doesn't Need to Build
@@ -25,7 +25,8 @@ date: 2026-05-11
 
 
 <!-- summary -->
-> If InGit positions to complement Cowork rather than replace
+> > 🔧 Подход: Claude in Cowork can: - Read multiple files, synthesize information - Make decisions about approach - Execute shell commands in isolated VM - Iterate based on results - Coordinate 
+> ✅ Результат: What Cowork Provides That InGit Doesn't Ne
 
 ---
 

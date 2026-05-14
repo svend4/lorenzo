@@ -2,7 +2,7 @@
 title: "Appendix C: Quick-Start Architecture for SGB Advocate Colleague"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Appendix C: Quick-Start Architecture for SGB Advocate Colleague
@@ -23,7 +23,10 @@ date: 2026-05-11
 <!-- alert-added -->
 
 <!-- summary -->
-> For readers interested in concrete architecture for the
+> > ✅ Результат: Эта строгость полезна , потому что: - Помогает differentiation от других типов - Делает category боеспособной для продакшена - Прорезывает hype вокруг "AI for X" Если кто-то продаё
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!IMPO
 
 ---
 

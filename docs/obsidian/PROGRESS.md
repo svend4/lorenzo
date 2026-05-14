@@ -2,33 +2,29 @@
 title: "Прогресс MVP"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-14
 ---
 
 # Прогресс MVP
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `PROGRESS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> _Обновлено: 2026-05-11 (improve_progress_sync.py)_
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
 
 ---
-<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
-_Обновлено: 2026-05-11 (improve_progress_sync.py)_
+<!-- alert-added -->
+
+_Обновлено: 2026-05-13 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
-`███████████████░░░░░ 73%` 8/11
+`█████████████░░░░░░░ 64%` 7/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
@@ -40,7 +36,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 ⬜ LLM-обогащение проектных файлов
 ✅ Создан рабочий прототип Knowledge OS
 ✅ Пройдено тестирование ансамбля
-✅ Опубликован MVP на GitHub
+⬜ Опубликован MVP на GitHub
 
 ## Состояние компонентов
 
@@ -48,16 +44,16 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 166 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 4 секций | python scripts/improve_llm_summary.py |
+| Скрипты обработки | ✅ 171 скриптов | 5 LLM-скриптов, MCP=✅ |
+| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
 ## Метрики качества
 
 | Метрика | Балл | Статус |
 |---------|------|--------|
-| Здоровье репо (HEALTH) | 100.0/100 | 🟢 |
-| Качество доков (METRICS) | 95.9/100 | 🟢 |
+| Здоровье репо (HEALTH) | 99.0/100 | 🟢 |
+| Качество доков (METRICS) | 97.9/100 | 🟢 |
 | Go/No-Go (SCORING) | 96.0/100 | 🟢 |
 
 ## Следующий шаг
@@ -88,6 +84,7 @@ cat docs/contacts/anastasiyaw.md
 
 <!-- auto-end -->
 
+
 <!-- backlinks -->
 
 ---
@@ -102,4 +99,15 @@ cat docs/contacts/anastasiyaw.md
 - [[READABILITY]]
 - [[READING_TIME]]
 - _...ещё 3_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SCHEDULE]]
+- [[ONBOARDING]]
+- [[KNOWLEDGE_MAP]]
+- [[INDEX]]
 

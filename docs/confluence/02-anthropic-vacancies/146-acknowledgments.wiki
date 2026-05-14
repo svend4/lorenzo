@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/146-acknowledgments.md}}
-Дата: 2026-05-11
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Acknowledgments
 
@@ -43,7 +47,13 @@ h2. Содержание
 
 
 
-{quote}This work emerged through extensive collaboration with Anthropic's{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. This work emerged through extensive collaboration with Anthropic's Claude (primarily Claude Opus 4.7) across multiple sessions in{quote}
+ --
+ 
+Acknowledgments
+This work emerged through extensive collaboration with Anthropic's 
+Claude (primarily Claude Opus 4.7) across multiple sessions in 
+2026.
 
 ----
 
