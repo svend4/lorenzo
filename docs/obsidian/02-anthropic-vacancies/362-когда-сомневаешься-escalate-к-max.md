@@ -29,6 +29,8 @@ date: 2026-05-13
 > - Ethical complexity beyond обычных protocols
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

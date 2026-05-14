@@ -5,6 +5,11 @@
 
 h1. Когда сомневаешься — escalate к Max
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
 
 h2. Contents
 
@@ -26,6 +31,8 @@ h2. Contents
 {quote}- Ethical complexity beyond обычных protocols{quote}
 
 ----
+
+
 
 
 

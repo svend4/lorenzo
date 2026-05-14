@@ -271,15 +271,23 @@ h2. Какие вопросы лучше задавать авторам при 
 
 h2. Какие инструменты обеспечивают безопасность агентов?
 
-Упоминаются: _SENTINEL_, _LiteLLM_, _Tool Search_, _Auto AI Router_
+Упоминаются: _research_, _inference_, _product_
 
-h2. Какова политика доступа по умолчанию (tool classes)?
+h2. Какие роли наиболее релевантны для профиля svend4?
 
-Упоминаются: _read-only_, _allowlist_, _path guard_, _quarantine_
+_Не найдено в этом файле._
 
-h2. Как организован бюджетный роутинг между моделями?
+h2. Как работает AgentFS и что такое .agentos?
 
-Упоминаются: _routing_, _budget_, _litellm_, _local model_
+Упоминаются: _agentos_, _vault_, _compile_, _persistent state_
+
+h2. Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: _reference card_, _agent-readable_, _785_, _gotcha_
+
+h2. Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
 
 h2. Как работает AgentFS и что такое .agentos?
 

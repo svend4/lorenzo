@@ -18,6 +18,11 @@ tags: [контакты, команда]
 ----
 h1. Контакт: VladSpace / Graph RAG
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 
 h2. Contents
 

@@ -18,6 +18,25 @@ from docstoolkit.rag.answerer import (
     Answerer, EchoAnswerer, AnthropicAnswerer, get_answerer,
 )
 from docstoolkit.rag.pipeline import ask, RAGPipeline
+from docstoolkit.rag.synthesis import (
+    synthesize, compare_sections, SynthesisRequest, SynthesisResult,
+    DocumentGroup, SynthesisMode,
+)
+from docstoolkit.rag.counterfactual import (
+    attribute_answer, counterfactual_ask, ForensicRAG,
+    AttributedAnswer, CounterfactualResult, SpanAttribution,
+)
+from docstoolkit.rag.mapreduce import (
+    map_reduce_ask, should_use_mapreduce,
+    MapReduceConfig, ReduceResult,
+)
+from docstoolkit.rag.clarifier import (
+    detect_ambiguity, build_clarification, apply_clarification,
+    ClarifyingRAG, AmbiguityScore, ClarificationRequest,
+)
+from docstoolkit.rag.hierarchical import (
+    hierarchical_search, HierarchicalResult, SectionIndex, DocIndex,
+)
 
 __all__ = [
     "Passage", "AnswerResult", "RAGQuery",
@@ -25,4 +44,17 @@ __all__ = [
     "assemble_prompt",
     "Answerer", "EchoAnswerer", "AnthropicAnswerer", "get_answerer",
     "ask", "RAGPipeline",
+    # Gap 2: Cross-document synthesis
+    "synthesize", "compare_sections", "SynthesisRequest", "SynthesisResult",
+    "DocumentGroup", "SynthesisMode",
+    # Gap 8: Counterfactual / forensic RAG
+    "attribute_answer", "counterfactual_ask", "ForensicRAG",
+    "AttributedAnswer", "CounterfactualResult", "SpanAttribution",
+    # Gap 10: True long-context map-reduce
+    "map_reduce_ask", "should_use_mapreduce", "MapReduceConfig", "ReduceResult",
+    # Gap 4: Active clarification
+    "detect_ambiguity", "build_clarification", "apply_clarification",
+    "ClarifyingRAG", "AmbiguityScore", "ClarificationRequest",
+    # M3: Hierarchical retrieval
+    "hierarchical_search", "HierarchicalResult", "SectionIndex", "DocIndex",
 ]

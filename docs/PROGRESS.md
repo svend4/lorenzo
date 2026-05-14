@@ -1,21 +1,10 @@
 # Прогресс MVP
 
-> [!NOTE]
-> Раздел `PROGRESS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: progress, docs -->
-
-
-<!-- summary -->
-> `PROGRESS` — раздел документации проекта Lorenzo.
-
-
-_Обновлено: 2026-05-13 (improve_progress_sync.py)_
+_Обновлено: 2026-05-14 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
-`███████████░░░░░░░░░ 55%` 6/11
+`█████████████░░░░░░░ 64%` 7/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
@@ -25,7 +14,7 @@ _Обновлено: 2026-05-13 (improve_progress_sync.py)_
 ⬜ Написаны авторам ключевых компонентов
 ⬜ Получены ответы от авторов
 ⬜ LLM-обогащение проектных файлов
-⬜ Создан рабочий прототип Knowledge OS
+✅ Создан рабочий прототип Knowledge OS
 ✅ Пройдено тестирование ансамбля
 ⬜ Опубликован MVP на GitHub
 
@@ -36,7 +25,7 @@ _Обновлено: 2026-05-13 (improve_progress_sync.py)_
 | Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
 | Скрипты обработки | ✅ 166 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 4 секций | python scripts/improve_llm_summary.py |
+| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
 ## Метрики качества
@@ -74,6 +63,283 @@ cat docs/contacts/anastasiyaw.md
 - [MVP Planning](01-svyazi/07-mvp-planning.md)
 
 <!-- auto-end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- backlinks -->
 

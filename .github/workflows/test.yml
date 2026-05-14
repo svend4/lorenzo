@@ -1,24 +1,28 @@
-name: Test & Validate  # v3: fix textrank-runpy timeout + progress-sync tags
+name: Test & Validate  # v4: drop claude/** trigger + concurrency + tighter timeouts
 
 on:
   push:
-    branches: [main, master, "claude/**"]
+    branches: [main, master]
     paths:
       - "scripts/**.py"
       - "tests/**"
       - "docs-toolkit/**"
       - "tasks/**"
       - "docs/templates/**"
-      - "tests/**"
       - ".github/workflows/test.yml"
   pull_request:
     branches: [main, master]
   workflow_dispatch:
 
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   python-syntax:
     name: Python syntax check
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -35,6 +39,7 @@ jobs:
   unit-tests:
     name: Unit tests (pytest)
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -51,7 +56,8 @@ jobs:
         run: pip list | grep -E "pytest|fastapi|pydantic|beautifulsoup4|lxml|httpx|uvicorn"
 
       - name: Run tests/
-        run: python -m pytest tests/ -v --ignore=tests/test_ann_index.py --tb=short -p no:cacheprovider --timeout=120 2>&1 | tee /tmp/test_output.txt; exit ${PIPESTATUS[0]}
+        timeout-minutes: 15
+        run: python -m pytest tests/ -v --ignore=tests/test_ann_index.py --tb=short -p no:cacheprovider --timeout=60 2>&1 | tee /tmp/test_output.txt; exit ${PIPESTATUS[0]}
 
       - name: Upload test output on failure
         if: failure()
@@ -67,6 +73,7 @@ jobs:
   mcp-smoke:
     name: MCP smoke tests
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -79,6 +86,7 @@ jobs:
   validate-templates:
     name: Validate document templates
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -99,6 +107,7 @@ jobs:
   validate-tasks:
     name: Validate task manifests
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -111,6 +120,7 @@ jobs:
   catalog-fresh:
     name: Catalog up-to-date check
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

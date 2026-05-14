@@ -102,14 +102,6 @@ date: 2026-05-13
 
 Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
-## Какие кластеры найма выделены у Anthropic?
-
-Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
-
-## Какие роли наиболее релевантны для профиля svend4?
-
-Упоминаются: **forward deployed**, **research engineer**, **developer community**
-
 ## Кто ключевые авторы проектов для контакта?
 
 Упоминаются: **Андрей Чуян**, **kksudo**, **spbmolot**
@@ -117,6 +109,14 @@ date: 2026-05-13
 ## Какие вопросы лучше задавать авторам при первом контакте?
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
+
+## Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
+
+## Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: **forward deployed**, **research engineer**, **developer community**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -266,15 +266,23 @@ _Не найдено в этом файле._
 
 ## Какие инструменты обеспечивают безопасность агентов?
 
-Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
+Упоминаются: **research**, **inference**, **product**
 
-## Какова политика доступа по умолчанию (tool classes)?
+## Какие роли наиболее релевантны для профиля svend4?
 
-Упоминаются: **read-only**, **allowlist**, **path guard**, **quarantine**
+_Не найдено в этом файле._
 
-## Как организован бюджетный роутинг между моделями?
+## Как работает AgentFS и что такое .agentos?
 
-Упоминаются: **routing**, **budget**, **litellm**, **local model**
+Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
+
+## Что такое knowledge-space и для кого он предназначен?
+
+Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
+
+## Как CardIndex хранит и версионирует карточки?
+
+Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
 ## Как работает AgentFS и что такое .agentos?
 
@@ -647,6 +655,7 @@ _Не найдено в этом файле._
 ---
 ## Раздел: processing-guide
 
+## Что такое handoff и locks в агентных системах?
 
 ## Какие системы памяти описаны в этом разделе?
 
@@ -694,7 +703,7 @@ _Не найдено в этом файле._
 
 ## Как работает AgentFS и что такое .agentos?
 
-Упоминаются: **vault**
+## Как работает spec-driven подход в AI Factory?
 
 ## Что такое knowledge-space и для кого он предназначен?
 

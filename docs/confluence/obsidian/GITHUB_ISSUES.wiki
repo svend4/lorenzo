@@ -72,7 +72,8 @@ h2. {{docs/PROTOTYPE_SPEC.md}} (2 задач)
 
 h2. {{docs/SCRIPTS_CATALOG.md}} (1 задач)
 
-* [ ] _из docs/. | |_  _{{docs}}, {{automation}}_
+* [ ] _⭐ To Do — задача к выполнению 3 [91. Словарь аббревиатур и сокращений]_  _{{docs}}, {{automation}}_
+* [ ] _⭐ To Do — задача к выполнению 10 [Словарь аббревиатур и сокращений]_  _{{docs}}, {{automation}}_
 
 h2. {{docs/SPELLCHECK.md}} (1 задач)
 

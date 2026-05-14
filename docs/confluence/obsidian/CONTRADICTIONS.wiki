@@ -20,7 +20,19 @@ _Обновлено: 2026-05-13_
 
 h2. Найденные противоречия
 
-h3. 1. 🔢 Числовое — 6.0 vs 58.0 (уверенность: 0.8)
+h3. 1. 🔢 Числовое — 42.0 vs 81.0 (уверенность: 0.8)
+
+_Общие ключевые слова:_ {{docs}}, {{liteparse}}, {{nlaik}}, {{research}}
+
+_A:_ {{docs/contacts/antipozitive.md}}
+{quote}md) 42% - Контакт: nlaik / LiteParse / research-docs(nlaik{quote}
+
+_B:_ {{docs/contacts/sonia-black.md}}
+{quote}md) 81% - Контакт: nlaik / LiteParse / research-docs(nlaik{quote}
+
+----
+
+h3. 2. 🔢 Числовое — 42.0 vs 66.0 (уверенность: 0.8)
 
 _Общие ключевые слова:_ {{автор}}, {{вовлечён}}, {{контекст}}, {{непосредственно}}
 

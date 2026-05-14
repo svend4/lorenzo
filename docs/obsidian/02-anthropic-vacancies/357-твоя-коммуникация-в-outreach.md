@@ -34,6 +34,8 @@ date: 2026-05-13
 > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

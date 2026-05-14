@@ -164,12 +164,6 @@ A nautilus shell is a **spiral of nested chambers**, each larger than the last b
 
 _→ [[68-about]]_
 
-### Did creator approve final attribution?
-
-Это много steps. И violations damage Lorenzo's reputation rapidly.
-
-_→ [[11-difficulties-and-recommendations]]_
-
 
 ## Лицензия
 

@@ -5,6 +5,11 @@
 
 h1. Когда ты Honestly не знаешь
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
 
 h2. Contents
 
@@ -26,6 +31,8 @@ h2. Contents
 {quote}Если ты не знаешь что-то relevant (factual, technical, contextual), say:{quote}
 
 ----
+
+
 
 
 
