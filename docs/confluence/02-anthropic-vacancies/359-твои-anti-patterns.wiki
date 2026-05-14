@@ -9,6 +9,11 @@ state: approved
 
 h1. Твои anti-patterns
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
 
 h2. Contents
 

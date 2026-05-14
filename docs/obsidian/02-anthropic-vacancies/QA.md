@@ -56,6 +56,14 @@ _Автоматически сгенерировано по 355 файлам р�
 
 Упоминаются: **forward deployed**, **research engineer**, **developer community**
 
+## Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
+
+## Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: **forward deployed**, **research engineer**, **developer community**
+
 ## Кто ключевые авторы проектов для контакта?
 
 Упоминаются: **Андрей Чуян**, **kksudo**, **spbmolot**

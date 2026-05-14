@@ -45,6 +45,8 @@ h2. Contents
 
 
 
+
+
 h2. 6. Почему это валидный паттерн для AI-assisted workflows
 
 Традиционная software engineering оптимизировалась против 

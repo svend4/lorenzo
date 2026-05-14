@@ -29,6 +29,10 @@ h2. Содержание
   * [12.4. Path D — Auto-Scanner|#124-path-d-auto-scanner]
   * [12.5. Path E — GitHub Actions Webhook|#125-path-e-github-actions-webhook]
   * [12.6. Path Selection Guidance|#126-path-selection-guidance]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
 
 ----
 

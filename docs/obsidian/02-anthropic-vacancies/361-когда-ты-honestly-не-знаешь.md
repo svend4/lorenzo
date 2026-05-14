@@ -35,6 +35,8 @@ date: 2026-05-14
  «Это outside my current knowledge»
 
 ---
+<!-- tags: anthropic -->
+
 
 
 

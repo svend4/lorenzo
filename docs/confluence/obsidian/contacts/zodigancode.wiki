@@ -14,6 +14,11 @@ date: 2026-05-14
 
 h1. Контакт: zodigancode / Rufler
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 
 h2. Contents
 

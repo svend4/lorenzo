@@ -114,7 +114,7 @@ python scripts/improve_qa.py
 
 <!-- backlinks -->
 
----
+Упоминаются: **Андрей Чуян**, **spbmolot**
 
 **Кто ссылается на этот документ (6):**
 - [[README]]

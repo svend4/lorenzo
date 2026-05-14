@@ -137,6 +137,10 @@ _al) к Professional Colleagues (practical)_
 : natural progression сложности и concreteness  
   _→ [228-appendix-c-quick-start-architecture-for-sgb-advoca|02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]_
 
+_Aligned incentive structure_
+: agent succeeds when client succeeds (commission) 3  
+  _→ [DUPLICATES|docs/DUPLICATES.md]_
+
 _Aligned values_
 : Serves vulnerable populations; mission-fit  
   _→ [219-8-pilot-proposal-sgb-advocate-colleague|02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md]_
@@ -1141,6 +1145,10 @@ _Hybrid RAG_
 _Hype language_
 : «AI revolutionizes everything», «paradigm shift», «game-changer»  
   _→ [359-твои-anti-patterns|02-anthropic-vacancies/359-твои-anti-patterns.md]_
+
+_HyperCortex Mesh Protocol (HMP)_
+: буквально decentralized cognitive mesh для AI-агентов, активно разрабатываемый, версия 5  
+  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 
 h2. I
@@ -3931,6 +3939,14 @@ _Оба правы в разных контекстах_
 : нужно разделить области применимости  
   _→ [contradiction-record|obsidian/templates/contradiction-record.md]_
 
+_Оба неверны_
+: нужно переформулировать  
+  _→ [contradiction-record|docs/templates/contradiction-record.md]_
+
+_Оба правы в разных контекстах_
+: нужно разделить области применимости  
+  _→ [contradiction-record|docs/templates/contradiction-record.md]_
+
 _Обнаружение_
 : Агент мониторит open-source проекты ячеистых сетей, гражданские технологические инициативы на её языке, исследовательские сотрудничества  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
@@ -4296,6 +4312,10 @@ _Регионы карты_
 _Результат_
 : Мария вкладывает 8 часов/неделю как советник  
   _→ [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]_
+
+_Результаты_
+: черновики, требующие проверки и принятия практикующим, не окончательные продукты  
+  _→ [DUPLICATES|docs/DUPLICATES.md]_
 
 _Рекомендация_
 : _Сделайте это сейчас_  

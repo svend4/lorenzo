@@ -14,6 +14,11 @@ date: 2026-05-14
 
 h1. Контакт: AnastasiyaW / knowledge-space, mclaude
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 
 h2. Contents
 

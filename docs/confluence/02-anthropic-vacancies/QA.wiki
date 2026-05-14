@@ -46,7 +46,15 @@ h2. Какие 5 архитектурных зазоров выделены в �
 
 h2. Что входит в интеграционный контракт между слоями?
 
-Упоминаются: _card envelope_, _Evidence Envelope_, _memory write_, _skill policy_, _review record_
+Упоминаются: _card envelope_, _evidence envelope_, _memory write_, _skill policy_, _review record_
+
+h2. Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: _research_, _gtm_, _trust & safety_, _inference_, _product_
+
+h2. Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: _forward deployed_, _research engineer_, _developer community_
 
 h2. Какие кластеры найма выделены у Anthropic?
 
@@ -78,7 +86,7 @@ h2. Как реализован forensic RAG с доказуемостью?
 
 h2. Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: _Evidence Envelope_, _source_id_, _page_, _span_
+Упоминаются: _evidence envelope_, _source_id_, _page_, _span_
 
 h2. Какие RAG-подходы сравниваются в документах?
 
