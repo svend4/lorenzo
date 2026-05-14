@@ -1,0 +1,52 @@
+{
+  "mcpServers": {
+    "lorenzo-search": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "/home/user/lorenzo/scripts/mcp_search_server.py"
+      ],
+      "env": {}
+    },
+    "lorenzo-contacts": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "/home/user/lorenzo/scripts/mcp_contacts_server.py"
+      ],
+      "env": {}
+    },
+    "lorenzo-runner": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "/home/user/lorenzo/scripts/mcp_runner_server.py"
+      ],
+      "env": {}
+    },
+    "lorenzo-graph": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "/home/user/lorenzo/scripts/mcp_graph_server.py"
+      ],
+      "env": {}
+    },
+    "lorenzo-watch": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "/home/user/lorenzo/scripts/mcp_watch_server.py"
+      ],
+      "env": {}
+    },
+    "lorenzo-ops": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "/home/user/lorenzo/scripts/mcp_ops_server.py"
+      ],
+      "env": {}
+    }
+  }
+}

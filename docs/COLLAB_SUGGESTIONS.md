@@ -1,5 +1,8 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
+<!-- summary -->
+> Автоматический поиск партнёрских проектов для: «latentmas мультиагентная система через cache латентное пространство токенов»
+> **Дата:** 2026-05-13 17:57  **Кандидатов:** 1
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -13,12 +16,16 @@
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
+**Источник:** `docs/06-discovery/round-53/projects/xonika9-latentmas-multi-agent-kvcache-latent-communication.md`
+
+**Запрос:** latentmas мультиагентная система через cache латентное пространство токенов
 **Запрос:** knowledge OS memory agent
 
 ---
 
 ## 1. NGT[^ngt] Memory: ассоциативный граф
 
+**Релевантность:** `0.400`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 **Релевантность:** `0.611`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
@@ -41,6 +48,8 @@
 <summary>📧 Шаблон первого сообщения → spbmolot</summary>
 
 ```
+**Кому:** VitalyOborin (@VitalyOborin)
+**Тема:** Коллаборация по теме «latentmas мультиагентная система через cache латентное прост»
 **Кому:** spbmolot (@spbmolot)
 **Тема:** Коллаборация по теме «knowledge OS memory agent»
 
@@ -196,6 +205,10 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
+   python scripts/improve_collab_finder.py --query "latentmas мультиагентная система через cache латен"
+   ```
+
+_Сгенерировано: 2026-05-13 17:57  |  Алгоритм: TF-IDF + BM25 + граф_
    python scripts/improve_collab_finder.py --query "knowledge OS memory agent"
    ```
 
