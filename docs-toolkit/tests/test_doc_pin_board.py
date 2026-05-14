@@ -1,670 +1,573 @@
-"""Tests for ``docstoolkit.doc_pin_board``."""
+"""Tests for ``docstoolkit.doc_pin_board`` (E306 — per-user pinning)."""
 
 from __future__ import annotations
 
+import threading
+import time
+
 import pytest
 
-from docstoolkit.doc_pin_board import (
-    Board,
-    BoardStats,
-    DocPinBoard,
-    Pin,
-    PinType,
-)
+from docstoolkit.doc_pin_board import DocPinBoard, PinBoardStats, PinnedDoc
 
 
-# ----------------------------------------------------------------- fixtures
+# ---------------------------------------------------------------------------
+# Helpers / fixtures
+# ---------------------------------------------------------------------------
+
+
 @pytest.fixture
-def board_manager() -> DocPinBoard:
+def board() -> DocPinBoard:
     return DocPinBoard()
 
 
-@pytest.fixture
-def board(board_manager: DocPinBoard) -> Board:
-    return board_manager.create_board("Main", max_pins=10, now=100.0)
+# ---------------------------------------------------------------------------
+# PinnedDoc dataclass
+# ---------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------- PinType
-class TestPinType:
-    def test_members(self):
-        assert PinType.FEATURED.value == "featured"
-        assert PinType.IMPORTANT.value == "important"
-        assert PinType.ANNOUNCEMENT.value == "announcement"
-        assert PinType.REMINDER.value == "reminder"
-        assert PinType.OTHER.value == "other"
-
-    def test_distinct(self):
-        assert len({p.value for p in PinType}) == 5
-
-
-# --------------------------------------------------------------------- Pin
-class TestPinDataclass:
-    def test_create_pin(self):
-        p = Pin(pin_id="p1", doc_id="d1", board_id="b1")
-        assert p.pin_id == "p1"
+class TestPinnedDocDataclass:
+    def test_required_fields(self):
+        p = PinnedDoc(user_id="alice", doc_id="d1")
+        assert p.user_id == "alice"
         assert p.doc_id == "d1"
-        assert p.board_id == "b1"
-        assert p.pin_type == PinType.FEATURED
-        assert p.order == 0
+
+    def test_default_pinned_at(self):
+        p = PinnedDoc(user_id="u", doc_id="d")
         assert p.pinned_at == 0.0
-        assert p.expires_at is None
-        assert p.pinned_by is None
-        assert p.note is None
 
-    def test_pin_with_all_fields(self):
-        p = Pin(
-            pin_id="p1",
-            doc_id="d1",
-            board_id="b1",
-            pin_type=PinType.IMPORTANT,
-            order=5,
-            pinned_at=123.0,
-            expires_at=456.0,
-            pinned_by="alice",
-            note="must read",
+    def test_default_position(self):
+        p = PinnedDoc(user_id="u", doc_id="d")
+        assert p.position == 0
+
+    def test_default_note(self):
+        p = PinnedDoc(user_id="u", doc_id="d")
+        assert p.note == ""
+
+    def test_custom_fields(self):
+        p = PinnedDoc(
+            user_id="bob",
+            doc_id="d2",
+            pinned_at=123.4,
+            position=7,
+            note="important",
         )
-        assert p.pin_type == PinType.IMPORTANT
-        assert p.order == 5
-        assert p.pinned_at == 123.0
-        assert p.expires_at == 456.0
-        assert p.pinned_by == "alice"
-        assert p.note == "must read"
+        assert p.pinned_at == 123.4
+        assert p.position == 7
+        assert p.note == "important"
 
 
-# ------------------------------------------------------------------- Board
-class TestBoard:
-    def test_create_board_defaults(self):
-        b = Board(board_id="b1", name="Main")
-        assert b.board_id == "b1"
-        assert b.name == "Main"
-        assert b.pins == []
-        assert b.max_pins == 50
-        assert b.created_at == 0.0
-
-    def test_board_with_pins(self):
-        p = Pin(pin_id="p1", doc_id="d1", board_id="b1")
-        b = Board(board_id="b1", name="Main", pins=[p])
-        assert b.pins == [p]
+# ---------------------------------------------------------------------------
+# PinBoardStats dataclass
+# ---------------------------------------------------------------------------
 
 
-# -------------------------------------------------------------- BoardStats
-class TestBoardStats:
-    def test_create_stats(self):
-        s = BoardStats(
-            board_id="b1",
-            total_pins=4,
-            active_pins=3,
-            expired_pins=1,
-            by_type={"featured": 2, "important": 2},
+class TestPinBoardStatsDataclass:
+    def test_fields(self):
+        s = PinBoardStats(
+            total_pins=10,
+            unique_users=3,
+            unique_docs=8,
+            avg_pins_per_user=3.33,
         )
-        assert s.board_id == "b1"
-        assert s.total_pins == 4
-        assert s.active_pins == 3
-        assert s.expired_pins == 1
-        assert s.by_type == {"featured": 2, "important": 2}
+        assert s.total_pins == 10
+        assert s.unique_users == 3
+        assert s.unique_docs == 8
+        assert s.avg_pins_per_user == 3.33
+
+    def test_zero_values(self):
+        s = PinBoardStats(
+            total_pins=0, unique_users=0, unique_docs=0, avg_pins_per_user=0.0
+        )
+        assert s.total_pins == 0
 
 
-# ------------------------------------------------------------ CreateBoard
-class TestCreateBoard:
-    def test_create_default(self, board_manager: DocPinBoard):
-        b = board_manager.create_board("First")
-        assert b.name == "First"
-        assert b.max_pins == 50
-        assert b.board_id
-
-    def test_create_with_custom_id(self, board_manager: DocPinBoard):
-        b = board_manager.create_board("X", board_id="custom-id")
-        assert b.board_id == "custom-id"
-
-    def test_create_with_max_pins(self, board_manager: DocPinBoard):
-        b = board_manager.create_board("X", max_pins=3)
-        assert b.max_pins == 3
-
-    def test_create_sets_created_at(self, board_manager: DocPinBoard):
-        b = board_manager.create_board("X", now=42.0)
-        assert b.created_at == 42.0
-
-    def test_create_two_boards_have_unique_ids(self, board_manager: DocPinBoard):
-        b1 = board_manager.create_board("A")
-        b2 = board_manager.create_board("B")
-        assert b1.board_id != b2.board_id
-
-    def test_create_increases_total_boards(self, board_manager: DocPinBoard):
-        board_manager.create_board("A")
-        board_manager.create_board("B")
-        assert board_manager.total_boards == 2
+# ---------------------------------------------------------------------------
+# Construction / empty state
+# ---------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------- DeleteBoard
-class TestDeleteBoard:
-    def test_delete_existing(self, board_manager: DocPinBoard, board: Board):
-        assert board_manager.delete_board(board.board_id) is True
+class TestConstruction:
+    def test_empty_all_users(self, board: DocPinBoard):
+        assert board.all_users() == []
 
-    def test_delete_missing(self, board_manager: DocPinBoard):
-        assert board_manager.delete_board("nope") is False
+    def test_empty_all_pinned_docs(self, board: DocPinBoard):
+        assert board.all_pinned_docs() == []
 
-    def test_delete_removes_board(self, board_manager: DocPinBoard, board: Board):
-        board_manager.delete_board(board.board_id)
-        assert board_manager.get_board(board.board_id) is None
+    def test_empty_stats(self, board: DocPinBoard):
+        s = board.stats()
+        assert s.total_pins == 0
+        assert s.unique_users == 0
+        assert s.unique_docs == 0
+        assert s.avg_pins_per_user == 0.0
 
-    def test_delete_removes_pins(self, board_manager: DocPinBoard, board: Board):
-        p = board_manager.pin(board.board_id, "doc1")
-        assert p is not None
-        board_manager.delete_board(board.board_id)
-        assert board_manager.get_pin(p.pin_id) is None
-        assert board_manager.total_pins == 0
+    def test_empty_pins_for_unknown_user(self, board: DocPinBoard):
+        assert board.pins_for_user("nobody") == []
 
 
-# -------------------------------------------------------------------- Pin
+# ---------------------------------------------------------------------------
+# pin
+# ---------------------------------------------------------------------------
+
+
 class TestPin:
-    def test_pin_basic(self, board_manager: DocPinBoard, board: Board):
-        p = board_manager.pin(board.board_id, "doc1")
+    def test_new_pin_returns_true(self, board: DocPinBoard):
+        assert board.pin("alice", "d1") is True
+
+    def test_duplicate_pin_returns_false(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        assert board.pin("alice", "d1") is False
+
+    def test_first_pin_position_zero(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        p = board.get_pin("alice", "d1")
         assert p is not None
-        assert p.doc_id == "doc1"
-        assert p.board_id == board.board_id
-        assert p.pin_type == PinType.FEATURED
+        assert p.position == 0
 
-    def test_pin_assigns_order_zero_first(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "doc1")
-        assert p.order == 0
+    def test_second_pin_position_one(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        assert board.get_pin("alice", "d2").position == 1
 
-    def test_pin_order_increments(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        p3 = board_manager.pin(board.board_id, "d3")
-        assert (p1.order, p2.order, p3.order) == (0, 1, 2)
+    def test_timestamp_set(self, board: DocPinBoard):
+        board.pin("alice", "d1", now=500.0)
+        p = board.get_pin("alice", "d1")
+        assert p.pinned_at == 500.0
 
-    def test_pin_with_type(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1", pin_type=PinType.IMPORTANT)
-        assert p.pin_type == PinType.IMPORTANT
+    def test_note_stored(self, board: DocPinBoard):
+        board.pin("alice", "d1", note="my note")
+        assert board.get_pin("alice", "d1").note == "my note"
 
-    def test_pin_with_expires(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1", expires_at=200.0)
-        assert p.expires_at == 200.0
+    def test_different_users_same_doc_both_pin(self, board: DocPinBoard):
+        assert board.pin("alice", "d1") is True
+        assert board.pin("bob", "d1") is True
 
-    def test_pin_with_note_and_user(self, board_manager, board):
-        p = board_manager.pin(
-            board.board_id, "d1", note="hello", pinned_by="alice"
-        )
-        assert p.note == "hello"
-        assert p.pinned_by == "alice"
-
-    def test_pin_with_now(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1", now=99.0)
-        assert p.pinned_at == 99.0
-
-    def test_pin_missing_board(self, board_manager: DocPinBoard):
-        assert board_manager.pin("nope", "d1") is None
-
-    def test_pin_unique_ids(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        assert p1.pin_id != p2.pin_id
-
-    def test_pin_appears_on_board(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        assert p in board.pins
+    def test_position_independent_per_user(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("bob", "d1")
+        assert board.get_pin("bob", "d1").position == 0
 
 
-# ----------------------------------------------------------------- Unpin
+# ---------------------------------------------------------------------------
+# unpin
+# ---------------------------------------------------------------------------
+
+
 class TestUnpin:
-    def test_unpin_existing(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        assert board_manager.unpin(p.pin_id) is True
+    def test_unpin_existing_returns_true(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        assert board.unpin("alice", "d1") is True
 
-    def test_unpin_removes_from_board(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        board_manager.unpin(p.pin_id)
-        assert p not in board.pins
+    def test_unpin_missing_returns_false(self, board: DocPinBoard):
+        assert board.unpin("alice", "nope") is False
 
-    def test_unpin_removes_from_index(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        board_manager.unpin(p.pin_id)
-        assert board_manager.get_pin(p.pin_id) is None
+    def test_unpin_removes_pin(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.unpin("alice", "d1")
+        assert board.get_pin("alice", "d1") is None
 
-    def test_unpin_missing(self, board_manager: DocPinBoard):
-        assert board_manager.unpin("nope") is False
+    def test_unpin_reassigns_positions(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("alice", "d3")
+        board.unpin("alice", "d2")
+        # d1 stays 0, d3 drops to 1
+        assert board.get_pin("alice", "d1").position == 0
+        assert board.get_pin("alice", "d3").position == 1
 
+    def test_unpin_middle_positions_sequential(self, board: DocPinBoard):
+        for i in range(5):
+            board.pin("u", f"d{i}")
+        board.unpin("u", "d2")
+        pins = board.pins_for_user("u")
+        positions = [p.position for p in pins]
+        assert positions == list(range(len(positions)))
 
-# -------------------------------------------------------------- UnpinDoc
-class TestUnpinDoc:
-    def test_unpin_doc_zero(self, board_manager, board):
-        assert board_manager.unpin_doc(board.board_id, "nope") == 0
-
-    def test_unpin_doc_one(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1")
-        assert board_manager.unpin_doc(board.board_id, "d1") == 1
-
-    def test_unpin_doc_multiple(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1")
-        board_manager.pin(board.board_id, "d1", pin_type=PinType.IMPORTANT)
-        board_manager.pin(board.board_id, "d2")
-        assert board_manager.unpin_doc(board.board_id, "d1") == 2
-        assert board_manager.is_pinned(board.board_id, "d1") is False
-        assert board_manager.is_pinned(board.board_id, "d2") is True
-
-    def test_unpin_doc_missing_board(self, board_manager):
-        assert board_manager.unpin_doc("nope", "d1") == 0
+    def test_unpin_last_removes_user(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.unpin("alice", "d1")
+        assert "alice" not in board.all_users()
 
 
-# --------------------------------------------------------------- Reorder
-class TestReorder:
-    def test_reorder_same(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        assert board_manager.reorder(p.pin_id, p.order) is True
-
-    def test_reorder_move_forward(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        p3 = board_manager.pin(board.board_id, "d3")
-        board_manager.reorder(p1.pin_id, 2)
-        # After moving p1 to the end, orders are p2=0, p3=1, p1=2
-        assert p2.order == 0
-        assert p3.order == 1
-        assert p1.order == 2
-
-    def test_reorder_move_back(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        p3 = board_manager.pin(board.board_id, "d3")
-        board_manager.reorder(p3.pin_id, 0)
-        assert p3.order == 0
-        assert p1.order == 1
-        assert p2.order == 2
-
-    def test_reorder_clamp_high(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        board_manager.reorder(p1.pin_id, 99)
-        assert p1.order == 1
-        assert p2.order == 0
-
-    def test_reorder_clamp_low(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        board_manager.reorder(p2.pin_id, -5)
-        assert p2.order == 0
-        assert p1.order == 1
-
-    def test_reorder_missing(self, board_manager):
-        assert board_manager.reorder("nope", 0) is False
+# ---------------------------------------------------------------------------
+# is_pinned
+# ---------------------------------------------------------------------------
 
 
-# ------------------------------------------------------------- MoveToTop
-class TestMoveToTop:
-    def test_move_to_top(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        p3 = board_manager.pin(board.board_id, "d3")
-        board_manager.move_to_top(p3.pin_id)
-        assert p3.order == 0
-        assert p1.order == 1
-        assert p2.order == 2
+class TestIsPinned:
+    def test_true_after_pin(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        assert board.is_pinned("alice", "d1") is True
 
-    def test_move_to_top_already_top(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        board_manager.pin(board.board_id, "d2")
-        assert board_manager.move_to_top(p1.pin_id) is True
-        assert p1.order == 0
+    def test_false_before_pin(self, board: DocPinBoard):
+        assert board.is_pinned("alice", "d1") is False
 
-    def test_move_to_top_missing(self, board_manager):
-        assert board_manager.move_to_top("nope") is False
+    def test_false_after_unpin(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.unpin("alice", "d1")
+        assert board.is_pinned("alice", "d1") is False
+
+    def test_not_pinned_for_different_user(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        assert board.is_pinned("bob", "d1") is False
 
 
-# ---------------------------------------------------------- MoveToBottom
-class TestMoveToBottom:
-    def test_move_to_bottom(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        p3 = board_manager.pin(board.board_id, "d3")
-        board_manager.move_to_bottom(p1.pin_id)
-        assert p1.order == 2
-        assert p2.order == 0
-        assert p3.order == 1
-
-    def test_move_to_bottom_already_last(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        assert board_manager.move_to_bottom(p2.pin_id) is True
-        assert p2.order == 1
-
-    def test_move_to_bottom_missing(self, board_manager):
-        assert board_manager.move_to_bottom("nope") is False
+# ---------------------------------------------------------------------------
+# get_pin
+# ---------------------------------------------------------------------------
 
 
-# -------------------------------------------------------- PinsForBoard
-class TestPinsForBoard:
-    def test_empty_board(self, board_manager, board):
-        assert board_manager.pins_for_board(board.board_id) == []
+class TestGetPin:
+    def test_returns_pinned_doc(self, board: DocPinBoard):
+        board.pin("alice", "d1", now=42.0)
+        p = board.get_pin("alice", "d1")
+        assert isinstance(p, PinnedDoc)
+        assert p.doc_id == "d1"
+        assert p.pinned_at == 42.0
 
-    def test_missing_board(self, board_manager):
-        assert board_manager.pins_for_board("nope") == []
+    def test_returns_none_for_missing(self, board: DocPinBoard):
+        assert board.get_pin("alice", "nope") is None
 
-    def test_sorted_by_order(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1")
-        p2 = board_manager.pin(board.board_id, "d2")
-        p3 = board_manager.pin(board.board_id, "d3")
-        board_manager.move_to_top(p3.pin_id)
-        pins = board_manager.pins_for_board(board.board_id)
-        assert [p.pin_id for p in pins] == [p3.pin_id, p1.pin_id, p2.pin_id]
+    def test_returns_none_for_unknown_user(self, board: DocPinBoard):
+        assert board.get_pin("ghost", "d1") is None
 
-    def test_excludes_expired_by_default(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", expires_at=50.0)
-        board_manager.pin(board.board_id, "d2")
-        pins = board_manager.pins_for_board(board.board_id, now=100.0)
+
+# ---------------------------------------------------------------------------
+# pins_for_user
+# ---------------------------------------------------------------------------
+
+
+class TestPinsForUser:
+    def test_empty_for_unknown_user(self, board: DocPinBoard):
+        assert board.pins_for_user("ghost") == []
+
+    def test_single_pin(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        pins = board.pins_for_user("alice")
         assert len(pins) == 1
+        assert pins[0].doc_id == "d1"
+
+    def test_sorted_by_position(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("alice", "d3")
+        pins = board.pins_for_user("alice")
+        assert [p.position for p in pins] == [0, 1, 2]
+
+    def test_isolation_between_users(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("bob", "d3")
+        assert len(board.pins_for_user("alice")) == 2
+        assert len(board.pins_for_user("bob")) == 1
+
+    def test_order_after_move(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("alice", "d3")
+        board.move_pin("alice", "d3", 0)
+        pins = board.pins_for_user("alice")
+        assert pins[0].doc_id == "d3"
+
+
+# ---------------------------------------------------------------------------
+# users_who_pinned
+# ---------------------------------------------------------------------------
+
+
+class TestUsersWhoPinned:
+    def test_empty_when_no_pins(self, board: DocPinBoard):
+        assert board.users_who_pinned("d1") == []
+
+    def test_single_user(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        assert board.users_who_pinned("d1") == ["alice"]
+
+    def test_multiple_users_sorted(self, board: DocPinBoard):
+        board.pin("charlie", "d1")
+        board.pin("alice", "d1")
+        board.pin("bob", "d1")
+        assert board.users_who_pinned("d1") == ["alice", "bob", "charlie"]
+
+    def test_only_users_who_pinned_that_doc(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("bob", "d2")
+        assert board.users_who_pinned("d1") == ["alice"]
+
+
+# ---------------------------------------------------------------------------
+# move_pin
+# ---------------------------------------------------------------------------
+
+
+class TestMovePin:
+    def test_move_to_start(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("alice", "d3")
+        board.move_pin("alice", "d3", 0)
+        pins = board.pins_for_user("alice")
+        assert pins[0].doc_id == "d3"
+        assert pins[1].doc_id == "d1"
+        assert pins[2].doc_id == "d2"
+
+    def test_move_to_end(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("alice", "d3")
+        board.move_pin("alice", "d1", 2)
+        pins = board.pins_for_user("alice")
+        assert pins[0].doc_id == "d2"
+        assert pins[1].doc_id == "d3"
+        assert pins[2].doc_id == "d1"
+
+    def test_clamp_negative_to_zero(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.move_pin("alice", "d2", -5)
+        pins = board.pins_for_user("alice")
         assert pins[0].doc_id == "d2"
 
-    def test_include_expired(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", expires_at=50.0)
-        board_manager.pin(board.board_id, "d2")
-        pins = board_manager.pins_for_board(
-            board.board_id, now=100.0, include_expired=True
-        )
-        assert len(pins) == 2
+    def test_clamp_high_to_last(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("alice", "d3")
+        board.move_pin("alice", "d1", 999)
+        pins = board.pins_for_user("alice")
+        assert pins[-1].doc_id == "d1"
+
+    def test_positions_sequential_after_move(self, board: DocPinBoard):
+        for i in range(4):
+            board.pin("alice", f"d{i}")
+        board.move_pin("alice", "d0", 2)
+        pins = board.pins_for_user("alice")
+        assert [p.position for p in pins] == [0, 1, 2, 3]
+
+    def test_returns_false_if_pin_not_found(self, board: DocPinBoard):
+        assert board.move_pin("alice", "nope", 0) is False
+
+    def test_returns_true_on_success(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        assert board.move_pin("alice", "d2", 0) is True
 
 
-# ---------------------------------------------------------- PinsForDoc
-class TestPinsForDoc:
-    def test_no_pins(self, board_manager):
-        assert board_manager.pins_for_doc("d1") == []
-
-    def test_one_pin(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        assert board_manager.pins_for_doc("d1") == [p]
-
-    def test_across_boards(self, board_manager):
-        b1 = board_manager.create_board("A")
-        b2 = board_manager.create_board("B")
-        p1 = board_manager.pin(b1.board_id, "doc")
-        p2 = board_manager.pin(b2.board_id, "doc")
-        pins = board_manager.pins_for_doc("doc")
-        assert {p.pin_id for p in pins} == {p1.pin_id, p2.pin_id}
+# ---------------------------------------------------------------------------
+# update_note
+# ---------------------------------------------------------------------------
 
 
-# ---------------------------------------------------------- PinsByType
-class TestPinsByType:
-    def test_filter_by_type(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1", pin_type=PinType.FEATURED)
-        p2 = board_manager.pin(board.board_id, "d2", pin_type=PinType.IMPORTANT)
-        p3 = board_manager.pin(board.board_id, "d3", pin_type=PinType.IMPORTANT)
-        important = board_manager.pins_by_type(board.board_id, PinType.IMPORTANT)
-        assert {p.pin_id for p in important} == {p2.pin_id, p3.pin_id}
-        featured = board_manager.pins_by_type(board.board_id, PinType.FEATURED)
-        assert [p.pin_id for p in featured] == [p1.pin_id]
+class TestUpdateNote:
+    def test_updates_note(self, board: DocPinBoard):
+        board.pin("alice", "d1", note="old")
+        board.update_note("alice", "d1", "new")
+        assert board.get_pin("alice", "d1").note == "new"
 
-    def test_empty_when_no_match(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", pin_type=PinType.FEATURED)
-        assert board_manager.pins_by_type(board.board_id, PinType.REMINDER) == []
+    def test_returns_true_when_found(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        assert board.update_note("alice", "d1", "x") is True
 
-    def test_missing_board(self, board_manager):
-        assert board_manager.pins_by_type("nope", PinType.FEATURED) == []
+    def test_returns_false_when_not_found(self, board: DocPinBoard):
+        assert board.update_note("alice", "nope", "x") is False
 
-    def test_excludes_expired(self, board_manager, board):
-        board_manager.pin(
-            board.board_id, "d1", pin_type=PinType.FEATURED, expires_at=10.0
-        )
-        result = board_manager.pins_by_type(
-            board.board_id, PinType.FEATURED, now=100.0
-        )
-        assert result == []
+    def test_empty_note(self, board: DocPinBoard):
+        board.pin("alice", "d1", note="something")
+        board.update_note("alice", "d1", "")
+        assert board.get_pin("alice", "d1").note == ""
 
 
-# ------------------------------------------------------------- GetPin
-class TestGetPin:
-    def test_existing(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        assert board_manager.get_pin(p.pin_id) is p
-
-    def test_missing(self, board_manager):
-        assert board_manager.get_pin("nope") is None
+# ---------------------------------------------------------------------------
+# unpin_all
+# ---------------------------------------------------------------------------
 
 
-# ------------------------------------------------------------ GetBoard
-class TestGetBoard:
-    def test_existing(self, board_manager, board):
-        assert board_manager.get_board(board.board_id) is board
+class TestUnpinAll:
+    def test_count_returned(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("alice", "d3")
+        assert board.unpin_all("alice") == 3
 
-    def test_missing(self, board_manager):
-        assert board_manager.get_board("nope") is None
+    def test_zero_for_unknown_user(self, board: DocPinBoard):
+        assert board.unpin_all("ghost") == 0
 
+    def test_user_removed_from_all_users(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.unpin_all("alice")
+        assert "alice" not in board.all_users()
 
-# -------------------------------------------------------------- Boards
-class TestBoards:
-    def test_empty(self, board_manager):
-        assert board_manager.boards() == []
+    def test_does_not_affect_other_users(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("bob", "d1")
+        board.unpin_all("alice")
+        assert board.is_pinned("bob", "d1") is True
 
-    def test_multiple(self, board_manager):
-        b1 = board_manager.create_board("A")
-        b2 = board_manager.create_board("B")
-        result = board_manager.boards()
-        assert {b.board_id for b in result} == {b1.board_id, b2.board_id}
-
-
-# ----------------------------------------------------------- IsPinned
-class TestIsPinned:
-    def test_true(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1")
-        assert board_manager.is_pinned(board.board_id, "d1") is True
-
-    def test_false(self, board_manager, board):
-        assert board_manager.is_pinned(board.board_id, "d1") is False
-
-    def test_missing_board(self, board_manager):
-        assert board_manager.is_pinned("nope", "d1") is False
-
-    def test_false_when_expired(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", expires_at=10.0)
-        assert board_manager.is_pinned(board.board_id, "d1", now=100.0) is False
-
-    def test_true_when_not_yet_expired(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", expires_at=200.0)
-        assert board_manager.is_pinned(board.board_id, "d1", now=100.0) is True
+    def test_pins_removed_from_store(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.unpin_all("alice")
+        assert board.get_pin("alice", "d1") is None
+        assert board.get_pin("alice", "d2") is None
 
 
-# ----------------------------------------------------- CleanupExpired
-class TestCleanupExpired:
-    def test_cleanup_specific_board(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", expires_at=10.0)
-        board_manager.pin(board.board_id, "d2")
-        removed = board_manager.cleanup_expired(board.board_id, now=50.0)
-        assert removed == 1
-        assert len(board.pins) == 1
-
-    def test_cleanup_no_expired(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1")
-        assert board_manager.cleanup_expired(board.board_id, now=50.0) == 0
-
-    def test_cleanup_missing_board(self, board_manager):
-        assert board_manager.cleanup_expired("nope", now=50.0) == 0
-
-    def test_cleanup_all_boards(self, board_manager):
-        b1 = board_manager.create_board("A")
-        b2 = board_manager.create_board("B")
-        board_manager.pin(b1.board_id, "d1", expires_at=10.0)
-        board_manager.pin(b2.board_id, "d2", expires_at=20.0)
-        board_manager.pin(b2.board_id, "d3")
-        removed = board_manager.cleanup_expired(now=100.0)
-        assert removed == 2
-        assert board_manager.total_pins == 1
-
-    def test_cleanup_removes_from_index(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1", expires_at=10.0)
-        board_manager.cleanup_expired(board.board_id, now=100.0)
-        assert board_manager.get_pin(p.pin_id) is None
+# ---------------------------------------------------------------------------
+# all_users
+# ---------------------------------------------------------------------------
 
 
-# --------------------------------------------------------------- Stats
+class TestAllUsers:
+    def test_empty(self, board: DocPinBoard):
+        assert board.all_users() == []
+
+    def test_sorted(self, board: DocPinBoard):
+        board.pin("charlie", "d1")
+        board.pin("alice", "d1")
+        board.pin("bob", "d1")
+        assert board.all_users() == ["alice", "bob", "charlie"]
+
+    def test_only_users_with_pins(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("bob", "d1")
+        board.unpin_all("alice")
+        assert board.all_users() == ["bob"]
+
+    def test_no_duplicates(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        assert board.all_users() == ["alice"]
+
+
+# ---------------------------------------------------------------------------
+# all_pinned_docs
+# ---------------------------------------------------------------------------
+
+
+class TestAllPinnedDocs:
+    def test_empty(self, board: DocPinBoard):
+        assert board.all_pinned_docs() == []
+
+    def test_sorted_unique(self, board: DocPinBoard):
+        board.pin("alice", "doc_c")
+        board.pin("bob", "doc_a")
+        board.pin("charlie", "doc_b")
+        board.pin("alice", "doc_a")  # doc_a pinned by two users
+        assert board.all_pinned_docs() == ["doc_a", "doc_b", "doc_c"]
+
+    def test_removed_after_unpin(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("bob", "d1")
+        board.unpin("alice", "d1")
+        board.unpin("bob", "d1")
+        assert board.all_pinned_docs() == []
+
+
+# ---------------------------------------------------------------------------
+# stats
+# ---------------------------------------------------------------------------
+
+
 class TestStats:
-    def test_missing_board(self, board_manager):
-        assert board_manager.stats("nope") is None
-
-    def test_empty_board(self, board_manager, board):
-        s = board_manager.stats(board.board_id)
+    def test_empty_stats(self, board: DocPinBoard):
+        s = board.stats()
         assert s.total_pins == 0
-        assert s.active_pins == 0
-        assert s.expired_pins == 0
-        assert s.by_type == {}
+        assert s.unique_users == 0
+        assert s.unique_docs == 0
+        assert s.avg_pins_per_user == 0.0
 
-    def test_count_by_type(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", pin_type=PinType.FEATURED)
-        board_manager.pin(board.board_id, "d2", pin_type=PinType.FEATURED)
-        board_manager.pin(board.board_id, "d3", pin_type=PinType.IMPORTANT)
-        s = board_manager.stats(board.board_id)
-        assert s.by_type["featured"] == 2
-        assert s.by_type["important"] == 1
-        assert s.total_pins == 3
-        assert s.active_pins == 3
-        assert s.expired_pins == 0
+    def test_total_pins(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("bob", "d1")
+        assert board.stats().total_pins == 3
 
-    def test_active_vs_expired(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", expires_at=10.0)
-        board_manager.pin(board.board_id, "d2")
-        s = board_manager.stats(board.board_id, now=100.0)
-        assert s.total_pins == 2
-        assert s.active_pins == 1
-        assert s.expired_pins == 1
+    def test_unique_users(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("bob", "d1")
+        assert board.stats().unique_users == 2
 
+    def test_unique_docs(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("bob", "d1")  # d1 shared
+        assert board.stats().unique_docs == 2
 
-# --------------------------------------------------------- TotalBoards
-class TestTotalBoards:
-    def test_initial(self, board_manager):
-        assert board_manager.total_boards == 0
+    def test_avg_pins_per_user(self, board: DocPinBoard):
+        board.pin("alice", "d1")
+        board.pin("alice", "d2")
+        board.pin("bob", "d1")
+        s = board.stats()
+        # 3 total / 2 users = 1.5
+        assert s.avg_pins_per_user == pytest.approx(1.5)
 
-    def test_after_create(self, board_manager):
-        board_manager.create_board("A")
-        board_manager.create_board("B")
-        assert board_manager.total_boards == 2
-
-    def test_after_delete(self, board_manager):
-        b = board_manager.create_board("A")
-        board_manager.delete_board(b.board_id)
-        assert board_manager.total_boards == 0
+    def test_avg_zero_when_no_users(self, board: DocPinBoard):
+        assert board.stats().avg_pins_per_user == 0.0
 
 
-# ----------------------------------------------------------- TotalPins
-class TestTotalPins:
-    def test_initial(self, board_manager):
-        assert board_manager.total_pins == 0
-
-    def test_after_pin(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1")
-        board_manager.pin(board.board_id, "d2")
-        assert board_manager.total_pins == 2
-
-    def test_after_unpin(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        board_manager.unpin(p.pin_id)
-        assert board_manager.total_pins == 0
+# ---------------------------------------------------------------------------
+# Thread safety
+# ---------------------------------------------------------------------------
 
 
-# ------------------------------------------------------------- MaxPins
-class TestMaxPins:
-    def test_evicts_oldest_non_important(self, board_manager):
-        b = board_manager.create_board("X", max_pins=2)
-        p1 = board_manager.pin(b.board_id, "d1", now=1.0)
-        p2 = board_manager.pin(b.board_id, "d2", now=2.0)
-        p3 = board_manager.pin(b.board_id, "d3", now=3.0)
-        assert p3 is not None
-        ids = {p.pin_id for p in b.pins}
-        # p1 was oldest non-important and should be evicted
-        assert p1.pin_id not in ids
-        assert p2.pin_id in ids
-        assert p3.pin_id in ids
+class TestThreadSafety:
+    def test_concurrent_pin_calls(self, board: DocPinBoard):
+        """Multiple threads pinning distinct docs for the same user must
+        all succeed and leave a consistent state."""
+        errors: list[Exception] = []
+        n_threads = 20
+        n_docs_per_thread = 10
 
-    def test_skips_important_when_evicting(self, board_manager):
-        b = board_manager.create_board("X", max_pins=2)
-        p1 = board_manager.pin(
-            b.board_id, "d1", pin_type=PinType.IMPORTANT, now=1.0
-        )
-        p2 = board_manager.pin(b.board_id, "d2", now=2.0)
-        p3 = board_manager.pin(b.board_id, "d3", now=3.0)
-        ids = {p.pin_id for p in b.pins}
-        # important pin retained, p2 dropped
-        assert p1.pin_id in ids
-        assert p2.pin_id not in ids
-        assert p3.pin_id in ids
+        def worker(thread_idx: int) -> None:
+            try:
+                for i in range(n_docs_per_thread):
+                    doc_id = f"doc_{thread_idx}_{i}"
+                    board.pin(f"user_{thread_idx}", doc_id)
+            except Exception as exc:
+                errors.append(exc)
 
-    def test_all_important_blocks_new_pin(self, board_manager):
-        b = board_manager.create_board("X", max_pins=2)
-        board_manager.pin(b.board_id, "d1", pin_type=PinType.IMPORTANT, now=1.0)
-        board_manager.pin(b.board_id, "d2", pin_type=PinType.IMPORTANT, now=2.0)
-        result = board_manager.pin(b.board_id, "d3", now=3.0)
-        assert result is None
-        assert len(b.pins) == 2
+        threads = [
+            threading.Thread(target=worker, args=(t,)) for t in range(n_threads)
+        ]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
 
-    def test_under_limit_no_eviction(self, board_manager):
-        b = board_manager.create_board("X", max_pins=5)
-        for i in range(3):
-            board_manager.pin(b.board_id, f"d{i}")
-        assert len(b.pins) == 3
+        assert errors == [], f"Exceptions in threads: {errors}"
+        s = board.stats()
+        assert s.total_pins == n_threads * n_docs_per_thread
+        assert s.unique_users == n_threads
 
+    def test_concurrent_pin_and_unpin(self, board: DocPinBoard):
+        """Interleaved pin/unpin from different threads should not corrupt
+        internal structures."""
+        for i in range(50):
+            board.pin("shared_user", f"doc_{i}")
 
-# --------------------------------------------------------------- Clear
-class TestClear:
-    def test_clear_empty(self, board_manager):
-        board_manager.clear()
-        assert board_manager.total_boards == 0
-        assert board_manager.total_pins == 0
+        errors: list[Exception] = []
 
-    def test_clear_removes_everything(self, board_manager):
-        b = board_manager.create_board("A")
-        board_manager.pin(b.board_id, "d1")
-        board_manager.pin(b.board_id, "d2")
-        board_manager.clear()
-        assert board_manager.total_boards == 0
-        assert board_manager.total_pins == 0
-        assert board_manager.boards() == []
+        def pinner() -> None:
+            try:
+                for i in range(50, 100):
+                    board.pin("shared_user", f"doc_{i}")
+            except Exception as exc:
+                errors.append(exc)
 
+        def unpinner() -> None:
+            try:
+                for i in range(50):
+                    board.unpin("shared_user", f"doc_{i}")
+            except Exception as exc:
+                errors.append(exc)
 
-# ----------------------------------------------------------- EdgeCases
-class TestEdgeCases:
-    def test_same_doc_pinned_twice_on_same_board(self, board_manager, board):
-        p1 = board_manager.pin(board.board_id, "d1", pin_type=PinType.FEATURED)
-        p2 = board_manager.pin(board.board_id, "d1", pin_type=PinType.IMPORTANT)
-        assert p1.pin_id != p2.pin_id
-        assert len(board_manager.pins_for_doc("d1")) == 2
+        t1 = threading.Thread(target=pinner)
+        t2 = threading.Thread(target=unpinner)
+        t1.start()
+        t2.start()
+        t1.join()
+        t2.join()
 
-    def test_same_doc_pinned_on_two_boards(self, board_manager):
-        b1 = board_manager.create_board("A")
-        b2 = board_manager.create_board("B")
-        board_manager.pin(b1.board_id, "shared")
-        board_manager.pin(b2.board_id, "shared")
-        assert board_manager.is_pinned(b1.board_id, "shared")
-        assert board_manager.is_pinned(b2.board_id, "shared")
-
-    def test_unpin_doc_does_not_affect_other_boards(self, board_manager):
-        b1 = board_manager.create_board("A")
-        b2 = board_manager.create_board("B")
-        board_manager.pin(b1.board_id, "d1")
-        board_manager.pin(b2.board_id, "d1")
-        board_manager.unpin_doc(b1.board_id, "d1")
-        assert not board_manager.is_pinned(b1.board_id, "d1")
-        assert board_manager.is_pinned(b2.board_id, "d1")
-
-    def test_expires_at_zero_is_not_expired_when_pinned_negative(
-        self, board_manager, board
-    ):
-        # expires_at=0 means: now >= 0 → expired
-        board_manager.pin(board.board_id, "d1", expires_at=0.0)
-        assert not board_manager.is_pinned(board.board_id, "d1", now=0.0)
-
-    def test_expires_at_none_never_expires(self, board_manager, board):
-        board_manager.pin(board.board_id, "d1", expires_at=None)
-        assert board_manager.is_pinned(board.board_id, "d1", now=1e18)
-
-    def test_reorder_across_boards_not_allowed(self, board_manager):
-        # reorder uses only the pin's own board
-        b1 = board_manager.create_board("A")
-        b2 = board_manager.create_board("B")
-        p1 = board_manager.pin(b1.board_id, "d1")
-        p2 = board_manager.pin(b1.board_id, "d2")
-        board_manager.pin(b2.board_id, "d3")
-        board_manager.move_to_bottom(p1.pin_id)
-        # p1 moved to bottom of b1 (which has 2 pins)
-        assert p1.order == 1
-        assert p2.order == 0
-
-    def test_pinned_at_zero_default(self, board_manager, board):
-        p = board_manager.pin(board.board_id, "d1")
-        assert p.pinned_at == 0.0
+        assert errors == [], f"Exceptions in threads: {errors}"
+        # Positions must be sequential with no gaps
+        pins = board.pins_for_user("shared_user")
+        positions = sorted(p.position for p in pins)
+        assert positions == list(range(len(pins)))

@@ -1,26 +1,12 @@
-"""Doc pin board module for docs-toolkit.
+"""E306 DocPinBoard — per-user document pinning with ordered pin lists.
 
 Public API
 ----------
-- ``PinType``     — FEATURED / IMPORTANT / ANNOUNCEMENT / REMINDER / OTHER
-- ``Pin``         — pin record
-- ``Board``       — bulletin board
-- ``BoardStats``  — board statistics
-- ``DocPinBoard`` — central pin board manager
+:class:`PinnedDoc`    — a single pinned document entry
+:class:`PinBoardStats` — aggregate statistics
+:class:`DocPinBoard`  — main interface for pin management
 """
 
-from docstoolkit.doc_pin_board.pin_board import (
-    PinType,
-    Pin,
-    Board,
-    BoardStats,
-    DocPinBoard,
-)
+from .board import PinnedDoc, PinBoardStats, DocPinBoard
 
-__all__ = [
-    "PinType",
-    "Pin",
-    "Board",
-    "BoardStats",
-    "DocPinBoard",
-]
+__all__ = ["PinnedDoc", "PinBoardStats", "DocPinBoard"]
