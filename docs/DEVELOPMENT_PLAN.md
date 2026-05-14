@@ -1,9 +1,14 @@
 # Lorenzo — План развития: технический аудит и следующие шаги
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/current-dev-stage-dJtu0_
 
 ---
-<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 ## Статус реализации (2026-05-13)
 
@@ -779,3 +784,14 @@ TF-IDF индекс, ANN граф, COLLAB_SUGGESTIONS.md
 ---
 
 _Документ составлен на основе аудита: PROTOTYPE_SPEC.md, PROGRESS.md, SCORING.md, HEALTH.md, BROKEN_LINKS.md, card_index stats, search_index stats, passages stats, mcp_server.py, gateway.py._
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [INFO_PROCESSING_METHODS](INFO_PROCESSING_METHODS.md)
+- [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
+- [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md)
+
