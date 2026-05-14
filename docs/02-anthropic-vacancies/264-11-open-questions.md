@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 11. Open Questions
 
 <!-- toc -->
@@ -30,7 +34,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Many questions about Composite Skills Agents remain open.
+> 🎯 Проблема: What signals suggest configuration revision is needed? 🏷️ Ключевые слова: composite, questions, agent, agents, configuration, configurations, anthropic, vacancies
+As principals develop sophisticated composite configurations, 
+when (if ever) does it make sense to graduate to a Representative 
+Agent (Type 4) with truly individual specialization?
 
 ---
 <!-- tags: rag, anthropic -->

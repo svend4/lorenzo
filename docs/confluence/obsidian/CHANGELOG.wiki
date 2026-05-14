@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/CHANGELOG.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * changelog
   * docs
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. CHANGELOG
@@ -191,4 +191,15 @@ _Кто ссылается на этот документ (9):_
 * [[SCRIPT_EVAL_REPORT]]
 * [[SEARCH]]
 * _...ещё 1_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[DEPENDENCY_MAP]]
+* [[DIGEST]]
+* [[CHANGELOG_AUTO]]
+* [[DIGEST_WEEKLY]]
 

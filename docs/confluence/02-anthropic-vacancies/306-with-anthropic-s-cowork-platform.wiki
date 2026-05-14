@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [rag, orchestration, local-first, architecture, anthropic]
+state: approved
+----
 
 h1. with Anthropic's Cowork Platform
 
@@ -36,7 +42,16 @@ h2. Содержание
 
 
 
-{quote}_Document type:_ Practical implementation paper, building{quote}
+{quote}_ with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork P. _ with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork P{quote}
+ with Anthropic's Cowork Platform
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования.{quote}
 
 ----
 

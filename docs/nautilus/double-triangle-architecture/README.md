@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # double-triangle-architecture
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> README — раздел документации проекта Lorenzo. Кто ссылается на этот документ (16): Материал из базы знаний Svyazi 2.0, раздел «double-triangle-architecture».
 
 
 **Файлов:** 12

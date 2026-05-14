@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # LAYER 7: Coordination engine
 
 <!-- toc-auto -->

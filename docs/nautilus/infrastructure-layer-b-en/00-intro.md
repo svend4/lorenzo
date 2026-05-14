@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # The Missing Middle Layer Between Chat and Code
 
 <!-- toc-auto -->

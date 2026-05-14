@@ -2,8 +2,9 @@
 title: "Appendix A: Шаблон для header warning"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Appendix A: Шаблон для header warning
@@ -16,7 +17,7 @@ date: 2026-05-13
 - [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 > [!WARNING]
@@ -30,7 +31,17 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Готовый копи-паст шаблон для вставки в начало документов в
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. 12-appendix-a-header-warning Кто ссылается на этот документ (6)
+ --
+Смотрите также
+ 12-appendix-a-header-warning
+ --
+Кто ссылается на этот документ (6)
+ 102-доступ-к-данным
+ 121-appendix-c-история-изменений-методологии
+ 16-history
+ 185-appendix-b-domain-comparison-matrix
+ 339-приложение-a-дерево-решений-для-пр
 
 ---
 

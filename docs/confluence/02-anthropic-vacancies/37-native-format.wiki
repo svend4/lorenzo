@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/37-native-format.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Native Format
 
@@ -25,8 +29,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. уточнить — Markdown с YAML frontmatter, чистый JSON, уточнить — Markdown с YAML frontmatter, чистый JSON,{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Структура файла:_ [? уточнить — Markdown с YAML frontmatter, чистый JSON,{quote}

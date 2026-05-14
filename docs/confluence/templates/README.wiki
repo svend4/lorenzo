@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/templates/README.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: normalized
+----
 
 h1. Шаблоны документов
 
@@ -13,7 +17,17 @@ h1. Шаблоны документов
 
 
 
-{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
+{quote}Раздел README формируется автоматически из данных репозитория. Кто ссылается на этот документ (24): Готовые заготовки для создания новых документов в репозитории.{quote}
+Кто ссылается на этот документ (24):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ research-summary
+ agent-spec
+ contradiction-record
+ _...ещё 16_
 
 
 _Создано: 2026-05-13_

@@ -1,4 +1,5 @@
 ---
+state: approved
 template: experiment-log
 version: "1.0"
 experiment_id: "EXP-NNNN"
@@ -8,13 +9,26 @@ status: planned
 started: null
 ended: null
 result: pending
-tags: [эксперимент]
+tags: [эксперимент, rag]
 ---
 
 # Эксперимент: [Название]
 
 <!-- summary -->
-> `experiment-log` — раздел документации проекта Lorenzo.
+> Кто ссылается на этот документ (7): experiment-log (сходство 0.90) meeting-notes (сходство 0.46) Заполните поля согласно инструкции. [Если X, то Y, потому что Z.]
+Кто ссылается на этот документ (7):
+ READABILITY
+ READING_TIME
+ REGISTRY
+ SEARCH
+ TABLES
+ README
+ prototype-mvp
+ --
+Похожие документы:
+ experiment-log (сходство 0.90)
+ meeting-notes (сходство 0.46)
+ meeting-notes (сходство 0.46)
 
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 1. Why the Binary View Is Incomplete
 
 > [!NOTE]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents». Документ создан на основе исследования.
 
 ---
 

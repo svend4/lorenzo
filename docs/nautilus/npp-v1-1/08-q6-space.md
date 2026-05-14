@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 8. Q6 Space (Normative)
 
 <!-- toc-auto -->
@@ -21,7 +25,7 @@
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, ingestion -->
 
 
 

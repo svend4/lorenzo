@@ -4,7 +4,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 14. ADR-001: Federation over Merging
@@ -29,8 +29,8 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Context: При построении системы knowledge management встаёт Context: При построении системы knowledge management встаёт
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Context:** При построении системы knowledge management встаёт

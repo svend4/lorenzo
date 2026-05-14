@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * rag
   * architecture
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 8. Implications for Nautilus and OKWF
@@ -42,7 +42,13 @@ h2. Содержание
 
 
 
-{quote}Beyond InGit specifically, this positioning has implications{quote}
+{quote}_ Each can be added to practitioner's Cowork Project as needed. _ OKWF Pilot Implications Document 4 (OKWF Concept) and Document 6 (Professional Colleague Agents) proposed SGB Advocate{quote}
+the InGit/Cowork combination available:
+Pilot architecture refined:
+ Each advocate has InGit Project for their case work
+ Cowork operates within these Projects
+ MCP server for SGB-specific knowledge (statutes, precedents)
+ Pattern Library integ
 
 ----
 

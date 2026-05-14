@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: template-of-templates
 version: "1.0"
 new_template_name: "[имя нового шаблона]"
@@ -9,7 +10,7 @@ tags: [шаблоны, мета]
 # [имя нового шаблона]
 
 <!-- summary -->
-> `template-of-templates` — раздел документации проекта Lorenzo.
+> template-of-templates — раздел документации проекта Lorenzo. Заполните поля согласно инструкции. Это мета-шаблон для создания новых шаблонов в docs/templates/.
 
 
 > [!NOTE]

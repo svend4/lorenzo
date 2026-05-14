@@ -2,8 +2,9 @@
 title: "17. Versioning Policy"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 17. Versioning Policy
@@ -37,10 +38,15 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> - **Major** (v1 → v2): breaking changes в interfaces или schemas
+> * Breaking Changes Process Для major version bump требуется: 1. * Deprecation Policy !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: Breaking Changes Process Для major version bump требуется: 1.
+NPP следует semver:
+ Major (v1 → v2): breaking changes в interfaces или schemas
+ Minor (v1.0 → v1.1): новая функциональность, backward-compatible
+ Patch (v1.0.0 → v1.0.1): clarifications, typo fixes
+17.2.
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

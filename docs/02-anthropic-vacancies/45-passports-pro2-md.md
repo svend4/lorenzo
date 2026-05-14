@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # passports/pro2.md
 
 <!-- toc-auto -->
@@ -12,10 +16,23 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > **Семантический угол экосистемы svend4**
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа python scripts/improve_semantic_search.py --query "passports pro2 md"
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports pro2 md"
+```
+Смотрите также
+ 55-passports-meta-md
+ 35-passports-info1-md
+ 27-15-glossary-of-examples
+ 46-essence
+ 
+Упоминается в
+ 15
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

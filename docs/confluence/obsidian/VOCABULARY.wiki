@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/VOCABULARY.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * vocabulary
   * docs
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Богатство словаря документов
@@ -142,4 +142,15 @@ _Кто ссылается на этот документ (7):_
 * [[README]]
 * [[SEARCH]]
 * [[TABLES]]
+
+
+
+
+----
+
+_Смотрите также:_
+* [[PASSIVE_VOICE]]
+* [[SUMMARIES]]
+* [[DIGEST_WEEKLY]]
+* [[CITATION_INDEX]]
 

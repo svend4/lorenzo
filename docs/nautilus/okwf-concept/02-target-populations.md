@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. Target Populations
 
 > [!NOTE]
@@ -26,7 +30,7 @@
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

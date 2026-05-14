@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, ingestion]
+state: approved
+---
+
 # Ансамбль 5 — Agent Firewall
 
 <!-- toc-auto -->
@@ -13,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> SENTINEL описан как open-source платформа безопасности для LLM и AI-агентов: 116 тысяч строк кода, Apache 2.0, режимы Defense/Offense/Framework, ядро из 49 Rust Super-Engines через PyO3, включая движки для injection, jailbreak, PII, exfiltration, mem
 **Проекты:** Svyazi, SENTINEL, Tool Search
 
 ---

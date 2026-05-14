@@ -4,7 +4,7 @@ tags:
   - contacts
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Контакты и авторы
@@ -132,4 +132,14 @@ date: 2026-05-13
 - [[INDEX]]
 - [[LANGUAGE_STATS]]
 - _...ещё 23_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[AUTHORS]]
+- [[NETWORK]]
+- [[PROGRESS]]
 

@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 13. REST API Contract (Normative for Portals)
 
@@ -29,7 +33,14 @@ h2. Содержание
 
 
 
-{quote}v1.1 делает REST API mandatory частью протокола. Это обеспечивает{quote}
+{quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. Portal SHOULD предоставлять: Метод | Путь | Описание | GET | | Валидация кросс-ссылок |{quote}
+Portal SHOULD предоставлять:
+ Метод | Путь | Описание |
+ -------|------|----------|
+ GET |   | Валидация кросс-ссылок |
+ GET |   | Q6-соседи |
+ GET |   | Prometheus-метрики (text/plain) |
+ GET |   | Root endpoint со списком endp
 
 ----
 

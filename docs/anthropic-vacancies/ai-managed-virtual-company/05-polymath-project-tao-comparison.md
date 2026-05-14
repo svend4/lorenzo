@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Сравнение с Terence Tao, Polymath Project
 
 <!-- toc-auto -->

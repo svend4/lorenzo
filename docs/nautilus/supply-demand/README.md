@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # supply-demand
 
 > [!NOTE]
@@ -8,7 +12,21 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Раздел README формируется автоматически из данных репозитория. 00-question-supply-demand.md — 01-three-related-themes.md — Кто ссылается на этот документ (7):
+Содержание
+ 00-question-supply-demand.md —  
+ 01-three-related-themes.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 00-question-supply-demand
+ 01-three-related-themes
+ --
+Похожие докумен
 
 
 **Файлов:** 2

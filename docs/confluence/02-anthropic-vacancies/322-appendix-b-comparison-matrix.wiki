@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix B: Comparison Matrix
 
@@ -30,8 +34,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Appendix B: Comparison Matrix InGit + Cowork's distinct profile: maximum structure with full --- Appendix B: Comparison Matrix Capability Plain Folder + Cowork InGit + Cowork Notio{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}InGit + Cowork's distinct profile: maximum structure with full{quote}

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Federated platform
 
 <!-- toc-auto -->

@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "Sonia_Black"
@@ -30,7 +31,17 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> - [Статус связи](#статус-связи)
+> Документ содержит практические рекомендации и лучшие практики. Контакт: Sonia_Black / knowledge-space Проекты: Svyazi, knowledge-space Проекты | knowledge-space |
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
 **Проекты:** Svyazi, knowledge-space
 
 ---

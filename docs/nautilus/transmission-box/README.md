@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # transmission-box
 
 > [!NOTE]
@@ -8,7 +12,21 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Раздел README формируется автоматически из данных репозитория. 00-question-mountain-to-person.md — Кто ссылается на этот документ (7): Кто ссылается на этот документ (7):
+Содержание
+ 00-question-mountain-to-person.md —  
+ 01-completing-loop.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 00-question-mountain-to-person
+ 01-completing-loop
+ --
+Похожие докумен
 
 
 **Файлов:** 2

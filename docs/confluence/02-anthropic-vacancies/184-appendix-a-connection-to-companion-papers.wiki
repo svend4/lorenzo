@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix A: Connection to Companion Papers
 
@@ -25,8 +29,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. This paper builds on three previous documents: This paper builds on three previous documents:{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}This paper builds on three previous documents:{quote}

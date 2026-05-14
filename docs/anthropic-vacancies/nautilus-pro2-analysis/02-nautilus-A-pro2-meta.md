@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME (внутренняя архитектура нейросети)
 
 <!-- toc-auto -->

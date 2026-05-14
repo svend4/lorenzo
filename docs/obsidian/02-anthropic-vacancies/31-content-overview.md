@@ -2,8 +2,9 @@
 title: "Content Overview"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Content Overview
@@ -28,14 +29,14 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Раздел содержит несколько документов. Используйте содержание для навигации.
 
 > ~200 заметок, темы: software engineering, philosophy, music.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

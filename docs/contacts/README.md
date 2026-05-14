@@ -1,9 +1,27 @@
+---
+state: normalized
+---
+
 # contacts
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> — раздел документации проекта Lorenzo. anastasiyaw.md — --- andrey-chuyan.md — --- Кто ссылается на этот документ (21): Материал из базы знаний Svyazi 2.0, раздел «contacts».
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+Файлов: 16
+Содержание
+ QA.md — > [!NOTE]
+ anastasiyaw.md — ---
+ andrey-chuyan.md — ---
+ antipozitive.md — ---
+ cutcode.md — ---
+ dmitriila.md — ---
+ kksudo.md — ---
+ mixaill76.md — ---
+ nlaik.md
 
 
 **Файлов:** 16

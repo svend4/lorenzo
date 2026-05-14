@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Appendix A: Шаблон для header warning"
 tags:
   * architecture
+  * rag
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Appendix A: Шаблон для header warning
@@ -40,7 +41,17 @@ h2. Contents
 
 
 
-{quote}Готовый копи-паст шаблон для вставки в начало документов в{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. 12-appendix-a-header-warning Кто ссылается на этот документ (6){quote}
+ --
+Смотрите также
+ 12-appendix-a-header-warning
+ --
+Кто ссылается на этот документ (6)
+ 102-доступ-к-данным
+ 121-appendix-c-история-изменений-методологии
+ 16-history
+ 185-appendix-b-domain-comparison-matrix
+ 339-приложение-a-дерево-решений-для-пр
 
 ----
 

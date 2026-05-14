@@ -1,4 +1,5 @@
 ---
+state: approved
 template: project-component
 version: "1.0"
 author: "nlaik"
@@ -36,7 +37,18 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> projects: ["research-docs", "LiteParse"]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Параметр | Значение | Упоминаний в репо | 594 | Слой | ingestion/evidence |
+ Параметр | Значение |
+ ----------|---------|
+ Теги | — |
+ Упоминаний в репо | 594 |
+ Слой | ingestion/evidence |
+ Контакт | @nlaik |
+ Статус связи | не писали |
+_Обновлено: 2026-05-10_
+research-docs + LiteParse
+> [!NOTE]
+> Документ создан на
 **Проекты:** Svyazi[^svyazi], AgentFS[^agentfs], knowledge-space[^knowledge-space], LiteParse, Yodoca[^yodoca], agent-memory-mcp
 
 ---
@@ -164,7 +176,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [research-docs-liteparse](../../obsidian/05-habr-projects/knowledge/research-docs-liteparse.md) (сходство 0.95)
+- [research-docs-liteparse](../../svyazi-2-0/components/research-docs-liteparse.md) (сходство 0.95)
 - [mclaude](mclaude.md) (сходство 0.28)
 - [rufler](rufler.md) (сходство 0.26)
 

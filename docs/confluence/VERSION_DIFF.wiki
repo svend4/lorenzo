@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/VERSION_DIFF.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Diff базы знаний между версиями
@@ -541,4 +541,15 @@ _Кто ссылается на этот документ (12):_
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
 * _...ещё 4_
+
+
+
+
+----
+
+_Смотрите также:_
+* [CLUSTERS|CLUSTERS.md]
+* [READING_ORDER|READING_ORDER.md]
+* [LANGUAGE_STATS|LANGUAGE_STATS.md]
+* [PARAGRAPH_QUALITY|PARAGRAPH_QUALITY.md]
 

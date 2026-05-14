@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 7. Phased Rollout Plan
 
 > [!NOTE]
@@ -15,8 +19,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Phased Rollout Plan - Establish legal entity (non-profit foundation in Germany or --- Содержание - 7.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - Establish legal entity (non-profit foundation in Germany or
@@ -35,7 +39,7 @@
 
 ---
 
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

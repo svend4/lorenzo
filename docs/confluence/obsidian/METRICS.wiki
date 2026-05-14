@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/METRICS.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -11,7 +11,7 @@ tags:
   * documentation
   * coverage
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Метрики качества документации

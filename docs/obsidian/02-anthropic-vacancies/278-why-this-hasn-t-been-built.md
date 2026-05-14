@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Why This Hasn't Been Built
@@ -40,7 +40,19 @@ date: 2026-05-13
 
 
 <!-- summary -->
-> Several explanations for the gap.
+> * Infrastructure built in the last three years is mostly focused on the chat layer, where the immediate need was visible. * Wikis showed cross-references can work but did not integrate AI collaboration
+ --
+Похожие документы
+ 285-closing (сходство 0.15)
+ 279-existing-approximations (сходство 0.14)
+ 276-the-two-layer-stack-as-it-exists (сходство 0.12)
+ --
+Использование
+ 
+Смотрите также
+ 285-closing
+ 279-existing-approximations
+ 275-why-this-docume
 
 ---
 <!-- tags: architecture, anthropic -->

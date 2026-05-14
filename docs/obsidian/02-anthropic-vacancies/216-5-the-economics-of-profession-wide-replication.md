@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 5. The Economics of Profession-Wide Replication
@@ -25,8 +25,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The Economics of Profession-Wide Replication A defining feature of Professional Colleague Agents is that --- Содержание - 5.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > A defining feature of Professional Colleague Agents is that

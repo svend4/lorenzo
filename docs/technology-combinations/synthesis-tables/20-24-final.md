@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Сводная таблица 20–24 (Final 1–24)
 
 <!-- toc-auto -->
@@ -14,7 +18,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «FINAL SYNTHESIS TABLE (Complete 1‑24)».
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «FINAL SYNTHESIS TABLE (Complete 1‑24)». Документ создан на основе исследования.
 
 ---
 <!-- tags: rag, orchestration, local-first -->

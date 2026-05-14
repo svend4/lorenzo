@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/63-history.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. History
 
@@ -25,8 +29,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Создан: февраль 2026 (судя по repo creation date) Создан: февраль 2026 (судя по repo creation date){quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Создан:_ февраль 2026 (судя по repo creation date){quote}

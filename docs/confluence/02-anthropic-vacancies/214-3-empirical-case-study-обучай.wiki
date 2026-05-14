@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 3. Empirical Case Study: «Обучай»
 
@@ -21,8 +25,8 @@ h1. 3. Empirical Case Study: «Обучай»
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Schools can be closed for lack of need." This is a real risk we address in Section 6.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}We document a successfully deployed Professional Colleague{quote}

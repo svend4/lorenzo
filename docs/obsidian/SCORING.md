@@ -4,7 +4,7 @@ tags:
   - scoring
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Оценка готовности проекта (Go/No-Go)
@@ -110,4 +110,15 @@ python scripts/improve_scoring.py
 - [[LANGUAGE_STATS]]
 - [[METRICS]]
 - _...ещё 12_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[COVERAGE]]
+- [[SCHEDULE]]
+- [[SUMMARIES]]
+- [[COMPONENT_MATRIX]]
 

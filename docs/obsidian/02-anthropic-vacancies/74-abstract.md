@@ -2,8 +2,9 @@
 title: "Abstract"
 tags:
   - architecture
+  - memory
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Abstract
@@ -41,10 +42,13 @@ date: 2026-05-13
 
 
 <!-- summary -->
-> Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации --- Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации независимых Git-репозито
+> 🔧 Подход: Алгоритм вычисления кон
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 

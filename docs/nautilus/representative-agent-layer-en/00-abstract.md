@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
 <!-- toc -->
@@ -36,7 +40,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)». Документ создан на основе исследования.
 
 ---
 <!-- tags: architecture, roadmap, anthropic, collaboration -->

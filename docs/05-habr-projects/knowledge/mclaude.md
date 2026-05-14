@@ -1,4 +1,5 @@
 ---
+state: approved
 template: project-component
 version: "1.0"
 author: "AnastasiyaW"
@@ -70,7 +71,7 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel]
+> tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel] Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], Yodoca[^yodoca], agent-memory-mcp
 
 ---
@@ -185,7 +186,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [mclaude](../../obsidian/05-habr-projects/knowledge/mclaude.md) (сходство 0.95)
+- [mclaude](../../svyazi-2-0/components/mclaude.md) (сходство 0.95)
 - [rufler](rufler.md) (сходство 0.37)
-- [rufler](../../obsidian/05-habr-projects/knowledge/rufler.md) (сходство 0.34)
+- [rufler](../../svyazi-2-0/components/rufler.md) (сходство 0.34)
 

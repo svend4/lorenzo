@@ -1,4 +1,5 @@
 ---
+state: approved
 template: meeting-notes
 version: "1.0"
 title: "[Тема встречи]"
@@ -6,13 +7,26 @@ date: 2026-04-29
 duration_minutes: 30
 participants: []
 location: "[Zoom|Telegram|Discord|in-person]"
-tags: [встреча]
+tags: [встреча, rag]
 ---
 
 # Встреча: [Тема]
 
 <!-- summary -->
-> `meeting-notes` — раздел документации проекта Lorenzo.
+> Кто ссылается на этот документ (7): meeting-notes (сходство 0.93) retrospective (сходство 0.53) Заполните поля согласно инструкции. [имя] | [роль] | [GitHub/Habr/Telegram] |
+Кто ссылается на этот документ (7):
+ READABILITY
+ READING_TIME
+ REGISTRY
+ SEARCH
+ TABLES
+ README
+ weekly-digest
+ --
+Похожие документы:
+ meeting-notes (сходство 0.93)
+ retrospective (сходство 0.53)
+ retrospective (сходство 0.53)
 
 
 <!-- toc-auto -->

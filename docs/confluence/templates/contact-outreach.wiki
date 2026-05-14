@@ -1,9 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/templates/contact-outreach.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Контакт: [Имя / Проект]
+
+
+
+{quote}Раздел contact-outreach формируется автоматически из данных репозитория. Параметр | Значение |{quote}
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{contact-outreach}} формируется автоматически из данных репозитория.{quote}

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Why This Hasn't Been Built
@@ -45,7 +45,19 @@ h2. Содержание
 
 
 
-{quote}Several explanations for the gap.{quote}
+{quote}_ Infrastructure built in the last three years is mostly focused on the chat layer, where the immediate need was visible. _ Wikis showed cross-references can work but did not integrate AI collaboration{quote}
+ --
+Похожие документы
+ 285-closing (сходство 0.15)
+ 279-existing-approximations (сходство 0.14)
+ 276-the-two-layer-stack-as-it-exists (сходство 0.12)
+ --
+Использование
+ 
+Смотрите также
+ 285-closing
+ 279-existing-approximations
+ 275-why-this-docume
 
 ----
 

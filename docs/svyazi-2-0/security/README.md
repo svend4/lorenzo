@@ -8,7 +8,24 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Раздел README формируется автоматически из данных репозитория. Кто ссылается на этот документ (8):
+Содержание
+ budget-routing.md —  
+ default-policy.md —  
+ privacy.md —  
+ --
+Кто ссылается на этот документ (8):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ budget-routing
+ default-policy
+ privacy
+ --
+Похожие документы:
+ README (сх
 
 
 **Файлов:** 3

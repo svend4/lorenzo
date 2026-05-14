@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Вопрос: fallback‑ratio как критический или осмысленный?
 
 <!-- toc-auto -->

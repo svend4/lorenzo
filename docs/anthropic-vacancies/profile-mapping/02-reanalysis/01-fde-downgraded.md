@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Коррекция: FDE понижается
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что уже существует в этой нише (Habitica, Codingame, Hackerrank, Pieces)
 
 <!-- toc-auto -->

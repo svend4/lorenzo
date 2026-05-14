@@ -1,7 +1,7 @@
 # Сломанные внутренние ссылки
 
 <!-- summary -->
-> Сломанных ссылок: **80**, пропущено: 0
+> Сломанных ссылок: **18**, пропущено: 0
 
 <!-- tags: quality, links, validation, broken-links -->
 
@@ -15,11 +15,11 @@
 - [Смотрите также](#смотрите-также)
 
 > [!WARNING]
-> Найдено 80 сломанных ссылок — требуют исправления.
+> Найдено 18 сломанных ссылок — требуют исправления.
 
 <!-- alert-added -->
 
-**Найдено:** 80 проблем, 0 пропущено (длинный путь)
+**Найдено:** 18 проблем, 0 пропущено (длинный путь)
 
 
 Скрипт `improve_broken_links.py` проверяет все внутренние ссылки в папке `docs/`, исключая автоматически генерируемые разделы: `obsidian/`, `confluence/`, `templates/` и `autofilled/`. Проверяются ссылки на файлы (существование пути) и якоря (существование заголовка). Ссылки с путём длиннее 240 символов пропускаются из-за ограничений операционной системы и сохраняются в `bad_links.json`.
@@ -33,15 +33,12 @@
 ## Общие показатели
 
 - Проверено файлов: большинство `.md` в `docs/`
-- Сломанных ссылок: **80**
+- Сломанных ссылок: **18**
 - Пропущено (длинный путь): **0**
 - Внешние URL не проверяются (список формируется без запросов)
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
-| `docs/01-svyazi/README.md` | ensembles/ | `ensembles/` | файл не существует |
-| `docs/02-anthropic-vacancies/README.md` | clusters/ | `clusters/` | файл не существует |
-| `docs/04-ai-collaborations/README.md` | ensembles/ | `ensembles/` | файл не существует |
 | `docs/05-habr-projects/knowledge/agentfs.md` | Описание | `#описание` | якорь не найден |
 | `docs/05-habr-projects/knowledge/agentfs.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
 | `docs/05-habr-projects/knowledge/knowledge-space.md` | Описание | `#описание` | якорь не найден |
@@ -60,72 +57,41 @@
 | `docs/05-habr-projects/knowledge/rufler.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
 | `docs/05-habr-projects/memory/agent-memory-mcp.md` | Описание | `#описание` | якорь не найден |
 | `docs/05-habr-projects/memory/agent-memory-mcp.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
-| `docs/READABILITY.md` | 10-essence | `obsidian/02-anthropic-vacancies/10-essen` | файл не существует |
-| `docs/READABILITY.md` | 101-q6-отображение | `obsidian/02-anthropic-vacancies/101-q6-о` | файл не существует |
-| `docs/READABILITY.md` | 11-native-format | `obsidian/02-anthropic-vacancies/11-nativ` | файл не существует |
-| `docs/READABILITY.md` | 14-bridges | `obsidian/02-anthropic-vacancies/14-bridg` | файл не существует |
-| `docs/READABILITY.md` | 15-author-contact | `obsidian/02-anthropic-vacancies/15-autho` | файл не существует |
-| `docs/READABILITY.md` | 29-essence | `obsidian/02-anthropic-vacancies/29-essen` | файл не существует |
-| `docs/READABILITY.md` | 30-native-format | `obsidian/02-anthropic-vacancies/30-nativ` | файл не существует |
-| `docs/READABILITY.md` | 32-angle-perspective | `obsidian/02-anthropic-vacancies/32-angle` | файл не существует |
-| `docs/READABILITY.md` | 33-author | `obsidian/02-anthropic-vacancies/33-autho` | файл не существует |
-| `docs/READABILITY.md` | 99-описание | `obsidian/02-anthropic-vacancies/99-описа` | файл не существует |
-| `docs/READABILITY.md` | minimal-test-card | `obsidian/04-ai-collaborations/minimal-te` | файл не существует |
-| `docs/READABILITY.md` | 66-english-below | `obsidian/02-anthropic-vacancies/66-engli` | файл не существует |
-| `docs/READING_LIST.md` | Все таблицы репозитория | `docs/TABLES.md` | файл не существует |
-| `docs/READING_LIST.md` | Outline базы знаний | `docs/OUTLINE.md` | файл не существует |
-| `docs/READING_LIST.md` | Читаемость документов (Flesch- | `docs/READABILITY.md` | файл не существует |
-| `docs/READING_LIST.md` | Время чтения документов | `docs/READING_TIME.md` | файл не существует |
-| `docs/READING_LIST.md` | Приложение C: Образец Специфик | `docs/02-anthropic-vacancies/341-приложен` | файл не существует |
-| `docs/READING_LIST.md` | Интегральный анализ профиля sv | `docs/02-anthropic-vacancies/01-интеграль` | файл не существует |
-| `docs/READING_LIST.md` | Обратная связь | `docs/02-anthropic-vacancies/133-обратная` | файл не существует |
-| `docs/READING_LIST.md` | Глоссарий понятий | `docs/CONCEPTS.md` | файл не существует |
-| `docs/READING_LIST.md` | Карта происхождения текстов | `docs/SOURCE_MAP.md` | файл не существует |
-| `docs/READING_LIST.md` | Введение | `docs/04-ai-collaborations/00-intro.md` | файл не существует |
-| `docs/READING_LIST.md` | Что такое Вариант C — Concept  | `docs/02-anthropic-vacancies/342-что-тако` | файл не существует |
-| `docs/READING_LIST.md` | Карта репозитория Lorenzo | `docs/SITEMAP.md` | файл не существует |
-| `docs/READING_LIST.md` | Claude hat geantwortet: Хорошо | `docs/nautilus/community-discussions/agen` | файл не существует |
-| `docs/READING_LIST.md` | ⬡ | `docs/02-anthropic-vacancies/69-section.m` | файл не существует |
-| `docs/READING_LIST.md` | Closing | `docs/02-anthropic-vacancies/165-closing.` | файл не существует |
-| `docs/READING_LIST.md` | Приложение C: Образец Специфик | `docs/02-anthropic-vacancies/341-приложен` | файл не существует |
-| `docs/READING_LIST.md` | Интегральный анализ профиля sv | `docs/02-anthropic-vacancies/01-интеграль` | файл не существует |
 
-_...и ещё 30 проблем_
-
-## Внешние URL (632 уникальных)
+## Внешние URL (37 уникальных)
 
 _Внешние ссылки не проверяются автоматически — требуют ручной проверки._
 
-- http://localhos
-- http://localhost:8
-- http://localhost:8000
-- http://localhost:8000`
-- http://localhost:8000``
-- http://localhost:8000```
-- http://localhost:8000````
-- http://localhost:8000`````
-- http://localhost:8000``````
-- http://localhost:8000```````
-- http://localhost:8000````````
-- http://localhost:8000`````````
-- http://localhost:8080
-- http://localhost:8080`
-- http://localhost:8080``
-- http://localhost:8080```
-- http://localhost:8080````
-- http://localhost:8080`````
-- http://localhost:8080``````
-- http://localhost:8080```````
-- http://localhost:8080````````
-- http://localhost:8080`````````
-- http://localhost:8083/api/ask
-- http://localhost:8083/api/ask`
-- http://localhost:8083/api/ask``
-- http://localhost:8083/api/ask```
-- http://localhost:8083/api/ask````
-- http://localhost:8083/api/benchmark
-- http://localhost:8083/api/benchmark`
-- http://localhost:8083/api/benchmark``
+- https://forum.[obsidian
+- https://habr.com/ru/articles/1002138/
+- https://habr.com/ru/articles/1005776/
+- https://habr.com/ru/articles/1006602/
+- https://habr.com/ru/articles/1006622/
+- https://habr.com/ru/articles/1007122/
+- https://habr.com/ru/articles/1009538/
+- https://habr.com/ru/articles/1009608/
+- https://habr.com/ru/articles/1009958/
+- https://habr.com/ru/articles/1010198/
+- https://habr.com/ru/articles/1010478/
+- https://habr.com/ru/articles/1016096/
+- https://habr.com/ru/articles/1017200/
+- https://habr.com/ru/articles/1019588/
+- https://habr.com/ru/articles/1020598/
+- https://habr.com/ru/articles/1020860/
+- https://habr.com/ru/articles/1023446/
+- https://habr.com/ru/articles/1024634/
+- https://habr.com/ru/articles/1024884/comments/
+- https://habr.com/ru/articles/1027210/
+- https://habr.com/ru/articles/1027382/
+- https://habr.com/ru/articles/1027658/
+- https://habr.com/ru/articles/1027878/
+- https://habr.com/ru/articles/893356/
+- https://habr.com/ru/articles/938626/
+- https://habr.com/ru/articles/943498/
+- https://habr.com/ru/articles/955798/
+- https://habr.com/ru/articles/975414/
+- https://habr.com/ru/articles/983684/
+- https://habr.com/ru/articles/996144/
 
 ## Использование
 
@@ -145,29 +111,29 @@ python scripts/improve_broken_links.py --fix
 - [METRICS](METRICS.md) — метрики качества документов
 - [VALIDATION](VALIDATION.md) — валидация структуры
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [HEALTH](HEALTH.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [METRICS](METRICS.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 5_
+
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [READING_LIST](READING_LIST.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [03-component-catalog](01-svyazi/03-component-catalog.md)
 - [HEALTH](HEALTH.md)
 - [METRICS](METRICS.md)
-- [READABILITY](READABILITY.md)
-- [READING_LIST](READING_LIST.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [REPORT](REPORT.md)
-- _...ещё 2_
+- [CITATION_INDEX](CITATION_INDEX.md)
 

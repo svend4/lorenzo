@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * roadmap
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 6. Уточнённый объём InGit с учётом Cowork
@@ -61,7 +61,10 @@ h2. Содержание
 
 
 
-{quote}Оригинальная дорожная карта InGit (10-16{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: --- --- Похожие документы: - 328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи(docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство{quote}
+{quote}✅ Результат: Чистая временная лин{quote}
 
 ----
 

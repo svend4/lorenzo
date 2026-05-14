@@ -3,7 +3,23 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> authors-by-name.md — components-by-name.md — > [!NOTE] Кто ссылается на этот документ (7):
+Содержание
+ authors-by-name.md —  
+ components-by-name.md — > [!NOTE]
+ concepts.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ authors-by-name
+ concepts
+ --
+Похожие документы:
+ README (сх
 
 
 **Файлов:** 3

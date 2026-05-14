@@ -2,8 +2,9 @@
 title: "Planned (v0.2.0)"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Planned (v0.2.0)
@@ -28,10 +29,23 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> - HTTP-mode для debugging и remote access
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Кто ссылается на этот документ (17) HTTP-mode для debugging и remote access
+ 
+Contents
+ Planned (v0.2.0)
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (17)
+> [!WARNING]
+> Документ содержит описание рис
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

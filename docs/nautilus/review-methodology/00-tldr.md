@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # TL;DR — Трёхфазная методология Review
 
 <!-- toc-auto -->

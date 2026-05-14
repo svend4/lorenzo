@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # A Practical Path to Layer B Through Symbiotic Integration
 
 <!-- toc-auto -->
@@ -20,8 +24,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 123-portal- (сходство 0.10) 344-системный-промпт-для- Материал из базы знаний Svyazi 2.0, раздел «A Practical Path to Layer B Through Symbiotic Integration».
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.27)
@@ -29,7 +33,7 @@
 ---
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 ## A Practical Path to Layer B Through Symbiotic Integration

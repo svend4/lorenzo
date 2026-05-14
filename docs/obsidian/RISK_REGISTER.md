@@ -2,7 +2,7 @@
 title: "Реестр рисков — Svyazi 2.0"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Реестр рисков — Svyazi 2.0
@@ -144,4 +144,15 @@ _Курированных рисков: 10 · Из документов: 15_
 - [[OUTLINE]]
 - [[READABILITY]]
 - _...ещё 6_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SIMILAR_PASSAGES]]
+- [[02-methodology]]
+- [[privacy]]
+- [[security-routing-plane]]
 

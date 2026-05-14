@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/SCORING.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Оценка готовности проекта (Go/No-Go)
@@ -101,4 +101,15 @@ _Кто ссылается на этот документ (20):_
 * [LANGUAGE_STATS|LANGUAGE_STATS.md]
 * [METRICS|METRICS.md]
 * _...ещё 12_
+
+
+
+
+----
+
+_Смотрите также:_
+* [COVERAGE|COVERAGE.md]
+* [SCHEDULE|SCHEDULE.md]
+* [SUMMARIES|SUMMARIES.md]
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
 

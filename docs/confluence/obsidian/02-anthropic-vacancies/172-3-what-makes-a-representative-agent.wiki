@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "3. What Makes a Representative Agent"
 tags:
   * architecture
+  * memory
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 3. What Makes a Representative Agent
@@ -28,8 +29,8 @@ h1. 3. What Makes a Representative Agent
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Adapting them to AI principals is a key research and design challenge addressed in Sections 6 and 7.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}A Representative Agent is distinct from existing AI categories.{quote}

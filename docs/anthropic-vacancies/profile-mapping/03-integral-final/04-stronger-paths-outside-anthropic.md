@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Более сильные пути вне Anthropic
 
 <!-- toc-auto -->

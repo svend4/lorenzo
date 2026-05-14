@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, knowledge]
+state: approved
+---
+
 # AgentOps и Trace Envelope (ансамбль G)
 
 <!-- toc-auto -->
@@ -14,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Auto AI Router, в свою очередь, даёт быстрый Go‑sidecar для OpenAI‑совместимого endpoint, multi‑provider routing, fail2ban по credentials, session‑sticky routing, двухуровневый rate limiting и интеграцию с LiteLLM DB.
 **Проекты:** Svyazi, CardIndex, LiteParse, Legal RAG, LiteLLM, Auto AI Router, Tool Search
 
 ---

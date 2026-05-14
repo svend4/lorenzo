@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/CITATION_INDEX.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Индекс цитирования URL"
 tags:
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Индекс цитирования URL
@@ -250,4 +250,15 @@ _Кто ссылается на этот документ (12):_
 * [[READING_LIST]]
 * [[READING_TIME]]
 * _...ещё 4_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[SPELLCHECK]]
+* [[READING_LIST]]
+* [[LINK_PREVIEW]]
+* [[NAMED_ENTITIES]]
 

@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # analogues
 
 > [!NOTE]
@@ -8,7 +12,22 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Раздел README формируется автоматически из данных репозитория. 01-three-direct-analogues.md — Кто ссылается на этот документ (7): Кто ссылается на этот документ (7):
+Содержание
+ 01-three-direct-analogues.md —  
+ 02-related-projects.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 01-three-direct-analogues
+ 02-related-projects
+ --
+Похожие документы:
+ REA
 
 
 **Файлов:** 2

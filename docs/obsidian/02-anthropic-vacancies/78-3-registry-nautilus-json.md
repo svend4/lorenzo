@@ -2,8 +2,9 @@
 title: "3. Registry (`nautilus.json`)"
 tags:
   - architecture
+  - memory
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 3. Registry (`nautilus.json`)
@@ -74,10 +75,16 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Registry — central source of truth о том, какие Repos входят в
+> * Registry (nautilus.json) - 3.1. * AutoAdapter Special Case !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: Registry (nautilus.json) - 3.1.
+Каждый элемент   MUST содержать:
+ — уникальное в пределах экосистемы
+ — идентификатор native-формата (используется для 
+  именования адаптера и passport)
+ — имя адаптера: либо имя Python-модуля в  , 
+  либо   для и
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 ## 3. Registry (`nautilus.json`)

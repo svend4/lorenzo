@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/03-portal-protocol-md.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "PORTAL-PROTOCOL.md"
 tags:
   * collaboration
+  * rag
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. PORTAL-PROTOCOL.md
@@ -25,121 +26,130 @@ h2. Contents
 
 
 
-{quote}_Status:_ Draft (Working Document){quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"{quote}
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
+{code}
+Смотрите также
+ 152-ai-coordinated-infrastructure-for-distributed-expe
+ 73-portal-protocol-md-v1-1
+ 135-a-formal-mode
+
+---
+<!-- tags: collaboration, rag -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
+
+
+
+
+## PORTAL-PROTOCOL.md
+markdown
+{code}
+h1. Nautilus Portal Protocol
+
+_Version:_ 1.0.0-draft  
+_Status:_ Draft (Working Document)  
+_Author:_ svend4  
+_License:_ CC BY 4.0 (documentation) / MIT (reference implementation)  
+_Date:_ 2026-04  
 
 ----
 
 
-{quote}[!IMPORTANT]{quote}
-{quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
+
+----
+
+h2. Похожие документы
+* [[73-portal-protocol-md-v1-1]] (сходство 0.47)
+* [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.38)
+* [[152-ai-coordinated-infrastructure-for-distributed-expe]] (сходство 0.36)
 
 
 
 
+----
 
-h2. PORTAL-PROTOCOL.md
-markdown
-{code:language=markdown}
-# Nautilus Portal Protocol
-
-**Version:** 1.0.0-draft  
-**Status:** Draft (Working Document)  
-**Author:** svend4  
-**License:** CC BY 4.0 (documentation) / MIT (reference implementation)  
-**Date:** 2026-04  
-
----
-
-<!-- similar-docs -->
-
----
-
-## Похожие документы
-- [[73-portal-protocol-md-v1-1]] (сходство 0.47)
-- [[167-ai-mediated-representation-for-underrepresented-ex]] (сходство 0.38)
-- [[152-ai-coordinated-infrastructure-for-distributed-expe]] (сходство 0.36)
-
-
-<!-- see-also -->
-
----
-
-## Использование
-{code}
-h1. Поиск по теме документа
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
 python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
 {code}
 
-## Смотрите также
-- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
-- [[73-portal-protocol-md-v1-1]]
-- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
-- [[167-ai-mediated-representation-for-underrepresented-ex]]
+h2. Смотрите также
+* [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+* [[73-portal-protocol-md-v1-1]]
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+* [[167-ai-mediated-representation-for-underrepresented-ex]]
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [[05-0-status-of-this-document|0. Status of This Document]]
-- [[75-0-status-of-this-document|0. Status of This Document]]
-- [[164-10-appendices|10. Appendices]]
-- [[24-12-versioning-policy|12. Versioning Policy]]
-- [[25-13-reference-implementation|13. Reference Implementation]]
-- [[92-17-versioning-policy|17. Versioning Policy]]
-- [[93-18-reference-implementation|18. Reference Implementation]]
-- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]]
-- [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]]
-- [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
-- [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
-- [[42-author-contact|Author & Contact]]
-- [[62-author-contact|Author & Contact]]
-- [[54-for-the-curious-philosophy|For the Curious: Philosophy]]
-- [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]]
-- [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]]
-- [[65-readme-md|README.md]]
-- [[105-review-methodology-md|REVIEW_METHODOLOGY.md]]
-- [[123-portal-mcp-py|portal-mcp.py]]
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
-- [[70-зачем-две-версии-параллельно|Зачем две версии параллельно]]
-- [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]]
-- [[338-ссылки|Ссылки]]
-## Упоминается в
+h2. Упоминается в
 
-- [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[05-0-status-of-this-document|0. Status of This Document]]
+* [[75-0-status-of-this-document|0. Status of This Document]]
+* [[164-10-appendices|10. Appendices]]
+* [[24-12-versioning-policy|12. Versioning Policy]]
+* [[25-13-reference-implementation|13. Reference Implementation]]
+* [[92-17-versioning-policy|17. Versioning Policy]]
+* [[93-18-reference-implementation|18. Reference Implementation]]
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]]
+* [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]]
+* [[28-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+* [[98-appendix-a-minimal-working-example|Appendix A: Minimal Working Example]]
+* [[42-author-contact|Author & Contact]]
+* [[62-author-contact|Author & Contact]]
+* [[54-for-the-curious-philosophy|For the Curious: Philosophy]]
+* [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]]
+* [[125-readme-mcp-md-инструкция-по-установке|README-MCP.md— инструкция по установке]]
+* [[65-readme-md|README.md]]
+* [[105-review-methodology-md|REVIEW_METHODOLOGY.md]]
+* [[123-portal-mcp-py|portal-mcp.py]]
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
+* [[70-зачем-две-версии-параллельно|Зачем две версии параллельно]]
+* [[129-примеры-запросов-в-claude|Примеры запросов (в Claude)]]
+* [[338-ссылки|Ссылки]]
+h2. Упоминается в
 
-<!-- related-auto -->
-## Связанные документы
+* [[README|Вакансии Anthropic — Анализ по кластерам]]
 
-- [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]] _81%_
-- [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]] _60%_
-- [[52-author-contact|Author & Contact]] _53%_
-- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _48%_
-- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _25%_
-- [[05-0-status-of-this-document|0. Status of This Document]] _21%_
-- [[164-10-appendices|10. Appendices]] _21%_
-- [[24-12-versioning-policy|12. Versioning Policy]] _21%_
-## Связанные документы
 
-- [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]] _53%_
-- [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]] _53%_
-- [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _48%_
-- [[05-0-status-of-this-document|0. Status of This Document]] _25%_
-- [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _25%_
-- [[24-12-versioning-policy|12. Versioning Policy]] _25%_
-- [[42-author-contact|Author & Contact]] _25%_
-- [[52-author-contact|Author & Contact]] _25%_
+h2. Связанные документы
 
-<!-- backlinks -->
+* [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]] _81%_
+* [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]] _60%_
+* [[52-author-contact|Author & Contact]] _53%_
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _48%_
+* [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _25%_
+* [[05-0-status-of-this-document|0. Status of This Document]] _21%_
+* [[164-10-appendices|10. Appendices]] _21%_
+* [[24-12-versioning-policy|12. Versioning Policy]] _21%_
+h2. Связанные документы
 
----
+* [[152-ai-coordinated-infrastructure-for-distributed-expe|AI-Coordinated Infrastructure for Distributed Expert Contribution]] _53%_
+* [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]] _53%_
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr|A Formal Model for Human-AI Collaboration in Distributed Knowledge Work]] _48%_
+* [[05-0-status-of-this-document|0. Status of This Document]] _25%_
+* [[167-ai-mediated-representation-for-underrepresented-ex|AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations]] _25%_
+* [[24-12-versioning-policy|12. Versioning Policy]] _25%_
+* [[42-author-contact|Author & Contact]] _25%_
+* [[52-author-contact|Author & Contact]] _25%_
 
-## Кто ссылается на этот документ (22)
-- [[05-0-status-of-this-document]]
-- [[105-review-methodology-md]]
-- [[123-portal-mcp-py]]
-- [[125-readme-mcp-md-инструкция-по-установке]]
-- [[129-примеры-запросов-в-claude]]
-- [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
-- [[152-ai-coordinated-infrastructure-for-distributed-expe]]
-- [[164-10-appendices]]
-- _...ещё 14_
+
+
+----
+
+h2. Кто ссылается на этот документ (22)
+* [[05-0-status-of-this-document]]
+* [[105-review-methodology-md]]
+* [[123-portal-mcp-py]]
+* [[125-readme-mcp-md-инструкция-по-установке]]
+* [[129-примеры-запросов-в-claude]]
+* [[135-a-formal-model-for-human-ai-collaboration-in-distr]]
+* [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+* [[164-10-appendices]]
+* _...ещё 14_
 

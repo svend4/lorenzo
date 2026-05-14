@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 7. Phased Rollout Plan
 
 > [!NOTE]

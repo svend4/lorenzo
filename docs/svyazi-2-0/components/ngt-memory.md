@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # NGT Memory
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: spbmolot / ngt-memory Проекты: Svyazi, NGT Memory Автор: spbmolot / ngt-memory
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Автор:** spbmolot / ngt-memory

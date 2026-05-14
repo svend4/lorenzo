@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 5. Four Integration Paths in Order of Accessibility
 
 > [!NOTE]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)». Документ создан на основе исследования.
 
 ---
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Письмо: nlaik / LiteParse + research-docs
 
 > [!IMPORTANT]
@@ -14,7 +18,7 @@
 
 
 <!-- summary -->
-> Открытое письмо автору LiteParse и research-docs — системы Forensic Document QA с визуальными цитатами и пространственным разбором PDF.
+> Открытое письмо автору LiteParse и research-docs — системы Forensic Document QA с визуальными цитатами и пространственным разбором PDF. Ключевой документ для понимания архитектуры.
 
 <!-- tags: contacts, letters, liteparse, research-docs, rag, evidence, spatial -->
 

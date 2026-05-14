@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Practical Recommendations for the Current Project
@@ -24,8 +24,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Practical Recommendations for the Current Project For the seven-document Nautilus / OKWF project specifically, --- Practical Recommendations for the Current Project For the seven-d
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > For the seven-document Nautilus / OKWF project specifically,

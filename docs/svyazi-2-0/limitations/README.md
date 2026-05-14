@@ -8,7 +8,24 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Раздел README формируется автоматически из данных репозитория. Кто ссылается на этот документ (7):
+Содержание
+ conclusions.md —  
+ do-not-glue.md —  
+ license-tree.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ conclusions
+ do-not-glue
+ --
+Похожие документы:
+ README (сходство 0.68)
+ RE
 
 
 **Файлов:** 3

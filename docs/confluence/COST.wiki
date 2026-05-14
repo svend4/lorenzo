@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/COST.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Оценка стоимости MVP
@@ -111,4 +111,15 @@ _Кто ссылается на этот документ (7):_
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
+
+
+
+
+----
+
+_Смотрите также:_
+* [SCHEDULE|SCHEDULE.md]
+* [SCORING|SCORING.md]
+* [SUMMARIES|SUMMARIES.md]
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
 

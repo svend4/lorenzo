@@ -2,7 +2,7 @@
 title: "Action Items, риски и решения"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Action Items, риски и решения

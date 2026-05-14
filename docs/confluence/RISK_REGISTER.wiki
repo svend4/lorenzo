@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/RISK_REGISTER.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Реестр рисков — Svyazi 2.0
@@ -139,4 +139,15 @@ _Кто ссылается на этот документ (14):_
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * _...ещё 6_
+
+
+
+
+----
+
+_Смотрите также:_
+* [SIMILAR_PASSAGES|SIMILAR_PASSAGES.md]
+* [02-methodology|01-svyazi/02-methodology.md]
+* [privacy|svyazi-2-0/security/privacy.md]
+* [security-routing-plane|svyazi-2-0/components/security-routing-plane.md]
 

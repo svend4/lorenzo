@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Risks Specific to this Category
 
 > [!TIP]

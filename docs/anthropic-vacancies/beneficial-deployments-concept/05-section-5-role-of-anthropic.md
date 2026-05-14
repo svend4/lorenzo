@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Section 5: Role of Anthropic Beneficial Deployments
 
 <!-- toc-auto -->

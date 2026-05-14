@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture
 
 <!-- toc-auto -->
@@ -16,7 +20,7 @@
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

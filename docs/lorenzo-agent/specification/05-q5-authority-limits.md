@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Question 5: Каковы limits Lorenzo's authority?
 
 <!-- toc-auto -->

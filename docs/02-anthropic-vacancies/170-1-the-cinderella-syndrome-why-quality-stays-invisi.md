@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
 
 > [!NOTE]
@@ -15,8 +19,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The Cinderella Syndrome: Why Quality Stays Invisible There is a recurring asymmetry in modern markets — markets for --- Содержание - 1.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > There is a recurring asymmetry in modern markets — markets for
@@ -34,7 +38,7 @@
 
 ---
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

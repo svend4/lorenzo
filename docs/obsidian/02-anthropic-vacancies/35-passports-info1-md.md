@@ -4,7 +4,7 @@ tags:
   - rag
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # passports/info1.md
@@ -21,7 +21,19 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> > **Методологический угол экосистемы svend4**
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа python scripts/improve_semantic_search.py --query "passports info1 md"
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports info1 md"
+```
+Смотрите также
+ 55-passports-meta-md
+ 27-15-glossary-of-examples
+ 45-passports-pro2-md
+ 62-author-contact
+ 
+Упоминает
 
 ---
 <!-- tags: rag, collaboration -->

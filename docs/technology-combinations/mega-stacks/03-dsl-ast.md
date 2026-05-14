@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Mega‑Stack 3.0 — with DSL & AST
 
 <!-- toc-auto -->
@@ -14,7 +18,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 30: MEGA‑STACK 3.0 with DSL & AST».
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 30: MEGA‑STACK 3.0 with DSL & AST». Документ создан на основе исследования.
 **Проекты:** Hybrid RAG
 
 ---

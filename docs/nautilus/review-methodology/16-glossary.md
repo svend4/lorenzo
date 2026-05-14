@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Глоссарий
 
 <!-- toc-auto -->

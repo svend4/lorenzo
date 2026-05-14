@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/GITHUB_ISSUES.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "GitHub Issues — список задач"
 tags:
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. GitHub Issues — список задач
@@ -599,4 +599,15 @@ _Кто ссылается на этот документ (8):_
 * [[SEARCH]]
 * [[TABLES]]
 * [[10-checklist]]
+
+
+
+
+----
+
+_Смотрите также:_
+* [[10-checklist]]
+* [[116-9-checklist-применения-методологии]]
+* [[CONTACTS]]
+* [[CONTACT_PRIORITY]]
 

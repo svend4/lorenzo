@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 8. Consensus Algorithm
 
 <!-- toc-auto -->
@@ -29,10 +33,15 @@
 
 
 <!-- summary -->
-> Когда один query возвращает результаты из нескольких Repos, Portal
+> * Consensus Algorithm - 8.1. * Future Extensions (v2.0+) Когда один query возвращает результаты из нескольких Repos, Portal --- 8 Документ создан на основе исследования.
+Будущие версии MAY использовать:
+ Semantic similarity через embeddings (cross-lingual matching)
+ Fuzzy matching с threshold
+ Weighted consensus (разный вес от confidence adapter'а)
+Эти расширения не breaking — они активируют
 
 ---
-<!-- tags: rag -->
+<!-- tags: rag, anthropic -->
 
 
 

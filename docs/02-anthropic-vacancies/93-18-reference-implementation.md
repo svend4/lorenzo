@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 18. Reference Implementation
 
 <!-- toc-auto -->
@@ -21,8 +25,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Reference implementation: Reference НЕ является нормативной. Альтернативные implementations
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > [`github.com/svend4/nautilus`](https://github.com/svend4/nautilus).

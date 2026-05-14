@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * roadmap
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 8. Pilot Proposal: SGB Advocate Colleague
@@ -31,8 +31,8 @@ h1. 8. Pilot Proposal: SGB Advocate Colleague
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Clear demand: Author personally needs this. 🔧 Подход: Tertiary requires careful design and supervision; appropriate for later phase.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}We now apply the Professional Colleague Agent framework to a{quote}

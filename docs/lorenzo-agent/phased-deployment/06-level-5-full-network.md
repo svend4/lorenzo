@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Уровень 5 — Полный (Lorenzo Network)
 
 <!-- toc-auto -->

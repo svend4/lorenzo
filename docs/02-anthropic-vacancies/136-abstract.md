@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Abstract
 
 > [!NOTE]
@@ -15,8 +19,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: We conclude with open questions on governance, consent, economics, and burnout dynamics, and invite research collaboration on these unsolved issues.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We introduce the **Double-Triangle Architecture** for human-AI

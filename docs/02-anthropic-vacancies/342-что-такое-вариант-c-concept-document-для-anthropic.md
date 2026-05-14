@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
 
 <!-- abstract-auto -->

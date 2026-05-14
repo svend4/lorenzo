@@ -2,7 +2,7 @@
 title: "Индекс именованных сущностей"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Индекс именованных сущностей
@@ -461,4 +461,15 @@ python scripts/improve_named_entities.py
 - [[READABILITY]]
 - [[READING_TIME]]
 - _...ещё 3_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DIGEST_WEEKLY]]
+- [[CITATION_INDEX]]
+- [[CODE_BLOCKS]]
+- [[ENTITIES]]
 

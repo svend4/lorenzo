@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 5. Pattern Library as Bridge Between Triangles
 
 > [!TIP]

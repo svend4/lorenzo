@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [rag, orchestration, ingestion, local-first, architecture]
+state: approved
+---
+
 # 6. Ethical Framework
 
 <!-- toc -->
@@ -31,7 +37,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Representative Agents raise novel ethical questions. We
+> > ✅ Результат: This means: - Principal owns all data about themselves used by agent - Principal can modify or terminate agent at any time - Principal can override any agent decision - Principal c
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!IMPO
 
 ---
 <!-- tags: orchestration, local-first -->

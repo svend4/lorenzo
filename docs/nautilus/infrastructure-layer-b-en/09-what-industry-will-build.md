@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # What Industry Will Likely Build
 
 <!-- toc-auto -->

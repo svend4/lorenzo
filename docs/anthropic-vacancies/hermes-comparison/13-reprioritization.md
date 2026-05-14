@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Переприоритизация: что Hermes покрывает / не покрывает / synergy
 
 <!-- toc-auto -->

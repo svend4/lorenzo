@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Section 4: Specific deployment — SGB Advocate Community pilot
 
 <!-- toc-auto -->

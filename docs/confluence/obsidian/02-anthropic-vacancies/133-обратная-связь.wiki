@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/133-обратная-связь.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Обратная связь"
 tags:
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Обратная связь
@@ -28,7 +28,7 @@ h1. Обратная связь
 
 
 
-{quote}Issues: [github.com/svend4/nautilus/issues|https://github.com/svend4/nautilus/issues]{quote}
+{quote}Issues: [github.com/svend4/nautilus/issues|https://github.com/svend4/nautilus/issues] 🎯 Проблема: Мой takeaway: ключ в Протоколе 3 — Node'ы не ждут повелений сверху, assistant'ы sами poll meta-agent for needed context.{quote}
 
 ----
 

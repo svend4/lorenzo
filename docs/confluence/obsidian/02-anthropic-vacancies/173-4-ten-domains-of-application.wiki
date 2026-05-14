@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/173-4-ten-domains-of-application.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * ingestion
   * roadmap
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 4. Ten Domains of Application
@@ -31,7 +31,11 @@ h1. 4. Ten Domains of Application
 
 
 
-{quote}The Representative Agent pattern applies broadly. We identify{quote}
+{quote}_ Domain 3 — Social Workers Managing Client Caseloads Principal: Social worker, case manager, community organizer managi. _ Existing solutions: Legal aid (severely underfunded), advocacy organizations , private lawyers{quote}
+Principal: Conceptual — those who cannot represent 
+themselves: future generations affected by current 
+decisions, ecosystems impacted by policy, animals in 
+human-modified environments.
 
 ----
 

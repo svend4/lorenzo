@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 7. PortalEntry Structure
 
 <!-- toc-auto -->
@@ -31,7 +35,12 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Унифицированная структура данных, возвращаемая адаптерами.
+> * PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры. * PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры
+ 
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
 
 ---
 

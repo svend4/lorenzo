@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/FAQ.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Часто задаваемые вопросы (FAQ)
@@ -252,4 +252,15 @@ _Кто ссылается на этот документ (17):_
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * _...ещё 9_
+
+
+
+
+----
+
+_Смотрите также:_
+* [QUESTIONS|QUESTIONS.md]
+* [10-otkrytye-voprosy|nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md]
+* [10-open-questions|nautilus/representative-agent-layer-en/10-open-questions.md]
+* [VERSION_DIFF|VERSION_DIFF.md]
 

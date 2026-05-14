@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.
 
 <!-- toc-auto -->

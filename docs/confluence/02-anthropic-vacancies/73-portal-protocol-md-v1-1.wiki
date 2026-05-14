@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. PORTAL-PROTOCOL.md v1.1
 
@@ -17,111 +21,120 @@ h2. Contents
 
 
 
-{quote}_Status:_ Draft — пересмотрен под текущую реализацию v1.1{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. PORTAL-PROTOCOL.md v1.1 python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md v1 1"{quote}
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md v1 1"
+{code}
+Смотрите также
+ 03-portal-protocol-md
+ 152-ai-coordinated-infrastructure-for-distributed-expe
+ 135-a-formal
+
+---
+<!-- tags: collaboration, rag -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
+
+
+
+
+## PORTAL-PROTOCOL.md v1.1
+markdown
+{code}
+h1. Nautilus Portal Protocol
+
+_Version:_ 1.1.0-draft  
+_Status:_ Draft — пересмотрен под текущую реализацию v1.1  
+_Author:_ svend4  
+_Editorial review:_ Claude (ассистирующий анализ, 2026-04-19)  
+_Previous version:_ [PORTAL-PROTOCOL.md v1.0|https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md]  
+_License:_ CC BY 4.0 (документация) / MIT (reference implementation)  
+_Date:_ 2026-04  
 
 ----
 
 
-{quote}[!IMPORTANT]{quote}
-{quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
+
+----
+
+h2. Похожие документы
+* [03-portal-protocol-md|03-portal-protocol-md.md] (сходство 0.47)
+* [167-ai-mediated-representation-for-underrepresented-ex|167-ai-mediated-representation-for-underrepresented-ex.md] (сходство 0.29)
+* [135-a-formal-model-for-human-ai-collaboration-in-distr|135-a-formal-model-for-human-ai-collaboration-in-distr.md] (сходство 0.29)
 
 
 
 
+----
 
-h2. PORTAL-PROTOCOL.md v1.1
-markdown
-{code:language=markdown}
-# Nautilus Portal Protocol
-
-**Version:** 1.1.0-draft  
-**Status:** Draft — пересмотрен под текущую реализацию v1.1  
-**Author:** svend4  
-**Editorial review:** Claude (ассистирующий анализ, 2026-04-19)  
-**Previous version:** [PORTAL-PROTOCOL.md v1.0](https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md)  
-**License:** CC BY 4.0 (документация) / MIT (reference implementation)  
-**Date:** 2026-04  
-
----
-
-<!-- similar-docs -->
-
----
-
-## Похожие документы
-- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.47)
-- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.29)
-- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md) (сходство 0.29)
-
-
-<!-- see-also -->
-
----
-
-## Использование
-{code}
-h1. Поиск по теме документа
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
 python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md v1 1"
 {code}
 
-## Смотрите также
-- [03-portal-protocol-md](03-portal-protocol-md.md)
-- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
-- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+h2. Смотрите также
+* [03-portal-protocol-md|03-portal-protocol-md.md]
+* [152-ai-coordinated-infrastructure-for-distributed-expe|152-ai-coordinated-infrastructure-for-distributed-expe.md]
+* [135-a-formal-model-for-human-ai-collaboration-in-distr|135-a-formal-model-for-human-ai-collaboration-in-distr.md]
+* [167-ai-mediated-representation-for-underrepresented-ex|167-ai-mediated-representation-for-underrepresented-ex.md]
 
-<!-- backlinks-auto -->
-## Упоминается в
 
-- [18. Reference Implementation](93-18-reference-implementation.md)
-- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
-- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md)
-- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md)
-- [Author & Contact](52-author-contact.md)
-- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md)
-- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md)
-- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
-- [References](147-references.md)
-- [References](320-references.md)
-- [Вакансии Anthropic — Анализ по кластерам](README.md)
-- [Ссылки](338-ссылки.md)
-## Упоминается в
+h2. Упоминается в
 
-- [Вакансии Anthropic — Анализ по кластерам](../README.md)
+* [18. Reference Implementation|93-18-reference-implementation.md]
+* [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work|135-a-formal-model-for-human-ai-collaboration-in-distr.md]
+* [AI-Coordinated Infrastructure for Distributed Expert Contribution|152-ai-coordinated-infrastructure-for-distributed-expe.md]
+* [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations|167-ai-mediated-representation-for-underrepresented-ex.md]
+* [Author & Contact|52-author-contact.md]
+* [PORTAL-PROTOCOL.md|03-portal-protocol-md.md]
+* [README-MCP.md— инструкция по установке|125-readme-mcp-md-инструкция-по-установке.md]
+* [REVIEW_METHODOLOGY.md|105-review-methodology-md.md]
+* [References|147-references.md]
+* [References|320-references.md]
+* [Вакансии Anthropic — Анализ по кластерам|README.md]
+* [Ссылки|338-ссылки.md]
+h2. Упоминается в
 
-<!-- related-auto -->
-## Связанные документы
+* [Вакансии Anthropic — Анализ по кластерам|../README.md]
 
-- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _81%_
-- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md) _60%_
-- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _48%_
-- [Author & Contact](52-author-contact.md) _48%_
-- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _25%_
-- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _17%_
-- [10. Appendices](164-10-appendices.md) _17%_
-## Связанные документы
 
-- [PORTAL-PROTOCOL.md](03-portal-protocol-md.md) _53%_
-- [AI-Coordinated Infrastructure for Distributed Expert Contribution](152-ai-coordinated-infrastructure-for-distributed-expe.md) _53%_
-- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](135-a-formal-model-for-human-ai-collaboration-in-distr.md) _37%_
-- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](167-ai-mediated-representation-for-underrepresented-ex.md) _37%_
-- [Author & Contact](52-author-contact.md) _37%_
-- [0. Status of This Document](05-0-status-of-this-document.md) _21%_
-- [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _21%_
-- [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _21%_
+h2. Связанные документы
 
-<!-- backlinks -->
+* [PORTAL-PROTOCOL.md|03-portal-protocol-md.md] _81%_
+* [AI-Coordinated Infrastructure for Distributed Expert Contribution|152-ai-coordinated-infrastructure-for-distributed-expe.md] _60%_
+* [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work|135-a-formal-model-for-human-ai-collaboration-in-distr.md] _48%_
+* [Author & Contact|52-author-contact.md] _48%_
+* [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations|167-ai-mediated-representation-for-underrepresented-ex.md] _25%_
+* [README-MCP.md— инструкция по установке|125-readme-mcp-md-инструкция-по-установке.md] _17%_
+* [10. Appendices|164-10-appendices.md] _17%_
+h2. Связанные документы
 
----
+* [PORTAL-PROTOCOL.md|03-portal-protocol-md.md] _53%_
+* [AI-Coordinated Infrastructure for Distributed Expert Contribution|152-ai-coordinated-infrastructure-for-distributed-expe.md] _53%_
+* [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work|135-a-formal-model-for-human-ai-collaboration-in-distr.md] _37%_
+* [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations|167-ai-mediated-representation-for-underrepresented-ex.md] _37%_
+* [Author & Contact|52-author-contact.md] _37%_
+* [0. Status of This Document|05-0-status-of-this-document.md] _21%_
+* [REVIEW_METHODOLOGY.md|105-review-methodology-md.md] _21%_
+* [README-MCP.md— инструкция по установке|125-readme-mcp-md-инструкция-по-установке.md] _21%_
 
-## Кто ссылается на этот документ (13)
-- [03-portal-protocol-md](03-portal-protocol-md.md)
-- [05-0-status-of-this-document](05-0-status-of-this-document.md)
-- [105-review-methodology-md](105-review-methodology-md.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
-- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
-- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
-- [164-10-appendices](164-10-appendices.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
-- _...ещё 5_
+
+
+----
+
+h2. Кто ссылается на этот документ (13)
+* [03-portal-protocol-md|03-portal-protocol-md.md]
+* [05-0-status-of-this-document|05-0-status-of-this-document.md]
+* [105-review-methodology-md|105-review-methodology-md.md]
+* [125-readme-mcp-md-инструкция-по-установке|125-readme-mcp-md-инструкция-по-установке.md]
+* [135-a-formal-model-for-human-ai-collaboration-in-distr|135-a-formal-model-for-human-ai-collaboration-in-distr.md]
+* [152-ai-coordinated-infrastructure-for-distributed-expe|152-ai-coordinated-infrastructure-for-distributed-expe.md]
+* [164-10-appendices|164-10-appendices.md]
+* [167-ai-mediated-representation-for-underrepresented-ex|167-ai-mediated-representation-for-underrepresented-ex.md]
+* _...ещё 5_
 

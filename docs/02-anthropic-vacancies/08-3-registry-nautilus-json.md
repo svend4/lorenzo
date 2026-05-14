@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 3. Registry (`nautilus.json`)
 
 <!-- toc -->
@@ -50,10 +54,16 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Registry — central source of truth о том, какие Repos входят в
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. Все остальные поля OPTIONAL, но SHOULD быть заполнены для хорошей
+Все остальные поля OPTIONAL, но SHOULD быть заполнены для хорошей 
+discoverability:
+ — если опущен, Repo существует только локально
+ ,  ,   — human-readable metadata
+ — пустой объект допустим, если мостов нет
+3.5.
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 ## 3. Registry (`nautilus.json`)

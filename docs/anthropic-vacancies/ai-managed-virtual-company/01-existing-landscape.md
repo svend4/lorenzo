@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что уже существует (InnoCentive, Kaggle, Toptal, Anthropic Fellows, DAOs)
 
 <!-- toc-auto -->

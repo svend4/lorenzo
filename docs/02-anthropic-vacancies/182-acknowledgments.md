@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Acknowledgments
 
 <!-- toc-auto -->
@@ -20,10 +24,23 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> This concept emerged through dialogue across multiple
+> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10) This concept emerged through dialogue across multiple
+ 
+Contents
+ Acknowledgments
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (10)
+> [!TIP]
+> Документ содержит практические реком
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

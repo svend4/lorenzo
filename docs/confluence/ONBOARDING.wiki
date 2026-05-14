@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ONBOARDING.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Онбординг — Svyazi 2.0 / Lorenzo
@@ -133,4 +133,15 @@ _Кто ссылается на этот документ (11):_
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
 * _...ещё 3_
+
+
+
+
+----
+
+_Смотрите также:_
+* [INDEX|INDEX.md]
+* [FOOTNOTES|FOOTNOTES.md]
+* [TECH_RADAR|TECH_RADAR.md]
+* [PROGRESS|PROGRESS.md]
 

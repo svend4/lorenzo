@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "nlaik"
@@ -30,7 +31,17 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> - [Статус связи](#статус-связи)
+> Документ содержит практические рекомендации и лучшие практики. Контакт: nlaik / LiteParse / research-docs Проекты: Svyazi, LiteParse Проекты | LiteParse / research-docs |
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
 **Проекты:** Svyazi, LiteParse
 
 ---

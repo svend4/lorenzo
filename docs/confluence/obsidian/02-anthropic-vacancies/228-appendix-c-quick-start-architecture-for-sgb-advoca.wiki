@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Appendix C: Quick-Start Architecture for SGB Advocate Colleague"
 tags:
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Appendix C: Quick-Start Architecture for SGB Advocate Colleague
@@ -28,7 +28,10 @@ h1. Appendix C: Quick-Start Architecture for SGB Advocate Colleague
 
 
 
-{quote}For readers interested in concrete architecture for the{quote}
+{quote}> ✅ Результат: Эта строгость полезна , потому что: - Помогает differentiation от других типов - Делает category боеспособной для продакшена - Прорезывает hype вокруг "AI for X" Если кто-то продаё{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!IMPO{quote}
 
 ----
 

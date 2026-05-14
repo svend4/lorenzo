@@ -2,8 +2,9 @@
 title: "1. The Cinderella Syndrome: Why Quality Stays Invisible"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 1. The Cinderella Syndrome: Why Quality Stays Invisible
@@ -23,8 +24,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The Cinderella Syndrome: Why Quality Stays Invisible There is a recurring asymmetry in modern markets — markets for --- Содержание - 1.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > There is a recurring asymmetry in modern markets — markets for
@@ -42,7 +43,7 @@ date: 2026-05-13
 
 ---
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что у нас есть в трёх info repositories (info1/info7/info40)
 
 <!-- toc-auto -->

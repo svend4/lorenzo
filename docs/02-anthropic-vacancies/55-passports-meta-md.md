@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # passports/meta.md
 
 <!-- toc-auto -->
@@ -12,10 +16,23 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > **Символьный угол экосистемы svend4**
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа python scripts/improve_semantic_search.py --query "passports meta md"
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "passports meta md"
+```
+Смотрите также
+ 35-passports-info1-md
+ 27-15-glossary-of-examples
+ 45-passports-pro2-md
+ 56-essence
+ 
+Упоминается в
+ 15
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

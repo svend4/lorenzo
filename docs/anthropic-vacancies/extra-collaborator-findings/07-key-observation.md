@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Ключевое наблюдение: single-developer projects of significant sophistication
 
 <!-- toc-auto -->

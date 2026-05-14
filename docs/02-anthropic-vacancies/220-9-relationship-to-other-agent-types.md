@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 9. Relationship to Other Agent Types
 
 > [!NOTE]
@@ -16,8 +20,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Integration challenge: Layer C (interface layer) of Type 1 needs to talk to Type 2 systems.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Professional Colleague Agents do not stand alone. They

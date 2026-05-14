@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "AnastasiyaW"
@@ -31,7 +32,18 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> - [Статус связи](#статус-связи)
+> Документ содержит практические рекомендации и лучшие практики. Контакт: AnastasiyaW / knowledge-space, mclaude Кто ссылается на этот документ (4) Проекты: Svyazi, knowledge-space, mclaude
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+ Кто ссылается на этот документ (4)
+> [!TIP]
+> Документ содержит практические рекомендации и лучш
 **Проекты:** Svyazi, knowledge-space, mclaude
 
 ---

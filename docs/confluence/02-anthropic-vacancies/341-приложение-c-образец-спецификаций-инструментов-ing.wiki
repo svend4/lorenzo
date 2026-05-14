@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [memory, rag, orchestration, security, knowledge]
+state: approved
+----
 
 h1. Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
 
@@ -21,7 +27,10 @@ h1. Приложение C: Образец Спецификаций Инстру
 
 
 
-{quote}Для справки, вот детальные спецификации для{quote}
+{quote}> ✅ Результат: Уникальные свойства : - Knowledge written for agents, not humans — fundamentally different design - Domain-specific freshness thresholds : алгоритмы стабильны (обновлять не нужно),{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!TIP]{quote}
 _Проекты:_ Svyazi, CardIndex, [knowledge-space|../01-svyazi/03-component-catalog.md], Graph RAG, NGT Memory, Wikontic
 
 ----

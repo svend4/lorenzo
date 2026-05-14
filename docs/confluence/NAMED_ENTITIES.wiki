@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/NAMED_ENTITIES.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Индекс именованных сущностей
@@ -454,4 +454,15 @@ _Кто ссылается на этот документ (11):_
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * _...ещё 3_
+
+
+
+
+----
+
+_Смотрите также:_
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+* [CITATION_INDEX|CITATION_INDEX.md]
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [ENTITIES|ENTITIES.md]
 

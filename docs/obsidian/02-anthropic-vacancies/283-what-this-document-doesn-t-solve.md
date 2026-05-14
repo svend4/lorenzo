@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # What This Document Doesn't Solve
@@ -29,8 +29,8 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. This document identifies a problem. This document identifies a problem.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > This document identifies a problem. It does not propose a

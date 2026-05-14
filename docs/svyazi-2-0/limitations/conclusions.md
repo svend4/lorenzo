@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Итоговые выводы и порядок сборки
 
 <!-- toc-auto -->
@@ -16,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источники: `deep-research-report (1).md` (раздел «Выводы») и итог из `deep-research-report (3).md`.
+> > Источники: `deep-research-report (1).md` (раздел «Выводы») и итог из `deep-research-report (3).md`. Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 **Проекты:** Svyazi, CardIndex, AgentFS, mclaude, AI Factory, Rufler, LiteParse, Yodoca
 
 ---

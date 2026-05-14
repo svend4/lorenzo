@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 8. Risk Analysis
 
 > [!TIP]

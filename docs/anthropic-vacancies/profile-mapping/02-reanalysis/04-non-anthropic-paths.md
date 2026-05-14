@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Альтернативные пути вне Anthropic
 
 <!-- toc-auto -->

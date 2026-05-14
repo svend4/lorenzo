@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Сходство 3: MCP support
 
 <!-- toc-auto -->

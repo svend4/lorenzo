@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 00 Intro
 
 <!-- toc-auto -->

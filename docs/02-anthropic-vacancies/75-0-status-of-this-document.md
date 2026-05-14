@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 0. Status of This Document
 
 <!-- toc-auto -->
@@ -20,14 +24,14 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Этот документ — рабочий черновик Nautilus Portal Protocol v1.1.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

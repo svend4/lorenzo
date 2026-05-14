@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/34-appendix-b-change-log.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Appendix B: Change Log
@@ -41,7 +41,17 @@ h2. Содержание
 
 
 
-{quote}- _2026-04: v1.0.0-draft_ — Initial draft published.{quote}
+{quote}_ Второе — раздел 11 Security Considerations, где явно обозначена проблема с приватными репо (это прямо связано с вашими. _ Это важно: спецификация должна быть простой и реализуемой , а сложные алгоритмы (embeddings, semantic similarity) — от{quote}
+ 
+Содержание
+ Appendix B: Change Log
+ Комментарий к документу
+ Паспорт 1 из 3
+ --
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Второе — раздел 11 Security Considerations, где явно обозначена проблема с приватными репо (это прямо связано{quote}
 
 ----
 

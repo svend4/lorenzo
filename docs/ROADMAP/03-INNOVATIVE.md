@@ -1,10 +1,16 @@
+---
+state: approved
+---
+
 # 03 — Инновационные направления (frontier research)
 
 <!-- summary -->
-> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Современный research frontier : уже опубликованы paper'ы, есть прототипы, но мало production-grade реализаций.
 **Проекты:** Yodoca
 
 ---
+<!-- tags: memory, rag, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
 
 
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. The Missing Middle Layer Between Chat and Code
@@ -52,8 +52,8 @@ h2. Содержание
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Document type: Inquiry paper, not architectural specification Document type: Inquiry paper, not architectural specification{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Document type:_ Inquiry paper, not architectural specification{quote}

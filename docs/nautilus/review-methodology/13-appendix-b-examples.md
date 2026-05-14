@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix B: Примеры расхождений и их разрешения
 
 <!-- toc-auto -->
@@ -18,7 +22,7 @@
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, architecture -->
 
 
 

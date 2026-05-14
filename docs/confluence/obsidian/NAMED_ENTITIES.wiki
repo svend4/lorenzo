@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/NAMED_ENTITIES.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Индекс именованных сущностей"
 tags:
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Индекс именованных сущностей
@@ -461,4 +461,15 @@ _Кто ссылается на этот документ (11):_
 * [[READABILITY]]
 * [[READING_TIME]]
 * _...ещё 3_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[DIGEST_WEEKLY]]
+* [[CITATION_INDEX]]
+* [[CODE_BLOCKS]]
+* [[ENTITIES]]
 

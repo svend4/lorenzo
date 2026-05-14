@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Уточнённый объём InGit с учётом Cowork
 
 <!-- toc -->
@@ -33,7 +37,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)». Этот документ описывает MVP-подход.
 
 ---
 <!-- tags: architecture, roadmap, anthropic -->

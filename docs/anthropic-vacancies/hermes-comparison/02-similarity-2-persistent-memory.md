@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Сходство 2: Persistent memory — Layer B функциональность
 
 <!-- toc-auto -->

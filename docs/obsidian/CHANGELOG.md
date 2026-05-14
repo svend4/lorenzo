@@ -4,7 +4,7 @@ tags:
   - changelog
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # CHANGELOG
@@ -186,4 +186,15 @@ python scripts/improve_changelog.py
 - [[SCRIPT_EVAL_REPORT]]
 - [[SEARCH]]
 - _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DEPENDENCY_MAP]]
+- [[DIGEST]]
+- [[CHANGELOG_AUTO]]
+- [[DIGEST_WEEKLY]]
 

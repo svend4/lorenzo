@@ -2,7 +2,7 @@
 title: "Качество абзацев"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Качество абзацев
@@ -6298,4 +6298,15 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [[SEARCH]]
 - [[TABLES]]
 - _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[HEADING_AUDIT]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
 

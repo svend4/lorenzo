@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Сложности и рекомендации перед detailed specification
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Research Report: Sozialrecht (35 комбинаций)
 
 <!-- toc-auto -->

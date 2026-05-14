@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/285-closing.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Closing
 
@@ -56,7 +60,11 @@ h2. Содержание
 
 
 
-{quote}The seven documents in this series describe substantial{quote}
+{quote}_ That vision rests on infrastructure that partially exists and partially needs building. _ The author is unusually positioned to contribute to filling this gap, because the existing Nautilus work provides rele{quote}
+the documents, structure the repository, enable discussions, 
+maintain cross-references manually, and proceed with the 
+applied work (SGB pilot, foundation outreach, sub-agent 
+registry deve
 
 ----
 

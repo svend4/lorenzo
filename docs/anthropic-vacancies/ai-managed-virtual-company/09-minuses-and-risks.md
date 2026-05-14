@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Минусы и риски
 
 <!-- toc-auto -->

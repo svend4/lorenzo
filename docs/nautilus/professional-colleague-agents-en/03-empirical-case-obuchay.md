@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 3. Empirical Case Study: «Обучай»
 
 > [!NOTE]

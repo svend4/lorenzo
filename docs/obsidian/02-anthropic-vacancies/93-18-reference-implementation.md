@@ -4,7 +4,7 @@ tags:
   - rag
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 18. Reference Implementation
@@ -30,8 +30,8 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Reference implementation: Reference НЕ является нормативной. Альтернативные implementations
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > [`github.com/svend4/nautilus`](https://github.com/svend4/nautilus).

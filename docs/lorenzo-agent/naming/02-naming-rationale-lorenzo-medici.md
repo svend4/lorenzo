@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что взять: agent controller architecture
 
 <!-- toc-auto -->

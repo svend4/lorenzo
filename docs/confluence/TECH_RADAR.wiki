@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/TECH_RADAR.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Tech Radar — Svyazi 2.0
@@ -122,4 +122,15 @@ _Кто ссылается на этот документ (11):_
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * _...ещё 3_
+
+
+
+
+----
+
+_Смотрите также:_
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
+* [ONBOARDING|ONBOARDING.md]
+* [FOOTNOTES|FOOTNOTES.md]
+* [SCHEDULE|SCHEDULE.md]
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Refined InGit Scope with Cowork in Mind
 
 <!-- toc -->
@@ -33,7 +37,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)». Этот документ описывает MVP-подход.
 
 ---
 <!-- tags: architecture, roadmap, anthropic -->

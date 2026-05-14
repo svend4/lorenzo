@@ -2,7 +2,7 @@
 title: "Tech Radar — Svyazi 2.0"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Tech Radar — Svyazi 2.0
@@ -128,4 +128,15 @@ _Radar обновляется вручную при существенных и�
 - [[README]]
 - [[SEARCH]]
 - _...ещё 3_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[COMPONENT_MATRIX]]
+- [[ONBOARDING]]
+- [[FOOTNOTES]]
+- [[SCHEDULE]]
 
