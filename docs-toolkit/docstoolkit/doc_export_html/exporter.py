@@ -50,7 +50,7 @@ _FENCE_RE = re.compile(r"^```\s*([\w+\-.]*)\s*$")
 _UL_RE = re.compile(r"^([ \t]*)[-*+]\s+(.*)$")
 _OL_RE = re.compile(r"^([ \t]*)(\d+)\.\s+(.*)$")
 _BQ_RE = re.compile(r"^>\s?(.*)$")
-_TABLE_SEP_RE = re.compile(r"^\s*\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)+\|?\s*$")
+_TABLE_SEP_RE = re.compile(r"^\s*\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)*\|?\s*$")
 
 
 class DocExportHtml:
