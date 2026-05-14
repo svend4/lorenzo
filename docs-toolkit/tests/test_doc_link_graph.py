@@ -1,778 +1,658 @@
-"""Tests for docstoolkit.doc_link_graph."""
+"""Tests for E315 docstoolkit.doc_link_graph."""
 from __future__ import annotations
+
+import threading
+import time
 
 import pytest
 
-from docstoolkit.doc_link_graph import (
-    DocLink,
-    DocLinkGraph,
-    LinkStats,
-    LinkType,
-)
+from docstoolkit.doc_link_graph import DocLink, DocLinkGraph, LinkGraphStats
 
 
-# ---------- LinkType ----------
+# ---------------------------------------------------------------------------
+# DocLink dataclass
+# ---------------------------------------------------------------------------
 
-class TestLinkType:
-    def test_all_members_present(self):
-        names = {m.name for m in LinkType}
-        assert {"REFERENCE", "CITATION", "EMBED", "MENTION", "FOLLOWUP"} <= names
+class TestDocLinkDataclass:
+    def test_required_fields(self):
+        lnk = DocLink(from_doc="a", to_doc="b")
+        assert lnk.from_doc == "a"
+        assert lnk.to_doc == "b"
 
-    def test_values_are_strings(self):
-        for m in LinkType:
-            assert isinstance(m.value, str)
+    def test_defaults(self):
+        lnk = DocLink(from_doc="a", to_doc="b")
+        assert lnk.anchor == ""
+        assert lnk.link_type == "internal"
+        assert lnk.added_at == 0.0
 
-    def test_distinct_values(self):
-        values = [m.value for m in LinkType]
-        assert len(values) == len(set(values))
+    def test_custom_anchor(self):
+        lnk = DocLink(from_doc="a", to_doc="b", anchor="click here")
+        assert lnk.anchor == "click here"
 
-    def test_can_compare(self):
-        assert LinkType.REFERENCE == LinkType.REFERENCE
-        assert LinkType.CITATION != LinkType.MENTION
+    def test_custom_link_type(self):
+        lnk = DocLink(from_doc="a", to_doc="b", link_type="external")
+        assert lnk.link_type == "external"
 
+    def test_citation_link_type(self):
+        lnk = DocLink(from_doc="a", to_doc="b", link_type="citation")
+        assert lnk.link_type == "citation"
 
-# ---------- DocLink ----------
+    def test_custom_added_at(self):
+        lnk = DocLink(from_doc="a", to_doc="b", added_at=999.9)
+        assert lnk.added_at == 999.9
 
-class TestDocLink:
-    def test_create_basic(self):
-        link = DocLink(source="a", target="b", link_type=LinkType.REFERENCE)
-        assert link.source == "a"
-        assert link.target == "b"
-        assert link.link_type == LinkType.REFERENCE
-        assert link.weight == 1.0
-        assert link.metadata == {}
-        assert link.created_at == 0.0
+    def test_all_fields(self):
+        lnk = DocLink(from_doc="x", to_doc="y", anchor="ref", link_type="citation", added_at=1.0)
+        assert lnk.from_doc == "x"
+        assert lnk.to_doc == "y"
+        assert lnk.anchor == "ref"
+        assert lnk.link_type == "citation"
+        assert lnk.added_at == 1.0
 
-    def test_weight_custom(self):
-        link = DocLink(source="a", target="b", link_type=LinkType.CITATION, weight=2.5)
-        assert link.weight == 2.5
-
-    def test_metadata_independent(self):
-        a = DocLink(source="a", target="b", link_type=LinkType.MENTION)
-        b = DocLink(source="c", target="d", link_type=LinkType.MENTION)
-        a.metadata["x"] = 1
-        assert b.metadata == {}
-
-    def test_created_at(self):
-        link = DocLink(source="a", target="b", link_type=LinkType.EMBED, created_at=12.5)
-        assert link.created_at == 12.5
-
-
-# ---------- LinkStats ----------
-
-class TestLinkStats:
-    def test_create(self):
-        stats = LinkStats(
-            total_docs=3,
-            total_links=2,
-            most_linked_to=[("a", 1)],
-            most_linking=[("b", 1)],
-            orphan_count=0,
-        )
-        assert stats.total_docs == 3
-        assert stats.total_links == 2
-        assert stats.orphan_count == 0
+    def test_mutable_fields(self):
+        lnk = DocLink(from_doc="a", to_doc="b")
+        lnk.anchor = "new"
+        assert lnk.anchor == "new"
 
 
-# ---------- AddDoc ----------
+# ---------------------------------------------------------------------------
+# LinkGraphStats dataclass
+# ---------------------------------------------------------------------------
 
-class TestAddDoc:
-    def test_add_one(self):
+class TestLinkGraphStatsDataclass:
+    def test_all_fields(self):
+        s = LinkGraphStats(total_links=5, unique_sources=3, unique_targets=4, orphan_count=1)
+        assert s.total_links == 5
+        assert s.unique_sources == 3
+        assert s.unique_targets == 4
+        assert s.orphan_count == 1
+
+    def test_zero_values(self):
+        s = LinkGraphStats(total_links=0, unique_sources=0, unique_targets=0, orphan_count=0)
+        assert s.total_links == 0
+
+    def test_dataclass_equality(self):
+        a = LinkGraphStats(total_links=1, unique_sources=1, unique_targets=1, orphan_count=0)
+        b = LinkGraphStats(total_links=1, unique_sources=1, unique_targets=1, orphan_count=0)
+        assert a == b
+
+
+# ---------------------------------------------------------------------------
+# Construction
+# ---------------------------------------------------------------------------
+
+class TestConstruction:
+    def test_empty_graph(self):
         g = DocLinkGraph()
-        g.add_doc("a")
-        assert "a" in g.all_docs()
+        assert g.all_nodes() == []
+        assert g.all_links() == []
 
-    def test_add_many(self):
+    def test_stats_empty(self):
         g = DocLinkGraph()
-        for d in ("a", "b", "c"):
-            g.add_doc(d)
-        assert g.doc_count == 3
+        s = g.stats()
+        assert s.total_links == 0
+        assert s.unique_sources == 0
+        assert s.unique_targets == 0
+        assert s.orphan_count == 0
 
-    def test_add_duplicate(self):
+    def test_independent_instances(self):
+        g1 = DocLinkGraph()
+        g2 = DocLinkGraph()
+        g1.add_node("a")
+        assert g2.all_nodes() == []
+
+
+# ---------------------------------------------------------------------------
+# add_node
+# ---------------------------------------------------------------------------
+
+class TestAddNode:
+    def test_registers_node(self):
         g = DocLinkGraph()
-        g.add_doc("a")
-        g.add_doc("a")
-        assert g.doc_count == 1
+        g.add_node("doc1")
+        assert "doc1" in g.all_nodes()
 
-
-# ---------- RemoveDoc ----------
-
-class TestRemoveDoc:
-    def test_remove_existing(self):
+    def test_no_duplicate_on_readd(self):
         g = DocLinkGraph()
-        g.add_doc("a")
-        assert g.remove_doc("a") is True
-        assert g.doc_count == 0
+        g.add_node("doc1")
+        g.add_node("doc1")
+        assert g.all_nodes().count("doc1") == 1
 
-    def test_remove_missing(self):
+    def test_multiple_nodes(self):
         g = DocLinkGraph()
-        assert g.remove_doc("missing") is False
+        for name in ("c", "a", "b"):
+            g.add_node(name)
+        assert g.all_nodes() == ["a", "b", "c"]
+
+    def test_node_has_no_links(self):
+        g = DocLinkGraph()
+        g.add_node("solo")
+        assert g.out_degree("solo") == 0
+        assert g.in_degree("solo") == 0
+
+    def test_orphan_after_add_node(self):
+        g = DocLinkGraph()
+        g.add_node("isolated")
+        assert g.stats().orphan_count == 1
+
+
+# ---------------------------------------------------------------------------
+# remove_node
+# ---------------------------------------------------------------------------
+
+class TestRemoveNode:
+    def test_removes_node(self):
+        g = DocLinkGraph()
+        g.add_node("a")
+        g.remove_node("a")
+        assert "a" not in g.all_nodes()
+
+    def test_returns_zero_for_unknown(self):
+        g = DocLinkGraph()
+        assert g.remove_node("ghost") == 0
+
+    def test_returns_count_of_removed_links(self):
+        g = DocLinkGraph()
+        g.add_link("a", "b")
+        g.add_link("a", "c")
+        removed = g.remove_node("a")
+        assert removed == 2
 
     def test_removes_outgoing_links(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        g.remove_doc("a")
+        g.remove_node("a")
         assert g.in_degree("b") == 0
-        assert g.link_count == 0
+        assert not g.has_link("a", "b")
 
     def test_removes_incoming_links(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        g.remove_doc("b")
+        g.remove_node("b")
         assert g.out_degree("a") == 0
-        assert g.link_count == 0
+        assert not g.has_link("a", "b")
 
-    def test_cascades_complex(self):
+    def test_self_loop_counted_once(self):
         g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        g.add_link("c", "b")
-        g.remove_doc("b")
-        assert g.link_count == 0
-        assert g.doc_count == 2  # a, c remain
+        g.add_link("a", "a")
+        removed = g.remove_node("a")
+        assert removed == 1
+        assert g.all_nodes() == []
+
+    def test_cascades_both_directions(self):
+        g = DocLinkGraph()
+        g.add_link("x", "y")
+        g.add_link("z", "y")
+        removed = g.remove_node("y")
+        assert removed == 2
+        assert g.out_degree("x") == 0
+        assert g.out_degree("z") == 0
 
 
-# ---------- AddLink ----------
+# ---------------------------------------------------------------------------
+# add_link
+# ---------------------------------------------------------------------------
 
 class TestAddLink:
-    def test_basic(self):
+    def test_creates_link(self):
         g = DocLinkGraph()
-        link = g.add_link("a", "b")
-        assert isinstance(link, DocLink)
-        assert link.source == "a"
-        assert link.target == "b"
-        assert link.link_type == LinkType.REFERENCE
+        lnk = g.add_link("a", "b")
+        assert isinstance(lnk, DocLink)
+        assert lnk.from_doc == "a"
+        assert lnk.to_doc == "b"
 
-    def test_creates_docs_implicitly(self):
+    def test_registers_both_nodes(self):
         g = DocLinkGraph()
-        g.add_link("a", "b")
-        assert "a" in g.all_docs()
-        assert "b" in g.all_docs()
+        g.add_link("src", "dst")
+        assert "src" in g.all_nodes()
+        assert "dst" in g.all_nodes()
+
+    def test_default_link_type(self):
+        g = DocLinkGraph()
+        lnk = g.add_link("a", "b")
+        assert lnk.link_type == "internal"
 
     def test_custom_link_type(self):
         g = DocLinkGraph()
-        link = g.add_link("a", "b", link_type=LinkType.CITATION)
-        assert link.link_type == LinkType.CITATION
+        lnk = g.add_link("a", "b", link_type="external")
+        assert lnk.link_type == "external"
 
-    def test_weight(self):
+    def test_custom_anchor(self):
         g = DocLinkGraph()
-        link = g.add_link("a", "b", weight=3.5)
-        assert link.weight == 3.5
+        lnk = g.add_link("a", "b", anchor="See also")
+        assert lnk.anchor == "See also"
 
-    def test_metadata(self):
+    def test_custom_now(self):
         g = DocLinkGraph()
-        link = g.add_link("a", "b", metadata={"k": "v"})
-        assert link.metadata == {"k": "v"}
+        lnk = g.add_link("a", "b", now=42.0)
+        assert lnk.added_at == 42.0
 
-    def test_now(self):
+    def test_update_anchor_on_readd(self):
         g = DocLinkGraph()
-        link = g.add_link("a", "b", now=100.0)
-        assert link.created_at == 100.0
+        g.add_link("a", "b", anchor="old")
+        lnk2 = g.add_link("a", "b", anchor="new")
+        assert lnk2.anchor == "new"
+        assert len(g.all_links()) == 1
 
-    def test_replacing_existing(self):
+    def test_update_link_type_on_readd(self):
         g = DocLinkGraph()
-        g.add_link("a", "b", weight=1.0)
-        g.add_link("a", "b", weight=5.0)
-        assert g.link_count == 1
-        assert g.forward_links("a")[0].weight == 5.0
+        g.add_link("a", "b", link_type="internal")
+        lnk2 = g.add_link("a", "b", link_type="citation")
+        assert lnk2.link_type == "citation"
+        assert len(g.all_links()) == 1
 
-    def test_metadata_default_empty(self):
+    def test_no_duplicate_in_all_links(self):
         g = DocLinkGraph()
-        link = g.add_link("a", "b")
-        assert link.metadata == {}
+        g.add_link("a", "b")
+        g.add_link("a", "b")
+        assert len(g.all_links()) == 1
+
+    def test_self_link(self):
+        g = DocLinkGraph()
+        lnk = g.add_link("a", "a")
+        assert lnk.from_doc == "a"
+        assert lnk.to_doc == "a"
 
 
-# ---------- RemoveLink ----------
+# ---------------------------------------------------------------------------
+# remove_link
+# ---------------------------------------------------------------------------
 
 class TestRemoveLink:
-    def test_existing(self):
+    def test_returns_true_when_existed(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
         assert g.remove_link("a", "b") is True
-        assert g.link_count == 0
 
-    def test_missing(self):
+    def test_returns_false_when_absent(self):
         g = DocLinkGraph()
-        g.add_doc("a")
+        g.add_node("a")
         assert g.remove_link("a", "b") is False
 
-    def test_unknown_source(self):
-        g = DocLinkGraph()
-        assert g.remove_link("nope", "b") is False
-
-    def test_keeps_docs(self):
+    def test_link_gone_after_remove(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
         g.remove_link("a", "b")
-        assert g.doc_count == 2
+        assert not g.has_link("a", "b")
 
-    def test_removes_from_backlinks(self):
+    def test_removed_from_outgoing(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
         g.remove_link("a", "b")
-        assert g.backlinks("b") == []
+        assert g.outgoing("a") == []
 
-
-# ---------- UpdateLink ----------
-
-class TestUpdateLink:
-    def test_weight(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b", weight=1.0)
-        assert g.update_link("a", "b", weight=2.0) is True
-        assert g.forward_links("a")[0].weight == 2.0
-
-    def test_metadata_merges(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b", metadata={"x": 1})
-        g.update_link("a", "b", metadata={"y": 2})
-        link = g.forward_links("a")[0]
-        assert link.metadata == {"x": 1, "y": 2}
-
-    def test_missing(self):
-        g = DocLinkGraph()
-        assert g.update_link("a", "b", weight=2.0) is False
-
-    def test_no_changes(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b", weight=1.0)
-        assert g.update_link("a", "b") is True
-        assert g.forward_links("a")[0].weight == 1.0
-
-
-# ---------- ForwardLinks ----------
-
-class TestForwardLinks:
-    def test_basic(self):
+    def test_removed_from_incoming(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
+        g.remove_link("a", "b")
+        assert g.incoming("b") == []
+
+    def test_nodes_remain_after_remove_link(self):
+        g = DocLinkGraph()
+        g.add_link("a", "b")
+        g.remove_link("a", "b")
+        assert "a" in g.all_nodes()
+        assert "b" in g.all_nodes()
+
+
+# ---------------------------------------------------------------------------
+# get_link
+# ---------------------------------------------------------------------------
+
+class TestGetLink:
+    def test_found(self):
+        g = DocLinkGraph()
+        g.add_link("a", "b", anchor="hello")
+        lnk = g.get_link("a", "b")
+        assert lnk is not None
+        assert lnk.anchor == "hello"
+
+    def test_not_found(self):
+        g = DocLinkGraph()
+        assert g.get_link("a", "b") is None
+
+    def test_wrong_direction(self):
+        g = DocLinkGraph()
+        g.add_link("a", "b")
+        assert g.get_link("b", "a") is None
+
+
+# ---------------------------------------------------------------------------
+# has_link
+# ---------------------------------------------------------------------------
+
+class TestHasLink:
+    def test_true_when_present(self):
+        g = DocLinkGraph()
+        g.add_link("a", "b")
+        assert g.has_link("a", "b") is True
+
+    def test_false_when_absent(self):
+        g = DocLinkGraph()
+        assert g.has_link("a", "b") is False
+
+    def test_directional(self):
+        g = DocLinkGraph()
+        g.add_link("a", "b")
+        assert g.has_link("b", "a") is False
+
+
+# ---------------------------------------------------------------------------
+# outgoing
+# ---------------------------------------------------------------------------
+
+class TestOutgoing:
+    def test_sorted_by_to_doc(self):
+        g = DocLinkGraph()
         g.add_link("a", "c")
-        assert len(g.forward_links("a")) == 2
+        g.add_link("a", "b")
+        links = g.outgoing("a")
+        assert [lnk.to_doc for lnk in links] == ["b", "c"]
 
-    def test_unknown_doc(self):
+    def test_empty_for_unknown_node(self):
         g = DocLinkGraph()
-        assert g.forward_links("nope") == []
+        assert g.outgoing("ghost") == []
 
-    def test_returns_copy(self):
+    def test_empty_after_remove(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        result = g.forward_links("a")
-        result.clear()
-        assert len(g.forward_links("a")) == 1
+        g.remove_link("a", "b")
+        assert g.outgoing("a") == []
 
-
-# ---------- Backlinks ----------
-
-class TestBacklinks:
-    def test_basic(self):
+    def test_returns_doclink_instances(self):
         g = DocLinkGraph()
+        g.add_link("a", "b")
+        links = g.outgoing("a")
+        assert all(isinstance(lnk, DocLink) for lnk in links)
+
+
+# ---------------------------------------------------------------------------
+# incoming
+# ---------------------------------------------------------------------------
+
+class TestIncoming:
+    def test_sorted_by_from_doc(self):
+        g = DocLinkGraph()
+        g.add_link("c", "z")
         g.add_link("a", "z")
-        g.add_link("b", "z")
-        assert len(g.backlinks("z")) == 2
+        links = g.incoming("z")
+        assert [lnk.from_doc for lnk in links] == ["a", "c"]
 
-    def test_unknown_doc(self):
+    def test_empty_for_unknown_node(self):
         g = DocLinkGraph()
-        assert g.backlinks("nope") == []
+        assert g.incoming("ghost") == []
 
-    def test_no_incoming(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        assert g.backlinks("a") == []
-
-
-# ---------- LinksByType ----------
-
-class TestLinksByType:
-    def test_basic(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b", link_type=LinkType.CITATION)
-        g.add_link("a", "c", link_type=LinkType.MENTION)
-        g.add_link("b", "c", link_type=LinkType.CITATION)
-        cites = g.links_by_type(LinkType.CITATION)
-        assert len(cites) == 2
-
-    def test_none_of_type(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b", link_type=LinkType.CITATION)
-        assert g.links_by_type(LinkType.EMBED) == []
-
-    def test_empty(self):
-        g = DocLinkGraph()
-        assert g.links_by_type(LinkType.REFERENCE) == []
-
-
-# ---------- IsLinked ----------
-
-class TestIsLinked:
-    def test_true(self):
+    def test_empty_after_remove(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        assert g.is_linked("a", "b") is True
+        g.remove_link("a", "b")
+        assert g.incoming("b") == []
 
-    def test_false(self):
+    def test_returns_doclink_instances(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        assert g.is_linked("b", "a") is False
-
-    def test_unknown(self):
-        g = DocLinkGraph()
-        assert g.is_linked("x", "y") is False
+        links = g.incoming("b")
+        assert all(isinstance(lnk, DocLink) for lnk in links)
 
 
-# ---------- Path ----------
+# ---------------------------------------------------------------------------
+# Degrees
+# ---------------------------------------------------------------------------
 
-class TestPath:
-    def test_direct(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        assert g.path("a", "b") == ["a", "b"]
-
-    def test_two_hops(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        assert g.path("a", "c") == ["a", "b", "c"]
-
-    def test_shortest_preferred(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        g.add_link("c", "d")
-        g.add_link("a", "d")
-        result = g.path("a", "d")
-        assert result == ["a", "d"]
-
-    def test_no_path(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        g.add_doc("b")
-        assert g.path("a", "b") is None
-
-    def test_unknown_source(self):
-        g = DocLinkGraph()
-        g.add_doc("b")
-        assert g.path("nope", "b") is None
-
-    def test_self(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        assert g.path("a", "a") == ["a"]
-
-    def test_max_depth_blocks(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        g.add_link("c", "d")
-        assert g.path("a", "d", max_depth=2) is None
-
-
-# ---------- Descendants ----------
-
-class TestDescendants:
-    def test_one_hop(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("a", "c")
-        assert g.descendants("a", depth=1) == {"b", "c"}
-
-    def test_two_hops(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        assert g.descendants("a", depth=2) == {"b", "c"}
-
-    def test_depth_limits(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        assert g.descendants("a", depth=1) == {"b"}
-
-    def test_unknown(self):
-        g = DocLinkGraph()
-        assert g.descendants("nope") == set()
-
-    def test_no_children(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        assert g.descendants("a") == set()
-
-
-# ---------- Ancestors ----------
-
-class TestAncestors:
-    def test_one_hop(self):
-        g = DocLinkGraph()
-        g.add_link("a", "z")
-        g.add_link("b", "z")
-        assert g.ancestors("z", depth=1) == {"a", "b"}
-
-    def test_two_hops(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        assert g.ancestors("c", depth=2) == {"a", "b"}
-
-    def test_depth_limits(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        assert g.ancestors("c", depth=1) == {"b"}
-
-    def test_unknown(self):
-        g = DocLinkGraph()
-        assert g.ancestors("nope") == set()
-
-
-# ---------- Clusters ----------
-
-class TestClusters:
-    def test_one_cluster(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        clusters = g.clusters()
-        assert len(clusters) == 1
-        assert clusters[0] == {"a", "b", "c"}
-
-    def test_two_clusters(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("c", "d")
-        clusters = g.clusters()
-        assert len(clusters) == 2
-
-    def test_singleton(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        clusters = g.clusters()
-        assert clusters == [{"a"}]
-
-    def test_empty(self):
-        g = DocLinkGraph()
-        assert g.clusters() == []
-
-    def test_undirected_link_grouping(self):
-        # Reverse link still groups
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("c", "b")
-        clusters = g.clusters()
-        assert len(clusters) == 1
-        assert clusters[0] == {"a", "b", "c"}
-
-
-# ---------- CircularRefs ----------
-
-class TestCircularRefs:
-    def test_simple_cycle(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "a")
-        cycles = g.circular_refs()
-        assert len(cycles) == 1
-
-    def test_no_cycle(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        assert g.circular_refs() == []
-
-    def test_triangle(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        g.add_link("c", "a")
-        cycles = g.circular_refs()
-        assert len(cycles) >= 1
-        # Cycle contains a, b, c
-        cycle_nodes = set(cycles[0])
-        assert {"a", "b", "c"} <= cycle_nodes
-
-    def test_self_loop(self):
-        g = DocLinkGraph()
-        g.add_link("a", "a")
-        cycles = g.circular_refs()
-        assert len(cycles) >= 1
-
-    def test_empty(self):
-        g = DocLinkGraph()
-        assert g.circular_refs() == []
-
-
-# ---------- Pagerank ----------
-
-class TestPagerank:
-    def test_empty(self):
-        g = DocLinkGraph()
-        assert g.pagerank() == {}
-
-    def test_sums_to_one(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("b", "c")
-        g.add_link("c", "a")
-        ranks = g.pagerank()
-        assert abs(sum(ranks.values()) - 1.0) < 0.01
-
-    def test_popular_has_higher_rank(self):
-        g = DocLinkGraph()
-        # b gets many incoming
-        g.add_link("a", "b")
-        g.add_link("c", "b")
-        g.add_link("d", "b")
-        g.add_link("e", "b")
-        ranks = g.pagerank()
-        assert ranks["b"] > ranks["a"]
-
-    def test_singleton(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        ranks = g.pagerank()
-        assert "a" in ranks
-        assert abs(ranks["a"] - 1.0) < 0.01
-
-    def test_returns_all_docs(self):
-        g = DocLinkGraph()
-        for d in ("a", "b", "c"):
-            g.add_doc(d)
-        g.add_link("a", "b")
-        ranks = g.pagerank()
-        assert set(ranks) == {"a", "b", "c"}
-
-
-# ---------- OutDegreeInDegree ----------
-
-class TestOutDegreeInDegree:
-    def test_out(self):
+class TestDegrees:
+    def test_out_degree(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
         g.add_link("a", "c")
         assert g.out_degree("a") == 2
 
-    def test_in(self):
+    def test_in_degree(self):
         g = DocLinkGraph()
-        g.add_link("a", "z")
-        g.add_link("b", "z")
+        g.add_link("x", "z")
+        g.add_link("y", "z")
         assert g.in_degree("z") == 2
 
-    def test_unknown(self):
+    def test_out_degree_zero_for_unknown(self):
         g = DocLinkGraph()
         assert g.out_degree("nope") == 0
+
+    def test_in_degree_zero_for_unknown(self):
+        g = DocLinkGraph()
         assert g.in_degree("nope") == 0
 
-
-# ---------- TotalDegree ----------
-
-class TestTotalDegree:
-    def test_both(self):
+    def test_degree_after_remove(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        g.add_link("c", "b")
-        assert g.total_degree("b") == 2  # 1 in + 0 out... wait
-        # b has 1 incoming from a, 1 incoming from c, 0 outgoing
-        # Actually total_degree should be 2
+        g.remove_link("a", "b")
+        assert g.out_degree("a") == 0
+        assert g.in_degree("b") == 0
 
-    def test_mixed(self):
+
+# ---------------------------------------------------------------------------
+# all_links
+# ---------------------------------------------------------------------------
+
+class TestAllLinks:
+    def test_sorted_by_from_to(self):
         g = DocLinkGraph()
-        g.add_link("a", "b")
         g.add_link("b", "c")
-        assert g.total_degree("b") == 2  # 1 in (a), 1 out (c)
-
-    def test_unknown(self):
-        g = DocLinkGraph()
-        assert g.total_degree("nope") == 0
-
-
-# ---------- Orphans ----------
-
-class TestOrphans:
-    def test_no_orphans(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        assert g.orphans() == []
-
-    def test_some_orphans(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_doc("z")
-        assert g.orphans() == ["z"]
-
-    def test_all_orphans(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        g.add_doc("b")
-        assert sorted(g.orphans()) == ["a", "b"]
-
-    def test_empty(self):
-        g = DocLinkGraph()
-        assert g.orphans() == []
-
-
-# ---------- Stats ----------
-
-class TestStats:
-    def test_empty(self):
-        g = DocLinkGraph()
-        stats = g.stats()
-        assert stats.total_docs == 0
-        assert stats.total_links == 0
-        assert stats.orphan_count == 0
-
-    def test_basic(self):
-        g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_link("c", "b")
-        stats = g.stats()
-        assert stats.total_docs == 3
-        assert stats.total_links == 2
-
-    def test_most_linked_to(self):
-        g = DocLinkGraph()
         g.add_link("a", "z")
-        g.add_link("b", "z")
-        g.add_link("c", "z")
-        stats = g.stats()
-        assert stats.most_linked_to[0] == ("z", 3)
+        g.add_link("a", "b")
+        links = g.all_links()
+        keys = [(lnk.from_doc, lnk.to_doc) for lnk in links]
+        assert keys == sorted(keys)
 
-    def test_most_linking(self):
+    def test_empty(self):
+        g = DocLinkGraph()
+        assert g.all_links() == []
+
+    def test_count(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        g.add_link("a", "c")
-        g.add_link("a", "d")
-        stats = g.stats()
-        assert stats.most_linking[0] == ("a", 3)
+        g.add_link("c", "d")
+        assert len(g.all_links()) == 2
 
-    def test_orphan_count(self):
+
+# ---------------------------------------------------------------------------
+# all_nodes
+# ---------------------------------------------------------------------------
+
+class TestAllNodes:
+    def test_sorted(self):
         g = DocLinkGraph()
-        g.add_link("a", "b")
-        g.add_doc("z")
-        stats = g.stats()
-        assert stats.orphan_count == 1
+        for n in ("z", "a", "m"):
+            g.add_node(n)
+        assert g.all_nodes() == ["a", "m", "z"]
 
-    def test_top_10_cap(self):
+    def test_includes_isolated_nodes(self):
+        g = DocLinkGraph()
+        g.add_node("isolated")
+        g.add_link("src", "dst")
+        nodes = g.all_nodes()
+        assert "isolated" in nodes
+        assert "src" in nodes
+        assert "dst" in nodes
+
+    def test_empty(self):
+        g = DocLinkGraph()
+        assert g.all_nodes() == []
+
+    def test_implicit_from_add_link(self):
+        g = DocLinkGraph()
+        g.add_link("from_doc", "to_doc")
+        assert "from_doc" in g.all_nodes()
+        assert "to_doc" in g.all_nodes()
+
+
+# ---------------------------------------------------------------------------
+# most_linked_to
+# ---------------------------------------------------------------------------
+
+class TestMostLinkedTo:
+    def test_sorted_by_in_degree_desc(self):
+        g = DocLinkGraph()
+        g.add_link("a", "hub")
+        g.add_link("b", "hub")
+        g.add_link("c", "hub")
+        g.add_link("a", "spoke")
+        result = g.most_linked_to()
+        assert result[0][0] == "hub"
+        assert result[0][1] == 3
+
+    def test_limit_respected(self):
+        g = DocLinkGraph()
+        for i in range(20):
+            g.add_link(f"src{i}", "popular")
+        result = g.most_linked_to(limit=5)
+        assert len(result) <= 5
+
+    def test_tie_break_by_doc_id_asc(self):
+        g = DocLinkGraph()
+        g.add_link("x", "beta")
+        g.add_link("x", "alpha")
+        result = g.most_linked_to()
+        names = [r[0] for r in result]
+        # both have in_degree 1; alpha < beta lexicographically
+        assert names.index("alpha") < names.index("beta")
+
+    def test_default_limit_10(self):
         g = DocLinkGraph()
         for i in range(15):
-            g.add_link(f"src{i}", "target")
-        stats = g.stats()
-        # target is most linked, exists in top 10
-        names = [n for n, _ in stats.most_linked_to]
-        assert "target" in names
+            target = f"t{i:02d}"
+            g.add_link("src", target)
+            # give each different in_degree by adding extra links
+            for j in range(i):
+                g.add_link(f"extra{i}_{j}", target)
+        result = g.most_linked_to()
+        assert len(result) <= 10
 
-
-# ---------- AllDocs ----------
-
-class TestAllDocs:
-    def test_empty(self):
+    def test_only_docs_with_incoming(self):
         g = DocLinkGraph()
-        assert g.all_docs() == []
-
-    def test_some(self):
-        g = DocLinkGraph()
-        g.add_doc("b")
-        g.add_doc("a")
-        assert g.all_docs() == ["a", "b"]
-
-    def test_from_links(self):
-        g = DocLinkGraph()
-        g.add_link("x", "y")
-        assert sorted(g.all_docs()) == ["x", "y"]
-
-
-# ---------- CountProps ----------
-
-class TestCountProps:
-    def test_doc_count(self):
-        g = DocLinkGraph()
-        assert g.doc_count == 0
-        g.add_doc("a")
-        assert g.doc_count == 1
-
-    def test_link_count(self):
-        g = DocLinkGraph()
-        assert g.link_count == 0
+        g.add_node("orphan")
         g.add_link("a", "b")
-        assert g.link_count == 1
-        g.add_link("a", "c")
-        assert g.link_count == 2
+        result = g.most_linked_to()
+        names = [r[0] for r in result]
+        assert "orphan" not in names
+        assert "a" not in names  # a has outgoing but no incoming
 
 
-# ---------- Clear ----------
+# ---------------------------------------------------------------------------
+# stats
+# ---------------------------------------------------------------------------
 
-class TestClear:
-    def test_clears_docs(self):
+class TestStats:
+    def test_empty_graph(self):
         g = DocLinkGraph()
-        g.add_doc("a")
+        s = g.stats()
+        assert s.total_links == 0
+        assert s.unique_sources == 0
+        assert s.unique_targets == 0
+        assert s.orphan_count == 0
+
+    def test_total_links(self):
+        g = DocLinkGraph()
+        g.add_link("a", "b")
         g.add_link("b", "c")
-        g.clear()
-        assert g.doc_count == 0
+        assert g.stats().total_links == 2
 
-    def test_clears_links(self):
+    def test_unique_sources(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        g.clear()
-        assert g.link_count == 0
+        g.add_link("a", "c")
+        g.add_link("d", "e")
+        assert g.stats().unique_sources == 2  # a and d
 
-    def test_can_reuse_after_clear(self):
+    def test_unique_targets(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        g.clear()
-        g.add_link("x", "y")
-        assert g.doc_count == 2
-        assert g.link_count == 1
+        g.add_link("c", "b")
+        g.add_link("d", "e")
+        assert g.stats().unique_targets == 2  # b and e
 
-
-# ---------- EdgeCases ----------
-
-class TestEdgeCases:
-    def test_self_loop_link(self):
-        g = DocLinkGraph()
-        g.add_link("a", "a")
-        assert g.is_linked("a", "a") is True
-        assert g.out_degree("a") == 1
-        assert g.in_degree("a") == 1
-
-    def test_path_with_self_loop(self):
-        g = DocLinkGraph()
-        g.add_link("a", "a")
-        g.add_link("a", "b")
-        assert g.path("a", "b") == ["a", "b"]
-
-    def test_path_unknown_target(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        assert g.path("a", "unknown") is None
-
-    def test_disconnected_no_path(self):
-        g = DocLinkGraph()
-        g.add_doc("a")
-        g.add_doc("b")
-        assert g.path("a", "b") is None
-
-    def test_descendants_with_cycle(self):
+    def test_orphan_count_isolated_node(self):
         g = DocLinkGraph()
         g.add_link("a", "b")
-        g.add_link("b", "a")
-        descs = g.descendants("a", depth=5)
-        assert "b" in descs
+        g.add_node("lonely")
+        s = g.stats()
+        assert s.orphan_count == 1
 
-    def test_pagerank_dangling(self):
+    def test_orphan_count_zero_when_all_connected(self):
         g = DocLinkGraph()
-        # b is a dangling node (no outgoing)
         g.add_link("a", "b")
-        ranks = g.pagerank()
-        assert abs(sum(ranks.values()) - 1.0) < 0.05
+        s = g.stats()
+        assert s.orphan_count == 0
 
-    def test_remove_doc_with_self_loop(self):
+    def test_orphan_count_multiple(self):
         g = DocLinkGraph()
-        g.add_link("a", "a")
-        g.remove_doc("a")
-        assert g.doc_count == 0
-        assert g.link_count == 0
+        g.add_node("x")
+        g.add_node("y")
+        g.add_node("z")
+        s = g.stats()
+        assert s.orphan_count == 3
 
-    def test_multiple_link_types_same_pair(self):
+    def test_source_not_counted_as_target(self):
         g = DocLinkGraph()
-        g.add_link("a", "b", link_type=LinkType.CITATION)
-        # adding another with different type replaces
-        g.add_link("a", "b", link_type=LinkType.MENTION)
-        assert g.link_count == 1
-        assert g.forward_links("a")[0].link_type == LinkType.MENTION
+        g.add_link("only_out", "dst")
+        s = g.stats()
+        assert s.unique_sources == 1
+        assert s.unique_targets == 1
+
+    def test_returns_linkgraphstats_instance(self):
+        g = DocLinkGraph()
+        assert isinstance(g.stats(), LinkGraphStats)
+
+
+# ---------------------------------------------------------------------------
+# Thread safety
+# ---------------------------------------------------------------------------
+
+class TestThreadSafety:
+    def test_concurrent_add_link(self):
+        g = DocLinkGraph()
+        errors: list[Exception] = []
+
+        def worker(i: int) -> None:
+            try:
+                for j in range(20):
+                    g.add_link(f"src{i}", f"dst{j}")
+            except Exception as exc:
+                errors.append(exc)
+
+        threads = [threading.Thread(target=worker, args=(t,)) for t in range(10)]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
+        assert errors == [], f"Thread errors: {errors}"
+        # 10 sources × 20 destinations = 200 links
+        assert len(g.all_links()) == 200
+
+    def test_concurrent_add_and_remove(self):
+        g = DocLinkGraph()
+        errors: list[Exception] = []
+
+        def adder(i: int) -> None:
+            try:
+                for j in range(10):
+                    g.add_link(f"a{i}", f"b{j}")
+            except Exception as exc:
+                errors.append(exc)
+
+        def remover(i: int) -> None:
+            try:
+                for j in range(10):
+                    g.remove_link(f"a{i}", f"b{j}")
+            except Exception as exc:
+                errors.append(exc)
+
+        threads = []
+        for i in range(5):
+            threads.append(threading.Thread(target=adder, args=(i,)))
+            threads.append(threading.Thread(target=remover, args=(i,)))
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+
+        assert errors == [], f"Thread errors: {errors}"

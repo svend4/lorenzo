@@ -1,414 +1,252 @@
-"""DocLinkGraph — directed link graph between documents.
+"""E315 DocLinkGraph — directed hyperlink graph between documents.
 
-A specialized graph for document link relationships (citations, references,
-backlinks) with extra analytics: PageRank, cycle detection, connected
-components, BFS path queries.
-
-Stdlib only. Thread-safe via :class:`threading.Lock`.
+Pure stdlib. Thread-safe via :class:`threading.Lock`. Dataclasses throughout.
 """
 from __future__ import annotations
 
 import threading
-from collections import deque
+import time
 from dataclasses import dataclass, field
-from enum import Enum
 from typing import Optional
-
-
-class LinkType(Enum):
-    """Type of link between two documents."""
-
-    REFERENCE = "reference"
-    CITATION = "citation"
-    EMBED = "embed"
-    MENTION = "mention"
-    FOLLOWUP = "followup"
 
 
 @dataclass
 class DocLink:
     """A directed link from one document to another."""
 
-    source: str
-    target: str
-    link_type: LinkType
-    weight: float = 1.0
-    metadata: dict = field(default_factory=dict)
-    created_at: float = 0.0
+    from_doc: str
+    to_doc: str
+    anchor: str = ""
+    link_type: str = "internal"
+    added_at: float = 0.0
 
 
 @dataclass
-class LinkStats:
-    """Aggregate stats about the link graph."""
+class LinkGraphStats:
+    """Aggregate statistics about the link graph."""
 
-    total_docs: int
     total_links: int
-    most_linked_to: list  # list[tuple[str, int]] — top 10 by incoming
-    most_linking: list  # list[tuple[str, int]] — top 10 by outgoing
-    orphan_count: int  # docs with no links in or out
+    unique_sources: int   # docs that have at least one outgoing link
+    unique_targets: int   # docs that receive at least one incoming link
+    orphan_count: int     # isolated nodes: added via add_node with no in/out links
 
 
 class DocLinkGraph:
-    """Directed link graph between documents."""
+    """Directed hyperlink graph between documents.
+
+    Internal storage
+    ----------------
+    _links  : dict[(from_doc, to_doc), DocLink]  — one link per ordered pair
+    _out    : dict[str, set[str]]                — from_doc  → set of to_doc
+    _in     : dict[str, set[str]]                — to_doc    → set of from_doc
+    _nodes  : set[str]                           — all known doc IDs
+    """
 
     def __init__(self) -> None:
-        self._lock = threading.Lock()
-        self._docs: set = set()
-        # adjacency lists
-        self._out: dict = {}  # source -> list[DocLink]
-        self._in: dict = {}  # target -> list[DocLink]
+        self._lock: threading.Lock = threading.Lock()
+        self._links: dict[tuple, DocLink] = {}
+        self._out: dict[str, set[str]] = {}
+        self._in: dict[str, set[str]] = {}
+        self._nodes: set[str] = set()
 
-    # ----- documents -----
+    # ------------------------------------------------------------------
+    # Nodes
+    # ------------------------------------------------------------------
 
-    def add_doc(self, doc_id: str) -> None:
-        """Register a document. No-op if it already exists."""
+    def add_node(self, doc_id: str) -> None:
+        """Register a document node without any links. No-op if already present."""
         with self._lock:
-            if doc_id not in self._docs:
-                self._docs.add(doc_id)
-                self._out.setdefault(doc_id, [])
-                self._in.setdefault(doc_id, [])
+            self._ensure_node(doc_id)
 
-    def remove_doc(self, doc_id: str) -> bool:
-        """Remove a document and all incident links. Returns True if removed."""
+    def remove_node(self, doc_id: str) -> int:
+        """Remove a document and all its incoming + outgoing links.
+
+        Returns the number of links that were removed.
+        """
         with self._lock:
-            if doc_id not in self._docs:
-                return False
-            # remove outgoing
-            for link in list(self._out.get(doc_id, [])):
-                self._in[link.target] = [
-                    l for l in self._in.get(link.target, []) if l.source != doc_id
-                ]
-            # remove incoming
-            for link in list(self._in.get(doc_id, [])):
-                self._out[link.source] = [
-                    l for l in self._out.get(link.source, []) if l.target != doc_id
-                ]
+            if doc_id not in self._nodes:
+                return 0
+
+            removed = 0
+
+            # collect pairs to delete
+            pairs_to_remove: list[tuple[str, str]] = []
+
+            for to_doc in list(self._out.get(doc_id, set())):
+                pairs_to_remove.append((doc_id, to_doc))
+
+            for from_doc in list(self._in.get(doc_id, set())):
+                pairs_to_remove.append((from_doc, doc_id))
+
+            # deduplicate (self-loop would appear in both)
+            seen: set[tuple] = set()
+            for pair in pairs_to_remove:
+                if pair not in seen:
+                    seen.add(pair)
+                    self._remove_link_unsafe(*pair)
+                    removed += 1
+
+            # remove node itself
+            self._nodes.discard(doc_id)
             self._out.pop(doc_id, None)
             self._in.pop(doc_id, None)
-            self._docs.discard(doc_id)
-            return True
 
-    def all_docs(self) -> list:
-        """Return all registered document IDs."""
+            return removed
+
+    def all_nodes(self) -> list[str]:
+        """Return sorted list of all known document IDs."""
         with self._lock:
-            return sorted(self._docs)
+            return sorted(self._nodes)
 
-    # ----- links -----
+    # ------------------------------------------------------------------
+    # Links
+    # ------------------------------------------------------------------
 
     def add_link(
         self,
-        source: str,
-        target: str,
-        link_type: LinkType = LinkType.REFERENCE,
-        weight: float = 1.0,
-        metadata: dict = None,
-        now: float = 0.0,
+        from_doc: str,
+        to_doc: str,
+        anchor: str = "",
+        link_type: str = "internal",
+        now: Optional[float] = None,
     ) -> DocLink:
-        """Add a link source -> target. If link already exists, replace it."""
+        """Add or update the link from_doc → to_doc.
+
+        Re-adding an existing pair updates anchor and link_type.
+        Both nodes are registered automatically.
+        """
         with self._lock:
-            # ensure docs exist
-            for doc_id in (source, target):
-                if doc_id not in self._docs:
-                    self._docs.add(doc_id)
-                    self._out.setdefault(doc_id, [])
-                    self._in.setdefault(doc_id, [])
-            # remove existing link of same (source, target) so we don't dup
-            self._out[source] = [l for l in self._out[source] if l.target != target]
-            self._in[target] = [l for l in self._in[target] if l.source != source]
+            self._ensure_node(from_doc)
+            self._ensure_node(to_doc)
+
+            added_at = now if now is not None else time.time()
+            key = (from_doc, to_doc)
+
+            if key in self._links:
+                # update in place
+                existing = self._links[key]
+                existing.anchor = anchor
+                existing.link_type = link_type
+                return existing
+
             link = DocLink(
-                source=source,
-                target=target,
+                from_doc=from_doc,
+                to_doc=to_doc,
+                anchor=anchor,
                 link_type=link_type,
-                weight=weight,
-                metadata=dict(metadata) if metadata else {},
-                created_at=now,
+                added_at=added_at,
             )
-            self._out[source].append(link)
-            self._in[target].append(link)
+            self._links[key] = link
+            self._out[from_doc].add(to_doc)
+            self._in[to_doc].add(from_doc)
             return link
 
-    def remove_link(self, source: str, target: str) -> bool:
-        """Remove a link. Returns True if removed."""
+    def remove_link(self, from_doc: str, to_doc: str) -> bool:
+        """Remove the link from_doc → to_doc. Returns True if it existed."""
         with self._lock:
-            if source not in self._out:
-                return False
-            before = len(self._out[source])
-            self._out[source] = [l for l in self._out[source] if l.target != target]
-            if len(self._out[source]) == before:
-                return False
-            self._in[target] = [l for l in self._in.get(target, []) if l.source != source]
-            return True
+            return self._remove_link_unsafe(from_doc, to_doc)
 
-    def update_link(
-        self,
-        source: str,
-        target: str,
-        weight: float = None,
-        metadata: dict = None,
-    ) -> bool:
-        """Update weight and/or metadata of an existing link."""
+    def get_link(self, from_doc: str, to_doc: str) -> Optional[DocLink]:
+        """Return the DocLink for from_doc → to_doc, or None if absent."""
         with self._lock:
-            if source not in self._out:
-                return False
-            for link in self._out[source]:
-                if link.target == target:
-                    if weight is not None:
-                        link.weight = weight
-                    if metadata is not None:
-                        link.metadata.update(metadata)
-                    return True
-            return False
+            return self._links.get((from_doc, to_doc))
 
-    def forward_links(self, doc_id: str) -> list:
-        """All links going out of doc_id."""
+    def has_link(self, from_doc: str, to_doc: str) -> bool:
+        """True iff a direct link from_doc → to_doc exists."""
         with self._lock:
-            return list(self._out.get(doc_id, []))
+            return (from_doc, to_doc) in self._links
 
-    def backlinks(self, doc_id: str) -> list:
-        """All links coming into doc_id."""
+    # ------------------------------------------------------------------
+    # Traversal helpers
+    # ------------------------------------------------------------------
+
+    def outgoing(self, doc_id: str) -> list[DocLink]:
+        """All links whose source is doc_id, sorted by to_doc."""
         with self._lock:
-            return list(self._in.get(doc_id, []))
+            targets = self._out.get(doc_id, set())
+            return sorted(
+                (self._links[(doc_id, t)] for t in targets),
+                key=lambda lnk: lnk.to_doc,
+            )
 
-    def links_by_type(self, link_type: LinkType) -> list:
-        """All links with the given type."""
+    def incoming(self, doc_id: str) -> list[DocLink]:
+        """All links whose target is doc_id, sorted by from_doc."""
         with self._lock:
-            result = []
-            for doc_links in self._out.values():
-                for link in doc_links:
-                    if link.link_type == link_type:
-                        result.append(link)
-            return result
-
-    def is_linked(self, source: str, target: str) -> bool:
-        """True iff there's a direct link source -> target."""
-        with self._lock:
-            return any(l.target == target for l in self._out.get(source, []))
-
-    # ----- traversal -----
-
-    def path(self, source: str, target: str, max_depth: int = 5) -> Optional[list]:
-        """Shortest forward path source -> target via BFS. Returns None if none."""
-        with self._lock:
-            if source not in self._docs or target not in self._docs:
-                return None
-            if source == target:
-                return [source]
-            visited = {source}
-            queue = deque([(source, [source])])
-            while queue:
-                current, path = queue.popleft()
-                if len(path) - 1 >= max_depth:
-                    continue
-                for link in self._out.get(current, []):
-                    nxt = link.target
-                    if nxt == target:
-                        return path + [nxt]
-                    if nxt not in visited:
-                        visited.add(nxt)
-                        queue.append((nxt, path + [nxt]))
-            return None
-
-    def descendants(self, doc_id: str, depth: int = 1) -> set:
-        """All docs reachable forward from doc_id within `depth` hops."""
-        with self._lock:
-            if doc_id not in self._docs:
-                return set()
-            result: set = set()
-            queue = deque([(doc_id, 0)])
-            visited = {doc_id}
-            while queue:
-                current, d = queue.popleft()
-                if d >= depth:
-                    continue
-                for link in self._out.get(current, []):
-                    nxt = link.target
-                    if nxt not in visited:
-                        visited.add(nxt)
-                        result.add(nxt)
-                        queue.append((nxt, d + 1))
-            return result
-
-    def ancestors(self, doc_id: str, depth: int = 1) -> set:
-        """All docs reachable backward from doc_id within `depth` hops."""
-        with self._lock:
-            if doc_id not in self._docs:
-                return set()
-            result: set = set()
-            queue = deque([(doc_id, 0)])
-            visited = {doc_id}
-            while queue:
-                current, d = queue.popleft()
-                if d >= depth:
-                    continue
-                for link in self._in.get(current, []):
-                    nxt = link.source
-                    if nxt not in visited:
-                        visited.add(nxt)
-                        result.add(nxt)
-                        queue.append((nxt, d + 1))
-            return result
-
-    def clusters(self) -> list:
-        """Connected components (treating links as undirected)."""
-        with self._lock:
-            visited: set = set()
-            components = []
-            for doc in self._docs:
-                if doc in visited:
-                    continue
-                comp: set = set()
-                stack = [doc]
-                while stack:
-                    current = stack.pop()
-                    if current in comp:
-                        continue
-                    comp.add(current)
-                    for link in self._out.get(current, []):
-                        if link.target not in comp:
-                            stack.append(link.target)
-                    for link in self._in.get(current, []):
-                        if link.source not in comp:
-                            stack.append(link.source)
-                visited |= comp
-                components.append(comp)
-            return components
-
-    def circular_refs(self) -> list:
-        """Detect cycles using iterative DFS. Returns list of cycle node sequences."""
-        with self._lock:
-            cycles = []
-            seen_cycles: set = set()
-            WHITE, GRAY, BLACK = 0, 1, 2
-            color = {d: WHITE for d in self._docs}
-
-            for start in self._docs:
-                if color[start] != WHITE:
-                    continue
-                # iterative DFS with parent tracking
-                stack = [(start, iter(self._out.get(start, [])), None)]
-                path = [start]
-                path_set = {start}
-                color[start] = GRAY
-                while stack:
-                    node, it, _ = stack[-1]
-                    try:
-                        link = next(it)
-                        nxt = link.target
-                        if color.get(nxt, WHITE) == GRAY:
-                            # found a cycle: extract from path
-                            if nxt in path_set:
-                                idx = path.index(nxt)
-                                cycle = path[idx:] + [nxt]
-                                # canonicalize: rotate so smallest is first (without trailing dup)
-                                core = cycle[:-1]
-                                if core:
-                                    min_idx = core.index(min(core))
-                                    canon = tuple(core[min_idx:] + core[:min_idx])
-                                    if canon not in seen_cycles:
-                                        seen_cycles.add(canon)
-                                        cycles.append(list(canon) + [canon[0]])
-                        elif color.get(nxt, WHITE) == WHITE:
-                            color[nxt] = GRAY
-                            path.append(nxt)
-                            path_set.add(nxt)
-                            stack.append((nxt, iter(self._out.get(nxt, [])), node))
-                    except StopIteration:
-                        color[node] = BLACK
-                        path.pop()
-                        path_set.discard(node)
-                        stack.pop()
-            return cycles
-
-    def pagerank(self, iterations: int = 20, damping: float = 0.85) -> dict:
-        """Simplified iterative PageRank. Empty graph -> empty dict."""
-        with self._lock:
-            n = len(self._docs)
-            if n == 0:
-                return {}
-            docs = list(self._docs)
-            init = 1.0 / n
-            ranks = {d: init for d in docs}
-            for _ in range(iterations):
-                new_ranks = {d: (1.0 - damping) / n for d in docs}
-                dangling_sum = 0.0
-                for d in docs:
-                    out = self._out.get(d, [])
-                    if not out:
-                        dangling_sum += ranks[d]
-                # distribute dangling across all nodes
-                dangling_contrib = damping * dangling_sum / n
-                for d in docs:
-                    new_ranks[d] += dangling_contrib
-                for d in docs:
-                    out = self._out.get(d, [])
-                    if not out:
-                        continue
-                    share = damping * ranks[d] / len(out)
-                    for link in out:
-                        if link.target in new_ranks:
-                            new_ranks[link.target] += share
-                ranks = new_ranks
-            return ranks
-
-    # ----- degrees -----
+            sources = self._in.get(doc_id, set())
+            return sorted(
+                (self._links[(s, doc_id)] for s in sources),
+                key=lambda lnk: lnk.from_doc,
+            )
 
     def out_degree(self, doc_id: str) -> int:
+        """Number of outgoing links from doc_id."""
         with self._lock:
-            return len(self._out.get(doc_id, []))
+            return len(self._out.get(doc_id, set()))
 
     def in_degree(self, doc_id: str) -> int:
+        """Number of incoming links to doc_id."""
         with self._lock:
-            return len(self._in.get(doc_id, []))
+            return len(self._in.get(doc_id, set()))
 
-    def total_degree(self, doc_id: str) -> int:
+    def all_links(self) -> list[DocLink]:
+        """All links sorted by (from_doc, to_doc)."""
         with self._lock:
-            return len(self._out.get(doc_id, [])) + len(self._in.get(doc_id, []))
+            return sorted(self._links.values(), key=lambda lnk: (lnk.from_doc, lnk.to_doc))
 
-    def orphans(self) -> list:
-        """Docs with no links in or out."""
+    def most_linked_to(self, limit: int = 10) -> list[tuple[str, int]]:
+        """Top ``limit`` docs by incoming link count.
+
+        Sorted by in_degree descending, then doc_id ascending.
+        Only includes docs that have at least one incoming link.
+        """
         with self._lock:
-            return sorted(
-                d
-                for d in self._docs
-                if not self._out.get(d) and not self._in.get(d)
-            )
+            counts = [
+                (doc_id, len(self._in.get(doc_id, set())))
+                for doc_id in self._nodes
+            ]
+            counts = [(d, c) for d, c in counts if c > 0]
+            counts.sort(key=lambda x: (-x[1], x[0]))
+            return counts[:limit]
 
-    # ----- stats -----
+    # ------------------------------------------------------------------
+    # Statistics
+    # ------------------------------------------------------------------
 
-    def stats(self) -> LinkStats:
+    def stats(self) -> LinkGraphStats:
+        """Return aggregate statistics about the current graph state."""
         with self._lock:
-            total_links = sum(len(v) for v in self._out.values())
-            in_counts = [(d, len(self._in.get(d, []))) for d in self._docs]
-            out_counts = [(d, len(self._out.get(d, []))) for d in self._docs]
-            in_counts.sort(key=lambda x: (-x[1], x[0]))
-            out_counts.sort(key=lambda x: (-x[1], x[0]))
-            most_linked_to = [pair for pair in in_counts[:10] if pair[1] > 0]
-            most_linking = [pair for pair in out_counts[:10] if pair[1] > 0]
+            total_links = len(self._links)
+            unique_sources = sum(1 for doc in self._nodes if self._out.get(doc))
+            unique_targets = sum(1 for doc in self._nodes if self._in.get(doc))
             orphan_count = sum(
                 1
-                for d in self._docs
-                if not self._out.get(d) and not self._in.get(d)
+                for doc in self._nodes
+                if not self._out.get(doc) and not self._in.get(doc)
             )
-            return LinkStats(
-                total_docs=len(self._docs),
+            return LinkGraphStats(
                 total_links=total_links,
-                most_linked_to=most_linked_to,
-                most_linking=most_linking,
+                unique_sources=unique_sources,
+                unique_targets=unique_targets,
                 orphan_count=orphan_count,
             )
 
-    @property
-    def link_count(self) -> int:
-        with self._lock:
-            return sum(len(v) for v in self._out.values())
+    # ------------------------------------------------------------------
+    # Private helpers (must be called with lock held)
+    # ------------------------------------------------------------------
 
-    @property
-    def doc_count(self) -> int:
-        with self._lock:
-            return len(self._docs)
+    def _ensure_node(self, doc_id: str) -> None:
+        """Register doc_id if not already present. Lock must be held."""
+        if doc_id not in self._nodes:
+            self._nodes.add(doc_id)
+            self._out.setdefault(doc_id, set())
+            self._in.setdefault(doc_id, set())
 
-    def clear(self) -> None:
-        with self._lock:
-            self._docs.clear()
-            self._out.clear()
-            self._in.clear()
+    def _remove_link_unsafe(self, from_doc: str, to_doc: str) -> bool:
+        """Remove a link without acquiring the lock. Returns True if removed."""
+        key = (from_doc, to_doc)
+        if key not in self._links:
+            return False
+        del self._links[key]
+        self._out.get(from_doc, set()).discard(to_doc)
+        self._in.get(to_doc, set()).discard(from_doc)
+        return True
