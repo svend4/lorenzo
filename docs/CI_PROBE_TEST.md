@@ -7,3 +7,7 @@ push в feature-ветку `claude/**` НЕ должен запускать GitH
 - Ветка: `claude/debug-hanging-issue-0AzoY`
 - Ожидаемое поведение: ни одного check-run после этого коммита
 - Если CI всё-таки запустился — значит триггер `claude/**` где-то остался
+
+## Re-probe 2
+
+После установки budgets $115 (Account Actions) + $120 (lorenzo Actions) пробуем заставить свежие check_runs стартовать. Если этот коммит на PR создаст check_runs, которые сразу пойдут в `in_progress`, — значит бюджеты применились и Actions полностью разблокированы.
