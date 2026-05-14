@@ -10,9 +10,14 @@ on:
       - 'scripts/**'
   workflow_dispatch:
 
+concurrency:
+  group: docs-update-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update-docs:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     permissions:
       contents: write
 

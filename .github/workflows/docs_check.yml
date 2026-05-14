@@ -8,9 +8,14 @@ on:
       - 'docs/**'
       - 'scripts/**'
 
+concurrency:
+  group: docs-check-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v4
