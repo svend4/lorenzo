@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 3. What InGit Provides That Cowork Lacks
 
 > [!NOTE]
@@ -15,8 +19,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: If you use Cowork extensively and later need to switch platforms (Gemini, GPT, local models), Cowork-specific patterns don't transfer.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Equally important: where does InGit add value that Cowork

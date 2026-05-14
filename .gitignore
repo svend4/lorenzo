@@ -2,6 +2,9 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Git worktrees created by Claude agents
+.claude/worktrees/
+
 # Auto-generated exports (regenerated on each build)
 docs/obsidian/
 docs/confluence/

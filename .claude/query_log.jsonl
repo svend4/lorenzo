@@ -1,0 +1,45 @@
+{"ts": "2026-05-14T04:14:25", "query": "агент память", "results": 3, "ms": 661.6, "source": "search"}
+{"ts": "2026-05-14T04:14:25", "query": "Yodoca", "results": 5, "ms": 508.1, "source": "search"}
+{"ts": "2026-05-14T04:14:26", "query": "граф знаний", "results": 3, "ms": 681.3, "source": "search"}
+{"ts": "2026-05-14T04:14:27", "query": "RAG retrieval", "results": 3, "ms": 644.3, "source": "search"}
+{"ts": "2026-05-14T04:14:27", "query": "агент память", "results": 3, "ms": 646.9, "source": "ask"}
+{"ts": "2026-05-14T04:14:28", "query": "граф знаний", "results": 3, "ms": 679.2, "source": "ask"}
+{"ts": "2026-05-14T04:14:29", "query": "RAG retrieval", "results": 3, "ms": 673.9, "source": "ask"}
+{"ts": "2026-05-14T04:14:29", "query": "Yodoca консолидация", "results": 3, "ms": 663.1, "source": "ask"}
+{"ts": "2026-05-14T04:14:29", "query": "", "results": 0, "ms": 126.4, "source": "ask"}
+{"ts": "2026-05-14T04:14:30", "query": "граф", "results": 3, "ms": 499.8, "source": "ask"}
+{"ts": "2026-05-14T04:14:33", "query": "Что такое Yodoca?", "results": 8, "ms": 849.8, "source": "chat"}
+{"ts": "2026-05-14T04:14:34", "query": "граф знаний AgentFS", "results": 8, "ms": 795.0, "source": "chat"}
+{"ts": "2026-05-14T04:14:35", "query": "агент с памятью", "results": 8, "ms": 796.6, "source": "chat"}
+{"ts": "2026-05-14T04:14:35", "query": "поиск знаний", "results": 8, "ms": 671.3, "source": "chat"}
+{"ts": "2026-05-14T04:14:36", "query": "тест", "results": 4, "ms": 509.9, "source": "chat"}
+{"ts": "2026-05-14T04:20:44", "query": "агент память", "results": 3, "ms": 699.8, "source": "search"}
+{"ts": "2026-05-14T04:20:45", "query": "Yodoca", "results": 5, "ms": 557.5, "source": "search"}
+{"ts": "2026-05-14T04:20:46", "query": "граф знаний", "results": 3, "ms": 708.0, "source": "search"}
+{"ts": "2026-05-14T04:20:46", "query": "RAG retrieval", "results": 3, "ms": 740.4, "source": "search"}
+{"ts": "2026-05-14T04:20:47", "query": "агент память", "results": 3, "ms": 720.8, "source": "ask"}
+{"ts": "2026-05-14T04:20:48", "query": "граф знаний", "results": 3, "ms": 708.8, "source": "ask"}
+{"ts": "2026-05-14T04:20:48", "query": "RAG retrieval", "results": 3, "ms": 706.1, "source": "ask"}
+{"ts": "2026-05-14T04:20:49", "query": "Yodoca консолидация", "results": 3, "ms": 661.9, "source": "ask"}
+{"ts": "2026-05-14T04:20:49", "query": "", "results": 0, "ms": 178.8, "source": "ask"}
+{"ts": "2026-05-14T04:20:50", "query": "граф", "results": 3, "ms": 578.0, "source": "ask"}
+{"ts": "2026-05-14T04:20:56", "query": "Что такое Yodoca?", "results": 8, "ms": 944.3, "source": "chat"}
+{"ts": "2026-05-14T04:20:57", "query": "граф знаний AgentFS", "results": 8, "ms": 838.0, "source": "chat"}
+{"ts": "2026-05-14T04:20:58", "query": "агент с памятью", "results": 8, "ms": 834.6, "source": "chat"}
+{"ts": "2026-05-14T04:20:58", "query": "поиск знаний", "results": 8, "ms": 727.6, "source": "chat"}
+{"ts": "2026-05-14T04:20:59", "query": "тест", "results": 4, "ms": 570.5, "source": "chat"}
+{"ts": "2026-05-14T10:28:00", "query": "агент память", "results": 3, "ms": 429.1, "source": "search"}
+{"ts": "2026-05-14T10:28:00", "query": "Yodoca", "results": 5, "ms": 351.2, "source": "search"}
+{"ts": "2026-05-14T10:28:00", "query": "граф знаний", "results": 3, "ms": 461.1, "source": "search"}
+{"ts": "2026-05-14T10:28:01", "query": "RAG retrieval", "results": 3, "ms": 472.8, "source": "search"}
+{"ts": "2026-05-14T10:28:01", "query": "агент память", "results": 3, "ms": 492.4, "source": "ask"}
+{"ts": "2026-05-14T10:28:02", "query": "граф знаний", "results": 3, "ms": 457.0, "source": "ask"}
+{"ts": "2026-05-14T10:28:02", "query": "RAG retrieval", "results": 3, "ms": 433.3, "source": "ask"}
+{"ts": "2026-05-14T10:28:03", "query": "Yodoca консолидация", "results": 3, "ms": 471.0, "source": "ask"}
+{"ts": "2026-05-14T10:28:03", "query": "", "results": 0, "ms": 76.0, "source": "ask"}
+{"ts": "2026-05-14T10:28:03", "query": "граф", "results": 3, "ms": 336.9, "source": "ask"}
+{"ts": "2026-05-14T10:28:06", "query": "Что такое Yodoca?", "results": 8, "ms": 748.0, "source": "chat"}
+{"ts": "2026-05-14T10:28:07", "query": "граф знаний AgentFS", "results": 8, "ms": 538.8, "source": "chat"}
+{"ts": "2026-05-14T10:28:07", "query": "агент с памятью", "results": 8, "ms": 543.4, "source": "chat"}
+{"ts": "2026-05-14T10:28:08", "query": "поиск знаний", "results": 8, "ms": 441.3, "source": "chat"}
+{"ts": "2026-05-14T10:28:08", "query": "тест", "results": 8, "ms": 372.2, "source": "chat"}

@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, knowledge, ingestion, local-first]
+state: approved
+---
+
 # Ансамбль F — Evidence‑Backed Community Intake
 
 <!-- toc-auto -->
@@ -14,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md` (ансамбли «второго порядка»).
+> Цель не в том, чтобы искать коллаборации по уже готовым карточкам, а в том, чтобы превращать хаотичный входящий поток — анкеты, чаты, PDF‑документы, заметки после созвонов, голосовые эпизоды — в нормализованный поток карточек с подтверждаемыми основа
 **Проекты:** Svyazi, CardIndex, LiteParse, Hybrid RAG, Yodoca
 
 ---

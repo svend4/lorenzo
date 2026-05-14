@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/OUTLINE.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * outline
   * docs
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Outline базы знаний
@@ -116,6 +116,7 @@ _Слов: 322_
 h3. [[BACKLINKS|Индекс обратных ссылок]]
 {quote}> !WARNING{quote}
 
+  * Содержание
   * Топ-30 самых цитируемых документов
   * Ссылки по разделам
   * Использование
@@ -213,7 +214,7 @@ h3. [[COMPARE|Сравнение с предыдущим коммитом]]
 _Слов: 529_
 
 h3. [[COMPLEXITY|Оценка читаемости документов]]
-{quote}> !WARNING{quote}
+{quote}Файлов проанализировано: 1038{quote}
 
   * Распределение сложности
   * Самые сложные документы
@@ -228,6 +229,7 @@ h3. [[COMPONENT_MATRIX|Матрица компонентов Svyazi 2.0]]
 {quote}- Матрица возможностей(#матрица-возможностей){quote}
 
   * Содержание
+  * Contents
   * Матрица возможностей
   * Покрытие возможностей
   * Каталог компонентов
@@ -256,8 +258,10 @@ _Слов: 15045_
 h3. [[CONCEPT_GRAPH|Граф концептов базы знаний]]
 {quote}> !NOTE{quote}
 
+  * Содержание
   * Диаграмма
   * Топ концептов по связям
+  * Упоминается в
 
 _Слов: 728_
 
@@ -291,9 +295,8 @@ h3. [[CONTACT_PRIORITY|Приоритет контактов]]
 _Слов: 390_
 
 h3. [[CONTRADICTIONS|Противоречия в базе знаний]]
-{quote}> !WARNING{quote}
+{quote}Обновлено: 2026-04-29{quote}
 
-  * Содержание
   * Найденные противоречия
   * Использование
 * Запуск
@@ -331,7 +334,6 @@ _Слов: 707_
 h3. [[CROSS_SECTION|Кросс-секционный анализ]]
 {quote}> !NOTE{quote}
 
-  * Содержание
   * Матрица сходства секций
   * Граф связей
   * Топ-40 кросс-секционных концептов
@@ -453,7 +455,6 @@ _Слов: 2018_
 h3. [[EMPTY_SECTIONS|Пустые секции]]
 {quote}- Файлы с ≥50% пустых секций (приоритет)(#файлы-с-50-пустых-секций-приоритет){quote}
 
-  * Содержание
   * Файлы с ≥50% пустых секций (приоритет)
   * Все файлы с пустыми секциями
   * Использование
@@ -535,7 +536,6 @@ _Слов: 2685_
 h3. [[HEADING_AUDIT|Аудит заголовков]]
 {quote}- Типы проблем(#типы-проблем){quote}
 
-  * Содержание
   * Типы проблем
   * По файлам
   * Использование
@@ -597,7 +597,6 @@ _Слов: 1085_
 h3. [[KNOWLEDGE_MAP|Карта базы знаний Lorenzo]]
 {quote}- Корпус(#корпус){quote}
 
-  * Содержание
   * Корпус
   * Метрики качества
   * По секциям
@@ -605,7 +604,8 @@ h3. [[KNOWLEDGE_MAP|Карта базы знаний Lorenzo]]
   * Топ сущностей
   * Открытые вопросы
   * Быстрые команды
-  _... ещё 3 разделов_
+* Поиск
+  _... ещё 2 разделов_
 
 _Слов: 699_
 
@@ -736,7 +736,6 @@ _Слов: 476_
 h3. [[NAMED_ENTITIES|Индекс именованных сущностей]]
 {quote}- 👤 People (20)(#people-20){quote}
 
-  * Содержание
   * 👤 People (20)
   * 📦 Projects (147)
   * ⚙️ Tech (32)
@@ -784,8 +783,7 @@ h3. [[ONBOARDING|Онбординг — Svyazi 2.0 / Lorenzo]]
 * 2. Прочитать Executive Summary
 * 3. Посмотреть статус проекта
 * 4. Прочитать FAQ
-* 5. Запустить скрипты (генерация/обновление docs)
-  _... ещё 11 разделов_
+  _... ещё 15 разделов_
 
 _Слов: 566_
 
@@ -803,7 +801,6 @@ _Слов: 142_
 h3. [[PARAGRAPH_QUALITY|Качество абзацев]]
 {quote}- Типы проблем(#типы-проблем){quote}
 
-  * Содержание
   * Типы проблем
   * По файлам
   * Использование
@@ -973,6 +970,7 @@ h3. [[RISK_REGISTER|Реестр рисков — Svyazi 2.0]]
 {quote}- Матрица рисков (Вероятность × Влияние)(#матрица-рисков-вероятность-влияние){quote}
 
   * Содержание
+  * Contents
   * Матрица рисков (Вероятность × Влияние)
   * Реестр
   * Митигации
@@ -1129,7 +1127,6 @@ _Слов: 100_
 h3. [[SOURCE_MAP|Карта происхождения текстов]]
 {quote}- Категории(#категории){quote}
 
-  * Содержание
   * Категории
   * Авторы
   * 🤖 Авто-импортированные файлы (1722)
@@ -1203,6 +1200,7 @@ h3. [[TECH_RADAR|Tech Radar — Svyazi 2.0]]
 {quote}- Обзор(#обзор){quote}
 
   * Содержание
+  * Contents
   * Обзор
   * 🟢 ADOPT
   * 🔵 TRIAL
@@ -1237,7 +1235,6 @@ _Слов: 254_
 h3. [[VOCABULARY|Богатство словаря документов]]
 {quote}- Корпусная статистика(#корпусная-статистика){quote}
 
-  * Содержание
   * Корпусная статистика
   * Топ файлов по богатству словаря (STTR)
   * Файлы с бедным словарём (требуют доработки)
@@ -1509,7 +1506,7 @@ h2. Anthropic Vacancies
 _Путь: {{docs/02-anthropic-vacancies/}}_
 
 h3. [[00-intro|Введение]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Похожие документы
@@ -1524,7 +1521,7 @@ h3. [[00-intro|Введение]]
 _Слов: 9049_
 
 h3. [[01-интегральный-анализ-профиля-svend4|Интегральный анализ профиля svend4]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Интегральный анализ профиля svend4
@@ -1539,7 +1536,7 @@ h3. [[01-интегральный-анализ-профиля-svend4|Интег�
 _Слов: 19240_
 
 h3. [[02-общий-план-развития-nautilus-portal-protocol|ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL]]
-{quote}> Абстракт (авто){quote}
+{quote}> !IMPORTANT{quote}
 
   * Содержание
   * ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL
@@ -1614,6 +1611,7 @@ _Слов: 451_
 h3. [[07-2-terminology|2. Terminology]]
 {quote}- 2. Terminology(#2-terminology){quote}
 
+  * Содержание
   * Contents
   * 2. Terminology
   * Похожие документы
@@ -1748,7 +1746,7 @@ h3. [[108-2-формальный-workflow|2. Формальный workflow]]
 _Слов: 443_
 
 h3. [[109-3-принципы-консолидации-фаза-c|3. Принципы консолидации (Фаза C)]]
-{quote}- 3. Принципы консолидации (Фаза C)(#3-принципы-консолидации-фаза-c){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Содержание
@@ -1922,7 +1920,7 @@ h3. [[121-appendix-c-история-изменений-методологии|Ap
 _Слов: 322_
 
 h3. [[122-глоссарий|Глоссарий]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * Глоссарий
@@ -1937,7 +1935,7 @@ h3. [[122-глоссарий|Глоссарий]]
 _Слов: 1555_
 
 h3. [[123-portal-mcp-py|portal-mcp.py]]
-{quote}> Абстракт (авто){quote}
+{quote}> !IMPORTANT{quote}
 
   * Содержание
   * portal-mcp.py
@@ -2099,7 +2097,7 @@ h3. [[132-planned-v0-2-0|Planned (v0.2.0)]]
 _Слов: 306_
 
 h3. [[133-обратная-связь|Обратная связь]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Обратная связь
@@ -2187,7 +2185,7 @@ h3. [[138-1-why-single-triangle-models-are-incomplete|1. Why Single-Triangle Mod
 _Слов: 633_
 
 h3. [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture]]
-{quote}> Абстракт (авто){quote}
+{quote}> !IMPORTANT{quote}
 
   * Содержание
   * 2. The Double-Triangle Architecture
@@ -2202,7 +2200,7 @@ h3. [[139-2-the-double-triangle-architecture|2. The Double-Triangle Architecture
 _Слов: 796_
 
 h3. [[140-3-three-inter-layer-protocols|3. Three Inter-Layer Protocols]]
-{quote}> Абстракт (авто){quote}
+{quote}> !IMPORTANT{quote}
 
   * Содержание
   * 3. Three Inter-Layer Protocols
@@ -2262,7 +2260,7 @@ h3. [[143-6-four-deployment-domains|6. Four Deployment Domains]]
 _Слов: 903_
 
 h3. [[144-7-open-questions|7. Open Questions]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 7. Open Questions
@@ -2277,7 +2275,7 @@ h3. [[144-7-open-questions|7. Open Questions]]
 _Слов: 982_
 
 h3. [[145-8-call-to-action|8. Call to Action]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 8. Call to Action
@@ -2350,7 +2348,7 @@ h3. [[149-appendix-b-summary-of-contributions|Appendix B: Summary of Contributio
 _Слов: 446_
 
 h3. [[150-appendix-c-version-history|Appendix C: Version History]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * Appendix C: Version History
@@ -2454,6 +2452,30 @@ h3. [[156-2-target-populations|2. Target Populations]]
 
 _Слов: 866_
 
+h3. [[156-2-target-populations|2. Target Populations]]
+{quote}> Size estimate: 500K+ in OECD countries with relevant skills{quote}
+
+  * Содержание
+  * 2. Target Populations
+  * Упоминается в
+  * Упоминается в
+  * Связанные документы
+  * Связанные документы
+
+_Слов: 739_
+
+h3. [[156-2-target-populations|2. Target Populations]]
+{quote}> Size estimate: 500K+ in OECD countries with relevant skills{quote}
+
+  * Содержание
+  * 2. Target Populations
+  * Упоминается в
+  * Упоминается в
+  * Связанные документы
+  * Связанные документы
+
+_Слов: 739_
+
 h3. [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]]
 {quote}> !NOTE{quote}
 
@@ -2470,7 +2492,7 @@ h3. [[157-3-why-existing-solutions-fail|3. Why Existing Solutions Fail]]
 _Слов: 851_
 
 h3. [[158-4-proposed-infrastructure|4. Proposed Infrastructure]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 4. Proposed Infrastructure
@@ -2540,7 +2562,7 @@ h3. [[161-7-phased-rollout-plan|7. Phased Rollout Plan]]
 _Слов: 847_
 
 h3. [[162-8-risk-analysis|8. Risk Analysis]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 8. Risk Analysis
@@ -2583,7 +2605,7 @@ h3. [[164-10-appendices|10. Appendices]]
 _Слов: 1202_
 
 h3. [[165-closing|Closing]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * Closing
@@ -2716,7 +2738,7 @@ h3. [[172-3-what-makes-a-representative-agent|3. What Makes a Representative Age
 _Слов: 958_
 
 h3. [[173-4-ten-domains-of-application|4. Ten Domains of Application]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 4. Ten Domains of Application
@@ -2782,7 +2804,7 @@ h3. [[177-8-risks-and-mitigations|8. Risks and Mitigations]]
   * Смотрите также
   * Кто ссылается на этот документ (7)
 
-_Слов: 632_
+_Слов: 699_
 
 h3. [[178-9-phased-rollout-strategy|9. Phased Rollout Strategy]]
 {quote}> !NOTE{quote}
@@ -2913,7 +2935,7 @@ h3. [[185-appendix-b-domain-comparison-matrix|Appendix B: Domain Comparison Matr
 _Слов: 399_
 
 h3. [[186-appendix-c-sample-use-cases-in-detail|Appendix C: Sample Use Cases in Detail]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Appendix C: Sample Use Cases in Detail
@@ -2995,7 +3017,7 @@ h3. [[190-содержание|Содержание]]
 _Слов: 355_
 
 h3. [[191-1-синдром-золушки-почему-качество-остаётся-невидим|1. Синдром Золушки: Почему качество остаётся невидимым]]
-{quote}> !WARNING{quote}
+{quote}> Существует повторяющаяся асимметрия на современных рынках — рынках труда, внимания, возможностей, услуг. Качество и ви…{quote}
 
   * Содержание
   * 1. Синдром Золушки: Почему качество остаётся невидимым
@@ -3007,7 +3029,7 @@ h3. [[191-1-синдром-золушки-почему-качество-оста
 _Слов: 874_
 
 h3. [[192-2-исторические-прецеденты-агенты-как-цивилизационн|2. Исторические прецеденты: Агенты как цивилизационная инновация]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * 2. Исторические прецеденты: Агенты как цивилизационная инновация
@@ -3020,6 +3042,18 @@ h3. [[192-2-исторические-прецеденты-агенты-как-ц
 _Слов: 1051_
 
 h3. [[193-3-что-делает-агента-представительским|3. Что делает агента Представительским]]
+{quote}> Представительский Агент отличается от существующих категорий AI. Мы определяем это точно.{quote}
+
+  * Содержание
+  * 3. Что делает агента Представительским
+  * Упоминается в
+  * Упоминается в
+  * Связанные документы
+  * Связанные документы
+
+_Слов: 696_
+
+h3. [[194-4-десять-областей-применения|4. Десять областей применения]]
 {quote}> !WARNING{quote}
 
   * Содержание
@@ -3216,7 +3250,7 @@ h3. [[206-приложение-b-матрица-сравнения-област�
 _Слов: 367_
 
 h3. [[207-приложение-c-образцы-случаев-использования-в-детал|Приложение C: Образцы Случаев Использования в Деталях]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Приложение C: Образцы Случаев Использования в Деталях
@@ -3381,7 +3415,7 @@ h3. [[216-5-the-economics-of-profession-wide-replication|5. The Economics of Pro
 _Слов: 1037_
 
 h3. [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 6. Risks Specific to this Category
@@ -3396,7 +3430,7 @@ h3. [[217-6-risks-specific-to-this-category|6. Risks Specific to this Category]]
 _Слов: 1422_
 
 h3. [[218-7-application-domains|7. Application Domains]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 7. Application Domains
@@ -3553,7 +3587,7 @@ h3. [[227-appendix-b-decision-framework-when-to-build-type-1|Appendix B: Decisio
 _Слов: 602_
 
 h3. [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]]
-{quote}> Абстракт (авто){quote}
+{quote}> !IMPORTANT{quote}
 
   * Содержание
   * Appendix C: Quick-Start Architecture for SGB Advocate Colleague
@@ -3628,7 +3662,7 @@ h3. [[231-содержание|Содержание]]
 _Слов: 412_
 
 h3. [[232-1-типология-из-пяти-типов-агентов-на-стороне-принц|1. Типология из пяти типов агентов на стороне принципала]]
-{quote}> Абстракт (авто){quote}
+{quote}> !IMPORTANT{quote}
 
   * Содержание
   * 1. Типология из пяти типов агентов на стороне принципала
@@ -3701,7 +3735,7 @@ h3. [[236-5-экономика-тиражирования-по-професси�
 _Слов: 906_
 
 h3. [[237-6-риски-специфичные-для-этой-категории|6. Риски, специфичные для этой категории]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * 6. Риски, специфичные для этой категории
@@ -3714,7 +3748,7 @@ h3. [[237-6-риски-специфичные-для-этой-категории
 _Слов: 1220_
 
 h3. [[238-7-области-применения|7. Области применения]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * 7. Области применения
@@ -3726,7 +3760,7 @@ h3. [[238-7-области-применения|7. Области примене
 _Слов: 780_
 
 h3. [[239-8-пилотное-предложение-sgb-колega-адвокат|8. Пилотное предложение: SGB Колega-Адвокат]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * 8. Пилотное предложение: SGB Колega-Адвокат
@@ -3862,7 +3896,7 @@ h3. [[247-приложение-b-рамка-принятия-решений-ко
 _Слов: 424_
 
 h3. [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а|Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги
@@ -3976,7 +4010,7 @@ h3. [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomple
 _Слов: 975_
 
 h3. [[255-2-the-twenty-one-teachers-pattern|2. The Twenty-One Teachers Pattern]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 2. The Twenty-One Teachers Pattern
@@ -4006,7 +4040,7 @@ h3. [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills
 _Слов: 1235_
 
 h3. [[257-4-the-sub-agent-registry|4. The Sub-Agent Registry]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 4. The Sub-Agent Registry
@@ -4081,7 +4115,7 @@ h3. [[260-7-economics-of-combinatorial-replication|7. Economics of Combinatorial
 _Слов: 1010_
 
 h3. [[261-8-seven-domains-of-application|8. Seven Domains of Application]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 8. Seven Domains of Application
@@ -4096,7 +4130,7 @@ h3. [[261-8-seven-domains-of-application|8. Seven Domains of Application]]
 _Слов: 1204_
 
 h3. [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 9. Integration with OKWF Infrastructure
@@ -4109,7 +4143,7 @@ h3. [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infras
 _Слов: 807_
 
 h3. [[263-10-risks-specific-to-composite-architectures|10. Risks Specific to Composite Architectures]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 10. Risks Specific to Composite Architectures
@@ -4210,6 +4244,7 @@ _Слов: 626_
 h3. [[27-15-glossary-of-examples|15. Glossary of Examples]]
 {quote}- 15. Glossary of Examples(#15-glossary-of-examples){quote}
 
+  * Содержание
   * Contents
   * 15. Glossary of Examples
   * Похожие документы
@@ -4243,7 +4278,7 @@ h3. [[271-appendix-c-configuration-template-example|Appendix C: Configuration Te
 _Слов: 382_
 
 h3. [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * Appendix D: Connection Diagram
@@ -4348,7 +4383,7 @@ h3. [[278-why-this-hasn-t-been-built|Why This Hasn't Been Built]]
 _Слов: 633_
 
 h3. [[279-existing-approximations|Existing Approximations]]
-{quote}> !TIP{quote}
+{quote}- Contents(#contents){quote}
 
   * Содержание
   * Existing Approximations
@@ -4491,7 +4526,7 @@ h3. [[287-references|References]]
 _Слов: 357_
 
 h3. [[288-appendix-position-in-series-visualization|Appendix: Position in Series Visualization]]
-{quote}> !WARNING{quote}
+{quote}> Document 1: Nautilus Portal Protocol{quote}
 
   * Содержание
   * Appendix: Position in Series Visualization
@@ -4702,7 +4737,7 @@ h3. [[302-ссылки|Ссылки]]
 _Слов: 331_
 
 h3. [[303-приложение-визуализация-позиции-в-серии|Приложение: Визуализация позиции в серии]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Приложение: Визуализация позиции в серии
@@ -4820,7 +4855,7 @@ h3. [[31-content-overview|Content Overview]]
 _Слов: 304_
 
 h3. [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-|2. What Cowork Provides That InGit Doesn't Need to Build]]
-{quote}> !TIP{quote}
+{quote}> If InGit positions to complement Cowork rather than replace{quote}
 
   * Содержание
   * 2. What Cowork Provides That InGit Doesn't Need to Build
@@ -4993,7 +5028,7 @@ h3. [[322-appendix-b-comparison-matrix|Appendix B: Comparison Matrix]]
 _Слов: 371_
 
 h3. [[323-appendix-c-sample-ingit-mcp-server-tool-specificat|Appendix C: Sample InGit MCP Server Tool Specifications]]
-{quote}> !WARNING{quote}
+{quote}> For reference, here are detailed specifications for first{quote}
 
   * Содержание
   * Appendix C: Sample InGit MCP Server Tool Specifications
@@ -5051,7 +5086,7 @@ h3. [[326-содержание|Содержание]]
 _Слов: 433_
 
 h3. [[327-1-открытие-cowork-и-почему-это-меняет-всё|1. Открытие Cowork и почему это меняет всё]]
-{quote}> !WARNING{quote}
+{quote}> Когда Документ 2.3 был написан ранее в этой{quote}
 
   * Содержание
   * 1. Открытие Cowork и почему это меняет всё
@@ -5078,7 +5113,7 @@ h3. [[328-2-что-cowork-обеспечивает-что-ingit-не-нужно-
 _Слов: 792_
 
 h3. [[329-3-что-ingit-обеспечивает-чего-cowork-не-хватает|3. Что InGit обеспечивает, чего Cowork не хватает]]
-{quote}> Абстракт (авто){quote}
+{quote}> !IMPORTANT{quote}
 
   * Содержание
   * 3. Что InGit обеспечивает, чего Cowork не хватает
@@ -5104,7 +5139,7 @@ h3. [[330-4-симбиотическая-архитектура|4. Симбио�
 _Слов: 704_
 
 h3. [[331-5-четыре-пути-интеграции-в-порядке-доступности|5. Четыре пути интеграции в порядке доступности]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * 5. Четыре пути интеграции в порядке доступности
@@ -5220,7 +5255,7 @@ h3. [[339-приложение-a-дерево-решений-для-приним
 _Слов: 389_
 
 h3. [[34-appendix-b-change-log|Appendix B: Change Log]]
-{quote}- Appendix B: Change Log(#appendix-b-change-log){quote}
+{quote}> !IMPORTANT{quote}
 
   * Содержание
   * Содержание
@@ -5247,7 +5282,7 @@ h3. [[340-приложение-b-сравнительная-матрица|Пр�
 _Слов: 326_
 
 h3. [[341-приложение-c-образец-спецификаций-инструментов-ing|Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
@@ -5262,7 +5297,7 @@ h3. [[341-приложение-c-образец-спецификаций-инс�
 _Слов: 20580_
 
 h3. [[342-что-такое-вариант-c-concept-document-для-anthropic|Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
@@ -5277,7 +5312,7 @@ h3. [[342-что-такое-вариант-c-concept-document-для-anthropic|�
 _Слов: 11428_
 
 h3. [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи|Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)
@@ -5578,7 +5613,7 @@ h3. [[363-твоя-identity-как-persistent-character|Твоя identity как
 _Слов: 335_
 
 h3. [[364-final-note-ты-experiment|Final note: Ты — experiment]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Final note: Ты — experiment
@@ -5593,7 +5628,7 @@ h3. [[364-final-note-ты-experiment|Final note: Ты — experiment]]
 _Слов: 1636_
 
 h3. [[365-развёрнутый-анализ-внуковой-комбинации|Развёрнутый анализ «внуковой» комбинации]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Развёрнутый анализ «внуковой» комбинации
@@ -5608,7 +5643,7 @@ h3. [[365-развёрнутый-анализ-внуковой-комбинац�
 _Слов: 4550_
 
 h3. [[366-технический-stack-svyazi-2-0-foundation|Технический stack (Svyazi 2.0 foundation)]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * Технический stack (Svyazi 2.0 foundation)
@@ -6069,7 +6104,7 @@ h3. [[68-about|🇬🇧 About]]
 _Слов: 969_
 
 h3. [[69-section|⬡]]
-{quote}> Абстракт (авто){quote}
+{quote}> !TIP{quote}
 
   * Содержание
   * ⬡
@@ -6114,7 +6149,7 @@ h3. [[71-критерии-выбора-для-фазы-3|Критерии выб
 _Слов: 307_
 
 h3. [[72-расписание-фазы-3|Расписание фазы 3]]
-{quote}> Абстракт (авто){quote}
+{quote}> !WARNING{quote}
 
   * Содержание
   * Расписание фазы 3
@@ -6131,6 +6166,7 @@ _Слов: 956_
 h3. [[73-portal-protocol-md-v1-1|PORTAL-PROTOCOL.md v1.1]]
 {quote}- PORTAL-PROTOCOL.md v1.1(#portal-protocolmd-v11){quote}
 
+  * Содержание
   * Contents
   * PORTAL-PROTOCOL.md v1.1
 * Nautilus Portal Protocol
@@ -6184,7 +6220,7 @@ h3. [[76-1-introduction|1. Introduction]]
   * Смотрите также
   * Кто ссылается на этот документ (4)
 
-_Слов: 494_
+_Слов: 546_
 
 h3. [[77-2-terminology|2. Terminology]]
 {quote}> !NOTE{quote}
@@ -6577,7 +6613,7 @@ h3. [[QA|Q&A: 03-technology-combinations]]
   * Что входит в интеграционный контракт между слоями?
   _... ещё 3 разделов_
 
-_Слов: 156_
+_Слов: 133_
 
 h3. [[README|Комбинирование технологий для новых свойств]]
 {quote}> 40+ синергий технологий: агентный роутинг, граф знаний, local-first стек, Legal AI и бенчмарки 2025–2026.{quote}
@@ -12976,7 +13012,7 @@ h3. [[11-prizyv-k-sotrudnichestvu|11. Призыв к сотрудничеств
 
 _Слов: 494_
 
-h3. [[12-zaklyuchenie|12. Заключение]]
+h3. [[tagir-analyzes|Контакт: tagiranalyzes / Legal RAG]]
 {quote}> !TIP{quote}
 
   * Содержание

@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Что ты НЕ МОЖЕШЬ делать вообще"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Что ты НЕ МОЖЕШЬ делать вообще
@@ -33,8 +34,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Deceive об твоей AI nature (всегда identify как AI) Deceive об твоей AI nature (всегда identify как AI){quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}- Deceive об твоей AI nature (всегда identify как AI){quote}

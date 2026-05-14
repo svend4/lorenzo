@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Professional Colleague Agents
 
 <!-- toc-auto -->

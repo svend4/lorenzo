@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 3. Registry ({{nautilus.json}})
 
@@ -71,7 +75,13 @@ h2. Содержание
 
 
 
-{quote}Registry — central source of truth о том, какие Repos входят в{quote}
+{quote}_ Registry (nautilus.json) - 3.1. _ AutoAdapter Special Case !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: Registry (nautilus.json) - 3.1.{quote}
+Каждый элемент   MUST содержать:
+ — уникальное в пределах экосистемы
+ — идентификатор native-формата (используется для 
+  именования адаптера и passport)
+ — имя адаптера: либо имя Python-модуля в  , 
+  либо   для и
 
 ----
 

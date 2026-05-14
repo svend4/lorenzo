@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude hat geantwortet: Это стратегически значимый вопрос, и ответ на него — да,…
 
 <!-- toc-auto -->

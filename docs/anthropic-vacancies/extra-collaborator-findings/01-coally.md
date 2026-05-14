@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # CoAlly — distributed shared memory для AI-агентов
 
 <!-- toc-auto -->

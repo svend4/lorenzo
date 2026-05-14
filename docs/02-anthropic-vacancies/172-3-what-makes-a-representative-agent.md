@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 3. What Makes a Representative Agent
 
 > [!NOTE]
@@ -15,8 +19,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Adapting them to AI principals is a key research and design challenge addressed in Sections 6 and 7.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > A Representative Agent is distinct from existing AI categories.
@@ -34,7 +38,7 @@
 
 ---
 
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 

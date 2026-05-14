@@ -2,8 +2,9 @@
 title: "16. MCP Extension (Informative)"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 16. MCP Extension (Informative)
@@ -28,10 +29,17 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. экспонировать минимум 5 tools: — search across ecosystem
+экспонировать минимум 5 tools:
+ — search across ecosystem
+ — list all repos with metadata
+ — query single repo
+ — consensus validation
+ — ecosystem philosophy and metadata
+Формальная MCP-спецификация
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 

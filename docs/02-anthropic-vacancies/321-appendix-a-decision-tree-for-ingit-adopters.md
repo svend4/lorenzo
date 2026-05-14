@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix A: Decision Tree for InGit Adopters
 
 <!-- toc-auto -->
@@ -19,8 +23,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > Quick reference for users evaluating InGit + Cowork:

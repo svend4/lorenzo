@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, ingestion, local-first, architecture]
+state: approved
+---
+
 # Evidence Envelope
 
 <!-- toc-auto -->
@@ -16,7 +22,14 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. citeturn20view5turn20view6turn34view2turn34view3 — идентификатор источника
+Минимальные поля
+ — идентификатор источника
+ — для документов: страница; для текста: диапазон
+ — координаты bounding box или offset
+ — какой retrieval‑метод использовался
+ — уверенность
+ — для ассоциат
 **Проекты:** LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
 
 ---

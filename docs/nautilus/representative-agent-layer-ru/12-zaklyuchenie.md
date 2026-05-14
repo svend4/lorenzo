@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 12. Заключение
 
 > [!TIP]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)». Этот документ описывает MVP-подход.
 
 ---
 

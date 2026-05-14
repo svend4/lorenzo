@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # BrainBox — self-hosted multi-AI hub
 
 <!-- toc-auto -->

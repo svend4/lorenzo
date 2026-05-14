@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Reality check: проблема distribution-слоя
 
 <!-- toc-auto -->

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/SITEMAP.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Карта репозитория Lorenzo"
 tags:
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Карта репозитория Lorenzo
@@ -17,6 +17,8 @@ h1. Карта репозитория Lorenzo
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ----
+
+
 
 
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # The Two-Layer Stack As It Exists
 
 <!-- toc-auto -->

@@ -2,7 +2,7 @@
 title: "Индекс цитирования URL"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Индекс цитирования URL
@@ -71,6 +71,7 @@ _Обновлено: 2026-05-13_
 | `https://habr.com/ru/companies/yandex/articles/1019928/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1027210/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://github.com/svend4/data70` | 8 | ⭐⭐⭐⭐⭐ | `github.com` |
+| `https://github.com/settings/tokens` | 8 | ⭐⭐⭐⭐⭐ | `github.com` |
 | `https://github.com/svend4/meta` | 8 | ⭐⭐⭐⭐⭐ | `github.com` |
 | `https://habr.com/ru/companies/teamly/articles/1024062/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1027724/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
@@ -141,7 +142,7 @@ _Обновлено: 2026-05-13_
 
 ### `https://github.com/svend4/pro2`
 
-Цитируется в 16 файлах, авторитетность: 5
+Цитируется в 18 файлах, авторитетность: 5
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/67-о-проекте.md`
@@ -203,7 +204,8 @@ _Обновлено: 2026-05-13_
 - `docs/02-anthropic-vacancies/67-о-проекте.md`
 - `docs/02-anthropic-vacancies/68-about.md`
 - `docs/TABLES.md`
-- ... и ещё 5
+- `docs/ai-collaborations/source-projects.md`
+- ... и ещё 9
 
 ### `https://github.com/AnastasiyaW/knowledge-space`
 

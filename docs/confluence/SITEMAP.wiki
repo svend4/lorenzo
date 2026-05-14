@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/SITEMAP.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Карта репозитория Lorenzo
@@ -10,6 +10,8 @@ h1. Карта репозитория Lorenzo
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ----
+
+
 
 
 

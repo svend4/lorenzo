@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 3. Why Existing Solutions Fail
 
 > [!NOTE]
@@ -15,8 +19,8 @@
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Документ фиксирует ключевые архитектурные или технические решения.
 
 > Seven existing infrastructure categories partially address the

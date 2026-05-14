@@ -47,7 +47,10 @@ from utils_card_envelope import CardStore, CardEnvelope
 
 _tfidf_idx: dict | None = None
 _passages:  list | None = None
-_pagerank:  dict | None = None
+_pagerank:  dict[str, float] | None = None
+
+_PR_CAP   = 0.4   # cap synthetic hubs (e.g. autofilled, in-degree=1501)
+_PR_ALPHA = 0.3   # score *= (1 + alpha * pagerank)
 
 # Obsidian/confluence directories are mirror copies of canonical docs.
 # Exclude them from passage BM25 to avoid duplicate results.
@@ -83,17 +86,32 @@ def _get_tfidf() -> dict | None:
     return _tfidf_idx
 
 
-def _get_pagerank() -> dict:
+def _get_pagerank() -> dict[str, float]:
+    """Load PageRank scores, preferring CARD_GRAPH.json (per-card) over
+    pagerank.json (per-file). Both use repo-relative paths as keys."""
     global _pagerank
-    if _pagerank is None:
-        pr_path = DOCS / "pagerank.json"
-        if pr_path.exists():
-            try:
-                _pagerank = json.loads(pr_path.read_text(encoding="utf-8"))
-            except Exception:
-                _pagerank = {}
-        else:
-            _pagerank = {}
+    if _pagerank is not None:
+        return _pagerank
+    _pagerank = {}
+    graph_path = DOCS / "CARD_GRAPH.json"
+    if graph_path.exists():
+        try:
+            data = json.loads(graph_path.read_text(encoding="utf-8"))
+            _pagerank.update({
+                n["id"]: min(n.get("pagerank", 0), _PR_CAP)
+                for n in data.get("nodes", [])
+            })
+        except Exception:
+            pass
+    pr_path = DOCS / "pagerank.json"
+    if pr_path.exists():
+        try:
+            doc_scores = json.loads(pr_path.read_text(encoding="utf-8"))
+            for path, score in doc_scores.items():
+                if path not in _pagerank:
+                    _pagerank[path] = min(score, _PR_CAP)
+        except Exception:
+            pass
     return _pagerank
 
 
@@ -423,12 +441,13 @@ def search_hybrid(query: str, top: int = 10,
         if dedup_key not in meta:
             meta[dedup_key] = r
 
-    # Small PageRank authority bonus — boosts highly-linked canonical documents.
+    # Multiplicative PageRank authority bonus — boosts highly-linked canonical
+    # documents that would otherwise lose to more narrowly focused files.
     pr = _get_pagerank()
     if pr:
         for key in list(rrf):
             path = meta[key].get("path") or meta[key].get("file", "")
-            rrf[key] += 0.05 * pr.get(path, 0)
+            rrf[key] *= (1 + _PR_ALPHA * pr.get(path, 0))
 
     merged = sorted(rrf.items(), key=lambda x: -x[1])[:top]
     results = []

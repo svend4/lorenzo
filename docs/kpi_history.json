@@ -53,5 +53,16 @@
     "kpis": 737,
     "questions": 45,
     "actions": 0
+  },
+  {
+    "date": "2026-05-14",
+    "docs": 2606,
+    "words": 2976824,
+    "scripts": 186,
+    "scoring": 96,
+    "health": 99,
+    "kpis": 737,
+    "questions": 45,
+    "actions": 0
   }
 ]

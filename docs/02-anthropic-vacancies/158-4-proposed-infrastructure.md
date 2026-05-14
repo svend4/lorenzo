@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 4. Proposed Infrastructure
 
 <!-- abstract-auto -->
@@ -16,7 +20,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> OKWF infrastructure consists of six interlocking layers. Each
+> > ✅ Результат: Legal and Compliance Layer What it provides: - Single contractual interface for contributors (across jurisdictions) - Tax compliance infrastructure - GDPR-compliant data handling -
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
 
 ---
 

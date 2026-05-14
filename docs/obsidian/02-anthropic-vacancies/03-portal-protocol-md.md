@@ -2,8 +2,9 @@
 title: "PORTAL-PROTOCOL.md"
 tags:
   - collaboration
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # PORTAL-PROTOCOL.md
@@ -20,10 +21,19 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> **Status:** Draft (Working Document)
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Поиск по теме документа python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "PORTAL PROTOCOL md"
+```
+Смотрите также
+ 152-ai-coordinated-infrastructure-for-distributed-expe
+ 73-portal-protocol-md-v1-1
+ 135-a-formal-mode
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!IMPORTANT]
 > Нормативный документ. Описывает контракты и архитектурные решения.

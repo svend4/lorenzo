@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 1. The Five-Type Typology of Principal-Side Agents
 
 > [!NOTE]
@@ -15,8 +19,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: A single human professional could simultaneously have: Personal AI Assistants (Type 0) do not occupy a fixed layer — they function across all layers as utility, used as needed.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The Representative Agent Layer paper introduced one type of AI

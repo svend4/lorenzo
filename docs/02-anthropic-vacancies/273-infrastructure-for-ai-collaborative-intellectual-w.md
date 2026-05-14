@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
 
 <!-- toc-auto -->
@@ -12,10 +16,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md) (сходство 0.25)
+> - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md) (сходство 0.25) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

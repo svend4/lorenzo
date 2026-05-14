@@ -1,4 +1,5 @@
 ---
+state: approved
 template: risk-entry
 version: "1.0"
 risk_id: "RISK-NNNN"
@@ -16,7 +17,14 @@ tags: [риск, безопасность]
 # Риск: [Название]
 
 <!-- summary -->
-> `risk-entry` — раздел документации проекта Lorenzo.
+> [Финальное последствие] Параметр | Значение | Вероятность | [low \| medium \| high \| certain] | Влияние | [low \| medium \| high \| critical] | Risk Score | [P × I, 1-25] |
+Оценка
+ Параметр | Значение |
+ ----------|----------|
+ Вероятность | [low \| medium \| high \| certain] |
+ Влияние | [low \| medium \| high \| critical] |
+ Risk Score | [P × I, 1-25] |
+ Зона | [зелёная \| жёлтая \| красная] |
 
 
 <!-- toc-auto -->

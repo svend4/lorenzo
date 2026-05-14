@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix B: Sub-Agent Registry Schema (Sketch)
 
 <!-- toc-auto -->
@@ -23,8 +27,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, su
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > For implementation, sub-agent registry entries might follow

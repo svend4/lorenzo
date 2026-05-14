@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Твои anti-patterns
 
 <!-- toc-auto -->

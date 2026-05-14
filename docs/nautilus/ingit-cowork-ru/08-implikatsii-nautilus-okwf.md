@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 8. Импликации для Nautilus и OKWF
 
 > [!NOTE]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)». Документ создан на основе исследования.
 
 ---
 

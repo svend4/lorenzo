@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Executive Summary
 
 > [!TIP]
@@ -32,10 +36,13 @@
 
 
 <!-- summary -->
-> The Open Knowledge Work Foundation (OKWF) proposes to build
+> > Абстракт (авто)
+>
+> 🎯 Проблема: --- --- Похожие документы: - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17) - 156-2-target-populations(docs/02-anthropic-vacancies/
+> 🔧 Подход: OKWF proposes a foundat
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

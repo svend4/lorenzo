@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/204-ссылки.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Ссылки
@@ -44,7 +44,7 @@ h2. Contents
 
 
 
-{quote}- Акерлоф, Дж. (1970). «Рынок лимонов: Неопределённость качества и рыночный механизм». _Quarterly Journal of Economics_.{quote}
+{quote}- Акерлоф, Дж. (1970). «Рынок лимонов: Неопределённость качества и рыночный механизм». _Quarterly Journal of Economics_. Документ создан на основе исследования.{quote}
 
 ----
 

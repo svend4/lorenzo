@@ -2,7 +2,7 @@
 title: "Tech Radar — Svyazi 2.0"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Tech Radar — Svyazi 2.0

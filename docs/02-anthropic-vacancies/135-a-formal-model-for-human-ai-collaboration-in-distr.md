@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
 
 <!-- toc-auto -->
@@ -20,14 +24,14 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Editorial review: Claude (intellectual collaboration, 2026-04) Editorial review: Claude (intellectual collaboration, 2026-04)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Editorial review:** Claude (intellectual collaboration, 2026-04)
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

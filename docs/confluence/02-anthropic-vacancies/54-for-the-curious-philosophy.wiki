@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. For the Curious: Philosophy
 
@@ -17,7 +21,10 @@ h2. Contents
 
 
 
-{quote}Q6-гиперкуб выбран не случайно. Он одновременно:{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Topologически полезен — локальная соседство (hamming distance 1) даёт естественный routing в MoE-архитектурах{quote}
+   1) даёт естественный routing в MoE-архитектурах
+Это пример reuse существующих онтологий вместо изобретения 
+новых.
 
 ----
 

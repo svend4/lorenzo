@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # AI Support Through Configurable Specialist Ensembles
 
 <!-- toc-auto -->
@@ -20,8 +24,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > - Professional Colleague Agents v1.0

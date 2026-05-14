@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # OPEN KNOWLEDGE WORK FOUNDATION.md
 
 <!-- toc-auto -->
@@ -12,10 +16,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.25)
+> - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.25) Документ создан на основе исследования.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

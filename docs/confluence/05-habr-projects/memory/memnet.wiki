@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/05-habr-projects/memory/memnet.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. MemNet: исследовательская память
 

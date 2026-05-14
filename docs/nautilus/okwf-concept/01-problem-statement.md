@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 1. Problem Statement
 
 > [!NOTE]
@@ -24,7 +28,7 @@
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

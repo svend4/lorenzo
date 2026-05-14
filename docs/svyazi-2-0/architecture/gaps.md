@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Архитектурные зазоры
 
 > [!TIP]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`, раздел «Архитектурные зазоры, которые важнее новых инструментов».
+> > Источник: `deep-research-report (3).md`, раздел «Архитектурные зазоры, которые важнее новых инструментов». Документ содержит практические рекомендации и лучшие практики.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---

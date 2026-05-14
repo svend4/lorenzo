@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 1. Why the Binary View Is Incomplete
 
 > [!NOTE]
@@ -16,8 +20,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The Problem with the Existing Taxonomy Professional Colleague Agents (PCA) v1.0 introduced five types of principal-side agents.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Professional Colleague Agents (PCA) v1.0 introduced five types

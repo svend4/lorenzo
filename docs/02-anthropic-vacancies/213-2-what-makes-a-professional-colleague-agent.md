@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. What Makes a Professional Colleague Agent
 
 > [!NOTE]
@@ -16,8 +20,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The practitioner does not need to re-explain professional context with each interaction.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We now develop Type 1 in detail.
@@ -35,7 +39,7 @@
 
 ---
 
-<!-- tags: ingestion -->
+<!-- tags: ingestion, rag -->
 
 
 

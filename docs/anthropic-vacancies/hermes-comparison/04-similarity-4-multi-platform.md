@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Сходство 4: Multi-platform reach (17+ платформ)
 
 <!-- toc-auto -->

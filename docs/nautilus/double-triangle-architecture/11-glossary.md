@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix A: Glossary
 
 > [!TIP]

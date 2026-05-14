@@ -2,7 +2,7 @@
 title: "Реестр рисков — Svyazi 2.0"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Реестр рисков — Svyazi 2.0

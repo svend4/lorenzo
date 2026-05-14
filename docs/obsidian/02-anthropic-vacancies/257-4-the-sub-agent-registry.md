@@ -2,7 +2,7 @@
 title: "4. The Sub-Agent Registry"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 4. The Sub-Agent Registry
@@ -23,7 +23,12 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> The infrastructure underlying Composite Skills Agents requires
+> * Curation and Trust An open registry needs curation to maintain quality. * Existing knowledge artifacts (textbooks, methodological documents, case studies) are integrated into sub-agent knowled
+ Curated knowledge base for the narrow specialization
+ Quality assurance against expert practice
+ Integration interface compatible with composite agents
+ Documentation of scope, boundaries, and usage
+Several models for building sub-age
 
 ---
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 9. Query Flow
 
 <!-- toc-auto -->
@@ -21,11 +25,23 @@
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 <!-- summary -->
-> 1. Client вызывает `portal.query(q, target_repos=None)`
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 85-10-query-flow (сходство 0.72) 81-6-adapter-interface (сходство 0.11) 22-10-queryresult-structure (сходство 0.11)
+ --
+Похожие документы
+ 85-10-query-flow (сходство 0.72)
+ 81-6-adapter-interface (сходство 0.11)
+ 22-10-queryresult-structure (сходство 0.11)
+ --
+Использование
+ 
+Смотрите также
+ 85-10-query-flow
+ 22-10-queryresult-structure
+ 81-6-adapter-interface
 
 ---
 <!-- tags: anthropic -->

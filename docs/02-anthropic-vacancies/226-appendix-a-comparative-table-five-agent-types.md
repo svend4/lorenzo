@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix A: Comparative Table — Five Agent Types
 
 > [!NOTE]
@@ -21,7 +25,7 @@
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

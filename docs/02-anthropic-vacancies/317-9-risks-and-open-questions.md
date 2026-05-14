@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, local-first, architecture]
+state: approved
+---
+
 # 9. Risks and Open Questions
 
 <!-- toc -->
@@ -30,7 +36,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Several uncertainties merit explicit attention.
+> > ✅ Результат: --- --- Похожие документы: - 318-10-strategic-positioning(docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15) - 311-3-what-ingit-provides-that-cowork-lacks
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
 
 ---
 <!-- tags: rag, orchestration, local-first, architecture, roadmap, anthropic -->

@@ -4,7 +4,7 @@ tags:
   - faq
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Часто задаваемые вопросы (FAQ)
@@ -163,12 +163,6 @@ _→ [[343-lorenzo-catalyst-agent-глубокая-проработка-спец
 A nautilus shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
 
 _→ [[68-about]]_
-
-### Did creator approve final attribution?
-
-Это много steps. И violations damage Lorenzo's reputation rapidly.
-
-_→ [[11-difficulties-and-recommendations]]_
 
 
 ## Лицензия

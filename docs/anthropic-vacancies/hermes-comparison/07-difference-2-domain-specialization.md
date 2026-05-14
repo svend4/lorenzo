@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Различие 2: Domain-specific specialization
 
 <!-- toc-auto -->

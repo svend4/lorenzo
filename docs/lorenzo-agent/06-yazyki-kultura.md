@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Языки и культурные nuances (RU / DE / EN)
 
 <!-- toc-auto -->

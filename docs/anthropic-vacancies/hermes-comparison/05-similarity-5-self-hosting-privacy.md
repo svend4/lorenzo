@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Сходство 5: Self-hosting и privacy
 
 <!-- toc-auto -->

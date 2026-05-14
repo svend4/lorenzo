@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/165-closing.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Closing"
 tags:
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Closing
@@ -28,7 +28,11 @@ h1. Closing
 
 
 
-{quote}The Open Knowledge Work Foundation is proposed as response{quote}
+{quote}_ Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolati. _ Андрей формулирует это explicitly как архитектурный invariant : «expensive operations only on pre-filtered shortlist»{quote}
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolation.{quote}
 _Проекты:_ Svyazi, [[01-executive-summary|CardIndex]]
 
 ----

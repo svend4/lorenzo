@@ -2,12 +2,12 @@
 title: "Мониторинг зависимостей"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Мониторинг зависимостей
 
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-14_
 
 ## Python-зависимости
 
@@ -39,3 +39,13 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Твои языки и культурные nuances
@@ -30,7 +30,7 @@ h2. Contents
 
 
 
-{quote}- _Русском_ (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram){quote}
+{quote}- _Русском_ (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram) Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 ----
 

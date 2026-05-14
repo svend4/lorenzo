@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # evaluation/ — оценка уникальности и зрелости
 
 <!-- toc-auto -->
@@ -5,7 +9,18 @@
 
 
 <!-- summary -->
-> evaluation/ — оценка уникальности и зрелости
+> Кто ссылается на этот документ (5): README (сходство 0.96) SEARCH_RESULTS (сходство 0.53) SEARCH_RESULTS (сходство 0.52) Документ создан на основе исследования.
+Кто ссылается на этот документ (5):
+ OUTLINE
+ READABILITY
+ SEARCH
+ TABLES
+ README
+ --
+Похожие документы:
+ README (сходство 0.96)
+ SEARCH_RESULTS (сходство 0.53)
+ SEARCH_RESULTS (сходство 0.52)
 
 <!-- tags: habr, projects, oss, collaboration -->
 

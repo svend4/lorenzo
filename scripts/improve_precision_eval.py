@@ -110,6 +110,9 @@ def _tfidf_search(query: str, top_k: int) -> list[dict]:
             continue
         score = sum(words.count(t) for t in tokens) / len(words)
         if score > 0:
+            title_tokens = set(_tokenize(d.get("title") or ""))
+            title_overlap = len(tokens & title_tokens) / max(len(tokens), 1)
+            score *= (1 + 2.5 * title_overlap)
             scored.append((score, d))
     scored.sort(key=lambda x: x[0], reverse=True)
     return [d for _, d in scored[:top_k]]
@@ -247,7 +250,7 @@ def _build_eval_set() -> list[dict]:
              "docs/contacts/kksudo.md"],
         ),
         (
-            "Svyazi архитектура CardIndex knowledge три слоя AgentFS",
+            "Svyazi CardIndex Knowledge OS три контракта CardEnvelope Evidence спецификация",
             ["docs/PROTOTYPE_SPEC.md", "docs/01-svyazi/00-intro-part2.md"],
         ),
         (

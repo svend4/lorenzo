@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. Исторические прецеденты: Агенты как цивилизационная инновация
 
 > [!WARNING]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)». Документ содержит описание рисков и ограничений.
 
 ---
 

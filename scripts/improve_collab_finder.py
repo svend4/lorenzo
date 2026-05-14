@@ -61,6 +61,19 @@ try:
 except Exception:
     _HAVE_EMB = False
 
+# semantic_index.json — TF-IDF индекс по всем docs/ (1166 документов)
+SEMANTIC_INDEX = DOCS / "semantic_index.json"
+
+def _load_semantic_index() -> dict | None:
+    if not SEMANTIC_INDEX.exists():
+        return None
+    try:
+        data = json.loads(SEMANTIC_INDEX.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) and "vectors" in data else None
+    except Exception:
+        return None
+
+
 # ─────────────────────────────────────────────────────────────────────
 # Загрузка данных
 # ─────────────────────────────────────────────────────────────────────
@@ -219,6 +232,24 @@ def _semantic_score(query_vec: dict, card_id: str, idx: dict) -> float:
     return _cosine_sim(query_vec, vec)
 
 
+def _semantic_doc_score(query_vec: dict, card: "CardEnvelope", sem_idx: dict | None) -> float:
+    """Score от semantic_index.json по пути карточки (покрывает docs/ целиком)."""
+    if not _HAVE_EMB or not sem_idx:
+        return 0.0
+    path_str = card.payload.get("path", "")
+    vectors  = sem_idx.get("vectors", {})
+    idf      = sem_idx.get("idf", {})
+    if not path_str or not vectors:
+        return 0.0
+    # semantic_index хранит ключи по относительному пути (docs/...)
+    key = path_str.split("docs/", 1)[-1] if "docs/" in path_str else path_str
+    for candidate_key in vectors:
+        if key in candidate_key or candidate_key in key:
+            q_vec_in_sem = _tfidf_vec(query_vec, idf) if idf else query_vec
+            return _cosine_sim(q_vec_in_sem, vectors[candidate_key])
+    return 0.0
+
+
 def _graph_bonus(card: CardEnvelope, candidate_ids: set[str]) -> float:
     """Бонус за рёбра к другим кандидатам (граф-коннективность)."""
     bonus = 0.0
@@ -313,11 +344,14 @@ def find_candidates(query_text: str, top: int = 5,
         return []
 
     # TF-IDF вектор запроса
-    idx = _load_index() if _HAVE_EMB else None
+    idx     = _load_index() if _HAVE_EMB else None
+    sem_idx = _load_semantic_index() if _HAVE_EMB else None
     q_vec: dict = {}
-    if idx and _HAVE_EMB:
+    q_tf:  dict = {}
+    if _HAVE_EMB:
         q_tf  = _compute_tf(q_tokens)
-        q_vec = _tfidf_vec(q_tf, idx["idf"])
+        if idx:
+            q_vec = _tfidf_vec(q_tf, idx["idf"])
 
     # Avg doc length для BM25
     avg_len = max(
@@ -326,24 +360,29 @@ def find_candidates(query_text: str, top: int = 5,
     )
 
     # Оценка каждого кандидата
+    # score = 0.5*s_card_tfidf + 0.3*s_doc_semantic + 0.2*s_bm25 + graph_bonus
     scored = []
     for card in pool:
-        s_sem = _semantic_score(q_vec, card.card_id, idx) if idx else 0.0
-        s_bm  = _bm25_score(q_tokens, card, avg_len=avg_len)
-        scored.append((s_sem, s_bm, card))
+        s_sem  = _semantic_score(q_vec, card.card_id, idx) if idx else 0.0
+        s_sdoc = _semantic_doc_score(q_tf, card, sem_idx) if sem_idx else 0.0
+        s_bm   = _bm25_score(q_tokens, card, avg_len=avg_len)
+        scored.append((s_sem, s_sdoc, s_bm, card))
 
     # Нормализация BM25 к [0, 1]
-    max_bm = max((s for _, s, _ in scored), default=1.0) or 1.0
-    scored = [(s_sem, s_bm / max_bm, c) for s_sem, s_bm, c in scored]
+    max_bm = max((s for _, _, s, _ in scored), default=1.0) or 1.0
+    scored = [(s_sem, s_sdoc, s_bm / max_bm, c) for s_sem, s_sdoc, s_bm, c in scored]
 
     # Собираем топ-2N для граф-бонуса
-    pre_top = sorted(scored, key=lambda x: -(0.6 * x[0] + 0.4 * x[1]))[:top * 2]
-    top_ids = {c.card_id for _, _, c in pre_top}
+    pre_top = sorted(
+        scored,
+        key=lambda x: -(0.5 * x[0] + 0.3 * x[1] + 0.2 * x[2])
+    )[:top * 2]
+    top_ids = {c.card_id for _, _, _, c in pre_top}
 
     final_scored = []
-    for s_sem, s_bm, card in pre_top:
+    for s_sem, s_sdoc, s_bm, card in pre_top:
         g = _graph_bonus(card, top_ids)
-        score = 0.6 * s_sem + 0.4 * s_bm + g
+        score = 0.5 * s_sem + 0.3 * s_sdoc + 0.2 * s_bm + g
         final_scored.append((score, card))
 
     final_scored.sort(key=lambda x: -x[0])

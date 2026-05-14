@@ -2,8 +2,9 @@
 title: "2. Target Populations"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 2. Target Populations
@@ -23,8 +24,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Disabled Specialists with Modified Work Requirements Size estimate: 5M+ in OECD countries with preserved intellectual capacity and specific support needs.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Size estimate**: 500K+ in OECD countries with relevant skills
@@ -43,7 +44,7 @@ date: 2026-05-13
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

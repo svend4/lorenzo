@@ -1,0 +1,48 @@
+{
+  "ts": "2026-05-13T15:13:39",
+  "date": "2026-05-13",
+  "corpus": {
+    "docs": 1289,
+    "words": 1505483,
+    "approved": 1005,
+    "normalized": 109,
+    "raw": 175,
+    "promote_pct": 78.0
+  },
+  "search": {
+    "hit_rate_10": 1.0,
+    "mean_mrr": 0.441,
+    "ann_built": true
+  },
+  "graph": {
+    "built": true,
+    "nodes": 1166,
+    "edges": 18458,
+    "isolated": 23,
+    "top_hubs": [
+      {
+        "id": "docs/autofilled/README.md",
+        "pr": 1.0
+      },
+      {
+        "id": "docs/autofilled/components/cowork.md",
+        "pr": 0.4343
+      },
+      {
+        "id": "docs/autofilled/components/ingit.md",
+        "pr": 0.4342
+      }
+    ]
+  },
+  "skills": {
+    "count": 28,
+    "avg_score": 85.7
+  },
+  "activity": {
+    "commits_7d": 63,
+    "top_sections": []
+  },
+  "queries": {
+    "count": 0
+  }
+}

@@ -4,7 +4,7 @@ tags:
   - timeline
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Хронологическая лента событий
@@ -29,9 +29,9 @@ _Обновлено: 2026-05-13_
 
 ## 2020 (4 упоминаний)
 
-- 🔔 **2020-01-01** · _Pipeline_  
-  ClickHouse stores for analytics Schema CREATE TABLE decisions ( aktenzeichen String, court String, decisiondate Date, pa  
-  `21-legal-corpus-analytics-at-scale.md`
+- 🔔 **2020** · _220. 📝_  
+  📝 Изменённые файлы (16) Файл: docs/obsidian/VERSIONDIFF.md 4 колонок, 16 строк Файл Δ слов Добавленные темы Удалённые те  
+  `TABLES.md`
 
 - 📌 **2020** · _Multi-Agent Systems_  
   (2020).  
@@ -112,7 +112,12 @@ _Обновлено: 2026-05-13_
   `legal-case.md`
 
 
-## 2023 (11 упоминаний)
+
+## 2023 (13 упоминаний)
+
+- 🔔 **2023** · _`TIMELINE.md` (7)_  
+  2023 (11 упоминаний) - ...ещё 2 07-open-questions.md (7) - Who decides what the meta-agent can see?  
+  `QUESTIONS.md`
 
 - 📌 **2023** · _1.1. The Current Landscape_  
   This paradigm has rapidly matured over 2023–2026 and is now mainstream.  
@@ -159,7 +164,7 @@ _Обновлено: 2026-05-13_
   `01-three-related-themes.md`
 
 
-## 2024 (49 упоминаний)
+## 2024 (51 упоминаний)
 
 - 🔔 **2024-01-01** · _Конфигурация: см. R_  
   README-MCP.md python FORMATTYPESHUMANITIES = Законодательные "lawsection", статья закона (§ 90 SGB XII) "lawparagraph",   
@@ -212,6 +217,10 @@ _Обновлено: 2026-05-13_
 - 🔔 **2024** · _141. К_  
   Ключевые вехи Файл: docs/SCHEDULE.md 3 колонок, 10 строк Срок Веха Статус -------------------- 2024-Q4 ✅ Исследование ко  
   `TABLES.md`
+
+- 🔔 **2024** · _📝 Изменённые файлы (59)_  
+  Точная дата (2041) +24 docs/TASKSINDEX.md -76 — Содержание docs/KPI.md +30 Версия (390), Количество (243), Размер (32) +  
+  `VERSION_DIFF.md`
 
 - 🔔 **2024** · _1.3. Why Now_  
   The Model Context Protocol (MCP) released by Anthropic in late 2024 provides standardized substrate for AI-assisted work  

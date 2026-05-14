@@ -2,7 +2,7 @@
 title: "Action Items, риски и решения"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Action Items, риски и решения
@@ -12,11 +12,6 @@ date: 2026-05-13
 <!-- summary -->
 > `ACTION_ITEMS` — раздел документации проекта Lorenzo.
 
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
 
 Автоматически извлечено из всех документов.
 
@@ -394,6 +389,8 @@ _(254 дублей скрыто)_
   _→ 257-4-the-sub-agent-registry_
 - ** Выбрана federation.  
   _→ 26-14-adr-001-federation-over-merging_
+- Tree for InGit Adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)  
+  _→ 270-appendix-b-sub-agent-registry-schema-sketch_
 - скрывает суждения от principal  
   _→ 272-appendix-d-connection-diagram_
 - наиболее полно соответствует требованиям Layer B, при условии добавления AI-collaboration features.»  
@@ -663,9 +660,13 @@ _(894 дублей скрыто)_
   _→ 150-appendix-c-version-history_
 - Analysis**  
   _→ 154-table-of-contents_
+- Analysis](162-8-risk-analysis|GitHub]]  
+  _→ 158-4-proposed-infrastructure_
+- Analysis](162-8-risk-analysis.md) _17%_  
+  _→ 159-5-economic-model_
 - mitigations**:  
   _→ 161-7-phased-rollout-plan_
-- Analysis](162-8-risk-analysis|GitHub]]  
+- Analysis](162-8-risk-analysis.md)  
   _→ 161-7-phased-rollout-plan_
 - Assessment On balance, OKWF faces typical challenges of a new foundation with novel scope.  
   _→ 162-8-risk-analysis_
@@ -1266,6 +1267,8 @@ _(1006 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - and formulated alternative content-sharing strategies  
   _→ 01-интегральный-анализ-профиля-svend4_
+- и открытые вопросы](115-8-ограничения-и-открытые-вопросы.md)  
+  _→ 107-1-контекст-и-мотивация_
 - и открытые вопросы  
   _→ 115-8-ограничения-и-открытые-вопросы_
 - и открытые вопросы](#8-ограничения-и-открытые-вопросы)  

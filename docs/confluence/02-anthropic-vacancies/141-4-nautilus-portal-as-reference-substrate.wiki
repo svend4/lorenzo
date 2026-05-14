@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 4. Nautilus Portal as Reference Substrate
 
@@ -21,8 +25,8 @@ h1. 4. Nautilus Portal as Reference Substrate
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Required Extensions to NPP for Double-Triangle While NPP v1.1 provides the substrate, three extensions are needed for full Double-Triangle support: Extension 1: Agent Registry.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}The Double-Triangle Architecture requires a substrate capable of:{quote}

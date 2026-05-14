@@ -4,7 +4,7 @@ tags:
   - rag
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 3. Why Existing Solutions Fail
@@ -24,8 +24,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Документ фиксирует ключевые архитектурные или технические решения.
 
 > Seven existing infrastructure categories partially address the

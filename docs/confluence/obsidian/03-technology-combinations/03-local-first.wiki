@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/03-technology-combinations/03-local-first.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Local-first и P2P стек"
 tags:
   * technology-combinations
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Local-first и P2P стек
@@ -43,7 +43,17 @@ h2. Содержание
 
 
 
+{quote}_ Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B -. _ Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B -{quote}
+>
+ 
 {quote}- Сложные архитектурные → Claude Opus{quote}
+Проекты: Svyazi, CardIndex, Yjs
+ --
+ 
+локальная Qwen3:8B
+ Средние → облачная DeepSeek
+ Сложные архитектурные → Claude Opus
+ Роутер перед каждым агентом, не после
 _Проекты:_ Svyazi, [[01-executive-summary|CardIndex]], Yjs
 
 ----

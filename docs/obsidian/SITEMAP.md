@@ -2,7 +2,7 @@
 title: "Карта репозитория Lorenzo"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Карта репозитория Lorenzo
@@ -12,6 +12,8 @@ date: 2026-05-13
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
 
 
 

@@ -1,9 +1,25 @@
+---
+state: approved
+---
+
 # Уникальные проекты с Хабра
 
 <!-- toc-auto -->
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> 02-collaboration-partners (сходство 0.18) 01-synthesis (сходство 0.16) README (сходство 0.10) Кто ссылается на этот документ (3) Документ индексирован в базе знаний репозитор
+Похожие документы
+ 02-collaboration-partners (сходство 0.18)
+ 01-synthesis (сходство 0.16)
+ README (сходство 0.10)
+ --
+Кто ссылается на этот документ (3)
+ 01-synthesis
+ wikontic
+ README
+Использование
+ 
+Документ индексирован в базе знаний репозитор
 
 <!-- summary: Каталог уникальных OSS-проектов с Хабра в слоях memory и knowledge -->
 <!-- tags: projects, habr, memory, knowledge, collaboration -->

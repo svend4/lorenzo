@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/153-executive-summary.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Executive Summary
 
@@ -37,7 +41,10 @@ h2. Содержание
 
 
 
-{quote}The Open Knowledge Work Foundation (OKWF) proposes to build{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: --- --- Похожие документы: - 155-1-problem-statement(docs/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.17) - 156-2-target-populations(docs/02-anthropic-vacancies/{quote}
+{quote}🔧 Подход: OKWF proposes a foundat{quote}
 
 ----
 

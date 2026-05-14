@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/20-8-consensus-algorithm.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "8. Consensus Algorithm"
 tags:
   * rag
+  * anthropic
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 8. Consensus Algorithm
@@ -42,7 +43,12 @@ h2. Contents
 
 
 
-{quote}Когда один query возвращает результаты из нескольких Repos, Portal{quote}
+{quote}_ Consensus Algorithm - 8.1. _ Future Extensions (v2.0+) Когда один query возвращает результаты из нескольких Repos, Portal --- 8 Документ создан на основе исследования.{quote}
+Будущие версии MAY использовать:
+ Semantic similarity через embeddings (cross-lingual matching)
+ Fuzzy matching с threshold
+ Weighted consensus (разный вес от confidence adapter'а)
+Эти расширения не breaking — они активируют
 
 ----
 

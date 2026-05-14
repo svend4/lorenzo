@@ -2,7 +2,7 @@
 title: "Abstract"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Abstract
@@ -39,7 +39,15 @@ date: 2026-05-13
 
 
 <!-- summary -->
+> * InGit should position as the structure layer that Cowork needs — substrate for sustained, organized, recoverable, shar. * The document was theoretical, naming the problem without specifying solutions
+>
+ 
 > Document 2.3 identified Layer B — the missing infrastructure
+ --
+ 
+Abstract
+Document 2.3 identified Layer B — the missing infrastructure 
+between chat and code repositories — as a fundamental gap in
 
 ---
 <!-- tags: local-first, architecture, roadmap, anthropic -->

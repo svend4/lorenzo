@@ -1,17 +1,13 @@
 # Изолированные документы (Orphans)
 
-> [!NOTE]
-> Раздел `ORPHANS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: orphans, docs -->
-
-
 <!-- summary -->
-> `ORPHANS` — раздел документации проекта Lorenzo.
+> **Найдено:** 0 файлов без входящих ссылок из 1563 проверено.
+
+---
 
 
-**Найдено:** 0 файлов без входящих ссылок из 2180 проверено.
+
+**Найдено:** 0 файлов без входящих ссылок из 1563 проверено.
 
 _Эти документы не связаны с остальными — их легко потерять._
 
@@ -30,35 +26,29 @@ _Эти документы не связаны с остальными — их 
 3. Крупные изолированные файлы (>100 слов) — добавить в READING_ORDER.md
 4. Мелкие (<50 слов) — рассмотреть для удаления или слияния
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
 - [STATS](STATS.md)
-
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Изолированные документы (Orphans)». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_orphans.py
-```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [GRAPH](GRAPH.md)
+- [STALENESS](STALENESS.md)
 

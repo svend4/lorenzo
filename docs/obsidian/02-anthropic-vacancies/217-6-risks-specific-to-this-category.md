@@ -2,7 +2,7 @@
 title: "6. Risks Specific to this Category"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 6. Risks Specific to this Category
@@ -23,7 +23,11 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Professional Colleague Agents have risks distinct from
+> * Teacher's agent generates problems requiring active human reasoning, not pattern-matching. * Agents support practitioner customization that goes beyond preferences into methodology choices
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Teacher's agent generates problems requiring active human reasoning, not pattern-matching.
 
 ---
 

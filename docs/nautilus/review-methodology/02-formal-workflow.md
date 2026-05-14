@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. Формальный workflow
 
 <!-- toc-auto -->

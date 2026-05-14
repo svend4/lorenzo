@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Personal multi-agent hub
 
 <!-- toc-auto -->

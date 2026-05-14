@@ -2,8 +2,9 @@
 title: "6. Adapter Interface"
 tags:
   - ingestion
+  - architecture
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 6. Adapter Interface
@@ -42,10 +43,14 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс)
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс)
+Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс) 
+от  :
+ 
+6.2.
 
 ---
-<!-- tags: ingestion -->
+<!-- tags: ingestion, architecture -->
 
 
 ## 6. Adapter Interface

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 8. Implications for Nautilus and OKWF
 
 > [!TIP]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)». Документ содержит практические рекомендации и лучшие практики.
 
 ---
 

@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Acknowledgments
@@ -29,8 +29,8 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. This document emerged from the author's observation, near This document emerged from the author's observation, near
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > This document emerged from the author's observation, near

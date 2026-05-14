@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/168-abstract.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Abstract"
 tags:
   * architecture
+  * rag
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Abstract
@@ -44,7 +45,15 @@ h2. Содержание
 
 
 
-{quote}We introduce the _Representative Agent Layer_ — an architectural{quote}
+{quote}_ Each category exhibits the same structural problem: gap between value created or held and capacity to make that value. _ We propose architectural specifications, ethical commitments, governance structures, and rollout pathways{quote}
+>
+ 
+{quote}We introduce the Representative Agent Layer — an architectural{quote}
+ --
+ 
+Abstract
+We introduce the Representative Agent Layer — an architectural 
+pattern in which AI systems serve as proactive representat
 
 ----
 

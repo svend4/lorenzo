@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # References
 
 <!-- toc-auto -->
@@ -30,10 +34,24 @@
 
 
 <!-- summary -->
-> - Akerlof, G. (1970). "The Market for Lemons: Quality
+> * References Contents - References - Foundational Sources - Principal-Agent Theory - Disability and Access(disability-an. * "Designing Organizations for an Information-Rich World"
+ 
+Contents
+ References
+ Foundational Sources
+ Principal-Agent Theory
+ Disability and Access
+ Modern AI Ethics
+ Companion Documents
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (10)
+> [!NOTE]
+> Документ
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

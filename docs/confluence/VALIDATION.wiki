@@ -1,17 +1,17 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/VALIDATION.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Валидация шаблонов
 
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-14_
 
 _Загружено схем:_ 22
 
 _Документов с frontmatter:_ 21
 
-_Валидно:_ 21 | _С ошибками:_ 0 | _Без шаблона:_ 2431
+_Валидно:_ 21 | _С ошибками:_ 0 | _Без шаблона:_ 2537
 
 
 h2. Шаблоны
@@ -38,3 +38,19 @@ h2. Шаблоны
 * _tech-pair_ — Пара технологий с описанием синергии
 * _tech-radar-entry_ — Запись Tech Radar: квадрант, кольцо, обоснование
 * _weekly-digest_ — Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [BROKEN_LINKS|BROKEN_LINKS.md]
+* [CONCEPTS|CONCEPTS.md]
+* [HEALTH|HEALTH.md]
+* [INDEX|INDEX.md]
+* [LLM_SUMMARIES|LLM_SUMMARIES.md]
+* [METRICS|METRICS.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* _...ещё 5_
+

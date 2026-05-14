@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Yodoca[^yodoca]: консолидация и забывание
 
 <!-- toc-auto -->

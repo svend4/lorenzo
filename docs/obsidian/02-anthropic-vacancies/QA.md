@@ -4,7 +4,7 @@ tags:
   - qa
   - docs
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Q&A: 02-anthropic-vacancies
@@ -19,7 +19,23 @@ date: 2026-05-13
 
 
 <!-- summary -->
-> `QA` — раздел документации проекта Lorenzo.
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 355 файлам раздела._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
@@ -31,6 +47,14 @@ _Автоматически сгенерировано по 355 файлам р�
 ## Что входит в интеграционный контракт между слоями?
 
 Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+
+## Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
+
+## Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: **forward deployed**, **research engineer**, **developer community**
 
 ## Какие кластеры найма выделены у Anthropic?
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Существующий landscape collaborators (твоя working knowledge)
 
 <!-- toc-auto -->
@@ -24,8 +28,8 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Существующий landscape collaborators (твоя working knowledge) В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more): Проекты: CardIndex, knowl
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):

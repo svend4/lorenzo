@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # research-docs + LiteParse
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: nlaik / Jerry Liu / LlamaIndex Проекты: Svyazi, LiteParse
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Автор:** nlaik / Jerry Liu / LlamaIndex

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # References
 
 <!-- toc-auto -->
@@ -24,8 +28,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. https://claude.com/product/cowork https://support.claude.com/en/collections/13345190-cowork
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - Anthropic. (2026, January 12). *Claude Cowork* [Product

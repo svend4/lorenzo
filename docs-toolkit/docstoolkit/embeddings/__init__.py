@@ -17,9 +17,18 @@ from docstoolkit.embeddings.base import EmbeddingProvider, SearchResult
 from docstoolkit.embeddings.tfidf import TFIDFProvider
 from docstoolkit.embeddings.dispatch import get_provider, list_providers
 from docstoolkit.embeddings.hybrid import HybridSearcher
+from docstoolkit.embeddings.incremental import IncrementalIndex
+from docstoolkit.embeddings.watcher import WatchResult, watch_once, watch_loop
+from docstoolkit.embeddings.coordinator import Index, IndexHit, IndexCoordinator
 
 __all__ = [
     "EmbeddingProvider", "SearchResult",
     "TFIDFProvider", "HybridSearcher",
     "get_provider", "list_providers",
+    # Gap 5: Incremental index
+    "IncrementalIndex",
+    # Gap 5: File watcher
+    "WatchResult", "watch_once", "watch_loop",
+    # M7: IndexCoordinator
+    "Index", "IndexHit", "IndexCoordinator",
 ]

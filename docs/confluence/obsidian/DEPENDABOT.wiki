@@ -1,18 +1,18 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/DEPENDABOT.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Мониторинг зависимостей"
 tags:
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Мониторинг зависимостей
 
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-14_
 
 h2. Python-зависимости
 
@@ -42,3 +42,13 @@ python scripts/improve_dependabot.py --check-pypi
 
 После {{--generate-config}} Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
+
+
+
+----
+
+_Кто ссылается на этот документ (3):_
+* [READABILITY|../READABILITY.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+

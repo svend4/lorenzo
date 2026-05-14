@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 20. ADR-002: Q6 as First-Class Protocol Concept
 
 <!-- toc-auto -->
@@ -17,7 +21,7 @@
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

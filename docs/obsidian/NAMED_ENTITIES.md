@@ -2,7 +2,7 @@
 title: "Индекс именованных сущностей"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Индекс именованных сущностей
@@ -25,7 +25,7 @@ _Обновлено: 2026-05-13_
 Всего сущностей: **252** (мин. 2 упоминаний)
 
 
-## 👤 People (20)
+## 👤 People (19)
 
 | Сущность | Файлов | Тип |
 |----------|--------|-----|
@@ -57,6 +57,7 @@ _Обновлено: 2026-05-13_
 - `docs/01-svyazi/00-intro-part2.md`
 - `docs/01-svyazi/09-architectural-gaps.md`
 - `docs/01-svyazi/11-integration-contracts.md`
+- `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - _...ещё 731_
@@ -72,6 +73,7 @@ _Обновлено: 2026-05-13_
 
 ### `svend4` (193 файлов)
 
+- `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/00-intro.md`
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`

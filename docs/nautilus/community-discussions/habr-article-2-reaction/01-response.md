@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude hat geantwortet: Прочитаю статью, чтобы понимать конкретный кейс, на кото…
 
 <!-- toc-auto -->
@@ -24,7 +28,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на вторую Habr-статью.
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на вторую Habr-статью. Этот документ описывает MVP-подход.
 
 ---
 <!-- tags: architecture, roadmap, anthropic, collaboration -->

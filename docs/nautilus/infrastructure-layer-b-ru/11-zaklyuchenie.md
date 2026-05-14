@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Заключение
 
 <!-- toc-auto -->

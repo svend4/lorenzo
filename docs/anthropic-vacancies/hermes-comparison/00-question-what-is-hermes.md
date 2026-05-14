@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что такое Hermes Agent (Nous Research, MIT, 95K+ stars)
 
 <!-- toc-auto -->

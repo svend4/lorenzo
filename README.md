@@ -212,3 +212,4 @@ python scripts/improve_run_all.py --group reports
 - [`docs/SCORING.md`](docs/SCORING.md) — Go/No-Go скоринг (96% → GO)
 - [`docs/RISK_REGISTER.md`](docs/RISK_REGISTER.md) — реестр рисков
 - [`docs/COMPONENT_MATRIX.md`](docs/COMPONENT_MATRIX.md) — матрица 14 компонентов × 10 возможностей
+- [`docs/CI_COST_INCIDENT_2026-05-14.md`](docs/CI_COST_INCIDENT_2026-05-14.md) — **постмортем перерасхода GitHub Actions minutes + инструкция по написанию воркфлоу** (обязательно к прочтению перед созданием нового `.github/workflows/*.yml`)

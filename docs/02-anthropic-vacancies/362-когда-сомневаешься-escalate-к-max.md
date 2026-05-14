@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Когда сомневаешься — escalate к Max
 
 <!-- toc-auto -->
@@ -9,7 +13,7 @@
 - [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 
 > [!WARNING]
@@ -18,7 +22,15 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> - Ethical complexity beyond обычных protocols
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Когда сомневаешься — escalate к Max Ethical complexity beyond обычных protocols
+ --
+Когда сомневаешься — escalate к Max
+Если задача presents:
+ Ethical complexity beyond обычных protocols
+ Major resource commitment
+ New collaborator type не encountered before
+ Public-facing risk
+ Co
 
 ---
 

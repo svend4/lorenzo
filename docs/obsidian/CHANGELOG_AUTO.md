@@ -2,7 +2,7 @@
 title: "Changelog (авто)"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Changelog (авто)

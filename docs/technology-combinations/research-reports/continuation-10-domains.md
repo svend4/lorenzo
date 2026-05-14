@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations
 
 <!-- toc-auto -->
@@ -20,8 +24,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «Continuation Research — 10 New Domains Beyond the Original 45 Combinations».
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «Continuation Research — 10 New Domains Beyond the Original 45 Combinations».

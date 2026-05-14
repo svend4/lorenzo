@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude hat geantwortet: Это очень тонкое и важное наблюдение.
 
 <!-- toc-auto -->
@@ -27,7 +31,7 @@
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — 21 учитель индийского йога — спектр между Professional Colleague и Representative Agent.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

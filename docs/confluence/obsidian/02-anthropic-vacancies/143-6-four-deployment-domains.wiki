@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/143-6-four-deployment-domains.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * roadmap
   * collaboration
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 6. Four Deployment Domains
@@ -31,7 +31,12 @@ h1. 6. Four Deployment Domains
 
 
 
-{quote}The Double-Triangle Architecture is domain-agnostic but benefits{quote}
+{quote}_ Meta-agent coordinating multiple advocates on related cases, sharing anonymized patterns, escalating cross-jurisdictio. _ Agile methodologies, CI/CD patterns, deployment playbooks, incident postmortems , architecture decision records{quote}
+ Code generation and review (Copilot, Cursor, Claude Code)
+ Design ideation (Figma AI, sketch tools)
+ Deployment automation (Terraform AI, kubectl-ai)
+ Test generation (property-based test synthesis)
+Upper triangle content
 
 ----
 

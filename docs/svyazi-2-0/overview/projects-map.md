@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Карта найденных проектов и паттернов
 
 <!-- toc-auto -->
@@ -26,7 +30,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`, раздел «Карта найденных проектов и паттернов».
+> > Источник: `deep-research-report (1).md`, раздел «Карта найденных проектов и паттернов». Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---

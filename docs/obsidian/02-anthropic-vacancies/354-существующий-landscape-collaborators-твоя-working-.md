@@ -8,7 +8,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Существующий landscape collaborators (твоя working knowledge)
@@ -37,8 +37,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Существующий landscape collaborators (твоя working knowledge) В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more): Проекты: CardIndex, knowl
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):

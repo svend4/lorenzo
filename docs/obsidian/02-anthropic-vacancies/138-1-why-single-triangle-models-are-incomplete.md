@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 1. Why Single-Triangle Models Are Incomplete
@@ -39,7 +39,10 @@ date: 2026-05-13
 
 
 <!-- summary -->
-> The AI-assisted knowledge work field currently divides into two
+> * The gap needs to be closed not through yet another centralized platform, but through a protocol — a way for the two tr. * What Both Paradigms Miss Both single-triangle approaches share a structural blind spot: they assume humans exist in on
+Workspace AI) attempt to bridge these but do so through layer 
+isolation — personal assistants and team-level orchestration 
+exist as separate products without formal protocols between th
 
 ---
 <!-- tags: architecture, anthropic -->

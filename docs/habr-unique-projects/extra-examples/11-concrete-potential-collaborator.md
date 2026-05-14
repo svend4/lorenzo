@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Конкретный потенциальный collaborator
 
 <!-- toc-auto -->

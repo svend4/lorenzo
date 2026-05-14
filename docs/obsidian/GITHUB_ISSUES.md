@@ -2,7 +2,7 @@
 title: "GitHub Issues — список задач"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # GitHub Issues — список задач
@@ -67,7 +67,8 @@ _Обновлено: 2026-05-13_
 
 ## `docs/SCRIPTS_CATALOG.md` (1 задач)
 
-- [ ] **из docs/. | |**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 3 [91. Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 10 [Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
 
 ## `docs/SPELLCHECK.md` (1 задач)
 

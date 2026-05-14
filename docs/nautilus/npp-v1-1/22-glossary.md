@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 22. Glossary of Reference Examples
 
 > [!NOTE]

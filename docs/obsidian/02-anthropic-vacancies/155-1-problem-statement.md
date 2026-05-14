@@ -2,8 +2,9 @@
 title: "1. Problem Statement"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 1. Problem Statement
@@ -24,8 +25,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: It is a present problem with actionable solutions that require coordinated action now.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The AI industry in 2026 exhibits an apparent paradox. Frontier
@@ -42,7 +43,7 @@ date: 2026-05-13
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

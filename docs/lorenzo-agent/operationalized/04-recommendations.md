@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Рекомендации: принять архитектуру как direction, не immediate plan
 
 <!-- toc -->

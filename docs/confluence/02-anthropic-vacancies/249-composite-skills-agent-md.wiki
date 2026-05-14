@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/249-composite-skills-agent-md.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: normalized
+----
 
 h1. COMPOSITE SKILLS AGENT.md
 
@@ -17,7 +21,7 @@ h2. Contents
 
 
 
-{quote}- [166-representative-agent-layer-md|166-representative-agent-layer-md.md] (сходство 0.25){quote}
+{quote}- [166-representative-agent-layer-md|166-representative-agent-layer-md.md] (сходство 0.25) Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 ----
 

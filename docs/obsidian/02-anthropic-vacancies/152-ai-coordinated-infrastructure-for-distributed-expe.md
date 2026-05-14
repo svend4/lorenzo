@@ -2,8 +2,9 @@
 title: "AI-Coordinated Infrastructure for Distributed Expert Contribution"
 tags:
   - collaboration
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
@@ -28,14 +29,14 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Editorial collaboration: Claude (intellectual development, 2026-04)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Editorial collaboration:** Claude (intellectual development, 2026-04)
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

@@ -1,8 +1,8 @@
 # Каталог скриптов
 
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-14_
 
-**Всего скриптов:** 166
+**Всего скриптов:** 186
 
 
 ## По группам
@@ -22,7 +22,7 @@ _Обновлено: 2026-05-13_
 | `improve_similar.py` | для каждого документа находит топ-3 похожих. |  |
 | `improve_word_freq.py` | частотный анализ слов по разделам. |  |
 
-### analytics (9)
+### analytics (10)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
@@ -31,7 +31,8 @@ _Обновлено: 2026-05-13_
 | `improve_cross_section.py` | граф концептов между секциями. | `--format`, `--min-secs`, `--top` |
 | `improve_dependency_map.py` | карта зависимостей: скрипты → выходные файлы. |  |
 | `improve_digest_auto.py` | автодайджест изменений за N дней. | `--days`, `--format`, `--since` |
-| `improve_digest_weekly.py` | еженедельный дайджест изменений репозитория. |  |
+| `improve_digest_weekly.py` | еженедельный дайджест Svyazi 2.0. | `--days`, `--no-cards` |
+| `improve_feedback_loop.py` | close the search-corpus feedback loop. | `--apply`, `--days`, `--json` |
 | `improve_reading_time.py` | оценивает время чтения каждого документа. | `--section`, `--wpm` |
 | `improve_topic_model.py` | тематическое моделирование без ML-зависимостей. | `--section`, `--top-words`, `--topics` |
 | `improve_version_diff.py` | показывает содержательные изменения docs/ между коммитами. | `--from`, `--last`, `--to` |
@@ -45,10 +46,11 @@ _Обновлено: 2026-05-13_
 | `improve_github_issues.py` | создаёт GitHub Issues из ACTION_ITEMS.md и TODO-блоков. | `--create`, `--dry-run`, `--label` |
 | `improve_pre_commit.py` | генерирует .pre-commit-config.yaml для проекта. | `--dry-run`, `--install` |
 
-### contacts-ext (1)
+### contacts-ext (2)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
+| `improve_contact_personalize.py` | template-based contact message drafts. | `--author`, `--dry-run`, `--stats` |
 | `improve_migrate_contacts.py` | миграция docs/contacts/*.md на frontmatter contact-outreach. | `--apply`, `--dry-run` |
 
 ### content (4)
@@ -114,12 +116,14 @@ _Обновлено: 2026-05-13_
 | `improve_templates.py` | генерирует шаблоны документов для каждого раздела. |  |
 | `improve_word_cloud.py` | генерирует SVG word cloud из топ-слов репозитория. |  |
 
-### graph (4)
+### graph (6)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
 | `improve_graph.py` | строит граф связей между проектами. |  |
+| `improve_graph_search.py` | graph-neighbourhood search for Svyazi 2.0. | `--alpha`, `--hops`, `--json`, `--query`, `--seeds`, `--stats`, … |
 | `improve_mindmap.py` | строит майндмап всего репозитория в формате Mermaid mindmap. |  |
+| `improve_multi_query.py` | multi-query fusion search for Svyazi 2.0. | `--decompose`, `--eval`, `--no-graph`, `--query`, `--top` |
 | `improve_narrative.py` | строит нарративную линию проекта. |  |
 | `improve_network.py` | анализ сети авторов и проектов. |  |
 
@@ -190,11 +194,12 @@ _Обновлено: 2026-05-13_
 | `improve_validate.py` | валидация структуры репозитория. |  |
 | `improve_validate_templates.py` | валидация документов по схемам шаблонов. | `--file`, `--report`, `--section`, `--strict` |
 
-### reports (21)
+### reports (26)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
 | `improve_benchmark.py` | замеряет и записывает время выполнения скриптов. | `--group`, `--report`, `--script` |
+| `improve_card_graph.py` | knowledge graph of approved card relationships. | `--dot`, `--stats`, `--top` |
 | `improve_changelog.py` | генерирует CHANGELOG из git-истории репозитория. |  |
 | `improve_compare.py` | сравнивает текущее состояние docs/ с предыдущим коммитом. |  |
 | `improve_contact_priority.py` | ранжирует авторов по приоритету для контакта. |  |
@@ -203,9 +208,12 @@ _Обновлено: 2026-05-13_
 | `improve_coverage.py` | матрица покрытия: какие файлы имеют summary, теги, TOC, crossrefs, статус. | `--section` |
 | `improve_digest.py` | дайджест недавних изменений репозитория. |  |
 | `improve_health.py` | дашборд здоровья репозитория. |  |
+| `improve_hot_cards.py` | surface "hot" cards for Svyazi 2.0. | `--json`, `--state`, `--top` |
+| `improve_knowledge_snapshot.py` | point-in-time KPI snapshot for Svyazi 2.0. | `--json`, `--trend` |
 | `improve_progress.py` | трекер прогресса MVP-проекта. |  |
 | `improve_progress_sync.py` | синхронизирует PROGRESS.md с реальным состоянием файлов. | `--dry-run` |
 | `improve_qa.py` | генерирует Q&A листы для каждого раздела docs/. |  |
+| `improve_query_log.py` | query analytics for Svyazi 2.0 gateway. | `--json`, `--tail`, `--top` |
 | `improve_reading_order.py` | строит рекомендуемый порядок чтения документов |  |
 | `improve_registry.py` | единый реестр всех артефактов проекта в docs/REGISTRY.md. |  |
 | `improve_report.py` | итоговый executive report о состоянии репозитория. |  |
@@ -213,6 +221,7 @@ _Обновлено: 2026-05-13_
 | `improve_scoring.py` | система оценки готовности проекта к запуску (Go/No-Go). |  |
 | `improve_sitemap.py` | генерирует навигационную карту репозитория. |  |
 | `improve_skill_dashboard.py` | статистика использования и оценок скилов. |  |
+| `improve_skill_metrics.py` | quality metrics for .claude/skills/*.md files. | `--json`, `--low`, `--top` |
 | `improve_staleness.py` | находит документы которые давно не обновлялись или неполные. | `--days`, `--no-git` |
 | `improve_stats.py` | детальная статистика по каждому разделу docs/. |  |
 
@@ -242,25 +251,36 @@ _Обновлено: 2026-05-13_
 | `improve_source_map.py` | строит карту происхождения текстов. | `--authors`, `--format`, `--section`, `--show-imported` |
 | `improve_subtopic_fill.py` | дополняет файлы-заглушки контентом из базы знаний. | `--apply`, `--dry-run`, `--min-words`, `--section` |
 
-### без группы (22)
+### без группы (33)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
-| `improve_ann_index.py` | ANN-граф на основе hnswlib для ускоренного векторного поиска. | `--benchmark`, `--build`, `--query`, `--stats`, `--top` |
+| `improve_ann_index.py` | fast inverted-index ANN for Svyazi 2.0. | `--benchmark`, `--build`, `--query`, `--stats` |
+| `improve_auto_summarize.py` | авто-генерация summary и тегов для raw-карточек. | `--apply`, `--dry-run`, `--section`, `--stats` |
+| `improve_bulk_decay.py` | bulk decay for empty stub cards. | `--apply`, `--dry-run`, `--min-age`, `--section`, `--stats` |
 | `improve_card_index.py` | CLI для управления CardEnvelope-карточками. | `--approve`, `--build`, `--decay`, `--dry-run`, `--export`, `--fmt`, … |
+| `improve_card_promote.py` | Card Lifecycle Promoter: raw → normalized → approved. | `--apply`, `--dry-run`, `--section`, `--stats`, `--top` |
 | `improve_collab_finder.py` | Collaboration Finder для Svyazi 2.0. | `--dry-run`, `--file`, `--out`, `--query`, `--top`, `--type` |
 | `improve_contact_status.py` | обновляет статус контакта в docs/contacts/<slug>.md. | `--agreed`, `--author`, `--list`, `--messaged`, `--note`, `--replied`, … |
+| `improve_decay_checker.py` | поиск кандидатов на decay в базе знаний Svyazi 2.0. | `--age`, `--output`, `--top`, `--type` |
 | `improve_embedding_index.py` | TF-IDF семантический индекс над CardStore. | `--index`, `--query`, `--similar`, `--stats`, `--top`, `--type` |
+| `improve_github_tracker.py` | Мониторинг GitHub-репозиториев авторов Хабр-проектов. | `--apply`, `--author`, `--days`, `--dry-run`, `--stats` |
+| `improve_knowledge_evolution.py` | трекер эволюции базы знаний Svyazi 2.0. | `--plot`, `--stats` |
 | `improve_llm_contact.py` | генерирует персонализированное первое сообщение автору через LLM. | `--all`, `--author`, `--dry-run` |
 | `improve_llm_enrich.py` | семантическое обогащение проектных файлов через Claude API. | `--dry-run`, `--file`, `--force`, `--model`, `--section` |
 | `improve_llm_gaps.py` | семантический поиск пробелов через Claude API. |  |
 | `improve_llm_qa.py` | ответы на вопросы по всей базе знаний Lorenzo через Claude API. | `--batch`, `--clear-cache`, `--dry-run`, `--no-cache`, `--question`, `--save` |
 | `improve_llm_summary.py` | каскадная суммаризация больших документов через Claude API. | `--dry-run`, `--file`, `--section` |
+| `improve_progressive_summarize.py` | second-pass summary extraction for blocked raw cards. | `--apply`, `--dry-run`, `--no-promote`, `--section`, `--stats` |
+| `improve_proposal_gen.py` | Автогенерация proposal-карточек интеграции проектов. | `--apply`, `--dry-run`, `--min-sim`, `--stats`, `--top` |
 | `improve_recipe.py` | умная система рецептов: последовательности скриптов под конкретную цель. | `--add`, `--delete`, `--desc`, `--dry-run`, `--find`, `--info`, … |
+| `improve_rfc_tracker.py` | RFC система для Svyazi 2.0. | `--author`, `--new`, `--show`, `--status`, `--update`, `--validate` |
 | `improve_run_all.py` | мастер-скрипт для запуска всех improve_*.py. | `--changed`, `--dry-run`, `--fast`, `--group`, `--only`, `--parallel`, … |
 | `improve_search_repl.py` | интерактивный поисковый терминал (REPL). | `--index`, `--query` |
 | `improve_self.py` | метаскрипт: читает все скрипты, строит каталог, обогащает, генерирует. | `--apply`, `--audit`, `--batch`, `--catalog`, `--cross-read`, `--dry-run`, … |
+| `improve_semantic_embeddings.py` | Семантические эмбеддинги для корпуса Lorenzo. | `--backend`, `--check`, `--compare`, `--index`, `--query` |
 | `improve_semantic_search.py` | Unified semantic search over the knowledge base. | `--json`, `--mode`, `--query`, `--section`, `--top`, `--type` |
+| `improve_summary_extender.py` | extend short summaries on normalized cards. | `--apply`, `--dry-run`, `--no-promote`, `--section`, `--stats` |
 | `improve_task_codegen.py` | генератор слоёв (скилл / MCP-tool / index) из манифестов tasks/*.task.yaml. | `--dry-run`, `--list`, `--task`, `--validate` |
 | `improve_template_init.py` | инициализация нового документа из шаблона. | `--list`, `--show`, `--slug`, `--type`, `--vars` |
 | `improve_template_migrate.py` | миграции frontmatter при изменении схемы шаблона. | `--all`, `--apply`, `--dry-run`, `--template` |
@@ -304,11 +324,11 @@ _Обновлено: 2026-05-13_
 
 ### `improve_ann_index.py` _(группа: без группы)_
 
-**ANN-граф на основе hnswlib для ускоренного векторного поиска.**
+**fast inverted-index ANN for Svyazi 2.0.**
 
-Строит HNSW-индекс (Hierarchical Navigable Small World) поверх TF-IDF векторов из search_index.json. Замена линейного O(N·D) скана на двухстадийный поиск: Стадия 1: HNSW ANN — O(log N), 0.5мс — быстрый отбор кандидатов Стадия 2: точный TF-IDF только по кандидатам — ещё 2мс Итого:    ~2.5мс вместо ~210мс  → ускорение 80-100×  |  Recall@10 ≥ 0.85
+Two backends depending on installed packages: HNSW backend (preferred): requires  pip install hnswlib numpy TF-IDF sparse → random projection → HNSW → ANN candidates → exact re-rank Expected speedup: 80-100× vs linear scan.  Recall@10 ≥ 0.85 Pure-Python backend (auto-fallback, zero dependencies):
 
-**Флаги:** `--benchmark`, `--build`, `--query`, `--stats`, `--top`
+**Флаги:** `--benchmark`, `--build`, `--query`, `--stats`
 
 
 ### `improve_audit_db.py` _(группа: meta)_
@@ -327,6 +347,15 @@ _Обновлено: 2026-05-13_
 Находит упоминания проектов/технологий/людей из named_entities.json и превращает их в markdown-ссылки на соответствующие файлы. Алгоритм: 1. Загружает named_entities.json → словарь {имя: best_file} 2. Для каждого файла ищет plain-text упоминания сущностей
 
 **Флаги:** `--apply`, `--dry-run`, `--min-mentions`, `--section`, `--types`
+
+
+### `improve_auto_summarize.py` _(группа: без группы)_
+
+**авто-генерация summary и тегов для raw-карточек.**
+
+Находит raw-карточки с коротким/отсутствующим summary (< 80 символов) и инжектирует summary из тела документа, а также теги из keyword-правил. Это разблокирует переход raw→normalized в improve_card_promote.py. Использование:
+
+**Флаги:** `--apply`, `--dry-run`, `--section`, `--stats`
 
 
 ### `improve_auto_toc.py` _(группа: content)_
@@ -388,6 +417,24 @@ _Обновлено: 2026-05-13_
 **Флаги:** `--dry-run`, `--fix`, `--section`
 
 
+### `improve_bulk_decay.py` _(группа: без группы)_
+
+**bulk decay for empty stub cards.**
+
+Identifies stub cards that have no meaningful content and marks them decayed. Uses frontmatter date: field for age (mtime is unreliable after batch ops). Decay criteria (ALL must be true): - state = raw - no frontmatter tags: [...] field
+
+**Флаги:** `--apply`, `--dry-run`, `--min-age`, `--section`, `--stats`
+
+
+### `improve_card_graph.py` _(группа: reports)_
+
+**knowledge graph of approved card relationships.**
+
+Builds a directed graph from [[wikilinks]] and `[text](path.md)` links between approved/normalized cards. Computes PageRank to find the most influential cards. Outputs: docs/CARD_GRAPH.json  — machine-readable graph (nodes + edges + pagerank) docs/CARD_GRAPH.md    — human-readable report: hubs, orphans, clusters
+
+**Флаги:** `--dot`, `--stats`, `--top`
+
+
 ### `improve_card_index.py` _(группа: без группы)_
 
 **CLI для управления CardEnvelope-карточками.**
@@ -395,6 +442,15 @@ _Обновлено: 2026-05-13_
 Превращает docs/ в карточный индекс (CardStore) согласно PROTOTYPE_SPEC.md. Каждый .md файл → одна CardEnvelope с типом, состоянием, payload и рёбрами. Команды: Флаги:
 
 **Флаги:** `--approve`, `--build`, `--decay`, `--dry-run`, `--export`, `--fmt`, `--get`, `--incremental`, `--link`, `--rel`, `--search`, `--section`, `--stats`, `--verbose`
+
+
+### `improve_card_promote.py` _(группа: без группы)_
+
+**Card Lifecycle Promoter: raw → normalized → approved.**
+
+Переводит карточки из статуса `raw` в `normalized` по критериям качества, и из `normalized` в `approved` если карточка прошла Review Queue. Критерии raw → normalized: - summary ≥ 80 символов (есть блок <!-- summary --> или ## Summary) - теги ≥ 1 (есть <!-- tags: ... --> или поле tags в frontmatter)
+
+**Флаги:** `--apply`, `--dry-run`, `--section`, `--stats`, `--top`
 
 
 ### `improve_changelog.py` _(группа: reports)_
@@ -516,6 +572,15 @@ _Обновлено: 2026-05-13_
 предлагает канонический вариант, создаёт docs/CONSISTENCY.md.
 
 
+### `improve_contact_personalize.py` _(группа: contacts-ext)_
+
+**template-based contact message drafts.**
+
+Reads each docs/contacts/*.md file, extracts frontmatter metadata (author, projects, platform, layer), and generates a short personalized first-contact message. The draft is saved to docs/contacts/{author}_draft.md. No LLM required — uses project-specific templates filled with known data. For LLM-enhanced messages: python scripts/improve_llm_contact.py
+
+**Флаги:** `--author`, `--dry-run`, `--stats`
+
+
 ### `improve_contact_priority.py` _(группа: reports)_
 
 **ранжирует авторов по приоритету для контакта.**
@@ -598,6 +663,15 @@ _Обновлено: 2026-05-13_
 Создаёт docs/CROSSREFS.md: какой файл упоминает какие проекты, и для каждого проекта — список файлов где он встречается.
 
 
+### `improve_decay_checker.py` _(группа: без группы)_
+
+**поиск кандидатов на decay в базе знаний Svyazi 2.0.**
+
+Находит карточки, которые потенциально устарели по следующим критериям: - Возраст > N дней без изменений - Пустой summary (< 50 символов) и нет тегов → stub-карточки - Дубль: другая карточка с похожим названием (cosine ≥ 0.7) - Broken links (state=raw, дата > 180 дней, нет рёбер)
+
+**Флаги:** `--age`, `--output`, `--top`, `--type`
+
+
 ### `improve_decisions.py` _(группа: extract)_
 
 **извлекает ключевые выводы и решения из всех файлов.**
@@ -655,9 +729,11 @@ _Обновлено: 2026-05-13_
 
 ### `improve_digest_weekly.py` _(группа: analytics)_
 
-**еженедельный дайджест изменений репозитория.**
+**еженедельный дайджест Svyazi 2.0.**
 
-Показывает: новые файлы, изменённые, топ-активные папки, прирост слов. Создаёт docs/DIGEST_WEEKLY.md.
+Объединяет четыре источника данных в один отчёт: 1. Git активность: коммиты, новые/изменённые файлы, активные секции 2. Card lifecycle: approved/normalized/raw + изменения за неделю 3. Hot cards: топ-5 из .claude/hot_cards.json (PageRank + query_freq) 4. Query analytics: топ запросов к gateway из .claude/query_log.jsonl
+
+**Флаги:** `--days`, `--no-cards`
 
 
 ### `improve_duplicate_across.py` _(группа: textwork)_
@@ -772,6 +848,15 @@ _Обновлено: 2026-05-13_
 Ищет: "Вопрос/Ответ", "Q:", "A:", "—" после вопроса, секции ## FAQ. Создаёт docs/FAQ.md.
 
 
+### `improve_feedback_loop.py` _(группа: analytics)_
+
+**close the search-corpus feedback loop.**
+
+Reads .claude/query_log.jsonl (written by gateway.py), identifies: - Zero-result queries  → hard gaps (no related content at all) - Low-result queries   → soft gaps (< 3 results, needs more content) - Repeated queries     → high-demand topics (invest in more coverage) For each gap, finds the best matching existing cards via BM25 and suggests:
+
+**Флаги:** `--apply`, `--days`, `--json`
+
+
 ### `improve_footnotes.py` _(группа: generate)_
 
 **автоматически связывает технические термины с глоссарием.**
@@ -797,6 +882,15 @@ _Обновлено: 2026-05-13_
 **Флаги:** `--create`, `--dry-run`, `--label`
 
 
+### `improve_github_tracker.py` _(группа: без группы)_
+
+**Мониторинг GitHub-репозиториев авторов Хабр-проектов.**
+
+Читает docs/contacts/*.md → извлекает GitHub-URL авторов → через GitHub API получает последние коммиты, релизы и issues → создаёт Card Envelope события. Каждое событие (новый коммит, релиз, issue) становится карточкой в docs/04-ai-collaborations/events/ с card_type=event, state=raw и ребром на проект. Без токена: публичные репо, лимит 60 req/час.
+
+**Флаги:** `--apply`, `--author`, `--days`, `--dry-run`, `--stats`
+
+
 ### `improve_glossary.py` _(группа: index)_
 
 **извлекает все проекты, авторов и URL из docs/,**
@@ -809,6 +903,15 @@ _Обновлено: 2026-05-13_
 **строит граф связей между проектами.**
 
 Создаёт docs/GRAPH.md с диаграммой Mermaid и матрицей совместных упоминаний.
+
+
+### `improve_graph_search.py` _(группа: graph)_
+
+**graph-neighbourhood search for Svyazi 2.0.**
+
+Combines TF-IDF relevance with graph topology: 1. Find seed cards matching the query (TF-IDF top-K) 2. Expand each seed by 1–2 hops through the card link graph 3. Re-rank all candidates by  relevance × (1 + alpha × pagerank) 4. Return the merged, de-duplicated, re-ranked list
+
+**Флаги:** `--alpha`, `--hops`, `--json`, `--query`, `--seeds`, `--stats`, `--top`
 
 
 ### `improve_heading_audit.py` _(группа: nlpplus)_
@@ -834,6 +937,15 @@ _Обновлено: 2026-05-13_
 ASCII-визуализация: строки = темы, столбцы = разделы. Создаёт docs/HEATMAP.md.
 
 
+### `improve_hot_cards.py` _(группа: reports)_
+
+**surface "hot" cards for Svyazi 2.0.**
+
+A card is "hot" when multiple independent signals agree it is relevant: 1. PageRank (graph topology) — high in-degree from authoritative cards 2. Query frequency (usage) — appeared in search results recently 3. Promote state — approved cards rank higher than normalized/raw 4. Summary quality — cards with long rich summaries preferred
+
+**Флаги:** `--json`, `--state`, `--top`
+
+
 ### `improve_index_master.py` _(группа: meta)_
 
 **главный навигационный хаб docs/.**
@@ -857,11 +969,29 @@ ASCII-визуализация: строки = темы, столбцы = раз
 **Флаги:** `--min-df`, `--query`, `--section`, `--top`
 
 
+### `improve_knowledge_evolution.py` _(группа: без группы)_
+
+**трекер эволюции базы знаний Svyazi 2.0.**
+
+Делает снапшот ключевых KPI и сохраняет историю в docs/KNOWLEDGE_EVOLUTION.md. Каждый запуск добавляет строку в таблицу: дата, карточки, lifecycle, proposals, RFC, индексы, proposals coverage. Использование:
+
+**Флаги:** `--plot`, `--stats`
+
+
 ### `improve_knowledge_map.py` _(группа: nlpplus)_
 
 **единый дашборд всей базы знаний.**
 
 Агрегирует данные из всех отчётных файлов и строит единую карту: - Общая статистика корпуса - Топ файлов по важности (из PRIORITIES.md / SCORING.md) - Состояние по секциям (файлов, слов, качество) - Граф ключевых связей (из CONCEPT_GRAPH.md)
+
+
+### `improve_knowledge_snapshot.py` _(группа: reports)_
+
+**point-in-time KPI snapshot for Svyazi 2.0.**
+
+Captures a comprehensive health picture of the knowledge base: - Corpus: total docs, words, cards by state, promote rate - Search: Hit Rate@10 (from docs/PRECISION_EVAL.md), ANN index status - Graph: nodes, edges, avg degree, top PageRank hubs - Activity: recent commits, active sections (from git)
+
+**Флаги:** `--json`, `--trend`
 
 
 ### `improve_kpi.py` _(группа: extract)_
@@ -1001,6 +1131,15 @@ Stage 3b: map-reduce для документов любого размера. А
 но слабо раскрытые (мало файлов, мало слов). Создаёт docs/MISSING.md — карту пробелов знаний.
 
 
+### `improve_multi_query.py` _(группа: graph)_
+
+**multi-query fusion search for Svyazi 2.0.**
+
+Handles complex queries by decomposing them into focused sub-queries, running each independently, then fusing results with weighted RRF. Decomposition strategies (no LLM, pure rule-based): 1. Delimiter split  — "," / ";" / " и " / " and " / " or " / " + " 2. Clause split     — "который" / "where" / "who" / "что"
+
+**Флаги:** `--decompose`, `--eval`, `--no-graph`, `--query`, `--top`
+
+
 ### `improve_named_entity_index.py` _(группа: deeptext)_
 
 **индекс именованных сущностей из всей базы.**
@@ -1133,6 +1272,24 @@ Stage 2: оркестратор, читает файловую систему, �
 **Флаги:** `--dry-run`
 
 
+### `improve_progressive_summarize.py` _(группа: без группы)_
+
+**second-pass summary extraction for blocked raw cards.**
+
+Targets raw cards that still have summary < 80ch after improve_auto_summarize.py. Uses richer extraction strategies: 1. <!-- abstract-auto --> block: extracts Problem/Approach/Result sentences 2. ## Summary / ## Резюме / ## Аннотация section 3. Aggressive multi-sentence join (up to 250ch from first usable paragraphs)
+
+**Флаги:** `--apply`, `--dry-run`, `--no-promote`, `--section`, `--stats`
+
+
+### `improve_proposal_gen.py` _(группа: без группы)_
+
+**Автогенерация proposal-карточек интеграции проектов.**
+
+Сравнивает все пары проектов из docs/05-habr-projects/ и docs/CONTACTS.md, вычисляет тематическое сходство и архитектурную комплементарность, генерирует proposal-карточки для топ-N пар. Логика: 1. Загружает проектные файлы из 05-habr-projects/ (9 богатых файлов)
+
+**Флаги:** `--apply`, `--dry-run`, `--min-sim`, `--stats`, `--top`
+
+
 ### `improve_qa.py` _(группа: reports)_
 
 **генерирует Q&A листы для каждого раздела docs/.**
@@ -1143,6 +1300,15 @@ Stage 2: оркестратор, читает файловую систему, �
 ### `improve_quality_patch.py` _(группа: meta)_
 
 **добавляет недостающие элементы качества во все docs/*.md.**
+
+
+### `improve_query_log.py` _(группа: reports)_
+
+**query analytics for Svyazi 2.0 gateway.**
+
+Reads .claude/query_log.jsonl (written by gateway.py on every search request) and produces docs/QUERY_ANALYTICS.md with: - Top queries by frequency - Latency distribution (p50 / p95 / p99) - Query patterns by hour of day
+
+**Флаги:** `--json`, `--tail`, `--top`
 
 
 ### `improve_question_extractor.py` _(группа: nlpplus)_
@@ -1234,6 +1400,15 @@ README содержит: список файлов, первые строки к
 Агрегирует данные из HEALTH, STATS, KPI, DECISIONS, VALIDATION, NETWORK. Создаёт docs/REPORT.md — главный отчёт для быстрого обзора.
 
 
+### `improve_rfc_tracker.py` _(группа: без группы)_
+
+**RFC система для Svyazi 2.0.**
+
+Управляет RFC-файлами в docs/rfcs/: создание, статусы, реестр, валидация. RFC (Request for Comments) — формальный документ для архитектурных решений. Жизненный цикл: Draft → Proposed → Accepted | Rejected | Superseded. Использование:
+
+**Флаги:** `--author`, `--new`, `--show`, `--status`, `--update`, `--validate`
+
+
 ### `improve_risk_register.py` _(группа: meta)_
 
 **реестр рисков проекта Svyazi 2.0.**
@@ -1303,6 +1478,15 @@ README содержит: список файлов, первые строки к
 **Флаги:** `--apply`, `--audit`, `--batch`, `--catalog`, `--cross-read`, `--dry-run`, `--enrich`, `--generate`
 
 
+### `improve_semantic_embeddings.py` _(группа: без группы)_
+
+**Семантические эмбеддинги для корпуса Lorenzo.**
+
+Поддерживает два бэкенда: 1. sentence-transformers (локально, CPU, ~420MB): paraphrase-multilingual-MiniLM-L12-v2 - Полноценные 384-мерные векторы - Понимает синонимы, контекст, RU+EN смешанный текст - pip install sentence-transformers
+
+**Флаги:** `--backend`, `--check`, `--compare`, `--index`, `--query`
+
+
 ### `improve_semantic_search.py` _(группа: без группы)_
 
 **Unified semantic search over the knowledge base.**
@@ -1356,6 +1540,15 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 **статистика использования и оценок скилов.**
 
 Читает .claude/skill_metrics.jsonl и формирует docs/SKILL_DASHBOARD.md: - какие скилы используются чаще - средняя оценка по 4 осям - тренд за последние N дней - топ feedback'ов
+
+
+### `improve_skill_metrics.py` _(группа: reports)_
+
+**quality metrics for .claude/skills/*.md files.**
+
+Analyses each skill file against a rubric and produces: docs/SKILL_METRICS.md  — ranked quality table + per-skill details .claude/skill_quality.json — machine-readable scores Quality rubric (0–10 each, weighted): structure   (2×) — has ## Когда / ## Шаги / ## Пример sections
+
+**Флаги:** `--json`, `--low`, `--top`
 
 
 ### `improve_source_map.py` _(группа: textwork)_
@@ -1413,6 +1606,15 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 **добавляет краткую аннотацию в начало каждого файла.**
 
 Аннотация = первые 3 значимые строки + список найденных проектов в файле. НЕ использует LLM — работает детерминированно.
+
+
+### `improve_summary_extender.py` _(группа: без группы)_
+
+**extend short summaries on normalized cards.**
+
+Targets state=normalized cards where summary 80–149ch (blocks approved promotion). Appends best additional sentences from the card body until summary >= 150ch. Also injects a second tag for cards with only 1 tag (another approved blocker). Strategies (in order): 1. Append sentences from body until length >= 150
+
+**Флаги:** `--apply`, `--dry-run`, `--no-promote`, `--section`, `--stats`
 
 
 ### `improve_tags.py` _(группа: structure)_

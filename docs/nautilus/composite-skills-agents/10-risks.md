@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 10. Risks Specific to Composite Architectures
 
 > [!TIP]
@@ -6,7 +10,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents». Документ содержит практические рекомендации и лучшие практики.
 
 ---
 

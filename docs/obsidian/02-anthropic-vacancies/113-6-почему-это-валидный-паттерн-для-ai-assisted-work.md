@@ -2,8 +2,9 @@
 title: "6. Почему это валидный паттерн для AI-assisted workflows"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 6. Почему это валидный паттерн для AI-assisted workflows
@@ -23,10 +24,14 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Традиционная software engineering оптимизировалась против
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Аналогичные переосмысления происходят в других областях: Code generation: меньше DRY-полicy, больше regenerate-on-demand
+ Code generation: меньше DRY-полicy, больше regenerate-on-demand
+ Testing: меньше handcraft, больше auto-generated property tests
+ Documentation: меньше "write once", больше "iterate with AI"
+Т
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

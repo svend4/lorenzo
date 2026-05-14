@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Four Deployment Domains
 
 > [!TIP]
@@ -16,7 +20,12 @@
 
 
 <!-- summary -->
-> The Double-Triangle Architecture is domain-agnostic but benefits
+> * Meta-agent coordinating multiple advocates on related cases, sharing anonymized patterns, escalating cross-jurisdictio. * Agile methodologies, CI/CD patterns, deployment playbooks, incident postmortems , architecture decision records
+ Code generation and review (Copilot, Cursor, Claude Code)
+ Design ideation (Figma AI, sketch tools)
+ Deployment automation (Terraform AI, kubectl-ai)
+ Test generation (property-based test synthesis)
+Upper triangle content
 
 ---
 

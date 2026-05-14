@@ -2,7 +2,7 @@
 title: "3. What Makes a Composite Skills Agent"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 3. What Makes a Composite Skills Agent
@@ -23,8 +23,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Some need a specific sequence (one sub-agent's output feeds into another).
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We define the type with precision.

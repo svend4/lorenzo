@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 5. Compatibility Levels
 
 <!-- toc-auto -->
@@ -36,7 +40,17 @@
 
 
 <!-- summary -->
-> NPP определяет 4 уровня совместимости Repo с экосистемой. Это
+> * Use case: статические Repos (архивы, reference docs), которые не нужно искать. * Адаптер реализует только describe() метод Документ создан на основе исследования.
+ Level 0 — Discoverable
+ Level 1 — Readable
+ Level 2 — Queryable
+ Level 3 — Interactive / Bridged
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (7)
+> [!NOTE]
+> Документ создан на основе исследо
 
 ---
 <!-- tags: anthropic -->

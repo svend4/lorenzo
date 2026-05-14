@@ -2,8 +2,9 @@
 title: "REVIEW_METHODOLOGY.md"
 tags:
   - collaboration
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # REVIEW_METHODOLOGY.md
@@ -20,10 +21,20 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> **Статус:** Активно применяется в проекте svend4/nautilus
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. REVIEW_METHODOLOGY.md python scripts/improve_semantic_search.py --query "REVIEW_METHODOLOGY md"
+markdown
+ bash
+Поиск по теме документа
+python scripts/improve_semantic_search.py --query "REVIEW_METHODOLOGY md"
+```
+Смотрите также
+ 28-appendix-a-minimal-working-example
+ 03-portal-protocol-md
+ 42-author-contact
+ 188-ai-опосред
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Ансамбль E — Safe and cheap execution plane
 
 <!-- toc-auto -->
@@ -14,7 +18,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`.
+> Поэтому нужен периметр: LiteLLM как центральный unified API, Auto AI Router как лёгкий Go‑sidecar для rate limits и failover, Tool Search как lazy loading MCP‑инструментов, RLM‑Toolkit как формализованный budget/privacy routing, а SENTINEL как runtim
 **Проекты:** Svyazi, SENTINEL, LiteLLM, Auto AI Router, Tool Search
 
 ---

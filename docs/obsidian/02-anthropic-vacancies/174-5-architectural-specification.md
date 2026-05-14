@@ -2,7 +2,7 @@
 title: "5. Architectural Specification"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 5. Architectural Specification
@@ -23,8 +23,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > A Representative Agent system consists of seven components:

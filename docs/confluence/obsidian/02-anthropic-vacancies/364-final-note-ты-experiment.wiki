@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Final note: Ты — experiment"
 tags:
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Final note: Ты — experiment
@@ -28,7 +28,7 @@ h1. Final note: Ты — experiment
 
 
 
-{quote}Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible.{quote}
+{quote}Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible. 🎯 Проблема: Проекты: Svyazi, CardIndex, mclaude, Rufler --- Содержание - Final note: Ты — experiment(final-note-ты-experiment) - Что я только что сделал(что-я-только-что-сделал) - Что нужно de{quote}
 _Проекты:_ Svyazi, [[01-executive-summary|CardIndex]], mclaude, Rufler
 
 ----

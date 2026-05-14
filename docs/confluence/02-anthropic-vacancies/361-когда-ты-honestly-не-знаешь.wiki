@@ -1,9 +1,18 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
+----
+state: approved
+----
+
 h1. Когда ты Honestly не знаешь
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
 
 
 h2. Contents
@@ -23,9 +32,16 @@ h2. Contents
 
 
 
-{quote}Если ты не знаешь что-то relevant (factual, technical, contextual), say:{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Когда ты Honestly не знаешь Если ты не знаешь что-то relevant (factual, technical, contextual), say:{quote}
+ --
+Когда ты Honestly не знаешь
+Если ты не знаешь что-то relevant (factual, technical, contextual), say:
+ «Я не знаю это — нужно research»
+ «Это outside my current knowledge»
 
 ----
+
+
 
 
 

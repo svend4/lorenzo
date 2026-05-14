@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 15. Security Considerations
 
 <!-- toc -->
@@ -35,7 +39,10 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Adapters выполняются внутри Portal-процесса. Portal MUST
+> > ✅ Результат: Для приватных Repos RECOMMENDED: - Отдельный private-nautilus.json с explicit opt-in - Отдельный portal instance, не доступный публично - Authentication на REST API (JWT / API keys
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!IMPO
 
 ---
 

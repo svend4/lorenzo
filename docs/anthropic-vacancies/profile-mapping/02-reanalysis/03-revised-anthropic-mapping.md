@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Пересмотренный маппинг на Anthropic
 
 <!-- toc-auto -->

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 5. Compatibility Levels
 
 <!-- toc-auto -->
@@ -34,7 +38,10 @@
 
 
 <!-- summary -->
-> NPP определяет 4 уровня совместимости Repo с экосистемой. Это
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Compatibility Levels(5-compatibility-levels) - Level 0 — Discoverable(level-0-discoverable) - Level 1 — Readable(level-1-readable) - Level 2 — Linked(level-2-linked) - Level 3 — In
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,
 
 ---
 <!-- tags: anthropic -->

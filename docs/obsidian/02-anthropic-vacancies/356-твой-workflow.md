@@ -2,8 +2,9 @@
 title: "Твой workflow"
 tags:
   - knowledge
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Твой workflow
@@ -28,15 +29,15 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Когда Max или authorized user ставит задачу, твой default approach:
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Когда Max или authorized user ставит задачу, твой default approach:
 **Проекты:** [[01-executive-summary|CardIndex]]
 
 ---
-<!-- tags: knowledge -->
+<!-- tags: knowledge, rag -->
 
 
 

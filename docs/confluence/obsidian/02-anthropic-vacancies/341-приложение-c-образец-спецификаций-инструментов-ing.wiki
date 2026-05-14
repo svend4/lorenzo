@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера"
 tags:
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
@@ -28,7 +28,10 @@ h1. Приложение C: Образец Спецификаций Инстру
 
 
 
-{quote}Для справки, вот детальные спецификации для{quote}
+{quote}> ✅ Результат: Уникальные свойства : - Knowledge written for agents, not humans — fundamentally different design - Domain-specific freshness thresholds : алгоритмы стабильны (обновлять не нужно),{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!TIP]{quote}
 _Проекты:_ Svyazi, CardIndex, [[03-component-catalog|knowledge-space]], Graph RAG, NGT Memory, Wikontic
 
 ----

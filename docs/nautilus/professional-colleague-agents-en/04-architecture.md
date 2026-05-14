@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 4. Architecture of Professional Colleague Agents
 
 > [!NOTE]

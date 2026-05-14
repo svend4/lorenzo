@@ -4,7 +4,7 @@ tags:
   - footnotes
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Сноски и определения терминов

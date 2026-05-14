@@ -1,41 +1,41 @@
 # REGISTRY — реестр артефактов Lorenzo
 
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-14_
 
 ## Сводка
 
 | Слой | Кол-во |
 |------|--------|
-| Скрипты `improve_*.py` | 166 |
+| Скрипты `improve_*.py` | 186 |
 | Шаблоны `docs/templates/*.md` | 22 |
 | Скилы `.claude/skills/*.md` | 28 |
 | MCP-серверы | 12 |
 | Манифесты задач | 13 |
-| Контакты | 16 |
+| Контакты | 31 |
 
 ## Скрипты по группам
 
 | Группа | Скриптов |
 |--------|----------|
 | `analysis` | 9 |
-| `analytics` | 9 |
+| `analytics` | 10 |
 | `cicd` | 4 |
-| `contacts-ext` | 1 |
+| `contacts-ext` | 2 |
 | `content` | 4 |
 | `deeptext` | 10 |
 | `export` | 8 |
 | `extract` | 9 |
 | `generate` | 7 |
-| `graph` | 4 |
+| `graph` | 6 |
 | `index` | 6 |
 | `mcp` | 2 |
 | `meta` | 8 |
 | `nlpplus` | 10 |
 | `quality` | 16 |
-| `reports` | 21 |
+| `reports` | 26 |
 | `structure` | 7 |
 | `textwork` | 9 |
-| `без группы` | 22 |
+| `без группы` | 33 |
 
 ## Шаблоны
 
@@ -136,22 +136,37 @@ _Обновлено: 2026-05-13_
 
 | Slug | Автор | Статус |
 |------|-------|--------|
+| `AnastasiyaW_draft` | AnastasiyaW | draft |
+| `Antipozitive_draft` | Antipozitive | draft |
+| `Cutcode_draft` | Cutcode | draft |
+| `Dmitriila_draft` | Dmitriila | draft |
+| `MiXaiLL76_draft` | MiXaiLL76 | draft |
 | `QA` | QA | unknown |
+| `Sonia_Black_draft` | Sonia_Black | draft |
+| `VitaliySemenov_draft` | VitaliySemenov | draft |
+| `VitalyOborin_draft` | VitalyOborin | draft |
+| `VladSpace_draft` | VladSpace | draft |
 | `anastasiyaw` | AnastasiyaW | not_started |
 | `andrey-chuyan` | andrey_chuyan | not_started |
+| `andrey_chuyan_draft` | andrey_chuyan | draft |
 | `antipozitive` | Antipozitive | not_started |
 | `cutcode` | Cutcode | not_started |
 | `dmitriila` | Dmitriila | not_started |
 | `kksudo` | kksudo | studied |
+| `kksudo_draft` | kksudo | draft |
 | `mixaill76` | MiXaiLL76 | not_started |
 | `nlaik` | nlaik | not_started |
+| `nlaik_draft` | nlaik | draft |
 | `sonia-black` | Sonia_Black | not_started |
 | `spbmolot` | spbmolot | studied |
+| `spbmolot_draft` | spbmolot | draft |
 | `tagir-analyzes` | tagir_analyzes | not_started |
+| `tagir_analyzes_draft` | tagir_analyzes | draft |
 | `vitalyoborin` | VitalyOborin | not_started |
 | `vitalysemenov` | VitaliySemenov | not_started |
 | `vladspace` | VladSpace | not_started |
 | `zodigancode` | zodigancode | not_started |
+| `zodigancode_draft` | zodigancode | draft |
 
 ## Полезные команды
 

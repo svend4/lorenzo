@@ -1,3 +1,9 @@
+---
+date: 2026-05-13
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: approved
+---
+
 # Ансамбль C — Spec‑driven multi‑agent factory
 
 <!-- toc-auto -->
@@ -14,7 +20,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (1).md`.
+> Для развития самого продукта нужен не просто один агент, а управляемая фабрика: mclaude закрывает locks/handoffs/mailbox, AI Factory/AIF Handoff — spec‑driven pipeline и self‑learning patches, Rufler — декларативное поднятие роя, Skills/CodeWiki — re
 **Проекты:** mclaude, AI Factory, Rufler, AutoResearch
 
 ---
