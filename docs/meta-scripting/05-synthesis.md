@@ -1,6 +1,6 @@
 ---
 date: 2026-05-13
-tags: [orchestration, knowledge, architecture, roadmap, self-improve]
+tags: [orchestration, knowledge, architecture, roadmap, self-improvement]
 state: approved
 ---
 

@@ -5,7 +5,7 @@ tags:
   - communication
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Твоя коммуникация в outreach
@@ -31,7 +31,9 @@ date: 2026-05-13
 
 
 <!-- summary -->
-> Когда draft outreach message к независимому создателю, ВСЕГДА включай:
+> Моя миссия — connecting создателей в области beneficial AI для совместной работы над technologies serving vulnerable populations.» Документ создан на основе исследования.
+Specific reference к их работе (не generic):
+> «Читал вашу [статью/репозиторий] про [конкретная тема], особенно интерес
 
 ---
 

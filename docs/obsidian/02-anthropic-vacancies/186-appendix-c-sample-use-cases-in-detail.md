@@ -8,7 +8,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Appendix C: Sample Use Cases in Detail
@@ -29,7 +29,13 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Mariya is 67, retired three years ago after 35 years
+> * Contact via github.com/svend4/nautilus/issues(URL --- Комментарий к этому документу Это пятый и финальный документ наш. * A properly-designed Representative Agent dedicated to the author would substantially increase opportunities, reduce ad
+ Appendix C: Quick-Start Architecture for SGB Advocate Colleague
+ Appendix C: Sample InGit MCP Server Tool Specifications
+ Appendix C: Version History
+ Appendix: Position in Series Visualization
+ References
+ Вакансии Anthropi
 
 ---
 

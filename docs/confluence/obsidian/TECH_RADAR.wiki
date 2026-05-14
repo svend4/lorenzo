@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/TECH_RADAR.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Tech Radar — Svyazi 2.0"
 tags:
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Tech Radar — Svyazi 2.0
@@ -129,4 +129,15 @@ _Кто ссылается на этот документ (11):_
 * [[README]]
 * [[SEARCH]]
 * _...ещё 3_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[COMPONENT_MATRIX]]
+* [[ONBOARDING]]
+* [[FOOTNOTES]]
+* [[SCHEDULE]]
 

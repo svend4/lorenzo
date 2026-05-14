@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — VladSpace (GitHub)
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, Graph RAG
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Проекты:** Svyazi, Graph RAG
 
 ---
@@ -30,3 +43,30 @@ Svyazi и Graph RAG — один из проектов, которые я рас
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [nlaik_draft](nlaik_draft.md)
+- [spbmolot_draft](spbmolot_draft.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [AnastasiyaW_draft](AnastasiyaW_draft.md)
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [MiXaiLL76_draft](MiXaiLL76_draft.md)
+- [Sonia_Black_draft](Sonia_Black_draft.md)
+- [VitalyOborin_draft](VitalyOborin_draft.md)
+- _...ещё 6_
+

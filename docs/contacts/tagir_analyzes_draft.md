@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — tagir_analyzes (GitHub)
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, Legal RAG
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Проекты:** Svyazi, Legal RAG
 
 ---
@@ -30,3 +43,14 @@ Svyazi и Legal RAG — один из проектов, которые я рас
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [VladSpace_draft](VladSpace_draft.md)
+- [nlaik_draft](nlaik_draft.md)
+

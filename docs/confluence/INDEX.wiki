@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/INDEX.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Индекс документации — Lorenzo / Svyazi 2.0
@@ -151,4 +151,15 @@ _Кто ссылается на этот документ (14):_
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * _...ещё 6_
+
+
+
+
+----
+
+_Смотрите также:_
+* [ONBOARDING|ONBOARDING.md]
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [LLM_SUMMARIES|LLM_SUMMARIES.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
 

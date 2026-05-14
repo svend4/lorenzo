@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Knowledge-Space × Mclaude
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Knowledge-Space) и orchestration-слоя (Mclaude): Knowledge-Space предоставляет файловую систему знаний с рёбрами, Mclaude управляет агентными пайплайнами. Интеграция: Mc
 
@@ -70,3 +75,28 @@ Knowledge-Space предоставляет файловую систему зн�
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-agentfs-x-mclaude](proposal-agentfs-x-mclaude.md)
+- [proposal-knowledge-space-x-rufler](proposal-knowledge-space-x-rufler.md)
+- [proposal-agentfs-x-rufler](proposal-agentfs-x-rufler.md)
+- [proposal-mclaude-x-rufler](proposal-mclaude-x-rufler.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [README](README.md)
+- [proposal-agentfs-x-mclaude](proposal-agentfs-x-mclaude.md)
+- [proposal-agentfs-x-rufler](proposal-agentfs-x-rufler.md)
+- [proposal-knowledge-space-x-rufler](proposal-knowledge-space-x-rufler.md)
+- [proposal-mclaude-x-rufler](proposal-mclaude-x-rufler.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/05-habr-projects/memory/memnet.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "MemNet: исследовательская память"
 tags:
   * habr-projects
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. MemNet: исследовательская память

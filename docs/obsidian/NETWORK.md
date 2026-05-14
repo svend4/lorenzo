@@ -4,7 +4,7 @@ tags:
   - network
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Сеть проектов и авторов

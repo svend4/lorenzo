@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/GITHUB_ISSUES.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. GitHub Issues — список задач
@@ -591,4 +591,15 @@ _Кто ссылается на этот документ (8):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 * [10-checklist|nautilus/review-methodology/10-checklist.md]
+
+
+
+
+----
+
+_Смотрите также:_
+* [10-checklist|nautilus/review-methodology/10-checklist.md]
+* [116-9-checklist-применения-методологии|02-anthropic-vacancies/116-9-checklist-применения-методологии.md]
+* [CONTACTS|CONTACTS.md]
+* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
 

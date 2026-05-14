@@ -2,7 +2,7 @@
 title: "Карта происхождения текстов"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Карта происхождения текстов
@@ -1856,4 +1856,15 @@ python scripts/improve_source_map.py --dry-run
 - [[README]]
 - [[SEARCH]]
 - _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[HEADING_AUDIT]]
+- [[PARAGRAPH_QUALITY]]
+- [[READABILITY]]
+- [[READING_TIME]]
 

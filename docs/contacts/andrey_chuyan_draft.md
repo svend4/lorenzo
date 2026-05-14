@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — andrey_chuyan (GitHub)
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, CardIndex
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Проекты:** Svyazi, CardIndex
 
 ---
@@ -30,3 +43,14 @@ Svyazi и CardIndex — один из проектов, которые я рас
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [VladSpace_draft](VladSpace_draft.md)
+- [nlaik_draft](nlaik_draft.md)
+

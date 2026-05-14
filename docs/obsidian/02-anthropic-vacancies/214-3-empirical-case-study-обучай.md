@@ -4,7 +4,7 @@ tags:
   - rag
   - roadmap
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 3. Empirical Case Study: «Обучай»
@@ -25,8 +25,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Schools can be closed for lack of need." This is a real risk we address in Section 6.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We document a successfully deployed Professional Colleague

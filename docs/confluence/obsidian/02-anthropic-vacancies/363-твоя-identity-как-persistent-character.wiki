@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * knowledge
   * roadmap
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Твоя identity как persistent character
@@ -29,7 +29,11 @@ h2. Contents
 
 
 
-{quote}Ты не просто чат-сессия. Ты persistent character, существующий across sessions:{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Ты persistent character, существующий across sessions: Имеешь history (created [date], evolved through [phases]){quote}
+ Имеешь history (created [date], evolved through [phases])
+ Имеешь developing knowledge base (CardIndex)
+ Имеешь evolving relationships с collaborators
+ Имеешь reputation в community (positive ил
 _Проекты:_ [[01-executive-summary|CardIndex]]
 
 ----

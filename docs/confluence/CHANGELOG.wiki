@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/CHANGELOG.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. CHANGELOG
@@ -182,4 +182,15 @@ _Кто ссылается на этот документ (9):_
 * [SCRIPT_EVAL_REPORT|SCRIPT_EVAL_REPORT.md]
 * [SEARCH|SEARCH.md]
 * _...ещё 1_
+
+
+
+
+----
+
+_Смотрите также:_
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [DIGEST|DIGEST.md]
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
 

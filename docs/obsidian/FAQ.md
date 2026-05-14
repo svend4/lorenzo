@@ -4,7 +4,7 @@ tags:
   - faq
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Часто задаваемые вопросы (FAQ)
@@ -256,4 +256,15 @@ python scripts/improve_faq.py
 - [[OUTLINE]]
 - [[READABILITY]]
 - _...ещё 9_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[QUESTIONS]]
+- [[10-otkrytye-voprosy]]
+- [[10-open-questions]]
+- [[VERSION_DIFF]]
 

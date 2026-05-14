@@ -1,5 +1,5 @@
 # Методы обработки большого массива разрозненной информации
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 > [!WARNING]

@@ -1,6 +1,6 @@
 ---
 date: 2026-05-13
-tags: [rag, ingestion, architecture, self-improve, collaboration]
+tags: [rag, ingestion, architecture, self-improvement, collaboration]
 state: approved
 ---
 

@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 3. Why Existing Solutions Fail
 
@@ -20,8 +24,8 @@ h1. 3. Why Existing Solutions Fail
 
 
 
-
 {quote}[!IMPORTANT]{quote}
+{quote}Документ фиксирует ключевые архитектурные или технические решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Документ фиксирует ключевые архитектурные или технические решения.{quote}
 
 {quote}Seven existing infrastructure categories partially address the{quote}

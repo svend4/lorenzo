@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/COVERAGE.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Матрица покрытия документов
@@ -76,4 +76,15 @@ _Кто ссылается на этот документ (6):_
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
+
+
+
+
+----
+
+_Смотрите также:_
+* [SUMMARIES|SUMMARIES.md]
+* [STALENESS|STALENESS.md]
+* [SCORING|SCORING.md]
+* [SCHEDULE|SCHEDULE.md]
 

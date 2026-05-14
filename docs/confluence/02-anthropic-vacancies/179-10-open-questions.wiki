@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/179-10-open-questions.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 10. Open Questions
 
@@ -24,7 +28,10 @@ h2. Содержание
 
 
 
-{quote}Many questions remain unresolved. We list them explicitly{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. that the questions are worth pursuing because the underlying technology will be developed regardless{quote}
+that the questions are worth pursuing because the 
+underlying technology will be developed regardless 
+of whether ethical frameworks keep pace.
 
 ----
 

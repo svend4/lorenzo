@@ -5,12 +5,10 @@
 **Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
 
 ---
-<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->
 
 
 
-
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-14_
 
 ## Python-зависимости
 

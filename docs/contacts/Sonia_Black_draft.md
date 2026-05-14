@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — Sonia_Black (GitHub)
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, knowledge-space
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Проекты:** Svyazi, knowledge-space
 
 ---
@@ -30,3 +43,24 @@ Svyazi и knowledge-space — один из проектов, которые я 
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [AnastasiyaW_draft](AnastasiyaW_draft.md)
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [VladSpace_draft](VladSpace_draft.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [AnastasiyaW_draft](AnastasiyaW_draft.md)
+

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/03-technology-combinations/QA.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * qa
   * docs
   * technology-combinations
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Q&A: 03-technology-combinations
@@ -22,7 +22,23 @@ h1. Q&A: 03-technology-combinations
 
 
 
-{quote}{{QA}} — раздел документации проекта Lorenzo.{quote}
+{quote}Раздел QA формируется автоматически из данных репозитория. _Не найдено в этом файле._{quote}
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 5 файлам раздела._

@@ -4,7 +4,7 @@ tags:
   - cost
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Оценка стоимости MVP
@@ -120,4 +120,15 @@ python scripts/improve_cost.py
 - [[README]]
 - [[SEARCH]]
 - [[TABLES]]
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SCHEDULE]]
+- [[SCORING]]
+- [[SUMMARIES]]
+- [[COMPONENT_MATRIX]]
 

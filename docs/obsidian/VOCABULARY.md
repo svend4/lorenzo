@@ -4,7 +4,7 @@ tags:
   - vocabulary
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Богатство словаря документов
@@ -140,4 +140,15 @@ python scripts/improve_vocabulary.py
 - [[README]]
 - [[SEARCH]]
 - [[TABLES]]
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[PASSIVE_VOICE]]
+- [[SUMMARIES]]
+- [[DIGEST_WEEKLY]]
+- [[CITATION_INDEX]]
 

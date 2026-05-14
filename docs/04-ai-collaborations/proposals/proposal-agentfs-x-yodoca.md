@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Agentfs × Yodoca
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Agentfs) и memory-слоя (Yodoca): Agentfs обеспечивает персистентную память эпизодов, Yodoca хранит структурированный граф знаний. Интеграция: episodes из
 
@@ -70,3 +75,28 @@ Agentfs обеспечивает персистентную память эпи�
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-knowledge-space-x-yodoca](proposal-knowledge-space-x-yodoca.md)
+- [proposal-wikontic-x-agent-memory-mcp](proposal-wikontic-x-agent-memory-mcp.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [README](README.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-agentfs-x-memnet](proposal-agentfs-x-memnet.md)
+- [proposal-knowledge-space-x-yodoca](proposal-knowledge-space-x-yodoca.md)
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

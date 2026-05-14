@@ -4,7 +4,7 @@ tags:
   - readme
   - docs
   - contacts
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # contacts
@@ -12,7 +12,21 @@ date: 2026-05-13
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> — раздел документации проекта Lorenzo. anastasiyaw.md — --- andrey-chuyan.md — --- Кто ссылается на этот документ (21): Материал из базы знаний Svyazi 2.0, раздел «contacts».
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+Файлов: 16
+Содержание
+ QA.md — > [!NOTE]
+ anastasiyaw.md — ---
+ andrey-chuyan.md — ---
+ antipozitive.md — ---
+ cutcode.md — ---
+ dmitriila.md — ---
+ kksudo.md — ---
+ mixaill76.md — ---
+ nlaik.md
 
 
 **Файлов:** 16

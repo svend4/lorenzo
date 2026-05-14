@@ -4,7 +4,7 @@ tags:
   - timeline
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Хронологическая лента событий
@@ -489,4 +489,15 @@ python scripts/improve_timeline.py --dry-run
 - [[HEADING_AUDIT]]
 - [[KPI]]
 - _...ещё 11_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[VERSION_DIFF]]
+- [[SOURCE_MAP]]
+- [[CLUSTERS]]
+- [[HEADING_AUDIT]]
 

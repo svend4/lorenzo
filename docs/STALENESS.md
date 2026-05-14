@@ -1,4 +1,17 @@
 # Отчёт об устаревших документах
+
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 <!-- tags: ingestion, local-first, anthropic, collaboration -->
 
 
@@ -66,3 +79,28 @@ python scripts/improve_tags.py
 # Обогатить короткие файлы через LLM
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [COVERAGE](COVERAGE.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TAGS](TAGS.md)
+- [STATS](STATS.md)
+- [SENTIMENT](SENTIMENT.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+

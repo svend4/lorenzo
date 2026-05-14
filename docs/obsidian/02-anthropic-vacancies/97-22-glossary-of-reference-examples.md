@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 22. Glossary of Reference Examples
@@ -26,7 +26,13 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> В качестве иллюстраций используется экосистема `svend4` с 7 Repos:
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Glossary of Reference Examples Кто ссылается на этот документ (5) В качестве иллюстраций используется экосистема svend4 с 7 Repos:
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (5)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: knowledge, architecture, collaboration -->

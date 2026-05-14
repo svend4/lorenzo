@@ -2,8 +2,9 @@
 title: "For the Curious: Philosophy"
 tags:
   - rag
+  - knowledge
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # For the Curious: Philosophy
@@ -20,10 +21,21 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> `info1` реализует идею, что **methodology — это отдельное измерение
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Status of This Document _25%_ Кто ссылается на этот документ (12) 05-0-status-of-this-document
+ --
+Кто ссылается на этот документ (12)
+ 04-abstract
+ 05-0-status-of-this-document
+ 123-portal-mcp-py
+ 132-planned-v0-2-0
+ 154-table-of-contents
+ 190-содержание
+ 326-содержание
+ 54-for-the-curious-philosophy
+ _...ещё 4_
 
 ---
-<!-- tags: rag -->
+<!-- tags: rag, knowledge -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

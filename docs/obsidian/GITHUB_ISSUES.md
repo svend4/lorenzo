@@ -2,7 +2,7 @@
 title: "GitHub Issues — список задач"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # GitHub Issues — список задач
@@ -593,4 +593,15 @@ python scripts/improve_github_issues.py
 - [[SEARCH]]
 - [[TABLES]]
 - [[10-checklist]]
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[10-checklist]]
+- [[116-9-checklist-применения-методологии]]
+- [[CONTACTS]]
+- [[CONTACT_PRIORITY]]
 

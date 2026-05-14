@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 16. MCP Extension (Informative)
 
@@ -25,7 +29,14 @@ h2. Contents
 
 
 
-{quote}NPP v1.1 не формализует MCP-интеграцию как mandatory. Но RECOMMENDED{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. экспонировать минимум 5 tools: — search across ecosystem{quote}
+экспонировать минимум 5 tools:
+ — search across ecosystem
+ — list all repos with metadata
+ — query single repo
+ — consensus validation
+ — ecosystem philosophy and metadata
+Формальная MCP-спецификация
 
 ----
 

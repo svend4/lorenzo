@@ -2,7 +2,7 @@
 title: "Технический stack (Svyazi 2.0 foundation)"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Технический stack (Svyazi 2.0 foundation)
@@ -22,7 +22,7 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Lorenzo's architecture builds on верифицированных open-source компонентах:
+> Phase 1 commitment : ready ли вы committed к 12-month roadmap, или это всё ещё exploration? 🎯 Проблема: Запрос проанализировать нужно проанализировать то что уже сделано то информацию которая уже есть благодаря этим последним нескольким документам благодаря тем что уже было сделано в
 **Проекты:** Svyazi, CardIndex, AgentFS, [[03-component-catalog|knowledge-space]], mclaude, AI Factory, Rufler, LiteParse
 
 ---

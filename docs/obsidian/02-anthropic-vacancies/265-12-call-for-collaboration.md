@@ -4,7 +4,7 @@ tags:
   - rag
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 12. Call for Collaboration
@@ -29,7 +29,12 @@ date: 2026-05-13
 
 
 <!-- summary -->
-> This paper opens questions that require multi-stakeholder
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Sub-agent registry standards and protocols Configuration management interfaces
+ Sub-agent registry standards and protocols
+ Configuration management interfaces
+ Disagreement detection and presentation systems
+ Audit and observability tools
+12.4.
 
 ---
 <!-- tags: rag, anthropic -->

@@ -5,7 +5,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 8. Pilot Proposal: SGB Advocate Colleague
@@ -26,8 +26,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Clear demand: Author personally needs this. 🔧 Подход: Tertiary requires careful design and supervision; appropriate for later phase.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We now apply the Professional Colleague Agent framework to a

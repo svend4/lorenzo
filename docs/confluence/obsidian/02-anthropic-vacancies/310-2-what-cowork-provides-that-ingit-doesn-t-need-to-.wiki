@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * roadmap
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 2. What Cowork Provides That InGit Doesn't Need to Build
@@ -30,7 +30,8 @@ h1. 2. What Cowork Provides That InGit Doesn't Need to Build
 
 
 
-{quote}If InGit positions to complement Cowork rather than replace{quote}
+{quote}> 🔧 Подход: Claude in Cowork can: - Read multiple files, synthesize information - Make decisions about approach - Execute shell commands in isolated VM - Iterate based on results - Coordinate {quote}
+{quote}✅ Результат: What Cowork Provides That InGit Doesn't Ne{quote}
 
 ----
 

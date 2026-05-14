@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — MiXaiLL76 (GitHub)
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, Auto AI Router
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Проекты:** Svyazi, Auto AI Router
 
 ---
@@ -30,3 +43,14 @@ Svyazi и Auto AI Router — один из проектов, которые я �
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [VladSpace_draft](VladSpace_draft.md)
+- [nlaik_draft](nlaik_draft.md)
+

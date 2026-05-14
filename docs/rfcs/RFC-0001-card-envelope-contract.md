@@ -12,6 +12,11 @@ tags: [architecture, rfc, card-envelope, core]
 
 # RFC-0001: Card Envelope как единый контракт данных Svyazi 2.0
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 
 <!-- summary -->
 > Card Envelope — единый формат хранения любого знания в системе Svyazi 2.0. Все компоненты (AgentFS, Yodoca, MCP, Gateway) обмениваются только через Card Envelope.
@@ -77,3 +82,24 @@ AgentFS хранит файлы, Yodoca хранит episodes, CardIndex хра�
 
 - [PROTOTYPE_SPEC §3.1](../PROTOTYPE_SPEC.md)
 - [11-integration-contracts](../01-svyazi/11-integration-contracts.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [README](README.md)
+- [RFC-0002-memory-write-policy-для-svyazi-2-0](RFC-0002-memory-write-policy-для-svyazi-2-0.md)
+- [RFC-0003-mcp-write-back-protocol-для-svyazi-2-0](RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [RFC-0002-memory-write-policy-для-svyazi-2-0](RFC-0002-memory-write-policy-для-svyazi-2-0.md)
+- [template](template.md)
+- [RFC-0003-mcp-write-back-protocol-для-svyazi-2-0](RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md)
+- [memory-write-policy](../svyazi-2-0/architecture/memory-write-policy.md)
+

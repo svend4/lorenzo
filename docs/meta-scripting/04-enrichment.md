@@ -40,7 +40,7 @@ state: approved
 
 ---
 
-<!-- tags: ingestion, self-improve -->
+<!-- tags: ingestion, self-improvement -->
 
 
 

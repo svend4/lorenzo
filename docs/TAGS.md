@@ -1,5 +1,17 @@
 # Индекс тегов
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 Каждый файл помечен тегами по темам автоматически.
 
 
@@ -255,7 +267,7 @@
 - `docs/obsidian/REPORT.md`
 - `docs/obsidian/SITEMAP.md`
 
-## #self-improve (25 файлов)
+## #self-improvement (25 файлов)
 
 - `docs/CLUSTERS.md`
 - `docs/CONSISTENCY.md`
@@ -278,3 +290,30 @@
 - `docs/SITEMAP.md`
 - `docs/TASKS_INDEX.md`
 - _...и ещё 5_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (18):**
+- [CONSISTENCY](CONSISTENCY.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [METRICS](METRICS.md)
+- _...ещё 10_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [STALENESS](STALENESS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [STATS](STATS.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+

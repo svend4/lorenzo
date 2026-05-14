@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/137-table-of-contents.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Table of Contents"
 tags:
   * architecture
+  * rag
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Table of Contents
@@ -39,7 +40,22 @@ h2. Содержание
 
 
 
-{quote}1. _Why Single-Triangle Models Are Incomplete_{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (15) Why Single-Triangle Models Are Incomplete{quote}
+ 
+Contents
+ Содержание
+ Table of Contents
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (15)
+Содержание
+ Основной раздел
+{quote}[{quote}
 
 ----
 

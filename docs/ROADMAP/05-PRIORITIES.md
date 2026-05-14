@@ -8,7 +8,7 @@ state: approved
 > > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Финальный документ серии. Конкретный sprint-план для 3 разных стратегий.
 
 ---
-<!-- tags: rag, security, ingestion, architecture, roadmap, self-improve -->
+<!-- tags: rag, security, ingestion, architecture, roadmap, self-improvement -->
 
 
 

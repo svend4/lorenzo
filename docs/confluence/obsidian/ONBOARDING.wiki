@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/ONBOARDING.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * onboarding
   * docs
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Онбординг — Svyazi 2.0 / Lorenzo
@@ -142,4 +142,15 @@ _Кто ссылается на этот документ (11):_
 * [[READING_TIME]]
 * [[README]]
 * _...ещё 3_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[INDEX]]
+* [[FOOTNOTES]]
+* [[TECH_RADAR]]
+* [[PROGRESS]]
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/TIMELINE.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Хронологическая лента событий
@@ -485,4 +485,15 @@ _Кто ссылается на этот документ (19):_
 * [HEADING_AUDIT|HEADING_AUDIT.md]
 * [KPI|KPI.md]
 * _...ещё 11_
+
+
+
+
+----
+
+_Смотрите также:_
+* [VERSION_DIFF|VERSION_DIFF.md]
+* [SOURCE_MAP|SOURCE_MAP.md]
+* [CLUSTERS|CLUSTERS.md]
+* [HEADING_AUDIT|HEADING_AUDIT.md]
 

@@ -2,8 +2,9 @@
 title: "Appendix C: Configuration Template Example"
 tags:
   - rag
+  - orchestration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Appendix C: Configuration Template Example
@@ -32,14 +33,14 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Some will remove sub-agents they don't need. ✅ Результат: Appendix C: Configuration Template Example For the SGB Advocate Colleague pilot, a starting configuration --- Appendix C: Configuration Template Example For the SGB Advocate Collea
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > For the SGB Advocate Colleague pilot, a starting configuration
 
 ---
-<!-- tags: rag -->
+<!-- tags: rag, orchestration -->
 
 
 

@@ -9,7 +9,7 @@ state: approved
 **Проекты:** Svyazi, AgentFS
 
 ---
-<!-- tags: memory, rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+<!-- tags: memory, rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 

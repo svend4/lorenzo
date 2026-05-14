@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Wikontic × Ngt-Memory
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Wikontic) и memory-слоя (Ngt-Memory): Wikontic обеспечивает персистентную память эпизодов, Ngt-Memory хранит структурированный граф знаний. Интеграция: episod
 
@@ -70,3 +75,28 @@ Wikontic обеспечивает персистентную память эпи
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+- [proposal-wikontic-x-agent-memory-mcp](proposal-wikontic-x-agent-memory-mcp.md)
+- [proposal-knowledge-space-x-ngt-memory](proposal-knowledge-space-x-ngt-memory.md)
+- [proposal-knowledge-space-x-yodoca](proposal-knowledge-space-x-yodoca.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [README](README.md)
+- [proposal-knowledge-space-x-ngt-memory](proposal-knowledge-space-x-ngt-memory.md)
+- [proposal-wikontic-x-agent-memory-mcp](proposal-wikontic-x-agent-memory-mcp.md)
+- [proposal-wikontic-x-memnet](proposal-wikontic-x-memnet.md)
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

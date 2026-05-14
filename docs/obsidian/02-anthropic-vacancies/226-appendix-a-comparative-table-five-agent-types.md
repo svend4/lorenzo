@@ -2,8 +2,9 @@
 title: "Appendix A: Comparative Table — Five Agent Types"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Appendix A: Comparative Table — Five Agent Types
@@ -29,7 +30,7 @@ date: 2026-05-13
 
 ---
 
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

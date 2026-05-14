@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/178-9-phased-rollout-strategy.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "9. Phased Rollout Strategy"
 tags:
   * roadmap
+  * rag
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 9. Phased Rollout Strategy
@@ -46,7 +47,11 @@ h2. Содержание
 
 
 
-{quote}A responsible deployment of Representative Agent technology{quote}
+{quote}> ✅ Результат: Faster deployment is technically possible but risks: - Premature promises that erode trust when broken - Ethical missteps that trigger restrictive regulation - Platform dynamics th{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+ 
+{quote}A re{quote}
 
 ----
 

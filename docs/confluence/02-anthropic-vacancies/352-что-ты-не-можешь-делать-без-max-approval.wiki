@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Что ты НЕ МОЖЕШЬ делать без Max approval
 
@@ -21,7 +25,16 @@ h2. Contents
 
 
 
-{quote}- Send any external communication (emails, messages, posts){quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Что ты НЕ МОЖЕШЬ делать без Max approval Кто ссылается на этот документ (11){quote}
+ 
+Contents
+ Что ты НЕ МОЖЕШЬ делать без Max approval
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (11)
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования.{quote}
 
 ----
 

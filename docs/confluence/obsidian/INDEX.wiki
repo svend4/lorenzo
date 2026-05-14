@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/INDEX.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * index
   * docs
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Индекс документации — Lorenzo / Svyazi 2.0
@@ -160,4 +160,15 @@ _Кто ссылается на этот документ (14):_
 * [[OUTLINE]]
 * [[READABILITY]]
 * _...ещё 6_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[ONBOARDING]]
+* [[DEPENDENCY_MAP]]
+* [[LLM_SUMMARIES]]
+* [[DIGEST_WEEKLY]]
 

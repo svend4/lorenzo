@@ -2,8 +2,9 @@
 title: "Table of Contents"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Table of Contents
@@ -34,10 +35,25 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> 1. **Why Single-Triangle Models Are Incomplete**
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (15) Why Single-Triangle Models Are Incomplete
+ 
+Contents
+ Содержание
+ Table of Contents
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (15)
+Содержание
+ Основной раздел
+> [
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

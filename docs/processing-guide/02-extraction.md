@@ -1,6 +1,6 @@
 ---
 date: 2026-05-13
-tags: [ingestion, local-first, architecture, anthropic, self-improve]
+tags: [ingestion, local-first, architecture, anthropic, self-improvement]
 state: approved
 ---
 

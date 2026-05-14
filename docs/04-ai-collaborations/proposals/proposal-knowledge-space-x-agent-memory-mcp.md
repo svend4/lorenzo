@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Knowledge-Space × Agent-Memory-Mcp
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Knowledge-Space) и memory-слоя (Agent-Memory-Mcp): Knowledge-Space обеспечивает персистентную память эпизодов, Agent-Memory-Mcp хранит структурированный граф знаний. Интег
 
@@ -70,3 +75,30 @@ Knowledge-Space обеспечивает персистентную память
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-knowledge-space-x-ngt-memory](proposal-knowledge-space-x-ngt-memory.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-knowledge-space-x-yodoca](proposal-knowledge-space-x-yodoca.md)
+- [proposal-wikontic-x-agent-memory-mcp](proposal-wikontic-x-agent-memory-mcp.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [README](README.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-knowledge-space-x-ngt-memory](proposal-knowledge-space-x-ngt-memory.md)
+- [proposal-knowledge-space-x-yodoca](proposal-knowledge-space-x-yodoca.md)
+- [proposal-research-docs-liteparse-x-agent-memory-mcp](proposal-research-docs-liteparse-x-agent-memory-mcp.md)
+- [proposal-research-docs-liteparse-x-knowledge-space](proposal-research-docs-liteparse-x-knowledge-space.md)
+- [proposal-wikontic-x-agent-memory-mcp](proposal-wikontic-x-agent-memory-mcp.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- _...ещё 1_
+

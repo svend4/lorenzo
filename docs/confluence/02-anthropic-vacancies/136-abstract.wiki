@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/136-abstract.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Abstract
 
@@ -20,8 +24,8 @@ h1. Abstract
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: We conclude with open questions on governance, consent, economics, and burnout dynamics, and invite research collaboration on these unsolved issues.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}We introduce the _Double-Triangle Architecture_ for human-AI{quote}

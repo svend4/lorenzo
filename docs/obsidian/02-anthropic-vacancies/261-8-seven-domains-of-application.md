@@ -2,7 +2,7 @@
 title: "8. Seven Domains of Application"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 8. Seven Domains of Application
@@ -23,7 +23,11 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Composite Skills Agents apply naturally to professions where
+> * Typical configurations: A jazz pianist who teaches has different needs from a classical violinist, who has different n. * Typical configurations: A computational biologist working on epidemiology with humanities co-authors faces unique conf
+Sub-agent specializations might include: Drawing fundamentals, 
+painting techniques, digital illustration, animation, sculpture, 
+photography, color theory, composition, art history (by period 
+or movement), specif
 
 ---
 

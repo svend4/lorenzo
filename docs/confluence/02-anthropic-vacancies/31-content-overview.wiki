@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/31-content-overview.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Content Overview
 
@@ -25,8 +29,8 @@ h2. Contents
 
 
 
-
 {quote}[!TIP]{quote}
+{quote}Раздел содержит несколько документов. Используйте содержание для навигации. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Раздел содержит несколько документов. Используйте содержание для навигации.{quote}
 
 {quote}~200 заметок, темы: software engineering, philosophy, music.{quote}

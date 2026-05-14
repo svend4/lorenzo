@@ -8,7 +8,7 @@ state: approved
 > > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Это не frontier research (что в I-блоке), а концепции которые никем не упакованы в production систему, или сделаны кусочно в разных проектах но не сложены вместе.
 
 ---
-<!-- tags: rag, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+<!-- tags: rag, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 

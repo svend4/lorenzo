@@ -4,7 +4,7 @@ tags:
   - outline
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Outline базы знаний
@@ -15270,4 +15270,15 @@ python scripts/improve_outline.py --dry-run
 - [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
 - [[112-5-связь-с-существующими-методологиями]]
 - _...ещё 637_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[EMPTY_SECTIONS]]
+- [[PARAGRAPH_QUALITY]]
+- [[HEADING_AUDIT]]
+- [[SEARCH]]
 

@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: 01-Synthesis × Yodoca
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция unknown-слоя (01-Synthesis) и memory-слоя (Yodoca): 01-Synthesis и Yodoca — взаимодополняющие компоненты Knowledge OS. Интеграция открывает синергию через общий Card Envelo
 
@@ -70,3 +75,28 @@ source: proposal-gen
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-01-synthesis-x-wikontic](proposal-01-synthesis-x-wikontic.md)
+- [proposal-mclaude-x-rufler](proposal-mclaude-x-rufler.md)
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+- [proposal-knowledge-space-x-yodoca](proposal-knowledge-space-x-yodoca.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [README](README.md)
+- [proposal-01-synthesis-x-wikontic](proposal-01-synthesis-x-wikontic.md)
+- [proposal-mclaude-x-agent-memory-mcp](proposal-mclaude-x-agent-memory-mcp.md)
+- [proposal-mclaude-x-rufler](proposal-mclaude-x-rufler.md)
+- [proposal-rufler-x-agent-memory-mcp](proposal-rufler-x-agent-memory-mcp.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

@@ -2,7 +2,7 @@
 title: "Diff базы знаний между версиями"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Diff базы знаний между версиями
@@ -544,4 +544,15 @@ python scripts/improve_version_diff.py --dry-run
 - [[READING_TIME]]
 - [[README]]
 - _...ещё 4_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CLUSTERS]]
+- [[READING_ORDER]]
+- [[LANGUAGE_STATS]]
+- [[PARAGRAPH_QUALITY]]
 

@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Wikontic × Memnet
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Wikontic) и memory-слоя (Memnet): Wikontic обеспечивает персистентную память эпизодов, Memnet хранит структурированный граф знаний. Интеграция: episodes и
 
@@ -70,3 +75,25 @@ Wikontic обеспечивает персистентную память эпи
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-agentfs-x-memnet](proposal-agentfs-x-memnet.md)
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+- [proposal-wikontic-x-agent-memory-mcp](proposal-wikontic-x-agent-memory-mcp.md)
+- [proposal-wikontic-x-ngt-memory](proposal-wikontic-x-ngt-memory.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](README.md)
+- [proposal-agentfs-x-memnet](proposal-agentfs-x-memnet.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

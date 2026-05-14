@@ -2,40 +2,38 @@
 title: "Согласованность терминов"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Согласованность терминов
-<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improve, collaboration -->
-
 
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 7 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 32 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
 | **CardIndex** | `CardIndex` | `Card Index` | 2 |
 | **CardIndex** | `CardIndex` | `card index` | 2 |
 | **CardIndex** | `CardIndex` | `card-index` | 2 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 42 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 103 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 44 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 127 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 4 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 42 |
-| **local-first** | `local-first` | `local first` | 7 |
-| **local-first** | `local-first` | `localfirst` | 5 |
-| **local-first** | `local-first` | `Local First` | 7 |
-| **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 7 |
-| **self-improvement** | `self-improvement` | `self-improve` | 289 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 45 |
+| **local-first** | `local-first` | `local first` | 8 |
+| **local-first** | `local-first` | `localfirst` | 4 |
+| **local-first** | `local-first` | `Local First` | 8 |
+| **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 8 |
+| **self-improvement** | `self-improvement` | `self-improve` | 288 |
 | **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 6 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 41 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 44 |
 | **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 37 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 31 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 49 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 30 |
 
-**Всего несогласованных написаний: 674**
+**Всего несогласованных написаний: 717**
 
 
 ## Детали по файлам
@@ -48,7 +46,7 @@ date: 2026-05-13
 - `docs/TABLES.md`
 - `docs/obsidian/EMPTY_SECTIONS.md`
 - `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 2_
+- _...и ещё 1_
 
 ### `knowledge space` → должно быть `knowledge-space`
 
@@ -88,7 +86,7 @@ date: 2026-05-13
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/TABLES.md`
-- _...и ещё 37_
+- _...и ещё 39_
 
 ### `NGT-Memory` → должно быть `NGT Memory`
 
@@ -97,7 +95,7 @@ date: 2026-05-13
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- _...и ещё 98_
+- _...и ещё 122_
 
 ### `LiteParser` → должно быть `LiteParse`
 
@@ -108,12 +106,12 @@ date: 2026-05-13
 
 ### `Auto-AI-Router` → должно быть `Auto AI Router`
 
-- `docs/QUESTIONS.md`
 - `docs/LANGUAGE_STATS.md`
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- _...и ещё 37_
+- `docs/TABLES.md`
+- _...и ещё 40_
 
 ### `local first` → должно быть `local-first`
 
@@ -121,8 +119,8 @@ date: 2026-05-13
 - `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/TABLES.md`
-- `docs/obsidian/03-technology-combinations/03-local-first.md`
-- _...и ещё 2_
+- `docs/obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md`
+- _...и ещё 3_
 
 ### `localfirst` → должно быть `local-first`
 
@@ -130,7 +128,6 @@ date: 2026-05-13
 - `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/TABLES.md`
-- `docs/obsidian/OUTLINE.md`
 
 ### `Local First` → должно быть `local-first`
 
@@ -138,8 +135,8 @@ date: 2026-05-13
 - `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/TABLES.md`
-- `docs/obsidian/03-technology-combinations/03-local-first.md`
-- _...и ещё 2_
+- `docs/obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md`
+- _...и ещё 3_
 
 ### `agent memory mcp` → должно быть `agent-memory-mcp`
 
@@ -148,16 +145,16 @@ date: 2026-05-13
 - `docs/svyazi-2-0/components/agent-memory-mcp.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/TABLES.md`
-- _...и ещё 2_
+- _...и ещё 3_
 
 ### `self-improve` → должно быть `self-improvement`
 
-- `docs/QUESTIONS.md`
+- `docs/INFO_PROCESSING_METHODS.md`
 - `docs/CONSISTENCY.md`
 - `docs/PROTOTYPE_SPEC.md`
 - `docs/TABLES.md`
 - `docs/METHODOLOGY.md`
-- _...и ещё 284_
+- _...и ещё 283_
 
 ### `selfimprovement` → должно быть `self-improvement`
 
@@ -180,7 +177,7 @@ date: 2026-05-13
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/PROTOTYPE_SPEC.md`
-- _...и ещё 36_
+- _...и ещё 39_
 
 ### `EvidenceEnvelope` → должно быть `Evidence Envelope`
 
@@ -189,12 +186,12 @@ date: 2026-05-13
 
 ### `Card-Envelope` → должно быть `Card Envelope`
 
-- `docs/QUESTIONS.md`
 - `docs/LANGUAGE_STATS.md`
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- _...и ещё 32_
+- `docs/PROTOTYPE_SPEC.md`
+- _...и ещё 44_
 
 ## Как исправить
 

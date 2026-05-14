@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — Cutcode (GitHub)
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Проекты:** Svyazi
 
 ---
@@ -30,3 +43,30 @@ Svyazi — один из проектов, которые я рассматри�
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [VladSpace_draft](VladSpace_draft.md)
+- [nlaik_draft](nlaik_draft.md)
+- [spbmolot_draft](spbmolot_draft.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [AnastasiyaW_draft](AnastasiyaW_draft.md)
+- [Antipozitive_draft](Antipozitive_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [MiXaiLL76_draft](MiXaiLL76_draft.md)
+- [Sonia_Black_draft](Sonia_Black_draft.md)
+- [VitaliySemenov_draft](VitaliySemenov_draft.md)
+- _...ещё 8_
+

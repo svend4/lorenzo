@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/74-abstract.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Abstract
 
@@ -38,7 +42,10 @@ h2. Contents
 
 
 
-{quote}Nautilus Portal Protocol (далее — _NPP_) определяет способ федерации{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации --- Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации независимых Git-репозито{quote}
+{quote}🔧 Подход: Алгоритм вычисления кон{quote}
 
 ----
 

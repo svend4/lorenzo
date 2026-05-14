@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "3. Three Inter-Layer Protocols"
 tags:
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 3. Three Inter-Layer Protocols
@@ -28,7 +28,15 @@ h1. 3. Three Inter-Layer Protocols
 
 
 
-{quote}The architecture requires three formalized protocols between layers.{quote}
+{quote}_ Instead, it issues a structured query that travels: A → N → M → N' → A' → response back through the chain. _ Three Inter-Layer Protocols !IMPORTANT Ключевой документ для понимания архитектуры{quote}
+ Description
+ Deliverable specification (what constitutes "done")
+ Dependencies on other Nodes' deliverables
+ Deadline
+ Priority
+ Assignee
+Failure modes: Task assignment mismatches (wrong Node, wrong 
+skill), deadline conflicts
 
 ----
 

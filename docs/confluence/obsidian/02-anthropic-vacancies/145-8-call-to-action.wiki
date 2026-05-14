@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/145-8-call-to-action.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * roadmap
   * collaboration
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 8. Call to Action
@@ -30,7 +30,12 @@ h1. 8. Call to Action
 
 
 
-{quote}The Double-Triangle Architecture is a framework awaiting{quote}
+{quote}_ Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthrop. _ Early experimentation informs future workplace design{quote}
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18) - 143-6-four-dep{quote}
+{quote}🔧 Подход: Early{quote}
 
 ----
 

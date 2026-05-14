@@ -2,14 +2,12 @@
 title: "Мониторинг зависимостей"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Мониторинг зависимостей
-<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->
 
-
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-14_
 
 ## Python-зависимости
 

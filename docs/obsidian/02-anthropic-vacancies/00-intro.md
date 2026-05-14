@@ -2,7 +2,7 @@
 title: "Введение"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Введение

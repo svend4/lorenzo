@@ -1,9 +1,19 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/SITEMAP.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Карта репозитория Lorenzo
+
+
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+----
+
+
+
+
 
 {quote}[!TIP]{quote}
 {quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
@@ -1069,3 +1079,14 @@ _{{docs/templates/}} — 23 файлов_
 || 21 || [Tech Radar: [Название]](templates/tech-radar-entry.md) || 363 ||
 || 22 || [[имя нового шаблона]](templates/template-of-templates.md) || 382 ||
 || 23 || [Еженедельный дайджест: [период]](templates/weekly-digest.md) || 367 ||
+
+
+
+----
+
+_Смотрите также:_
+* [PARAGRAPH_QUALITY|PARAGRAPH_QUALITY.md]
+* [SEARCH|SEARCH.md]
+* [HEADING_AUDIT|HEADING_AUDIT.md]
+* [READABILITY|READABILITY.md]
+

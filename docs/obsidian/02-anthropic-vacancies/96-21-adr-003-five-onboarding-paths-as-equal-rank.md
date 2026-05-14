@@ -2,8 +2,9 @@
 title: "21. ADR-003: Five Onboarding Paths as Equal-Rank"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 21. ADR-003: Five Onboarding Paths as Equal-Rank
@@ -24,10 +25,16 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> **Status**: Accepted (new in v1.1)
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. ADR-003: Five Onboarding Paths as Equal-Rank Кто ссылается на этот документ (6)
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (6)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

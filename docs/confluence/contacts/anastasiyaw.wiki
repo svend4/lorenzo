@@ -1,9 +1,10 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/anastasiyaw.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "AnastasiyaW"
@@ -36,7 +37,18 @@ h2. Contents
 
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Контакт: AnastasiyaW / knowledge-space, mclaude Кто ссылается на этот документ (4) Проекты: Svyazi, knowledge-space, mclaude{quote}
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+ Кто ссылается на этот документ (4)
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучш{quote}
 _Проекты:_ Svyazi, knowledge-space, mclaude
 
 ----

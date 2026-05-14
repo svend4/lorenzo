@@ -1,5 +1,10 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Автоматический поиск партнёрских проектов для: «knowledge OS memory agent»
 > **Дата:** 2026-05-13 12:30  **Кандидатов:** 5
@@ -195,3 +200,28 @@ Lorenzo / svend4
    ```
 
 _Сгенерировано: 2026-05-13 12:30  |  Алгоритм: TF-IDF + BM25 + граф_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [agent-memory-mcp](05-habr-projects/memory/agent-memory-mcp.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [memnet](svyazi-2-0/components/memnet.md)
+- [knowledge-space](svyazi-2-0/components/knowledge-space.md)
+- [agent-memory-mcp](svyazi-2-0/components/agent-memory-mcp.md)
+- [wikontic](05-habr-projects/knowledge/wikontic.md)
+

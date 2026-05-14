@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Rufler × Agent-Memory-Mcp
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция orchestration-слоя (Rufler) и memory-слоя (Agent-Memory-Mcp): Rufler типизирует memory-примитивы (episode/fact/proposal), Agent-Memory-Mcp оркестрирует агентов через декларативные па
 
@@ -70,3 +75,25 @@ Rufler типизирует memory-примитивы (episode/fact/proposal), A
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-mclaude-x-agent-memory-mcp](proposal-mclaude-x-agent-memory-mcp.md)
+- [proposal-mclaude-x-rufler](proposal-mclaude-x-rufler.md)
+- [proposal-01-synthesis-x-yodoca](proposal-01-synthesis-x-yodoca.md)
+- [proposal-01-synthesis-x-wikontic](proposal-01-synthesis-x-wikontic.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](README.md)
+- [proposal-mclaude-x-agent-memory-mcp](proposal-mclaude-x-agent-memory-mcp.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

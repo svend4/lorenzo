@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 7. Practical First Steps This Month
@@ -38,7 +38,9 @@ h2. Содержание
 
 
 
-{quote}Concrete actions for the immediate term.{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Документ создан на основе исследования. The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7){quote}
+The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7) 
+provide an ideal first test case.
 
 ----
 

@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: normalized
+----
 
 h1. INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md
 
@@ -17,7 +21,7 @@ h2. Contents
 
 
 
-{quote}- [249-composite-skills-agent-md|249-composite-skills-agent-md.md] (сходство 0.11){quote}
+{quote}- [249-composite-skills-agent-md|249-composite-skills-agent-md.md] (сходство 0.11) Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 ----
 

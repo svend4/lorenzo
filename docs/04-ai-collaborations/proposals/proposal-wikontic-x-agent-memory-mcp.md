@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Wikontic × Agent-Memory-Mcp
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Wikontic) и memory-слоя (Agent-Memory-Mcp): Wikontic обеспечивает персистентную память эпизодов, Agent-Memory-Mcp хранит структурированный граф знаний. Интеграция: 
 
@@ -70,3 +75,30 @@ Wikontic обеспечивает персистентную память эпи
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-wikontic-x-ngt-memory](proposal-wikontic-x-ngt-memory.md)
+- [proposal-knowledge-space-x-agent-memory-mcp](proposal-knowledge-space-x-agent-memory-mcp.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [README](README.md)
+- [proposal-01-synthesis-x-wikontic](proposal-01-synthesis-x-wikontic.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-agentfs-x-yodoca](proposal-agentfs-x-yodoca.md)
+- [proposal-knowledge-space-x-agent-memory-mcp](proposal-knowledge-space-x-agent-memory-mcp.md)
+- [proposal-wikontic-x-memnet](proposal-wikontic-x-memnet.md)
+- [proposal-wikontic-x-ngt-memory](proposal-wikontic-x-ngt-memory.md)
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+- _...ещё 2_
+

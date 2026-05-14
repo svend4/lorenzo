@@ -1,6 +1,6 @@
 ---
 date: 2026-05-13
-tags: [memory, rag, roadmap, anthropic, self-improve]
+tags: [memory, rag, roadmap, anthropic, self-improvement]
 state: approved
 ---
 

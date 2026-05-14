@@ -4,7 +4,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers
@@ -29,8 +29,8 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Representative Agent Layer v1.0 Representative Agent Layer v1.0
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - Representative Agent Layer v1.0

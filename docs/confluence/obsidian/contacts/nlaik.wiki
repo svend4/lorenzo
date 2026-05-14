@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/contacts/nlaik.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * контакты
   * команда
   * contacts
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Контакт: nlaik / LiteParse / research-docs
@@ -31,7 +31,17 @@ h2. Contents
 
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Контакт: nlaik / LiteParse / research-docs Проекты: Svyazi, LiteParse Проекты | LiteParse / research-docs |{quote}
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 _Проекты:_ Svyazi, LiteParse
 
 ----

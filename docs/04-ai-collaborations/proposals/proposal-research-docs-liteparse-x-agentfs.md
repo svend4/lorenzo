@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Research-Docs-Liteparse × Agentfs
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция ingestion-слоя (Research-Docs-Liteparse) и knowledge-слоя (Agentfs): Research-Docs-Liteparse хранит знания в виде графа документов, Agentfs парсит и извлекает структуру из сырых источников.
 
@@ -70,3 +75,26 @@ Research-Docs-Liteparse хранит знания в виде графа док�
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-research-docs-liteparse-x-knowledge-space](proposal-research-docs-liteparse-x-knowledge-space.md)
+- [proposal-research-docs-liteparse-x-agent-memory-mcp](proposal-research-docs-liteparse-x-agent-memory-mcp.md)
+- [proposal-01-synthesis-x-wikontic](proposal-01-synthesis-x-wikontic.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [README](README.md)
+- [proposal-research-docs-liteparse-x-agent-memory-mcp](proposal-research-docs-liteparse-x-agent-memory-mcp.md)
+- [proposal-research-docs-liteparse-x-knowledge-space](proposal-research-docs-liteparse-x-knowledge-space.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

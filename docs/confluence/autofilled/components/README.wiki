@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/autofilled/components/README.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [ingestion, collaboration]
+state: raw
+----
 
 h1. components
 

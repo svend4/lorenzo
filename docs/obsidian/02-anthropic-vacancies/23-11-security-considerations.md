@@ -7,7 +7,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 11. Security Considerations
@@ -48,7 +48,20 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Adapters выполняются внутри Portal-процесса. Portal MUST обрабатывать
+> * Security Considerations - 11.1. * MCP Exposure !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: Security Considerations - 11.1. 🔧 Подход: MCP Exposure !IMPORTANT Ключевой документ для понимания архитектуры.
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (4)
+ 
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Security Considerations(11-security-consi
 
 ---
 

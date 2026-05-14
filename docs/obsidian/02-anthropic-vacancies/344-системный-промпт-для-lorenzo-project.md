@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT
@@ -21,7 +21,7 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> - [[249-composite-skills-agent-md]] (сходство 0.20)
+> - [[249-composite-skills-agent-md]] (сходство 0.20) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: architecture, anthropic -->

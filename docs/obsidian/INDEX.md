@@ -4,7 +4,7 @@ tags:
   - index
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Индекс документации — Lorenzo / Svyazi 2.0
@@ -159,4 +159,15 @@ _Индекс сгенерирован автоматически · 2484 док
 - [[OUTLINE]]
 - [[READABILITY]]
 - _...ещё 6_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[ONBOARDING]]
+- [[DEPENDENCY_MAP]]
+- [[LLM_SUMMARIES]]
+- [[DIGEST_WEEKLY]]
 

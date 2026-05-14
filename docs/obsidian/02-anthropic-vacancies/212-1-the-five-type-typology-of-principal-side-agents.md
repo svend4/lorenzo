@@ -5,7 +5,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 1. The Five-Type Typology of Principal-Side Agents
@@ -25,8 +25,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: A single human professional could simultaneously have: Personal AI Assistants (Type 0) do not occupy a fixed layer — they function across all layers as utility, used as needed.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The Representative Agent Layer paper introduced one type of AI

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * communication
   * collaboration
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Твоя коммуникация в outreach
@@ -36,7 +36,9 @@ h2. Contents
 
 
 
-{quote}Когда draft outreach message к независимому создателю, ВСЕГДА включай:{quote}
+{quote}Моя миссия — connecting создателей в области beneficial AI для совместной работы над technologies serving vulnerable populations.» Документ создан на основе исследования.{quote}
+Specific reference к их работе (не generic):
+{quote}«Читал вашу [статью/репозиторий] про [конкретная тема], особенно интерес{quote}
 
 ----
 

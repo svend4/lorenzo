@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/PARAGRAPH_QUALITY.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Качество абзацев
@@ -6295,4 +6295,15 @@ _Кто ссылается на этот документ (9):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 * _...ещё 1_
+
+
+
+
+----
+
+_Смотрите также:_
+* [HEADING_AUDIT|HEADING_AUDIT.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [SEARCH|SEARCH.md]
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/CITATION_INDEX.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Индекс цитирования URL
@@ -241,4 +241,15 @@ _Кто ссылается на этот документ (12):_
 * [READING_LIST|READING_LIST.md]
 * [READING_TIME|READING_TIME.md]
 * _...ещё 4_
+
+
+
+
+----
+
+_Смотрите также:_
+* [SPELLCHECK|SPELLCHECK.md]
+* [READING_LIST|READING_LIST.md]
+* [LINK_PREVIEW|LINK_PREVIEW.md]
+* [NAMED_ENTITIES|NAMED_ENTITIES.md]
 

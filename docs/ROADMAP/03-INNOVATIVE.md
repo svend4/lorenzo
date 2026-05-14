@@ -9,7 +9,7 @@ state: approved
 **Проекты:** Yodoca
 
 ---
-<!-- tags: memory, rag, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+<!-- tags: memory, rag, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 

@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Agentfs × Mclaude
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Agentfs) и orchestration-слоя (Mclaude): Agentfs предоставляет файловую систему знаний с рёбрами, Mclaude управляет агентными пайплайнами. Интеграция: Mclaude на
 
@@ -70,3 +75,27 @@ Agentfs предоставляет файловую систему знаний 
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-knowledge-space-x-mclaude](proposal-knowledge-space-x-mclaude.md)
+- [proposal-agentfs-x-rufler](proposal-agentfs-x-rufler.md)
+- [proposal-knowledge-space-x-rufler](proposal-knowledge-space-x-rufler.md)
+- [proposal-mclaude-x-rufler](proposal-mclaude-x-rufler.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [README](README.md)
+- [proposal-agentfs-x-rufler](proposal-agentfs-x-rufler.md)
+- [proposal-knowledge-space-x-mclaude](proposal-knowledge-space-x-mclaude.md)
+- [proposal-knowledge-space-x-rufler](proposal-knowledge-space-x-rufler.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

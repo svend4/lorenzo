@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 2. What Makes a Professional Colleague Agent
 
@@ -21,8 +25,8 @@ h1. 2. What Makes a Professional Colleague Agent
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The practitioner does not need to re-explain professional context with each interaction.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}We now develop Type 1 in detail.{quote}

@@ -1,5 +1,18 @@
 # Card Promote Log
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
+
+---
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 
 ## 2026-05-13 12:46
 
@@ -2168,3 +2181,13 @@
 - `docs/nautilus/npp-v1-0/README.md`
 - `docs/autofilled/components/svend4.md`
 - `docs/templates/tech-radar-entry.md`
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

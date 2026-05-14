@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/144-7-open-questions.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * rag
   * roadmap
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 7. Open Questions
@@ -29,7 +29,13 @@ h1. 7. Open Questions
 
 
 
-{quote}The Double-Triangle Architecture is proposed as a framework, not{quote}
+{quote}_ Open Questions !TIP Документ содержит практические рекомендации и лучшие практики. _ Possible approaches: reputation systems, revenue sharing from commercial uses, academic citation as reward, governance{quote}
+ Communication overhead at deep recursion levels
+ Consensus model latency at scale
+ Protocol 3 routing efficiency in large trees
+ Governance coherence across many levels
+These require production-scale deployments to answer, which 
+dep
 
 ----
 

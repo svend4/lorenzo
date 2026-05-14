@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Knowledge-Space × Ngt-Memory
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Knowledge-Space) и memory-слоя (Ngt-Memory): Knowledge-Space обеспечивает персистентную память эпизодов, Ngt-Memory хранит структурированный граф знаний. Интеграция:
 
@@ -70,3 +75,30 @@ Knowledge-Space обеспечивает персистентную память
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-knowledge-space-x-yodoca](proposal-knowledge-space-x-yodoca.md)
+- [proposal-knowledge-space-x-agent-memory-mcp](proposal-knowledge-space-x-agent-memory-mcp.md)
+- [proposal-wikontic-x-ngt-memory](proposal-wikontic-x-ngt-memory.md)
+- [proposal-wikontic-x-yodoca](proposal-wikontic-x-yodoca.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [README](README.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-agentfs-x-memnet](proposal-agentfs-x-memnet.md)
+- [proposal-knowledge-space-x-agent-memory-mcp](proposal-knowledge-space-x-agent-memory-mcp.md)
+- [proposal-knowledge-space-x-yodoca](proposal-knowledge-space-x-yodoca.md)
+- [proposal-research-docs-liteparse-x-knowledge-space](proposal-research-docs-liteparse-x-knowledge-space.md)
+- [proposal-wikontic-x-ngt-memory](proposal-wikontic-x-ngt-memory.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- _...ещё 1_
+

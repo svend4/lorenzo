@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Mclaude × Rufler
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция orchestration-слоя (Mclaude) и orchestration-слоя (Rufler): Mclaude и Rufler — взаимодополняющие компоненты Knowledge OS. Интеграция открывает синергию через общий Card Envelope ко
 
@@ -70,3 +75,30 @@ Mclaude и Rufler — взаимодополняющие компоненты Kn
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-01-synthesis-x-wikontic](proposal-01-synthesis-x-wikontic.md)
+- [proposal-01-synthesis-x-yodoca](proposal-01-synthesis-x-yodoca.md)
+- [proposal-knowledge-space-x-rufler](proposal-knowledge-space-x-rufler.md)
+- [proposal-knowledge-space-x-mclaude](proposal-knowledge-space-x-mclaude.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [README](README.md)
+- [proposal-01-synthesis-x-wikontic](proposal-01-synthesis-x-wikontic.md)
+- [proposal-01-synthesis-x-yodoca](proposal-01-synthesis-x-yodoca.md)
+- [proposal-agentfs-x-mclaude](proposal-agentfs-x-mclaude.md)
+- [proposal-agentfs-x-rufler](proposal-agentfs-x-rufler.md)
+- [proposal-knowledge-space-x-mclaude](proposal-knowledge-space-x-mclaude.md)
+- [proposal-knowledge-space-x-rufler](proposal-knowledge-space-x-rufler.md)
+- [proposal-mclaude-x-agent-memory-mcp](proposal-mclaude-x-agent-memory-mcp.md)
+- _...ещё 3_
+

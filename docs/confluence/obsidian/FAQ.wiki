@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/FAQ.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * faq
   * docs
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Часто задаваемые вопросы (FAQ)
@@ -261,4 +261,15 @@ _Кто ссылается на этот документ (17):_
 * [[OUTLINE]]
 * [[READABILITY]]
 * _...ещё 9_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[QUESTIONS]]
+* [[10-otkrytye-voprosy]]
+* [[10-open-questions]]
+* [[VERSION_DIFF]]
 

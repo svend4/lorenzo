@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "12. Versioning Policy"
 tags:
   * architecture
+  * rag
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 12. Versioning Policy
@@ -36,8 +37,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Major (v1 → v2): breaking changes в interfaces или schemas Major (v1 → v2): breaking changes в interfaces или schemas{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}- _Major_ (v1 → v2): breaking changes в interfaces или schemas{quote}

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/CHANGELOG_AUTO.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Changelog (авто)"
 tags:
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Changelog (авто)

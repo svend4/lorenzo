@@ -2,7 +2,7 @@
 title: "10. Strategic Positioning"
 tags:
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 10. Strategic Positioning
@@ -23,8 +23,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Closing thoughts on broader strategic implications.

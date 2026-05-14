@@ -16,7 +16,7 @@ state: approved
 **Проекты:** Svyazi, AgentFS, Yodoca
 
 ---
-<!-- tags: memory, rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improve -->
+<!-- tags: memory, rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement -->
 
 
 

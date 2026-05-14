@@ -6,7 +6,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 5. Four Integration Paths in Order of Accessibility
@@ -27,8 +27,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: --- --- Похожие документы: - 311-3-what-ingit-provides-that-cowork-lacks(docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16) - 310-2-what-co
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We identify four paths from most-immediate to most-mature.

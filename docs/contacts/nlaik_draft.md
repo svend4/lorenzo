@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — nlaik (GitHub)
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, LiteParse
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Проекты:** Svyazi, LiteParse
 
 ---
@@ -30,3 +43,30 @@ Svyazi и LiteParse — один из проектов, которые я рас
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [VladSpace_draft](VladSpace_draft.md)
+- [spbmolot_draft](spbmolot_draft.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [READING_TIME](../READING_TIME.md)
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [MiXaiLL76_draft](MiXaiLL76_draft.md)
+- [VitalyOborin_draft](VitalyOborin_draft.md)
+- [VladSpace_draft](VladSpace_draft.md)
+- [andrey_chuyan_draft](andrey_chuyan_draft.md)
+- [kksudo_draft](kksudo_draft.md)
+- _...ещё 3_
+

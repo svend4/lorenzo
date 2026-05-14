@@ -5,7 +5,7 @@ tags:
   - roadmap
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 8. Call to Action
@@ -25,7 +25,12 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> The Double-Triangle Architecture is a framework awaiting
+> * Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthrop. * Early experimentation informs future workplace design
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18) - 143-6-four-dep
+> 🔧 Подход: Early
 
 ---
 

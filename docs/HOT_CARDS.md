@@ -1,5 +1,18 @@
 # Hot Cards — Svyazi 2.0
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 _Сгенерировано: 2026-05-13_
 
 **Карточек всего:** 1809  **Показано топ:** 10
@@ -20,3 +33,26 @@ _Сгенерировано: 2026-05-13_
 | 8 | 0.307 | 0.230 | 0.000 | ❌ | `docs/autofilled/components/svyazi.md` · Svyazi |
 | 9 | 0.297 | 0.220 | 0.000 | ❌ | `docs/autofilled/components/spbmolot.md` · spbmolot |
 | 10 | 0.290 | 0.213 | 0.000 | ❌ | `docs/autofilled/components/sgb.md` · SGB |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [.md](autofilled/components/.md)
+- [cowork](autofilled/components/cowork.md)
+- [ingit](autofilled/components/ingit.md)
+- [lorenzo](autofilled/components/lorenzo.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [CARD_GRAPH](CARD_GRAPH.md)
+- [DECAY_CANDIDATES](DECAY_CANDIDATES.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
+- [SKILL_METRICS](SKILL_METRICS.md)
+

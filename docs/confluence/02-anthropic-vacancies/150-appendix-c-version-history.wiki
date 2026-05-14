@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/150-appendix-c-version-history.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: approved
+----
 
 h1. Appendix C: Version History
 
@@ -21,7 +27,17 @@ h1. Appendix C: Version History
 
 
 
-{quote}Initial consolidating draft. Synthesizes work across PORTAL-PROTOCOL{quote}
+{quote}_ Вы точно заметили паттерн: корм для животного в приюте не решает проблему приюта, потому что животное снова становится. _ Это demonstrates, что подход работает, и создаёт reference case , на который можно ссылаться во всех future discussion{quote}
+ --
+ 
+Содержание
+ Appendix C: Version History
+ v1.0.0-draft (2026-04-19)
+ Комментарий к документу
+ Следующие конкретные шаги
+ Что это значит для всей сессии
+ Final honest note
+ Часть 1: Почему Anthropic имеет 4
 
 ----
 

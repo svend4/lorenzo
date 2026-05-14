@@ -4,7 +4,7 @@ tags:
   - rag
   - anthropic
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 9. Call for Partnership
@@ -41,7 +41,11 @@ date: 2026-05-13
 
 
 <!-- summary -->
-> OKWF is not a solo initiative. Successful launch requires
+> * For Policy Organizations (EU Commission, National Governments, OECD) What we ask: - Regulatory guidance and dialogue -. * For Academic and Research Partners (Universities, Think Tanks) What we ask: - Research collaboration on methodology an
+ --
+ 
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: rag, anthropic -->

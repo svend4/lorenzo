@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 4. Proposed Infrastructure
 
@@ -21,7 +25,10 @@ h1. 4. Proposed Infrastructure
 
 
 
-{quote}OKWF infrastructure consists of six interlocking layers. Each{quote}
+{quote}> ✅ Результат: Legal and Compliance Layer What it provides: - Single contractual interface for contributors (across jurisdictions) - Tax compliance infrastructure - GDPR-compliant data handling -{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!TIP]{quote}
 
 ----
 

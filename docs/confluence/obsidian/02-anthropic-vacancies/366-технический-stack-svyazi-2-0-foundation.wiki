@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Технический stack (Svyazi 2.0 foundation)"
 tags:
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Технический stack (Svyazi 2.0 foundation)
@@ -27,7 +27,7 @@ h1. Технический stack (Svyazi 2.0 foundation)
 
 
 
-{quote}Lorenzo's architecture builds on верифицированных open-source компонентах:{quote}
+{quote}Phase 1 commitment : ready ли вы committed к 12-month roadmap, или это всё ещё exploration? 🎯 Проблема: Запрос проанализировать нужно проанализировать то что уже сделано то информацию которая уже есть благодаря этим последним нескольким документам благодаря тем что уже было сделано в{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, [[03-component-catalog|knowledge-space]], mclaude, AI Factory, Rufler, LiteParse
 
 ----

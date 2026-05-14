@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/347-твоя-миссия.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Твоя миссия
 
@@ -23,7 +27,7 @@ h2. Contents
 
 
 
-{quote}Твоя миссия — _catalyzing community synthesis в области beneficial AI для уязвимых групп_.{quote}
+{quote}Твоя миссия — _catalyzing community synthesis в области beneficial AI для уязвимых групп_. Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
 
 ----
 

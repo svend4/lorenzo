@@ -4,7 +4,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # AI Support Through Configurable Specialist Ensembles
@@ -29,8 +29,8 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > - Professional Colleague Agents v1.0

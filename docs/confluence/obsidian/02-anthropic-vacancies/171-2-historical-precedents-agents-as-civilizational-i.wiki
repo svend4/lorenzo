@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * rag
   * architecture
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. 2. Historical Precedents: Agents as Civilizational Innovation
@@ -29,8 +29,8 @@ h1. 2. Historical Precedents: Agents as Civilizational Innovation
 
 
 
-
 {quote}[!IMPORTANT]{quote}
+{quote}Документ фиксирует ключевые архитектурные или технические решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Документ фиксирует ключевые архитектурные или технические решения.{quote}
 
 {quote}The pattern of representative agents is ancient and recurring.{quote}

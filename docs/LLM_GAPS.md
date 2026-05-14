@@ -4,8 +4,6 @@
 > _Модель: claude-haiku-4-5 · Анализ структуры и связей документации_
 
 ---
-<!-- tags: architecture, anthropic -->
-
 
 
 

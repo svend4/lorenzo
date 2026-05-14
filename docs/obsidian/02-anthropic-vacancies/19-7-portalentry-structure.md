@@ -7,7 +7,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 7. PortalEntry Structure
@@ -43,7 +43,12 @@ date: 2026-05-13
 <!-- alert-added -->
 
 <!-- summary -->
-> Унифицированная структура данных, возвращаемая адаптерами.
+> * PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры. * PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры
+ 
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.
 
 ---
 

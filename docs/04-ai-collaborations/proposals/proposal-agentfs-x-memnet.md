@@ -13,6 +13,11 @@ source: proposal-gen
 
 # Proposal: Agentfs × Memnet
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Интеграция knowledge-слоя (Agentfs) и memory-слоя (Memnet): Agentfs обеспечивает персистентную память эпизодов, Memnet хранит структурированный граф знаний. Интеграция: episodes из
 
@@ -70,3 +75,25 @@ Agentfs обеспечивает персистентную память эпи�
 
 ---
 _Сгенерировано improve_proposal_gen.py: 2026-05-13_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [proposal-wikontic-x-memnet](proposal-wikontic-x-memnet.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-agentfs-x-yodoca](proposal-agentfs-x-yodoca.md)
+- [proposal-knowledge-space-x-ngt-memory](proposal-knowledge-space-x-ngt-memory.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [README](README.md)
+- [proposal-wikontic-x-memnet](proposal-wikontic-x-memnet.md)
+- [READING_ORDER](../../READING_ORDER.md)
+- [READING_TIME](../../READING_TIME.md)
+

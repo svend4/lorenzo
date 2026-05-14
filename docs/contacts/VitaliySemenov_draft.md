@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — VitaliySemenov (GitHub)
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, agent-memory-mcp
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Проекты:** agent-memory-mcp, Memory, OS
 
 ---
@@ -30,3 +43,24 @@ agent-memory-mcp и Memory — один из проектов, которые я
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [Antipozitive_draft](Antipozitive_draft.md)
+- [spbmolot_draft](spbmolot_draft.md)
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [Antipozitive_draft](Antipozitive_draft.md)
+

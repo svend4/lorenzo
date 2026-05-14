@@ -8,6 +8,19 @@ status: draft
 
 # Черновик сообщения — Antipozitive (GitHub)
 
+<!-- summary -->
+> > Документ содержит практические рекомендации и лучшие практики.
+**Проекты:** Svyazi, MemNet
+
+---
+
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 **Проекты:** Svyazi, MemNet
 
 ---
@@ -30,3 +43,24 @@ Svyazi и MemNet — один из проектов, которые я расс�
 
 С уважением,
 svend4
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VitaliySemenov_draft](VitaliySemenov_draft.md)
+- [spbmolot_draft](spbmolot_draft.md)
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [VitaliySemenov_draft](VitaliySemenov_draft.md)
+

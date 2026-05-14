@@ -8,7 +8,7 @@ tags:
   - roadmap
   - collaboration
   - svyazi
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Методика и рамка отбора проектов

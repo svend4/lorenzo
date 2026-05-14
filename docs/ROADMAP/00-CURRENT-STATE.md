@@ -9,7 +9,7 @@ state: approved
 **Проекты:** AgentFS, Yodoca, NGT Memory
 
 ---
-<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
+<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 

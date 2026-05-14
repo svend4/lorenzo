@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/HEALTH.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -11,7 +11,7 @@ tags:
   * metrics
   * documentation
   * general
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. Health Dashboard
@@ -104,4 +104,14 @@ _Кто ссылается на этот документ (65):_
 * [[ALERTS]]
 * [[BROKEN_LINKS]]
 * _...ещё 57_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[VALIDATION]]
+* [[METRICS]]
+* [[REPORT]]
 

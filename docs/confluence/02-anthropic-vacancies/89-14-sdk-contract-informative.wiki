@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 14. SDK Contract (Informative)
 
@@ -25,7 +29,12 @@ h2. Contents
 
 
 
-{quote}Reference implementation предоставляет Python SDK ({{nautilus_sdk.py}}).{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (9) Reference implementation предоставляет Python SDK (nautilus_sdk.py).{quote}
+ Похожие документы
+ Смотрите также
+ Кто ссылается на этот документ (9)
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования.{quote}
 
 ----
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ----
 
 h1. The Two-Layer Stack As It Exists
@@ -29,7 +29,19 @@ h1. The Two-Layer Stack As It Exists
 
 
 
-{quote}Currently, AI-collaborative work tends to occur in one of two{quote}
+{quote}_ The problem is what happens between them. _ The Anthropic chat interface (and similar products from other providers) 🎯 Проблема: The problem is what happens between them.{quote}
+ --
+ 
+Содержание
+ The Two-Layer Stack As It Exists
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+The Two-Layer Stack As It Exists
+Currently, AI-collaborat
 
 ----
 

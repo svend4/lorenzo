@@ -1,22 +1,4 @@
----
-date: 2026-05-13
-tags: [self-improve]
-state: raw
----
-
 # Бейджи репозитория
-
-
-<!-- summary -->
-> Текущие бейджи
-!docs —  
-!words —  
-!scripts —  
-!health —  
-!go/no-go —  
-!license —  
-!branch —  
-Использование в README
 
 Автоматически генерируются скриптом `improve_badges.py`.
 

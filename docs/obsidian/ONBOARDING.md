@@ -4,7 +4,7 @@ tags:
   - onboarding
   - docs
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Онбординг — Svyazi 2.0 / Lorenzo
@@ -140,4 +140,15 @@ _Для AI-ассистента: читай `CLAUDE.md` для понимани�
 - [[READING_TIME]]
 - [[README]]
 - _...ещё 3_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[INDEX]]
+- [[FOOTNOTES]]
+- [[TECH_RADAR]]
+- [[PROGRESS]]
 

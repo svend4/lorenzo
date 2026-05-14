@@ -1,6 +1,6 @@
 ---
 date: 2026-05-13
-tags: [rag, orchestration, knowledge, ingestion, self-improve]
+tags: [rag, orchestration, knowledge, ingestion, self-improvement]
 state: approved
 ---
 

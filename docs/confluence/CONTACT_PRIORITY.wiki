@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/CONTACT_PRIORITY.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Приоритет контактов
@@ -71,4 +71,15 @@ _Кто ссылается на этот документ (15):_
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * _...ещё 7_
+
+
+
+
+----
+
+_Смотрите также:_
+* [MINDMAP|MINDMAP.md]
+* [GRAPH|GRAPH.md]
+* [CONTACTS|CONTACTS.md]
+* [NETWORK|NETWORK.md]
 

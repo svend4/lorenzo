@@ -2,7 +2,7 @@
 title: "Индекс цитирования URL"
 tags:
   - general
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # Индекс цитирования URL
@@ -245,4 +245,15 @@ python scripts/improve_citation_index.py
 - [[READING_LIST]]
 - [[READING_TIME]]
 - _...ещё 4_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SPELLCHECK]]
+- [[READING_LIST]]
+- [[LINK_PREVIEW]]
+- [[NAMED_ENTITIES]]
 

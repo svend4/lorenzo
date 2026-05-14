@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-05-13
+date: 2026-05-14
 ---
 
 # 2. Historical Precedents: Agents as Civilizational Innovation
@@ -24,8 +24,8 @@ date: 2026-05-13
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Документ фиксирует ключевые архитектурные или технические решения.
 
 > The pattern of representative agents is ancient and recurring.

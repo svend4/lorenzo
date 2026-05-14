@@ -12,6 +12,19 @@ tags: [architecture, rfc, mcp, write-back, protocol]
 
 # RFC-0003: MCP Write-back Protocol для Svyazi 2.0
 
+<!-- summary -->
+> title: "MCP Write-back Protocol для Svyazi 2.0"
+**Проекты:** Svyazi
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 ## Summary
 
 MCP Write-back Protocol определяет 4 новых инструмента MCP-сервера
@@ -148,3 +161,25 @@ MCP-сервер Svyazi 2.0 изначально был read-only: 11 инстр
 - [RFC-0002: Memory Write Policy](RFC-0002-memory-write-policy-для-svyazi-2-0.md)
 - [PROTOTYPE_SPEC §3.3](../PROTOTYPE_SPEC.md)
 - [MCP сервер](../../scripts/mcp_server.py)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [RFC-0002-memory-write-policy-для-svyazi-2-0](RFC-0002-memory-write-policy-для-svyazi-2-0.md)
+- [RFC-0001-card-envelope-contract](RFC-0001-card-envelope-contract.md)
+- [template](template.md)
+- [GATEWAY](../GATEWAY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+- [RFC-0001-card-envelope-contract](RFC-0001-card-envelope-contract.md)
+- [RFC-0002-memory-write-policy-для-svyazi-2-0](RFC-0002-memory-write-policy-для-svyazi-2-0.md)
+

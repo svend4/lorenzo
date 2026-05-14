@@ -12,6 +12,19 @@ tags: [architecture, rfc, memory, write-policy, mcp]
 
 # RFC-0002: Memory Write Policy для Svyazi 2.0
 
+<!-- summary -->
+> title: "Memory Write Policy для Svyazi 2.0"
+**Проекты:** Svyazi
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 ## Summary
 
 Memory Write Policy определяет четыре типа записи в базу знаний Svyazi 2.0
@@ -103,3 +116,26 @@ written_at: 2026-05-13T10:00:00
 - [RFC-0001: Card Envelope](RFC-0001-card-envelope-contract.md)
 - [PROTOTYPE_SPEC §3.3](../PROTOTYPE_SPEC.md)
 - [11-integration-contracts](../01-svyazi/11-integration-contracts.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [RFC-0003-mcp-write-back-protocol-для-svyazi-2-0](RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md)
+- [RFC-0001-card-envelope-contract](RFC-0001-card-envelope-contract.md)
+- [template](template.md)
+- [card-envelope](../svyazi-2-0/architecture/card-envelope.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+- [RFC-0001-card-envelope-contract](RFC-0001-card-envelope-contract.md)
+- [RFC-0003-mcp-write-back-protocol-для-svyazi-2-0](RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md)
+- [template](template.md)
+

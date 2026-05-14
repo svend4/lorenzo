@@ -1,5 +1,18 @@
 # Card Knowledge Graph — Svyazi 2.0
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, Rufler, Yodoca, MemNet
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 _Сгенерировано: 2026-05-13_
 
 **Узлов:** 1166  **Рёбер:** 18458  **Изолированных:** 1  **Среднее out-degree:** 15.8
@@ -45,3 +58,14 @@ _Сгенерировано: 2026-05-13_
 **memory** (197 карточек): `03-component-catalog`, `components-by-name`, `concepts`
 **ingestion** (161 карточек): `cowork`, `ingit`, `kksudo`
 **roadmap** (157 карточек): `07-section-7-success-metrics`, `223-12-closing`, `146-acknowledgments`
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HOT_CARDS](HOT_CARDS.md)
+- [memnet](svyazi-2-0/components/memnet.md)
+- [cowork](autofilled/components/cowork.md)
+- [ingit](autofilled/components/ingit.md)
+

@@ -1,5 +1,17 @@
 # Еженедельный дайджест — 2026-05-13
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+---
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 _Период: последние 7 дней (с 2026-05-06)_
 
 ## Итого
@@ -52,3 +64,30 @@ fa70dbdd chore: update ORPHANS.md with current orphan count (1563 files checked)
 ---
 
 _Сгенерировано: 2026-05-13 15:12_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [CHANGELOG](CHANGELOG.md)
+- [DENSITY](DENSITY.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [GLOSSARY](GLOSSARY.md)
+- [HEATMAP](HEATMAP.md)
+- [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- _...ещё 9_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
+- [HOT_CARDS](HOT_CARDS.md)
+- [.md](autofilled/components/.md)
+- [cowork](autofilled/components/cowork.md)
+

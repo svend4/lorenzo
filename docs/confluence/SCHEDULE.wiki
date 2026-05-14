@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/SCHEDULE.md}}
-Дата: 2026-05-13
+Дата: 2026-05-14
 {info}
 
 h1. Расписание проекта
@@ -91,4 +91,15 @@ _Кто ссылается на этот документ (9):_
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * _...ещё 1_
+
+
+
+
+----
+
+_Смотрите также:_
+* [SUMMARIES|SUMMARIES.md]
+* [GRAPH|GRAPH.md]
+* [MINDMAP|MINDMAP.md]
+* [COVERAGE|COVERAGE.md]
 
