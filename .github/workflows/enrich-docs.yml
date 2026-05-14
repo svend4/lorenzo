@@ -1,0 +1,147 @@
+# Auto-enrichment workflow: запускает additive (только добавляющие) скрипты
+# обогащения документов и коммитит результат в main.
+#
+# Отделён от docs-update.yml (который занимается metrics + reports) чтобы:
+#   - Тесты могли оставаться "чистыми" (изолированными от продакшен-файлов)
+#   - Enrichment был контролируемым процессом с audit trail и safety gate
+#   - Discovery-контент защищён: safety check отклоняет коммиты где REMOVED > ADDED
+#
+# Запуск: ежедневно в 02:30 UTC + ручной workflow_dispatch
+name: enrich-docs
+
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Только показать diff, не коммитить"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+concurrency:
+  group: enrich-docs-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install minimal deps
+        run: pip install --quiet pyyaml
+
+      # === Additive enrichment scripts ===
+      # Каждый скрипт имеет свой CLI-стиль:
+      #   - see_also: дефолт = apply, --dry-run переключает
+      #   - crosslink_all, auto_linker, subtopic_fill, abstract, auto_toc: дефолт = dry-run, --apply включает
+
+      - name: Add see-also sections
+        run: python scripts/improve_see_also.py
+
+      - name: Add backlinks between docs
+        run: python scripts/improve_crosslink_all.py --apply --keywords
+
+      - name: Auto-link project mentions
+        run: python scripts/improve_auto_linker.py --apply --min-mentions 5
+
+      - name: Fill empty subtopic stubs
+        run: python scripts/improve_subtopic_fill.py --apply
+
+      - name: Add TOC to long files
+        run: python scripts/improve_auto_toc.py --apply --min-headings 2
+
+      - name: Add abstracts where missing
+        run: python scripts/improve_abstract.py --apply
+
+      # === Detect changes ===
+
+      - name: Check what changed
+        id: changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No enrichment changes detected — exiting cleanly"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            CHANGED_FILES=$(git diff --staged --name-only | wc -l)
+            ADDED_LINES=$(git diff --staged --numstat | awk '{s+=$1} END {print s+0}')
+            REMOVED_LINES=$(git diff --staged --numstat | awk '{s+=$2} END {print s+0}')
+            echo "Files changed: $CHANGED_FILES"
+            echo "Lines added: $ADDED_LINES"
+            echo "Lines removed: $REMOVED_LINES"
+            echo "changed_files=$CHANGED_FILES" >> "$GITHUB_OUTPUT"
+            echo "added_lines=$ADDED_LINES" >> "$GITHUB_OUTPUT"
+            echo "removed_lines=$REMOVED_LINES" >> "$GITHUB_OUTPUT"
+          fi
+
+      # === Safety gate: enrichment must be additive ===
+
+      - name: Safety check — protect from destructive enrichment
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          ADDED=${{ steps.changes.outputs.added_lines }}
+          REMOVED=${{ steps.changes.outputs.removed_lines }}
+          # Защита discovery/проектного контента: если удалено сильно больше,
+          # чем добавлено — это аномалия, выходим с ошибкой
+          if [ "$REMOVED" -gt "$ADDED" ] && [ "$REMOVED" -gt 50 ]; then
+            echo "::error::Enrichment removed more lines ($REMOVED) than added ($ADDED). Aborting to protect content."
+            git diff --staged --stat
+            exit 1
+          fi
+          # Дополнительная защита: не более 1000 удалённых строк в одном прогоне
+          if [ "$REMOVED" -gt 1000 ]; then
+            echo "::error::Enrichment removed $REMOVED lines in one run. Suspicious, aborting."
+            git diff --staged --stat | head -20
+            exit 1
+          fi
+          echo "✓ Safety check passed: +$ADDED / -$REMOVED"
+
+      # === Commit + push ===
+
+      - name: Commit enrichment
+        if: steps.changes.outputs.has_changes == 'true' && inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: auto-enrich (see-also, crosslinks, autolinker, toc, abstracts) [skip ci]
+
+          Files changed: ${{ steps.changes.outputs.changed_files }}
+          Lines added: ${{ steps.changes.outputs.added_lines }}
+          Lines removed: ${{ steps.changes.outputs.removed_lines }}
+
+          Scripts run:
+          - improve_see_also.py
+          - improve_crosslink_all.py --apply --keywords
+          - improve_auto_linker.py --apply --min-mentions 5
+          - improve_subtopic_fill.py --apply
+          - improve_auto_toc.py --apply --min-headings 2
+          - improve_abstract.py --apply
+          "
+          git push
+
+      - name: Dry-run summary (no commit)
+        if: steps.changes.outputs.has_changes == 'true' && inputs.dry_run == 'true'
+        run: |
+          echo "## Dry-run: would commit ${{ steps.changes.outputs.changed_files }} files"
+          echo "## +${{ steps.changes.outputs.added_lines }} / -${{ steps.changes.outputs.removed_lines }} lines"
+          git diff --staged --stat
