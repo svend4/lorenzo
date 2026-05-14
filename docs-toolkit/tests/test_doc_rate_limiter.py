@@ -365,3 +365,32 @@ def test_concurrent_allow():
     assert not errors
     st = r.stats()
     assert st.total_allowed + st.total_denied == 100
+
+
+# ---------------------------------------------------------------------------
+# Additional edge cases
+# ---------------------------------------------------------------------------
+
+
+def test_allow_tokens_remaining_in_allow_result():
+    r = _limiter()
+    r.configure("doc:1", capacity=8.0, refill_rate=1.0, now=T0)
+    result = r.allow("doc:1", tokens=3.0, now=T0)
+    assert result.tokens_remaining == 5.0
+
+
+def test_reset_updates_last_refill_at():
+    r = _limiter()
+    r.configure("doc:1", capacity=5.0, refill_rate=1.0, now=T0)
+    r.reset("doc:1", now=T0 + 50.0)
+    rl = r.get_limit("doc:1")
+    assert rl.last_refill_at == T0 + 50.0
+
+
+def test_delete_then_auto_reconfigure_on_allow():
+    r = _limiter()
+    r.configure("doc:1", capacity=3.0, refill_rate=1.0, now=T0)
+    r.delete("doc:1")
+    result = r.allow("doc:1", tokens=1.0, now=T0)
+    assert result.allowed is True
+    assert r.get_limit("doc:1").capacity == 10.0
