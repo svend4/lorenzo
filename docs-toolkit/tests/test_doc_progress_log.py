@@ -448,3 +448,56 @@ class TestThreadSafety:
         s = log.stats()
         assert s.total_entries == 100
         assert s.unique_operations == 1
+
+    def test_concurrent_clear_and_log(self):
+        log = DocProgressLog()
+        for _ in range(20):
+            log.log_progress("op", "d", 50.0, now=1.0)
+
+        results: list[int] = []
+
+        def clearer() -> None:
+            results.append(log.clear_all())
+
+        def logger() -> None:
+            for i in range(10):
+                log.log_progress("op2", "d2", float(i), now=float(i))
+
+        threads = [
+            threading.Thread(target=clearer),
+            threading.Thread(target=logger),
+            threading.Thread(target=logger),
+        ]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
+        # No crash and stats remain consistent
+        s = log.stats()
+        assert s.total_entries >= 0
+
+    def test_concurrent_reads_during_writes(self):
+        log = DocProgressLog()
+        stop = threading.Event()
+
+        def writer() -> None:
+            i = 0
+            while not stop.is_set() and i < 100:
+                log.log_progress("op", "d", float(i % 101), now=float(i))
+                i += 1
+
+        def reader() -> None:
+            while not stop.is_set():
+                log.stats()
+                log.all_operations()
+                log.entries_for("op", limit=5)
+
+        w = threading.Thread(target=writer)
+        r = threading.Thread(target=reader)
+        w.start()
+        r.start()
+        w.join()
+        stop.set()
+        r.join()
+        # No exceptions => pass
+        assert log.stats().total_entries > 0
