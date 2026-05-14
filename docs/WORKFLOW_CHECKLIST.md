@@ -17,6 +17,32 @@ python scripts/verify_all_workflows.py --quick    # без pytest (быстро)
 python scripts/verify_all_workflows.py --only test --json
 ```
 
+## Автоматическое управление историей CI (без UI)
+
+```bash
+# 1. Получить токен (Personal Access Token, permission Actions: Read+Write):
+#    https://github.com/settings/tokens?type=beta
+export GITHUB_TOKEN=ghp_xxx
+
+# 2. Посмотреть что бы удалилось (dry-run):
+python scripts/cleanup_workflow_history.py
+
+# 3. Удалить дубликаты + cancelled старше 7 дней:
+python scripts/cleanup_workflow_history.py --apply
+
+# 4. Запустить test.yml 3 раза подряд на main и замерить стабильность:
+python scripts/rerun_workflows.py test.yml --count 3
+
+# 5. Тестовый прогон enrich-docs в dry-mode:
+python scripts/rerun_workflows.py enrich-docs.yml --count 1 --input dry_run=true
+```
+
+**Workflow для типичной очистки:**
+1. `cleanup_workflow_history.py` (dry-run) → посмотреть план
+2. `cleanup_workflow_history.py --apply` → удалить дубликаты
+3. `rerun_workflows.py test.yml --count 3` → проверить стабильность
+4. Если все 3 прогона ✅ → CI здоров, flake rate 0%
+
 ---
 
 ## Карта workflow'ов
