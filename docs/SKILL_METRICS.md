@@ -65,3 +65,14 @@ _Сгенерировано: 2026-05-13_
 - [HOT_CARDS](HOT_CARDS.md)
 - [KNOWLEDGE_EVOLUTION](KNOWLEDGE_EVOLUTION.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [HOT_CARDS](HOT_CARDS.md)
+- [KNOWLEDGE_EVOLUTION](KNOWLEDGE_EVOLUTION.md)
+- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
+- [READING_TIME](READING_TIME.md)
+

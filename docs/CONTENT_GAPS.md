@@ -1,13 +1,5 @@
 # Тематические пробелы (Content Gaps)
 
-<!-- summary -->
-> Найдено пробелов: **909** (мин. упоминаний: 3)
-**Проекты:** Svyazi
-
----
-
-
-
 _Обновлено: 2026-05-14_
 
 Найдено пробелов: **909** (мин. упоминаний: 3)
@@ -22,7 +14,7 @@ _Обновлено: 2026-05-14_
 | `NPP` | 156 | `docs/obsidian/` |
 | `IDF` | 130 | `docs/obsidian/` |
 | `GDPR` | 126 | `docs/obsidian/` |
-| `HEALTH` | 120 | `docs/obsidian/` |
+| `HEALTH` | 118 | `docs/obsidian/` |
 | `MUST` | 110 | `docs/obsidian/` |
 | `BSL` | 96 | `docs/obsidian/` |
 | `PDF` | 82 | `docs/obsidian/` |
@@ -38,31 +30,31 @@ _Обновлено: 2026-05-14_
 | `MAY` | 52 | `docs/obsidian/` |
 | `YiJing` | 50 | `docs/obsidian/` |
 | `HMP` | 48 | `docs/obsidian/` |
-| `EMEA` | 46 | `docs/obsidian/` |
 | `HIPAA` | 46 | `docs/obsidian/` |
+| `EMEA` | 46 | `docs/obsidian/` |
 | `HTTP` | 44 | `docs/obsidian/` |
 | `AutoGen` | 44 | `docs/obsidian/` |
 | `RLM` | 42 | `docs/obsidian/` |
 | `EIC` | 38 | `docs/obsidian/` |
 | `LangChain` | 38 | `docs/obsidian/` |
-| `CodeWiki` | 34 | `docs/obsidian/` |
 | `OpenWhispr` | 34 | `docs/obsidian/` |
+| `CodeWiki` | 34 | `docs/obsidian/` |
 | `LCI` | 34 | `docs/obsidian/` |
 | `DOCX` | 34 | `docs/obsidian/` |
 | `FAISS` | 32 | `docs/obsidian/` |
 | `BaseAdapter` | 32 | `docs/obsidian/` |
 | `DeepSeek` | 32 | `docs/obsidian/` |
 | `AIRI` | 32 | `docs/obsidian/` |
+| `PageRank` | 32 | `docs/obsidian/` |
 | `CardStore` | 32 | `docs/obsidian/` |
 | `ChatDev` | 30 | `docs/obsidian/` |
-| `PageRank` | 30 | `docs/obsidian/` |
 | `III` | 28 | `docs/obsidian/` |
 | `NNNN` | 27 | `docs/obsidian/` |
 | `IBM` | 26 | `docs/obsidian/` |
-| `Composite Skills Agents` | 26 | `docs/obsidian/` |
+| `Composite Skills Agents` | 26 | `docs/nautilus/` |
 | `Professional Colleague Agents (EN)` | 26 | `docs/nautilus/` |
-| `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/obsidian/` |
-| `Representative Agent Layer (EN)` | 26 | `docs/nautilus/` |
+| `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/nautilus/` |
+| `Representative Agent Layer (EN)` | 26 | `docs/obsidian/` |
 | `Representative Agent Layer (RU)` | 26 | `docs/nautilus/` |
 | `STDP` | 24 | `docs/obsidian/` |
 | `CRM` | 24 | `docs/obsidian/` |
@@ -119,7 +111,7 @@ _Обновлено: 2026-05-14_
 
 Создать: `docs/obsidian/gdpr.md`
 
-### `HEALTH` (120 файлов)
+### `HEALTH` (118 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/QA.md`
@@ -127,7 +119,7 @@ _Обновлено: 2026-05-14_
 - `docs/03-technology-combinations/QA.md`
 - `docs/04-ai-collaborations/QA.md`
 - `docs/05-habr-projects/QA.md`
-- ... и ещё 115 файлах
+- ... и ещё 113 файлах
 
 Создать: `docs/obsidian/health.md`
 
@@ -310,15 +302,4 @@ _Обновлено: 2026-05-14_
 - ... и ещё 43 файлах
 
 Создать: `docs/obsidian/hmp.md`
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CLUSTERS](CLUSTERS.md)
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [READING_ORDER](READING_ORDER.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
 

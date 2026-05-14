@@ -5,6 +5,11 @@
 
 h1. Отчёт о дублировании
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 Порог сходства: _0.5_  
 Точных дублей: _0_  
 Похожих пар: _938_
@@ -360,3 +365,30 @@ _Примеры совпадений:_
 _...и ещё 908 пар._
 
 {quote}Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.{quote}
+
+
+
+----
+
+_Смотрите также:_
+* [TOPIC_MODEL|TOPIC_MODEL.md]
+* [VERSION_DIFF|VERSION_DIFF.md]
+* [antipozitive|letters/antipozitive.md]
+* [WORD_FREQ|WORD_FREQ.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (18):_
+* [02-methodology|01-svyazi/02-methodology.md]
+* [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]
+* [02-методика-и-рамка-отбора|04-ai-collaborations/02-методика-и-рамка-отбора.md]
+* [CONCEPTS|CONCEPTS.md]
+* [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
+* [LLM_SUMMARIES|LLM_SUMMARIES.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* _...ещё 10_
+

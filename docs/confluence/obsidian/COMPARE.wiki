@@ -96,3 +96,14 @@ h2. Изменившиеся файлы (482) — топ по Δ слов
 || `Sonia_Black_draft.md` || 115 || 180 || +65 ||
 || `VitaliySemenov_draft.md` || 118 || 183 || +65 ||
 || `ensemble.md` || 181 || 246 || +65 ||
+
+
+
+----
+
+_Кто ссылается на этот документ (4):_
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+

@@ -54,3 +54,16 @@ svend4
 - [VladSpace_draft](VladSpace_draft.md)
 - [nlaik_draft](nlaik_draft.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [Cutcode_draft](Cutcode_draft.md)
+- [Dmitriila_draft](Dmitriila_draft.md)
+- [VladSpace_draft](VladSpace_draft.md)
+- [nlaik_draft](nlaik_draft.md)
+

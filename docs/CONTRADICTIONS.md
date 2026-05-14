@@ -1,16 +1,8 @@
 # Противоречия в базе знаний
 
-<!-- summary -->
-> Утверждений: **86150** | Противоречий: **9399**
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
-
----
-
-
-
 _Обновлено: 2026-05-14_
 
-Утверждений: **86150** | Противоречий: **9399**
+Утверждений: **86230** | Противоречий: **9439**
 
 > Автоматический поиск без LLM — возможны ложные срабатывания.
 
@@ -375,15 +367,4 @@ _Обновлено: 2026-05-14_
 > 216 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
 
 ---
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [proposal-01-synthesis-x-wikontic](04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md)
-- [proposal-mclaude-x-rufler](04-ai-collaborations/proposals/proposal-mclaude-x-rufler.md)
-- [proposal-agentfs-x-agent-memory-mcp](04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md)
-- [proposal-knowledge-space-x-ngt-memory](04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md)
 

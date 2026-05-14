@@ -151,3 +151,14 @@ graph TD
 | `через` | 252 | 4019 | other |
 | `agent` | 362 | 3667 | agent |
 | `readme` | 314 | 3541 | other |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

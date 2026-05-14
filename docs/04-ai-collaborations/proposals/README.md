@@ -33,3 +33,18 @@ _Обновлено: 2026-05-13_
 - [Proposal: Wikontic × Memnet](proposal-wikontic-x-memnet.md)
 - [Proposal: Wikontic × Ngt-Memory](proposal-wikontic-x-ngt-memory.md)
 - [Proposal: Wikontic × Yodoca](proposal-wikontic-x-yodoca.md)
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (24):**
+- [README](README.md)
+- [proposal-01-synthesis-x-wikontic](proposal-01-synthesis-x-wikontic.md)
+- [proposal-01-synthesis-x-yodoca](proposal-01-synthesis-x-yodoca.md)
+- [proposal-agentfs-x-agent-memory-mcp](proposal-agentfs-x-agent-memory-mcp.md)
+- [proposal-agentfs-x-mclaude](proposal-agentfs-x-mclaude.md)
+- [proposal-agentfs-x-memnet](proposal-agentfs-x-memnet.md)
+- [proposal-agentfs-x-rufler](proposal-agentfs-x-rufler.md)
+- [proposal-agentfs-x-yodoca](proposal-agentfs-x-yodoca.md)
+- _...ещё 16_
+

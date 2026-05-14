@@ -62,28 +62,28 @@ _Проекты:_ Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, 
 || 39 || 🟡 Средний || [Дорожная карта прототипа следующей итерации](04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) || 885 || — ||
 || 40 || 🟡 Средний || [Контактная стратегия и узкие вопросы для авто](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) || 981 || — ||
 || 41 || 🔴 Продвинутый || [Ограничения, лицензии и что пока лучше не скл](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) || 3407 || — ||
-|| 42 || 🟡 Средний || [Proposal: Knowledge-Space × Mclaude](04-ai-collaborations/proposals/proposal-knowledge-space-x-mclaude.md) || 267 || — ||
-|| 43 || 🟡 Средний || [Proposal: Agentfs × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md) || 265 || — ||
-|| 44 || 🟡 Средний || [Proposal: Wikontic × Yodoca](04-ai-collaborations/proposals/proposal-wikontic-x-yodoca.md) || 266 || — ||
-|| 45 || 🟡 Средний || [Proposal: Research-Docs-Liteparse × Agentfs](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md) || 272 || — ||
-|| 46 || 🟡 Средний || [Proposal: Agentfs × Yodoca](04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md) || 266 || — ||
-|| 47 || 🟡 Средний || [Proposal: Wikontic × Memnet](04-ai-collaborations/proposals/proposal-wikontic-x-memnet.md) || 263 || — ||
-|| 48 || 🟡 Средний || [Proposal: Knowledge-Space × Ngt-Memory](04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md) || 264 || — ||
-|| 49 || 🟡 Средний || [Proposal: Research-Docs-Liteparse × Agent-Mem](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md) || 268 || — ||
-|| 50 || 🟡 Средний || [Proposal: Agentfs × Rufler](04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md) || 268 || — ||
-|| 51 || 🟡 Средний || [Proposal: Knowledge-Space × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md) || 264 || — ||
-|| 52 || 🟡 Средний || [Proposal: Wikontic × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-wikontic-x-agent-memory-mcp.md) || 264 || — ||
-|| 53 || 🟡 Средний || [Proposal: Rufler × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-rufler-x-agent-memory-mcp.md) || 262 || — ||
-|| 54 || 🟡 Средний || [Proposal: 01-Synthesis × Wikontic](04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md) || 259 || — ||
-|| 55 || 🟡 Средний || [Proposal: Agentfs × Mclaude](04-ai-collaborations/proposals/proposal-agentfs-x-mclaude.md) || 268 || — ||
-|| 56 || 🟡 Средний || [Proposal: Mclaude × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-mclaude-x-agent-memory-mcp.md) || 262 || — ||
-|| 57 || 🟡 Средний || [Proposal: Knowledge-Space × Yodoca](04-ai-collaborations/proposals/proposal-knowledge-space-x-yodoca.md) || 265 || — ||
-|| 58 || 🟡 Средний || [Proposal: 01-Synthesis × Yodoca](04-ai-collaborations/proposals/proposal-01-synthesis-x-yodoca.md) || 259 || — ||
-|| 59 || 🟡 Средний || [Proposal: Wikontic × Ngt-Memory](04-ai-collaborations/proposals/proposal-wikontic-x-ngt-memory.md) || 265 || — ||
-|| 60 || 🟡 Средний || [Proposal: Mclaude × Rufler](04-ai-collaborations/proposals/proposal-mclaude-x-rufler.md) || 261 || — ||
-|| 61 || 🟡 Средний || [Proposal: Research-Docs-Liteparse × Knowledge](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md) || 272 || — ||
-|| 62 || 🟡 Средний || [Proposal: Agentfs × Memnet](04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md) || 263 || — ||
-|| 63 || 🟡 Средний || [Proposal: Knowledge-Space × Rufler](04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md) || 267 || — ||
+|| 42 || 🟡 Средний || [Proposal: Knowledge-Space × Mclaude](04-ai-collaborations/proposals/proposal-knowledge-space-x-mclaude.md) || 305 || — ||
+|| 43 || 🟡 Средний || [Proposal: Agentfs × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md) || 308 || — ||
+|| 44 || 🟡 Средний || [Proposal: Wikontic × Yodoca](04-ai-collaborations/proposals/proposal-wikontic-x-yodoca.md) || 309 || — ||
+|| 45 || 🟡 Средний || [Proposal: Research-Docs-Liteparse × Agentfs](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md) || 306 || — ||
+|| 46 || 🟡 Средний || [Proposal: Agentfs × Yodoca](04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md) || 304 || — ||
+|| 47 || 🟡 Средний || [Proposal: Wikontic × Memnet](04-ai-collaborations/proposals/proposal-wikontic-x-memnet.md) || 295 || — ||
+|| 48 || 🟡 Средний || [Proposal: Knowledge-Space × Ngt-Memory](04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md) || 307 || — ||
+|| 49 || 🟡 Средний || [Proposal: Research-Docs-Liteparse × Agent-Mem](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md) || 302 || — ||
+|| 50 || 🟡 Средний || [Proposal: Agentfs × Rufler](04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md) || 304 || — ||
+|| 51 || 🟡 Средний || [Proposal: Knowledge-Space × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md) || 307 || — ||
+|| 52 || 🟡 Средний || [Proposal: Wikontic × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-wikontic-x-agent-memory-mcp.md) || 307 || — ||
+|| 53 || 🟡 Средний || [Proposal: Rufler × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-rufler-x-agent-memory-mcp.md) || 294 || — ||
+|| 54 || 🟡 Средний || [Proposal: 01-Synthesis × Wikontic](04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md) || 299 || — ||
+|| 55 || 🟡 Средний || [Proposal: Agentfs × Mclaude](04-ai-collaborations/proposals/proposal-agentfs-x-mclaude.md) || 304 || — ||
+|| 56 || 🟡 Средний || [Proposal: Mclaude × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-mclaude-x-agent-memory-mcp.md) || 294 || — ||
+|| 57 || 🟡 Средний || [Proposal: Knowledge-Space × Yodoca](04-ai-collaborations/proposals/proposal-knowledge-space-x-yodoca.md) || 308 || — ||
+|| 58 || 🟡 Средний || [Proposal: 01-Synthesis × Yodoca](04-ai-collaborations/proposals/proposal-01-synthesis-x-yodoca.md) || 297 || — ||
+|| 59 || 🟡 Средний || [Proposal: Wikontic × Ngt-Memory](04-ai-collaborations/proposals/proposal-wikontic-x-ngt-memory.md) || 303 || — ||
+|| 60 || 🟡 Средний || [Proposal: Mclaude × Rufler](04-ai-collaborations/proposals/proposal-mclaude-x-rufler.md) || 304 || — ||
+|| 61 || 🟡 Средний || [Proposal: Research-Docs-Liteparse × Knowledge](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md) || 306 || — ||
+|| 62 || 🟡 Средний || [Proposal: Agentfs × Memnet](04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md) || 295 || — ||
+|| 63 || 🟡 Средний || [Proposal: Knowledge-Space × Rufler](04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md) || 305 || — ||
 || 64 || 🟢 Начало || [Агентные системы и роутинг](03-technology-combinations/01-agent-routing.md) || 500 || — ||
 || 65 || 🟢 Начало || [Графы знаний и Legal AI](03-technology-combinations/02-knowledge-graphs.md) || 914 || — ||
 || 66 || 🟢 Начало || [Local-first и P2P стек](03-technology-combinations/03-local-first.md) || 683 || — ||
@@ -483,14 +483,14 @@ _Смотрите также:_
 
 ----
 
-_Кто ссылается на этот документ (14):_
+_Кто ссылается на этот документ (33):_
 * [README|02-anthropic-vacancies/README.md]
-* [CLUSTERS|CLUSTERS.md]
-* [COMPARE|COMPARE.md]
-* [CONTENT_GAPS|CONTENT_GAPS.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* _...ещё 6_
+* [proposal-01-synthesis-x-wikontic|04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md]
+* [proposal-01-synthesis-x-yodoca|04-ai-collaborations/proposals/proposal-01-synthesis-x-yodoca.md]
+* [proposal-agentfs-x-agent-memory-mcp|04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md]
+* [proposal-agentfs-x-mclaude|04-ai-collaborations/proposals/proposal-agentfs-x-mclaude.md]
+* [proposal-agentfs-x-memnet|04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md]
+* [proposal-agentfs-x-rufler|04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md]
+* [proposal-agentfs-x-yodoca|04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md]
+* _...ещё 25_
 

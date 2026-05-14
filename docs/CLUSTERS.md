@@ -1,18 +1,10 @@
 # Кластеры тематически близких файлов
 
-<!-- summary -->
-> Метод: TF-IDF + косинусное сходство (порог 0.15)
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, Yodoca, MemNet, agent-memory-mcp
-
----
-
-
-
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
-Документов: 2364, кластеров: 186
+Документов: 2364, кластеров: 185
 
 
-## Кластер 1 — концептов, репозитория, поиска, через (347 файлов)
+## Кластер 1 — концептов, репозитория, поиска, через (348 файлов)
 
 - `docs/01-svyazi/00-intro-part2.md` — _00-intro-part2_
 - `docs/02-anthropic-vacancies/120-главные-технические-риски.md` — _120-главные-технические-риски_
@@ -24,9 +16,9 @@
 - `docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md` — _298-что-этот-документ-не-решает_
 - `docs/02-anthropic-vacancies/345-кто-ты.md` — _345-кто-ты_
 - `docs/02-anthropic-vacancies/346-твоё-происхождение.md` — _346-твоё-происхождение_
-- _...и ещё 337 файлов_
+- _...и ещё 338 файлов_
 
-## Кластер 2 — turn, view, agentfs, svyazi (95 файлов)
+## Кластер 2 — turn, view, agentfs, svyazi (96 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md` — _01-executive-summary_
 - `docs/01-svyazi/07-mvp-planning.md` — _07-mvp-planning_
@@ -38,7 +30,7 @@
 - `docs/04-ai-collaborations/00-intro.md` — _00-intro_
 - `docs/04-ai-collaborations/01-executive-summary.md` — _01-executive-summary_
 - `docs/04-ai-collaborations/04-приоритетные-ансамбли.md` — _04-приоритетные-ансамбли_
-- _...и ещё 85 файлов_
+- _...и ещё 86 файлов_
 
 ## Кластер 3 — cowork, ingit, project, mcp (84 файлов)
 
@@ -54,7 +46,7 @@
 - `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` — _323-appendix-c-sample-ingit-mcp-server-tool-specificat_
 - _...и ещё 74 файлов_
 
-## Кластер 4 — com, https, articles, habr (71 файлов)
+## Кластер 4 — com, https, articles, habr (70 файлов)
 
 - `docs/05-habr-projects/memory/memnet.md` — _memnet_
 - `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
@@ -66,7 +58,7 @@
 - `docs/ai-collaborations/candidates/01-three-key-candidates.md` — _01-three-key-candidates_
 - `docs/ai-collaborations/source-projects.md` — _source-projects_
 - `docs/habr-unique-projects/analogues/01-three-direct-analogues.md` — _01-three-direct-analogues_
-- _...и ещё 61 файлов_
+- _...и ещё 60 файлов_
 
 ## Кластер 5 — turn, view, citeturn, cite (64 файлов)
 
@@ -138,7 +130,7 @@
 - `docs/02-anthropic-vacancies/268-references.md` — _268-references_
 - _...и ещё 44 файлов_
 
-## Кластер 10 — card, proposal, wikontic, agent-memory-mcp (52 файлов)
+## Кластер 10 — card, proposal, wikontic, agent-memory-mcp (54 файлов)
 
 - `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md` — _proposal-01-synthesis-x-wikontic_
 - `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-yodoca.md` — _proposal-01-synthesis-x-yodoca_
@@ -150,7 +142,7 @@
 - `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md` — _proposal-knowledge-space-x-ngt-memory_
 - `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md` — _proposal-knowledge-space-x-rufler_
 - `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-yodoca.md` — _proposal-knowledge-space-x-yodoca_
-- _...и ещё 42 файлов_
+- _...и ещё 44 файлов_
 
 ## Кластер 11 — compatibility-level, level, native-format, compatibility (51 файлов)
 
@@ -362,7 +354,21 @@
 - `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` — _00-question-voiceless_
 - _...и ещё 16 файлов_
 
-## Кластер 26 — docs, autofilled, components, anthropic-vacancies (21 файлов)
+## Кластер 26 — draft, svyazi, core-компонент, коллаборации (25 файлов)
+
+- `docs/DIGEST_AUTO.md` — _DIGEST_AUTO_
+- `docs/KNOWLEDGE_EVOLUTION.md` — _KNOWLEDGE_EVOLUTION_
+- `docs/PROGRESS.md` — _PROGRESS_
+- `docs/REGISTRY.md` — _REGISTRY_
+- `docs/SKILL_METRICS.md` — _SKILL_METRICS_
+- `docs/contacts/Antipozitive_draft.md` — _Antipozitive_draft_
+- `docs/contacts/MiXaiLL76_draft.md` — _MiXaiLL76_draft_
+- `docs/contacts/VitaliySemenov_draft.md` — _VitaliySemenov_draft_
+- `docs/contacts/VitalyOborin_draft.md` — _VitalyOborin_draft_
+- `docs/contacts/kksudo_draft.md` — _kksudo_draft_
+- _...и ещё 15 файлов_
+
+## Кластер 27 — docs, autofilled, components, anthropic-vacancies (21 файлов)
 
 - `docs/AUTOFILLED.md` — _AUTOFILLED_
 - `docs/CROSS_SECTION.md` — _CROSS_SECTION_
@@ -376,7 +382,7 @@
 - `docs/contacts/dmitriila.md` — _dmitriila_
 - _...и ещё 11 файлов_
 
-## Кластер 27 — двухслойный-стек-как-он-существует, что-отсутствует-слой-b, практические-рекомендации-для-текущего-проекта, конкретный-случай-перед-нами (20 файлов)
+## Кластер 28 — двухслойный-стек-как-он-существует, что-отсутствует-слой-b, практические-рекомендации-для-текущего-проекта, конкретный-случай-перед-нами (20 файлов)
 
 - `docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md` — _291-двухслойный-стек-как-он-существует_
 - `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` — _292-что-отсутствует-слой-b_
@@ -390,7 +396,7 @@
 - `docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md` — _06-konkretnyy-sluchay_
 - _...и ещё 10 файлов_
 
-## Кластер 28 — благодарности, ingit-как-cowork-интегрированная-подложка-рабочего, профессиональные-коллеги-агенты, инфраструктура-для-ai-совместной-интеллектуальной- (19 файлов)
+## Кластер 29 — благодарности, ingit-как-cowork-интегрированная-подложка-рабочего, профессиональные-коллеги-агенты, инфраструктура-для-ai-совместной-интеллектуальной- (19 файлов)
 
 - `docs/02-anthropic-vacancies/203-благодарности.md` — _203-благодарности_
 - `docs/02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md` — _205-приложение-a-связь-с-сопроводительными-статьями_
@@ -404,7 +410,7 @@
 - `docs/02-anthropic-vacancies/337-благодарности.md` — _337-благодарности_
 - _...и ещё 9 файлов_
 
-## Кластер 29 — router, комбинация, durable, event (18 файлов)
+## Кластер 30 — router, комбинация, durable, event (18 файлов)
 
 - `docs/03-technology-combinations/01-agent-routing.md` — _01-agent-routing_
 - `docs/03-technology-combinations/02-knowledge-graphs.md` — _02-knowledge-graphs_
@@ -418,29 +424,4 @@
 - `docs/obsidian/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md` — _01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern_
 - _...и ещё 8 файлов_
 
-## Кластер 30 — draft, svyazi, vladspace, antipozitive (17 файлов)
-
-- `docs/AUTHORS.md` — _AUTHORS_
-- `docs/CONTACT_PRIORITY.md` — _CONTACT_PRIORITY_
-- `docs/DIGEST_AUTO.md` — _DIGEST_AUTO_
-- `docs/contacts/AnastasiyaW_draft.md` — _AnastasiyaW_draft_
-- `docs/contacts/Sonia_Black_draft.md` — _Sonia_Black_draft_
-- `docs/contacts/anastasiyaw.md` — _anastasiyaw_
-- `docs/contacts/andrey-chuyan.md` — _andrey-chuyan_
-- `docs/contacts/andrey_chuyan_draft.md` — _andrey_chuyan_draft_
-- `docs/contacts/kksudo.md` — _kksudo_
-- `docs/contacts/sonia-black.md` — _sonia-black_
-- _...и ещё 7 файлов_
-
-_...и ещё 156 малых кластеров (по 1-2 файла)_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [READING_ORDER](READING_ORDER.md)
-- [PROMOTE_LOG](PROMOTE_LOG.md)
-- [SOURCE_MAP](SOURCE_MAP.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
-
+_...и ещё 155 малых кластеров (по 1-2 файла)_

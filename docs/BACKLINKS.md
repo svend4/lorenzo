@@ -1,23 +1,15 @@
 # Индекс обратных ссылок
 
-<!-- summary -->
-> **Файлов с входящими ссылками:** 2831
-**Проекты:** Svyazi, MemNet
-
----
-
-
-
-**Файлов с входящими ссылками:** 2831
+**Файлов с входящими ссылками:** 2833
 
 ## Топ-30 самых цитируемых документов
 
 | Документ | Входящих ссылок | Ссылающиеся файлы |
 |----------|----------------|-------------------|
+| `READING_TIME` | 719 | `02-methodology.md`, `06-security-privacy.md`, `QA.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +715 |
 | `READABILITY` | 709 | `00-intro-part2.md`, `02-methodology.md`, `06-security-privacy.md`, `QA.md` +705 |
-| `READING_TIME` | 690 | `02-methodology.md`, `06-security-privacy.md`, `QA.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +686 |
 | `OUTLINE` | 680 | `00-intro-part2.md`, `02-methodology.md`, `06-security-privacy.md`, `08-conclusions.md` +676 |
-| `SEARCH` | 675 | `02-methodology.md`, `06-security-privacy.md`, `QA.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +671 |
+| `SEARCH` | 674 | `02-methodology.md`, `06-security-privacy.md`, `QA.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +670 |
 | `TABLES` | 461 | `00-intro-part2.md`, `03-component-catalog.md`, `06-security-privacy.md`, `QA.md` +457 |
 | `README` | 335 | `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md`, `03-portal-protocol-md.md` +331 |
 | `README` | 289 | `QA.md`, `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md` +285 |
@@ -50,28 +42,28 @@
 | Раздел | Входящих | Исходящих |
 |--------|----------|-----------|
 | **.claude** | 28 | 0 |
-| **01-svyazi** | 388 | 183 |
+| **01-svyazi** | 386 | 183 |
 | **02-anthropic-vacancies** | 7108 | 4972 |
 | **03-technology-combinations** | 99 | 61 |
-| **04-ai-collaborations** | 442 | 289 |
+| **04-ai-collaborations** | 494 | 372 |
 | **05-habr-projects** | 276 | 162 |
 | **ROADMAP** | 49 | 44 |
 | **ai-collaborations** | 323 | 374 |
 | **anthropic-vacancies** | 1272 | 1396 |
-| **autofilled** | 245 | 206 |
+| **autofilled** | 246 | 206 |
 | **badges** | 11 | 7 |
-| **contacts** | 327 | 244 |
+| **contacts** | 347 | 280 |
 | **glossary** | 204 | 214 |
 | **habr-unique-projects** | 640 | 657 |
-| **letters** | 105 | 113 |
-| **lorenzo-agent** | 649 | 806 |
+| **letters** | 106 | 113 |
+| **lorenzo-agent** | 648 | 806 |
 | **meta-scripting** | 72 | 90 |
-| **nautilus** | 2631 | 3155 |
-| **obsidian** | 6538 | 170 |
+| **nautilus** | 2632 | 3155 |
+| **obsidian** | 6539 | 170 |
 | **processing-guide** | 163 | 149 |
-| **rfcs** | 20 | 28 |
-| **root** | 5231 | 13502 |
+| **rfcs** | 24 | 34 |
+| **root** | 5296 | 13518 |
 | **scripts** | 3 | 0 |
-| **svyazi-2-0** | 713 | 699 |
+| **svyazi-2-0** | 712 | 699 |
 | **technology-combinations** | 662 | 609 |
 | **templates** | 194 | 263 |

@@ -52,3 +52,14 @@ python scripts/improve_rfc_tracker.py --new "Название RFC" --author "В�
 - [RFC-0002: Memory Write Policy для Svyazi 2.0](RFC-0002-memory-write-policy-для-svyazi-2-0.md)
 - [RFC-0003: MCP Write-back Protocol для Svyazi 2.0](RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md)
 <!-- rfc-index-end -->
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READING_TIME](../READING_TIME.md)
+- [RFC-0001-card-envelope-contract](RFC-0001-card-envelope-contract.md)
+- [RFC-0002-memory-write-policy-для-svyazi-2-0](RFC-0002-memory-write-policy-для-svyazi-2-0.md)
+- [RFC-0003-mcp-write-back-protocol-для-svyazi-2-0](RFC-0003-mcp-write-back-protocol-для-svyazi-2-0.md)
+

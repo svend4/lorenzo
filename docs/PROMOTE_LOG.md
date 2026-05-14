@@ -2191,3 +2191,13 @@
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [CLUSTERS](CLUSTERS.md)
+- [READING_ORDER](READING_ORDER.md)
+- [READING_TIME](READING_TIME.md)
+

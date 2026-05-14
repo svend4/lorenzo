@@ -380,3 +380,14 @@ _B:_ {{docs/04-ai-collaborations/proposals/proposal-wikontic-x-ngt-memory.md}}
 
 ----
 
+
+
+
+----
+
+_Кто ссылается на этот документ (4):_
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+

@@ -1,5 +1,10 @@
 # Автодайджест изменений
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Период: 2026-05-07 — 2026-05-14 (7 дней)_
 **Проекты:** Svyazi
@@ -105,4 +110,20 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 - [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (29):**
+- [DIGEST](DIGEST.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
+- [OUTLINE](OUTLINE.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 21_
 
