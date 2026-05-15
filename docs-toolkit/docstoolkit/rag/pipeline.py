@@ -85,7 +85,10 @@ class RAGPipeline:
                  with_negotiation: bool = False,
                  negotiation_budget: int = 5,
                  personality: object = None,
-                 learning_queue: object = None):
+                 learning_queue: object = None,
+                 memory: object = None,
+                 memory_top_k: int = 3,
+                 fusion: object = None):
         self.query = query
         self.profile = profile
         self.retriever = Retriever(method=query.method, model=query.model)
@@ -109,10 +112,27 @@ class RAGPipeline:
         self.negotiation_budget = negotiation_budget
         self.personality = personality
         self.learning_queue = learning_queue
+        self.memory = memory
+        self.memory_top_k = memory_top_k
+        self.fusion = fusion
+        if fusion is not None and hasattr(fusion, "search"):
+            # Replace retriever with a fusion-aware one
+            # (caller must wrap FusedRetriever in a `.search()` adapter)
+            self.retriever = fusion
         self.answerer = get_answerer(query.answerer, **{})
 
     def run(self) -> AnswerResult:
         t0 = time.time()
+
+        # 0. Memory recall (Sprint 74 / I5)
+        memory_context: list = []
+        if self.memory is not None:
+            try:
+                memory_context = self.memory.recall_search(
+                    self.query.question, top_k=self.memory_top_k,
+                )
+            except Exception:
+                memory_context = []
 
         # 1. Retrieve (over-fetch when reranking OR filtering so we have room)
         boost = 1
@@ -274,6 +294,14 @@ class RAGPipeline:
             except Exception:
                 got_out = None
 
+        # 6b. Update memory with the user turn + assistant reply (Sprint 74 / I5)
+        if self.memory is not None and answer_text:
+            try:
+                self.memory.add_interaction("user", self.query.question)
+                self.memory.add_interaction("assistant", answer_text)
+            except Exception:
+                pass
+
         # 7. Active learning auto-enqueue (Sprint 73 / M6)
         if self.learning_queue is not None and passages:
             try:
@@ -341,7 +369,10 @@ def ask(question: str, *,
         with_negotiation: bool = False,
         negotiation_budget: int = 5,
         personality: object = None,
-        learning_queue: object = None) -> AnswerResult:
+        learning_queue: object = None,
+        memory: object = None,
+        memory_top_k: int = 3,
+        fusion: object = None) -> AnswerResult:
     """Удобная обёртка для one-shot запроса.
 
     Per-user personalization (Sprint 54 / S6):
@@ -476,6 +507,9 @@ def ask(question: str, *,
             negotiation_budget=negotiation_budget,
             personality=personality,
             learning_queue=learning_queue,
+            memory=memory,
+            memory_top_k=memory_top_k,
+            fusion=fusion,
         ).run()
     if eval_runner is not None:
         try:
