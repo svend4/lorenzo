@@ -62,6 +62,15 @@ with no regressions. Roadmap coverage: 35 / 35 items (100%).
 **Docs:** `PROFILES.md` (composition guide), `ROADMAP_EXECUTION.md`
 (step-by-step plan for every roadmap item).
 
+**Examples:** `examples/composition/01-08*.py` — eight self-contained runnable
+demos covering baseline, personalization, quality, reasoning, advanced,
+Path C, standalone helpers, and full-stack (all 17 features in one `ask()`).
+
+**Benchmarks:** new `ask_features` and `helpers` suites in `bench.runner`
+(10 + 3 benches over stubbed Retriever/Answerer to isolate per-feature
+overhead). Results tracked in `bench/BENCHMARKS.md`; CI regression check
+in `.github/workflows/benchmark.yml` now covers all suites.
+
 ## [0.2.0] - 2026-05-13
 
 ### Added
