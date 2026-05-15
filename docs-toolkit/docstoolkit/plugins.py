@@ -37,6 +37,9 @@ SUPPORTED_GROUPS = [
     "docstoolkit.embeddings",
     "docstoolkit.tasks",
     "docstoolkit.commands",
+    # Phase VII additions (PLUGIN_CONTRACT.md §2.1+2.2)
+    "docstoolkit.retrievers",
+    "docstoolkit.answerers",
 ]
 
 
