@@ -26,6 +26,7 @@ from docstoolkit.online_eval.runner import (
     OnlineEvalStore,
     OnlineEvalRunner,
 )
+from docstoolkit.online_eval.dashboard import render_dashboard
 
 __all__ = [
     "OnlineEvalSampler",
@@ -33,4 +34,5 @@ __all__ = [
     "OnlineEvalRunner",
     "OnlineEvalRun",
     "DriftReport",
+    "render_dashboard",
 ]

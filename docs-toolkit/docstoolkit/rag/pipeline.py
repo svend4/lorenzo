@@ -11,17 +11,39 @@ from docstoolkit.rag.answerer import get_answerer
 class RAGPipeline:
     """Конфигурируемый pipeline RAG."""
 
-    def __init__(self, query: RAGQuery):
+    def __init__(self, query: RAGQuery, profile=None, reranker=None,
+                 rerank_top_k: int | None = None):
         self.query = query
+        self.profile = profile
         self.retriever = Retriever(method=query.method, model=query.model)
+        if profile is not None:
+            from docstoolkit.conversation.profile import PersonalizedRetriever
+            self.retriever = PersonalizedRetriever(self.retriever, profile)
+        self.reranker = reranker
+        self.rerank_top_k = rerank_top_k
         self.answerer = get_answerer(query.answerer, **{})
 
     def run(self) -> AnswerResult:
         t0 = time.time()
 
-        # 1. Retrieve
+        # 1. Retrieve (over-fetch when reranking so the reranker can choose)
+        retrieve_k = (
+            max(self.query.top_k, (self.rerank_top_k or self.query.top_k) * 3)
+            if self.reranker is not None
+            else self.query.top_k
+        )
         passages = self.retriever.search(self.query.question,
-                                          top_k=self.query.top_k)
+                                          top_k=retrieve_k)
+
+        # 1b. Rerank
+        if self.reranker is not None and passages:
+            from docstoolkit.rerank.reranker import rerank as _rerank
+            passages = _rerank(
+                self.query.question,
+                passages,
+                self.reranker,
+                top_k=self.query.top_k,
+            )
 
         if not passages:
             return AnswerResult(
@@ -81,8 +103,39 @@ def ask(question: str, *,
         top_k: int = 5,
         method: str = "hybrid",
         answerer: str = "echo",
-        model: str = "claude-haiku-4-5-20251001") -> AnswerResult:
-    """Удобная обёртка для one-shot запроса."""
+        model: str = "claude-haiku-4-5-20251001",
+        user_id: str = "",
+        profile=None,
+        eval_runner=None,
+        reranker=None) -> AnswerResult:
+    """Удобная обёртка для one-shot запроса.
+
+    Per-user personalization (Sprint 54 / S6):
+      - `user_id` non-empty → ProfileStore.load(user_id) и personalized retrieval.
+      - `profile` overrides ProfileStore lookup (useful for tests).
+      - Caller-provided `method` всегда побеждает `profile.preferred_retriever`.
+
+    Continuous online eval (Sprint 56 / M5):
+      - `eval_runner=OnlineEvalRunner(...)` → каждый запрос проходит через sampler,
+        попавшие в выборку сравниваются с golden dataset и пишутся в SQLite.
+
+    Cross-encoder reranking (Sprint 59 / M2):
+      - `reranker=get_reranker("bge")` (или "tfidf"/"llm"/"noop") применяется
+        после первичного retrieval. Pipeline сам берёт top_k*3 кандидатов
+        и режет до top_k после реранкинга.
+    """
+    explicit_method = method
+    resolved_profile = profile
+    if user_id and resolved_profile is None:
+        from docstoolkit.conversation.profile import ProfileStore
+        store = ProfileStore()
+        try:
+            resolved_profile = store.load(user_id)
+        finally:
+            store.close()
+    if resolved_profile is not None and explicit_method == "hybrid":
+        # Default only — honour profile's preferred_retriever.
+        method = resolved_profile.preferred_retriever or method
     query = RAGQuery(
         question=question,
         top_k=top_k,
@@ -90,4 +143,28 @@ def ask(question: str, *,
         answerer=answerer,
         model=model,
     )
-    return RAGPipeline(query).run()
+    result = RAGPipeline(
+        query,
+        profile=resolved_profile,
+        reranker=reranker,
+    ).run()
+    if eval_runner is not None:
+        try:
+            eval_runner.maybe_run(question, result)
+        except Exception:
+            # Online eval is best-effort; never fail user requests.
+            pass
+    # Sprint 60 / S7 — read receipts: mark retrieved passages as "read" for the user.
+    if user_id and result.retrieved_passages:
+        try:
+            from docstoolkit.conversation.profile import ProfileStore
+            store = ProfileStore()
+            try:
+                for p in result.retrieved_passages:
+                    if p.doc_id:
+                        store.mark_read(user_id, p.doc_id)
+            finally:
+                store.close()
+        except Exception:
+            pass
+    return result
