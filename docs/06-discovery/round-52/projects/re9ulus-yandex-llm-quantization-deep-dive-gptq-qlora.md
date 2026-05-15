@@ -1,5 +1,10 @@
 # Quantization Deep Dive: LLM.Int8 → SmoothQuant → GPTQ → SPQR → QLoRA
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** re9ulus (Яндекс)  
 **Хабр:** https://habr.com/ru/companies/yandex/articles/800945/  
 **GitHub:** ссылки на GPTQ, SmoothQuant, SPQR, QLoRA в статье  

@@ -90,3 +90,16 @@ New domain exploration (medical advocacy? educational?)
 - [[05-q5-authority-limits]] (сходство 0.26)
 - [[06-q6-accountability]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-q3-what-lorenzo-does](../../../lorenzo-agent/specification/03-q3-what-lorenzo-does.md)
+- [07-q7-success-metrics](../../../lorenzo-agent/specification/07-q7-success-metrics.md)
+

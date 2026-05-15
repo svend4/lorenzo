@@ -85,3 +85,16 @@ embeddings) могут использоваться, но MUST быть опци
 - [[86-11-relevance-ranking]] (сходство 0.58)
 - [[13-reference-implementation]] (сходство 0.34)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-mcp-claude-desktop-use-cases](../../../nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md)
+- [11-relevance-ranking](../../../nautilus/npp-v1-1/11-relevance-ranking.md)
+

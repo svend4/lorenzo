@@ -79,3 +79,16 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 - [[85-10-query-flow]] (сходство 0.72)
 - [[09-query-flow]] (сходство 0.72)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-query-flow](../../../nautilus/npp-v1-0/09-query-flow.md)
+- [10-query-flow](../../../nautilus/npp-v1-1/10-query-flow.md)
+

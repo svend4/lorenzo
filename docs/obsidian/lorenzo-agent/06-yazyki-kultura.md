@@ -59,3 +59,15 @@ date: 2026-05-13
 - [[350-твои-языки-и-культурные-nuances]] (сходство 0.68)
 - [[09-q9-geographic-linguistic-scope]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-yazyki-kultura](../../lorenzo-agent/06-yazyki-kultura.md)
+

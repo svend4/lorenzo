@@ -1,5 +1,10 @@
 # Round 28 — Session Log
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Дата:** май 2026  
 **Тема:** Streaming/real-time AI, Multimodal Agent, LLM Evaluation, Federated AI  
 **Статус:** ✅ Завершён  

@@ -52,3 +52,15 @@ Hermes имеет buit-in skills system с 118 навыками в v0.10.0. Ка
 - [[02-similarity-2-persistent-memory]] (сходство 0.34)
 - [[05-similarity-5-self-hosting-privacy]] (сходство 0.32)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-similarity-1-composite-skills](../../../anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md)
+

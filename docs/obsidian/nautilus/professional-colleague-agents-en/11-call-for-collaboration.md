@@ -90,3 +90,15 @@ practitioners during framework development valuable.
 - [[222-11-call-for-collaboration]] (сходство 0.78)
 - [[12-call-for-collaboration]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-call-for-collaboration](../../../nautilus/professional-colleague-agents-en/11-call-for-collaboration.md)
+

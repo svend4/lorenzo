@@ -58,3 +58,18 @@ date: 2026-05-13
 - [[knowledge-space]] (сходство 0.42)
 - [[memnet]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [agentfs](../../../svyazi-2-0/components/agentfs.md)
+- [knowledge-space](../../../svyazi-2-0/components/knowledge-space.md)
+- [mclaude](../../../svyazi-2-0/components/mclaude.md)
+- [rufler](../../../svyazi-2-0/components/rufler.md)
+

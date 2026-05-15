@@ -34,3 +34,15 @@ date: 2026-05-13
 - [[07-specialized-knowledge-workspace]] (сходство 0.16)
 - [[09-federated-platform]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../habr-unique-projects/extra-examples/README.md)
+

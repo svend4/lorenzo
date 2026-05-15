@@ -100,3 +100,15 @@ AI-вспомогательной разработки новых аспекто
 - [[299-практические-рекомендации-для-текущего-проекта]] (сходство 0.74)
 - [[06-konkretnyy-sluchay]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-rekomendatsii](../../../nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md)
+

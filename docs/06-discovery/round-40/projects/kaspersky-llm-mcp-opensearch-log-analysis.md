@@ -1,5 +1,10 @@
 # LLM + MCP + OpenSearch: анализ логов безопасности через codegen
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Ins4n3 (Kaspersky)  
 **Хабр:** https://habr.com/ru/companies/kaspersky/articles/953780/  
 **GitHub:** https://github.com/ins4n333/aidemo  

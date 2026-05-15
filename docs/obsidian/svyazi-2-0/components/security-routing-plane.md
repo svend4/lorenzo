@@ -64,3 +64,17 @@ date: 2026-05-13
 - [[research-docs-liteparse]] (сходство 0.25)
 - [[knowledge-space]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [security-routing-plane](../../../svyazi-2-0/components/security-routing-plane.md)
+- [E-execution-plane](../../../svyazi-2-0/ensembles/E-execution-plane.md)
+

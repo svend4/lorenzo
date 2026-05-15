@@ -158,3 +158,15 @@ for inclusion of those who never had the skills
 - [[177-8-risks-and-mitigations]] (сходство 0.87)
 - [[10-open-questions]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-risks-mitigations](../../../nautilus/representative-agent-layer-en/08-risks-mitigations.md)
+

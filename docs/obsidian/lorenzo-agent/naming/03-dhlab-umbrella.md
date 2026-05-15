@@ -425,3 +425,17 @@ Specific proposal involving HMP integration
 - [[11-difficulties-and-recommendations]] (сходство 0.23)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-naming-rationale-lorenzo-medici](../../../lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md)
+- [03-dhlab-umbrella](../../../lorenzo-agent/naming/03-dhlab-umbrella.md)
+- [11-difficulties-and-recommendations](../../../lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+

@@ -73,3 +73,17 @@ ROI: Real-time collaboration without conflict UI
 - [[17-distributed-agent-memory-with-graph]] (сходство 0.28)
 - [[33-event-sourcing-cqrs-clickhouse-analytics]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-hybrid-crdt-sql-database](../../../technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
+- [17-distributed-agent-memory-with-graph](../../../technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](../../../technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+

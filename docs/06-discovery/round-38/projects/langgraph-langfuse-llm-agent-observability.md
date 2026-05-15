@@ -1,5 +1,10 @@
 # Наблюдаемость LLM-агентов: LangGraph + LangFuse self-hosted
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Vladimir (Хабр, статья 1008300)  
 **Хабр:** https://habr.com/ru/articles/1008300/ (Часть 2: https://habr.com/ru/articles/1008402/)  
 **GitHub:** нет (код в статье)  

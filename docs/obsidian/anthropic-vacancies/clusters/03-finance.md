@@ -41,3 +41,15 @@ date: 2026-05-13
 - [[14-public-policy]] (сходство 0.36)
 - [[09-product-management-support-ops]] (сходство 0.36)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-finance](../../../anthropic-vacancies/clusters/03-finance.md)
+

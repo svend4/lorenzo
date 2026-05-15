@@ -67,3 +67,15 @@ implementation MUST поддерживать **минимум текущую maj
 - [[24-12-versioning-policy]] (сходство 0.59)
 - [[17-versioning-policy]] (сходство 0.57)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-versioning-policy](../../../nautilus/npp-v1-0/12-versioning-policy.md)
+

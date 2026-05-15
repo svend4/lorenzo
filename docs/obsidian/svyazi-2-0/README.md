@@ -40,3 +40,15 @@ date: 2026-05-13
 - [[SEE_ALSO]] (сходство 0.12)
 - [[SEE_ALSO]] (сходство 0.12)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](../../svyazi-2-0/README.md)
+

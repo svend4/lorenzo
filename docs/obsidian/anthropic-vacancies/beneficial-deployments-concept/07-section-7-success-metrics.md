@@ -56,3 +56,18 @@ Pattern library growth: target N reusable case patterns by Phase 2
 - [[02-section-2-beneficial-dimension]] (сходство 0.32)
 - [[01-section-1-problem]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-section-2-beneficial-dimension](../../../anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md)
+- [04-section-4-sgb-pilot](../../../anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+- [07-section-7-success-metrics](../../../anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
+- [09-section-9-timeliness](../../../anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
+

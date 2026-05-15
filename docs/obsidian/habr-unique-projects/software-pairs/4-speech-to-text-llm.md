@@ -51,3 +51,16 @@ Discovery-loop через voice journal — каждый вечер пять м�
 - [[3-discovery-research]] (сходство 0.20)
 - [[5-tinyml-mcp-skills]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [5-voice-local-memory](../../../habr-unique-projects/deep-pairs/5-voice-local-memory.md)
+- [4-speech-to-text-llm](../../../habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
+

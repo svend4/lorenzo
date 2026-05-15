@@ -150,3 +150,15 @@ date: 2026-05-13
 - [[198-8-риски-и-меры-противодействия]] (сходство 0.85)
 - [[11-prizyv-k-sotrudnichestvu]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-riski-mery](../../../nautilus/representative-agent-layer-ru/08-riski-mery.md)
+

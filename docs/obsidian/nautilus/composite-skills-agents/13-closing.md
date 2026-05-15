@@ -162,3 +162,15 @@ synthesis.)
 - [[266-13-closing]] (сходство 0.60)
 - [[267-acknowledgments]] (сходство 0.39)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [13-closing](../../../nautilus/composite-skills-agents/13-closing.md)
+

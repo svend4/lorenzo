@@ -55,3 +55,18 @@ date: 2026-05-13
 - [[08-pluses-of-model]] (сходство 0.16)
 - [[03-three-variants-A-B-C]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-existing-landscape](../../../anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md)
+- [03-three-variants-A-B-C](../../../anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
+- [07-current-implementations](../../../anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
+- [08-pluses-of-model](../../../anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
+

@@ -206,3 +206,15 @@ defers complex decisions until evidence is available.
 - [[313-5-four-integration-paths-in-order-of-accessibility]] (сходство 0.87)
 - [[07-practical-first-steps]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-four-integration-paths](../../../nautilus/ingit-cowork-en/05-four-integration-paths.md)
+

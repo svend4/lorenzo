@@ -1,5 +1,10 @@
 # GigaAM-v3 — SOTA русский ASR от SberDevices
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** SberDevices (команда AI-sage / salute-developers)  
 **Хабр:** https://habr.com/ru/companies/sberdevices/articles/973160/  
 **GitHub:** https://github.com/salute-developers/GigaAM (MIT)  

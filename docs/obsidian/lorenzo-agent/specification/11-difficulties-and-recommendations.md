@@ -382,3 +382,15 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.21)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-difficulties-and-recommendations](../../../lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+

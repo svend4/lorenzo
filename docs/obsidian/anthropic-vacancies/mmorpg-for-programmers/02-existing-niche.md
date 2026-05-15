@@ -57,3 +57,16 @@ Metaverse попытки: Horizon Workrooms от Meta, VR Chat, Mozilla Hubs. Э
 - [[00-question-mmorpg-for-programmers]] (сходство 0.12)
 - [[04-pluses-as-business]] (сходство 0.11)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-why-stronger-than-it-looks](../../../anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
+- [02-existing-niche](../../../anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md)
+

@@ -64,3 +64,16 @@ Identified working potential collaborators (HMP, Свяжи, etc.)
 - [[09-section-9-timeliness]] (сходство 0.32)
 - [[08-section-8-risks-mitigations]] (сходство 0.29)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-section-6-proposer-role](../../../anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
+- [03-honest-opinion](../../../lorenzo-agent/operationalized/03-honest-opinion.md)
+

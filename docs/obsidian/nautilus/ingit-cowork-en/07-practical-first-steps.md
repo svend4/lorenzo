@@ -110,3 +110,15 @@ work. Most successful infrastructure projects start this way.
 - [[315-7-practical-first-steps-this-month]] (сходство 0.78)
 - [[05-four-integration-paths]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-practical-first-steps](../../../nautilus/ingit-cowork-en/07-practical-first-steps.md)
+

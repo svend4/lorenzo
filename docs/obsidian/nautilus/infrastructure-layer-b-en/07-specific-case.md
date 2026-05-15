@@ -136,3 +136,15 @@ infrastructure.
 - [[280-the-specific-case-in-front-of-us]] (сходство 0.81)
 - [[03-two-layer-stack]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-specific-case](../../../nautilus/infrastructure-layer-b-en/07-specific-case.md)
+

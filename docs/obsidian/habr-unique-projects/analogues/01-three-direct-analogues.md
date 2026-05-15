@@ -68,3 +68,16 @@ https://habr.com/ru/articles/1014366/
 - [[ngt-memory]] (сходство 0.43)
 - [[ngt-memory]] (сходство 0.41)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-three-key-candidates](../../../ai-collaborations/candidates/01-three-key-candidates.md)
+- [01-three-direct-analogues](../../../habr-unique-projects/analogues/01-three-direct-analogues.md)
+

@@ -73,3 +73,16 @@ ROI: 50k historical documents searchable in structured DB
 - [[10-legal-document-intelligence-pipeline]] (сходство 0.32)
 - [[28-pydantic-enforced-legal-workflows]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [13-legal-document-transpiler](../../../technology-combinations/combinations/13-legal-document-transpiler.md)
+- [25-legal-dsl-code-transpiler](../../../technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
+

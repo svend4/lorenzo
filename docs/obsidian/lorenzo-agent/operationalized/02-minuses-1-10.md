@@ -214,3 +214,15 @@ If Lorenzo becomes pure tool-building exercise, original mission slips.
 - [[365-развёрнутый-анализ-внуковой-комбинации]] (сходство 0.28)
 - [[05-anchor-node-habr-scout]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-minuses-1-10](../../../lorenzo-agent/operationalized/02-minuses-1-10.md)
+

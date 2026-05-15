@@ -189,3 +189,15 @@ AI-помощник нет.
 - [[240-9-связь-с-другими-типами-агентов]] (сходство 0.86)
 - [[01-pyat-tipov]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-svyaz-s-drugimi](../../../nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
+

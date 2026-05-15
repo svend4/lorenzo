@@ -151,3 +151,15 @@ Du hast gesagt: https://github.
 - [[DECISIONS]] (сходство 0.14)
 - [[02-общий-план-развития-nautilus-portal-protocol]] (сходство 0.12)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-nautilus-B-meta-orchestrator](../../../anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md)
+

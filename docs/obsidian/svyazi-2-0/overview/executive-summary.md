@@ -50,3 +50,15 @@ date: 2026-05-13
 - [[01-executive-summary]] (сходство 0.67)
 - [[01-executive-summary]] (сходство 0.57)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [executive-summary](../../../svyazi-2-0/overview/executive-summary.md)
+

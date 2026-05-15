@@ -80,3 +80,15 @@ Tier 4 — institutional reference
 - [[354-существующий-landscape-collaborators-твоя-working-]] (сходство 0.34)
 - [[354-существующий-landscape-collaborators-твоя-working-]] (сходство 0.34)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-final-tier-ranking](../../../anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+

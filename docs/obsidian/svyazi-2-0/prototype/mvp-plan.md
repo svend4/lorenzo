@@ -65,3 +65,15 @@ date: 2026-05-13
 - [[05-план-прототипа-и-возможные-контакты]] (сходство 0.31)
 - [[07-mvp-planning]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [mvp-plan](../../../svyazi-2-0/prototype/mvp-plan.md)
+

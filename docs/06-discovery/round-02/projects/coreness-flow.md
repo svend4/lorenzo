@@ -1,5 +1,10 @@
 # Coreness Flow
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @Vensus137  
 **Хабр (Flow):** https://habr.com/ru/articles/1005176/  
 **Хабр (Platform):** https://habr.com/ru/articles/986354/  

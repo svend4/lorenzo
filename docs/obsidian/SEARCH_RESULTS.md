@@ -51,3 +51,19 @@ _Обновлено: 2026-04-29_
 - [[GRAPH]] (сходство 0.15)
 - [[NETWORK]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [00-intro-part2](../01-svyazi/00-intro-part2.md)
+- [README](../03-technology-combinations/README.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [SEARCH_RESULTS](../SEARCH_RESULTS.md)
+- [TABLES](../TABLES.md)
+- [README](../habr-unique-projects/evaluation/README.md)
+- _...ещё 2_
+

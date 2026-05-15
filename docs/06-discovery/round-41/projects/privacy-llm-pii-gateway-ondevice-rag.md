@@ -1,5 +1,10 @@
 # Privacy-первый LLM: PII-прокси, on-device RAG, WebGPU inference
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** MaximML (ML Team Lead)  
 **Хабр:** https://habr.com/ru/articles/988774/  
 **GitHub:** нет (pet-проекты, blueprint-уровень)  

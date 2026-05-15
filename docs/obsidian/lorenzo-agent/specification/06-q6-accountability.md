@@ -91,3 +91,16 @@ Worst case: public retirement of Lorenzo persona
 - [[03-q3-what-lorenzo-does]] (сходство 0.24)
 - [[05-q5-authority-limits]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-q1-what-lorenzo-is](../../../lorenzo-agent/specification/01-q1-what-lorenzo-is.md)
+- [06-q6-accountability](../../../lorenzo-agent/specification/06-q6-accountability.md)
+

@@ -82,3 +82,15 @@ AI-координированной интеллектуальной работ�
 - [[300-заключение]] (сходство 0.73)
 - [[07-rekursivnoe-prozrenie]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-zaklyuchenie](../../../nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+

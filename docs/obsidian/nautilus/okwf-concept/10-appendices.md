@@ -158,3 +158,15 @@ These questions await substantive input from partners:
 - [[164-10-appendices]] (сходство 0.73)
 - [[00-abstract]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-appendices](../../../nautilus/okwf-concept/10-appendices.md)
+

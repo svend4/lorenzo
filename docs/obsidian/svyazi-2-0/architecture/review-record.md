@@ -52,3 +52,15 @@ date: 2026-05-13
 - [[card-envelope]] (сходство 0.22)
 - [[memory-write-policy]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [review-record](../../../svyazi-2-0/architecture/review-record.md)
+

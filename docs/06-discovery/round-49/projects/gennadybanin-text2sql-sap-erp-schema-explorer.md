@@ -1,5 +1,10 @@
 # Сапёр в эпоху LLM: Text-to-SQL агент для SAP ERP с итеративной разведкой схемы
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** gennadybanin (Геннадий Банин, GitHub: GunS82)  
 **Хабр:** https://habr.com/ru/articles/954712/  
 **GitHub:** есть (Text to SQL SAP Agent)  

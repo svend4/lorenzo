@@ -177,3 +177,15 @@ InGit/Cowork:
 - [[334-8-импликации-для-nautilus-и-okwf]] (сходство 0.84)
 - [[10-strategicheskoe-pozitsionirovanie]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-implikatsii-nautilus-okwf](../../../nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md)
+

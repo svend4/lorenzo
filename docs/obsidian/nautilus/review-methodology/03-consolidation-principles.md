@@ -130,3 +130,15 @@ target interface и native-форматами как adaptees»
 - [[109-3-принципы-консолидации-фаза-c]] (сходство 0.72)
 - [[71-критерии-выбора-для-фазы-3]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-consolidation-principles](../../../nautilus/review-methodology/03-consolidation-principles.md)
+

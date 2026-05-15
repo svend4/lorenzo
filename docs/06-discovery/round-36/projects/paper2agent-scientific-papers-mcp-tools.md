@@ -1,5 +1,10 @@
 # Paper2Agent: научные статьи → интерактивные AI агенты через MCP
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** andre_dataist  
 **Хабр:** https://habr.com/ru/articles/945582/  
 **GitHub:** https://github.com/jmiao24/Paper2Agent  

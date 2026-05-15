@@ -69,3 +69,15 @@ Self-aware agent с пониманием контекста — self-aware MCP-�
 - [[1-workflow-llm-mcp]] (сходство 0.17)
 - [[3-crdt-self-hosted]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [5-browser-agents-headless](../../../habr-unique-projects/software-pairs/5-browser-agents-headless.md)
+

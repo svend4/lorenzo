@@ -58,3 +58,15 @@ Forensic document QA с HTML‑отчётом и bounding boxes на стран�
 - [[graph-rag]] (сходство 0.33)
 - [[mclaude]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [research-docs-liteparse](../../../svyazi-2-0/components/research-docs-liteparse.md)
+

@@ -116,3 +116,15 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 - [[29-meta-programmatic-legal-template-generator]] (сходство 0.30)
 - [[26-ast-based-code-analysis-for-legal-automation]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [25-legal-dsl-code-transpiler](../../../technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
+

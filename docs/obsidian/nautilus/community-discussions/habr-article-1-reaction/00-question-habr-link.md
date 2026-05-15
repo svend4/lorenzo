@@ -46,3 +46,19 @@ https://habr.com/ru/articles/1027724/
 - [[13-reference-implementation]] (сходство 0.40)
 - [[13-communications]] (сходство 0.37)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (20):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [SEARCH_RESULTS](../../../../SEARCH_RESULTS.md)
+- [TABLES](../../../../TABLES.md)
+- [07-key-observation](../../../../anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
+- [04-pluses-as-business](../../../../anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
+- [01-passive-vs-active-roles](../../../../anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
+- _...ещё 12_
+

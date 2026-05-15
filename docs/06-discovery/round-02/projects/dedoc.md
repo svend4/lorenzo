@@ -1,5 +1,10 @@
 # Dedoc
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** ИСП РАН (Институт системного программирования РАН) / @ispras  
 **Хабр:** https://habr.com/ru/companies/isp_ras/articles/779390/  
 **GitHub:** https://github.com/ispras/dedoc  

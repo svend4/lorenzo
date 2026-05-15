@@ -104,3 +104,15 @@ date: 2026-05-13
 - [[196-6-этическая-рамка]] (сходство 0.81)
 - [[10-otkrytye-voprosy]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-eticheskaya-ramka](../../../nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
+

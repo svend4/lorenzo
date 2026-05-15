@@ -42,3 +42,15 @@ Quarternary match: Developer Education Lead / Prompt Engineer, Claude Code
 - [[03-secondary-beneficial-deployments]] (сходство 0.25)
 - [[08-practical-ranking]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [04-tertiary-research-engineer-agents](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
+

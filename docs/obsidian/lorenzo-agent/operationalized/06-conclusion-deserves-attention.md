@@ -147,3 +147,15 @@ Continue conversation или pause для обдумывания?
 - [[01-pluses-1-7]] (сходство 0.18)
 - [[00-overview-grandchild-combination]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-conclusion-deserves-attention](../../../lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
+

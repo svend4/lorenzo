@@ -101,3 +101,15 @@ Codeberg. Превосходно подходит для хранения
 - [[291-двухслойный-стек-как-он-существует]] (сходство 0.72)
 - [[03-otsutstvuet-sloy-b]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-dvukhsloynyy-stek](../../../nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
+

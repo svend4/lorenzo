@@ -81,3 +81,17 @@ def get_state_at(case_id, target_date):
 - [[04-event-sourcing-consensus]] (сходство 0.40)
 - [[20-24-final]] (сходство 0.34)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [34-distributed-event-store-with-paxos](../../../technology-combinations/combinations/34-distributed-event-store-with-paxos.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../../../technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [31-35-final](../../../technology-combinations/synthesis-tables/31-35-final.md)
+

@@ -54,3 +54,15 @@ date: 2026-05-13
 - [[yodoca]] (сходство 0.37)
 - [[hybrid-rag]] (сходство 0.35)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [ngt-memory](../../../svyazi-2-0/components/ngt-memory.md)
+

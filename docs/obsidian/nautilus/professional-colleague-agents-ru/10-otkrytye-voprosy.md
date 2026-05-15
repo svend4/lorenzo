@@ -114,3 +114,15 @@ AI-усиление подрывает? Что мы могли бы потеря
 - [[241-10-открытые-вопросы]] (сходство 0.83)
 - [[00-abstract]] (сходство 0.12)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-otkrytye-voprosy](../../../nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md)
+

@@ -47,3 +47,19 @@ date: 2026-05-13
 - [[10-query-result]] (сходство 0.45)
 - [[00-question-habr-link]] (сходство 0.44)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-passive-vs-active-roles](../../../anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
+- [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [05-which-combination-more-valuable](../../../nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
+- [10-query-result](../../../nautilus/npp-v1-0/10-query-result.md)
+- _...ещё 4_
+

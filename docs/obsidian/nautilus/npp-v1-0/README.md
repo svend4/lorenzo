@@ -40,3 +40,16 @@ date: 2026-05-13
 - [[22-10-queryresult-structure]] (сходство 0.17)
 - [[22-10-queryresult-structure]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../nautilus/npp-v1-0/README.md)
+- [README](../../../nautilus/npp-v1-1/README.md)
+

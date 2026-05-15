@@ -1,5 +1,10 @@
 # LLM Observability & AI Agent Tracing: semantic span typing и 6 open-source инструментов
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 **Автор:** antipov_dmitry  
 **Хабр:** https://habr.com/ru/articles/972480/  
 **GitHub:** нет (примеры в статье, инструменты — внешние)  

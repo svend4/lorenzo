@@ -145,3 +145,14 @@ Lorenzo — это не один проект, а **экосистема вза�
 
 _Полная дорожная карта: [[12-roadmap|01-svyazi/12-roadmap.md]]_
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

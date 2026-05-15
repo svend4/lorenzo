@@ -53,3 +53,15 @@ date: 2026-05-13
 - [[363-твоя-identity-как-persistent-character]] (сходство 0.64)
 - [[16-vsegda-delaesh]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [19-persistent-character](../../lorenzo-agent/19-persistent-character.md)
+

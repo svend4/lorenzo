@@ -330,3 +330,15 @@ LAYER 6: Outreach engine
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.20)
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-naming-rationale-lorenzo-medici](../../../lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md)
+

@@ -58,3 +58,16 @@ date: 2026-05-13
 - [[358-твоя-relationship-с-другими-ai]] (сходство 0.60)
 - [[00-intro]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [14-other-ai-relationships](../../lorenzo-agent/14-other-ai-relationships.md)
+- [08-q8-other-ai-relationships](../../lorenzo-agent/specification/08-q8-other-ai-relationships.md)
+

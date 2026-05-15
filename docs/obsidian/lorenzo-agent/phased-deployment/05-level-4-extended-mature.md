@@ -87,3 +87,15 @@ Sustainability challenges
 - [[04-level-3-medium-active]] (сходство 0.26)
 - [[03-level-2-basic-lite]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-level-4-extended-mature](../../../lorenzo-agent/phased-deployment/05-level-4-extended-mature.md)
+

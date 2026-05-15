@@ -199,3 +199,15 @@ workflow.
 - [[215-4-architecture-of-professional-colleague-agents]] (сходство 0.86)
 - [[04-sub-agent-registry]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-architecture](../../../nautilus/professional-colleague-agents-en/04-architecture.md)
+

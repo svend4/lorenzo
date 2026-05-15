@@ -218,3 +218,15 @@ within 5-10 years.
 - [[261-8-seven-domains-of-application]] (сходство 0.89)
 - [[02-twenty-one-teachers-pattern]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-seven-domains](../../../nautilus/composite-skills-agents/08-seven-domains.md)
+

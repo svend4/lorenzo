@@ -56,3 +56,15 @@ date: 2026-05-13
 - [[graph-rag]] (сходство 0.34)
 - [[legal-rag]] (сходство 0.34)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [hybrid-rag](../../../svyazi-2-0/components/hybrid-rag.md)
+

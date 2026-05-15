@@ -27,3 +27,15 @@ date: 2026-05-13
 - [[README]] (сходство 0.22)
 - [[README]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../anthropic-vacancies/mmorpg-for-programmers/README.md)
+

@@ -1,5 +1,10 @@
 # Video Search Assistant: CLIP-Only RAG для видеонаблюдения без LLM-декодера
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** eCaesar (Георгий Гайков, MTS AI)  
 **Хабр:** https://habr.com/ru/companies/mts_ai/articles/804555/  
 **GitHub:** нет (production кейс)  

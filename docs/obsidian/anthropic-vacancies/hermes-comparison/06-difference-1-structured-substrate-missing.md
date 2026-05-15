@@ -56,3 +56,15 @@ InGit specifically provides структуру (00_inbox через 90_exports, 
 - [[04-similarity-4-multi-platform]] (сходство 0.32)
 - [[08-difference-3-federation-missing]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-difference-1-structured-substrate-missing](../../../anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md)
+

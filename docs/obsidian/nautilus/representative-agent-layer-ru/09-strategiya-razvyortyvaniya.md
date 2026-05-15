@@ -146,3 +146,15 @@ date: 2026-05-13
 - [[199-9-стратегия-поэтапного-развёртывания]] (сходство 0.85)
 - [[11-prizyv-k-sotrudnichestvu]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-strategiya-razvyortyvaniya](../../../nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
+

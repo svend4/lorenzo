@@ -1,5 +1,10 @@
 # Round 33 — Session Log
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Дата:** май 2026  
 **Тема:** AI code agents v2, LLM data engineering, суверенный AI, red-teaming  
 **Проектов найдено:** 4  

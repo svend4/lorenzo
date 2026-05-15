@@ -52,3 +52,16 @@ Claude hat geantwortet: Отличная идея — Лоренцо как ко
 - [[00-question-camel-vs-nautilus]] (сходство 0.23)
 - [[00-question-practical]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-lorenzo-codename](../../../lorenzo-agent/naming/00-question-lorenzo-codename.md)
+- [01-search-results-not-found](../../../lorenzo-agent/naming/01-search-results-not-found.md)
+

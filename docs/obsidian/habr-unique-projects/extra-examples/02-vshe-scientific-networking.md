@@ -54,3 +54,15 @@ Distinguishes между разными формами научного сотр
 - [[01-svyazi-andrey-chuyan]] (сходство 0.25)
 - [[03-brainbox-multi-ai-hub]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-vshe-scientific-networking](../../../habr-unique-projects/extra-examples/02-vshe-scientific-networking.md)
+

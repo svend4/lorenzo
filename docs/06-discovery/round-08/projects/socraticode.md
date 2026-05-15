@@ -1,5 +1,10 @@
 # SocratiCode (MCP-сервер понимания кодовой базы)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @giancarloerra  
 **Хабр:** https://habr.com/ru/articles/1031878/  
 **GitHub:** https://github.com/giancarloerra/SocratiCode  

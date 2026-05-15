@@ -179,3 +179,15 @@ broader applicability.
 - [[262-9-integration-with-okwf-infrastructure]] (сходство 0.88)
 - [[13-closing]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-okwf-integration](../../../nautilus/composite-skills-agents/09-okwf-integration.md)
+

@@ -85,3 +85,15 @@ integration does not.
 - [[278-why-this-hasn-t-been-built]] (сходство 0.76)
 - [[06-existing-approximations]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-why-not-built](../../../nautilus/infrastructure-layer-b-en/05-why-not-built.md)
+

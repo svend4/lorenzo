@@ -1,5 +1,10 @@
 # Round 45 — Session Log
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 **Дата:** май 2026  
 **Темы:** Multimodal AI v3, LLM финансы v3, Russian NLP v3, AI Observability v2  
 **Статус:** ✅ Завершён

@@ -99,3 +99,16 @@ date: 2026-05-13
 - [[197-7-управление-и-надзор]] (сходство 0.84)
 - [[06-eticheskaya-ramka]] (сходство 0.12)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [197-7-управление-и-надзор](../../../02-anthropic-vacancies/197-7-управление-и-надзор.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-upravlenie-nadzor](../../../nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md)
+

@@ -173,3 +173,15 @@ efficiently between levels.
 - [[142-5-pattern-library-as-bridge-between-triangles]] (сходство 0.85)
 - [[148-appendix-a-glossary]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-pattern-library-bridge](../../../nautilus/double-triangle-architecture/05-pattern-library-bridge.md)
+

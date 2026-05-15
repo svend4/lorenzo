@@ -78,3 +78,16 @@ Personalized PageRank по графу знаний (HippoRAG, Stanford/OSU)
 - [[14-main-technical-risks]] (сходство 0.19)
 - [[07-key-observation]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-coally](../../../anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [02-vitaly-graph-cognitive-memory](../../../anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
+

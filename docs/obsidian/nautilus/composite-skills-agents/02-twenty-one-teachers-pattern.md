@@ -168,3 +168,15 @@ practitioner can configure into their own combination.
 - [[255-2-the-twenty-one-teachers-pattern]] (сходство 0.86)
 - [[08-seven-domains]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-twenty-one-teachers-pattern](../../../nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md)
+

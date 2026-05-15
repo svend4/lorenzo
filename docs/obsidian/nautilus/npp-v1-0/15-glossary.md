@@ -137,3 +137,16 @@ example_user, example@email.com
 - [[27-15-glossary-of-examples]] (сходство 0.48)
 - [[13-reference-implementation]] (сходство 0.44)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-shell-metaphor-two-projections](../../../anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
+- [15-glossary](../../../nautilus/npp-v1-0/15-glossary.md)
+

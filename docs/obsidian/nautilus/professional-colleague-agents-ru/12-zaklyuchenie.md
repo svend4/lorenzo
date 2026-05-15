@@ -157,3 +157,15 @@ v1.1*.
 - [[243-12-заключение]] (сходство 0.52)
 - [[244-благодарности]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-zaklyuchenie](../../../nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md)
+

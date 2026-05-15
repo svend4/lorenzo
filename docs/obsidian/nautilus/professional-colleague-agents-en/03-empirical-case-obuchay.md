@@ -197,3 +197,15 @@ unchanged remains to be measured.
 - [[214-3-empirical-case-study-обучай]] (сходство 0.87)
 - [[02-what-makes-pca]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-empirical-case-obuchay](../../../nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md)
+

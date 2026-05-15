@@ -170,3 +170,15 @@ API для AI-сотрудничества через кастомный
 - [[295-конкретный-случай-перед-нами]] (сходство 0.86)
 - [[10-rekomendatsii]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-konkretnyy-sluchay](../../../nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+

@@ -40,3 +40,15 @@ Inference (самая частая роль — 8+ позиций разного
 - [[13-communications]] (сходство 0.35)
 - [[09-product-management-support-ops]] (сходство 0.35)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-software-engineering-infrastructure](../../../anthropic-vacancies/clusters/07-software-engineering-infrastructure.md)
+

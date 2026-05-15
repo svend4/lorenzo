@@ -33,3 +33,15 @@ date: 2026-05-13
 - [[08-q8-other-ai-relationships]] (сходство 0.13)
 - [[README]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../lorenzo-agent/specification/README.md)
+

@@ -70,3 +70,15 @@ LangGraph официально позиционируется как низко�
 - [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]] (сходство 0.17)
 - [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-vs-notion-mem-affine-langgraph](../../../ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)
+

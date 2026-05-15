@@ -45,3 +45,15 @@ Du hast gesagt: А под какой сценарий больше всего п
 - [[00-question-habr-link]] (сходство 0.28)
 - [[15-appendix-c-history]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
+

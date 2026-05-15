@@ -59,3 +59,17 @@ date: 2026-05-13
 - [[03-synthesis-hebbian-collaboration-graph]] (сходство 0.50)
 - [[01-three-key-candidates]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-related-projects-context](../../../ai-collaborations/candidates/02-related-projects-context.md)
+- [03-synthesis-hebbian-collaboration-graph](../../../ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+- [02-related-projects](../../../habr-unique-projects/analogues/02-related-projects.md)
+

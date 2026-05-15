@@ -84,3 +84,15 @@ Local-first, single-file SQLite — portable, offline-capable, simple
 - [[07-key-observation]] (сходство 0.17)
 - [[04-mem0-letta-graphiti]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-vitaly-graph-cognitive-memory](../../../anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
+

@@ -40,3 +40,15 @@ date: 2026-05-13
 - [[00-intro]] (сходство 0.14)
 - [[16-people]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [methodology](../../anthropic-vacancies/methodology.md)
+

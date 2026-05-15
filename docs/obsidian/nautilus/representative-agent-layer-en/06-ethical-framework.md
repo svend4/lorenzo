@@ -133,3 +133,15 @@ tech-sophisticated principals fails its core mission.
 - [[175-6-ethical-framework]] (сходство 0.85)
 - [[07-governance-oversight]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-ethical-framework](../../../nautilus/representative-agent-layer-en/06-ethical-framework.md)
+

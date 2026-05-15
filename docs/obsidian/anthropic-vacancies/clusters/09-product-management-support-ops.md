@@ -41,3 +41,15 @@ Product Manager по Claude Code, API Growth, Consumer, Monetization, Multi-Clou
 - [[16-people]] (сходство 0.50)
 - [[14-public-policy]] (сходство 0.50)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-product-management-support-ops](../../../anthropic-vacancies/clusters/09-product-management-support-ops.md)
+

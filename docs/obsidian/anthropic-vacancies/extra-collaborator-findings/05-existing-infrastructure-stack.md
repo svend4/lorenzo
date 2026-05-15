@@ -65,3 +65,15 @@ Domain applications
 - [[10-collaborators-landscape]] (сходство 0.24)
 - [[03-section-3-solution-architecture]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-existing-infrastructure-stack](../../../anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md)
+

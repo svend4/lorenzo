@@ -73,3 +73,15 @@ Discovery-файл Svyazi (накопление неизвестного) син
 - [[03-local-first]] (сходство 0.41)
 - [[11-hybrid-crdt-sql-database]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-crdt-local-first-svyazi-cardindex](../../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
+

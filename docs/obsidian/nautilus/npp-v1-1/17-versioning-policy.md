@@ -82,3 +82,15 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 - [[92-17-versioning-policy]] (сходство 0.73)
 - [[12-versioning-policy]] (сходство 0.57)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [17-versioning-policy](../../../nautilus/npp-v1-1/17-versioning-policy.md)
+

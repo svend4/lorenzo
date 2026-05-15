@@ -61,3 +61,15 @@ Venture-attractive — «Roblox for professional work» — понятная и�
 - [[12-appendix-a-header-warning]] (сходство 0.26)
 - [[17-appendix-b-change-log]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-pluses-as-business](../../../anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
+

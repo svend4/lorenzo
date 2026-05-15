@@ -59,3 +59,15 @@ date: 2026-05-13
 - [[01-three-direct-analogues]] (сходство 0.18)
 - [[02-related-projects-context]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-synthesis-hebbian-collaboration-graph](../../../ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+

@@ -1,5 +1,10 @@
 # DevOps LLM Monitor
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @oni_devops_lab (Telegram/Habr)  
 **Хабр:** https://habr.com/ru/articles/1033128/ (часть 1), https://habr.com/ru/articles/1033426/ (часть 2 — обучение)  
 **GitHub:** не найден (нужно уточнить через Telegram @oni_devops_lab или @oni_devops_bot)  

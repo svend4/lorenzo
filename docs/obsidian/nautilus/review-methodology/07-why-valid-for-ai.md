@@ -66,3 +66,16 @@ AI-assisted development**. Старые правила («избегай дуб�
 - [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work]] (сходство 0.72)
 - [[15-appendix-c-history]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../../../02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-why-valid-for-ai](../../../nautilus/review-methodology/07-why-valid-for-ai.md)
+

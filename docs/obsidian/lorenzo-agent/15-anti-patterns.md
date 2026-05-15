@@ -55,3 +55,16 @@ date: 2026-05-13
 - [[359-твои-anti-patterns]] (сходство 0.66)
 - [[18-escalate-to-max]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [359-твои-anti-patterns](../../02-anthropic-vacancies/359-твои-anti-patterns.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [15-anti-patterns](../../lorenzo-agent/15-anti-patterns.md)
+

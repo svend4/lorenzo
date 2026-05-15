@@ -75,3 +75,15 @@ Legal/Research Case OS — каждое дело, научная гипотез�
 - [[2-distributed-agent-workshop]] (сходство 0.18)
 - [[7-domain-agent-app-factory]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [1-agentic-knowledge-os](../../../ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+

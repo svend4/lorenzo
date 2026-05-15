@@ -153,3 +153,15 @@ INTEGRATION.md (637 строк) — пять путей подключения
 - [[122-глоссарий]] (сходство 0.76)
 - [[02-formal-workflow]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [16-glossary](../../../nautilus/review-methodology/16-glossary.md)
+

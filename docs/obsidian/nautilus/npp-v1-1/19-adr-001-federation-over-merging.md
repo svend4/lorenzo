@@ -76,3 +76,16 @@ formal mapping
 - [[94-19-adr-001-federation-over-merging]] (сходство 0.79)
 - [[94-19-adr-001-federation-over-merging]] (сходство 0.79)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [14-adr-001-federation-over-merging](../../../nautilus/npp-v1-0/14-adr-001-federation-over-merging.md)
+- [19-adr-001-federation-over-merging](../../../nautilus/npp-v1-1/19-adr-001-federation-over-merging.md)
+

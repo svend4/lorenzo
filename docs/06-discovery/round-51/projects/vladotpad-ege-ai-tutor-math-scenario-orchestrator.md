@@ -1,5 +1,10 @@
 # ЕГЭ AI-репетитор: 6-сценарный оркестратор для математики без LangChain
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** vladotpad (Владислав Калиниченко, Innopolis University, Research Scientist)  
 **Хабр:** https://habr.com/ru/articles/989136/  
 **GitHub:** нет (production кейс, venture)  

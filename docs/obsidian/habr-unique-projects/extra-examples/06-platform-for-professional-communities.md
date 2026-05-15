@@ -59,3 +59,16 @@ AI matcher находит unexpected combinations (Wi-Fi инженер + SPb р
 - [[08-personal-multi-agent-hub]] (сходство 0.32)
 - [[07-specialized-knowledge-workspace]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-platform-for-professional-communities](../../../habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
+- [09-federated-platform](../../../habr-unique-projects/extra-examples/09-federated-platform.md)
+

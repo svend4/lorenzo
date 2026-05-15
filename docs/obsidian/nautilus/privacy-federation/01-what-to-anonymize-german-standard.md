@@ -83,3 +83,15 @@ date: 2026-05-13
 - [[03-similarity-3-mcp-support]] (сходство 0.14)
 - [[00-question-anonymization]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-what-to-anonymize-german-standard](../../../nautilus/privacy-federation/01-what-to-anonymize-german-standard.md)
+

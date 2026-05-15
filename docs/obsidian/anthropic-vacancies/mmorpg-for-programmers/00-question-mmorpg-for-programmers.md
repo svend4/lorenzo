@@ -66,3 +66,16 @@ Claude hat geantwortet: Переписанная версия вашего во�
 - [[02-existing-niche]] (сходство 0.12)
 - [[03-why-natural-for-programmers]] (сходство 0.11)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-mmorpg-for-programmers](../../../anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md)
+- [03-why-natural-for-programmers](../../../anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
+

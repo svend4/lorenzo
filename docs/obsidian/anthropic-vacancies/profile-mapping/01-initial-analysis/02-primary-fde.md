@@ -56,3 +56,15 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 - [[05-quaternary-developer-education]] (сходство 0.20)
 - [[08-practical-ranking]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [02-primary-fde](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+

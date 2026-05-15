@@ -114,3 +114,15 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 - [[81-6-adapter-interface]] (сходство 0.71)
 - [[06-adapter-interface]] (сходство 0.57)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-adapter-interface](../../../nautilus/npp-v1-1/06-adapter-interface.md)
+

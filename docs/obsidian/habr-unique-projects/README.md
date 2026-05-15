@@ -43,3 +43,16 @@ date: 2026-05-13
 - [[authors-by-name]] (сходство 0.17)
 - [[05-hw-nl2workflow]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [README](../../habr-unique-projects/README.md)
+- [4-summary-authors](../../habr-unique-projects/final-ensembles/4-summary-authors.md)
+

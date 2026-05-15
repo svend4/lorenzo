@@ -90,3 +90,15 @@ Lorenzo ultimately serves vulnerable populations, directly works с independent 
 - [[08-q8-other-ai-relationships]] (сходство 0.25)
 - [[00-context-fundamental-questions]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-q2-whom-lorenzo-serves](../../../lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
+

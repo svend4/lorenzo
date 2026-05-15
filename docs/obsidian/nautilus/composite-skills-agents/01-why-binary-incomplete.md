@@ -147,3 +147,15 @@ support to skilled professions.
 - [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.79)
 - [[252-abstract]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-why-binary-incomplete](../../../nautilus/composite-skills-agents/01-why-binary-incomplete.md)
+

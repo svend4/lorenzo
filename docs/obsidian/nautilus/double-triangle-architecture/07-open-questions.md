@@ -180,3 +180,15 @@ requires research.
 - [[144-7-open-questions]] (сходство 0.89)
 - [[04-proposed-infrastructure]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-open-questions](../../../nautilus/double-triangle-architecture/07-open-questions.md)
+

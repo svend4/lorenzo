@@ -125,3 +125,15 @@ by mission-driven foundations.
 - [[176-7-governance-and-oversight]] (сходство 0.82)
 - [[06-ethical-framework]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-governance-oversight](../../../nautilus/representative-agent-layer-en/07-governance-oversight.md)
+

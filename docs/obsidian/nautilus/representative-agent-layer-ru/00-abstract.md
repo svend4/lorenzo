@@ -58,3 +58,16 @@ date: 2026-05-13
 - [[190-содержание]] (сходство 0.51)
 - [[15-appendix-c-history]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-abstract](../../../nautilus/professional-colleague-agents-ru/00-abstract.md)
+- [00-abstract](../../../nautilus/representative-agent-layer-ru/00-abstract.md)
+

@@ -143,3 +143,15 @@ The remainder of this document develops Option C.
 - [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.88)
 - [[02-cowork-provides]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-cowork-discovery](../../../nautilus/ingit-cowork-en/01-cowork-discovery.md)
+

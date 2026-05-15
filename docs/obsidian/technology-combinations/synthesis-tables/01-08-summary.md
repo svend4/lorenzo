@@ -71,3 +71,15 @@ date: 2026-05-13
 - [[05-benchmarks]] (сходство 0.39)
 - [[05-benchmarks]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-08-summary](../../../technology-combinations/synthesis-tables/01-08-summary.md)
+

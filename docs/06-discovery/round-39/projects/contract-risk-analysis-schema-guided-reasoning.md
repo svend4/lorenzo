@@ -1,5 +1,10 @@
 # Анализ договорных рисков: Schema Guided Reasoning + CoT
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** favioes  
 **Хабр:** https://habr.com/ru/articles/1005144/  
 **GitHub:** нет (production система)  

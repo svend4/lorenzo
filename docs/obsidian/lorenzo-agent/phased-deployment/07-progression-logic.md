@@ -68,3 +68,15 @@ Decision points:
 - [[00-overview]] (сходство 0.26)
 - [[06-level-5-full-network]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-progression-logic](../../../lorenzo-agent/phased-deployment/07-progression-logic.md)
+

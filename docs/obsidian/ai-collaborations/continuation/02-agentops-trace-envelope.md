@@ -83,3 +83,16 @@ anomaly_flags:
 - [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]] (сходство 0.16)
 - [[09-do-not-glue]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-agentops-trace-envelope](../../../ai-collaborations/continuation/02-agentops-trace-envelope.md)
+- [08-commercialization-three-paths](../../../ai-collaborations/continuation/08-commercialization-three-paths.md)
+

@@ -106,3 +106,16 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 - [[364-final-note-ты-experiment]] (сходство 0.24)
 - [[README]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../ai-collaborations/fast-tracks/README.md)
+- [00-overview-grandchild-combination](../../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+

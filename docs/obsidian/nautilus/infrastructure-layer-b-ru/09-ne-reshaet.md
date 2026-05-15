@@ -75,3 +75,15 @@ date: 2026-05-13
 - [[298-что-этот-документ-не-решает]] (сходство 0.67)
 - [[12-appendix-a-header-warning]] (сходство 0.29)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-ne-reshaet](../../../nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md)
+

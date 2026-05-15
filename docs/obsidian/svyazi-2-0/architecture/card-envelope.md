@@ -55,3 +55,15 @@ date: 2026-05-13
 - [[integration-spec]] (сходство 0.23)
 - [[review-record]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [card-envelope](../../../svyazi-2-0/architecture/card-envelope.md)
+

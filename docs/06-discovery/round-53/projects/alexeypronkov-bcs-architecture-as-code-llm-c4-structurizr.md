@@ -1,5 +1,10 @@
 # Architecture as Code + LLM: 5 ролей архитектурного ревью через Claude + Structurizr DSL
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** AlexeyPronkov (Алексей Прончев, BCS FinTech AI)  
 **Хабр:** https://habr.com/ru/companies/bcs_company/articles/1006944/  
 **GitHub:** нет (production кейс)  

@@ -199,3 +199,15 @@ ground on which Cowork operates effectively.
 - [[311-3-what-ingit-provides-that-cowork-lacks]] (сходство 0.87)
 - [[04-symbiotic-architecture]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-ingit-provides](../../../nautilus/ingit-cowork-en/03-ingit-provides.md)
+

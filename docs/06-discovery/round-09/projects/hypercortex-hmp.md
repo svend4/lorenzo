@@ -1,5 +1,10 @@
 # HyperCortex Mesh Protocol (HMP)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @kagvi13  
 **Хабр:** https://habr.com/ru/articles/1006566/  
 **GitHub:** https://github.com/kagvi13/HMP  

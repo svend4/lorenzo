@@ -64,3 +64,15 @@ Q6 и консенсус-модель работают как есть, но с�
 - [[17-appendix-b-change-log]] (сходство 0.17)
 - [[00-question-habr-2]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-can-it-apply-to-docs](../../../nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+

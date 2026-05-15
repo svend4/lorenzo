@@ -52,3 +52,16 @@ date: 2026-05-13
 - [[15-glossary]] (сходство 0.18)
 - [[17-appendix-b-change-log]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-two-nautiluses](../../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [01-shell-metaphor-two-projections](../../../anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
+

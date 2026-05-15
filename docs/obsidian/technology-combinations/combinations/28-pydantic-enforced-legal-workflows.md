@@ -97,3 +97,15 @@ ROI: Type-safe legal automation, catches errors before human review
 - [[29-meta-programmatic-legal-template-generator]] (сходство 0.28)
 - [[18-llm-powered-legal-corpus-builder]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [28-pydantic-enforced-legal-workflows](../../../technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+

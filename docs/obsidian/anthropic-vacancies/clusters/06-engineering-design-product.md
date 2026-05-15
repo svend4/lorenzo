@@ -41,3 +41,15 @@ date: 2026-05-13
 - [[16-people]] (сходство 0.36)
 - [[12-technical-program-management]] (сходство 0.35)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-engineering-design-product](../../../anthropic-vacancies/clusters/06-engineering-design-product.md)
+

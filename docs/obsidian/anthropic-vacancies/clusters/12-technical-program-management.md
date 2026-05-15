@@ -40,3 +40,16 @@ TPM по Alignment, Compute, Inference Performance, Infrastructure, Platform, Sa
 - [[09-product-management-support-ops]] (сходство 0.44)
 - [[11-legal]] (сходство 0.43)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-software-engineering-infrastructure](../../../anthropic-vacancies/clusters/07-software-engineering-infrastructure.md)
+- [12-technical-program-management](../../../anthropic-vacancies/clusters/12-technical-program-management.md)
+

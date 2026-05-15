@@ -123,3 +123,15 @@ return list(visited.keys())
 - [[83-8-q6-space-normative]] (сходство 0.76)
 - [[07-portal-entry]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-q6-space](../../../nautilus/npp-v1-1/08-q6-space.md)
+

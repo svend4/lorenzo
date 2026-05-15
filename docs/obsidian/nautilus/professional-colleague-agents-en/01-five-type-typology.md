@@ -228,3 +228,15 @@ ethical, and economic framework.
 - [[212-1-the-five-type-typology-of-principal-side-agents]] (сходство 0.84)
 - [[226-appendix-a-comparative-table-five-agent-types]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-five-type-typology](../../../nautilus/professional-colleague-agents-en/01-five-type-typology.md)
+

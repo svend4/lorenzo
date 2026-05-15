@@ -1,5 +1,10 @@
 # SWE-MERA: динамический бенчмарк агентной генерации кода
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** madrugado (ODS community)  
 **Хабр:** https://habr.com/ru/companies/ods/articles/948184/  
 **GitHub:** https://github.com/MERA-Evaluation/repotest (задачи + запуск), https://github.com/MERA-Evaluation/SWE-MERA-submissions  

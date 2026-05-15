@@ -183,3 +183,15 @@ integrate InGit specifically with the Cowork tab in Claude
 - [[318-10-strategic-positioning]] (сходство 0.86)
 - [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-strategic-positioning](../../../nautilus/ingit-cowork-en/10-strategic-positioning.md)
+

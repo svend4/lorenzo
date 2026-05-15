@@ -83,3 +83,15 @@ Du hast gesagt: Да
 - [[34-appendix-b-change-log]] (сходство 0.73)
 - [[03-registry]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [18-comment-on-document](../../../nautilus/npp-v1-0/18-comment-on-document.md)
+

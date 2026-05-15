@@ -1,5 +1,10 @@
 # DistilBERT для торговых сигналов на Московской бирже (MOEX)
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** empenoso (Михаил Шардин)  
 **Хабр:** https://habr.com/ru/articles/955612/  
 **GitHub:** https://github.com/empenoso/llm-stock-market-predictor  

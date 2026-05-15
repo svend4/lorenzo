@@ -166,3 +166,15 @@ Active participant target in first three years: 5,000-10,000.
 - [[156-2-target-populations]] (сходство 0.87)
 - [[01-problem-statement]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-target-populations](../../../nautilus/okwf-concept/02-target-populations.md)
+

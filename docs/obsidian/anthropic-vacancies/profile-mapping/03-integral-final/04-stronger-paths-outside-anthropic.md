@@ -57,3 +57,16 @@ Patent filing на 6 патентабельных изобретений. DPMA (
 - [[03-revised-anthropic-mapping]] (сходство 0.19)
 - [[05-reality-check-distribution-gap]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [04-non-anthropic-paths](../../../../anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md)
+- [04-stronger-paths-outside-anthropic](../../../../anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
+

@@ -104,3 +104,15 @@ stakeholders as basis for dialogue and refinement.
 - [[153-executive-summary]] (сходство 0.73)
 - [[10-appendices]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-abstract](../../../nautilus/okwf-concept/00-abstract.md)
+

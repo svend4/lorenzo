@@ -74,3 +74,16 @@ date: 2026-05-13
 - [[CONTACTS]] (сходство 0.23)
 - [[CONTACTS]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [source-projects](../../ai-collaborations/source-projects.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+

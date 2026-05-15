@@ -166,3 +166,15 @@ qualified individuals regardless of traditional constraints.
 - [[161-7-phased-rollout-plan]] (сходство 0.86)
 - [[05-economic-model]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-phased-rollout](../../../nautilus/okwf-concept/07-phased-rollout.md)
+

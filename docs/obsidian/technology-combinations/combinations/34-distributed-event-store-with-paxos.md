@@ -79,3 +79,15 @@ ROI: Legal documents never lost, even with datacenter failure
 - [[32-consensus-based-multi-agent-coordination]] (сходство 0.27)
 - [[04-event-sourcing-consensus]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [34-distributed-event-store-with-paxos](../../../technology-combinations/combinations/34-distributed-event-store-with-paxos.md)
+

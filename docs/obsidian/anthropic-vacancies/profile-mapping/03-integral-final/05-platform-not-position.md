@@ -51,3 +51,17 @@ Mehr anzeigen
 - [[00-question-voiceless]] (сходство 0.14)
 - [[00-question-supply-demand]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [00-question-rephrasing](../../../../anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
+- [05-platform-not-position](../../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-voiceless](../../../../nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
+

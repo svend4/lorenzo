@@ -215,3 +215,15 @@ date: 2026-05-13
 - [[233-2-что-делает-агента-профессиональным-коллегой]] (сходство 0.83)
 - [[03-keys-obuchay]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-chto-delaet-pka](../../../nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
+

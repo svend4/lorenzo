@@ -97,3 +97,15 @@ AI-сотрудничество. Каждый инструмент решал
 - [[293-почему-это-не-было-построено]] (сходство 0.80)
 - [[11-zaklyuchenie]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-pochemu-ne-postroeno](../../../nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md)
+

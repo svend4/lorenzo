@@ -74,3 +74,15 @@ date: 2026-05-13
 - [[03-revised-anthropic-mapping]] (сходство 0.14)
 - [[02-primary-fde]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [02-final-ranking](../../../../anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md)
+

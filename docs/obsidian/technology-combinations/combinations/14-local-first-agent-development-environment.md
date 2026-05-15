@@ -139,3 +139,15 @@ Charted eight research directions for discovering additional project synergies
 - [[24-mega-integration-full-stack]] (сходство 0.30)
 - [[09-14-extended]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [14-local-first-agent-development-environment](../../../technology-combinations/combinations/14-local-first-agent-development-environment.md)
+

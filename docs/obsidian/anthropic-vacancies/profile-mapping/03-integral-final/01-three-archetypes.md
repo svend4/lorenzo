@@ -55,3 +55,15 @@ date: 2026-05-13
 - [[05-quaternary-developer-education]] (сходство 0.13)
 - [[04-tertiary-research-engineer-agents]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-three-archetypes](../../../../anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md)
+

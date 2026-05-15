@@ -1,5 +1,10 @@
 # Fine-tuning LLM 2026 — дообучение локальных моделей для одного разработчика
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 **Автор:** команда OTUS (образовательная платформа)  
 **Хабр:** https://habr.com/ru/companies/otus/articles/1026700/  
 **GitHub:** инструменты: Unsloth, TRL, LLaMA-Factory (все open source)  

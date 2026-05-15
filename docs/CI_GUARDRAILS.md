@@ -1,5 +1,10 @@
 # CI Guardrails (защита от перерасхода minutes)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 > Основано на инциденте [`docs/CI_COST_INCIDENT_2026-05-14.md`](CI_COST_INCIDENT_2026-05-14.md) (ветка `claude/current-dev-stage-dJtu0`). Этот документ закрепляет правила в `claude/current-dev-stage-iVIov`.
 
 ## 1. Обязательные требования к каждому `.github/workflows/*.yml`

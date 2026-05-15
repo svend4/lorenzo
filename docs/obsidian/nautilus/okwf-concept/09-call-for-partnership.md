@@ -128,3 +128,15 @@ pipeline
 - [[163-9-call-for-partnership]] (сходство 0.85)
 - [[07-phased-rollout]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-call-for-partnership](../../../nautilus/okwf-concept/09-call-for-partnership.md)
+

@@ -61,3 +61,18 @@ Federation between practitioner deployments (Nautilus)
 - [[08-personal-multi-agent-hub]] (сходство 0.31)
 - [[07-specialized-knowledge-workspace]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-platform-for-professional-communities](../../../habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
+- [09-federated-platform](../../../habr-unique-projects/extra-examples/09-federated-platform.md)
+- [10-profession-specific-workflows](../../../habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
+- [11-concrete-potential-collaborator](../../../habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md)
+

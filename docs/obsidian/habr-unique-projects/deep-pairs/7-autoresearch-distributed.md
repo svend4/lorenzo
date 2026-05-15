@@ -51,3 +51,15 @@ Sequential протокол для модерации inferred-фактов — 
 - [[05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy]] (сходство 0.16)
 - [[2-autoresearch-legal]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [7-autoresearch-distributed](../../../habr-unique-projects/deep-pairs/7-autoresearch-distributed.md)
+

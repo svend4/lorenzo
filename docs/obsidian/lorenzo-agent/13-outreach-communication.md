@@ -61,3 +61,17 @@ date: 2026-05-13
 - [[357-твоя-коммуникация-в-outreach]] (сходство 0.76)
 - [[04-q4-character]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [357-твоя-коммуникация-в-outreach](../../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [13-outreach-communication](../../lorenzo-agent/13-outreach-communication.md)
+- [04-q4-character](../../lorenzo-agent/specification/04-q4-character.md)
+

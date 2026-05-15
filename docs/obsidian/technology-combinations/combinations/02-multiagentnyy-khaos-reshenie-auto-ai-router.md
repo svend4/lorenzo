@@ -67,3 +67,15 @@ Router даёт fallback из коробки. Если Opus недоступен
 - [[03-local-first]] (сходство 0.27)
 - [[01-agent-routing]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-multiagentnyy-khaos-reshenie-auto-ai-router](../../../technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
+

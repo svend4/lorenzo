@@ -179,3 +179,15 @@ Cowork в настоящее время дорог в использовании
 - [[335-9-риски-и-открытые-вопросы]] (сходство 0.87)
 - [[08-promyshlennost-postroit]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-riski-voprosy](../../../nautilus/ingit-cowork-ru/09-riski-voprosy.md)
+

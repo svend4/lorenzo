@@ -66,3 +66,15 @@ Cannot substitute для domain expertise — Lorenzo нужны humans для a
 - [[03-section-3-solution-architecture]] (сходство 0.21)
 - [[08-section-8-risks-mitigations]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-honest-opinion](../../../lorenzo-agent/operationalized/03-honest-opinion.md)
+

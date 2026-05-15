@@ -86,3 +86,15 @@ date: 2026-05-13
 - [[147-references]] (сходство 0.70)
 - [[11-dhlab-documents]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-references](../../../nautilus/double-triangle-architecture/10-references.md)
+

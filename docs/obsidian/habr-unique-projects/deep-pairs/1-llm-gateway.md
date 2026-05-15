@@ -55,3 +55,15 @@ Auto AI Router как sidecar — крутится рядом с Open WebUI, б�
 - [[6-tmux-village-openclaw]] (сходство 0.18)
 - [[1-one-person-one-company]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [1-llm-gateway](../../../habr-unique-projects/deep-pairs/1-llm-gateway.md)
+

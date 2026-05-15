@@ -75,3 +75,15 @@ AutoResearch Карпатого + Q6-роутер + ZINC:
 - [[02-knowledge-graphs]] (сходство 0.28)
 - [[02-multiagentnyy-khaos-reshenie-auto-ai-router]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](../../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
+

@@ -151,3 +151,15 @@ works regardless of any of them.
 - [[317-9-risks-and-open-questions]] (сходство 0.86)
 - [[08-implications-nautilus-okwf]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-risks-open-questions](../../../nautilus/ingit-cowork-en/09-risks-open-questions.md)
+

@@ -1,5 +1,10 @@
 # Round 17 — Лог поисковой сессии
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Дата:** 2026-05-12  
 **Статус:** ✅ Завершён  
 **Тема:** CoT Illusion (reasoning research), LLM-Wiki (второй мозг для агента), Sberbank Knowledge Graph, LLM as DBA (PostgresPro)

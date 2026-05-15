@@ -75,3 +75,16 @@ ROI: Automated compliance vs manual audit (weeks → minutes)
 - [[28-pydantic-enforced-legal-workflows]] (сходство 0.25)
 - [[20-24-final]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [16-adversarial-multi-agent-code-review](../../../technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
+- [23-security-first-code-review-pipeline](../../../technology-combinations/combinations/23-security-first-code-review-pipeline.md)
+

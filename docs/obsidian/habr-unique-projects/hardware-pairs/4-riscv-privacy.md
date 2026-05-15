@@ -57,3 +57,16 @@ Mesh из таких узлов — несколько community-nodes в раз
 - [[5-tinyml-mcp-skills]] (сходство 0.18)
 - [[3-zinc-hybrid-arch]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [4-riscv-privacy](../../../habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
+- [5-tinyml-mcp-skills](../../../habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
+

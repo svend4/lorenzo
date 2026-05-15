@@ -1,5 +1,10 @@
 # AgentFly/Memento: память вместо файнтюнинга для LLM continuous adaptation
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** andre_dataist  
 **Хабр:** https://habr.com/ru/articles/940824/  
 **GitHub:** https://github.com/Agent-on-the-Fly/Memento  

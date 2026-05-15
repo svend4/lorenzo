@@ -1,5 +1,10 @@
 # Граф концептов базы знаний
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 _Обновлено: 2026-05-14_
 
 Концептов: **40** | Связей: **777** (мин. вес: 2)
@@ -144,3 +149,19 @@ graph TD
 | `через` | 252 | 4019 | other |
 | `agent` | 362 | 3668 | agent |
 | `readme` | 314 | 3545 | other |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [LLM_GAPS](LLM_GAPS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 6_
+

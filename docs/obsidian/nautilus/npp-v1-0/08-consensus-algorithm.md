@@ -92,3 +92,15 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 - [[20-8-consensus-algorithm]] (сходство 0.67)
 - [[09-consensus-algorithm]] (сходство 0.37)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-consensus-algorithm](../../../nautilus/npp-v1-0/08-consensus-algorithm.md)
+

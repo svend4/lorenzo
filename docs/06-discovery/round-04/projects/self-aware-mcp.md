@@ -1,5 +1,10 @@
 # Self-Aware MCP Server
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @vuguzum (Хабр + GitHub)  
 **Хабр:** https://habr.com/ru/articles/1007122/  
 **GitHub:** https://github.com/vuguzum/self-aware-mcp-server  

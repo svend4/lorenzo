@@ -97,3 +97,15 @@ third agent с явным контекстом обоих) создаёт фин
 - [[107-1-контекст-и-мотивация]] (сходство 0.77)
 - [[00-tldr]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-context-motivation](../../../nautilus/review-methodology/01-context-motivation.md)
+

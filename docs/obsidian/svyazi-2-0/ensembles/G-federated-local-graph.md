@@ -59,3 +59,15 @@ flowchart LR
 - [[10-second-order-ensembles]] (сходство 0.34)
 - [[10-новые-ансамбли-следующего-шага]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [G-federated-local-graph](../../../svyazi-2-0/ensembles/G-federated-local-graph.md)
+

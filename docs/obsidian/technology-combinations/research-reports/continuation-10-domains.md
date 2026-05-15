@@ -85,3 +85,17 @@ date: 2026-05-13
 - [[03-dsl-ast]] (сходство 0.15)
 - [[02-ultimate-legal-ai]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [continuation-10-domains](../../../technology-combinations/research-reports/continuation-10-domains.md)
+- [sozialrecht-35-combinations](../../../technology-combinations/research-reports/sozialrecht-35-combinations.md)
+

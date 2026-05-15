@@ -52,3 +52,18 @@ InGit MCP server, который мы планировали, работал б�
 - [[02-similarity-2-persistent-memory]] (сходство 0.40)
 - [[05-similarity-5-self-hosting-privacy]] (сходство 0.40)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-similarity-2-persistent-memory](../../../anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
+- [03-similarity-3-mcp-support](../../../anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+- [06-difference-1-structured-substrate-missing](../../../anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md)
+- [10-difference-5-tool-vs-mission-drift](../../../anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
+

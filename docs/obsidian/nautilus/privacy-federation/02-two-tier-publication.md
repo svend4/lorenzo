@@ -154,3 +154,15 @@ procedural_stage: "klage"
 - [[04-grant-opportunities]] (сходство 0.12)
 - [[00-question-anonymization]] (сходство 0.12)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-two-tier-publication](../../../nautilus/privacy-federation/02-two-tier-publication.md)
+

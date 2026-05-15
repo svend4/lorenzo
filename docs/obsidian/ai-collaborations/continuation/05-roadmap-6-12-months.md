@@ -59,3 +59,15 @@ date: 2026-05-13
 - [[10-architecture-rfc]] (сходство 0.19)
 - [[12-дорожная-карта-прототипа-следующей-итерации]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-roadmap-6-12-months](../../../ai-collaborations/continuation/05-roadmap-6-12-months.md)
+

@@ -85,3 +85,15 @@ Project knowledge: накопленная база (CardIndex авторов, п
 - [[03-level-2-basic-lite]] (сходство 0.25)
 - [[05-level-4-extended-mature]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-level-1-minimal-zero](../../../lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
+

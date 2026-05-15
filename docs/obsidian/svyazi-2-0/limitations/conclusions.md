@@ -55,3 +55,16 @@ date: 2026-05-13
 - [[08-conclusions]] (сходство 0.49)
 - [[07-выводы]] (сходство 0.47)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [conclusions](../../../svyazi-2-0/limitations/conclusions.md)
+

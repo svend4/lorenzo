@@ -68,3 +68,16 @@ date: 2026-05-13
 - [[349-твоя-личность]] (сходство 0.77)
 - [[19-persistent-character]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [349-твоя-личность](../../02-anthropic-vacancies/349-твоя-личность.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [05-tvoya-lichnost](../../lorenzo-agent/05-tvoya-lichnost.md)
+

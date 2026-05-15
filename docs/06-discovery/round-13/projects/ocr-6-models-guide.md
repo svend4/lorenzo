@@ -1,5 +1,10 @@
 # OCR Guide — 6 open-source моделей для сложных документов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** независимый инженер (Хабр)  
 **Хабр:** https://habr.com/ru/articles/966846/  
 **GitHub:** модели: PaddleOCR, Surya, EasyOCR, Tesseract, DocTR, Qwen3 VL  

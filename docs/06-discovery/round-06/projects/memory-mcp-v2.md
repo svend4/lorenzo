@@ -1,5 +1,10 @@
 # Memory MCP Server v0.8.0 (Part 2)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @ipiton  
 **Хабр:** https://habr.com/ru/articles/1033388/  
 **GitHub:** https://github.com/ipiton/agent-memory-mcp  

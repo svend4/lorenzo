@@ -57,3 +57,16 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 - [[6-metaphor]] (сходство 0.18)
 - [[06-svyazi-2-0-block-map]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [6-bonus-rram-memristor](../../../habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
+- [7-metaphor](../../../habr-unique-projects/hardware-pairs/7-metaphor.md)
+

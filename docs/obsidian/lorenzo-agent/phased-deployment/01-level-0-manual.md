@@ -70,3 +70,17 @@ date: 2026-05-13
 - [[06-level-5-full-network]] (сходство 0.30)
 - [[02-level-1-minimal-zero]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-level-0-manual](../../../lorenzo-agent/phased-deployment/01-level-0-manual.md)
+- [06-level-5-full-network](../../../lorenzo-agent/phased-deployment/06-level-5-full-network.md)
+- [07-progression-logic](../../../lorenzo-agent/phased-deployment/07-progression-logic.md)
+

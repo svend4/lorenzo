@@ -41,3 +41,15 @@ Art Director Enterprise, Copy Leads, Customer Marketing (включая Startup 
 - [[16-people]] (сходство 0.41)
 - [[15-public-benefit]] (сходство 0.40)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-marketing-brand](../../../anthropic-vacancies/clusters/05-marketing-brand.md)
+

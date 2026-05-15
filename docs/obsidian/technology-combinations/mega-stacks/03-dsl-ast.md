@@ -72,3 +72,16 @@ date: 2026-05-13
 - [[04-event-sourcing-consensus]] (сходство 0.31)
 - [[02-ultimate-legal-ai]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-dsl-ast](../../../technology-combinations/mega-stacks/03-dsl-ast.md)
+

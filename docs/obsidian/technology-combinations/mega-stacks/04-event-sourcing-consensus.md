@@ -94,3 +94,17 @@ date: 2026-05-13
 - [[31-35-final]] (сходство 0.40)
 - [[32-consensus-based-multi-agent-coordination]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [32-consensus-based-multi-agent-coordination](../../../technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
+- [04-event-sourcing-consensus](../../../technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
+

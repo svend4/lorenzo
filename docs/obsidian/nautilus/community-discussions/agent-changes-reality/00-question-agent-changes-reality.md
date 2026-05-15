@@ -45,3 +45,16 @@ Du hast gesagt: Такой агент конечно меняет уже соб�
 - [[00-question-scenario]] (сходство 0.24)
 - [[00-question-multi-tier]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [00-question-agent-changes-reality](../../../../nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
+- [00-question-practical](../../../../nautilus/community-discussions/practical-observations/00-question-practical.md)
+

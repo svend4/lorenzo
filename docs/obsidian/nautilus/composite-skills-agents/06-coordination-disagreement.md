@@ -177,3 +177,15 @@ practice.
 - [[259-6-coordination-and-disagreement-resolution]] (сходство 0.84)
 - [[03-what-makes-csa]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-coordination-disagreement](../../../nautilus/composite-skills-agents/06-coordination-disagreement.md)
+

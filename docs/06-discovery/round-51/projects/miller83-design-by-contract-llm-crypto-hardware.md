@@ -1,5 +1,10 @@
 # Design by Contract + LLM: формальные контракты для криптографии на STM32
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Miller83 (Сергей Васильев)  
 **Хабр:** https://habr.com/ru/articles/1025244/  
 **GitHub:** github.com/vasilievsv/hw.pki-on-box  

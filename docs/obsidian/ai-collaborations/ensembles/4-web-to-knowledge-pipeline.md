@@ -72,3 +72,15 @@ Court/Regulation Watcher — отслеживание судебных сайт�
 - [[9-ambient-team-agent]] (сходство 0.16)
 - [[7-domain-agent-app-factory]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [4-web-to-knowledge-pipeline](../../../ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
+

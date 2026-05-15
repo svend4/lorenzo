@@ -1,5 +1,10 @@
 # Panopticum (единый интерфейс для баз данных)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @sharque  
 **Хабр:** https://habr.com/ru/articles/996620/  
 **GitHub:** не найден явно (Docker Hub: sharque/panopticum)  

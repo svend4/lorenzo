@@ -82,3 +82,15 @@ English. Рекомендуется формат с параллельными �
 - [[16-history]] (сходство 0.33)
 - [[09-4-passport-passport-md]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-passport](../../../nautilus/npp-v1-0/04-passport.md)
+

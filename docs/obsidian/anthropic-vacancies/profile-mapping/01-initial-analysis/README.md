@@ -29,3 +29,15 @@ date: 2026-05-13
 - [[03-secondary-beneficial-deployments]] (сходство 0.16)
 - [[README]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [README](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/README.md)
+

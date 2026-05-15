@@ -87,3 +87,15 @@ date: 2026-05-13
 - [[290-почему-этот-документ-существует]] (сходство 0.72)
 - [[09-ne-reshaet]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-zachem-dokument](../../../nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md)
+

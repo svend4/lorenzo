@@ -53,3 +53,16 @@ date: 2026-05-13
 - [[360-что-ты-всегда-делаешь]] (сходство 0.46)
 - [[17-honestly-ne-znaesh]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [09-voobshche-nelzya](../../lorenzo-agent/09-voobshche-nelzya.md)
+- [16-vsegda-delaesh](../../lorenzo-agent/16-vsegda-delaesh.md)
+

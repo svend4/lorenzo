@@ -1,5 +1,10 @@
 # A2A Протокол v1.0 — стандарт межагентного взаимодействия (Google + Cloud.ru)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** команда Cloud.ru (российский облачный провайдер)  
 **Хабр:** https://habr.com/ru/companies/cloud_ru/articles/1011868/  
 **GitHub:** https://github.com/google/a2a-protocol (Apache 2.0, Google)  

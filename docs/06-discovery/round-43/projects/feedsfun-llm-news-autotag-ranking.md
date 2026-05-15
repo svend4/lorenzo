@@ -1,5 +1,10 @@
 # feeds.fun: LLM-автотегирование новостей с прозрачным ранжированием
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Tiendil  
 **Хабр:** https://habr.com/ru/articles/891308/  
 **GitHub:** https://github.com/Tiendil/feeds.fun  

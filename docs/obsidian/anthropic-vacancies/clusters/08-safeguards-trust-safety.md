@@ -41,3 +41,15 @@ Trust & Safety в ML-смысле: Biological Safety Research Scientist, Policy 
 - [[14-public-policy]] (сходство 0.38)
 - [[16-people]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-safeguards-trust-safety](../../../anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
+

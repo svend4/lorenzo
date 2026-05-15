@@ -107,3 +107,15 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 - [[119-appendix-b-примеры-расхождений-и-их-разрешения]] (сходство 0.61)
 - [[12-appendix-a-header-warning]] (сходство 0.36)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [13-appendix-b-examples](../../../nautilus/review-methodology/13-appendix-b-examples.md)
+

@@ -1,5 +1,10 @@
 # AI Review
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Nikita Filonov / @sound_right (Хабр) / @Nikita-Filonov (GitHub)  
 **Хабр:** https://habr.com/ru/articles/951434/  
 **GitHub:** https://github.com/Nikita-Filonov/ai-review  

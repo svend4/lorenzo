@@ -53,3 +53,15 @@ date: 2026-05-13
 - [[02-agentops-trace-envelope]] (сходство 0.16)
 - [[06-metrics-tree]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-do-not-glue](../../../ai-collaborations/continuation/09-do-not-glue.md)
+

@@ -60,3 +60,15 @@ Optional sync с Cowork для agentic capabilities
 - [[09-federated-platform]] (сходство 0.30)
 - [[10-profession-specific-workflows]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-specialized-knowledge-workspace](../../../habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+

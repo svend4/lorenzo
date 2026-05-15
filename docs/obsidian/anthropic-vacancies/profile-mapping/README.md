@@ -30,3 +30,15 @@ date: 2026-05-13
 - [[02-three-overlapping-identities]] (сходство 0.12)
 - [[08-practical-ranking]] (сходство 0.11)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../anthropic-vacancies/profile-mapping/README.md)
+

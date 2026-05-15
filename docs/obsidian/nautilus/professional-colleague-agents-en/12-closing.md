@@ -129,3 +129,15 @@ https://www.fontanka.ru/2026/04/25/76378978/
 - [[223-12-closing]] (сходство 0.56)
 - [[00-abstract]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-closing](../../../nautilus/professional-colleague-agents-en/12-closing.md)
+

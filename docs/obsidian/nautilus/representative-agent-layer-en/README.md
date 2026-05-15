@@ -34,3 +34,15 @@ date: 2026-05-13
 - [[169-table-of-contents]] (сходство 0.39)
 - [[README]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../nautilus/representative-agent-layer-en/README.md)
+

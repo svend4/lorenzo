@@ -91,3 +91,15 @@ date: 2026-05-13
 - [[09-14-extended]] (сходство 0.40)
 - [[01-legal-ai-stack]] (сходство 0.37)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-ultimate-legal-ai](../../../technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+

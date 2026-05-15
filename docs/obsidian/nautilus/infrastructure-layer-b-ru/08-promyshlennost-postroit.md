@@ -98,3 +98,15 @@ Hypothes.is для аннотаций существует; мог бы
 - [[297-что-промышленность-вероятно-построит]] (сходство 0.76)
 - [[09-ne-reshaet]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-promyshlennost-postroit](../../../nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
+

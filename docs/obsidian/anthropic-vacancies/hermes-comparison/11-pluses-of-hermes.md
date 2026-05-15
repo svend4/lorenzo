@@ -56,3 +56,15 @@ date: 2026-05-13
 - [[05-similarity-5-self-hosting-privacy]] (сходство 0.29)
 - [[10-difference-5-tool-vs-mission-drift]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-pluses-of-hermes](../../../anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md)
+

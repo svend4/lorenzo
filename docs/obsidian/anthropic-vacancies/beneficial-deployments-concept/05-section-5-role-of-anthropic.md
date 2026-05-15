@@ -73,3 +73,15 @@ This is mutual benefit framing. Не «вы дайте денег», но «да
 - [[00-context]] (сходство 0.24)
 - [[08-section-8-risks-mitigations]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-section-5-role-of-anthropic](../../../anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md)
+

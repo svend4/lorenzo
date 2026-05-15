@@ -1,5 +1,10 @@
 # Тематические пробелы (Content Gaps)
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 _Обновлено: 2026-05-14_
 
 Найдено пробелов: **909** (мин. упоминаний: 3)
@@ -302,4 +307,19 @@ _Обновлено: 2026-05-14_
 - ... и ещё 43 файлах
 
 Создать: `docs/obsidian/hmp.md`
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [COMPLEXITY](COMPLEXITY.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

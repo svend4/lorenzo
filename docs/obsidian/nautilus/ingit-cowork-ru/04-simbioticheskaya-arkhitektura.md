@@ -199,3 +199,15 @@ Cowork — удобство, не авторитет.
 - [[330-4-симбиотическая-архитектура]] (сходство 0.79)
 - [[05-priblizheniya]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-simbioticheskaya-arkhitektura](../../../nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md)
+

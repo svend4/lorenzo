@@ -77,3 +77,15 @@ Community Project Builder — участники сообщества предл
 - [[9-ambient-team-agent]] (сходство 0.18)
 - [[01-shared-memory-between-agents]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [2-distributed-agent-workshop](../../../ai-collaborations/ensembles/2-distributed-agent-workshop.md)
+

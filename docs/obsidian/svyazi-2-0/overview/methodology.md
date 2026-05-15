@@ -56,3 +56,15 @@ date: 2026-05-13
 - [[02-методика-и-рамка-отбора]] (сходство 0.71)
 - [[02-methodology]] (сходство 0.63)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [methodology](../../../svyazi-2-0/overview/methodology.md)
+

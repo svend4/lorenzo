@@ -59,3 +59,15 @@ Spec‑driven многоагентный development‑framework и автоно
 - [[yodoca]] (сходство 0.37)
 - [[mclaude]] (сходство 0.35)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [ai-factory](../../../svyazi-2-0/components/ai-factory.md)
+

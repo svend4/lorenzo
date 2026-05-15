@@ -99,3 +99,15 @@ date: 2026-05-13
 - [[242-11-призыв-к-сотрудничеству]] (сходство 0.79)
 - [[00-abstract]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-prizyv-k-sotrudnichestvu](../../../nautilus/professional-colleague-agents-ru/11-prizyv-k-sotrudnichestvu.md)
+

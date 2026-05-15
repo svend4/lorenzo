@@ -84,3 +84,15 @@ ROI: Performance + community support, no vendor lock-in
 - [[20-24-final]] (сходство 0.26)
 - [[27-hybrid-rag-with-ast-chunked-code]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [22-russian-international-oss-stack](../../../technology-combinations/combinations/22-russian-international-oss-stack.md)
+

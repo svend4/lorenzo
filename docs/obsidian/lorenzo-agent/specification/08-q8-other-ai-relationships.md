@@ -82,3 +82,17 @@ Acknowledges dependencies
 - [[14-other-ai-relationships]] (сходство 0.28)
 - [[09-q9-geographic-linguistic-scope]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-context-fundamental-questions](../../../lorenzo-agent/specification/00-context-fundamental-questions.md)
+- [08-q8-other-ai-relationships](../../../lorenzo-agent/specification/08-q8-other-ai-relationships.md)
+- [09-q9-geographic-linguistic-scope](../../../lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+

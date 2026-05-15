@@ -78,3 +78,15 @@ what exists and adapt as better infrastructure emerges.
 - [[282-what-industry-will-likely-build]] (сходство 0.70)
 - [[08-recursive-insight]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-what-industry-will-build](../../../nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md)
+

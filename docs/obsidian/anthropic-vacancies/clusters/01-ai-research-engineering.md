@@ -41,3 +41,15 @@ date: 2026-05-13
 - [[13-communications]] (сходство 0.33)
 - [[15-public-benefit]] (сходство 0.32)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-ai-research-engineering](../../../anthropic-vacancies/clusters/01-ai-research-engineering.md)
+

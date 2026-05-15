@@ -41,3 +41,16 @@ date: 2026-05-13
 - [[14-public-policy]] (сходство 0.31)
 - [[05-marketing-brand]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-sales](../../../anthropic-vacancies/clusters/02-sales.md)
+- [signals](../../../anthropic-vacancies/signals.md)
+

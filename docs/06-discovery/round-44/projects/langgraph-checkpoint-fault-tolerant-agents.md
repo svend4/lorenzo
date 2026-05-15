@@ -1,5 +1,10 @@
 # LangGraph: checkpoint, fault tolerance и state management для агентов
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 **Автор:** antipov_dmitry  
 **Хабр:** https://habr.com/ru/articles/956940/  
 **GitHub:** нет (примеры в статье, 15+ Python сниппетов)  

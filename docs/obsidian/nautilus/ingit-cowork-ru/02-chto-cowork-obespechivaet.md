@@ -185,3 +185,15 @@ Cowork работает на macOS и Windows (Linux,
 - [[328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи]] (сходство 0.86)
 - [[06-utochnyonnyy-obyom-ingit]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-chto-cowork-obespechivaet](../../../nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md)
+

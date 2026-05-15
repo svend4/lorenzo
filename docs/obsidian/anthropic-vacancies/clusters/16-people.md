@@ -41,3 +41,15 @@ Immigration Coordinator, People Operations Lead, Technical Recruiter. Мален
 - [[15-public-benefit]] (сходство 0.54)
 - [[14-public-policy]] (сходство 0.50)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [16-people](../../../anthropic-vacancies/clusters/16-people.md)
+

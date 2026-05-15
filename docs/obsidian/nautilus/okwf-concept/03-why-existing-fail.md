@@ -193,3 +193,15 @@ is this integration.
 - [[157-3-why-existing-solutions-fail]] (сходство 0.89)
 - [[02-target-populations]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-why-existing-fail](../../../nautilus/okwf-concept/03-why-existing-fail.md)
+

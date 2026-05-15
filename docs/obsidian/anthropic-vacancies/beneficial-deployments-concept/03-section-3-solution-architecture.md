@@ -64,3 +64,16 @@ This is architecturally feasible synthesis, не build-from-scratch. Existing co
 - [[06-section-6-proposer-role]] (сходство 0.34)
 - [[08-section-8-risks-mitigations]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-section-3-solution-architecture](../../../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+- [06-section-6-proposer-role](../../../anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
+

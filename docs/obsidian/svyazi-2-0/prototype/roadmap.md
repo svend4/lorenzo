@@ -84,3 +84,15 @@ date: 2026-05-13
 - [[12-дорожная-карта-прототипа-следующей-итерации]] (сходство 0.79)
 - [[12-roadmap]] (сходство 0.77)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [roadmap](../../../svyazi-2-0/prototype/roadmap.md)
+

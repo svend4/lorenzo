@@ -238,3 +238,15 @@ YAML)
 - [[329-3-что-ingit-обеспечивает-чего-cowork-не-хватает]] (сходство 0.85)
 - [[02-chto-cowork-obespechivaet]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-chto-ingit-obespechivaet](../../../nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md)
+

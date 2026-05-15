@@ -50,3 +50,16 @@ Hermes не имеет этого domain layer. Чтобы превратить 
 - [[01-similarity-1-composite-skills]] (сходство 0.37)
 - [[10-difference-5-tool-vs-mission-drift]] (сходство 0.36)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-similarity-1-composite-skills](../../../anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md)
+- [07-difference-2-domain-specialization](../../../anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+

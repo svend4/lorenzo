@@ -94,3 +94,15 @@ MCP interoperability
 - [[09-federated-platform]] (сходство 0.23)
 - [[04-what-to-take-from-info-repos]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-sgb-advocate-colleague-example](../../../anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
+

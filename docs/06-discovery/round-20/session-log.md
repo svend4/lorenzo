@@ -1,5 +1,10 @@
 # Round 20 — Лог поисковой сессии
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Дата:** 2026-05-12  
 **Статус:** ✅ Завершён  
 **Тема:** LLM unit test generation (VK/OK), DeepSeek V3→V3.2, Reasoning-LLM архитектура (Selectel), LLM Compute Economics 2026

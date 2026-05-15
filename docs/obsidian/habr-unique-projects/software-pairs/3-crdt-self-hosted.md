@@ -51,3 +51,15 @@ Hierarchical CRDT memory layers — рабочий контекст (быстр�
 - [[3-zinc-hybrid-arch]] (сходство 0.19)
 - [[03-crdt-local-first-svyazi-cardindex]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [3-crdt-self-hosted](../../../habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
+

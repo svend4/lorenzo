@@ -54,3 +54,19 @@ Reference НЕ является нормативной. Альтернативн
 - [[25-13-reference-implementation]] (сходство 0.49)
 - [[10-query-result]] (сходство 0.48)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-query-result](../../../nautilus/npp-v1-0/10-query-result.md)
+- [13-reference-implementation](../../../nautilus/npp-v1-0/13-reference-implementation.md)
+- [15-glossary](../../../nautilus/npp-v1-0/15-glossary.md)
+- [16-appendix-a-minimal-working-example](../../../nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md)
+- _...ещё 1_
+

@@ -171,3 +171,15 @@ state. Cowork memory is convenience, not authority.
 - [[312-4-the-symbiotic-architecture]] (сходство 0.83)
 - [[03-ingit-provides]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-symbiotic-architecture](../../../nautilus/ingit-cowork-en/04-symbiotic-architecture.md)
+

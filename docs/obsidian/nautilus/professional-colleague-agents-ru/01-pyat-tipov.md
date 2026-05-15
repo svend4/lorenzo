@@ -256,3 +256,15 @@ Copilot, Claude Code.
 - [[232-1-типология-из-пяти-типов-агентов-на-стороне-принц]] (сходство 0.85)
 - [[246-приложение-a-сравнительная-таблица-пять-типов-аген]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-pyat-tipov](../../../nautilus/professional-colleague-agents-ru/01-pyat-tipov.md)
+

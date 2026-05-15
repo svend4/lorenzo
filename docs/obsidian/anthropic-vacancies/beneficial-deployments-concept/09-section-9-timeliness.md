@@ -57,3 +57,16 @@ Window of opportunity: building this в 2026 means leveraging mature components.
 - [[06-section-6-proposer-role]] (сходство 0.32)
 - [[08-section-8-risks-mitigations]] (сходство 0.32)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-section-5-role-of-anthropic](../../../anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md)
+- [09-section-9-timeliness](../../../anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
+

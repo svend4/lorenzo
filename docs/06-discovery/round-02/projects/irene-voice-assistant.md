@@ -1,5 +1,10 @@
 # Ирина (Irene Voice Assistant)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @janvarev  
 **Хабр:** https://habr.com/ru/articles/595855/  
 **GitHub:** https://github.com/janvarev/Irene-Voice-Assistant  

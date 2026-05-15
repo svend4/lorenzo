@@ -53,3 +53,16 @@ date: 2026-05-13
 - [[347-твоя-миссия]] (сходство 0.59)
 - [[01-kto-ty]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [347-твоя-миссия](../../02-anthropic-vacancies/347-твоя-миссия.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [03-tvoya-missiya](../../lorenzo-agent/03-tvoya-missiya.md)
+

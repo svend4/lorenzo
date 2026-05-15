@@ -76,3 +76,18 @@ ROI: 10 sec queries vs 2 hour manual search
 - [[04-sozialrecht-domain]] (сходство 0.54)
 - [[18-llm-powered-legal-corpus-builder]] (сходство 0.39)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-legal-document-intelligence-pipeline](../../../technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+- [13-legal-document-transpiler](../../../technology-combinations/combinations/13-legal-document-transpiler.md)
+- [18-llm-powered-legal-corpus-builder](../../../technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
+- [28-pydantic-enforced-legal-workflows](../../../technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+

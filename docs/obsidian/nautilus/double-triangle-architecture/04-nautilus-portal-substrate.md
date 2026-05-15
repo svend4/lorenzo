@@ -149,3 +149,15 @@ Double-Triangle deployments.
 - [[141-4-nautilus-portal-as-reference-substrate]] (сходство 0.77)
 - [[04-proposed-infrastructure]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-nautilus-portal-substrate](../../../nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md)
+

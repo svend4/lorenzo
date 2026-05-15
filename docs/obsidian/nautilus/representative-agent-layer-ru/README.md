@@ -34,3 +34,16 @@ date: 2026-05-13
 - [[README]] (сходство 0.14)
 - [[README]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../nautilus/professional-colleague-agents-ru/README.md)
+- [README](../../../nautilus/representative-agent-layer-ru/README.md)
+

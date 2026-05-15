@@ -57,3 +57,15 @@ date: 2026-05-13
 - [[knowledge-space]] (сходство 0.29)
 - [[mclaude]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [voice-stack](../../../svyazi-2-0/components/voice-stack.md)
+

@@ -1,5 +1,10 @@
 # Agentic Graph RAG: Skeleton Indexing + VectorCypher + PyMangle Datalog
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** VladSpace  
 **Хабр:** https://habr.com/ru/articles/1003064/  
 **GitHub:** https://github.com/vpakspace/agentic-graph-rag  

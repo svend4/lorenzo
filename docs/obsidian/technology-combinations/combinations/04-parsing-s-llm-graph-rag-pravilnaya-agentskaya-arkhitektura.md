@@ -69,3 +69,16 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 - [[07-crawl4ai-docling-yodoca-consolidator]] (сходство 0.27)
 - [[03-local-first]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](../../../technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- [07-crawl4ai-docling-yodoca-consolidator](../../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+

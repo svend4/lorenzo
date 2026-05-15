@@ -96,3 +96,15 @@ ROI: Prevents errors from inconsistent legal implementations
 - [[13-legal-document-transpiler]] (сходство 0.25)
 - [[28-pydantic-enforced-legal-workflows]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [26-ast-based-code-analysis-for-legal-automation](../../../technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
+

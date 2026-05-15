@@ -51,3 +51,15 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 - [[1-workflow-llm-mcp]] (сходство 0.19)
 - [[8-self-aware-mcp-specs]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [3-adversarial-multi-ide](../../../habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
+

@@ -1,5 +1,10 @@
 # Визуальное тестирование с AI: скриншоты без ложных срабатываний
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** OTUS (Хабр, 2025) + Avito, T-Bank, Яндекс (смежные статьи)  
 **Хабр:** https://habr.com/ru/companies/otus/articles/956492/ (основная)  
 **Смежные:** https://habr.com/ru/companies/alfa/articles/850748/, https://habr.com/ru/companies/yandex/articles/890548/  

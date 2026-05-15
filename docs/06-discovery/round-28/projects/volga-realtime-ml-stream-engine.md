@@ -1,5 +1,10 @@
 # Volga: движок real-time обработки данных для AI/ML — аналог Spark/Flink на Rust
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** dirty_valera (Хабр, апрель 2025)  
 **Хабр:** https://habr.com/ru/articles/1021290/  
 **GitHub:** github.com/volga-project/volga (Apache 2.0)  

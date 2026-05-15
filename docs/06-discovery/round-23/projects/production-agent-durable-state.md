@@ -1,5 +1,10 @@
 # Правильная агентская архитектура 2026 — Durable State, Approvals, Session Context
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** независимый разработчик (Хабр, май 2026)  
 **Хабр:** https://habr.com/ru/articles/1031440/ (Часть 2)  
 **Смежная:** https://habr.com/ru/articles/981100/ (Часть 1: ReAct, Advanced RAG, Tools)  

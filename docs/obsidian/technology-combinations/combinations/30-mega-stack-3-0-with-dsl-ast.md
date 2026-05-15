@@ -122,3 +122,15 @@ Claude hat geantwortet: Продолжаю углубленный поиск п�
 - [[03-dsl-ast]] (сходство 0.26)
 - [[35-mega-stack-4-0-with-event-sourcing-consensus]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [30-mega-stack-3-0-with-dsl-ast](../../../technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+

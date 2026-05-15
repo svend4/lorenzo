@@ -41,3 +41,15 @@ Commercial Counsel по поднаправлениям (Colocation & Networks, D
 - [[13-communications]] (сходство 0.41)
 - [[09-product-management-support-ops]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-legal](../../../anthropic-vacancies/clusters/11-legal.md)
+

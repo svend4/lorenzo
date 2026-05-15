@@ -51,3 +51,16 @@ date: 2026-05-13
 - [[362-когда-сомневаешься-escalate-к-max]] (сходство 0.53)
 - [[17-honestly-ne-znaesh]] (сходство 0.35)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [362-когда-сомневаешься-escalate-к-max](../../02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md)
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [18-escalate-to-max](../../lorenzo-agent/18-escalate-to-max.md)
+

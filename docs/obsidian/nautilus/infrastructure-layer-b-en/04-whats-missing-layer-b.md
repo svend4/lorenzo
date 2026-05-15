@@ -97,3 +97,15 @@ product.
 - [[277-what-s-missing-layer-b]] (сходство 0.76)
 - [[06-existing-approximations]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-whats-missing-layer-b](../../../nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+

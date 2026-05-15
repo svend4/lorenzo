@@ -52,3 +52,15 @@ Security Engineer уровня Offensive/Red Team — требует конкр�
 - [[03-partial-fit-honesty]] (сходство 0.24)
 - [[17-appendix-b-change-log]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [06-not-applicable-roles](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)
+

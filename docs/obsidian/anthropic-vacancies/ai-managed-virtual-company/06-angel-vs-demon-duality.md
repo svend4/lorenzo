@@ -61,3 +61,15 @@ date: 2026-05-13
 - [[07-current-implementations]] (сходство 0.13)
 - [[05-polymath-project-tao-comparison]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-angel-vs-demon-duality](../../../anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
+

@@ -55,3 +55,16 @@ In-memory computing на мемристорах (RRAM/CBRAM) (habr.com/ru/compan
 - [[6-metaphor]] (сходство 0.17)
 - [[3-zinc-hybrid-arch]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [6-bonus-rram-memristor](../../../habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
+- [7-metaphor](../../../habr-unique-projects/hardware-pairs/7-metaphor.md)
+

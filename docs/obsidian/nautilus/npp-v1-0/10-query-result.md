@@ -65,3 +65,15 @@ category (сначала full, затем partial, затем singular).
 - [[17-appendix-b-change-log]] (сходство 0.45)
 - [[22-10-queryresult-structure]] (сходство 0.44)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-query-result](../../../nautilus/npp-v1-0/10-query-result.md)
+

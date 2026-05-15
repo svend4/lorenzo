@@ -153,3 +153,15 @@ date: 2026-05-13
 - [[PRIORITIES]] (сходство 0.17)
 - [[SEE_ALSO]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [reading-paths](../reading-paths.md)
+

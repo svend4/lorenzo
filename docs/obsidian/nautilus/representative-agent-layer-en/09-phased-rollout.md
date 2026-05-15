@@ -139,3 +139,15 @@ durable, beneficial infrastructure than rapid scaling.
 - [[178-9-phased-rollout-strategy]] (сходство 0.85)
 - [[07-phased-rollout]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-phased-rollout](../../../nautilus/representative-agent-layer-en/09-phased-rollout.md)
+

@@ -46,3 +46,15 @@ date: 2026-05-13
 - [[03-secondary-beneficial-deployments]] (сходство 0.23)
 - [[06-not-applicable-roles]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [07-unique-niche-eu-legal-infra](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+

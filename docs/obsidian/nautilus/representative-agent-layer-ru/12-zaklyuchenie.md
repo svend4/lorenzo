@@ -571,3 +571,16 @@ Roadmap для гильдийных коллег в OKWF
 - [[207-приложение-c-образцы-случаев-использования-в-детал]] (сходство 0.58)
 - [[207-приложение-c-образцы-случаев-использования-в-детал]] (сходство 0.58)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-response](../../../nautilus/community-discussions/habr-article-2-reaction/01-response.md)
+- [12-zaklyuchenie](../../../nautilus/representative-agent-layer-ru/12-zaklyuchenie.md)
+

@@ -55,3 +55,16 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 - [[4-speech-to-text-llm]] (сходство 0.18)
 - [[2-tsu-mome]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [1-neuromorphic-ssm](../../../habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md)
+- [5-tinyml-mcp-skills](../../../habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
+

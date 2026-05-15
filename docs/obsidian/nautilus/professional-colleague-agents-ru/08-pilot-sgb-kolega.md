@@ -299,3 +299,15 @@ OKWF:
 - [[239-8-пилотное-предложение-sgb-колega-адвокат]] (сходство 0.90)
 - [[07-oblasti-primeneniya]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-pilot-sgb-kolega](../../../nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md)
+

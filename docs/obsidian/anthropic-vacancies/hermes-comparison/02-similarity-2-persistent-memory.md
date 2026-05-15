@@ -46,3 +46,16 @@ Cowork также имеет persistent memory, но Hermes идёт дальш�
 - [[04-similarity-4-multi-platform]] (сходство 0.37)
 - [[09-difference-4-institutional-vision]] (сходство 0.36)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-similarity-2-persistent-memory](../../../anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
+- [09-difference-4-institutional-vision](../../../anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
+

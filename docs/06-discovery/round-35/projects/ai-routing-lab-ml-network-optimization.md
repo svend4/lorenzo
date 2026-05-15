@@ -1,5 +1,10 @@
 # AI Routing Lab: ML для оптимизации сетевых маршрутов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** maxorik (Максим Ланиес), CloudBridge Research  
 **Хабр:** https://habr.com/ru/articles/970630/  
 **GitHub:** https://github.com/cloudbridge-research/ai-routing-lab  

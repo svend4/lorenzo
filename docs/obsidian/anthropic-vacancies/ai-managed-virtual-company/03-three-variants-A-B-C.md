@@ -74,3 +74,15 @@ Anthropic, кстати, частично уже внутри этой эвол�
 - [[07-current-implementations]] (сходство 0.15)
 - [[01-existing-landscape]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-three-variants-A-B-C](../../../anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
+

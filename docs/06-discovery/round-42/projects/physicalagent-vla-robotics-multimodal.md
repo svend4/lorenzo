@@ -1,5 +1,10 @@
 # PhysicalAgent: VLA-агент для роботов без обучения на траекториях
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Artem_Lykov (MTS blog)  
 **Хабр:** https://habr.com/ru/companies/ru_mts/articles/979682/  
 **GitHub:** нет; ArXiv: https://arxiv.org/pdf/2509.13903  

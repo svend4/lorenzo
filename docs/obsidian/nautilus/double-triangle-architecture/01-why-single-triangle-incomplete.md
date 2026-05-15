@@ -106,3 +106,15 @@ such a protocol.
 - [[138-1-why-single-triangle-models-are-incomplete]] (сходство 0.85)
 - [[00-abstract]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-why-single-triangle-incomplete](../../../nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md)
+

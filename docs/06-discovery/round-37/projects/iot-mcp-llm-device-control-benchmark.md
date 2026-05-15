@@ -1,5 +1,10 @@
 # Управление IoT через LLM: три уровня IoT-MCP и IoT-MCP Bench
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** (не идентифицирован из поиска)  
 **Хабр:** https://habr.com/ru/articles/953648/  
 **GitHub:** https://github.com/poly-mcp/IoT-Edge-MCP-Server  

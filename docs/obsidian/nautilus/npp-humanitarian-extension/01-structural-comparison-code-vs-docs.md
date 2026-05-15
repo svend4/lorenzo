@@ -293,3 +293,15 @@ legal-nautilus/ ← отдельный приватный репо
 - [[133-обратная-связь]] (сходство 0.20)
 - [[03-what-this-gives-technically]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-structural-comparison-code-vs-docs](../../../nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+

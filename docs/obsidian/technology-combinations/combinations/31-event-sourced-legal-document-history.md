@@ -86,3 +86,16 @@ ROI: Complete audit trail for court, instant historical queries
 - [[35-mega-stack-4-0-with-event-sourcing-consensus]] (сходство 0.33)
 - [[31-35-final]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [31-event-sourced-legal-document-history](../../../technology-combinations/combinations/31-event-sourced-legal-document-history.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](../../../technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+

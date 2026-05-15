@@ -54,3 +54,15 @@ Incubator / accelerator для founder-track. Entrepreneur First (Paris, Berlin)
 - [[08-practical-ranking]] (сходство 0.20)
 - [[03-secondary-beneficial-deployments]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [03-revised-anthropic-mapping](../../../../anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+

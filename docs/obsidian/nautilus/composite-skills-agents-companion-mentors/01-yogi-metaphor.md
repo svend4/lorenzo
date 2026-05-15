@@ -96,3 +96,15 @@ Claude hat geantwortet: Это очень тонкое и важное набл�
 - [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а]] (сходство 0.19)
 - [[02-what-was-missing-in-paper-6]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-yogi-metaphor](../../../nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
+

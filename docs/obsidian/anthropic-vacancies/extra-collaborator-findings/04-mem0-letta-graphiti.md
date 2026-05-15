@@ -108,3 +108,17 @@ Extraction/structuring
 - [[06-final-tier-ranking]] (сходство 0.34)
 - [[03-section-3-solution-architecture]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-coally](../../../anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+- [03-happyin-knowledge-space](../../../anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md)
+- [04-mem0-letta-graphiti](../../../anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+

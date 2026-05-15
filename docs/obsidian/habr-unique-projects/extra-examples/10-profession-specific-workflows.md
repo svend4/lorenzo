@@ -90,3 +90,15 @@ Time to MVP: 3-6 месяцев focused work.
 - [[09-federated-platform]] (сходство 0.27)
 - [[08-personal-multi-agent-hub]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-profession-specific-workflows](../../../habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
+

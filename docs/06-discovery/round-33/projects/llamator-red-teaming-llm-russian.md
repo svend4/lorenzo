@@ -1,5 +1,10 @@
 # LLAMATOR: Red Teaming фреймворк для тестирования уязвимостей LLM
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** nizamovtimur (Тимур Низамов), ITMO AI Talent Hub / Raft Digital Solution  
 **Хабр:** https://habr.com/ru/articles/851640/  
 **GitHub:** https://github.com/RomiconEZ/LLaMator  

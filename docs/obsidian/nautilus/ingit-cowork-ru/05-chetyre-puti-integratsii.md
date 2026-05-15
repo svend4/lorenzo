@@ -239,3 +239,15 @@ API доступно
 - [[331-5-четыре-пути-интеграции-в-порядке-доступности]] (сходство 0.85)
 - [[06-utochnyonnyy-obyom-ingit]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-chetyre-puti-integratsii](../../../nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
+

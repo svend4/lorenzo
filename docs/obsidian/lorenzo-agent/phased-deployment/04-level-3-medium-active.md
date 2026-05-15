@@ -89,3 +89,16 @@ Synthesis quality зависит от model capabilities
 - [[05-level-4-extended-mature]] (сходство 0.26)
 - [[01-level-0-manual]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-level-2-basic-lite](../../../lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+- [04-level-3-medium-active](../../../lorenzo-agent/phased-deployment/04-level-3-medium-active.md)
+

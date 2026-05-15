@@ -54,3 +54,15 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 - [[3-adversarial-multi-ide]] (сходство 0.19)
 - [[1-workflow-llm-mcp]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [4-skill-catalogs-subagents](../../../habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
+

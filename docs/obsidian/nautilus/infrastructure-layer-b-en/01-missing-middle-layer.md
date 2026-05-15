@@ -78,3 +78,16 @@ This document explores that observation.
 - [[275-why-this-document-exists]] (сходство 0.80)
 - [[275-why-this-document-exists]] (сходство 0.75)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-missing-middle-layer](../../../nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+- [02-why-document-exists](../../../nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+

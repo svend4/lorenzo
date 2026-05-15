@@ -46,3 +46,16 @@ Du hast gesagt: Ещё есть такие вопросы то есть если
 - [[00-question-agent-changes-reality]] (сходство 0.24)
 - [[00-question-scenario]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-camel-vs-nautilus](../../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-multi-tier](../../../nautilus/multi-tier-architecture/00-question-multi-tier.md)
+

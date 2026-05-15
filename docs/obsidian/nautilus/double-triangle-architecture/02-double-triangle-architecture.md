@@ -169,3 +169,15 @@ large organizations (Star(n)) without protocol changes.
 - [[139-2-the-double-triangle-architecture]] (сходство 0.82)
 - [[03-three-inter-layer-protocols]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-double-triangle-architecture](../../../nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
+

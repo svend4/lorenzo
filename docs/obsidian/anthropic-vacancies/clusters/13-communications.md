@@ -41,3 +41,19 @@ Communications Lead для Claude Code и для Anthropic Institute, Communicat
 - [[15-public-benefit]] (сходство 0.59)
 - [[16-people]] (сходство 0.58)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [250-bridging-the-gap-between-profession-wide-and-indiv](../../../02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-finance](../../../anthropic-vacancies/clusters/03-finance.md)
+- [06-engineering-design-product](../../../anthropic-vacancies/clusters/06-engineering-design-product.md)
+- [08-safeguards-trust-safety](../../../anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
+- _...ещё 8_
+

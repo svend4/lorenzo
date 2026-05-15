@@ -45,3 +45,17 @@ date: 2026-05-13
 - [[05-quaternary-developer-education]] (сходство 0.24)
 - [[04-tertiary-research-engineer-agents]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [05-quaternary-developer-education](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
+- [08-practical-ranking](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
+- [05-reality-check-distribution-gap](../../../../anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
+

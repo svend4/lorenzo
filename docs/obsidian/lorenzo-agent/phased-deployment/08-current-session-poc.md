@@ -192,3 +192,15 @@ Both produce artifacts which are immediately useful
 - [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи]] (сходство 0.18)
 - [[364-final-note-ты-experiment]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-current-session-poc](../../../lorenzo-agent/phased-deployment/08-current-session-poc.md)
+

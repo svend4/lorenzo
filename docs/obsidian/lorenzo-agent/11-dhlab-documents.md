@@ -57,3 +57,15 @@ date: 2026-05-13
 - [[355-существующие-документы-dhlab-твой-context]] (сходство 0.58)
 - [[344-системный-промпт-для-lorenzo-project]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [11-dhlab-documents](../../lorenzo-agent/11-dhlab-documents.md)
+

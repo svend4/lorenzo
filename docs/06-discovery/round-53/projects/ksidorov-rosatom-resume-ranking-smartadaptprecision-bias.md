@@ -1,5 +1,10 @@
 # Resume Ranking в Росатоме: SmartAdaptPrecision@K, обнаружение bias, 78% vs 84% рекрутер
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** ksidorov (Кирилл Сидоров, GreenAtom / Росатом)  
 **Хабр:** https://habr.com/ru/companies/greenatom/articles/917546/  
 **GitHub:** нет (production ML кейс)  

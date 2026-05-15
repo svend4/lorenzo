@@ -905,3 +905,14 @@ _Обновлено: 2026-04-29_
 | `svyazi-2-0` | 0 | 8 | 51 |
 | `technology-combinations` | 0 | 34 | 19 |
 | `templates` | 0 | 0 | 6 |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

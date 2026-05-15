@@ -54,3 +54,15 @@ date: 2026-05-13
 - [[research-docs-liteparse]] (сходство 0.33)
 - [[graph-rag]] (сходство 0.32)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [legal-rag](../../../svyazi-2-0/components/legal-rag.md)
+

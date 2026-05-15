@@ -1,5 +1,10 @@
 # HabrSearch (Semantic Habr)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** igor_suhorukov (Habr-профиль)  
 **Хабр:** https://habr.com/ru/articles/915348/  
 **GitHub:** не найден явно (проект на Java/Spring Boot, возможно в профиле автора)  

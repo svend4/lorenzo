@@ -54,3 +54,15 @@ ChatGPT сказал:
 - [[3-forensic-rag]] (сходство 0.12)
 - [[1-agentic-knowledge-os]] (сходство 0.12)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../ai-collaborations/fast-tracks/README.md)
+

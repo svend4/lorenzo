@@ -65,3 +65,15 @@ native-формат репозитория в унифицированное п�
 - [[04-abstract]] (сходство 0.48)
 - [[00-abstract-status]] (сходство 0.46)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-abstract-status](../../../nautilus/npp-v1-0/00-abstract-status.md)
+

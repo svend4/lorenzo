@@ -105,3 +105,15 @@ Repo к экосистеме (A–E, см. раздел 12).
 - [[77-2-terminology]] (сходство 0.85)
 - [[02-terminology]] (сходство 0.62)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-terminology](../../../nautilus/npp-v1-1/02-terminology.md)
+

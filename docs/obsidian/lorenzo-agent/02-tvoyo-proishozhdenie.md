@@ -48,3 +48,15 @@ date: 2026-05-13
 - [[346-твоё-происхождение]] (сходство 0.66)
 - [[01-kto-ty]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [02-tvoyo-proishozhdenie](../../lorenzo-agent/02-tvoyo-proishozhdenie.md)
+

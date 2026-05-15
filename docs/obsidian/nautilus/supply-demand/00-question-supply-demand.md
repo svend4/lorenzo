@@ -47,3 +47,16 @@ Mehr anzeigen
 - [[00-question-scenario]] (сходство 0.16)
 - [[00-question-agent-changes-reality]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-supply-demand](../../../nautilus/supply-demand/00-question-supply-demand.md)
+- [00-question-mountain-to-person](../../../nautilus/transmission-box/00-question-mountain-to-person.md)
+
