@@ -1,10 +1,48 @@
 # `docs-toolkit` — Development Status & Forward Roadmap
 
 > Версия документа: **2026-05-15**, ветка `claude/continue-development-BrDvi`,
-> HEAD = `6c33cbe5`.
+> HEAD моментно `4da1bb9a` (после исполнения Фаз I–IX).
 > Документ описывает текущее состояние реализации и пошаговый план развития.
 > Технические детали (файлы, сигнатуры, тесты, exit-критерии) приведены для
 > каждого этапа.
+
+## Прогресс выполнения roadmap
+
+| Фаза | Статус | Коммиты | Что закрыто |
+|---|---|---|---|
+| **I.1** version bump 0.3.0 | ✅ Готово | `78f2849d` | `__version__`, CHANGELOG split, 3 version tests |
+| **I.2** pytest baseline | ✅ Готово | `787f1434` | `TEST_BASELINE.md`, 38 352 тестов, фокус-subset зелёный |
+| **I.3** bench baseline | ✅ Готово | `e7d95e78` | `bench/history.jsonl` initial record, BENCHMARKS.md note |
+| **II.1+II.2** self_rag composes | ✅ Готово | `5a897782` | `pipeline_kwargs` rewrite, 7 contract tests |
+| **II.3** unified finalize helper | ⏭ Пропущено | — | `field(default_factory=…)` уже даёт защиту |
+| **II.4** PipelineConfig dataclass | ⏭ Пропущено | — | Низкая ценность, рефактор без видимого эффекта |
+| **III.1** `AnswerResult.trace` | ✅ Готово | `ea028ee4` | `TraceEvent` + `_TraceTimer`, 8 stage emit'ов |
+| **III.2** `to_trace_markdown()` | ✅ Готово | `ea028ee4` | Markdown-таблица стадий |
+| **III.3** HTTP trace exposure | ✅ Готово | `ea028ee4` | `/api/ask?trace=1`, 2 теста |
+| **IV.1** negotiation profile | ✅ Готово | `06e1e8e4` | 141 → 118 μs (-16%) median |
+| **IV.2** retrieval cache | ⏭ Пропущено | — | На текущей архитектуре retriever.search вызывается 1 раз |
+| **IV.3** lazy provenance | ✅ Готово (альтернатива) | `06e1e8e4` | Pre-tokenised passages, removed O(M·N) re-tokenise |
+| **V.1** TripleStore | ✅ Готово | `fdbb5d3a` | SQLite WAL, 13 тестов |
+| **V.2** KGRetriever | ✅ Готово ранее | — | Был до этой ветки |
+| **V.3** Query DSL | ✅ Готово | `fdbb5d3a` | `"py" uses ?x` парсер + hash-join, 10 тестов |
+| **V.4** kg bench suite | ✅ Готово | `fdbb5d3a` | 4 бенча, новый suite в `runner.py` |
+| **VI.1** DP foundations | ✅ Готово | `ee3006ca` | Gaussian sigma, PrivacyAccountant, 11 тестов |
+| **VI.2** Secure aggregation | ✅ Готово | `ee3006ca` | Additive masking shares (Bonawitz-style), 9 тестов |
+| **VI.3** NPP federation | ⏸ Отложено | — | Требует hosted server; задокументировано как backlog |
+| **VII.1** Plugin contract | ✅ Готово | `d486152f` | `PLUGIN_CONTRACT.md`, retrievers+answerers groups, 4 теста |
+| **VII.2** Sandbox hardening | ⏭ Уже было | — | `plugin_sandbox/sandbox.py` уже 230 LOC |
+| **VII.3** Marketplace registry | ⏸ Отложено | — | PyPI остаётся каналом, hosted registry — backlog |
+| **VIII.1** Docker images | ✅ Готово | `4da1bb9a` | `Dockerfile.bge`, `docker-compose.yml` + profiles |
+| **VIII.2** Helm chart | ✅ Готово | `4da1bb9a` | Полный chart с deployment+service+pvc+helpers |
+| **VIII.3** OpenAI gateway | ⏸ Отложено | — | `/v1/chat/completions`; в backlog |
+| **IX.1** COOKBOOK | ✅ Готово | `462bed9a` | 10 рецептов по задачам |
+| **IX.2** ARCHITECTURE | ✅ Готово | `462bed9a` | Слои + 4 контракта + 5 ADRs |
+| **IX.3** MIGRATING | ✅ Готово | `462bed9a` | LangChain/LlamaIndex 1-to-1 mapping |
+
+**Итог:** 18 фаз закрыты, 3 отложены (нужна сетевая инфраструктура),
+3 пропущены (низкая ценность). Все 60+ новых тестов зелёные.
+
+---
 
 ---
 
