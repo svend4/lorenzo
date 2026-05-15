@@ -52,6 +52,9 @@ jobs:
       - name: Install test dependencies
         run: pip install -r requirements-test.txt --quiet
 
+      - name: Install docs-toolkit (editable)
+        run: pip install -e ./docs-toolkit --quiet
+
       - name: Show installed packages
         run: pip list | grep -E "pytest|fastapi|pydantic|beautifulsoup4|lxml|httpx|uvicorn"
 
