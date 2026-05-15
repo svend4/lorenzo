@@ -8,10 +8,29 @@ Provides restricted execution environment with:
 from __future__ import annotations
 
 import builtins
+import ctypes
 import threading
 import time
 from dataclasses import dataclass, field
 from typing import Any
+
+
+def _kill_thread(thread: threading.Thread) -> None:
+    """Inject SystemExit into a runaway daemon thread.
+
+    Without this, a sandbox timeout leaves a daemon thread spinning a
+    busy loop (e.g. ``while True: pass``) for the rest of the process
+    lifetime — fine for short-lived CLIs, but in a long test session it
+    pegs CPU and slows every subsequent test linearly. Pure-Python loops
+    check for pending exceptions at each bytecode boundary, so async
+    injection unwinds them; threads stuck in C extensions are unaffected.
+    """
+    tid = thread.ident
+    if tid is None or not thread.is_alive():
+        return
+    ctypes.pythonapi.PyThreadState_SetAsyncExc(
+        ctypes.c_long(tid), ctypes.py_object(SystemExit)
+    )
 
 
 @dataclass
@@ -143,7 +162,8 @@ class PluginSandbox:
         duration = time.monotonic() - start
 
         if thread.is_alive():
-            # Timed out — thread is still running (daemon, will be reaped)
+            _kill_thread(thread)
+            thread.join(timeout=0.5)
             return SandboxResult(success=False, error="timeout", duration=duration)
 
         if exc_holder:
@@ -214,6 +234,8 @@ class PluginSandbox:
         duration = time.monotonic() - start
 
         if thread.is_alive():
+            _kill_thread(thread)
+            thread.join(timeout=0.5)
             return SandboxResult(success=False, error="timeout", duration=duration)
 
         if exc_holder:
