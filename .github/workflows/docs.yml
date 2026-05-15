@@ -102,12 +102,18 @@ jobs:
             echo "No metric changes to publish."
             exit 0
           fi
+          base="${GITHUB_REF_NAME}"
           branch="auto/docs-metrics-$(date -u +%Y-%m-%d)-${GITHUB_SHA::7}"
           git switch -c "$branch"
           git commit -m "docs: auto-update metrics [skip ci]"
-          git push -u origin "$branch"
-          gh pr create \
-            --base "${GITHUB_REF_NAME}" \
-            --head "$branch" \
-            --title "docs: auto-update metrics ($(date -u +%Y-%m-%d))" \
-            --body "Auto-generated metrics refresh from \`docs-update\` workflow.\n\nSource commit: ${GITHUB_SHA}"
+          git push -u --force-with-lease origin "$branch"
+          body=$(printf 'Auto-generated metrics refresh from `docs-update` workflow.\n\nSource commit: %s' "${GITHUB_SHA}")
+          if gh pr view "$branch" --json number --jq .number >/dev/null 2>&1; then
+            echo "PR already open for $branch — branch update is sufficient."
+          else
+            gh pr create \
+              --base "$base" \
+              --head "$branch" \
+              --title "docs: auto-update metrics ($(date -u +%Y-%m-%d))" \
+              --body "$body"
+          fi
