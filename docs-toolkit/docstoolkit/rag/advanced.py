@@ -8,6 +8,10 @@ Wires the following primitives behind one-line helpers usable from CLI / API:
   - federated_aggregate()   — N5 DP-aware multi-org eval aggregation
   - co_evolve_round()       — N10 adversarial generator round
   - classify_docs()         — S3 TF-IDF document auto-classification
+  - FusedRetrieverAdapter() — I6 .search()-shaped adapter over fusion module
+  - search_assets()         — M8 cross-modal multi-modal asset search
+  - evolve_prompt()         — I9 PromptGA wrapper
+  - incremental_index_docs()— M7 IncrementalIndexer wrapper
 """
 from __future__ import annotations
 
@@ -228,3 +232,143 @@ def classify_docs(
             "confidence": conf,
         })
     return out
+
+
+# ---------------------------------------------------------------------------
+# I6 — Learned fusion adapter
+# ---------------------------------------------------------------------------
+
+class FusedRetrieverAdapter:
+    """Wrap `fusion.FusedRetriever` to expose the `.search(query, top_k)`
+    contract that `RAGPipeline` expects.
+
+    Caller supplies a `candidates_fn(query) -> list[dict]` that yields the
+    per-passage feature dicts (`{text, doc_id, bm25, dense, graph, ...}`).
+    """
+
+    def __init__(self, fused, candidates_fn):
+        self._fused = fused
+        self._candidates_fn = candidates_fn
+
+    def search(self, query: str, top_k: int = 5):
+        from docstoolkit.rag.types import Passage
+
+        cands = list(self._candidates_fn(query))
+        ranked = self._fused.score_passages(query, cands, top_k=top_k)
+        # ranked is [(doc_id, score)] — re-attach text/title from candidates
+        by_id = {c.get("doc_id", ""): c for c in cands}
+        out: list[Passage] = []
+        for doc_id, score in ranked:
+            c = by_id.get(doc_id, {})
+            out.append(Passage(
+                text=c.get("text", ""), doc_id=doc_id,
+                title=c.get("title", ""), score=float(score),
+            ))
+        return out
+
+
+# ---------------------------------------------------------------------------
+# M8 — Cross-modal multi-modal asset search
+# ---------------------------------------------------------------------------
+
+def search_assets(
+    query: str,
+    docs_dir: "Path | str" = None,
+    *,
+    asset_type: str = "",
+    tag: str = "",
+):
+    """Return assets (images / tables / code blocks) matching the query.
+
+    Builds a `MultiModalIndex` lazily on the corpus and queries it. If
+    `asset_type` is provided, restricts to that type. `tag` further filters.
+    """
+    from pathlib import Path as _P
+
+    from docstoolkit.multimodal_meta import (
+        AssetType,
+        MetadataExtractor,
+        MultiModalIndex,
+    )
+
+    if docs_dir is None:
+        try:
+            from docstoolkit.config import load_config
+            docs_dir = load_config().docs_dir
+        except Exception:
+            docs_dir = _P("docs")
+
+    docs_dir = _P(docs_dir)
+    index = MultiModalIndex()
+    extractor = MetadataExtractor()
+    if docs_dir.exists():
+        for f in docs_dir.rglob("*.md"):
+            try:
+                text = f.read_text(encoding="utf-8", errors="replace")
+            except (OSError, PermissionError):
+                continue
+            rel = str(f.relative_to(docs_dir)).replace("\\", "/")
+            for asset in extractor.extract(text, doc_id=rel):
+                index.add(asset)
+
+    results = index.search_by_text(query) if query else []
+    if asset_type:
+        try:
+            atype = AssetType[asset_type.upper()]
+            results = [r for r in results if r.asset_type == atype]
+        except (KeyError, AttributeError):
+            pass
+    if tag:
+        results = [r for r in results
+                   if tag in getattr(r, "tags", [])]
+    return [
+        {
+            "asset_id": getattr(a, "asset_id", ""),
+            "doc_id": getattr(a, "source_doc", getattr(a, "doc_id", "")),
+            "type": getattr(a.asset_type, "value", str(a.asset_type)),
+            "title": getattr(a, "caption", "") or getattr(a, "alt_text", ""),
+            "tags": list(getattr(a, "tags", [])),
+        }
+        for a in results
+    ]
+
+
+# ---------------------------------------------------------------------------
+# I9 — Self-improving prompts (genetic algorithm)
+# ---------------------------------------------------------------------------
+
+def evolve_prompt(
+    seeds: list[str],
+    fitness_fn,
+    *,
+    generations: int = 5,
+    population_size: int = 8,
+) -> list[tuple[str, float]]:
+    """Run `generations` of `PromptGA` evolution and return the final
+    population sorted by fitness."""
+    from docstoolkit.prompts_ga import GAConfig, PromptGA
+
+    cfg = GAConfig(population_size=population_size)
+    ga = PromptGA(seed_templates=list(seeds),
+                  fitness_fn=fitness_fn, config=cfg)
+    for _ in range(max(1, generations)):
+        ga.step()
+    return ga.evolve()  # final pop sorted by fitness
+
+
+# ---------------------------------------------------------------------------
+# M7 — Incremental indexing
+# ---------------------------------------------------------------------------
+
+def incremental_index_docs(
+    docs: dict,
+    handler=None,
+):
+    """Submit a batch of `{doc_id: content}` to an `IncrementalIndexer`
+    and process it through `handler` (defaults to a no-op).
+    Returns the final IndexStats."""
+    from docstoolkit.incremental_index import IncrementalIndexer
+
+    indexer = IncrementalIndexer()
+    indexer.submit_batch(docs)
+    return indexer.process_batch(handler=handler or (lambda change: None))
