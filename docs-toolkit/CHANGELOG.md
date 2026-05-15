@@ -7,6 +7,10 @@
 
 ## [Unreleased]
 
+_(empty — отслеживание изменений после 0.3.0)_
+
+## [0.3.0] - 2026-05-15
+
 ### Added — full roadmap coverage (Sprints 54-92)
 
 **Path A** — production foundation:
