@@ -184,3 +184,163 @@ from docstoolkit.citations import PageRankBoostedRetriever
 - **I3** Provenance + confidence intervals (5 спринтов)
 - **M1** Knowledge graph multi-hop (4 спринта)
 - **I1** Self-RAG с reflection (5 спринтов)
+
+---
+
+## Sprint 55 / S2 — Faceted aggregation + filters
+
+```python
+from docstoolkit.rag import ask
+
+# Aggregate per-field counts over retrieved passages
+result = ask("RAG", with_facets=True,
+             facet_fields=("section", "tag", "year"))
+for agg in result.facets:
+    print(agg.field_name, agg.values[:5])
+
+# Pre-filter results to a single section before answering
+result = ask("RAG", filters={"section": "05-habr-projects"})
+
+# Combined: filter + facets over the filtered set
+result = ask("RAG",
+             filters={"section": "docs", "tag": ["memory", "agents"]},
+             with_facets=True)
+```
+
+Built-in extractors: `section`, `tag`, `year`, `depth`. Custom extractors:
+```python
+from docstoolkit.rag.facets import aggregate_facets
+
+aggs = aggregate_facets(
+    passages,
+    fields=("letter",),
+    extractors={"letter": lambda p: [p.doc_id[:1]]},
+)
+```
+
+## Sprint 61 / I3 — Provenance + Confidence Intervals
+
+```python
+result = ask("Yodoca?", with_provenance=True)
+if result.provenance is not None:
+    print(result.provenance.to_markdown())
+    # ## Claims
+    # 1. Yodoca is a memory project. — confidence: 0.82 (CI: 0.71–0.91)
+    #    | sources: docs/yodoca, docs/yodoca-arch
+```
+
+`ProvenancedAnswer.overall_confidence` — mean confidence over claims;
+`high_confidence_claims(0.7)` filters.
+
+## Sprint 66 / M1 — Knowledge Graph Retriever
+
+```python
+from docstoolkit.knowledge_graph import KGRetriever
+
+kgr = KGRetriever(max_hops=2)
+for doc_path in corpus:
+    kgr.index_doc(doc_path, Path(doc_path).read_text(), title=...)
+
+# Direct usage (custom pipeline)
+passages = kgr.search("Yodoca and AgentFS", top_k=5)
+print(kgr.stats())  # {'docs': N, 'entities': M, 'relations': R}
+```
+
+Walk-pattern: extract query entities → expand neighbours up to
+`max_hops` → score docs by `|doc.entities ∩ relevant| / |relevant|`.
+
+## Sprint 67 / M3 — Hierarchical Retrieval
+
+```python
+# section → doc → passage routing, drop into ask() pipeline:
+result = ask("How does Knowledge OS handle drift?", hierarchical=True)
+# trace + per-level scoring is inside `hierarchical_search` internals;
+# AnswerResult only carries the final passages
+```
+
+## Sprint 68 / M4 — Auto-Intent Routing
+
+```python
+# Lets IntentRouter pick retriever + top_k based on the question type:
+ask("When was Anthropic founded?", auto_intent=True)
+# FACTOID → keyword + top_k=3
+ask("Compare BM25 vs TF-IDF", auto_intent=True)
+# COMPARISON → hybrid + top_k=10
+ask("Summarise the Knowledge OS architecture", auto_intent=True)
+# SYNTHESIS → hybrid + top_k=20 + hierarchical=True
+```
+
+Explicit `method`/`top_k` always wins over auto-routing.
+
+## Sprint 70 / I1 — Self-RAG Loop
+
+```python
+result = ask(
+    "What's special about Yodoca?",
+    self_rag=True,
+    self_rag_max_iters=3,
+    self_rag_threshold=7.0,   # reflect score 0-10
+)
+# Internally loops: retrieve → answer → reflect → maybe re-query
+# Returns the iteration with highest confidence
+```
+
+## Sprint 75 / N3 — Graph-of-Thoughts
+
+```python
+result = ask("Python and Docker?", with_got=True, got_max_hypotheses=5)
+# result.got_result.graph    — ThoughtGraph (DAG)
+# result.got_result.final_answer — synthesised text
+# result.got_result.confirmed_count / refuted_count
+```
+
+## Sprint 80 / N1 — Document Metabolism Proposals
+
+Structured "this doc is stale, here are absorbable fragments" report,
+ready for human-in-the-loop review:
+
+```python
+from docstoolkit.metabolism import propose_rewrite, rank_stale_documents
+
+# Pick stale candidates from a corpus
+candidates = rank_stale_documents(
+    [(doc_id, content, last_modified_iso) for doc_id in corpus],
+    threshold_days=180.0,
+)
+
+# For each, draft a rewrite proposal from fresh sources
+for doc_id, age in candidates[:5]:
+    proposal = propose_rewrite(
+        doc_id, target_content,
+        sources=[(s_id, s_text) for s_id, s_text in fresh_pool],
+        last_modified_iso=last_mod_iso,
+    )
+    if proposal.has_changes:
+        print(proposal.to_markdown())
+        # Send to review queue, or apply proposal.suggested_content
+```
+
+## Полная композиция (10 фич сразу)
+
+```python
+result = ask(
+    "Что такое Knowledge OS и какие у него ограничения?",
+    user_id="alice",                  # S6 + S7  (auto profile + read-receipt)
+    reranker=get_reranker("bge"),     # M2       (cross-encoder rerank)
+    eval_runner=runner,               # M5       (sample for online eval)
+    filters={"section": "docs"},      # S2 filter
+    with_facets=True,                 # S2 aggregation
+    with_provenance=True,             # I3       (span-level + 95% CI)
+    self_rag=True,                    # I1       (reflect loop)
+    with_got=True,                    # N3       (graph-of-thoughts)
+    auto_intent=True,                 # M4       (route by question type)
+    hierarchical=True,                # M3       (section→doc→passage)
+)
+
+# All 10 features stack orthogonally:
+result.retrieved_passages   # final ranked passages
+result.facets                # aggregations
+result.provenance            # ProvenancedAnswer with claims
+result.got_result            # ReasoningResult with thought DAG
+```
+
