@@ -1,4 +1,19 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 35 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Continuous fine-tuning и обновление знаний LLM — online learning, knowledge editing, catastrophic forgetting prevention, ROME/MEMIT методы
+3.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -103,3 +118,18 @@
 | Puzer (Дмитрий) | GitHub Repo Embeddings | github.com/Puzer |
 | daniel_ivanov | EduLLM-RU | github.com/csylabs-org |
 | trashchenkov | GigaChain ReAct Agent | github.com/ai-forever |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)
+- [Решения](../../DECISIONS.md)

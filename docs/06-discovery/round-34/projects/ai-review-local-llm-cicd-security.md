@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # AI Review кода: локальная LLM в CI/CD за 30 минут
+
+<!-- toc-auto -->
+<!-- tags: ai-review-local-llm-cicd-security, docs -->
+
+
+<!-- summary -->
+> Особенно ценно для регулируемых отраслей и on-premise сред, где исходный код не должен покидать инфраструктуру.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -263,3 +277,10 @@ class LorenzoAIReview:
 - Смежная (DerAI + Solar appScreener SAST): https://habr.com/ru/companies/solarsecurity/articles/1031718/
 - Смежная (вайбкод + DevSecOps pipeline): https://habr.com/ru/companies/ruvds/articles/1017858/
 - Ollama: ollama.com
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

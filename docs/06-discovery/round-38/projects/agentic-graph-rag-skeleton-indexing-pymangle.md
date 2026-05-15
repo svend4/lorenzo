@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Agentic Graph RAG: Skeleton Indexing + VectorCypher + PyMangle Datalog
+
+<!-- toc-auto -->
+<!-- tags: agentic-graph-rag-skeleton-indexing-pymangle, docs -->
+
+
+<!-- summary -->
+> `agentic-graph-rag-skeleton-indexing-pymangle` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -366,3 +380,11 @@ class LorenzoGraphRAG:
 - Neo4j vector index: neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/
 - Смежная (GraphRAG production): habr.com/ru/articles (R09, R22)
 - Смежная (финансовый RAG с 4 головами): https://habr.com/ru/articles/963482/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

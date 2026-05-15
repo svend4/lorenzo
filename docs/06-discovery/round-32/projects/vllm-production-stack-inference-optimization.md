@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # vLLM Production Stack: KV-cache, FP8, Speculative Decoding в production
+
+<!-- toc-auto -->
+<!-- tags: vllm-production-stack-inference-optimization, docs -->
+
+
+<!-- summary -->
+> `vllm-production-stack-inference-optimization` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -261,3 +275,11 @@ LORENZO_VLLM_CONFIG = {
 - Смежная (оптимизация inference, Yandex): https://habr.com/ru/companies/yandex/articles/878230/
 - Смежная (ZINC inference engine, 35B на $500 GPU): https://habr.com/ru/articles/1020702/
 - Смежная (VK batch inference): https://habr.com/ru/companies/vk/articles/900762/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

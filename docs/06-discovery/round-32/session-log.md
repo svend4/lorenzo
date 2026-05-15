@@ -1,4 +1,22 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 32 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> МТС RAG: гибридный поиск для корпоративного AI-помощника Хабр: https://habr.com/ru/companies/ru_mts/articles/970476/
+ Файл:  
+ Хабр: https://habr.com/ru/companies/ru_mts/articles/970476/
+ Слой: ingestion / orchestration / knowledge
+ Уникальность: Точная формула ранжирования:   + буст-факторы (заголовок ×1.2,
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -105,3 +123,11 @@ python scripts/improve_collab_finder.py --file docs/06-discovery/round-32/projec
 2. **LLM для инженерии данных** — генерация dbt/SQL/Spark пайплайнов через LLM, data quality checks с AI, ETL через агентов, автоматическая документация датасетов
 3. **Суверенный AI (on-premise)** — self-hosted LLM стеки без зависимости от OpenAI/Anthropic, частный inference в контуре компании, российские LLM в production, Ollama/vLLM+локальные модели
 4. **LLM alignment и red-teaming** — red-teaming LLM в российском контексте, jailbreaking устойчивость, конституциональный AI, evaluation безопасности, audit trails для регуляторов
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)
+- [Решения](../../DECISIONS.md)

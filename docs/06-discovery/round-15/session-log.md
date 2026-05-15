@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 15 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> AI Review (github.com/Nikita-Filonov/ai-review) — единственный найденный за 15 раундов open-source CI/CD инструмент с локальным LLM-ревью: GitHub Actions + Ollama, ноль кода не уходит в облако.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -66,3 +80,17 @@
 - **AI для работы с Kubernetes/инфраструктурой** — операционный AI, GitOps + LLM
 - **Evaluation фреймворки** — как оценивать качество работы агентов (RAGAS, DeepEval, TruLens)
 - **Аудио AI продвинутый** — многоканальная аудио обработка, speaker diarization, русскоязычные ASR
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

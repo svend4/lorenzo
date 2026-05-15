@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # LangGraph: checkpoint, fault tolerance и state management для агентов
+
+<!-- toc-auto -->
+<!-- tags: langgraph-checkpoint-fault-tolerant-agents, docs -->
+
+
+<!-- summary -->
+> `langgraph-checkpoint-fault-tolerant-agents` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
@@ -474,3 +488,11 @@ class LorenzoAgentWithCheckpointing:
 - LangSmith Deployment: smith.langchain.com
 - Смежная (SherlockOps Go-агент, R42): docs/06-discovery/round-42/projects/sherlockops-llm-alert-investigation-devops.md
 - Смежная (Cognitive Memory SQLite, R31): docs/06-discovery/round-31/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

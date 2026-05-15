@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # LLM против мошенников: контекстный советник в AML/AF pipeline
+
+<!-- toc-auto -->
+<!-- tags: llm-aml-fraud-contextual-advisor-fintech, docs -->
+
+
+<!-- summary -->
+> `llm-aml-fraud-contextual-advisor-fintech` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -265,3 +279,11 @@ class LorenzoExplainedSearch:
 - Смежная (VTB SHAP для AML/скоринга): https://habr.com/ru/companies/vtb/articles/938988/
 - Смежная (Finam FinBench LLM финансы): https://habr.com/ru/companies/finam_broker/articles/989842/
 - FATF рекомендации: fatf-gafi.org
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

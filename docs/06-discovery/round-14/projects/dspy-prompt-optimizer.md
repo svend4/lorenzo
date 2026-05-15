@@ -1,4 +1,24 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, knowledge, architecture, anthropic]
+state: normalized
+---
+
 # DSPy — программирование языковых моделей вместо промптинга
+
+<!-- toc-auto -->
+<!-- tags: dspy-prompt-optimizer, docs -->
+
+
+<!-- summary -->
+> Компонент | Назначение | Signature | Описание: что принимает модуль, что возвращает |
+ 
+Компоненты DSPy
+ Компонент | Назначение |
+ -----------|-----------|
+ Signature | Описание: что принимает модуль, что возвращает |
+ Module | ChainOfThought, ReAct, Retrieve и др.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -76,3 +96,10 @@ enrich = dspy.ChainOfThought(CardEnrichment)
 - Статья Хабр: https://habr.com/ru/articles/882864/
 - Документация: https://dspy.ai/
 - Интеграция с Qdrant: https://qdrant.tech/documentation/frameworks/dspy/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

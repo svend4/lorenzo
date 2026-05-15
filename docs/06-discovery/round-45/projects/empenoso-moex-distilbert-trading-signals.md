@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [knowledge, ingestion, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # DistilBERT для торговых сигналов на Московской бирже (MOEX)
+
+<!-- toc-auto -->
+<!-- tags: empenoso-moex-distilbert-trading-signals, docs -->
+
+
+<!-- summary -->
+> `empenoso-moex-distilbert-trading-signals` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -330,3 +344,11 @@ class LorenzoTextSignalAnalyzer:
 - MOEX API: moexalgo.github.io
 - Смежная (Finam LLM trading, R26): docs/06-discovery/round-26/
 - Смежная (AML LLM advisor, R42): docs/06-discovery/round-42/projects/llm-aml-fraud-contextual-advisor-fintech.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

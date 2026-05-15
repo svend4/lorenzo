@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # LLM Observability & AI Agent Tracing: semantic span typing и 6 open-source инструментов
+
+<!-- toc-auto -->
+<!-- tags: antipov-llm-observability-agent-tracing-opentelemetry, docs -->
+
+
+<!-- summary -->
+> `antipov-llm-observability-agent-tracing-opentelemetry` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
@@ -394,3 +408,11 @@ class LorenzoObservabilitySetup:
 - Смежная (LangFuse observability R38): docs/06-discovery/round-38/
 - Смежная (LangGraph checkpointing, R44): docs/06-discovery/round-44/projects/langgraph-checkpoint-fault-tolerant-agents.md
 - Смежная (SherlockOps SRE агент, R42): docs/06-discovery/round-42/projects/sherlockops-llm-alert-investigation-devops.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

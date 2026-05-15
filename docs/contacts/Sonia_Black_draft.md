@@ -1,15 +1,32 @@
 ---
+state: normalized
 author: Sonia_Black
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [knowledge, ingestion, architecture, collaboration]
 ---
 
 # Черновик сообщения — Sonia_Black (GitHub)
+<!-- tags: sonia-black-draft, docs -->
+
 
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (3):
+С уважением,
+svend4
+ --
+Смотрите также:
+ AnastasiyaW_draft
+ Cutcode_draft
+ Dmitriila_draft
+ VladSpace_draft
+ --
+Кто ссылается на этот документ (3):
+ DIGEST_AUTO
+ READING_TIME
+ AnastasiyaW_draf
 **Проекты:** Svyazi, knowledge-space
 
 ---
@@ -64,3 +81,10 @@ svend4
 - [READING_TIME](../READING_TIME.md)
 - [AnastasiyaW_draft](AnastasiyaW_draft.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_sonia_black_draft.py
+```

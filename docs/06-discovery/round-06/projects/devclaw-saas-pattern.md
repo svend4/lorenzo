@@ -1,4 +1,25 @@
+---
+date: 2026-05-15
+tags: [orchestration, knowledge, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # DevClaw SaaS Pattern («SaaS за 5 дней»)
+
+<!-- toc-auto -->
+<!-- tags: devclaw-saas-pattern, docs -->
+
+
+<!-- summary -->
+> Задачи ставятся через GitHub Issues (Markdown-спецификация) Claude-агент читает issue → пишет код → создаёт PR
+ Задачи ставятся через GitHub Issues (Markdown-спецификация)
+ Claude-агент читает issue → пишет код → создаёт PR
+ DevClaw (OpenClaw plugin) оркеструет агентов
+ Результат: работающий SaaS через 5 дней с нуля
+Стек автора
+ 
+Ключевое открытие
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -50,3 +71,10 @@ Lorenzo уже имеет `improve_github_issues.py`.
 
 - Статья: https://habr.com/ru/articles/1005276/ (апрель 2026)
 - ⚠️ Нужно найти GitHub через профиль автора на Хабре
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

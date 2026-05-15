@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [orchestration, security, ingestion, architecture, roadmap]
+state: normalized
+---
+
 # LLM + MCP + OpenSearch: анализ логов безопасности через codegen
+
+<!-- toc-auto -->
+<!-- tags: kaspersky-llm-mcp-opensearch-log-analysis, docs -->
+
+
+<!-- summary -->
+> `kaspersky-llm-mcp-opensearch-log-analysis` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -326,3 +340,11 @@ class LorenzoCodegenAnalysis:
 - OpenSearch: opensearch.org
 - Смежная (Agentic SOC архитектура): https://habr.com/ru/articles/1015052/
 - Смежная (MaxPatrol SIEM ML, Positive Technologies): https://habr.com/ru/companies/pt/articles/852784/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

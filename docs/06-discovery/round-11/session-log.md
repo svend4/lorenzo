@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 11 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Orrin на RK3588 — показывает путь к дешёвому production edge AI: RK3588-устройства (Orange Pi 5, Radxa ROCK 5) стоят в 10–20 раз дешевле GPU.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -59,3 +73,17 @@
 - Генерация музыки / аудио с AI (open source альтернативы Suno)
 - Специализированные векторные базы данных для агентов (pgvector, Weaviate, Chroma)
 - AI-системы для code refactoring (не просто ревью, а автоматические рефакторинги)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

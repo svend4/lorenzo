@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 17 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> CoT Illusion (1020016, апрель 2026) — экспериментальное опровержение: LLM игнорирует факты, CoT ухудшает фактические задачи.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -68,3 +82,17 @@
 - **Синтетические данные для обучения** — генерация датасетов через LLM для fine-tuning
 - **AI для DevOps / SRE** — автоматическое расследование инцидентов, runbook-агенты
 - **Русскоязычные embedding-модели** — sentence transformers для русского языка, сравнение
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

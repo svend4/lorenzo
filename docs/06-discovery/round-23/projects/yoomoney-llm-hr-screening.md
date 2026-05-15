@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, rag, ingestion, architecture, anthropic]
+state: normalized
+---
+
 # YooMoney: LLM-скрининг резюме — -70% ручного труда HR
+
+<!-- toc-auto -->
+<!-- tags: yoomoney-llm-hr-screening, docs -->
+
+
+<!-- summary -->
+> Автор: команда YooMoney (Хабр, январь 2026) Хабр: https://habr.com/ru/companies/yoomoney/articles/986874/
+Хабр: https://habr.com/ru/companies/yoomoney/articles/986874/  
+GitHub: не опубликован (внутренний инструмент, архитектура описана)  
+Слой: orchestration / analytics / knowledge  
+Дата: январь 2026  
+Уник
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -183,3 +202,10 @@ def score_doc_relevance(doc_path: str, query_criteria: dict) -> RelevanceReport:
 - Смежная (AI-инструменты для HR топ-10): https://habr.com/ru/companies/bothub/articles/971014/
 - Gemma-3: github.com/google-deepmind/gemma (Apache 2.0)
 - Ollama grammar sampling: ollama.com/docs/api#structured-outputs
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

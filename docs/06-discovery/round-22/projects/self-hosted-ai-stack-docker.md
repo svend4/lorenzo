@@ -1,4 +1,31 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, local-first, architecture]
+state: normalized
+---
+
 # Self-hosted AI платформа — полный стек: n8n + Ollama + Open WebUI + Docker
+
+<!-- toc-auto -->
+<!-- tags: self-hosted-ai-stack-docker, docs -->
+
+
+<!-- summary -->
+> docker-compose.yml (упрощённый) n8n как оркестратор AI workflows Бенчмарки (декабрь 2025, RTX 4090)
+ 
+docker-compose.yml (упрощённый)
+ 
+n8n как оркестратор AI workflows
+ 
+Бенчмарки (декабрь 2025, RTX 4090)
+ 
+Coolify для управления деплоем
+ 
+Полная стоимость vs Cloud AI
+ 
+Применение к Lorenzo
+Lorenzo сейчас: Claude API + Python скри
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -183,3 +210,10 @@ n8n заменяет `improve_workflow_v2.py` для визуального по
 - n8n: https://github.com/n8n-io/n8n (Sustainable Use License)
 - Ollama: https://github.com/ollama/ollama (MIT)
 - Coolify: https://github.com/coollabsio/coolify (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

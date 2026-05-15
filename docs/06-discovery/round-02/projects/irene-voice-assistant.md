@@ -1,4 +1,20 @@
+---
+date: 2026-05-15
+tags: [memory, orchestration, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # Ирина (Irene Voice Assistant)
+<!-- tags: irene-voice-assistant, docs -->
+
+
+<!-- summary -->
+> Хабр: https://habr.com/ru/articles/595855/ GitHub: https://github.com/janvarev/Irene-Voice-Assistant
+Хабр: https://habr.com/ru/articles/595855/  
+GitHub: https://github.com/janvarev/Irene-Voice-Assistant  
+Слой: voice-interface / orchestration  
+Дата: активно обновляется (последняя статья + GPT-3 интеграция: 2023, проект живой)
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -37,3 +53,17 @@ Svyazi сейчас полностью текстовый. Ирина + knowledg
 
 - GitHub: https://github.com/janvarev
 - Habr профиль автора: https://habr.com/ru/users/janvarev/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_irene_voice_assistant.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

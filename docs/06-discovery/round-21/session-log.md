@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 21 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Alfa Classification (968176, 2025) — «лабораторная работа» ML-команды банка: когда LLM > BERT (мало данных, меняющиеся категории, объяснения нужны), когда BERT > LLM (много данных, стабильные классы, скорость).
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -72,3 +86,17 @@
 - **Embeddings и semantic search 2026** — новые архитектуры: ColBERT v2, late interaction, bi-encoder vs cross-encoder на русском
 - **AI для DevSecOps** — SAST через LLM, авто-нахождение уязвимостей в коде, приоритизация
 - **Self-hosted AI стек 2026** — Coolify + Ollama + n8n + open-WebUI: полный production стек без облака
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

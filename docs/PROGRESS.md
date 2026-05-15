@@ -1,11 +1,17 @@
 # Прогресс MVP
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `PROGRESS` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: progress, docs -->
 
-_Обновлено: 2026-05-15 (manual sync — reconciled with actual repo state)_
+
+<!-- summary -->
+> `PROGRESS` — раздел документации проекта Lorenzo.
+
+
+_Обновлено: 2026-05-15 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
@@ -27,14 +33,11 @@ _Обновлено: 2026-05-15 (manual sync — reconciled with actual repo sta
 
 | Компонент | Статус | Детали |
 |-----------|--------|--------|
-| Контакты авторов | ⚠️ 32 файла, не отправлено | 32 файла в docs/contacts/ (включая *_draft.md) |
+| Контакты авторов | ⚠️ 31 файлов, не отправлено | 31 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 187 скриптов | 5 LLM-скриптов, MCP=✅, gateway=✅ |
-| docs-toolkit | ✅ v0.3.0, 489 модулей | 546 тестовых файлов, Phases I–IX закрыты (18 done / 3 отложены / 3 пропущены) |
+| Скрипты обработки | ✅ 187 скриптов | 5 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
-| Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
-| CI workflows | ✅ test.yml + docs.yml | 5 джоб: python-syntax / unit-tests / mcp-smoke / validate-templates / validate-tasks / catalog-fresh; docs.yml открывает PR с метриками |
-| Прототип Knowledge OS | ✅ итерации 0–15 | RFC-система (3 Accepted), lifecycle (1005 approved), 23 proposals, gateway 8083, MCP 15+ инструментов |
+| Claude Skills | ✅ 28 скиллов | find-cinderella, evaluate-tech, outreach-day, dispatch, weekly-review, synthesize, generate-rfc, write-contact, track-decisions, audit-corpus, summarize, review-architecture, daily-routine, status, plan-mvp, compare, propose-mega-stack, find-gaps, analyze-project, find-contradictions, improve, propose-collaboration, new-research, search, skill-router, review-docs, design-ensemble, evaluate-skill |
 
 ## Метрики качества
 
@@ -42,13 +45,13 @@ _Обновлено: 2026-05-15 (manual sync — reconciled with actual repo sta
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 99.0/100 | 🟢 |
 | Качество доков (METRICS) | 97.9/100 | 🟢 |
-| Go/No-Go (SCORING) | 96.0/100 | 🟢 |
+| Go/No-Go (SCORING) | 100.0/100 | 🟢 |
 
 ## Следующий шаг
 
 ➡️ **Написаны авторам ключевых компонентов**
 
-_Написали: 0/16_
+_Написали: 0/31_
 
 Контактные файлы готовы. Откройте и отправьте:
 
@@ -71,307 +74,3 @@ cat docs/contacts/anastasiyaw.md
 - [MVP Planning](01-svyazi/07-mvp-planning.md)
 
 <!-- auto-end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (11):**
-- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
-- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [DECISIONS](DECISIONS.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- _...ещё 3_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [SCHEDULE](SCHEDULE.md)
-- [ONBOARDING](ONBOARDING.md)
-- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
-- [INDEX](INDEX.md)
-

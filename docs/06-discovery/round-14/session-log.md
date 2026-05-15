@@ -1,4 +1,21 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 14 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> OSS: CLAUDE.md + 12 MCP + skills | ⭐⭐⭐⭐ | MarkItDown + OCR Guide (R13) | Qwen3 VL | MarkItDown (структура) + VLM (сложные элементы) = полный doc ingestion pipeline | ⭐⭐⭐⭐ |
+ MarkItDown + OCR Guide (R13) | Qwen3 VL | MarkItDown (структура) + VLM (сложные элементы) = полный doc ingestion pipeline | ⭐⭐⭐⭐ |
+Главные находки раунда
+Context Engineering (1028260) — манифест 2026 года: в
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -65,3 +82,17 @@
 - **Streaming и real-time агенты** — агенты с потоковой обработкой данных (Kafka + LLM, stream reasoning)
 - **AI code review 2.0** — глубокий анализ кода (не просто ревью, а понимание архитектурных паттернов)
 - **Персонализированные LLM** — fine-tuning на личных данных, приватное дообучение
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

@@ -12,7 +12,7 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 15 файлам раздела._
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: routing, budget, litellm, local model
 Использование
  
 Смотрите также
@@ -21,17 +21,9 @@ state: normalized
  Здоровье
  Глоссарий
  Сущности
- --
-Кто ссылается на этот документ (6):
- README
- OUTLINE
- READABILITY
- READING_TIME
- SEARCH
- TABLES
 
 
-_Автоматически сгенерировано по 15 файлам раздела._
+_Автоматически сгенерировано по 37 файлам раздела._
 
 ## Как реализован forensic RAG с доказуемостью?
 
@@ -39,7 +31,7 @@ _Автоматически сгенерировано по 15 файлам ра
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -51,7 +43,7 @@ _Автоматически сгенерировано по 15 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -69,18 +61,6 @@ _Автоматически сгенерировано по 15 файлам ра
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
-## Какие инструменты обеспечивают безопасность агентов?
-
-Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
-
-## Какова политика доступа по умолчанию (tool classes)?
-
-Упоминаются: **read-only**, **allowlist**, **path guard**, **quarantine**
-
-## Как организован бюджетный роутинг между моделями?
-
-Упоминаются: **routing**, **budget**, **litellm**, **local model**
-
 ## Как работает AgentFS и что такое .agentos?
 
 Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
@@ -92,6 +72,18 @@ _Автоматически сгенерировано по 15 файлам ра
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
+## Какие инструменты обеспечивают безопасность агентов?
+
+Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
+
+## Какова политика доступа по умолчанию (tool classes)?
+
+Упоминаются: **read-only**, **allowlist**, **path guard**, **quarantine**
+
+## Как организован бюджетный роутинг между моделями?
+
+Упоминаются: **routing**, **budget**, **litellm**, **local model**
 
 
 ## Использование
@@ -106,16 +98,3 @@ python scripts/improve_qa.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-

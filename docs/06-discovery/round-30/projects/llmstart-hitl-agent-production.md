@@ -1,4 +1,22 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # Готовим AI-агента к production: HITL-фреймворк и трёхуровневая классификация действий
+
+<!-- toc-auto -->
+<!-- tags: llmstart-hitl-agent-production, docs -->
+
+
+<!-- summary -->
+> Готовим AI-агента к production: HITL-фреймворк и трёхуровневая классификация действий
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
@@ -335,3 +353,11 @@ class LorenzoHITLWorkflow:
 - LiteLLM Proxy: github.com/BerriAI/litellm (MIT)
 - LangSmith: smith.langchain.com
 - Langfuse: langfuse.com
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [rag, ingestion, local-first, architecture, self-improve]
+state: normalized
+---
+
 # VLM vs IDP: кто выигрывает в извлечении данных из российских финансовых документов
+
+<!-- toc-auto -->
+<!-- tags: vlm-vs-idp-document-extraction, docs -->
+
+
+<!-- summary -->
+> Автор: ContentAI Team (Хабр, октябрь 2025) Хабр: https://habr.com/ru/companies/contentai/articles/958768/
+Хабр: https://habr.com/ru/companies/contentai/articles/958768/  
+GitHub: не опубликован (внутренние бенчмарки ContentAI)  
+Слой: ingestion / analytics  
+Дата: октябрь 2025  
+Уникальность: Честный бенчмарк
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -271,3 +290,10 @@ class LorenzoDocExtractor:
 - Смежная (МТС умная маршрутизация): https://habr.com/ru/companies/ru_mts/articles/1028974/
 - Смежная (АСКОН NLP для ГОСТ): https://habr.com/ru/companies/ascon/articles/1031940/
 - Qwen2.5-VL: github.com/QwenLM/Qwen2.5-VL (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

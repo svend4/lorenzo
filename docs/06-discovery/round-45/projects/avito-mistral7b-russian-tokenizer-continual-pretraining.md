@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Авито: адаптация Mistral-7B к русскому языку — новый токенизатор + continual pretraining
+
+<!-- toc-auto -->
+<!-- tags: avito-mistral7b-russian-tokenizer-continual-pretraining, docs -->
+
+
+<!-- summary -->
+> `avito-mistral7b-russian-tokenizer-continual-pretraining` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -335,3 +349,11 @@ class LorenzoModelAdaptationPipeline:
 - Смежная (T-Bank T-Lite/T-Pro RU LLM, R42): docs/06-discovery/round-42/projects/tbank-tlite-tpro-russian-llm-training.md
 - Смежная (Кириллица в LLM, R29): docs/06-discovery/round-29/
 - Смежная (LoRA fine-tuning эмбеддингов PGK, R44): docs/06-discovery/round-44/projects/pgk-lora-embedding-finetuning-legal-hardneg.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

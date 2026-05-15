@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # openLight — агент для личной инфраструктуры
+
+<!-- toc-auto -->
+<!-- tags: openlight-infra-agent, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья май 2026) Хабр: https://habr.com/ru/articles/1033220/ GitHub: не найден явно — уточнить
+Хабр: https://habr.com/ru/articles/1033220/  
+GitHub: не найден явно — уточнить  
+Слой: infrastructure / agent-safety / monitoring  
+Дата: май 2026  
+Уникальность: Проект вырос из «бота для Raspberry Pi» в агент
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -51,3 +70,10 @@ openLight формализует это как архитектурный при
 
 - Статья: https://habr.com/ru/articles/1033220/ (май 2026)
 - ⚠️ Нужно найти GitHub через профиль автора
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,4 +1,19 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, architecture, roadmap, anthropic]
+state: normalized
+---
+
 # Multi-agent без LangChain — production на чистом Python
+
+<!-- toc-auto -->
+<!-- tags: multiagent-no-langchain, docs -->
+
+
+<!-- summary -->
+> Паттерн из статьи: заменить YAML-workflow на Python-граф агентов: каждый = узел графа, переходы по результату предыдущего.
+каждый   = узел графа, переходы по результату предыдущего.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -73,3 +88,10 @@ LLM вызов (прямой SDK: openai / anthropic / gigachat)
 - Статья: https://habr.com/ru/articles/1020810/ (апрель 2026)
 - Смежная (мультиагентный хаос): https://habr.com/ru/articles/1026856/
 - Смежная (AFlow без программиста): https://habr.com/ru/articles/927994/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

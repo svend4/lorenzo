@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, architecture]
+state: normalized
+---
+
 # EdTech-платформа за неделю: AI-first workflow для образования
+
+<!-- toc-auto -->
+<!-- tags: edtech-platform-ai-week, docs -->
+
+
+<!-- summary -->
+> Автор: независимый разработчик (Хабр, март 2026) Хабр: https://habr.com/ru/articles/1010294/
+Хабр: https://habr.com/ru/articles/1010294/  
+GitHub: не опубликован (продукт, workflow описан пошагово)  
+Слой: orchestration / knowledge / analytics  
+Дата: март 2026  
+Уникальность: Практический к
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -200,3 +219,10 @@ def generate_knowledge_test(topic: str, source_docs: list[str]) -> Quiz:
 - Смежная (топ 15 нейросетей для учёбы 2026): https://habr.com/ru/companies/bothub/articles/1021828/
 - v0.dev (UI генерация): v0.dev
 - Coolify (деплой): github.com/coollabsio/coolify (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

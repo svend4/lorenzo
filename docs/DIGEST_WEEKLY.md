@@ -1,93 +1,66 @@
-# Еженедельный дайджест — 2026-05-13
+# Еженедельный дайджест — 2026-05-15
 
-<!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
----
-
-
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
-_Период: последние 7 дней (с 2026-05-06)_
+_Период: последние 7 дней (с 2026-05-08)_
 
 ## Итого
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за период | **63** |
+| Коммитов за период | **763** |
 | Новых файлов | **0** |
 | Изменённых файлов | **0** |
-| Всего MD файлов | **1813** |
-| Всего слов | **2,466,014** |
+| Всего MD файлов | **2736** |
+| Всего слов | **3,051,335** |
 
 ## Жизненный цикл карточек
 
 | Статус | Кол-во |
 |--------|--------|
-| ✅ approved | **1005** |
-| ⚠️ normalized | 109 |
-| ❌ raw | 175 |
-| Promote rate | **78.0%** |
+| ✅ approved | **1012** |
+| ⚠️ normalized | 395 |
+| ❌ raw | 163 |
+| Promote rate | **64.5%** |
 
 ## Горячие карточки (топ-5)
 
-1. ❌ **autofilled**  `hot=0.477`
-2. ❌ **Антропик**  `hot=0.477`
-3. ❌ **Cowork**  `hot=0.477`
+1. ❌ **Антропик**  `hot=0.477`
+2. ❌ **Cowork**  `hot=0.477`
+3. ❌ **kksudo**  `hot=0.477`
 4. ❌ **ingit**  `hot=0.477`
-5. ❌ **kksudo**  `hot=0.477`
+5. ❌ **autofilled**  `hot=0.444`
+
+## Запросы к gateway
+
+**Запросов за период:** 45  **Уникальных:** 12  **Avg latency:** 582.4мс
+
+| Запрос | Частота |
+|--------|---------|
+| агент память | 6 |
+| граф знаний | 6 |
+| rag retrieval | 6 |
+| yodoca | 3 |
+| yodoca консолидация | 3 |
 
 ## Коммиты
 
 ```
-5524f21e feat: Iteration 13 — ANN Index + Query Analytics + Hot Cards
-00610ac4 feat: Iteration 12 — PageRank-Boosted Search
-b240647c feat: Iteration 11 — Knowledge Graph + Skill Metrics
-11edba6f feat: Iteration 10 — Summary Extender + 1005 Approved
-47cf2b2b feat: Iteration 9 — Progressive Summarize + SSE Streaming
-04651832 chore: commit auto-summarize state changes across docs
-b79ec908 feat: Iteration 8 — Auto-Summarize + Promote Lift
-53f64dee feat: Iteration 7 — Production Hardening
-d4f96b9b feat: Iteration 6 — Autonomous Intelligence Layer
-b9ceb61f chore: update PROGRESS.md and search_index.json
-c39b25a2 feat: RFC system, 23 proposals, full semantic index, lifecycle CI
-117213f2 feat: implement all 5 phases of DEVELOPMENT_PLAN
-e469abf4 chore: update auto-generated docs (broken links, collab suggestions, staleness)
-a6084f63 docs: add DEVELOPMENT_PLAN.md — technical audit and phased roadmap
-fa70dbdd chore: update ORPHANS.md with current orphan count (1563 files checked)
+cb874996e docs: detailed Phase X-XIX continuation plan
+26fc001c0 docs: reconcile top-level READMEs with actual repo state
+84034cfc2 ci(docs-update): fix PR body newlines + idempotent re-runs
+c2e6df999 ci(docs-update): open PR instead of direct push to main
+1d18ad1e1 ci: install docs-toolkit editable so subprocess tests find the package
+c41ba310b fix(plugin-sandbox): forcibly kill timed-out sandbox threads
+49d24814c chore: update generated docs artifacts
+a8b8f5269 ci: per-test timeout + step timeout + log upload for docs-toolkit tests
+10681f6b9 docs(docs-toolkit): mark Phases I-IX execution status (18 done, 3 deferred, 3 skipped)
+4da1bb9ad feat(docs-toolkit): production deployment recipes (Phase VIII.1+VIII.2)
+d486152fe feat(docs-toolkit): plugin contract + retrievers/answerers groups (Phase VII.1)
+ee3006ca5 feat(docs-toolkit): Gaussian DP + PrivacyAccountant + secure aggregation (Phase VI.1+VI.2)
+fdbb5d3ab feat(docs-toolkit): KG persistence + query DSL + kg bench suite (Phase V.1+V.3+V.4)
+462bed9a2 docs(docs-toolkit): COOKBOOK + ARCHITECTURE + MIGRATING (Phase IX.1-3)
+787f14348 chore: regenerate catalogs + TEST_BASELINE (Phase I.2, fix PR #27 CI)
 ```
 
 ---
 
-_Сгенерировано: 2026-05-13 15:12_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (17):**
-- [CHANGELOG](CHANGELOG.md)
-- [DENSITY](DENSITY.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [GLOSSARY](GLOSSARY.md)
-- [HEATMAP](HEATMAP.md)
-- [INDEX](INDEX.md)
-- [METRICS](METRICS.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
-- _...ещё 9_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
-- [HOT_CARDS](HOT_CARDS.md)
-- [.md](autofilled/components/.md)
-- [cowork](autofilled/components/cowork.md)
-
+_Сгенерировано: 2026-05-15 15:18_

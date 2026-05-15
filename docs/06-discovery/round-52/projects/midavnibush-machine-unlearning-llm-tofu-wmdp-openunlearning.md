@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Machine Unlearning для LLM: TOFU/WMDP бенчмарки, gradient ascent, OpenUnlearning
+
+<!-- toc-auto -->
+<!-- tags: midavnibush-machine-unlearning-llm-tofu-wmdp-openunlearning, docs -->
+
+
+<!-- summary -->
+> `midavnibush-machine-unlearning-llm-tofu-wmdp-openunlearning` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -312,3 +326,11 @@ class LorenzoUnlearningManager:
 - Смежная (LLM privacy, R21): docs/06-discovery/round-21/
 - Смежная (суверенный AI, R33): docs/06-discovery/round-33/
 - Смежная (Privacy LLM, R41): docs/06-discovery/round-41/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

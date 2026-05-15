@@ -1,4 +1,30 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, architecture, self-improve]
+state: normalized
+---
+
 # Правильная агентская архитектура 2026 — Durable State, Approvals, Session Context
+
+<!-- toc-auto -->
+<!-- tags: production-agent-durable-state, docs -->
+
+
+<!-- summary -->
+> Проблема: Stateless агент в production Durable State: ключевая концепция SessionContext — не полный транскрипт
+ 
+Durable State: ключевая концепция
+ 
+SessionContext — не полный транскрипт
+ 
+Human-in-the-Loop Approvals
+ 
+Background Jobs: агент не блокирует пользователя
+ 
+Полная схема production-ready агента
+ 
+Часть 1: ReAc
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -195,3 +221,10 @@ class LorenzoSessionContext(BaseModel):
 - Часть 1 (ReAct + RAG): https://habr.com/ru/articles/981100/ (декабрь 2025)
 - Смежная (готовим агента к production): https://habr.com/ru/companies/llmstart/articles/1015508/
 - Смежная (субъектный подход, инверсия управления LLM): https://habr.com/ru/articles/987518/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

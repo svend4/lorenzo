@@ -1,4 +1,22 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, architecture]
+state: normalized
+---
+
 # Sberbank AIOps: ML/AI в системе мониторинга — предотвращение инцидентов
+
+<!-- toc-auto -->
+<!-- tags: sberbank-aiops-incident-prevention, docs -->
+
+
+<!-- summary -->
+> Автор: Павел Стёпуро, исполнительный директор ДИТ Сбербанка Хабр: https://habr.com/ru/companies/sberbank/articles/1015336/
+Хабр: https://habr.com/ru/companies/sberbank/articles/1015336/  
+GitHub: не опубликован (production Sberbank внутренняя система)  
+Слой: orchestration / analytics / memory  
+Дата: март 202
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -190,3 +208,10 @@ class LorenzoAIOps:
 - Prometheus: github.com/prometheus/prometheus (Apache 2.0)
 - Grafana: github.com/grafana/grafana (AGPL)
 - Kafka: github.com/apache/kafka (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

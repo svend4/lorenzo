@@ -1,12 +1,12 @@
 {
-  "generated": "2026-05-13T14:46:18",
+  "generated": "2026-05-15T15:16:22",
   "count": 28,
   "avg_score": 85.7,
   "skills": [
     {
-      "skill": "review-docs",
-      "path": ".claude/skills/review-docs.md",
-      "words": 313,
+      "skill": "summarize",
+      "path": ".claude/skills/summarize.md",
+      "words": 387,
       "total": 94,
       "structure": 10,
       "length": 10,
@@ -14,8 +14,8 @@
       "steps": 10,
       "tools": 10,
       "clarity": 7,
-      "code_blocks": 4,
-      "numbered_steps": 6
+      "code_blocks": 2,
+      "numbered_steps": 9
     },
     {
       "skill": "search",
@@ -32,9 +32,9 @@
       "numbered_steps": 7
     },
     {
-      "skill": "summarize",
-      "path": ".claude/skills/summarize.md",
-      "words": 387,
+      "skill": "review-docs",
+      "path": ".claude/skills/review-docs.md",
+      "words": 313,
       "total": 94,
       "structure": 10,
       "length": 10,
@@ -42,8 +42,8 @@
       "steps": 10,
       "tools": 10,
       "clarity": 7,
-      "code_blocks": 2,
-      "numbered_steps": 9
+      "code_blocks": 4,
+      "numbered_steps": 6
     },
     {
       "skill": "outreach-day",
@@ -74,20 +74,6 @@
       "numbered_steps": 15
     },
     {
-      "skill": "find-contradictions",
-      "path": ".claude/skills/find-contradictions.md",
-      "words": 286,
-      "total": 92,
-      "structure": 10,
-      "length": 10,
-      "examples": 10,
-      "steps": 10,
-      "tools": 8,
-      "clarity": 7,
-      "code_blocks": 3,
-      "numbered_steps": 6
-    },
-    {
       "skill": "audit-corpus",
       "path": ".claude/skills/audit-corpus.md",
       "words": 277,
@@ -116,18 +102,18 @@
       "numbered_steps": 10
     },
     {
-      "skill": "find-gaps",
-      "path": ".claude/skills/find-gaps.md",
-      "words": 297,
-      "total": 90,
-      "structure": 6,
+      "skill": "find-contradictions",
+      "path": ".claude/skills/find-contradictions.md",
+      "words": 286,
+      "total": 92,
+      "structure": 10,
       "length": 10,
       "examples": 10,
       "steps": 10,
       "tools": 8,
-      "clarity": 10,
+      "clarity": 7,
       "code_blocks": 3,
-      "numbered_steps": 8
+      "numbered_steps": 6
     },
     {
       "skill": "plan-mvp",
@@ -142,6 +128,34 @@
       "clarity": 10,
       "code_blocks": 5,
       "numbered_steps": 8
+    },
+    {
+      "skill": "find-gaps",
+      "path": ".claude/skills/find-gaps.md",
+      "words": 297,
+      "total": 90,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 8,
+      "clarity": 10,
+      "code_blocks": 3,
+      "numbered_steps": 8
+    },
+    {
+      "skill": "daily-routine",
+      "path": ".claude/skills/daily-routine.md",
+      "words": 250,
+      "total": 88,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 6,
+      "clarity": 10,
+      "code_blocks": 4,
+      "numbered_steps": 12
     },
     {
       "skill": "compare",
@@ -172,34 +186,6 @@
       "numbered_steps": 6
     },
     {
-      "skill": "daily-routine",
-      "path": ".claude/skills/daily-routine.md",
-      "words": 250,
-      "total": 88,
-      "structure": 6,
-      "length": 10,
-      "examples": 10,
-      "steps": 10,
-      "tools": 6,
-      "clarity": 10,
-      "code_blocks": 4,
-      "numbered_steps": 12
-    },
-    {
-      "skill": "new-research",
-      "path": ".claude/skills/new-research.md",
-      "words": 295,
-      "total": 86,
-      "structure": 6,
-      "length": 10,
-      "examples": 10,
-      "steps": 10,
-      "tools": 4,
-      "clarity": 10,
-      "code_blocks": 2,
-      "numbered_steps": 14
-    },
-    {
       "skill": "evaluate-tech",
       "path": ".claude/skills/evaluate-tech.md",
       "words": 306,
@@ -211,6 +197,20 @@
       "tools": 10,
       "clarity": 7,
       "code_blocks": 5,
+      "numbered_steps": 8
+    },
+    {
+      "skill": "generate-rfc",
+      "path": ".claude/skills/generate-rfc.md",
+      "words": 299,
+      "total": 86,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 10,
+      "clarity": 7,
+      "code_blocks": 4,
       "numbered_steps": 8
     },
     {
@@ -242,23 +242,23 @@
       "numbered_steps": 8
     },
     {
-      "skill": "generate-rfc",
-      "path": ".claude/skills/generate-rfc.md",
-      "words": 299,
+      "skill": "new-research",
+      "path": ".claude/skills/new-research.md",
+      "words": 295,
       "total": 86,
       "structure": 6,
       "length": 10,
       "examples": 10,
       "steps": 10,
-      "tools": 10,
-      "clarity": 7,
-      "code_blocks": 4,
-      "numbered_steps": 8
+      "tools": 4,
+      "clarity": 10,
+      "code_blocks": 2,
+      "numbered_steps": 14
     },
     {
-      "skill": "track-decisions",
-      "path": ".claude/skills/track-decisions.md",
-      "words": 278,
+      "skill": "find-cinderella",
+      "path": ".claude/skills/find-cinderella.md",
+      "words": 285,
       "total": 84,
       "structure": 6,
       "length": 10,
@@ -267,7 +267,7 @@
       "tools": 8,
       "clarity": 7,
       "code_blocks": 4,
-      "numbered_steps": 7
+      "numbered_steps": 6
     },
     {
       "skill": "dispatch",
@@ -284,9 +284,9 @@
       "numbered_steps": 8
     },
     {
-      "skill": "find-cinderella",
-      "path": ".claude/skills/find-cinderella.md",
-      "words": 285,
+      "skill": "track-decisions",
+      "path": ".claude/skills/track-decisions.md",
+      "words": 278,
       "total": 84,
       "structure": 6,
       "length": 10,
@@ -295,7 +295,7 @@
       "tools": 8,
       "clarity": 7,
       "code_blocks": 4,
-      "numbered_steps": 6
+      "numbered_steps": 7
     },
     {
       "skill": "synthesize",
@@ -354,20 +354,6 @@
       "numbered_steps": 8
     },
     {
-      "skill": "skill-router",
-      "path": ".claude/skills/skill-router.md",
-      "words": 388,
-      "total": 78,
-      "structure": 6,
-      "length": 10,
-      "examples": 10,
-      "steps": 10,
-      "tools": 2,
-      "clarity": 7,
-      "code_blocks": 3,
-      "numbered_steps": 7
-    },
-    {
       "skill": "improve",
       "path": ".claude/skills/improve.md",
       "words": 1520,
@@ -380,6 +366,20 @@
       "clarity": 7,
       "code_blocks": 25,
       "numbered_steps": 4
+    },
+    {
+      "skill": "skill-router",
+      "path": ".claude/skills/skill-router.md",
+      "words": 388,
+      "total": 78,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 2,
+      "clarity": 7,
+      "code_blocks": 3,
+      "numbered_steps": 7
     },
     {
       "skill": "status",

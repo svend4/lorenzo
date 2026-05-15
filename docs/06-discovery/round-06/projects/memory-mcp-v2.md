@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Memory MCP Server v0.8.0 (Part 2)
+
+<!-- toc-auto -->
+<!-- tags: memory-mcp-v2, docs -->
+
+
+<!-- summary -->
+> Хабр: https://habr.com/ru/articles/1033388/ GitHub: https://github.com/ipiton/agent-memory-mcp
+Хабр: https://habr.com/ru/articles/1033388/  
+GitHub: https://github.com/ipiton/agent-memory-mcp  
+Слой: memory / MCP / engineering-intelligence  
+Дата: май 2026 (2 дня назад от R06)  
+Уникальность: Эволюция проекта из Round 01 — из
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -46,3 +65,17 @@ Lorenzo уже знает этот проект (R01), но v0.8.0 меняет 
 - GitHub: https://github.com/ipiton/agent-memory-mcp
 - Хабр: часть 2 — https://habr.com/ru/articles/1033388/
 - Хабр: часть 1 (R01) — уже в контактах (@ipiton)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_memory_mcp_v2.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

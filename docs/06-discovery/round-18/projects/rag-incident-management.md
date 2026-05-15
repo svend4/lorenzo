@@ -1,4 +1,22 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # RAG-агент для инцидент-менеджмента — автоматизация SRE через AI
+
+<!-- toc-auto -->
+<!-- tags: rag-incident-management, docs -->
+
+
+<!-- summary -->
+> Паттерн incident management = knowledge maintenance agent: "Инцидент" = битая ссылка / устаревший документ / противоречие
+ "Инцидент" = битая ссылка / устаревший документ / противоречие
+ RAG ищет: как аналогичная проблема решалась раньше
+ Агент предлагает: конкретный скрипт ( ,  )
+Связь с ADD Chronicles (R13): A
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -129,3 +147,10 @@ Lorenzo — knowledge OS: база знаний проектов + агенты 
 - Смежная (SRE + AI): https://habr.com/ru/articles/896000/
 - Incident.io blog: incident.io/blog/ai-incident-management
 - OpenTelemetry + LLM: opentelemetry.io/docs/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

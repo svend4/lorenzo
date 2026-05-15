@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [rag, ingestion, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # Graph RAG Production Pipeline (96.7% точность)
+
+<!-- toc-auto -->
+<!-- tags: graphrag-production, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья февраль 2026 — уточнить профиль) Хабр: https://habr.com/ru/articles/1003064/
+Хабр: https://habr.com/ru/articles/1003064/  
+GitHub: не найден явно — уточнить  
+Слой: knowledge / RAG / graph  
+Дата: февраль 2026  
+Уникальность: Production-ready GraphRAG-пайплайн на Ne
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -54,3 +73,17 @@ PhraseNode+PassageNode → замена TF-IDF + BM25 на Knowledge Graph retri
 
 - Статья: https://habr.com/ru/articles/1003064/ (февраль 2026)
 - ⚠️ Нужно найти GitHub через профиль автора
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_graphrag_production.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

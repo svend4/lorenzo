@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, security, architecture, roadmap]
+state: normalized
+---
+
 # Text2SQL X5Tech — выжимаем максимум из open-source для SQL-агентов
+
+<!-- toc-auto -->
+<!-- tags: text2sql-x5tech, docs -->
+
+
+<!-- summary -->
+> Автор: команда X5 Tech (X5 Retail Group) Хабр: https://habr.com/ru/companies/X5Tech/articles/981494/
+Хабр: https://habr.com/ru/companies/X5Tech/articles/981494/  
+GitHub: не найден (корпоративная статья с открытыми техниками)  
+Слой: orchestration / analytics / knowledge  
+Дата: февраль 2026  
+Уникальность:
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -78,3 +97,10 @@ BI Agent Pattern (R12) + X5Tech техники = **агент отвечает �
 - Статья: https://habr.com/ru/companies/X5Tech/articles/981494/ (февраль 2026)
 - X5 Tech Хабр: https://habr.com/ru/companies/X5Tech/
 - Смежная (multi-agent подход, GazPromBank): https://habr.com/ru/companies/gazprombank/articles/965292/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

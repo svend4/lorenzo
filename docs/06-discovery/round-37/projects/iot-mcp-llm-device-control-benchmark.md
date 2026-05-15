@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, ingestion, local-first]
+state: normalized
+---
+
 # Управление IoT через LLM: три уровня IoT-MCP и IoT-MCP Bench
+
+<!-- toc-auto -->
+<!-- tags: iot-mcp-llm-device-control-benchmark, docs -->
+
+
+<!-- summary -->
+> Автор: (не идентифицирован из поиска) Хабр: https://habr.com/ru/articles/953648/
+Хабр: https://habr.com/ru/articles/953648/  
+GitHub: https://github.com/poly-mcp/IoT-Edge-MCP-Server  
+Слой: orchestration  
+Дата: октябрь 2025  
+Уникальность: Трёхуровневая IoT-MCP архитектура (Local Host / Da
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -332,3 +351,11 @@ class LorenzoIoTIntegration:
 - Смежная (фабричный антивирус, цифровой двойник): https://habr.com/ru/companies/friflex/articles/1014940/
 - Смежная (байесовский анализ отказов нефтегаз): https://habr.com/ru/articles/953298/
 - Eclipse Mosquitto MQTT: mosquitto.org
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

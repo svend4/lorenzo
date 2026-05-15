@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # RAG Embedder Fine-Tuning: LoRA + Triplet Loss + Hard Negative Mining для юридических документов
+
+<!-- toc-auto -->
+<!-- tags: huraligne-pgk-rag-embedder-finetuning-hard-negatives, docs -->
+
+
+<!-- summary -->
+> `huraligne-pgk-rag-embedder-finetuning-hard-negatives` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -303,3 +317,11 @@ class LorenzoEmbedderFineTuner:
 - Смежная (LoRA embeddings, R44): docs/06-discovery/round-44/
 - Смежная (synthetic data RAG, R39): docs/06-discovery/round-39/
 - Смежная (RAG чанкинг, R43): docs/06-discovery/round-43/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, security, architecture, anthropic]
+state: normalized
+---
+
 # Построение AI агентов в медицине: DBRM и иерархическая оценка
+
+<!-- toc-auto -->
+<!-- tags: raft-medical-ai-agents-dbrm, docs -->
+
+
+<!-- summary -->
+> Явное соответствие российским требованиям к медицинским данным + Cohen's Kappa для мониторинга согласованности судей.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -311,3 +325,11 @@ class LorenzoKnowledgeQAEvaluator:
 - Смежная (ИИ-ассистент врача, речь+NLP): https://habr.com/ru/articles/915330/
 - Смежная (Оксфорд, LLM в медицине): https://habr.com/ru/companies/bothub/news/907072/
 - RLAIF (Constitutional AI): anthropic.com/research/constitutional-ai
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

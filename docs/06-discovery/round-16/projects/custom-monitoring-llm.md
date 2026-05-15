@@ -1,4 +1,19 @@
+---
+date: 2026-05-15
+tags: [orchestration, ingestion, architecture, anthropic, self-improve]
+state: normalized
+---
+
 # Custom Monitoring LLM — дообучение для мониторинга проектов
+
+<!-- toc-auto -->
+<!-- tags: custom-monitoring-llm, docs -->
+
+
+<!-- summary -->
+> Получить локальный fast-агент для мониторинга без облака Объединяет: Fine-tuning 2026 (R15) + Observability (R13) + audit.db Lorenzo.
+Объединяет: Fine-tuning 2026 (R15) + Observability (R13) + audit.db Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -68,3 +83,10 @@
 - Часть 2 (обучение): https://habr.com/ru/articles/1033426/
 - Часть 3 (дистилляция): https://habr.com/ru/articles/1033434/
 - ⚠️ GitHub: найти через профиль автора на Хабре
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

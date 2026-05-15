@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # MAESTRO: промышленный фреймворк медицинских LLM-агентов от AIRI
+
+<!-- toc-auto -->
+<!-- tags: maestro-airi-medical-llm-agent-framework, docs -->
+
+
+<!-- summary -->
+> `maestro-airi-medical-llm-agent-framework` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -304,3 +318,11 @@ class LorenzoCARLPipeline:
 - Deployment: СберЗдоровье, СберМедИИ
 - Смежная (DBRM медицинские агенты): https://habr.com/ru/companies/raft/articles/960388/
 - Смежная (ИИ-ассистент Genotek речь→ЭМК): https://habr.com/ru/articles/915330/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

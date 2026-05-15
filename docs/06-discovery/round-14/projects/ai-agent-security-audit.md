@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, orchestration, security, architecture, roadmap]
+state: normalized
+---
+
 # AI Agent Security Audit — 18 уязвимостей в открытом агенте
+
+<!-- toc-auto -->
+<!-- tags: ai-agent-security-audit, docs -->
+
+
+<!-- summary -->
+> Автор: Дмитрий Лабинцев + bgauryy (GitHub Gist) Хабр: https://habr.com/ru/articles/989764/
+Хабр: https://habr.com/ru/articles/989764/  
+GitHub: https://github.com/doneyli/ai-agent-security-audit (5-фазный фреймворк)  
+Слой: quality / security / orchestration  
+Дата: 2026  
+Уникальность: Пер
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -78,3 +97,10 @@ Lorenzo имеет 12 MCP-серверов и `improve_watcher.py` с автоз
 - GitHub фреймворк: https://github.com/doneyli/ai-agent-security-audit
 - Оригинальный аудит: https://gist.github.com/bgauryy/72b8a35d1849ad15469ba58e09428f58
 - DEV.to: https://dev.to/dmitry_labintcev_9e611e04/riding-the-hype-security-audit-of-ai-agent-clawdbot-2ffl
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

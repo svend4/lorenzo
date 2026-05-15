@@ -1,4 +1,22 @@
+---
+date: 2026-05-15
+tags: [memory, rag, knowledge, architecture, anthropic]
+state: normalized
+---
+
 # Генерация синтетических данных для LLM: граф-анализ качества вместо BLEU/ROUGE
+
+<!-- toc-auto -->
+<!-- tags: sberbank-synthetic-data-graph-quality, docs -->
+
+
+<!-- summary -->
+> Генерация синтетических данных для LLM: граф-анализ качества вместо BLEU/ROUGE — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -255,3 +273,11 @@ class LorenzoSyntheticQAGenerator:
 - Смежная (open-source синтетика обзор): https://habr.com/ru/companies/mws/articles/932066/
 - GraphSAGE: github.com/williamleif/GraphSAGE
 - Synthetic Data Vault: github.com/sdv-dev/SDV (MIT)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

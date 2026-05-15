@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # Академия РАНХиГС: LangGraph агент для 340K абитуриентов
+
+<!-- toc-auto -->
+<!-- tags: ranhigs-academia-langgraph-university-bot, docs -->
+
+
+<!-- summary -->
+> `ranhigs-academia-langgraph-university-bot` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -335,3 +349,11 @@ class LorenzoMultiModeQA:
 - Milvus: milvus.io
 - Смежная (НГУ Meno-Tiny + GraphRAG): https://habr.com/ru/companies/cloud_ru/articles/928132/
 - Смежная (EduLLM-RU fine-tuning, R35): habr.com/ru/articles/1026516/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

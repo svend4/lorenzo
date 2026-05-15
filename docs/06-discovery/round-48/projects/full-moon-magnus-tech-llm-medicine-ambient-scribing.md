@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [rag, security, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # ИИ против болезней: BioBERT на MIMIC-III и Ambient AI Scribing в реальных клиниках
+
+<!-- toc-auto -->
+<!-- tags: full-moon-magnus-tech-llm-medicine-ambient-scribing, docs -->
+
+
+<!-- summary -->
+> `full-moon-magnus-tech-llm-medicine-ambient-scribing` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -294,3 +308,11 @@ class LorenzoMedicalKnowledge:
 - Смежная (DBRM медицина v1, R31): docs/06-discovery/round-31/
 - Смежная (LLM медицина v2, R38): docs/06-discovery/round-38/
 - Смежная (Temporal KG, R47): docs/06-discovery/round-47/projects/ekaterina-ya-temporal-knowledge-graph-legal-rag.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

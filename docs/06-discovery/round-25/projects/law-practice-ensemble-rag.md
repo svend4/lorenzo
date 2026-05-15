@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, rag, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Law & Practice Ensemble RAG — юридический ассистент: законы + судебная практика
+
+<!-- toc-auto -->
+<!-- tags: law-practice-ensemble-rag, docs -->
+
+
+<!-- summary -->
+> Автор: OTUS (Хабр, 2025) Хабр: https://habr.com/ru/companies/otus/articles/946012/
+Хабр: https://habr.com/ru/companies/otus/articles/946012/  
+GitHub: не опубликован (архитектура и код разобраны в статье)  
+Слой: knowledge / orchestration / ingestion  
+Дата: 2025  
+Уникальность: Ensemble RAG для юридическ
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -196,3 +215,10 @@ class LorenzoEnsembleRAG:
 - Смежная (анализ договорных рисков): https://habr.com/ru/articles/1005144/
 - Смежная (ContentAI: LLM для юридических документов): https://habr.com/ru/companies/contentai/articles/932894/
 - Consultant.ru — база нормативных актов (парсинг для индекса)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

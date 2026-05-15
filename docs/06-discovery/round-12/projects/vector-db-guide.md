@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Vector DB Guide — сравнение 12 векторных БД для AI-агентов и RAG
+
+<!-- toc-auto -->
+<!-- tags: vector-db-guide, docs -->
+
+
+<!-- summary -->
+> Автор: автор статьи (Хабр) Хабр: https://habr.com/ru/articles/961088/ GitHub: нет (сравнительная статья)
+Хабр: https://habr.com/ru/articles/961088/  
+GitHub: нет (сравнительная статья)  
+Слой: knowledge / memory / ingestion  
+Дата: 2025  
+Уникальность: Наиболее полное (12 систем) русскоязычное сравнение векторных БД с конкре
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -70,3 +89,17 @@ Lorenzo использует **TF-IDF** + **BM25** (pure Python, без внеш
 
 - Статья: https://habr.com/ru/articles/961088/
 - Автор: не установлен
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_vector_db_guide.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

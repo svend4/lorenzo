@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [orchestration, security, architecture, roadmap, collaboration]
+state: normalized
+---
+
 # LLM Immune System — защита AI за 3 мс (open-source)
+
+<!-- toc-auto -->
+<!-- tags: llm-immune-system, docs -->
+
+
+<!-- summary -->
+> Автор: независимый разработчик (Хабр) Хабр: https://habr.com/ru/articles/996896/
+Хабр: https://habr.com/ru/articles/996896/  
+GitHub: уточнить (статья описывает open-source реализацию)  
+Слой: quality / security / orchestration  
+Дата: 2026  
+Уникальность: Токен-бай-токен фильтрация LLM-отв
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -87,3 +106,10 @@ Immune System добавляется как **тонкий слой вокруг
 
 - Статья: https://habr.com/ru/articles/996896/
 - ⚠️ GitHub: уточнить через профиль автора на Хабре
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

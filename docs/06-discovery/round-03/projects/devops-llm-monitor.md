@@ -1,4 +1,16 @@
+---
+date: 2026-05-15
+tags: [memory, rag, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # DevOps LLM Monitor
+<!-- tags: devops-llm-monitor, docs -->
+
+
+<!-- summary -->
+> Это единственный на Хабре case «свой домен-специфичный LLM как решение реальной задачи мониторинга».
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -36,3 +48,17 @@
 
 - Telegram: https://t.me/oni_devops_lab
 - Telegram-бот: @oni_devops_bot (демо)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_devops_llm_monitor.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, orchestration, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # HyperCortex Mesh Protocol (HMP)
+
+<!-- toc-auto -->
+<!-- tags: hypercortex-hmp, docs -->
+
+
+<!-- summary -->
+> Это прямая альтернатива паттерну «один оркестратор → N агентов» из всех предыдущих раундов.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -56,3 +70,17 @@ HMP — альтернатива: агенты равноправны, конс�
 - GitHub: https://github.com/kagvi13/HMP
 - Документация: https://kagvi13.github.io/HMP/
 - Статья: https://habr.com/ru/articles/1006566/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_hypercortex_hmp.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # Veai — AI-агент для JetBrains IDE (IntelliJ IDEA)
+
+<!-- toc-auto -->
+<!-- tags: veai-ide-agent, docs -->
+
+
+<!-- summary -->
+> Хабр: https://habr.com/ru/companies/veai/ GitHub: плагин в JetBrains Marketplace
+Хабр: https://habr.com/ru/companies/veai/  
+GitHub: плагин в JetBrains Marketplace  
+Слой: orchestration / desktop-agent / ide  
+Дата: 2025–2026 (v5.8 → v5.10+)  
+Уникальность: Первый AI-агент для JetBrains IDE из реестра россий
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -63,3 +82,10 @@ MCP-поддержка означает: Veai может вызывать Lorenz
 - Хабр компании: https://habr.com/ru/companies/veai/
 - JetBrains Marketplace: поиск "Veai"
 - Реестр РФ: подтверждён
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

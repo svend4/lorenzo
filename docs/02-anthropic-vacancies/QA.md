@@ -14,26 +14,23 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 355 файлам раздела._
-Использование
- 
-Смотрите также
- Главная
- Метрики
- Здоровье
- Глоссарий
- Сущности
- --
-Кто ссылается на этот документ (6):
- README
- OUTLINE
- READABILITY
- READING_TIME
- SEARCH
- TABLES
+> Упоминаются: card envelope, evidence envelope, memory write, skill policy, review record
+Какие кластеры найма выделены у Anthropic?
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
+
+## Как реализован forensic RAG с доказуемостью?
+
+Упоминаются: **liteparse**, **evidence**
+
+## Что такое Evidence Envelope и зачем он нужен?
+
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+
+## Какие RAG-подходы сравниваются в документах?
+
+Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **LiteParse**
 
 ## Какие 5 архитектурных зазоров выделены в исследовании?
 
@@ -41,7 +38,7 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Какие кластеры найма выделены у Anthropic?
 
@@ -66,18 +63,6 @@ _Автоматически сгенерировано по 355 файлам р�
 ## Что входит в первую итерацию прототипа?
 
 Упоминаются: **evidence-first**, **manual review**
-
-## Как реализован forensic RAG с доказуемостью?
-
-Упоминаются: **liteparse**, **evidence**
-
-## Что такое Evidence Envelope и зачем он нужен?
-
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
-
-## Какие RAG-подходы сравниваются в документах?
-
-Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **LiteParse**
 
 ## Какие системы памяти описаны в этом разделе?
 
@@ -140,16 +125,3 @@ python scripts/improve_qa.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-

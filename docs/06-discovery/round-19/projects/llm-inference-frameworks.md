@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, rag, ingestion, local-first, architecture]
+state: normalized
+---
+
 # LLM-инференс фреймворки — сравнение Ollama, vLLM, Triton, llama.cpp, SGLang
+
+<!-- toc-auto -->
+<!-- tags: llm-inference-frameworks, docs -->
+
+
+<!-- summary -->
+> Автор: независимый исследователь (Хабр, 2025) Хабр: https://habr.com/ru/articles/948934/
+Хабр: https://habr.com/ru/articles/948934/  
+GitHub: несколько: llama.cpp (MIT), vLLM (Apache 2.0), Ollama (MIT), SGLang (Apache 2.0)  
+Слой: orchestration / memory / ingestion  
+Дата: 2025  
+Уникальнос
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -148,3 +167,10 @@ SGLang + `improve_llm_enrich.py` = структурированное обога
 - SGLang: https://github.com/sgl-project/sglang (Apache 2.0)
 - Смежная (Ollama от А до Я): https://habr.com/en/articles/990260/
 - Смежная (Выжать больше из Ollama): https://habr.com/ru/articles/1025132/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

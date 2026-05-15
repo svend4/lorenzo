@@ -3,7 +3,7 @@ title: "Proposal: Research-Docs-Liteparse × Knowledge-Space"
 date: 2026-05-13
 card_id: 6bcb9f660f5b
 card_type: proposal
-state: normalized
+state: approved
 tags: [proposal, research-docs-liteparse, knowledge-space, ingestion, knowledge, integration]
 projects: [research-docs-liteparse, knowledge-space]
 similarity: 0.242
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Research-Docs-Liteparse × Knowledge-Space
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

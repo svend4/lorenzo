@@ -1,4 +1,22 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 31 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Raft: Построение AI агентов в медицине (DBRM) Хабр: https://habr.com/ru/companies/raft/articles/960388/
+ Файл:  
+ Хабр: https://habr.com/ru/companies/raft/articles/960388/
+ Слой: orchestration / analytics
+ Уникальность: Dynamic Behavior Reward Model: вместо RAG — иерархические метрики (safety/usefulness/com
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -107,3 +125,11 @@ python scripts/improve_collab_finder.py --file docs/06-discovery/round-31/projec
 2. **LLM inference optimization** — KV cache compression, speculative decoding, batching стратегии, quantization для production; как сделать inference дешевле без потери качества
 3. **AI для финансовой аналитики** — анализ финансовой отчётности через LLM, risk scoring, document extraction из годовых отчётов, NLP для МСФО/РСБУ
 4. **Multi-modal production pipelines** — vision+text+audio в production: routing модальностей, preprocessing pipelines, мультимодальный RAG, latency optimization
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)
+- [Решения](../../DECISIONS.md)

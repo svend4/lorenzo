@@ -1,4 +1,22 @@
+---
+date: 2026-05-15
+tags: [memory, knowledge, ingestion, architecture, anthropic]
+state: normalized
+---
+
 # DeepSeek V3→V3.2 — технический обзор эволюции открытых LLM
+
+<!-- toc-auto -->
+<!-- tags: deepseek-v3-technical-overview, docs -->
+
+
+<!-- summary -->
+> DeepSeek V3→V3.2 — технический обзор эволюции открытых LLM — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -156,3 +174,10 @@ client = OpenAI(
 - DeepSeek API: api.deepseek.com (OpenAI-compatible)
 - Технический отчёт: arxiv.org/abs/2412.19437 (V3), /2501.12948 (V3.1)
 - Смежная (YADRO тест DeepSeek R1 + Qwen3): https://habr.com/ru/companies/yadro/articles/938172/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

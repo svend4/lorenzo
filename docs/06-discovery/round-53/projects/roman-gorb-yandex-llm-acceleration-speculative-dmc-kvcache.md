@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, ingestion, local-first]
+state: normalized
+---
+
 # YandexGPT Acceleration: DMC KV-cache 3.5×, SpinQuant W4A4 2.7×, EAGLE Speculative Decoding
+
+<!-- toc-auto -->
+<!-- tags: roman-gorb-yandex-llm-acceleration-speculative-dmc-kvcache, docs -->
+
+
+<!-- summary -->
+> `roman-gorb-yandex-llm-acceleration-speculative-dmc-kvcache` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -330,3 +344,11 @@ class LorenzoInferenceOptimizer:
 - FlashAttention: github.com/Dao-AILab/flash-attention
 - Смежная (Quantization Deep Dive, R52): docs/06-discovery/round-52/projects/re9ulus-yandex-llm-quantization-deep-dive-gptq-qlora.md
 - Смежная (Self-hosted 4×4090, R49): docs/06-discovery/round-49/projects/dmitrii-chashchin-self-hosted-4x4090-vllm-parallelism.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

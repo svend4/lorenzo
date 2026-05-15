@@ -1,15 +1,33 @@
 ---
+state: normalized
 author: VladSpace
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [rag, knowledge, ingestion, architecture, collaboration]
 ---
 
 # Черновик сообщения — VladSpace (GitHub)
+<!-- tags: vladspace-draft, docs -->
+
 
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (14):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Cutcode_draft
+ Dmitriila_draft
+ nlaik_draft
+ spbmolot_draft
+ --
+Кто ссылается на этот документ (14):
+ DIGEST_AUTO
+ READING_TIME
+ AnastasiyaW_draft
+ Cut
 **Проекты:** Svyazi, Graph RAG
 
 ---
@@ -70,3 +88,10 @@ svend4
 - [VitalyOborin_draft](VitalyOborin_draft.md)
 - _...ещё 6_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_vladspace_draft.py
+```

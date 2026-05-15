@@ -1,4 +1,26 @@
+---
+date: 2026-05-15
+tags: [memory, orchestration, local-first, architecture, collaboration]
+state: normalized
+---
+
 # Orrin — голосовой ассистент на Rockchip RK3588
+
+<!-- toc-auto -->
+<!-- tags: orrin-rockchip-voice, docs -->
+
+
+<!-- summary -->
+> Характеристика | Значение | Процессор | Rockchip RK3588 (ARM Cortex-A76 + A55) |
+ Характеристика | Значение |
+ ----------------|---------|
+ Процессор | Rockchip RK3588 (ARM Cortex-A76 + A55) |
+ NPU | 6 TOPS (встроенный) |
+ Память | до 32 ГБ |
+ Применение | edge AI, embedded, SBC |
+Почему важно
+Большинство найденны
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -48,3 +70,17 @@ RK3588-устройства (Orange Pi 5, Radxa ROCK 5) стоят в 10–20 р
 - Хабр часть 1: https://habr.com/ru/companies/mts_ai/articles/970434/
 - Хабр часть 2: https://habr.com/ru/companies/mts_ai/articles/1004144/
 - Автор: MTS AI (mts.ru AI-подразделение)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_orrin_rockchip_voice.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

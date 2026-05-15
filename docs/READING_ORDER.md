@@ -1,16 +1,16 @@
 # Рекомендуемый порядок чтения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `READING_ORDER` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: reading-order, docs -->
+
 
 <!-- summary -->
-> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
-
----
-
+> `READING_ORDER` — раздел документации проекта Lorenzo.
 
 
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
@@ -19,8 +19,8 @@
 |---|---------|----------|------|--------------------------|
 | 1 | 🟢 Начало | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-svyazi/01-executive-summary.md) | 754 | — |
 | 2 | 🟡 Средний | [Приоритетные ансамбли проектов](01-svyazi/04-ensembles-overview.md) | 1410 | — |
-| 3 | 🟢 Начало | [Продолжение исследования для Svyazi[^svyazi] ](01-svyazi/00-intro-part2.md) | 398 | — |
-| 4 | 🟡 Средний | [Методика и рамка отбора проектов](01-svyazi/02-methodology.md) | 571 | — |
+| 3 | 🟡 Средний | [Методика и рамка отбора проектов](01-svyazi/02-methodology.md) | 571 | — |
+| 4 | 🟢 Начало | [Продолжение исследования для Svyazi[^svyazi] ](01-svyazi/00-intro-part2.md) | 398 | — |
 | 5 | 🟡 Средний | [Каталог компонентов Svyazi 2.0](01-svyazi/03-component-catalog.md) | 1520 | — |
 | 6 | 🟡 Средний | [Интеграционные контракты](01-svyazi/11-integration-contracts.md) | 880 | `09-architectural-gaps.md` |
 | 7 | 🟡 Средний | [Архитектурные зазоры](01-svyazi/09-architectural-gaps.md) | 928 | `01-executive-summary.md`, `03-component-catalog.md` |
@@ -33,19 +33,19 @@
 | 14 | 🟢 Начало | [Выводы](01-svyazi/08-conclusions.md) | 495 | — |
 | 15 | 🟡 Средний | [Синтез: как проекты собираются вместе](05-habr-projects/01-synthesis.md) | 393 | — |
 | 16 | 🟡 Средний | [Авторы и контакты](05-habr-projects/02-collaboration-partners.md) | 352 | — |
-| 17 | 🟡 Средний | [research-docs + LiteParse](05-habr-projects/knowledge/research-docs-liteparse.md) | 783 | — |
-| 18 | 🟡 Средний | [Wikontic: семантический граф](05-habr-projects/knowledge/wikontic.md) | 441 | — |
-| 19 | 🟡 Средний | [AgentFS](05-habr-projects/knowledge/agentfs.md) | 733 | — |
-| 20 | 🟡 Средний | [knowledge-space[^knowledge-space]](05-habr-projects/knowledge/knowledge-space.md) | 681 | — |
-| 21 | 🟡 Средний | [mclaude](05-habr-projects/knowledge/mclaude.md) | 718 | — |
+| 17 | 🟡 Средний | [AgentFS](05-habr-projects/knowledge/agentfs.md) | 733 | — |
+| 18 | 🟡 Средний | [research-docs + LiteParse](05-habr-projects/knowledge/research-docs-liteparse.md) | 783 | — |
+| 19 | 🟡 Средний | [mclaude](05-habr-projects/knowledge/mclaude.md) | 718 | — |
+| 20 | 🟡 Средний | [Wikontic: семантический граф](05-habr-projects/knowledge/wikontic.md) | 441 | — |
+| 21 | 🟡 Средний | [knowledge-space[^knowledge-space]](05-habr-projects/knowledge/knowledge-space.md) | 681 | — |
 | 22 | 🟡 Средний | [Rufler](05-habr-projects/knowledge/rufler.md) | 691 | — |
-| 23 | 🟡 Средний | [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md) | 536 | — |
+| 23 | 🔴 Продвинутый | [MemNet: исследовательская память](05-habr-projects/memory/memnet.md) | 7350 | — |
 | 24 | 🟡 Средний | [agent-memory-mcp + Memory OS](05-habr-projects/memory/agent-memory-mcp.md) | 791 | — |
-| 25 | 🟡 Средний | [Yodoca[^yodoca]: консолидация и забывание](05-habr-projects/memory/yodoca.md) | 437 | — |
-| 26 | 🔴 Продвинутый | [MemNet: исследовательская память](05-habr-projects/memory/memnet.md) | 7350 | — |
+| 25 | 🟡 Средний | [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md) | 536 | — |
+| 26 | 🟡 Средний | [Yodoca[^yodoca]: консолидация и забывание](05-habr-projects/memory/yodoca.md) | 437 | — |
 | 27 | 🟡 Средний | [Executive summary](04-ai-collaborations/01-executive-summary.md) | 669 | — |
-| 28 | 🔴 Продвинутый | [Введение](04-ai-collaborations/00-intro.md) | 11511 | — |
-| 29 | 🟡 Средний | [Методика и рамка отбора](04-ai-collaborations/02-методика-и-рамка-отбора.md) | 498 | — |
+| 28 | 🟡 Средний | [Методика и рамка отбора](04-ai-collaborations/02-методика-и-рамка-отбора.md) | 498 | — |
+| 29 | 🔴 Продвинутый | [Введение](04-ai-collaborations/00-intro.md) | 11511 | — |
 | 30 | 🟡 Средний | [Карта найденных проектов и паттернов](04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) | 1577 | — |
 | 31 | 🟡 Средний | [Приоритетные ансамбли](04-ai-collaborations/04-приоритетные-ансамбли.md) | 1459 | — |
 | 32 | 🟡 Средний | [План прототипа и возможные контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) | 1235 | — |
@@ -58,58 +58,58 @@
 | 39 | 🟡 Средний | [Дорожная карта прототипа следующей итерации](04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) | 885 | — |
 | 40 | 🟡 Средний | [Контактная стратегия и узкие вопросы для авто](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) | 981 | — |
 | 41 | 🔴 Продвинутый | [Ограничения, лицензии и что пока лучше не скл](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3407 | — |
-| 42 | 🟡 Средний | [Proposal: Knowledge-Space × Mclaude](04-ai-collaborations/proposals/proposal-knowledge-space-x-mclaude.md) | 305 | — |
-| 43 | 🟡 Средний | [Proposal: Agentfs × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md) | 308 | — |
-| 44 | 🟡 Средний | [Proposal: Wikontic × Yodoca](04-ai-collaborations/proposals/proposal-wikontic-x-yodoca.md) | 309 | — |
-| 45 | 🟡 Средний | [Proposal: Research-Docs-Liteparse × Agentfs](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md) | 306 | — |
-| 46 | 🟡 Средний | [Proposal: Agentfs × Yodoca](04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md) | 304 | — |
-| 47 | 🟡 Средний | [Proposal: Wikontic × Memnet](04-ai-collaborations/proposals/proposal-wikontic-x-memnet.md) | 295 | — |
-| 48 | 🟡 Средний | [Proposal: Knowledge-Space × Ngt-Memory](04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md) | 307 | — |
-| 49 | 🟡 Средний | [Proposal: Research-Docs-Liteparse × Agent-Mem](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md) | 302 | — |
-| 50 | 🟡 Средний | [Proposal: Agentfs × Rufler](04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md) | 304 | — |
-| 51 | 🟡 Средний | [Proposal: Knowledge-Space × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md) | 307 | — |
-| 52 | 🟡 Средний | [Proposal: Wikontic × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-wikontic-x-agent-memory-mcp.md) | 307 | — |
-| 53 | 🟡 Средний | [Proposal: Rufler × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-rufler-x-agent-memory-mcp.md) | 294 | — |
-| 54 | 🟡 Средний | [Proposal: 01-Synthesis × Wikontic](04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md) | 299 | — |
-| 55 | 🟡 Средний | [Proposal: Agentfs × Mclaude](04-ai-collaborations/proposals/proposal-agentfs-x-mclaude.md) | 304 | — |
-| 56 | 🟡 Средний | [Proposal: Mclaude × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-mclaude-x-agent-memory-mcp.md) | 294 | — |
-| 57 | 🟡 Средний | [Proposal: Knowledge-Space × Yodoca](04-ai-collaborations/proposals/proposal-knowledge-space-x-yodoca.md) | 308 | — |
-| 58 | 🟡 Средний | [Proposal: 01-Synthesis × Yodoca](04-ai-collaborations/proposals/proposal-01-synthesis-x-yodoca.md) | 297 | — |
-| 59 | 🟡 Средний | [Proposal: Wikontic × Ngt-Memory](04-ai-collaborations/proposals/proposal-wikontic-x-ngt-memory.md) | 303 | — |
-| 60 | 🟡 Средний | [Proposal: Mclaude × Rufler](04-ai-collaborations/proposals/proposal-mclaude-x-rufler.md) | 304 | — |
-| 61 | 🟡 Средний | [Proposal: Research-Docs-Liteparse × Knowledge](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md) | 306 | — |
-| 62 | 🟡 Средний | [Proposal: Agentfs × Memnet](04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md) | 295 | — |
-| 63 | 🟡 Средний | [Proposal: Knowledge-Space × Rufler](04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md) | 305 | — |
+| 42 | 🟡 Средний | [Proposal: Knowledge-Space × Ngt-Memory](04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md) | 307 | — |
+| 43 | 🟡 Средний | [Proposal: Wikontic × Ngt-Memory](04-ai-collaborations/proposals/proposal-wikontic-x-ngt-memory.md) | 303 | — |
+| 44 | 🟡 Средний | [Proposal: Rufler × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-rufler-x-agent-memory-mcp.md) | 294 | — |
+| 45 | 🟡 Средний | [Proposal: Agentfs × Mclaude](04-ai-collaborations/proposals/proposal-agentfs-x-mclaude.md) | 304 | — |
+| 46 | 🟡 Средний | [Proposal: Knowledge-Space × Rufler](04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md) | 305 | — |
+| 47 | 🟡 Средний | [Proposal: Knowledge-Space × Yodoca](04-ai-collaborations/proposals/proposal-knowledge-space-x-yodoca.md) | 308 | — |
+| 48 | 🟡 Средний | [Proposal: Wikontic × Memnet](04-ai-collaborations/proposals/proposal-wikontic-x-memnet.md) | 295 | — |
+| 49 | 🟡 Средний | [Proposal: Agentfs × Rufler](04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md) | 304 | — |
+| 50 | 🟡 Средний | [Proposal: Wikontic × Yodoca](04-ai-collaborations/proposals/proposal-wikontic-x-yodoca.md) | 309 | — |
+| 51 | 🟡 Средний | [Proposal: 01-Synthesis × Yodoca](04-ai-collaborations/proposals/proposal-01-synthesis-x-yodoca.md) | 297 | — |
+| 52 | 🟡 Средний | [Proposal: Research-Docs-Liteparse × Agent-Mem](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md) | 302 | — |
+| 53 | 🟡 Средний | [Proposal: Knowledge-Space × Mclaude](04-ai-collaborations/proposals/proposal-knowledge-space-x-mclaude.md) | 305 | — |
+| 54 | 🟡 Средний | [Proposal: Mclaude × Rufler](04-ai-collaborations/proposals/proposal-mclaude-x-rufler.md) | 304 | — |
+| 55 | 🟡 Средний | [Proposal: Research-Docs-Liteparse × Knowledge](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md) | 306 | — |
+| 56 | 🟡 Средний | [Proposal: Agentfs × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md) | 308 | — |
+| 57 | 🟡 Средний | [Proposal: Knowledge-Space × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md) | 307 | — |
+| 58 | 🟡 Средний | [Proposal: Agentfs × Yodoca](04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md) | 304 | — |
+| 59 | 🟡 Средний | [Proposal: 01-Synthesis × Wikontic](04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md) | 299 | — |
+| 60 | 🟡 Средний | [Proposal: Agentfs × Memnet](04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md) | 295 | — |
+| 61 | 🟡 Средний | [Proposal: Mclaude × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-mclaude-x-agent-memory-mcp.md) | 294 | — |
+| 62 | 🟡 Средний | [Proposal: Research-Docs-Liteparse × Agentfs](04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md) | 306 | — |
+| 63 | 🟡 Средний | [Proposal: Wikontic × Agent-Memory-Mcp](04-ai-collaborations/proposals/proposal-wikontic-x-agent-memory-mcp.md) | 307 | — |
 | 64 | 🟢 Начало | [Агентные системы и роутинг](03-technology-combinations/01-agent-routing.md) | 500 | — |
 | 65 | 🟢 Начало | [Графы знаний и Legal AI](03-technology-combinations/02-knowledge-graphs.md) | 914 | — |
 | 66 | 🟢 Начало | [Local-first и P2P стек](03-technology-combinations/03-local-first.md) | 683 | — |
 | 67 | 🟢 Начало | [Домен: немецкое социальное право](03-technology-combinations/04-sozialrecht-domain.md) | 308 | — |
 | 68 | 🟡 Средний | [Бенчмарки и производительность](03-technology-combinations/05-benchmarks.md) | 1099 | — |
-| 69 | 🟢 Начало | [Executive Summary](02-anthropic-vacancies/153-executive-summary.md) | 676 | — |
-| 70 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/38-content-overview.md) | 346 | — |
-| 71 | 🔴 Продвинутый | [Интегральный анализ профиля svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | 19244 | — |
+| 69 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/38-content-overview.md) | 346 | — |
+| 70 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/58-content-overview.md) | 376 | — |
+| 71 | 🟢 Начало | [README.md](02-anthropic-vacancies/65-readme-md.md) | 340 | — |
 | 72 | 🟢 Начало | [README-MCP.md— инструкция по установке](02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) | 377 | — |
-| 73 | 🟢 Начало | [README.md](02-anthropic-vacancies/65-readme-md.md) | 340 | — |
-| 74 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/48-content-overview.md) | 352 | — |
-| 75 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/58-content-overview.md) | 376 | — |
-| 76 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/12-content-overview.md) | 328 | — |
+| 73 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/48-content-overview.md) | 352 | — |
+| 74 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/12-content-overview.md) | 328 | — |
+| 75 | 🟢 Начало | [Executive Summary](02-anthropic-vacancies/153-executive-summary.md) | 676 | — |
+| 76 | 🔴 Продвинутый | [Интегральный анализ профиля svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | 19244 | — |
 | 77 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/31-content-overview.md) | 328 | — |
-| 78 | 🔴 Продвинутый | [Введение](02-anthropic-vacancies/00-intro.md) | 9053 | — |
-| 79 | 🟢 Начало | [1. Introduction](02-anthropic-vacancies/76-1-introduction.md) | 538 | — |
-| 80 | 🟢 Начало | [REVIEW_METHODOLOGY.md](02-anthropic-vacancies/105-review-methodology-md.md) | 386 | — |
-| 81 | 🟢 Начало | [1. Introduction](02-anthropic-vacancies/06-1-introduction.md) | 486 | — |
-| 82 | 🔴 Продвинутый | [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) | 3391 | — |
-| 83 | 🟡 Средний | [4. Architecture of Professional Colleague Age](02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) | 1192 | — |
-| 84 | 🟢 Начало | [2. The Double-Triangle Architecture](02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | 832 | — |
-| 85 | 🟡 Средний | [Appendix C: Quick-Start Architecture for SGB ](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) | 2059 | — |
-| 86 | 🟢 Начало | [4. The Symbiotic Architecture](02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) | 713 | — |
-| 87 | 🟢 Начало | [PORTAL-PROTOCOL.md](02-anthropic-vacancies/03-portal-protocol-md.md) | 437 | — |
-| 88 | 🟢 Начало | [THE DOUBLE-TRIANGLE ARCHITECTURE.md](02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) | 379 | — |
-| 89 | 🟡 Средний | [10. Risks Specific to Composite Architectures](02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) | 1098 | — |
+| 78 | 🔴 Продвинутый | [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) | 3391 | — |
+| 79 | 🔴 Продвинутый | [Введение](02-anthropic-vacancies/00-intro.md) | 9053 | — |
+| 80 | 🟢 Начало | [1. Introduction](02-anthropic-vacancies/76-1-introduction.md) | 538 | — |
+| 81 | 🟢 Начало | [REVIEW_METHODOLOGY.md](02-anthropic-vacancies/105-review-methodology-md.md) | 386 | — |
+| 82 | 🟢 Начало | [1. Introduction](02-anthropic-vacancies/06-1-introduction.md) | 486 | — |
+| 83 | 🟡 Средний | [Appendix C: Quick-Start Architecture for SGB ](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) | 2059 | — |
+| 84 | 🟢 Начало | [THE DOUBLE-TRIANGLE ARCHITECTURE.md](02-anthropic-vacancies/134-the-double-triangle-architecture-md.md) | 379 | — |
+| 85 | 🟢 Начало | [PORTAL-PROTOCOL.md](02-anthropic-vacancies/03-portal-protocol-md.md) | 437 | — |
+| 86 | 🟡 Средний | [10. Risks Specific to Composite Architectures](02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) | 1098 | — |
+| 87 | 🟢 Начало | [4. The Symbiotic Architecture](02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) | 713 | — |
+| 88 | 🟡 Средний | [4. Architecture of Professional Colleague Age](02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) | 1192 | — |
+| 89 | 🟢 Начало | [2. The Double-Triangle Architecture](02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | 832 | — |
 | 90 | 🟢 Начало | [Abstract](02-anthropic-vacancies/04-abstract.md) | 444 | — |
 | 91 | 🟢 Начало | [0. Status of This Document](02-anthropic-vacancies/05-0-status-of-this-document.md) | 437 | — |
-| 92 | 🟢 Начало | [11. Security Considerations](02-anthropic-vacancies/23-11-security-considerations.md) | 471 | — |
-| 93 | 🟢 Начало | [15. Security Considerations](02-anthropic-vacancies/90-15-security-considerations.md) | 552 | — |
+| 92 | 🟢 Начало | [15. Security Considerations](02-anthropic-vacancies/90-15-security-considerations.md) | 552 | — |
+| 93 | 🟢 Начало | [11. Security Considerations](02-anthropic-vacancies/23-11-security-considerations.md) | 471 | — |
 | 94 | 🟢 Начало | [2. Terminology](02-anthropic-vacancies/07-2-terminology.md) | 419 | — |
 | 95 | 🟢 Начало | [3. Registry (`nautilus.json`)](02-anthropic-vacancies/08-3-registry-nautilus-json.md) | 539 | — |
 | 96 | 🟢 Начало | [4. Passport (`passport.md`)](02-anthropic-vacancies/09-4-passport-passport-md.md) | 431 | — |
@@ -464,29 +464,21 @@
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
 
-<!-- see-also -->
 
----
-
-**Смотрите также:**
-- [SOURCE_MAP](SOURCE_MAP.md)
-- [PROMOTE_LOG](PROMOTE_LOG.md)
-- [HEADING_AUDIT](HEADING_AUDIT.md)
-- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (33):**
-- [README](02-anthropic-vacancies/README.md)
-- [proposal-01-synthesis-x-wikontic](04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md)
-- [proposal-01-synthesis-x-yodoca](04-ai-collaborations/proposals/proposal-01-synthesis-x-yodoca.md)
-- [proposal-agentfs-x-agent-memory-mcp](04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md)
-- [proposal-agentfs-x-mclaude](04-ai-collaborations/proposals/proposal-agentfs-x-mclaude.md)
-- [proposal-agentfs-x-memnet](04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md)
-- [proposal-agentfs-x-rufler](04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md)
-- [proposal-agentfs-x-yodoca](04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md)
-- _...ещё 25_
-
+## Использование
+```bash
+# Запуск
+python scripts/improve_reading_order.py
+```
+```bash
+# Вариант 2
+python scripts/improve_reading_order.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_reading_order.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_reading_order.py --dry-run
+```

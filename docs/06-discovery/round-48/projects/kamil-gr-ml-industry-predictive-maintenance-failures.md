@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, security, knowledge, ingestion]
+state: normalized
+---
+
 # Нейросети в промышленности: правда о провалах ML на производстве и паттерн «модель-консультант»
+
+<!-- toc-auto -->
+<!-- tags: kamil-gr-ml-industry-predictive-maintenance-failures, docs -->
+
+
+<!-- summary -->
+> `kamil-gr-ml-industry-predictive-maintenance-failures` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -334,3 +348,11 @@ class LorenzoScriptQualityConsultant:
 - Смежная (Kaspersky MLAD ICS, R43): docs/06-discovery/round-43/projects/kaspersky-mlad-ics-anomaly-digital-twin.md
 - Смежная (LLM IoT промышленность, R37): docs/06-discovery/round-37/
 - Смежная (SherlockOps SRE, R42): docs/06-discovery/round-42/projects/sherlockops-llm-alert-investigation-devops.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

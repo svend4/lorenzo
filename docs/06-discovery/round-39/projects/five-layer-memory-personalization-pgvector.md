@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # AI-агент с 5-слойной памятью: персонализация через Memory Synthesizer
+
+<!-- toc-auto -->
+<!-- tags: five-layer-memory-personalization-pgvector, docs -->
+
+
+<!-- summary -->
+> `five-layer-memory-personalization-pgvector` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -328,3 +342,11 @@ class LorenzoPersonalizedQA:
 - Смежная (Yodoca SQLite память): https://habr.com/ru/articles/1006622/
 - Смежная (NGT Memory ассоциативный граф): https://habr.com/ru/articles (R01)
 - Смежная (personal-context-manager JSON профиль): https://habr.com/ru/articles/892136/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

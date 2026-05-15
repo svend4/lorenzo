@@ -1,4 +1,22 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 27 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> DerAI — Solar Security: SAST + fine-tuned LLM Хабр: https://habr.com/ru/companies/solarsecurity/articles/1031718/
+ Файл:  
+ Хабр: https://habr.com/ru/companies/solarsecurity/articles/1031718/
+ Слой: orchestration / analytics / security
+ Уникальность: Собственная LLM на 7-летней базе реальных уязвимостей Solar appScre
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -105,3 +123,10 @@ python scripts/improve_collab_finder.py --file docs/06-discovery/round-27/projec
 2. **Multimodal Agent** — агенты работающие с изображениями, аудио и текстом одновременно; vision-language tasks в production
 3. **LLM Evaluation frameworks** — автоматическая оценка качества LLM-ответов: LLM-as-judge, benchmark construction, red-teaming
 4. **Federated AI / Privacy-preserving** — обучение и инференс без передачи данных: federated learning, homomorphic encryption, PETs
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

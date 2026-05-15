@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Autonomous AI News System
+
+<!-- toc-auto -->
+<!-- tags: autonomous-news-system, docs -->
+
+
+<!-- summary -->
+> Особенно ценно: паттерн «5 агентов в пайплайне» — каждый отвечает за свой слой обработки.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -40,3 +54,17 @@
 
 - Статья: https://habr.com/ru/articles/1023446/ (апрель 2026)
 - ⚠️ Нужно найти GitHub через профиль автора
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_autonomous_news_system.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

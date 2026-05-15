@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [rag, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # Финансовый RAG-ассистент: 4-головый гибридный ретривер и агентные стратегии для банковского домена
+
+<!-- toc-auto -->
+<!-- tags: runoi-finance-rag-four-head-hybrid-retriever, docs -->
+
+
+<!-- summary -->
+> `runoi-finance-rag-four-head-hybrid-retriever` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -283,3 +297,11 @@ class LorenzoHybridRetriever:
 - Смежная (Finam LLM трейдинг, R26): docs/06-discovery/round-26/
 - Смежная (LLM финансовый compliance, R36): docs/06-discovery/round-36/
 - Смежная (AML LLM советник, R42): docs/06-discovery/round-42/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

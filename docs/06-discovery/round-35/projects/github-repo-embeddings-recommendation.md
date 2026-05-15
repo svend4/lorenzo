@@ -1,4 +1,24 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Обучение эмбеддингов GitHub репозиториев: персонализация без backend
+
+<!-- toc-auto -->
+<!-- tags: github-repo-embeddings-recommendation, docs -->
+
+
+<!-- summary -->
+> Автор: Puzer (Дмитрий) Хабр: https://habr.com/ru/articles/983080/ GitHub: https://github.com/Puzer/github-repo-embeddings
+Хабр: https://habr.com/ru/articles/983080/  
+GitHub: https://github.com/Puzer/github-repo-embeddings  
+Demo: https://puzer.github.io/github_recommender (client-side WASM)  
+Слой: analytics / knowledge  
+Дата: январь 2025  
+Ун
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -296,3 +316,11 @@ class LorenzoProjectRecommender:
 - Qwen3-Embedding: huggingface.co/Qwen/Qwen3-Embedding-0.6B
 - USearch WASM: github.com/unum-cloud/usearch
 - Смежная (рекомендации фильмов cold start + GPT): https://habr.com/ru/articles/1029318/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

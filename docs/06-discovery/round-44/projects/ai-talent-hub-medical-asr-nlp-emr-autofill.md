@@ -1,4 +1,18 @@
+---
+date: 2026-05-15
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # ИИ-ассистент врача: GigaAM ASR + Mistral NLP → авто-заполнение ЭМК
+
+<!-- toc-auto -->
+<!-- tags: ai-talent-hub-medical-asr-nlp-emr-autofill, docs -->
+
+
+<!-- summary -->
+> `ai-talent-hub-medical-asr-nlp-emr-autofill` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
@@ -327,3 +341,11 @@ class LorenzoStructuredExtractor:
 - GigaAM: github.com/salute-developers/GigaAM
 - Смежная (медицинский Graph RAG, Sandboxer): https://habr.com/ru/companies/sandboxer/articles/1032704/
 - Смежная (DBRM медицинские агенты, R31): https://habr.com/ru/companies/raft/articles/960388/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

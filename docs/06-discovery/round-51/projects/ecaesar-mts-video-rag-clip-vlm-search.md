@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [memory, rag, security, knowledge, ingestion]
+state: normalized
+---
+
 # Video Search Assistant: CLIP-Only RAG для видеонаблюдения без LLM-декодера
+
+<!-- toc-auto -->
+<!-- tags: ecaesar-mts-video-rag-clip-vlm-search, docs -->
+
+
+<!-- summary -->
+> Автор: eCaesar (Георгий Гайков, MTS AI) Хабр: https://habr.com/ru/companies/mts_ai/articles/804555/
+Хабр: https://habr.com/ru/companies/mts_ai/articles/804555/  
+GitHub: нет (production кейс)  
+Слой: knowledge / ingestion  
+Дата: апрель 2024  
+Уникальность: Оригинальное архитектурное решение: отбросить язык
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -283,3 +302,11 @@ class LorenzoVideoKnowledge:
 - Смежная (Gemini Embedding video-RAG, R48): docs/06-discovery/round-48/projects/ab429-gemini-embedding2-multimodal-video-rag.md
 - Смежная (Avito VLM, R45): docs/06-discovery/round-45/
 - Смежная (MTS code review, R47): docs/06-discovery/round-47/projects/mts-evgzor-llm-code-review-gitlab-n8n-ollama.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,21 @@
+---
+date: 2026-05-15
+tags: [memory, rag, ingestion, local-first, architecture]
+state: normalized
+---
+
 # Jay Guard — динамическая анонимизация данных для LLM API
+
+<!-- toc-auto -->
+<!-- tags: jay-guard-llm-privacy, docs -->
+
+
+<!-- summary -->
+> Автор: команда Just AI (российская AI-компания) Хабр: https://habr.com/ru/companies/just_ai/articles/946392/
+Хабр: https://habr.com/ru/companies/just_ai/articles/946392/  
+GitHub: не опубликован (production-инструмент, архитектура описана + benchmark на HuggingFace)  
+Слой: orchestration / knowledge / ingest
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -160,3 +177,10 @@ def safe_llm_call(text: str) -> str:
 - Benchmark: huggingface.co/datasets/just-ai/pd-anonymization-benchmark (анонимизированный)
 - ChamelOn (open-source альтернатива): https://habr.com/ru/articles/969766/
 - Microsoft Presidio: github.com/microsoft/presidio (MIT)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

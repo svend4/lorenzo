@@ -1,4 +1,23 @@
+---
+date: 2026-05-15
+tags: [orchestration, ingestion, local-first, architecture, collaboration]
+state: normalized
+---
+
 # Raspberry Pi Visual Agent (Edge AI, Qwen3 1.7b)
+
+<!-- toc-auto -->
+<!-- tags: rpi-visual-agent, docs -->
+
+
+<!-- summary -->
+> Автор: Simone Marculli (GitHub подтверждён) Хабр: https://habr.com/ru/companies/bothub/news/974604/
+Хабр: https://habr.com/ru/companies/bothub/news/974604/  
+GitHub: профиль Simone Marculli — уточнить точный URL репозитория  
+Слой: edge-AI / IoT / local-inference  
+Дата: 2025–2026  
+Уникальность: Полнос
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -60,3 +79,10 @@ Lorenzo работает на локальной машине. Edge AI на RPi 
 
 - GitHub: Simone Marculli — уточнить точный URL
 - Хабр (новость): https://habr.com/ru/companies/bothub/news/974604/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
