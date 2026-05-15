@@ -1,8 +1,40 @@
 # API Reference — docs-toolkit
 
-Краткий справочник по public API всех 25 функциональных модулей. Полный обзор — в [`README.md`](README.md), детальный roadmap — в [`../docs/ROADMAP/`](../docs/ROADMAP/).
+Public API всех 498 модулей. Полный обзор — в [`README.md`](README.md),
+композиция через `ask()` — в [`PROFILES.md`](PROFILES.md), детальный
+roadmap — в [`ROADMAP_EXECUTION.md`](ROADMAP_EXECUTION.md).
 
-**Версия:** Unreleased (готовится 0.2.0). 53 спринта реализовано.
+**Версия:** **0.3.0** (Unreleased). 220+ спринтов реализовано, 35 / 35
+roadmap-пунктов закрыты.
+
+---
+
+## Sprint 54-92 composition cheat sheet
+
+`docstoolkit.rag.ask()` принимает 17 ортогональных kwargs:
+
+| Group | kwarg | Roadmap | Эффект |
+|---|---|---|---|
+| Personalization | `user_id` | S6 | autoload `UserProfile`, applies prefs |
+| | `personality` | N9 | `CognitiveProfile`-based reranking |
+| | `memory` | I5 | TieredMemory recall + record |
+| | `learning_queue` | M6 | auto-enqueue low-conf queries |
+| Retrieval shape | `method` | core | `keyword`/`bm25`/`semantic`/`hybrid` |
+| | `filters` | S2 | `{field: value}` filtered pre-rerank |
+| | `with_facets` | S2 | aggregations over passages |
+| | `hierarchical` | M3 | section → doc → passage |
+| | `auto_intent` | M4 | routes by question type |
+| | `at_commit` | I8 | git-time-travel snapshot |
+| Quality | `reranker` | M2 | cross-encoder / TFIDF / LLM judge |
+| | `with_provenance` | I3 | span-level claims + 95 % CI |
+| | `eval_runner` | M5 | online sampling + drift |
+| Reasoning | `self_rag` | I1 | reflect loop |
+| | `with_debate` | I2 | multi-agent debate |
+| | `with_got` | N3 | graph-of-thoughts |
+| | `with_mapreduce` | I10 | map-reduce for big passage sets |
+| | `with_negotiation` | N2 | retrieval auction |
+
+Plus 18 standalone helpers (see [Helpers](#helpers) below).
 
 ---
 
@@ -18,6 +50,7 @@
 - [Integration / Federation / Webhooks](#integration--federation--webhooks)
 - [Storage / VectorDB / Cache](#storage--vectordb--cache)
 - [Utilities](#utilities)
+- [Helpers (Sprint 54-92)](#helpers-sprint-54-92)
 
 ---
 
@@ -617,9 +650,114 @@ python ../scripts/improve_template_integrity.py   # шаблоны (23/23)
 
 ---
 
+## Helpers (Sprint 54-92)
+
+Sprint-by-sprint helper APIs живут в `docstoolkit.rag.*`:
+
+### `docstoolkit.rag.saved` (S1)
+
+```python
+from docstoolkit.rag.saved import save_query, list_queries, run_due_alerts
+
+qid = save_query("Yodoca", owner="alice", schedule="daily", top_k=5)
+for q in list_queries(owner="alice"):
+    print(q.id, q.query)
+fired = run_due_alerts()   # uses ask() under the hood
+```
+
+### `docstoolkit.rag.bulk_diff` (S5)
+
+```python
+from pathlib import Path
+from docstoolkit.rag.bulk_diff import (
+    diff_corpus_dirs, diff_commits, diff_since_days,
+)
+
+res = diff_corpus_dirs(Path("docs/"), Path("/tmp/old-docs/"))
+print(res.added, res.removed, res.modified)
+print(res.markdown)
+```
+
+### `docstoolkit.rag.bandit_ask` (I7)
+
+```python
+from docstoolkit.bandit import BanditExperiment
+from docstoolkit.rag.bandit_ask import ask_with_bandit, evaluate_record
+
+exp = BanditExperiment("rag-AB", ["bm25", "hybrid", "semantic"])
+result, picked = ask_with_bandit(
+    "query", exp,
+    variants={"bm25": {"method": "bm25"},
+              "hybrid": {"method": "hybrid"},
+              "semantic": {"method": "semantic"}},
+)
+evaluate_record(exp, picked, result, success_threshold=0.3)
+```
+
+### `docstoolkit.rag.advanced`
+
+| Function | Roadmap | What it does |
+|---|---|---|
+| `probe_counterfactual(question, corpus, doc_id)` | I4 | impact of removing a doc |
+| `measure_voice(text)` | N4 | claim/hedge/confidence/objectivity |
+| `diffuse_knowledge(src, tgt, threshold)` | N6 | cross-corpus concept alignment |
+| `build_taxonomy_ask(question, levels)` | N7 | cluster retrieved docs into taxonomy |
+| `federated_aggregate(per_node_metrics, epsilon)` | N5 | DP mean with Laplace noise |
+| `co_evolve_round(seeds, n_variants)` | N10 | adversarially-harder question variants |
+| `classify_docs(docs, training, threshold)` | S3 | TF-IDF document tagging |
+| `FusedRetrieverAdapter(fused, candidates_fn)` | I6 | `.search()` wrapper for FusedRetriever |
+| `search_assets(query, asset_type, tag)` | M8 | multi-modal asset search |
+| `evolve_prompt(seeds, fitness, generations)` | I9 | GA-evolved prompt templates |
+| `incremental_index_docs(docs, handler)` | M7 | batch incremental indexer |
+
+### Other Sprint helpers
+
+- **`docstoolkit.citations.PageRankBoostedRetriever`** (S4) — boost retrieval by citation authority
+- **`docstoolkit.knowledge_graph.KGRetriever`** (M1) — entity-graph-aware retrieval
+- **`docstoolkit.metabolism.propose_rewrite`** (N1) — suggest fragments to absorb into stale docs
+
+### CLI exposure
+
+```bash
+docstoolkit rag ask "Q" --with-facets --with-provenance --self-rag \
+                        --hierarchical --with-mapreduce --at-commit main~10
+docstoolkit saved save "Yodoca updates" --owner alice
+docstoolkit saved list --owner alice
+docstoolkit saved run
+docstoolkit diff-bulk --from main~10 --to main --md
+docstoolkit voice --file my.md
+docstoolkit assets "diagram" --type IMAGE
+docstoolkit kg index
+docstoolkit kg query "Python and Docker" --top 5
+docstoolkit profile set alice --retriever bm25 --sections "05-habr-projects"
+docstoolkit profile show alice
+docstoolkit eval dashboard --days 7 --out eval-report.html
+docstoolkit taxonomy "memory architectures" --levels 3
+```
+
+### HTTP exposure
+
+`docstoolkit serve --port 8080` ⇒ JSON endpoints:
+
+```
+GET /api/ask?q=...&with_facets=1&with_provenance=1&self_rag=1
+GET /api/eval/dashboard?days=7
+GET /api/saved?owner=alice
+GET /api/voice?text=...
+GET /api/assets?q=...&type=image
+GET /api/taxonomy?q=...&levels=3
+GET /api/diff?from=main~10&to=main
+GET /api/kg?q=...
+GET /api/profile?user_id=alice
+```
+
+---
+
 ## Связанные документы
 
 - [`README.md`](README.md) — обзор пакета + quick start
+- [`PROFILES.md`](PROFILES.md) — композиция всех 17 ask() фич
+- [`ROADMAP_EXECUTION.md`](ROADMAP_EXECUTION.md) — путь A→B→C для каждого пункта
 - [`CHANGELOG.md`](CHANGELOG.md) — изменения по версиям
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) — как контрибьютить
 - [`SECURITY.md`](SECURITY.md) — security policy + best practices
