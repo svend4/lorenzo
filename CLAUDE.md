@@ -39,7 +39,7 @@ docs/
   benchmark.json       — история замеров скриптов
 
 scripts/
-  improve_*.py           — 165 скриптов обработки документов (24 группы)
+  improve_*.py           — 187 скриптов обработки документов (24 группы)
   utils_chunker.py       — утилиты чанкинга для больших текстов
   mcp_server.py          — MCP-сервер с 17 инструментами (11 read + 6 write: add_card, update_card_state, propose_integration, list_cards, decay_card, restore_card)
   gateway.py             — OpenAI-compatible HTTP gateway (FastAPI, порт 8083, 5 инструментов + dedup + passages sync)
