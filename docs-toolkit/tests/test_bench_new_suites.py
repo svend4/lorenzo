@@ -46,3 +46,16 @@ def test_ask_baseline_under_50ms():
         if x["name"] == "ask_baseline"
     ]
     assert r["median_ms"] < 50.0
+
+
+def test_kg_suite_registered():
+    """Phase V.4 — KG bench suite."""
+    assert "kg" in SUITES
+
+
+def test_kg_suite_runs():
+    results = run_suites(["kg"])
+    assert len(results) >= 4
+    names = {r["name"] for r in results}
+    assert "kg_lookup_by_subject" in names
+    assert "kg_query_two_patterns" in names

@@ -54,6 +54,25 @@ Composition overhead is sub-linear vs sum of individual features.
 These numbers are environment-dependent — run locally to compare.
 History is appended to `bench/history.jsonl` for trend tracking.
 
+## `kg` suite (Phase V.4)
+
+In-memory `TripleStore` populated with 100 entities / 500 triples.
+Measures raw KG ops without retrieval / extraction pipeline:
+
+| Bench | Median (ms) | Min (ms) | Iterations |
+|---|---:|---:|---:|
+| `kg_lookup_by_subject` | 0.020 | 0.018 | 20 |
+| `kg_neighbors` | 0.010 | 0.010 | 20 |
+| `kg_query_one_pattern` | 0.027 | 0.020 | 20 |
+| `kg_query_two_patterns` | 1.856 | 1.779 | 15 |
+
+- **Single-pattern DSL queries are cheap** (~27 μs) — same complexity as a
+  direct `find_triples()` call.
+- **Multi-pattern joins are O(N · k)** where N is bindings of the first
+  pattern and k is the per-pattern fan-out. The 1.86 ms / 2-pattern figure
+  is dominated by 5×100 SQL round-trips; can be optimized with a single
+  JOIN query if it becomes a bottleneck.
+
 ## Phase III.1 trace overhead
 
 Инструментирование `RAGPipeline.run()` через `_TraceTimer` добавило

@@ -7,7 +7,48 @@
 
 ## [Unreleased]
 
-_(empty — отслеживание изменений после 0.3.0)_
+### Added
+
+**Phase II.1+II.2 — pipeline fix:** `_self_rag_run` now forwards every
+RAGPipeline kwarg via a `pipeline_kwargs` dict, so `self_rag=True`
+composes with `with_got`/`with_debate`/`with_negotiation`/`memory`/
+`personality`. Presets `ask_with_reasoning` and `ask_full_stack` had
+self-RAG restored. 7 contract tests in `tests/test_self_rag_composition.py`.
+
+**Phase III — observability:** `TraceEvent(stage, t_ms, payload)` and
+`AnswerResult.trace` (Phase III.1); `AnswerResult.to_trace_markdown()`
+(Phase III.2); HTTP `/api/ask?trace=1` opt-in (Phase III.3). Every
+pipeline stage emits an event with non-negative `t_ms`. 8 tests in
+`tests/test_answer_result_trace.py`.
+
+**Phase IV.1+IV.3 — performance:**
+- negotiation agents: hoisted Bid import, pre-compiled regex,
+  tokenise-query-once. `ask_with_negotiation` 141 → 118 μs (-16%).
+- provenance claims: pre-compiled regex, pre-tokenised passages, removed
+  O(M·N) re-tokenisation in `link_sources`.
+
+**Phase V — Knowledge Graph deepening:**
+- `docstoolkit.knowledge_graph.store.TripleStore` — SQLite-backed
+  persistent triple store with indexed lookup by subject/predicate/
+  object/doc_id, upsert with MAX(score), neighbours traversal. 13 tests
+  in `tests/test_kg_store.py`.
+- `docstoolkit.knowledge_graph.query` — mini DSL (`"py" uses ?topic`)
+  with `parse_query()` / `run_query()`. Multi-pattern hash-join. 10 tests
+  in `tests/test_kg_query.py`.
+- New `kg` bench suite (4 benches: lookup, neighbors, 1-pattern,
+  2-pattern). Measurements in `bench/BENCHMARKS.md`.
+
+**Phase IX — docs:**
+- `COOKBOOK.md` — 10 recipes by task
+- `ARCHITECTURE.md` — layers, contracts, 5 ADRs
+- `MIGRATING.md` — 1-to-1 mapping for LangChain/LlamaIndex users
+
+### Fixed
+
+- `bench/history.jsonl` baseline record committed so PR regression
+  checks have something to diff against (Phase I.3).
+- `docs/REGISTRY.md`, `docs/SCRIPTS_CATALOG.md`, `docs/TASKS_INDEX.md`
+  re-generated to unblock PR #27 "Catalog up-to-date" CI gate.
 
 ## [0.3.0] - 2026-05-15
 

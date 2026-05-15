@@ -277,6 +277,63 @@ def _suite_helpers() -> list[Bench]:
     ]
 
 
+def _suite_kg() -> list[Bench]:
+    """Phase V.4 — Knowledge Graph store + query benchmarks.
+
+    Uses an in-memory TripleStore populated with 100 entities / 500
+    triples; isolates raw KG ops (add / lookup / query DSL) from any
+    upstream extraction or downstream retrieval.
+    """
+    from docstoolkit.knowledge_graph import (
+        Entity, EntityType, Triple, TripleStore, run_query,
+    )
+
+    def _build_store():
+        s = TripleStore(":memory:")
+        for i in range(100):
+            s.add_entity(Entity(entity_id=f"e{i}", name=f"Entity_{i}",
+                                entity_type=EntityType.CONCEPT))
+        # Each entity gets ~5 outgoing triples → 500 triples total.
+        for i in range(100):
+            for j in range(5):
+                target = (i + j + 1) % 100
+                s.add_triple(Triple(
+                    subject=f"e{i}",
+                    predicate="uses" if j % 2 == 0 else "mentions",
+                    object=f"e{target}",
+                    doc_id=f"d{i}",
+                ))
+        return s
+
+    store = _build_store()
+
+    def bench_lookup_by_subject():
+        return store.find_triples(subject="e42")
+
+    def bench_neighbors():
+        return store.neighbors("e42")
+
+    def bench_query_one_pattern():
+        return run_query(store, '"e10" uses ?topic')
+
+    def bench_query_two_patterns():
+        return run_query(store, '''
+            "e10"  uses     ?topic
+            ?topic mentions ?author
+        ''')
+
+    return [
+        Bench("kg_lookup_by_subject", bench_lookup_by_subject,
+              suite="kg", iterations=20),
+        Bench("kg_neighbors", bench_neighbors,
+              suite="kg", iterations=20),
+        Bench("kg_query_one_pattern", bench_query_one_pattern,
+              suite="kg", iterations=20),
+        Bench("kg_query_two_patterns", bench_query_two_patterns,
+              suite="kg", iterations=15),
+    ]
+
+
 SUITES: dict[str, Callable[[], list[Bench]]] = {
     "frontmatter": _suite_frontmatter,
     "embeddings": _suite_embeddings,
@@ -286,6 +343,7 @@ SUITES: dict[str, Callable[[], list[Bench]]] = {
     "cluster": _suite_cluster,
     "ask_features": _suite_ask_features,
     "helpers": _suite_helpers,
+    "kg": _suite_kg,
 }
 
 
