@@ -30,20 +30,34 @@ _FACTUAL_KEYWORDS = {
 }
 
 
+# Phase IV.3 — pre-compile every regex once. Each was being recompiled on
+# every claim×passage iteration inside link_sources (M×N matrix), which
+# accounted for ~6 μs of the +9 μs provenance overhead in cProfile.
+_CITATION_RE = re.compile(r'\[\d+(?:-\d+)?\]')
+_WORD_RE = re.compile(r'\b\w+\b')
+_TOKEN_RE = re.compile(r'\w+')
+_SENT_RE = re.compile(r'(?<=[.!?])[ \t]+|(?<=[.!?])\n+|\n{2,}')
+_CLAIM_SENT_RE = re.compile(r'(?<=[.!?])[ \t]+|(?<=[.!?])\n+')
+
+
 def _strip_citations(text: str) -> str:
     """Remove citation markers like [1], [2-4], [n] from text."""
-    return re.sub(r'\[\d+(?:-\d+)?\]', '', text).strip()
+    return _CITATION_RE.sub('', text).strip()
 
 
 def _has_noun_like_token(sentence: str) -> bool:
     """Heuristic: sentence has ≥1 word with uppercase letter or known keyword."""
-    words = re.findall(r'\b\w+\b', sentence)
-    for w in words:
+    for w in _WORD_RE.findall(sentence):
         if w[0].isupper() and len(w) > 1:
             return True
         if w.lower() in _FACTUAL_KEYWORDS:
             return True
     return False
+
+
+def _tokenise(text: str) -> set[str]:
+    """Lowercase tokenisation cached at the call site (used heavily in link_sources)."""
+    return set(_TOKEN_RE.findall(text.lower()))
 
 
 def extract_claims(answer_text: str) -> list[str]:
@@ -60,7 +74,7 @@ def extract_claims(answer_text: str) -> list[str]:
         return []
 
     # Split on sentence boundaries
-    raw = re.split(r'(?<=[.!?])[ \t]+|(?<=[.!?])\n+', answer_text)
+    raw = _CLAIM_SENT_RE.split(answer_text)
     claims = []
     for raw_sentence in raw:
         sentence = _strip_citations(raw_sentence.strip())
@@ -73,53 +87,69 @@ def extract_claims(answer_text: str) -> list[str]:
 
 
 def _token_overlap(a: str, b: str) -> float:
-    """Jaccard token overlap between two strings (lowercased words)."""
-    tokens_a = set(re.findall(r'\w+', a.lower()))
-    tokens_b = set(re.findall(r'\w+', b.lower()))
-    if not tokens_a or not tokens_b:
+    """Jaccard token overlap between two strings (lowercased words).
+
+    Phase IV.3 — uses the pre-compiled `_TOKEN_RE` instead of re.findall
+    (which had to look up the compiled pattern in the re cache on every
+    call). Kept as a thin shim for backwards compatibility — internal
+    hot paths use `_token_overlap_pre(tokens_a, b_text)` to avoid
+    re-tokenising the same `a` for every passage.
+    """
+    return _token_overlap_pre(_tokenise(a), b)
+
+
+def _token_overlap_pre(tokens_a: set[str], b: str) -> float:
+    """Variant of `_token_overlap` that takes pre-tokenised `tokens_a`."""
+    if not tokens_a:
+        return 0.0
+    tokens_b = _tokenise(b)
+    if not tokens_b:
         return 0.0
     intersection = len(tokens_a & tokens_b)
     union = len(tokens_a | tokens_b)
     return intersection / union if union else 0.0
 
 
-def _find_best_span(claim: str, passage_text: str) -> tuple[int, int]:
-    """Find the sentence in passage_text with highest token overlap to claim.
+def _find_best_span_pre(
+    claim_tokens: set[str],
+    passage_text: str,
+) -> tuple[int, int]:
+    """Find the sentence in `passage_text` with highest token overlap to claim.
+
+    Phase IV.3 — accepts pre-computed claim tokens to avoid re-tokenising
+    the same claim once per passage inside `link_sources`'s M×N loop.
 
     Returns (start_char, end_char) of the best matching sentence.
-    Falls back to (0, len(passage_text)) if no sentence boundary found.
     """
-    # Split passage into sentences
-    sentences = re.split(r'(?<=[.!?])[ \t]+|(?<=[.!?])\n+|\n{2,}', passage_text)
+    sentences = _SENT_RE.split(passage_text)
     if not sentences:
         return (0, len(passage_text))
 
     best_score = -1.0
     best_start = 0
     best_end = len(passage_text)
-
     pos = 0
     for sent in sentences:
         sent_stripped = sent.strip()
         if not sent_stripped:
-            # Advance pos past the raw sentence
             pos += len(sent)
             continue
-
-        score = _token_overlap(claim, sent_stripped)
+        score = _token_overlap_pre(claim_tokens, sent_stripped)
         start = passage_text.find(sent_stripped, pos)
         if start == -1:
             start = pos
         end = start + len(sent_stripped)
-
         if score > best_score:
             best_score = score
             best_start = start
             best_end = end
-
         pos = end
-
     return (best_start, best_end)
+
+
+def _find_best_span(claim: str, passage_text: str) -> tuple[int, int]:
+    """Backwards-compat shim — see `_find_best_span_pre`."""
+    return _find_best_span_pre(_tokenise(claim), passage_text)
 
 
 def link_sources(
@@ -141,13 +171,23 @@ def link_sources(
     """
     result: list[Claim] = []
 
+    # Phase IV.3 — pre-tokenise every passage once (was N×M in the loop).
+    passage_tokens = [_tokenise(p.text) for p in passages]
+
     for idx, claim_text in enumerate(claims):
+        # Pre-tokenise the claim once; reused for both overlap and best-span.
+        claim_tokens = _tokenise(claim_text)
         sources: list[Source] = []
 
-        for passage in passages:
-            sim = _token_overlap(claim_text, passage.text)
+        for p_idx, passage in enumerate(passages):
+            pt = passage_tokens[p_idx]
+            if not claim_tokens or not pt:
+                continue
+            inter = len(claim_tokens & pt)
+            uni = len(claim_tokens | pt)
+            sim = inter / uni if uni else 0.0
             if sim >= min_similarity:
-                span = _find_best_span(claim_text, passage.text)
+                span = _find_best_span_pre(claim_tokens, passage.text)
                 sources.append(Source(
                     doc_id=passage.doc_id,
                     passage_text=passage.text,
