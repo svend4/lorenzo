@@ -53,3 +53,16 @@ Composition overhead is sub-linear vs sum of individual features.
 
 These numbers are environment-dependent — run locally to compare.
 History is appended to `bench/history.jsonl` for trend tracking.
+
+## Baseline record
+
+`bench/history.jsonl` хранит один **baseline-снимок** (2026-05-15) против
+которого `.github/workflows/benchmark.yml` сравнивает PR-запуски с порогом
+50% регрессии. Перезапустить baseline можно командой:
+
+```bash
+python -m bench.runner --save
+```
+
+После релиза 0.3.0 каждый merge в `main` дописывает новую запись в
+`history.jsonl`, что даёт временной ряд для трекинга деградации.
