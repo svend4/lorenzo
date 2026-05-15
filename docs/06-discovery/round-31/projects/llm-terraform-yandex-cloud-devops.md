@@ -1,5 +1,10 @@
 # Автоматизация деплоя контейнеров в Yandex Cloud с помощью Terraform и LLM
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 **Автор:** sshaplygin (Хабр, апрель 2026)  
 **Хабр:** https://habr.com/ru/articles/1020612/  
 **GitHub:** github.com/sshaplygin (Terraform + Go Cloud Function, ссылка в статье)  

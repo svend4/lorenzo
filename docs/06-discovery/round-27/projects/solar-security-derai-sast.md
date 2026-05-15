@@ -1,5 +1,10 @@
 # DerAI: Fine-tuned LLM для SAST — Solar Security против GPT-5 на реальных уязвимостях
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** команда Solar Security (Хабр, май 2025)  
 **Хабр:** https://habr.com/ru/companies/solarsecurity/articles/1031718/  
 **GitHub:** не опубликован (проприетарная система)  

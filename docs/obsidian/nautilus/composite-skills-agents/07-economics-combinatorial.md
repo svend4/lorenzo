@@ -188,3 +188,15 @@ funding or modest practitioner contribution.
 - [[260-7-economics-of-combinatorial-replication]] (сходство 0.87)
 - [[05-economics-replication]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-economics-combinatorial](../../../nautilus/composite-skills-agents/07-economics-combinatorial.md)
+

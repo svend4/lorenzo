@@ -51,3 +51,16 @@ date: 2026-05-13
 - [[04-mem0-letta-graphiti]] (сходство 0.22)
 - [[05-existing-infrastructure-stack]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-vitaly-graph-cognitive-memory](../../../anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
+- [07-key-observation](../../../anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
+

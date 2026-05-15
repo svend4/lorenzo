@@ -149,3 +149,16 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 - [[05-benchmarks]] (сходство 0.64)
 - [[01-08-summary]] (сходство 0.49)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-conductor-adversarial-review-auto-ai-router](../../../technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md)
+- [01-08-summary](../../../technology-combinations/synthesis-tables/01-08-summary.md)
+

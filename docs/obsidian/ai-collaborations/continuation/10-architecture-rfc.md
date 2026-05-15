@@ -68,3 +68,17 @@ Pilot scenarios: community OS, legal/research OS, AgentOps memory kernel.
 - [[05-roadmap-6-12-months]] (сходство 0.19)
 - [[09-do-not-glue]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-roadmap-6-12-months](../../../ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [06-metrics-tree](../../../ai-collaborations/continuation/06-metrics-tree.md)
+- [10-architecture-rfc](../../../ai-collaborations/continuation/10-architecture-rfc.md)
+

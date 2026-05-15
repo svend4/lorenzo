@@ -1,5 +1,10 @@
 # Авито: адаптация Mistral-7B к русскому языку — новый токенизатор + continual pretraining
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Anastasiya_Rysmyatova (Авито, команда LLM)  
 **Хабр:** https://habr.com/ru/companies/avito/articles/852958/  
 **GitHub:** нет (внутренняя система Авито)  

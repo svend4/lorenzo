@@ -64,3 +64,16 @@ Claude hat geantwortet: Правильно разграничиваете — э
 - [[00-question-camel-vs-nautilus]] (сходство 0.16)
 - [[00-question-multi-tier]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-two-nautiluses](../../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [02-nautilus-A-pro2-meta](../../../anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md)
+

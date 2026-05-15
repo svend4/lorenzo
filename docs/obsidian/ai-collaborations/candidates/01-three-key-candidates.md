@@ -52,3 +52,16 @@ date: 2026-05-13
 - [[wikontic]] (сходство 0.27)
 - [[wikontic]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-three-key-candidates](../../../ai-collaborations/candidates/01-three-key-candidates.md)
+- [01-three-direct-analogues](../../../habr-unique-projects/analogues/01-three-direct-analogues.md)
+

@@ -1,5 +1,10 @@
 # LoRA fine-tuning эмбеддингов на юридических документах с hard-negative mining
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** huraligne (Саприн Семён, PGK)  
 **Хабр:** https://habr.com/ru/companies/pgk/articles/913912/  
 **GitHub:** нет (автор: Telegram @huraligne)  

@@ -106,3 +106,16 @@ Claude hat geantwortet: Переписанная версия вашего во�
 - [[00-question-rephrasing]] (сходство 0.16)
 - [[03-three-variants-A-B-C]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-polymath-project-tao-comparison](../../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [00-question-innovations-transitions](../../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+

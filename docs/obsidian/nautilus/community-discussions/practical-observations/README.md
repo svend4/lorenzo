@@ -23,3 +23,14 @@ date: 2026-05-13
 - [[README]] (сходство 0.50)
 - [[README]] (сходство 0.50)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+

@@ -1,5 +1,10 @@
 # Парсинг PDF-отчётов публичных компаний для трейдерских инсайтов
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** ovchinnikovproger (Amvera, Хабр, сентябрь 2025)  
 **Хабр:** https://habr.com/ru/companies/amvera/articles/949966/  
 **GitHub:** https://github.com/user11415926535-dot/Parser_2  

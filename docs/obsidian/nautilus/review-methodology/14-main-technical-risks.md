@@ -61,3 +61,16 @@ readiness.
 - [[120-главные-технические-риски]] (сходство 0.50)
 - [[12-appendix-a-header-warning]] (сходство 0.48)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [120-главные-технические-риски](../../../02-anthropic-vacancies/120-главные-технические-риски.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [14-main-technical-risks](../../../nautilus/review-methodology/14-main-technical-risks.md)
+

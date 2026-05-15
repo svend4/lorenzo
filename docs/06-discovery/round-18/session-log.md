@@ -1,5 +1,10 @@
 # Round 18 — Лог поисковой сессии
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Дата:** 2026-05-12  
 **Статус:** ✅ Завершён  
 **Тема:** Agentic RAG (10 подходов), Synthetic Data Toolkit, RAG Incident Management, FRIDA (RU embeddings)

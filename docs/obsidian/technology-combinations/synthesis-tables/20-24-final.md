@@ -57,3 +57,17 @@ date: 2026-05-13
 - [[15-19-extended]] (сходство 0.35)
 - [[31-35-final]] (сходство 0.34)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [22-russian-international-oss-stack](../../../technology-combinations/combinations/22-russian-international-oss-stack.md)
+- [20-24-final](../../../technology-combinations/synthesis-tables/20-24-final.md)
+- [25-30-extended](../../../technology-combinations/synthesis-tables/25-30-extended.md)
+

@@ -1,5 +1,10 @@
 # vLLM Production Stack: KV-cache, FP8, Speculative Decoding в production
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Mikhail Androsov (@Bambarbrandenburg, Хабр, март 2025)  
 **Хабр:** https://habr.com/ru/articles/1016062/  
 **GitHub:** https://github.com/vllm-project/vllm + https://github.com/vllm-project/production-stack  

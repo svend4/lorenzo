@@ -79,3 +79,15 @@ date: 2026-05-13
 - [[201-11-призыв-к-сотрудничеству]] (сходство 0.83)
 - [[09-strategiya-razvyortyvaniya]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-prizyv-k-sotrudnichestvu](../../../nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
+

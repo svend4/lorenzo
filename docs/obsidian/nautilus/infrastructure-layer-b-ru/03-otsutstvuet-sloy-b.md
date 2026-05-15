@@ -114,3 +114,15 @@ date: 2026-05-13
 - [[292-что-отсутствует-слой-b]] (сходство 0.79)
 - [[02-dvukhsloynyy-stek]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-otsutstvuet-sloy-b](../../../nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md)
+

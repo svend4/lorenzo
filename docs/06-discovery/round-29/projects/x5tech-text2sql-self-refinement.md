@@ -1,5 +1,10 @@
 # Text2SQL с самопроверкой в production: X5 Tech, Qwen2.5-72B, M-Schema
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Mikhail Kulyaskin (@alaska_bear), X5 Tech (Хабр, сентябрь 2025)  
 **Хабр:** https://habr.com/ru/companies/X5Tech/articles/949694/  
 **GitHub:** не опубликован (внутренняя система X5 Tech)  

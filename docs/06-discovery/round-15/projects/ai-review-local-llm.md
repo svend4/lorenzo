@@ -1,5 +1,10 @@
 # AI Review — локальное LLM-ревью кода в CI/CD
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Nikita Filonov (GitHub подтверждён)  
 **Хабр:** https://habr.com/ru/articles/951434/ + https://habr.com/ru/articles/953598/  
 **GitHub:** https://github.com/Nikita-Filonov/ai-review  

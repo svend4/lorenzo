@@ -343,7 +343,7 @@ def main():
     p_rag_ask = p_rag_sub.add_parser("ask", help="Задать вопрос корпусу")
     p_rag_ask.add_argument("question")
     p_rag_ask.add_argument("-k", "--top", type=int, default=5)
-    p_rag_ask.add_argument("--method", choices=["keyword", "semantic", "hybrid"],
+    p_rag_ask.add_argument("--method", choices=["keyword", "semantic", "hybrid", "bm25"],
                            default="hybrid")
     p_rag_ask.add_argument("--answerer",
                            choices=["echo", "anthropic", "openai", "gemini", "ollama"],
@@ -351,6 +351,31 @@ def main():
     p_rag_ask.add_argument("--model", default="claude-haiku-4-5-20251001")
     p_rag_ask.add_argument("--json", action="store_true")
     p_rag_ask.add_argument("--md", action="store_true")
+    # Sprint 54-92 kwargs:
+    p_rag_ask.add_argument("--user-id", default="",
+                           help="Per-user preferences profile (S6)")
+    p_rag_ask.add_argument("--with-facets", action="store_true",
+                           help="Aggregate facet counts (S2)")
+    p_rag_ask.add_argument("--filters", default="",
+                           help='Filter as "field:value,field2:value2" (S2)')
+    p_rag_ask.add_argument("--with-provenance", action="store_true",
+                           help="Span-level claims + 95%% CI (I3)")
+    p_rag_ask.add_argument("--self-rag", action="store_true",
+                           help="Self-reflect loop (I1)")
+    p_rag_ask.add_argument("--auto-intent", action="store_true",
+                           help="Route by intent classifier (M4)")
+    p_rag_ask.add_argument("--hierarchical", action="store_true",
+                           help="Section → doc → passage (M3)")
+    p_rag_ask.add_argument("--with-debate", action="store_true",
+                           help="Multi-agent debate (I2)")
+    p_rag_ask.add_argument("--with-mapreduce", action="store_true",
+                           help="Map-reduce over many passages (I10)")
+    p_rag_ask.add_argument("--with-got", action="store_true",
+                           help="Graph-of-thoughts reasoning (N3)")
+    p_rag_ask.add_argument("--with-negotiation", action="store_true",
+                           help="Multi-agent retrieval auction (N2)")
+    p_rag_ask.add_argument("--at-commit", default="",
+                           help="Time-travel: query corpus at git ref (I8)")
     p_rag_ask.set_defaults(func=cmd_rag_ask)
 
     p_agent = sub.add_parser("agent", help="Autonomous agent loop")
@@ -391,6 +416,86 @@ def main():
     p_h_file.add_argument("path")
     p_h_file.add_argument("-n", "--limit", type=int, default=20)
     p_h_file.set_defaults(func=cmd_history_file)
+
+    # ---------------- Sprint 54-92 subcommands ----------------
+
+    # saved searches (S1)
+    p_saved = sub.add_parser("saved", help="Сохранённые запросы + alerts (S1)")
+    p_saved_sub = p_saved.add_subparsers(dest="saved_cmd", required=True)
+    p_sv_save = p_saved_sub.add_parser("save", help="Сохранить запрос")
+    p_sv_save.add_argument("query")
+    p_sv_save.add_argument("--owner", default="default")
+    p_sv_save.add_argument("--schedule", default="daily")
+    p_sv_save.add_argument("--top", type=int, default=5)
+    p_sv_save.set_defaults(func=cmd_saved_save)
+    p_sv_list = p_saved_sub.add_parser("list", help="Список сохранённых запросов")
+    p_sv_list.add_argument("--owner", default="")
+    p_sv_list.set_defaults(func=cmd_saved_list)
+    p_sv_run = p_saved_sub.add_parser("run", help="Запустить due alerts")
+    p_sv_run.set_defaults(func=cmd_saved_run)
+
+    # bulk diff (S5)
+    p_bdf = sub.add_parser("diff-bulk", help="Bulk diff между коммитами/днями (S5)")
+    p_bdf.add_argument("--from", dest="ref_from", default="")
+    p_bdf.add_argument("--to", dest="ref_to", default="HEAD")
+    p_bdf.add_argument("--days", type=int, default=0)
+    p_bdf.add_argument("--md", action="store_true")
+    p_bdf.set_defaults(func=cmd_diff_bulk)
+
+    # epistemic voice (N4)
+    p_voice = sub.add_parser("voice", help="Epistemic voice profile текста (N4)")
+    p_voice.add_argument("--file", help="Файл (или --text)")
+    p_voice.add_argument("--text", default="")
+    p_voice.set_defaults(func=cmd_voice)
+
+    # multi-modal assets (M8)
+    p_assets = sub.add_parser("assets", help="Multi-modal asset search (M8)")
+    p_assets.add_argument("query")
+    p_assets.add_argument("--type", dest="asset_type", default="")
+    p_assets.add_argument("--tag", default="")
+    p_assets.add_argument("--json", action="store_true")
+    p_assets.set_defaults(func=cmd_assets)
+
+    # knowledge graph (M1)
+    p_kg = sub.add_parser("kg", help="Knowledge Graph retrieval (M1)")
+    p_kg_sub = p_kg.add_subparsers(dest="kg_cmd", required=True)
+    p_kg_ix = p_kg_sub.add_parser("index", help="Построить KG из docs/")
+    p_kg_ix.set_defaults(func=cmd_kg_index)
+    p_kg_q = p_kg_sub.add_parser("query", help="Поиск по KG")
+    p_kg_q.add_argument("query")
+    p_kg_q.add_argument("-k", "--top", type=int, default=5)
+    p_kg_q.add_argument("--hops", type=int, default=1)
+    p_kg_q.set_defaults(func=cmd_kg_query)
+
+    # user profile (S6)
+    p_prof = sub.add_parser("profile", help="Per-user preferences (S6)")
+    p_prof_sub = p_prof.add_subparsers(dest="profile_cmd", required=True)
+    p_p_show = p_prof_sub.add_parser("show", help="Показать профиль")
+    p_p_show.add_argument("user_id")
+    p_p_show.set_defaults(func=cmd_profile_show)
+    p_p_list = p_prof_sub.add_parser("list", help="Список профилей")
+    p_p_list.set_defaults(func=cmd_profile_list)
+    p_p_set = p_prof_sub.add_parser("set", help="Создать или обновить профиль")
+    p_p_set.add_argument("user_id")
+    p_p_set.add_argument("--retriever", default="hybrid")
+    p_p_set.add_argument("--sections", default="",
+                          help='Comma-separated preferred sections')
+    p_p_set.set_defaults(func=cmd_profile_set)
+
+    # online eval dashboard (M5)
+    p_eval = sub.add_parser("eval", help="Continuous online eval (M5)")
+    p_eval_sub = p_eval.add_subparsers(dest="eval_cmd", required=True)
+    p_e_dash = p_eval_sub.add_parser("dashboard", help="HTML дашборд")
+    p_e_dash.add_argument("--days", type=int, default=7)
+    p_e_dash.add_argument("--out", default="eval-dashboard.html")
+    p_e_dash.set_defaults(func=cmd_eval_dashboard)
+
+    # taxonomy (N7)
+    p_tax = sub.add_parser("taxonomy", help="Self-organising taxonomy (N7)")
+    p_tax.add_argument("query")
+    p_tax.add_argument("--top", type=int, default=25)
+    p_tax.add_argument("--levels", type=int, default=3)
+    p_tax.set_defaults(func=cmd_taxonomy)
 
     args = parser.parse_args()
     return args.func(args)
@@ -479,12 +584,33 @@ def cmd_history_file(args):
 def cmd_rag_ask(args):
     """RAG Q&A."""
     from docstoolkit.rag import ask
+
+    filters = None
+    if args.filters:
+        filters = {}
+        for part in args.filters.split(","):
+            if ":" in part:
+                k, v = part.split(":", 1)
+                filters[k.strip()] = v.strip()
+
     result = ask(
         args.question,
         top_k=args.top,
         method=args.method,
         answerer=args.answerer,
         model=args.model,
+        user_id=getattr(args, "user_id", "") or "",
+        filters=filters,
+        with_facets=getattr(args, "with_facets", False),
+        with_provenance=getattr(args, "with_provenance", False),
+        self_rag=getattr(args, "self_rag", False),
+        auto_intent=getattr(args, "auto_intent", False),
+        hierarchical=getattr(args, "hierarchical", False),
+        with_debate=getattr(args, "with_debate", False),
+        with_mapreduce=getattr(args, "with_mapreduce", False),
+        with_got=getattr(args, "with_got", False),
+        with_negotiation=getattr(args, "with_negotiation", False),
+        at_commit=getattr(args, "at_commit", "") or "",
     )
 
     if args.json:
@@ -768,6 +894,211 @@ def cmd_search(args):
             if r.snippet:
                 print(f"          > {r.snippet[:120]}...")
             print()
+    return 0
+
+
+# ---------------- Sprint 54-92 command implementations ----------------
+
+
+def cmd_saved_save(args):
+    from docstoolkit.rag.saved import save_query
+    qid = save_query(args.query, owner=args.owner,
+                     schedule=args.schedule, top_k=args.top)
+    print(f"Saved query: {qid}")
+    return 0
+
+
+def cmd_saved_list(args):
+    from docstoolkit.rag.saved import list_queries
+    qs = list_queries(owner=args.owner)
+    if not qs:
+        print("No saved queries.")
+        return 0
+    for q in qs:
+        print(f"[{q.id}] {q.query}  (owner={q.owner}, schedule={q.schedule},"
+              f" top_k={q.top_k})")
+    return 0
+
+
+def cmd_saved_run(args):
+    from docstoolkit.rag.saved import run_due_alerts
+    fired = run_due_alerts()
+    if not fired:
+        print("No alerts fired.")
+        return 0
+    for a in fired:
+        print(f"FIRED  query_id={a.query_id}  reason={getattr(a, 'reason', '')}")
+    return 0
+
+
+def cmd_diff_bulk(args):
+    from pathlib import Path as _P
+    from docstoolkit.config import load_config
+    from docstoolkit.rag.bulk_diff import (
+        diff_commits, diff_since_days,
+    )
+
+    docs_dir = load_config().docs_dir
+    if args.days:
+        res = diff_since_days(docs_dir, args.days)
+    elif args.ref_from:
+        res = diff_commits(docs_dir, args.ref_from, args.ref_to)
+    else:
+        print("Specify --from REF or --days N")
+        return 1
+    if args.md:
+        print(res.markdown)
+    else:
+        print(f"Total changes: {res.total_changes}")
+        if res.added:
+            print(f"  added ({len(res.added)}): {', '.join(res.added[:10])}")
+        if res.removed:
+            print(f"  removed ({len(res.removed)}): {', '.join(res.removed[:10])}")
+        if res.modified:
+            print(f"  modified ({len(res.modified)}): {', '.join(res.modified[:10])}")
+    return 0
+
+
+def cmd_voice(args):
+    from pathlib import Path as _P
+    from docstoolkit.rag.advanced import measure_voice
+    text = args.text
+    if args.file:
+        text = _P(args.file).read_text(encoding="utf-8", errors="replace")
+    if not text:
+        print("Provide --text or --file")
+        return 1
+    voice = measure_voice(text)
+    print(f"Text length: {len(text)} chars")
+    for k, v in voice.items():
+        print(f"  {k}: {v:.3f}")
+    return 0
+
+
+def cmd_assets(args):
+    from docstoolkit.rag.advanced import search_assets
+    results = search_assets(args.query, asset_type=args.asset_type, tag=args.tag)
+    if args.json:
+        print(json.dumps(results, ensure_ascii=False, indent=2))
+        return 0
+    if not results:
+        print("No assets matched.")
+        return 0
+    for r in results:
+        print(f"[{r['type']}] {r['doc_id']}  {r['title']}")
+    return 0
+
+
+def cmd_kg_index(args):
+    from docstoolkit.config import load_config
+    from docstoolkit.knowledge_graph import KGRetriever
+    docs_dir = load_config().docs_dir
+    kgr = KGRetriever()
+    count = 0
+    for f in docs_dir.rglob("*.md"):
+        try:
+            text = f.read_text(encoding="utf-8", errors="replace")
+        except (OSError, PermissionError):
+            continue
+        rel = str(f.relative_to(docs_dir)).replace("\\", "/")
+        kgr.index_doc(rel, text)
+        count += 1
+    print(f"Indexed {count} docs.")
+    print(f"Stats: {kgr.stats()}")
+    return 0
+
+
+def cmd_kg_query(args):
+    from docstoolkit.config import load_config
+    from docstoolkit.knowledge_graph import KGRetriever
+    docs_dir = load_config().docs_dir
+    kgr = KGRetriever(max_hops=args.hops)
+    for f in docs_dir.rglob("*.md"):
+        try:
+            text = f.read_text(encoding="utf-8", errors="replace")
+        except (OSError, PermissionError):
+            continue
+        rel = str(f.relative_to(docs_dir)).replace("\\", "/")
+        kgr.index_doc(rel, text)
+    hits = kgr.search(args.query, top_k=args.top)
+    if not hits:
+        print(f"No KG matches for: {args.query}")
+        return 0
+    for p in hits:
+        print(f"  [{p.score:.3f}] {p.title or p.doc_id}")
+    return 0
+
+
+def cmd_profile_show(args):
+    from docstoolkit.conversation.profile import ProfileStore
+    store = ProfileStore()
+    try:
+        p = store.load(args.user_id)
+        if p is None:
+            print(f"No profile for {args.user_id}")
+            return 1
+        print(f"user_id: {p.user_id}")
+        print(f"  preferred_retriever: {p.preferred_retriever}")
+        print(f"  preferred_sections: {', '.join(p.preferred_sections)}")
+        print(f"  interests ({len(p.interests)}): {', '.join(p.interests[:10])}")
+        print(f"  read_docs: {len(p.read_docs)}")
+        return 0
+    finally:
+        store.close()
+
+
+def cmd_profile_list(args):
+    from docstoolkit.conversation.profile import ProfileStore
+    store = ProfileStore()
+    try:
+        users = store.list_users()
+        if not users:
+            print("No profiles.")
+            return 0
+        for u in users:
+            print(u)
+        return 0
+    finally:
+        store.close()
+
+
+def cmd_profile_set(args):
+    from docstoolkit.conversation.profile import ProfileStore, UserProfile
+    store = ProfileStore()
+    try:
+        p = store.load(args.user_id) or UserProfile(user_id=args.user_id)
+        if args.retriever:
+            p.preferred_retriever = args.retriever
+        if args.sections:
+            p.preferred_sections = [s.strip()
+                                     for s in args.sections.split(",")
+                                     if s.strip()]
+        store.save(p)
+        print(f"Saved profile: {p.user_id}")
+        return 0
+    finally:
+        store.close()
+
+
+def cmd_eval_dashboard(args):
+    from pathlib import Path as _P
+    from docstoolkit.online_eval import OnlineEvalStore, render_dashboard
+    store = OnlineEvalStore()
+    try:
+        html = render_dashboard(store, window_days=args.days)
+    finally:
+        store.close()
+    _P(args.out).write_text(html, encoding="utf-8")
+    print(f"Wrote {args.out}")
+    return 0
+
+
+def cmd_taxonomy(args):
+    from docstoolkit.rag.advanced import build_taxonomy_ask
+    out = build_taxonomy_ask(args.query, top_k=args.top, levels=args.levels)
+    print(f"Answer: {out.get('answer', '')[:200]}")
+    print(f"Tree root: {out.get('tree_root', '')}")
+    print(f"Node count: {out.get('node_count', 0)}")
     return 0
 
 

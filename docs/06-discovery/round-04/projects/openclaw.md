@@ -1,5 +1,10 @@
 # OpenClaw
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Peter Steinberger + community  
 **Хабр:** https://habr.com/ru/articles/1020860/ (сравнение плагинов памяти)  
 **GitHub:** https://github.com/openclaw/openclaw  

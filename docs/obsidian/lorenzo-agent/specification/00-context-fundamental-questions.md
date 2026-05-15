@@ -59,3 +59,15 @@ Fundamental questions для Lorenzo
 - [[09-q9-geographic-linguistic-scope]] (сходство 0.24)
 - [[02-q2-whom-lorenzo-serves]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-context-fundamental-questions](../../../lorenzo-agent/specification/00-context-fundamental-questions.md)
+

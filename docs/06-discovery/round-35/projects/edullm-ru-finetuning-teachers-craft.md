@@ -1,5 +1,10 @@
 # EduLLM-RU: дообучение LLM для задач российских учителей за $400
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** daniel_ivanov  
 **Хабр:** https://habr.com/ru/articles/1026516/  
 **GitHub:** https://github.com/csylabs-org/edubench-ru  

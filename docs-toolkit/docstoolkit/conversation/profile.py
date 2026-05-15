@@ -202,6 +202,37 @@ class PersonalizedRetriever:
         return result
 
 
+def apply_profile(
+    user_id: str,
+    kwargs: dict,
+    store: "ProfileStore | None" = None,
+) -> dict:
+    """Middleware: inject per-user defaults into kwargs for rag.ask / agent.run.
+
+    Loads UserProfile by user_id and overrides kwargs fields:
+      - `method` ← profile.preferred_retriever (only if caller did not override)
+      - kwargs is mutated and also returned for chaining
+
+    Caller-provided values always win. Unknown user → no-op (returns kwargs unchanged).
+    `_profile` is stashed in kwargs so downstream RAGPipeline can wrap the retriever.
+    """
+    own_store = False
+    if store is None:
+        store = ProfileStore()
+        own_store = True
+    try:
+        profile = store.load(user_id)
+        if profile is None:
+            return kwargs
+        # Honour caller-provided overrides; only fill what's absent.
+        kwargs.setdefault("method", profile.preferred_retriever)
+        kwargs["_profile"] = profile
+        return kwargs
+    finally:
+        if own_store:
+            store.close()
+
+
 def infer_interests(passages: list[Passage], top_n: int = 10) -> list[str]:
     """Extract most frequent meaningful words from passage titles/texts.
 

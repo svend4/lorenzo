@@ -61,3 +61,15 @@ Sales и Applied AI: SF, NY, London, Dublin, Munich, Paris, Tokyo, Seoul, Bangal
 - [[01-ai-research-engineering]] (сходство 0.18)
 - [[overview]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [signals](../../anthropic-vacancies/signals.md)
+

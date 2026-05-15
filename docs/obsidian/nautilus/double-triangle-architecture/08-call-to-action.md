@@ -180,3 +180,15 @@ Contact: via GitHub issues at
 - [[145-8-call-to-action]] (сходство 0.87)
 - [[06-four-deployment-domains]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-call-to-action](../../../nautilus/double-triangle-architecture/08-call-to-action.md)
+

@@ -70,3 +70,15 @@ date: 2026-05-13
 - [[11-integration-contracts]] (сходство 0.37)
 - [[11-интеграционный-контракт-который-стоит-зафиксироват]] (сходство 0.37)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [integration-spec](../../../svyazi-2-0/architecture/integration-spec.md)
+

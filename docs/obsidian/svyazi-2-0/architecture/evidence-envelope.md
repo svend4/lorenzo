@@ -57,3 +57,16 @@ date: 2026-05-13
 - [[11-integration-contracts]] (сходство 0.21)
 - [[11-integration-contracts]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [evidence-envelope](../../../svyazi-2-0/architecture/evidence-envelope.md)
+

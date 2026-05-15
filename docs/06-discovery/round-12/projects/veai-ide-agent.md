@@ -1,5 +1,10 @@
 # Veai — AI-агент для JetBrains IDE (IntelliJ IDEA)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** команда Veai  
 **Хабр:** https://habr.com/ru/companies/veai/  
 **GitHub:** плагин в JetBrains Marketplace  

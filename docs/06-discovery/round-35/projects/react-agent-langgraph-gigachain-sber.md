@@ -1,5 +1,10 @@
 # Современный ReAct-агент с LangGraph: от текстового парсинга к function calling
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** trashchenkov (GigaChain / Сбер AI)  
 **Хабр:** https://habr.com/ru/companies/sberbank/articles/934938/  
 **GitHub:** https://github.com/ai-forever/gigachain  

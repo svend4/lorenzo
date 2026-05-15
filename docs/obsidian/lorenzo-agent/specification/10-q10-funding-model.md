@@ -113,3 +113,15 @@ Phase 4 (year 3+): Sustainable operating model
 - [[08-q8-other-ai-relationships]] (сходство 0.22)
 - [[00-context-fundamental-questions]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-q10-funding-model](../../../lorenzo-agent/specification/10-q10-funding-model.md)
+

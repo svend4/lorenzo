@@ -160,3 +160,15 @@ implementable starting next week.
 - [[316-8-implications-for-nautilus-and-okwf]] (сходство 0.81)
 - [[09-okwf-integration]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-implications-nautilus-okwf](../../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+

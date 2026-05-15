@@ -265,3 +265,15 @@ Hope this helps. Рад был участвовать в формировани�
 - [[148-appendix-a-glossary]] (сходство 0.16)
 - [[133-обратная-связь]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-glossary](../../../nautilus/double-triangle-architecture/11-glossary.md)
+

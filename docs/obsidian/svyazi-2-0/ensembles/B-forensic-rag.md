@@ -68,3 +68,15 @@ flowchart LR
 - [[04-ensembles-overview]] (сходство 0.21)
 - [[04-приоритетные-ансамбли]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [B-forensic-rag](../../../svyazi-2-0/ensembles/B-forensic-rag.md)
+

@@ -123,3 +123,15 @@ problem.
 - [[279-existing-approximations]] (сходство 0.77)
 - [[03-two-layer-stack]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-existing-approximations](../../../nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+

@@ -67,3 +67,18 @@ class Bescheid(BaseModel):
 - [[03-dsl-ast]] (сходство 0.34)
 - [[20-24-final]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [29-meta-programmatic-legal-template-generator](../../../technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+- [30-mega-stack-3-0-with-dsl-ast](../../../technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+- [03-dsl-ast](../../../technology-combinations/mega-stacks/03-dsl-ast.md)
+- [25-30-extended](../../../technology-combinations/synthesis-tables/25-30-extended.md)
+

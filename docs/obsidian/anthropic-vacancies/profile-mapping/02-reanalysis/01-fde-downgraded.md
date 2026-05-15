@@ -46,3 +46,15 @@ date: 2026-05-13
 - [[05-reality-check-distribution-gap]] (сходство 0.20)
 - [[03-secondary-beneficial-deployments]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-fde-downgraded](../../../../anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md)
+

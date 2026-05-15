@@ -46,3 +46,15 @@ Du hast gesagt: https://www.
 - [[17-appendix-b-change-log]] (сходство 0.24)
 - [[00-question-practical]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [00-question-habr-2](../../../../nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+

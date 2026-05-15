@@ -51,3 +51,15 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 - [[4-riscv-privacy]] (сходство 0.18)
 - [[6-bonus-rram-memristor]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [3-zinc-hybrid-arch](../../../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+

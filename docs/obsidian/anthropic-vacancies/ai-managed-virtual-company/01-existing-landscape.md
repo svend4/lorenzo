@@ -58,3 +58,16 @@ AI-агенты для рекрутинга конкретно — сейчас 
 - [[08-pluses-of-model]] (сходство 0.14)
 - [[03-three-variants-A-B-C]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-existing-landscape](../../../anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md)
+- [07-current-implementations](../../../anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
+

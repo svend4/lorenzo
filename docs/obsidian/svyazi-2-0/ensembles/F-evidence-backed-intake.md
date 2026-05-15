@@ -59,3 +59,16 @@ flowchart LR
 - [[10-second-order-ensembles]] (сходство 0.31)
 - [[10-новые-ансамбли-следующего-шага]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [B-forensic-rag](../../../svyazi-2-0/ensembles/B-forensic-rag.md)
+- [F-evidence-backed-intake](../../../svyazi-2-0/ensembles/F-evidence-backed-intake.md)
+

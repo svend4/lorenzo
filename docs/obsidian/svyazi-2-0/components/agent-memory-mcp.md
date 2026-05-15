@@ -63,3 +63,15 @@ Typed memory MCP плюс более тяжёлая концепция Memory OS
 - [[yodoca]] (сходство 0.32)
 - [[rufler]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [agent-memory-mcp](../../../svyazi-2-0/components/agent-memory-mcp.md)
+

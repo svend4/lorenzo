@@ -56,3 +56,16 @@ Document 2.3: Infrastructure analysis
 - [[02-similarity-2-persistent-memory]] (сходство 0.36)
 - [[10-difference-5-tool-vs-mission-drift]] (сходство 0.35)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-difference-2-domain-specialization](../../../anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+- [09-difference-4-institutional-vision](../../../anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
+

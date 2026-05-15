@@ -54,3 +54,15 @@ date: 2026-05-13
 - [[rufler]] (сходство 0.31)
 - [[memnet]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [yjs-automerge](../../../svyazi-2-0/components/yjs-automerge.md)
+

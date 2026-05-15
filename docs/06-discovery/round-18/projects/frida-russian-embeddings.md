@@ -1,5 +1,10 @@
 # FRIDA — русскоязычная embedding-модель #1 на ruMTEB
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** команда SberDevices (подразделение Сбербанка)  
 **Хабр:** https://habr.com/ru/companies/sberdevices/articles/909924/  
 **GitHub:** https://huggingface.co/sergeyzh/rubert-mini-frida (MIT)  

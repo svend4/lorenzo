@@ -41,3 +41,15 @@ Application Security, Detection & Response, Offensive Security, Insider Risk, Pl
 - [[13-communications]] (сходство 0.41)
 - [[15-public-benefit]] (сходство 0.39)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-security](../../../anthropic-vacancies/clusters/04-security.md)
+

@@ -1,0 +1,16 @@
+apiVersion: v2
+name: docs-toolkit
+description: Universal markdown documentation toolkit — serve, retrieve, eval
+type: application
+version: 0.3.0
+appVersion: "0.3.0"
+home: https://github.com/svend4/lorenzo/tree/main/docs-toolkit
+sources:
+  - https://github.com/svend4/lorenzo/tree/main/docs-toolkit
+maintainers:
+  - name: docs-toolkit contributors
+keywords:
+  - rag
+  - documentation
+  - markdown
+  - knowledge-base

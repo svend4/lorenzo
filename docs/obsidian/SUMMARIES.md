@@ -311,3 +311,13 @@ _Отладка_
 
 > Проверить логи Claude Desktop: - macOS: ~/Library/Logs/Claude/mcp .log - Windows: %APPDATA%\Claude\logs\mcp .log - Linux: ~/.config/Claude/logs/mcp .log 2. Проверить: Если portal тоже падает — проблема не в MCP, а в самом адаптере. Проверить синтаксис claude desktop config.json валидный JSON 2.
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

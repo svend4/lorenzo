@@ -1,5 +1,10 @@
 # MarkItDown — универсальный конвертер документов в Markdown для LLM
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Microsoft (open source)  
 **Хабр:** https://habr.com/ru/articles/890774/ (упомянут в карте OSS-инструментов для AI-агентов)  
 **GitHub:** https://github.com/microsoft/markitdown (MIT, 91k+ stars)  

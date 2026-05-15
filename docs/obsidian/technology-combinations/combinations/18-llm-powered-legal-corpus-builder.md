@@ -97,3 +97,15 @@ ROI: 10 sec semantic search vs 2 hr manual review
 - [[21-legal-corpus-analytics-at-scale]] (сходство 0.30)
 - [[28-pydantic-enforced-legal-workflows]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [18-llm-powered-legal-corpus-builder](../../../technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
+

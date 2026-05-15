@@ -76,3 +76,15 @@ C. AgentOps Knowledge Kernel
 - [[01-shared-memory-between-agents]] (сходство 0.14)
 - [[04-memory-firewall-vs-prompt-worms]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-commercialization-three-paths](../../../ai-collaborations/continuation/08-commercialization-three-paths.md)
+

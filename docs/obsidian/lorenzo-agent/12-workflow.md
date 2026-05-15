@@ -79,3 +79,15 @@ date: 2026-05-13
 - [[356-твой-workflow]] (сходство 0.65)
 - [[18-escalate-to-max]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [12-workflow](../../lorenzo-agent/12-workflow.md)
+

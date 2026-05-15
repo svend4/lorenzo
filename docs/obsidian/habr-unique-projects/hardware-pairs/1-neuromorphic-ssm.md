@@ -57,3 +57,15 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 - [[6-bonus-rram-memristor]] (сходство 0.15)
 - [[4-riscv-privacy]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [1-neuromorphic-ssm](../../../habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md)
+

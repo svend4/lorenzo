@@ -67,3 +67,17 @@ Research Compression Engine — 10M токенов литературы сжим
 - [[5-agent-firewall]] (сходство 0.17)
 - [[02-agentops-trace-envelope]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-agentops-trace-envelope](../../../ai-collaborations/continuation/02-agentops-trace-envelope.md)
+- [6-continuous-eval-loop](../../../ai-collaborations/ensembles/6-continuous-eval-loop.md)
+- [8-budget-aware-intelligence-stack](../../../ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+

@@ -161,3 +161,15 @@ and 7.
 - [[172-3-what-makes-a-representative-agent]] (сходство 0.83)
 - [[05-architectural-specification]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-what-makes-representative-agent](../../../nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md)
+

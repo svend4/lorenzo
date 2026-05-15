@@ -71,3 +71,15 @@ acceptable только для debugging/experimental версий.
 - [[89-14-sdk-contract-informative]] (сходство 0.55)
 - [[11-relevance-ranking]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [14-sdk](../../../nautilus/npp-v1-1/14-sdk.md)
+

@@ -41,3 +41,15 @@ date: 2026-05-13
 - [[16-people]] (сходство 0.54)
 - [[14-public-policy]] (сходство 0.51)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [15-public-benefit](../../../anthropic-vacancies/clusters/15-public-benefit.md)
+

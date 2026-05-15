@@ -71,3 +71,15 @@ Implementation MUST различать public и private registries и не
 - [[15-security]] (сходство 0.59)
 - [[23-11-security-considerations]] (сходство 0.55)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-security-considerations](../../../nautilus/npp-v1-0/11-security-considerations.md)
+

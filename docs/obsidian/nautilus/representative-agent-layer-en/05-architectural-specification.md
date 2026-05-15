@@ -166,3 +166,15 @@ that touches the world beyond the personal context.
 - [[174-5-architectural-specification]] (сходство 0.84)
 - [[03-what-makes-representative-agent]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-architectural-specification](../../../nautilus/representative-agent-layer-en/05-architectural-specification.md)
+

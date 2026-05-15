@@ -55,3 +55,15 @@ IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
 - [[12-appendix-a-header-warning]] (сходство 0.40)
 - [[121-appendix-c-история-изменений-методологии]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [15-appendix-c-history](../../../nautilus/review-methodology/15-appendix-c-history.md)
+

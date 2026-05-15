@@ -216,3 +216,15 @@ Riskи и trade-offs, которые стоит осознавать
 - [[133-обратная-связь]] (сходство 0.16)
 - [[01-strategic-significance]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-what-this-gives-technically](../../../nautilus/privacy-federation/03-what-this-gives-technically.md)
+

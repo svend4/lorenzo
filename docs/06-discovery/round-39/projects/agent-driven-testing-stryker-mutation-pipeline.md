@@ -1,5 +1,10 @@
 # Agent Driven Development: LLM + Stryker мутационное тестирование
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** rurikovich  
 **Хабр:** https://habr.com/ru/articles/1010148/  
 **GitHub:** нет  

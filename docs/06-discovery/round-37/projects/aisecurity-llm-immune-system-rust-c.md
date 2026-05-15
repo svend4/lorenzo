@@ -1,5 +1,10 @@
 # Иммунная система для LLM: 3ms защита на C + Rust + Micro-Model Swarm
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Dmitriila (Дмитрий Л.)  
 **Хабр:** https://habr.com/ru/articles/996896/  
 **GitHub:** https://github.com/DmitrL-dev/AISecurity  

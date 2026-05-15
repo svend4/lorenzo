@@ -175,3 +175,15 @@ https://github.com/camel-ai/camel сравнить этого Агента ну�
 - [[04-what-to-take-from-info-repos]] (сходство 0.16)
 - [[08-implications-nautilus-okwf]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [13-reprioritization](../../../anthropic-vacancies/hermes-comparison/13-reprioritization.md)
+

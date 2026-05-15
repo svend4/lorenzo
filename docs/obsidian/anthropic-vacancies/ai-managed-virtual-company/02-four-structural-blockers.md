@@ -52,3 +52,15 @@ date: 2026-05-13
 - [[07-current-implementations]] (сходство 0.14)
 - [[01-existing-landscape]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-four-structural-blockers](../../../anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)
+

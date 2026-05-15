@@ -102,3 +102,15 @@ unsolved issues.
 - [[136-abstract]] (сходство 0.77)
 - [[01-why-single-triangle-incomplete]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-abstract](../../../nautilus/double-triangle-architecture/00-abstract.md)
+

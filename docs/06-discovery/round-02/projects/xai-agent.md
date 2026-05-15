@@ -1,5 +1,10 @@
 # XAI Agent (SadSabrina)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @SadSabrina  
 **Хабр:** https://habr.com/ru/articles/1033184/  
 **GitHub:** https://github.com/SadSabrina/XAI-open_materials  

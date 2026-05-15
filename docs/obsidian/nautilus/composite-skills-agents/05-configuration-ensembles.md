@@ -168,3 +168,15 @@ modifies their configuration over time.
 - [[258-5-configuration-how-principals-build-their-ensembl]] (сходство 0.83)
 - [[07-economics-combinatorial]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-configuration-ensembles](../../../nautilus/composite-skills-agents/05-configuration-ensembles.md)
+

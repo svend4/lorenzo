@@ -206,3 +206,15 @@ $5/месяц. Стоимость для фонда: $1,5
 - [[236-5-экономика-тиражирования-по-профессии]] (сходство 0.86)
 - [[08-pilot-sgb-kolega]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-ekonomika](../../../nautilus/professional-colleague-agents-ru/05-ekonomika.md)
+

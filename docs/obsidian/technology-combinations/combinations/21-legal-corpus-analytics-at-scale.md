@@ -103,3 +103,15 @@ ROI: Data-driven legal strategy, precedent patterns visible
 - [[22-russian-international-oss-stack]] (сходство 0.28)
 - [[33-event-sourcing-cqrs-clickhouse-analytics]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [21-legal-corpus-analytics-at-scale](../../../technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md)
+

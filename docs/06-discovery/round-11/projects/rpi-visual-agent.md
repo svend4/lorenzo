@@ -1,5 +1,10 @@
 # Raspberry Pi Visual Agent (Edge AI, Qwen3 1.7b)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Simone Marculli (GitHub подтверждён)  
 **Хабр:** https://habr.com/ru/companies/bothub/news/974604/  
 **GitHub:** профиль Simone Marculli — уточнить точный URL репозитория  

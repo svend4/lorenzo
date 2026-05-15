@@ -137,3 +137,15 @@ Onboarding Path C (self-declaring repo).
 - [[78-3-registry-nautilus-json]] (сходство 0.82)
 - [[03-registry]] (сходство 0.54)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-registry](../../../nautilus/npp-v1-1/03-registry.md)
+

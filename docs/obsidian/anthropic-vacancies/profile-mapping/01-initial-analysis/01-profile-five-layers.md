@@ -56,3 +56,15 @@ Daten70, судя по названию-паттерну (Daten = нем. «да
 - [[08-practical-ranking]] (сходство 0.15)
 - [[03-secondary-beneficial-deployments]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-profile-five-layers](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md)
+

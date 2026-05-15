@@ -85,3 +85,15 @@ Option C: Help write specific document или code prototype prepared для CAM
 - [[03-sgb-advocate-colleague-example]] (сходство 0.19)
 - [[08-implications-nautilus-okwf]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-what-to-do-right-now](../../../anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
+

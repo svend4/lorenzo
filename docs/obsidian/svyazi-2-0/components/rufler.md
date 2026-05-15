@@ -59,3 +59,19 @@ date: 2026-05-13
 - [[memnet]] (сходство 0.39)
 - [[knowledge-space]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [ai-factory](../../../svyazi-2-0/components/ai-factory.md)
+- [rufler](../../../svyazi-2-0/components/rufler.md)
+- [self-aware-mcp](../../../svyazi-2-0/components/self-aware-mcp.md)
+- [svyazi](../../../svyazi-2-0/components/svyazi.md)
+- _...ещё 1_
+

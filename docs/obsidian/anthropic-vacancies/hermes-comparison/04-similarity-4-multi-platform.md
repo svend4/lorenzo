@@ -46,3 +46,19 @@ Hermes здесь значительно шире. Особенно важно �
 - [[05-similarity-5-self-hosting-privacy]] (сходство 0.38)
 - [[02-similarity-2-persistent-memory]] (сходство 0.37)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-existing-infrastructure-stack](../../../anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md)
+- [00-question-what-is-hermes](../../../anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md)
+- [03-similarity-3-mcp-support](../../../anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+- [04-similarity-4-multi-platform](../../../anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
+- _...ещё 2_
+

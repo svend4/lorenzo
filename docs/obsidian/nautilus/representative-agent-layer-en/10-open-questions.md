@@ -124,3 +124,15 @@ of whether ethical frameworks keep pace.
 - [[179-10-open-questions]] (сходство 0.83)
 - [[08-risks-mitigations]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-open-questions](../../../nautilus/representative-agent-layer-en/10-open-questions.md)
+

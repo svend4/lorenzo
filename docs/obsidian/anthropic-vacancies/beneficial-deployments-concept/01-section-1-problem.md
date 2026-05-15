@@ -58,3 +58,15 @@ Success rate: A% Widerspruch acceptance
 - [[07-section-7-success-metrics]] (сходство 0.30)
 - [[04-section-4-sgb-pilot]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-section-1-problem](../../../anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
+

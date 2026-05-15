@@ -1,5 +1,10 @@
 # Synthetic Data Toolkit — подборка OSS-инструментов генерации синтетических данных
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** команда MWS (Mail.ru / VK Cloud)  
 **Хабр:** https://habr.com/ru/companies/mws/articles/932066/  
 **GitHub:** https://github.com/datadreamer-dev/DataDreamer (Apache 2.0, U Penn + U Toronto)  

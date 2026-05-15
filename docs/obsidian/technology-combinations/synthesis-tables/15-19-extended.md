@@ -47,3 +47,17 @@ date: 2026-05-13
 - [[02-ultimate-legal-ai]] (сходство 0.44)
 - [[20-24-final]] (сходство 0.35)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-multi-agent-observability-stack](../../../technology-combinations/combinations/12-multi-agent-observability-stack.md)
+- [09-14-extended](../../../technology-combinations/synthesis-tables/09-14-extended.md)
+- [15-19-extended](../../../technology-combinations/synthesis-tables/15-19-extended.md)
+

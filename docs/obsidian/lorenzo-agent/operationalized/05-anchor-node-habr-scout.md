@@ -175,3 +175,16 @@ LiteParse research-docs (1021098) — узел 5
 - [[365-развёрнутый-анализ-внуковой-комбинации]] (сходство 0.22)
 - [[365-развёрнутый-анализ-внуковой-комбинации]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-recommendations](../../../lorenzo-agent/operationalized/04-recommendations.md)
+- [05-anchor-node-habr-scout](../../../lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
+

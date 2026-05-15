@@ -77,3 +77,16 @@ Graph view показывает связи между прецедентами
 - [[04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura]] (сходство 0.27)
 - [[02-knowledge-graphs]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](../../../technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- [07-crawl4ai-docling-yodoca-consolidator](../../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+

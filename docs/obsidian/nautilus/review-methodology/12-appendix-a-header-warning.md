@@ -73,3 +73,17 @@ transitional state:
 - [[14-main-technical-risks]] (сходство 0.48)
 - [[118-appendix-a-шаблон-для-header-warning]] (сходство 0.47)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [118-appendix-a-шаблон-для-header-warning](../../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-tldr](../../../nautilus/review-methodology/00-tldr.md)
+- [12-appendix-a-header-warning](../../../nautilus/review-methodology/12-appendix-a-header-warning.md)
+

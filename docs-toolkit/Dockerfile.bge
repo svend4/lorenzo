@@ -1,0 +1,60 @@
+# Dockerfile.bge — docs-toolkit + pre-downloaded BGE cross-encoder
+#
+# Multi-stage build that bakes the `BAAI/bge-reranker-base` model into the
+# image so production deployments can use the M2 cross-encoder reranker
+# without a network round-trip at startup.
+#
+# Build:
+#   docker build -f Dockerfile.bge -t docs-toolkit:bge .
+#
+# Run:
+#   docker run --rm -p 8083:8083 -v $(pwd):/work -w /work docs-toolkit:bge serve
+#
+# Image size: ~1.6 GB (vs ~150 MB for the base Dockerfile). Use when the
+# +1.4 GB is acceptable in exchange for offline rerank availability.
+
+FROM python:3.11-slim AS builder
+
+WORKDIR /build
+COPY pyproject.toml ./
+COPY docstoolkit/ ./docstoolkit/
+
+RUN pip install --no-cache-dir build && \
+    python -m build --wheel
+
+
+FROM python:3.11-slim
+
+LABEL org.opencontainers.image.title="docs-toolkit-bge" \
+      org.opencontainers.image.description="docs-toolkit + bundled BGE reranker" \
+      org.opencontainers.image.source="https://github.com/svend4/lorenzo/tree/main/docs-toolkit" \
+      org.opencontainers.image.licenses="MIT"
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        pandoc \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY --from=builder /build/dist/*.whl /tmp/
+
+# Install + the optional `[bge]` extra which pulls
+# `sentence-transformers` and friends.
+RUN pip install --no-cache-dir /tmp/*.whl[all,bge] && \
+    rm -f /tmp/*.whl
+
+# Pre-download the BGE model so first-run latency is small.
+# The download lands in $HF_HOME (default ~/.cache/huggingface) which is
+# then baked into the image layer.
+ENV HF_HOME=/opt/hf-cache
+RUN python -c "from sentence_transformers import CrossEncoder; \
+    CrossEncoder('BAAI/bge-reranker-base')" || \
+    echo "⚠️ BGE pre-download failed; runtime will fetch on first use"
+
+RUN useradd -m -u 1000 docs && \
+    chown -R docs:docs /opt/hf-cache
+USER docs
+WORKDIR /work
+
+EXPOSE 8083
+ENTRYPOINT ["docstoolkit"]
+CMD ["serve", "--port", "8083"]

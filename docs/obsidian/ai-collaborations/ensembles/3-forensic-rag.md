@@ -73,3 +73,15 @@ Technical Docs Investigator — для больших кодовых/инжен�
 - [[8-budget-aware-intelligence-stack]] (сходство 0.15)
 - [[6-continuous-eval-loop]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [3-forensic-rag](../../../ai-collaborations/ensembles/3-forensic-rag.md)
+

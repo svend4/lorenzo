@@ -48,3 +48,15 @@ Mehr anzeigen
 - [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а]] (сходство 0.18)
 - [[01-yogi-metaphor]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-multiple-mentors](../../../nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
+

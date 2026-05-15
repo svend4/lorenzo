@@ -72,3 +72,15 @@ NPP-compatible, если они:
 - [[93-18-reference-implementation]] (сходство 0.59)
 - [[13-reference-implementation]] (сходство 0.45)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [18-reference-implementation](../../../nautilus/npp-v1-1/18-reference-implementation.md)
+

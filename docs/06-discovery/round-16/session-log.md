@@ -1,5 +1,10 @@
 # Round 16 — Лог поисковой сессии
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Дата:** 2026-05-12  
 **Статус:** ✅ Завершён  
 **Тема:** Multi-agent без LangChain, Custom Monitoring LLM (дистилляция), GigaAM-v3 (русский ASR SOTA), RAG Evaluation CI/CD

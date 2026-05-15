@@ -437,3 +437,16 @@ ADR обосновывающие ключевые архитектурные р�
 - [[133-обратная-связь]] (сходство 0.18)
 - [[01-response]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-claude-response](../../../nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)
+- [01-strategic-significance](../../../nautilus/multi-tier-architecture/01-strategic-significance.md)
+

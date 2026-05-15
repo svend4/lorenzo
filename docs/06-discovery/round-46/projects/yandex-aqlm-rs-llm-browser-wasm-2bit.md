@@ -1,5 +1,10 @@
 # AQLM.rs: 8B LLM в браузере через WebAssembly и 2-битную квантизацию
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** galqiwi (Владимир Малиновский, Yandex Research)  
 **Хабр:** https://habr.com/ru/companies/yandex/articles/864296/  
 **GitHub:** https://github.com/galqiwi/demo-aqlm-rs  

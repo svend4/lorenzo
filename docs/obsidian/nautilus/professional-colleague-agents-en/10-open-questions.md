@@ -99,3 +99,15 @@ they shape technical decisions.
 - [[221-10-open-questions]] (сходство 0.80)
 - [[11-open-questions]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-open-questions](../../../nautilus/professional-colleague-agents-en/10-open-questions.md)
+

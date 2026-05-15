@@ -109,3 +109,15 @@ consolidation.
 - [[112-5-связь-с-существующими-методологиями]] (сходство 0.81)
 - [[10-checklist]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-relation-existing-methodologies](../../../nautilus/review-methodology/06-relation-existing-methodologies.md)
+

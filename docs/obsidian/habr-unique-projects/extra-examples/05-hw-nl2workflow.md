@@ -73,3 +73,15 @@ Self-hosted второй мозг через Claude Code + Obsidian
 - [[09-federated-platform]] (сходство 0.24)
 - [[07-specialized-knowledge-workspace]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-hw-nl2workflow](../../../habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
+

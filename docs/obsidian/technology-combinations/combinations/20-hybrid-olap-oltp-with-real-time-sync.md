@@ -90,3 +90,16 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 - [[33-event-sourcing-cqrs-clickhouse-analytics]] (сходство 0.30)
 - [[17-distributed-agent-memory-with-graph]] (сходство 0.29)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-hybrid-crdt-sql-database](../../../technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](../../../technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+

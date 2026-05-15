@@ -1,5 +1,10 @@
 # Сравнение с предыдущим коммитом
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Файлов было:** 1538  **стало:** 2606  
 **Слов было:** 2,098,862  **стало:** 2,980,971  **Δ:** +882,109
 
@@ -85,3 +90,17 @@ _...и ещё 1028_
 | `AnastasiyaW_draft.md` | 116 | 182 | +66 |
 | `34-appendix-b-change-log.md` | 892 | 958 | +66 |
 | `Sonia_Black_draft.md` | 115 | 180 | +65 |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [COMPLEXITY](COMPLEXITY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

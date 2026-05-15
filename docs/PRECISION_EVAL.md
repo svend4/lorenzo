@@ -1,5 +1,10 @@
 # Retrieval Hit Rate Evaluation — Lorenzo / Svyazi 2.0
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Автоматическая оценка качества hybrid_search(). Hit Rate@5 = **0.850** (≥ порог 0.70).
 
@@ -57,3 +62,15 @@
 - **Без ручной разметки:** обновляется автоматически при каждом запуске.
 
 *Сгенерировано: 2026-05-14 10:28*
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [DEMO](DEMO.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

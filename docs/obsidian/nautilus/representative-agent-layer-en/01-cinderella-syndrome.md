@@ -167,3 +167,15 @@ Layer.
 - [[170-1-the-cinderella-syndrome-why-quality-stays-invisi]] (сходство 0.88)
 - [[02-historical-precedents]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-cinderella-syndrome](../../../nautilus/representative-agent-layer-en/01-cinderella-syndrome.md)
+

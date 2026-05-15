@@ -46,3 +46,15 @@ Hermes полностью self-hosted, MIT license, all data stays on your machi
 - [[04-similarity-4-multi-platform]] (сходство 0.38)
 - [[10-difference-5-tool-vs-mission-drift]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-similarity-5-self-hosting-privacy](../../../anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
+

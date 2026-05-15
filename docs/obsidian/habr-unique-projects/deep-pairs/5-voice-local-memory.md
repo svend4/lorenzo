@@ -51,3 +51,17 @@ Daily voice journal — каждый вечер 5 минут устного ра
 - [[3-discovery-research]] (сходство 0.20)
 - [[2-document-rag]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [2-document-rag](../../../habr-unique-projects/deep-pairs/2-document-rag.md)
+- [5-voice-local-memory](../../../habr-unique-projects/deep-pairs/5-voice-local-memory.md)
+- [4-speech-to-text-llm](../../../habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
+

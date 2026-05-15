@@ -113,3 +113,15 @@ date: 2026-05-13
 - [[195-5-архитектурная-спецификация]] (сходство 0.86)
 - [[03-chto-delaet-predstavitelskim]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-arkhitekturnaya-spetsifikatsiya](../../../nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md)
+

@@ -65,3 +65,15 @@ transport
 - [[19-7-portalentry-structure]] (сходство 0.57)
 - [[07-portal-entry]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-portal-entry](../../../nautilus/npp-v1-0/07-portal-entry.md)
+

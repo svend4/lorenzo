@@ -82,3 +82,15 @@ prompts (не «продолжи вариант A»)?
 - [[116-9-checklist-применения-методологии]] (сходство 0.72)
 - [[GITHUB_ISSUES]] (сходство 0.36)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-checklist](../../../nautilus/review-methodology/10-checklist.md)
+

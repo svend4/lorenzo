@@ -238,3 +238,15 @@ date: 2026-05-13
 - [[194-4-десять-областей-применения]] (сходство 0.95)
 - [[12-zaklyuchenie]] (сходство 0.11)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-desyat-oblastey](../../../nautilus/representative-agent-layer-ru/04-desyat-oblastey.md)
+

@@ -147,3 +147,15 @@ to minimum dignity threshold; upward is merit-based.
 - [[159-5-economic-model]] (сходство 0.86)
 - [[07-phased-rollout]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-economic-model](../../../nautilus/okwf-concept/05-economic-model.md)
+

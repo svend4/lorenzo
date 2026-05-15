@@ -80,3 +80,16 @@ date: 2026-05-13
 - [[09-architectural-gaps]] (сходство 0.78)
 - [[09-архитектурные-зазоры-которые-важнее-новых-инструме]] (сходство 0.76)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [CONCEPTS](../../../CONCEPTS.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [gaps](../../../svyazi-2-0/architecture/gaps.md)
+

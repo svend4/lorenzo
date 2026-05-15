@@ -71,3 +71,16 @@ Svyazi Self-Improver — карточки с низким качеством ext
 - [[7-domain-agent-app-factory]] (сходство 0.16)
 - [[1-agentic-knowledge-os]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [6-continuous-eval-loop](../../../ai-collaborations/ensembles/6-continuous-eval-loop.md)
+- [8-budget-aware-intelligence-stack](../../../ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+

@@ -266,3 +266,15 @@ emerge.
 - [[217-6-risks-specific-to-this-category]] (сходство 0.90)
 - [[04-sub-agent-registry]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-risks](../../../nautilus/professional-colleague-agents-en/06-risks.md)
+

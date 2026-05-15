@@ -28,3 +28,15 @@ date: 2026-05-13
 - [[README]] (сходство 0.16)
 - [[README]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../habr-unique-projects/hardware-pairs/README.md)
+

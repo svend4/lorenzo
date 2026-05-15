@@ -58,3 +58,15 @@ date: 2026-05-13
 - [[14-limitations]] (сходство 0.20)
 - [[MINDMAP]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [license-tree](../../../svyazi-2-0/limitations/license-tree.md)
+

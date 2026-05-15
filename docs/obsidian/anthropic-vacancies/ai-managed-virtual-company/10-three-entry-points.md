@@ -52,3 +52,17 @@ date: 2026-05-13
 - [[00-question-innovations-transitions]] (сходство 0.15)
 - [[05-minuses-as-business]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-what-to-do](../../../anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
+- [10-three-entry-points](../../../anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
+- [05-minuses-as-business](../../../anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
+

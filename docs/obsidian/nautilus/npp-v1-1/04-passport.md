@@ -96,3 +96,15 @@ Portal SHOULD предоставлять команду валидации:
 - [[79-4-passport-passport-md]] (сходство 0.74)
 - [[04-passport]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-passport](../../../nautilus/npp-v1-1/04-passport.md)
+

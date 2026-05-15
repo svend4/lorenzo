@@ -52,3 +52,15 @@ Remote-friendly EMEA + accommodation под health status — Anthropic дела
 - [[06-not-applicable-roles]] (сходство 0.24)
 - [[00-question-habr-link]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [03-partial-fit-honesty](../../../../anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md)
+

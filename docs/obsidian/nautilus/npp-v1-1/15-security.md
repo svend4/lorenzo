@@ -93,3 +93,16 @@ supply-chain риск.
 - [[90-15-security-considerations]] (сходство 0.69)
 - [[11-security-considerations]] (сходство 0.59)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-security-considerations](../../../nautilus/npp-v1-0/11-security-considerations.md)
+- [15-security](../../../nautilus/npp-v1-1/15-security.md)
+

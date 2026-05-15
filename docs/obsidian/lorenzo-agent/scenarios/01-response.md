@@ -508,3 +508,15 @@ Option F: Pause exploration — это substantial concept, нужно time to d
 - [[342-что-такое-вариант-c-concept-document-для-anthropic]] (сходство 0.36)
 - [[03-dhlab-umbrella]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-response](../../../lorenzo-agent/scenarios/01-response.md)
+

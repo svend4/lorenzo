@@ -262,3 +262,16 @@ Marketplace layer (inspired by info40) для discovery and economy
 - [[03-sgb-advocate-colleague-example]] (сходство 0.18)
 - [[13-reprioritization]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-what-info-repos-contain](../../../anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
+- [04-what-to-take-from-info-repos](../../../anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
+

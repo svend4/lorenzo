@@ -102,3 +102,15 @@ service organizations, civil society, and policymakers.
 - [[168-abstract]] (сходство 0.64)
 - [[00-abstract]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-abstract](../../../nautilus/representative-agent-layer-en/00-abstract.md)
+

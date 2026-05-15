@@ -63,3 +63,15 @@ need to be solved before other work proceeds.
 - [[285-closing]] (сходство 0.66)
 - [[05-why-not-built]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-closing](../../../nautilus/infrastructure-layer-b-en/12-closing.md)
+

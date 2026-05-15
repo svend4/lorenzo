@@ -53,3 +53,17 @@ Telegram-orchestrated headless village — пишешь в Telegram «откро
 - [[1-one-person-one-company]] (сходство 0.19)
 - [[1-llm-gateway]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [1-llm-gateway](../../../habr-unique-projects/deep-pairs/1-llm-gateway.md)
+- [6-tmux-village-openclaw](../../../habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
+- [1-workflow-llm-mcp](../../../habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
+

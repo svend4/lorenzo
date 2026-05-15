@@ -66,3 +66,15 @@ date: 2026-05-13
 - [[96-21-adr-003-five-onboarding-paths-as-equal-rank]] (сходство 0.68)
 - [[20-adr-002-q6-first-class]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [21-adr-003-five-onboarding-paths](../../../nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
+

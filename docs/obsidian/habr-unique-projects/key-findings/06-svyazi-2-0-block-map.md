@@ -61,3 +61,16 @@ Claude hat geantwortet: Понял задачу: ты хочешь не один
 - [[7-metaphor]] (сходство 0.16)
 - [[02-memnet]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-supplementary-infrastructure](../../../habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
+- [06-svyazi-2-0-block-map](../../../habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
+

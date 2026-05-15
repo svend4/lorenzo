@@ -150,3 +150,15 @@ AI-сотрудничества над общей работой**.
 - [[294-существующие-приближения]] (сходство 0.79)
 - [[06-konkretnyy-sluchay]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-priblizheniya](../../../nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
+

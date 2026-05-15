@@ -1,5 +1,10 @@
 # LLM Observability Pattern — AI анализирует AI с Langfuse
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** независимый разработчик (Хабр)  
 **Хабр:** https://habr.com/ru/articles/987230/  
 **GitHub:** https://github.com/langfuse/langfuse (Langfuse core, MIT)  

@@ -119,3 +119,15 @@ merge-conflict error. С заголовком — понимает осмысл�
 - [[108-2-формальный-workflow]] (сходство 0.78)
 - [[00-tldr]] (сходство 0.29)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-formal-workflow](../../../nautilus/review-methodology/02-formal-workflow.md)
+

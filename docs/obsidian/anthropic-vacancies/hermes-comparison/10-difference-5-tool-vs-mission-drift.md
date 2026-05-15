@@ -54,3 +54,16 @@ Hermes designed для general-purpose autonomous agency. Self-improvement, mult
 - [[03-similarity-3-mcp-support]] (сходство 0.35)
 - [[09-difference-4-institutional-vision]] (сходство 0.35)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-difference-5-tool-vs-mission-drift](../../../anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
+- [12-minuses-of-hermes](../../../anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md)
+

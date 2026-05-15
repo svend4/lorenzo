@@ -68,3 +68,15 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 - [[95-20-adr-002-q6-as-first-class-protocol-concept]] (сходство 0.69)
 - [[21-adr-003-five-onboarding-paths]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [20-adr-002-q6-first-class](../../../nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
+

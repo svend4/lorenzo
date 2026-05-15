@@ -66,3 +66,15 @@ document provides framing. It does not provide answers.
 - [[283-what-this-document-doesn-t-solve]] (сходство 0.61)
 - [[02-why-document-exists]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-what-not-solved](../../../nautilus/infrastructure-layer-b-en/10-what-not-solved.md)
+

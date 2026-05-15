@@ -1,5 +1,10 @@
 # PocketCoder
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Дмитрий Чащин / @Chashchin-Dmitry  
 **Хабр:** https://habr.com/ru/articles/991022/  
 **GitHub:** https://github.com/Chashchin-Dmitry/pocketcoder  

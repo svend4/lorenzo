@@ -90,3 +90,15 @@ Web durchsucht
 - [[05-hw-nl2workflow]] (сходство 0.16)
 - [[03-brainbox-multi-ai-hub]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-habr-examples](../../../habr-unique-projects/extra-examples/00-question-habr-examples.md)
+

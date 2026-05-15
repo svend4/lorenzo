@@ -59,3 +59,16 @@ This is exactly the demographic where AI augmentation could provide most value: 
 - [[07-section-7-success-metrics]] (сходство 0.32)
 - [[08-section-8-risks-mitigations]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-section-1-problem](../../../anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
+- [02-section-2-beneficial-dimension](../../../anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md)
+

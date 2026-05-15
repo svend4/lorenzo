@@ -56,3 +56,17 @@ Claude hat geantwortet: Отличный, осмысленный подход.
 - [[00-question-multi-tier]] (сходство 0.15)
 - [[00-question-two-nautiluses]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-anonymization](../../../nautilus/privacy-federation/00-question-anonymization.md)
+- [01-what-to-anonymize-german-standard](../../../nautilus/privacy-federation/01-what-to-anonymize-german-standard.md)
+- [02-two-tier-publication](../../../nautilus/privacy-federation/02-two-tier-publication.md)
+

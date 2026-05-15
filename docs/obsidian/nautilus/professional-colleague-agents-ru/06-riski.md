@@ -331,3 +331,15 @@ HIPAA, GDPR, эквивалентное соответствие.
 - [[237-6-риски-специфичные-для-этой-категории]] (сходство 0.93)
 - [[09-svyaz-s-drugimi]] (сходство 0.12)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-riski](../../../nautilus/professional-colleague-agents-ru/06-riski.md)
+

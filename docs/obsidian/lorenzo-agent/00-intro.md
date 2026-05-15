@@ -34,3 +34,15 @@ markdown
 - [[16-vsegda-delaesh]] (сходство 0.31)
 - [[09-voobshche-nelzya]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [00-intro](../../lorenzo-agent/00-intro.md)
+

@@ -168,3 +168,15 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 - [[88-13-rest-api-contract-normative-for-portals]] (сходство 0.74)
 - [[17-versioning-policy]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [13-rest-api](../../../nautilus/npp-v1-1/13-rest-api.md)
+

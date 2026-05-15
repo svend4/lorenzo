@@ -223,3 +223,15 @@ never had it**.
 - [[171-2-historical-precedents-agents-as-civilizational-i]] (сходство 0.86)
 - [[01-cinderella-syndrome]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-historical-precedents](../../../nautilus/representative-agent-layer-en/02-historical-precedents.md)
+

@@ -206,3 +206,15 @@ Knowledge Work*
 - [[302-ссылки]] (сходство 0.33)
 - [[301-благодарности]] (сходство 0.29)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-blagodarnosti-ssylki](../../../nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md)
+

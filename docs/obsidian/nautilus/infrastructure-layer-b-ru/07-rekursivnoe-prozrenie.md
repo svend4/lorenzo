@@ -109,3 +109,15 @@ Nautilus-как-платформе. Интеллектуальная работ�
 - [[296-рекурсивное-прозрение]] (сходство 0.75)
 - [[11-zaklyuchenie]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-rekursivnoe-prozrenie](../../../nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md)
+

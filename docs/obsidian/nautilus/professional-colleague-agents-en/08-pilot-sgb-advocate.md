@@ -251,3 +251,15 @@ incremental rather than novel.
 - [[219-8-pilot-proposal-sgb-advocate-colleague]] (сходство 0.85)
 - [[07-economics-combinatorial]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-pilot-sgb-advocate](../../../nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+

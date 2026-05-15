@@ -1,5 +1,10 @@
 # FinBench: финансовые бенчмарки для LLM от Финама
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Finam_Broker (Лаборатории ИИ «Финама»)  
 **Хабр:** https://habr.com/ru/companies/finam_broker/articles/989842/  
 **GitHub:** https://github.com/FinamAILab/Finam-FinBench_public  

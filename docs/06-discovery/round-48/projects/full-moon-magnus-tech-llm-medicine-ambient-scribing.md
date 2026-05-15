@@ -1,5 +1,10 @@
 # ИИ против болезней: BioBERT на MIMIC-III и Ambient AI Scribing в реальных клиниках
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** full_moon (Magnus Tech)  
 **Хабр:** https://habr.com/ru/companies/magnus-tech/articles/878456/  
 **GitHub:** нет (обзорная статья с производственными кейсами)  

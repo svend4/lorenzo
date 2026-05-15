@@ -1,5 +1,10 @@
 # AI Agent Security Audit — 18 уязвимостей в открытом агенте
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Дмитрий Лабинцев + bgauryy (GitHub Gist)  
 **Хабр:** https://habr.com/ru/articles/989764/  
 **GitHub:** https://github.com/doneyli/ai-agent-security-audit (5-фазный фреймворк)  

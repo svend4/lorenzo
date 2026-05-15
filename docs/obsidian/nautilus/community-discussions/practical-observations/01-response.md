@@ -202,3 +202,15 @@ Peer-to-peer collaboration matching через deep-profile analysis — это 
 - [[165-closing]] (сходство 0.35)
 - [[00-question-voiceless]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-response](../../../../nautilus/community-discussions/practical-observations/01-response.md)
+

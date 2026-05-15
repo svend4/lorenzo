@@ -1,5 +1,10 @@
 # Wunjo CE (Video Generation, полностью свободный)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @wladradchenko (Vladislav Radchenko)  
 **Хабр:** https://habr.com/ru/users/wladradchenko/  
 **GitHub:** https://github.com/wladradchenko/wunjo.wladradchenko.ru  

@@ -130,3 +130,15 @@ python scan_repo.py owner/repo-name
 - [[87-12-onboarding-paths-normative]] (сходство 0.80)
 - [[21-adr-003-five-onboarding-paths]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-onboarding-paths](../../../nautilus/npp-v1-1/12-onboarding-paths.md)
+

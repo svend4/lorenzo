@@ -89,3 +89,15 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 - [[114-7-реализация-в-проекте-nautilus]] (сходство 0.74)
 - [[02-formal-workflow]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-implementation-nautilus](../../../nautilus/review-methodology/08-implementation-nautilus.md)
+

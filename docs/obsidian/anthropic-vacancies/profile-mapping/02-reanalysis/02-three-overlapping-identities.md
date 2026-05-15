@@ -51,3 +51,16 @@ date: 2026-05-13
 - [[08-practical-ranking]] (сходство 0.16)
 - [[05-reality-check-distribution-gap]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [02-three-overlapping-identities](../../../../anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md)
+- [02-final-ranking](../../../../anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md)
+

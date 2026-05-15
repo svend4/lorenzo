@@ -82,3 +82,15 @@ ROI: Developer understands legal context, lawyer sees implementation
 - [[03-dsl-ast]] (сходство 0.27)
 - [[22-russian-international-oss-stack]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [27-hybrid-rag-with-ast-chunked-code](../../../technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md)
+

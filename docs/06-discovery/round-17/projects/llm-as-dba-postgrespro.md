@@ -1,5 +1,10 @@
 # LLM as DBA — LLM-пайплайн для работы со сложными БД
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** команда PostgresPro (enterprise Postgres компания)  
 **Хабр:** https://habr.com/ru/companies/postgrespro/articles/907614/  
 **GitHub:** не найден (корпоративная статья с описанием паттернов)  

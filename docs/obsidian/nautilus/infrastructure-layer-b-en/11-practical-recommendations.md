@@ -87,3 +87,15 @@ The friction will be lower than no infrastructure at all.
 - [[284-practical-recommendations-for-the-current-project]] (сходство 0.68)
 - [[04-whats-missing-layer-b]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-practical-recommendations](../../../nautilus/infrastructure-layer-b-en/11-practical-recommendations.md)
+

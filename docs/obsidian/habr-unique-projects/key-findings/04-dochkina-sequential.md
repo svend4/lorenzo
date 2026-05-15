@@ -57,3 +57,15 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 - [[5-tinyml-mcp-skills]] (сходство 0.17)
 - [[02-memnet]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-dochkina-sequential](../../../habr-unique-projects/key-findings/04-dochkina-sequential.md)
+

@@ -10,6 +10,7 @@ from docstoolkit.conversation.profile import (
     UserProfile,
     ProfileStore,
     PersonalizedRetriever,
+    apply_profile,
     infer_interests,
 )
 from docstoolkit.rag.types import Passage
@@ -270,3 +271,37 @@ def test_infer_interests_most_frequent_first():
 
 def test_infer_interests_empty():
     assert infer_interests([], top_n=5) == []
+
+
+# ---- apply_profile middleware (Sprint 54 / S6) ----
+
+def test_apply_profile_unknown_user_noop(store):
+    kwargs = {"top_k": 5, "method": "hybrid"}
+    out = apply_profile("ghost", kwargs, store=store)
+    assert out is kwargs
+    assert "_profile" not in out
+
+
+def test_apply_profile_loads_known_user(store):
+    p = UserProfile(user_id="alice", preferred_retriever="bm25")
+    store.save(p)
+    kwargs = {"top_k": 5}
+    out = apply_profile("alice", kwargs, store=store)
+    assert out["method"] == "bm25"
+    assert out["_profile"].user_id == "alice"
+
+
+def test_apply_profile_does_not_overwrite_caller_method(store):
+    p = UserProfile(user_id="alice", preferred_retriever="bm25")
+    store.save(p)
+    kwargs = {"method": "semantic"}
+    out = apply_profile("alice", kwargs, store=store)
+    assert out["method"] == "semantic"
+    assert out["_profile"].user_id == "alice"
+
+
+def test_apply_profile_returns_same_dict_for_chaining(store):
+    p = UserProfile(user_id="bob", preferred_retriever="keyword")
+    store.save(p)
+    kwargs = {}
+    assert apply_profile("bob", kwargs, store=store) is kwargs

@@ -59,3 +59,15 @@ Agent‑first референсная база: 785+ карточек по 26 д�
 - [[rufler]] (сходство 0.38)
 - [[memnet]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [knowledge-space](../../../svyazi-2-0/components/knowledge-space.md)
+

@@ -46,3 +46,15 @@ date: 2026-05-13
 - [[118-appendix-a-шаблон-для-header-warning]] (сходство 0.17)
 - [[voice-stack]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [privacy](../../../svyazi-2-0/security/privacy.md)
+

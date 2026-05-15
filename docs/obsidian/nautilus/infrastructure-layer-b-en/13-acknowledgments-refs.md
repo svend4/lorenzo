@@ -167,3 +167,15 @@ placed where infrastructure considerations naturally fit.
 - [[287-references]] (сходство 0.45)
 - [[286-acknowledgments]] (сходство 0.41)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [13-acknowledgments-refs](../../../nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md)
+

@@ -113,3 +113,15 @@ better outcomes.
 - [[314-6-refined-ingit-scope-with-cowork-in-mind]] (сходство 0.73)
 - [[02-cowork-provides]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-refined-ingit-scope](../../../nautilus/ingit-cowork-en/06-refined-ingit-scope.md)
+

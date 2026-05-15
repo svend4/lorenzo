@@ -72,3 +72,15 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 - [[05-benchmarks]] (сходство 0.25)
 - [[12-multi-agent-observability-stack]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-agent-orchestration-stack](../../../technology-combinations/combinations/09-agent-orchestration-stack.md)
+

@@ -79,3 +79,15 @@ ROI: Distributed research without central server, knowledge compounds
 - [[11-hybrid-crdt-sql-database]] (сходство 0.28)
 - [[15-19-extended]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [17-distributed-agent-memory-with-graph](../../../technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
+

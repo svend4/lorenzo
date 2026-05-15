@@ -156,3 +156,15 @@ confusion. Distinguishing them enables clear architecture.
 - [[220-9-relationship-to-other-agent-types]] (сходство 0.82)
 - [[01-five-type-typology]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-relationship-other-agents](../../../nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
+

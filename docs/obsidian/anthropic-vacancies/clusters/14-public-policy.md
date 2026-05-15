@@ -41,3 +41,15 @@ External Affairs Australia, Policy Analyst LATAM, Policy Planning & Operations U
 - [[15-public-benefit]] (сходство 0.51)
 - [[16-people]] (сходство 0.50)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [14-public-policy](../../../anthropic-vacancies/clusters/14-public-policy.md)
+

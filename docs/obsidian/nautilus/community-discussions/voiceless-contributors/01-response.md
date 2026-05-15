@@ -274,3 +274,15 @@ Risk Analysis: добавить risks identified выше
 - [[165-closing]] (сходство 0.47)
 - [[01-response-en]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-response](../../../../nautilus/community-discussions/voiceless-contributors/01-response.md)
+

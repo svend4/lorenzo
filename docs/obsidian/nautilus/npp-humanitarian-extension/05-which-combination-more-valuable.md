@@ -43,3 +43,16 @@ date: 2026-05-13
 - [[15-appendix-c-history]] (сходство 0.26)
 - [[00-question-habr-link]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-what-doesnt-exist-on-market](../../../nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
+- [05-which-combination-more-valuable](../../../nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
+

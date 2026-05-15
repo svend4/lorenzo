@@ -71,3 +71,16 @@ date: 2026-05-13
 - [[354-существующий-landscape-collaborators-твоя-working-]] (сходство 0.72)
 - [[06-final-tier-ranking]] (сходство 0.44)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [06-final-tier-ranking](../../anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+- [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md)
+

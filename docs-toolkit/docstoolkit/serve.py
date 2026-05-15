@@ -179,6 +179,37 @@ class DocsHandler(http.server.BaseHTTPRequestHandler):
                                "text/plain; version=0.0.4")
                 except ImportError:
                     self._send(503, "telemetry not available", "text/plain")
+            # ---------------- Sprint 54-92 feature endpoints ----------------
+            elif path == "/api/ask":
+                # Full-featured RAG via rag.ask(); accepts any subset of
+                # kwargs (with_facets, with_provenance, self_rag, etc.) as
+                # query strings. Boolean params accept "1"/"true"/"on".
+                self._send_json(_api_ask(params))
+            elif path == "/api/eval/dashboard":
+                # HTML dashboard from continuous online eval data
+                self._send(200, _api_eval_dashboard(params),
+                           "text/html; charset=utf-8")
+            elif path == "/api/saved":
+                # List saved queries
+                self._send_json(_api_saved_list(params))
+            elif path == "/api/voice":
+                # N4 epistemic profile of a text snippet
+                self._send_json(_api_voice(params))
+            elif path == "/api/assets":
+                # M8 multi-modal asset search
+                self._send_json(_api_assets(params))
+            elif path == "/api/taxonomy":
+                # N7 self-organising taxonomy over retrieved docs
+                self._send_json(_api_taxonomy(params))
+            elif path == "/api/diff":
+                # S5 bulk diff between two commits
+                self._send_json(_api_diff(params))
+            elif path == "/api/kg":
+                # M1 KG stats / direct entity-based retrieval
+                self._send_json(_api_kg(params))
+            elif path == "/api/profile":
+                # S6 user profile load/save
+                self._send_json(_api_profile(params))
             else:
                 self._send(404, _wrap_html("404", "<h1>404 Not Found</h1>"))
         except Exception as e:
@@ -965,3 +996,229 @@ def serve(port: int = 8000, bind: str = "127.0.0.1"):
             httpd.serve_forever()
         except KeyboardInterrupt:
             print("\n👋 Остановлено")
+
+
+# ---------------------------------------------------------------------------
+# Sprint 54-92 endpoint implementations
+# ---------------------------------------------------------------------------
+
+
+def _qbool(params: dict, key: str, default: bool = False) -> bool:
+    raw = params.get(key, [""])[0].lower()
+    if not raw:
+        return default
+    return raw in ("1", "true", "yes", "on")
+
+
+def _qint(params: dict, key: str, default: int) -> int:
+    try:
+        return int(params.get(key, [str(default)])[0])
+    except (ValueError, TypeError):
+        return default
+
+
+def _qstr(params: dict, key: str, default: str = "") -> str:
+    return params.get(key, [default])[0]
+
+
+def _api_ask(params: dict) -> dict:
+    """Full-featured RAG via rag.ask() — every kwarg exposed as query string."""
+    from docstoolkit.rag import ask
+
+    q = _qstr(params, "q")
+    if not q:
+        return {"error": "missing q parameter"}
+
+    kwargs = {
+        "top_k":            _qint(params, "top_k", 5),
+        "method":           _qstr(params, "method", "hybrid"),
+        "answerer":         _qstr(params, "answerer", "echo"),
+        "user_id":          _qstr(params, "user_id"),
+        "with_facets":      _qbool(params, "with_facets"),
+        "with_provenance":  _qbool(params, "with_provenance"),
+        "self_rag":         _qbool(params, "self_rag"),
+        "auto_intent":      _qbool(params, "auto_intent"),
+        "hierarchical":     _qbool(params, "hierarchical"),
+        "with_debate":      _qbool(params, "with_debate"),
+        "with_mapreduce":   _qbool(params, "with_mapreduce"),
+        "with_got":         _qbool(params, "with_got"),
+        "with_negotiation": _qbool(params, "with_negotiation"),
+        "at_commit":        _qstr(params, "at_commit"),
+    }
+    # Filters via simple "field:value,field2:value2" form
+    raw_filters = _qstr(params, "filters")
+    if raw_filters:
+        flt: dict[str, str] = {}
+        for part in raw_filters.split(","):
+            if ":" in part:
+                k, v = part.split(":", 1)
+                flt[k.strip()] = v.strip()
+        kwargs["filters"] = flt
+
+    try:
+        r = ask(q, **kwargs)
+    except Exception as e:
+        return {"error": str(e)}
+
+    out = {
+        "query": q,
+        "answer": r.answer,
+        "duration_ms": r.duration_ms,
+        "passages": [
+            {"doc_id": p.doc_id, "title": p.title, "score": p.score}
+            for p in r.retrieved_passages
+        ],
+        "citations": r.citations,
+    }
+    if r.facets:
+        out["facets"] = [a.to_dict() for a in r.facets]
+    if r.provenance is not None:
+        try:
+            out["provenance"] = {
+                "overall_confidence": r.provenance.overall_confidence,
+                "n_claims": len(r.provenance.claims),
+            }
+        except Exception:
+            pass
+    if r.got_result is not None:
+        try:
+            out["got"] = {
+                "final_answer": r.got_result.final_answer,
+                "confirmed": r.got_result.confirmed_count,
+                "refuted": r.got_result.refuted_count,
+            }
+        except Exception:
+            pass
+    if r.at_commit:
+        out["at_commit"] = r.at_commit
+    # Phase III.3 — opt-in composition trace via ?trace=1
+    if _qbool(params, "trace") and r.trace:
+        out["trace"] = [
+            {"stage": ev.stage,
+             "t_ms": round(ev.t_ms, 4),
+             "payload": ev.payload}
+            for ev in r.trace
+        ]
+    return out
+
+
+def _api_eval_dashboard(params: dict) -> str:
+    from docstoolkit.online_eval import OnlineEvalStore, render_dashboard
+    days = _qint(params, "days", 7)
+    store = OnlineEvalStore()
+    try:
+        return render_dashboard(store, window_days=days)
+    finally:
+        store.close()
+
+
+def _api_saved_list(params: dict) -> dict:
+    from docstoolkit.rag.saved import list_queries
+    owner = _qstr(params, "owner")
+    qs = list_queries(owner=owner)
+    return {
+        "owner": owner,
+        "queries": [
+            {"id": q.id, "query": q.query, "owner": q.owner,
+             "schedule": q.schedule, "top_k": q.top_k}
+            for q in qs
+        ],
+        "total": len(qs),
+    }
+
+
+def _api_voice(params: dict) -> dict:
+    from docstoolkit.rag.advanced import measure_voice
+    text = _qstr(params, "text")
+    if not text:
+        return {"error": "missing text parameter"}
+    return {"text_length": len(text), "voice": measure_voice(text)}
+
+
+def _api_assets(params: dict) -> dict:
+    from docstoolkit.rag.advanced import search_assets
+    q = _qstr(params, "q")
+    asset_type = _qstr(params, "type")
+    tag = _qstr(params, "tag")
+    assets = search_assets(q, asset_type=asset_type, tag=tag)
+    return {"query": q, "type": asset_type, "tag": tag,
+            "assets": assets, "total": len(assets)}
+
+
+def _api_taxonomy(params: dict) -> dict:
+    from docstoolkit.rag.advanced import build_taxonomy_ask
+    q = _qstr(params, "q")
+    if not q:
+        return {"error": "missing q parameter"}
+    levels = _qint(params, "levels", 3)
+    top_k = _qint(params, "top_k", 25)
+    return build_taxonomy_ask(q, top_k=top_k, levels=levels)
+
+
+def _api_diff(params: dict) -> dict:
+    """Bulk diff between two git commits within the active docs_dir."""
+    from pathlib import Path as _P
+    from docstoolkit.rag.bulk_diff import diff_commits, diff_since_days
+
+    days = params.get("days", [""])[0]
+    a = _qstr(params, "from")
+    b = _qstr(params, "to", "HEAD")
+    docs_dir = getattr(DocsHandler.cfg, "docs_dir", _P("docs"))
+    try:
+        if days:
+            res = diff_since_days(docs_dir, int(days))
+        elif a and b:
+            res = diff_commits(docs_dir, a, b)
+        else:
+            return {"error": "specify from+to or days parameter"}
+    except Exception as e:
+        return {"error": str(e)}
+    return {
+        "added": res.added,
+        "removed": res.removed,
+        "modified": res.modified,
+        "total_changes": res.total_changes,
+    }
+
+
+def _api_kg(params: dict) -> dict:
+    """KG stats and entity-based search."""
+    from docstoolkit.knowledge_graph import KGRetriever
+
+    kgr = KGRetriever()
+    q = _qstr(params, "q")
+    if q:
+        hits = kgr.search(q, top_k=_qint(params, "top_k", 5))
+        return {
+            "query": q,
+            "stats": kgr.stats(),
+            "passages": [
+                {"doc_id": p.doc_id, "title": p.title, "score": p.score}
+                for p in hits
+            ],
+        }
+    return {"stats": kgr.stats()}
+
+
+def _api_profile(params: dict) -> dict:
+    """Load or list user profiles."""
+    from docstoolkit.conversation.profile import ProfileStore
+
+    store = ProfileStore()
+    try:
+        user_id = _qstr(params, "user_id")
+        if user_id:
+            p = store.load(user_id)
+            if p is None:
+                return {"user_id": user_id, "exists": False}
+            return {
+                "user_id": p.user_id,
+                "exists": True,
+                "interests": p.interests,
+                "preferred_sections": p.preferred_sections,
+                "preferred_retriever": p.preferred_retriever,
+                "read_docs_count": len(p.read_docs),
+            }
+        return {"users": store.list_users()}
+    finally:
+        store.close()

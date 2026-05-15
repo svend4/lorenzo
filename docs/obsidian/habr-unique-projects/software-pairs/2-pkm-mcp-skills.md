@@ -51,3 +51,15 @@ Local LLM Wiki поверх раздельной личной/агентной �
 - [[5-voice-local-memory]] (сходство 0.17)
 - [[07-crawl4ai-docling-yodoca-consolidator]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [2-pkm-mcp-skills](../../../habr-unique-projects/software-pairs/2-pkm-mcp-skills.md)
+

@@ -1,5 +1,10 @@
 # Machine Unlearning для LLM: TOFU/WMDP бенчмарки, gradient ascent, OpenUnlearning
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** MidavNibush (Вадим Шубин)  
 **Хабр:** https://habr.com/ru/companies/oleg-bunin/articles/1014692/  
 **GitHub:** github.com/licong-lin/negative-preference-optimization (OpenUnlearning fork с LoRA)  

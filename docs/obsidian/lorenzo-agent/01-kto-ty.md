@@ -45,3 +45,15 @@ date: 2026-05-13
 - [[345-кто-ты]] (сходство 0.54)
 - [[14-other-ai-relationships]] (сходство 0.28)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [01-kto-ty](../../lorenzo-agent/01-kto-ty.md)
+

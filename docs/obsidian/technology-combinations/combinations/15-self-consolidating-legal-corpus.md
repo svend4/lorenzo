@@ -82,3 +82,15 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 - [[07-crawl4ai-docling-yodoca-consolidator]] (сходство 0.24)
 - [[17-distributed-agent-memory-with-graph]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [15-self-consolidating-legal-corpus](../../../technology-combinations/combinations/15-self-consolidating-legal-corpus.md)
+

@@ -126,3 +126,15 @@ MCP сервера. Не реализовывать пока; сначала
 - [[333-7-практические-первые-шаги-в-этом-месяце]] (сходство 0.75)
 - [[07-difference-2-domain-specialization]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-prakticheskie-shagi](../../../nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md)
+

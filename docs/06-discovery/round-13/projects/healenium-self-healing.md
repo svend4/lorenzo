@@ -1,5 +1,10 @@
 # Healenium + локальная LLM — самовосстанавливающиеся тесты
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** команда Healenium (EPAM + OSS) + авторы статьи  
 **Хабр:** https://habr.com/ru/articles/887226/  
 **GitHub:** https://github.com/healenium/healenium-web (Apache 2.0)  

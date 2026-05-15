@@ -1,5 +1,10 @@
 # FREED++: Ускорение де ново генерации молекул через исправление багов RL-фреймворка
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** AlexanderTelepov (Александр Телепов, AIRI — AI Research Institute)  
 **Хабр:** https://habr.com/ru/companies/airi/articles/842534/  
 **GitHub:** github.com/AIRI-Institute/FFREED  

@@ -125,3 +125,17 @@ Read source code existing components
 - [[01-pluses-1-7]] (сходство 0.21)
 - [[06-conclusion-deserves-attention]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-pluses-1-7](../../../lorenzo-agent/operationalized/01-pluses-1-7.md)
+- [04-recommendations](../../../lorenzo-agent/operationalized/04-recommendations.md)
+- [05-anchor-node-habr-scout](../../../lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
+

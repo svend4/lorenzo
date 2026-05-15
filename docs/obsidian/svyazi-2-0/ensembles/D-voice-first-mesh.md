@@ -66,3 +66,15 @@ flowchart LR
 - [[04-ensembles-overview]] (сходство 0.23)
 - [[04-приоритетные-ансамбли]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [D-voice-first-mesh](../../../svyazi-2-0/ensembles/D-voice-first-mesh.md)
+

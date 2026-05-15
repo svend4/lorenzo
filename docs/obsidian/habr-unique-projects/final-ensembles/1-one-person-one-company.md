@@ -53,3 +53,15 @@ vault в Obsidian + RAG над corpus-ом юридических докумен
 - [[2-autoresearch-legal]] (сходство 0.20)
 - [[6-tmux-village-openclaw]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [1-one-person-one-company](../../../habr-unique-projects/final-ensembles/1-one-person-one-company.md)
+

@@ -107,3 +107,15 @@ match actual technology architecture.
 - [[265-12-call-for-collaboration]] (сходство 0.82)
 - [[11-call-for-collaboration]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-call-for-collaboration](../../../nautilus/composite-skills-agents/12-call-for-collaboration.md)
+

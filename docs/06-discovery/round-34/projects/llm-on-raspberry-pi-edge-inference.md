@@ -1,5 +1,10 @@
 # Как запустить LLM на Raspberry Pi 5: GGUF квантизация и Edge inference
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 **Автор:** Denbackyard (Cloud.ru)  
 **Хабр:** https://habr.com/ru/companies/cloud_ru/articles/964136/  
 **GitHub:** https://github.com/open-webui/open-webui (веб-интерфейс)  

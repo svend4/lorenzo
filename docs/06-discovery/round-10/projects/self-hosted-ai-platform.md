@@ -1,5 +1,10 @@
 # Self-hosted AI Platform (Open WebUI + Qdrant + Whisper)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** неизвестен (статья декабрь 2025)  
 **Хабр:** https://habr.com/ru/articles/973456/  
 **GitHub:** не найден явно  

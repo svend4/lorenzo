@@ -91,3 +91,15 @@ ROI: Automated review → manual approval only for edge cases
 - [[12-multi-agent-observability-stack]] (сходство 0.25)
 - [[28-pydantic-enforced-legal-workflows]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [16-adversarial-multi-agent-code-review](../../../technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
+

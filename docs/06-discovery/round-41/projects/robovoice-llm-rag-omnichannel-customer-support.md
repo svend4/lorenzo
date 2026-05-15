@@ -1,5 +1,10 @@
 # Robovoice: LLM + RAG для омниканальной службы поддержки
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** mmikeles (Михаил Крюков, технический директор Robovoice / SL Soft)  
 **Хабр:** https://habr.com/ru/companies/slsoft/articles/877914/  
 **GitHub:** нет (production-платформа), используется LangChain  

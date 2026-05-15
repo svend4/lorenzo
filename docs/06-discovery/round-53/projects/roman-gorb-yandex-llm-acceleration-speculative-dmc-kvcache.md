@@ -1,5 +1,10 @@
 # YandexGPT Acceleration: DMC KV-cache 3.5×, SpinQuant W4A4 2.7×, EAGLE Speculative Decoding
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 **Автор:** roman-gorb (Яндекс, команда YandexGPT inference)  
 **Хабр:** https://habr.com/ru/companies/yandex/articles/878230/  
 **GitHub:** ссылки на arXiv paper'ы в статье  

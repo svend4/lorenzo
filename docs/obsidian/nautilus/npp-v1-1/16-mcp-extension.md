@@ -58,3 +58,15 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 - [[91-16-mcp-extension-informative]] (сходство 0.60)
 - [[11-relevance-ranking]] (сходство 0.33)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [16-mcp-extension](../../../nautilus/npp-v1-1/16-mcp-extension.md)
+

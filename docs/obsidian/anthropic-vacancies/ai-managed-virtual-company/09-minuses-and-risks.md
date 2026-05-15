@@ -82,3 +82,15 @@ Fantastical: коллективный интеллект с AI-mediated consensu
 - [[05-polymath-project-tao-comparison]] (сходство 0.14)
 - [[00-question-rephrasing]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-minuses-and-risks](../../../anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+

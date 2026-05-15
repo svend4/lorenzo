@@ -128,3 +128,15 @@ date: 2026-05-13
 - [[193-3-что-делает-агента-представительским]] (сходство 0.82)
 - [[05-arkhitekturnaya-spetsifikatsiya]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-chto-delaet-predstavitelskim](../../../nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md)
+

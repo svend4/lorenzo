@@ -59,3 +59,15 @@ Patent filing. 6 патентабельных изобретений — это 
 - [[03-revised-anthropic-mapping]] (сходство 0.16)
 - [[02-primary-fde]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [04-non-anthropic-paths](../../../../anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md)
+

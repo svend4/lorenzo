@@ -62,3 +62,15 @@ https://habr.com/ru/articles/1006622/
 - [[yodoca]] (сходство 0.21)
 - [[01-synthesis]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-yodoca](../../../habr-unique-projects/key-findings/01-yodoca.md)
+

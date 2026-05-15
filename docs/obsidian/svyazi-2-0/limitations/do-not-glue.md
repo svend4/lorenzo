@@ -56,3 +56,15 @@ AutoResearch и Sequential выглядят очень мощно, но толь
 - [[14-limitations]] (сходство 0.47)
 - [[privacy]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [do-not-glue](../../../svyazi-2-0/limitations/do-not-glue.md)
+

@@ -60,3 +60,16 @@ date: 2026-05-13
 - [[rufler]] (сходство 0.39)
 - [[knowledge-space]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-memnet](../../../habr-unique-projects/key-findings/02-memnet.md)
+- [memnet](../../../svyazi-2-0/components/memnet.md)
+

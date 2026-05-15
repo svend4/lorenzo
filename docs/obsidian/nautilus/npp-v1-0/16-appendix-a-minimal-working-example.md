@@ -100,3 +100,15 @@ example_user, example@email.com
 - [[15-glossary]] (сходство 0.28)
 - [[13-reference-implementation]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [16-appendix-a-minimal-working-example](../../../nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md)
+

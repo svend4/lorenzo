@@ -98,3 +98,15 @@ stable требуют bump до v2.0 с migration guide.
 - [[74-abstract]] (сходство 0.55)
 - [[00-abstract-status]] (сходство 0.46)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-abstract-status](../../../nautilus/npp-v1-1/00-abstract-status.md)
+

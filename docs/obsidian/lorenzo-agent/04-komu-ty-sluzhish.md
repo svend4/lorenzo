@@ -57,3 +57,15 @@ date: 2026-05-13
 - [[348-кому-ты-служишь-слоистая-модель]] (сходство 0.31)
 - [[17-honestly-ne-znaesh]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [04-komu-ty-sluzhish](../../lorenzo-agent/04-komu-ty-sluzhish.md)
+

@@ -49,3 +49,16 @@ Mehr anzeigen
 - [[01-response]] (сходство 0.14)
 - [[00-question-supply-demand]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-response](../../../../nautilus/community-discussions/practical-observations/01-response.md)
+- [00-question-voiceless](../../../../nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
+

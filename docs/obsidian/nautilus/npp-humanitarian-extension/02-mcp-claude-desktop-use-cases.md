@@ -58,3 +58,15 @@ date: 2026-05-13
 - [[05-which-combination-more-valuable]] (сходство 0.17)
 - [[04-section-4-sgb-pilot]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-mcp-claude-desktop-use-cases](../../../nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md)
+

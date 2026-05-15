@@ -1,5 +1,10 @@
 # Self-hosted AI платформа — полный стек: n8n + Ollama + Open WebUI + Docker
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** независимый разработчик (Хабр, декабрь 2025)  
 **Хабр:** https://habr.com/ru/articles/973456/  
 **GitHub:** https://github.com/coleam00/local-ai-packaged (MIT, community fork)  

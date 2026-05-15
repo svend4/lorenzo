@@ -1,5 +1,10 @@
 # Self-hosted LLM на 4× RTX 4090 с водяным охлаждением: реплицированный vs tensor parallelism
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 **Автор:** Dmitrii-Chashchin (Дмитрий Чащин, компания BVM)  
 **Хабр:** https://habr.com/ru/articles/1032698/  
 **GitHub:** нет (production кейс для клиента)  

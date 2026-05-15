@@ -62,3 +62,15 @@ date: 2026-05-13
 - [[06-безопасность-приватность-и-бюджетный-роутинг]] (сходство 0.44)
 - [[06-security-privacy]] (сходство 0.43)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [default-policy](../../../svyazi-2-0/security/default-policy.md)
+

@@ -137,3 +137,15 @@ v2.0 MAY использовать:
 - [[84-9-consensus-algorithm]] (сходство 0.70)
 - [[08-consensus-algorithm]] (сходство 0.37)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-consensus-algorithm](../../../nautilus/npp-v1-1/09-consensus-algorithm.md)
+

@@ -264,3 +264,15 @@ Scite). Активная разработка.
 - [[238-7-области-применения]] (сходство 0.90)
 - [[08-pilot-sgb-kolega]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-oblasti-primeneniya](../../../nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md)
+

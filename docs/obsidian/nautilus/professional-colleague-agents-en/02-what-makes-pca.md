@@ -179,3 +179,15 @@ to discuss work with."
 - [[213-2-what-makes-a-professional-colleague-agent]] (сходство 0.84)
 - [[01-five-type-typology]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-what-makes-pca](../../../nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
+

@@ -159,3 +159,17 @@ Marketplace layer (longer term) для economy dimension
 - [[05-what-to-do-right-now]] (сходство 0.21)
 - [[03-sgb-advocate-colleague-example]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-what-info-repos-contain](../../../anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
+- [04-what-to-take-from-info-repos](../../../anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
+- [05-what-to-do-right-now](../../../anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
+

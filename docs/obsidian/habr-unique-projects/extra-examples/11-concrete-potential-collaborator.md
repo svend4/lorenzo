@@ -73,3 +73,16 @@ Open discussion of how community-matching patterns scale до vulnerable populat
 - [[09-federated-platform]] (сходство 0.22)
 - [[08-personal-multi-agent-hub]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-concrete-potential-collaborator](../../../habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md)
+- [12-concrete-next-step](../../../habr-unique-projects/extra-examples/12-concrete-next-step.md)
+

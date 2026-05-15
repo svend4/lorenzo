@@ -73,3 +73,18 @@ Operations Concierge — в чате принимает команды, созд
 - [[2-distributed-agent-workshop]] (сходство 0.18)
 - [[7-domain-agent-app-factory]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [1-agentic-knowledge-os](../../../ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+- [4-web-to-knowledge-pipeline](../../../ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
+- [7-domain-agent-app-factory](../../../ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [9-ambient-team-agent](../../../ai-collaborations/ensembles/9-ambient-team-agent.md)
+

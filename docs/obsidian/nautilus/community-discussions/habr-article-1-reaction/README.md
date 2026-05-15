@@ -23,3 +23,15 @@ date: 2026-05-13
 - [[README]] (сходство 0.46)
 - [[README]] (сходство 0.38)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [README](../../../../nautilus/community-discussions/habr-article-1-reaction/README.md)
+

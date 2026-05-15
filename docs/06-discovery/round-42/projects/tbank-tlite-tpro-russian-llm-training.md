@@ -1,5 +1,10 @@
 # T-Lite и T-Pro: открытые русскоязычные LLM с 4-этапным pipeline
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** anatolii-potapov (Анатолий Потапов, MLE, T-Bank)  
 **Хабр:** https://habr.com/ru/companies/tbank/articles/865582/  
 **GitHub:** https://github.com/turbo-llm/turbo-alignment (Apache 2.0)  

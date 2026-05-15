@@ -356,3 +356,15 @@ markdown
 - [[104-appendix-c-references]] (сходство 0.71)
 - [[122-глоссарий]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [22-glossary](../../../nautilus/npp-v1-1/22-glossary.md)
+

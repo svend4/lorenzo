@@ -57,3 +57,17 @@ Yodoca уже мыслит память через consolidation + forgetting, N
 - [[review-record]] (сходство 0.22)
 - [[11-integration-contracts]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [card-envelope](../../../svyazi-2-0/architecture/card-envelope.md)
+- [memory-write-policy](../../../svyazi-2-0/architecture/memory-write-policy.md)
+- [skill-tool-policy](../../../svyazi-2-0/architecture/skill-tool-policy.md)
+

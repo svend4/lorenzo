@@ -80,3 +80,17 @@ Potential outcomes
 - [[04-section-4-sgb-pilot]] (сходство 0.27)
 - [[00-context]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-context](../../../anthropic-vacancies/beneficial-deployments-concept/00-context.md)
+- [10-section-10-engagement-request](../../../anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
+- [11-not-and-format](../../../anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
+

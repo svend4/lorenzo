@@ -90,3 +90,16 @@ ROI: Write once, deploy everywhere
 - [[28-pydantic-enforced-legal-workflows]] (сходство 0.28)
 - [[25-30-extended]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [26-ast-based-code-analysis-for-legal-automation](../../../technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
+- [29-meta-programmatic-legal-template-generator](../../../technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+

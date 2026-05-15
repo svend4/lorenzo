@@ -58,3 +58,16 @@ flowchart LR
 - [[10-second-order-ensembles]] (сходство 0.27)
 - [[10-новые-ансамбли-следующего-шага]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [C-multi-agent-factory](../../../svyazi-2-0/ensembles/C-multi-agent-factory.md)
+- [H-research-to-product-flywheel](../../../svyazi-2-0/ensembles/H-research-to-product-flywheel.md)
+

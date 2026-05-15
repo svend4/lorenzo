@@ -190,3 +190,15 @@ with collective improvement
 - [[263-10-risks-specific-to-composite-architectures]] (сходство 0.86)
 - [[09-okwf-integration]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-risks](../../../nautilus/composite-skills-agents/10-risks.md)
+

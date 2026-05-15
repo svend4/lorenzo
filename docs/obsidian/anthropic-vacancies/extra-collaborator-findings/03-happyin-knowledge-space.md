@@ -78,3 +78,15 @@ MIT license — open для использования и адаптации
 - [[06-final-tier-ranking]] (сходство 0.17)
 - [[07-key-observation]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-happyin-knowledge-space](../../../anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md)
+

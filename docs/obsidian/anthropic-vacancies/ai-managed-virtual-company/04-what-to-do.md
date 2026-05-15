@@ -61,3 +61,16 @@ date: 2026-05-13
 - [[05-minuses-as-business]] (сходство 0.13)
 - [[04-stronger-paths-outside-anthropic]] (сходство 0.12)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-what-to-do](../../../anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
+- [10-three-entry-points](../../../anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
+

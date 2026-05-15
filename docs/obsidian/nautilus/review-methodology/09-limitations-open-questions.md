@@ -97,3 +97,15 @@ Revert** для публичных-facing docs.
 - [[115-8-ограничения-и-открытые-вопросы]] (сходство 0.83)
 - [[10-checklist]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-limitations-open-questions](../../../nautilus/review-methodology/09-limitations-open-questions.md)
+

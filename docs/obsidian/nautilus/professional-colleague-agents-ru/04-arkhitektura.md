@@ -240,3 +240,15 @@ PDF/DOCX в других). Медицинские записи должны
 - [[235-4-архитектура-профессиональных-коллег-агентов]] (сходство 0.88)
 - [[05-ekonomika]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-arkhitektura](../../../nautilus/professional-colleague-agents-ru/04-arkhitektura.md)
+

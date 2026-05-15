@@ -73,3 +73,15 @@ Cross-domain запросы через event bus
 - [[01-agent-routing]] (сходство 0.51)
 - [[04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](../../../technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+

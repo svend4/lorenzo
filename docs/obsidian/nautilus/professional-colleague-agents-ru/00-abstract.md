@@ -58,3 +58,15 @@ AI-партнёров в свою ежедневную работу.
 - [[231-содержание]] (сходство 0.41)
 - [[230-аннотация]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-abstract](../../../nautilus/professional-colleague-agents-ru/00-abstract.md)
+

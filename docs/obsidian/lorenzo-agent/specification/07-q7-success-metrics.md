@@ -89,3 +89,17 @@ Anti-metrics (что НЕ optimize for):
 - [[06-q6-accountability]] (сходство 0.25)
 - [[05-q5-authority-limits]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-q3-what-lorenzo-does](../../../lorenzo-agent/specification/03-q3-what-lorenzo-does.md)
+- [06-q6-accountability](../../../lorenzo-agent/specification/06-q6-accountability.md)
+- [07-q7-success-metrics](../../../lorenzo-agent/specification/07-q7-success-metrics.md)
+

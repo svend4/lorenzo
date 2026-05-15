@@ -69,3 +69,15 @@ Mermaid
 - [[04-memory-firewall-vs-prompt-worms]] (сходство 0.17)
 - [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-shared-memory-between-agents](../../../ai-collaborations/continuation/01-shared-memory-between-agents.md)
+

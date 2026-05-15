@@ -91,3 +91,16 @@ Lorenzo speaks all three, but Habr is initial home base
 - [[08-q8-other-ai-relationships]] (сходство 0.26)
 - [[10-q10-funding-model]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-q9-geographic-linguistic-scope](../../../lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+- [10-q10-funding-model](../../../lorenzo-agent/specification/10-q10-funding-model.md)
+

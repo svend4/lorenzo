@@ -73,3 +73,15 @@ What's the role of you (the proposer)? Specifically.
 - [[10-section-10-engagement-request]] (сходство 0.24)
 - [[11-not-and-format]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-context](../../../anthropic-vacancies/beneficial-deployments-concept/00-context.md)
+

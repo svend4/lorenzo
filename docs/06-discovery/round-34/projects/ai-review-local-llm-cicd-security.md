@@ -1,5 +1,10 @@
 # AI Review кода: локальная LLM в CI/CD за 30 минут
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** sound_right (Никита Филонов)  
 **Хабр:** https://habr.com/ru/articles/953598/  
 **GitHub:** https://github.com/Nikita-Filonov/ai-review  

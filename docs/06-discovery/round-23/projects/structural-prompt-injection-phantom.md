@@ -1,5 +1,10 @@
 # Структурные инъекции в LLM-агентов — Phantom Framework (Tsinghua/Ant Group)
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** исследователи Tsinghua University + Ant Group  
 **Хабр:** https://habr.com/ru/articles/1002608/  
 **GitHub:** не опубликован (академическое исследование, Phantom framework)  

@@ -1,5 +1,10 @@
 # Structured Output: три уровня надёжности — Instructor, BAML, Outlines
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** slivka_83  
 **Хабр:** https://habr.com/ru/articles/978534/  
 **GitHub:** https://github.com/567-labs/instructor (Instructor), https://github.com/dottxt-ai/outlines (Outlines)  

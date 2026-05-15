@@ -53,3 +53,15 @@ Local RAG за вечер (https://habr.com/ru/articles/955798/) — 5 open-sour
 - [[2-pkm-mcp-skills]] (сходство 0.17)
 - [[07-crawl4ai-docling-yodoca-consolidator]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [2-document-rag](../../../habr-unique-projects/deep-pairs/2-document-rag.md)
+

@@ -104,3 +104,15 @@ Limitation: developer task automation, не community synthesis
 - [[05-existing-infrastructure-stack]] (сходство 0.17)
 - [[08-personal-multi-agent-hub]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-search-results-not-found](../../../lorenzo-agent/naming/01-search-results-not-found.md)
+

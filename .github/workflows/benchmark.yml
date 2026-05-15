@@ -53,7 +53,7 @@ jobs:
         run: |
           # Если history.jsonl есть от main → compare
           if [ -f bench/history.jsonl ]; then
-            python -m bench.runner --suite embeddings search graph cluster jobs --compare 0 --threshold 50
+            python -m bench.runner --suite embeddings search graph cluster jobs ask_features helpers --compare 0 --threshold 50
           else
             echo "ℹ️  No baseline yet, skipping regression check"
           fi

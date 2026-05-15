@@ -1,5 +1,10 @@
 # OpenCode (open-source coding agent)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @anomalyco  
 **Хабр:** https://habr.com/ru/news/1013022/  
 **GitHub:** https://github.com/anomalyco/opencode  

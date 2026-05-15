@@ -106,3 +106,15 @@ Avoids autonomy controversies while preserving brand benefits
 - [[08-q8-other-ai-relationships]] (сходство 0.22)
 - [[02-q2-whom-lorenzo-serves]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-q1-what-lorenzo-is](../../../lorenzo-agent/specification/01-q1-what-lorenzo-is.md)
+

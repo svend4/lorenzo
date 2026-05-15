@@ -87,3 +87,17 @@ memory_fact: "review_required"
 - [[04-memory-firewall-vs-prompt-worms]] (сходство 0.19)
 - [[01-shared-memory-between-agents]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-shared-memory-between-agents](../../../ai-collaborations/continuation/01-shared-memory-between-agents.md)
+- [03-a2a-vs-mcp-protocols](../../../ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
+- [07-vs-notion-mem-affine-langgraph](../../../ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)
+

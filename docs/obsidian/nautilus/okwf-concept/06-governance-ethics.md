@@ -151,3 +151,15 @@ dignified issues
 - [[160-6-governance-and-ethics]] (сходство 0.85)
 - [[09-call-for-partnership]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-governance-ethics](../../../nautilus/okwf-concept/06-governance-ethics.md)
+

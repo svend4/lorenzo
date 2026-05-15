@@ -95,3 +95,15 @@ Engage с vulnerable individuals directly without human safeguards
 - [[09-voobshche-nelzya]] (сходство 0.26)
 - [[03-q3-what-lorenzo-does]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-q5-authority-limits](../../../lorenzo-agent/specification/05-q5-authority-limits.md)
+

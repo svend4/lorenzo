@@ -1,5 +1,10 @@
 # Qwen3Guard: модерация контента с on-the-fly логитами против LlamaGuard и ShieldGemma
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Martianov (Миша Мартьянов, red_mad_robot)  
 **Хабр:** https://habr.com/ru/companies/redmadrobot/articles/971388/  
 **GitHub:** нет (production кейс)  

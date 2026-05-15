@@ -57,3 +57,16 @@ applied work demonstrated its absence
 - [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.53)
 - [[306-with-anthropic-s-cowork-platform]] (сходство 0.34)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../nautilus/README.md)
+- [00-intro](../../../nautilus/infrastructure-layer-b-en/00-intro.md)
+

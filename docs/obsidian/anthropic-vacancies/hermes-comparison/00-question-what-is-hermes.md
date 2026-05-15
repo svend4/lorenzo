@@ -85,3 +85,15 @@ Termux support (что особенно релевантно для вас, уч
 - [[11-pluses-of-hermes]] (сходство 0.20)
 - [[05-similarity-5-self-hosting-privacy]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-question-what-is-hermes](../../../anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md)
+

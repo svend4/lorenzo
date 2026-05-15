@@ -132,3 +132,15 @@ GitHub)
 - [[332-6-уточнённый-объём-ingit-с-учётом-cowork]] (сходство 0.71)
 - [[02-chto-cowork-obespechivaet]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-utochnyonnyy-obyom-ingit](../../../nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md)
+

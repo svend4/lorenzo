@@ -1,5 +1,10 @@
 # Будущее ИИ — формальные грамматики: GBNF, XGrammar и constrained decoding для LLM
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** Safreliy (Postgres Professional)  
 **Хабр:** https://habr.com/ru/companies/postgrespro/articles/922260/  
 **GitHub:** нет (теоретическая + практическая статья с примерами кода)  

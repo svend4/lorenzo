@@ -79,3 +79,15 @@ Honest reflection
 - [[10-profession-specific-workflows]] (сходство 0.21)
 - [[07-specialized-knowledge-workspace]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-concrete-next-step](../../../habr-unique-projects/extra-examples/12-concrete-next-step.md)
+

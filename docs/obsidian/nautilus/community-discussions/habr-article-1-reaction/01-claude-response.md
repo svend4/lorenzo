@@ -297,3 +297,15 @@ Provides empirical validation что архитектура работает в 
 - [[165-closing]] (сходство 0.25)
 - [[01-strategic-significance]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-claude-response](../../../../nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)
+

@@ -93,3 +93,15 @@ work.
 - [[281-the-recursive-insight]] (сходство 0.71)
 - [[09-what-industry-will-build]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-recursive-insight](../../../nautilus/infrastructure-layer-b-en/08-recursive-insight.md)
+

@@ -66,3 +66,17 @@ Mermaid
 - [[03-a2a-vs-mcp-protocols]] (сходство 0.19)
 - [[01-shared-memory-between-agents]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-a2a-vs-mcp-protocols](../../../ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
+- [04-memory-firewall-vs-prompt-worms](../../../ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
+- [5-agent-firewall](../../../ai-collaborations/ensembles/5-agent-firewall.md)
+

@@ -210,3 +210,18 @@ Mehr anzeigen
 - [[09-minuses-and-risks]] (сходство 0.30)
 - [[01-интегральный-анализ-профиля-svend4]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-polymath-project-tao-comparison](../../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+- [06-angel-vs-demon-duality](../../../anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
+- [09-minuses-and-risks](../../../anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+- [00-question-innovations-transitions](../../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+

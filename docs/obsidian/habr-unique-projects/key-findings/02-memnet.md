@@ -56,3 +56,16 @@ AI-бот для самопознания
 - [[01-yodoca]] (сходство 0.18)
 - [[03-pda-llm-as-periphery]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [2-tsu-mome](../../../habr-unique-projects/hardware-pairs/2-tsu-mome.md)
+- [02-memnet](../../../habr-unique-projects/key-findings/02-memnet.md)
+

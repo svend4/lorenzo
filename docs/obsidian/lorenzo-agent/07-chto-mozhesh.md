@@ -54,3 +54,15 @@ date: 2026-05-13
 - [[351-что-ты-можешь-делать]] (сходство 0.64)
 - [[12-workflow]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [07-chto-mozhesh](../../lorenzo-agent/07-chto-mozhesh.md)
+

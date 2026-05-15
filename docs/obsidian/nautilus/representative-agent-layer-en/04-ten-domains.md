@@ -380,3 +380,15 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 - [[173-4-ten-domains-of-application]] (сходство 0.93)
 - [[01-response-en]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-ten-domains](../../../nautilus/representative-agent-layer-en/04-ten-domains.md)
+

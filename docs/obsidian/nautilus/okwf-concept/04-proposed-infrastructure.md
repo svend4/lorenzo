@@ -261,3 +261,15 @@ Community governance operates:
 - [[158-4-proposed-infrastructure]] (сходство 0.93)
 - [[04-nautilus-portal-substrate]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-proposed-infrastructure](../../../nautilus/okwf-concept/04-proposed-infrastructure.md)
+

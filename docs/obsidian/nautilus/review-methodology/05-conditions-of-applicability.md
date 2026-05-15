@@ -85,3 +85,15 @@ PR
 - [[111-4-условия-применимости]] (сходство 0.70)
 - [[02-formal-workflow]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-conditions-of-applicability](../../../nautilus/review-methodology/05-conditions-of-applicability.md)
+

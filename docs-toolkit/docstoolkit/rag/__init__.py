@@ -11,7 +11,7 @@
     answer = ask("Что такое Yodoca?", top_k=5)
     # → AnswerResult с answer + citations + retrieved_passages
 """
-from docstoolkit.rag.types import Passage, AnswerResult, RAGQuery
+from docstoolkit.rag.types import Passage, AnswerResult, RAGQuery, TraceEvent
 from docstoolkit.rag.retriever import retrieve_passages, Retriever
 from docstoolkit.rag.assembler import assemble_prompt
 from docstoolkit.rag.answerer import (
@@ -37,9 +37,13 @@ from docstoolkit.rag.clarifier import (
 from docstoolkit.rag.hierarchical import (
     hierarchical_search, HierarchicalResult, SectionIndex, DocIndex,
 )
+from docstoolkit.rag.presets import (
+    ask_personalized, ask_high_quality, ask_with_reasoning,
+    ask_advanced, ask_research, ask_full_stack,
+)
 
 __all__ = [
-    "Passage", "AnswerResult", "RAGQuery",
+    "Passage", "AnswerResult", "RAGQuery", "TraceEvent",
     "Retriever", "retrieve_passages",
     "assemble_prompt",
     "Answerer", "EchoAnswerer", "AnthropicAnswerer", "get_answerer",
@@ -57,4 +61,7 @@ __all__ = [
     "ClarifyingRAG", "AmbiguityScore", "ClarificationRequest",
     # M3: Hierarchical retrieval
     "hierarchical_search", "HierarchicalResult", "SectionIndex", "DocIndex",
+    # Presets: named bundles of ask() kwargs
+    "ask_personalized", "ask_high_quality", "ask_with_reasoning",
+    "ask_advanced", "ask_research", "ask_full_stack",
 ]

@@ -49,3 +49,15 @@ date: 2026-05-13
 - [[08-что-это-продолжение-добавляет]] (сходство 0.65)
 - [[01-executive-summary]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [continuation-intro](../../../svyazi-2-0/overview/continuation-intro.md)
+

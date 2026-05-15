@@ -195,3 +195,15 @@ agents inherit this distinction.
 - [[256-3-what-makes-a-composite-skills-agent]] (сходство 0.86)
 - [[06-coordination-disagreement]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-what-makes-csa](../../../nautilus/composite-skills-agents/03-what-makes-csa.md)
+

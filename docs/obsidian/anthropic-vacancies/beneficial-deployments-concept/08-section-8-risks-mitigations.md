@@ -52,3 +52,15 @@ Sustainability risk: solo developer may burn out → mitigated by documenting ev
 - [[03-section-3-solution-architecture]] (сходство 0.31)
 - [[04-section-4-sgb-pilot]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-section-8-risks-mitigations](../../../anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
+

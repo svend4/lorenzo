@@ -1,5 +1,5 @@
 """docs-toolkit — универсальный набор инструментов для markdown-документации."""
-__version__ = "0.1.0"
+__version__ = "0.3.0"
 
 from docstoolkit.config import Config, load_config
 from docstoolkit.core import write_doc, clean_text

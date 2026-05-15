@@ -50,3 +50,16 @@ date: 2026-05-13
 - [[352-что-ты-не-можешь-делать-без-max-approval]] (сходство 0.54)
 - [[05-q5-authority-limits]] (сходство 0.37)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [08-bez-max-approval](../../lorenzo-agent/08-bez-max-approval.md)
+- [05-q5-authority-limits](../../lorenzo-agent/specification/05-q5-authority-limits.md)
+

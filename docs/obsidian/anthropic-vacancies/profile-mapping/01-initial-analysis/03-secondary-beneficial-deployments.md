@@ -44,3 +44,16 @@ Tertiary match: Research Engineer, Agents / Virtual Collaborator (Cowork)
 - [[08-practical-ranking]] (сходство 0.25)
 - [[04-tertiary-research-engineer-agents]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [03-secondary-beneficial-deployments](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
+- [07-unique-niche-eu-legal-infra](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+

@@ -181,3 +181,17 @@ Claude hat geantwortet: Продолжаю охоту за уникальным�
 - [[14-local-first-agent-development-environment]] (сходство 0.34)
 - [[02-ultimate-legal-ai]] (сходство 0.29)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [14-local-first-agent-development-environment](../../../technology-combinations/combinations/14-local-first-agent-development-environment.md)
+- [19-multi-agent-observability-platform](../../../technology-combinations/combinations/19-multi-agent-observability-platform.md)
+- [24-mega-integration-full-stack](../../../technology-combinations/combinations/24-mega-integration-full-stack.md)
+

@@ -1,5 +1,10 @@
 # Внутри оркестратора: 5-фазная структура воркеров, meta-agent-v3, Skills Library
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** AI Dev Team (aidevteam.ru), Хабр, декабрь 2025  
 **Хабр:** https://habr.com/ru/articles/975376/  
 **GitHub:** github.com/kissrosecicd-hub (AI Dev Team)  

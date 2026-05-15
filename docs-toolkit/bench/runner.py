@@ -184,6 +184,156 @@ def _suite_cluster() -> list[Bench]:
     ]
 
 
+def _suite_ask_features() -> list[Bench]:
+    """Benchmark every Sprint 54-92 ask() feature on a stub corpus.
+
+    Stubs out Retriever + Answerer so we measure only the feature overhead,
+    not retrieval/LLM latency.
+    """
+    from unittest.mock import patch
+
+    from docstoolkit.rag import ask
+    from docstoolkit.rag.types import Passage
+    from docstoolkit.rerank.reranker import TFIDFReranker
+
+    PASSAGES = [
+        Passage(text=f"sample text number {i} about RAG and agents.",
+                doc_id=f"docs/p{i}", title=f"P{i}", score=0.9 - i * 0.05)
+        for i in range(10)
+    ]
+
+    class _R:
+        def search(self, q, top_k):
+            return list(PASSAGES[:top_k])
+
+    class _A:
+        def answer(self, s, u, model=""):
+            return "stub answer for benchmark", 0, 0.0
+
+    def _run(**kwargs):
+        with patch("docstoolkit.rag.pipeline.Retriever", lambda **kw: _R()), \
+             patch("docstoolkit.rag.pipeline.get_answerer",
+                   lambda name, **kw: _A()):
+            return ask("benchmark query", top_k=5, **kwargs)
+
+    return [
+        Bench("ask_baseline",
+              lambda: _run(),
+              suite="ask_features", iterations=20),
+        Bench("ask_with_facets",
+              lambda: _run(with_facets=True),
+              suite="ask_features", iterations=20),
+        Bench("ask_with_provenance",
+              lambda: _run(with_provenance=True),
+              suite="ask_features", iterations=20),
+        Bench("ask_rerank_tfidf",
+              lambda: _run(reranker=TFIDFReranker()),
+              suite="ask_features", iterations=20),
+        Bench("ask_self_rag",
+              lambda: _run(self_rag=True, self_rag_max_iters=2),
+              suite="ask_features", iterations=15),
+        Bench("ask_with_debate",
+              lambda: _run(with_debate=True, debate_max_rounds=1),
+              suite="ask_features", iterations=10),
+        Bench("ask_with_got",
+              lambda: _run(with_got=True, got_max_hypotheses=3),
+              suite="ask_features", iterations=15),
+        Bench("ask_with_mapreduce",
+              lambda: _run(with_mapreduce=True, mapreduce_chunk_size=5),
+              suite="ask_features", iterations=15),
+        Bench("ask_with_negotiation",
+              lambda: _run(with_negotiation=True),
+              suite="ask_features", iterations=15),
+        Bench("ask_compose_5",
+              lambda: _run(with_facets=True, with_provenance=True,
+                           with_got=True, reranker=TFIDFReranker(),
+                           self_rag=True),
+              suite="ask_features", iterations=10),
+    ]
+
+
+def _suite_helpers() -> list[Bench]:
+    """Benchmark standalone helpers."""
+    from docstoolkit.rag.advanced import (
+        co_evolve_round, measure_voice, probe_counterfactual,
+    )
+
+    corpus = {
+        f"d{i}": f"document {i} about RAG memory python agents knowledge"
+        for i in range(20)
+    }
+
+    return [
+        Bench("measure_voice_500ch",
+              lambda: measure_voice("Python is great. " * 30),
+              suite="helpers", iterations=20),
+        Bench("probe_counterfactual_20docs",
+              lambda: probe_counterfactual("Python", corpus, "d0"),
+              suite="helpers", iterations=10),
+        Bench("co_evolve_3seeds",
+              lambda: co_evolve_round(["What is RAG?", "How does memory work?",
+                                        "When use agents?"], n_variants=2),
+              suite="helpers", iterations=5),
+    ]
+
+
+def _suite_kg() -> list[Bench]:
+    """Phase V.4 — Knowledge Graph store + query benchmarks.
+
+    Uses an in-memory TripleStore populated with 100 entities / 500
+    triples; isolates raw KG ops (add / lookup / query DSL) from any
+    upstream extraction or downstream retrieval.
+    """
+    from docstoolkit.knowledge_graph import (
+        Entity, EntityType, Triple, TripleStore, run_query,
+    )
+
+    def _build_store():
+        s = TripleStore(":memory:")
+        for i in range(100):
+            s.add_entity(Entity(entity_id=f"e{i}", name=f"Entity_{i}",
+                                entity_type=EntityType.CONCEPT))
+        # Each entity gets ~5 outgoing triples → 500 triples total.
+        for i in range(100):
+            for j in range(5):
+                target = (i + j + 1) % 100
+                s.add_triple(Triple(
+                    subject=f"e{i}",
+                    predicate="uses" if j % 2 == 0 else "mentions",
+                    object=f"e{target}",
+                    doc_id=f"d{i}",
+                ))
+        return s
+
+    store = _build_store()
+
+    def bench_lookup_by_subject():
+        return store.find_triples(subject="e42")
+
+    def bench_neighbors():
+        return store.neighbors("e42")
+
+    def bench_query_one_pattern():
+        return run_query(store, '"e10" uses ?topic')
+
+    def bench_query_two_patterns():
+        return run_query(store, '''
+            "e10"  uses     ?topic
+            ?topic mentions ?author
+        ''')
+
+    return [
+        Bench("kg_lookup_by_subject", bench_lookup_by_subject,
+              suite="kg", iterations=20),
+        Bench("kg_neighbors", bench_neighbors,
+              suite="kg", iterations=20),
+        Bench("kg_query_one_pattern", bench_query_one_pattern,
+              suite="kg", iterations=20),
+        Bench("kg_query_two_patterns", bench_query_two_patterns,
+              suite="kg", iterations=15),
+    ]
+
+
 SUITES: dict[str, Callable[[], list[Bench]]] = {
     "frontmatter": _suite_frontmatter,
     "embeddings": _suite_embeddings,
@@ -191,6 +341,9 @@ SUITES: dict[str, Callable[[], list[Bench]]] = {
     "graph": _suite_graph,
     "jobs": _suite_jobs,
     "cluster": _suite_cluster,
+    "ask_features": _suite_ask_features,
+    "helpers": _suite_helpers,
+    "kg": _suite_kg,
 }
 
 

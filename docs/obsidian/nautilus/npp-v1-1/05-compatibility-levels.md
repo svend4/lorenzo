@@ -97,3 +97,15 @@ Portal возвращает static entries.
 - [[80-5-compatibility-levels]] (сходство 0.72)
 - [[05-compatibility-levels]] (сходство 0.36)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-compatibility-levels](../../../nautilus/npp-v1-1/05-compatibility-levels.md)
+

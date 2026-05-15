@@ -53,3 +53,16 @@ https://habr.com/ru/articles/1017200/
 - [[02-memnet]] (сходство 0.17)
 - [[05-supplementary-infrastructure]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [8-self-aware-mcp-specs](../../../habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
+- [03-pda-llm-as-periphery](../../../habr-unique-projects/key-findings/03-pda-llm-as-periphery.md)
+

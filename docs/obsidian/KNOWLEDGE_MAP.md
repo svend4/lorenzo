@@ -116,3 +116,14 @@ python scripts/improve_run_all.py --group nlpplus
 
 _Карта сгенерирована автоматически: 2026-04-29_
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

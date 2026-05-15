@@ -82,3 +82,15 @@ docs) методология **не применяется**.
 - [[117-10-конкретный-план-применения-к-текущим-документам]] (сходство 0.61)
 - [[15-appendix-c-history]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-application-plan-current-docs](../../../nautilus/review-methodology/11-application-plan-current-docs.md)
+

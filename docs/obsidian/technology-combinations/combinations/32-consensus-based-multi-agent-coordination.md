@@ -88,3 +88,15 @@ ROI: Resilient multi-agent workflows, no single point of failure
 - [[35-mega-stack-4-0-with-event-sourcing-consensus]] (сходство 0.28)
 - [[34-distributed-event-store-with-paxos]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [32-consensus-based-multi-agent-coordination](../../../technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
+

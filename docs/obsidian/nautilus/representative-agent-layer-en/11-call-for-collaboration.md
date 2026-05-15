@@ -105,3 +105,15 @@ prefer honest critics to unreserved enthusiasts.
 - [[180-11-call-for-collaboration]] (сходство 0.83)
 - [[12-call-for-collaboration]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [11-call-for-collaboration](../../../nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+

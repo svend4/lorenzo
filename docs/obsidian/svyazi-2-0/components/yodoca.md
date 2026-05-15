@@ -56,3 +56,15 @@ date: 2026-05-13
 - [[ai-factory]] (сходство 0.37)
 - [[memnet]] (сходство 0.36)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [yodoca](../../../svyazi-2-0/components/yodoca.md)
+

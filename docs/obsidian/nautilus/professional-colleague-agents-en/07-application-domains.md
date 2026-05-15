@@ -225,3 +225,15 @@ application drafting.
 - [[218-7-application-domains]] (сходство 0.86)
 - [[08-seven-domains]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [07-application-domains](../../../nautilus/professional-colleague-agents-en/07-application-domains.md)
+

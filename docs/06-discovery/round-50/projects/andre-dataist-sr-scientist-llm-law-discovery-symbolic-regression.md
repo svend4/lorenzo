@@ -1,5 +1,10 @@
 # SR-Scientist: LLM-агент открывает законы природы через символическую регрессию и RL
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 **Автор:** andre_dataist  
 **Хабр:** https://habr.com/ru/articles/957620/  
 **GitHub:** github.com/GAIR-NLP/SR-Scientist  

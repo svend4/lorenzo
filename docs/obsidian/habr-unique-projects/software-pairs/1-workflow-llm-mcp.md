@@ -53,3 +53,16 @@ Event-driven legal watcher — Huginn собирает RSS/обновления 
 - [[4-skill-catalogs-subagents]] (сходство 0.19)
 - [[6-tmux-village-openclaw]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [1-workflow-llm-mcp](../../../habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
+- [5-browser-agents-headless](../../../habr-unique-projects/software-pairs/5-browser-agents-headless.md)
+

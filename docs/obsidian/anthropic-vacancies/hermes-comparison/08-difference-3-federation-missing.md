@@ -53,3 +53,15 @@ Nautilus Portal Protocol specifically addresses federated queries across multipl
 - [[02-similarity-2-persistent-memory]] (сходство 0.32)
 - [[03-similarity-3-mcp-support]] (сходство 0.32)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-difference-3-federation-missing](../../../anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md)
+

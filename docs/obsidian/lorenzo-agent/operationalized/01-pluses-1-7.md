@@ -127,3 +127,16 @@ Lorenzo's role: facilitate connection между Анастасией и дру�
 - [[05-anchor-node-habr-scout]] (сходство 0.19)
 - [[06-conclusion-deserves-attention]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-pluses-1-7](../../../lorenzo-agent/operationalized/01-pluses-1-7.md)
+- [06-conclusion-deserves-attention](../../../lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
+

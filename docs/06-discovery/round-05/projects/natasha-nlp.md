@@ -1,5 +1,10 @@
 # Natasha (Russian NLP)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** @natasha org (Alexander Kukushkin и команда)  
 **Хабр:** https://habr.com/ru/articles/516098/  
 **GitHub:** https://github.com/natasha/natasha  

@@ -1,5 +1,10 @@
 # Yandex: production pipeline оценки LLM — от бенчмарков до LLM-as-judge
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** ibarskaya (Яндекс)  
 **Хабр:** https://habr.com/ru/companies/yandex/articles/861084/  
 **GitHub:** нет (внутренняя система Яндекс)  

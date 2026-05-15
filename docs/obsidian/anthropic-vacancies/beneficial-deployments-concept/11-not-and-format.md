@@ -104,3 +104,16 @@ Each session maybe 2-3 hours. Total time investment: 20-30 hours of yours, simil
 - [[00-context]] (сходство 0.21)
 - [[05-section-5-role-of-anthropic]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-section-10-engagement-request](../../../anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
+- [11-not-and-format](../../../anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
+

@@ -114,3 +114,15 @@ NPP **не** пытается:
 - [[76-1-introduction]] (сходство 0.86)
 - [[01-introduction]] (сходство 0.54)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-introduction](../../../nautilus/npp-v1-1/01-introduction.md)
+

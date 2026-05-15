@@ -58,3 +58,19 @@ Certification Development Lead
 - [[04-tertiary-research-engineer-agents]] (сходство 0.25)
 - [[06-not-applicable-roles]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-profile-five-layers](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md)
+- [04-tertiary-research-engineer-agents](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
+- [05-quaternary-developer-education](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
+- [08-practical-ranking](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
+- _...ещё 1_
+

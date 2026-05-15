@@ -1,5 +1,10 @@
 # Как я поймал Трансформер на читерстве: гроккинг и Mechanistic Interpretability
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Автор:** fanat503 (Хабр, март 2025)  
 **Хабр:** https://habr.com/ru/articles/1008656/  
 **GitHub:** https://github.com/fanat503/Math-Grokking-Transformer  

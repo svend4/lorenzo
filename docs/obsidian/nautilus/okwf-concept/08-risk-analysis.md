@@ -195,3 +195,15 @@ within acceptable range for mission-driven foundation launch.
 - [[162-8-risk-analysis]] (сходство 0.89)
 - [[07-phased-rollout]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [08-risk-analysis](../../../nautilus/okwf-concept/08-risk-analysis.md)
+

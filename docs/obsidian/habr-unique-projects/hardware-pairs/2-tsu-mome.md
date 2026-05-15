@@ -55,3 +55,15 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 - [[5-tinyml-mcp-skills]] (сходство 0.17)
 - [[3-zinc-hybrid-arch]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [2-tsu-mome](../../../habr-unique-projects/hardware-pairs/2-tsu-mome.md)
+

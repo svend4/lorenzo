@@ -224,3 +224,15 @@ date: 2026-05-13
 - [[234-3-эмпирический-кейс-обучай]] (сходство 0.86)
 - [[02-chto-delaet-pka]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-keys-obuchay](../../../nautilus/professional-colleague-agents-ru/03-keys-obuchay.md)
+

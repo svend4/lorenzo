@@ -24,3 +24,15 @@ date: 2026-05-13
 **Похожие документы:**
 - [[00-question-agent-changes-reality]] (сходство 0.10)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../nautilus/community-discussions/README.md)
+

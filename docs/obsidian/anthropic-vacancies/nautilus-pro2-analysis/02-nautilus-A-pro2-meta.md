@@ -129,3 +129,15 @@ Cascade означает: первая модель делает простую 
 - [[00-question-two-nautiluses]] (сходство 0.11)
 - [[01-shell-metaphor-two-projections]] (сходство 0.11)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-nautilus-A-pro2-meta](../../../anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md)
+

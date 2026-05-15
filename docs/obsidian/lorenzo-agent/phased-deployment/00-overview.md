@@ -58,3 +58,15 @@ Claude hat geantwortet: Отлично — это очень важный отв
 - [[07-progression-logic]] (сходство 0.26)
 - [[01-level-0-manual]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-overview](../../../lorenzo-agent/phased-deployment/00-overview.md)
+

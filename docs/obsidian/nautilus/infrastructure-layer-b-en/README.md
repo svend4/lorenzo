@@ -35,3 +35,15 @@ date: 2026-05-13
 - [[283-what-this-document-doesn-t-solve]] (сходство 0.14)
 - [[282-what-industry-will-likely-build]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../nautilus/infrastructure-layer-b-en/README.md)
+

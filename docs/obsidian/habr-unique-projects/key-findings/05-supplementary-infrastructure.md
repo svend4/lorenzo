@@ -59,3 +59,17 @@ date: 2026-05-13
 - [[04-dochkina-sequential]] (сходство 0.23)
 - [[02-memnet]] (сходство 0.17)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-dochkina-sequential](../../../habr-unique-projects/key-findings/04-dochkina-sequential.md)
+- [05-supplementary-infrastructure](../../../habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
+- [06-svyazi-2-0-block-map](../../../habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
+

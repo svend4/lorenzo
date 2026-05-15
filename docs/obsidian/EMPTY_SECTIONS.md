@@ -224,9 +224,9 @@ _Обновлено: 2026-04-29_
 
 - ## Детали по файлам (0 сл., строка 23)
 - ### `knowledgespace` → должно быть `knowledge-space` (8 сл., строка 26)
-- ### `knowledge space` → должно быть `knowledge-space` (14 сл., строка 33)
-- ### `knowledge_space` → должно быть `knowledge-space` (6 сл., строка 42)
-- ### `card-index` → должно быть `CardIndex` (6 сл., строка 48)
+- ### `knowledge-space` → должно быть `knowledge-space` (14 сл., строка 33)
+- ### `knowledge-space` → должно быть `knowledge-space` (6 сл., строка 42)
+- ### `CardIndex` → должно быть `CardIndex` (6 сл., строка 48)
 - _...ещё 9_
 
 ### `342-что-такое-вариант-c-concept-document-для-anthropic.md` (13 из 125)
@@ -2550,4 +2550,15 @@ _Обновлено: 2026-04-29_
 ### `agent-spec.md` (1 из 11)
 
 - ## Назначение (6 сл., строка 25)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

@@ -157,3 +157,17 @@ Charted specialized domains for discovering innovative projects
 - [[20-24-final]] (сходство 0.39)
 - [[14-local-first-agent-development-environment]] (сходство 0.30)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [19-multi-agent-observability-platform](../../../technology-combinations/combinations/19-multi-agent-observability-platform.md)
+- [24-mega-integration-full-stack](../../../technology-combinations/combinations/24-mega-integration-full-stack.md)
+- [20-24-final](../../../technology-combinations/synthesis-tables/20-24-final.md)
+

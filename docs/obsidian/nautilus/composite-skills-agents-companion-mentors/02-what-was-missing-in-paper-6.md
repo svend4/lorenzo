@@ -156,3 +156,15 @@ date: 2026-05-13
 - [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а]] (сходство 0.35)
 - [[03-the-spectrum]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-what-was-missing-in-paper-6](../../../nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
+

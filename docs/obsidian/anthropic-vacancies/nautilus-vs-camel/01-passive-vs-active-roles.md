@@ -50,3 +50,15 @@ CAMEL — это active execution framework. Когда вы создаёте Ch
 - [[07-difference-2-domain-specialization]] (сходство 0.20)
 - [[00-question-camel-vs-nautilus]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-passive-vs-active-roles](../../../anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
+

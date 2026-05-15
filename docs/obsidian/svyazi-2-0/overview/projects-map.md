@@ -68,3 +68,15 @@ date: 2026-05-13
 - [[03-карта-найденных-проектов-и-паттернов]] (сходство 0.90)
 - [[03-component-catalog]] (сходство 0.89)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [projects-map](../../../svyazi-2-0/overview/projects-map.md)
+

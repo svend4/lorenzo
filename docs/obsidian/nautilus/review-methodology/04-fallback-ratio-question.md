@@ -91,3 +91,15 @@ and B (branch Y) on YYYY-MM-DD»
 - [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]] (сходство 0.74)
 - [[14-main-technical-risks]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-fallback-ratio-question](../../../nautilus/review-methodology/04-fallback-ratio-question.md)
+

@@ -161,3 +161,15 @@ individual developer or small team.
 - [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to-]] (сходство 0.85)
 - [[06-refined-ingit-scope]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-cowork-provides](../../../nautilus/ingit-cowork-en/02-cowork-provides.md)
+

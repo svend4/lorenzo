@@ -1,5 +1,10 @@
 # Демистифицируем парсинг PDF: конвейерная обработка с LayoutLMv3, Table Transformer, YOLOX
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** MaxRokatansky (OTUS)  
 **Хабр:** https://habr.com/ru/companies/otus/articles/835930/  
 **GitHub:** https://github.com/VikParuchuri/marker (Marker), https://github.com/allenai/papermage (PaperMage), https://github.com/Unstructured-IO/unstructured (Unstructured)  

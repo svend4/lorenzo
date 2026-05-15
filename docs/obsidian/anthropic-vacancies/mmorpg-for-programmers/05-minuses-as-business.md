@@ -85,3 +85,15 @@ High failure rate — Metaverse-hype 2021-2022 научил инвесторов
 - [[04-what-to-do]] (сходство 0.13)
 - [[03-why-natural-for-programmers]] (сходство 0.11)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-minuses-as-business](../../../anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
+

@@ -70,3 +70,15 @@ Cowork был самым серьёзным конкурентом для наш
 - [[09-difference-4-institutional-vision]] (сходство 0.24)
 - [[07-difference-2-domain-specialization]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-minuses-of-hermes](../../../anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md)
+

@@ -51,3 +51,15 @@ date: 2026-05-13
 - [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]] (сходство 0.43)
 - [[13-contacts]] (сходство 0.41)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [narrow-questions](../../../svyazi-2-0/outreach/narrow-questions.md)
+

@@ -1,5 +1,10 @@
 # Обучение эмбеддингов GitHub репозиториев: персонализация без backend
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Puzer (Дмитрий)  
 **Хабр:** https://habr.com/ru/articles/983080/  
 **GitHub:** https://github.com/Puzer/github-repo-embeddings  

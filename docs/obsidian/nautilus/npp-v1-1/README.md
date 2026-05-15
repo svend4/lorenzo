@@ -44,3 +44,16 @@ date: 2026-05-13
 - [[103-appendix-b-change-log]] (сходство 0.15)
 - [[21-adr-003-five-onboarding-paths]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [README](../../../nautilus/npp-v1-0/README.md)
+- [README](../../../nautilus/npp-v1-1/README.md)
+

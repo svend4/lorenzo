@@ -1,5 +1,10 @@
 # Мультиязычный MT-Bench: оценка LLM на русском языке
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** ruslandevlabs  
 **Хабр:** https://habr.com/ru/articles/834158/  
 **GitHub:** https://github.com/Peter-Devine/multilingual_mt_bench  

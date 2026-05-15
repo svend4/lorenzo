@@ -172,3 +172,15 @@ exist.
 - [[143-6-four-deployment-domains]] (сходство 0.84)
 - [[04-proposed-infrastructure]] (сходство 0.21)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [06-four-deployment-domains](../../../nautilus/double-triangle-architecture/06-four-deployment-domains.md)
+

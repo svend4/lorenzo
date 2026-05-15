@@ -68,3 +68,16 @@ BIM/Engineering Coach — тот же паттерн для инженерных
 - [[1-agentic-knowledge-os]] (сходство 0.17)
 - [[6-continuous-eval-loop]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [7-domain-agent-app-factory](../../../ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [9-ambient-team-agent](../../../ai-collaborations/ensembles/9-ambient-team-agent.md)
+

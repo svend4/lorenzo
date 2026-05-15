@@ -104,3 +104,15 @@ their daily work.
 - [[210-abstract]] (сходство 0.68)
 - [[12-closing]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-abstract](../../../nautilus/professional-colleague-agents-en/00-abstract.md)
+

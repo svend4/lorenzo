@@ -69,3 +69,18 @@ agents/04_strategic_advisor.md — для общей стратегии
 - [[06-platform-for-professional-communities]] (сходство 0.32)
 - [[09-federated-platform]] (сходство 0.31)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-sgb-advocate-colleague-example](../../../anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
+- [05-hw-nl2workflow](../../../habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
+- [07-specialized-knowledge-workspace](../../../habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+- [08-personal-multi-agent-hub](../../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+

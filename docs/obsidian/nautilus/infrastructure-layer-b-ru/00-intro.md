@@ -140,3 +140,15 @@ markdown
 - [[288-appendix-position-in-series-visualization]] (сходство 0.38)
 - [[289-инфраструктура-для-ai-совместной-интеллектуальной-]] (сходство 0.29)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [00-intro](../../../nautilus/infrastructure-layer-b-ru/00-intro.md)
+

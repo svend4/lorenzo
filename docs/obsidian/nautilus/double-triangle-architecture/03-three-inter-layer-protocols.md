@@ -183,3 +183,15 @@ in distributed systems, adapted for human-AI hybrid execution.
 - [[140-3-three-inter-layer-protocols]] (сходство 0.88)
 - [[02-double-triangle-architecture]] (сходство 0.22)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-three-inter-layer-protocols](../../../nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md)
+

@@ -170,3 +170,15 @@ Cowork не имеет.
 - [[327-1-открытие-cowork-и-почему-это-меняет-всё]] (сходство 0.85)
 - [[02-chto-cowork-obespechivaet]] (сходство 0.15)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-otkrytie-cowork](../../../nautilus/ingit-cowork-ru/01-otkrytie-cowork.md)
+

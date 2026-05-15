@@ -1999,3 +1999,17 @@ Thank you for the collaboration.
 - [[186-appendix-c-sample-use-cases-in-detail]] (сходство 0.37)
 - [[186-appendix-c-sample-use-cases-in-detail]] (сходство 0.37)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-response-en](../../../../nautilus/community-discussions/agent-changes-reality/01-response-en.md)
+- [01-response](../../../../nautilus/community-discussions/voiceless-contributors/01-response.md)
+- [12-closing](../../../../nautilus/representative-agent-layer-en/12-closing.md)
+

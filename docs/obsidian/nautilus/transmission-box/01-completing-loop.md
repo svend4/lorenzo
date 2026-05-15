@@ -519,3 +519,16 @@ Personal manifesto — dignified contribution infrastructure for qualified indiv
 - [[150-appendix-c-version-history]] (сходство 0.70)
 - [[01-three-related-themes]] (сходство 0.19)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-three-related-themes](../../../nautilus/supply-demand/01-three-related-themes.md)
+- [01-completing-loop](../../../nautilus/transmission-box/01-completing-loop.md)
+

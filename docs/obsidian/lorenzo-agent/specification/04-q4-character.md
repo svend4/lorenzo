@@ -73,3 +73,15 @@ Offer easy decline path
 - [[357-твоя-коммуникация-в-outreach]] (сходство 0.19)
 - [[357-твоя-коммуникация-в-outreach]] (сходство 0.18)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-q4-character](../../../lorenzo-agent/specification/04-q4-character.md)
+

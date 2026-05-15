@@ -1,5 +1,10 @@
 # Round 38 — Session Log
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Дата:** май 2026  
 **Темы:** LLM медицина v2, multiagent coordination patterns, LLM observability/tracing, RAG v3 production  
 **Статус:** ✅ Завершён

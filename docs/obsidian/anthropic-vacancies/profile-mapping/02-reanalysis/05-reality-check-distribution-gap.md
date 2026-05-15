@@ -51,3 +51,16 @@ Du hast gesagt: https://github.
 - [[03-revised-anthropic-mapping]] (сходство 0.21)
 - [[01-fde-downgraded]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [03-revised-anthropic-mapping](../../../../anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+- [05-reality-check-distribution-gap](../../../../anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
+

@@ -72,3 +72,16 @@ ROI: Detect agent bottlenecks 60 sec vs manual review
 - [[15-19-extended]] (сходство 0.24)
 - [[09-agent-orchestration-stack]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [12-multi-agent-observability-stack](../../../technology-combinations/combinations/12-multi-agent-observability-stack.md)
+- [15-19-extended](../../../technology-combinations/synthesis-tables/15-19-extended.md)
+

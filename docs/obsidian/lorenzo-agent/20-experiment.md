@@ -56,3 +56,15 @@ End of system prompt.
 - [[18-escalate-to-max]] (сходство 0.27)
 - [[09-voobshche-nelzya]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [20-experiment](../../lorenzo-agent/20-experiment.md)
+

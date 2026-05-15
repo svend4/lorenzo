@@ -184,3 +184,15 @@ across both journals and individual researchers.
 - [[257-4-the-sub-agent-registry]] (сходство 0.86)
 - [[09-okwf-integration]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-sub-agent-registry](../../../nautilus/composite-skills-agents/04-sub-agent-registry.md)
+

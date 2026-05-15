@@ -60,3 +60,18 @@ Orchestrator pattern в .ai/agents/01_orchestrator.md
 - [[02-vshe-scientific-networking]] (сходство 0.27)
 - [[09-federated-platform]] (сходство 0.25)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-svyazi-andrey-chuyan](../../../habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
+- [02-vshe-scientific-networking](../../../habr-unique-projects/extra-examples/02-vshe-scientific-networking.md)
+- [03-brainbox-multi-ai-hub](../../../habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
+- [04-claude-subagents-patterns](../../../habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
+

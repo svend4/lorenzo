@@ -108,3 +108,15 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 - [[08-3-registry-nautilus-json]] (сходство 0.74)
 - [[03-registry]] (сходство 0.54)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [03-registry](../../../nautilus/npp-v1-0/03-registry.md)
+

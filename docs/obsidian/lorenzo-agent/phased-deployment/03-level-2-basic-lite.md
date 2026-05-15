@@ -87,3 +87,17 @@ Outreach всё ещё manual (Макс как Lorenzo)
 - [[04-level-3-medium-active]] (сходство 0.30)
 - [[06-level-5-full-network]] (сходство 0.26)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-level-1-minimal-zero](../../../lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
+- [03-level-2-basic-lite](../../../lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+- [04-level-3-medium-active](../../../lorenzo-agent/phased-deployment/04-level-3-medium-active.md)
+

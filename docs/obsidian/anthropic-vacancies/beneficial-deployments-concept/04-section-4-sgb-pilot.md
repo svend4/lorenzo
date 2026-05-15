@@ -62,3 +62,15 @@ Phase 3 (year 2+): Foundation/economy formalization
 - [[08-section-8-risks-mitigations]] (сходство 0.30)
 - [[10-section-10-engagement-request]] (сходство 0.27)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-section-4-sgb-pilot](../../../anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+

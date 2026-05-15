@@ -1,5 +1,10 @@
 # RAG Evaluation CI/CD — модульное тестирование RAG-пайплайнов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** независимый исследователь (Хабр)  
 **Хабр:** https://habr.com/ru/articles/865420/  
 **GitHub:** RAGAS: github.com/explodinggradients/ragas (Apache 2.0); DeepEval: github.com/confident-ai/deepeval (Apache 2.0)  

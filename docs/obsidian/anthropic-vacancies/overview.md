@@ -66,3 +66,15 @@ date: 2026-05-13
 - [[12-technical-program-management]] (сходство 0.33)
 - [[13-communications]] (сходство 0.32)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [overview](../../anthropic-vacancies/overview.md)
+

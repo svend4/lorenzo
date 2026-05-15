@@ -68,3 +68,15 @@ review.
 - [[146-acknowledgments]] (сходство 0.60)
 - [[08-difference-3-federation-missing]] (сходство 0.23)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [09-acknowledgments](../../../nautilus/double-triangle-architecture/09-acknowledgments.md)
+

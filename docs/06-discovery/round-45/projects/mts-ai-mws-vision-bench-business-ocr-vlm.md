@@ -1,5 +1,10 @@
 # MWS Vision Bench: первый русскоязычный бенчмарк для бизнес-OCR с VLM
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** eCaesar (Георгий Гайков, MTS AI)  
 **Хабр:** https://habr.com/ru/companies/mts_ai/articles/953292/  
 **GitHub:** есть (инструменты оценки + HuggingFace датасет)  

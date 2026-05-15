@@ -1,5 +1,10 @@
 # RAG Embedder Fine-Tuning: LoRA + Triplet Loss + Hard Negative Mining для юридических документов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** huraligne (Саприн Семён, ПГК Диджитал)  
 **Хабр:** https://habr.com/ru/companies/pgk/articles/913912/  
 **GitHub:** нет (production кейс)  

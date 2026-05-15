@@ -76,3 +76,16 @@ Skills сохраняются в корпоративный граф знани�
 - [[02-knowledge-graphs]] (сходство 0.29)
 - [[02-multiagentnyy-khaos-reshenie-auto-ai-router]] (сходство 0.20)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [7-autoresearch-distributed](../../../habr-unique-projects/deep-pairs/7-autoresearch-distributed.md)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](../../../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+

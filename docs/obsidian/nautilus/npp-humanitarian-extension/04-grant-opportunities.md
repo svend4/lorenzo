@@ -81,3 +81,16 @@ Aktion Mensch — поддерживает disability-related tech specifically.
 - [[03-what-this-gives-technically]] (сходство 0.14)
 - [[05-which-combination-more-valuable]] (сходство 0.13)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-grant-opportunities](../../../nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
+- [04-what-i-can-do-now](../../../nautilus/privacy-federation/04-what-i-can-do-now.md)
+

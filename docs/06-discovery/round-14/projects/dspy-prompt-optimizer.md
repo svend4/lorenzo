@@ -1,5 +1,10 @@
 # DSPy — программирование языковых моделей вместо промптинга
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Автор:** Stanford NLP Group (Omar Khattab и команда)  
 **Хабр:** https://habr.com/ru/articles/882864/  
 **GitHub:** https://github.com/stanfordnlp/dspy (MIT, 22k+ stars)  

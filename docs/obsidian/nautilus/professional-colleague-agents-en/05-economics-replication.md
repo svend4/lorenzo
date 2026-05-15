@@ -176,3 +176,15 @@ economically viable for moderately sized professions.
 - [[216-5-the-economics-of-profession-wide-replication]] (сходство 0.83)
 - [[07-economics-combinatorial]] (сходство 0.24)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [05-economics-replication](../../../nautilus/professional-colleague-agents-en/05-economics-replication.md)
+

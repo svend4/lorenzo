@@ -52,3 +52,16 @@ Natural fit для inclusive work. Люди с health limitations, neurodiversit
 - [[02-four-structural-blockers]] (сходство 0.16)
 - [[01-existing-landscape]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-four-structural-blockers](../../../anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)
+- [08-pluses-of-model](../../../anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
+

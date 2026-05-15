@@ -1,5 +1,10 @@
 # Round 34 — Session Log
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Дата:** май 2026  
 **Тема:** LLM DevSecOps, Multimodal doc processing v2, LLM evaluation/бенчмаркинг, Edge AI  
 **Проектов найдено:** 4  

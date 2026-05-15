@@ -207,3 +207,15 @@ InGit папкой) немедленно
 - [[336-10-стратегическое-позиционирование]] (сходство 0.83)
 - [[08-implikatsii-nautilus-okwf]] (сходство 0.14)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [10-strategicheskoe-pozitsionirovanie](../../../nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md)
+

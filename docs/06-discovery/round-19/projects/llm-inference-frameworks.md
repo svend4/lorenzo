@@ -1,5 +1,10 @@
 # LLM-инференс фреймворки — сравнение Ollama, vLLM, Triton, llama.cpp, SGLang
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 **Автор:** независимый исследователь (Хабр, 2025)  
 **Хабр:** https://habr.com/ru/articles/948934/  
 **GitHub:** несколько: llama.cpp (MIT), vLLM (Apache 2.0), Ollama (MIT), SGLang (Apache 2.0)  

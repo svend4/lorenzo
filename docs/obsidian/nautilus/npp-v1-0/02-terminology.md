@@ -75,3 +75,15 @@ human-readable описание: что хранит, какая философ�
 - [[07-2-terminology]] (сходство 0.78)
 - [[02-terminology]] (сходство 0.62)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [02-terminology](../../../nautilus/npp-v1-0/02-terminology.md)
+

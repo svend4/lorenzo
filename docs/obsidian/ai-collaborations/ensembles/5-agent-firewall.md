@@ -78,3 +78,16 @@ MCP Firewall — единая прослойка между агентом и в
 - [[8-budget-aware-intelligence-stack]] (сходство 0.17)
 - [[default-policy]] (сходство 0.16)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [04-memory-firewall-vs-prompt-worms](../../../ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
+- [5-agent-firewall](../../../ai-collaborations/ensembles/5-agent-firewall.md)
+

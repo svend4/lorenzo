@@ -148,3 +148,17 @@ Alternative: Комбинация 32 (Raft multi-agent) — если нужна 
 - [[04-event-sourcing-consensus]] (сходство 0.41)
 - [[33-event-sourcing-cqrs-clickhouse-analytics]] (сходство 0.36)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../../../technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [04-event-sourcing-consensus](../../../technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
+- [31-35-final](../../../technology-combinations/synthesis-tables/31-35-final.md)
+

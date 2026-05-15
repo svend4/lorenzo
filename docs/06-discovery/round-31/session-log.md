@@ -1,5 +1,10 @@
 # Round 31 — Session Log
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Дата:** май 2026  
 **Тема:** LLM медицина, Conversational AI production, AI DevOps, Explainable AI  
 **Статус:** ✅ Завершён  
