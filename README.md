@@ -5,8 +5,8 @@
 
 Монорепозиторий с двумя крупными активами:
 
-1. **`docs/`** — исследовательская база по проекту **Svyazi 2.0** и смежным темам (1700+ файлов, ~1.7 млн слов, 22 проанализированных Habr-проекта, 14 контактов авторов).
-2. **`docs-toolkit/`** — Python-пакет общего назначения: RAG / agent / workflow / eval / federation / observability framework для markdown-монорепозиториев. **53 спринта, 30+ модулей, 546 тестов.**
+1. **`docs/`** — исследовательская база по проекту **Svyazi 2.0** и смежным темам (**2815 markdown-файлов**, ~2.9 млн слов, 22 проанализированных Habr-проекта, **32 контакт-файла** авторов).
+2. **`docs-toolkit/`** — Python-пакет общего назначения: RAG / agent / workflow / eval / federation / observability framework для markdown-монорепозиториев. **220+ спринтов, 489 модулей, 546 тестовых файлов, версия 0.3.0** (Phases I–IX выполнены — см. [`docs-toolkit/DEVELOPMENT_STATUS.md`](docs-toolkit/DEVELOPMENT_STATUS.md)).
 
 ---
 
@@ -45,35 +45,44 @@ lorenzo/
 │   └── *.md                               # 100+ авто-генерируемых аналитических отчётов
 │
 ├── docs-toolkit/                          # ⭐ Python-пакет (RAG/agent/workflow framework)
-│   ├── docstoolkit/                       # 30+ модулей (см. ниже)
-│   ├── tests/                             # 546 тестов
+│   ├── docstoolkit/                       # 489 модулей (см. ниже)
+│   ├── tests/                             # 546 тестовых файлов
 │   ├── README.md                          # обзор пакета + roadmap
-│   └── pyproject.toml                     # PEP 621
+│   ├── DEVELOPMENT_STATUS.md              # детальный статус фаз I–IX
+│   └── pyproject.toml                     # PEP 621, версия 0.3.0
 │
-├── scripts/                               # 96 batch-скриптов улучшения корпуса
-│   ├── improve_*.py                       # обработка документов (12 групп)
+├── scripts/                               # 187 batch-скриптов улучшения корпуса
+│   ├── improve_*.py                       # обработка документов (24 группы)
 │   ├── mcp_server.py                      # MCP-сервер для Claude Desktop
+│   ├── gateway.py                         # OpenAI-compatible HTTP gateway (FastAPI)
 │   └── ...
+│
+├── tests/                                 # 199 unit-тестов корневых скриптов
 │
 └── .claude/skills/                        # 28 Claude-скиллов
 ```
 
 ---
 
-## Что есть прямо сейчас (2026-04-29)
+## Что есть прямо сейчас (2026-05-15)
 
 | Актив | Статус | Метрика |
 |-------|--------|---------|
-| Документная база | ✅ собрана | 1719 файлов, 1.68М слов |
-| Анализ 22 Habr-проектов | ✅ завершён | 14 контактов готовы к отправке |
-| docs-toolkit (Python framework) | ✅ 53 спринта | 546 тестов, MCP 30/30, шаблоны 23/23 |
-| Скрипты обработки | ✅ зрелые | 96 скриптов в 12 группах |
+| Документная база | ✅ собрана | **2815 markdown-файлов**, ~2.9 млн слов, **HEALTH 99/100**, **METRICS 97.9/100** |
+| Анализ 22 Habr-проектов | ✅ завершён | **32 контакт-файла** в `docs/contacts/`, готовы к отправке |
+| docs-toolkit (Python framework) | ✅ **220+ спринтов**, **v0.3.0** | **489 модулей**, **546 тестовых файлов**, roadmap 35/35 (Path A/B/C), Phases I–IX закрыты (18 выполнено, 3 отложено, 3 пропущено) |
+| `ask()` composition matrix | ✅ | **17 ортогональных kwargs**, **6 named presets**, **18 standalone-хелперов** |
+| Скрипты обработки | ✅ зрелые | **187 скриптов** в **24 группах** (`improve_run_all.py --group …`) |
+| Тесты корневых скриптов | ✅ | **199 файлов** в `tests/` |
+| Claude-скиллы | ✅ | **28 skills** в `.claude/skills/` |
 | ROADMAP плана развития | ✅ описан | 35 идей × 4 уровня сложности |
+| CI/CD | ✅ | `test.yml` (5 джоб: syntax/unit/MCP/templates/catalog), `docs.yml` (auto-PR с метриками), benchmark regression check |
+| Прототип Knowledge OS | ✅ итерации 0–15 | RFC-система, lifecycle promote (1005 approved), 23 proposals, MCP 15 инструментов, OpenAI-compatible gateway |
 | Контакты авторам | ⏳ не отправлены | требуется ручная отправка |
 | LLM-обогащение (опц.) | ⏳ не запущено | `pip install anthropic` + `improve_llm_enrich.py` |
-| Прототип Knowledge OS | ⏳ архитектура | Yodoca + AgentFS + CardIndex как старт |
 
-**Прогресс MVP:** 45% (5/11 milestones). Подробнее: [`docs/PROGRESS.md`](docs/PROGRESS.md).
+**Прогресс MVP:** **64% (7/11 milestones)** — Подробнее: [`docs/PROGRESS.md`](docs/PROGRESS.md).
+**Go/No-Go:** **96 🟢** (см. [`docs/SCORING.md`](docs/SCORING.md))
 
 ---
 
@@ -109,7 +118,7 @@ lorenzo/
 
 ## docs-toolkit: возможности на сегодня
 
-30+ модулей, реализованы за 53 спринта, покрыты 546 тестами:
+**489 модулей**, реализованы за **220+ спринтов**, покрыты **546 тестовыми файлами** (десятки тысяч тест-кейсов). Полная карта: [`docs-toolkit/README.md`](docs-toolkit/README.md) + [`docs-toolkit/DEVELOPMENT_STATUS.md`](docs-toolkit/DEVELOPMENT_STATUS.md).
 
 | Слой | Модули | Возможности |
 |------|--------|-------------|
@@ -123,31 +132,46 @@ lorenzo/
 | **Observability** | `telemetry/`, `serve.py` | OTel traces, Prometheus metrics, SSE streaming |
 | **Integration** | `federation/`, `events/`, `webhooks/` | NPP federation, pub-sub bus, HTTP delivery с HMAC+DLQ |
 | **Time** | `timetravel/` | Git-based historical queries |
+| **Reasoning advanced** | `self_rag/`, `debate/`, `got/`, `negotiation/`, `metabolism/`, `personality/`, `adversarial/`, `epistemic/`, `diffusion/`, `bandit/` | Self-RAG reflect loop, multi-agent debate, graph-of-thoughts, auction-broker, adversarial co-evolution |
+| **Knowledge Graph** | `knowledge_graph/` | TripleStore (SQLite WAL), mini Query DSL `"py" uses ?x`, hash-join over patterns |
+| **Privacy** | `federated_eval/`, `private_search/` | Gaussian DP + PrivacyAccountant, Bonawitz-style secure aggregation |
+| **Composition** | `rag/presets`, `rag/advanced`, `rag/saved`, `rag/bulk_diff`, `rag/bandit_ask` | 17 ortho `ask()` kwargs + 6 named presets + 18 standalone-хелперов |
+| **Deployment** | `Dockerfile`, `Dockerfile.bge`, `deploy/` | Docker images + docker-compose profiles + Helm chart |
 
-Подробный список модулей: [docs/ROADMAP/00-CURRENT-STATE.md](docs/ROADMAP/00-CURRENT-STATE.md#3-карта-модулей-docstoolkit).
+Подробный список модулей: [docs/ROADMAP/00-CURRENT-STATE.md](docs/ROADMAP/00-CURRENT-STATE.md#3-карта-модулей-docstoolkit) + [docs-toolkit/PROFILES.md](docs-toolkit/PROFILES.md) (composition matrix) + [docs-toolkit/ARCHITECTURE.md](docs-toolkit/ARCHITECTURE.md) (5 ADRs).
 
 ---
 
-## scripts/: 96 batch-скриптов в 12 группах
+## scripts/: 187 batch-скриптов в 24 группах
 
 Запуск всех — `python scripts/improve_run_all.py [--smart|--fast|--group X|--changed|--parallel N]`
 
-| Группа | Скриптов | Что делает |
-|--------|---------:|------------|
-| `quality` | ~6 | Орфография, читаемость, content gaps, link preview |
-| `export` | ~5 | Obsidian, EPUB, RSS/Atom, Confluence, REPORT.md |
-| `cicd` | ~4 | GitHub Issues, workflows, pre-commit, dependabot |
-| `analytics` | ~6 | Citations, reading time, version diff, topic model |
-| `textwork` | ~9 | Reclassify, merge by topic, outline, compare |
-| `deeptext` | ~12 | TOC, abstracts, NER, timeline, BM25, chunks |
-| `nlpplus` | ~10 | TextRank, heading audit, language split, faceted search |
-| `content` | ~3 | Auto-linker, gap-filler, empty sections fill |
-| `meta` | ~9 | Tech radar, onboarding, risk register, KPI |
-| `llm` | ~4 | (платные) Enrich, summary, Q&A, contact |
-| `reports` | ~10 | Health, metrics, scoring, badges |
-| `infra` | ~18 | Run all, autofill, watch, benchmark, MCP |
+| Группа | Что делает |
+|--------|------------|
+| `quality` / `quality-extra` | Орфография, читаемость, content gaps, link preview, дубли, broken-links, retrieval Hit Rate@K |
+| `export` / `export-extra` | Obsidian, EPUB, RSS/Atom, Confluence, REPORT.md, CSV/HTML/JSON, extract code/tables |
+| `cicd` | GitHub Issues, workflows, pre-commit, dependabot |
+| `analytics` | Citations, reading time, version diff, topic model, cross-section, digest-auto |
+| `textwork` | Reclassify, merge by topic, outline, compare, subtopic-fill, crosslink, source-map |
+| `deeptext` | TOC, abstracts, NER, timeline, BM25, semantic chunks, segmenter |
+| `nlpplus` | TextRank, heading audit, language split, faceted search, similar passages, knowledge map |
+| `content` / `content-gen` | Auto-linker, gap-filler, summaries, READMEs, TOC, Q&A, glossary, tags, badges, sitemap, mindmap |
+| `meta` | Tech radar, onboarding, risk register, KPI snapshot, component matrix, dependency map |
+| `analysis` | Decisions, concepts, KPI, action items, timeline, narrative, clusters, density, heatmap, sentiment |
+| `links` | Backlinks, crossrefs, similar, graph, network, reading order |
+| `llm` / `llm-extra` | (платные) Enrich, summary, Q&A, contact, semantic gap detection |
+| `reports` | Health, metrics, scoring, entities, stats, orphans, missing, staleness, coverage, priorities, registry |
+| `contacts-extra` | CONTACTS.md, contact priority, migrate to frontmatter |
+| `templates` | Generate templates, init from template, migrate frontmatter |
+| `index-meta` | Search index, scripts catalog, self-audit, SQLite audit log |
+| `mcp-tools` | MCP dashboard, MCP smoke-tests |
+| `workflow` | Pipeline runner v1/v2, task codegen, watcher, progress sync, changelog, digest |
+| `lifecycle` | Card promote, proposals gen, RFC update, auto-summarize, progressive summarize |
+| `semantic` | TF-IDF + sentence-transformers семантический индекс |
+| `live` | GitHub author activity tracker (не в авто-запуске) |
+| `infra` | Run all, autofill, watch, benchmark |
 
-Полный список с командами: [`CLAUDE.md`](CLAUDE.md).
+Полный список команд: [`CLAUDE.md`](CLAUDE.md) (читается Claude Code каждой сессией).
 
 ---
 
@@ -157,8 +181,8 @@ lorenzo/
 2. **Разделено, а не сжато.** Содержимое больших отчётов перенесено в маленькие тематические файлы.
 3. **Папки по темам, подпапки по подтемам.** Каждый раздел имеет свой `README.md`.
 4. **Local-first, stdlib-first.** docs-toolkit работает offline, тяжёлые зависимости опциональны.
-5. **Авто-обновление.** Большая часть документов в `docs/` авто-генерируется скриптами `improve_*.py`.
-6. **Test-on-merge.** 546 тестов + integrity checks (mcp / templates) гарантируют корректность.
+5. **Авто-обновление.** Большая часть документов в `docs/` авто-генерируется скриптами `improve_*.py`; CI `docs.yml` открывает PR с обновлёнными метриками после push в main.
+6. **Test-on-merge.** 546 тестовых файлов в `docs-toolkit/tests/` + 199 в `tests/` + integrity checks (MCP smoke / templates / catalog-fresh) — все 5 джоб в `.github/workflows/test.yml`.
 
 ---
 
