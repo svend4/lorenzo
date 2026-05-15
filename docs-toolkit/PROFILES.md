@@ -1,6 +1,38 @@
-# Personalization & Production Guide — docs-toolkit
+# `ask()` Composition Guide — docs-toolkit
 
-Документация фичей Пути A — Quick Value (Sprint 54-60 / S6, S4, M2, M5, S7).
+Документация **17 ортогональных фич** через single entry point
+`docstoolkit.rag.ask()` плюс **18 standalone-хелперов**. Покрывает все
+35 roadmap-пунктов: Path A (Quick Value), Path B (Differentiation),
+Path C (Long-game).
+
+## Полный feature-индекс
+
+| Kwarg | Roadmap | Якорь |
+|---|---|---|
+| `user_id` | S6 | [Sprint 54](#sprint-54--s6--per-user-preferences) |
+| `filters`, `with_facets` | S2 | [Sprint 55](#sprint-55--s2--faceted-aggregation--filters) |
+| `with_provenance` | I3 | [Sprint 61](#sprint-61--i3--provenance--confidence-intervals) |
+| `reranker` | M2 | [Sprint 59](#sprint-59--m2--cross-encoder-reranking) |
+| `eval_runner` | M5 | [Sprint 56](#sprint-56--m5--continuous-online-eval) |
+| (auto) | S7 | [Sprint 60](#sprint-60--s7--read-receipt-tracking) |
+| `self_rag`, `self_rag_max_iters`, `self_rag_threshold` | I1 | [Sprint 70](#sprint-70--i1--self-rag-loop) |
+| `auto_intent` | M4 | [Sprint 68 / M4](#sprint-68--m4--auto-intent-routing) |
+| `hierarchical` | M3 | [Sprint 67 / M3](#sprint-67--m3--hierarchical-retrieval) |
+| `with_debate`, `debate_personas`, `debate_max_rounds` | I2 | I2 (multi-agent) |
+| `with_mapreduce`, `mapreduce_chunk_size` | I10 | I10 (map-reduce) |
+| `with_got`, `got_max_hypotheses` | N3 | [Sprint 75](#sprint-75--n3--graph-of-thoughts) |
+| `with_negotiation`, `negotiation_budget` | N2 | N2 (auction) |
+| `personality` | N9 | N9 (cognitive style) |
+| `learning_queue` | M6 | M6 (active learning) |
+| `at_commit` | I8 | I8 (time-travel) |
+| `memory`, `memory_top_k` | I5 | I5 (MemGPT) |
+
+Standalone helpers — см. [`API.md`](API.md) и финальный
+раздел "Полная композиция".
+
+---
+
+## Документация фичей Пути A — Quick Value (Sprint 54-60 / S6, S4, M2, M5, S7)
 Все 5 фич доступны через single entry point `docstoolkit.rag.ask()`.
 
 ## Sprint 54 / S6 — Per-User Preferences
