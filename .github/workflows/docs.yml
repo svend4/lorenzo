@@ -111,9 +111,21 @@ jobs:
           if gh pr view "$branch" --json number --jq .number >/dev/null 2>&1; then
             echo "PR already open for $branch — branch update is sufficient."
           else
-            gh pr create \
-              --base "$base" \
-              --head "$branch" \
-              --title "docs: auto-update metrics ($(date -u +%Y-%m-%d))" \
-              --body "$body"
+            # GITHUB_TOKEN cannot create PRs unless Settings → Actions → General →
+            # "Allow GitHub Actions to create and approve pull requests" is enabled.
+            # If creation is blocked we still want the workflow to succeed: the
+            # branch is already pushed and a PR can be opened from the UI.
+            if ! gh pr create \
+                --base "$base" \
+                --head "$branch" \
+                --title "docs: auto-update metrics ($(date -u +%Y-%m-%d))" \
+                --body "$body" 2> /tmp/gh_pr_create.err; then
+              if grep -q "not permitted to create or approve pull requests" /tmp/gh_pr_create.err; then
+                echo "::warning::PR auto-creation blocked by repo settings. Branch $branch pushed — open PR manually at https://github.com/${GITHUB_REPOSITORY}/pull/new/$branch"
+                cat /tmp/gh_pr_create.err
+                exit 0
+              fi
+              cat /tmp/gh_pr_create.err >&2
+              exit 1
+            fi
           fi
