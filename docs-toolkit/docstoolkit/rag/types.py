@@ -40,6 +40,9 @@ class AnswerResult:
     cost_estimate: float = 0.0  # USD
     tokens_used: int = 0
     error: str = ""
+    facets: list = field(default_factory=list)         # Sprint 55 / S2
+    provenance: object = None                          # Sprint 61 / I3
+    got_result: object = None                          # Sprint 75 / N3
 
     def to_markdown(self) -> str:
         lines = [f"# {self.query}\n"]

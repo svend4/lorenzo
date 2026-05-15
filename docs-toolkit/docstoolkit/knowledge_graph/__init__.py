@@ -20,6 +20,7 @@ from docstoolkit.knowledge_graph.entity import Entity, EntityType
 from docstoolkit.knowledge_graph.relation import Relation, RelationType
 from docstoolkit.knowledge_graph.graph import KnowledgeGraph
 from docstoolkit.knowledge_graph.extractor import KGExtractor, ExtractionConfig
+from docstoolkit.knowledge_graph.retriever import KGRetriever, DocSource
 
 __all__ = [
     "Entity",
@@ -29,4 +30,6 @@ __all__ = [
     "KnowledgeGraph",
     "KGExtractor",
     "ExtractionConfig",
+    "KGRetriever",
+    "DocSource",
 ]

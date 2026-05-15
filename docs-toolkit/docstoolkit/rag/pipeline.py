@@ -8,11 +8,65 @@ from docstoolkit.rag.assembler import assemble_prompt
 from docstoolkit.rag.answerer import get_answerer
 
 
+def _self_rag_run(question: str, *, top_k, method, answerer, model,
+                  profile, reranker, filters, with_facets, facet_fields,
+                  with_provenance, max_iters, threshold) -> AnswerResult:
+    """Sprint 70 / I1 — Self-RAG loop driven by RAGPipeline single-shots.
+
+    Each iteration runs a regular `RAGPipeline.run()`, reflects on the
+    answer, and re-queries with a refined query when below threshold.
+    Returns the AnswerResult of the highest-confidence iteration.
+    """
+    from docstoolkit.self_rag.reflect import reflect_on_answer
+
+    best: AnswerResult | None = None
+    best_conf: float = -1.0
+    current_query = question
+    iters = 0
+    for it in range(max(1, max_iters)):
+        iters = it + 1
+        q = RAGQuery(question=current_query, top_k=top_k, method=method,
+                     answerer=answerer, model=model)
+        res = RAGPipeline(
+            q, profile=profile, reranker=reranker, filters=filters,
+            with_facets=with_facets, facet_fields=facet_fields,
+            with_provenance=with_provenance,
+        ).run()
+        try:
+            rs = reflect_on_answer(
+                question, res.answer, res.retrieved_passages,
+                reflect_threshold=threshold,
+            )
+            conf = float(rs.score) / 10.0
+        except Exception:
+            conf = 0.0
+            rs = None
+        if conf > best_conf:
+            best, best_conf = res, conf
+        if rs is not None and rs.score >= threshold:
+            break
+        # Refine query for the next attempt
+        suggested = getattr(rs, "suggested_query", "") if rs else ""
+        if suggested and suggested != current_query:
+            current_query = suggested
+        else:
+            # No more progress signal — stop early
+            break
+    assert best is not None
+    return best
+
+
 class RAGPipeline:
     """Конфигурируемый pipeline RAG."""
 
     def __init__(self, query: RAGQuery, profile=None, reranker=None,
-                 rerank_top_k: int | None = None):
+                 rerank_top_k: int | None = None,
+                 filters: dict | None = None,
+                 with_facets: bool = False,
+                 facet_fields: tuple = ("section", "tag", "year"),
+                 with_provenance: bool = False,
+                 with_got: bool = False,
+                 got_max_hypotheses: int = 5):
         self.query = query
         self.profile = profile
         self.retriever = Retriever(method=query.method, model=query.model)
@@ -21,19 +75,32 @@ class RAGPipeline:
             self.retriever = PersonalizedRetriever(self.retriever, profile)
         self.reranker = reranker
         self.rerank_top_k = rerank_top_k
+        self.filters = filters or {}
+        self.with_facets = with_facets
+        self.facet_fields = facet_fields
+        self.with_provenance = with_provenance
+        self.with_got = with_got
+        self.got_max_hypotheses = got_max_hypotheses
         self.answerer = get_answerer(query.answerer, **{})
 
     def run(self) -> AnswerResult:
         t0 = time.time()
 
-        # 1. Retrieve (over-fetch when reranking so the reranker can choose)
-        retrieve_k = (
-            max(self.query.top_k, (self.rerank_top_k or self.query.top_k) * 3)
-            if self.reranker is not None
-            else self.query.top_k
-        )
+        # 1. Retrieve (over-fetch when reranking OR filtering so we have room)
+        boost = 1
+        if self.reranker is not None:
+            boost = max(boost, 3)
+        if self.filters:
+            boost = max(boost, 4)
+        retrieve_k = self.query.top_k * boost
+
         passages = self.retriever.search(self.query.question,
                                           top_k=retrieve_k)
+
+        # 1a. Filter
+        if self.filters and passages:
+            from docstoolkit.rag.facets import apply_filters
+            passages = apply_filters(passages, self.filters)
 
         # 1b. Rerank
         if self.reranker is not None and passages:
@@ -44,6 +111,8 @@ class RAGPipeline:
                 self.reranker,
                 top_k=self.query.top_k,
             )
+        elif self.filters and passages:
+            passages = passages[: self.query.top_k]
 
         if not passages:
             return AnswerResult(
@@ -83,6 +152,35 @@ class RAGPipeline:
                     "score": p.score,
                 })
 
+        # 4. Facets (Sprint 55 / S2)
+        facets_out: list = []
+        if self.with_facets and passages:
+            from docstoolkit.rag.facets import aggregate_facets
+            facets_out = aggregate_facets(passages, fields=self.facet_fields)
+
+        # 5. Provenance (Sprint 61 / I3)
+        provenance_out = None
+        if self.with_provenance and passages and answer_text:
+            try:
+                from docstoolkit.provenance import ask_with_provenance
+                provenance_out = ask_with_provenance(
+                    self.query.question, answer_text, passages,
+                )
+            except Exception:
+                provenance_out = None
+
+        # 6. Graph-of-thoughts (Sprint 75 / N3)
+        got_out = None
+        if self.with_got and passages:
+            try:
+                from docstoolkit.got import GoTReasoner
+                got_out = GoTReasoner(passages).reason(
+                    self.query.question,
+                    max_hypotheses=self.got_max_hypotheses,
+                )
+            except Exception:
+                got_out = None
+
         duration_ms = int((time.time() - t0) * 1000)
 
         return AnswerResult(
@@ -96,6 +194,9 @@ class RAGPipeline:
             cost_estimate=cost,
             tokens_used=tokens,
             error=error,
+            facets=facets_out,
+            provenance=provenance_out,
+            got_result=got_out,
         )
 
 
@@ -107,7 +208,16 @@ def ask(question: str, *,
         user_id: str = "",
         profile=None,
         eval_runner=None,
-        reranker=None) -> AnswerResult:
+        reranker=None,
+        filters: dict | None = None,
+        with_facets: bool = False,
+        facet_fields: tuple = ("section", "tag", "year"),
+        with_provenance: bool = False,
+        self_rag: bool = False,
+        self_rag_max_iters: int = 3,
+        self_rag_threshold: float = 7.0,
+        with_got: bool = False,
+        got_max_hypotheses: int = 5) -> AnswerResult:
     """Удобная обёртка для one-shot запроса.
 
     Per-user personalization (Sprint 54 / S6):
@@ -143,11 +253,34 @@ def ask(question: str, *,
         answerer=answerer,
         model=model,
     )
-    result = RAGPipeline(
-        query,
-        profile=resolved_profile,
-        reranker=reranker,
-    ).run()
+    if self_rag:
+        result = _self_rag_run(
+            question,
+            top_k=top_k,
+            method=method,
+            answerer=answerer,
+            model=model,
+            profile=resolved_profile,
+            reranker=reranker,
+            filters=filters,
+            with_facets=with_facets,
+            facet_fields=facet_fields,
+            with_provenance=with_provenance,
+            max_iters=self_rag_max_iters,
+            threshold=self_rag_threshold,
+        )
+    else:
+        result = RAGPipeline(
+            query,
+            profile=resolved_profile,
+            reranker=reranker,
+            filters=filters,
+            with_facets=with_facets,
+            facet_fields=facet_fields,
+            with_provenance=with_provenance,
+            with_got=with_got,
+            got_max_hypotheses=got_max_hypotheses,
+        ).run()
     if eval_runner is not None:
         try:
             eval_runner.maybe_run(question, result)
