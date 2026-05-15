@@ -116,6 +116,8 @@ def main() -> None:
         print(f"Latency: {result.duration_ms} ms")
         print("=" * 60)
         print("All 17 features composed without crashing ✓")
+        print()
+        print(result.to_trace_markdown())
 
 
 if __name__ == "__main__":

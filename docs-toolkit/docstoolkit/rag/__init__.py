@@ -11,7 +11,7 @@
     answer = ask("Что такое Yodoca?", top_k=5)
     # → AnswerResult с answer + citations + retrieved_passages
 """
-from docstoolkit.rag.types import Passage, AnswerResult, RAGQuery
+from docstoolkit.rag.types import Passage, AnswerResult, RAGQuery, TraceEvent
 from docstoolkit.rag.retriever import retrieve_passages, Retriever
 from docstoolkit.rag.assembler import assemble_prompt
 from docstoolkit.rag.answerer import (
@@ -43,7 +43,7 @@ from docstoolkit.rag.presets import (
 )
 
 __all__ = [
-    "Passage", "AnswerResult", "RAGQuery",
+    "Passage", "AnswerResult", "RAGQuery", "TraceEvent",
     "Retriever", "retrieve_passages",
     "assemble_prompt",
     "Answerer", "EchoAnswerer", "AnthropicAnswerer", "get_answerer",

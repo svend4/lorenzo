@@ -2,7 +2,9 @@
 import time
 from datetime import datetime
 
-from docstoolkit.rag.types import RAGQuery, AnswerResult, Passage
+from docstoolkit.rag.types import (
+    RAGQuery, AnswerResult, Passage, TraceEvent, _TraceTimer,
+)
 from docstoolkit.rag.retriever import Retriever
 from docstoolkit.rag.assembler import assemble_prompt
 from docstoolkit.rag.answerer import get_answerer
@@ -39,7 +41,9 @@ def _self_rag_run(question: str, *, top_k, method, answerer, model,
     best: AnswerResult | None = None
     best_conf: float = -1.0
     current_query = question
+    outer_trace: list[TraceEvent] = []
     for it in range(max(1, max_iters)):
+        t_iter = time.perf_counter()
         q = RAGQuery(question=current_query, top_k=top_k, method=method,
                      answerer=answerer, model=model)
         res = RAGPipeline(q, **pipeline_kwargs).run()
@@ -52,18 +56,29 @@ def _self_rag_run(question: str, *, top_k, method, answerer, model,
         except Exception:
             conf = 0.0
             rs = None
+        outer_trace.append(TraceEvent(
+            stage="self_rag_iter",
+            t_ms=(time.perf_counter() - t_iter) * 1000.0,
+            payload={
+                "iter": it + 1,
+                "score": getattr(rs, "score", 0.0) if rs else 0.0,
+                "confidence": conf,
+                "query": current_query[:60],
+            },
+        ))
         if conf > best_conf:
             best, best_conf = res, conf
         if rs is not None and rs.score >= threshold:
             break
-        # Refine query for the next attempt
         suggested = getattr(rs, "suggested_query", "") if rs else ""
         if suggested and suggested != current_query:
             current_query = suggested
         else:
-            # No more progress signal — stop early
             break
     assert best is not None
+    # Prepend the per-iteration trace so callers see the reflect loop first,
+    # then the stages of the winning iteration's pipeline.
+    best.trace = outer_trace + list(best.trace)
     return best
 
 
@@ -124,16 +139,19 @@ class RAGPipeline:
 
     def run(self) -> AnswerResult:
         t0 = time.time()
+        trace: list[TraceEvent] = []
 
         # 0. Memory recall (Sprint 74 / I5)
         memory_context: list = []
         if self.memory is not None:
-            try:
-                memory_context = self.memory.recall_search(
-                    self.query.question, top_k=self.memory_top_k,
-                )
-            except Exception:
-                memory_context = []
+            with _TraceTimer(trace, "memory_recall") as tt:
+                try:
+                    memory_context = self.memory.recall_search(
+                        self.query.question, top_k=self.memory_top_k,
+                    )
+                except Exception:
+                    memory_context = []
+                tt.payload["n_recalled"] = len(memory_context)
 
         # 1. Retrieve (over-fetch when reranking OR filtering so we have room)
         boost = 1
@@ -143,51 +161,62 @@ class RAGPipeline:
             boost = max(boost, 4)
         retrieve_k = self.query.top_k * boost
 
-        passages = self.retriever.search(self.query.question,
-                                          top_k=retrieve_k)
+        with _TraceTimer(trace, "retrieve") as tt:
+            passages = self.retriever.search(self.query.question,
+                                              top_k=retrieve_k)
+            tt.payload["k"] = retrieve_k
+            tt.payload["n_returned"] = len(passages) if passages else 0
 
         # 1a. Filter
         if self.filters and passages:
-            from docstoolkit.rag.facets import apply_filters
-            passages = apply_filters(passages, self.filters)
+            with _TraceTimer(trace, "filter") as tt:
+                from docstoolkit.rag.facets import apply_filters
+                before = len(passages)
+                passages = apply_filters(passages, self.filters)
+                tt.payload["dropped"] = before - len(passages)
 
         # 1b. Rerank
         if self.reranker is not None and passages:
-            from docstoolkit.rerank.reranker import rerank as _rerank
-            passages = _rerank(
-                self.query.question,
-                passages,
-                self.reranker,
-                top_k=self.query.top_k,
-            )
+            with _TraceTimer(trace, "rerank") as tt:
+                from docstoolkit.rerank.reranker import rerank as _rerank
+                passages = _rerank(
+                    self.query.question,
+                    passages,
+                    self.reranker,
+                    top_k=self.query.top_k,
+                )
+                tt.payload["kept"] = len(passages)
         elif self.filters and passages:
             passages = passages[: self.query.top_k]
 
         # 1c. Personality rerank (Sprint 89 / N9)
         if self.personality is not None and passages:
-            try:
-                from docstoolkit.personality import PersonalRetriever
-                pr = PersonalRetriever(self.personality)
-                passages = pr.rerank(passages, query=self.query.question)
-                passages = passages[: self.query.top_k]
-            except Exception:
-                pass
+            with _TraceTimer(trace, "personality_rerank"):
+                try:
+                    from docstoolkit.personality import PersonalRetriever
+                    pr = PersonalRetriever(self.personality)
+                    passages = pr.rerank(passages, query=self.query.question)
+                    passages = passages[: self.query.top_k]
+                except Exception:
+                    pass
 
         # 1d. Negotiation auction (Sprint 85 / N2)
         auction_out = None
         if self.with_negotiation and passages:
-            try:
-                from docstoolkit.negotiation import (
-                    NegotiationBroker, BrokerConfig,
-                )
-                broker = NegotiationBroker(
-                    BrokerConfig(budget=self.negotiation_budget)
-                )
-                auction_out = broker.retrieve(self.query.question, passages)
-                if auction_out.selected_passages:
-                    passages = auction_out.selected_passages
-            except Exception:
-                auction_out = None
+            with _TraceTimer(trace, "negotiation_auction") as tt:
+                try:
+                    from docstoolkit.negotiation import (
+                        NegotiationBroker, BrokerConfig,
+                    )
+                    broker = NegotiationBroker(
+                        BrokerConfig(budget=self.negotiation_budget)
+                    )
+                    auction_out = broker.retrieve(self.query.question, passages)
+                    if auction_out.selected_passages:
+                        passages = auction_out.selected_passages
+                        tt.payload["selected"] = len(passages)
+                except Exception:
+                    auction_out = None
 
         if not passages:
             return AnswerResult(
@@ -196,64 +225,76 @@ class RAGPipeline:
                 method=self.query.method,
                 answerer=self.query.answerer,
                 duration_ms=int((time.time() - t0) * 1000),
+                trace=trace,
             )
 
         # 2. Assemble
-        system, user = assemble_prompt(
-            self.query.question, passages,
-            max_context_tokens=self.query.max_context_tokens
-        )
+        with _TraceTimer(trace, "assemble") as tt:
+            system, user = assemble_prompt(
+                self.query.question, passages,
+                max_context_tokens=self.query.max_context_tokens
+            )
+            tt.payload["prompt_chars"] = len(system) + len(user)
 
         # 3. Answer (map-reduce shortcut if requested, Sprint 78 / I10)
         mapreduce_out = None
         if self.with_mapreduce and passages:
-            try:
-                from docstoolkit.rag.mapreduce import (
-                    map_reduce_ask, MapReduceConfig,
-                )
-                mr_res = map_reduce_ask(
-                    self.query.question, passages,
-                    cfg=MapReduceConfig(chunk_size=self.mapreduce_chunk_size),
-                )
-                mapreduce_out = mr_res
-                answer_text = mr_res.final_answer
-                tokens = getattr(mr_res, "total_tokens", 0)
-                cost = getattr(mr_res, "total_cost", 0.0)
-                error = ""
-            except Exception as e:
-                answer_text = ""
-                tokens = 0
-                cost = 0.0
-                error = str(e)
+            with _TraceTimer(trace, "mapreduce_answer") as tt:
+                try:
+                    from docstoolkit.rag.mapreduce import (
+                        map_reduce_ask, MapReduceConfig,
+                    )
+                    mr_res = map_reduce_ask(
+                        self.query.question, passages,
+                        cfg=MapReduceConfig(
+                            chunk_size=self.mapreduce_chunk_size
+                        ),
+                    )
+                    mapreduce_out = mr_res
+                    answer_text = mr_res.final_answer
+                    tokens = getattr(mr_res, "total_tokens", 0)
+                    cost = getattr(mr_res, "total_cost", 0.0)
+                    error = ""
+                    tt.payload["chunks"] = getattr(mr_res, "chunk_count", 0)
+                except Exception as e:
+                    answer_text = ""
+                    tokens = 0
+                    cost = 0.0
+                    error = str(e)
         else:
-            try:
-                answer_text, tokens, cost = self.answerer.answer(
-                    system, user, model=self.query.model
-                )
-                error = ""
-            except Exception as e:
-                answer_text = f"Ошибка LLM: {e}"
-                tokens = 0
-                cost = 0.0
-                error = str(e)
+            with _TraceTimer(trace, "answer") as tt:
+                try:
+                    answer_text, tokens, cost = self.answerer.answer(
+                        system, user, model=self.query.model
+                    )
+                    error = ""
+                    tt.payload["tokens"] = tokens
+                except Exception as e:
+                    answer_text = f"Ошибка LLM: {e}"
+                    tokens = 0
+                    cost = 0.0
+                    error = str(e)
 
         # 3b. Multi-agent debate (Sprint 72 / I2) — runs after baseline answer
         debate_out = None
         if self.with_debate and passages:
-            try:
-                from docstoolkit.debate import multi_agent_debate
-                debate_out = multi_agent_debate(
-                    self.query.question, passages,
-                    personas=self.debate_personas,
-                    max_rounds=self.debate_max_rounds,
-                )
-                # Replace answer with consensus if debate produced one
-                consensus = getattr(debate_out, "consensus", "") or \
-                            getattr(debate_out, "final_answer", "")
-                if consensus:
-                    answer_text = consensus
-            except Exception:
-                debate_out = None
+            with _TraceTimer(trace, "debate") as tt:
+                try:
+                    from docstoolkit.debate import multi_agent_debate
+                    debate_out = multi_agent_debate(
+                        self.query.question, passages,
+                        personas=self.debate_personas,
+                        max_rounds=self.debate_max_rounds,
+                    )
+                    consensus = getattr(debate_out, "consensus", "") or \
+                                getattr(debate_out, "final_answer", "")
+                    if consensus:
+                        answer_text = consensus
+                    tt.payload["rounds"] = len(
+                        getattr(debate_out, "rounds", [])
+                    )
+                except Exception:
+                    debate_out = None
 
         # Citations
         citations = []
@@ -269,31 +310,39 @@ class RAGPipeline:
         # 4. Facets (Sprint 55 / S2)
         facets_out: list = []
         if self.with_facets and passages:
-            from docstoolkit.rag.facets import aggregate_facets
-            facets_out = aggregate_facets(passages, fields=self.facet_fields)
+            with _TraceTimer(trace, "facets") as tt:
+                from docstoolkit.rag.facets import aggregate_facets
+                facets_out = aggregate_facets(
+                    passages, fields=self.facet_fields
+                )
+                tt.payload["fields"] = len(facets_out)
 
         # 5. Provenance (Sprint 61 / I3)
         provenance_out = None
         if self.with_provenance and passages and answer_text:
-            try:
-                from docstoolkit.provenance import ask_with_provenance
-                provenance_out = ask_with_provenance(
-                    self.query.question, answer_text, passages,
-                )
-            except Exception:
-                provenance_out = None
+            with _TraceTimer(trace, "provenance"):
+                try:
+                    from docstoolkit.provenance import ask_with_provenance
+                    provenance_out = ask_with_provenance(
+                        self.query.question, answer_text, passages,
+                    )
+                except Exception:
+                    provenance_out = None
 
         # 6. Graph-of-thoughts (Sprint 75 / N3)
         got_out = None
         if self.with_got and passages:
-            try:
-                from docstoolkit.got import GoTReasoner
-                got_out = GoTReasoner(passages).reason(
-                    self.query.question,
-                    max_hypotheses=self.got_max_hypotheses,
-                )
-            except Exception:
-                got_out = None
+            with _TraceTimer(trace, "got") as tt:
+                try:
+                    from docstoolkit.got import GoTReasoner
+                    got_out = GoTReasoner(passages).reason(
+                        self.query.question,
+                        max_hypotheses=self.got_max_hypotheses,
+                    )
+                    if got_out is not None and getattr(got_out, "graph", None):
+                        tt.payload["nodes"] = got_out.graph.node_count()
+                except Exception:
+                    got_out = None
 
         # 6b. Update memory with the user turn + assistant reply (Sprint 74 / I5)
         if self.memory is not None and answer_text:
@@ -338,6 +387,7 @@ class RAGPipeline:
             debate_result=debate_out,
             mapreduce_trace=mapreduce_out,
             auction_result=auction_out,
+            trace=trace,
         )
 
 

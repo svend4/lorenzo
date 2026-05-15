@@ -58,6 +58,34 @@ def test_api_ask_basic(monkeypatch):
     out = srv._api_ask({"q": ["hello"]})
     assert "answer" in out
     assert "passages" in out
+    # Phase III.3 — no trace key without explicit opt-in
+    assert "trace" not in out
+
+
+def test_api_ask_includes_trace_when_requested(monkeypatch):
+    """Phase III.3 — ?trace=1 surfaces the per-stage trace as JSON."""
+    import docstoolkit.rag.pipeline as mod
+    from docstoolkit.rag.types import Passage
+
+    class _R:
+        def search(self, q, top_k):
+            return [Passage(text="t", doc_id="d", title="D", score=0.5)]
+
+    class _A:
+        def answer(self, s, u, model=""):
+            return "answer", 0, 0.0
+
+    monkeypatch.setattr(mod, "Retriever", lambda **kw: _R())
+    monkeypatch.setattr(mod, "get_answerer", lambda name, **kw: _A())
+
+    out = srv._api_ask({"q": ["hello"], "trace": ["1"]})
+    assert "trace" in out
+    assert isinstance(out["trace"], list)
+    assert out["trace"], "trace must not be empty when retriever returned passages"
+    for ev in out["trace"]:
+        assert set(ev.keys()) == {"stage", "t_ms", "payload"}
+        assert isinstance(ev["t_ms"], float)
+        assert isinstance(ev["payload"], dict)
 
 
 def test_api_ask_parses_filters(monkeypatch):

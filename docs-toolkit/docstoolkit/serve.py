@@ -1091,6 +1091,14 @@ def _api_ask(params: dict) -> dict:
             pass
     if r.at_commit:
         out["at_commit"] = r.at_commit
+    # Phase III.3 — opt-in composition trace via ?trace=1
+    if _qbool(params, "trace") and r.trace:
+        out["trace"] = [
+            {"stage": ev.stage,
+             "t_ms": round(ev.t_ms, 4),
+             "payload": ev.payload}
+            for ev in r.trace
+        ]
     return out
 
 

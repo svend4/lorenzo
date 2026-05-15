@@ -54,6 +54,17 @@ Composition overhead is sub-linear vs sum of individual features.
 These numbers are environment-dependent — run locally to compare.
 History is appended to `bench/history.jsonl` for trend tracking.
 
+## Phase III.1 trace overhead
+
+Инструментирование `RAGPipeline.run()` через `_TraceTimer` добавило
+~5-15 μs на стадию. На baseline:
+
+- До инструментирования: median ~43 μs
+- После Phase III.1: median ~54 μs (+11 μs, ~25%)
+
+Включаем `trace` всегда — overhead на real-LLM запросах (10-2000 ms)
+теряется в шуме, а observability стоит этого.
+
 ## Baseline record
 
 `bench/history.jsonl` хранит один **baseline-снимок** (2026-05-15) против

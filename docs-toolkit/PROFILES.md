@@ -54,6 +54,32 @@ result = ask_high_quality("What is RAG?", reranker=TFIDFReranker(), top_k=5)
 # result.provenance.overall_confidence — bootstrap CI для ответа
 ```
 
+## Inspecting composition trace (Phase III.1)
+
+Каждый `AnswerResult` теперь содержит `trace: list[TraceEvent]` — по одному
+событию на стадию pipeline (retrieve / filter / rerank / self_rag_iter /
+got / debate / negotiation / answer / facets / provenance / …). Это
+позволяет видеть _куда ушёл latency-бюджет_ без печати log'ов:
+
+```python
+from docstoolkit.rag import ask, ask_full_stack
+
+result = ask_full_stack("вопрос?", top_k=3)
+print(result.to_trace_markdown())
+# ## Trace (13 stages, sum=18.18 ms)
+# | Stage | Time (ms) | Payload |
+# |-------|----------:|---------|
+# | `self_rag_iter` | 9.319 | iter=1, score=7.33, confidence=0.73, query=… |
+# | `retrieve` | 0.057 | k=12, n_returned=5 |
+# | `rerank` | 0.164 | kept=1 |
+# | …
+```
+
+`TraceEvent(stage, t_ms, payload)` — публичный тип, экспортируется через
+`docstoolkit.rag`.
+
+---
+
 **Note (Phase II.1, fixed):** ранее `self_rag=True` короткозамыкал pipeline
 и пропускал GoT/debate/negotiation. Теперь `_self_rag_run` пробрасывает все
 pipeline-kwargs на каждой итерации, поэтому self-RAG композируется с
