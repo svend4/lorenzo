@@ -2,7 +2,9 @@
 
 Универсальный Python-фреймворк для обработки markdown-монорепозиториев: **RAG, agent, workflow, eval, federation, observability**, всё в одном пакете. Извлечён из Lorenzo, но работает на любом markdown-корпусе.
 
-**Статус (2026-04-29):** 53 спринта, 30+ модулей, 546 тестов passed, 30/30 MCP-инструментов, 23/23 шаблонов чисты.
+**Статус (2026-05-15):** **220+ спринтов**, **498 модулей**, **38 k+ тестов**, версия **0.3.0**. Полное покрытие roadmap (35 / 35 пунктов: см. [`ROADMAP_EXECUTION.md`](ROADMAP_EXECUTION.md)).
+
+**Composition matrix:** одна функция `ask()` поддерживает 17 ортогональных фич (Path A / B / C); ещё 18 standalone-хелперов в `rag/advanced.py`, `rag/saved.py`, `rag/bulk_diff.py`, `rag/bandit_ask.py`. Полная карта — в [`PROFILES.md`](PROFILES.md).
 
 **Принципы:**
 - **stdlib-first** — большинство модулей работают без внешних зависимостей
@@ -229,10 +231,19 @@ docstoolkit serve --port 8080
 ```
 
 Эндпоинты:
-- `GET /api/ask?q=...` — синхронный RAG
+- `GET /api/ask?q=...&with_facets=1&with_provenance=1&self_rag=1&...`
+  — full-featured RAG (все 17 ask() kwargs как query strings)
 - `POST /api/stream/rag` — SSE streaming
 - `GET /metrics` — Prometheus exposition format
 - `POST /api/feedback` — record feedback (thumbs / rating / comment)
+- `GET /api/eval/dashboard?days=7` — HTML drift dashboard (M5)
+- `GET /api/saved?owner=alice` — list saved searches (S1)
+- `GET /api/diff?from=main~10&to=main` — bulk diff (S5)
+- `GET /api/voice?text=...` — epistemic profile (N4)
+- `GET /api/assets?q=...&type=image` — multi-modal asset search (M8)
+- `GET /api/taxonomy?q=...&levels=3` — self-organising taxonomy (N7)
+- `GET /api/kg?q=...` — knowledge-graph retrieval (M1)
+- `GET /api/profile?user_id=alice` — user profile (S6)
 
 ---
 
