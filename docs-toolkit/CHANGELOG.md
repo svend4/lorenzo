@@ -71,6 +71,12 @@ Path C, standalone helpers, and full-stack (all 17 features in one `ask()`).
 overhead). Results tracked in `bench/BENCHMARKS.md`; CI regression check
 in `.github/workflows/benchmark.yml` now covers all suites.
 
+**Presets:** `docstoolkit.rag.presets` — six named bundles of `ask()` kwargs
+(`ask_personalized`, `ask_high_quality`, `ask_with_reasoning`, `ask_advanced`,
+`ask_research`, `ask_full_stack`) so callers don't need to remember which
+flags compose well. Each preset forwards extra kwargs, so any caller-supplied
+flag still wins over the preset default.
+
 ## [0.2.0] - 2026-05-13
 
 ### Added

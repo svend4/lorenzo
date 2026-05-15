@@ -30,6 +30,35 @@ Path C (Long-game).
 Standalone helpers — см. [`API.md`](API.md) и финальный
 раздел "Полная композиция".
 
+## Named presets (`docstoolkit.rag.presets`)
+
+Чтобы не запоминать, какие флаги хорошо композируются вместе, в
+`docstoolkit.rag.presets` есть шесть именованных бандлов. Каждый — тонкая
+обёртка над `ask()`, поэтому любой kwarg от вызова переопределяет дефолт
+пресета.
+
+| Preset | Что включает | Когда использовать |
+|---|---|---|
+| `ask_personalized(q, user_id, ...)` | S6 profile + S7 read-receipts | мульти-пользовательский UI |
+| `ask_high_quality(q, reranker=...)` | M2 rerank + I3 provenance | критичные ответы с CI |
+| `ask_with_reasoning(q, ...)` | N3 GoT + I2 debate | глубокое объяснение, не latency |
+| `ask_advanced(q, ...)` | M3 hierarchical + M4 auto-intent + I10 mapreduce | большой корпус, long-context |
+| `ask_research(q, memory=..., personality=...)` | N2 negotiation + N9 personality + I5 memory | Path C research bundle |
+| `ask_full_stack(q, ...)` | все 14 совместимых фич | стресс-тест / "kitchen sink" |
+
+```python
+from docstoolkit.rag import ask_high_quality
+from docstoolkit.rerank.reranker import TFIDFReranker
+
+result = ask_high_quality("What is RAG?", reranker=TFIDFReranker(), top_k=5)
+# result.provenance.overall_confidence — bootstrap CI для ответа
+```
+
+**Note:** `self_rag=True` короткозамыкает pipeline и пропускает GoT/debate/
+negotiation, поэтому пресеты `ask_with_reasoning` и `ask_full_stack` не
+включают self-RAG по умолчанию. Передайте `self_rag=True` явно, если
+предпочитаете reflect-loop вариант.
+
 ---
 
 ## Документация фичей Пути A — Quick Value (Sprint 54-60 / S6, S4, M2, M5, S7)

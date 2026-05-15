@@ -37,6 +37,10 @@ from docstoolkit.rag.clarifier import (
 from docstoolkit.rag.hierarchical import (
     hierarchical_search, HierarchicalResult, SectionIndex, DocIndex,
 )
+from docstoolkit.rag.presets import (
+    ask_personalized, ask_high_quality, ask_with_reasoning,
+    ask_advanced, ask_research, ask_full_stack,
+)
 
 __all__ = [
     "Passage", "AnswerResult", "RAGQuery",
@@ -57,4 +61,7 @@ __all__ = [
     "ClarifyingRAG", "AmbiguityScore", "ClarificationRequest",
     # M3: Hierarchical retrieval
     "hierarchical_search", "HierarchicalResult", "SectionIndex", "DocIndex",
+    # Presets: named bundles of ask() kwargs
+    "ask_personalized", "ask_high_quality", "ask_with_reasoning",
+    "ask_advanced", "ask_research", "ask_full_stack",
 ]
