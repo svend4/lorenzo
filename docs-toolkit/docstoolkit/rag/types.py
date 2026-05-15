@@ -43,6 +43,10 @@ class AnswerResult:
     facets: list = field(default_factory=list)         # Sprint 55 / S2
     provenance: object = None                          # Sprint 61 / I3
     got_result: object = None                          # Sprint 75 / N3
+    debate_result: object = None                       # Sprint 72 / I2
+    mapreduce_trace: object = None                     # Sprint 78 / I10
+    auction_result: object = None                      # Sprint 85 / N2
+    at_commit: str = ""                                # Sprint 79 / I8
 
     def to_markdown(self) -> str:
         lines = [f"# {self.query}\n"]

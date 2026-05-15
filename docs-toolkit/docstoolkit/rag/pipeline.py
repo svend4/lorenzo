@@ -76,7 +76,16 @@ class RAGPipeline:
                  facet_fields: tuple = ("section", "tag", "year"),
                  with_provenance: bool = False,
                  with_got: bool = False,
-                 got_max_hypotheses: int = 5):
+                 got_max_hypotheses: int = 5,
+                 with_debate: bool = False,
+                 debate_personas: list | None = None,
+                 debate_max_rounds: int = 2,
+                 with_mapreduce: bool = False,
+                 mapreduce_chunk_size: int = 10,
+                 with_negotiation: bool = False,
+                 negotiation_budget: int = 5,
+                 personality: object = None,
+                 learning_queue: object = None):
         self.query = query
         self.profile = profile
         self.retriever = Retriever(method=query.method, model=query.model)
@@ -91,6 +100,15 @@ class RAGPipeline:
         self.with_provenance = with_provenance
         self.with_got = with_got
         self.got_max_hypotheses = got_max_hypotheses
+        self.with_debate = with_debate
+        self.debate_personas = debate_personas
+        self.debate_max_rounds = debate_max_rounds
+        self.with_mapreduce = with_mapreduce
+        self.mapreduce_chunk_size = mapreduce_chunk_size
+        self.with_negotiation = with_negotiation
+        self.negotiation_budget = negotiation_budget
+        self.personality = personality
+        self.learning_queue = learning_queue
         self.answerer = get_answerer(query.answerer, **{})
 
     def run(self) -> AnswerResult:
@@ -124,6 +142,32 @@ class RAGPipeline:
         elif self.filters and passages:
             passages = passages[: self.query.top_k]
 
+        # 1c. Personality rerank (Sprint 89 / N9)
+        if self.personality is not None and passages:
+            try:
+                from docstoolkit.personality import PersonalRetriever
+                pr = PersonalRetriever(self.personality)
+                passages = pr.rerank(passages, query=self.query.question)
+                passages = passages[: self.query.top_k]
+            except Exception:
+                pass
+
+        # 1d. Negotiation auction (Sprint 85 / N2)
+        auction_out = None
+        if self.with_negotiation and passages:
+            try:
+                from docstoolkit.negotiation import (
+                    NegotiationBroker, BrokerConfig,
+                )
+                broker = NegotiationBroker(
+                    BrokerConfig(budget=self.negotiation_budget)
+                )
+                auction_out = broker.retrieve(self.query.question, passages)
+                if auction_out.selected_passages:
+                    passages = auction_out.selected_passages
+            except Exception:
+                auction_out = None
+
         if not passages:
             return AnswerResult(
                 answer="В корпусе не найдено документов по запросу.",
@@ -139,17 +183,56 @@ class RAGPipeline:
             max_context_tokens=self.query.max_context_tokens
         )
 
-        # 3. Answer
-        try:
-            answer_text, tokens, cost = self.answerer.answer(
-                system, user, model=self.query.model
-            )
-            error = ""
-        except Exception as e:
-            answer_text = f"Ошибка LLM: {e}"
-            tokens = 0
-            cost = 0.0
-            error = str(e)
+        # 3. Answer (map-reduce shortcut if requested, Sprint 78 / I10)
+        mapreduce_out = None
+        if self.with_mapreduce and passages:
+            try:
+                from docstoolkit.rag.mapreduce import (
+                    map_reduce_ask, MapReduceConfig,
+                )
+                mr_res = map_reduce_ask(
+                    self.query.question, passages,
+                    cfg=MapReduceConfig(chunk_size=self.mapreduce_chunk_size),
+                )
+                mapreduce_out = mr_res
+                answer_text = mr_res.final_answer
+                tokens = getattr(mr_res, "total_tokens", 0)
+                cost = getattr(mr_res, "total_cost", 0.0)
+                error = ""
+            except Exception as e:
+                answer_text = ""
+                tokens = 0
+                cost = 0.0
+                error = str(e)
+        else:
+            try:
+                answer_text, tokens, cost = self.answerer.answer(
+                    system, user, model=self.query.model
+                )
+                error = ""
+            except Exception as e:
+                answer_text = f"Ошибка LLM: {e}"
+                tokens = 0
+                cost = 0.0
+                error = str(e)
+
+        # 3b. Multi-agent debate (Sprint 72 / I2) — runs after baseline answer
+        debate_out = None
+        if self.with_debate and passages:
+            try:
+                from docstoolkit.debate import multi_agent_debate
+                debate_out = multi_agent_debate(
+                    self.query.question, passages,
+                    personas=self.debate_personas,
+                    max_rounds=self.debate_max_rounds,
+                )
+                # Replace answer with consensus if debate produced one
+                consensus = getattr(debate_out, "consensus", "") or \
+                            getattr(debate_out, "final_answer", "")
+                if consensus:
+                    answer_text = consensus
+            except Exception:
+                debate_out = None
 
         # Citations
         citations = []
@@ -191,6 +274,22 @@ class RAGPipeline:
             except Exception:
                 got_out = None
 
+        # 7. Active learning auto-enqueue (Sprint 73 / M6)
+        if self.learning_queue is not None and passages:
+            try:
+                from docstoolkit.active_learning import (
+                    LowConfidenceTrigger, auto_enqueue,
+                )
+                auto_enqueue(
+                    self.query.question,
+                    passages,
+                    self.learning_queue,
+                    LowConfidenceTrigger(threshold=0.3),
+                    context={"suggested_answer": answer_text},
+                )
+            except Exception:
+                pass
+
         duration_ms = int((time.time() - t0) * 1000)
 
         return AnswerResult(
@@ -207,6 +306,9 @@ class RAGPipeline:
             facets=facets_out,
             provenance=provenance_out,
             got_result=got_out,
+            debate_result=debate_out,
+            mapreduce_trace=mapreduce_out,
+            auction_result=auction_out,
         )
 
 
@@ -229,7 +331,17 @@ def ask(question: str, *,
         with_got: bool = False,
         got_max_hypotheses: int = 5,
         auto_intent: bool = False,
-        hierarchical: bool = False) -> AnswerResult:
+        hierarchical: bool = False,
+        at_commit: str = "",
+        with_debate: bool = False,
+        debate_personas: list | None = None,
+        debate_max_rounds: int = 2,
+        with_mapreduce: bool = False,
+        mapreduce_chunk_size: int = 10,
+        with_negotiation: bool = False,
+        negotiation_budget: int = 5,
+        personality: object = None,
+        learning_queue: object = None) -> AnswerResult:
     """Удобная обёртка для one-shot запроса.
 
     Per-user personalization (Sprint 54 / S6):
@@ -257,6 +369,30 @@ def ask(question: str, *,
                 top_k = cfg.top_k or top_k
             if cfg.use_hierarchical and not hierarchical:
                 hierarchical = True
+        except Exception:
+            pass
+
+    # Sprint 79 / I8 — time-travel: rebind corpus to a historical commit
+    if at_commit:
+        try:
+            from docstoolkit.temporal import query_at_time
+            t_ans = query_at_time(question, at_commit, top_k=top_k)
+            # Build an AnswerResult directly, skipping the regular pipeline.
+            ar = AnswerResult(
+                answer=t_ans.answer,
+                retrieved_passages=list(t_ans.passages),
+                citations=[{
+                    "n": i + 1,
+                    "doc_id": p.doc_id,
+                    "title": p.title,
+                    "score": p.score,
+                } for i, p in enumerate(t_ans.passages)],
+                query=question,
+                method=method,
+                answerer=answerer,
+                at_commit=t_ans.commit or at_commit,
+            )
+            return ar
         except Exception:
             pass
 
@@ -331,6 +467,15 @@ def ask(question: str, *,
             with_provenance=with_provenance,
             with_got=with_got,
             got_max_hypotheses=got_max_hypotheses,
+            with_debate=with_debate,
+            debate_personas=debate_personas,
+            debate_max_rounds=debate_max_rounds,
+            with_mapreduce=with_mapreduce,
+            mapreduce_chunk_size=mapreduce_chunk_size,
+            with_negotiation=with_negotiation,
+            negotiation_budget=negotiation_budget,
+            personality=personality,
+            learning_queue=learning_queue,
         ).run()
     if eval_runner is not None:
         try:
