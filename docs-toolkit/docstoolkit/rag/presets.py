@@ -6,7 +6,7 @@ flag still wins over the preset default. The bundles mirror the demos in
 
 - `ask_personalized`  — Sprint 54 / S6 (user profile) + S7 read-receipts
 - `ask_high_quality`  — M2 rerank + I3 provenance + M5 online eval
-- `ask_with_reasoning` — N3 graph-of-thoughts + I2 debate
+- `ask_with_reasoning` — I1 self-RAG + N3 graph-of-thoughts + I2 debate
 - `ask_advanced`      — M3 hierarchical + M4 auto-intent + I10 mapreduce
 - `ask_research`      — N2 negotiation + N9 personality + I5 MemGPT memory
 - `ask_full_stack`    — every feature stacked (matches `08_full_stack.py`)
@@ -51,16 +51,19 @@ def ask_high_quality(question: str, *, reranker=None, **kwargs) -> AnswerResult:
 
 
 def ask_with_reasoning(question: str, **kwargs) -> AnswerResult:
-    """N3 graph-of-thoughts + I2 multi-agent debate.
+    """I1 self-RAG + N3 graph-of-thoughts + I2 multi-agent debate.
 
-    Reasoning-heavy bundle: GoT hypothesis graph + debate rounds give
-    inspectable traces in `result.got_result` / `result.debate_result`.
+    Heaviest of the presets — runs reflect loop, GoT hypothesis graph,
+    and debate rounds. Since Phase II.1 (commit unifying `_self_rag_run`
+    with `pipeline_kwargs`) all three compose orthogonally; the last
+    iteration's `got_result` / `debate_result` are visible on the final
+    `AnswerResult`.
 
-    Note: self-RAG (`self_rag=True`) is mutually exclusive with these in
-    the current pipeline (it short-circuits via a dedicated reflect loop),
-    so it is *not* on by default. Pass `self_rag=True` explicitly if you
-    prefer the reflect-loop variant over GoT+debate.
+    Use for high-stakes queries where reasoning depth matters more than
+    latency.
     """
+    kwargs.setdefault("self_rag", True)
+    kwargs.setdefault("self_rag_max_iters", 2)
     kwargs.setdefault("with_got", True)
     kwargs.setdefault("got_max_hypotheses", 3)
     kwargs.setdefault("with_debate", True)
@@ -131,8 +134,9 @@ def ask_full_stack(
     kwargs.setdefault("with_facets", True)
     kwargs.setdefault("auto_intent", True)
     kwargs.setdefault("with_provenance", True)
-    # self_rag short-circuits the pipeline and skips GoT/debate/negotiation,
-    # so the full-stack preset prefers the inspectable trace mechanisms.
+    # Phase II.1: self_rag now composes with got/debate/negotiation.
+    kwargs.setdefault("self_rag", True)
+    kwargs.setdefault("self_rag_max_iters", 2)
     kwargs.setdefault("with_debate", True)
     kwargs.setdefault("debate_max_rounds", 1)
     kwargs.setdefault("with_got", True)

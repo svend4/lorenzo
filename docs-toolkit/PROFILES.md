@@ -41,7 +41,7 @@ Standalone helpers — см. [`API.md`](API.md) и финальный
 |---|---|---|
 | `ask_personalized(q, user_id, ...)` | S6 profile + S7 read-receipts | мульти-пользовательский UI |
 | `ask_high_quality(q, reranker=...)` | M2 rerank + I3 provenance | критичные ответы с CI |
-| `ask_with_reasoning(q, ...)` | N3 GoT + I2 debate | глубокое объяснение, не latency |
+| `ask_with_reasoning(q, ...)` | I1 self-RAG + N3 GoT + I2 debate | глубокое объяснение, не latency |
 | `ask_advanced(q, ...)` | M3 hierarchical + M4 auto-intent + I10 mapreduce | большой корпус, long-context |
 | `ask_research(q, memory=..., personality=...)` | N2 negotiation + N9 personality + I5 memory | Path C research bundle |
 | `ask_full_stack(q, ...)` | все 14 совместимых фич | стресс-тест / "kitchen sink" |
@@ -54,10 +54,11 @@ result = ask_high_quality("What is RAG?", reranker=TFIDFReranker(), top_k=5)
 # result.provenance.overall_confidence — bootstrap CI для ответа
 ```
 
-**Note:** `self_rag=True` короткозамыкает pipeline и пропускает GoT/debate/
-negotiation, поэтому пресеты `ask_with_reasoning` и `ask_full_stack` не
-включают self-RAG по умолчанию. Передайте `self_rag=True` явно, если
-предпочитаете reflect-loop вариант.
+**Note (Phase II.1, fixed):** ранее `self_rag=True` короткозамыкал pipeline
+и пропускал GoT/debate/negotiation. Теперь `_self_rag_run` пробрасывает все
+pipeline-kwargs на каждой итерации, поэтому self-RAG композируется с
+GoT/debate/negotiation/memory/personality. Финальный `AnswerResult` содержит
+trace последней (лучшей) итерации.
 
 ---
 

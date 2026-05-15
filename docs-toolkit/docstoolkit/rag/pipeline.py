@@ -19,29 +19,30 @@ class _StaticPassages:
 
 
 def _self_rag_run(question: str, *, top_k, method, answerer, model,
-                  profile, reranker, filters, with_facets, facet_fields,
-                  with_provenance, max_iters, threshold) -> AnswerResult:
+                  max_iters, threshold,
+                  pipeline_kwargs: dict | None = None) -> AnswerResult:
     """Sprint 70 / I1 — Self-RAG loop driven by RAGPipeline single-shots.
 
-    Each iteration runs a regular `RAGPipeline.run()`, reflects on the
-    answer, and re-queries with a refined query when below threshold.
-    Returns the AnswerResult of the highest-confidence iteration.
+    Each iteration runs a regular `RAGPipeline.run()` with **all** the
+    reasoning/composition flags forwarded via `pipeline_kwargs`, reflects
+    on the answer, and re-queries with a refined query when below
+    threshold. Returns the AnswerResult of the highest-confidence iteration.
+
+    Phase II.1 fix: `pipeline_kwargs` is a full dict of `RAGPipeline.__init__`
+    kwargs, so `with_got`, `with_debate`, `with_negotiation`,
+    `with_mapreduce`, `personality`, `memory`, etc. now compose with
+    self-RAG instead of being silently dropped.
     """
     from docstoolkit.self_rag.reflect import reflect_on_answer
 
+    pipeline_kwargs = pipeline_kwargs or {}
     best: AnswerResult | None = None
     best_conf: float = -1.0
     current_query = question
-    iters = 0
     for it in range(max(1, max_iters)):
-        iters = it + 1
         q = RAGQuery(question=current_query, top_k=top_k, method=method,
                      answerer=answerer, model=model)
-        res = RAGPipeline(
-            q, profile=profile, reranker=reranker, filters=filters,
-            with_facets=with_facets, facet_fields=facet_fields,
-            with_provenance=with_provenance,
-        ).run()
+        res = RAGPipeline(q, **pipeline_kwargs).run()
         try:
             rs = reflect_on_answer(
                 question, res.answer, res.retrieved_passages,
@@ -471,6 +472,31 @@ def ask(question: str, *,
         answerer=answerer,
         model=model,
     )
+    # Phase II.1 — full pipeline_kwargs dict is shared between self-RAG
+    # loop and the single-shot branch, so every reasoning flag composes
+    # with `self_rag=True` instead of being silently dropped.
+    pipeline_kwargs = dict(
+        profile=resolved_profile,
+        reranker=reranker,
+        filters=filters,
+        with_facets=with_facets,
+        facet_fields=facet_fields,
+        with_provenance=with_provenance,
+        with_got=with_got,
+        got_max_hypotheses=got_max_hypotheses,
+        with_debate=with_debate,
+        debate_personas=debate_personas,
+        debate_max_rounds=debate_max_rounds,
+        with_mapreduce=with_mapreduce,
+        mapreduce_chunk_size=mapreduce_chunk_size,
+        with_negotiation=with_negotiation,
+        negotiation_budget=negotiation_budget,
+        personality=personality,
+        learning_queue=learning_queue,
+        memory=memory,
+        memory_top_k=memory_top_k,
+        fusion=fusion,
+    )
     if self_rag:
         result = _self_rag_run(
             question,
@@ -478,39 +504,12 @@ def ask(question: str, *,
             method=method,
             answerer=answerer,
             model=model,
-            profile=resolved_profile,
-            reranker=reranker,
-            filters=filters,
-            with_facets=with_facets,
-            facet_fields=facet_fields,
-            with_provenance=with_provenance,
             max_iters=self_rag_max_iters,
             threshold=self_rag_threshold,
+            pipeline_kwargs=pipeline_kwargs,
         )
     else:
-        result = RAGPipeline(
-            query,
-            profile=resolved_profile,
-            reranker=reranker,
-            filters=filters,
-            with_facets=with_facets,
-            facet_fields=facet_fields,
-            with_provenance=with_provenance,
-            with_got=with_got,
-            got_max_hypotheses=got_max_hypotheses,
-            with_debate=with_debate,
-            debate_personas=debate_personas,
-            debate_max_rounds=debate_max_rounds,
-            with_mapreduce=with_mapreduce,
-            mapreduce_chunk_size=mapreduce_chunk_size,
-            with_negotiation=with_negotiation,
-            negotiation_budget=negotiation_budget,
-            personality=personality,
-            learning_queue=learning_queue,
-            memory=memory,
-            memory_top_k=memory_top_k,
-            fusion=fusion,
-        ).run()
+        result = RAGPipeline(query, **pipeline_kwargs).run()
     if eval_runner is not None:
         try:
             eval_runner.maybe_run(question, result)
