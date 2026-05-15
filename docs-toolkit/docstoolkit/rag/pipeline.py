@@ -8,6 +8,16 @@ from docstoolkit.rag.assembler import assemble_prompt
 from docstoolkit.rag.answerer import get_answerer
 
 
+class _StaticPassages:
+    """Static retriever returning a pre-fetched passage list (for hierarchical)."""
+
+    def __init__(self, passages: list):
+        self._p = passages
+
+    def search(self, query: str, top_k: int) -> list:
+        return list(self._p[:top_k])
+
+
 def _self_rag_run(question: str, *, top_k, method, answerer, model,
                   profile, reranker, filters, with_facets, facet_fields,
                   with_provenance, max_iters, threshold) -> AnswerResult:
@@ -217,7 +227,9 @@ def ask(question: str, *,
         self_rag_max_iters: int = 3,
         self_rag_threshold: float = 7.0,
         with_got: bool = False,
-        got_max_hypotheses: int = 5) -> AnswerResult:
+        got_max_hypotheses: int = 5,
+        auto_intent: bool = False,
+        hierarchical: bool = False) -> AnswerResult:
     """Удобная обёртка для one-shot запроса.
 
     Per-user personalization (Sprint 54 / S6):
@@ -234,6 +246,45 @@ def ask(question: str, *,
         после первичного retrieval. Pipeline сам берёт top_k*3 кандидатов
         и режет до top_k после реранкинга.
     """
+    # Sprint 68 / M4 — intent-based pipeline routing
+    if auto_intent:
+        try:
+            from docstoolkit.intent import IntentRouter
+            _, cfg = IntentRouter().route(question)
+            if method == "hybrid":
+                method = cfg.retriever or method
+            if top_k == 5:
+                top_k = cfg.top_k or top_k
+            if cfg.use_hierarchical and not hierarchical:
+                hierarchical = True
+        except Exception:
+            pass
+
+    # Sprint 67 / M3 — hierarchical retrieval shortcut
+    if hierarchical:
+        try:
+            from docstoolkit.rag.hierarchical import hierarchical_search
+            h_result = hierarchical_search(
+                question, top_k_passages=top_k,
+            )
+            passages = list(h_result.passages)[:top_k]
+            # Build a minimal AnswerResult with hierarchical passages,
+            # then defer to assembler+answerer for the answer text.
+            q = RAGQuery(question=question, top_k=top_k, method=method,
+                         answerer=answerer, model=model)
+            pipe = RAGPipeline(q, profile=profile, reranker=reranker,
+                               filters=filters, with_facets=with_facets,
+                               facet_fields=facet_fields,
+                               with_provenance=with_provenance,
+                               with_got=with_got,
+                               got_max_hypotheses=got_max_hypotheses)
+            # Swap in a retriever that returns the hierarchical passages
+            pipe.retriever = _StaticPassages(passages)
+            return pipe.run()
+        except Exception:
+            # Fall through to standard pipeline on any error
+            pass
+
     explicit_method = method
     resolved_profile = profile
     if user_id and resolved_profile is None:
