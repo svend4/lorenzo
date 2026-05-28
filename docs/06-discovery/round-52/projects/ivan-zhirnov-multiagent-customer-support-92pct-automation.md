@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, ingestion, local-first]
+state: normalized
+---
+
 # Multi-Agent LLM Customer Support: 92% автоматизации без эскалации на живых операторов
+
+<!-- toc-auto -->
+<!-- tags: ivan-zhirnov-multiagent-customer-support-92pct-automation, docs -->
+
+
+<!-- summary -->
+> `ivan-zhirnov-multiagent-customer-support-92pct-automation` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -278,3 +292,11 @@ class LorenzoSupervisorGateway:
 - Смежная (Robovoice голосовая поддержка, R41): docs/06-discovery/round-41/
 - Смежная (5-фазный оркестратор, R27): docs/06-discovery/round-27/
 - Смежная (Multi-agent coordination, R38): docs/06-discovery/round-38/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

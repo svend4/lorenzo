@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # Краткосрочные поведенческие профили LLM: управление предпочтениями без fine-tuning
+
+<!-- toc-auto -->
+<!-- tags: victor-shev89-llm-behavioral-profiles-preference-steering, docs -->
+
+
+<!-- summary -->
+> `victor-shev89-llm-behavioral-profiles-preference-steering` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -286,3 +300,11 @@ class LorenzoGatewayProfiles:
 - Смежная (персонализация v2, R35): docs/06-discovery/round-35/
 - Смежная (agent-memory-mcp, R01): docs/05-habr-projects/memory/agent-memory-mcp.md
 - Смежная (LangGraph, R44): docs/06-discovery/round-44/projects/langgraph-checkpoint-fault-tolerant-agents.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

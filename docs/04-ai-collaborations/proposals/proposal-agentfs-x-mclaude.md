@@ -3,7 +3,7 @@ title: "Proposal: Agentfs × Mclaude"
 date: 2026-05-13
 card_id: b6c05719426a
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, agentfs, mclaude, knowledge, orchestration, integration]
 projects: [agentfs, mclaude]
 similarity: 0.404
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Agentfs × Mclaude
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # Дистилляция агентских трейсов: обучение DevOps-LLM без разметки
+
+<!-- toc-auto -->
+<!-- tags: agent-trace-distillation-devops-llm, docs -->
+
+
+<!-- summary -->
+> Автор: makarsuperstar (Александр Макаренко) Хабр: https://habr.com/ru/articles/1033434/
+Хабр: https://habr.com/ru/articles/1033434/  
+GitHub: нет  
+Слой: analytics / orchestration  
+Дата: май 2026  
+Уникальность: Пайплайн дистилляции агентских трейсов для DevOps-LLM без ручной разметки: учит
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -282,3 +301,11 @@ class LorenzoTraceDistillation:
 - Смежная (синтетика граф-анализ, Сбер): https://habr.com/ru/companies/sberbank/articles/909934/
 - Смежная (OSS инструменты синтетики, MWS): https://habr.com/ru/companies/mws/articles/932066/
 - Смежная (DPO alignment без разметки): https://habr.com/ru/articles/1002298/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

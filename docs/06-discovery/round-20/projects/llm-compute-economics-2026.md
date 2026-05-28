@@ -1,4 +1,22 @@
+---
+date: 2026-05-28
+tags: [rag, knowledge, ingestion, architecture, self-improve]
+state: normalized
+---
+
 # LLM Compute Economics 2026 — когда и какую модель использовать
+
+<!-- toc-auto -->
+<!-- tags: llm-compute-economics-2026, docs -->
+
+
+<!-- summary -->
+> LLM Compute Economics 2026 — когда и какую модель использовать — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -149,3 +167,10 @@ class LLMRouter:
 - Смежная (Итоги LLM 2025): https://habr.com/ru/articles/982496/
 - Смежная (как считать экономику AI): openai.com/pricing
 - Token counter: platform.openai.com/tokenizer
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

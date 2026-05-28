@@ -1,4 +1,14 @@
+---
+state: normalized
+---
+
 # OpenClaw
+<!-- tags: openclaw, docs -->
+
+
+<!-- summary -->
+> Главная ценность: пять разных архитектур памяти — это готовая типология для Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -42,3 +52,17 @@ OpenClaw — это production-ready платформа для того, что 
 - GitHub: https://github.com/openclaw
 - Docs: https://docs.openclaw.ai/
 - Awesome list: https://github.com/SamurAIGPT/awesome-openclaw
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_openclaw.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

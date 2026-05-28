@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [ingestion, architecture, roadmap, anthropic, collaboration]
+state: normalized
+---
+
 # Temporal Fusion Transformer для прогнозирования спроса в ритейле
+
+<!-- toc-auto -->
+<!-- tags: x5tech-tft-retail-demand-forecasting, docs -->
+
+
+<!-- summary -->
+> Автор: mayo889 (Дмитрий Поляков), X5 Tech Хабр: https://habr.com/ru/companies/X5Tech/articles/869750/
+Хабр: https://habr.com/ru/companies/X5Tech/articles/869750/  
+GitHub: нет (внутренняя разработка Пятёрочка/Перекрёсток)  
+Слой: analytics  
+Дата: декабрь 2024  
+Уникальность: Production TFT для прогнозирова
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -283,3 +302,11 @@ class LorenzoTopicForecaster:
 - Darts: github.com/unit8co/darts
 - Смежная (LLM для временных рядов, Raft): https://habr.com/ru/companies/raft/articles/887486/
 - Смежная (X5 оптимизация маршрутов E-CUP): https://habr.com/ru/companies/X5Tech/articles/989466/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

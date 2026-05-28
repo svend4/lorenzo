@@ -1,4 +1,21 @@
+---
+date: 2026-05-28
+tags: [memory, orchestration, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # XAI Agent (SadSabrina)
+<!-- tags: xai-agent, docs -->
+
+
+<!-- summary -->
+> Хабр: https://habr.com/ru/articles/1033184/ GitHub: https://github.com/SadSabrina/XAI-open_materials
+Хабр: https://habr.com/ru/articles/1033184/  
+GitHub: https://github.com/SadSabrina/XAI-open_materials  
+Слой: observability / explainability  
+Дата: апрель–май 2026  
+Уникальность: Агент для генерации XAI (Explainable AI) отчёто
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -35,3 +52,17 @@ Svyazi накапливает знания — но не объясняет *п�
 
 - GitHub: https://github.com/SadSabrina
 - Telegram: https://t.me/jdata_blog
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_xai_agent.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

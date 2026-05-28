@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 22 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Graph RAG 96.7% (1003064, 2025) — 5 техник из научных статей: HippoRAG PageRank, RAPTOR иерархия, Self-RAG IsRel, CRAG corrective, Microsoft GraphRAG communities.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -73,3 +87,17 @@
 - **Conversational AI / диалоговые системы** — production chatbot архитектуры, state management, memory для долгих диалогов
 - **AI для бизнес-процессов (BPA)** — RPA + LLM: автоматизация рутины (не только тексты, но и GUI automation)
 - **Prompt injection защита** — атаки через внешние данные, защита production агентов, jailbreak-resistant архитектуры
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

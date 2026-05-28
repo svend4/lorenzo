@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # SherlockOps: LLM-агент автоматического расследования алертов
+
+<!-- toc-auto -->
+<!-- tags: sherlockops-llm-alert-investigation-devops, docs -->
+
+
+<!-- summary -->
+> `sherlockops-llm-alert-investigation-devops` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -287,3 +301,10 @@ class LorenzoHealthSherlock:
 - VictoriaMetrics: victoriametrics.com
 - Смежная (RAG-агент инцидент-менеджмент): https://habr.com/ru/companies/otus/articles/912228/
 - Смежная (AIOps Sberbank): https://habr.com/ru/companies/sber/articles/780648/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

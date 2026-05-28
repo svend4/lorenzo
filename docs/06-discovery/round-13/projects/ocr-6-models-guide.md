@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, architecture, collaboration]
+state: normalized
+---
+
 # OCR Guide — 6 open-source моделей для сложных документов
+
+<!-- toc-auto -->
+<!-- tags: ocr-6-models-guide, docs -->
+
+
+<!-- summary -->
+> Автор: независимый инженер (Хабр) Хабр: https://habr.com/ru/articles/966846/ GitHub: модели: PaddleOCR, Surya, EasyOCR, Tesseract, DocTR, Qwen3 VL
+Хабр: https://habr.com/ru/articles/966846/  
+GitHub: модели: PaddleOCR, Surya, EasyOCR, Tesseract, DocTR, Qwen3 VL  
+Слой: ingestion / document-AI / ocr  
+Дата: ноябрь 2025  
+Уникальность: Честное сравнение 6 open-
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -68,3 +87,10 @@ Lorenzo использует:
 - PaddleOCR GitHub: https://github.com/PaddlePaddle/PaddleOCR
 - Surya GitHub: https://github.com/VikParuchuri/surya
 - Qwen3 VL: через HuggingFace (Qwen/Qwen3-VL-30B-A3B)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

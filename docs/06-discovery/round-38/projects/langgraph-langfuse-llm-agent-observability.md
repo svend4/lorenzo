@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # Наблюдаемость LLM-агентов: LangGraph + LangFuse self-hosted
+
+<!-- toc-auto -->
+<!-- tags: langgraph-langfuse-llm-agent-observability, docs -->
+
+
+<!-- summary -->
+> `langgraph-langfuse-llm-agent-observability` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -331,3 +345,11 @@ class ObservableLorenzoPipeline:
 - Смежная (YADRO production Langfuse): https://habr.com/ru/companies/yadro/articles/978516/
 - Смежная (AI анализирует AI трейсы): https://habr.com/ru/articles/987230/
 - Смежная (обзор LLM observability ландшафта): https://habr.com/ru/articles/972480/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

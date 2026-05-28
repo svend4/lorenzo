@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Graph RAG 96.7% — production пайплайн из 5 научных статей за 5 дней
+
+<!-- toc-auto -->
+<!-- tags: graph-rag-96-percent-production, docs -->
+
+
+<!-- summary -->
+> Автор: независимый исследователь (Хабр) Хабр: https://habr.com/ru/articles/1003064/
+Хабр: https://habr.com/ru/articles/1003064/  
+GitHub: не опубликован (полная архитектура + код в статье)  
+Слой: knowledge / orchestration / memory  
+Дата: 2025  
+Уникальность: Практический production-кейс: 5
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -172,3 +191,10 @@ def ingest_to_neo4j(concept_graph_json: dict):
 - Self-RAG: arxiv.org/abs/2310.11511
 - RAPTOR: arxiv.org/abs/2401.18059
 - Смежная (GraphRAG теория): https://habr.com/ru/articles/871700/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

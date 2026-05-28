@@ -1,4 +1,16 @@
+---
+date: 2026-05-28
+tags: [orchestration, knowledge, ingestion, architecture, self-improve]
+state: normalized
+---
+
 # AI Review
+<!-- tags: ai-review, docs -->
+
+
+<!-- summary -->
+> AI Review + Lorenzo = автоматическое ревью изменений в docs/ при каждом коммите: «что изменилось, корректно ли, нет ли противоречий с другими файлами».
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -37,3 +49,17 @@ Svyazi генерирует и обновляет документы через 
 
 - GitHub: https://github.com/Nikita-Filonov
 - Habr: https://habr.com/ru/users/sound_right/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_ai_review.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

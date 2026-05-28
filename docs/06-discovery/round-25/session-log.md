@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 25 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Directum нормоконтроль (980140, декабрь 2025) — Open-source LLM на платформе Directum RX: проверка приказов/протоколов на стилистику + корпоративные стандарты через RAG регламентов.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -76,3 +90,18 @@
 - **Кастомные embedding-модели** — domain-specific embeddings, contrastive learning, fine-tune для корпоративного поиска
 - **AI для Supply Chain / Operations** — прогнозирование спроса, оптимизация маршрутов, warehouse AI
 - **LLM как ядро продукта (B2B SaaS)** — примеры где AI = core value proposition, не feature; monetization patterns
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)
+- [Решения](../../DECISIONS.md)

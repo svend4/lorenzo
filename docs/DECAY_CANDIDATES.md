@@ -1,4 +1,6 @@
 # Decay Candidates — Svyazi 2.0
+<!-- tags: decay-candidates, docs -->
+
 
 <!-- summary -->
 > > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

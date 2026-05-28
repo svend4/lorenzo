@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Научил ИИ-агента помнить важное и забывать лишнее в SQLite
+
+<!-- toc-auto -->
+<!-- tags: vitaly-oborin-conversational-memory-sqlite, docs -->
+
+
+<!-- summary -->
+> `vitaly-oborin-conversational-memory-sqlite` — раздел документации проекта Lorenzo.
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
@@ -341,3 +355,11 @@ class LorenzoAgentMemory:
 - Смежная (RAG vs persistent memory): https://habr.com/ru/articles/981540/
 - Смежная (Durable State R23): https://habr.com/ru/articles/1031440/
 - Matryoshka Embeddings: arxiv.org/abs/2205.13147
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

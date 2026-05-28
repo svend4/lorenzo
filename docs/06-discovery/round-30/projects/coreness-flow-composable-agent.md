@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # Coreness Flow: локальный AI-агент с plug-in архитектурой и горячей перезагрузкой
+
+<!-- toc-auto -->
+<!-- tags: coreness-flow-composable-agent, docs -->
+
+
+<!-- summary -->
+> Автор: Vensus (Хабр, март 2025) Хабр: https://habr.com/ru/articles/1005176/ GitHub: не опубликован (личный проект, архитектура детально описана)
+Хабр: https://habr.com/ru/articles/1005176/  
+GitHub: не опубликован (личный проект, архитектура детально описана)  
+Слой: orchestration / memory / knowledge  
+Дата: март 2025  
+Уникальность: Десктопный AI-агент с си
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -275,3 +294,11 @@ class LorenzoPluginHost:
 - BGE-M3 (multilingual embeddings): github.com/FlagOpen/FlagEmbedding
 - Qdrant (vector DB): github.com/qdrant/qdrant (Apache 2.0)
 - ONNX Runtime: github.com/microsoft/onnxruntime (MIT)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

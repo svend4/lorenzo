@@ -1,4 +1,22 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 28 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Мультимодальные LLM — видят, слышат и понимают (Сбер AI) Хабр: https://habr.com/ru/companies/oleg-bunin/articles/914848/
+ Файл:  
+ Хабр: https://habr.com/ru/companies/oleg-bunin/articles/914848/
+ Слой: orchestration / ingestion / analytics
+ Уникальность: Production-интервью с руководителем ML Сбер: три модальност
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -106,3 +124,10 @@ python scripts/improve_collab_finder.py --file docs/06-discovery/round-28/projec
 2. **LLM для баз данных** — AI-помощник DBA: автооптимизация запросов, обнаружение деградации производительности, NL2SQL второго поколения (самопроверяющийся)
 3. **Агентные системы мониторинга** — AI наблюдает за AI: meta-monitoring, агент который следит за другими агентами, drift detection в продакшн
 4. **Локализация и RU-специфика LLM** — особенности русского языка в LLM: морфология, ять-структуры, кириллические токены, RU-бенчмарки 2026
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, security, ingestion, architecture]
+state: normalized
+---
+
 # Федеративное обучение на Edge-устройствах с ограниченной памятью
+
+<!-- toc-auto -->
+<!-- tags: federated-learning-edge-devices, docs -->
+
+
+<!-- summary -->
+> Реальная экспериментальная платформа: Flower (федеративный координатор) + TensorFlow Federated (цифровые двойники) + LiteRT (TF Lite C++ API для on-device inference).
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -257,3 +271,10 @@ class FederatedLorenzoNode:
 - TensorFlow Federated: tensorflow.org/federated
 - LiteRT (TF Lite): ai.google.dev/edge/litert
 - Eltex Enterprise: eltex-co.ru
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 12 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> BI Agent Pattern — статья формулирует принцип, который Lorenzo должен реализовать: вместо статичных HEALTH.md, KPI.md, METRICS.md — агент, отвечающий на вопросы.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -63,3 +77,17 @@
 - **AI для тестирования кода** — automated test generation, mutation testing с LLM
 - **Federated learning / privacy ML** — обучение без передачи данных (open source)
 - **Document AI / IDP** — intelligent document processing, структурирование неструктурированного (русскоязычные)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

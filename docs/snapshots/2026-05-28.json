@@ -1,0 +1,61 @@
+{
+  "ts": "2026-05-28T21:57:39",
+  "date": "2026-05-28",
+  "corpus": {
+    "docs": 1570,
+    "words": 1776603,
+    "approved": 1012,
+    "normalized": 395,
+    "raw": 163,
+    "promote_pct": 64.5
+  },
+  "search": {
+    "hit_rate_10": 1.0,
+    "mean_mrr": 0.502,
+    "ann_built": true
+  },
+  "graph": {
+    "built": true,
+    "nodes": 1441,
+    "edges": 19043,
+    "isolated": 15,
+    "top_hubs": [
+      {
+        "id": "docs/autofilled/README.md",
+        "pr": 1.0
+      },
+      {
+        "id": "docs/autofilled/components/kksudo.md",
+        "pr": 0.4329
+      },
+      {
+        "id": "docs/autofilled/components/cowork.md",
+        "pr": 0.4327
+      }
+    ]
+  },
+  "skills": {
+    "count": 28,
+    "avg_score": 85.7
+  },
+  "activity": {
+    "commits_7d": 1,
+    "top_sections": [
+      [
+        "scripts",
+        2
+      ],
+      [
+        ".gitignore",
+        1
+      ],
+      [
+        "docstoolkit",
+        1
+      ]
+    ]
+  },
+  "queries": {
+    "count": 45
+  }
+}

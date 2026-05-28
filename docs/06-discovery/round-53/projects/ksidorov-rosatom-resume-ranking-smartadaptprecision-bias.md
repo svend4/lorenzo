@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Resume Ranking в Росатоме: SmartAdaptPrecision@K, обнаружение bias, 78% vs 84% рекрутер
+
+<!-- toc-auto -->
+<!-- tags: ksidorov-rosatom-resume-ranking-smartadaptprecision-bias, docs -->
+
+
+<!-- summary -->
+> `ksidorov-rosatom-resume-ranking-smartadaptprecision-bias` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -317,3 +331,11 @@ class LorenzoFairRanking:
 - BGE-M3: huggingface.co/BAAI/bge-m3
 - Смежная (HR AI, R23): docs/06-discovery/round-23/
 - Смежная (RAG Embedder Fine-Tuning, R50): docs/06-discovery/round-50/projects/huraligne-pgk-rag-embedder-finetuning-hard-negatives.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,21 @@
+---
+date: 2026-05-28
+tags: [memory, orchestration, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Self-Aware MCP Server
+<!-- tags: self-aware-mcp, docs -->
+
+
+<!-- summary -->
+> Автор: @vuguzum (Хабр + GitHub) Хабр: https://habr.com/ru/articles/1007122/ GitHub: https://github.com/vuguzum/self-aware-mcp-server
+Хабр: https://habr.com/ru/articles/1007122/  
+GitHub: https://github.com/vuguzum/self-aware-mcp-server  
+Слой: MCP / contextual-grounding  
+Дата: март 2026  
+Уникальность: MCP-сервер, который даёт агенту ответы на «W
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -45,3 +62,10 @@ claude mcp add self-aware python \
 
 - GitHub: https://github.com/vuguzum
 - Habr: https://habr.com/ru/users/vuguzum/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

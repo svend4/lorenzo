@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 09 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> HyperCortex Mesh Protocol — единственный за 9 раундов проект с децентрализованной архитектурой.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -62,3 +76,17 @@ PhraseNode (Natasha NER → PageRank) + PassageNode (чанки) + Cypher traver
 - AI для работы с видео/стриминга в реальном времени (не генерация, а анализ)
 - Workflow-движки нового поколения (не YAML, а граф или код)
 - Self-hosted RAG-стеки «под ключ» (one-command deploy)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

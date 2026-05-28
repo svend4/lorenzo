@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # BI Agent Pattern — AI-агент вместо дашборда
+
+<!-- toc-auto -->
+<!-- tags: bi-agent-pattern, docs -->
+
+
+<!-- summary -->
+> Автор: автор статьи (Хабр, аналитик/архитектор) Хабр: https://habr.com/ru/articles/1002254/
+Хабр: https://habr.com/ru/articles/1002254/  
+GitHub: нет (архитектурная статья)  
+Слой: orchestration / analytics / knowledge  
+Дата: 2025  
+Уникальность: Конкретная статья с архитектурным манифестом
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -71,3 +90,10 @@ BI Agent Pattern показывает следующий уровень: **аг�
 
 - Статья: https://habr.com/ru/articles/1002254/
 - Автор: не установлен по профилю
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

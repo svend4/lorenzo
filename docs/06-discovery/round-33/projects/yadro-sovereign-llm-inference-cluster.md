@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, security, knowledge, architecture]
+state: normalized
+---
+
 # Где живут LLM: суверенный инференс-кластер YADRO
+
+<!-- toc-auto -->
+<!-- tags: yadro-sovereign-llm-inference-cluster, docs -->
+
+
+<!-- summary -->
+> Провальная миграция с Triton на vLLM → затем с LiteLLM на vLLM Production Stack (экспоненциальный overhead при нагрузке).
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -277,3 +291,11 @@ LORENZO_SOVEREIGN_CONFIG = {
 - Смежная (Ollama vs vLLM vs llama.cpp сравнение): https://habr.com/ru/articles/948934/
 - vLLM Production Stack: github.com/vllm-project/production-stack
 - MT-Bench: github.com/philschmid/mt-bench
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

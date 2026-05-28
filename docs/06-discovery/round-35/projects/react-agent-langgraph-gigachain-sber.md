@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Современный ReAct-агент с LangGraph: от текстового парсинга к function calling
+
+<!-- toc-auto -->
+<!-- tags: react-agent-langgraph-gigachain-sber, docs -->
+
+
+<!-- summary -->
+> Автор: trashchenkov (GigaChain / Сбер AI) Хабр: https://habr.com/ru/companies/sberbank/articles/934938/
+Хабр: https://habr.com/ru/companies/sberbank/articles/934938/  
+GitHub: https://github.com/ai-forever/gigachain  
+Слой: orchestration  
+Дата: август 2025  
+Уникальность: Документирует переход от оригинально
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -321,3 +340,11 @@ lorenzo_agent = create_react_agent(
 - GigaChat API: developers.sber.ru/portal/products/gigachat
 - Оригинальный ReAct: arxiv.org/abs/2210.03629
 - Смежная (Production-ready AI агент ReAct + Advanced RAG): https://habr.com/ru/articles/981100/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

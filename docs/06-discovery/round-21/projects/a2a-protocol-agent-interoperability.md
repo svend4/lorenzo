@@ -1,4 +1,24 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # A2A Протокол v1.0 — стандарт межагентного взаимодействия (Google + Cloud.ru)
+
+<!-- toc-auto -->
+<!-- tags: a2a-protocol-agent-interoperability, docs -->
+
+
+<!-- summary -->
+> Task — долгоживущая операция A2A vs MCP: дополняют, не конкурируют Протокол | Для чего | Направление |
+ 
+A2A vs MCP: дополняют, не конкурируют
+ Протокол | Для чего | Направление |
+ ---------|----------|-------------|
+ MCP | Агент ↔ Инструменты/Ресурсы | клиент-сервер (LLM→Tool) |
+ A2A | Агент ↔ Агент | peer-to-peer (Agent→
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -168,3 +188,10 @@ Svyazi 2.0 = оркестратор → Lorenzo = специализирован
 - A2A спецификация: a2aprotocol.io
 - Смежная (A2A vs MCP): https://habr.com/ru/articles/900498/
 - Смежная (ACP протокол): https://habr.com/ru/companies/otus/articles/915156/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Robovoice: LLM + RAG для омниканальной службы поддержки
+
+<!-- toc-auto -->
+<!-- tags: robovoice-llm-rag-omnichannel-customer-support, docs -->
+
+
+<!-- summary -->
+> `robovoice-llm-rag-omnichannel-customer-support` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -310,3 +324,11 @@ class LorenzoSupportRouter:
 - LangChain: langchain.com
 - Смежная (LLM для колл-центра аналитика, codementor): https://habr.com/ru/articles/963364/
 - Смежная (T-Bank LLM поддержка, ira_step): https://habr.com/ru/companies/tbank/articles/879128/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

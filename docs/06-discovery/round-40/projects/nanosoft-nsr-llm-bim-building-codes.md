@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # NSR Specification: LLM для автоматической проверки BIM по строительным нормам
+
+<!-- toc-auto -->
+<!-- tags: nanosoft-nsr-llm-bim-building-codes, docs -->
+
+
+<!-- summary -->
+> Автор: nanocad (Нанософт) Хабр: https://habr.com/ru/companies/nanosoft/articles/947304/
+Хабр: https://habr.com/ru/companies/nanosoft/articles/947304/  
+GitHub: нет (коммерческая разработка)  
+Слой: analytics / orchestration  
+Дата: сентябрь 2025  
+Уникальность: Единственная российская система автоматического
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -319,3 +338,11 @@ class LorenzoNormativeExtractor:
 - IFC: buildingsmart.org/standards/bsi-standards/industry-foundation-classes/
 - Смежная (RAG для строительных нормативов): https://habr.com/ru/articles/992348/
 - Смежная (ML в строительстве, Magnus Tech): https://habr.com/ru/companies/magnus-tech/articles/867756/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

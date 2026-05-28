@@ -11,7 +11,7 @@
 > `COVERAGE` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-28_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -22,7 +22,7 @@ _Обновлено: 2026-05-13_
 | `01-svyazi` | 14 | 🟢 14/14 | 🟢 14/14 | 🟢 14/14 | 🟢 13/14 | 🔴 0/14 | 🟢 14/14 |
 | `02-anthropic-vacancies` | 355 | 🟢 355/355 | 🟢 355/355 | 🟢 355/355 | 🟢 355/355 | 🔴 0/355 | 🟢 355/355 |
 | `03-technology-combinations` | 5 | 🟢 5/5 | 🟢 5/5 | 🟢 5/5 | 🟢 5/5 | 🔴 0/5 | 🟢 5/5 |
-| `04-ai-collaborations` | 15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 | 🟢 15/15 |
+| `04-ai-collaborations` | 37 | 🟢 37/37 | 🟢 37/37 | 🔴 15/37 | 🟢 37/37 | 🔴 15/37 | 🟢 37/37 |
 | `05-habr-projects` | 12 | 🟢 12/12 | 🟢 12/12 | 🟢 12/12 | 🟡 6/12 | 🟢 12/12 | 🟢 12/12 |
 
 ## Полное покрытие — 21 файлов
@@ -60,27 +60,3 @@ python scripts/improve_autofill.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [HEATMAP](HEATMAP.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [SUMMARIES](SUMMARIES.md)
-- [STALENESS](STALENESS.md)
-- [SCORING](SCORING.md)
-- [SCHEDULE](SCHEDULE.md)
-

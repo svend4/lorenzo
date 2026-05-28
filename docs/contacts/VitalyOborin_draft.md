@@ -1,15 +1,33 @@
 ---
+state: normalized
 author: VitalyOborin
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [memory, knowledge, ingestion, architecture, collaboration]
 ---
 
 # Черновик сообщения — VitalyOborin (GitHub)
+<!-- tags: vitalyoborin-draft, docs -->
+
 
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (4):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Cutcode_draft
+ Dmitriila_draft
+ VladSpace_draft
+ nlaik_draft
+ --
+Кто ссылается на этот документ (4):
+ DIGEST_AUTO
+ READING_TIME
+ VladSpace_draft
+ nlaik
 **Проекты:** Svyazi, Yodoca, Wikontic
 
 ---
@@ -65,3 +83,10 @@ svend4
 - [VladSpace_draft](VladSpace_draft.md)
 - [nlaik_draft](nlaik_draft.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_vitalyoborin_draft.py
+```

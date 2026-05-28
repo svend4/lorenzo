@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # RAG своими руками: гибридный поиск для корпоративного AI-помощника МТС
+
+<!-- toc-auto -->
+<!-- tags: mts-enterprise-rag-hybrid-search, docs -->
+
+
+<!-- summary -->
+> Автор: Илья Парамошин (iliadev), МТС Хабр: https://habr.com/ru/companies/ru_mts/articles/970476/
+Хабр: https://habr.com/ru/companies/ru_mts/articles/970476/  
+GitHub: не опубликован (production-система МТС)  
+Слой: ingestion / orchestration / knowledge  
+Дата: декабрь 2025  
+Уникальность: Редкий enterprise
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -269,3 +288,10 @@ class LorenzoEnterpriseRAG:
 - Смежная (DAT dynamic alpha hybrid): https://habr.com/ru/articles/970594/
 - BGE-M3: github.com/FlagOpen/FlagEmbedding (MIT)
 - pgvector: github.com/pgvector/pgvector (PostgreSQL extension)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

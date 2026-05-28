@@ -1,4 +1,19 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 06 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> DevClaw SaaS Pattern — архитектурный паттерн, который закрывает петлю Lorenzo: GitHub Issues → Claude агент → → PR.
+GitHub Issues → Claude агент →   → PR.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -55,3 +70,17 @@ GitHub Issues → Claude агент → `improve_*.py` → PR. Это то, чт
 - Decentralized / federated AI (без единого сервера)
 - Русскоязычные образовательные AI (персональные тьюторы)
 - Специализированные MCP-серверы (БД, файловые системы, бизнес-инструменты)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

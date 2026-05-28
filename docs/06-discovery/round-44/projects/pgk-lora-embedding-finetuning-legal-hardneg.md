@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # LoRA fine-tuning эмбеддингов на юридических документах с hard-negative mining
+
+<!-- toc-auto -->
+<!-- tags: pgk-lora-embedding-finetuning-legal-hardneg, docs -->
+
+
+<!-- summary -->
+> `pgk-lora-embedding-finetuning-legal-hardneg` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -283,3 +297,11 @@ class LorenzoEmbeddingFineTune:
 - Смежная (FRIDA русская эмбеддинг-модель, SberDevices): https://habr.com/ru/companies/sberdevices/articles/909924/
 - Смежная (ruMTEB бенчмарк): https://habr.com/ru/companies/sberdevices/articles/831150/
 - NVIDIA NV-Retriever: arxiv.org/abs/2407.15831
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

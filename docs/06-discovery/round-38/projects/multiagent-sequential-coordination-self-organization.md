@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Долой иерархию: LLM-агенты самоорганизуются лучше, чем мы их проектируем
+
+<!-- toc-auto -->
+<!-- tags: multiagent-sequential-coordination-self-organization, docs -->
+
+
+<!-- summary -->
+> `multiagent-sequential-coordination-self-organization` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -287,3 +301,11 @@ class LorenzoSequentialEnrichment:
 - Смежная (Agent Federation MQTT+HNSW): https://habr.com/ru/articles/951248/
 - Смежная (ACI формализованный интерфейс агентов): https://habr.com/ru/articles/945472/
 - Смежная (оркестрация Domclick, BPMN+LLM): https://habr.com/ru/companies/domclick/articles/966066/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

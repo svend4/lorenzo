@@ -1,15 +1,23 @@
 # Сравнение с предыдущим коммитом
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `COMPARE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
-
-**Файлов было:** 1538  **стало:** 2606  
-**Слов было:** 2,098,862  **стало:** 2,980,971  **Δ:** +882,109
+<!-- tags: compare, docs -->
 
 
-## Новые файлы (1068)
+<!-- summary -->
+> `COMPARE` — раздел документации проекта Lorenzo.
+
+
+**Файлов было:** 2444  **стало:** 2736  
+**Слов было:** 2,642,024  **стало:** 3,028,892  **Δ:** +386,868
+
+
+## Новые файлы (292)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19244 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3391 слов)
@@ -51,56 +59,44 @@
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (657 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (590 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (691 слов)
-_...и ещё 1028_
+_...и ещё 252_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (480) — топ по Δ слов
+## Изменившиеся файлы (18) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `QUESTIONS.md` | 21866 | 1877 | -19989 |
-| `READING_TIME.md` | 27576 | 28716 | +1140 |
-| `READING_TIME.md` | 27554 | 28672 | +1118 |
-| `DUPLICATES.md` | 1653 | 2266 | +613 |
-| `DUPLICATES.md` | 1650 | 2241 | +591 |
-| `LANGUAGE_STATS.md` | 7933 | 8413 | +480 |
-| `READING_ORDER.md` | 6098 | 6458 | +360 |
-| `CROSS_SECTION.md` | 4382 | 4724 | +342 |
-| `READING_ORDER.md` | 6144 | 6469 | +325 |
-| `DECISIONS.md` | 2723 | 2622 | -101 |
-| `DECISIONS.md` | 2705 | 2616 | -89 |
-| `VladSpace_draft.md` | 119 | 198 | +79 |
-| `Dmitriila_draft.md` | 115 | 193 | +78 |
-| `nlaik_draft.md` | 115 | 193 | +78 |
-| `DIGEST_WEEKLY.md` | 420 | 342 | -78 |
-| `Cutcode_draft.md` | 109 | 186 | +77 |
-| `DIGEST_WEEKLY.md` | 255 | 330 | +75 |
-| `TAGS.md` | 556 | 631 | +75 |
-| `spbmolot_draft.md` | 119 | 193 | +74 |
-| `MiXaiLL76_draft.md` | 123 | 196 | +73 |
-| `STALENESS.md` | 355 | 427 | +72 |
-| `PROMOTE_LOG.md` | 4325 | 4396 | +71 |
-| `HOT_CARDS.md` | 192 | 260 | +68 |
-| `KNOWLEDGE_SNAPSHOT.md` | 146 | 214 | +68 |
-| `VitalyOborin_draft.md` | 115 | 183 | +68 |
-| `KPI_HISTORY.md` | 207 | 273 | +66 |
-| `SKILL_METRICS.md` | 674 | 740 | +66 |
-| `AnastasiyaW_draft.md` | 116 | 182 | +66 |
-| `34-appendix-b-change-log.md` | 892 | 958 | +66 |
-| `Sonia_Black_draft.md` | 115 | 180 | +65 |
+| `CHANGELOG.md` | 985 | 15389 | +14404 |
+| `QA.md` | 2272 | 336 | -1936 |
+| `CONTACTS.md` | 642 | 861 | +219 |
+| `QA.md` | 340 | 183 | -157 |
+| `QA.md` | 309 | 160 | -149 |
+| `QA.md` | 2219 | 2088 | -131 |
+| `QA.md` | 197 | 70 | -127 |
+| `QA.md` | 236 | 114 | -122 |
+| `QA.md` | 441 | 323 | -118 |
+| `QA.md` | 341 | 226 | -115 |
+| `QA.md` | 321 | 207 | -114 |
+| `QA.md` | 160 | 47 | -113 |
+| `QA.md` | 333 | 220 | -113 |
+| `QA.md` | 205 | 107 | -98 |
+| `READING_ORDER.md` | 6458 | 6371 | -87 |
+| `QA.md` | 184 | 145 | -39 |
+| `STATS.md` | 777 | 749 | -28 |
+| `HEALTH.md` | 334 | 308 | -26 |
 
-<!-- backlinks -->
 
----
+## Использование
+```bash
+# Запуск
+python scripts/improve_compare.py
+```
 
-**Кто ссылается на этот документ (7):**
-- [COMPLEXITY](COMPLEXITY.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

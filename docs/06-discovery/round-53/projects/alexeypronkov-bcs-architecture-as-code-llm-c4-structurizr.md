@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [orchestration, security, ingestion, architecture, anthropic]
+state: normalized
+---
+
 # Architecture as Code + LLM: 5 ролей архитектурного ревью через Claude + Structurizr DSL
+
+<!-- toc-auto -->
+<!-- tags: alexeypronkov-bcs-architecture-as-code-llm-c4-structurizr, docs -->
+
+
+<!-- summary -->
+> `alexeypronkov-bcs-architecture-as-code-llm-c4-structurizr` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -300,3 +314,11 @@ class LorenzoArchitectureReview:
 - Смежная (MTS LLM code review, R47): docs/06-discovery/round-47/projects/mts-evgzor-llm-code-review-gitlab-n8n-ollama.md
 - Смежная (AI code agents v2, R33): docs/06-discovery/round-33/
 - Смежная (Design by Contract, R51): docs/06-discovery/round-51/projects/miller83-design-by-contract-llm-crypto-hardware.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

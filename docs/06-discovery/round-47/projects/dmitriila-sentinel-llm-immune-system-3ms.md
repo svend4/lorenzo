@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # SENTINEL: трёхслойная иммунная система для LLM за <3ms
+
+<!-- toc-auto -->
+<!-- tags: dmitriila-sentinel-llm-immune-system-3ms, docs -->
+
+
+<!-- summary -->
+> `dmitriila-sentinel-llm-immune-system-3ms` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -313,3 +327,11 @@ class LorenzoGatewayProtection:
 - Смежная (Kaspersky MCP security, R40): docs/06-discovery/round-40/
 - Смежная (Privacy Gateway PII, R41): docs/06-discovery/round-41/projects/privacy-llm-pii-gateway-ondevice-rag.md
 - Смежная (LLM AppSec, R22): docs/06-discovery/round-22/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

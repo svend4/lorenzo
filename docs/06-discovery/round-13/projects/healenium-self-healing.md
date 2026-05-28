@@ -1,4 +1,22 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # Healenium + локальная LLM — самовосстанавливающиеся тесты
+
+<!-- toc-auto -->
+<!-- tags: healenium-self-healing, docs -->
+
+
+<!-- summary -->
+> Healenium + локальная LLM — самовосстанавливающиеся тесты — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -78,3 +96,10 @@ Lorenzo имеет 159 скриптов (`improve_*.py`) и тест-смоук 
 - GitHub (Python-паттерн): статья 887226 на Хабре
 - Статья: https://habr.com/ru/articles/887226/
 - Лицензия: Apache 2.0
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

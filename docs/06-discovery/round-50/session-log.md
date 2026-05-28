@@ -1,4 +1,19 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # Round 50 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> habr.com/ru/companies/redmadrobot/articles/971388/ andre_dataist (SR-Scientist): ReAct-агент с буфером опыта (best equations across sessions) + GRPO с непрерывной наградой r=1−min(NMSE,1).
+ andre_dataist (SR-Scientist): ReAct-агент с буфером опыта (best equations across sessions) + GRPO с непрерывной наградой r=1−min(NMSE,1).
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -98,3 +113,10 @@
 | R49 | 4 | Finance RAG 4-head, GBNF constrained decoding, Self-hosted 4×4090, SAP Text2SQL |
 | R50 | 4 | LLM персонализация v3, Qwen3Guard модерация, SR-Scientist, RAG embedder fine-tuning |
 | **Итого** | **204** | |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```

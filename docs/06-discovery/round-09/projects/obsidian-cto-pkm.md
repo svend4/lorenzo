@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [rag, knowledge, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Obsidian PKM система для технического директора
+
+<!-- toc-auto -->
+<!-- tags: obsidian-cto-pkm, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья май 2026) Хабр: https://habr.com/ru/articles/1028272/ GitHub: нет (workflow-статья)
+Хабр: https://habr.com/ru/articles/1028272/  
+GitHub: нет (workflow-статья)  
+Слой: knowledge / PKM / personal  
+Дата: май 2026  
+Уникальность: Детальная система персонального управления знаниями для технаря: Obs
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -57,3 +76,10 @@ Lorenzo уже имеет `improve_obsidian.py` (YAML frontmatter + wikilinks).
 
 - Статья: https://habr.com/ru/articles/1028272/ (май 2026)
 - Аналогичная статья: https://habr.com/ru/articles/1033090/ (другой автор, та же тема)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

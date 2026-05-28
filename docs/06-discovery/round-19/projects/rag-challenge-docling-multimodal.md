@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, ingestion, architecture, self-improve]
+state: normalized
+---
+
 # RAG Challenge победитель — Docling + multimodal pipeline для PDF с таблицами
+
+<!-- toc-auto -->
+<!-- tags: rag-challenge-docling-multimodal, docs -->
+
+
+<!-- summary -->
+> Автор: независимый разработчик (Хабр, март 2025) Хабр: https://habr.com/ru/articles/893356/
+Хабр: https://habr.com/ru/articles/893356/  
+GitHub: не опубликован (конкурсный проект, но все техники описаны)  
+Слой: ingestion / knowledge / orchestration  
+Дата: март 2025  
+Уникальность: Победа
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -144,3 +163,10 @@ Docling даёт следующий уровень:
 - Docling PyPI: pip install docling
 - Смежная (PDF hardcore): https://habr.com/ru/articles/996144/
 - Смежная (Hybrid RAG + Docling + Qwen2.5-VL): https://habr.com/ru/articles/1024696/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

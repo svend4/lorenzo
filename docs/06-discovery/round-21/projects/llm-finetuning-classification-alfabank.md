@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # LLM для текстовой классификации — лабораторная работа Альфа-Банка
+
+<!-- toc-auto -->
+<!-- tags: llm-finetuning-classification-alfabank, docs -->
+
+
+<!-- summary -->
+> Автор: команда Альфа-Банк (ML-инженеры) Хабр: https://habr.com/ru/companies/alfa/articles/968176/
+Хабр: https://habr.com/ru/companies/alfa/articles/968176/  
+GitHub: не опубликован (внутренняя разработка, методика описана полностью)  
+Слой: knowledge / ingestion / orchestration  
+Дата: 2025  
+Уникальность
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -185,3 +204,10 @@ Fine-tuned LLM = следующий уровень:
 - Unsloth (fast fine-tuning): github.com/unslothai/unsloth (Apache 2.0)
 - Qwen2.5: github.com/QwenLM/Qwen2.5 (Apache 2.0)
 - ruBERT: huggingface.co/ai-forever/ruBERT-large
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

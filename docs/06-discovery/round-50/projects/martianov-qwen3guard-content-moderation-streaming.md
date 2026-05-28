@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [security, knowledge, ingestion, local-first, architecture]
+state: normalized
+---
+
 # Qwen3Guard: модерация контента с on-the-fly логитами против LlamaGuard и ShieldGemma
+
+<!-- toc-auto -->
+<!-- tags: martianov-qwen3guard-content-moderation-streaming, docs -->
+
+
+<!-- summary -->
+> `martianov-qwen3guard-content-moderation-streaming` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -324,3 +338,11 @@ class LorenzoContentGuard:
 - Смежная (SENTINEL LLM защита, R47): docs/06-discovery/round-47/projects/dmitriila-sentinel-llm-immune-system-3ms.md
 - Смежная (LLM AppSec, R22): docs/06-discovery/round-22/
 - Смежная (red-teaming, R33): docs/06-discovery/round-33/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

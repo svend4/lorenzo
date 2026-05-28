@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 19 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Desmond (Альфа-Банк, 2025) — паттерн Cognitive Worker: агент без диалога, запускается по webhook из Jira, проверяет документ Confluence по 20+ критериям, возвращает structured report.
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -71,3 +85,17 @@
 - **AI для тестирования** — mutation testing, property-based testing через LLM, авто-генерация edge cases
 - **Knowledge distillation 2026** — перегонка больших моделей в маленькие через synthetic traces (паттерн из R16 + свежие техники)
 - **Streaming + real-time AI** — WebSocket-агенты, streaming RAG, событийные системы с LLM
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

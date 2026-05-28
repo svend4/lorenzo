@@ -1,4 +1,19 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # Round 51 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> habr.com/ru/articles/1025244/ vladotpad (Innopolis): ЕГЭ AI-репетитор — 3 итерации (RAG→агент→fine-tune), 6-сценарный педагогический оркестратор включая «сократическую частичную помощь», math OCR→LaTeX, отказ от LangChain в пользу bare OpenAI API (к
+ vladotpad (Innopolis): ЕГЭ AI-репетитор — 3 итерации (RAG→агент→fine-tune), 6-сценарный педагогический оркестратор включая «сократическую частичную помощь», math OCR→LaTeX, отказ от LangChain в пользу bare OpenAI API (к
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -99,3 +114,10 @@
 | R50 | 4 | LLM персонализация v3, Qwen3Guard модерация, SR-Scientist, RAG embedder fine-tuning |
 | R51 | 4 | Video RAG CLIP, Design by Contract, ЕГЭ репетитор, FREED++ drug discovery |
 | **Итого** | **208** | |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```

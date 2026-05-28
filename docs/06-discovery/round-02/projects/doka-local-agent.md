@@ -1,4 +1,21 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Doka (локальный AI-агент)
+<!-- tags: doka-local-agent, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья без явного GitHub) Хабр: https://habr.com/ru/articles/1015048/
+Хабр: https://habr.com/ru/articles/1015048/  
+GitHub: не найден (нужно уточнить в комментариях)  
+Слой: local-agent / ui  
+Дата: март 2026  
+Уникальность: Десктопное приложение-агент с GUI для России — б
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -38,3 +55,17 @@ GUI-слой для Svyazi — один из пробелов. Doka показы
 ## Контакт
 
 - Комментарии статьи: https://habr.com/ru/articles/1015048/comments/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_doka_local_agent.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

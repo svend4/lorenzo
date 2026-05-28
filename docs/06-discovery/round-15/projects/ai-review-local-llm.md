@@ -1,4 +1,22 @@
+---
+date: 2026-05-28
+tags: [orchestration, security, architecture, anthropic, self-improve]
+state: normalized
+---
+
 # AI Review — локальное LLM-ревью кода в CI/CD
+
+<!-- toc-auto -->
+<!-- tags: ai-review-local-llm, docs -->
+
+
+<!-- summary -->
+> AI Review — локальное LLM-ревью кода в CI/CD — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -73,3 +91,10 @@ AI Review добавляет **LLM-ревью самих скриптов** (`sc
 - Статья (инструмент): https://habr.com/ru/articles/951434/
 - Статья (гайд за 30 мин): https://habr.com/ru/articles/953598/
 - Гайд с Ollama: https://vc.ru/ai/2888775
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

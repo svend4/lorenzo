@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, ingestion, local-first, architecture]
+state: normalized
+---
+
 # Rewrite Factory: LLM в стиле конкретного СМИ через стилевую декомпозицию
+
+<!-- toc-auto -->
+<!-- tags: rewrite-factory-llm-media-style-decomposition, docs -->
+
+
+<!-- summary -->
+> `rewrite-factory-llm-media-style-decomposition` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -310,3 +324,11 @@ class LorenzoStyleAdapter:
 - Смежная (n8n + GigaChat + Telegram дайджест): https://habr.com/ru/articles/966928/
 - Смежная (детекция AI-текста гибридный подход): https://habr.com/ru/amp/publications/1029046/
 - Смежная (мониторинг СМИ vs ChatGPT): https://habr.com/ru/companies/scan_interfax/articles/1026422/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

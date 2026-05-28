@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # Будущее ИИ — формальные грамматики: GBNF, XGrammar и constrained decoding для LLM
+
+<!-- toc-auto -->
+<!-- tags: safreliy-gbnf-xgrammar-constrained-decoding, docs -->
+
+
+<!-- summary -->
+> `safreliy-gbnf-xgrammar-constrained-decoding` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -309,3 +323,11 @@ ws        ::= [ \t\n]*
 - Иерархия Хомского: en.wikipedia.org/wiki/Chomsky_hierarchy
 - Смежная (Structured output v2, R40): docs/06-discovery/round-40/
 - Смежная (SAP Text2SQL, R49): docs/06-discovery/round-49/projects/gennadybanin-text2sql-sap-erp-schema-explorer.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

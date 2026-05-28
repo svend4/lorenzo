@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Structured Output: три уровня надёжности — Instructor, BAML, Outlines
+
+<!-- toc-auto -->
+<!-- tags: structured-output-three-levels-instructor-outlines, docs -->
+
+
+<!-- summary -->
+> `structured-output-three-levels-instructor-outlines` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -300,3 +314,11 @@ class LorenzoStructuredQA:
 - Outlines: https://github.com/dottxt-ai/outlines
 - Смежная (structured output паттерны, obulygin): https://habr.com/ru/articles/1025172/
 - Смежная (function calling OSS модели, MTS AI): https://habr.com/ru/companies/mts_ai/articles/831220/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # LLM в Data Quality: генерация правил и диагностика инцидентов без потери контроля
+
+<!-- toc-auto -->
+<!-- tags: just-ai-llm-data-quality-pipeline, docs -->
+
+
+<!-- summary -->
+> Автор: Арина Макунина, Just AI (Хабр, апрель 2026) Хабр: https://habr.com/ru/companies/just_ai/articles/1011428/
+Хабр: https://habr.com/ru/companies/just_ai/articles/1011428/  
+GitHub: не опубликован (production-система Just AI)  
+Слой: orchestration / analytics  
+Дата: апрель 2026  
+Уникальность: Трёхуровнев
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -321,3 +340,11 @@ class LorenzoDataQuality:
 - Смежная (AIDA, dbt агенты, Газпромбанк): https://habr.com/ru/companies/gazprombank/articles/975026/
 - Claude Sonnet 4: anthropic.com/claude
 - Caila: caila.just-ai.com
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

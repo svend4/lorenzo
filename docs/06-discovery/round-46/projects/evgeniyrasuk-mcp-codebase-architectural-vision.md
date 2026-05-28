@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # MCP-сервер для кодовой базы: Tree-sitter + sqlite-vec + архитектурное зрение LLM
+
+<!-- toc-auto -->
+<!-- tags: evgeniyrasuk-mcp-codebase-architectural-vision, docs -->
+
+
+<!-- summary -->
+> `evgeniyrasuk-mcp-codebase-architectural-vision` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -333,3 +347,11 @@ class LorenzoCodebaseVision:
 - Смежная (Kaspersky MCP security, R40): docs/06-discovery/round-40/
 - Смежная (AgentFS файловый MCP, R05): docs/06-discovery/round-05/
 - Смежная (LLM DevSecOps, R34): docs/06-discovery/round-34/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

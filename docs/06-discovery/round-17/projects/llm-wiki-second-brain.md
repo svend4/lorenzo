@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # LLM-Wiki — второй мозг как инфраструктура для AI-агента
+
+<!-- toc-auto -->
+<!-- tags: llm-wiki-second-brain, docs -->
+
+
+<!-- summary -->
+> Автор: независимый разработчик (Хабр, май 2026) Хабр: https://habr.com/ru/articles/1031970/
+Хабр: https://habr.com/ru/articles/1031970/  
+GitHub: vault с AGENTS.md (Obsidian + Claude Code / Codex CLI)  
+Слой: knowledge / orchestration / memory  
+Дата: май 2026  
+Уникальность: Смена парадигмы
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -85,3 +104,10 @@ Lorenzo **уже реализует** этот паттерн:
 - Смежная (Obsidian + Claude Code): https://habr.com/ru/companies/bothub/articles/985736/
 - Смежная (локально без подписок): https://habr.com/ru/articles/1022080/
 - Смежная (второй мозг для агента): https://habr.com/ru/articles/1031112/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

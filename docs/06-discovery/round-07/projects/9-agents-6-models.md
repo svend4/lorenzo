@@ -1,4 +1,23 @@
+---
+date: 2026-05-28
+tags: [orchestration, ingestion, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # 9 агентов, 6 моделей, 1 сервер
+
+<!-- toc-auto -->
+<!-- tags: 9-agents-6-models, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья март 2026 — уточнить профиль) Хабр: https://habr.com/ru/articles/1009608/
+Хабр: https://habr.com/ru/articles/1009608/  
+GitHub: не найден явно  
+Слой: orchestration / multi-agent / model-selection  
+Дата: март 2026  
+Уникальность: Практическое руководство по построе
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
@@ -51,3 +70,17 @@ Lorenzo уже использует multi-agent принцип через `impro
 
 - Статья: https://habr.com/ru/articles/1009608/ (март 2026)
 - ⚠️ Нужно найти GitHub и автора
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_9_agents_6_models.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

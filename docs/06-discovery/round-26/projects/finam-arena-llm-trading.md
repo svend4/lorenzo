@@ -1,4 +1,22 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, local-first, architecture, self-improve]
+state: normalized
+---
+
 # Finam Arena: 6 LLM торгуют на бирже 39 дней — автономный эксперимент
+
+<!-- toc-auto -->
+<!-- tags: finam-arena-llm-trading, docs -->
+
+
+<!-- summary -->
+> Finam Arena: 6 LLM торгуют на бирже 39 дней — автономный эксперимент — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -210,3 +228,10 @@ class LorenzoBenchmarkAgent:
 - Смежная (Finam MCP для выбора акций): https://habr.com/ru/companies/finam_broker/articles/977740/
 - Finam Trade API: api.finam.ru
 - FinGPT (open-source): github.com/AI4Finance-Foundation/FinGPT (MIT)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

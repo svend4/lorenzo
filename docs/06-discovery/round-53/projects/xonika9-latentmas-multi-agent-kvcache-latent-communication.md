@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [rag, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # LatentMAS: Мультиагентная система через KV-cache латентное пространство, +14.6pp, -80% токенов
+
+<!-- toc-auto -->
+<!-- tags: xonika9-latentmas-multi-agent-kvcache-latent-communication, docs -->
+
+
+<!-- summary -->
+> `xonika9-latentmas-multi-agent-kvcache-latent-communication` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -297,3 +311,11 @@ class LorenzoLatentSearch:
 - Смежная (Coordination Harness, R46): docs/06-discovery/round-46/
 - Смежная (Multi-agent case, R21): docs/06-discovery/round-21/
 - Смежная (YandexGPT Accel DMC, R53): docs/06-discovery/round-53/projects/roman-gorb-yandex-llm-acceleration-speculative-dmc-kvcache.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

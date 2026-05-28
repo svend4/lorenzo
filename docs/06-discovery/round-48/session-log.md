@@ -1,4 +1,18 @@
+---
+date: 2026-05-28
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # Round 48 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> session-log — раздел документации проекта Lorenzo. Документ содержит описание рисков и ограничений.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -96,3 +110,18 @@
 | Structured output v3 | Новые техники извлечения структурированных данных: JSON mode, Instructor, constrained decoding |
 | Self-hosted AI stack v2 | Новые self-hosted решения: локальные LLM-стеки без облака (Ollama, vLLM, llama.cpp обновления) |
 | LLM + базы данных v2 | Text2SQL и NL2SQL продвинутые: схема-агностичный поиск, автоматическая генерация запросов |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)
+- [Решения](../../DECISIONS.md)
