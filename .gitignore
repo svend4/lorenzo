@@ -30,3 +30,7 @@ docs-toolkit/*.egg-info/
 docs/ann_index.bin
 docs/ann_proj.npy
 docs/ann_meta.json
+.claude/llm_debug.txt  
+fix_cwd.py  
+fix_env.py  
+test_config.py  

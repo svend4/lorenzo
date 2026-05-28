@@ -46,7 +46,14 @@ class Config:
 
 
 def find_config(start: Path | None = None) -> Path | None:
-    """Идёт вверх по дереву ища docstoolkit.toml."""
+    """Идёт вверх по дереву ища docstoolkit.toml.
+    Если задана переменная DOCSTOOLKIT_ROOT — проверяет её первой."""
+    import os
+    env_root = os.environ.get("DOCSTOOLKIT_ROOT")
+    if env_root:
+        candidate = Path(env_root) / "docstoolkit.toml"
+        if candidate.exists():
+            return candidate
     cur = (start or Path.cwd()).resolve()
     for parent in [cur, *cur.parents]:
         candidate = parent / "docstoolkit.toml"

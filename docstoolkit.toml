@@ -1,0 +1,32 @@
+# docstoolkit configuration for Lorenzo monorepo
+# Generated automatically by Cowork setup
+
+[paths]
+docs_dir       = "docs"
+templates_dir  = "docs/templates"
+schemas_dir    = "docs/templates/_schemas"
+sources_dir    = "sources"
+scripts_dir    = "scripts"
+index_file     = "docs/search_index.json"
+passages_file  = "docs/passages.json"
+contacts_file  = "docs/contacts/CONTACTS.md"
+health_file    = "docs/HEALTH.md"
+scoring_file   = "docs/SCORING.md"
+metrics_file   = "docs/METRICS.md"
+decisions_file = "docs/DECISIONS.md"
+progress_file  = "docs/PROGRESS.md"
+
+[search]
+default_top_k  = 5
+bm25_top_k     = 10
+min_score      = 0.0
+
+[llm]
+model          = "claude-opus-4-6"
+max_tokens     = 2048
+cache_ttl_days = 7
+
+[export]
+obsidian_dir   = "docs/obsidian"
+epub_title     = "Lorenzo Knowledge Base"
+rss_title      = "Lorenzo Updates"

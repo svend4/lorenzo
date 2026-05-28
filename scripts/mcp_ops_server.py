@@ -42,12 +42,19 @@ SQL_READ_ONLY_RE = re.compile(r'^\s*select\s', re.IGNORECASE)
 
 def tool_doctor() -> str:
     """Запускает docstoolkit doctor и возвращает отчёт."""
+    import os
     sys.path.insert(0, str(ROOT / "docs-toolkit"))
     try:
         from docstoolkit.doctor import run_all_checks, render_text
+        from docstoolkit.config import load_config
     except ImportError:
         return "❌ docs-toolkit недоступен"
-    results = run_all_checks()
+    old_cwd = os.getcwd()
+    try:
+        os.chdir(str(ROOT))
+        results = run_all_checks()
+    finally:
+        os.chdir(old_cwd)
     return render_text(results)
 
 
