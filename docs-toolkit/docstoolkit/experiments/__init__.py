@@ -16,8 +16,10 @@
 """
 from docstoolkit.experiments.types import Experiment, ExperimentResult, VariantResult
 from docstoolkit.experiments.runner import run_experiment, run_variant
+from docstoolkit.experiments.auto_stop import SPRTConfig, SPRTState, SPRTEngine
 
 __all__ = [
     "Experiment", "ExperimentResult", "VariantResult",
     "run_experiment", "run_variant",
+    "SPRTConfig", "SPRTState", "SPRTEngine",
 ]

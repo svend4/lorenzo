@@ -23,10 +23,18 @@ from docstoolkit.agent.planner import (
     Subtask, SubtaskResult, Plan, PlanExecuteResult,
     heuristic_planner, execute_plan, plan_and_execute,
 )
+from docstoolkit.agent.composer import (
+    SequentialPipeline, ParallelFanOut, ConditionalRoute,
+    RetryWrapper, FallbackChain, TracedTool, ToolTrace,
+    compose, parallel, when, retry, fallback,
+)
 
 __all__ = [
     "Tool", "ToolCall", "AgentStep", "AgentResult",
     "AgentLoop", "default_tools",
     "Subtask", "SubtaskResult", "Plan", "PlanExecuteResult",
     "heuristic_planner", "execute_plan", "plan_and_execute",
+    "SequentialPipeline", "ParallelFanOut", "ConditionalRoute",
+    "RetryWrapper", "FallbackChain", "TracedTool", "ToolTrace",
+    "compose", "parallel", "when", "retry", "fallback",
 ]
