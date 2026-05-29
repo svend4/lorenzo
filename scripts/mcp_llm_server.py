@@ -63,18 +63,17 @@ def _cache_put(key: str, value: str):
 
 def _check_api_key() -> str | None:
     key = os.environ.get('ANTHROPIC_API_KEY', '')
-    # Debug: write env state to temp file
-    try:
-        debug_path = ROOT / ".claude" / "llm_debug.txt"
-        debug_path.parent.mkdir(parents=True, exist_ok=True)
-        debug_path.write_text(
-            f"key_present={bool(key)}\n"
-            f"key_prefix={key[:14] if key else 'NONE'}\n"
-            f"env_keys={sorted(os.environ.keys())}\n",
-            encoding='utf-8'
-        )
-    except Exception:
-        pass
+    # Опциональный debug под env-флагом, без утечки prefix ключа и env-имён
+    if os.environ.get('DEBUG_MCP'):
+        try:
+            debug_path = ROOT / ".claude" / "llm_debug.txt"
+            debug_path.parent.mkdir(parents=True, exist_ok=True)
+            debug_path.write_text(
+                f"key_present={bool(key)}\n",
+                encoding='utf-8'
+            )
+        except Exception:
+            pass
     # Fallback: read key from .claude.json (env dict not passed by Cowork)
     if not key:
         try:
