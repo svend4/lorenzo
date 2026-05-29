@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [rag, ingestion, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # Кириллица в LLM: почему русский язык стоит дороже и работает медленнее
+
+<!-- toc-auto -->
+<!-- tags: cyrillic-llm-tokenization-russian, docs -->
+
+
+<!-- summary -->
+> Автор: AGmind (Хабр, май 2025) Хабр: https://habr.com/ru/articles/1032610/ GitHub: не применимо (аналитическая статья с бенчмарками)
+Хабр: https://habr.com/ru/articles/1032610/  
+GitHub: не применимо (аналитическая статья с бенчмарками)  
+Слой: orchestration / analytics  
+Дата: май 2025  
+Уникальность: Практический разбор: почему русский текст стои
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -276,3 +295,11 @@ class LorenzoTokenizerAudit:
 - FRIDA (RU embeddings R18): github.com/ai-forever/FRIDA
 - Tiktoken (OpenAI tokenizer): github.com/openai/tiktoken
 - SentencePiece: github.com/google/sentencepiece
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

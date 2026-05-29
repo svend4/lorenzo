@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # Как научить AI анализировать AI: meta-monitoring агентов с Langfuse
+
+<!-- toc-auto -->
+<!-- tags: ai-meta-monitoring-langfuse, docs -->
+
+
+<!-- summary -->
+> Автор: rkazmin (Хабр, январь 2026) Хабр: https://habr.com/ru/articles/987230/ GitHub: не опубликован (личный проект, архитектура в статье)
+Хабр: https://habr.com/ru/articles/987230/  
+GitHub: не опубликован (личный проект, архитектура в статье)  
+Слой: orchestration / analytics  
+Дата: январь 2026  
+Уникальность: Трёхкомпонентная система: Go backend
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -301,3 +320,11 @@ class LorenzoMetaMonitor:
 - Смежная (LLM Observability большой гайд): https://habr.com/ru/articles/972480/
 - Смежная (Cloud.ru агентные сбои): https://habr.com/ru/companies/cloud_ru/articles/1008714/
 - OpenTelemetry для LLM: opentelemetry.io/docs/specs/semconv/gen-ai/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [memory, rag, security, knowledge, ingestion]
+state: normalized
+---
+
 # Privacy-первый LLM: PII-прокси, on-device RAG, WebGPU inference
+
+<!-- toc-auto -->
+<!-- tags: privacy-llm-pii-gateway-ondevice-rag, docs -->
+
+
+<!-- summary -->
+> Каждый паттерн решает конкретный threat model: утечка промптов в облако, меморизация персональных данных LLM, ненадёжный провайдер.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -347,3 +361,11 @@ class LorenzoPrivacyMode:
 - OpenFHE (FHE для LLM): github.com/openfheorg/openfhe-development
 - Смежная (FHE + LLM, GlobalSign): https://habr.com/ru/companies/globalsign/articles/979114/
 - Смежная (приватный LLM, Sberbank обзор): https://habr.com/ru/companies/sberbank/articles/845388/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

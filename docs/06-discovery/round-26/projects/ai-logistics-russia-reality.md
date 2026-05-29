@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [rag, ingestion, architecture, roadmap, self-improve]
+state: normalized
+---
+
 # AI в логистике и складской автоматизации: глобальные тренды vs российская реальность
+
+<!-- toc-auto -->
+<!-- tags: ai-logistics-russia-reality, docs -->
+
+
+<!-- summary -->
+> Автор: команда Intekey (Хабр, январь 2026) Хабр: https://habr.com/ru/companies/intekey/articles/985430/
+Хабр: https://habr.com/ru/companies/intekey/articles/985430/  
+GitHub: не опубликован (аналитический обзор + кейсы)  
+Слой: orchestration / analytics / automation  
+Дата: январь 2026  
+Уникальность: Честны
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -213,3 +232,10 @@ Lorenzo тоже имеет "уровни зрелости":
 - Смежная (Sberbank ML логистика): https://habr.com/ru/companies/sberbank/articles/926934/
 - Смежная (математическая оптимизация demand/pricing): https://habr.com/ru/companies/axenix/articles/911462/
 - OR-Tools (Google, оптимизация маршрутов): github.com/google/or-tools (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

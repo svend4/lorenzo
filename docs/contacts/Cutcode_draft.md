@@ -1,15 +1,35 @@
 ---
+state: normalized
 author: Cutcode
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [knowledge, ingestion, architecture, roadmap, collaboration]
 ---
 
 # Черновик сообщения — Cutcode (GitHub)
 
+<!-- toc-auto -->
+<!-- tags: cutcode-draft, docs -->
+
+
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (16):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Dmitriila_draft
+ VladSpace_draft
+ nlaik_draft
+ spbmolot_draft
+ --
+Кто ссылается на этот документ (16):
+ DIGEST_AUTO
+ READING_TIME
+ AnastasiyaW_draft
+ A
 **Проекты:** Svyazi
 
 ---

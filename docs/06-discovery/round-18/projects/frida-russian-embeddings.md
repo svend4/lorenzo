@@ -1,4 +1,25 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # FRIDA — русскоязычная embedding-модель #1 на ruMTEB
+
+<!-- toc-auto -->
+<!-- tags: frida-russian-embeddings, docs -->
+
+
+<!-- summary -->
+> Сравнение с аналогами Модель | Язык | ruMTEB | Лицензия | Размер | FRIDA | RU (+ EN) | #1 67.8 | MIT | 128M |
+ 
+Сравнение с аналогами
+ Модель | Язык | ruMTEB | Лицензия | Размер |
+ --------|------|--------|---------|--------|
+ FRIDA | RU (+ EN) | #1 67.8 | MIT | 128M |
+ rubert-tiny2 | RU | 51.4 | Apache 2.0 | 29M |
+ multilingual-e5-large | mult
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -125,3 +146,10 @@ embeddings = model.encode(["Запрос: " + d for d in docs])
 - ruMTEB лидерборд: huggingface.co/spaces/mteb/leaderboard (Russian)
 - FRED-T5 (базовая модель): github.com/sberbank-ai/FRED-T5
 - Смежная (ruBERT сравнение): https://habr.com/ru/articles/778484/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # PhysicalAgent: VLA-агент для роботов без обучения на траекториях
+
+<!-- toc-auto -->
+<!-- tags: physicalagent-vla-robotics-multimodal, docs -->
+
+
+<!-- summary -->
+> Автор: Artem_Lykov (MTS blog) Хабр: https://habr.com/ru/companies/ru_mts/articles/979682/
+Хабр: https://habr.com/ru/companies/ru_mts/articles/979682/  
+GitHub: нет; ArXiv: https://arxiv.org/pdf/2509.13903  
+Слой: orchestration / analytics  
+Дата: декабрь 2025  
+Уникальность: 4-агентный VLA-пайплайн (Perceiv
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -262,3 +281,10 @@ class LorenzoHypotheticalPlanner:
 - Смежная (VLA обзор RT-2/OpenVLA/GR00T): https://habr.com/ru/articles/829018/
 - Смежная (OCR VLM для документов, М.Видео): https://habr.com/ru/companies/mvideo/articles/897266/
 - Смежная (LLM для чертежей бенчмарк): https://habr.com/ru/companies/tehnologika/articles/851394/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [orchestration, security, ingestion, architecture, self-improve]
+state: normalized
+---
+
 # MTS: автоматическое LLM-ревью кода в GitLab CI/CD через n8n + Ollama
+
+<!-- toc-auto -->
+<!-- tags: mts-evgzor-llm-code-review-gitlab-n8n-ollama, docs -->
+
+
+<!-- summary -->
+> `mts-evgzor-llm-code-review-gitlab-n8n-ollama` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -296,3 +310,11 @@ class LorenzoScriptReviewer:
 - Смежная (SherlockOps SRE, R42): docs/06-discovery/round-42/projects/sherlockops-llm-alert-investigation-devops.md
 - Смежная (LLM DevSecOps, R34): docs/06-discovery/round-34/
 - Смежная (Code MCP архитектурное зрение, R46): docs/06-discovery/round-46/projects/evgeniyrasuk-mcp-codebase-architectural-vision.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Демистифицируем парсинг PDF: конвейерная обработка с LayoutLMv3, Table Transformer, YOLOX
+
+<!-- toc-auto -->
+<!-- tags: pdf-multimodal-pipeline-marker-papermage-unstructured, docs -->
+
+
+<!-- summary -->
+> `pdf-multimodal-pipeline-marker-papermage-unstructured` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -294,3 +308,11 @@ class LorenzoPDFIngestion:
 - Table Transformer: huggingface.co/microsoft/table-transformer-detection
 - Смежная (OCR до ADE, LayoutLM + LandingAI): https://habr.com/ru/articles/1008610/
 - DocLayNet dataset: github.com/DS4SD/DocLayNet
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

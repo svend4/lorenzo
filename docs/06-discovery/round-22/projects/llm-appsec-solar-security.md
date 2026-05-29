@@ -1,4 +1,32 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, security, architecture, anthropic]
+state: normalized
+---
+
 # LLM в AppSec — исследование Solar Security: специализированные vs общие модели
+
+<!-- toc-auto -->
+<!-- tags: llm-appsec-solar-security, docs -->
+
+
+<!-- summary -->
+> Результаты (20 приложений Java + Python) Почему общие LLM плохи для SAST-сортировки
+ 
+Методология
+ 
+Результаты (20 приложений Java + Python)
+ 
+Почему общие LLM плохи для SAST-сортировки
+ 
+AI для AppSec: что реально работает
+ 
+Вайбкод + Security паттерн (смежная статья R22)
+ 
+DerAI в Solar appScreener
+ 
+Применение
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -164,3 +192,10 @@ AppSec паттерн = добавить security layer к CI:
 - Смежная (LLM-пентест 2026): https://habr.com/ru/articles/1031380/
 - Смежная (Вайбкод + безопасность): https://habr.com/ru/companies/ruvds/articles/1017858/
 - Semgrep (OSS SAST): github.com/returntocorp/semgrep (LGPL)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

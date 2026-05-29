@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Proposal: Wikontic × Ngt-Memory
+
+
+<!-- summary -->
+> Раздел proposal-wikontic-x-ngt-memory-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-wikontic-x-ngt-memory-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Wikontic) и memory-слоя (Ngt-Memory): Wikontic обеспечивает персистентную -->
 <!-- tags: proposal, wikontic, ngt-memory, knowledge, memory, integration -->
@@ -27,3 +42,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-wikontic-x-ngt-memory](docs\04-ai-collaborations\proposals\proposal-wikontic-x-ngt-memory.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_wikontic_x_ngt_memory_enriched.py
+```

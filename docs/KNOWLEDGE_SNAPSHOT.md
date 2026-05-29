@@ -1,54 +1,41 @@
 # Knowledge Snapshot — Svyazi 2.0
 
-<!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-**Проекты:** Svyazi
-
----
-
-
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
-_Сгенерировано: 2026-05-13T15:13:39_
+_Сгенерировано: 2026-05-29T16:40:20_
 
 ## Корпус знаний
 
 | Метрика | Значение |
 |---------|---------|
-| Документов (MD) | **1289** |
-| Всего слов | **1,505,483** |
-| ✅ Approved | **1005** |
-| ⚠️ Normalized | 109 |
-| ❌ Raw | 175 |
-| Promote rate | **78.0%** |
+| Документов (MD) | **1619** |
+| Всего слов | **1,793,401** |
+| ✅ Approved | **1027** |
+| ⚠️ Normalized | 429 |
+| ❌ Raw | 163 |
+| Promote rate | **63.4%** |
 
 ## Поиск
 
 | Метрика | Значение |
 |---------|---------|
 | Hit Rate@10 | **1.000** (порог ≥ 0.70) |
-| Mean MRR | 0.441 |
+| Mean MRR | 0.391 |
 | ANN index | ✅ built |
-| Запросов в лог | 0 |
+| Запросов в лог | 45 |
 
 ## Граф знаний
 
 | Метрика | Значение |
 |---------|---------|
-| Узлов | 1166 |
-| Рёбер | 18458 |
-| Среднее out-degree | 15.8 |
-| Изолированных | 23 |
+| Узлов | 1490 |
+| Рёбер | 19047 |
+| Среднее out-degree | 12.8 |
+| Изолированных | 60 |
 
 **Топ-3 хаба:**
 
 - `docs/autofilled/README.md` (pagerank=1.000)
-- `docs/autofilled/components/cowork.md` (pagerank=0.434)
-- `docs/autofilled/components/ingit.md` (pagerank=0.434)
+- `docs/autofilled/components/kksudo.md` (pagerank=0.434)
+- `docs/autofilled/components/cowork.md` (pagerank=0.433)
 
 ## Качество скилов
 
@@ -56,28 +43,17 @@ _Сгенерировано: 2026-05-13T15:13:39_
 
 ## Git активность (7 дней)
 
-**Коммитов:** 63
+**Коммитов:** 2
 
+Активные секции:
+- `enriched/` — 49 изменений
+- `contacts/` — 31 изменений
+- `scripts/` — 2 изменений
 
-<!-- see-also -->
+## Тренд (последние снапшоты)
 
----
-
-**Смотрите также:**
-- [HOT_CARDS](HOT_CARDS.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [KNOWLEDGE_EVOLUTION](KNOWLEDGE_EVOLUTION.md)
-- [.md](autofilled/components/.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (5):**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [KNOWLEDGE_EVOLUTION](KNOWLEDGE_EVOLUTION.md)
-- [READING_TIME](READING_TIME.md)
-- [SKILL_METRICS](SKILL_METRICS.md)
+| Дата | Docs | Approved | Hit Rate | Skills |
+|------|------|---------|---------|--------|
+| 2026-05-29 | 1619 | 1006 | 0.850 | 85.7 |
+| 2026-05-13 | 1289 | 1005 | 1.000 | 85.7 |
 

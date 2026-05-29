@@ -1,4 +1,22 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # RAG Evaluation CI/CD — модульное тестирование RAG-пайплайнов
+
+<!-- toc-auto -->
+<!-- tags: rag-evaluation-cicd, docs -->
+
+
+<!-- summary -->
+> RAG Evaluation CI/CD — модульное тестирование RAG-пайплайнов — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -87,3 +105,10 @@ python -m pytest tests/test_llm_qa_quality.py  # DeepEval над improve_llm_qa.
 - RAGAS GitHub: https://github.com/explodinggradients/ragas (Apache 2.0)
 - DeepEval GitHub: https://github.com/confident-ai/deepeval (Apache 2.0)
 - pip install ragas deepeval
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 template: contact-outreach
 version: "1.0"
 author: "spbmolot"

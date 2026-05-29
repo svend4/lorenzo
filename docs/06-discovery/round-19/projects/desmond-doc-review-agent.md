@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, architecture, self-improve]
+state: normalized
+---
+
 # Desmond — AI-агент проверки документации (Альфа-Банк)
+
+<!-- toc-auto -->
+<!-- tags: desmond-doc-review-agent, docs -->
+
+
+<!-- summary -->
+> Автор: команда Alfa Online (Альфа-Банк) Хабр: https://habr.com/ru/companies/alfa/articles/932058/
+Хабр: https://habr.com/ru/companies/alfa/articles/932058/  
+GitHub: не опубликован (корпоративный проект, полная архитектура описана)  
+Слой: orchestration / knowledge / quality  
+Дата: 2025  
+Уникальность: П
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -140,3 +159,10 @@ Desmond-паттерн применим напрямую:
 - Смежная (AI-агент для проверки ТЗ): https://habr.com/ru/articles/1006372/
 - Смежная (CodeWiki Skill — документация к коду): https://habr.com/ru/articles/1002424/
 - Смежная (SDD фреймворк): https://habr.com/ru/articles/996526/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

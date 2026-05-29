@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, security, ingestion, local-first, architecture]
+state: normalized
+---
+
 # Классификатор тикетов для телеком-поддержки на Qwen2.5-0.5B за $10/месяц
+
+<!-- toc-auto -->
+<!-- tags: ractangle-telecom-ticket-classifier-qwen-llm, docs -->
+
+
+<!-- summary -->
+> `ractangle-telecom-ticket-classifier-qwen-llm` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -339,3 +353,11 @@ class LorenzoQueryClassifier:
 - Stack: FastAPI + llama-cpp-python + GGUF
 - Смежная (LLM телеком общий, R35): docs/06-discovery/round-35/
 - Смежная (Robovoice поддержка, R41): docs/06-discovery/round-41/projects/robovoice-llm-rag-omnichannel-customer-support.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

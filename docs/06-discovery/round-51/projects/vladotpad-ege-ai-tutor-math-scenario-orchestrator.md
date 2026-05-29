@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # ЕГЭ AI-репетитор: 6-сценарный оркестратор для математики без LangChain
+
+<!-- toc-auto -->
+<!-- tags: vladotpad-ege-ai-tutor-math-scenario-orchestrator, docs -->
+
+
+<!-- summary -->
+> `vladotpad-ege-ai-tutor-math-scenario-orchestrator` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -301,3 +315,11 @@ class LorenzoQueryOrchestrator:
 - Смежная (EdTech AI, R24): docs/06-discovery/round-24/
 - Смежная (AI образование v2, R35): docs/06-discovery/round-35/
 - Смежная (LLM Judge образование/CLEV, R47): docs/06-discovery/round-47/projects/maslennikov-llm-judge-educational-content-clev.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

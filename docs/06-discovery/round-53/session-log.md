@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # Round 53 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> habr.com/ru/companies/bcs_company/articles/1006944/ roman-gorb (Яндекс/YandexGPT): Production-опыт 5 методов ускорения inference: FP8 1.4×, SpinQuant W4A4KV4 2.7× (rotation matrices против outliers), EAGLE tree-based speculative decoding, DMC KV-cac
+ roman-gorb (Яндекс/YandexGPT): Production-опыт 5 методов ускорения inference: FP8 1.4×, SpinQuant W4A4KV4 2.7× (rotation matrices против outliers), EAGLE tree-based speculative decoding, DMC KV-cac
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -101,3 +116,10 @@
 | R52 | 4 | LLM квантование GPTQ/QLoRA, Multi-agent customer support, Бухгалтерский extraction, Machine Unlearning |
 | R53 | 4 | Architecture as Code, YandexGPT Accel DMC/SpinQuant, Resume ranking bias, LatentMAS |
 | **Итого** | **216** | |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```

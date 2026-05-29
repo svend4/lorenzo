@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # Kaspersky MLAD: цифровой двойник ICS + LLM как компрессор данных
+
+<!-- toc-auto -->
+<!-- tags: kaspersky-mlad-digital-twin-ics-llm-compression, docs -->
+
+
+<!-- summary -->
+> `kaspersky-mlad-digital-twin-ics-llm-compression` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -297,3 +311,11 @@ class LorenzoDigitalTwinTesting:
 - Dymola: 3ds.com/products/catia/dymola
 - Смежная (цифровые двойники гибридные, Zhurakhovskii): https://habr.com/ru/articles/1030824/
 - Смежная (предиктивное обслуживание ML, Jet Infosystems R41): https://habr.com/ru/companies/jetinfosystems/articles/761984/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

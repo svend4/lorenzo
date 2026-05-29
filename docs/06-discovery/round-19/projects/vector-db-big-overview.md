@@ -1,4 +1,20 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Выбираем векторную БД для AI-агентов и RAG — большой обзор 2025
+
+<!-- toc-auto -->
+<!-- tags: vector-db-big-overview, docs -->
+
+
+<!-- summary -->
+> Следующий шаг: Qdrant embedded (без сервера, встроен в процесс): LanceDB — альтернатива: Lance-формат, работает как SQLite (файл на диске).
+ 
+LanceDB — альтернатива: Lance-формат, работает как SQLite (файл на диске).
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -148,3 +164,10 @@ LanceDB — альтернатива: Lance-формат, работает ка�
 - ChromaDB: https://github.com/chroma-core/chroma (Apache 2.0)
 - Milvus: https://github.com/milvus-io/milvus (Apache 2.0)
 - ANN Benchmarks: ann-benchmarks.com
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

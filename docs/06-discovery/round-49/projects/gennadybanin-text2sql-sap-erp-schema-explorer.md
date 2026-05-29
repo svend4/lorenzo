@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Сапёр в эпоху LLM: Text-to-SQL агент для SAP ERP с итеративной разведкой схемы
+
+<!-- toc-auto -->
+<!-- tags: gennadybanin-text2sql-sap-erp-schema-explorer, docs -->
+
+
+<!-- summary -->
+> `gennadybanin-text2sql-sap-erp-schema-explorer` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -294,3 +308,11 @@ class LorenzoSchemaExplorer:
 - Смежная (Text2SQL v1, R16): docs/06-discovery/round-16/
 - Смежная (Text2SQL X5 ретейл, R29): docs/06-discovery/round-29/
 - Смежная (GBNF constrained decoding, R49): docs/06-discovery/round-49/projects/safreliy-gbnf-xgrammar-constrained-decoding.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

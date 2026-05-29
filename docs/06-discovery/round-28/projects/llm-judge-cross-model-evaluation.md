@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, security, architecture, self-improve]
+state: normalized
+---
+
 # LLM Judge: кросс-модельная оценка контента за $0.014 — как победить self-preference bias
+
+<!-- toc-auto -->
+<!-- tags: llm-judge-cross-model-evaluation, docs -->
+
+
+<!-- summary -->
+> Автор: Игорь Масленников (DNA IT, Хабр, ноябрь 2025) Хабр: https://habr.com/ru/articles/970744/
+Хабр: https://habr.com/ru/articles/970744/  
+GitHub: не опубликован (архитектура описана в статье)  
+Слой: orchestration / analytics  
+Дата: ноябрь 2025  
+Уникальность: Обнаружен и решён критичес
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -261,3 +280,10 @@ class LorenzoContentJudge:
 - Смежная (RAG evaluation R16): https://habr.com/ru/companies/
 - MT-Bench (multi-turn LLM judge): github.com/lm-sys/FastChat
 - LLM-as-a-Judge (оригинальная статья): arxiv.org/abs/2306.05685
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

@@ -1,4 +1,29 @@
+---
+date: 2026-05-29
+tags: [architecture, anthropic, collaboration]
+state: normalized
+---
+
 # Продуктовая ошибка GenAI компаний: pay-as-you-go убивает рост
+
+<!-- toc-auto -->
+<!-- tags: genai-product-mistake-monetization, docs -->
+
+
+<!-- summary -->
+> Суть ошибки: pay-as-you-go = конфликт интересов Альтернатива: value-based monetization
+ 
+Альтернатива: value-based monetization
+ 
+Семь паттернов GenAI монетизации
+ 
+Почему wrapper-стартапы умирают
+ 
+Российский рынок: специфика
+ 
+Применение к Lorenzo
+Lorenzo — исследовательский инструмент,
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -192,3 +217,10 @@ SUBSCRIPTION = {
 - Смежная (хайп закончился, бизнес сворачивает GenAI): https://habr.com/ru/companies/tehrevizor/news/1014184/
 - Смежная (финансовый эффект от AI, Alfa Bank): https://habr.com/ru/companies/alfa/articles/970596/
 - Смежная (10 российских стартапов декабрь 2025): https://habr.com/ru/companies/productradar/articles/983576/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

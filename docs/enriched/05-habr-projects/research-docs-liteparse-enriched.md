@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # research-docs + LiteParse
+
+
+<!-- summary -->
+> Раздел research-docs-liteparse-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `research-docs-liteparse-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Документ создан на основе исследования. Ссылки ведут на связанные материалы. Параметр | Значение | У -->
 <!-- tags: liteparse, pdf, forensic, bounding-boxes, visual-citations, spatial-text, html-report, evidence, document-qa -->
@@ -34,3 +49,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [research-docs-liteparse](docs\05-habr-projects\knowledge\research-docs-liteparse.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_research_docs_liteparse_enriched.py
+```

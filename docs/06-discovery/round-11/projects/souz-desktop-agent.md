@@ -1,4 +1,24 @@
+---
+date: 2026-05-29
+tags: [orchestration, security, ingestion, local-first, architecture]
+state: normalized
+---
+
 # Союз (Souz) — десктопный AI-агент (Open Source)
+
+<!-- toc-auto -->
+<!-- tags: souz-desktop-agent, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (команда souz.app) Хабр: https://habr.com/ru/articles/1018246/
+Хабр: https://habr.com/ru/articles/1018246/  
+GitHub: не найден явно — уточнить  
+Сайт: https://souz.app  
+Слой: desktop-agent / accessibility / tools  
+Зрелость: production, только что открыт как OSS  
+Уникальн
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -57,3 +77,17 @@ Lorenzo пишет `improve_*.py` скрипты, которые меняют ф
 - Сайт: https://souz.app
 - Хабр: https://habr.com/ru/articles/1018246/
 - ⚠️ Нужно найти GitHub через профиль автора
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_souz_desktop_agent.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

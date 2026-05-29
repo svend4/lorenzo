@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Natasha (Russian NLP)
+
+<!-- toc-auto -->
+<!-- tags: natasha-nlp, docs -->
+
+
+<!-- summary -->
+> Автор: @natasha org (Alexander Kukushkin и команда) Хабр: https://habr.com/ru/articles/516098/
+Хабр: https://habr.com/ru/articles/516098/  
+GitHub: https://github.com/natasha/natasha  
+Слой: NLP / text-processing / russian-language  
+Зрелость: production, активный с 2019, обновляется  
+Уник
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -42,3 +61,17 @@ Lorenzo работает с русскоязычными документами 
 
 - GitHub org: https://github.com/natasha
 - Site: https://natasha.github.io/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_natasha_nlp.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

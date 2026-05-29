@@ -1,4 +1,22 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # Парсинг PDF-отчётов публичных компаний для трейдерских инсайтов
+
+<!-- toc-auto -->
+<!-- tags: llm-financial-pdf-analytics-pipeline, docs -->
+
+
+<!-- summary -->
+> Парсинг PDF-отчётов публичных компаний для трейдерских инсайтов — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -324,3 +342,11 @@ class LorenzoFinancialMonitor:
 - Смежная (Finam FinBench, бенчмарки RU финансовых LLM): https://habr.com/ru/companies/finam_broker/articles/989842/
 - Смежная (финансовый AI-агент MCP+CodeAct): https://habr.com/ru/articles/980542/
 - PyMuPDF: github.com/pymupdf/PyMuPDF (AGPL)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

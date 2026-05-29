@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # Self-hosted LLM на 4× RTX 4090 с водяным охлаждением: реплицированный vs tensor parallelism
+
+<!-- toc-auto -->
+<!-- tags: dmitrii-chashchin-self-hosted-4x4090-vllm-parallelism, docs -->
+
+
+<!-- summary -->
+> `dmitrii-chashchin-self-hosted-4x4090-vllm-parallelism` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -281,3 +295,11 @@ class LorenzoSelfHostedRecommendation:
 - Смежная (vLLM inference opt, R32): docs/06-discovery/round-32/
 - Смежная (Private LLM стек, R24): docs/06-discovery/round-24/
 - Смежная (AQLM.rs браузер, R46): docs/06-discovery/round-46/projects/yandex-aqlm-rs-llm-browser-wasm-2bit.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

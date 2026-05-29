@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, ingestion, local-first]
+state: normalized
+---
+
 # Volga: движок real-time обработки данных для AI/ML — аналог Spark/Flink на Rust
+
+<!-- toc-auto -->
+<!-- tags: volga-realtime-ml-stream-engine, docs -->
+
+
+<!-- summary -->
+> Автор: dirty_valera (Хабр, апрель 2025) Хабр: https://habr.com/ru/articles/1021290/
+Хабр: https://habr.com/ru/articles/1021290/  
+GitHub: github.com/volga-project/volga (Apache 2.0)  
+Слой: orchestration / analytics / ingestion  
+Дата: апрель 2025  
+Уникальность: Rust-движок распределённой п
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -254,3 +273,10 @@ class LorenzoStreamProcessor:
 - Apache Arrow: arrow.apache.org
 - Apache DataFusion: github.com/apache/datafusion
 - SlateDB: github.com/slatedb/slatedb
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

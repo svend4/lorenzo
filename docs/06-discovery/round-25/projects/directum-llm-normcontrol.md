@@ -1,4 +1,31 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, architecture, collaboration]
+state: normalized
+---
+
 # Directum: нормоконтроль на максималках — LLM проверяет корпоративные документы
+
+<!-- toc-auto -->
+<!-- tags: directum-llm-normcontrol, docs -->
+
+
+<!-- summary -->
+> Проблема: нормоконтроль = узкое горлышко Архитектура в Directum RX Промпт нормоконтроля
+ 
+Архитектура в Directum RX
+ 
+Промпт нормоконтроля
+ 
+Два режима: проверка vs сравнение редакций
+ 
+LLM как "знаток организации"
+ 
+Метрики внедрения
+ 
+Применение к Lorenzo
+Lorenzo имеет   и  .
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -190,3 +217,10 @@ def check_discovery_file(file_path: str) -> list[Issue]:
 - Смежная (ИИ-агенты для бизнеса Directum): https://habr.com/ru/companies/directum/articles/1018934/
 - Directum RX: directum.ru (ECM-платформа)
 - Смежная (ContentAI: LLM для юридических документов): https://habr.com/ru/companies/contentai/articles/932894/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

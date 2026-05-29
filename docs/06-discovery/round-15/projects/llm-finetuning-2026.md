@@ -1,4 +1,20 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Fine-tuning LLM 2026 — дообучение локальных моделей для одного разработчика
+
+<!-- toc-auto -->
+<!-- tags: llm-finetuning-2026, docs -->
+
+
+<!-- summary -->
+> Fine-tuned local model открывает полностью офлайн Svyazi-агент: Это следующий шаг после RAG: не поиск + LLM, а LLM, которая помнит.
+ 
+Это следующий шаг после RAG: не поиск + LLM, а LLM, которая помнит.
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -87,3 +103,10 @@ Qwen 2.5 7B + QLoRA (16 ГБ VRAM)
 - Unsloth: https://github.com/unslothai/unsloth (Apache 2.0)
 - LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory (Apache 2.0)
 - TRL: https://github.com/huggingface/trl (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

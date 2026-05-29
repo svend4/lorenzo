@@ -1,10 +1,21 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, knowledge, architecture]
-state: normalized
+state: approved
 ---
 
 # Proposals — Гипотезы интеграции
+
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo. Раздел README формируется автоматически из данных репозитория. README — раздел документации проекта Lorenzo.
+
 
 _Обновлено: 2026-05-13_
 
@@ -48,3 +59,10 @@ _Обновлено: 2026-05-13_
 - [proposal-agentfs-x-yodoca](proposal-agentfs-x-yodoca.md)
 - _...ещё 16_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

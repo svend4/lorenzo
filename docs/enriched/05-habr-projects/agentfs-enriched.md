@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # AgentFS
+
+
+<!-- summary -->
+> Раздел agentfs-enriched формируется автоматически из данных репозитория. AgentFS — компонент слоя knowledge/filesystem в экосистеме Svyazi 2.0, разработанный для управления персистентным состоянием агентов.
+
+> [!NOTE]
+> Раздел `agentfs-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Параметр | Значение | Упоминаний в репо | 1384 | Слой | knowledge/filesystem | Статус связи | не пис -->
 <!-- tags: agentfs, agent, filesystem, obsidian, knowledge, persistent-state, security, compile -->
@@ -33,3 +48,10 @@ AgentFS встроен в знаниевый слой Svyazi 2.0 и взаимо
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [agentfs](docs\05-habr-projects\knowledge\agentfs.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_agentfs_enriched.py
+```

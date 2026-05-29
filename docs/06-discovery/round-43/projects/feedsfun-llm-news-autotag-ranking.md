@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # feeds.fun: LLM-автотегирование новостей с прозрачным ранжированием
+
+<!-- toc-auto -->
+<!-- tags: feedsfun-llm-news-autotag-ranking, docs -->
+
+
+<!-- summary -->
+> Хабр: https://habr.com/ru/articles/891308/ GitHub: https://github.com/Tiendil/feeds.fun
+Хабр: https://habr.com/ru/articles/891308/  
+GitHub: https://github.com/Tiendil/feeds.fun  
+Слой: analytics / orchestration  
+Дата: март 2025  
+Уникальность: Open-source новостной агрегатор (Python/FastAPI/PostgreSQL + Vue.js) с LLM-
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -308,3 +327,11 @@ class LorenzoFeedMonitor:
 - GitHub: https://github.com/Tiendil/feeds.fun
 - Смежная (Rewrite Factory для медиа, vaganovelena): https://habr.com/ru/articles/1002228/
 - Смежная (LLM для новостной суммаризации): https://habr.com/ru/articles/848898/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

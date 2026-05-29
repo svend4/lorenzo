@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # agent-memory-mcp + Memory OS
+
+
+<!-- summary -->
+> Раздел agent-memory-mcp-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `agent-memory-mcp-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Документ создан на основе исследования. Ссылки ведут на связанные материалы. Параметр | Значение | У -->
 <!-- tags: memory, mcp, agent, typed-memory, sqlite, bi-temporal -->
@@ -34,3 +49,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [agent-memory-mcp](docs\05-habr-projects\memory\agent-memory-mcp.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_agent_memory_mcp_enriched.py
+```

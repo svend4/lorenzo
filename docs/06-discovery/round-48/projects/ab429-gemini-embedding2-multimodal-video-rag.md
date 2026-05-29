@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, knowledge, ingestion, architecture, roadmap]
+state: normalized
+---
+
 # Gemini Embedding 2 + мультимодальный RAG: видео, изображения и аудио в одном векторном пространстве
+
+<!-- toc-auto -->
+<!-- tags: ab429-gemini-embedding2-multimodal-video-rag, docs -->
+
+
+<!-- summary -->
+> `ab429-gemini-embedding2-multimodal-video-rag` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -391,3 +405,11 @@ class LorenzoMultimodalKnowledge:
 - Смежная (Multimodal RAG v1 Docling, R19): docs/06-discovery/round-19/
 - Смежная (MWS Vision Bench, R45): docs/06-discovery/round-45/projects/mts-ai-mws-vision-bench-business-ocr-vlm.md
 - Смежная (Code MCP, R46): docs/06-discovery/round-46/projects/evgeniyrasuk-mcp-codebase-architectural-vision.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

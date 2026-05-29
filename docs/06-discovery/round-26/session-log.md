@@ -1,4 +1,22 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 26 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> CAVM Framework — AI-агенты пишут аналитические отчёты Хабр: https://habr.com/ru/articles/960338/
+ Файл:  
+ Хабр: https://habr.com/ru/articles/960338/
+ Слой: orchestration / analytics / knowledge
+ Уникальность: Code Agent with Variable Memory — пайплайн агентов с общим пространством переменных
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -105,3 +123,10 @@ python scripts/improve_collab_finder.py --file docs/06-discovery/round-26/projec
 2. **Персонализированные AI-ассистенты** — личный AI на локальных данных (заметки, переписка, calendar), long-term memory, персонализация без cloud
 3. **Мультиагентное планирование** — иерархические агентские сети, manager/worker архитектура, backtracking и повторные попытки в сложных задачах
 4. **AI в DevEx** — developer experience с AI: автодополнение архитектуры, автогенерация тестов, AI code navigator, поиск по кодовой базе
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

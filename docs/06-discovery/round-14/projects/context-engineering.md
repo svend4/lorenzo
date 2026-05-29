@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [memory, orchestration, knowledge, architecture, collaboration]
+state: normalized
+---
+
 # Context Engineering — проектирование контекста вместо промптов
+
+<!-- toc-auto -->
+<!-- tags: context-engineering, docs -->
+
+
+<!-- summary -->
+> Автор: независимый исследователь (Хабр) Хабр: https://habr.com/ru/articles/1028260/
+Хабр: https://habr.com/ru/articles/1028260/  
+GitHub: нет (концептуальная статья)  
+Слой: orchestration / knowledge / methodology  
+Дата: 2026  
+Уникальность: Манифест смены парадигмы: «Prompt engineering мёр
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -73,3 +92,10 @@ Lorenzo — один из лучших примеров Context Engineering в �
 - Статья: https://habr.com/ru/articles/1028260/
 - Смежная статья (Cloud.ru): https://habr.com/ru/companies/cloud_ru/articles/1008522/
 - Смежная статья (Manus lessons): https://habr.com/ru/articles/936954/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

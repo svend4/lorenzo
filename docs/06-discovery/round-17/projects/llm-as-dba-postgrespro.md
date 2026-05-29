@@ -1,4 +1,20 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # LLM as DBA — LLM-пайплайн для работы со сложными БД
+
+<!-- toc-auto -->
+<!-- tags: llm-as-dba-postgrespro, docs -->
+
+
+<!-- summary -->
+> Паттерн Schema Extractor полезен при масштабировании: если Svyazi 2.0 вырастет до PostgreSQL с десятками таблиц —
+если Svyazi 2.0 вырастет до PostgreSQL с десятками таблиц —  
+Schema Extractor Agent становится необходимым.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -85,3 +101,10 @@ Schema Extractor Agent становится необходимым.
 - PostgresPro: postgrespro.ru
 - Смежная статья: https://habr.com/ru/companies/postgrespro/articles/979820/ (выбор LLM для агентов)
 - Spider BIRD бенчмарк: bird-bench.github.io
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

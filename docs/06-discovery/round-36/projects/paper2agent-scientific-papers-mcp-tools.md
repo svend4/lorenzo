@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # Paper2Agent: научные статьи → интерактивные AI агенты через MCP
+
+<!-- toc-auto -->
+<!-- tags: paper2agent-scientific-papers-mcp-tools, docs -->
+
+
+<!-- summary -->
+> `paper2agent-scientific-papers-mcp-tools` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -317,3 +331,11 @@ class LorenzoProjectToMCP:
 - MCP Protocol: modelcontextprotocol.io
 - Смежная (агрегатор научных статей, Python API): https://habr.com/ru/articles/846704/
 - Смежная (LLM в науке, анализ экспериментов): https://habr.com/ru/companies/timeweb/articles/967672/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

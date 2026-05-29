@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, ingestion, architecture, roadmap]
+state: normalized
+---
+
 # Мультиагентная разработка в Cursor: субагенты для больших проектов
+
+<!-- toc-auto -->
+<!-- tags: cursor-multiagent-coding-orchestrator, docs -->
+
+
+<!-- summary -->
+> Автор: rdudov (Хабр, ноябрь 2025) Хабр: https://habr.com/ru/articles/971620/ GitHub: https://github.com/rdudov/agents
+Хабр: https://habr.com/ru/articles/971620/  
+GitHub: https://github.com/rdudov/agents  
+Слой: orchestration  
+Дата: ноябрь 2025  
+Уникальность: Практическая оркестрация в Cursor без нативной поддержки мультиагентов
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
@@ -264,3 +283,10 @@ class LorenzoMultiAgentCodgen:
 - Смежная (Agent Driven Development, тесты): https://habr.com/ru/articles/1010148/
 - Смежная (мультиагентная разработка до продакшена): https://habr.com/ru/articles/993470/
 - cursor-agent CLI: cursor.sh (встроен в Cursor IDE)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

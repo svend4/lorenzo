@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # DerAI: Fine-tuned LLM для SAST — Solar Security против GPT-5 на реальных уязвимостях
+
+<!-- toc-auto -->
+<!-- tags: solar-security-derai-sast, docs -->
+
+
+<!-- summary -->
+> Автор: команда Solar Security (Хабр, май 2025) Хабр: https://habr.com/ru/companies/solarsecurity/articles/1031718/
+Хабр: https://habr.com/ru/companies/solarsecurity/articles/1031718/  
+GitHub: не опубликован (проприетарная система)  
+Слой: orchestration / analytics / security  
+Дата: май 2025  
+Уникальность: Solar
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -256,3 +275,10 @@ class DocumentTriage:
 - Solar appScreener: https://solarsecurity.ru/products/solar_appscreener/
 - Смежная (LLM AppSec R22): https://habr.com/ru/companies/solarsecurity/articles/
 - Смежная (Semgrep + LLM): статьи о статическом анализе с AI на Хабре
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

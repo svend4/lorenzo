@@ -11,7 +11,7 @@
 > `SKILL_DASHBOARD` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-05-13_
+_Обновлено: 2026-05-29_
 
 _Лог метрик не найден (.claude/skill_metrics.jsonl)._
 
@@ -35,16 +35,3 @@ python scripts/improve_skill_dashboard.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-

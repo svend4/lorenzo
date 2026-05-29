@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 24 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> 7 LLM Pet-Projects (988774, январь 2026) — Практическая карта privacy-first AI стека: (1) Private RAG on-device, (2) Tool Retrieval через VectorDB, (3) Agent Firewall, (4) Privacy Gateway (локальная NER + облачный LLM), (5) Inference Optimizer (promp
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -75,3 +89,18 @@
 - **AI-ассистенты для науки** — автоматизация литературного обзора, генерация гипотез, анализ данных экспериментов
 - **Streaming и real-time AI** — streaming inference, WebSocket агенты, live data processing с LLM
 - **AI для тестирования UI** — vision-based UI testing, AI QA-инженер, screenshot-to-test
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)
+- [Решения](../../DECISIONS.md)

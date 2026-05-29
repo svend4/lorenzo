@@ -1,4 +1,22 @@
+---
+date: 2026-05-29
+tags: [memory, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # ADD Chronicles — Хроники Agent Driven Development трансформации
+
+<!-- toc-auto -->
+<!-- tags: add-chronicles, docs -->
+
+
+<!-- summary -->
+> Итеративно: каждая хроника = одна конкретная трансформация Паттерн feedback loop
+Паттерн feedback loop
+ Шаг | Что происходит |
+ -----|----------------|
+ 1.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -74,3 +92,10 @@ ADD-трансформация: watcher → evaluator → improver — замк�
 
 - Часть 1: https://habr.com/ru/articles/1010148/ (март 2026)
 - Серия продолжается — следить за профилем автора
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

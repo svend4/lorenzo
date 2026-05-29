@@ -1,4 +1,28 @@
+---
+date: 2026-05-29
+tags: [orchestration, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Визуальное тестирование с AI: скриншоты без ложных срабатываний
+
+<!-- toc-auto -->
+<!-- tags: visual-ai-testing-screenshots, docs -->
+
+
+<!-- summary -->
+> Проблема ложных срабатываний Нейросетевой подход: смысловые различия LLM для описания различий
+ 
+Нейросетевой подход: смысловые различия
+ 
+LLM для описания различий
+ 
+Паттерн из Avito: почему только 20% используют screenshot-тесты
+ 
+Практический стек 2025
+ 
+Paттерн T-Bank: отказ от скриншотов → semantic assertions
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -223,3 +247,10 @@ def check_visual_artifacts():
 - T-Bank (отказ от скриншотов): https://habr.com/ru/companies/tbank/articles/824132/
 - Avito (QA в России 2025): https://habr.com/ru/companies/avito/articles/1026786/
 - Playwright: github.com/microsoft/playwright (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

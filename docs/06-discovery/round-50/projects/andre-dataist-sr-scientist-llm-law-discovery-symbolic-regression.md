@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # SR-Scientist: LLM-агент открывает законы природы через символическую регрессию и RL
+
+<!-- toc-auto -->
+<!-- tags: andre-dataist-sr-scientist-llm-law-discovery-symbolic-regression, docs -->
+
+
+<!-- summary -->
+> `andre-dataist-sr-scientist-llm-law-discovery-symbolic-regression` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -306,3 +320,11 @@ class LorenzoPatternDiscovery:
 - SymPy: sympy.org (символьные вычисления в Python)
 - Смежная (LLM для науки v1, R36): docs/06-discovery/round-36/
 - Смежная (Reasoning models, R20): docs/06-discovery/round-20/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

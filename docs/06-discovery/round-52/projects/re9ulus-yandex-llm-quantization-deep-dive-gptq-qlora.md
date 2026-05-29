@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, ingestion, local-first]
+state: normalized
+---
+
 # Quantization Deep Dive: LLM.Int8 → SmoothQuant → GPTQ → SPQR → QLoRA
+
+<!-- toc-auto -->
+<!-- tags: re9ulus-yandex-llm-quantization-deep-dive-gptq-qlora, docs -->
+
+
+<!-- summary -->
+> `re9ulus-yandex-llm-quantization-deep-dive-gptq-qlora` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -319,3 +333,11 @@ class LorenzoQuantizedInference:
 - Смежная (AQLM.rs браузер, R46): docs/06-discovery/round-46/
 - Смежная (Self-hosted 4×4090, R49): docs/06-discovery/round-49/projects/dmitrii-chashchin-self-hosted-4x4090-vllm-parallelism.md
 - Смежная (vLLM inference opt, R32): docs/06-discovery/round-32/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

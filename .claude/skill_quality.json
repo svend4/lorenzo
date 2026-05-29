@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T14:46:18",
+  "generated": "2026-05-29T16:37:34",
   "count": 28,
   "avg_score": 85.7,
   "skills": [
@@ -46,48 +46,6 @@
       "numbered_steps": 9
     },
     {
-      "skill": "outreach-day",
-      "path": ".claude/skills/outreach-day.md",
-      "words": 310,
-      "total": 92,
-      "structure": 6,
-      "length": 10,
-      "examples": 10,
-      "steps": 10,
-      "tools": 10,
-      "clarity": 10,
-      "code_blocks": 7,
-      "numbered_steps": 11
-    },
-    {
-      "skill": "weekly-review",
-      "path": ".claude/skills/weekly-review.md",
-      "words": 287,
-      "total": 92,
-      "structure": 6,
-      "length": 10,
-      "examples": 10,
-      "steps": 10,
-      "tools": 10,
-      "clarity": 10,
-      "code_blocks": 6,
-      "numbered_steps": 15
-    },
-    {
-      "skill": "find-contradictions",
-      "path": ".claude/skills/find-contradictions.md",
-      "words": 286,
-      "total": 92,
-      "structure": 10,
-      "length": 10,
-      "examples": 10,
-      "steps": 10,
-      "tools": 8,
-      "clarity": 7,
-      "code_blocks": 3,
-      "numbered_steps": 6
-    },
-    {
       "skill": "audit-corpus",
       "path": ".claude/skills/audit-corpus.md",
       "words": 277,
@@ -100,6 +58,20 @@
       "clarity": 10,
       "code_blocks": 4,
       "numbered_steps": 8
+    },
+    {
+      "skill": "outreach-day",
+      "path": ".claude/skills/outreach-day.md",
+      "words": 310,
+      "total": 92,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 10,
+      "clarity": 10,
+      "code_blocks": 7,
+      "numbered_steps": 11
     },
     {
       "skill": "review-architecture",
@@ -116,18 +88,32 @@
       "numbered_steps": 10
     },
     {
-      "skill": "find-gaps",
-      "path": ".claude/skills/find-gaps.md",
-      "words": 297,
-      "total": 90,
-      "structure": 6,
+      "skill": "find-contradictions",
+      "path": ".claude/skills/find-contradictions.md",
+      "words": 286,
+      "total": 92,
+      "structure": 10,
       "length": 10,
       "examples": 10,
       "steps": 10,
       "tools": 8,
-      "clarity": 10,
+      "clarity": 7,
       "code_blocks": 3,
-      "numbered_steps": 8
+      "numbered_steps": 6
+    },
+    {
+      "skill": "weekly-review",
+      "path": ".claude/skills/weekly-review.md",
+      "words": 287,
+      "total": 92,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 10,
+      "clarity": 10,
+      "code_blocks": 6,
+      "numbered_steps": 15
     },
     {
       "skill": "plan-mvp",
@@ -141,6 +127,20 @@
       "tools": 8,
       "clarity": 10,
       "code_blocks": 5,
+      "numbered_steps": 8
+    },
+    {
+      "skill": "find-gaps",
+      "path": ".claude/skills/find-gaps.md",
+      "words": 297,
+      "total": 90,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 8,
+      "clarity": 10,
+      "code_blocks": 3,
       "numbered_steps": 8
     },
     {
@@ -158,20 +158,6 @@
       "numbered_steps": 8
     },
     {
-      "skill": "evaluate-skill",
-      "path": ".claude/skills/evaluate-skill.md",
-      "words": 262,
-      "total": 88,
-      "structure": 10,
-      "length": 10,
-      "examples": 9,
-      "steps": 10,
-      "tools": 0,
-      "clarity": 10,
-      "code_blocks": 1,
-      "numbered_steps": 6
-    },
-    {
       "skill": "daily-routine",
       "path": ".claude/skills/daily-routine.md",
       "words": 250,
@@ -186,23 +172,23 @@
       "numbered_steps": 12
     },
     {
-      "skill": "new-research",
-      "path": ".claude/skills/new-research.md",
-      "words": 295,
-      "total": 86,
-      "structure": 6,
+      "skill": "evaluate-skill",
+      "path": ".claude/skills/evaluate-skill.md",
+      "words": 262,
+      "total": 88,
+      "structure": 10,
       "length": 10,
-      "examples": 10,
+      "examples": 9,
       "steps": 10,
-      "tools": 4,
+      "tools": 0,
       "clarity": 10,
-      "code_blocks": 2,
-      "numbered_steps": 14
+      "code_blocks": 1,
+      "numbered_steps": 6
     },
     {
-      "skill": "evaluate-tech",
-      "path": ".claude/skills/evaluate-tech.md",
-      "words": 306,
+      "skill": "generate-rfc",
+      "path": ".claude/skills/generate-rfc.md",
+      "words": 299,
       "total": 86,
       "structure": 6,
       "length": 10,
@@ -210,7 +196,7 @@
       "steps": 10,
       "tools": 10,
       "clarity": 7,
-      "code_blocks": 5,
+      "code_blocks": 4,
       "numbered_steps": 8
     },
     {
@@ -228,6 +214,20 @@
       "numbered_steps": 6
     },
     {
+      "skill": "new-research",
+      "path": ".claude/skills/new-research.md",
+      "words": 295,
+      "total": 86,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 4,
+      "clarity": 10,
+      "code_blocks": 2,
+      "numbered_steps": 14
+    },
+    {
       "skill": "propose-collaboration",
       "path": ".claude/skills/propose-collaboration.md",
       "words": 259,
@@ -242,9 +242,9 @@
       "numbered_steps": 8
     },
     {
-      "skill": "generate-rfc",
-      "path": ".claude/skills/generate-rfc.md",
-      "words": 299,
+      "skill": "evaluate-tech",
+      "path": ".claude/skills/evaluate-tech.md",
+      "words": 306,
       "total": 86,
       "structure": 6,
       "length": 10,
@@ -252,22 +252,8 @@
       "steps": 10,
       "tools": 10,
       "clarity": 7,
-      "code_blocks": 4,
+      "code_blocks": 5,
       "numbered_steps": 8
-    },
-    {
-      "skill": "track-decisions",
-      "path": ".claude/skills/track-decisions.md",
-      "words": 278,
-      "total": 84,
-      "structure": 6,
-      "length": 10,
-      "examples": 10,
-      "steps": 10,
-      "tools": 8,
-      "clarity": 7,
-      "code_blocks": 4,
-      "numbered_steps": 7
     },
     {
       "skill": "dispatch",
@@ -298,18 +284,18 @@
       "numbered_steps": 6
     },
     {
-      "skill": "synthesize",
-      "path": ".claude/skills/synthesize.md",
-      "words": 347,
-      "total": 82,
+      "skill": "track-decisions",
+      "path": ".claude/skills/track-decisions.md",
+      "words": 278,
+      "total": 84,
       "structure": 6,
       "length": 10,
       "examples": 10,
       "steps": 10,
-      "tools": 6,
+      "tools": 8,
       "clarity": 7,
-      "code_blocks": 3,
-      "numbered_steps": 9
+      "code_blocks": 4,
+      "numbered_steps": 7
     },
     {
       "skill": "design-ensemble",
@@ -326,6 +312,20 @@
       "numbered_steps": 8
     },
     {
+      "skill": "synthesize",
+      "path": ".claude/skills/synthesize.md",
+      "words": 347,
+      "total": 82,
+      "structure": 6,
+      "length": 10,
+      "examples": 10,
+      "steps": 10,
+      "tools": 6,
+      "clarity": 7,
+      "code_blocks": 3,
+      "numbered_steps": 9
+    },
+    {
       "skill": "analyze-project",
       "path": ".claude/skills/analyze-project.md",
       "words": 308,
@@ -340,18 +340,18 @@
       "numbered_steps": 6
     },
     {
-      "skill": "propose-mega-stack",
-      "path": ".claude/skills/propose-mega-stack.md",
-      "words": 357,
+      "skill": "improve",
+      "path": ".claude/skills/improve.md",
+      "words": 1520,
       "total": 78,
-      "structure": 6,
-      "length": 10,
+      "structure": 7,
+      "length": 4,
       "examples": 10,
-      "steps": 10,
-      "tools": 8,
-      "clarity": 4,
-      "code_blocks": 3,
-      "numbered_steps": 8
+      "steps": 8,
+      "tools": 10,
+      "clarity": 7,
+      "code_blocks": 25,
+      "numbered_steps": 4
     },
     {
       "skill": "skill-router",
@@ -368,18 +368,18 @@
       "numbered_steps": 7
     },
     {
-      "skill": "improve",
-      "path": ".claude/skills/improve.md",
-      "words": 1520,
+      "skill": "propose-mega-stack",
+      "path": ".claude/skills/propose-mega-stack.md",
+      "words": 357,
       "total": 78,
-      "structure": 7,
-      "length": 4,
+      "structure": 6,
+      "length": 10,
       "examples": 10,
-      "steps": 8,
-      "tools": 10,
-      "clarity": 7,
-      "code_blocks": 25,
-      "numbered_steps": 4
+      "steps": 10,
+      "tools": 8,
+      "clarity": 4,
+      "code_blocks": 3,
+      "numbered_steps": 8
     },
     {
       "skill": "status",

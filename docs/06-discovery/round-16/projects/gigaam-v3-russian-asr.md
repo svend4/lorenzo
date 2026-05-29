@@ -1,4 +1,22 @@
+---
+date: 2026-05-29
+tags: [orchestration, ingestion, local-first, architecture, collaboration]
+state: normalized
+---
+
 # GigaAM-v3 — SOTA русский ASR от SberDevices
+
+<!-- toc-auto -->
+<!-- tags: gigaam-v3-russian-asr, docs -->
+
+
+<!-- summary -->
+> Автор: SberDevices (команда AI-sage / salute-developers) Хабр: https://habr.com/ru/companies/sberdevices/articles/973160/
+Хабр: https://habr.com/ru/companies/sberdevices/articles/973160/  
+GitHub: https://github.com/salute-developers/GigaAM (MIT)  
+Слой: voice / edge-AI / ingestion / local  
+Дата: ноябрь 2025
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -94,3 +112,10 @@ GigaAM-v3 **заменяет** Vosk и faster-whisper в русском voice pi
 - HuggingFace: https://huggingface.co/ai-sage/GigaAM-v3
 - arXiv: https://arxiv.org/abs/2506.01192
 - Статья Хабр: https://habr.com/ru/companies/sberdevices/articles/973160/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

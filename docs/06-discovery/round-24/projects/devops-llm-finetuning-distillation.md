@@ -1,4 +1,30 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Обучил свой DevOps-агент: fine-tuning + дистилляция qwen3 для серверного мониторинга
+
+<!-- toc-auto -->
+<!-- tags: devops-llm-finetuning-distillation, docs -->
+
+
+<!-- summary -->
+> Проблема: локальные LLM ломаются на DevOps Подход: дистилляция от сильной модели
+ 
+Подход: дистилляция от сильной модели
+ 
+Датасет: домены DevOps-задач
+ 
+Catastrophic Forgetting: главная проблема fine-tuning
+ 
+Результаты: 10/10 vs 7/10
+ 
+Инфраструктура: RTX 3090 за 2 недели
+ 
+Применение
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -160,3 +186,10 @@ DevOps LLM паттерн = **Custom Tool-Calling Model** для Lorenzo-спе�
 - Часть 3 (дистилляция): https://habr.com/ru/articles/1033434/
 - Unsloth (fast fine-tuning): github.com/unslothai/unsloth (Apache 2.0)
 - Смежная (LLM дообучение 2026): https://habr.com/ru/companies/otus/articles/1026700/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

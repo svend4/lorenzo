@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, ingestion, local-first, architecture]
+state: normalized
+---
+
 # LOCK-R: CoT-парадокс и слепой судья для LLM-рассуждений
+
+<!-- toc-auto -->
+<!-- tags: lockr-cot-paradox-bayesian-reasoning-benchmark, docs -->
+
+
+<!-- summary -->
+> `lockr-cot-paradox-bayesian-reasoning-benchmark` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -309,3 +323,11 @@ class LorenzoBlindJudgeQA:
 - GitHub: https://github.com/aak204/LOCK-R
 - Смежная (Reasoning LLMs обзор 4 подхода, Kual): https://habr.com/ru/articles/894688/
 - Смежная (TinyZero RL reasoning): https://github.com/Jiayi-Pan/TinyZero/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

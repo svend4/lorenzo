@@ -1,4 +1,29 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, knowledge, local-first, architecture]
+state: normalized
+---
+
 # Text2SQL с самопроверкой в production: X5 Tech, Qwen2.5-72B, M-Schema
+
+<!-- toc-auto -->
+<!-- tags: x5tech-text2sql-self-refinement, docs -->
+
+
+<!-- summary -->
+> Эволюция NL2SQL: почему наивный подход не работает M-Schema: обогащённое описание схемы
+ 
+M-Schema: обогащённое описание схемы
+ 
+Самопроверка: Self-Refinement Loop
+ 
+Результаты на внутреннем бенчмарке X5
+ 
+PET-SQL и мультимодельные ансамбли
+ 
+Применение к Lorenzo
+Lorenzo имеет   — Q&A п
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -278,3 +303,11 @@ class LorenzoText2Docs:
 - Смежная (Sberbank fine-tuning SQL): https://habr.com/ru/companies/sberbank/articles/909730/
 - Vanna AI: github.com/vanna-ai/vanna (MIT)
 - SQL Coder (Defog): github.com/defog-ai/sqlcoder
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

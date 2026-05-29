@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # Инженерия оценки агентов: Golden Set с CoT-трассами и RAGAS + Knowledge Graph на русском
+
+<!-- toc-auto -->
+<!-- tags: kobets87-agent-evaluation-golden-set-ragas, docs -->
+
+
+<!-- summary -->
+> `kobets87-agent-evaluation-golden-set-ragas` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -418,3 +432,11 @@ class LorenzoAgentEvaluation:
 - Смежная (SWE-MERA benchmark, R41): docs/06-discovery/round-41/
 - Смежная (Yandex LLM eval, R44): docs/06-discovery/round-44/projects/yandex-llm-evaluation-production-pipeline.md
 - Смежная (CLEV LLM Judge, R47): docs/06-discovery/round-47/projects/maslennikov-llm-judge-educational-content-clev.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

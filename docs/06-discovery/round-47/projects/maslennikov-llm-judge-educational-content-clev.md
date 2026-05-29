@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, knowledge, local-first, architecture, roadmap]
+state: normalized
+---
+
 # LLM Judge для валидации образовательного контента: CLEV и $0.014 за курс
+
+<!-- toc-auto -->
+<!-- tags: maslennikov-llm-judge-educational-content-clev, docs -->
+
+
+<!-- summary -->
+> `maslennikov-llm-judge-educational-content-clev` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -349,3 +363,11 @@ class LorenzoCardValidator {
 - Flesch Reading Ease: formulae.mobi/flesch-reading-ease
 - Смежная (Yandex LLM Evaluation, R44): docs/06-discovery/round-44/projects/yandex-llm-evaluation-production-pipeline.md
 - Смежная (LOCK-R Blind Judge, R43): docs/06-discovery/round-43/projects/lockr-cot-paradox-bayesian-reasoning-benchmark.md
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

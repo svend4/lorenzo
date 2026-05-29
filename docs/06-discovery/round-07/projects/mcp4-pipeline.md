@@ -1,4 +1,21 @@
+---
+date: 2026-05-29
+tags: [architecture, roadmap, collaboration]
+state: normalized
+---
+
 # 4 MCP-сервера + протокол связи
+<!-- tags: mcp4-pipeline, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья май 2026, ~4 дня до R07) Хабр: https://habr.com/ru/articles/1019652/
+Хабр: https://habr.com/ru/articles/1019652/  
+GitHub: не найден явно — уточнить  
+Слой: orchestration / MCP / pipeline  
+Дата: май 2026  
+Уникальность: Автор независимо пришёл к той же идее, что и
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -40,3 +57,17 @@ Lorenzo стоит перед этой же задачей: 12 MCP-сервер�
 
 - Статья: https://habr.com/ru/articles/1019652/ (май 2026)
 - ⚠️ Нужно найти GitHub автора
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_mcp4_pipeline.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

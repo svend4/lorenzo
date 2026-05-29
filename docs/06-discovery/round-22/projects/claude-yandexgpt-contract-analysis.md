@@ -1,4 +1,23 @@
+---
+date: 2026-05-29
+tags: [architecture, collaboration]
+state: normalized
+---
+
 # Claude + YandexGPT ensemble для анализа договоров — 2.5× больше рисков
+
+<!-- toc-auto -->
+<!-- tags: claude-yandexgpt-contract-analysis, docs -->
+
+
+<!-- summary -->
+> Автор: независимый разработчик (Хабр, февраль 2026) Хабр: https://habr.com/ru/articles/992074/
+Хабр: https://habr.com/ru/articles/992074/  
+GitHub: не опубликован (продукт-инструмент, архитектура и промпты описаны)  
+Слой: orchestration / knowledge / analytics  
+Дата: февраль 2026  
+Уникаль
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -159,3 +178,10 @@ def analyze_doc_risks(file_path: str) -> RiskReport:
 - Смежная (Directum нормоконтроль): https://habr.com/ru/companies/directum/articles/980140/
 - Смежная (анализ договорных рисков): https://habr.com/ru/articles/1005144/
 - ГК РФ онлайн: consultant.ru/document/cons_doc_LAW_5142/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

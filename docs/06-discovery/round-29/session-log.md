@@ -1,4 +1,22 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 29 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> X5 Tech Text2SQL с самопроверкой в production Хабр: https://habr.com/ru/companies/X5Tech/articles/949694/
+ Файл:  
+ Хабр: https://habr.com/ru/companies/X5Tech/articles/949694/
+ Слой: orchestration / analytics
+ Уникальность: Production NL2SQL X5 Group: Qwen2.5-72B + M-Schema (DDL с аннотациями типов и примерам
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -107,3 +125,10 @@ python scripts/improve_collab_finder.py --file docs/06-discovery/round-29/projec
 2. **AI для документооборота** — интеллектуальная обработка документов: извлечение данных из PDF/Word, структурирование, классификация, маршрутизация
 3. **Simulation и синтетические данные v2** — продвинутая генерация синтетических данных: domain adaptation, quality scoring, distillation датасетов
 4. **Агентные workflows с человеком в контуре** — Human-in-the-loop паттерны: когда агент должен остановиться и спросить, approval workflows, confidence thresholds
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

@@ -12,6 +12,10 @@ tags: [architecture, rfc, memory, write-policy, mcp]
 
 # RFC-0002: Memory Write Policy для Svyazi 2.0
 
+<!-- toc-auto -->
+<!-- tags: rfc-0002-memory-write-policy-для-svyazi-2-0, docs -->
+
+
 <!-- summary -->
 > title: "Memory Write Policy для Svyazi 2.0"
 **Проекты:** Svyazi

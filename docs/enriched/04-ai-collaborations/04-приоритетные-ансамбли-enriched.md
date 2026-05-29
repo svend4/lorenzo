@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Приоритетные ансамбли
+
+
+<!-- summary -->
+> Раздел 04-приоритетные-ансамбли-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `04-приоритетные-ансамбли-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement, collaboration -->
@@ -27,3 +42,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [04-приоритетные-ансамбли](docs\04-ai-collaborations\04-приоритетные-ансамбли.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_04_приоритетные_ансамбли_enriched.py
+```

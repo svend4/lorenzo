@@ -1,5 +1,9 @@
 # Языковой состав документов
 
+<!-- toc-auto -->
+<!-- tags: language-stats, docs -->
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -1173,3 +1177,26 @@ _Обновлено: 2026-05-14_
 - [SEARCH](SEARCH.md)
 - _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_language_stats.py
+```
+```bash
+# Вариант 2
+python scripts/improve_language_stats.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_language_stats.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_language_stats.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_language_stats.py --dry-run
+```

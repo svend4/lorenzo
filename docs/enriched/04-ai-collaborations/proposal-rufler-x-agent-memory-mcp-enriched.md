@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, orchestration, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Proposal: Rufler × Agent-Memory-Mcp
+
+
+<!-- summary -->
+> Раздел proposal-rufler-x-agent-memory-mcp-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-rufler-x-agent-memory-mcp-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция orchestration-слоя (Rufler) и memory-слоя (Agent-Memory-Mcp): Rufler типизирует memory-пр -->
 <!-- tags: proposal, rufler, agent-memory-mcp, orchestration, memory, integration -->
@@ -31,3 +46,10 @@ Proposal встраивается в слой proposal как стратегия
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-rufler-x-agent-memory-mcp](docs\04-ai-collaborations\proposals\proposal-rufler-x-agent-memory-mcp.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_rufler_x_agent_memory_mcp_enriched.py
+```

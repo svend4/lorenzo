@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [rag, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # T-Lite и T-Pro: открытые русскоязычные LLM с 4-этапным pipeline
+
+<!-- toc-auto -->
+<!-- tags: tbank-tlite-tpro-russian-llm-training, docs -->
+
+
+<!-- summary -->
+> Ключевое открытие: пропуск полного pretraining с заменой на replay русских текстов снижает затраты на 80-90% при конкурентных MERA-результатах.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -290,3 +304,11 @@ class LorenzoRussianFineTune:
 - Смежная (GigaChat 3 Ultra 702B MoE): https://habr.com/en/companies/sberdevices/articles/968904/
 - Смежная (Кириллица в LLM токенизация): https://habr.com/ru/articles/1032610/
 - Смежная (A-Vibe Авито RU LLM): https://habr.com/ru/articles/899242/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

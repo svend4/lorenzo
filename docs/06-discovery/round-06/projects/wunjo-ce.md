@@ -1,4 +1,17 @@
+---
+date: 2026-05-29
+tags: [knowledge, ingestion, local-first, architecture, collaboration]
+state: normalized
+---
+
 # Wunjo CE (Video Generation, полностью свободный)
+<!-- tags: wunjo-ce, docs -->
+
+
+<!-- summary -->
+> Wunjo CE = multimodal layer для будущего Lorenzo: обогащение карточек видео-превью,  
+автоматическая генерация демо-роликов из текстовых описаний проектов.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -49,3 +62,17 @@ Wunjo CE = multimodal layer для будущего Lorenzo: обогащени�
 
 - GitHub: https://github.com/wladradchenko/wunjo.wladradchenko.ru
 - Хабр автора: https://habr.com/ru/users/wladradchenko/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_wunjo_ce.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

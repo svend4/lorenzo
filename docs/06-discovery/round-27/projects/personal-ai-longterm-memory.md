@@ -1,4 +1,22 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # AI-агент с долгосрочной памятью: личный аналитик на Claude Code + PostgreSQL
+
+<!-- toc-auto -->
+<!-- tags: personal-ai-longterm-memory, docs -->
+
+
+<!-- summary -->
+> AI-агент с долгосрочной памятью: личный аналитик на Claude Code + PostgreSQL — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -224,3 +242,10 @@ class LorenzoSessionMemory:
 - Смежная (LLM-Wiki личная база знаний): https://habr.com/ru/articles/1031970/
 - pgvector: github.com/pgvector/pgvector (PostgreSQL extension)
 - aiogram 3: github.com/aiogram/aiogram (Telegram bot framework)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

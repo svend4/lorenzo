@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # AgentFly/Memento: память вместо файнтюнинга для LLM continuous adaptation
+
+<!-- toc-auto -->
+<!-- tags: memento-memory-based-continual-llm-adaptation, docs -->
+
+
+<!-- summary -->
+> `memento-memory-based-continual-llm-adaptation` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -301,3 +315,11 @@ class LorenzoMementoAdapter:
 - Case-Based Reasoning: классический AI метод (Kolodner, 1993)
 - Смежная (catastrophic forgetting для новичков): https://habr.com/ru/articles/846434/
 - Смежная (инерция весов и subliminal learning): https://habr.com/ru/articles/987130/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

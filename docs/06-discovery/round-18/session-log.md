@@ -1,4 +1,18 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 18 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Synthetic Data Toolkit (MWS, 932066) — три инструмента разного уровня: DataDreamer (академический, воспроизводимость), Distilabel (production, Argilla), Bespoke Curator (минималистичный, 2025).
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -70,3 +84,17 @@
 - **Локальные LLM для enterprise** — Ollama в production: балансировка нагрузки, мониторинг, HA
 - **AI-ассистент для code generation** — не Copilot-клоны, а нишевые: тестирование, рефакторинг, документация
 - **Vector DB сравнение 2026** — Qdrant vs Weaviate vs Chroma vs Milvus: бенчмарки на русских корпусах
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Executive summary
+
+
+<!-- summary -->
+> Раздел 01-executive-summary-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `01-executive-summary-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяц -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, collaboration -->
@@ -27,3 +42,10 @@ Executive summary служит архитектурной картой для с
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [01-executive-summary](docs\04-ai-collaborations\01-executive-summary.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_01_executive_summary_enriched.py
+```

@@ -1,4 +1,19 @@
+---
+date: 2026-05-29
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Proposal: Agentfs × Agent-Memory-Mcp
+
+
+<!-- summary -->
+> Раздел proposal-agentfs-x-agent-memory-mcp-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-agentfs-x-agent-memory-mcp-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Agentfs) и memory-слоя (Agent-Memory-Mcp): Agentfs обеспечивает персистен -->
 <!-- tags: proposal, agentfs, agent-memory-mcp, knowledge, memory, integration -->
@@ -31,3 +46,10 @@ Proposal является частью слоя планирования и ар
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-agentfs-x-agent-memory-mcp](docs\04-ai-collaborations\proposals\proposal-agentfs-x-agent-memory-mcp.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_agentfs_x_agent_memory_mcp_enriched.py
+```
