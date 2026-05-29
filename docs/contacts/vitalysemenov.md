@@ -71,6 +71,21 @@ Typed memory MCP-сервер с типами: `episodic`, `semantic`, `procedur
 ## Первое сообщение
 
 ```
+
+<!-- llm-contact-draft -->
+## Улучшенное сообщение (LLM, 2026-05-29)
+
+```
+Hi Vitaly,
+
+I've been following agent-memory-mcp and impressed by how you've structured typed memory contexts for MCP — the approach to semantic grounding feels like exactly what Knowledge OS needs for maintaining context coherence across heterogeneous OSS tools.
+
+We're building Svyazi 2.0, a community intelligence platform that integrates best-in-class open projects into unified Knowledge OS architecture. Your memory layer is a critical piece: it solves the persistence and type-safety problem that most agent frameworks gloss over.
+
+Specifically, I'm curious about your approach to memory serialization — are you planning versioning/migration strategies for schema evolution as agent systems grow more complex? We're thinking about how to handle that across different tool integrations, and your experience would be invaluable.
+
+Would be great to discuss whether agent-memory-mcp could be positioned as the canonical memory backend in Svyazi's agent layer. Open to a quick technical sync if you're interested.
+```
 **Кому:** VitaliySemenov (@moshael)
 **Тема:** Интеграция agent-memory-mcp в Knowledge OS (Svyazi 2.0)
 

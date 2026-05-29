@@ -72,6 +72,21 @@ Contents
 ## Первое сообщение
 
 ```
+
+<!-- llm-contact-draft -->
+## Улучшенное сообщение (LLM, 2026-05-29)
+
+```
+Привет, nlaik!
+
+Изучаю LiteParse для интеграции в Svyazi 2.0 — локальную community intelligence platform, которая объединяет OSS-компоненты в unified Knowledge OS. Ваш проект идеально закрывает критический RAG-слой с spatial text parsing и visual citations — именно то, чего не хватает типичным локальным системам для forensic document QA.
+
+Особенно интересует ваш подход с bounding boxes на PDF-страницах и HTML evidence reports — это даёт visual grounding, который мы планируем использовать для cross-document reasoning в графе знаний.
+
+Технический вопрос: поддерживает ли текущая версия LiteParse multi-modal embeddings для совместного индексирования текста и visual regions, или на этом этапе используется только spatial text parsing?
+
+Было бы здорово обсудить возможность интеграции — открыт к сотрудничеству.
+```
 Здравствуйте, nlaik!
 
 Я изучаю LiteParse / research-docs — он отлично вписывается в Svyazi 2.0,

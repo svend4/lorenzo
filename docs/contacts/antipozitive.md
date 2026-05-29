@@ -72,6 +72,23 @@ Contents
 ## Первое сообщение
 
 ```
+
+<!-- llm-contact-draft -->
+## Улучшенное сообщение (LLM, 2026-05-29)
+
+```
+Привет, Antipozitive!
+
+Я собираю Svyazi 2.0 — локальную community intelligence platform, которая объединяет OSS-проекты в единую Knowledge OS архитектуру, и MemNet идеально закрывает критический слой активной памяти с долгосрочным контекстом.
+
+Изучил твою реализацию Hebbian graph memory с STDP и spreading activation — это именно то, что нужно для anti-forgetting в distributed knowledge system без постоянного переобучения на весь корпус.
+
+Конкретно интересует: как ты видишь интеграцию MemNet с семантическим поиском и embedding-based retrieval в контексте большого локального knowledge graph? Есть ли уже опыт масштабирования memory engine на 100k+ узлов?
+
+Было бы здорово обсудить возможность collaboration — можем ли мы адаптировать MemNet как модуль Knowledge OS с единым интерфейсом для других компонентов Svyazi?
+
+Как тебе удобнее общаться?
+```
 Здравствуйте, Antipozitive!
 
 Я изучаю MemNet — он отлично вписывается в Svyazi 2.0,

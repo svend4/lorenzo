@@ -74,6 +74,19 @@ Contents
 ## Первое сообщение
 
 ```
+
+<!-- llm-contact-draft -->
+## Улучшенное сообщение (LLM, 2026-05-29)
+
+```
+Привет, AnastasiyaW!
+
+Я собираю Svyazi 2.0 — локальную community intelligence platform, которая объединяет лучшие OSS-проекты в единую Knowledge OS архитектуру. Твои проекты knowledge-space и mclaude — именно то, что нужно для слоя knowledge orchestration и semantic indexing.
+
+Заметил, что в knowledge-space реализована интересная система контекстного связывания между reference и operational knowledge — это как раз то, чего не хватает в текущих решениях. Вопрос у меня такой: как вы архитектурно решили вопрос версионирования и миграции схем когда operational patterns расходятся с reference documentation? 
+
+Хотел бы обсудить, возможно ли интегрировать mclaude как индексирующий слой для knowledge-space внутри более крупной системы. Есть ли удобный способ подняться с тобой на связь — гитхаб issues, дискорд, или где-то ещё?
+```
 Здравствуйте, AnastasiyaW!
 
 Я изучаю knowledge-space, mclaude — он отлично вписывается в Svyazi 2.0,

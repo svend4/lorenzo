@@ -74,6 +74,21 @@ Contents
 ## Первое сообщение
 
 ```
+
+<!-- llm-contact-draft -->
+## Улучшенное сообщение (LLM, 2026-05-29)
+
+```
+Привет, zodigancode!
+
+Я собираю Svyazi 2.0 — локальную community intelligence platform на базе Knowledge OS, и твой Rufler идеально подходит для неё как declarative orchestration layer. Впечатлил подход с YAML-конфигом для управления роем Claude Code агентов — особенно механика pause/resume и auto-objective prompts, которые как раз решают проблему координации автономных задач без тяжёлого UI.
+
+В архитектуре Svyazi Rufler закроет именно слой orchestration между inference engines и knowledge storage — получится быстрый асинхронный dispatcher для многоагентных workflow.
+
+Один вопрос: как Rufler сейчас обрабатывает token accounting при параллельном выполнении нескольких агентов — есть ли встроенный rate-limiter или это делегируется MCP server management?
+
+Было бы здорово обсудить возможность интеграции. Может быть, GitHub Discussions в репо или что тебе удобнее?
+```
 Здравствуйте, zodigancode!
 
 Я изучаю Rufler — он отлично вписывается в Svyazi 2.0,
