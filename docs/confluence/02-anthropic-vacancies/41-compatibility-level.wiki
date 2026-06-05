@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/41-compatibility-level.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Compatibility Level
 
@@ -25,8 +29,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Текущий уровень: 3 (Interactive / Bridged) Текущий уровень: 3 (Interactive / Bridged){quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Текущий уровень: 3 (Interactive / Bridged)_{quote}

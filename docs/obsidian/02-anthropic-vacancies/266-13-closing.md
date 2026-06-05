@@ -2,8 +2,9 @@
 title: "13. Closing"
 tags:
   - rag
+  - orchestration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 13. Closing
@@ -23,8 +24,8 @@ date: 2026-05-12
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Building uniquely customized agents serves deep representational needs but cannot scale.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Mastery in skilled work has always been composite. The yoga
@@ -42,7 +43,7 @@ date: 2026-05-12
 
 ---
 
-<!-- tags: rag -->
+<!-- tags: rag, orchestration -->
 
 
 

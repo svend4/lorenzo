@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -11,7 +11,7 @@ tags:
   * roadmap
   * anthropic
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 7. Economics of Combinatorial Replication
@@ -32,8 +32,8 @@ h1. 7. Economics of Combinatorial Replication
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Economics of Combinatorial Replication The economics of Composite Skills Agents differ from both --- Содержание - 7.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}The economics of Composite Skills Agents differ from both{quote}

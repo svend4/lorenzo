@@ -1,39 +1,31 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/COVERAGE.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Матрица покрытия документов"
 tags:
-  * security
-  * ingestion
-  * architecture
-  * roadmap
-  * anthropic
-  * collaboration
+  * coverage
+  * docs
   * general
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Матрица покрытия документов
 
 {quote}[!NOTE]{quote}
-{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
-
-
-
-
-{quote}Условные обозначения: ✅ есть  ⬜ отсутствует{quote}
-_Проекты:_ Svyazi
-
-----
+{quote}Раздел {{COVERAGE}} формируется автоматически из данных репозитория.{quote}
 
 
 
 
 
-_Обновлено: 2026-05-12_
+
+{quote}{{COVERAGE}} — раздел документации проекта Lorenzo.{quote}
+
+
+_Обновлено: 2026-05-13_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -75,26 +67,33 @@ python scripts/improve_backlinks.py
 python scripts/improve_autofill.py
 {code}
 
-
-
-----
-
-_Смотрите также:_
-* [[LLM_SUMMARIES]]
-* [[HEATMAP]]
-* [[SCORING]]
-* [[CROSS_SECTION]]
-
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
 
 
 
 ----
 
 _Кто ссылается на этот документ (6):_
-* [[CROSS_SECTION]]
-* [[METRICS]]
+* [[HEATMAP]]
 * [[READABILITY]]
+* [[READING_TIME]]
 * [[README]]
 * [[SEARCH]]
 * [[TABLES]]
+
+
+
+
+----
+
+_Смотрите также:_
+* [[SUMMARIES]]
+* [[STALENESS]]
+* [[SCORING]]
+* [[SCHEDULE]]
 

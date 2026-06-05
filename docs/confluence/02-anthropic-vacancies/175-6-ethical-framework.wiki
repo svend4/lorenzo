@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/175-6-ethical-framework.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [rag, orchestration, ingestion, local-first, architecture]
+state: approved
+----
 
 h1. 6. Ethical Framework
 
@@ -36,7 +42,10 @@ h2. Содержание
 
 
 
-{quote}Representative Agents raise novel ethical questions. We{quote}
+{quote}> ✅ Результат: This means: - Principal owns all data about themselves used by agent - Principal can modify or terminate agent at any time - Principal can override any agent decision - Principal c{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!IMPO{quote}
 
 ----
 

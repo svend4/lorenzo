@@ -2,8 +2,9 @@
 title: "Acknowledgments"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Acknowledgments
@@ -28,10 +29,23 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> This concept emerged through dialogue across multiple
+> Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10) This concept emerged through dialogue across multiple
+ 
+Contents
+ Acknowledgments
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (10)
+> [!TIP]
+> Документ содержит практические реком
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

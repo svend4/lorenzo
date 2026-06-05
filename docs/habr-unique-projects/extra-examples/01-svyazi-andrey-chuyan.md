@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Svyazi (Андрей Чуян) — детальный обзор
 
 <!-- toc-auto -->

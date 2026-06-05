@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix B: Sub-Agent Registry Schema (Sketch)
 
@@ -28,8 +32,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, su{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}For implementation, sub-agent registry entries might follow{quote}

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Раковина наутилуса как scale invariance — две проекции одной метафоры
 
 <!-- toc-auto -->

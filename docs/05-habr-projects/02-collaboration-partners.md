@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Авторы и контакты
 
 <!-- toc-auto -->

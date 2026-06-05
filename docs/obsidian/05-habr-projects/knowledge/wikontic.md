@@ -4,7 +4,7 @@ tags:
   - ingestion
   - collaboration
   - habr-projects
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Wikontic: семантический граф

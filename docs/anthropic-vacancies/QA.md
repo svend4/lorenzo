@@ -4,14 +4,26 @@
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 97 файлам раздела._
-
----
-<!-- tags: anthropic, collaboration -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. Кто ссылается на этот документ (6):
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ README
 
 
 _Автоматически сгенерировано по 97 файлам раздела._
@@ -24,18 +36,21 @@ _Автоматически сгенерировано по 97 файлам ра
 
 Упоминаются: **forward deployed**, **research engineer**, **developer community**
 
-<!-- backlinks -->
+## Какие 5 архитектурных зазоров выделены в исследовании?
 
----
+Упоминаются: **evidence**
 
-**Кто ссылается на этот документ (6):**
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [README](README.md)
+## Что входит в интеграционный контракт между слоями?
 
+_Не найдено в этом файле._
+
+## Кто ключевые авторы проектов для контакта?
+
+Упоминаются: **Андрей Чуян**
+
+## Какие вопросы лучше задавать авторам при первом контакте?
+
+Упоминаются: **архитектурный**, **шаблон**
 
 
 Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Q&A: anthropic-vacancies». Формируется автоматически.
@@ -47,12 +62,22 @@ _Автоматически сгенерировано по 97 файлам ра
 python scripts/improve_qa.py
 ```
 
-<!-- similar-docs -->
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
+<!-- backlinks -->
 
 ---
 
-**Похожие документы:**
-- [QA](../obsidian/anthropic-vacancies/QA.md) (сходство 0.97)
-- [README](../badges/README.md) (сходство 0.42)
-- [README](../obsidian/badges/README.md) (сходство 0.41)
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
 

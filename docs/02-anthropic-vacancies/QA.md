@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # Q&A: 02-anthropic-vacancies
 
 <!-- toc-auto -->
@@ -6,15 +10,27 @@
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 355 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 355 файлам раздела._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
@@ -111,6 +127,20 @@ _Автоматически сгенерировано по 355 файлам р�
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
 <!-- backlinks -->
 
 ---
@@ -122,21 +152,4 @@ _Автоматически сгенерировано по 355 файлам р�
 - [READING_TIME](../READING_TIME.md)
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/02-anthropic-vacancies/QA.md) (сходство 0.99)
-- [QA](../QA.md) (сходство 0.82)
-- [QA](../obsidian/QA.md) (сходство 0.81)
 

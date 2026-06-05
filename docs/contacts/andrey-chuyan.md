@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "andrey_chuyan"
@@ -31,7 +32,22 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> - [Статус связи](#статус-связи)
+> Документ содержит практические рекомендации и лучшие практики. _Создано автоматически: 2026-04-29_ antipozitive (сходство 0.70) vladspace (сходство 0.67)
+ --
+_Создано автоматически: 2026-04-29_
+ --
+Похожие документы
+ nlaik (сходство 0.70)
+ antipozitive (сходство 0.70)
+ vladspace (сходство 0.67)
+ --
+Смотрите также
+ antipozitive
+ nlaik
+ sonia-black
+ spbmolot
+ --
+Кто ссылается на этот документ
 **Проекты:** Svyazi, CardIndex
 
 ---
@@ -61,6 +77,19 @@ tags: [контакты, команда]
 
 ## Первое сообщение
 
+```
+
+<!-- llm-contact-draft -->
+## Улучшенное сообщение (LLM, 2026-05-29)
+
+```
+Привет, Andrey!
+
+Я собираю Svyazi 2.0 как локальную community intelligence platform и вижу, что CardIndex идеально закрывает критический слой — normalization и state-management для heterogeneous entities (person/project/episode/doc). Именно эта immutable card-based архитектура с хешированием payload и tracking источников решает нашу главную боль: как унифицировать ingestion из разных OSS-проектов в единую Knowledge OS.
+
+Твой подход с cardtype + state lifecycle (raw → normalized → inferred → approved) выглядит как то, что нам нужно. Один конкретный вопрос: как ты видишь масштабирование CardIndex для работы с embedded knowledge-graphs — имеет смысл хранить edges как first-class entities или лучше держать их как атрибуты карточки?
+
+Было бы здорово обсудить это подробнее — ты открыт к диалогу?
 ```
 Здравствуйте, andrey_chuyan!
 

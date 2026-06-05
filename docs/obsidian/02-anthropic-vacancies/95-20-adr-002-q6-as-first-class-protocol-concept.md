@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 20. ADR-002: Q6 as First-Class Protocol Concept
@@ -29,8 +29,8 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > **Status**: Accepted (new in v1.1)

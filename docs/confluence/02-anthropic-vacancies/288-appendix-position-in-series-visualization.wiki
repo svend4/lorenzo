@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix: Position in Series Visualization
 
@@ -21,7 +25,12 @@ h1. Appendix: Position in Series Visualization
 
 
 
-{quote}Document 1: Nautilus Portal Protocol{quote}
+{quote}_ Он identifies a problem, surveys existing approximations, и stops short of specifying solution. _ Он identifies a problem, surveys existing approximations, и stops short of specifying solution{quote}
+Infrastructure for AI-Collaborative Intellectual Work v1.0.0-draft
+Document 2.3 in the Nautilus / Open Knowledge Work series
+An inquiry document, not an architectural specification
+Seeking observations, alternative formulations, and practical 
+imp
 
 ----
 

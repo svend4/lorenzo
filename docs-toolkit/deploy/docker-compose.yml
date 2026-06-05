@@ -1,0 +1,63 @@
+# docs-toolkit production-style local deployment
+#
+# Launch:
+#   cd docs-toolkit/deploy
+#   docker compose up -d
+#
+# Services:
+#   serve    : HTTP API + dashboard on :8083
+#   bge      : (profile=bge) same image, but uses the BGE-bundled variant
+#   prometheus : (profile=monitor) scrapes /metrics from `serve`
+#
+# Choose a profile:
+#   docker compose --profile bge up -d
+#   docker compose --profile monitor up -d
+#
+# Volumes:
+#   ./data  -> /work (docs corpus + .docstoolkit/ SQLite caches)
+#   ./prom  -> /etc/prometheus  (only for monitor profile)
+
+services:
+  serve:
+    image: docs-toolkit:latest
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+    volumes:
+      - ../docs:/work/docs:ro
+      - ./data:/work/.docstoolkit
+    command: ["serve", "--port", "8083"]
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8083/api/health').read()"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  bge:
+    image: docs-toolkit:bge
+    profiles: ["bge"]
+    build:
+      context: ..
+      dockerfile: Dockerfile.bge
+    ports:
+      - "8084:8083"
+    volumes:
+      - ../docs:/work/docs:ro
+      - ./data-bge:/work/.docstoolkit
+    command: ["serve", "--port", "8083"]
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:v2.55.0
+    profiles: ["monitor"]
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prom/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    depends_on:
+      - serve
+    restart: unless-stopped

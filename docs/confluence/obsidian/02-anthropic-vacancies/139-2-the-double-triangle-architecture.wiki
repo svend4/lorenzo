@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "2. The Double-Triangle Architecture"
 tags:
   * architecture
+  * memory
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 2. The Double-Triangle Architecture
@@ -29,7 +30,11 @@ h1. 2. The Double-Triangle Architecture
 
 
 
-{quote}We formalize the architecture using two triangles sharing a common{quote}
+{quote}_ The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры. _ The Double-Triangle Architecture !IMPORTANT Ключевой документ для понимания архитектуры{quote}
+separate identity contexts: personal context (their 
+work-in-progress, drafts, notes, private patterns) and team 
+context (their accepted deliverables, public roles, shared 
+outputs).
 
 ----
 

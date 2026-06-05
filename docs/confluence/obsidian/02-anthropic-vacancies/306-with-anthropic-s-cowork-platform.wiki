@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "with Anthropic's Cowork Platform"
 tags:
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. with Anthropic's Cowork Platform
@@ -43,7 +43,16 @@ h2. Содержание
 
 
 
-{quote}_Document type:_ Practical implementation paper, building{quote}
+{quote}_ with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork P. _ with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork P{quote}
+ with Anthropic's Cowork Platform
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования.{quote}
 
 ----
 

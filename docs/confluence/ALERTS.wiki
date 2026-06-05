@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ALERTS.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 h1. Callout-блоки
@@ -8,9 +8,9 @@ h1. Callout-блоки
 Добавлено _22_ callout-блоков в документы.
 
 || Тип || Количество || Назначение ||
-|| `[!NOTE]` || 10 || Нейтральная заметка ||
-|| `[!TIP]` || 7 || Практический совет ||
-|| `[!WARNING]` || 5 || Предупреждение о риске ||
+|| `[!NOTE]` || 9 || Нейтральная заметка ||
+|| `[!TIP]` || 9 || Практический совет ||
+|| `[!WARNING]` || 4 || Предупреждение о риске ||
 || `[!IMPORTANT]` || 0 || Ключевой документ ||
 
 h2. Пример синтаксиса
@@ -35,14 +35,14 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ----
 
-_Кто ссылается на этот документ (9):_
-* [DIGEST_AUTO|DIGEST_AUTO.md]
-* [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
+_Кто ссылается на этот документ (12):_
+* [AUTHORS|AUTHORS.md]
+* [DIGEST|DIGEST.md]
+* [ENTITIES|ENTITIES.md]
+* [HEALTH|HEALTH.md]
 * [INDEX|INDEX.md]
+* [METRICS|METRICS.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* _...ещё 1_
+* _...ещё 4_
 

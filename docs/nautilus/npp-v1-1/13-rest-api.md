@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 13. REST API Contract (Normative for Portals)
 
 <!-- toc -->

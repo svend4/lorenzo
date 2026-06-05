@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 1. Why Single-Triangle Models Are Incomplete
 
@@ -35,7 +39,10 @@ h2. Содержание
 
 
 
-{quote}The AI-assisted knowledge work field currently divides into two{quote}
+{quote}_ The gap needs to be closed not through yet another centralized platform, but through a protocol — a way for the two tr. _ What Both Paradigms Miss Both single-triangle approaches share a structural blind spot: they assume humans exist in on{quote}
+Workspace AI) attempt to bridge these but do so through layer 
+isolation — personal assistants and team-level orchestration 
+exist as separate products without formal protocols between th
 
 ----
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/279-existing-approximations.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Existing Approximations
@@ -44,7 +44,18 @@ h2. Содержание
 
 
 
-{quote}Several existing tools approximate parts of what Layer B{quote}
+{quote}_ It solves part of the problem (persistent context) but not the threading and structural needs. _ Limitations: - No AI collaboration - Not designed for documents as first-class artifacts - Not designed for project-st{quote}
+ Existing Approximations
+ Anthropic Projects
+ GitHub Discussions
+ Notion / Obsidian / Roam
+ Discourse / phpBB-style forums
+ Combination workflows
+ --
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: It solves part of the problem (persistent context) bu{quote}
 
 ----
 

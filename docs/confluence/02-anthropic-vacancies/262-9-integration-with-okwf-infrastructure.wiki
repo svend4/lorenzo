@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 9. Integration with OKWF Infrastructure
 
@@ -21,7 +25,13 @@ h1. 9. Integration with OKWF Infrastructure
 
 
 
-{quote}Composite Skills Agents fit naturally into the OKWF infrastructure{quote}
+{quote}_ This plan is more realistic than the earlier proposal because it matches how skilled practitioners actually develop an. _ Practical Implication for Pilot Design --- 9{quote}
+ Identify priority sub-agents for their area
+ Contribute expert curation
+ Test sub-agents in actual practice
+ Maintain quality standards
+ Develop common configuration templates
+Guilds become both consumers and producers of composite
 
 ----
 

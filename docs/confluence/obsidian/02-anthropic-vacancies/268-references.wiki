@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/268-references.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. References
@@ -34,7 +34,16 @@ h2. Содержание
 
 
 
-{quote}- Anderson, J. R. (1983). _The Architecture of Cognition_.{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Foundational Sources for Composite Architecture Pattern of Composite Mastery{quote}
+ References
+ Foundational Sources for Composite Architecture
+ Pattern of Composite Mastery
+ Multi-Agent Coordination
+ Practical Examples
+ Companion Documents in This Series
+ --
+ 
+{quote}- Anderson, J.{quote}
 
 ----
 

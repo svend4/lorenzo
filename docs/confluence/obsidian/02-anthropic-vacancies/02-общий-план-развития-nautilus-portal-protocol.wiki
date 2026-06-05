@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -16,7 +16,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL
@@ -37,7 +37,12 @@ h1. ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL
 
 
 
-{quote}Прежде чем проектировать — фиксирую, что у нас уже есть объективно.{quote}
+{quote}_ Это low barrier to entry : подключить существующий репо к Nautilus занимает 5 минут, не требует рефакторинга. _ Не привязан к конкретным именам классов из существующего код — фиксирую архитектурные контракты , а не конкретный код{quote}
+ Наследуется от BaseAdapter
+ Умеет fetch(query) — поиск в своём native формате
+ Умеет describe() — возврат метаданных
+ Конвертирует внутренние данные в унифицированный PortalEntry
+ Знает свои bridges — как его концепты мапятся на конц
 
 ----
 

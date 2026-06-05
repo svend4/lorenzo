@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/127-подключение-к-claude-desktop.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Подключение к Claude Desktop"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Подключение к Claude Desktop
@@ -38,7 +38,22 @@ h2. Contents
 
 
 
-{quote}~/Library/Application Support/Claude/claude_desktop_config.json{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Подключение к Claude Desktop Кто ссылается на этот документ (15) После сохранения перезапустить Claude Desktop.{quote}
+ 
+Contents
+ Подключение к Claude Desktop
+ macOS
+ Windows
+ Linux
+ Содержимое
+ Похожие документы
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (15)
+>
 
 ----
 

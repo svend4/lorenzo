@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Table of Contents
 
 <!-- toc -->
@@ -44,10 +48,21 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> 1. **The Five-Type Typology of Principal-Side Agents**
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Call for Collaboration 253-table-of-contents (сходство 0.26) 169-table-of-contents (сходство 0.23)
+ --
+ --
+Похожие документы
+ 253-table-of-contents (сходство 0.26)
+ 169-table-of-contents (сходство 0.23)
+ 209-a-typology-of-ai-agents-on-the-principal-side-and- (сходство 0.18)
+ --
+Использование
+ 
+Смотрите также
+ 253-table-of-co
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

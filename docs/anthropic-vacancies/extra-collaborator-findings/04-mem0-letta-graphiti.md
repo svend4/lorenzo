@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # AI-ассистент с Mem0 / Letta / Graphiti integration
 
 <!-- toc-auto -->

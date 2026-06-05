@@ -2,7 +2,7 @@
 title: "3. Three Inter-Layer Protocols"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 3. Three Inter-Layer Protocols
@@ -23,7 +23,15 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> The architecture requires three formalized protocols between layers.
+> * Instead, it issues a structured query that travels: A → N → M → N' → A' → response back through the chain. * Three Inter-Layer Protocols !IMPORTANT Ключевой документ для понимания архитектуры
+ Description
+ Deliverable specification (what constitutes "done")
+ Dependencies on other Nodes' deliverables
+ Deadline
+ Priority
+ Assignee
+Failure modes: Task assignment mismatches (wrong Node, wrong 
+skill), deadline conflicts
 
 ---
 

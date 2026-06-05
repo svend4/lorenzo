@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/345-кто-ты.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Кто ты"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Кто ты

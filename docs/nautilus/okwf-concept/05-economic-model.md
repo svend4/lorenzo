@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 5. Economic Model
 
 > [!TIP]

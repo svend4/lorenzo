@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Voice / local-first stack
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Авторы: atatchin / askid / обзоры Handy / OpenWhispr Проекты: Svyazi, Whisper, Yttri
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Авторы:** atatchin / askid / обзоры Handy / OpenWhispr

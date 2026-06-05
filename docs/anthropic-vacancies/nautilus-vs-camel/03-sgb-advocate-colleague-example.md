@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Конкретный пример: SGB Advocate Colleague на этой архитектуре
 
 <!-- toc-auto -->

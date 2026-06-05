@@ -1,23 +1,9 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/TECH_RADAR.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 h1. Tech Radar — Svyazi 2.0
-
-
-h2. Содержание
-
-* [Обзор|#обзор]
-* [🟢 ADOPT|#adopt]
-* [🔵 TRIAL|#trial]
-* [🟡 ASSESS|#assess]
-* [🔴 HOLD|#hold]
-* [Методология|#методология]
-* [Смотрите также|#смотрите-также]
-
-----
-
 
 
 
@@ -126,25 +112,25 @@ h2. Смотрите также
 
 ----
 
-_Смотрите также:_
+_Кто ссылается на этот документ (11):_
 * [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
-* [ONBOARDING|ONBOARDING.md]
-* [DENSITY|DENSITY.md]
-* [FOOTNOTES|FOOTNOTES.md]
+* [CONCEPTS|CONCEPTS.md]
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 3_
 
 
 
 
 ----
 
-_Кто ссылается на этот документ (12):_
+_Смотрите также:_
 * [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
-* [CONCEPTS|CONCEPTS.md]
-* [INDEX|INDEX.md]
 * [ONBOARDING|ONBOARDING.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* _...ещё 4_
+* [FOOTNOTES|FOOTNOTES.md]
+* [SCHEDULE|SCHEDULE.md]
 

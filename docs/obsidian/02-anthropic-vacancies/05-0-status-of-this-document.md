@@ -2,8 +2,9 @@
 title: "0. Status of This Document"
 tags:
   - collaboration
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 0. Status of This Document
@@ -28,14 +29,14 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Этот документ — рабочий черновик Nautilus Portal Protocol v1.0.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Этот документ — рабочий черновик Nautilus Portal Protocol v1.0. Он может
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 13. REST API Contract (Normative for Portals)
@@ -20,6 +20,10 @@ date: 2026-05-12
   - [13.4. CORS](#134-cors)
   - [13.5. OpenAPI Specification](#135-openapi-specification)
   - [13.6. Error Responses](#136-error-responses)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы)
 
 ---
 
@@ -30,7 +34,14 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> v1.1 делает REST API mandatory частью протокола. Это обеспечивает
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. Portal SHOULD предоставлять: Метод | Путь | Описание | GET | | Валидация кросс-ссылок |
+Portal SHOULD предоставлять:
+ Метод | Путь | Описание |
+ -------|------|----------|
+ GET |   | Валидация кросс-ссылок |
+ GET |   | Q6-соседи |
+ GET |   | Prometheus-метрики (text/plain) |
+ GET |   | Root endpoint со списком endp
 
 ---
 <!-- tags: rag, architecture, collaboration -->

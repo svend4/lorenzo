@@ -2,7 +2,7 @@
 title: "Appendix C: Version History"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Appendix C: Version History
@@ -23,7 +23,17 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> Initial consolidating draft. Synthesizes work across PORTAL-PROTOCOL
+> * Вы точно заметили паттерн: корм для животного в приюте не решает проблему приюта, потому что животное снова становится. * Это demonstrates, что подход работает, и создаёт reference case , на который можно ссылаться во всех future discussion
+ --
+ 
+Содержание
+ Appendix C: Version History
+ v1.0.0-draft (2026-04-19)
+ Комментарий к документу
+ Следующие конкретные шаги
+ Что это значит для всей сессии
+ Final honest note
+ Часть 1: Почему Anthropic имеет 4
 
 ---
 

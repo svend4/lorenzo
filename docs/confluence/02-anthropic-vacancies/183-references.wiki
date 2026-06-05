@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/183-references.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. References
 
@@ -35,7 +39,21 @@ h2. Contents
 
 
 
-{quote}- Akerlof, G. (1970). "The Market for Lemons: Quality{quote}
+{quote}_ References Contents - References - Foundational Sources - Principal-Agent Theory - Disability and Access(disability-an. _ "Designing Organizations for an Information-Rich World"{quote}
+ 
+Contents
+ References
+ Foundational Sources
+ Principal-Agent Theory
+ Disability and Access
+ Modern AI Ethics
+ Companion Documents
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (10)
+{quote}[!NOTE]{quote}
+{quote}Документ{quote}
 
 ----
 

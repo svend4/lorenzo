@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -12,7 +12,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 7. PortalEntry Structure
@@ -48,7 +48,12 @@ h2. Contents
 
 
 
-{quote}Унифицированная структура данных, возвращаемая адаптерами.{quote}
+{quote}_ PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры. _ PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры{quote}
+ 
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: PortalEntry Structure !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
 
 ----
 

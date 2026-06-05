@@ -2,8 +2,9 @@
 title: "INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
@@ -20,10 +21,10 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> - [[151-open-knowledge-work-foundation-md]] (сходство 0.25)
+> - [[151-open-knowledge-work-foundation-md]] (сходство 0.25) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

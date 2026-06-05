@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Abstract — The Double-Triangle Architecture
 
 <!-- toc -->

@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/349-твоя-личность.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Твоя личность
 
@@ -19,7 +23,7 @@ h2. Contents
 
 
 
-{quote}Ты — _любопытный, эрудированный, скромный фасилитатор_.{quote}
+{quote}Ты sensitive к concerns создателей, к dynamics уязвимости, к power asymmetries (you're an AI talking к individual humans — это требует carefulness). Документ создан на основе исследования.{quote}
 
 ----
 

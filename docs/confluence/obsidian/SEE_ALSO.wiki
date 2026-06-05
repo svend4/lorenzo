@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/SEE_ALSO.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Индекс «Смотрите также»"
 tags:
   * general
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Индекс «Смотрите также»
@@ -18,18 +18,18 @@ h1. Индекс «Смотрите также»
 
 
 
-{quote}_Файлов с блоком See Also:_ 1071{quote}
+{quote}_Файлов с блоком See Also:_ 1185{quote}
 _Проекты:_ Svyazi
 
 ----
 
 
 
-_Файлов с блоком See Also:_ 1071
+_Файлов с блоком See Also:_ 1185
 
 h2. Ключевые связи
 
-* [[00-intro-part2]] → [[SEARCH_RESULTS]], [[12-technical-program-management]], [[13-communications]], [[09-product-management-support-ops]]
+* [[00-intro-part2]] → [[12-technical-program-management]], [[SEARCH_RESULTS]], [[13-communications]], [[09-product-management-support-ops]]
 * [[01-executive-summary]] → [[03-component-catalog]], [[04-ensembles-overview]], [[07-mvp-planning]]
 * [[02-methodology]] → [[02-методика-и-рамка-отбора]], [[methodology]], [[08-conclusions]], [[07-выводы]]
 * [[03-component-catalog]] → [[03-карта-найденных-проектов-и-паттернов]], [[projects-map]], [[04-приоритетные-ансамбли]], [[04-ensembles-overview]]
@@ -43,21 +43,21 @@ h2. Ключевые связи
 * [[12-roadmap]] → [[12-дорожная-карта-прототипа-следующей-итерации]], [[roadmap]], [[14-limitations]], [[08-conclusions]]
 * [[13-contacts]] → [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]], [[narrow-questions]], [[07-mvp-planning]], [[NARRATIVE]]
 * [[14-limitations]] → [[do-not-glue]], [[conclusions]], [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]], [[license-tree]]
-* [[QA]] → [[KNOWLEDGE_MAP]], [[review-record]], [[SEARCH_RESULTS]], [[card-envelope]]
+* [[QA]] → [[KNOWLEDGE_MAP]], [[review-record]], [[card-envelope]], [[privacy]]
 * [[00-intro]] → [[288-appendix-position-in-series-visualization]], [[12-blagodarnosti-ssylki]], [[188-ai-опосредованное-представительство-для-недопредст]], [[11-dhlab-documents]]
 * [[01-интегральный-анализ-профиля-svend4]] → [[00-question-innovations-transitions]], [[CONCEPTS]], [[TABLES]], [[ACTION_ITEMS]]
-* [[02-общий-план-развития-nautilus-portal-protocol]] → [[67-о-проекте]], [[TIMELINE]], [[22-glossary]], [[133-обратная-связь]]
-* [[03-portal-protocol-md]] → [[73-portal-protocol-md-v1-1]], [[152-ai-coordinated-infrastructure-for-distributed-expe]], [[35-passports-info1-md]], [[105-review-methodology-md]]
+* [[02-общий-план-развития-nautilus-portal-protocol]] → [[67-о-проекте]], [[22-glossary]], [[133-обратная-связь]], [[18-comment-on-document]]
+* [[03-portal-protocol-md]] → [[73-portal-protocol-md-v1-1]], [[152-ai-coordinated-infrastructure-for-distributed-expe]], [[135-a-formal-model-for-human-ai-collaboration-in-distr]], [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 * [[04-abstract]] → [[74-abstract]], [[00-abstract-status]], [[05-0-status-of-this-document]], [[70-зачем-две-версии-параллельно]]
 * [[05-0-status-of-this-document]] → [[75-0-status-of-this-document]], [[42-author-contact]], [[25-13-reference-implementation]], [[24-12-versioning-policy]]
 * [[06-1-introduction]] → [[76-1-introduction]], [[01-introduction]], [[26-14-adr-001-federation-over-merging]], [[94-19-adr-001-federation-over-merging]]
 * [[07-2-terminology]] → [[77-2-terminology]], [[02-terminology]], [[17-5-compatibility-levels]], [[80-5-compatibility-levels]]
 * [[08-3-registry-nautilus-json]] → [[78-3-registry-nautilus-json]], [[03-registry]], [[19-7-portalentry-structure]], [[82-7-portalentry-structure]]
-* [[09-4-passport-passport-md]] → [[41-compatibility-level]], [[35-passports-info1-md]], [[22-10-queryresult-structure]], [[127-подключение-к-claude-desktop]]
+* [[09-4-passport-passport-md]] → [[41-compatibility-level]], [[127-подключение-к-claude-desktop]], [[22-10-queryresult-structure]], [[65-readme-md]]
 * [[102-доступ-к-данным]] → [[339-приложение-a-дерево-решений-для-принимающих-ingit]], [[121-appendix-c-история-изменений-методологии]], [[16-history]], [[185-appendix-b-domain-comparison-matrix]]
 * [[103-appendix-b-change-log]] → [[22-10-queryresult-structure]], [[41-compatibility-level]], [[25-13-reference-implementation]], [[93-18-reference-implementation]]
-* [[104-appendix-c-references]] → [[122-глоссарий]], [[105-review-methodology-md]], [[103-appendix-b-change-log]], [[64-for-the-curious-philosophy]]
-* [[105-review-methodology-md]] → [[229-профессиональные-коллеги-агенты]], [[289-инфраструктура-для-ai-совместной-интеллектуальной-]], [[125-readme-mcp-md-инструкция-по-установке]], [[03-portal-protocol-md]]
+* [[104-appendix-c-references]] → [[122-глоссарий]], [[103-appendix-b-change-log]], [[64-for-the-curious-philosophy]], [[34-appendix-b-change-log]]
+* [[105-review-methodology-md]] → [[03-portal-protocol-md]], [[289-инфраструктура-для-ai-совместной-интеллектуальной-]], [[229-профессиональные-коллеги-агенты]], [[70-зачем-две-версии-параллельно]]
 * [[106-tl-dr]] → [[00-tldr]], [[70-зачем-две-версии-параллельно]], [[190-содержание]], [[132-planned-v0-2-0]]
 
 

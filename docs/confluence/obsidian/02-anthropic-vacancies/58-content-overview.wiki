@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/58-content-overview.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Content Overview"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Content Overview
@@ -28,7 +29,20 @@ h2. Contents
 
 
 
-{quote}- 64 гексаграммы с расширенными описаниями{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Мост-документация — формальное описание связи между двумя 56-essence (сходство 0.13) 12-content-overview (сходство 0.12){quote}
+   системами
+ --
+ --
+Использование
+ 
+Смотрите также
+ 56-essence
+ --
+Похожие документы
+ 56-essence (сходство 0.13)
+ 12-content-overview (сходство 0.12)
+ 60-bridges (сходство 0.12)
+Документ инд
 
 ----
 

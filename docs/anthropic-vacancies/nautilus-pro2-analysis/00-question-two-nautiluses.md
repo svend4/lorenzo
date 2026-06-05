@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Вопрос: два Наутилуса в репозиториях svend4 (pro2 vs nautilus)
 
 <!-- toc-auto -->

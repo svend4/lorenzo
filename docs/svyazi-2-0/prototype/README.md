@@ -3,7 +3,24 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> roadmap.md — > [!TIP] Кто ссылается на этот документ (7): README (сходство 0.67)
+Содержание
+ mvp-plan.md —  
+ risks.md —  
+ roadmap.md — > [!TIP]
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ risks
+ roadmap
+ --
+Похожие документы:
+ README (сходство 0.67)
+ README (сходство 0.
 
 
 **Файлов:** 3

@@ -1,33 +1,26 @@
 ---
 title: "Расписание проекта"
 tags:
-  - memory
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - collaboration
+  - schedule
+  - docs
   - general
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Расписание проекта
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
+<!-- toc-auto -->
 
----
-<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
-
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: schedule, docs -->
+
+
+<!-- summary -->
+> `SCHEDULE` — раздел документации проекта Lorenzo.
+
 
 _Дорожная карта с вехами и задачами по кварталам._
 
@@ -82,29 +75,36 @@ _█ = активная работа, ░ = ожидание_
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[DENSITY]]
-- [[PROGRESS]]
-- [[SCORING]]
-- [[HEATMAP]]
-
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (10):**
-- [[COST]]
+**Кто ссылается на этот документ (9):**
+- [[DENSITY]]
+- [[HEATMAP]]
 - [[INDEX]]
 - [[OUTLINE]]
-- [[PROGRESS]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
-- [[SCORING]]
-- _...ещё 2_
+- [[SEARCH]]
+- _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SUMMARIES]]
+- [[GRAPH]]
+- [[MINDMAP]]
+- [[COVERAGE]]
 

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/317-9-risks-and-open-questions.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "9. Risks and Open Questions"
 tags:
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 9. Risks and Open Questions
@@ -42,7 +42,10 @@ h2. Содержание
 
 
 
-{quote}Several uncertainties merit explicit attention.{quote}
+{quote}> ✅ Результат: --- --- Похожие документы: - 318-10-strategic-positioning(docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15) - 311-3-what-ingit-provides-that-cowork-lacks{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!TIP]{quote}
 
 ----
 

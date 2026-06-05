@@ -2,8 +2,9 @@
 title: "Table of Contents"
 tags:
   - roadmap
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Table of Contents
@@ -34,10 +35,25 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> 1. **The Cinderella Syndrome: Why Quality Stays Invisible**
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (11) The Cinderella Syndrome: Why Quality Stays Invisible
+ 
+Contents
+ Содержание
+ Table of Contents
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (11)
+Содержание
+ Основной раздел
+> [
 
 ---
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

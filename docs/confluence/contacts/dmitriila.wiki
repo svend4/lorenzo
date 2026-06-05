@@ -1,9 +1,10 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/dmitriila.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "Dmitriila"
@@ -17,6 +18,11 @@ last_contact: null
 tags: [контакты, команда]
 ----
 h1. Контакт: Dmitriila / SENTINEL
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
 
 
 h2. Contents
@@ -36,7 +42,18 @@ h2. Contents
 
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Контакт: Dmitriila / SENTINEL Кто ссылается на этот документ (3) Проекты: Svyazi, SENTINEL{quote}
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+ Кто ссылается на этот документ (3)
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 _Проекты:_ Svyazi, SENTINEL
 
 ----

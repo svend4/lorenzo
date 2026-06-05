@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix D: Connection Diagram
 
 <!-- abstract-auto -->
@@ -16,7 +20,12 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The relationship between the seven documents in this series:
+> * Если у вас есть bandwidth хотеть участвовать в этом — даже на уровне написания о том, что нужно — вы могли бы внести в. * Это интегрирующий документ, который подтягивает остальные шесть в более согласованную архитектуру
+The Composite Skills Agent v1.0.0-draft
+Companion paper to Professional Colleague Agents, Representative 
+Agent Layer, Open Knowledge Work Foundation, Double-Triangle 
+Architecture, and Nautilus Portal Protocol
+Central metaphor: The yoga master wh
 
 ---
 

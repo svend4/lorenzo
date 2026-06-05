@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/308-table-of-contents.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Table of Contents"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Table of Contents
@@ -57,7 +58,20 @@ h2. Содержание
 
 
 
-{quote}1. _The Cowork Discovery and Why It Changes Everything_{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Strategic Positioning 253-table-of-contents (сходство 0.15) 137-table-of-contents (сходство 0.13){quote}
+ --
+ --
+Похожие документы
+ 253-table-of-contents (сходство 0.15)
+ 137-table-of-contents (сходство 0.13)
+ 211-table-of-contents (сходство 0.13)
+ --
+Использование
+ 
+Смотрите также
+ 253-table-of-contents
+ 211-table-of-contents
+ 137
 
 ----
 

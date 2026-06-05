@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Appendix B: Domain Comparison Matrix"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Appendix B: Domain Comparison Matrix
@@ -31,7 +32,18 @@ h2. Contents
 
 
 
-{quote}- [[README|Вакансии Anthropic — Анализ по кластерам]]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Appendix B: Domain Comparison Matrix Кто ссылается на этот документ (5){quote}
+ 
+Contents
+ Appendix B: Domain Comparison Matrix
+ Упоминается в
+ Упоминается в
+ Использование
+ Смотрите также
+ Связанные документы
+ Кто ссылается на этот документ (5)
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание риск{quote}
 
 ----
 

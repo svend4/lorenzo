@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Section 1: Problem statement (Cinderella Syndrome at scale, SGB IX/XII)
 
 <!-- toc-auto -->

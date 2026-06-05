@@ -1,0 +1,80 @@
+# Default values for docs-toolkit Helm chart.
+# Override at install time with `--values` or `--set`.
+
+image:
+  repository: ghcr.io/svend4/docs-toolkit
+  tag: "0.3.0"
+  # Use "bge" tag if you want the BGE-bundled variant.
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+
+service:
+  type: ClusterIP
+  port: 8083
+
+ingress:
+  enabled: false
+  className: ""
+  hosts:
+    - host: docs-toolkit.example.com
+      paths:
+        - path: /
+          pathType: Prefix
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1Gi
+  requests:
+    cpu: 100m
+    memory: 256Mi
+
+# Persistent storage for docs corpus + .docstoolkit/ SQLite caches.
+persistence:
+  enabled: true
+  size: 5Gi
+  storageClassName: ""
+  accessMode: ReadWriteOnce
+  mountPath: /work
+
+# Environment variables forwarded to the container.
+env:
+  ANTHROPIC_API_KEY: ""    # set via secret in production
+  OPENAI_API_KEY: ""
+
+# Prometheus scrape annotations on the Service.
+metrics:
+  enabled: true
+
+# Security context — non-root by default (matches Dockerfile UID 1000).
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 1000
+  fsGroup: 1000
+
+containerSecurityContext:
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: false  # SQLite + write to /work needs RW
+  capabilities:
+    drop:
+      - ALL
+
+# Liveness + readiness probes — both hit /api/health.
+livenessProbe:
+  httpGet:
+    path: /api/health
+    port: http
+  initialDelaySeconds: 30
+  periodSeconds: 30
+readinessProbe:
+  httpGet:
+    path: /api/health
+    port: http
+  initialDelaySeconds: 10
+  periodSeconds: 10
+
+# Pod-level scheduling.
+nodeSelector: {}
+tolerations: []
+affinity: {}

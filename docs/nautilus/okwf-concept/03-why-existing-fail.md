@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 3. Why Existing Solutions Fail
 
 > [!NOTE]

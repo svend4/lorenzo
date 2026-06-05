@@ -1,15 +1,13 @@
 # Изолированные документы (Orphans)
 
 <!-- summary -->
-> **Найдено:** 0 файлов без входящих ссылок из 2193 проверено.
+> **Найдено:** 0 файлов без входящих ссылок из 1563 проверено.
 
 ---
-<!-- tags: orchestration -->
 
 
 
-
-**Найдено:** 0 файлов без входящих ссылок из 2193 проверено.
+**Найдено:** 0 файлов без входящих ссылок из 1563 проверено.
 
 _Эти документы не связаны с остальными — их легко потерять._
 
@@ -32,15 +30,16 @@ _Эти документы не связаны с остальными — их 
 
 ---
 
-**Кто ссылается на этот документ (8):**
+**Кто ссылается на этот документ (9):**
 - [CODE_BLOCKS](CODE_BLOCKS.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+- _...ещё 1_
 
 
 <!-- see-also -->
@@ -49,4 +48,7 @@ _Эти документы не связаны с остальными — их 
 
 **Смотрите также:**
 - [STATS](STATS.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [GRAPH](GRAPH.md)
+- [STALENESS](STALENESS.md)
 

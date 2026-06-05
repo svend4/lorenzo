@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 7. PortalEntry Structure
@@ -48,7 +48,14 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> Унифицированная структура данных, возвращаемая адаптерами.
+> * PortalEntry Structure - 7.1. * Q6 Metadata !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: PortalEntry Structure - 7.1. 🔧 Подход: Q6 Metadata !IMPORTANT Ключевой документ для понимания архитектуры.
+ — полный текст/представление, MAY быть большим
+ — MUST содержать   для Level 2+ адаптеров
+ — список id из других Repos, формат   
+  или   (например,  , 
+   )
+ — Boolean, MUST быть   для fallback-entries, 
+    (def
 
 ---
 <!-- tags: ingestion, architecture, collaboration -->

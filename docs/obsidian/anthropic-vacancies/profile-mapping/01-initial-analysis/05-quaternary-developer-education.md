@@ -1,0 +1,76 @@
+---
+title: "Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code"
+tags:
+  - anthropic-vacancies
+date: 2026-05-13
+---
+
+# Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+---
+<!-- tags: anthropic, self-improvement, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.
+
+Эта комбинация — то, что редко кто-то может сочетать в одном лице. У Anthropic сейчас открыто:
+
+Developer Education Lead (SF/NY)
+
+Prompt Engineer, Claude Code (SF/NY/Seattle)
+
+Prompt Engineer, Agent Prompts & Evals
+
+Technical Enablement Lead, Claude Code
+
+Developer Community Lead EMEA (London)
+
+Certification Development Lead
+
+Ваш 87-skill ecosystem, chat-migration v4.5 с 115 функциями, Multi-Chat Orchestrator — это буквально developer-enablement артефакты для Claude-платформы. Прямо ваш output. Developer Community Lead EMEA базируется в London, но судя по формату — предполагает удалённую EMEA-работу. Эта роль ближе к evangelism/education, чем к engineering — подходит, если вам интересно делиться подходом, а не только строить.
+
+Что НЕ подходит (честно)
+
+Не тратьте время на эти роли:
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[03-secondary-beneficial-deployments]]
+- [[08-practical-ranking]]
+- [[04-tertiary-research-engineer-agents]]
+- [[07-unique-niche-eu-legal-infra]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[03-secondary-beneficial-deployments]] (сходство 0.28)
+- [[04-tertiary-research-engineer-agents]] (сходство 0.25)
+- [[06-not-applicable-roles]] (сходство 0.25)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../../../../READABILITY.md)
+- [READING_TIME](../../../../READING_TIME.md)
+- [SEARCH](../../../../SEARCH.md)
+- [TABLES](../../../../TABLES.md)
+- [01-profile-five-layers](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md)
+- [04-tertiary-research-engineer-agents](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
+- [05-quaternary-developer-education](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
+- [08-practical-ranking](../../../../anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
+- _...ещё 1_
+

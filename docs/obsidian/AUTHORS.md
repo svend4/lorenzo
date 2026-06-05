@@ -1,11 +1,15 @@
 ---
 title: "Авторы и коллаборации"
 tags:
+  - authors
+  - docs
   - general
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Авторы и коллаборации
+<!-- tags: authors, docs -->
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -23,46 +27,45 @@ date: 2026-05-12
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 130 |
-| **Antipozitive** | 79 |
+| **AnastasiyaW** | 127 |
+| **Antipozitive** | 78 |
 | **BerriAI** | 22 |
-| **Cutcode** | 70 |
-| **Dmitriila** | 61 |
-| **MiXaiLL76** | 57 |
-| **Sonia_Black** | 39 |
+| **Cutcode** | 68 |
+| **Dmitriila** | 60 |
+| **MiXaiLL76** | 56 |
+| **Sonia_Black** | 38 |
 | **VitaliySemenov** | 33 |
-| **VitalyOborin** | 105 |
-| **VladSpace** | 81 |
+| **VitalyOborin** | 103 |
+| **VladSpace** | 80 |
 | **akazant** | 18 |
 | **akzhankalimatov** | 14 |
 | **andrey_chuyan** | 31 |
 | **iximy** | 18 |
-| **kksudo** | 192 |
+| **kksudo** | 189 |
 | **lee-to** | 22 |
 | **lib4u** | 30 |
 | **moshael** | 26 |
 | **nlaik** | 75 |
-| **spbmolot** | 169 |
+| **spbmolot** | 167 |
 | **tagir_analyzes** | 29 |
 | **vpakspace** | 16 |
-| **zodigancode** | 92 |
-| **Андрей Чуян** | 74 |
-| **Виталий Оборин** | 18 |
+| **zodigancode** | 91 |
+| **Андрей Чуян** | 73 |
+| **Виталий Оборин** | 16 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (11):**
-- [[CONTACTS]]
-- [[CONTACT_PRIORITY]]
+**Кто ссылается на этот документ (8):**
 - [[EMPTY_SECTIONS]]
-- [[LINKS]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
-- _...ещё 3_
+- [[SEARCH]]
+- [[TABLES]]
+- [[README]]
 
 
 <!-- see-also -->
@@ -70,8 +73,15 @@ date: 2026-05-12
 ---
 
 **Смотрите также:**
-- [[authors-by-name]]
 - [[CONTACT_PRIORITY]]
+- [[authors-by-name]]
+- [[ALERTS]]
 - [[sonia-black]]
-- [[tagir-analyzes]]
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_authors.py
+```

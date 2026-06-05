@@ -1,20 +1,18 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ORPHANS.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 h1. Изолированные документы (Orphans)
 
 
-{quote}_Найдено:_ 0 файлов без входящих ссылок из 2193 проверено.{quote}
+{quote}_Найдено:_ 0 файлов без входящих ссылок из 1563 проверено.{quote}
 
 ----
 
 
 
-
-
-_Найдено:_ 0 файлов без входящих ссылок из 2193 проверено.
+_Найдено:_ 0 файлов без входящих ссылок из 1563 проверено.
 
 _Эти документы не связаны с остальными — их легко потерять._
 
@@ -36,15 +34,16 @@ h2. Рекомендации
 
 ----
 
-_Кто ссылается на этот документ (8):_
+_Кто ссылается на этот документ (9):_
 * [CODE_BLOCKS|CODE_BLOCKS.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
+* [PASSIVE_VOICE|PASSIVE_VOICE.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
 * [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
+* _...ещё 1_
 
 
 
@@ -53,4 +52,7 @@ _Кто ссылается на этот документ (8):_
 
 _Смотрите также:_
 * [STATS|STATS.md]
+* [PASSIVE_VOICE|PASSIVE_VOICE.md]
+* [GRAPH|GRAPH.md]
+* [STALENESS|STALENESS.md]
 

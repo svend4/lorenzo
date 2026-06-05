@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix C: Configuration Template Example
 
@@ -29,8 +33,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Some will remove sub-agents they don't need. ✅ Результат: Appendix C: Configuration Template Example For the SGB Advocate Colleague pilot, a starting configuration --- Appendix C: Configuration Template Example For the SGB Advocate Collea{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}For the SGB Advocate Colleague pilot, a starting configuration{quote}

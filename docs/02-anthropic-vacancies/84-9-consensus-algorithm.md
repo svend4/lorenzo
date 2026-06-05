@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 9. Consensus Algorithm
 
 <!-- toc-auto -->
@@ -29,10 +33,16 @@
 
 
 <!-- summary -->
-> При query через portal, когда результаты возвращаются из нескольких
+> * Consensus Algorithm - 9.1. * Future Extensions (v2.0+) При query через portal, когда результаты возвращаются из нескольких --- 9 Документ создан на основе исследования.
+v1.1 различает два типа coverage:
+ — доля repos, вернувших реальные (не fallback) 
+  entries, содержащие query
+ — доля repos, вернувших любые 
+  entries, включая fallback
+Концепт считается agreed (полный конс
 
 ---
-<!-- tags: rag -->
+<!-- tags: rag, anthropic -->
 
 
 

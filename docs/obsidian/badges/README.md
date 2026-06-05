@@ -2,7 +2,7 @@
 title: "Бейджи репозитория"
 tags:
   - badges
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Бейджи репозитория
@@ -35,9 +35,8 @@ date: 2026-05-12
 
 ---
 
-**Кто ссылается на этот документ (4):**
+**Кто ссылается на этот документ (3):**
 - [READABILITY](../../READABILITY.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
-- [QA](../../anthropic-vacancies/QA.md)
 

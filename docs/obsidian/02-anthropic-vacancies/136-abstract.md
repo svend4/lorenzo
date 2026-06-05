@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Abstract
@@ -24,8 +24,8 @@ date: 2026-05-12
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: We conclude with open questions on governance, consent, economics, and burnout dynamics, and invite research collaboration on these unsolved issues.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > We introduce the **Double-Triangle Architecture** for human-AI

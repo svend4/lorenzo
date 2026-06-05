@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Acknowledgments
@@ -43,7 +43,10 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> This document emerged from author's question about how to
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's question about how to integrate InGit specifically
+> 🔧 Подход: Review Methodology v1.0
 
 ---
 <!-- tags: rag, architecture, collaboration -->

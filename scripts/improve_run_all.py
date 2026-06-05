@@ -97,6 +97,8 @@ GROUPS = {
         "improve_content_gaps.py",
         "improve_link_preview.py",        # статус внешних ссылок (slow — HTTP)
         "improve_sentinel_check.py",      # SENTINEL security audit
+        "improve_pagerank.py",            # PageRank link-authority scores
+        "improve_precision_eval.py",      # Hit Rate@K retrieval evaluation
     ],
     "graph": [
         # Граф и визуализация
@@ -104,6 +106,8 @@ GROUPS = {
         "improve_mindmap.py",
         "improve_network.py",
         "improve_narrative.py",
+        "improve_graph_search.py",   # graph-neighbourhood поиск (stats only в авто-режиме)
+        "improve_multi_query.py",    # многозапросный поиск с RRF-слиянием (eval в авто-режиме)
     ],
     "generate": [
         # Генерация файлов из шаблонов и данных (после extract/analysis)
@@ -138,7 +142,12 @@ GROUPS = {
         "improve_report.py",
         "improve_registry.py",          # единый реестр всех артефактов
         "improve_skill_dashboard.py",   # статистика использования скилов
-        "improve_quality_patch.py",     # патч качества после регенерации
+        "improve_skill_metrics.py",     # качество скилов (structure/examples/steps)
+        "improve_card_graph.py",        # граф карточек + PageRank → CARD_GRAPH.json
+        "improve_hot_cards.py",             # горячие карточки: PageRank + query_freq → HOT_CARDS.md
+        "improve_query_log.py",             # аналитика запросов gateway → QUERY_ANALYTICS.md
+        "improve_knowledge_snapshot.py",    # KPI snapshot → KNOWLEDGE_SNAPSHOT.md + snapshots/
+        "improve_quality_patch.py",         # патч качества после регенерации
     ],
     "export": [
         # Экспорт
@@ -169,6 +178,7 @@ GROUPS = {
         "improve_changelog_auto.py",    # автоматический changelog из git-истории
         "improve_digest_weekly.py",     # еженедельный дайджест изменений
         "improve_dependency_map.py",    # карта зависимостей скриптов → DEPENDENCY_MAP.md
+        "improve_feedback_loop.py",     # анализ пробелов в запросах → FEEDBACK_LOOP.md
         "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "textwork": [
@@ -237,7 +247,8 @@ GROUPS = {
     ],
     "contacts-ext": [
         # Расширенная работа с контактами авторов
-        "improve_migrate_contacts.py",  # миграция docs/contacts/*.md на frontmatter
+        "improve_migrate_contacts.py",      # миграция docs/contacts/*.md на frontmatter
+        "improve_contact_personalize.py",   # шаблонные черновики первых сообщений авторам
     ],
 }
 
@@ -298,11 +309,34 @@ LLM_SCRIPTS = {
     "improve_llm_contact.py",
 }
 
+GROUPS["lifecycle"] = [
+    # Жизненный цикл карточек: продвижение статусов, proposals, RFC
+    "improve_auto_summarize.py",         # pass 1: инжекция summary/тегов → разблокирует promote
+    "improve_progressive_summarize.py",  # pass 2: abstract-auto + sections + multi-sentence
+    "improve_summary_extender.py",       # pass 3: расширение normalized summary до 150ch
+    "improve_card_promote.py",           # raw→normalized→approved
+    "improve_proposal_gen.py",           # генерация proposal-карточек интеграции
+    "improve_rfc_tracker.py",            # обновление RFC реестра
+    "improve_knowledge_evolution.py",    # снапшот KPI → KNOWLEDGE_EVOLUTION.md
+]
+
+GROUPS["live"] = [
+    # Живой корпус: мониторинг внешних источников
+    "improve_github_tracker.py",     # события GitHub-репозиториев авторов
+]
+
+GROUPS["semantic"] = [
+    # Семантический поиск
+    "improve_semantic_embeddings.py",  # TF-IDF fallback индекс
+    "improve_ann_index.py",            # inverted-index ANN (pure-Python fallback)
+]
+
 GROUP_ORDER = [
     "structure", "index", "analysis", "extract",
     "quality", "graph", "generate", "reports", "export",
     "cicd", "analytics", "textwork", "deeptext", "nlpplus", "content",
-    "meta", "mcp", "contacts-ext",
+    "meta", "mcp", "contacts-ext", "lifecycle", "semantic",
+    # "live" — не включаем в авто-запуск (HTTP-запросы к GitHub API)
 ]
 
 # ---------------------------------------------------------------------------

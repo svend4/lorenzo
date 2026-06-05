@@ -1,9 +1,28 @@
+---
+state: normalized
+---
+
 # innovation-transitions
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> 00-question-innovations-transitions.md — > [!WARNING] Кто ссылается на этот документ (6): Документ является частью монорепозитория Lorenzo (Svyazi 2.0).
+Содержание
+ 00-question-innovations-transitions.md — > [!WARNING]
+ 01-response.md —  
+ --
+Кто ссылается на этот документ (6):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 01-response
+ --
+Похожие документы:
+ README (сходство 0.71)
+ R
 
 
 **Файлов:** 2

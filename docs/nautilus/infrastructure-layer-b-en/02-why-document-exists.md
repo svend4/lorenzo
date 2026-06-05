@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Why This Document Exists
 
 <!-- toc-auto -->

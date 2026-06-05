@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers
 
 <!-- toc-auto -->
@@ -20,8 +24,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Representative Agent Layer v1.0 Representative Agent Layer v1.0
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - Representative Agent Layer v1.0

@@ -4,7 +4,7 @@ tags:
   - roadmap
   - anthropic
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 5. Economic Model
@@ -36,7 +36,11 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> OKWF is not and will not become a for-profit entity. Operational
+> > 🔧 Подход: --- --- Похожие документы: - 161-7-phased-rollout-plan(docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.18) - 158-4-proposed-infrastructure(docs/02-anthropic-v
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
+>
 
 ---
 

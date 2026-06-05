@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 11. Call for Collaboration
 
 <!-- toc-auto -->
@@ -31,7 +35,13 @@
 
 
 <!-- summary -->
-> We invite specific kinds of collaboration:
+> * Liability, professional licensure interaction, quality standards — all need development Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (7)
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: rag, architecture -->

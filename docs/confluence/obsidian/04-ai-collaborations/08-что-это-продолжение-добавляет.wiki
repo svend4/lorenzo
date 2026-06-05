@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/04-ai-collaborations/08-что-это-продолжение-добавляет.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -13,7 +13,7 @@ tags:
   * roadmap
   * collaboration
   * ai-collaborations
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Что это продолжение добавляет

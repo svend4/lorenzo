@@ -1,9 +1,27 @@
+---
+state: normalized
+---
+
 # agent-changes-reality
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> 00-question-agent-changes-reality.md — 01-response-en.md — > [!TIP] Кто ссылается на этот документ (7): Документ является частью монорепозитория Lorenzo (Svyazi 2.0).
+Содержание
+ 00-question-agent-changes-reality.md —  
+ 01-response-en.md — > [!TIP]
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 00-question-agent-changes-reality
+ 01-response-en
+ --
+Похожие до
 
 
 **Файлов:** 2

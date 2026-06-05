@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Пять быстрых связок (fast-tracks)
 
 <!-- toc-auto -->

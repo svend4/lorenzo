@@ -1,5 +1,9 @@
 # Индекс ссылок
 
+<!-- toc-auto -->
+<!-- tags: links, docs -->
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -13,7 +17,7 @@
 
 
 
-Всего уникальных URL: 641
+Всего уникальных URL: 643
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -54,7 +58,7 @@
 | http://localhost:8083/api/cards`` | 4 |
 | http://localhost:8083/api/cards``` | 3 |
 | http://localhost:8083/api/cards```` | 3 |
-| http://localhost:8083/api/collabs | 6 |
+| http://localhost:8083/api/collabs | 7 |
 | http://localhost:8083/api/collabs` | 5 |
 | http://localhost:8083/api/collabs`` | 3 |
 | http://localhost:8083/api/collabs``` | 3 |
@@ -64,7 +68,7 @@
 | http://localhost:8083/api/health`` | 3 |
 | http://localhost:8083/api/health``` | 3 |
 | http://localhost:8083/api/health```` | 3 |
-| http://localhost:8083/api/search | 8 |
+| http://localhost:8083/api/search | 6 |
 | http://localhost:8083/api/search` | 5 |
 | http://localhost:8083/api/search`` | 3 |
 | http://localhost:8083/api/search``` | 3 |
@@ -139,19 +143,20 @@
 | https://api.github.com/users/svend4/repos?per_page=100&sort=updated``` | 3 |
 | https://api.github.com/users/svend4/repos?per_page=100&sort=updated```` | 3 |
 | https://api.github.com/users/svend4/repos?per_page=100&sort=updated````` | 3 |
+| https://claude.ai/code/session_0152UNJd7SaxP8QSDGZZaFH7 | 1 |
 | https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv | 6 |
 | https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv` | 5 |
 | https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv`` | 5 |
 | https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv``` | 3 |
 | https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv```` | 3 |
 | https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv````` | 3 |
-| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz | 6 |
+| https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz | 5 |
 | https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz` | 5 |
 | https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz`` | 5 |
 | https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz``` | 3 |
 | https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz```` | 3 |
 | https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz````` | 3 |
-| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 6 |
+| https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW | 5 |
 | https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW` | 5 |
 | https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW`` | 5 |
 | https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW``` | 3 |
@@ -216,7 +221,6 @@
 | https://forum.[obsidian`` | 5 |
 | https://forum.[obsidian``` | 3 |
 | https://forum.[obsidian```` | 3 |
-| https://forum.[obsidian````` | 3 |
 
 <!-- backlinks -->
 
@@ -242,5 +246,5 @@
 - [LINK_PREVIEW](LINK_PREVIEW.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
 - [SENTINEL](SENTINEL.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [STATS](STATS.md)
 

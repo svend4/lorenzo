@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/CHANGELOG_AUTO.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Changelog (авто)"
 tags:
   * general
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Changelog (авто)
@@ -339,3 +339,10 @@ _Кто ссылается на этот документ (10):_
 * [[README]]
 * _...ещё 2_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_changelog_auto.py
+{code}

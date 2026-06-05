@@ -1,186 +1,200 @@
-"""SQLite feedback store + analytics."""
-import json
+"""Feedback stores: E19 SignalStore and legacy FeedbackStore.
+
+Public names
+------------
+``SignalStore``
+    New E19 store for :class:`~docstoolkit.feedback.signal.FeedbackSignal`
+    objects.  Exported as ``FeedbackStore`` from the package ``__init__``.
+
+``FeedbackStore``
+    Alias to the *legacy* store (pre-E19) — kept for backward compatibility
+    so that existing code doing::
+
+        from docstoolkit.feedback.store import Feedback, FeedbackStore
+
+    …continues to work unchanged.
+
+``Feedback``
+    Legacy feedback dataclass (re-exported from ``legacy_store``).
+"""
 import sqlite3
-import uuid
-from collections import defaultdict
-from dataclasses import dataclass, field
-from datetime import datetime
 from pathlib import Path
 
-from docstoolkit.config import load_config
+from docstoolkit.feedback.signal import FeedbackSignal, FeedbackType
+
+# --- backward-compat re-exports ----------------------------------------
+# Keep ``from docstoolkit.feedback.store import Feedback, FeedbackStore``
+# working for code that predates E19 (e.g. test_autotuner.py).
+from docstoolkit.feedback.legacy_store import (  # noqa: F401
+    Feedback,
+    FeedbackStore,  # legacy class with .record() / .aggregate_per_skill()
+)
+# -----------------------------------------------------------------------
 
 
-SCHEMA = """
-CREATE TABLE IF NOT EXISTS feedback (
-    id TEXT PRIMARY KEY,
-    request_id TEXT NOT NULL,
-    request TEXT NOT NULL,
-    response_text TEXT,
-    thumbs TEXT,                    -- up | down | neutral | (null)
-    rating INTEGER,                 -- 1-5
-    comment TEXT,
-    skill TEXT,
-    retriever TEXT,
-    answerer TEXT,
-    citations_json TEXT,
-    duration_ms INTEGER,
-    cost REAL,
-    ts TEXT NOT NULL
+_SCHEMA = """
+CREATE TABLE IF NOT EXISTS feedback_signals (
+    signal_id   TEXT PRIMARY KEY,
+    query       TEXT NOT NULL,
+    doc_id      TEXT,
+    feedback_type TEXT NOT NULL,
+    value       REAL NOT NULL,
+    note        TEXT NOT NULL DEFAULT '',
+    ts          REAL NOT NULL
 );
-CREATE INDEX IF NOT EXISTS idx_fb_skill ON feedback(skill);
-CREATE INDEX IF NOT EXISTS idx_fb_thumbs ON feedback(thumbs);
-CREATE INDEX IF NOT EXISTS idx_fb_ts ON feedback(ts);
+CREATE INDEX IF NOT EXISTS idx_fs_query  ON feedback_signals(query);
+CREATE INDEX IF NOT EXISTS idx_fs_doc_id ON feedback_signals(doc_id);
 """
 
 
-@dataclass
-class Feedback:
-    """Один feedback запись."""
-    id: str = ""
-    request_id: str = ""           # rag.ask request id (если есть)
-    request: str = ""              # вопрос пользователя
-    response_text: str = ""        # ответ
-    thumbs: str = ""               # up | down | neutral | ""
-    rating: int = 0                # 1-5 (опц.)
-    comment: str = ""              # текстовый отзыв
-    skill: str = ""                # rag | search | agent | manual
-    retriever: str = ""            # keyword | semantic | hybrid
-    answerer: str = ""             # echo | anthropic | etc.
-    citations: list[dict] = field(default_factory=list)
-    duration_ms: int = 0
-    cost: float = 0.0
-    ts: str = ""
-
-    def __post_init__(self):
-        if not self.id:
-            self.id = uuid.uuid4().hex[:12]
-        if not self.ts:
-            self.ts = datetime.now().isoformat(timespec='seconds')
+def _row_to_signal(row: sqlite3.Row) -> FeedbackSignal:
+    """Reconstruct a :class:`FeedbackSignal` from a DB row (skip re-normalisation)."""
+    sig = object.__new__(FeedbackSignal)
+    sig.signal_id = row["signal_id"]
+    sig.query = row["query"]
+    sig.doc_id = row["doc_id"]
+    sig.feedback_type = FeedbackType(row["feedback_type"])
+    sig.value = row["value"]
+    sig.note = row["note"] or ""
+    sig.ts = row["ts"]
+    return sig
 
 
-class FeedbackStore:
-    def __init__(self, db_path: Path | None = None):
-        if db_path is None:
-            cfg = load_config()
-            db_path = cfg.root / ".docstoolkit" / "feedback.sqlite"
-        self.path = Path(db_path)
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.conn = sqlite3.connect(str(self.path))
-        self.conn.row_factory = sqlite3.Row
-        self.conn.executescript(SCHEMA)
+class SignalStore:
+    """Persistent (or in-memory) store for :class:`FeedbackSignal` objects.
 
-    def close(self):
-        self.conn.close()
+    This is the E19 store.  It is exported as ``FeedbackStore`` from
+    ``docstoolkit.feedback`` (the package ``__init__``).
 
-    def record(self, fb: Feedback) -> str:
-        self.conn.execute(
-            "INSERT OR REPLACE INTO feedback "
-            "(id, request_id, request, response_text, thumbs, rating, "
-            " comment, skill, retriever, answerer, citations_json, "
-            " duration_ms, cost, ts) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+    Parameters
+    ----------
+    db_path:
+        Path to an SQLite file, or ``":memory:"`` (default) for an
+        ephemeral in-process database.
+    """
+
+    def __init__(self, db_path: str | Path = ":memory:") -> None:
+        self._path = str(db_path)
+        self._conn = sqlite3.connect(self._path)
+        self._conn.row_factory = sqlite3.Row
+        self._conn.executescript(_SCHEMA)
+        self._conn.commit()
+
+    # ------------------------------------------------------------------
+    # Mutations
+    # ------------------------------------------------------------------
+
+    def add(self, signal: FeedbackSignal) -> None:
+        """Persist *signal* (upsert by signal_id)."""
+        self._conn.execute(
+            "INSERT OR REPLACE INTO feedback_signals "
+            "(signal_id, query, doc_id, feedback_type, value, note, ts) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?)",
             (
-                fb.id, fb.request_id, fb.request[:500], fb.response_text[:5000],
-                fb.thumbs, fb.rating, fb.comment[:1000],
-                fb.skill, fb.retriever, fb.answerer,
-                json.dumps(fb.citations, ensure_ascii=False),
-                fb.duration_ms, fb.cost, fb.ts,
-            )
+                signal.signal_id,
+                signal.query,
+                signal.doc_id,
+                signal.feedback_type.value,
+                signal.value,
+                signal.note,
+                signal.ts,
+            ),
         )
-        self.conn.commit()
-        return fb.id
+        self._conn.commit()
 
-    def get(self, fb_id: str) -> Feedback | None:
-        row = self.conn.execute(
-            "SELECT * FROM feedback WHERE id = ?", (fb_id,)
+    # ------------------------------------------------------------------
+    # Queries
+    # ------------------------------------------------------------------
+
+    def get(self, signal_id: str) -> FeedbackSignal | None:
+        """Return the signal with *signal_id*, or ``None`` if not found."""
+        row = self._conn.execute(
+            "SELECT * FROM feedback_signals WHERE signal_id = ?",
+            (signal_id,),
         ).fetchone()
-        if not row:
-            return None
-        return self._row_to_fb(row)
+        return _row_to_signal(row) if row else None
 
-    def list_recent(self, limit: int = 50,
-                    skill: str = "", thumbs: str = "") -> list[Feedback]:
-        sql = "SELECT * FROM feedback WHERE 1=1"
-        params: list = []
-        if skill:
-            sql += " AND skill = ?"
-            params.append(skill)
-        if thumbs:
-            sql += " AND thumbs = ?"
-            params.append(thumbs)
-        sql += " ORDER BY ts DESC LIMIT ?"
-        params.append(limit)
-        return [self._row_to_fb(r) for r in self.conn.execute(sql, params).fetchall()]
+    def for_query(self, query: str) -> list[FeedbackSignal]:
+        """Return all signals whose *query* field equals *query*."""
+        rows = self._conn.execute(
+            "SELECT * FROM feedback_signals WHERE query = ? ORDER BY ts",
+            (query,),
+        ).fetchall()
+        return [_row_to_signal(r) for r in rows]
 
-    def aggregate_per_skill(self) -> dict[str, dict]:
-        """Сводка по skill: total / up / down / quality."""
-        result: dict[str, dict] = defaultdict(lambda: {
-            "total": 0, "up": 0, "down": 0, "neutral": 0,
-            "avg_rating": 0.0, "rating_count": 0,
-            "avg_duration_ms": 0.0, "total_cost": 0.0,
-        })
+    def for_doc(self, doc_id: str) -> list[FeedbackSignal]:
+        """Return all signals whose *doc_id* field equals *doc_id*."""
+        rows = self._conn.execute(
+            "SELECT * FROM feedback_signals WHERE doc_id = ? ORDER BY ts",
+            (doc_id,),
+        ).fetchall()
+        return [_row_to_signal(r) for r in rows]
 
-        for row in self.conn.execute("SELECT * FROM feedback"):
-            skill = row["skill"] or "unknown"
-            r = result[skill]
-            r["total"] += 1
-            if row["thumbs"] == "up":
-                r["up"] += 1
-            elif row["thumbs"] == "down":
-                r["down"] += 1
-            elif row["thumbs"]:
-                r["neutral"] += 1
-            if row["rating"]:
-                r["avg_rating"] = (r["avg_rating"] * r["rating_count"] + row["rating"]) / (r["rating_count"] + 1)
-                r["rating_count"] += 1
-            if row["duration_ms"]:
-                r["avg_duration_ms"] = (r["avg_duration_ms"] * (r["total"] - 1) + row["duration_ms"]) / r["total"]
-            r["total_cost"] += row["cost"] or 0
+    # ------------------------------------------------------------------
+    # Aggregations
+    # ------------------------------------------------------------------
 
-        # Вычислим quality_score
-        for skill, r in result.items():
-            r["quality_score"] = self._calc_quality(r["up"], r["down"], r["total"])
-        return dict(result)
+    def stats(self) -> dict:
+        """Return aggregate statistics across all signals.
 
-    def quality_score(self, skill: str = "") -> float:
-        """Wilson lower bound для (up vs total): даёт robust quality 0-100."""
-        q = "SELECT thumbs FROM feedback WHERE thumbs IN ('up', 'down')"
-        params: list = []
-        if skill:
-            q += " AND skill = ?"
-            params.append(skill)
-        rows = self.conn.execute(q, params).fetchall()
-        up = sum(1 for r in rows if r["thumbs"] == "up")
-        down = sum(1 for r in rows if r["thumbs"] == "down")
-        return self._calc_quality(up, down, up + down)
+        Returns
+        -------
+        dict with keys:
+            total, positive, negative, neutral, avg_value
+        """
+        rows = self._conn.execute(
+            "SELECT value FROM feedback_signals"
+        ).fetchall()
+        values = [r["value"] for r in rows]
+        total = len(values)
+        positive = sum(1 for v in values if v > 0.0)
+        negative = sum(1 for v in values if v < 0.0)
+        neutral = total - positive - negative
+        avg_value = sum(values) / total if total else 0.0
+        return {
+            "total": total,
+            "positive": positive,
+            "negative": negative,
+            "neutral": neutral,
+            "avg_value": avg_value,
+        }
 
-    @staticmethod
-    def _calc_quality(up: int, down: int, total: int) -> float:
-        """Wilson confidence interval lower bound × 100."""
-        if total == 0:
-            return 0.0
-        n = up + down
-        if n == 0:
-            return 50.0  # no signal
-        p = up / n
-        # Wilson lower bound, z=1.96 (95%)
-        import math
-        z = 1.96
-        denom = 1 + z * z / n
-        center = (p + z * z / (2 * n)) / denom
-        margin = z * math.sqrt((p * (1 - p) + z * z / (4 * n)) / n) / denom
-        return max(0.0, (center - margin) * 100)
+    def top_docs(self, n: int = 10) -> list[tuple[str, float]]:
+        """Return the *n* documents with the highest average signal value.
 
-    def _row_to_fb(self, row) -> Feedback:
-        return Feedback(
-            id=row["id"], request_id=row["request_id"],
-            request=row["request"], response_text=row["response_text"] or "",
-            thumbs=row["thumbs"] or "", rating=row["rating"] or 0,
-            comment=row["comment"] or "",
-            skill=row["skill"] or "", retriever=row["retriever"] or "",
-            answerer=row["answerer"] or "",
-            citations=json.loads(row["citations_json"] or "[]"),
-            duration_ms=row["duration_ms"] or 0,
-            cost=row["cost"] or 0.0,
-            ts=row["ts"],
-        )
+        Only documents that have at least one signal are considered.
+        Returns a list of ``(doc_id, avg_value)`` sorted descending.
+        """
+        rows = self._conn.execute(
+            "SELECT doc_id, AVG(value) AS avg_val "
+            "FROM feedback_signals "
+            "WHERE doc_id IS NOT NULL "
+            "GROUP BY doc_id "
+            "ORDER BY avg_val DESC "
+            "LIMIT ?",
+            (n,),
+        ).fetchall()
+        return [(r["doc_id"], r["avg_val"]) for r in rows]
+
+    def worst_docs(self, n: int = 10) -> list[tuple[str, float]]:
+        """Return the *n* documents with the lowest average signal value.
+
+        Returns a list of ``(doc_id, avg_value)`` sorted ascending.
+        """
+        rows = self._conn.execute(
+            "SELECT doc_id, AVG(value) AS avg_val "
+            "FROM feedback_signals "
+            "WHERE doc_id IS NOT NULL "
+            "GROUP BY doc_id "
+            "ORDER BY avg_val ASC "
+            "LIMIT ?",
+            (n,),
+        ).fetchall()
+        return [(r["doc_id"], r["avg_val"]) for r in rows]
+
+    # ------------------------------------------------------------------
+    # Lifecycle
+    # ------------------------------------------------------------------
+
+    def close(self) -> None:
+        self._conn.close()

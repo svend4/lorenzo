@@ -5,7 +5,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Existing Approximations
@@ -39,7 +39,18 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> Several existing tools approximate parts of what Layer B
+> * It solves part of the problem (persistent context) but not the threading and structural needs. * Limitations: - No AI collaboration - Not designed for documents as first-class artifacts - Not designed for project-st
+ Existing Approximations
+ Anthropic Projects
+ GitHub Discussions
+ Notion / Obsidian / Roam
+ Discourse / phpBB-style forums
+ Combination workflows
+ --
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: It solves part of the problem (persistent context) bu
 
 ---
 <!-- tags: rag, architecture, anthropic -->

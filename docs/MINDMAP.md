@@ -1,20 +1,14 @@
 # Майндмап репозитория Lorenzo
 
-<!-- toc-auto -->
-
 > [!NOTE]
 > Раздел `MINDMAP` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: mindmap, docs -->
+
 
 <!-- summary -->
-> knowledge-space[knowledge-space]
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
+> `MINDMAP` — раздел документации проекта Lorenzo.
 
 
 ## Структура разделов
@@ -131,14 +125,14 @@ flowchart LR
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (10):**
 - [04-sozialrecht-domain](03-technology-combinations/04-sozialrecht-domain.md)
+- [GLOSSARY](GLOSSARY.md)
 - [GRAPH](GRAPH.md)
 - [NETWORK](NETWORK.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
+- _...ещё 2_
 

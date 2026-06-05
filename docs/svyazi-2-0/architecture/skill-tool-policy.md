@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Skill and Tool Policy
 
 <!-- toc-auto -->
@@ -15,7 +19,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
+> Это дополняет Tool Search, который экономит контекст, но сам по себе не задаёт governance; LiteLLM и Auto AI Router, которые управляют провайдерами, но не правами; и SENTINEL, который контролирует угрозы, но выигрывает от того, что политика уже струк
 **Проекты:** SENTINEL, LiteLLM, Auto AI Router, Tool Search
 
 ---

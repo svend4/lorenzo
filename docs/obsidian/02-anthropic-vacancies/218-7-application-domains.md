@@ -4,7 +4,7 @@ tags:
   - ingestion
   - architecture
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 7. Application Domains
@@ -25,7 +25,18 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> We identify nine professions or sub-professions where
+> * Application Domains !TIP Документ содержит практические рекомендации и лучшие практики. * Burden addressed: Literature review, draft writing, methodology selection support, citation management, grant applicat
+ --
+Похожие документы
+ 143-6-four-deployment-domains (сходство 0.14)
+ 173-4-ten-domains-of-application (сходство 0.14)
+ 261-8-seven-domains-of-application (сходство 0.14)
+ --
+Использование
+ 
+Смотрите также
+ 261-8-seven-domains-of-application
+ 173-
 
 ---
 

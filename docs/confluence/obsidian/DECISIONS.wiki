@@ -1,24 +1,23 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/DECISIONS.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Ключевые решения и выводы"
 tags:
-  * memory
-  * rag
   * collaboration
+  * memory
   * general
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Ключевые решения и выводы
 
-Автоматически извлечено из всех документов: _1264 записей_
+Автоматически извлечено из всех документов: _1360 записей_
 
 
-h2. Архитектура (78)
+h2. Архитектура (132)
 
 * _На Хабре пока не видно одного готового проекта, который уже собрал все слои в единое целое, но видно много авторов, каждый из которых почти идеально закрывает один слой будущей системы._ Поэтому реальная ценность исследования — не в списке ссылок,  
   _→ 01-executive-summary_
@@ -50,9 +49,6 @@ h2. Архитектура (78)
 * из трёх, потому что он фиксирует архитектурный контракт, от которого зависят остальные артефакты. Пишу как formal specification в стиле W3C/IETF draft — с чёткими определениями, явными инвариантами, п  
   _→ 02-общий-план-развития-nautilus-portal-protocol_
 
-* прочитать в первую очередь.   > Статья «Слой Представительских Агентов» представила ---  ## Содержание - [1. Типология из пяти типов агентов на сто  
-  _→ 232-1-типология-из-пяти-типов-агентов-на-стороне-принц_
-
 * около $120/мес при том, что данные размазаны по семи юрисдикциям. Замена из open-source кубиков: слой 1 — Activepieces self-hosted (вместо Make.com) слой 2 — Obsidian + LLM Wiki плагин + Skills (вме  
   _→ 00-intro_
 
@@ -62,25 +58,28 @@ h2. Архитектура (78)
 * кандидат для слоя .agentos/ и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и GitHub issues в AgentFS. citeturn33view7tu  
   _→ 05-план-прототипа-и-возможные-контакты_
 
-* читать перед погружением в детали. ## Статус | Параметр | Значение | |----------|---------| | Теги | — | | Упоминаний в репо | — | | Слой | — | | Контакт | — | | Статус связи | не писали | _Обновле  
-  _→ 01-synthesis_
+* рейтинг | 0.648 | ## Архитектурный контракт Точка интеграции: _Card Envelope_ ({{card_type="01-synthesis"}}, edges к {{wikontic}}). ```json { "card_type": "integration_proposal", "state": "raw",  
+  _→ proposal-01-synthesis-x-wikontic_
 
-* склеивать в один релиз" ``` ## Смотрите также - 10-architecture-rfc - [02-agentops-trace-envelope](02-agentops-trace-envelo  
-  _→ 09-do-not-glue_
+* рейтинг | 0.670 | ## Архитектурный контракт Точка интеграции: _Card Envelope_ ({{card_type="01-synthesis"}}, edges к {{yodoca}}). ```json { "card_type": "integration_proposal", "state": "raw",  
+  _→ proposal-01-synthesis-x-yodoca_
 
-* реализовать nautilus как web-portal на базе ваших 70 репо. Это и есть живая демонстрация концепции. Нужны: GitHub API integration, .nautilus.yaml parser для каждого репо, visualization слой (graph с n  
-  _→ 03-nautilus-B-meta-orchestrator_
+* рейтинг | 0.582 | ## Архитектурный контракт Точка интеграции: _Card Envelope_ ({{card_type="agentfs"}}, edges к {{agent-memory-mcp}}). ```json { "card_type": "integration_proposal", "state": "raw  
+  _→ proposal-agentfs-x-agent-memory-mcp_
 
-* первой части По итогам поиска видно, что _Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей_, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG и не оркестрация по отдельности: все они уже пред  
-  _→ conclusions_
+* рейтинг | 0.604 | ## Архитектурный контракт Точка интеграции: _Card Envelope_ ({{card_type="agentfs"}}, edges к {{mclaude}}). ```json { "card_type": "integration_proposal", "state": "raw", "pro  
+  _→ proposal-agentfs-x-mclaude_
 
-* второй части Лучший следующий шаг — _не искать ещё двадцать новых проектов_, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record. На этом основании уже можно  
-  _→ conclusions_
+* рейтинг | 0.400 | ## Архитектурный контракт Точка интеграции: _Card Envelope_ ({{card_type="agentfs"}}, edges к {{memnet}}). ```json { "card_type": "integration_proposal", "state": "raw", "proj  
+  _→ proposal-agentfs-x-memnet_
 
-* склеивать». _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG --- <!-- tags: memory, rag, orchest  
-  _→ license-tree_
+* рейтинг | 0.472 | ## Архитектурный контракт Точка интеграции: _Card Envelope_ ({{card_type="agentfs"}}, edges к {{rufler}}). ```json { "card_type": "integration_proposal", "state": "raw", "proj  
+  _→ proposal-agentfs-x-rufler_
 
-_...ещё 58 записей в этой категории_
+* рейтинг | 0.416 | ## Архитектурный контракт Точка интеграции: _Card Envelope_ ({{card_type="agentfs"}}, edges к {{yodoca}}). ```json { "card_type": "integration_proposal", "state": "raw", "proj  
+  _→ proposal-agentfs-x-yodoca_
+
+_...ещё 112 записей в этой категории_
 
 
 h2. Mvp (16)
@@ -94,6 +93,9 @@ h2. Mvp (16)
 * переориентировать стратегию OKWF : начать с гильдийных Профессиональных Коллег, как первый продукт фонда. Использовать SGB-domain как pilot domain (используя ваш expertise). Если будете писать compani  
   _→ 207-приложение-c-образцы-случаев-использования-в-детал_
 
+* склеивать](14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) - [План прототипа и возможные контакты](05-план-прототипа-и-возможные-контакты.md  
+  _→ 09-архитектурные-зазоры-которые-важнее-новых-инструме_
+
 * кандидат для слоя ### 17. План прототипа и возможные контакты _Файл: {{docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md}} | 4 колонок, 0 строк_ | _VitalyOborin_ | Сильнейший канд  
   _→ TABLES_
 
@@ -104,13 +106,13 @@ h2. Mvp (16)
   _→ 01-response_
 
 
-h2. Память (17)
+h2. Память (35)
 
 * переименовать папку в что-то более описательное , если она действительно реализует routing ( hexagram_routing/ ) или orchestrator ( experiment_orchestrator/ ). «[nautilus](../05-habr-projects/memory/m  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-* прочитать в первую очередь.   > Два независимых анализа пришли к разным выводам: ---  ## Вопрос: fallback-ratio как  
-  _→ 110-вопрос-fallback-ratio-как-критический-или-осмыслен_
+* читать перед погружением в детали. > _Maintainer:_ svend4 (GitHub) ---  ## Author & Contact _Maintainer:_ svend4 (GitHub) _Контакт:_ через Issues в `g  
+  _→ 42-author-contact_
 
 * отсутствие маркировки. Если бы в начале каждой дублированной секции стояла пометка вроде "Вариант A (ветка review-tdywx) / Вариант B (ветка stage-CzylE) — консолидация pending" , внешний читатель сраз  
   _→ 69-section_
@@ -121,17 +123,23 @@ h2. Память (17)
 * просто “записать всё, что сказал агент”. Mermaid Практическое правило: внешний текст не должен иметь права становиться instruction memory . Он может с  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 
+* рейтинг 0 _B:_ {{docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md}} > 214 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0 --- ### 20. 🔢 Числовое — 548.0 vs 13  
+  _→ CONTRADICTIONS_
+
 * в секции: 19,966 слов, 56 файлов** ## Letters _Путь: {{docs/letters/}}_ ### Q&A: letters > > !NOTE - Какие системы памяти описаны в этом разделе? - Как происходит консолидация  
   _→ OUTLINE_
+
+* спросить «какие проекты используются авторами из Anthropic vacancies, которые упоминают memory engines». _Workaround сейчас:_ ручной grep по NER-ин  
+  _→ 00-CURRENT-STATE_
 
 * из memory-проектов, которые я изучил. _Что именно ценно:_ Механизм decay в Yodoca отвечает на вопрос, который я не смог закрыть через другие подходы: как система сама решает, что устарело, а не жд  
   _→ vitalyoborin_
 
-* склеивать». _Проекты:_ mclaude, AI Factory, Rufler, AutoResearch, Whisper, Yttri --- <!-- tags: memory, rag, orchestration, local-first, self-impro  
-  _→ do-not-glue_
+* отменить без явного {{restore_event}}. ### Идемпотентность Перед записью {{episode}} и {{fact}} выполняется проверка дубликата (cosine ≥ 0.85 по title+bod  
+  _→ RFC-0002-memory-write-policy-для-svyazi-2-0_
 
 
-h2. Оркестрация (38)
+h2. Оркестрация (42)
 
 * на файловое ядро Svyazi‑2.0. | | _mclaude_ | AnastasiyaW | Хабр + GitHub citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Lo  
   _→ 03-component-catalog_
@@ -142,8 +150,14 @@ h2. Оркестрация (38)
 * собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
+* рейтинг 0 _B:_ {{docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md}} > 264 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0 --- ### 22. 🔢 Числовое — 548.0 vs 112.0 (увере  
+  _→ CONTRADICTIONS_
+
 * вопрос для community matching. citeturn22view4turn22view5 | | _авторы knowledge-space / mclaude_ | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
   _→ TABLES_
+
+* склеивать». Документ содержит описание рисков и ограничений. _Проекты:_ mclaude, AI Factory, Rufler, AutoResearch, Whisper, Yttri --- <!-- tags: me  
+  _→ do-not-glue_
 
 * склеивать». ## Оркестрация — выбрать один spine Хотя mclaude, AI Factory, Rufler и Sequential выглядят очень привлекательно, их не стоит собирать вс  
   _→ do-not-glue_
@@ -157,17 +171,17 @@ h2. Безопасность (12)
 * критических_ | _3** | ## PII и секреты ✅ PII и секреты не найдены. ## Небезопасный код | Файл | Строка | Проблема | Фрагмент | |------|--------|----------|----------| | {{scripts/gateway.py}} | 6  
   _→ SENTINEL_
 
-* замена на HTTPS._ - {{http://localhost:8000}}``````{{ в }}docs/SENTINEL.md{{ - }}http://localhost:8000````````{{ в }}docs/SENTINEL.md{{ - }}http://localhost:8080```````{{ в }}docs/SENTINEL.md{{ - }}http://localhos  
+* замена на HTTPS._ - {{http://localhost:8000}}```````{{ в }}docs/SENTINEL.md{{ - }}http://localhost:8000`````````{{ в }}docs/SENTINEL.md{{ - }}http://localhost:8080````````{{ в }}docs/SENTINEL.md{{ - }}http://local  
   _→ SENTINEL_
 
-* критических_ | _3** | ### 283. Небезопасный код _Файл: {{docs/obsidian/SENTINEL.md}} | 4 колонок, 3 строк_ | Файл | Строка | Проблема | Фрагмент | |------|--------|----------|----------| | `scripts  
+* критических_ | _3** | ### 282. Небезопасный код _Файл: {{docs/obsidian/SENTINEL.md}} | 4 колонок, 3 строк_ | Файл | Строка | Проблема | Фрагмент | |------|--------|----------|----------| | `scripts  
   _→ TABLES_
 
-* критических_ | _3** | ### 181. Небезопасный код _Файл: {{docs/SENTINEL.md}} | 4 колонок, 3 строк_ | Файл | Строка | Проблема | Фрагмент | |------|--------|----------|----------| | `scripts/gateway.  
+* критических_ | _3** | ### 180. Небезопасный код _Файл: {{docs/SENTINEL.md}} | 4 колонок, 3 строк_ | Файл | Строка | Проблема | Фрагмент | |------|--------|----------|----------| | `scripts/gateway.  
   _→ TABLES_
 
 
-h2. Лицензия (21)
+h2. Лицензия (19)
 
 * создать REVIEW_METHODOLOGY.md в корне репо (не в docs/ , потому что это применимо ко всему проекту, не к специфической области). Commit: docs: add REVIEW_METHODOLOGY for three-phase review process . В  
   _→ 122-глоссарий_
@@ -181,14 +195,11 @@ h2. Лицензия (21)
 * положите все четыре файла в репо (PORTAL-PROTOCOL.md в корень, README.md заменяет текущий, три passport'а в папку passports/). Commit с сообщением вида docs: initial v1.0-draft documentation layer . Т  
   _→ 69-section_
 
-* склеивать](svyazi-2-0/limitations/do-not-glue.md)](#что-пока-лучше-не-склеиватьsvyazi-2-0limitationsdo-not-gluemd) - [[do-not-glue|[Лицензионные развилки]] > - Оркестрация — выбрать один spine(#оркестрация-выбрать-один-spine) - Contents - Оркестрация  
+* склеивать](svyazi-2-0/limitations/do-not-glue.md) > - Оркестрация — выбрать один spine(#оркестрация-выбрать-один-spine) - Contents - Оркестрация  
   _→ OUTLINE_
 
 * конкретные next steps. Save in repo as docs/REPRESENTATIVE-AGENT-LAYER.md. Commit. Add link from main README. Done. Третье — гордиться этим. Five interconnected documents addressing real problems wit  
   _→ 01-response-en_
-
-* склеивать]]](#что-пока-лучше-не-склеиватьsvyazi-2-0limitationsdo-not-gluemd) - [Лицензионные развилки](#лицензионные-развилкиsvyazi  
-  _→ OUTLINE_
 
 * склеивать" ``` ## Смотрите также - 14-limitations - license-tree - 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать - [[conclusions]  
   _→ do-not-glue_
@@ -205,7 +216,7 @@ h2. Риски (7)
 * начинать с основных документов раздела и переходить к деталям через внутренние ссылки.  --- _Кто ссылается на этот документ (8):_ - [120-главные-технические-риски](../../02-anth  
   _→ 14-main-technical-risks_
 
-* склеивать в один релиз" tags: - ai-collaborations date: 2026-05-12 --- # Что пока не стоит склеивать в один релиз  ## Contents -  
+* склеивать в один релиз" tags: - ai-collaborations date: 2026-05-14 --- # Что пока не стоит склеивать в один релиз  ## Contents -  
   _→ 09-do-not-glue_
 
 
@@ -247,8 +258,7 @@ h2. Контакты (48)
 * немедленный шаг — написать vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про AI-orchestrated teams в единую аргументацию «MMORPG as Work Infrastructure». Один документ, к  
   _→ 05-minuses-as-business_
 
-* identifies potential collaborator/contributor. Андрей — fullstack-разработчик, основатель сообщества, активный в russian-language tech community. Если OKWF будет recruiting первых contributors, именно  
-  _→ 01-claude-response_
+h2. Общее (321)
 
 * написать один integrative документ, объединяющий обе темы: PORTAL-PROTOCOL-PATTERN-LIBRARY.md. Это extension к NPP v1.1, который формализует: Three types of bridges (inheritance, citation, contributi  
   _→ 01-strategic-significance_
@@ -257,12 +267,15 @@ h2. Контакты (48)
   _→ 04-what-i-can-do-now_
 
 
-h2. Общее (1027)
+h2. Общее (1049)
 
 * начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела и  
   _→ 00-intro-part2_
 
 * прочитать в первую очередь.   > _Абстракт_ (авто) > > 🎯 _Проблема:_ Это намного лучше соответствует задачам экспертных сообществ, чем either/or‑выбор ме  
+  _→ 10-second-order-ensembles_
+
+* прочитать в первую очередь. > Документ создан на основе исследования. Ссылки ведут на связанные материалы. > Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные  
   _→ 10-second-order-ensembles_
 
 * идти. Эта фаза даёт уже очень ценный эффект: объяснимые suggestions вместо “магического мэтчинга”. citeturn41search0turn20view5turn34view2turn20v  
@@ -316,8 +329,5 @@ h2. Общее (1027)
 * заменить наймом эксперта. Она же даёт вам моральный mandate, которого нет у внешних профессионалов. ### Интегральный ответ на вопрос о вакансиях Anthr  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-* сделать такой же пайплайн автоматическую систему по типу логистики того же самого автомобильного завода Но для разработки программного обеспечения или  
-  _→ 01-интегральный-анализ-профиля-svend4_
-
-_...ещё 1007 записей в этой категории_
+_...ещё 1029 записей в этой категории_
 

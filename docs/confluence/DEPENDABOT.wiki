@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/DEPENDABOT.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 h1. Мониторинг зависимостей
@@ -18,7 +18,7 @@ _Проекты:_ Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
 
 
 
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-14_
 
 h2. Python-зависимости
 
@@ -56,22 +56,21 @@ python scripts/improve_dependabot.py --check-pypi
 _Смотрите также:_
 * [ENTITIES|ENTITIES.md]
 * [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
-* [GRAPH|GRAPH.md]
 * [NETWORK|NETWORK.md]
+* [09-automation|processing-guide/09-automation.md]
 
 
 
 
 ----
 
-_Кто ссылается на этот документ (12):_
-* [COLLAB_SUGGESTIONS|COLLAB_SUGGESTIONS.md]
-* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
+_Кто ссылается на этот документ (8):_
 * [ENTITIES|ENTITIES.md]
-* [GRAPH|GRAPH.md]
-* [MISSING|MISSING.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * [README|README.md]
-* _...ещё 4_
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+* [WORD_CLOUD|WORD_CLOUD.md]
+* [QA|svyazi-2-0/QA.md]
 

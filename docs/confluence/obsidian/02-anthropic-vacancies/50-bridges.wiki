@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/50-bridges.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Bridges
@@ -34,7 +34,23 @@ h2. Contents
 
 
 
-{quote}_Q6-concept-depth ↔ α-level_. Глубина концепта в Q6-графе (число{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 60-bridges (сходство 0.21) 40-bridges (сходство 0.20) Кто ссылается на этот документ (6){quote}
+ --
+Похожие документы
+ 60-bridges (сходство 0.21)
+ 40-bridges (сходство 0.20)
+ --
+Использование
+ 
+Смотрите также
+ 60-bridges
+ 40-bridges
+ 61-compatibility-level
+ 57-native-format
+ --
+Кто ссылается на этот документ (6)
+ 35-passports-info1-md
+ 47-na
 
 ----
 

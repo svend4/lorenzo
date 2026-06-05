@@ -1,8 +1,13 @@
 # Противоречия в базе знаний
 
-_Обновлено: 2026-05-12_
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
-Утверждений: **88270** | Противоречий: **9027**
+<!-- alert-added -->
+
+_Обновлено: 2026-05-14_
+
+Утверждений: **86230** | Противоречий: **9439**
 
 > Автоматический поиск без LLM — возможны ложные срабатывания.
 
@@ -32,55 +37,7 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 3. 🔢 Числовое — 3.0 vs 58.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `docs`, `liteparse`, `research`
-
-**A:** `docs/EMPTY_SECTIONS.md`
-> md 3 6 50% research-docs-liteparse
-
-**B:** `docs/LANGUAGE_STATS.md`
-> md 58% 42% research-docs-liteparse
-
----
-
-### 4. 🔢 Числовое — 3.0 vs 50.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `docs`, `liteparse`, `research`
-
-**A:** `docs/EMPTY_SECTIONS.md`
-> md 3 6 50% research-docs-liteparse
-
-**B:** `docs/LANGUAGE_STATS.md`
-> md 50% 50% research-docs-liteparse
-
----
-
-### 5. 🔢 Числовое — 3.0 vs 61.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `docs`, `liteparse`, `research`
-
-**A:** `docs/EMPTY_SECTIONS.md`
-> md 3 6 50% research-docs-liteparse
-
-**B:** `docs/svyazi-2-0/components/legal-rag.md`
-> 61) - research-docs-liteparse(research-docs-liteparse
-
----
-
-### 6. 🔢 Числовое — 42.0 vs 61.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `docs`, `liteparse`, `research`
-
-**A:** `docs/LANGUAGE_STATS.md`
-> md 58% 42% research-docs-liteparse
-
-**B:** `docs/svyazi-2-0/components/legal-rag.md`
-> 61) - research-docs-liteparse(research-docs-liteparse
-
----
-
-### 7. 🔢 Числовое — 3.0 vs 8.0 (уверенность: 0.8)
+### 3. 🔢 Числовое — 3.0 vs 8.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `годы`, `деятельность`, `добавить`, `областей`
 
@@ -92,7 +49,7 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 8. 🔢 Числовое — 70.0 vs 4.0 (уверенность: 0.8)
+### 4. 🔢 Числовое — 70.0 vs 4.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `второе`, `месячная`, `одна`, `отрезвляющее`
 
@@ -104,7 +61,7 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 9. 🔢 Числовое — 44.0 vs 785.0 (уверенность: 0.8)
+### 5. 🔢 Числовое — 44.0 vs 785.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `allowlist`, `mcp`, `oss`, `sentinel`
 
@@ -116,7 +73,7 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 10. 🔢 Числовое — 44.0 vs 3.0 (уверенность: 0.8)
+### 6. 🔢 Числовое — 44.0 vs 3.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `allowlist`, `mcp`, `oss`, `sentinel`
 
@@ -128,19 +85,7 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 11. 🔢 Числовое — 44.0 vs 4.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `allowlist`, `mcp`, `oss`, `sentinel`
-
-**A:** `docs/01-svyazi/01-executive-summary.md`
-> 1) ^sentinel: OSS-проект: безопасность и allowlist для MCP ^rufler: OSS-проект: оркестратор AI-агентов ^svyazi: Главный проект: экосистема AI-компонен
-
-**B:** `docs/DUPLICATES.md`
-> md 1) ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: экосистема AI-компонентов --- Кто ссылается на этот документ (…
-
----
-
-### 12. 🔢 Числовое — 3.0 vs 13.0 (уверенность: 0.8)
+### 7. 🔢 Числовое — 3.0 vs 13.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `allowlist`, `mcp`, `oss`, `sentinel`
 
@@ -152,19 +97,7 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 13. 🔢 Числовое — 13.0 vs 4.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `allowlist`, `mcp`, `oss`, `sentinel`
-
-**A:** `docs/01-svyazi/11-integration-contracts.md`
-> 1) ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: экосистема AI-компонентов --- Кто ссылается на этот документ (3) -
-
-**B:** `docs/DUPLICATES.md`
-> md 1) ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: экосистема AI-компонентов --- Кто ссылается на этот документ (…
-
----
-
-### 14. 🔢 Числовое — 4.0 vs 100.0 (уверенность: 0.8)
+### 8. 🔢 Числовое — 4.0 vs 100.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `collaborations`, `docs`, `методика`, `отбора`
 
@@ -176,115 +109,43 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 15. 🔢 Числовое — 30.0 vs 96.0 (уверенность: 0.8)
+### 9. 🔢 Числовое — 30.0 vs 96.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `методика`, `отбора`, `рамка`
 
 **A:** `docs/LANGUAGE_STATS.md`
-> md 30% 70% 02-методика-и-рамка-отбора
+> md 70% 30% 02-методика-и-рамка-отбора
 
 **B:** `docs/svyazi-2-0/overview/methodology.md`
 > 96) - 02-методика-и-рамка-отбора(
 
 ---
 
-### 16. 🔢 Числовое — 30.0 vs 74.0 (уверенность: 0.8)
+### 10. 🔢 Числовое — 30.0 vs 74.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `методика`, `отбора`, `рамка`
 
 **A:** `docs/LANGUAGE_STATS.md`
-> md 30% 70% 02-методика-и-рамка-отбора
+> md 70% 30% 02-методика-и-рамка-отбора
 
 **B:** `docs/svyazi-2-0/overview/methodology.md`
 > 74) - 02-методика-и-рамка-отбора(
 
 ---
 
-### 17. 🔢 Числовое — 10.0 vs 84.0 (уверенность: 0.8)
+### 11. 🔢 Числовое — 4.0 vs 100.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `augmented`, `generation`, `rag`, `retrieval`
+**Общие ключевые слова:** `collaborations`, `docs`, `методика`, `отбора`
 
-**A:** `docs/01-svyazi/02-methodology.md`
-> md) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^svyazi: Главный проект: экосистема AI-компонентов --- Кто ссылается на этот докуме
+**A:** `docs/PROMOTE_LOG.md`
+> md - docs/04-ai-collaborations/02-методика-и-рамка-отбора
 
-**B:** `docs/01-svyazi/QA.md`
-> 84) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: эк
-
----
-
-### 18. 🔢 Числовое — 10.0 vs 84.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `augmented`, `generation`, `rag`, `retrieval`
-
-**A:** `docs/01-svyazi/02-methodology.md`
-> md) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^svyazi: Главный проект: экосистема AI-компонентов --- Кто ссылается на этот докуме
-
-**B:** `docs/04-ai-collaborations/QA.md`
-> 84) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^cardindex: OSS-проект: индекс знаний на карточках (MIT) ^agentfs: OSS-проект: файл
+**B:** `docs/SIMILAR_PASSAGES.md`
+> 0 (100%) A: docs/04-ai-collaborations/02-методика-и-рамка-отбора
 
 ---
 
-### 19. 🔢 Числовое — 84.0 vs 11.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `augmented`, `generation`, `rag`, `retrieval`
-
-**A:** `docs/01-svyazi/QA.md`
-> 84) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: эк
-
-**B:** `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
-> md) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Model — большая языковая модель ^cardindex: OSS-проект: индекс
-
----
-
-### 20. 🔢 Числовое — 84.0 vs 785.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `augmented`, `generation`, `rag`, `retrieval`
-
-**A:** `docs/01-svyazi/QA.md`
-> 84) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: эк
-
-**B:** `docs/04-ai-collaborations/QA.md`
-> 84) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^cardindex: OSS-проект: индекс знаний на карточках (MIT) ^agentfs: OSS-проект: файл
-
----
-
-### 21. 🔢 Числовое — 84.0 vs 11.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `augmented`, `generation`, `rag`, `retrieval`
-
-**A:** `docs/01-svyazi/QA.md`
-> 84) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^sentinel: OSS-проект: безопасность и allowlist для MCP ^svyazi: Главный проект: эк
-
-**B:** `docs/DUPLICATES.md`
-> md md) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Model — большая языковая модель ^cardin… A: docs/01-svyazi/
-
----
-
-### 22. 🔢 Числовое — 11.0 vs 84.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `augmented`, `generation`, `rag`, `retrieval`
-
-**A:** `docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md`
-> md) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Model — большая языковая модель ^cardindex: OSS-проект: индекс
-
-**B:** `docs/04-ai-collaborations/QA.md`
-> 84) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^cardindex: OSS-проект: индекс знаний на карточках (MIT) ^agentfs: OSS-проект: файл
-
----
-
-### 23. 🔢 Числовое — 84.0 vs 11.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `augmented`, `generation`, `rag`, `retrieval`
-
-**A:** `docs/04-ai-collaborations/QA.md`
-> 84) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^cardindex: OSS-проект: индекс знаний на карточках (MIT) ^agentfs: OSS-проект: файл
-
-**B:** `docs/DUPLICATES.md`
-> md md) --- ^rag: Retrieval-Augmented Generation — генерация с поиском ^llm: Large Language Model — большая языковая модель ^cardin… A: docs/01-svyazi/
-
----
-
-### 24. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
+### 12. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `match`, `pendingreview`, `proposalid`, `reviewstate`
 
@@ -296,7 +157,7 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 25. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
+### 13. 🔢 Числовое — 31.0 vs 3.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `различение`, `слоёв`, `трёх`
 
@@ -308,7 +169,7 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 26. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
+### 14. 🔢 Числовое — 5.0 vs 36.0 (уверенность: 0.8)
 
 **Общие ключевые слова:** `attention`, `full`, `moe`, `ssm`
 
@@ -320,51 +181,211 @@ _Обновлено: 2026-05-12_
 
 ---
 
-### 27. 🔢 Числовое — 80.0 vs 8.0 (уверенность: 0.8)
+### 15. 🔢 Числовое — 548.0 vs 282.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `coder`, `context`, `embed`, `nomic`
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
 
-**A:** `docs/04-ai-collaborations/00-intro.md`
-> qwen3-coder:30b, nomic-embed-text, 80k context, 8k max tokens, температура 0
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
 
-**B:** `docs/05-habr-projects/memory/memnet.md`
-> qwen3-coder:30b, nomic-embed-text, 80k context, 8k max tokens, температура 0
-
----
-
-### 28. 🔢 Числовое — 785.0 vs 26.0 (уверенность: 0.8)
-
-**Общие ключевые слова:** `anastasiyaw`, `github`, `knowledge`, `soniablack`
-
-**A:** `docs/01-svyazi/03-component-catalog.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 
-
-**B:** `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 
+**B:** `docs/04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md`
+> 282 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
 
 ---
 
-### 29. 🔢 Числовое — 785.0 vs 100.0 (уверенность: 0.8)
+### 16. 🔢 Числовое — 548.0 vs 100.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `anastasiyaw`, `github`, `knowledge`, `soniablack`
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
 
-**A:** `docs/01-svyazi/03-component-catalog.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
 
-**B:** `docs/DUPLICATES.md`
-> md knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референс… --- 100% — docs/svyazi-2-
+**B:** `docs/04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md`
+> 100 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 17. 🔢 Числовое — 548.0 vs 272.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md`
+> 272 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
 
 ---
 
-### 30. 🔢 Числовое — 785.0 vs 26.0 (уверенность: 0.8)
+### 18. 🔢 Числовое — 548.0 vs 116.0 (уверенность: 0.8)
 
-**Общие ключевые слова:** `anastasiyaw`, `github`, `knowledge`, `soniablack`
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
 
-**A:** `docs/01-svyazi/03-component-catalog.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
 
-**B:** `docs/svyazi-2-0/overview/projects-map.md`
-> knowledge-space SoniaBlack / AnastasiyaW Хабр + GitHub citeturn33view0turn33view2turn37search1 Agent‑first референсная база: 785+ карточек по 26 домен
+**B:** `docs/04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md`
+> 116 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
 
 ---
+
+### 19. 🔢 Числовое — 548.0 vs 214.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md`
+> 214 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 20. 🔢 Числовое — 548.0 vs 135.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md`
+> 135 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 21. 🔢 Числовое — 548.0 vs 264.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md`
+> 264 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 22. 🔢 Числовое — 548.0 vs 112.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-yodoca.md`
+> 112 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 23. 🔢 Числовое — 548.0 vs 239.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-mclaude-x-agent-memory-mcp.md`
+> 239 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 24. 🔢 Числовое — 548.0 vs 163.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md`
+> 163 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 25. 🔢 Числовое — 548.0 vs 182.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md`
+> 182 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 26. 🔢 Числовое — 548.0 vs 242.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md`
+> 242 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 27. 🔢 Числовое — 548.0 vs 202.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-rufler-x-agent-memory-mcp.md`
+> 202 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 28. 🔢 Числовое — 548.0 vs 187.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-wikontic-x-agent-memory-mcp.md`
+> 187 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 29. 🔢 Числовое — 548.0 vs 220.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-wikontic-x-memnet.md`
+> 220 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+### 30. 🔢 Числовое — 548.0 vs 216.0 (уверенность: 0.8)
+
+**Общие ключевые слова:** `высокая`, `итоговый`, `комплементарность`, `рейтинг`
+
+**A:** `docs/04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md`
+> 548 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+**B:** `docs/04-ai-collaborations/proposals/proposal-wikontic-x-ngt-memory.md`
+> 216 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0
+
+---
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [08-что-это-продолжение-добавляет](04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+- _...ещё 2_
 

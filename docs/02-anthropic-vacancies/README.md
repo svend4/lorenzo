@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Вакансии Anthropic — Анализ по кластерам
 
 <!-- summary -->

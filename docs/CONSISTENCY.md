@@ -1,32 +1,37 @@
 # Согласованность терминов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 8 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 32 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
-| **CardIndex** | `CardIndex` | `Card Index` | 4 |
-| **CardIndex** | `CardIndex` | `card index` | 4 |
-| **CardIndex** | `CardIndex` | `card-index` | 4 |
+| **CardIndex** | `CardIndex` | `Card Index` | 2 |
+| **CardIndex** | `CardIndex` | `card index` | 2 |
+| **CardIndex** | `CardIndex` | `card-index` | 2 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 44 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 103 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 133 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 4 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 43 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 45 |
 | **local-first** | `local-first` | `local first` | 8 |
-| **local-first** | `local-first` | `localfirst` | 6 |
+| **local-first** | `local-first` | `localfirst` | 4 |
 | **local-first** | `local-first` | `Local First` | 8 |
 | **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 8 |
-| **self-improvement** | `self-improvement` | `self-improve` | 284 |
+| **self-improvement** | `self-improvement` | `self-improve` | 286 |
 | **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 6 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 44 |
 | **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 38 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 32 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 49 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 30 |
 
-**Всего несогласованных написаний: 688**
+**Всего несогласованных написаний: 721**
 
 
 ## Детали по файлам
@@ -37,9 +42,9 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/DUPLICATES.md`
 - `docs/obsidian/EMPTY_SECTIONS.md`
-- _...и ещё 3_
+- `docs/obsidian/CONSISTENCY.md`
+- _...и ещё 1_
 
 ### `knowledge space` → должно быть `knowledge-space`
 
@@ -60,23 +65,17 @@
 ### `Card Index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `card index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `card-index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `AI-Factory` → должно быть `AI Factory`
 
@@ -94,7 +93,7 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- _...и ещё 98_
+- _...и ещё 128_
 
 ### `LiteParser` → должно быть `LiteParse`
 
@@ -110,7 +109,7 @@
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/TABLES.md`
-- _...и ещё 38_
+- _...и ещё 40_
 
 ### `local first` → должно быть `local-first`
 
@@ -125,10 +124,8 @@
 
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/OUTLINE.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/TABLES.md`
-- _...и ещё 1_
 
 ### `Local First` → должно быть `local-first`
 
@@ -150,12 +147,12 @@
 
 ### `self-improve` → должно быть `self-improvement`
 
-- `docs/FOOTNOTES.md`
+- `docs/INFO_PROCESSING_METHODS.md`
 - `docs/CONSISTENCY.md`
 - `docs/PROTOTYPE_SPEC.md`
 - `docs/TABLES.md`
-- `docs/SPELLCHECK.md`
-- _...и ещё 279_
+- `docs/METHODOLOGY.md`
+- _...и ещё 281_
 
 ### `selfimprovement` → должно быть `self-improvement`
 
@@ -192,7 +189,7 @@
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/PROTOTYPE_SPEC.md`
-- _...и ещё 33_
+- _...и ещё 44_
 
 ## Как исправить
 
@@ -200,3 +197,19 @@
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [MISSING](MISSING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [STATS](STATS.md)
+- _...ещё 2_
+

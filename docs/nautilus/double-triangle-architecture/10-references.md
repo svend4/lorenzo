@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # References
 
 <!-- toc-auto -->
@@ -21,8 +25,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория).
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».

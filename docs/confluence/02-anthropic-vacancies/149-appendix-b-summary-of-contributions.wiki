@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix B: Summary of Contributions
 
@@ -26,8 +30,19 @@ h2. Contents
 
 
 
-
-{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Appendix B: Summary of Contributions Рекомендуется читать перед погружением в детали. Topological formalization of Double-Triangle Architecture{quote}
+ 
+Contents
+ Appendix B: Summary of Contributions
+ Author & Contact
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот д
 {quote}Обзорный документ. Рекомендуется читать перед погружением в детали.{quote}
 
 {quote}1. _Topological formalization_ of Double-Triangle Architecture{quote}

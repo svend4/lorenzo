@@ -2,7 +2,7 @@
 title: "with Anthropic's Cowork Platform"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # with Anthropic's Cowork Platform
@@ -38,7 +38,16 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> **Document type:** Practical implementation paper, building
+> * with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork P. * with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork P
+ with Anthropic's Cowork Platform
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+> [!NOTE]
+> Документ создан на основе исследования.
 
 ---
 <!-- tags: local-first, architecture, anthropic, collaboration -->

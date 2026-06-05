@@ -1,9 +1,10 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/sonia-black.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "Sonia_Black"
@@ -35,7 +36,17 @@ h2. Contents
 
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Контакт: Sonia_Black / knowledge-space Проекты: Svyazi, knowledge-space Проекты | knowledge-space |{quote}
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 _Проекты:_ Svyazi, knowledge-space
 
 ----

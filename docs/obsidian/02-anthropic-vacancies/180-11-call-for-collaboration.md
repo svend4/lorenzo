@@ -2,8 +2,9 @@
 title: "11. Call for Collaboration"
 tags:
   - ingestion
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 11. Call for Collaboration
@@ -61,10 +62,22 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> This paper is offered as starting point, not finished
+> * Pilot partnerships allow the technology to develop in service of actual need rather than imagined need. * Your needs should drive design decisions Документ создан на основе исследования.
+ --
+Похожие документы
+ 265-12-call-for-collaboration (сходство 0.16)
+ 178-9-phased-rollout-strategy (сходство 0.14)
+ 223-12-closing (сходство 0.13)
+ --
+Использование
+ 
+Смотрите также
+ 265-12-call-for-collaboration
+ 178-9-phased-rollout-strategy
+ 2
 
 ---
-<!-- tags: ingestion -->
+<!-- tags: ingestion, rag -->
 
 
 

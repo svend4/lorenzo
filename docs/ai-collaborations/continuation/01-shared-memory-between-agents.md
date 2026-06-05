@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Общая память между агентами (CoAlly + ансамбль F)
 
 <!-- toc -->
@@ -23,7 +27,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
+> Автор прямо противопоставляет это статичным CLAUDE.md, .cursorrules и ручному Memory Bank; CoAlly использует семантический поиск, локальные multilingual embeddings, асинхронную векторизацию, on‑premise режим, изоляцию организаций, envelope encryption
 **Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Yodoca, NGT Memory
 
 ---

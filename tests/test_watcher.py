@@ -567,10 +567,10 @@ def test_watch_polling_loop_oserror_in_loop(tmp_path, monkeypatch):
     loop_oserror_raised = [False]
 
     def fake_stat(self, *args, **kwargs):
-        # Raise OSError only when called from improve_watcher.py line 95 (loop body stat)
+        # Raise OSError only when called from improve_watcher.py loop body stat
         stack = traceback.extract_stack()
         for frame in stack:
-            if "improve_watcher" in frame.filename and frame.lineno == 95:
+            if "improve_watcher" in frame.filename and frame.lineno == 107:
                 if not loop_oserror_raised[0]:
                     loop_oserror_raised[0] = True
                     raise OSError("no access in loop")
@@ -636,10 +636,10 @@ def test_watch_polling_oserror_on_init_directly(tmp_path, monkeypatch):
     oserror_raised = [False]
 
     def fake_stat(self, *args, **kwargs):
-        # Raise OSError only when called from improve_watcher.py line 82 (init stat)
+        # Raise OSError only when called from improve_watcher.py init stat call
         stack = traceback.extract_stack()
         for frame in stack:
-            if "improve_watcher" in frame.filename and frame.lineno == 82:
+            if "improve_watcher" in frame.filename and frame.lineno == 94:
                 if not oserror_raised[0]:
                     oserror_raised[0] = True
                     raise OSError("init stat error")

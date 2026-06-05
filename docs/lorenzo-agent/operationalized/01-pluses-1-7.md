@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Плюсы 1–7: feasibility, flywheel, independent value, mission alignment, collaborators, pattern validation, Анастасия Бутова
 
 <!-- toc-auto -->

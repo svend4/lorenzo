@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Уровень 1 — Минимальный (Lorenzo Zero)
 
 <!-- toc-auto -->

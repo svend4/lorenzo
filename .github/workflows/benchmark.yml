@@ -14,9 +14,14 @@ on:
       - "docs-toolkit/bench/**"
   workflow_dispatch:
 
+concurrency:
+  group: benchmarks-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   bench:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -48,7 +53,7 @@ jobs:
         run: |
           # Если history.jsonl есть от main → compare
           if [ -f bench/history.jsonl ]; then
-            python -m bench.runner --suite embeddings search graph cluster jobs --compare 0 --threshold 50
+            python -m bench.runner --suite embeddings search graph cluster jobs ask_features helpers --compare 0 --threshold 50
           else
             echo "ℹ️  No baseline yet, skipping regression check"
           fi

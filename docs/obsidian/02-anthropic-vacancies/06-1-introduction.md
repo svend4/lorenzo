@@ -2,8 +2,9 @@
 title: "1. Introduction"
 tags:
   - collaboration
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 1. Introduction
@@ -37,10 +38,13 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла 
+> 🔧 Подход: Homogenization: разные
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, rag -->
 
 
 

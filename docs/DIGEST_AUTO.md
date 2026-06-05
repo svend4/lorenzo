@@ -1,19 +1,19 @@
 # Автодайджест изменений
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
 
 <!-- alert-added -->
 
 <!-- summary -->
-> _Период: 2026-05-05 — 2026-05-12 (7 дней)_
+> _Период: 2026-05-07 — 2026-05-14 (7 дней)_
 **Проекты:** Svyazi
 
 ---
 
 
 
-_Период: 2026-05-05 — 2026-05-12 (7 дней)_
+_Период: 2026-05-07 — 2026-05-14 (7 дней)_
 
 ---
 
@@ -21,102 +21,84 @@ _Период: 2026-05-05 — 2026-05-12 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **229** |
+| Коммитов | **67** |
 | Новых файлов | **20** |
-| Изменённых файлов | **20** |
-| Слов добавлено | **+6,098,733** |
-| Слов удалено | **−2,865,763** |
+| Изменённых файлов | **0** |
+| Слов добавлено | **+1,218,323** |
+| Слов удалено | **−1,281,641** |
 
 ## Активность по секциям
 
 | Секция | Изменений |
 |--------|-----------|
-| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 1833 |
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 2048 |
 | `obsidian` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 379 |
 | `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
 | `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 225 |
+| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 218 |
 | `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
-| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 72 |
 | `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
 | `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 60 |
 
 ## Последние коммиты
 
-- `2026-05-12` [6164dc5f] ci: retrigger tests after runpy slow-test fixes
-- `2026-05-12` [f090a413] chore: update generated docs artifacts from local script runs
-- `2026-05-12` [08689e53] fix(tests): prevent runpy tests from scanning all 2497 real docs files
-- `2026-05-12` [8af64f0e] ci: add pytest-timeout and capture test output for diagnostics
-- `2026-05-12` [ec6018f8] test(backlinks): cover __main__ block (line 136) via runpy
-- `2026-05-12` [afc39fc3] fix: mock subprocess in tests that call long-running scripts
-- `2026-05-12` [dfe8f85b] test: add coverage improvements + CI debug output
-- `2026-05-12` [2f2c40df] fix: don't re-raise ImportError when streamlit is missing in review_qu
-- `2026-05-12` [85732f55] fix: raise ImportError instead of sys.exit in improve_ann_index.py
-- `2026-05-12` [d7701f57] test: boost coverage to 97-100% for 6 more scripts
+- `2026-05-13` [3f67a595] feat: Iteration 15 — CI Quality Gate + Multi-Query + Feedback Loop
+- `2026-05-13` [9a5107a0] feat: Iteration 14 — Search Boost + Digest + Snapshot + Contact Drafts
+- `2026-05-13` [5524f21e] feat: Iteration 13 — ANN Index + Query Analytics + Hot Cards
+- `2026-05-13` [00610ac4] feat: Iteration 12 — PageRank-Boosted Search
+- `2026-05-13` [b240647c] feat: Iteration 11 — Knowledge Graph + Skill Metrics
+- `2026-05-13` [11edba6f] feat: Iteration 10 — Summary Extender + 1005 Approved
+- `2026-05-13` [47cf2b2b] feat: Iteration 9 — Progressive Summarize + SSE Streaming
+- `2026-05-13` [04651832] chore: commit auto-summarize state changes across docs
+- `2026-05-13` [b79ec908] feat: Iteration 8 — Auto-Summarize + Promote Lift
+- `2026-05-13` [53f64dee] feat: Iteration 7 — Production Hardening
 
 ## Новые файлы
 
-- [`LLM_GAPS.md`](LLM_GAPS.md) — `LLM_GAPS.md`
-- [`qa_cache.json`](qa_cache.json) — `qa_cache.json`
-- `test_extract_mhtml.py` — `root`
-- `test_mcp_contacts_server.py` — `root`
-- `test_mcp_embed_server.py` — `root`
-- `test_mcp_export_server.py` — `root`
-- `test_mcp_graph_server.py` — `root`
-- `test_mcp_llm_server.py` — `root`
-- `test_mcp_ops_server.py` — `root`
-- `test_mcp_runner_server.py` — `root`
-- `test_mcp_search_server.py` — `root`
-- `test_mcp_skills_server.py` — `root`
-- `test_mcp_templates_server.py` — `root`
-- `test_mcp_watch_server.py` — `root`
-- `test_organize_docs.py` — `root`
-
-## Изменённые файлы
-
-- `CHANGELOG.md`
-- [`09-4-passport-passport-md.md`](02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [`139-2-the-double-triangle-architecture.md`](02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
-- [`149-appendix-b-summary-of-contributions.md`](02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
-- [`319-acknowledgments.md`](02-anthropic-vacancies/319-acknowledgments.md)
-- [`65-readme-md.md`](02-anthropic-vacancies/65-readme-md.md)
-- [`98-appendix-a-minimal-working-example.md`](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
-- [`ACTION_ITEMS.md`](ACTION_ITEMS.md)
-- [`ALERTS.md`](ALERTS.md)
-- [`AUTHORS.md`](AUTHORS.md)
-- [`BACKLINKS.md`](BACKLINKS.md)
-- [`BADGES.md`](BADGES.md)
-- [`BROKEN_LINKS.md`](BROKEN_LINKS.md)
-- [`CHANGELOG.md`](CHANGELOG.md)
-- [`CHANGELOG_AUTO.md`](CHANGELOG_AUTO.md)
+- [`FEEDBACK_LOOP.md`](FEEDBACK_LOOP.md) — `FEEDBACK_LOOP.md`
+- `improve_feedback_loop.py` — `Скрипты`
+- `improve_multi_query.py` — `Скрипты`
+- [`KNOWLEDGE_SNAPSHOT.md`](KNOWLEDGE_SNAPSHOT.md) — `KNOWLEDGE_SNAPSHOT.md`
+- [`AnastasiyaW_draft.md`](contacts/AnastasiyaW_draft.md) — `Контакты`
+- [`Antipozitive_draft.md`](contacts/Antipozitive_draft.md) — `Контакты`
+- [`Cutcode_draft.md`](contacts/Cutcode_draft.md) — `Контакты`
+- [`Dmitriila_draft.md`](contacts/Dmitriila_draft.md) — `Контакты`
+- [`MiXaiLL76_draft.md`](contacts/MiXaiLL76_draft.md) — `Контакты`
+- [`Sonia_Black_draft.md`](contacts/Sonia_Black_draft.md) — `Контакты`
+- [`VitaliySemenov_draft.md`](contacts/VitaliySemenov_draft.md) — `Контакты`
+- [`VitalyOborin_draft.md`](contacts/VitalyOborin_draft.md) — `Контакты`
+- [`VladSpace_draft.md`](contacts/VladSpace_draft.md) — `Контакты`
+- [`andrey_chuyan_draft.md`](contacts/andrey_chuyan_draft.md) — `Контакты`
+- [`kksudo_draft.md`](contacts/kksudo_draft.md) — `Контакты`
 
 ## Ключевые слова изменений
 
 | Слово | Добавлено | Удалено |
 |-------|-----------|---------|
-| `anthropic` | +116563 | −81808 |
-| `vacancies` | +90423 | −67340 |
-| `nautilus` | +68327 | −24411 |
-| `obsidian` | +53683 | −9516 |
-| `agent` | +49311 | −21395 |
-| `документ` | +46970 | −4457 |
-| `readme` | +41302 | −8754 |
-| `heading` | +38835 | −8981 |
-| `использование` | +38602 | −170 |
-| `svyazi` | +36645 | −21855 |
-| `code` | +34910 | −9825 |
-| `смотрите` | +34757 | −6081 |
-| `также` | +34733 | −6395 |
-| `быстро` | +33807 | −10078 |
-| `документы` | +32985 | −8610 |
+| `anthropic` | +48250 | −27423 |
+| `vacancies` | +42366 | −19305 |
+| `from` | +19327 | −959 |
+| `nautilus` | +14763 | −13600 |
+| `obsidian` | +11784 | −11774 |
+| `readme` | +11440 | −9688 |
+| `svyazi` | +10916 | −11459 |
+| `agent` | +10681 | −10484 |
+| `документ` | +9571 | −11941 |
+| `lorenzo` | +7987 | −9283 |
+| `habr` | +6540 | −5796 |
+| `projects` | +5216 | −6270 |
+| `репозитория` | +5133 | −7846 |
+| `combinations` | +4990 | −3881 |
+| `lastmod` | +4964 | −4960 |
 
 ## Новые концепты
 
 _Слова появившиеся в этом периоде (≥3 раза):_
 
-`данный`, `вошли`, `разделения`, `заменяем`, `тестируем`, `индексирован`, `актуальной`, `статистики`, `деталям`, `индексированы`, `соблюдению`, `обзорный`, `погружением`, `коллективного`, `исследов`
+`jurisdictio`, `foundat`, `isolati`, `managi`, `impo`, `infrastructu`, `conf`, `specif`, `deve`, `shar`, `archit`, `sequentially`, `конс`, `взаимодополняющие`, `enve`
 
 ---
-_Дайджест сгенерирован автоматически: 2026-05-12_
+_Дайджест сгенерирован автоматически: 2026-05-14_
 
 
 <!-- see-also -->
@@ -124,9 +106,9 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 ---
 
 **Смотрите также:**
-- [DIGEST](DIGEST.md)
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [HEALTH](HEALTH.md)
+- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)
 
 
@@ -134,14 +116,14 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 
 ---
 
-**Кто ссылается на этот документ (26):**
-- [ABBREVIATIONS](ABBREVIATIONS.md)
+**Кто ссылается на этот документ (29):**
 - [DIGEST](DIGEST.md)
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
-- [HEADING_AUDIT](HEADING_AUDIT.md)
-- [INDEX](INDEX.md)
-- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
-- [METRICS](METRICS.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
 - [OUTLINE](OUTLINE.md)
-- _...ещё 18_
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 21_
 

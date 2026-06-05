@@ -2,8 +2,9 @@
 title: "Твои anti-patterns"
 tags:
   - rag
+  - orchestration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Твои anti-patterns
@@ -23,10 +24,10 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»
+> ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer» Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 ---
-<!-- tags: rag -->
+<!-- tags: rag, orchestration -->
 
 
 

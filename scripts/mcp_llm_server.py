@@ -24,7 +24,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from mcp_common import ROOT, build_server, run_stdio
+from mcp_common import ROOT, build_server, run_stdio, search
 
 try:
     from mcp.types import Tool
@@ -62,7 +62,36 @@ def _cache_put(key: str, value: str):
 
 
 def _check_api_key() -> str | None:
-    if not os.environ.get('ANTHROPIC_API_KEY'):
+    key = os.environ.get('ANTHROPIC_API_KEY', '')
+    # Debug: write env state to temp file
+    try:
+        debug_path = ROOT / ".claude" / "llm_debug.txt"
+        debug_path.parent.mkdir(parents=True, exist_ok=True)
+        debug_path.write_text(
+            f"key_present={bool(key)}\n"
+            f"key_prefix={key[:14] if key else 'NONE'}\n"
+            f"env_keys={sorted(os.environ.keys())}\n",
+            encoding='utf-8'
+        )
+    except Exception:
+        pass
+    # Fallback: read key from .claude.json (env dict not passed by Cowork)
+    if not key:
+        try:
+            userprofile = os.environ.get('USERPROFILE', '')
+            cfg = Path(userprofile) / '.claude.json'
+            if cfg.exists():
+                import json as _json
+                data = _json.loads(cfg.read_text(encoding='utf-8'))
+                key = (data.get('mcpServers', {})
+                           .get('lorenzo-llm', {})
+                           .get('env', {})
+                           .get('ANTHROPIC_API_KEY', ''))
+                if key and key != 'SET_YOUR_KEY_HERE':
+                    os.environ['ANTHROPIC_API_KEY'] = key
+        except Exception:
+            pass
+    if not key:
         return ("❌ ANTHROPIC_API_KEY не задан. "
                 "Установите: export ANTHROPIC_API_KEY='sk-ant-...'")
     return None
@@ -75,8 +104,11 @@ def _run(script_name: str, args: list[str], timeout: int = 180) -> str:
     script = ROOT / "scripts" / script_name
     if not script.exists():
         return f"❌ {script_name} не найден"
+    env = os.environ.copy()
+    env['PYTHONIOENCODING'] = 'utf-8'
     result = subprocess.run([sys.executable, str(script)] + args,
-                            capture_output=True, text=True, cwd=ROOT, timeout=timeout)
+                            capture_output=True, text=True, cwd=ROOT,
+                            timeout=timeout, env=env, encoding='utf-8')
     out = (result.stdout or result.stderr)[-3000:]
     return out.strip()
 
@@ -101,14 +133,55 @@ def dispatch(name: str, args: dict) -> str:
         q = args.get("question", "")
         if not q:
             return "❌ Укажите question."
+        err = _check_api_key()
+        if err:
+            return err
         key = _cache_key("qa", q)
         cached = _cache_get(key)
         if cached:
             return f"[cached]\n\n{cached}"
-        result = _run("improve_llm_qa.py", ["--question", q])
-        if "❌" not in result:
+        try:
+            import anthropic as _anthropic
+            # RAG: find relevant docs from corpus
+            search_debug = ""
+            context = ""
+            try:
+                docs = search(q, top_k=4)
+                search_debug = f"[search: {len(docs)} docs found]"
+                if docs:
+                    parts = []
+                    for d in docs:
+                        title = d.get("title") or d.get("path", "?")
+                        text = (d.get("content") or d.get("preview") or d.get("summary", ""))[:600]
+                        parts.append(f"[{title}]\n{text}")
+                    context = "\n\n---\n\n".join(parts)
+            except Exception as se:
+                search_debug = f"[search error: {type(se).__name__}: {str(se)[:100]}]"
+                context = ""
+            # Build prompt
+            if context:
+                prompt = (
+                    f"You are an assistant for the Lorenzo knowledge base (Svyazi 2.0 project, "
+                    f"AI collaboration research). Answer based on the context below.\n\n"
+                    f"Context from Lorenzo corpus:\n{context}\n\n"
+                    f"Question: {q}\n\nAnswer:"
+                )
+            else:
+                prompt = (
+                    f"You are an assistant for the Lorenzo knowledge base about Svyazi 2.0 "
+                    f"and AI collaboration projects. Answer concisely: {q}"
+                )
+            client = _anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+            msg = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=1024,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            result = msg.content[0].text
             _cache_put(key, result)
-        return result
+            return result
+        except Exception as e:
+            return f"{search_debug} | LLM error: {type(e).__name__}: {str(e)[:200]}"
 
     if name == "llm_enrich":
         section = args.get("section", "")

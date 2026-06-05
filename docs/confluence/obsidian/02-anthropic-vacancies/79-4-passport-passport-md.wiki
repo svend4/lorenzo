@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "4. Passport ({{passport.md}})"
 tags:
   * architecture
+  * memory
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 4. Passport ({{passport.md}})
@@ -41,7 +42,11 @@ h2. Contents
 
 
 
-{quote}Passport — human-readable описание Repo, расположенное в{quote}
+{quote}> ✅ Результат: Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+ 
+{quote}Pass{quote}
 
 ----
 

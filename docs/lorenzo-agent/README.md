@@ -1,9 +1,13 @@
+---
+state: normalized
+---
+
 # lorenzo-agent
 <!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> README — раздел документации проекта Lorenzo. Кто ссылается на этот документ (20):
 
 
 **Файлов:** 22

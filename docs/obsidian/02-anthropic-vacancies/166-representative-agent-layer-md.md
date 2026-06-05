@@ -2,8 +2,9 @@
 title: "REPRESENTATIVE AGENT LAYER.md"
 tags:
   - architecture
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # REPRESENTATIVE AGENT LAYER.md
@@ -20,12 +21,12 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> - [[187-слой-представительских-агентов-md]] (сходство 0.33)
+> - [[187-слой-представительских-агентов-md]] (сходство 0.33) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 
 
-<!-- tags: architecture -->
+<!-- tags: architecture, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

@@ -5,7 +5,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Abstract
@@ -41,7 +41,11 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> Building on the Representative Agent Layer paper, we observe
+> * Each type serves a different need, has different economics, requires different governance, and proceeds at a different. * We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to
+first production deployment of foundation-funded AI
+infrastructure, with Representative Agents as a second-phase
+extension once professionals have integrated AI partners into
+their daily work.
 
 ---
 <!-- tags: rag, architecture, roadmap -->

@@ -2,8 +2,9 @@
 title: "Abstract"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Abstract
@@ -28,14 +29,14 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. The Nautilus Portal Protocol (далее — NPP) определяет способ федерации
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The Nautilus Portal Protocol (далее — NPP) определяет способ федерации
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 
 

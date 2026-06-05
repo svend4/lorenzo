@@ -1,5 +1,7 @@
 # Поисковый индекс
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > Индекс **2498** документов, **2,335,998** слов
 
@@ -2547,3 +2549,54 @@
 - [SOURCE_MAP](SOURCE_MAP.md)
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_search.py
+```
+```bash
+# Вариант 2
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 9
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 10
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 11
+python scripts/improve_search.py --dry-run
+```
+```bash
+# Вариант 12
+python scripts/improve_search.py --dry-run
+```

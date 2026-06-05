@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-05-13",
+    "total_docs": 1285,
+    "cards_raw": 51,
+    "cards_normalized": 109,
+    "cards_approved": 1005,
+    "cards_decayed": 0,
+    "promote_rate": 95.6,
+    "proposals": 22,
+    "rfcs_total": 3,
+    "rfcs_accepted": 3,
+    "search_index": 1809,
+    "semantic_index": 1166,
+    "passages": 13070
+  }
+]

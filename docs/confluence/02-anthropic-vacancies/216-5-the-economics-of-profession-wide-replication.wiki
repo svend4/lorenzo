@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 5. The Economics of Profession-Wide Replication
 
@@ -21,8 +25,8 @@ h1. 5. The Economics of Profession-Wide Replication
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: The Economics of Profession-Wide Replication A defining feature of Professional Colleague Agents is that --- Содержание - 5.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}A defining feature of Professional Colleague Agents is that{quote}

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Что брать из info repositories — concrete recommendations
 
 <!-- toc-auto -->

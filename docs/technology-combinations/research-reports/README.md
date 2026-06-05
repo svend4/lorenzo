@@ -8,7 +8,21 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Раздел README формируется автоматически из данных репозитория. continuation-10-domains.md —
+Содержание
+ continuation-10-domains.md —  
+ sozialrecht-35-combinations.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ continuation-10-domains
+ sozialrecht-35-combinations
+ --
+Похожие док
 
 
 **Файлов:** 2

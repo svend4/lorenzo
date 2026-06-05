@@ -1,21 +1,17 @@
 # Матрица покрытия документов
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `COVERAGE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: coverage, docs -->
+
 
 <!-- summary -->
-> Условные обозначения: ✅ есть  ⬜ отсутствует
-**Проекты:** Svyazi
-
----
-<!-- tags: security, ingestion, architecture, roadmap, anthropic, collaboration -->
+> `COVERAGE` — раздел документации проекта Lorenzo.
 
 
-
-
-_Обновлено: 2026-05-12_
+_Обновлено: 2026-05-13_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -58,26 +54,33 @@ python scripts/improve_backlinks.py
 python scripts/improve_autofill.py
 ```
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [HEATMAP](HEATMAP.md)
-- [SCORING](SCORING.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
 
 <!-- backlinks -->
 
 ---
 
 **Кто ссылается на этот документ (6):**
-- [CROSS_SECTION](CROSS_SECTION.md)
-- [METRICS](METRICS.md)
+- [HEATMAP](HEATMAP.md)
 - [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SUMMARIES](SUMMARIES.md)
+- [STALENESS](STALENESS.md)
+- [SCORING](SCORING.md)
+- [SCHEDULE](SCHEDULE.md)
 

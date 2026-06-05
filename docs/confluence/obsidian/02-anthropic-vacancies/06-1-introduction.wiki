@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/06-1-introduction.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "1. Introduction"
 tags:
   * collaboration
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 1. Introduction
@@ -42,7 +43,10 @@ h2. Contents
 
 
 
-{quote}Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,{quote}
+{quote}> Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла {quote}
+{quote}🔧 Подход: Homogenization: разные{quote}
 
 ----
 

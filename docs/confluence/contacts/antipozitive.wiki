@@ -1,9 +1,10 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/antipozitive.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "Antipozitive"
@@ -35,7 +36,17 @@ h2. Contents
 
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Контакт: Antipozitive / MemNet Упомянут в документах | 3 файлах | Платформа | Habr / GitHub |{quote}
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
 _Проекты:_ Svyazi, MemNet
 
 ----

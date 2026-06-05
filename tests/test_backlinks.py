@@ -237,6 +237,12 @@ def test_main_skips_skip_named_target(tmp_path, monkeypatch):
     assert mod.MARKER not in content
 
 
+def test_skip_includes_catalog_files():
+    """SCRIPTS_CATALOG.md, REGISTRY.md, TASKS_INDEX.md must be in SKIP to prevent catalog-fresh CI failures."""
+    for fname in ("SCRIPTS_CATALOG.md", "REGISTRY.md", "TASKS_INDEX.md"):
+        assert fname in mod.SKIP, f"{fname} must be in SKIP to prevent catalog-fresh CI failures"
+
+
 def test_main_many_sources_shows_ellipsis(tmp_path, monkeypatch):
     """Line 121: more than 8 sources → '...ещё N' appended to block."""
     monkeypatch.setattr(mod, "DOCS", tmp_path)

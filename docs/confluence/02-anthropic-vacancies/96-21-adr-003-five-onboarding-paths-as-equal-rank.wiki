@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 21. ADR-003: Five Onboarding Paths as Equal-Rank
 
@@ -21,7 +25,13 @@ h2. Contents
 
 
 
-{quote}_Status_: Accepted (new in v1.1){quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. ADR-003: Five Onboarding Paths as Equal-Rank Кто ссылается на этот документ (6){quote}
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (6)
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования.{quote}
 
 ----
 

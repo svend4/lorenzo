@@ -58,6 +58,7 @@ NAV = """
   <a href="/docs">📚 Docs</a>
   <a href="/templates">📝 Templates</a>
   <a href="/search">🔍 Search</a>
+  <a href="/faceted">🗂 Faceted</a>
   <a href="/rag">🤖 RAG</a>
   <a href="/graph">🌐 Graph</a>
   <a href="/api/health">💚 Health (JSON)</a>
@@ -154,6 +155,22 @@ class DocsHandler(http.server.BaseHTTPRequestHandler):
                     params.get("answerer", ["echo"])[0],
                     int(params.get("top_k", ["5"])[0]),
                 )
+            elif path == "/faceted":
+                q = params.get("q", [""])[0]
+                section = params.get("section", [""])[0]
+                lang = params.get("lang", [""])[0]
+                tags = params.get("tags", [""])[0]
+                self._send(200, self._render_faceted_ui(q, section, lang, tags))
+            elif path == "/api/faceted":
+                q = params.get("q", [""])[0]
+                section = params.get("section", [""])[0]
+                lang = params.get("lang", [""])[0]
+                tags = params.get("tags", [""])[0]
+                docs = self._load_search_index()
+                results = _faceted_search(docs, q, section=section, lang=lang, tags=tags)
+                self._send_json({"query": q, "section": section, "lang": lang,
+                                 "tags": tags, "results": results,
+                                 "total": len(results)})
             elif path == "/metrics":
                 # Prometheus exposition format
                 try:
@@ -162,6 +179,37 @@ class DocsHandler(http.server.BaseHTTPRequestHandler):
                                "text/plain; version=0.0.4")
                 except ImportError:
                     self._send(503, "telemetry not available", "text/plain")
+            # ---------------- Sprint 54-92 feature endpoints ----------------
+            elif path == "/api/ask":
+                # Full-featured RAG via rag.ask(); accepts any subset of
+                # kwargs (with_facets, with_provenance, self_rag, etc.) as
+                # query strings. Boolean params accept "1"/"true"/"on".
+                self._send_json(_api_ask(params))
+            elif path == "/api/eval/dashboard":
+                # HTML dashboard from continuous online eval data
+                self._send(200, _api_eval_dashboard(params),
+                           "text/html; charset=utf-8")
+            elif path == "/api/saved":
+                # List saved queries
+                self._send_json(_api_saved_list(params))
+            elif path == "/api/voice":
+                # N4 epistemic profile of a text snippet
+                self._send_json(_api_voice(params))
+            elif path == "/api/assets":
+                # M8 multi-modal asset search
+                self._send_json(_api_assets(params))
+            elif path == "/api/taxonomy":
+                # N7 self-organising taxonomy over retrieved docs
+                self._send_json(_api_taxonomy(params))
+            elif path == "/api/diff":
+                # S5 bulk diff between two commits
+                self._send_json(_api_diff(params))
+            elif path == "/api/kg":
+                # M1 KG stats / direct entity-based retrieval
+                self._send_json(_api_kg(params))
+            elif path == "/api/profile":
+                # S6 user profile load/save
+                self._send_json(_api_profile(params))
             else:
                 self._send(404, _wrap_html("404", "<h1>404 Not Found</h1>"))
         except Exception as e:
@@ -710,6 +758,186 @@ loadGraph();
                 "stats": g.stats()}
 
 
+    def _render_faceted_ui(self, q: str, section: str = "",
+                           lang: str = "", tags: str = "") -> str:
+        """Рендер HTML-страницы фасетного поиска."""
+        docs = self._load_search_index()
+
+        # Собрать уникальные секции из paths
+        sections: list[str] = sorted({
+            d.get("path", "").split("/")[0]
+            for d in docs
+            if d.get("path", "") and "/" in d.get("path", "")
+        })
+
+        # Собрать топ-20 тегов из frontmatter
+        tag_counter: dict[str, int] = {}
+        for d in docs:
+            for t in d.get("tags", []):
+                if isinstance(t, str) and t:
+                    tag_counter[t] = tag_counter.get(t, 0) + 1
+        top_tags = sorted(tag_counter, key=lambda x: -tag_counter[x])[:20]
+
+        # Результаты
+        results = _faceted_search(docs, q, section=section, lang=lang, tags=tags) if (q or section or lang or tags) else []
+
+        # Build section options
+        section_opts = '<option value="">All sections</option>'
+        for s in sections:
+            sel = ' selected' if s == section else ''
+            section_opts += f'<option value="{_escape(s)}"{sel}>{_escape(s)}</option>'
+
+        # Build lang options
+        lang_opts = ""
+        for lv in ["", "RU", "EN", "MIX"]:
+            lbl = lv if lv else "All languages"
+            sel = ' selected' if lv == lang else ''
+            lang_opts += f'<option value="{_escape(lv)}"{sel}>{_escape(lbl)}</option>'
+
+        # Build tags checkboxes
+        selected_tags = {t.strip() for t in tags.split(",") if t.strip()}
+        tags_html = ""
+        for t in top_tags:
+            checked = ' checked' if t in selected_tags else ''
+            tags_html += (f'<label style="margin-right:0.75em">'
+                         f'<input type="checkbox" name="tags_cb" value="{_escape(t)}"{checked}> '
+                         f'<span class="tag">{_escape(t)}</span></label>')
+
+        # Results table
+        results_html = ""
+        if results:
+            rows = "".join(
+                f'<tr>'
+                f'<td><a href="/docs/{_escape(r["path"][5:] if r["path"].startswith("docs/") else r["path"])}">'
+                f'{_escape(r["title"] or r["path"])}</a></td>'
+                f'<td><code>{_escape(r.get("section", ""))}</code></td>'
+                f'<td>{r.get("score", 0):.3f}</td>'
+                f'<td>{r.get("word_count", 0)}</td>'
+                f'<td>{"".join(f"<span class=tag>{_escape(t)}</span>" for t in r.get("tags", []))}</td>'
+                f'</tr>'
+                for r in results
+            )
+            results_html = (
+                f'<p>Найдено: {len(results)}</p>'
+                f'<table><tr><th>Title</th><th>Section</th><th>Score</th>'
+                f'<th>Words</th><th>Tags</th></tr>{rows}</table>'
+            )
+        elif q or section or lang or tags:
+            results_html = "<p>Ничего не найдено.</p>"
+
+        body = f"""
+<h1>🗂 Faceted Search</h1>
+<form action="/faceted" method="get" id="faceted-form">
+  <div style="margin-bottom:0.75em">
+    <input name="q" placeholder="Text query..." value="{_escape(q)}"
+           style="width:50%" autofocus>
+    <select name="section" style="margin-left:0.5em">{section_opts}</select>
+    <select name="lang" style="margin-left:0.5em">{lang_opts}</select>
+    <button style="margin-left:0.5em">Search</button>
+    <a href="/api/faceted?q={urllib.parse.quote(q)}&amp;section={urllib.parse.quote(section)}&amp;lang={urllib.parse.quote(lang)}&amp;tags={urllib.parse.quote(tags)}"
+       style="margin-left:1em">JSON</a>
+  </div>
+  <div style="margin-bottom:1em">
+    <strong>Tags:</strong>&nbsp;{tags_html if tags_html else "<em>no tags in index</em>"}
+  </div>
+  <input type="hidden" name="tags" id="tags-hidden" value="{_escape(tags)}">
+</form>
+<script>
+// Sync checkboxes to hidden tags input
+document.getElementById('faceted-form').addEventListener('submit', function() {{
+  var checked = Array.from(document.querySelectorAll('[name=tags_cb]:checked')).map(e => e.value);
+  document.getElementById('tags-hidden').value = checked.join(',');
+}});
+</script>
+<hr>
+{results_html}
+"""
+        return _wrap_html("Faceted Search", body)
+
+
+def _faceted_search(
+    docs: list[dict],
+    q: str,
+    section: str = "",
+    lang: str = "",
+    tags: str = "",
+) -> list[dict]:
+    """Фасетный поиск: фильтрация + TF-IDF ранжирование по запросу.
+
+    Args:
+        docs: список записей из search_index.json
+        q: текстовый запрос
+        section: фильтр по первой части пути (e.g. "docs")
+        lang: фильтр по языку (RU / EN / MIX / "")
+        tags: строка тегов через запятую
+
+    Returns:
+        Список dict с полями: title, path, section, score, word_count, tags
+    """
+    # Normalize tag filter
+    tag_set = {t.strip().lower() for t in tags.split(",") if t.strip()}
+
+    # Step 1: filter
+    filtered: list[dict] = []
+    for d in docs:
+        path = d.get("path", "")
+        # section filter: match first path component
+        if section:
+            parts = path.split("/")
+            doc_section = parts[0] if parts else ""
+            if doc_section != section:
+                continue
+        # language filter
+        if lang:
+            doc_lang = (d.get("lang") or d.get("language") or "").upper()
+            if doc_lang != lang.upper():
+                continue
+        # tags filter
+        if tag_set:
+            doc_tags = {t.lower() for t in d.get("tags", []) if isinstance(t, str)}
+            if not tag_set.intersection(doc_tags):
+                continue
+        filtered.append(d)
+
+    # Step 2: score by query (simple TF-IDF approximation: term frequency in content)
+    q_lower = q.lower().strip()
+    q_terms = q_lower.split() if q_lower else []
+
+    def _score(d: dict) -> float:
+        if not q_terms:
+            return 0.0
+        text = " ".join([
+            d.get("title", "") * 3,  # title weight ×3 (repeat)
+            d.get("content", ""),
+            d.get("preview", ""),
+        ]).lower()
+        total = len(text.split()) or 1
+        tf = sum(text.count(t) for t in q_terms)
+        return tf / total
+
+    # Step 3: build result records
+    scored: list[dict] = []
+    for d in filtered:
+        score = _score(d)
+        if q_terms and score == 0.0:
+            continue
+        path = d.get("path", "")
+        parts = path.split("/")
+        doc_section = parts[0] if len(parts) > 1 else ""
+        scored.append({
+            "title": d.get("title", ""),
+            "path": path,
+            "section": doc_section,
+            "score": score,
+            "word_count": d.get("word_count") or len((d.get("content") or "").split()),
+            "tags": [t for t in d.get("tags", []) if isinstance(t, str)],
+        })
+
+    # Sort: by score desc, then title
+    scored.sort(key=lambda x: (-x["score"], x["title"]))
+    return scored[:50]
+
+
 def _md_to_html(md: str) -> str:
     """Минимальный markdown → html для preview."""
     html_lines = []
@@ -768,3 +996,229 @@ def serve(port: int = 8000, bind: str = "127.0.0.1"):
             httpd.serve_forever()
         except KeyboardInterrupt:
             print("\n👋 Остановлено")
+
+
+# ---------------------------------------------------------------------------
+# Sprint 54-92 endpoint implementations
+# ---------------------------------------------------------------------------
+
+
+def _qbool(params: dict, key: str, default: bool = False) -> bool:
+    raw = params.get(key, [""])[0].lower()
+    if not raw:
+        return default
+    return raw in ("1", "true", "yes", "on")
+
+
+def _qint(params: dict, key: str, default: int) -> int:
+    try:
+        return int(params.get(key, [str(default)])[0])
+    except (ValueError, TypeError):
+        return default
+
+
+def _qstr(params: dict, key: str, default: str = "") -> str:
+    return params.get(key, [default])[0]
+
+
+def _api_ask(params: dict) -> dict:
+    """Full-featured RAG via rag.ask() — every kwarg exposed as query string."""
+    from docstoolkit.rag import ask
+
+    q = _qstr(params, "q")
+    if not q:
+        return {"error": "missing q parameter"}
+
+    kwargs = {
+        "top_k":            _qint(params, "top_k", 5),
+        "method":           _qstr(params, "method", "hybrid"),
+        "answerer":         _qstr(params, "answerer", "echo"),
+        "user_id":          _qstr(params, "user_id"),
+        "with_facets":      _qbool(params, "with_facets"),
+        "with_provenance":  _qbool(params, "with_provenance"),
+        "self_rag":         _qbool(params, "self_rag"),
+        "auto_intent":      _qbool(params, "auto_intent"),
+        "hierarchical":     _qbool(params, "hierarchical"),
+        "with_debate":      _qbool(params, "with_debate"),
+        "with_mapreduce":   _qbool(params, "with_mapreduce"),
+        "with_got":         _qbool(params, "with_got"),
+        "with_negotiation": _qbool(params, "with_negotiation"),
+        "at_commit":        _qstr(params, "at_commit"),
+    }
+    # Filters via simple "field:value,field2:value2" form
+    raw_filters = _qstr(params, "filters")
+    if raw_filters:
+        flt: dict[str, str] = {}
+        for part in raw_filters.split(","):
+            if ":" in part:
+                k, v = part.split(":", 1)
+                flt[k.strip()] = v.strip()
+        kwargs["filters"] = flt
+
+    try:
+        r = ask(q, **kwargs)
+    except Exception as e:
+        return {"error": str(e)}
+
+    out = {
+        "query": q,
+        "answer": r.answer,
+        "duration_ms": r.duration_ms,
+        "passages": [
+            {"doc_id": p.doc_id, "title": p.title, "score": p.score}
+            for p in r.retrieved_passages
+        ],
+        "citations": r.citations,
+    }
+    if r.facets:
+        out["facets"] = [a.to_dict() for a in r.facets]
+    if r.provenance is not None:
+        try:
+            out["provenance"] = {
+                "overall_confidence": r.provenance.overall_confidence,
+                "n_claims": len(r.provenance.claims),
+            }
+        except Exception:
+            pass
+    if r.got_result is not None:
+        try:
+            out["got"] = {
+                "final_answer": r.got_result.final_answer,
+                "confirmed": r.got_result.confirmed_count,
+                "refuted": r.got_result.refuted_count,
+            }
+        except Exception:
+            pass
+    if r.at_commit:
+        out["at_commit"] = r.at_commit
+    # Phase III.3 — opt-in composition trace via ?trace=1
+    if _qbool(params, "trace") and r.trace:
+        out["trace"] = [
+            {"stage": ev.stage,
+             "t_ms": round(ev.t_ms, 4),
+             "payload": ev.payload}
+            for ev in r.trace
+        ]
+    return out
+
+
+def _api_eval_dashboard(params: dict) -> str:
+    from docstoolkit.online_eval import OnlineEvalStore, render_dashboard
+    days = _qint(params, "days", 7)
+    store = OnlineEvalStore()
+    try:
+        return render_dashboard(store, window_days=days)
+    finally:
+        store.close()
+
+
+def _api_saved_list(params: dict) -> dict:
+    from docstoolkit.rag.saved import list_queries
+    owner = _qstr(params, "owner")
+    qs = list_queries(owner=owner)
+    return {
+        "owner": owner,
+        "queries": [
+            {"id": q.id, "query": q.query, "owner": q.owner,
+             "schedule": q.schedule, "top_k": q.top_k}
+            for q in qs
+        ],
+        "total": len(qs),
+    }
+
+
+def _api_voice(params: dict) -> dict:
+    from docstoolkit.rag.advanced import measure_voice
+    text = _qstr(params, "text")
+    if not text:
+        return {"error": "missing text parameter"}
+    return {"text_length": len(text), "voice": measure_voice(text)}
+
+
+def _api_assets(params: dict) -> dict:
+    from docstoolkit.rag.advanced import search_assets
+    q = _qstr(params, "q")
+    asset_type = _qstr(params, "type")
+    tag = _qstr(params, "tag")
+    assets = search_assets(q, asset_type=asset_type, tag=tag)
+    return {"query": q, "type": asset_type, "tag": tag,
+            "assets": assets, "total": len(assets)}
+
+
+def _api_taxonomy(params: dict) -> dict:
+    from docstoolkit.rag.advanced import build_taxonomy_ask
+    q = _qstr(params, "q")
+    if not q:
+        return {"error": "missing q parameter"}
+    levels = _qint(params, "levels", 3)
+    top_k = _qint(params, "top_k", 25)
+    return build_taxonomy_ask(q, top_k=top_k, levels=levels)
+
+
+def _api_diff(params: dict) -> dict:
+    """Bulk diff between two git commits within the active docs_dir."""
+    from pathlib import Path as _P
+    from docstoolkit.rag.bulk_diff import diff_commits, diff_since_days
+
+    days = params.get("days", [""])[0]
+    a = _qstr(params, "from")
+    b = _qstr(params, "to", "HEAD")
+    docs_dir = getattr(DocsHandler.cfg, "docs_dir", _P("docs"))
+    try:
+        if days:
+            res = diff_since_days(docs_dir, int(days))
+        elif a and b:
+            res = diff_commits(docs_dir, a, b)
+        else:
+            return {"error": "specify from+to or days parameter"}
+    except Exception as e:
+        return {"error": str(e)}
+    return {
+        "added": res.added,
+        "removed": res.removed,
+        "modified": res.modified,
+        "total_changes": res.total_changes,
+    }
+
+
+def _api_kg(params: dict) -> dict:
+    """KG stats and entity-based search."""
+    from docstoolkit.knowledge_graph import KGRetriever
+
+    kgr = KGRetriever()
+    q = _qstr(params, "q")
+    if q:
+        hits = kgr.search(q, top_k=_qint(params, "top_k", 5))
+        return {
+            "query": q,
+            "stats": kgr.stats(),
+            "passages": [
+                {"doc_id": p.doc_id, "title": p.title, "score": p.score}
+                for p in hits
+            ],
+        }
+    return {"stats": kgr.stats()}
+
+
+def _api_profile(params: dict) -> dict:
+    """Load or list user profiles."""
+    from docstoolkit.conversation.profile import ProfileStore
+
+    store = ProfileStore()
+    try:
+        user_id = _qstr(params, "user_id")
+        if user_id:
+            p = store.load(user_id)
+            if p is None:
+                return {"user_id": user_id, "exists": False}
+            return {
+                "user_id": p.user_id,
+                "exists": True,
+                "interests": p.interests,
+                "preferred_sections": p.preferred_sections,
+                "preferred_retriever": p.preferred_retriever,
+                "read_docs_count": len(p.read_docs),
+            }
+        return {"users": store.list_users()}
+    finally:
+        store.close()

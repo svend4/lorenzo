@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/52-author-contact.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Author & Contact"
 tags:
   * collaboration
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Author & Contact
@@ -33,8 +34,20 @@ h2. Contents
 
 
 
-
+{quote}Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10) Рекомендуется читать перед погружением в детали. Contributors: svend4 + claude (Claude Code агент, ранние{quote}
+ 
+Contents
+ Author & Contact
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (10)
 {quote}[!TIP]{quote}
+{quote}Документ содержит практические рек{quote}
 {quote}Обзорный документ. Рекомендуется читать перед погружением в детали.{quote}
 
 {quote}_Contributors:_ svend4 + claude (Claude Code агент, ранние{quote}

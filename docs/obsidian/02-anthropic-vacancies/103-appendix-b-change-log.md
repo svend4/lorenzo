@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Appendix B: Change Log
@@ -31,8 +31,8 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. New: Q6 as normative concept (section 8, ADR-002) New: Q6 as normative concept (section 8, ADR-002)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **New**: Q6 as normative concept (section 8, ADR-002)

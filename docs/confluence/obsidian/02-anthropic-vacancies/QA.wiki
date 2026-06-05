@@ -1,23 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/QA.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Q&A: 02-anthropic-vacancies"
 tags:
-  * memory
-  * rag
-  * orchestration
-  * security
-  * knowledge
-  * ingestion
-  * architecture
-  * roadmap
-  * anthropic
-  * collaboration
+  * qa
+  * docs
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Q&A: 02-anthropic-vacancies
@@ -30,13 +22,25 @@ h1. Q&A: 02-anthropic-vacancies
 
 
 
-{quote}_Автоматически сгенерировано по 355 файлам раздела._{quote}
-_Проекты:_ CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
-
-----
 
 
-
+{quote}Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 355 файлам раздела._{quote}
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
@@ -47,7 +51,15 @@ h2. Какие 5 архитектурных зазоров выделены в �
 
 h2. Что входит в интеграционный контракт между слоями?
 
-Упоминаются: _card envelope_, _Evidence Envelope_, _memory write_, _skill policy_, _review record_
+Упоминаются: _card envelope_, _evidence envelope_, _memory write_, _skill policy_, _review record_
+
+h2. Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: _research_, _gtm_, _trust & safety_, _inference_, _product_
+
+h2. Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: _forward deployed_, _research engineer_, _developer community_
 
 h2. Какие кластеры найма выделены у Anthropic?
 
@@ -79,7 +91,7 @@ h2. Как реализован forensic RAG с доказуемостью?
 
 h2. Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: _Evidence Envelope_, _source_id_, _page_, _span_
+Упоминаются: _evidence envelope_, _source_id_, _page_, _span_
 
 h2. Какие RAG-подходы сравниваются в документах?
 
@@ -134,6 +146,20 @@ h2. Как CardIndex хранит и версионирует карточки?
 Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
 
 
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+
+
 
 ----
 
@@ -144,21 +170,4 @@ _Кто ссылается на этот документ (6):_
 * [[READING_TIME]]
 * [[SEARCH]]
 * [[TABLES]]
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_qa.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [[QA]] (сходство 0.99)
-* [[QA]] (сходство 0.82)
-* [[QA]] (сходство 0.81)
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Сходство 1: Composite Skills паттерн уже встроен
 
 <!-- toc-auto -->

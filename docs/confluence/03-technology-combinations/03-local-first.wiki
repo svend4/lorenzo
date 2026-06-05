@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/03-technology-combinations/03-local-first.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: approved
+----
 
 h1. Local-first и P2P стек
 
@@ -36,7 +42,17 @@ h2. Содержание
 
 
 
+{quote}_ Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B -. _ Local-first и P2P стек - Сложные архитектурные → Claude Opus Проекты: Svyazi, CardIndex, Yjs --- локальная Qwen3:8B -{quote}
+>
+ 
 {quote}- Сложные архитектурные → Claude Opus{quote}
+Проекты: Svyazi, CardIndex, Yjs
+ --
+ 
+локальная Qwen3:8B
+ Средние → облачная DeepSeek
+ Сложные архитектурные → Claude Opus
+ Роутер перед каждым агентом, не после
 _Проекты:_ Svyazi, [CardIndex|../01-svyazi/01-executive-summary.md], Yjs
 
 ----

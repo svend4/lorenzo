@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/05-habr-projects/02-collaboration-partners.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: normalized
+----
 
 h1. Авторы и контакты
 

@@ -6,7 +6,7 @@ tags:
   - roadmap
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 4. Proposed Infrastructure
@@ -27,7 +27,10 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> OKWF infrastructure consists of six interlocking layers. Each
+> > ✅ Результат: Legal and Compliance Layer What it provides: - Single contractual interface for contributors (across jurisdictions) - Tax compliance infrastructure - GDPR-compliant data handling -
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
 
 ---
 

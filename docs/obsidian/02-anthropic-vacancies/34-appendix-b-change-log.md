@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Appendix B: Change Log
@@ -36,7 +36,17 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> - **2026-04: v1.0.0-draft** — Initial draft published.
+> * Второе — раздел 11 Security Considerations, где явно обозначена проблема с приватными репо (это прямо связано с вашими. * Это важно: спецификация должна быть простой и реализуемой , а сложные алгоритмы (embeddings, semantic similarity) — от
+ 
+Содержание
+ Appendix B: Change Log
+ Комментарий к документу
+ Паспорт 1 из 3
+ --
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Второе — раздел 11 Security Considerations, где явно обозначена проблема с приватными репо (это прямо связано
 
 ---
 

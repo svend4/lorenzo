@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Question 4: Каков Lorenzo's character?
 
 <!-- toc-auto -->

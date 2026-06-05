@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix A: Minimal Working Example
 
@@ -32,8 +36,8 @@ h2. Contents
   * [A.2. Minimal Adapter|#a2-minimal-adapter]
   * [A.3. Minimal Passport|#a3-minimal-passport]
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. "adapter": "adapters/my_notes.py", _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}"adapter": "adapters/my_notes.py",{quote}

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 9. Checklist применения методологии
 
 <!-- toc-auto -->

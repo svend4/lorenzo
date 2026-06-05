@@ -2,8 +2,9 @@
 title: "13. Reference Implementation"
 tags:
   - collaboration
+  - memory
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 13. Reference Implementation
@@ -28,14 +29,14 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Reference implementation: github.com/svend4/nautilus. Reference implementation: github.com/svend4/nautilus.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > Reference implementation: `github.com/svend4/nautilus`.
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, memory -->
 
 
 

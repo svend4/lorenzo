@@ -1,27 +1,31 @@
 # Оценка читаемости документов
 
+<!-- toc-auto -->
+<!-- tags: complexity, docs -->
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 <!-- alert-added -->
 
 <!-- summary -->
-> **Файлов проанализировано:** 2476
+> **Файлов проанализировано:** 2475
 **Проекты:** Rufler, MemNet
 
 ---
 
 
 
-**Файлов проанализировано:** 2476
+**Файлов проанализировано:** 2475
 
 ## Распределение сложности
 
 | Уровень | Файлов |
 |---------|--------|
-| 🟢 Простой (0-1) | 1969 |
-| 🟡 Средний (2-3)  | 452 |
-| 🔴 Сложный (4-5)  | 55 |
+| 🟢 Простой (0-1) | 1962 |
+| 🟡 Средний (2-3)  | 457 |
+| 🔴 Сложный (4-5)  | 56 |
 
 ## Самые сложные документы
 
@@ -50,7 +54,7 @@
 | `ABBREVIATIONS` | 1155 | 115.5 | 1.39% | H2 | 🔴 Сложный |
 | `COMPONENT_MATRIX` | 559 | 56.3 | 3.94% | H2 | 🔴 Сложный |
 | `CONCEPTS` | 15045 | 442.9 | 0.58% | H2 | 🔴 Сложный |
-| `CONTACT_PRIORITY` | 278 | 27.7 | 3.6% | H3 | 🔴 Сложный |
+| `CONTACT_PRIORITY` | 255 | 42.2 | 3.92% | H3 | 🔴 Сложный |
 | `FOOTNOTES` | 236 | 39.5 | 5.51% | H2 | 🔴 Сложный |
 
 ## Самые простые документы
@@ -91,18 +95,24 @@
 - [READING_LIST](READING_LIST.md)
 
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_complexity.py
+```
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (12):**
+**Кто ссылается на этот документ (8):**
 - [108-2-формальный-workflow](02-anthropic-vacancies/108-2-формальный-workflow.md)
-- [COMPARE](COMPARE.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
 - [OUTLINE](OUTLINE.md)
-- [PASSIVE_VOICE](PASSIVE_VOICE.md)
 - [READABILITY](READABILITY.md)
 - [READING_LIST](READING_LIST.md)
 - [READING_TIME](READING_TIME.md)
-- _...ещё 4_
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

@@ -1,4 +1,5 @@
 ---
+state: approved
 template: project-component
 version: "1.0"
 author: "zodigancode"
@@ -68,7 +69,7 @@ _Обновлено: 2026-05-10_
 <!-- alert-added -->
 
 <!-- summary -->
-> tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
+> tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting] Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, Rufler, agent-memory-mcp
 
 ---
@@ -179,7 +180,7 @@ _Создано: 2026-05-10_
 ---
 
 **Похожие документы:**
-- [rufler](../../obsidian/05-habr-projects/knowledge/rufler.md) (сходство 0.94)
+- [rufler](../../svyazi-2-0/components/rufler.md) (сходство 0.94)
 - [mclaude](mclaude.md) (сходство 0.37)
-- [mclaude](../../obsidian/05-habr-projects/knowledge/mclaude.md) (сходство 0.34)
+- [mclaude](../../svyazi-2-0/components/mclaude.md) (сходство 0.34)
 

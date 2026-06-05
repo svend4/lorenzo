@@ -1,19 +1,17 @@
 # Расписание проекта
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
+<!-- toc-auto -->
 
----
-<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
-
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: schedule, docs -->
+
+
+<!-- summary -->
+> `SCHEDULE` — раздел документации проекта Lorenzo.
+
 
 _Дорожная карта с вехами и задачами по кварталам._
 
@@ -68,29 +66,36 @@ _█ = активная работа, ░ = ожидание_
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [DENSITY](DENSITY.md)
-- [PROGRESS](PROGRESS.md)
-- [SCORING](SCORING.md)
-- [HEATMAP](HEATMAP.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (10):**
-- [COST](COST.md)
+**Кто ссылается на этот документ (9):**
+- [DENSITY](DENSITY.md)
+- [HEATMAP](HEATMAP.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
-- [PROGRESS](PROGRESS.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- [SCORING](SCORING.md)
-- _...ещё 2_
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SUMMARIES](SUMMARIES.md)
+- [GRAPH](GRAPH.md)
+- [MINDMAP](MINDMAP.md)
+- [COVERAGE](COVERAGE.md)
 

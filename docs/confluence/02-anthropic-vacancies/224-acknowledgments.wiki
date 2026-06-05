@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/224-acknowledgments.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Acknowledgments
 
@@ -25,8 +29,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. This paper emerged through dialogue with Claude (Anthropic) This paper emerged through dialogue with Claude (Anthropic){quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}This paper emerged through dialogue with Claude (Anthropic){quote}

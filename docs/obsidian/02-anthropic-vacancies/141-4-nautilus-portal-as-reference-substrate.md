@@ -6,7 +6,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 4. Nautilus Portal as Reference Substrate
@@ -27,8 +27,8 @@ date: 2026-05-12
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Required Extensions to NPP for Double-Triangle While NPP v1.1 provides the substrate, three extensions are needed for full Double-Triangle support: Extension 1: Agent Registry.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > The Double-Triangle Architecture requires a substrate capable of:

@@ -1,65 +1,16 @@
 # Часто задаваемые вопросы (FAQ)
 
+<!-- toc-auto -->
+
 > [!NOTE]
 > Раздел `FAQ` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: faq, docs -->
+
 
 <!-- summary -->
-> _Извлечено: 251 вопросов и ответов_
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, agent-memory-mcp
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Архитектура](#архитектура)
-  - [Что такое MCP?](#что-такое-mcp)
-  - [Каков статус готовности MVP?](#каков-статус-готовности-mvp)
-  - [Какой вариант резонирует?](#какой-вариант-резонирует)
-  - [Что это такое?](#что-это-такое)
-  - [Q&A: 02-anthropic-vacancies > > !NOTE - Какие 5 архитектурных зазоров выделены в исследовании?](#qa-02-anthropic-vacancies-note---какие-5-архитектурных-зазоров-выделены-в-исследовании)
-  - [Q&A: 04-ai-collaborations > > !NOTE - Как реализован forensic RAG с доказуемостью?](#qa-04-ai-collaborations-note---как-реализован-forensic-rag-с-доказуемостью)
-  - [Q&A: meta-scripting > > !NOTE - Какие инструменты обеспечивают безопасность агентов?](#qa-meta-scripting-note---какие-инструменты-обеспечивают-безопасность-агентов)
-  - [Принимаем эту architecture как Lorenzo vision (с моими caveats)?](#принимаем-эту-architecture-как-lorenzo-vision-с-моими-caveats)
-- [MVP/Запуск](#mvpзапуск)
-  - [С чего начать?](#с-чего-начать)
-  - [Q&A: anthropic-vacancies > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qa-anthropic-vacancies-note---какие-кластеры-найма-выделены-у-anthropic)
-  - [Q&A: contacts > > !NOTE - Какие системы памяти описаны в этом разделе?](#qa-contacts-note---какие-системы-памяти-описаны-в-этом-разделе)
-  - [[[QA|Q&A: anthropic-vacancies]] > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qaqa-anthropic-vacancies-note---какие-кластеры-найма-выделены-у-anthropic)
-  - [[[QA|Q&A: contacts]] > > !NOTE - Какие системы памяти описаны в этом разделе?](#qaqa-contacts-note---какие-системы-памяти-описаны-в-этом-разделе)
-- [Компоненты](#компоненты)
-  - [Какова лицензия проекта?](#какова-лицензия-проекта)
-  - [Как связаться с авторами компонентов?](#как-связаться-с-авторами-компонентов)
-  - [Открытые вопросы 1. Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)?](#открытые-вопросы-1-есть-ли-публичная-документация-по-memory-os-bi-temporal-facts-gardener-loop)
-  - [Q&A: lorenzo-agent > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qa-lorenzo-agent-note---какие-кластеры-найма-выделены-у-anthropic)
-  - [[[QA|Q&A: lorenzo-agent]] > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qaqa-lorenzo-agent-note---какие-кластеры-найма-выделены-у-anthropic)
-- [Интеграция](#интеграция)
-  - [Это реализуется существующими tools?](#это-реализуется-существующими-tools)
-  - [Является ли наш Nautilus Portal Protocol still valuable? Или HMP makes it redundant?](#является-ли-наш-nautilus-portal-protocol-still-valuable-или-hmp-makes-it-redundant)
-  - [Question Set 4: Your resources 4a) Budget для setup (€500-1500 одноразовый)?](#question-set-4-your-resources-4a-budget-для-setup-500-1500-одноразовый)
-  - [Набор вопросов 4: Ваши ресурсы 4a) Бюджет для setup (€500-1500 одноразово)?](#набор-вопросов-4-ваши-ресурсы-4a-бюджет-для-setup-500-1500-одноразово)
-  - [Why "Nautilus"?](#why-nautilus)
-  - [Did creator approve final attribution?](#did-creator-approve-final-attribution)
-- [Лицензия](#лицензия)
-  - [Question 5: Каковы limits Lorenzo's authority?](#question-5-каковы-limits-lorenzos-authority)
-  - [Какой подход resonates? Integration в OKWF document, или separate short paper?](#какой-подход-resonates-integration-в-okwf-document-или-separate-short-paper)
-- [Общее](#общее)
-  - [Что такое Svyazi 2.0?](#что-такое-svyazi-20)
-  - [9.1. Перед началом (Pre-Phase A) - [ ] Документ действительно критически важен (см. §4.1)?](#91-перед-началом-pre-phase-a---документ-действительно-критически-важен-см-41)
-  - [10.3. Legal Questions What's the legal status of agent communications?](#103-legal-questions-whats-the-legal-status-of-agent-communications)
-  - [10.4. Social Questions Will representative agents reduce or increase inequality?](#104-social-questions-will-representative-agents-reduce-or-increase-inequality)
-  - [How do we ensure access for those who cannot pay?](#how-do-we-ensure-access-for-those-who-cannot-pay)
-  - [What's the legal status of agent communications?](#whats-the-legal-status-of-agent-communications)
-  - [10.3. Правовые Вопросы Каков правовой статус коммуникаций агента? Они обязательны для принципала?](#103-правовые-вопросы-каков-правовой-статус-коммуникаций-агента-они-обязательны-для-принципала)
-  - [10.4. Социальные Вопросы Снизят ли представительские агенты или увеличат неравенство?](#104-социальные-вопросы-снизят-ли-представительские-агенты-или-увеличат-неравенство)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, collaboration -->
-
-
+> `FAQ` — раздел документации проекта Lorenzo.
 
 
 _Извлечено: 251 вопросов и ответов_
@@ -83,7 +34,7 @@ _→ [248-приложение-c-архитектура-быстрого-ста�
 
 ### Что это такое?
 
-**Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **100% 🟢 GO** (документация и архитектура).
+**Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **96% 🟢 GO** (документация и архитектура).
 
 _→ [ONBOARDING](ONBOARDING.md)_
 
@@ -275,28 +226,28 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)_
 
 
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (18):**
-- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)
-- [memnet](05-habr-projects/memory/memnet.md)
-- [CONCEPTS](CONCEPTS.md)
-- [INDEX](INDEX.md)
-- [ONBOARDING](ONBOARDING.md)
-- [OUTLINE](OUTLINE.md)
-- [QUESTIONS](QUESTIONS.md)
-- _...ещё 10_
-
-
 
 ## Использование
 ```bash
 # Запуск
 python scripts/improve_faq.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)
+- [memnet](05-habr-projects/memory/memnet.md)
+- [CLUSTERS](CLUSTERS.md)
+- [CONCEPTS](CONCEPTS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 9_
+
 
 <!-- see-also -->
 
@@ -306,5 +257,5 @@ python scripts/improve_faq.py
 - [QUESTIONS](QUESTIONS.md)
 - [10-otkrytye-voprosy](nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
 - [10-open-questions](nautilus/representative-agent-layer-en/10-open-questions.md)
-- [CLUSTERS](CLUSTERS.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
 

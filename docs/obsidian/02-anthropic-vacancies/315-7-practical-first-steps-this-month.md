@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 7. Practical First Steps This Month
@@ -33,7 +33,9 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> Concrete actions for the immediate term.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Документ создан на основе исследования. The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7)
+The eight existing documents (1, 2, 2.3, 3, 4, 5, 6, 7) 
+provide an ideal first test case.
 
 ---
 <!-- tags: anthropic -->

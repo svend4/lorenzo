@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. AI-Coordinated Infrastructure for Distributed Expert Contribution
 
@@ -25,8 +29,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Editorial collaboration: Claude (intellectual development, 2026-04){quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Editorial collaboration:_ Claude (intellectual development, 2026-04){quote}

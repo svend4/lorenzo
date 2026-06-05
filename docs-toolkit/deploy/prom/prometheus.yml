@@ -1,0 +1,17 @@
+# Prometheus scrape config for docs-toolkit
+#
+# Targets the `serve` container's /metrics endpoint (exposed by
+# docstoolkit.telemetry.prometheus_format). Adjust the static_configs
+# target if you remap the port in docker-compose.yml.
+
+global:
+  scrape_interval: 30s
+  evaluation_interval: 30s
+
+scrape_configs:
+  - job_name: 'docs-toolkit'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['serve:8083']
+        labels:
+          deployment: 'docker-compose'

@@ -344,27 +344,125 @@ def cmd_stats() -> None:
 # main
 # ─────────────────────────────────────────────────────────────────────
 
+def cmd_add_docs(paths: list[str]) -> None:
+    """Инкрементальное обновление IDF при добавлении новых документов.
+
+    Не пересобирает весь индекс: применяет байесовское приближение IDF.
+    Формула: idf_new(t) = log((N+k) / (df(t) + k_t) + 1)
+      N   — старое число документов
+      k   — число новых документов
+      k_t — 1 если t встретился в новых документах, иначе 0
+
+    Точность: O(1) вместо O(N) — достаточна для инкрементального режима.
+    Полная пересборка остаётся доступной через --index.
+    """
+    idx = load_index()
+    if not idx:
+        print("  Индекс не построен. Запустите сначала: --index")
+        return
+
+    idf       = idx["idf"]
+    vectors   = idx["vectors"]
+    card_meta = idx["card_meta"]
+    N_old     = idx["meta"]["cards"]
+
+    new_docs: list[tuple[str, list[str]]] = []
+    for path_str in paths:
+        p = Path(path_str)
+        if not p.exists():
+            p = ROOT / path_str
+        if not p.exists():
+            print(f"  ⚠ Файл не найден: {path_str}")
+            continue
+        try:
+            text   = p.read_text(encoding="utf-8")
+            tokens = tokenize(text)
+        except Exception as e:
+            print(f"  ⚠ Ошибка чтения {path_str}: {e}")
+            continue
+        # Генерируем card_id как sha256 пути
+        import hashlib
+        card_id = hashlib.sha256(str(p.relative_to(ROOT)).encode()).hexdigest()[:16]
+        title   = re.search(r"^#\s+(.+)", text, re.MULTILINE)
+        new_docs.append((card_id, tokens, str(p.relative_to(ROOT)), title.group(1).strip() if title else p.stem))
+
+    if not new_docs:
+        print("  Нечего добавлять.")
+        return
+
+    k = len(new_docs)
+    N = N_old + k
+    print(f"  Добавляю {k} документов к индексу (N: {N_old} → {N})...")
+
+    # Собрать термины новых документов
+    new_terms: set[str] = set()
+    for _, tokens, _, _ in new_docs:
+        new_terms.update(tokens)
+
+    # Обновить IDF для существующих терминов
+    for term in list(idf.keys()):
+        old_idf = idf[term]
+        # Обратно вычислить примерное df из старого IDF
+        old_df  = max(1, round(N_old / (math.exp(old_idf - 1) + 1e-9)))
+        extra   = 1 if term in new_terms else 0
+        new_df  = old_df + extra
+        idf[term] = math.log(N / (new_df + 1e-9) + 1) + 1
+
+    # Добавить новые термины (которых не было в словаре)
+    for term in new_terms:
+        if term not in idf:
+            idf[term] = math.log(N / 2 + 1) + 1  # df=1 из k документов
+
+    # Добавить векторы новых документов
+    for card_id, tokens, rel_path, title in new_docs:
+        tf  = compute_tf(tokens)
+        vec = tfidf_vector(tf, idf)
+        top50 = dict(sorted(vec.items(), key=lambda x: -x[1])[:50])
+        vectors[card_id] = top50
+        card_meta[card_id] = {
+            "title":     title[:60],
+            "card_type": "doc",
+            "state":     "raw",
+            "path":      rel_path,
+        }
+        print(f"  + {rel_path}")
+
+    # Сохранить обновлённый индекс
+    idx["meta"]["cards"] = N
+    idx["meta"]["vocab"] = len(idf)
+    idx["idf"]      = idf
+    idx["vectors"]  = vectors
+    idx["card_meta"] = card_meta
+    INDEX.write_text(json.dumps(idx, ensure_ascii=False, separators=(",", ":")),
+                     encoding="utf-8")
+    print(f"  ✅ Индекс обновлён: {N} карточек, {len(idf)} токенов")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="TF-IDF семантический индекс над CardStore (без ML-зависимостей)"
     )
-    parser.add_argument("--index",   action="store_true",
+    parser.add_argument("--index",    action="store_true",
                         help="Построить/перестроить TF-IDF индекс")
-    parser.add_argument("--query",   metavar="ТЕКСТ",
+    parser.add_argument("--add-docs", nargs="+", metavar="FILE",
+                        help="Инкрементально добавить документы в индекс (без полной пересборки)")
+    parser.add_argument("--query",    metavar="ТЕКСТ",
                         help="Семантический поиск по карточкам")
-    parser.add_argument("--similar", metavar="CARD_ID",
+    parser.add_argument("--similar",  metavar="CARD_ID",
                         help="Найти карточки, похожие на данную")
-    parser.add_argument("--stats",   action="store_true",
+    parser.add_argument("--stats",    action="store_true",
                         help="Статистика индекса")
-    parser.add_argument("--type",    metavar="ТИП", default="",
+    parser.add_argument("--type",     metavar="ТИП", default="",
                         choices=["", "doc", "project", "person", "note", "fact"],
                         help="Фильтр по типу карточки (для --query)")
-    parser.add_argument("--top",     type=int, default=10,
+    parser.add_argument("--top",      type=int, default=10,
                         help="Число результатов")
     args = parser.parse_args()
 
     if args.index:
         cmd_index()
+    elif args.add_docs:
+        cmd_add_docs(args.add_docs)
     elif args.query:
         cmd_search(args.query, top=args.top, card_type=args.type)
     elif args.similar:

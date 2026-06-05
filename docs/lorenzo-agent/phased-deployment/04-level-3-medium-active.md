@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Уровень 3 — Средний (Lorenzo Active)
 
 <!-- toc-auto -->

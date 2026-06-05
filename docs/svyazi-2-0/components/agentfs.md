@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # AgentFS
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: Хабр + GitHub citeturn33view4turn33view7turn27view0 Источник: Хабр + GitHub citeturn33view4turn33view7turn27view0
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Источник:** Хабр + GitHub citeturn33view4turn33view7turn27view0

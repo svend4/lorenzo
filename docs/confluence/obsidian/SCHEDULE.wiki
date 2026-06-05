@@ -1,37 +1,30 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/SCHEDULE.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Расписание проекта"
 tags:
-  * memory
-  * security
-  * knowledge
-  * ingestion
-  * architecture
-  * roadmap
-  * collaboration
+  * schedule
+  * docs
   * general
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Расписание проекта
 
 
-{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
-----
-
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SCHEDULE}} формируется автоматически из данных репозитория.{quote}
 
 
 
 
-{quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
+
+{quote}{{SCHEDULE}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -86,29 +79,36 @@ h2. Текущий статус
 * Текущая фаза: _Контакты с авторами_
 * Следующая веха: _⬜ Написать авторам AgentFS, Yodoca, NGT_
 
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [[DENSITY]]
+* [[HEATMAP]]
+* [[INDEX]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* _...ещё 1_
+
+
 
 
 ----
 
 _Смотрите также:_
-* [[DENSITY]]
-* [[PROGRESS]]
-* [[SCORING]]
-* [[HEATMAP]]
-
-
-
-
-----
-
-_Кто ссылается на этот документ (10):_
-* [[COST]]
-* [[INDEX]]
-* [[OUTLINE]]
-* [[PROGRESS]]
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[README]]
-* [[SCORING]]
-* _...ещё 2_
+* [[SUMMARIES]]
+* [[GRAPH]]
+* [[MINDMAP]]
+* [[COVERAGE]]
 

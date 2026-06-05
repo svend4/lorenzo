@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # References
@@ -29,7 +29,16 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> - Anderson, J. R. (1983). *The Architecture of Cognition*.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Foundational Sources for Composite Architecture Pattern of Composite Mastery
+ References
+ Foundational Sources for Composite Architecture
+ Pattern of Composite Mastery
+ Multi-Agent Coordination
+ Practical Examples
+ Companion Documents in This Series
+ --
+ 
+> - Anderson, J.
 
 ---
 <!-- tags: rag, architecture, collaboration -->

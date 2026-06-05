@@ -1,20 +1,34 @@
-# Q&A: processing-guide
+---
+state: normalized
+---
 
-<!-- toc-auto -->
+# Q&A: processing-guide
 
 > [!NOTE]
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 11 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, AI Factory, Yodoca, NGT Memory, MemNet
-
----
-<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, anthropic, collaboration -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. _Не найдено в этом файле._ Кто ссылается на этот документ (6): _Автоматически сгенерировано по 11 файлам раздела._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ README
 
 
 _Автоматически сгенерировано по 11 файлам раздела._
@@ -91,6 +105,20 @@ _Не найдено в этом файле._
 
 _Не найдено в этом файле._
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)
+
 <!-- backlinks -->
 
 ---
@@ -102,21 +130,4 @@ _Не найдено в этом файле._
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 - [README](README.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../obsidian/processing-guide/QA.md) (сходство 0.98)
-- [QA](../lorenzo-agent/QA.md) (сходство 0.69)
-- [QA](../obsidian/lorenzo-agent/QA.md) (сходство 0.68)
 

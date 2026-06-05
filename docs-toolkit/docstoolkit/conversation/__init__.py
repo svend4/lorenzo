@@ -16,5 +16,12 @@
 from docstoolkit.conversation.store import (
     ConversationStore, Session, Message,
 )
+from docstoolkit.conversation.profile import (
+    UserProfile, ProfileStore, PersonalizedRetriever, infer_interests,
+)
 
-__all__ = ["ConversationStore", "Session", "Message"]
+__all__ = [
+    "ConversationStore", "Session", "Message",
+    # Gap 7: Personalization
+    "UserProfile", "ProfileStore", "PersonalizedRetriever", "infer_interests",
+]

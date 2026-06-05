@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Governance and Ethics
 
 > [!NOTE]
@@ -34,7 +38,10 @@
 
 
 <!-- summary -->
-> **Board of Directors** (7 members):
+> > Абстракт (авто)
+>
+> 🎯 Проблема: Ethical Red Lines Foundation will not: - Support projects intended for military use - Accept funding contingent on compromising commitment 1-7 - Use contributor data for AI trainin
+> 🔧 Подход: Disability rights (all
 
 ---
 <!-- tags: roadmap, anthropic -->

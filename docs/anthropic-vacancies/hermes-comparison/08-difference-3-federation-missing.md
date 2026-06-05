@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Различие 3: Federated knowledge architecture отсутствует
 
 <!-- toc-auto -->

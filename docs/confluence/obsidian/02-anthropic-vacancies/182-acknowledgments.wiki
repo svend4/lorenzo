@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/182-acknowledgments.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Acknowledgments"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Acknowledgments
@@ -33,7 +34,20 @@ h2. Contents
 
 
 
-{quote}This concept emerged through dialogue across multiple{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики. Кто ссылается на этот документ (10) This concept emerged through dialogue across multiple{quote}
+ 
+Contents
+ Acknowledgments
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (10)
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические реком{quote}
 
 ----
 

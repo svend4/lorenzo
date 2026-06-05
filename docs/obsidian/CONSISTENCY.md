@@ -2,7 +2,7 @@
 title: "Согласованность терминов"
 tags:
   - general
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Согласованность терминов
@@ -14,26 +14,26 @@ date: 2026-05-12
 | **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 32 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
-| **CardIndex** | `CardIndex` | `Card Index` | 4 |
-| **CardIndex** | `CardIndex` | `card index` | 4 |
-| **CardIndex** | `CardIndex` | `card-index` | 4 |
+| **CardIndex** | `CardIndex` | `Card Index` | 2 |
+| **CardIndex** | `CardIndex` | `card index` | 2 |
+| **CardIndex** | `CardIndex` | `card-index` | 2 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 44 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 103 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 127 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 4 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 43 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 45 |
 | **local-first** | `local-first` | `local first` | 8 |
-| **local-first** | `local-first` | `localfirst` | 6 |
+| **local-first** | `local-first` | `localfirst` | 4 |
 | **local-first** | `local-first` | `Local First` | 8 |
 | **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 8 |
-| **self-improvement** | `self-improvement` | `self-improve` | 284 |
+| **self-improvement** | `self-improvement` | `self-improve` | 288 |
 | **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 6 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 44 |
 | **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 38 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 35 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 49 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 30 |
 
-**Всего несогласованных написаний: 689**
+**Всего несогласованных написаний: 717**
 
 
 ## Детали по файлам
@@ -67,23 +67,17 @@ date: 2026-05-12
 ### `Card Index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `card index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `card-index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
-- `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
 
 ### `AI-Factory` → должно быть `AI Factory`
 
@@ -101,7 +95,7 @@ date: 2026-05-12
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- _...и ещё 98_
+- _...и ещё 122_
 
 ### `LiteParser` → должно быть `LiteParse`
 
@@ -117,7 +111,7 @@ date: 2026-05-12
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/TABLES.md`
-- _...и ещё 38_
+- _...и ещё 40_
 
 ### `local first` → должно быть `local-first`
 
@@ -132,10 +126,8 @@ date: 2026-05-12
 
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/OUTLINE.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/TABLES.md`
-- _...и ещё 1_
 
 ### `Local First` → должно быть `local-first`
 
@@ -157,12 +149,12 @@ date: 2026-05-12
 
 ### `self-improve` → должно быть `self-improvement`
 
-- `docs/FOOTNOTES.md`
+- `docs/INFO_PROCESSING_METHODS.md`
 - `docs/CONSISTENCY.md`
 - `docs/PROTOTYPE_SPEC.md`
 - `docs/TABLES.md`
-- `docs/SPELLCHECK.md`
-- _...и ещё 279_
+- `docs/METHODOLOGY.md`
+- _...и ещё 283_
 
 ### `selfimprovement` → должно быть `self-improvement`
 
@@ -199,7 +191,7 @@ date: 2026-05-12
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/PROTOTYPE_SPEC.md`
-- _...и ещё 33_
+- _...и ещё 44_
 
 ## Как исправить
 

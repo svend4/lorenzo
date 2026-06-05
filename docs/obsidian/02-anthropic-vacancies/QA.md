@@ -1,18 +1,10 @@
 ---
 title: "Q&A: 02-anthropic-vacancies"
 tags:
-  - memory
-  - rag
-  - orchestration
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - anthropic
-  - collaboration
+  - qa
+  - docs
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Q&A: 02-anthropic-vacancies
@@ -23,15 +15,27 @@ date: 2026-05-12
 > Раздел `QA` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: qa, docs -->
+
 
 <!-- summary -->
-> _Автоматически сгенерировано по 355 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 355 файлам раздела._
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
@@ -43,6 +47,14 @@ _Автоматически сгенерировано по 355 файлам р�
 ## Что входит в интеграционный контракт между слоями?
 
 Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+
+## Какие кластеры найма выделены у Anthropic?
+
+Упоминаются: **research**, **gtm**, **trust & safety**, **inference**, **product**
+
+## Какие роли наиболее релевантны для профиля svend4?
+
+Упоминаются: **forward deployed**, **research engineer**, **developer community**
 
 ## Какие кластеры найма выделены у Anthropic?
 
@@ -128,6 +140,20 @@ _Автоматически сгенерировано по 355 файлам р�
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
 <!-- backlinks -->
 
 ---
@@ -139,21 +165,4 @@ _Автоматически сгенерировано по 355 файлам р�
 - [[READING_TIME]]
 - [[SEARCH]]
 - [[TABLES]]
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[QA]] (сходство 0.99)
-- [[QA]] (сходство 0.82)
-- [[QA]] (сходство 0.81)
 

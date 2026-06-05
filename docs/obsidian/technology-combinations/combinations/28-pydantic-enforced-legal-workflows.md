@@ -1,0 +1,111 @@
+---
+title: "Комбинация 28: Pydantic-Enforced Legal Workflows"
+tags:
+  - rag
+  - orchestration
+  - ingestion
+  - architecture
+  - technology-combinations
+date: 2026-05-13
+---
+
+# Комбинация 28: Pydantic-Enforced Legal Workflows
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+---
+<!-- tags: rag, orchestration, ingestion, architecture -->
+
+
+
+
+> Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
+
+Родители:
+
+Pydantic validation (structured LLM outputs)
+
+Sequential Protocol (specialist chain)
+
+Adversarial review (writer + reviewers)
+
+LLM parsing (text → structured data)
+
+Дети:
+
+Type-safe legal document pipeline
+
+python
+
+class BescheidAnalysis(BaseModel):
+aktenzeichen: str
+court: str
+decision_date: date
+paragraphs: List[str]
+deadline: date
+violations: List[LegalViolation]
+
+@validator('deadline')
+def check_deadline_not_passed(cls, v):
+if v < date.today():
+raise ValueError(f"Deadline {v} already passed!")
+return v
+
+# Sequential pipeline with Pydantic validation at each stage
+bescheid_pdf → LLM extraction → BescheidAnalysis (validated)
+↓
+WiderspruchArguments (validated) ← LLM generation
+↓
+Widerspruch.docx ← Template rendering
+
+Adversarial pipeline with schema enforcement
+
+Writer Agent generates Widerspruch
+
+Output: WiderspruchDraft(Pydantic)
+
+Reviewer 1: validates legal citations → CitationReview(Pydantic)
+
+Reviewer 2: validates deadlines → DeadlineReview(Pydantic)
+
+Reviewer 3: validates formatting → FormatReview(Pydantic)
+
+If validation fails: ModelRetry with specific error context
+
+ROI: Type-safe legal automation, catches errors before human review
+
+Уникальность: First legal workflow with Pydantic enforcement at every stage. LLM outputs are validated against legal schemas. Errors detected in seconds, not days.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[10-legal-document-intelligence-pipeline]]
+- [[18-llm-powered-legal-corpus-builder]]
+- [[29-meta-programmatic-legal-template-generator]]
+- [[23-security-first-code-review-pipeline]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[10-legal-document-intelligence-pipeline]] (сходство 0.30)
+- [[29-meta-programmatic-legal-template-generator]] (сходство 0.28)
+- [[18-llm-powered-legal-corpus-builder]] (сходство 0.28)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [28-pydantic-enforced-legal-workflows](../../../technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+

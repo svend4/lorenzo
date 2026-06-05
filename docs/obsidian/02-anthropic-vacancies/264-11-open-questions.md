@@ -4,7 +4,7 @@ tags:
   - rag
   - anthropic
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 11. Open Questions
@@ -39,7 +39,10 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> Many questions about Composite Skills Agents remain open.
+> 🎯 Проблема: What signals suggest configuration revision is needed? 🏷️ Ключевые слова: composite, questions, agent, agents, configuration, configurations, anthropic, vacancies
+As principals develop sophisticated composite configurations, 
+when (if ever) does it make sense to graduate to a Representative 
+Agent (Type 4) with truly individual specialization?
 
 ---
 <!-- tags: rag, anthropic -->

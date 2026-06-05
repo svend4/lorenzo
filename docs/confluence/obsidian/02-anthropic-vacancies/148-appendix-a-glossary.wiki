@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Appendix A: Glossary"
 tags:
   * roadmap
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Appendix A: Glossary
@@ -40,7 +41,19 @@ h2. Содержание
 
 
 
-{quote}- _Double-Triangle Architecture_: The topology where each{quote}
+{quote}_ Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие практики. _ - Three-phase review: Methodology for parallel AI-agent review with subsequent consolidation{quote}
+ 
+Содержание
+ Appendix A: Glossary
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ --
+ 
+{quote}Абстракт (авто){quote}
+>
+{quote}🎯 Проблема: Appendix A: Glossary !TIP Документ содержит практические рекомендации и лучшие пра{quote}
 
 ----
 

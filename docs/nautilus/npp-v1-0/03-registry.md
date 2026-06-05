@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 3. Registry (`nautilus.json`)
 
 <!-- toc-auto -->

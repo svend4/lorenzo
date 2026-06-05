@@ -43,8 +43,10 @@ _Источник: docs/ (первые 60 файлов) + архитектурн
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
+**Кто ссылается на этот документ (5):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

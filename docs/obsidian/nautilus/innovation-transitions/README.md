@@ -1,0 +1,36 @@
+---
+title: "innovation-transitions"
+tags:
+  - nautilus
+date: 2026-05-13
+---
+
+# innovation-transitions
+
+**Файлов:** 2
+
+## Содержание
+
+- [[00-question-innovations-transitions|00-question-innovations-transitions.md]] — > [!WARNING]
+- [[01-response|01-response.md]] — > [!TIP]
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[README]] (сходство 0.45)
+- [[README]] (сходство 0.36)
+- [[README]] (сходство 0.36)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+

@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # THE DOUBLE-TRIANGLE ARCHITECTURE.md
@@ -21,7 +21,7 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> - [[187-слой-представительских-агентов-md]] (сходство 0.25)
+> - [[187-слой-представительских-агентов-md]] (сходство 0.25) Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 ---
 <!-- tags: architecture, anthropic -->

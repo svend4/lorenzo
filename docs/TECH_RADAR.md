@@ -1,19 +1,5 @@
 # Tech Radar — Svyazi 2.0
 
-<!-- toc -->
-## Содержание
-
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -121,6 +107,22 @@ _Radar обновляется вручную при существенных и�
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [CONCEPTS](CONCEPTS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 3_
+
+
 <!-- see-also -->
 
 ---
@@ -128,22 +130,6 @@ _Radar обновляется вручную при существенных и�
 **Смотрите также:**
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
 - [ONBOARDING](ONBOARDING.md)
-- [DENSITY](DENSITY.md)
 - [FOOTNOTES](FOOTNOTES.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (12):**
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [CONCEPTS](CONCEPTS.md)
-- [INDEX](INDEX.md)
-- [ONBOARDING](ONBOARDING.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- _...ещё 4_
+- [SCHEDULE](SCHEDULE.md)
 

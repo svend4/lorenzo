@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 6. Four Deployment Domains
 
 > [!NOTE]

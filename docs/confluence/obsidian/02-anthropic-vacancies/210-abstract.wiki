@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/210-abstract.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * roadmap
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Abstract
@@ -46,7 +46,11 @@ h2. Содержание
 
 
 
-{quote}Building on the Representative Agent Layer paper, we observe{quote}
+{quote}_ Each type serves a different need, has different economics, requires different governance, and proceeds at a different. _ We document an empirical case study from Russian education (the "Obuchay" / "Обучай" service, which grew from zero to{quote}
+first production deployment of foundation-funded AI
+infrastructure, with Representative Agents as a second-phase
+extension once professionals have integrated AI partners into
+their daily work.
 
 ----
 

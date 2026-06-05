@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/03-technology-combinations/QA.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 h1. Q&A: 03-technology-combinations
@@ -11,13 +11,25 @@ h1. Q&A: 03-technology-combinations
 
 
 
-{quote}_Автоматически сгенерировано по 5 файлам раздела._{quote}
-_Проекты:_ CardIndex, AgentFS, knowledge-space
-
-----
 
 
-
+{quote}Раздел QA формируется автоматически из данных репозитория. _Не найдено в этом файле._{quote}
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+ --
+Кто ссылается на этот документ (6):
+ README
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
 
 
 _Автоматически сгенерировано по 5 файлам раздела._
@@ -55,6 +67,20 @@ h2. Что входит в интеграционный контракт меж�
 _Не найдено в этом файле._
 
 
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}
+
+h2. Смотрите также
+* [Главная|../README.md]
+* [Метрики|../METRICS.md]
+* [Здоровье|../HEALTH.md]
+* [Глоссарий|../GLOSSARY.md]
+* [Сущности|../ENTITIES.md]
+
+
 
 ----
 
@@ -65,21 +91,4 @@ _Кто ссылается на этот документ (6):_
 * [READING_TIME|../READING_TIME.md]
 * [SEARCH|../SEARCH.md]
 * [TABLES|../TABLES.md]
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_qa.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [QA|../obsidian/03-technology-combinations/QA.md] (сходство 0.97)
-* [QA|../processing-guide/QA.md] (сходство 0.51)
-* [QA|../lorenzo-agent/QA.md] (сходство 0.50)
 

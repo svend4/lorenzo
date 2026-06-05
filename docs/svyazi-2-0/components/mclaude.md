@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # mclaude
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: Хабр + GitHub citeturn20view2turn37search0 Источник: Хабр + GitHub citeturn20view2turn37search0
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Источник:** Хабр + GitHub citeturn20view2turn37search0

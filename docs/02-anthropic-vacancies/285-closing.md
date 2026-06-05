@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Closing
 
 <!-- toc-auto -->
@@ -51,7 +55,11 @@
 
 
 <!-- summary -->
-> The seven documents in this series describe substantial
+> * That vision rests on infrastructure that partially exists and partially needs building. * The author is unusually positioned to contribute to filling this gap, because the existing Nautilus work provides rele
+the documents, structure the repository, enable discussions, 
+maintain cross-references manually, and proceed with the 
+applied work (SGB pilot, foundation outreach, sub-agent 
+registry deve
 
 ---
 <!-- tags: rag, ingestion, architecture -->

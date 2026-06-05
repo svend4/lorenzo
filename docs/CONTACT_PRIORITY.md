@@ -1,33 +1,31 @@
 # Приоритет контактов
 
-<!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
-
-
-
+<!-- toc-auto -->
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `CONTACT_PRIORITY` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: contact-priority, docs -->
 
-_Обновлено: 2026-05-12_
+
+<!-- summary -->
+> `CONTACT_PRIORITY` — раздел документации проекта Lorenzo.
+
+
+_Обновлено: 2026-05-13_
 
 ## Топ авторов по приоритету
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 190 | 👁 Изучили | 581 |
-| 2 | **spbmolot** | NGT Memory | memory | 169 | 👁 Изучили | 518 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 128 | 👁 Изучили | 395 |
-| 4 | **VitalyOborin** | Yodoca | memory | 104 | 👁 Изучили | 323 |
+| 1 | **kksudo** | AgentFS | knowledge/filesystem | 189 | 👁 Изучили | 578 |
+| 2 | **spbmolot** | NGT Memory | memory | 167 | 👁 Изучили | 512 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 126 | 👁 Изучили | 389 |
+| 4 | **VitalyOborin** | Yodoca | memory | 102 | 👁 Изучили | 317 |
 | 5 | **zodigancode** | Rufler | orchestration | 91 | 👁 Изучили | 282 |
 | 6 | **Antipozitive** | MemNet | memory | 78 | 👁 Изучили | 245 |
-| 7 | **VladSpace** | Graph RAG | rag | 79 | ⬜ Не начато | 241 |
+| 7 | **VladSpace** | Graph RAG | rag | 80 | ⬜ Не начато | 244 |
 | 8 | **nlaik** | LiteParse / research-docs | rag | 75 | 👁 Изучили | 234 |
 | 9 | **Cutcode** | AIF Handoff | orchestration | 68 | ⬜ Не начато | 208 |
 | 10 | **Dmitriila** | SENTINEL | security | 60 | ⬜ Не начато | 182 |
@@ -41,9 +39,9 @@ _Обновлено: 2026-05-12_
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 190 упоминаний) → [открыть контакт](contacts/kksudo.md)
-1. **spbmolot** (NGT Memory, 169 упоминаний) → [открыть контакт](contacts/spbmolot.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 128 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
+1. **kksudo** (AgentFS, 189 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **spbmolot** (NGT Memory, 167 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 126 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 
@@ -55,29 +53,29 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 
 _Чем выше балл — тем важнее написать первым._
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [AUTHORS](AUTHORS.md)
+- [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md)
+- [ENTITIES](ENTITIES.md)
+- [MINDMAP](MINDMAP.md)
+- [MISSING](MISSING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 7_
+
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [AUTHORS](AUTHORS.md)
-- [CONTACTS](CONTACTS.md)
-- [authors-by-name](glossary/authors-by-name.md)
-- [NETWORK](NETWORK.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (17):**
-- [AUTHORS](AUTHORS.md)
-- [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md)
-- [CONTACTS](CONTACTS.md)
-- [DEPENDABOT](DEPENDABOT.md)
-- [GLOSSARY](GLOSSARY.md)
 - [MINDMAP](MINDMAP.md)
-- [OUTLINE](OUTLINE.md)
-- [PRECISION_EVAL](PRECISION_EVAL.md)
-- _...ещё 9_
+- [GRAPH](GRAPH.md)
+- [CONTACTS](CONTACTS.md)
+- [NETWORK](NETWORK.md)
 

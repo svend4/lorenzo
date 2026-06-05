@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 9. Стратегия поэтапного развёртывания
 
 <!-- toc-auto -->
@@ -38,7 +42,7 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)». Документ содержит описание рисков и ограничений.
 
 ---
 <!-- tags: security, architecture, roadmap, anthropic -->

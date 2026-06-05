@@ -4,7 +4,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Native Format
@@ -29,8 +29,8 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. уточнить — Markdown с YAML frontmatter, чистый JSON, уточнить — Markdown с YAML frontmatter, чистый JSON,
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Структура файла:** [[01-интегральный-анализ-профиля-svend4|? уточнить — Markdown с YAML frontmatter, чистый JSON,

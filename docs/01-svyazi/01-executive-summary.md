@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Svyazi[^svyazi] 2.0 — Исполнительное резюме
 
 <!-- toc -->

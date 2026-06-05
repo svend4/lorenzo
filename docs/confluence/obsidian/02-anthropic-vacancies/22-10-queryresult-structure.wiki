@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "10. QueryResult Structure"
 tags:
   * anthropic
+  * roadmap
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 10. QueryResult Structure
@@ -58,8 +59,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. results_by_repo: dict[str, list[PortalEntry]] MUST поддерживать сериализацию в JSON, Markdown, HTML.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}results_by_repo: dict[str, list[PortalEntry]]{quote}

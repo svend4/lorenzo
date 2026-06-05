@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. 6. Coordination and Disagreement Resolution
 
@@ -21,8 +25,8 @@ h1. 6. Coordination and Disagreement Resolution
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: They differ on specific issue: A says X; B says Y." Helps principal see what is settled and what is contested.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}The composite agent's most subtle function is coordinating{quote}

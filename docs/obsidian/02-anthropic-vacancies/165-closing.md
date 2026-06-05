@@ -2,7 +2,7 @@
 title: "Closing"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Closing
@@ -23,7 +23,11 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> The Open Knowledge Work Foundation is proposed as response
+> * Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolati. * Андрей формулирует это explicitly как архитектурный invariant : «expensive operations only on pre-filtered shortlist»
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolation.
 **Проекты:** Svyazi, [[01-executive-summary|CardIndex]]
 
 ---

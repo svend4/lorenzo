@@ -2,8 +2,9 @@
 title: "History"
 tags:
   - collaboration
+  - memory
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # History
@@ -28,14 +29,14 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Формирование Q6-концептуальной базы Embedded-версия Nautilus Portal в подпапке / (март 2026)
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > **Создан:** [? дата первого коммита]
 
 ---
-<!-- tags: collaboration -->
+<!-- tags: collaboration, memory -->
 
 
 

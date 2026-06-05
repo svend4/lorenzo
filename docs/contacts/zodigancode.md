@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: contact-outreach
 version: "1.0"
 author: "zodigancode"
@@ -31,7 +32,18 @@ tags: [контакты, команда]
 <!-- alert-added -->
 
 <!-- summary -->
-> - [Статус связи](#статус-связи)
+> Документ содержит практические рекомендации и лучшие практики. Контакт: zodigancode / Rufler Кто ссылается на этот документ (3) Слой в Svyazi | orchestration |
+ 
+Contents
+ Профиль
+ Статус связи
+ Первое сообщение
+ Открытые вопросы
+ Похожие документы
+ Смотрите также
+ Кто ссылается на этот документ (3)
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
 **Проекты:** Svyazi, Rufler
 
 ---
@@ -61,6 +73,21 @@ tags: [контакты, команда]
 
 ## Первое сообщение
 
+```
+
+<!-- llm-contact-draft -->
+## Улучшенное сообщение (LLM, 2026-05-29)
+
+```
+Привет, zodigancode!
+
+Я собираю Svyazi 2.0 — локальную community intelligence platform на базе Knowledge OS, и твой Rufler идеально подходит для неё как declarative orchestration layer. Впечатлил подход с YAML-конфигом для управления роем Claude Code агентов — особенно механика pause/resume и auto-objective prompts, которые как раз решают проблему координации автономных задач без тяжёлого UI.
+
+В архитектуре Svyazi Rufler закроет именно слой orchestration между inference engines и knowledge storage — получится быстрый асинхронный dispatcher для многоагентных workflow.
+
+Один вопрос: как Rufler сейчас обрабатывает token accounting при параллельном выполнении нескольких агентов — есть ли встроенный rate-limiter или это делегируется MCP server management?
+
+Было бы здорово обсудить возможность интеграции. Может быть, GitHub Discussions в репо или что тебе удобнее?
 ```
 Здравствуйте, zodigancode!
 

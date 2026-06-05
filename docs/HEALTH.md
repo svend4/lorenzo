@@ -1,7 +1,7 @@
 # Health Dashboard
 
 <!-- summary -->
-> Балл здоровья репозитория: **100/100** — файлов: 2482, слов: 2,922,644
+> Балл здоровья репозитория: **99/100** — файлов: 2484, слов: 2,897,199
 
 <!-- tags: health, quality, metrics, documentation -->
 
@@ -10,9 +10,9 @@
 
 <!-- alert-added -->
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
-## Общий балл: **100/100** 🟢
+## Общий балл: **99/100** 🟢
 
 ## Метрики
 
@@ -21,13 +21,13 @@ _Обновлено: 2026-05-11_
 | Покрытие текста | 97.6% | 🟢 | 98 |
 | Полнота тем | 25✅ 0⚠️ 0❌ | 🟢 | 100 |
 | Согласованность | 0 проблем | 🟢 | 100 |
-| Внутренние ссылки | 0 сломано | 🟢 | 100 |
+| Внутренние ссылки | 80 сломано | 🟢 | 97 |
 | Дублирование | 0 точных дублей | 🟢 | 100 |
 
 ## Структура репозитория
 
-**Файлов:** 2482  
-**Слов:** 2,922,644
+**Файлов:** 2484  
+**Слов:** 2,897,199
 
 | Раздел | Файлов |
 |--------|--------|
@@ -47,18 +47,18 @@ _Обновлено: 2026-05-11_
 | lorenzo-agent | 62 |
 | meta-scripting | 7 |
 | nautilus | 255 |
-| obsidian | 1238 |
+| obsidian | 1239 |
 | processing-guide | 13 |
-| root | 114 |
+| root | 115 |
 | svyazi-2-0 | 60 |
 | technology-combinations | 53 |
 | templates | 24 |
 
 ## Action Items
 
-Извлечено действий: **3515**  
+Извлечено действий: **3475**  
 Пробелов знаний: **0**  
-Сломанных ссылок: **0**
+Сломанных ссылок: **80**
 
 ## Скрипты обработки
 
@@ -66,6 +66,7 @@ _Обновлено: 2026-05-11_
 
 ## Рекомендации
 
+- 🔗 Проверить 80 сломанных ссылок (`BROKEN_LINKS.md`)
 - ✅ Репозиторий в отличном состоянии!
 
 ## Смотрите также
@@ -75,6 +76,22 @@ _Обновлено: 2026-05-11_
 - [VALIDATION](VALIDATION.md) — валидация структуры
 - [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (65):**
+- [QA](01-svyazi/QA.md)
+- [QA](02-anthropic-vacancies/QA.md)
+- [QA](03-technology-combinations/QA.md)
+- [QA](04-ai-collaborations/QA.md)
+- [QA](05-habr-projects/QA.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [ALERTS](ALERTS.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- _...ещё 57_
+
+
 <!-- see-also -->
 
 ---
@@ -83,20 +100,4 @@ _Обновлено: 2026-05-11_
 - [VALIDATION](VALIDATION.md)
 - [METRICS](METRICS.md)
 - [REPORT](REPORT.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (36):**
-- [BROKEN_LINKS](BROKEN_LINKS.md)
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [CONTRADICTIONS](CONTRADICTIONS.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- _...ещё 28_
 

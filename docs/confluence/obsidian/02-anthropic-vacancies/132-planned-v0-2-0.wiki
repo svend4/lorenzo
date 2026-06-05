@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/132-planned-v0-2-0.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Planned (v0.2.0)"
 tags:
   * architecture
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Planned (v0.2.0)
@@ -33,7 +34,20 @@ h2. Contents
 
 
 
-{quote}- HTTP-mode для debugging и remote access{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Кто ссылается на этот документ (17) HTTP-mode для debugging и remote access{quote}
+ 
+Contents
+ Planned (v0.2.0)
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (17)
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рис{quote}
 
 ----
 

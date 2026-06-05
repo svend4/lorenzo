@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 13. REST API Contract (Normative for Portals)
@@ -25,6 +25,10 @@ h2. Содержание
   * [13.4. CORS|#134-cors]
   * [13.5. OpenAPI Specification|#135-openapi-specification]
   * [13.6. Error Responses|#136-error-responses]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
 
 ----
 
@@ -35,7 +39,14 @@ h2. Содержание
 
 
 
-{quote}v1.1 делает REST API mandatory частью протокола. Это обеспечивает{quote}
+{quote}Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. Portal SHOULD предоставлять: Метод | Путь | Описание | GET | | Валидация кросс-ссылок |{quote}
+Portal SHOULD предоставлять:
+ Метод | Путь | Описание |
+ -------|------|----------|
+ GET |   | Валидация кросс-ссылок |
+ GET |   | Q6-соседи |
+ GET |   | Prometheus-метрики (text/plain) |
+ GET |   | Root endpoint со списком endp
 
 ----
 

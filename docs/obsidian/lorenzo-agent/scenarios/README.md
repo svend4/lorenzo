@@ -1,0 +1,36 @@
+---
+title: "scenarios"
+tags:
+  - lorenzo-agent
+date: 2026-05-13
+---
+
+# scenarios
+
+**Файлов:** 2
+
+## Содержание
+
+- [[00-question-scenario|00-question-scenario.md]] — <!-- summary -->
+- [[01-response|01-response.md]] — <!-- summary -->
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[README]] (сходство 0.56)
+- [[README]] (сходство 0.50)
+- [[README]] (сходство 0.50)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+

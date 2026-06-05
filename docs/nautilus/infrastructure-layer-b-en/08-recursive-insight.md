@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # The Recursive Insight
 
 <!-- toc-auto -->

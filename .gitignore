@@ -2,6 +2,9 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Git worktrees created by Claude agents
+.claude/worktrees/
+
 # Auto-generated exports (regenerated on each build)
 docs/obsidian/
 docs/confluence/
@@ -27,3 +30,7 @@ docs-toolkit/*.egg-info/
 docs/ann_index.bin
 docs/ann_proj.npy
 docs/ann_meta.json
+.claude/llm_debug.txt  
+fix_cwd.py  
+fix_env.py  
+test_config.py  

@@ -2,8 +2,9 @@
 title: "4. Passport (`passport.md`)"
 tags:
   - architecture
+  - memory
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 4. Passport (`passport.md`)
@@ -36,10 +37,14 @@ date: 2026-05-12
 
 
 <!-- summary -->
-> Passport — human-readable описание Repo, расположенное в
+> > ✅ Результат: Recommended Sections Passport SHOULD содержать разделы: - Описание — 2-3 предложения о содержании Repo - Объём — количество единиц, связей - Q6-отображение — правило проекции на 6-
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+ 
+> Pass
 
 ---
-<!-- tags: architecture -->
+<!-- tags: architecture, memory -->
 
 
 

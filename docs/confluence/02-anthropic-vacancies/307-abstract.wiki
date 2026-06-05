@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/307-abstract.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [memory, rag, orchestration, local-first, architecture]
+state: approved
+----
 
 h1. Abstract
 
@@ -37,7 +43,15 @@ h2. Содержание
 
 
 
+{quote}_ InGit should position as the structure layer that Cowork needs — substrate for sustained, organized, recoverable, shar. _ The document was theoretical, naming the problem without specifying solutions{quote}
+>
+ 
 {quote}Document 2.3 identified Layer B — the missing infrastructure{quote}
+ --
+ 
+Abstract
+Document 2.3 identified Layer B — the missing infrastructure 
+between chat and code repositories — as a fundamental gap in
 
 ----
 

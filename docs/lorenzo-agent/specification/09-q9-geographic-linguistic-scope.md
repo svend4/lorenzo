@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Question 9: Geographic / linguistic scope
 
 <!-- toc-auto -->

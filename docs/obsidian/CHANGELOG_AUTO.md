@@ -2,7 +2,7 @@
 title: "Changelog (авто)"
 tags:
   - general
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Changelog (авто)
@@ -335,3 +335,10 @@ python scripts/improve_changelog_auto.py
 - [[README]]
 - _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_changelog_auto.py
+```

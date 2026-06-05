@@ -6,7 +6,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # portal-mcp.py
@@ -26,7 +26,11 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> Exposes Nautilus Portal as Model Context Protocol tools for LLM clients
+> * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры. * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.
 
 ---
 

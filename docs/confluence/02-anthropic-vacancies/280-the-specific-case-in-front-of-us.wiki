@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. The Specific Case in Front of Us
 
@@ -21,8 +25,8 @@ h1. The Specific Case in Front of Us
 
 
 
-
 {quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}The seven documents produced in this session have specific{quote}

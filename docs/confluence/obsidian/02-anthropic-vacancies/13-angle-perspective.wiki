@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/13-angle-perspective.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "Angle / Perspective"
 tags:
   * anthropic
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Angle / Perspective
@@ -33,8 +34,8 @@ h2. Contents
 
 
 
-
 {quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}С какого угла Repo смотрит на общие концепты{quote}

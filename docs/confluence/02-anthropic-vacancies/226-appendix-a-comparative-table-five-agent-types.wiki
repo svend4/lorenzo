@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Appendix A: Comparative Table — Five Agent Types
 
@@ -14,6 +18,18 @@ h1. Appendix A: Comparative Table — Five Agent Types
 {quote}> 🎯 _Проблема:_ Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Property Type 0: Personal AI Assistant Type 1: Professional Colleague Type 2: Inst{quote}
 
 ----
+
+
+h2. Содержание
+
+* [Appendix A: Comparative Table — Five Agent Types|#appendix-a-comparative-table-five-agent-types]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
 
 
 

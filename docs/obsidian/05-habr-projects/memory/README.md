@@ -2,7 +2,7 @@
 title: "Системы памяти"
 tags:
   - habr-projects
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Системы памяти
@@ -10,7 +10,12 @@ date: 2026-05-12
 <!-- toc-auto -->
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> [^mcp]: Model Context Protocol — протокол для AI-инструментов [^llm]: Large Language Model — большая языковая модель [^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+[^llm]: Large Language Model — большая языковая модель
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+[^bsl]:
 
 <!-- summary: Проекты слоя memory: agent-memory-mcp, MemNet, NGT[^ngt] Memory, Yodoca[^yodoca] -->
 <!-- tags: memory, agent-memory-mcp, memnet, ngt-memory, yodoca -->

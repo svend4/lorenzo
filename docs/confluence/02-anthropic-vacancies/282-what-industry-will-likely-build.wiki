@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. What Industry Will Likely Build
 
@@ -55,7 +59,16 @@ h2. Содержание
 
 
 
-{quote}Independent of what the author does, the industry will move{quote}
+{quote}* What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Lik Документ создан на основе исследования.{quote}
+ --
+Кто ссылается на этот документ (10)
+ 153-executive-summary
+ 164-10-appendices
+ 276-the-two-layer-stack-as-it-exists
+ 277-what-s-missing-layer-b
+ 278-why-this-hasn-t-been-built
+ 280-the-specific-case-in-front-of-us
+ 281-the-recurs
 
 ----
 

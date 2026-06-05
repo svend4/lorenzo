@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Appendix B: Comparison Matrix
 
 <!-- toc-auto -->
@@ -25,14 +29,14 @@
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Appendix B: Comparison Matrix InGit + Cowork's distinct profile: maximum structure with full --- Appendix B: Comparison Matrix Capability Plain Folder + Cowork InGit + Cowork Notio
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > InGit + Cowork's distinct profile: maximum structure with full
 
 ---
-<!-- tags: local-first -->
+<!-- tags: local-first, rag -->
 
 
 

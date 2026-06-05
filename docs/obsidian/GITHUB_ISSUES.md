@@ -2,97 +2,10 @@
 title: "GitHub Issues — список задач"
 tags:
   - general
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # GitHub Issues — список задач
-
-<!-- toc -->
-## Содержание
-
-- [`docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач)](#docs02-anthropic-vacancies116-9-checklist-применения-методологииmd-18-задач)
-- [`docs/02-anthropic-vacancies/69-section.md` (1 задач)](#docs02-anthropic-vacancies69-sectionmd-1-задач)
-- [`docs/FAQ.md` (1 задач)](#docsfaqmd-1-задач)
-- [`docs/MISSING.md` (1 задач)](#docsmissingmd-1-задач)
-- [`docs/PROTOTYPE_SPEC.md` (2 задач)](#docsprototype_specmd-2-задач)
-- [`docs/SCRIPTS_CATALOG.md` (1 задач)](#docsscripts_catalogmd-1-задач)
-- [`docs/SPELLCHECK.md` (1 задач)](#docsspellcheckmd-1-задач)
-- [`docs/STATS.md` (1 задач)](#docsstatsmd-1-задач)
-- [`docs/TABLES.md` (1 задач)](#docstablesmd-1-задач)
-- [`docs/autofilled/research-summary.md` (2 задач)](#docsautofilledresearch-summarymd-2-задач)
-- [`docs/contacts/anastasiyaw.md` (3 задач)](#docscontactsanastasiyawmd-3-задач)
-- [`docs/contacts/andrey-chuyan.md` (4 задач)](#docscontactsandrey-chuyanmd-4-задач)
-- [`docs/contacts/antipozitive.md` (3 задач)](#docscontactsantipozitivemd-3-задач)
-- [`docs/contacts/cutcode.md` (4 задач)](#docscontactscutcodemd-4-задач)
-- [`docs/contacts/dmitriila.md` (4 задач)](#docscontactsdmitriilamd-4-задач)
-- [`docs/contacts/kksudo.md` (3 задач)](#docscontactskksudomd-3-задач)
-- [`docs/contacts/mixaill76.md` (4 задач)](#docscontactsmixaill76md-4-задач)
-- [`docs/contacts/nlaik.md` (3 задач)](#docscontactsnlaikmd-3-задач)
-- [`docs/contacts/sonia-black.md` (4 задач)](#docscontactssonia-blackmd-4-задач)
-- [`docs/contacts/spbmolot.md` (3 задач)](#docscontactsspbmolotmd-3-задач)
-- [`docs/contacts/tagir-analyzes.md` (4 задач)](#docscontactstagir-analyzesmd-4-задач)
-- [`docs/contacts/vitalyoborin.md` (3 задач)](#docscontactsvitalyoborinmd-3-задач)
-- [`docs/contacts/vladspace.md` (4 задач)](#docscontactsvladspacemd-4-задач)
-- [`docs/contacts/zodigancode.md` (3 задач)](#docscontactszodigancodemd-3-задач)
-- [`docs/meta-scripting/01-concept.md` (1 задач)](#docsmeta-scripting01-conceptmd-1-задач)
-- [`docs/nautilus/review-methodology/10-checklist.md` (18 задач)](#docsnautilusreview-methodology10-checklistmd-18-задач)
-- [`docs/obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач)](#docsobsidian02-anthropic-vacancies116-9-checklist-применения-методологииmd-18-задач)
-- [`docs/obsidian/02-anthropic-vacancies/69-section.md` (1 задач)](#docsobsidian02-anthropic-vacancies69-sectionmd-1-задач)
-- [`docs/obsidian/FAQ.md` (1 задач)](#docsobsidianfaqmd-1-задач)
-- [`docs/obsidian/MISSING.md` (1 задач)](#docsobsidianmissingmd-1-задач)
-- [`docs/obsidian/PROTOTYPE_SPEC.md` (2 задач)](#docsobsidianprototype_specmd-2-задач)
-- [`docs/obsidian/SCRIPTS_CATALOG.md` (1 задач)](#docsobsidianscripts_catalogmd-1-задач)
-- [`docs/obsidian/STATS.md` (1 задач)](#docsobsidianstatsmd-1-задач)
-- [`docs/obsidian/TABLES.md` (1 задач)](#docsobsidiantablesmd-1-задач)
-- [`docs/obsidian/autofilled/research-summary.md` (2 задач)](#docsobsidianautofilledresearch-summarymd-2-задач)
-- [`docs/obsidian/contacts/anastasiyaw.md` (3 задач)](#docsobsidiancontactsanastasiyawmd-3-задач)
-- [`docs/obsidian/contacts/andrey-chuyan.md` (4 задач)](#docsobsidiancontactsandrey-chuyanmd-4-задач)
-- [`docs/obsidian/contacts/antipozitive.md` (3 задач)](#docsobsidiancontactsantipozitivemd-3-задач)
-- [`docs/obsidian/contacts/cutcode.md` (4 задач)](#docsobsidiancontactscutcodemd-4-задач)
-- [`docs/obsidian/contacts/dmitriila.md` (4 задач)](#docsobsidiancontactsdmitriilamd-4-задач)
-- [`docs/obsidian/contacts/kksudo.md` (3 задач)](#docsobsidiancontactskksudomd-3-задач)
-- [`docs/obsidian/contacts/mixaill76.md` (4 задач)](#docsobsidiancontactsmixaill76md-4-задач)
-- [`docs/obsidian/contacts/nlaik.md` (3 задач)](#docsobsidiancontactsnlaikmd-3-задач)
-- [`docs/obsidian/contacts/sonia-black.md` (4 задач)](#docsobsidiancontactssonia-blackmd-4-задач)
-- [`docs/obsidian/contacts/spbmolot.md` (3 задач)](#docsobsidiancontactsspbmolotmd-3-задач)
-- [`docs/obsidian/contacts/tagir-analyzes.md` (4 задач)](#docsobsidiancontactstagir-analyzesmd-4-задач)
-- [`docs/obsidian/contacts/vitalyoborin.md` (3 задач)](#docsobsidiancontactsvitalyoborinmd-3-задач)
-- [`docs/obsidian/contacts/vladspace.md` (4 задач)](#docsobsidiancontactsvladspacemd-4-задач)
-- [`docs/obsidian/contacts/zodigancode.md` (3 задач)](#docsobsidiancontactszodigancodemd-3-задач)
-- [`docs/obsidian/meta-scripting/01-concept.md` (1 задач)](#docsobsidianmeta-scripting01-conceptmd-1-задач)
-- [`docs/obsidian/nautilus/review-methodology/10-checklist.md` (18 задач)](#docsobsidiannautilusreview-methodology10-checklistmd-18-задач)
-- [`docs/obsidian/templates/agent-spec.md` (3 задач)](#docsobsidiantemplatesagent-specmd-3-задач)
-- [`docs/obsidian/templates/contact-outreach.md` (4 задач)](#docsobsidiantemplatescontact-outreachmd-4-задач)
-- [`docs/obsidian/templates/contradiction-record.md` (3 задач)](#docsobsidiantemplatescontradiction-recordmd-3-задач)
-- [`docs/obsidian/templates/decision-record.md` (1 задач)](#docsobsidiantemplatesdecision-recordmd-1-задач)
-- [`docs/obsidian/templates/experiment-log.md` (2 задач)](#docsobsidiantemplatesexperiment-logmd-2-задач)
-- [`docs/obsidian/templates/kpi-snapshot.md` (3 задач)](#docsobsidiantemplateskpi-snapshotmd-3-задач)
-- [`docs/obsidian/templates/legal-case.md` (2 задач)](#docsobsidiantemplateslegal-casemd-2-задач)
-- [`docs/obsidian/templates/meeting-notes.md` (2 задач)](#docsobsidiantemplatesmeeting-notesmd-2-задач)
-- [`docs/obsidian/templates/prototype-mvp.md` (16 задач)](#docsobsidiantemplatesprototype-mvpmd-16-задач)
-- [`docs/obsidian/templates/research-note.md` (2 задач)](#docsobsidiantemplatesresearch-notemd-2-задач)
-- [`docs/obsidian/templates/retrospective.md` (2 задач)](#docsobsidiantemplatesretrospectivemd-2-задач)
-- [`docs/obsidian/templates/template-of-templates.md` (7 задач)](#docsobsidiantemplatestemplate-of-templatesmd-7-задач)
-- [`docs/obsidian/templates/weekly-digest.md` (3 задач)](#docsobsidiantemplatesweekly-digestmd-3-задач)
-- [`docs/templates/agent-spec.md` (3 задач)](#docstemplatesagent-specmd-3-задач)
-- [`docs/templates/contact-outreach.md` (4 задач)](#docstemplatescontact-outreachmd-4-задач)
-- [`docs/templates/contradiction-record.md` (3 задач)](#docstemplatescontradiction-recordmd-3-задач)
-- [`docs/templates/decision-record.md` (1 задач)](#docstemplatesdecision-recordmd-1-задач)
-- [`docs/templates/experiment-log.md` (2 задач)](#docstemplatesexperiment-logmd-2-задач)
-- [`docs/templates/kpi-snapshot.md` (3 задач)](#docstemplateskpi-snapshotmd-3-задач)
-- [`docs/templates/legal-case.md` (2 задач)](#docstemplateslegal-casemd-2-задач)
-- [`docs/templates/meeting-notes.md` (2 задач)](#docstemplatesmeeting-notesmd-2-задач)
-- [`docs/templates/prototype-mvp.md` (16 задач)](#docstemplatesprototype-mvpmd-16-задач)
-- [`docs/templates/research-note.md` (2 задач)](#docstemplatesresearch-notemd-2-задач)
-- [`docs/templates/retrospective.md` (2 задач)](#docstemplatesretrospectivemd-2-задач)
-- [`docs/templates/template-of-templates.md` (7 задач)](#docstemplatestemplate-of-templatesmd-7-задач)
-- [`docs/templates/weekly-digest.md` (3 задач)](#docstemplatesweekly-digestmd-3-задач)
-- [Создание через gh CLI](#создание-через-gh-cli)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
 
 <!-- toc-auto -->
 
@@ -107,7 +20,7 @@ date: 2026-05-12
 > `GITHUB_ISSUES` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
 Найдено задач: **293**
 
@@ -154,7 +67,8 @@ _Обновлено: 2026-05-11_
 
 ## `docs/SCRIPTS_CATALOG.md` (1 задач)
 
-- [ ] **из docs/. | |**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 3 [91. Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
+- [ ] **⭐ To Do — задача к выполнению 10 [Словарь аббревиатур и сокращений]**  _`docs`, `automation`_
 
 ## `docs/SPELLCHECK.md` (1 задач)
 
@@ -162,7 +76,7 @@ _Обновлено: 2026-05-11_
 
 ## `docs/STATS.md` (1 задач)
 
-- [ ] **меток: 109**  _`docs`, `automation`_
+- [ ] **меток: 110**  _`docs`, `automation`_
 
 ## `docs/TABLES.md` (1 задач)
 
@@ -333,7 +247,7 @@ _Обновлено: 2026-05-11_
 
 ## `docs/obsidian/STATS.md` (1 задач)
 
-- [ ] **меток: 109**  _`docs`, `automation`_
+- [ ] **меток: 113**  _`docs`, `automation`_
 
 ## `docs/obsidian/TABLES.md` (1 задач)
 
@@ -667,17 +581,6 @@ python scripts/improve_github_issues.py
 - [[CONTACTS|Контакты]]
 - [[SCORING|Оценка]]
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[10-checklist]]
-- [[116-9-checklist-применения-методологии]]
-- [[WORD_FREQ]]
-- [[KEYWORD_INDEX]]
-
-
 <!-- backlinks -->
 
 ---
@@ -691,4 +594,15 @@ python scripts/improve_github_issues.py
 - [[SEARCH]]
 - [[TABLES]]
 - [[10-checklist]]
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[10-checklist]]
+- [[116-9-checklist-применения-методологии]]
+- [[CONTACTS]]
+- [[CONTACT_PRIORITY]]
 

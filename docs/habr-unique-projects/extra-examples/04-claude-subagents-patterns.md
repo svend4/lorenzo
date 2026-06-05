@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Claude subagents patterns
 
 <!-- toc-auto -->

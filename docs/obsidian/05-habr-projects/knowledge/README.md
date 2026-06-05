@@ -2,7 +2,7 @@
 title: "Системы знаний"
 tags:
   - habr-projects
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Системы знаний
@@ -10,7 +10,19 @@ date: 2026-05-12
 <!-- toc-auto -->
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> wikontic (сходство 0.19) README (сходство 0.17) README (сходство 0.10) Кто ссылается на этот документ (3) Документ индексирован в базе знаний репозитория.
+Похожие документы
+ wikontic (сходство 0.19)
+ README (сходство 0.17)
+ README (сходство 0.10)
+ --
+Кто ссылается на этот документ (3)
+ README
+ wikontic
+ README
+Использование
+ 
+Документ индексирован в базе знаний репозитория.
 
 <!-- summary: Проекты слоя knowledge: AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, Rufler[^rufler], Wikontic, LiteParse -->
 <!-- tags: knowledge, agentfs, knowledge-space, mclaude, rufler, wikontic -->

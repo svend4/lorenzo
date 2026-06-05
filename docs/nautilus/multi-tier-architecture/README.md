@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # multi-tier-architecture
 
 > [!NOTE]
@@ -8,7 +12,21 @@
 
 
 <!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+> Раздел README формируется автоматически из данных репозитория. 00-question-multi-tier.md — 01-strategic-significance.md — Кто ссылается на этот документ (7):
+Содержание
+ 00-question-multi-tier.md —  
+ 01-strategic-significance.md —  
+ --
+Кто ссылается на этот документ (7):
+ OUTLINE
+ READABILITY
+ READING_TIME
+ SEARCH
+ TABLES
+ 00-question-multi-tier
+ 01-strategic-significance
+ --
+Похожие документы
 
 
 **Файлов:** 2

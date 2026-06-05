@@ -1,23 +1,21 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/SCHEDULE.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 h1. Расписание проекта
 
 
-{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
-----
-
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SCHEDULE}} формируется автоматически из данных репозитория.{quote}
 
 
 
 
-{quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
+
+{quote}{{SCHEDULE}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -72,29 +70,36 @@ h2. Текущий статус
 * Текущая фаза: _Контакты с авторами_
 * Следующая веха: _⬜ Написать авторам AgentFS, Yodoca, NGT_
 
+h2. Смотрите также
+* [Главная|README.md]
+* [Метрики|METRICS.md]
+* [Здоровье|HEALTH.md]
+* [Глоссарий|GLOSSARY.md]
+* [Сущности|ENTITIES.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [DENSITY|DENSITY.md]
+* [HEATMAP|HEATMAP.md]
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 1_
+
+
 
 
 ----
 
 _Смотрите также:_
-* [DENSITY|DENSITY.md]
-* [PROGRESS|PROGRESS.md]
-* [SCORING|SCORING.md]
-* [HEATMAP|HEATMAP.md]
-
-
-
-
-----
-
-_Кто ссылается на этот документ (10):_
-* [COST|COST.md]
-* [INDEX|INDEX.md]
-* [OUTLINE|OUTLINE.md]
-* [PROGRESS|PROGRESS.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SCORING|SCORING.md]
-* _...ещё 2_
+* [SUMMARIES|SUMMARIES.md]
+* [GRAPH|GRAPH.md]
+* [MINDMAP|MINDMAP.md]
+* [COVERAGE|COVERAGE.md]
 

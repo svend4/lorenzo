@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Question 3: Что Lorenzo фактически делает?
 
 <!-- toc-auto -->

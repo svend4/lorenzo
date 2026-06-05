@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 22. Glossary of Reference Examples
@@ -31,7 +31,13 @@ h2. Contents
 
 
 
-{quote}В качестве иллюстраций используется экосистема {{svend4}} с 7 Repos:{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. Glossary of Reference Examples Кто ссылается на этот документ (5) В качестве иллюстраций используется экосистема svend4 с 7 Repos:{quote}
+ Похожие документы
+ Использование
+ Смотрите также
+ Кто ссылается на этот документ (5)
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования.{quote}
 
 ----
 

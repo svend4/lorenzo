@@ -7,7 +7,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 15. Security Considerations
@@ -47,7 +47,10 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> Adapters выполняются внутри Portal-процесса. Portal MUST
+> > ✅ Результат: Для приватных Repos RECOMMENDED: - Отдельный private-nautilus.json с explicit opt-in - Отдельный portal instance, не доступный публично - Authentication на REST API (JWT / API keys
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [[memnet|!IMPO
 
 ---
 
@@ -73,7 +76,7 @@ SHOULD НЕ включаться в публичную registry.
 
 Для приватных Repos RECOMMENDED:
 
-- Отдельный `private-[[memnet|nautilus]].json` с explicit opt-in
+- Отдельный `private-[nautilus]].json` с explicit opt-in
 - Отдельный portal instance, не доступный публично
 - Authentication на REST API (JWT / API keys)
 - Нет MCP exposure без whitelist

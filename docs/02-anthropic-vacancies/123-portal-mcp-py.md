@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # portal-mcp.py
 
 <!-- abstract-auto -->
@@ -15,7 +19,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Exposes Nautilus Portal as Model Context Protocol tools for LLM clients
+> * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры. * portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры 🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.
+ 
+> Абстракт (авто)
+>
+> 🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.
 
 ---
 

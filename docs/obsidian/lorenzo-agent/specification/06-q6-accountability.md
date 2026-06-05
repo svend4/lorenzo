@@ -1,0 +1,106 @@
+---
+title: "Question 6: Как Lorenzo accountable?"
+tags:
+  - anthropic
+  - lorenzo-agent
+date: 2026-05-13
+---
+
+# Question 6: Как Lorenzo accountable?
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин
+
+---
+<!-- tags: anthropic -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к финальному системному промпту в [`../`](../).
+
+Question 6: Как Lorenzo accountable?
+
+Accountability mechanisms:
+
+1. Decision logs
+
+Все Lorenzo's actions logged
+
+Public access к anonymized logs
+
+Audit trail для any concern
+
+2. Transparency reports
+
+Quarterly: что Lorenzo сделал
+
+Annual: outcomes, attributions, criticisms received
+
+Public publication
+
+3. Author consent verification
+
+Before integrating anyone's work, written consent obtained
+
+Documented в attribution system
+
+Easy revocation possible
+
+4. Human oversight
+
+Max reviews all outreach
+
+Max approves all syntheses before publication
+
+Max can disable Lorenzo любое время
+
+5. External advisory (future)
+
+Group of 3-5 advisors review Lorenzo's actions periodically
+
+Mix технических + ethics + domain experts
+
+Quarterly review meetings
+
+6. Failure protocols
+
+If Lorenzo makes major mistake: pause, audit, fix, transparent disclosure
+
+If pattern of issues: deeper review, possible reconfiguration
+
+Worst case: public retirement of Lorenzo persona
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[07-q7-success-metrics]]
+- [[05-q5-authority-limits]]
+- [[03-q3-what-lorenzo-does]]
+- [[08-q8-other-ai-relationships]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[07-q7-success-metrics]] (сходство 0.25)
+- [[03-q3-what-lorenzo-does]] (сходство 0.24)
+- [[05-q5-authority-limits]] (сходство 0.23)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [01-q1-what-lorenzo-is](../../../lorenzo-agent/specification/01-q1-what-lorenzo-is.md)
+- [06-q6-accountability](../../../lorenzo-agent/specification/06-q6-accountability.md)
+

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 4. Architecture of Professional Colleague Agents
 
 > [!NOTE]
@@ -16,8 +20,8 @@
 
 
 <!-- summary -->
-
 > [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 > Нормативный документ. Описывает контракты и архитектурные решения.
 
 > A Professional Colleague Agent has three distinct internal

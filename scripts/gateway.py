@@ -13,9 +13,10 @@ Lorenzo Gateway — OpenAI-compatible HTTP gateway for Svyazi 2.0.
   - без Redis, без Docker — одна команда: python scripts/gateway.py
 
 Эндпоинты:
-    POST /v1/chat/completions  — OpenAI API (с function calling)
+    POST /v1/chat/completions  — OpenAI API (с function calling + SSE streaming)
     POST /api/ask              — прямой RAG-запрос
     POST /api/cards            — добавить карточку (обогащение)
+    GET  /api/graph            — граф карточек + PageRank (CARD_GRAPH.json)
     GET  /api/status           — статистика корпуса
     GET  /api/health           — health check
     GET  /v1/models            — список моделей
@@ -51,6 +52,7 @@ from typing import Any
 try:
     from fastapi import FastAPI, HTTPException
     from fastapi.middleware.cors import CORSMiddleware
+    from fastapi.responses import StreamingResponse
     from pydantic import BaseModel
     import uvicorn
 except ImportError:
@@ -86,8 +88,61 @@ app.add_middleware(
 
 # ── Индексы (lazy load, кэш в памяти) ──────────────────────────────────────
 
-_INDEX: list[dict] | None = None
+_INDEX:    list[dict] | None = None
 _PASSAGES: list[dict] | None = None
+_PAGERANK: dict[str, float] | None = None
+
+# Duplicate/mirror directory prefixes — obsidian and confluence exports are
+# verbatim copies of the canonical docs; exclude them from all search results
+# so canonical documents surface instead.
+_SKIP_PREFIXES = (
+    "docs/obsidian/",
+    "docs/confluence/",
+)
+
+# Meta/aggregate documents that contain the entire corpus in extracted form.
+# They match almost every query (high recall, low precision) and should be
+# excluded from passage-based BM25 so content documents can surface.
+_BM25_SKIP = frozenset({
+    "docs/TABLES.md",
+    "docs/OUTLINE.md",
+    "docs/SITEMAP.md",
+    "docs/READING_ORDER.md",
+    "docs/REGISTRY.md",
+    "docs/INDEX.md",
+    "docs/SCRIPTS_CATALOG.md",
+    "docs/TASKS_INDEX.md",
+})
+
+
+def _is_duplicate(path: str) -> bool:
+    """Return True for obsidian/confluence mirror paths."""
+    return any(path.startswith(pfx) for pfx in _SKIP_PREFIXES)
+
+
+QUERY_LOG = ROOT / ".claude" / "query_log.jsonl"
+
+
+def _log_query(query: str, results_count: int, latency_ms: float, source: str = "api") -> None:
+    """Append one line to query_log.jsonl — used by improve_query_log.py analytics."""
+    try:
+        QUERY_LOG.parent.mkdir(parents=True, exist_ok=True)
+        entry = json.dumps({
+            "ts":      datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            "query":   query,
+            "results": results_count,
+            "ms":      round(latency_ms, 1),
+            "source":  source,
+        }, ensure_ascii=False)
+        with QUERY_LOG.open("a", encoding="utf-8") as f:
+            f.write(entry + "\n")
+    except Exception:
+        pass  # logging must never break the request
+
+# Top synthetic hub — inflated in-degree due to autofill cross-references.
+# Cap its pagerank contribution so it doesn't dominate all queries.
+_PAGERANK_CAP = 0.4
+_PAGERANK_ALPHA = 0.3  # boost weight: score *= (1 + alpha * pagerank)
 
 
 def _load_index() -> list[dict]:
@@ -110,9 +165,33 @@ def _load_passages() -> list[dict]:
     return _PASSAGES
 
 
+def _load_pagerank() -> dict[str, float]:
+    global _PAGERANK
+    if _PAGERANK is None:
+        # Primary: CARD_GRAPH.json (richer per-card PageRank with state filtering).
+        # Fallback: pagerank.json (doc-level scores from improve_pagerank.py over all
+        # markdown links). Both use repo-relative paths as keys.
+        _PAGERANK = {}
+        card_graph = DOCS / "CARD_GRAPH.json"
+        if card_graph.exists():
+            data = json.loads(card_graph.read_text(encoding="utf-8"))
+            _PAGERANK.update({
+                n["id"]: min(n.get("pagerank", 0), _PAGERANK_CAP)
+                for n in data.get("nodes", [])
+            })
+        pr_doc = DOCS / "pagerank.json"
+        if pr_doc.exists():
+            doc_scores = json.loads(pr_doc.read_text(encoding="utf-8"))
+            for path, score in doc_scores.items():
+                if path not in _PAGERANK:
+                    _PAGERANK[path] = min(score, _PAGERANK_CAP)
+    return _PAGERANK
+
+
 def _invalidate_index() -> None:
-    global _INDEX
+    global _INDEX, _PAGERANK
     _INDEX = None
+    _PAGERANK = None
 
 # ── Поиск (полностью наш, без внешних зависимостей) ────────────────────────
 
@@ -125,6 +204,8 @@ def _tfidf_search(query: str, top_k: int = 10) -> list[dict]:
     tokens = set(_tokenize(query))
     scored: list[tuple[float, dict]] = []
     for d in docs:
+        if _is_duplicate(d.get("path", "")):
+            continue
         parts = [
             (d.get("title") or "") + " " + (d.get("title") or ""),  # двойной вес заголовка
             d.get("summary") or "",
@@ -136,6 +217,10 @@ def _tfidf_search(query: str, top_k: int = 10) -> list[dict]:
             continue
         score = sum(words.count(t) for t in tokens) / len(words)
         if score > 0:
+            # Extra boost when query tokens overlap with document title
+            title_tokens = set(_tokenize(d.get("title") or ""))
+            title_overlap = len(tokens & title_tokens) / max(len(tokens), 1)
+            score *= (1 + 2.5 * title_overlap)
             scored.append((score, d))
     scored.sort(key=lambda x: x[0], reverse=True)
     return [d for _, d in scored[:top_k]]
@@ -148,16 +233,24 @@ def _bm25_search(query: str, top_k: int = 10) -> list[dict]:
         return []
 
     k1, b = 1.5, 0.75
-    N = len(passages)
-    avgdl = sum(len(_tokenize(p.get("text", ""))) for p in passages) / max(N, 1)
+    # Exclude meta-aggregator documents and obsidian/confluence mirror paths.
+    active = [
+        p for p in passages
+        if p.get("source", "") not in _BM25_SKIP
+        and not _is_duplicate(p.get("source", ""))
+    ]
+    N = len(active)
+    if N == 0:
+        return []
+    avgdl = sum(len(_tokenize(p.get("text", ""))) for p in active) / N
 
     idf: dict[str, float] = {}
     for t in set(tokens):
-        df = sum(1 for p in passages if t in _tokenize(p.get("text", "")))
+        df = sum(1 for p in active if t in _tokenize(p.get("text", "")))
         idf[t] = math.log((N - df + 0.5) / (df + 0.5) + 1)
 
     scored: dict[str, float] = {}
-    for p in passages:
+    for p in active:
         src = p.get("source", "")
         words = _tokenize(p.get("text", ""))
         dl = len(words)
@@ -180,10 +273,11 @@ def _bm25_search(query: str, top_k: int = 10) -> list[dict]:
     return results
 
 
-def hybrid_search(query: str, top_k: int = 10) -> list[dict]:
-    """0.6×TF-IDF + 0.4×BM25 fusion — наш основной поиск."""
+def hybrid_search(query: str, top_k: int = 10, pagerank_boost: bool = True) -> list[dict]:
+    """0.6×TF-IDF + 0.4×BM25 RRF fusion с опциональным PageRank-бустом."""
     tfidf = _tfidf_search(query, top_k * 2)
     bm25  = _bm25_search(query, top_k * 2)
+    pr    = _load_pagerank()
 
     scores: dict[str, float] = {}
     for rank, d in enumerate(tfidf):
@@ -192,6 +286,12 @@ def hybrid_search(query: str, top_k: int = 10) -> list[dict]:
     for rank, d in enumerate(bm25):
         p = d.get("path", "")
         scores[p] = scores.get(p, 0) + 0.4 * (1 / (rank + 1))
+
+    # Multiplicative PageRank authority bonus — boosts highly-linked documents
+    # that would otherwise lose to more narrowly focused files on the same topic.
+    if pagerank_boost and pr:
+        for p in list(scores):
+            scores[p] *= (1 + _PAGERANK_ALPHA * pr.get(p, 0))
 
     path_to_doc = {d.get("path", ""): d for d in _load_index()}
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
@@ -344,17 +444,99 @@ def _exec_get_card(args: dict) -> str:
     return path.read_text(encoding="utf-8", errors="ignore")[:5000]
 
 
+def _cosine_sim(a: str, b: str) -> float:
+    """Простое косинусное сходство двух строк по TF-весам."""
+    def tf(text: str) -> dict:
+        words = _tokenize(text)
+        freq: dict[str, int] = {}
+        for w in words:
+            freq[w] = freq.get(w, 0) + 1
+        return freq
+    fa, fb = tf(a), tf(b)
+    keys = set(fa) | set(fb)
+    dot = sum(fa.get(k, 0) * fb.get(k, 0) for k in keys)
+    na  = sum(v * v for v in fa.values()) ** 0.5
+    nb  = sum(v * v for v in fb.values()) ** 0.5
+    return dot / (na * nb) if na and nb else 0.0
+
+
+def _find_duplicate(title: str, content: str, threshold: float = 0.85) -> dict | None:
+    """Проверить, есть ли уже карточка с похожим содержимым."""
+    query_text = f"{title} {content[:500]}"
+    for doc in _load_index()[:200]:  # проверяем топ по заголовку
+        existing = f"{doc.get('title', '')} {(doc.get('content') or doc.get('preview', ''))[:500]}"
+        if _cosine_sim(query_text, existing) >= threshold:
+            return doc
+    return None
+
+
+def _sync_passages(filepath: "Path") -> None:
+    """Добавить абзацы нового файла в passages.json без полной пересборки."""
+    import math
+    passages_path = DOCS / "passages.json"
+    try:
+        text = filepath.read_text(encoding="utf-8")
+        rel  = str(filepath.relative_to(ROOT))
+        # Разбить на абзацы (≥ 5 слов)
+        new_passages = []
+        for para in re.split(r"\n{2,}", text):
+            para = para.strip()
+            words = _tokenize(para)
+            if len(words) >= 5:
+                new_passages.append({
+                    "file": rel,
+                    "text": para[:800],
+                    "wc":   len(words),
+                    "tokens": words,
+                })
+        if not new_passages:
+            return
+        # Загрузить существующие passages
+        if passages_path.exists():
+            raw = json.loads(passages_path.read_text(encoding="utf-8"))
+            existing = raw.get("passages", raw) if isinstance(raw, dict) else raw
+        else:
+            existing = []
+        combined = existing + new_passages
+        # Пересчитать BM25-индекс
+        N    = len(combined)
+        avgdl = sum(p["wc"] for p in combined) / max(N, 1)
+        df: dict[str, int] = {}
+        for p in combined:
+            for t in set(p["tokens"]):
+                df[t] = df.get(t, 0) + 1
+        idf = {t: math.log((N - n + 0.5) / (n + 0.5) + 1) for t, n in df.items()}
+        passages_path.write_text(
+            json.dumps({"passages": combined, "idf": idf, "avgdl": avgdl, "N": N},
+                       ensure_ascii=False),
+            encoding="utf-8",
+        )
+    except Exception:
+        pass
+
+
 def _exec_add_card(args: dict) -> str:
     title   = args["title"]
     content = args["content"]
     section = args.get("section", "04-ai-collaborations")
     tags    = args.get("tags") or []
 
+    # Дедупликация: проверить наличие похожей карточки
+    dup = _find_duplicate(title, content)
+    if dup:
+        return (
+            f"Дубль найден (сходство ≥ 0.85): **{dup.get('title', '?')}**\n"
+            f"Путь: {dup.get('path', '?')}\n"
+            f"Карточка не создана. Используйте существующую или передайте уникальный контент."
+        )
+
     slug       = re.sub(r"[^a-zа-яё0-9]+", "-", title.lower()).strip("-")[:50]
     target_dir = DOCS / section
     target_dir.mkdir(parents=True, exist_ok=True)
 
-    date     = datetime.now().strftime("%Y-%m-%d")
+    now      = datetime.now()
+    date     = now.strftime("%Y-%m-%d")
+    written_at = now.strftime("%Y-%m-%dT%H:%M:%S")
     tags_str = ", ".join(tags)
     preview  = content[:200].replace("\n", " ")
 
@@ -363,6 +545,10 @@ title: {title}
 date: {date}
 tags: [{tags_str}]
 source: gateway
+state: raw
+write_type: episode
+written_by: gateway
+written_at: {written_at}
 ---
 
 # {title}
@@ -380,8 +566,7 @@ _Добавлено через Lorenzo Gateway: {date}_
     filepath = target_dir / f"{slug}.md"
     filepath.write_text(md, encoding="utf-8")
 
-    # Инкрементально обновить search_index.json, чтобы новая карточка
-    # была доступна через поиск без перезапуска сервера
+    # 1. Обновить search_index.json
     try:
         import subprocess
         subprocess.run(
@@ -390,9 +575,16 @@ _Добавлено через Lorenzo Gateway: {date}_
         )
     except Exception:
         pass
-    _invalidate_index()  # сбросить in-memory кэш
+    _invalidate_index()
 
-    return f"Карточка создана: {filepath.relative_to(ROOT)}\nЗаголовок: {title}\nТеги: {tags_str}"
+    # 2. Синхронизировать passages.json (BM25)
+    _sync_passages(filepath)
+
+    return (
+        f"✅ Карточка создана: {filepath.relative_to(ROOT)}\n"
+        f"Заголовок: {title}\nТеги: {tags_str}\n"
+        f"Статус: raw (используйте Review Queue для одобрения)"
+    )
 
 
 def _exec_find_collabs(args: dict) -> str:
@@ -502,7 +694,9 @@ def _intent(text: str) -> str:
 
 def _rag_answer(query: str, top_k: int = 8) -> str:
     """RAG без LLM — возвращает контекст из корпуса."""
+    t0 = time.time()
     results = hybrid_search(query, top_k)
+    _log_query(query, len(results), (time.time() - t0) * 1000, source="chat")
     if not results:
         return "По запросу ничего не найдено в базе знаний Lorenzo."
     lines = [f"**Результаты поиска по базе знаний** для: «{query}»\n"]
@@ -553,6 +747,36 @@ def _openai_response(t0: float, model: str, content: str, finish: str = "stop") 
         "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0},
         "_meta":  {"latency_s": round(time.time() - t0, 3)},
     }
+
+
+def _stream_response(t0: float, model: str, content: str):
+    """Generator yielding OpenAI-compatible SSE chunks."""
+    import asyncio
+    chunk_id = f"chatcmpl-{int(t0 * 1000)}"
+    created  = int(t0)
+    words    = content.split(" ")
+    # Role chunk first
+    yield "data: " + json.dumps({
+        "id": chunk_id, "object": "chat.completion.chunk", "created": created,
+        "model": model,
+        "choices": [{"index": 0, "delta": {"role": "assistant", "content": ""}, "finish_reason": None}],
+    }, ensure_ascii=False) + "\n\n"
+    # Content chunks — word by word
+    for i, word in enumerate(words):
+        piece = word if i == 0 else " " + word
+        yield "data: " + json.dumps({
+            "id": chunk_id, "object": "chat.completion.chunk", "created": created,
+            "model": model,
+            "choices": [{"index": 0, "delta": {"content": piece}, "finish_reason": None}],
+        }, ensure_ascii=False) + "\n\n"
+    # Stop chunk
+    yield "data: " + json.dumps({
+        "id": chunk_id, "object": "chat.completion.chunk", "created": created,
+        "model": model,
+        "choices": [{"index": 0, "delta": {}, "finish_reason": "stop"}],
+        "_meta": {"latency_s": round(time.time() - t0, 3)},
+    }, ensure_ascii=False) + "\n\n"
+    yield "data: [DONE]\n\n"
 
 
 def _openai_tool_call(t0: float, model: str, tool_name: str, tool_args: dict) -> dict:
@@ -623,6 +847,8 @@ async def status():
         "llm_enabled":    bool(os.environ.get("ANTHROPIC_API_KEY")),
         "ann_enabled":    _ANN_AVAILABLE,
         "search_modes":   ["hybrid", "ann"] if _ANN_AVAILABLE else ["hybrid"],
+        "pagerank_nodes": len(_load_pagerank()),
+        "pagerank_boost": True,
     }
 
 
@@ -647,7 +873,7 @@ async def benchmark():
     hit_rate = None
     prec_file = DOCS / "PRECISION_EVAL.md"
     if prec_file.exists():
-        m = _re.search(r'Hit Rate@10\s*\|\s*\*\*([\d.]+)\*\*', prec_file.read_text(encoding="utf-8"))
+        m = _re.search(r'Hit Rate@\d+\s*\|\s*\*\*([\d.]+)\*\*', prec_file.read_text(encoding="utf-8"))
         if m:
             hit_rate = float(m.group(1))
 
@@ -685,13 +911,15 @@ async def ask(req: AskRequest):
         for r in results
     )
     answer = _llm_answer(req.query, context) or context
+    latency_ms = (time.time() - t0) * 1000
+    _log_query(req.query, len(results), latency_ms, source="ask")
     return {
         "query":       req.query,
         "answer":      answer,
         "results":     results,
         "search_mode": search_mode,
         "ann_available": _ANN_AVAILABLE,
-        "latency_s":   round(time.time() - t0, 3),
+        "latency_s":   round(latency_ms / 1000, 3),
     }
 
 
@@ -704,11 +932,13 @@ async def search_endpoint(req: AskRequest):
     """
     t0      = time.time()
     results = hybrid_search(req.query, req.top_k)
+    latency_ms = (time.time() - t0) * 1000
+    _log_query(req.query, len(results), latency_ms, source="search")
     return {
         "query":     req.query,
         "results":   results,
         "count":     len(results),
-        "latency_s": round(time.time() - t0, 3),
+        "latency_s": round(latency_ms / 1000, 3),
     }
 
 
@@ -734,6 +964,47 @@ async def add_card_endpoint(req: CardRequest):
     """Добавить карточку в корпус (обогащение базы знаний)."""
     result = _exec_add_card(req.model_dump())
     return {"status": "created", "message": result}
+
+
+@app.get("/api/graph")
+async def get_graph(top: int = 100, state: str = ""):
+    """
+    Граф карточек: узлы + рёбра + PageRank.
+
+    Параметры:
+      top   — вернуть только top-N хабов по PageRank (0 = все)
+      state — фильтр по state (approved | normalized | raw | все)
+    """
+    graph_path = DOCS / "CARD_GRAPH.json"
+    if not graph_path.exists():
+        raise HTTPException(status_code=503, detail=(
+            "Граф не построен. Запустите: python scripts/improve_card_graph.py"
+        ))
+    data = json.loads(graph_path.read_text(encoding="utf-8"))
+    nodes = data.get("nodes", [])
+    edges = data.get("edges", [])
+
+    if state:
+        keep = {n["id"] for n in nodes if n.get("state") == state}
+        nodes = [n for n in nodes if n["id"] in keep]
+        edges = [e for e in edges if e["from"] in keep and e["to"] in keep]
+
+    if top and top < len(nodes):
+        nodes_sorted = sorted(nodes, key=lambda n: -n.get("pagerank", 0))[:top]
+        keep_ids = {n["id"] for n in nodes_sorted}
+        nodes = nodes_sorted
+        edges = [e for e in edges if e["from"] in keep_ids and e["to"] in keep_ids]
+
+    return {
+        "stats": {
+            "nodes": len(nodes),
+            "edges": len(edges),
+            **data.get("stats", {}),
+        },
+        "generated": data.get("generated"),
+        "nodes": nodes,
+        "edges": edges,
+    }
 
 
 @app.post("/v1/chat/completions")
@@ -774,12 +1045,18 @@ async def chat_completions(req: ChatRequest):
     elif intent == "get_contacts":
         raw = _exec_get_contacts({"project": user_msg})
     elif intent == "add_card":
-        # Недостаточно данных для add_card из одного сообщения — используем RAG
         raw = _rag_answer(user_msg)
     else:
         raw = _rag_answer(user_msg)
 
     answer = _llm_answer(user_msg, raw) or raw
+
+    if req.stream:
+        return StreamingResponse(
+            _stream_response(t0, req.model, answer),
+            media_type="text/event-stream",
+            headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"},
+        )
     return _openai_response(t0, req.model, answer)
 
 

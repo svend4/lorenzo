@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 3. Three Inter-Layer Protocols
 
 > [!IMPORTANT]

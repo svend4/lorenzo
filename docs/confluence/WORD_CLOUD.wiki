@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/WORD_CLOUD.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 h1. Word Cloud

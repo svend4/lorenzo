@@ -1,12 +1,12 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/HEALTH.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 h1. Health Dashboard
 
 
-{quote}Балл здоровья репозитория: _100/100_ — файлов: 2482, слов: 2,922,644{quote}
+{quote}Балл здоровья репозитория: _99/100_ — файлов: 2484, слов: 2,897,199{quote}
 
 
 
@@ -15,9 +15,9 @@ h1. Health Dashboard
 
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-13_
 
-h2. Общий балл: _100/100_ 🟢
+h2. Общий балл: _99/100_ 🟢
 
 h2. Метрики
 
@@ -25,13 +25,13 @@ h2. Метрики
 || Покрытие текста || 97.6% || 🟢 || 98 ||
 || Полнота тем || 25✅ 0⚠️ 0❌ || 🟢 || 100 ||
 || Согласованность || 0 проблем || 🟢 || 100 ||
-|| Внутренние ссылки || 0 сломано || 🟢 || 100 ||
+|| Внутренние ссылки || 80 сломано || 🟢 || 97 ||
 || Дублирование || 0 точных дублей || 🟢 || 100 ||
 
 h2. Структура репозитория
 
-_Файлов:_ 2482  
-_Слов:_ 2,922,644
+_Файлов:_ 2484  
+_Слов:_ 2,897,199
 
 || Раздел || Файлов ||
 || 01-svyazi || 16 ||
@@ -50,18 +50,18 @@ _Слов:_ 2,922,644
 || lorenzo-agent || 62 ||
 || meta-scripting || 7 ||
 || nautilus || 255 ||
-|| obsidian || 1238 ||
+|| obsidian || 1239 ||
 || processing-guide || 13 ||
-|| root || 114 ||
+|| root || 115 ||
 || svyazi-2-0 || 60 ||
 || technology-combinations || 53 ||
 || templates || 24 ||
 
 h2. Action Items
 
-Извлечено действий: _3515_  
+Извлечено действий: _3475_  
 Пробелов знаний: _0_  
-Сломанных ссылок: _0_
+Сломанных ссылок: _80_
 
 h2. Скрипты обработки
 
@@ -69,6 +69,7 @@ h2. Скрипты обработки
 
 h2. Рекомендации
 
+* 🔗 Проверить 80 сломанных ссылок ({{BROKEN_LINKS.md}})
 * ✅ Репозиторий в отличном состоянии!
 
 h2. Смотрите также
@@ -82,24 +83,24 @@ h2. Смотрите также
 
 ----
 
-_Смотрите также:_
-* [VALIDATION|VALIDATION.md]
-* [METRICS|METRICS.md]
-* [REPORT|REPORT.md]
+_Кто ссылается на этот документ (65):_
+* [QA|01-svyazi/QA.md]
+* [QA|02-anthropic-vacancies/QA.md]
+* [QA|03-technology-combinations/QA.md]
+* [QA|04-ai-collaborations/QA.md]
+* [QA|05-habr-projects/QA.md]
+* [ACTION_ITEMS|ACTION_ITEMS.md]
+* [ALERTS|ALERTS.md]
+* [BROKEN_LINKS|BROKEN_LINKS.md]
+* _...ещё 57_
 
 
 
 
 ----
 
-_Кто ссылается на этот документ (36):_
-* [BROKEN_LINKS|BROKEN_LINKS.md]
-* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
-* [CITATION_INDEX|CITATION_INDEX.md]
-* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
-* [CONTRADICTIONS|CONTRADICTIONS.md]
-* [CROSS_SECTION|CROSS_SECTION.md]
-* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
-* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
-* _...ещё 28_
+_Смотрите также:_
+* [VALIDATION|VALIDATION.md]
+* [METRICS|METRICS.md]
+* [REPORT|REPORT.md]
 

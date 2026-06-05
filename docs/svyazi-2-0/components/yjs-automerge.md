@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Yjs + Automerge
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Авторы: Kevin Jahns / Automerge team Проекты: Svyazi, Yjs, Automerge
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Авторы:** Kevin Jahns / Automerge team

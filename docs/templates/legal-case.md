@@ -1,4 +1,5 @@
 ---
+state: normalized
 template: legal-case
 version: "1.0"
 case_id: "[Aktenzeichen]"
@@ -13,7 +14,27 @@ tags: [legal, case]
 # Юридический кейс: [Aktenzeichen]
 
 <!-- summary -->
-> `legal-case` — раздел документации проекта Lorenzo.
+> _Создано: 2026-04-29_ Кто ссылается на этот документ (6): Заполните поля согласно инструкции. Aktenzeichen | [A 1 SO 123/24] | Тип | [Sozialgericht / Verwaltungsgericht / …] |
+ [ ] [Action 2]
+Связанные кейсы
+  --
+_Создано: 2026-04-29_
+ --
+Использование
+ 
+Смотрите также
+ ](...)
+ decision-record
+ --
+Кто ссылается на этот документ (6):
+ READABILITY
+ READING_TIME
+ REGISTRY
+ SEARCH
+ TABLES
+ README
+ --
+Похожие
 
 
 <!-- toc-auto -->

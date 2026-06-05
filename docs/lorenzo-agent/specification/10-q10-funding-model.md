@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Question 10: Funding model (Options A–F + Phase strategy)
 
 <!-- toc-auto -->

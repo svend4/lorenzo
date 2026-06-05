@@ -2,7 +2,7 @@
 title: "Content Overview"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Content Overview
@@ -23,7 +23,12 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> 1. **Концептуальная база** — [? уточнить объём: сколько концептов,
+> Документ содержит практические рекомендации и лучшие практики. подпапку или отдельную область) v53–v55: PPL-based experiments v56–v58: LCI metric exploration (target π)
+ v53–v55: PPL-based experiments
+ v56–v58: LCI metric exploration (target π)
+ v59: Archetypal Interlingua approach (failed, shared   
+     bottleneck)
+ v60–v61: NautilusYiJin — return to separate experts with Q6-routing
 
 ---
 <!-- tags: self-improvement, collaboration -->

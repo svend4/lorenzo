@@ -1,7 +1,11 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/275-why-this-document-exists.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+state: approved
+----
 
 h1. Why This Document Exists
 
@@ -36,7 +40,11 @@ h2. Содержание
 
 
 
-{quote}The seven preceding documents in this series were produced in{quote}
+{quote}_ If the project continues — and it should — the next phase needs different infrastructure than chat alone. _ Document 3 provides architectural pattern that Document 7 extends{quote}
+articulated this need directly: "an extended functional space 
+for project management, where one can return to messages, 
+comment them, branch from them, add to them — like blogs and 
+forums but adapted for AI-collaborative intellectual w
 
 ----
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Yodoca
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Источник: Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Источник:** Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1

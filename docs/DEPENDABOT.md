@@ -1,6 +1,11 @@
 # Мониторинг зависимостей
 
-_Обновлено: 2026-05-12_
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+_Обновлено: 2026-05-14_
 
 ## Python-зависимости
 
@@ -32,3 +37,18 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [ENTITIES](ENTITIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [WORD_CLOUD](WORD_CLOUD.md)
+- [QA](svyazi-2-0/QA.md)
+

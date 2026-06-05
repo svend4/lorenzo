@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 8. Implications for Nautilus and OKWF
 
 <!-- toc -->
@@ -28,7 +32,13 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Beyond InGit specifically, this positioning has implications
+> * Each can be added to practitioner's Cowork Project as needed. * OKWF Pilot Implications Document 4 (OKWF Concept) and Document 6 (Professional Colleague Agents) proposed SGB Advocate
+the InGit/Cowork combination available:
+Pilot architecture refined:
+ Each advocate has InGit Project for their case work
+ Cowork operates within these Projects
+ MCP server for SGB-specific knowledge (statutes, precedents)
+ Pattern Library integ
 
 ---
 

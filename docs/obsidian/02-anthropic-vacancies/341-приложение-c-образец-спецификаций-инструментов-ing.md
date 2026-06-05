@@ -2,7 +2,7 @@
 title: "Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
@@ -23,7 +23,10 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> Для справки, вот детальные спецификации для
+> > ✅ Результат: Уникальные свойства : - Knowledge written for agents, not humans — fundamentally different design - Domain-specific freshness thresholds : алгоритмы стабильны (обновлять не нужно),
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
 **Проекты:** Svyazi, CardIndex, [[03-component-catalog|knowledge-space]], Graph RAG, NGT Memory, Wikontic
 
 ---

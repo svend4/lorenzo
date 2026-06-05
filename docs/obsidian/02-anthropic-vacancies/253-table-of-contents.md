@@ -2,8 +2,9 @@
 title: "Table of Contents"
 tags:
   - anthropic
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # Table of Contents
@@ -34,10 +35,25 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> 1. **Why the Binary View Is Incomplete**
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Кто ссылается на этот документ (13) Why the Binary View Is Incomplete The Twenty-One Teachers Pattern
+ 
+Contents
+ Содержание
+ Table of Contents
+ Похожие документы
+ Использование
+ Смотрите также
+ Упоминается в
+ Упоминается в
+ Связанные документы
+ Связанные документы
+ Кто ссылается на этот документ (13)
+Содержание
+ Основной раздел
+> [
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, rag -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

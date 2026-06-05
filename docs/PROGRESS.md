@@ -1,25 +1,15 @@
 # Прогресс MVP
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
-
----
-<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
 
-_Обновлено: 2026-05-12 (improve_progress_sync.py)_
+_Обновлено: 2026-05-15 (manual sync — reconciled with actual repo state)_
 
 ## Ключевые этапы (Milestones)
 
-`███████████████░░░░░ 73%` 8/11
+`█████████████░░░░░░░ 64%` 7/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
@@ -31,24 +21,27 @@ _Обновлено: 2026-05-12 (improve_progress_sync.py)_
 ⬜ LLM-обогащение проектных файлов
 ✅ Создан рабочий прототип Knowledge OS
 ✅ Пройдено тестирование ансамбля
-✅ Опубликован MVP на GitHub
+⬜ Опубликован MVP на GitHub
 
 ## Состояние компонентов
 
 | Компонент | Статус | Детали |
 |-----------|--------|--------|
-| Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
+| Контакты авторов | ⚠️ 32 файла, не отправлено | 32 файла в docs/contacts/ (включая *_draft.md) |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 166 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 4 секций | python scripts/improve_llm_summary.py |
+| Скрипты обработки | ✅ 187 скриптов | 5 LLM-скриптов, MCP=✅, gateway=✅ |
+| docs-toolkit | ✅ v0.3.0, 489 модулей | 546 тестовых файлов, Phases I–IX закрыты (18 done / 3 отложены / 3 пропущены) |
+| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
+| CI workflows | ✅ test.yml + docs.yml | 5 джоб: python-syntax / unit-tests / mcp-smoke / validate-templates / validate-tasks / catalog-fresh; docs.yml открывает PR с метриками |
+| Прототип Knowledge OS | ✅ итерации 0–15 | RFC-система (3 Accepted), lifecycle (1005 approved), 23 proposals, gateway 8083, MCP 15+ инструментов |
 
 ## Метрики качества
 
 | Метрика | Балл | Статус |
 |---------|------|--------|
-| Здоровье репо (HEALTH) | 100.0/100 | 🟢 |
-| Качество доков (METRICS) | 95.9/100 | 🟢 |
+| Здоровье репо (HEALTH) | 99.0/100 | 🟢 |
+| Качество доков (METRICS) | 97.9/100 | 🟢 |
 | Go/No-Go (SCORING) | 96.0/100 | 🟢 |
 
 ## Следующий шаг
@@ -79,29 +72,306 @@ cat docs/contacts/anastasiyaw.md
 
 <!-- auto-end -->
 
-<!-- see-also -->
 
----
 
-**Смотрите также:**
-- [SCHEDULE](SCHEDULE.md)
-- [first-contacts](svyazi-2-0/outreach/first-contacts.md)
-- [DENSITY](DENSITY.md)
-- [INDEX](INDEX.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (13):**
+**Кто ссылается на этот документ (11):**
 - [07-mvp-planning](01-svyazi/07-mvp-planning.md)
 - [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
 - [CODE_BLOCKS](CODE_BLOCKS.md)
-- [CONTACTS](CONTACTS.md)
 - [DECISIONS](DECISIONS.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
-- _...ещё 5_
+- [READING_TIME](READING_TIME.md)
+- _...ещё 3_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SCHEDULE](SCHEDULE.md)
+- [ONBOARDING](ONBOARDING.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [INDEX](INDEX.md)
 

@@ -1,32 +1,17 @@
 # Оценка стоимости MVP
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
+<!-- toc-auto -->
 
----
-
-<!-- toc -->
-## Содержание
-
-- [Итого](#итого)
-- [По компонентам](#по-компонентам)
-- [По ролям](#по-ролям)
-- [Сценарии](#сценарии)
-- [Временные оценки из документов](#временные-оценки-из-документов)
-- [Допущения](#допущения)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, architecture, roadmap, collaboration -->
-
-
-
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `COST` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: cost, docs -->
+
+
+<!-- summary -->
+> `COST` — раздел документации проекта Lorenzo.
+
 
 _Ориентировочные цифры на основе документации проекта._
 
@@ -100,6 +85,34 @@ _Минимальный сценарий: open source + личное время 
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_cost.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
 <!-- see-also -->
 
 ---
@@ -107,22 +120,6 @@ _Минимальный сценарий: open source + личное время 
 **Смотрите также:**
 - [SCHEDULE](SCHEDULE.md)
 - [SCORING](SCORING.md)
-- [DENSITY](DENSITY.md)
-- [mvp-plan](svyazi-2-0/prototype/mvp-plan.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (9):**
-- [DENSITY](DENSITY.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SCORING](SCORING.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
+- [SUMMARIES](SUMMARIES.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
 

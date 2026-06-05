@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 20. ADR-002: Q6 as First-Class Protocol Concept
@@ -34,8 +34,8 @@ h2. Contents
 
 
 
-
 {quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}_Status_: Accepted (new in v1.1){quote}

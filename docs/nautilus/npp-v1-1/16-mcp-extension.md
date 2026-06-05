@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 16. MCP Extension (Informative)
 
 <!-- toc-auto -->

@@ -1,14 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "A Practical Path to Layer B Through Symbiotic Integration"
 tags:
   * architecture
+  * rag
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. A Practical Path to Layer B Through Symbiotic Integration
@@ -33,8 +34,8 @@ h2. Contents
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 123-portal- (сходство 0.10) 344-системный-промпт-для- Материал из базы знаний Svyazi 2.0, раздел «A Practical Path to Layer B Through Symbiotic Integration».{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}- [[166-representative-agent-layer-md]] (сходство 0.27){quote}

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)
 
 <!-- abstract-auto -->

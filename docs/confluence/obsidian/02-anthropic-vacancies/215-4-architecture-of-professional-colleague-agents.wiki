@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * rag
   * architecture
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 4. Architecture of Professional Colleague Agents
@@ -30,8 +30,8 @@ h1. 4. Architecture of Professional Colleague Agents
 
 
 
-
 {quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения. Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 {quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}A Professional Colleague Agent has three distinct internal{quote}

@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
 title: "9. Relationship to Other Agent Types"
 tags:
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. 9. Relationship to Other Agent Types
@@ -28,8 +28,8 @@ h1. 9. Relationship to Other Agent Types
 
 
 
-
 {quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Integration challenge: Layer C (interface layer) of Type 1 needs to talk to Type 2 systems.{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Professional Colleague Agents do not stand alone. They{quote}

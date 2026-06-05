@@ -2,8 +2,9 @@
 title: "7. Phased Rollout Plan"
 tags:
   - roadmap
+  - rag
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 7. Phased Rollout Plan
@@ -23,8 +24,8 @@ date: 2026-05-12
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. 🎯 Проблема: Phased Rollout Plan - Establish legal entity (non-profit foundation in Germany or --- Содержание - 7.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - Establish legal entity (non-profit foundation in Germany or
@@ -43,7 +44,7 @@ date: 2026-05-12
 
 ---
 
-<!-- tags: roadmap -->
+<!-- tags: roadmap, rag -->
 
 
 

@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Логика прогрессии: conservative escalation
 
 <!-- toc-auto -->

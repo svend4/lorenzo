@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Rufler
 
 <!-- toc-auto -->
@@ -16,8 +20,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. Автор: zodigancode / lib4u Автор: zodigancode / lib4u Источник: Хабр + repo/DEV citeturn20view4turn21view8turn32search0
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > - **Автор:** zodigancode / lib4u

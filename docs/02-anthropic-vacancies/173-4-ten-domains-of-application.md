@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 4. Ten Domains of Application
 
 <!-- abstract-auto -->
@@ -16,7 +20,11 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> The Representative Agent pattern applies broadly. We identify
+> * Domain 3 — Social Workers Managing Client Caseloads Principal: Social worker, case manager, community organizer managi. * Existing solutions: Legal aid (severely underfunded), advocacy organizations , private lawyers
+Principal: Conceptual — those who cannot represent 
+themselves: future generations affected by current 
+decisions, ecosystems impacted by policy, animals in 
+human-modified environments.
 
 ---
 

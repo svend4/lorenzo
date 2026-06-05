@@ -1,0 +1,76 @@
+---
+title: "Главные технические риски"
+tags:
+  - anthropic
+  - collaboration
+  - nautilus
+date: 2026-05-13
+---
+
+# Главные технические риски
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+---
+<!-- tags: anthropic, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».
+
+## Главные технические риски
+
+Два независимых анализа выделили разные приоритеты:
+
+1. **Отсутствие persistent DB** 
+(выделено Вариантом A) — критично для production use case
+2. **88% fallback записей в адаптерах** 
+(выделено Вариантом B) — критично для демонстрации концепции
+
+Текущая приоритезация автора: **#2 выше** — проект currently в 
+proof-of-concept стадии, demonstration value > production 
+readiness.
+```
+
+---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[120-главные-технические-риски]]
+- [[12-appendix-a-header-warning]]
+- [[15-appendix-c-history]]
+- [[00-question-habr-link]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[120-главные-технические-риски]] (сходство 0.58)
+- [[120-главные-технические-риски]] (сходство 0.50)
+- [[12-appendix-a-header-warning]] (сходство 0.48)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [120-главные-технические-риски](../../../02-anthropic-vacancies/120-главные-технические-риски.md)
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [14-main-technical-risks](../../../nautilus/review-methodology/14-main-technical-risks.md)
+

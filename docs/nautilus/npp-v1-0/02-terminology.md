@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 2. Terminology
 
 <!-- toc-auto -->

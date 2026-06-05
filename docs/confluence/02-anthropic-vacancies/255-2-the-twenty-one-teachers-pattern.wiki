@@ -1,7 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
+
+----
+date: 2026-05-13
+tags: [rag, orchestration, local-first, anthropic]
+state: approved
+----
 
 h1. 2. The Twenty-One Teachers Pattern
 
@@ -20,7 +26,11 @@ h1. 2. The Twenty-One Teachers Pattern
 
 
 
-{quote}The metaphor that crystallizes this pattern comes from a story{quote}
+{quote}_ AI Architecture Should Mirror This If composite mastery is how skilled practitioners actually develop, AI infrastructu. _ A teacher whose effectiveness comes from combining subject expertise , pedagogical approach , specialty (working with{quote}
+If composite mastery is how skilled practitioners actually 
+develop, AI infrastructure supporting them should make this 
+pattern accessible — not just to those few who can find 
+twenty human teachers, but to anyone
 
 ----
 

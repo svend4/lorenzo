@@ -1,50 +1,50 @@
 # Отчёт об устаревших документах
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi
+
+---
+
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-
-<!-- summary -->
-> _Порог: 30 дней. Обновлено: 2026-05-12_
-**Проекты:** Svyazi
-
----
-<!-- tags: ingestion, local-first, collaboration -->
+<!-- tags: ingestion, local-first, anthropic, collaboration -->
 
 
+_Порог: 30 дней. Обновлено: 2026-05-13_
 
+Найдено проблем: **81** файлов
 
-_Порог: 30 дней. Обновлено: 2026-05-12_
-
-Найдено проблем: **132** файлов
-
-## Без метаданных (нет summary или тегов) — 97 файлов
+## Без метаданных (нет summary или тегов) — 59 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
-| `docs/ALERTS.md` | 81 | нет summary, нет тегов, короткий (81 слов) |
-| `docs/AUTHORS.md` | 100 | нет summary, нет тегов |
-| `docs/BACKLINKS.md` | 401 | нет summary, нет тегов |
-| `docs/CHANGELOG.md` | 5351 | нет тегов |
-| `docs/COMPARE.md` | 321 | нет summary, нет тегов |
-| `docs/CONCEPT_GRAPH.md` | 641 | нет тегов |
-| `docs/CONSISTENCY.md` | 533 | нет summary, нет тегов |
-| `docs/CONTACTS.md` | 350 | нет summary, нет тегов |
-| `docs/CONTENT_GAPS.md` | 687 | нет summary, нет тегов |
-| `docs/CONTRADICTIONS.md` | 1624 | нет summary, нет тегов |
-| `docs/COST.md` | 344 | нет summary, нет тегов |
-| `docs/CROSSREFS.md` | 522 | нет тегов |
-| `docs/CROSS_SECTION.md` | 3800 | нет summary, нет тегов |
-| `docs/DEPENDABOT.md` | 124 | нет summary, нет тегов |
-| `docs/DIGEST.md` | 229 | нет summary, нет тегов |
-| `docs/DIGEST_AUTO.md` | 418 | нет summary, нет тегов |
-| `docs/GLOSSARY.md` | 125 | нет summary, нет тегов |
-| `docs/KEYWORD_INDEX.md` | 498 | нет summary, нет тегов |
-| `docs/KPI.md` | 2096 | нет summary, нет тегов |
-| `docs/KPI_HISTORY.md` | 116 | нет summary, нет тегов |
+| `docs/autofilled/README.md` | 66 | нет summary, нет тегов, короткий (66 слов) |
+| `docs/autofilled/components/README.md` | 96 | нет summary, нет тегов, короткий (96 слов) |
+| `docs/ALERTS.md` | 105 | нет тегов |
+| `docs/BACKLINKS.md` | 413 | нет тегов |
+| `docs/CLUSTERS.md` | 1671 | нет тегов |
+| `docs/COMPARE.md` | 342 | нет тегов |
+| `docs/CONCEPT_GRAPH.md` | 611 | нет тегов |
+| `docs/CONSISTENCY.md` | 520 | нет тегов |
+| `docs/CONTENT_GAPS.md` | 683 | нет тегов |
+| `docs/CONTRADICTIONS.md` | 1450 | нет тегов |
+| `docs/CROSS_SECTION.md` | 4035 | нет тегов |
+| `docs/DEPENDABOT.md` | 116 | нет тегов |
+| `docs/DIGEST_AUTO.md` | 371 | нет тегов |
+| `docs/INFO_PROCESSING_METHODS.md` | 3075 | нет тегов |
+| `docs/KEYWORD_INDEX.md` | 489 | нет тегов |
+| `docs/KPI.md` | 2222 | нет тегов |
+| `docs/KPI_HISTORY.md` | 131 | нет тегов |
+| `docs/LANGUAGE_STATS.md` | 3471 | нет тегов |
+| `docs/LLM_GAPS.md` | 72 | нет тегов, короткий (72 слов) |
+| `docs/NARRATIVE.md` | 1036 | нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 35 файлов
+## Короткие (< 100 слов, заготовки) — 22 файлов
 
 | Файл | Слов |
 |------|------|
@@ -80,27 +80,27 @@ python scripts/improve_tags.py
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [COVERAGE](COVERAGE.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
 - [TAGS](TAGS.md)
-- [SPELLCHECK](SPELLCHECK.md)
-- [HEALTH](HEALTH.md)
+- [STATS](STATS.md)
+- [SENTIMENT](SENTIMENT.md)
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- [TAGS](TAGS.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
 

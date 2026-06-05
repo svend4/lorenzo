@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/122-глоссарий.md}}
-Дата: 2026-05-12
+Дата: 2026-05-14
 {info}
 
 ----
@@ -11,7 +11,7 @@ tags:
   * roadmap
   * collaboration
   * anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ----
 
 h1. Глоссарий
@@ -32,7 +32,10 @@ h1. Глоссарий
 
 
 
-{quote}- _Фаза A/B_: параллельные независимые создания draft{quote}
+{quote}> ✅ Результат: IMPLEMENTATIONSTAGEPART1-4.md — технико-концептуальный review в transitional state, готовый к Фазе C После того, как PORTAL-PROTOCOL и REVIEWMETHODOLOGY скоммитятся в репо, у вас д{quote}
+{quote}🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  {quote}
+>
+{quote}[!WARN{quote}
 
 ----
 

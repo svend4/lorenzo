@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # 13. REST API Contract (Normative for Portals)
 
 <!-- toc -->
@@ -20,7 +24,14 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> v1.1 делает REST API mandatory частью протокола. Это обеспечивает
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. Portal SHOULD предоставлять: Метод | Путь | Описание | GET | | Валидация кросс-ссылок |
+Portal SHOULD предоставлять:
+ Метод | Путь | Описание |
+ -------|------|----------|
+ GET |   | Валидация кросс-ссылок |
+ GET |   | Q6-соседи |
+ GET |   | Prometheus-метрики (text/plain) |
+ GET |   | Root endpoint со списком endp
 
 ---
 <!-- tags: rag, architecture, collaboration -->

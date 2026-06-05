@@ -1,0 +1,71 @@
+---
+title: "MemNet — нейроархитектурный двойник «магии» Svyazi"
+tags:
+  - memory
+  - ingestion
+  - architecture
+  - roadmap
+  - collaboration
+  - habr-unique-projects
+date: 2026-05-13
+---
+
+# MemNet — нейроархитектурный двойник «магии» Svyazi
+
+<!-- summary -->
+> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+**Проекты:** Svyazi, NGT Memory, MemNet
+
+---
+<!-- tags: memory, ingestion, architecture, roadmap, collaboration -->
+
+
+
+
+> Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).
+
+Нейроархитектурный двойник «магии» Svyazi
+
+MemNet — «Memory Is All You Need»
+https://habr.com/ru/articles/983684/
+Здесь автор делает то же самое, что NGT Memory из прошлого ответа, но на уровне обучаемой архитектуры, а не приложения. Память — дифференцируемый граф со слотами-векторами и матрицей смежности; связи обновляются по STDP (spike-timing-dependent plasticity, нейробиологический родственник Хебба); есть spreading activation для ассоциативного recall; и — самое интересное — периодические фазы «сновидений», когда self-attention идёт по слотам памяти без внешнего входа, и именно тогда «обнаруживаются скрытые связи и абстрагируются представления». Это и есть формализация того, что у Чуяна получилось эмпирически с Wi-Fi-инженером — только на уровне трансформера.
+
+Для тебя, с твоим YiJing-Transformer + MoME + Q6, это особенно близко: STDP-граф над слотами + dream-фаза по сути решают ту же задачу, что MoME-роутинг по гиперкубу — выбор релевантных «экспертов» при запросе.
+
+Философский родственник: «LLM как периферия»
+
+AI-бот для самопознания
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[2-tsu-mome]]
+- [[01-yodoca]]
+- [[05-supplementary-infrastructure]]
+- [[03-pda-llm-as-periphery]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[2-tsu-mome]] (сходство 0.19)
+- [[01-yodoca]] (сходство 0.18)
+- [[03-pda-llm-as-periphery]] (сходство 0.17)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
+- [SEARCH](../../../SEARCH.md)
+- [TABLES](../../../TABLES.md)
+- [2-tsu-mome](../../../habr-unique-projects/hardware-pairs/2-tsu-mome.md)
+- [02-memnet](../../../habr-unique-projects/key-findings/02-memnet.md)
+

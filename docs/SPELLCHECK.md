@@ -1,23 +1,21 @@
 # Отчёт орфографии
 
+<!-- toc-auto -->
+
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `SPELLCHECK` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: spellcheck, docs -->
+
 
 <!-- summary -->
-> python scripts/improve_spellcheck.py --fix
-**Проекты:** knowledge-space, MemNet
-
----
-<!-- tags: memory, orchestration, security, knowledge, architecture, anthropic, self-improvement, collaboration -->
+> `SPELLCHECK` — раздел документации проекта Lorenzo.
 
 
+_Обновлено: 2026-05-13_
 
-
-_Обновлено: 2026-05-12_
-
-Файлов с проблемами: **50**
+Файлов с проблемами: **48**
 
 ## Найденные проблемы
 
@@ -54,10 +52,6 @@ _Обновлено: 2026-05-12_
 - ❌ `проверяет` → `проверяет`
 
 ### `docs/GITHUB_ISSUES.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/KPI.md`
 
 - ❌ `проверяет` → `проверяет`
 
@@ -149,10 +143,6 @@ _Обновлено: 2026-05-12_
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/KPI.md`
-
-- ❌ `проверяет` → `проверяет`
-
 ### `docs/obsidian/METHODOLOGY.md`
 
 - ❌ `проверяет` → `проверяет`
@@ -230,26 +220,25 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 
 Известных пар опечатка→исправление: **31**
 
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [READABILITY](READABILITY.md)
-- [READING_LIST](READING_LIST.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [CONSISTENCY](CONSISTENCY.md)
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [STATS](STATS.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

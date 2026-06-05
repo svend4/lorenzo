@@ -2,7 +2,7 @@
 title: "9. Risks and Open Questions"
 tags:
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 9. Risks and Open Questions
@@ -37,7 +37,10 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> Several uncertainties merit explicit attention.
+> > ✅ Результат: --- --- Похожие документы: - 318-10-strategic-positioning(docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.15) - 311-3-what-ingit-provides-that-cowork-lacks
+> 🏷️ Ключевые слова:  ,  ,  ,  ,  ,  ,  ,  
+>
+> [!TIP]
 
 ---
 <!-- tags: rag, orchestration, local-first, architecture, roadmap, anthropic -->

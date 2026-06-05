@@ -1,3 +1,7 @@
+---
+state: approved
+---
+
 # Уровень 2 — Базовый (Lorenzo Lite)
 
 <!-- toc-auto -->

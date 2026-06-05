@@ -2,8 +2,9 @@
 title: "10. QueryResult Structure"
 tags:
   - anthropic
+  - roadmap
   - anthropic-vacancies
-date: 2026-05-12
+date: 2026-05-14
 ---
 
 # 10. QueryResult Structure
@@ -53,14 +54,14 @@ date: 2026-05-12
 
 
 <!-- summary -->
-
 > [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы. results_by_repo: dict[str, list[PortalEntry]] MUST поддерживать сериализацию в JSON, Markdown, HTML.
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 > results_by_repo: dict[str, list[PortalEntry]]
 
 ---
-<!-- tags: anthropic -->
+<!-- tags: anthropic, roadmap -->
 
 
 ## 10. QueryResult Structure
