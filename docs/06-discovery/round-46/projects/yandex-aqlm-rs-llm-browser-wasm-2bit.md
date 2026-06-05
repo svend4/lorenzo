@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [rag, security, ingestion, local-first, architecture]
+state: normalized
+---
+
 # AQLM.rs: 8B LLM в браузере через WebAssembly и 2-битную квантизацию
+
+<!-- toc-auto -->
+<!-- tags: yandex-aqlm-rs-llm-browser-wasm-2bit, docs -->
+
+
+<!-- summary -->
+> Принципиально отличается от WebGPU/WebLLM (R41): здесь CPU + WASM, а не GPU; и от GGUF/llama.cpp: аддитивное векторное квантование вместо скалярного.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -325,3 +339,11 @@ class LorenzoOnDeviceInference:
 - PV-Tuning paper: arxiv.org/abs/2405.14852 (май 2024)
 - Смежная (Privacy LLM in-browser WebGPU, R41): docs/06-discovery/round-41/projects/privacy-llm-pii-gateway-ondevice-rag.md
 - Смежная (Edge AI v1, R34): docs/06-discovery/round-34/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

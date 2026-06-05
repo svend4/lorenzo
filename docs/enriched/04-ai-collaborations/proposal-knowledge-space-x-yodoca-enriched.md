@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Proposal: Knowledge-Space × Yodoca
+
+
+<!-- summary -->
+> Раздел proposal-knowledge-space-x-yodoca-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-knowledge-space-x-yodoca-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Knowledge-Space) и memory-слоя (Yodoca): Knowledge-Space обеспечивает пер -->
 <!-- tags: proposal, knowledge-space, yodoca, knowledge, memory, integration -->
@@ -31,3 +46,10 @@ Proposal входит в слой knowledge-memory интеграции, опр�
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-knowledge-space-x-yodoca](docs\04-ai-collaborations\proposals\proposal-knowledge-space-x-yodoca.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_knowledge_space_x_yodoca_enriched.py
+```

@@ -1,4 +1,20 @@
+---
+state: normalized
+---
+
 # MarkItDown — универсальный конвертер документов в Markdown для LLM
+
+<!-- toc-auto -->
+<!-- tags: markitdown, docs -->
+
+
+<!-- summary -->
+> Автор: Microsoft (open source) Хабр: https://habr.com/ru/articles/890774/ (упомянут в карте OSS-инструментов для AI-агентов)
+Хабр: https://habr.com/ru/articles/890774/ (упомянут в карте OSS-инструментов для AI-агентов)  
+GitHub: https://github.com/microsoft/markitdown (MIT, 91k+ stars)  
+Слой: ingestion / document-AI / preprocessing  
+Дата:
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -82,3 +98,10 @@ python scripts/improve_card_index.py --build --incremental
 - pip install markitdown
 - Habr упоминание: https://habr.com/ru/articles/890774/
 - Ollama + LLaVA + MarkItDown гайд: Medium (Giacomo Carfì)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

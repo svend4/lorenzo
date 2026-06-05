@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 30 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Coreness Flow — composable AI-агент с plugin discovery и hot-reload Хабр: https://habr.com/ru/articles/1005176/
+ Файл:  
+ Хабр: https://habr.com/ru/articles/1005176/
+ Слой: orchestration / memory / knowledge
+ Уникальность: Plug-in = папка с config.json + Python модуль, auto-discovery без регис
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -106,3 +124,10 @@ python scripts/improve_collab_finder.py --file docs/06-discovery/round-30/projec
 2. **Conversational AI production** — диалоговые системы в production: управление контекстом разговора, persona consistency, multi-turn memory
 3. **AI для DevOps/Platform Engineering** — AI-первый подход к инфраструктуре: автогенерация Terraform/Helm, инфраструктура как разговор, GitOps с AI
 4. **Explainable AI (XAI)** — объяснимость LLM-решений: SHAP для трансформеров, chain-of-thought как объяснение, audit trails для регуляторов
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

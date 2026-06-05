@@ -3,7 +3,7 @@ title: "Proposal: Wikontic × Memnet"
 date: 2026-05-13
 card_id: d3d98a01c916
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, wikontic, memnet, knowledge, memory, integration]
 projects: [wikontic, memnet]
 similarity: 0.220

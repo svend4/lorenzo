@@ -1,5 +1,7 @@
 # Время чтения документов
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > Документов: **2586** | Слов: **1,744,858** | Время базы: **170ч 55мин**
 
@@ -2651,3 +2653,66 @@ _Обновлено: 2026-05-14_
 - [196-6-этическая-рамка](02-anthropic-vacancies/196-6-этическая-рамка.md)
 - _...ещё 711_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_reading_time.py
+```
+```bash
+# Вариант 2
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 9
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 10
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 11
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 12
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 13
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 14
+python scripts/improve_reading_time.py --dry-run
+```
+```bash
+# Вариант 15
+python scripts/improve_reading_time.py --dry-run
+```

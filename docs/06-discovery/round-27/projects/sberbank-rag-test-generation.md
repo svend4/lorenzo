@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, ingestion, architecture, self-improve]
+state: normalized
+---
+
 # Автогенерация тестов в IDE: RAG + LLM превращают ручные сценарии в код
+
+<!-- toc-auto -->
+<!-- tags: sberbank-rag-test-generation, docs -->
+
+
+<!-- summary -->
+> Автогенерация тестов в IDE: RAG + LLM превращают ручные сценарии в код — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -259,3 +277,10 @@ class ScriptPSI:
 - Смежная (AI тесты которые ничего не тестируют): https://habr.com/ru/articles/1023532/
 - PSI API (JetBrains): plugins.jetbrains.com/docs/intellij/psi.html
 - Allure TestOps: qameta.io/allure
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

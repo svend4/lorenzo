@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # Автоматизация деплоя контейнеров в Yandex Cloud с помощью Terraform и LLM
+
+<!-- toc-auto -->
+<!-- tags: llm-terraform-yandex-cloud-devops, docs -->
+
+
+<!-- summary -->
+> Реальный production-паттерн event-driven автодеплоя: docker push → триггер → Go-функция → Yandex Cloud API → новая ревизия контейнера без ручных шагов.
+
 
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
@@ -300,3 +314,11 @@ class LorenzoInfraCodegen:
 - Смежная (DevOps в 2026, Platform Engineering): https://habr.com/ru/companies/habr_career/articles/979270/
 - Yandex Cloud Go SDK: github.com/yandex-cloud/go-sdk
 - Terraform Yandex Provider: registry.terraform.io/providers/yandex-cloud/yandex
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

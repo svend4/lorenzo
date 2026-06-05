@@ -1,5 +1,13 @@
 # CI Guardrails (защита от перерасхода minutes)
 
+<!-- toc-auto -->
+<!-- tags: ci-guardrails, docs -->
+
+
+<!-- summary -->
+> `CI_GUARDRAILS` — раздел документации проекта Lorenzo.
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 

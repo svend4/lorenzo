@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [orchestration, ingestion, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # AI Routing Lab: ML для оптимизации сетевых маршрутов
+
+<!-- toc-auto -->
+<!-- tags: ai-routing-lab-ml-network-optimization, docs -->
+
+
+<!-- summary -->
+> AI Routing Lab: ML для оптимизации сетевых маршрутов — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -327,3 +345,11 @@ class LorenzoPipelinePredictor:
 - Prometheus: prometheus.io
 - Смежная (Ростелеком B2B AI): https://habr.com/ru/companies/rostelecom/articles/913828/
 - BGP спецификация: RFC 4271
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

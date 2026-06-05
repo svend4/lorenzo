@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # Мультиязычный MT-Bench: оценка LLM на русском языке
+
+<!-- toc-auto -->
+<!-- tags: multilingual-mt-bench-russian-llm-evaluation, docs -->
+
+
+<!-- summary -->
+> `multilingual-mt-bench-russian-llm-evaluation` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -299,3 +313,11 @@ class LorenzoLLMEvaluation:
 - Оригинальный MT-Bench (2023): arxiv.org/abs/2306.05685
 - Смежная (YADRO T-pro-it-1.0 benchmark): https://habr.com/ru/companies/yadro/articles/930304/
 - Смежная (LLM Judge кросс-модельный): https://habr.com/ru/articles/970744/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

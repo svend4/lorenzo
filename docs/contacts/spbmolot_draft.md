@@ -1,15 +1,34 @@
 ---
+state: normalized
 author: spbmolot
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [memory, rag, knowledge, ingestion, architecture]
 ---
 
 # Черновик сообщения — spbmolot (GitHub)
 
+<!-- toc-auto -->
+<!-- tags: spbmolot-draft, docs -->
+
+
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (7):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Cutcode_draft
+ Dmitriila_draft
+ VladSpace_draft
+ nlaik_draft
+ --
+Кто ссылается на этот документ (7):
+ READING_TIME
+ Antipozitive_draft
+ Cutcode_draft
 **Проекты:** Svyazi, NGT Memory
 
 ---
