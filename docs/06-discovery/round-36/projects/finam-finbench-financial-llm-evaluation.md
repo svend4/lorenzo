@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # FinBench: финансовые бенчмарки для LLM от Финама
+
+<!-- toc-auto -->
+<!-- tags: finam-finbench-financial-llm-evaluation, docs -->
+
+
+<!-- summary -->
+> `finam-finbench-financial-llm-evaluation` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -272,3 +286,11 @@ class LorenzoQABenchmark:
 - CFA Institute: cfainstitute.org
 - Смежная (Finam LLM трейдинг, торговые сигналы): https://habr.com/ru/companies/finam_broker/ (R26)
 - Смежная (AML риски CatBoost, ЦБ РФ): https://habr.com/ru/companies/t2/articles/875286/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

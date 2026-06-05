@@ -1,15 +1,35 @@
 ---
+state: normalized
 author: MiXaiLL76
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [knowledge, ingestion, architecture, collaboration]
 ---
 
 # Черновик сообщения — MiXaiLL76 (GitHub)
 
+<!-- toc-auto -->
+<!-- tags: mixaill76-draft, docs -->
+
+
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (6):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Cutcode_draft
+ Dmitriila_draft
+ VladSpace_draft
+ nlaik_draft
+ --
+Кто ссылается на этот документ (6):
+ DIGEST_AUTO
+ READING_TIME
+ Cutcode_draft
+ Dmitrii
 **Проекты:** Svyazi, Auto AI Router
 
 ---

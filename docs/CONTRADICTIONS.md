@@ -1,5 +1,13 @@
 # Противоречия в базе знаний
 
+<!-- toc-auto -->
+<!-- tags: contradictions, docs -->
+
+
+<!-- summary -->
+> `CONTRADICTIONS` — раздел документации проекта Lorenzo.
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -389,3 +397,10 @@ _Обновлено: 2026-05-14_
 - [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
 - _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_contradictions.py
+```

@@ -1,4 +1,19 @@
+---
+state: normalized
+---
+
 # Ботинок (Console AI Agent)
+<!-- tags: botinok, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья март 2026 — уточнить профиль) Хабр: https://habr.com/ru/articles/1015126/
+Хабр: https://habr.com/ru/articles/1015126/  
+GitHub: не найден явно — уточнить через статью  
+Слой: developer-tools / CLI / agent-runtime  
+Дата: март 2026  
+Уникальность: Консольный AI-агент
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -43,3 +58,17 @@ Lorenzo запускается локально, скрипты `improve_*.py` �
 
 - Статья: https://habr.com/ru/articles/1015126/ (март 2026)
 - ⚠️ Нужно найти GitHub через профиль автора на Хабре
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_botinok.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

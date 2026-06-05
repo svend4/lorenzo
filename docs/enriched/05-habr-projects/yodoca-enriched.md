@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Yodoca[^yodoca]: консолидация и забывание
+
+
+<!-- summary -->
+> Раздел yodoca-enriched формируется автоматически из данных репозитория. Yodoca — архитектурное продолжение Svyazi на уровне agentic memory.
+
+> [!NOTE]
+> Раздел `yodoca-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1 -->
 <!-- tags: memory, ingestion, architecture, collaboration -->
@@ -28,3 +41,10 @@ Yodoca расширяет концепцию Svyazi, добавляя специ
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [yodoca](docs\05-habr-projects\memory\yodoca.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_yodoca_enriched.py
+```

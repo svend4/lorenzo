@@ -1,7 +1,3 @@
----
-state: normalized
----
-
 # Q&A: processing-guide
 
 > [!NOTE]
@@ -12,7 +8,7 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел QA формируется автоматически из данных репозитория. _Не найдено в этом файле._ Кто ссылается на этот документ (6): _Автоматически сгенерировано по 11 файлам раздела._
+> Раздел QA формируется автоматически из данных репозитория. _Не найдено в этом файле._
 Использование
  
 Смотрите также
@@ -21,14 +17,6 @@ state: normalized
  Здоровье
  Глоссарий
  Сущности
- --
-Кто ссылается на этот документ (6):
- OUTLINE
- READABILITY
- READING_TIME
- SEARCH
- TABLES
- README
 
 
 _Автоматически сгенерировано по 11 файлам раздела._
@@ -87,7 +75,7 @@ _Не найдено в этом файле._
 
 ## Как CardIndex хранит и версионирует карточки?
 
-Упоминаются: **cardindex**, **hash**, **dedup**
+Упоминаются: **cardindex**, **state**, **hash**, **dedup**
 
 ## Какие 5 архитектурных зазоров выделены в исследовании?
 
@@ -118,16 +106,3 @@ python scripts/improve_qa.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [README](README.md)
-

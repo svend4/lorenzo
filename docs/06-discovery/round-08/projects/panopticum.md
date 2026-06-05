@@ -1,4 +1,21 @@
+---
+state: normalized
+---
+
 # Panopticum (единый интерфейс для баз данных)
+
+<!-- toc-auto -->
+<!-- tags: panopticum, docs -->
+
+
+<!-- summary -->
+> Хабр: https://habr.com/ru/articles/996620/ GitHub: не найден явно (Docker Hub: sharque/panopticum)
+Хабр: https://habr.com/ru/articles/996620/  
+GitHub: не найден явно (Docker Hub: sharque/panopticum)  
+Слой: developer-tools / databases / unified-interface  
+Дата: март 2026  
+Уникальность: Единый веб-интерфейс для PostgreSQL, Mong
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -49,3 +66,17 @@ Panopticum + MCP-серверы СУБД = полный стек: агент ч�
 - Docker Hub: sharque/panopticum
 - Статья: https://habr.com/ru/articles/996620/ (март 2026)
 - ⚠️ Нужно найти GitHub @sharque
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_panopticum.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

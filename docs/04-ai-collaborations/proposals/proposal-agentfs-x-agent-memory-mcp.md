@@ -3,7 +3,7 @@ title: "Proposal: Agentfs × Agent-Memory-Mcp"
 date: 2026-05-13
 card_id: b3e56e82f28b
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, agentfs, agent-memory-mcp, knowledge, memory, integration]
 projects: [agentfs, agent-memory-mcp]
 similarity: 0.282
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Agentfs × Agent-Memory-Mcp
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

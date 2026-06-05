@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, architecture, roadmap, self-improve]
+state: normalized
+---
+
 # Внутри оркестратора: 5-фазная структура воркеров, meta-agent-v3, Skills Library
+
+<!-- toc-auto -->
+<!-- tags: orchestrator-5phase-multiagent, docs -->
+
+
+<!-- summary -->
+> Автор: AI Dev Team (aidevteam.ru), Хабр, декабрь 2025 Хабр: https://habr.com/ru/articles/975376/
+Хабр: https://habr.com/ru/articles/975376/  
+GitHub: github.com/kissrosecicd-hub (AI Dev Team)  
+Слой: orchestration  
+Дата: декабрь 2025  
+Уникальность: Production мультиагентный оркестратор с
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -252,3 +271,10 @@ class LorenzoOrchestrator:
 - Смежная (архитектуры multi-agent Just AI): https://habr.com/ru/companies/just_ai/articles/1000896/
 - Смежная (9 агентов на open-source): https://habr.com/ru/articles/1009608/
 - Смежная (мультиагентный хаос): https://habr.com/ru/articles/1026856/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

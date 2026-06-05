@@ -1,5 +1,14 @@
 # Proposal: Mclaude × Rufler
 
+
+<!-- summary -->
+> Раздел proposal-mclaude-x-rufler-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-mclaude-x-rufler-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary: Интеграция orchestration-слоя (Mclaude) и orchestration-слоя (Rufler): Mclaude и Rufler — взаимодопо -->
 <!-- tags: proposal, mclaude, rufler, orchestration, orchestration, integration -->
 <!-- enriched: 2026-05-29 by improve_llm_enrich.py -->
@@ -31,3 +40,10 @@ Proposal является исследовательским документо�
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-mclaude-x-rufler](docs\04-ai-collaborations\proposals\proposal-mclaude-x-rufler.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_mclaude_x_rufler_enriched.py
+```
