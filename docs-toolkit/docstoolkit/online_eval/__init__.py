@@ -27,6 +27,7 @@ from docstoolkit.online_eval.runner import (
     OnlineEvalRunner,
 )
 from docstoolkit.online_eval.dashboard import render_dashboard
+from docstoolkit.online_eval.drift import psi, psi_label, chi_square_drift, DriftWindow
 
 __all__ = [
     "OnlineEvalSampler",
@@ -35,4 +36,8 @@ __all__ = [
     "OnlineEvalRun",
     "DriftReport",
     "render_dashboard",
+    "psi",
+    "psi_label",
+    "chi_square_drift",
+    "DriftWindow",
 ]
