@@ -1,5 +1,13 @@
 # Тематические пробелы (Content Gaps)
 
+<!-- toc-auto -->
+<!-- tags: content-gaps, docs -->
+
+
+<!-- summary -->
+> `CONTENT_GAPS` — раздел документации проекта Lorenzo.
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -323,3 +331,10 @@ _Обновлено: 2026-05-14_
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_content_gaps.py
+```

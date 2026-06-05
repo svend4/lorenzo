@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Карта найденных проектов и паттернов
+
+
+<!-- summary -->
+> Раздел 03-карта-найденных-проектов-и-паттернов-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `03-карта-найденных-проектов-и-паттернов-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: , «для агентов, не людей». | **MIT**. citeturn33view0turn37search1 | Активный OSS, база растёт п -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
@@ -32,3 +47,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [03-карта-найденных-проектов-и-паттернов](docs\04-ai-collaborations\03-карта-найденных-проектов-и-паттернов.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_03_карта_найденных_проектов_и_паттернов_enriched.py
+```

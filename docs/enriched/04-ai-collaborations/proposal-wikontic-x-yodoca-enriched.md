@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Proposal: Wikontic × Yodoca
+
+
+<!-- summary -->
+> Раздел proposal-wikontic-x-yodoca-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-wikontic-x-yodoca-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Wikontic) и memory-слоя (Yodoca): Wikontic обеспечивает персистентную пам -->
 <!-- tags: proposal, wikontic, yodoca, knowledge, memory, integration -->
@@ -33,3 +46,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-wikontic-x-yodoca](docs\04-ai-collaborations\proposals\proposal-wikontic-x-yodoca.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_wikontic_x_yodoca_enriched.py
+```

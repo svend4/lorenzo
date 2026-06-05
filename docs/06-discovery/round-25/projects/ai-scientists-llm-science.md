@@ -1,4 +1,21 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, ingestion, architecture, roadmap]
+state: normalized
+---
+
 # AI-учёные уже здесь: LLM меняют фундаментальную науку
+
+<!-- toc-auto -->
+<!-- tags: ai-scientists-llm-science, docs -->
+
+
+<!-- summary -->
+> Автор: независимый автор (Хабр, 2025) Хабр: https://habr.com/ru/articles/938638/ (обзор) + https://habr.com/ru/articles/954612/ (практика)
+Хабр: https://habr.com/ru/articles/938638/ (обзор) + https://habr.com/ru/articles/954612/ (практика)  
+GitHub: разные проекты (AlphaFold, TxGemma, OpenAI o3-mini для науки)  
+Слой: knowledge / orchestration / a
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -196,3 +213,10 @@ class LorenzoResearchAssistant:
 - TxGemma: research.google/blog/txgemma (Apache 2.0)
 - GNoME: deepmind.google/gnome (2.2M новых материалов)
 - OpenAI o3 science evals: openai.com/o3
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

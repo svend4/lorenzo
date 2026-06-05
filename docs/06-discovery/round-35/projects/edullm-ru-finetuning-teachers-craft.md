@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # EduLLM-RU: дообучение LLM для задач российских учителей за $400
+
+<!-- toc-auto -->
+<!-- tags: edullm-ru-finetuning-teachers-craft, docs -->
+
+
+<!-- summary -->
+> EduLLM-RU: дообучение LLM для задач российских учителей за $400 — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -304,3 +322,11 @@ class LorenzoCRAFTPipeline:
 - CRAFT (ACL 2025): aclanthology.org
 - Смежная (RAG для абитуриентов, QA в вузе): https://habr.com/ru/articles/944500/
 - Qwen3.5: huggingface.co/Qwen/Qwen3.5-27B-Instruct
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

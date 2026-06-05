@@ -1,4 +1,32 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, knowledge, architecture, roadmap]
+state: normalized
+---
+
 # Reasoning-LLM — архитектура думающих моделей и практика применения
+
+<!-- toc-auto -->
+<!-- tags: reasoning-llm-architecture, docs -->
+
+
+<!-- summary -->
+> Три модели — три подхода DeepSeek R1 (открытые веса) Claude 3.7 Sonnet (hybrid) Когда использовать reasoning-модель
+OpenAI o1 / o3
+ 
+DeepSeek R1 (открытые веса)
+ 
+Claude 3.7 Sonnet (hybrid)
+ 
+Когда использовать reasoning-модель
+ 
+Reasoning overhead: когда окупается
+ 
+Дистилляция reasoning-моделей (R1 паттерн)
+ 
+Применение к Lorenzo
+Lorenzo
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -167,3 +195,10 @@ def choose_model(task_type: str) -> str:
 - DeepSeek R1 paper: arxiv.org/abs/2501.12948
 - OpenAI o1 system card: openai.com/index/openai-o1-system-card/
 - Thinking models: думающие модели: https://habr.com/ru/companies/raft/articles/873372/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

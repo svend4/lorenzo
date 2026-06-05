@@ -1,4 +1,21 @@
+---
+date: 2026-06-05
+tags: [orchestration, knowledge, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Flashcard SaaS + AI тренер
+<!-- tags: flashcard-ai-tutor, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья февраль 2026 — бэкенд-инженер) Хабр: https://habr.com/ru/articles/1002084/
+Хабр: https://habr.com/ru/articles/1002084/  
+GitHub: не найден явно  
+Слой: education / agent-collaboration / SaaS  
+Дата: февраль 2026  
+Уникальность: Backend-инженер построил SaaS-продукт
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -49,3 +66,10 @@ Lorenzo — это Knowledge OS. Следующий логичный слой �
 
 - Статья: https://habr.com/ru/articles/1002084/ (февраль 2026)
 - ⚠️ Нужно найти GitHub через профиль автора
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

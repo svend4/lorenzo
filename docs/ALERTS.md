@@ -1,4 +1,10 @@
 # Callout-блоки
+<!-- tags: alerts, docs -->
+
+
+<!-- summary -->
+> `ALERTS` — раздел документации проекта Lorenzo.
+
 
 Добавлено **273** callout-блоков в документы.
 

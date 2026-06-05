@@ -1,4 +1,21 @@
+---
+state: normalized
+---
+
 # HeartMuLa — open-source альтернатива Suno для генерации музыки
+
+<!-- toc-auto -->
+<!-- tags: heartmula, docs -->
+
+
+<!-- summary -->
+> Автор: команда HeartMuLa Хабр: упоминания в обзорах AI-музыки (2025–2026) GitHub: https://github.com/HeartMuLa/heartlib
+Хабр: упоминания в обзорах AI-музыки (2025–2026)  
+GitHub: https://github.com/HeartMuLa/heartlib  
+Слой: ingestion / generation / audio  
+Дата: 2025–2026  
+Уникальность: Единственная полностью открытая (Apache 2.0) альтерна
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -51,3 +68,17 @@ Lorenzo использует голосовой pipeline (RPi Agent R11, Ири�
 - GitHub: https://github.com/HeartMuLa/heartlib
 - PyPI: pip install heartlib
 - ⚠️ Для локального запуска нужно ~24 ГБ VRAM; через API — без ограничений по железу
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_heartmula.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

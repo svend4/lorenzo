@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # ML в полях: 8-этапный pipeline прогноза урожая для агрохолдинга
+
+<!-- toc-auto -->
+<!-- tags: jetinfosystems-ml-crop-agriculture-pipeline, docs -->
+
+
+<!-- summary -->
+> `jetinfosystems-ml-crop-agriculture-pipeline` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -242,3 +256,11 @@ class LorenzoAgroPattern:
 - Sentinel-2 данные: sentinel.esa.int
 - Смежная (ML для агрономии, обзор): https://habr.com/ru/articles/654501/
 - Смежная (компьютерное зрение для с/х): https://habr.com/ru/articles/721414/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

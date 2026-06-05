@@ -1,4 +1,33 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, security, local-first, architecture]
+state: normalized
+---
+
 # RPA + AI-агенты в Enterprise: не вместо, а вместе (RGS IT)
+
+<!-- toc-auto -->
+<!-- tags: rpa-llm-enterprise-rgs, docs -->
+
+
+<!-- summary -->
+> Контекст: зачем гибрид Архитектура оркестратора Пример: Tool Registry Принцип разделения ответственности
+ 
+Архитектура оркестратора
+ 
+Пример: Tool Registry
+ 
+Принцип разделения ответственности
+ 
+Изоляция и безопасность
+ 
+Метрики RGS IT
+ 
+Сравнение подходов
+ 
+Применение к Lorenzo
+Lorenzo имеет   и  .
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -204,3 +233,10 @@ SCRIPT_REGISTRY = {
 - Смежная (LLM автоматизация рутины, SberDevices): https://habr.com/ru/companies/sberdevices/articles/806133/
 - UiPath (RPA лидер): uipath.com
 - ROBIN (RU RPA платформа): robin.company
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

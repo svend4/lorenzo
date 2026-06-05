@@ -17,14 +17,6 @@
  Здоровье
  Глоссарий
  Сущности
- --
-Кто ссылается на этот документ (6):
- README
- OUTLINE
- READABILITY
- READING_TIME
- SEARCH
- TABLES
 
 
 _Автоматически сгенерировано по 5 файлам раздела._
@@ -74,16 +66,3 @@ python scripts/improve_qa.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
