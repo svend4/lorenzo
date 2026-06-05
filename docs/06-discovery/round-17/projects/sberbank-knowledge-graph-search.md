@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # Sberbank Knowledge Graph — граф знаний улучшает качество поиска
+
+<!-- toc-auto -->
+<!-- tags: sberbank-knowledge-graph-search, docs -->
+
+
+<!-- summary -->
+> Автор: команда Сбербанка (поиск и AI) Хабр: https://habr.com/ru/companies/sberbank/articles/1029580/
+Хабр: https://habr.com/ru/companies/sberbank/articles/1029580/  
+GitHub: не найден (корпоративный проект, но с описанным стеком)  
+Слой: knowledge / orchestration / search  
+Дата: апрель 2026  
+Уникальность: Pr
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -79,3 +98,10 @@ Lorenzo имеет `improve_concept_graph.py` → `CONCEPT_GRAPH.md` (Mermaid/DO
 - Apache Jena Fuseki: https://jena.apache.org/documentation/fuseki2/ (Apache 2.0)
 - LightRAG GitHub: https://github.com/HKUDS/LightRAG (MIT)
 - Смежная: https://habr.com/ru/articles/908890/ (KG + RAG)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

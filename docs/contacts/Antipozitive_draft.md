@@ -1,15 +1,34 @@
 ---
+state: normalized
 author: Antipozitive
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [memory, rag, orchestration, ingestion, architecture]
 ---
 
 # Черновик сообщения — Antipozitive (GitHub)
 
+<!-- toc-auto -->
+<!-- tags: antipozitive-draft, docs -->
+
+
 <!-- summary -->
-> > Документ содержит практические рекомендации и лучшие практики.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo VitaliySemenov_draft Кто ссылается на этот документ (3):
+С уважением,
+svend4
+ --
+Смотрите также:
+ VitaliySemenov_draft
+ spbmolot_draft
+ Cutcode_draft
+ Dmitriila_draft
+ --
+Кто ссылается на этот документ (3):
+ DIGEST_AUTO
+ READING_TIME
+ VitaliySemenov
 **Проекты:** Svyazi, MemNet
 
 ---

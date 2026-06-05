@@ -3,7 +3,7 @@ title: "Proposal: Agentfs × Rufler"
 date: 2026-05-13
 card_id: 9ff3ebab40d4
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, agentfs, rufler, knowledge, orchestration, integration]
 projects: [agentfs, rufler]
 similarity: 0.272
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Agentfs × Rufler
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

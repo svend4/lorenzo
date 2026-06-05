@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Rufler
+
+
+<!-- summary -->
+> Раздел rufler-enriched формируется автоматически из данных репозитория. Rufler — это компонент оркестрации на уровне agent-swarm, предназначенный для декларативного управления сложными рабочими процессами.
+
+> [!NOTE]
+> Раздел `rufler-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting] До -->
 <!-- tags: rufler, yaml, declarative, orchestration, agent-swarm, claude-code, mcp, depends_on, pause, resume -->
@@ -32,3 +47,10 @@ Rufler является частью слоя оркестрации в архи
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [rufler](docs\05-habr-projects\knowledge\rufler.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_rufler_enriched.py
+```

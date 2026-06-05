@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # LLM Extraction из бухгалтерских документов: Qwen3-30B, F1=95.9% на счетах-фактурах
+
+<!-- toc-auto -->
+<!-- tags: runity-regcloud-llm-accounting-docs-qwen3-extraction, docs -->
+
+
+<!-- summary -->
+> `runity-regcloud-llm-accounting-docs-qwen3-extraction` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -338,3 +352,11 @@ class LorenzoDocumentIngestion:
 - Смежная (SAP ERP Text2SQL, R49): docs/06-discovery/round-49/projects/gennadybanin-text2sql-sap-erp-schema-explorer.md
 - Смежная (Finance RAG 4-head, R49): docs/06-discovery/round-49/projects/runoi-finance-rag-four-head-hybrid-retriever.md
 - Смежная (FinPDF pipeline, R32): docs/06-discovery/round-32/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

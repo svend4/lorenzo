@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # Round 33 — Session Log
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> LLM evaluation и бенчмаркинг — OpenEvals, MT-Bench адаптации для RU, автоматический harness, judge calibration
+4.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -97,3 +112,17 @@
 | Арина Макунина / Just AI | LLM Data Quality | just-ai.com |
 | jet-47 / YADRO | Sovereign Inference | habr.com/companies/yadro |
 | nizamovtimur | LLAMATOR | github.com/RomiconEZ |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

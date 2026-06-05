@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # MemNet: исследовательская память
+
+
+<!-- summary -->
+> Раздел memnet-enriched формируется автоматически из данных репозитория. MemNet реализует концепцию «Memory Is All You Need» на уровне обучаемой архитектуры, решая проблему высокой стоимости консолидирующих LLM-вызовов.
+
+> [!NOTE]
+> Раздел `memnet-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: MemNet — «Memory Is All You Need» https://habr.com/ru/articles/983684/ Здесь автор делает то же само -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
@@ -33,3 +48,10 @@ MemNet работает на слое memory экосистемы, обеспе�
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [memnet](docs\05-habr-projects\memory\memnet.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_memnet_enriched.py
+```

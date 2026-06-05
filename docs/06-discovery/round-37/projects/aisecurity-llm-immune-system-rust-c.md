@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, security, ingestion]
+state: normalized
+---
+
 # Иммунная система для LLM: 3ms защита на C + Rust + Micro-Model Swarm
+
+<!-- toc-auto -->
+<!-- tags: aisecurity-llm-immune-system-rust-c, docs -->
+
+
+<!-- summary -->
+> Автор: Dmitriila (Дмитрий Л.) Хабр: https://habr.com/ru/articles/996896/ GitHub: https://github.com/DmitrL-dev/AISecurity
+Хабр: https://habr.com/ru/articles/996896/  
+GitHub: https://github.com/DmitrL-dev/AISecurity  
+Слой: orchestration / security  
+Дата: февраль 2025  
+Уникальность: Трёхслойная on-premise LLM защита за <3ms на CPU без G
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -328,3 +347,11 @@ async def ask_question(request: AskRequest):
 - OWASP LLM Top 10: owasp.org/www-project-top-10-for-large-language-model-applications/
 - Lakera Guard: lakera.ai
 - Смежная (5 документов ломают RAG, PoisonedRAG): https://habr.com/ru/companies/otus/articles/1029742/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

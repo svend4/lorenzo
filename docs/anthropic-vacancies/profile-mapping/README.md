@@ -4,6 +4,11 @@ state: approved
 
 # profile-mapping/ — маппинг профиля svend4 на роли Anthropic
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Содержание
 
