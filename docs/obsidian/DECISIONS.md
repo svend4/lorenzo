@@ -4,15 +4,15 @@ tags:
   - collaboration
   - memory
   - general
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # Ключевые решения и выводы
 
-Автоматически извлечено из всех документов: **1360 записей**
+Автоматически извлечено из всех документов: **1361 записей**
 
 
-## Архитектура (132)
+## Архитектура (131)
 
 - **На Хабре пока не видно одного готового проекта, который уже собрал все слои в единое целое, но видно много авторов, каждый из которых почти идеально закрывает один слой будущей системы.** Поэтому реальная ценность исследования — не в списке ссылок,  
   _→ 01-executive-summary_
@@ -74,7 +74,7 @@ date: 2026-05-14
 - рейтинг | 0.416 | ## Архитектурный контракт Точка интеграции: **Card Envelope** (`card_type="agentfs"`, edges к `yodoca`). ```json { "card_type": "integration_proposal", "state": "raw", "proj  
   _→ proposal-agentfs-x-yodoca_
 
-_...ещё 112 записей в этой категории_
+_...ещё 111 записей в этой категории_
 
 
 ## Mvp (16)
@@ -115,7 +115,7 @@ _...ещё 112 записей в этой категории_
 - просто “записать всё, что сказал агент”. Mermaid Практическое правило: внешний текст не должен иметь права становиться instruction memory . Он может с  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 
-- рейтинг 0 **B:** `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md` > 214 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0 --- ### 20. 🔢 Числовое — 548.0 vs 13  
+- рейтинг 0 **B:** `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md` > 214 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0 --- ### 19. 🔢 Числовое — 548.0 vs 13  
   _→ CONTRADICTIONS_
 
 - в секции: 19,966 слов, 56 файлов** ## Letters _Путь: `docs/letters/`_ ### Q&A: letters > > !NOTE - Какие системы памяти описаны в этом разделе? - Как происходит консолидация  
@@ -131,7 +131,7 @@ _...ещё 112 записей в этой категории_
   _→ RFC-0002-memory-write-policy-для-svyazi-2-0_
 
 
-## Оркестрация (42)
+## Оркестрация (43)
 
 - на файловое ядро Svyazi‑2.0. | | **mclaude** | AnastasiyaW | Хабр + GitHub citeturn20view2turn37search0 | Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом. | Lo  
   _→ 03-component-catalog_
@@ -142,11 +142,14 @@ _...ещё 112 записей в этой категории_
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
-- рейтинг 0 **B:** `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md` > 264 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0 --- ### 22. 🔢 Числовое — 548.0 vs 112.0 (увере  
+- рейтинг 0 **B:** `docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md` > 264 Комплементарность слоёв ✅ высокая Итоговый рейтинг 0 --- ### 21. 🔢 Числовое — 548.0 vs 112.0 (увере  
   _→ CONTRADICTIONS_
 
 - вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
   _→ TABLES_
+
+- скл]] | 3407 | — | | 42 | 🟡 Средний | Proposal: Knowledge-Space × Mclaude | 267 | — | | 43 | 🟡 Средний | [[do-not-glue|[prop  
+  _→ READING_ORDER_
 
 - склеивать». Документ содержит описание рисков и ограничений. **Проекты:** mclaude, AI Factory, Rufler, AutoResearch, Whisper, Yttri --- <!-- tags: me  
   _→ do-not-glue_
@@ -187,7 +190,7 @@ _...ещё 112 записей в этой категории_
 - положите все четыре файла в репо (PORTAL-PROTOCOL.md в корень, README.md заменяет текущий, три passport'а в папку passports/). Commit с сообщением вида docs: initial v1.0-draft documentation layer . Т  
   _→ 69-section_
 
-- склеивать](svyazi-2-0/limitations/do-not-glue.md) > - Оркестрация — выбрать один spine(#оркестрация-выбрать-один-spine) - Contents - Оркестрация  
+- склеивать]] > - Оркестрация — выбрать один spine(#оркестрация-выбрать-один-spine) - Contents - Оркестрация  
   _→ OUTLINE_
 
 - конкретные next steps. Save in repo as docs/REPRESENTATIVE-AGENT-LAYER.md. Commit. Add link from main README. Done. Третье — гордиться этим. Five interconnected documents addressing real problems wit  
@@ -260,7 +263,7 @@ _...ещё 112 записей в этой категории_
   _→ 04-what-i-can-do-now_
 
 
-## Общее (1049)
+## Общее (1050)
 
 - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела и  
   _→ 00-intro-part2_
@@ -322,5 +325,5 @@ _...ещё 112 записей в этой категории_
 - заменить наймом эксперта. Она же даёт вам моральный mandate, которого нет у внешних профессионалов. ### Интегральный ответ на вопрос о вакансиях Anthr  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-_...ещё 1029 записей в этой категории_
+_...ещё 1030 записей в этой категории_
 

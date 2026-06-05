@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----

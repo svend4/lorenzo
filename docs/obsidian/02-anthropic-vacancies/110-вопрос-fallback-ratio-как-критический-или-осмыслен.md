@@ -5,7 +5,7 @@ tags:
   - rag
   - collaboration
   - anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # Вопрос: fallback-ratio как критический или осмысленный?

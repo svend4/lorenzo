@@ -1,10 +1,5 @@
 # Рекомендуемый порядок чтения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 **Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
@@ -473,20 +468,4 @@
 - [PROMOTE_LOG](PROMOTE_LOG.md)
 - [HEADING_AUDIT](HEADING_AUDIT.md)
 - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (33):**
-- [README](02-anthropic-vacancies/README.md)
-- [proposal-01-synthesis-x-wikontic](04-ai-collaborations/proposals/proposal-01-synthesis-x-wikontic.md)
-- [proposal-01-synthesis-x-yodoca](04-ai-collaborations/proposals/proposal-01-synthesis-x-yodoca.md)
-- [proposal-agentfs-x-agent-memory-mcp](04-ai-collaborations/proposals/proposal-agentfs-x-agent-memory-mcp.md)
-- [proposal-agentfs-x-mclaude](04-ai-collaborations/proposals/proposal-agentfs-x-mclaude.md)
-- [proposal-agentfs-x-memnet](04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md)
-- [proposal-agentfs-x-rufler](04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md)
-- [proposal-agentfs-x-yodoca](04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md)
-- _...ещё 25_
 

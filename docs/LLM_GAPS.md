@@ -1,10 +1,5 @@
 # LLM Gap Analysis — семантические пробелы
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > _Модель: claude-haiku-4-5 · Анализ структуры и связей документации_
 
@@ -37,16 +32,4 @@ _Источник: docs/ (первые 60 файлов) + архитектурн
 **Смотрите также:**
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (5):**
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
 

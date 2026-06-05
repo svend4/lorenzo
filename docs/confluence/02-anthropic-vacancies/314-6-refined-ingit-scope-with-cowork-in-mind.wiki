@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----

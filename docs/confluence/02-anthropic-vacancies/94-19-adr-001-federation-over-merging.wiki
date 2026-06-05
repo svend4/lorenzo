@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----

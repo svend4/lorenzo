@@ -1,7 +1,15 @@
 # Кластеры тематически близких файлов
 
+<!-- summary -->
+> Метод: TF-IDF + косинусное сходство (порог 0.15)
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, Yodoca, MemNet, agent-memory-mcp
+
+---
+
+
+
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
-Документов: 2364, кластеров: 185
+Документов: 2365, кластеров: 185
 
 
 ## Кластер 1 — концептов, репозитория, поиска, через (348 файлов)
@@ -172,21 +180,7 @@
 - `docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md` — _05-anchor-node-habr-scout_
 - _...и ещё 39 файлов_
 
-## Кластер 13 — docs, слов, anthropic-vacancies, проблем (45 файлов)
-
-- `docs/COMPARE.md` — _COMPARE_
-- `docs/CONSISTENCY.md` — _CONSISTENCY_
-- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
-- `docs/COVERAGE.md` — _COVERAGE_
-- `docs/DECAY_CANDIDATES.md` — _DECAY_CANDIDATES_
-- `docs/DUPLICATES.md` — _DUPLICATES_
-- `docs/FAQ.md` — _FAQ_
-- `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
-- `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
-- `docs/INDEX.md` — _INDEX_
-- _...и ещё 35 файлов_
-
-## Кластер 14 — work, infrastructure, foundation, contributors (44 файлов)
+## Кластер 13 — work, infrastructure, foundation, contributors (44 файлов)
 
 - `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` — _150-appendix-c-version-history_
 - `docs/02-anthropic-vacancies/153-executive-summary.md` — _153-executive-summary_
@@ -198,6 +192,20 @@
 - `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` — _272-appendix-d-connection-diagram_
 - `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` — _288-appendix-position-in-series-visualization_
 - `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md` — _342-что-такое-вариант-c-concept-document-для-anthropic_
+- _...и ещё 34 файлов_
+
+## Кластер 14 — docs, слов, anthropic-vacancies, проблем (44 файлов)
+
+- `docs/COMPARE.md` — _COMPARE_
+- `docs/CONSISTENCY.md` — _CONSISTENCY_
+- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
+- `docs/COVERAGE.md` — _COVERAGE_
+- `docs/DECAY_CANDIDATES.md` — _DECAY_CANDIDATES_
+- `docs/DUPLICATES.md` — _DUPLICATES_
+- `docs/FAQ.md` — _FAQ_
+- `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
+- `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
+- `docs/INDEX.md` — _INDEX_
 - _...и ещё 34 файлов_
 
 ## Кластер 15 — document, what, documents, layer (41 файлов)
@@ -354,7 +362,7 @@
 - `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` — _00-question-voiceless_
 - _...и ещё 16 файлов_
 
-## Кластер 26 — draft, svyazi, core-компонент, коллаборации (25 файлов)
+## Кластер 26 — draft, svyazi, core-компонент, коллаборации (24 файлов)
 
 - `docs/DIGEST_AUTO.md` — _DIGEST_AUTO_
 - `docs/KNOWLEDGE_EVOLUTION.md` — _KNOWLEDGE_EVOLUTION_
@@ -366,7 +374,7 @@
 - `docs/contacts/VitaliySemenov_draft.md` — _VitaliySemenov_draft_
 - `docs/contacts/VitalyOborin_draft.md` — _VitalyOborin_draft_
 - `docs/contacts/kksudo_draft.md` — _kksudo_draft_
-- _...и ещё 15 файлов_
+- _...и ещё 14 файлов_
 
 ## Кластер 27 — docs, autofilled, components, anthropic-vacancies (21 файлов)
 
@@ -425,3 +433,14 @@
 - _...и ещё 8 файлов_
 
 _...и ещё 155 малых кластеров (по 1-2 файла)_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_ORDER](READING_ORDER.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [PROMOTE_LOG](PROMOTE_LOG.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+

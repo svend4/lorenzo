@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----

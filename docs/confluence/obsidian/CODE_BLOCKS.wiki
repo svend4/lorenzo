@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/CODE_BLOCKS.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
 title: "Code-блоки репозитория"
 tags:
   * general
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Code-блоки репозитория

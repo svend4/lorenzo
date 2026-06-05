@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/autofilled/components/lorenzo.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----

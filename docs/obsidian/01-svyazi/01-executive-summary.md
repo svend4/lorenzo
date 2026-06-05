@@ -2,7 +2,7 @@
 title: "Svyazi[^svyazi] 2.0 — Исполнительное резюме"
 tags:
   - svyazi
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # Svyazi[^svyazi] 2.0 — Исполнительное резюме

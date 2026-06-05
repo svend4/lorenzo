@@ -4,7 +4,7 @@ tags:
   - anthropic
   - roadmap
   - anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # 10. QueryResult Structure

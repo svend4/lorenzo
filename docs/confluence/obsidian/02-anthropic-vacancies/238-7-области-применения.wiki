@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/238-7-области-применения.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. 7. Области применения

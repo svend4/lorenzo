@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
@@ -11,7 +11,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги

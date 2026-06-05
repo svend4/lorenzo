@@ -4,7 +4,7 @@ tags:
   - heatmap
   - docs
   - general
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # Тепловая карта тем

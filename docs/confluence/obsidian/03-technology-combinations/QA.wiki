@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/03-technology-combinations/QA.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * qa
   * docs
   * technology-combinations
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Q&A: 03-technology-combinations

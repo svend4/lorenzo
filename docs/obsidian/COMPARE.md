@@ -2,16 +2,16 @@
 title: "Сравнение с предыдущим коммитом"
 tags:
   - general
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # Сравнение с предыдущим коммитом
 
-**Файлов было:** 1537  **стало:** 2606  
-**Слов было:** 2,096,875  **стало:** 2,977,972  **Δ:** +881,097
+**Файлов было:** 1539  **стало:** 2607  
+**Слов было:** 2,098,563  **стало:** 2,982,088  **Δ:** +883,525
 
 
-## Новые файлы (1069)
+## Новые файлы (1068)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19244 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3391 слов)
@@ -53,53 +53,24 @@ date: 2026-05-14
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (657 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (590 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (691 слов)
-_...и ещё 1029_
+_...и ещё 1028_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (482) — топ по Δ слов
+## Изменившиеся файлы (12) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `QUESTIONS.md` | 21866 | 1910 | -19956 |
-| `SCRIPTS_CATALOG.md` | 7744 | 9164 | +1420 |
-| `READING_TIME.md` | 27576 | 28661 | +1085 |
-| `DUPLICATES.md` | 1653 | 2625 | +972 |
-| `DUPLICATES.md` | 1650 | 2597 | +947 |
-| `LANGUAGE_STATS.md` | 7933 | 8413 | +480 |
-| `DEVELOPMENT_PLAN.md` | 4110 | 4571 | +461 |
-| `READING_ORDER.md` | 6098 | 6458 | +360 |
-| `CROSS_SECTION.md` | 4382 | 4719 | +337 |
-| `DIGEST_WEEKLY.md` | 420 | 312 | -108 |
-| `REGISTRY.md` | 1350 | 1446 | +96 |
-| `VladSpace_draft.md` | 119 | 198 | +79 |
-| `Dmitriila_draft.md` | 115 | 193 | +78 |
-| `nlaik_draft.md` | 115 | 193 | +78 |
-| `DECISIONS.md` | 2723 | 2645 | -78 |
-| `TAGS.md` | 689 | 611 | -78 |
-| `Cutcode_draft.md` | 109 | 186 | +77 |
-| `DIGEST_WEEKLY.md` | 255 | 330 | +75 |
-| `TAGS.md` | 556 | 631 | +75 |
-| `spbmolot_draft.md` | 119 | 193 | +74 |
-| `STALENESS.md` | 355 | 427 | +72 |
-| `HOT_CARDS.md` | 192 | 260 | +68 |
-| `KNOWLEDGE_SNAPSHOT.md` | 146 | 214 | +68 |
-| `DECISIONS.md` | 2705 | 2639 | -66 |
-| `KPI_HISTORY.md` | 207 | 273 | +66 |
-| `AnastasiyaW_draft.md` | 116 | 182 | +66 |
-| `34-appendix-b-change-log.md` | 892 | 958 | +66 |
-| `Sonia_Black_draft.md` | 115 | 180 | +65 |
-| `VitaliySemenov_draft.md` | 118 | 183 | +65 |
-| `ensemble.md` | 181 | 246 | +65 |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
+| `CONTRADICTIONS.md` | 1378 | 1425 | +47 |
+| `DUPLICATES.md` | 2243 | 2290 | +47 |
+| `CONCEPT_GRAPH.md` | 646 | 691 | +45 |
+| `CONSISTENCY.md` | 612 | 657 | +45 |
+| `CROSS_SECTION.md` | 4654 | 4699 | +45 |
+| `COMPARE.md` | 477 | 519 | +42 |
+| `CONTENT_GAPS.md` | 885 | 927 | +42 |
+| `DEPENDABOT.md` | 136 | 178 | +42 |
+| `CI_COST_INCIDENT_2026-05-14.md` | 1247 | 1272 | +25 |
+| `BACKLINKS.md` | 548 | 555 | +7 |
+| `ALERTS.md` | 108 | 108 | +0 |
+| `CLUSTERS.md` | 1674 | 1674 | +0 |

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * roadmap
   * rag
   * anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. 9. Checklist применения методологии

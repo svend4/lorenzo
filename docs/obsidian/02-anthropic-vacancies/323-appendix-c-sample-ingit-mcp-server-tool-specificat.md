@@ -2,7 +2,7 @@
 title: "Appendix C: Sample InGit MCP Server Tool Specifications"
 tags:
   - anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # Appendix C: Sample InGit MCP Server Tool Specifications

@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # 2. What Cowork Provides That InGit Doesn't Need to Build

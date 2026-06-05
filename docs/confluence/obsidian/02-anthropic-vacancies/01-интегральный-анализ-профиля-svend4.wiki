@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
 title: "Интегральный анализ профиля svend4"
 tags:
   * anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Интегральный анализ профиля svend4

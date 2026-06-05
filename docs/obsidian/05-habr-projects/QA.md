@@ -4,7 +4,7 @@ tags:
   - qa
   - docs
   - habr-projects
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # Q&A: 05-habr-projects

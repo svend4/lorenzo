@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/GITHUB_ISSUES.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 h1. GitHub Issues — список задач

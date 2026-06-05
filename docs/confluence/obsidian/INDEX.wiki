@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/INDEX.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * index
   * docs
   * general
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Индекс документации — Lorenzo / Svyazi 2.0

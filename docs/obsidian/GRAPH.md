@@ -4,7 +4,7 @@ tags:
   - graph
   - docs
   - general
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # Граф связей проектов

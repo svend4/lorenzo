@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/05-habr-projects/QA.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * qa
   * docs
   * habr-projects
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Q&A: 05-habr-projects

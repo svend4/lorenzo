@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----

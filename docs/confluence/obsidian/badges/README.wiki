@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/badges/README.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
 title: "Бейджи репозитория"
 tags:
   * badges
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Бейджи репозитория
@@ -35,13 +35,3 @@ h2. Использование в README
 ![license](license.svg)
 ![branch](branch.svg)
 {code}
-
-
-
-----
-
-_Кто ссылается на этот документ (3):_
-* [READABILITY|../../READABILITY.md]
-* [SEARCH|../../SEARCH.md]
-* [TABLES|../../TABLES.md]
-

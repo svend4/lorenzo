@@ -1,19 +1,19 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/READING_TIME.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
 title: "Время чтения документов"
 tags:
   * general
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Время чтения документов
 
 
-{quote}Документов: _2581_ | Слов: _1,738,441_ | Время базы: _170ч 32мин_{quote}
+{quote}Документов: _2586_ | Слов: _1,744,858_ | Время базы: _170ч 55мин_{quote}
 
 
 
@@ -24,7 +24,7 @@ h1. Время чтения документов
 
 _Обновлено: 2026-05-14_
 
-Документов: _2581_ | Слов всего: _1,738,441_ | Время чтения всей базы: _170ч 32мин_
+Документов: _2586_ | Слов всего: _1,744,858_ | Время чтения всей базы: _170ч 55мин_
 
 h2. Все документы
 
@@ -71,8 +71,8 @@ h2. Все документы
 || [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи || 343-lorenzo-catalyst-agent-глубокая-проработк]] || ~25 мин || 4858 || 📕 Очень долго ||
 || [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи || 343-lorenzo-catalyst-agent-глубокая-проработк]] || ~24 мин || 4796 || 📕 Очень долго ||
 || [[133-обратная-связь]] || ~24 мин || 3594 || 📕 Очень долго ||
-|| [[DEVELOPMENT_PLAN]] || ~23 мин || 2207 || 📕 Очень долго ||
-|| [[DEVELOPMENT_PLAN]] || ~23 мин || 2218 || 📕 Очень долго ||
+|| [[DEVELOPMENT_PLAN]] || ~23 мин || 2235 || 📕 Очень долго ||
+|| [[DEVELOPMENT_PLAN]] || ~23 мин || 2230 || 📕 Очень долго ||
 || [[341-приложение-c-образец-спецификаций-инструментов-ing || 341-приложение-c-образец-спецификаций-инструм]] || ~21 мин || 3616 || 📕 Очень долго ||
 || [[341-приложение-c-образец-спецификаций-инструментов-ing || 341-приложение-c-образец-спецификаций-инструм]] || ~21 мин || 3533 || 📕 Очень долго ||
 || [[12-zaklyuchenie]] || ~20 мин || 3956 || 📕 Очень долго ||
@@ -91,9 +91,9 @@ h2. Все документы
 || [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать || 14-ограничения-лицензии-и-что-пока-лучше-не-с]] || ~15 мин || 3262 || 📕 Очень долго ||
 || [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать || 14-ограничения-лицензии-и-что-пока-лучше-не-с]] || ~15 мин || 3193 || 📕 Очень долго ||
 || [[README]] || ~15 мин || 3294 || 📕 Очень долго ||
+|| [[READING_ORDER]] || ~14 мин || 3369 || 📙 Долго ||
 || [[00-question-innovations-transitions]] || ~14 мин || 2783 || 📙 Долго ||
 || [[69-section]] || ~14 мин || 1126 || 📙 Долго ||
-|| [[READING_ORDER]] || ~14 мин || 3164 || 📙 Долго ||
 || [[02-общий-план-развития-nautilus-portal-protocol || 02-общий-план-развития-nautilus-portal-protoc]] || ~14 мин || 2470 || 📙 Долго ||
 || [[69-section]] || ~13 мин || 1074 || 📙 Долго ||
 || [[01-completing-loop]] || ~13 мин || 2959 || 📙 Долго ||
@@ -131,10 +131,10 @@ h2. Все документы
 || [[QA]] || ~9 мин || 1886 || 📙 Долго ||
 || [[03-chunking]] || ~9 мин || 469 || 📙 Долго ||
 || [[03-chunking]] || ~9 мин || 443 || 📙 Долго ||
+|| [[DECISIONS]] || ~9 мин || 1096 || 📙 Долго ||
 || [[228-appendix-c-quick-start-architecture-for-sgb-advoca || 228-appendix-c-quick-start-architecture-for-s]] || ~9 мин || 1846 || 📙 Долго ||
-|| [[DECISIONS]] || ~8 мин || 1069 || 📙 Долго ||
+|| [[DECISIONS]] || ~9 мин || 1087 || 📙 Долго ||
 || [[components-by-name]] || ~8 мин || 2077 || 📙 Долго ||
-|| [[DECISIONS]] || ~8 мин || 1078 || 📙 Долго ||
 || [[01-response]] || ~8 мин || 1789 || 📙 Долго ||
 || [[04-structuring]] || ~8 мин || 479 || 📙 Долго ||
 || [[04-structuring]] || ~8 мин || 458 || 📙 Долго ||
@@ -152,9 +152,9 @@ h2. Все документы
 || [[04-ensembles-overview]] || ~8 мин || 1259 || 📙 Долго ||
 || [[194-4-десять-областей-применения]] || ~8 мин || 1549 || 📙 Долго ||
 || [[METHODOLOGY]] || ~8 мин || 553 || 📙 Долго ||
-|| [[QUESTIONS]] || ~8 мин || 1709 || 📙 Долго ||
 || [[09-automation]] || ~8 мин || 446 || 📙 Долго ||
 || [[09-automation]] || ~8 мин || 460 || 📙 Долго ||
+|| [[QUESTIONS]] || ~8 мин || 1698 || 📙 Долго ||
 || [[04-desyat-oblastey]] || ~7 мин || 1490 || 📘 Средне ||
 || [[04-ensembles-overview]] || ~7 мин || 1189 || 📘 Средне ||
 || [[194-4-десять-областей-применения]] || ~7 мин || 1493 || 📘 Средне ||
@@ -217,13 +217,13 @@ h2. Все документы
 || [[186-appendix-c-sample-use-cases-in-detail]] || ~5 мин || 1225 || 📘 Средне ||
 || [[06-riski]] || ~5 мин || 1109 || 📘 Средне ||
 || [[237-6-риски-специфичные-для-этой-категории]] || ~6 мин || 1115 || 📘 Средне ||
-|| [[KPI]] || ~5 мин || 1311 || 📘 Средне ||
+|| [[KPI]] || ~5 мин || 1310 || 📘 Средне ||
 || [[11-difficulties-and-recommendations]] || ~5 мин || 1304 || 📘 Средне ||
 || [[04-enrichment]] || ~5 мин || 307 || 📘 Средне ||
 || [[template-of-templates]] || ~5 мин || 207 || 📘 Средне ||
 || [[13-contacts]] || ~5 мин || 1166 || 📘 Средне ||
 || [[256-3-what-makes-a-composite-skills-agent]] || ~5 мин || 1323 || 📘 Средне ||
-|| [[KPI]] || ~5 мин || 1304 || 📘 Средне ||
+|| [[KPI]] || ~5 мин || 1303 || 📘 Средне ||
 || [[FAQ]] || ~5 мин || 1187 || 📘 Средне ||
 || [[10-second-order-ensembles]] || ~5 мин || 917 || 📘 Средне ||
 || [[template-of-templates]] || ~5 мин || 172 || 📘 Средне ||
@@ -258,25 +258,25 @@ h2. Все документы
 || [[67-о-проекте]] || ~5 мин || 754 || 📘 Средне ||
 || [[02-naming-rationale-lorenzo-medici]] || ~5 мин || 1178 || 📘 Средне ||
 || [[13-contacts]] || ~5 мин || 1038 || 📘 Средне ||
-|| [[CLUSTERS]] || ~5 мин || 1248 || 📘 Средне ||
 || [[02-what-was-missing-in-paper-6]] || ~5 мин || 999 || 📘 Средне ||
 || [[171-2-historical-precedents-agents-as-civilizational-i || 171-2-historical-precedents-agents-as-civiliz]] || ~5 мин || 1179 || 📘 Средне ||
 || [[214-3-empirical-case-study-обучай]] || ~5 мин || 1181 || 📘 Средне ||
 || [[257-4-the-sub-agent-registry]] || ~5 мин || 1199 || 📘 Средне ||
 || [[272-appendix-d-connection-diagram]] || ~5 мин || 763 || 📘 Средне ||
 || [[ABBREVIATIONS]] || ~5 мин || 1079 || 📘 Средне ||
-|| [[CLUSTERS]] || ~5 мин || 1240 || 📘 Средне ||
 || [[02-architecture]] || ~5 мин || 394 || 📘 Средне ||
 || [[212-1-the-five-type-typology-of-principal-side-agents || 212-1-the-five-type-typology-of-principal-sid]] || ~5 мин || 1176 || 📘 Средне ||
 || [[215-4-architecture-of-professional-colleague-agents || 215-4-architecture-of-professional-colleague-]] || ~5 мин || 1181 || 📘 Средне ||
 || [[232-1-типология-из-пяти-типов-агентов-на-стороне-принц || 232-1-типология-из-пяти-типов-агентов-на-стор]] || ~5 мин || 975 || 📘 Средне ||
 || [[261-8-seven-domains-of-application]] || ~5 мин || 1185 || 📘 Средне ||
 || [[288-appendix-position-in-series-visualization]] || ~5 мин || 1110 || 📘 Средне ||
+|| [[CLUSTERS]] || ~5 мин || 1233 || 📘 Средне ||
 || [[03-why-natural-for-programmers]] || ~5 мин || 1020 || 📘 Средне ||
 || [[05-synthesis]] || ~5 мин || 376 || 📘 Средне ||
 || [[192-2-исторические-прецеденты-агенты-как-цивилизационн || 192-2-исторические-прецеденты-агенты-как-циви]] || ~5 мин || 948 || 📘 Средне ||
 || [[259-6-coordination-and-disagreement-resolution || 259-6-coordination-and-disagreement-resolutio]] || ~5 мин || 1155 || 📘 Средне ||
 || [[263-10-risks-specific-to-composite-architectures || 263-10-risks-specific-to-composite-architectu]] || ~5 мин || 1156 || 📘 Средне ||
+|| [[CLUSTERS]] || ~5 мин || 1225 || 📘 Средне ||
 || [[06-risks]] || ~5 мин || 1160 || 📘 Средне ||
 || [[213-2-what-makes-a-professional-colleague-agent || 213-2-what-makes-a-professional-colleague-age]] || ~5 мин || 1160 || 📘 Средне ||
 || [[219-8-pilot-proposal-sgb-advocate-colleague]] || ~5 мин || 1163 || 📘 Средне ||
@@ -288,6 +288,7 @@ h2. Все документы
 || [[02-naming-rationale-lorenzo-medici]] || ~5 мин || 1132 || 📘 Средне ||
 || [[02-architecture]] || ~5 мин || 355 || 📘 Средне ||
 || [[10-новые-ансамбли-следующего-шага]] || ~5 мин || 995 || 📘 Средне ||
+|| [[SEE_ALSO]] || ~5 мин || 1212 || 📘 Средне ||
 || [[00-question-rephrasing]] || ~5 мин || 942 || 📘 Средне ||
 || [[03-the-spectrum]] || ~5 мин || 940 || 📘 Средне ||
 || [[216-5-the-economics-of-profession-wide-replication || 216-5-the-economics-of-profession-wide-replic]] || ~4 мин || 1103 || 📘 Средне ||
@@ -295,7 +296,7 @@ h2. Все документы
 || [[260-7-economics-of-combinatorial-replication]] || ~5 мин || 1119 || 📘 Средне ||
 || [[280-the-specific-case-in-front-of-us]] || ~4 мин || 1105 || 📘 Средне ||
 || [[329-3-что-ingit-обеспечивает-чего-cowork-не-хватает || 329-3-что-ingit-обеспечивает-чего-cowork-не-х]] || ~4 мин || 822 || 📘 Средне ||
-|| [[SEE_ALSO]] || ~5 мин || 1196 || 📘 Средне ||
+|| [[COLLAB_SUGGESTIONS]] || ~4 мин || 576 || 📘 Средне ||
 || [[171-2-historical-precedents-agents-as-civilizational-i || 171-2-historical-precedents-agents-as-civiliz]] || ~4 мин || 1100 || 📘 Средне ||
 || [[192-2-исторические-прецеденты-агенты-как-цивилизационн || 192-2-исторические-прецеденты-агенты-как-циви]] || ~4 мин || 901 || 📘 Средне ||
 || [[272-appendix-d-connection-diagram]] || ~5 мин || 694 || 📘 Средне ||
@@ -314,7 +315,6 @@ h2. Все документы
 || [[235-4-архитектура-профессиональных-коллег-агентов || 235-4-архитектура-профессиональных-коллег-аге]] || ~4 мин || 876 || 📘 Средне ||
 || [[254-1-why-the-binary-view-is-incomplete]] || ~4 мин || 1059 || 📘 Средне ||
 || [[13-контактная-стратегия-и-узкие-вопросы-для-авторов || 13-контактная-стратегия-и-узкие-вопросы-для-а]] || ~4 мин || 920 || 📘 Средне ||
-|| [[COLLAB_SUGGESTIONS]] || ~4 мин || 547 || 📘 Средне ||
 || [[WORD_FREQ]] || ~4 мин || 861 || 📘 Средне ||
 || [[02-istoricheskie-pretsedenty]] || ~4 мин || 880 || 📘 Средне ||
 || [[16-glossary]] || ~4 мин || 926 || 📘 Средне ||
@@ -371,7 +371,7 @@ h2. Все документы
 || [[68-about]] || ~4 мин || 733 || 📘 Средне ||
 || [[06-безопасность-приватность-и-бюджетный-роутинг || 06-безопасность-приватность-и-бюджетный-роути]] || ~4 мин || 856 || 📘 Средне ||
 || [[09-архитектурные-зазоры-которые-важнее-новых-инструме || 09-архитектурные-зазоры-которые-важнее-новых-]] || ~4 мин || 878 || 📘 Средне ||
-|| [[COLLAB_SUGGESTIONS]] || ~4 мин || 456 || 📘 Средне ||
+|| [[COLLAB_SUGGESTIONS]] || ~4 мин || 465 || 📘 Средне ||
 || [[VERSION_DIFF]] || ~4 мин || 637 || 📘 Средне ||
 || [[143-6-four-deployment-domains]] || ~4 мин || 956 || 📘 Средне ||
 || [[174-5-architectural-specification]] || ~4 мин || 953 || 📘 Средне ||
@@ -392,6 +392,7 @@ h2. Все документы
 || [[05-benchmarks]] || ~4 мин || 850 || 📘 Средне ||
 || [[13-reprioritization]] || ~4 мин || 910 || 📘 Средне ||
 || [[08-pilot-sgb-kolega]] || ~4 мин || 804 || 📘 Средне ||
+|| [[RFC-0003-mcp-write-back-protocol-для-svyazi-2-0 || RFC-0003-mcp-write-back-protocol-для-svyazi-2]] || ~4 мин || 414 || 📘 Средне ||
 || [[14-limitations]] || ~4 мин || 822 || 📘 Средне ||
 || [[277-what-s-missing-layer-b]] || ~4 мин || 933 || 📘 Средне ||
 || [[295-конкретный-случай-перед-нами]] || ~4 мин || 769 || 📘 Средне ||
@@ -419,6 +420,7 @@ h2. Все документы
 || [[04-proposed-infrastructure]] || ~4 мин || 912 || 📘 Средне ||
 || [[01-pyat-tipov]] || ~4 мин || 743 || 📘 Средне ||
 || [[02-historical-precedents]] || ~4 мин || 908 || 📘 Средне ||
+|| [[RFC-0003-mcp-write-back-protocol-для-svyazi-2-0 || RFC-0003-mcp-write-back-protocol-для-svyazi-2]] || ~4 мин || 364 || 📘 Средне ||
 || [[223-12-closing]] || ~4 мин || 878 || 📘 Средне ||
 || [[238-7-области-применения]] || ~4 мин || 743 || 📘 Средне ||
 || [[240-9-связь-с-другими-типами-агентов]] || ~4 мин || 732 || 📘 Средне ||
@@ -434,7 +436,6 @@ h2. Все документы
 || [[191-1-синдром-золушки-почему-качество-остаётся-невидим || 191-1-синдром-золушки-почему-качество-остаётс]] || ~4 мин || 721 || 📘 Средне ||
 || [[331-5-четыре-пути-интеграции-в-порядке-доступности || 331-5-четыре-пути-интеграции-в-порядке-доступ]] || ~4 мин || 763 || 📘 Средне ||
 || [[REGISTRY]] || ~4 мин || 790 || 📘 Средне ||
-|| [[RFC-0003-mcp-write-back-protocol-для-svyazi-2-0 || RFC-0003-mcp-write-back-protocol-для-svyazi-2]] || ~4 мин || 340 || 📘 Средне ||
 || [[155-1-problem-statement]] || ~4 мин || 863 || 📘 Средне ||
 || [[156-2-target-populations]] || ~4 мин || 870 || 📘 Средне ||
 || [[262-9-integration-with-okwf-infrastructure]] || ~3 мин || 866 || 📘 Средне ||
@@ -454,12 +455,11 @@ h2. Все документы
 || [[295-конкретный-случай-перед-нами]] || ~3 мин || 705 || 📘 Средне ||
 || [[72-расписание-фазы-3]] || ~4 мин || 741 || 📘 Средне ||
 || [[12-дорожная-карта-прототипа-следующей-итерации || 12-дорожная-карта-прототипа-следующей-итераци]] || ~4 мин || 746 || 📘 Средне ||
-|| [[NARRATIVE]] || ~4 мин || 832 || 📘 Средне ||
+|| [[NARRATIVE]] || ~3 мин || 827 || 📘 Средне ||
 || [[SOURCE_MAP]] || ~4 мин || 117 || 📘 Средне ||
 || [[02-double-triangle-architecture]] || ~4 мин || 620 || 📘 Средне ||
 || [[01-sindrom-zolushki]] || ~3 мин || 708 || 📘 Средне ||
 || [[13-appendix-b-examples]] || ~3 мин || 202 || 📘 Средне ||
-|| [[RFC-0003-mcp-write-back-protocol-для-svyazi-2-0 || RFC-0003-mcp-write-back-protocol-для-svyazi-2]] || ~3 мин || 323 || 📘 Средне ||
 || [[157-3-why-existing-solutions-fail]] || ~3 мин || 834 || 📘 Средне ||
 || [[18-6-adapter-interface]] || ~3 мин || 668 || 📘 Средне ||
 || [[284-practical-recommendations-for-the-current-project || 284-practical-recommendations-for-the-current]] || ~3 мин || 821 || 📘 Средне ||
@@ -521,6 +521,7 @@ h2. Все документы
 || [[309-1-the-cowork-discovery-and-why-it-changes-everythi || 309-1-the-cowork-discovery-and-why-it-changes]] || ~3 мин || 785 || 📘 Средне ||
 || [[310-2-what-cowork-provides-that-ingit-doesn-t-need-to- || 310-2-what-cowork-provides-that-ingit-doesn-t]] || ~3 мин || 801 || 📘 Средне ||
 || [[01-executive-summary]] || ~3 мин || 698 || 📘 Средне ||
+|| [[DUPLICATES]] || ~3 мин || 522 || 📘 Средне ||
 || [[NARRATIVE]] || ~3 мин || 778 || 📘 Средне ||
 || [[05-minuses-as-business]] || ~3 мин || 703 || 📘 Средне ||
 || [[10-risks]] || ~3 мин || 792 || 📘 Средне ||
@@ -531,6 +532,7 @@ h2. Все документы
 || [[223-12-closing]] || ~3 мин || 787 || 📘 Средне ||
 || [[88-13-rest-api-contract-normative-for-portals]] || ~3 мин || 269 || 📘 Средне ||
 || [[DEMO]] || ~3 мин || 248 || 📘 Средне ||
+|| [[DUPLICATES]] || ~3 мин || 528 || 📘 Средне ||
 || [[03-three-variants-A-B-C]] || ~3 мин || 684 || 📘 Средне ||
 || [[09-minuses-and-risks]] || ~3 мин || 670 || 📘 Средне ||
 || [[02-what-makes-pca]] || ~3 мин || 790 || 📘 Средне ||
@@ -648,7 +650,7 @@ h2. Все документы
 || [[251-ai-support-through-configurable-specialist-ensembl || 251-ai-support-through-configurable-specialis]] || ~3 мин || 675 || 📘 Средне ||
 || [[355-существующие-документы-dhlab-твой-context]] || ~3 мин || 666 || 📘 Средне ||
 || [[73-portal-protocol-md-v1-1]] || ~3 мин || 558 || 📘 Средне ||
-|| [[CONTRADICTIONS]] || ~3 мин || 675 || 📘 Средне ||
+|| [[CONTRADICTIONS]] || ~3 мин || 688 || 📘 Средне ||
 || [[QA]] || ~3 мин || 486 || 📘 Средне ||
 || [[04-what-to-do]] || ~3 мин || 607 || 📘 Средне ||
 || [[06-angel-vs-demon-duality]] || ~3 мин || 601 || 📘 Средне ||
@@ -665,7 +667,7 @@ h2. Все документы
 || [[291-двухслойный-стек-как-он-существует]] || ~3 мин || 565 || 📘 Средне ||
 || [[299-практические-рекомендации-для-текущего-проекта || 299-практические-рекомендации-для-текущего-пр]] || ~3 мин || 575 || 📘 Средне ||
 || [[319-acknowledgments]] || ~3 мин || 669 || 📘 Средне ||
-|| [[CONTRADICTIONS]] || ~3 мин || 682 || 📘 Средне ||
+|| [[CONTRADICTIONS]] || ~3 мин || 695 || 📘 Средне ||
 || [[04-what-to-take-from-info-repos]] || ~3 мин || 673 || 📘 Средне ||
 || [[05-platform-not-position]] || ~3 мин || 570 || 📘 Средне ||
 || [[01-concept]] || ~3 мин || 370 || 📘 Средне ||
@@ -954,6 +956,7 @@ h2. Все документы
 || [[06-ethical-framework]] || ~2 мин || 546 || 📗 Быстро ||
 || [[03-consolidation-principles]] || ~2 мин || 343 || 📗 Быстро ||
 || [[reading-paths]] || ~2 мин || 478 || 📗 Быстро ||
+|| [[RFC-0002-memory-write-policy-для-svyazi-2-0]] || ~2 мин || 381 || 📗 Быстро ||
 || [[30-mega-stack-3-0-with-dsl-ast]] || ~2 мин || 513 || 📗 Быстро ||
 || [[05-0-status-of-this-document]] || ~2 мин || 486 || 📗 Быстро ||
 || [[107-1-контекст-и-мотивация]] || ~2 мин || 422 || 📗 Быстро ||
@@ -1019,6 +1022,7 @@ h2. Все документы
 || [[93-18-reference-implementation]] || ~2 мин || 475 || 📗 Быстро ||
 || [[94-19-adr-001-federation-over-merging]] || ~2 мин || 454 || 📗 Быстро ||
 || [[ngt-memory]] || ~2 мин || 427 || 📗 Быстро ||
+|| [[BROKEN_LINKS]] || ~2 мин || 310 || 📗 Быстро ||
 || [[READING_LIST]] || ~2 мин || 448 || 📗 Быстро ||
 || [[01-three-key-candidates]] || ~2 мин || 419 || 📗 Быстро ||
 || [[03-a2a-vs-mcp-protocols]] || ~2 мин || 462 || 📗 Быстро ||
@@ -1059,6 +1063,7 @@ h2. Все документы
 || [[00-abstract]] || ~2 мин || 472 || 📗 Быстро ||
 || [[10-otkrytye-voprosy]] || ~2 мин || 412 || 📗 Быстро ||
 || [[10-otkrytye-voprosy]] || ~2 мин || 408 || 📗 Быстро ||
+|| [[RFC-0002-memory-write-policy-для-svyazi-2-0]] || ~2 мин || 321 || 📗 Быстро ||
 || [[30-mega-stack-3-0-with-dsl-ast]] || ~2 мин || 457 || 📗 Быстро ||
 || [[01-08-summary]] || ~2 мин || 453 || 📗 Быстро ||
 || [[README]] || ~2 мин || 402 || 📗 Быстро ||
@@ -1081,7 +1086,6 @@ h2. Все документы
 || [[356-твой-workflow]] || ~2 мин || 411 || 📗 Быстро ||
 || [[77-2-terminology]] || ~2 мин || 415 || 📗 Быстро ||
 || [[95-20-adr-002-q6-as-first-class-protocol-concept || 95-20-adr-002-q6-as-first-class-protocol-conc]] || ~2 мин || 447 || 📗 Быстро ||
-|| [[BROKEN_LINKS]] || ~2 мин || 292 || 📗 Быстро ||
 || [[02-related-projects-context]] || ~2 мин || 407 || 📗 Быстро ||
 || [[02-four-structural-blockers]] || ~2 мин || 420 || 📗 Быстро ||
 || [[11-not-and-format]] || ~2 мин || 457 || 📗 Быстро ||
@@ -1118,7 +1122,6 @@ h2. Все документы
 || [[06-adapter-interface]] || ~2 мин || 333 || 📗 Быстро ||
 || [[11-prizyv-k-sotrudnichestvu]] || ~2 мин || 398 || 📗 Быстро ||
 || [[README]] || ~2 мин || 476 || 📗 Быстро ||
-|| [[RFC-0002-memory-write-policy-для-svyazi-2-0]] || ~2 мин || 297 || 📗 Быстро ||
 || [[conclusions]] || ~2 мин || 426 || 📗 Быстро ||
 || [[do-not-glue]] || ~2 мин || 421 || 📗 Быстро ||
 || [[narrow-questions]] || ~2 мин || 397 || 📗 Быстро ||
@@ -1146,7 +1149,6 @@ h2. Все документы
 || [[01-agent-routing]] || ~2 мин || 395 || 📗 Быстро ||
 || [[04-sozialrecht-domain]] || ~2 мин || 298 || 📗 Быстро ||
 || [[02-методика-и-рамка-отбора]] || ~2 мин || 390 || 📗 Быстро ||
-|| [[DUPLICATES]] || ~2 мин || 389 || 📗 Быстро ||
 || [[INDEX]] || ~2 мин || 393 || 📗 Быстро ||
 || [[README]] || ~2 мин || 416 || 📗 Быстро ||
 || [[04-memory-firewall-vs-prompt-worms]] || ~2 мин || 406 || 📗 Быстро ||
@@ -1195,7 +1197,6 @@ h2. Все документы
 || [[74-abstract]] || ~2 мин || 393 || 📗 Быстро ||
 || [[77-2-terminology]] || ~2 мин || 387 || 📗 Быстро ||
 || [[94-19-adr-001-federation-over-merging]] || ~2 мин || 401 || 📗 Быстро ||
-|| [[DUPLICATES]] || ~2 мин || 395 || 📗 Быстро ||
 || [[01-three-key-candidates]] || ~2 мин || 368 || 📗 Быстро ||
 || [[03-a2a-vs-mcp-protocols]] || ~2 мин || 407 || 📗 Быстро ||
 || [[7-domain-agent-app-factory]] || ~2 мин || 388 || 📗 Быстро ||
@@ -1213,7 +1214,6 @@ h2. Все документы
 || [[10-open-questions]] || ~2 мин || 429 || 📗 Быстро ||
 || [[11-prizyv-k-sotrudnichestvu]] || ~2 мин || 360 || 📗 Быстро ||
 || [[10-open-questions]] || ~2 мин || 436 || 📗 Быстро ||
-|| [[RFC-0002-memory-write-policy-для-svyazi-2-0]] || ~2 мин || 277 || 📗 Быстро ||
 || [[conclusions]] || ~2 мин || 385 || 📗 Быстро ||
 || [[do-not-glue]] || ~2 мин || 383 || 📗 Быстро ||
 || [[35-mega-stack-4-0-with-event-sourcing-consensus || 35-mega-stack-4-0-with-event-sourcing-consens]] || ~2 мин || 441 || 📗 Быстро ||
@@ -1865,6 +1865,8 @@ h2. Все документы
 || [[350-твои-языки-и-культурные-nuances]] || ~1 мин || 283 || 📗 Быстро ||
 || [[50-bridges]] || ~1 мин || 283 || 📗 Быстро ||
 || [[61-compatibility-level]] || ~1 мин || 308 || 📗 Быстро ||
+|| [[proposal-agentfs-x-agent-memory-mcp]] || ~1 мин || 292 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-agent-memory-mcp]] || ~1 мин || 308 || 📗 Быстро ||
 || [[README]] || ~1 мин || 282 || 📗 Быстро ||
 || [[02-sales]] || ~1 мин || 279 || 📗 Быстро ||
 || [[06-final-tier-ranking]] || ~1 мин || 310 || 📗 Быстро ||
@@ -1906,7 +1908,7 @@ h2. Все документы
 || [[README]] || ~1 мин || 274 || 📗 Быстро ||
 || [[COMPONENT_MATRIX]] || ~1 мин || 288 || 📗 Быстро ||
 || [[NAMED_ENTITIES]] || ~1 мин || 294 || 📗 Быстро ||
-|| [[SEE_ALSO]] || ~1 мин || 412 || 📗 Быстро ||
+|| [[SEE_ALSO]] || ~1 мин || 419 || 📗 Быстро ||
 || [[08-pluses-of-model]] || ~1 мин || 281 || 📗 Быстро ||
 || [[01-section-1-problem]] || ~1 мин || 286 || 📗 Быстро ||
 || [[03-section-3-solution-architecture]] || ~1 мин || 283 || 📗 Быстро ||
@@ -2040,6 +2042,7 @@ h2. Все документы
 || [[faq-entry]] || ~1 мин || 281 || 📗 Быстро ||
 || [[meeting-notes]] || ~1 мин || 264 || 📗 Быстро ||
 || [[QA]] || ~1 мин || 270 || 📗 Быстро ||
+|| [[RFC-0001-card-envelope-contract]] || ~1 мин || 286 || 📗 Быстро ||
 || [[card-envelope]] || ~1 мин || 281 || 📗 Быстро ||
 || [[agent-memory-mcp]] || ~1 мин || 291 || 📗 Быстро ||
 || [[27-hybrid-rag-with-ast-chunked-code]] || ~1 мин || 315 || 📗 Быстро ||
@@ -2048,10 +2051,17 @@ h2. Все документы
 || [[tech-radar-entry]] || ~1 мин || 288 || 📗 Быстро ||
 || [[weekly-digest]] || ~1 мин || 288 || 📗 Быстро ||
 || [[86-11-relevance-ranking]] || ~1 мин || 261 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-ngt-memory]] || ~1 мин || 286 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-yodoca]] || ~1 мин || 271 || 📗 Быстро ||
+|| [[proposal-research-docs-liteparse-x-agent-memory-mcp || proposal-research-docs-liteparse-x-agent-memo]] || ~1 мин || 281 || 📗 Быстро ||
+|| [[proposal-research-docs-liteparse-x-agentfs]] || ~1 мин || 267 || 📗 Быстро ||
+|| [[proposal-research-docs-liteparse-x-knowledge-space || proposal-research-docs-liteparse-x-knowledge-]] || ~1 мин || 280 || 📗 Быстро ||
+|| [[proposal-wikontic-x-agent-memory-mcp]] || ~1 мин || 283 || 📗 Быстро ||
 || [[02-collaboration-partners]] || ~1 мин || 256 || 📗 Быстро ||
 || [[QA]] || ~1 мин || 259 || 📗 Быстро ||
 || [[CROSSREFS]] || ~1 мин || 281 || 📗 Быстро ||
 || [[METRICS]] || ~1 мин || 166 || 📗 Быстро ||
+|| [[PROGRESS]] || ~1 мин || 278 || 📗 Быстро ||
 || [[SEARCH_RESULTS]] || ~1 мин || 259 || 📗 Быстро ||
 || [[cowork]] || ~1 мин || 258 || 📗 Быстро ||
 || [[ingit]] || ~1 мин || 258 || 📗 Быстро ||
@@ -2149,9 +2159,14 @@ h2. Все документы
 || [[mega-stack]] || ~1 мин || 268 || 📗 Быстро ||
 || [[prototype-mvp]] || ~1 мин || 256 || 📗 Быстро ||
 || [[rfc]] || ~1 мин || 253 || 📗 Быстро ||
+|| [[proposal-agentfs-x-yodoca]] || ~1 мин || 247 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-mclaude]] || ~1 мин || 243 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-rufler]] || ~1 мин || 242 || 📗 Быстро ||
+|| [[proposal-mclaude-x-rufler]] || ~1 мин || 246 || 📗 Быстро ||
+|| [[proposal-wikontic-x-ngt-memory]] || ~1 мин || 255 || 📗 Быстро ||
+|| [[proposal-wikontic-x-yodoca]] || ~1 мин || 258 || 📗 Быстро ||
 || [[CONTACTS]] || ~1 мин || 243 || 📗 Быстро ||
 || [[GRAPH]] || ~1 мин || 133 || 📗 Быстро ||
-|| [[PROGRESS]] || ~1 мин || 261 || 📗 Быстро ||
 || [[VOCABULARY]] || ~1 мин || 229 || 📗 Быстро ||
 || [[svend4]] || ~1 мин || 234 || 📗 Быстро ||
 || [[research-summary]] || ~1 мин || 240 || 📗 Быстро ||
@@ -2167,6 +2182,7 @@ h2. Все документы
 || [[51-compatibility-level]] || ~1 мин || 259 || 📗 Быстро ||
 || [[61-compatibility-level]] || ~1 мин || 251 || 📗 Быстро ||
 || [[METRICS]] || ~1 мин || 131 || 📗 Быстро ||
+|| [[PROGRESS]] || ~1 мин || 246 || 📗 Быстро ||
 || [[SEARCH_RESULTS]] || ~1 мин || 234 || 📗 Быстро ||
 || [[06-final-tier-ranking]] || ~1 мин || 258 || 📗 Быстро ||
 || [[overview]] || ~1 мин || 233 || 📗 Быстро ||
@@ -2183,10 +2199,15 @@ h2. Все документы
 || [[ensemble]] || ~1 мин || 124 || 📗 Быстро ||
 || [[risk-entry]] || ~1 мин || 238 || 📗 Быстро ||
 || [[tech-radar-entry]] || ~1 мин || 234 || 📗 Быстро ||
-|| [[RFC-0001-card-envelope-contract]] || ~1 мин || 244 || 📗 Быстро ||
 || [[kpi-snapshot]] || ~1 мин || 248 || 📗 Быстро ||
 || [[legal-case]] || ~1 мин || 255 || 📗 Быстро ||
 || [[19-7-portalentry-structure]] || ~1 мин || 225 || 📗 Быстро ||
+|| [[proposal-01-synthesis-x-wikontic]] || ~1 мин || 241 || 📗 Быстро ||
+|| [[proposal-01-synthesis-x-yodoca]] || ~1 мин || 228 || 📗 Быстро ||
+|| [[proposal-agentfs-x-mclaude]] || ~1 мин || 230 || 📗 Быстро ||
+|| [[proposal-agentfs-x-rufler]] || ~1 мин || 232 || 📗 Быстро ||
+|| [[proposal-mclaude-x-agent-memory-mcp]] || ~1 мин || 238 || 📗 Быстро ||
+|| [[proposal-rufler-x-agent-memory-mcp]] || ~1 мин || 239 || 📗 Быстро ||
 || [[DIGEST]] || ~1 мин || 246 || 📗 Быстро ||
 || [[ENTITIES]] || ~1 мин || 228 || 📗 Быстро ||
 || [[FOOTNOTES]] || ~1 мин || 215 || 📗 Быстро ||
@@ -2204,10 +2225,10 @@ h2. Все документы
 || [[README]] || ~1 мин || 227 || 📗 Быстро ||
 || [[README]] || ~1 мин || 237 || 📗 Быстро ||
 || [[86-11-relevance-ranking]] || ~1 мин || 228 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-agent-memory-mcp]] || ~1 мин || 217 || 📗 Быстро ||
 || [[AUTOFILLED]] || ~1 мин || 222 || 📗 Быстро ||
 || [[DIGEST]] || ~1 мин || 230 || 📗 Быстро ||
 || [[GRAPH]] || ~1 мин || 117 || 📗 Быстро ||
-|| [[PROGRESS]] || ~1 мин || 229 || 📗 Быстро ||
 || [[VOCABULARY]] || ~1 мин || 207 || 📗 Быстро ||
 || [[kksudo]] || ~1 мин || 227 || 📗 Быстро ||
 || [[spbmolot]] || ~1 мин || 229 || 📗 Быстро ||
@@ -2217,19 +2238,22 @@ h2. Все документы
 || [[04-passport]] || ~1 мин || 211 || 📗 Быстро ||
 || [[11-relevance-ranking]] || ~1 мин || 221 || 📗 Быстро ||
 || [[12-appendix-a-header-warning]] || ~1 мин || 207 || 📗 Быстро ||
-|| [[RFC-0001-card-envelope-contract]] || ~1 мин || 209 || 📗 Быстро ||
+|| [[RFC-0001-card-envelope-contract]] || ~1 мин || 228 || 📗 Быстро ||
 || [[01-legal-ai-stack]] || ~1 мин || 224 || 📗 Быстро ||
 || [[agent-spec]] || ~1 мин || 214 || 📗 Быстро ||
 || [[kpi-snapshot]] || ~1 мин || 210 || 📗 Быстро ||
 || [[legal-case]] || ~1 мин || 213 || 📗 Быстро ||
 || [[prototype-mvp]] || ~1 мин || 210 || 📗 Быстро ||
 || [[rfc]] || ~1 мин || 214 || 📗 Быстро ||
+|| [[template]] || ~1 мин || 227 || 📗 Быстро ||
 || [[02-ultimate-legal-ai]] || ~1 мин || 247 || 📗 Быстро ||
 || [[09-4-passport-passport-md]] || ~1 мин || 218 || 📗 Быстро ||
 || [[249-composite-skills-agent-md]] || ~1 мин || 201 || 📗 Быстро ||
 || [[273-infrastructure-for-ai-collaborative-intellectual-w || 273-infrastructure-for-ai-collaborative-intel]] || ~1 мин || 213 || 📗 Быстро ||
 || [[304-ingit-as-cowork-native-workspace-substrate-md || 304-ingit-as-cowork-native-workspace-substrat]] || ~1 мин || 214 || 📗 Быстро ||
 || [[344-системный-промпт-для-lorenzo-project]] || ~1 мин || 197 || 📗 Быстро ||
+|| [[proposal-agentfs-x-memnet]] || ~1 мин || 212 || 📗 Быстро ||
+|| [[proposal-wikontic-x-memnet]] || ~1 мин || 208 || 📗 Быстро ||
 || [[CONTACT_PRIORITY]] || ~1 мин || 204 || 📗 Быстро ||
 || [[COST]] || ~1 мин || 211 || 📗 Быстро ||
 || [[NETWORK]] || ~1 мин || 211 || 📗 Быстро ||
@@ -2245,6 +2269,13 @@ h2. Все документы
 || [[README]] || ~1 мин || 211 || 📗 Быстро ||
 || [[09-4-passport-passport-md]] || ~1 мин || 194 || 📗 Быстро ||
 || [[19-7-portalentry-structure]] || ~1 мин || 206 || 📗 Быстро ||
+|| [[proposal-agentfs-x-agent-memory-mcp]] || ~1 мин || 206 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-ngt-memory]] || ~1 мин || 203 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-yodoca]] || ~1 мин || 192 || 📗 Быстро ||
+|| [[proposal-research-docs-liteparse-x-agent-memory-mcp || proposal-research-docs-liteparse-x-agent-memo]] || ~1 мин || 207 || 📗 Быстро ||
+|| [[proposal-research-docs-liteparse-x-agentfs]] || ~1 мин || 196 || 📗 Быстро ||
+|| [[proposal-research-docs-liteparse-x-knowledge-space || proposal-research-docs-liteparse-x-knowledge-]] || ~1 мин || 205 || 📗 Быстро ||
+|| [[proposal-wikontic-x-agent-memory-mcp]] || ~1 мин || 201 || 📗 Быстро ||
 || [[CONTACTS]] || ~1 мин || 211 || 📗 Быстро ||
 || [[COST]] || ~1 мин || 196 || 📗 Быстро ||
 || [[FOOTNOTES]] || ~1 мин || 191 || 📗 Быстро ||
@@ -2278,19 +2309,11 @@ h2. Все документы
 || [[187-слой-представительских-агентов-md]] || ~1 мин || 182 || 📗 Быстро ||
 || [[208-professional-colleague-agents-md]] || ~1 мин || 191 || 📗 Быстро ||
 || [[QA]] || ~1 мин || 165 || 📗 Быстро ||
-|| [[proposal-agentfs-x-agent-memory-mcp]] || ~1 мин || 170 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-agent-memory-mcp]] || ~1 мин || 180 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-ngt-memory]] || ~1 мин || 170 || 📗 Быстро ||
-|| [[proposal-mclaude-x-agent-memory-mcp]] || ~1 мин || 175 || 📗 Быстро ||
-|| [[proposal-research-docs-liteparse-x-agent-memory-mcp || proposal-research-docs-liteparse-x-agent-memo]] || ~1 мин || 189 || 📗 Быстро ||
-|| [[proposal-research-docs-liteparse-x-agentfs]] || ~1 мин || 173 || 📗 Быстро ||
-|| [[proposal-research-docs-liteparse-x-knowledge-space || proposal-research-docs-liteparse-x-knowledge-]] || ~1 мин || 184 || 📗 Быстро ||
-|| [[proposal-rufler-x-agent-memory-mcp]] || ~1 мин || 176 || 📗 Быстро ||
-|| [[proposal-wikontic-x-agent-memory-mcp]] || ~1 мин || 171 || 📗 Быстро ||
 || [[COMPLEXITY]] || ~1 мин || 161 || 📗 Быстро ||
 || [[DENSITY]] || ~1 мин || 173 || 📗 Быстро ||
 || [[HEATMAP]] || ~1 мин || 173 || 📗 Быстро ||
 || [[MISSING]] || ~1 мин || 167 || 📗 Быстро ||
+|| [[PRECISION_EVAL]] || ~1 мин || 294 || 📗 Быстро ||
 || [[SCHEDULE]] || ~1 мин || 165 || 📗 Быстро ||
 || [[README]] || ~1 мин || 197 || 📗 Быстро ||
 || [[README]] || ~1 мин || 179 || 📗 Быстро ||
@@ -2305,6 +2328,16 @@ h2. Все документы
 || [[README]] || ~1 мин || 185 || 📗 Быстро ||
 || [[README]] || ~1 мин || 191 || 📗 Быстро ||
 || [[README]] || ~1 мин || 188 || 📗 Быстро ||
+|| [[proposal-agentfs-x-mclaude]] || ~1 мин || 177 || 📗 Быстро ||
+|| [[proposal-agentfs-x-rufler]] || ~1 мин || 177 || 📗 Быстро ||
+|| [[proposal-agentfs-x-yodoca]] || ~1 мин || 183 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-mclaude]] || ~1 мин || 179 || 📗 Быстро ||
+|| [[proposal-knowledge-space-x-rufler]] || ~1 мин || 179 || 📗 Быстро ||
+|| [[proposal-mclaude-x-agent-memory-mcp]] || ~1 мин || 182 || 📗 Быстро ||
+|| [[proposal-mclaude-x-rufler]] || ~1 мин || 179 || 📗 Быстро ||
+|| [[proposal-rufler-x-agent-memory-mcp]] || ~1 мин || 183 || 📗 Быстро ||
+|| [[proposal-wikontic-x-ngt-memory]] || ~1 мин || 185 || 📗 Быстро ||
+|| [[proposal-wikontic-x-yodoca]] || ~1 мин || 189 || 📗 Быстро ||
 || [[CONTACT_PRIORITY]] || ~1 мин || 178 || 📗 Быстро ||
 || [[ENTITIES]] || ~1 мин || 194 || 📗 Быстро ||
 || [[NETWORK]] || ~1 мин || 188 || 📗 Быстро ||
@@ -2317,20 +2350,10 @@ h2. Все документы
 || [[vitalyoborin]] || ~1 мин || 162 || 📗 Быстро ||
 || [[README]] || ~1 мин || 182 || 📗 Быстро ||
 || [[README]] || ~1 мин || 188 || 📗 Быстро ||
+|| [[template]] || ~1 мин || 165 || 📗 Быстро ||
 || [[02-ultimate-legal-ai]] || ~1 мин || 192 || 📗 Быстро ||
-|| [[proposal-agentfs-x-mclaude]] || ~1 мин || 153 || 📗 Быстро ||
-|| [[proposal-agentfs-x-memnet]] || ~1 мин || 149 || 📗 Быстро ||
-|| [[proposal-agentfs-x-rufler]] || ~1 мин || 155 || 📗 Быстро ||
-|| [[proposal-agentfs-x-yodoca]] || ~1 мин || 155 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-mclaude]] || ~1 мин || 163 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-rufler]] || ~1 мин || 162 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-yodoca]] || ~1 мин || 163 || 📗 Быстро ||
-|| [[proposal-mclaude-x-rufler]] || ~1 мин || 146 || 📗 Быстро ||
-|| [[proposal-wikontic-x-memnet]] || ~1 мин || 147 || 📗 Быстро ||
-|| [[proposal-wikontic-x-ngt-memory]] || ~1 мин || 161 || 📗 Быстро ||
-|| [[proposal-wikontic-x-yodoca]] || ~1 мин || 152 || 📗 Быстро ||
 || [[PASSIVE_VOICE]] || ~1 мин || 156 || 📗 Быстро ||
-|| [[PRECISION_EVAL]] || ~1 мин || 276 || 📗 Быстро ||
+|| [[STALENESS]] || ~1 мин || 147 || 📗 Быстро ||
 || [[README]] || ~1 мин || 175 || 📗 Быстро ||
 || [[README]] || ~1 мин || 163 || 📗 Быстро ||
 || [[README]] || ~1 мин || 177 || 📗 Быстро ||
@@ -2360,20 +2383,15 @@ h2. Все документы
 || [[273-infrastructure-for-ai-collaborative-intellectual-w || 273-infrastructure-for-ai-collaborative-intel]] || ~1 мин || 156 || 📗 Быстро ||
 || [[304-ingit-as-cowork-native-workspace-substrate-md || 304-ingit-as-cowork-native-workspace-substrat]] || ~1 мин || 157 || 📗 Быстро ||
 || [[QA]] || ~1 мин || 156 || 📗 Быстро ||
-|| [[proposal-agentfs-x-agent-memory-mcp]] || ~1 мин || 147 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-agent-memory-mcp]] || ~1 мин || 155 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-ngt-memory]] || ~1 мин || 147 || 📗 Быстро ||
-|| [[proposal-mclaude-x-agent-memory-mcp]] || ~1 мин || 151 || 📗 Быстро ||
-|| [[proposal-research-docs-liteparse-x-agent-memory-mcp || proposal-research-docs-liteparse-x-agent-memo]] || ~1 мин || 162 || 📗 Быстро ||
-|| [[proposal-research-docs-liteparse-x-agentfs]] || ~1 мин || 150 || 📗 Быстро ||
-|| [[proposal-research-docs-liteparse-x-knowledge-space || proposal-research-docs-liteparse-x-knowledge-]] || ~1 мин || 158 || 📗 Быстро ||
-|| [[proposal-rufler-x-agent-memory-mcp]] || ~1 мин || 152 || 📗 Быстро ||
-|| [[proposal-wikontic-x-agent-memory-mcp]] || ~1 мин || 147 || 📗 Быстро ||
+|| [[proposal-01-synthesis-x-wikontic]] || ~1 мин || 169 || 📗 Быстро ||
+|| [[proposal-01-synthesis-x-yodoca]] || ~1 мин || 163 || 📗 Быстро ||
+|| [[proposal-agentfs-x-memnet]] || ~1 мин || 166 || 📗 Быстро ||
+|| [[proposal-wikontic-x-memnet]] || ~1 мин || 164 || 📗 Быстро ||
 || [[COMPLEXITY]] || ~1 мин || 138 || 📗 Быстро ||
 || [[DENSITY]] || ~1 мин || 155 || 📗 Быстро ||
 || [[HEATMAP]] || ~1 мин || 151 || 📗 Быстро ||
 || [[MISSING]] || ~1 мин || 145 || 📗 Быстро ||
-|| [[PRECISION_EVAL]] || ~1 мин || 273 || 📗 Быстро ||
+|| [[PRECISION_EVAL]] || ~1 мин || 281 || 📗 Быстро ||
 || [[SCHEDULE]] || ~1 мин || 143 || 📗 Быстро ||
 || [[README]] || ~1 мин || 153 || 📗 Быстро ||
 || [[QA]] || ~1 мин || 156 || 📗 Быстро ||
@@ -2391,12 +2409,9 @@ h2. Все документы
 || [[README]] || ~1 мин || 163 || 📗 Быстро ||
 || [[README]] || ~1 мин || 151 || 📗 Быстро ||
 || [[README]] || ~1 мин || 160 || 📗 Быстро ||
-|| [[proposal-01-synthesis-x-wikontic]] || ~1 мин || 142 || 📗 Быстро ||
-|| [[proposal-01-synthesis-x-yodoca]] || ~1 мин || 142 || 📗 Быстро ||
 || [[DEPENDENCY_MAP]] || ~1 мин || 139 || 📗 Быстро ||
 || [[GLOSSARY]] || ~1 мин || 146 || 📗 Быстро ||
 || [[LANGUAGE_STATS]] || ~1 мин || 266 || 📗 Быстро ||
-|| [[STALENESS]] || ~1 мин || 119 || 📗 Быстро ||
 || [[WORD_CLOUD]] || ~1 мин || 132 || 📗 Быстро ||
 || [[QA]] || ~1 мин || 133 || 📗 Быстро ||
 || [[README]] || ~1 мин || 137 || 📗 Быстро ||
@@ -2412,21 +2427,9 @@ h2. Все документы
 || [[208-professional-colleague-agents-md]] || ~1 мин || 136 || 📗 Быстро ||
 || [[249-composite-skills-agent-md]] || ~1 мин || 141 || 📗 Быстро ||
 || [[344-системный-промпт-для-lorenzo-project]] || ~1 мин || 143 || 📗 Быстро ||
-|| [[proposal-01-synthesis-x-wikontic]] || ~1 мин || 122 || 📗 Быстро ||
-|| [[proposal-01-synthesis-x-yodoca]] || ~1 мин || 122 || 📗 Быстро ||
-|| [[proposal-agentfs-x-mclaude]] || ~1 мин || 140 || 📗 Быстро ||
-|| [[proposal-agentfs-x-memnet]] || ~1 мин || 135 || 📗 Быстро ||
-|| [[proposal-agentfs-x-rufler]] || ~1 мин || 140 || 📗 Быстро ||
-|| [[proposal-agentfs-x-yodoca]] || ~1 мин || 139 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-mclaude]] || ~1 мин || 141 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-rufler]] || ~1 мин || 141 || 📗 Быстро ||
-|| [[proposal-knowledge-space-x-yodoca]] || ~1 мин || 140 || 📗 Быстро ||
-|| [[proposal-mclaude-x-rufler]] || ~1 мин || 131 || 📗 Быстро ||
-|| [[proposal-wikontic-x-memnet]] || ~1 мин || 134 || 📗 Быстро ||
-|| [[proposal-wikontic-x-ngt-memory]] || ~1 мин || 140 || 📗 Быстро ||
-|| [[proposal-wikontic-x-yodoca]] || ~1 мин || 138 || 📗 Быстро ||
 || [[LANGUAGE_STATS]] || ~1 мин || 273 || 📗 Быстро ||
 || [[PASSIVE_VOICE]] || ~1 мин || 128 || 📗 Быстро ||
+|| [[STALENESS]] || ~1 мин || 130 || 📗 Быстро ||
 || [[README]] || ~1 мин || 137 || 📗 Быстро ||
 || [[README]] || ~1 мин || 144 || 📗 Быстро ||
 || [[README]] || ~1 мин || 153 || 📗 Быстро ||
@@ -2449,10 +2452,8 @@ h2. Все документы
 || [[README]] || ~1 мин || 143 || 📗 Быстро ||
 || [[README]] || ~1 мин || 135 || 📗 Быстро ||
 || [[README]] || ~1 мин || 132 || 📗 Быстро ||
-|| [[template]] || ~1 мин || 121 || 📗 Быстро ||
 || [[README]] || ~1 мин || 140 || 📗 Быстро ||
 || [[README]] || ~1 мин || 123 || 📗 Быстро ||
-|| [[template]] || ~1 мин || 136 || 📗 Быстро ||
 || [[README]] || ~1 мин || 133 || 📗 Быстро ||
 || [[README]] || ~1 мин || 138 || 📗 Быстро ||
 || [[README]] || ~1 мин || 139 || 📗 Быстро ||
@@ -2465,45 +2466,49 @@ h2. Все документы
 || [[AUTHORS]] || ~1 мин || 114 || 📗 Быстро ||
 || [[BACKLINKS]] || ~1 мин || 59 || 📗 Быстро ||
 || [[BADGES]] || ~1 мин || 66 || 📗 Быстро ||
-|| [[CARD_GRAPH]] || ~1 мин || 142 || 📗 Быстро ||
+|| [[CARD_GRAPH]] || ~1 мин || 179 || 📗 Быстро ||
 || [[COMPARE]] || ~1 мин || 62 || 📗 Быстро ||
-|| [[CONSISTENCY]] || ~1 мин || 111 || 📗 Быстро ||
+|| [[CONSISTENCY]] || ~1 мин || 112 || 📗 Быстро ||
 || [[CONTENT_GAPS]] || ~1 мин || 130 || 📗 Быстро ||
 || [[COVERAGE]] || ~1 мин || 92 || 📗 Быстро ||
 || [[CROSS_SECTION]] || ~1 мин || 101 || 📗 Быстро ||
-|| [[DECAY_CANDIDATES]] || ~1 мин || 50 || 📗 Быстро ||
+|| [[DECAY_CANDIDATES]] || ~1 мин || 123 || 📗 Быстро ||
 || [[DIGEST_AUTO]] || ~1 мин || 163 || 📗 Быстро ||
-|| [[DIGEST_WEEKLY]] || ~1 мин || 86 || 📗 Быстро ||
+|| [[DIGEST_WEEKLY]] || ~1 мин || 117 || 📗 Быстро ||
 || [[HEALTH]] || ~1 мин || 175 || 📗 Быстро ||
-|| [[KNOWLEDGE_SNAPSHOT]] || ~1 мин || 65 || 📗 Быстро ||
+|| [[HOT_CARDS]] || ~1 мин || 108 || 📗 Быстро ||
+|| [[KNOWLEDGE_EVOLUTION]] || ~1 мин || 113 || 📗 Быстро ||
+|| [[KNOWLEDGE_SNAPSHOT]] || ~1 мин || 128 || 📗 Быстро ||
 || [[MCP_DASHBOARD]] || ~1 мин || 69 || 📗 Быстро ||
-|| [[ORPHANS]] || ~1 мин || 98 || 📗 Быстро ||
-|| [[SENTIMENT]] || ~1 мин || 191 || 📗 Быстро ||
+|| [[ORPHANS]] || ~1 мин || 121 || 📗 Быстро ||
+|| [[PROMOTE_LOG]] || ~1 мин || 74 || 📗 Быстро ||
+|| [[SENTIMENT]] || ~1 мин || 193 || 📗 Быстро ||
 || [[SIMILAR]] || ~1 мин || 69 || 📗 Быстро ||
 || [[SKILL_DASHBOARD]] || ~1 мин || 88 || 📗 Быстро ||
+|| [[SKILL_METRICS]] || ~1 мин || 74 || 📗 Быстро ||
 || [[SPELLCHECK]] || ~1 мин || 66 || 📗 Быстро ||
-|| [[STATS]] || ~1 мин || 130 || 📗 Быстро ||
-|| [[TAGS]] || ~1 мин || 95 || 📗 Быстро ||
+|| [[STATS]] || ~1 мин || 129 || 📗 Быстро ||
+|| [[TAGS]] || ~1 мин || 123 || 📗 Быстро ||
 || [[VALIDATION]] || ~1 мин || 210 || 📗 Быстро ||
 || [[README]] || ~1 мин || 116 || 📗 Быстро ||
 || [[README]] || ~1 мин || 128 || 📗 Быстро ||
 || [[README]] || ~1 мин || 107 || 📗 Быстро ||
 || [[README]] || ~1 мин || 96 || 📗 Быстро ||
-|| [[AnastasiyaW_draft]] || ~1 мин || 113 || 📗 Быстро ||
-|| [[Antipozitive_draft]] || ~1 мин || 105 || 📗 Быстро ||
-|| [[Cutcode_draft]] || ~1 мин || 104 || 📗 Быстро ||
-|| [[Dmitriila_draft]] || ~1 мин || 108 || 📗 Быстро ||
-|| [[MiXaiLL76_draft]] || ~1 мин || 116 || 📗 Быстро ||
-|| [[Sonia_Black_draft]] || ~1 мин || 115 || 📗 Быстро ||
-|| [[VitaliySemenov_draft]] || ~1 мин || 115 || 📗 Быстро ||
-|| [[VitalyOborin_draft]] || ~1 мин || 109 || 📗 Быстро ||
-|| [[VladSpace_draft]] || ~1 мин || 112 || 📗 Быстро ||
-|| [[andrey_chuyan_draft]] || ~1 мин || 111 || 📗 Быстро ||
-|| [[kksudo_draft]] || ~1 мин || 111 || 📗 Быстро ||
-|| [[nlaik_draft]] || ~1 мин || 108 || 📗 Быстро ||
-|| [[spbmolot_draft]] || ~1 мин || 112 || 📗 Быстро ||
-|| [[tagir_analyzes_draft]] || ~1 мин || 115 || 📗 Быстро ||
-|| [[zodigancode_draft]] || ~1 мин || 101 || 📗 Быстро ||
+|| [[AnastasiyaW_draft]] || ~1 мин || 174 || 📗 Быстро ||
+|| [[Antipozitive_draft]] || ~1 мин || 156 || 📗 Быстро ||
+|| [[Cutcode_draft]] || ~1 мин || 186 || 📗 Быстро ||
+|| [[Dmitriila_draft]] || ~1 мин || 191 || 📗 Быстро ||
+|| [[MiXaiLL76_draft]] || ~1 мин || 153 || 📗 Быстро ||
+|| [[Sonia_Black_draft]] || ~1 мин || 171 || 📗 Быстро ||
+|| [[VitaliySemenov_draft]] || ~1 мин || 172 || 📗 Быстро ||
+|| [[VitalyOborin_draft]] || ~1 мин || 145 || 📗 Быстро ||
+|| [[VladSpace_draft]] || ~1 мин || 196 || 📗 Быстро ||
+|| [[andrey_chuyan_draft]] || ~1 мин || 146 || 📗 Быстро ||
+|| [[kksudo_draft]] || ~1 мин || 146 || 📗 Быстро ||
+|| [[nlaik_draft]] || ~1 мин || 191 || 📗 Быстро ||
+|| [[spbmolot_draft]] || ~1 мин || 188 || 📗 Быстро ||
+|| [[tagir_analyzes_draft]] || ~1 мин || 151 || 📗 Быстро ||
+|| [[zodigancode_draft]] || ~1 мин || 136 || 📗 Быстро ||
 || [[README]] || ~1 мин || 123 || 📗 Быстро ||
 || [[README]] || ~1 мин || 120 || 📗 Быстро ||
 || [[README]] || ~1 мин || 124 || 📗 Быстро ||
@@ -2514,31 +2519,31 @@ h2. Все документы
 || [[AUTHORS]] || ~1 мин || 89 || 📗 Быстро ||
 || [[BACKLINKS]] || ~1 мин || 66 || 📗 Быстро ||
 || [[BADGES]] || ~1 мин || 63 || 📗 Быстро ||
-|| [[CARD_GRAPH]] || ~1 мин || 150 || 📗 Быстро ||
+|| [[CARD_GRAPH]] || ~1 мин || 172 || 📗 Быстро ||
 || [[COMPARE]] || ~1 мин || 69 || 📗 Быстро ||
 || [[CONCEPT_GRAPH]] || ~1 мин || 56 || 📗 Быстро ||
-|| [[CONSISTENCY]] || ~1 мин || 117 || 📗 Быстро ||
+|| [[CONSISTENCY]] || ~1 мин || 118 || 📗 Быстро ||
 || [[COVERAGE]] || ~1 мин || 75 || 📗 Быстро ||
 || [[CROSS_SECTION]] || ~1 мин || 108 || 📗 Быстро ||
-|| [[DECAY_CANDIDATES]] || ~1 мин || 57 || 📗 Быстро ||
+|| [[DECAY_CANDIDATES]] || ~1 мин || 96 || 📗 Быстро ||
 || [[DEPENDENCY_MAP]] || ~1 мин || 112 || 📗 Быстро ||
 || [[DIGEST_AUTO]] || ~1 мин || 145 || 📗 Быстро ||
-|| [[DIGEST_WEEKLY]] || ~1 мин || 74 || 📗 Быстро ||
+|| [[DIGEST_WEEKLY]] || ~1 мин || 92 || 📗 Быстро ||
 || [[GLOSSARY]] || ~1 мин || 119 || 📗 Быстро ||
 || [[HEALTH]] || ~1 мин || 143 || 📗 Быстро ||
-|| [[HOT_CARDS]] || ~1 мин || 52 || 📗 Быстро ||
-|| [[KNOWLEDGE_EVOLUTION]] || ~1 мин || 52 || 📗 Быстро ||
-|| [[KNOWLEDGE_SNAPSHOT]] || ~1 мин || 72 || 📗 Быстро ||
+|| [[HOT_CARDS]] || ~1 мин || 85 || 📗 Быстро ||
+|| [[KNOWLEDGE_EVOLUTION]] || ~1 мин || 90 || 📗 Быстро ||
+|| [[KNOWLEDGE_SNAPSHOT]] || ~1 мин || 108 || 📗 Быстро ||
 || [[LLM_GAPS]] || ~1 мин || 53 || 📗 Быстро ||
 || [[MCP_DASHBOARD]] || ~1 мин || 60 || 📗 Быстро ||
-|| [[ORPHANS]] || ~1 мин || 86 || 📗 Быстро ||
-|| [[SENTIMENT]] || ~1 мин || 161 || 📗 Быстро ||
+|| [[ORPHANS]] || ~1 мин || 100 || 📗 Быстро ||
+|| [[PROMOTE_LOG]] || ~1 мин || 70 || 📗 Быстро ||
+|| [[SENTIMENT]] || ~1 мин || 163 || 📗 Быстро ||
 || [[SIMILAR]] || ~1 мин || 73 || 📗 Быстро ||
 || [[SKILL_DASHBOARD]] || ~1 мин || 76 || 📗 Быстро ||
-|| [[SKILL_METRICS]] || ~1 мин || 50 || 📗 Быстро ||
-|| [[STALENESS]] || ~1 мин || 111 || 📗 Быстро ||
-|| [[STATS]] || ~1 мин || 123 || 📗 Быстро ||
-|| [[TAGS]] || ~1 мин || 80 || 📗 Быстро ||
+|| [[SKILL_METRICS]] || ~1 мин || 71 || 📗 Быстро ||
+|| [[STATS]] || ~1 мин || 118 || 📗 Быстро ||
+|| [[TAGS]] || ~1 мин || 98 || 📗 Быстро ||
 || [[VALIDATION]] || ~1 мин || 216 || 📗 Быстро ||
 || [[WORD_CLOUD]] || ~1 мин || 93 || 📗 Быстро ||
 || [[README]] || ~1 мин || 92 || 📗 Быстро ||
@@ -2548,21 +2553,21 @@ h2. Все документы
 || [[README]] || ~1 мин || 118 || 📗 Быстро ||
 || [[README]] || ~1 мин || 75 || 📗 Быстро ||
 || [[README]] || ~1 мин || 61 || 📗 Быстро ||
-|| [[AnastasiyaW_draft]] || ~1 мин || 113 || 📗 Быстро ||
-|| [[Antipozitive_draft]] || ~1 мин || 105 || 📗 Быстро ||
-|| [[Cutcode_draft]] || ~1 мин || 104 || 📗 Быстро ||
-|| [[Dmitriila_draft]] || ~1 мин || 108 || 📗 Быстро ||
-|| [[MiXaiLL76_draft]] || ~1 мин || 116 || 📗 Быстро ||
-|| [[Sonia_Black_draft]] || ~1 мин || 115 || 📗 Быстро ||
-|| [[VitaliySemenov_draft]] || ~1 мин || 115 || 📗 Быстро ||
-|| [[VitalyOborin_draft]] || ~1 мин || 109 || 📗 Быстро ||
-|| [[VladSpace_draft]] || ~1 мин || 112 || 📗 Быстро ||
-|| [[andrey_chuyan_draft]] || ~1 мин || 111 || 📗 Быстро ||
-|| [[kksudo_draft]] || ~1 мин || 111 || 📗 Быстро ||
-|| [[nlaik_draft]] || ~1 мин || 108 || 📗 Быстро ||
-|| [[spbmolot_draft]] || ~1 мин || 112 || 📗 Быстро ||
-|| [[tagir_analyzes_draft]] || ~1 мин || 115 || 📗 Быстро ||
-|| [[zodigancode_draft]] || ~1 мин || 101 || 📗 Быстро ||
+|| [[AnastasiyaW_draft]] || ~1 мин || 151 || 📗 Быстро ||
+|| [[Antipozitive_draft]] || ~1 мин || 135 || 📗 Быстро ||
+|| [[Cutcode_draft]] || ~1 мин || 149 || 📗 Быстро ||
+|| [[Dmitriila_draft]] || ~1 мин || 154 || 📗 Быстро ||
+|| [[MiXaiLL76_draft]] || ~1 мин || 141 || 📗 Быстро ||
+|| [[Sonia_Black_draft]] || ~1 мин || 150 || 📗 Быстро ||
+|| [[VitaliySemenov_draft]] || ~1 мин || 151 || 📗 Быстро ||
+|| [[VitalyOborin_draft]] || ~1 мин || 133 || 📗 Быстро ||
+|| [[VladSpace_draft]] || ~1 мин || 159 || 📗 Быстро ||
+|| [[andrey_chuyan_draft]] || ~1 мин || 134 || 📗 Быстро ||
+|| [[kksudo_draft]] || ~1 мин || 134 || 📗 Быстро ||
+|| [[nlaik_draft]] || ~1 мин || 154 || 📗 Быстро ||
+|| [[spbmolot_draft]] || ~1 мин || 155 || 📗 Быстро ||
+|| [[tagir_analyzes_draft]] || ~1 мин || 139 || 📗 Быстро ||
+|| [[zodigancode_draft]] || ~1 мин || 124 || 📗 Быстро ||
 || [[README]] || ~1 мин || 110 || 📗 Быстро ||
 || [[README]] || ~1 мин || 117 || 📗 Быстро ||
 || [[README]] || ~1 мин || 92 || 📗 Быстро ||
@@ -2626,8 +2631,8 @@ h2. Самые длинные документы (98)
 
 h2. По категориям
 
-* 📗 Быстро: 1816 документов
-* 📘 Средне: 639 документов
+* 📗 Быстро: 1819 документов
+* 📘 Средне: 641 документов
 * 📙 Долго: 64 документов
 * 📕 Очень долго: 62 документов
 
@@ -2646,7 +2651,7 @@ _Смотрите также:_
 
 ----
 
-_Кто ссылается на этот документ (690):_
+_Кто ссылается на этот документ (719):_
 * [[02-methodology]]
 * [[06-security-privacy]]
 * [[QA]]
@@ -2655,5 +2660,5 @@ _Кто ссылается на этот документ (690):_
 * [[119-appendix-b-примеры-расхождений-и-их-разрешения]]
 * [[192-2-исторические-прецеденты-агенты-как-цивилизационн]]
 * [[196-6-этическая-рамка]]
-* _...ещё 682_
+* _...ещё 711_
 

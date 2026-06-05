@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/03-technology-combinations/05-benchmarks.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
 title: "Бенчмарки и производительность"
 tags:
   * technology-combinations
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Бенчмарки и производительность

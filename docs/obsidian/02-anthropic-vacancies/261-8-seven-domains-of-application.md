@@ -2,7 +2,7 @@
 title: "8. Seven Domains of Application"
 tags:
   - anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ---
 
 # 8. Seven Domains of Application

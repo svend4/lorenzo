@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/75-0-status-of-this-document.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----

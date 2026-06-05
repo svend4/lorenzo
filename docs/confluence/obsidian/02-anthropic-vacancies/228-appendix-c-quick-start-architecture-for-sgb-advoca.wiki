@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
 title: "Appendix C: Quick-Start Architecture for SGB Advocate Colleague"
 tags:
   * anthropic-vacancies
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Appendix C: Quick-Start Architecture for SGB Advocate Colleague

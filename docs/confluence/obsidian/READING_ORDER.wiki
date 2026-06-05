@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/READING_ORDER.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
 title: "Рекомендуемый порядок чтения"
 tags:
   * general
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Рекомендуемый порядок чтения
@@ -69,28 +69,28 @@ _Проекты:_ Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, 
 || 39 || 🟡 Средний || [[12-дорожная-карта-прототипа-следующей-итерации || Дорожная карта прототипа следующей итерации]] || 885 || — ||
 || 40 || 🟡 Средний || [[13-контактная-стратегия-и-узкие-вопросы-для-авторов || Контактная стратегия и узкие вопросы для авто]] || 981 || — ||
 || 41 || 🔴 Продвинутый || [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать || Ограничения, лицензии и что пока лучше не скл]] || 3407 || — ||
-|| 42 || 🟡 Средний || [[proposal-knowledge-space-x-mclaude || Proposal: Knowledge-Space × Mclaude]] || 267 || — ||
-|| 43 || 🟡 Средний || [[proposal-agentfs-x-agent-memory-mcp || Proposal: Agentfs × Agent-Memory-Mcp]] || 265 || — ||
-|| 44 || 🟡 Средний || [[proposal-wikontic-x-yodoca || Proposal: Wikontic × Yodoca]] || 266 || — ||
-|| 45 || 🟡 Средний || [[proposal-research-docs-liteparse-x-agentfs || Proposal: Research-Docs-Liteparse × Agentfs]] || 272 || — ||
-|| 46 || 🟡 Средний || [[proposal-agentfs-x-yodoca || Proposal: Agentfs × Yodoca]] || 266 || — ||
-|| 47 || 🟡 Средний || [[proposal-wikontic-x-memnet || Proposal: Wikontic × Memnet]] || 263 || — ||
-|| 48 || 🟡 Средний || [[proposal-knowledge-space-x-ngt-memory || Proposal: Knowledge-Space × Ngt-Memory]] || 264 || — ||
-|| 49 || 🟡 Средний || [[proposal-research-docs-liteparse-x-agent-memory-mcp || Proposal: Research-Docs-Liteparse × Agent-Mem]] || 268 || — ||
-|| 50 || 🟡 Средний || [[proposal-agentfs-x-rufler || Proposal: Agentfs × Rufler]] || 268 || — ||
-|| 51 || 🟡 Средний || [[proposal-knowledge-space-x-agent-memory-mcp || Proposal: Knowledge-Space × Agent-Memory-Mcp]] || 264 || — ||
-|| 52 || 🟡 Средний || [[proposal-wikontic-x-agent-memory-mcp || Proposal: Wikontic × Agent-Memory-Mcp]] || 264 || — ||
-|| 53 || 🟡 Средний || [[proposal-rufler-x-agent-memory-mcp || Proposal: Rufler × Agent-Memory-Mcp]] || 262 || — ||
-|| 54 || 🟡 Средний || [[proposal-01-synthesis-x-wikontic || Proposal: 01-Synthesis × Wikontic]] || 259 || — ||
-|| 55 || 🟡 Средний || [[proposal-agentfs-x-mclaude || Proposal: Agentfs × Mclaude]] || 268 || — ||
-|| 56 || 🟡 Средний || [[proposal-mclaude-x-agent-memory-mcp || Proposal: Mclaude × Agent-Memory-Mcp]] || 262 || — ||
-|| 57 || 🟡 Средний || [[proposal-knowledge-space-x-yodoca || Proposal: Knowledge-Space × Yodoca]] || 265 || — ||
-|| 58 || 🟡 Средний || [[proposal-01-synthesis-x-yodoca || Proposal: 01-Synthesis × Yodoca]] || 259 || — ||
-|| 59 || 🟡 Средний || [[proposal-wikontic-x-ngt-memory || Proposal: Wikontic × Ngt-Memory]] || 265 || — ||
-|| 60 || 🟡 Средний || [[proposal-mclaude-x-rufler || Proposal: Mclaude × Rufler]] || 261 || — ||
-|| 61 || 🟡 Средний || [[proposal-research-docs-liteparse-x-knowledge-space || Proposal: Research-Docs-Liteparse × Knowledge]] || 272 || — ||
-|| 62 || 🟡 Средний || [[proposal-agentfs-x-memnet || Proposal: Agentfs × Memnet]] || 263 || — ||
-|| 63 || 🟡 Средний || [[proposal-knowledge-space-x-rufler || Proposal: Knowledge-Space × Rufler]] || 267 || — ||
+|| 42 || 🟡 Средний || [[proposal-knowledge-space-x-mclaude || Proposal: Knowledge-Space × Mclaude]] || 305 || — ||
+|| 43 || 🟡 Средний || [[proposal-agentfs-x-agent-memory-mcp || Proposal: Agentfs × Agent-Memory-Mcp]] || 308 || — ||
+|| 44 || 🟡 Средний || [[proposal-wikontic-x-yodoca || Proposal: Wikontic × Yodoca]] || 309 || — ||
+|| 45 || 🟡 Средний || [[proposal-research-docs-liteparse-x-agentfs || Proposal: Research-Docs-Liteparse × Agentfs]] || 306 || — ||
+|| 46 || 🟡 Средний || [[proposal-agentfs-x-yodoca || Proposal: Agentfs × Yodoca]] || 304 || — ||
+|| 47 || 🟡 Средний || [[proposal-wikontic-x-memnet || Proposal: Wikontic × Memnet]] || 295 || — ||
+|| 48 || 🟡 Средний || [[proposal-knowledge-space-x-ngt-memory || Proposal: Knowledge-Space × Ngt-Memory]] || 307 || — ||
+|| 49 || 🟡 Средний || [[proposal-research-docs-liteparse-x-agent-memory-mcp || Proposal: Research-Docs-Liteparse × Agent-Mem]] || 302 || — ||
+|| 50 || 🟡 Средний || [[proposal-agentfs-x-rufler || Proposal: Agentfs × Rufler]] || 304 || — ||
+|| 51 || 🟡 Средний || [[proposal-knowledge-space-x-agent-memory-mcp || Proposal: Knowledge-Space × Agent-Memory-Mcp]] || 307 || — ||
+|| 52 || 🟡 Средний || [[proposal-wikontic-x-agent-memory-mcp || Proposal: Wikontic × Agent-Memory-Mcp]] || 307 || — ||
+|| 53 || 🟡 Средний || [[proposal-rufler-x-agent-memory-mcp || Proposal: Rufler × Agent-Memory-Mcp]] || 294 || — ||
+|| 54 || 🟡 Средний || [[proposal-01-synthesis-x-wikontic || Proposal: 01-Synthesis × Wikontic]] || 299 || — ||
+|| 55 || 🟡 Средний || [[proposal-agentfs-x-mclaude || Proposal: Agentfs × Mclaude]] || 304 || — ||
+|| 56 || 🟡 Средний || [[proposal-mclaude-x-agent-memory-mcp || Proposal: Mclaude × Agent-Memory-Mcp]] || 294 || — ||
+|| 57 || 🟡 Средний || [[proposal-knowledge-space-x-yodoca || Proposal: Knowledge-Space × Yodoca]] || 308 || — ||
+|| 58 || 🟡 Средний || [[proposal-01-synthesis-x-yodoca || Proposal: 01-Synthesis × Yodoca]] || 297 || — ||
+|| 59 || 🟡 Средний || [[proposal-wikontic-x-ngt-memory || Proposal: Wikontic × Ngt-Memory]] || 303 || — ||
+|| 60 || 🟡 Средний || [[proposal-mclaude-x-rufler || Proposal: Mclaude × Rufler]] || 304 || — ||
+|| 61 || 🟡 Средний || [[proposal-research-docs-liteparse-x-knowledge-space || Proposal: Research-Docs-Liteparse × Knowledge]] || 306 || — ||
+|| 62 || 🟡 Средний || [[proposal-agentfs-x-memnet || Proposal: Agentfs × Memnet]] || 295 || — ||
+|| 63 || 🟡 Средний || [[proposal-knowledge-space-x-rufler || Proposal: Knowledge-Space × Rufler]] || 305 || — ||
 || 64 || 🟢 Начало || [[01-agent-routing || Агентные системы и роутинг]] || 500 || — ||
 || 65 || 🟢 Начало || [[02-knowledge-graphs || Графы знаний и Legal AI]] || 914 || — ||
 || 66 || 🟢 Начало || [[03-local-first || Local-first и P2P стек]] || 683 || — ||
@@ -490,14 +490,14 @@ _Смотрите также:_
 
 ----
 
-_Кто ссылается на этот документ (14):_
+_Кто ссылается на этот документ (33):_
 * [[README]]
-* [[CLUSTERS]]
-* [[COMPARE]]
-* [[CONTENT_GAPS]]
-* [[OUTLINE]]
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[README]]
-* _...ещё 6_
+* [[proposal-01-synthesis-x-wikontic]]
+* [[proposal-01-synthesis-x-yodoca]]
+* [[proposal-agentfs-x-agent-memory-mcp]]
+* [[proposal-agentfs-x-mclaude]]
+* [[proposal-agentfs-x-memnet]]
+* [[proposal-agentfs-x-rufler]]
+* [[proposal-agentfs-x-yodoca]]
+* _...ещё 25_
 

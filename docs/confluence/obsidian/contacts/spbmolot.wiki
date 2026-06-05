@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/contacts/spbmolot.md}}
-Дата: 2026-05-14
+Дата: 2026-06-05
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * контакты
   * команда
   * contacts
-date: 2026-05-14
+date: 2026-06-05
 ----
 
 h1. Контакт: spbmolot / NGT Memory
