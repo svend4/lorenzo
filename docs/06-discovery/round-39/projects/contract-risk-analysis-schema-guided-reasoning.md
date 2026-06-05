@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [rag, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Анализ договорных рисков: Schema Guided Reasoning + CoT
+
+<!-- toc-auto -->
+<!-- tags: contract-risk-analysis-schema-guided-reasoning, docs -->
+
+
+<!-- summary -->
+> `contract-risk-analysis-schema-guided-reasoning` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -323,3 +337,11 @@ class LorenzoSGRExtractor:
 - RapidFuzz: github.com/maxbachmann/RapidFuzz
 - Смежная (нормоконтроль Directum): https://habr.com/ru/companies/directum/articles/980140/
 - Смежная (LLM юридические документы ContentAI): https://habr.com/ru/companies/contentai/articles/932894/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

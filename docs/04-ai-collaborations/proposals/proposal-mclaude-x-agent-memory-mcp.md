@@ -3,7 +3,7 @@ title: "Proposal: Mclaude × Agent-Memory-Mcp"
 date: 2026-05-13
 card_id: 82437b5fd6b6
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, mclaude, agent-memory-mcp, orchestration, memory, integration]
 projects: [mclaude, agent-memory-mcp]
 similarity: 0.239

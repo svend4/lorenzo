@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [orchestration, knowledge, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # knowledge-space[^knowledge-space]
+
+
+<!-- summary -->
+> Раздел knowledge-space-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `knowledge-space-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Ключевой принцип: карточки написаны «для агентов, не людей» — каждая содержит максимум структурирова -->
 <!-- tags: knowledge-space, agent, reference, cards, wiki-links, domains, research, inbox -->
@@ -29,3 +44,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [knowledge-space](docs\05-habr-projects\knowledge\knowledge-space.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_knowledge_space_enriched.py
+```

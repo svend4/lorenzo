@@ -1,4 +1,22 @@
+---
+state: normalized
+---
+
 # OpenCode (open-source coding agent)
+
+<!-- toc-auto -->
+<!-- tags: opencode, docs -->
+
+
+<!-- summary -->
+> Хабр: https://habr.com/ru/news/1013022/ GitHub: https://github.com/anomalyco/opencode
+Хабр: https://habr.com/ru/news/1013022/  
+GitHub: https://github.com/anomalyco/opencode  
+Сайт: https://opencode.ai  
+Слой: developer-tools / coding-agent / CLI  
+Зрелость: 126k+ звёзд на GitHub, production  
+Уникальность: Полност
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -55,3 +73,10 @@ Lorenzo использует Claude Code как основной интерфе�
 - GitHub: https://github.com/anomalyco/opencode
 - npm: `npm i -g opencode-ai@latest`
 - Хабр: https://habr.com/ru/news/1013022/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

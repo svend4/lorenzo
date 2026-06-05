@@ -1,4 +1,20 @@
+---
+date: 2026-06-05
+tags: [orchestration, ingestion, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # AI Web Tester
+<!-- tags: ai-web-tester, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья май 2026, профиль на Хабре — нужно уточнить) Хабр: https://habr.com/ru/articles/1030840/
+Хабр: https://habr.com/ru/articles/1030840/  
+GitHub: не найден явно — уточнить через статью  
+Слой: developer-tools / testing / observability  
+Дата: май 2026 (1 неделя назад)
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -44,3 +60,17 @@ Lorenzo запускает `improve_*.py` скрипты через MCP-инст
 
 - Статья: https://habr.com/ru/articles/1030840/ (май 2026)
 - ⚠️ Нужно найти GitHub через профиль автора на Хабре
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_ai_web_tester.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

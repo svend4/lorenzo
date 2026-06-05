@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 10 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Уникальная применимость к Lorenzo: Lorenzo corpus → seed для MiroFish → симуляция того, как OSS-сообщество реагирует на проект Svyazi.
+симуляция того, как OSS-сообщество реагирует на проект Svyazi.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -64,3 +79,17 @@ GitHub Global Trending #1, 33 000+ звёзд, $4.1M инвестиций за 2
 - Специализированные агенты для кода (security review, performance profiling)
 - Русскоязычные голосовые агенты 2026 (апдейты Ирины из R02)
 - AI + IoT / edge computing (агент на устройстве)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

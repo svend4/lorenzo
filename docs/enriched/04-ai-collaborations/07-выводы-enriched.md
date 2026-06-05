@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Выводы
+
+
+<!-- summary -->
+> Раздел 07-выводы-enriched формируется автоматически из данных репозитория. Документ с синтезом выводов по архитектуре и компонентам Svyazi 2.0.
+
+> [!NOTE]
+> Раздел `07-выводы-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей* -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
@@ -27,3 +42,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [07-выводы](docs\04-ai-collaborations\07-выводы.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_07_выводы_enriched.py
+```
