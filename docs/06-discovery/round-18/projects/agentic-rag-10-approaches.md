@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, local-first, architecture]
+state: normalized
+---
+
 # 10 актуальных RAG-подходов — обзор Agentic RAG и современных стратегий
+
+<!-- toc-auto -->
+<!-- tags: agentic-rag-10-approaches, docs -->
+
+
+<!-- summary -->
+> Автор: независимый исследователь (Хабр, май 2026) Хабр: https://habr.com/ru/articles/1029616/
+Хабр: https://habr.com/ru/articles/1029616/  
+GitHub: не указан (обзорная статья + практические примеры кода)  
+Слой: orchestration / knowledge / memory  
+Дата: май 2026  
+Уникальность: Системный об
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -108,3 +127,10 @@ Agentic RAG + GraphRAG (R09) + Sberbank KG (R17) = полный knowledge pipeli
 - Self-RAG paper: arxiv.org/abs/2310.11511
 - Corrective RAG paper: arxiv.org/abs/2401.15884
 - LangGraph Agentic RAG: langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

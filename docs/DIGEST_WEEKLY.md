@@ -1,93 +1,48 @@
-# Еженедельный дайджест — 2026-05-13
+# Еженедельный дайджест — 2026-06-05
 
-<!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
----
-
-
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
-_Период: последние 7 дней (с 2026-05-06)_
+_Период: последние 7 дней (с 2026-05-29)_
 
 ## Итого
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за период | **63** |
-| Новых файлов | **0** |
-| Изменённых файлов | **0** |
-| Всего MD файлов | **1813** |
-| Всего слов | **2,466,014** |
+| Коммитов за период | **1** |
+| Новых файлов | **24** |
+| Изменённых файлов | **9** |
+| Всего MD файлов | **2785** |
+| Всего слов | **3,068,135** |
 
 ## Жизненный цикл карточек
 
 | Статус | Кол-во |
 |--------|--------|
-| ✅ approved | **1005** |
-| ⚠️ normalized | 109 |
-| ❌ raw | 175 |
-| Promote rate | **78.0%** |
+| ✅ approved | **1027** |
+| ⚠️ normalized | 429 |
+| ❌ raw | 163 |
+| Promote rate | **63.4%** |
 
 ## Горячие карточки (топ-5)
 
-1. ❌ **autofilled**  `hot=0.477`
-2. ❌ **Антропик**  `hot=0.477`
-3. ❌ **Cowork**  `hot=0.477`
+1. ❌ **Антропик**  `hot=0.477`
+2. ❌ **Cowork**  `hot=0.477`
+3. ❌ **kksudo**  `hot=0.477`
 4. ❌ **ingit**  `hot=0.477`
-5. ❌ **kksudo**  `hot=0.477`
+5. ❌ **autofilled**  `hot=0.444`
 
 ## Коммиты
 
 ```
-5524f21e feat: Iteration 13 — ANN Index + Query Analytics + Hot Cards
-00610ac4 feat: Iteration 12 — PageRank-Boosted Search
-b240647c feat: Iteration 11 — Knowledge Graph + Skill Metrics
-11edba6f feat: Iteration 10 — Summary Extender + 1005 Approved
-47cf2b2b feat: Iteration 9 — Progressive Summarize + SSE Streaming
-04651832 chore: commit auto-summarize state changes across docs
-b79ec908 feat: Iteration 8 — Auto-Summarize + Promote Lift
-53f64dee feat: Iteration 7 — Production Hardening
-d4f96b9b feat: Iteration 6 — Autonomous Intelligence Layer
-b9ceb61f chore: update PROGRESS.md and search_index.json
-c39b25a2 feat: RFC system, 23 proposals, full semantic index, lifecycle CI
-117213f2 feat: implement all 5 phases of DEVELOPMENT_PLAN
-e469abf4 chore: update auto-generated docs (broken links, collab suggestions, staleness)
-a6084f63 docs: add DEVELOPMENT_PLAN.md — technical audit and phased roadmap
-fa70dbdd chore: update ORPHANS.md with current orphan count (1563 files checked)
+6f51d52c5 chore: refresh catalog timestamps to fix CI catalog up-to-date check
 ```
 
----
+## Активность по разделам
 
-_Сгенерировано: 2026-05-13 15:12_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (17):**
-- [CHANGELOG](CHANGELOG.md)
-- [DENSITY](DENSITY.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [GLOSSARY](GLOSSARY.md)
-- [HEATMAP](HEATMAP.md)
-- [INDEX](INDEX.md)
-- [METRICS](METRICS.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
-- _...ещё 9_
-
-
-<!-- see-also -->
+| Раздел | Изменений |
+|--------|----------|
+| `docstoolkit/` | 22 |
+| `tests/` | 8 |
+| `docs/` | 3 |
 
 ---
 
-**Смотрите также:**
-- [KNOWLEDGE_SNAPSHOT](KNOWLEDGE_SNAPSHOT.md)
-- [HOT_CARDS](HOT_CARDS.md)
-- [.md](autofilled/components/.md)
-- [cowork](autofilled/components/cowork.md)
-
+_Сгенерировано: 2026-06-05 18:21_

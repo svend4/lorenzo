@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, security, ingestion, architecture]
+state: normalized
+---
+
 # Design by Contract + LLM: формальные контракты для криптографии на STM32
+
+<!-- toc-auto -->
+<!-- tags: miller83-design-by-contract-llm-crypto-hardware, docs -->
+
+
+<!-- summary -->
+> `miller83-design-by-contract-llm-crypto-hardware` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -294,3 +308,11 @@ class LorenzoContractSpec:
 - Смежная (SENTINEL безопасность, R47): docs/06-discovery/round-47/projects/dmitriila-sentinel-llm-immune-system-3ms.md
 - Смежная (LLM code review v2, R33): docs/06-discovery/round-33/
 - Смежная (LLM AppSec, R22): docs/06-discovery/round-22/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, ingestion, architecture, anthropic]
+state: normalized
+---
+
 # Как я поймал Трансформер на читерстве: гроккинг и Mechanistic Interpretability
+
+<!-- toc-auto -->
+<!-- tags: mechanistic-interpretability-transformer-grokking, docs -->
+
+
+<!-- summary -->
+> `mechanistic-interpretability-transformer-grokking` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -342,3 +356,11 @@ class LorenzoModelAuditor:
 - Смежная (Alemetria Protocol, аудит против галлюцинаций): https://habr.com/ru/articles/1033404/
 - Anthropic Circuits: transformer-circuits.pub
 - OpenAI Grokking paper: arxiv.org/abs/2201.02177
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, knowledge, ingestion, local-first]
+state: normalized
+---
+
 # Новые ансамбли следующего шага
+
+
+<!-- summary -->
+> Раздел 10-новые-ансамбли-следующего-шага-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `10-новые-ансамбли-следующего-шага-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять анса -->
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, roadmap, self-improvement, collaboration -->
@@ -27,3 +42,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [10-новые-ансамбли-следующего-шага](docs\04-ai-collaborations\10-новые-ансамбли-следующего-шага.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_10_новые_ансамбли_следующего_шага_enriched.py
+```

@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Synthetic Data Toolkit — подборка OSS-инструментов генерации синтетических данных
+
+<!-- toc-auto -->
+<!-- tags: synthetic-data-toolkit, docs -->
+
+
+<!-- summary -->
+> Автор: команда MWS (Mail.ru / VK Cloud) Хабр: https://habr.com/ru/companies/mws/articles/932066/
+Хабр: https://habr.com/ru/companies/mws/articles/932066/  
+GitHub: https://github.com/datadreamer-dev/DataDreamer (Apache 2.0, U Penn + U Toronto)  
+Слой: ingestion / knowledge / memory  
+Дата: 2025  
+Уникаль
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -132,3 +151,10 @@ Lorenzo имеет 2483 карточки с `body` (800 слов) и `summary` (
 - Distilabel GitHub: https://github.com/argilla-io/distilabel (Apache 2.0)
 - Bespoke Curator: https://github.com/bespokelabsai/curator (Apache 2.0)
 - DataDreamer paper: arxiv.org/abs/2402.10379
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

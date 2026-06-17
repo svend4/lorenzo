@@ -3,7 +3,7 @@ title: "Proposal: Wikontic × Agent-Memory-Mcp"
 date: 2026-05-13
 card_id: f0abc228e126
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, wikontic, agent-memory-mcp, knowledge, memory, integration]
 projects: [wikontic, agent-memory-mcp]
 similarity: 0.187
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Wikontic × Agent-Memory-Mcp
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

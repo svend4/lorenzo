@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # 7 pet-проектов с LLM: приватность, скорость и безопасность своими руками
+
+<!-- toc-auto -->
+<!-- tags: private-llm-stack-7-projects, docs -->
+
+
+<!-- summary -->
+> 7 pet-проектов с LLM: приватность, скорость и безопасность своими руками — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -246,3 +264,11 @@ Lorenzo уже использует Claude API + audit.db. Этот стек = �
 - llama.cpp: github.com/ggerganov/llama.cpp (MIT)
 - ChromaDB: github.com/chroma-core/chroma (Apache 2.0)
 - nomic-embed-text: nomic.ai/blog/nomic-embed (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

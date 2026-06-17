@@ -14,26 +14,23 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 355 файлам раздела._
-Использование
- 
-Смотрите также
- Главная
- Метрики
- Здоровье
- Глоссарий
- Сущности
- --
-Кто ссылается на этот документ (6):
- README
- OUTLINE
- READABILITY
- READING_TIME
- SEARCH
- TABLES
+> Упоминаются: card envelope, evidence envelope, memory write, skill policy, review record
+Какие кластеры найма выделены у Anthropic?
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
+
+## Как реализован forensic RAG с доказуемостью?
+
+Упоминаются: **liteparse**, **evidence**
+
+## Что такое Evidence Envelope и зачем он нужен?
+
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+
+## Какие RAG-подходы сравниваются в документах?
+
+Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **LiteParse**
 
 ## Какие 5 архитектурных зазоров выделены в исследовании?
 
@@ -41,7 +38,7 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Какие кластеры найма выделены у Anthropic?
 
@@ -67,18 +64,6 @@ _Автоматически сгенерировано по 355 файлам р�
 
 Упоминаются: **evidence-first**, **manual review**
 
-## Как реализован forensic RAG с доказуемостью?
-
-Упоминаются: **liteparse**, **evidence**
-
-## Что такое Evidence Envelope и зачем он нужен?
-
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
-
-## Какие RAG-подходы сравниваются в документах?
-
-Упоминаются: **Legal RAG**, **Hybrid RAG**, **Graph RAG**, **LiteParse**
-
 ## Какие системы памяти описаны в этом разделе?
 
 Упоминаются: **Yodoca**, **NGT Memory**, **MemNet**
@@ -103,18 +88,6 @@ _Автоматически сгенерировано по 355 файлам р�
 
 Упоминаются: **spec**, **patch**, **skill**, **self-learning**
 
-## Какие инструменты обеспечивают безопасность агентов?
-
-Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
-
-## Какова политика доступа по умолчанию (tool classes)?
-
-Упоминаются: **read-only**, **path guard**
-
-## Как организован бюджетный роутинг между моделями?
-
-Упоминаются: **routing**, **budget**, **litellm**, **local model**
-
 ## Как работает AgentFS и что такое .agentos?
 
 Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
@@ -126,6 +99,18 @@ _Автоматически сгенерировано по 355 файлам р�
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
+## Какие инструменты обеспечивают безопасность агентов?
+
+Упоминаются: **SENTINEL**, **LiteLLM**, **Tool Search**, **Auto AI Router**
+
+## Какова политика доступа по умолчанию (tool classes)?
+
+Упоминаются: **read-only**, **path guard**
+
+## Как организован бюджетный роутинг между моделями?
+
+Упоминаются: **routing**, **budget**, **litellm**, **local model**
 
 
 ## Использование
@@ -140,16 +125,3 @@ python scripts/improve_qa.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-

@@ -3,7 +3,7 @@ title: "Proposal: 01-Synthesis × Wikontic"
 date: 2026-05-13
 card_id: 58344ee20467
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, 01-synthesis, wikontic, unknown, knowledge, integration]
 projects: [01-synthesis, wikontic]
 similarity: 0.548

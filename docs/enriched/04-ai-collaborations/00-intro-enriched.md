@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, ingestion, local-first, architecture]
+state: normalized
+---
+
 # Введение
+
+
+<!-- summary -->
+> Раздел 00-intro-enriched формируется автоматически из данных репозитория. Проект, демонстрирующий практическое применение программного обеспечения и ИИ для поиска и объединения людей с общими интересами.
+
+> [!NOTE]
+> Раздел `00-intro-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: https://habr.com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
@@ -27,3 +42,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [00-intro](docs\04-ai-collaborations\00-intro.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_00_intro_enriched.py
+```

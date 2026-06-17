@@ -13,5 +13,20 @@
     "search_index": 1809,
     "semantic_index": 1166,
     "passages": 13070
+  },
+  {
+    "date": "2026-06-05",
+    "total_docs": 1619,
+    "cards_raw": 34,
+    "cards_normalized": 429,
+    "cards_approved": 1026,
+    "cards_decayed": 0,
+    "promote_rate": 97.7,
+    "proposals": 22,
+    "rfcs_total": 3,
+    "rfcs_accepted": 3,
+    "search_index": 2785,
+    "semantic_index": 1166,
+    "passages": 13070
   }
 ]

@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Proposal: Mclaude × Agent-Memory-Mcp
+
+
+<!-- summary -->
+> Раздел proposal-mclaude-x-agent-memory-mcp-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-mclaude-x-agent-memory-mcp-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция orchestration-слоя (Mclaude) и memory-слоя (Agent-Memory-Mcp): Mclaude типизирует memory- -->
 <!-- tags: proposal, mclaude, agent-memory-mcp, orchestration, memory, integration -->
@@ -29,3 +44,10 @@ Proposal описывает архитектурное разделение от
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-mclaude-x-agent-memory-mcp](docs\04-ai-collaborations\proposals\proposal-mclaude-x-agent-memory-mcp.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_mclaude_x_agent_memory_mcp_enriched.py
+```

@@ -3,7 +3,7 @@ title: "Proposal: Agentfs × Yodoca"
 date: 2026-05-13
 card_id: 0bd2cbea1dcc
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, agentfs, yodoca, knowledge, memory, integration]
 projects: [agentfs, yodoca]
 similarity: 0.116
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Agentfs × Yodoca
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

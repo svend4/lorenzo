@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Proposal: Agentfs × Yodoca
+
+
+<!-- summary -->
+> Раздел proposal-agentfs-x-yodoca-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-agentfs-x-yodoca-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Agentfs) и memory-слоя (Yodoca): Agentfs обеспечивает персистентную памят -->
 <!-- tags: proposal, agentfs, yodoca, knowledge, memory, integration -->
@@ -31,3 +44,10 @@ Proposal служит аналитической основой для прое�
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-agentfs-x-yodoca](docs\04-ai-collaborations\proposals\proposal-agentfs-x-yodoca.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_agentfs_x_yodoca_enriched.py
+```

@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # FREED++: Ускорение де ново генерации молекул через исправление багов RL-фреймворка
+
+<!-- toc-auto -->
+<!-- tags: alexandertelepov-freed-plus-plus-drug-discovery-rl-gnn, docs -->
+
+
+<!-- summary -->
+> `alexandertelepov-freed-plus-plus-drug-discovery-rl-gnn` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -296,3 +310,11 @@ class LorenzoMolecularAnalogy:
 - Docking engine: gnina (gnina.github.io) / AutoDock Vina
 - Смежная (SR-Scientist законы, R50): docs/06-discovery/round-50/projects/andre-dataist-sr-scientist-llm-law-discovery-symbolic-regression.md
 - Смежная (LLM для науки, R36): docs/06-discovery/round-36/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

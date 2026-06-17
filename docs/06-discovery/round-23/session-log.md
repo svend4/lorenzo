@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Round 23 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Durable State Architecture (1031440, май 2026) — Production-ready агент требует персистентного state: SessionContext (компактная техкарта, не полный транскрипт) + ApprovalQueue (Human-in-the-loop) + BackgroundJobs (async, пользователь не блокируется)
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -74,3 +88,18 @@
 - **Multimodal AI в production** — изображения + текст + аудио в одном pipeline; vision agents
 - **AI для DevOps/SRE** — incident management с LLM, auto-remediation, log analysis beyond Langfuse
 - **Федеративное обучение и приватный AI** — federated learning + LLM, дифференциальная приватность для корпоративных данных
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)
+- [Решения](../../DECISIONS.md)
