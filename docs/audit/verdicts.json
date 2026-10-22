@@ -31,7 +31,7 @@
    "id": "secrets-pii-7",
    "verdict": "confirmed",
    "severity": "info",
-   "reason": "Все заявленные факты воспроизведены. docs/contacts/ — ровно 32 файла (15 {author}.md + 15 *_draft.md + QA.md + README.md). Grep по e-mail/t.me/телефонам в docs/contacts/*.md и docs/CONTACTS.md даёт единственный адрес `lorenzo@dhlab.ai` (docs/CONTACTS.md:90, строка «- `lorenzo@dhlab.ai`»). Полный перечень уникальных e-mail по всем отслеживаемым текстовым файлам (кроме MHTML, без noreply): lorenzo@dhlab.ai (45) и далее только тестовые/учебные адреса (user@example.com, a@b.com, u@x.com, foo@bar.com, user@realcompany.com …) — реальных личных адресов нет; в MHTML кроме lorenzo@dhlab.ai только служебные frame-/css-…@mhtml.blink. Телефонов (+49/+7/0049/0351…) в *.md нет. .claude/query_log.jsonl — 45 строк, поля ts/query/results/ms/source, запросы вида «агент память», «Yodoca», «граф знаний», «RAG retrieval», «тест» — без PII; .claude/hot_cards.json — 172 строки, grep по Sozialgericht/GdB/Pflegegrad/Aktenzeichen/svend4/Макс Ц/S 6 SO/<город> → 0; .claude/gap_queue.jsonl — 0 строк; все три файла отслеживаются git. Севeritу info корректна. Нейтральное дополнение (не меняет вердикт и не относится к контактному слою): реальный e-mail владельца присутствует как author/committer в метаданных 34 коммитов — стандартная публичная информация любого git-репо на GitHub, в blob'ах его нет.",
+   "reason": "Все заявленные факты воспроизведены. docs/contacts/ — ровно 32 файла (15 {author}.md + 15 *_draft.md + QA.md + README.md). Grep по e-mail/t.me/телефонам в docs/contacts/*.md и docs/CONTACTS.md даёт единственный адрес `lorenzo@dhlab.ai` (docs/CONTACTS.md:90, строка «- `lorenzo@dhlab.ai`»). Полный перечень уникальных e-mail по всем отслеживаемым текстовым файлам (кроме MHTML, без noreply): lorenzo@dhlab.ai (45) и далее только тестовые/учебные адреса (user@example.com, a@b.com, u@x.com, foo@bar.com, user@realcompany.com …) — реальных личных адресов нет; в MHTML кроме lorenzo@dhlab.ai только служебные frame-/css-…@mhtml.blink. Телефонов (+49/+7/0049/0351…) в *.md нет. .claude/query_log.jsonl — 45 строк, поля ts/query/results/ms/source, запросы вида «агент память», «Yodoca», «граф знаний», «RAG retrieval», «тест» — без PII; .claude/hot_cards.json — 172 строки, grep по Sozialgericht/GdB/Pflegegrad/Aktenzeichen/svend4/<имя>/S 6 SO/<город> → 0; .claude/gap_queue.jsonl — 0 строк; все три файла отслеживаются git. Севeritу info корректна. Нейтральное дополнение (не меняет вердикт и не относится к контактному слою): реальный e-mail владельца присутствует как author/committer в метаданных 34 коммитов — стандартная публичная информация любого git-репо на GitHub, в blob'ах его нет.",
    "evidence": "ls docs/contacts | wc -l → 32 | grep -n -o -E '<email>|t\\.me/…|\\+[0-9]…' docs/contacts/*.md docs/CONTACTS.md → только docs/CONTACTS.md:90:lorenzo@dhlab.ai; sed -n 90p docs/CONTACTS.md → «- `lorenzo@dhlab.ai`» | уникальные e-mail по git ls-files (excl MHTML, noreply): 45 lorenzo@dhlab.ai, 29 user@example.com, 26 example@email.com, 26 alice@example.com, 26 a@b.com, 11 u@x.com, … 1 user@realcompany.com — только тестовые | grep телефонов +49/+7/0049/0351 по *.md → пусто | wc -l .claude/query_log.jsonl .claude/hot_cards.json .claude/gap_queue.jsonl → 45 / 172 / 0; git ls-files .claude → все три отслеживаются | head -3 .claude/query_log.jsonl → {\"ts\": \"2026-05-14T04:14:25\", \"query\": \"агент память\", \"results\": 3, \"ms\": 661.6, \"source\": \"search\"} … | уникальные query: граф знаний, агент память, RAG retrieval, тест, поиск знаний, граф знаний AgentFS, граф, агент с памятью, Что такое Yodoca?, Yodoca консолидация, Yodoca | grep PII-термины .claude/hot_cards.json → 0 | git log --format=%ae → 34 коммита stefan.engel.de@gmail.com (метаданные), git log -S'stefan.engel' → пусто"
   }
  ],
@@ -56,8 +56,8 @@
    "id": "secrets-pii-2",
    "verdict": "confirmed",
    "severity": "critical",
-   "reason": "Все процитированные строки существуют дословно, все количественные утверждения воспроизведены точно (296/75/199/124/71/112/61 файлов, 507/426 вхождений, 45 исходных файлов, 3 карточки + cards/index.json, счётчики MHTML). Данные о здоровье (GdB nn, Pflegegrad n), город, номера живых дел Sozialgericht <город> и ведомства-ответчики действительно растиражированы по ~300 отслеживаемым файлам публичного репозитория, включая индексы и карточки. Смягчений нет: .gitignore не исключает эти файлы, CI-гейта на PII нет, документы не помечены как намеренно публичные. Мелкие неточности не меняют вывод: «Макс Ц.» встречается в 20 файлах (21 с MHTML), а не в 40; счётчики «KSV Sachsen» (17) и «Sozialamt <город>» (13) в находке занижены — фактически 144 и 115 вхождений. Дополнительный материальный факт, усиливающий impact: поле author коммита 183c4e9f («Add files via upload») содержит личный gmail-адрес владельца — он не в содержимом файлов (там e-mail/IBAN/телефонов действительно нет: 0/0/0), но публично виден в `git log` клонированного репозитория и связывает ник svend4 с реальной личностью. Severity critical соответствует контракту (особые категории ПД + номера дел в публичном репо). Fix реалистичен; предлагаемый CI-гейт `GdB [0-9]+` сейчас не даст ложных срабатываний (в неп derived-docs встречается только «GdB nn», 38 раз), но плейсхолдеры для анонимизации должны быть без цифр, иначе гейт заблокирует и их.",
-   "evidence": "`sed -n '98p' docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` → «Личный контекст. GdB nn (инвалидность 70%), Pflegegrad n, живёт в <город>е, ведёт реальную судебную борьбу в Sozialgericht <город> (S n SO nnn/yy, S n SO nnn/yy), мультилингв…»; :702 «- Вы ведёте активное судебное дело, где противная сторона — немецкие социальные ведомства»; :704 «- Ваш медицинский статус (GdB nn, Pflegegrad n) создаёт vulnerability…». docs/02-anthropic-vacancies/00-intro.md:146 «…Sozialgericht <город>, живые дела (S n SO nnn/yy, S n SO nnn/yy)…». docs/02-anthropic-vacancies/133-обратная-связь.md:271 `\"aktenzeichen\": \"S n SO nnn/yy\",` и :327 «- Активные кейсы в Sozialgericht <город> (S n SO nnn/yy, S n SO nnn/yy)». docs/02-anthropic-vacancies/346-твоё-происхождение.md: «…бя создал **Макс Ц.** (svend4 на GitHub) — независим…». Счётчики (git grep по tracked, без MHTML): Sozialgericht → 296 файлов; «Sozialgericht <город>» → 75; «SG <город>» → 32 вхожд.; `S n SO nnn/yy|S n SO nnn/yy` → 199 файлов (507 / 426 вхожд.); с исключением obsidian/confluence/chunks/index.html/passages/search_index/semantic_index/export*/cards → 45; «GdB nn» → 124; «Pflegegrad n» → 71; «инвалидност» → 112; «userMemories» → 61; «KSV Sachsen» → 144 вхожд.; «Sozialamt <город>» → 115 вхожд.; «Макс Ц\\.» → 20 файлов (21 incl. MHTML). `grep -l -E 'S n SO nnn/yy|Sozialgericht <город>' cards/*.json` → cards/22f749e66bef051e.json, cards/7df386dc1e4c9ccf.json, cards/c258e58eff1ecad3.json, cards/index.json. MHTML «Вакансии…»: GdB=19, Pflegegrad=16, 'S 6 SO'=22, Sozialgericht=40; «Поиск коллабораций AI проектов»: Sozialgericht=8, 'S 6 SO'=2. PII-regex по docs/scripts/cards: email-like → 0, IBAN-like → 0, +49-phone → 0. `git show -s --format='%an | %ae' 183c4e9f` → author svend4 с личным gmail-адресом (адрес намеренно не цитируется). `git grep -o -h -E 'GdB [0-9]{2,3}'` (non-derived docs) → только «GdB nn» ×38. .gitignore не содержит правил для docs/02-anthropic-vacancies, cards/, docs/chunks; в .github/workflows/*.yml нет PII-гейта."
+   "reason": "Все процитированные строки существуют дословно, все количественные утверждения воспроизведены точно (296/75/199/124/71/112/61 файлов, 507/426 вхождений, 45 исходных файлов, 3 карточки + cards/index.json, счётчики MHTML). Данные о здоровье (GdB nn, Pflegegrad n), город, номера живых дел Sozialgericht <город> и ведомства-ответчики действительно растиражированы по ~300 отслеживаемым файлам публичного репозитория, включая индексы и карточки. Смягчений нет: .gitignore не исключает эти файлы, CI-гейта на PII нет, документы не помечены как намеренно публичные. Мелкие неточности не меняют вывод: «<имя>» встречается в 20 файлах (21 с MHTML), а не в 40; счётчики «KSV Sachsen» (17) и «Sozialamt <город>» (13) в находке занижены — фактически 144 и 115 вхождений. Дополнительный материальный факт, усиливающий impact: поле author коммита 183c4e9f («Add files via upload») содержит личный gmail-адрес владельца — он не в содержимом файлов (там e-mail/IBAN/телефонов действительно нет: 0/0/0), но публично виден в `git log` клонированного репозитория и связывает ник svend4 с реальной личностью. Severity critical соответствует контракту (особые категории ПД + номера дел в публичном репо). Fix реалистичен; предлагаемый CI-гейт `GdB [0-9]+` сейчас не даст ложных срабатываний (в неп derived-docs встречается только «GdB nn», 38 раз), но плейсхолдеры для анонимизации должны быть без цифр, иначе гейт заблокирует и их.",
+   "evidence": "`sed -n '98p' docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` → «Личный контекст. GdB nn (инвалидность 70%), Pflegegrad n, живёт в <город>е, ведёт реальную судебную борьбу в Sozialgericht <город> (S n SO nnn/yy, S n SO nnn/yy), мультилингв…»; :702 «- Вы ведёте активное судебное дело, где противная сторона — немецкие социальные ведомства»; :704 «- Ваш медицинский статус (GdB nn, Pflegegrad n) создаёт vulnerability…». docs/02-anthropic-vacancies/00-intro.md:146 «…Sozialgericht <город>, живые дела (S n SO nnn/yy, S n SO nnn/yy)…». docs/02-anthropic-vacancies/133-обратная-связь.md:271 `\"aktenzeichen\": \"S n SO nnn/yy\",` и :327 «- Активные кейсы в Sozialgericht <город> (S n SO nnn/yy, S n SO nnn/yy)». docs/02-anthropic-vacancies/346-твоё-происхождение.md: «…бя создал **<имя>** (svend4 на GitHub) — независим…». Счётчики (git grep по tracked, без MHTML): Sozialgericht → 296 файлов; «Sozialgericht <город>» → 75; «SG <город>» → 32 вхожд.; `S n SO nnn/yy|S n SO nnn/yy` → 199 файлов (507 / 426 вхожд.); с исключением obsidian/confluence/chunks/index.html/passages/search_index/semantic_index/export*/cards → 45; «GdB nn» → 124; «Pflegegrad n» → 71; «инвалидност» → 112; «userMemories» → 61; «KSV Sachsen» → 144 вхожд.; «Sozialamt <город>» → 115 вхожд.; «<имя>\\.» → 20 файлов (21 incl. MHTML). `grep -l -E 'S n SO nnn/yy|Sozialgericht <город>' cards/*.json` → cards/22f749e66bef051e.json, cards/7df386dc1e4c9ccf.json, cards/c258e58eff1ecad3.json, cards/index.json. MHTML «Вакансии…»: GdB=19, Pflegegrad=16, 'S 6 SO'=22, Sozialgericht=40; «Поиск коллабораций AI проектов»: Sozialgericht=8, 'S 6 SO'=2. PII-regex по docs/scripts/cards: email-like → 0, IBAN-like → 0, +49-phone → 0. `git show -s --format='%an | %ae' 183c4e9f` → author svend4 с личным gmail-адресом (адрес намеренно не цитируется). `git grep -o -h -E 'GdB [0-9]{2,3}'` (non-derived docs) → только «GdB nn» ×38. .gitignore не содержит правил для docs/02-anthropic-vacancies, cards/, docs/chunks; в .github/workflows/*.yml нет PII-гейта."
   }
  ],
  "secrets-pii-3": [
@@ -67,6 +67,673 @@
    "severity": "medium",
    "reason": "Факты о содержимом подтверждены: .claude/settings.json отслеживается, allow-список дословно совпадает (строки 4–23), секций deny/ask нет, в истории одна ревизия с тем же набором правил. Семантика подтверждена справочником настроек Claude Code: «Prefix wildcard: Bash(git *) — matches git, git status, git commit», т.е. `Bash(git push*)`, `Bash(python -c *)`, `Bash(ls*)` (матчит и `lsof`) действительно дают автоодобрение. Однако impact и причинно-следственная часть завышены/ошибочны. (1) Ни одна автоматизация в репозитории не запускает Claude Code: improve_watcher.py вызывает только `subprocess.run([sys.executable, str(path)])` для python-скриптов; ни один из 7 workflow не использует claude-code-action/claude CLI; enrich-docs.yml — ручной и тоже запускает python. Вектор «автономные improve_watcher.py» не существует; реальна лишь интерактивная или облачная (claude.ai/code) сессия, запущенная владельцем — такие сессии в истории есть. (2) Утверждение «именно тот сценарий, по которому PAT и PII попали в main» опровергается хронологией: MHTML с токеном загружен владельцем через веб-интерфейс GitHub (183c4e9f, author svend4, «Add files via upload»), а markdown/производные копии закоммичены Claude-сессиями в 03:19, 03:37, 03:57 UTC 2026-04-29 — ДО появления settings.json в cfdcd4e8 (05:54 UTC); после него только ed3fa81f (09:46). (3) Реалистичность: это личный репозиторий одного пользователя, который сознательно пред-одобрил команды; для эксплуатации нужен текст злоумышленника внутри docs/ (возможно через внешние импорты — github tracker, discovery-раунды) И сессия владельца, читающая его. Это условно эксплуатируемая слабость → medium; стала бы high при регулярных необслуживаемых облачных/scheduled-сессиях над внешне-источниковым контентом. Fix в целом корректен и ничего не ломает (лишние prompts), с оговорками: deny-правила с wildcard в середине (`Bash(python scripts/improve_*.py* --apply*)`) опираются на ту же mid-pattern-семантику, что уже используется в строке 5 — проверить в текущей версии Claude Code; `.claude/settings.local.json` сейчас не в .gitignore — нужно добавить.",
    "evidence": "`cat -n .claude/settings.json` → строки 4 `\"Bash(python scripts/improve_*.py*)\"`, 10 `\"Bash(python -c *)\"`, 14 `\"Bash(git add scripts/* docs/* .claude/* *.md *.txt)\"`, 15 `\"Bash(git commit*)\"`, 16 `\"Bash(git push*)\"`, 19 `\"Bash(ls*)\"`, 21 `\"Bash(grep*)\"`, 22 `\"Bash(head*)\"`, 23 `\"Bash(tail*)\"`; ключей deny/ask/defaultMode нет. `git ls-files .claude/settings.json` → tracked; `.claude/settings.local.json` отсутствует; `grep -n settings.local .gitignore` → пусто. `git log --oneline --all -- .claude/settings.json` → единственный cfdcd4e8 «chore: add CLAUDE.md, requirements.txt, .claude/settings.json»; набор `\"Bash(...)\"` в истории идентичен текущему. Справочник Claude Code (skill update-config, раздел Permission Rule Syntax): «Prefix wildcard: \"Bash(git *)\" - matches git, git status, git commit, etc.». scripts/improve_watcher.py:63-66 `subprocess.run([sys.executable, str(path)], cwd=ROOT, capture_output=True, text=True, timeout=60)`; grep 'claude' в improve_watcher.py — только import subprocess, вызовов CLI нет. `grep -n -E 'claude-code-action|anthropics/claude|claude -p|claude --' .github/workflows/*.yml` → пусто; enrich-docs.yml: «Запуск: ТОЛЬКО ручной (workflow_dispatch)», шаги — python scripts/improve_see_also.py и др. Хронология: 183c4e9f | svend4 | 2026-04-29 | Add files via upload (MHTML с токеном); 91dd9685 | Claude | 2026-04-29 03:19:09 +0000; 4e7137c4 | 03:37:04; 1c9ceeaa | 03:57:21; cfdcd4e8 (settings.json) | 05:54:45; ed3fa81f | 09:46:47 — все с трейлером https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv. `grep -rn -l -E '\\bclaude (-p|--print|code)\\b|claude-code' tasks/ .claude/` → только копии в .claude/worktrees/ (gitignored), автоматизации CLI нет. `grep -n settings.json CLAUDE.md README.md` → пусто (намеренность allow-списка не задокументирована)."
+  }
+ ],
+ "security-gateway-mcp-3": [
+  {
+   "id": "security-gateway-mcp-3",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факт подтверждён: task_id подставляется в SQL через f-string (scripts/mcp_ops_server.py:111), а фильтр tool_audit_query (стр. 71-74) проверяет только префикс SELECT и подстроки insert/update/delete/drop/alter, UNION не блокируется. Однако тот же сервер в той же сессии экспортирует инструмент audit_query (стр. 156-160), который по дизайну принимает ПРОИЗВОЛЬНЫЙ SELECT от того же клиента — инъекция в workflow_history не даёт клиенту ничего сверх уже разрешённого. Кроме того, схема audit DB (improve_audit_db.py:30-70) содержит только mcp_calls, workflow_runs, workflow_steps, skill_metrics — таблица secrets в харнессе синтетическая; сервер stdio, запускается собственным клиентом владельца (.mcp.json). Это дефект гигиены кода (параметризовать запрос), а не реальная эскалация — severity low.",
+   "evidence": "scripts/mcp_ops_server.py:111 `where = f\"WHERE task_id = '{task_id}'\" if task_id else \"\"`; :40 SQL_READ_ONLY_RE = r'^\\s*select\\s'; :156-160 Tool(name=\"audit_query\", description=\"Read-only SELECT по SQLite audit DB (mcp_calls, workflow_runs, skill_metrics)\", inputSchema sql:string required) — произвольный SELECT уже открыт тому же клиенту; scripts/improve_audit_db.py:30-70 CREATE TABLE mcp_calls/workflow_runs/workflow_steps/skill_metrics (других таблиц нет); .mcp.json: lorenzo-ops type=stdio."
+  }
+ ],
+ "security-gateway-mcp-4": [
+  {
+   "id": "security-gateway-mcp-4",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Код подтверждён: tool_run_improve (scripts/mcp_runner_server.py:80-104) проверяет только префикс improve_ и .py, extra_args передаются в argv без фильтрации (dispatch :127-132), dry_run задаёт клиент; docstring строки 4 заявляет «разрешение только на whitelisted-команды», что не соответствует реализации. Но это stdio-сервер, запускаемый собственным Claude-клиентом владельца (.mcp.json), у которого и так есть shell; «клиент» здесь — агент владельца, а инструмент прямо описан как запуск скриптов с dry_run по умолчанию. Реальный риск — только prompt-injection агента на run_improve(dry_run=False/--apply) или сетевые improve_github_tracker/improve_llm_*; это hardening-пробел и вводящий в заблуждение docstring, а не «insufficient authorization» в смысле обхода auth. Severity для личного репозитория — low.",
+   "evidence": "scripts/mcp_runner_server.py:4 «Запуск improve_*.py скриптов с разрешением только на whitelisted-команды»; :85-86 `if not script.startswith('improve_'): return ...`; :93-97 `cmd=[sys.executable,str(script_path)]; if dry_run: cmd.append('--dry-run'); if extra_args: cmd.extend(extra_args)`; :127-132 `args.get('dry_run', True), args.get('extra_args', [])`; grep whitelist|ALLOWED в mcp_common.py/mcp_runner_server.py — только строка docstring; tests/test_mcp_runner_server.py:87 тестирует лишь пустой script; .mcp.json lorenzo-runner type=stdio."
+  }
+ ],
+ "security-gateway-mcp-5": [
+  {
+   "id": "security-gateway-mcp-5",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Всё подтверждено кодом и in-process репро (TestClient в disposable worktree): CORSMiddleware allow_origins/methods/headers=['*'] (scripts/gateway.py:82-87), host по умолчанию 0.0.0.0 (:1082), ни одного Depends/проверки ключа на роутах, rate-limit в gateway отсутствует (grep rate|limit — только orphan_rate/hit_rate). POST /api/cards с content 2 000 000 символов без заголовков → 200 и файл docs/04-ai-collaborations/verify-probe.md реально создан; POST /api/ask с Origin evil.example → 200, ACAO: *; preflight OPTIONS разрешает DELETE/PUT/PATCH/POST. CLAUDE.md:375 действительно заявляет «rate limiting» для Итерации 7, но единственный rate-limit — `_write_rate_limit` в mcp_server.py:982-987 (sleep 100 мс на процесс), к gateway не относится. Смягчение: в документации gateway показан как localhost-инструмент прототипа, но дефолт 0.0.0.0 + write-эндпоинт без auth делает medium обоснованным.",
+   "evidence": "gateway.py:82-87 `CORSMiddleware, allow_origins=[\"*\"], allow_methods=[\"*\"], allow_headers=[\"*\"]`; :1082 `parser.add_argument(\"--host\", default=\"0.0.0.0\")`; репро gw_check.py: `[B] 2MB body status 200 -> {'status': 'created', 'message': '✅ Карточка создана: docs/04-ai-collaborations/verify-probe.md'}`, `[C] /api/ask no-auth status 200 | ACAO: *`, `[D] preflight status 200 | ACAO: * | methods: DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT, QUERY`; git status после: `?? docs/04-ai-collaborations/verify-probe.md` (восстановлено git checkout/clean); CLAUDE.md:375 «7 — Production Hardening | ✅ Готово | rate limiting…»; scripts/mcp_server.py:982-987 `_write_rate_limit(): if elapsed < 0.1: sleep(0.1-elapsed)`."
+  }
+ ],
+ "security-toolkit-3": [
+  {
+   "id": "security-toolkit-3",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "PLUGIN_CONTRACT.md §4 (стр. 198-225) показывает импорт run_in_sandbox, SandboxPolicy с allow_filesystem_read/write, allow_subprocess, allow_network, max_memory_mb и исключение SandboxViolation — ничего из этого в пакете нет: __all__ plugin_sandbox/__init__.py экспортирует только SandboxPolicy/SandboxResult/PluginSandbox/PluginMetadata/SandboxedPlugin/PluginLoader, а SandboxPolicy (sandbox.py:36-53) имеет лишь allow_builtins/allow_imports/max_exec_time. Репро подтверждён: run_in_sandbox и SandboxViolation отсутствуют, SandboxPolicy(allow_subprocess=False) → TypeError. Дополнительно контракт утверждает «текущий sandbox — process-level (subprocess + resource limits)», тогда как реализация — exec в потоке того же процесса (sandbox.py:155-158). DEVELOPMENT_STATUS.md:510 честно помечает ограничения subprocess/network/fs как планируемые (🔧 VII.2), но PLUGIN_CONTRACT подаёт их как существующие — ложное заверение о границе безопасности, medium.",
+   "evidence": "docs-toolkit/PLUGIN_CONTRACT.md:204-220 `from docstoolkit.plugin_sandbox import (SandboxPolicy, run_in_sandbox,)` / `allow_subprocess=False, allow_network=False, max_memory_mb=512` / «нарушение бросает SandboxViolation» / :222-224 «текущий sandbox — process-level (subprocess + resource limits)»; plugin_sandbox/__init__.py:20-27 __all__ без run_in_sandbox/SandboxViolation; sandbox.py:51-53 поля allow_builtins, allow_imports, max_exec_time; команда: `python -c \"import docstoolkit.plugin_sandbox as s; print('run_in_sandbox' in dir(s), 'SandboxViolation' in dir(s))\"` → `False False`; `SandboxPolicy(allow_subprocess=False)` → `TypeError: SandboxPolicy.__init__() got an unexpected keyword argument 'allow_subprocess'`; DEVELOPMENT_STATUS.md:510 «🔧 docstoolkit/plugin_sandbox/ — ограничения по subprocess / network / fs» (план)."
+  }
+ ],
+ "security-toolkit-4": [
+  {
+   "id": "security-toolkit-4",
+   "verdict": "partially_confirmed",
+   "severity": "medium",
+   "reason": "Техническая часть верна: serve.py отдаёт Access-Control-Allow-Origin: * на всех ответах (:95, :582), ни serve.py, ни cli.py не ссылаются на KeyStore/extract_token/authenticate (grep — 0 совпадений), хотя auth/middleware.py прямо озаглавлен «Auth middleware для serve.py» и не подключён; deploy/docker-compose.yml публикует 8083:8083. Что неверно в формулировке: SECURITY.md:68-73 уже явно предупреждает «Не используйте --bind 0.0.0.0 без reverse proxy — нет auth, нет HTTPS», т.е. отсутствие auth в serve задокументировано, а раздел «Auth / RBAC» (:81-87) описывает библиотечный модуль, а не защиту serve — утверждение о «вводящем в заблуждение RBAC» преувеличено. Цепочка «в сочетании с git-инъекцией в /api/diff пишет произвольные файлы» — отдельный finding, здесь не проверялась. Дефолт bind 127.0.0.1 (cli.py:278, serve.py:983); находка дублирует toolkit-B-8 по корневой причине (ACAO:*). Severity medium сохраняю из-за docker-compose/helm-экспозиции порта без auth.",
+   "evidence": "serve.py:95 и :582 `self.send_header(\"Access-Control-Allow-Origin\", \"*\")`; `grep -nE 'KeyStore|extract_token|authenticate|Authorization|X-API-Key' serve.py cli.py` → только две строки ACAO; auth/middleware.py:1 «Auth middleware для serve.py» (не импортируется из serve); cli.py:278 `--bind default=\"127.0.0.1\"`; SECURITY.md:73 «Не используйте --bind 0.0.0.0 без reverse proxy — нет auth, нет HTTPS»; SECURITY.md:83 «docstoolkit/auth/ обеспечивает scope-based access control»; deploy/docker-compose.yml:26-31 `ports: \"8083:8083\"`, `command: [\"serve\",\"--port\",\"8083\"]`."
+  }
+ ],
+ "security-toolkit-5": [
+  {
+   "id": "security-toolkit-5",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Код подтверждён: embeddings/cache.py использует pickle.dumps/pickle.loads для idf и vectors (стр. 91, 105, 115, 136), cache_layer/serializer.py:51 — pickle.loads в PickleSerializer. Но severity завышена: SECURITY.md:77-79 прямо документирует именно этот риск («Не загружайте чужие cache файлы — pickle.load может выполнить произвольный код»), PickleSerializer — opt-in (по умолчанию JsonSerializer, cache_layer/cache.py:69) и нигде в пакете кроме экспорта не используется, а кэш пишется тем же процессом/пользователем в .docstoolkit/cache. Атакующему нужна запись в рабочий каталог проекта, при которой он равно может подменить docstoolkit.toml или код; shared volume в docker-compose принадлежит оператору. Это известное, задокументированное ограничение local-first инструмента; замена на JSON/npy — хорошая гигиена, но для этого репозитория low.",
+   "evidence": "docs-toolkit/docstoolkit/embeddings/cache.py:91 `blob = pickle.dumps(idf)`, :105 `return pickle.loads(row[\"data\"]), row[\"n_docs\"]`, :115 `blob = pickle.dumps(vector)`, :136 `return pickle.loads(row[\"vector\"])`; cache_layer/serializer.py:51 `return pickle.loads(data)  # noqa: S301`; cache_layer/cache.py:69 «serializer: Defaults to JsonSerializer»; `grep -rn PickleSerializer docstoolkit` → только определение и экспорт в cache_layer/__init__.py; SECURITY.md:77-79 «SQLite БД … хранит pickled vectors. Не загружайте чужие cache файлы — pickle.load может выполнить произвольный код»."
+  }
+ ],
+ "toolkit-B-3": [
+  {
+   "id": "toolkit-B-3",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено чтением pipeline.py:482-500: ветка hierarchical создаёт RAGPipeline только с filters/with_facets/with_provenance/with_got и делает return pipe.run() до формирования остальных kwargs; ветка at_commit (:458-480) возвращает AnswerResult вообще без фасетов/провенанса/got. Репро на корпусе аудитора воспроизводится: без hierarchical debate/auction/mapreduce = True/True/True, с hierarchical=True — False/False/False, при этом ошибок и пометок в trace нет. Пресет ask_advanced (presets.py:81-83) действительно сочетает hierarchical=True и with_mapreduce=True, поэтому mapreduce в нём никогда не выполняется, а README.md:7 обещает «17 ортогональных фич». Корректностный дефект с тихой потерей функций — medium.",
+   "evidence": "pipeline.py:491-500 `pipe = RAGPipeline(q, profile=profile, reranker=reranker, filters=filters, with_facets=with_facets, facet_fields=facet_fields, with_provenance=with_provenance, with_got=with_got, got_max_hypotheses=got_max_hypotheses) … return pipe.run()` (with_debate/with_negotiation/with_mapreduce/self_rag не передаются); presets.py:81-83 `kwargs.setdefault(\"hierarchical\", True) … kwargs.setdefault(\"with_mapreduce\", True)`; репро (DOCSTOOLKIT_ROOT=scratchpad/toolkit-B/corpus): `no-hier: debate= True auction= True mapreduce= True` / `hier: debate= False auction= False mapreduce= False passages= 2`; README.md:7 «одна функция ask() поддерживает 17 ортогональных фич»."
+  }
+ ],
+ "toolkit-B-4": [
+  {
+   "id": "toolkit-B-4",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Воспроизведено на копии реального docs/search_index.json (2816 записей, ключи content/path/section/summary/tags/title/updated/words, все path начинаются с 'docs/', 16 документов имеют section=05-habr-projects): ask(..., filters={'section':'05-habr-projects'}) → 0 пассажей и ответ «В корпусе не найдено документов по запросу.»; with_facets=True → section=[('docs',5)], tag=[]. Причина в коде: Retriever.search (retriever.py:71-78) строит Passage только из text/doc_id/title/score, у Passage (types.py:9-15) нет metadata, а facets._section (facets.py:35-40) берёт первый сегмент пути, который всегда 'docs'; _tag ищет маркеры tag:foo в тексте, а не поле tags. Документированный пример facets.py:15 apply_filters(..., {\"section\": \"05-habr-projects\"}) на реальном индексе не работает. Medium как заявлено.",
+   "evidence": "retriever.py:71-78 `Passage(text=r.snippet or \"\", doc_id=r.path or r.doc_id, title=r.title, score=r.score)`; types.py:9-15 Passage: text, doc_id, title, score, snippet_start; facets.py:35-40 `head = p.doc_id.split(\"/\", 1)[0]`; проверка индекса: `2816 ['content','path','section','summary','tags','title','updated','words']`, `{'docs'}` (первые сегменты path), `16 docs with section=05-habr-projects`; репро: `filtered passages: 0 'В корпусе не найдено документов по запросу.'`; `facets: [('section', [('docs', 5)]), ('tag', []), ('year', [('2026', 4)])]`; doc_ids: ['docs/obsidian/...', 'docs/ai-collaborations/...']."
+  }
+ ],
+ "toolkit-B-5": [
+  {
+   "id": "toolkit-B-5",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "retriever.py:59-67 содержит только ветки keyword/semantic/else-hybrid, ветки bm25 нет и BM25Backend из hybrid_search/backends.py:30 в rag/ не импортируется (grep hybrid_search в rag/*.py — 0). Репро на корпусе аудитора: method=keyword/bm25/hybrid/semantic/nonsense дают идентичные doc_id и score (0.625, 0.32), а AnswerResult.method эхом возвращает 'bm25' и даже 'nonsense' без ошибки. При этом bm25 задокументирован в cli.py:346 (choices), README.md:20, API.md:22/73/687-690, PROFILES.md:110. sentence-transformers в окружении нет, поэтому semantic тихо деградирует в keyword (retriever.py:61-64), и hybrid с semantic=None тоже фактически keyword — поэтому все методы совпадают. Вводящее в заблуждение поведение + невалидируемый параметр — medium.",
+   "evidence": "retriever.py:59-67 `if self.method == \"keyword\": … elif self.method == \"semantic\": sem = self._get_semantic(); if sem is None: results = self._get_keyword().search(...) … else:  # hybrid (default)`; cli.py:346 `--method choices=[\"keyword\",\"semantic\",\"hybrid\",\"bm25\"]`; README.md:20 «5+ retrievers (keyword, bm25, semantic, hybrid через RRF, adaptive)»; hybrid_search/backends.py:30 `class BM25Backend(SearchBackend)` (в rag не используется); репро: `keyword -> result.method= keyword ids= ['docs/memory/yodoca.md','docs/memory/ngt.md'] scores= [0.625, 0.32]` и те же ids/scores для bm25, hybrid, semantic, nonsense (`nonsense -> result.method= nonsense`); `import sentence_transformers` → ModuleNotFoundError."
+  }
+ ],
+ "toolkit-B-6": [
+  {
+   "id": "toolkit-B-6",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "config.py:4 импортирует tomllib безусловно, а docstoolkit/__init__.py:4 тянет config при любом импорте пакета; второй безусловный импорт — feedback/autotuner.py:21. Репро воспроизведён: с sys.modules['tomllib']=None `import docstoolkit` падает ModuleNotFoundError. pyproject.toml:10 `requires-python = \">=3.10\"` и classifier 3.10 (:21), docs/installation.md:91 «Python ≥ 3.10» — пакет обещает 3.10, но не импортируется на нём. Уточнение к evidence: утверждение «CI тестирует только 3.11» верно для test.yml, однако publish-toolkit.yml:66-83 имеет matrix 3.10/3.11/3.12 с `docstoolkit --help` — на 3.10 этот smoke-тест упал бы, но job запускается только по тегу toolkit-v*/workflow_dispatch, поэтому в обычном CI дефект действительно невидим. Medium как заявлено (однострочный фикс через tomli).",
+   "evidence": "docs-toolkit/docstoolkit/config.py:4 `import tomllib  # Python 3.11+`; feedback/autotuner.py:21 `import tomllib`; docstoolkit/__init__.py:4 `from docstoolkit.config import Config, load_config`; pyproject.toml:10 `requires-python = \">=3.10\"`, :21 `\"Programming Language :: Python :: 3.10\"`; команда `python -I -c \"import sys; sys.modules['tomllib']=None; import docstoolkit\"` → `ModuleNotFoundError: import of tomllib halted; None in sys.modules`; .github/workflows/test.yml:30,49,93 python-version \"3.11\"; publish-toolkit.yml:68 `python: [\"3.10\", \"3.11\", \"3.12\"]` + :80 `docstoolkit --help` (только on: push tags toolkit-v* / workflow_dispatch)."
+  },
+  {
+   "id": "toolkit-B-6",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Дубликат toolkit-A-1 (tomllib).",
+   "evidence": "см. toolkit-A-1"
+  }
+ ],
+ "toolkit-B-7": [
+  {
+   "id": "toolkit-B-7",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "PoC воспроизведён в этом окружении: PluginSandbox() с политикой по умолчанию выполняет `import os; os.getcwd()` с success=True; «строгая» политика SandboxPolicy(allow_builtins=[], allow_imports=[]) обходится через `().__class__.__base__.__subclasses__()` → BuiltinImporter.load_module('os') и возвращает ('ESCAPED', cwd). Причина в коде: единственные барьеры — подмена __import__ и фильтр имён builtins (sandbox.py:96-116), код исполняется exec'ом в потоке того же процесса (:155-158), None в политике означает «всё разрешено» (:51-52). Модуль нигде в пакете/cli/serve не подключён (grep plugin_sandbox вне tests — 0), что снижает практический ущерб, но docstring sandbox.py:1 «safe execution of untrusted plugin code» и ссылка из PLUGIN_CONTRACT.md создают ложное чувство безопасности — medium.",
+   "evidence": "sandbox.py:1 «Plugin sandbox for safe execution of untrusted plugin code»; :51-53 `allow_builtins: list[str] | None = None; allow_imports: list[str] | None = None` (None = без ограничений); :155 `exec(compile(code, \"<sandbox>\", \"exec\"), globs)`; PoC: `default policy: SandboxResult(success=True, return_value='/home/user/lorenzo/.claude/worktrees/wf_25df8a47-718-1/docs-toolkit', …)`; `strict policy: SandboxResult(success=True, return_value=('ESCAPED', '/home/user/lorenzo/.claude/worktrees/wf_25df8a47-718-1/docs-toolkit'), …)`; `grep -rn plugin_sandbox` вне tests/test_plugin_sandbox и самого пакета → пусто."
+  }
+ ],
+ "toolkit-B-8": [
+  {
+   "id": "toolkit-B-8",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено кодом: ACAO:* на всех HTML/JSON-ответах (serve.py:95) и SSE (:582); answerer берётся из query в /api/stream/rag (:155) и в /api/ask через _qstr(params,'answerer','echo') (:1035); единственный обработчик — do_GET (:103), так что CORS-preflight не требуется; /docs/<path> (:113-115) и /search?q=&json (:118-122) отдают содержимое корпуса. Смягчения указаны аудитором корректно: bind по умолчанию 127.0.0.1 (cli.py:278, serve.py:983), path traversal защищён. Сценарий «вредоносная страница в браузере читает localhost-корпус и вызывает answerer=anthropic» реалистичен, пока serve запущен и ANTHROPIC_API_KEY есть в окружении процесса. По корневой причине дублирует security-toolkit-4 (ACAO:*), но здесь точнее описан вектор; medium обоснован.",
+   "evidence": "serve.py:95 `self.send_header(\"Access-Control-Allow-Origin\", \"*\")`; :582 то же для SSE; :103 `def do_GET(self)` (единственный метод); :155 `params.get(\"answerer\", [\"echo\"])[0]`; :1035 `\"answerer\": _qstr(params, \"answerer\", \"echo\")`; :113-115 `/docs/` → `_render_doc(rel)`; :120-121 `if \"json\" in params: self._send_json(self._search(q))`; cli.py:278 `--bind default=\"127.0.0.1\"`."
+  }
+ ],
+ "toolkit-B-9": [
+  {
+   "id": "toolkit-B-9",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факт полностью воспроизводится: `python -m bench.runner --help` падает с ValueError из-за неэкранированного «%» в help строки --threshold (runner.py:444-445). Но severity medium завышена: дефект косметический, затрагивает только вывод справки, не влияет на CI (benchmark.yml вызывает runner без --help) и чинится заменой «%» на «%%». Для репозитория это low.",
+   "evidence": "docs-toolkit/bench/runner.py:444-445 `parser.add_argument(\"--threshold\", type=float, default=30.0, help=\"Regression % (default 30)\")`; команда `cd docs-toolkit && python -m bench.runner --help` → `File \".../argparse.py\", line 655, in _expand_help … ValueError: unsupported format character '(' (0x28) at index 13`."
+  },
+  {
+   "id": "toolkit-B-9",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "python -m bench.runner --help → ValueError: unsupported format character '(' (0x28) at index 13.",
+   "evidence": "вывод команды в docs-toolkit/"
+  }
+ ],
+ "toolkit-B-10": [
+  {
+   "id": "toolkit-B-10",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Фактура верна: bench/history.jsonl содержит одну запись ts=2026-05-15T12:09:55 с suites ask_features/cluster/embeddings/frontmatter/graph/helpers/jobs/search (kg отсутствует, хотя SUITES в runner.py:346 его содержит); benchmark.yml:50-58 выполняет compare с continue-on-error: true против history[-1] — этой единственной записи; --save в workflow не вызывается, поэтому история не пополняется; suites гоняются дважды (:38-40). Замечание о потере JSON при регрессии (return 1 на :469 раньше `if args.json` на :473) верно, но в CI compare-шаг без --json, так что практически не проявляется. Для личного research-репозитория benchmark-job — информационный; «ложная уверенность» ограничивается зелёным шагом, который и так помечен continue-on-error. Severity low.",
+   "evidence": "`wc -l docs-toolkit/bench/history.jsonl` → 1; `r['ts'], sorted(suites)` → `2026-05-15T12:09:55 ['ask_features','cluster','embeddings','frontmatter','graph','helpers','jobs','search']`; runner.py:346 `\"kg\": _suite_kg`; .github/workflows/benchmark.yml:38-40 `python -m bench.runner --json > /tmp/bench-results.json` + `python -m bench.runner`; :50-58 `continue-on-error: true … python -m bench.runner --suite embeddings search graph cluster jobs ask_features helpers --compare 0 --threshold 50`; runner.py:462 `baseline = history[-int(args.compare) - 1]`, :469 `return 1`, :473 `if args.json: print(json.dumps(...))`; bench/BENCHMARKS.md:20-30 содержит таблицу с μs-цифрами."
+  }
+ ],
+ "toolkit-B-11": [
+  {
+   "id": "toolkit-B-11",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Числа воспроизведены повторным запуском AST-графа аудитора: 108 top-level модулей шарда, 0 полностью неиспользуемых, 90 импортируются только из собственного tests/test_<name>.py; 18 реально подключены (rag, serve, skills, plugins, rerank, provenance, self_rag, temporal, telemetry, timetravel и др.). Но характеристика «dead code» и severity medium неточны: docs-toolkit — pip-библиотека с принципом «stdlib-first», и модуль без потребителя внутри cli/serve/rag не является мёртвым кодом для внешнего импортёра; тесты на них есть. Реальная проблема — дублирующие семейства (rerank/reranker, summarize/summarization, webhooks/webhook_dispatcher) и README, выдающий «498 модулей / 38k тестов» за функциональность продукта без разделения core/library. Для исследовательского монорепо это вопрос сопровождения и честности метрик — low.",
+   "evidence": "`python scratchpad/toolkit-B/import_graph.py scratchpad/toolkit-B/shard.txt` → `top-level shard modules: 108 / UNREFERENCED (no import from outside own package, incl. tests): 0 / ONLY referenced from tests (no import from package/cli/bench/examples/scripts): 90` (markdown_lexer, …, plugin_sandbox, openai_compat …); подключённые: `rag <- bench/runner.py, …, docstoolkit/cli.py`, `serve <- docs/build.py, docstoolkit/cli.py`, `telemetry <- docstoolkit/serve.py`, `timetravel <- docstoolkit/cli.py`; docs-toolkit/README.md:5 «**498 модулей**, **38 k+ тестов**», :10 «stdlib-first — большинство модулей работают без внешних зависимостей»."
+  }
+ ],
+ "toolkit-A-2": [
+  {
+   "id": "toolkit-A-2",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Повторный запуск graph.py аудитора на worktree даёт SHARD_UNITS 390, UNREFERENCED 0, TEST_ONLY 363; docstoolkit/__init__.py экспортирует 6 символов; `git show --stat 27b29501` подтверждает, что 238 пакетов doc_*/__init__.py добавлены одним коммитом «спринт 197» 2026-05-14. Поправка к точности: в списке TEST_ONLY значится `cli`, хотя это entry-point `docstoolkit = \"docstoolkit.cli:main\"` в pyproject — граф не учитывает entry-points, поэтому 363 слегка завышено. Как и для toolkit-B-11, «dead code» — неверная категория для библиотечных модулей с тестами; суть находки — отсутствие зафиксированной публичной поверхности и вводящие в заблуждение метрики README/DEVELOPMENT_STATUS. Для личного репозитория severity low.",
+   "evidence": "`python scratchpad/toolkit-A/graph.py <worktree>` → `SHARD_UNITS 390 / UNREFERENCED_ANYWHERE 0 / TEST_ONLY (referenced only from tests) 363 ['access_control', 'access_log', …, 'cli', …, 'doc_link_anchor', …]`; docstoolkit/__init__.py:8-12 `__all__ = [\"Config\",\"load_config\",\"write_doc\",\"clean_text\",\"extract_frontmatter\",\"parse_yaml\"]`; `git show --stat 27b29501 -- 'docs-toolkit/docstoolkit/doc_*/__init__.py' | grep -c __init__.py` → 238; `27b29501 2026-05-14 feat(docs-toolkit): спринт 197 (E403 doc_link_anchor impl)`; pyproject.toml `[project.scripts] docstoolkit = \"docstoolkit.cli:main\"`; `ls -d doc_*/ | wc -l` → 279 из 491 top-level директорий."
+  }
+ ],
+ "toolkit-A-3": [
+  {
+   "id": "toolkit-A-3",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факты подтверждены: в docstoolkit 17 пакетов с суффиксом _vN (аудитор назвал 15 своего шарда; ещё text_normalizer_v2, toml_parser_v2); grep deprecat|superseded|legacy по базовым версиям — 0 совпадений; у doc_diff_v2, doc_role_v2 и toml_parser_v2 базового модуля нет; семейство audit — 10 пакетов; diff doc_pin_request vs doc_share_request — тот же класс с переименованными полями; feedback/store.py реэкспортирует legacy_store. Неточность в evidence: doc_tagger_v2/tagger.py НЕ импортирует doc_tagger — есть только упоминание в docstring (стр. 3), так что «единственная связь» между парой отсутствует. Это проблема сопровождения библиотечных модулей без потребителей (см. toolkit-A-2), а не функциональный дефект; для исследовательского репо — low.",
+   "evidence": "`ls docstoolkit | grep -E '_v[0-9]+$'` → access_log_v2 circuit_breaker_v2 doc_audit_v3 doc_classifier_v2 doc_diff_v2 doc_export_v2 doc_metadata_v2 doc_role_v2 doc_search_v2 doc_signature_v2 doc_summarizer_v2 doc_tagger_v2 doc_versioning_v2 doc_workflow_state_v2 doc_workflow_v2 text_normalizer_v2 toml_parser_v2 (17); `grep -rniE 'deprecat|superseded|legacy'` по базовым пакетам → пусто; проверка базы: `doc_diff: NO base`, `doc_role: NO base`, `toml_parser: NO base`; `ls | grep -i audit` → 10 пакетов; `diff doc_pin_request/request.py doc_share_request/request.py` → только PinRequest→ShareRequest, requested_by→requester/target/permissions, +cancelled; `grep -rn 'docstoolkit.doc_tagger' doc_tagger_v2/` → только tagger.py:3 docstring «Compared to :mod:`docstoolkit.doc_tagger`»; feedback/store.py:1-19 «FeedbackStore — Alias to the legacy store … re-exported from legacy_store»."
+  }
+ ],
+ "ci-workflows-devx-2": [
+  {
+   "id": "ci-workflows-devx-2",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факты верны: все 17 тестов в tests/test_ci_config.py:15-110 проверяют лишь подстроки в DOCS_YML/DOCS_CHECK_YML/MINIMAL_YML и запись в tmp_path; ни один тест в tests/ не читает .github/workflows/*.yml. Шаблон DOCS_YML — 54 строки против 119 в committed docs.yml, DOCS_CHECK_YML — 41 против 46, не идентичны. Однако тесты корректно покрывают то, что делает генератор (одноразовый скаффолдер); корневая проблема — устаревший генератор, а не тесты, и никакого ложного CI-гейта это не создаёт (test.yml генератор не запускает). Для репо — low.",
+   "evidence": "tests/test_ci_config.py:15-110 (assert '\"docs-update\" in mod.DOCS_YML' и т.п.); grep по tests/ на 'github/workflows|docs\\.yml|safe_load' → только tests/test_ci_config.py; in-process сравнение: 'DOCS_YML tpl lines 54 real lines 119 identical False; DOCS_CHECK_YML tpl lines 41 real lines 46 identical False'; docs.yml:1 всё ещё гласит «Автоматически создан improve_ci_config.py»."
+  }
+ ],
+ "ci-workflows-devx-5": [
+  {
+   "id": "ci-workflows-devx-5",
+   "verdict": "partially_confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: PR #33/#35/#36 от github-actions[bot] открыты 2026-06-05 в 18:03/18:21/18:41 с разными head-ветками auto/docs-metrics-<date>-<sha7> (docs.yml:106), get_check_runs для #33 → total_count 0; test.yml триггерится на pull_request, но PR из GITHUB_TOKEN событий не порождает, а push-paths test.yml исключают docs/**, так что и после merge тесты не пойдут. Diff PR #36 содержит реальные правки карточек (state raw→normalized→approved, переписанные QA.md, frontmatter/summary в 06-discovery) и .claude/skill_quality.json с полем \"generated\": timestamp — diff непустой всегда. Неверен пункт (3): docs.yml:46 запускает run_all с --fast, а improve_benchmark.py входит в SLOW_SCRIPTS (improve_run_all.py:282) и пропускается (:576) — benchmark.json в CI не меняется. «Бесконечная цепочка» возникает только при ручном merge каждого авто-PR (один merge → один новый PR), не автономно.",
+   "evidence": "list_pull_requests(open): #36 head auto/docs-metrics-2026-06-05-90e2ba1 (18:41:23Z), #35 …-451184e (18:21:40Z), #33 …-7a2cc22 (18:03:15Z), все user github-actions[bot]; get_check_runs(#33) → {\"total_count\":0,\"check_runs\":[]}; docs.yml:46 '--fast --group reports', :95 GH_TOKEN GITHUB_TOKEN, :106-119; improve_run_all.py:269-282 SLOW_SCRIPTS содержит improve_benchmark.py, :576 'if fast and script in SLOW_SCRIPTS'; test.yml:4-14 push paths без docs/**; PR #36 get_files: skill_quality.json '-\"generated\": \"2026-05-13T14:46:18\" +\"generated\": \"2026-06-05T18:38:24\"', proposal-*.md '-state: raw +state: normalized'."
+  }
+ ],
+ "ci-workflows-devx-6": [
+  {
+   "id": "ci-workflows-devx-6",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факты подтверждены: publish-testpypi (:100-104) и publish-pypi (:118-119) используют pypa/gh-action-pypi-publish@release/v1 без password:, блока permissions: нет ни на уровне workflow, ни у этих job (единственный permissions: — у build-docker :125-127, без id-token); grep id-token по workflow пуст; единственный password: — GHCR login с GITHUB_TOKEN (:136). Без id-token: write OIDC-публикация невозможна, а RELEASE.md:50 ссылается на нигде не используемый PYPI_API_TOKEN. Но workflow ни разу не запускался, тегов и релизов нет — дефект латентный, упадёт громко на первом запуске, фикс в 2 строки. Для репо — low.",
+   "evidence": ".github/workflows/publish-toolkit.yml:88-119,125-127,136; grep 'license-files|PYPI_API_TOKEN|id-token|password:' по pyproject/publish-toolkit.yml/RELEASE.md → только publish-toolkit.yml:136 (GHCR) и RELEASE.md:50; actions_list(publish-toolkit.yml) → {\"total_count\":0}; list_tags → []; list_releases → []."
+  }
+ ],
+ "ci-workflows-devx-7": [
+  {
+   "id": "ci-workflows-devx-7",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Подтверждено: publish-pypi:108 'if: github.event.inputs.target == pypi || == both' без ветки startsWith(github.ref, refs/tags/toolkit-v), которая есть у publish-testpypi:90; при push тега job будет skipped, вопреки RELEASE.md:44-50 («При push tag toolkit-v*: … 4. publish-pypi — production»). Возможно, это осознанная защита от случайной публикации по тегу, но документация этого не отражает. Пайплайн ни разу не запускался, тегов нет, а с учётом devx-6 job всё равно упал бы — для репо low.",
+   "evidence": "publish-toolkit.yml:90 vs :108; docs-toolkit/RELEASE.md:44-50; list_tags → []; actions_list(publish-toolkit.yml) → 0 runs."
+  }
+ ],
+ "ci-workflows-devx-8": [
+  {
+   "id": "ci-workflows-devx-8",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Подтверждено: Dockerfile:45 'pip install --no-cache-dir /tmp/*.whl[all]'; в sh (Docker RUN → /bin/sh -c) шаблон не раскрывается — репро в каталоге с docs_toolkit-0.3.0-py3-none-any.whl: 'echo *.whl[all]' печатает '*.whl[all]', а pip с таким аргументом → rc=1 «*.whl is not a valid wheel filename». Тот же баг в Dockerfile.bge:42 ([all,bge]). COPY :23-24 действительно не копирует README.md при readme = \"README.md\" (pyproject:9). Образ никогда не собирался в CI и не публиковался — дефект латентный, падает громко; для репо low.",
+   "evidence": "docs-toolkit/Dockerfile:23-24,45; Dockerfile.bge:42; repro: 'sh glob *.whl[all] -> *.whl[all]', 'sh glob *.whl -> docs_toolkit-0.3.0-py3-none-any.whl', 'pip rc 1 | ERROR: *.whl is not a valid wheel filename.'; actions_list(publish-toolkit.yml) → total_count 0."
+  }
+ ],
+ "ci-workflows-devx-10": [
+  {
+   "id": "ci-workflows-devx-10",
+   "verdict": "refuted",
+   "severity": "info",
+   "reason": "Ключевое утверждение неверно: шаг объявлен с shell: bash (action.yml:58), а GitHub Actions для явно указанного bash выполняет 'bash --noprofile --norc -eo pipefail {0}', т.е. pipefail включён; set +e (:60) отключает только errexit. Репро той же конструкции под 'bash --noprofile --norc -eo pipefail -c' даёт rc=1, и только под обычным 'bash -c' — rc=0 (сценарий аудитора не соответствует среде Actions). Значит rc=$? (:79) получает код docstoolkit, output exit-code корректен и при fail-on-warnings=true шаг падает. Остаётся лишь дизайн-замечание: при дефолтном fail-on-warnings=\"false\" (:28) шаг не падает даже на ошибках валидации, а doctor замаскирован '|| true' (:72) — это не заявленный баг.",
+   "evidence": "docs-toolkit/action.yml:25-28 (fail-on-warnings default \"false\"), :58 'shell: bash', :60 'set +e', :63-79, :83-85; repro: 'github_shell_bash(-eo pipefail) -> rc=1', 'plain_bash(no pipefail) -> rc=0'."
+  },
+  {
+   "id": "ci-workflows-devx-10",
+   "verdict": "refuted",
+   "severity": "info",
+   "reason": "Согласен с верификатором: шаг объявлен с shell: bash, а GitHub Actions запускает явный bash как 'bash --noprofile --norc -eo pipefail {0}', т.е. pipefail включён и rc=$? после case…esac отражает код docstoolkit, а не tee. Остаётся только то, что action падает лишь при fail-on-warnings=true (см. toolkit-docs-packaging-4).",
+   "evidence": "docs-toolkit/action.yml:58 shell: bash; документация GitHub Actions по shell: bash"
+  }
+ ],
+ "ci-workflows-devx-13": [
+  {
+   "id": "ci-workflows-devx-13",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факты верны: config.py:4 'import tomllib' без fallback, cli.py:8 импортирует load_config на уровне модуля, autotuner.py:21 тоже; pyproject:10 requires-python >=3.10 и классификатор 3.10 (:21); grep tomli по пакету fallback не находит; test.yml использует только 3.11. Локально 3.10 нет (3.11/3.12/3.13), но отсутствие tomllib в 3.10 — факт stdlib. Однако пакет не опубликован, а матрица test-install в publish-toolkit.yml:68 включает 3.10 и громко упадёт на 'docstoolkit --help' до публикации. Для репо — low, фикс тривиален.",
+   "evidence": "docs-toolkit/docstoolkit/config.py:4; cli.py:8 'from docstoolkit.config import load_config'; feedback/autotuner.py:21; pyproject.toml:10,21; grep python-version .github/workflows/test.yml → 6× \"3.11\"; publish-toolkit.yml:68 matrix [\"3.10\",\"3.11\",\"3.12\"]; ls /usr/bin/python3* → 3.11, 3.12, 3.13."
+  }
+ ],
+ "ci-workflows-devx-14": [
+  {
+   "id": "ci-workflows-devx-14",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Конфиг подтверждён: 4 локальных хука (:22-53) language: system, pass_filenames: false, files: \\.md$; их скрипты безусловно пишут tracked-отчёты и индекс (spellcheck.py:187, readability_v2.py:153, broken_links.py:329, search_index.py:86,131) и ни один не содержит sys.exit (grep -c → 0 у всех четырёх), так что как гейты они бесполезны, а pre-commit пометит их failed («files were modified by this hook»). Но дефект латентный: pre-commit не используется в CI (grep по workflows пуст), хуки надо ставить вручную, а индекс в этом чекауте 9,95 МБ, не 13,7. Severity low.",
+   "evidence": ".pre-commit-config.yaml:22-53; grep -c 'sys.exit|raise SystemExit' → 0 для improve_spellcheck.py, improve_broken_links.py, improve_readability_v2.py, improve_search_index.py; write_text: improve_spellcheck.py:187, improve_readability_v2.py:153, improve_broken_links.py:329, improve_search_index.py:86,131; ls -la docs/search_index.json → 9954057 байт; grep -rln pre-commit .github/workflows/ → пусто."
+  }
+ ],
+ "ci-workflows-devx-16": [
+  {
+   "id": "ci-workflows-devx-16",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Логика gate подтверждена: enrich-docs.yml:105 '[ $REMOVED -gt $ADDED ] && [ $REMOVED -gt 50 ]', :111 '-gt 1000'; −999/+1000 действительно проходит, а коммит уходит 'git push' прямо в ветку с permissions: contents: write (:31-32, :139). Однако workflow запускается только вручную (workflow_dispatch, :13-22) с input dry_run, шапка (:9-10) прямо говорит «человек решает когда запустить и проверяет результат», и он ни разу не запускался. Gate — заявленная эвристика против аномалий, комментарий :7 лишь упрощает условие (опускает порог 50). Для репо — low.",
+   "evidence": ".github/workflows/enrich-docs.yml:7-10, :13-22 (только workflow_dispatch + dry_run), :31-32 permissions contents: write, :96-116 safety check, :139 git push; actions_list(enrich-docs.yml) → {\"total_count\":0}."
+  }
+ ],
+ "ci-workflows-devx-19": [
+  {
+   "id": "ci-workflows-devx-19",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Подтверждено: find по репо находит только docs/badges/license.svg; LICENSE и docs-toolkit/LICENSE отсутствуют; README.md:4 бейдж license, pyproject:11 license = {text = \"MIT\"}, :19 классификатор MIT, Dockerfile:35 и Dockerfile.bge:31 label MIT. Тезис о «противоречии требованиям PyPI» преувеличен — PyPI файл лицензии при license={text=…} не требует. Для публичного репо отсутствие LICENSE при заявленной MIT — реальная, но тривиально исправимая проблема; пакет не опубликован. Дублирует toolkit-docs-packaging-10.",
+   "evidence": "find . -maxdepth 3 -iname 'LICENSE*' -not -path './.git/*' → ./docs/badges/license.svg; ls LICENSE docs-toolkit/LICENSE → No such file; README.md:4; docs-toolkit/pyproject.toml:11,19; Dockerfile:35; Dockerfile.bge:31."
+  }
+ ],
+ "tests-health-3": [
+  {
+   "id": "tests-health-3",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Независимое сопоставление (свой скрипт: test_<name>/test_<short> по имени плюс упоминание '<name>.py' в tests/) дало ровно тот же список: 221 скрипт, 200 тест-файлов, 23 без тестов, включая improve_card_promote, improve_proposal_gen, improve_rfc_tracker, improve_auto_summarize, improve_github_tracker. Эти скрипты реально выполняются с --apply в docs.yml:48-88 на каждом push в main, а результат уходит в авто-PR без CI-проверок (см. devx-5), поэтому логические регрессии незаметны — виден только крэш (4 из 8 последних run docs.yml завершились failure). Severity medium обоснована.",
+   "evidence": "map_and_vacuous.py: 'scripts 221 test files 200 untested 23 [cleanup_workflow_history, improve_auto_summarize, improve_bulk_decay, improve_card_graph, improve_card_promote, improve_contact_personalize, improve_decay_checker, improve_feedback_loop, improve_github_tracker, improve_graph_search, improve_hot_cards, improve_knowledge_evolution, improve_knowledge_snapshot, improve_multi_query, improve_progressive_summarize, improve_proposal_gen, improve_query_log, improve_rfc_tracker, improve_semantic_embeddings, improve_skill_metrics, improve_summary_extender, rerun_workflows, verify_all_workflows]'; docs.yml:48-88; actions_list(docs.yml) conclusions: success, success, success, failure, failure, failure, failure, cancelled."
+  }
+ ],
+ "tests-health-4": [
+  {
+   "id": "tests-health-4",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Цифры воспроизведены собственным AST-скриптом: tests/ — 4938 тестов, 280 без assert, 28 только 'is not None', 5 'assert True'; docs-toolkit/tests — 38564, 100 без assert, 225 только 'is not None', 1 'assert True' (расхождение ±2 с аудитором). Примеры подтверждены: test_abstract.py:317 test_main_apply_modifies_file заканчивается mod.main() без assert, test_auto_linker.py:302 test_main_apply_writes_links — то же («# File should have been processed»), assert True в test_ann_index.py:198, test_collab_finder.py:157, test_recipe.py:153. Но 5,7 %/0,26 % smoke-тестов без assert — обычная доля для «no_crash»-тестов, они всё же ловят исключения; реальный дефект — лишь тесты с apply/writes в имени без проверки результата. Severity low.",
+   "evidence": "map_and_vacuous.py: \"tests {'tests': 4938, 'no_assert': 280, 'only_not_none': 28, 'assert_true': 5}\", \"docs-toolkit/tests {'tests': 38564, 'no_assert': 100, 'only_not_none': 225, 'assert_true': 1}\"; tests/test_abstract.py:317-326; tests/test_auto_linker.py:302-318; grep 'assert True' → test_ann_index.py:198, test_collab_finder.py:157, test_recipe.py:153, test_search_repl.py:302, test_embedding_index.py:246."
+  }
+ ],
+ "tests-health-5": [
+  {
+   "id": "tests-health-5",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Подтверждено прогоном: pytest test_precision_eval.py + test_search.py → 22 passed за 42,68 с, из них 32,94 с — setup session-фикстуры eval_result (test_precision_eval.py:12-16, run_eval по реальному индексу); test_search.py:11-13 импортирует gateway и module-level TestClient, :41-45 требует yodoca в топ-10; test_gateway.py:334-339 assert body[\"all_pass\"] is True; gateway.py:148-151 читает docs/search_index.json; тихие pytest.skip в test_badges.py:124, test_metrics.py:181, test_index_update.py:205, test_passage_retrieval.py:216,221, test_embedding_index.py:214-234. Но это осознанные acceptance-тесты критериев PROTOTYPE_SPEC §8 на committed-корпусе (search_index.json в git), а docs.yml:81-82 сам гейтит Hit Rate@10 ≥ 0.70 до создания PR, так что риск «корпус обновился — тесты упали» частично контролируется. Severity low.",
+   "evidence": "pytest --durations: '32.94s setup tests/test_precision_eval.py::test_run_eval_returns_expected_keys … 22 passed in 42.68s'; tests/test_precision_eval.py:12-30; tests/test_search.py:9-13,41-45; tests/test_gateway.py:334-339; scripts/gateway.py:146-152; docs.yml:81-82 'Retrieval quality gate (Hit Rate@10 ≥ 0.70)'."
+  }
+ ],
+ "toolkit-docs-packaging-5": [
+  {
+   "id": "toolkit-docs-packaging-5",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Импорт-проверка 26 задокументированных символов → 26 FAIL: модулей docstoolkit.cache/vectordb/cluster/workflow_v2 нет, в jobs нет Worker/enqueue, в auth — User/check_scope, в skills — Skill/SkillTestSuite, в federation — query_peers/merge_results, в embeddings — Embedder/SentenceTransformersProvider/EmbeddingsCache, в timetravel — query_at_commit/bisect_corpus, в graph — to_dot/to_mermaid, нет web.extract_main, ingest.load_markdown/load_pdf, agent.ReActAgent, task_planner.Planner, plugin_sandbox.run_in_sandbox/SandboxViolation. Сигнатуры расходятся: реальный HybridSearcher(keyword=, semantic=, weights=(0.4,0.6), rrf_k=60) без fit и search(query, docs, top_k, method) против API.md:504-506; BanditExperiment(name, variants, …) против COOKBOOK.md:109 arms=; federated_aggregate(per_node_metrics, *, epsilon) без mechanism против COOKBOOK.md:261-265; SandboxPolicy(allow_builtins, allow_imports, max_exec_time) против PLUGIN_CONTRACT.md:208-214; Peer требует name. API.md позиционируется как reference — medium обоснована.",
+   "evidence": "import-check: 'fails 26 of 26' (ModuleNotFoundError для cache/vectordb/cluster/workflow_v2, FAIL attr для остальных); inspect: 'HybridSearcher (keyword…, semantic…, weights=(0.4, 0.6), rrf_k=60) fit: False search: (self, query, docs, top_k=10, method=rrf)', 'BanditExperiment (name, variants, db_path=:memory:, exploration_floor=0.05)', 'federated_aggregate (per_node_metrics, *, epsilon=1.0)', 'SandboxPolicy (allow_builtins=None, allow_imports=None, max_exec_time=5.0)', 'Peer (name: str, url: str, …)'; API.md:202,237,317,380-385,438,492-506,512,523-529,535,575,585,594; MIGRATING.md:87,120; COOKBOOK.md:109,261-265; PLUGIN_CONTRACT.md:204-216; docs/plugins.md:3 «6 типов» vs plugins.py:33-42 8 групп."
+  }
+ ],
+ "toolkit-docs-packaging-6": [
+  {
+   "id": "toolkit-docs-packaging-6",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "pyproject.toml:29-33 объявляет только extras mcp, llm, test, all (all = mcp + anthropic + pytest); README.md:86-89 предлагает .[anthropic], .[openai], .[semantic], .[telemetry], COOKBOOK.md:30 — .[anthropic]/.[openai]; Dockerfile:4-5 утверждает, что pypdf/ebooklib/python-docx доступны как extras и ставятся через [all], а :18 рекламирует 'ingest report.pdf'. Корректное описание есть только в docs/installation.md:21-28 (ручной pip install pypdf и т.д.). pip при несуществующем extra лишь предупреждает, ImportError отложенный; [all] действительно тянет pytest в production-образ. Установку не запускал (запрещено), вывод по pyproject и тексту документации.",
+   "evidence": "docs-toolkit/pyproject.toml:29-33: 'mcp = [\"mcp>=1.0.0\"] llm = [\"anthropic>=0.40.0\"] test = [\"pytest>=7.0\"] all = [\"mcp>=1.0.0\", \"anthropic>=0.40.0\", \"pytest>=7.0\"]'; README.md:84-90; COOKBOOK.md:30; Dockerfile:4-5,18; docs/installation.md:21-28."
+  }
+ ],
+ "toolkit-docs-packaging-7": [
+  {
+   "id": "toolkit-docs-packaging-7",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факты верны: Dockerfile.bge:40-42 ставит '/tmp/*.whl[all,bge]', extra bge в pyproject отсутствует, :49-51 глушит ошибку предзагрузки '|| echo'; deploy/README.md:82 обещает тег bge «+ BGE cross-encoder pre-downloaded», values.yaml:7 и docker-compose.yml:40-52 на него ссылаются. Но вывод «сборка успешна, образ без BGE» неверен: из-за того же бага с glob (devx-8) строка 42 не выполнится — sh оставит '*.whl[all,bge]' буквально, pip упадёт, и docker build прервётся раньше шага предзагрузки. Сценарий аудитора наступит только после исправления glob; образ никогда не собирался и не публиковался — low.",
+   "evidence": "docs-toolkit/Dockerfile.bge:40-43,49-51; pyproject.toml:29-33 (bge отсутствует); repro 'sh glob *.whl[all,bge] -> *.whl[all,bge]', 'pip rc 1 | ERROR: *.whl is not a valid wheel filename.'; deploy/README.md:80-82; deploy/helm/docs-toolkit/values.yaml:5-7; docker-compose.yml:40-52; actions_list(publish-toolkit.yml) → 0 runs."
+  }
+ ],
+ "toolkit-docs-packaging-8": [
+  {
+   "id": "toolkit-docs-packaging-8",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "serve.py содержит только def do_GET (:103); grep по do_POST|/api/feedback|/api/skills|/v1/ в serve.py пуст, /api/stream/rag обрабатывается в GET-ветке (:151), а /v1/chat/completions упоминается лишь в docstring openai_compat/__init__.py:3 и к serve.py не подключён. При этом README.md:236,238 и API.md:425-428 заявляют POST /api/stream/rag, POST /api/feedback, GET /api/skills; MIGRATING.md:190-192 указывает порт 8083 и :198 «/v1/chat/completions — см. serve.py», тогда как cli.py:277 default=8000 и docstring serve.py:14 «--port 8000». Клиент, написанный по этой документации, получит 501/404 — medium.",
+   "evidence": "grep -nE 'def do_POST|def do_GET|/api/feedback|/api/skills|/v1/|/api/stream/rag' docstoolkit/serve.py → '103: def do_GET', '151: elif path == \"/api/stream/rag\"'; grep -rn '/api/feedback|/v1/chat' docstoolkit/ → только openai_compat/__init__.py:3; cli.py:276-279 '--port default=8000'; serve.py:14; README.md:235-238; API.md:424-429; MIGRATING.md:190,198."
+  }
+ ],
+ "toolkit-docs-packaging-9": [
+  {
+   "id": "toolkit-docs-packaging-9",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "retriever.py:59-71: ветки только keyword/semantic, всё остальное — 'else: # hybrid (default)'; реестра RETRIEVERS в rag/ нет, группа docstoolkit.retrievers лишь объявлена в plugins.py:41. Репро на мини-индексе: Retriever(method=…) для bm25, adaptive, typo_xyz и hybrid возвращает идентичные результаты [('a.md', 0.6348), ('c.md', 0.1672)], ошибки на неизвестный метод нет. При этом cli.py:346 предлагает choice bm25, bandit_ask.py:11-14 A/B-тестирует bm25 vs hybrid vs semantic, README.md:20/API.md:73 обещают 5 ретриверов, ARCHITECTURE.md:67-75 описывает регистрацию в несуществующем RETRIEVERS. A/B-выводы bm25 vs hybrid заведомо бессмысленны — medium.",
+   "evidence": "docs-toolkit/docstoolkit/rag/retriever.py:59-71; retriever_repro.py: 'bm25 -> [(a.md, 0.6348), (c.md, 0.1672)] … bm25==hybrid: True | adaptive==hybrid: True | typo==hybrid: True'; grep -rn RETRIEVERS docstoolkit/rag → пусто; plugins.py:33-42 SUPPORTED_GROUPS; cli.py:346; rag/bandit_ask.py:11-14; README.md:20; API.md:73; ARCHITECTURE.md:67-75."
+  }
+ ],
+ "toolkit-docs-packaging-10": [
+  {
+   "id": "toolkit-docs-packaging-10",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Подтверждено: LICENSE нет ни в корне, ни в docs-toolkit/ (find → только docs/badges/license.svg); pyproject.toml:11 license = {text = \"MIT\"}, :13 email = \"noreply@example.com\", :19 классификатор MIT; Dockerfile:35 и Dockerfile.bge:31 label MIT. Wheel не собирал, но без файла LICENSE* setuptools включить его не может. Тезис «формально не лицензирован» верен, однако практический эффект для неопубликованного пакета личного исследовательского репо мал — low; дубликат ci-workflows-devx-19.",
+   "evidence": "find . -maxdepth 3 -iname 'LICENSE*' → ./docs/badges/license.svg; ls LICENSE docs-toolkit/LICENSE → No such file; docs-toolkit/pyproject.toml:11,13,19; Dockerfile:35; Dockerfile.bge:31."
+  }
+ ],
+ "toolkit-docs-packaging-11": [
+  {
+   "id": "toolkit-docs-packaging-11",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Подтверждено через GitHub API: list_tags → [], list_releases → [], publish-toolkit.yml → 0 запусков, значит образ ghcr.io/svend4/docs-toolkit:0.3.0 (values.yaml:5-6, deploy/README.md:46-48,66-67,81-82, installation.md:41-43) не существует. Версия 0.3.0 согласована в pyproject:7, __init__.py:2, Chart.yaml:5-6; CHANGELOG.md:53 '## [0.3.0] - 2026-05-15' и :162-164 ссылки на несуществующие теги toolkit-v0.1.0/0.2.0; SECURITY.md:9-10 покрывает только 0.2.x/0.1.x; DEVELOPMENT_STATUS.md:13 («I.1 version bump 0.3.0 ✅») противоречит :56-57 и :228 («pyproject 0.1.0 … Bump запланирован»); deploy/README.md:91 «CI публикация в GHCR — добавится» при уже существующем job build-docker. Занятость имени docs-toolkit на PyPI не проверял (без сети). Это docs-truthfulness без действующих потребителей — low.",
+   "evidence": "list_tags(svend4/lorenzo) → []; list_releases → []; actions_list(publish-toolkit.yml) → {\"total_count\":0}; pyproject.toml:7; docstoolkit/__init__.py:2; deploy/helm/docs-toolkit/Chart.yaml:5-6; values.yaml:5-6; CHANGELOG.md:53,162-164; SECURITY.md:9-10; DEVELOPMENT_STATUS.md:13,56-57,228; deploy/README.md:91; docs/installation.md:41-43; README.md:93 «Из PyPI (планируется)» vs action.yml:51 'pip install docs-toolkit'."
+  }
+ ],
+ "toolkit-docs-packaging-12": [
+  {
+   "id": "toolkit-docs-packaging-12",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "config.py подтверждён: DEFAULT_CONFIG знает только paths/validation/language/sections (:8-23), dataclass Config имеет ровно эти 4 поля (:27-32), load_config передаёт только их (:89-92), docs_dir берётся из paths[\"docs\"] (:35-36) — ключ docs_dir и секции [index]/[answerer]/[rag] из MIGRATING.md:141-153 и docs/rag.md:82-91 молча игнорируются; корректные примеры — docstoolkit.toml.example и installation.md:63-82. Единственный нюанс: feedback/autotuner.py:247-251 читает toml напрямую и использует [rag].default_retriever/default_answerer, но ask()/cli этих значений не получают (grep load_config в rag/ — только docs_dir). Показательно, что и собственный docstoolkit.toml репо содержит секции [search]/[llm]/[export], которых config.py тоже не читает. Пользователь по гайду получит молчаливый echo-ответ — medium.",
+   "evidence": "docs-toolkit/docstoolkit/config.py:8-23,27-32,35-36,76-92; grep '\"rag\"|\\[rag\\]|\"answerer\"|\"index\"' config.py → пусто; MIGRATING.md:139-153; docs/rag.md:82-91; docstoolkit.toml.example ([paths]/[validation]/[language]/[sections]); feedback/autotuner.py:247-251 'cfg.get(\"rag\", {}).get(\"default_retriever\")'; rag/advanced.py:296-297, rag/hierarchical.py:260-261 используют только cfg.docs_dir; корневой docstoolkit.toml: секции [paths],[search],[llm],[export]."
+  }
+ ],
+ "scripts-A-4": [
+  {
+   "id": "scripts-A-4",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: из 187 improve_*.py argparse используют только 21, в шарде improve_[a-e]*.py — ровно 6 названных (alerts, backlinks, card_index, card_promote, collab_finder, embedding_index), остальные 60 не содержат ни argparse, ни обработки -h/--help. Выборочный запуск `improve_action_items.py --help` и `improve_faq.py --help` переписал docs/ACTION_ITEMS.md и docs/FAQ.md (git status: 2 изменённых файла). Тестов на --help нет ни одного (grep по tests/ — 0). Для личного репо с CI, коммитящим артефакты, это реальный риск случайного мусора в рабочем дереве, но не поломка CI — medium уместно.",
+   "evidence": "grep -l argparse scripts/improve_*.py → 21/187; grep -L argparse scripts/improve_[a-e]*.py → 60/66; `timeout 60 python scripts/improve_action_items.py --help` → «wrote: docs/ACTION_ITEMS.md / элементов: 3633»; `improve_faq.py --help` → «wrote: docs/FAQ.md»; git status --short → ' M docs/ACTION_ITEMS.md', ' M docs/FAQ.md'; grep -rl -- '--help' tests/*.py → 0"
+  }
+ ],
+ "scripts-A-5": [
+  {
+   "id": "scripts-A-5",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факты верны: improve_autofill.py:25 и improve_autocorrect.py:12 `DRY_RUN = \"--dry-run\" in sys.argv`; в autocorrect список REPLACEMENTS захардкожен, CONSISTENCY.md не читается (упомянут только в skip-наборе), флага --apply нет, тогда как CLAUDE.md пишет «применяет исправления из CONSISTENCY.md (--apply)». Однако для autofill режим «запись по умолчанию» явно задокументирован и в docstring (строки 15-17), и в CLAUDE.md («python scripts/improve_autofill.py # создаёт docs/contacts/*.md»), а правка 23 proposal-файлов — это штатное добавление блока ## Статус (все 23 файла сейчас без маркера autofill-status), т.е. не баг, а задуманное поведение. Остаётся лишь расхождение документации для autocorrect и общий класс «нет --help» (уже покрыт A-4) — low.",
+   "evidence": "scripts/improve_autofill.py:25 `DRY_RUN = \"--dry-run\" in sys.argv`; docstring строки 15-17 «python scripts/improve_autofill.py / --dry-run»; scripts/improve_autocorrect.py:12, REPLACEMENTS строки 15-49, CONSISTENCY.md только в skip (стр. 79); CLAUDE.md: «improve_autocorrect.py — применяет исправления из CONSISTENCY.md (--apply)»; grep -L autofill-status docs/04-ai-collaborations/proposals/*.md → 23; run_all GROUPS: autofill→generate, autocorrect→structure; run_script() передаёт только [sys.executable, path]"
+  }
+ ],
+ "scripts-A-6": [
+  {
+   "id": "scripts-A-6",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено кодом и in-process запуском: `_make_link` строит `Path(\"..\") / rel` без учёта глубины source (source_path вычислен и не используется). Для docs/05-habr-projects/memory/yodoca.md ссылка резолвится в docs/05-habr-projects/docs/05-habr-projects/knowledge/agentfs.md (не существует), для docs/01-svyazi/01-executive-summary.md — в docs/docs/... (не существует); корректно только для docs/*.md. tests/test_auto_linker.py проверяет лишь, что результат — строка с именем в формате markdown-ссылки, поэтому баг не ловится. Запись происходит только при ручном --apply, но команда задокументирована в CLAUDE.md.",
+   "evidence": "scripts/improve_auto_linker.py:113-126; repro: `docs/05-habr-projects/memory/yodoca.md -> [AgentFS](../docs/05-habr-projects/knowledge/agentfs.md) | resolves to docs/05-habr-projects/docs/05-habr-projects/knowledge/agentfs.md | exists: False`; `docs/01-svyazi/01-executive-summary.md -> ... docs/docs/05-habr-projects/knowledge/agentfs.md | exists: False`; `docs/PROTOTYPE_SPEC.md -> ... exists: True`; tests/test_auto_linker.py:16-27 (только тип/формат)"
+  }
+ ],
+ "scripts-A-7": [
+  {
+   "id": "scripts-A-7",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: паттерн `marker.*?(?=\\n##|\\Z)` с DOTALL совпадает с пустой строкой, потому что сразу после маркера идёт `\\n## Упоминается в`; заменяется только маркер, старый блок остаётся. In-process прогон: после 1/2/3 применений — 2/3/4 заголовка «## Упоминается в» при одном маркере. Скан docs/ (без obsidian/confluence): 221 файл с ≥2 «## Упоминается в» и 221 с ≥2 «## Связанные документы» (у автора 220/219 — расхождение в 1-2 файла несущественно); docs/CODE_BLOCKS.md содержит 4 блока подряд на строках 1829-1909.",
+   "evidence": "scripts/improve_crosslink_all.py:129-138; repro: `pass 1 headings: 2 markers: 1 / pass 2 headings: 3 / pass 3 headings: 4`; скан: `dup_mentioned 221 dup_related 221`; grep -n backlinks-auto docs/CODE_BLOCKS.md → 1829, 1855, 1882, 1908; grep -c '## Упоминается в' docs/CODE_BLOCKS.md → 6"
+  }
+ ],
+ "scripts-A-8": [
+  {
+   "id": "scripts-A-8",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факт подтверждён: get_git_log() режет каждую строку вывода по `|`, и строки тела коммитов с `|` (есть минимум 8 таких в истории) превращаются в псевдокоммиты — in-process вызов дал 349 «коммитов» при реальных 343 без merge, 6 мусорных записей с «датами» `q∩title`, `orphan`, `semantic`, ` skip ` и т.п. Скрипт в GROUPS[\"reports\"] и не входит в SLOW_SCRIPTS, т.е. запускается в CI (`--fast --group reports`). Но ущерб чисто косметический (6 лишних разделов в сгенерированном CHANGELOG), а закоммиченный docs/CHANGELOG.md сейчас вообще перезаписан другими генераторами (4 заголовка, без дат) — никто этот артефакт не использует; есть дубликат improve_changelog_auto.py с безопасным разделителем `|||`. Severity low.",
+   "evidence": "scripts/improve_changelog.py:32-43; `git log --pretty=format:%H|%ai|%s|%b | grep -v '^<sha>|' | grep '|'` → строки «- voice --text|--file», «|q∩title|/|q|», «--type stub|orphan|aged|near-dup»; repro: `total parsed 349 bogus 6`, `real no-merge commits 343`, bogus headings ['', ' $.STEP.ou', ' skip ', 'orphan', 'q∩title', 'semantic']; run_all строка 126 (group reports), SLOW_SCRIPTS (строки 269-290) не содержит changelog; improve_changelog_auto.py:83 `--pretty=format:%H|||%ci|||%s`; head docs/CHANGELOG.md → «<!-- toc-auto -->… ## Использование ## Смотрите также»"
+  }
+ ],
+ "scripts-A-9": [
+  {
+   "id": "scripts-A-9",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено на копии docs/03-technology-combinations/01-agent-routing.md в scratchpad (APPLY, MIN_WORDS=50): три последовательных process_file дают size 4679→4707→4735 и вложенную строку «> 🎯 **Проблема:** Абстракт (авто) 🎯 Проблема: Абстракт (авто) 🎯 Проблема: …». Причина — `_sentences` удаляет HTML-комментарии, но строки цитаты `> …` старого блока после очистки `[*_`#|>\\[\\]]` становятся обычными предложениями с ключевым словом «Проблема» и выигрывают в `_best_sentence`. tests/test_abstract.py не содержит теста на повторное применение. Докстринг «Идемпотентно» ложен; запись только при --apply (группы deeptext/content).",
+   "evidence": "scripts/improve_abstract.py:75-82, 94-101, 159-166; repro: `run 1 changed True size 4679 | > 🎯 **Проблема:** Абстракт (авто) 🎯 Проблема: Агентные…`, `run 2 … size 4707 | … Абстракт (авто) 🎯 Проблема: Абстракт (авто) 🎯 Проблема: …`, `run 3 … size 4735 | три уровня вложенности`; grep -i idempot tests/test_abstract.py → нет"
+  }
+ ],
+ "scripts-A-10": [
+  {
+   "id": "scripts-A-10",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: `_resolve` сначала линейно перебирает весь path_index по stem и возвращает первый совпавший ключ, относительный путь проверяется только если stem не найден. In-process проверка: из docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md ссылка README.md резолвится в docs/autofilled/README.md (первый readme в индексе), хотя рядом есть свой README.md; stem «readme» делят 99 карточек, «session-log» — 52, всего 41 неуникальный stem на 253 карточки. build_graph на 1490 карточках занял 65.2 с (collect_cards — 0.2 с), что совпадает с замером автора. Шаг `python scripts/improve_card_graph.py` есть в docs.yml:76, CARD_GRAPH.json читают gateway.py и improve_hot_cards.py. Тестов на _resolve нет.",
+   "evidence": "scripts/improve_card_graph.py:74-90; repro: `cards 1490 collect 0.2s`, `stems shared by >1 card: 41 | cards affected: 253`, `top shared stems: [('readme', 99), ('session-log', 52), ('qa', 13)…]`, `src docs/nautilus/…/01-response.md -> README.md resolves to: docs/autofilled/README.md`, `edges 18799 build_graph 65.2s`; .github/workflows/docs.yml:75-76; gateway.py:175, improve_hot_cards.py:36; grep _resolve tests/test_card_graph.py → пусто"
+  }
+ ],
+ "scripts-A-11": [
+  {
+   "id": "scripts-A-11",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Ядро подтверждено: `_clean_for_epub` не вырезает frontmatter, и полная сборка (без --section) с pandoc 3.1.3 падает с «YAML parse exception at line 15, column 12 … did not find expected key», rc=1; то же для `--section obsidian` и `--section 02-anthropic-vacancies`; pandoc действительно печатает «[WARNING] Deprecated: --epub-chapter-level. use --split-level». Но задокументированная команда `--section 01-svyazi` (16 файлов, все с frontmatter `state: approved`) собирается успешно (161 KB, exit 0), как и `--section 05-habr-projects` (174 KB) — утверждение о её поломке ошибочно; pyyaml не находит невалидного YAML в 1152 ведущих frontmatter, так что причина — специфичные блоки `---` в отдельных секциях/obsidian, а не frontmatter как таковой. Скрипт в SLOW_SCRIPTS, в CI не запускается; EPUB — побочный экспорт. Severity low.",
+   "evidence": "scripts/improve_epub.py:53-59, 84; `improve_epub.py --section 01-svyazi --output docs/_verify_tmp.epub` → «✅ EPUB создан … (161 KB)», exit=0; `--section 05-habr-projects` → exit=0 (174 KB); без --section → «YAML parse exception at line 15, column 12 … did not find expected key», exit=1; `--section obsidian` → exit=1; `--section 02-anthropic-vacancies` → exit=1; pandoc с --epub-chapter-level=2 → «[WARNING] Deprecated: --epub-chapter-level. use --split-level»; yaml_scan: «files with leading frontmatter: 1152 | invalid YAML (pyyaml): 0»; run_all SLOW_SCRIPTS строка 279 improve_epub.py"
+  }
+ ],
+ "scripts-A-12": [
+  {
+   "id": "scripts-A-12",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: improve_toc.add_toc проверяет только `<!-- toc -->` (строка 35) и всегда пишет; improve_auto_toc._has_toc (121-125) распознаёт «Содержание», но обратной проверки нет. На копии docs/05-habr-projects/memory/ngt-memory.md (toc-auto уже есть) add_toc вернул True и добавил второй TOC с пунктами «[Contents](#contents)», «[Похожие документы]», «[Использование]», «[Смотрите также]», «[Кто ссылается на этот документ (4)]». Скан docs/ без obsidian/confluence: 153 файла содержат оба маркера, 72 — ≥2 `<!-- toc-auto -->`. improve_broken_links.py:254 действительно пишет `<!-- toc-auto -->\\n## Содержание`. improve_toc.py в GROUPS[\"structure\"] — продолжает добавлять дубли при run_all.",
+   "evidence": "scripts/improve_toc.py:33-45; scripts/improve_auto_toc.py:121-125, 141-153; repro: `before: toc 0 toc-auto 1` → `add_toc -> True | after: toc 1 toc-auto 1`, блок содержит `- [Contents](#contents)`, `- [Похожие документы]`, `- [Смотрите также]`, `- [Кто ссылается на этот документ (4)]`; скан: `both_toc 153 dup_toc_auto 72`; scripts/improve_broken_links.py:254; run_all: improve_toc.py → group structure"
+  }
+ ],
+ "scripts-B-1": [
+  {
+   "id": "scripts-B-1",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено тот же класс, что и A-4, для второго шарда: из improve_[f-p]*.py argparse используют ровно 6 названных (footnotes, github_tracker, merge_short, pagerank, precision_eval, proposal_gen); run_script() в run_all не передаёт аргументов, так что любой лишний флаг игнорируется. Выборочный запуск `improve_faq.py --help` переписал docs/FAQ.md. Полный прогон 56 скриптов с --help я не повторял (это тяжёлые перезаписи obsidian/индексов), но перечисленные скрипты по коду не имеют ни argparse, ни проверки -h, и пишут файлы в main() безусловно — утверждение консистентно с кодом. Severity medium: засорение рабочего дерева и истории метрик, но не поломка CI.",
+   "evidence": "grep -l argparse scripts/improve_[f-p]*.py → footnotes, github_tracker, merge_short, pagerank, precision_eval, proposal_gen; grep -l argparse scripts/improve_*.py → 21/187; `timeout 60 python scripts/improve_faq.py --help` → «wrote: docs/FAQ.md / вопросов: 247», git status → ' M docs/FAQ.md'; scripts/improve_run_all.py:452-455 `[sys.executable, str(path)]`; scripts/improve_faq.py:150-154 (main без разбора аргументов)"
+  }
+ ],
+ "scripts-B-2": [
+  {
+   "id": "scripts-B-2",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено полностью: в docs/search_index.json (2816 записей) ключи только content/path/section/summary/tags/title/updated/words — поля state нет ни у одной записи; build_entry() в improve_index_update.py (116-125) его не пишет, grep 'state' по improve_index_update.py и improve_search_index.py пуст. Поэтому improve_hot_cards.py:121 всегда берёт «raw», `_state_bonus` = 0.1 для всех, `--state approved --json` возвращает `[]`. Топ-3 «горячих» — docs/autofilled/README.md, docs/autofilled/components/.md (пустое имя), docs/autofilled/components/cowork.md с одинаковым _hot=0.4771; в закоммиченном docs/HOT_CARDS.md 10 строк ❌ и 0 ✅/⚠. Формула из CLAUDE.md фактически не учитывает жизненный цикл.",
+   "evidence": "python: keys0 ['content','path','section','summary','tags','title','updated','words'], Counter(state) → [('<none>', 2816)]; scripts/improve_index_update.py:116-125 (нет state); scripts/improve_hot_cards.py:77-78, 121, 222-223; `improve_hot_cards.py --state approved --json` → `[]`; `--json --top 3` → path docs/autofilled/README.md / docs/autofilled/components/.md / cowork.md, _hot 0.4771, _state_bonus 0.1; grep -c ❌ docs/HOT_CARDS.md → 10, ✅|⚠ → 0"
+  }
+ ],
+ "scripts-B-3": [
+  {
+   "id": "scripts-B-3",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Баг реален и воспроизведён: в ветке `if dry_run:` нет `i += 1`, а `files` пересобирается только при реальном слиянии; симуляция с каталогом из длинного и 6-символьного файла напечатала одну и ту же строку «[dry-run] s/02.md (6 симв.) → слить в 01.md» 1000+ раз и была прервана принудительно. Тесты test_merge_short_dry_run_* используют только длинные файлы (200 символов), поэтому зависание не покрыто. Однако сейчас в docs/ нет .md короче 100 байт (find → 0), дефект латентный, а run_all запускает скрипт в apply-режиме (без аргументов), который работает корректно; зависание в ручном --dry-run заметно сразу и не ведёт к потере данных. Severity low.",
+   "evidence": "scripts/improve_merge_short.py:30-49; repro (timeout 20): «[dry-run] s/02.md (6 симв.) → слить в 01.md» ×3 … «1000 dry-run lines printed, still looping -> infinite loop confirmed», exit=99; `find docs -name '*.md' -size -100c | grep -v obsidian | wc -l` → 0; tests/test_merge_short.py:21-44 (a*200, b*200 при dry_run=True); run_all GROUPS: merge_short → structure, run_script без аргументов"
+  }
+ ],
+ "scripts-B-4": [
+  {
+   "id": "scripts-B-4",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Все цифры воспроизведены точно: `improve_card_promote.py --stats` → approved 1005 / normalized 109 / raw 375 / other 1; `improve_knowledge_evolution.py --stats` → те же 1005/109/375, promote rate 74.8%, Proposals 22; `improve_knowledge_snapshot.py --json` → approved 1006, raw 504, promote_pct 62.1 (считает approved/все .md кроме obsidian, строка 68, включая META-файлы корня, которые evolution исключает в строке 31); `improve_proposal_gen.py --stats` → 23 proposals (ls proposal-*.md → 22, всего файлов 23 с README.md). CLAUDE.md при этом утверждает «1005 approved · 109 normalized · 51 raw» и «promote rate 98.7%», docs/KNOWLEDGE_SNAPSHOT.md — 78.0%. Оба снапшота делаются одним прогоном docs.yml (строки 66-67 и 84-85). Для репо, где CLAUDE.md — основной контекст агентов, противоречивые KPI действительно вводят в заблуждение.",
+   "evidence": "card_promote --stats: «approved 1005 / normalized 109 / other 1 / raw 375»; knowledge_evolution --stats: «promote rate: 74.8% / Proposals: 22»; knowledge_snapshot --json: «approved 1006, normalized 109, raw 504, promote_pct 62.1»; proposal_gen --stats: «Существующих proposals: 23»; ls proposals → 23 файлов, proposal-*.md → 22; scripts/improve_knowledge_snapshot.py:45-47,68 vs improve_knowledge_evolution.py:29-32; CLAUDE.md:370 «51 raw», :378 «promote rate 98.7%»; docs/KNOWLEDGE_SNAPSHOT.md:27 «Promote rate **78.0%**»; docs.yml:66-67, 84-85"
+  }
+ ],
+ "scripts-B-5": [
+  {
+   "id": "scripts-B-5",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: паттерн строки 63 не исключает строки заголовков, несмотря на комментарий «не в заголовке». In-process: add_footnotes('# Svyazi 2.0 — обзор…') → первая строка `# Svyazi[^svyazi] 2.0 — обзор`. В репо уже 9 H1 с `[^` вне obsidian (NGT[^ngt] Memory, Yodoca[^yodoca], knowledge-space[^knowledge-space]), docs/01-svyazi/01-executive-summary.md начинается с «# Svyazi[^svyazi] 2.0 — Исполнительное резюме»; `--dry-run` планирует ещё 26 файлов / 84 сноски. Расхождение ключей term_stats (ищет `[^knowledge-space`, а ref пишется `[^knowledge_space]`) подтверждено по строкам 68 и 120. Скрипт в группе generate, т.е. запускается run_all без флагов.",
+   "evidence": "scripts/improve_footnotes.py:62-70, 120; repro: `added 2 | first line: # Svyazi[^svyazi] 2.0 — обзор`; grep -rl '^# .*\\[\\^' docs | grep -v obsidian | wc -l → 9 («# NGT[^ngt] Memory…», «# Yodoca[^yodoca]…», «# knowledge-space[^knowledge-space]»); head docs/01-svyazi/01-executive-summary.md → «# Svyazi[^svyazi] 2.0 — Исполнительное резюме»; `improve_footnotes.py --dry-run` → «файлов к обновлению: 26, сносок: 84»; run_all GROUPS: footnotes → generate"
+  }
+ ],
+ "scripts-B-6": [
+  {
+   "id": "scripts-B-6",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: load_projects() (158-178) берёт все `05-habr-projects/**/*.md` кроме README/QA, а в каталоге лежат обзорные 01-synthesis.md и 02-collaboration-partners.md → layer='unknown', author='?'; проверки `layer != 'unknown'` перед записью нет. В репо закоммичены proposal-01-synthesis-x-wikontic.md и proposal-01-synthesis-x-yodoca.md; `--dry-run --top 25` показывает «[0.642] 01-Synthesis × Yodoca — Слои: unknown + memory», «[0.615] 01-Synthesis × Wikontic», «[0.392] 02-Collaboration-Partners × Yodoca». docs.yml:60-61 выполняет `improve_proposal_gen.py --apply` при каждом push, так что ложные proposals будут продолжать появляться.",
+   "evidence": "scripts/improve_proposal_gen.py:158-178; find docs/05-habr-projects -name '*.md' → включает 01-synthesis.md, 02-collaboration-partners.md; ls docs/04-ai-collaborations/proposals | grep synthesis → proposal-01-synthesis-x-wikontic.md, proposal-01-synthesis-x-yodoca.md; `improve_proposal_gen.py --dry-run --top 25 | grep -B1 unknown` → «01-Synthesis × Yodoca / Слои: unknown + memory», «02-Collaboration-Partners × Yodoca / unknown + memory»; .github/workflows/docs.yml:60-61"
+  }
+ ],
+ "scripts-B-8": [
+  {
+   "id": "scripts-B-8",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: строка 290 содержит `\"docs/PROTOTYPE_SPEC.MDMD\"` (файла нет, существует только docs/PROTOTYPE_SPEC.md); `--eval` даёт ❌/❌ по всем 4 запросам и «→ 1 (no split)»; `--decompose \"RAG + BM25 + граф знаний\"` и `\"агент память MCP SQLite\"` возвращают 1 под-запрос, т.к. стратегия 1 требует ≥2 частей по ≥2 слова, а стратегия 3 — ≥7 токенов (строки 179-198). В run_all скрипт в группе graph с комментарием «eval в авто-режиме», но run_script() не передаёт аргументов, и main() без query печатает docstring и выходит (337-339) — в CI/run_all это no-op. Документированная «Итерация 15» фактически не работает на своих же примерах.",
+   "evidence": "scripts/improve_multi_query.py:290 `[\"docs/PROTOTYPE_SPEC.MDMD\"]`; ls docs/PROTOTYPE_SPEC.md* → только .md; `--eval` → 4 строки «❌ ❌ → 1 (no split)»; `--decompose \"RAG + BM25 + граф знаний\"` → «Decomposed into 1 sub-queries»; `--decompose \"агент память MCP SQLite\"` → 1; строки 179-201 (пороги), 313-339 (print(__doc__) без query); scripts/improve_run_all.py:110, 452-455"
+  }
+ ],
+ "scripts-B-10": [
+  {
+   "id": "scripts-B-10",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Подтверждено: закоммиченный docs/passages.json содержит 13070 абзацев с generated=2026-05-11; пересборка `improve_passage_retrieval.py --index` в worktree дала 18734 абзаца (на ~43% больше), затем файл восстановлен. В docs.yml есть шаги для search_index (70), ANN (73), CARD_GRAPH (76), но ни одного вызова improve_passage_retrieval. passages.json читают gateway.py (_load_passages, 156-162), improve_precision_eval.py (82-88, _bm25_search 122) и improve_multi_query.py (55-61), т.е. BM25-половина гибридного поиска и CI quality gate работают на индексе пятимесячной давности. Для репо, где search — основная функция прототипа, medium обоснован.",
+   "evidence": "python: `passages 13070 / generated 2026-05-11`; после `--index`: «rebuilt passages: 18734 generated: 2026-10-22»; git checkout -- docs/passages.json → tree clean; grep passage_retrieval .github/workflows/docs.yml → пусто (шаги 70/73/76 — search_index/ann/card_graph); scripts/gateway.py:156-162, scripts/improve_precision_eval.py:82-88,122, scripts/improve_multi_query.py:55-61"
+  }
+ ],
+ "repo-hygiene-1": [
+  {
+   "id": "repo-hygiene-1",
+   "verdict": "partially_confirmed",
+   "severity": "medium",
+   "reason": "Объёмы подтверждены: 9265 файлов / 187.0 MiB в дереве, pack 76.83 MiB, крупнейшие блобы истории — docs/index.html до 48 289 948 байт (≈46 MiB, ниже порога предупреждения GitHub 50 MiB), 36 из 391 коммитов — авто-коммиты артефактов. Но три утверждения неточны: (1) docs.yml в HEAD не коммитит в main — он создаёт ветку auto/docs-metrics-* и открывает PR через gh (строки 105-119), т.е. рост истории требует ручного merge; (2) docs.yml не генерирует самые тяжёлые артефакты (index.html, chunks/, obsidian/, confluence/, passages.json — grep по .github/workflows даёт 0), их версии попали в историю ручными коммитами вроде «auto-regenerated artifacts from full test-suite run»; (3) «ни один workflow не потребляет закоммиченные артефакты» неверно — test.yml гоняет tests/, где 8 файлов читают search_index.json/passages.json/CARD_GRAPH.json из checkout. Как гигиеническая проблема (размер клона, шум в diff) — medium, риск блокировки push пока не реален.",
+   "evidence": "git ls-files+stat: 9265 files, 187.009 MiB; git count-objects: size-pack 76.83 MiB; cat-file batch-check: blob dc67b804 48289948 docs/index.html; git log | grep -ciE 'auto-update|auto-regenerated|update generated' → 36/391; .github/workflows/docs.yml:100 'git add docs/ .claude/hot_cards.json .claude/skill_quality.json', :106-109 'branch=auto/docs-metrics-…; git switch -c; git push', :114 'gh pr create'; grep -nE 'export_html|chunk_semantic|obsidian|confluence|passage_retrieval' .github/workflows/*.yml → exit 1; grep -rl 'search_index.json|passages.json|CARD_GRAPH.json' tests/ → 10 файлов (test_mcp_server.py, test_search_index.py, test_semantic_search.py …); test.yml:63 'pytest tests/ --ignore=tests/test_ann_index.py'; git log -1 -- cards/ → 0969df78 2026-05-12."
+  }
+ ],
+ "repo-hygiene-2": [
+  {
+   "id": "repo-hygiene-2",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Полностью воспроизводится: 3498 трекаемых файлов попадают под .gitignore (docs/confluence 2332, docs/obsidian 1166), правило добавлено коммитом 27b29501 (2026-05-14) через два дня после первого коммита каталогов (0969df78, 2026-05-12), а docs/obsidian обновлялся ещё раз 49d24814 (2026-05-15) уже после игнора. docs/confluence/obsidian/ действительно содержит 1166 файлов — improve_confluence.py:136 исключает из обхода только пути с «confluence», но не «obsidian», т.е. конвертирует готовый Obsidian-экспорт. Снимок неполон: search_index.json ссылается на 81 путь docs/obsidian/*, которых нет на диске. Экспортёры не запускаются ни одним workflow, так что CI не пересоздаёт их, но `git add docs/` в docs.yml подхватит любые изменения.",
+   "evidence": "git ls-files -ci --exclude-standard | uniq -c → 2332 docs/confluence, 1166 docs/obsidian, 1 docs-toolkit/tests; git log -S'docs/obsidian/' -- .gitignore → 27b29501 2026-05-14; git log --diff-filter=A -- docs/obsidian | tail -1 → 0969df78 2026-05-12; git log -1 -- docs/obsidian → 49d24814 2026-05-15 'chore: update generated docs artifacts'; git ls-files docs/confluence/obsidian | wc -l → 1166; scripts/improve_confluence.py:136-137 'if f.name not in SKIP_FILES and \"confluence\" not in str(f)'; scripts/improve_obsidian.py:126-127 аналогично только 'obsidian'; checks.py: search_index missing on disk 82, из них docs/obsidian 81."
+  }
+ ],
+ "repo-hygiene-3": [
+  {
+   "id": "repo-hygiene-3",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Доли зеркал в индексах воспроизведены точно: search_index.json 1247/2816 (44%), cards/index.json 510/1624 (31%), export_full.json 1237/2480 (50%). improve_search_index.py:58 обходит DOCS.rglob('*.md') без исключений; фильтр _SKIP_PREFIXES есть только в gateway.py на этапе запроса, а mcp_server._search (строки 74-93) и mcp_common/mcp_search_server/mcp_embed_server не упоминают obsidian вовсе — MCP search_docs отдаёт канон и зеркало как два результата. Единственный фильтр в mcp_server.py:1296 относится к list_cards, не к поиску. Мелкая неточность: число «2785 md» в CLAUDE.md не найдено (README пишет 2815), но это не влияет на суть.",
+   "evidence": "python: search_index 2816 / obsidian 1247; cards/index 1624 / 510; export_full docs 2480 / 1237; grep -nE 'obsidian|EXCLUDE|SKIP|is_ignored' scripts/improve_search_index.py → только :58 rglob; scripts/gateway.py:98-120 _SKIP_PREFIXES/_is_duplicate; grep -c obsidian scripts/mcp_common.py scripts/mcp_search_server.py scripts/mcp_embed_server.py → 0,0,0; scripts/mcp_server.py:1296 'if \"obsidian\" in path.parts' внутри _tool_list_cards; tests/test_collab_finder.py:742 'path=\"docs/obsidian/agentfs.md\",  # mirror prefix'; grep '2785' CLAUDE.md README.md → пусто."
+  }
+ ],
+ "repo-hygiene-4": [
+  {
+   "id": "repo-hygiene-4",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факты верны: 690 файлов в девяти ненумерованных каталогах, пересечение basename с нумерованными — 1-2 файла, три независимых списка-костыля (_NOISE_SECTIONS в gateway.py:821, _STUB_DIRS в improve_semantic_search.py:372, _STUB_PREFIXES в improve_collab_finder.py:314), CLAUDE.md не упоминает ни один из них (9 совпадений grep — это «02-anthropic-vacancies»). Однако утверждение «не описаны» завышено: README.md:29-39 перечисляет svyazi-2-0, nautilus, lorenzo-agent, anthropic-vacancies, habr-unique-projects с пояснениями и числом файлов, а README:93 даёт svyazi-2-0/README как альтернативную точку входа; docs/nautilus (255 файлов, state: approved) — самостоятельный раздел, а не заглушка. Точных дублей нет (сам аудитор это признаёт). Для личного исследовательского монорепо это вопрос документирования структуры, а не дефект — low.",
+   "evidence": "trees.py: 02-anthropic-vacancies 357 vs anthropic-vacancies 111 (shared basenames 2), 01-svyazi 16 vs svyazi-2-0 60 (2), nautilus 255, lorenzo-agent 62, enriched 49, autofilled 13, sum nonnumbered 9 trees = 690; docs/svyazi-2-0/components/agentfs.md 348 слов vs docs/05-habr-projects/knowledge/agentfs.md 733; scripts/gateway.py:821-827 _NOISE_SECTIONS; improve_semantic_search.py:372 _STUB_DIRS; improve_collab_finder.py:314 _STUB_PREFIXES; grep -n 'docs/anthropic-vacancies|docs/svyazi-2-0|docs/nautilus|…' CLAUDE.md → пусто; README.md:33 'svyazi-2-0/ # альтернативное представление Svyazi (59 файлов)', :34 nautilus, :35 lorenzo-agent, :36 anthropic-vacancies, :39 habr-unique-projects; docs/nautilus/README.md начинается с 'state: approved'."
+  }
+ ],
+ "repo-hygiene-5": [
+  {
+   "id": "repo-hygiene-5",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Файла лицензии нет ни в корне, ни в docs-toolkit/ (единственные совпадения по LICENSE — svg-бейдж и doc «license-tree»). Бейдж «license: MIT» захардкожен константой в improve_badges.py:95, pyproject.toml объявляет license MIT и classifier «OSI Approved :: MIT License», publish-toolkit.yml собирает и публикует пакет (по тегу toolkit-v* или вручную, по умолчанию testpypi). Смягчение: тегов toolkit-v* в репо нет, т.е. публикация через тег ещё не происходила, но репозиторий публичный и обещает MIT без текста лицензии.",
+   "evidence": "git ls-files | grep -iE 'LICENSE|COPYING|LICENCE' → docs/badges/license.svg и 4 файла license-tree.*; scripts/improve_badges.py:95 '(\"license\", \"MIT\", \"green\", \"license.svg\")'; docs-toolkit/pyproject.toml:11 'license = {text = \"MIT\"}', :19 'License :: OSI Approved :: MIT License'; grep -o '>MIT<' docs/badges/license.svg → 2 совпадения; README.md:4 '![license](docs/badges/license.svg)'; .github/workflows/publish-toolkit.yml:3-16 on push tags toolkit-v* / workflow_dispatch target testpypi|pypi|both, :49 'python -m build'; git tag | grep -c toolkit → 0."
+  }
+ ],
+ "docs-consistency-5": [
+  {
+   "id": "docs-consistency-5",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Воспроизведено в чистом worktree (git clean -ndX docs/ → 0 игнорируемых файлов): improve_broken_links.py без --fix пишет только BROKEN_LINKS.md и выдаёт «сломанных ссылок: 470, пропущено: 0, внешних URL: 1143» против «**18**» в HEAD. Закоммиченный отчёт последний раз регенерировался 3f733db7 (2026-05-14), т.е. на машине с полным локальным obsidian-зеркалом. В регенерированной таблице видны ссылки docs/READABILITY.md → obsidian/05-habr-projects/knowledge/* на отсутствующие файлы, что подтверждает природу расхождения. Полную разбивку по категориям (315 obsidian / 20 якорей) я не пересчитывал, но главный факт (занижение в 26 раз) держится.",
+   "evidence": "git clean -ndX docs/ | wc -l → 0; timeout 300 python scripts/improve_broken_links.py → 'сломанных ссылок: 470, пропущено: 0, внешних URL: 1143'; sed -n 4p docs/BROKEN_LINKS.md после прогона → '> Сломанных ссылок: **470**' (HEAD: **18**); scripts/improve_broken_links.py:20-21 FIX/DRY_RUN по sys.argv, :329 'out = DOCS / \"BROKEN_LINKS.md\"; out.write_text'; :130 write в файлы только при FIX; git log -1 -- docs/BROKEN_LINKS.md → 3f733db7 2026-05-14; строки 75-78 регенерированного отчёта: docs/READABILITY.md → obsidian/05-habr-projects/knowledge/agen… 'файл не существует'; восстановлено git checkout."
+  }
+ ],
+ "docs-consistency-6": [
+  {
+   "id": "docs-consistency-6",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Каждое расхождение проверено и держится: HEALTH.md даёт 99/100 (CLAUDE.md:27 — 87), METRICS.md 97.9 (CLAUDE.md:28 — 71.1), search_index.json содержит 2816 записей (CLAUDE.md:30 — 483), improve_card_promote.py --stats показывает raw 375 (CLAUDE.md:370 — 51), DECAY_CANDIDATES.md — 5 кандидатов (CLAUDE.md:375 — 410), improve_recipe.py --list печатает 22 рецепта при «все 20 рецептов» в :697, таблица итераций содержит строки 0-15 при «Все 7 итераций» в :362, PROTOTYPE_SPEC содержит контракты 3.1-3.5 и итерации 0-4 при «4 контракта + 4 итерации», mcp_server.py определяет 17 Tool(...) при «MCP 15» в :373 (и README:80). CLAUDE.md инжектируется в каждую сессию, так что устаревшие цифры действительно влияют на решения агентов.",
+   "evidence": "grep -n CLAUDE.md: :25/:693 '4 контракта + 4 итерации', :27 '87/100', :28 '71.1/100', :30 '483 документа', :362 'Все 7 итераций', :370 '51 raw', :373 'MCP 15 инструментов', :375 '410 кандидатов', :68 '22 именованных' vs :697 'все 20 рецептов'; head docs/HEALTH.md → '**99/100**'; docs/METRICS.md → '**97.9/100**'; python len(search_index)=2816; improve_card_promote.py --stats → approved 1005 / normalized 109 / raw 375 / other 1; docs/DECAY_CANDIDATES.md:16 'Кандидатов на decay: **5**'; improve_recipe.py --list | grep -c 'скр.]' → 22; grep -c 'Tool(' scripts/mcp_server.py → 17; docs/PROTOTYPE_SPEC.md: ### 3.1…3.5, ### Итерация 0…4; ls proposals → 23, contacts/*_draft.md → 15."
+  }
+ ],
+ "docs-consistency-7": [
+  {
+   "id": "docs-consistency-7",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Факты подтверждены: в трекаемом индексе preview есть у 305 из 2816 записей, improve_search_index.py:74 пишет preview, а build_entry() в improve_index_update.py (строки 94-124) этого поля не создаёт — 2511 записей имеют формат инкрементального скрипта (ключ updated, без preview). Однако формулировка «утверждение ложно» неточна: фраза CLAUDE.md относится к полному прогону improve_search_index.py, для которого она верна по коду; нарушает инвариант инкрементальный путь (которым и был записан закоммиченный индекс). Практического эффекта нет: _doc_text() в mcp_server.py:65-71 и gateway берут content первым, а content есть у всех 2816 записей. Это несогласованность форматов двух скриптов, а не ошибка документации — low.",
+   "evidence": "python: n 2816, with preview 305, with content 2816; keysets: (content,path,section,summary,tags,title,updated,words) ×2511 и (…,preview,projects,…,text_length…) ×305; scripts/improve_search_index.py:74 'meta[\"preview\"] = content[:500]    # обратная совместимость'; grep preview scripts/improve_index_update.py → пусто; improve_index_update.py:94 def build_entry, :121-124 summary/words/content/updated; CLAUDE.md:733-735 текст утверждения; scripts/mcp_server.py:65-71 _doc_text объединяет content, preview, summary."
+  }
+ ],
+ "docs-consistency-8": [
+  {
+   "id": "docs-consistency-8",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Три разных числа действительно сосуществуют: docs/PRECISION_EVAL.md (HEAD, регенерирован 49d24814 2026-05-15) содержит Hit Rate@5 = 0.850 (17/20), MRR 0.480; CLAUDE.md:382 — Hit Rate@10=1.000; DEVELOPMENT_PLAN.md:183 — 1.000 (20/20), MRR 0.441; docs.yml:82 запускает --k 10. Но вывод «нельзя установить реальное значение» опровергнут дешёвым воспроизведением: `improve_precision_eval.py --k 10` на текущем коде даёт Hit Rate@10 = 1.000 (20/20), Mean MRR 0.480, т.е. CLAUDE.md и DEVELOPMENT_PLAN верны по Hit Rate, устарел только закоммиченный отчёт (k=5). Остаётся расхождение MRR 0.441 vs 0.480 и несвежий файл — low.",
+   "evidence": "grep 'Hit Rate': docs/PRECISION_EVAL.md:9,19 'Hit Rate@5 | **0.850** (17/20)', :20 'Mean MRR 0.480'; CLAUDE.md:382 'Hit Rate@10=1.000'; docs/DEVELOPMENT_PLAN.md:183 'Hit Rate@10: 0.850 → **1.000** (20/20). Mean MRR: 0.437 → 0.441'; .github/workflows/docs.yml:81-82 '--k 10'; git log -1 -- docs/PRECISION_EVAL.md → 49d24814 2026-05-15; timeout 300 python scripts/improve_precision_eval.py --k 10 → 'Hit Rate@10: 1.000  (20/20)  ✅ PASS', 'Mean MRR: 0.480', 'Avg Latency: 1.551с'; регенерированный файл :14 '| Hit Rate@10 | **1.000** (20/20)'; восстановлено git checkout."
+  }
+ ],
+ "docs-consistency-9": [
+  {
+   "id": "docs-consistency-9",
+   "verdict": "partially_confirmed",
+   "severity": "medium",
+   "reason": "Главная претензия держится: find-gaps.md:50 велит `improve_subtopic_fill.py --apply --topic X`, а скрипт разбирает только --apply/--min-words/--section через `in sys.argv`, так что --topic X молча игнорируется и --apply пройдёт по всему корпусу. Подтверждены также 15 из 28 скилов без tasks/*.task.yaml при заявлении «единый источник истины», отсутствие analyze-project/propose-collaboration/review-docs/status в skill-router.md, 3 golden-yaml, на которые не ссылаются scripts/, tests/ и .github/. Ошибочен пункт про audit-corpus.md:58: `improve_X.py` стоит внутри шаблона выходного отчёта рядом с «XX/100», «[Проблема 1]», «[действие]» — это намеренный плейсхолдер, а не битая команда. Из-за реального риска массового --apply оставляю medium.",
+   "evidence": ".claude/skills/find-gaps.md:50 'python scripts/improve_subtopic_fill.py --apply --topic X'; grep -- '--topic' scripts/improve_subtopic_fill.py → пусто; improve_subtopic_fill.py:31 'APPLY = \"--apply\" in sys.argv', :35 '--min-words', :41 '--section'; checks.py: skills 28, tasks 13, skills without task 15 [analyze-project, design-ensemble, dispatch, …, status]; skill-router mentions analyze-project/propose-collaboration/review-docs/status → 0,0,0,0; _golden: audit-corpus.test.yaml, search.test.yaml, summarize.test.yaml; grep -rln _golden scripts/ tests/ .github/ → пусто; .claude/skills/audit-corpus.md:40-58 — шаблон '**Общий балл:** XX/100 … ## Команды для исправления - `python scripts/improve_X.py` — закроет [проблему]'; tasks/README.md:1 'единый источник истины для задач'."
+  }
+ ],
+ "mcp-gateway-runtime-5": [
+  {
+   "id": "mcp-gateway-runtime-5",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Код и поведение совпадают с описанием: _find_duplicate (gateway.py:466) и _find_dup (mcp_server.py:1031) перебирают только _load_index()[:200], индекс отсортирован по path, и 200-я запись — docs/02-anthropic-vacancies/262-…, т.е. покрыты лишь 01-svyazi и часть 02-. In-process воспроизведение: копия index[0] → «дубль», копия index[2630] → «не дубль» (карточка была бы создана). В _exec_add_card файл пишется через filepath.write_text без проверки существования (строка ~565), поэтому повторный POST с тем же title перезаписывает карточку и возвращает «created».",
+   "evidence": "scripts/gateway.py:466 'for doc in _load_index()[:200]:  # проверяем топ по заголовку'; scripts/mcp_server.py:1031 'for doc in _load_index()[:200]:'; python in-process: 'index len 2816 sorted by path? True path[199]= docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md'; 'copy of index[0] -> DUP'; 'copy of index[2630] -> NO DUP (would create)'; gateway.py:533-566: slug из title, 'filepath = target_dir / f\"{slug}.md\"; filepath.write_text(md, …)' без exists-проверки; add_card_endpoint возвращает {\"status\": \"created\"} безусловно (gateway.py:962-966)."
+  }
+ ],
+ "mcp-gateway-runtime-6": [
+  {
+   "id": "mcp-gateway-runtime-6",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Воспроизведено в процессе: записи docs/passages.json имеют ключи {heading,id,source,text,wc} и ни одна не содержит tokens; цикл `for t in set(p[\"tokens\"])` над combined = existing + new падает KeyError 'tokens' на первом существующем абзаце, а `except Exception: pass` его глотает. Вызов gateway._sync_passages на временном md-файле оставил passages.json без изменений (md5 до/после одинаков). Даже при успехе новые абзацы пишутся с ключом file, тогда как _bm25_search читает p.get(\"source\") — они никогда не сматчатся. Копия в mcp_server.py:1038-1070 идентична.",
+   "evidence": "checks.py: 'passages: 13070 entry keys: [heading, id, source, text, wc] has tokens: 0 files: 1234'; scripts/gateway.py:487 '\"file\": rel', :490 '\"tokens\": words', :505-506 'for p in combined: for t in set(p[\"tokens\"])', :514-515 'except Exception: pass'; python repro: 'KeyError on existing passage: tokens'; md5sum docs/passages.json до 8eadb3e88a5e и после вызова _sync_passages 8eadb3e88a5e; re.findall p.get(\"source\"|\"file\") в gateway → ['source','source','source'] (строки 239,254); scripts/mcp_server.py:1038-1070 _sync_passages_mcp с теми же 'file'/'tokens'/except pass."
+  }
+ ],
+ "mcp-gateway-runtime-7": [
+  {
+   "id": "mcp-gateway-runtime-7",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Прогон `pytest tests/test_gateway.py` (34 passed, 15 с) оставляет грязным трекаемый индекс: git status показывает M docs/search_index.json (2019 изменённых строк) и M .claude/query_log.jsonl (45 → 60 строк). Причина — subprocess improve_index_update.py в _exec_add_card и _log_query, дописывающий трекаемый query_log; fixture удаляет только .md. После прогона индекс содержит запись docs/04-ai-collaborations/minimal-test-card.md для уже удалённого файла, и та же запись (updated 2026-05-14T10:28:05) уже лежит в HEAD. test.yml запускает tests/ целиком без проверки чистоты дерева.",
+   "evidence": "pytest tests/test_gateway.py -q -p no:cacheprovider --timeout=60 → '34 passed in 14.89s'; git status --short → ' M .claude/query_log.jsonl', ' M docs/search_index.json'; git diff --stat → query_log +15, search_index 2019 строк; wc -l .claude/query_log.jsonl 45 → 60; git ls-files .claude/query_log.jsonl → трекается; scripts/gateway.py:126-140 _log_query append, :571-576 subprocess improve_index_update.py; tests/test_gateway.py:189-194 fixture удаляет только CARD_PATH; после прогона python: 'test-card entries now in index: [docs/04-ai-collaborations/minimal-test-card.md]'; в HEAD search_index: ('docs/04-ai-collaborations/minimal-test-card.md','Minimal Test Card','2026-05-14T10:28:05'); .github/workflows/test.yml:63 pytest tests/ без git diff --exit-code; восстановлено git checkout -- ."
+  },
+  {
+   "id": "mcp-gateway-runtime-7",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Атрибуция в worktree: tests/test_gateway.py изменяет docs/search_index.json и .claude/query_log.jsonl.",
+   "evidence": "docs/audit/test_attribution_full.txt"
+  }
+ ],
+ "mcp-gateway-runtime-8": [
+  {
+   "id": "mcp-gateway-runtime-8",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Все числа воспроизведены: в search_index.json 82 пути отсутствуют на диске (81 docs/obsidian/* + minimal-test-card.md), 51 существующий md не проиндексирован (49 docs/enriched/** + DEVELOPMENT_PLAN_PHASE_X.md + WORKFLOW_CHECKLIST.md); CARD_GRAPH.json generated 2026-05-13T14:45:03 (1166/18458), semantic_index built 2026-05-13 backend tfidf dim 0, hot_cards generated 2026-05-13, passages.json generated 2026-05-11 с 13070 абзацами из 1234 файлов при 13291 в GATEWAY.md:163. С 2026-05-13 изменён 5191 файл docs/ (у аудитора 5199 — расхождение несущественно), cards/ не трогался с 2026-05-12. Gateway/MCP действительно отдают ссылки на несуществующие файлы, а новые документы невидимы.",
+   "evidence": "checks.py: 'search_index entries: 2816 missing on disk: 82', 'missing by top dir: docs/obsidian 81, docs/04-ai-collaborations 1', 'md on disk: 2785 not indexed: 51', 'by dir: docs/enriched 49 …'; 'CARD_GRAPH generated: 2026-05-13T14:45:03 stats {nodes 1166, edges 18458, isolated 23}'; semantic meta {'backend':'tfidf','docs':1166,'dim':0,'built':'2026-05-13T13:53:54'}; hot_cards {'generated':'2026-05-13T15:04:59','total':1809}; passages 13070 / files 1234 / generated 2026-05-11; docs/GATEWAY.md:163 '\"passages\": 13291'; git log --since=2026-05-13 --name-only -- docs/ | sort -u | wc -l → 5191; git log -1 -- cards/ → 0969df78 2026-05-12; после pytest индекс стал 2786 записей (−82 +52)."
+  }
+ ],
+ "mcp-gateway-runtime-10": [
+  {
+   "id": "mcp-gateway-runtime-10",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Две модели состояния действительно расходятся: все 1632 карточки cards/*.json и все 1624 записи cards/index.json имеют state=raw, тогда как improve_card_promote.py --stats (по frontmatter docs/*.md) даёт approved 1005 / normalized 109 / raw 375, а прямой подсчёт frontmatter без obsidian — approved 1006 / normalized 109 / raw 21. Числа «1005 approved · 109 normalized · 51 raw» из CLAUDE.md:370 совпадают ровно с распределением state в узлах CARD_GRAPH.json от 2026-05-13 (1005/109/51/1 pending_review), т.е. это снапшот графа. CardStore имеет собственный CLI --approve/--decay в improve_card_index.py, но lifecycle promote его не использует, а MCP list_cards читает frontmatter.",
+   "evidence": "checks.py: 'cards/*.json: 1633 {raw: 1632, None: 1}', 'cards/index.json: 1624 Counter({raw: 1624})', 'frontmatter state in docs (no obsidian): {approved: 1006, raw: 21, normalized: 109} total 1136', 'CARD_GRAPH state dist: approved 1005, normalized 109, raw 51, pending_review 1'; improve_card_promote.py --stats → approved 1005 / normalized 109 / other 1 / raw 375; CLAUDE.md:370 '1005 approved · 109 normalized · 51 raw'; scripts/improve_card_index.py:13-14 '--approve/--decay … state=approved/decayed'; scripts/mcp_server.py:1290-1305 _tool_list_cards читает 'state:' из md."
+  }
+ ],
+ "mcp-gateway-runtime-11": [
+  {
+   "id": "mcp-gateway-runtime-11",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Баг реален и воспроизведён через TestClient: при /api/graph?top=5 ответ содержит 5 узлов и 66 рёбер, но stats = {nodes 1166, edges 18458, isolated 23}; при top=0&state=approved — 1005 узлов/14786 рёбер при тех же stats 1166/18458. Причина — `**data.get(\"stats\", {})` после вычисленных nodes/edges в gateway.py:999-1003. Однако влияние для этого репо минимально: /api/graph — вспомогательный эндпоинт без известных потребителей stats (UI/метрик по нему нет, тесты не проверяют), исправление — однострочное. Корректность-дефект, но low, не medium.",
+   "evidence": "scripts/gateway.py:998-1003 '\"stats\": {\"nodes\": len(nodes), \"edges\": len(edges), **data.get(\"stats\", {})}'; TestClient: '/api/graph?top=5 -> 200 stats {nodes: 1166, edges: 18458, isolated: 23} len(nodes) 5 len(edges) 66'; '/api/graph?top=0&state=approved -> 200 stats {nodes: 1166, edges: 18458, isolated: 23} len(nodes) 1005 len(edges) 14786'; CARD_GRAPH.json stats {nodes 1166, edges 18458, isolated 23}."
   }
  ],
  "security-gateway-mcp-1": [
@@ -204,24 +871,6 @@
    "evidence": "inspect.signature(map_reduce_ask); grep -n 'answerer is None' rag/mapreduce.py"
   }
  ],
- "toolkit-B-6": [
-  {
-   "id": "toolkit-B-6",
-   "verdict": "confirmed",
-   "severity": "medium",
-   "reason": "Дубликат toolkit-A-1 (tomllib).",
-   "evidence": "см. toolkit-A-1"
-  }
- ],
- "toolkit-B-9": [
-  {
-   "id": "toolkit-B-9",
-   "verdict": "confirmed",
-   "severity": "medium",
-   "reason": "python -m bench.runner --help → ValueError: unsupported format character '(' (0x28) at index 13.",
-   "evidence": "вывод команды в docs-toolkit/"
-  }
- ],
  "toolkit-docs-packaging-1": [
   {
    "id": "toolkit-docs-packaging-1",
@@ -254,17 +903,8 @@
    "id": "toolkit-docs-packaging-4",
    "verdict": "confirmed",
    "severity": "high",
-   "reason": "action.yml:79-85: rc=$? после case…esac с пайпом в tee (без pipefail) → всегда код tee; exit только при fail-on-warnings=true.",
-   "evidence": "sed -n 60,95p docs-toolkit/action.yml"
-  }
- ],
- "ci-workflows-devx-10": [
-  {
-   "id": "ci-workflows-devx-10",
-   "verdict": "confirmed",
-   "severity": "medium",
-   "reason": "Та же конструкция action.yml (rc от tee); дополняет toolkit-docs-packaging-4.",
-   "evidence": "см. toolkit-docs-packaging-4"
+   "reason": "action.yml:83-85 завершает шаг с ошибкой только при fail-on-warnings=true (дефолт false); cli.py:131 возвращает 1 при ошибках валидации только при validation.strict=true (дефолт false) — по умолчанию action всегда зелёный при любых ошибках схем. (Утверждение о потере кода выхода из-за tee снято: shell: bash включает pipefail.)",
+   "evidence": "sed -n 79,86p docs-toolkit/action.yml; grep -n 'return 1 if errors_count' docs-toolkit/docstoolkit/cli.py"
   }
  ],
  "docs-consistency-1": [
@@ -357,15 +997,6 @@
    "evidence": "см. security-gateway-mcp-1"
   }
  ],
- "mcp-gateway-runtime-7": [
-  {
-   "id": "mcp-gateway-runtime-7",
-   "verdict": "confirmed",
-   "severity": "medium",
-   "reason": "Атрибуция в worktree: tests/test_gateway.py изменяет docs/search_index.json и .claude/query_log.jsonl.",
-   "evidence": "docs/audit/test_attribution_full.txt"
-  }
- ],
  "mcp-gateway-runtime-17": [
   {
    "id": "mcp-gateway-runtime-17",
@@ -373,6 +1004,60 @@
    "severity": "info",
    "reason": "probe с mcp 2.3.0: все 12 серверов падают на @server.list_tools().",
    "evidence": "<scratchpad>/mcp-runtime/probe_mcp2.json"
+  }
+ ],
+ "scripts-C-1": [
+  {
+   "id": "scripts-C-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Подтверждено по коду: patch_file вставляет шаблонные <!-- summary -->, <!-- tags -->, > [!NOTE] и код-блоки «## Использование» во все docs/*.md (кроме obsidian/confluence/autofilled) ради quality_score; скрипт включён в 3 группы improve_run_all.py (строки 150, 182, 241).",
+   "evidence": "sed -n 37,95p scripts/improve_quality_patch.py; grep -n improve_quality_patch scripts/improve_run_all.py"
+  }
+ ],
+ "scripts-C-2": [
+  {
+   "id": "scripts-C-2",
+   "verdict": "partially_confirmed",
+   "severity": "medium",
+   "reason": "improve_similar.py и ещё 82 improve_*.py делают DOCS.rglob('*.md') без исключения obsidian/confluence (подтверждено grep), но в закоммиченном docs/SIMILAR.md слово obsidian встречается 1 раз — число «731» не воспроизведено. Дублирует scripts-B-25/repo-hygiene-3 в более широком охвате.",
+   "evidence": "grep -l 'rglob(\"*.md\")' scripts/improve_*.py | xargs grep -L -E 'obsidian|docignore' | wc -l → 83; grep -c obsidian docs/SIMILAR.md → 1"
+  }
+ ],
+ "scripts-C-3": [
+  {
+   "id": "scripts-C-3",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "GROUPS['semantic'] вызывает improve_semantic_embeddings.py без --index (argparse без действия — индекс не строится), GROUPS['lifecycle'] — improve_card_promote.py/improve_proposal_gen.py с default dry_run=True (печатают «Запустите с --apply»); run_all помечает их ✅. CI docs.yml вызывает эти скрипты напрямую с --apply, поэтому в CI дефект не проявляется — только при документированном 'improve_run_all.py --group lifecycle'.",
+   "evidence": "sed -n 312,332p scripts/improve_run_all.py; grep -n 'default=True' scripts/improve_card_promote.py scripts/improve_proposal_gen.py"
+  }
+ ],
+ "scripts-C-4": [
+  {
+   "id": "scripts-C-4",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "improve_recipe.py:596-604: при --dry-run флаг добавляется только если _has_dry_run_flag(path); иначе скрипт запускается как есть с меткой «[read-only, нет --dry-run]» — для 166 скриптов без argparse это реальный запуск с записью.",
+   "evidence": "sed -n 585,610p scripts/improve_recipe.py"
+  }
+ ],
+ "scripts-C-5": [
+  {
+   "id": "scripts-C-5",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Воспроизведено в worktree: python scripts/improve_templates.py изменяет 6 файлов docs/templates/*.md, удаляя строки frontmatter (---/template:/version:); скрипт в группе generate (improve_run_all.py:114).",
+   "evidence": "git status --short docs/templates → 6 файлов; git diff | grep -c '^-(---|template:|version:)' > 0"
+  }
+ ],
+ "scripts-C-6": [
+  {
+   "id": "scripts-C-6",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Подтверждено по коду improve_workflow_run.py:121-167: run_template_init собирает команду, но не выполняет её и возвращает 'ok'; validate_template, update_index, generate, write_section, filter_by_topic, update_checklist возвращают StepResult(..., 'ok') без какого-либо действия — 7 из 11 операций пайплайна являются заглушками.",
+   "evidence": "grep -n 'StepResult(' scripts/improve_workflow_run.py; sed -n 121,170p scripts/improve_workflow_run.py"
   }
  ]
 }
