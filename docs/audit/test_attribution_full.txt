@@ -1,0 +1,34 @@
+test_alerts: rc=0 changed=54 ::      36 docs/enriched      13 "docs/enriched       1 docs/WORKFLOW_CHECKLIST.md       1 docs/DEVELOPMENT_PLAN_PHASE_X.md 
+test_backlinks: rc=0 changed=3 ::       1 docs/badges       1 docs/CLUSTERS.md       1 docs/BACKLINKS.md 
+test_badges: rc=0 changed=2 ::       2 docs/badges 
+test_clusters: rc=0 changed=1 ::       1 docs/CLUSTERS.md 
+test_compare: rc=0 changed=1 ::       1 docs/COMPARE.md 
+test_concept_graph: rc=0 changed=2 ::       1 docs/concept_graph.json       1 docs/CONCEPT_GRAPH.md 
+test_confluence: rc=0 changed=2332 ::    2042 docs/confluence     290 "docs/confluence 
+test_consistency: rc=0 changed=1 ::       1 docs/CONSISTENCY.md 
+test_content_gaps: rc=0 changed=1 ::       1 docs/CONTENT_GAPS.md 
+test_contradiction_check: rc=0 changed=1 ::       1 docs/CONTRADICTIONS.md 
+test_cross_section: rc=0 changed=1 ::       1 docs/CROSS_SECTION.md 
+test_decisions: rc=0 changed=1 ::       1 docs/DECISIONS.md 
+test_dedup: rc=0 changed=1 ::       1 docs/DUPLICATES.md 
+test_dependabot: rc=0 changed=1 ::       1 docs/DEPENDABOT.md 
+test_digest_auto: rc=0 changed=1 ::       1 docs/DIGEST_AUTO.md 
+test_gateway: rc=0 changed=2 ::       1 docs/search_index.json       1 .claude/query_log.jsonl 
+test_keyword_index: rc=0 changed=2 ::       1 docs/keyword_index.json       1 docs/KEYWORD_INDEX.md 
+test_kpi: rc=0 changed=1 ::       1 docs/KPI.md 
+test_kpi_snapshot: rc=0 changed=2 ::       1 docs/kpi_history.json       1 docs/KPI_HISTORY.md 
+test_language_split: rc=0 changed=1 ::       1 docs/LANGUAGE_STATS.md 
+test_llm_gaps: rc=0 changed=1 ::       1 docs/LLM_GAPS.md 
+test_llm_qa: rc=0 changed=1 ::       1 docs/qa_cache.json 
+test_mcp_export_server: rc=0 changed=1170 ::    1021 docs/obsidian     145 "docs/obsidian       1 docs/feed.rss       1 docs/feed.atom 
+test_mcp_integration: rc=0 changed=3504 ::    2042 docs/confluence    1021 docs/obsidian     290 "docs/confluence     145 "docs/obsidian 
+test_narrative: rc=0 changed=1 ::       1 docs/NARRATIVE.md 
+test_questions: rc=0 changed=1 ::       1 docs/QUESTIONS.md 
+test_reading_order: rc=0 changed=1 ::       1 docs/READING_ORDER.md 
+test_reading_time: rc=0 changed=1 ::       1 docs/READING_TIME.md 
+test_see_also: rc=0 changed=275 ::     207 docs/06-discovery      36 docs/enriched      13 "docs/enriched       1 docs/WORKFLOW_CHECKLIST.md 
+test_sentiment: rc=0 changed=1 ::       1 docs/SENTIMENT.md 
+test_summaries: rc=0 changed=325 ::     259 docs/06-discovery      36 docs/enriched      13 "docs/enriched       1 docs/WORKFLOW_CHECKLIST.md 
+test_textrank: rc=0 changed=1 ::       1 docs/SUMMARIES.md 
+test_watcher: rc=0 changed=3 ::       1 docs/search_index.json       1 docs/STATS.md       1 docs/REPORT.md 
+DONE

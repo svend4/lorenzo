@@ -1,0 +1,378 @@
+{
+ "secrets-pii-4": [
+  {
+   "id": "secrets-pii-4",
+   "verdict": "confirmed",
+   "severity": "low",
+   "reason": "Факт подтверждён дословно: docs/02-anthropic-vacancies/00-intro.md:309 содержит перечень приватных репозиториев soz120/soz50/soz7/soz20/soz4/soz5/soz1/soz2/soz10/soz140/info50 с описанием «это ваша SGB-рабочая станция, связанная с реальными делами (S n SO nnn/yy, S n SO nnn/yy …). Правильно private.»; 01-интегральный-анализ-профиля-svend4.md:641 — «Прочитать все ваши приватные репозитории (включая soz* с чувствительными SGB-данными, документами по делам Sozialgericht <город>)». Счётчики «<repo> Private» совпадают (soz12 — 16, остальные по 8). Смягчающих факторов нет: .gitignore/.docignore не исключают эти файлы, в CI нет secret/PII-сканирования. Severity low адекватна: названия приватных репо сами по себе не дают доступа, а атакующий с валидным PAT и так получит список приватных репо через API; ценность — только как social-engineering/приоритизация целей после отзыва токена. Уточнения к scope и fix (не меняют вердикт): (1) копии лежат не только в obsidian/confluence/index.html, но и в docs/chunks/02-anthropic-vacancies.jsonl, docs/chunks/all_chunks.jsonl, docs/passages.json; (2) источник «soz12 Private»/«soz3 Private» — сырая вставка страницы GitHub «Repositories 70» в 00-intro.md:379 (строка 2004 символа, включает описания приватных репо, напр. «soz12 Private Soz 12 соц - 12 тема и вопрос - кушель», «data3 Private») и :394, а также таблица :298 «soz* | 11 (9 private)», поэтому диапазон правки 305-311 слишком узок — чистить нужно 298-411; (3) описание приватных soz* как хранилищ судебных дел есть ещё в 133-обратная-связь.md:241/387/396/618, docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md:125, 05-which-combination-more-valuable.md:36, docs/CONCEPTS.md:3917, docs/TABLES.md:164/2262; (4) в предложенном expressions.txt для git filter-repo строка `soz[0-9]+ Private==>[private-repo]` без префикса `regex:` трактуется как литерал и ничего не заменит (filter-repo по умолчанию literal). Сам git filter-repo в окружении не установлен.",
+   "evidence": "sed -n '309p' docs/02-anthropic-vacancies/00-intro.md → «soz120 Private, soz50 Private, soz7 Private, soz20 Private, soz4 , soz5 , soz1 , soz2 , soz10 , soz140 , info50 (Persönliches Budget Wissensdatenbank) — это ваша SGB-рабочая станция, связанная с реальными делами (S n SO nnn/yy, S n SO nnn/yy из userMemories). Правильно private.» | sed -n '641p' …01-интегральный-анализ-профиля-svend4.md → «- Прочитать все ваши приватные репозитории (включая soz* с чувствительными SGB-данными, документами по делам Sozialgericht <город>)» | git grep -o -E '\\bsoz[0-9]+ Private\\b' | sort | uniq -c → 16 soz12, 8×{soz120,soz20,soz3,soz50,soz7}; файлы: 00-intro.md, docs/chunks/02-anthropic-vacancies.jsonl, docs/chunks/all_chunks.jsonl, docs/confluence/…/00-intro.wiki ×2, docs/index.html, docs/obsidian/…/00-intro.md | 00-intro.md:379 (2004 симв.): «…Updated on Dec 29, 2025 soz12 Private Soz 12 соц - 12 тема и вопрос - кушель…», метки Private=3, Public=7 | 00-intro.md:298 «| soz* | 11 (9 private) | Соцправо/Sozialrecht …» | «S n SO nnn/yy|S n SO nnn/yy» встречается в 204 отслеживаемых файлах (K3) | grep gitleaks/trufflehog .github/workflows .pre-commit-config.yaml → пусто | git filter-repo --version → not a git command"
+  }
+ ],
+ "secrets-pii-5": [
+  {
+   "id": "secrets-pii-5",
+   "verdict": "partially_confirmed",
+   "severity": "low",
+   "reason": "Ядро факта верно: пять файлов без расширения в корне отслеживаются git (git ls-files), добавлены коммитом 183c4e9f 2026-04-29 «Add files via upload», .gitignore их не исключает; заголовок «Вакансии…» — `Snapshot-Content-Location: https://claude.ai/chat/cfd86f31-…`, `Date: Wed, 29 Apr 2026 03:47:55 +0200`; объединённый набор `claude.ai/chat/<uuid>` = 61 уникальных; в отслеживаемых текстовых файлах вне MHTML таких URL 0; счётчики github_pat_=4/Sozialgericht=40/Aktenzeichen=10/svend4=260/GdB=19/Pflegegrad=16/<город>=29 для «Вакансии…» и Sozialgericht 15/8/8/8 для остальных воспроизводятся точно. Что неверно/неполно в описании: (1) заголовок говорит «пять MHTML-экспортов чатов … claude.ai» — но «Поиск коллабораций AI проектов» является экспортом ChatGPT (`Snapshot-Content-Location: https://chatgpt.com/c/69f0efd1-c384-832d-a923-c945a1f69091`), содержит 0 claude.ai-UUID и 29 уникальных `chatgpt.com/c/<uuid>` — идентификаторы бесед второго аккаунта (ChatGPT), которые в находке не учтены; 61 claude-UUID приходятся на 4 Claude-файла (по 60 в каждом — список недавних чатов в сайдбаре + текущий); (2) два файла «Поиск уникальных проектов…» и «… (1)» — два снимка одной и той же беседы c504b3ec-… (28.04 17:40 и 29.04 03:50), не байт-идентичны (cmp: differ at byte 569). Оценка severity low корректна: UUID бесед без сессии доступа не дают, PAT и мед./судебные данные уже покрыты K1/K3; новое здесь — привязка аккаунтов claude.ai и ChatGPT к содержимому и то, что сканеры по расширениям эти файлы пропустят. Fix (git rm + filter-repo --invert-paths + ignore по именам) корректен; `*.mhtml` в .gitignore бесполезен для файлов без расширения, но авторы это учли шаблонами имён.",
+   "evidence": "git ls-files | grep -E '^(Вакансии|Комбинирование|Поиск)' → все 5 файлов отслеживаются; размеры 7.9M/1.3M/3.8M/1.08M/1.11M (≈15.2 MB) | head -3 'Вакансии …' → «From: <Saved by Blink> / Snapshot-Content-Location: https://claude.ai/chat/cfd86f31-acb6-497e-ba06-fba35770126b» | grep -a -o 'claude\\.ai/chat/[0-9a-f-]{36}' <5 файлов> | sort -u | wc -l → 61; по файлам: 60/60/0/60/60 | 'Поиск коллабораций AI проектов': Snapshot-Content-Location: https://chatgpt.com/c/69f0efd1-c384-832d-a923-c945a1f69091; grep 'chatgpt\\.com/c/<uuid>' | sort -u | wc -l → 29 | 'Поиск уникальных… - Claude' и '(1)': оба Snapshot-Content-Location …/chat/c504b3ec-cb0f-422e-9267-2842faf44a2f, Date 28 Apr 17:40:57 и 29 Apr 03:50:10; cmp → differ: char 569 | grep -a -c github_pat_/Sozialgericht/Aktenzeichen/svend4/GdB/Pflegegrad/<город> 'Вакансии…' → 4/40/10/260/19/16/29; «Комбинирование…» Sozialgericht=15; остальные три Sozialgericht=8 | git log --diff-filter=A --format='%h %ad %s' -- <MHTML> → 183c4e9f 2026-04-29 Add files via upload | grep -i 'mhtml|Вакансии|Поиск|Комбинирование' .gitignore .docignore → пусто | git grep uuid вне MHTML → 0"
+  }
+ ],
+ "secrets-pii-6": [
+  {
+   "id": "secrets-pii-6",
+   "verdict": "confirmed",
+   "severity": "info",
+   "reason": "Отрицательный результат подтверждён независимой проверкой. Собственный скан 9265 отслеживаемых файлов по 20+ семействам токенов (ghp_/gho_/ghs_/github_pat_/sk-ant-/sk-proj-/AKIA/xox*/AIza/PRIVATE KEY/slack hooks/glpat-/npm_/telegram bot/ya29./hf_/pypi-/sk_live_/SendGrid/JWT) дал только github_pat_11BUSYKPA[REDACTED]… в 6 файлах (01-интегральный-анализ-профиля-svend4.md + obsidian/confluence×2/index.html + MHTML «Вакансии…» — это K1). Скан ВСЕХ объектов истории (`git cat-file --batch-all-objects`, 38992 объектов, 391 коммитов) теми же шаблонами: только github_pat_11BUSYKPA[REDACTED]… (91 blob-вхождение), `ANTHROPIC_API_KEY=sk-ant-` (217) и `ANTHROPIC_API_KEY='sk-ant-` (3) — у всех после `sk-ant-` ничего не следует, т.е. плейсхолдер; единственный дополнительный хит `stefan.engel` (34) — это author/committer e-mail в метаданных 34 коммитов (git log --format=%ae), пиксом `git log -S` ни в одном blob не найден, т.е. обычные публичные git-метаданные, не утечка в файлах. .claude/llm_debug.txt: в .gitignore:33, `git log --all -- .claude/llm_debug.txt` пуст, файла нет в дереве. Workflows: `pull_request_target` отсутствует; `secrets.` только `secrets.GITHUB_TOKEN` в docs.yml:95 (GH_TOKEN), enrich-docs.yml:40 (token), publish-toolkit.yml:136 (password) — точно как в находке; echo в enrich-docs.yml выводят только has_changes/счётчики строк и файлов; триггеры push main / pull_request / workflow_dispatch / tags toolkit-v*; выражений `github.event.*` в run-блоках нет (только в `if:` publish-toolkit.yml:90/108). В CI/pre-commit действительно нет gitleaks/trufflehog, так что превентивная рекомендация уместна. Единственная неточность — номера строк плейсхолдеров: `api_key=\"deepseek-api-key\"` стоит на строке 135 (не 142) docs/06-discovery/round-20/projects/deepseek-v3-technical-overview.md, `DATABASE_URL: \"postgresql://langfuse:secret@db:5432/langfuse\"` — на строке 261 (не 268) …/langgraph-langfuse-llm-agent-observability.md; docs-toolkit/tests/test_doc_share.py:161 указан верно. На вердикт это не влияет.",
+   "evidence": "git ls-files | wc -l → 9265; скан дерева по токен-regex → хиты только github_pat_11BUSYKPA[REDACTED]…: docs/index.html(2), 'Вакансии…'(1), docs/obsidian/…/01-интегральный…md(1), docs/confluence/…/01-интегральный….wiki(2 файла), docs/02-anthropic-vacancies/01-интегральный….md(1) | history_scan (git cat-file --batch-all-objects | grep -aoE …): «217 ANTHROPIC_API_KEY=sk-ant- / 91 github_pat_11BUSYKPA[REDACTED]… / 34 stefan.engel / 3 ANTHROPIC_API_KEY='sk-ant-», exit=0 | git log --all --format='%ae%n%ce' | sort | uniq -c → 668 noreply@anthropic.com, 42 github-actions[bot]…, 34 stefan.engel.de@gmail.com, 34 noreply@github.com, 4 stefan@example.com; git log --all -S'stefan.engel' --oneline → пусто | git log --all --oneline -- .claude/llm_debug.txt → пусто; .gitignore:33 `.claude/llm_debug.txt` | grep -rn pull_request_target .github/workflows/ → пусто | grep -n 'secrets\\.' .github/workflows/*.yml → docs.yml:95 GH_TOKEN, enrich-docs.yml:40 token, publish-toolkit.yml:136 password (все GITHUB_TOKEN) | grep -n deepseek-api-key …deepseek-v3-technical-overview.md → 135; grep -n langfuse:secret …langgraph-langfuse….md → 261; test_doc_share.py:161 `password=\"open-sesame\"` | grep gitleaks/trufflehog/detect-secrets в .github/workflows и .pre-commit-config.yaml → пусто"
+  }
+ ],
+ "secrets-pii-7": [
+  {
+   "id": "secrets-pii-7",
+   "verdict": "confirmed",
+   "severity": "info",
+   "reason": "Все заявленные факты воспроизведены. docs/contacts/ — ровно 32 файла (15 {author}.md + 15 *_draft.md + QA.md + README.md). Grep по e-mail/t.me/телефонам в docs/contacts/*.md и docs/CONTACTS.md даёт единственный адрес `lorenzo@dhlab.ai` (docs/CONTACTS.md:90, строка «- `lorenzo@dhlab.ai`»). Полный перечень уникальных e-mail по всем отслеживаемым текстовым файлам (кроме MHTML, без noreply): lorenzo@dhlab.ai (45) и далее только тестовые/учебные адреса (user@example.com, a@b.com, u@x.com, foo@bar.com, user@realcompany.com …) — реальных личных адресов нет; в MHTML кроме lorenzo@dhlab.ai только служебные frame-/css-…@mhtml.blink. Телефонов (+49/+7/0049/0351…) в *.md нет. .claude/query_log.jsonl — 45 строк, поля ts/query/results/ms/source, запросы вида «агент память», «Yodoca», «граф знаний», «RAG retrieval», «тест» — без PII; .claude/hot_cards.json — 172 строки, grep по Sozialgericht/GdB/Pflegegrad/Aktenzeichen/svend4/Макс Ц/S 6 SO/<город> → 0; .claude/gap_queue.jsonl — 0 строк; все три файла отслеживаются git. Севeritу info корректна. Нейтральное дополнение (не меняет вердикт и не относится к контактному слою): реальный e-mail владельца присутствует как author/committer в метаданных 34 коммитов — стандартная публичная информация любого git-репо на GitHub, в blob'ах его нет.",
+   "evidence": "ls docs/contacts | wc -l → 32 | grep -n -o -E '<email>|t\\.me/…|\\+[0-9]…' docs/contacts/*.md docs/CONTACTS.md → только docs/CONTACTS.md:90:lorenzo@dhlab.ai; sed -n 90p docs/CONTACTS.md → «- `lorenzo@dhlab.ai`» | уникальные e-mail по git ls-files (excl MHTML, noreply): 45 lorenzo@dhlab.ai, 29 user@example.com, 26 example@email.com, 26 alice@example.com, 26 a@b.com, 11 u@x.com, … 1 user@realcompany.com — только тестовые | grep телефонов +49/+7/0049/0351 по *.md → пусто | wc -l .claude/query_log.jsonl .claude/hot_cards.json .claude/gap_queue.jsonl → 45 / 172 / 0; git ls-files .claude → все три отслеживаются | head -3 .claude/query_log.jsonl → {\"ts\": \"2026-05-14T04:14:25\", \"query\": \"агент память\", \"results\": 3, \"ms\": 661.6, \"source\": \"search\"} … | уникальные query: граф знаний, агент память, RAG retrieval, тест, поиск знаний, граф знаний AgentFS, граф, агент с памятью, Что такое Yodoca?, Yodoca консолидация, Yodoca | grep PII-термины .claude/hot_cards.json → 0 | git log --format=%ae → 34 коммита stefan.engel.de@gmail.com (метаданные), git log -S'stefan.engel' → пусто"
+  }
+ ],
+ "secrets-pii-1": [
+  {
+   "id": "secrets-pii-1",
+   "verdict": "partially_confirmed",
+   "severity": "critical",
+   "reason": "Сам факт утечки (K1) подтверждён: полный 93-символьный fine-grained PAT лежит в исходном markdown, трёх его obsidian/confluence-копиях, docs/index.html и MHTML, в истории 14 коммитов и 53 вхождения в диффах. Но «уточнение охвата» в основном ошибочно. (1) «Новые» файлы docs/chunks/*.jsonl и docs/passages.json НЕ содержат токен — только 9–20-символьный префикс `github_pat_11BUSYKPA`/`11BUSYKPA` из текста предупреждения («паттерн github_pat_11BUSYKPA — это стандартный префикс»); то же для CONCEPTS.md и его 3 копий. Полный токен есть ровно в тех 9 файлах, что уже перечислены в K1 (5 текстовых с полным токеном + 4 с префиксом) + MHTML — материально новых утечек нет. (2) Утверждение «CI пересоздаёт производные копии» не подтверждается: docs.yml:46 запускает `--group reports`, а improve_concepts.py входит в группу `extract`; ни один скрипт группы reports не пишет CONCEPTS.md, chunks, passages.json, obsidian/confluence или index.html; docs.yml:70 improve_search_index.py пишет docs/search_index.json, в котором токена нет вовсе; workflow открывает PR, а не пушит в main. (3) Замечание про `git add -f` неверно: уже отслеживаемые файлы в docs/obsidian/ коммитятся независимо от .gitignore (коммит b7529ef4 после добавления правила в 27b29501). (4) Номера строк index.html неверны (6564/221566 → фактически 5739/161941); «15 коммитов» — для префикса, для полного токена 14 (как в K1). (5) Impact завышен: по тексту самого документа (стр. 676–677) токен был fine-grained, ограничен 1–2 репозиториями и, вероятно, уже автоматически отозван GitHub; статус отзыва здесь не проверялся (сеть/использование токена исключены). Severity самой утечки по контракту остаётся critical, но как приращение к K1 находка даёт лишь: префикс-совпадения ещё в 4 файлах (важно для полноты чистки), 53 вхождения в истории, подтверждённое отсутствие других семейств токенов и отсутствие gitleaks/secret-scanning в репо. Предложенный fix корректен, но финальная проверка регенерации должна запускать группы extract/export/deeptext, а не reports.",
+   "evidence": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md:632 `**[Запрос]** github_pat_11BUSYKPA[REDACTED]…GFjYS` и :634 «Стоп. Немедленно аннулируйте этот токен…» — совпадает. `git -c core.quotepath=false grep -I -l '11BUSYKPA' -- . ':(exclude)Вакансии*' …` → 13 файлов (список совпадает), + MHTML = 14 tracked. НО `git grep -I -c -F \"<полный токен>\"` → только 5 файлов: источник (1), confluence-копия (1), confluence/obsidian-копия (1), docs/index.html (2: строки 5739, 161941), obsidian-копия (1); MHTML: 1 полное вхождение, 4 строки с `github_pat_`. Контекст в chunks: `grep -o '.{70}11BUSYKPA.{40}' docs/chunks/all_chunks.jsonl` → «…для вашего токена: паттерн githubpat11BUSYKPA — это стандартный пр…», «…найдите токен с префиксом 11BUSYKPA…»; docs/passages.json → «Найдите токен, начинающийся с github pat 11BUSYKPA...»; docs/CONCEPTS.md:4788 `**шего токена: паттерн github_pat_11BUSYKPA**`. История: `git log --all --oneline -S'github_pat_11BUSYKPA' | wc -l` → 15 (183c4e9f 2026-04-29 «Add files via upload» первый); `git log --all --oneline -S'<полный токен>' | wc -l` → 14; `git log --all -p | grep -a -o -F '<полный токен>' | wc -l` → 53 (префикс 'github_pat_11B' → 192). CI: .github/workflows/docs.yml:46 `run: python scripts/improve_run_all.py --fast --group reports`; :70 `run: python scripts/improve_search_index.py`; :100 `git add docs/ .claude/hot_cards.json .claude/skill_quality.json`, :106-120 `branch=\"auto/docs-metrics-…\"` + `gh pr create`. scripts/improve_run_all.py:72-83 группа \"extract\" содержит `\"improve_concepts.py\"`; :122-151 группа \"reports\" — qa, contacts, changelog, …, quality_patch — без concepts/chunk_semantic/passage_retrieval/obsidian/confluence/export_html. `grep -n -E 'improve_run_all|improve_concepts|improve_chunk_semantic|improve_passage_retrieval|improve_export_html|improve_obsidian|improve_confluence|claude-code-action' .github/workflows/*.yml` → только docs.yml:46. search_index.json отсутствует в списке файлов с токеном. .gitignore:9-10 `docs/obsidian/`, `docs/confluence/`; `git ls-files docs/obsidian docs/confluence | wc -l` → 3498; правило добавлено в 27b29501 (2026-05-14), а docs/obsidian/CONCEPTS.md затронут более поздним b7529ef4. Другие семейства токенов: regex (ghp_|gho_|sk-ant-|AKIA|xox[baprs]-|AIza|hf_|npm_|PRIVATE KEY|hooks.slack.com) по tracked tree → 0; `.gitleaks.toml` отсутствует, в .pre-commit-config.yaml и workflows нет gitleaks/detect-secrets/trufflehog. Источник :676-677: «Вы пишете, что токен ограничен одним-двумя репозиториями с ограниченными правами», «С высокой вероятностью GitHub уже автоматически отозвал этот токен»."
+  },
+  {
+   "id": "secrets-pii-1",
+   "verdict": "partially_confirmed",
+   "severity": "critical",
+   "reason": "Ручная проверка: git grep -l → 10 отслеживаемых файлов (9 текстовых + MHTML), а не 13; docs/chunks и docs/passages.json токена не содержат; 14 коммитов в истории. Ядро (утечка PAT в публичном репо и истории) подтверждено.",
+   "evidence": "git grep -l 'github_pat_11BUSYKPA' | wc -l → 10; git log --all -S… | wc -l → 14"
+  }
+ ],
+ "secrets-pii-2": [
+  {
+   "id": "secrets-pii-2",
+   "verdict": "confirmed",
+   "severity": "critical",
+   "reason": "Все процитированные строки существуют дословно, все количественные утверждения воспроизведены точно (296/75/199/124/71/112/61 файлов, 507/426 вхождений, 45 исходных файлов, 3 карточки + cards/index.json, счётчики MHTML). Данные о здоровье (GdB nn, Pflegegrad n), город, номера живых дел Sozialgericht <город> и ведомства-ответчики действительно растиражированы по ~300 отслеживаемым файлам публичного репозитория, включая индексы и карточки. Смягчений нет: .gitignore не исключает эти файлы, CI-гейта на PII нет, документы не помечены как намеренно публичные. Мелкие неточности не меняют вывод: «Макс Ц.» встречается в 20 файлах (21 с MHTML), а не в 40; счётчики «KSV Sachsen» (17) и «Sozialamt <город>» (13) в находке занижены — фактически 144 и 115 вхождений. Дополнительный материальный факт, усиливающий impact: поле author коммита 183c4e9f («Add files via upload») содержит личный gmail-адрес владельца — он не в содержимом файлов (там e-mail/IBAN/телефонов действительно нет: 0/0/0), но публично виден в `git log` клонированного репозитория и связывает ник svend4 с реальной личностью. Severity critical соответствует контракту (особые категории ПД + номера дел в публичном репо). Fix реалистичен; предлагаемый CI-гейт `GdB [0-9]+` сейчас не даст ложных срабатываний (в неп derived-docs встречается только «GdB nn», 38 раз), но плейсхолдеры для анонимизации должны быть без цифр, иначе гейт заблокирует и их.",
+   "evidence": "`sed -n '98p' docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` → «Личный контекст. GdB nn (инвалидность 70%), Pflegegrad n, живёт в <город>е, ведёт реальную судебную борьбу в Sozialgericht <город> (S n SO nnn/yy, S n SO nnn/yy), мультилингв…»; :702 «- Вы ведёте активное судебное дело, где противная сторона — немецкие социальные ведомства»; :704 «- Ваш медицинский статус (GdB nn, Pflegegrad n) создаёт vulnerability…». docs/02-anthropic-vacancies/00-intro.md:146 «…Sozialgericht <город>, живые дела (S n SO nnn/yy, S n SO nnn/yy)…». docs/02-anthropic-vacancies/133-обратная-связь.md:271 `\"aktenzeichen\": \"S n SO nnn/yy\",` и :327 «- Активные кейсы в Sozialgericht <город> (S n SO nnn/yy, S n SO nnn/yy)». docs/02-anthropic-vacancies/346-твоё-происхождение.md: «…бя создал **Макс Ц.** (svend4 на GitHub) — независим…». Счётчики (git grep по tracked, без MHTML): Sozialgericht → 296 файлов; «Sozialgericht <город>» → 75; «SG <город>» → 32 вхожд.; `S n SO nnn/yy|S n SO nnn/yy` → 199 файлов (507 / 426 вхожд.); с исключением obsidian/confluence/chunks/index.html/passages/search_index/semantic_index/export*/cards → 45; «GdB nn» → 124; «Pflegegrad n» → 71; «инвалидност» → 112; «userMemories» → 61; «KSV Sachsen» → 144 вхожд.; «Sozialamt <город>» → 115 вхожд.; «Макс Ц\\.» → 20 файлов (21 incl. MHTML). `grep -l -E 'S n SO nnn/yy|Sozialgericht <город>' cards/*.json` → cards/22f749e66bef051e.json, cards/7df386dc1e4c9ccf.json, cards/c258e58eff1ecad3.json, cards/index.json. MHTML «Вакансии…»: GdB=19, Pflegegrad=16, 'S 6 SO'=22, Sozialgericht=40; «Поиск коллабораций AI проектов»: Sozialgericht=8, 'S 6 SO'=2. PII-regex по docs/scripts/cards: email-like → 0, IBAN-like → 0, +49-phone → 0. `git show -s --format='%an | %ae' 183c4e9f` → author svend4 с личным gmail-адресом (адрес намеренно не цитируется). `git grep -o -h -E 'GdB [0-9]{2,3}'` (non-derived docs) → только «GdB nn» ×38. .gitignore не содержит правил для docs/02-anthropic-vacancies, cards/, docs/chunks; в .github/workflows/*.yml нет PII-гейта."
+  }
+ ],
+ "secrets-pii-3": [
+  {
+   "id": "secrets-pii-3",
+   "verdict": "partially_confirmed",
+   "severity": "medium",
+   "reason": "Факты о содержимом подтверждены: .claude/settings.json отслеживается, allow-список дословно совпадает (строки 4–23), секций deny/ask нет, в истории одна ревизия с тем же набором правил. Семантика подтверждена справочником настроек Claude Code: «Prefix wildcard: Bash(git *) — matches git, git status, git commit», т.е. `Bash(git push*)`, `Bash(python -c *)`, `Bash(ls*)` (матчит и `lsof`) действительно дают автоодобрение. Однако impact и причинно-следственная часть завышены/ошибочны. (1) Ни одна автоматизация в репозитории не запускает Claude Code: improve_watcher.py вызывает только `subprocess.run([sys.executable, str(path)])` для python-скриптов; ни один из 7 workflow не использует claude-code-action/claude CLI; enrich-docs.yml — ручной и тоже запускает python. Вектор «автономные improve_watcher.py» не существует; реальна лишь интерактивная или облачная (claude.ai/code) сессия, запущенная владельцем — такие сессии в истории есть. (2) Утверждение «именно тот сценарий, по которому PAT и PII попали в main» опровергается хронологией: MHTML с токеном загружен владельцем через веб-интерфейс GitHub (183c4e9f, author svend4, «Add files via upload»), а markdown/производные копии закоммичены Claude-сессиями в 03:19, 03:37, 03:57 UTC 2026-04-29 — ДО появления settings.json в cfdcd4e8 (05:54 UTC); после него только ed3fa81f (09:46). (3) Реалистичность: это личный репозиторий одного пользователя, который сознательно пред-одобрил команды; для эксплуатации нужен текст злоумышленника внутри docs/ (возможно через внешние импорты — github tracker, discovery-раунды) И сессия владельца, читающая его. Это условно эксплуатируемая слабость → medium; стала бы high при регулярных необслуживаемых облачных/scheduled-сессиях над внешне-источниковым контентом. Fix в целом корректен и ничего не ломает (лишние prompts), с оговорками: deny-правила с wildcard в середине (`Bash(python scripts/improve_*.py* --apply*)`) опираются на ту же mid-pattern-семантику, что уже используется в строке 5 — проверить в текущей версии Claude Code; `.claude/settings.local.json` сейчас не в .gitignore — нужно добавить.",
+   "evidence": "`cat -n .claude/settings.json` → строки 4 `\"Bash(python scripts/improve_*.py*)\"`, 10 `\"Bash(python -c *)\"`, 14 `\"Bash(git add scripts/* docs/* .claude/* *.md *.txt)\"`, 15 `\"Bash(git commit*)\"`, 16 `\"Bash(git push*)\"`, 19 `\"Bash(ls*)\"`, 21 `\"Bash(grep*)\"`, 22 `\"Bash(head*)\"`, 23 `\"Bash(tail*)\"`; ключей deny/ask/defaultMode нет. `git ls-files .claude/settings.json` → tracked; `.claude/settings.local.json` отсутствует; `grep -n settings.local .gitignore` → пусто. `git log --oneline --all -- .claude/settings.json` → единственный cfdcd4e8 «chore: add CLAUDE.md, requirements.txt, .claude/settings.json»; набор `\"Bash(...)\"` в истории идентичен текущему. Справочник Claude Code (skill update-config, раздел Permission Rule Syntax): «Prefix wildcard: \"Bash(git *)\" - matches git, git status, git commit, etc.». scripts/improve_watcher.py:63-66 `subprocess.run([sys.executable, str(path)], cwd=ROOT, capture_output=True, text=True, timeout=60)`; grep 'claude' в improve_watcher.py — только import subprocess, вызовов CLI нет. `grep -n -E 'claude-code-action|anthropics/claude|claude -p|claude --' .github/workflows/*.yml` → пусто; enrich-docs.yml: «Запуск: ТОЛЬКО ручной (workflow_dispatch)», шаги — python scripts/improve_see_also.py и др. Хронология: 183c4e9f | svend4 | 2026-04-29 | Add files via upload (MHTML с токеном); 91dd9685 | Claude | 2026-04-29 03:19:09 +0000; 4e7137c4 | 03:37:04; 1c9ceeaa | 03:57:21; cfdcd4e8 (settings.json) | 05:54:45; ed3fa81f | 09:46:47 — все с трейлером https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv. `grep -rn -l -E '\\bclaude (-p|--print|code)\\b|claude-code' tasks/ .claude/` → только копии в .claude/worktrees/ (gitignored), автоматизации CLI нет. `grep -n settings.json CLAUDE.md README.md` → пусто (намеренность allow-списка не задокументирована)."
+  }
+ ],
+ "security-gateway-mcp-1": [
+  {
+   "id": "security-gateway-mcp-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Воспроизведено через fastapi.testclient в worktree: POST /api/cards с section='../../tmp/lorenzo_traversal_probe' → 200, файл создан вне docs/.",
+   "evidence": "status 200 '✅ Карточка создана: docs/../../tmp/…'; файл найден в <scratchpad>/tmp/lorenzo_traversal_probe/audit-traversal-probe.md"
+  }
+ ],
+ "security-gateway-mcp-2": [
+  {
+   "id": "security-gateway-mcp-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Подтверждено по коду: scripts/mcp_server.py:1099 target = DOCS / section; :1166 filepath = ROOT / path_str без проверки границы; запись в :1188.",
+   "evidence": "grep -n 'DOCS / section\\|ROOT / path_str' scripts/mcp_server.py"
+  }
+ ],
+ "security-toolkit-1": [
+  {
+   "id": "security-toolkit-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Подтверждено по коду: diff/bulk.py:200 передаёт commit_a/commit_b в argv git без '--'; serve.py:204/1158 — /api/diff без аутентификации берёт from/to из query-string.",
+   "evidence": "sed -n 195,205p docs-toolkit/docstoolkit/diff/bulk.py; grep -n '/api/diff' docs-toolkit/docstoolkit/serve.py"
+  }
+ ],
+ "security-toolkit-2": [
+  {
+   "id": "security-toolkit-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Воспроизведено: PluginSandbox(SandboxPolicy(allow_builtins=[], allow_imports=[])).execute(код с __subclasses__ → BuiltinImporter.load_module('os')) → success=True, ошибки нет.",
+   "evidence": "execute -> SandboxResult(success=True, error='')"
+  }
+ ],
+ "ci-workflows-devx-1": [
+  {
+   "id": "ci-workflows-devx-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Воспроизведено в worktree: python scripts/improve_ci_config.py → docs.yml −70 строк (concurrency, timeout-minutes, pull-requests: write, lifecycle-шаги, gh pr create удалены), docs_check.yml −5.",
+   "evidence": "git diff --stat → 2 files changed, 4 insertions(+), 74 deletions(-)"
+  }
+ ],
+ "ci-workflows-devx-3": [
+  {
+   "id": "ci-workflows-devx-3",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "grep sys.exit/SystemExit в improve_broken_links/spellcheck/readability_v2/consistency → 0 вхождений; шаг 'Verify search index' не содержит сравнения.",
+   "evidence": "grep -c -E 'sys\\.exit\\(|SystemExit' → 0 для всех четырёх"
+  }
+ ],
+ "ci-workflows-devx-4": [
+  {
+   "id": "ci-workflows-devx-4",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Воспроизведены три команды job'а в worktree 2026-10-22: diff только в строках '_Обновлено: 2026-06-05_ → 2026-10-22_' в трёх .md → проверка FAIL.",
+   "evidence": "catalog-fresh: FAIL; 3 files changed, 3 insertions(+), 3 deletions(-)"
+  }
+ ],
+ "tests-health-1": [
+  {
+   "id": "tests-health-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Воспроизведено в основном чекауте: после pytest tests/ → 3852 изменённых файла (+445743/−219228); поимённая атрибуция в worktree: 33 тест-файла пишут в репозиторий (test_mcp_integration 3504, test_confluence 2332, test_mcp_export_server 1170, test_summaries 325, test_see_also 275 …).",
+   "evidence": "docs/audit/test_attribution_full.txt; docs/audit/test_run_changed_by_dir.txt"
+  }
+ ],
+ "tests-health-2": [
+  {
+   "id": "tests-health-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "python scripts/improve_mcp_test.py без mcp → Passed: 30, Failed: 0, exit=0; скрипт вызывает только dispatch().",
+   "evidence": "вывод improve_mcp_test.py; grep -n dispatch scripts/improve_mcp_test.py"
+  }
+ ],
+ "scripts-A-1": [
+  {
+   "id": "scripts-A-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Подтверждено по коду (скрипт намеренно не запускался): флаги через 'in sys.argv' (строки 24-36), _time_script запускает subprocess.run([python, script]) без --dry-run для всех групп run_all.",
+   "evidence": "sed -n 24,75p scripts/improve_benchmark.py"
+  }
+ ],
+ "scripts-A-2": [
+  {
+   "id": "scripts-A-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Дубликат ci-workflows-devx-1; воспроизведено (−70 строк docs.yml).",
+   "evidence": "см. ci-workflows-devx-1"
+  }
+ ],
+ "scripts-A-3": [
+  {
+   "id": "scripts-A-3",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Дубликат ci-workflows-devx-3; 0 sys.exit в гейт-скриптах.",
+   "evidence": "см. ci-workflows-devx-3"
+  }
+ ],
+ "toolkit-A-1": [
+  {
+   "id": "toolkit-A-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "docstoolkit/config.py:4 'import tomllib' без fallback; pyproject requires-python >=3.10.",
+   "evidence": "sed -n 1,5p docs-toolkit/docstoolkit/config.py; grep requires-python docs-toolkit/pyproject.toml"
+  }
+ ],
+ "toolkit-B-1": [
+  {
+   "id": "toolkit-B-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "pipeline.py:284 вызывает multi_agent_debate без answerer_fn; debate/result.py:206 подставляет lambda q,p,s: q[:100]; консенсус перезаписывает answer_text.",
+   "evidence": "inspect.signature(multi_agent_debate) → answerer_fn=None; sed -n 278,292p rag/pipeline.py"
+  }
+ ],
+ "toolkit-B-2": [
+  {
+   "id": "toolkit-B-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "pipeline.py:247 вызывает map_reduce_ask без answerer; mapreduce.py:165-166 берёт get_answerer(cfg.answerer) с дефолтом 'echo'.",
+   "evidence": "inspect.signature(map_reduce_ask); grep -n 'answerer is None' rag/mapreduce.py"
+  }
+ ],
+ "toolkit-B-6": [
+  {
+   "id": "toolkit-B-6",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Дубликат toolkit-A-1 (tomllib).",
+   "evidence": "см. toolkit-A-1"
+  }
+ ],
+ "toolkit-B-9": [
+  {
+   "id": "toolkit-B-9",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "python -m bench.runner --help → ValueError: unsupported format character '(' (0x28) at index 13.",
+   "evidence": "вывод команды в docs-toolkit/"
+  }
+ ],
+ "toolkit-docs-packaging-1": [
+  {
+   "id": "toolkit-docs-packaging-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Дубликат toolkit-A-1.",
+   "evidence": "см. toolkit-A-1"
+  }
+ ],
+ "toolkit-docs-packaging-2": [
+  {
+   "id": "toolkit-docs-packaging-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "serve.py:983 bind='127.0.0.1' по умолчанию; deployment.yaml:31, docker-compose.yml:31/51, Dockerfile.bge:60 не передают --bind.",
+   "evidence": "grep -rn 'serve' docs-toolkit/deploy …; grep -n 'bind' docs-toolkit/docstoolkit/serve.py"
+  }
+ ],
+ "toolkit-docs-packaging-3": [
+  {
+   "id": "toolkit-docs-packaging-3",
+   "verdict": "partially_confirmed",
+   "severity": "high",
+   "reason": "docstoolkit ingest --list-plugins → rc=2 (требует path), замаскировано '|| true' — подтверждено; doc list-templates в корне репо работает (rc=0), падает только вне репо (по данным искателя).",
+   "evidence": "docstoolkit ingest --list-plugins → 'error: the following arguments are required: path', rc=2"
+  }
+ ],
+ "toolkit-docs-packaging-4": [
+  {
+   "id": "toolkit-docs-packaging-4",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "action.yml:79-85: rc=$? после case…esac с пайпом в tee (без pipefail) → всегда код tee; exit только при fail-on-warnings=true.",
+   "evidence": "sed -n 60,95p docs-toolkit/action.yml"
+  }
+ ],
+ "ci-workflows-devx-10": [
+  {
+   "id": "ci-workflows-devx-10",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Та же конструкция action.yml (rc от tee); дополняет toolkit-docs-packaging-4.",
+   "evidence": "см. toolkit-docs-packaging-4"
+  }
+ ],
+ "docs-consistency-1": [
+  {
+   "id": "docs-consistency-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "grep -L argparse scripts/improve_*.py → 166 из 187 без argparse, 165 без литерала '--help'.",
+   "evidence": "grep -L 'argparse' scripts/improve_*.py | wc -l → 166"
+  }
+ ],
+ "docs-consistency-2": [
+  {
+   "id": "docs-consistency-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "improve_run_all.py:472-475 разбирает флаги через 'in args', литерала --help нет; без --group выполняется GROUP_ORDER начиная с группы structure.",
+   "evidence": "grep -n 'sys.argv\\|--help' scripts/improve_run_all.py"
+  }
+ ],
+ "docs-consistency-3": [
+  {
+   "id": "docs-consistency-3",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Дубликат ci-workflows-devx-1.",
+   "evidence": "см. ci-workflows-devx-1"
+  }
+ ],
+ "docs-consistency-4": [
+  {
+   "id": "docs-consistency-4",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Дубликат ci-workflows-devx-3.",
+   "evidence": "см. ci-workflows-devx-3"
+  }
+ ],
+ "dependencies-runtime-1": [
+  {
+   "id": "dependencies-runtime-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Дубликат toolkit-A-1.",
+   "evidence": "см. toolkit-A-1"
+  }
+ ],
+ "dependencies-runtime-2": [
+  {
+   "id": "dependencies-runtime-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "pyproject optional-dependencies: только mcp/llm/test/all; Dockerfile.bge:42 ставит [all,bge].",
+   "evidence": "grep -A6 optional-dependencies docs-toolkit/pyproject.toml; sed -n 40,43p docs-toolkit/Dockerfile.bge"
+  }
+ ],
+ "mcp-gateway-runtime-1": [
+  {
+   "id": "mcp-gateway-runtime-1",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "probe с mcp 1.30: resource_read на lorenzo-search/graph/templates/skills → McpError: 'AnyUrl' object has no attribute 'startswith'.",
+   "evidence": "<scratchpad>/mcp-runtime/probe_mcp1.json"
+  }
+ ],
+ "mcp-gateway-runtime-2": [
+  {
+   "id": "mcp-gateway-runtime-2",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "probe с mcp 1.30: prompt_get на 9 серверах → McpError: 15 validation errors for ServerResult (input_type=str).",
+   "evidence": "<scratchpad>/mcp-runtime/probe_mcp1.json"
+  }
+ ],
+ "mcp-gateway-runtime-3": [
+  {
+   "id": "mcp-gateway-runtime-3",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Дубликат tests-health-2; воспроизведено (30/30 без mcp).",
+   "evidence": "см. tests-health-2"
+  }
+ ],
+ "mcp-gateway-runtime-4": [
+  {
+   "id": "mcp-gateway-runtime-4",
+   "verdict": "confirmed",
+   "severity": "high",
+   "reason": "Дубликат security-gateway-mcp-1; воспроизведено.",
+   "evidence": "см. security-gateway-mcp-1"
+  }
+ ],
+ "mcp-gateway-runtime-7": [
+  {
+   "id": "mcp-gateway-runtime-7",
+   "verdict": "confirmed",
+   "severity": "medium",
+   "reason": "Атрибуция в worktree: tests/test_gateway.py изменяет docs/search_index.json и .claude/query_log.jsonl.",
+   "evidence": "docs/audit/test_attribution_full.txt"
+  }
+ ],
+ "mcp-gateway-runtime-17": [
+  {
+   "id": "mcp-gateway-runtime-17",
+   "verdict": "confirmed",
+   "severity": "info",
+   "reason": "probe с mcp 2.3.0: все 12 серверов падают на @server.list_tools().",
+   "evidence": "<scratchpad>/mcp-runtime/probe_mcp2.json"
+  }
+ ]
+}
