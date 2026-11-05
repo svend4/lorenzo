@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Темпоральные графы знаний для юридического RAG: SAT-Graph и point-in-time retrieval
+
+<!-- toc-auto -->
+<!-- tags: ekaterina-ya-temporal-knowledge-graph-legal-rag, docs -->
+
+
+<!-- summary -->
+> `ekaterina-ya-temporal-knowledge-graph-legal-rag` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -402,3 +416,11 @@ class LorenzoTemporalKnowledge:
 - Смежная (Graph RAG v3, R38): docs/06-discovery/round-38/
 - Смежная (Юридический RAG, R25): docs/06-discovery/round-25/
 - Смежная (Legal NLP, R22): docs/06-discovery/round-22/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

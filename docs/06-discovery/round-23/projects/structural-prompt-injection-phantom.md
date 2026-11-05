@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [orchestration, security, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Структурные инъекции в LLM-агентов — Phantom Framework (Tsinghua/Ant Group)
+
+<!-- toc-auto -->
+<!-- tags: structural-prompt-injection-phantom, docs -->
+
+
+<!-- summary -->
+> Автор: исследователи Tsinghua University + Ant Group Хабр: https://habr.com/ru/articles/1002608/
+Хабр: https://habr.com/ru/articles/1002608/  
+GitHub: не опубликован (академическое исследование, Phantom framework)  
+Слой: security / orchestration  
+Дата: 2025  
+Уникальность: Первое исследова
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -204,3 +223,11 @@ def safe_enrich_file(file_path: str) -> str:
 - Meta + OpenAI защита от prompt injection: https://habr.com/ru/articles/962818/
 - AI Security за 2025 год: https://habr.com/ru/articles/1000736/
 - LLM пентест 2026 (смежная, Solar R22): https://habr.com/ru/articles/1031380/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

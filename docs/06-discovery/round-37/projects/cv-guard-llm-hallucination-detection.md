@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [rag, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # CV как судья для LLM: трёхуровневая детекция галлюцинаций
+
+<!-- toc-auto -->
+<!-- tags: cv-guard-llm-hallucination-detection, docs -->
+
+
+<!-- summary -->
+> CV как судья для LLM: трёхуровневая детекция галлюцинаций — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -338,3 +356,11 @@ class LorenzoFactVerifier:
 - Смежная (почему LLM врут с умным видом): https://habr.com/ru/articles/944978/
 - Смежная (EICS метрика, white-box uncertainty): https://habr.com/ru/articles/1033580/
 - OpenCV: opencv.org
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

@@ -1,5 +1,18 @@
 # Workflow Checklist — пошаговая проверка CI
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `WORKFLOW_CHECKLIST` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: workflow-checklist, docs -->
+
+
+<!-- summary -->
+> `WORKFLOW_CHECKLIST` — раздел документации проекта Lorenzo.
+
+
 Чек-лист для ручной верификации всех 7 GitHub Actions workflow-файлов lorenzo
 после инцидента 2026-05-14. Каждый workflow запускается отдельно, под контролем
 оператора, без массового параллелизма.
@@ -353,3 +366,11 @@ git diff --stat
 - `docs/CI_COST_INCIDENT_2026-05-14.md` — постмортем инцидента 5441 мин
 - `.github/workflows/*.yml` — сами файлы
 - `scripts/verify_all_workflows.py` — локальный симулятор
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)

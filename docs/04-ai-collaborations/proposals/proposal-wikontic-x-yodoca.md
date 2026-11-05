@@ -3,7 +3,7 @@ title: "Proposal: Wikontic × Yodoca"
 date: 2026-05-13
 card_id: 3642746e5aa3
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, wikontic, yodoca, knowledge, memory, integration]
 projects: [wikontic, yodoca]
 similarity: 0.572
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Wikontic × Yodoca
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

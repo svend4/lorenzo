@@ -4,6 +4,8 @@ state: approved
 
 # 05 — Приоритеты: что делать прямо сейчас
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Финальный документ серии. Конкретный sprint-план для 3 разных стратегий.
 
@@ -334,3 +336,10 @@ Self-RAG и Knowledge Graph дают reasoning differentiation без enormous r
 - [03-INNOVATIVE](03-INNOVATIVE.md)
 - [04-NOVEL](04-NOVEL.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_05_priorities.py
+```

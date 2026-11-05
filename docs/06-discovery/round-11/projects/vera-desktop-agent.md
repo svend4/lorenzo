@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [orchestration, ingestion, local-first, architecture, roadmap]
+state: normalized
+---
+
 # Vera — минималистичный локальный десктопный агент
+
+<!-- toc-auto -->
+<!-- tags: vera-desktop-agent, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья декабрь 2025) Хабр: https://habr.com/ru/articles/972260/
+Хабр: https://habr.com/ru/articles/972260/  
+GitHub: не найден явно — уточнить  
+Слой: desktop-agent / local / privacy  
+Дата: декабрь 2025  
+Уникальность: Полностью открытый и локальный десктопный агент на l
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -59,3 +78,17 @@ Vera — наименьший возможный desktop agent: один про�
 
 - Статья: https://habr.com/ru/articles/972260/ (декабрь 2025)
 - ⚠️ Нужно найти GitHub через профиль автора
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_vera_desktop_agent.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

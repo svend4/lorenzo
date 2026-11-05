@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Proposal: Agentfs × Rufler
+
+
+<!-- summary -->
+> Раздел proposal-agentfs-x-rufler-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-agentfs-x-rufler-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Agentfs) и orchestration-слоя (Rufler): Agentfs предоставляет файловую си -->
 <!-- tags: proposal, agentfs, rufler, knowledge, orchestration, integration -->
@@ -29,3 +42,10 @@ Proposal представляет стратегическую интеграц�
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-agentfs-x-rufler](docs\04-ai-collaborations\proposals\proposal-agentfs-x-rufler.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_agentfs_x_rufler_enriched.py
+```

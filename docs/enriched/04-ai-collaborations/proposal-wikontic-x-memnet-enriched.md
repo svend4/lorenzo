@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Proposal: Wikontic × Memnet
+
+
+<!-- summary -->
+> Раздел proposal-wikontic-x-memnet-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-wikontic-x-memnet-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Wikontic) и memory-слоя (Memnet): Wikontic обеспечивает персистентную пам -->
 <!-- tags: proposal, wikontic, memnet, knowledge, memory, integration -->
@@ -31,3 +44,10 @@ Proposal служит концептуальным и архитектурным
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-wikontic-x-memnet](docs\04-ai-collaborations\proposals\proposal-wikontic-x-memnet.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_wikontic_x_memnet_enriched.py
+```

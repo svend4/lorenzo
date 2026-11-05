@@ -1,15 +1,29 @@
 ---
+state: normalized
 author: tagir_analyzes
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [rag, knowledge, ingestion, architecture, self-improve]
 ---
 
 # Черновик сообщения — tagir_analyzes (GitHub)
+<!-- tags: tagir-analyzes-draft, docs -->
+
 
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Улучшенное сообщение (LLM, 2026-05-29)
+С уважением,
+svend4
+ --
+Смотрите также:
+ Cutcode_draft
+ Dmitriila_draft
+ VladSpace_draft
+ nlaik_draft
+ 
+Улучшенное сообщение (LLM, 2026-05-29)
 **Проекты:** Svyazi, Legal RAG
 
 ---

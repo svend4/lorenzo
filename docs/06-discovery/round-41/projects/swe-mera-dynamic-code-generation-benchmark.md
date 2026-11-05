@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, ingestion, architecture, self-improve]
+state: normalized
+---
+
 # SWE-MERA: динамический бенчмарк агентной генерации кода
+
+<!-- toc-auto -->
+<!-- tags: swe-mera-dynamic-code-generation-benchmark, docs -->
+
+
+<!-- summary -->
+> `swe-mera-dynamic-code-generation-benchmark` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -234,3 +248,10 @@ class LorenzoDynamicEval:
 - Aider: aider.chat
 - Смежная (multilingual SWE-bench, Doubletapp): https://habr.com/ru/companies/doubletapp/articles/916388/
 - Смежная (LLM unit-test generation, VK): https://habr.com/ru/companies/vk/articles/921410/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

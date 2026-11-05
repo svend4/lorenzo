@@ -3,7 +3,7 @@ title: "Proposal: Mclaude × Rufler"
 date: 2026-05-13
 card_id: 4c8b591921ba
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, mclaude, rufler, orchestration, orchestration, integration]
 projects: [mclaude, rufler]
 similarity: 0.415
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Mclaude × Rufler
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

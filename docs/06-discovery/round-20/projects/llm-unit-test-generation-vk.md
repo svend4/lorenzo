@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [rag, ingestion, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # Генерация юнит-тестов с LLM — пайплайн Одноклассников
+
+<!-- toc-auto -->
+<!-- tags: llm-unit-test-generation-vk, docs -->
+
+
+<!-- summary -->
+> Автор: команда Одноклассники (VK), инженеры backend Хабр: https://habr.com/ru/companies/vk/articles/921410/
+Хабр: https://habr.com/ru/companies/vk/articles/921410/  
+GitHub: не опубликован (внутренний инструмент, архитектура описана полностью)  
+Слой: orchestration / quality / knowledge  
+Дата: июнь 202
+
 
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
@@ -152,3 +170,10 @@ for script in glob("scripts/improve_*.py"):
 - Pitest (Java mutation testing): https://pitest.org
 - pytest-mutagen: https://github.com/Tejaswi-Goel/pytest-mutagen
 - Meta TestGen-LLM paper: arxiv.org/abs/2402.09171
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

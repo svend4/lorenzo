@@ -3,7 +3,7 @@ title: "Proposal: Agentfs × Memnet"
 date: 2026-05-13
 card_id: 77f2ffc996e6
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, agentfs, memnet, knowledge, memory, integration]
 projects: [agentfs, memnet]
 similarity: 0.100

@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Авторы и контакты
+
+
+<!-- summary -->
+> Раздел 02-collaboration-partners-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `02-collaboration-partners-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: автора статьи выше подобных авторов подобных разработчиков или ещё может быть или может быть даже не -->
 <!-- tags: knowledge, ingestion, collaboration -->
@@ -27,3 +40,10 @@
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [02-collaboration-partners](docs\05-habr-projects\02-collaboration-partners.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_02_collaboration_partners_enriched.py
+```

@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [memory, rag, ingestion, local-first, architecture]
+state: normalized
+---
+
 # Self-hosted AI Platform (Open WebUI + Qdrant + Whisper)
+
+<!-- toc-auto -->
+<!-- tags: self-hosted-ai-platform, docs -->
+
+
+<!-- summary -->
+> Автор: неизвестен (статья декабрь 2025) Хабр: https://habr.com/ru/articles/973456/
+Хабр: https://habr.com/ru/articles/973456/  
+GitHub: не найден явно  
+Слой: infrastructure / self-hosted / RAG  
+Дата: декабрь 2025  
+Уникальность: Полный self-hosted AI стек с бенчмарками и ROI-расчётом: Lla
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -49,3 +68,17 @@ Lorenzo уже имеет `gateway.py` (OpenAI-compatible API на порту 80
 
 - Статья: https://habr.com/ru/articles/973456/ (декабрь 2025)
 - ⚠️ Нужно найти GitHub через профиль автора
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_self_hosted_ai_platform.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

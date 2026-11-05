@@ -1,15 +1,34 @@
 ---
+state: normalized
 author: AnastasiyaW
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [orchestration, knowledge, ingestion, architecture, roadmap]
 ---
 
 # Черновик сообщения — AnastasiyaW (GitHub)
 
+<!-- toc-auto -->
+<!-- tags: anastasiyaw-draft, docs -->
+
+
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (3):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Sonia_Black_draft
+ Cutcode_draft
+ Dmitriila_draft
+ VladSpace_draft
+ --
+Кто ссылается на этот документ (3):
+ DIGEST_AUTO
+ READING_TIME
+ Sonia_Black_draf
 **Проекты:** Svyazi, knowledge-space, mclaude
 
 ---

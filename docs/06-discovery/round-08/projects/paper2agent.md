@@ -1,4 +1,21 @@
+---
+state: normalized
+---
+
 # Paper2Agent (научные статьи → AI-агенты)
+
+<!-- toc-auto -->
+<!-- tags: paper2agent, docs -->
+
+
+<!-- summary -->
+> Автор: @jmiao24 (Stanford) Хабр: https://habr.com/ru/articles/945582/ GitHub: https://github.com/jmiao24/Paper2Agent
+Хабр: https://habr.com/ru/articles/945582/  
+GitHub: https://github.com/jmiao24/Paper2Agent  
+Слой: ingestion / scientific / MCP  
+Зрелость: research release, активный  
+Уникальность: Конвертирует PDF-статьи в интерактивн
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -53,3 +70,10 @@ Paper2Agent — следующий уровень: статья становит
 
 - GitHub: https://github.com/jmiao24/Paper2Agent
 - Deploy: Hugging Face Spaces (встроенная поддержка)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

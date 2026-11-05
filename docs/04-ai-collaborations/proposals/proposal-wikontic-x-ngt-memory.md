@@ -3,7 +3,7 @@ title: "Proposal: Wikontic × Ngt-Memory"
 date: 2026-05-13
 card_id: c2f631d59016
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, wikontic, ngt-memory, knowledge, memory, integration]
 projects: [wikontic, ngt-memory]
 similarity: 0.216
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Wikontic × Ngt-Memory
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

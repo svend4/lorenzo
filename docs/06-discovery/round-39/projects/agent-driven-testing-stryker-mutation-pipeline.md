@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, ingestion, architecture, roadmap]
+state: normalized
+---
+
 # Agent Driven Development: LLM + Stryker мутационное тестирование
+
+<!-- toc-auto -->
+<!-- tags: agent-driven-testing-stryker-mutation-pipeline, docs -->
+
+
+<!-- summary -->
+> `agent-driven-testing-stryker-mutation-pipeline` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -337,3 +351,11 @@ class LorenzoTestPipeline:
 - Смежная (11-агентный QA пайплайн): https://habr.com/ru/articles/1019656/
 - Смежная (VK AST-based unit test gen): https://habr.com/ru/companies/vk/articles/921410/
 - Смежная (Яндекс VLM для E2E тестов): https://habr.com/ru/companies/yandex/articles/970428/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

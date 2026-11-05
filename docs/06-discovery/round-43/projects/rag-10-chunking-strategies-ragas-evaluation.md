@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # RAG высоконагруженных систем: 10 стратегий чанкинга + RAGAS оценка
+
+<!-- toc-auto -->
+<!-- tags: rag-10-chunking-strategies-ragas-evaluation, docs -->
+
+
+<!-- summary -->
+> `rag-10-chunking-strategies-ragas-evaluation` — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -349,3 +363,11 @@ class LorenzoAdaptiveChunker:
 - Weaviate: weaviate.io
 - Смежная (Graph RAG + Skeleton Indexing, VladSpace): https://habr.com/ru/articles/1003064/
 - Смежная (Agentic RAG eval, Stryker Testing аналог): https://habr.com/ru/articles/918548/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

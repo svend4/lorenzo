@@ -13,6 +13,8 @@ source: proposal-gen
 
 # Proposal: Research-Docs-Liteparse × Agentfs
 
+<!-- toc-auto -->
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 

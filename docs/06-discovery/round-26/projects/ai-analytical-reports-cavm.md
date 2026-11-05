@@ -1,4 +1,29 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, ingestion, architecture]
+state: normalized
+---
+
 # AI-агенты пишут аналитические отчёты: CAVM framework
+
+<!-- toc-auto -->
+<!-- tags: ai-analytical-reports-cavm, docs -->
+
+
+<!-- summary -->
+> Проблема: аналитический отчёт = многошаговый процесс CAVM: Code Agent with Variable Memory
+ 
+CAVM: Code Agent with Variable Memory
+ 
+Архитектура мультиагентной аналитики
+ 
+Верификация через специализированные агенты
+ 
+Применение в финансовой аналитике
+ 
+Применение к Lorenzo
+Lorenzo имеет
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -193,3 +218,10 @@ class LorenzoReportPipeline:
 - Смежная (AI-агенты в аналитике, 2 production проекта): https://habr.com/ru/articles/970790/
 - Смежная (как аналитики используют ИИ, Яндекс Практикум): https://habr.com/ru/companies/yandex_praktikum/articles/1004550/
 - Code Interpreter / Jupyter-style execution: jupyter.org
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

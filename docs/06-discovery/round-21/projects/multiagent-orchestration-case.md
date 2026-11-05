@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # Оркестрация агентов 2026 — кейс: 3 агента вместо отдела из 5 человек
+
+<!-- toc-auto -->
+<!-- tags: multiagent-orchestration-case, docs -->
+
+
+<!-- summary -->
+> Оркестрация агентов 2026 — кейс: 3 агента вместо отдела из 5 человек — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -145,3 +163,10 @@ Lorenzo = оркестрация 159+ скриптов.
 - Смежная (Оркестрация в мультиагентных системах + BPMN): https://habr.com/ru/companies/domclick/articles/966066/
 - Смежная (Мультиагенты — скрытые монолиты): https://habr.com/ru/companies/otus/articles/986962/
 - BPMN 2.0: omg.org/spec/BPMN
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

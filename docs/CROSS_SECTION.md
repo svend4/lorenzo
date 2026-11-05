@@ -1,5 +1,13 @@
 # Кросс-секционный анализ
 
+<!-- toc-auto -->
+<!-- tags: cross-section, docs -->
+
+
+<!-- summary -->
+> `CROSS_SECTION` — раздел документации проекта Lorenzo.
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -364,3 +372,14 @@ _Для каждого концепта — TF-IDF вес в каждой сек
 - [SEARCH](SEARCH.md)
 - _...ещё 4_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_cross_section.py
+```
+```bash
+# Вариант 2
+python scripts/improve_cross_section.py --dry-run
+```

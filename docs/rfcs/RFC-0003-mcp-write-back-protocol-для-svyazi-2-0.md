@@ -12,6 +12,10 @@ tags: [architecture, rfc, mcp, write-back, protocol]
 
 # RFC-0003: MCP Write-back Protocol для Svyazi 2.0
 
+<!-- toc-auto -->
+<!-- tags: rfc-0003-mcp-write-back-protocol-для-svyazi-2-0, docs -->
+
+
 <!-- summary -->
 > title: "MCP Write-back Protocol для Svyazi 2.0"
 **Проекты:** Svyazi

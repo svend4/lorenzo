@@ -1,5 +1,7 @@
 # Lorenzo — План развития: технический аудит и следующие шаги
 
+<!-- toc-auto -->
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -795,3 +797,10 @@ _Документ составлен на основе аудита: PROTOTYPE_S
 - [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
 - [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md)
 
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

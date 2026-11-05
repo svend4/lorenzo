@@ -3,7 +3,7 @@ title: "Proposal: Knowledge-Space × Mclaude"
 date: 2026-05-13
 card_id: c9c4af732973
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, knowledge-space, mclaude, knowledge, orchestration, integration]
 projects: [knowledge-space, mclaude]
 similarity: 0.391
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Knowledge-Space × Mclaude
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

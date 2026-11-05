@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # SocratiCode (MCP-сервер понимания кодовой базы)
+
+<!-- toc-auto -->
+<!-- tags: socraticode, docs -->
+
+
+<!-- summary -->
+> SocratiCode подключается как MCP → Claude Code получает полную карту кодовой базы:  
+«какие скрипты касаются NER», «что сломается если изменить  ».
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -51,3 +64,17 @@ SocratiCode подключается как MCP → Claude Code получает
 - GitHub: https://github.com/giancarloerra/SocratiCode
 - npm: https://www.npmjs.com/package/socraticode
 - Хабр: https://habr.com/ru/articles/1031878/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_socraticode.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

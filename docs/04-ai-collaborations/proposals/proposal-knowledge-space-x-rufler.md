@@ -3,7 +3,7 @@ title: "Proposal: Knowledge-Space × Rufler"
 date: 2026-05-13
 card_id: 433b5d48c942
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, knowledge-space, rufler, knowledge, orchestration, integration]
 projects: [knowledge-space, rufler]
 similarity: 0.264
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Knowledge-Space × Rufler
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
