@@ -1,4 +1,21 @@
+---
+date: 2026-06-05
+tags: [rag, knowledge, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # HabrSearch (Semantic Habr)
+<!-- tags: habr-search, docs -->
+
+
+<!-- summary -->
+> Автор: igor_suhorukov (Habr-профиль) Хабр: https://habr.com/ru/articles/915348/ GitHub: не найден явно (проект на Java/Spring Boot, возможно в профиле автора)
+Хабр: https://habr.com/ru/articles/915348/  
+GitHub: не найден явно (проект на Java/Spring Boot, возможно в профиле автора)  
+Слой: search / ingestion / knowledge-index  
+Дата: июнь 2025  
+Уникальность: Семантич
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -36,3 +53,17 @@ Svyazi уже хранит 2483 документа в search_index.json и ис�
 ## Контакт
 
 - Habr: https://habr.com/ru/users/igor_suhorukov/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_habr_search.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

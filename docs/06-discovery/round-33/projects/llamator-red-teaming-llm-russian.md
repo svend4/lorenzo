@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, security, knowledge, ingestion]
+state: normalized
+---
+
 # LLAMATOR: Red Teaming фреймворк для тестирования уязвимостей LLM
+
+<!-- toc-auto -->
+<!-- tags: llamator-red-teaming-llm-russian, docs -->
+
+
+<!-- summary -->
+> Автор: nizamovtimur (Тимур Низамов), ITMO AI Talent Hub / Raft Digital Solution Хабр: https://habr.com/ru/articles/851640/
+Хабр: https://habr.com/ru/articles/851640/  
+GitHub: https://github.com/RomiconEZ/LLaMator  
+Слой: analytics / orchestration  
+Дата: октябрь 2024  
+Уникальность: Единст
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -358,3 +377,11 @@ class LorenzoLLMSecurityTest:
 - Смежная (Red Teaming пошаговое руководство): https://habr.com/ru/articles/880234/
 - ps-fuzz (основа): github.com/prompt-security/ps-fuzz
 - Lakera Gandalf: gandalf.lakera.ai
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

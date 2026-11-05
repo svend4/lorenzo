@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Proposal: Agentfs × Memnet
+
+
+<!-- summary -->
+> Раздел proposal-agentfs-x-memnet-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-agentfs-x-memnet-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Agentfs) и memory-слоя (Memnet): Agentfs обеспечивает персистентную памят -->
 <!-- tags: proposal, agentfs, memnet, knowledge, memory, integration -->
@@ -27,3 +40,10 @@ Proposal является частью архитектурной концепц
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-agentfs-x-memnet](docs\04-ai-collaborations\proposals\proposal-agentfs-x-memnet.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_agentfs_x_memnet_enriched.py
+```

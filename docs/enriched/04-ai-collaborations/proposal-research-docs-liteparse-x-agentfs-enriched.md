@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [rag, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Proposal: Research-Docs-Liteparse × Agentfs
+
+
+<!-- summary -->
+> Раздел proposal-research-docs-liteparse-x-agentfs-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-research-docs-liteparse-x-agentfs-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция ingestion-слоя (Research-Docs-Liteparse) и knowledge-слоя (Agentfs): Research-Docs-Litepa -->
 <!-- tags: proposal, research-docs-liteparse, agentfs, ingestion, knowledge, integration -->
@@ -29,3 +44,10 @@ Proposal по интеграции ingestion-слоя (Research-Docs-Liteparse) 
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-research-docs-liteparse-x-agentfs](docs\04-ai-collaborations\proposals\proposal-research-docs-liteparse-x-agentfs.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_research_docs_liteparse_x_agentfs_enriched.py
+```

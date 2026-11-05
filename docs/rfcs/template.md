@@ -1,4 +1,5 @@
 ---
+state: normalized
 rfc: NNNN
 title: "RFC Title"
 status: Draft
@@ -10,6 +11,8 @@ tags: [architecture, rfc]
 ---
 
 # RFC-NNNN: RFC Title
+<!-- tags: template, docs -->
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

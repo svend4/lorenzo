@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [knowledge, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # Proposal: 01-Synthesis × Wikontic
+
+
+<!-- summary -->
+> Раздел proposal-01-synthesis-x-wikontic-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-01-synthesis-x-wikontic-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция unknown-слоя (01-Synthesis) и knowledge-слоя (Wikontic): 01-Synthesis и Wikontic — взаимо -->
 <!-- tags: proposal, 01-synthesis, wikontic, unknown, knowledge, integration -->
@@ -31,3 +46,10 @@ Proposal встроена в слой proposal-gen и демонстрирует
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-01-synthesis-x-wikontic](docs\04-ai-collaborations\proposals\proposal-01-synthesis-x-wikontic.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_01_synthesis_x_wikontic_enriched.py
+```

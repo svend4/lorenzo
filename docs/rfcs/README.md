@@ -1,10 +1,17 @@
 ---
 date: 2026-05-13
 tags: [memory, ingestion, local-first, architecture]
-state: raw
+state: normalized
 ---
 
 # RFC Index — Svyazi 2.0
+
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
 
 
 <!-- summary -->

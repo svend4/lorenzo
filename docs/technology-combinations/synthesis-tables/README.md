@@ -1,3 +1,7 @@
+---
+state: normalized
+---
+
 # synthesis-tables
 
 > [!NOTE]
@@ -8,7 +12,9 @@
 
 
 <!-- summary -->
-> synthesis-tables
+> > synthesis-tables
+> [!NOTE]
+> Раздел   формируется автоматически из данных репозитория.
 > [!NOTE]
 > Раздел   формируется автоматически из данных репозитория.
 

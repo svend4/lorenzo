@@ -3,7 +3,7 @@ title: "Proposal: Knowledge-Space × Ngt-Memory"
 date: 2026-05-13
 card_id: d3e98e696a25
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, knowledge-space, ngt-memory, knowledge, memory, integration]
 projects: [knowledge-space, ngt-memory]
 similarity: 0.135
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Knowledge-Space × Ngt-Memory
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

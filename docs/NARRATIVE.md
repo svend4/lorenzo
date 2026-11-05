@@ -1,5 +1,9 @@
 # Нарратив проекта Lorenzo
 
+<!-- toc-auto -->
+<!-- tags: narrative, docs -->
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -180,3 +184,10 @@ _Полная дорожная карта: [01-svyazi/12-roadmap.md](01-svyazi/1
 - [OUTLINE](OUTLINE.md)
 - _...ещё 7_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_narrative.py
+```

@@ -1,4 +1,27 @@
+---
+date: 2026-06-05
+tags: [orchestration, ingestion, architecture, collaboration]
+state: normalized
+---
+
 # TRAIL Spec + telegram-api-mcp
+
+<!-- toc-auto -->
+<!-- tags: trail-spec-telegram-mcp, docs -->
+
+
+<!-- summary -->
+> Статья: https://habr.com/ru/articles/1019652/ (апрель 2026) Документ создан на основе исследования.
+ Статья: https://habr.com/ru/articles/1019652/ (апрель 2026)
+Использование
+ 
+Смотрите также
+ Главная
+ Метрики
+ Здоровье
+ Глоссарий
+ Сущности
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -48,3 +71,17 @@
 ## Контакт
 
 - Статья: https://habr.com/ru/articles/1019652/ (апрель 2026)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_trail_spec_telegram_mcp.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

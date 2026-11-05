@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Wikontic: семантический граф
+
+
+<!-- summary -->
+> Раздел wikontic-enriched формируется автоматически из данных репозитория. Wikontic — проект по созданию семантического графа, разрабатываемый Аллой Чепуровой (AIRI, лаборатория Cognitive AI Systems).
+
+> [!NOTE]
+> Раздел `wikontic-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi -->
 <!-- tags: ingestion, collaboration -->
@@ -32,3 +45,10 @@ Wikontic относится к слою ingestion и решает проблем
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [wikontic](docs\05-habr-projects\knowledge\wikontic.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_wikontic_enriched.py
+```

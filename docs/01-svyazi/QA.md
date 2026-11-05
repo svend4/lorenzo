@@ -1,7 +1,3 @@
----
-state: normalized
----
-
 # Q&A: 01-svyazi
 
 > [!NOTE]
@@ -12,7 +8,7 @@ state: normalized
 
 
 <!-- summary -->
-> Раздел QA формируется автоматически из данных репозитория. Упоминаются: cardindex, card_id, state, hash, dedup Кто ссылается на этот документ (6): _Автоматически сгенерировано по 14 файлам раздела._
+> Раздел QA формируется автоматически из данных репозитория. Упоминаются: первый вопрос, архитектурный, шаблон, контакт
 Использование
  
 Смотрите также
@@ -21,14 +17,6 @@ state: normalized
  Здоровье
  Глоссарий
  Сущности
- --
-Кто ссылается на этот документ (6):
- README
- OUTLINE
- READABILITY
- READING_TIME
- SEARCH
- TABLES
 
 
 _Автоматически сгенерировано по 14 файлам раздела._
@@ -39,7 +27,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Как реализован forensic RAG с доказуемостью?
 
@@ -47,7 +35,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -81,18 +69,6 @@ _Автоматически сгенерировано по 14 файлам ра
 
 Упоминаются: **первый вопрос**, **архитектурный**, **шаблон**, **контакт**
 
-## Как работает AgentFS и что такое .agentos?
-
-Упоминаются: **agentos**, **vault**, **compile**, **persistent state**
-
-## Что такое knowledge-space и для кого он предназначен?
-
-Упоминаются: **reference card**, **agent-readable**, **785**, **gotcha**
-
-## Как CardIndex хранит и версионирует карточки?
-
-Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
-
 
 ## Использование
 ```bash
@@ -106,16 +82,3 @@ python scripts/improve_qa.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [README](README.md)
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-

@@ -1,4 +1,21 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, ingestion, local-first]
+state: normalized
+---
+
 # Мультимодальные LLM: зачем бизнесу модели которые видят, слышат и понимают
+
+<!-- toc-auto -->
+<!-- tags: multimodal-llm-vision-audio-text, docs -->
+
+
+<!-- summary -->
+> Автор: Александр Капитанов (руководитель ML-команд Сбер AI), интервью Highload++, июнь 2025  
+Хабр: https://habr.com/ru/companies/oleg-bunin/articles/914848/  
+GitHub: не применимо (production архитектура Сбер)  
+Слой: orchestration / ingestion / ana
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -239,3 +256,10 @@ class LorenzoVLMAnalyzer:
 - Смежная (CAVM Visual Checker R26): https://habr.com/ru/articles/960338/
 - AGE-VLM paper: arxiv.org/abs/2412.18083
 - LLaVA (open-source VLM): github.com/haotian-liu/LLaVA
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

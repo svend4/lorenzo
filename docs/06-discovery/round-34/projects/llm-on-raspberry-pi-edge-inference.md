@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, security, knowledge]
+state: normalized
+---
+
 # Как запустить LLM на Raspberry Pi 5: GGUF квантизация и Edge inference
+
+<!-- toc-auto -->
+<!-- tags: llm-on-raspberry-pi-edge-inference, docs -->
+
+
+<!-- summary -->
+> Как запустить LLM на Raspberry Pi 5: GGUF квантизация и Edge inference — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -269,3 +287,11 @@ LORENZO_EDGE_CONFIG = {
 - llama.cpp (GGUF runtime): github.com/ggerganov/llama.cpp
 - Смежная (Ollama vs vLLM vs llama.cpp): https://habr.com/ru/articles/948934/
 - Смежная (EdgeAI 2024/2025 how-to): https://habr.com/ru/companies/recognitor/articles/846936/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

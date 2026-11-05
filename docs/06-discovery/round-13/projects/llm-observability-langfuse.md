@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [orchestration, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # LLM Observability Pattern — AI анализирует AI с Langfuse
+
+<!-- toc-auto -->
+<!-- tags: llm-observability-langfuse, docs -->
+
+
+<!-- summary -->
+> Автор: независимый разработчик (Хабр) Хабр: https://habr.com/ru/articles/987230/
+Хабр: https://habr.com/ru/articles/987230/  
+GitHub: https://github.com/langfuse/langfuse (Langfuse core, MIT)  
+Слой: orchestration / observability / monitoring  
+Дата: 2025–2026  
+Уникальность: Паттерн «AI ан
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -74,3 +93,10 @@ audit.db → LLM-analyzer → аномалии → ALERTS.md
 - Большой гайд: https://habr.com/ru/articles/972480/
 - Langfuse GitHub: https://github.com/langfuse/langfuse (MIT, 18k+ stars)
 - Self-hosted: docker compose up (Postgres + Next.js + Python worker)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

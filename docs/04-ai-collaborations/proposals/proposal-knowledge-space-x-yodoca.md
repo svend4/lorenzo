@@ -3,7 +3,7 @@ title: "Proposal: Knowledge-Space × Yodoca"
 date: 2026-05-13
 card_id: 32d7ac3f8fb7
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, knowledge-space, yodoca, knowledge, memory, integration]
 projects: [knowledge-space, yodoca]
 similarity: 0.112
@@ -12,6 +12,8 @@ source: proposal-gen
 ---
 
 # Proposal: Knowledge-Space × Yodoca
+
+<!-- toc-auto -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

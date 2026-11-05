@@ -1,4 +1,19 @@
+---
+state: normalized
+---
+
 # PocketCoder
+<!-- tags: pocketcoder, docs -->
+
+
+<!-- summary -->
+> Автор: Дмитрий Чащин / @Chashchin-Dmitry Хабр: https://habr.com/ru/articles/991022/
+Хабр: https://habr.com/ru/articles/991022/  
+GitHub: https://github.com/Chashchin-Dmitry/pocketcoder  
+Слой: orchestration / coding-agent  
+Дата статьи: февраль 2026  
+Уникальность: Coding agent, заточенный
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -34,3 +49,17 @@ Svyazi нужен coding layer — агент, который может пис�
 
 - GitHub: https://github.com/Chashchin-Dmitry
 - Комментарии к статье: https://habr.com/ru/articles/991022/
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_pocketcoder.py
+```
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)

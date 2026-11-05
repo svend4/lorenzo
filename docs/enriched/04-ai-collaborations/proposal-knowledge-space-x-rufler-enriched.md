@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Proposal: Knowledge-Space × Rufler
+
+
+<!-- summary -->
+> Раздел proposal-knowledge-space-x-rufler-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-knowledge-space-x-rufler-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Knowledge-Space) и orchestration-слоя (Rufler): Knowledge-Space предостав -->
 <!-- tags: proposal, knowledge-space, rufler, knowledge, orchestration, integration -->
@@ -29,3 +44,10 @@ Proposal является исследовательским заданием н
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-knowledge-space-x-rufler](docs\04-ai-collaborations\proposals\proposal-knowledge-space-x-rufler.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_knowledge_space_x_rufler_enriched.py
+```

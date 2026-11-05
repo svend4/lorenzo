@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # mclaude
+
+
+<!-- summary -->
+> Раздел mclaude-enriched формируется автоматически из данных репозитория. Проект многоагентной оркестрации, предназначенный для координации параллельного выполнения задач несколькими агентами.
+
+> [!NOTE]
+> Раздел `mclaude-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel] Докумен -->
 <!-- tags: mclaude, multi-agent, orchestration, claude-code, parallel, locks, handoff, mailbox, shared-memory -->
@@ -33,3 +48,10 @@ mclaude является центральным компонентом слоя 
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [mclaude](docs\05-habr-projects\knowledge\mclaude.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_mclaude_enriched.py
+```

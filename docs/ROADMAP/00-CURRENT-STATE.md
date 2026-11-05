@@ -4,6 +4,8 @@ state: approved
 
 # 00 — Текущее состояние Lorenzo / Knowledge OS
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений. Проекты: AgentFS, Yodoca, NGT Memory Модулей: ~30 в docs-toolkit/docstoolkit/ + 96 batch-скриптов в scripts/
 **Проекты:** AgentFS, Yodoca, NGT Memory

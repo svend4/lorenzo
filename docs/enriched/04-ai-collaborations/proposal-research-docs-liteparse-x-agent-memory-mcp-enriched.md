@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Proposal: Research-Docs-Liteparse × Agent-Memory-Mcp
+
+
+<!-- summary -->
+> Интеграция обеспечивает замкнутый цикл: документы → экстракция фактов → накопление знаний с автоматической фильтрацией через decay-механизмы.
+
+> [!NOTE]
+> Раздел `proposal-research-docs-liteparse-x-agent-memory-mcp-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция ingestion-слоя (Research-Docs-Liteparse) и memory-слоя (Agent-Memory-Mcp): Research-Docs- -->
 <!-- tags: proposal, research-docs-liteparse, agent-memory-mcp, ingestion, memory, integration -->
@@ -31,3 +46,10 @@ Proposal для интеграции ingestion-слоя (Research-Docs-Liteparse
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-research-docs-liteparse-x-agent-memory-mcp](docs\04-ai-collaborations\proposals\proposal-research-docs-liteparse-x-agent-memory-mcp.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_research_docs_liteparse_x_agent_memory_mcp_enriched.py
+```

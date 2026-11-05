@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, security, knowledge, ingestion]
+state: normalized
+---
+
 # MWS Vision Bench: первый русскоязычный бенчмарк для бизнес-OCR с VLM
+
+<!-- toc-auto -->
+<!-- tags: mts-ai-mws-vision-bench-business-ocr-vlm, docs -->
+
+
+<!-- summary -->
+> `mts-ai-mws-vision-bench-business-ocr-vlm` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -265,3 +279,11 @@ class LorenzoDocumentExtractionBench:
 - Смежная (VLM vs IDP бенчмарк ContentAI, R30): docs/06-discovery/round-30/
 - Смежная (Авито VLM, R32): docs/06-discovery/round-32/
 - Смежная (Docling мультимодальный RAG, R19): docs/06-discovery/round-19/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

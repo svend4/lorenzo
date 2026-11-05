@@ -5,6 +5,14 @@ tags: [roadmap, architecture, planning, knowledge-os, docs-toolkit, sprint-plan]
 
 # Lorenzo — План продолжения разработки: Phases X–XX
 
+<!-- toc-auto -->
+<!-- tags: development-plan-phase-x, docs -->
+
+
+<!-- summary -->
+> `DEVELOPMENT_PLAN_PHASE_X` — раздел документации проекта Lorenzo.
+
+
 > [!IMPORTANT]
 > Документ описывает **следующий горизонт работ** (после Phases I–IX
 > docs-toolkit и итераций 0–15 прототипа Knowledge OS).

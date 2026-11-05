@@ -1,4 +1,22 @@
+---
+date: 2026-06-05
+tags: [memory, rag, ingestion, architecture, roadmap]
+state: normalized
+---
+
 # Авито: мультимодальные модели для обогащения поиска — vLLM, LoRA, GPU-кластеры
+
+<!-- toc-auto -->
+<!-- tags: avito-multimodal-vlm-search-enrichment, docs -->
+
+
+<!-- summary -->
+> Авито: мультимодальные модели для обогащения поиска — vLLM, LoRA, GPU-кластеры — раздел документации проекта Lorenzo.
+ 
+ 
+ 
+>   — раздел документации проекта Lorenzo.
+
 
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
@@ -329,3 +347,11 @@ class LorenzoImageEnricher:
 - Смежная (vLLM+видео inference): https://habr.com/ru/articles/936110/
 - Qwen2.5-VL: github.com/QwenLM/Qwen2.5-VL (Apache 2.0)
 - vLLM: github.com/vllm-project/vllm (Apache 2.0)
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

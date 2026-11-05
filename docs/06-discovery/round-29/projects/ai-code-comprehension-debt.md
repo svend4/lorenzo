@@ -1,4 +1,23 @@
+---
+date: 2026-06-05
+tags: [rag, ingestion, architecture, self-improve, collaboration]
+state: normalized
+---
+
 # Код без автора: comprehension debt и деградация качества AI-сгенерированного кода
+
+<!-- toc-auto -->
+<!-- tags: ai-code-comprehension-debt, docs -->
+
+
+<!-- summary -->
+> Автор: diffnotes-tech (Хабр, апрель 2025) Хабр: https://habr.com/ru/articles/1021068/
+Хабр: https://habr.com/ru/articles/1021068/  
+GitHub: не применимо (аналитическая статья)  
+Слой: orchestration / analytics  
+Дата: апрель 2025  
+Уникальность: Эмпирическое исследование деградации качества
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -260,3 +279,11 @@ class LorenzoComprehensionAudit:
 - Смежная (AI тесты которые ничего не тестируют): https://habr.com/ru/articles/1023532/
 - PMD CPD (copy-paste detector): github.com/pmd/pmd
 - SonarQube cognitive complexity: sonarqube.org
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

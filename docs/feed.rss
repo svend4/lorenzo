@@ -5,146 +5,146 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Thu, 14 May 2026 04:21:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 18:41:16 GMT</lastBuildDate>
     <item>
-      <title>feat: Iteration 15 — CI Quality Gate + Multi-Query + Feedback Loop</title>
-      <link>https://github.com/svend4/lorenzo/commit/3f67a595f7d131f0c8df9e22a9adc9e659a3a112</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/3f67a595f7d131f0c8df9e22a9adc9e659a3a112</guid>
-      <pubDate>Wed, 13 May 2026 15:24:22 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 15 — CI Quality Gate + Multi-Query + Feedback Loop</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN.md">docs/DEVELOPMENT_PLAN.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/FEEDBACK_LOOP.md">docs/FEEDBACK_LOOP.md</a></li></ul><p>Коммит: <code>3f67a595</code></p>]]></description>
+      <title>chore: refresh catalog timestamps to fix CI catalog up-to-date check</title>
+      <link>https://github.com/svend4/lorenzo/commit/6f51d52c591d61cacc7cd9ce8a51eb9bc1d6d8f9</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6f51d52c591d61cacc7cd9ce8a51eb9bc1d6d8f9</guid>
+      <pubDate>Fri, 05 Jun 2026 18:09:23 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: refresh catalog timestamps to fix CI catalog up-to-date check</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li></ul><p>Коммит: <code>6f51d52c</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 14 — Search Boost + Digest + Snapshot + Contact Drafts</title>
-      <link>https://github.com/svend4/lorenzo/commit/9a5107a06cbebe6f8d0c96ce46ea8e59b4c58517</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/9a5107a06cbebe6f8d0c96ce46ea8e59b4c58517</guid>
-      <pubDate>Wed, 13 May 2026 15:16:11 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 14 — Search Boost + Digest + Snapshot + Contact Drafts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN.md">docs/DEVELOPMENT_PLAN.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DIGEST_WEEKLY.md">docs/DIGEST_WEEKLY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KNOWLEDGE_SNAPSHOT.md">docs/KNOWLEDGE_SNAPSHOT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/AnastasiyaW_draft.md">docs/contacts/AnastasiyaW_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/Antipozitive_draft.md">docs/contacts/Antipozitive_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/Cutcode_draft.md">docs/contacts/Cutcode_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/Dmitriila_draft.md">docs/contacts/Dmitriila_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/MiXaiLL76_draft.md">docs/contacts/MiXaiLL76_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/Sonia_Black_draft.md">docs/contacts/Sonia_Black_draft.md</a></li></ul><p>Коммит: <code>9a5107a0</code></p>]]></description>
+      <title>feat: LLM enrichment of habr-projects and contact drafts</title>
+      <link>https://github.com/svend4/lorenzo/commit/7a2cc22427d916077373da08773288c618d1664b</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/7a2cc22427d916077373da08773288c618d1664b</guid>
+      <pubDate>Fri, 29 May 2026 16:36:14 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: LLM enrichment of habr-projects and contact drafts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/AnastasiyaW_draft.md">docs/contacts/AnastasiyaW_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/Antipozitive_draft.md">docs/contacts/Antipozitive_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/Cutcode_draft.md">docs/contacts/Cutcode_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/Dmitriila_draft.md">docs/contacts/Dmitriila_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/MiXaiLL76_draft.md">docs/contacts/MiXaiLL76_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/QA.md">docs/contacts/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/Sonia_Black_draft.md">docs/contacts/Sonia_Black_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/VitaliySemenov_draft.md">docs/contacts/VitaliySemenov_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/VitalyOborin_draft.md">docs/contacts/VitalyOborin_draft.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/contacts/VladSpace_draft.md">docs/contacts/VladSpace_draft.md</a></li></ul><p>Коммит: <code>7a2cc224</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 13 — ANN Index + Query Analytics + Hot Cards</title>
-      <link>https://github.com/svend4/lorenzo/commit/5524f21e038088ccb54cdc1a444d6e885f03fbe5</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/5524f21e038088ccb54cdc1a444d6e885f03fbe5</guid>
-      <pubDate>Wed, 13 May 2026 15:06:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 13 — ANN Index + Query Analytics + Hot Cards</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN.md">docs/DEVELOPMENT_PLAN.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HOT_CARDS.md">docs/HOT_CARDS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/QUERY_ANALYTICS.md">docs/QUERY_ANALYTICS.md</a></li></ul><p>Коммит: <code>5524f21e</code></p>]]></description>
+      <title>fix: Cowork MCP integration - working RAG, doctor fix, config env var</title>
+      <link>https://github.com/svend4/lorenzo/commit/6f3196b5593d9d6bcd8d807333260f36070c74ea</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6f3196b5593d9d6bcd8d807333260f36070c74ea</guid>
+      <pubDate>Thu, 28 May 2026 21:50:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>fix: Cowork MCP integration - working RAG, doctor fix, config env var</strong></p><p>Коммит: <code>6f3196b5</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 12 — PageRank-Boosted Search</title>
-      <link>https://github.com/svend4/lorenzo/commit/00610ac46edffbf4bad79ee320eb4bf886d9db4a</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/00610ac46edffbf4bad79ee320eb4bf886d9db4a</guid>
-      <pubDate>Wed, 13 May 2026 14:58:27 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 12 — PageRank-Boosted Search</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN.md">docs/DEVELOPMENT_PLAN.md</a></li></ul><p>Коммит: <code>00610ac4</code></p>]]></description>
+      <title>Merge pull request #29 from svend4/claude/continue-development-BrDvi</title>
+      <link>https://github.com/svend4/lorenzo/commit/adf6db7ad82c88bba8463dcc4a08913792182d08</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/adf6db7ad82c88bba8463dcc4a08913792182d08</guid>
+      <pubDate>Fri, 15 May 2026 15:15:26 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge pull request #29 from svend4/claude/continue-development-BrDvi</strong></p><p>Коммит: <code>adf6db7a</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 11 — Knowledge Graph + Skill Metrics</title>
-      <link>https://github.com/svend4/lorenzo/commit/b240647caa07fcccb05f5ba6ee7129e519a5ae15</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b240647caa07fcccb05f5ba6ee7129e519a5ae15</guid>
-      <pubDate>Wed, 13 May 2026 14:47:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 11 — Knowledge Graph + Skill Metrics</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CARD_GRAPH.md">docs/CARD_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN.md">docs/DEVELOPMENT_PLAN.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SKILL_METRICS.md">docs/SKILL_METRICS.md</a></li></ul><p>Коммит: <code>b240647c</code></p>]]></description>
+      <title>docs: detailed Phase X-XIX continuation plan</title>
+      <link>https://github.com/svend4/lorenzo/commit/cb874996ebe4d257e58912afaeb474c561f1e9fe</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/cb874996ebe4d257e58912afaeb474c561f1e9fe</guid>
+      <pubDate>Fri, 15 May 2026 15:11:45 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: detailed Phase X-XIX continuation plan</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN_PHASE_X.md">docs/DEVELOPMENT_PLAN_PHASE_X.md</a></li></ul><p>Коммит: <code>cb874996</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 10 — Summary Extender + 1005 Approved</title>
-      <link>https://github.com/svend4/lorenzo/commit/11edba6fab671e3f92004640403c62fa969508ee</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/11edba6fab671e3f92004640403c62fa969508ee</guid>
-      <pubDate>Wed, 13 May 2026 14:41:03 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 10 — Summary Extender + 1005 Approved</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/00-intro-part2.md">docs/01-svyazi/00-intro-part2.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/04-ensembles-overview.md">docs/01-svyazi/04-ensembles-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/06-security-privacy.md">docs/01-svyazi/06-security-privacy.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/07-mvp-planning.md">docs/01-svyazi/07-mvp-planning.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/08-conclusions.md">docs/01-svyazi/08-conclusions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/09-architectural-gaps.md">docs/01-svyazi/09-architectural-gaps.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/10-second-order-ensembles.md">docs/01-svyazi/10-second-order-ensembles.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/11-integration-contracts.md">docs/01-svyazi/11-integration-contracts.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/14-limitations.md">docs/01-svyazi/14-limitations.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li></ul><p>Коммит: <code>11edba6f</code></p>]]></description>
+      <title>docs: reconcile top-level READMEs with actual repo state</title>
+      <link>https://github.com/svend4/lorenzo/commit/26fc001c07efdb961b9b3ece9de09dd8766a5d9d</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/26fc001c07efdb961b9b3ece9de09dd8766a5d9d</guid>
+      <pubDate>Fri, 15 May 2026 15:03:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: reconcile top-level READMEs with actual repo state</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>26fc001c</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 9 — Progressive Summarize + SSE Streaming</title>
-      <link>https://github.com/svend4/lorenzo/commit/47cf2b2b789e227dcc11f57333db51f914de593c</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/47cf2b2b789e227dcc11f57333db51f914de593c</guid>
-      <pubDate>Wed, 13 May 2026 14:32:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 9 — Progressive Summarize + SSE Streaming</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/12-roadmap.md">docs/01-svyazi/12-roadmap.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/03-portal-protocol-md.md">docs/02-anthropic-vacancies/03-portal-protocol-md.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md">docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/09-4-passport-passport-md.md">docs/02-anthropic-vacancies/09-4-passport-passport-md.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/105-review-methodology-md.md">docs/02-anthropic-vacancies/105-review-methodology-md.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/106-tl-dr.md">docs/02-anthropic-vacancies/106-tl-dr.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/123-portal-mcp-py.md">docs/02-anthropic-vacancies/123-portal-mcp-py.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/132-planned-v0-2-0.md">docs/02-anthropic-vacancies/132-planned-v0-2-0.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/137-table-of-contents.md">docs/02-anthropic-vacancies/137-table-of-contents.md</a></li></ul><p>Коммит: <code>47cf2b2b</code></p>]]></description>
+      <title>Merge pull request #27 from svend4/claude/continue-development-BrDvi</title>
+      <link>https://github.com/svend4/lorenzo/commit/88108b8d9eaa65a3d3ba2ef798cf99d9ff365765</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/88108b8d9eaa65a3d3ba2ef798cf99d9ff365765</guid>
+      <pubDate>Fri, 15 May 2026 14:17:31 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge pull request #27 from svend4/claude/continue-development-BrDvi</strong></p><p>Коммит: <code>88108b8d</code></p>]]></description>
     </item>
     <item>
-      <title>chore: commit auto-summarize state changes across docs</title>
-      <link>https://github.com/svend4/lorenzo/commit/046518328f16a1ffcf64dde4e6800a809dcdc00c</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/046518328f16a1ffcf64dde4e6800a809dcdc00c</guid>
-      <pubDate>Wed, 13 May 2026 14:22:09 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: commit auto-summarize state changes across docs</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/02-MEDIUM.md">docs/ROADMAP/02-MEDIUM.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ROADMAP/README.md">docs/ROADMAP/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ai-collaborations/QA.md">docs/ai-collaborations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ai-collaborations/candidates/01-three-key-candidates.md">docs/ai-collaborations/candidates/01-three-key-candidates.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ai-collaborations/candidates/02-related-projects-context.md">docs/ai-collaborations/candidates/02-related-projects-context.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md">docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ai-collaborations/candidates/README.md">docs/ai-collaborations/candidates/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ai-collaborations/channels/README.md">docs/ai-collaborations/channels/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ai-collaborations/continuation/01-shared-memory-between-agents.md">docs/ai-collaborations/continuation/01-shared-memory-between-agents.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ai-collaborations/continuation/02-agentops-trace-envelope.md">docs/ai-collaborations/continuation/02-agentops-trace-envelope.md</a></li></ul><p>Коммит: <code>04651832</code></p>]]></description>
+      <title>chore: update generated docs artifacts</title>
+      <link>https://github.com/svend4/lorenzo/commit/49d24814c6ccc121fb99deeb6b7d63b1304a6390</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/49d24814c6ccc121fb99deeb6b7d63b1304a6390</guid>
+      <pubDate>Fri, 15 May 2026 13:20:13 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: update generated docs artifacts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-02/projects/coreness-flow.md">docs/06-discovery/round-02/projects/coreness-flow.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-02/projects/dedoc.md">docs/06-discovery/round-02/projects/dedoc.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-02/projects/doka-local-agent.md">docs/06-discovery/round-02/projects/doka-local-agent.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-02/projects/irene-voice-assistant.md">docs/06-discovery/round-02/projects/irene-voice-assistant.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-02/projects/pocketcoder.md">docs/06-discovery/round-02/projects/pocketcoder.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-02/projects/xai-agent.md">docs/06-discovery/round-02/projects/xai-agent.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-02/session-log.md">docs/06-discovery/round-02/session-log.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-03/projects/ai-review.md">docs/06-discovery/round-03/projects/ai-review.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-03/projects/devops-llm-monitor.md">docs/06-discovery/round-03/projects/devops-llm-monitor.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/06-discovery/round-03/projects/habr-search.md">docs/06-discovery/round-03/projects/habr-search.md</a></li></ul><p>Коммит: <code>49d24814</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 8 — Auto-Summarize + Promote Lift</title>
-      <link>https://github.com/svend4/lorenzo/commit/b79ec908b13f1bd4daf523d1e7f76274cc8c6064</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b79ec908b13f1bd4daf523d1e7f76274cc8c6064</guid>
-      <pubDate>Wed, 13 May 2026 14:21:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 8 — Auto-Summarize + Promote Lift</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/12-roadmap.md">docs/01-svyazi/12-roadmap.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/03-portal-protocol-md.md">docs/02-anthropic-vacancies/03-portal-protocol-md.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/06-1-introduction.md">docs/02-anthropic-vacancies/06-1-introduction.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md">docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/09-4-passport-passport-md.md">docs/02-anthropic-vacancies/09-4-passport-passport-md.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/105-review-methodology-md.md">docs/02-anthropic-vacancies/105-review-methodology-md.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/106-tl-dr.md">docs/02-anthropic-vacancies/106-tl-dr.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/123-portal-mcp-py.md">docs/02-anthropic-vacancies/123-portal-mcp-py.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/132-planned-v0-2-0.md">docs/02-anthropic-vacancies/132-planned-v0-2-0.md</a></li></ul><p>Коммит: <code>b79ec908</code></p>]]></description>
+      <title>chore: regenerate catalogs + TEST_BASELINE (Phase I.2, fix PR #27 CI)</title>
+      <link>https://github.com/svend4/lorenzo/commit/787f143485cfd0a21504877701faf83d2c966533</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/787f143485cfd0a21504877701faf83d2c966533</guid>
+      <pubDate>Fri, 15 May 2026 12:23:14 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate catalogs + TEST_BASELINE (Phase I.2, fix PR #27 CI)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li></ul><p>Коммит: <code>787f1434</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 7 — Production Hardening</title>
-      <link>https://github.com/svend4/lorenzo/commit/53f64dee0612b9b0a37f9a8de96dc627a2519b70</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/53f64dee0612b9b0a37f9a8de96dc627a2519b70</guid>
-      <pubDate>Wed, 13 May 2026 14:11:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 7 — Production Hardening</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DECAY_CANDIDATES.md">docs/DECAY_CANDIDATES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN.md">docs/DEVELOPMENT_PLAN.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROMOTE_LOG.md">docs/PROMOTE_LOG.md</a></li></ul><p>Коммит: <code>53f64dee</code></p>]]></description>
+      <title>Merge pull request #23 from svend4/claude/continue-development-BrDvi</title>
+      <link>https://github.com/svend4/lorenzo/commit/86473e40c495da122c18ae971eb0c9c73b95b75a</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/86473e40c495da122c18ae971eb0c9c73b95b75a</guid>
+      <pubDate>Thu, 14 May 2026 17:55:46 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge pull request #23 from svend4/claude/continue-development-BrDvi</strong></p><p>Коммит: <code>86473e40</code></p>]]></description>
     </item>
     <item>
-      <title>feat: Iteration 6 — Autonomous Intelligence Layer</title>
-      <link>https://github.com/svend4/lorenzo/commit/d4f96b9ba44606a4bf138038310954bcbbd961b3</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/d4f96b9ba44606a4bf138038310954bcbbd961b3</guid>
-      <pubDate>Wed, 13 May 2026 14:03:34 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Iteration 6 — Autonomous Intelligence Layer</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md">docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-agent-memory-mcp.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md">docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md">docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agentfs.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md">docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-knowledge-space.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN.md">docs/DEVELOPMENT_PLAN.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KNOWLEDGE_EVOLUTION.md">docs/KNOWLEDGE_EVOLUTION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROMOTE_LOG.md">docs/PROMOTE_LOG.md</a></li></ul><p>Коммит: <code>d4f96b9b</code></p>]]></description>
+      <title>ops: add cleanup_workflow_history.py + rerun_workflows.py for CI maintenance</title>
+      <link>https://github.com/svend4/lorenzo/commit/81ce70d33b68a6030ab57d5f34422fa532aa5e8e</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/81ce70d33b68a6030ab57d5f34422fa532aa5e8e</guid>
+      <pubDate>Thu, 14 May 2026 14:04:06 GMT</pubDate>
+      <description><![CDATA[<p><strong>ops: add cleanup_workflow_history.py + rerun_workflows.py for CI maintenance</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/WORKFLOW_CHECKLIST.md">docs/WORKFLOW_CHECKLIST.md</a></li></ul><p>Коммит: <code>81ce70d3</code></p>]]></description>
     </item>
     <item>
-      <title>chore: update PROGRESS.md and search_index.json</title>
-      <link>https://github.com/svend4/lorenzo/commit/b9ceb61f8707e086f8b35f5efc921c537eae4756</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b9ceb61f8707e086f8b35f5efc921c537eae4756</guid>
-      <pubDate>Wed, 13 May 2026 13:55:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: update PROGRESS.md and search_index.json</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>b9ceb61f</code></p>]]></description>
+      <title>test+ci: fix test_ann_index API drift + add workflow verifier + checklist</title>
+      <link>https://github.com/svend4/lorenzo/commit/230685051c34915b26cecf1a801f2a91510b19fd</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/230685051c34915b26cecf1a801f2a91510b19fd</guid>
+      <pubDate>Thu, 14 May 2026 12:04:51 GMT</pubDate>
+      <description><![CDATA[<p><strong>test+ci: fix test_ann_index API drift + add workflow verifier + checklist</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/WORKFLOW_CHECKLIST.md">docs/WORKFLOW_CHECKLIST.md</a></li></ul><p>Коммит: <code>23068505</code></p>]]></description>
     </item>
     <item>
-      <title>feat: RFC system, 23 proposals, full semantic index, lifecycle CI</title>
-      <link>https://github.com/svend4/lorenzo/commit/c39b25a21227e9f0f454fa05681bce35ea176d95</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/c39b25a21227e9f0f454fa05681bce35ea176d95</guid>
-      <pubDate>Wed, 13 May 2026 13:55:15 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: RFC system, 23 proposals, full semantic index, lifecycle CI</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/README.md">docs/04-ai-collaborations/proposals/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md">docs/04-ai-collaborations/proposals/proposal-agentfs-x-memnet.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md">docs/04-ai-collaborations/proposals/proposal-agentfs-x-rufler.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md">docs/04-ai-collaborations/proposals/proposal-agentfs-x-yodoca.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md">docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-ngt-memory.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md">docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-rufler.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-yodoca.md">docs/04-ai-collaborations/proposals/proposal-knowledge-space-x-yodoca.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-mclaude-x-agent-memory-mcp.md">docs/04-ai-collaborations/proposals/proposal-mclaude-x-agent-memory-mcp.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-mclaude-x-rufler.md">docs/04-ai-collaborations/proposals/proposal-mclaude-x-rufler.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md">docs/04-ai-collaborations/proposals/proposal-research-docs-liteparse-x-agent-memory-mcp.md</a></li></ul><p>Коммит: <code>c39b25a2</code></p>]]></description>
+      <title>chore: remove CI_PROBE_TEST.md — probe served its purpose</title>
+      <link>https://github.com/svend4/lorenzo/commit/bc4bf72cfc47ff310721ffb49b14090db1f835ed</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/bc4bf72cfc47ff310721ffb49b14090db1f835ed</guid>
+      <pubDate>Thu, 14 May 2026 11:27:47 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: remove CI_PROBE_TEST.md — probe served its purpose</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CI_PROBE_TEST.md">docs/CI_PROBE_TEST.md</a></li></ul><p>Коммит: <code>bc4bf72c</code></p>]]></description>
     </item>
     <item>
-      <title>feat: implement all 5 phases of DEVELOPMENT_PLAN</title>
-      <link>https://github.com/svend4/lorenzo/commit/117213f27f49e7d04278aadf733a8c3d01dbdba0</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/117213f27f49e7d04278aadf733a8c3d01dbdba0</guid>
-      <pubDate>Wed, 13 May 2026 12:54:55 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: implement all 5 phases of DEVELOPMENT_PLAN</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/00-intro-part2.md">docs/01-svyazi/00-intro-part2.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/01-executive-summary.md">docs/01-svyazi/01-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/02-methodology.md">docs/01-svyazi/02-methodology.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/03-component-catalog.md">docs/01-svyazi/03-component-catalog.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/04-ensembles-overview.md">docs/01-svyazi/04-ensembles-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/06-security-privacy.md">docs/01-svyazi/06-security-privacy.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/07-mvp-planning.md">docs/01-svyazi/07-mvp-planning.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/08-conclusions.md">docs/01-svyazi/08-conclusions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/09-architectural-gaps.md">docs/01-svyazi/09-architectural-gaps.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/10-second-order-ensembles.md">docs/01-svyazi/10-second-order-ensembles.md</a></li></ul><p>Коммит: <code>117213f2</code></p>]]></description>
+      <title>merge: main into claude/continue-development-BrDvi</title>
+      <link>https://github.com/svend4/lorenzo/commit/c2986bcd63d609deffa55ec97cb339b09dc0bd1c</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/c2986bcd63d609deffa55ec97cb339b09dc0bd1c</guid>
+      <pubDate>Thu, 14 May 2026 10:29:30 GMT</pubDate>
+      <description><![CDATA[<p><strong>merge: main into claude/continue-development-BrDvi</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li></ul><p>Коммит: <code>c2986bcd</code></p>]]></description>
     </item>
     <item>
-      <title>chore: update auto-generated docs (broken links, collab suggestions, staleness)</title>
-      <link>https://github.com/svend4/lorenzo/commit/e469abf40ba2cbadd887d3aad4c0a9412d1536b6</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/e469abf40ba2cbadd887d3aad4c0a9412d1536b6</guid>
-      <pubDate>Wed, 13 May 2026 12:33:04 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: update auto-generated docs (broken links, collab suggestions, staleness)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BROKEN_LINKS.md">docs/BROKEN_LINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COLLAB_SUGGESTIONS.md">docs/COLLAB_SUGGESTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/STALENESS.md">docs/STALENESS.md</a></li></ul><p>Коммит: <code>e469abf4</code></p>]]></description>
+      <title>test(ci): re-probe after GitHub Pro upgrade — expect runners to start</title>
+      <link>https://github.com/svend4/lorenzo/commit/c49e0f914444d4b1931616c7c9d691ecbe041939</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/c49e0f914444d4b1931616c7c9d691ecbe041939</guid>
+      <pubDate>Thu, 14 May 2026 09:14:02 GMT</pubDate>
+      <description><![CDATA[<p><strong>test(ci): re-probe after GitHub Pro upgrade — expect runners to start</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CI_PROBE_TEST.md">docs/CI_PROBE_TEST.md</a></li></ul><p>Коммит: <code>c49e0f91</code></p>]]></description>
     </item>
     <item>
-      <title>docs: add DEVELOPMENT_PLAN.md — technical audit and phased roadmap</title>
-      <link>https://github.com/svend4/lorenzo/commit/a6084f6385544a6282b422eca2060c44886e0c04</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/a6084f6385544a6282b422eca2060c44886e0c04</guid>
-      <pubDate>Wed, 13 May 2026 12:32:47 GMT</pubDate>
-      <description><![CDATA[<p><strong>docs: add DEVELOPMENT_PLAN.md — technical audit and phased roadmap</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEVELOPMENT_PLAN.md">docs/DEVELOPMENT_PLAN.md</a></li></ul><p>Коммит: <code>a6084f63</code></p>]]></description>
+      <title>test(ci): re-probe after budgets configured (15 + 20)</title>
+      <link>https://github.com/svend4/lorenzo/commit/523d33cdf455b841b9e05eba9ef1d2e55068d262</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/523d33cdf455b841b9e05eba9ef1d2e55068d262</guid>
+      <pubDate>Thu, 14 May 2026 08:55:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>test(ci): re-probe after budgets configured (15 + 20)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CI_PROBE_TEST.md">docs/CI_PROBE_TEST.md</a></li></ul><p>Коммит: <code>523d33cd</code></p>]]></description>
     </item>
     <item>
-      <title>chore: update ORPHANS.md with current orphan count (1563 files checked)</title>
-      <link>https://github.com/svend4/lorenzo/commit/fa70dbdd068ef7277f7af80fef6b473f589f5c74</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/fa70dbdd068ef7277f7af80fef6b473f589f5c74</guid>
-      <pubDate>Wed, 13 May 2026 12:24:28 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: update ORPHANS.md with current orphan count (1563 files checked)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ORPHANS.md">docs/ORPHANS.md</a></li></ul><p>Коммит: <code>fa70dbdd</code></p>]]></description>
+      <title>Merge remote-tracking branch 'origin/main' into claude/debug-hanging-issue-0AzoY</title>
+      <link>https://github.com/svend4/lorenzo/commit/33cbe0fdacd15f1ea6166b1b47c953b0a30b9968</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/33cbe0fdacd15f1ea6166b1b47c953b0a30b9968</guid>
+      <pubDate>Thu, 14 May 2026 08:37:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge remote-tracking branch 'origin/main' into claude/debug-hanging-issue-0AzoY</strong></p><p>Коммит: <code>33cbe0fd</code></p>]]></description>
     </item>
     <item>
-      <title>chore: update generated docs artifacts from local script runs</title>
-      <link>https://github.com/svend4/lorenzo/commit/be0834cabc32f5d0d267160b2331b194caea8ec5</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/be0834cabc32f5d0d267160b2331b194caea8ec5</guid>
-      <pubDate>Wed, 13 May 2026 08:08:43 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: update generated docs artifacts from local script runs</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CLUSTERS.md">docs/CLUSTERS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONSISTENCY.md">docs/CONSISTENCY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACTS.md">docs/CONTACTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACT_PRIORITY.md">docs/CONTACT_PRIORITY.md</a></li></ul><p>Коммит: <code>be0834ca</code></p>]]></description>
+      <title>test(ci): probe — verify no CI runs on claude/** push</title>
+      <link>https://github.com/svend4/lorenzo/commit/febff83c343e086b0aca3dab6e4ffddbb1050f46</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/febff83c343e086b0aca3dab6e4ffddbb1050f46</guid>
+      <pubDate>Thu, 14 May 2026 08:35:22 GMT</pubDate>
+      <description><![CDATA[<p><strong>test(ci): probe — verify no CI runs on claude/** push</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CI_PROBE_TEST.md">docs/CI_PROBE_TEST.md</a></li></ul><p>Коммит: <code>febff83c</code></p>]]></description>
     </item>
     <item>
-      <title>chore: update generated docs artifacts from local script runs</title>
-      <link>https://github.com/svend4/lorenzo/commit/1d7372dc13a4238165140f9620d9d1b1037bf703</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/1d7372dc13a4238165140f9620d9d1b1037bf703</guid>
-      <pubDate>Wed, 13 May 2026 07:59:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: update generated docs artifacts from local script runs</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/QA.md">docs/04-ai-collaborations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CLUSTERS.md">docs/CLUSTERS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONSISTENCY.md">docs/CONSISTENCY.md</a></li></ul><p>Коммит: <code>1d7372dc</code></p>]]></description>
+      <title>Merge branch 'main' into claude/review-dev-status-VCSyX</title>
+      <link>https://github.com/svend4/lorenzo/commit/084887456b73b2c267cd60a474efa8f956d5a4fe</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/084887456b73b2c267cd60a474efa8f956d5a4fe</guid>
+      <pubDate>Thu, 14 May 2026 08:23:34 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge branch 'main' into claude/review-dev-status-VCSyX</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COLLAB_SUGGESTIONS.md">docs/COLLAB_SUGGESTIONS.md</a></li></ul><p>Коммит: <code>08488745</code></p>]]></description>
     </item>
     <item>
-      <title>chore: sync catalog files after merge (remove injected auto-sections)</title>
-      <link>https://github.com/svend4/lorenzo/commit/c7bfea234554188d8fde3332960c479b479ce317</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/c7bfea234554188d8fde3332960c479b479ce317</guid>
-      <pubDate>Wed, 13 May 2026 07:56:49 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: sync catalog files after merge (remove injected auto-sections)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li></ul><p>Коммит: <code>c7bfea23</code></p>]]></description>
+      <title>Merge pull request #21 from svend4/claude/current-dev-stage-dJtu0</title>
+      <link>https://github.com/svend4/lorenzo/commit/04515237b321d12aed5e3d6f4cdc84bb485cd93d</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/04515237b321d12aed5e3d6f4cdc84bb485cd93d</guid>
+      <pubDate>Thu, 14 May 2026 08:18:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>Merge pull request #21 from svend4/claude/current-dev-stage-dJtu0</strong></p><p>Коммит: <code>04515237</code></p>]]></description>
     </item>
   </channel>
 </rss>

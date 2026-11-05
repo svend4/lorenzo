@@ -6845,3 +6845,10 @@ python scripts/improve_empty_sections.py --dry-run
 - [SEARCH](SEARCH.md)
 - [READABILITY](READABILITY.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_empty_sections.py
+```

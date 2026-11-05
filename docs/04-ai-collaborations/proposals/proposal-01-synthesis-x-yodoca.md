@@ -3,7 +3,7 @@ title: "Proposal: 01-Synthesis × Yodoca"
 date: 2026-05-13
 card_id: 94c4c85b2ef1
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, 01-synthesis, yodoca, unknown, memory, integration]
 projects: [01-synthesis, yodoca]
 similarity: 0.570

@@ -1,4 +1,17 @@
+---
+state: normalized
+---
+
 # Proposal: Agentfs × Mclaude
+
+
+<!-- summary -->
+> Раздел proposal-agentfs-x-mclaude-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-agentfs-x-mclaude-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Agentfs) и orchestration-слоя (Mclaude): Agentfs предоставляет файловую с -->
 <!-- tags: proposal, agentfs, mclaude, knowledge, orchestration, integration -->
@@ -31,3 +44,10 @@ Proposal вписывается в слой проектирования арх�
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-agentfs-x-mclaude](docs\04-ai-collaborations\proposals\proposal-agentfs-x-mclaude.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_agentfs_x_mclaude_enriched.py
+```

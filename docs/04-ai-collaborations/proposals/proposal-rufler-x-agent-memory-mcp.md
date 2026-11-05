@@ -3,7 +3,7 @@ title: "Proposal: Rufler × Agent-Memory-Mcp"
 date: 2026-05-13
 card_id: 729eed52f163
 card_type: proposal
-state: raw
+state: normalized
 tags: [proposal, rufler, agent-memory-mcp, orchestration, memory, integration]
 projects: [rufler, agent-memory-mcp]
 similarity: 0.202

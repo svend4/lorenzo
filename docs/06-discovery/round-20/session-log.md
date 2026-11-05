@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [memory, rag, orchestration, knowledge, ingestion]
+state: normalized
+---
+
 # Round 20 — Лог поисковой сессии
+
+<!-- toc-auto -->
+<!-- tags: session-log, docs -->
+
+
+<!-- summary -->
+> Reasoning-LLM (Selectel, 892600, март 2025) — первый RU-разбор архитектуры thinking models: MLA, closed vs open thinking (o1 vs R1), дистилляция traces.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -71,3 +85,17 @@
 - **AI для product analytics** — LLM-анализ пользовательского поведения, cohort analysis через SQL-агент
 - **Multi-agent orchestration паттерны** — production кейсы: как координировать 5+ агентов без LangChain
 - **Privacy-preserving AI** — federated learning, differential privacy для LLM, локальные модели для конфиденциальных данных
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_session_log.py
+```
+
+## Смотрите также
+- [Главная](../../README.md)
+- [Метрики](../../METRICS.md)
+- [Здоровье](../../HEALTH.md)
+- [Глоссарий](../../GLOSSARY.md)
+- [Сущности](../../ENTITIES.md)

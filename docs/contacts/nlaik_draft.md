@@ -1,15 +1,34 @@
 ---
+state: normalized
 author: nlaik
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [rag, knowledge, ingestion, architecture, collaboration]
 ---
 
 # Черновик сообщения — nlaik (GitHub)
 
+<!-- toc-auto -->
+<!-- tags: nlaik-draft, docs -->
+
+
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (11):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Cutcode_draft
+ Dmitriila_draft
+ VladSpace_draft
+ spbmolot_draft
+ --
+Кто ссылается на этот документ (11):
+ READING_TIME
+ Cutcode_draft
+ Dmitriila_draft
 **Проекты:** Svyazi, LiteParse
 
 ---

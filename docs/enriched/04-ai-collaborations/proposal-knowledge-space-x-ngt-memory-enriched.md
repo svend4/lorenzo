@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, rag, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Proposal: Knowledge-Space × Ngt-Memory
+
+
+<!-- summary -->
+> Раздел proposal-knowledge-space-x-ngt-memory-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-knowledge-space-x-ngt-memory-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Knowledge-Space) и memory-слоя (Ngt-Memory): Knowledge-Space обеспечивает -->
 <!-- tags: proposal, knowledge-space, ngt-memory, knowledge, memory, integration -->
@@ -31,3 +46,10 @@ Proposal позиционируется как исследовательско�
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-knowledge-space-x-ngt-memory](docs\04-ai-collaborations\proposals\proposal-knowledge-space-x-ngt-memory.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_knowledge_space_x_ngt_memory_enriched.py
+```

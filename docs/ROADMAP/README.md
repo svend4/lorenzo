@@ -1,14 +1,23 @@
 ---
 date: 2026-05-13
 tags: [memory, rag, orchestration, ingestion, local-first]
-state: normalized
+state: approved
 ---
 
 # ROADMAP — варианты развития Lorenzo / Knowledge OS
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
 
 <!-- summary -->
-> **Дата:** 2026-04-29
+> **Дата:** 2026-04-29 Раздел README формируется автоматически из данных репозитория. Статус: Lorenzo на 53-м спринте, production-ready foundation для индивидуального knowledge worker'а или маленькой команды.
 **Статус:** Lorenzo на 53-м спринте, production-ready foundation для индивидуального knowledge worker'а или маленькой команды. Статус: Lorenzo на 53-м спринте, production-ready foundation для индивидуального knowledge worker'а или маленькой команды.
 
 **Дата:** 2026-04-29

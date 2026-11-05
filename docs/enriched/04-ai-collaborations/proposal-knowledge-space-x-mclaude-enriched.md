@@ -1,4 +1,19 @@
+---
+date: 2026-06-05
+tags: [memory, orchestration, knowledge, ingestion, architecture]
+state: normalized
+---
+
 # Proposal: Knowledge-Space × Mclaude
+
+
+<!-- summary -->
+> Раздел proposal-knowledge-space-x-mclaude-enriched формируется автоматически из данных репозитория.
+
+> [!NOTE]
+> Раздел `proposal-knowledge-space-x-mclaude-enriched` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 
 <!-- summary: Интеграция knowledge-слоя (Knowledge-Space) и orchestration-слоя (Mclaude): Knowledge-Space предоста -->
 <!-- tags: proposal, knowledge-space, mclaude, knowledge, orchestration, integration -->
@@ -29,3 +44,10 @@ Proposal представляет фундаментальное расшире�
 ---
 _Обогащено автоматически: 2026-05-29_
 _Источник: [proposal-knowledge-space-x-mclaude](docs\04-ai-collaborations\proposals\proposal-knowledge-space-x-mclaude.md)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_proposal_knowledge_space_x_mclaude_enriched.py
+```

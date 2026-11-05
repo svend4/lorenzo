@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [orchestration, ingestion, local-first, architecture, self-improve]
+state: normalized
+---
+
 # Глухой телефон для ИИ: физика LLM-графов и почему добавление агентов всё ломает
+
+<!-- toc-auto -->
+<!-- tags: aak204-llm-coordination-harness-telephone-game, docs -->
+
+
+<!-- summary -->
+> `aak204-llm-coordination-harness-telephone-game` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -325,3 +339,11 @@ class LorenzoCoordinationAudit:
 - API: OpenRouter (Qwen 3.5 Plus + Gemini 3.1 Flash Lite)
 - Смежная (LOCK-R CoT парадокс, R43): docs/06-discovery/round-43/projects/lockr-cot-paradox-bayesian-reasoning-benchmark.md
 - Смежная (A2A протокол, R21): docs/06-discovery/round-21/
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

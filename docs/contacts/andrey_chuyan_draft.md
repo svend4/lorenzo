@@ -1,15 +1,36 @@
 ---
+state: normalized
 author: andrey_chuyan
 platform: GitHub
 priority: 3
 generated: 2026-05-13
 status: draft
+tags: [rag, knowledge, ingestion, architecture, collaboration]
 ---
 
 # Черновик сообщения — andrey_chuyan (GitHub)
 
+<!-- toc-auto -->
+<!-- tags: andrey-chuyan-draft, docs -->
+
+
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (3):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Cutcode_draft
+ Dmitriila_draft
+ VladSpace_draft
+ nlaik_draft
+ --
+Кто ссылается на этот документ (3):
+ DIGEST_AUTO
+ READING_TIME
+ nlaik_draft
+ 
+Улучшенн
 **Проекты:** Svyazi, CardIndex
 
 ---

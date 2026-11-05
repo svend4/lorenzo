@@ -1,4 +1,18 @@
+---
+date: 2026-06-05
+tags: [rag, knowledge, ingestion, architecture, self-improve]
+state: normalized
+---
+
 # Yandex: production pipeline оценки LLM — от бенчмарков до LLM-as-judge
+
+<!-- toc-auto -->
+<!-- tags: yandex-llm-evaluation-production-pipeline, docs -->
+
+
+<!-- summary -->
+> `yandex-llm-evaluation-production-pipeline` — раздел документации проекта Lorenzo.
+
 
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
@@ -427,3 +441,11 @@ class LorenzoDocEvaluationPipeline:
 - Смежная (LOCK-R CoT парадокс, R43): docs/06-discovery/round-43/projects/lockr-cot-paradox-bayesian-reasoning-benchmark.md
 - Смежная (LangFuse наблюдаемость, R38): docs/06-discovery/round-38/
 - MERA benchmark: mera.a-ai.ru
+
+## Смотрите также
+- [Главная](../../../README.md)
+- [Метрики](../../../METRICS.md)
+- [Здоровье](../../../HEALTH.md)
+- [Глоссарий](../../../GLOSSARY.md)
+- [Сущности](../../../ENTITIES.md)
+- [Решения](../../../DECISIONS.md)

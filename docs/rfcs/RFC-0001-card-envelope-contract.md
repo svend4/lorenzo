@@ -1,5 +1,5 @@
 ---
-state: normalized
+state: approved
 rfc: "0001"
 title: "Card Envelope как единый контракт данных Svyazi 2.0"
 status: Accepted
@@ -11,6 +11,10 @@ tags: [architecture, rfc, card-envelope, core]
 ---
 
 # RFC-0001: Card Envelope как единый контракт данных Svyazi 2.0
+
+<!-- toc-auto -->
+<!-- tags: rfc-0001-card-envelope-contract, docs -->
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.

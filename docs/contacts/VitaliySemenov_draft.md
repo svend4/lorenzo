@@ -1,15 +1,34 @@
 ---
+state: normalized
 author: VitaliySemenov
 platform: GitHub
 priority: 2
 generated: 2026-05-13
 status: draft
+tags: [memory, orchestration, ingestion, architecture, collaboration]
 ---
 
 # Черновик сообщения — VitaliySemenov (GitHub)
 
+<!-- toc-auto -->
+<!-- tags: vitaliysemenov-draft, docs -->
+
+
 <!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Ссылка на репо с исследованием: github.com/svend4/lorenzo Кто ссылается на этот документ (3):
+С уважением,
+svend4
+ --
+Смотрите также:
+ Antipozitive_draft
+ spbmolot_draft
+ Cutcode_draft
+ Dmitriila_draft
+ --
+Кто ссылается на этот документ (3):
+ DIGEST_AUTO
+ READING_TIME
+ Antipozitive_dra
 **Проекты:** Svyazi, agent-memory-mcp
 
 ---
